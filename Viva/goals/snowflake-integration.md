@@ -23,11 +23,13 @@ description: "Learn how to integrate your Viva Goals OKRs with Data in Snowflake
 > [!IMPORTANT] 
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Viva Goals can integrate with Snowflake to automatically update your OKRs. For example, Let's say you have the data inside your Snowflake warehouse to track the leads generated across multiple channels and your goal is to generate 4000 qualified leads from SEO. By implementing a Snowflake integration, you can save yourself the hassle of repeatedly going back and forth between Snowflake and Viva Goals to update your progress: Viva Goals will sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current.
+Viva Goals can integrate with Snowflake to automatically update your OKRs. 
 
-## Setting up
+Let's take this example: You have data inside your Snowflake warehouse to track leads generated across multiple channels and your goal is to generate 4000 qualified leads from SEO By implementing a Snowflake integration, you can save yourself the hassle of repeatedly going back and forth between Snowflake and Viva Goals to update your progress. Viva Goals will sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current.
 
-An admin can set up the Snowflake integration on Viva Goals. To do so:
+## How to set up the Snowflake integration 
+
+An admin can set up the Snowflake integration in Viva Goals. Take the following steps: 
 
 1. Navigate to Viva Goals’ integrations page through **Admin > Integrations**.
 
@@ -39,7 +41,7 @@ An admin can set up the Snowflake integration on Viva Goals. To do so:
 
 Viva Goals allows you to connect with multiple Snowflake warehouses. Click **New connection** to add another and differentiate them using names. These names are displayed to members when they link their OKRs to Snowflake data.
 
-## Using Snowflake integration
+## How to use the Snowflake integration
 
 Once the setup is complete, users in your organization can link the success of their OKRs directly to the data inside a Snowflake warehouse.
 
