@@ -19,20 +19,20 @@ search.appverid:
 description: "Learn how to base your OKR progress in Viva Goals by connecting with significant HubSpot metrics."
 ---
 
-# Hubspot Integration
+# Hubspot integration
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-## Who can use this feature?
+## About the HubSpot integration
+    
+The Viva Goals HubSpot integration allows you to link Objectives and Key Results (OKRs) to HubSpot Sales and Marketing metrics for automatic real-time updates on the progress. 
 
-All users and admins (Admins also have permissions to manage the integration from the admin dashboard).
+Let's take this example: you have an objective to increase the number of Marketing Qualified Leads(MQLs) this quarter. You can use the HubSpot integration to save yourself the hassle of going back and forth between HubSpot and Viva Goals to update progress. Viva Goals will sync values for you, saving time while keeping your OKRs current.
+    
+All users and admins can use the HubSpot integration. Admins also have permissions to manage the integration from the admin dashboard. 
 
-## About the HubSpot Integration
-
-Viva Goals' HubSpot Integration allows you to link Objectives and Key Results (OKRs) to HubSpot Sales and Marketing metrics for automatic real-time updates on the progress. For example, you have an objective to increase the number of Marketing Qualified Lead (MQL) this quarter. You can use the HubSpot integration to save yourself the hassle of repeatedly going back and forth between HubSpot and Viva Goals to update the progress. Viva Goals will sync the values for you, thus saving time while keeping your OKRs current.
-
-## Connect Hubspot to your Viva Goals account
+## How to connect HubSpot to your Viva Goals account
 
 1. Navigate to Viva Goals’ integrations page through **Admin > Integrations**.  
 
@@ -46,17 +46,15 @@ Viva Goals' HubSpot Integration allows you to link Objectives and Key Results (O
 
 5. Viva Goals allows you to connect with multiple Hubspot accounts. Select **New connection** to add another instance and use names to differentiate them. These names are displayed to members when they link their OKRs to Hubspot.
 
-## Edit an existing Hubspot connection
+## How to edit an existing Hubspot connection
 
-Admins can also edit an existing Hubspot connection, including the integration’s name and shared state that you’ve created, from the Hubspot integration’s view. To do that:
+Admins can also edit an existing Hubspot connection, including the integration’s name and shared state that you’ve created, from the Hubspot integration’s view. 
 
 1. Start in the **Integrations** section in the Admin Dashboard and select **Hubspot**.  
 
 2. Select the **Edit** icon next to the Hubspot connection. In the pop-up dialog box that displays, you can edit the **Connection Name** and select or clear the **Share connection with all users** checkbox.
 
-    :::image type="content" source="../media/goals/hubspot-integration-edit.gif" alt-text="Hubspot Integration 2":::
-
-## How to use Hubspot Integration
+## How to use the Hubspot Integration
 
 Now that the integration is enabled, your team can link a Hubspot metric with an OKR.
 
@@ -113,8 +111,6 @@ Now that the integration is enabled, your team can link a Hubspot metric with an
 > [!NOTE]
 > Your access to Marketing hub and Sales hub metrics will depend on your HubSpot license.
 
-### How to disable the Integration?
+### How to disable the HubSpot integration 
 
-The Hubspot integration may also be disabled by an Admin at any time. To disable the integration as an Admin, go to Hubspot in the **Integrations** section and select **Manage**. In the **Hubspot Configurations** page, go to the **Change** dropdown, select **Disable** and confirm the action.
-
-:::image type="content" source="../media/goals/disabling-hubspot-ally.gif" alt-text="Hubspot Integration 3":::
+The Hubspot integration may also be disabled by an admin at any time. To disable the integration, go to HubSpot in the **Integrations** section and select **Manage**. In the **Hubspot Configurations** page, go to the **Change** dropdown, select **Disable** and confirm the action.
