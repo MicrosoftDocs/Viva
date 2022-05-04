@@ -19,14 +19,16 @@ search.appverid:
 description: "Learn how to integrate your spreadsheets in Box with OKRs in Viva Goals."
 ---
 
-# Box Integration
+# Box integration
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Viva Goals’ Box integration allows you to update your Objectives and Key Results (OKR) progress automatically by syncing your data from your spreadsheets within Box to your OKRs in Viva Goals. When you link your objectives to the corresponding key performance indicator (KPIs) within spreadsheets in Box, the status of your OKR will be updated based on the data in your spreadsheet. Viva Goals will automatically sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current.
+The Viva Goals Box integration allows you to update your Objectives and Key Results (OKR) progress automatically by syncing your data from your spreadsheets within Box to your OKRs in Viva Goals. 
+  
+When you link your objectives to the corresponding key performance indicator (KPIs) within spreadsheets in Box, the status of your OKR will be updated based on the data in your spreadsheet. Viva Goals will automatically sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current.
 
-## How to enable the Box integration?
+## How to enable the Box integration
 
 Admins can perform the following steps to enable this integration:
 
@@ -36,7 +38,7 @@ Admins can perform the following steps to enable this integration:
 
 - This integration can also be disabled from the same section. Go to **Change** and select **Disable integration** from the dropdown to disable the integration.
 
-## How to configure the Box integration?
+## How to configure the Box integration
 
 1. After you enable the integration, the first step is to configure a Box connection.
 
@@ -50,9 +52,9 @@ Admins can perform the following steps to enable this integration:
 
 6. This opens up a pop-up window where you can grant access to Box to integrate with Viva Goals. This access allows Viva Goals to read and download files from your Box account.
 
-## How to connect a spreadsheet in Box to an OKR?
+## How to connect a spreadsheet in Box to an OKR
 
-Once you've configured the connection, the next step is to start linking OKRs to the spreadsheets in Box.
+Once you have configured the connection, the next step is to start linking OKRs to the spreadsheets in Box.
 
 1. Once the connection is established, select the KPIs you would want to reflect within the objective from your spreadsheet in Box. To do this, select **edit integration** which comes up when you select the Box icon.
 
