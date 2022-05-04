@@ -51,7 +51,7 @@ Note: Ensure that all users are provisioned on your organization's Azure Active 
 
 2. If you are the organization administrator, you can also head to Settings, and click on ‘Invite Users’ under the Users tab. 
 
-![Adding-Members-Via-Invitation-From-Within-the-App-2@1x](https://user-images.githubusercontent.com/100967547/166741726-ed077fcb-fb6d-4463-96b4-6c03b3667c75.jpg)
+![adding members from within the app](../media/goals/2/33/Adding-Members-Via-Invitation-From-Within-the-App-2-1x.jpg)
 
 3. Another way to do this is to click on 'All Users' from the menu and select the ‘Invite Users’ button. 
 
