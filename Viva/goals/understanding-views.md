@@ -138,7 +138,8 @@ The Overview tab gives you a quick snapshot of the most important information ab
 
 **9. Alignment** - This shows you how the current objective or project is aligned to its parent. For example, if you are viewing an objective's quick view, you will see how it is aligned to a parent objective, if any. To edit alignment, click on ‘Edit’ button. 
 
-![Steps-to-align-an-objective-3@1x](https://user-images.githubusercontent.com/100967547/166744237-e2fe1a40-af0d-425c-9a4d-4bcb1bfb611a.jpg)
+![Steps-to-align-an-objective-1@1x](https://user-images.githubusercontent.com/100967547/166744648-696e2aaa-6448-4860-9f94-888955a462d8.jpg)
+
 
 ### Key Results
 
