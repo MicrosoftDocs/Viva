@@ -37,15 +37,9 @@ Before either of these steps, you must sign in to Viva Goals using Azure Active 
 
 1. After creating an organization, click 'Continue.'
 
-[screenshot] 
-
 2. You will be taken to the Invite Members page, where you can enter the names of the users you would like to add to your organization. 
 
-[screenshot] 
-
 3. Alternatively, you can also add an Azure Active Directory group with all the users you want to invite. 
-
-[screenshot] 
 
 4. If your organization is public, you have the option of sharing a link to join your organization with users. 
 
@@ -55,13 +49,13 @@ Note: Ensure that all users are provisioned on your organization's Azure Active 
 
 1. You can invite users by clicking on the ‘Invite Users’ button from the menu. 
 
-[screenshot] 
-
 2. If you are the organization administrator, you can also head to Settings, and click on ‘Invite Users’ under the Users tab. 
 
-[screenshot] 
+![Adding-Members-Via-Invitation-From-Within-the-App-2@1x](https://user-images.githubusercontent.com/100967547/166741726-ed077fcb-fb6d-4463-96b4-6c03b3667c75.jpg)
 
 3. Another way to do this is to click on 'All Users' from the menu and select the ‘Invite Users’ button. 
+
+![Adding-Members-Via-Invitation-From-Within-the-App-3@1x](https://user-images.githubusercontent.com/100967547/166741813-73125971-7723-4aa7-a519-776af291f55c.jpg)
 
 [screenshot] 
 
