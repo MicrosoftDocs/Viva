@@ -20,74 +20,52 @@ search.appverid:
 description: "Learn how you can confirgure OKRs"
 ---
 
-# Configuring OKRs in Viva Goals
+# Configure OKRs in Viva Goals
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-## OKR alignment
+## How to align OKRs across your organization
 
-Alignment is one of the most powerful features of OKRs (Objectives and Key Results)! By aligning your objectives at an individual, team and organization level, strategically aligned OKRs rapidly get everyone on the same page, working towards results that matter.
+Alignment is one of the most powerful features of OKRs (Objectives and Key Results). By aligning your objectives at an individual, team and organization level, strategically aligned OKRs rapidly get everyone on the same page, working towards results that matter.
 
-Viva Goals visually signifies alignment with - you guessed it - a line. You can see all the key results nested under an objective on the Objective page, and under the **OKRs** tab in the organization, team and individual views.
+Viva Goals visually signifies alignment with a line. You can see all the key results nested under an objective on the Objective page, and under the **OKRs** tab in the organization, team and individual views.
 
-:::image type="content" source="../media/goals/alignment-line.png" alt-text="The line indicating an alignment":::
+What this line shows us is how OKRs at the team and individual level contribute to larger Objectives further upstream and laterally. All OKRs are visible to everyone in the organization, so each individual knows where goalposts are and what needs to be done to achieve success. 
 
-What this line shows us is how OKRs at the team and individual level contribute to larger Objectives further upstream and laterally. All OKRs are visible to everyone in the organization: so each individual knows where the goal posts are and what needs to be done to get there.
+### How to align objectives 
 
-### Aligning objectives
-
-If you've been adding Key Results to your Objectives, as we showed you in a previous article, you'll notice they're already aligned to the Objective.
-
-### Steps to align an objective
-
-1. To align an objective, click on **More** within the Objective. From the drop-down, select **Align Objective**.
-
-   :::image type="content" source="../media/goals/option-to-edit-an-alignment.png" alt-text="The option to edit an alignment":::
-
-   :::image type="content" source="../media/goals/align-objective-dialog-box.png" alt-text="The Align Objective dialog box":::
+1. To align an objective to another objective, click on **More** within your objective. From the drop-down, select **Align Objective**.
 
 1. When searching for objectives to align to, you can **search** for objectives, teams, owners, or time periods in the search bar or choose from the **suggested time periods and entities**. Select the objective you want to align to and click **Save**.
 1. View and edit the added alignment from the Quick View page.
 
-   :::image type="content" source="../media/goals/view-and-edit-the-added-alignment.png" alt-text="The Quick view page on which you can view and edit the added alignment":::
+If you need to un-align objectives at any time, you can also do so from the **Full View** page. Find the **Edit Alignment** box on the right-hand side, remove the alignment and save it.
 
-If you need to un-align them at any time, you can also do so from the **Full View** page. Find the **Edit Alignment** box on the right-hand side, remove the alignment and save it.
+### How to edit alignment
 
-### Steps to add or edit alignment
+1. To edit alignment, click on **Edit Alignment**.
 
-1. To edit or add alignment first create or edit the objective. Click on **Edit Alignment**.
-  
-   :::image type="content" source="../media/goals/editing-an-alignment.png" alt-text="Editing an alignment":::
-
-2. When searching for objectives to align to, you can search or filter OKRs by entity and time period to narrow your results. For example, if I wanted to search for company OKRs, I would select **Digital Tones entity**.
-
-   :::image type="content" source="../media/goals/digital-tones-option.png" alt-text="The Digital Tones option":::
+2. When searching for objectives to align to, you can search or filter OKRs by entity and time period to narrow your results. In this example, to search for company OKRs, you would select **Digital Tones entity**.
 
 3. Hover over the objective you want to align to and click **Align** then **Done**. 
 
    > [!NOTE]
-   > You can expand an objective to show KRs below and align to those as well.
+   > You can expand an objective to show KRs below and align to those, as well.
 
 4. View and edit the added alignment on the Objective Detail page.
  
-   :::image type="content" source="../media/goals/viewing-the-aligment-details.png" alt-text="Viewing the alignment details on the Objective Detail page":::
+### How to understand progress roll-Up
 
-### Progress Roll-Up
-
-The roll-up of status and progress through the alignment chain makes it easy to see the impact a Key Result has on its parent Objective and other Objectives in the OKR hierarchy. If progress is tracked based on % completed, Viva Goals will automatically update the status and progress of parent Objectives based on the progress of the key results. 
+The roll-up of status and progress through the alignment chain makes it easy to see the impact a key result has on its parent objective and other objectives in the OKR hierarchy. If progress is tracked based on % completed, Viva Goals will automatically update the status and progress of parent objectives based on the progress of the key results. 
 
 The actual value of the progress of the objective will be the average of the progress of its key results. The status will also be based on the statuses of each key result.
 
-:::image type="content" source="../media/goals/progress-of-an-objective.png" alt-text="The illustration of the progress of an objective":::
-
 However, if the objective is tracked by success metric, Viva Goals won't attempt to convert percentages into your chosen success metric. The owner of the objective can manually update the progress with a check in and enter a value.
 
-Once all key results are completed, the objective will automatically be marked as completed and the average score of the key results will become the score of the objective.
+Once all key results are complete, the objective will automatically be marked as complete and the average score of the key results will become the score of the objective.
 
-Now that you know how to align objectives for success, keep your allies close, and your alignments even closer.
-
-## Manage OKR contribution
+## How to manage OKR contribution
 
 Viva Goals’ OKR contribution feature provides users (objective owners and creators) more flexibility and customizability in specifying weights and measuring progress. Users will now be able to define and control contribution at the parent level. All the contributions add up to a total of 100% and objective owners/creators have an option to mark a child’s contribution as "fixed". This feature is available only for OKRs that've progress mode as **Updated via roll-up from key results**.
 
@@ -97,7 +75,7 @@ Users who have "edit" permissions for the OKR (including check-in owners) can ed
 
 ### How to manage OKR contribution
 
-You can set or edit your OKRs’ contribution from the **More actions** dropdown list. To do this task, perform the following steps:
+You can set or edit your OKRs’ contribution from the **More actions** dropdown list. To do this, perform the following steps:
 
 1. Select the **Manage children’s contribution** option.
 
@@ -124,11 +102,14 @@ You can set or edit your OKRs’ contribution from the **More actions** dropdown
 ### Key points to note for OKR contribution
 
 1. OKR contribution is available only for OKRs that have progress mode as **Updated via roll-up from key results**.
-1. All the contributions will add up to a total of 100%. The default contribution is automatically assigned by Viva Goals to all the children equally. For example, if an objective has three key results (children), the default contribution assigned to each child will be 33.33%.
-1. As soon as a child’s contribution is edited, the contribution is considered as “fixed”. This rule means, if a new child gets added or if an existing child gets removed, the contributions marked as "fixed" won't be adjusted. For example, if an objective has three key results (children), and the contribution of the first key result is edited as 50%, the contributions of second and third key results will be automatically adjusted to 25% each. In future, if there's a fourth key result that gets added, only the contribution of the second and third key results will be adjusted.
-1. You can also reset all the custom contributions to default by selecting the **Reset to default** option.
 
-## How to track OKRs using KPI metrics?
+1. All the contributions will add up to a total of 100%. The default contribution is automatically assigned by Viva Goals to all the children equally. For example, if an objective has three key results (children), the default contribution assigned to each child will be 33.33%.
+
+1. As soon as a child’s contribution is edited, the contribution is considered as “fixed”. This rule means, if a new child gets added or if an existing child gets removed, the contributions marked as "fixed" won't be adjusted. For example, if an objective has three key results (children), and the contribution of the first key result is edited as 50%, the contributions of second and third key results will be automatically adjusted to 25% each. In future, if there's a fourth key result that gets added, only the contribution of the second and third key results will be adjusted.
+
+1. You can reset all the custom contributions to default by selecting the **Reset to default** option.
+
+## How to track OKRs using KPI metrics
 
 You can use a KPI metric when you want to set custom "start" and "target" values for your OKR, as opposed to just going from 0-100% progress. Doing so gives you a much more accurate idea of progress while executing your OKRs.
 
@@ -153,16 +134,11 @@ d. € Euro
    
 5. If the starting value needs to be changed, click on the **Edit** button next to **Starting from: 0%**.
 
-[screenshot]
-
 6. Once you’ve added details about how you’d like to measure progress, select **Create**.
-
-   :::image type="content" source="../media/goals/measurement-method-defining-process.png" alt-text="Creating a method by which you can measure progress":::
-
 
 Since start and target might not be 0 and 100%, respectively, a % KPI metric's overall progress is scaled relative to its "start" and "target" metrics. For example, if the metric goes from 30% to 50% and its current value is 40%, it has achieved 50% progress given its "starting point" and "target".
 
-This progress is calculated as follows:
+**This progress is calculated as follows:**
 
 Let "S "be the "Starting" metric and "T" be the "Target" you’d like to achieve. "P" is the value of the progress you’ve made so far.
 
@@ -170,13 +146,13 @@ Let "S "be the "Starting" metric and "T" be the "Target" you’d like to achieve
 - T = 50 (Target)
 - P = 40 (Progress made)
 
-Here’s how the key result’s progress is used to calculate scaled progress:
+Here is how the key result’s progress is used to calculate scaled progress:
 
 [P−S/T−S]∗100
 
 So for this key result, the scaled progress would be [10/20]∗100 =50%.
 
-## Roll-up of progress for objectives tracked by KPI
+### Roll-up of progress for objectives tracked by KPI
 
 You can use a KPI (Key Performance Indicator) metric when you want to set custom "start" and "target" values to your objective. Objectives tracked using KPI metrics are associated with "Units". Units represent the method of measuring an objective’s progress. Viva Goals supports two types of units - **Numeric** and **% based**. The roll-up of progress for each of these units is calculated differently.
 
@@ -187,9 +163,11 @@ The calculation methods are described in the following table:
 |Numeric Units     |     For objectives tracked based on a numeric unit, the progress of the objective will be the **sum of numeric key results**.     |
 |% Units |    For objectives tracked based on the % unit, the progress of the objective will be calculated as the **weighted average of all key results**, whether they're metric based, or are just going to reach 100% completion. You can also set individual key results that don't contribute to the parent.     |
 
-### Objectives measured based on the numeric unit
+### Objectives measured based on numeric unit
 
-Progress for objectives that're tracked based on numeric units is calculated as the **sum of all the key results**. For objectives tracked by numeric KPIs, your objective and key results (OKRs) should essentially carry the same units for the progress roll-up to work. For instance, when an objective is measured based on a KPI metric with a numeric unit, the key results will contribute to the progress only when they’re also calculated by numeric metrics.
+Progress for objectives that are tracked based on numeric units is calculated as the **sum of all the key results**. 
+
+For objectives tracked by numeric KPIs, your objective and key results (OKRs) should essentially carry the same units for the progress roll-up to work. For instance, when an objective is measured based on a KPI metric with a numeric unit, the key results will contribute to the progress only when they’re also calculated by numeric metrics.
 
 To create an objective that’s tracked by a numeric KPI, perform the following steps:
 
@@ -259,8 +237,6 @@ Say, for example, your Marketing team has an objective to **achieve record-break
 **Starting**: 15
 **Unit**: %
 
-:::image type="content" source="../media/goals/objectives-and-achievement.png" alt-text="Objectives metrics":::
-
 For instance, there’s a progress of 5% made in key result 3 (Increase monthly conversion of new paid customers from 15% to 35%). Whenever there’s a progress checked-in, the actual progress made will be displayed under the progress bar and the scaled progress is shown right next to the progress bar.
 
 Let **S** be the "starting" metric and **T** be the "target" you’d like to achieve. **P** is the value of the progress you’ve made so far.
@@ -271,15 +247,13 @@ S = 15 (Starting value)
 T = 35  (Target) 
 P = 20  (Progress made) 
 
-Here’s how the key result’s progress is used to calculate scaled progress: 
+Here is how the key result’s progress is used to calculate scaled progress: 
 
 [P−S/T−S]∗100
 
-So for this key result, the scaled progress would be [5/20]∗100 =25% 
+For this key result, the scaled progress would be [5/20]∗100 =25% 
 
-### Objectives measured based on the % unit can have key results that're tracked by % metric or the numeric metric
-
-Objectives that're tracked by % complete KPIs can have key results that're tracked by % metric or by the numeric metric. The key results' progress will roll up to the parent’s progress, irrespective of its metric. This roll-up is because the numeric metric can be converted and expressed as a percentage.
+Objectives that are tracked by % complete KPIs can have key results that are tracked by % metric or by the numeric metric. The key results' progress will roll up to the parent’s progress, irrespective of its metric. This roll-up is because the numeric metric can be converted and expressed as a percentage.
 
 In this example, consider the key result 2 (Boost NPS score from 7 to 8), where the progress is measured as a numeric metric. Say there’s a registration made and the value increases from 7 to 7.2, then the progress made will be considered as 20% and will contribute to the parent’s progress.
 
