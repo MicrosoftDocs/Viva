@@ -25,7 +25,7 @@ description: "Learn how to configure your OKR rules in Viva Goals"
 
 Viva Goals understands that every business has its own set of processes, and lets you configure and create your own OKR rules to fit your business needs. 
 
-## Configure your OKR Rules 
+## How to configure your OKR rules 
 
 1.	On the left panel of the Viva Goals application, select **Admin**.
 2. In the **Admin Dashboard** section, select the **OKR Model Configuration** tab. 
@@ -52,21 +52,15 @@ Enable the 'Block objectives' option if you never want child objectives in your 
 > [!NOTE]
 > Existing objectives that are already contributing to their parents will remain untouched. If you edit such objectives, the only option allowed would be to set the contribution to 0.
 
-:::image type="content" source="../media/goals/Goals-configure-objectives.png" alt-text="Image of the Configuring objectives":::
-
 ### Define key results 
 
 #### Allow key results to be nested under key results.
 
 Select this option if your organization often breaks down a key result’s metrics into parts.
 
- :::image type="content" source="../media/goals/Goals-configure-keyresults.png" alt-text="Image of the Configuring key results":::
-
 ### Define projects
 
 The Projects section covers project enablement, alignment, and contribution options.
-
-:::image type="content" source="../media/goals/Goals-configure-projects.png" alt-text="Image of the define projects":::
 
 #### Enable projects
 
@@ -74,15 +68,15 @@ Projects are the activities which drive towards your key results (your outcomes)
 
 - **Enable projects for specific users**
 
-    Select this checkbox if you want a few users in your organization to try out the projects feature before you roll it out more broadly. Only these specific users will be able to add projects. The projects created by these users will be visible to everyone. Search and select the list of users you’d want to enable projects for and save. 
+Select this checkbox if you want a few users in your organization to try out the projects feature before you roll it out more broadly. Only these specific users will be able to add projects. The projects created by these users will be visible to everyone. Search and select the list of users you’d want to enable projects for and save. 
 
 - **Allow projects to be nested under key results**
 
-    Select this option if you want users to be able to create projects focused on moving a single key result, rather than the overall objective.
+Select this option if you want users to be able to create projects focused on moving a single key result, rather than the overall objective.
 
 - **Define how projects should contribute**
 
-    Select how projects should contribute to the progress of its parent. 
+Select how projects should contribute to the progress of its parent. 
 
      - Projects contribute to the progress of their parent by default 
             
@@ -92,18 +86,16 @@ Projects are the activities which drive towards your key results (your outcomes)
 
 - **Rename projects**
 
-    Define what you want projects to be called. You can rename the default label and call projects Initiatives, Tactics, or anything else. This changr will be reflected across your instance of Viva Goals.
+Define what you want projects to be called. You can rename the default label and call projects Initiatives, Tactics, or anything else. This changr will be reflected across your instance of Viva Goals.
 
-## Saving your OKR Model Configuration Settings
+## How to save your OKR model configuration settings
 
 Select **Save** once you have chosen the settings that define your objectives, key results, and projects. The changes will take effect once you select **Yes, Switch** in the confirmation pop-up. 
 
 > [!NOTE]
 > Existing OKRs and Projects will remain untouched. Changes will be applied only to OKRs and Projects created after new settings are saved.
 
-:::image type="content" source="../media/goals/Goals-OKR-model-configuration-setting.png" alt-text="Image of the OKR model configuration":::
-
-## Objectives and Key Results (OKR) progress bar customization
+## How to customize your Objectives and Key Results (OKR) progress bar 
 
 Viva Goals supports a progress bar customization setting. This allows admins to override the current automatic scoring system.
 
