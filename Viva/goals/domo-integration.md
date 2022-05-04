@@ -19,35 +19,37 @@ search.appverid:
 description: "Learn how to integrate your Domo datasets directly with Viva Goals to automate OKR success measurement."
 ---
 
-# Domo Integration
+# Domo integration
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Viva Goals' Domo integration allows automated real-time tracking of Objectives and Key Results (OKR) progress. For example, you use Domo cards to visualize the Sales teams' close rate - Quarter-to-date (QTD) vs Goal. By configuring a Domo integration and setting up a data-link within Viva Goals, you can save the hassle of reinventing the wheel by connecting to other source sales systems (as all data integrations, aggregations and key performance indicator (KPI) visualizations have already been implemented within Domo). Viva Goals will automatically update OKR progress, thus saving time.
+The Viva Goals Domo integration allows automated real-time tracking of OKR progress. 
+  
+Let's take this example: you use Domo cards to visualize your Sales team's close rate: Quarter-to-date (QTD) vs. Goal. By configuring a Domo integration and setting up a data link within Viva Goals, you can save the hassle of reinventing the wheel by connecting to other source sales systems, if all data integrations, aggregations and key performance indicator (KPI) visualizations have already been implemented within Domo. Viva Goals will automatically update OKR progress, saving you time and bringing all your data and progress in one place. 
+  
+## How to enable the Domo Integration
 
-## Enable the Domo Integration
-
-A Viva Goals admin can enable the Domo Integration on Viva Goals. To do so:
+A Viva Goals admin can enable the Domo Integration on Viva Goals. Take the following steps: 
 
 1. Navigate to Viva Goals’ Integrations page through **Admin > Integrations**.
 
 2. Enable the Domo Integration under the **Data Integrations** category.
 
-3. The Integration can also be disabled at any time from the same section.
+3. The integration can also be disabled at any time from the same section.
 
-## Configuring the Domo Connection
+## How to configure the Domo connection
 
-In the **Connections** section, select **New Connection** and in the popup that appears, follow the prompt to configure the Domo connection using a Domo Client ID & Secret. A connection can be shared with all users or made private based on the user's preference. Editing a saved Domo connection is also allowed from the same section at any time.
+In the **Connections** section, select **New Connection.** In the popup that appears, follow the prompt to configure the Domo connection using a Domo Client ID and Secret. A connection can be shared with all users or made private based on the user's preference. Editing a saved Domo connection is also allowed from the same section at any time.
 
 To create a Domo Client ID & Secret, visit [https://developer.domo.com/new-client](https://developer.domo.com/new-client), sign in with your Domo domain & credentials. Enter **Name** and **Description** details and select **Data** as **Application scope**.
 
-## Setting up the Domo Data Link
+## How to set up the Domo data link
 
 Once the connection configuration is done, users can **Edit** their Viva Goals OKRs to set up a Data Link to directly track progress from their Domo datasets.  
 
 > [!NOTE]
-> Domo Integration is available only for **KPI (success metric)** method of measuring OKR success and not for **% completion** method.
+> The Domo integration is available only for **KPI (success metric)** method of measuring OKR success and not for **% completion** method.
 
 1. While creating/editing an Objective or Key Result, select **Add an integration**. Select **Domo** from the list of integrations.
 
@@ -69,5 +71,3 @@ Once the connection configuration is done, users can **Edit** their Viva Goals O
     Apply any available dataset fields as **Filters**. For example, filter a particular AE Name - Adam's Close Rate.
 
 7. Viva Goals displays the final KPI value for your reference before saving the data link set-up.
-
-It’s as easy as that! Now you know how to work smarter by integrating Viva Goals with Domo.
