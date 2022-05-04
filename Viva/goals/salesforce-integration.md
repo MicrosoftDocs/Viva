@@ -19,18 +19,18 @@ search.appverid:
 description: "Learn how to integrate your Viva Goals OKRs with Salesforce reports."
 ---
 
-# Salesforce Integration
+# Salesforce integration
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Viva Goals has the ability to integrate with Salesforce, allowing you to automatically update your Objectives and Key Results (OKRs). For example, if you have a Salesforce report that tracks converted leads, with a goal in mind to increase the value of converted leads to a certain amount, implementing a Salesforce integration will save you the hassle of repeatedly updating your progress in Viva Goals.
+Viva Goals integrates with Salesforce, allowing you to automatically update your Objectives and Key Results (OKRs). For example, if you have a Salesforce report that tracks converted leads, with a goal in mind to increase the value of converted leads to a certain amount, implementing a Salesforce integration will automatically update your progress in Viva Goals.
 
-## Set up
+## How to set up the Salesforce integration 
 
-An admin can set up the Salesforce integration in Viva Goals. To do so:
+An admin can set up the Salesforce integration in Viva Goals. 
 
-1. Navigate to Viva Goals’ integrations page through **Admin -> Integrations**.
+1. Navigate to the Viva Goals integrations page through **Admin -> Integrations**.
 
 2. Scroll through the list until you reach Salesforce. Select **Enable** (Or **Manage** if a connection has been made previously).
 
@@ -40,7 +40,7 @@ An admin can set up the Salesforce integration in Viva Goals. To do so:
 
 Viva Goals allows you to connect with multiple Salesforce accounts. Select **New connection** to add another account and differentiate them using names. These names are displayed to members when they link their OKRs to Salesforce reports.
 
-## How to use the Salesforce Integration?
+## How to use the Salesforce integration
 
 Once the setup is complete, users in your organization can link the success of their OKRs directly to fields in Salesforce reports.
 
@@ -54,11 +54,5 @@ Once the setup is complete, users in your organization can link the success of t
 
 5. Select **Next** followed by **Save** to complete the update for your OKR.
 
-    You should now see a Salesforce icon next to the OKR. The OKR will sync automatically every hour, but to refresh it manually, go to the cloud icon and select **Sync**.
-
-    The colors of the progress bars indicate the status of the Objective.
-
-      - If the progress is 0-25% less than expected progress at any point in time, the status is Behind (orange).
-
-      - If the progress is over 25% less than expected progress at any point in time, the status is At-Risk (red).
+You should now see a Salesforce icon next to the OKR. The OKR will sync automatically every hour, but to refresh it manually, go to the cloud icon and select **Sync**.
 
