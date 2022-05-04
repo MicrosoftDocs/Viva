@@ -64,4 +64,4 @@ Once your integration is set up, you can measure your OKR progress by connecting
 
 ## How to disable the RedShift integration
 
-The Amazon Redshift integration may also be disabled by an Admin at any time. To disable the integration, as an Admin go to Amazon Redshift in the Integrations section. Select Amazon Redshift in the integrations section and select Manage. In the configurations page, select the **Change dropdown**, select **Disable** and confirm the action.
+The Amazon Redshift integration can be disabled by an Admin at any time. To disable the integration go to Amazon Redshift in the Integrations section. Select Amazon Redshift and select Manage. On the configurations page, select the **Change dropdown**, select **Disable** and confirm the action.
