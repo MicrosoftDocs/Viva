@@ -21,6 +21,7 @@ audience: Analyst
 The top ribbon in the advanced insights app with Microsoft Viva Insights includes a number of options, including a way to provide feedback; view information about your tenant, role, and session; and view additional documentation resources.
 
 It also lets you view notifications and learn What's new in Viva Insights, as described in the following sections.
+
 ## Notifications in the app
 
 In the advanced insights app, you can see notifications about important and timely information. These notifications cover data updates, product and feature updates, and information about your recent activity within the app. They also describe what has changed since you last used the app, plus timely updates and reminders of steps that you can take next.
