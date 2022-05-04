@@ -62,6 +62,6 @@ Once your integration is set up, you can measure your OKR progress by connecting
 > [!NOTE]
 > Viva Goals will sync data from Amazon Redshift at every one-hour interval. 
 
-## How to disable the RedShift integration
+## How to disable the Amazon RedShift integration
 
 The Amazon Redshift integration can be disabled by an Admin at any time. To disable the integration go to Amazon Redshift in the Integrations section. Select Amazon Redshift and select Manage. On the configurations page, select the **Change dropdown**, select **Disable** and confirm the action.
