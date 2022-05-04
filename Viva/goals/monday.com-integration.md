@@ -23,21 +23,21 @@ description: "Learn how to connect your projects in monday.com with Viva Goals."
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-## Who can use this feature? 
+## About the monday.com integration
 
-All Users and Admins (Admins also have permissions to manage the integration from the admin dashboard) 
+The Viva Goals monday.com integration allows you to link your OKRs to monday.com boards for automatic real-time updates on your objectives. 
 
-## About monday.com integration
+For example, if you have an objective 'Become the Market Leader,' you can directly link this objective with the relevant items on a board on monday.com. Whenever there’s an update in the status of items on monday.com, your OKR status gets automatically updated. 
 
-Viva Goals - monday.com integration allows you to link your OKRs to monday.com boards for automatic real-time updates on your objectives. For example, if you have an objective 'Become the Market Leader' then you can directly link this objective with the relevant items on a board on monday.com. Whenever there’s an update in the status of items on monday.com, your OKR’s status gets automatically updated. 
+All users and admins can use the monday.com integration. Admins also have permissions to manage the integration from the admin dashboard. 
 
-## Install Viva Goals app for monday.com
+## How to install the Viva Goals app for monday.com
 
 Before setting up the integration connection, reach out to your monday.com administrator to install the Viva Goals app using this [link.](https://auth.monday.com/auth/login_monday/enter_slug?force_existing_account=true&oauth_payload_token=eyJhbGciOiJIUzI1NiJ9.eyJjbGllbnRfaWQiOiJiMTFlMmUxMDljOTdiMzcxYzAzYTk0YzRlNWQ4ZWNmZSIsInJlc3BvbnNlX3R5cGUiOiJpbnN0YWxsIiwib2F1dGhfdmVyc2lvbiI6Mn0.ld79ozTcYkdq5gD2eu60HSLoDeuNB_nb2bsOsmJzqyM) 
 
 ## Connect monday.com to your Viva Goals account from the admin dashboard
 
-1. The first step in setting up the monday.com integration is to connect your monday.com account to Viva Goals Navigate to your sidebar and select **Admin** and then select **Integrations**.
+1. The first step in setting up the monday.com integration is to connect your monday.com account to Viva Goals. Navigate to your sidebar and select **Admin** and then select **Integrations**.
 
 2. In the integrations section, go to monday.com and then select **Manage**. 
 
@@ -53,7 +53,7 @@ Admins can also edit an existing monday.com connection, including the integratio
 
 2. Select the **Edit** icon next to the monday.com connection. In the pop-up dialog box that displays, you can edit the connection’s name or clear the **Share connection with all users** checkbox. 
 
-## Using the monday.com integration
+## How to use the monday.com integration
 
 1. Once the monday.com integration is set up, you can measure your OKR progress by connecting your new or existing OKRs in Viva Goals with a corresponding board in monday.com
 
@@ -72,6 +72,8 @@ Admins can also edit an existing monday.com connection, including the integratio
     > - The assignee field in Viva Goals will be mapped to the Owner field on monday.com by default. You can also search and add assignees to list their items. The ‘Preview’ option will show the total number of items that are remaining and completed. For KPI-based OKRs the Preview option will just show the total number of items available in the mapped board.
     > - Viva Goals will sync data from monday.com at every one-hour interval. 
 
-## Disabling the integration
+## How to disable the monday.com integration
 
-The monday.com integration may also be disabled by an Admin at any time. To disable the integration, as an Admin go to monday.com in the Integrations section and select **Manage**. In the monday.com Configurations page, select the Change dropdown, select Disable and confirm the action. 
+The monday.com integration may be disabled by an Admin at any time. To disable the integration, go to monday.com. In the Integrations section, select **Manage**. 
+
+In the monday.com Configurations page, select the Change dropdown, select Disable and confirm the action. 
