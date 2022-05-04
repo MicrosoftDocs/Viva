@@ -24,11 +24,13 @@ description: "Learn how to integrate your Viva Goals OKRs with BigQuery Data"
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Viva Goals can integrate with Google BigQuery to automatically update your OKRs. For example, you have the data inside your BigQuery warehouse to track the number of converted leads. The goal is to increase the value of converted leads to a certain amount. By implementing a BigQuery integration, you can save yourself the hassle of repeatedly going back and forth between BigQuery and Viva Goals to update your progress: Viva Goals will sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current.
+Viva Goals can integrate with Google BigQuery to automatically update your OKRs. 
+  
+Take this example: you have data inside your BigQuery warehouse to track the number of converted leads. The goal is to increase the value of converted leads to a certain amount. By implementing a BigQuery integration, you can save yourself the hassle of repeatedly going back and forth between BigQuery and Viva Goals to update your progress. Viva Goals will sync the values for you and chart your progress toward goals, saving time and keeping OKRs current.
 
-## Setting up
+## How to set up the BigQuery integration
 
-An admin can set up the BigQuery integration on Viva Goals. To do so:
+An admin can set up the BigQuery integration in Viva Goals. Take the following steps: 
 
 1. Navigate to Ally’s integrations page through **Admin > Integrations**.
 1. Scroll through the integration options until you locate BigQueary, then select **enable** if this is the first time, or **manage** if an integration has already been established.
@@ -38,7 +40,7 @@ An admin can set up the BigQuery integration on Viva Goals. To do so:
 
 Viva Goals allows you to connect with multiple BigQuery projects. Click **New connection** to add another and differentiate them using names. These names are displayed to members when they link their OKRs to BigQuery data.
 
-## Using BigQuery Integration
+## How to use the BigQuery integration
 
 Once the setup is complete, users in your organization can link the success of their OKRs directly to data inside BigQuery cloud datasets.
 
@@ -52,4 +54,3 @@ The colors of the progress bars indicate the status of the objective.
 
 - If the progress is 0-25% less than expected progress at any point in time, the status is Behind (orange)
 - If the progress is over 25% less than expected progress at any point in time, the status is At-Risk (red)
-
