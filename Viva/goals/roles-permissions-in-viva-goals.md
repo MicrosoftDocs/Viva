@@ -48,16 +48,16 @@ Viva Goals supports the following full roster of roles within an organization:
 
 The permission levels on individual OKRs are outlined here: 
 
-![Permission-Level-Individual-OKRs@1x](https://user-images.githubusercontent.com/100967547/166732924-9afd92fb-666d-4d43-8075-a1f229122c9b.jpg)
+![permission levels on individual okr](../media/goals/2/26/a.jpg)
 
 
 ## Permission levels on team OKRs
 
 The permission levels on team OKRs are outlined here: 
 
-![Permission-Levels-on-Team-OKRs@1x](https://user-images.githubusercontent.com/100967547/166733198-6463fb79-5df5-4a54-aa39-1de112915ccf.jpg)
+![permission levels on team okr](../media/goals/2/26/b.jpg)
 
-![Permission-Levels-on-Team-OKRs-Admin-Privileges@1x](https://user-images.githubusercontent.com/100967547/166733373-5bdffd42-4c2c-460e-94f2-fe84fc89a89d.jpg)
+![permission levels on team okr admin privileges](../media/goals/2/26/c.jpg)
 
 
 ## Creating OKRs
@@ -187,27 +187,25 @@ An Observer is entitled to the following privileges:
 
 You can set a default user type for new users from **Admin Dashboard > Setting**. 
 
-![Adding-Users-as-an-Observer-1@1x](https://user-images.githubusercontent.com/100967547/166733655-c5118f75-7a4c-42c5-93f9-d75aa3a88a3e.jpg)
+![image showing how to add new users as observers](../media/goals/2/26/d.jpg)
 
 If the value is set to **Observer**, users will take up account type as **Observer** when they are invited to join. Team members will have the option to choose between Observer and Regular privileges when inviting a new user. 
 
-![Adding-Users-as-an-observer-2@1x](https://user-images.githubusercontent.com/100967547/166733771-4034c3fe-397a-49d3-8701-2b4e7835f575.jpg)
+![image showing the display box with options when you add users](../media/goals/2/26/e.jpg)
 
 ### Identifying an Observer
 
-If the users have an **Observer** tag next to their name, they are an Observer. The process of identifying a person with Observer privileges is depicted in the following image:
-
-![Identifying-an-Observer-1@1x](https://user-images.githubusercontent.com/100967547/166733918-6c4eb2a9-0562-4477-93f4-c1318671da03.jpg)
+If the users have an **Observer** tag next to their name, they are an Observer.
 
 If you are an administrator, you can also look at user type from **Admin Dashboard > Users > User Type column**, as depicted in the following image:
 
-![Identifying-an-Observer-2@1x](https://user-images.githubusercontent.com/100967547/166734038-9b8d2c12-0a08-4cd3-8f44-f88e3f6ebe2e.jpg)
+![identifying observers in the users menu](../media/goals/2/26/f.jpg)
 
 ### Changing account type of users
 
 Administrators can change the user type from **Observer** to **Regular** and from **Regular** to **Observer** through **Admin Dashboard > Users Tab > User listing > Three dot Menu**, as shown in image below:
 
-![Changing-Account-Type-of-Users-1-Close-Up@1x](https://user-images.githubusercontent.com/100967547/166734190-e1a9ff3b-1ecd-4384-ba78-97f3e0f46ed8.jpg)
+![image showing how to change user types from the action menu](../media/goals/2/26/g.jpg)
 
 ### Inviting other users as Observers
 
