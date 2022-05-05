@@ -21,7 +21,7 @@ description: "Learn how to determine your rollout plan"
 # Determine your rollout plan
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 At the completion of your rollout plan or deployment phase, you will have Microsoft Viva Goals operating across your entire organization so that you can connect the daily work of every team member to business outcomes.
 
