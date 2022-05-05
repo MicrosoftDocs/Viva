@@ -21,9 +21,13 @@ search.appverid:
 
 Your organization is hiring, and you need to onboard new employees – some of whom are in the office, and some of whom are working remotely. Or, you may have employees who are changing roles within the organization and need to ramp up quickly and learn about their new roles. It is essential to streamline the onboarding process and make it easy for people to find consolidated information and know what actions to take as they onboard to the company or to a new role. Here are ways that you can take advantage of each module to help every employee onboard successfully.
 
+
+
 | Viva Learning | Viva Topics | Microsoft Stream | Viva Insights | Viva Connections |
 ---|---|---|---|---|
  | Target specific training for new employees. | New team members can learn about popular terms, acronyms, projects, and more. | Use videos for training and onboarding. | Help new team members spend time productively. | Provide easy access to benefits, training materials, and new-hire specific resources.
+
+**Roles for this scenario**: Human Resource specialists, SharePoint admins, site owners, and page authors, knowledge admins
  
 ### Viva Learning
 

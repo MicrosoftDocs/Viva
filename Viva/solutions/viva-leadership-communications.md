@@ -22,6 +22,10 @@ search.appverid:
 
 Let’s say your organization is launching a new product. Announcement of the product, including how it works and what the organization’s goals are for it, need to be communicated across your organization. Holding an all-hands or town hall is a traditional way to do this. In a hybrid work environment, you need to ensure that everyone has access to the announcement no matter where they are. It is also essential to have a recording and transcript of the event for those who can’t participate in the live event because they are in a different time zone or are front line workers whose schedules don’t allow participation.
 
+
+
+**Roles for this scenario**: Executive leadership, Corporate communications specialists, SharePoint site owners and page authors, Yammer group admins 
+
 ![Video screenshot for leadership presentation](../media/leadership.png)
 
 You can use Yammer Live, Stream, and Viva Connections to bring everyone together, have the event available after it happens, and have follow-up conversations.
