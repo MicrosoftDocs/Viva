@@ -22,16 +22,19 @@ description: "Learn about Microsoft Viva Goals on how you can use it for organiz
 
 **Insert Viva Goals Marketing Video Here**
 
-Microsoft Viva Goals is an employee experience platform that allows individuals and companies to organize and track their goals or “Objectives and Key Results” (OKRs).
+Microsoft Viva Goals is a goal alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. 
+
+To do this, Microsoft Viva Goals leverages the power of the OKR (Objectives and Key Results) framework. 
+
+Because Viva Goals is a part of Microsoft Viva, it integrates into the employee experience, empowering teams to be their best from anywhere. 
 
 ## Get started with Microsoft Viva Goals
 
 The resources in this section will help you learn more about what Viva Goals is and how it can help you.
 
-
 |If you are looking for this information  |Go to this resource  |
 |---------|---------|
-|Learn about OKRs     |Get to know OKRs         |
+|Learn about OKRs     |Get to know OKRs.        |
 |Learn about defining your team |[Define your team](define-your-team.md) |
 |Learn about your rollout plan     |Determine your rollout plan         |
 |   |         |
@@ -43,40 +46,31 @@ The resources in this section will help the administrator in your organization t
 |If you are looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn about roles and permissions     |Roles and permissions         |
-|Learn about creating and editing teams     |Setting up a team         |
-|Learn about adding users    |Adding users         |
-|Learn about importing users and teams     |Importing users and teams         |
-|Learn about managing OKR time periods   |Managing OKR time periods         |
-|Learn about OKR configurations   |Configure your OKR rules         |
+|Learn about creating and editing teams     |Create and edit teams         |
+|Learn about adding users    |Invite and remove users       |
+|Learn about managing OKR time periods   |Manage OKR time periods         |
+|Learn about OKR configurations   |Configure your OKR model     |
 |   |         |
 
-## Adoption
+## Work with OKRs in Viva Goals
 
-Learn more about how to use and implement Viva Goals in your organization to help you solve your business problems:
+Learn more about how to use and implement Viva Goals in your organization to help you solve your business problems. 
 
 |If you are looking for this information  |Go to this resource  |
 |---------|---------|
-|Learn how to create OKRs     |Creating OKRs         |
-|Learn how to check-in to OKRs|Different ways to make check-ins         |
-|Learn how to score and close OKRs|Scoring and closing OKRs        |
+|Learn how to create OKRs     |Create OKRs         |
+|Learn how to check-in to OKRs| Check-in and track progress on OKRs        |
+|Learn how to score and close OKRs|Close and score OKRs       |
 |   |         |
 
-## Work with Viva Goals
-The resources in this section help your users learn how to use and manage Viva Goals:
+## Product features 
+
+The resources in this section help your users learn how to use and manage Viva Goals. 
 
 |If you are looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn how to use review dashboards     |Review dashboard         |
 |Learn how to use projects|Projects|
-|Learn how to integrate your other tools|Integrations        |
+|Learn how to integrate your other tools| Viva Goals integrations overview        |
 |   |         |
-
-## Provide us with feedback
-
-Provide feedback about your experience with Viva Goals. 
-
-|If you are looking for this information  |Go to this resource  |
-|---------|---------|
-|How to provide feedback about Viva Goals   |Provide us feedback         |
-|||
 
