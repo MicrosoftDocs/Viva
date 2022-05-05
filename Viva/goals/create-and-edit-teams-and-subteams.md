@@ -28,7 +28,7 @@ Viva Goals supports multiple levels of hierarchy, from department-level all the 
 ## How to create teams 
 
 1. Create a team by choosing **All Teams > Create a new team** or alternatively, **Admin > Teams > Add Team**.
-2. 
+ 
 ![Creating-Teams-3@1x](https://user-images.githubusercontent.com/100967547/166737468-290b9dc3-7875-4c1b-9555-1e3de3fbc28a.jpg)
    
 2. In the dialog box that follows, perform the following steps:
