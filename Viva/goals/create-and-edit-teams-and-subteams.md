@@ -29,7 +29,7 @@ Viva Goals supports multiple levels of hierarchy, from department-level all the 
 
 1. Create a team by choosing **All Teams > Create a new team** or alternatively, **Admin > Teams > Add Team**.
 2. 
-![Creating-Teams-3@1x](https://user-images.githubusercontent.com/100967547/166737468-290b9dc3-7875-4c1b-9555-1e3de3fbc28a.jpg)
+![creating teams image](../media/goals/2/22/a.jpg)
    
 2. In the dialog box that follows, perform the following steps:
 
@@ -40,7 +40,7 @@ Viva Goals supports multiple levels of hierarchy, from department-level all the 
 
 In this example, we will set up a sales territory "Central Territory" (from the **Team Name** dropdown list), under the overarching Sales Department (from the **Parent Team: (Optional)** dropdown list).
 
-![Creating-Teams-2@1x](https://user-images.githubusercontent.com/100967547/166737641-40902e19-c5ce-4f70-9d16-73c98767664e.jpg)
+![menu options when creating a team](../media/goals/2/22/b.jpg)
 
 To view all subteams, navigate to the **Parent Team** page and select the **Sub-teams** tab. Using subteams, you can easily replicate the structure of your organization and view how each department, division, and team contribute to organization goals.
 
@@ -56,14 +56,14 @@ To add existing Viva Goals users as team members, perform the following steps:
 1. Start typing the name or email of the existing Viva Goals user. The auto-complete will suggest the matching users.
 1. Select the name or email of the user, which is returned as a result.
 
-![Setting-up-a-Team-1@1x](https://user-images.githubusercontent.com/100967547/166738907-cdf8b43f-9d32-40eb-b20d-1a4e74664e6d.jpg)
+![add members to a team](../media/goals/2/22/c.jpg)
 
    
 1. Select the **Add Members** button. The user is added to the team as a member.
 
 To add people who are currently not in Viva Goals, you can use the same dialog box. Ensure the **Send invitations to users who are not in Viva Goals** checkbox is checked.
 
-![Setting-up-a-Team-2@1x](https://user-images.githubusercontent.com/100967547/166739101-4d139ed3-a890-44c6-8089-2a150fefc8bb.jpg)
+![dialog box when adding members](../media/goals/2/22/d.jpg)
 
 As part of setting up a team, it is useful to have another team administrator to ensure that the team setup process is not dependent on one person.
 
@@ -75,7 +75,7 @@ To assign permissions of a team administrator to a team member, perform the foll
 
 1. Select the **Actions** dropdown list and select **Promote to Team Admin**.
 
-![Setting-up-a-Team-3@1x](https://user-images.githubusercontent.com/100967547/166739334-13d14630-1c58-494d-b04f-3e7d920005b4.jpg)
+![assign permissions of a team administrator](../media/goals/2/22/e.jpg)
 
 ## How to promote team owners and administrators
 
@@ -85,7 +85,7 @@ You can promote or remove any team member as a team owner or administrator in th
 
 1. To update the team owner, go to the **Teams** section of the **Admin** menu, click **...** and select **Edit**.
 
-![Updating-Team-Administrators-1@1x](https://user-images.githubusercontent.com/100967547/166739522-2156c71f-090e-4b78-a3ad-2c779db59939.jpg)
+![update team owners](../media/goals/2/22/f.jpg)
 
 1. From the edit teams pop-up, click on the Team Owner dropdown menu to select and update the team owner.
 
@@ -95,11 +95,11 @@ You can promote or remove any team member as a team owner or administrator in th
 
 1. From the **Teams** section of the **Admin** menu, click **...** and select **Manage Members**.
 
-![Deleting-a-Team-1@2x](https://user-images.githubusercontent.com/100967547/166740509-b58cdf24-ce88-4986-9ee9-451decbcd7c5.jpg)
+![update team administrators](../media/goals/2/22/g.jpg)
 
-1. Select the **Action** dropdown list to the right of their name and you'll be able to edit their member status.
+2. Select the **Action** dropdown list to the right of their name and you'll be able to edit their member status.
 
-![Setting-up-Team-3@1x](https://user-images.githubusercontent.com/100967547/166740727-916884ee-c4e1-401d-92d2-ad57915c5ad3.jpg)
+![promote team members to team administrator](../media/goals/2/22/h.jpg)
  
 ## How to archive and delete teams
 
@@ -119,7 +119,7 @@ To delete a team, perform the following steps:
 Alternately, you can navigate to the team's OKR page, and delete the team from the options on the top-right corner.
 
 > [!NOTE]
-> *To delete a team from the team's OKR page, you need to be an organization administrator or the team owner. Team adminsistrators cannot delete a team*.
+> *To delete a team from the team's OKR page, you need to be an organization administrator or the team owner. Team administrators cannot delete a team*.
 
 A team can only be deleted if it has no objectives assigned to it. If you have objectives assigned to the team, a better alternative is to archive the team.
 
@@ -132,7 +132,7 @@ To delete a team, perform the following steps:
 1. Select **Admin > Teams tab > Actions**.
 1. Select **Archive** corresponding to the team that you want to archive.
 
-![Archiving-a-Team-1@1x](https://user-images.githubusercontent.com/100967547/166740900-c1ca23af-6ce4-4a28-8114-518c0f56913f.jpg)
+![archiving a team](../media/goals/2/22/i.jpg)
 
 Alternately, you can navigate to the team's OKR page, and archive the team from the options on the top-right corner.
 
@@ -145,7 +145,7 @@ To restore an archived team, perform the following steps:
 1. Select **Admin > Teams tab > Actions**.
 1. Select **Unarchive** corresponding to the team you want to restore.
 
-![Archiving-a-Team-2@1x](https://user-images.githubusercontent.com/100967547/166740962-ef27741b-04c0-43bf-9751-ad99d074c81c.jpg)
+![unarchive a team](../media/goals/2/22/j.jpg)
    
 ### What happens when I archive a team?
 
