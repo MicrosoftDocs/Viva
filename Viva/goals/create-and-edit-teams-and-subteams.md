@@ -99,7 +99,7 @@ You can promote or remove any team member as a team owner or administrator in th
 
 1. Select the **Action** dropdown list to the right of their name and you'll be able to edit their member status.
 
-![Setting-up-a-Team-3@1x](https://user-images.githubusercontent.com/100967547/166740727-916884ee-c4e1-401d-92d2-ad57915c5ad3.jpg)
+![Setting-up-Team-3@1x](https://user-images.githubusercontent.com/100967547/166740727-916884ee-c4e1-401d-92d2-ad57915c5ad3.jpg)
  
 ## How to archive and delete teams
 

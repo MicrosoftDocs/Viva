@@ -272,7 +272,7 @@ When an OKR is a key priority for two or more functional teams and the team lead
 
 When both the teams are supposed to commonly own and work toward the outcomes, it's good to tag multiple stakeholders and not just a single team/owner as accountable.
 
-    **Example #1:**
+   **Example #1:**
     OBJECTIVE: Enhance the onboarding strategy.
     KEY RESULT: Implement a new program to increase the repeat rate of 1st-time bookers. 
     TEAM(S): CRM Team and Marketing Team

@@ -166,11 +166,11 @@ Sometimes, due to unforeseen circumstances, a business may need to pivot and rep
 
 5. Provide the **closing note**, and select **Close** to close this objective, and continue working on it in the next quarter.
 
-![How-to-Postpone-OKRs-1@1x](https://user-images.githubusercontent.com/100967547/166745985-576a086b-f0ac-441f-bd80-bfe5644c5fc5.jpg)
+   ![How-to-Postpone-OKRs-1@1x](https://user-images.githubusercontent.com/100967547/166745985-576a086b-f0ac-441f-bd80-bfe5644c5fc5.jpg)
 
-    - If you want to postpone it, select the **More actions** symbol. You'll be able to find the option to postpone.
-    
-    - Provide a **reason for postponing**, and select  **Postpone** to finish the process.
+   - If you want to postpone it, select the **More actions** symbol. You'll be able to find the option to postpone.
+
+   - Provide a **reason for postponing**, and select  **Postpone** to finish the process.
 
 ### How to measure progress to-date on postponed objectives
 

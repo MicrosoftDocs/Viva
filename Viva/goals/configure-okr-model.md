@@ -76,13 +76,11 @@ Select this option if you want users to be able to create projects focused on mo
 
 - **Define how projects should contribute**
 
-Select how projects should contribute to the progress of its parent. 
+Select how projects should contribute to the progress of its parent.
 
-     - Projects contribute to the progress of their parent by default 
-            
-     - Projects do not contribute to the progress of their parent by default 
-            
-     - Block projects from ever contributing to the progress of their parent
+- Projects contribute to the progress of their parent by default
+- Projects do not contribute to the progress of their parent by default
+- Block projects from ever contributing to the progress of their parent
 
 - **Rename projects**
 
