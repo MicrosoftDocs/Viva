@@ -27,7 +27,7 @@ description: "Sync data updates from Amazon Redshift with Viva Goals to update O
 
 Viva Goals' Integration with Amazon Redshift allows you to link your OKRs in Viva Goals to datasets in Amazon Redshift to provide automatic, real-time updates on your objectives. 
 
-For example, if you have an objective to increase user adoption by 60%, you can directly link this objective with relevant data in Amazon Redshift. Whenever there is a change in the dataset and the report is updated, this data is automatically synced with Viva Goals and the OKR status is updated. 
+For example, if you have an objective to increase user adoption by 60%, you can directly link this objective with relevant data in Amazon Redshift. Whenever there is a change in the dataset and an update in the report, this data is automatically synced with Viva Goals and the OKR status is updated. 
 
 All users and admins can use this integration. Admins also have permissions to manage the integration from the admin dashboard. 
 
@@ -64,4 +64,4 @@ Once your integration is set up, you can measure your OKR progress by connecting
 
 ## How to disable the Amazon RedShift integration
 
-The Amazon Redshift integration can be disabled by an Admin at any time. To disable the integration go to Amazon Redshift in the Integrations section. Select Amazon Redshift and select Manage. On the configurations page, select the **Change dropdown**, select **Disable** and confirm the action.
+The Amazon Redshift integration can be disabled by an Admin at any time. To disable the integration, go to Amazon Redshift in the Integrations section. Select Amazon Redshift and select Manage. On the configurations page, select the **Change dropdown**, select **Disable** and confirm the action.

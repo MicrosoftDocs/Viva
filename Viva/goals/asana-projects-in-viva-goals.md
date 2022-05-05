@@ -30,7 +30,7 @@ Projects help you keep track of all the work your organization is executing to a
 
 With Viva Goals projects, you can now view your Asana projects inside of Viva Goals. Viva Goals will show you the tasks within the project, and calculate the progress of the project as a percentage based on completed tasks vs total.
 
-Viva Goals supports two ways of doing this: See all the tasks from an Asana project, and use a specific Asana task as the project, with its subtasks as the task list.
+Viva Goals supports two ways of doing this project management: See all the tasks from an Asana project, and use a specific Asana task as the project, with its subtasks as the task list.
 
 ## See all the tasks from an Asana project
 
@@ -38,7 +38,7 @@ Setting up the project is as easy as connecting to Asana, picking the project, a
 
 ## Use a specific Asana task as the project, with its subtasks as the task list
 
-Sometimes, our customers like to use a specific task in Asana as their project, with the subtasks as the task list. We support this as well, and you can set your project name in Viva Goals to the name of your Asana task. To do so:
+Sometimes, our customers like to use a specific task in Asana as their project, with the subtasks as the task list. We support this approach as well, and you can set your project name in Viva Goals to the name of your Asana task. To do so:
 
 1. Start by adding a project, and select the **Automatically based on completed tasks** option to calculate progress.
 
@@ -54,7 +54,7 @@ If you’ve chosen to track progress by % of subtasks completed, then:
 
 1. Enable the **Use this task name as the project name in Viva Goals** checkbox.
 
-2. Select **Next** and **Save** to save your project! This will create the specific Asana task or subtasks as the project and pull in the subtasks as the task list in Viva Goals.
+2. Select **Next** and **Save** to save your project! This process will create the specific Asana task or subtasks as the project and pull in the subtasks as the task list in Viva Goals.
 
 While Viva Goals supports an [Asana integration](https://help.ally.io/en/articles/2615109-asana-integration) for OKRs, projects let you see the individual tasks and their completion state, helping you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last check-in - which tasks were completed, were any tasks added or removed.
 
