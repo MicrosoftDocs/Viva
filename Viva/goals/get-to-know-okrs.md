@@ -23,7 +23,7 @@ description: "Learn about an OKR, its superpower, and how it's used"
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-![What-are-okrs-Image-1@1x](https://user-images.githubusercontent.com/100967547/166724889-c996d0d4-c3f6-4c37-a203-7951b75cc4df.jpg)
+![okr visualization](../media/goals/1/11/a.jpg)
 
 **What are OKRs?**
 
@@ -41,7 +41,7 @@ Objectives added at the organizational and team levels are depicted in the follo
 
 For best results, teams and individuals should be aligned well in a hierarchy. Key results at one level become objectives of the next level.
 
-![What-are-okrs-Image-2@1x](https://user-images.githubusercontent.com/100967547/166724919-ebaf1fc4-141c-4a73-a045-8f5a9fbda46c.jpg)
+![key results visualization](../media/goals/1/11/b.jpg)
 
 **Projects** are focused efforts that help you achieve your Key Results. 
 
