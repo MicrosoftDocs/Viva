@@ -22,7 +22,7 @@ description: "Learn how to have contextual discussions on OKRs with users by qui
 # Share Objectives via email
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 When working in Viva Goals, there may be several scenarios where you want to share an objective, or a list of objectives. You may do this to:
 

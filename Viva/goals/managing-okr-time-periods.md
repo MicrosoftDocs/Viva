@@ -20,8 +20,8 @@ description: "Learn how to manage Quarterly OKR Periods and custom periods (mont
 
 # Manage OKR time periods
 
-> [!IMPORTANT] 
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals](https://go.microsoft.com/fwlink/?linkid=2189933).
+> [!IMPORTANT]
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## Time periods in Viva Goals
 

@@ -22,7 +22,7 @@ description: "Learn how with Viva Goals’ Delegation option, you can assign ano
 # Objective Delegation
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 Viva Goals’ Objective Delegation feature allows objective owners to delegate another individual to manage OKRs on their behalf in Viva Goals.
 

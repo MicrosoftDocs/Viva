@@ -22,8 +22,8 @@ description: "Inviting and removing a user in Viva Goals"
 
 # Invite and remove users in Viva Goals
 
-> [!IMPORTANT] 
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> [!IMPORTANT]
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 Onboarding your entire team into Viva Goals is a very simple process that can be done in two ways: 
 

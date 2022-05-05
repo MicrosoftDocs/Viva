@@ -72,8 +72,8 @@ Once you have configured the connection, the next step is to start linking OKRs 
 
 The JQL query linked to the objective or key result can be edited at any given point in time. This leads to a recalculation of current progress.
 
-    > [!NOTE]
-    > If you are using Jira next-gen projects, the support for JQL can behave slightly different compared to classic Jira projects. For example, a Jira next-gen project does not support query based on epic link. Here is an official Jira quote summarizing this scenario, "Users should query on next-gen epics using the parent =. If you want to combine Epics from both project types, an example of such a query would be: "Epic Link" = NPC-6 OR parent = NJDP-5. The Parent field can now be selected as a column in the Global Issue Navigator and exported from Jira."
+> [!NOTE]
+> If you are using Jira next-gen projects, the support for JQL can behave slightly different compared to classic Jira projects. For example, a Jira next-gen project does not support query based on epic link. Here is an official Jira quote summarizing this scenario, "Users should query on next-gen epics using the parent =. If you want to combine Epics from both project types, an example of such a query would be: "Epic Link" = NPC-6 OR parent = NJDP-5. The Parent field can now be selected as a column in the Global Issue Navigator and exported from Jira."
 
 - Select the metric you want to use to track progress. For more information on the Jira metrics supported, see the following tabular column:
 
@@ -92,8 +92,8 @@ The JQL query linked to the objective or key result can be edited at any given p
 
 If you choose to track the progress by KPI, you will have the option to measure progress by completed tickets only or all tickets by toggling the checkbox.  
 
-    > [!NOTE]
-    > **Done** tickets include tickets with all statuses that is associated with the Jira's **Done** workflow status category irrespective of the resolution status of the tickets ([reference to Jira article](https://support.atlassian.com/jira-core-cloud/docs/build-the-workflow-you-need/)).
+> [!NOTE]
+> **Done** tickets include tickets with all statuses that is associated with the Jira's **Done** workflow status category irrespective of the resolution status of the tickets ([reference to Jira article](https://support.atlassian.com/jira-core-cloud/docs/build-the-workflow-you-need/)).
 
 ## Examples of how the Jira integration works  
 

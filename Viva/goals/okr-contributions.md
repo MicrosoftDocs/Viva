@@ -22,7 +22,7 @@ description: "Learn how to use OKR Contribution in Viva Goals."
 # OKR Contributions
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
   
 Viva Goals’ OKR Contribution feature allows users (OKR owners and creators) more flexibility and customizability in specifying how much weight each Objective, Key Result, and Project has in moving towards a goal. This helps with tracking progress and understanding which OKRs and Projects to prioritize first. 
   
@@ -33,17 +33,13 @@ Users will now be able to define and control contribution at the parent level. A
 ## How to manage OKR Contributions
   
 1. You can set or edit your OKRs’ contribution from the “More actions” dropdown by selecting the "Manage contributions" option. 
-  
-  [screenshot]
 
 > [!NOTE] 
 > You can also open the "Manage contributions" modal from the objective quick view and detail view.
 
 2. This opens up the “Manage contributions” dialog box, where you can add or edit contributions of the children OKRs and Projects
 
-You can enable or disable the “Newly aligned items should start contributing by default” toggle. By enabling this, you will allow a newly created child OKR or Project to contribute to the parent. This will readjust the contributions you’d have assigned to each child OKR or Project. 
-  
-  [screenshot]  
+You can enable or disable the “Newly aligned items should start contributing by default” toggle. By enabling this, you will allow a newly created child OKR or Project to contribute to the parent. This will readjust the contributions you’d have assigned to each child OKR or Project.  
   
 > [!Note]
 > The “New children should start contributing by default” will be enabled by default. 

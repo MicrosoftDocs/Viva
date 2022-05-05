@@ -20,6 +20,9 @@ description: "Learn how to close and score OKRs in Viva Goals"
 
 # Close and score OKRs
 
+> [!IMPORTANT]
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+
 It's been a few months since your ambitious brainstorming session to set quarterly goals. Week after week you've stayed diligent with your check-ins. 
 
 Now the quarter is ending and you get to find out how close you came to achieving the goals you set. 
@@ -163,11 +166,11 @@ Sometimes, due to unforeseen circumstances, a business may need to pivot and rep
 
 5. Provide the **closing note**, and select **Close** to close this objective, and continue working on it in the next quarter.
 
-![How-to-Postpone-OKRs-1@1x](https://user-images.githubusercontent.com/100967547/166745985-576a086b-f0ac-441f-bd80-bfe5644c5fc5.jpg)
+   ![How-to-Postpone-OKRs-1@1x](https://user-images.githubusercontent.com/100967547/166745985-576a086b-f0ac-441f-bd80-bfe5644c5fc5.jpg)
 
-    - If you want to postpone it, select the **More actions** symbol. You'll be able to find the option to postpone.
-    
-    - Provide a **reason for postponing**, and select  **Postpone** to finish the process.
+   - If you want to postpone it, select the **More actions** symbol. You'll be able to find the option to postpone.
+
+   - Provide a **reason for postponing**, and select  **Postpone** to finish the process.
 
 ### How to measure progress to-date on postponed objectives
 

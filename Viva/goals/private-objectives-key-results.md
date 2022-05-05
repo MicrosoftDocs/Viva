@@ -22,7 +22,7 @@ description: "Learn how Private Objectives feature allows user to set private ob
 # Private Objectives 
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 While the OKR methodology promotes transparency across the entire organization, Viva Goals recognizes that large enterprises often have sensitive objectives that require a limited audience.
 
