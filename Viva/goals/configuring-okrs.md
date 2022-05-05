@@ -331,15 +331,13 @@ By default, the owner (the first owner in the case of multiple owners) is set as
 
 1. Hover your mouse left of the objective name until you see the display of the icon depicted in the following image:
 
-   :::image type="content" source="../media/goals/display-of-icon.png" alt-text="Display of icon":::
+[reorder objectives](../media/goals/3/32/a.jpg)
 
 2. Click and hold your cursor to grab the objective.
 
 3. Drag it to the desired location and alignment.
 
 To make an objective become a key result, drag the cursor to the **+ Add key result** icon under the objective.
-
-:::image type="content" source="../media/goals/making-an-objective-a-key-result.png" alt-text="Making an objective a key result":::
 
 You can just as easily drag a key result out from under an objective to make it become an objective itself. Both examples are covered in the video below.
 
