@@ -34,7 +34,7 @@ There are **two ways of adding Projects in Viva Goals** – you can bring projec
 
 - Alternately, you can add projects from the **Projects tab** where your entire list of projects will be populated.
 
-    :::image type="content" source="../media/goals/ways of adding projects.gif" alt-text="Add Projects directly":::
+![add projects](../media/goals/4/41/a.jpg)
 
 - Provide the project details — title, type (individual, team, or organizational project), the project owner, and the time period.
 
@@ -54,7 +54,7 @@ There are **two ways of adding Projects in Viva Goals** – you can bring projec
     >
     > - However, these tasks will not roll up to the project. You will still have the option to update the project progress either manually or automatically through an integration but you cannot update the progress automatically based on the completed tasks (though you can add tasks).
     >
-    >     :::image type="content" source="../media/goals/kpi based projects.gif" alt-text="For adding KPI based projects":::
+    ![project options](../media/goals/4/41/b.jpg)
     >
 - Once you've added your tasks, the next step is determining how the progress of the project will be calculated:
 
@@ -64,11 +64,11 @@ There are **two ways of adding Projects in Viva Goals** – you can bring projec
 
 - Align the project to an objective or key result, and select **Save**.
 
-    :::image type="content" source="../media/goals/adding tasks.gif" alt-text="Align project to key result":::
+![align project](../media/goals/4/41/c.jpg)
 
 Native projects can be seen on the OKR and Projects tabs for your entity showing the manual or rollup icon, implying that the progress is being updated either manually or based on the completion of native project tasks.
 
-:::image type="content" source="../media/goals/viva-goals-native-projects-progress.png" alt-text="Native Projects Progress":::
+![project tab](../media/goals/4/41/d.jpg)
     
 ## How to clone Projects
     
@@ -103,7 +103,7 @@ Cloning projects makes sense for you when:
 
 In addition to being aligned to OKRs, projects also get their own dashboard in Viva Goals, so that you can monitor your execution. The dashboard is available at the individual, team and organization levels.
 
-:::image type="content" source="../media/goals/Projects Tab.gif" alt-text="Project Creation Projects Tab":::
+![project dashboard](../media/goals/4/41/e.jpg)
     
 ## How to understand Project progress and status
 
@@ -111,15 +111,11 @@ Progress in Viva Goals is measured either as percentage complete or a key perfor
 
 By default, project progress does *not* roll up to the parent, to keep the focus on achieving key results (For more information, see: **[Roll Up Process of Key Results](https://help.ally.io/en/articles/1931651-roll-up-of-progress-of-key-results)**). However, this is controlled by an admin setting and can be overridden on a per project level. The admin setting decides the default (whether progress rolls up or not) when projects are created. Should you decide this default doesn't apply to your project, you can always change it from the project's settings.
 
-:::image type="content" source="../media/goals/viva-goals-edit-alignment.png" alt-text="Edit Alignment":::
-
 Viva Goals compared the progress of an item with its expected progress and computes a Status as outlined here **([OKR Status Indicators](https://help.ally.io/en/articles/3065807-okr-status-indicators))**. Status for projects is also computed in the same manner as OKRs.
 
 **Project owners can do manual check-ins to provide the progress values (or) connect to a data integration to automatically update progress.**
 
 You can choose to have a project without any tasks in Viva Goals and check in manually to update the project progress.
-
-:::image type="content" source="../media/goals/No Task list.gif" alt-text="Project Progress No Task list":::
 
 If you would like to see the individual tasks in your project, you can create a task list directly in Viva Goals. Viva Goals also supports popular project management systems like JIRA, Asana and Wrike, with many more on the way. When you use a task list in Viva Goals or connect to these systems, progress of the project is automatically computed based on the number of tasks completed vs outstanding. You can edit a project to add an integration after creating it without one. When that happens, project progress will be recomputed based on the tasks, however your previous history of checkins will be maintained. You can read about Viva Goals' support for task lists, and popular integrations here:
 
@@ -135,7 +131,7 @@ If you would like to see the individual tasks in your project, you can create a 
 
 The recommended structure for OKRs and projects in Viva Goals is to have key results and projects under the objective. This way, you can see the outcomes needed to meet the outcomes (the key results) and the output needed to achieve those outcomes (the projects). Projects are always placed after all the objectives and key results at each level of the hierarchy. 
 
-:::image type="content" source="../media/goals/viva-goals-structure-objectives-key-results-projects.png" alt-text="Structure Objectives, Key Results, and Projects":::
+![project alignment](../media/goals/4/41/f.jpg)
 
 ## How to manually order the tasks of a Project
 
@@ -152,12 +148,11 @@ You can add a due date to a task within a project, even if the task is due after
 
 For example, if the project has been created for Q4 2021 (October 2021 to December 2021), the user will be able to add a task with a due date of January 2022.
 
-:::image type="content" source="../media/goals/viva-goals-due-date-for-task.png" alt-text="Due date for task":::
+![project due date](../media/goals/4/41/g.jpg)
 
 > [!NOTE]
 > While saving the task, the application will indicate **Due date is after project’s end date** to the user but the task can still be saved.
 > 
-> :::image type="content" source="../media/goals/viva-goals-due-date-after-project-end-date.png" alt-text="Due date is after project end date":::
 
 ## How to find tasks in Viva Goals
 
