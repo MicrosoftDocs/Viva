@@ -53,7 +53,7 @@ You cannot delete notifications, but notifications expire after 60 days.
 
 ## Announcements
 
-To open the _Announcements_ pane, select the bullhorn icon in the ribbon:
+To open **Announcements**, select the megaphone icon in the ribbon:
 
 ![Announcements.](../../images/advanced/announcements.png)
 
@@ -63,4 +63,4 @@ It also describes upcoming features or updates that will affect your current wor
 
 Each announcement includes a short description of the feature or feature update with a link to open documentation or view an informative example about it.
 
-The “new notification” number on the bullhorn shows how many unread notifications you have. Select the **Read more** or other available link for the feature or update to reduce the number. After you have selected the **Read more** or other type of link on all of the announcements, the number will go away.
+The “new notification” number on the megaphone shows how many unread notifications you have. Select the **Read more** or other available link for the feature or update to reduce the number. After you have selected the **Read more** or other type of link on all of the announcements, the number will go away.
