@@ -21,7 +21,7 @@ description: "Learn how and when to use the Work on Behalf feature"
 # Work on behalf of another user 
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 As an admin for Viva Goals, you have the ability to work on behalf of other users. This privilege will allow you to assume the sign in of other individuals in order to add OKRs, make check-ins, or score OKRs on their behalf. This privilege can be useful when setting up Viva Goals, or if someone is away and is unable to take the action by self.
 

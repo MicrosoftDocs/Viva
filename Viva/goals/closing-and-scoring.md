@@ -20,6 +20,9 @@ description: "Learn how to close and score OKRs in Viva Goals"
 
 # Close and score OKRs
 
+> [!IMPORTANT]
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+
 It's been a few months since your ambitious brainstorming session to set quarterly goals. Week after week you've stayed diligent with your check-ins. 
 
 Now the quarter is ending and you get to find out how close you came to achieving the goals you set. 

@@ -21,7 +21,7 @@ description: "Learn how to set up teams and subteams, from divisions to small fu
 # Create and edit teams 
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 Viva Goals supports multiple levels of hierarchy, from department-level all the way down to individual teams and functional units. To achieve this setup, you can use the teams and subteams functionality.
 
