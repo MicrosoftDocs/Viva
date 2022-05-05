@@ -51,11 +51,11 @@ Note: Ensure that all users are provisioned on your organization's Azure Active 
 
 2. If you are the organization administrator, you can also head to Settings, and click on ‘Invite Users’ under the Users tab. 
 
-![adding members from within the app](../media/goals/2/33/Adding-Members-Via-Invitation-From-Within-the-App-2-1x.jpg)
+![adding members from within the app](../media/goals/2/23/a.jpg)
 
 3. Another way to do this is to click on 'All Users' from the menu and select the ‘Invite Users’ button. 
 
-![Adding-Members-Via-Invitation-From-Within-the-App-3@1x](https://user-images.githubusercontent.com/100967547/166741813-73125971-7723-4aa7-a519-776af291f55c.jpg)
+![adding members from within the app](../media/goals/2/23/b.jpg)
 
 [screenshot] 
 
@@ -69,20 +69,20 @@ This can be done by navigating to **Admin -> Users**. Find the user you wish to 
 
 A deactivated user will remain visible in Viva Goals, but won't be able to sign in. The user will remain assigned as an owner of any OKRs they had. They won't be searchable in **All Users**, and will be listed as deactivated in the **Users** section of the admin tools. 
 
-![Deactivating-vs-Deleting-a-User-1@1x](https://user-images.githubusercontent.com/100967547/166553088-c72a4352-1b2e-4436-91bd-0016eec5a416.jpg)
+![deactivated users image](../media/goals/2/23/c.jpg)
 
 
 You can reactivate a user by choosing **Action-> Make Active** which will restore their ability to sign in.
 
-![Deactivating-vs-Deleting-a-User-2@1x](https://user-images.githubusercontent.com/100967547/166553160-a29ada87-daeb-4d4f-96c8-25bfb7b84f3b.jpg)
+![reactivating a user image](../media/goals/2/23/d.jpg)
 
 Deleting a user is a permanent action and can't be undone. Deleting a user will delete all of their activities in the system.
 
-![Deactivating-vs-Deleting-a-User-3@1x](https://user-images.githubusercontent.com/100967547/166553205-eb949cd4-30a2-4b50-8b24-a01a1b63f4ba.jpg)
+![deleting a user warning image](../media/goals/2/23/e.jpg)
 
 Admins can’t delete users if they are the current owners of any objective. To delete these users, reassign their OKRs first and then delete the users.
 
-![Deactivating-vs-Deleting-a-User-4@1x](https://user-images.githubusercontent.com/100967547/166553239-9a0f80fc-0838-44e9-9430-3d68df2b1f27.jpg)
+![error image when attempting to delete users who own objectives or projects](../media/goals/2/23/f.jpg)
 
 **Example scenario on when to deactivate a user**
 
