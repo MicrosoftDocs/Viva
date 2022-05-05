@@ -29,8 +29,8 @@ Adopting new technology and methodology requires buy-in and support from across 
 
 Below are key groups and team members who can help bridge the technology and business outcomes that matter to your organization. Each group or member has a specific role in implementation and adoption and should be engaged early and often. 
 
-<img width="680" alt="Screen Shot 2022-04-26 at 12 13 29 PM" src="https://user-images.githubusercontent.com/104021237/165345463-2d327cba-bdd4-47c9-9b84-d7941950ec17.png">
+![okr key stakeholder visualization](../media/goals/1/12/a.jpg)
 
 Here are the responsibilities for each role. 
 
-<img width="694" alt="Screen Shot 2022-04-26 at 12 14 22 PM" src="https://user-images.githubusercontent.com/104021237/165345643-fecd14d4-f375-40be-b41b-56f985bf55ff.png">
+![okr key stakeholder role responsibilities](../media/goals/1/12/b.jpg)
