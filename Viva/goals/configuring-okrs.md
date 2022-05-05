@@ -144,7 +144,7 @@ You can set or edit your OKRs’ contribution from the **More actions** dropdown
 
 You can use a KPI metric when you want to set customized "start" and "target" values for your OKR, as opposed to just going from 0-100% progress. Doing so gives you a much more accurate idea of progress while executing your OKRs.
 
-KPI metrics in Viva Goals support four types of units - Numeric (No unit), % (Percentage), $ (Dollar), and € (Euro).
+KPI metrics in Viva Goals support two types of units - Numeric (No unit) and % (Percentage)
 
 1. Select the **Add Objective** option and fill in your objective title and other details like type, owner, time period.
 
@@ -154,10 +154,8 @@ KPI metrics in Viva Goals support four types of units - Numeric (No unit), % (Pe
 
 4. Click on the drop down next to **%** to change the unit. You can use the following units:
 
-a. No unit
+a. No unit 
 b. % Percentage
-c. $ Dollar
-d. € Euro
    
 5. If the starting value needs to be changed, click on the **Edit** button next to **Starting from: 0%**.
 
@@ -182,11 +180,9 @@ To create an objective that is tracked by a numeric KPI, perform the following s
 
 1. Select the **Add Objective** option and fill in your objective title and other details like type, owner, and time period.
 
-   :::image type="content" source="../media/goals/create-an-objective.png" alt-text="Creating an objective":::
-
 2. In the **Outcome** pane, select the **Add a metric** option to give details about the metric you’d like to measure, the starting value, and the target you’d like to achieve. You can also select a unit based on how you’d like to measure progress.
 
-3. Once you’ve added details about the metric, select **Automatic via rollup from key results** as the progress mode under the **Progress**' pane, and select **Save**.
+3. Once you have added details about the metric, select **Automatic via rollup from key results** as the progress mode under the **Progress**' pane, and select **Save**.
 
 ### Objectives measured based on % unit
 
