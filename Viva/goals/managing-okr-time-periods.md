@@ -43,8 +43,6 @@ When you switch to custom time period cadences, Viva Goals will no longer automa
     
 2. Use the **Add Time Periods** option to add custom time periods.
 
-![Managing-OKR-Time-Peroids-3@1x](https://user-images.githubusercontent.com/100967547/166561770-0aa3bb3a-c88e-4ecf-9c42-2f08bc3ba0af.jpg)
-
 3. Select **Actions** menu and Set **Custom** time period as **Current Time Period**.
 
 ![Managing-OKR-Time-Peroids-4@2x](https://user-images.githubusercontent.com/100967547/166562108-0fe20b4d-b42a-4c5c-919c-a820e984c900.jpg)
