@@ -25,9 +25,11 @@ Your organization is hiring, and you need to onboard new employees – some of w
 
 | Viva Learning | Viva Topics | Microsoft Stream | Viva Insights | Viva Connections |
 ---|---|---|---|---|
- | Target specific training for new employees. | New team members can learn about popular terms, acronyms, projects, and more. | Use videos for training and onboarding. | Help new team members spend time productively. | Provide easy access to benefits, training materials, and new-hire specific resources.
+ | Target specific training for new employees. | New team members can learn about popular terms, acronyms, projects, and more. | Use videos for training and onboarding. | Help new team members spend time productively. | Provide easy access to benefits, training materials, and new-hire specific resources. |
 
 **Roles for this scenario**: Human Resource specialists, SharePoint admins, site owners, and page authors, knowledge admins
+
+
  
 ### Viva Learning
 

@@ -24,7 +24,7 @@ Let’s say your organization is launching a new product. Announcement of the pr
 
 
 
-**Roles for this scenario**: Executive leadership, Corporate communications specialists, SharePoint site owners and page authors, Yammer group admins 
+
 
 ![Video screenshot for leadership presentation](../media/leadership.png)
 
@@ -33,6 +33,8 @@ You can use Yammer Live, Stream, and Viva Connections to bring everyone together
 | Yammer Live | Microsoft Stream | Viva Connections  
 ---|---|---|
  Bring your organization together around an event. Yammer group admins can host a live video event including Yammer conversations before, during, and after the event. | Record the live event and embed the Stream video in your news feed, or provide a link to it from the Viva Connections dashboard. | Promote and provide resources to the event, including Yammer conversations, news posts, and Stream recordings. | 
+
+**Roles for this scenario**: Executive leadership, Corporate communications specialists, SharePoint site owners and page authors, Yammer group admins 
 
 **Prepare and conduct a live event** for people in your Yammer network, with built-in discussions for use before, during, and after the event. Up to 10,000 people can attend at once from anywhere on their device or computer (higher limits for event attendees are temporarily available through the Microsoft 365 Live Events Assistance program). 
 
