@@ -331,7 +331,7 @@ By default, the owner (the first owner in the case of multiple owners) is set as
 
 1. Hover your mouse left of the objective name until you see the display of the icon depicted in the following image:
 
-[reorder objectives](../media/goals/3/32/a.jpg)
+![reorder objectives](../media/goals/3/32/a.jpg)
 
 2. Click and hold your cursor to grab the objective.
 
