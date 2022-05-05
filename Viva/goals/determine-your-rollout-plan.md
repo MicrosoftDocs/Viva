@@ -27,7 +27,7 @@ At the completion of your rollout plan or deployment phase, you will have Micros
 
 As you navigate the OKR Maturity Model shown below and change management associated with a Viva Goals OKR rollout, we recommend easing your organization into OKRs with a user pilot. 
 
-![MicrosoftTeams-image (3)](https://user-images.githubusercontent.com/104021237/165195842-b14dd38c-fb1a-4a3d-ab87-09f1ae28c137.png)
+![okr maturity visualization](../media/goals/1/13/a.png)
 
 The benefits of a user pilot are two-fold: first, you’ll quickly learn how the methodology works within your organizational culture and gain insight into the challenges and opportunities.  
 
@@ -83,8 +83,7 @@ It's essential that you get full participation from stakeholders in defining you
 
 Here is an example of an OKR for rolling out an OKR program with Viva Goals: 
 
-<img width="682" alt="Screen Shot 2022-04-25 at 8 02 28 PM" src="https://user-images.githubusercontent.com/104021237/165194350-99dc8268-c344-4f40-a553-da6d8dec8e51.png">
-
+![okr example](../media/goals/1/13/b.png)
 ## 3. Determine your OKR calendar and timing
 
 **Annual timing**:
