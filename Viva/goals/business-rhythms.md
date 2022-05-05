@@ -61,37 +61,33 @@ Keeping goals top-of-mind for your organization requires frequent reminders and 
 
 To start receiving summary updates, begin by following the company, team or individual. You can follow as many teams or individuals as you like by visiting the respective OKR dashboard page available from the navigation menu.
 
-:::image type="content" source="../media/goals/goals-summary-follow.png" alt-text="Image of follow":::
+![receive summary updates](../media/goals/3/37/a.jpg)
 
 You can also add other users as followers to ensure they receive summary updates for the company, team or individual. Select the Followers button and select the **Add** link. 
 
-:::image type="content" source="../media/goals/goals-summary-add-users.png" alt-text="Image of add user":::
+![add other followers](../media/goals/3/37/b.jpg)
 
 ### How to customize summary update cadence and frequency
 
 Customize the frequency and cadence of summary updates by selecting the 'cog' icon next to the following link from the title pane of the dashboard. You can also select **change update time** in the alert that shows after you follow the company, team or individual.
 
-:::image type="content" source="../media/goals/goals-summary-cog-icon.png" alt-text="Image of cog' icon":::
+![customize notification frequency](../media/goals/3/37/c.jpg)
 
 Select **Custom schedule** and choose the cadence, day and time that you would like to receive the update. Select **Done** to save your settings.
 
-:::image type="content" source="../media/goals/goals-summary-custom-schedule.png" alt-text="Image of custom schedule":::
+![customize notification frequency](../media/goals/3/37/d.jpg)
 
 ### How to manage summary updates
 
 View all teams and individuals that you follow on your profile settings page. Select your profile icon and go to **Account Settings**.
 
-:::image type="content" source="../media/goals/goals-summary-account-setting.png" alt-text="Image of account setting":::
-
 From this page, you can change the cadence or unfollow the company, teams and individuals you're following.  
 
 To edit the cadence for each summary update, select **Edit Update Time** button and select the schedule you would like to receive the weekly update from the popup. To unfollow a company, team or individual you're following, select the **Unfollow** button. You'll stop receiving the summary update for the company, team or individual you chose to unfollow.
 
-:::image type="content" source="../media/goals/goals-setting.png" alt-text="Image of settings":::
+![unfollow teams](../media/goals/3/37/e.jpg)
 
 You can also unfollow a company, team or individual from the dashboard.
-
-:::image type="content" source="../media/goals/goals-unfollow.png" alt-text="Image of unfollow a company":::
 
 ### How to trigger the summary and follower update emails manually
 
@@ -103,13 +99,11 @@ The summary and follower update emails can also be triggered manually using the 
 
 3. Select **Add a personal note** if you want to add more context while sharing the summary of objectives. You can select the option **Include objective progress changes in the last xx days** and set the number of days according to your preference.
 
-    :::image type="content" source="../media/goals/goals-summary-summary-follower-updates-emails-manuallyl.png" alt-text="Image of trigger the summary updates emails manually":::
+![send email summary](../media/goals/3/37/f.png)
 
 To send yourself a preview of the message that will be shared, select **Send Preview**
 
-4. Once you are ready, select **Share** and the objectives will be sent to the intended recipients via email that looks like the following.
-
-:::image type="content" source="../media/goals/goals-email-direct.png" alt-text="Image of share an update directly":::
+4. Once you are ready, select **Share** and the objectives will be sent to the intended recipients via email.
 
 ## Key business rhythm #3: Quarterly OKR reviews 
 
