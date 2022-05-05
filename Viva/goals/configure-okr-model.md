@@ -84,7 +84,7 @@ Select how projects should contribute to the progress of its parent.
 
 - **Rename projects**
 
-Define what you want projects to be called. You can rename the default label and call projects Initiatives, Tactics, or anything else. This changr will be reflected across your instance of Viva Goals.
+Define what you want projects to be called. You can rename the default label and call projects Initiatives, Tactics, or anything else. This change will be reflected across your instance of Viva Goals.
 
 ## How to save your OKR model configuration settings
 

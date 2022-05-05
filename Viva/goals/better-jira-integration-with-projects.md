@@ -34,7 +34,7 @@ The following are recommended ways to use Projects:
 
 1. Objective that is tracked by a KPI metric: If a project must be completed to achieve the KPI metric, we recommend creating the project as a child of the Objective. Progress of the project will not roll up to the parent since it is KPI metric based.
   
-1. Objective with multiple key results: Projects can be siblings to the key result, so you can see the outcomes needed to meet the objective (the key results) as well as the output needed to achieve those outcomes (the projects).
+1. Objective with multiple key results: Projects can be siblings to the key result, so you can see the outcomes needed to meet the objective (the key results) and the output needed to achieve those outcomes (the projects).
 
 Projects are always placed after all the objectives and key results at each level of the hierarchy.
 
@@ -44,7 +44,7 @@ Projects in Viva Goals currently support JIRA, the popular project management sy
 
 While Viva Goals supports a [JIRA integration](https://help.ally.io/en/articles/2285939-jira-integration) for OKRs, projects let you see the individual tasks and their completion state, helping you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last checkin - which tasks were completed, were any tasks added or removed.
 
-Viva Goals will periodically check on project progress in JIRA, and update status. Progress and Status is calculated for projects exactly like [key results](https://help.ally.io/en/articles/3065807-how-are-progress-and-status-calculated). Similar to key results, you can also check in on a project, where you can temporarily override the status. However, this will last only as long as Viva Goals does not detect a change in the completion status of the project in JIRA, at which point, it will overwrite your checkin with an automated update.
+Viva Goals will periodically check on project progress in JIRA, and update status. Progress and Status is calculated for projects exactly like [key results](https://help.ally.io/en/articles/3065807-how-are-progress-and-status-calculated). Similar to key results, you can also check in on a project, where you can temporarily override the status. However, this override will last only as long as Viva Goals does not detect a change in the completion status of the project in JIRA, at which point, it will overwrite your checkin with an automated update.
 
 ## Current limitations with projects
 
