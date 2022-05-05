@@ -22,7 +22,7 @@ description: "Learn how to nudge users reminding them to check in to their OKRs?
 # Nudge users to check in
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 When an OKR or Projects needs an update and you want to leave a comment specifically as a reminder to check in or update the OKR, you can now select the progress icon on the left of the progress bar on the OKR/Project list, and nudge the person who is responsible for making the check-ins.
 

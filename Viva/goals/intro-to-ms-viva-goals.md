@@ -20,6 +20,9 @@ description: "Learn about Microsoft Viva Goals on how you can use it for organiz
 
 # Introduction to Microsoft Viva Goals
 
+> [!IMPORTANT]
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+
 **Insert Viva Goals Marketing Video Here**
 
 Microsoft Viva Goals is a goal alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. 

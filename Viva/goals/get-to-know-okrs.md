@@ -21,7 +21,7 @@ description: "Learn about an OKR, its superpower, and how it's used"
 # Get to know OKRs
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ![What-are-okrs-Image-1@1x](https://user-images.githubusercontent.com/100967547/166724889-c996d0d4-c3f6-4c37-a203-7951b75cc4df.jpg)
 
