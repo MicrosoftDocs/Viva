@@ -59,7 +59,7 @@ You can also view the parent objective that a particular objective is aligned to
 
 **The typical hierarchical structure in Viva Goals is:**
 
-![Working-with-OKRs-OKR-Views@1x](https://user-images.githubusercontent.com/100967547/166743485-fbcf4e88-c257-465e-9c07-af411affdded.jpg)
+![working with okr views](../media/goals/3/34/a.jpg)
  
 ### Available actions in list view 
 
@@ -137,8 +137,6 @@ The Overview tab gives you a quick snapshot of the most important information ab
 **8. Add a description** - Allows you to add a quick blurb on what the objective is about to provide others with more context.
 
 **9. Alignment** - This shows you how the current objective or project is aligned to its parent. For example, if you are viewing an objective's quick view, you will see how it is aligned to a parent objective, if any. To edit alignment, click on ‘Edit’ button. 
-
-![Steps-to-add-or-edit-alignment-1@1x](https://user-images.githubusercontent.com/100967547/166744902-f6e09333-5c0b-4221-9d9f-f919ad3938af.jpg)
 
 ### Key Results
 
