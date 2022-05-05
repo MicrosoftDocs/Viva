@@ -36,28 +36,16 @@ Users may add a delegate to an objective when creating or editing an objective.
 
 1. Click the more **More Actions** icon and select **Edit**.
 
-[screenshot]
-
 2. From the edit screen, click on the drop down next to **More Options**.
-
-[screenshot]
-    
+  
 3. Click on **Assign a delegate**.
     
-[screenshot]
-    
 4. From the delegate pop-up, select the **Delegate this to** radio button.
-    
-[screenshot]
-    
+  
 5. Use search field to search for a team member to whom you'd like to delegate.
     
-[screenshot]    
-
 6. Select from the options below: Delegate any key results below owned by the objective owner and select to have the original owner receive notifications.
 
-[screenshot]    
-    
 7. Click **Done**.
 
 ## The difference between a Delegate and a Check-In Owner
@@ -77,5 +65,3 @@ If you want a user within the organization to check in and update the progress o
 - Once you make the selection, the user will start receiving the check-in reminders.
 
 By default, the owner (the first owner in the case of multiple owners) is set as the person responsible for check-in and users need not explicitly choose unless necessary.
-
-If you have an enterprise subscription and would like to have this enabled for your organization, have an account admin reach out to [support@gotoally.com](mailto:support@gotoally.com) with the request.
