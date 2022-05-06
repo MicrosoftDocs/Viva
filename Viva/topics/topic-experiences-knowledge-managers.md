@@ -162,7 +162,7 @@ Users need topic contributor permissions to be able to edit and create topics. I
 
 Once colleagues have curated topics, **recognize** their efforts. There are ways to provide recognition to topic contributors depending on what Microsoft 365 applications are used within the organization:  
 
-- [Praise](https://docs.microsoft.com/viva/insights/personal/teams/viva-insights-praise) colleagues in [Viva Insights](https://docs.microsoft.com/viva/insights/personal/teams/viva-teams-app) 
+- [Praise](/viva/insights/personal/teams/viva-insights-praise) colleagues in [Viva Insights](/viva/insights/personal/teams/viva-teams-app) 
 
 - [Praise](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) someone in a Yammer network 
 
