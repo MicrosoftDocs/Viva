@@ -40,11 +40,9 @@ When working in Viva Goals, there may be several scenarios where you want to sha
 
 3. Select **Add a personal note** if you want to add more context while sharing the summary of objectives.
 
-    :::image type="content" source="../media/goals/Share-objectives-gif.gif" alt-text="Share Objectives 1":::
+![bookmark](../media/goals/4/410/a.jpg)
 
     > [!NOTE]
     > To send yourself a preview of the message that will be shared, select **Send Preview**.
 
 4. Once you're ready, select **Share** and the objectives will be sent to the intended recipients
-
-:::image type="content" source="../media/goals/viva-goals-share-objectives-image-2.png" alt-text="Share Objectives 3":::
