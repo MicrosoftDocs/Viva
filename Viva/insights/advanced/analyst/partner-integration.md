@@ -180,10 +180,10 @@ You can use the SDK or REST API to download data from your Blob Storage account 
 
 To quickly prototype an application built on the Viva Insights integration, you can use sample data to simulate a data drop received from a customer.
 
-* Upload Viva Insights sample data to a Storage Account in your test environment. See [How to upload data to Azure](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal) for further details. for further details.
+* Upload Viva Insights sample data to a Storage Account in your test environment. See [How to upload data to Azure](/azure/storage/blobs/storage-quickstart-blobs-portal/) for further details. for further details.
 * Build your application to retrieve the behavioral analytics data, as follows:
 
-  * Download the data from your Azure Storage Account. To do this, you can use the [SDK](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet) or the [REST API](https://docs.microsoft.com/rest/api/storageservices/) directly.
+  * Download the data from your Azure Storage Account. To do this, you can use the [SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet/) or the [REST API](/rest/api/storageservices/) directly.
   * Ingest the data into your application. Steps will vary based on what your application requires.
 
 ## Diagnose pipeline problems
