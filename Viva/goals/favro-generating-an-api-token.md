@@ -24,7 +24,7 @@ description: "Learn how to add a personal API token from the 'Profile & account'
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Here is how to add a personal API token from the '**Profile & account**' section in Favro.
+Here's how to add a personal API token from the '**Profile & account**' section in Favro.
   
 1. From the top-left corner, select your account drop-down.
   

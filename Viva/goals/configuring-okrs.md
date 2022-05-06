@@ -274,7 +274,7 @@ When both the teams are supposed to commonly own and work toward the outcomes, i
     TEAM(S): CRM Team and Marketing Team
     OWNER(s): CRM Lead and Marketing Lead
     
-    **Example #2:** 
+   **Example #2:** 
     OBJECTIVE: Build a world class Engineering org.
     KR/INITIATIVE: Invest in 2 Training & Development sessions + Capstone Projects for all 4 engg. teams this quarter
     TEAM(S): Engineering Department

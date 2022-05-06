@@ -55,7 +55,7 @@ Note: Ensure that all users are provisioned on your organization's Azure Active 
 
 3. Another way to do this is to click on 'All Users' from the menu and select the ‘Invite Users’ button. 
 
-![adding members from within the app](../media/goals/2/23/b.jpg)
+![adding members from within the application](../media/goals/2/23/b.jpg)
 
 [screenshot] 
 

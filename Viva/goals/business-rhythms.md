@@ -75,7 +75,7 @@ Customize the frequency and cadence of summary updates by selecting the 'cog' ic
 
 Select **Custom schedule** and choose the cadence, day and time that you would like to receive the update. Select **Done** to save your settings.
 
-![customize notification frequency](../media/goals/3/37/d.jpg)
+![customize the notification frequency](../media/goals/3/37/d.jpg)
 
 ### How to manage summary updates
 

@@ -227,7 +227,7 @@ As a team owner or team admin, often a need arises to clone a dashboard to retai
 
 **Step 3:** Select the three dots icon and select **Clone**.
 
-![review dashboard](../media/goals/4/42/l.jpg)
+![the review dashboard](../media/goals/4/42/l.jpg)
 
 
 **Step 4:** By default, the name of the cloned dashboard will be "**Copy of \<dashboard name\>**". You can edit the name to easily identify the cloned dashboard, edit widgets and then select **Save**. After cloning, the user will land on the cloned dashboard.

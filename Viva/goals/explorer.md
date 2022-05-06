@@ -101,7 +101,7 @@ We have included additional settings to the **Export** feature:
 
 Any changes to these additional settings will be preserved for every user for subsequent exports.
 
-![explorer report filters](../media/goals/4/46/c.jpg)
+![filters for reports in explorer](../media/goals/4/46/c.jpg)
 
 ## How to rename a view
 
@@ -185,7 +185,7 @@ You can use Explorer to export OKRs and projects. Navigate to the Explorer from 
 
 **Flat-list view:**
 
-![explorer report filters](../media/goals/4/46/m.jpg)
+![filters for the reports in explorer](../media/goals/4/46/m.jpg)
 
 
 Once your view is tweaked to your requirements, go to **Actions -> Export** to export it. You'll receive an email with your download shortly. To learn more about the explorer, see [Explorer](https://help.ally.io/en/articles/5845706-explorer).

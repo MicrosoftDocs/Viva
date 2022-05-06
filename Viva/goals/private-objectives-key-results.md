@@ -59,9 +59,9 @@ By default, all objectives will be visible to the entire organization unless con
 
 3. Now the user can see this objective is private to them and one other person.
 
-![private objective](../media/goals/4/414/c.jpg)
+![private objectives](../media/goals/4/414/c.jpg)
 
-    The privacy of an objective can be edited or changed at any time by the owner of the objective.
+The privacy of an objective can be edited or changed at any time by the owner of the objective.
 
 ## Key considerations for Private Objectives
 

@@ -42,7 +42,7 @@ When working in Viva Goals, there may be several scenarios where you want to sha
 
 ![bookmark](../media/goals/4/410/a.png)
 
-    > [!NOTE]
-    > To send yourself a preview of the message that will be shared, select **Send Preview**.
+> [!NOTE]
+> To send yourself a preview of the message that will be shared, select **Send Preview**.
 
 4. Once you're ready, select **Share** and the objectives will be sent to the intended recipients
