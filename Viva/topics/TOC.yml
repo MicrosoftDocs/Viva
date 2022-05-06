@@ -14,9 +14,7 @@
             - name: Knowledge manager
               href: topic-experiences-knowledge-managers.md
             - name: Topic contributor
-              href: topic-experiences-topic-contributors.md
-            - name: Topic viewer
-              href: topic-experiences-information-endusers.md           
+              href: topic-experiences-topic-contributors.md         
         - name: Supported languages
           href: topics-language-support.md 
         - name: Get your environment ready 
