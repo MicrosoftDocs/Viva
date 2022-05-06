@@ -1,7 +1,7 @@
 ---
 
-title:  Advanced insights notifications
-description: The advanced insights app with Microsoft Viva Insights shows notifications about system changes, user actions, and product updates
+title:  Advanced insights notifications and announcements
+description: The advanced insights app with Microsoft Viva Insights shows notifications and announcements about system changes, user actions, and product updates
 author: madehmer
 ms.author: v-lilyolason
 ms.topic: article
@@ -16,11 +16,11 @@ audience: Analyst
 
 ---
 
-# Notifications and What's new
+# Notifications and announcements
 
 The top ribbon in the advanced insights app with Microsoft Viva Insights includes a number of options, including a way to provide feedback; view information about your tenant, role, and session; and view additional documentation resources.
 
-It also lets you view notifications and learn What's new in Viva Insights, as described in the following sections.
+It also lets you view notifications and see announcement about what's new in Viva Insights, as described in the following sections.
 
 ## Notifications in the app
 

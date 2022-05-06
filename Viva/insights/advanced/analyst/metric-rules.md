@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
-title: Advanced insights metric rules
-description: Describes what metrics rules are and how to use them for analysis data in Microsoft Viva Insights, including for queries and templates in the Advanced insights app
+title: Advanced insights rules for metrics
+description: Describes what metric rules are and how to use them for analysis data in Microsoft Viva Insights, including for queries and templates in the Advanced insights app
 author: madehmer
 ms.author: v-lilyolason
 ms.topic: article
@@ -25,23 +25,21 @@ As a Viva Insights Analyst, you can view the **Metric rules** page within the Ad
 Viva Insights excludes events from analysis based on the default **Meeting attendance rule**. This rule is set by default to exclude meetings from analysis (such as all-day training meetings) where their inclusion might skew query results.
 
 ![Metric rules page](../../Images/advanced/metric-rules.png)
-<!--customized is misspelled in the image, please replace when the UX is fixed-->
-
+<!--image has a typo and need to confirm if it's called Exclusions or Metric rules, figmas don't all match -->
 ## View rule details
 
 The default meeting attendance rule filters the meeting data for analysis purposes. To view rule details, do the following.
 
-1. In the Advanced insights app, select **Analyst** > **Metric rules**.<!--add a link to the app when available?-->
+1. In the Advanced insights app, select **Analyst** > **Metric rules**.<!--add a link to the Advanced insights app for this step when available?-->
 1. Select **View details**, and then you can expand the sections listed on this page, such as **Rule exceptions**.
 
    ![Metric rule details page](../../Images/advanced/metric-rule-details.png)
-   <!--add a better image, this one has typos-->
-
+<!--image has typos, so need an updated image when they fix them, and again, is it Exclusions or Metric rules? -->
 1. Optionally, you can select **Download sample results** to see an example .csv file that shows what's included and excluded from existing collaboration data.
 
 ## About the rules
 
-* **Only apply to analysis data** - Metric rules only apply and filter data in the **Analyst** pages and for the data shown within the Viva Insights app in Teams for managers and leader insights. These rules are _not_ applied to the data shown in the **Data quality** pages, such as for Microsoft 365 data.
+* **Only apply to analysis data** - Metric rules only apply and filter data in the **Analyst** pages and for the data shown within the Viva Insights app in Teams for managers and leader insights. These rules are _not_ applied to the data shown in the **Data quality** pages, such as for organizational data.
 * **Are read-only** - These rules are set up automatically by default. For the first release of the new Advanced insights app, you cannot yet edit or change these metric rules.
 * **Meetings excluded from collaboration metrics** - The default **Meeting attendance rule** excludes the time and count metrics for meetings that match the following criteria:
 
