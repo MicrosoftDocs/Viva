@@ -108,7 +108,7 @@ To make contributions to Viva Topics inclusive and helpful, keep in mind:
 
 - Contributions should distinguish between facts and opinion 
 
-- Contributions should contain up-to-date information 
+- Contributions should contain up—to—date information 
 
 - Contributions should be accurate, relevant, reliable, and reusable 
 
@@ -116,7 +116,7 @@ To make contributions to Viva Topics inclusive and helpful, keep in mind:
 
 ### Customize a topic page
 
-To accommodate different scenarios for how an organization wants to use Viva Topics, it’s possible to customize a topic page to include more types of content – such as text, images, or links - beyond the standard properties of a topic. [Web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in these different types of content.  
+To accommodate different scenarios for how an organization wants to use Viva Topics, it’s possible to customize a topic page to include more types of content—such as text, images, or links—beyond the standard properties of a topic. [Web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in these different types of content.  
 
 The appropriate web parts to use on a topic page will be based on the scenarios identified for Viva Topics. The [Viva Topics scenario catalog](https://aka.ms/TopicsScenarios) can be referenced for some ideas. To help users think about different ways to make a topic page relevant to a scenario, consider sharing these sample scenarios and associated web parts that have been used on a topic page. Users can choose what makes the most sense and be creative. 
 
@@ -134,7 +134,7 @@ Help sales executives, account managers, and support reps serve customers in a m
 
 ### Asset based topic
 
-Provide employees with one place to go to find comprehensive and up-to-date information related to organizational assets. 
+Provide employees with one place to go to find comprehensive and up—to—date information related to organizational assets. 
 
 ![Image showing asset based topic page.](../media/knowledge-management/topics-organizational-assets-tc.png)
 
@@ -143,7 +143,7 @@ Enable employees with a common interest in a topic to share knowledge, connect, 
 
 ![Image showing topic page for curated for knowledge networks.](../media/knowledge-management/knowledge-networks-tc.png)
 
-[To add web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0#bkmk_addwebpart) to your topic page, select the canvas icon, which you can find below the short topic description. Selecting it will open the SharePoint web part gallery from which you can choose the web parts you want to add to the topic page. 
+[To add web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0#bkmk_addwebpart) to your topic page, select the canvas icon, which you can find below the short topic description. Selecting it will open the SharePoint web part gallery from which you can choose the web parts you want to add to the topic page. 
 
 ![Image showing SharePoint web part gallety.](../media/knowledge-management/topics-canvas-topic-tc.png)
 
