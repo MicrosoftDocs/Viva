@@ -37,8 +37,6 @@ By default, objectives are defined as aspirational with measurable key results.
 
 Having your objectives defined as aspirational with measurable key results is the classic style of doing OKRs. Your objectives will record progress from 0% to 100%; progress will by default be rolled up from key results, or you can choose to update progress manually. Your key results will have a metric associated with them.
 
-:::image type="content" source="../media/goals/Goals-classic.png" alt-text="Image of the classic":::
-
 Once you define your objectives as aspirational and key results as measurable, you'll find the following set of options: 
 
 #### Allow objectives to be nested under key results
