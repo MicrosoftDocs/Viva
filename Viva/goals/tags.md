@@ -38,13 +38,13 @@ In this article, we will cover how to add tags, search by tag and use the explor
 
 In this example, we're tagging OKRs related to **Customer Obsession**, the responsibilities for which are distributed across teams and individuals. It becomes strategically valuable to group these related OKRs together.
 
-:::image type="content" source="../media/goals/viva-goals-add-a-tag.png" alt-text="Add a tag":::
+![add a tag](../media/goals/4/45/a.jpg)
 
 ## Search by Tag
 
 Tags are searchable. To search by a tag, select the search button in the top right and type in the tag.
 
-:::image type="content" source="../media/goals/viva-goals-search-by-tag.png" alt-text="Search by tag":::
+![search by tag](../media/goals/4/45/b.jpg)
 
 ## Reporting with Tags
 
@@ -58,6 +58,6 @@ Use the explorer to filter by tag and create meaningful reports and views.
 
 4. To separate tags in the exported report, select **Export tag values as separate columns**.
 
-    :::image type="content" source="../media/goals/viva-goals-reporting-with-tags.png" alt-text="Reporting with tags":::
+![export report page](../media/goals/4/45/c.jpg)
 
-    :::image type="content" source="../media/goals/viva-goals-export-cs-okrs.png" alt-text="Export CS OKRs":::
+![show tag as filter for export report](../media/goals/4/45/d.jpg)

@@ -48,7 +48,7 @@ Viva Goals allows you to create custom views and save the filters you use often.
 
 2. Your new view can now be customized by adding filters.
 
-    :::image type="content" source="../media/goals/viva-goals-new-view.png" alt-text="New View":::
+![explorer report filters](../media/goals/4/46/a.jpg)
 
 The following filters are available:
 
@@ -75,15 +75,13 @@ The following filters are available:
 
 Filters are better together. Create meaningful and relevant views by combining several filters at once. Here’s an example view using a combination of the time period, type, and created date filters:
 
-:::image type="content" source="../media/goals/viva-goals-new-view-2.png" alt-text="New view 2":::
-
 By default, Views list out objectives, key results and projects. To view only top-level objectives, check the box in the upper right-hand corner.
 
 ## How to save and export
 
 Save and Export views for future reference or to share insight with your team. To save a view, select the **Save View** button in the upper right-hand corner. You'll be prompted to name the view and select a sharing option.
 
-:::image type="content" source="../media/goals/viva-goals-save-view.png" alt-text="Save view":::
+![save](../media/goals/4/46/b.jpg)
 
 If you would prefer not to share the view with your team, you can change the security setting to **Only Me**. Hit save to save your view.
 
@@ -103,13 +101,13 @@ We have included additional settings to the **Export** feature:
 
 Any changes to these additional settings will be preserved for every user for subsequent exports.
 
-:::image type="content" source="../media/goals/viva-goals-explorer-okrs.png" alt-text="Explorer Export CS OKRs":::
+![explorer report filters](../media/goals/4/46/c.jpg)
 
 ## How to rename a view
 
 Users have the ability to rename a view once it has been saved. Select **Actions -> Rename View** to make edits to the Saved View Name.
 
-:::image type="content" source="../media/goals/viva-goals-rename-a-view.png" alt-text="Rename a view":::
+![rename a view](../media/goals/4/46/d.jpg)
 
 ## How to use an existing view to create a similar view
 
@@ -117,7 +115,7 @@ Viva Goals gives you the ability to edit a saved view and save it as a new view 
 
 To do this, open a saved view, make all appropriate changes to filters and select the dropdown on the right of **Save**. You'll be prompted with an option to update the current view or save it as a new view.
 
-:::image type="content" source="../media/goals/viva-goals-save-a-new-view.png" alt-text="Save a new view":::
+![save new view](../media/goals/4/46/e.jpg)
 
 Example: I want to create specific views for each of my employees or teams. I've created a view for John with the appropriate filters set and have saved it. I then would edit the filter for **Owner** from John to Jordan and save it as a new view.
 
@@ -127,7 +125,7 @@ The explorer makes navigating and forming and sharing insights a breeze. Go on a
     
 You can sort your Objectives and Key Results (OKRs) in order of your priority in Explorer.
 
-:::image type="content" source="../media/goals/viva-goals-sort-okrs-by-priority.png" alt-text="Sort OKRs by priority":::
+![sort OKRs](../media/goals/4/46/f.jpg)
 
 This refers to the order in which the OKRs are arranged i.e. their order in the Entity (Organization/Team/Individual) OKR view. For example: If you have OKRs arranged in a certain manner on your page and want to see the same priority order in Explorer, you can use this option.  
 
@@ -137,33 +135,31 @@ This refers to the order in which the OKRs are arranged i.e. their order in the 
 
 Navigate to the Explorer and select the **All Objectives** preset view.
 
-:::image type="content" source="../media/goals/viva-goals-all-objectives.png" alt-text="All objectives":::
+![all objectives](../media/goals/4/46/g.jpg)
 
 **2. How do I view all projects?**
 
 Navigate to the Explorer and apply the filter for **Object Type** as **Project** to view all projects.
 
-:::image type="content" source="../media/goals/viva-goals-object-type-project.png" alt-text="Object type Project":::
+![all projects](../media/goals/4/46/h.jpg)
 
 **3. How do I export my data?**
 
 Use filters to pull up the data you want, then go to **Actions -> Export**. You will receive an email with a link to download your OKRs and projects as a csv/excel file. Remember to uncheck **Show only top-level objectives** if you need the KRs too.
 
-:::image type="content" source="../media/goals/viva-goals-actions-export.png" alt-text="Actions Export":::
+![export](../media/goals/4/46/i.jpg)
 
 **4. How do I save a view?**
 
 To save a view for easy access, select **Save view** in the upper right. Give it a name and select a visibility option. Once saved, you can quickly access this view again from the Explorer menu.
 
-:::image type="content" source="../media/goals/viva-goals-how-to-save-a-view.png" alt-text="How to Save a View":::
-
-:::image type="content" source="../media/goals/viva-goals-actions-rename-view.png" alt-text="Actions Rename View":::
+![save view](../media/goals/4/46/j.jpg)
 
 **5. How do I delete a view?**
 
 To delete a saved view go to **Actions -> Remove view**.
 
-:::image type="content" source="../media/goals/viva-goals-actions-remove-view.png" alt-text="Actions Remove View":::
+![remove view](../media/goals/4/46/k.jpg)
 
 **6. Who can access my view?**
 
@@ -174,13 +170,11 @@ That depends on the availability configuration you chose when saving the view. T
 
 To change this setting, select **Save view**, then change the availability setting and save it again.
 
-:::image type="content" source="../media/goals/viva-goals-save-view-as.png" alt-text="Save View As":::
+![availability](../media/goals/4/46/l.jpg)
 
 **7. What does exporting tags as a separate field mean?**
 
 If an objective, key result or project has more than one tag, then the field can be exported as separate columns instead of comma-separated values in the CSV/Excel file.
-
-:::image type="content" source="../media/goals/viva-goals-export-cs-okrs-csv.png" alt-text="Export CS OKRs csv":::
 
 **8. How do I export my OKRs and projects?**
 
@@ -191,11 +185,8 @@ You can use Explorer to export OKRs and projects. Navigate to the Explorer from 
 
 **Flat-list view:**
 
-:::image type="content" source="../media/goals/viva-goals-flat-list-view.png" alt-text="Flat list view":::
+![explorer report filters](../media/goals/4/46/m.jpg)
 
-**Include Child Key Results/Projects in Export:**
-
-:::image type="content" source="../media/goals/viva-goals-include-child-key-results-in-export.png" alt-text="Include Child Key Results in Export":::
 
 Once your view is tweaked to your requirements, go to **Actions -> Export** to export it. You'll receive an email with your download shortly. To learn more about the explorer, see [Explorer](https://help.ally.io/en/articles/5845706-explorer).
 
@@ -203,6 +194,6 @@ Once your view is tweaked to your requirements, go to **Actions -> Export** to e
 
 You can use the **Type** filter to refine the OKRs by teams or individuals.
 
-:::image type="content" source="../media/goals/viva-goals-type-filter-to-refine-okrs.png" alt-text="Type filter to refine OKRs":::
+![filter by type](../media/goals/4/46/n.jpg)
 
 Apply the changes and save the view for future reference.

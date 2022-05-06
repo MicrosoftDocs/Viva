@@ -32,8 +32,6 @@ The Private Objectives feature in Viva Goals allows users to set private objecti
 
 Private objectives are easy to distinguish from the rest. Look for the **padlock icon**. Hovering over the icon will display the list of users that can see this objective and allows the owner to manage this list.
 
-:::image type="content" source="../media/goals/viva-goals-private-objectives-1.png" alt-text="Private Objectives 1":::
-
 - Private Objectives will only be visible to this list of users. To the rest of the organization, these Objectives will not exist. 
 
 - Private Objectives will be visible in the Objective Explorer to users with the given permission.
@@ -50,18 +48,18 @@ By default, all objectives will be visible to the entire organization unless con
 
 1. Select **Who can view** on the **Add/Edit Objective** window.
 
-    :::image type="content" source="../media/goals/viva-goals-private-objectives-2.png" alt-text="Private Objectives 2":::
+![private objective](../media/goals/4/414/a.jpg)
 
 2. Select **Choose who has access** to make it private to only this list of people and select **Done**.
 
     > [!NOTE]
     > This list of users will also be able to see any key results below the objective.
 
-    :::image type="content" source="../media/goals/viva-goals-private-objectives-3.png" alt-text="Private Objectives 3":::
+![list of users](../media/goals/4/414/b.jpg)
 
 3. Now the user can see this objective is private to them and one other person.
 
-    :::image type="content" source="../media/goals/viva-goals-private-objectives-4.png" alt-text="Private Objectives 4":::
+![private objective](../media/goals/4/414/c.jpg)
 
     The privacy of an objective can be edited or changed at any time by the owner of the objective.
 

@@ -28,7 +28,7 @@ You can bookmark users and teams in Viva Goals to access their Objectives and Ke
 
 To bookmark a user, go to **All users** and search for the particular user. Select the Bookmark symbol.
 
-:::image type="content" source="../media/goals/viva-goals-bookmark.png" alt-text="Bookmark":::
+![bookmark](../media/goals/4/47/a.jpg)
 
 To bookmark a team, go to **All teams** and follow the same steps.
 
