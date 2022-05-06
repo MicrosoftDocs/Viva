@@ -23,8 +23,6 @@ description: "Learn about an OKR, its superpower, and how it's used"
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-![okr visualization](../media/goals/1/11/a.jpg)
-
 **What are OKRs?**
 
 OKRs (Objectives and Key Results) are a proven goal-setting framework for creating alignment, focus and building a highly productive and engaged work culture to drive your business outcomes.  
