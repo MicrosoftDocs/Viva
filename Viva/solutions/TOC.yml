@@ -2,41 +2,40 @@ items:
 - name: Microsoft Viva solutions
   items:
   - name: Using Microsoft Viva in the Hybrid workplace
-    href: viva-for-the-hybrid-workplace.md
+    href: ./viva/viva-for-the-hybrid-workplace.md
     items:
     - name: Leadership communications
-      href: viva-leadership-communications.md
+      href: ./viva/viva-leadership-communications.md
     - name: Onboarding employees who are new or changing roles
-      href: viva-onboarding-changing-roles.md
+      href: ./viva/viva-onboarding-changing-roles.md
     - name: Front line workers
-      href: viva-front-line-workers.md
+      href: ./viva/viva-front-line-workers.md
     - name: Work life balance
-      href: viva-work-life-balance.md
-
+      href: ./viva/viva-work-life-balance.md
 
     items:
     - name: Microsoft Viva Accelerators
       items:
-  -   name: Introducing Microsoft Viva Accelerators
-      href: introduction.md
-      items:
-      - name: Data lake solutions
-        items: 
-        - name: Viva Insights data lake solution
-          href: ./data-lakes/viva-insights.md
-        - name: Microsoft Graph data lake solution
-          href: ./data-lakes/microsoft-graph-data-connect.md
-      - name: Data access automation
-        href: automate-exports.md
-      - name: Integrate Slack data with Viva Insights
-        href: slack-integration.md
-      - name: Multitenant solution
-        href: complex-organization-insights.md
-      - name: Organizational network analysis
-        items: 
+      - name: Introducing Microsoft Viva Accelerators
+        href: introduction.md
+        items:
+        - name: Data lake solutions
+          items: 
+          - name: Viva Insights data lake solution
+            href: ./data-lakes/viva-insights.md
+          - name: Microsoft Graph data lake solution
+            href: ./data-lakes/microsoft-graph-data-connect.md
+        - name: Data access automation
+          href: automate-exports.md
+        - name: Integrate Slack data with Viva Insights
+          href: slack-integration.md
+        - name: Multitenant solution
+          href: complex-organization-insights.md
         - name: Organizational network analysis
-          href: ./organizational-network-analysis/organizational-network-analysis.md
-        - name: Organizational network analysis - Gephi
-          href: ./organizational-network-analysis/gephi-for-ona.md
+          items: 
+          - name: Organizational network analysis
+            href: ./organizational-network-analysis/organizational-network-analysis.md
+          - name: Organizational network analysis - Gephi
+            href: ./organizational-network-analysis/gephi-for-ona.md
 
 
