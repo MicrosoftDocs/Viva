@@ -62,7 +62,7 @@ Every organization, team, and individual has their own Review Dashboard.
 
 3. For Review Dashboards at an individual level, select **My OKRs** from the left pane and select the **Dashboard** tab. To view the dashboard of a user, select **All Users** from the left pane and select a **user** of your choice, then select the **Dashboard** tab.
 
-    :::image type="content" source="../media/goals/RD_entity level dashboard.gif" alt-text="Entity Level Dashboard":::
+![review dashboard](../media/goals/4/42/a.jpg)
 
 ## How to set up the Review Dashboard
 
@@ -101,7 +101,7 @@ To create this widget,
 
 - Save and add the widget.
 
-    :::image type="content" source="../media/goals/Objective list.gif" alt-text="Objective":::
+![okr list](../media/goals/4/42/b.jpg)
 
 ### 2. OKR detail
 
@@ -121,7 +121,7 @@ To create this widget,
 
 - Save and add the widget.
 
-    :::image type="content" source="../media/goals/Objective detail.gif" alt-text="Detail":::
+![okr detail](../media/goals/4/42/c.jpg)
 
 ### 3. Text block
 
@@ -139,7 +139,7 @@ To create this widget,
 
 - Save, and add the widget.
 
-    :::image type="content" source="../media/goals/Text block.gif" alt-text="Viva goals text block":::
+![text block](../media/goals/4/42/d.jpg)
 
 ### 4. KPI list
 
@@ -177,13 +177,13 @@ To create this widget,
 
 - Save, and add the widget.
 
-    :::image type="content" source="../media/goals/Projects list widget.gif" alt-text="Viva goals projects list widget":::
+![project list widget](../media/goals/4/42/e.jpg)
 
 ## How to customize your Review Dashboard
    
 After landing on the Review Dashboard page, the first step is to select the review period. 
 
-:::image type="content" source="../media/goals/viva-goals-overview-of-team-okrs.png" alt-text="Overview of team OKRs":::
+![select review period](../media/goals/4/42/f.jpg)
 
 ### Add panels to the dashboard
 
@@ -193,7 +193,7 @@ After landing on the Review Dashboard page, the first step is to select the revi
 
 - On the right of the panel, select the More Actions icon to edit, or delete the panel.
 
-    :::image type="content" source="../media/goals/Add panels.gif" alt-text="Add the panels":::
+![add panels to dashboard](../media/goals/4/42/g.jpg)
 
 ### Add widgets to a panel
 
@@ -201,19 +201,19 @@ After landing on the Review Dashboard page, the first step is to select the revi
 
 - Alternately, to add widgets to an existing panel, select the three-dot icon towards the right-end of a panel and select **Add a widget** from the dropdown options.
 
-    :::image type="content" source="../media/goals/add widgets.gif" alt-text="Add the widgets":::
+![add a widget](../media/goals/4/42/h.jpg)
 
 - Once you’ve added the widget to the panel, you can select the cog icon towards the right-end of the widget to edit the widget. In order to delete a widget, you'll have to edit a panel, and select the delete icon, adjacent to the cog icon.
 
 - When you edit the entire panel, each widget of the panel can be resized, and moved up or down based on your requirement. Also, to expand each widget select the expand icon (next to the cog icon) for better readability.
 
-    :::image type="content" source="../media/goals/edit widgets.gif" alt-text="Edit the widgets":::
+![edit widget](../media/goals/4/42/i.jpg)
 
 ## How to present the Review Dashboard
 
 On the **top-right corner** of the dashboard, you'll find the **Present** button. Review Dashboard is a presentation-ready dashboard. Each panel becomes a standalone slide of the presentation. This helps you in presenting real-time data on OKR progress, without juggling tools during a review meeting.
 
-:::image type="content" source="../media/goals/RD_presentation mode (1).gif" alt-text="Review dashboard presentation":::
+![present dashboard](../media/goals/4/42/j.jpg)
     
 ## How to clone and move Review Dashboards
     
@@ -221,17 +221,14 @@ As a team owner or team admin, often a need arises to clone a dashboard to retai
 
 **Step 1:** Navigate to the **Dashboard** tab in the **My OKRs** window.
 
-:::image type="content" source="../media/goals/viva-goals-navigate-to-dashboard.png" alt-text="Navigate to Dashboard":::
-
 **Step 2:** From the highlighted drop-down menu, select the dashboard you want to clone.
 
-:::image type="content" source="../media/goals/viva-goals-choose-dashboard.png" alt-text="Choose Dashboard":::
+![dropdown menu](../media/goals/4/42/k.jpg)
 
 **Step 3:** Select the three dots icon and select **Clone**.
 
-:::image type="content" source="../media/goals/viva-goals-clone-dashboard-1.png" alt-text="Clone Dashboard 1":::
+![review dashboard](../media/goals/4/42/l.jpg)
 
-:::image type="content" source="../media/goals/viva-goals-clone-dashboard-2.png" alt-text="Clone Dashboard 2":::
 
 **Step 4:** By default, the name of the cloned dashboard will be "**Copy of \<dashboard name\>**". You can edit the name to easily identify the cloned dashboard, edit widgets and then select **Save**. After cloning, the user will land on the cloned dashboard.
     
@@ -264,8 +261,6 @@ Dashboards can be created and shared across every level of the organization. To 
 - Select the access level from which you want to revoke the user-level access.
 
 - Against the user, you will find a dropdown menu. Select **Remove** from this menu to revoke the access for the user.
-
-    :::image type="content" source="../media/goals/Share dashboards - revoke access.gif" alt-text="Share dashboards":::
 
 ## Permissions for Review Dashboards 
 
