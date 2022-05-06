@@ -2,7 +2,7 @@
 title: Group-to-group queries in Viva Insights
 description: Group-to-group queries show how a team invested their time across the rest of the organization and beyond with Microsoft Viva Insights  
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -10,7 +10,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 
 ---
@@ -80,9 +80,9 @@ While setting up a group query differs markedly from setting up meeting or perso
 
 ## Related topics
 
-[Metric descriptions](../Use/Metric-definitions.md)
-
-[View, download, and export query results](../Use/View-download-and-export-query-results.md)
+* [Metric descriptions](../Use/Metric-definitions.md)
+* [Understand and interpret query output](../Use/csv-query-output-file.md)
+* [View, download, and export query results](../Use/View-download-and-export-query-results.md)
 
 <!-- VERIFY THIS CONTENT THEN MAKE A NEW TOPIC OUT OF IT. FOR MORE IN-DEPTH LEARNERS
 
