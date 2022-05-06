@@ -31,13 +31,13 @@ the Multiple Alignment feature in Viva Goals allows users to align a single OKR 
 
 Multiple Aligned objectives are easy to distinguish from the rest, just look for the double arrow icon.
 
-:::image type="content" source="../media/goals/viva-goals-multiple-alignment-1.png" alt-text="Multiple Alignment 1":::
+![multiple alignment icon](../media/goals/4/412/a.jpg)
 
 ## How to use Multiple Alignment
 
 If Multiple Alignment is enabled, you'll be able to align in the same manner as single alignment, but you'll be able to select multiple objectives.
 
-:::image type="content" source="../media/goals/viva-goals-multiple-alignment-2.png" alt-text="Multiple Alignment 2":::
+![select alignment](../media/goals/4/412/b.jpg)
 
 In this image, you can see the alignment to both **Culture Communication** and **Deliver Project Y by first week of December**.
 
