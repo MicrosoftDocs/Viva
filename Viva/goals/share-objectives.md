@@ -40,7 +40,7 @@ When working in Viva Goals, there may be several scenarios where you want to sha
 
 3. Select **Add a personal note** if you want to add more context while sharing the summary of objectives.
 
-![bookmark](../media/goals/4/410/a.jpg)
+![bookmark](../media/goals/4/410/a.png)
 
     > [!NOTE]
     > To send yourself a preview of the message that will be shared, select **Send Preview**.
