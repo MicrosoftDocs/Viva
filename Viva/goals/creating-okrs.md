@@ -23,7 +23,7 @@ description: "Learn how to define individual, team, and organization OKRs"
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-## 1. Start your OKR cycle 
+## 1. Understand OKR fundamentals 
 
 Using OKRs effectively to achieve results usually takes a few cycles. As you embark on defining OKRs for the new quarter or year, remember: 
 
