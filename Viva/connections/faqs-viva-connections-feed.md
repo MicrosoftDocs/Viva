@@ -33,7 +33,7 @@ There are several factors to determine the content ranking and users will only b
 
 ## Question: Where does content in the Feed come from?
 
-Content that is displayed in the Feed comes from three primary sources - Organizational news published in SharePoint, posts in Yammar communities, and videos in Stream that are shared with the entire organization or targeted to user groups. 
+Content that is displayed in the Feed comes from three primary sources - Organizational news published in SharePoint, posts in Yammer communities, and videos in Stream that are shared with the entire organization or targeted to user groups. 
 
 1. **News published on organizational news sites in SharePoint**
 SharePoint news that's published from [organizational news sites](/SharePoint/organization-news-site) will display in the Feed. Organizational news sites are communication sites that have been specifically designated as a source of authoritative news in the SharePoint admin center. In addition to organizational news posts, the following news will also be displayed in the Feed:
