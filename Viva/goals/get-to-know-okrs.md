@@ -71,6 +71,35 @@ Massive global enterprise companies have adopted OKRs, and so have 10-20 person 
 
 **OKRs offer clear, contextual communication with continual progress reviews.** The OKR framework doesn’t stop when your goals are written. It's designed to create a business rhythm around the most important outcomes that your company is pursuing. It should influence every interaction and drive a review process that pushes for continuous improvement. 
 
+## What are the benefits of OKRs for executives, team owners and managers, and individual contributors? 
+
+OKRs drive alignment, agility, and impact in your organization. Here are the most impactful benefits of adopting OKRs for Executives, Team Owners, and Individual Contributors. 
+
+**Executives want to establish a high-performing team with a growth mindset that consistently drives stronger business results. OKRs provide these benefits to executives:**
+
+- Full visibility into progress of business initiatives across all levels of the organization 
+- Stronger collaboration between departments and teams 
+- High performing, empowered, and engaged employees 
+- Clear connection between daily work and overarching organizational goals 
+- More autonomous, focused teams 
+
+**Team owners, or anyone in a position where they need to make decisions on behalf of a larger group, will have similar benefits to executives. Here are a few of the greatest benefits team owners and managers will experience when adopting OKRs:**
+
+- Priorities are more focused, so team members are more autonomous 
+- More efficient team meetings with actionable outcomes 
+- Full transparency and increased collaboration with cross-functional partners 
+- Clear alignment between daily work and larger business initiatives 
+- Defined accountability and clear ownership of OKRs 
+- Improved ability to allocate resources effectively 
+
+**For individual contributors, the benefits of OKRs are strongly related to engagement and purpose. Here are the major benefits of OKRs for individual contributors:**  
+
+- Priorities are more focused, so team members have clarity into what they should be doing and why 
+- Visibility into top priorities for the entire organization, their own team, and cross-functional teams
+- Ability to better prioritize work, so less time is wasted on non-business critical initiatives 
+- Improved autonomy and ownership of their piece of the business  
+- Greater alignment to every team member
+
 ## What are the OKR Superpowers? 
 
 OKRs provide a framework to allow companies large and small to set goals, stay agile, and ensure employees are on board with the latest strategy through the five superpowers that are described in the following image and table:
