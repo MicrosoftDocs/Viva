@@ -26,7 +26,7 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 * [Role assignment FAQ](#role-assignment-faq)
 
 >[!Note]
->The Insights admin enables the role of a people manager, who has access to [Group insights](../use/group-insights.md#admin-tasks), through [Manager settings](../use/manager-settings.md).
+>The Insights admin enables people managers access to [Group insights](../use/group-insights.md#admin-tasks) through [Manager settings](../use/manager-settings.md).
 
 ## Assign Viva Insights roles
 
