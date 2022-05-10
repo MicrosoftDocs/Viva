@@ -17,7 +17,7 @@ search.appverid:
 - MET150
 description: "Learn how to navigate the admin dashboard"
 ---
-# Viva Goals Admin Abilities
+# Navigate the Admin Dashboard
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
