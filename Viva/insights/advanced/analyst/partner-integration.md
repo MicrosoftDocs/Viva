@@ -19,7 +19,7 @@ audience: Admin
 
 *This experience is only available through private preview.*
 
-This integration enables you to export and combine Microsoft Viva Insights collaboration data with partner application data within Azure. You can then use this combined analysis for a more advanced, customer analysis, such as to identify behaviors and patterns behind key metrics.
+This integration enables you to export and combine Microsoft Viva Insights collaboration data with partner application data within Azure. You can then use the combined analysis for a more advanced, customer analysis, such as to identify behaviors and patterns behind key metrics.
 
 ## Viva Insights data
 
@@ -67,7 +67,7 @@ The following steps describe the flow that's required by you as a Viva Insights 
 
 With this integration, behavioral analytics data is moved between Azure and your partner application through an [Azure Data Factory pipeline](/azure/data-factory/concepts-pipelines-activities).
 
-This pipeline needs to be installed by a *partnered-provided* Managed application in the customer’s Azure tenant. The pipeline must do the following:
+This pipeline needs to be installed by a *partnered-provided* Managed application in the customer’s Azure tenant. The pipeline must do the following tasks:
 
 1. Extract data from Microsoft 365 to a temporary storage location in the customer’s tenant.
 1. Copy data from the temporary location to a Blob Storage account owned by your application, with a [Shared Access Signature (SAS) key](/azure/storage/common/storage-sas-overview) that you generate, and is entered when the application is installed by the customer.
@@ -77,7 +77,7 @@ See the [sample Managed application](https://github.com/niblak/dataconnect-solut
 
 ### Metadata file
 
-Each data drop includes a **Metadata.json** file, with the path of **Metadata/JobMetadata** in the root directory. This is JSON file includes details about the copy activity with the following schema:
+Each data drop includes a **Metadata.json** file, with the path of **Metadata/JobMetadata** in the root directory. The JSON file includes details about the copy activity with the following schema:
 
 |Field |Description |
 |-------|----------|
@@ -90,7 +90,7 @@ Each data drop includes a **Metadata.json** file, with the path of **Metadata/Jo
 |NumberOfRowsExtracted |The number of rows in the output. |
 |DataFactoryName |The name of the Data Factory pipeline. |
 |TenantId |The Azure Active Directory tenant that the partner analytics data was extracted for. |
-|Errors |A string describing errors encountered while processing the copy operation. If this property is non-empty, no output file will be present. |
+|Errors |A string describing errors encountered while processing the copy operation. If the property is non-empty, no output file will be present. |
 
 ## Customer onboarding
 
@@ -99,7 +99,7 @@ To enable data extraction for a customer, your application must call the Partner
 >[!Important]
 >Do not reuse certificates for multiple customers. The Partner Key API will reject duplicate keys as a security risk.
 
-The public key is used to encrypt the **decryption keys** described in the following section. This ensures that Microsoft can safely store your decryption keys as only your application can decrypt the keys by using the private key that only you have access to.
+The public key is used to encrypt the **decryption keys** described in the following section. Microsoft can then safely store your decryption keys because only your application can decrypt the keys by using the private key that only you have access to.
 
 ## Encryption and compression
 
@@ -119,7 +119,7 @@ Your application must reverse the encryption and compression process to access t
 
 ## Pipeline cadence and configuration
 
-Behavioral analytics data is processed by Viva Insights once a week. Your pipeline may run more frequently than this, but the same output will be returned until the following week.
+Behavioral analytics data is processed by Viva Insights once a week. Your pipeline might run more frequently, but the same output will be returned until the following week.
 
 The sample pipeline includes a [Trigger](/azure/data-factory/concepts-pipeline-execution-triggers) that will execute the pipeline once every seven days, which is the recommended frequency.
 
@@ -226,5 +226,6 @@ A3. Currently, analytics data is calculated once a week. For subsequent runs of 
 
 **Q4. Given the potentially large file size, how can the data be processed efficiently?**
 
-A4. Though the output format is JSON, it is not a fully-formed JSON document. Each row of analytics data is modeled as a single JSON object. This is to allow for streaming the file, instead of parsing the entire JSON tree and consequently loading the full file into memory.
+A4. Though the output format is JSON, it is not a fully-formed JSON document. Each row of analytics data is modeled as a single JSON object. This allows the file to stream, instead of parse the entire JSON tree and consequently loading the full file into memory.
+
 The recommended approach is to stream in analytics data line-by-line. Do not attempt to load the entire file into memory. To further improve read performance, your application can divide the stream into segments that are processed by separate threads to leverage multiple cores.
