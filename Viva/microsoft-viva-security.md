@@ -57,7 +57,7 @@ Microsoft Viva Goals connects employees to your organization’s goals, helps th
 
 Viva Goals leverages the advanced security and compliance capabilities that are built into Microsoft 365 and Teams.
 
-Learn more
+### Learn more about security for Microsoft Viva
 
 [Settings interactions between Microsoft 365 Groups, Teams and SharePoint](/microsoft-365/solutions/groups-sharepoint-teams-governance)
 
