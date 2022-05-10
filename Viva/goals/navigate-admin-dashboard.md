@@ -23,9 +23,12 @@ description: "Learn how to navigate the admin dashboard"
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 Organization Admins have a special role within their organization’s OKR 
-program. Organization Admins will help set up the organization, time periods, 
-users and teams in the Viva Goals instance. To complete these actions, please 
-visit the Admin Dashboard in your solution instance. To access the Viva Goals 
+program. 
+
+Organization Admins help set up the organization, time periods, 
+users and teams in the Viva Goals instance. 
+
+To complete these actions, please visit the Admin Dashboard in your solution instance. To access the Viva Goals 
 Admin Dashboard, navigate toward the bottom of the left side panel and select 
 “Admin” next to the gear icon.
 
@@ -33,7 +36,7 @@ Inside the Admin Dashboard, you will see different tabs where you can make
 adjustments, including Settings, Users, Teams, Time Periods, Notifications, 
 Integrations, OKR Model Configuration, and OKRs & Projects.
 
-## Here is what you will find in each of the tabs in the Admin Dashboard
+## What you will find in each of the tabs in the Admin Dashboard
 
 - **Settings:** Here is where you can establish solution permissions for your 
 organization’s instance of Viva Goals.
