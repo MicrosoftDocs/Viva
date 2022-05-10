@@ -109,9 +109,9 @@ The two keys are unique to each pipeline run. Your application must request thes
 
 Your application must reverse the encryption and compression process to access the original data, as described in this section:
 
-1. Decompress the file ([C# sample](/dotnet/api/system.io.compression.gzipstream?view=net-6.0)).
+1. Decompress the file ([C# sample](/dotnet/api/system.io.compression.gzipstream/)).
 1. Call the Decryption API to retrieve the file and column encryption keys.
-1. Decrypt the entire file with the file encryption key ([C# sample](/dotnet/api/system.io.compression.gzipstream?view=net-6.0)).
+1. Decrypt the entire file with the file encryption key ([C# sample](/dotnet/api/system.io.compression.gzipstream/)).
 1. Stream the file into your application. When encrypted properties (such as Object ID) are encountered in the JSON object, decrypt the property with the column encryption key.
 
 >[!Note]
