@@ -38,7 +38,7 @@ This integration enables you to export and combine Microsoft Viva Insights colla
 
 * Have an [Azure tenant](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant) and an administrator account set up.
 * Have the tenant set up with a [Consent Request Approvers group](/azure/active-directory/manage-apps/configure-admin-consent-workflow) in the Microsoft 365 admin center.
-* Enable [Microsoft Graph Data Connect (MGDC)](/graph/data-connect-concept-overview) for the tenant, which is the platform you'll use to export the Microsoft 365 data.
+* Enable [Microsoft Graph Data Connect](/graph/data-connect-concept-overview) for the tenant, which is the platform you'll use to export the Microsoft 365 data.
 
 ## Data egress flow overview
 
