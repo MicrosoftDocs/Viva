@@ -36,37 +36,41 @@ This integration enables you to export and combine Microsoft Viva Insights colla
 
 ## Customer prerequisites
 
-* Have an [Azure tenant](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-access-create-new-tenant) and an administrator account set up
-* Have the tenant set up with a [Consent Request Approvers group](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-admin-consent-workflow) in the Microsoft 365 admin center
-* Enable [Microsoft Graph Data Connect (MGDC)](https://docs.microsoft.com/graph/data-connect-concept-overview) for the tenant, which is the platform you'll use to export the Microsoft 365 data
+* Have an [Azure tenant](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant) and an administrator account set up.
+* Have the tenant set up with a [Consent Request Approvers group](/azure/active-directory/manage-apps/configure-admin-consent-workflow) in the Microsoft 365 admin center.
+* Enable [Microsoft Graph Data Connect (MGDC)](/graph/data-connect-concept-overview) for the tenant, which is the platform you'll use to export the Microsoft 365 data.
 
 ## Data egress flow overview
 
-The following is the data egress flow that's required by you as a Viva Insights partner and your customer for this integration. These steps include the previously described prerequisites for both you and your customer.
+The following describes the flow that's required by you as a Viva Insights partner and your customer for this integration. These steps include the previously described prerequisites for both you and your customer.
 
-1. As a partner, after you join the program (described in [Partner prerequisites](#partner-prerequisites)), you'll get an [Azure Resource Manager (ARM) Template](https://docs.microsoft.com/azure/azure-resource-manager/templates/) from Viva Insights that you need to edit for your specific integration. The ARM template consists of JSON files that you need to define the infrastructure and configuration for this integration.
-1. You then need to create a [Managed application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/overview) source code package, and then upload it to a storage account within your Azure subscription. The source code package must include:
+1. As a partner, after you join the program (described in [Partner prerequisites](#partner-prerequisites)), you'll get a [Managed application](/azure/azure-resource-manager/managed-applications/overview) with [Azure Resource Manager (ARM) Templates](/azure/azure-resource-manager/templates/) from Viva Insights that you need to edit for your specific use case. The ARM templates define the Azure Data Factory pipeline and associated resources that will be deployed to Azure, in your customer’s Azure subscription, to move data from their subscription to yours.
+1. Upload the Managed application source code package to a storage account within your Azure subscription. The source code package must include:
 
-   * The edited ARM template file with details for the [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/introduction) that's related to the resources that control the data movement.
+   * The edited ARM template files with details for the [Azure Data Factory](/azure/data-factory/introduction) that's related to the resources that control the data movement.
    * UI definition file that defines your customer’s UI experience, such as what options or customizations they can make to the app.
 
-1. Your customer then needs to define and deploy the Managed application in their [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) from the source code with a [Shared Access Signature (SAS) key](https://docs.microsoft.com/azure/storage/common/storage-sas-overview) URI that you share with the customer. For details, see [Customer onboarding](#customer-onboarding).
+   >[!Important]
+   >You must store the source code package in a publicly accessible location for your customers to use it in the following steps. You can configure the blob storage container to host the package for [anonymous read access](/azure/storage/blobs/anonymous-read-access-configure/).
+
+1. Your customer then needs to define and deploy the Managed application in their [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) from the source code with a [Shared Access Signature (SAS) key](/azure/storage/common/storage-sas-overview) URI that you share with the customer. For details, see [Customer onboarding](#customer-onboarding).
 
    ![Define the Managed application.](../../images/advanced/define-managed-app.png)
 
+1. The customer then needs to provision a client secret for the application that’s stored in a secure location, such as an [Azure Key Vault](/azure/key-vault/), which is required when installing the Managed application. For more details, see [Move data](#move-data).
+1. As the partner, you must call the Partner Key API to create a unique RSA-2048 bit key for your customer. For more details, see [Customer onboarding](#customer-onboarding).
 1. The customer approves the consent request to kick-off the data extraction, and then the data drops in your partner data store.
 1. Viva Insights then generates an encryption key. See [Encryption and compression](#encryption-and-compression) for details.
-1. The customer then needs to provision a client secret for the application that’s stored in a secure location, such as an [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/), which is required when installing the Managed application. For more details, see [Move data](#move-data).
 1. As the partner, you then can decrypt the customer data with the encryption key. See [Join Viva Insights data with other data](#join-viva-insights-data-with-other-data) for details and next steps to push and pull data for the integration.
 
 ## Move data
 
-With this integration, behavioral analytics data is moved between Azure and your partner application through an [Azure Data Factory pipeline](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities).
+With this integration, behavioral analytics data is moved between Azure and your partner application through an [Azure Data Factory pipeline](/azure/data-factory/concepts-pipelines-activities).
 
 This pipeline needs to be installed by a *partnered-provided* Managed application in the customer’s Azure tenant. The pipeline must do the following:
 
 1. Extract data from Microsoft 365 to a temporary storage location in the customer’s tenant.
-1. Copy data from the temporary location to a Blob Storage account owned by your application, with a [Shared Access Signature (SAS) key](https://docs.microsoft.com/azure/storage/common/storage-sas-overview) that you generate, and is entered when the application is installed by the customer.
+1. Copy data from the temporary location to a Blob Storage account owned by your application, with a [Shared Access Signature (SAS) key](/azure/storage/common/storage-sas-overview) that you generate, and is entered when the application is installed by the customer.
 1. (Optional) Notify your partner application that new data is available for processing.
 
 See the [sample Managed application](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) as an example of how to move data (described in the previous steps).
@@ -90,7 +94,7 @@ Each data drop includes a **Metadata.json** file, with the path of **Metadata/Jo
 
 ## Customer onboarding
 
-To enable data extraction for a customer, your application must call the Partner Key API to provide the Azure Active Directory tenant ID of your customer and the **public key** of a unique [RSA-2048](https://en.wikipedia.org/wiki/RSA_numbers) key pair that you have generated for this customer. Your application can securely generate and store RSA-2048 certificates (containing such a key pair) using [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/), or you may use a custom solution.
+To enable data extraction for a customer, your application must call the Partner Key API to provide the Azure Active Directory tenant ID of your customer and the **public key** of a unique [RSA-2048](https://en.wikipedia.org/wiki/RSA_numbers) key pair that you have generated for this customer. Your application can securely generate and store RSA-2048 certificates (containing such a key pair) using [Azure Key Vault](/azure/key-vault/), or you may use a custom solution.
 
 >[!Important]
 >Do not reuse certificates for multiple customers. The Partner Key API will reject duplicate keys as a security risk.
@@ -105,9 +109,9 @@ The two keys are unique to each pipeline run. Your application must request thes
 
 Your application must reverse the encryption and compression process to access the original data, as described in this section:
 
-1. Decompress the file ([C# sample](https://docs.microsoft.com/dotnet/api/system.io.compression.gzipstream?view=net-6.0)).
+1. Decompress the file ([C# sample](/dotnet/api/system.io.compression.gzipstream?view=net-6.0)).
 1. Call the Decryption API to retrieve the file and column encryption keys.
-1. Decrypt the entire file with the file encryption key ([C# sample](https://docs.microsoft.com/dotnet/api/system.io.compression.gzipstream?view=net-6.0)).
+1. Decrypt the entire file with the file encryption key ([C# sample](/dotnet/api/system.io.compression.gzipstream?view=net-6.0)).
 1. Stream the file into your application. When encrypted properties (such as Object ID) are encountered in the JSON object, decrypt the property with the column encryption key.
 
 >[!Note]
@@ -117,7 +121,7 @@ Your application must reverse the encryption and compression process to access t
 
 Behavioral analytics data is processed by Viva Insights once a week. Your pipeline may run more frequently than this, but the same output will be returned until the following week.
 
-The sample pipeline includes a [Trigger](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers) that will execute the pipeline once every seven days, which is the recommended frequency.
+The sample pipeline includes a [Trigger](/azure/data-factory/concepts-pipeline-execution-triggers) that will execute the pipeline once every seven days, which is the recommended frequency.
 
 ## Join Viva Insights data with other data
 
@@ -140,14 +144,14 @@ To process analytics data sent to your application, you have the option of using
 
 In this model, the Azure Data Factory pipeline powering the data movement notifies your application when new data is available. This can be done through several means:
 
-1. An Azure function can be invoked when data in your Blob Storage account changes. See the [Azure Function Overview](https://github.com/microsoftgraph/dataconnect-solutions/tree/VIvaInsightsARM/ARMTemplates/genericPipelineWithAzureFunctionTrigger) and [Blob Storage Trigger Sample](https://docs.microsoft.com/azure/azure-functions/functions-bindings-storage-blob-trigger?tabs=in-process%2Cextensionv5&pivots=programming-language-csharp) to understand how this can be configured.
-1. The Azure Data Factory pipeline can invoke a [Web Activity](https://docs.microsoft.com/azure/data-factory/control-flow-web-activity) that makes a REST call to your application’s backend, notifying it that new data is available.
+1. An Azure function can be invoked when data in your Blob Storage account changes. See the [Azure Function Overview](https://github.com/microsoftgraph/dataconnect-solutions/tree/VIvaInsightsARM/ARMTemplates/genericPipelineWithAzureFunctionTrigger) and [Blob Storage Trigger Sample](/azure/azure-functions/functions-bindings-storage-blob-trigger?tabs=in-process%2Cextensionv5&pivots=programming-language-csharp) to understand how this can be configured.
+1. The Azure Data Factory pipeline can invoke a [Web Activity](/azure/data-factory/control-flow-web-activity) that makes a REST call to your application’s backend, notifying it that new data is available.
 
 The sample [Data Factory Pipeline](https://github.com/microsoftgraph/dataconnect-solutions/tree/VIvaInsightsARM/ARMTemplates/genericPipelineWithAzureFunctionTrigger) includes an example of an Azure Function with a Blob Storage Trigger.
 
 ### Pull
 
-Your application can continuously poll the Blob Storage account for changes using the [Blob Storage SDK](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet) or [REST API](https://docs.microsoft.com/rest/api/storageservices/). To do this, your application can maintain a “watermark” of the last processed folder’s timestamp so that failed processing can be retried.
+Your application can continuously poll the Blob Storage account for changes using the [Blob Storage SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet) or [REST API](/rest/api/storageservices/). To do this, your application can maintain a “watermark” of the last processed folder’s timestamp so that failed processing can be retried.
 
 You can use the SDK or REST API to download data from your Blob Storage account to a local destination (or cloud storage outside of Azure).
 
@@ -180,10 +184,10 @@ You can use the SDK or REST API to download data from your Blob Storage account 
 
 To quickly prototype an application built on the Viva Insights integration, you can use sample data to simulate a data drop received from a customer.
 
-* Upload Viva Insights sample data to a Storage Account in your test environment. See [How to upload data to Azure](/azure/storage/blobs/storage-quickstart-blobs-portal/) for further details. for further details.
+* Upload Viva Insights sample data to a Storage Account in your test environment. See [How to upload data to Azure](/azure/storage/blobs/storage-quickstart-blobs-portal/) for more details.
 * Build your application to retrieve the behavioral analytics data, as follows:
 
-  * Download the data from your Azure Storage Account. To do this, you can use the [SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet/) or the [REST API](/rest/api/storageservices/) directly.
+  * Download the data from your Azure Storage Account. To do this, you can use the [SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet/) or the [REST API](/rest/api/storageservices/).
   * Ingest the data into your application. Steps will vary based on what your application requires.
 
 ## Diagnose pipeline problems
