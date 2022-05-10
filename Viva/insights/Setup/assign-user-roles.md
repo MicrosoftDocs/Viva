@@ -41,6 +41,9 @@ Do the following to assign users to a Viva Insights role, including the **Insigh
 5. Enter the username, and then select the user from the list of suggestions. Optionally, add multiple users until you're done.
 6. Select **Save**.
 
+>[!Note]
+>You will not be able to assign yourself to a Role; another admin must do this for you.
+
 Within a few days after being assigned a Viva Insights role, these users will get an email about what product features are available based on their role and service plan.
 
 ## Assign advanced insights roles
