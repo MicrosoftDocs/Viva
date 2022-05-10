@@ -42,7 +42,7 @@ This integration enables you to export and combine Microsoft Viva Insights colla
 
 ## Data egress flow overview
 
-The following describes the flow that's required by you as a Viva Insights partner and your customer for this integration. These steps include the previously described prerequisites for both you and your customer.
+The following steps describe the flow that's required by you as a Viva Insights partner and your customer for this integration. These steps include the previously described prerequisites for both you and your customer.
 
 1. As a partner, after you join the program (described in [Partner prerequisites](#partner-prerequisites)), you'll get a [Managed application](/azure/azure-resource-manager/managed-applications/overview) with [Azure Resource Manager (ARM) Templates](/azure/azure-resource-manager/templates/) from Viva Insights that you need to edit for your specific use case. The ARM templates define the Azure Data Factory pipeline and associated resources that will be deployed to Azure, in your customer’s Azure subscription, to move data from their subscription to yours.
 1. Upload the Managed application source code package to a storage account within your Azure subscription. The source code package must include:
@@ -57,7 +57,7 @@ The following describes the flow that's required by you as a Viva Insights partn
 
    ![Define the Managed application.](../../images/advanced/define-managed-app.png)
 
-1. The customer then needs to provision a client secret for the application that’s stored in a secure location, such as an [Azure Key Vault](/azure/key-vault/), which is required when installing the Managed application. For more details, see [Move data](#move-data).
+1. Your customer needs to provision a client secret for the application that’s stored in a secure location, such as an [Azure Key Vault](/azure/key-vault/). The secret is required for the Managed application installation. For details, see [Move data](#move-data).
 1. As the partner, you must call the Partner Key API to create a unique RSA-2048 bit key for your customer. For more details, see [Customer onboarding](#customer-onboarding).
 1. The customer approves the consent request to kick-off the data extraction, and then the data drops in your partner data store.
 1. Viva Insights then generates an encryption key. See [Encryption and compression](#encryption-and-compression) for details.
