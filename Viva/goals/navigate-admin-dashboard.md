@@ -62,29 +62,5 @@ Adopting new technology brings change, and change can be daunting. We
 recommend Organization Admins read through this easy-to-follow guide that 
 will walk you through the steps of deploying Viva Goals for your organization.
 
-## Help employees thrive with an employee experience platform
-
-Employee expectations have never been higher. Top talent can write their own ticket and 
-choose where they work. Yet HR leaders face the challenge of driving engagement, learning, 
-wellbeing, and growth wherever employees are getting work done.
-
-To recruit, retain, and upskill workers, the right technology can be critical. As this data shows, 
-companies that have an integrated platform vouch for its ability to support these bottom line business goals. For organizations that want to become an employer of choice, pay and benefits simply aren’t enough. It’s the employee experience that makes the difference. 
-
-## Discover Microsoft Viva
-Microsoft Viva is an employee experience platform that brings together communications, 
-knowledge, learning, resources, and insights in the flow of work. Powered by Microsoft 365 
-and experienced through Microsoft Teams, Viva fosters a culture that empowers people 
-and teams to be their best from anywhere.
-
-
-
-[Learn more about Microsoft Viva](https://www.microsoft.com/microsoft-viva/)
-
-©2022 Microsoft Corporation. All rights reserved. This document is provided “as-is.” Information and views 
-expressed in this document, including URL and other Internet website references, may change without notice. 
-You bear the risk of using it. This document does not provide you with any legal rights to any intellectual 
-property in any Microsoft product. You may copy and use this document for your internal, reference purpose.
-
 
 
