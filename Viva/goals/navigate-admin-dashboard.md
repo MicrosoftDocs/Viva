@@ -58,9 +58,4 @@ organization and enable projects.
 teams & owners to collaborate on key objectives & projects. Admins can also 
 establish OKR approval settings here.
 
-Adopting new technology brings change, and change can be daunting. We 
-recommend Organization Admins read through this easy-to-follow guide that 
-will walk you through the steps of deploying Viva Goals for your organization.
-
-
 
