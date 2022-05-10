@@ -23,7 +23,7 @@ description: "Get all Microsoft Viva modules"
 
 Follow the guidance in this article if you know your organization wants all four Viva modules.
 
-|:::image type="content" source="media/viva-confirm.png" alt-text="confirm"::: <br> Step 1  |:::image type="content" source="media/viva-requirements.png" alt-text="requirements"::: <br> Step 2 |:::image type="content" source="media/viva-learn.png" alt-text="Learn":::<br> Step 3 |:::image type="content" source="media/viva-prepare.png" alt-text="prepare"::: <br> Step 4|
+|:::image type="icon" source="media/viva-confirm.png" border="false"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png" border="false"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png" border="false"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png" border="false"::: <br> Step 4|
 |---------|---------|---------|---------|
 |Confirm you’ve got the right licensing in place. |Meet technical requirements.|Learn more about the roles in each phase.|Prepare to launch and scale adoption with end-users.|
 
@@ -33,9 +33,9 @@ To get all four Viva modules, you'll need a license for Microsoft 365 or Office 
 
 Then, you need to purchase the [Microsoft Viva suite](https://www.microsoft.com/microsoft-viva/pricing?rtc=1) that includes:
 
-- Viva Insights to improve employee and team productivity and wellbeing
-- Viva Learning (premium version) for employee skilling and growth
-- Viva Topics for organization and discovery of knowledge and expertise
+- Viva Insights to improve employee and team productivity and wellbeing.
+- Viva Learning (premium version) for employee skilling and growth.
+- Viva Topics for organization and discovery of knowledge and expertise.
 
 ## Step 2: Meet technical requirements
 
@@ -62,7 +62,7 @@ Technically, the Viva modules do not need to be installed in a specific order. I
 
 |Connections  |Insights  |Learning  |Topics |
 |---------|---------|---------|---------|
-|- Create a Viva Connections Dashboard with cards. <p> - Target cards to specific audiences. <p> - Prepare content for the Feed and Resources. <p> - Upload the app to the Teams admin center. <p> - [Review the getting started guide for Viva Connections.](connections/guide-to-setting-up-viva-connections.md)| - Decide which types of insights are needed. ([personal](insights/personal/introduction.md), [manager](insights/Use/myteam.md), [leader](insights/Use/viva-insights-my-org.md), and [advanced](insights/index-orig.md)) <p> - [Review the getting started guide for Viva Insights.](insights/Setup/setup-intro.md)|- [Choose which learning content sources to use.](learning/content-sources-365-admin-center.md) <p> - [Manage how content shows up for your org.](learning/use-tabs.md) <p> - [Review the getting started guide for Viva Learning.](learning/set-up-viva-learning.md) | - Choose which SharePoint sites you want to crawl for topics. <p> - Identify which topics, if any, you want to exclude from topic experiences. <p> - Choose which users you want to make topics visible to. <p> - Identify which users you want to give permissions to manage topics or to create or edit topics in the topic center. <p> - Choose the name that you want to give your topic center. <p> - Review the [Get your environment ready](topics/topic-experiences-get-ready.md) and [Set up Viva Topics](topics/set-up-topic-experiences.md) guidance.|
+|- Create a Viva Connections Dashboard with cards. <p> - Target cards to specific audiences. <p> - Prepare content for the Feed and Resources. <p> - Upload the app to the Teams admin center. <p> - [Review the getting started guide for Viva Connections.](connections/guide-to-setting-up-viva-connections.md)| - Decide which types of insights are needed ([personal](insights/personal/introduction.md), [manager](insights/Use/myteam.md), [leader](insights/Use/viva-insights-my-org.md), and [advanced](insights/index-orig.md)). <p> - [Review the getting started guide for Viva Insights.](insights/Setup/setup-intro.md)|- [Choose which learning content sources to use.](learning/content-sources-365-admin-center.md) <p> - [Manage how content shows up for your org.](learning/use-tabs.md) <p> - [Review the getting started guide for Viva Learning.](learning/set-up-viva-learning.md) | - Choose which SharePoint sites you want to crawl for topics. <p> - Identify which topics, if any, you want to exclude from topic experiences. <p> - Choose which users you want to make topics visible to. <p> - Identify which users you want to give permissions to manage topics or to create or edit topics in the topic center. <p> - Choose the name that you want to give your topic center. <p> - Review the [Get your environment ready](topics/topic-experiences-get-ready.md) and [Set up Viva Topics](topics/set-up-topic-experiences.md) guidance.|
 
 ## Step 5: Prepare to launch and scale adoption with end-users
 
