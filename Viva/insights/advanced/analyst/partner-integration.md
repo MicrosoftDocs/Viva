@@ -58,7 +58,7 @@ The following steps describe the flow that's required by you as a Viva Insights 
    ![Define the Managed application.](../../images/advanced/define-managed-app.png)
 
 1. Your customer needs to provision a client secret for the application that’s stored in a secure location, such as an [Azure Key Vault](/azure/key-vault/). The secret is required for the Managed application installation. For details, see [Move data](#move-data).
-1. As the partner, you must call the Partner Key API to create a unique RSA-2048 bit key for your customer. For more details, see [Customer onboarding](#customer-onboarding).
+1. As the partner, you must call the Partner key through the [Viva Insights API](api.md) to create a unique RSA-2048 bit key for your customer. For more details, see [Customer onboarding](#customer-onboarding).
 1. The customer approves the consent request to kick-off the data extraction, and then the data drops in your partner data store.
 1. Viva Insights then generates an encryption key. See [Encryption and compression](#encryption-and-compression) for details.
 1. As the partner, you then can decrypt the customer data with the encryption key. See [Join Viva Insights data with other data](#join-viva-insights-data-with-other-data) for details and next steps to push and pull data for the integration.
@@ -94,10 +94,10 @@ Each data drop includes a **Metadata.json** file, with the path of **Metadata/Jo
 
 ## Customer onboarding
 
-To enable data extraction for a customer, your application must call the Partner Key API to provide the Azure Active Directory tenant ID of your customer and the **public key** of a unique [RSA-2048](https://en.wikipedia.org/wiki/RSA_numbers) key pair that you have generated for this customer. Your application can securely generate and store RSA-2048 certificates (containing such a key pair) using [Azure Key Vault](/azure/key-vault/), or you may use a custom solution.
+To enable data extraction for a customer, your application must call the Partner key through the [Viva Insights API](api.md) to provide the Azure Active Directory tenant ID of your customer and the **public key** of a unique [RSA-2048](https://en.wikipedia.org/wiki/RSA_numbers) key pair that you have generated for this customer. Your application can securely generate and store RSA-2048 certificates (containing such a key pair) using [Azure Key Vault](/azure/key-vault/), or you may use a custom solution.
 
 >[!Important]
->Do not reuse certificates for multiple customers. The Partner Key API will reject duplicate keys as a security risk.
+>Do not reuse certificates for multiple customers. The Partner key will reject duplicate keys as a security risk.
 
 The public key is used to encrypt the **decryption keys** described in the following section. Microsoft can then safely store your decryption keys because only your application can decrypt the keys by using the private key that only you have access to.
 
@@ -105,12 +105,12 @@ The public key is used to encrypt the **decryption keys** described in the follo
 
 Behavioral analytics data is first compressed with [GZIP compression](https://datatracker.ietf.org/doc/html/rfc1952), and then it's encrypted in two stages before being delivered to your application. Sensitive, personally identifiable information, such as the Azure Active Directory Object ID, is encrypted with a **column encryption key**. The file is then encrypted with a **file encryption key**.
 
-The two keys are unique to each pipeline run. Your application must request these keys from the Decryption API by using the **CopyActivityId** located in the metadata file. The Decryption keys are symmetric [AES-256 keys](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
+The two keys are unique to each pipeline run. Your application must request these keys from the Decryption key, as described in [Viva Insights API](api.md), by using the **CopyActivityId** located in the metadata file. The Decryption keys are symmetric [AES-256 keys](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
 
 Your application must reverse the encryption and compression process to access the original data, as described in this section:
 
 1. Decompress the file ([C# sample](/dotnet/api/system.io.compression.gzipstream/)).
-1. Call the Decryption API to retrieve the file and column encryption keys.
+1. Call the Decryption key through the [Viva Insights API](api.md) to retrieve the file and column encryption keys.
 1. Decrypt the entire file with the file encryption key ([C# sample](/dotnet/api/system.io.compression.gzipstream/)).
 1. Stream the file into your application. When encrypted properties (such as Object ID) are encountered in the JSON object, decrypt the property with the column encryption key.
 
@@ -229,3 +229,8 @@ A3. Currently, analytics data is calculated once a week. For subsequent runs of 
 A4. Though the output format is JSON, it is not a fully-formed JSON document. Each row of analytics data is modeled as a single JSON object. This allows the file to stream, instead of parse the entire JSON tree and consequently loading the full file into memory.
 
 The recommended approach is to stream in analytics data line-by-line. Do not attempt to load the entire file into memory. To further improve read performance, your application can divide the stream into segments that are processed by separate threads to leverage multiple cores.
+
+## Related topics
+
+* [Viva Insights API](api.md)
+* [Advanced insights metrics](metrics.md)
