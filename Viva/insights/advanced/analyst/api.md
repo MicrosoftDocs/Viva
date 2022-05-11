@@ -19,7 +19,7 @@ audience: Admin
 
 *This experience is only available through private preview.*
 
-The Microsoft Viva Insights API enables the provisioning of unique customer keys to secure data in transit between Viva Insights and your application. Additionally, you can use the API to retrieve decryption keys for data received by your application.
+The Microsoft Viva Insights API enables you to provision unique customer keys to secure data in transit between Viva Insights and your application. Additionally, you can use the API to retrieve decryption keys for the data received by your application.
 
 ## Decryption Key
 
@@ -30,7 +30,7 @@ The response will include a decryption key that can be used to decrypt the file 
 >[!Note]
 >During the private preview release, your application will always receive this key.
 
-Your application must first decrypt the **Value** of the decryption key using the private key of the RSA-2048 key pair that you assigned to the customer using the [Partner Key API](#partner-key-api). You can then use the resulting value to decrypt the file or column data.
+Your application must first decrypt the **Value** of the decryption key using the private key of the RSA-2048 key pair that you assigned to the customer with the [Partner key](#partner-key). You can then use the resulting value to decrypt the file or column data.
 
 ### Path and parameters
 
@@ -154,15 +154,15 @@ Optionally, use the following command for the partner key information request:
 
 The following models are used within this API:
 
-* DecryptionKey
-* DecryptionKeyCreateRequest
-* DecryptionKeyCreateResponse
-* DecryptionKeyType
-* EncryptionAlgorithm
-* ScopeId
-* PartnerKeyInfoCreateRequest
-* PartnerKeyInfoCreateResponse
-* RsaKey
+* [DecryptionKey](#decryptionkey)
+* [DecryptionKeyCreateRequest](#decryptionkeycreaterequest)
+* [DecryptionKeyCreateResponse](#decryptionkeycreateresponse)
+* [DecryptionKeyType](#decryptionkeytype)
+* [EncryptionAlgorithm](#encryptionalgorithm)
+* [ScopeId](#scopeid)
+* [PartnerKeyInfoCreateRequest](#partnerkeyinfocreaterequest)
+* [PartnerKeyInfoCreateResponse](#partnerkeyinfocreateresponse)
+* [RsaKey](#rsakey)
 
 ### DecryptionKey
 
@@ -174,11 +174,11 @@ Decryption keys consist of the following components:
 
 * **value** – The Base-64 representation of the decryption key’s value. For example:
 
-  ```oF8xFGjrhxC2LsrsrUA3eTCWDl2fYlBkUe886jRLnKFwdbH/9SRA+55ekL42JCcL+iXsQNZdMWmy3LnLgk2nSfZ96ecU/++sOM7QB/6kWrS2Wmg+5XCW5FErodnyBZKCbOo1RETgrxTH8YlcoLX5319VCmBleSMxgitn0Jl+VCM+NjfE87oPWyLo+vifaBtFnIgSOkzKh20dZm/Ue1AxXQlYQ/WptHBRa4LMza/oXgbTpqk9Y+Mw+4IhVtHbCdcEt0DqQ0FRb/qjlwMPaYqOlZ5GxFTiQFsAtYVTpnvcffkDBp1gzlOL2iLhudc66PP4h6v4cBxHx6RTz8bO4KIaQg==  ```
+  ```oF8xFGjrhxC2LsrsrUA3eTCWDl2fYlBkUe886jRLnKFwdbH/9SRA+55ekL42JCcL+iXsQNZdMWmy3LnLgk2nSfZ96ecU/++sOM7QB/6kWrS2Wmg+5XCW5FErodnyBZKCbOo1RETgrxTH8YlcoLX5319VCmBleSMxgitn0Jl+VCM+NjfE87oPWyLo+vifaBtFnIgSOkzKh20dZm/Ue1AxXQlYQ/WptHBRa4LMza/oXgbTpqk9Y+Mw+4IhVtHbCdcEt0DqQ0FRb/qjlwMPaYqOlZ5GxFTiQFsAtYVTpnvcffkDBp1gzlOL2iLhudc66PP4h6v4cBxHx6RTz8bO4KIaQg==```
 
 * **iv** – The Base-64 representation of the initialization vector used to create the decryption key. For example:
 
-  ```vLvaqqAN8GaYI9gGuX1bsQ==  ```
+  ```vLvaqqAN8GaYI9gGuX1bsQ==```
 
 ### DecryptionKeyCreateRequest
 
