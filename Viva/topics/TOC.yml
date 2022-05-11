@@ -1,14 +1,20 @@
     - name: Microsoft Viva Topics 
       href: index.md   
 
-    - name: Get started with Microsoft Viva Topics
+    - name: Get started with Viva Topics
       items:    
-        - name: Microsoft Viva Topics overview
+        - name: Viva Topics overview
           href: topic-experiences-overview.md 
-        - name: Microsoft Viva Topics discovery and curation
-          href: topic-experiences-discovery-curation.md           
-        - name: Microsoft Viva Topics roles 
-          href: topic-experiences-roles.md 
+        - name: Viva Topics discovery and curation
+          href: topic-experiences-discovery-curation.md
+        - name: Viva Topics roles
+          items:
+            - name: Overview
+              href: topic-experiences-roles.md 
+            - name: Knowledge manager
+              href: topic-experiences-knowledge-managers.md
+            - name: Topic contributor
+              href: topic-experiences-topic-contributors.md         
         - name: Supported languages
           href: topics-language-support.md 
         - name: Get your environment ready 
@@ -16,7 +22,6 @@
 
     - name: Setup and administration
       items:
-
         - name: Topics security
           href: topic-experiences-security-privacy.md
         - name: Plan for Topics
@@ -38,7 +43,7 @@
        
     - name: Work with topics
       items:
-        - name: Learn about topics in Microsoft Viva Topics
+        - name: Learn about topics in Viva Topics
           href: get-started-with-viva-topics.md
         - name: Topic center overview
           href: topic-center-overview.md    
@@ -56,6 +61,8 @@
           href: search.md             
         - name: Security trimming 
           href: topic-experiences-security-trimming.md 
+        - name: Restrict access to topics 
+          href: restrict-access-to-topics.md 
         - name: Manage topics at scale 
           href: scale-topics.md             
 
