@@ -55,15 +55,17 @@ Your application must first decrypt the **Value** of the decryption key using th
         "Value": "Hv4OtwCacGJ3mgetOpRS6rx2jC65vWfjCDNCIebYpTe2DFgDlZbxLJ6l3ZETH5Oss6NlLYbWIgTiBwuQxN/a7eZBE5ZYuiG3Gk72lH0Egy7BeSN7dlyV7ryn1nC7eEpYsjOLwSdIs79JP77yvIlkNohCXgP/BVp612kL1/atxITyN2kxWO4RaMhct3izvdjreOJoxUABEAAaqCGagrgsWL1AS+5X5fduspsE8zmPJ78cm67Qt5ZbdZ+N+ilXEclSIUeVrp9iXjh94mLCn9hra8e97SXVquyAnWG5F0Wy/tjS6+pNyM/EVI/QrBCgSW7HsOJp1sQvq7u+/ZJln4zS3w==",
         "IV": "X8G/1lYE9URXyBfQVUGC+A=="
       }
-]
-}
-Path parameters
-* Version (required)
-Path Parameter — The version of the API. The only supported version is 1.0.
-* Tenant (required)
-Path Parameter — The Azure Active Directory tenant ID for your customer.
-* Scope (required)
-Path Parameter — The partition/scope identifier for the customer. Currently, this must always be the same as the Tenant ID.
+    ]
+  }```
+
+## Path parameters
+
+The following path parameters are required.
+
+* Version The version of the API. Currently, the only supported version is 1.0.
+* Tenant - The Azure Active Directory tenant ID for your customer.
+* Scope  - The partition or scope identifier for the customer. Currently, this must be the same as the Tenant ID.
+
 Request body
 Body parameter — The create request with the unique ID of the extraction operation for which the decryption keys should be retrieved: 
 DecryptionKeyCreateRequest 
