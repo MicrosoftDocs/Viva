@@ -114,7 +114,7 @@ You can set praise reminders either on the [**Settings** page](viva-teams-app-se
 ## Praise history
 
 >[!Note]
->Praise history is only available for users with Exchange Online mailboxes. Mailboxes hosted on-premises aren't supported. For more details about plans, refer to our[FAQ](../overview/Mya-faq.md).
+>Praise history is only available for users with Exchange Online mailboxes. Mailboxes hosted on-premises aren't supported. For more details about plans, refer to our [FAQ](../overview/Mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
 
 In the **Looking back** section on the **Praise** page, you can see the history for as many as 24 messages that you have either sent or received over the last six months. This history includes any praise sent or received through this page and through the Teams messaging extension.
 
