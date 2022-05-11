@@ -62,9 +62,9 @@ Your application must first decrypt the **Value** of the decryption key using th
 
 The following path parameters are required.
 
-* Version The version of the API. Currently, the only supported version is 1.0.
-* Tenant - The Azure Active Directory tenant ID for your customer.
-* Scope  - The partition or scope identifier for the customer. Currently, this must be the same as the Tenant ID.
+* **Version** - The version of the API. Currently, the only supported version is 1.0.
+* **Tenant** - The Azure Active Directory tenant ID for your customer.
+* **Scope** - The partition or scope identifier for the customer. Currently, this must be the same as the Tenant ID.
 
 Request body
 Body parameter — The create request with the unique ID of the extraction operation for which the decryption keys should be retrieved: 
