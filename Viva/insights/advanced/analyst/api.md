@@ -47,7 +47,7 @@ With the following required parameters for the path:
 
 ### Sample request
 
-```html
+```http
 {
  "requestId": "5c90fd79-6c11-40c7-a66d-f5af65e2b974"
 }
@@ -55,7 +55,7 @@ With the following required parameters for the path:
 
 ### Sample response
 
-```html
+```http
 {
    "DecryptionKeys": [
    {
@@ -92,7 +92,7 @@ Use the following command for the return type response:
 
 #### Sample response
 
-```html
+```http
 {
   "decryptionKeys" : [{
     "type" : "File",
@@ -138,7 +138,7 @@ Optionally, use the following command for the partner key information request:
 
 #### Sample response
 
-```html
+```http
 {
   "scopeId" : {
     "id" : "2b13482-357g-dh58-6j34-d2832fee24b8"
