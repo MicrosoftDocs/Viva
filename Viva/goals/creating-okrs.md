@@ -51,9 +51,9 @@ You can create an objective from:
 
 1. Navigate to the individual, team, or organization that the objective is for. Select the **+** button.
 
-![creating an objective](../media/goals/3/31/a.jpg)
+    ![screenshot showing creating an objective.](../media/goals/3/31/a.jpg)
 
-2. In the dialog box that pops up, specify the following values:
+1. In the dialog box that pops up, specify the following values:
 
     1. A short but descriptive name for the objective
     1. Edit the details in the following table, if necessary:
@@ -69,17 +69,17 @@ Viva Goals contextually fills in the following details:
    
 1. Select create when you are done. 
 
-![new objective dialog box](../media/goals/3/31/b.jpg)
+    ![screenshot showing new objective dialog box.](../media/goals/3/31/b.jpg)
 
 **Note:** The **Key results** dialog box will look a little different if you've chosen to configure your OKRs by selecting the **Objectives are always aspirational, key results are always measurable** option. You'll notice that the **Create Objective** view will just have the **Progress** pane. This is because when you configure your objectives to be aspirational and key results to be measurable, the progress of your objectives will be updated by roll-up from the progress of key results or manually. 
 
-![key results dialog box](../media/goals/3/31/c.jpg)
+![screenshot showing key results dialog box.](../media/goals/3/31/c.jpg)
 
 ## 3. Create key results
 
 Key results contribute to achieving your objective. If all key results are accomplished, then the objective is achieved, so choose your key results accordingly. Find the objective you just made and select **Add Key Result**. This selection will allow you to edit inline.
 
-![creating key results](../media/goals/3/31/d.jpg)
+![screenshot showing creating key results.](../media/goals/3/31/d.jpg)
 
 You can also hover over it and select **Add key result** from **More options**, which brings up a more detailed dialog box.
 
@@ -91,7 +91,7 @@ The dialog box that opens will look familiar.
 
 Viva Goals makes it easy to jumpstart the OKR process by providing templates for common objectives across different verticals in an organization. To create an objective from a template, select **See Sample OKRs** and choose from our extensive library of presets ranging from sales and marketing objectives to people and product Management.
  
-![using templates](../media/goals/3/31/e.jpg)
+![screenshot showing using templates.](../media/goals/3/31/e.jpg)
 
 
 From here, you can tweak the template objectives, or any other objective, to your company’s specifications by using the handy "edit" functions available on the objectives page. You can also hover your cursor over the objective to find the **Edit** option.
@@ -195,7 +195,7 @@ Within Viva Goals, users can now switch between aspirational and committed OKRs,
 
 Viva Goals has an administrator setting in which the organization administrator can override the default ranges for the color schemes we have provided to signify OKR progress. Here, the administrator can configure the scoring ranges against which the color schemes will be mapped.
 
-![scoring customization](../media/goals/3/31/f.jpg)
+![screenshot showing scoring customization.](../media/goals/3/31/f.jpg)
 
 ## Copying or duplicating objectives 
 
@@ -208,7 +208,7 @@ To copy or duplicate a single objective, perform the following steps:
 
 By default, the cloned objective with all its key results will appear in the same time period as the original. The progress will not be copied over. 
 
-![clone an objective](../media/goals/3/31/g.jpg)
+![screenshot showing where to clone an objective.](../media/goals/3/31/g.jpg)
 
 ### How to copy or duplicate multiple objectives
 
@@ -218,13 +218,13 @@ To copy or duplicate multiple objectives, perform the following steps:
 
 1. Select the **Clone** button in the message bar that appears above the list of objectives. You can then select the options from the dialogue box.
 
-![clone multiple objectives](../media/goals/3/31/h.jpg)
+![screenshot showing how to clone multiple objectives.](../media/goals/3/31/h.jpg)
 
 ## Changing the OKR owner 
 
 The owner of an OKR can be changed from the OKR list view, quick view, or the full view page. Select the **Owner** field to assign the OKR to a new owner.
 
-![changing the owner](../media/goals/3/31/i.jpg)
+![screenshot showing how to change the owner of an okr.](../media/goals/3/31/i.jpg)
 
 - If you would like more than a single person to own an OKR, you can assign [multiple owners](https://help.ally.io/en/articles/4601340-shared-okrs-projects-multiple-teams-owners).
 - If there is just one owner or multiple owners assigned to an OKR and you want a user within the organization to check-in and update the progress of the OKR, you can use the "check-in responsibility" feature. The "check-in" owner can check in manually or set up an integration to automate this process.
@@ -236,12 +236,12 @@ If you need to change an OKR or remove one made in error, find those options in 
 
 **Note:** An objective cannot be edited or deleted if it is **Postponed** or **Closed**. In those cases, the objective would need to be reopened in order to edit or delete.
 
-![edit an okr](../media/goals/3/31/j.jpg)
+![screenshot showing how to edit an okr.](../media/goals/3/31/j.jpg)
 
 ## Printing an OKR 
 
 On the desired OKR page, expand the **ellipsis** (3 dots) icon and select **Print OKRs**. Viva Goals also gives you the ability to export a .csv file from the Explorer.
 
-![print an okr](../media/goals/3/31/k.jpg)
+![screenshot showing how to print an okr.](../media/goals/3/31/k.jpg)
 
 **Note:** You won't see the **Print** option when multiple time periods are selected.
