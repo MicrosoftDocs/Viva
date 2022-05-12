@@ -85,7 +85,7 @@ You can promote or remove any team member as a team owner or administrator in th
 
 1. To update the team owner, go to the **Teams** section of the **Admin** menu, click **...** and select **Edit**.
 
-![screenshot showing update team owners.](../media/goals/2/22/f.jpg)
+    ![screenshot showing update team owners.](../media/goals/2/22/f.jpg)
 
 1. From the edit teams pop-up, click on the Team Owner dropdown menu to select and update the team owner.
 
@@ -95,7 +95,7 @@ You can promote or remove any team member as a team owner or administrator in th
 
 1. From the **Teams** section of the **Admin** menu, click **...** and select **Manage Members**.
 
-![screenshot showing where to update team administrators.](../media/goals/2/22/g.jpg)
+    ![screenshot showing where to update team administrators.](../media/goals/2/22/g.jpg)
 
 1. Select the **Action** dropdown list to the right of their name and you'll be able to edit their member status.
 
