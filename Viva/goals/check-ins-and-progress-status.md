@@ -130,8 +130,8 @@ If teams have to follow the parent team's check-in rhythm, the team owners and/o
 
 You can choose to make check-ins automatically by:
 
-**- Integrating Viva Goals with MS Teams.** You can easily make check-ins and get a quick view of your OKR progress by pinning your organization, team or individual OKRs as a tab in any channel or chat. 
-**- Rolling up your objective progress to your key result progress.** The roll-up of progress makes it easy to assess the impact a key result has on its objective and other objectives above that are in the hierarchy of OKRs. The objective’s progress will be the average of the progress of its key results. 
+- **Integrating Viva Goals with MS Teams.** You can easily make check-ins and get a quick view of your OKR progress by pinning your organization, team or individual OKRs as a tab in any channel or chat. 
+- **Rolling up your objective progress to your key result progress.** The roll-up of progress makes it easy to assess the impact a key result has on its objective and other objectives above that are in the hierarchy of OKRs. The objective’s progress will be the average of the progress of its key results. 
 
 ## How to manually override OKR progress and status
 
