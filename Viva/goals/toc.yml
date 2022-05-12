@@ -101,8 +101,6 @@ items:
           href: domo-integration.md
         - name: Tableau Integration
           href: tableau-integration.md
-        - name: Google Sheets Integration
-          href: google-sheets-integration.md
         - name: Zendesk Integration
           href: zendesk-integration.md
         - name: Hubspot Integration

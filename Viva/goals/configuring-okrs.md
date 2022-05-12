@@ -1,5 +1,5 @@
 ---
-title: Configure OKRs
+title: Manage OKRs
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -20,7 +20,7 @@ search.appverid:
 description: "Learn how you can confirgure OKRs"
 ---
 
-# Configure OKRs in Viva Goals
+# Manage OKRs in Viva Goals
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
