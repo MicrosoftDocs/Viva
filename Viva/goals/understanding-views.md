@@ -41,11 +41,7 @@ The OKRs and projects in the list view are listed in a hierarchical tree structu
 
 Child objectives and key results in certain cases can be further expanded to see the OKRs and projects that are cascaded under them.
 
-[screenshot with expanded objective] 
-
 You can also view the parent objective that a particular objective is aligned to. 
-
-[screenshot highlighting an objective bubbling up to parent objective] 
 
 ### Understanding list view hierarchy
 
@@ -67,7 +63,7 @@ You can also view the parent objective that a particular objective is aligned to
 
 **2. Summary panel** - View the progress and status of all your OKRs in that time period, along with the expected vs. actual progress comparison.
 
-**3. [KPIs panel]** - You can view the KPIs that are used to track your OKRs in this section. 
+**3. KPIs panel** - You can view the KPIs that are used to track your OKRs in this section. 
 
 **4. Add objective** - Create an objective of the type of organization/team/individual.
 
