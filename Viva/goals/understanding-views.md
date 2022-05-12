@@ -29,11 +29,11 @@ When you log in to your Viva Goals account, you will be able to view and access 
 
 There are 3 views that are available in Viva Goals: 
 
-**1. List view** - The list view is the default view in Viva goals. This view enables creating, reviewing and tracking progress for OKRs and projects across one or more time periods with information like title, type, owner, time period, status, progress and alignment.
+**- List view** - The list view is the default view in Viva goals. This view enables creating, reviewing and tracking progress for OKRs and projects across one or more time periods with information like title, type, owner, time period, status, progress and alignment.
 
-**2. Quick View** - Quick view is a a panel that appears on the right side of the OKRs page when you click on the title of an OKR or a project. This view provides an overview of progress, details, alignment, children objectives and activity for an OKR or a Project.
+**- Quick View** - Quick view is a a panel that appears on the right side of the OKRs page when you click on the title of an OKR or a project. This view provides an overview of progress, details, alignment, children objectives and activity for an OKR or a Project.
 
-**3. Chart view** - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
+**- Chart view** - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
 
 ## List view 
 
@@ -41,11 +41,7 @@ The OKRs and projects in the list view are listed in a hierarchical tree structu
 
 Child objectives and key results in certain cases can be further expanded to see the OKRs and projects that are cascaded under them.
 
-[screenshot with expanded objective] 
-
 You can also view the parent objective that a particular objective is aligned to. 
-
-[screenshot highlighting an objective bubbling up to parent objective] 
 
 ### Understanding list view hierarchy
 
@@ -59,7 +55,7 @@ You can also view the parent objective that a particular objective is aligned to
 
 **The typical hierarchical structure in Viva Goals is:**
 
-![working with okr views](../media/goals/3/34/a.jpg)
+![screenshot of working with okr views.](../media/goals/3/34/a.jpg)
  
 ### Available actions in list view 
 
