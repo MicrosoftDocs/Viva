@@ -22,14 +22,14 @@ description: "Learn how to navigate the admin dashboard"
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Organization Admins have a special role within your organization. They have direct access to the Microsoft Viva Goals admin dashboard, customized settings that can be applied specifically for your organization, creating efficiency and confidence in your instance of Microsoft Viva Goals.  
+Organization Admins have direct access to the Microsoft Viva Goals admin dashboard, customized settings that can be applied specifically for your organization, creating efficiency and confidence in your instance of Microsoft Viva Goals.
 
 Like other employees, you’ll need to be familiar with:  
 - The OKR framework  
 - How to write great OKRs  
 - Viva Goals software training 
 
-Please review the Get Started with [Viva Goals Learning path](roles-permissions-in-viva-goals.md) to dive deeper into these topics.   
+Please review the [Get Started with Viva Goals Learning path](https://docs.microsoft.com/learn/paths/viva-goals-get-started) to dive deeper into these topics.  
 
 ## How to access the Admin Dashboard and what to do there 
 
