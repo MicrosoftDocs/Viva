@@ -33,13 +33,13 @@ items:
       href: understanding-views.md
     - name: Create OKRs
       href: creating-okrs.md
-   # - name: Align OKRs
-    #  href: insert Align OKRs topic name here then remove the #'s to uncomment lines 36 & 37
+    - name: Align OKRs
+      href: align-okrs.md
     - name: Check-in and Track Progress on OKRs
       href: check-ins-and-progress-status.md
     - name: Close and Score OKRs
       href: closing-and-scoring.md
-    - name: Clone OKRs 
+    - name: Clone OKRs
       href: cloning-objectives.md
     - name: Manage OKRs in Viva Goals
       href: configuring-okrs.md
