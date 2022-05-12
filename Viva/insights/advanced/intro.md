@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,FOLLOW
 title: Advanced insights with Viva Insights
 description: Learn about what's available in the Advanced insights app that's part of the Microsoft Viva Insights suite
 ms.localizationpriority: medium 

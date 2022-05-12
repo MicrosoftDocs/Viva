@@ -172,7 +172,7 @@ Writing annual objectives should feel different from writing quarterly goals. Th
 
 This setup breaks down a lofty goal into manageable, actionable pieces. The successful completion of all four key results distributed over the quarters will result in the completion of the overall annual goal.
 
-:::image type="content" source="../media/goals/implementing-annual-okrs.png" alt-text="Implementing annual OKRs":::
+:::image type="content" source="../media/goals/3/31/implementing-annual-okrs.png" alt-text="Implementing annual OKRs":::
 
  With your new annual objectives, you won't have to choose between the tactical value and focus of quarterly objectives and the strategic value and ambition of annual objectives. 
 

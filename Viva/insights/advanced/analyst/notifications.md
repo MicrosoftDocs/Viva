@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title:  Advanced insights notifications and announcements
 description: The advanced insights app with Microsoft Viva Insights shows notifications and announcements about system changes, user actions, and product updates
 author: madehmer
