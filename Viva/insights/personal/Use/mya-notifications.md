@@ -70,7 +70,14 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
-_**Applies to**: Delay delivery inline suggestions are available to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
+>[!Note]
+>*The two scenarios listed below are part of a rolling release.*
+>
+>When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions when:
+>
+>* A recipient in the **To** field has an automatic out-of-office reply set up in Outlook. This helps minimize disruptions to recipients when they're away from work.
+>* You are outside of your working hours. If you're working flexible hours, this helps you send email when you're working without disrupting others' quiet hours.
+
 
 When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. Viva Insights can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
