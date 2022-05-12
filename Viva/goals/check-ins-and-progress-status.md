@@ -49,7 +49,7 @@ Keep it short and crisp; the OKR process doesn't require long explanations on ev
 
 After you make a check-in, you will notice that the statuses and progress of all parent Objectives update automatically. This roll-up reflects and maintains the alignment between different levels of OKRs.
 
-[!Note] One exception is objectives tracked by custom KPIs. Viva Goals can’t know how the progress of the key result will impact the aligned objectives, so Viva Goals won't automatically update progress. For objectives with custom KPIs, you will have to update the objective manually. 
+> [!Note] One exception is objectives tracked by custom KPIs. Viva Goals can’t know how the progress of the key result will impact the aligned objectives, so Viva Goals won't automatically update progress. For objectives with custom KPIs, you will have to update the objective manually. 
 
 ## How to assign responsibility for check-ins
 
