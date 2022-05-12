@@ -31,7 +31,7 @@ Viva Goals supports multiple levels of hierarchy, from department-level all the 
 
 ![creating teams image](../media/goals/2/22/a.jpg)
    
-2. In the dialog box that follows, perform the following steps:
+1. In the dialog box that follows, perform the following steps:
 
 - Enter a team name.
 - Designate a team owner from the **Team Owner** dropdown list.
@@ -97,7 +97,7 @@ You can promote or remove any team member as a team owner or administrator in th
 
 ![update team administrators](../media/goals/2/22/g.jpg)
 
-2. Select the **Action** dropdown list to the right of their name and you'll be able to edit their member status.
+1. Select the **Action** dropdown list to the right of their name and you'll be able to edit their member status.
 
 ![promote team members to team administrator](../media/goals/2/22/h.jpg)
  
