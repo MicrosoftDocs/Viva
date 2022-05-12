@@ -11,6 +11,8 @@ items:
       href: determine-your-rollout-plan.md
 - name: Setup and Administration
   items:
+    - name: Navigate the Admin Dashboard
+      href: navigate-admin-dashboard.md
     - name: Log in, Create, and Join Organizations in Viva Goals
       href: log-in-create-and-join-organizations.md
     - name: Create and Edit Teams
