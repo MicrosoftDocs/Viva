@@ -33,7 +33,7 @@ OKRs align your entire organization to strategy, shifting focus from output—th
 
 Objectives added at the organizational and team levels are depicted in the following image:
 
-:::image type="content" source="../media/goals/objectives-at-organizational-and-team-levels.png" alt-text="Objectives at organizational and teams levels":::
+:::image type="content" source="../media/goals/1/11/a.jpg" alt-text="Objectives at organizational and teams levels":::
 
 **Key Results** describe how you'll measure your success in accomplishing these goals.
 
