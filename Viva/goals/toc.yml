@@ -40,7 +40,7 @@ items:
     - name: Clone OKRs
       href: cloning-objectives.md
     - name: Manage OKRs in Viva Goals
-      href: manage-okrs-in-viva-goals.md
+      href: configuring-okrs.md
     - name: Set Up OKR Business Rhythms 
       href: business-rhythms.md
 - name: Product Features
