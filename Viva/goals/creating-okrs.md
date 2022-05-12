@@ -112,8 +112,6 @@ For example, you can expand the **Progress** section and specify how to track yo
 
 Viva Goals allows you to automatically update the progress of your objectives by integrating with tools like Jira, Smartsheet, or VSTS. 
 
-For more information about these integrations, see our detailed articles [here](https://help.ally.io/en/collections/30526-integrations).
-
 ### Other advanced options 
 
 All your advanced customization options are available under **More Options**, no matter where you are in Viva Goals.
