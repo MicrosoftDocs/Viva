@@ -33,7 +33,7 @@ The fact that all check-ins are visible to everyone in the organization maintain
 
 To check-in quickly, go to your list of objectives and move the cursor over the objective or key result you want to update. Select the check-in option.
 
-![check in](../media/goals/3/35/a.jpg)
+![screenshot of where to check in.](../media/goals/3/35/a.jpg)
 
 In the check-in sidebar:
 
@@ -43,7 +43,7 @@ In the check-in sidebar:
 
 3. **Flag the overall status**: Is your Objective or KR On Track, Behind, At Risk, or have you Not Started yet? 
 
-![update status](../media/goals/3/35/b.jpg)
+![screenshot showing where to update status.](../media/goals/3/35/b.jpg)
 
 Keep it short and crisp; the OKR process doesn't require long explanations on every check-in.
 
@@ -68,7 +68,7 @@ Once you make the selection, the user will  start receiving the check-in reminde
 
 **Note:** By default, the owner (the first owner if there are multiple owners) is set as the person responsible for check-in.
 
-![assign check in responsibility](../media/goals/3/35/c.jpg)
+![screenshot of assigning check in responsibility.](../media/goals/3/35/c.jpg)
 
 ## How to engage with check-ins with likes and comments
 
@@ -76,13 +76,13 @@ OKRs and ongoing feedback make a great team. Leverage Viva Goals’s social feat
 
 To comment on a check-in, go to **Check-in** on the objective page or find it in the feed. Use ‘**@**’ followed by the name of a team member to mention them in a comment. This sends them an email notification, perfect for drawing attention to critical updates or opportunities.
 
-![engage with check ins](../media/goals/3/35/d.jpg)
+![screenshot of engaging with check ins.](../media/goals/3/35/d.jpg)
 
 ## How to edit and delete check-ins 
 
 If you need to change a check-in or remove one made in error, you may find the check-in on the objective page or feed, and select edit or remove to make the necessary changes.
 
-![edit or delete check ins](../media/goals/3/35/e.jpg)
+![screenshot of editing or deleting check ins.](../media/goals/3/35/e.jpg)
 
 ## How to set reminders for check-ins 
 
@@ -114,7 +114,7 @@ Viva Goals sends reminders in three ways:
 
 1. A Chief of Staff is setting a check-in cadence for the People Operations department to receive notifications every month on the first Friday at 9AM PST. The Chief of Staff wants the subteams reporting into her to continue having a cadence of their own (preferably, a weekly cadence). Therefore, she won't cascade this cadence down to the reporting teams, and will let each team set their own check-in rhythm. 
 
-![set a check in rhythm](../media/goals/3/35/f.jpg)
+![screenshot of setting a check in rhythm.](../media/goals/3/35/f.jpg)
 
 2. The Head of Marketing is setting a bi-weekly cadence for the Marketing team to receive notifications on every Monday once every two weeks at 9AM PST. The Head of Marketing wants his reporting teams (say, Product Marketing, Demand Generation, and Customer Marketing) to have their own cadence, but highly recommends starting them with the same cadence as the marketing team. In this case, the cadence will cascade down the teams, however, the teams can change this schedule at any given point in time. 
 
@@ -135,7 +135,7 @@ You can choose to make check-ins automatically by:
 
 While it is highly recommended to automate OKR progress updates either through an integrated data source, or via rollup from children objectives, the OKR owner might have better context on progress. In such cases, you can manually override the automated progress and status, and set them as you see fit. 
 
-1. To the left of the progress bar, you'll find an icon that is indicative of the current progress mode. To know more about what the different progress modes are, [read our help article](https://help.ally.io/en/articles/4754259-progress-modes). 
+1. To the left of the progress bar, you'll find an icon that is indicative of the current progress mode. 
 
 2. Upon clicking this icon, you'll find the option to make a check-in. Here, you'll find the current progress and status of the objective based on the automatic update. Select ‘Edit progress and status’ to make a manual check-in. 
 
@@ -167,9 +167,9 @@ You can exit from the manual override mode and resume automatic updates by follo
 
 Alerts automatically indicate when an objective needs attention or is at risk. Alerts are enabled for all objectives by default. Each user can manage how alerts are displayed for their account.
 
-:::image type="content" source="../media/goals/goals-manage-alerts.png" alt-text="Image of Managing Alerts"::: 
-
 To manage alerts, select your Avatar, then select **Edit Account Settings** -> **Objective Alerts** and choose your preference. 
+
+:::image type="content" source="../media/goals/goals-manage-alerts.png" alt-text="screenshot of managing alerts."::: 
 
 ### Status indicators
 
