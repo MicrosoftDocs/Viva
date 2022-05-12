@@ -29,7 +29,7 @@ Our quick and easy integration enables users to add, update, and manage OKRs wit
 
 ## How to grant org-wide consent for your users
 
-For private preview, the Viva Goals app is unverified. This will be changed as we move out of private preview. We recommend that as an admin you pre-consent for all users in your organization so that users don't have to review and accept the permissions requested by the app when they start the app. [Visit this page](https://docs.microsoft.com/en-us/microsoftteams/app-permissions-admin-center)to learn how to consent for all your users.
+For private preview, the Viva Goals app is unverified. This will be changed as we move out of private preview. We recommend that as an admin you pre-consent for all users in your organization so that users don't have to review and accept the permissions requested by the app when they start the app. [Visit this page](https://docs.microsoft.com/microsoftteams/app-permissions-admin-center) to learn how to consent for all your users.
 
 ## How to pre-install Viva Goals for users within Microsoft Teams
 
