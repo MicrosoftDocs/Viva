@@ -13,10 +13,10 @@ items:
   items:
     - name: Log in, Create, and Join Organizations in Viva Goals
       href: log-in-create-and-join-organizations.md
-    - name: Create and Edit Teams
-      href: create-and-edit-teams-and-subteams.md
     - name: Invite and Remove Users in Viva Goals
       href: inviting-and-removing-a-user.md
+    - name: Create and Edit Teams
+      href: create-and-edit-teams-and-subteams.md
     - name: Configure Your OKR Model in Viva Goals
       href: configure-okr-model.md
     - name: Manage OKR Time Periods
@@ -27,18 +27,20 @@ items:
       href: work-on-behalf-feature.md
 - name: Work with OKRs in Viva Goals
   items:
-    - name: Create OKRs
-      href: creating-okrs.md
-    - name: Configure OKRs in Viva Goals
-      href: configuring-okrs.md
-    - name: Clone OKRs 
-      href: cloning-objectives.md
     - name: Understand Views in Viva Goals
       href: understanding-views.md
+    - name: Create OKRs
+      href: creating-okrs.md
+    - name: Align OKRs
+      href: align-okrs.md
     - name: Check-in and Track Progress on OKRs
       href: check-ins-and-progress-status.md
     - name: Close and Score OKRs
       href: closing-and-scoring.md
+    - name: Clone OKRs
+      href: cloning-objectives.md
+    - name: Manage OKRs in Viva Goals
+      href: manage-okrs-in-viva-goals.md
     - name: Set Up OKR Business Rhythms 
       href: business-rhythms.md
 - name: Product Features
