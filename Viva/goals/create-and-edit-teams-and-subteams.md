@@ -56,7 +56,7 @@ To add existing Viva Goals users as team members, perform the following steps:
 1. Start typing the name or email of the existing Viva Goals user. The auto-complete will suggest the matching users.
 1. Select the name or email of the user, which is returned as a result.
 
-![screenshot showing add members to a team.](../media/goals/2/22/c.jpg)
+    ![screenshot showing add members to a team.](../media/goals/2/22/c.jpg)
 
    
 1. Select the **Add Members** button. The user is added to the team as a member.
