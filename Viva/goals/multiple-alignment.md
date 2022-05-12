@@ -27,17 +27,17 @@ Viva Goals recognizes that the modern workplace is often made up of non-linear o
 
 ## What is Multiple Alignment? 
 
-the Multiple Alignment feature in Viva Goals allows users to align a single OKR to two or more above it in the organization.
+The Multiple Alignment feature in Viva Goals allows users to align a single OKR to two or more above it in the organization.
 
 Multiple Aligned objectives are easy to distinguish from the rest, just look for the double arrow icon.
 
-![multiple alignment icon](../media/goals/4/412/a.jpg)
+![multiple alignment icon.](../media/goals/4/412/a.jpg)
 
 ## How to use Multiple Alignment
 
 If Multiple Alignment is enabled, you'll be able to align in the same manner as single alignment, but you'll be able to select multiple objectives.
 
-![select alignment](../media/goals/4/412/b.jpg)
+![screenshot showing select alignment.](../media/goals/4/412/b.jpg)
 
 In this image, you can see the alignment to both **Culture Communication** and **Deliver Project Y by first week of December**.
 
