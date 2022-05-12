@@ -131,7 +131,7 @@ Once you have set scoring guidance for an Objective, you can view it by selectin
 
 When making Check-ins the Scoring Guidance will be displayed for user reference.
 
-![screenshot showing view scoring guidance.](../media/goals/3/36/g.jpg)
+![second screenshot showing view scoring guidance.](../media/goals/3/36/g.jpg)
 
 If you have an enterprise subscription and would like to have this enabled for your organization, please have an admin account and reach out to support@xxxxx.com with the request. 
 
