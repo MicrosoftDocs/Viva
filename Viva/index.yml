@@ -103,7 +103,7 @@ productDirectory:
 
     # Card
     - title: Microsoft Viva Goals (Private Preview)
-      imageSrc: media/logos/goals_launch_c_64.svg
+      imageSrc: media/logos/goals-launch-c-64.svg
       links:
         - url: /viva/goals/intro-to-ms-viva-goals
           text: Get started
