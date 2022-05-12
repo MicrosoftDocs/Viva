@@ -66,7 +66,7 @@ In the case of multiple OKR owners, only the user set as **check-in responsible 
 3. Select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** drop-down.
 Once you make the selection, the user will  start receiving the check-in reminders.
 
-[!Note] By default, the owner (the first owner if there are multiple owners) is set as the person responsible for check-in.
+> [!Note] By default, the owner (the first owner if there are multiple owners) is set as the person responsible for check-in.
 
 ![screenshot of assigning check in responsibility.](../media/goals/3/35/c.jpg)
 
