@@ -27,6 +27,10 @@ You can use Viva Goals to manage your OKRs directly within Microsoft Teams.
 
 Our quick and easy integration enables users to add, update, and manage OKRs within the context of their daily workflow. You can also reference OKRs in conversations by using our message extensions.
 
+## How to grant org-wide consent for your users
+
+For private preview, the Viva Goals app is unverified. This will be changed as we move out of private preview. We recommend that as an admin you pre-consent for all users in your organization so that users don't have to review and accept the permissions requested by the app when they start the app. [Visit this page](https://docs.microsoft.com/en-us/microsoftteams/app-permissions-admin-center)to learn how to consent for all your users.
+
 ## How to pre-install Viva Goals for users within Microsoft Teams
 
 As a Microsoft Teams administrator, you can now pre-install the Viva Goals app directly from your MS Teams account. To do this, you need to be a tenant admin with access to admin.teams.microsoft.com.
@@ -34,7 +38,7 @@ As a Microsoft Teams administrator, you can now pre-install the Viva Goals app d
 **Follow these steps to successfully pre-install Viva Goals:**
 
 1. Log in to https://admin.teams.microsoft.com/ with your user id and password.
-1. Click on Setup policies and choose App setup policies.
+1. Click on "Teams apps" and choose "Setup policies".
 1. Choose the policy that is associated with the segment of users you want the Viva Goals app to be pre-installed for. If you want to pre-install Viva Goals for all users in your tenant, choose the Global(Org-wide-default) option.
 1. Under the installed apps section, click on the ‘Add Apps’ button and Add Viva Goals.
 
@@ -94,7 +98,7 @@ Adding a new objective inside Teams is easy. To do this follow the below steps:
          
 3. After you populate the objective information, select Save and Close, or Save and Add Key Results. 
          
-### How to ading key results in Microsoft Teams
+### How to add key results in Microsoft Teams
 
 After adding an objective, and clicking Save and Add Key Result, the Add Key Result window will appear. On this page, you can add your key result, assign tags, add description, choose how you would like to measure success, add scoring guidance, a data integration, choose how to align, adjust owner, delegate and adjust time period. 
 
