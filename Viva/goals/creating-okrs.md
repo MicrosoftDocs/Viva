@@ -159,9 +159,9 @@ Writing annual objectives should feel different from writing quarterly goals. Th
 
 **1. First, navigate to the appropriate annual time period.** By default, Viva Goals features annual time periods in the format **Jan 1-Dec 31 20XX**, but if your company follows a different cadence, you can set up a custom time period from **Admin > Time Periods**.
 
-**1. Write your organization-level objectives and key results.** Write 3-5 key results per objective. Set the time period of each key result to the relevant quarter. For example, KR1 might belong to Q1 20XX while KRs 2 and 3 belong to Q2, until you have charted the entire progress of key results leading up to the top-level objective. 
+**2. Write your organization-level objectives and key results.** Write 3-5 key results per objective. Set the time period of each key result to the relevant quarter. For example, KR1 might belong to Q1 20XX while KRs 2 and 3 belong to Q2, until you have charted the entire progress of key results leading up to the top-level objective. 
 
-**1. Proceed as normal by setting up team and individual-level quarterly OKRs.** As team members make check-ins, Viva Goals will automatically calculate progress toward your annual objectives. Maintain a bird’s-eye view with our dashboards and use views or the objective explorer to drill down and generate reports when necessary. 
+**3. Proceed as normal by setting up team and individual-level quarterly OKRs.** As team members make check-ins, Viva Goals will automatically calculate progress toward your annual objectives. Maintain a bird’s-eye view with our dashboards and use views or the objective explorer to drill down and generate reports when necessary. 
 
 **An example**: In the screenshot below, we have the broad organization-level objective ‘Double revenue to $20M’ in the annual 2021 time period. The KRs are set up as follows:
 
