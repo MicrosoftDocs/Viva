@@ -41,7 +41,7 @@ The notifications that you see are based on the role that you've been assigned. 
 
 The notifications pane is open by default on the Home page:
 
-![Notifications pane.](../images/wpa/use/notifs-panel_4.png)<!-- add new image when the app is available>
+![Notifications pane.](../../images/wpa/use/notifs-panel_4.png)<!-- add new image when the app is available>
 
 You can open this pane by selecting the **Bell** icon in the ribbon. You can close the notifications pane by selecting the **Bell** icon again or simply by clicking outside the pane.
 
