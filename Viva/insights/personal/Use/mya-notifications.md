@@ -71,7 +71,7 @@ You can also provide general feedback on anything by selecting the **smiley face
 ## Delay delivery
 
 >[!Note]
->*The two scenarios listed below are part of a rolling release.*
+>*The two scenarios listed within this note are part of a rolling release.*
 >
 >When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions when:
 >
