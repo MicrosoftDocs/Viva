@@ -226,7 +226,7 @@ Information about the public key that's used to encrypt data drops for the integ
   ```2023-04-25T17:44:10.1935639Z```
 
 * **encryptionAlgorithm** - An **enum** that represents the encryption algorithm used for the partner key.
-* **scopeId** - A string value that represents the partner application scope ID.
+* **scopeId** - The Viva Insights customer scope ID. Currently, this value must be the same as the customer’s Azure Active Directory tenant ID.
 
 ### RsaKey
 

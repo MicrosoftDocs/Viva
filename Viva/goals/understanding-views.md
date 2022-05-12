@@ -63,7 +63,7 @@ You can also view the parent objective that a particular objective is aligned to
 
 **2. Summary panel** - View the progress and status of all your OKRs in that time period, along with the expected vs. actual progress comparison.
 
-**3. [KPIs panel]** - You can view the KPIs that are used to track your OKRs in this section. 
+**3. KPIs panel** - You can view the KPIs that are used to track your OKRs in this section. 
 
 **4. Add objective** - Create an objective of the type of organization/team/individual.
 

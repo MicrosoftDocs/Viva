@@ -63,7 +63,7 @@ To add existing Viva Goals users as team members, perform the following steps:
 
 To add people who are currently not in Viva Goals, you can use the same dialog box. Ensure the **Send invitations to users who are not in Viva Goals** checkbox is checked.
 
-![screenshot showing dialog box when adding members.](../media/goals/2/22/d.jpg)
+  ![screenshot showing dialog box when adding members.](../media/goals/2/22/d.jpg)
 
 As part of setting up a team, it is useful to have another team administrator to ensure that the team setup process is not dependent on one person.
 
@@ -75,7 +75,7 @@ To assign permissions of a team administrator to a team member, perform the foll
 
 1. Select the **Actions** dropdown list and select **Promote to Team Admin**.
 
-![screenshot showing assigning permissions of a team administrator.](../media/goals/2/22/e.jpg)
+  ![screenshot showing assigning permissions of a team administrator.](../media/goals/2/22/e.jpg)
 
 ## How to promote team owners and administrators
 

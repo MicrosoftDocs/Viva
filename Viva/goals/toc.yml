@@ -11,6 +11,8 @@ items:
       href: determine-your-rollout-plan.md
 - name: Setup and Administration
   items:
+    - name: Navigate the Admin Dashboard
+      href: navigate-admin-dashboard.md
     - name: Log in, Create, and Join Organizations in Viva Goals
       href: log-in-create-and-join-organizations.md
     - name: Invite and Remove Users in Viva Goals
@@ -99,8 +101,6 @@ items:
           href: domo-integration.md
         - name: Tableau Integration
           href: tableau-integration.md
-        - name: Google Sheets Integration
-          href: google-sheets-integration.md
         - name: Zendesk Integration
           href: zendesk-integration.md
         - name: Hubspot Integration

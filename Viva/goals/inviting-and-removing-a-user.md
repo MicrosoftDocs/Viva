@@ -25,11 +25,7 @@ description: "Inviting and removing a user in Viva Goals"
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Onboarding your entire team into Viva Goals is a very simple process that can be done in two ways: 
-
-1. By sending an invitation to team members 
-
-2. By approving member invites sent via the Join Organizations page 
+Onboarding your entire organization into Viva Goals is a very simple process that can be done by sending an invitation to team members.
 
 Before either of these steps, you must sign in to Viva Goals using Azure Active Directory and create an account for your organization.  
 
@@ -55,7 +51,7 @@ Note: Ensure that all users are provisioned on your organization's Azure Active 
 
 3. Another way to do this is to click on 'All Users' from the menu and select the ‘Invite Users’ button. 
 
-![screenshot of adding members from within the application.](../media/goals/2/23/b.jpg)
+  ![screenshot of adding members from within the application.](../media/goals/2/23/b.jpg)
 
 ## Removing a user 
 
