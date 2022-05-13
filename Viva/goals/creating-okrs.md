@@ -188,9 +188,9 @@ The OKR methodology supports two types of goals which are described in the follo
 
 Within Viva Goals, users can now switch between aspirational and committed OKRs, though OKRs created by default remain aspirational. Committed goals have the tag ‘committed’ which differentiates them from aspirational goals.
 
-**For committed objectives...** 100% completion ensures a score of 1 and the range is marked in "green", indicating that the user has completed the target which they have committed to achieve.
+**For committed objectives**, 100% completion ensures a score of 1 and the range is marked in "green", indicating that the user has completed the target which they have committed to achieve.
 
-**For aspirational objectives...** If a team attains 100% of the target and thus closes an objective with a score of 1, the goal isn’t ambitious enough and is marked orange. An ideal aspirational OKR or a stretch goal should be challenging but attainable, and a score of 0.7-0.9 is recommended.
+**For aspirational objectives**, if a team attains 100% of the target and thus closes an objective with a score of 1, the goal isn’t ambitious enough and is marked orange. An ideal aspirational OKR or a stretch goal should be challenging but attainable, and a score of 0.7-0.9 is recommended.
 
 ## Customizing your scoring system in Viva Goals
 
