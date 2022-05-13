@@ -31,7 +31,13 @@ As leaders figure out their organization’s new working models, the Hybrid work
 
 This dashboard has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.  
 
+### Interactive demonstration
+
 <br><iframe title="Hybrid workforce experience - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiZTExZGI0ZDEtNjRjYS00YzRjLWE0OWQtZmFmOWVhZjQ5ZTJmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
+## Video walk-through
+
+<br><iframe src="https://player.vimeo.com/video/709292595?h=b3cffb2ba4" width="640" height="359" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 ## Prerequisites
 
@@ -48,6 +54,8 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
     * If you’re using an employee’s number of onsite days per month to calculate their average weekly onsite days, make sure to round off the average weekly onsite days numbers to limit the number of possible values uploaded in the dashboard.
   * An attribute indicating whether someone is a manager (we recommend **SupervisorIndicator**)
   * An attribute indicating the person’s hire date (we recommend **HireDate**), which is required to be able to load the **New hire onboarding insights**. Without this attribute, however, the rest of the dashboard will still load.
+
+For further details on Organizational data preparation and upload, download our  [step-by-step guide](https://go.microsoft.com/fwlink/?linkid=2195632).
 
 You can add new attributes to your organizational data at any time.
 For more details on how to add new data for existing employees, review the documentation on [subsequent uploads](/viva/insights/setup/upload-organizational-data2).
