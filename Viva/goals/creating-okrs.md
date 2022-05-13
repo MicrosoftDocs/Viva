@@ -65,13 +65,14 @@ You can create an objective from:
        |Owner     |    The user who owns this objective. Every OKR should have a clear owner.     |
        |Time Period     |   The quarter or custom time period this objective belongs to.      |
 
-Viva Goals contextually fills in the following details: 
+    Viva Goals contextually fills in the following details: 
    
 1. Select create when you are done. 
 
     ![screenshot showing new objective dialog box.](../media/goals/3/31/b.jpg)
 
-**Note:** The **Key results** dialog box will look a little different if you've chosen to configure your OKRs by selecting the **Objectives are always aspirational, key results are always measurable** option. You'll notice that the **Create Objective** view will just have the **Progress** pane. This is because when you configure your objectives to be aspirational and key results to be measurable, the progress of your objectives will be updated by roll-up from the progress of key results or manually. 
+>[!NOTE] 
+>The **Key results** dialog box will look a little different if you've chosen to configure your OKRs by selecting the **Objectives are always aspirational, key results are always measurable** option. You'll notice that the **Create Objective** view will just have the **Progress** pane. This is because when you configure your objectives to be aspirational and key results to be measurable, the progress of your objectives will be updated by roll-up from the progress of key results or manually. 
 
 ![screenshot showing key results dialog box.](../media/goals/3/31/c.jpg)
 
@@ -85,7 +86,8 @@ You can also hover over it and select **Add key result** from **More options**, 
 
 The dialog box that opens will look familiar. 
 
-**Note**: The **New key result** dialog box will look a little different if you have chosen to configure your OKRs by **selecting the Objectives are always aspirational, key results are always measurable** option. 
+>[!NOTE]
+>The **New key result** dialog box will look a little different if you have chosen to configure your OKRs by **selecting the Objectives are always aspirational, key results are always measurable** option. 
 
 ## 4. Jumpstart your OKR process with templates 
 
@@ -131,15 +133,16 @@ The process of goal-setting with OKRs is flexible and adjustable along the way. 
 - **Objectives must be actionable, yet aspirational.** They are stretch goals that should make you feel slightly uncomfortable.
 - **Every objective should have three to five key results.** Together, key results must help realize the objective.
 - **Every key result should be measurable.** This ensures you can see progress, understand what worked and what didn't at the end of your OKR cycle, and use these lessons to drive more growth for your organization. 
--**Alignment is a key aspect of the OKR process.** With Viva Goals, team objectives can be easily aligned to company-level objectives. This is a key value of the OKR process. 
+- **Alignment is a key aspect of the OKR process.** With Viva Goals, team objectives can be easily aligned to company-level objectives. This is a key value of the OKR process. 
 
-**Note:** Key results of company-level objectives will cascade down to act as objectives at the team level only when you've chosen the option **Objectives and key results can be used interchangeably** in the OKR Model Configuration section in your Admin Dashboard.
+>[!NOTE]
+>Key results of company-level objectives will cascade down to act as objectives at the team level only when you've chosen the option **Objectives and key results can be used interchangeably** in the OKR Model Configuration section in your Admin Dashboard.
 
 Remember that OKRs aren't a to-do list mandated by leadership. The OKRs you create in Viva Goals should be part of a collaborative process between leadership, departments, teams and individuals in deciding where to focus and why, during any given time period. 
 
 ## Setting annual objectives
 
-### What are annual Objectives?
+### What are annual objectives?
 
 Annual objectives are specific, measurable statements of what a business is expected to achieve within an annual period. These objectives are usually one part or phase of the organization’s longer-term goals—for example, the first-year objectives of a three-year growth strategy. This characteristic puts annual objectives in contrast to quarterly objectives which tend to have a narrower focus and shorter-term deliverables.
 
@@ -176,7 +179,7 @@ This setup breaks down a lofty goal into manageable, actionable pieces. The succ
 
 ## Creating committed vs. aspirational OKRs in Viva Goals
 
-The OKR methodology supports two types of goals which are described in the following table 
+The OKR methodology supports two types of goals which are described in the following table: 
 
 |Goal Name |Description  |
 |---------|---------|
@@ -185,9 +188,9 @@ The OKR methodology supports two types of goals which are described in the follo
 
 Within Viva Goals, users can now switch between aspirational and committed OKRs, though OKRs created by default remain aspirational. Committed goals have the tag ‘committed’ which differentiates them from aspirational goals.
 
-**For committed objectives...** 100% completion ensures a score of 1 and the range is marked in "green", indicating that the user has completed the target which they have committed to achieve.
+For **committed objectives**, 100% completion ensures a score of 1 and the range is marked in "green", indicating that the user has completed the target which they have committed to achieve.
 
-**For aspirational objectives...** If a team attains 100% of the target and thus closes an objective with a score of 1, the goal isn’t ambitious enough and is marked orange. An ideal aspirational OKR or a stretch goal should be challenging but attainable, and a score of 0.7-0.9 is recommended.
+For **aspirational objectives**, if a team attains 100% of the target and thus closes an objective with a score of 1, the goal isn’t ambitious enough and is marked orange. An ideal aspirational OKR or a stretch goal should be challenging but attainable, and a score of 0.7-0.9 is recommended.
 
 ## Customizing your scoring system in Viva Goals
 
@@ -232,7 +235,8 @@ The owner of an OKR can be changed from the OKR list view, quick view, or the fu
 
 If you need to change an OKR or remove one made in error, find those options in the menu dropdown in the top-right corner of your screen. Select **Edit** or **Delete** to make the necessary changes.
 
-**Note:** An objective cannot be edited or deleted if it is **Postponed** or **Closed**. In those cases, the objective would need to be reopened in order to edit or delete.
+>[!NOTE]
+>An objective cannot be edited or deleted if it is **Postponed** or **Closed**. In those cases, the objective would need to be reopened in order to edit or delete.
 
 ![screenshot showing how to edit an okr.](../media/goals/3/31/j.jpg)
 
@@ -242,4 +246,5 @@ On the desired OKR page, expand the **ellipsis** (3 dots) icon and select **Prin
 
 ![screenshot showing how to print an okr.](../media/goals/3/31/k.jpg)
 
-**Note:** You won't see the **Print** option when multiple time periods are selected.
+>[!NOTE]
+>You won't see the **Print** option when multiple time periods are selected.
