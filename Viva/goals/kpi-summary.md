@@ -32,7 +32,7 @@ If your organization has the KPI Summary enabled, it will be found on all dashbo
 
 The KPI Summary contains all top-level objectives that are set as KPIs. It will display the alignment (if it exists), the current status given at last check-in, and the current value. It will also show the amount increased from the start value in small gray text.
 
-![kpi summary](../media/goals/4/416/a.jpg)
+![screenshot of kpi summary.](../media/goals/4/416/a.jpg)
 
 ## Who can manage KPI Summaries? 
 
@@ -48,7 +48,7 @@ Individual contributors can manage their KPI Summary for objectives they own.
 
 If an objective has key results below it, or there are other key results set as KPIs, users can manually add those to the KPI Summary with the action button.
 
-![add to kpi summary](../media/goals/4/416/b.jpg)
+![screenshot of how to add to the kpi summary.](../media/goals/4/416/b.jpg)
 
 There is no limit on the number of KPIs you can include, but we suggest that only your business's most critical KPIs be included to ensure a digestable view.
 
@@ -56,7 +56,7 @@ There is no limit on the number of KPIs you can include, but we suggest that onl
   
 To remove a KPI from the KPI Summary, click **Remove from KPI Summary** from the action dropdown.
 
-![remove from kpi summary](../media/goals/4/416/c.jpg)
+![screenshot of removing a key result from the kpi summary.](../media/goals/4/416/c.jpg)
 
 ## How to rearrange KPIs in your KPI Summary
 

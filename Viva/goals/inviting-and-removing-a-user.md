@@ -47,11 +47,11 @@ Note: Ensure that all users are provisioned on your organization's Azure Active 
 
 2. If you are the organization administrator, you can also head to Settings, and click on ‘Invite Users’ under the Users tab. 
 
-![adding members from within the app](../media/goals/2/23/a.jpg)
+![screenshot of adding members from within the app.](../media/goals/2/23/a.jpg)
 
 3. Another way to do this is to click on 'All Users' from the menu and select the ‘Invite Users’ button. 
 
-![adding members from within the application](../media/goals/2/23/b.jpg)
+  ![screenshot of adding members from within the application.](../media/goals/2/23/b.jpg)
 
 ## Removing a user 
 
@@ -63,20 +63,20 @@ This can be done by navigating to **Admin -> Users**. Find the user you wish to 
 
 A deactivated user will remain visible in Viva Goals, but won't be able to sign in. The user will remain assigned as an owner of any OKRs they had. They won't be searchable in **All Users**, and will be listed as deactivated in the **Users** section of the admin tools. 
 
-![deactivated users image](../media/goals/2/23/c.jpg)
+![screenshot of deactivated users.](../media/goals/2/23/c.jpg)
 
 
 You can reactivate a user by choosing **Action-> Make Active** which will restore their ability to sign in.
 
-![reactivating a user image](../media/goals/2/23/d.jpg)
+![screenshot of reactivating a user.](../media/goals/2/23/d.jpg)
 
 Deleting a user is a permanent action and can't be undone. Deleting a user will delete all of their activities in the system.
 
-![deleting a user warning image](../media/goals/2/23/e.jpg)
+![screenshot of deleting a user warning.](../media/goals/2/23/e.jpg)
 
 Admins can’t delete users if they are the current owners of any objective. To delete these users, reassign their OKRs first and then delete the users.
 
-![error image when attempting to delete users who own objectives or projects](../media/goals/2/23/f.jpg)
+![screenshot of the error image when attempting to delete users who own objectives or projects.](../media/goals/2/23/f.jpg)
 
 **Example scenario on when to deactivate a user**
 

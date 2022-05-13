@@ -29,5 +29,3 @@ When an OKR or Projects needs an update and you want to leave a comment specific
 The nudge option is available in the progress popover when you select it. It will be visible to the users who aren't the primary check-in owner of the OKR.
 
 The nudge will go out to the user's email.
-  
-[nudge email screenshot]

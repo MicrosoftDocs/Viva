@@ -48,7 +48,7 @@ After completing these steps, when a user logs into their MS Teams account, they
 
 There are multiple ways to install the Viva Goals app in Teams.
 
-The first way to add Viva Goals to Teams is for you to click the ellipse […] button on the navigation bar on the left, search for Viva Goals and click on the Viva Goals app from the list of search results.
+The first way to add Viva Goals to Teams is for you to click the ellipsis […] button on the navigation bar on the left, search for Viva Goals and click on the Viva Goals app from the list of search results.
 
 From the Viva Goals app detail page, you can click the Add button to add Viva Goals.
 

@@ -50,7 +50,7 @@ Once the setup is complete, users in your organization can link their OKRs to Lo
   
 2. From the list of integrations, select **Looker**.
 
-    :::image type="content" source="../media/goals/viva-goals-looker-integration-1.png" alt-text="Looker Integration 1":::
+    :::image type="content" source="../media/goals/viva-goals-looker-integration-1.png" alt-text="screenshot of looker integration 1":::
 
 3. If you already created a Looker connection or an administrator in your organization shared a Looker connection with you, that will automatically be selected. If there are no connections created or shared already, Viva Goals will prompt you to add a new connection. If you've more than one connection with Looker, you can choose the connection you’d like to use.
 
@@ -59,11 +59,11 @@ Once the setup is complete, users in your organization can link their OKRs to Lo
   
 4. Once the connection is selected, you can choose to **Track KPI from** either a dashboard or a look. Once you've chosen a dashboard or a look, you can further narrow it down to a specific dashboard tile or a look name. Select the tile or look that has the data you want to be connected to the OKR.
 
-    :::image type="content" source="../media/goals/viva-goals-looker-integration-2.png" alt-text="Looker Integration 2":::
+    :::image type="content" source="../media/goals/viva-goals-looker-integration-2.png" alt-text="screenshot of looker integration 2":::
 
 5. Select a key performance indicator (KPI) metric that is available from the selected tile or look. Depending on the type of visualization, there could be multiple values for the KPI, broken down by a dimension. For example, if you have the demos set up metric broken down by your sales team members as part of the Looker tile, you can choose to apply a metric/sum/average/count on the set of values (or) filter out by a particular person or any available filter field.
 
-    :::image type="content" source="../media/goals/viva-goals-looker-integration-3.png" alt-text="Looker Integration 3":::
+    :::image type="content" source="../media/goals/viva-goals-looker-integration-3.png" alt-text="screenshot of looker integration 3":::
 
 6. Viva Goals displays the selected value for your reference before you save the data link set-up.
   
