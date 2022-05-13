@@ -136,7 +136,7 @@ The process of goal-setting with OKRs is flexible and adjustable along the way. 
 -**Alignment is a key aspect of the OKR process.** With Viva Goals, team objectives can be easily aligned to company-level objectives. This is a key value of the OKR process. 
 
 >[!NOTE]
->The **Note:** Key results of company-level objectives will cascade down to act as objectives at the team level only when you've chosen the option **Objectives and key results can be used interchangeably** in the OKR Model Configuration section in your Admin Dashboard.
+>Key results of company-level objectives will cascade down to act as objectives at the team level only when you've chosen the option **Objectives and key results can be used interchangeably** in the OKR Model Configuration section in your Admin Dashboard.
 
 Remember that OKRs aren't a to-do list mandated by leadership. The OKRs you create in Viva Goals should be part of a collaborative process between leadership, departments, teams and individuals in deciding where to focus and why, during any given time period. 
 
