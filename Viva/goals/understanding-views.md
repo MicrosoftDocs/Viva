@@ -21,7 +21,7 @@ description: "Learn about the customizable views to easily surface OKRs and proj
 # Understand Views in Viva Goals
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals](https://go.microsoft.com/fwlink/?linkid=2189933).
+> Viva Goals currently is available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals](https://go.microsoft.com/fwlink/?linkid=2189933).
 
 When you log in to your Viva Goals account, you will be able to view and access all your OKR-related information on your OKRs page. With different views, you can access your OKRs for different purposes and in different ways.
 
@@ -29,9 +29,9 @@ When you log in to your Viva Goals account, you will be able to view and access 
 
 There are 3 views that are available in Viva Goals: 
 
-- **List view** - The list view is the default view in Viva goals. This view enables creating, reviewing and tracking progress for OKRs and projects across one or more time periods with information like title, type, owner, time period, status, progress and alignment.
+- **List view** - The list view is the default view in Viva goals. This view enables creating, reviewing, and tracking progress for OKRs and projects across one or more time periods with information like title, type, owner, time period, status, progress, and alignment.
 
-- **Quick View** - Quick view is a a panel that appears on the right side of the OKRs page when you click on the title of an OKR or a project. This view provides an overview of progress, details, alignment, children objectives and activity for an OKR or a Project.
+- **Quick View** - Quick view is a a panel that appears on the right side of the OKRs page when you click on the title of an OKR or a project. This view provides an overview of progress, details, alignment, children objectives, and activity for an OKR or a Project.
 
 - **Chart view** - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
 
@@ -69,7 +69,7 @@ You can also view the parent objective that a particular objective is aligned to
 
 -  **Drag and drop** - Reprioritize and change the order of OKRs and projects in the list view.
 
-- **Multi-select** - Use the checkbox on the list view row to select more than one OKR or a Project to perform bulk edit, move and clone actions.
+- **Multi-select** - Use the checkbox on the list view row to select more than one OKR or a Project to perform bulk edit, move, and clone actions.
 
 - **View options** - From this drop-down, you can select to show more information, expand all OKRs by default, show OKRs in a flat view, and compare to a time period. The expand view is a time-saving view option under the list view. When enabled, all the top-level objectives listed in the OKRs page, at once, to display one level of children. The flat-list view, another view option under the list view, removes the hierarchical structure found in the default view in the OKRs page and displays them all as a flat list. That is, in this view, the parent and child OKRs are all on the same level and are listed one after another without any nesting. 
 
@@ -156,10 +156,12 @@ If you want to view all the information pertaining to an OKR and a project, incl
 
 The Viva Goals Chart View feature is a powerful tool that provides an easy-to-consume visualization of objectives and the alignment between them. The Chart View lets you see how different teams and the organization’s Objectives and Key Results (OKRs) are structured in a glance.
 
-A stacked card indicates that the objective has key results - you can select a stacked card to see the key results and navigate further down the hierarchy. Watch organization-level key results turn into department-level objectives, while department-level key results cascade into team-level objectives and so on.
+A stacked card indicates that the objective has key results—you can select a stacked card to see the key results and navigate further down the hierarchy. Watch organization-level key results turn into department-level objectives, while department-level key results cascade into team-level objectives and so on.
 
 To view the objective in more detail, select the **See Details** option.
 
 To enable chart view for the organization’s OKRs or for a team or an individual, select the **View chart** option from the **View Options** drop-down:
 
-![screenshot showing chart view.](../media/goals/2/28/c.jpg)
+:::image type="content" source="../media/goals/2/28/c.jpg" alt-text="Screenshot showing chart view." lightbox="../media/goals/2/28/c.jpg":::
+
+
