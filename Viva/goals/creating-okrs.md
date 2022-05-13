@@ -133,7 +133,7 @@ The process of goal-setting with OKRs is flexible and adjustable along the way. 
 - **Objectives must be actionable, yet aspirational.** They are stretch goals that should make you feel slightly uncomfortable.
 - **Every objective should have three to five key results.** Together, key results must help realize the objective.
 - **Every key result should be measurable.** This ensures you can see progress, understand what worked and what didn't at the end of your OKR cycle, and use these lessons to drive more growth for your organization. 
--**Alignment is a key aspect of the OKR process.** With Viva Goals, team objectives can be easily aligned to company-level objectives. This is a key value of the OKR process. 
+- **Alignment is a key aspect of the OKR process.** With Viva Goals, team objectives can be easily aligned to company-level objectives. This is a key value of the OKR process. 
 
 >[!NOTE]
 >Key results of company-level objectives will cascade down to act as objectives at the team level only when you've chosen the option **Objectives and key results can be used interchangeably** in the OKR Model Configuration section in your Admin Dashboard.
