@@ -29,7 +29,7 @@ Like other employees, you’ll need to be familiar with:
 - How to write great OKRs  
 - Viva Goals software training 
 
-Please review the [Get Started with Viva Goals Learning path](https://docs.microsoft.com/learn/paths/viva-goals-get-started) to dive deeper into these topics.  
+Please review the [Get Started with Viva Goals Learning path](/learn/paths/viva-goals-get-started) to dive deeper into these topics.  
 
 ## How to access the Admin Dashboard and what to do there 
 
