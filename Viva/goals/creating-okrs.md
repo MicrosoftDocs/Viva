@@ -179,7 +179,7 @@ This setup breaks down a lofty goal into manageable, actionable pieces. The succ
 
 ## Creating committed vs. aspirational OKRs in Viva Goals
 
-The OKR methodology supports two types of goals which are described in the following table 
+The OKR methodology supports two types of goals which are described in the following table: 
 
 |Goal Name |Description  |
 |---------|---------|
