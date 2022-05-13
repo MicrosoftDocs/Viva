@@ -142,7 +142,7 @@ Remember that OKRs aren't a to-do list mandated by leadership. The OKRs you crea
 
 ## Setting annual objectives
 
-### What are annual Objectives?
+### What are annual objectives?
 
 Annual objectives are specific, measurable statements of what a business is expected to achieve within an annual period. These objectives are usually one part or phase of the organization’s longer-term goals—for example, the first-year objectives of a three-year growth strategy. This characteristic puts annual objectives in contrast to quarterly objectives which tend to have a narrower focus and shorter-term deliverables.
 
