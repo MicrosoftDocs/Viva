@@ -161,3 +161,5 @@ A stacked card indicates that the objective has key results - you can select a s
 To view the objective in more detail, select the **See Details** option.
 
 To enable chart view for the organization’s OKRs or for a team or an individual, select the **View chart** option from the **View Options** drop-down:
+
+![screenshot showing chart view.](../media/goals/2/28/c.jpg)
