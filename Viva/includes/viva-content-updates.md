@@ -2,6 +2,20 @@
 
 
 
+## Week of May 09, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/9/2022 | [Assign roles for Microsoft Viva Insights](/viva/insights/setup/assign-user-roles) | modified |
+| 5/10/2022 | [Advanced insights metric descriptions](/viva/insights/advanced/analyst/metrics) | added |
+| 5/10/2022 | [Viva Insights partner integration](/viva/insights/advanced/analyst/partner-integration) | added |
+| 5/10/2022 | [Workplace Analytics FastTrack Data Science Service](/viva/insights/advanced/analyst/templates/introduction) | added |
+| 5/10/2022 | [Workplace Analytics FastTrack Data Science Service](/viva/insights/advanced/analyst/templates/business-resilience) | added |
+| 5/10/2022 | [Advanced insights with Viva Insights](/viva/insights/advanced/intro) | added |
+| 5/11/2022 | [Viva Insights partner integration](/viva/insights/advanced/analyst/partner-integration) | modified |
+
+
 ## Week of May 02, 2022
 
 
