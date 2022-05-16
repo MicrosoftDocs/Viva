@@ -32,7 +32,7 @@ Knowledge managers play a key role in building a knowledge base that Viva Topics
 
 Knowledge managers have a unique opportunity to scale their impact and demonstrate leadership by showing colleagues and leaders how knowledge can be used for better outcomes, and by helping build a quality knowledge base for their team and department.  
 
-A high—quality knowledge base can help a knowledge manager and their team:  
+A high-quality knowledge base can help a knowledge manager and their team:  
 
 - Spend less time searching for or recreating information that already exists 
 
@@ -85,7 +85,7 @@ Topics can also be confirmed or removed based on crowdsourced feedback. When use
 
 ### Prioritize topics for curation
 
-To build an initial, high—quality knowledge base quickly, it’s important to determine which topics should be prioritized for curation. Priority topics should be high value and have high visibility in the organization. 
+To build an initial, high-quality knowledge base quickly, it’s important to determine which topics should be prioritized for curation. Priority topics should be high value and have high visibility in the organization. 
 
 There are several different ways to prioritize which topics to focus efforts on:  
 

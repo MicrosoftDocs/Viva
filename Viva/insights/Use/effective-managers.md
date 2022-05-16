@@ -1,5 +1,5 @@
 ---
-title: Develop effective managers with Advanced insights
+title: Develop effective managers with Viva insights
 description: Learn how to use Microsoft Viva Insights data to analyze and develop effective managers in your organization
 author: madehmer
 ms.author: helayne

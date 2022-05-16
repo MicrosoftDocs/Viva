@@ -61,3 +61,5 @@ Languages in the Viva Topics user interface are based on your organization's Mic
 
 Viva Topics is available to customers worldwide. However, for processing and indexing content, Viva Topics supports a limited number of languages. See [which languages are supported](/viva/topics/topics-language-support#languages-available-for-processing-topics).
 
+## Viva Goals 
+Viva Goals is currently in Private Preview and available only in English. More languages will be supported soon.
