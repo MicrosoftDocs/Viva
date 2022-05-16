@@ -70,11 +70,26 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
-_**Applies to**: Delay delivery inline suggestions are available to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
+>[!Note]
+>*The two scenarios listed within this note are part of a rolling release.*
+>
+>When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions when:
+>
+>* A recipient in the **To** field has an automatic out-of-office reply set up in Outlook. This helps minimize disruptions to recipients when they're away from work.
+>* You are outside of your working hours. If you're working flexible hours, this helps you send email when you're working without disrupting others' quiet hours.
 
-When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. Viva Insights can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
+When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. Viva Insights can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. 
 
-This suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
+You might *not* see suggestions in the following scenarios:
+
+* When you’re composing an email during the hour before or after the recipients’ or your working hours.
+* When there are more than 15 recipients in the **To** field.
+* When you're sending an email to yourself.
+
+>[!Note]
+> Distribution lists and Microsoft 365 or Office 365 groups do *not* count as qualifying recipients for use by the delay-delivery feature. A shared mailbox in the **To** field, however, *does* count as a qualifying recipient. If a user has Full access permissions and can **Send as** or **Send on behalf of** the shared mailbox, that user counts as a qualifying sender.
+
+The delay-delivery inline suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
 
 When the inline suggestions feature is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in Viva Insights or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
