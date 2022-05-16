@@ -100,3 +100,18 @@ productDirectory:
           text: Manage content sources          
         - url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
           text: End user help & training
+
+    # Card
+    - title: Microsoft Viva Goals (Private Preview)
+      imageSrc: media/logos/goals-launch-c-64.svg
+      links:
+        - url: /viva/goals/intro-to-ms-viva-goals
+          text: Get started
+        - url: /viva/goals/log-in-create-and-join-organizations
+          text: Setup
+        - url: /learn/paths/viva-goals-get-started
+          text: Learning path - Get started with Viva Goals
+        - url: /learn/paths/okr-champions
+          text: Learning path - OKR leadership program
+        - url: https://go.microsoft.com/fwlink/?linkid=2193540
+          text: End user help & training
