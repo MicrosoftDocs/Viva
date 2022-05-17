@@ -49,7 +49,11 @@
       "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
       "uhfHeaderId": "MSDocsHeader-MSViva"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "manager": {
+        "goals/*.md": "lucyhitz"
+      }
+    },
     "template": [],
     "dest": "OfficeDocs-Viva"
   }
