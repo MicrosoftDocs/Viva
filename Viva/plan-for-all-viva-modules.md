@@ -23,7 +23,7 @@ description: "Get all Microsoft Viva modules"
 
 Follow the guidance in this article if you know your organization wants all four Viva modules.
 
-|:::image type="icon" source="media/viva-confirm.png" border="false"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png" border="false"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png" border="false"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png" border="false"::: <br> Step 4|
+|:::image type="icon" source="media/viva-confirm-licensing.png" border="false"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png" border="false"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png" border="false"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png" border="false"::: <br> Step 4|
 |---------|---------|---------|---------|
 |Confirm you’ve got the right licensing in place. |Meet technical requirements.|Learn more about the roles in each phase.|Prepare to launch and scale adoption with end-users.|
 
