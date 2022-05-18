@@ -96,6 +96,9 @@ Some learning content sources will be enabled by default. These learning sources
 - LinkedIn Learning select free content
 - Microsoft Learn
 - Microsoft 365 Training
+- Bring your own content
+
+The Bring your own content feature allows users in your organization to bring their own content from SharePoint into Viva Learning and share it with others. However, content brought in by end users isn't searchable.
 
 > [!NOTE]
 > For data that you copy to Viva Learning from a non-Microsoft service (learning provider or learning management system), you are not able to directly extract, correct, or delete that data in Viva Learning. We refresh the data you import from non-Microsoft providers promptly to reflect changes and deletions in the non-Microsoft source data.
