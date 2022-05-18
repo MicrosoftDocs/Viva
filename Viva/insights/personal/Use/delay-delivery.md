@@ -86,7 +86,9 @@ You can also use the Outlook Insights add-in to opt in to the Delay delivery pla
 
 ## To opt out
 
-You can opt in or opt out of Delay delivery as many times as you want. To turn it off:
+You can opt in or opt out of the Delay delivery plan as many times as you want. To turn it off:
 
 * In the [dashboard](https://myanalytics.microsoft.com), select **Config Settings**, and then change the setting for **Delay delivery** to **Off**.
 * Or in the Insights Outlook add-in, open **Settings** (gear icon), and then change the setting for **Delay delivery** to **Off** .
+
+After you opt out of the Delay delivery plan, you can delay up to two email deliveries each day when the inline suggestions feature is turned on. To opt out of inline suggestions in Outlook, including delay-delivery inline suggestions, follow the steps in [Inline suggestions in Outlook](mya-notifications.md#opt-out-of-inline-suggestions).
