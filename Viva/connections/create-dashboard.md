@@ -54,7 +54,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the home site.
 
 1. From the [home site,](home-site-plan.md) select the **Settings** gear at the top-right of the page.
-2. Select **Set up Viva Connections**.
+2. Select **Manage Viva Connections**.
 3. Select the **+ Create Dashboard** button.
 
    >[!NOTE]
