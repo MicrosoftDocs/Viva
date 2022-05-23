@@ -35,6 +35,8 @@ Viva modules can be used on their own or used together for a more cohesive emplo
 
 ### Use all Viva modules
 
+![Image of all the Viva logos being added together.](../media/all-viva-modules.png)
+
 Get guidance on how to prepare, plan, and [deploy all Viva modules.](plan-for-all-viva-modules.md)
 
 ### Discover how you can combine Viva modules
