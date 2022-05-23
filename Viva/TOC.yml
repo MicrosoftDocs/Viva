@@ -2,8 +2,6 @@ items:
 - name: Microsoft Viva
   href: index.yml
   items:
-  - name: Get started with Microsoft Viva
-    items:
     - name: Microsoft Viva overview
       href: microsoft-viva-overview.md
     - name: Getting started with Microsoft Viva 
