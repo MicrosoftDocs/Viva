@@ -95,20 +95,20 @@ Create a folder to store learning content for your organization.
 
 1. Go to your Documents library and select **+ New**.
 
-    ![Image of an empty documents library with the cursor selecting New and Folder.](../media/learning/spfolder-3.png)
+    ![Screenshot of an empty documents library with the cursor selecting New and Folder.](../media/learning/spfolder-3.png)
 
 2. Choose **Folder** and enter a folder name.
 
-    ![Image of the Create a folder pane with the name Training Materials entered.](../media/learning/spfolder-5.png)
+    ![Screenshot of the Create a folder pane with the name Training Materials entered.](../media/learning/spfolder-5.png)
 
 3. Select **Create**. The folder will now show up in your document library.
 
-    ![Image of a folder called Training Materials in the document library.](../media/learning/spfolder-6.png)
+    ![Screenshot of a folder called Training Materials in the document library.](../media/learning/spfolder-6.png)
 
 4. Upload files that you want to publish as learning content in this folder.
 5. To get the folder url, choose this folder and select **Copy link**.
 
-    ![Image of the Link copied popup.](../media/learning/spfolder-8.png)
+    ![Screenshot of the Link copied popup.](../media/learning/spfolder-8.png)
 
 Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning by the Microsoft Graph API.
 
@@ -159,24 +159,24 @@ Document library folder URLs can be collected from any SharePoint site in the or
 >[!NOTE]
 > Only the Microsoft 365 Groups permissions apply. Viva Learning doesn't support user- or SharePoint-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
 
-1. Follow [these steps](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
+1. Follow the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
 2. Go to the learning content repository that you created in SharePoint.
 3. Select the vertical ellipses (**...**) on the item you want to control access to. If you want to control access to specific items in a folder, go to that folder.
 4. Select **Manage access**.
 
-    ![Image of a folder selected in the learning content repository with the cursor hovering over Manage access.](../media/learning/sharepoint-manage-access.png)
+    ![Screenshot of a folder selected in the learning content repository with the cursor hovering over Manage access.](../media/learning/sharepoint-manage-access.png)
 
 5. Select the plus icon (**+**) next to **Direct access**.
 
-    ![Image of the plus icon selected next to Direct access in the Manage access options.](../media/learning/sharepoint-direct-access.png)
+    ![Screenshot of the plus icon selected next to Direct access in the Manage access options.](../media/learning/sharepoint-direct-access.png)
 
 6. Start typing the email address of the group you want to give access to, then select the group.
 
-    ![Image of a group being selected in the Direct access pane.](../media/learning/sharepoint-group.png)
+    ![Screenshot of a group being selected in the Direct access pane.](../media/learning/sharepoint-group.png)
 
 7. By default, users in the group are given Edit permissions. Select the pencil icon to choose between Edit and View permissions. The pencil icon will have a slash through it if the group has only view permissions.
 
-    ![Image of the pencil icon showing options for Can edit and Can view.](../media/learning/sharepoint-edit-view.png)
+    ![Screenshot of the pencil icon showing options for Can edit and Can view.](../media/learning/sharepoint-edit-view.png)
 
 8. Select **Grant access** to give your group access to the learning content.
 
