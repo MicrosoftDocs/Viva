@@ -36,7 +36,7 @@ Viva modules can be used on their own or used together for a more cohesive emplo
 
 ### Use all Viva modules
 
-![Image of all the Viva logos being added together.](/media/all-viva-modules.png)
+![Image of all the Viva logos being added together.](./media/all-viva-modules.png)
 
 Get guidance on how to prepare, plan, and [deploy all Viva modules.](plan-for-all-viva-modules.md)
 
@@ -92,7 +92,7 @@ Get specific guidance on how to get each Viva module, considerations for adoptio
 Review how each Viva module will impact the day-to-day work of the rest of your organization and consider how to approach.
 
 |Viva module  |Change management considerations   |Guidance  |
-|---------|---------|---------|
+|:---------:|---------|---------|
 |**Viva Connections**     | Helps end-users understand how to access popular common tasks and resources from the Viva Connections app in Microsoft Teams.        | [Viva Connections on your desktop](https://support.microsoft.com/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52) <p> [Viva Connections on the go](https://support.microsoft.com/office/viva-connections-on-the-go-753e0607-0bfd-4712-ad7e-18490dd565a2)|
 |**Viva Insights**     | Viva Insights includes personal, manager, leader, and advanced insights with custom analysis options for evaluating your specific organization’s work patterns with research-based recommendations about where to focus change management efforts.        | [Microsoft Viva Insights Learning modules](/learn/browse/?terms=viva%20insights) |
 |**Viva Learning**  | Viva Learning allows employees to discover, share, and track formal and informal learning in the flow of work.  Users can engage in social learning with colleagues and set and track personal learning goals. Personalized learning helps users get relevant learning content based on their own interests or recommendations from colleagues.       |[Viva Learning](https://support.microsoft.com/office/viva-learning-01bfed12-c327-41e0-a68f-7fa527dcc98a) <br> [Social learning](https://support.microsoft.com/office/social-learning-6badc784-0948-4922-94cc-85cd987def0a) <br> [Personal learning](https://support.microsoft.com/office/personal-learning-ca774f08-6bed-441b-a74b-3aac15cd9019) <br>   [Learning content](https://support.microsoft.com/office/learning-content-b1ef9cb6-c2b1-4c64-aaf9-72f598e42688) |
