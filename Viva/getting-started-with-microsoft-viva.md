@@ -13,9 +13,10 @@ localization_priority: Priority
 ms.custom:
 ms.collection:  
 - M365initiative-viva
+- intro-overview 
 search.appverid:
 - MET150
-description: "Learn everything about Microsoft Viva and Microsoft Viva modules"
+description: "Learn everything about Microsoft Viva and Microsoft Viva experiences"
 ---
 # Getting started with Microsoft Viva
 
@@ -26,7 +27,7 @@ Microsoft Viva is an employee experience platform made up of four modules that c
 ## In this solution
 
 |Identify your business scenario  |Learn more about requirements, setup, and roles |Get started planning and deploying  |
-|---------|---------|---------|
+|:---------:|:---------:|:---------:|
 |:::image type="icon" source="media/viva-discover1.png" border="false"::: <br> Discover which Viva module, or combination of modules, is the right fit for your business scenario.    | :::image type="icon" source="media/viva-learn2.png" border="false"::: <br> Understand requirements, learn more about change management, and end-user training.   |:::image type="icon" source="media/viva-get-started4.png" border="false"::: <br> Get started planning your organization’s deployment of Viva.|
 
 ## Identify your business scenario
@@ -41,16 +42,20 @@ Get guidance on how to prepare, plan, and [deploy all Viva modules.](plan-for-al
 
 ### Discover how you can combine Viva modules
 
+![Image of the Viva logos stacked on top of eachother.](/media/combine-modules.png)
+
 Viva modules become more powerful if used together. Viva can help your organization meet popular business scenarios like onboarding and helping employees with wellness in the workplace. [Learn how.](learn-how-to-combine-modules.md)
 
 ### Learn more about individual Viva modules
+
+![Image of the Viva logos and descriptions.](/media/viva-individual.png)
 
 Get detailed descriptions of each Viva module and learn more about how they can be used to meet specific objectives. Then, review requirements and considerations for planning and deploying. [Learn how.](discover-more-about-each-viva-module.md)
 
 ## Summary of each Viva module
 
 |Module  |Features and capabilities  |Microsoft 365 integration  |
-|---------|---------|---------|
+|:---------:|---------|---------|
 |:::image type="content" source="media/logos/connections-launch-c-64.svg" alt-text="Logo of Viva Connections"::: <br> **Viva Connections** |- Build a modern employee experience on your existing infrastructure.<br> - Create a centralized destination that’s personalized for employees. <br> - Deliver a customized mobile and web application that includes your company branding. <br> - Provide a unified communications channel to aggregate and share essential information. <br> - Target communications and dashboard cards to individuals or groups based on job type, geo, or other targeting criteria. <br> - Boost critical news and announcements to maximize exposure. <br> - Integrate with third-party providers and human resources systems to leverage your current investments and systems.     | SharePoint <br> Microsoft Teams <br> Yammer <br> Stream <br>Microsoft Graph |
 |:::image type="content" source="media/logos/learning-launch-c-64.svg" alt-text="Logo for Viva Learning"::: <br> **Viva Learning**   | - Enable social learning by leveraging Teams chat and tabs- Aggregate learning from connected content providers, learning management systems, and your own company resources. <br> - Recommend learning content and track reported completion progress. <br> - Add learning to the calendar to prioritize personal growth and development. <br> - Get personalized learning suggestions based on your interests and trending content. <br> - Surface learning content in Microsoft Search across Bing.com, Office.com, and SharePoint.com. <br>  | Microsoft Teams <br> SharePoint |
 |:::image type="content" source="media/logos/insights-launch-c-64.svg" alt-text="Logo for Viva Insight"::: <br> **Viva Insights**    |  - Personal insights help employees build better work habits with actionable recommendations, such as reserving time for focused work, taking regular breaks, and activities to reduce stress and improve focus.  <br> - Manager insights show how your habits impact your team while getting suggestions on how to foster team culture. <br> - Leader insights show a snapshot into how your company is doing, including company-wide outcomes and leading indicators for each outcome. <br> - Advanced insights has advanced analysis tools for deep diving into Viva Insights data and different ways of analyzing and reporting custom analysis to your company’s business leaders.|   Microsoft Teams <br> Outlook <br> Web-based apps |
@@ -64,7 +69,7 @@ Learn more about [Microsoft Viva licensing](https://www.microsoft.com/en-us/micr
 
 
 |Step 1 |Step 2  |Step 3  |Step 4 |
-|---------|---------|---------|---------|
+|:---------:|:---------:|:---------:|:---------:|
 |:::image type="icon" source="media/viva-discover1.png" border="false"::: <br>  **Discover**   | :::image type="icon" source="media/viva-learn2.png" border="false"::: <br>  **Learn** |:::image type="icon" source="media/viva-prepare3.png" border="false"::: <br>  **Prepare** |:::image type="icon" source="media/viva-get-started4.png" border="false"::: <br>  **Get started** |
 |Overview of modules and key concepts.     | Learn more about requirements and roles.        | Get guidance on change management considerations and end-user training resources.         |   Get started planning for your organization.      |
 
