@@ -2,6 +2,8 @@ items:
 - name: Microsoft Viva
   href: index.yml
   items:
+  - name: Get started with Microsoft Viva
+    items:
     - name: Microsoft Viva overview
       href: microsoft-viva-overview.md
     - name: Getting started with Microsoft Viva 
@@ -31,4 +33,3 @@ items:
     href: topics/topic-experiences-overview.md 
   - name: Microsoft Viva Goals
     href: /viva/goals/intro-to-ms-viva-goals
-    
