@@ -34,21 +34,24 @@ Microsoft Viva is an employee experience platform made up of four modules that c
 
 Viva modules can be used on their own or used together for a more cohesive employee experience. This document will help you understand which solutions are right for your organization.
 
-### Use all Viva modules
 
 ![Image of all the Viva logos being added together.](./media/all-viva-modules.png)
 
+### Use all Viva modules
+
 Get guidance on how to prepare, plan, and [deploy all Viva modules.](plan-for-all-viva-modules.md)
+
+
+![Image of the Viva logos stacked on top of eachother.](./media/combine-modules-2.png)
 
 ### Discover how you can combine Viva modules
 
-![Image of the Viva logos stacked on top of eachother.](./media/combine-modules.png)
-
 Viva modules become more powerful if used together. Viva can help your organization meet popular business scenarios like onboarding and helping employees with wellness in the workplace. [Learn how.](learn-how-to-combine-modules.md)
 
-### Learn more about individual Viva modules
 
 ![Image of the Viva logos and descriptions.](./media/viva-individual.png)
+
+### Learn more about individual Viva modules
 
 Get detailed descriptions of each Viva module and learn more about how they can be used to meet specific objectives. Then, review requirements and considerations for planning and deploying. [Learn how.](discover-more-about-each-viva-module.md)
 
