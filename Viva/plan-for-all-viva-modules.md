@@ -24,7 +24,7 @@ description: "Get all Microsoft Viva modules"
 Follow the guidance in this article if you know your organization wants all four Viva modules.
 
 |:::image type="icon" source="media/viva-confirm-licensing.png" border="false"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png" border="false"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png" border="false"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png" border="false"::: <br> Step 4|
-|---------|---------|---------|---------|
+|:---------:|:---------:|:---------:|:---------:|
 |Confirm you’ve got the right licensing in place. |Meet technical requirements.|Learn more about the roles in each phase.|Prepare to launch and scale adoption with end-users.|
 
 ## Step 1: Confirm the right licensing is in place
@@ -42,7 +42,7 @@ Then, you need to purchase the [Microsoft Viva suite](https://www.microsoft.com/
 After you’ve got the right licensing in place, review additional requirements to get the Viva module up and running. For more details, [review minimum requirements and planning considerations](discover-more-about-each-viva-module.md).
 
 |:::image type="content" source="media/logos/connections-launch-c-64.svg" alt-text="connection"::: <br> Viva Connections  |:::image type="content" source="media/logos/insights-launch-c-64.svg" alt-text="insight"::: <br> Viva Insights  |:::image type="content" source="media/logos/learning-launch-c-64.svg" alt-text="learning"::: <br> Viva Learning  |:::image type="content" source="media/logos/topics-launch-c-64.svg" alt-text="topics"::: <br> Viva Topics  |
-|---------|---------|---------|---------|
+|:---------:|:---------:|:---------:|:---------:|
 |- SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites|No technical requirements besides licensing for personal and team insights.|- A Microsoft Teams team  (if you're creating a learning tab in Teams). <p> - Modern SharePoint to connect internal resources to Viva Learning. |No technical requirements besides licensing.|
 
 ## Step 3: Get guidance on roles for each phase
@@ -58,7 +58,7 @@ Review the different roles in each phase before you get started planning. Each m
 
 ## Step 4: How to get started
 
-Technically, the Viva modules do not need to be installed in a specific order. Insights and Learning require less time to get going, Connections and Topics takes longer.
+Technically, the Viva modules do not need to be installed in a specific order. Insights and Learning require less time to get going, Connections and Topics takes longer to plan and customize.
 
 |Connections  |Insights  |Learning  |Topics |
 |---------|---------|---------|---------|
@@ -68,9 +68,13 @@ Technically, the Viva modules do not need to be installed in a specific order. I
 
 All four Viva modules don't need to be launched at the same time to be useful to your organization. Consider a phased approach based on the modules that are available, the most valuable to your organization, and which modules will be the most useful and appealing to specific audiences.
 
+![Image of a workplace champion influencing others.](./media/viva-champion.png)
+
 **Leverage champions and early adopters**: A champion will create a center of enthusiasm that grows adoption, build a circle of influence among their teams, identify business challenges and possible solutions, provide feedback to the project team and sponsors, and reduce strain on the core project team through active, ongoing engagement.
 
 Learn more about [how to build a champion program at your organization.](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fadoption.microsoft.com%2Ffiles%2Fchampions%2FChampion-Program-Plan-Template.pptx&wdOrigin=BROWSELINK)
+
+![Image of a chart that explains different ways to communicate with different audiences.](./media/viva-comms.png)
 
 **Meet your audience where they are**: There are several methods of sharing the availability of the Viva modules like email, SharePoint news, or post in Teams or a Yammer community for example. [Get more information, templates, and resources to help your organization promote and adopt Microsoft Viva.](https://adoption.microsoft.com/viva/)
 
