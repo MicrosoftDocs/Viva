@@ -39,29 +39,6 @@ Viva Learning supports the following document types:
 
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
-## Multi-geo
-
-If you're using [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo), the site URL provided by the knowledge admin (where the Learning App Content Repository will be located) needs to belong to the central location where your Microsoft 365 subscription was originally provisioned. Folders linked to in the repository should also belong to the central location. Viva Learning has added this restriction to conform to data residency requirements.
-
-[Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) is designed to meet data residency requirements. For more information, see [Multi-geo capabilities in SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
-
-## Permissions
-
-Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
-
->[!NOTE]
-> Only the Microsoft 365 Groups permissions apply. Viva Learning doesn't support user- or SharePoint-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
-
-To remove unintentionally surfaced content, follow these steps:
-
-1. To restrict access to the document library, select the **Show actions** option, and then select **Manage access**.
-
-     ![Document library page in SharePoint showing Show actions option with Manage access highlighted.](../media/learning/learning-sharepoint-permissions2.png)
-
-2. Delete the original document within the document library.
-
-For more information, see [Sharing and permissions in the SharePoint modern experience](/sharepoint/modern-experience-sharing-permissions).
-
 ## Learning Service
 
 The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees can search for and use your organization's content within Viva Learning. All changes to content, including updated metadata and permissions, will also be applied in the Learning Service within 24 hours.
@@ -118,20 +95,20 @@ Create a folder to store learning content for your organization.
 
 1. Go to your Documents library and select **+ New**.
 
-    ![Image of an empty documents library with the cursor selecting New and Folder.](../media/learning/spfolder-3.png)
+    ![Screenshot of an empty documents library with the cursor selecting New and Folder.](../media/learning/spfolder-3.png)
 
 2. Choose **Folder** and enter a folder name.
 
-    ![Image of the Create a folder pane with the name Training Materials entered.](../media/learning/spfolder-5.png)
+    ![Screenshot of the Create a folder pane with the name Training Materials entered.](../media/learning/spfolder-5.png)
 
 3. Select **Create**. The folder will now show up in your document library.
 
-    ![Image of a folder called Training Materials in the document library.](../media/learning/spfolder-6.png)
+    ![Screenshot of a folder called Training Materials in the document library.](../media/learning/spfolder-6.png)
 
 4. Upload files that you want to publish as learning content in this folder.
 5. To get the folder url, choose this folder and select **Copy link**.
 
-    ![Image of the Link copied popup.](../media/learning/spfolder-8.png)
+    ![Screenshot of the Link copied popup.](../media/learning/spfolder-8.png)
 
 Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning by the Microsoft Graph API.
 
@@ -175,6 +152,53 @@ Knowledge admins can access their organization's Learning App Content Repository
 >[!NOTE]
 > Content you delete from the Learning App Content Repository will take approximately 24 hours to be removed from Viva Learning.
 
-## Next step
+## Permissions
+
+Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
+
+>[!NOTE]
+> Only the Microsoft 365 Groups permissions apply. Viva Learning doesn't support user- or SharePoint-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
+
+1. Follow the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
+2. Go to the learning content repository that you created in SharePoint.
+3. Select the vertical ellipses (**...**) on the item you want to control access to. If you want to control access to specific items in a folder, go to that folder.
+4. Select **Manage access**.
+
+    ![Screenshot of a folder selected in the learning content repository with the cursor hovering over Manage access.](../media/learning/sharepoint-manage-access.png)
+
+5. Select the plus icon (**+**) next to **Direct access**.
+
+    ![Screenshot of the plus icon selected next to Direct access in the Manage access options.](../media/learning/sharepoint-direct-access.png)
+
+6. Start typing the email address of the group you want to give access to, then select the group.
+
+    ![Screenshot of a group being selected in the Direct access pane.](../media/learning/sharepoint-group.png)
+
+7. By default, users in the group are given Edit permissions. Select the pencil icon to choose between Edit and View permissions. The pencil icon will have a slash through it if the group has only view permissions.
+
+    ![Screenshot of the pencil icon showing options for Can edit and Can view.](../media/learning/sharepoint-edit-view.png)
+
+8. Select **Grant access** to give your group access to the learning content.
+
+>[!NOTE]
+> It will take approximately 24 hours for these changes to show up in the Viva Learning app.
+
+To remove unintentionally surfaced content, follow these steps:
+
+1. To restrict access to the document library, select the **Show actions** option, and then select **Manage access**.
+
+     ![Document library page in SharePoint showing Show actions option with Manage access highlighted.](../media/learning/learning-sharepoint-permissions2.png)
+
+2. Delete the original document within the document library.
+
+For more information, see [Sharing and permissions in the SharePoint modern experience](/sharepoint/modern-experience-sharing-permissions).
+
+## Multi-geo
+
+If you're using [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo), the site URL provided by the knowledge admin (where the Learning App Content Repository will be located) needs to belong to the central location where your Microsoft 365 subscription was originally provisioned. Folders linked to in the repository should also belong to the central location. Viva Learning has added this restriction to conform to data residency requirements.
+
+[Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) is designed to meet data residency requirements. For more information, see [Multi-geo capabilities in SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
+
+## Next steps
 
 [Add learning management systems for Viva Learning](configure-lms.md) or [Add other content providers for Microsoft Viva Learning](configure-other-content-sources.md).
