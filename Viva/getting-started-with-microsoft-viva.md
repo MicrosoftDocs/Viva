@@ -42,13 +42,13 @@ Get guidance on how to prepare, plan, and [deploy all Viva modules.](plan-for-al
 
 ### Discover how you can combine Viva modules
 
-![Image of the Viva logos stacked on top of eachother.](/media/combine-modules.png)
+![Image of the Viva logos stacked on top of eachother.](./media/combine-modules.png)
 
 Viva modules become more powerful if used together. Viva can help your organization meet popular business scenarios like onboarding and helping employees with wellness in the workplace. [Learn how.](learn-how-to-combine-modules.md)
 
 ### Learn more about individual Viva modules
 
-![Image of the Viva logos and descriptions.](/media/viva-individual.png)
+![Image of the Viva logos and descriptions.](./media/viva-individual.png)
 
 Get detailed descriptions of each Viva module and learn more about how they can be used to meet specific objectives. Then, review requirements and considerations for planning and deploying. [Learn how.](discover-more-about-each-viva-module.md)
 
