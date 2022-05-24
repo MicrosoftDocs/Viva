@@ -133,7 +133,7 @@ Your application must reverse the encryption and compression process to access t
 1. Stream the file into your application. When encrypted properties (such as Object ID) are encountered in the JSON object, decrypt the property with the column encryption key.
 
 >[!Note]
->In a future release, your customers will be able to choose whether your application receives the column encryption key or not. If this setting is not enabled, your application cannot decrypt identifying information about users and will only have access to aggregated analytics data. For the *Private Preview release*, this setting must always be **On**.
+>In a future release, your customers will be able to choose whether your application receives the column encryption key or not. If this setting isn't enabled, your application cannot decrypt identifying information about users and will only have access to aggregated analytics data. For the *Private Preview release*, this setting must always be **On**.
 
 ## Pipeline cadence and configuration
 
@@ -150,7 +150,7 @@ While identifying users by the Object ID is the preferred path, not every applic
 ### Export the directory information along with the analytics data
 
 1. Configure your Azure Data Factory pipeline to add an additional step to export Azure Active Directory user data.
-1. This will create an additional output file from your pipeline that includes basic information about each user in the customer’s tenant. This can be used to correlate user information between Azure and your application by joining on a common field, such as e-mail address. See the Microsoft Graph Data Connect documentation for details on the [User Schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/User_v1.md) and a [Sample of the output](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/BasicDataSet_v0.User_v1.json).
+1. This will create an additional output file from your pipeline that includes basic information about each user in the customer’s tenant. This file can be used to correlate user information between Azure and your application by joining on a common field, such as e-mail address. See the Microsoft Graph Data Connect documentation for details on the [User Schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/User_v1.md) and a [Sample of the output](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/BasicDataSet_v0.User_v1.json).
 
 The [sample Data Factory pipeline](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) includes an example of a pipeline that exports directory information.
 
@@ -256,7 +256,7 @@ A1. The following are estimates of final output size for analytics data, which a
 
 **Q2. Does the analytics data received from Viva Insights include all users in the customer’s tenant?**
 
-A2. Analytics data is only calculated for users who are assigned a Viva Insights license. Unlicensed users are not included in the data.
+A2. Analytics data is only calculated for users who are assigned a Viva Insights license. Unlicensed users aren't included in the data.
 
 **Q3. How frequently is analytics data calculated?**
 
@@ -264,7 +264,7 @@ A3. Currently, analytics data is calculated once a week. For subsequent runs of 
 
 **Q4. Given the potentially large file size, how can the data be processed efficiently?**
 
-A4. Though the output format is JSON, it is not a fully-formed JSON document. Each row of analytics data is modeled as a single JSON object. This allows the file to stream, instead of parse the entire JSON tree and consequently loading the full file into memory.
+A4. Though the output format is JSON, it isn't a fully-formed JSON document. Each row of analytics data is modeled as a single JSON object. This allows the file to stream, instead of parse the entire JSON tree and consequently loading the full file into memory.
 
 The recommended approach is to stream in analytics data line-by-line. Do not attempt to load the entire file into memory. To further improve read performance, your application can divide the stream into segments that are processed by separate threads to leverage multiple cores.
 
