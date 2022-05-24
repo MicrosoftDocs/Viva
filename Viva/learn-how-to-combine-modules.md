@@ -15,7 +15,7 @@ ms.collection:
 - M365initiative-viva
 search.appverid:
 - MET150
-description: "Learn how to combine Microsoft Viva modules to support popular business scenarios"
+description: "Learn how to combine Microsoft Viva modules to support popular experiences"
 ---
 # Combine Microsoft Viva modules to support popular business scenarios
 
@@ -28,6 +28,8 @@ Microsoft Viva modules can be combined to create powerful employee experiences f
 - Knowledge sharing and management
 
 ## Training and onboarding
+
+![Image of Viva Connections, Viva Learning, and Viva Topics combined together.](./media/training-combo.png)
 
 Onboard new employees or volunteers and encourage upskilling with the combination of Viva Learning and Viva Connections. Create a training experience that can be accessed on desktop and mobile devices and can be targeted to specific audiences. Consider adding Viva Topics to help your organization manage internal projects, subject matter experts, and terminology.
 
@@ -49,7 +51,7 @@ Make it easy for your employees to access content in Viva Learning through their
 3. Add a Viva Learning [teams app card](connections/create-dashboard.md) to the dashboard.
 4. If you only want your Viva Learning card to show up to users going through the training and onboarding process, you can use [audience targeting](connections/create-dashboard.md).
 
-### Module 3: Topics
+### Module 3: Viva Topics
 
 Enhance your training and onboarding process by helping your employees learn more about important topics in your organization.
 
@@ -60,9 +62,11 @@ Enhance your training and onboarding process by helping your employees learn mor
 
 ## Wellness and work-life balance
 
+![Image of Viva Insights, Viva Learning, and Viva Topics combined together.](./media/wellness-combo.png)
+
 Help your employees manage their time effectively and create a healthy workplace culture with Viva Insights, Viva Learning, and Viva Connections. First, use Viva Insights to gain an understanding of your team’s work habits. Then, create or source learning content to encourage healthy workplace practices. Finally, add Viva Connections to share communications and resources about wellness and workplace practices.
 
-### Module 1: Insights
+### Module 1: Viva Insights
 
 Understand your organization’s workplace habits and how your team spends their time.
 
@@ -71,7 +75,7 @@ Understand your organization’s workplace habits and how your team spends their
 3. Enable [manager insights](insights/Use/myteam.md) for managers to learn more about their teams’ unique habits and understand how their habits can set a good example.
 4. Enable [personal insights](insights/personal/introduction.md) for employees to learn how to make the most of their time at work. Viva Insights helps employees be more proactive in protecting their schedule by setting up a [focus plan](insights/personal/Use/focus-plan.md) and a [virtual commute](insights/personal/teams/viva-insights-virtual-commute.md). Employees can also access mindfulness content from [Headspace](insights/personal/teams/viva-insights-headspace.md) to help them reduce stress and burnout.
 
-### Module 2: Connections
+### Module 2: Viva Connections
 
 Share resources and communications about wellbeing, work-life balance, and workplace culture.
 
@@ -79,7 +83,7 @@ Share resources and communications about wellbeing, work-life balance, and workp
 2. [Create a dashboard](connections/create-dashboard.md)  and add cards so your users can quickly and easily access communications and resources. Use what you learned from Viva Insights to determine what content can help your workforce.
 3. [Tailor content to specific teams and people](connections/viva-connections-overview.md). For example, if you learn from Viva Insights that one team is often working very late, you can target a presentation about work-life balance to appear on the dashboards and feeds of team members.
 
-### Module 3: Learning
+### Module 3: Viva Learning
 
 Create, source, and share content to educate your organization about healthy work habits.
 
@@ -90,6 +94,8 @@ Create, source, and share content to educate your organization about healthy wor
 5. If you’re using Viva Connections, add a Viva Learning [teams app card](connections/create-dashboard.md) to the dashboard.
 
 ## Knowledge sharing and management
+
+![Image of Viva Connections and Viva Topics combined together.](./media/knowledge-combo.png)
 
 ### Module 1: Viva Topics
 
