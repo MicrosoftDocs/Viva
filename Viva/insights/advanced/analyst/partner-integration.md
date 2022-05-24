@@ -62,7 +62,7 @@ The following steps describe the flow that's required by you as a Viva Insights 
   > [!Note]
   > The requirement to create an application registration and client secret on the customer tenant will be removed in an upcoming release.
 
-5. On the customer tenant, deloy the template:
+5. On the customer tenant, deploy the template:
     1. In the Azure portal, select **Deploy a custom template**.
     1. Select **Build your own template** in the editor and copy the contents of your ARM template.
     1. Select a **Resource group** and **Region** to deploy to.
