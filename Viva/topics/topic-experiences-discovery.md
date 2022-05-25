@@ -93,7 +93,7 @@ If you use sensitivity labels in your organization, you can exclude SharePoint s
 
 This setting excludes content based on both file and site labels. 
 
-Changing this setting may cause people, alternate names, or descriptions extracted from labeled files and sites to be removed from existing topics if they occur uniquely in those locations. Some already suggested topics may be be removed if they are based only on labeled content. This process may take up to two weeks once you save the setting.
+Changing this setting may cause people, alternate names, or descriptions extracted from labeled files and sites to be removed from existing topics if they occur uniquely in those locations. Some already suggested topics may be removed if they are based only on labeled content. This process may take up to two weeks once you save the setting.
 
 This setting applies to content that is suggested by Viva Topics and will not remove any content that has been pinned to a topic page. 
 
@@ -108,7 +108,7 @@ To exclude resources based on sensitivity labels
 1. Select **Save**.
 1. Close the advanced settings panel.
 
-When a label is newly applied to a file, the exclusion will take effect as soon as the change is processed by Viva Topics, usually within a day. When a label is newly applied to a site, the exclusion will take effect within in a few days depending on the amount of files and pages on the site.
+When a label is newly applied to a file, the exclusion will take effect as soon as the change is processed by Viva Topics, usually within a day. When a label is newly applied to a site, the exclusion will take effect within in a few days depending on the number of files and pages on the site.
 
 ## See also
 
