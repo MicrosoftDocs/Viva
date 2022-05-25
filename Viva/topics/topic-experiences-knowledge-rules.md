@@ -53,7 +53,7 @@ You can prevent topic viewers from seeing unconfirmed AI-suggested topics in hig
 
 To hide suggested topics from topic viewers
 
-1. On the **Topic discovery** tab, select **Advanced settings**.
+1. On the **Topic visibility** tab, select **Advanced settings**.
 1. Under **Control if AI suggested topics are visible to users**, choose **No suggested topics**.
 1. Select **Save**.
 1. Close the advanced settings panel.
