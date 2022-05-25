@@ -3,7 +3,7 @@ title: Manage topic visibility in Microsoft Viva Topics
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: nkokoye
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.collection: m365initiative-viva-topics
@@ -46,6 +46,19 @@ You can change the users who can see topics in your organization.
  
 > [!Note] 
 > While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them will be able to view topics.
+
+## Prevent topic viewers from seeing suggested topics
+
+You can prevent topic viewers from seeing unconfirmed AI-suggested topics in highlights and search results. This allows knowledge managers to review the topics first and confirm them before topic viewers see them.
+
+To hide suggested topics from topic viewers
+
+1. On the **Topic visibility** tab, select **Advanced settings**.
+1. Under **Control if AI suggested topics are visible to users**, choose **No suggested topics**.
+1. Select **Save**.
+1. Close the advanced settings panel.
+
+    ![Screenshot of exclude suggested topics user interface.](../media/km-show-suggested-topics.png)
 
 ## See also
 
