@@ -1,8 +1,8 @@
 ---
 title: Data-protection considerations for manager, leader, and advanced insights 
 description: Data-protection considerations when using Microsoft Viva Insights
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: 
@@ -46,7 +46,10 @@ As a data controller, your organization should:
 
   * Determining whether you should obtain consent from employees in your company.
   * Determining what information you provide to employees about how your organization will process their personal data in Viva Insights.
-  * Accounting for local considerations (for example, obtain approval from local works councils, if applicable).
+  * Accounting for local or country-specific considerations.
+
+>[!Note]
+> Some countries require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology in the workplace, while others restrict when and how employers can process certain employee data. For example, if your company has employees in Germany or Netherlands, then you should consider if works council engagement or approval is required. Moreover, Viva Insights processes data from employee communications, which could be considered “communications data” (including “traffic data”) in Finland. Thus, if your company has employees in Finland, then you should understand how Finnish laws apply to the processing of employee personal data and communications or traffic data to determine if use of Viva Insights is permissible.
 
 * Use Viva Insights privacy controls to direct what data will be analyzed, how data will appear in results, and who will have access to both raw data and the results of analysis.
 * Review and be familiar with this document and other Viva Insights [privacy documentation](privacy-and-data-access.md) provided by Microsoft.
