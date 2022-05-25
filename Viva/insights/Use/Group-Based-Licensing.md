@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Group-based licensing for Workplace Analytics
-description: Assign group-based licensing for Workplace Analytics
+title: Group-based licensing for Advanced insights
+description: Assign group-based licensing for the advanced insights app with Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,9 +15,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Assign group-based licenses for Workplace Analytics
+# Assign group-based licenses for Advanced insights
 
-To use group-based licensing to assign Workplace Analytics licenses, see [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign).
+To use group-based licensing to assign Advanced insights app licenses, see [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign).
 
  <!-- FORMERLY HERE: NOW OUTDATED AS OF AUGUST 2021. 
 ALSO HIDING THIS TOPIC BUT NOT DELETING IT -- IN CASE SOMEONE HAS BOOKMARKED IT. 
@@ -61,5 +61,5 @@ The resulting assignment is valid and applied to the group. And thereafter, any 
 
 ## Related topics
 
-* [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
+* [Environment requirements for Advanced insights](../setup/environment-requirements.md)
 * [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign)

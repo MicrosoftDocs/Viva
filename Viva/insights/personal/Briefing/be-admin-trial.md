@@ -20,9 +20,6 @@ audience: Admin
 
 # Admin preview
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 As an admin for your organization, you are eligible to receive the Briefing email before people in your organization start receiving it.
 
 As an admin, this is your opportunity to experience the value of the Briefing email and familiarize yourself with its functionality before the rest of your organization sees it.

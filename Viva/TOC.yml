@@ -6,6 +6,15 @@ items:
     items:
     - name: Microsoft Viva overview
       href: microsoft-viva-overview.md
+    - name: Getting started with Microsoft Viva 
+      href: getting-started-with-microsoft-viva.md
+      items:
+      - name: Plan for all Viva modules  
+        href: plan-for-all-viva-modules.md 
+      - name: Learn how to combine modules   
+        href: learn-how-to-combine-modules.md  
+      - name: Discover more about each Viva module    
+        href: discover-more-about-each-viva-module.md   
     - name: Set up Microsoft Viva
       href: setup-microsoft-viva.md
     - name: Microsoft Viva admin roles and tasks
@@ -22,4 +31,5 @@ items:
     href: learning/overview-viva-learning.md
   - name: Microsoft Viva Topics
     href: topics/topic-experiences-overview.md 
-    
+  - name: Microsoft Viva Goals
+    href: /viva/goals/intro-to-ms-viva-goals

@@ -1,5 +1,5 @@
 ---
-title: Workplace Analytics insights
+title: Advanced insights
 description: Learn actionable insights into more effective business outcomes for your organization 
 author: madehmer
 ms.author: helayne
@@ -14,17 +14,17 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Workplace Analytics insights
+# Insights - Advanced
 
 These research-based behavioral insights show how your organization gets work done. Select a specific business outcome to see how your business is doing now and what actions you can take to help drive change.
 
-![Workplace Analytics insights home page image.](../images/wpa/use/insights.png)
+![Advanced insights home page image.](../images/wpa/use/insights.png)
 
 ## Business outcomes
 
 Each of the following business outcomes has a page dedicated to analysis about your organization and research-based suggestions on how to maintain or drive change toward business success.
 
-You can select **Download PowerPoint** to create and view a PowerPoint version of the following business outcomes. This enables you to share this valuable data with people in your organization who do not use Workplace Analytics.
+You can select **Download PowerPoint** to create and view a PowerPoint version of the following business outcomes. This enables you to share this valuable data with people in your organization who do not use the advanced insights app.
 
 |Business outcome |Why it matters |
 |-----------------|--------------|
@@ -40,18 +40,18 @@ You can select **Download PowerPoint** to create and view a PowerPoint version o
 
 ## Analysis scope
 
-The top right of the page shows who is included in this analysis. This data is based on the most recent organizational HR and collaboration data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. See [Organizational data](organizational-data.md) and [Microsoft 365 data](office-365-data.md) to learn more about what data Workplace Analytics requires and uses for this analysis.
+The top right of the page shows who is included in this analysis. This data is based on the most recent organizational HR and collaboration data uploaded to and processed in Viva Insights, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. See [Organizational data](organizational-data.md) and [Microsoft 365 data](office-365-data.md) to learn more about what data Viva Insights requires and uses for this analysis.
 
 ## Supporting evidence
 
 Each insight includes **Supporting evidence** that links you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/) authored by:
 
 * Industry experts based on research
-* Organizations who have effectively used Workplace Analytics to improve their business outcomes
+* Organizations who have effectively used Viva Insights to improve their business outcomes
 
 ## Take action
 
-In the **Take action** section for each insight, select **See your insights** to see the most effective actions you can do now to drive change toward better business outcomes in your organization. For example, in **Boost employee engagement** > **Increase frequency of coaching** > **See your insights**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with MyAnalytics.
+In the **Take action** section for each insight, select **See your insights** to see the most effective actions you can do now to drive change toward better business outcomes in your organization. For example, in **Boost employee engagement** > **Increase frequency of coaching** > **See your insights**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with Viva Insights.
 
 ![Take action for coaching.](../images/wpa/use/coaching.png)
 
@@ -64,13 +64,13 @@ Depending on your role, the following are available in addition to the recommend
 
 ## Organizational network analysis graphs
 
-The organizational network analysis (ONA) graphs used for some of the Workplace Analytics visual insights use the influence metric to help you visualize and analyze relationships within your organization.
+The organizational network analysis (ONA) graphs used for some of the Advanced visual insights use the influence metric to help you visualize and analyze relationships within your organization.
 
 In these ONA graphs, each dot or node represents an employee. Node measurements are de-identified to maintain employee privacy. For details, see [Organizational network analysis metrics](insight-ona-measures.md).
 
 ## Error states
 
-When viewing Workplace Analytics insights, different error states can occur if access, connectivity, or other issues cause incomplete data. See [Error state reference](error-states.md) for more details.
+When viewing Advanced insights, different error states can occur if access, connectivity, or other issues cause incomplete data. See [Error state reference](error-states.md) for more details.
 
 ## FAQ
 

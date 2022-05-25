@@ -18,7 +18,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to create a Viva Connections Dashboard in more than one language"
 ---
 
@@ -31,12 +30,15 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 
 ## Step 1: Navigate to the Viva Connections Dashboard
 1.	Navigate to your organization’s home site.
-2.	Select **Settings**, and then **Set up Viva Connections**. Here, you will create a Dashboard and add cards for the first time or edit an existing Dashboard.
+2.	Select **Settings**, and then **Manage Viva Connections**. Here, you will create a Dashboard and add cards for the first time or edit an existing Dashboard.
 
 ## Step 2: Enable the multilingual experience and choose languages in Site settings
 1.	Select **Settings** from the top right, and then select **Site information**.
 2.	At the bottom of the site information pane, select **View all site settings**.
 3.	Under **Site Administration**, select **Language settings**.
+
+     ![Image of multilingual settings in the advanced settings panel.](../media/connections/viva-language-enable.png)
+
 4.	Under **Enable pages and news to be translated into multiple languages**, slide the toggle to **On**.
 
 ## Step 3: Select languages and assign translators
@@ -44,7 +46,7 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 2.	In the **Translator** column, start typing the name of a person you want to be a [translator](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c?ui=en-us&rs=en-us&ad=us#bkmk_translators), and then select the name from the list.
 
 
-     ![Image of multilingual settings turned on.](../media/connections/ml-dashboard-settings.png)
+     ![Image of multilingual settings turned on.](../media/connections/viva-setting-language.png)
 
 
 3. Select **Save**.
