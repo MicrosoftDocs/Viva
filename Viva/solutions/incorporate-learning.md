@@ -1,18 +1,18 @@
 ---
-title: Integrate Slack data with Viva Insights
-description: Learn how to join Viva Insights query data with collaboration data from a third-party tool
-author: lilyolason
-ms.author: v-lilyolason
+title: Incorporate learning into your organization
+description: Learn how to use Viva Learning to integrate learning and skilling opportunities into your operations.
+author: daisyfell
+ms.author: daisyfeller
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.service: viva 
-ms.subservice: viva-insights
+ms.subservice: viva-learning
 ms.collection: 
 - M365-analytics
-- viva-insights
-manager: helayne
+- viva-learning
+manager: pamgreen
 audience: Admin
 ---
 
