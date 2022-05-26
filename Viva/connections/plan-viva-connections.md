@@ -1,5 +1,5 @@
 ---
-title: "Plan, build, and launch Microsoft Viva Connections for your organization"
+title: "Plan Viva Connections for your organization"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -18,45 +18,12 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Plan, build, and launch Microsoft Viva Connections for your organization"
+description: "Plan Microsoft Viva Connections for your organization"
 ---
 
-# Plan, build, and launch Microsoft Viva Connections for your organization
-
-Use [Viva Connections](viva-connections-overview.md) to engage and empower frontline workers and information workers across your organization. Viva Connections integrates Microsoft 365 apps and tools to create experiences that meet users where they are, keeps them updated on news and announcements, and provides access to resources from a desktop or mobile device. 
-
-- Use this guide to prepare your organization for Viva Connections through the planning, [building](build-viva-connections.md), and [launching](launch-viva-connections.md) phases
-- Review the different roles and activities in each phase
-- Learn more about the requirements before building and customizing
-- Discover planning considerations and best practice
-- Get guidance for change management, adoption, and end-user training
-
-Want to get started now? [Use the quick guide to create your organization’s instance of Viva Connections](/viva/connections/guide-to-setting-up-viva-connections).  
+# Plan Microsoft Viva Connections for your organization
 
 
-
-## Overview of activies in each phase
-Learn more about the planning, building, and launching phases. Get guidance for each phase to ensure you meet the needs of your users and the organization. 
-
-| Phase                | Tasks               |
-| :------------------- | :------------------- |
-| **Plan**  | - Align stakeholders and business owners around common goals <br> - Identify key tasks and scenarios that can be supported by Viva Connections <br> - Meet technical requirements <br> - Prepare your SharePoint intranet to support your Viva Connections plan <br> - Prepare content for the Dashboard, the Feed, and Resources <br> - Create an adoption plan and change-management guide <br> - Include training for end-users <br> - Consider success metrics and plan for maintenance over time  | 
-| **Build** | - Create or update your organization’s home site <br> - Set up global navigation <br> - Modernize SharePoint sites and pages (as needed) <br> - Create a Viva Connections Dashboard <br> - Prepare the Viva Connections app for mobile <br> - Ensure high-traffic content can be accessed and is performant <br> - Test and refine the Viva Connections experience for key tasks and scenarios               | 
-| **Launch**| - Announce the availability of Viva Connections at all-team meetings <br> - Use communication tools like SharePoint news and Yammer communities <br> - Consider hosting training events or office hours to support end-users  | 
-
-
-
-## Overview of roles in each phase
-| Phase                  | Roles                 | 
-| :------------------: | :------------------- | 
-| Plan  | Work with **your organization’s stakeholders** and business partners (from groups like HR, operations, facilities, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections. <br><br> **Key administrative stakeholders typically include:**  <br> - **Business owners**, who lead efforts in different departments like sales, operations, design, engineering, etc. <br>  - **HR professionals**, who manage team members and oversee company and organizational structure and efficiency. <br> - **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams. <br> - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management. <br> - Administrative assistants, who complete and oversee various administrative tasks. |  
-| Build | - The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <br> - The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center. <br> - **Site owners and authors for the home site** will design the home site content, global navigation, and the Dashboard. <br> - Additional site owners and authors may be involved to update content or news post that will be relevant to the Viva Connections experience.   |  
-| Launch  |  - Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections. <br> - Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications. <br> - **Business owners and managers** at all levels can help teams and individuals find value and adopt new ways of working.  |  
-
-
-
-
-## Plan 
 
 
 ### Step 1: Meet requirements
@@ -191,7 +158,7 @@ The Dashboard should focus on the most important tasks. Tasks that are specific 
 - Use existing [Microsoft 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) or create news groups if needed so that you can quickly create cards and [target them to specific audiences](/viva/connections/create-dashboard#apply-audience-targeting-to-cards)
 
 
-### Step 4: Plan the Feed
+### Step 4: Get ready for the Feed
 The Feed brings communications from across the organization into one place where it can be easily viewed. This Feed helps keep frontline workers, information workers, and hybrid workers alike engaged and informed on important news and announcements. This solution also gives content publishers a reliable method of distributing important news and information. Technically, you do not need to do anything to set up the Feed because content will sync automatically. However, you can influence the content hierarchy. 
 
 ![Image of the Feed in the mobile app.](../media/connections/mobile-feed.png) 
@@ -276,6 +243,6 @@ Generally, Viva Connections needs minimal ongoing maintenance. This is partially
 As your business grows and evolves, you'll likely identify new scenarios that can be supported by Viva Connections. Over time, you may decide to retire cards on the Dashboard or rearrange global navigation in Resources. Additionally, users will share feedback that can be used to improve the experience. Each of these scenarios will require time to implement and to communicate as needed. Plan to have a point-person, or team of people, who can manage these tasks over time. 
 
 
-## Next, build Viva Connections for your organization
+## Next, build and customize Viva Connections for your organization
 After you meet requirements, have a plan for the Dashboard, and are prepared to help users adopt Viva Connections, its time to [move on to the build phase](build-viva-connections.md). 
 
