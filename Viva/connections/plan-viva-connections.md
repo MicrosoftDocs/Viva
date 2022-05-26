@@ -23,18 +23,15 @@ description: "Plan, build, and launch Microsoft Viva Connections for your organi
 
 # Plan, build, and launch Microsoft Viva Connections for your organization
 
-Use Viva Connections to engage and empower frontline workers and information workers across your organization. Viva Connections integrates Microsoft 365 apps and tools to create experiences that meet users where they are, keeps them updated on news and announcements, and provides access to resources from a desktop or mobile device. 
+Use [Viva Connections](viva-connections-overview.md) to engage and empower frontline workers and information workers across your organization. Viva Connections integrates Microsoft 365 apps and tools to create experiences that meet users where they are, keeps them updated on news and announcements, and provides access to resources from a desktop or mobile device. 
 
 - Use this guide to prepare your organization for Viva Connections through the planning, [building](build-viva-connections.md), and [launching](launch-viva-connections.md) phases
 - Review the different roles and activities in each phase
-- Learn more about the requirements before creating and customizing
+- Learn more about the requirements before building and customizing
 - Discover planning considerations and best practice
 - Get guidance for change management, adoption, and end-user training
 
 Want to get started now? [Use the quick guide to create your organization’s instance of Viva Connections](/viva/connections/guide-to-setting-up-viva-connections).  
-
-
-
 
 
 
@@ -43,7 +40,7 @@ Learn more about the planning, building, and launching phases. Get guidance for 
 
 | Phase                | Tasks               |
 | :------------------- | :------------------- |
-| **Plan**  | - Align stakeholders and business owners around common goals <br> - Identify key tasks and scenarios that can be supported by Viva Connections <br> - Prepare your SharePoint intranet to support your Viva Connections plan <br> - Prepare content for the Dashboard, the Feed, and Resources <br> - Create an adoption plan and change-management guide <br> - Include training for end-users <br> - Consider success metrics and plan for maintenance over time  | 
+| **Plan**  | - Align stakeholders and business owners around common goals <br> - Identify key tasks and scenarios that can be supported by Viva Connections <br> - Meet technical requirements <br> - Prepare your SharePoint intranet to support your Viva Connections plan <br> - Prepare content for the Dashboard, the Feed, and Resources <br> - Create an adoption plan and change-management guide <br> - Include training for end-users <br> - Consider success metrics and plan for maintenance over time  | 
 | **Build** | - Create or update your organization’s home site <br> - Set up global navigation <br> - Modernize SharePoint sites and pages (as needed) <br> - Create a Viva Connections Dashboard <br> - Prepare the Viva Connections app for mobile <br> - Ensure high-traffic content can be accessed and is performant <br> - Test and refine the Viva Connections experience for key tasks and scenarios               | 
 | **Launch**| - Announce the availability of Viva Connections at all-team meetings <br> - Use communication tools like SharePoint news and Yammer communities <br> - Consider hosting training events or office hours to support end-users  | 
 
@@ -59,8 +56,10 @@ Learn more about the planning, building, and launching phases. Get guidance for 
 
 
 
+## Plan 
 
-## Step 1: Meet technical requirements 
+
+### Meet requirements
 Viva Connections requires a SharePoint home site, customized global navigation in the SharePoint app bar, and modern SharePoint sites. 
 
 
@@ -70,7 +69,7 @@ Viva Connections requires a SharePoint home site, customized global navigation i
 | Set up global navigation |Once your home site is set up, you can enable and customize global navigation in the SharePoint app bar. Global navigation can only be edited by the site owners of the home site. In the Viva Connections desktop app, resources in the global navigation will display when the Viva Connections icon is selected in Teams. In the Viva Connections mobile app, resources in the global navigation will display in the “Resources” tab. <br><br> Learn more about how to [enable and customize global navigation](/sharepoint/sharepoint-app-bar). | 
 | Audit, prioritize, and modernize sites | After you've identified the key scenarios for Viva Connections, you’ll need to identify content or sites that should be modernized if you're still using classic sites and pages. Not all content or classic SharePoint sites need to be modernized to take advantage of Viva Connections. Focus on the priority use cases that will need to be included in your organization’s instance of Viva Connections. <br><br> Learn more about [how to modernize content](/sharepoint/dev/transform/modernize-classic-sites#:~:text=Modernize%20your%20classic%20SharePoint%20sites%201%20Enable%20your,site%20transformation%20is%20transforming%20your%20site%20pages.%20) and [healthy portal guidance for high-traffic sites](/sharepoint/portal-health)| 
 
-### Create a home site for your organization
+#### Create a home site for your organization (required)
 Viva Connections requires a [SharePoint home site](/viva/connections/home-site-plan) which is a communication site that has special capabilities. A home site is the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. Your home site will also be the landing experience for Viva Connections in the Microsoft Teams desktop app. 
 
    ![Image of Viva Connections desktop.](../media/connections/viva-connections-desktop.png)
@@ -81,7 +80,7 @@ Learn more about [how to plan your home site](/sharepoint/home-site-plan) and [h
 
 
 
-### Set up global navigation in the SharePoint app bar 
+#### Set up global navigation in the SharePoint app bar (required)
 Next, from the home site Settings icon, select [Set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
 
    ![Animation of the global app bar in SharePoint.](../media/connections/app-bar-gif.GIF)
@@ -90,7 +89,7 @@ Next, from the home site Settings icon, select [Set up global navigation](/Share
 Navigational links that appear in the global navigation pane in the SharePoint app bar will also display in the Viva Connections app in Microsoft Teams for desktop and mobile apps. 
 
 
-### Audit, prioritize, and modernize content to align with key scenarios and tasks
+#### Audit, prioritize, and modernize content to align with key scenarios and tasks (optional)
 After defining the key scenarios and tasks in the planning phase, prepare for Viva Connections by ensuring priority content is located on modern SharePoint communication sites and team sites. Only modern sites will appear in the Microsoft Teams app. Classic sites will open in a separate browser window.
 
 If you have many classic SharePoint sites make sure you focus on sites, pages, and content that are relevant to the Viva Connections experience. Sites and content that are unrelated to key tasks and scenarios can be modernized later.
