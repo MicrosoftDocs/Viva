@@ -32,13 +32,6 @@ You know you're ready to move onto the building phase if you've met the followin
 - Considerations have been made for specific audiences
 - You have an adoption and launch plan along with success metrics
 
-**Steps in the build phase:**
-[Step 1: Create a Viva Connections Dashboard](#step-1-:-create-a-viva-connections-dashboard)
-Step 2: Enable the Viva Connections app in Microsoft Teams 
-Step 3: Ensure high-traffic sites and portals are healthy  
-Step 4: Test and refine the experience 
-
-## Create your organization's instance of Viva Connections
 Start by creating the Viva Connections Dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site and linked to cards on the Dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization. 
 
 ## Step 1: Create a Viva Connections Dashboard
