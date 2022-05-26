@@ -27,7 +27,7 @@ description: "Learn how to use Viva Connections to engage and unite your organiz
 
 Microsoft Viva Connections is your gateway to a modern employee experience designed to keep everyone engaged and informed. Viva Connections gives everyone a personalized destination where you'll discover relevant news, conversations, and the tools they need to succeed. [Get step-by-step guidance on how to get Viva Connections for your organization.](guide-to-setting-up-viva-connections.md)
 
-![Image of viva connections on mobile and desktop.](../media/connections/viva-connections-device-mockup.png)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/<RE4Vpnn>]
 
 
 **Viva Connections is:**
