@@ -44,13 +44,16 @@ Learn more about the planning, building, and launching phases. Get guidance for 
 | **Build** | - Create or update your organization’s home site <br> - Set up global navigation <br> - Modernize SharePoint sites and pages (as needed) <br> - Create a Viva Connections Dashboard <br> - Prepare the Viva Connections app for mobile <br> - Ensure high-traffic content can be accessed and is performant <br> - Test and refine the Viva Connections experience for key tasks and scenarios               | 
 | **Launch**| - Announce the availability of Viva Connections at all-team meetings <br> - Use communication tools like SharePoint news and Yammer communities <br> - Consider hosting training events or office hours to support end-users  | 
 
-## Steps in each phase
 
+
+## Steps in each phase
 | Phase                  | Steps                 |  
 | :-------------------: | :------------------- | 
 | Plan  | Step 1: Meet requirements <br> Step 2: Plan for Viva Connections <br> Step 3: Plan the Dashboard <br> Step 4: Get ready for the Feed <br> Step 5: Plan Resources <br> Step 6: Create an adoption plan <br> Step 7: Consider success metrics <br> Step 8: Plan for maintenance over time|  
 | Build | Step 1: Create a Viva Connections Dashboard <br> Step 2: Enable the Viva Connections app in Microsoft Teams <br> Step 3: Ensure high-traffic sites and portals are healthy  <br> Step 4: Test and refine the experience|  
 | Launch | Step 1: Consider tactics to spread the news <br> Step 2: Announce Viva Connections <br> Step 3: Use champions and provide continued support| 
+
+
 
 ## Overview of roles in each phase
 | Phase                | Roles                 | 
@@ -58,18 +61,6 @@ Learn more about the planning, building, and launching phases. Get guidance for 
 | Plan  | Work with **your organization’s stakeholders** and business partners (from groups like HR, operations, facilities, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections. <br><br> **Key administrative stakeholders typically include:**  <br> - **Business owners**, who lead efforts in different departments like sales, operations, design, engineering, etc. <br>  - **HR professionals**, who manage team members and oversee company and organizational structure and efficiency. <br> - **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams. <br> - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management. <br> - Administrative assistants, who complete and oversee various administrative tasks. |  
 | Build | - The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <br> - The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center. <br> - **Site owners and authors for the home site** will design the home site content, global navigation, and the Dashboard. <br> - Additional site owners and authors may be involved to update content or news post that will be relevant to the Viva Connections experience.   |  
 | Launch  |  - Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections. <br> - Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications. <br> - **Business owners and managers** at all levels can help teams and individuals find value and adopt new ways of working.  |  
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Set up checklist:
@@ -108,5 +99,8 @@ Use this checklist to keep track of key tasks and considerations in each phase.
 After you have reviewed the phases, tasks, and roles needed to get Viva Connections, [get started planning](plan-viva-connections.md). 
 
 
+## Learn more
 
 [Overview of security and compliance in Microsoft Viva](/viva/microsoft-viva-security)
+
+[Combine Viva modules for a more powerful experience](/viva/learn-how-to-combine-modules)

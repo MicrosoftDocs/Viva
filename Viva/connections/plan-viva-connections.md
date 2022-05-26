@@ -22,12 +22,12 @@ description: "Plan Microsoft Viva Connections for your organization"
 ---
 
 # Plan Microsoft Viva Connections for your organization
-
+In this phase, build a team of stakeholders to align on the goals and primary use cases for your organization's deployment of Viva Connections. Start by meeting requirements, and then planning for each component of the experience. In the planning phase, consider success metrics and adoption tactice to ensure Viva Connections meets the need of your organization and users.
 
 
 
 ### Step 1: Meet requirements
-Viva Connections requires a SharePoint home site, customized global navigation in the SharePoint app bar, and modern SharePoint sites. 
+Viva Connections requires a SharePoint home site, customized global navigation in the SharePoint app bar, and (optionally) modern SharePoint sites. 
 
 
 | Requirement    | Description                 | 
