@@ -32,12 +32,16 @@ You know you're ready to move onto the building phase if you've met the followin
 - Considerations have been made for specific audiences
 - You have an adoption and launch plan along with success metrics
 
+**Steps in the build phase:**
+[Step 1: Create a Viva Connections Dashboard](##Step-1-:-Create-a-Viva-Connections-Dashboard)
+Step 2: Enable the Viva Connections app in Microsoft Teams 
+Step 3: Ensure high-traffic sites and portals are healthy  
+Step 4: Test and refine the experience 
 
-
-## Step 3: Create your organization's instance of Viva Connections
+## Create your organization's instance of Viva Connections
 Start by creating the Viva Connections Dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site and linked to cards on the Dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization. 
 
-## Create a Viva Connections Dashboard
+## Step 1: Create a Viva Connections Dashboard
 The Dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. 
 
    ![Image of the Viva Connections Dashboard in edit mode.](../media/connections/dashboard-creation.png)
@@ -51,13 +55,13 @@ The Dashboard brings it all together – it provides a personalized landing expe
 4. Once you publish the Dashboard, you will be able to use the [Dashboard web part](/SharePoint/use-dashboard-web-part-on-home-site). Consider using the Dashboard web part on the home site or other high-traffic portals.
 
 
-## Enable the Viva Connections app in the Microsoft Teams admin center and choose mobile settings
+## Step 2: Enable the Viva Connections app in the Microsoft Teams admin center and choose mobile settings
 The Viva Connections app creates a custom app in Microsoft Teams. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams app. Users *won't* see the app by default if you don’t pre-install and pre-pin. [Learn more about app setup policies in the Teams admin center](/MicrosoftTeams/teams-app-setup-policies#:~:text=Arrange%20the%20apps%20in%20the%20order%20that%20you,to%20appear%20in%20Teams%2C%20and%20then%20select%20Save.).
 
 After you've created the Dashboard, you're ready to [add the Viva Connections app in the Microsoft Teams Admin Center](/viva/connections/add-viva-connections-app). Add the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users.
 
 
-## Ensure high-traffic content can be accessed by the right users and provides an ideal viewing experience
+## Step 3: Ensure high-traffic content provides an ideal viewing experience
 For a smooth launch, you'll want to make sure information can be easily accessed and that high-traffic sites and pages are high-performing. 
 
 1. As a first step, [test the performance of the home site](/sharepoint/portal-health) to ensure an optimal viewing experience. 
@@ -66,7 +70,7 @@ For a smooth launch, you'll want to make sure information can be easily accessed
 4. Consider using the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to monitor performance for high-traffic sites that are being shared for the first time.
 
 
-## Test and refine the Viva Connections experience
+## Step 4: Test and refine the Viva Connections experience
 Before sharing Viva Connections with the rest of your organization, recruit a small group of users to test and refine popular workflows to ensure end-users have a great experience using Viva Connections for the first time. Consider recruiting specific people from different audiences to complete popular tasks. Make improvements until the experience is ideal for the rest of the organization.
 
 **Best practices for testing:**
