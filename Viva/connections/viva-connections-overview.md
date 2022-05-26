@@ -140,7 +140,7 @@ Discover [card options from third-party services](https://cloudpartners.transfor
 In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s News boost and Yammer’s "Featured" options. The Feed requires usage of modern SharePoint or Yammer communities, but the best experience is delivered when both are used together.
 
 #### Feed content sources
-Users will see content aggregated from the following sources, provided they have permissions to access the content from that source:
+Individual content items in the Feed will display for a 30-day period. Users will see content aggregated from the following sources, provided they have permissions to access the content from that source:
 - **SharePoint news**
     - News posts on the home site
     - News posts on organization news sites
