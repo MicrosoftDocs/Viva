@@ -45,6 +45,22 @@ Learn more about the planning, building, and launching phases. Get guidance for 
 | **Launch**| - Announce the availability of Viva Connections at all-team meetings <br> - Use communication tools like SharePoint news and Yammer communities <br> - Consider hosting training events or office hours to support end-users  | 
 
 
+
+## Review the different roles accross each stage
+| Align and plan  | Build and set up  | Deploy and launch       | 
+| :------------------- | :------------------- |:----------------| 
+| Work with **your organization’s stakeholders** and business partners (from groups like HR, operations, facilities, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections. <br> **Key administrative stakeholders typically include:**  <br> - **Business owners**, who lead efforts in different departments like sales, operations, design, engineering, etc. <br>  - **HR professionals**, who manage team members and oversee company and organizational structure and efficiency. <br> - **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams. <br> - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management. <br> - Administrative assistants, who complete and oversee various administrative tasks. | The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <br> - The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center. <br> - **Site owners and authors for the home site** will design the home site content, global navigation, and the Dashboard. <br> - Additional site owners and authors may be involved to update content or news post that will be relevant to the Viva Connections experience.  | - Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections. <br> - Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications. <br> - **Business owners and managers** at all levels can help teams and individuals find value and adopt new ways of working. | 
+
+
+
+
+
+
+
+
+
+
+
 ## Step 1: Meet technical requirements 
 Viva Connections requires a SharePoint home site, customized global navigation in the SharePoint app bar, and modern SharePoint sites. 
 
