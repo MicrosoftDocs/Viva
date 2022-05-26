@@ -34,7 +34,7 @@ Want to get started now? [Follow these steps to create your organization’s ins
 
 
 
-## Review how to get Viva Connections for your organization
+## Overview of activies in each phase
 Learn more about the planning, building, and launching phases. Get guidance for each phase to ensure you meet the needs of your users and the organization. 
 
 
@@ -47,15 +47,11 @@ Learn more about the planning, building, and launching phases. Get guidance for 
 
 
 ## Review the different roles accross each stage
-| Align and plan  | Build and set up  | Deploy and launch       | 
-| :------------------- | :------------------- |:----------------| 
-| Work with **your organization’s stakeholders** and business partners (from groups like HR, operations, facilities, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections. <br> **Key administrative stakeholders typically include:**  <br> - **Business owners**, who lead efforts in different departments like sales, operations, design, engineering, etc. <br>  - **HR professionals**, who manage team members and oversee company and organizational structure and efficiency. <br> - **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams. <br> - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management. <br> - Administrative assistants, who complete and oversee various administrative tasks. | The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <br> - The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center. <br> - **Site owners and authors for the home site** will design the home site content, global navigation, and the Dashboard. <br> - Additional site owners and authors may be involved to update content or news post that will be relevant to the Viva Connections experience.  | - Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections. <br> - Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications. <br> - **Business owners and managers** at all levels can help teams and individuals find value and adopt new ways of working. | 
-
-
-
-
-
-
+| Phase                  | Roles                 | 
+| :------------------: | :------------------- | 
+| Plan  | Work with **your organization’s stakeholders** and business partners (from groups like HR, operations, facilities, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections. <br><br> **Key administrative stakeholders typically include:**  <br> - **Business owners**, who lead efforts in different departments like sales, operations, design, engineering, etc. <br>  - **HR professionals**, who manage team members and oversee company and organizational structure and efficiency. <br> - **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams. <br> - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management. <br> - Administrative assistants, who complete and oversee various administrative tasks. |  
+| Build | - The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <br> - The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center. <br> - **Site owners and authors for the home site** will design the home site content, global navigation, and the Dashboard. <br> - Additional site owners and authors may be involved to update content or news post that will be relevant to the Viva Connections experience.   |  
+| Launch  |  - Collaborate with **champions** (early adopters) to help other people at the organization implement Viva Connections. <br> - Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications. <br> - **Business owners and managers** at all levels can help teams and individuals find value and adopt new ways of working.  |  
 
 
 
