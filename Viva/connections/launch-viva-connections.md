@@ -34,6 +34,7 @@ Emphasize that Viva Connections is a customized and personalized experience that
 - Consider where and how different audiences get news and announcements (for example, frontline workers might get the most important news in team meetings and hybrid workers might be used to getting SharePoint news in Outlook.) 
 - Plan to engage with users where they already meet and share information (for example, if your organization already meets in Teams, plan to post in channels.)
 - Use multiple communication methods and channels in order to reach most your target audience.
+- [Share tutorial videos with end users](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) to help them understand how to use the tool.
 - Continue to engage [early adopters and champions](https://adoption.microsoft.com/roles/champion/) and use their enthusiasm and expertise to engage the rest of the organization during meetings or training sessions.
 - Regularly revisit success metrics over the first 90 days to track progress and learn more about how audiences engage with Viva Connections.
 - Ask end users for feedback and provide multiple ways to connect so that the experience can be improved over time
