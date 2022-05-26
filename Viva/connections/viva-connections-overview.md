@@ -222,7 +222,7 @@ Viva Connections is available in most major languages used in Microsoft 365. [Le
 
 ## Step-by-step guidance to provision Viva Connections
 
-Learn how to [set up and deploy Viva Connections for your organization](guide-to-setting-up-viva-connections.md). 
+Use the [quick guide to set up and deploy Viva Connections for your organization](guide-to-setting-up-viva-connections.md) or get [more detailed guidance on how to plan, build, and launch in your organization](/viva/connections/plan-viva-connections). 
 
 
 ## More resources
