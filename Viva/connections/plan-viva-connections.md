@@ -26,17 +26,20 @@ description: "Plan, build, and launch Microsoft Viva Connections for your organi
 Use Viva Connections to engage and empower frontline workers and information workers across your organization. Viva Connections integrates Microsoft 365 apps and tools to create experiences that meet users where they are, keeps them updated on news and announcements, and provides access to resources from a desktop or mobile device. 
 
 - Use this guide to prepare your organization for Viva Connections through the planning, [building](build-viva-connections.md), and [launching](launch-viva-connections.md) phases
+- Review the different roles and activities in each phase
 - Learn more about the requirements before creating and customizing
 - Discover planning considerations and best practice
 - Get guidance for change management, adoption, and end-user training
 
-Want to get started now? [Follow these steps to create your organization’s instance of Viva Connections](/viva/connections/guide-to-setting-up-viva-connections).  
+Want to get started now? [Use the quick guide to create your organization’s instance of Viva Connections](/viva/connections/guide-to-setting-up-viva-connections).  
+
+
+
 
 
 
 ## Overview of activies in each phase
 Learn more about the planning, building, and launching phases. Get guidance for each phase to ensure you meet the needs of your users and the organization. 
-
 
 | Phase                | Tasks               |
 | :------------------- | :------------------- |
@@ -46,7 +49,7 @@ Learn more about the planning, building, and launching phases. Get guidance for 
 
 
 
-## Review the different roles accross each stage
+## Overview of roles in each phase
 | Phase                  | Roles                 | 
 | :------------------: | :------------------- | 
 | Plan  | Work with **your organization’s stakeholders** and business partners (from groups like HR, operations, facilities, communications specialists, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections. <br><br> **Key administrative stakeholders typically include:**  <br> - **Business owners**, who lead efforts in different departments like sales, operations, design, engineering, etc. <br>  - **HR professionals**, who manage team members and oversee company and organizational structure and efficiency. <br> - **Internal communication specialists**, who facilitate and manage communications between employees and various internal teams. <br> - **Communications coordinators and specialists**, who execute and maintain company-wide communications and brand management. <br> - Administrative assistants, who complete and oversee various administrative tasks. |  

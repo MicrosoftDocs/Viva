@@ -172,7 +172,7 @@ In the mobile app, users can view resources by selecting the **Resources** tab. 
 ## Viva Connections mobile and desktop experiences
 On desktop, Viva Connections surfaces your own [home site](/viva/connections/home-site-plan) as a branded app in Teams, combining the power of your intelligent SharePoint intranet with chat and collaboration tools that Teams provides.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/<RE4THB8>]
+[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4THB8]
 
 **Key capabilities of the desktop experience:**
 - **Global navigation and way finding**: The desktop experience provides employees the ability to navigate to important resources using the global navigation curated by your organization, the important sites your organization frequently engages with, and with organizational news. This navigation panel appears when users select the branded app icon in Teams, and surfaces elements shared with the [SharePoint app bar](sharepoint-app-bar.md).
