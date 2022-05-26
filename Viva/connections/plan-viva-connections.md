@@ -26,7 +26,7 @@ In this phase, build a team of stakeholders to align on the goals and primary us
 
 
 
-### Step 1: Meet requirements
+## Step 1: Meet requirements
 Viva Connections requires a SharePoint home site, customized global navigation in the SharePoint app bar, and (optionally) modern SharePoint sites. 
 
 
@@ -90,7 +90,7 @@ Viva Connections is composed of three main parts – the Dashboard, the Feed, an
 
 
 
-### Step 3: Plan the Dashboard
+## Step 3: Plan the Dashboard
 Start by identifying the key scenarios that Viva Connections needs to support and identify owners of those employee experiences. Tasks and scenarios will be primarily supported by cards in the Viva Connections Dashboard that can be targeted to specific audiences using Microsoft 365 groups. Consider which groups of employees will need access to specific resources. 
 
 | Dashboard animation  | Description                 | 
@@ -158,7 +158,7 @@ The Dashboard should focus on the most important tasks. Tasks that are specific 
 - Use existing [Microsoft 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) or create news groups if needed so that you can quickly create cards and [target them to specific audiences](/viva/connections/create-dashboard#apply-audience-targeting-to-cards)
 
 
-### Step 4: Get ready for the Feed
+## Step 4: Get ready for the Feed
 The Feed brings communications from across the organization into one place where it can be easily viewed. This Feed helps keep frontline workers, information workers, and hybrid workers alike engaged and informed on important news and announcements. This solution also gives content publishers a reliable method of distributing important news and information. Technically, you do not need to do anything to set up the Feed because content will sync automatically. However, you can influence the content hierarchy. 
 
 ![Image of the Feed in the mobile app.](../media/connections/mobile-feed.png) 
@@ -179,7 +179,7 @@ The Feed is designed to be dynamic, personalized, and a place where the most rel
 - Consider using the [Feed web part](https://support.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330#:~:text=%20Add%20the%20Viva%20Connections%20Feed%20web%20part,for%20Viva%20Connections%20Feed%20web%20part.%20More%20) on popular SharePoint pages to surface news and announcements
 
 
-### Step 5: Plan the Resources
+## Step 5: Plan the Resources
 Resources are the navigational links to portals that get set up when you enable and customize global navigation. While preparing your Viva Connections, know that these resources will display from the SharePoint app bar and the Teams app bar when Viva Connections is set up. The resources in the app bar should be the most important and popular portals for your target audience. Resources can be targeted to specific audiences.
 
 | Desktop             | Mobile                 | 
