@@ -33,7 +33,7 @@ You know you're ready to move onto the building phase if you've met the followin
 - You have an adoption and launch plan along with success metrics
 
 **Steps in the build phase:**
-[Step 1: Create a Viva Connections Dashboard](##step-1-:-create-a-viva-connections-dashboard)
+[Step 1: Create a Viva Connections Dashboard](#step-1-:-create-a-viva-connections-dashboard)
 Step 2: Enable the Viva Connections app in Microsoft Teams 
 Step 3: Ensure high-traffic sites and portals are healthy  
 Step 4: Test and refine the experience 
