@@ -82,7 +82,7 @@ The Dashboard is intended to enable quick access to content and tasks from vario
 
 3. When creating the Dashboard, make sure the Dashboard author is typing the content in the English language for details like card titles and descriptions – [even if their own preferred language setting](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) in Microsoft 365 is not English.
 
-4. Then, you can [create Dashboards in more than one language](create-multilingual-dashboard) using the SharePoint multilingual feature.
+4. Then, you can [create Dashboards in more than one language](create-multilingual-dashboard.md) using the SharePoint multilingual feature.
 
 
 > [!NOTE]
@@ -129,4 +129,4 @@ If a user has a device set to the French language the Teams mobile app “system
 [Overview of Viva Connections](viva-connections-overview.md)
 
 
-[Set up a Dashboard in more than one language](create-multilingual-dashboard)
+[Set up a Dashboard in more than one language](create-multilingual-dashboard.md)
