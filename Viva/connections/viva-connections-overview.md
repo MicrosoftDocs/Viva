@@ -34,8 +34,7 @@ Microsoft Viva Connections is your gateway to a modern employee experience desig
 - A branded app experience in Microsoft Teams that is optimized to enable experiences for information workers and frontline workers.
 - A gateway to employee experiences, with the ability for you to curate the content and tools you want to deliver through quick access to data and tasks, relevant news, communications, people, and resources.
 - Built on existing capabilities in Microsoft 365 like SharePoint, Teams, Yammer, and Stream.
-
-Learn more about [Microsoft Viva](https://www.microsoft.com/microsoft-viva).
+- Learn more about [Microsoft Viva](https://www.microsoft.com/microsoft-viva) and [Viva licensing](https://www.microsoft.com/en-us/microsoft-viva/pricing)
 
 > [!NOTE]
 > - Information in this article relates to the upgraded Viva Connections app. Viva Connections includes *both the desktop and mobile experiences*. 
