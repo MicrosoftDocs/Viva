@@ -227,10 +227,10 @@ Use the [quick guide to set up and deploy Viva Connections for your organization
 
 ## More resources
 
-[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
+[Learn how to plan, build, and launch a home site](home-site-plan.md)
 
 [Viva Connections adoption resources](https://adoption.microsoft.com/viva/)
 
-[Learn how to plan, build, and launch a home site](home-site-plan.md)
+[Viva Connections guidance for end users](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b)
 
-[Design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
+
