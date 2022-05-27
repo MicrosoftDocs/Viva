@@ -27,10 +27,10 @@ After deciding which tasks, audiences, and resources to promote using Viva Conne
 
 You know you're ready to move onto the building phase if you've met the following requirements and have reviewed best practices:
 
-- You’ve got a home site, global navigation setup, and modernized sites (if needed and only for sites related to tasks in the Viva Connections Dashboard)
-- The most valuable tasks and processes can be completed using Viva Connections
-- Considerations have been made for specific audiences
-- You have an adoption and launch plan along with success metrics
+- You’ve got a home site, global navigation setup, and modernized sites (if needed and only for sites related to tasks in the Viva Connections Dashboard.)
+- The most valuable tasks and processes can be completed using Viva Connections.
+- Considerations have been made for specific audiences.
+- You have an adoption and launch plan along with success metrics.
 
 Start by creating the Viva Connections Dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site and linked to cards on the Dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization. 
 
