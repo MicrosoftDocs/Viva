@@ -34,24 +34,12 @@ Use [Viva Connections](viva-connections-overview.md) to engage and empower front
 Want to get started now? [Use the quick guide to create your organization’s instance of Viva Connections](/viva/connections/guide-to-setting-up-viva-connections).  
 
 
-
 ## Overview of activies in each phase
-Learn more about the planning, building, and launching phases. Get guidance for each phase to ensure you meet the needs of your users and the organization. 
-
-| Phase                | Summary of tasks     |
-| :------------------- | :------------------- |
-| **Plan**  | - Align stakeholders and business owners around common goals <br> - Identify key tasks and scenarios that can be supported by Viva Connections <br> - Meet technical requirements <br> - Prepare your SharePoint intranet to support your Viva Connections plan <br> - Prepare content for the Dashboard, the Feed, and Resources <br> - Create an adoption plan and change-management guide <br> - Include training for end-users <br> - Consider success metrics and plan for maintenance over time  | 
-| **Build** | - Create or update your organization’s home site <br> - Set up global navigation <br> - Modernize SharePoint sites and pages (as needed) <br> - Create a Viva Connections Dashboard <br> - Prepare the Viva Connections app for mobile <br> - Ensure high-traffic content can be accessed and is performant <br> - Test and refine the Viva Connections experience for key tasks and scenarios               | 
-| **Launch**| - Announce the availability of Viva Connections at all-team meetings <br> - Use communication tools like SharePoint news and Yammer communities <br> - Consider hosting training events or office hours to support end-users  | 
-
-
-
-## Steps in each phase
 | Phase                  | Steps                 |  
 | :-------------------: | :------------------- | 
-| Plan  | **Step 1: Meet requirements** <br> Get a home site and customize global navigation <br><br> **Step 2: Plan for Viva Connections** <br> Identify and align on key tasks and scenarios that can be supported by Viva Connections <br><br> Step 3: Plan the Dashboard <br> Step 4: Get ready for the Feed <br> Step 5: Plan Resources <br> Step 6: Create an adoption plan <br> Step 7: Consider success metrics <br> Step 8: Plan for maintenance over time|  
-| Build | Step 1: Create a Viva Connections Dashboard <br> Step 2: Enable the Viva Connections app in Microsoft Teams <br> Step 3: Ensure high-traffic sites and portals are healthy  <br> Step 4: Test and refine the experience|  
-| Launch | Step 1: Consider tactics to spread the news <br> Step 2: Announce Viva Connections <br> Step 3: Use champions and provide continued support| 
+| Plan  | **Step 1: Meet requirements** <br> Get a home site and customize global navigation <br><br> **Step 2: Plan for Viva Connections** <br> Identify and align on key tasks and scenarios that can be supported by Viva Connections <br><br> **Step 3: Plan the Dashboard** <br> Learn more about the different kinds of Dashboard cards and how they can support specific scenarios <br><br> **Step 4: Get ready for the Feed** <br> Consider ways to influence the order of content in the Feed <br><br> **Step 5: Plan Resources** <br> Determine which links belong in the Resources section <br><br> **Step 6: Create an adoption plan** <br> Create a plan to help the rest of the organization adopt Viva Connections  <br><br> Step 7: Consider success metrics <br> Think about how your organization will determine if Viva Connections is meeting specific needs <br><br> **Step 8: Plan for maintenance over time** <br> Consider which parts of the experience may need to be refreshed over time|  
+| Build | **Step 1: Create a Viva Connections Dashboard** <br> Add cards, apply audience targeting, and then preview the experience <br><br> **Step 2: Enable the Viva Connections app in Microsoft Teams** <br> Add the app in Teams, specify a logo, and customize settings <br><br> **Step 3: Ensure high-traffic sites and portals are healthy** <br> Run a health check and make sure everyone has access to the right content <br><br> **Step 4: Test and refine the experience** <br> Find people in your organization who can test the experience before its released more broadley |  
+| Launch | **Step 1: Consider tactics to spread the news** <br> Think about where different audiences usually get news <br><br> **Step 2: Announce Viva Connections** <br> Use more than one communication channel to reach audiences  <br><br> **Step 3: Use champions and provide continued support** <br> Continue to use early adoptors to help others get the most out of Viva Connections| 
 
 
 
