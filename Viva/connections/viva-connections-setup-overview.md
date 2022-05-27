@@ -49,7 +49,7 @@ Learn more about the planning, building, and launching phases. Get guidance for 
 ## Steps in each phase
 | Phase                  | Steps                 |  
 | :-------------------: | :------------------- | 
-| Plan  | **Step 1: Meet requirements** <br><br> Align stakeholders and business owners around common goals <br> **Step 2: Plan for Viva Connections** <br><br> Identify key tasks and scenarios that can be supported by Viva Connections <br> Step 3: Plan the Dashboard <br> Step 4: Get ready for the Feed <br> Step 5: Plan Resources <br> Step 6: Create an adoption plan <br> Step 7: Consider success metrics <br> Step 8: Plan for maintenance over time|  
+| Plan  | **Step 1: Meet requirements** <br> Get a home site and customize global navigation <br><br> **Step 2: Plan for Viva Connections** <br> Identify and align on key tasks and scenarios that can be supported by Viva Connections <br><br> Step 3: Plan the Dashboard <br> Step 4: Get ready for the Feed <br> Step 5: Plan Resources <br> Step 6: Create an adoption plan <br> Step 7: Consider success metrics <br> Step 8: Plan for maintenance over time|  
 | Build | Step 1: Create a Viva Connections Dashboard <br> Step 2: Enable the Viva Connections app in Microsoft Teams <br> Step 3: Ensure high-traffic sites and portals are healthy  <br> Step 4: Test and refine the experience|  
 | Launch | Step 1: Consider tactics to spread the news <br> Step 2: Announce Viva Connections <br> Step 3: Use champions and provide continued support| 
 
