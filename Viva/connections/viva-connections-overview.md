@@ -176,6 +176,8 @@ In the mobile app, users can view resources by selecting the **Resources** tab. 
 ## Viva Connections mobile and desktop experiences
 On desktop, Viva Connections surfaces your own [home site](/viva/connections/home-site-plan) as a branded app in Teams, combining the power of your intelligent SharePoint intranet with chat and collaboration tools that Teams provides.
 <br>
+<br>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4THB8]
 
 **Key capabilities of the desktop experience:**
@@ -190,6 +192,8 @@ On desktop, Viva Connections surfaces your own [home site](/viva/connections/hom
 #### The Viva Connections mobile experience
 The experience in the Viva Connections mobile app is anchored around three key concepts: the Dashboard, the Feed, and Resources.
 <br>
+<br>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TpyN]
 
 
