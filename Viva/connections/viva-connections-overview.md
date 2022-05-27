@@ -28,8 +28,7 @@ description: "Learn how to use Viva Connections to engage and unite your organiz
 Microsoft Viva Connections is your gateway to a modern employee experience designed to keep everyone engaged and informed. Viva Connections is a customizable app in Microsoft Teams that gives everyone a personalized destination to discover relevant news, conversations, and the tools they need to succeed. 
 
 Use the [quick guide to set up Viva Connections](guide-to-setting-up-viva-connections.md) or get [more detailed guidance on how to plan, build, and launch](/viva/connections/plan-viva-connections).
-
-
+<br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Vpnn]
 
@@ -38,7 +37,7 @@ Use the [quick guide to set up Viva Connections](guide-to-setting-up-viva-connec
 - A branded app experience in Microsoft Teams that is optimized to enable experiences for information workers and frontline workers.
 - A gateway to employee experiences, with the ability for you to curate the content and tools you want to deliver through quick access to data and tasks, relevant news, communications, people, and resources.
 - Built on existing capabilities in Microsoft 365 like SharePoint, Teams, Yammer, and Stream.
-- Learn more about [Microsoft Viva](https://www.microsoft.com/microsoft-viva) and [Viva licensing](https://www.microsoft.com/en-us/microsoft-viva/pricing)
+- Learn more about [Microsoft Viva](https://www.microsoft.com/microsoft-viva) and [Viva licensing](https://www.microsoft.com/en-us/microsoft-viva/pricing).
 
 > [!NOTE]
 > - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*. 
@@ -175,7 +174,7 @@ In the mobile app, users can view resources by selecting the **Resources** tab. 
 
 ## Viva Connections mobile and desktop experiences
 On desktop, Viva Connections surfaces your own [home site](/viva/connections/home-site-plan) as a branded app in Teams, combining the power of your intelligent SharePoint intranet with chat and collaboration tools that Teams provides.
-
+<br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4THB8]
 
 **Key capabilities of the desktop experience:**
@@ -189,7 +188,7 @@ On desktop, Viva Connections surfaces your own [home site](/viva/connections/hom
 
 #### The Viva Connections mobile experience
 The experience in the Viva Connections mobile app is anchored around three key concepts: the Dashboard, the Feed, and Resources.
-
+<br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TpyN]
 
 
