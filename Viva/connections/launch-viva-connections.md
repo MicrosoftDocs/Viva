@@ -25,7 +25,7 @@ description: "Launch Viva Connections for your organization"
 After [planning](plan-viva-connections.md), [building](build-viva-connections.md), and testing Viva Connections, it’s time to let the rest of the organization know that it's available for use. 
 
 ## Step 1: Consider tactics to spread the news:
-Consider where and how different audiences get news and announcements (for example, frontline workers might get the most important news in team meetings and hybrid workers might be used to getting SharePoint news in Outlook.)
+Consider where and how different audiences get news and announcements. For example, frontline workers might get the most important news in team meetings and hybrid workers might be used to getting SharePoint news in Outlook.
 - **Announce your organization’s instance of Viva Connections at an event:** Kick off the announcement about the availability of Viva Connections at an all-hands (or sometimes called a Town Hall) meeting where everyone in the organization will attend or can view a recording later. 
 - **Use communication tools like SharePoint news and Yammer communities:** Share details about the Viva Connections launch along with any change management guidance or end-user training in an [organizational news post](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7#:~:text=In%20SharePoint%20Online%2C%20you%20can%20add%20news%20posts,instructions%20Create%20the%20news%20post%20.%20See%20More), [Yammer communities](https://support.microsoft.com/office/start-a-conversation-in-yammer-da65b1c3-6651-4141-8dbd-d50d61b98a6e), and [Microsoft Teams channels](https://support.microsoft.com/office/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885).
 - **Consider hosting training events or offering office hours:** Make sure end-users get the most from Viva Connections by offering ongoing support the first 30 days after launching. 
@@ -47,7 +47,7 @@ Emphasize that Viva Connections is a customized and personalized experience that
 - Ask end users for feedback and provide multiple ways to connect so that the experience can be improved over time
 
 ## Step 3: Use champions and provide continued support
-[Champions](/microsoftteams/teams-adoption-create-champions-program) are critical to the success of adoption. They are power-users with a desire to help others along the way. Often, they are closest to the business outcomes your organization is trying to realize. Empower them with our programs or become one yourself by learning in our world wide community.Use champions to help others adopt Viva Connections by providing ongoing support in training events and other learning opportunities. 
+[Champions](/microsoftteams/teams-adoption-create-champions-program) are critical to the success of adoption. They are power-users with a desire to help others along the way. Often, they are closest to the business outcomes your organization is trying to realize. Empower them with our programs or become one yourself by learning in our world wide community. Use champions to help others adopt Viva Connections by providing ongoing support in training events and other learning opportunities. 
 
 
 ## Learn more
