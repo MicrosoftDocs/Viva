@@ -204,7 +204,7 @@ The supported metrics for the *Private Preview release* are listed below.
 
 To quickly prototype an application built on the Viva Insights integration, you can use sample data to simulate a data drop received from a customer.
 
-* Upload Viva Insights sample data to a Storage Account in your test environment. See [How to upload data to Azure](/azure/storage/blobs/storage-quickstart-blobs-portal/) for more details.
+* Upload [Viva Insights sample data](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/sampledatasets/VivaInsightsDataset_v0.json) to a Storage Account in your test environment. See [How to upload data to Azure](/azure/storage/blobs/storage-quickstart-blobs-portal/) for more details.
 * Build your application to retrieve the behavioral analytics data, as follows:
 
   * Download the data from your Azure Storage Account. To do this, you can use the [SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet/) or the [REST API](/rest/api/storageservices/).
