@@ -29,6 +29,7 @@ Microsoft Viva Connections is your gateway to a modern employee experience desig
 
 Use the [quick guide to set up Viva Connections](guide-to-setting-up-viva-connections.md) or get [more detailed guidance on how to plan, build, and launch](/viva/connections/plan-viva-connections).
 <br>
+<br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Vpnn]
 
