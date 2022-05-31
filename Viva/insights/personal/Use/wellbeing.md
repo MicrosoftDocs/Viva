@@ -19,7 +19,7 @@ audience: user
 
 The **Wellbeing** page on the [Dashboard](dashboard-2.md) shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
-![Wellbeing page.](../../Images/mya/use/wellbeing2.png)
+![Wellbeing page.](../../Images/mya/use/wellbeing4.png)
 
 ## Productivity insights
 
