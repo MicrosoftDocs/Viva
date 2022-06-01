@@ -112,23 +112,30 @@ Create a folder to store learning content for your organization.
 
 Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning by the Microsoft Graph API.
 
-To improve overall discovery and search relevance of the content, we recommend adding a **Description** column. If there's already a description column present, you can delete it and add a new one by following the steps below.
+To improve overall discovery and search relevance of the content, we recommend adding columns for description, a thumbnail URL, content duration, content author, and tags. If there's already a description column present, you can delete it and add a new one by following the steps below.
 
 To add a **Description** column to the document library page, follow these steps:
 
 1. On the **Documents** page, select **Add column**.
 
-2. Select the **Show actions** option, and then select **Single line of text**.
+2. Choose **Multiple lines of text**.
 
-    :::image type="content" alt-text="Documents page in SharePoint showing the Show actions options with Single line of text highlighted." source="../media/learning/learning-sharepoint-curation1.png":::
+3. Provide the name of the column as ContentDescription.
 
-3. On the **Create a column** panel, in the **Name** field, add a descriptive name for the column. Select **Save**.
+4. Add custom descriptions for each item. If no description is supplied, Viva Learning will provide a default message that highlights the content as being from your own SharePoint library.
 
-    ![Create a column panel in SharePoint showing the Name and other fields.](../media/learning/learning-sharepoint-curation2.png)
+Next, provide a thumbnail image.
 
-4. On the **Documents** page, in the **Description** column, add custom descriptions for each item. If no description is supplied, Viva Learning will provide a default message that highlights the content as being from your own SharePoint library.
+1. In the same document list, select **Add column**.
+2. Choose **Hyperlink** if you want to link to an image, or **Image** if you want to upload an image directly.
+3. Provide the column name at ThumbnailURL.
+4. Choose Format URL as URL.
+5. Add the URLs to thumbnail images for each item.
+6. If you're uploading images directly, they'll need to have an <!-- x--> aspect ratio.
 
-     ![Documents page in SharePoint showing the descriptions in the Description column.](../media/learning/learning-sharepoint-curation3.png)
+Next, add the duration of the content.
+
+1. 
 
 ### Provide your own organization's content
 
