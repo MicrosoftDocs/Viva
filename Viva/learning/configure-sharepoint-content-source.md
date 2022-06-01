@@ -121,6 +121,8 @@ To add a metadata field, follow these steps first.
 1. Select the folder from your learning content repository.
 2. From the **Documents** page, select **Add column**.
 
+    [![Screenshot of the Documents page with Add column selected.](../media/learning/sp-new-column.png)](../media/learning/sp-new-column-big.png#lightbox)
+
 To add a description column to the document library page, follow these steps:
 
 1. Follow the initial steps to create a column.
