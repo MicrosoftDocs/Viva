@@ -110,32 +110,54 @@ Create a folder to store learning content for your organization.
 
     ![Screenshot of the Link copied popup.](../media/learning/spfolder-8.png)
 
+### Metadata
+
 Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning by the Microsoft Graph API.
 
 To improve overall discovery and search relevance of the content, we recommend adding columns for description, a thumbnail URL, content duration, content author, and tags. If there's already a description column present, you can delete it and add a new one by following the steps below.
 
-To add a **Description** column to the document library page, follow these steps:
+To add a metadata field, follow these steps first.
 
-1. On the **Documents** page, select **Add column**.
+1. Select the folder from your learning content repository.
+2. From the **Documents** page, select **Add column**.
 
+To add a description column to the document library page, follow these steps:
+
+1. Follow the initial steps to create a column.
 2. Choose **Multiple lines of text**.
-
-3. Provide the name of the column as ContentDescription.
-
+3. Name the column ContentDescription.
 4. Add custom descriptions for each item. If no description is supplied, Viva Learning will provide a default message that highlights the content as being from your own SharePoint library.
 
 Next, provide a thumbnail image.
 
-1. In the same document list, select **Add column**.
+1. Follow the initial steps to create a column.
 2. Choose **Hyperlink** if you want to link to an image, or **Image** if you want to upload an image directly.
-3. Provide the column name at ThumbnailURL.
+3. Name the column ThumbnailURL.
 4. Choose Format URL as URL.
 5. Add the URLs to thumbnail images for each item.
 6. If you're uploading images directly, they'll need to have an <!-- x--> aspect ratio.
 
 Next, add the duration of the content.
 
-1. 
+1. Follow the initial steps to create a column.
+2. Choose **Number**.
+3. Name the column Duration.
+4. Provide the duration of the content in seconds.
+
+Next, add tags.
+
+1. Follow the initial steps to create a column.
+2. Select **More**, and then choose **Managed metadata**.
+3. Name the column SkillTags.
+4. Select the checkbox to allow multiple values.
+5. You can either choose to use a predefined term set or a customized term set.
+
+Finally, add the author.
+
+1. Follow the initial steps to create a column.
+2. Choose **Multiple lines of text**.
+3. Name the column ContentAuthor.
+4. Add the author or authors of the content.
 
 ### Provide your own organization's content
 
