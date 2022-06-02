@@ -43,9 +43,9 @@ Using OKRs effectively to achieve results usually takes a few cycles. As you emb
 
 You can create an objective from:
 
-1. The individual, team, and organization pages
-1. The list page
-1. Template - "Sample OKRs"
+- The individual, team, and organization pages
+- The list page
+- Template - "Sample OKRs"
 
 **To create an objective, perform the following steps:**
 
