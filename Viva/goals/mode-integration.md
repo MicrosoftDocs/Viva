@@ -43,13 +43,13 @@ All users and admins have access to this integration. Admins also have permissio
 
 ## How to get your Mode workspace ID and API token
 
-**Workspace ID:** To get your Mode Workspace ID, select your **My Work** in the side navigation bar and copy the workspace ID from the URL. For example: if your URL is ```https://app.mode.com/home/vivagoals/search```, vivagoals is the Workspace ID.  
+1. To get your Mode Workspace ID, select your **My Work** in the side navigation bar and copy the workspace ID from the URL. For example: if your URL is ```https://app.mode.com/home/vivagoals/search```, vivagoals is the Workspace ID.  
 
-**Mode API Token:** To create your mode API token, select your profile and select **My Account**. On your account page, navigate to 'API Tokens' under Community. Select **Create token** to create a new mode API token.
+2. To create your mode API token, select your profile and select **My Account**. On your account page, navigate to 'API Tokens' under Community. Select **Create token** to create a new mode API token.
 
-Once you have your Mode workspace ID and API Token, add it to the connection page in Viva Goals. 
+3. Once you have your Mode workspace ID and API Token, add it to the connection page in Viva Goals. 
 
-Name your connection, add your organization name (this is your Mode Workspace ID), Token (this is your Mode API Token), and then select Next to complete the new account setup. 
+4. Name your connection, add your organization name (this is your Mode Workspace ID), Token (this is your Mode API Token), and then select Next to complete the new account setup. 
 
 ## How to edit an existing Mode connection
 
@@ -74,4 +74,7 @@ Once the Mode integration is set up, you can measure your OKR progress by connec
 
 ## How to disable the Mode integration
 
-The Mode integration can be disabled by an Admin at any time. To disable the integration as an Admin, go to Mode in the Integrations section and select on Manage. In the Mode Configurations page, select the Change dropdown, select Disable and confirm the action.
+The Mode integration can be disabled by an Admin at any time. 
+
+1. To disable the integration as an Admin, go to Mode in the Integrations section and select on Manage. 
+2. In the Mode Configurations page, select the Change dropdown, select Disable and confirm the action.
