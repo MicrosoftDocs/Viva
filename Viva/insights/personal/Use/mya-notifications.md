@@ -82,7 +82,7 @@ When you're composing an email in Outlook, you might see a suggestion to schedul
 
 You might *not* see suggestions in the following scenarios:
 
-* When you’re composing an email during the hour before or after the recipients’ or your working hours.
+* When you’re composing an email during the 30 minutes before the recipients’ or your working hours.
 * When there are more than 15 recipients in the **To** field.
 * When you're sending an email to yourself.
 
