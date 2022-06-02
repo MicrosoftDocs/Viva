@@ -135,9 +135,8 @@ Next, provide a thumbnail image.
 1. Follow the initial steps to create a column.
 2. Choose **Hyperlink** if you want to link to an image, or **Image** if you want to upload an image directly.
 3. Name the column ThumbnailURL.
-4. Choose Format URL as URL.
-5. Add the URLs to thumbnail images for each item.
-6. If you're uploading images directly, they'll need to have an <!-- x--> aspect ratio.
+4. Add the URLs to thumbnail images for each item.
+5. If you're uploading images directly, they'll need to have an <!-- x--> aspect ratio.
 
 Next, add the duration of the content.
 
@@ -149,10 +148,14 @@ Next, add the duration of the content.
 Next, add tags.
 
 1. Follow the initial steps to create a column.
-2. Select **More**, and then choose **Managed metadata**.
+2. Choose **Managed metadata**.
 3. Name the column SkillTags.
-4. Select the checkbox to allow multiple values.
-5. You can either choose to use a predefined term set or a customized term set.
+4. Select **More options**.
+5. Toggle to allow multiple values.
+
+    [![Screenshot of the toggle to allow multiple values](../media/learning/skilltags.png)](../media/learning/skilltags-big.png#lightbox)
+
+6. You can either choose to use a predefined term set or a customized term set.
 
 Finally, add the author.
 
