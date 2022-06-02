@@ -141,7 +141,7 @@ Use Viva Insights to help create and manage time for learning.
 
 [Learn how to get Viva Insights.](../insights/Overview/Get-started.md)
 
-### Viva connections
+### Viva Connections
 
 Use Viva Connections with Viva Learning to increase awareness of learning opportunities within your organization.
 
