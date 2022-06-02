@@ -91,9 +91,7 @@ The ‘My OKRs’ tab shows you OKRs assigned to you.
    
 ![Viewing the details of an OKR using the OKR quick view](../media/goals/5/okr-quick-view.png)
 
-4. From here, you can edit the OKR/project details, under the Overview section, such as the time period, owner, OKR type, and also add/edit a tag and a description. 
-
-5. You can make inline check-ins to your OKRs/Projects directly from the list view by dragging the progress bar. You can also add a check-in note. 
+4. You can make inline check-ins to your OKRs/Projects directly from the list view by dragging the progress bar. You can also add a check-in note. 
 
 ![Checking in inline by dragging the progress bar](../media/goals/5/inline-check-in-using-progress-bar-in-viva-goals.png)
          
