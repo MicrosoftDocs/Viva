@@ -133,7 +133,7 @@ items:
           href: amazon-redShift-integration.md
         - name: MS SQL Server Integration
           href: ms-sql-server-integration.md
-        - name: Favro API Token
+        - name: Favro Integration
           href: favro-generating-an-api-token.md
 
 

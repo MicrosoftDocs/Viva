@@ -1,7 +1,7 @@
 ---
 title: Delay delivery plan with Viva Insights
 description: Learn how to opt in and use Delay delivery with Viva Insights for suggestions on when to send email during your coworker's working hours
-author: madehmer
+author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
@@ -28,7 +28,7 @@ The delay helps minimize disruptions to recipients outside their working hours o
 
 You might not see suggestions in the following scenarios:
 
-* When you’re composing an email during the hour before or after the recipients’ or your working hours.
+* When you’re composing an email during the 30 minutes before the recipients’ or your working hours.
 * When there are more than 15 recipients in the **To** field.
 * When you're sending an email to yourself.
 
