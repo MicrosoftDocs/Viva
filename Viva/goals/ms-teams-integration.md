@@ -190,11 +190,18 @@ To update your OKRs on the fly via Microsoft Teams Messaging Extension, follow t
 1. Click on **View Details** on the OKR/project card that has been shared in the chat. A pop-up with all the details of the OKR/Project will appear.
 
       **A**: If the card selected is an objective/key result, you will be shown 4 tabs - **Overview**, **Key Results**, **Projects**, and **Activity**. The overview tab shows the details of the objective/key results such as the title, progress bar, owner, type, time period, last update’s date, tag, description, and alignment. The **Key Results** and the **Projects** tabs display the list of key results and projects that are aligned to the objective/key result, respectively. The activity tab lets you view the recent activity.
+      
+      ![View the details of your OKR](../media/goals/5/view-details-of-okrp-card.png)
 
       **B**: If the card selected is a project, you will see 3 tabs - **Overview**, **Tasks**, and **Activity**. The **Overview** and the **Activity** tabs are similar to that of the OKRs. Under the **Tasks** tab, you'll be able to add tasks and also view existing tasks, if any.
 
-1. Edit the OKR/project details, under the **Overview** section, such as the time period, owner, OKR type, and also add/edit a tag and a description.
-1. Check-in to update the OKR/Project’s progress and status. You can also include a note.
+2. Edit the OKR/project details, under the **Overview** section, such as the time period, owner, OKR type, and also add/edit a tag and a description.
+
+![View the details of your project](../media/goals/5/view-details-of-project.png)
+
+3. Check-in to update the OKR/Project’s progress and status. You can also include a note.
+
+![Making check-ins via the OKR/Project card](../media/goals/5/check-in-via-okrp-card.png)
 
 ### FAQ
 
