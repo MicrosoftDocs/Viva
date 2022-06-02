@@ -159,7 +159,14 @@ Document library folder URLs can be collected from any SharePoint site in the or
 >[!NOTE]
 > Only the Microsoft 365 Groups permissions apply. Viva Learning doesn't support user- or SharePoint-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
 
-1. Follow the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
+1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
+
+>[!NOTE]
+> While only **Microsoft 365 (recommended)** and **Mail-enabled security** group types are supported, it is recommended that you use **Microsoft 365 (recommended)**.
+
+>[!NOTE]
+> You'll need to add the owners as members in order for them to have access.
+
 2. Go to the learning content repository that you created in SharePoint.
 3. Select the vertical ellipses (**...**) on the item you want to control access to. If you want to control access to specific items in a folder, go to that folder.
 4. Select **Manage access**.

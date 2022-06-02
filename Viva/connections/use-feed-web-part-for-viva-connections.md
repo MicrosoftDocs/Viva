@@ -27,6 +27,7 @@ This web part is specifically designed to aggregate and display corporate commun
 
 > [!NOTE]
 > The Feed web part is not supported in IE11.
+> Individual content items in the Feed will display for a 30-day period.
 
 ![Screenshot of company feed](../media/company-feed.png)
 

@@ -167,11 +167,11 @@ Only the organization owner can:
 
 - Manage billing and subscription 
 
-## The Observer user role 
+## User types in Viva Goals
 
 Viva Goals supports two kinds of accounts:
 
-- **Team Members**: Regular team members/users can access all Viva Goals functionality, including creating, updating, and owning OKRs. They can take up additional responsibilities in Viva Goals, like administrator or manager. 
+- **Regular user**: Regular team members/users can access all Viva Goals functionality, including creating, updating, and owning OKRs. They can take up additional responsibilities in Viva Goals, like administrator or manager. 
 
 - **Observers**: Observers can't create, edit, or own OKRs. However, they can view all OKRs.
 
@@ -179,17 +179,17 @@ Viva Goals supports two kinds of accounts:
 
 An Observer is entitled to the following privileges:
 
-- **Seeing all OKRs**: This privilege enables an Observer to be aware of, and aligned to, organization, teams, and user priorities, progress, and updates.
-- **Following progress**: This privilege enables an Observer to receive updates for relevant OKRs.
-- **Liking and commenting**: This privilege enables an Observer to like and comment on OKRs, check in, and offer activity feed updates.
+- **Seeing all OKRs**: This privilege enables an Observer to be aware of, and aligned to, organization, teams, and user priorities, progress, and updates. 
+- **Following progress**: This privilege enables an Observer to receive updates for relevant OKRs. 
+- **Liking and commenting**: This privilege enables an Observer to like and comment on OKRs, check in, and offer activity feed updates. 
 
 ### Adding users as an Observer
 
-You can set a default user type for new users from **Admin Dashboard > Setting**. 
+You can set a default user type for new users from **Admin Dashboard > Settings**. 
 
 ![image showing how to add new users as observers](../media/goals/2/26/d.jpg)
 
-If the value is set to **Observer**, users will take up account type as **Observer** when they are invited to join. Team members will have the option to choose between Observer and Regular privileges when inviting a new user. 
+If the value is set to **Observer**, users will take up user type as **Observer** when they are added to an organization. Team members will have the option to choose between Observer and Regular user privileges when inviting a new user. 
 
 ![image showing the display box with options when you add users](../media/goals/2/26/e.jpg)
 
@@ -206,6 +206,11 @@ If you are an administrator, you can also look at user type from **Admin Dashboa
 Administrators can change the user type from **Observer** to **Regular** and from **Regular** to **Observer** through **Admin Dashboard > Users Tab > User listing > Three dot Menu**, as shown in image below:
 
 ![image showing how to change user types from the action menu](../media/goals/2/26/g.jpg)
+
+Alternatively, an Observer can be changed into a Regular user type when a Regular user, who owns an OKR, assigns that OKR to an Observer. During this process, the Regular user will get an option to change the Observer into a Regular user.
+
+> [!NOTE]
+> Users can be changed from regular user to observer only if the user does not have any OKRs assigned to them.
 
 ### Inviting other users as Observers
 
