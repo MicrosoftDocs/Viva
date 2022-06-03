@@ -1,4 +1,5 @@
 - name: Microsoft Viva solutions
+  href: solutions.md
   items:
   - name: Using Microsoft Viva in the Hybrid workplace
     href: viva-for-the-hybrid-workplace.md
