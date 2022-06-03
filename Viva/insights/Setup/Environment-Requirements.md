@@ -35,11 +35,11 @@ Other channels such as Cloud Solution Provider (CSP) don't support the addition 
 
 |  Type  | Notes |  
 |---- | ---- |
-|Government | Government Community Cloud (GCC) doesn't currently support the addition of Viva Insights. |
+|Government | Government Community Cloud (GCC) supports personal insights only. |
 |Education | Supported only for the analysis of faculty at this time, not for students. |
 |Commercial | You can add Viva Insights with commercial enrollments. |
 |Non-profit | Viva Insights can be used by non-profits but non-profit pricing isn't available. |
-|Firstline workers | Viva Insights doesn't support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
+|First-line workers | Viva Insights doesn't support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 
 ## Tenant environments
 
@@ -48,10 +48,6 @@ Viva Insights requires the applicable [Viva Insights licensing](#viva-insights-l
 ## Viva Insights licenses
 
 [Assign licenses](assign-licenses-to-population.md) to the users whose mailboxes you want to analyze. They include all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies get the most benefit when they deploy Viva Insights to the entire company or to a large group of employees.
-
-<!-- REMOVING THIS FOR NOW (19 MAY 2021). MAYBE RE-USE IN LATE 2021, DEPENDING ON SWEDEN. CHECK WITH DANNY. 
->[!Important]
->Workplace Analytics is not yet supported for users whose mailboxes are in the Microsoft 365 data center geo locations Brazil and Norway. For more details about geo locations, see [Moving core data to new Microsoft 365 data center geos](/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) and [Find the Microsoft 365 data center geo location of a mailbox](/microsoft-365/enterprise/administering-exchange-online-multi-geo#find-the-geo-location-of-a-mailbox). -->
 
 ## Pricing
 
