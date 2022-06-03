@@ -1,6 +1,6 @@
 - name: Microsoft Viva
   href: /viva/
-  topicHref: /viva/solutions/solutions.md
+  topicHref: /viva/index
   items:
   - name: Viva Connections
     tocHref: /viva/connections/
@@ -13,7 +13,7 @@
     topicHref: /viva/insights/index
   - name: Viva Solutions
     tocHref: /viva/solutions/
-    topicHref: /viva/solutions/index
+    topicHref: /viva/solutions/solutions.md
   - name: Viva Topics
     tocHref: /viva/topics/
     topicHref: /viva/topics/index
