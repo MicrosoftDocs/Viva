@@ -3,32 +3,30 @@
   - name: Using Microsoft Viva in the Hybrid workplace
     href: viva-for-the-hybrid-workplace.md
     items:
+    - name: Onboarding employees who are new or changing roles
+      href: viva-onboarding-changing-roles.md
+    - name: Front line workers
+      href: viva-front-line-workers.md
+    - name: Work life balance
+      href: viva-work-life-balance.md
+    - name: Leadership communications
+      href: viva-leadership-communications.md
 
-     - name: Onboarding employees who are new or changing roles
-       href: viva-onboarding-changing-roles.md
-      - name: Front line workers
-        href: viva-front-line-workers.md
-      - name: Work life balance
-        href: viva-work-life-balance.md
-      - name: Leadership communications
-        href: viva-leadership-communications.md
-        
   - name: Microsoft Viva Accelerators
     href: introduction.md
-    items:
-         
-  - name: Data lake solutions
-    items: 
-    - name: Viva Insights data lake solution
-      href: ./data-lakes/viva-insights.md
-    - name: Microsoft Graph data lake solution
-      href: ./data-lakes/microsoft-graph-data-connect.md
-    - name: Data access automation
-      href: automate-exports.md
-    - name: Integrate Slack data with Viva Insights
-      href: slack-integration.md
-    - name: Multitenant solution
-      href: complex-organization-insights.md
+    items:         
+    - name: Data lake solutions
+      items: 
+      - name: Viva Insights data lake solution
+        href: ./data-lakes/viva-insights.md
+      - name: Microsoft Graph data lake solution
+        href: ./data-lakes/microsoft-graph-data-connect.md
+      - name: Data access automation
+        href: automate-exports.md
+      - name: Integrate Slack data with Viva Insights
+        href: slack-integration.md
+      - name: Multitenant solution
+        href: complex-organization-insights.md
     - name: Organizational network analysis
       items:
       - name: Organizational network analysis
