@@ -25,9 +25,14 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 * [Verify role assignments](#verify-role-assignments)
 * [Role assignment FAQ](#role-assignment-faq)
 
+>[!Note]
+>The Insights admin enables people managers access to [Group insights](../use/group-insights.md#admin-tasks) through [Manager settings](../use/manager-settings.md).
+
 ## Assign Viva Insights roles
 
 **Owner** - [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles)
+
+Do the following to assign users to a Viva Insights role, including the **Insights Administrator** and **Insights Business Leader** roles.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home).
 2. Go to [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861).
@@ -36,11 +41,13 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 5. Enter the username, and then select the user from the list of suggestions. Optionally, add multiple users until you're done.
 6. Select **Save**.
 
-Within a few days after being assigned an Insights role, these users will get an email about what product features are available based on their role and service plan.
+Within a few days after being assigned a Viva Insights role, these users will get an email about what product features are available based on their role and service plan.
 
 ## Assign advanced insights roles
 
 **Owner** - Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator)
+
+Do the following to assign users to an Advanced insights role, including the **Analyst**, **Analyst (Limited Access)**, and **Program Manager** roles.
 
 1. To assign roles for advanced insights, sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
 2. In the left navigation menu, select **Enterprise applications**:
@@ -133,9 +140,14 @@ It depends on the situation and your company's policies. However, the primary re
 
 However, in a larger company where the number of people required for the same role is significant, such as for program managers, it is more efficient to assign the role to a group, and then add users to the group because groups are easier to manage and audit.
 
+**How is the people manager role assigned**
+
+People manager isn't technically a role that can be assigned. Assuming these managers also meet the prerequisites described in [Admin tasks](../use/group-insights.md#admin-tasks), the Insights admin can enable them access to their [Group insights](../use/group-insights.md#admin-tasks) through [Manager settings](../use/manager-settings.md) within the Advanced insights app.
+
 ## Related topics
 
 * [Roles in Viva Insights](../use/user-roles.md)
+* [Manager settings](../use/manager-settings.md)
 * [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements](../setup/environment-requirements.md)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
