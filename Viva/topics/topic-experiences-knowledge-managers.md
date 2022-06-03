@@ -177,7 +177,7 @@ To kick-start topic curation, consider running Viva Topics hackathons within a t
 There will be topics that the knowledge manager has the capability and expertise to curate, including topics suggested by the AI, or new topics that the AI didn't discover. Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to [edit an existing topic](edit-a-topic.md) and [create new topics](create-a-topic.md). It’s also possible to [save a topic as a draft](save-topic-as-draft.md) if it’s not ready to publish. 
 
 > [!Note] 
-> While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
+> While information in a topic that's gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
 
 
 

@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn how to add a personal API token from the 'Profile & account' section in Favro."
 ---
 
-# Favro API token 
+# Favro Integration
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)

@@ -53,9 +53,9 @@ Microsoft Viva Connections brings together relevant news, conversations, and res
 Viva Connections uses a combination of existing Microsoft 365 apps and features. Security and permission settings are managed and inherited from the original Microsoft 365 app. There are no specific security settings that need to be managed for Viva Connections. For example, the Viva Connections Dashboard permissions are  governed by the [SharePoint home site](/sharepoint/home-site). Another example is [content in the Feed comes from three main sources](/SharePoint/faqs-viva-connections-feed), one being posts in Yammer. Only users who have permissions to specific Yammer communities will be able to view posts from that Yammer community in the Viva Connections Feed.
 
 ## Viva Goals
-Microsoft Viva Goals connects employees to your organization’s goals, helps them stay aligned at scale, and drives business results to empower people and teams to understand their impact.
+Microsoft Viva Goals connects employees to your organization’s goals, helps them stay aligned at scale, and drives business results to empower people and teams to understand their impact. Use Viva Goals as a standalone web application or directly from inside Teams.
 
-Viva Goals leverages the advanced security and compliance capabilities that are built into Microsoft 365 and Teams.
+Viva Goals adheres to the rigorous security and compliance standards that are promised with Microsoft 365 and Teams. For additional control, advanced administration options are built right into the [Viva Goals admin panel](/viva/goals/navigate-admin-dashboard).
 
 ### Learn more about security for Microsoft Viva
 
