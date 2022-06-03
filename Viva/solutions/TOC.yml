@@ -13,9 +13,9 @@
       - name: Leadership communications
         href: viva-leadership-communications.md
     - name: Microsoft Viva Accelerators
+      href: introduction.md
       items:
-      - name: Introducing Microsoft Viva Accelerators
-        href: introduction.md
+         
       - name: Data lake solutions
         items: 
         - name: Viva Insights data lake solution
