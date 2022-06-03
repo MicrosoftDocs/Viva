@@ -24,5 +24,43 @@ Front line workers want to do things like be able to see their schedules and be 
 ---|---|---|---|---|
  | Provide easy access to tasks and information in one place, including things like Shifts or Assigned tasks. | Use Teams apps like Shifts, Planner, and others to populate the Dashboard. | Provide ability to set aside time for focus and balance during a busy day | Target specific training for front line workers | Provide the ability to share and consume just-in-time information with their co-workers, team leads, and supervisors.
 
-**Roles for this scenario**: Managers and supervisors,Corporate communications specialists, SharePoint site owners and page authors, Yammer community admins
+#### Roles for this scenario:
+Managers and supervisors, Corporate communications specialists, SharePoint site owners and page authors, Yammer community admins
 
+#### Viva Connections
+
+With Viva Connections, you can provide your frontline workers with a single entry point on multiple devices – the Viva Connections Dashboard -- for a variety of tasks including tracking time, checking tasks, catching up on conversations, and seeing the latest news from your organization including Stream videos and more. 
+
+Let’s say you have retail workers who want to be able to check their shifts or clock in and out easily when they are not at work. All they have to do is open their Viva Connections dashboard on their mobile device and select the Shifts card. 
+
+Page authors can make the Shifts card available to employees by going to the Dashboard in SharePoint, adding the Teams app card, and then searching for and selecting Shifts from the property pane. Additionally, third-party cards that are available to you can be used, and custom cards just for your organization can be created.
+
+[Get more information about using Viva Connections.]()
+
+#### Viva Insights
+Front line workers often “go go go” all day. You can help them build a sense of balance and well-being with Viva Insights, and managers can use Insights to provide better guidance on time management. 
+
+Learn more about Viva Insights and how it helps protect and organize time in the Supporting work/life balance section.
+
+#### Learning
+Learning new skills is an ongoing process. In a hybrid environment, it is essential that employees can learn from wherever they are, and Viva Learning can be accessed on the desktop or on a mobile device within Teams. 
+
+You can assign and/or recommend learning content to individuals, share content with your team, and track the reported completion status of learning that you've recommended.
+
+Let’s say that your employees need to learn new policies in relationship to their work. Or, your employees might want to explore career development or up their skills in technology. All they have to do is open Teams on their mobile device, open the Learning app, see which courses you have assigned, and which courses are recommended based on their interests. They can also browse all of the available courses.
+
+Content from Microsoft Learn and Microsoft 365 Training is automatically available in Viva Learning. You'll also have free access to a set of 125 courses from LinkedIn Learning. In addition, Viva Learning can integrate with select third-party content providers and learning management systems. For more information about how admins and knowledge admins can set up content sources, see Manage content sources for Viva Learning.
+
+By adding SharePoint as a learning source for Viva Learning, you can create and add your own organization’s training materials to Viva Learning. 
+
+The knowledge admin (or global administrator) provides a site URL to where the Learning Service can create a centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. See the step-by-guide on how to do this.
+
+#### Yammer Communities
+Communities in Yammer serve the needs of knowledge-sharing, employee experience, company-wide communications, and leadership engagement by providing a central place for your conversations, files, events, and updates. This can be especially useful for front line workers to share and consume just-in-time information with their co-workers, team leads, and supervisors. See how to Manage a community in Yammer.
+
+Additionally, you can use the Yammer Communities app for Microsoft Teams and the Yammer web part on your home page (or other pages) in SharePoint Online.
+When you use the Yammer Communities app for Microsoft Teams, you can also add it to Viva Connections as a card to your dashboard, making it easy for your employees to find.
+
+Once you have Learning set up, you can make it easily discoverable from your Viva Connections Dashboard by adding a Learning app card to it. To do this, go to your Dashboard in SharePoint, add the Teams app card to your dashboard, and search for and select Viva Learning from the property pane on the right. Get more information about using Viva Connections.
+
+**Next**: See how to help employees gain valuable insights into how they use their time and how to protect it in Supporting work life balance.

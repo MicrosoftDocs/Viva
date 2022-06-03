@@ -49,6 +49,8 @@ When a topic is mentioned in content on SharePoint news and pages, you'll see it
 
 ![Image of a Topic card](../media/topics.png)
 
+**How to create topics**
+
 You must be a global administrator or SharePoint administrator to set up and manage topics. Admins can designate users who can create and edit topics. For more information, see [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) and [Manage topic permissions in Microsoft Viva Topics](/viva/topics/topic-experiences-user-permissions).
 
 ### Microsoft Stream
@@ -69,3 +71,4 @@ Bring together Learning, Insights, and Stream in Viva Connections by adding cars
 
 ![Image of a dashboard](../media/dashboard.png)
 
+**Next**: Learn how to use Microsoft Viva for leadership communications.
