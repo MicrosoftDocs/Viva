@@ -1,6 +1,6 @@
 - name: Microsoft Viva
   href: /viva/
-  topicHref: /viva/index
+  topicHref: /viva/solutions/solutions.md
   items:
   - name: Viva Connections
     tocHref: /viva/connections/
