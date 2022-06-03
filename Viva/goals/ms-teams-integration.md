@@ -41,7 +41,7 @@ As a Microsoft Teams administrator, you can now pre-install the Viva Goals app d
 2. Click on "Teams apps" and choose "Setup policies".
 3. Choose the policy that is associated with the segment of users you want the Viva Goals app to be pre-installed for. If you want to pre-install Viva Goals for all users in your tenant, choose the Global(Org-wide-default) option.
 
-   :::image type="content" source="media/goals/5/add-app-for-pre-installing-viva-goals.png" alt-text="Choosing the appropriate setup policy for pre-installing Viva Goals." lightbox="media/goals/5/add-app-for-pre-installing-viva-goals.png":::
+   :::image type="content" source="../media/goals/5/add-app-for-pre-installing-viva-goals.png" alt-text="Choosing the appropriate setup policy for pre-installing Viva Goals." lightbox="../media/goals/5/add-app-for-pre-installing-viva-goals.png":::
 
 4. Under the installed apps section, click on the ‘Add Apps’ button and Add Viva Goals.
 
