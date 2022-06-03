@@ -14,25 +14,25 @@
         href: viva-leadership-communications.md
     - name: Microsoft Viva Accelerators
       items:
-        - name: Introducing Microsoft Viva Accelerators
-          href: introduction.md
-        - name: Data lake solutions
-            items: 
-            - name: Viva Insights data lake solution
-              href: ./data-lakes/viva-insights.md
-            - name: Microsoft Graph data lake solution
-              href: ./data-lakes/microsoft-graph-data-connect.md
-            - name: Data access automation
-              href: automate-exports.md
-            - name: Integrate Slack data with Viva Insights
-              href: slack-integration.md
-            - name: Multitenant solution
-              href: complex-organization-insights.md
+      - name: Introducing Microsoft Viva Accelerators
+        href: introduction.md
+      - name: Data lake solutions
+        items: 
+        - name: Viva Insights data lake solution
+          href: ./data-lakes/viva-insights.md
+        - name: Microsoft Graph data lake solution
+          href: ./data-lakes/microsoft-graph-data-connect.md
+        - name: Data access automation
+          href: automate-exports.md
+        - name: Integrate Slack data with Viva Insights
+          href: slack-integration.md
+        - name: Multitenant solution
+          href: complex-organization-insights.md
+      - name: Organizational network analysis
+        items:
         - name: Organizational network analysis
-            items:
-            - name: Organizational network analysis
-              href: ./organizational-network-analysis/organizational-network-analysis.md
-            - name: Organizational network analysis - Gephi
-              href: ./organizational-network-analysis/gephi-for-ona.md
+          href: ./organizational-network-analysis/organizational-network-analysis.md
+        - name: Organizational network analysis - Gephi
+          href: ./organizational-network-analysis/gephi-for-ona.md
 
 
