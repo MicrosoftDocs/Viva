@@ -44,8 +44,8 @@ As a Microsoft Teams administrator, you can now pre-install the Viva Goals app d
    :::image type="content" source="../media/goals/5/add-app-for-pre-installing-viva-goals.png" alt-text="Choosing the appropriate setup policy for pre-installing Viva Goals." lightbox="../media/goals/5/add-app-for-pre-installing-viva-goals.png":::
 
 4. Under the installed apps section, click on the ‘Add Apps’ button and Add Viva Goals.
-
-![Searching and adding the Viva Goals app for pre-installation.](../media/goals/5/ms-teams-setup-policies-for-pre-installing-viva-goals.png)
+   
+    :::image type="content" source="../media/goals/5/ms-teams-setup-policies-for-pre-installing-viva-goals.png" alt-text="Searching and adding the Viva Goals app for pre-installation." lightbox="../media/goals/5/ms-teams-setup-policies-for-pre-installing-viva-goals.png":::
 
 After completing these steps, when a user logs into their MS Teams account, they'll find Viva Goals pre-installed within the Apps section.
 
@@ -55,19 +55,19 @@ There are multiple ways to install the Viva Goals app in Teams.
 
 The first way to add Viva Goals to Teams is for you to click the ellipsis […] button on the navigation bar on the left, search for Viva Goals and click on the Viva Goals app from the list of search results.
 
-![Searching and adding Viva Goals app from the MS Teams navigation bar.](../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png)
+:::image type="content" source="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png" alt-text="Searching and adding Viva Goals app from the MS Teams navigation bar." lightbox="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png":::
 
 From the Viva Goals app detail page, you can click the Add button to add Viva Goals.
 
-![Adding Viva Goals app from the MS Teams navigation bar.](../media/goals/5/add-viva-goals-from-navigation-bar.png)
+:::image type="content" source="../media/goals/5/add-viva-goals-from-navigation-bar.png" alt-text="Adding Viva Goals app from the MS Teams navigation bar." lightbox="../media/goals/5/add-viva-goals-from-navigation-bar.png":::
 
 The second way to Add Viva Goals is to visit the Apps store and once there, search for Viva Goals and click the Viva Goals app listing.
 
-![Searching and adding Viva Goals app from the MS Teams app store.](../media/goals/5/add-viva-goals-from-app-store.png)
+:::image type="content" source="../media/goals/5/add-viva-goals-from-app-store.png" alt-text="Searching and adding Viva Goals app from the MS Teams app store." lightbox="../media/goals/5/add-viva-goals-from-app-store.png":::
 
 From the Viva Goals app detail page, click Add.
 
-![Adding Viva Goals app from the MS Teams app store.](../media/goals/5/add-button-in-viva-goals-app-detail-page.png)
+:::image type="content" source="../media/goals/5/add-button-in-viva-goals-app-detail-page.png" alt-text="Adding Viva Goals app from the MS Teams app store." lightbox="../media/goals/5/add-button-in-viva-goals-app-detail-page.png":::
 
 Once Viva Goals have been added to MS Teams, the app will guide you on the next steps based on if you already have an account with Viva Goals or not.
 
@@ -81,7 +81,7 @@ The ‘My OKRs’ tab shows you OKRs assigned to you.
 
 1. If you are part of multiple Viva Goals organizations, you can view your OKRs for each organization using the ‘organization switcher’ on the top left.
 
-![Toggling between organization using the organization picker](../media/goals/5/organization-picker.png)
+   :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Toggling between organization using the organization picker." lightbox="../media/goals/5/organization-picker.png":::
 
 2. You can use the time period selector on the top right to view your OKRs for various time periods. 
 
