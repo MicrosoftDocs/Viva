@@ -69,11 +69,10 @@ Knowledge managers need to be able to coordinate with all Viva Topics stakeholde
 
 ## Knowledge admin
 
-Knowledge admins are admins who set up and configure Viva Topics in your Microsoft 365 environment. They also manage the Viva Topics settings after set up has completed. The knowledge admin role requires you to be a Microsoft 365 global or SharePoint admin since setup and management are done in the Microsoft 365 admin center.
+Knowledge admins are admins who set up and configure Viva Topics in your Microsoft 365 environment. They also manage the Viva Topics settings after set up has completed. The knowledge admin role requires you to be a Microsoft 365 global, or SharePoint admin with Group admin role since setup and management are done in the Microsoft 365 admin center.
 
 > [!NOTE] 
-> Currently, a Microsoft 365 global or SharePoint administrator can serve as a
-knowledge admin.
+> Currently, a Microsoft 365 global, or SharePoint administrator with Group admin role can serve as a knowledge admin.
 
 During setup, knowledge admins can configure Viva Topics to:
 
