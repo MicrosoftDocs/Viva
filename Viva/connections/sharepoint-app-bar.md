@@ -66,6 +66,7 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 > -	Site owner permissions (or higher) to the home site are required to enable global navigation.
 > -	Users need read access (or higher) to the home site to view the global navigation links. 
 > -	[Audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) can be applied to menu links in global navigation.
+> - If you get an error after editing links to sites, try deleting the link and adding it again.
 > -	Implementing global navigation may take up to 24 hours for the changes to take effect for users.
 
 
