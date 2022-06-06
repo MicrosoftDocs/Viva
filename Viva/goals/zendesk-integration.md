@@ -65,6 +65,6 @@ Now that the integration is enabled, your team can link a Zendesk metric with an
 
 2. Next, select the **Connection** and select the Zendesk metric you want to track the progress of the objective by. We support tracking by % Resolved tickets, % Satisfied Response, % Dissatisfied Response and Number of Dissatisfied Response in Zendesk for the agents in your organization for tickets created between a customizable date range. By default, we consider tickets created for all the agents between the start and end time same as the objective's start and end time.
     
-    :::image type="content" source="../media/goals/7/zendesk-new-connection-details.png" alt-text="Adding Zendesk new connection to OKRs in Viva goals.png." lightbox="../media/goals/7/zendesk-new-connection-details.png":::
+    :::image type="content" source="../media/goals/7/zendesk-new-connection-details.png" alt-text="Adding Zendesk new connection to OKRs in Viva goals." lightbox="../media/goals/7/zendesk-new-connection-details.png":::
 
 3. Select **Next** to finish and save your OKR. You should now see a Zendesk icon next to the OKR. Now Viva Goals will automatically track the % of satisfied response. The OKR syncs automatically every hour, but to refresh it manually select **refresh**.
