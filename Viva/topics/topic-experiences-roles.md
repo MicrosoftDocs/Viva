@@ -67,7 +67,7 @@ Users who have a good overall knowledge of your business can be good candidates 
 
 Knowledge managers need to be able to coordinate with all Viva Topics stakeholders in their organization to know how to configure it. For example, if a new project has sensitive information, the knowledge manager needs to be informed so that they can make sure that the SharePoint site is not crawled for topics, or specific topic names need to be excluded.
 
-## Viva topics admin
+## Viva Topics admin
 
 Viva topics admins are admins who set up and configure Viva Topics in your Microsoft 365 environment. They also manage the Viva Topics settings after set up has completed. To administer Viva Topics, you must be a Microsoft 365 global administrator, or a SharePoint administrator and Groups administrator, since setup and management are done in the Microsoft 365 admin center.
 
