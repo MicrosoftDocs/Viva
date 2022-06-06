@@ -70,7 +70,7 @@ Now that the integration is enabled, your team can link a Hubspot metric with an
 
 2. Create a connection or select the connection. If there are multiple connections listed, select the connection that you would like to use.
     
-    :::image type="content" source="../media/goals/7/hubspot-multiple-connections-in-viva-goals.png" alt-text="Selecting Hubspot from the list of data sources in Viva goals.png." lightbox="../media/goals/7/hubspot-multiple-connections-in-viva-goals.png":::
+    :::image type="content" source="../media/goals/7/hubspot-multiple-connections-in-viva-goals.png" alt-text="Selecting a Hubspot connection from the multiple connections available in Viva goals.png." lightbox="../media/goals/7/hubspot-multiple-connections-in-viva-goals.png":::
 
 3. Select the product type you’d like to integrate with. Currently, Viva Goals integrates with Marketing Hub and Sales Hub.
     
