@@ -21,8 +21,8 @@ search.appverid:
 
 Welcome to the Microsoft Viva solution center, where you can find technical guidance to understand, plan, and implement integrated Viva solutions.
 
-[Microsoft Viva for the Hybrid Workplace](/viva/solutions/viva-for-the-hybrid-workplace.md)
+[Microsoft Viva for the Hybrid Workplace](/viva-for-the-hybrid-workplace.md)
 
-[Incorporating learning into your organization](/viva/solutions/incorporate-learning.md)
+[Incorporating learning into your organization](/incorporate-learning.md)
 
-[Microsoft Accelerators](/viva/solutions/index.yml)
+[Microsoft Accelerators](/solutions/index.yml)
