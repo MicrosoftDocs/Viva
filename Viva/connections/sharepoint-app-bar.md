@@ -47,7 +47,6 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > -	The SharePoint app bar is not available on classic SharePoint sites today, however soon administrators will be able to add it to classic sites manually. 
 > -	The SharePoint app bar may impact current page customizations, specifically those that appear on the left side. 
 > - The SharePoint app bar will not display in SharePoint for external or guest users outside of your organization.
-> - In GCC High and DoD environments users may experience a degraded experience for the My sites panel in the app bar.
 > -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the app bar will delay the rollout of this feature in your organization until September 30, 2022.
 > - Global navigation in the SharePoint app bar must be enabled in order for SharePoint resources to display in the [Microsoft Teams app bar for Viva Connections](viva-connections-overview.md).
 
