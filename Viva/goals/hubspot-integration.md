@@ -74,7 +74,7 @@ Now that the integration is enabled, your team can link a Hubspot metric with an
 
 3. Select the product type you’d like to integrate with. Currently, Viva Goals integrates with Marketing Hub and Sales Hub.
     
-    :::image type="content" source="../media/goals/7/hubspot-new-connection-details-in-viva-goals.png" alt-text="Selecting Hubspot product type in Viva goals.png." lightbox="../media/goals/7/hubspot-new-connection-details-in-viva-goals.png":::
+    :::image type="content" source="../media/goals/7/hubspot-new-connection-details-in-viva-goals.png" alt-text="Selecting Hubspot product type in Viva goals." lightbox="../media/goals/7/hubspot-new-connection-details-in-viva-goals.png":::
 
     > [!NOTE]
     > If you select **Sales Hub** as the Product Type, there’re a couple of additional fields such as **Pipeline**, **Stage**, **Owner**, and **Team**.
@@ -127,4 +127,4 @@ Now that the integration is enabled, your team can link a Hubspot metric with an
 
 The Hubspot integration may also be disabled by an admin at any time. To disable the integration, go to HubSpot in the **Integrations** section and select **Manage**. In the **Hubspot Configurations** page, go to the **Change** dropdown, select **Disable** and confirm the action.
     
-:::image type="content" source="../media/goals/7/disabling-hubspot-in-viva-goals.png" alt-text="Selecting Hubspot from the list of data sources in Viva goals.png." lightbox="../media/goals/7/disabling-hubspot-in-viva-goals.png"::: 
+:::image type="content" source="../media/goals/7/disabling-hubspot-in-viva-goals.png" alt-text="Selecting Hubspot from the list of data sources in Viva goals." lightbox="../media/goals/7/disabling-hubspot-in-viva-goals.png"::: 
