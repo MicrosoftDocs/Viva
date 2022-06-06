@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals
 search.appverid:
