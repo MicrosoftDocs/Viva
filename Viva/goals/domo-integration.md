@@ -69,7 +69,7 @@ Once the connection configuration is done, users can **Edit** their Viva Goals O
   
 4. Select **Connection**, key in **DataSet-ID**, your actual **KPI** from the list of measures/dimensions available on the selected dataset.
   
-  :::image type="content" source="../media/goals/7/domo-new-connection-details.png" alt-text="Adding new Domo connection to OKRs in Viva goals." lightbox="../media/goals/7/domo-new-connection-details.png":::
+   :::image type="content" source="../media/goals/7/domo-new-connection-details.png" alt-text="Adding new Domo connection to OKRs in Viva goals." lightbox="../media/goals/7/domo-new-connection-details.png":::
 
 > [!NOTE]
 > To obtain the DataSet-ID: Login to your Domo instance and select the Dataset name mentioned under the card.
