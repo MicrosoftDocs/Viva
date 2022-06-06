@@ -34,6 +34,9 @@ As an example, if you use Azure DevOps to track the status of issues, and you ha
 Admins can enable this integration by taking the following steps: 
 
 - From the sidebar, click on **Admin** and select the **Integrations** tab. 
+
+   :::image type="content" source="../media/goals/5/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/5/viva-goals-integrations-page.png":::
+
 - Under Azure DevOps, you can **enable** the integration. If a connection has been made previously or if the integration has been enabled already, you'll have the option to **Manage** the enabled integration. 
 
    :::image type="content" source="../media/goals/5/enabling-azure-devops-in-viva-goals.png" alt-text="Enabling Azure DevOps in Viva Goals." lightbox="../media/goals/5/enabling-azure-devops-in-viva-goals.png":::
