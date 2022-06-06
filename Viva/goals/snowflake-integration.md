@@ -59,7 +59,7 @@ Once the setup is complete, users in your organization can link the success of t
 3. If you already created a Snowflake connection, or an administrator in your organization shared a Snowflake connection with you, that will be automatically selected for you. If there are no connections created or shared already, Viva Goals will prompt you to add a new connection.
 4. Add the Snowflake SQL query that will return a single-valued numeric value. This value will be connected to the OKR's progress or KPI depending on how the OKR is measured.
 
-  :::image type="content" source="../media/goals/5/snowflake-connection-details.png" alt-text="Adding Azure DevOps connection to your OKRs in Viva goals.png." lightbox="../media/goals/5/snowflake-connection-details.png":::
+  :::image type="content" source="../media/goals/5/snowflake-connection-details.png" alt-text="Adding Snowflake connection to your OKRs in Viva goals.png." lightbox="../media/goals/5/snowflake-connection-details.png":::
 
 5. Hit **next** to finish and save your OKR. You should now see a Snowflake icon next to the OKR. The OKR will sync automatically every hour, but you can refresh it manually by clicking on **refresh**.
 
