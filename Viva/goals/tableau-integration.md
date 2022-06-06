@@ -78,7 +78,7 @@ Once the connection configuration is done, users can **Edit** their OKRs to set 
 In the popup that appears, follow the prompts to set up the Tableau data link integration.
 Select **Workbook**, **View** (Dashboards or Standalone Worksheets), your actual **KPI** from the list of measures/dimensions available on the selected **View**.  
   
-    :::image type="content" source="../media/goals/7/tableau-connection-details.png" alt-text="Adding new Tableau connection to OKRs in Viva goals." lightbox="../media/goals/7/tableau-connection-details.png":::
+:::image type="content" source="../media/goals/7/tableau-connection-details.png" alt-text="Adding new Tableau connection to OKRs in Viva goals." lightbox="../media/goals/7/tableau-connection-details.png":::
 
 If there are multiple instances for the KPI value, for example, you have the Sales Goal for all your sales team members as part of the Tableau View, you can choose to apply a sum/average/count on the set of values (or) filter out by a particular person or any available filter field.  
 
