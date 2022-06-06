@@ -22,11 +22,7 @@ search.appverid:
 
 Let’s say your organization is launching a new product. Announcement of the product, including how it works and what the organization’s goals are for it, need to be communicated across your organization. Holding an all-hands or town hall is a traditional way to do this. In a hybrid work environment, you need to ensure that everyone has access to the announcement no matter where they are. It is also essential to have a recording and transcript of the event for those who can’t participate in the live event because they are in a different time zone or are front line workers whose schedules don’t allow participation.
 
-
-
-
-
-![Video screenshot for leadership presentation](../media/leadership.png)
+![Video screenshot for leadership presentation](../media/leader-town-hall.png)
 
 You can use Yammer Live, Stream, and Viva Connections to bring everyone together, have the event available after it happens, and have follow-up conversations.
 
@@ -38,7 +34,7 @@ You can use Yammer Live, Stream, and Viva Connections to bring everyone together
 
 **Prepare and conduct a live event** for people in your Yammer network, with built-in discussions for use before, during, and after the event. Up to 10,000 people can attend at once from anywhere on their device or computer (higher limits for event attendees are temporarily available through the Microsoft 365 Live Events Assistance program). 
 
-You can make the video available after the event, so that people who can’t make it at the scheduled time can still participate. Learn more in Organize a live event in new Yammer.
+You can make the video available after the event, so that people who can’t make it at the scheduled time can still participate. Learn more in [Organize a live event in new Yammer](https://support.microsoft.com/office/organize-a-live-event-in-new-yammer-7338782a-4f0b-4fd0-a6c3-33625906ead1).
 
 Only Yammer group admins can create and schedule a live event in Yammer. Additionally, to host a live event in Yammer, your organization must have **Enforce Office 365 identity** selected, and you must be using Microsoft 365 connected Yammer groups. For more information, see [Enforce Office 365 identity for Yammer users](/yammer/configure-your-yammer-network/enforce-office-365-identity) and [Yammer and Microsoft 365 groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups).
 
