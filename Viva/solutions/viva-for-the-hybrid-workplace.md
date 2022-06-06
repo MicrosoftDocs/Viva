@@ -20,6 +20,8 @@ search.appverid:
 # Overview: Microsoft Viva for the hybrid workplace
 The hybrid workplace (people working together, both online and in person, from the office and from home or other remote locations) is becoming the norm for businesses everywhere. But how do you ensure that hybrid work is engaging, productive, and efficient while considering the health and well-being of your employees who face new challenges in the hybrid world? Now more than ever, it’s time to ensure your employees can be their absolute best from anywhere.
 
+![Viva](../media/connections/vc-hero2.png)
+
 Microsoft Viva is the employee experience platform that brings together collaboration, learning, organizational knowledge, and wellbeing in the flow of work to create an integrated experience where your employees are so they can be their best. Here are some scenarios you may be familiar with:
 
 - When everyone can’t be in the same room, communication can be challenging. Getting all of your employees on the same page is paramount.
@@ -54,7 +56,7 @@ Don’t have Microsoft Viva yet? [Find out all of its benefits and how to get it
 ## Requirements
 - First, it’s a good idea to make sure your infrastructure is optimized for hybrid work by reading [Set up your infrastructure for hybrid work with Microsoft 365](/microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide).
 - You’ll need to be using **Teams** and **SharePoint** within your organization. The example scenarios in this article also use **Yammer** and **Stream**. 
-- Make sure you have the proper licenses for Microsoft Viva.
+- Make sure you have the [proper licenses](#licensing) for Microsoft Viva.
 
 ## Needs assessment
 
@@ -84,30 +86,30 @@ Following are examples of key tasks and scenarios that your organization may ide
 ### Onboarding
 Onboarding new employees and employees changing roles need to get up and running, learning, and feeling comfortable and productive quickly. Having all the information in one place streamlines the process for both your human resources team and employees.
 
-See how in the Onboarding employees who are new or changing roles scenario.
+See how in the [Onboarding employees who are new or changing roles](/viva/solutions/viva-onboarding-changing-roles.md) scenario.
 
 ### Frontline workers
 Front-line workers who are not on site need to be able to see their schedules and check-in and check-out quickly and easily. They also need to be able to access organizational communications easily and all in one place.
 
-See how in the Frontline worker scenario.
+See how in the [Frontline worker](/viva/solutions/viva-front-line-workers.md) scenario.
 
 ### Work/life balance
 Supporting work/life balance is essential to the health and well-being of your employees. Viva Insights can provide the information to help employees balance their work and life whether at the office or working remotely, and you can make the information easy to find.
 
-See how to help ensure work/life balance
+See how to [help ensure work/life balance](/Viva/solutions/viva-work-life-balance.md).
 
 
 ### Leadership communications
 Leadership communications are often delivered in an all-hands or town hall scenario. With a hybrid workforce, some of your employees will be onsite and can attend such events. Others may be at home or in remote locations. How do you bring everyone together?
 
-See how in the Leadership communications scenario.
+See how in the [Leadership communications scenario](/Viva/solutions/viva-leadership-communications.md).
 
 
 ### Learning
 
 Employees in a hybrid organization can’t always attend on-site training. Providing learning in the flow of their work is what Viva Learning provides.
 
-See how to help your hybrid employees learn in the flow of work, and discover learning quickly.
+See how to help your hybrid employees [learn in the flow of work, and discover learning quickly](need link).
 
 
 ## Security
@@ -127,7 +129,7 @@ News is shown as a personalized feed on the SharePoint start page and in the mob
 
 Learn how to [create and distribute SharePoint news](https://support.microsoft.com/en-us/office/sharepoint-news-help-80e479c2-f4bb-4962-bbde-6b417112a20b)
 
-Use Viva Learning to show how your employees all of the great tools you've rolled out to them NEED LINK TO END USER TRAINING
+Use Viva Learning to show how your employees all of the great tools you've rolled out to them. [Get started with Viva Connections](https://vivalearning.microsoft.com/l/entity/2e3a628d-6f54-4100-9e7a-f00bc3621a85/MyLearning?context=%7b%22subEntityId%22%3a%7b%22learningObjectId%22%3a%220eccb91f-a817-460c-b81a-51761a7beb9e%22%7d%7d). Don't have Viva Learning set up yet? See [Introducing Microsoft Viva](https://support.microsoft.com/en-us/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0)
 
 You can find adoption resources such as email templates, how to build Viva champions, training resources and more at [Microsoft Viva – Microsoft Adoption](https://adoption.microsoft.com/viva/).
 
