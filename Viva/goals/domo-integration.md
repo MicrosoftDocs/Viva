@@ -34,15 +34,15 @@ A Viva Goals admin can enable the Domo Integration on Viva Goals. Take the follo
 
 1. Navigate to Viva Goals’ Integrations page through **Admin > Integrations**.
   
-  :::image type="content" source="../media/goals/7/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/7/viva-goals-integrations-page.png":::
+    :::image type="content" source="../media/goals/7/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/7/viva-goals-integrations-page.png":::
 
 2. Enable the Domo Integration under the **Data Integrations** category.
   
-  :::image type="content" source="../media/goals/7/domo-enable-button.png" alt-text="Enabling Domo in Viva Goals." lightbox="../media/goals/7/domo-enable-button.png":::
+    :::image type="content" source="../media/goals/7/domo-enable-button.png" alt-text="Enabling Domo in Viva Goals." lightbox="../media/goals/7/domo-enable-button.png":::
 
 3. The integration can also be disabled at any time from the same section.
   
-  :::image type="content" source="../media/goals/7/domo-disable-button.png" alt-text="Disabling Domo in Viva Goals." lightbox="../media/goals/7/domo-disable-button.png":::
+    :::image type="content" source="../media/goals/7/domo-disable-button.png" alt-text="Disabling Domo in Viva Goals." lightbox="../media/goals/7/domo-disable-button.png":::
 
 ## How to configure the Domo connection
 
