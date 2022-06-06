@@ -33,15 +33,15 @@ An admin can set up the Snowflake integration in Viva Goals. Take the following 
 
 1. Navigate to Viva Goals’ integrations page through **Admin > Integrations**.
 
-  :::image type="content" source="../media/goals/5/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/5/viva-goals-integrations-page.png":::
+  :::image type="content" source="../media/goals/6/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/6/viva-goals-integrations-page.png":::
 
 2. Scroll through the integration options until you locate Snowflake, then select **enable** if this is the first time, or "manage" if an integration has already been established.
 
-  :::image type="content" source="../media/goals/5/snowflake-enable-button.png" alt-text="Enabling Snowflake in Viva Goals." lightbox="../media/goals/5/snowflake-enable-button.png":::
+  :::image type="content" source="../media/goals/6/snowflake-enable-button.png" alt-text="Enabling Snowflake in Viva Goals." lightbox="../media/goals/6/snowflake-enable-button.png":::
 
 3. Click on **New Connection**. In the popup that follows, enter the connection name, Account URL, Username, Password and the warehouse. The warehouses should populate automatically to choose from if the credentials entered are correct.
 
-  :::image type="content" source="../media/goals/5/snowflake-creating-new-connection.png" alt-text="Creating a new Snowflake connection in Viva Goals." lightbox="../media/goals/5/snowflake-creating-new-connection.png":::
+  :::image type="content" source="../media/goals/6/snowflake-creating-new-connection.png" alt-text="Creating a new Snowflake connection in Viva Goals." lightbox="../media/goals/6/snowflake-creating-new-connection.png":::
 
 4. Click **Next** to finish the setup.
 
@@ -54,12 +54,12 @@ Once the setup is complete, users in your organization can link the success of t
 1. While creating (or editing) an Objective or Key Result, click on **Connect data source to auto-update progress**.
 2. From the list of integrations, pick Snowflake.
 
-  :::image type="content" source="../media/goals/5/snowflake-from-the-list-of-datasources.png" alt-text="Selecting Snowflake from the list of data sources in Viva goals.png." lightbox="../media/goals/5/snowflake-from-the-list-of-datasources.png":::
+  :::image type="content" source="../media/goals/6/snowflake-from-the-list-of-datasources.png" alt-text="Selecting Snowflake from the list of data sources in Viva goals.png." lightbox="../media/goals/6/snowflake-from-the-list-of-datasources.png":::
 
 3. If you already created a Snowflake connection, or an administrator in your organization shared a Snowflake connection with you, that will be automatically selected for you. If there are no connections created or shared already, Viva Goals will prompt you to add a new connection.
 4. Add the Snowflake SQL query that will return a single-valued numeric value. This value will be connected to the OKR's progress or KPI depending on how the OKR is measured.
 
-  :::image type="content" source="../media/goals/5/snowflake-connection-details.png" alt-text="Adding Snowflake connection to your OKRs in Viva goals.png." lightbox="../media/goals/5/snowflake-connection-details.png":::
+  :::image type="content" source="../media/goals/6/snowflake-connection-details.png" alt-text="Adding Snowflake connection to your OKRs in Viva goals.png." lightbox="../media/goals/6/snowflake-connection-details.png":::
 
 5. Hit **next** to finish and save your OKR. You should now see a Snowflake icon next to the OKR. The OKR will sync automatically every hour, but you can refresh it manually by clicking on **refresh**.
 
