@@ -42,7 +42,7 @@ A Viva Goals admin can enable the Domo Integration on Viva Goals. Take the follo
 
 3. The integration can also be disabled at any time from the same section.
   
-  :::image type="content" source="../media/goals/7/zendesk-disable-button.png" alt-text="Disabling Domo in Viva Goals." lightbox="../media/goals/7/zendesk-disable-button.png":::
+  :::image type="content" source="../media/goals/7/domo-disable-button.png" alt-text="Disabling Domo in Viva Goals." lightbox="../media/goals/7/domo-disable-button.png":::
 
 ## How to configure the Domo connection
 
