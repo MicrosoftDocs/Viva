@@ -33,14 +33,22 @@ Let's take this example: you have Tableau workbooks with dashboard views used to
 A Viva Goals admin can enable the Tableau integration in Viva Goals. To do so, take the following steps: 
 
 1. Navigate to the Viva Goals integrations page through **Admin > Integrations**.
+  
+    :::image type="content" source="../media/goals/7/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/7/viva-goals-integrations-page.png":::
 
 2. Enable the Tableau integration under the **Data Integrations** category.
+  
+    :::image type="content" source="../media/goals/7/tableau-enable-button.png" alt-text="Enabling Tableau in Viva Goals." lightbox="../media/goals/7/tableau-enable-button.png":::
 
 3. The integration can also be disabled at any time from the same section.
+  
+    :::image type="content" source="../media/goals/7/tableau-disable-button.png" alt-text="Disabling Tableau in Viva Goals." lightbox="../media/goals/7/tableau-disable-button.png":::
 
 ## How to configure the Tableau connection
 
 In the **Connections** section, select **New Connection** and in the popup that appears, follow the prompt to configure the Tableau connection either using a Personal Access Token (or) the Username & Password method.
+  
+  :::image type="content" source="../media/goals/7/tableau-creating-new-connection.png" alt-text="Creating a new Tableau connection in Viva Goals." lightbox="../media/goals/7/tableau-creating-new-connection.png":::
 
 > [!NOTE]
 > Personal Access Token should be available from the Tableau 2019.4 release.
@@ -62,11 +70,15 @@ Once the connection configuration is done, users can **Edit** their OKRs to set 
 > Tableau Integration is available only for **KPI (success metric)** method of measuring OKR success and not available for **% completion** method.
 
 1. While creating/editing an Objective or Key Result, select **Add an integration**, then select **Tableau** from the list of integrations.
+  
+    :::image type="content" source="../media/goals/7/zendesk-integration-from-the-list-of-integrations-in-viva-goals.png" alt-text="Selecting Zendesk from the list of data sources in Viva goals.png." lightbox="../media/goals/7/zendesk-integration-from-the-list-of-integrations-in-viva-goals.png":::
 
 2. If a Tableau Connection isn't configured, Viva Goals allows the user to configure a connection first. If already configured, Viva Goals allows the users to proceed with setting up the data link.
 
 In the popup that appears, follow the prompts to set up the Tableau data link integration.
 Select **Workbook**, **View** (Dashboards or Standalone Worksheets), your actual **KPI** from the list of measures/dimensions available on the selected **View**.  
+  
+    :::image type="content" source="../media/goals/7/tableau-connection-details.png" alt-text="Adding new Tableau connection to OKRs in Viva goals." lightbox="../media/goals/7/tableau-connection-details.png":::
 
 If there are multiple instances for the KPI value, for example, you have the Sales Goal for all your sales team members as part of the Tableau View, you can choose to apply a sum/average/count on the set of values (or) filter out by a particular person or any available filter field.  
 
