@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
 search.appverid:
@@ -22,7 +22,7 @@ description: "Learn how to integrate your Domo datasets directly with Viva Goals
 # Domo integration
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants, and that it is not being released to GCC, GCC High, and DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 The Viva Goals Domo integration allows automated real-time tracking of OKR progress. 
   
