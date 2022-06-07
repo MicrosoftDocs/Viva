@@ -92,7 +92,7 @@ Settng up the project in Viva Goals is as easy as connecting to Asana, picking t
 
 Some customers like to use a specific task in Asana as their project, with the subtasks as the task list. We support this as well, and you can set your project name in Viva Goals to the name of your Asana task. 
 
-1. Start by adding a project, and select the Automatically based on completed tasks option to calculate progress.
+1. Start by adding a project, and select **Add tasks** under **Outcome**.
 
 2. In the Tasks field, select the Automatically from a data source option and select Asana as your data source.
 
