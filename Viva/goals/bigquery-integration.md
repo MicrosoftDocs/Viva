@@ -109,7 +109,7 @@ Once the setup is complete, users in your organization can link the success of t
 1. While creating (or editing) an Objective or Key Result, click on **Connect data source to auto-update progress**.
 2. From the list of integrations, pick BigQuery.
   
-    :::image type="content" source="../media/goals/8/bigquery-from-the-list-of-datasources.png" alt-text="Selecting BigQuery from the list of data sources in Viva goals." lightbox="../media/goals/8/bigquery-from-the-list-of-datasources.png":::
+    :::image type="content" source="../media/goals/8/bigquery-datasource.png" alt-text="Selecting BigQuery from the list of data sources in Viva goals." lightbox="../media/goals/8/bigquery-datasource.png":::
   
 3. If you already created a BigQuery connection, or an administrator in your organization shared a BigQuery connection with you, that will be automatically selected for you. If there are no connections created or shared already, Viva Goals will prompt you to add a new connection.
 4. Add the BigQuery SQL query that will return a single-valued numeric value. This value will be connected to the OKR's progress or KPI depending on how the OKR is measured.
