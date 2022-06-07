@@ -138,9 +138,7 @@ Next, provide a thumbnail image.
 5. Go to the document library where your images are stored in SharePoint.
 6. Select the image you want to use, then choose **Details**.
 7. Choose **Path** and select the copy icon.
-
-    ![Screenshot of an image in a document library with Copy link selected.](../media/learning/copy-link.png)
-
+    [![Screenshot of an image in a document library with Copy link selected.](../media/learning/copy-link.png)](../media/learning/copy-link-big.png#lightbox)
 8. Add the URLs for each item.
 
 Next, add the duration of the content.
