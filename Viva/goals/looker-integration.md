@@ -42,7 +42,7 @@ A Viva Goals admin can perform the following steps to enable the Looker Integrat
 
 3. The integration can also be disabled at any time from the same section.
 
-      :::image type="content" source="../media/goals/6/looker-disable-button.png" alt-text="Disabling Looker in Viva Goals." lightbox="../media/goals/6/disabling-looker-disable-button.png":::
+      :::image type="content" source="../media/goals/6/looker-disable-button.png" alt-text="Disabling Looker in Viva Goals." lightbox="../media/goals/6/looker-disable-button.png":::
   
 ## How to configure the Looker connection
 
