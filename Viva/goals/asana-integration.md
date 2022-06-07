@@ -57,8 +57,12 @@ Once the setup is complete, users in your organization can link their OKRs to As
 1. While creating (or editing) an Objective or Key Result, select **Add an integration**.
 
 2. From the list of integrations, pick **Asana**.
+    
+     :::image type="content" source="../media/goals/8/asana-datasource-in-list-of-integrations-in-viva-goals.png" alt-text="Selecting Asana from the list of data sources in Viva goals." lightbox="../media/goals/8/asana-datasource-in-list-of-integrations-in-viva-goals.png":::
 
 3. Next, select the **Connection**, if multiple exist, and link a project to the objective. To do so, select the name of the project.
+    
+    :::image type="content" source="../media/goals/8/asana-new-connection-details-viva-goals.png" alt-text="Adding new Asana connection to OKRs in Viva goals." lightbox="../media/goals/8/asana-new-connection-details-viva-goals.png":::
 
 4. To further filter the list of tasks or subtasks, select tasks assigned to a user or pick tasks with a specific status.
 
@@ -93,8 +97,12 @@ Settng up the project in Viva Goals is as easy as connecting to Asana, picking t
 Some customers like to use a specific task in Asana as their project, with the subtasks as the task list. We support this as well, and you can set your project name in Viva Goals to the name of your Asana task. 
 
 1. Start by adding a project, and select **Add tasks** under **Outcome**.
+    
+    :::image type="content" source="../media/goals/8/asana-add-tasks-button.png" alt-text="Add tasks button under Progress in Viva goals." lightbox="../media/goals/8/asana-add-tasks-button.png":::
 
 2. In the Tasks field, select the Automatically from a data source option and select Asana as your data source.
+    
+    :::image type="content" source="../media/goals/8/asana-tasks-connection.png" alt-text="Adding Asana from the list of datasources to Projects in Viva goals." lightbox="../media/goals/8/asana-tasks-connection.png":::
 
 3. Select if you’d like to track progress by the % of tasks completed or by the % of subtasks completed.
 
@@ -105,6 +113,8 @@ Some customers like to use a specific task in Asana as their project, with the s
 6. If you’ve chosen to track progress by % of subtasks completed, then:
 
 - Enable the Use this task name as the project name in Viva Goals checkbox.
+    
+    :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Adding an Asana task as a Project in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
 
 - Select Next and Save to save your project! 
 
