@@ -44,7 +44,7 @@ Admins can perform the following steps to enable this integration:
   
 - This integration can also be **disabled** from the same section. Go to **Change** and select **Disable integration** from the dropdown to disable the integration.
   
-    :::image type="content" source="../media/goals/8/excel-disable-button.png" alt-text="Disabling Asana in Viva Goals." lightbox="../media/goals/8/excel-disable-button.png":::
+    :::image type="content" source="../media/goals/9/excel-disable-button.png" alt-text="Disabling Asana in Viva Goals." lightbox="../media/goals/9/excel-disable-button.png":::
 
 ## How to configure the Excel Online connection
 
