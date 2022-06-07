@@ -21,7 +21,7 @@ search.appverid:
 
 Welcome to the Microsoft Viva solution center, where you can find technical guidance to understand, plan, and implement integrated Viva solutions.
 
-| ![a map](/office/media/icons/walkthrough-map-blue.png)          | Solution   |
+| ![a map](/office/media/icons/walkthrough-map-blue.png)          | Solutions   |
 | ------------- | ------------- |
 | ![a hand and arrow](/office/media/icons/get-started-blue.png)  | **[Getting started with Microsoft Viva](/viva/solutions/getting-started-with-microsoft-viva)** <br>Viva modules can be used on their own or together for a more cohesive employee experience. Viva modules are more powerful when used together, and can help your organization meet popular business scenarios like onboarding and helping employees with wellness in the workplace. This article will help you understand which solutions are right for you.   |
 | ![a hand and arrow](/office/media/icons/meeting.png)  | **[Microsoft Viva for the hybrid workplace](/viva/solutions/viva-for-the-hybrid-workplace)** <br>Learn how to ensure that hybrid work is engaging, productive, and efficient while considering the health and well-being of your employees who face new challenges in the hybrid world. Scenarios include onboarding, engaging front-line workers, learning, and leadership connection in a hybrid organization. |
