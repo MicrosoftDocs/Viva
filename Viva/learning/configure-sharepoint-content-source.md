@@ -120,7 +120,6 @@ To add a metadata field, follow these steps first.
 
 1. Select the folder from your learning content repository.
 2. From the **Documents** page, select **Add column**.
-
     [![Screenshot of the Documents page with Add column selected.](../media/learning/sp-new-column.png)](../media/learning/sp-new-column-big.png#lightbox)
 
 To add a description column to the document library page, follow these steps:
@@ -138,9 +137,9 @@ Next, provide a thumbnail image.
 4. If you already have the URLs available, skip to step 8. If you have images stored in SharePoint that you want to use for thumbnails, start with step 5.
 5. Go to the document library where your images are stored in SharePoint.
 6. Select the image you want to use, then choose **Details**.
-7. Choose **Copy link** and select **Copy**.
+7. Choose **Path** and select the copy icon.
 
-    ![Screenshot of an image in a document library with Copy link selected.](../media/learning/thumbnail-copy-link.png)
+    ![Screenshot of an image in a document library with Copy link selected.](../media/learning/copy-link.png)
 
 8. Add the URLs for each item.
 
@@ -158,9 +157,7 @@ Next, add tags.
 3. Name the column SkillTags.
 4. Select **More options**.
 5. Toggle to allow multiple values.
-
     [![Screenshot of the toggle to allow multiple values](../media/learning/skilltags.png)](../media/learning/skilltags-big.png#lightbox)
-
 6. You can either choose to use a predefined term set or a customized term set.
 
 [Learn more about how to create a Managed Metadata column.](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f)
