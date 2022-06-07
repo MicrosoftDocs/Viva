@@ -64,7 +64,7 @@ Now it's time to assign this role to Viva Goals' service account so that Viva Go
 
 Navigate to the hamburger menu on the top left corner of the screen and choose IAM & Admin -> IAM.
   
-:::image type="content" source="../media/goals/8/bigquery-IAM-tab.png" alt-text="Choose IAM under IAM & Admin." lightbox="../media/goals/8/bigquery-IAM-tab.png":::
+:::image type="content" source="../media/goals/8/bigquery-iam-tab.png" alt-text="Choose IAM under IAM & Admin." lightbox="../media/goals/8/bigquery-iam-tab.png":::
 
 Select the + Add button on top of the page.
   
