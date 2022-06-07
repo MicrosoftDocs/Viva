@@ -110,7 +110,7 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
     > -	The global navigation source can be edited at any time by site owners or admins of the home site.
     > -	The site and global navigation [links and labels](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) can be edited at any time by editors of the home site.
     > -	Implementing global navigation may take up to 24 hours for the changes to take effect.
-    > -	If you get an error when changing a link to a different subsite (for example, changing `https://contoso.com/sites/HD/PeopleManagement.aspx` to `https://contoso.com/sites/HD/People/PeopleManagement.aspx`), you'll need to delete the original link and create a new link.
+    > - If you get an error after editing links to sites, try deleting the link and adding it again.
 
 ### Determine the global navigation source depending on your home site’s configuration:
 
