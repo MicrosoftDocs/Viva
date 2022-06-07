@@ -38,7 +38,7 @@ Admins can perform the following steps to enable this integration:
 
 - Against **Box**, you can **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you can **Manage** the enabled integration.
   
-    :::image type="content" source="../media/goals/10/box-enable-button.png" alt-text="Enabling Jira in Viva Goals." lightbox="../media/goals/10/box-enable-button.png":::
+    :::image type="content" source="../media/goals/10/box-enable-button.png" alt-text="Enabling Box in Viva Goals." lightbox="../media/goals/10/box-enable-button.png":::
 
 - This integration can also be disabled from the same section. Go to **Change** and select **Disable integration** from the dropdown to disable the integration.
   
