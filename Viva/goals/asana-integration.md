@@ -66,8 +66,6 @@ Once the setup is complete, users in your organization can link their OKRs to As
 
 4. To further filter the list of tasks or subtasks, select tasks assigned to a user or pick tasks with a specific status.
 
-    In the following example, we're counting the total number of customer executives who have been onboarded based on different segments. We’re tracking the progress by the number of subtasks completed under the main task.
-
 5. Select **Next** to finish and save your OKR. You should now see an Asana icon next to the OKR. Viva Goals will automatically count up the finished blog posts. The OKR syncs automatically every hour, but to refresh manually, select **refresh**.
 
 ## How to decide between using % Completed vs. KPIs in the Asana integration 
@@ -90,7 +88,7 @@ With Viva Goals projects, you can now view your Asana projects inside of Viva Go
 
 ### See all the tasks from an Asana project
 
-Settng up the project in Viva Goals is as easy as connecting to Asana, picking the project, and optionally filtering to a subset of tasks on the project that you care about.
+Setting up the project in Viva Goals is as easy as connecting to Asana, picking the project, and optionally filtering to a subset of tasks on the project that you care about.
 
 ### Use a specific Asana task as the project, with its subtasks as the task list
 
@@ -112,11 +110,11 @@ Some customers like to use a specific task in Asana as their project, with the s
 
 6. If you’ve chosen to track progress by % of subtasks completed, then:
 
-- Enable the Use this task name as the project name in Viva Goals checkbox.
+    a. Enable the Use this task name as the project name in Viva Goals checkbox.
     
-    :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Adding an Asana task as a Project in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
+        :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Adding an Asana task as a Project in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
 
-- Select Next and Save to save your project! 
+    b. Select Next and Save to save your project! 
 
 This will create the specific Asana task or subtasks as the project and pull in the subtasks as the task list in Viva Goals.
 
