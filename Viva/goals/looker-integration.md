@@ -48,7 +48,7 @@ A Viva Goals admin can perform the following steps to enable the Looker Integrat
 
 In the **Connections** section, select **New Connection** and in the popup that appears, follow the prompt to enter the name of the connection and the Application Programming Interface (API) credentials provided to you by your Looker administrator. You can optionally choose to share the connection with other users in the organization and select **Save**. You can edit the saved connection anytime.
   
-:::image type="content" source="../media/goals/6/creating-a-new-connection-in-looker.png" alt-text="Creating a new Looker connection in Viva Goals." lightbox="../media/goals/6/creating-a-new-connection-in-looker.png":::
+:::image type="content" source="../media/goals/6/looker-configure-new-connection.png" alt-text="Creating a new Looker connection in Viva Goals." lightbox="../media/goals/6/looker-configure-new-connection.png":::
 
 ## How to connect the Looker Integration to an OKR
 
@@ -73,7 +73,7 @@ Once the setup is complete, users in your organization can link their OKRs to Lo
 
 6. Viva Goals displays the selected value for your reference before you save the data link set-up.
   
-7. Once you're satisfied, select **Save** and continue to save your OKR. You should now see a Looker icon next to the OKR. Viva Goals will automatically count up the finished number of demos setup. The OKR syncs automatically every hour, but to refresh it manually, you can go to the Looker icon and select the **Sync Now** option.
+7. Once you're satisfied, select **Save** and continue to save your OKR. You should now see a Looker icon next to the OKR. Viva Goals will automatically count up the finished number of demos set up. The OKR syncs automatically every hour, but to refresh it manually, you can go to the Looker icon and select the **Sync Now** option.
 
 The following colors of the progress bar indicate the status of the Objective:
 
