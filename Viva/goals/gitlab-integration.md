@@ -37,16 +37,28 @@ All Users and admins can use this feature. Admins also have permissions to manag
 Admins can enable this integration by performing the following steps:
 
 - From the sidebar, go to **Admin** and select the **Integrations** tab.
+  
+    :::image type="content" source="../media/goals/10/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/10/viva-goals-integrations-page.png":::
 
 - Against **GitLab**, you'll have an option to **Enable** the integration. If you have a connection already created, you'll have an option to **Manage** the integration.
+  
+    :::image type="content" source="../media/goals/10/gitlab-enable-button.png" alt-text="Enabling GitLab in Viva Goals." lightbox="../media/goals/10/gitlab-enable-button.png":::
+  
+- This integration can also be **disabled** from the same section. Go to **Change** and select **Disable integration** from the dropdown to disable this integration.
+    
+   :::image type="content" source="../media/goals/10/gitlab-disable-button.png" alt-text="Disabling GitLab in Viva Goals." lightbox="../media/goals/10/gitlab-disable-button.png"::: 
 
 ## How to connect GitLab to your Viva Goals account - Admins
 
 - After enabling the integration as an admin, you need to configure a GitLab connection from the **GitLab configuration** page.
 
 - Select **New Connection**, and sign in to your GitLab account.
+  
+    :::image type="content" source="../media/goals/10/gitlab-new-connection-button.png" alt-text="Adding a new GitLab connection in Viva Goals." lightbox="../media/goals/10/gitlab-new-connection-button.png":::
 
 - Provide a name for the connection.
+  
+    :::image type="content" source="../media/goals/10/gitlab-configure-new-connection.png" alt-text="Configuring a new GitLab connection in Viva goals." lightbox="../media/goals/10/gitlab-configure-new-connection.png":::
 
 - It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
@@ -57,12 +69,16 @@ Admins can enable this integration by performing the following steps:
 Once you've configured the connection, the next step is to start linking OKRs to the GitLab projects.
 
 - While **creating or editing an OKR**, select **Automatically from a data source**. From the drop-down menu, select **GitLab**.
+  
+    :::image type="content" source="../media/goals/10/gitlab-datasource.png" alt-text="Selecting GitLab from the list of data sources in Viva Goals." lightbox="../media/goals/10/gitlab-datasource.png":::
 
 - If you've already created a connection, or if your administrator has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared.
 
 - Select the method using which you want to measure the progress — **percent complete** or **KPI (success metric)**. If you're choosing key performance indicator (KPI), provide a metric, starting value, and target value.
 
 - Select a connection in case of multiple connections, and all the **associated projects** will be available in the drop-down. Choose a **project** and select a **Milestone**.
+  
+    :::image type="content" source="../media/goals/10/gitlab-new-connection-details.png" alt-text="Adding new GitLab connection to OKRs in Viva goals." lightbox="../media/goals/10/gitlab-new-connection-details.png":::
 
 - Select an **Assignee** to keep tabs on the issues being handled by a specific user. Select the **custom labels** as applicable.
 
