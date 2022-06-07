@@ -154,7 +154,7 @@ Next, add tags.
 2. Choose **Managed metadata**.
 3. Name the column SkillTags.
 4. Select **More options**.
-5. Toggle to allow multiple values.
+5. Toggle to allow multiple values. <br>
     [![Screenshot of the toggle to allow multiple values](../media/learning/skilltags.png)](../media/learning/skilltags-big.png#lightbox)
 6. You can either choose to use a predefined term set or a customized term set.
 
