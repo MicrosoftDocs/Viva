@@ -108,13 +108,9 @@ Some customers like to use a specific task in Asana as their project, with the s
 
 5. Select the Task assigned to field as Any or Unassigned, then select Next and Save.
 
-6. If you’ve chosen to track progress by % of subtasks completed, then:
-
-    a. Enable the Use this task name as the project name in Viva Goals checkbox.
+6. If you’ve chosen to track progress by % of subtasks completed, then enable the Use this task name as the project name in Viva Goals checkbox and save your project.
     
     :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Adding an Asana task as a Project in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
-
-    b. Select Next and Save to save your project! 
 
 This will create the specific Asana task or subtasks as the project and pull in the subtasks as the task list in Viva Goals.
 
