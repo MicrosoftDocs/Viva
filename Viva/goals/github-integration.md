@@ -52,7 +52,7 @@ Admins can perform the following steps to enable this integration:
 
 - Select **New Connection**, and sign into your GitHub account.
     
-    :::image type="content" source="../media/goals/10/github-new-connection-button.png" alt-text="Adding a new GitHub connection in Viva Goals." lightbox="../media/goals/10/github-disable-button.png"::: 
+    :::image type="content" source="../media/goals/10/github-new-connection-button.png" alt-text="Adding a new GitHub connection in Viva Goals." lightbox="../media/goals/10/github-new-connection-button.png"::: 
 
 - Provide a name for the connection.
     
