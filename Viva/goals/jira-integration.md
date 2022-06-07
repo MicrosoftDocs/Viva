@@ -54,7 +54,7 @@ Admins can enable this integration by performing the following steps:
 
 - Select **New Connection**, and provide a name for the connection.
     
-    :::image type="content" source="../media/goals/9/jira-new-connection-button.png" alt-text="Adding new Jira connection in Viva Goals." lightbox="../media/goals/9/excel-new-connection-button.png":::
+    :::image type="content" source="../media/goals/9/jira-new-connection-button.png" alt-text="Adding new Jira connection in Viva Goals." lightbox="../media/goals/9/jira-new-connection-button.png":::
 
 - Add the **Server URL** of your Jira account.
     
