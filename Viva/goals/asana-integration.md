@@ -112,7 +112,7 @@ Some customers like to use a specific task in Asana as their project, with the s
 
     a. Enable the Use this task name as the project name in Viva Goals checkbox.
     
-        :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Adding an Asana task as a Project in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
+    :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Adding an Asana task as a Project in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
 
     b. Select Next and Save to save your project! 
 
