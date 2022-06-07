@@ -35,10 +35,16 @@ Let's take this example: you're a marketer using Asana to work on a customer adv
 An admin can set up the Asana integration in Viva Goals. 
 
 1. Navigate to the Viva Goals integrations page through **Admin -> Integrations**.
+    
+    :::image type="content" source="../media/goals/8/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/8/viva-goals-integrations-page.png":::
 
 2. **Enable** the Asana integration.
+    
+    :::image type="content" source="../media/goals/8/asana-enable-button.png" alt-text="Enabling Asana in Viva Goals." lightbox="../media/goals/8/asana-enable-button.png":::
 
 3. Select **New Connection** and in the popup that follows, sign in to your Asana account. Next, configure Asana connections that can be used by Viva Goals users to link their OKRs and update progress.
+    
+    :::image type="content" source="../media/goals/8/asana-new-connection-button-in-viva-goals.png" alt-text="Configuring new Asana connection in Viva Goals." lightbox="../media/goals/8/asana-new-connection-button-in-viva-goals.png":::
 
 4. Select‘**Next** to finish the setup.
 
