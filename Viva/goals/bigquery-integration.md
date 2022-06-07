@@ -64,17 +64,17 @@ Now it's time to assign this role to Viva Goals' service account so that Viva Go
 
 Navigate to the hamburger menu on the top left corner of the screen and choose IAM & Admin -> IAM.
   
-:::image type="content" source="../media/goals/8/bigquery-IAM-tab.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/8/bigquery-IAM-tab.png":::
+:::image type="content" source="../media/goals/8/bigquery-IAM-tab.png" alt-text="Choose IAM under IAM & Admin." lightbox="../media/goals/8/bigquery-IAM-tab.png":::
 
 Select the + Add button on top of the page.
   
-:::image type="content" source="../media/goals/8/bigquery-add-button.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/8/bigquery-add-button.png":::
+:::image type="content" source="../media/goals/8/bigquery-add-button.png" alt-text="Select the Add button on top of the page." lightbox="../media/goals/8/bigquery-add-button.png":::
 
-In the Add screen add the Viva Goals' service account email (mentioned below) into the members field.
+In the Add screen add the Viva Goals' service account email (mentioned below) into the **New Principals** field.
 
 ally-bigquery@ally-346417.iam.gserviceaccount.com
   
-:::image type="content" source="../media/goals/8/bigquery-details.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/8/bigquery-details.png":::
+:::image type="content" source="../media/goals/8/bigquery-details.png" alt-text="Add the service email account in the New Principals field." lightbox="../media/goals/8/bigquery-details.png":::
 
 Select Save to complete setup.
 
