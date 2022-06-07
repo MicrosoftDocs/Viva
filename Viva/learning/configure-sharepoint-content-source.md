@@ -199,7 +199,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
 
 >[!NOTE]
-> While only **Microsoft 365 (recommended)** and **Mail-enabled security** group types are supported, it is recommended that you use **Microsoft 365 (recommended)**.
+> While only **Microsoft 365 (recommended)** and **Mail-enabled security** group types are supported, it is recommended that you use a **Microsoft 365 Group**.
 
 >[!NOTE]
 > You'll need to add the owners as members in order for them to have access.
