@@ -56,7 +56,7 @@ Admins can perform the following steps to enable this integration:
 
 - Provide a name for the connection.
     
-    :::image type="content" source="../media/goals/10/github-configure-new-connection.png" alt-text="Configuring a new GitHub connection in Viva Goals." lightbox="../media/goals/10/github-configure-new-connection-button.png"::: 
+    :::image type="content" source="../media/goals/10/github-configure-new-connection.png" alt-text="Configuring a new GitHub connection in Viva Goals." lightbox="../media/goals/10/github-configure-new-connection.png"::: 
 
 - It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
