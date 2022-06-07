@@ -55,6 +55,8 @@ Admins can perform the following steps to enable this integration:
     :::image type="content" source="../media/goals/9/excel-new-connection-button.png" alt-text="Adding new Excel Online connection in Viva Goals." lightbox="../media/goals/9/excel-new-connection-button.png":::
 
 - Provide a name for the connection.
+  
+    :::image type="content" source="../media/goals/9/excel-configure-new-connection.png" alt-text="Configuring new Excel Online connection in Viva Goals." lightbox="../media/goals/9/excel-configure-new-connection.png":::
 
 - It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
@@ -66,7 +68,7 @@ Once you have configured the connection, the next step is to start linking OKRs 
 
 - While **creating or editing an OKR**, select **Connect data source to auto-update progress**. From the drop-down menu, select **Excel Online**.
   
-    :::image type="content" source="../media/goals/9/excel-configure-new-connection.png" alt-text="Configuring new Excel Online connection in Viva Goals." lightbox="../media/goals/9/excel-configure-new-connection.png":::
+    :::image type="content" source="../media/goals/9/select-excel-datasource.png" alt-text="Selecting Excel Online from the list of data sources in Viva Goals." lightbox="../media/goals/9/select-excel-datasource.png":::
 
 - If you have already created a connection, or if your admin has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared.
 
