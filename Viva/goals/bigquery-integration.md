@@ -96,7 +96,7 @@ The admin can take the following steps to set up the BigQuery integration in Viv
   
 4. Viva Goals uses a service account with OAuth 2.0 to call into the Google BigQuery APIs. For the BigQuery integration to work, you need to add Viva Goals' service account to your BigQuery project and provide the required access & permissions.
   
-    :::image type="content" source="../media/goals/8/bigquery-creating-new-connection.png" alt-text="Configuring new BigQuery connection in Viva Goals." lightbox="../media/goals/8/bigquery-creating-new-connection.png":::
+    :::image type="content" source="../media/goals/8/bigquery-configure-new-connection.png" alt-text="Configuring new BigQuery connection in Viva Goals." lightbox="../media/goals/8/bigquery-configure-new-connection.png":::
   
 5. Click **Next** to finish the setup.
 
