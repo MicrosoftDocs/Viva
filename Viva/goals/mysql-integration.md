@@ -45,8 +45,12 @@ Admins can perform the following steps to enable this integration:
 - After you enable the integration, the first step is to configure a MySQL connection.
 
 - Select **New Connection**, and provide a **Connection Name**.
+  
+    :::image type="content" source="../media/goals/10/mysql-new-connection-button.png" alt-text="Adding a new MySQL connection in Viva Goals." lightbox="../media/goals/10/mysql-new-connection-button.png"::: 
 
 - Provide the **Hostname/IP address** of the database server, the **Port** number that the server is listening on.
+  
+    :::image type="content" source="../media/goals/10/mysql-configure-new-connection.png" alt-text="Configuring a new MySQL connection in Viva Goals." lightbox="../media/goals/10/mysql-configure-new-connection.png":::
 
 - Furnish the **User** and **Password** details. Upon authentication, the associated databases will be populated automatically. Select your **Database** from the dropdown menu.
 
@@ -59,12 +63,16 @@ Viva Goals allows you to connect with multiple databases. Select **New Connectio
 Once you have configured the connection, the next step is to start linking OKRs to the MySQL databases.
 
 - While creating or editing an OKR, select **Connect data source to auto-update progress**. From the drop-down menu, select **MySQL**.
+  
+    :::image type="content" source="../media/goals/10/mysql-datasource.png" alt-text="Selecting MySQL from the list of data sources in Viva Goals." lightbox="../media/goals/10/mysql-datasource.png"::
 
 - If you have already created a connection, or if your admin has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared.
 
 - Select the method using which you want to measure the progress — **percent complete** or **KPI (success metric)**. If you're choosing key performance indicator (KPI), provide a metric, starting value, and target value.
 
 - Select a connection, and provide the **MySQL query**. This query will return a single numeric value, and this value will be tied to the OKR progress.
+  
+    :::image type="content" source="../media/goals/10/mysql-connection-details.png" alt-text="Adding new MySQL connection to OKRs in Viva goals." lightbox="../media/goals/10/mysql-connection-details.png":::
 
 - Validate the query using the query result.
 
