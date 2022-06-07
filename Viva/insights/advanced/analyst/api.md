@@ -113,7 +113,9 @@ A unique RSA-2048 key pair must be created for each customer that installs your 
 
 Use the following path:
 
-```POST https://api.orginsights.viva.office.com /v{version}/tenants/{tenant}/scopes/{scope}/egressPartnerKey```
+```POST
+ https://api.orginsights.viva.office.com /v{version}/tenants/{tenant}/scopes/{scope}/egressPartnerKey
+```
 
 With the following required parameters for the path:
 
