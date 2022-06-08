@@ -46,7 +46,7 @@ An admin can set up the Asana integration in Viva Goals.
     
     :::image type="content" source="../media/goals/8/asana-configure-new-connection.png" alt-text="Configuring new Asana connection in Viva Goals." lightbox="../media/goals/8/asana-configure-new-connection.png":::
 
-4. Select‘**Next** to finish the setup.
+4. Select **Next** to finish the setup.
 
 Viva Goals allows you to connect with multiple Asana accounts. Select **New connection** to add another and differentiate them using names. These names are displayed to members when they link their OKRs to Asana projects.
 
