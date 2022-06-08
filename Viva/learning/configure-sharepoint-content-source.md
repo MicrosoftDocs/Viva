@@ -110,25 +110,62 @@ Create a folder to store learning content for your organization.
 
     ![Screenshot of the Link copied popup.](../media/learning/spfolder-8.png)
 
+### Metadata
+
 Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning by the Microsoft Graph API.
 
-To improve overall discovery and search relevance of the content, we recommend adding a **Description** column. If there's already a description column present, you can delete it and add a new one by following the steps below.
+To improve overall discovery and search relevance of the content, we recommend adding columns for description, a thumbnail URL, content duration, content author, and tags. If there's already a description column present, you can delete it and add a new one by following the steps below.
 
-To add a **Description** column to the document library page, follow these steps:
+To add a metadata field, follow these steps first.
 
-1. On the **Documents** page, select **Add column**.
+1. Select the folder from your learning content repository.
+2. From the **Documents** page, select **Add column**.
+    [![Screenshot of the Documents page with Add column selected.](../media/learning/sp-new-column.png)](../media/learning/sp-new-column-big.png#lightbox)
 
-2. Select the **Show actions** option, and then select **Single line of text**.
+To add a description column to the document library page, follow these steps:
 
-    :::image type="content" alt-text="Documents page in SharePoint showing the Show actions options with Single line of text highlighted." source="../media/learning/learning-sharepoint-curation1.png":::
+1. Follow the initial steps to create a column.
+2. Choose **Multiple lines of text**.
+3. Name the column ContentDescription.
+4. Add custom descriptions for each item. If no description is supplied, Viva Learning will provide a default message that highlights the content as being from your own SharePoint library.
 
-3. On the **Create a column** panel, in the **Name** field, add a descriptive name for the column. Select **Save**.
+Next, provide a thumbnail image.
 
-    ![Create a column panel in SharePoint showing the Name and other fields.](../media/learning/learning-sharepoint-curation2.png)
+1. Follow the initial steps to create a column.
+2. Choose **Hyperlink**.
+3. Name the column ThumbnailWebURL.
+4. If you already have the URLs available, skip to step 8. If you have images stored in SharePoint that you want to use for thumbnails, start with step 5.
+5. Go to the document library where your images are stored in SharePoint.
+6. Select the image you want to use, then choose **Details**.
+7. Choose **Path** and select the copy icon.
+    [![Screenshot of an image in a document library with Copy link selected.](../media/learning/copy-link.png)](../media/learning/copy-link-big.png#lightbox)
+8. Add the URLs for each item.
 
-4. On the **Documents** page, in the **Description** column, add custom descriptions for each item. If no description is supplied, Viva Learning will provide a default message that highlights the content as being from your own SharePoint library.
+Next, add the duration of the content.
 
-     ![Documents page in SharePoint showing the descriptions in the Description column.](../media/learning/learning-sharepoint-curation3.png)
+1. Follow the initial steps to create a column.
+2. Choose **Number**.
+3. Name the column Duration.
+4. Provide the duration of the content in seconds.
+
+Next, add tags.
+
+1. Follow the initial steps to create a column.
+2. Choose **Managed metadata**.
+3. Name the column SkillTags.
+4. Select **More options**.
+5. Toggle to allow multiple values. <br>
+    [![Screenshot of the toggle to allow multiple values](../media/learning/skilltags.png)](../media/learning/skilltags-big.png#lightbox)
+6. You can either choose to use a predefined term set or a customized term set.
+
+[Learn more about how to create a Managed Metadata column.](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f)
+
+Finally, add the author.
+
+1. Follow the initial steps to create a column.
+2. Choose **Multiple lines of text**.
+3. Name the column ContentAuthor.
+4. Add the author or authors of the content.
 
 ### Provide your own organization's content
 
@@ -162,7 +199,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
 
 >[!NOTE]
-> While only **Microsoft 365 (recommended)** and **Mail-enabled security** group types are supported, it is recommended that you use **Microsoft 365 (recommended)**.
+> While only **Microsoft 365 (recommended)** and **Mail-enabled security** group types are supported, it is recommended that you use a **Microsoft 365 Group**.
 
 >[!NOTE]
 > You'll need to add the owners as members in order for them to have access.
