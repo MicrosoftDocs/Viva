@@ -86,5 +86,5 @@ Once the setup is complete, users in your organization can link their OKRs to Tr
 
     For percent complete based objectives, Viva Goals will compute the progress based on the percentage of cards that has a completion status as **Completed** to the total number of cards matching the filters and the configuration. In this case, a good example will be a board with a list of cards that maps to a project and you want to measure the ongoing progress of the project over time.
 
-6. Select **Next** to finish and save your OKR. You should now see a Trello icon next to the OKR - now Viva Goals will automatically count up the finished blog posts. The OKR syncs automatically every hour, but to refresh it manually you can select **refresh**. 
+6. Select **Next** to finish and save your OKR. You should now see a Trello icon next to the OKR⏤now Viva Goals will automatically count up the finished blog posts. The OKR syncs automatically every hour, but to refresh it manually you can select **refresh**. 
     
