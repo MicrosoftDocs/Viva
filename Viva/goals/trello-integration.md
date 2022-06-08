@@ -78,7 +78,7 @@ Once the setup is complete, users in your organization can link their OKRs to Tr
 
     If you have the completed blogs marked as labels in Trello instead, you can select the label that you use to mark cards as completed from the **Labels** dropdown. Labels can also be used for filtering specific cards belonging to a category or subcategory.
 
-    You can also filter based on Completion status. This will let you filter cards that have due dates and those marked as completed or cards that have due dates and aren't completed. To select all cards, choose **Any,** which will include cards of any status whether it has a due date or not.
+    You can also filter based on Completion status. This will let you filter cards that have due dates and those marked as completed or cards that have due dates and aren't completed. To select all cards, choose **Any,** which will include cards of any status.
 
     **% Completed vs KPI**
 
@@ -86,6 +86,5 @@ Once the setup is complete, users in your organization can link their OKRs to Tr
 
     For percent complete based objectives, Viva Goals will compute the progress based on the percentage of cards that has a completion status as **Completed** to the total number of cards matching the filters and the configuration. In this case, a good example will be a board with a list of cards that maps to a project and you want to measure the ongoing progress of the project over time.
 
-    In the following example, we're counting the number of completed blog posts:
-
-6. Hit next to finish and save your OKR. You should now see a Trello icon next to the OKR - now Viva Goals will automatically count up the finished blog posts. The OKR syncs automatically every hour, but to refresh it manually you can select **refresh**.
+6. Select **Next** to finish and save your OKR. You should now see a Trello icon next to the OKR - now Viva Goals will automatically count up the finished blog posts. The OKR syncs automatically every hour, but to refresh it manually you can select **refresh**. 
+    
