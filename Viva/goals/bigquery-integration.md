@@ -32,21 +32,21 @@ Take this example: you have data inside your BigQuery warehouse to track the num
 
 Viva Goals uses a service account with OAuth 2.0 to call into the Google BigQuery APIs. For the BigQuery integration to work, you need to add the Viva Goals service account (ally-bigquery@ally-346417.iam.gserviceaccount.com) to your BigQuery project and provide the required access & permissions. Read on for step by step instructions.
 
-### Create a IAM role for BigQuery
+### Create an IAM role for BigQuery
   
 Follow the steps below in your Google Cloud platform console to Create a role.
 
-Log in to your google cloud platform developers console - https://console.developers.google.com/
+1. Log in to your google cloud platform developers console - https://console.developers.google.com/
 
-Navigate to the hamburger menu on the top left corner of the screen and choose IAM & Admin -> Roles.
+2. Navigate to the hamburger menu on the top left corner of the screen and choose IAM & Admin -> Roles.
 
-:::image type="content" source="../media/goals/goals-create-IAM-role-for-bigQuery.png" alt-text="Image of create a IAM Role for BigQuery " lightbox="../media/goals/goals-create-IAM-role-for-bigQuery.png":::
+    :::image type="content" source="../media/goals/goals-create-IAM-role-for-bigQuery.png" alt-text="Image of create a IAM Role for BigQuery " lightbox="../media/goals/goals-create-IAM-role-for-bigQuery.png":::
 
-From the roles screen, select the + Create Role on the top of the page.
+3. From the roles screen, select the + Create Role on the top of the page.
 
-:::image type="content" source="../media/goals/goals-create-role.png" alt-text="Image of create role" lightbox="../media/goals/goals-create-role.png":::
+    :::image type="content" source="../media/goals/goals-create-role.png" alt-text="Image of create role" lightbox="../media/goals/goals-create-role.png":::
 
-Fill in the details in the form and proceed to "Add Permissions" and add the following permissions
+4. Fill in the details in the form and proceed to "Add Permissions" and add the following permissions
 
 bigquery.datasets.get
 
@@ -56,27 +56,27 @@ bigquery.tables.get
 
 bigquery.tables.getData
 
-Select Create to complete the role creation.
+5. Select Create to complete the role creation.
 
 ### Provide access to the Viva Goals service account
 
 Now it's time to assign this role to Viva Goals' service account so that Viva Goals has permissions to read information from BigQuery and connect them to the OKRs.
 
-Navigate to the hamburger menu on the top left corner of the screen and choose IAM & Admin -> IAM.
+1. Navigate to the hamburger menu on the top left corner of the screen and choose IAM & Admin -> IAM.
   
-:::image type="content" source="../media/goals/8/bigquery-iam-tab.png" alt-text="Choose IAM under IAM & Admin." lightbox="../media/goals/8/bigquery-iam-tab.png":::
+    :::image type="content" source="../media/goals/8/bigquery-iam-tab.png" alt-text="Choose IAM under IAM & Admin." lightbox="../media/goals/8/bigquery-iam-tab.png":::
 
-Select the + Add button on top of the page.
+2. Select the + Add button on top of the page.
   
-:::image type="content" source="../media/goals/8/bigquery-add-button.png" alt-text="Select the Add button on top of the page." lightbox="../media/goals/8/bigquery-add-button.png":::
+    :::image type="content" source="../media/goals/8/bigquery-add-button.png" alt-text="Select the Add button on top of the page." lightbox="../media/goals/8/bigquery-add-button.png":::
 
-In the Add screen add the Viva Goals' service account email (mentioned below) into the **New Principals** field.
+3. In the Add screen add the Viva Goals' service account email (mentioned below) into the **New Principals** field.
 
 ally-bigquery@ally-346417.iam.gserviceaccount.com
   
-:::image type="content" source="../media/goals/8/bigquery-details.png" alt-text="Add the service email account in the New Principals field." lightbox="../media/goals/8/bigquery-details.png":::
+    :::image type="content" source="../media/goals/8/bigquery-details.png" alt-text="Add the service email account in the New Principals field." lightbox="../media/goals/8/bigquery-details.png":::
 
-Select Save to complete setup.
+4. Select Save to complete setup.
 
 ## Step 2: Set up the BigQuery integration in Viva Goals
 
