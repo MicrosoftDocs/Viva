@@ -90,7 +90,7 @@ The admin can take the following steps to set up the BigQuery integration in Viv
   
     :::image type="content" source="../media/goals/8/bigquery-enable-button.png" alt-text="Enabling BigQuery in Viva Goals." lightbox="../media/goals/8/bigquery-enable-button.png":::
   
-3. Click on **New Connection**. In the popup that follows, enter the connection name and the BigQuery Project ID that holds the data you would like to connect to OKRs.
+3. Select **New Connection**. In the popup that follows, enter the connection name and the BigQuery Project ID that holds the data you would like to connect to OKRs.
   
     :::image type="content" source="../media/goals/8/bigquery-new-connection-button.png" alt-text="Adding BigQuery connection in Viva Goals." lightbox="../media/goals/8/bigquery-new-connection-button.png":::
   
@@ -98,15 +98,15 @@ The admin can take the following steps to set up the BigQuery integration in Viv
   
     :::image type="content" source="../media/goals/8/bigquery-configure-new-connection.png" alt-text="Configuring new BigQuery connection in Viva Goals." lightbox="../media/goals/8/bigquery-configure-new-connection.png":::
   
-5. Click **Next** to finish the setup.
+5. Select **Next** to finish the setup.
 
-Viva Goals allows you to connect with multiple BigQuery projects. Click **New connection** to add another and differentiate them using names. These names are displayed to members when they link their OKRs to BigQuery data.
+Viva Goals allows you to connect with multiple BigQuery projects. select **New connection** to add another and differentiate them using names. These names are displayed to members when they link their OKRs to BigQuery data.
 
 ## Step 3: Use the BigQuery integration
 
 Once the setup is complete, users in your organization can link the success of their OKRs directly to data inside BigQuery cloud datasets.
 
-1. While creating (or editing) an Objective or Key Result, click on **Connect data source to auto-update progress**.
+1. While creating (or editing) an Objective or Key Result, select on **Connect data source to auto-update progress**.
 2. From the list of integrations, pick BigQuery.
   
     :::image type="content" source="../media/goals/8/bigquery-datasource.png" alt-text="Selecting BigQuery from the list of data sources in Viva goals." lightbox="../media/goals/8/bigquery-datasource.png":::
@@ -116,4 +116,4 @@ Once the setup is complete, users in your organization can link the success of t
   
     :::image type="content" source="../media/goals/8/bigquery-connection-details.png" alt-text="Adding new BigQuery connection to OKRs in Viva goals." lightbox="../media/goals/8/bigquery-connection-details.png":::
   
-5. Select **next** to finish and save your OKR. You should now see a BigQuery icon next to the OKR. The OKR will sync automatically every hour, but you can refresh it manually by clicking on **refresh**.
+5. Select **Next** to finish and save your OKR. You should now see a BigQuery icon next to the OKR. The OKR will sync automatically every hour, but you can refresh it manually by selecting on **refresh**.
