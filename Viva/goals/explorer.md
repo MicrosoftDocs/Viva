@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
 search.appverid:
@@ -22,7 +22,7 @@ description: "Learn about Explorer, a powerful navigation and reporting tool for
 # Explorer
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 The Explorer can generate preset views and create custom views. Use the Explorer to filter out Objectives and Key Results (OKRs) and projects of interest, and save commonly viewed filters to quickly access them again in the future.
 
