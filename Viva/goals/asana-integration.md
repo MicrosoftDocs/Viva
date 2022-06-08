@@ -114,6 +114,6 @@ Some customers like to use a specific task in Asana as their project, with the s
 
 This will create the specific Asana task or subtasks as the project and pull in the subtasks as the task list in Viva Goals.
 
-While Viva Goals supports an Asana integration for OKRs, projects let you see the individual tasks and their completion state, helping you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last check-in - which tasks were completed, were any tasks added or removed.
+While Viva Goals supports an Asana integration for OKRs, projects let you see the individual tasks and their completion state, helping you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last check-in⏤which tasks were completed, were any tasks added or removed.
 
 Viva Goals will periodically check on project progress in Asana, and update status. Progress and Status are calculated for projects exactly like key results. Similar to key results, you can also check in on a project, where you can temporarily override the status. However, this will last only as long as Viva Goals doesn't detect a change in the completion status of the project in Asana, at which point, it will overwrite your check-in with an automated update.
