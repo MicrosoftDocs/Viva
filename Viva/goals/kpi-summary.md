@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
 search.appverid:
@@ -22,7 +22,7 @@ description: "Learn how the KPI Summary provides a single view for your most imp
 # Key Performance Indicator (KPI) Summary
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 Viva Goals' KPI Summary allows users to view one or many KPIs in a single view.
 
