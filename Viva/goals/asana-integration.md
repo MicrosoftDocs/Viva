@@ -44,7 +44,7 @@ An admin can set up the Asana integration in Viva Goals.
 
 3. Select **New Connection** and in the popup that follows, sign in to your Asana account. Next, configure Asana connections that can be used by Viva Goals users to link their OKRs and update progress.
     
-    :::image type="content" source="../media/goals/8/asana-new-connection-button.png" alt-text="Configuring new Asana connection in Viva Goals." lightbox="../media/goals/8/asana-new-connection-button.png":::
+    :::image type="content" source="../media/goals/8/asana-configure-new-connection.png" alt-text="Configuring new Asana connection in Viva Goals." lightbox="../media/goals/8/asana-configure-new-connection.png":::
 
 4. Select‘**Next** to finish the setup.
 
