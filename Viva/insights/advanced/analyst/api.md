@@ -49,8 +49,7 @@ With the following required parameters for the path:
 
 ```http
 {
- "requestId": "5c90fd79-6c11-40c7-a66d-f5af65e2b974"
-
+ "requestId": "5c90fd79-6c11-40c7-a66d-f5af65e2b974",
  "scopeId": "dbd9447b-405c-4946-ac5a-492d6e9bfecb" 
 
 }
@@ -77,12 +76,15 @@ With the following required parameters for the path:
 
 ### Request body
 
-```DecryptionKeyCreateRequest```
+```DecryptionKeyCreateRequest``` 
+
+[Model](#decryptionkeycreaterequest)
 
 ### Return type
 
 ```DecryptionKeyCreateResponse```
 
+[Model](#decryptionkeycreateresponse)
 ### Responses
 
 * **200** - Returns the created decryption keys as: ```DecryptionKeyCreateResponse```
@@ -125,9 +127,13 @@ With the following required parameters for the path:
 
 ```PartnerKeyInfoCreateRequest```
 
+[Model](#partnerkeyinfocreaterequest)
+
 ### Return type
 
 ```PartnerKeyInfoCreateResponse```
+
+[Model](#partnerkeyinfocreateresponse)
 
 ### Response
 
