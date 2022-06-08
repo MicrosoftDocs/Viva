@@ -21,7 +21,7 @@ description: "Learn how to add Viva Goals to Microsoft Teams to easily view, man
 # Microsoft Teams integration
 
 > [!IMPORTANT] 
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants, and that it is not being released to GCC, GCC High, and DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 You can use Viva Goals to manage your OKRs directly within Microsoft Teams.
 
