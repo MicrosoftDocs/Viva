@@ -22,7 +22,7 @@ description: "Learn how to integrate your OKRs in Viva Goals with Jira Views."
 # Jira integration
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants, and that it is not being released to GCC, GCC High, and DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 Integrating Jira with Viva Goals allows any updates on linked Jira user stories or epics to automatically track progress on Objectives and Key Results (OKRs) in Viva Goals. This makes for a powerful setup because it ensures your OKR process isn't waiting on manual check-ins and any progress is updated real-time on Viva Goals.
 
