@@ -21,7 +21,7 @@ description: "Learn how to integrate your PostgreSQL database with OKRs in Viva 
 # PostgreSQL integration
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants, and that it is not being released to GCC, GCC High, and DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 The Viva Goals PostgreSQL integration allows you to update your OKR progress automatically depending on the data fetched from your PostgreSQL database. 
 
