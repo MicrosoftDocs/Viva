@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
 search.appverid:
@@ -22,7 +22,7 @@ description: "Learn how to sync your Excel cell values with OKRs in Viva Goals."
 # Excel Online integration
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## Introduction to Excel Online integration
 
@@ -35,18 +35,28 @@ Let's use this example: you use Excel Online to keep tabs on the revenue generat
 Admins can perform the following steps to enable this integration:
 
 - From the sidebar, go to **Admin** and select the **Integrations** tab.
+  
+     :::image type="content" source="../media/goals/9/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/9/viva-goals-integrations-page.png":::
 
 - Against Excel Online, you'll have an option to **Enable** the integration. If a connection has been made previously or if the integration has been enabled already, you'll have the option to **Manage** the enabled integration.
 
+    :::image type="content" source="../media/goals/9/excel-enable-button.png" alt-text="Enabling Excel Online in Viva Goals." lightbox="../media/goals/9/excel-enable-button.png":::
+  
 - This integration can also be **disabled** from the same section. Go to **Change** and select **Disable integration** from the dropdown to disable the integration.
+  
+    :::image type="content" source="../media/goals/9/excel-disable-button.png" alt-text="Disabling Excel Online in Viva Goals." lightbox="../media/goals/9/excel-disable-button.png":::
 
 ## How to configure the Excel Online connection
 
 - After enabling the integration, the first step is to configure an Excel Online connection.
 
 - Select **New Connection**, and sign in to your Excel account.
+  
+    :::image type="content" source="../media/goals/9/excel-new-connection-button.png" alt-text="Adding new Excel Online connection in Viva Goals." lightbox="../media/goals/9/excel-new-connection-button.png":::
 
 - Provide a name for the connection.
+  
+    :::image type="content" source="../media/goals/9/excel-configure-new-connection.png" alt-text="Configuring new Excel Online connection in Viva Goals." lightbox="../media/goals/9/excel-configure-new-connection.png":::
 
 - It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
@@ -57,12 +67,16 @@ Viva Goals allows you to connect with multiple Excel sheets. Select **New Connec
 Once you have configured the connection, the next step is to start linking OKRs to Excel sheets.
 
 - While **creating or editing an OKR**, select **Connect data source to auto-update progress**. From the drop-down menu, select **Excel Online**.
+  
+    :::image type="content" source="../media/goals/9/select-excel-datasource.png" alt-text="Selecting Excel Online from the list of data sources in Viva Goals." lightbox="../media/goals/9/select-excel-datasource.png":::
 
 - If you have already created a connection, or if your admin has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared.
 
 - Select the method using which you want to measure the progress—percent complete or KPI (success metric). If you're choosing key performance indicator (KPI), provide a metric, starting value, and target value.
 
 - Select a connection, and select a **Workbook**. As soon as you select the Workbook, the associated Sheets will be displayed in the Sheet dropdown menu. Select a **Sheet**.
+  
+    :::image type="content" source="../media/goals/9/excelonline-connection-details.png" alt-text="Adding new Excel Online connection to OKRs in Viva goals." lightbox="../media/goals/9/excelonline-connection-details.png":::
 
 - To locate the cell accurately, furnish the **Column** and the **Row Number**.
 
