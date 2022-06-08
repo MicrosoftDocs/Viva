@@ -22,7 +22,7 @@ description: "Learn about templates that you can use as an inspiration while cre
 # Review Dashboard Templates
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants, and that it is not being released to GCC, GCC High, and DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 Business reviews happen across multiple levels in an organization. Review Dashboards in Viva Goals help you run these review meetings effectively.
 
