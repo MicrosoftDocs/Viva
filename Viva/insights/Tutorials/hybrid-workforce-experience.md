@@ -99,7 +99,7 @@ For more details on how to add new data for existing employees, review the docum
 1. If you're not signed into Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](/viva/insights/Tutorials/power-bi-templates#troubleshooting) for more details.
 
     :::image type="complex" source="../images/wpa/tutorials/hwfe-o-data-not-signed-in.png" alt-text="Screenshot of pop-up window in Power BI prompting users to sign in":::
-       Screenshot that shows a pop-up window in Power BI, titled "OData feed." There is square icon beneath the window title; a URL to its right reads, "https://workplaceanalytics.office.com/205951...". In smaller font, a note underneath the URL reads, "You aren't signed in." Beneath the note, there is a Sign in button. The left-hand sidebar contains five section titles arranged vertically; "Organizational account" is selected. Save and Cancel buttons are in the bottom right of the window.
+       Screenshot that shows a pop-up window in Power BI, titled "OData feed." There is square icon beneath the window title; a URL to its right reads, "https://workplaceanalytics.office.com/205951...". In smaller font, a note underneath the URL reads, "You aren't signed in." Beneath the note, there is a Sign-in button. The left-hand sidebar contains five section titles arranged vertically; "Organizational account" is selected. Save and Cancel buttons are in the bottom right of the window.
     :::image-end:::
 
 1. Select and enter credentials for the organizational account that you use to sign in to the app, and then select **Save**.
