@@ -33,10 +33,16 @@ When you link your objectives to the corresponding key performance indicator (KP
 Admins can perform the following steps to enable this integration:
 
 - From the sidebar, go to **Admin** and select the **Integrations** tab.
+  
+     :::image type="content" source="../media/goals/10/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/10/viva-goals-integrations-page.png":::
 
 - Against **Box**, you can **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you can **Manage** the enabled integration.
+  
+    :::image type="content" source="../media/goals/10/box-enable-button.png" alt-text="Enabling Box in Viva Goals." lightbox="../media/goals/10/box-enable-button.png":::
 
 - This integration can also be disabled from the same section. Go to **Change** and select **Disable integration** from the dropdown to disable the integration.
+  
+    :::image type="content" source="../media/goals/10/box-disable-button.png" alt-text="Disabling Box in Viva Goals." lightbox="../media/goals/10/box-disable-button.png":::
 
 ## How to configure the Box integration
 
@@ -45,8 +51,12 @@ Admins can perform the following steps to enable this integration:
 2. Select the **Add Objective** button to create an objective.
 
 3. Open the newly created objective and select **Edit** within the **More** option.
+  
+     :::image type="content" source="../media/goals/10/box-okr-edit-button.png" alt-text="Edit OKR to add new Box connection in Viva Goals." lightbox="../media/goals/10/box-okr-edit-button.png":::
 
-4. Select **Box** from the drop-down menu within **Search**.
+4. Under **Progress**, select **Automatically from a data source** and choose **Box** from the search menu.
+  
+    :::image type="content" source="../media/goals/10/box-datasource.png" alt-text="Selecting Box from the list of data sources in Viva Goals." lightbox="../media/goals/10/box-datasource.png":::
 
 5. You can add a new connection between Viva Goals and Box by signing in with your Box credentials.
 
@@ -59,6 +69,8 @@ Once you have configured the connection, the next step is to start linking OKRs 
 1. Once the connection is established, select the KPIs you would want to reflect within the objective from your spreadsheet in Box. To do this, select **edit integration** which comes up when you select the Box icon.
 
 2. Select the **Edit Integration** link from the drop-down.
+  
+    :::image type="content" source="../media/goals/10/box-edit-integration-button.png" alt-text="Edit integration to add new Box connection in Viva Goals." lightbox="../media/goals/10/box-edit-integration-button.png":::
 
 3. Next, select the spreadsheet or the excel workbook(.xlsx) by searching for it in the search bar. You can search for any sheet that you own or has been shared with you by other users. For your spreadsheet to be processed, it needs to be unlocked from the sheet.
 
@@ -69,6 +81,8 @@ Once you have configured the connection, the next step is to start linking OKRs 
 6. It takes up to 15 minutes for your newly created Named range to be displayed in the **Select a named range** dropdown.
 
 7. Once you select the named range, you'll see a preview of the selected value from the sheet so you can double-check from the sheet.
+  
+    :::image type="content" source="../media/goals/10/box-connection-details.png" alt-text="Adding new Box connection to OKRs in Viva goals." lightbox="../media/goals/10/box-connection-details.png":::
 
 8. Select the **Next** button. You'll now see that the objective has been connected to Box.
 
