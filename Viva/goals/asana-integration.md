@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
 search.appverid:
@@ -22,7 +22,7 @@ description: "Learn how to use the Asana integration with your OKRs."
 # Asana integration
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## About the Asana integration
 
@@ -35,12 +35,18 @@ Let's take this example: you're a marketer using Asana to work on a customer adv
 An admin can set up the Asana integration in Viva Goals. 
 
 1. Navigate to the Viva Goals integrations page through **Admin -> Integrations**.
+    
+    :::image type="content" source="../media/goals/8/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/8/viva-goals-integrations-page.png":::
 
 2. **Enable** the Asana integration.
+    
+    :::image type="content" source="../media/goals/8/asana-enable-button.png" alt-text="Enabling Asana in Viva Goals." lightbox="../media/goals/8/asana-enable-button.png":::
 
 3. Select **New Connection** and in the popup that follows, sign in to your Asana account. Next, configure Asana connections that can be used by Viva Goals users to link their OKRs and update progress.
+    
+    :::image type="content" source="../media/goals/8/asana-configure-new-connection.png" alt-text="Configuring new Asana connection in Viva Goals." lightbox="../media/goals/8/asana-configure-new-connection.png":::
 
-4. Select‘**Next** to finish the setup.
+4. Select **Next** to finish the setup.
 
 Viva Goals allows you to connect with multiple Asana accounts. Select **New connection** to add another and differentiate them using names. These names are displayed to members when they link their OKRs to Asana projects.
 
@@ -51,12 +57,14 @@ Once the setup is complete, users in your organization can link their OKRs to As
 1. While creating (or editing) an Objective or Key Result, select **Add an integration**.
 
 2. From the list of integrations, pick **Asana**.
+    
+     :::image type="content" source="../media/goals/8/asana-datasource.png" alt-text="Selecting Asana from the list of data sources in Viva goals." lightbox="../media/goals/8/asana-datasource.png":::
 
 3. Next, select the **Connection**, if multiple exist, and link a project to the objective. To do so, select the name of the project.
+    
+    :::image type="content" source="../media/goals/8/asana-new-connection-details-viva-goals.png" alt-text="Adding new Asana connection to OKRs in Viva goals." lightbox="../media/goals/8/asana-new-connection-details-viva-goals.png":::
 
 4. To further filter the list of tasks or subtasks, select tasks assigned to a user or pick tasks with a specific status.
-
-    In the following example, we're counting the total number of customer executives who have been onboarded based on different segments. We’re tracking the progress by the number of subtasks completed under the main task.
 
 5. Select **Next** to finish and save your OKR. You should now see an Asana icon next to the OKR. Viva Goals will automatically count up the finished blog posts. The OKR syncs automatically every hour, but to refresh manually, select **refresh**.
 
@@ -80,15 +88,19 @@ With Viva Goals projects, you can now view your Asana projects inside of Viva Go
 
 ### See all the tasks from an Asana project
 
-Settng up the project in Viva Goals is as easy as connecting to Asana, picking the project, and optionally filtering to a subset of tasks on the project that you care about.
+Setting up the project in Viva Goals is as easy as connecting to Asana, picking the project, and optionally filtering to a subset of tasks on the project that you care about.
 
 ### Use a specific Asana task as the project, with its subtasks as the task list
 
 Some customers like to use a specific task in Asana as their project, with the subtasks as the task list. We support this as well, and you can set your project name in Viva Goals to the name of your Asana task. 
 
-1. Start by adding a project, and select the Automatically based on completed tasks option to calculate progress.
+1. Start by adding a project, and select **Add tasks** under **Outcome**.
+    
+    :::image type="content" source="../media/goals/8/asana-add-tasks-button.png" alt-text="Add tasks button under Progress in Viva goals." lightbox="../media/goals/8/asana-add-tasks-button.png":::
 
 2. In the Tasks field, select the Automatically from a data source option and select Asana as your data source.
+    
+    :::image type="content" source="../media/goals/8/asana-tasks-connection.png" alt-text="Adding Asana from the list of datasources to Projects in Viva goals." lightbox="../media/goals/8/asana-tasks-connection.png":::
 
 3. Select if you’d like to track progress by the % of tasks completed or by the % of subtasks completed.
 
@@ -96,14 +108,12 @@ Some customers like to use a specific task in Asana as their project, with the s
 
 5. Select the Task assigned to field as Any or Unassigned, then select Next and Save.
 
-6. If you’ve chosen to track progress by % of subtasks completed, then:
-
-- Enable the Use this task name as the project name in Viva Goals checkbox.
-
-- Select Next and Save to save your project! 
+6. If you’ve chosen to track progress by % of subtasks completed, then enable the Use this task name as the project name in Viva Goals checkbox and save your project.
+    
+    :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Adding an Asana task as a Project in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
 
 This will create the specific Asana task or subtasks as the project and pull in the subtasks as the task list in Viva Goals.
 
-While Viva Goals supports an Asana integration for OKRs, projects let you see the individual tasks and their completion state, helping you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last check-in - which tasks were completed, were any tasks added or removed.
+While Viva Goals supports an Asana integration for OKRs, projects let you see the individual tasks and their completion state, helping you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last check-in⏤which tasks were completed, were any tasks added or removed.
 
 Viva Goals will periodically check on project progress in Asana, and update status. Progress and Status are calculated for projects exactly like key results. Similar to key results, you can also check in on a project, where you can temporarily override the status. However, this will last only as long as Viva Goals doesn't detect a change in the completion status of the project in Asana, at which point, it will overwrite your check-in with an automated update.
