@@ -77,7 +77,7 @@ Once the Mode integration is set up, you can measure your OKR progress by connec
 
 2. Next, map the OKR to the report and query of your choice. 
 
-    :::image type="content" source="../media/goals/11/mode-connection-details.png" alt-text="Adding new PostgreSQL connection to OKRs in Viva goals." lightbox="../media/goals/11/mode-connection-details.png":::
+    :::image type="content" source="../media/goals/11/mode-connection-details.png" alt-text="Adding new Mode connection to OKRs in Viva goals." lightbox="../media/goals/11/mode-connection-details.png":::
 
 3. Select Next to finish and save your OKR. You’ll now see the Mode icon next to the OKR‘s progress indicator, which means Viva Goals will automatically measure the progress based on the updates in the corresponding report in Mode. 
 
