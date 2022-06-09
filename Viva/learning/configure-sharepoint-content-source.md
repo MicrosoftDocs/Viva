@@ -88,6 +88,8 @@ To configure SharePoint as a learning content sources in for Viva Learning, foll
 
   > [!NOTE]
   > To allow for broader access to the Learning App Content Repository, a link to the list soon will be available in the Viva Learning interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored. For more information, see [Provide your own organization's content](#provide-your-own-organizations-content) later in this article.
+  
+  > [!NOTE]
   > SharePoint Online Custom (Vanity) URLs that do not conform to "tenantName.sharepoint.com" are currently not supported. Please open a support case if you're in this scenario and need help.   
 
 ### Folder URL document library curation
