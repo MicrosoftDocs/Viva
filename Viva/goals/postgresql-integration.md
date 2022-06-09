@@ -31,7 +31,7 @@ Let’s take this example: you use PostgreSQL databases to store information on 
 
 Admins can enable this integration, and here’s how it can be done: 
 
-1. From the sidebar, select **Admin >** select the **Integrations** tab. 
+1. From the sidebar, select **Admin > Integrations** tab. 
 
     :::image type="content" source="../media/goals/11/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/11/viva-goals-integrations-page.png":::
 
