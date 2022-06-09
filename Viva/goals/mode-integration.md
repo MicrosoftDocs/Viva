@@ -37,15 +37,23 @@ All users and admins have access to this integration. Admins also have permissio
 
 1. The first step in setting up the Mode integration is to connect your Mode account to Viva Goals. Navigate to your sidebar and select **Admin** and then select **Integrations**.
 
+    :::image type="content" source="../media/goals/11/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/11/viva-goals-integrations-page.png":::
+
 2. In the integrations section, go to Mode and then select **Manage**.
+
+    :::image type="content" source="../media/goals/11/mode-manage-button.png" alt-text="Managing Mode in Viva Goals." lightbox="../media/goals/11/mode-manage-button.png":::
 
 3. Select **New Connection** and in the pop-up dialog box, sign in to your Mode account using your credentials to authenticate the connection. 
 
+    :::image type="content" source="../media/goals/11/mode-configure-new-connection.png" alt-text="Configuring a new Mode connection in Viva goals." lightbox="../media/goals/11/mode-configure-new-connection.png":::
+
 ## How to get your Mode workspace ID and API token
 
-1. To get your Mode Workspace ID, select your **My Work** in the side navigation bar and copy the workspace ID from the URL. For example: if your URL is ```https://app.mode.com/home/vivagoals/search```, vivagoals is the Workspace ID.  
+1. To get your Mode Workspace ID, select your **My Work** in the side navigation bar and copy the workspace ID from the URL. For example: if your URL is ```https://app.mode.com/home/relecloud/search```, relecloud is the Workspace ID.  
 
-2. To create your mode API token, select your profile and select **My Account**. On your account page, navigate to 'API Tokens' under Community. Select **Create token** to create a new mode API token.
+2. To create your mode API token, select your profile and select **My Account Settings**. On your account page, navigate to 'API Tokens' under Community. Select **Create token** to create a new mode API token.
+
+    :::image type="content" source="../media/goals/11/mode-create-token.png" alt-text="Creating API token in Mode for Viva Goals." lightbox="../media/goals/11/mode-create-token.png":::
 
 3. Once you have your Mode workspace ID and API Token, add it to the connection page in Viva Goals. 
 
@@ -65,7 +73,11 @@ Once the Mode integration is set up, you can measure your OKR progress by connec
 
 1. Go to the list of integrations available and select Mode. If there are multiple Mode connections listed, choose a connection you’d like to use. 
 
+    :::image type="content" source="../media/goals/11/mode-datasource.png" alt-text="Selecting Mode from the list of data sources in Viva Goals." lightbox="../media/goals/11/mode-datasource.png":::
+
 2. Next, map the OKR to the report and query of your choice. 
+
+    :::image type="content" source="../media/goals/11/mode-connection-details.png" alt-text="Adding new Mode connection to OKRs in Viva goals." lightbox="../media/goals/11/mode-connection-details.png":::
 
 3. Select Next to finish and save your OKR. You’ll now see the Mode icon next to the OKR‘s progress indicator, which means Viva Goals will automatically measure the progress based on the updates in the corresponding report in Mode. 
 
@@ -78,3 +90,5 @@ The Mode integration can be disabled by an Admin at any time.
 
 1. To disable the integration as an Admin, go to Mode in the Integrations section and select on Manage. 
 2. In the Mode Configurations page, select the Change dropdown, select Disable and confirm the action.
+
+    :::image type="content" source="../media/goals/11/mode-disable-button.png" alt-text="Disabling Mode in Viva Goals." lightbox="../media/goals/11/mode-disable-button.png":::
