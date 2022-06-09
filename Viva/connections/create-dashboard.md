@@ -54,7 +54,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the home site.
 
 1. From the [home site,](home-site-plan.md) select the **Settings** gear at the top-right of the page.
-2. Select **Set up Viva Connections**.
+2. Select **Manage Viva Connections**.
 3. Select the **+ Create Dashboard** button.
 
    >[!NOTE]
@@ -62,7 +62,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
    > - You can choose Mobile and Desktop views interchangeably as you’re authoring.
    > - Image recommendations for cards in the Dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio in order to prevent stretching in the mobile app.
    > - Image URLS in card properties must be an absolute URL in order for the link to work in the mobile app.
-
+   > - It's recommended to limit the number of cards to about 20 card on the Dashboard for the best viewing experience.
 
 4. Select **+ Add a card**.
 

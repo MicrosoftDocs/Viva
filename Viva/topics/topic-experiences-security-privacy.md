@@ -21,7 +21,7 @@ Topics uses existing content security features in Microsoft 365, along with admi
 
 Setting up Topics does not modify any existing access controls on content in your organization. Users will only see what they already have access to.
 
-This article describes how Topics works from a security perspective and the options that knowledge administrators and knowledge managers have to control topic visibility. Read this article as part of your [planning for Topics](plan-topic-experiences.md).
+This article describes how Topics works from a security perspective and the options that administrators and knowledge managers have to control topic visibility. Read this article as part of your [planning for Topics](plan-topic-experiences.md).
 
 You should be familiar with [what Topics is](topic-experiences-overview.md), the [topic center](topic-center-overview.md), and how to [work with topics in the topic center](manage-topics.md) before you read this article.
 

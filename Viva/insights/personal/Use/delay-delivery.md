@@ -1,7 +1,7 @@
 ---
 title: Delay delivery plan with Viva Insights
 description: Learn how to opt in and use Delay delivery with Viva Insights for suggestions on when to send email during your coworker's working hours
-author: madehmer
+author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
@@ -28,7 +28,7 @@ The delay helps minimize disruptions to recipients outside their working hours o
 
 You might not see suggestions in the following scenarios:
 
-* When you’re composing an email during the hour before or after the recipients’ or your working hours.
+* When you’re composing an email during the 30 minutes before the recipients’ or your working hours.
 * When there are more than 15 recipients in the **To** field.
 * When you're sending an email to yourself.
 
@@ -86,7 +86,9 @@ You can also use the Outlook Insights add-in to opt in to the Delay delivery pla
 
 ## To opt out
 
-You can opt in or opt out of Delay delivery as many times as you want. To turn it off:
+You can opt in or opt out of the Delay delivery plan as many times as you want. To turn it off:
 
 * In the [dashboard](https://myanalytics.microsoft.com), select **Config Settings**, and then change the setting for **Delay delivery** to **Off**.
 * Or in the Insights Outlook add-in, open **Settings** (gear icon), and then change the setting for **Delay delivery** to **Off** .
+
+After you opt out of the Delay delivery plan, you can delay up to two email deliveries each day when the inline suggestions feature is turned on. To opt out of inline suggestions in Outlook, including delay-delivery inline suggestions, follow the steps in [Inline suggestions in Outlook](mya-notifications.md#opt-out-of-inline-suggestions).

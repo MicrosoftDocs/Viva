@@ -67,3 +67,12 @@ The admin has access to data sources, the ability to upload pages within data so
 The Insights admin role  must be assigned by a Microsoft 365 admin as described in [Assign user roles](/viva/insights/setup/assign-user-roles). The Insights admin and the legacy Workplace Analytics admin are interchangeable roles. 
 
 For more information on all the roles in Viva Insights see [Roles in Viva Insights](/viva/insights/use/user-roles).
+
+### Viva Goals
+Organization Admins have a special role within their organization’s OKR program. Organization Admins will help set up the organization, time periods, users and teams in the Viva Goals instance. To complete these actions, please visit the Admin Dashboard in your solution instance. 
+
+To access the Viva Goals Admin Dashboard, navigate toward the bottom of the left side panel and select “Admin” next to the gear icon.
+
+Inside the Admin Dashboard, you will see different tabs where you can make adjustments, including Settings, Users, Teams, Time Periods, Notifications, Integrations, OKR Model Configuration, and OKRs & Projects.
+
+For more information about admin settings in the admin dashboard, see [Navigate the admin dashboard](/viva/goals/navigate-admin-dashboard)
