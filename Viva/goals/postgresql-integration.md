@@ -35,7 +35,7 @@ Admins can enable this integration, and here’s how it can be done:
 
     :::image type="content" source="../media/goals/11/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/11/viva-goals-integrations-page.png":::
 
-2. In **PostgreSQL**, yoU WILL have an option to **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you'll have the option to **Manage** the enabled integration. 
+2. In **PostgreSQL**, you will have an option to **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you'll have the option to **Manage** the enabled integration. 
 
     :::image type="content" source="../media/goals/11/postgresql-enable-button.png" alt-text="Enabling PostgreSQL in Viva Goals." lightbox="../media/goals/11/postgres-enable-button.png":::
 
