@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
 search.appverid:
@@ -21,7 +21,7 @@ description: "Keep track of your OKR progress by automating key updates from you
 # MS SQL Server integration
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## About the MS SQL integration
 
@@ -35,9 +35,15 @@ All users and admins have access to this integration. Admins also have permissio
 
 1. The first step in setting up the MS SQL integration is to connect your account to Viva Goals Navigate to your sidebar and select **Admin** and then select **Integrations**.
 
-2. In the integrations section, go to MS SQL Server and then select **Manage**. 
+    :::image type="content" source="../media/goals/12/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/12/viva-goals-integrations-page.png":::
+
+2. In the integrations section, go to MS SQL Server and then select **Enable** if this is the first time, or **Manage** if an integration has already been established.
+
+    :::image type="content" source="../media/goals/12/sqlserver-enable-button.png" alt-text="Enabling MS SQL Server in Viva Goals." lightbox="../media/goals/12/sqlserver-enable-button.png":::
 
 3. Select **New Connection** and in the pop-up dialog box, name your connection, give your MS SQL Server hostname, port, user, password, and add the database you'd like to connect to authenticate the connection. 
+
+    :::image type="content" source="../media/goals/12/sqlserver-configure-new-connection.png" alt-text="Configuring a new MS SQL Server connection in Viva goals." lightbox="../media/goals/12/sqlserver-configure-new-connection.png":::
 
     > [!NOTE]
     > Viva Goals uses **SQL authentication** to create an integration connection.
@@ -56,7 +62,11 @@ Once your integration is set up, you can measure your OKRs progress by connectin
 
 1. Select **MS SQL Server** from the list of integrations available. If there are multiple connections listed, choose the connection that you would like to use. 
 
+    :::image type="content" source="../media/goals/12/sqlserver-datasource.png" alt-text="Selecting MS SQL Server from the list of data sources in Viva Goals." lightbox="../media/goals/12/sqlserver-datasource.png":::
+
 2. Next, choose your query type. You can choose to add your query directly by selecting the **SQL Query** option or choose the **Stored Procedure** to add in a stored procedure query from your end. 
+
+    :::image type="content" source="../media/goals/12/sqlserver-connection-details.png" alt-text="Adding new MS SQL Server connection to OKRs in Viva goals." lightbox="../media/goals/12/sqlserver-connection-details.png":::
 
 3. Next, add your query and validate the response. 
 
@@ -65,3 +75,5 @@ Once your integration is set up, you can measure your OKRs progress by connectin
 ## How to disable the integration
 
 The MS SQL Server can be disabled by an admin at any time. To disable the integration, go to MS SQL in the Integrations section. Select MS SQL Server in the integrations section and select **Manage**. In the configurations page, select the Change dropdown, select **Disable and confirm the action**. 
+
+:::image type="content" source="../media/goals/12/sqlserver-disable-button.png" alt-text="Disabling MS SQL Server in Viva Goals." lightbox="../media/goals/12/sqlserver-disable-button.png":::

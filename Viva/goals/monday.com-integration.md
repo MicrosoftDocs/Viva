@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals  
 search.appverid:
@@ -21,7 +21,7 @@ description: "Learn how to connect your projects in monday.com with Viva Goals."
 # monday.com integration
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## About the monday.com integration
 
@@ -39,11 +39,19 @@ Before setting up the integration connection, reach out to your monday.com admin
 
 1. The first step in setting up the monday.com integration is to connect your monday.com account to Viva Goals. Navigate to your sidebar and select **Admin** and then select **Integrations**.
 
+    :::image type="content" source="../media/goals/11/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/11/viva-goals-integrations-page.png":::
+
 2. In the integrations section, go to monday.com and then select **Manage**. 
+
+    :::image type="content" source="../media/goals/11/monday-manage-button.png" alt-text="Managing monday.com in Viva Goals." lightbox="../media/goals/11/monday-manage-button.png":::
 
 3. Select **New Connection** and in the pop-up dialog box, sign in to your monday.com account using your credentials to authenticate the connection. 
 
+    :::image type="content" source="../media/goals/11/monday-new-connection-button.png" alt-text="Creating a new monday.com connection in Viva goals." lightbox="../media/goals/11/monday-new-connection-button.png":::
+
 4. Name your connection and then select **Next** to complete the new account setup.
+
+    :::image type="content" source="../media/goals/11/monday-configure-new-connection.png" alt-text="Configuring a new monday.com connection in Viva goals." lightbox="../media/goals/11/monday-configure-new-connection.png":::
 
 ## How to edit an existing monday.com connection
 
@@ -61,7 +69,11 @@ Admins can also edit an existing monday.com connection, including the integratio
 
 3. Select monday.com from the list of integrations available and if there are multiple monday.com connections listed, choose a connection you’d like to use or create a new one. 
 
+    :::image type="content" source="../media/goals/11/monday-datasource.png" alt-text="Selecting monday.com from the list of data sources in Viva Goals." lightbox="../media/goals/11/monday-datasource.png":::
+
 4. Select the board, group, and assignee you want to connect to and map the status column based on which OKR progress should be tracked. 
+
+    :::image type="content" source="../media/goals/11/monday-connection-details.png" alt-text="Adding new monday.com connection to OKRs in Viva goals." lightbox="../media/goals/11/monday-connection-details.png":::
 
 5. Select **Next** to finish and save your OKR. You’ll now see the monday.com icon next to the OKR‘s progress indicator, which means Viva Goals will automatically measure the progress based on the item updates in the corresponding board in monday.com. 
 
@@ -74,6 +86,12 @@ Admins can also edit an existing monday.com connection, including the integratio
 
 ## How to disable the monday.com integration
 
-The monday.com integration may be disabled by an Admin at any time. To disable the integration, go to monday.com. In the Integrations section, select **Manage**. 
+The monday.com integration may be disabled by an Admin at any time. 
 
-In the monday.com Configurations page, select the Change dropdown, select Disable and confirm the action. 
+1. To disable the integration, go to monday.com. In the Integrations section, select **Manage**. 
+
+2. In the monday.com Configurations page, select the Change dropdown, select Disable and confirm the action. 
+
+    :::image type="content" source="../media/goals/11/monday-disable-button.png" alt-text="Disabling monday.com in Viva Goals." lightbox="../media/goals/11/monday-disable-button.png":::
+
+
