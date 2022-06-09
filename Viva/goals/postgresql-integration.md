@@ -31,23 +31,33 @@ Let’s take this example: you use PostgreSQL databases to store information on 
 
 Admins can enable this integration, and here’s how it can be done: 
 
-- From the sidebar, select **Admin >** select the **Integrations** tab. 
+1. From the sidebar, select **Admin > Integrations** tab. 
 
-- In **PostgreSQL**, yoU WILL have an option to **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you'll have the option to **Manage** the enabled integration. 
+    :::image type="content" source="../media/goals/11/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/11/viva-goals-integrations-page.png":::
 
-- This integration can also be disabled from the same section by selecting **Change**, and choosing **Disable integration** from the dropdown. 
+2. In **PostgreSQL**, you will have an option to **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you'll have the option to **Manage** the enabled integration. 
+
+    :::image type="content" source="../media/goals/11/postgres-enable-button.png" alt-text="Enabling PostgreSQL in Viva Goals." lightbox="../media/goals/11/postgres-enable-button.png":::
+
+3. This integration can also be disabled from the same section by selecting **Change**, and choosing **Disable integration** from the dropdown. 
+
+    :::image type="content" source="../media/goals/11/postgres-disable-button.png" alt-text="Disabling PostgreSQL in Viva Goals." lightbox="../media/goals/11/postgres-disable-button.png":::
 
 ## How to configure the PostgreSQL connection 
 
-- After enabling the integration, the first step is to configure a PostgreSQL connection. 
+1. After enabling the integration, the first step is to configure a PostgreSQL connection. 
 
-- Select **New Connection**, and provide a **name for the connection**. 
+2. Select **New Connection**, and provide a **name for the connection**. 
 
-- Provide the **hostname or IP address** of the database server, the **port number** that the server is listening on. 
+    :::image type="content" source="../media/goals/11/postgres-new-connection-button.png" alt-text="Adding a new PostgreSQL connection in Viva Goals." lightbox="../media/goals/11/postgres-new-connection-button.png":::
 
-- Provide the **username and password**. Upon authentication, the associated databases will be populated automatically. **Choose your database** from the dropdown menu. 
+3. Provide the **hostname or IP address** of the database server, the **port number** that the server is listening on. 
 
-- It is optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time. 
+    :::image type="content" source="../media/goals/11/postgres-configure-new-connection.png" alt-text="Configuring a new PostgreSQL connection in Viva goals." lightbox="../media/goals/11/postgres-configure-new-connection.png":::
+
+4. Provide the **username and password**. Upon authentication, the associated databases will be populated automatically. **Choose your database** from the dropdown menu. 
+
+5. It is optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time. 
 
 Viva Goals allows you to connect with multiple databases. Select **New Connection** to connect to another database. You can differentiate these connections using names, and the names will be displayed to other users when they link their OKRs with PostgreSQL databases. 
 
@@ -55,17 +65,21 @@ Viva Goals allows you to connect with multiple databases. Select **New Connectio
 
 Once you have configured the connection, the next step is to start linking OKRs to the PostgreSQL databases. 
 
-- While creating or editing an OKR, select **Connect data source to auto-update progress**. From the drop-down menu, select **PostgreSQL**. 
+1. While creating or editing an OKR, select **Automatically from a data source** to auto-update progress. From the drop-down menu, select **PostgreSQL**. 
 
-- If you've already created a connection, or if your administrator has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared. 
+    :::image type="content" source="../media/goals/11/postgresql-datasource.png" alt-text="Selecting PostgreSQL from the list of data sources in Viva Goals." lightbox="../media/goals/11/postgresql-datasource.png":::
 
-- Choose the method using which you want to measure the progress — **percent complete or KPI** (success metric). If you're choosing KPI, provide a metric, starting value, and target value. 
+2. If you've already created a connection, or if your administrator has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared. 
 
-- Select a **connection**, and provide the **PostgreSQL query**. This query will return a single numeric value, and this value will be tied to the OKR progress.
+3. Choose the method using which you want to measure the progress — **percent complete or KPI** (success metric). If you're choosing KPI, provide a metric, starting value, and target value. 
 
-- **Validate** the query using the **Query Result**.
+4. Select a **connection**, and provide the **PostgreSQL query**. This query will return a single numeric value, and this value will be tied to the OKR progress.
 
-- Select **Next > Save**. You should be able to see the PostgreSQL icon right next to your OKR. The sync happens once every hour, however, if you would like to initiate the sync manually, select the PostgreSQL icon, and select refresh icon.
+    :::image type="content" source="../media/goals/11/postgresql-connection-details.png" alt-text="Adding new PostgreSQL connection to OKRs in Viva goals." lightbox="../media/goals/11/postgresql-connection-details.png":::
+
+5. **Validate** the query using the **Query Result**.
+
+6. Select **Next > Save**. You should be able to see the PostgreSQL icon right next to your OKR. The sync happens once every hour. However, if you would like to initiate the sync manually, select the PostgreSQL icon, and select refresh icon.
 
 You have successfully linked your objective to a database in PostgreSQL to update the status of the corresponding OKR automatically based on the data present in the connected database. 
 
