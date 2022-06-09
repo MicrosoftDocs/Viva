@@ -65,7 +65,7 @@ Viva Goals allows you to connect with multiple databases. Select **New Connectio
 
 Once you have configured the connection, the next step is to start linking OKRs to the PostgreSQL databases. 
 
-1. While creating or editing an OKR, select **Connect data source to auto-update progress**. From the drop-down menu, select **PostgreSQL**. 
+1. While creating or editing an OKR, select **Automatically from a data source** to auto-update progress. From the drop-down menu, select **PostgreSQL**. 
 
     :::image type="content" source="../media/goals/11/postgresql-datasource.png" alt-text="Selecting PostgreSQL from the list of data sources in Viva Goals." lightbox="../media/goals/11/postgresql-datasource.png":::
 
@@ -79,7 +79,7 @@ Once you have configured the connection, the next step is to start linking OKRs 
 
 5. **Validate** the query using the **Query Result**.
 
-6. Select **Next > Save**. You should be able to see the PostgreSQL icon right next to your OKR. The sync happens once every hour, however, if you would like to initiate the sync manually, select the PostgreSQL icon, and select refresh icon.
+6. Select **Next > Save**. You should be able to see the PostgreSQL icon right next to your OKR. The sync happens once every hour. However, if you would like to initiate the sync manually, select the PostgreSQL icon, and select refresh icon.
 
 You have successfully linked your objective to a database in PostgreSQL to update the status of the corresponding OKR automatically based on the data present in the connected database. 
 
