@@ -37,11 +37,11 @@ Admins can enable this integration, and here’s how it can be done:
 
 2. In **PostgreSQL**, you will have an option to **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you'll have the option to **Manage** the enabled integration. 
 
-    :::image type="content" source="../media/goals/11/postgresql-enable-button.png" alt-text="Enabling PostgreSQL in Viva Goals." lightbox="../media/goals/11/postgres-enable-button.png":::
+    :::image type="content" source="../media/goals/11/postgres-enable-button.png" alt-text="Enabling PostgreSQL in Viva Goals." lightbox="../media/goals/11/postgres-enable-button.png":::
 
 3. This integration can also be disabled from the same section by selecting **Change**, and choosing **Disable integration** from the dropdown. 
 
-    :::image type="content" source="../media/goals/11/postgresql-disable-button.png" alt-text="Disabling PostgreSQL in Viva Goals." lightbox="../media/goals/11/postgres-disable-button.png":::
+    :::image type="content" source="../media/goals/11/postgres-disable-button.png" alt-text="Disabling PostgreSQL in Viva Goals." lightbox="../media/goals/11/postgres-disable-button.png":::
 
 ## How to configure the PostgreSQL connection 
 
