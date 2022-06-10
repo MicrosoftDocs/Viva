@@ -57,14 +57,6 @@ landingContent:
             url: viva-leadership-communications.md
 
   # Card
-  - title: Incorporate learning into your organization
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Bring learning into the flow of work
-            url: incorporate-learning.md
-
-  # Card
   - title: Solve common business problems with accelerators
     linkLists:
       - linkListType: how-to-guide
@@ -72,8 +64,18 @@ landingContent:
           - text: Introduction
             url: introduction.md
           - text: Data lake solutions
-            url: ../data-lakes/viva-insights.md
+            url: ../solutions/data-lakes/viva-insights.md
           - text: Data access automation
             url: automate-exports.md
           - text: Multi-tenant solution
-            url: complex-organization-insights.md
+            url: complex-organization-insights.md  
+  
+  # Card
+  - title: Incorporate learning into your organization
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Bring learning into the flow of work
+            url: incorporate-learning.md
+
+
