@@ -58,7 +58,7 @@ Don’t have Microsoft Viva yet? [Find out all of its benefits and how to get it
 - You’ll need to be using **Teams** and **SharePoint** within your organization. The example scenarios in this article also use **Yammer** and **Stream**. 
 - Make sure you have the [proper licenses](#licensing) for Microsoft Viva.
 
-## Needs assessment
+## Plan
 
 Every organization is different. Determining the needs for your organization is the first step in planning a successful hybrid work environment. 
 
@@ -71,7 +71,6 @@ Every organization is different. Determining the needs for your organization is 
 - Discover what your employees struggle with and give them the tools and insights they need to focus their time and take time to rest.
 - Consider the culture of your organization and the ways people connect with each other.
 
-## Plan
 According to the results of your needs assessment, your next steps can be:
 - Identify key tasks and scenarios that can be supported by Viva
 - Align stakeholders and business owners around common goals
@@ -109,7 +108,7 @@ See how in the [Leadership communications scenario](/Viva/solutions/viva-leaders
 
 Employees in a hybrid organization can’t always attend on-site training. Providing learning in the flow of their work is what Viva Learning provides.
 
-See how to help your hybrid employees [learn in the flow of work, and discover learning quickly](need link).
+See how to help your hybrid employees [learn in the flow of work](/viva/solutions/incorporate-learning.md).
 
 
 ## Security
