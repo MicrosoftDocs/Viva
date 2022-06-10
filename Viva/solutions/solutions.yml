@@ -26,7 +26,7 @@ metadata:
 landingContent:
 
   # Card (optional)
-  - title: Get started with Viva Connections
+  - title: Get started with Microsoft Viva
     linkLists:
       - linkListType: get-started
         links:
@@ -72,7 +72,7 @@ landingContent:
           - text: Introduction
             url: introduction.md
           - text: Data lake solutions
-            url: .../data-lakes/viva-insights.md
+            url: ../data-lakes/viva-insights.md
           - text: Data access automation
             url: automate-exports.md
           - text: Multi-tenant solution
