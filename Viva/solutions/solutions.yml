@@ -45,13 +45,13 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Overview
-            url: viva-for-the-hybrid-workplace
+            url: viva-for-the-hybrid-workplace.md
           - text: Onboarding or changing roles
             url: viva-onboarding-changing-roles.md
           - text: Front-line workers
             url: front-line-workers.md
           - text: Worklife balance
-            url: viva-work-life-balance
+            url: viva-work-life-balance.md
           - text: Leadership communications
           - url: viva-leadership-communications.md
 
@@ -61,7 +61,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: Bring learning into the flow of work
-            url: incorporate-learning
+            url: incorporate-learning.md
           - text: linktext2
             url: file2.md
 
@@ -75,6 +75,6 @@ landingContent:
           - text: Data lake solutions
             url: viva-insights.md
           - text: Data access automation
-            url: automate-exports
+            url: automate-exports.md
           - text: Multi-tenant solution
-            url: complex-organization-insights
+            url: complex-organization-insights.md
