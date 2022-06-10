@@ -43,8 +43,6 @@ Don’t have Microsoft Viva yet? [Find out all of its benefits and how to get it
 
 [Requirements](#requirements)
 
-[Needs assessment](#needs-assessment)
-
 [Plan](#plan)
 
 [License requirements](#licensing)
