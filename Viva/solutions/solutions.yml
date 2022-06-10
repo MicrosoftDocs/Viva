@@ -31,13 +31,26 @@ landingContent:
       - linkListType: get-started
         links:
           - text: Getting started with Microsoft Viva
-          - url: /viva/getting-started-with-microsoft-viva.md
+            url: /viva/getting-started-with-microsoft-viva.md
           - text: Plan for all Viva modules
-          - url: /viva/plan-for-all-viva-modules.md
+            url: /viva/plan-for-all-viva-modules.md
           - text: Learn how to combine modules
-          - url: /viva/learn-how-to-combine-modules.md
+            url: /viva/learn-how-to-combine-modules.md
           - text: Discover more about each Viva module
-          - url: /viva/discover-more-about-each-viva-module.md
+            url: /viva/discover-more-about-each-viva-module.md
+
+
+            # Card
+  - title: Administration and migration solution guides
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Tenant management
+            url: tenant-management-overview.md
+          - text: Remove a former employee
+            url: ../admin/add-users/remove-former-employee.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+          - text: Migrate your file shares to Microsoft 365
+            url: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
   
   # Card (optional)
   - title: Use Microsoft Viva in the hybrid workplace
@@ -49,11 +62,11 @@ landingContent:
           - text: Onboarding or changing roles
             url: viva-onboarding-changing-roles.md
           - text: Front-line workers
-            url: viv-front-line-workers.md
-          - text: Worklife balance
+            url: viva-front-line-workers.md
+          - text: Work-life balance
             url: viva-work-life-balance.md
           - text: Leadership communications
-          - url: viva-leadership-communications.md
+            url: viva-leadership-communications.md
 
   # Card
   - title: Incorporate learning into your organization
@@ -71,7 +84,7 @@ landingContent:
           - text: Introduction
             url: introduction.md
           - text: Data lake solutions
-            url: viva-insights.md
+            url: .../data-lakes/viva-insights.md
           - text: Data access automation
             url: automate-exports.md
           - text: Multi-tenant solution
