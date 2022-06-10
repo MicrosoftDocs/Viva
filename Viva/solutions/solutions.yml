@@ -31,13 +31,13 @@ landingContent:
       - linkListType: get-started
         links:
           - text: Getting started with Microsoft Viva
-          - url: getting-started-with-microsoft-viva.md
+          - url: /viva/getting-started-with-microsoft-viva.md
           - text: Plan for all Viva modules
-          - url: plan-for-all-viva-modules.md
+          - url: /viva/plan-for-all-viva-modules.md
           - text: Learn how to combine modules
-          - url: learn-how-to-combine-modules.md
+          - url: /viva/learn-how-to-combine-modules.md
           - text: Discover more about each Viva module
-          - url: discover-more-about-each-viva-module.md
+          - url: /viva/discover-more-about-each-viva-module.md
   
   # Card (optional)
   - title: Use Microsoft Viva in the hybrid workplace
@@ -49,7 +49,7 @@ landingContent:
           - text: Onboarding or changing roles
             url: viva-onboarding-changing-roles.md
           - text: Front-line workers
-            url: front-line-workers.md
+            url: viv-front-line-workers.md
           - text: Worklife balance
             url: viva-work-life-balance.md
           - text: Leadership communications
@@ -62,8 +62,6 @@ landingContent:
         links:
           - text: Bring learning into the flow of work
             url: incorporate-learning.md
-          - text: linktext2
-            url: file2.md
 
   # Card
   - title: Solve common business problems with accelerators
