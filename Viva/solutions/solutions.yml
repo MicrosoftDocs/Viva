@@ -3,28 +3,27 @@
 title: Microsoft Viva solution center
 summary: Welcome to the Microsoft Viva solution center, where you can find technical guidance to understand, plan, and implement integrated Viva solutions.
 
----
-title: "Microsoft Viva solutions"
-ms.reviewer: 
-ms.author: loreenl
-author: LoreenLa
-manager: pamgreen
-audience: Admin
-ms.topic: landing-page
-f1.keywords:
-- NOCSH
-ms.service: viva
-localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-search.appverid:
-- MET150
-- ms.date: 06/09/2022
---- 
-
-landingContent:
+metadata:
+  title: "Microsoft Viva solutions"
+  ms.reviewer: 
+  ms.author: loreenl
+  author: LoreenLa
+  manager: pamgreen
+  audience: Admin
+  ms.topic: landing-page
+  f1.keywords:
+  - NOCSH
+  ms.service: viva
+  localization_priority: Priority
+  ms.collection:  
+  - M365initiative-viva
+  search.appverid:
+  - MET150
+  - ms.date: 06/09/2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
 
   # Card (optional)
   - title: Get started with Viva Connections
