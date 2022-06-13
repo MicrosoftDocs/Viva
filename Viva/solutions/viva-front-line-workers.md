@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Viva for the hybrid workplace: Front line workers"
+title: "Microsoft Viva for the hybrid workplace: Frontline workers"
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
@@ -17,34 +17,34 @@ search.appverid:
 - description: "Learn how front line workers can thrive in a hybrid workplace with Microsoft Viva."
 ---
 
-# Microsoft Viva for the hybrid workplace: Front line workers
-Front line workers want to do things like be able to see their schedules and be able to check in and check out of their shifts easily and get organizational communications and conversations all in one place. They may also want to track assigned tasks.
+# Microsoft Viva for the hybrid workplace: Frontline workers
+Frontline workers want to do things like see their schedules and be able to check in and check out of their shifts easily, get organizational communications and conversations, track assigned tasks and more all in one place.
 
 | Viva Connections | Microsoft Teams | Viva Insights | Viva Learning | Yammer Communities |
----|---|---|---|---|
- | Provide easy access to tasks and information in one place, including things like Shifts or Assigned tasks. | Use Teams apps like Shifts, Planner, and others to populate the Dashboard. | Provide ability to set aside time for focus and balance during a busy day | Target specific training for front line workers | Provide the ability to share and consume just-in-time information with their co-workers, team leads, and supervisors.
+| ---|---|---|---|---|
+ | Provide easy access to tasks and information in one place, including things like Shifts or Assigned tasks. | Use Teams apps like Shifts, Planner, and others to populate the Dashboard. | Provide ability to set aside time for focus and balance during a busy day | Target specific training for frontline workers | Provide the ability to share and consume just-in-time information with their co-workers, team leads, and supervisors.
 
 #### Roles for this scenario:
 Managers and supervisors, Corporate communications specialists, SharePoint site owners and page authors, Yammer community admins
 
 #### Provide easy access to tools in one place with Viva Connections
 
-With Viva Connections, you can provide your frontline workers with a single entry point on multiple devices – the Viva Connections Dashboard -- for a variety of tasks including tracking time, checking tasks, catching up on conversations, and seeing the latest news from your organization including Stream videos and more.
+With Viva Connections, you can provide your frontline workers with a single entry point on multiple devices using the Viva Connections Dashboard. The Dashboard can provide quick access to a variety of tasks including tracking time, checking tasks, catching up on conversations, and seeing the latest news and videos from your organization.
 
 ![Dashboard](../media/connections/dashboard-frontline.png) 
 
-Let’s say you have retail workers who want to be able to check their shifts or clock in and out easily when they are not at work. All they have to do is open their Viva Connections dashboard on their mobile device and select the Shifts card. 
+Let’s say you have retail workers who want to be able to check their shifts or clock in and out easily when they are not at work. All they have to do is open their Viva Connections dashboard on their mobile device and select the Shifts card.
 
 Page authors can make the Shifts card available to employees by going to the Dashboard in SharePoint, adding the Teams app card, and then searching for and selecting Shifts from the property pane. Additionally, third-party cards that are available to you can be used, and custom cards just for your organization can be created.
 
-[Get more information about using Viva Connections](/Viva/connections/guide-to-setting-up-viva-connections.md).
+[Get more information about setting up and using Viva Connections](/Viva/connections/guide-to-setting-up-viva-connections.md).
 
 #### Help balance employee's days with Viva Insights
 Front line workers often “go go go” all day. You can help them build a sense of balance and well-being with Viva Insights, and managers can use Insights to provide better guidance on time management.
 
 ![Viva Insights](../media/insights.png)
 
-Learn more about Viva Insights and how it helps protect and organize time in the [Supporting work/life balance](/Viva/solutions/viva-work-life-balance.md) section.
+Learn more about Viva Insights and how it helps protect and organize time in [Supporting work/life balance](/Viva/solutions/viva-work-life-balance).
 
 #### Target training with Viva Learning
 Learning new skills is an ongoing process. In a hybrid environment, it is essential that employees can learn from wherever they are, and Viva Learning can be accessed on the desktop or on a mobile device within Teams.
@@ -74,4 +74,4 @@ When you use the [Yammer Communities app for Microsoft Teams](https://support.mi
 ![Yammer communities card](../media/yammer-communities-card.png)
 
 
-**Next**: See how to help employees gain valuable insights into how they use their time and how to protect it in [Supporting work life balance](/Viva/solutions/viva-work-life-balance.md).
+**Next**: See how to help employees gain valuable insights into how they use their time and how to protect it in [Supporting work life balance](/Viva/solutions/viva-work-life-balance).

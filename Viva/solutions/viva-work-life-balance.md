@@ -42,4 +42,6 @@ You can make Viva Insights easily discoverable from your Viva Connections Dashbo
 ![Viva connections dashboard](../media/viva-connections-dashboard.png)
 
  
-To do this, go to your Dashboard in SharePoint, add the Teams app card to your dashboard, and search for and select Viva Insights from the property pane on the right. Learn more about using the Viva Connections Dashboard.
+To do this, go to your Dashboard in SharePoint, add the Teams app card to your dashboard, and search for and select Viva Insights from the property pane on the right. Learn more about using the [Viva Connections Dashboard](/viva/connections/create-dashboard).
+
+**Go back to** [Using Microsoft Viva in the hybrid workplace](/Viva/solutions/viva-for-the-hybrid-workplace).

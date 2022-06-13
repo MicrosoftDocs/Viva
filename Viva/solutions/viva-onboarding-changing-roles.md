@@ -19,7 +19,7 @@ search.appverid:
 
 # Onboarding employees who are new or changing roles
 
-Your organization is hiring, and you need to onboard new employees – some of whom are in the office, and some of whom are working remotely. Or, you may have employees who are changing roles within the organization and need to ramp up quickly and learn about their new roles. It is essential to streamline the onboarding process and make it easy for people to find consolidated information and know what actions to take as they onboard to the company or to a new role. Here are ways that you can take advantage of each module to help every employee onboard successfully.
+Your organization is hiring, and you need to onboard new employees – some of whom are in the office, and some of whom are working remotely. Or, you may have employees who are changing roles within the organization and need to ramp up quickly and learn about their new roles. It is essential to streamline the onboarding process and make it easy for people to find consolidated information and know what actions to take as they onboard to the company or to a new role. Here are ways that you can take advantage of Microsoft Viva to help every employee onboard successfully.
 
 
 
@@ -33,7 +33,7 @@ Your organization is hiring, and you need to onboard new employees – some of w
  
 ### Viva Learning
 
-Learning is one of the most important aspects of onboarding new employees. Using Viva Learning can help provide new employees with targeted training wherever they are. You can provide your own learning materials, such as learning about your organization’s culture, learning skills they need to be successful in their jobs, and more.
+Learning is one of the most important aspects of onboarding new employees. Using Viva Learning can help provide new employees with targeted training wherever they are. You can provide your own learning materials, such as learning about your organization’s culture and processes, building skills, and more.
 
 ![Image of Learning app in Teams](../media/learning.png)
 
@@ -61,14 +61,14 @@ Use Microsoft Stream to record training and information provided by your executi
 
 ### Viva Insights
 
-Help new team members understand how to spend time productively and help managers provide better guidance on time management. Learn more about Viva Insights and how it helps protect and organize time in the ***[Supporting work/life balance](need link) article.***
+Help new team members understand how to spend time productively and help managers provide better guidance on time management. Learn more about Viva Insights and how it helps protect and organize time in [Supporting work/life balance](/Viva/solutions/viva-work-life-balance)
 
 ![Image of Insights page](../media/insights.png)
 
 ### Viva Connections
 
-Bring together Learning, Insights, and Stream in Viva Connections by adding cars for these apps and services to your Viva Connections dashboard. Learn more in the ***[Viva Connections](need link) article.***
+Bring together Learning, Insights, and Stream in Viva Connections by adding cards for these apps and services to your Viva Connections dashboard. Learn more in [Viva Connections Dashboard](/viva/connections/create-dashboard).
 
 ![Image of a dashboard](../media/dashboard.png)
 
-**Next**: Learn how to use Microsoft Viva for leadership communications.
+**Next**: Learn how to use [Microsoft Viva for leadership communications](/viva/solutions/viva-leadership-communications).
