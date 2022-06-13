@@ -80,7 +80,7 @@ According to the results of your needs assessment, your next steps can be:
 ## Example key tasks and scenarios
 Following are examples of key tasks and scenarios that your organization may identify. Select the links to learn how to pull together Viva modules and other services to fulfill these scenarios.
 
-### Onboarding
+### Onboarding or changing roles
 Onboarding new employees and employees changing roles need to get up and running, learning, and feeling comfortable and productive quickly. Having all the information in one place streamlines the process for both your human resources team and employees.
 
 Learn more in the [Onboarding employees who are new or changing roles](/viva/solutions/viva-onboarding-changing-roles) scenario.
