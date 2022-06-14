@@ -31,7 +31,7 @@ Each OKR in Viva Goals contains a progress bar that displays the last identified
 
 - **Expected Progress**: Indicated by the grey vertical line on the progress bar.
 
-## How expected progress is calculated
+### How expected progress is calculated
 
 Viva Goals calculates the expected progress % based on the 'Start date' and 'End date' specified by the owner of the OKR. The progress bar and graph below is found on the objectives' quick view. (Click on the objective name to open up the objective’s quick view). You can also click on the ‘full view’ of the OKR to view the progress graph. 
 
@@ -39,7 +39,7 @@ Viva Goals calculates the expected progress % based on the 'Start date' and 'End
 > On the first day of the time period, the expected progress would be 0%.
 > On the final day of the time period, the expected progress would be 100%.
 
-## How Actual Progress is calculated
+### How Actual Progress is calculated
 
 Actual Progress is determined when the user makes a check-in to the OKR either automatically via a data integration or via the roll-up of Key Results to an objective. 
 
@@ -129,7 +129,7 @@ When any of the key results do not have Closed or Not Started status, and have a
 
 In cases where all the key results of an objective have 'Postponed' or 'Closed' or ‘Not Started’ as the status, then the parent objective’s status will automatically be marked as 'Postponed' or 'Closed' or ‘Not Started’. 
 
-## OKR Progress Bar Customization
+### OKR Progress Bar Customization
 
 Viva Goals now supports a progress bar customization setting using which admins can now override the current automatic scoring system.
  
@@ -143,7 +143,7 @@ The default progress ranges within Ally.io are calculated as follows:
 
 However, admins no longer need to stick to these progress ranges and can now customize and define the ranges for the respective progress status that they need to set for tracking the OKR progress. 
 
-## How to manage objective status alerts 
+### How to manage objective status alerts 
 
 Alerts automatically indicate when an objective needs attention or is at risk. Alerts are enabled for all objectives by default. Each user can manage how alerts are displayed for their account.
 
