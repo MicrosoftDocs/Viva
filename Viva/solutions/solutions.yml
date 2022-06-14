@@ -31,7 +31,7 @@ landingContent:
       - linkListType: get-started
         links:
           - text: Getting started with Microsoft Viva
-            url: /viva/getting-started-with-microsoft-viva.md
+            url: /viva/getting-started-with-microsoft-viva
           - text: Plan for all Viva modules
             url: /viva/plan-for-all-viva-modules.md
           - text: Learn how to combine modules
