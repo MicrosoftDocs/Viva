@@ -1,10 +1,10 @@
 ---
-title: Configure SAP SuccessFactors as a content source for Microsoft Viva Learning
+title: Configure Workday as a content source for Microsoft Viva Learning
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 6/14/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -14,136 +14,157 @@ ms.collection:
     - enabler-strategic
     - m365initiative-viva-learning
 localization_priority: medium
-description: Learn how to configure SAP SuccessFactors as a learning content source for Microsoft Viva Learning.
+description: Learn how to configure Workday as a learning content source for Microsoft Viva Learning.
 ---
 
-# Configure SAP SuccessFactors as a content source for Microsoft Viva Learning
+# Configure Workday as a content source for Microsoft Viva Learning
 
-This article shows you how to configure SAP SuccessFactors as a third-party content source for Microsoft Viva Learning. First, you'll need to edit the system configuration in the SuccessFactors Portal, then you'll need to complete the configuration in the Microsoft 365 admin center.
-
->[!NOTE]
->Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. SAP SuccessFactors content and any associated services are subject to the SAP SuccessFactors privacy and service terms.
-
-## Configure in your SuccessFactors portal
+This article shows you how to configure Workday as a third-party content source for Microsoft Viva Learning. First, you'll need to create and set up an integration system user and set up security in Workday. Then you'll need to complete the configuration in the Microsoft 365 admin center.
 
 >[!NOTE]
->You'll need to have admin permissions in SuccessFactors to complete these steps.
+>Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Workday content and any associated services are subject to the Workday privacy and service terms.
 
-1. Obtain the required workflows to edit the PARTNER_EXTRACT configuration, which you can get to by going to **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
+## Configure in Workday
 
-2. Use the PGP tool to generate the PGP key (Public key, Private Key, Private Key Passphrase) of your preferred size. While generating the PGP key, you can select RSA algorithm, which is recommended. GNUPG tool is one of the PGP keys generation tools that you can use.
-To generate private and public PGP key pairs, you can work with your IT admin or follow the guidelines in the [GNU Privacy Guard](https://www.gnupg.org/).
+You'll need to complete the following steps in Workday:
 
-   1. For Windows
-       1. Get GNU Privacy Guard for Windows by going to [Gpg4win](https://www.gpg4win.org/) and selecting **Download**.
-       2. Go to **About Gpg4win** and choose **Documentation** to view the documentation. Download the latest version.
-       3. Follow the installation instructions after downloading the software.
-       4. In the documentation that you downloaded, go to section 7: Creating a certificate.
-       5. Create a new PGP key pair.
-       6. Select **Make a Backup Of Your Key Pair** and save the secret file locally for future reference.
-       7. Open the certificate details of the same certificate and export the public key value.
-   2. For UNIX and Linux systems
-       1. Download [GNU Privacy Guard](https://www.gnupg.org/).
-       2. On the GnuPG website, go to **Documentation**, then choose **Guides**.
-       3. Open the GNU Privacy Handbook.
-       4. Follow the instructions in the section **Generating a new keypair**.
+1. [Create an integration system user](#create-an-integration-system-user)
+2. [Set up integration system user security](#set-up-integration-system-user-security)
+3. [Set up course-segmented security](#set-up-course-segmented-security)
+4. [Edit domain security policies](#edit-domain-security-policies)
+5. [Activate pending security policy changes](#activate-pending-security-policy-changes)
+6. [Retrieve the WWS endpoint](#retrieve-the-wws-endpoint)
 
-3. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you'll need **Edit System Configuration** workflow permission in SuccessFactors.
+If you require additional support, contact Workday.
 
-    - Customer notification email for all job status
-        - defaultJob.email=
-    
-    - Partner1
-        - The maximum length of PartnerID is 10 characters. For Microsoft Viva Learning enter the value **MVL**.
-            - partners1.partnerID=
-    
-    - EncryptionKey is the PGP public encryption key, which is the entire section between BEGIN PGP PUBLIC KEY BLOCK and END PGP PUBLIC KEY BLOCK. Make sure to remove any line breaks in the key when you enter this value.
-        - partners1.encryptionKey=
-    
-    - KeyOwner maps to the User-ID of public key
-        - partners1.keyOwner=
-    
-    - enabled can be "false" or "true". Set it to "true" to enable the partner extract.
-        - partners1.enabled=
-    
-    [![Image of the PARTNER_EXTRACT configuration settings.](../media/learning/sf-focus.png)](../media/learning/sf-2.png#lightbox)
+### Create an integration system user
 
-Once you've completed these steps in the SuccessFactors portal, you'll need to complete the setup in the Microsoft 365 admin center.
+Create an integration system user (ISU) for Microsoft Viva Learning to access your Workday tenant. Assign the ISU to a security group with permission to access Workday Learning Web Services and your learning catalog.
+
+1. Access the **Create Integration System User** task.
+
+    >[!NOTE]
+    >Workday automatically sets the value of **Session Timeout Minutes** to zero to prevent the integration system user session from expiring. Expired sessions can cause the integration to stop before it successfully completes.
+
+2. Create a username and password. Workday recommends using **ISU_Microsoft_Viva_Learning** for the username.
+    1. Keep the session timeout value at zero to prevent session expiration.
+    2. Tick the **Do Not Allow UI Sessions** checkbox to prevent the ISU from signing into Workday through the user interface.
+
+3. Access the **Create Security Group** task and select **Integration System Security Group (Unconstrained)**.
+
+4. Provide a group name. Workday recommends using **ISU_Microsoft_Viva_Learning**.
+
+5. Link your group to the integration system user. This lets Workday assign the integration system user as part of the Microsoft Viva Learning security group.
+
+### Set up integration system user security
+
+You'll need these domains in the Integration and System functional areas:
+
+- Integration Security
+- Security Configuration
+
+You'll need to have already [created an integration system user](#create-an-integration-system-user).
+
+1. Access the **Maintain Permissions for Security Group** task to update domain security policies.
+
+2. Add the Domain Security Policy Permission **Get Only** access to the **Manage: Learning Content** domain.
+
+3. Run the **Activate Pending Security Policy Changes** task.
+
+### Set up course-segmented security
+
+You can configure which learning content displays in Viva Learning. You do this by restricting the integration system user's access by using segmented security. You can segment security based on security categories or topics.
 
 >[!NOTE]
->Once you've finished the configuration in your SuccessFactors portal, SuccessFactors will generate the initial sync package. This may take up to 7 business days. Once the package is available in your SFTP folder path, Viva Learning will be able to begin communicating with SuccessFactors. If you can't find the package, contact your SuccessFactors support team.
+>Setting up segmented security is optional.
+
+1. Access the **Create Learning Security Category** task or the **Create Learning Topic** task. Create security segments or topics to restrict access and add these to your learning content. You'll need the **Learning Segment Setup** domain in the System functional area.
+
+2. Select the **Inactive** checkbox if you want to disable permissions for members of the security group. You can't inactivate the security group when you:
+    1. Grant the security group permission to the **Security Configuration** domain.
+    2. Include the security group as a member of another security group.
+    3. Specify the security group as an administrator for another security group.
+
+3. From the **Security Groups** prompt, select security groups to identify who has permission to access the securable content.
+
+4. From the **Access to Segments** prompt, select security segments that you want members of the specified security groups to be able to access. Workday-owned security groups include:
+    1. Job Application - Contingent Worker
+    2. Job Application - Employee
+    3. Job Application - External
+
+You can't combine different types of security segments in a segment-based security group.
+
+#### Example scenario
+
+You want a Benefits Administrator to be able to manage only benefits-related documents. You don't want them to be able to manage payroll-related documents. Workday secures access to manage all worker documents to the Worker Data: Add Worker Documents and Worker Data: Edit and Delete Worker Documents domains. You can create a Document Categories - Benefits segment to identify benefits-related documents. You can then use the security segment to create a segment-based security group so Benefits Administrators can access only the benefits-related documents.
+
+#### Next steps
+
+Users with access to a domain through both a segment-based and a non-segment-based security group have permission to access all segments. Make sure you associate non-segment-based security groups with users who have permission to access all segments by:
+
+- Reviewing all security groups on the policy before adding segment-based security groups.
+- Reviewing the included security groups in an aggregation security group.
+
+To provide security permissions:
+
+- Add the security group to security policies.
+- Activate pending security policy changes.
+- Activate the security group when you want to enable the permissions on an inactive security group.
+
+### Edit domain security policies
+
+You can configure which security groups have permission to access the secured items in a domain.
+
+You'll need the **Security Configuration** domain in the System functional area.
+
+1. Access the **Domain Security Policies for Functional Area** report.
+
+2. Select a security policy.
+
+3. Select **Edit Permissions**.
+
+4. Select the **View** or **Modify** checkbox to grant the security groups access to the report or task securable items.
+
+5. Select the **Get** or **Put** checkbox to grant the security groups access to integration and report or task securable actions.
+
+### Activate pending security policy changes
+
+Create an active timestamp using the Activate Pending Security Policy Changes task. Security policy changes made since the previous active timestamp take effect immediately. The active timestamp now reflects the current time, regardless of pending changes.
+
+You can run these reports to view a detailed list of the security policy changes you’re activating:
+
+- Domain security policies with pending changes
+- Business process security policies with pending changes
+
+1. Access the **Activate Pending Security Policy Changes** task.
+
+2. Describe your changes in the **Comment** field.
+
+3. Tick the **Confirm** checkbox to activate your changes.
+
+You can use the **View All Security Timestamps** report to roll back to a previous timestamp.
+
+### Retrieve the Workday Web Service endpoint
+
+You can find the required Workday Web Service endpoint on the **Workday Data Centers** page on **Community**.
+
+1. Use [this page in Workday](https://resourcecenter.workday.com/signin.html?fromURI=%2Fapp%2Fworkdayciam_workdaycommunity_1%2Fexk1lccolxpyQ8feC4x7%2Fsso%2Fsaml%3FSAMLRequest%3DfVJNb%252BIwFLzzKyrfieOEhq4FSCl0d5FYYAvtoRfkOC%252Bt1djO%252Bjlb%252BPcNSb%252Bl8k7285vxzNgjFLqseFr7B3MN%252F2pA3ztraq9Lg7w9HJPaGW4FKuRGaEDuJd%252BkfxY8CkJeOeuttCX5AjuNEojgvLKmg81nY7JaXi1Wv%252BbL3SCKi4wlP2BY5GHOikESJQzOkzhJRJENs%252FMLJociizroLThseMakoSW9jg2xhrlBL4xv%252BmEU9cOkz%252BJtFPKY8Ti%252B66CzxqwywrfwB%252B8r5JSiujfKBA7Q1k6CBOPBBU%252FWPebiEEirqagq%252BrKXSujd69pqXRvlDztGYf%252FIStmksq8Ofy8KmA72Q4po6TGZ7vL1S26XyuTK3J%252BOK%252BuGkP%252Febtf99Wqz7UjS1xin1mCtwW3A%252FVcSbq4X747ehH1ycVRChUQyaZlGxz1vk3OTk8gR%252FTj6Dq74stE9n61tqeSh7R%252Frp3Va%252BO%252FtsYC1HZX3i3aUgxaqTPO8eQIkbzxpWdqnqQPhYUy8q4Gc0UmvE%252FP5%252F06eAQ%253D%253D%26RelayState%3Dhttps%253A%252F%252Fcommunity.workday.com%252Fnode%252F29946) to identify which Workday Production Data Center your tenant is in.
+
+2. Now that you know your data center, fill in your information (in the bolded areas) to get your URL. You'll need this URL for integration in your Microsoft 365 admin center. "https:// wd2-impl-services1.workday.com{**Production data center URL prefix**}/ccx/service/{**Tenant name**}/Learning/v38.0".
 
 ## Configure in your Microsoft 365 admin center
 
->[!NOTE]
->You'll need to have admin permissions in Microsoft 365 to complete these steps.
-
-### Prerequisite for configuration
-
-Make sure that the SuccessFactors package is available in the SFTP folder path.
-
-To obtain the folder path:
-
-1. Navigate to **SF Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
-2. Get the value of the defaultFtp.path property.
-
->[!NOTE]
->It may take up to 7 business days after configuration in your SuccessFactors portal for the SuccessFactors package to appear in your folder path. If you're still unable to find the package, contact your SuccessFactors support team.
-
-### Admin center configuration
-
-1. Navigate to your [Microsoft 365 admin center](https://admin.microsoft.com).
-
-2. Navigate to **Settings** > **Org settings**. Search for *Viva Learning* and enable SAP SuccessFactors from the options.
-
-3. Fill in the configuration details:
-
-    **Display Name**: Enter the display name you want to appear for the SAP SuccessFactors carousel.
-
-    **SFTP Host URL**: Navigate to **LMS Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **CONNECTORS**. Get the value of the `connector.ftp.server` property.
-
-    **User Name**: Follow the same steps you followed for the SFTP Host URL. Get the value of the `connector.ftp.userID` property.
-
-    **Password**: Enter your password. Check with your LMS application owner for help with retrieving your password.
-
-    **Folder Path**: Navigate to **LMS Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property.
-
-    **Client's Host URL**: This is the BizX domain URL. You can get this from your BizX login URL. For example, if your BizX login URL is `organization.successfactors.com/sf/start/#/login` then the host URL is `organization.successfactors.com`.
-
-    **Client's Learning Destination URL**: You can get this from the learning domain module URL. For example, if the learning domain URL is `organization.scdemo.successfactors.com/learning/...` then the Learning Destination URL is `organization.scdemo.successfactors.com`.
-
-    **PGP Private Key**: PGP private key for decryption, which is the entire section between BEGIN PGP PRIVATE KEY BLOCK and END PGP PRIVATE KEY BLOCK. You'll need to copy the key exactly as it's been generated; don't remove new line characters.
-
-    Note that different tools generate keys in different formats. Remove the header if one is present in the block (for example, the version). Copy only the key block, which should be a Base64 string.
-
-    **PGP Private Key Passphrase**: You'll need to get this value from your IT admin or the team that provides your PGP key.
-
-    **Company ID**: Sign in to your SuccessFactors portal. Select your profile icon, then select **Show Version Settings**. You can view your company ID here.
-
-    ![Image of the profile icon with Show Version Settings selected.](../media/learning/sf-3.png)
-
-    ![Image of the version settings pane.](../media/learning/sf-1.png)
-
-4. Select **Save** to activate SuccessFactors content in Microsoft Viva Learning. There may be a delay before the content is available in Viva Learning.
-
 >[!Note]
-> SuccessFactors courses will start appearing in Viva Learning within 7 days of successful setup.
+> You'll need to have admin permissions in Microsoft 365 to complete these steps.
 
->[!Note]
-> All users within an organization will be able to discover all the tenant-specific courses, but they'll only be able to access and consume courses that they have access to. User specific content discovery is planned for future releases.
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
 
-## Learner record sync
+2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and choose Workday in the panel.
 
-Check the **Enable Learner Record Sync** checkbox to enable assignments and course completion records to sync from the learning management system to Viva Learning. Users from your organization will then be able to see their assigned and completed courses from your LMS within Viva Learning.  
+3. Fill in the following required configuration details:
+    1. **Display name:** This is the name of the carousel under which Workday learning content will appear for your organization in Viva Learning. If you don't enter a name, it will display the name "Workday".
+    2. **Learning Workday Web Service (WWS) endpoint:** This is the URL that you got when you [retrieved the endpoint](#retrieve-the-workday-web-service-endpoint).
+    3. **Username:** This is the username that you chose when you [created the integration system user](#create-an-integration-system-user).
+    4. **Password:** This is the password that you chose when you created the integration system user.
 
-By checking this checkbox, you're allowing Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapping-related information is deduced.  
-
-### Prerequisite for learner record sync
-
-You'll need to enable inbound user provisioning with SuccessFactors AD. [Learn how](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-cloud-only-tutorial)
-
-### Steps followed for user sync
-
-After you enable user sync, the EmployeeID is synced with each LMS user synced to Azure Active Directory.  
-
-Viva Learning receives this EmployeeID in a zip package, which is used for StudentID matching.  
+4. Select **Save** to save the configuration details and complete the setup process.
