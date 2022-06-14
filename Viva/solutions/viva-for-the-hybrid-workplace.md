@@ -36,7 +36,7 @@ Don’t have Microsoft Viva yet? [Find out all of its benefits and how to get it
 
 **Example tasks and scenarios**
 
-- [Employee onboarding and changing roles](#onboarding)
+- [Employee onboarding and changing roles](#onboarding-or-changing-roles)
 - [Frontline workers](#frontline-workers)
 - [Supporting work/life balance](#worklife-balance)
 - [Leadership communications  – a live event](#leadership-communications)
