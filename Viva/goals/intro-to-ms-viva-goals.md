@@ -30,17 +30,17 @@ description: "Learn about Microsoft Viva Goals on how you can use it for organiz
 
 </br>
 
-Microsoft Viva Goals is a goal alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. 
+Microsoft Viva Goals is a goal alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results.
 
-To do this, Microsoft Viva Goals leverages the power of the OKR (Objectives and Key Results) framework. 
+To do this, Microsoft Viva Goals applies the power of the OKR (Objectives and Key Results) framework.
 
-Because Viva Goals is a part of Microsoft Viva, it integrates into the employee experience, empowering teams to be their best from anywhere. 
+Because Viva Goals is a part of Microsoft Viva, it integrates into the employee experience, empowering teams to be their best from anywhere.
 
 ## Get started with Microsoft Viva Goals
 
-The resources in this section will help you learn more about what Viva Goals is and how it can help you.
+The resources in this section will help you learn more about Viva Goals and how it can help you.
 
-|If you are looking for this information  |Go to this resource  |
+|If you're looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn about OKRs     |[Get to know OKRs](/viva/goals/get-to-know-okrs)        |
 |Learn about defining your team |[Define your team](/viva/goals/define-your-team) |
@@ -49,33 +49,33 @@ The resources in this section will help you learn more about what Viva Goals is 
 
 ## Setup and administration
 
-The resources in this section will help the administrator in your organization to set up and configure Viva Goals in your Microsoft 365 environment:
+The resources in this section will help the administrator in your organization set up and configure Viva Goals in your Microsoft 365 environment:
 
-|If you are looking for this information  |Go to this resource  |
+|If you're looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn about roles and permissions     |[Roles and permissions](/viva/goals/roles-permissions-in-viva-goals)         |
-|Learn about creating and editing teams     |[Create and edit teams](/viva/goals/create-and-edit-teams-and-subteams)         |
-|Learn about adding users    |[Invite and remove users](/viva/goals/inviting-and-removing-a-user)       |
-|Learn about managing OKR time periods   |[Manage OKR time periods](/viva/goals/managing-okr-time-periods)         |
+|Learn to create and edit teams     |[Create and edit teams](/viva/goals/create-and-edit-teams-and-subteams)         |
+|Learn to add users    |[Invite and remove users](/viva/goals/inviting-and-removing-a-user)       |
+|Learn to manage OKR time periods   |[Manage OKR time periods](/viva/goals/managing-okr-time-periods)         |
 |Learn about OKR configurations   |[Configure your OKR model](/viva/goals/configure-okr-model)     |
 |   |         |
 
 ## Work with OKRs in Viva Goals
 
-Learn more about how to use and implement Viva Goals in your organization to help you solve your business problems. 
+Learn more about how to use and implement Viva Goals in your organization to help you solve your business problems.
 
-|If you are looking for this information  |Go to this resource  |
+|If you're looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn how to create OKRs     |[Create OKRs](/viva/goals/creating-okrs)         |
-|Learn how to check-in with OKRs| [Check-in and track progress on OKRs](/viva/goals/check-ins-and-progress-status)        |
+|Learn how to check in with OKRs| [Check-in and track progress on OKRs](/viva/goals/check-ins-and-progress-status)        |
 |Learn how to score and close OKRs|[Close and score OKRs](/viva/goals/closing-and-scoring)       |
 |   |         |
 
-## Product features 
+## Product features
 
-The resources in this section help your users learn how to use and manage Viva Goals. 
+The resources in this section help your users learn how to use and manage Viva Goals.
 
-|If you are looking for this information  |Go to this resource  |
+|If you're looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn how to use review dashboards     |[Review dashboard](/viva/goals/review-dashboard)         |
 |Learn how to use projects|[Projects](/viva/goals/projects)         |
