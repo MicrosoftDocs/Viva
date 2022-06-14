@@ -135,11 +135,11 @@ Viva Goals now supports a progress bar customization setting using which admins 
  
 The default progress ranges within Ally.io are calculated as follows:
 
-If (Expected Progress - Aggregate Progress > 25%) , then At Risk
+- If (Expected Progress - Aggregate Progress > 25%) , then At Risk
 
-If (Expected Progress - Aggregate Progress > 0% & <=25%) , then Behind
+- If (Expected Progress - Aggregate Progress > 0% & <=25%) , then Behind
 
-If (Expected Progress - Aggregate Progress <= 0%) , then On Track
+- If (Expected Progress - Aggregate Progress <= 0%) , then On Track
 
 However, admins no longer need to stick to these progress ranges and can now customize and define the ranges for the respective progress status that they need to set for tracking the OKR progress. 
 
