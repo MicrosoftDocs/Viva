@@ -121,7 +121,7 @@ For example, the objective â€˜Successfully launch version 3 of our main productâ
 
 Viva Goals now supports a progress bar customization setting using which admins can now override the current automatic scoring system.
  
-The default progress ranges within Ally.io are calculated as follows:
+The default progress ranges within Viva Goals are calculated as follows:
 
 - If (Expected Progress - Aggregate Progress > 25%) , then At Risk
 
