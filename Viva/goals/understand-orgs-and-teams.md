@@ -43,7 +43,7 @@ Let us take the example of the enterprise named Relecloud. This enterprise will 
 
 You can have as many teams and sub-teams as you wish under this org. That is, you can have teams such as Product & Engineering and have sub-teams such as R&D (research and development), QA (quality assurance), UX (user experience), Biz Ops, etc. 
 
-[image with structure] 
+:::image type="content" source="../media/goals/team-structure.png" alt-text="Example showing a single organization's team structure." lightbox="../media/goals/team-structure.png":::
 
 When you have a single organization for your enterprise, it promotes transparency and alignment where everyone is aware of the other’s work and progress made. 
 
@@ -53,7 +53,7 @@ A single enterprise can have multiple organizations under it in viva goals. Typi
 
 In such a scenario, each department/division will be an organization. Users part of the multiple organizations will be able to switch between the organizations to view and contribute to the OKRs progress. 
 
-[image of multiple orgs in viva goals] 
+:::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Multiple organizations in Viva Goals." lightbox="../media/goals/5/organization-picker.png":::
 
 Let us consider the following example: Contoso Suites is a company that offers various products such as VanArsdel and Relecloud — their collaboration suite and cloud suite, respectively. Both these product divisions are independent of each other and work in silos. So, they created 2 organizations in Viva Goals—VanArsdel, and Relecloud—to represent each of the enterprise’s product divisions.  
 
@@ -73,7 +73,7 @@ In this type, an organization is broken down into teams, which are further divid
 
 For example, Relecloud is broken into Sales, Customer Success, Product, and Marketing. While Sales can be broken into Large Enterprise, Mid-market, and SMB (small and medium businesses). And Product & Engineering can be divided into UX, QA, R&D, and so on. 
 
-[screenshot] 
+:::image type="content" source="../media/goals/hierarchical-team.png" alt-text="Viewing team hierarchy in Viva Goals." lightbox="../media/goals/hierarchical-team.png":::
 
 ### Virtual teams 
 
@@ -81,7 +81,7 @@ Virtual teams are cross-functional teams that can have members from multiple dep
 
 For example, Relecloud can create a team called Customer experience with members from both the product team and the customer success team. 
 
-[screenshot in viva goals – multiple org owners and different users] 
+:::image type="content" source="../media/goals/virtual-team.png" alt-text="Viewing a virtual team in Viva Goals." lightbox="../media/goals/virtual-team.png":::
 
 ## Structuring your Organizations and Teams in Viva Goals 
 
