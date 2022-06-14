@@ -27,6 +27,8 @@ description: "Learn how progress status is calculated in Viva Goals and how to t
 
 Each OKR in Viva Goals contains a progress bar that displays the last identified progress. Viva Goals assesses progress in 2 ways: Actual and Expected. 
 
+:::image type="content" source="../media/goals/okr-progress-bar.png" alt-text="Example showing Behind status calculation." lightbox="../media/goals/okr-progress-bar.png":::
+
 - **Actual Progress**:  Indicated by the progress bar itself and the % denoted against it. You will also find the actual progress percentage right below the progress bar as well. 
 
 - **Expected Progress**: Indicated by the grey vertical line on the progress bar.
@@ -34,6 +36,8 @@ Each OKR in Viva Goals contains a progress bar that displays the last identified
 ### How expected progress is calculated
 
 Viva Goals calculates the expected progress % based on the 'Start date' and 'End date' specified by the owner of the OKR. The progress bar and graph below is found on the objectives' quick view. (Click on the objective name to open up the objective’s quick view). You can also click on the ‘full view’ of the OKR to view the progress graph. 
+
+:::image type="content" source="../media/goals/okr-progress-graph.png" alt-text="OKR progress graph." lightbox="../media/goals/okr-progress-graph.png":::
 
 > Note: 
 > On the first day of the time period, the expected progress would be 0%.
@@ -53,9 +57,15 @@ While it is highly recommended to automate OKR progress updates either through a
 
 1. To the left of the progress bar, you'll find an icon that is indicative of the current progress mode. 
 
-2. Upon clicking this icon, you'll find the option to make a check-in. Here, you'll find the current progress and status of the objective based on the automatic update. Select ‘Edit progress and status’ to make a manual check-in. 
+    :::image type="content" source="../media/goals/current-progress-mode-icon.png" alt-text="Icon indicating current progress mode." lightbox="../media/goals/current-progress-mode-icon.png":::
+
+2. Upon clicking this icon, you'll find the option to make a check-in. Here, you'll find the current progress and status of the objective based on the automatic update. Select 'Edit progress and status' to make a manual check-in. 
+
+    :::image type="content" source="../media/goals/current-progress-mode-icon-check-in.png" alt-text="OKR manual progress update." lightbox="../media/goals/current-progress-mode-icon-check-in.png":::
 
 3. Set the progress and status as you see fit. If you want to continue making manual check-ins, and choose to stop the automatic updates for this objective, tick the checkbox that’s right underneath to stop updating via rollup from children or an integrated source. 
+
+    :::image type="content" source="../media/goals/stop-update-from-krs.png" alt-text="Checkbox to override automatic progress updates from key results." lightbox="../media/goals/stop-update-from-krs.png":::
 
 4. If you don't tick this checkbox, you're choosing to stay in the automated progress mode but you'll manually override the progress and status as a one-off instance. The next automatic update will override the manual check-in you're making. 
 
@@ -71,9 +81,13 @@ You can exit from the manual override mode and resume automatic updates by follo
 
 1. Select the manual progress mode icon, and start a check-in.
 
+    :::image type="content" source="../media/goals/manual-progress-mode-icon.png" alt-text="Resuming OKR automated progress update." lightbox="../media/goals/manual-progress-mode-icon.png":::
+
 2. You will be shown the automatic values, and you will see an option to resume the automated updates. 
 
 3. Select **Resume updating automatically from key results** (in case of progress rolled up from children) or ‘Resume updating automatically from an integrated data source’ (in case progress is updated through the integration). 
+
+    :::image type="content" source="../media/goals/manual-progress-update-icon-check-in.png" alt-text="Checkbox to override manual progress updates." lightbox="../media/goals/manual-progress-update-icon-check-in.png":::
 
 4. The progress and status will take the automatic values, and the progress mode will be reverted to automated mode.
 
@@ -86,12 +100,6 @@ Viva Goals lets you validate and indicate the progress of your OKRs with a statu
 :::image type="content" source="../media/goals/viva-goals-status-colours.png" alt-text="Different OKR colours in Viva Goals." lightbox="../media/goals/viva-goals-status-colours.png":::
 
 When the status is manually set by a user, say, for example, a user checks in and marks status as ‘On Track’, the progress bar will show status as ‘On Track’.
- 
-When the status is automatically set by Viva Goals (for data integrated OKRs or parent objectives having progress rolled up from key results), there are two ways in which the status can get updated currently.
-
-- Status derived based on Progress
-
-- Status derived based on Key Results
 
 ### Status derived based on 'Progress'
 
@@ -105,29 +113,9 @@ In cases where all the key results of an objective have 'Postponed' or 'Closed' 
 
 - If (Expected Progress - Aggregate Progress <= 0%) , then On Track
 
-For example, the objective ‘Wow the market with a revolutionary product’ has three key results that contribute to its progress. The objective’s status will be derived on the progress %. In the example, the expected progress of the objective is at 52% and the actual progress is at 47%. Since (Expected Progress - Aggregate Progress > 0% & <=25%)  the status is derived as ‘Behind’. 
+For example, the objective ‘Successfully launch version 3 of our main product’ has four key results and one project that contribute to its progress. The objective’s status will be derived on the progress %. In the example, the expected progress of the objective is at 82% and the actual progress is at 56%. Since (Expected Progress - Aggregate Progress > 0% & <=25%)  the status is derived as ‘Behind’. 
 
-### Status derived based on 'Key Results'
-
-When the status is derived based on ‘key results’, the status of the parent objective is set based on the status of the key result. If key results have Closed or Not Started status, the parent objective’s status is calculated as follows: 
-
-- If (Expected Progress - Aggregate Progress > 25%) , then At Risk
-
-- If (Expected Progress - Aggregate Progress > 0% & <=25%) , then Behind
-
-- If (Expected Progress - Aggregate Progress <= 0%) , then On Track
-
-When any of the key results do not have Closed or Not Started status, and have any of the below statuses in order of precedence, the parent objective's status sets to this value:
-
-1. At Risk
-
-2. Behind
-
-3. On Track
-
-4. Not Started
-
-In cases where all the key results of an objective have 'Postponed' or 'Closed' or ‘Not Started’ as the status, then the parent objective’s status will automatically be marked as 'Postponed' or 'Closed' or ‘Not Started’. 
+:::image type="content" source="../media/goals/my-okrs-tab-expected-progress.png" alt-text="Example showing Behind status calculation." lightbox="../media/goals/my-okrs-tab-expected-progress.png":::
 
 ### OKR Progress Bar Customization
 
