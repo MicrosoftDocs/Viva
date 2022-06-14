@@ -1,5 +1,5 @@
 ---
-title: Check-ins and progress status
+title: Check-in to update OKRs in Viva Goals
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -18,7 +18,7 @@ search.appverid:
 description: "Learn how to use check-ins, likes, comments and mentions to motivate and stay on track"
 ---
 
-# Check-in and track progress on OKRs 
+# Check-in to update OKRs in Viva Goals 
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
@@ -132,74 +132,3 @@ You can choose to make check-ins automatically by:
 
 - **Integrating Viva Goals with MS Teams.** You can easily make check-ins and get a quick view of your OKR progress by pinning your organization, team or individual OKRs as a tab in any channel or chat. 
 - **Rolling up your objective progress to your key result progress.** The roll-up of progress makes it easy to assess the impact a key result has on its objective and other objectives above that are in the hierarchy of OKRs. The objective’s progress will be the average of the progress of its key results. 
-
-## How to manually override OKR progress and status
-
-While it is highly recommended to automate OKR progress updates either through an integrated data source, or via rollup from children objectives, the OKR owner might have better context on progress. In such cases, you can manually override the automated progress and status, and set them as you see fit. 
-
-1. To the left of the progress bar, you'll find an icon that is indicative of the current progress mode. 
-
-2. Upon clicking this icon, you'll find the option to make a check-in. Here, you'll find the current progress and status of the objective based on the automatic update. Select ‘Edit progress and status’ to make a manual check-in. 
-
-3. Set the progress and status as you see fit. If you want to continue making manual check-ins, and choose to stop the automatic updates for this objective, tick the checkbox that’s right underneath to stop updating via rollup from children or an integrated source. 
-
-4. If you don't tick this checkbox, you're choosing to stay in the automated progress mode but you'll manually override the progress and status as a one-off instance. The next automatic update will override the manual check-in you're making. 
-
-5. Save your check-in. 
-
-When you manually override the progress and status and choose to stop the automatic updates, the next automatic update will not take effect unless you choose to do so. 
-
-However, every time you make a check-in, Viva Goals will show you what the automatic values would be. You can decide whether to continue making manual check-ins or revert to the automated mode of updating progress.
-
-### How to resume automatic updates
-
-You can exit from the manual override mode and resume automatic updates by following these steps: 
-
-1. Select the manual progress mode icon, and start a check-in.
-
-2. You will be shown the automatic values, and you will see an option to resume the automated updates. 
-
-3. Select **Resume updating automatically from key results** (in case of progress rolled up from children) or ‘Resume updating automatically from an integrated data source’ (in case progress is updated through the integration). 
-
-4. The progress and status will take the automatic values, and the progress mode will be reverted to automated mode.
-
-5. Save your check-in.
-
-## How to manage objective status alerts 
-
-Alerts automatically indicate when an objective needs attention or is at risk. Alerts are enabled for all objectives by default. Each user can manage how alerts are displayed for their account.
-
-:::image type="content" source="../media/goals/3/35/goals-manage-alerts.png" alt-text="Image of Managing Alerts"::: 
-
-To manage alerts, select your Avatar, then select **Account Settings** -> **Manage Alerts** and choose your preference. 
-
-:::image type="content" source="../media/goals/goals-manage-alerts.png" alt-text="screenshot of managing alerts."::: 
-
-### Status indicators
-
-Alerts are displayed in orange or red for each objective. A solid indicator refers to the listed objective, and an outlined indicator refers to a child objective (or even a grandchild objective). 
-
-Select the indicator to see the alert message. 
-
-**Needs Attention**: Shows that an objective (or its child objectives) appear to fall outside of OKR best practices. Indicators include: 
-
-- Not started yet, seven days past the start date.
-
-- Not aligned to any objectives: 
-    Objective doesn't have key results and is a team or individual level objective.
-
-- Objective has too many results. Best practice is to have 3-5 key results.
-
-- Score is higher than 0.8. Consider setting the goal higher next time.  
-
-**At Risk**: Shows that an objective (or its child objectives) appear to have a significant issue with configuration or progress. Indicators include: 
-
-- Progress off by more than 25% from expected progress based on start and due date of OKR.
-
-- Objective is past its due date.
-
-- Doesn't have an owner.
-
-- Key Result and Objective time periods don't align.
-
-- Objective dates don't align with period dates.
