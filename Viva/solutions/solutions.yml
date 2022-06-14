@@ -76,6 +76,6 @@ landingContent:
       - linkListType: overview
         links:
           - text: Bring learning into the flow of work
-            url: incorporate-learning
+            url: incorporate-learning.md
 
 
