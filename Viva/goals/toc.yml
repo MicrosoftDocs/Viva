@@ -5,6 +5,8 @@ items:
   items:
     - name: Get to Know OKRs
       href: get-to-know-okrs.md
+    - name: Understand Organizations and Teams in Viva Goals
+      href: understand-orgs-and-teams.md
     - name: Define Your Team
       href: define-your-team.md
     - name: Determine Your Rollout Plan
