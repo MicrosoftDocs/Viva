@@ -33,7 +33,7 @@ You'll need to complete the following steps in Workday:
 3. [Set up course-segmented security](#set-up-course-segmented-security)
 4. [Edit domain security policies](#edit-domain-security-policies)
 5. [Activate pending security policy changes](#activate-pending-security-policy-changes)
-6. [Retrieve the WWS endpoint](#retrieve-the-wws-endpoint)
+6. [Retrieve the WWS endpoint](#retrieve-the-workday-web-service-endpoint)
 
 If you require additional support, contact Workday.
 
