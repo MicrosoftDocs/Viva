@@ -18,9 +18,10 @@ search.appverid:
 ---
 
 # Microsoft Viva for the hybrid workplace: Leadership communications
+
 **Leadership communications – a live event**
 
-Let’s say your organization is launching a new product. Announcement of the product, including how it works and what the organization’s goals are for it, need to be communicated across your organization. Holding an all-hands or town hall is a traditional way to do this. In a hybrid work environment, you need to ensure that everyone has access to the announcement no matter where they are. It is also essential to have a recording and transcript of the event for those who can’t participate in the live event because they are in a different time zone or are front line workers whose schedules don’t allow participation.
+Let’s say your organization is launching a new product. Announcement of the product, including how it works and what the organization’s goals are for it, need to be communicated across your organization. Holding an all-hands or town hall is a traditional way to do this. In a hybrid work environment, you need to ensure that everyone has access to the announcement no matter where they are. It is also essential to have a recording and transcript of the event for those who can’t participate in the live event because they are in a different time zone or they are frontline workers whose schedules don’t allow participation.
 
 ![Video screenshot for leadership presentation](../media/leader-town-hall.png)
 

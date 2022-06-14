@@ -3,14 +3,14 @@
 
   items:
   - name: Getting started with Microsoft Viva
-    href: /viva/solutions/getting-started-with-microsoft-viva.md
+    href: /viva/getting-started-with-microsoft-viva.md
     items:
     - name: Plan for all Viva modules
-      href: plan-for-all-viva-modules.md
+      href: /viva/plan-for-all-viva-modules.md
     - name: Learn how to combine modules
-      href: learn-how-to-combine-modules.md
-    - name: Discover more about each Viva module
-      href: discover-more-about-each-viva-module.md
+      href: /viva/learn-how-to-combine-modules.md
+    - name: /viva/Discover more about each Viva module
+      href: /viva/discover-more-about-each-viva-module.md
 
 
  
@@ -19,16 +19,16 @@
     items:
     - name: Onboarding employees who are new or changing roles
       href: viva-onboarding-changing-roles.md
-    - name: Front line workers
+    - name: Frontline workers
       href: viva-front-line-workers.md
-    - name: Work life balance
+    - name: Work/life balance
       href: viva-work-life-balance.md
     - name: Leadership communications
       href: viva-leadership-communications.md
 
 
   - name: Incorporate learning into your organization
-    href: /viva/solutions/incorporate-learning.md
+    href: incorporate-learning.md
 
   - name: Microsoft Viva Accelerators
     href: introduction.md
