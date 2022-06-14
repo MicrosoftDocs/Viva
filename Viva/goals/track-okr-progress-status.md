@@ -47,7 +47,7 @@ For manual check-ins, a progress % or KPI value must be explicitly added by the 
 
 You will also see under the progress bar how and when the last update was made, the % complete or KPI,  along with the notes left at the time of check-in and who made the update when the 'Show more info' on the dashboard list view is turned on.
 
-## How to manually override OKR progress and status
+### How to manually override OKR progress and status
 
 While it is highly recommended to automate OKR progress updates either through an integrated data source, or via rollup from children objectives, the OKR owner might have better context on progress. In such cases, you can manually override the automated progress and status, and set them as you see fit. 
 
