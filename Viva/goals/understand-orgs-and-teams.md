@@ -15,7 +15,7 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Learn how progress status is calculated in Viva Goals and how to track it. "
+description: "Learn about Organizations and Teams in Viva Goals and how to structure them. "
 ---
 
 # Understand Organizations and Teams in Viva Goals 
@@ -39,7 +39,7 @@ This is the recommended best approach unless your enterprise’s needs are diffe
 
 Let us take the example of the enterprise named Relecloud. This enterprise will have only one organization called Relecloud in Viva Goals.  
 
-[image of one org in viva goals] 
+:::image type="content" source="../media/goals/org-okrs-tab.png" alt-text="Example showing a single organization's OKRs." lightbox="../media/goals/org-okrs-tab.png":::
 
 You can have as many teams and sub-teams as you wish under this org. That is, you can have teams such as Product & Engineering and have sub-teams such as R&D (research and development), QA (quality assurance), UX (user experience), Biz Ops, etc. 
 
