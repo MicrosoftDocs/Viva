@@ -34,7 +34,7 @@ items:
     - name: Align OKRs
       href: align-okrs.md
     - name: Update OKRs using check-ins in Viva Goals
-      href: update-okrs-using-check-ins.md
+      href: okr-check-ins.md
     - name: Track OKR progress status in Viva Goals
       href: track-okr-progress-status.md
     - name: Close and Score OKRs
