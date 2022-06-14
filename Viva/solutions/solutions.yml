@@ -33,11 +33,11 @@ landingContent:
           - text: Getting started with Microsoft Viva
             url: /viva/getting-started-with-microsoft-viva
           - text: Plan for all Viva modules
-            url: /viva/plan-for-all-viva-modules.md
+            url: /viva/plan-for-all-viva-modules
           - text: Learn how to combine modules
-            url: /viva/learn-how-to-combine-modules.md
+            url: /viva/learn-how-to-combine-modules
           - text: Discover more about each Viva module
-            url: /viva/discover-more-about-each-viva-module.md
+            url: /viva/discover-more-about-each-viva-module
 
 
   # Card (optional)
@@ -76,6 +76,6 @@ landingContent:
       - linkListType: overview
         links:
           - text: Bring learning into the flow of work
-            url: incorporate-learning.md
+            url: incorporate-learning
 
 
