@@ -163,8 +163,7 @@ Select the indicator to see the alert message.
 
 - Not started yet, seven days past the start date.
 
-- Not aligned to any objectives: 
-    Objective doesn't have key results and is a team or individual level objective.
+- Not aligned to any objectives: Objective doesn't have key results and is a team or individual level objective.
 
 - Objective has too many results. Best practice is to have 3-5 key results.
 
