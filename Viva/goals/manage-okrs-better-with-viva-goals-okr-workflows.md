@@ -47,6 +47,24 @@ At that point, the OKRs are **locked** and can't be changed by the employee. In 
 Go to **Admin Tools -> Settings -> OKR Workflow -> Check Approval Workflow -> Save**.
 
 Once this feature is enabled, an additional option becomes available to block changes to OKRs after approval.
+   
+### Configuring Approval Workflow 
+
+You can configure who can approve OKRs in Viva Goals. 
+
+[screenshot] 
+
+#### Approval of Organization OKRs 
+
+By default, Organization OKRs can be approved by org owners & org admins only. This option cannot be changed. 
+
+#### Approval of Team OKRs 
+
+By default, Team OKRs can be approved by managers of team owners. Apart from them, you can also enable team owners and team admins to approve the team OKRs. 
+
+#### Approval of Individual OKRs 
+
+By default, Individual OKRs can be approved by managers of individuals only. This option cannot be changed. 
 
 ## How to change workflow statuses for an OKR 
   
