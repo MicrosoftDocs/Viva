@@ -52,7 +52,7 @@ Once this feature is enabled, an additional option becomes available to block ch
 
 You can configure who can approve OKRs in Viva Goals. 
 
-[screenshot] 
+:::image type="content" source="../media/goals/enable-approval-workflows.png" alt-text="Configuring approval workflow in Viva Goals." lightbox="../media/goals/enable-approval-workflows.png":::
 
 #### Approval of Organization OKRs 
 
