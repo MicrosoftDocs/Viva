@@ -27,7 +27,7 @@ description: "Learn how progress status is calculated in Viva Goals and how to t
 
 Each OKR in Viva Goals contains a progress bar that displays the last identified progress. Viva Goals assesses progress in 2 ways: Actual and Expected. 
 
-:::image type="content" source="../media/goals/okr-progress-bar.png" alt-text="Example showing Behind status calculation." lightbox="../media/goals/okr-progress-bar.png":::
+:::image type="content" source="../media/goals/okr-progress-bar.png" alt-text="Example showing OKR progress Bar." lightbox="../media/goals/okr-progress-bar.png":::
 
 - **Actual Progress**:  Indicated by the progress bar itself and the % denoted against it. You will also find the actual progress percentage right below the progress bar as well. 
 
