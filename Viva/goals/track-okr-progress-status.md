@@ -81,7 +81,7 @@ You can exit from the manual override mode and resume automatic updates by follo
 
 1. Select the manual progress mode icon, and start a check-in.
 
-    :::image type="content" source="../media/goals/manual-progress-mode-icon.png" alt-text="Resuming OKR automated progress update." lightbox="../media/goals/manual-progress-mode-icon.png":::
+    :::image type="content" source="../media/goals/manual-progress-update-icon.png" alt-text="Resuming OKR automated progress update." lightbox="../media/goals/manual-progress-update-icon.png":::
 
 2. You will be shown the automatic values, and you will see an option to resume the automated updates. 
 
