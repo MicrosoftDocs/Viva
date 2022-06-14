@@ -147,11 +147,9 @@ However, admins no longer need to stick to these progress ranges and can now cus
 
 Alerts automatically indicate when an objective needs attention or is at risk. Alerts are enabled for all objectives by default. Each user can manage how alerts are displayed for their account.
 
-:::image type="content" source="../media/goals/3/35/goals-manage-alerts.png" alt-text="Image of Managing Alerts"::: 
-
 To manage alerts, select your Avatar, then select **Account Settings** -> **Manage Alerts** and choose your preference. 
 
-:::image type="content" source="../media/goals/goals-manage-alerts.png" alt-text="screenshot of managing alerts."::: 
+:::image type="content" source="../media/goals/3/35/goals-manage-alerts.png" alt-text="Image of Managing Alerts"::: 
 
 ### Status indicators
 
