@@ -35,7 +35,7 @@ Each OKR in Viva Goals contains a progress bar that displays the last identified
 
 ### How expected progress is calculated
 
-Viva Goals calculates the expected progress % based on the 'Start date' and 'End date' specified by the owner of the OKR. The progress bar and graph below is found on the objectives' quick view. (Click on the objective name to open up the objective’s quick view). You can also click on the ‘full view’ of the OKR to view the progress graph. 
+Viva Goals calculates the expected progress % based on the 'Start date' and 'End date' specified by the owner of the OKR. The progress bar and graph below is found on the objectives' quick view. (Select the objective name to open up the objective’s quick view). You can also select the ‘full view’ of the OKR to view the progress graph. 
 
 :::image type="content" source="../media/goals/okr-progress-graph.png" alt-text="OKR progress graph." lightbox="../media/goals/okr-progress-graph.png":::
 
