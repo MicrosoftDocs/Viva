@@ -89,6 +89,8 @@ items:
       href: ms-teams-integration.md
     - name: Azure DevOps integration (ADO)
       href: azure-devops-integration.md
+    - name: Create named range for spreadsheet integrations
+      href: create-named-range.md
     - name: Viva Goals Integrations
       items:
         - name: Snowflake Integration
