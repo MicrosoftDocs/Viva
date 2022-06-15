@@ -28,12 +28,12 @@ This article shows you how to configure Workday as a third-party content source 
 
 You'll need to complete the following steps in Workday:
 
-1. [Create an integration system user](#create-an-integration-system-user)
-2. [Set up integration system user security](#set-up-integration-system-user-security)
-3. [Set up course-segmented security](#set-up-course-segmented-security)
-4. [Edit domain security policies](#edit-domain-security-policies)
-5. [Activate pending security policy changes](#activate-pending-security-policy-changes)
-6. [Retrieve the WWS endpoint](#retrieve-the-workday-web-service-endpoint)
+1. [Create an integration system user](#create-an-integration-system-user).
+2. [Set up integration system user security](#set-up-integration-system-user-security).
+3. [Set up course-segmented security](#set-up-course-segmented-security).
+4. [Edit domain security policies](#edit-domain-security-policies).
+5. [Activate pending security policy changes](#activate-pending-security-policy-changes).
+6. [Retrieve the WWS endpoint](#retrieve-the-workday-web-service-endpoint).
 
 If you require additional support, contact Workday.
 
@@ -148,7 +148,7 @@ You can use the **View All Security Timestamps** report to roll back to a previo
 
 You can find the required Workday Web Service endpoint on the **Workday Data Centers** page on **Community**.
 
-1. Use [this page in Workday](https://resourcecenter.workday.com/signin.html?fromURI=%2Fapp%2Fworkdayciam_workdaycommunity_1%2Fexk1lccolxpyQ8feC4x7%2Fsso%2Fsaml%3FSAMLRequest%3DfVJNb%252BIwFLzzKyrfieOEhq4FSCl0d5FYYAvtoRfkOC%252Bt1djO%252Bjlb%252BPcNSb%252Bl8k7285vxzNgjFLqseFr7B3MN%252F2pA3ztraq9Lg7w9HJPaGW4FKuRGaEDuJd%252BkfxY8CkJeOeuttCX5AjuNEojgvLKmg81nY7JaXi1Wv%252BbL3SCKi4wlP2BY5GHOikESJQzOkzhJRJENs%252FMLJociizroLThseMakoSW9jg2xhrlBL4xv%252BmEU9cOkz%252BJtFPKY8Ti%252B66CzxqwywrfwB%252B8r5JSiujfKBA7Q1k6CBOPBBU%252FWPebiEEirqagq%252BrKXSujd69pqXRvlDztGYf%252FIStmksq8Ofy8KmA72Q4po6TGZ7vL1S26XyuTK3J%252BOK%252BuGkP%252Febtf99Wqz7UjS1xin1mCtwW3A%252FVcSbq4X747ehH1ycVRChUQyaZlGxz1vk3OTk8gR%252FTj6Dq74stE9n61tqeSh7R%252Frp3Va%252BO%252FtsYC1HZX3i3aUgxaqTPO8eQIkbzxpWdqnqQPhYUy8q4Gc0UmvE%252FP5%252F06eAQ%253D%253D%26RelayState%3Dhttps%253A%252F%252Fcommunity.workday.com%252Fnode%252F29946) to identify which Workday Production Data Center your tenant is in.
+1. Use [this page in Workday](https://resourcecenter.workday.com/) to identify which Workday Production Data Center your tenant is in.
 
 2. Now that you know your data center, fill in your information (in the bolded areas) to get your URL. You'll need this URL for integration in your Microsoft 365 admin center. "https:// wd2-impl-services1.workday.com{**Production data center URL prefix**}/ccx/service/{**Tenant name**}/Learning/v38.0".
 
