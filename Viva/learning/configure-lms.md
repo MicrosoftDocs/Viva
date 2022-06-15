@@ -36,6 +36,7 @@ Learning management systems are not enabled by default. To enable these sources,
 |Cornerstone OnDemand |[Configure Cornerstone OnDemand as a content source](configure-cornerstone-content-source.md)         |
 |Saba    |[Configure Saba as a content source](configure-saba-content-source.md)         |
 |SAP SuccessFactors   |[Configure SAP SuccessFactors as a content source](configure-successfactors-content-source.md)         |
+|Workday |[Configure Workday as a content source](configure-workday-content-source.md)
 
 >[!NOTE]
 >Available learning management systems are subject to change. Depending on your organization, you may have access to different learning management systems than are listed here.
@@ -152,4 +153,4 @@ Your changes won't be saved if you've entered any fields incorrectly. You can cl
 
 Once you've added a learning management system as a content source from the Microsoft 365 admin center, content from the LMS will flow to the Viva Learning app and will be visible to end users.
 
-Once a user chooses to play a course in Viva Learning, they will be directed to the LMS webpage and will need to enter the login credentials on the LMS sign in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).
+Once a user chooses to play a course in Viva Learning, they will be directed to the LMS webpage and will need to enter the login credentials on the LMS sign-in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).

@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals  
 search.appverid:
@@ -21,7 +21,7 @@ description: "Sync data updates from Amazon Redshift with Viva Goals to update O
 # Amazon RedShift integration
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## About the Amazon RedShift Integration
 
@@ -37,9 +37,15 @@ All users and admins can use this integration. Admins also have permissions to m
 
 2. The first step in setting up the Amazon Redshift integration is to connect your account to Viva Goals. Navigate to your sidebar and select **Admin** and then select **Integrations**.
 
+    :::image type="content" source="../media/goals/12/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/12/viva-goals-integrations-page.png":::
+
 3. In the integrations section, go to Amazon Redshift and then select **Manage**. 
 
+    :::image type="content" source="../media/goals/12/amazonredshift-manage-button.png" alt-text="Managing Amazon RedShift Server in Viva Goals." lightbox="../media/goals/12/amazonredshift-manage-button.png":::
+
 4. Select **New Connection** and in the pop-up dialog box, name your connection, give your Amazon Redshift hostname, port, user, password, the database you'd like to connect to authenticate the connection.
+
+    :::image type="content" source="../media/goals/12/amazonredshift-configure-new-connection.png" alt-text="Configuring a new Amazon RedShift connection in Viva goals." lightbox="../media/goals/12/amazonredshift-configure-new-connection.png":::
 
 5. Select **Next** to complete the new connection setup. 
 
@@ -55,7 +61,11 @@ Once your integration is set up, you can measure your OKR progress by connecting
 
 1. Select **Amazon Redshift** from the list of integrations available. If there are multiple connections listed, choose the connection that you would like to use. 
 
-2. Next, add your query and validate the response. 
+    :::image type="content" source="../media/goals/12/amazonredshift-datasource.png" alt-text="Selecting Amazon RedShift from the list of data sources in Viva Goals." lightbox="../media/goals/12/amazonredshift-datasource.png":::
+
+2. Next, add your query and validate the response.
+
+    :::image type="content" source="../media/goals/12/amazonredshift-connection-details.png" alt-text="Adding new Amazon RedShift connection to OKRs in Viva goals." lightbox="../media/goals/12/amazonredshift-connection-details.png":::
 
 3. Select **Next** to finish and save your OKR. You’ll now see the Amazon Redshift icon next to the OKR‘s progress indicator. This means Viva Goals will automatically measure the progress based on the data updates in the report.
 
@@ -64,4 +74,10 @@ Once your integration is set up, you can measure your OKR progress by connecting
 
 ## How to disable the Amazon RedShift integration
 
-The Amazon Redshift integration can be disabled by an Admin at any time. To disable the integration, go to Amazon Redshift in the Integrations section. Select Amazon Redshift and select Manage. On the configurations page, select the **Change dropdown**, select **Disable** and confirm the action.
+The Amazon Redshift integration can be disabled by an Admin at any time. 
+1. To disable the integration, go to Amazon Redshift in the Integrations section. Select Amazon Redshift and select Manage. 
+2. On the configurations page, select the **Change dropdown**, select **Disable** and confirm the action.
+
+    :::image type="content" source="../media/goals/12/amazonredshift-disable-button.png" alt-text="Disabling Amazon RedShift in Viva Goals." lightbox="../media/goals/12/amazonredshift-disable-button.png":::
+
+
