@@ -1,5 +1,5 @@
 ---
-title: Update OKRs using check-ins in Viva Goals
+title: Update OKRs with check-ins 
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -18,7 +18,7 @@ search.appverid:
 description: "Learn how to use check-ins, likes, comments and mentions to motivate and stay on track"
 ---
 
-# Update OKRs with check-ins in Viva Goals 
+# Update OKRs with check-ins
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
