@@ -56,7 +56,7 @@ items:
     - name: Review Dashboard Templates
       href: review-dashboard-templates.md
     - name: Approval Workflows
-      href: manage-okrs-better-with-viva-goals-okr-workflows.md
+      href: approval-workflows.md
     - name: Tags
       href: tags.md
     - name: Explorer
