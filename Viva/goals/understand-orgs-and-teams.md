@@ -59,11 +59,11 @@ In such cases, each division will be an organization. Users part of the multiple
 
 :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Multiple organizations in Viva Goals." lightbox="../media/goals/5/organization-picker.png":::
 
-Let us consider the following example: Contoso Suites is a company that offers various products such as VanArsdel and Relecloud — their collaboration suite and cloud suite, respectively. Both these product divisions are independent of each other and work in silos. So, they created 2 organizations in Viva Goals—VanArsdel and Relecloud—to represent each of the enterprise’s product divisions.  
+Let's consider the following example: Contoso Suites is a company that offers various products such as VanArsdel and Relecloud—their collaboration suite and cloud suite, respectively. Both these product divisions are independent of each other and work in silos. So, they created 2 organizations in Viva Goals—VanArsdel and Relecloud—to represent each of the enterprise’s product divisions.  
 
 Now, under each organization, multiple teams and subteams can be created to match the structure of the enterprise and its divisions. These organizations can then have their own org-level, team-level, and individual OKRs populated in them. 
 
-But the drawback of pivoting an org at a division level is that you are contained within a small space wherein other orgs cannot view/contribute to your progress and vice versa. Thus, resulting in lack of alignment and transparency, which are key to OKRs success. 
+But the drawback of pivoting an org at a division level is that you are contained within a small space wherein other orgs can't view/contribute to your progress and vice versa. Thus, resulting in lack of alignment and transparency, which are key to OKRs' success. 
 
 ## Teams in Viva Goals 
 
@@ -95,8 +95,8 @@ For example, VanArsdel may consist of only two levels of OKRs—org-level and te
 
 ## Limitations of Organizations and Teams in Viva Goals 
 
-It is crucial to have a clear understanding of how you wish to structure your organization(s) and team(s) in Viva Goals. Because once set up it cannot be reversed, and it is an extremely painful process with respect to the change management involved in the Viva Goals product and within your organization. Also, currently, org migration or org merging is not supported in Viva Goals. 
+It is crucial to have a clear understanding of how you wish to structure your organization(s) and team(s) in Viva Goals. Because once setup, the structure cannot be reversed. And the change management involved in the Viva Goals product and within your organization will be a painful process. Also, currently, org migration or org merging is not supported in Viva Goals. 
 
 For example, let us assume you choose to follow the single organization approach and populated your OKRs into your Viva Goals account. And at a later point decide to switch to the multiple orgs approach. Now, a lot of changes would need to be made on the product front such as replanning your OKRs in Viva Goals, reassigning them, realigning them, and so on. You would also have to go through the pain of communicating these changes to all the individuals across your enterprise.  
 
-Another aspect where caution is required is in choosing where to pivot and create orgs in Viva Goals as you will not be viewing the other organizations OKRs unless you are added to them as a member. 
+Another reason for carefully choosing where to pivot and create orgs in Viva Goals is that you can't view the other organizations OKRs unless you're added as a member. 
