@@ -49,9 +49,13 @@ When you have a single organization for your enterprise, it promotes transparenc
 
 ### Multiple Organizations for one Enterprise 
 
-A single enterprise can have multiple organizations under it in viva goals. Typically, enterprises that have departments/divisions working in silos, or with privacy constraints, and want only select members such as the leadership team to view their progress or divisions that follow different cadences for planning and execution prefer this structure.  
+A single enterprise can have multiple organizations under it in viva goals. The following are some scenarios where enterprises may opt for this structure: 
 
-In such a scenario, each department/division will be an organization. Users part of the multiple organizations will be able to switch between the organizations to view and contribute to the OKRs progress. 
+  - Enterprises that have departments/divisions working in silos and want only select members such as the leadership team to view their progress.
+  - Different divisions follow different cadences for planning and execution.  
+  - There are some privacy constraints among the divisions within the enterprise.
+
+In such cases, each department/division will be an organization. Users part of the multiple organizations will be able to switch between the organizations to view and contribute to the OKRs progress. 
 
 :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Multiple organizations in Viva Goals." lightbox="../media/goals/5/organization-picker.png":::
 
