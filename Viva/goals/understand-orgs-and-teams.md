@@ -63,7 +63,7 @@ Let us consider the following example: Contoso Suites is a company that offers v
 
 Now, under each organization, multiple teams and subteams can be created to match the structure of the enterprise and its divisions. These organizations can then have their own org-level, team-level, and individual OKRs populated in them. 
 
-But the drawback of pivoting an org at a division level is that you are contained within a small space wherein other orgs cannot view/contribute to your progress and vice versa. This results in lack of alignment and transparency, which are key to OKRs success. 
+But the drawback of pivoting an org at a division level is that you are contained within a small space wherein other orgs cannot view/contribute to your progress and vice versa. Thus, resulting in lack of alignment and transparency, which are key to OKRs success. 
 
 ## Teams in Viva Goals 
 
