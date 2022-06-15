@@ -9,12 +9,12 @@
       href: /viva/plan-for-all-viva-modules
     - name: Learn how to combine modules
       href: /viva/learn-how-to-combine-modules
-    - name: /viva/Discover more about each Viva module
+    - name: Discover more about each Viva module
       href: /viva/discover-more-about-each-viva-module
 
 
  
-  - name: Using Microsoft Viva in the Hybrid workplace
+  - name: Using Microsoft Viva in the hybrid workplace
     href: viva-for-the-hybrid-workplace.md
     items:
     - name: Onboarding employees who are new or changing roles

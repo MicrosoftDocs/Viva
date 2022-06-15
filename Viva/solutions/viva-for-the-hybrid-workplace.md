@@ -61,19 +61,19 @@ Don’t have Microsoft Viva yet? [Find out all of its benefits and how to get it
 Every organization is different. Determining the needs for your organization is the first step in planning a successful hybrid work environment. 
 
 - Identify the organization’s internal structure. This may start with the overall hierarchy, departments, teams, and project groups.
-- Identify the places and locations where your employees work.
-- Find out the needs of your employees as they work from their particular locations.
-- Determine the ways in which your employees communicate and collaborate the best.
-- Understand the goals of leadership communications.
+- Identify the places and locations where your employees work
+- Find out the needs of your employees as they work from their particular locations
+- Determine the ways in which your employees communicate and collaborate the best
+- Understand the goals of leadership communication.
 - Discover what your employees need to learn in the flow of their work
-- Discover what your employees struggle with and give them the tools and insights they need to focus their time and take time to rest.
-- Consider the culture of your organization and the ways people connect with each other.
+- Discover what your employees struggle with and give them the tools and insights they need to focus their time and take time to rest
+- Consider the culture of your organization and the ways people connect with each other
 
 According to the results of your needs assessment, your next steps can be:
 - Identify key tasks and scenarios that can be supported by Viva
 - Align stakeholders and business owners around common goals
 - Plan for security and governance
-- Prepare content 
+- Prepare content
 - Create an adoption plan and training for end users
 - Consider success metrics and maintenance over time
 
@@ -86,7 +86,7 @@ Onboarding new employees and employees changing roles need to get up and running
 Learn more in the [Onboarding employees who are new or changing roles](/viva/solutions/viva-onboarding-changing-roles) scenario.
 
 ### Frontline workers
-Frontline workers who are not on site need to be able to see their schedules and check-in and check-out quickly and easily. They also need to be able to access organizational communications easily and all in one place.
+Frontline workers who are not on site need to be able to see their schedules and check in and check out quickly and easily. They also need to be able to access organizational communications easily and all in one place.
 
 Learn more in the [Frontline worker](/viva/solutions/viva-front-line-workers) scenario.
 

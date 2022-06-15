@@ -58,7 +58,7 @@ Learn more
 
 [Learn about Stream](/stream/streamnew/start)
 
-[Hold a town hall in Yammer and keep the conversation going](sharepoint/hold-town-hall-using-yammer)
+[Hold a town hall in Yammer and keep the conversation going](/sharepoint/hold-town-hall-using-yammer)
 
 [Set up and launch Viva Connections](/viva/connections/guide-to-setting-up-viva-connections)
 
