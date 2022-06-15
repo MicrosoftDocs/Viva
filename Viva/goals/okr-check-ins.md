@@ -43,7 +43,7 @@ In the check-in sidebar:
 
 3. **Flag the overall status**: Is your Objective or KR On Track, Behind, At Risk, or have you Not Started yet? 
 
-![screenshot showing where to update status.](../media/goals/3/35/b.jpg)
+    ![screenshot showing where to update status.](../media/goals/3/35/b.jpg)
 
 Keep it short and crisp; the OKR process doesn't require long explanations on every check-in.
 
@@ -70,7 +70,7 @@ Once you make the selection, the user will  start receiving the check-in reminde
 > [!Note] 
 > By default, the owner (the first owner if there are multiple owners) is set as the person responsible for check-in.
 
-![screenshot of assigning check in responsibility.](../media/goals/3/35/c.jpg)
+   ![screenshot of assigning check in responsibility.](../media/goals/3/35/c.jpg)
 
 ## How to engage with check-ins with likes and comments
 
@@ -116,7 +116,7 @@ Viva Goals sends reminders in three ways:
 
 1. A Chief of Staff is setting a check-in cadence for the People Operations department to receive notifications every month on the first Friday at 9AM PST. The Chief of Staff wants the subteams reporting into her to continue having a cadence of their own (preferably, a weekly cadence). Therefore, she won't cascade this cadence down to the reporting teams, and will let each team set their own check-in rhythm. 
 
-![screenshot of setting a check in rhythm.](../media/goals/3/35/f.jpg)
+    ![screenshot of setting a check in rhythm.](../media/goals/3/35/f.jpg)
 
 2. The Head of Marketing is setting a bi-weekly cadence for the Marketing team to receive notifications on every Monday once every two weeks at 9AM PST. The Head of Marketing wants his reporting teams (say, Product Marketing, Demand Generation, and Customer Marketing) to have their own cadence, but highly recommends starting them with the same cadence as the marketing team. In this case, the cadence will cascade down the teams, however, the teams can change this schedule at any given point in time. 
 
@@ -131,4 +131,5 @@ If teams have to follow the parent team's check-in rhythm, the team owners and/o
 You can choose to make check-ins automatically by:
 
 - **Integrating Viva Goals with MS Teams.** You can easily make check-ins and get a quick view of your OKR progress by pinning your organization, team or individual OKRs as a tab in any channel or chat. 
+
 - **Rolling up your objective progress to your key result progress.** The roll-up of progress makes it easy to assess the impact a key result has on its objective and other objectives above that are in the hierarchy of OKRs. The objective’s progress will be the average of the progress of its key results. 
