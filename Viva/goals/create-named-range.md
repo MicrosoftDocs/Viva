@@ -41,7 +41,11 @@ Also, name ranges are permanent so if you make any changes in your sheet by addi
 
 2. Select Define Name under Formulas
 
+    :::image type="content" source="../media/goals/9/excel-define-name-button.png" alt-text="Selecting Define Name under Formulas in Excel." lightbox="../media/goals/9/excel-define-name-button.png":::
+
 3. In the New Name dialogue box, type the Name you wish to assign to the selected data range. You can specify the scope as the entire workbook or a specific worksheet. If you select a particular sheet, the name would not be available on other sheets.
+
+    :::image type="content" source="../media/goals/9/excel-define-name-dialog.png" alt-text="Define Name dialog box in Excel." lightbox="../media/goals/9/excel-define-name-dialog.png":::
 
 4. Click OK
 
@@ -53,6 +57,10 @@ Also, name ranges are permanent so if you make any changes in your sheet by addi
 
 3. Click on Named ranges under Data. A menu will open on the right.
 
+    :::image type="content" source="../media/goals/9/google-named-range-button.png" alt-text="Selecting Named Range under Data in Google Sheets." lightbox="../media/goals/9/google-named-range-button.png":::
+
 4. Type the range name you want.
+
+    :::image type="content" source="../media/goals/9/google-named-range-dialog.png" alt-text="Named Range dialog Box in Google Sheets." lightbox="../media/goals/9/google-named-range-dialog.png":::
 
 5. Click Done.
