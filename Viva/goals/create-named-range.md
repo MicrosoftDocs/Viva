@@ -31,23 +31,23 @@ You can name ranges in Excel(.xlsx) or Google Sheets to keep better track of the
 
 Naming ranges in Excel or Google sheets can help you bring a lot of flexibility into your workbooks.
 
-Name ranges have an explicit name that makes it simpler for you or any user to refer to the contents in a cell. With a unique name, you can mitigate the confusion that comes with using row and column numbers and it becomes much easier for you or for anyone who needs to work with your workbook or sheet.
+Name ranges have an explicit name that makes it simpler for you or any user to refer to the contents in a cell. With a unique name, you can mitigate the confusion that comes with using row and column numbers and it becomes much easier for you or for anyone who needs to work with your workbook/sheet.
 
-Also, name ranges are permanent so if you make any changes in your sheet by adding or deleting rows and columns, the cell you refer to by a named range will always be permanent while this is not the case when you use row and column numbers.
+Also, name ranges are permanent. So, if you make any changes in your sheet by adding or deleting rows and columns, the cell you refer to by a named range will always be permanent. This is not the case when you use row and column numbers.
 
 ## How to create a named range in excel?
 
-1. Select the range for which you want to create a Named Range in Excel.
+1. Select the range for which you want to create a **Named Range** in Excel.
 
-2. Select Define Name under Formulas
+2. Select **Define Name** under **Formulas**.
 
     :::image type="content" source="../media/goals/9/excel-define-name-button.png" alt-text="Selecting Define Name under Formulas in Excel." lightbox="../media/goals/9/excel-define-name-button.png":::
 
-3. In the New Name dialogue box, type the Name you wish to assign to the selected data range. You can specify the scope as the entire workbook or a specific worksheet. If you select a particular sheet, the name would not be available on other sheets.
+3. In the **New Name** dialogue box, type the Name you wish to assign to the selected data range. You can specify the scope as the entire workbook or a specific worksheet. If you select a particular sheet, the name would not be available on other sheets.
 
     :::image type="content" source="../media/goals/9/excel-define-name-dialog.png" alt-text="Define Name dialog box in Excel." lightbox="../media/goals/9/excel-define-name-dialog.png":::
 
-4. Click OK
+4. Select **OK**.
 
 ## How to create a named range in Google sheets?
 
@@ -55,7 +55,7 @@ Also, name ranges are permanent so if you make any changes in your sheet by addi
 
 2. Select the cells you want to name.
 
-3. Click on Named ranges under Data. A menu will open on the right.
+3. Select **Named ranges** under **Data**. A menu will open on the right.
 
     :::image type="content" source="../media/goals/9/google-named-range-button.png" alt-text="Selecting Named Range under Data in Google Sheets." lightbox="../media/goals/9/google-named-range-button.png":::
 
@@ -63,4 +63,4 @@ Also, name ranges are permanent so if you make any changes in your sheet by addi
 
     :::image type="content" source="../media/goals/9/google-named-range-dialog.png" alt-text="Named Range dialog Box in Google Sheets." lightbox="../media/goals/9/google-named-range-dialog.png":::
 
-5. Click Done.
+5. Select **Done**.
