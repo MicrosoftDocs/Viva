@@ -137,7 +137,7 @@ Alerts automatically indicate when an objective needs attention or is at risk. A
 
 To manage alerts, select your Avatar, then select **Account Settings** -> **Manage Alerts** and choose your preference. 
 
-:::image type="content" source="../media/goals/3/35/goals-manage-alerts.png" alt-text="Image of Managing Alerts"::: 
+:::image type="content" source="../media/goals/3/35/goals-manage-alerts.png" alt-text="Image of Managing Alerts" lightbox="../media/goals/3/35/goals-manage-alerts.png"::: 
 
 ### Status indicators
 
