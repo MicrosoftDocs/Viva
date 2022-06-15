@@ -33,6 +33,8 @@
               href: configure-saba-content-source.md
             - name: SAP SuccessFactors
               href: configure-successfactors-content-source.md
+            - name: Workday
+              href: configure-workday-content-source.md
         - name: Add other content providers
           href: configure-other-content-sources.md
           items:
