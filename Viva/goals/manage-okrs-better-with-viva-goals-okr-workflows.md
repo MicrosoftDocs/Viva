@@ -1,5 +1,5 @@
 ---
-title: "Manage OKRs better with Viva Goals’ OKR workflows"
+title: "Approval workflows"
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
