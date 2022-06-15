@@ -20,6 +20,7 @@ search.appverid:
 # Microsoft Viva in the hybrid workplace:  Supporting work/life balance
 
 In the hybrid world employees spend a considerable amount of time at their keyboards and screens, or going all day if they are front-line workers.  You want your employees to balance their work and lives so they can avoid burnout and be more productive.
+
 | Viva Insights | Viva Connections | 
 |---|---|
  | Help people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing. | Add a Viva Insights card to your Dashboard to make it easy for users to find in one central location.|
