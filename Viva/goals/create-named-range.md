@@ -31,7 +31,7 @@ You can name ranges in Excel(.xlsx) or Google Sheets to keep better track of the
 
 Naming ranges in Excel or Google sheets can help you bring a lot of flexibility into your workbooks.
 
-Name ranges have an explicit name that makes it simpler for you or any user to refer to the contents in a cell. With a unique name, you can mitigate the confusion that comes with using row and column numbers and it becomes much easier for you or for anyone who needs to work with your workbook/sheet.
+Named ranges have an explicit name that makes it simpler for you or any user to refer to the contents in a cell. With a unique name, you can mitigate the confusion that comes with using row and column numbers and it becomes much easier for you or for anyone who needs to work with your workbook/sheet.
 
 Also, name ranges are permanent. So, if you make any changes in your sheet by adding or deleting rows and columns, the cell you refer to by a named range will always be permanent. This is not the case when you use row and column numbers.
 
