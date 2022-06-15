@@ -1,5 +1,5 @@
 - name: Microsoft Viva solutions
-  href: solutions.md
+  href: solutions.yml
 
   items:
   - name: Getting started with Microsoft Viva
