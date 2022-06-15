@@ -35,7 +35,7 @@ You can create more than one organization in your Viva Goals account.
 
 ### One Organization for one Enterprise 
 
-This is the recommended best approach unless your enterprise’s needs are different. In this case, you will have only one organization created in Viva Goals that represents the structure of your enterprise. 
+Creating a single organization for an enterprise is the recommended best approach unless your enterprise’s needs are different. You can structure this organization to represent the structure of your enterprise. 
 
 Let us take the example of the enterprise named Relecloud. This enterprise will have only one organization called Relecloud in Viva Goals.  
 
