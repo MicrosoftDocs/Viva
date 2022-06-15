@@ -29,7 +29,7 @@ Organizations and Teams can mean different things to different enterprises. Let�
 
 An Organization in Viva Goals resembles the topmost entity in an enterprise at which the organizational OKRs are set up and every team in that org aligns their OKRs with those organizational OKRs.  
 
-Typically, an organization in viva goals represents the company or business unit or a large department within the company.  
+Typically, an organization in Viva Goals represents the company or business unit or a large department within the company.  
 
 You can create more than one organization in your Viva Goals account. 
 
@@ -49,17 +49,17 @@ When you have a single organization for your enterprise, it promotes transparenc
 
 ### Multiple Organizations for one Enterprise 
 
-A single enterprise can have multiple organizations under it in viva goals. The following are some scenarios where enterprises may opt for this structure: 
+A single enterprise can have multiple organizations under it in Viva Goals. The following are some scenarios where enterprises may opt for this structure: 
 
   - Enterprises that have departments/divisions working in silos and want only select members such as the leadership team to view their progress.
   - Different divisions follow different cadences for planning and execution.  
   - There are some privacy constraints among the divisions within the enterprise.
 
-In such cases, each department/division will be an organization. Users part of the multiple organizations will be able to switch between the organizations to view and contribute to the OKRs progress. 
+In such cases, each division will be an organization. Users part of the multiple organizations will be able to switch between the organizations to view and contribute to the OKRs progress. 
 
 :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Multiple organizations in Viva Goals." lightbox="../media/goals/5/organization-picker.png":::
 
-Let us consider the following example: Contoso Suites is a company that offers various products such as VanArsdel and Relecloud — their collaboration suite and cloud suite, respectively. Both these product divisions are independent of each other and work in silos. So, they created 2 organizations in Viva Goals—VanArsdel, and Relecloud—to represent each of the enterprise’s product divisions.  
+Let us consider the following example: Contoso Suites is a company that offers various products such as VanArsdel and Relecloud — their collaboration suite and cloud suite, respectively. Both these product divisions are independent of each other and work in silos. So, they created 2 organizations in Viva Goals—VanArsdel and Relecloud—to represent each of the enterprise’s product divisions.  
 
 Now, under each organization, multiple teams and subteams can be created to match the structure of the enterprise and its divisions. These organizations can then have their own org-level, team-level, and individual OKRs populated in them. 
 
@@ -69,11 +69,11 @@ But the drawback of pivoting an org at a division level is that you are containe
 
 A Team in Viva Goals is a group of users working towards a common set of team OKRs. The Team OKRs would directly or indirectly align to the organization OKRs.  
 
-You can create as many teams and sub-teams as you want within each of your organizations in Viva Goals. 
+You can create as many teams and subteams as you want within each of your organizations in Viva Goals. 
 
 ### Hierarchical teams 
 
-In this type, an organization is broken down into teams, which are further divided into sub-teams, thus forming a hierarchy.  
+In the hierarchical type, an organization is broken down into teams, which are further divided into subteams.  
 
 For example, Relecloud is broken into Sales, Customer Success, Product, and Marketing. While Sales can be broken into Large Enterprise, Mid-market, and SMB (small and medium businesses). And Product & Engineering can be divided into UX, QA, R&D, and so on. 
 
