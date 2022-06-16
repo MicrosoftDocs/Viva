@@ -36,12 +36,12 @@ To set up Yume, perform the following steps:
 > You can choose to clone the repository or download the Yume accelerator from the samples of the repository directly from the server itself.
 
 Using these samples, perform the following substeps:
-- Create an Azure AAD Application registration.
+- Create an Azure AD Application registration.
 - Import the PowerApps Custom Connector.
 - Create Dataverse tables and permissions.
 - Import data into the Dataverse table.
 
-### Create an Azure AAD Application registration
+### Create an Azure AD Application registration
 
 Create an Azure AAD Application registration by performing the following steps:
 
@@ -68,7 +68,7 @@ To import the PowerApps Custom Connector, perform the following steps:
 1. Select the *vsol-yume-connector.swagger.json* file and select **Open**. The **General** page that is displayed.
 1. Leave all the values as is and click **Security**. The **Security** page is displayed.
 1. On the **Security** page, perform the following substeps:
-    1. For the **Client ID** field, enter the client id (application id) from the Azure AAD application registration process.
+    1. For the **Client ID** field, enter the client ID (application ID) from the Azure AAD application registration process.
     1. For the **Client secret** field, enter the client secret value from the Azure AAD application registration process.
     1. For the Resource URL field, enter **https://graph.microsoft.com**.
     1. For the Scope field, leave the populated value as is.
@@ -125,12 +125,12 @@ To create Dataverse permissions, perform the following steps:
 1. Select **Users and permissions > Security Roles**.
    The following roles are the ones you can create:
     - Basic User role (for access to User table and Yume tables): Updated to include user rights for tables. This role provides read-only access for the card data table but additional rights for the other yume tables.
-    - YumeContentAdmin (custom role): This role is permissive so should only be accounts that need access across all the data (for example, nudges from powerautomate).
+    - YumeContentAdmin (custom role): This role is permissive so should only be accounts that need access across all the data (for example, nudges from power automate).
         - Yume Cards::: Parent: Child Business Units
         - Yume Meeting Notes ::: Parent: Child Business Units
         - Yume User Options ::: Parent: Child Business Units
          
-       Members of this role will get the permissions as depcited in the following screenshot:
+       Members of this role will get the permissions as depicted in the following screenshot:
  
 ### Set working hours and days for users mailbox settings
 
