@@ -39,6 +39,9 @@ You’ll get a different version of the Briefing email depending on which versio
 * **Adaptive version** - If you open the Briefing email in OWA (Outlook Web Access), Outlook mobile (iOS and Android), and Outlook for Windows or Mac desktop, you’ll see the Adaptive version with links to open tasks, upcoming meetings, related documents, and complete in-line actions, and book suggested focus time.
 * **HTML version** - If you open the Briefing in an email app other than Outlook or in OWA on a mobile device, you’ll see the HTML version that links to open tasks, upcoming meetings, and related documents, but will not include in-line actions or suggested focus time.
 
+>[!Note]
+>Government Community Cloud (GCC) only supports the HTML version for now.
+
 ## How it works
 
 The Briefing email looks for actionable tasks in Outlook and includes the top results in the email. If these tasks are related to any upcoming meetings, they’ll be listed in context with the meeting. Meetings will also have links to any attached or potentially related documents.

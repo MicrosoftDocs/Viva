@@ -110,6 +110,19 @@ To exclude resources based on sensitivity labels
 
 When a label is newly applied to a file, the exclusion will take effect as soon as the change is processed by Viva Topics, usually within a day. When a label is newly applied to a site, the exclusion will take effect within in a few days depending on the number of files and pages on the site.
 
+## Exclude people from being suggested for topics by AI
+
+You can exclude specific people from being suggested for topics by Viva Topics. For example, you might want to exclude executives from being suggested as people associated with topics.
+
+You can exclude both individual users and security groups.
+
+To exclude people from being suggested for topics by AI
+1. On the **Topic discovery** tab, select **Advanced settings**.
+1. Under **Exclude people from being suggested for topics by AIsuggested for topics by AI**, select the **Exclude users or groups from being suggested for topics by AI** option.
+1. Type the users and groups that you want to exclude.
+1. Select **Save**.
+1. Close the advanced settings panel.
+
 ## See also
 
 [Manage topic visibility in Microsoft 365](topic-experiences-knowledge-rules.md)
