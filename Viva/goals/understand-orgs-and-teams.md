@@ -1,5 +1,5 @@
 ---
-title: Understand Organizations and Teams in Viva Goals
+title: Understand Organizations and Teams
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
