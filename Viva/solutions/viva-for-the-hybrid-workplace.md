@@ -36,7 +36,7 @@ Don’t have Microsoft Viva yet? [Find out all of its benefits and how to get it
 
 **Example tasks and scenarios**
 
-- [Employee onboarding and changing roles](#onboarding-or-changing-roles)
+- [Employee onboarding and changing roles](#onboard-change-roles)
 - [Frontline workers](#frontline-workers)
 - [Supporting work/life balance](#worklife-balance)
 - [Leadership communications  – a live event](#leadership-communications)
@@ -73,7 +73,7 @@ Following are examples of key tasks and scenarios that your organization may ide
 ### Onboarding or changing roles
 Onboarding new employees and employees changing roles need to get up and running, learning, and feeling comfortable and productive quickly. Having all the information in one place streamlines the process for both your human resources team and employees.
 
-Learn more in the [Onboarding employees who are new or changing roles](/viva/solutions/viva-onboarding-changing-roles) scenario.
+Learn more in the [Onboarding employees who are new or changing roles](/viva/solutions/viva-onboard-change-roles) scenario.
 
 ### Frontline workers
 Frontline workers who are not on site need to be able to see their schedules and check in and check out quickly and easily. They also need to be able to access organizational communications easily and all in one place.
