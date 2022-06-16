@@ -112,7 +112,7 @@ Let your employees know about Microsoft Viva and the employee experiences availa
 
 One way to do this is to create a SharePoint news post which can then be added to your organization home site and also shared and distributed in Teams, Outlook, and Yammer. You can even target specific audiences for the news post. 
 
-News is shown as a personalized feed on the SharePoint start page and in the mobile app. It can also be shown on team sites, communication sites, and hub sites. You can share the news in an email to your employees, and you can show [News in a Teams channel](https://support.microsoft.com/en-us/office/add-team-site-news-in-a-teams-channel-743607c0-9510-414b-8aab-1ae9ef5d3f49). 
+News is shown as a personalized feed on the SharePoint start page and in the mobile app. It can also be shown on team sites, communication sites, and hub sites. You can share the news in an email to your employees, and you can show [News in a Teams channel](https://support.microsoft.com/office/add-team-site-news-in-a-teams-channel-743607c0-9510-414b-8aab-1ae9ef5d3f49). 
 
 Learn how to [create and distribute SharePoint news](https://support.microsoft.com/office/sharepoint-news-help-80e479c2-f4bb-4962-bbde-6b417112a20b).
 
