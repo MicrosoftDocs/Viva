@@ -169,6 +169,26 @@
         "source_path": "viva/connections/index.md",
         "redirect_url": "/viva/connections/viva-connections-overview",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "/viva/insights/advanced/analyst/metric-rules.md",
+        "redirect_url": "/viva/insights",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "/viva/insights/advanced/analyst/templates/introduction.md",
+        "redirect_url": "/viva/insights",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "/viva/insights/advanced/analyst/templates/business-resilience.md",
+        "redirect_url": "/viva/insights",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "/viva/insights/advanced/analyst/templates/intro.md",
+        "redirect_url": "/viva/insights",
+        "redirect_document_id": false
       }
     ]
 }
