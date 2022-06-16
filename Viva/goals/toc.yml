@@ -55,7 +55,7 @@ items:
       href: review-dashboard.md
     - name: Review Dashboard Templates
       href: review-dashboard-templates.md
-    - name: Approval Workflow
+    - name: Approval Workflows
       href: approval-workflows.md
     - name: Tags
       href: tags.md
