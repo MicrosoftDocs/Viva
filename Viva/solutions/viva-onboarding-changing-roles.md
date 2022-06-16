@@ -71,4 +71,4 @@ Bring together Learning, Insights, and Stream in Viva Connections by adding card
 
 ![Image of a dashboard](../media/dashboard.png)
 
-**Next**: Learn how to support [frontline workers with Microsoft Viva](/Viva/solutions/viva-front-line-workers)
+**Next**: Learn how to support [frontline workers with Microsoft Viva](/Viva/solutions/viva-front-line-workers).

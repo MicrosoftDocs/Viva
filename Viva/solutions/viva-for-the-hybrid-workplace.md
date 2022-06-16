@@ -41,16 +41,6 @@ Don’t have Microsoft Viva yet? [Find out all of its benefits and how to get it
 - [Supporting work/life balance](#worklife-balance)
 - [Leadership communications  – a live event](#leadership-communications)
 
-[Requirements](#requirements)
-
-[Plan](#plan)
-
-[License requirements](#licensing)
-
-[Security](#security)
-
-[Roll out Microsoft Viva](#roll-out-microsoft-viva)
-
 ## Requirements
 - First, it’s a good idea to make sure your infrastructure is optimized for hybrid work by reading [Set up your infrastructure for hybrid work with Microsoft 365](/microsoft-365/solutions/empower-people-to-work-remotely).
 - You’ll need to be using **Teams** and **SharePoint** within your organization. The example scenarios in this article also use **Yammer** and **Stream**. 
