@@ -70,21 +70,16 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
->[!Note]
->*The two scenarios listed within this note are part of a rolling release.*
->
->When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions when:
->
->* A recipient in the **To** field has an automatic out-of-office reply set up in Outlook. This helps minimize disruptions to recipients when they're away from work.
->* You are outside of your working hours. If you're working flexible hours, this helps you send email when you're working without disrupting others' quiet hours.
+When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions when:
 
-When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. Viva Insights can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. 
+* A recipient in the **To** field has an automatic out-of-office reply set up in Outlook. This helps minimize disruptions to recipients when they're away from work.
+* You are outside of your working hours. If you're working flexible hours, this helps you send email when you're working without disrupting others' quiet hours.
 
-You might *not* see suggestions in the following scenarios:
+You might *not* see suggestions when:
 
-* When you’re composing an email during the 30 minutes before the recipients’ or your working hours.
-* When there are more than 15 recipients in the **To** field.
-* When you're sending an email to yourself.
+* You’re composing an email during the 30 minutes before the recipients’ or your working hours.
+* There are more than 15 recipients in the **To** field.
+* You're sending an email to yourself.
 
 >[!Note]
 > Distribution lists and Microsoft 365 or Office 365 groups do *not* count as qualifying recipients for use by the delay-delivery feature. A shared mailbox in the **To** field, however, *does* count as a qualifying recipient. If a user has Full access permissions and can **Send as** or **Send on behalf of** the shared mailbox, that user counts as a qualifying sender.
