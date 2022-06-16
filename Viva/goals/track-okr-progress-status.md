@@ -33,6 +33,14 @@ Each OKR in Viva Goals contains a progress bar that displays the last identified
 
 - **Expected Progress**: Indicated by the grey vertical line on the progress bar.
 
+### How Actual Progress is calculated
+
+Actual Progress is determined when the user makes a check-in to the OKR either automatically via a data integration or via the roll-up of Key Results to an objective. 
+
+For manual check-ins, a progress % or KPI value must be explicitly added by the user.
+
+You will also see under the progress bar how and when the last update was made, the % complete or KPI,  along with the notes left at the time of check-in and who made the update when the 'Show more info' on the dashboard list view is turned on.
+
 ### How expected progress is calculated
 
 Viva Goals calculates the expected progress % based on the 'Start date' and 'End date' specified by the owner of the OKR. The progress bar and graph below is found on the objectives' quick view. (Select the objective name to open up the objective’s quick view). You can also select the ‘full view’ of the OKR to view the progress graph. 
@@ -42,14 +50,6 @@ Viva Goals calculates the expected progress % based on the 'Start date' and 'End
 > Note: 
 > On the first day of the time period, the expected progress would be 0%.
 > On the final day of the time period, the expected progress would be 100%.
-
-### How Actual Progress is calculated
-
-Actual Progress is determined when the user makes a check-in to the OKR either automatically via a data integration or via the roll-up of Key Results to an objective. 
-
-For manual check-ins, a progress % or KPI value must be explicitly added by the user.
-
-You will also see under the progress bar how and when the last update was made, the % complete or KPI,  along with the notes left at the time of check-in and who made the update when the 'Show more info' on the dashboard list view is turned on.
 
 ### How to manually override OKR progress and status
 
