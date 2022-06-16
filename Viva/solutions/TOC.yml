@@ -3,14 +3,14 @@
 
   items:
   - name: Getting started with Microsoft Viva
-    href: /viva/getting-started-with-microsoft-viva
+    href: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
     items:
     - name: Plan for all Viva modules
-      href: /viva/plan-for-all-viva-modules
+      href: /viva/plan-for-all-viva-modules?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
     - name: Learn how to combine modules
-      href: /viva/learn-how-to-combine-modules
+      href: /viva/learn-how-to-combine-modules?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
     - name: Discover more about each Viva module
-      href: /viva/discover-more-about-each-viva-module
+      href: /viva/discover-more-about-each-viva-module?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
 
 
  
