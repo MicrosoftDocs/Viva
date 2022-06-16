@@ -14,7 +14,7 @@ ms.collection:
 - M365initiative-viva
 search.appverid:
 - MET150
-- description: "Learn how you can streamline and engage your employees in a hybrid workplace with Microsoft Viva."
+description: "Learn how you can streamline and engage your employees in a hybrid workplace with Microsoft Viva."
 ---
 
 # Onboarding employees who are new or changing roles
@@ -39,7 +39,7 @@ Learning is one of the most important aspects of onboarding new employees. Using
 
 Viva Learning is enabled by default for all Microsoft Teams users in your organization. You can turn off or turn on Viva Learning at the organization level on the Manage apps page in the Microsoft Teams admin center. To learn more, see [Set up Viva Learning](/viva/learning/set-up-viva-learning).
 
-Create and deploy custom learning for your organization by adding SharePoint as a learning source for Viva Learning. You can create and add your own organization’s training materials to Viva Learning. The knowledge admin (or global administrator) provides a site URL to where the Learning Service can create a centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. See the [step-by-step guide](/viva/learning/configure-sharepoint-content-source?view=o365-worldwide) on how to do this.
+Create and deploy custom learning for your organization by adding SharePoint as a learning source for Viva Learning. You can create and add your own organization’s training materials to Viva Learning. The knowledge admin (or global administrator) provides a site URL to where the Learning Service can create a centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. See the [step-by-step guide](/viva/learning/configure-sharepoint-content-source) on how to do this.
 
 ### Viva Topics
 

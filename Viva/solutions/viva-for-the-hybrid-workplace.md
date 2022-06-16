@@ -14,7 +14,7 @@ ms.collection:
 - M365initiative-viva
 search.appverid:
 - MET150
-- description: "Learn how you can streamline and engage your employees in a hybrid workplace with Microsoft Viva."
+description: "Learn how you can streamline and engage your employees in a hybrid workplace with Microsoft Viva."
 ---
 
 # Overview: Microsoft Viva for the hybrid workplace

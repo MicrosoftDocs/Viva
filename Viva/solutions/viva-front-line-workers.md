@@ -14,7 +14,7 @@ ms.collection:
 - M365initiative-viva
 search.appverid:
 - MET150
-- description: "Learn how front line workers can thrive in a hybrid workplace with Microsoft Viva."
+description: "Learn how front line workers can thrive in a hybrid workplace with Microsoft Viva."
 ---
 
 # Microsoft Viva for the hybrid workplace: Frontline workers
@@ -49,7 +49,7 @@ Learn more about Viva Insights and how it helps protect and organize time in [Su
 #### Target training with Viva Learning
 Learning new skills is an ongoing process. In a hybrid environment, it is essential that employees can learn from wherever they are, and Viva Learning can be accessed on the desktop or on a mobile device within Teams.
 
-![Learning](../media/learning.png)
+![Learning page](../media/learning.png)
 
 You can assign and/or recommend learning content to individuals, share content with your team, and track the reported completion status of learning that you've recommended.
 

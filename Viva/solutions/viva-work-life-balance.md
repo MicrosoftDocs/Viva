@@ -14,7 +14,7 @@ ms.collection:
 - M365initiative-viva
 search.appverid:
 - MET150
-- description: "Learn how you can support work/life balance for employees in a hybrid workplace using Microsoft Viva."
+description: "Learn how you can support work/life balance for employees in a hybrid workplace using Microsoft Viva."
 ---
 
 # Microsoft Viva in the hybrid workplace:  Supporting work/life balance

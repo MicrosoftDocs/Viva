@@ -14,7 +14,7 @@ ms.collection:
 - M365initiative-viva
 search.appverid:
 - MET150
-- description: "Learn how you can streamline and engage your employees in a hybrid workplace with Microsoft Viva."
+description: "Learn how you can streamline and engage your employees in a hybrid workplace with Microsoft Viva."
 ---
 
 # Microsoft Viva for the hybrid workplace: Leadership communications
@@ -43,7 +43,7 @@ Only Yammer group admins can create and schedule a live event in Yammer. Additio
 
  When employees with varying schedules can’t make the live event, you can share out the Stream recording of the event which is processed and available after the event. 
 
-[Stream](/stream/portal-get-started) (on SharePoint) provides [Multi-Geo support](/microsoft-365/enterprise/administering-a-multi-geo-environment?view=o365-worldwide) for video storage and advanced sharing options.
+[Stream](/stream/portal-get-started) (on SharePoint) provides [Multi-Geo support](/microsoft-365/enterprise/administering-a-multi-geo-environment) for video storage and advanced sharing options.
 
 
 **Make the recorded video available in Viva Connections**
