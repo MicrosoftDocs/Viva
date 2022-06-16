@@ -88,7 +88,7 @@ Once you have configured the connection, the next step is to start linking OKRs 
 
 9. Select **Save** to save the integration.
   
-## Create a named range in Excel and Google Sheets
+## How to create a named range in Excel and Google Sheets
   
 You can create named ranges in Excel(.xlsx) or Google Sheets to keep better track of values in your Box spreadsheets. Instead of using a column and row number to describe a range of cells, you could give the cell a unique range name that can be referred to at any point in time.
   
