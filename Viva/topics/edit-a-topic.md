@@ -71,7 +71,7 @@ Knowledge managers can also edit topics directly from the **Manage topics** page
 
    ![Screenshot showing pinning suggested people.](../media/knowledge-management/suggested-people.png)
 
-5. In the **Pinned files and pages** section, you can add or "pin" a file or SharePoint site page that is associated to the topic.
+5. In the **Pinned files and pages** section, you can add or "pin" a file, SharePoint site page, or external resource associated to the topic.
 
    ![Screenshot showing the Pinned files and pages section.](../media/knowledge-management/pinned-files-and-pages.png)
  
@@ -81,10 +81,7 @@ Knowledge managers can also edit topics directly from the **Manage topics** page
 
    ![Screenshot showing the search option for a file or page.](../media/knowledge-management/topics-search-resource.png)    
 
-    You can also use the **From a link** option to add a file or page by providing the URL. 
-
-   > [!Note] 
-   > Files and pages that you add must be located within the same Microsoft 365 tenant. If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 9.
+    You can also use the **From a link** option to add a file, page, or external resource by providing the URL. 
 
 6. The **Suggested files and pages** section shows files and pages that AI suggests to be associated to the topic.
 

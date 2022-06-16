@@ -1,0 +1,81 @@
+### YamlMime:Landing
+
+title: Microsoft Viva solution center
+summary: Welcome to the Microsoft Viva solution center, where you can find technical guidance to understand, plan, and implement integrated Viva solutions.
+
+metadata:
+  title: "Microsoft Viva solutions"
+  ms.reviewer: 
+  ms.author: loreenl
+  author: LoreenLa
+  manager: pamgreen
+  audience: Admin
+  ms.topic: landing-page
+  f1.keywords:
+  - NOCSH
+  ms.service: viva
+  localization_priority: Priority
+  ms.collection:  
+  - M365initiative-viva
+  search.appverid:
+  - MET150
+  - ms.date: 06/09/2022
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card (optional)
+  - title: Get started with Microsoft Viva
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Getting started with Microsoft Viva
+            url: /viva/getting-started-with-microsoft-viva
+          - text: Plan for all Viva modules
+            url: /viva/plan-for-all-viva-modules
+          - text: Learn how to combine modules
+            url: /viva/learn-how-to-combine-modules
+          - text: Discover more about each Viva module
+            url: /viva/discover-more-about-each-viva-module
+
+
+  # Card (optional)
+  - title: Use Microsoft Viva in the hybrid workplace
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Overview
+            url: viva-for-the-hybrid-workplace.md
+          - text: Onboarding or changing roles
+            url: viva-onboard-change-roles.md
+          - text: Frontline workers
+            url: viva-front-line-workers.md
+          - text: Work/life balance
+            url: viva-work-life-balance.md
+          - text: Leadership communications
+            url: viva-leadership-communications.md
+
+  # Card
+  - title: Solve common business problems with accelerators
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Introduction
+            url: introduction.md
+          - text: Data lake solutions
+            url: ../solutions/data-lakes/viva-insights.md
+          - text: Data access automation
+            url: automate-exports.md
+          - text: Multi-tenant solution
+            url: complex-organization-insights.md  
+  
+  # Card
+  - title: Incorporate learning into your organization
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Bring learning into the flow of work
+            url: incorporate-learning.md
+
+
