@@ -32,15 +32,15 @@ When you link your objectives to the corresponding key performance indicator (KP
 
 Admins can perform the following steps to enable this integration:
 
-- From the sidebar, go to **Admin** and select the **Integrations** tab.
+1. From the sidebar, go to **Admin** and select the **Integrations** tab.
   
      :::image type="content" source="../media/goals/10/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/10/viva-goals-integrations-page.png":::
 
-- Against **Box**, you can **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you can **Manage** the enabled integration.
+2. Against **Box**, you can **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you can **Manage** the enabled integration.
   
     :::image type="content" source="../media/goals/10/box-enable-button.png" alt-text="Enabling Box in Viva Goals." lightbox="../media/goals/10/box-enable-button.png":::
 
-- This integration can also be disabled from the same section. Go to **Change** and select **Disable integration** from the dropdown to disable the integration.
+3. This integration can also be disabled from the same section. Go to **Change** and select **Disable integration** from the dropdown to disable the integration.
   
     :::image type="content" source="../media/goals/10/box-disable-button.png" alt-text="Disabling Box in Viva Goals." lightbox="../media/goals/10/box-disable-button.png":::
 
