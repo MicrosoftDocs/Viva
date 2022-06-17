@@ -166,3 +166,48 @@ To create the Power Automate flows for nudging, perform the following steps:
         1. Populate the **Value** field with the value of the powerapps Weblink URL for the Yume powerapp.
     1. Update the frequency as needed (currently set to every 1 week on Sunday).
     1. Save the flow.
+
+## Import data into dataverse tables
+
+To import data into the dataverse tables, perform the following steps:
+1. Download the Yume Card Data V3 initial content CSV filev from GitHub <TBD> location if not already downloaded.
+1. Sign in to Powerapps.com.
+1. Select the environment you will be deploying the CSV file to.
+1. On the left navigation pane, select **Dataverse > Tables**.
+1. Find the Yume cards and open it. The screen containing information of Yume cards is displayed.
+1. Select **Import > Import data from Excel**.
+1. Select **Upload**. From the screen that is displayed, select the CSV file.
+1. Select **Map columns** and ensure that the columns are mapped correctly as shown in the following screenshot:
+1. Select Save changes on the top right.
+1. Select **Import** on the top right. A notification message denoting a successful import is displayed, for example, the following screenshot:
+
+## Import the Yume app
+
+To import the Yume app, perform the following steps:
+1. Download the Yume powerapp zip file from from GitHub <TBD> location if not already downloaded.
+1. Sign in to Powerapps.com.
+1. Select the environment you will be deploying the CSV file to.
+1. Select **Apps**. The **Apps** page is displayed.
+1. Select **Import canvas app**. The **Import package** screen is displayed.
+1. Upload the zip file that was downloaded earlier.
+1. Under the **Choose your import options** pane, select **Create as new** and update the name to a unique name for the environment. for example, YUME_mobile. This name is displayed YUME-mobile.
+1. Under the **Related resources** pane, select the option Select during import, and select the custom connector created earlier.
+1. Select Import at the bottom-right side of the page. Once the import process has been completed, there will be a message as shown in the following screenshot; the app will appear in the **Apps** section of powerapps.
+1. Select **Open app**. The page listing the apps is displayed.
+1. Select the app that you want to edit. The page with information of the selected app is displayed.
+1. Select **Allow** to allow permissions to be applied to the app.
+1. Select **Apps** from the left navigation pane.
+    1. Select **OnStart** from the drop-down list.
+    1. Change the value **cr1de** to the table prefix value noted during the dataverse table creation earlier (in this example, the value is **cr627**)
+1. Select **Data** from the left navigation pane. The **Data** page is displayed.
+    1. Remove the following data items:
+        1. Yume Cards
+        1. Yume User Options
+        1. Yume Meeting Notes
+        1. Vsol-graph-analytics-connector
+    1. Add the following data items:
+        1. Yume Cards
+        1. Yume User Options
+        1. Yume Meeting Notes
+        1. Vsol-graph-analytics-connector
+1. Share out the power app to the target audience.
