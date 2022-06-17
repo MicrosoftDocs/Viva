@@ -170,7 +170,7 @@ To create the Power Automate flows for nudging, perform the following steps:
 ## Import data into dataverse tables
 
 To import data into the dataverse tables, perform the following steps:
-1. Download the Yume Card Data V3 initial content CSV filev from GitHub <TBD> location if not already downloaded.
+1. Download the Yume Card Data V3 initial content CSV file from GitHub location (TBD) if not already downloaded.
 1. Sign in to Powerapps.com.
 1. Select the environment you will be deploying the CSV file to.
 1. On the left navigation pane, select **Dataverse > Tables**.
@@ -184,9 +184,9 @@ To import data into the dataverse tables, perform the following steps:
 ## Import the Yume app
 
 To import the Yume app, perform the following steps:
-1. Download the Yume powerapp zip file from from GitHub <TBD> location if not already downloaded.
+1. Download the Yume powerapp zip file from GitHub location (TBD) if not already downloaded.
 1. Sign in to Powerapps.com.
-1. Select the environment you will be deploying the CSV file to.
+1. Select the environment you'll be deploying the CSV file to.
 1. Select **Apps**. The **Apps** page is displayed.
 1. Select **Import canvas app**. The **Import package** screen is displayed.
 1. Upload the zip file that was downloaded earlier.
