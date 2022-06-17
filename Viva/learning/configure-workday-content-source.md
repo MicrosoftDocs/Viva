@@ -15,9 +15,13 @@ ms.collection:
     - m365initiative-viva-learning
 localization_priority: medium
 description: Learn how to configure Workday as a learning content source for Microsoft Viva Learning.
+ROBOTS: NOINDEX
 ---
 
 # Configure Workday as a content source for Microsoft Viva Learning
+
+> [!IMPORTANT]
+> Workday integration is currently only available for private preview customers. The capabilities here are subject to change.
 
 This article shows you how to configure Workday as a third-party content source for Microsoft Viva Learning. First, you'll need to create and set up an integration system user and set up security in Workday. Then you'll need to complete the configuration in the Microsoft 365 admin center.
 
