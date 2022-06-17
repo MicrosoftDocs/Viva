@@ -29,9 +29,9 @@ Check-ins are updates that OKR owners make to the objectives and key results the
 
 Regular check-ins prompt a constant, rhythmic review of OKRs. This helps your team stay on track, course-correct, make necessary changes to outdated or unachievable objectives, and most importantly, ensure teams are spending time on the work that really matters. 
 
-The fact that all check-ins are visible to everyone in the organization maintains transparency and accountability in the OKR process. If your organization would prefer to keep some OKRs private, learn how to do that here:. 
+The fact that all check-ins are visible to everyone in the organization maintains transparency and accountability in the OKR process. If your organization would prefer to keep some OKRs private, learn how to do that here:
 
-To check-in quickly, go to your list of objectives and move the cursor over the objective or key result you want to update. Select the check-in option.
+To check in quickly, go to your list of objectives and move the cursor over the objective or key result you want to update. Select the check-in option.
 
 ![screenshot of where to check in.](../media/goals/3/35/a.jpg)
 
@@ -54,7 +54,7 @@ After you make a check-in, you will notice that the statuses and progress of all
 
 ## How to assign responsibility for check-ins
 
-Use the **check-in responsibility** feature to understand who an OKR owner is and prompt them to check-in. The check-in owner will be able to check-in on the OKR manually or set up a data link for the OKR to automate the check-in process. Check-in owners will receive check-in reminders. 
+Use the **check-in responsibility** feature to understand who an OKR owner is and prompt them to check in. The check-in owner will be able to check in on the OKR manually or set up a data link for the OKR to automate the check-in process. Check-in owners will receive check-in reminders. 
 
 In the case of multiple OKR owners, only the user set as **check-in responsible owner** will receive the reminders.
 
@@ -68,7 +68,7 @@ In the case of multiple OKR owners, only the user set as **check-in responsible 
 Once you make the selection, the user will  start receiving the check-in reminders.
 
 > [!Note] 
-> By default, the owner (the first owner if there are multiple owners) is set as the person responsible for check-in.
+> By default, the owner (the first owner if there are multiple owners) is set as the person responsible for check-ins.
 
    ![screenshot of assigning check in responsibility.](../media/goals/3/35/c.jpg)
 
@@ -78,31 +78,31 @@ OKRs and ongoing feedback make a great team. Leverage Viva Goals’s social feat
 
 To comment on a check-in, go to **Check-in** on the objective page or find it in the feed. Use ‘**@**’ followed by the name of a team member to mention them in a comment. This sends them an email notification, perfect for drawing attention to critical updates or opportunities.
 
-![screenshot of engaging with check ins.](../media/goals/3/35/d.jpg)
+![screenshot of engaging with check-ins.](../media/goals/3/35/d.jpg)
 
 ## How to edit and delete check-ins 
 
 If you need to change a check-in or remove one made in error, you may find the check-in on the objective page or feed, and select edit or remove to make the necessary changes.
 
-![screenshot of editing or deleting check ins.](../media/goals/3/35/e.jpg)
+![screenshot of editing or deleting check-ins.](../media/goals/3/35/e.jpg)
 
 ## How to set reminders for check-ins 
 
-Viva Goals sends reminders in three ways: 
+Viva Goals sends reminders in the following ways: 
 
-- If an MS Teams integration is enabled, the notifications will be sent through MS Teams 
+- If an MS Teams integration is enabled, the notifications will be sent through MS Teams. 
 
-- If no integrations have been set up, Viva Goals will send a reminder as an email
+- If no integrations have been set up, Viva Goals will send a reminder as an email.
 
 **You can customize your reminder settings by:**
 
-1. Frequency (every one, two, or three weeks, or monthly)
+1. Frequency (every one, two, or three weeks, or monthly). 
 
 2. Days on which notifications are sent. 
 
 3. Time at which notifications are sent.
 
-4. Disable notifications for OKRs that have had check-ins in the past X days (select number of days)
+4. Disable notifications for OKRs that have had check-ins in the past X days (select number of days).
 
 5. Admins or managers of a team can control whether the subteams reporting to them can set their own check-in rhythm or should follow the parent team's cadence. 
 
@@ -116,7 +116,7 @@ Viva Goals sends reminders in three ways:
 
 1. A Chief of Staff is setting a check-in cadence for the People Operations department to receive notifications every month on the first Friday at 9AM PST. The Chief of Staff wants the subteams reporting into her to continue having a cadence of their own (preferably, a weekly cadence). Therefore, she won't cascade this cadence down to the reporting teams, and will let each team set their own check-in rhythm. 
 
-    ![screenshot of setting a check in rhythm.](../media/goals/3/35/f.jpg)
+    ![screenshot of setting a check-in rhythm.](../media/goals/3/35/f.jpg)
 
 2. The Head of Marketing is setting a bi-weekly cadence for the Marketing team to receive notifications on every Monday once every two weeks at 9AM PST. The Head of Marketing wants his reporting teams (say, Product Marketing, Demand Generation, and Customer Marketing) to have their own cadence, but highly recommends starting them with the same cadence as the marketing team. In this case, the cadence will cascade down the teams, however, the teams can change this schedule at any given point in time. 
 
