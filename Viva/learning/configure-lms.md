@@ -36,7 +36,6 @@ Learning management systems are not enabled by default. To enable these sources,
 |Cornerstone OnDemand |[Configure Cornerstone OnDemand as a content source](configure-cornerstone-content-source.md)         |
 |Saba    |[Configure Saba as a content source](configure-saba-content-source.md)         |
 |SAP SuccessFactors   |[Configure SAP SuccessFactors as a content source](configure-successfactors-content-source.md)         |
-|Workday |[Configure Workday as a content source](configure-workday-content-source.md)
 
 >[!NOTE]
 >Available learning management systems are subject to change. Depending on your organization, you may have access to different learning management systems than are listed here.
