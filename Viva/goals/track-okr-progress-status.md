@@ -97,7 +97,7 @@ You can exit from the manual override mode and resume automatic updates by follo
 
 Viva Goals lets you validate and indicate the progress of your OKRs with a status. OKR statuses are color-coded and below are the definitions of the different status colors:
 
-:::image type="content" source="../media/goals/viva-goals-status-colours.png" alt-text="Different OKR colours in Viva Goals." lightbox="../media/goals/viva-goals-status-colours.png":::
+:::image type="content" source="../media/goals/viva-goals-status-colours.png" alt-text="Different OKR colors in Viva Goals." lightbox="../media/goals/viva-goals-status-colours.png":::
 
 When the status is manually set by a user, say, for example, a user checks in and marks status as ‘On Track’, the progress bar will show status as ‘On Track’.
 
