@@ -75,7 +75,7 @@ You can create as many teams and subteams as you want within each of your organi
 
 In the hierarchical type, an organization is broken down into teams, which are further divided into subteams.  
 
-For example, Relecloud is broken into Sales, Customer Success, Product, and Marketing. While Sales can be broken into Large Enterprise, Mid-market, and SMB (small and medium businesses). And Product & Engineering can be divided into UX, QA, R&D, and so on. 
+For example, Relecloud is broken into Sales, Customer Success, Product, and Marketing. Sales can be broken into Large Enterprise, Mid-market, and SMB (small and medium businesses), and Product & Engineering can be divided into UX, QA, R&D, and so on. 
 
 :::image type="content" source="../media/goals/hierarchical-team.png" alt-text="Viewing team hierarchy in Viva Goals." lightbox="../media/goals/hierarchical-team.png":::
 
