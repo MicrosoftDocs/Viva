@@ -24,7 +24,7 @@ description: "Viva Goals offers the ability to enable a workflow to gain manager
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-The approval workflow in Viva Goals gives managers the ability to regulate OKR worflows in their organization. There are four stages in the OKR approval workflow:
+The approval workflow in Viva Goals gives managers the ability to regulate OKR workflows in their organization. There are four stages in the OKR approval workflow:
 
 1. Planning
 
