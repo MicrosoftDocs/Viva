@@ -139,6 +139,6 @@ To learn more, see [Configure your OKR model in Viva Goals](/viva/goals/configur
 
 ### OKRs and projects 
 
-Admins can determine whether to allow multiple teams and OKR owners to collaborate on key objectives and projects. Admins can also establish OKR [approval settings](manage-okrs-better-with-viva-goals-okr-workflows.md).  
+Admins can determine whether to allow multiple teams and OKR owners to collaborate on key objectives and projects. Admins can also establish OKR approval settings](approval-workflows.md).  
 
 To learn more about Projects, see [Projects](projects.md).
