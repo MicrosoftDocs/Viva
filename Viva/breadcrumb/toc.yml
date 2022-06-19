@@ -11,12 +11,12 @@
   - name: Viva Insights
     tocHref: /viva/insights/
     topicHref: /viva/insights/index
-  - name: Viva Solutions
-    tocHref: /viva/solutions/
-    topicHref: /viva/solutions/index
   - name: Viva Topics
     tocHref: /viva/topics/
     topicHref: /viva/topics/index
   - name: Viva Goals
     tocHref: /viva/goals/
     topicHref: /viva/goals/intro-to-ms-viva-goals
+  - name: Viva solutions
+    tocHref: /viva/solutions/
+    topicHref: /viva/solutions/solutions
