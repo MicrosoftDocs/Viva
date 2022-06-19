@@ -57,7 +57,7 @@ The **Settings** tab lets you control general settings such as those related to 
 
 - **Who Can Join This Organization** controls who is allowed to join your instance of Viva Goals and view your organization.  
 
-- **Account Type for New Users** controls the default account type for new users. Viva Goals supports two account types: Regular user and observer. For more information on these account types, see our [Roles and Permissions article](roles-permissions-in-viva-goals.md). Whatever you choose can be changed later.  
+- **Account Type for New Users** controls the default account type for new users. Viva Goals supports two account types: Regular user and observer. For more information on these account types, see our [roles and permissions article](roles-permissions-in-viva-goals.md). Whatever you choose can be changed later.  
 
 - **Invite Policy** controls who can add users to your Viva Goals instance.  
 
@@ -73,11 +73,11 @@ All of the information can be filtered using drop down menus such as role, accou
 
 For example, if one of your users isn't sure if they got an invite, you could filter for users who have a status of "Pending."  
 
-![screenshot showing pending users alignment.](../media/goals/2/28/b.png)
+![Screenshot showing pending users alignment.](../media/goals/2/28/b.png)
 
 As admin, you can use the action menu, marked by three dots, to modify the various settings.
 
-![screenshot showing more actions menu.](../media/goals/2/28/b.png)
+![Screenshot showing the more actions menu.](../media/goals/2/28/b.png)
 
 - **Cancel Invite** retracts an email that you sent.
 - **Resend Invite** resends an invitation to join your instance.
@@ -89,7 +89,7 @@ As admin, you can use the action menu, marked by three dots, to modify the vario
 
 ### Teams
 
-This tab shows all the teams that you've set up, plus the team owner and members. To add a new team, select the **Add Team** button. To modify team settings, select the ellipses next to a given team. Learn more at [Create and Edit Teams](/viva/goals/create-and-edit-teams-and-subteams).
+This tab shows all the teams that you've set up, plus the team owner and members. To add a new team, select the **Add Team** button. To modify team settings, select the ellipses next to a given team. Learn more at [Create and edit teams](/viva/goals/create-and-edit-teams-and-subteams).
 
 ### Notifications
 

@@ -27,13 +27,13 @@ At the completion of your rollout plan or deployment phase, you'll have Microsof
 
 As you navigate the OKR Maturity Model shown below and change management associated with a Viva Goals OKR rollout, we recommend easing your organization into OKRs through a user pilot.
 
-![okr maturity visualization](../media/goals/1/13/a.png)
+![Table that shows the O K R maturing process.](../media/goals/1/13/a.png)
 
 The benefits of a user pilot are two-fold: first, you quickly learn how the methodology works within your organizational culture and gain insight into the challenges and opportunities.  Second, your pilot group acts as an example for the rest of the organization. The pilot group's success in achieving their objectives will serve as a motivator for more groups to get on board.  
 
 ## 1. Select your pilot style
 
-## Leadership-only pilot group
+### Leadership-only pilot group
 
 One of the most popular ways to roll out an OKR program is from the top down. The benefit of going this route is that leadership is fully behind the program, and OKRs are well aligned. Here’s how it goes:
 
@@ -47,7 +47,7 @@ One of the most popular ways to roll out an OKR program is from the top down. Th
 
 **Ask participants to take the [OKR Leadership Program learning path on demand](/learn/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
 
-## Department-wide pilot group
+### Department-wide pilot group
 
 Another popular rollout method is for one individual department or group, such as marketing or IT or a product engineering team, to run a top-to-bottom rollout that involves both team managers and individual employees. Here’s how it goes:
 
@@ -57,7 +57,7 @@ Another popular rollout method is for one individual department or group, such a
 
 **Ask participants to take the [OKR Leadership Program learning path on-demand](/learn/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
 
-## Another option: Large bang theory 
+### Another option: Large bang theory 
 
 The "crawl-walk-run" pilot approach is best for most companies, but mature companies that can efficiently and effectively lead the organization though change may choose to launch OKRs organization-wide all at once.  
 
@@ -81,7 +81,7 @@ You need full participation from stakeholders when you define your OKRs to help 
 
 Here's an example of an OKR for rolling out an OKR program with Viva Goals: 
 
-![okr example](../media/goals/1/13/b.png)
+![Table shows O K R example.](../media/goals/1/13/b.png)
 
 ## 3. Determine your OKR calendar and timing
 

@@ -48,11 +48,11 @@ To invite users from the Viva Goals menu, select the **Invite Users** button.
 
 Or, if you're the organization administrator, you can also go to **Settings** and select **Invite Users** on the Users tab.
 
-![screenshot of adding members from within the app.](../media/goals/2/23/a.jpg)
+![Screenshot show the dialog box where an admin uses the Invite Users button.](../media/goals/2/23/a.jpg)
 
 Another way to do this is to select **All Users** from the menu and then select the **Invite Users** button.
 
-![screenshot of adding members from within the application.](../media/goals/2/23/b.jpg)
+![Screenshot showing another option to adding members.](../media/goals/2/23/b.jpg)
 
 ## Remove a user 
 
@@ -62,19 +62,19 @@ To remove a user from your organization, an admin can deactivate or delete their
 
 A deactivated user will remain visible in Viva Goals but won't be able to sign in. The user will remain assigned as an owner of any OKRs they had. They won't be searchable in **All Users** and will be listed as deactivated in the **Users** section of the admin tools. 
 
-![screenshot of deactivated users.](../media/goals/2/23/c.jpg)
+![Screenshot shows deactivated users.](../media/goals/2/23/c.jpg)
 
 To reactivate a user, go to **Action** -> **Make Active**, which will restore their ability to sign in.
 
-![screenshot of reactivating a user.](../media/goals/2/23/d.jpg)
+![Screenshot showing where you reactivate a user.](../media/goals/2/23/d.jpg)
 
 Deleting a user is a permanent action and can't be undone. Deleting removed all their activities in the system.
 
-![screenshot of deleting a user warning.](../media/goals/2/23/e.jpg)
+![Screenshot shows deleting a user and a warning.](../media/goals/2/23/e.jpg)
 
 Admins can’t delete users who currently own any objective. To delete those users, reassign their OKRs first, and then delete the user.
 
-![screenshot of the error image when attempting to delete users who own objectives or projects.](../media/goals/2/23/f.jpg)
+![Screenshot of the error dialog you get when you try to delete a user who owns objectives or projects.](../media/goals/2/23/f.jpg)
 
 **Example scenario of when to deactivate a user**
 

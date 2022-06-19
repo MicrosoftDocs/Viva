@@ -48,16 +48,16 @@ Viva Goals supports the following full roster of roles within an organization:
 
 The permission levels on individual OKRs are outlined here: 
 
-![permission levels on individual okr](../media/goals/2/26/a.jpg)
+![Table shows permission levels on individiual O K Rs by role.](../media/goals/2/26/a.jpg)
 
 
 ## Permission levels on team OKRs
 
 The permission levels on team OKRs are outlined here: 
 
-![permission levels on team okr](../media/goals/2/26/b.jpg)
+![Table part 1 shows permission levels on team O K Rs by role.](../media/goals/2/26/b.jpg)
 
-![permission levels on team okr admin privileges](../media/goals/2/26/c.jpg)
+![Table part 2 shows permission levels on team O K Rs by role.](../media/goals/2/26/c.jpg)
 
 
 ## Create OKRs
@@ -189,21 +189,21 @@ You can set a default user type for new users from **Admin Dashboard > Settings*
 
 If the value is set to **Observer**, users will take up user type as **Observer** when they're added to an organization. Team members can choose between observer and regular user privileges when they invite a new user. 
 
-![image showing the display box with options when you add users](../media/goals/2/26/e.jpg)
+![Screenshot of dialog box where you add users.](../media/goals/2/26/e.jpg)
 
-### Identifying an Observer
+### Identifying an observer
 
 If the users have an **Observer** tag next to their name, they're an observer.
 
 If you're an administrator, you can also look at user type from **Admin Dashboard** > **Users** > **User Type** column, as depicted in the following image:
 
-![identifying observers in the users menu](../media/goals/2/26/f.jpg)
+![Screenshot of identifying observers to invite in the users list.](../media/goals/2/26/f.jpg)
 
 ### Changing account type of users
 
 Administrators can change the user type from **Observer** to **Regular** and from **Regular** to **Observer** through **Admin Dashboard** > **Users** tab > User listing > Three dot menu, as shown in image below:
 
-![image showing how to change user types from the action menu](../media/goals/2/26/g.jpg)
+![Screenshot showing where to change user account types from the action menu.](../media/goals/2/26/g.jpg)
 
 Alternatively, an observer can be changed into a regular user type when a regular user who owns an OKR assigns that OKR to an observer. During this process, the regular user will get an option to change the observer into a regular user.
 

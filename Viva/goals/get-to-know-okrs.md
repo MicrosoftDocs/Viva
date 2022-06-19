@@ -33,13 +33,13 @@ OKRs align your entire organization to strategy, shifting focus from output—th
 
 Objectives added at the organizational and team levels are depicted in the following image:
 
-:::image type="content" source="../media/goals/1/11/a.jpg" alt-text="Objectives at organizational and teams levels":::
+:::image type="content" source="../media/goals/1/11/a.jpg" alt-text="Chart shows a sample of O K R objectives at organizational and teams levels.":::
 
 **Key results** describe how you'll measure your success in accomplishing these goals.
 
 For best results, teams and individuals should be aligned well in a hierarchy. Key results at one level become objective of the next level.
 
-![key results visualization](../media/goals/1/11/b.jpg)
+![Chart shows a sample key results hierarchy.](../media/goals/1/11/b.jpg)
 
 **Projects** are focused efforts that help you achieve your key results. 
 
