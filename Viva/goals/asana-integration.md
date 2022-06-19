@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - MET150
 
-description: "Learn how to use the Asana integration with your OKRs."
+description: "Learn how to use Asana integration with your OKRs."
 ---
 
 # Asana integration
@@ -26,9 +26,9 @@ description: "Learn how to use the Asana integration with your OKRs."
 
 ## About Asana integration
 
-Viva Goals can integrate with Asana projects to automatically update your Objectives and Key Results (OKRs) in Viva Goals. OKR progress is calculated by the number of tasks or subtasks that have been completed in Asana. This integration works for both types of measuring progress: percentage completed or key performance indicator (KPI) progress.
+Viva Goals can integrate with Asana projects to automatically update your objectives and key results (OKRs) in Viva Goals. OKR progress is calculated by the number of tasks or subtasks that have been completed in Asana. This integration works for both types of measuring progress: percentage completed or key performance indicator (KPI) progress.
 
-Let's take this example: You're a marketer who uses Asana to work on a customer advisory project. You set an objective to curate a list of customer executives onboarded from different regions. Use Asana integration to easily keep track of the completed list. Viva Goals will sync the values for you and chart your progress toward the goal, saving time while keeping your OKR's current.
+Let's take this example: You're a marketer who uses Asana to work on a customer advisory project. You set an objective to curate a list of customer executives onboarded from different regions. Use Asana integration to easily keep track of the completed list. Viva Goals will sync the values for you and chart your progress toward the goal, saving time while keeping your OKRs current.
 
 ## How to set up Asana integration
 
@@ -48,7 +48,7 @@ An admin can set up Asana integration in Viva Goals:
 
 4. Select **Next** to finish setup.
 
-Viva Goals allows you to connect with multiple Asana accounts. Select **New connection** to add another connection. Connection names are displayed to members when they link their OKRs to Asana projects.
+Viva Goals lets you connect with multiple Asana accounts. Select **New connection** to add another connection. Connection names are displayed to members when they link their OKRs to Asana projects.
 
 ## How to use Asana integration
 
@@ -60,17 +60,17 @@ Once setup is complete, users in your organization can follow these steps to lin
     
      :::image type="content" source="../media/goals/8/asana-datasource.png" alt-text="Screenshot of the dialog box where you select Asana from the list of data sources in Viva goals." lightbox="../media/goals/8/asana-datasource.png":::
 
-3. Next, select the **Connection**, if multiple exist, and select the name of the project to link that project to the objective.
+3. Next, select the **Connection**. If there are multiple connections, select the name of the project to link that project to the objective.
     
     :::image type="content" source="../media/goals/8/asana-new-connection-details-viva-goals.png" alt-text="Screenshot of the dialog box where you add a new Asana connection to OKRs in Viva goals." lightbox="../media/goals/8/asana-new-connection-details-viva-goals.png":::
 
-4. To further filter the list of tasks or subtasks, select tasks assigned to a user or pick tasks with a specific status.
+4. To further filter the list of tasks or subtasks, select tasks assigned to a user or pick tasks that have a specific status.
 
-5. Select **Next** to finish and save your OKR. You should now see an Asana icon next to the OKR. Viva Goals will automatically count = the finished blog posts. The OKR syncs automatically every hour. To refresh manually, select **refresh**.
+5. Select **Next** to finish and save your OKR. You should now see an Asana icon next to the OKR. Viva Goals will automatically count the finished blog posts. The OKR syncs automatically every hour. To refresh manually, select **refresh**.
 
-## How to decide between using percent completed and KPIs in Asana integration
+## Decide between using percent completed and KPIs in Asana integration
 
-The difference between percent completed and KPI is that with the KPI option you can set a target higher or lower than completion of all the tasks in the project.
+The difference between percent completed and KPI is that with the KPI option you can set a target higher or lower than completion of all tasks in the project.
 
 Let's consider this example: You have a project with 100 tasks that spans the entire year. You can choose to use the KPI option and set the target at 25 because each OKR period is only a quarter long. You would want to track the completion of tasks but only against the target of 25, not the entire 100. 
 
@@ -78,7 +78,7 @@ Let's consider this example: You have a project with 100 tasks that spans the en
 
 Projects help you keep track of all the work your organization is doing to achieve your objectives and key results. Like key results, projects can also be created under objectives and under other key results in Viva Goals, depending on which outcome they help to achieve. Select **Add project** under the appropriate objective or key result to create a project.
 
-With Viva Goals projects, you can now view your Asana projects inside Viva Goals. Viva Goals will show you the tasks within the project and calculate the progress of the project as a percentage based on completed tasks versus total.
+With Viva Goals projects, you can now view your Asana projects inside Viva Goals. Viva Goals will show you the tasks in the project and calculate the progress of the project as a percentage based on completed tasks versus the total.
 
 **Viva Goals supports two ways of doing this:**
 
@@ -92,13 +92,13 @@ To set up the project in Viva Goals, you just connect to Asana, pick the project
 
 ### Use a specific Asana task as the project, with its subtasks as the task list
 
-Some customers like to use a specific task in Asana as their project, with the subtasks as the task list. We support this as well, and you can set your project name in Viva Goals to the name of your Asana task.
+Some customers like to use a specific task in Asana as their project, with the subtasks as the task list. We support this option as well, and you can set your project name in Viva Goals to the name of your Asana task.
 
 1. To start, add a project, and select **Add tasks** under **Outcome**.
     
     :::image type="content" source="../media/goals/8/asana-add-tasks-button.png" alt-text="Screenshot shows the add tasks button under Progress in Viva goals." lightbox="../media/goals/8/asana-add-tasks-button.png":::
 
-2. In the Tasks field, select the **Automatically from a data source** option and select **Asana** as your data source.
+2. In the Tasks field, select **Automatically from a data source** and select **Asana** as your data source.
     
     :::image type="content" source="../media/goals/8/asana-tasks-connection.png" alt-text="Screenshot of the dialog box where you add Asana from the list of datasources to Projects in Viva goals." lightbox="../media/goals/8/asana-tasks-connection.png":::
 
@@ -106,7 +106,7 @@ Some customers like to use a specific task in Asana as their project, with the s
 
 4. Search and select the Asana project you want to track.
 
-5. Set the **Task assigned to** field as **Any** or **Unassigned**, and then select **Next** and **Save**.
+5. Set the **Task assigned to** field to **Any** or **Unassigned**, and then select **Next** and **Save**.
 
 6. If you chose to track progress by percent of subtasks completed, select the **Use this task name as the project name in Viva Goals** checkbox, and save your project.
     
@@ -116,4 +116,4 @@ This option will create the specific Asana task or subtasks as the project and p
 
 While Viva Goals supports an Asana integration for OKRs, projects let you see the individual tasks and their completion state. This helps you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last check-in⏤which tasks were completed and whether any tasks were added or removed.
 
-Viva Goals will periodically check on project progress in Asana, and update the status. Progress and status are calculated for projects exactly like key results. Similar to key results, you can also check in on a project, where you can temporarily override the status. However, this override will last only as long as Viva Goals doesn't detect a change in the completion status of the project in Asana. At that point, it will overwrite your check-in with an automated update.
+Viva Goals will periodically check on project progress in Asana and update the status. Progress and status are calculated for projects exactly like key results. Similar to key results, you can also check in on a project, and you can temporarily override the status. This override will last only as long as Viva Goals doesn't detect a change in the completion status of the project in Asana. When that occurs, an automated update will overwrite your check-in.
