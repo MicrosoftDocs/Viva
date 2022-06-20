@@ -127,7 +127,7 @@ To create Dataverse permissions, perform the following steps:
    The following roles are the ones you can create:
     - **Basic User role (for access to User table and Yume tables)**: Updated to include user rights for tables. This role provides read-only access for the card data table and other rights for the other Yume tables.
     
-    :::image type="content" source="../media/basic-user-role-permissions.png" alt-text="Basic permissions for a user role":::
+      :::image type="content" source="../media/basic-user-role-permissions.png" alt-text="Basic permissions for a user role":::
 
     - **YumeContentAdmin (custom role)**: This role is permissive so should only be accounts that need access across all the data (for example, nudges from power automate).
         - Yume Cards::: Parent: Child Business Units
@@ -232,18 +232,18 @@ The **Import package** screen is displayed.
 
    :::image type="content" source="../media/selecting-import.png" alt-text="The page on which the user can select the Import option":::
 
-Once the import process has been completed, there will be a message as shown in the following screenshot:
+   Once the import process has been completed, there will be a message as shown in the following screenshot:
 
-:::image type="content" source="../media/notification-to-user.png" alt-text="Notification message that denotes that the import was successful":::
+   :::image type="content" source="../media/notification-to-user.png" alt-text="Notification message that denotes that the import was successful":::
 
 6. Select **Open apps** on the page that displayed the notification message of the successful import. 
    The **Apps** page containing the newly created application is displayed.
  
    :::image type="content" source="../media/display-of-app-in-apps-section.png" alt-text="The Apps page shwing the newly created application":::
 
-The app will appear in the **Apps** section of PowerApps.
+   The app will appear in the **Apps** section of PowerApps.
 
-:::image type="content" source="../media/display-of-app-in-apps-section.png" alt-text="The Apps section in which the newly created app is displayed":::
+   :::image type="content" source="../media/display-of-app-in-apps-section.png" alt-text="The Apps section in which the newly created app is displayed":::
 
 7. Select the application that you want to edit. The page with information of the selected application is displayed.
 
@@ -309,12 +309,12 @@ In the following screenshot:
 - Example A describes the process of adding a new TitleName for the main category.
 - Example C describes the process of adding a new Title Description for the main category.
 
-:::image type="content" source="../media/examples-a-and-c.png" alt-text="An example of adding a new name and description for a title":::
+  :::image type="content" source="../media/examples-a-and-c.png" alt-text="An example of adding a new name and description for a title":::
 
 - The following screenshot describes Example B, that is, the process of adding the Content Title for the new main card category.
 
-:::image type="content" source="../media/example-b.png" alt-text="An example that illustrates how to add ContentTitle to the new main card category":::
+  :::image type="content" source="../media/example-b.png" alt-text="An example that illustrates how to add ContentTitle to the new main card category":::
 
 - The following screenshot describes Example D, that is, the process of adding the Content for the new main card category.
 
-:::image type="content" source="../media/example-d.png" alt-text="The example that illustrates how to add content for the new main card category":::
+  :::image type="content" source="../media/example-d.png" alt-text="The example that illustrates how to add content for the new main card category":::
