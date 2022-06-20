@@ -72,8 +72,11 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions when:
 
-* A recipient in the **To** field has an automatic out-of-office reply set up in Outlook. This helps minimize disruptions to recipients when they're away from work.
-* You are outside of your working hours. If you're working flexible hours, this helps you send email when you're working without disrupting others' quiet hours.
+* All recipients in the **To** field are outside of their working hours.
+* A recipient in the **To** field has an [automatic out-of-office reply](https://support.microsoft.com/en-us/office/send-automatic-out-of-office-replies-from-outlook-9742f476-5348-4f9f-997f-5e208513bd67) set up in Outlook.
+* You are outside of your working hours.
+
+The delay helps minimize disruptions to recipients outside their working hours or when they’re away from work. It helps anybody who wants to maintain the flexibility to work when they want without putting the burden of their schedule on others.
 
 You might *not* see suggestions when:
 
