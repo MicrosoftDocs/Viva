@@ -1,6 +1,6 @@
 ---
-title: YuMe - Overview
-description: Learn about YuMe, the solution the employees use to manage their interactions with their managers
+title: Yume - Overview
+description: Learn about Yume, the solution the employees use to manage their interactions with their managers
 author: v-smandalika
 ms.author: v-smandalika
 ms.topic: article
@@ -16,9 +16,9 @@ manager: dansimp
 audience: Admin
 ---
 
-# YuMe - Overview
+# Yume - Overview
 
-YuMe is an employee-driven solution to support 1:1 interaction between employees and their managers. It empowers employees to shape 1:1 meetings through topics (cards) that make discussions more meaningful. Employees can build and structure the agenda for an upcoming 1:1 meeting using the cards, which contain content that is simple and easy to access during the meeting. The employees can also refer to cards and key notes from previous 1:1 meetings and prepare cards for the future 1:1 meetings, promoting continuity and evolution of 1:1 meetings. There's also an option for employees to provide their feedback on the 1:1 interaction immediately once the meeting ends.
+Yume is an employee-driven solution to support 1:1 interaction between employees and their managers. It empowers employees to shape 1:1 meetings through topics (cards) that make discussions more meaningful. Employees can build and structure the agenda for an upcoming 1:1 meeting using the cards, which contain content that is simple and easy to access during the meeting. The employees can also refer to cards and key notes from previous 1:1 meetings and prepare cards for the future 1:1 meetings, promoting continuity and evolution of 1:1 meetings. There's also an option for employees to provide their feedback on the 1:1 interaction immediately once the meeting ends.
 
 ## Use case
 
@@ -26,14 +26,14 @@ YuMe is an employee-driven solution to support 1:1 interaction between employees
 2.	An employee wants to explore, discuss and/or focus on their career growth and development.
 3.	An employee is a new hire and wants to build a relationship with their new manager.
 
-## Prerequisites for setup of YuMe
+## Prerequisites for setup of Yume
 
-To set up YuMe, perform the following steps:
+To set up Yume, perform the following steps:
 
-- Clone the [VivaSolutions GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions) onto the machine in your location, and download the YuMe accelerator from the samples in this repository.
+- Clone the [VivaSolutions GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions) onto the machine in your location, and download the Yume accelerator from the samples in this repository.
 
 > [!NOTE]
-> You can choose to clone the repository or download the YuMe accelerator from the samples of the repository directly from the server itself.
+> You can choose to clone the repository or download the Yume accelerator from the samples of the repository directly from the server itself.
 
 Using these samples, perform the following substeps:
 - Create an Azure AD Application registration.
@@ -80,7 +80,7 @@ To import the PowerApps Custom Connector, perform the following steps:
 
 1. Create the Dataverse tables that are described below. For more information on creating Dataverse tables, see [Create a custom table](/power-apps/maker/data-platform/data-platform-create-entity).
 
-#### YuMe cards
+#### Yume cards
 
 
 |Column |Description  |
@@ -93,7 +93,7 @@ To import the PowerApps Custom Connector, perform the following steps:
 |CardType     |     **Text (100)**: Identifies how the display area content for the card will be presented.            **Metrics**: Predefined Viva Personal Insights based on graph data; **Horizontal**: Left/right control for navigating the content for the main card; **Vertical**: Vertical gallery (list) display of the content.  |
 |DisplayOrder     |     **Whole Number**: The order to display the content in the horizontal/vertical format.    |
 
-#### YuMe Meeting Notes
+#### Yume Meeting Notes
 
 |Column  |Description  |
 |---------|---------|
@@ -105,7 +105,7 @@ To import the PowerApps Custom Connector, perform the following steps:
 |Emp Feedback     |    **Text(1024)**: Emp meeting feedback     |
 |Emp Feeling     |      **Text(100)**: Emp meeting sentiment   |
 
-#### YuMe User Options
+#### Yume User Options
 
 |Column  |Description  |
 |---------|---------|
@@ -114,7 +114,7 @@ To import the PowerApps Custom Connector, perform the following steps:
 
 2. During the Dataverses table creation, make a note of the table prefix name.
 
-   :::image type="content" source="../media/tables-yume-card-data.png" alt-text="Tables containing YuMe card data":::
+   :::image type="content" source="../media/tables-yume-card-data.png" alt-text="Tables containing Yume card data":::
 
 ### Create Dataverse permissions
 
@@ -124,14 +124,14 @@ To create Dataverse permissions, perform the following steps:
 1. Select the environment for which you want to create Dataverse permissions.
 1. Select **Users and permissions > Security Roles**.
    The following roles are the ones you can create:
-    - **Basic User role (for access to User table and YuMe tables)**: Updated to include user rights for tables. This role provides read-only access for the card data table and other rights for the other YuMe tables.
+    - **Basic User role (for access to User table and Yume tables)**: Updated to include user rights for tables. This role provides read-only access for the card data table and other rights for the other Yume tables.
     
     :::image type="content" source="../media/basic-user-role-permissions.png" alt-text="Basic permissions for a user role":::
 
     - **YumeContentAdmin (custom role)**: This role is permissive so should only be accounts that need access across all the data (for example, nudges from power automate).
-        - YuMe Cards::: Parent: Child Business Units
-        - YuMe Meeting Notes ::: Parent: Child Business Units
-        - YuMe User Options ::: Parent: Child Business Units
+        - Yume Cards::: Parent: Child Business Units
+        - Yume Meeting Notes ::: Parent: Child Business Units
+        - Yume User Options ::: Parent: Child Business Units
     
       :::image type="content" source="../media/yume-content-admin-role.png" alt-text="Yume content admin role":::
 
@@ -141,16 +141,16 @@ To create Dataverse permissions, perform the following steps:
 
 For information on how to set working hours and days for user mailbox settings, see [Set-MailboxCalendarConfiguration](/powershell/module/exchange/set-mailboxcalendarconfiguration).
 
-### Publish the YuMe application to the organization app catalog
+### Publish the Yume application to the organization app catalog
 
-For more information on how to publish the YuMe application to the organization app catalog, see [Embed a canvas app as personal app in Teams](/power-apps/teams/embed-teams-app).
+For more information on how to publish the Yume application to the organization app catalog, see [Embed a canvas app as personal app in Teams](/power-apps/teams/embed-teams-app).
 
 ## Create the Power Automate flows for nudging
 
 To create the Power Automate flows for nudging, perform the following steps:
 1. Download Task and Meeting zip file.
 1. Create a service account (as needed).
-1. Add the service account as a member of the YuMeContentAdmin security role.
+1. Add the service account as a member of the YumeContentAdmin security role.
 1. Sign in to PowerAutomate by launching the URL https://powerautomate.microsoft.com.
 1. Create connections to **Teams** and **Microsoft Dataverse**, for example, adding connections for Microsoft Dataverse.
 
@@ -170,28 +170,28 @@ To create the Power Automate flows for nudging, perform the following steps:
         
            :::image type="content" source="../media/initialize-variable-page.png" alt-text="Initialize variable page":::
 
-    1. Update the **Initial variable** page for YuMe URL by performing the following substep:
-        1. Populate the **Value** field with the value of the PowerApps Weblink URL for the YuMe PowerApp.
+    1. Update the **Initial variable** page for Yume URL by performing the following substep:
+        1. Populate the **Value** field with the value of the PowerApps Weblink URL for the Yume PowerApp.
     1. Update the frequency as needed (currently set to every 1 week on Sunday).
     1. Save the flow.
 1. Repeat the import process for the Tasks flow by performing the following substeps:
     1. Update the **Initialize variable** page for dataprefix by performing the following substep:
         1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627**.
-    1. Update the **Initial variable** page for YuMe URL by performing the following substep:
-        1. Populate the **Value** field with the value of the PowerApps Weblink URL for YuMe PowerApp.
+    1. Update the **Initial variable** page for Yume URL by performing the following substep:
+        1. Populate the **Value** field with the value of the PowerApps Weblink URL for Yume PowerApp.
     1. Update the frequency as needed (currently set to every 1 week on Sunday).
     1. Save the flow.
 
 ## Import data into Dataverse tables
 
 To import data into the Dataverse tables, perform the following steps:
-1. Download the YuMe Card Data V3 initial content CSV file from GitHub location (TBD) if not already downloaded.
+1. Download the Yume Card Data V3 initial content CSV file from GitHub location (TBD) if not already downloaded.
 1. Sign in to powerapps.com and select the environment to which you'll be deploying the CSV file.
 1. On the left navigation pane, select **Dataverse > Tables**.
 
    :::image type="content" source="../media/dataverse-tables-options-selection.png" alt-text="The page on which we select Dataverse and Tables options":::
 
-1. Find the YuMe cards and open it. The screen containing information of YuMe cards is displayed.
+1. Find the Yume cards and open it. The screen containing information of Yume cards is displayed.
 1. Select **Import > Import data from Excel**.
 
    :::image type="content" source="../media/import-data-from-excel-option.png" alt-text="The page from which we can select Import > Import data from Excel":::
@@ -210,10 +210,10 @@ To import data into the Dataverse tables, perform the following steps:
 
    :::image type="content" source="../media/import-completed-successfully.png" alt-text="The notification that the import has been completed successfully":::
 
-## Import the YuMe application
+## Import the Yume application
 
-To import the YuMe application, perform the following steps:
-1. Download the YuMe PowerApp zip file from GitHub location (TBD) if not already downloaded.
+To import the Yume application, perform the following steps:
+1. Download the Yume PowerApp zip file from GitHub location (TBD) if not already downloaded.
 1. Sign in to powerapps.com.
 1. Select the environment you'll be deploying the CSV file to.
 1. Select **Apps**. The **Apps** page is displayed.
@@ -259,23 +259,23 @@ The app will appear in the **Apps** section of PowerApps.
    :::image type="content" source="../media/data-page.png" alt-text="The Data page":::
 
     1. Remove the following data items:
-        1. YuMe Cards
-        1. YuMe User Options
-        1. YuMe Meeting Notes
+        1. Yume Cards
+        1. Yume User Options
+        1. Yume Meeting Notes
         1. Vsol-graph-analytics-connector
     1. Add the following data items:
-        1. YuMe Cards
-        1. YuMe User Options
-        1. YuMe Meeting Notes
+        1. Yume Cards
+        1. Yume User Options
+        1. Yume Meeting Notes
         1. Vsol-graph-analytics-connector
 1. Share out the power app to the target audience.
 
-## Edit or create YuMe cards
+## Edit or create Yume cards
 
 This section is classified into the following subsections:
 
 - [Edit the Dataverse tables](#edit-the-dataverse-tables)
-- [Create new YuMe cards content](#create-new-YuMe-cards-content)
+- [Create new Yume cards content](#create-new-Yume-cards-content)
 
 ### Edit the Dataverse tables
 
@@ -285,18 +285,18 @@ To edit the Dataverse tables, perform the following steps:
 
    :::image type="content" source="../media/dataverse-tables-options-selection.png" alt-text="The Dataverse > Tables path":::
 
-1. Find and open the YuMe cards. The page containing information about the YuMe cards is displayed.
+1. Find and open the Yume cards. The page containing information about the Yume cards is displayed.
 1. Select **Edit > Edit in new tab**.
 
    :::image type="content" source="../media/edit-data-in-new-tab.png" alt-text="The edit data in new tab option":::
 
-1. Select the drop-down list. Select and save all the fields defined in the schema for YuMe cards (see [YuMe cards](#YuMe-cards).
+1. Select the drop-down list. Select and save all the fields defined in the schema for Yume cards (see [Yume cards](#Yume-cards).
 1. Update the content of existing cards.
 
-### Create new YuMe cards content
+### Create new Yume cards content
 
-To create new content for the YuMe cards, perform the following steps:
-1. Add a new row by selecting **+ New row** on the page containing information of the YuMe cards.
+To create new content for the Yume cards, perform the following steps:
+1. Add a new row by selecting **+ New row** on the page containing information of the Yume cards.
 
    :::image type="content" source="../media/add-new-row.png" alt-text="The page on which the user can add a new row":::
 
