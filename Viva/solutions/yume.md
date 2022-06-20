@@ -275,7 +275,7 @@ The app will appear in the **Apps** section of PowerApps.
 This section is classified into the following subsections:
 
 - [Edit the Dataverse tables](#edit-the-dataverse-tables)
-- [Create new Yume cards content](#create-new-Yume-cards-content)
+- [Create new Yume cards content](#create-new-yume-cards-content)
 
 ### Edit the Dataverse tables
 
@@ -290,7 +290,7 @@ To edit the Dataverse tables, perform the following steps:
 
    :::image type="content" source="../media/edit-data-in-new-tab.png" alt-text="The edit data in new tab option":::
 
-1. Select the drop-down list. Select and save all the fields defined in the schema for Yume cards (see [Yume cards](#Yume-cards).
+1. Select the drop-down list. Select and save all the fields defined in the schema for Yume cards (see [Yume cards](#yume-cards).
 1. Update the content of existing cards.
 
 ### Create new Yume cards content
