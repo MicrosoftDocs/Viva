@@ -82,7 +82,7 @@ Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview 
     copy ./UpdateParams.ps1 ./AztScripts_20211011
     ```
 
-1. Select the editor ({}) icon to open the [Cloud Shell](azure/cloud-shell/using-cloud-shell-editor#opening-the-editor) editor.
+1. Select the editor ({}) icon to open the [Cloud Shell](/azure/cloud-shell/using-cloud-shell-editor#opening-the-editor) editor.
 1. In the left pane, expand the **AztScripts_20211011** file folder, and then locate and open the UpdateParams.ps1 file:
 
      ![UpdateParams file.](images/update-params.png)
