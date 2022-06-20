@@ -5,6 +5,8 @@ items:
   items:
     - name: Get to Know OKRs
       href: get-to-know-okrs.md
+    - name: Understand Organizations and Teams
+      href: understand-orgs-and-teams.md
     - name: Define Your Team
       href: define-your-team.md
     - name: Determine Your Rollout Plan
@@ -33,8 +35,10 @@ items:
       href: creating-okrs.md
     - name: Align OKRs
       href: align-okrs.md
-    - name: Check-in and Track Progress on OKRs
-      href: check-ins-and-progress-status.md
+    - name: Update OKRs using check-ins in Viva Goals
+      href: okr-check-ins.md
+    - name: Track OKR progress status in Viva Goals
+      href: track-okr-progress-status.md
     - name: Close and Score OKRs
       href: closing-and-scoring.md
     - name: Clone OKRs
@@ -52,7 +56,7 @@ items:
     - name: Review Dashboard Templates
       href: review-dashboard-templates.md
     - name: Approval Workflows
-      href: manage-okrs-better-with-viva-goals-okr-workflows.md
+      href: approval-workflows.md
     - name: Tags
       href: tags.md
     - name: Explorer

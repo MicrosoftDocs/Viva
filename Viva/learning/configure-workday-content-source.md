@@ -154,7 +154,9 @@ You can find the required Workday Web Service endpoint on the **Workday Data Cen
 
 1. Use [this page in Workday](https://resourcecenter.workday.com/) to identify which Workday Production Data Center your tenant is in.
 
-2. Now that you know your data center, fill in your information (in the bolded areas) to get your URL. You'll need this URL for integration in your Microsoft 365 admin center. "https:// wd2-impl-services1.workday.com{**Production data center URL prefix**}/ccx/service/{**Tenant name**}/Learning/v38.0".
+2. Now that you know your data center, fill in your information (in the bolded areas) to get your URL. You'll need this URL for integration in your Microsoft 365 admin center. "https:// {**Production Data Center URL Prefix**}/ccx/service/{**Tenant name**}/Learning/v38.0".
+
+    For example, your URL could look like this: "https://wd3.myworkday.com/ccx/service/yourorg/Learning/v38.0".
 
 ## Configure in your Microsoft 365 admin center
 
