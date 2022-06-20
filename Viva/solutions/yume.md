@@ -188,12 +188,27 @@ To import data into the Dataverse tables, perform the following steps:
 1. Download the YuMe Card Data V3 initial content CSV file from GitHub location (TBD) if not already downloaded.
 1. Sign in to powerapps.com and select the environment to which you'll be deploying the CSV file.
 1. On the left navigation pane, select **Dataverse > Tables**.
+
+   :::image type="content" source="../media/dataverse-tables-options-selection.png" alt-text="The page on which we select Dataverse and Tables options":::
+
 1. Find the YuMe cards and open it. The screen containing information of YuMe cards is displayed.
 1. Select **Import > Import data from Excel**.
+
+   :::image type="content" source="../media/import-data-from-excel-option.png" alt-text="The page from which we can select Import > Import data from Excel":::
+
 1. Select **Upload**. From the screen that is displayed, select the CSV file.
 1. Select **Map columns** and ensure that the columns are mapped correctly as shown in the following screenshot:
+
+   :::image type="content" source="../media/column-mapping.png" alt-text="Column mapping":::
+
 1. Select Save changes on the top right.
-1. Select **Import** on the top right. A notification message denoting a successful import is displayed, for example, the following screenshot:
+1. Select **Import** on the top right.
+
+   :::image type="content" source="../media/import-option-to-select.png" alt-text="The import option that can be selected by the user":::
+ 
+   A notification message denoting a successful import is displayed, for example, the following screenshot:
+
+   :::image type="content" source="../media/import-completed-successfully.png" alt-text="The notification that the import has been completed successfully":::
 
 ## Import the YuMe application
 
@@ -202,18 +217,47 @@ To import the YuMe application, perform the following steps:
 1. Sign in to powerapps.com.
 1. Select the environment you'll be deploying the CSV file to.
 1. Select **Apps**. The **Apps** page is displayed.
-1. Select **Import canvas app**. The **Import package** screen is displayed.
+1. Select **Import canvas app**.
+
+   :::image type="content" source="../media/import-canvas-app-option.png" alt-text="Tje Import canvas app option the user can select":::
+
+The **Import package** screen is displayed.
 1. Upload the zip file that was downloaded earlier.
-1. Under the **Choose your import options** pane, select **Create as new** and update the name to a unique name for the environment. for example, Yume_mobile. This name is displayed Yume-mobile.
+
+   :::image type="content" source="../media/upload-earlier-downloaded-zip-file.png" alt-text="Uploading the zip file downloaded earlier":::
+
+1. Under the **Choose your import options** pane, select **Create as new**.
+1. Update the name to a unique name for the environment, for example, Yume_mobile. This name is displayed Yume-mobile.
 1. Under the **Related resources** pane, select the option Select during import, and select the custom connector created earlier.
-1. Select Import at the bottom-right side of the page. Once the import process has been completed, there will be a message as shown in the following screenshot; the app will appear in the **Apps** section of PowerApps.
-1. Select **Open app**. The page listing the apps is displayed.
-1. Select the app that you want to edit. The page with information of the selected app is displayed.
-1. Select **Allow** to allow permissions to be applied to the app.
+1. Select **Import** at the bottom-right side of the page. 
+
+   :::image type="content" source="../media/selecting-import.png" alt-text="The page on which the user can select the Import option":::
+
+Once the import process has been completed, there will be a message as shown in the following screenshot:
+
+:::image type="content" source="../media/notification-to-user.png" alt-text="Notification message that denotes that the import was successful":::
+
+6. Select **Open apps** on the page that displayed the notification message of the successful import. 
+   The **Apps** page containing the newly created application is displayed.
+ 
+   :::image type="content" source="../media/display-of-app-in-apps-section.png" alt-text="The Apps page shwing the newly created application":::
+
+The app will appear in the **Apps** section of PowerApps.
+
+:::image type="content" source="../media/display-of-app-in-apps-section.png" alt-text="The Apps section in which the newly created app is displayed":::
+
+7. Select the application that you want to edit. The page with information of the selected application is displayed.
+
+   :::image type="content" source="../media/page-containing-application-details.png" alt-text="The page containing details of the application that you want to edit":::
+
+1. Select **Allow** to allow permissions to be applied to the application.
 1. Select **Apps** from the left navigation pane.
     1. Select **OnStart** from the drop-down list.
     1. Change the value **cr1de** to the table prefix value noted during the Dataverse table creation earlier (in this example, the value is **cr627**)
 1. Select **Data** from the left navigation pane. The **Data** page is displayed.
+
+   :::image type="content" source="../media/data-page.png" alt-text="The Data page":::
+
     1. Remove the following data items:
         1. YuMe Cards
         1. YuMe User Options
@@ -238,8 +282,14 @@ This section is classified into the following subsections:
 To edit the Dataverse tables, perform the following steps:
 1. Sign in to powerapps.com, and select the environment in which you've deployed the  Dataverse tables.
 1. Select **Dataverse > Tables**.
+
+   :::image type="content" source="../media/dataverse-tables-options-selection.png" alt-text="The Dataverse > Tables path":::
+
 1. Find and open the YuMe cards. The page containing information about the YuMe cards is displayed.
 1. Select **Edit > Edit in new tab**.
+
+   :::image type="content" source="../media/edit-data-in-new-tab.png" alt-text="The edit data in new tab option":::
+
 1. Select the drop-down list. Select and save all the fields defined in the schema for YuMe cards (see [YuMe cards](#YuMe-cards).
 1. Update the content of existing cards.
 
@@ -248,19 +298,24 @@ To edit the Dataverse tables, perform the following steps:
 To create new content for the YuMe cards, perform the following steps:
 1. Add a new row by selecting **+ New row** on the page containing information of the YuMe cards.
 
+   :::image type="content" source="../media/add-new-row.png" alt-text="The page on which the user can add a new row":::
+
 Examples of the content that can be added are described below:
+
+:::image type="content" source="../media/updating-cards-overall-example.png" alt-text="The top-level example of updating cards":::
 
 Examples of how the cards can be updated are described below:
 
+In the following screenshot:
 - Example A describes the process of adding a new TitleName for the main category.
 - Example C describes the process of adding a new Title Description for the main category.
 
-These descriptions of Examples A and C are illustrated in the following screenshot:
+:::image type="content" source="../media/examples-a-and-c.png" alt-text="An example of adding a new name and description for a title":::
 
-- Example B describes the process of adding the Content Title for the new main card category.
+- The following screenshot describes Example B, that is, the process of adding the Content Title for the new main card category.
 
-This description of Example B is illustrated in the following screenshot:
+:::image type="content" source="../media/example-b.png" alt-text="An example that illustrates how to add ContentTitle to the new main card category":::
 
-- Example D describes the process of adding the Content for the new main card category.
+- The following screenshot describes Example D, that is, the process of adding the Content for the new main card category.
 
-This description of Example D is illustrated in the following screenshot:
+:::image type="content" source="../media/example-d.png" alt-text="The example that illustrates how to add content for the new main card category":::
