@@ -30,16 +30,17 @@ Yume is an employee-driven solution to support 1:1 interaction between employees
 
 To set up Yume, perform the following steps:
 
-- Clone the [VivaSolutions GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions) onto the machine in your location, and download the Yume accelerator from the samples in this repository.
+- [Download the Yume accelerator](#download-the-yume-accelerator)
+- [Create an Azure AD Application registration](#create-an-azure-ad-application-registration)
+- [Import the PowerApps Custom Connector](#powerapps-custom-connect-import)
+- [Create Dataverse tables](#create-dataverse-tables) and [permissions](#create-dataverse-permissions)
+- [Import data into the Dataverse table](#import-data-into-dataverse-tables)
 
-> [!NOTE]
-> You can choose to clone the repository or download the Yume accelerator from the samples of the repository directly from the server itself.
+### Download the Yume accelerator
 
-Using these samples, perform the following substeps:
-- Create an Azure AD Application registration.
-- Import the PowerApps Custom Connector.
-- Create Dataverse tables and permissions.
-- Import data into the Dataverse table.
+Download the Yume accelerator from the samples in the [VivaSolutions GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions) from the server itself.
+
+Another option is to clone this repository to your local machine and then download the samples in VivaSolutions GitHub repository.
 
 ### Create an Azure AD Application registration
 
@@ -135,8 +136,6 @@ To create Dataverse permissions, perform the following steps:
     
       :::image type="content" source="../media/yume-content-admin-role.png" alt-text="Yume content admin role":::
 
-       Members of this role will get the permissions as depicted in the following screenshot:
- 
 ### Set working hours and days for users mailbox settings
 
 For information on how to set working hours and days for user mailbox settings, see [Set-MailboxCalendarConfiguration](/powershell/module/exchange/set-mailboxcalendarconfiguration).
