@@ -39,18 +39,17 @@ Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview 
 ## Download the scripts
 
 1. Download the SasToken.zip file that was emailed to you by your Microsoft Representative.
-), paste it in the Cloud Shell command line, and then press **Enter**.
 1. Unzip the SasToken.zip file to access its contents: SasToken.txt.
 1. Open the SasToken.txt file using Notepad or preferred text editor.
 1. Copy the full first line beginning with $sasUri. Below is an example value, but please use the value that was provided to you by your Microsoft representative:
 
     `$sasUri = “https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”`
 
-1. Paste the full value, beginning with $sasUri and ending after the ending quotation marks, into the Cloud Shell command line, and then press **Enter**.
+1. Paste the full value, beginning with $sasUri and ending after the second quotation marks, into the Cloud Shell command line, and then press **Enter**.
 1. Return to the SasToken.txt file in Notepad, and copy the second value beginning with $sasUriParams. Below is an example value, but please use the value that was provided to you by your Microsoft representative:
 
     ``$sasUriParams = “https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/UpdateParams.ps1?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”``
-1. Paste the full value, beginning with $sasUriParams and ending after the ending quotation marks, into the Cloud Shell command line, and then press **Enter**.
+1. Paste the full value, beginning with $sasUriParams and ending after the second quotation marks, into the Cloud Shell command line, and then press **Enter**.
 1. In the Cloud Shell command line, run the following to download the Scripts .zip file:
 
     ```azure-cli
@@ -144,7 +143,7 @@ The following is shown in the App Registration UI in Azure for your current Azur
 ### Source storage
 
 * **src_storageAccount**: The container that you downloaded in the zip file with a value of **wpaappsprodtest1**.
-* **src_sasToken**: The token you got from Microsoft in an email in the first step in [Download the scripts](#download-the-scripts).  Return to the SasToken.txt file open in Notepad, and copy the last line of the file beginning with “?=sv= and ending with the closing quotation marks “. When you place this value into the UpdateParams.ps1 file, be sure to only include one set of starting and ending quotation marks.
+* **src_sasToken**: Return to the **SasToken.txt** file open in Notepad, and copy the last line of the file beginning with “?sv= and ending with the closing quotation marks. When you place this value into the **UpdateParams.ps1** file, be sure to only include one set of starting and ending quotation marks.
 
 ### Linkage account details
 
