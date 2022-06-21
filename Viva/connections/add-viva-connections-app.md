@@ -64,10 +64,20 @@ After you have [prepared your intranet for Viva Connections](guide-to-setting-up
 
 ## Then, customize the app settings
 
-1. Optionally (but highly recommended) use Teams app setup policy to pre-install and pre-pin the app for users on the Teams app bar on desktop and mobile. [Learn more about Teams app set up policies](/MicrosoftTeams/teams-app-setup-policies).
+Most organizations want to pin the Viva Connections app to the top of the Teams App Bar for all users. This can be accomplished by changing the pinned apps in the Teams Admin Center under [Setup policies](/MicrosoftTeams/teams-app-setup-policies).
 
-2. Optionally (but highly recommended) set app permissions policies to determine which users have access to the app. [Learn more about Teams permission policies](/microsoftteams/teams-app-permission-policies).
+1. Navigate to the **Teams Admin Center** / **Teams apps** / **Setup policies**
+2. Select **Global (Org-wide default)** - This is the default policy for all users.
+3. Scroll down to **Pinned apps**
+4. Click on **+ Add apps**
+5. In the second box, search for the Viva Connections app you enabled with the name you gave it, e.g., Intranet
+6. Click **Add** next to the app name and then **Add** at the bottom of the panel.
+7. Use the two horizontal lines next to the app to drag it to the top of the app list
+8. Click **Save** at the bottom of the page
 
+If your needs are different, [learn more about Teams app set up policies](/MicrosoftTeams/teams-app-setup-policies).
+
+Optionally (but highly recommended) set app permissions policies to determine which users have access to the app. [Learn more about Teams permission policies](/microsoftteams/teams-app-permission-policies).
 
 ## Finally, make the app available to end users
 
@@ -86,28 +96,3 @@ After you have [prepared your intranet for Viva Connections](guide-to-setting-up
 <br>
 
 [Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
