@@ -35,6 +35,7 @@ To set up Yume, perform the following steps:
 - [Import the PowerApps Custom Connector](#powerapps-custom-connect-import)
 - [Create Dataverse tables](#create-dataverse-tables) and [permissions](#create-dataverse-permissions)
 - [Import data into the Dataverse table](#import-data-into-dataverse-tables)
+- [Import the Yume application](#import-the-yume-application)
 
 ### Download the Yume accelerator
 
@@ -138,11 +139,7 @@ To create Dataverse permissions, perform the following steps:
 
 ### Set working hours and days for users mailbox settings
 
-For information on how to set working hours and days for user mailbox settings, see [Set-MailboxCalendarConfiguration](/powershell/module/exchange/set-mailboxcalendarconfiguration).
-
-### Publish the Yume application to the organization app catalog
-
-For more information on how to publish the Yume application to the organization app catalog, see [Embed a canvas app as personal app in Teams](/power-apps/teams/embed-teams-app).
+We recommend the working hours and days to be set for the users who will be using the application for more accurate working hours calculations. For information on how to set working hours and days for user mailbox settings, see [Set-MailboxCalendarConfiguration](/powershell/module/exchange/set-mailboxcalendarconfiguration). If not set, a default value of 45 hours will be used.
 
 ## Create the Power Automate flows for nudging
 
@@ -268,6 +265,10 @@ The **Import package** screen is displayed.
         1. Yume Meeting Notes
         1. Vsol-graph-analytics-connector
 1. Share out the power app to the target audience.
+
+### Publish the Yume application to the organization app catalog
+
+For more information on how to publish the Yume application to the organization app catalog, see [Embed a canvas app as personal app in Teams](/power-apps/teams/embed-teams-app).
 
 ## Edit or create Yume cards
 
