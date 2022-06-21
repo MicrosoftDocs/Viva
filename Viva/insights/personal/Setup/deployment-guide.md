@@ -161,8 +161,8 @@ Note: The output.csv file will contain the results of running this PowerShell sc
     $user.Userprincipalname
     $upn=$user.UserPrincipalName
     
-    Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
-    Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName 
+    Set-MyAnalyticsFeatureConfig –Identity $upn -PrivacyMode $privacyMode
+    Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName 
     }
     ```
 
@@ -199,8 +199,8 @@ This procedure is identical to [Set up mixed deployment](#set-up-mixed-deploymen
     $user.Userprincipalname
     $upn=$user.UserPrincipalName
     
-    Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
-    Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName 
+    Set-MyAnalyticsFeatureConfig –Identity $upn -PrivacyMode $privacyMode
+    Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName 
     }
     ```
 
