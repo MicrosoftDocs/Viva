@@ -25,7 +25,7 @@ description: "Learn about an OKR, its superpower, and how it's used"
 
 ## What are OKRs?
 
-OKRs (Objectives and Key Results) are a proven goal-setting framework for creating alignment, focus and building a highly productive and engaged work culture to drive your business outcomes.  
+Objectives and key results (OKRs) are a proven goal-setting framework for creating alignment and focus and building a highly productive and engaged work culture to drive your business outcomes.  
 
 OKRs align your entire organization to strategy, shifting focus from output—the everyday work of your team—to outcomes, which are the results of that work. This mindset shift keeps your team highly engaged with a clear sense of purpose and understanding of how everyone is contributing to forward momentum.
 
@@ -37,7 +37,7 @@ Objectives added at the organizational and team levels are depicted in the follo
 
 **Key results** describe how you'll measure your success in accomplishing these goals.
 
-For best results, teams and individuals should be aligned well in a hierarchy. Key results at one level become objective of the next level.
+For best results, teams and individuals should be aligned well in a hierarchy. Key results at one level become objectives of the next level.
 
 ![Chart shows a sample key results hierarchy.](../media/goals/1/11/b.jpg)
 
@@ -51,7 +51,7 @@ When delineating projects in Viva Goals...
 
 Incorporating projects in your OKR program ensures alignment between company-wide OKRs and the work prioritized by every department in your organization.
 
-**Check-ins** are updates you make to share progress on your OKRs. When you update progress on a key result, it automatically updates the status of the parent objective(s) as appropriate.
+**Check-ins** are updates you make to share progress on your OKRs. When you update progress on a key result, it automatically updates the status of the parent objectives as appropriate.
 
 The keys to success with OKRs are transparency and alignment. Right from the CEO to managers and colleagues, an employee can view anyone's OKRs in the system. This transparency fosters openness and removes conflicts and redundancies with work. OKRs are also aligned vertically and horizontally, allowing employees to see how their work connects with the organization's overall strategic goals.
 
@@ -61,11 +61,11 @@ Massive global enterprise companies have adopted OKRs, and so have 10-20 person 
 
 **OKRs shift focus from output to impact:** By starting with OKRs at the center of business planning, the focus inherently shifts from the outputs your team delivers to the impact they make on the business. In addition to reducing burnout from a lack of clarity around the purpose of that work, this shift in focus helps move the business forward more effectively.
 
-**OKRs create cross-functional cooperation to unify direction and improve collaboration.** When each individual, team, and department goal is aligned to the company’s broader strategy, teams  have a lens through which their work, and the impact it’s intended to have, is prioritized.  
+**OKRs create cross-functional cooperation to unify direction and improve collaboration.** When each individual, team, and department goal are aligned to the company’s broader strategy, teams  have a lens through which their work, and the impact it’s intended to have, is prioritized.  
 
-**OKRs help organizations navigate rapid change and reduce risk.** This has been a key benefit of OKRs as companies square off against the pressures COVID-19 brought with it.  The OKR framework gives a level of visibility into where efforts are focused. It helps leaders proactively manage risk, identifying themes and changes in diverse data sets that might have gone unnoticed without a unifying system. This framework, in turn, helps companies shift focus from activity and output to outcomes, making the right changes at the right time to stay competitive.
+**OKRs help organizations navigate rapid change and reduce risk.** This has been a key benefit of OKRs as companies square off against the pressures of COVID-19. The OKR framework gives a level of visibility into where efforts are focused. It helps leaders proactively manage risk, identifying themes and changes in diverse data sets that might have gone unnoticed without a unifying system. This framework, in turn, helps companies shift focus from activity and output to outcomes, making the right changes at the right time to stay competitive.
 
-**OKRs create clarity that is documented, measurable, and owned.** With the OKR framework comes accountability that is tracked and measured in the OKR software or document that a company uses to manage the process. This accountability works two ways: with each individual responsible for their OKRs, and the company leadership responsible for enabling their pursuit.
+**OKRs create clarity that is documented, measurable, and owned.** The OKR framework provides accountability that's tracked and measured in the OKR software or document that a company uses to manage the process. This accountability works two ways: with each individual responsible for their OKRs and company leadership responsible for enabling their pursuit.
 
 **OKRs inspire stretch and foster involvement**. When done well and made the driving force in the company’s strategic rhythm, OKRs can keep every  employee connected to the broader mission and make sure they’re invested in their own contribution to it.  
 
@@ -73,13 +73,13 @@ Massive global enterprise companies have adopted OKRs, and so have 10-20 person 
 
 ## What are the benefits of OKRs for executives, team owners and managers, and individual contributors?
 
-OKRs drive alignment, agility, and impact in your organization. Here are the most impactful benefits of adopting OKRs for Executives, Team Owners, and Individual Contributors.
+OKRs drive alignment, agility, and impact in your organization. Here are the most impactful benefits of adopting OKRs for executives, team owners, and individual contributors.
 
 **Executives want to establish a high-performing team with a growth mindset that consistently drives stronger business results. OKRs provide these benefits to executives:**
 
 - Full visibility into progress of business initiatives across all levels of the organization 
 - Stronger collaboration between departments and teams 
-- High performing, empowered, and engaged employees 
+- High-performing, empowered, and engaged employees 
 - Clear connection between daily work and overarching organizational goals 
 - More autonomous, focused teams 
 
@@ -102,7 +102,7 @@ OKRs drive alignment, agility, and impact in your organization. Here are the mos
 
 ## What are the OKR superpowers?
 
-OKRs provide a framework to allow companies large and small to set goals, stay agile, and ensure employees are on board with the latest strategy through the five superpowers that are described in the following image and table:
+OKRs provide a framework to allow large and small companies set goals, stay agile, and ensure employees are on board with the latest strategy through the five superpowers that are described in the following table.
 
 |Superpower name  |Description  |
 |---------|---------|
@@ -110,7 +110,7 @@ OKRs provide a framework to allow companies large and small to set goals, stay a
 |Alignment     |   OKRs help align company goals from top to bottom so that everyone is rowing in the same direction.       |
 |Tracking     |   OKRs are data-driven. Today's most successful companies use data to inform action and guide strategic decisions.      |
 |Transparency     |   A core tenant of OKRs is that employees can view goals and progress at every level, from CEO to individual contributor, fostering accountability and collaboration.      |
-|Stretch   |    When employees are encouraged to set stretch goals to achieve what might not seem possible and are supported by a growth mindset culture, learning and innovation accelerate.     |
+|Stretch   |    When employees are encouraged to set,  stretch goals to achieve what might not seem possible and are supported by a growth-mindset culture, learning and innovation accelerate.     |
 
 ## How can I ensure OKR program success at my company?
 

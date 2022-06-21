@@ -27,27 +27,27 @@ After you purchase Viva Goals licenses for your organization, you can log into V
 
 To log into Viva Goals, you must be logged into your Azure Active Directory.
 
-## How to log in to Viva Goals using Azure Active Directory 
+## How to log in to Viva Goals 
 
 1. Go to the Viva Goals sign-in page.
 
 2. Select the Azure Active Directory credentials to log in.
 
-3. If there are no organizations available, you'll be directed to a **No organizations**, where you're prompted to create an organization.
+3. If there are no organizations available, you'll be directed to **No organizations** page, where you're prompted to create an organization.
 
 4. If you're a first time user and was invited to join your organization via an invite link, you'll be taken directly to your organization’s Viva Goals account. 
 
 5. If you’re logging in for the first time and aren't yet part of an organization, you'll be directed to the **Join Organizations** page to select your organization from a list.  
 
-1. After you sign in, you'll be taken to your organization.
+1. After you log in, you'll be taken to your organization.
 
 ## How to create your first organization in Viva Goals
 
 1. Log in to your Viva Goals account with your Azure Active Directory credentials.
 
-2. You'll be prompted to create an organization. Select the **Create Organization**.
+2. You'll be prompted to create an organization. Select **Create Organization**.
 
-3. Enter your organization name and a brief description (optional) and select the organization type: Public or Restricted.
+3. Enter your organization name and a brief description (optional) and select the organization type: **Public** or **Restricted**.
 
 4. Select **Create Organization**.
 
@@ -59,7 +59,7 @@ If you're a part of more than one organization and need to create another organi
 
 1. Log in to your first organization in Viva Goals.
 
-2. From the menu that appears on the left, select the organization name at the top.
+2. From the menu on the left, select the organization name at the top.
 
 3. From the organization-switcher dropdown list that appears, select the **Create or join new organization** button.
 
@@ -71,7 +71,7 @@ Use the organization switcher dropdown to switch between different organizations
 
 1. Log in to Viva Goals using Azure Active Directory.
 
-2. If you’re logging in for the first time and aren't yet a part of any organization, you'll be taken to the **Join Organizations** page, where you can select your organization.
+2. If you're logging in for the first time and aren't yet a part of any organization, you'll be taken to the **Join Organizations** page, where you can select your organization.
 
 3. If your organization is public, you'll see a **Join** button. Select that button to go to your organization's account. 
 
@@ -97,17 +97,17 @@ If you're logged into any other Microsoft 365 product or service, you'll automat
 
 **How do I log out of my Viva Goals account?**
 
-Select your profile name at the bottom of the left menu in the Viva Goals app and then select the **Log out** button.
+Select your profile name at the bottom of the left menu in Viva Goals, and then select the **Log out** button.
 
 **What's an *organization* in Viva Goals and when should the user create it?**
 
 An organization in Viva Goals can mean different things to different users. You can create a single organization with all your employees in it if you have a simple hierarchy of organization-level OKRs, followed by department-level OKRs, and team-level OKRs. But in the following cases, it makes sense to create separate organizations: 
 
-- When your business unit (BU) or department wants to track a separate set of organization-level OKRs and align all the teams in that BU or department to those OKRs, you should create a separate organization for your BU or department. 
+- If your business unit (BU) or department wants to track a separate set of organization-level OKRs and align all the teams in that BU or department to those OKRs, you should create a separate organization for your BU or department. 
 
-- When your organization wants to maintain its own information boundary and doesn't want other department members to see its OKRs, you can create a separate organization for yourself or for those departments. 
+- If your organization wants to maintain its own information boundary and doesn't want other department members to see its OKRs, you can create a separate organization for yourself or for those departments. 
 
-- When there's a need to administer the rollout and features separately, different departments may want to track OKRs in unique ways. You might want to turn on/off certain customizations or manage different OKR rhythms and cadences (different time periods) or permissions (transparent versus locked). In all these scenarios, it's best to create a new organization. 
+- If there's a need to administer the rollout and features separately, different departments may want to track OKRs in unique ways. You might want to turn on/off certain customizations or manage different OKR rhythms and cadences (different time periods) or permissions (transparent versus locked). In all these scenarios, it's best to create a new organization. 
 
 **What do the types of organizations (*public* and *restricted*) mean?**
 

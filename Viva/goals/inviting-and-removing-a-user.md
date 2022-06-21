@@ -25,7 +25,7 @@ description: "Inviting and removing a user in Viva Goals"
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-To onboard your entire organization into Viva Goals, simply send an invitation to all team members.
+To onboard your entire organization into Viva Goals, send an invitation to all team members.
 
 Before either of these procedures, you must sign in to Viva Goals using Azure Active Directory and create an account for your organization.  
 
@@ -52,7 +52,7 @@ Or, if you're the organization administrator, you can also go to **Settings** an
 
 Another way to do this is to select **All Users** from the menu and then select the **Invite Users** button.
 
-![Screenshot showing another option to adding members.](../media/goals/2/23/b.jpg)
+![Screenshot showing another option to add members.](../media/goals/2/23/b.jpg)
 
 ## Remove a user 
 
@@ -68,7 +68,7 @@ To reactivate a user, go to **Action** -> **Make Active**, which will restore th
 
 ![Screenshot showing where you reactivate a user.](../media/goals/2/23/d.jpg)
 
-Deleting a user is a permanent action and can't be undone. Deleting removed all their activities in the system.
+Deleting a user is a permanent action and can't be undone. It removes all their activities in the system.
 
 ![Screenshot shows deleting a user and a warning.](../media/goals/2/23/e.jpg)
 
@@ -88,7 +88,7 @@ Admins can’t delete users who currently own any objective. To delete those use
 
 **Can any group in Azure Active Directory be invited to Viva Goals?**
 
-Any group in Azure Active Directory, Security Groups, Distribution groups, and Office 365 groups can be invited to Viva Goals. 
+Any group in Azure Active Directory, Security Groups, Distribution groups, and Microsoft 365 groups can be invited to Viva Goals. 
 
 **How many groups can be invited?** 
 
@@ -98,7 +98,7 @@ Currently, only one group from Azure Active Directory can be invited to Viva Goa
 
 To invite an entire organization, we recommend users nest all existing groups or include all members as part of a single group.  
 
-Can I invite a group if I'm not a member of the group?**
+**Can I invite a group if I'm not a member of the group?**
 
 Yes, you can invite any group, even if you aren't a member.
 
@@ -108,4 +108,4 @@ Yes. However, if the group they're a member of restricts emails by not including
 
 **If users are removed or added to the group, will the list automatically sync with the respective organization in Viva Goals?**
 
-A: Yes, the Members list in that specific group will automatically sync with the respective organization. 
+Yes, the Members list in that specific group will automatically sync with the respective organization. 

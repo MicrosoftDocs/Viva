@@ -30,9 +30,9 @@ description: "Learn about Microsoft Viva Goals on how you can use it for organiz
 
 </br>
 
-Microsoft Viva Goals is a goal alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results.
+Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results.
 
-To do this, Microsoft Viva Goals applies the power of the OKR (Objectives and Key Results) framework.
+To do this, Microsoft Viva Goals applies the power of the objectives and key results (OKR) framework.
 
 Because Viva Goals is a part of Microsoft Viva, it integrates into the employee experience, empowering teams to be their best from anywhere.
 
@@ -49,7 +49,7 @@ The resources in this section will help you learn more about Viva Goals and how 
 
 ## Setup and administration
 
-The resources in this section will help the administrator in your organization set up and configure Viva Goals in your Microsoft 365 environment:
+The resources in this section will help the administrator in your organization setup and configure Viva Goals in your Microsoft 365 environment.
 
 |If you're looking for this information  |Go to this resource  |
 |---------|---------|

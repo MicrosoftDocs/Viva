@@ -25,11 +25,11 @@ description: "Learn how to determine your rollout plan"
 
 At the completion of your rollout plan or deployment phase, you'll have Microsoft Viva Goals operating across your entire organization so you can connect the daily work of every team member to business outcomes.
 
-As you navigate the OKR Maturity Model shown below and change management associated with a Viva Goals OKR rollout, we recommend easing your organization into OKRs through a user pilot.
+As you navigate the OKR Maturity Model shown below and change management associated with a Viva Goals OKR rollout, we recommend that you ease your organization into OKRs through a user pilot.
 
 ![Table that shows the O K R maturing process.](../media/goals/1/13/a.png)
 
-The benefits of a user pilot are two-fold: first, you quickly learn how the methodology works within your organizational culture and gain insight into the challenges and opportunities.  Second, your pilot group acts as an example for the rest of the organization. The pilot group's success in achieving their objectives will serve as a motivator for more groups to get on board.  
+The benefits of a user pilot are two-fold: first, you quickly learn how the methodology works within your organizational culture and gain insight into the challenges and opportunities. Second, your pilot group acts as an example for the rest of the organization. The pilot group's success in achieving their objectives will serve as a motivator for more groups to get on board.  
 
 ## 1. Select your pilot style
 
@@ -41,15 +41,15 @@ One of the most popular ways to roll out an OKR program is from the top down. Th
 
 **Throughout that first quarter, a weekly cadence for check-ins is set as an example.** Meeting agendas are structured around measurement of OKRs.
 
-**After a successful first quarter, Team Managers are trained.** They develop their OKRs, which are aligned with the senior leadership team.
+**After a successful first quarter, team managers are trained.** They develop their OKRs, which are aligned with the senior leadership team.
 
-**After another quarter or two, Team Managers expand their Key Results.** At this point, individual team members become involved.  
+**After another quarter or two, team managers expand their key results.** At this point, individual team members become involved.  
 
 **Ask participants to take the [OKR Leadership Program learning path on demand](/learn/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
 
 ### Department-wide pilot group
 
-Another popular rollout method is for one individual department or group, such as marketing or IT or a product engineering team, to run a top-to-bottom rollout that involves both team managers and individual employees. Here’s how it goes:
+Another popular rollout method is for one individual department or group, such as marketing, IT, or a product-engineering team, to run a top-to-bottom rollout that involves both team managers and individual employees. Here’s how it goes:
 
 **With formal or informal support from upper management, the group adopts a weekly cadence for check-ins for one to two quarters, experimenting with what works and making agile changes.** Along the way, team managers report back to management regarding successes, challenges, and recommendations.
 
@@ -57,27 +57,27 @@ Another popular rollout method is for one individual department or group, such a
 
 **Ask participants to take the [OKR Leadership Program learning path on-demand](/learn/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
 
-### Another option: Large bang theory 
+### Another option: Big bang theory 
 
 The "crawl-walk-run" pilot approach is best for most companies, but mature companies that can efficiently and effectively lead the organization though change may choose to launch OKRs organization-wide all at once.  
 
 The advantage of this “big bang” approach is that companies are able to apply the momentum of the initial kickoff to realize the benefits of OKRs more quickly across the entire organization.
 
-No matter which path you choose, it's important to find out what works best for your organization. Be patient, as it usually takes a few quarters to get comfortable with change. Soon you'll get into a solid rhythm and your OKR program will grow, mature, and transform your organization in the process.  
+No matter which path you choose, it's important to find out what works best for your organization. Be patient, as it usually takes a few quarters to get comfortable with change. Soon you'll get into a solid rhythm, and your OKR program will grow, mature, and transform your organization in the process.  
 
 ## 2. Set program goals
 
 Your goals define the outcome you want and enable you to measure the success of your Viva Goals rollout.  
 
-You need full participation from stakeholders when you define your OKRs to help ensure they feel a sense of ownership and to align these measures of success to defined project tasks. OKRs should include a mix of technical and user-focused success.
+You need full participation from stakeholders when you define your OKRs to help ensure they feel a sense of ownership and to align these measures of success to defined project tasks. OKRs should include a mix of technical and user-focused successes.
  
  Before you begin crafting the OKRs for your OKR program with Viva Goals, take some time to reflect on the following questions:
 
-- **Why are you implementing the program?** Is it to provide better transparency across your organization? To increase employee engagement? To spearhead a new product launch? To provide focus to fend off a competitor? Being clear on "why" will help galvanize your employees and keep momentum going.
+- **Why are you implementing the program?** Is it to provide better transparency across your organization? To increase employee engagement? To spearhead a new product launch? To provide focus to fend off a competitor? Being clear on *why* will help galvanize your employees and keep momentum going.
 
 - **What does success look like for this program?** A year from now, how will you know if you've achieved your goals?
 
-- **How will you communicate about your OKR program and Viva Goals to your team?** What is your communication plan at the beginning, during mid-cycle check-ins, and when it's time to close out OKRs and see where you landed—and what you learned?
+- **How will you communicate about your OKR program and Viva Goals to your team?** What is your communication plan at the beginning, during mid-cycle check-ins, and when it's time to close out OKRs and see where you landed—and what have you learned?
 
 Here's an example of an OKR for rolling out an OKR program with Viva Goals: 
 
@@ -91,7 +91,7 @@ Most companies start with three to five high-level objectives for the year. For 
 
 **Quarterly timing**:
 
-Most companies plan their OKR's quarterly in the following way:
+Most companies plan their OKRs quarterly in the following way:
 
 - Q1 (January / February / March)
 - Q2 (April / May / June)
@@ -103,7 +103,7 @@ Most companies plan their OKR's quarterly in the following way:
 
 **Check-in cadence:**
 
-We recommend that team members check in and update their OKRs *on a weekly basis*. Viva Goals has built-in notifications through  integrations and via email to ensure this regular cadence.
+We recommend that team members check in and update their OKRs on a weekly basis. Viva Goals has built-in notifications through  integrations and via email to ensure this regular cadence.
 
 > [!NOTE]
 > The day and time of reminders can be changed under **Admin** > **Notifications**.
