@@ -29,7 +29,7 @@ As a people manager, confirm the following prerequisites. You can then sign in a
 Depending on your license and access settings, you can get a snapshot of how your team is currently doing in the following apps:
 
 * [Microsoft Viva Insights app](teams-app.md)
-* [Advanced insights app](https://workplaceanalytics.office.com)
+* [Advanced insights app](https://workplaceanalytics.office.com) (if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)).
 
 Manager insights give you visibility into your team’s collaboration patterns, which are leading indicators that ladder up to overall wellbeing.
 
