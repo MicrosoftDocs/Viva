@@ -148,7 +148,7 @@ In this scenario, some users are opted in and some users are opted out of all Vi
     ```
 
 4. Specify the location of the input .csv file, the output .csv file, and the value of PrivacyMode that you want to set for each user.
-Note: The output.csv file will contain the results of running this PowerShell script. For more information about possible values for PrivacyMode, see Set-UserAnalyticsConfig / Parameters.
+Note: The output.csv file will contain the results of running this PowerShell script. For more information about possible values for PrivacyMode, see Set-MyAnalyticsFeatureConfig / Parameters.
 
     ```powershell
     $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
