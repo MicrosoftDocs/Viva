@@ -141,43 +141,6 @@ To create Dataverse permissions, perform the following steps:
 
 We recommend the working hours and days to be set for the users who will be using the application for more accurate working hours calculations. For information on how to set working hours and days for user mailbox settings, see [Set-MailboxCalendarConfiguration](/powershell/module/exchange/set-mailboxcalendarconfiguration). If not set, a default value of 45 hours will be used.
 
-## Create the Power Automate flows for nudging
-
-To create the Power Automate flows for nudging, perform the following steps:
-1. Download Task and Meeting zip file.
-1. Create a service account (as needed).
-1. Add the service account as a member of the YumeContentAdmin security role.
-1. Sign in to PowerAutomate by launching the URL https://powerautomate.microsoft.com.
-1. Create connections to **Teams** and **Microsoft Dataverse**, for example, adding connections for Microsoft Dataverse.
-
-   :::image type="content" source="../media/add-connection-to-dataverse.png" alt-text="Adding a connection to Dataverse":::
-
-1. Import the meeting flows by performing the following substeps:
-    1. Select the resource types for Microsoft Dataverse Connection and Microsoft Teams Connection.
-    1. Select **Create as new** (update the name as needed).
-    
-       :::image type="content" source="../media/create-new-flow.png" alt-text="Creating a new flow":::
-
-       > [!NOTE]
-       > If an error is displayed, select **Save as new flow**.
-       
-    1. Update the **Initialize variable** page for dataprefix by performing the following substep:
-        1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627** as shown in the following screenshot:
-        
-           :::image type="content" source="../media/initialize-variable-page.png" alt-text="Initialize variable page":::
-
-    1. Update the **Initial variable** page for Yume URL by performing the following substep:
-        1. Populate the **Value** field with the value of the PowerApps Weblink URL for the Yume PowerApp.
-    1. Update the frequency as needed (currently set to every 1 week on Sunday).
-    1. Save the flow.
-1. Repeat the import process for the Tasks flow by performing the following substeps:
-    1. Update the **Initialize variable** page for dataprefix by performing the following substep:
-        1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627**.
-    1. Update the **Initial variable** page for Yume URL by performing the following substep:
-        1. Populate the **Value** field with the value of the PowerApps Weblink URL for Yume PowerApp.
-    1. Update the frequency as needed (currently set to every 1 week on Sunday).
-    1. Save the flow.
-
 ## Import data into Dataverse tables
 
 To import data into the Dataverse tables, perform the following steps:
@@ -187,14 +150,29 @@ To import data into the Dataverse tables, perform the following steps:
 
    :::image type="content" source="../media/dataverse-tables-options-selection.png" alt-text="The page on which we select Dataverse and Tables options":::
 
-1. Find the Yume cards and open it. The screen containing information of Yume cards is displayed.
+   The page listing the Dataverse tables is displayed.
+
+   :::image type="content" source="../media/importdataverse1a.png" alt-text="The page listing the Dataverse tables":::
+
+1. Find the Yume cards table using the **search** box as shown in the following screenshot:
+
+   :::image type="content" source="../media/importdataverse1b.png" alt-text="The search box using which the user can find the Yume table":::
+ 
+   The Yume cards table is displayed.
+
+1. Open the Yume cards table by selecting the three-dotted option and then selecting **Open**.
+
+   :::image type="content" source="../media/importdataverse1c.png" alt-text="The page from which the user can launch the information of the Yume cards table":::
+
+   The screen containing information of Yume cards is displayed.
+
 1. Select **Import > Import data from Excel**.
 
    :::image type="content" source="../media/import-data-from-excel-option.png" alt-text="The page from which we can select Import > Import data from Excel":::
 
 1. Select **Upload**. From the screen that is displayed, select the CSV file.
 1. Select **Map columns** and ensure that the columns are mapped correctly as shown in the following screenshot:
-
+]
    :::image type="content" source="../media/column-mapping.png" alt-text="Column mapping":::
 
 1. Select Save changes on the top right.
@@ -213,18 +191,28 @@ To import the Yume application, perform the following steps:
 1. Sign in to powerapps.com.
 1. Select the environment you'll be deploying the CSV file to.
 1. Select **Apps**. The **Apps** page is displayed.
-1. Select **Import canvas app**.
 
-   :::image type="content" source="../media/import-canvas-app-option.png" alt-text="Tje Import canvas app option the user can select":::
+   :::image type="content" source="../media/import-canvas-app-option.png" alt-text="The Import canvas app option the user can select":::
 
-The **Import package** screen is displayed.
-1. Upload the zip file that was downloaded earlier.
+1. Select **Import canvas app**. The page with the **Upload** button is displayed.
+
+   :::image type="content" source="../media/importcanvasapp1a.png" alt-text="The page with the Upload option":::
+   
+1. Upload the zip file that was downloaded earlier. Once the upload process has been successfully completed, the page as shown in the following screenshot is displayed:
 
    :::image type="content" source="../media/upload-earlier-downloaded-zip-file.png" alt-text="Uploading the zip file downloaded earlier":::
 
-1. Under the **Choose your import options** pane, select **Create as new**.
-1. Update the name to a unique name for the environment, for example, Yume_mobile. This name is displayed Yume-mobile.
-1. Under the **Related resources** pane, select the option Select during import, and select the custom connector created earlier.
+1. Under the **Choose your import options** pane, select **Create as new** that is corresponding to YUME_mobile_MVP. The page shown in the following screenshot is displayed.
+
+   :::image type="content" source="../media/importcanvasapp2a.png" alt-text="The page on which the user can update the name":::
+
+1. Update the name to a unique name for the environment in the **Resource name** box, for example, Yume_mobile.
+1. Select **Save**. You are taken back to the **Import package** page.
+1. Select the option **Select during import**, and select the custom connector created earlier, as shown in the following screenshot:
+
+   :::image type="content" source="../media/importcanvasapp2b.png" alt-text="The page on which the user can select the connector":::
+
+1. Select **Save**. You are taken back to the **Import package** page.
 1. Select **Import** at the bottom-right side of the page. 
 
    :::image type="content" source="../media/selecting-import.png" alt-text="The page on which the user can select the Import option":::
@@ -233,10 +221,13 @@ The **Import package** screen is displayed.
 
    :::image type="content" source="../media/notification-to-user.png" alt-text="Notification message that denotes that the import was successful":::
 
-6. Select **Open apps** on the page that displayed the notification message of the successful import. 
-   The **Apps** page containing the newly created application is displayed.
+6. Select **Open apps**. The page as shown in the following screenshot is displayed:
+
+   :::image type="content" source="../media/editapp1.png" alt-text="The page on which the application launch operation status is displayed":::
+
+   After a period of time, when the access for the application is allowed, the newly created application is displayed on the **Apps** page.
  
-   :::image type="content" source="../media/display-of-app-in-apps-section.png" alt-text="The Apps page shwing the newly created application":::
+   :::image type="content" source="../media/display-of-app-in-apps-section.png" alt-text="The Apps page showing the newly created application":::
 
    The app will appear in the **Apps** section of PowerApps.
 
@@ -268,7 +259,50 @@ The **Import package** screen is displayed.
 
 ### Publish the Yume application to the organization app catalog
 
-For more information on how to publish the Yume application to the organization app catalog, see [Embed a canvas app as personal app in Teams](/power-apps/teams/embed-teams-app).
+The Yume application can be published in the organization app catalog for users to use this application within the Teams client. For more information on how to publish the Yume application to the organization app catalog, see [Embed a canvas app as personal app in Teams](/power-apps/teams/embed-teams-app).
+
+## Create the Power Automate flows for nudging
+
+To create the Power Automate flows for nudging, perform the following steps:
+1. Download Task and Meeting zip file.
+1. Create a service account (as needed).
+1. Add the service account as a member of the YumeContentAdmin security role.
+1. Sign in to PowerAutomate by launching the URL https://powerautomate.microsoft.com.
+1. Create connections to **Teams** and **Microsoft Dataverse**, for example, adding connections for Microsoft Dataverse as shown in the following screenshot:
+
+   :::image type="content" source="../media/add-connection-to-dataverse.png" alt-text="Adding a connection to Dataverse":::
+
+1. Import the meeting flows by performing the following substeps:
+    1. Select the resource types for Microsoft Dataverse Connection and Microsoft Teams Connection from the page shown in the following screenshot:
+     
+       :::image type="content" source="../media/create-new-flow.png" alt-text="Creating a new flow":::
+        
+       1. Select **Create as new**. The **Import setup** pane is displayed on the right side of the page.
+       1. Update the name as needed in the **Resource name** box, and select **Save**.
+       1. Select the option **Select during import** corresponding to the resource type **Microsoft Dataverse Connection** or **Microsoft Teams Connection**.
+       1. Make changes as needed, and select **Save**.
+       1. Select **Import**. If an error is displayed, the page shown in the following screenshot is displayed.
+
+       :::image type="content" source="../media/notification-message-another-option.png" alt-text="Notification message of failure of import and providing another option":::
+       
+       1. Select **Save as new flow**. The import process gets completed successfully.
+       
+    1. Update the **Initialize variable** page for dataprefix by performing the following substep:
+        1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627** as shown in the following screenshot:
+        
+           :::image type="content" source="../media/initialize-variable-page.png" alt-text="Initialize variable page":::
+
+    1. Update the **Initial variable** page for Yume URL by performing the following substep:
+        1. Populate the **Value** field with the value of the PowerApps Weblink URL for the Yume PowerApp.
+    1. Update the frequency as needed (currently set to every 1 week on Sunday).
+    1. Save the flow.
+1. Repeat the import process for the Tasks flow by performing the following substeps:
+    1. Update the **Initialize variable** page for dataprefix by performing the following substep:
+        1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627**.
+    1. Update the **Initial variable** page for Yume URL by performing the following substep:
+        1. Populate the **Value** field with the value of the PowerApps Weblink URL for Yume PowerApp.
+    1. Update the frequency as needed (currently set to every 1 week on Sunday).
+    1. Save the flow.
 
 ## Edit or create Yume cards
 
@@ -286,12 +320,22 @@ To edit the Dataverse tables, perform the following steps:
    :::image type="content" source="../media/dataverse-tables-options-selection.png" alt-text="The Dataverse > Tables path":::
 
 1. Find and open the Yume cards. The page containing information about the Yume cards is displayed.
-1. Select **Edit > Edit in new tab**.
 
    :::image type="content" source="../media/edit-data-in-new-tab.png" alt-text="The edit data in new tab option":::
 
-1. Select the drop-down list. Select and save all the fields defined in the schema for Yume cards (see [Yume cards](#yume-cards).
-1. Update the content of existing cards.
+1. Select **Edit > Edit in new tab**. The page as shown in the following screenshot is displayed.
+
+   :::image type="content" source="../media/editdataverse1.png" alt-text="The page after the user selects the Edit in new tab option":::
+
+1. Select the drop-down list.
+
+   :::image type="content" source="../media/editdataverse1b.png" alt-text="The page with the dropdown list":::
+
+1. Select and save all the fields defined in the schema for Yume cards (see [Yume cards](#yume-cards). The page containing the schema selected from the dropdown list is displayed.
+
+   :::image type="content" source="../media/editdataverse1c.png" alt-text="The page showing the schema that is selected from the dropdown list":::
+
+1. Update the content that you want to, from the cells of the table.
 
 ### Create new Yume cards content
 
