@@ -186,7 +186,7 @@ To import data into the Dataverse tables, perform the following steps:
 
 1. Select **Save changes** on the top right. You return to the Import data pane, as shown in the following screenshot.
 
-   :::image type="content" source="../media/dataimport.png" alt-text="The Import data pane":::
+   :::image type="content" source="../media/dataimport.png" alt-text="The Import data pane on the right side of the page":::
 
 1. Select **Import** on the top right. A notification message denoting a successful import is displayed, for example, the following screenshot.
 
