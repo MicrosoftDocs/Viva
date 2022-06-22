@@ -154,7 +154,7 @@ To import data into the Dataverse tables, perform the following steps:
 
    :::image type="content" source="../media/importdataverse1a.png" alt-text="The page listing the Dataverse tables":::
 
-1. Find the Yume cards table using the **search** box as shown in the following screenshot:
+1. Find the Yume cards table using the **search** box as shown in the following screenshot.
 
    :::image type="content" source="../media/importdataverse1b.png" alt-text="The search box using which the user can find the Yume table":::
  
@@ -166,21 +166,29 @@ To import data into the Dataverse tables, perform the following steps:
 
    The screen containing information of Yume cards is displayed.
 
-1. Select **Import > Import data from Excel**.
-
    :::image type="content" source="../media/import-data-from-excel-option.png" alt-text="The page from which we can select Import > Import data from Excel":::
 
-1. Select **Upload**. From the screen that is displayed, select the CSV file.
-1. Select **Map columns** and ensure that the columns are mapped correctly as shown in the following screenshot:
-]
+1. Select **Import > Import data from Excel**. The page as shown in the following screenshot is displayed.
+
+   :::image type="content" source="../media/importdataverse2b.png" alt-text="The Import data pane":::
+
+1. Select **Upload**. A dialog box listing files and folders is displayed.
+
+   :::image type="content" source="../media/importdataverse2c.png" alt-text="The dialog box listing files and folders that the user can select to upload":::
+
+1. Select the **YumeCardDataV3_initialcontent.csv** file. This selected file is displayed in the **File** box as shown in the following screenshot.
+
+   :::image type="content" source="../media/importdataverse2d.png" alt-text="The page on which the file to be uploaded is displayed in the File box":::
+
+1. Select **Map columns** on the far-right side of the page. The column mapping page is displayed, as shown in the following screenshot.
+
    :::image type="content" source="../media/column-mapping.png" alt-text="Column mapping":::
 
-1. Select Save changes on the top right.
-1. Select **Import** on the top right.
+1. Select **Save changes** on the top right. You return to the Import data pane, as shown in the following screenshot.
 
-   :::image type="content" source="../media/import-option-to-select.png" alt-text="The import option that can be selected by the user":::
- 
-   A notification message denoting a successful import is displayed, for example, the following screenshot:
+   :::image type="content" source="../media/dataimport.png" alt-text="The Import data pane":::
+
+1. Select **Import** on the top right. A notification message denoting a successful import is displayed, for example, the following screenshot.
 
    :::image type="content" source="../media/import-completed-successfully.png" alt-text="The notification that the import has been completed successfully":::
 
@@ -207,17 +215,17 @@ To import the Yume application, perform the following steps:
    :::image type="content" source="../media/importcanvasapp2a.png" alt-text="The page on which the user can update the name":::
 
 1. Update the name to a unique name for the environment in the **Resource name** box, for example, Yume_mobile.
-1. Select **Save**. You are taken back to the **Import package** page.
-1. Select the option **Select during import**, and select the custom connector created earlier, as shown in the following screenshot:
+1. Select **Save**. You return to the Import wizard page.
+1. Select the option **Select during import** corresponding to **vsol-yume-connector**. The page with the **Import setup** pane on the right side is displayed.
 
-   :::image type="content" source="../media/importcanvasapp2b.png" alt-text="The page on which the user can select the connector":::
+   :::image type="content" source="../media/importcanvasapp2b2.png" alt-text="The Import setup pane on the right side of the Import wizard page":::
 
-1. Select **Save**. You are taken back to the **Import package** page.
+1. Select **Save**. You return to the Import wizard page.
 1. Select **Import** at the bottom-right side of the page. 
 
    :::image type="content" source="../media/selecting-import.png" alt-text="The page on which the user can select the Import option":::
 
-   Once the import process has been completed, there will be a message as shown in the following screenshot:
+   Once the import process has been completed, there will be a message as shown in the following screenshot.
 
    :::image type="content" source="../media/notification-to-user.png" alt-text="Notification message that denotes that the import was successful":::
 
@@ -268,17 +276,20 @@ To create the Power Automate flows for nudging, perform the following steps:
 1. Create a service account (as needed).
 1. Add the service account as a member of the YumeContentAdmin security role.
 1. Sign in to PowerAutomate by launching the URL https://powerautomate.microsoft.com.
-1. Create connections to **Teams** and **Microsoft Dataverse**, for example, adding connections for Microsoft Dataverse as shown in the following screenshot:
+1. Create connections to **Teams** and **Microsoft Dataverse**, for example, adding connections for Microsoft Dataverse as shown in the following screenshot.
 
    :::image type="content" source="../media/add-connection-to-dataverse.png" alt-text="Adding a connection to Dataverse":::
 
 1. Import the meeting flows by performing the following substeps:
-    1. Select the resource types for Microsoft Dataverse Connection and Microsoft Teams Connection from the page shown in the following screenshot:
+    1. Select the resource types for Microsoft Dataverse Connection and Microsoft Teams Connection from the page shown in the following screenshot.
      
        :::image type="content" source="../media/create-new-flow.png" alt-text="Creating a new flow":::
         
        1. Select **Create as new**. The **Import setup** pane is displayed on the right side of the page.
-       1. Update the name as needed in the **Resource name** box, and select **Save**.
+        
+          :::image type="content" source="../media/import-setup-pane.png" alt-text="The Import setup pane":::
+
+       1. Update the name as needed in the **Resource name** box, and select **Save**. You return to the Import wizard screen as shown below:
        1. Select the option **Select during import** corresponding to the resource type **Microsoft Dataverse Connection** or **Microsoft Teams Connection**.
        1. Make changes as needed, and select **Save**.
        1. Select **Import**. 
@@ -287,12 +298,12 @@ To create the Power Automate flows for nudging, perform the following steps:
 
           If an error is displayed, the page shown in the following screenshot is displayed.
 
-       :::image type="content" source="../media/notification-message-another-option.png" alt-text="Notification message of failure of import and providing another option":::
+          :::image type="content" source="../media/notification-message-another-option.png" alt-text="Notification message of failure of import and providing another option":::
        
        1. Select **Save as new flow**. The import process gets completed successfully.
        
     1. Update the **Initialize variable** page for dataprefix by performing the following substep:
-        1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627** as shown in the following screenshot:
+        1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627** as shown in the following screenshot.
         
            :::image type="content" source="../media/initialize-variable-page.png" alt-text="Initialize variable page":::
 
