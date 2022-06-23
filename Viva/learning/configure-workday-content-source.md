@@ -15,9 +15,13 @@ ms.collection:
     - m365initiative-viva-learning
 localization_priority: medium
 description: Learn how to configure Workday as a learning content source for Microsoft Viva Learning.
+ROBOTS: NOINDEX
 ---
 
 # Configure Workday as a content source for Microsoft Viva Learning
+
+> [!IMPORTANT]
+> Workday integration is currently only available for private preview customers. The capabilities here are subject to change.
 
 This article shows you how to configure Workday as a third-party content source for Microsoft Viva Learning. First, you'll need to create and set up an integration system user and set up security in Workday. Then you'll need to complete the configuration in the Microsoft 365 admin center.
 
@@ -150,7 +154,9 @@ You can find the required Workday Web Service endpoint on the **Workday Data Cen
 
 1. Use [this page in Workday](https://resourcecenter.workday.com/) to identify which Workday Production Data Center your tenant is in.
 
-2. Now that you know your data center, fill in your information (in the bolded areas) to get your URL. You'll need this URL for integration in your Microsoft 365 admin center. "https:// wd2-impl-services1.workday.com{**Production data center URL prefix**}/ccx/service/{**Tenant name**}/Learning/v38.0".
+2. Now that you know your data center, fill in your information (in the bolded areas) to get your URL. You'll need this URL for integration in your Microsoft 365 admin center. "https:// {**Production Data Center URL Prefix**}/ccx/service/{**Tenant name**}/Learning/v38.0".
+
+    For example, your URL could look like this: "https://wd3.myworkday.com/ccx/service/yourorg/Learning/v38.0".
 
 ## Configure in your Microsoft 365 admin center
 
