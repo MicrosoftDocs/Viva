@@ -165,6 +165,12 @@ After you've entered the correct parameters in the **UpdateParams.ps1** file, yo
    cd ./AztScripts_20211011
    ```
 
+1. Run the following to create the Synapse workspace with permissions and a Spark pool cluster, which then links a Gen2 storage account to them:
+
+   ```azure-cli
+   ./2m-azuresynapseworkspaceandlinkage.ps1
+   ```
+
 1. Run the following to use the parameters completed in the previous section:
 
     ```azure-cliCopy
