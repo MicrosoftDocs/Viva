@@ -18,7 +18,7 @@ audience: Admin
 # Microsoft 365 data
 
 >[!Important]
->Advanced insights in Viva Insights does not currently support mailboxes in [Sweden go-local](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#sweden). To get updated data for advanced insights, you cannot have [licenses assigned](../setup/Assign-licenses-to-population.md) to users with mailboxes in Sweden go-local.
+>Advanced insights in Viva Insights does not currently support mailboxes in [Sweden go-local](/microsoft-365/enterprise/o365-data-locations#sweden). To get updated data for advanced insights, you cannot have [licenses assigned](../setup/Assign-licenses-to-population.md) to users with mailboxes in Sweden go-local.
 
 As an admin or an analyst, you can use this page to confirm that your Microsoft 365 data is up-to-date. Use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 

@@ -123,7 +123,7 @@ A7. No, they aren't ignored but they aren't measured and their data isn't proces
 
 ##### Q8. Do advanced insights in Viva Insights support user mailboxes in Sweden go-local?
 
-A8. No, Advanced insights in Viva Insights does not currently support mailboxes in [Sweden go-local](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#sweden). To get updated data for advanced insights, you can't have [licenses assigned](../setup/Assign-licenses-to-population.md) to users with mailboxes in Sweden go-local.
+A8. No, Advanced insights in Viva Insights does not currently support mailboxes in [Sweden go-local](/microsoft-365/enterprise/o365-data-locations#sweden). To get updated data for advanced insights, you can't have [licenses assigned](../setup/Assign-licenses-to-population.md) to users with mailboxes in Sweden go-local.
  
 ## Organizational data
 
