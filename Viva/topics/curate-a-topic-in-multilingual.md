@@ -18,16 +18,17 @@ description: Learn how to translate a topic using multilingual in Microsoft Viva
 
 # Curate an existing topic using multilingual in Viva Topics 
 
-In Viva Topics you can use the multilingual feature to curate and edit in English, French, German, and Spanish.
+In Viva Topics you can use the multilingual feature to curate and edit a topic page in English, French, German, and Spanish.
 
 > [!Note] 
-> Topics already available in the default langage is needed before they can be translated using the multilingual feature in Viva Topics. 
-
-A topic in the tenant default language must be created before curating a topic using the multilingual feature in Viva Topics.
+> A topic page much be created and curated in the tenant's default langage before it can be translated using the multilingual feature in Viva Topics. 
 
 ## Curate a multilingual topic page
 
-To edit a topic, open the topic page from a topic highlight, and select the **multilingual** on the topic page. The topic page can also be opened from the topic enter home page where you can find all the topics you are connected to.
+> [!Note] 
+> When translating a topic page using the multilingual feature in Viva Topics, editing field intructions will be in the defalt language from your tenant. To change this, update your tenant's language settings.
+
+To edit a topic, open the topic page from a topic highlight, and select the **multilingual** on the topic page. The topic page can also be opened from the topic enter home page where you can find all the topics you're connected to.
 
    ![Screenshot showing multilingual button on the topic page.](../media/knowledge-management/ml-topic-page-initial.png)
 
@@ -51,7 +52,7 @@ To edit a topic, open the topic page from a topic highlight, and select the **mu
 
      ![Screenshot showing the field to confirm or edit the topic name in the multilingual page.](../media/knowledge-management/ml-edit-topic-name.png)
 
-5. In the **context hint** section, add an hint relevant to the current topic in the selected language.
+5. In the **context hint** section, add a hint relevant to the current topic in the selected language.
 
      ![Screenshot showing the context hint editing field in the multilingual page.](../media/knowledge-management/ml-edit-context-hint.png)
 
