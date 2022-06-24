@@ -33,20 +33,30 @@ To edit a topic, open the topic page from a topic highlight, and select the **mu
 
 1. Under the multilingual panel, find the desired language and select **create**.
 
-      ![Screenshot showing the multilingual panel from the topic page.](../media/knowledge-management/ml-panel.png)
+     ![Screenshot showing the multilingual panel from the topic page.](../media/knowledge-management/ml-panel.png)
 
 2. The multilingual panel will confirm when the new multilingual page is created. Select **view** to open and edit the multilingual page.
 
-      ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-panel-view-page.png)
+     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-panel-view-page.png)
 
 3. To edit the multilingual topic page, select **edit** on the top right of the multilingual topic page.
 
-      ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-page.png)
+     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-page.png)
 
      Make sure you're in the correct topic page by looking at the notification banner that will appear on the top left of the page.
 
-      ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-french-topic-page.png)
+     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-french-topic-page.png)
 
 4. Confirm or edit the topic name on the multilingual topic page.
 
-      ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-page.png)
+     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-topic-name.png)
+
+5. In the **context hint** section, add an hint relevant to the current topic in the selected language.
+
+     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-context-hint.png)
+
+6. In the **alternative names** section, add other names for the topic in the selected language.
+
+     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-alternate-names.png)
+
+     
