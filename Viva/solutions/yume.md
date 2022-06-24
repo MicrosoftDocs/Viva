@@ -144,7 +144,7 @@ We recommend the working hours and days to be set for the users who will be usin
 ## Import data into Dataverse tables
 
 To import data into the Dataverse tables, perform the following steps:
-1. Download the Yume Card Data V3 initial content CSV file from GitHub location (TBD) if not already downloaded.
+1. Download the Yume Card Data V3 initial content CSV file from the VivaSolutions Github repository if not already downloaded as part of the prerequisites.
 1. Sign in to powerapps.com and select the environment to which you'll be deploying the CSV file.
 1. On the left navigation pane, select **Dataverse > Tables**.
 
@@ -195,7 +195,7 @@ To import data into the Dataverse tables, perform the following steps:
 ## Import the Yume application
 
 To import the Yume application, perform the following steps:
-1. Download the Yume PowerApp zip file from GitHub location (TBD) if not already downloaded.
+1. Download the Yume PowerApp zip file from the VivaSolutions GitHub repository if not already downloaded as part of the prerequisites.
 1. Sign in to powerapps.com.
 1. Select the environment you'll be deploying the CSV file to.
 1. Select **Apps**. The **Apps** page is displayed.
@@ -231,22 +231,18 @@ To import the Yume application, perform the following steps:
 
 6. Select **Open apps**. The page as shown in the following screenshot is displayed:
 
-   :::image type="content" source="../media/editapp1.png" alt-text="The page on which the application launch operation status is displayed":::
+   :::image type="content" source="../media/page-containing-application-details.png" alt-text="The page containing details of the application that you want to edit":::
 
-   After a period of time, when the access for the application is allowed, the newly created application is displayed on the **Apps** page.
- 
-   :::image type="content" source="../media/display-of-app-in-apps-section.png" alt-text="The Apps page showing the newly created application":::
+7. Select **Allow** to allow permissions to be applied to the application.
+1. Select **Apps** from the left navigation pane.
+   > [!NOTE]
+   > The application to which access has been allowed will be displayed on the **Apps** section of the page after a few minutes. This time period during which the application is about to be displayed is depicted in the following screenshot:
 
+     :::image type="content" source="../media/editapp1.png" alt-text="The page that indicates the time period leading up to the display of the application":::
+   
    The app will appear in the **Apps** section of PowerApps.
 
    :::image type="content" source="../media/display-of-app-in-apps-section.png" alt-text="The Apps section in which the newly created app is displayed":::
-
-7. Select the application that you want to edit. The page with information of the selected application is displayed.
-
-   :::image type="content" source="../media/page-containing-application-details.png" alt-text="The page containing details of the application that you want to edit":::
-
-1. Select **Allow** to allow permissions to be applied to the application.
-1. Select **Apps** from the left navigation pane.
     1. Select **OnStart** from the drop-down list.
     1. Change the value **cr1de** to the table prefix value noted during the Dataverse table creation earlier (in this example, the value is **cr627**)
 1. Select **Data** from the left navigation pane. The **Data** page is displayed.
@@ -281,7 +277,21 @@ To create the Power Automate flows for nudging, perform the following steps:
    :::image type="content" source="../media/add-connection-to-dataverse.png" alt-text="Adding a connection to Dataverse":::
 
 1. Import the meeting flows by performing the following substeps:
-    1. Select the resource types for Microsoft Dataverse Connection and Microsoft Teams Connection from the page shown in the following screenshot.
+    1. Select **My flows** on the left navigation pane. The **Flows** page is displayed.
+    
+       :::image type="content" source="../media/powerautomateimportmeetingsflo1.png" alt-text="The Flows page from which the user can select the Import option":::
+
+    1. Select **Import** on the upper right of the page. The **Import package** page is displayed.
+    
+       :::image type="content" source="../media/powerautomateimportmeetingsflo1a.png" alt-text="The Import page":::
+
+    1.  Select **Upload** and select the package file to be uploaded.
+    
+        :::image type="content" source="../media/powerautomateimportmeetingsflo1a1.png" alt-text="The page on which you define the package and save it before it is imported":::
+    1.  Select the option **Select during import** from the **Setup** dropdown list.
+
+      1. Select the package file that you want to import.
+      1. Select the resource types for Microsoft Dataverse Connection and Microsoft Teams Connection from the page shown in the following screenshot.
      
        :::image type="content" source="../media/create-new-flow.png" alt-text="Creating a new flow":::
         

@@ -51,4 +51,7 @@
         href: ./organizational-network-analysis/organizational-network-analysis.md
       - name: Organizational network analysis - Gephi
         href: ./organizational-network-analysis/gephi-for-ona.md
-
+    - name: Engage and Retain Yume
+      items:
+      - name: Yume
+        href: yume.md
