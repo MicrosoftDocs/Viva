@@ -71,5 +71,5 @@ To edit a topic, open the topic page from a topic highlight, and select the **mu
     - Related topics
    To edit these fields, save or **publish** your changes on the multilingual topic page and visit the topic's default language page and continue [editing](./edit-a-topic.md) if needed.
 
-![Screenshot showing the publsih the curated multilingual page.](../media/knowledge-management/ml-publish-page.png)
+![Screenshot showing the publish the curated multilingual page.](../media/knowledge-management/ml-publish-page.png)
 
