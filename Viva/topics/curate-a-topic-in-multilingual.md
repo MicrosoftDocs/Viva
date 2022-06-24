@@ -25,16 +25,14 @@ In Viva Topics you can use the multilingual feature to curate and edit in Englis
 
 A topic in the tenant default language must be created before curating a topic using the multilingual feature in Viva Topics.
 
-   ![Screenshot showing Multilingual on the topic page.](../media/knowledge-management/ml-topic-page.png)
-
 ## Curate a multilingual topic page
 
-To edit a topic, opne the topic page from a topic highlight, and then selecting the multilingual button on the topic page. The topic page can also be opened from the topic enter home page where you can find all the topics you are connected to.
+To edit a topic, open the topic page from a topic highlight, and select the **multilingual** on the topic page. The topic page can also be opened from the topic enter home page where you can find all the topics you are connected to.
 
    ![Screenshot showing multilingual button on the topic page.](../media/knowledge-management/ml-topic-page-initial.png)
 
-1. Under the multilingual pael, find the desired language and select create.
+1. Under the multilingual pael, find the desired language and select **create**.
 
-   ![Screenshot showing multilingual panel from topic page.](../media/knowledge-management/ml-panel.png)
+   ![Screenshot showing multilingual panel from the topic page.](../media/knowledge-management/ml-panel.png)
 
 2. 
