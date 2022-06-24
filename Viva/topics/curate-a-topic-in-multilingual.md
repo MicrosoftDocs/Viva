@@ -27,9 +27,12 @@ A topic in the tenant default language must be created before curating a topic u
 
    ![Screenshot showing Multilingual on the topic page.](../media/knowledge-management/ml-topic-page.png)
 
-## H2 Curate a multilingual topic page
+## Curate a multilingual topic page
 
 To edit a topic, opne the topic page from a topic highlight, and then selecting the multilingual button on the topic page. The topic page can also be opened from the topic enter home page where you can find all the topics you are connected to.
 
    ![Screenshot showing multilingual button on the topic page.](../media/knowledge-management/ml-topic-page-initial.png)
 
+1. Under the multilingual pael, find the desired langiage and select create.
+
+   ![Screenshot showing multilingual panel from topic page.](../media/knowledge-management/ml-panel.png)
