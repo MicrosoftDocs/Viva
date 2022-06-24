@@ -74,3 +74,7 @@ To edit a topic, open the topic page from a topic highlight, and select the **mu
 
 ![Screenshot showing the publish the curated multilingual page.](../media/knowledge-management/ml-publish-page.png)
 
+## Select a curated multilingual topic page
+When a multilingual topic page has been curated and published in Viva Topics, you can access these pages from the topic's default language page by choosing the desired laguage on the top right menu of the topic page.
+
+![Screenshot showing the menu of languages to select a publish multilingual topic page.](../media/knowledge-management/ml-language-menu.png)
