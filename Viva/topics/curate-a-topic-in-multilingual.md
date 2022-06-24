@@ -16,4 +16,4 @@ description: Learn how to translate a topic using multilingual in Microsoft Viva
 
 ---
 
-# Curate an existing topic using multilingual in Microsoft Viva Topics 
+# Curate an existing topic using multilingual in Viva Topics 
