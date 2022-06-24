@@ -321,7 +321,7 @@ To create the Power Automate flows for nudging, perform the following steps:
    
        :::image type="content" source="../media/powerautomateimportmeetingsflo1c.png" alt-text="The page displaying the notification of the successful import of the package resources":::
 
-           If this import process fails, the page as shown in the following screenshot is displayed.
+       If this import process fails, the page as shown in the following screenshot is displayed.
 
            :::image type="content" source="../media/saveasnewflow.png" alt-text="The page containing the Save as new flow option":::
            
