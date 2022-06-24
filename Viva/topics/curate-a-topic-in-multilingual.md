@@ -31,8 +31,16 @@ To edit a topic, open the topic page from a topic highlight, and select the **mu
 
    ![Screenshot showing multilingual button on the topic page.](../media/knowledge-management/ml-topic-page-initial.png)
 
-1. Under the multilingual pael, find the desired language and select **create**.
+1. Under the multilingual panel, find the desired language and select **create**.
 
-   ![Screenshot showing multilingual panel from the topic page.](../media/knowledge-management/ml-panel.png)
+      ![Screenshot showing the multilingual panel from the topic page.](../media/knowledge-management/ml-panel.png)
 
-2. 
+2. The multilingual panel will confirm when the new multilingual page is created. Select view to open and edit the multilingual page.
+
+      ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-topic-page-initial.png)
+
+3. To edit the multilingual topic page, select **edit** on the top right of the multilingual topic page. Make sure you're in the correct topic page by looking at the notification banner that will appear on the top left of the page.
+
+      ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-panel-view-page.png)
+
+4. 
