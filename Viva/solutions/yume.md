@@ -243,6 +243,7 @@ To import the Yume application, perform the following steps:
    The app will appear in the **Apps** section of PowerApps.
 
    :::image type="content" source="../media/display-of-app-in-apps-section.png" alt-text="The Apps section in which the newly created app is displayed":::
+
     1. Select **OnStart** from the drop-down list.
     1. Change the value **cr1de** to the table prefix value noted during the Dataverse table creation earlier (in this example, the value is **cr627**)
 1. Select **Data** from the left navigation pane. The **Data** page is displayed.
@@ -308,7 +309,7 @@ To create the Power Automate flows for nudging, perform the following steps:
         1. Select the option **Select during import** for each of the two connections.
            The **Import setup** pane as shown in the following screenshot is displayed.
 
-            :::image type="content" source="../media/connection-display.png" alt-text="The Import setup pane on which the created connection is displayed":::
+           :::image type="content" source="../media/connection-display.png" alt-text="The Import setup pane on which the created connection is displayed":::
         1. Select the connection. On selecting it, the **Save** button is enabled, as shown in the following screenshot.
         
            :::image type="content" source="../media/saving-displayed-connection.png" alt-text="The option to Save the connection that is displayed":::
@@ -323,7 +324,7 @@ To create the Power Automate flows for nudging, perform the following steps:
 
        If this import process fails, the page as shown in the following screenshot is displayed.
 
-           :::image type="content" source="../media/saveasnewflow.png" alt-text="The page containing the Save as new flow option":::
+       :::image type="content" source="../media/saveasnewflow.png" alt-text="The page containing the Save as new flow option":::
            
     1. Select **Save as new flow**. The import process is completed successfully as shown in the following screenshot:
     
