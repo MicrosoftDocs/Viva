@@ -31,7 +31,7 @@ Your current Azure Templates have been using Workplace Analytics data that's bee
 
 ## Open Azure Cloud Shell
 
-Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview of Azure Cloud Shell](/azure/cloud-shell/overview).
+Log in to the Azure Portal, and open Azure Cloud Shell as described in [Overview of Azure Cloud Shell](/azure/cloud-shell/overview).
 
 >[!Note]
 >If this is your first time running Azure Cloud Shell, you will need to select the subscription storage before you are allowed to use Cloud Shell.
