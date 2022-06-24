@@ -281,51 +281,80 @@ To create the Power Automate flows for nudging, perform the following steps:
     
        :::image type="content" source="../media/powerautomateimportmeetingsflo1.png" alt-text="The Flows page from which the user can select the Import option":::
 
-    1. Select **Import** on the upper right of the page. The **Import package** page is displayed.
+    1. Select **Import**. The **Import package** page is displayed.
     
        :::image type="content" source="../media/powerautomateimportmeetingsflo1a.png" alt-text="The Import page":::
 
-    1.  Select **Upload** and select the package file to be uploaded.
+    1.  Select **Upload**. The file browser dialog box is displayed.
     
-        :::image type="content" source="../media/powerautomateimportmeetingsflo1a1.png" alt-text="The page on which you define the package and save it before it is imported":::
-    1.  Select the option **Select during import** from the **Setup** dropdown list.
+        :::image type="content" source="../media/powerautomateimportmeetingsflo1abrowse.png" alt-text="The dialog box displaying th files from which the user can select the one to upload":::
 
-      1. Select the package file that you want to import.
-      1. Select the resource types for Microsoft Dataverse Connection and Microsoft Teams Connection from the page shown in the following screenshot.
+    1. Select the file you want to upload, and select **Open**.
+    
+       The selected file is populated in the **Upload** box, and the upload process begins which is indicated by the button changing from **Upload** to **Uploading**.
+
+       :::image type="content" source="../media/uploading-process-commencement.png" alt-text="The page displaying the in-progress upload process":::
+
+       After a few minutes, the package is successfully uploaded, and the same is displayed on the **Import package** page.
+
+       :::image type="content" source="../media/page-containing-uploaded-package.png" alt-text="The page displaying the uploaded package":::
      
-         :::image type="content" source="../media/create-new-flow.png" alt-text="Creating a new flow":::
+    1. Select **Create as new**. The Import setup pane is displayed on the right side of the page, as shown in the following screenshot.
+    
+       :::image type="content" source="../media/powerautomateimportmeetingsflo1a1.png" alt-text="The page on which you define the package and save it before it is imported":::
+
+    1. Update the name as per discretion from the **Resource name** box, and select **Save**. You return to the **Import package** page, with the updated name displayed under the **Create as new** option.
+    1. Select the resource types for Microsoft Dataverse Connection and Microsoft Teams Connection by performing the following substeps:
+        1. Select the option **Select during import** for each of the two connections.
+           The **Import setup** pane as shown in the following screenshot is displayed.
+
+            :::image type="content" source="../media/connection-display.png" alt-text="The Import setup pane on which the created connection is displayed":::
+        1. Select the connection. On selecting it, the **Save** button is enabled, as shown in the following screenshot.
         
-       1. Select **Create as new**. The **Import setup** pane is displayed on the right side of the page.
+           :::image type="content" source="../media/saving-displayed-connection.png" alt-text="The option to Save the connection that is displayed":::
+
+        1. Select **Save**. You are taken back to the **Import package** page.
+
+           :::image type="content" source="../media/powerautomateimportmeetingsflo1b.png" alt-text="":::  
+
+    1. Select **Import**. Once the import process is completed successfully, a notification message is displayed as shown in the following screenshot.
         
-          :::image type="content" source="../media/import-setup-pane.png" alt-text="The Import setup pane":::
+           :::image type="content" source="../media/powerautomateimportmeetingsflo1c.png" alt-text="The page displaying the notification of the successful import of the package resources":::
 
-       1. Update the name as needed in the **Resource name** box, and select **Save**. You return to the Import wizard screen as shown below:
-       1. Select the option **Select during import** corresponding to the resource type **Microsoft Dataverse Connection** or **Microsoft Teams Connection**.
-       1. Make changes as needed, and select **Save**.
-       1. Select **Import**. 
-      
-          :::image type="content" source="../media/powerautomateimportmeetingsflow2.png" alt-text="The page with the Import button":::
+           If this import process fails, the page as shown in the following screenshot is displayed.
 
-          If an error is displayed, the page shown in the following screenshot is displayed.
-
-          :::image type="content" source="../media/notification-message-another-option.png" alt-text="Notification message of failure of import and providing another option":::
-       
-       1. Select **Save as new flow**. The import process gets completed successfully.
+           :::image type="content" source="../media/saveasnewflow.png" alt-text="The page containing the Save as new flow option":::
+           
+    1. Select **Save as new flow**. The import process is completed successfully as shown in the following screenshot:
+    
+       :::image type="content" source="../media/save-as-new-flow-import-completed.png" alt-text="Import completion using Save as new flow option":::
+         
+    1. Select **Open flow** to edit the flow-related information. The page as shown in the following screenshot is displayed:
+    
+       :::image type="content" source="../media/page-on-selecting-open-flow.png" alt-text="The page on selecting the Open flow option":::
        
     1. Update the **Initialize variable** page for dataprefix by performing the following substep:
         1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627** as shown in the following screenshot.
         
            :::image type="content" source="../media/initialize-variable-page.png" alt-text="Initialize variable page":::
 
-    1. Update the **Initial variable** page for Yume URL by performing the following substep:
+    1. Select **Initial variable** to update the **Initialize variable** page for dataprefix.
+        1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627** as shown in the following screenshot.
+        
+           :::image type="content" source="../media/initialize-variable-page.png" alt-text="The Initialize variable page":::
+
+    1. Select **Initial variable** to update the **Initialize variable** page for Yume URL.
         1. Populate the **Value** field with the value of the PowerApps Weblink URL for the Yume PowerApp.
     1. Update the frequency as needed (currently set to every 1 week on Sunday).
     1. Save the flow.
 1. Repeat the import process for the Tasks flow by performing the following substeps:
-    1. Update the **Initialize variable** page for dataprefix by performing the following substep:
-        1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627**.
-    1. Update the **Initial variable** page for Yume URL by performing the following substep:
-        1. Populate the **Value** field with the value of the PowerApps Weblink URL for Yume PowerApp.
+    1. Select **Initial variable** to update the **Initialize variable** page for dataprefix:
+        1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627** as shown in the following screenshot.
+        
+           :::image type="content" source="../media/initialize-variable-page.png" alt-text="Initialize variable page":::
+
+    1. Select **Initial variable** to update the **Initialize variable** page for Yume URL.
+        1. Populate the **Value** field with the value of the PowerApps Weblink URL for the Yume PowerApp.
     1. Update the frequency as needed (currently set to every 1 week on Sunday).
     1. Save the flow.
 
