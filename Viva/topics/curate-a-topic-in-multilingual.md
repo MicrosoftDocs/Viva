@@ -37,26 +37,39 @@ To edit a topic, open the topic page from a topic highlight, and select the **mu
 
 2. The multilingual panel will confirm when the new multilingual page is created. Select **view** to open and edit the multilingual page.
 
-     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-panel-view-page.png)
+     ![Screenshot showing the multilingual panel and the option to view the new languegage page.](../media/knowledge-management/ml-panel-view-page.png)
 
 3. To edit the multilingual topic page, select **edit** on the top right of the multilingual topic page.
 
-     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-page.png)
+     ![Screenshot showing the edit option in the multilingual topic page.](../media/knowledge-management/ml-edit-page.png)
 
      Make sure you're in the correct topic page by looking at the notification banner that will appear on the top left of the page.
 
-     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-french-topic-page.png)
+     ![Screenshot showing the notification banner confirming you're in the newly created multilingual page.](../media/knowledge-management/ml-french-topic-page.png)
 
 4. Confirm or edit the topic name on the multilingual topic page.
 
-     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-topic-name.png)
+     ![Screenshot showing the field to confirm or edit the topic name in the multilingual page.](../media/knowledge-management/ml-edit-topic-name.png)
 
 5. In the **context hint** section, add an hint relevant to the current topic in the selected language.
 
-     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-context-hint.png)
+     ![Screenshot showing the context hint editing field in the multilingual page.](../media/knowledge-management/ml-edit-context-hint.png)
 
 6. In the **alternative names** section, add other names for the topic in the selected language.
 
-     ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-alternate-names.png)
+     ![Screenshot showing the alternatve names editing field in the multilingual page.](../media/knowledge-management/ml-edit-alternate-names.png)
 
-     
+7. In the **short description** section, describe the topic in the selected language.
+
+     ![Screenshot showing the short description editing field in the multilingual page.](../media/knowledge-management/ml-edit-short-description.png)
+
+> [!Note] 
+> When editing the multilingual page, there are editing fields you can only edit in the default language topic page. Field available to edit in the default language topic page include:
+    - Confirmed people
+    - Pinned files and pages
+    - Related sites
+    - Related topics
+   To edit these fields, save or **publish** your changes on the multilingual topic page and visit the topic's default language page and continue [editing](./edit-a-topic.md) if needed.
+
+        ![Screenshot showing the multilingual page in the selected language has been created.](../media/knowledge-management/ml-edit-short-description.png)
+
