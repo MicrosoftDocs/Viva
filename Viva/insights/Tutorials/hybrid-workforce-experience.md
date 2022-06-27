@@ -132,7 +132,7 @@ After this initial prompt, you can then select **Settings** in the upper right o
   * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
   * Exclude weeks that are likely holiday weeks.
 
-To adjust the individual contributors and managers mappings, go to the bookmarks in the bottom-left of your screen. Underneath **Summary**, select **Intro_ON** to reopen the initial prompt.
+To adjust the individual contributors and managers mappings, navigate to **View > Bookmarks** in the ribbon. Underneath **Summary page**, select **Intro_ON** to reopen the initial prompt.
 
 ## Power BI tips, troubleshooting, and FAQs
 
