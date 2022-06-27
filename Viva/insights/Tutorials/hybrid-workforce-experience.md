@@ -67,7 +67,7 @@ For more details on how to add new data for existing employees, review the docum
 
 1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Hybrid workforce experience**, which takes you to required setup steps.
-    :::image type="complex" source="../images/wpa/tutorials/hwfe-select-hwfe-cropped.png" alt-text="Screenshot of Other templates window in Query designer; Hybrid workforce experience is highlighted" lightbox="../images/wpa/tutorials/hwfe-select-hwfe.png":::
+   :::image type="complex" source="../images/wpa/tutorials/hwfe-select-hwfe-cropped.png" alt-text="Screenshot of Other templates window in Query designer; Hybrid workforce experience is highlighted.":::
        Screenshot that shows the "Other templates" window within Query designer. On the left-hand pane, "Query designer" is highlighted beneath "Analyze." Beneath "Other templates," there are nine templates presented as cards. The last template card, "Hybrid workforce experience," is highlighted.  
     :::image-end:::
     In the second setup step, select **Set up** next to **Hybrid workforce experience** (if repeating this process per step 8 below, select **Strong and diverse ties**).
