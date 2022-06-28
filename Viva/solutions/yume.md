@@ -178,7 +178,7 @@ To create the Power Automate flows for nudging, perform the following steps:
     
        :::image type="content" source="../media/powerautomateimportmeetingsflo1a1.png" alt-text="The page on which you define the package and save it before it is imported":::
 
-    1. Update the name as per discretion from the **Resource name** box, and select **Save**. You return to the **Import package** page, with the updated name displayed under the **Create as new** option.
+    1. Update the name from the **Resource name** box, and select **Save**. You return to the **Import package** page, with the updated name displayed under the **Create as new** option.
     1. Select the resource types for **Microsoft Dataverse Connection** and **Microsoft Teams Connection** by performing the following substeps:
         1. Select the option **Select during import** for each of the two connections.
            The **Import setup** pane as shown in the following screenshot is displayed.
