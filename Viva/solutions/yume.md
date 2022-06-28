@@ -31,8 +31,8 @@ Yume is an employee-driven solution to support 1:1 interaction between employees
 To set up Yume, perform the following steps:
 
 - [Download the Yume accelerator](#download-the-yume-accelerator)
-- [Create an Azure AD Application registration](#create-an-azure-ad-application-registration)
-- [Import the PowerApps Custom Connector](#powerapps-custom-connect-import)
+- [Create an Azure AD Application registration](#create-an-azure-active-directory-azure-ad-application-registration)
+- [Import the PowerApps Custom Connector](#powerapps-custom-connector-import)
 - [Create Dataverse tables](#create-dataverse-tables) and [permissions](#create-dataverse-permissions)
 - [Import the Yume application](#import-the-yume-application)
 
