@@ -67,7 +67,7 @@ For more details on how to add new data for existing employees, review the docum
 
 1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Hybrid workforce experience**, which takes you to required setup steps.
-    :::image type="complex" source="../images/wpa/tutorials/hwfe-select-hwfe-cropped.png" alt-text="Screenshot of Other templates window in Query designer; Hybrid workforce experience is highlighted" lightbox="../images/wpa/tutorials/hwfe-select-hwfe.png":::
+   :::image type="complex" source="../images/wpa/tutorials/hwfe-select-hwfe-cropped.png" alt-text="Screenshot of Other templates window in Query designer; Hybrid workforce experience is highlighted.":::
        Screenshot that shows the "Other templates" window within Query designer. On the left-hand pane, "Query designer" is highlighted beneath "Analyze." Beneath "Other templates," there are nine templates presented as cards. The last template card, "Hybrid workforce experience," is highlighted.  
     :::image-end:::
     In the second setup step, select **Set up** next to **Hybrid workforce experience** (if repeating this process per step 8 below, select **Strong and diverse ties**).
@@ -92,7 +92,7 @@ For more details on how to add new data for existing employees, review the docum
     1. Set the **Minimum group size** for data aggregation within this dashboard's visualizations in accordance with your company's policy for viewing data.
     1. Select **Load** to import the query results into Power BI. Loading these large files might take between a few minutes and a few hours to complete.
     :::image type="complex" source="../images/wpa/tutorials/hwfe-edit-parameters.png" alt-text="Screenshot of Edit Parameters window in Power BI":::
-       Screenshot that shows the "Edit Parameters" window within Power BI. Each part of the image is labeled with the sub-step above to which it corresponds, "b" - "f". The first two sections, "Hybrid work person query file path" and "Hybrid work person-to-person query file path," are highlighted and labeled "b." Beneath each section header is an editable field that contains a file path to a .csv file; the first field, for the Person query, contains a path to a HybridWorkforceExp.csv file and the second field, for the Person-to-person query, contains a path to a StrongAndDiverseTies.csv file. The next field is titled, "Number of onsite days," has a "c" label to its right, and its editable field contains the text, "OnsiteDays." The next field is titled, "SupervisorIndicator," has a "d" label to its right, and its editable field contains the text, "SupervisorIndicator." The second-to-last field is titled, "Hire date," has an "e" label to its right, and its editable field contains the text, "HireDate." The last field is titled, "Minimum group size," has an "f" label to its right, and its editable field contains "5" selected from a dropdown menu.  
+       Screenshot that shows the "Edit Parameters" window within Power BI. Each part of the image is labeled with the sub-step above to which it corresponds, "b" - "f". The first two sections, "Hybrid workforce experience query path" and "Strong and diverse ties query path," are highlighted and labeled "b." Beneath each section header is an editable field that contains a file path. The next field is titled, "OnsiteDays," has a "c" label to its right, and its editable field contains the text, "OnsiteDays." The next field is titled, "SupervisorIndicator," has a "d" label to its right, and its editable field contains the text, "SupervisorIndicators." The second-to-last field is titled, "Hire date," has an "e" label to its right, and its editable field contains the text, "HireDate." The last field is titled, "Minimum group size," has an "f" label to its right, and its editable field contains "5" selected from a dropdown menu.  
     :::image-end:::
 
 1. If you're already signed in to Power BI with your organizational account, the dashboard visualizations will populate with your data. At this point, you’ve completed the setup process and can skip to [Customize the dashboard](#customize-the-dashboard).
@@ -119,11 +119,11 @@ After the **Workforce experience** dashboard is set up and populated with Viva I
 * **Individual contributor** – Select the attribute values that identify employees as individual contributors who do not manage people within your organization.
 * **Manager indicator** – Select the attribute values that identify managers who manage people within your organization, like **Mgr** and **Mgr+**.
 
-    :::image type="complex" source="../images/wpa/tutorials/hwfe-a-couple-of-questions-cropped.png" alt-text="Screenshot of pop-up window in Power BI prompting users to assign onsite days to attributes and values to Individual contributors and Managers":::
-       Screenshot that shows a pop-up window in Power BI, titled "A couple of questions to get you started..." There are two sections; the first section is titled, "Select which of your onsite days values best map to the following 'work mode' definitions" and the second section is titled "Select which values identify individual contributors, managers and managers of managers," which is parenthetically defined as "Manager" with a plus icon--"Manager-plus." In the first section, there are three fields, and each contain a dropdown menu to their right: "Mostly onsite," which shows "5" in the dropdown menu, "Hybrid," which shows "1,2,3,4" in the dropdown menu, and "Mostly remote," which shows "0" in the dropdown menu. In the second section, there are two fields, and each also contain a dropdown menu to their right: "Individual contributors," which shows "IC" in the dropdown menu, and "Managers," which shows "Multiple selections" in the dropdown menu.
+    :::image type="complex" source="../images/wpa/tutorials/hwfe-a-couple-of-questions.png" alt-text="Screenshot of pop-up window in Power BI prompting users to assign onsite days to attributes and values to Individual contributors and Managers":::
+       Screenshot that shows a pop-up window in Power BI, titled "A couple of questions to get you started..." There are two sections; the first section is titled, "Customize work mode definitions" and the second section is titled, "Select which values identify individual contributor and managers. In the first section, there is a slider with values 0 and 5. Beneath those values are a "Mostly remote: <1.1" label to the left, a "Hybrid: 1.1-3" label in the middle, and a "Mostly onsite: >3" label on the right. The slider is between "Mostly remote" and "Mostly onsite"; a value on its left is "3.1."  In the second section, there are two fields, and each also contain a dropdown menu to their right: "Individual contributors," which shows "All" in the dropdown menu, and "Managers," which also shows "All" in the dropdown menu.
     :::image-end:::
 
-After this initial prompt, you can then select **Settings** in the upper right of any page to view and change the following attribute values:
+After this initial prompt, you can then select **Settings** in the upper right of any page to adjust the work mode mappings and view and change the following attribute values:
 
 * **Select the time period for the dashboard** – Select the time period for which you want to view data in the dashboard.
 * **Select an attribute to group data by** – Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all reportages will show group values by the new attribute.
@@ -131,6 +131,8 @@ After this initial prompt, you can then select **Settings** in the upper right o
 * Exclusions – Use the check boxes to:
   * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
   * Exclude weeks that are likely holiday weeks.
+
+To adjust the individual contributors and managers mappings, navigate to **View > Bookmarks** in the ribbon. Underneath **Summary page**, select **Intro_ON** to reopen the initial prompt.
 
 ## Power BI tips, troubleshooting, and FAQs
 
