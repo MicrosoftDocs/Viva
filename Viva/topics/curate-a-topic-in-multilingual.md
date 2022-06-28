@@ -64,6 +64,7 @@ To edit a topic, open the topic page from a topic highlight, and select the **mu
 
      ![Screenshot showing the short description editing field in the multilingual page.](../media/knowledge-management/ml-edit-short-description.png)
 
+
 > [!Note] 
 > When editing the multilingual page, there are editing fields you can only edit in the default language topic page. Field available to edit in the default language topic page include:
     - Confirmed people
@@ -71,6 +72,7 @@ To edit a topic, open the topic page from a topic highlight, and select the **mu
     - Related sites
     - Related topics
    To edit these fields, save or **publish** your changes on the multilingual topic page and visit the topic's default language page and continue [editing](./edit-a-topic.md) if needed.
+
 
 ![Screenshot showing the publish the curated multilingual page.](../media/knowledge-management/ml-publish-page.png)
 
