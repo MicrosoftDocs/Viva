@@ -210,7 +210,7 @@ To create the Power Automate flows for nudging, perform the following steps:
        
     1. Update the **Initialize variable** page for dataprefix by populating the **Value** field with the value of the Dataverse table created earlier, for example, **cr627** as shown in the following screenshot.
         
-           :::image type="content" source="../media/initialize-variable-page.png" alt-text="Initialize variable page":::
+       :::image type="content" source="../media/initialize-variable-page.png" alt-text="Initialize variable page":::
 
     1. Select **Initial variable** to update the **Initialize variable** page for dataprefix.
         1. Populate the **Value** field with the value of the Dataverse table created earlier, for example, **cr627** as shown in the following screenshot.
