@@ -67,9 +67,10 @@ Learn more about how to use and implement Viva Goals in your organization to hel
 |If you are looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn how to create OKRs     |[Create OKRs](/viva/goals/creating-okrs)         |
-|Learn how to check-in with OKRs| [Check-in and track progress on OKRs](/viva/goals/check-ins-and-progress-status)        |
+|Learn how to check-in with OKRs| [Check-in and track progress on OKRs](/viva/goals/okr-check-ins)        |
+|Learn how to track OKR progress  |[Track OKR progress](/viva/goals/track-okr-progress-status)    |   
 |Learn how to score and close OKRs|[Close and score OKRs](/viva/goals/closing-and-scoring)       |
-|   |         |
+
 
 ## Product features 
 
@@ -80,5 +81,5 @@ The resources in this section help your users learn how to use and manage Viva G
 |Learn how to use review dashboards     |[Review dashboard](/viva/goals/review-dashboard)         |
 |Learn how to use projects|[Projects](/viva/goals/projects)         |
 |Learn how to integrate your other tools| [Viva Goals integrations overview](/viva/goals/integrations-overview)        |
-|   |         |
+
 
