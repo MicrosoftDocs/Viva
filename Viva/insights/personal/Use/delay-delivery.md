@@ -97,4 +97,4 @@ After you opt out of the Delay delivery plan, you can delay up to two email deli
 
 Watch this video to take a closer look at Delay delivery experiences in Outlook.
 
-<br><<iframe src="https://player.vimeo.com/video/725822960?h=59923f2d8d" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/725822960?h=59923f2d8d" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
