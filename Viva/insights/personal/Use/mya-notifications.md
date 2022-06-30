@@ -175,7 +175,7 @@ Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also
 
 ## Track email open rate
 
-_**Applies to**: This insight is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
+_**Applies to**: This insight is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments#additional-features.md)._
 
 While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email.
 
@@ -187,7 +187,7 @@ Select **See more insights** to see how many people have opened or forwarded you
 
 ## Track email
 
-_**Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
+_**Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md#additional-features)._
 
 When composing an email to more than five recipients, you might see a suggestion that reads "Insights can track the email."
 
