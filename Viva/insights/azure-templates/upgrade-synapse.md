@@ -31,56 +31,66 @@ Your current Azure Templates have been using Workplace Analytics data that's bee
 
 ## Open Azure Cloud Shell
 
-Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview of Azure Cloud Shell](/azure/cloud-shell/overview).
+Log in to the Azure Portal, and open Azure Cloud Shell as described in [Overview of Azure Cloud Shell](/azure/cloud-shell/overview).
 
 >[!Note]
 >If this is your first time running Azure Cloud Shell, you will need to select the subscription storage before you are allowed to use Cloud Shell.
 
 ## Download the scripts
 
-1. To format the **SAS URL** for the download, open Windows Notepad, and then copy and paste the following:
+1. Download the SasToken.zip file that was emailed to you by your Microsoft Representative.
+1. Unzip the SasToken.zip file to access its contents: SasToken.txt.
+1. Open the SasToken.txt file using Notepad or preferred text editor.
+1. Copy the full first line beginning with $sasUri. Below is an example value, but please use the value that was provided to you by your Microsoft representative:
 
-   ```azure-cli
-   $sasUri = "https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip"
-   ```
+    `$sasUri = “https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”`
 
-   And then add the **SAS Token** between **zip?** and **"** (the closing double quotes), as shown in the following example URL:
+1. Paste the full value, beginning with $sasUri and ending after the second quotation marks, into the Cloud Shell command line, and then press **Enter**.
+1. Return to the SasToken.txt file in Notepad, and copy the second value beginning with $sasUriParams. Below is an example value, but please use the value that was provided to you by your Microsoft representative:
 
-   ```“https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”```
-
-1. Copy the full **SAS URL**, including your **SAS Token** (as described in the previous step), paste it in the Cloud Shell command line, and then press **Enter**.
+    ``$sasUriParams = “https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/UpdateParams.ps1?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”``
+1. Paste the full value, beginning with $sasUriParams and ending after the second quotation marks, into the Cloud Shell command line, and then press **Enter**.
 1. In the Cloud Shell command line, run the following to download the Scripts .zip file:
 
-   ```azure-cli
-   Invoke-WebRequest -Uri $sasuri -outfile ./aztScriptsCloudShell.zip
-   ```
+    ```azure-cli
+    Invoke-WebRequest -Uri $sasUri -outfile ./aztScriptsCloudShell.zip
+    ```
 
-   >[!Note]
-   >If successful, you won't see any output. However, if errors do occur, you'll see them as output.
+1.	Run the following to unzip the Scripts Archive:
+    ```azure-cli
+       Expand-Archive -LiteralPath ./aztScriptsCloudShell.zip -DestinationPath ./ -Force
+    ```
 
-1. Run the following to unzip the Scripts Archive:
+1.	Run ``dir`` to list the directories in the current folder, and confirm that the **AztScripts_20211011** directory is listed:
 
-   ```azure-cli
-   Expand-Archive -LiteralPath ./aztScriptsCloudShell.zip -DestinationPath ./ -Force
-   ```
+    ![AztScripts directory example.](images/directory-example.png)
 
-1. Run ```dir``` to list the directories in the current folder, and confirm that the **AztScripts_20211011** directory is listed:
+1. To set up the Params file, run the following to copy the template-all-param.txt file that you just downloaded and rename it to azt-param.txt, which will later be used by UpdateParams.ps1:
 
-   ![AztScripts directory example.](images/directory-example.png)
+    ```azure-cli
+       Copy-Item ./AztScripts_20211011/template-all-param.txt ./AztScripts_20211011/azt-param.txt
+    ```
 
-1. To set up the Params file, run the following to copy the **template-all-param.txt** file that you just downloaded and rename it to **azt-param.txt**, which you can then edit to use in the script:
+1. Run the following command to access the UpdateParams.ps1 script:
+    ```azure-cli
+    Invoke-WebRequest -Uri $sasUriParams -outfile ./UpdateParams.ps1
+    ```
+13. Run the following command to create a copy of this file within the AztScripts_20211011 directory, where modifications will be made:
 
-   ```azure-cli
-   Copy-Item ./AztScripts_20211011/template-all-param.txt ./AztScripts_20211011/azt-param.txt
-   ```
+    ```azure-cli
+    copy ./UpdateParams.ps1 ./AztScripts_20211011
+    ```
 
-1. Select the **editor** (**{}**) icon to open the [Cloud Shell editor](/azure/cloud-shell/using-cloud-shell-editor#opening-the-editor), and then open the **azt-param.txt** file.
-1. In the left pane, expand the **AztScripts_20211011** file folder, and then locate and open the **azt-param.txt** file.
+1. Select the editor ({}) icon to open the [Cloud Shell](/azure/cloud-shell/using-cloud-shell-editor#opening-the-editor) editor.
+1. In the left pane, expand the **AztScripts_20211011** file folder, and then locate and open the UpdateParams.ps1 file:
+
+     ![UpdateParams file.](images/update-params.png)
+
 1. You'll need to enter the parameters that are specific to your environment, as described in the following section before you can complete the upgrade.
 
 ## Script parameters
 
-The following describes what you must enter within each section of the **azt-param.txt** file for this upgrade process.
+The following describes what you must enter within each section of the **UpdateParams.ps1** file for this upgrade process.
 
 ### SQL Server
 
@@ -133,7 +143,7 @@ The following is shown in the App Registration UI in Azure for your current Azur
 ### Source storage
 
 * **src_storageAccount**: The container that you downloaded in the zip file with a value of **wpaappsprodtest1**.
-* **src_sasToken**: The token you got from Microsoft in an email in the first step in [Download the scripts](#download-the-scripts).
+* **src_sasToken**: Return to the **SasToken.txt** file open in Notepad, and copy the last line of the file beginning with “?sv= and ending with the closing quotation marks. When you place this value into the **UpdateParams.ps1** file, be sure to only include one set of starting and ending quotation marks.
 
 ### Linkage account details
 
@@ -143,17 +153,23 @@ The following is shown in the App Registration UI in Azure for your current Azur
 * **synapse_executor_size**: This must not exceed the synapse_node_size parameter or an *exception error* will occur. The default value is **Small**.
 
 >[!Important]
->Be sure to save the **azt-param.txt** file after entering the required parameters described in this section. If the **synapse_executor_size** is set larger than the **synapse_node_size**, it'll cause an *exception error*.
+>Be sure to save the **UpdateParams.ps1** file after entering the required parameters described in this section. If the **synapse_executor_size** is set larger than the **synapse_node_size**, it'll cause an *exception error*.
 
 ## Run the scripts
 
-After you've entered the correct parameters in the **azt-param.txt** file, you can run the scripts.
+After you've entered the correct parameters in the **UpdateParams.ps1** file, you can run the scripts.
 
 1. In Cloud Shell, run the following to open the folder:
 
    ```azure-cli
    cd ./AztScripts_20211011
    ```
+
+1. Run the following to use the parameters completed in the previous section:
+
+    ```azure-cliCopy
+    ./UpdateParams.ps1
+    ```
 
 1. Run the following to create the Synapse workspace with permissions and a Spark pool cluster, which then links a Gen2 storage account to them:
 
