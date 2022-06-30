@@ -118,7 +118,7 @@ productDirectory:
 
     # Card
     - title: Solutions for your business
-      imageSrc: https:/docs.microsoft.com/office/media/icons/lightbulb-idea-capture-blue.svg
+      imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-blue.svg
       links:
         - url: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
           text: Get started with Microsoft Viva
