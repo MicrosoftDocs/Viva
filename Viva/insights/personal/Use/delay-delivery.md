@@ -16,7 +16,7 @@ audience: user
 
 # Delay delivery plan
 
-_**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights and are enrolled in an applicable [Personal insights service plan](../overview/plans-environments.md)._
+_**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights and are enrolled in an applicable [Personal insights service plan](../overview/plans-environments.md#additional-features)._
 
 When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions for the following scenarios:
 
