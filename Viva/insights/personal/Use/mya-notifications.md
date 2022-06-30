@@ -163,7 +163,7 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 ## Shorten a meeting
 
-_**Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
+***Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md#additional-features).*
 
 When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time.
 
@@ -175,7 +175,7 @@ Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also
 
 ## Track email open rate
 
-_**Applies to**: This insight is currently available only to people who are enrolled in an applicable [service plan](/Viva/insights/personal/Overview/plans-environments.md#additional-features)
+***Applies to**: This insight is currently available only to people who are enrolled in an applicable [service plan](/Viva/insights/personal/Overview/plans-environments.md#additional-features)*
 
 While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email.
 
