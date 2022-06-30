@@ -32,7 +32,12 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 ## Admin tasks
 
-For access to **My organization**, your admin must assign you the role of _Analyst (Limited)_ for the advanced insights app. Refer your admin to [Assign roles](../setup/assign-roles-to-wpa-admins.md) for details.
+For access to **My organization**, your admin must assign you at least one of the following roles:
+
+* _Insights Business Leader_ - this can be assigned in Azure AD > Roles and Administrators.   
+* _Global Reader_ - this can be assigned in Azure AD > Roles and Administrators.     
+
+Refer your admin to [Assign roles](../setup/assign-roles-to-wpa-admins.md) for details.
 
 Ask your admin also needs to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
