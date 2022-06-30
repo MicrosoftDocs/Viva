@@ -118,7 +118,7 @@ productDirectory:
 
     # Card
     - title: Solutions for your business
-      
+      imageSrc: /media/viva-learn2.png
       links:
         - url: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
           text: Get started with Microsoft Viva
