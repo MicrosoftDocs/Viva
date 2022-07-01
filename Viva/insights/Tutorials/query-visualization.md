@@ -27,13 +27,13 @@ After you create and run a Person query, you can view its results (in the form o
 In addition to these capabilities, you can also export results to a data visualization tool, such as [Power BI](../use/view-download-and-export-query-results.md). 
 
 >[!Note]
->Your query results might indicate groups of employees that could benefit from a targeted [change plan](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. For more information, see [Optionally create a plan](#optionally-create-a-plan).
+>Your query results might indicate groups of employees that could benefit from a targeted [change plan](solutionsv2-intro.md). You can create such a plan by starting with the query results display. For more information, see [Optionally create a plan](#optionally-create-a-plan).
 
 ## Run a query and view results
 
 **Role** - Analyst
 
-1. Open [the advanced insights app](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials.
 2. In **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 3. Select **Person query**, and then define and run it. For details, see [Person queries](person-queries.md).
 4. After the results are ready, go to **Query designer** > **Results**.

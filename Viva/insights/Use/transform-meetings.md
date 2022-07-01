@@ -52,9 +52,9 @@ You can select **See your insights** to see ways you can drive change or transfo
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Optimize meeting hours |Reduce meeting hours |[Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) |
-  |Examine recurring meetings |Reinvent the recurring meeting |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
-  |Promote healthy meeting habits |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
+  |Optimize meeting hours |Reduce meeting hours |[Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Home/Agility/MeetingsOverview))|
+  |Examine recurring meetings |Reinvent the recurring meeting |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork))|
+  |Promote healthy meeting habits |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork))|
 
 * **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.

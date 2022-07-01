@@ -75,7 +75,7 @@ Do the following to assign roles to users in Azure Active Directory (AD) for Mic
     * To add another role to the _same_ user, repeat steps 11-14.
     * To add roles to _other_ users, repeat steps 7-14.
 
-It might take up to 24 hours for changes to be saved in the system. The user can now sign in to [the advanced insights app](https://workplaceanalytics.office.com) with their new role and its corresponding access permissions.
+It might take up to 24 hours for changes to be saved in the system. The user can now sign in to [the advanced insights app](https://workplaceanalytics.office.com)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)) with their new role and its corresponding access permissions.
 
 ## Assign roles to groups
 

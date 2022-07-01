@@ -48,7 +48,7 @@ This uses sample data that is only representative of the dashboard and might not
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiYWNlOTU0YjAtMjNkOC00OTQ2LTkwY2UtNzQ1ZDQ5YWZkYmJjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
-To find the template for the Power BI Teams Insights dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
+To find the template for the Power BI Teams Insights dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Analyze/QueryDesigner/NewQuery)). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 
 ## Prerequisites  
 
@@ -63,7 +63,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 >[!Note]
 >This dashboard supports the [same languages](../overview/supported-languages.md#supported-languages) that Viva Insights supports.
 
-1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Microsoft Teams insights** to see the required setup steps, and then in step 2, select **Set up** next to **Microsoft Teams insights** (or select **Influence insights**, per **Step 7**).
 3. When prompted, select or confirm the following settings:
 

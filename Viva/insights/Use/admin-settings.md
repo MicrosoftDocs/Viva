@@ -28,7 +28,7 @@ As the Microsoft Viva Insights Administrator, you can use **Leader & manager set
 
 ## To access the settings
 
-1. Open [the app](https://workplaceanalytics.office.com). If prompted, enter your admin credentials.
+1. Open [the app](https://workplaceanalytics.office.com)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, enter your admin credentials.
 2. In the left navigation pane, select **Leader & manager settings**.
 
 ## Related topic

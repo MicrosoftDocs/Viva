@@ -36,7 +36,7 @@ Complete the following tasks to create and run a seller success plan:
 
 ### Create the plan
 
-1. Open [the advanced insights app](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, sign in with your work account.
 2. Select **Plans**, and then for **Seller success**, select **Start now**.
 
     ![Plans main page.](../images/wpa/tutorials/solutions-main-page-w-highlight.png)

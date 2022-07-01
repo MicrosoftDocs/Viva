@@ -23,7 +23,7 @@ audience: Admin
 
 ## Access to Management and coaching
 
-**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) to view it in Advanced insights.
+**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)) to view it in Advanced insights.
 
 ## Time with manager
 

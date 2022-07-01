@@ -36,7 +36,8 @@ For example, to see **Meetings overview** data in Viva Insights:
 
 * Select **Home** > **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats** in **Try shorter and smaller meetings**
 
-* Open [Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview)
+* Open [Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Home/Agility/MeetingsOverview))
+
 
 ## Video: Learn about Explore the stats
 

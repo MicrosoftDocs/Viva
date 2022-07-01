@@ -42,7 +42,8 @@ The results of analyses are always presented in aggregate form. No individual's 
 
 ## Start an analysis
 
-1. Open [Peer analysis](https://workplaceanalytics.office.com/Analyze/PeerAnalysis). If prompted, enter your work credentials.
+1. Open [Peer analysis](https://workplaceanalytics.office.com/Analyze/PeerAnalysis)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/Analyze/PeerAnalysis))
+. If prompted, enter your work credentials.
 1. **Peer analysis** shows a table of analysis that's been started or completed.
 
     ![New analysis.](../images/wpa/use/explore-peer-analysis.png)

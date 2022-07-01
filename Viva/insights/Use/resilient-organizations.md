@@ -58,11 +58,11 @@ You can select **See your insights** to see ways you can enhance organizational 
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Protect employee wellbeing | Help employees disconnect | [Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)|  
-  |Practice empathy | Increase frequency of coaching | [Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) |
-  |Free up capacity | Reduce meeting hours | [Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)|
-  |Accelerate decision making | Empower employees to make decisions |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)
-  |Strengthen team connections |Spend more time with important collaborators |[Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks) |  
+  |Protect employee wellbeing | Help employees disconnect | [Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork))|  
+  |Practice empathy | Increase frequency of coaching | [Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)) |
+  |Free up capacity | Reduce meeting hours | [Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork))|
+  |Accelerate decision making | Empower employees to make decisions |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork))
+  |Strengthen team connections |Spend more time with important collaborators |[Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks)if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Home/ChangeManagement/InternalNetworks)) |  
 
 * **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can create for one or more of the recommendations.
