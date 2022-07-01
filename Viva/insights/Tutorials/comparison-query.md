@@ -29,7 +29,7 @@ Although peer comparison queries focus on people, they produce different informa
 
 **To create a peer comparison query**
 
-1. Open [Viva Insights](https://workplaceanalytics.office.com). If prompted, sign in with your work account.
+1. Open [Viva Insights](https://workplaceanalytics.office.com)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, sign in with your work account.
 2. Select **Analyze** > **Query designer**.
 3. In **Query designer**, select **Get started** under **Query**, and then select **Peer comparison**.
 4. Name the query and, optionally, add a description for it.

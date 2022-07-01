@@ -48,7 +48,7 @@ As an analyst, you can work with meeting exclusion rules in the following ways:
 
 You can view existing meeting exclusion rules or create new ones in **Analyst settings**. **Meeting exclusions** shows all the rules that you or other analysts have created and published, and rules that people have started to define and then saved in draft form.
 
-1. Open [Viva Insights](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
+1. Open [Viva Insights](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials.
 
 2. In **Analyst settings** > **Meeting exclusions**, select **Active** to list the active rules, which includes the following:
 
@@ -79,7 +79,7 @@ Viva Insights steps you through the creation of a customized meeting exclusion r
 
 In this task, you open the meeting exclusions page and name the rule that you will create.  
 
-1. Open [Viva Insights](https://workplaceanalytics.office.com/). If prompted, enter your organization credentials.
+1. Open [Viva Insights](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, enter your organization credentials.
 
 2. In **Analyst settings**, select **Add exclusion rule**.
 

@@ -43,7 +43,7 @@ Although the Microsoft 365 admin and the Viva Insights Administrator do most of 
 >[!Note]
 >If you need to set up a test environment for regulatory or compliance reasons, follow [these recommendations](#test-setup-recommendations).
 
-1. **[Open the app](https://workplaceanalytics.office.com)**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
+1. **[Open the app](https://workplaceanalytics.office.com)**(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
 
       ![The Home page guides you through setup.](../images/wpa/setup/analyst-setup.png)
   
