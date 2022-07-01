@@ -66,7 +66,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 * Use [personal wellbeing insights](/viva/insights/personal/use/wellbeing) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
 * Utilize [Inline suggestions in Outlook](/viva/insights/personal/Use/mya-notifications#delay-delivery) to automatically delay email delivery to align with configured working hours of coworkers.
-* Use [Teams Together mode](/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
+* Use [Teams Together mode](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
 
 For more best practices and ways to protect employees' after hours, see [Best practices for wellbeing](/viva/insights/tutorials/gm-wellbeing).
 
@@ -76,7 +76,7 @@ During periods of disruption, managers play a critical role in helping employees
 
 According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is." Ways to keep employees engaged:
 
-* Use [Viva Insights](/viva/insights/personal/overview/privacy-guide#assistance-for-people-managers) to automatically schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
+* Use [Viva Insights](/viva/insights/privacy/privacy-and-data-access) to automatically schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
 * Require managers to meet with direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
 
 For more best practices and ways to establish better manager-team connections, see [Best practices for manager coaching](/viva/insights/tutorials/gm-coaching).
