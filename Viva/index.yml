@@ -115,3 +115,17 @@ productDirectory:
           text: Learning path - OKR leadership program
         - url: https://go.microsoft.com/fwlink/?linkid=2193540
           text: End user help & training
+
+    # Card
+    - title: Solutions for your business
+      imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-blue.svg
+      links:
+        - url: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
+          text: Get started with Microsoft Viva
+        - url: /viva/solutions/viva-for-the-hybrid-workplace
+          text: Use Microsoft Viva in the hybrid workplace
+        - url: /viva/solutions/introduction
+          text: Solve common business problems with accelerators
+        - url: /viva/solutions/incorporate-learning
+          text: Incorporate learning into your organization
+
