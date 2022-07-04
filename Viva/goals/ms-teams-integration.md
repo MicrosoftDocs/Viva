@@ -32,3 +32,8 @@ Our quick and easy integration enables users to add, update, and manage OKRs wit
 - <a href="https://docs.microsoft.com/viva/goals/configure-ms-teams-integration">Add the Viva Goals app in MS Teams</a>
 - <a href="https://docs.microsoft.com/viva/goals/use-ms-teams-integration">Use Viva Goals in MS Teams</a>
 - <a href="https://docs.microsoft.com/viva/goals/ms-teams-messaging-integration">Share OKR updates in chats</a>
+
+## Requirements
+
+- You will be required to purchase Viva Goals licenses for your the users in your organization.
+- Sign in to your Viva Goals account and create an Organization.
