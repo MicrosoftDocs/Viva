@@ -88,7 +88,7 @@ items:
     - name: MS Teams
       items:
         - name: Collaborate with Viva Goals in MS Teams
-          href: collaborate-with-ms-teams.md
+          href: ms-teams-integration.md
         - name: Add the Viva Goals app to MS Teams
           href: configure-ms-teams-integration.md
         - name: Use Viva Goals in Microsoft Teams
