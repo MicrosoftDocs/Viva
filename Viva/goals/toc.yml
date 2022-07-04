@@ -86,7 +86,15 @@ items:
     - name: Viva Goals Integrations Overview
       href: integrations-overview.md
     - name: MS Teams
-      href: ms-teams-integration.md
+      items:
+        - name: Collaborate with Viva Goals in MS Teams
+          href: collaborate-with-ms-teams.md
+        - name: Add the Viva Goals app to MS Teams
+          href: configure-ms-teams-integration.md
+        - name: Use Viva Goals in Microsoft Teams
+          href: use-ms-teams-integration.md
+        - name: Share OKR updates in chats
+          href: ms-teams-messaging-extension.md
     - name: Azure DevOps integration (ADO)
       href: azure-devops-integration.md
     - name: Viva Goals Integrations
