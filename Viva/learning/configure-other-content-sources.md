@@ -41,6 +41,7 @@ Third-party content sources are not enabled by default. To enable these sources,
 |Go1     |[Configure Go1 as a content source](configure-go1-content-source.md)         |
 |OpenSesame    |[Configure OpenSesame as a content source](configure-opensesame-content-source.md)    |
 |Skillsoft     |[Configure Skillsoft as a content source](configure-skillsoft-content-source.md)         |
+|Udacity    |[Configure Udacity as a content source](configure-udacity-content-source.md)    |
 |Udemy   |[Configure Udemy as a content source](configure-udemy-content-source.md)         |
 |Coursera    |Follow the steps below to add Coursera in your Microsoft 365 admin center.    |
 |edX    |Follow the steps below to add edX in your Microsoft 365 admin center.    |
