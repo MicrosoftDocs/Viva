@@ -62,7 +62,7 @@ For more details on how to add new data for existing employees, review the docum
 >[!NOTE]
 > This dashboard is currently only available in English and only works with data generated from the English version of the app. Before completing the following steps, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/...
 
-1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Hybrid workforce experience**, which takes you to required setup steps.
    :::image type="complex" source="../images/wpa/tutorials/hwfe-select-hwfe-cropped.png" alt-text="Screenshot of Other templates window in Query designer; Hybrid workforce experience is highlighted.":::
        Screenshot that shows the "Other templates" window within Query designer. On the left-hand pane, "Query designer" is highlighted beneath "Analyze." Beneath "Other templates," there are nine templates presented as cards. The last template card, "Hybrid workforce experience," is highlighted.  
