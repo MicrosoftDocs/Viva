@@ -73,7 +73,7 @@ Most organizations want to pin the Viva Connections app to the top of the Teams 
 5. In the second box, search for the Viva Connections app you enabled with the name you gave it, for example, Intranet.
 6. Select **Add** next to the app name and then **Add** at the bottom of the panel.
 7. Use the two horizontal lines next to the app to drag it to the top of the app list.
-8. Click **Save** at the bottom of the page
+8. Select **Save** at the bottom of the page.
 
 If your needs are different, [learn more about Teams app setup policies](/MicrosoftTeams/teams-app-setup-policies).
 
