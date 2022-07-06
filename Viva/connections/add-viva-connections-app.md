@@ -75,7 +75,7 @@ Most organizations want to pin the Viva Connections app to the top of the Teams 
 7. Use the two horizontal lines next to the app to drag it to the top of the app list
 8. Click **Save** at the bottom of the page
 
-If your needs are different, [learn more about Teams app set up policies](/MicrosoftTeams/teams-app-setup-policies).
+If your needs are different, [learn more about Teams app setup policies](/MicrosoftTeams/teams-app-setup-policies).
 
 Optionally (but highly recommended) set app permissions policies to determine which users have access to the app. [Learn more about Teams permission policies](/microsoftteams/teams-app-permission-policies).
 
