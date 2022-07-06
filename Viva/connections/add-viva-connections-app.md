@@ -64,7 +64,7 @@ After you have [prepared your intranet for Viva Connections](guide-to-setting-up
 
 ## Then, customize the app settings
 
-Most organizations want to pin the Viva Connections app to the top of the Teams App Bar for all users. This can be accomplished by changing the pinned apps in the Teams Admin Center under [Setup policies](/MicrosoftTeams/teams-app-setup-policies).
+Most organizations want to pin the Viva Connections app to the top of the Teams app bar for all users. This can be accomplished by changing the pinned apps in the Microsoft Teams admin center under [Setup policies](/MicrosoftTeams/teams-app-setup-policies).
 
 1. Navigate to the **Teams Admin Center** / **Teams apps** / **Setup policies**
 2. Select **Global (Org-wide default)** - This is the default policy for all users.
