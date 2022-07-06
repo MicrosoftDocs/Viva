@@ -228,6 +228,11 @@ Viva Connections is available in most major languages used in Microsoft 365. [Le
    - **Resources:** are linked to the global navigation experience and follows the tenant’s default language.
 
 
+## Extensibility
+Many components to the Viva Connections experience can be completely customized. The [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) (SPFx) is the recommended SharePoint customization and extensibility model for developers because of the tight integration between SharePoint Online, Microsoft Teams, and Microsoft Viva Connections. The SPFx is the only extensibility and customization option for Viva Connections. [Learn more about Viva Connections extensibility](/sharepoint/dev/spfx/viva/overview-viva-connections).
+
+
+
 ## Step-by-step guidance to provision Viva Connections
 
 Use the [quick guide to set up Viva Connections](guide-to-setting-up-viva-connections.md) or get [more detailed guidance on how to plan, build, and launch](/viva/connections/plan-viva-connections). 
