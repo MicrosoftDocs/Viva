@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams integration
+title: Add the Viva Goals app to Microsoft Teams
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
