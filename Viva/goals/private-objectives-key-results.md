@@ -1,5 +1,5 @@
 ---
-title: "Private Objectives & Key Results"
+title: "Private objectives and key results"
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - MET150
 
-description: "Learn how Private Objectives feature allows user to set private objectives visible only to themselves and designated individuals."
+description: "Learn how the Private Objectives feature allows user to set private objectives visible only to themselves and designated individuals."
 ---
 
 # Private Objectives 
@@ -26,48 +26,46 @@ description: "Learn how Private Objectives feature allows user to set private ob
 
 While the OKR methodology promotes transparency across the entire organization, Viva Goals recognizes that large enterprises often have sensitive objectives that require a limited audience.
 
-## What are Private Objectives?
+## What are private objectives?
 
-The Private Objectives feature in Viva Goals allows users to set private objectives visible only to themselves and designated individuals.
+The Private Objectives feature in Viva Goals allows users to make certain objectives visible only to themselves and designated individuals.
 
-Private objectives are easy to distinguish from the rest. Look for the **padlock icon**. Hovering over the icon will display the list of users that can see this objective and allows the owner to manage this list.
+Private objectives are distinguished from others by a padlock icon. Hover over the icon to display the list of users who can see the objective. This icon also lets the owner manage this list of users.
 
-- Private Objectives will only be visible to this list of users. To the rest of the organization, these Objectives will not exist. 
+- Private objectives are only visible in Objective Explorer to this list of users.
 
-- Private Objectives will be visible in the Objective Explorer to users with the given permission.
+- A private objective's comments, likes, and check-ins are only visible to the designated list of viewers.
 
-- Private Objective's comments, likes, and check-ins will only be visible to the designated list of viewers.
+- Private objectives can be set at the organization, team, or individual levels.
 
-- Private Objectives can be set at the Organization, Team, or Individual levels.
+## How to make an objective private
 
-## How to make an Objective private
+If your organization has this feature enabled, the option is available when you create or edit an objective.
 
-If your organization has this feature enabled, visibility can be managed while creating or editing objectives.
+By default, all objectives are visible to the entire organization unless you follow these steps to mark them as private:
 
-By default, all objectives will be visible to the entire organization unless configured with the following steps:
+1. Select **Who can view** in the **Add/Edit Objective** window.
 
-1. Select **Who can view** on the **Add/Edit Objective** window.
+![Screenshot shows a private objective.](../media/goals/4/414/a.jpg)
 
-![private objective](../media/goals/4/414/a.jpg)
-
-2. Select **Choose who has access** to make it private to only this list of people and select **Done**.
+2. Select **Choose who has access** to make it private to only specified people, and select **Done**.
 
     > [!NOTE]
-    > This list of users will also be able to see any key results below the objective.
+    > This users on the list will also be able to see any key results below the objective.
 
-![list of users](../media/goals/4/414/b.jpg)
+   ![Screenshot shows the list of users for a private objectiv](../media/goals/4/414/b.jpg)
 
 3. Now the user can see this objective is private to them and one other person.
 
 ![private objectives](../media/goals/4/414/c.jpg)
 
-The privacy of an objective can be edited or changed at any time by the owner of the objective.
+The owner of the object can modify privacy of that objective.
 
-## Key considerations for Private Objectives
+## Key considerations for private objectives
 
-- Making an objective **Private** will automatically cascade the same privacy settings to its Key Results.
-- An Objective cannot be made Private if any of its Key Results are in Multiple Alignment  
-- The Key Results of a Private Objective cannot be multi-aligned to more than one Private Objective.
-- Private OKRs cannot be aligned to Public OKRs by default.
-- If your organization is looking for the ability to have Public Objectives with Private Key Results, we can enable it
+- Making an objective private automatically confers the same privacy settings to its key results.
+- An objective can't be made private if any of its key results are in multiple alignments.  
+- The key results of a private objective can't be multi-aligned to more than one private objective.
+- By default, private OKRs can't be aligned to public OKRs.
+- If your organization wants to be able to have public objectives with private key results, we can enable that functionality.
 

@@ -1,5 +1,5 @@
 ---
-title: "Follow Teams and User Progress"
+title: "Follow team and user progress"
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -19,20 +19,20 @@ search.appverid:
 description: "Learn how to follow and receive progress updates on relevant OKR articles."
 ---
 
-# Follow Organizations, Teams and Users 
+# Follow organizations, teams, and users 
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-In order to keep track of OKRs that are relevant to you, Viva Goals provides a two-step process that delivers this information right to your inbox.
+To help you keep track of OKRs that are relevant to you, Viva Goals provides a two-step process that delivers this information right to your inbox.
 
 ## Step 1: Follow
 
 To follow organizations, teams, and users that are important to you, select the **Follow** icon on one of these entities.
 
-For example, you can follow East Coast Sales to receive updates from that team. The icon will turn green to indicate you're now **Following** it.
+For example, you can follow East Coast Sales to receive updates from that team. The icon will turn green to indicate you're **Following** it.
 
-![follow organizations](../media/goals/4/413/a.jpg)
+![Screen shot shows how you follow an organization.](../media/goals/4/413/a.jpg)
 
 By default, Viva Goals will have you follow:
 
@@ -44,22 +44,20 @@ By default, Viva Goals will have you follow:
 
 - Parent teams of your teams
 
-- Teams owned by your reportees
+- Teams owned by your reporters
 
-## Step 2: Receive Updates
+## Step 2: Get updates
 
-Once you're following one or more organizations, teams, or users, Viva Goals will automatically notify you via email with you a weekly progress update showing Objective activity, what's going well, and what's not going well.
+Once you're following one or more organizations, teams, or users, Viva Goals automatically emails you a weekly progress update showing Objective activity, what's going well, and what's not going well.
 
-![see followed organizations](../media/goals/4/413/b.jpg)
+![Screenshot shows your followed organizations.](../media/goals/4/413/b.jpg)
 
-To view or unfollow your organizations, teams, or users:
+To view or unfollow an organizations, team, or user:
 
-1. Select your user name
+1. Select your user name.
 
-2. Select **Edit settings**
+2. Select **Edit settings**.
 
-3. Select the Following Tab
+3. Select the **Following**.
 
-4. Select the **Unfollow** button
-
-This will let you adjust which organizations, teams, and users that you receive updates from.
+4. Select the **Unfollow** button. You can then adjust which organizations, teams, and users you receive get updates about.
