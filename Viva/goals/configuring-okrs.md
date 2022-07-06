@@ -184,25 +184,25 @@ The Shared OKRs/projects feature in Viva Goals is a great method for multiple te
 
 When both the teams are supposed to commonly own and work toward the outcomes, it's good to tag multiple stakeholders and not just a single team/owner as accountable.
 
-   **Example #1:**
+ **Example #1:**
 
-   OBJECTIVE: Enhance the onboarding strategy.
+OBJECTIVE: Enhance the onboarding strategy.
 
-   KEY RESULT: Implement a new program to increase the repeat rate of first-time bookers. 
+KEY RESULT: Implement a new program to increase the repeat rate of first-time bookers. 
    
-   TEAM(S): CRM Team and Marketing Team
+TEAM(S): CRM Team and Marketing Team
    
-   OWNER(s): CRM Lead and Marketing lead
+OWNER(s): CRM Lead and Marketing lead
     
-   **Example #2:** 
+**Example #2:** 
 
-    OBJECTIVE: Build a world class engineering org.
+OBJECTIVE: Build a world class engineering org.
    
-    KR/INITIATIVE: Invest in two training & development sessions and capstone projects for all four engineering teams this quarter
+KR/INITIATIVE: Invest in two training & development sessions and capstone projects for all four engineering teams this quarter
    
-    TEAM(S): Engineering Department
+TEAM(S): Engineering Department
    
-    OWNER(S): VP of engineering and all engineering managers
+OWNER(S): VP of engineering and all engineering managers
 
 The Viva Goals flexible shared OKR models ensure that you don't have to create duplicate and redundant OKRs for every team or individual when they're supposed to be commonly owned, worded, and measured.
 
