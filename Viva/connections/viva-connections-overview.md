@@ -43,6 +43,7 @@ Use the [quick guide to set up Viva Connections](guide-to-setting-up-viva-connec
 > [!NOTE]
 > - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*. 
 > - A home site is a requirement for Viva Connections. Learn more about [how to plan, build, and launch a home site](/viva/connections/home-site-plan).
+> - Viva Connections is not currently supported on tablet devices.
 
 ## Components to Viva Connections 
 Viva Connections is designed to meet people where they usually get their work done - in Microsoft Teams. Viva Connections creates an opportunity to push specific content and display popular resources by combining the power of your SharePoint intranet with Microsoft Teams and other Microsoft 365 apps like Yammer and Stream. Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. All three components will display different between desktop and mobile devices. 
