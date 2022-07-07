@@ -140,7 +140,7 @@ By checking this checkbox, you're allowing Viva Learning to fetch user informati
 
 ### Prerequisite for learner record sync
 
-You'll need to enable inbound user provisioning with SuccessFactors AD. [Learn how](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-cloud-only-tutorial)
+You'll need to enable inbound user provisioning with Azure AD's SuccessFactors connector. [Learn how](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-cloud-only-tutorial)
 
 ### Steps followed for user sync
 
