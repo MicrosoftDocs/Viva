@@ -49,7 +49,7 @@ The Org Admin can control whether the teams reporting to them can set their own 
 
 The two options that determine the cadence and cascading of the cadence are: 
 
-1. Allow teams to change their rhythm anytime 
+- Allow teams to change their rhythm anytime 
 
 - When saving, apply this schedule to teams 
 
