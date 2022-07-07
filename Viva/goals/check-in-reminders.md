@@ -53,21 +53,22 @@ The two options that determine the cadence and cascading of the cadence are:
 
 2. When saving, apply this schedule to teams 
 
-> Note: These options are check boxes that need to be ticked, as you see fit. 
+> [!NOTE]
+> These options are check boxes that need to be ticked, as you see fit. 
 
 Let's consider the following scenarios to better understand the usage of these configurations to set a check-in rhythm. 
 
 1. The department head, say Chief of Staff, is setting a cadence for the People Operations department to receive notifications every month on the first Friday at 9AM PST.  The Chief of Staff wants the subteams reporting into them to continue having a cadence of their own (preferably, a weekly cadence). Therefore, they won't cascade this cadence down to the reporting teams, and will let each team set their own check-in rhythm. 
 
-:::image type="content" source="../media/goals/teams-own-cadence.png" alt-text="Subteams follow their own cadence." lightbox="../media/goals/teams-own-cadence.png":::
+   :::image type="content" source="../media/goals/teams-own-cadence.png" alt-text="Subteams follow their own cadence." lightbox="../media/goals/teams-own-cadence.png":::
 
 2. The Head of Marketing is setting a bi-weekly cadence for the Marketing team to receive notifications on every Monday once every two weeks at 9AM PST. The Head of Marketing wants his reporting teams (say, Product Marketing, Demand Generation, and Customer Marketing) to have their own cadence, but highly recommends starting them with the same cadence as the marketing team. In this case, the cadence will cascade down the teams, however, the teams can change this schedule at any given point in time. 
 
-:::image type="content" source="../media/goals/teams-partial-own-cadence.png" alt-text="Subteams partially follow their own cadence." lightbox="../media/goals/teams-partial-own-cadence.png":::
+   :::image type="content" source="../media/goals/teams-partial-own-cadence.png" alt-text="Subteams partially follow their own cadence." lightbox="../media/goals/teams-partial-own-cadence.png":::
 
 3. The VP of Sales wants their team to have a weekly check-in cadence, and is setting a rhythm to receive notifications every Wednesday at 9AM PST. To ensure everyone is on the same page, they want all the subteams reporting into them to follow the same cadence. Rather than each subteam having a cadence of their own. Therefore, they'll set a cadence, cascade it cadence down to all their reporting teams, and not let them change this rhythm.
 
-:::image type="content" source="../media/goals/teams-same-cadence.png" alt-text="All the subteams follow the same cadence of the parent team." lightbox="../media/goals/teams-same-cadence.png":::
+   :::image type="content" source="../media/goals/teams-same-cadence.png" alt-text="All the subteams follow the same cadence of the parent team." lightbox="../media/goals/teams-same-cadence.png":::
 
 Team Owners and Team Admins can create a custom cadence for reminders for their departments and teams in Admin -> Team Settings. These cadences can differ from the organization-level cadence. 
 
@@ -89,15 +90,16 @@ For OKRs having single or multiple owners, you can decide which user in the orga
 
 ### Steps to assign responsibility for check-ins:
 
-1. Log in to Viva Goals and select the ‘+’ button on the top panel to create a new OKR
+1. Log in to Viva Goals and select the ‘+’ button on the top panel to create a new OKR.
 
-2. Once you enter the objective/ Key Result and want to share it with another individual, choose owners from the ‘Owner’ option. Here you can assign multiple owners for the OKR
+2. Once you enter the objective/ Key Result and want to share it with another individual, choose owners from the ‘Owner’ option. Here you can assign multiple owners for the OKR.
 
-3. Once you assign an owner, select the user who will be responsible for making check-ins from the ‘Who is responsible for making check-ins?’ drop-down
+3. Once you assign an owner, select the user who will be responsible for making check-ins from the ‘Who is responsible for making check-ins?’ drop-down.
 
-4. Once you make the selection, the user will  start receiving the check-in reminders
+4. Once you make the selection, the user will start receiving the check-in reminders.
 
-> By default, the owner (the first owner in the case of multiple owners) is set as the person responsible for check-in and users need not explicitly choose unless necessary
+> [!NOTE]
+> By default, the owner (the first owner in the case of multiple owners) is set as the person responsible for check-in and users need not explicitly choose unless necessary.
 
 ## FAQs: 
 
@@ -123,8 +125,8 @@ Clicking on Nudge will open the modal where the Product Owner will be notified a
 
 The notifications will be received in one of the following ways:
 
-1. Email
+- Email
 
-2. Slack (if enabled)
+- Slack (if enabled)
 
-3. Discord (if enabled) 
+- Discord (if enabled) 
