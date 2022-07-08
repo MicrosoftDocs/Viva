@@ -32,4 +32,4 @@ Our quick and easy integration enables users to add, update, and manage OKRs wit
 
 ## Prerequisites
 
-- You will be required to purchase Viva Goals licenses for the users in your organization.
+To work with Viva Goals in Teams, you will need to be a licensed user of Viva Goals. You can learn more about purchasing Viva Goals licenses for your organization here.
