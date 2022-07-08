@@ -22,7 +22,15 @@ description: "Learn how to track and update OKRs from within Microsoft Teams"
 
 Viva Goals in Microsoft Teams is your one stop shop for adding, updating and managing OKRs within Microsoft Teams. 
 
-### How to manage your OKRs in Microsoft Teams
+In this article, you will learn about:
+- [How to manage your OKRs in Microsoft Teams](#manage-okrs-in-teams)
+- [How to view organization OKRs in Microsoft Teams](#view-org-okrs-in-teams)
+- [How to find OKRs in Microsoft Teams](#find-okrs-in-teams)
+- [How to add new objectives in Microsoft Teams](#add-objective-in-teams)
+- [How to add key results in Microsoft Teams](#add-krs-in-teams)
+- [How to perform OKR check-ins in Microsoft Teams](#check-ins-in-teams)
+
+<h2 id="manage-okrs-in-teams">How to manage your OKRs in Microsoft Teams</h2>
 
 The ‘My OKRs’ tab shows you OKRs assigned to you. 
 
@@ -42,19 +50,19 @@ The ‘My OKRs’ tab shows you OKRs assigned to you.
 
     :::image type="content" source="../media/goals/5/inline-check-in-using-progress-bar-in-viva-goals.png" alt-text="Checking in inline by dragging the progress bar." lightbox="../media/goals/5/inline-check-in-using-progress-bar-in-viva-goals.png":::
          
-### How to view organization OKRs in Microsoft Teams
+<h2 id="view-org-okrs-in-teams">How to view organization OKRs in Microsoft Teams</h2>
          
 To maintain your alignment to top level OKRs, the ‘Organization OKRs’ tab will show you your organization’s top level OKRs. Similar to the My OKRs tab, you can select these items to view details. You can even edit and check-in on them if you are one of the OKR owners. 
 
 :::image type="content" source="../media/goals/5/organization-okrs-tab.png" alt-text="Organization OKRs tab in Viva Goals." lightbox="../media/goals/5/organization-okrs-tab.png":::
          
-### How to find OKRs in Microsoft Teams
+<h2 id="find-okrs-in-teams">How to find OKRs in Microsoft Teams</h2>
 
 On both the ‘My OKRs’ and ‘Organization OKRs’ tabs, you can search for any OKRs on the top right. You can use this to view any team’s OKRs, or search for OKRs by name. This is a powerful way to quickly understand what other teams in your organization are focused on. 
 
 :::image type="content" source="../media/goals/5/search-bar-to-find-okrps.png" alt-text="Finding OKRs/Projects using the search bar." lightbox="../media/goals/5/search-bar-to-find-okrps.png":::
 
-### How to add new objectives in Microsoft Teams
+<h2 id="add-objective-in teams">How to add new objectives in Microsoft Teams</h2>
          
 Adding a new objective inside Teams is easy. To do this follow the below steps:
          
@@ -70,7 +78,7 @@ Adding a new objective inside Teams is easy. To do this follow the below steps:
 
     :::image type="content" source="../media/goals/5/create-options-for-new-objective.png" alt-text="Create options for new objective." lightbox="../media/goals/5/create-options-for-new-objective.png":::
          
-### How to add key results in Microsoft Teams
+<h2 id="add-krs-in-teams">How to add key results in Microsoft Teams</h2>
 
 After adding an objective, and selecting Save and Add Key Result, the Add Key Result window will appear. On this page, you can add your key result, assign tags, add description, choose how you would like to measure success, add scoring guidance, a data integration, choose how to align, adjust owner, delegate and adjust time period. 
 
@@ -78,7 +86,7 @@ After adding an objective, and selecting Save and Add Key Result, the Add Ke
 
 Once you have completed this information, you can Save and Close, or choose to Save and Add Another. 
 
-### How to perform OKR check-ins in Microsoft Teams
+<h2 id="check-ins-in-teams">How to perform OKR check-ins in Microsoft Teams</h2>
 
 To perform an OKR update in Teams: 
 
