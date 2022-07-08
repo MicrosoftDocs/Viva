@@ -19,9 +19,9 @@ description: Learn how to configure other content providers as a learning conten
 
 # Add other content providers for Microsoft Viva Learning
 
-A growing set of learning content providers are available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
+A growing set of learning content providers is available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
 
-Some learning sources will be enabled by default and will be available without a premium Viva Learning license. These learning sources include:
+Some learning sources are enabled by default and available without a premium Viva Learning license. These learning sources include:
 
 - LinkedIn Learning select 125 courses
 - Microsoft Learn
@@ -113,6 +113,6 @@ The maximum number of total learning items supported in a tenant is 1 million re
 
 ## Content consumption for end users
 
-Once you've added a content provider as a content source from the Microsoft 365 admin center, content from the provider will flow to the Viva Learning app and will be visible to end users.
+Once you've added a content provider as a content source from the Microsoft 365 admin center, content from the provider will flow to the Viva Learning app and become visible to end users.
 
-Once a user chooses to play a course in Viva Learning, they will be directed to the content provider's webpage and will need to enter the login credentials on the provider's sign in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).
+Once a user chooses to play a course in Viva Learning, they'll be directed to the content provider's webpage. They'll need to enter the login credentials on the provider's sign in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).
