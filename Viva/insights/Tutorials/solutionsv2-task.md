@@ -40,7 +40,7 @@ As an Analyst, Limited analyst, or Program manager, follow these steps to create
 
 ## Define the plan
 
-1. Open [the advanced insights app](https://workplaceanalytics.office.com)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)). If prompted, sign in with your work account.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/).) If prompted, sign in with your work account.
 
 2. In **Plans** > **New plan**, you can learn about and select the type of plan you want to create, such as a _Focus plan_, a _Collaboration plan_, a _Wellbeing plan_, or the _Seller success plan_.
 

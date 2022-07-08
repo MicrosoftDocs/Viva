@@ -33,7 +33,7 @@ In addition to these capabilities, you can also export results to a data visuali
 
 **Role** - Analyst
 
-1. Open [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/).) If prompted, enter your work credentials.
 2. In **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 3. Select **Person query**, and then define and run it. For details, see [Person queries](person-queries.md).
 4. After the results are ready, go to **Query designer** > **Results**.

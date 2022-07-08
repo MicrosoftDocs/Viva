@@ -47,7 +47,7 @@ Sometimes, meeting invitees don't respond to meeting invitations. Using the "did
 
 **Owners** - Analysts and limited Analysts
 
-1. Open [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/).) If prompted, enter your work credentials.
 
 2. Select **Analyst settings** to see the exclusions pages.
 3. Select **Attendee exclusion**.
