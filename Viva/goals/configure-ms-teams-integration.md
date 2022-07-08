@@ -20,9 +20,6 @@ description: "Learn how to add Viva Goals to Microsoft Teams to easily view, man
 
 # Add the Viva Goals app to Microsoft Teams
 
-> [!IMPORTANT] 
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 - [Configure the Microsoft Teams integration: For admins](#admin-setup)
 - [Configure the Microsoft Teams integration: For regular users](#regular-user-setup)
 
