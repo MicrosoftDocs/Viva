@@ -4,7 +4,7 @@ ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 7/05/2022
+ms.date: 7/08/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -31,7 +31,7 @@ Eliminate your talent gaps in digital technologies like data science, ML, cloud,
 >[!NOTE]
 >You'll need to have admin permissions in Udacity to complete these steps. You’ll also need an identity provider (IdP), as this integration uses SAML Single Sign-On (SSO) authentication.
 
-You'll need to reach out to your Udacity Customer Success Manager or Implementation Specialist to enable integration with Viva Learning. They'll also provide your Udacity Customer Integration ID, which you'll need for the next step. You can view the full details in [Udacity’s PDF walkthrough guide.](DAISY ADD THIS).
+You'll need to reach out to your Udacity Customer Success Manager or Implementation Specialist to enable integration with Viva Learning. They'll also provide your Udacity Customer Integration ID, which you'll need for the next step.
 
 You can [contact Udacity Support](mailto:strategicalliances@udacity.com) for help with getting in touch with your Customer Success Manager. If you aren't yet a customer, you can [explore Udacity further here](https://www.udacity.com/enterprise/overview).
 
