@@ -95,7 +95,7 @@ This tab shows all the teams you have set up, plus the team owner and members. Y
 
 ### Notifications 
 
-The Notifications tab lets you customize the notifications sent to employees. As an admin, this is a critical feature that helps drive the rhythm of the business. In a perfect world, every employee consistently checks in their OKRs, but we know from experience that sometimes it takes a little nudge. Learn more in the [Configure check-in reminders and notificationa article](/viva/goals/check-in-reminders).
+The Notifications tab lets you customize the notifications sent to employees. As an admin, this is a critical feature that helps drive the rhythm of the business. In a perfect world, every employee consistently checks in their OKRs, but we know from experience that sometimes it takes a little nudge. Learn more in the [Configure check-in reminders and notifications article](/viva/goals/check-in-reminders).
 
 ### Integrations 
 
