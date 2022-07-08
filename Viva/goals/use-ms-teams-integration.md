@@ -62,7 +62,7 @@ On both the **My OKRs** and **Organization OKRs** tabs, you can search for any O
 
 :::image type="content" source="../media/goals/5/search-bar-to-find-okrps.png" alt-text="Finding OKRs/Projects using the search bar." lightbox="../media/goals/5/search-bar-to-find-okrps.png":::
 
-<h2 id="add-objective-in teams">How to add new objectives in Microsoft Teams</h2>
+<h2 id="add-objective-in-teams">How to add new objectives in Microsoft Teams</h2>
          
 Adding a new objective inside Teams is easy. To do this follow the below steps:
          
