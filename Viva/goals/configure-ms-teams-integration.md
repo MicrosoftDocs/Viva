@@ -23,12 +23,12 @@ description: "Learn how to add Viva Goals to Microsoft Teams to easily view, man
 > [!IMPORTANT] 
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-- [Configure the MS Teams integration: For admins](#admin-setup)
-- [Configure the MS Teams integration: For regular users](#regular-user-setup)
+- [Configure the Microsoft Teams integration: For admins](#admin-setup)
+- [Configure the Microsoft Teams integration: For regular users](#regular-user-setup)
 
-<h2 id="admin-setup">Configure the MS Teams integration: For admins</h2>
+<h2 id="admin-setup">Configure the Microsoft Teams integration: For admins</h2>
 
-Preinstalling the app will ensure that your users will be able to see their OKRs directly in MS Teams, without ever having to install the app from the Teams Store. It is a great way to ensure your users stay in the flow of work, since they will be able to reference OKRs directly in Teams chats and channels without first pausing to install the app.  
+Preinstalling the app will ensure that your users will be able to see their OKRs directly in Teams, without ever having to install the app from the Teams Store. It is a great way to ensure your users stay in the flow of work, since they will be able to reference OKRs directly in Teams chats and channels without first pausing to install the app.  
 
 We will show how to preinstall the app for a specific group of users. If you want to preinstall to all users on the tenant, you can make the same changes in the “Global (Org-wide default)” policy. 
 
@@ -80,7 +80,7 @@ We will show how to preinstall the app for a specific group of users. If you wan
 
       :::image type="content" source="../media/goals/5/add-group-policy-button.png" alt-text="Adding Group Policy for a group of users." lightbox="../media/goals/5/add-group-policy-button.png":::
 
-12. Policies can be applied to any MS Teams Team or M365 group. Begin by selecting the group of users you want to apply the policy to.
+12. Policies can be applied to any Microsoft Teams Team or M365 group. Begin by selecting the group of users you want to apply the policy to.
 
        :::image type="content" source="../media/goals/5/policy-groups.png" alt-text="Select the groups to assign the policy." lightbox="../media/goals/5/policy-groups.png":::
 
@@ -103,28 +103,28 @@ We will show how to preinstall the app for a specific group of users. If you wan
       
       :::image type="content" source="../media/goals/5/member-list-julia-martins.png" alt-text="Example showing Julia Martins from the list of members." lightbox="../media/goals/5/member-list-julia-martins.png":::
       
-16. When Julia logs into MS Teams, you can see that both the Viva Goals app and the message extension are preinstalled and pinned on the top left and at the bottom, respectively, in the Teams client.
+16. When Julia logs into Teams, you can see that both the Viva Goals app and the message extension are preinstalled and pinned on the top left and at the bottom, respectively, in the Teams client.
 
       :::image type="content" source="../media/goals/5/pinned-viva-goals-with-message-extension.png" alt-text="Pinned Viva Goals app and Viva Goals message extension." lightbox="../media/goals/5/pinned-viva-goals-with-message-extension.png":::
       
-<h2 id="regular-user-setup">Configure the MS Teams integration: For regular users</h2>
+<h2 id="regular-user-setup">Configure the Microsoft Teams integration: For regular users</h2>
 
 There are multiple ways to install the Viva Goals app in Teams.
 
 The first way to add Viva Goals to Teams is for you to click the ellipsis […] button on the navigation bar on the left, search for Viva Goals and click on the Viva Goals app from the list of search results.
 
-:::image type="content" source="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png" alt-text="Searching and adding Viva Goals app from the MS Teams navigation bar." lightbox="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png":::
+:::image type="content" source="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png" alt-text="Searching and adding Viva Goals app from the Teams navigation bar." lightbox="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png":::
 
 From the Viva Goals app detail page, you can click the Add button to add Viva Goals.
 
-:::image type="content" source="../media/goals/5/add-viva-goals-from-navigation-bar.png" alt-text="Adding Viva Goals app from the MS Teams navigation bar." lightbox="../media/goals/5/add-viva-goals-from-navigation-bar.png":::
+:::image type="content" source="../media/goals/5/add-viva-goals-from-navigation-bar.png" alt-text="Adding Viva Goals app from the Teams navigation bar." lightbox="../media/goals/5/add-viva-goals-from-navigation-bar.png":::
 
 The second way to Add Viva Goals is to visit the Apps store and once there, search for Viva Goals and click the Viva Goals app listing.
 
-:::image type="content" source="../media/goals/5/add-viva-goals-from-app-store.png" alt-text="Searching and adding Viva Goals app from the MS Teams app store." lightbox="../media/goals/5/add-viva-goals-from-app-store.png":::
+:::image type="content" source="../media/goals/5/add-viva-goals-from-app-store.png" alt-text="Searching and adding Viva Goals app from the Teams app store." lightbox="../media/goals/5/add-viva-goals-from-app-store.png":::
 
 From the Viva Goals app detail page, click Add.
 
 :::image type="content" source="../media/goals/5/add-button-in-viva-goals-app-detail-page.png" alt-text="Adding Viva Goals app from the MS Teams app store." lightbox="../media/goals/5/add-button-in-viva-goals-app-detail-page.png":::
 
-Once Viva Goals have been added to MS Teams, the app will guide you on the next steps based on if you already have an account with Viva Goals or not.
+Once Viva Goals have been added to Microsoft Teams, the app will guide you on the next steps based on if you already have an account with Viva Goals or not.
