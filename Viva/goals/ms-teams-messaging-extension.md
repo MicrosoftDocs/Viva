@@ -17,17 +17,12 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Learn how you can use the messaging extension to share your OKR updates in your MS Teams chats"
+description: "Learn how you can use the messaging extension to share your OKR updates in your Microsoft Teams chats"
 ---
 
-# Share OKR updates in MS Teams chats
+# Share OKR updates in Microsoft Teams chats
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
-## How to Use the Microsoft Teams Messaging Extension
-
-You can surface specific OKRs and Projects within your MS Teams chats to add more context to your conversations. You can discuss progress, proactively identify and resolve blockers, and use Viva Goals to focus on the work that needs your attention. With the Microsoft Teams messaging extension, you can also make updates to your OKRs without leaving your chat.
+You can surface specific OKRs and Projects within your Teams chats to add more context to your conversations. You can discuss progress, proactively identify and resolve blockers, and use Viva Goals to focus on the work that needs your attention. With the Microsoft Teams messaging extension, you can also make updates to your OKRs without leaving your chat.
 
 ## How to access the Viva Goals messaging extension within Microsoft Teams
 
@@ -36,11 +31,11 @@ You can surface specific OKRs and Projects within your MS Teams chats to add mor
 
 Follow these steps to insert an OKR/project in your textbox:
 
-1. Log in to your MS Teams app.
+1. Log in to your Teams app.
 2. Open up the chat where you would like to pull up your OKR progress.
 3. Click on the ellipse **...** button below your text box.
 
-   :::image type="content" source="../media/goals/5/ellipse-button-to-add-viva-goals-messaging-extension.png" alt-text="Messaging Extensions ellipse button below the text box in MS Teams." lightbox="../media/goals/5/ellipse-button-to-add-viva-goals-messaging-extension.png":::
+   :::image type="content" source="../media/goals/5/ellipse-button-to-add-viva-goals-messaging-extension.png" alt-text="Messaging Extensions ellipse button below the text box in Teams." lightbox="../media/goals/5/ellipse-button-to-add-viva-goals-messaging-extension.png":::
 
 4. In the search box, type Viva Goals. The messaging extension for your organization’s Viva Goals account will appear.
 
