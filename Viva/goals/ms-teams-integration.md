@@ -1,5 +1,5 @@
 ---
-title: Collaborate with Viva Goals in MS Teams
+title: Collaborate with Viva Goals in Microsoft Teams
 ms.reviewer: 
 ms.author: ranjaliroy
 author: ranjali-MS
@@ -17,13 +17,10 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Learn how you can collaborate with Viva Goals from within MS Teams"
+description: "Learn how you can collaborate with Viva Goals from within Microsoft Teams"
 ---
 
-# Collaborate with Viva Goals in MS Teams
-
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+# Collaborate with Viva Goals in Microsoft Teams
 
 You can connect Viva Goals with Microsoft Teams to manage your OKRs directly from within Teams.
 
@@ -33,7 +30,6 @@ Our quick and easy integration enables users to add, update, and manage OKRs wit
 - <a href="https://docs.microsoft.com/viva/goals/use-ms-teams-integration">Use Viva Goals in MS Teams</a>
 - <a href="https://docs.microsoft.com/viva/goals/ms-teams-messaging-integration">Share OKR updates in chats</a>
 
-## Requirements
+## Prerequisites
 
-- You will be required to purchase Viva Goals licenses for your the users in your organization.
-- Sign in to your Viva Goals account and create an Organization.
+- You will be required to purchase Viva Goals licenses for the users in your organization.
