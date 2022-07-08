@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 title: Hybrid workforce experience dashboard
 description: Learn how to understand how hybrid work affects employees differently through the Hybrid workforce experience Power BI dashboard
 author: lilyolason
@@ -18,8 +17,6 @@ audience: Admin
 ---
 
 # Hybrid workforce experience dashboard
-
-*This experience is available only through private preview*
 
 ## Introduction
 
@@ -63,9 +60,9 @@ For more details on how to add new data for existing employees, review the docum
 ## Set up the template
 
 >[!NOTE]
-> This dashboard is currently only available in English and only works with data generated from the English version of the app. Before completing the following steps, confirm that the browser language contains **en-us** in the app's URL, or change it to read: https://workplaceanalytics.office.com/en-us/Home.
+> This dashboard is currently only available in English and only works with data generated from the English version of the app. Before completing the following steps, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/...
 
-1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Hybrid workforce experience**, which takes you to required setup steps.
    :::image type="complex" source="../images/wpa/tutorials/hwfe-select-hwfe-cropped.png" alt-text="Screenshot of Other templates window in Query designer; Hybrid workforce experience is highlighted.":::
        Screenshot that shows the "Other templates" window within Query designer. On the left-hand pane, "Query designer" is highlighted beneath "Analyze." Beneath "Other templates," there are nine templates presented as cards. The last template card, "Hybrid workforce experience," is highlighted.  
