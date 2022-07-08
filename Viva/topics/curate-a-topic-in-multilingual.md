@@ -16,7 +16,7 @@ description: Learn how to translate a topic using multilingual in Microsoft Viva
 
 ---
 
-# Curate an existing topic using multilingual in Viva Topics 
+# Create an existing topic using multilingual in Viva Topics 
 
 In Viva Topics, you can use the multilingual feature to curate and edit a topic page in English, French, German, and Spanish.
 
