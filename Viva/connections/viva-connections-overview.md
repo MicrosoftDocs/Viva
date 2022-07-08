@@ -43,6 +43,7 @@ Use the [quick guide to set up Viva Connections](guide-to-setting-up-viva-connec
 > [!NOTE]
 > - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*. 
 > - A home site is a requirement for Viva Connections. Learn more about [how to plan, build, and launch a home site](/viva/connections/home-site-plan).
+> - Viva Connections is not currently supported on tablet devices.
 
 ## Components to Viva Connections 
 Viva Connections is designed to meet people where they usually get their work done - in Microsoft Teams. Viva Connections creates an opportunity to push specific content and display popular resources by combining the power of your SharePoint intranet with Microsoft Teams and other Microsoft 365 apps like Yammer and Stream. Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. All three components will display different between desktop and mobile devices. 
@@ -226,6 +227,11 @@ Viva Connections is available in most major languages used in Microsoft 365. [Le
    - **Dashboard:** content can be set by Dashboard authors to support multiple languages.
    - **Feed:** the content will be available in the format in which it was authored and SharePoint news posts will display author-translated posts in the user’s preferred language.
    - **Resources:** are linked to the global navigation experience and follows the tenant’s default language.
+
+
+## Extensibility
+Many components to the Viva Connections experience can be completely customized. The [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) (SPFx) is the recommended SharePoint customization and extensibility model for developers because of the tight integration between SharePoint Online, Microsoft Teams, and Microsoft Viva Connections. The SPFx is the only extensibility and customization option for Viva Connections. [Learn more about Viva Connections extensibility](/sharepoint/dev/spfx/viva/overview-viva-connections).
+
 
 
 ## Step-by-step guidance to provision Viva Connections
