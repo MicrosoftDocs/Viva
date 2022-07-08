@@ -39,7 +39,7 @@ This uses sample data that is only representative of the dashboard and might not
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZjYxYWIwZGQtZGE0Ni00YjMyLWExZTQtMWJlY2M3ODYyZWE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
-To find the template for the Return to worksites dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Analyze/QueryDesigner/NewQuery))
+To find the template for the Return to worksites dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Analyze/QueryDesigner/NewQuery))
 . For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 
 ## Prerequisites
@@ -58,7 +58,7 @@ Before you can run the setup steps and populate the dashboard in Power BI, you m
 >[!Note]
 >This dashboard is currently only available in English and will only work with data generated from the English version of the app. Before running the required queries, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/...
 
-1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Return to worksites** to see the required setup steps, and then in step 2, select **Set up** next to **Return to worksites**.
 3. When prompted, select or confirm the following settings:
 

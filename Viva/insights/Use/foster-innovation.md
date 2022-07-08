@@ -49,8 +49,8 @@ You can select **See your insights** to see ways you can drive innovation. Depen
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Enable deep work |Make time for deep work |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork)) |
-  |Utilize influencers |Activate influencers to drive innovation |[Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Home/ChangeManagement/InternalNetworks))|
+  |Enable deep work |Make time for deep work |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork)) |
+  |Utilize influencers |Activate influencers to drive innovation |[Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/ChangeManagement/InternalNetworks))|
 
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.

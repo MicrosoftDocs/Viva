@@ -63,7 +63,7 @@ The following demo uses sample data that is only representative of this dashboar
 
 <iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZmVmZmQ3NjMtOGRmYS00ZWE3LTliNjYtZDU1NDg1OTQxYmIwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
-To find the template for the Manager effectiveness dashboard for Power BI, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Analyze/QueryDesigner/NewQuery)). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
+To find the template for the Manager effectiveness dashboard for Power BI, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Analyze/QueryDesigner/NewQuery)). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 
 ## Prerequisites
 
@@ -77,7 +77,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 >[!Note]
 >This dashboard is currently only available in English and will only work with data generated from the English version of the advanced insights app. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/))
+1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/))
 , select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Manager effectiveness** to see the required setup steps, and then in step 2, select **Set up** next to **Manager effectiveness** (or select **Influence insights by month**, per **Step 8**).
 3. When prompted, select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.

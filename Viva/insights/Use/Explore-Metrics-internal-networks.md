@@ -23,8 +23,7 @@ audience: Admin
 
 ## Access to Internal networks
 
-**Internal networks** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Home/ChangeManagement/InternalNetworks))
- to view it in Advanced insights.
+**Internal networks** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/ChangeManagement/InternalNetworks)) to view it in Advanced insights.
 
 ## Network size and network breadth
 

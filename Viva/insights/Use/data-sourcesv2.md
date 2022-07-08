@@ -40,5 +40,5 @@ WE USE THE FOLLOWING ONES IN OTHER PLACES:
 
 ## To view Data sources
 
-1. Open [the advanced insights app](https://workplaceanalytics.office.com)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials.
 2. In the left navigation pane, select **Data sources**.

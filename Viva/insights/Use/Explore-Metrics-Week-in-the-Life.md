@@ -23,7 +23,7 @@ audience: Admin
 
 ## Access to Week in the life
 
-You can open [Week in the life](https://workplaceanalytics.office.com/en-us/Home/Innovation/WeekintheLife)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/en-us/Home/Innovation/WeekintheLife)) to view it in Viva Insights.
+You can open [Week in the life](https://workplaceanalytics.office.com/en-us/Home/Innovation/WeekintheLife)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/Innovation/WeekintheLife)) to view it in Viva Insights.
 
 ## All collaboration hours
 

@@ -50,7 +50,7 @@ If you are an analyst, you must have a partition selected to be able to view dat
 
 * **Roles**: Analyst, Program manager, or Admin
 
-1. [Open the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition."
+1. [Open the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition."
 
     If you see this notice, ask your Viva Insights Administrator to assign you to a partition. You cannot start using Viva Insights until the admin assigns you to one or more partitions. If you do not see this notice, go on to the next step.
 
@@ -96,7 +96,7 @@ Viva Insights Administrators create partitions on **Analyst settings**. This tas
 >[!Important]
 >Plan your partitions carefully before you start to create them. Partitions have limits in both number and size. For more information, see [Number and size limits](#number-and-size-limits).
 
-1. [Open the app](https://workplaceanalytics.office.com)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, sign in with your work account.  
+1. [Open the app](https://workplaceanalytics.office.com)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)). If prompted, sign in with your work account.  
 2. In **Controls** > **Analyst settings**, select **Access control**.
 3. Select **New partition**:
 
@@ -127,7 +127,7 @@ Viva Insights Administrators create partitions on **Analyst settings**. This tas
 
 ### To edit a partition
 
-1. [Open the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials.  
+1. [Open the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials.  
 2. Go to **Controls** > **Analyst settings**, and then select **Access control**.
 3. Locate the partition that you want to edit.
 4. Select the **ellipsis** (...) in that partition's row, and then select **Edit partition**:

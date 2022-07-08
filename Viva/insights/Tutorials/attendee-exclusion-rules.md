@@ -47,7 +47,7 @@ Sometimes, meeting invitees don't respond to meeting invitations. Using the "did
 
 **Owners** - Analysts and limited Analysts
 
-1. Open [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)). If prompted, enter your work credentials.
 
 2. Select **Analyst settings** to see the exclusions pages.
 3. Select **Attendee exclusion**.
@@ -70,7 +70,7 @@ Sometimes, meeting invitees don't respond to meeting invitations. Using the "did
 
 **Owners** - Analysts and limited Analysts
 
-1. In [Workplace  Analytics](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
+1. In [Workplace  Analytics](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 2. Create a query—for example, a **Meeting** query.
 3. Select the **Exclusions** box:
 
