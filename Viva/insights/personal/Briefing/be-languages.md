@@ -28,7 +28,7 @@ If you have an Exchange Online license and your Microsoft 365 is set to one of t
 |Spanish |
 |French |
 |Portuguese (Brazil) |
-|Russian * |
+|Russian |
 |Italian |
 |Chinese (Traditional) |
 |Korean |
