@@ -4,7 +4,7 @@ ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 7/08/2022
+ms.date: 7/11/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -31,7 +31,12 @@ Eliminate your talent gaps in digital technologies like data science, ML, cloud,
 >[!NOTE]
 >You'll need to have admin permissions in Udacity to complete these steps. You’ll also need an identity provider (IdP), as this integration uses SAML Single Sign-On (SSO) authentication.
 
-You'll need to reach out to your Udacity Customer Success Manager or Implementation Specialist to enable integration with Viva Learning. They'll also provide your Udacity Customer Integration ID, which you'll need for the next step.
+1. Sign in to EMC.
+2. Navigate to the **Settings** tab, then choose **API Tokens**, then select **Create New Token**.
+3. Give your token a name and choose **Create**.
+4. Copy your token. This is the only opportunity to copy or save your token.
+5. You can generate multiple tokens and can validate or invalidate your tokens at any time by selecting **Invalidate Token**.
+6. Request your company's Customer Company ID from your Udacity Customer Success Manager.
 
 You can [contact Udacity Support](mailto:strategicalliances@udacity.com) for help with getting in touch with your Customer Success Manager. If you aren't yet a customer, you can [explore Udacity further here](https://www.udacity.com/enterprise/overview).
 
@@ -44,5 +49,5 @@ After you've received the required configuration details from Udemy portal by us
 
 1. Navigate to the [Microsoft 365 admin center](https://admin.microsoft.com).
 2. Navigate to **Settings**, then **Org settings**. Search for Viva Learning and enable Udacity in the panel.
-3. Fill in the Udacity Customer Integration ID you got from your Udacity Customer Success Manager or Implementation Specialist.
-4. Select **Save** to activate Udacity content in Microsoft Viva Learning. It may take up to 24 hours for the content to be available in Viva Learning.
+3. Fill in the Udacity Customer Company ID you got from your Udacity Customer Success Manager or Implementation Specialist.
+4. Select **Save** to activate Udacity content in Microsoft Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
