@@ -204,6 +204,11 @@
         "source_path": "viva/insights/setup/partitions-in-wpa.md",
         "redirect_url": "/viva/insights/setup/partitions-wpa",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/use-the-insights.md",
+        "redirect_url": "/viva/insights/personal/use/use-insights",
+        "redirect_document_id": false
       }
     ]
 }
