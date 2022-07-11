@@ -22,6 +22,8 @@ description: "Learn how to add Viva Goals to Microsoft Teams to easily view, man
 
 This article describes how you can install, pin, and interact with Viva Goals directly inside Microsoft Teams. The Viva Goals personal app brings the ability to create OKRs, check-in on them, track progress, and close OKRs within Microsoft Teams.
 
+:::image type="content" source="../media/goals/5/organization-okrs-tab.png" alt-text="Viewing Viva Goals Organization OKRs within Microsoft Teams." lightbox="../media/goals/5/organization-okrs-tab.png":::
+
 - [Configure the Microsoft Teams integration: For regular users](#regular-user-setup)
 - [Configure the Microsoft Teams integration: For admins](#admin-setup)
 
