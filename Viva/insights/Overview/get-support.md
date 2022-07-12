@@ -1,5 +1,4 @@
 ---
-
 title: Get support for Viva Insights
 description: What support options are available for help with Microsoft Viva Insights 
 author: madehmer
@@ -14,7 +13,6 @@ ms.localizationpriority: medium
 ms.service: viva 
 ms.subservice: viva-insights 
 manager: helayne
-
 ---
 
 # Get support

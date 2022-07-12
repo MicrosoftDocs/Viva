@@ -1,5 +1,4 @@
 ---
-
 title: Explore management and coaching data in Viva Insights
 description: Overview of the management and coaching data in Advanced insights with Viva Insights
 author: madehmer

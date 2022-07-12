@@ -1,5 +1,4 @@
 ---
-
 title: Assign user or group roles
 description: How to assign roles for Advanced insights with Microsoft Viva Insights
 author: madehmer
@@ -13,7 +12,6 @@ search.appverid:
 - MET150 
 manager: scott.ruble
 audience: Admin
-
 ---
 
 # Assign user roles
