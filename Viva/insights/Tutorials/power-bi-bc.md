@@ -42,7 +42,7 @@ The following demo uses sample data that is only representative of this dashboar
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiM2ZiY2Y4M2YtMTMyNi00NWY1LWEyMjctYTY2OTdlOWQzNDhhIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSectionbbd7dee40bcdeee460e6" frameborder="0" allowFullScreen="true"></iframe>
 
-To find the template for the Business continuity dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
+To find the template for the Business continuity dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Analyze/QueryDesigner/NewQuery)). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 
 ## Prerequisites  
 
@@ -74,7 +74,7 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 >[!Note]
 >This dashboard supports the [same languages](../overview/supported-languages.md#supported-languages) that the advanced insights app supports.
 
-1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Business continuity** to see more details and the required setup steps, and then in step 2, select **Set up** next to **Business Continuity** (or **Hourly Collaboration** per **Step 6**).
 
    ![Business continuity template.](../Images/WpA/Tutorials/bc-setup-step2.png)

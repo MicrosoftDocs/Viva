@@ -30,7 +30,9 @@ External collaboration has a number of graphs that help you analyze data based o
 
 ## Access to External collaboration
 
-**External collaboration** data is available through **Home** > **Increase customer focus** > **Optimize time with customers** > **See your insights** > **Explore the stats**. Or sign in to [the advanced insights app](https://workplaceanalytics.office.com), and then open [External collaboration](https://workplaceanalytics.office.com/en-us/Home/Agility/ExternalCollaboration) to view it.
+**External collaboration** data is available through **Home** > **Increase customer focus** > **Optimize time with customers** > **See your insights** > **Explore the stats**. Or sign in to [the advanced insights app](https://workplaceanalytics.office.com)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/))
+, and then open [External collaboration](https://workplaceanalytics.office.com/en-us/Home/Agility/ExternalCollaboration)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/Agility/ExternalCollaboration))
+ to view it.
 
 ## Summary data
 
