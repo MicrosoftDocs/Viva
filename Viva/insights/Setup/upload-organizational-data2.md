@@ -41,7 +41,7 @@ The following video might not represent your exact upload experience that is bas
 
 Use the following steps to upload (import) your organizational data as a .csv file.
 
-1. Open [the app](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
+1. Open [the app](https://workplaceanalytics.office.com). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)). If prompted, enter your organizational credentials.
 2. Select **Data sources** > **Organizational data**.
 3. Select **Upload** to see your organization's **Upload history**.
 4. Select **New upload**.

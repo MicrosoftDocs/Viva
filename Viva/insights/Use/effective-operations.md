@@ -54,10 +54,10 @@ You can select **See your insights** to see ways you can maximize operational ef
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Free up capacity |Reduce meeting hours |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)
-  |Improve meeting quality |Try shorter and smaller meetings |[Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) |
-  |Keep employees engaged |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
-  |Protect time to get work done |Establish new work habits |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
+  |Free up capacity |Reduce meeting hours |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork))
+  |Improve meeting quality |Try shorter and smaller meetings |[Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/Agility/MeetingsOverview)) |
+  |Keep employees engaged |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork)) |
+  |Protect time to get work done |Establish new work habits |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork)) |
 
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
