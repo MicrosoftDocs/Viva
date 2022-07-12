@@ -21,7 +21,7 @@ Explore the stats data in Viva Insights gives you a starting point with quick in
 
 The following are available in Viva Insights:
 
-* [**Week in the life**](../use/explore-metrics-week-in-the-life.md) summarizes day-to-day collaboration in the organization.
+* [**Week in the life**](../use/explore-metrics-week-life.md) summarizes day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) summarizes meeting norms within your organization.
 * [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) summarizes collaboration between leaders, managers, and employees.
 * [**Internal networks**](../use/explore-metrics-internal-networks.md) shows network connections between different people within a company.
