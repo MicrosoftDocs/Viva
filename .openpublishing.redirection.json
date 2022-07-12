@@ -189,6 +189,11 @@
         "source_path": "viva/advanced/analyst/templates/introduction.md",
         "redirect_url": "/viva/insights/",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/use-the-insights.md",
+        "redirect_url": "/viva/insights/personal/use/use-insights",
+        "redirect_document_id": false
       }
     ]
 }
