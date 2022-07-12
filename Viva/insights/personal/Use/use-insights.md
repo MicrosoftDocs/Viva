@@ -131,13 +131,15 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 * "Will get back to you by end of the week with a suitable meeting time"
 * A colleague asked you three days ago: "Please review this deck by the end of the week"
 
-In the **Viva Insights** pane, select **View outstanding tasks**. This insight is available in the languages listed in [Briefing languages](../briefing/be-languages.md).
+In the **Viva Insights** pane, select **View outstanding tasks**. 
 
    ![Test email - read stats.](../../images/mya/use/test-email-read-stats.png)
 
 This opens a panel that displays insights for each of your suggested outstanding tasks.
 
    ![Suggested tasks.](../../images/mya/use/suggested-tasks-62.png)
+
+This insight is available in the languages listed in [Briefing languages](../briefing/be-languages.md).
 
 #### Insight option details
 
