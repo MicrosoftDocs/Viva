@@ -112,7 +112,7 @@ As a Viva Insights admin, do the following to import organizational and survey d
 
 After the upload is successfully processed in Viva Insights within the app, a Viva Insights analyst can use the survey score data in [Query designer](../tutorials/query-designer.md) with any of the available queries and Power BI templates. For example, you can include the **Engagement** attribute in [Ways of Working assessment](../tutorials/power-bi-collab-assess.md).
 
-1. In [the advanced insights app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**, and then select a query or template you want to create analysis with.
+1. In [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**, and then select a query or template you want to create analysis with.
 2. When creating the query, be sure to select what Qualtrics survey score data you want to include, such as **Engagement**, **Motivation**, and **Wellbeing**.
 3. You can then use these survey attributes as group-by or filter attributes. As an example, you can include Wellbeing scores in the Ways of working assessment template for Power BI, and then filter the report for **Wellbeing** scores that depict favorable responses to observe how collaboration patterns differ based on their wellbeing scores.
 
@@ -153,7 +153,7 @@ If the organizational data in Viva Insights does not share a unique employee ide
 
 As the analyst, you can run the prebuilt query survey templates. You can then share this exported query data with Qualtrics for their reporting within Qualtrics Employee Experience.
 
-1. In [the advanced insights app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
+1. In [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 2. Select **Person** > **Next** > **Person query for surveys** > **Set up query**.
 3. In the **Select metrics** section of the query, keep all the predefined metrics.
 4. In **Select filters**, select **Active only** for **Which measured employees do you want to include** and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](../tutorials/person-queries.md).

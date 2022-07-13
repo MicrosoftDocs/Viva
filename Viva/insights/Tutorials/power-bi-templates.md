@@ -104,7 +104,7 @@ See [Power BI documentation](/power-bi/) for details on how to use Power BI.
 
 ##### Q11 What languages are the dashboards available in?
 
-The dashboards are currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+The dashboards are currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required queries, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/...
 
 ## Troubleshooting
 
@@ -134,14 +134,14 @@ The following error (or similar 500+ error) can occur for one of the following r
 * **If you were not prompted to sign in with your organizational account** while setting up the dashboard and Power BI fails to load the data, follow these steps to clear existing permissions:
 
   1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
-  2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Clear permissions**.
+  2. Select **Global permissions**, select `https://workplaceanalytics.office.com` (or `https://workplaceanalytics-eu.office.com`), and then select **Clear permissions**.
   3. Select **Delete**.
   4. Close Power BI and follow the set up instructions for the applicable dashboard.
 
 * **If you are signed in with the wrong organizational account**, you'll get an error when loading the data with the template. To fix it, follow these steps:
 
   1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
-  2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Edit permissions**.
+  2. Select **Global permissions**, select `https://workplaceanalytics.office.com` (or `https://workplaceanalytics-eu.office.com`), and then select **Edit permissions**.
   3. For **Credentials**, select **Edit**.
   4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
   5. Select the account that you use to sign in to the advanced insights app, enter the password, and then when prompted in **OData feed**, select **Save**.
@@ -184,7 +184,7 @@ When you publish this dashboard to workspaces, they get split into two parts, re
 Do the following to reset your global permissions for the OData feed.
 
 1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
-2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Edit permissions**.
+2. Select **Global permissions**, select `https://workplaceanalytics.office.com` (or `https://workplaceanalytics-eu.office.com`), and then select **Edit permissions**.
 3. For **Credentials**, select **Edit**.
 4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
 5. Select the account that you use to sign in to the advanced insights app, enter the password, and then when prompted in **OData feed**, select **Save**.
