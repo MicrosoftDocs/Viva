@@ -34,7 +34,7 @@ The approval workflow in Viva Goals enables managers to regulate OKR workflows i
 
 4. Closed
 
-![Chart that shows the steps iun each stage of ORK approval.](../media/goals/4/44/a.png)
+![Chart shows the steps in each stage of OKR approval.](../media/goals/4/44/a.png)
    
 *Planning* and *Review* are similar and are used to indicate status. For example, an employee might plan out their OKRs and tell their manager when their OKRs are ready for review. The manager would then set them to the Review stage.
 

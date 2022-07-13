@@ -61,21 +61,21 @@ It takes frequent reminders and updates to keep goals front and center for your 
 
 To get summary updates, follow the company, team or individual. You can follow as many teams or individuals as you want. To do this, visiting the relevant OKR dashboard page available from the navigation menu.
 
-![Screen show shows how to request summary updates.](../media/goals/3/37/a.jpg)
+![Screenshot shows where you request summary updates.](../media/goals/3/37/a.jpg)
 
 You can also add other users as followers to make sure that they get summary updates for the company, team or individual. Select the **Followers** button and then select the **Add**. 
 
-![Screenshot shows where you add other followers.](../media/goals/3/37/b.jpg)
+![Screenshot shows where you add other users as followers.](../media/goals/3/37/b.jpg)
 
 ### Customize summary update cadence and frequency
 
 To customize the frequency and cadence of summary updates, select the "cog" icon next to the title pane of the dashboard. You can also select **change update time** in the alert that appears after you follow a company, team, or individual.
 
-![customize notification frequency](../media/goals/3/37/c.jpg)
+![Screenshot shows where you customize notification frequency.](../media/goals/3/37/c.jpg)
 
 Select **Custom schedule** and choose the cadence, day, and time that you want to receive updates. Select **Done** to save your settings.
 
-![Screen shot showers where you customize  notification frequency.](../media/goals/3/37/d.jpg)
+![Screenshot shows where you confirm customized notification settings.](../media/goals/3/37/d.jpg)
 
 ### Manage summary updates
 

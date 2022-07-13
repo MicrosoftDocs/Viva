@@ -255,7 +255,7 @@ By default, the owner, or  the first owner if there are multiple owners, is set 
 
 1. Hover your mouse left of the objective name until you see the icon depicted in the following image:
 
-![reorder objectives](../media/goals/3/32/a.jpg)
+   ![Screenshot shows a sample list of an employee's objectives.](../media/goals/3/32/a.jpg)
 
 2. Select and hold to grab the objective.
 

@@ -73,17 +73,17 @@ The following fields are displayed:
 |**Continue working on this in another time period?**  |   This is a field where you designate whether you want to move the objective to another time period  to keep working on it. That action postpones completion of the OKR until the next quarter. Select **Yes** or **No** based on preference.    |
 |**Closing note**  |   This is a note about the OKR you're closing. We recommend you enter an  assessment of the success/failure of the OKR and any suggestions you have for including it in future time periods. |  
 
-![Screenshot showing where you score an OKR.](../media/goals/3/36/a.jpg)
+![Screenshot shows where you score an OKR.](../media/goals/3/36/a.jpg)
 
 After you fill in all of the fields, select **Close** to save the update. The OKR dashboard will update to show your final status, a grayed-out OKR, and a number at the end of the row. 
 
-![Screenshot shows a closed OKR.](../media/goals/3/36/b.jpg)
+![Screenshot shows a closed OKR in the dashboard.](../media/goals/3/36/b.jpg)
 
 You may be wondering why a score of 1.0 is orange? After all, you completed 100 percent of the objective. Well, remember that the ideal OKR should be challenging but attainable. A score of 1.0 may indicate a need for more ambitious objectives.
 
-Objectives in Viva Goals get scored automatically after all key results under them are scored. The score is determined by averaging the percentage completion rates of its associated key results. However, sometimes the sum is greater or lesser than the parts. You can change the calculated score from the admin dashboard on the **OKRs & projects** tab.
+Objectives in Viva Goals get scored automatically after all key results under them are scored. The score is determined by averaging the percentage completion rates of its associated key results. However, sometimes the sum is greater or lesser than the parts. You can change the calculated score from the admin dashboard on the **OKRs & Projects** tab.
 
-![Screenshot shows custom scoring.](../media/goals/3/36/c.jpg)
+![Screenshot shows the OKRs & Project tab.](../media/goals/3/36/c.jpg)
 
 ### When to modify your score
 
@@ -117,15 +117,15 @@ To add Scoring Guidance, select **Add Scoring Guidance** when you create or edit
 
 Then, type your objective's guide for progress and scoring. Below, we identified milestones included in shipping a new feature and corresponding percentages of completion.
 
-![Screenshot shows scoring guidance input.](../media/goals/3/36/e.jpg)
+![Screenshot shows the scoring guidance.](../media/goals/3/36/e.jpg)
 
 After you set scoring guidance for an objective, you can view it by selecting the information icon next to the name or time period.
 
-![screenshot shows view scoring guidance.](../media/goals/3/36/f.jpg)
+![screenshot shows view the scoring guidance and status for a sample objective.](../media/goals/3/36/f.jpg)
 
 When you make check-ins, the scoring guidance will be displayed for user reference.
 
-![Second screenshot showing view scoring guidance.](../media/goals/3/36/g.jpg)
+![Second screenshot showing view scoring guidance and status for an employee's OKRs.](../media/goals/3/36/g.jpg)
 
 If you have an enterprise subscription and want this feature enabled for your organization, please have an admin account and reach out to support@xxxxx.com with the request. 
 
@@ -170,7 +170,7 @@ Sometimes, due to unforeseen circumstances, a business may need to pivot and rep
 
 There are two methods of measuring progress in Viva Goals: **Percent completed** and **KPI (success metric)**. By default, progress will be reset when an objective is postponed to the following time period. You can choose to preserve the progress you made prior to postponement.
 
-![Screenshot shows the postpone dialog box.](../media/goals/3/36/i.jpg)
+![Screenshot shows the postpone dialog box where you chose to preserve or reset current progress.](../media/goals/3/36/i.jpg)
 
 ***Percent completed***
 

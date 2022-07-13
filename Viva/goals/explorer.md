@@ -46,9 +46,9 @@ Viva Goals lets you create custom views and save the filters you use often.
 
 1. To get started, select **Explorer** from the side navigation bar and then select **Create a new view**.
 
-2. Your new add filters to customize the view.
+2. Add new add filters to customize the view.
 
-![Screenshot shows Explorer report filters.](../media/goals/4/46/a.jpg)
+![Screenshot shows Explorer filters.](../media/goals/4/46/a.jpg)
 
 The following filters are available:
 
