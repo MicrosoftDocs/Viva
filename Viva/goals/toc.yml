@@ -25,6 +25,8 @@ items:
       href: configure-okr-model.md
     - name: Manage OKR Time Periods
       href: managing-okr-time-periods.md
+    - name: Configure check-in reminders and notifications
+      href: check-in-reminders.md
     - name: Roles and Permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
 - name: Work with OKRs in Viva Goals

@@ -1,5 +1,4 @@
 ---
-
 title: Explore management and coaching data in Viva Insights
 description: Overview of the management and coaching data in Advanced insights with Viva Insights
 author: madehmer
@@ -23,7 +22,7 @@ audience: Admin
 
 ## Access to Management and coaching
 
-**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) to view it in Advanced insights.
+**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)) to view it in Advanced insights.
 
 ## Time with manager
 
