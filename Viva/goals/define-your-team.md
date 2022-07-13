@@ -25,12 +25,10 @@ description: "Learn about the key team members required for OKR success"
 
 ## Key OKR stakeholders and their functions
 
-Adopting new technology and methodology requires buy-in and support from across the business. 
+To adopt new technology and methodology, you need buy-in and support from across the business. The following key groups and team members can help bridge the technology and deliver business outcomes that matter to your organization. Each group or member has a specific role in implementation and adoption and should be engaged early and often.
 
-Below are key groups and team members who can help bridge the technology and business outcomes that matter to your organization. Each group or member has a specific role in implementation and adoption and should be engaged early and often. 
+![Picture of a table showing O K R key stakeholders.](../media/goals/1/12/a.png)
 
-![okr key stakeholder visualization](../media/goals/1/12/a.png)
+Here are the responsibilities for each role.
 
-Here are the responsibilities for each role. 
-
-![okr key stakeholder role responsibilities](../media/goals/1/12/b.png)
+![Picture of a table showing O K R stakeholder role responsibilities.](../media/goals/1/12/b.png)
