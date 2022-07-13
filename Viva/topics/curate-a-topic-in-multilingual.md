@@ -12,7 +12,7 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150   
 ms.localizationpriority:  medium
-description: Learn how to translate a topic using multilingual in Microsoft Viva Topics.
+description: Learn how to translate a topic using multilingual in Microsoft Viva Topics
 
 ---
 
