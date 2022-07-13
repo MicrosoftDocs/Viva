@@ -67,7 +67,8 @@ Learn more about how to use and implement Viva Goals in your organization to hel
 |If you're looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn how to create OKRs     |[Create OKRs](/viva/goals/creating-okrs)         |
-|Learn how to check in with OKRs| [Check-in and track progress on OKRs](/viva/goals/check-ins-and-progress-status)        |
+|Learn how to check-in with OKRs| [Check-in OKRs](/viva/goals/okr-check-ins)        |
+|Learn how to track OKR progress| [Track progress on OKRs](/viva/goals/track-okr-progress-status)        |
 |Learn how to score and close OKRs|[Close and score OKRs](/viva/goals/closing-and-scoring)       |
 |   |         |
 

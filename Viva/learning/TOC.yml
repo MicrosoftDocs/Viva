@@ -46,6 +46,8 @@
               href: configure-opensesame-content-source.md
             - name: Skillsoft
               href: configure-skillsoft-content-source.md
+            - name: Udacity
+              href: configure-udacity-content-source.md
             - name: Udemy
               href: configure-udemy-content-source.md
         - name: Free courses from LinkedIn Learning

@@ -87,13 +87,17 @@ Start with a [modern SharePoint communication site](https://support.microsoft.co
 
 After the site is built, edit site details to create a customized design that aligns with your organizations brand and identity. These [site details can be managed](https://support.microsoft.com/en-us/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b#:~:text=1%20Customize%20the%20theme.%20You%20can%20change%20the,links%20on%20your%20site%20navigation.%20For%20more%20) from **Settings** > **Change the look**.
 
-**Theme** – Select a theme that is ideal for the entire organization. If you make your home site [a hub site](/sharepoint/dev/features/hub-site/hub-site-overview), this theme will get passed down to sites that associate with the hub.
+  - **Theme** – Select a theme that is ideal for the entire organization. If you make your home site [a hub site](/sharepoint/dev/features/hub-site/hub-site-overview), this theme will get passed down to sites that associate with the hub.
 
-**Header** – Use the Compact header layout to reproduce the same look as this home site.
+  - **Header** – Use the Compact header layout to reproduce the same look as this home site.
 
-**Logo** – Select a logo that is recognizable to the entire organization.
+  - **Logo** – Select a logo that is recognizable to the entire organization.
     
-**Footer** – Footer navigation is optional and can be used to highlight popular portals and resources. 
+  - **Footer** – Footer navigation is optional and can be used to highlight popular portals and resources. 
+
+
+## Extensibility
+Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) (SPFx) to create [customized components like web parts](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts) and [Viva Connections Dashboard cards](/sharepoint/dev/spfx/viva/design/design-intro) that can be surfaced on a home site and throughout the Viva Connections experience. The SPFx is the only extensibility and customization option for Viva Connections. [Learn more about Viva Connections extensibility](/sharepoint/dev/spfx/viva/overview-viva-connections).
 
 
 ## Best practices before launching your new home site

@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.custom:
+ms.custom: intro-get-started
 ms.collection:  
 - M365initiative-viva
 - intro-overview 

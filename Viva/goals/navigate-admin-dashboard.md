@@ -33,7 +33,9 @@ Review the [Get Started with Viva Goals Learning path](/learn/paths/viva-goals-g
 
 ## How to access and use the admin dashboard
 
-To access the Viva Goals admin dashboard, go to the bottom of the left side panel and select **Admin** next to the gear icon.  
+To access the Viva Goals Admin Dashboard, navigate toward the bottom of the left side panel and select “Admin” next to the gear icon.
+
+:::image type="content" source="../media/goals/admin-option.jpg" alt-text="Screenshot showing the admin option." lightbox="../media/goals/admin-option.jpg":::
 
 Organization admins configure the Viva Goals instance and have access to settings in the admin dashboard to set up users, teams, time periods, notifications, integrations, OKRs, and projects. 
 
