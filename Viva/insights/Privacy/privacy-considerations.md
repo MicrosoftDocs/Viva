@@ -1,5 +1,4 @@
 ---
-
 title: Viva Insights privacy considerations
 description: Privacy considerations when using Advanced insights in Microsoft Viva Insights to analyze your organizational data 
 author: madehmer
@@ -25,7 +24,7 @@ A minimum group size helps maintain employee privacy by ensuring that people can
 
 ### The rule
 
-The minimum-group setting determines what you can view in [Explore the stats](../Use/Explore-Metrics-Week-in-the-Life.md) and in [Plans](../Tutorials/solutionsv2-intro.md). You can change the minimum group size to a level that's more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified with de-identified data presented in a chart.
+The minimum-group setting determines what you can view in [Explore the stats](../Use/explore-metrics-week-life.md) and in [Plans](../Tutorials/solutionsv2-intro.md). You can change the minimum group size to a level that's more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified with de-identified data presented in a chart.
 
 #### Example
 

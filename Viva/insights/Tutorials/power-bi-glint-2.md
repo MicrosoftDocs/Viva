@@ -107,9 +107,9 @@ The following is required before you can run the query in the advanced insights 
 ## Get the Viva Insights data
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of the app. Before running the required queries, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/...
 
-1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Behavior patterns for Glint** to see the required setup steps, and then in step 2, select **Set up**.
 3. When prompted, select or confirm the following settings:
 

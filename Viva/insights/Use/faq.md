@@ -231,7 +231,7 @@ This discrepancy can occur when meetings overlap. Viva Insights doesn't know whi
 
 ##### Q4. What is the total workday length assumed for calculating focus hours?
 
-A4. If measured employees or internal collaborators have their time zones defined as part of your organizational data, Viva Insights uses their individual time-zone settings for working hours, focus hours, and other time-related metrics. However, if the organizational data does not define a time zone for an employee, Viva Insights uses the default time-zone setting that your admin sets in Viva Insights for that employee. For more details, see [Time zone setting](system-defaults.md) and [Focus hours and fragmented hours](explore-metrics-week-in-the-life.md#focus-hours-and-fragmented-hours).
+A4. If measured employees or internal collaborators have their time zones defined as part of your organizational data, Viva Insights uses their individual time-zone settings for working hours, focus hours, and other time-related metrics. However, if the organizational data does not define a time zone for an employee, Viva Insights uses the default time-zone setting that your admin sets in Viva Insights for that employee. For more details, see [Time zone setting](system-defaults.md) and [Focus hours and fragmented hours](explore-metrics-week-life.md#focus-hours-and-fragmented-hours).
 
 ### Query designer
 
