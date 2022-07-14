@@ -1,4 +1,5 @@
 ---
+
 title: Explore meetings overview data in Viva Insights
 description: Overview of meetings data in Advanced insights with Microsoft Viva Insights
 author: madehmer
@@ -22,7 +23,7 @@ audience: Admin
 
 ## Access to Meetings overview
 
-**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) to view it in Viva Insights.
+**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/Agility/MeetingsOverview)) to view it in Viva Insights.
 
 ## Low-quality meeting hours
 
