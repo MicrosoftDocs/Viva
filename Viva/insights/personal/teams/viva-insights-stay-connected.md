@@ -82,6 +82,8 @@ In the following example, you can select **Re: Sync up on Regression Tests** to 
    
    ![Sync on regression tests email.](Images/sync-up.png)
 
+This insight is available in the languages listed in [Briefing languages](../briefing/be-languages.md).
+
 #### Catch up on unread documents shared with you 
 
 Have you searched for that document that you planned to read but you just cannot find it? With so many documents shared across meetings and emails, it can be difficult to stay caught up on documents shared by your colleagues. With this insight you can see a list of the shared OneDrive and SharePoint documents that you need to catch up on.  

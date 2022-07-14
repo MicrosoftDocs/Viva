@@ -1,5 +1,4 @@
 ---
-
 title: Advanced insights in Viva Insights
 description: Learn about advanced insights in Microsoft Viva Insights
 author: madehmer
@@ -15,7 +14,6 @@ ms.collection:
 - viva-insights-advanced
 manager: helayne
 audience: Admin
-
 ---
 
 # Advanced insights
@@ -33,7 +31,7 @@ Analysts can explore organizational data with advanced insights and dive deeper 
 
 ## Analysis options
 
-The advanced insights app provides advanced analysis tools for deep diving into the data shown in the [Microsoft Viva Insights app](https://insights.office.com/VivaInsights/). Analysts can analyze and explore data in the following ways.
+The advanced insights app provides advanced analysis tools for deep diving into the data shown in the [Microsoft Viva Insights app](https://insights.office.com/VivaInsights/).Analysts can analyze and explore data in the following ways:
 
 * [**Advanced insights**](../use/insights.md) provides analysis scope information and research-based behavioral insights into how an organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. If you're new to advanced insights, you will only see the [new Admin setup experience](../setup/set-up-Workplace-Analytics.md) until you get it set up.
 * **Analyze** includes the following data-analysis tools within the app:

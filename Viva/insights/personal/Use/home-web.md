@@ -42,14 +42,11 @@ With Viva Insights, you can:
 
 Only you can see your data. The same privacy protections used for your personal insights in Viva Insights in Microsoft Teams apply to this Home page. See [Privacy guide](/insights/viva-teams-app-privacy) for details.
 
-## Config Settings
+## Settings
 
-Your personalized insights are based on the working days, working hours, and time zone that you set in **Config Settings**. Changes to these settings are reflected in next week's data.
+Your personalized insights are based on the working days, working hours, and time zone that you set in **Settings** > **Work Week**. Changes to these settings are reflected in next week's data.
 
-
-You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks. For more details, see [Focus plan](/viva/insights/personal/use/focus-plan).
-
-![Config Settings.](../../Images/mya/use/config-settings.png)
+You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks in **Settings** > **Protect Time**. For more details, see [Focus plan](/myanalytics/use/focus-plan).
 
 ## Your feedback
 

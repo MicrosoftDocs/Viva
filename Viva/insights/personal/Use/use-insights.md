@@ -123,76 +123,6 @@ Within 30 minutes of when you sent qualifying email, the Viva Insights add-in  r
 
       ![Email open rates.](../../images/mya/use/step-2-two-emails-2.png)
 
-<!-- Here is the section that Vivek gave me on email open rates, the section that I am not using. Instead I'm using the one from Rishabh, just above.     
-
-## Track email open rates
-
-_**Applies to**: Viva Insights elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq#q4-how-can-i-find-out-what-my-plan-is.md)_
-
-Emails are the backbone of work communications. Better email communication can improve productivity and information sharing and speed up decision making. This insight gives you feedback on how well your sent emails are received.
-
-**Track email open rates** can tell you how many people have opened your email and the average time they spent reading that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done. Viva Insights respects user privacy; this is why:
-
- * Not all emails are eligible (For more information about eligible sent emails, see [Eligibility Criterion]())
- * Approximated values are reported, and
- * Individual recipient information is never shown.
-
-For more information about privacy, see [Email read rates](). If you need individual recipient information, learn about [request read receipts]() in Outlook.
-
-On the **Insights** panel, select **Track email open rates** to see the read statistics of eligible emails that you sent in the last 14 days:
-
-    ![Track email open rates.](../../images/mya/use/step-1-track-open-rates.png)
- 
-   If you are already have a sent email open, the **Insights** pane will show you read statistics at the top of the panel, as shown here:
-
-    ![Test email - read stats.](../../images/mya/use/test-email-read-stats.png)   
-
-   If you do not have an email open, select **Track email open rates** to see read statistics for all eligible sent emails.
-
-    ![Email open rates.](../../images/mya/use/email-open-rates-3.png)      
- 
-#### Insight option details
-
-| Card section | Notes | Recommendations |
-| ------ | ------ | ------ |
-| Email Subject	|Shows the email title  |	
-|Open Rate	|This is the proportion of the email recipients who opened your email in Outlook.<br>For more information about these statistics, see [Open rate](#open-rate). &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Depending on the importance of the email and overall open rate, you might want to follow up with the recipients. |
-| Open rate summary | Brief summary of the overall readership. |	
-| Forwards | The number of times the email was forwarded. | 	
-| Average time spent on email | The average amount of time spent on the email by people who opened it. | If you think emails are not being read or readers are not spending enough time reading, it could be because the email is too long or the content could be better organized, for example, to first call out highlights. | 
-
-### Open rate
-
-The Insights add-in reports the open rate within 30 minutes of when a qualifying email was sent by you, as per the following table. Note the following:
-
-* For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as < 25%.
-* If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
-* For open rates higher than the maximum threshold, the threshold value is reported. For example, when 98% of the email recipients open the email, the maximum value in the table will be > 95%. [[FIX WORDING IN THE PRECEDING SENTENCE! SEE INFO IN OTHER WORK ITEM WITH NITHIN.]]
-
-| Number of recipients | Open rate reported | 
-| ------ | ------ | 
-| 5 - 10 |	Minimum: 25% <br> Maximum: 75% |
-| 11 - 20 |	Minimum: 10% <br> Maximum: 90% |
-| > 21 |	Minimum: 5% <br> Maximum: 95% |
-
-### Eligibility Criterion
-Insights does not display read information about every email that you send.
-
-#### Requirement: qualifying messages
-
-Read statistics are shown only for qualifying messages. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has a cloud mailbox. Distribution lists are expanded before counting qualifying recipients. 
-
-After you send an email message, it can take up to 30 minutes before Insights informs you about it. If the email is sent from a delegated mailbox with "send on behalf" permission, the delegate can see the read statistics.
-
-##### Exceptions to qualifying messages
-
-Insights does not report about email messages in the following categories:
-
-* Email that was sent from a shared mailbox
-* Email that was sent more than 14 days ago.
-* Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
-* Email sent to modern groups. (If users are following the modern group, they are included in the count.) -->
-
 ## View outstanding tasks
 
 It is easy to lose track of commitments that you've made to your colleagues in email. The **View outstanding tasks** insight helps you make sure nothing falls through the cracks by reminding you of tasks that you've agreed to do. It is based on emails that you've sent and requests from your colleagues during the last 14 days of email communication. For example:
@@ -201,13 +131,15 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 * "Will get back to you by end of the week with a suitable meeting time"
 * A colleague asked you three days ago: "Please review this deck by the end of the week"
 
-In the **Viva Insights** pane, select **View outstanding tasks**. This insight is available only in English.
+In the **Viva Insights** pane, select **View outstanding tasks**. 
 
    ![Test email - read stats.](../../images/mya/use/test-email-read-stats.png)
 
 This opens a panel that displays insights for each of your suggested outstanding tasks.
 
    ![Suggested tasks.](../../images/mya/use/suggested-tasks-62.png)
+
+This insight is available in the languages listed in [Briefing languages](../briefing/be-languages.md).
 
 #### Insight option details
 
