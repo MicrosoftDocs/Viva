@@ -44,7 +44,7 @@ Digest emails include insights about some of the following work patterns:
 * **Wellbeing** - See if you're getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
 * **Network** - See who's in your network and make sure you're keeping up with important contacts and relationships.
 * **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
-* **Team insights** - If you're a team lead or manager with a Microsoft Viva Insights license, you'll also see insights about your team and suggestions on how to help improve or maintain your team's wellbeing and effectiveness. For more details about team insights, see [Team insights](../../use/team-insights.md). You can add or remove team members in [Config settings](dashboard-2.md#config-settings).
+* **Team insights** - If you're a team lead or manager with a Microsoft Viva Insights license, you'll also see insights about your team and suggestions on how to help improve or maintain your team's wellbeing and effectiveness. For more details about team insights, see [Team insights](../../use/team-insights.md). You can add or remove team members in [Settings](dashboard-2.md#settings).
 
 >[!Note]
 >Only you can see your data. See the [Privacy guide](../overview/privacy-guide-users.md) for details.
