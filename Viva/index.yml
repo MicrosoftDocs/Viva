@@ -100,3 +100,32 @@ productDirectory:
           text: Manage content sources          
         - url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
           text: End user help & training
+
+    # Card
+    - title: Microsoft Viva Goals (Private Preview)
+      imageSrc: media/logos/goals-launch-c-64.svg
+      links:
+        - url: /viva/goals/intro-to-ms-viva-goals
+          text: Get started
+        - url: /viva/goals/log-in-create-and-join-organizations
+          text: Setup
+        - url: /learn/paths/viva-goals-get-started
+          text: Learning path - Get started with Viva Goals
+        - url: /learn/paths/okr-leadership
+          text: Learning path - OKR leadership program
+        - url: https://go.microsoft.com/fwlink/?linkid=2193540
+          text: End user help & training
+
+    # Card
+    - title: Solutions for your business
+      imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-blue.svg
+      links:
+        - url: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
+          text: Get started with Microsoft Viva
+        - url: /viva/solutions/viva-for-the-hybrid-workplace
+          text: Use Microsoft Viva in the hybrid workplace
+        - url: /viva/solutions/introduction
+          text: Solve common business problems with accelerators
+        - url: /viva/solutions/incorporate-learning
+          text: Incorporate learning into your organization
+

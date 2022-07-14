@@ -79,6 +79,13 @@ Inform, engage, and empower -- Microsoft Viva Connections is your gateway to a m
 
 [Learn how to set it up](/sharepoint/guide-to-setting-up-viva-connections)
 
+**Viva Goals**
+Connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
+
+[Overview](/viva/goals/intro-to-ms-viva-goals)
+
+[Learn how to set it up](/viva/goals/log-in-create-and-join-organizations)
+
 **More information**
 
 [Learn about where Microsoft Viva data is stored](/microsoft-365/enterprise/o365-data-locations#what-are-the-considerations-for-microsoft-viva-data-locations)

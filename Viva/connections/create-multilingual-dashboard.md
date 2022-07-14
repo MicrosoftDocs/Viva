@@ -26,11 +26,11 @@ description: "Learn how to create a Viva Connections Dashboard in more than one 
 Create a Viva Connections Dashboard that can be viewed in multiple languages. Start by enabling the multilingual experience, select languages, and assign translators.  
 
 >[!NOTE] 
-> The option to create a multilingual Dashboard is currently available for Private Preview customers only. This feature will become generally avaiable in May 2022. 
+> The option to create a multilingual Dashboard is currently available for Private Preview customers only. This feature will become generally available in May 2022. 
 
 ## Step 1: Navigate to the Viva Connections Dashboard
 1.	Navigate to your organization’s home site.
-2.	Select **Settings**, and then **Set up Viva Connections**. Here, you will create a Dashboard and add cards for the first time or edit an existing Dashboard.
+2.	Select **Settings**, and then **Manage Viva Connections**. Here, you will create a Dashboard and add cards for the first time or edit an existing Dashboard.
 
 ## Step 2: Enable the multilingual experience and choose languages in Site settings
 1.	Select **Settings** from the top right, and then select **Site information**.

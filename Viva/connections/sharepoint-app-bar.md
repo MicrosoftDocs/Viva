@@ -22,7 +22,7 @@ description: "Use the SharePoint app bar to enhance intranet way finding, and di
 
 # Introduction to the SharePoint app bar
 
-Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global way-finding and creation experiences while dynamically displaying personalized sites, news, files, and lists. The app bar can be accessed on the left-hand side anywhere in SharePoint.
+Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar improves the global way-finding and creation experiences while dynamically displaying personalized sites, news, files, and lists. The app bar is on the left-hand side anywhere in modern sites.
 
 ![Aninimated GIF of the tabs in the SharePoint app bar.](../media/connections/app-bar-gif.gif)
 
@@ -48,6 +48,7 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > -	The SharePoint app bar may impact current page customizations, specifically those that appear on the left side. 
 > - The SharePoint app bar will not display in SharePoint for external or guest users outside of your organization.
 > - In GCC High and DoD environments users may experience a degraded experience for the My sites panel in the app bar.
+> - Some additional restrictions may apply to tenants within the GCC High and DoD environments when using My News in the SharePoint app bar.
 > -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the app bar will delay the rollout of this feature in your organization until September 30, 2022.
 > - Global navigation in the SharePoint app bar must be enabled in order for SharePoint resources to display in the [Microsoft Teams app bar for Viva Connections](viva-connections-overview.md).
 
@@ -66,6 +67,7 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 > -	Site owner permissions (or higher) to the home site are required to enable global navigation.
 > -	Users need read access (or higher) to the home site to view the global navigation links. 
 > -	[Audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) can be applied to menu links in global navigation.
+> - If you get an error after editing links to sites, try deleting the link and adding it again.
 > -	Implementing global navigation may take up to 24 hours for the changes to take effect for users.
 
 
@@ -109,7 +111,7 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
     > -	The global navigation source can be edited at any time by site owners or admins of the home site.
     > -	The site and global navigation [links and labels](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) can be edited at any time by editors of the home site.
     > -	Implementing global navigation may take up to 24 hours for the changes to take effect.
-
+    > - If you get an error after editing links to sites, try deleting the link and adding it again.
 
 ### Determine the global navigation source depending on your home site’s configuration:
 

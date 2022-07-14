@@ -48,7 +48,7 @@ Create a personalized experience by targeting Dashboard cards to specific audien
 > [!NOTE]
 > You must be a site owner of the [SharePoint home site](/sharepoint/home-site) to edit the Viva Connections Dashboard.
 
-1. From the select the **Settings** and then select **Set up Viva Connections**.
+1. From the select the **Settings** and then select **Manage Viva Connections**.
 2. Select **View Dashboard** and then select **Edit**.
 3. Select **Edit** on the card you want to apply audience targeting to.
 

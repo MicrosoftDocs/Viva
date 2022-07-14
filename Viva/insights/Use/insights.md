@@ -14,7 +14,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Advanced insights
+# Insights - Advanced
 
 These research-based behavioral insights show how your organization gets work done. Select a specific business outcome to see how your business is doing now and what actions you can take to help drive change.
 

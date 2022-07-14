@@ -33,6 +33,8 @@
               href: configure-saba-content-source.md
             - name: SAP SuccessFactors
               href: configure-successfactors-content-source.md
+            - name: Workday
+              href: configure-workday-content-source.md
         - name: Add other content providers
           href: configure-other-content-sources.md
           items:
@@ -44,6 +46,8 @@
               href: configure-opensesame-content-source.md
             - name: Skillsoft
               href: configure-skillsoft-content-source.md
+            - name: Udacity
+              href: configure-udacity-content-source.md
             - name: Udemy
               href: configure-udemy-content-source.md
         - name: Free courses from LinkedIn Learning

@@ -19,7 +19,7 @@ description: Learn how to configure Udemy as a learning content source for Micro
 
 # Configure Udemy as a content source for Microsoft Viva Learning
 
-This article shows you how to configure Udemy as a third-party learning content source for Microsoft Viva Learning.
+This article shows you how to configure Udemy as a third-party learning content source for Microsoft Viva Learning. You'll need a Microsoft Viva Suite or Viva Learning license to add Udemy as a content source for your organization.
 
 >[!NOTE]
 >Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Udemy content and any associated services are subject to Udemy's privacy and service terms.

@@ -1,0 +1,157 @@
+items:
+- name: Introduction to Viva Goals
+  href: intro-to-ms-viva-goals.md
+- name: Get Started with Microsoft Viva Goals
+  items:
+    - name: Get to Know OKRs
+      href: get-to-know-okrs.md
+    - name: Understand Organizations and Teams
+      href: understand-orgs-and-teams.md
+    - name: Define Your Team
+      href: define-your-team.md
+    - name: Determine Your Rollout Plan
+      href: determine-your-rollout-plan.md
+- name: Setup and Administration
+  items:
+    - name: Navigate the Admin Dashboard
+      href: navigate-admin-dashboard.md
+    - name: Log in, Create, and Join Organizations in Viva Goals
+      href: log-in-create-and-join-organizations.md
+    - name: Restrict Organization Creation Permissions
+      href: restrict-organization-creation-permissions.md
+    - name: Invite and Remove Users in Viva Goals
+      href: inviting-and-removing-a-user.md
+    - name: Create and Edit Teams
+      href: create-and-edit-teams-and-subteams.md
+    - name: Configure Your OKR Model in Viva Goals
+      href: configure-okr-model.md
+    - name: Manage OKR Time Periods
+      href: managing-okr-time-periods.md
+    - name: Configure check-in reminders and notifications
+      href: check-in-reminders.md
+    - name: Roles and Permissions in Viva Goals
+      href: roles-permissions-in-viva-goals.md
+- name: Work with OKRs in Viva Goals
+  items:
+    - name: Understand Views in Viva Goals
+      href: understanding-views.md
+    - name: Create OKRs
+      href: creating-okrs.md
+    - name: Align OKRs
+      href: align-okrs.md
+    - name: Update OKRs using check-ins in Viva Goals
+      href: okr-check-ins.md
+    - name: Track OKR progress status in Viva Goals
+      href: track-okr-progress-status.md
+    - name: Close and Score OKRs
+      href: closing-and-scoring.md
+    - name: Clone OKRs
+      href: cloning-objectives.md
+    - name: Manage OKRs in Viva Goals
+      href: configuring-okrs.md
+    - name: Set Up OKR Business Rhythms 
+      href: business-rhythms.md
+- name: Product Features
+  items:
+    - name: Projects
+      href: projects.md
+    - name: Review Dashboard
+      href: review-dashboard.md
+    - name: Review Dashboard Templates
+      href: review-dashboard-templates.md
+    - name: Approval Workflows
+      href: approval-workflows.md
+    - name: Tags
+      href: tags.md
+    - name: Explorer
+      href: explorer.md
+    - name: Bookmarks
+      href: bookmarks-in-viva-goals.md
+    - name: Quick Search and Hot Key Actions
+      href: quick-search-and-hot-key-support.md
+    - name: OKR Contributions
+      href: okr-contributions.md
+    - name: Share Objectives via Email
+      href: share-objectives.md
+    - name: Nudge Users 
+      href: nudge-users-to-check-in.md
+    - name: Multiple Alignment
+      href: multiple-alignment.md
+    - name: Follow Organizations, Teams and Users
+      href: follow-teams-and-user-progress.md
+    - name: Private Objectives 
+      href: private-objectives-key-results.md
+    - name: Objective Delegation
+      href: objective-delegation.md
+    - name: KPI Summary
+      href: kpi-summary.md
+- name: Integrations
+  items:
+    - name: Viva Goals Integrations Overview
+      href: integrations-overview.md
+    - name: MS Teams
+      href: ms-teams-integration.md
+    - name: Azure DevOps integration (ADO)
+      href: azure-devops-integration.md
+    - name: Viva Goals Integrations
+      items:
+        - name: Snowflake Integration
+          href: snowflake-integration.md
+        - name: Looker Integration
+          href: looker-integration.md
+        - name: BigQuery Integration
+          href: bigquery-integration.md
+        - name: Trello Integration
+          href: trello-integration.md
+        - name: Domo Integration
+          href: domo-integration.md
+        - name: Tableau Integration
+          href: tableau-integration.md
+        - name: Zendesk Integration
+          href: zendesk-integration.md
+        - name: Hubspot Integration
+          href: hubspot-integration.md
+        - name: Asana Integration
+          href: asana-integration.md
+        - name: Salesforce Integration
+          href: salesforce-integration.md
+        - name: Smartsheet Integration
+          href: smartsheet-integration.md
+        - name: Jira Integration
+          href: jira-integration.md
+        - name: Excel Online Integration
+          href: excel-online-integration.md
+        - name: GitLab Integration
+          href: gitlab-integration.md
+        - name: GitHub Integration
+          href: github-integration.md
+        - name: Box Integration
+          href: box-integration.md
+        - name: MySQL Integration
+          href: mysql-integration.md
+        - name: PostgreSQL Integration
+          href: postgresql-integration.md
+        - name: Planview Projectplace Integration
+          href: planview-projectplace-integration.md
+        - name: monday.com Integration
+          href: monday.com-integration.md
+        - name: Mode Integration
+          href: mode-integration.md
+        - name: Amazon RedShift Integration
+          href: amazon-redShift-integration.md
+        - name: MS SQL Server Integration
+          href: ms-sql-server-integration.md
+        - name: Favro Integration
+          href: favro-generating-an-api-token.md
+
+
+  
+ 
+ 
+      
+
+
+
+
+  
+       
