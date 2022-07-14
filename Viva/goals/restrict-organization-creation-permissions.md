@@ -1,5 +1,5 @@
 ---
-title: Restrict Organization Creation Permisiions
+title: Restrict Organization Creation Permissions
 ms.reviewer: 
 ms.author: ranjaliroy
 author: ranjali-MS
@@ -38,24 +38,24 @@ When you select this option, any licensed Viva Goals user, in addition to the gl
 
 Selecting this option enables you to restrict organization creation permission to only the global admins.  
 
-This is a safe option as there won’t be any confusion regarding who created an organization and why. 
+Restricting organization creation permissions to only global admins is a safe option as there won’t be any confusion regarding who created an organization and why. 
 
 ### Specific users or groups  
 
-If you have a specific set of people or if you have a group of users that you have already created, you can enter the names of the users or the group name and provide access to them. 
+If you have a specific set of users or groups you want to grant access to, you can enter the names of those users or groups.
 
-This option is useful when you wish to add specific people such as the C-suite or any top-level leadership to provide them the access to create organizations. 
+This **Specific users or groups** option is useful when you wish to add specific people such as the C-suite or any top-level leadership to provide them the access to create organizations. 
 
 ### How to set organization creation permissions 
 
 1. Log in to your Viva Goals account. 
 2. If you've directly landed in the **Create or join organizations** page, jump to step 3. If you land in an organization’s landing page (My OKR page), select the organization selection dropdown from the navigation panel on the left.  
 
-    :::image type="content" source="../media/goals/organization-picker-dropdown.png" alt-text="Select organization picker drop down." lightbox="../media/goals/5/organization-picker-dropdown.png"::: 
+    :::image type="content" source="../media/goals/organization-picker-dropdown.png" alt-text="Select organization picker dropdown." lightbox="../media/goals/5/organization-picker-dropdown.png"::: 
 
 3. Select **Create or join organization**.
 
-    :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Select Create or join organization from the drop down." lightbox="../media/goals/5/organization-picker.png":::
+    :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Select Create or join organization from the dropdown." lightbox="../media/goals/5/organization-picker.png":::
 
 4. In **Create or join organizations** page, select **Settings** in the top right corner. 
 
