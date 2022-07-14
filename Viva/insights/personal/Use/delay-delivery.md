@@ -73,7 +73,7 @@ When you opt in to the Delay delivery plan, Viva Insights aligns email delivery 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. In **Settings** > **Protect time**, change the setting for **Delay delivery** to **On**.
 
-   ![Turn on Delay delivery in the dashboard](../../Images/mya/use/delay-mya.png)
+   ![Turn on Delay delivery in the dashboard](../../Images/mya/use/delay-mya2.png)
 
 ## Opt in with Insights
 
