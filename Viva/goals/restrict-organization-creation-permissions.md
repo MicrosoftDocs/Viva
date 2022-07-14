@@ -51,22 +51,23 @@ This option is useful when you wish to add specific people such as the C-suite o
 1. Log in to your Viva Goals account. 
 2. If you've directly landed in the **Create or join organizations** page, jump to step 3. If you land in an organization’s landing page (My OKR page), select the organization selection dropdown from the navigation panel on the left.  
 
-    
+    :::image type="content" source="../media/goals/organization-picker-dropdown.png" alt-text="Select organization picker drop down." lightbox="../media/goals/5/organization-picker-dropdown.png"::: 
 
 3. Select **Create or join organization**.
 
-    :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Select Craete or join organization from the drop down." lightbox="../media/goals/5/organization-picker.png":::
+    :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Select Create or join organization from the drop down." lightbox="../media/goals/5/organization-picker.png":::
 
 4. In **Create or join organizations** page, select **Settings** in the top right corner. 
 
-    
+     :::image type="content" source="../media/goals/settings-button-org-creation-restriction.png" alt-text="Select settings button to set the organization creation restrictions." lightbox="../media/goals/settings-button-org-creation-restriction.png":::
 
 5. A menu with the three org creation permissions will appear. 
 
-    
+    :::image type="content" source="../media/goals/menu-options-org-creation-restriction.png" alt-text="Menu with the organization creation permissions options." lightbox="../media/goals/menu-options-org-creation-restriction.png":::
 
 6. Choose the appropriate option and select **Save**. If you have selected **Specific users or groups**, enter the names of those users or a group (you can select only one group) and select **Save**. 
 
-    
+    :::image type="content" source="../media/goals/special-group-org-creation-restriction.png" alt-text="Search and enter the special group or users to provide the organization creation access." lightbox="../media/goals/special-group-org-creation-restriction.png":::
+
 
  
