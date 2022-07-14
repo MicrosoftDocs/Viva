@@ -1,5 +1,5 @@
 ---
-title: Restrict Organization Creation Permissions
+title: Restrict organization creation permissions
 ms.reviewer: 
 ms.author: ranjaliroy
 author: ranjali-MS
@@ -20,7 +20,7 @@ search.appverid:
 description: "Learn how you can set organization creation permissions in Viva Goals"
 ---
 
-# Restrict Organization Creation Permissions
+# Restrict organization creation permissions
 
 As a Global Admin, you can control who can create organizations in your tenant for Viva Goals. There are three options you can choose from while setting the organization creation permissions.  
 
@@ -34,7 +34,7 @@ As a Global Admin, you can control who can create organizations in your tenant f
 
 When you select this option, any licensed Viva Goals user, in addition to the global admins, will have permission to create organizations in your Viva Goals tenant. 
 
-### Only Global Administrators 
+### Only global administrators 
 
 Selecting this option enables you to restrict organization creation permission to only the global admins.  
 
@@ -51,23 +51,23 @@ This **Specific users or groups** option is useful when you wish to add specific
 1. Log in to your Viva Goals account. 
 2. If you've directly landed in the **Create or join organizations** page, jump to step 3. If you land in an organization’s landing page (My OKR page), select the organization selection dropdown from the navigation panel on the left.  
 
-    :::image type="content" source="../media/goals/organization-picker-dropdown.png" alt-text="Select organization picker dropdown." lightbox="../media/goals/organization-picker-dropdown.png"::: 
+    :::image type="content" source="../media/goals/organization-picker-dropdown.png" alt-text="Screenshot that shows the select organization picker dropdown." lightbox="../media/goals/organization-picker-dropdown.png"::: 
 
 3. Select **Create or join organization**.
 
-    :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Select Create or join organization from the dropdown." lightbox="../media/goals/5/organization-picker.png":::
+    :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Screenshot that shows the select, create, or join organization from the dropdown." lightbox="../media/goals/5/organization-picker.png":::
 
 4. In **Create or join organizations** page, select **Settings** in the top right corner. 
 
-     :::image type="content" source="../media/goals/settings-button-org-creation-restriction.png" alt-text="Select settings button to set the organization creation restrictions." lightbox="../media/goals/settings-button-org-creation-restriction.png":::
+     :::image type="content" source="../media/goals/settings-button-org-creation-restriction.png" alt-text="Screenshot that shows the select settings button to set the organization creation restrictions." lightbox="../media/goals/settings-button-org-creation-restriction.png":::
 
 5. A menu with the three org creation permissions will appear. 
 
-    :::image type="content" source="../media/goals/menu-options-org-creation-restriction.png" alt-text="Menu with the organization creation permissions options." lightbox="../media/goals/menu-options-org-creation-restriction.png":::
+    :::image type="content" source="../media/goals/menu-options-org-creation-restriction.png" alt-text="Screenshot that shows the menu with the organization creation permissions options." lightbox="../media/goals/menu-options-org-creation-restriction.png":::
 
 6. Choose the appropriate option and select **Save**. If you have selected **Specific users or groups**, enter the names of those users or a group (you can select only one group) and select **Save**. 
 
-    :::image type="content" source="../media/goals/special-group-org-creation-restriction.png" alt-text="Search and enter the special group or users to provide the organization creation access." lightbox="../media/goals/special-group-org-creation-restriction.png":::
+    :::image type="content" source="../media/goals/special-group-org-creation-restriction.png" alt-text="Screenshot that shows the search and enter special group or users to provide the organization creation access menu." lightbox="../media/goals/special-group-org-creation-restriction.png":::
 
 
  
