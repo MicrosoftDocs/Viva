@@ -1,5 +1,5 @@
 ---
-title: Step 1: Prerequisites for setup of Yume
+title: Step 1-Prerequisites for setup of Yume
 description: Learn about the prerequisites for the setup of Yume
 author: v-smandalika
 ms.author: v-smandalika
@@ -18,7 +18,7 @@ audience: Admin
 
 # Step 1: Prerequisites for setup of Yume
 
-To set up Yume, fulfil the following prerequisites:
+To set up Yume, perform the following steps:
 
 - [Download the Yume accelerator](#download-the-yume-accelerator)
 - [Create an Azure AD Application registration](#create-an-azure-ad-application-registration)
