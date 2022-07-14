@@ -32,6 +32,9 @@ Inline suggestions are available in the latest versions of Outlook for the web a
 In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
 
 >[!Note]
+>In Outlook for the web, we're rolling out inline suggestions for when you're composing an email or a meeting invitation.
+
+>[!Note]
 >Inline suggestions are not available on mobile devices.
 
 ## Types of inline suggestions
