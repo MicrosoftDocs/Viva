@@ -71,7 +71,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
 When you opt in to the Delay delivery plan, Viva Insights aligns email delivery with your coworker's working hours. You can opt in as follows:
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. In **Settings** > **My Team**, change the setting for **Delay delivery** to **On**.
+2. In **Settings** > **Protect time**, change the setting for **Delay delivery** to **On**.
 
    ![Turn on Delay delivery in the dashboard](../../Images/mya/use/delay-mya.png)
 
