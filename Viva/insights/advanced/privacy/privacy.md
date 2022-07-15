@@ -1,4 +1,17 @@
-
+---
+ROBOTS: NOINDEX,FOLLOW
+title: Advanced insights privacy
+description: Learn more about privacy in advanced insights
+author: lilyolason
+ms.author: v-lilyolason
+ms.topic: article
+ms.localizationpriority: medium
+ms.collection: viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights
+manager: anirudhbajaj
+audience: Admin
+---
 
 # Data protection with Viva Insights
 
