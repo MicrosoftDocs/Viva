@@ -47,14 +47,14 @@ If you see a blue square within a blue circle, the query is running. The analyst
 #### Stop
 
 Selecting **Stop** freezes the query. While stopping is in progress, the query status shows **Stopping**; after the query is fully stopped, the status shows **Stopped**.
-![Query status: "Stop," "Stopping...", and "Stopped" with tooltips](../images/query-results-status-all-stopping.png)
+![Query status: "Stop," "Stopping...", and "Stopped" with tooltips](../images/query-results-status-all-stop1.png)
 
 If the analyst who ran the query wants to run this query again later, they can select **Rerun** from the **More options** menu.
 
 >[!Note]
 >Other analysts in the organization can see a query is running, but they can’t stop it.
 >
->![Query recurrence toggle with tooltip](../images/query-results-toggle-recurring-fail.png)
+>![Query recurrence toggle with tooltip](../images/query-results-toggle-recur-fail.png)
 
 #### Success
 

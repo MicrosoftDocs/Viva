@@ -25,7 +25,7 @@ As leaders figure out their organization’s new working models, the Hybrid work
 
 The report has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.
 
-![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-ga-PBI-summary.png)
+![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-ga-pbi-summary.png)
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Hybrid workforce experience** query  in Viva Insights.
 
@@ -140,7 +140,7 @@ After this initial prompt, you can then select **Settings** at top right of any 
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
 
-    ![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-ga-PBI-settings.png)
+    ![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-ga-pbi-settings.png)
 
 ## About this report
 

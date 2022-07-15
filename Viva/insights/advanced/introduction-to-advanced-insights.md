@@ -15,13 +15,15 @@ audience: Admin
 
 # Advanced insights introduction
 
+*The link to documentation for the previous platform can be accessed in the legacy application.*
+
 Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets works done—for example, the ways managers collaborate with their direct reports, such as whether employees maintain work-life balance, how to protect employee wellbeing,and the ways hybrid work affects the employee experience. 
 
-Viva Insights includes the advanced insights app, which has advanced analysis tools for deep-diving into data that's shown both within Microsoft Teams and in the app. The advanced analysis tools available in the app include different ways of analyzing and reporting custom analysis to your company’s business leaders.
+Viva Insights includes the [advanced insights app](https://go.microsoft.com/fwlink/?linkid=2201482), which has advanced analysis tools for deep-diving into data that's shown both within Microsoft Teams and in the app. The advanced analysis tools available in the app include different ways of analyzing and reporting custom analysis to your company’s business leaders.
 
 * Advanced insights [privacy](./privacy/privacy.md) explains what's important to consider for protecting your company's data and how to keep your employee's personal data private.
 * [Set up](./setup-maint/setup.md) describes what's required to set up the app before you can use the advanced insights and analysis tools.
-* Other documentation provides information on [preparing](./admin/prepare-org-data.md) and [uploading](./admin/upload-org-data-first.md) data, running [queries](./analyst/person-query.md), accessing query [results](./analyst/person-query.md)<!--update link-->, and using predefined [Power BI templates](./analyst/templates/introduction-to-templates.md).
+* Other documentation provides information on [preparing](./admin/prepare-org-data.md) and [uploading](./admin/upload-org-data-first.md) data, running [queries](./analyst/person-query.md), accessing query [results](./analyst/query-results.md), and using predefined [Power BI templates](./analyst/templates/introduction-to-templates.md).
 
 ## Navigation
 

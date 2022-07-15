@@ -147,7 +147,7 @@ After this initial prompt, you can then select **Settings** at top right of any 
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
 
-    ![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-preview-PBI1.png)
+    ![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-preview-pbi1.png)
 
 ## About this report
 
