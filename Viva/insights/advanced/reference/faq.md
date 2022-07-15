@@ -99,10 +99,6 @@ A2. No limit is imposed for Analyst roles.
 
 A3. No, they aren't ignored but they aren't measured and their data isn't processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages.  
 
-#### Q4. Do advanced insights in Viva Insights support user mailboxes in Sweden go-local?
-
-A4. No, Advanced insights in Viva Insights doesn't currently support mailboxes in Sweden go-local. To get updated data for advanced insights, you can't have licenses assigned to users with mailboxes in Sweden go-local. 
-
 ### Organizational data
 
 #### Q1. What causes a failed or an invalid upload?
