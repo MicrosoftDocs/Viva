@@ -68,7 +68,7 @@ Here’s how each platform excludes different types of meetings by default:
 |**Meeting response**| Overcounts meetings where invitee responded as “Tentative” or didn’t respond |	Excludes meetings where invitee responded as “Tentative”  or don’t respond
 |**“ShowAs” status**	| Overcounts meetings that don’t show as “Busy” on attendees’ calendars |	Excludes meetings that don’t show as “Busy” on attendees’ calendars
 |**Meeting length**|	Excludes meetings longer than eight hours |	Excludes meetings longer than 24 hours
-|**Meeting size** |	Excludes meetings with more than 249 participants and less than two participants |	Excludes meetings with less than two accepted participants
+|**Meeting size** |	Excludes meetings with more than 249 participants and fewer than two participants |	Excludes meetings with fewer than two accepted participants
 |**Canceled meetings** |	Excludes canceled meetings |	Excludes canceled meetings
 
 #### Multitasking
