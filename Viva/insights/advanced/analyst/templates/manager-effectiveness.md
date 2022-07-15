@@ -177,12 +177,10 @@ This page lists opportunity areas with related best practices and recommendation
 
 The **Glossary** describes metrics used in the report pages.
 
-<!--
-
 ## Power BI tips, FAQs, and troubleshooting
 
-For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see Power BI tips, FAQ, and troubleshooting.
-insert doc link--->
+For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](./power-bi-faq-troubleshoot.md).
+
 ## Related topic
 
 [Access query results and modify existing queries](/viva/insights/advanced/analyst/query-results.md)

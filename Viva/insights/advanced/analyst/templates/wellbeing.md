@@ -175,12 +175,9 @@ The report also includes:
 * An **Explore further** page that highlights the research and studies in each topic
 * A **Glossary page** that describes all the metrics in the report
 
-<!--
-
 ## Power BI tips, FAQs, and troubleshooting
 
-For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see Power BI tips, FAQ, and troubleshooting.
-<!--- insert doc link --->
+For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](./power-bi-faq-troubleshoot.md).
 
 ## Related topic
 

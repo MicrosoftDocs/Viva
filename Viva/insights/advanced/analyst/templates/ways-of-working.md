@@ -230,13 +230,9 @@ This page shows the distribution of employees attending the same meetings as the
 
 The report also includes a **Glossary** page that describes all the report metrics.
 
-<!--
-
 ## Power BI tips, FAQs, and troubleshooting
 
-For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see Power BI tips, FAQ, and troubleshooting.
-
--->
+For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](./power-bi-faq-troubleshoot.md).
 
 ## Related topic
 

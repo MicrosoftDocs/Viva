@@ -218,11 +218,9 @@ The report also includes the following features:
     * Use exclusion options.
 * **Glossary** that describes the metrics used in the different reports.
 
-<!--
-
 ## Power BI tips, FAQs, and troubleshooting
 
-For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see Power BI tips, FAQ, and troubleshooting. insert doc link-->
+For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](./power-bi-faq-troubleshoot.md).
 
 ## Related topic
 
