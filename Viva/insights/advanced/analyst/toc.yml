@@ -4,13 +4,13 @@ items:
   - name: Advanced insights
     items:
     - name: Introduction to advanced insights
-      href: introduction-to-advanced-insights.md
+      href: ../introduction-to-advanced-insights.md
     - name: Privacy
-      href: privacy/privacy.md
+      href: ../privacy/privacy.md
     - name: Setup and maintenance
       items:
       - name: Setup overview
-        href: setup-maint/setup-overview.md
+        href: ../setup-maint/setup-overview.md
       - name: Setup
         href: ../setup-maint/setup.md
       - name: Maintenance
