@@ -143,7 +143,7 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     >To prevent a validation error later, make sure this column is the right data type.
 
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a.
-     ![Organizational data page](../images/admin-mapping.png)
+     ![Organizational data page](../images/admin-map.png)
     >[!Tip]
     > Hover over an attribute name to read its description. 
     > ![Organizational data page](../images/admin-hover-attribute.png)
@@ -199,7 +199,7 @@ After you receive the “Success” status, you can:
 * Select the view (eye) icon to see a summary of the validation results.
 ![Validation results](../images/admin-upload-results.png)
 * Select the mapping icon to see the mapping settings for the workflow.
-![Mapping settings](../images/admin-mapping-results.png)
+![Mapping settings](../images/admin-map-results.png)
 
 >[!Note]
 >Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
