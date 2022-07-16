@@ -41,7 +41,7 @@ The following matrix shows which roles can access which features.
 
 <sup>1. People manager isn't technically a role that can be assigned. The Insights admin can enable them access to their Group insights through [Manager settings](./manager-settings.md) within the advanced insights app. </sup>
 
-<sup> 2. My team and its features are available to managers or team leads who have a Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](https://docs.microsoft.com/en-us/viva/insights/personal/teams/viva-teams-app-admin-tasks) for details. </sup>
+<sup> 2. My team and its features are available to managers or team leads who have a Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](/viva/insights/personal/teams/viva-teams-app-admin-tasks) for details. </sup>
 
 <sup>3. Insights Analysts can't upload custom organizational data files.</sup>
 
