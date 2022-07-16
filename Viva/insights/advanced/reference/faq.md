@@ -106,7 +106,8 @@ A3. No, they aren't ignored but they aren't measured and their data isn't proces
 A1. An upload can fail if the data has invalid values, if it is missing required data, or for other reasons. Refer to these articles for details:
 
 * [Validation fails](../admin/upload-org-data-first.md#validation-fails) in [Upload organizational data (first upload)](../admin/upload-org-data-first.md)
-* [Validation fails](../admin/upload-org-data-subsequent.md#validation-fails) in [Upload organizational data (subsequent uploads)](./admin/upload-org-data-subsequent.md)
+
+* [Validation fails](../admin/upload-org-data-subsequent.md#validation-fails) in [Upload organizational data (subsequent uploads)](../admin/upload-org-data-subsequent.md)
 
 #### Q2. For the required fields, what percentage is required for the validity threshold?
 
