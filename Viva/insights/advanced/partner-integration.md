@@ -23,7 +23,7 @@ This integration enables you to export and combine Microsoft Viva Insights colla
 
 ## Viva Insights data
 
-[My organization in Teams](../../use/viva-insights-my-org.md) shows what kind of Viva Insights data can be integrated with your partner application data. For details about the metrics used within Viva Insights data, see [Viva Insights metrics](metrics.md).
+[My organization in Teams](/viva/insights/use/viva-insights-my-org.md) shows what kind of Viva Insights data can be integrated with your partner application data. For details about the metrics used within Viva Insights data, see [Viva Insights metrics](metrics.md).
 
 ## Partner prerequisites
 
@@ -271,4 +271,4 @@ The recommended approach is to stream in analytics data line-by-line. Do not att
 ## Related topics
 
 * [Viva Insights API](api.md)
-* [Advanced insights metrics](metrics.md)
+* [Advanced insights metrics](../metrics.md)
