@@ -110,7 +110,7 @@ After you map fields, the app validates and processes your data as described in 
 
 After you’ve mapped attributes, the app starts validating your data.  
 
-![Validation in progress](../images/admin-validating.png)
+![Validation in progress](../images/admin-validate.png)
 
 In most cases, file validation should complete quickly. If your organizational data file is large, validation could take up to one or two minutes.
 
@@ -148,7 +148,7 @@ After you receive the “Success” status, you can:
 
 If processing fails, you’ll see a failed status in the **Upload or delete in progress** table. Selecting the link in the status brings you to an explanation of the failure.
 
-![Processing failed](../images/admin-status-processing-failed.png)
+![Processing failed](../images/admin-status-process-failed.png)
 
 Select **Edit or start new upload**. This button lets you begin the upload process again.
 
