@@ -251,4 +251,4 @@ Information about the RSA key.
 ## Related topics
 
 * [Viva Insights integration](partner-integration.md)
-* [Advanced insights metrics](advanced/analyst/metrics.md)
+* [Advanced insights metrics](analyst/metrics.md)
