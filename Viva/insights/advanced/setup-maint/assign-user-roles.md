@@ -16,7 +16,7 @@ audience: Admin
 ---
 # Assign user roles for Viva Insights
 
-People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](../use/user-roles.md) for details on what each role can do with Viva Insights. Refer to the following for assigning roles:
+People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](../../../use/user-roles.md) for details on what each role can do with Viva Insights. Refer to the following for assigning roles:
 
 * [Assign Viva Insights roles](#assign-viva-insights-roles)
 * [Assign roles to groups](#assign-roles-to-groups)
@@ -70,6 +70,6 @@ People manager isn't technically a role that can be assigned. The Insights admin
 
 ## Related topics
 
-* [Roles in Viva Insights](../use/user-roles.md)
+* [Roles in Viva Insights](../../../use/user-roles.md)
 * [Manager settings](./manager-settings.md)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
