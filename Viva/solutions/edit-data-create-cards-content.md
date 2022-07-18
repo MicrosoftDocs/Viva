@@ -1,6 +1,6 @@
 ---
-title: Edit Dataverse tables or create Yume cards content
-description: Learn how to create dataverse permissions
+title: Edit Dataverse tables or create/add Yume cards content
+description: Learn how to edit dataverse tables or create/add Yume cards content
 author: v-smandalika
 ms.author: v-smandalika
 ms.topic: article
@@ -21,7 +21,7 @@ audience: Admin
 This article describes the following tasks:
 
 - [Edit the Dataverse tables](#edit-the-dataverse-tables)
-- [Create new Yume cards content](#create-new-yume-cards-content)
+- [Create new Yume cards content](edit-data-create-cards-content.md#create-new-yume-cards-content-based-on-edit-to-table)
 
 ## Edit the Dataverse tables
 
@@ -43,7 +43,7 @@ To edit the Dataverse tables, perform the following steps:
 
    :::image type="content" source="../media/editdataverse1b.png" alt-text="The page with the drop-down list":::
 
-1. Select and save all the fields defined in the schema for Yume Cards (see [Yume Cards](#yume-cards). The page containing the schema selected from the drop-down list is displayed.
+1. Select and save all the fields defined in the schema for Yume Cards. The page containing the schema selected from the drop-down list is displayed.
 
    :::image type="content" source="../media/editdataverse1c.png" alt-text="The page showing the schema that is selected from the drop-down list":::
 
