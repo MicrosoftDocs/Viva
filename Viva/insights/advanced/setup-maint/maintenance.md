@@ -21,8 +21,7 @@ After you've installed and set up Microsoft Viva Insights, it'll require mainten
 
 ## Update privacy settings
 
-* Task – Configure the following privacy settings:
-    * Set the minimum-group size for data shown in analysis.
+* Task – Configure privacy settings: set the minimum-group size for data shown in analysis.
 * Frequency – As needed to keep the settings up to date.
 
 ## Update organizational data (optional)
@@ -42,12 +41,12 @@ After you've installed and set up Microsoft Viva Insights, it'll require mainten
 
 ## Assign roles
 
-* Task - Assign roles to individuals or groups.
-* Frequency - As needed, such as to assign a new employee a role, or when an existing employee changes roles.
+* Task – Assign roles to individuals or groups.
+* Frequency – As needed, such as to assign a new employee a role, or when an existing employee changes roles.
 
 [Assign roles](assign-user-roles.md)
 
 ## Validate and verify data
 
-* Task - Use the **Data quality** tab to verify that the organizational data is loaded and ready for use.
-* Frequency - As needed, particularly after uploading organizational data.
+* Task – Use the **Data quality** tab to verify that the organizational data is loaded and ready for use.
+* Frequency – As needed, particularly after uploading organizational data.
