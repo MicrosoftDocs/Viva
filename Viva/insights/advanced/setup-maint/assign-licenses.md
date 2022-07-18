@@ -68,4 +68,5 @@ The data that the advanced insights app with Viva Insights uses is refreshed onc
 Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data-refresh cycle is complete the following Monday.
 
 ## Related topics
-* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
+
+[About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
