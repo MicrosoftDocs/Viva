@@ -1,0 +1,76 @@
+items:
+- name: Microsoft Viva Insights
+  items:
+  - name: Advanced insights
+    items:
+    - name: Introduction to advanced insights
+      href: ../introduction-to-advanced-insights.md
+    - name: Privacy
+      href: ../privacy/privacy.md
+    - name: Setup and maintenance
+      items:
+      - name: Setup overview
+        href: ../setup-maint/setup-overview.md
+      - name: Setup
+        href: ../setup-maint/setup.md
+      - name: Maintenance
+        href: ../setup-maint/maintenance.md
+      - name: Roles and licenses
+        items: 
+        - name: Roles in Viva Insights
+          href: ../setup-maint/user-roles.md
+        - name: Assign admin roles
+          href: ../setup-maint/assign-admin-roles.md
+        - name: Assign user roles
+          href: ../setup-maint/assign-user-roles.md
+        - name: Assign licenses
+          href: ../setup-maint/assign-licenses.md
+      - name: Manager settings      
+        href: ../setup-maint/manager-settings.md
+    - name: Admin
+      items:
+      - name: Organizational data overview
+        href: ../admin/org-data-overview.md
+      - name: Prepare organizational data
+        href: ../admin/prepare-org-data.md
+      - name: Upload organizational data (first upload)
+        href: ../admin/upload-org-data-first.md
+      - name: Upload organizational data (subsequent upload)
+        href: ../admin/upload-org-data-subsequent.md
+    - name: Analyst
+      items:
+      - name: Queries
+        items:
+        - name: Person query overview
+          href: ../analyst/person-query-overview.md
+        - name: Create a Person query
+          href: ../analyst/person-query.md
+        - name: Access query results and modify existing queries
+          href: ../analyst/query-results.md  
+      - name: Templates
+        items:
+        - name: Introduction to templates
+          href: ../analyst/templates/introduction-to-templates.md
+        - name: Business resilience
+          href: ../analyst/templates/business-resilience.md
+        - name: Hybrid workforce experience
+          href: ../analyst/templates/hybrid-workforce-experience.md
+        - name: Manager effectiveness
+          href: ../analyst/templates/manager-effectiveness.md
+        - name: Ways of working
+          href: ../analyst/templates/ways-of-working.md            
+        - name: Wellbeing - balance and flexibility
+          href: ../analyst/templates/wellbeing.md
+      - name: Data quality
+        href: ../analyst/data-quality-analyst-experience.md
+      - name: Metrics
+        href: ../analyst/metrics.md
+      - name: Metric rules
+        href: ../analyst/metric-rules.md       
+    - name: Reference
+      items:
+      - name: FAQ
+        href: ../reference/faq.md
+      - name: Glossary
+        href: ../reference/glossary.md
+     
