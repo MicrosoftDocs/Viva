@@ -125,7 +125,7 @@ All the users in the group will be eligible to log into Viva Goals but only the 
 **If users are added to or removed from the group, will the list automatically reflect the change with the respective organization in Viva Goals?**
 
 - When a user is added to the AAD group that was used to invite users to an organization in Viva Goals, the user becomes automatically eligible to log in but they will not appear in the 'All Users' list until they have logged in at least once. 
-- When a user is removed from the AAD group, this change will be automatically reflected in Viva Goals as well (if the user was already present in the users list). 
+- When a user who appears in the **All Users** list is removed from the AAD group, this change will be automatically reflected in Viva Goals as well.
 
 **How can I view a deactivated or deleted user?**
 
