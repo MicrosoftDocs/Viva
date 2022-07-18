@@ -56,11 +56,17 @@ Another way to do this is to select **Users** from the menu and then select the 
 
 ## Add an AAD group via invitation
 
-To invite a group, you can select the **Add members** button by following any one of the methods mentioned above. Now, enter the AAD group name.
+To invite a group, you can select the **Add members** button by following any one of the methods mentioned above. Enter the AAD group name in the popup that appears. An invitation will be sent to the group email address. 
+
+Now, all the members in the group will be eligible to log in. The user record will get added to the **All Users** list after they log in for the first time.
+
+> Note: Every time a user is added to the AAD group, they will automatically become eligible to log into Viva Goals. However, they will need to log in, at least once, to appear under the **All Users** list.
 
 ## Remove a user 
 
 To remove a user from your organization, an admin can deactivate or delete their account: Go to **Admin** -> **Users**. Find the user you want to remove and select **Actions** -> **Deactivate** or **Actions** -> **Delete**. In either case, you'll no longer be billed for that user.
+
+If you have invited users using an AAD group, you can remove the user from the group to deactivate them in Viva Goals as well. 
 
 ### Deactivate versus delete a user
 
@@ -88,6 +94,8 @@ Admins can’t delete users who currently own any objective. To delete those use
 
 - When the organization administrator receives a request from the user to completely delete all data that can be linked back to them as per GDPR DSR regulations
 
+> Note: To find deleted or deactivated users, navigate to the **Users** tab and select the **Deactivate** filter option under the **Status** dropdown.
+
 ### Frequently asked questions
 
 **Can any group in Azure Active Directory be invited to Viva Goals?**
@@ -108,11 +116,17 @@ Yes, you can invite any group, even if you aren't a member.
 
 **Will emails be sent to all users who are part of the invited group list?**
 
-Yes. However, if the group they're a member of restricts emails by not including Viva Goals as an authorized sender, users won't receive email communications.
+Email will not be sent to individual emails. Instead, email will be sent to the group email. And, if the group they're a member of restricts emails by not including Viva Goals as an authorized sender, users won't receive email communications.
+
+**Will all users in the invited AAD group appear in the 'All Users' list?**
+
+All the users in the group will be eligible to log into Viva Goals but only the users who have logged in at leasy once will appear in the **All Users** list.
 
 **If users are added to or removed from the group, will the list automatically reflect the change with the respective organization in Viva Goals?**
 
 - When a user is added to the AAD group that was used to invite users to an organization in Viva Goals, the user becomes automatically eligible to log in but they will not appear in the 'All Users' list until they have logged in at least once. 
 - When a user is removed from the AAD group, this change will be automatically reflected in Viva Goals as well. 
 
-**How can I view a deactivated user
+**How can I view a deactivated or deleted user?
+
+Go to **Admin**->**Settings** and under **Users** tab, select the **Status** dropdown and select **Deactivated**.
