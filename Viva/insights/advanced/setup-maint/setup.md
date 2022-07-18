@@ -17,9 +17,9 @@ audience: Admin
 
 # Set up advanced insights
 
-Although the Microsoft 365 admin and the Viva Insights admin do most of these steps, others in your organization help make decisions that relate to setup. See Determine key personas  for implementation for details.
+Although the Microsoft 365 admin and the Viva Insights admin do most of these steps, others in your organization help make decisions that relate to setup.
 
-**Prerequisites** - See [Environment requirements](/viva/insights/setup/Environment-Requirements.md) to learn about Viva Insights licenses and other related requirements.
+**Prerequisites** - See [Environment requirements]([Environment requirements](/viva/insights/Setup/Environment-Requirements?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn about Viva Insights licenses and other related requirements.
 
 ## Setup steps
 
