@@ -120,12 +120,12 @@ Email will not be sent to individual emails. Instead, email will be sent to the 
 
 **Will all users in the invited AAD group appear in the 'All Users' list?**
 
-All the users in the group will be eligible to log into Viva Goals but only the users who have logged in at leasy once will appear in the **All Users** list.
+All the users in the group will be eligible to log into Viva Goals but only the users who have logged in at least once will appear in the **All Users** list.
 
 **If users are added to or removed from the group, will the list automatically reflect the change with the respective organization in Viva Goals?**
 
 - When a user is added to the AAD group that was used to invite users to an organization in Viva Goals, the user becomes automatically eligible to log in but they will not appear in the 'All Users' list until they have logged in at least once. 
-- When a user is removed from the AAD group, this change will be automatically reflected in Viva Goals as well. 
+- When a user is removed from the AAD group, this change will be automatically reflected in Viva Goals as well (if the user was already present in the users list). 
 
 **How can I view a deactivated or deleted user?**
 
