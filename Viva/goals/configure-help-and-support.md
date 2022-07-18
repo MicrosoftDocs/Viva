@@ -37,7 +37,7 @@ To configure the help and support options, go to **Admin Dashboard** -> **Settin
 
 On enabling the configuration, you'll be able to: 
 
-1. Change the menu item name, which will appear in the help menu. Default is “<your org name> help”. 
+1. Change the menu item name, which will appear in the help menu. Default is “{your org name} help”. 
 
 2. You can also update the tooltip text to something more suitable if necessary. This can guide your users on when to use these resources. 
 
