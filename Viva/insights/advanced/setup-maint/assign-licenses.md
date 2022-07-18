@@ -32,7 +32,7 @@ After you've identified the population in scope, the Microsoft 365 global admin 
 The assignment of licenses affects the measured population that is shown in **Organizational data > Data quality**.
 
 >[!Note]
->Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json).
+>Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements](/viva/insights/setup/environment-requirements.md?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ### Subscription status
 
