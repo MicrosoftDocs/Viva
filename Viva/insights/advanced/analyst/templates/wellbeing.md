@@ -44,7 +44,7 @@ The following demonstration uses sample data that’s only representative of thi
 
 Before you can run the queries and populate the report in Power BI, you’ll need to:
 
-* Be assigned the role of Insights Analyst in Viva Insights.
+* Be assigned the role of **Insights Analyst** in Viva Insights.
 * Have the June 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/) to download and install the latest version.
 
 ## Report setup
@@ -72,7 +72,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     
         Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
 
-        * Power BI queries are set to **Group by Week**. Do not change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. Don't change this **Group by** designation.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
 ![Wellbeing query setup](/viva/insights/advanced/images/wellbeing-pbi-setup.png)
 
@@ -80,7 +80,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 ![Wellbeing query predefined metrics](/viva/insights/advanced/images/wellbeing-pbi-predefined-metrics.png)
 
     >[!Note]
-    > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath Metrics, filters, and organizational attributes.
+    > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
 
 5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Person queries](../person-query.md).
 
@@ -94,7 +94,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 ### Link report to query
 
-9. Open the downloaded Wellbeing - balance and flexibility template.
+9. Open the downloaded **Wellbeing - balance and flexibility** template.
 
 10. If prompted to select a program, select **Power BI**.
 
@@ -106,11 +106,11 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 12. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data, which can take a few minutes to complete for large files.
 
 >[!Important]
-> You must sign in to Power BI with the same account you use to access Viva Insights.
+> You need to sign in to Power BI with the same account you use to access Viva Insights.
 
 ## Report settings
 
-After the **Wellbeing - balance and flexibility** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. Then, view and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the Settings icon.
+After the **Wellbeing - balance and flexibility** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. Then, view and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
 
 ![Wellbeing report summary page](/viva/insights/advanced/images/wellbeing-pbi-summary.png)
 
