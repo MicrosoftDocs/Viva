@@ -17,7 +17,7 @@ audience: Admin
 
 # Power BI report templates
 
-The **Analyst > Analysis** page in Microsoft Viva Insights includes a number of predefined Power BI templates that analysts can use to visually analyze workplace collaboration patterns and trends. A template prepopulates a custom query and selects the applicable Power BI charts to show the query results.
+The **Analysis** page in Microsoft Viva Insights includes a number of predefined Power BI templates that analysts can use to visually analyze workplace collaboration patterns and trends. A template prepopulates a custom query and selects the applicable Power BI charts to show the query results.
 
 ## Requirements for analysts
 
