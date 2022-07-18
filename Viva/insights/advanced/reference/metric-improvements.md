@@ -51,7 +51,7 @@ The new platform collects both *chat message sent* and *chat message read* signa
 |                  |Old platform |New platform|
 |------------------|---------|--------|
 |**Chat messages sent**|Supported  |Supported |
-|**Chat messages read**|No *chat message read signal*. It was assumed that users read every chat message they receive.   |
+|**Chat messages read**|No *chat message read signal*. It was assumed that users read every chat message they receive.   | Signal ingested for greater accuracy
 
 #### Meeting exclusion rules
 
@@ -75,7 +75,7 @@ Here’s how each platform excludes different types of meetings by default:
 
 *Metric name: **Multitasking hours***
 
-The old platform classifies **Multitasking hours** based on the number of emails sent during a meeting. If that number goes over a certain threshold, then the whole meeting duration is marked as multitasking. Let’s say you send two emails right at the start of an hour-long meeting—in the old platform, that whole hour is tagged as multitasking. This method, as we learned from our data validation, often leads to overcounting of multitasking meeting hours.
+The old platform classifies **Multitasking hours** based on the number of emails sent during a meeting. If that number goes over a certain threshold, then the whole meeting duration is marked as multitasking. Let’s say you send two emails right at the start of an hour-long meeting—in the old platform, that whole hour would be tagged as multitasking. This method, as we learned from our data validation, often leads to overcounting of multitasking meeting hours.
 
 The new platform, however, considers the actual time that activities are overlapping—for example, the time you spent reading an email during a meeting.
 
@@ -175,10 +175,10 @@ In addition to updated metrics for improved data analysis, the shift to the new 
 * Support of regional data-residency requirements
 * Weekly data refreshes
 * Ability to use: 
-    * Azure Active Directory data to supply organizational structure and attributes and 
+    * Azure Active Directory data to supply organizational structure and attributes *and* 
     * Your own organizational data file to supply custom attributes
 * New features and insights, including:
-* New Power BI report templates 
-* Qualtrics and Glint Connectors
-* Automatic HR data upload
+    * New Power BI report templates 
+    * Qualtrics and Glint Connectors
+    * Automatic HR data upload
 
