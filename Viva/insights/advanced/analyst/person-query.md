@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
 title: Person query
-description: Learn how to run a custom Person query in the Microsoft Viva Insights advanced insights app
+description: Learn how to run a Custom Person query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -41,15 +41,13 @@ In **Query setup**, you define some basic information about your query, like its
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
 
     4. Optional: Type a **Description**.
-    1. Optional: Set how the query is grouped. Custom person queries are grouped by **Month** by default. To change this setting to **Week**, select **More settings** beneath the **Description** box.
+    1. Optional: Set how the query is grouped. Custom Person queries are grouped by **Month** by default. To change this setting to **Week**, select **More settings** beneath the **Description** box.
         :::image type="content" source="../images/more-settings.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
         Selecting **More settings** brings you to the **More settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
     >[!Note]
     > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
     >
-    > To learn more about metrics used in Viva Insights, refer to [Metric definitions](./metrics.md). To learn more about metric rules, refer to Metric rules.
-<!--- Insert all screenshots. --->
-<!--- Add Metric rules link. --->
+    > To learn more about metrics used in Viva Insights, refer to [Metric definitions](./metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
 
 ### Metrics 
 
@@ -114,7 +112,7 @@ The app predefines one condition for you: “Is Active.” If you leave this con
 
 Beneath the **Add condition** and **Add condition group** buttons, you’ll see a number for **Total employees** and **Measured employees**. These numbers represent how many employees could be measured and how many employees the query is actually measuring, respectively. Checking these numbers before running your query can help you determine whether you’ve selected the right conditions and condition groups.
 
-### Employee attributes 
+### Employee attributes
 
 #### About employee attributes
 
@@ -144,9 +142,9 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
 After your query runs, you can access its results in the **Query results** page. On the **Query results** page, you can also edit and clone your query. For further information, refer to [Query results](./query-results.md).
 
-## Example person query for after-hours communication
+## Example Person query for after-hours communication
 
-Let’s say you wanted to run a custom Person query to find out how often managers are emailing and sending Teams chats after their working hours. You want to:
+Let’s say you wanted to run a Custom Person query to find out how often managers are emailing and sending Teams chats after their working hours. You want to:
 
 * Analyze your company’s “West” organization only, which is provided in your employee data.
 * See data for the last six months, grouped by month.
