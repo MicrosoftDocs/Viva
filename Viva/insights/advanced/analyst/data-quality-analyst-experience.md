@@ -44,7 +44,7 @@ To check on the quality of your data, and to see which insights are missing or o
 
 You can get to the **Organizational data** page in two ways: Either by directly selecting it from the app’s left pane, or by selecting **View data quality** within a banner message (described later in this article).
 
-The **Organizational data** page contains two tabs: **Data hub** and **Data quality**. 
+The **Organizational data** page contains two tabs: **Data hub** and **Data quality**.
 
 #### Data hub
 
