@@ -11,7 +11,7 @@ items:
       items:
       - name: Setup overview
         href: ../setup-maint/setup-overview.md
-      - name: Setup
+      - name: Set up advanced insights
         href: ../setup-maint/setup.md
       - name: Maintenance
         href: ../setup-maint/maintenance.md

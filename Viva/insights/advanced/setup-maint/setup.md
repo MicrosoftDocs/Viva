@@ -15,7 +15,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Set up Viva Insights
+# Set up advanced insights
 
 Although the Microsoft 365 admin and the Viva Insights admin do most of these steps, others in your organization help make decisions that relate to setup. See Determine key personas  for implementation for details.
 
@@ -41,7 +41,7 @@ Although the Microsoft 365 admin and the Viva Insights admin do most of these st
     1. Select **Save changes**.
 
     After you've finished making both the system defaults and the privacy settings, select **Save changes**.
-    <!--- Add link for privacy doc --->
+    
     ![Privacy settings page](../images/privacy-settings1.png)
 
 
