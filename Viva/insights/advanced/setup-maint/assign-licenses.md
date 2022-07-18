@@ -52,7 +52,7 @@ Microsoft 365 users might want to find out whether their collaboration data is b
 Viva Insights licenses are assigned just like other Microsoft 365 product licenses. You can assign them by using the [Microsoft 365 admin center​](/microsoft-365/admin/add-users/add-users), PowerShell, or Azure [group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign):
 
 >[!Note]
->Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Microsoft 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level. 
+>Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Microsoft 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
 
 ### If mailboxes are not fully migrated to Microsoft 365 Exchange Online
 
