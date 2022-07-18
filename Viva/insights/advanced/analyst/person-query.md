@@ -15,7 +15,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Create a custom person query
+# Create a Custom Person query
 
 >[!Tip]
 > You can find a demo video, download sample results, and go through a "Show me how" explanation while you’re building your query. Select these options just above **Query setup**.
@@ -39,6 +39,7 @@ In **Query setup**, you define some basic information about your query, like its
         :::image type="content" source="../images/person-query-auto-refresh-with-tooltip.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
     >[!Note]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
+
     4. Optional: Type a **Description**.
     1. Optional: Set how the query is grouped. Custom person queries are grouped by **Month** by default. To change this setting to **Week**, select **More settings** beneath the **Description** box.
         :::image type="content" source="../images/more-settings.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
@@ -68,13 +69,9 @@ In the **Select metrics** pane, metrics are grouped by *metric category*. You ca
 
 ###### Filters, keyword search, and more information
 
-There are a few other ways to find which metrics you want to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane. You can also use the search bar to find metrics by keyword. When you select **Filter by Power BI templates**, metrics used in [Power BI templates](./templates/introduction-to-templates.md) appear. 
+There are a few other ways to find which metrics you want to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane. You can also use the search bar to find metrics by keyword. If you're building a Power BI query, you can select **Filter by Power BI templates** to see applicable metrics used in [Power BI templates](./templates/introduction-to-templates.md). 
 
 To find out more about a metric, hover over its information icon.
-
-:::image type="content" source="../images/metric-hover.png" alt-text="Expanded metric definition from information icon next to metric":::
-
-<!--Need to replace this screenshot. Metrics have been renamed. have this now-->
 
 ### To add metrics to your query
 
@@ -125,9 +122,7 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
 * Improves data analysis with fewer columns in a smaller file.
 * Further protects private data by excluding columns from the file.
-* Enables you to select Clear all to clear the selected columns.
-
-<!---Insert .csv output screenshot--->
+* Enables you to select **Clear all** to clear the selected columns.
 
 #### To add employee attributes to your query
 
@@ -139,8 +134,7 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
     >[!Note]
     >
-    >If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly. For more information on errors, refer to Organizational data in the analyst experience.
-<!---Insert Select attributes screenshot and right pane screenshots beneath step b. Insert a new screenshot of a red-tagged attribute. Insert link to the org data in analyst experience--->
+    >If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly.
 
 ## Running the query
 
@@ -187,7 +181,6 @@ Here’s how you might do that:
     1. Select the **Add to query** button.
 5. It’s time to run the query. On the upper right of the screen, select the **Run button**.
 6. After the query successfully runs, you can find its results in the **Query results** page. To:
-    1. View your query results within the app: Select the query name (alternately, select the ellipses to the right of the **Download** column and select View query).
     1. Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
     1. **Edit**, **Edit query name**, **Clone**, **Favorite**, or **Delete** the query: Select the ellipses to the right of the **Downloads** column, then select the appropriate choice. 
 
