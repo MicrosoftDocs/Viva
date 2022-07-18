@@ -47,7 +47,7 @@ The app's metric rules:
     * If there are less than two participants.
     * If the event is set to show as anything other than "Busy" on participant's calendars.
 
-![Meeting attendance rule](/viva/insights/advanced/images/meeting-exclusions-rule.png)
+![Meeting exclusions rule](/viva/insights/advanced/images/meeting-exclusions-rule1.png)
 
 ### Rule exceptions
 
