@@ -22,7 +22,7 @@ items:
         - name: Assign admin roles
           href: ./setup-maint/assign-admin-roles.md
         - name: Assign user roles
-          href: ../setup-maint/assign-user-roles.md
+          href: ./setup-maint/assign-user-roles.md
         - name: Assign licenses
           href: ./setup-maint/assign-licenses.md
         - name: Environment requirements
