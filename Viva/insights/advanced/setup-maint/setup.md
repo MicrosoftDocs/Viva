@@ -42,7 +42,7 @@ Although the Microsoft 365 admin and the Viva Insights admin do most of these st
 
     After you've finished making both the system defaults and the privacy settings, select **Save changes**.
     
-:::image type="content" source="../images/privacy-settings1.png" alt-text="Privacy settings page" lightbox="../images/privacy-settings1.png":::
+:::image type="content" source="../images/privacy-settings1.png" alt-text="Screenshot of the privacy settings page." lightbox="../images/privacy-settings1.png":::
 
 3. **Prepare organizational data (optional)**: Export organizational data from your HR system into a UTF-8 encoded .csv file. For information about what data to export and how to structure it, see Prepare organizational data.
     1. Map data – Map the uploaded data to the applicable field names. For details, refer to [Field mapping](../admin/upload-org-data-first.md#field-mapping).
