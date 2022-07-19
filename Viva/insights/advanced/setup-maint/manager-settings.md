@@ -17,14 +17,14 @@ audience: Admin
 
 # Manager settings
 
->[!Important] 
+>[!Important]
 > Manager settings only control **Group insights** within **My team** in the Viva Insights app in Teams. To set up or disable the **My team** page, refer to [Admin tasks](/viva/insights/personal/teams/viva-teams-app-admin-tasks).
 
 As an admin for Microsoft Viva Insights, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team. 
 
 Only managers whose team meets or exceeds the **Minimum team size** setting can access **Group insights** within **My team** in Viva Insights in Teams. The other admin tasks required for Group insights access are the same as for access to **My team**. See [Admin tasks](/viva/insights/personal/teams/viva-teams-app-admin-tasks.md) for details.
 
-The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. The following are based on AAD data by default, or the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
+The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. The following are based on Azure Active Directory data by default, or the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
 
 * **Measured managers** – Managers who are assigned licenses can see their team's insights through Group insights within My team in Viva Insights in Teams.
 * **Managers enabled** – Only managers who meet the minimum team size can view their team's insights.
@@ -32,9 +32,9 @@ The size of the team counts the manager and all the employees who directly or in
 
 ## To configure manager settings
 
-Viva Insights admins can access **Manager settings**. Also, before managers can access Viva Insights in Teams or in the advanced insights app, they must be assigned a license and have a team that meets or exceeds the Minimum team size setting.
+Insights admins can access **Manager settings**. Before managers can access Viva Insights in Teams or in the advanced insights app, they need to be assigned a license and have a team that meets or exceeds the **Minimum team size** setting.
 
-![Manager settings](../images/manager-settings.png)
+:::image type="content" source="../images/manager-settings.png" alt-text="Screenshot of Manager settings page." lightbox="../images/manager-settings.png":::
 
 1. In **Manager settings**, check the box to allow managers with the minimum team size access to their team data in Viva Insights.
 ![Manager settings](../images/manager-settings-check-box.png)

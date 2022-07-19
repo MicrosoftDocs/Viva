@@ -33,11 +33,11 @@ The following matrix shows which roles can access which features.
 |   |  | **My team**<sup>2</sup> | View Group insights about your   team in **My team**  |   |   |   | X |
 |   |  | **My organization**    | View highlights about your   organization in **My organization**  |   |   | X |   |
 | Viva Insights advanced insights app |  |   |   |   |   |     |   |
-|   |  | **Analysis** | Landing page for Analysis. View recent queries, PBI templates and build custom queries.  |   | X |   |   |
+|   |  | **Analysis** | Landing page for analysts. View recent queries, Power BI templates, and build custom queries.  |   | X |   |   |
 |   |  | **Query results** | View query results |   | X |   |   |
-|   |  | **Organizational data** | Verify if  organizational data quality is good enough for analysis and upload   custom organizational data file. | X | X<sup>3</sup>|   |   |
-|   |  | **Privacy settings** | Manage privacy   settings  | X |   |   |   |
-|   |  | **Manager settings** | Turn on/off group   insights; select eligible   managers for group insights | X |   |   |   |
+|   |  | **Organizational data** | Verify whether organizational data quality is high enough for analysis and upload custom organizational data files | X | X<sup>3</sup>|   |   |
+|   |  | **Privacy settings** | Manage privacy settings  | X |   |   |   |
+|   |  | **Manager settings** | Turn on/off group insights; select eligible managers for group insights | X |   |   |   |
 
 <sup>1. People manager isn't technically a role that can be assigned. The Insights admin can enable them access to their Group insights through [Manager settings](./manager-settings.md) within the advanced insights app. </sup>
 
@@ -93,10 +93,10 @@ The size of your organization and your requirements for managing organizational 
 
 You can assign multiple roles to one person. It's up to your organization to choose who is assigned which role or roles. For example:
 
-* One person can be both a Microsoft 365 admin and a Viva Insights Administrator.
-* One person can be both a Viva Insights administrator and an analyst. However, it is a best practice to assign the admin and analyst roles to different people to prevent any misuse of or external linking of organizational data with collaboration metrics.
+* One person can be both a **Microsoft 365 admin** and an **Insights Administrator**.
+* One person can be both an **Insights Administrator** and an **Insights Analyst**. However, it's a best practice to assign the admin and analyst roles to different people to prevent any misuse of or external linking of organizational data with collaboration metrics.
 
-In the Azure Portal, you can assign multiple roles to one account, but you can assign only one role at a time. In the Azure portal, add the first role, choose **Select**, return to the user list, and then select the same account again to choose the next role for that account. Note that role assignment is performed in the Azure Portal and not in the Microsoft 365 or Office 365 dashboard.
+In the Azure portal, you can assign multiple roles to one account, but you can assign only one role at a time. In the Azure portal, add the first role, choose **Select**, return to the user list, and then select the same account again to choose the next role for that account. Note that role assignment is performed in the Azure portal and not in the Microsoft 365 or Office 365 dashboard.
 
 ## Related topics
 
