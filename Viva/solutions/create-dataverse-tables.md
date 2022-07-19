@@ -55,6 +55,6 @@ audience: Admin
 
    :::image type="content" source="../media/tables-yume-card-data.png" alt-text="Tables containing Yume card data":::
 
-Once you create the Dataverse table, you must import the data into this table. See [Import data into Dataverse tables](import-data-into-dataverse-tables.md#step-4-import-data-into-dataverse-tables).
+Once you create the Dataverse table, you must import the data into this table. See [Import data into Dataverse tables](import-data-into-dataverse-tables.md#step-4---import-data-into-dataverse-tables).
 
 You can also edit/update the data in the Dataverse tables, based on your requirement. For information on how to do this task, see [Edit the Dataverse tables](edit-data-create-cards-content.md#edit-the-dataverse-tables). Note that if you edit/update the Dataverse table, you must (mandatorily) add content with regard to the Yume cards. For information on how to add Yume cards content in the Dataverse table, see [Create new Yume Cards content](edit-data-create-cards-content.md#create-new-yume-cards-content-based-on-edit-to-table).
