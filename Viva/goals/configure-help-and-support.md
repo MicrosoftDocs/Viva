@@ -41,13 +41,13 @@ On enabling the configuration, you'll be able to:
 
 2. You can also update the tooltip text to something more suitable if necessary. This can guide your users on when to use these resources. 
 
-3. Add contact information. It can be of two types 
+3. Add help and support resources. These can be of two types: 
 
-    a. Links – you can add links to an MS Teams channel, ticketing system or other help resources. You can include a name to describe what the users should expect in the link. 
+    a. Links – you can add links to an MS Teams channel, ticketing system or other help resources. You can specify a name to describe what the users should expect in the link. 
 
     b. Contacts – You can specify the contact's name or description. You can add email, phone number, or any other kind of contact information. Use comma to separate different kinds of contact information, so that they'll appear in different lines. You can add up to five lines for a contact. 
   
-:::image type="content" source="../media/goals/contact-info-dropdown.png" alt-text="Use the dropdown to add contact information for your organization." lightbox="../media/goals/contact-info-dropdown.png":::
+:::image type="content" source="../media/goals/contact-info-dropdown.png" alt-text="Use the dropdown to add help and support resources for your organization." lightbox="../media/goals/contact-info-dropdown.png":::
 
 As you make the changes, you'll be able to see a live preview of how it will appear to the users. 
   
@@ -61,6 +61,6 @@ On saving, the menu will start appearing in the help section for users of your o
 
 ## Disable help and support 
 
-You can use the toggle to disable help and support resources configured by you. You'll be shown a prompt to confirm. On confirmation, the help resources configured by you will disappear from the help menu. 
+You can use the toggle to disable help and support resources configured by you. You'll be shown a prompt to confirm. On confirmation, the help resources configured by you will disappear from the help menu for all users in the organization. 
 
 Note: You'll lose the configuration once you disable help and support. 
