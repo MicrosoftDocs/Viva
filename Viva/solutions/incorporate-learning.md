@@ -11,7 +11,8 @@ ms.service: viva
 ms.subservice: viva-learning
 ms.collection: 
 - M365-analytics
-- viva-learning
+- viva-learning 
+- m365solution-overview
 manager: pamgreen
 audience: Admin
 ---
