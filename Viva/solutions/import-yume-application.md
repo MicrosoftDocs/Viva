@@ -16,7 +16,7 @@ manager: dansimp
 audience: Admin
 ---
 
-# Step 5-Import the Yume application
+# Step 5 - Import the Yume application
 
 To import the Yume application, perform the following steps:
 1. Download the Yume PowerApp zip file from the VivaSolutions GitHub repository if not already downloaded as part of the prerequisites.

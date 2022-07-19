@@ -16,7 +16,7 @@ manager: dansimp
 audience: Admin
 ---
 
-# Step 1: Prerequisites for setup of Yume
+# Step 1 - Prerequisites for setup of Yume
 
 To set up Yume, perform the following steps:
 

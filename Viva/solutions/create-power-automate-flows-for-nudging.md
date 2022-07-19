@@ -16,7 +16,7 @@ manager: dansimp
 audience: Admin
 ---
 
-# Create the Power Automate flows for nudging
+# Step 6 - Create the Power Automate flows for nudging
 
 To create the Power Automate flows for nudging, perform the following steps:
 1. Download Task and Meeting zip file.

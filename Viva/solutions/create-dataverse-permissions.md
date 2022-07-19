@@ -16,7 +16,7 @@ manager: dansimp
 audience: Admin
 ---
 
-# Step 3-Create Dataverse permissions
+# Step 3 - Create Dataverse permissions
 
 To create Dataverse permissions, perform the following steps:
 

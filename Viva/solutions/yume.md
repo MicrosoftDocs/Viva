@@ -25,3 +25,14 @@ Yume is an employee-driven solution to support 1:1 interaction between employees
 1.	An employee has a challenge (for example, work-life balance and personal situation) that they want to bring up to their manager, but is unsure how to.
 2.	An employee wants to explore, discuss and/or focus on their career growth and development.
 3.	An employee is a new hire and wants to build a relationship with their new manager.
+
+## Create the solution
+
+The next sections will go into detail about how to configure your Yume application for usage. It's divided into six steps:
+
+- [Step 1 - Prerequisites for setup of Yume](prerequisities-for-yume.md#step-1---prerequisites-for-setup-of-yume)
+- [Step 2 - Create Dataverse tables](create-dataverse-tables.md#step-2---create-dataverse-tables)
+- [Step 3 - Create Dataverse permissions](create-dataverse-permissions.md#step-3---create-dataverse-permissions)
+- [Step 4 - Import data into Dataverse tables](import-data-into-dataverse-tables.md#step-4---import-data-into-dataverse-tables)
+- [Step 5 - Import the Yume application](import-yume-application.md#step-5---import-the-yume-application)
+- [Step 6 - Create the Power Automate flows for nudging](create-power-automate-flows-for-nudging.md#step-6---create-the-power-automate-flows-for-nudging) (This is an optional step)

@@ -16,7 +16,7 @@ manager: dansimp
 audience: Admin
 ---
 
-# Step 4-Import data into Dataverse tables
+# Step 4 - Import data into Dataverse tables
 
 To import data into the Dataverse tables, perform the following steps:
 1. Download the Yume Card Data V3 initial content CSV file from the VivaSolutions GitHub repository if not already downloaded as part of the prerequisites.

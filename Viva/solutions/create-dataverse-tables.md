@@ -16,7 +16,7 @@ manager: dansimp
 audience: Admin
 ---
 
-# Step 2-Create Dataverse tables
+# Step 2 - Create Dataverse tables
 
 1. Create the Dataverse tables that are described below. For more information on creating Dataverse tables, see [Create a custom table](/power-apps/maker/data-platform/data-platform-create-entity).
 
