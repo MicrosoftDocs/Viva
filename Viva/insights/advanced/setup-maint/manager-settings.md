@@ -34,7 +34,7 @@ The size of the team counts the manager and all the employees who directly or in
 
 Insights admins can access **Manager settings**. Before managers can access Viva Insights in Teams or in the advanced insights app, they need to be assigned a license and have a team that meets or exceeds the **Minimum team size** setting.
 
-![Manager settings](../images/manager-settings.png)
+:::image type="content" source="../images/manager-settings.png" alt-text="Screenshot of Manager settings page." lightbox="../images/manager-settings.png":::
 
 1. In **Manager settings**, check the box to allow managers with the minimum team size access to their team data in Viva Insights.
 ![Manager settings](../images/manager-settings-check-box.png)

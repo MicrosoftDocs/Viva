@@ -27,7 +27,7 @@ After you've installed and set up Microsoft Viva Insights, it'll require mainten
 ## Update organizational data (optional)
 
 * Task – Prepare a .csv file that contains organizational data and upload it to the advanced insights app.
-* Frequency – Update organizational data as frequently as you like; however, it will be refreshed upon the latest Microsoft 365 collaboration data. Because email, calendar, and Microsoft Teams data is updated weekly, it makes sense to update this data on a similar cadence in Viva Insights.
+* Frequency – Update organizational data as frequently as you like; however, it will be refreshed upon the latest Microsoft 365 collaboration data. Because email, calendar, and Microsoft Teams data are updated weekly, it makes sense to update this data on a similar cadence in Viva Insights.
 
 [Prepare organizational data](../admin/prepare-org-data.md)
 [Upload organizational data (subsequent uploads)](../admin/upload-org-data-subsequent.md)

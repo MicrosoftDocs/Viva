@@ -25,7 +25,7 @@ Your admin needs to set up Viva Insights for personal insights before you can st
 
 ## Team insights and group insights
 
-My team and its features are available to managers or team leads who have a Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments). Additional features are available to group managers with the manager role. Your admin needs to do the following things before you can start using what’s available in Viva Insights for group and team insights.
+My team and its features are available to managers or team leads who have a Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments.md). Additional features are available to group managers with the manager role. Your admin needs to do the following things before you can start using what’s available in Viva Insights for group and team insights.
 
 For Team insights:
 
