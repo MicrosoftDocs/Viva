@@ -148,7 +148,7 @@ This page highlights three key aspects that help you identify employees' flexibi
 
 * **Flexible start times** – Shows the percentage of weeks in which the employees have at least one day of flexible start time in a week.
 * **Recurring time to disconnect** – Shows the percentage of weeks in which the employees take at least one hour of recurring break each day over the week.
-* **Control active hours** – Shows the percentage of weeks in which the employees limit their work activities to their expected working hours over the week. If the employees have a standard work schedule from 9:00 AM to 5:00 PM, their expected working hours for each day is eight hours. This analysis provides insights into how employees are adopting flexible working schedules.
+* **Control active hours** – Shows the percentage of weeks in which the employees limit their work activities to their expected working hours over the week. If the employees have a standard work schedule from 9:00 AM to 5:00 PM, their expected working hours for each day are eight hours. This analysis provides insights into how employees are adopting flexible working schedules.
 
 >[!Tip]
 >
