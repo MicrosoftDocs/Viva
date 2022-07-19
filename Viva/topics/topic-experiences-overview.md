@@ -151,6 +151,8 @@ You can send feedback to Microsoft directly from a topic page, and from the **Ma
 
    ![Screenshot showing the Feedback button.](../media/knowledge-management/feedback-icon.png)
 
+   The button will only appear in tenants that hace a correctly configured [OCPS policy](https://docs.microsoft.com/en-us/deployoffice/admincenter/overview-cloud-policy#steps-for-creating-a-policy-configuration).
+
 On the **Send Feedback to Microsoft** page, let us know if you like something, if you don't like something, or if you have a suggestion.
 
    ![Screenshot showing the Send Feedback to Microsoft page.](../media/knowledge-management/feedback-page.png)
