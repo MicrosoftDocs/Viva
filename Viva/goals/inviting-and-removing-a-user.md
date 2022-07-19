@@ -60,7 +60,8 @@ To invite a group, you can select the **Add members** button by following any on
 
 Now, all the members in the group will be eligible to log in. The user record will get added to the **All Users** list after they log in for the first time.
 
-> Note: Every time a user is added to the AAD group, they will automatically become eligible to log into Viva Goals. However, they will need to log in, at least once, to appear under the **All Users** list.
+> [!Note] 
+> Every time a user is added to the AAD group, they will automatically become eligible to log into Viva Goals. However, they will need to log in, at least once, to appear under the **All Users** list.
 
 ## Remove a user 
 
@@ -94,7 +95,8 @@ Admins can’t delete users who currently own any objective. To delete those use
 
 - When the organization administrator receives a request from the user to completely delete all data that can be linked back to them as per GDPR DSR regulations
 
-> Note: To find deleted or deactivated users, navigate to the **Users** tab and select the **Deactivate** filter option under the **Status** dropdown.
+> [!Note] 
+> To find deleted or deactivated users, navigate to the **Users** tab and select the **Deactivate** filter option under the **Status** dropdown.
 
 ### Frequently asked questions
 
