@@ -212,12 +212,12 @@
       },
       {
         "source_path": "viva/insights/advanced/api.md",
-        "redirect_url": "/viva/insights/advanced/analyst/api.md",
+        "redirect_url": "/viva/insights/advanced/analyst/api",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/advanced/partner-integration.md",
-        "redirect_url": "/viva/insights/advanced/analyst/partner-integration.md",
+        "redirect_url": "/viva/insights/advanced/analyst/partner-integration",
         "redirect_document_id": false
       }
     ]
