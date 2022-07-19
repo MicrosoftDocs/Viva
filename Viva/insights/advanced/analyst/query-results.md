@@ -29,7 +29,7 @@ This article talks about each of these capabilities, and it also provides some i
 
 ## Permissions
 
-The Analyst role for the advanced insights app is required to view, download, rename, edit, delete, favorite, or clone query results.
+The **Insights Analyst** role for the advanced insights app is required to view, download, rename, edit, delete, favorite, or clone query results.
 
 >[!Important]
 >Only the analyst who originally ran the query can edit, rename, or delete its results. Other analysts in the organization can view, favorite, and clone results.
@@ -54,7 +54,7 @@ If the analyst who ran the query wants to run this query again later, they can s
 >[!Note]
 >Other analysts in the organization can see a query is running, but they can’t stop it.
 >
->![Query recurrence toggle with tooltip](../images/query-results-toggle-recur-fail.png)
+>![Query recurrence toggle with tooltip](../images/query-results-toggle-recur-fail1.png)
 
 #### Success
 
@@ -68,7 +68,7 @@ If you ran the query, you can now edit, delete, or rename it. All other analysts
 
 If an error occurs while a query is running, you’ll see a **Failed** status. 
 
-![Query recurrence toggle with tooltip](../images/query-results-status-failed.png)
+![Query recurrence toggle with tooltip](../images/query-results-status-failed1.png)
 
 ### Results filters
 
@@ -80,8 +80,8 @@ There are some predefined views on the **Query results** page:
 * **Power BI templates**: Predefined queries all analysts in your organization have run for Power BI templates (for example, Ways of working)
 * **Custom queries**: Custom Person queries all analysts in your organization have run
 
-By selecting the **New** button, you can create your own results filter, which filters by **Submitter**, **Query type**, or both.
-<!---verify-->
+<!--By selecting the **New** button, you can create your own results filter, which filters by **Submitter**, **Query type**, or both.
+verify-->
 
 ### Setting the query to recur
 
@@ -91,13 +91,13 @@ Analysts who didn’t run a query can’t set it to recur.
 
 ### More options
 
-When you select the **More options** ellipses—located in the far-right column of the **Query results** page—you’ll see a few different options based on whether you ran the query or are another analyst in the organization: **Edit query name**, **View query**, **Edit query**, **Clone query**, **Favorite**, and **Delete query**.
+When you select the **More options** ellipses—located in the far-right column of the **Query results** page—you’ll see a few different options based on whether you ran the query or are another analyst in the organization: **Edit query name**, **Edit query**, **Clone query**, **Favorite**, and **Delete query**.
 
 Let’s explore these options in more detail.
 
 #### Rename query
 
-*Applies to: Analyst who ran the query*
+*Applies to: analyst who ran the query*
 
 To change a query name, select the **Edit query name** option.
 
@@ -108,7 +108,7 @@ After you’ve successfully renamed your query, you’ll receive a notification 
 
 #### Edit query
 
-*Applies to: Analyst who ran the query*
+*Applies to: analyst who ran the query*
 
 If you want to change your query’s setup information (like **Query name** and **Time period**), metrics, conditions and condition groups, and employee attributes, you can edit the query and run it again.
 
@@ -123,7 +123,7 @@ If you select **Edit query** in this box, the app will take you to the query set
 
 #### Clone query
 
-*Applies to: Any analyst in the organization*
+*Applies to: any analyst in the organization*
 
 The **Clone** option makes an identical copy of an existing query. Use **Clone** when you want to start a new query using the same settings (**Time period**, **Group by**, metrics, conditions and condition groups, and employee attributes) as an existing query.
 
@@ -133,13 +133,13 @@ The **Clone** option makes an identical copy of an existing query. Use **Clone**
 
 #### Favorite query
 
-*Applies to: Any analyst in the organization*
+*Applies to: any analyst in the organization*
 
 Favoriting a query saves it in your **Favorites** view so you can find it later. 
 
 #### Delete query
 
-*Applies to: Analyst who ran the query*
+*Applies to: analyst who ran the query*
 
 Deleting a query removes it from the results list for everyone in the organization.
 
@@ -184,14 +184,9 @@ When you define a query, you select metrics and employee attributes. After the q
 7.	If you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
 8.	In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI.
 
-<!--
+
 ## Related topics
 
-* Power BI tips, FAQ, and troubleshooting<!--insert doc link when ready-->
+[Power BI tips, FAQ, and troubleshooting](./templates/power-bi-faq-troubleshoot.md)
 
-<!--pending confirmation whether we're making these documents for the new doc set
-•	Connect to OData feeds in Power BI Desktop
-•	User roles in Viva Insights
-•	Auto-refresh option for queries
-•	Supported languages and guidelines
--->
+[User roles in Viva Insights](../setup-maint/user-roles.md)

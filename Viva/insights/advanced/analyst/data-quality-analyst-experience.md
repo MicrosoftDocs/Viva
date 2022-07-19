@@ -30,7 +30,7 @@ Missing data means that certain employee attributes haven’t been included in t
 
 #### Coverage
 
-Coverage describes the amount of non-blank rows in an organizational data file. In organizational data files, each column contains attribute values—for example, the image below represents an Organization attribute; its values are the locations in each row. 
+Coverage describes the number of non-blank rows in an organizational data file. In organizational data files, each column contains attribute values—for example, the image below represents an Organization attribute; its values are the locations in each row. 
 
 If a column has no blank rows, that attribute has high coverage. If a column has too many blank rows, that attribute has low coverage. Attributes with low coverage are considered low-quality data. Similar to missing insights, when data is of low quality, related insights are of low quality, too.
  
@@ -44,7 +44,7 @@ To check on the quality of your data, and to see which insights are missing or o
 
 You can get to the **Organizational data** page in two ways: Either by directly selecting it from the app’s left pane, or by selecting **View data quality** within a banner message (described later in this article).
 
-The **Organizational data** page contains two tabs: **Data hub** and **Data quality**. 
+The **Organizational data** page contains two tabs: **Data hub** and **Data quality**.
 
 #### Data hub
 
