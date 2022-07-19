@@ -24,11 +24,11 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 * [Role assignment FAQ](#role-assignment-faq)
 
 >[!Note]
->The Insights admin enables people managers access to Group insights through [Manager settings](./manager-settings.md)).
+>The Insights admin enables people managers access to Group insights through [Manager settings](./manager-settings.md).
 
 ## Assign Viva Insights roles
 
-*Applies to [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles)*
+*Applies to: [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles)*
 
 Follow these steps to assign users to a Viva Insights role, including the **Insights Administrator**, **Insights Analyst**, and **Insights Business Leader** roles: 
 
