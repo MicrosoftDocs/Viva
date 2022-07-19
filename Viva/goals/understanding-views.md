@@ -55,7 +55,7 @@ You can also view the parent objective that a particular objective is aligned to
 
 **The typical hierarchical structure in Viva Goals is:**
 
-![Screenshot of working with O K R views.](../media/goals/3/34/a.jpg)
+![Screenshot shows Viva Goals hierarchy as a chart, from company-level objectives, key results, and initiatives down through the similar values for department.](../media/goals/3/34/a.jpg)
  
 ### Available actions in list view 
 
@@ -161,4 +161,4 @@ To view the objective in more detail, select the **See Details** option.
 
 To enable Chart View for the organization’s OKRs or for a team or an individual, select the **View chart** option from the **View Options** drop-down:
 
-:::image type="content" source="../media/goals/2/28/c.jpg" alt-text="Screenshot showing chart view." lightbox="../media/goals/2/28/c.jpg":::
+:::image type="content" source="../media/goals/2/28/c.jpg" alt-text="Screenshot shows where you select chart view in the OKRs window." lightbox="../media/goals/2/28/c.jpg":::

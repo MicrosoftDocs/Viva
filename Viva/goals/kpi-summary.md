@@ -48,7 +48,7 @@ Individual contributors can manage the KPI Summary for objectives they own.
 
 If an objective has key results below it or there are other key results set as KPIs, users can manually add those to the KPI Summary by using the action button.
 
-![Screenshot of how to add to the kpi summary.](../media/goals/4/416/b.jpg)
+![Screenshot shows the option to to add to the KPI summary.](../media/goals/4/416/b.jpg)
 
 There's no limit on the number of KPIs you can include. But we suggest you include only your business's most critical KPIs to ensure a digestible view.
 
@@ -56,7 +56,7 @@ There's no limit on the number of KPIs you can include. But we suggest you inclu
   
 To remove a KPI from the KPI Summary, section **Remove from KPI Summary** from the action dropdown.
 
-![Screenshot shows removing a key result from the kpi summary.](../media/goals/4/416/c.jpg)
+![Screenshot shows the option to remove a key result from the KPI summary.](../media/goals/4/416/c.jpg)
 
 ## Rearrange KPIs in your KPI Summary
 

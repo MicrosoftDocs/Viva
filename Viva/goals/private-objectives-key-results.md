@@ -46,18 +46,18 @@ By default, all objectives are visible to the entire organization unless you fol
 
 1. Select **Who can view** in the **Add/Edit Objective** window.
 
-![Screenshot shows a private objective.](../media/goals/4/414/a.jpg)
+   ![Screenshot shows a private objective with the visibility option highlighted.](../media/goals/4/414/a.jpg)
 
 2. Select **Choose who has access** to make it private to only specified people, and select **Done**.
 
     > [!NOTE]
     > This users on the list will also be able to see any key results below the objective.
 
-   ![Screenshot shows the list of users for a private objectiv](../media/goals/4/414/b.jpg)
+   ![Screenshot shows the list visibility diaolog with a list users for a private objective.](../media/goals/4/414/b.jpg)
 
 3. Now the user can see this objective is private to them and one other person.
 
-![private objectives](../media/goals/4/414/c.jpg)
+   ![Screenshot shows an objective with visibility set to private.](../media/goals/4/414/c.jpg)
 
 The owner of the object can modify privacy of that objective.
 

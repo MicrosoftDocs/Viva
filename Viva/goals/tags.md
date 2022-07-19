@@ -37,9 +37,9 @@ This article describes how to add tags, search by tag, and use the explorer to m
    > [!NOTE]
    > You can select **x** to remove the tag at any time.
 
-In this example, we're tagging OKRs related to **Customer Obsession**, the responsibilities for which are distributed across teams and individuals. It becomes strategically valuable to group these related OKRs together.
+In the example pictured below, we're tagging OKRs related to **Customer Obsession**, the responsibilities for which are distributed across teams and individuals. It becomes strategically valuable to group these related OKRs together.
 
-![Screenshot shows where to add a tag.](../media/goals/4/45/a.jpg)
+![Screenshot shows where you add tags.](../media/goals/4/45/a.jpg)
 
 ## Search by tag
 
@@ -59,6 +59,6 @@ You can use the explorer to filter by tag and create meaningful reports and view
 
 4. To separate tags in the exported report, select **Export tag values as separate columns**.
 
-![Screen shot shows the export report page.](../media/goals/4/45/c.jpg)
+   ![Screenshot shows the export report page.](../media/goals/4/45/c.jpg)
 
-![Screenshot shows a tag as a filter for report export.](../media/goals/4/45/d.jpg)
+   ![Screenshot shows the export all objectives window](../media/goals/4/45/d.jpg)

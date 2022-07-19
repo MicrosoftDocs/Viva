@@ -100,7 +100,7 @@ To create this widget:
 
 4. Save and add the widget.
 
-![okr list](../media/goals/4/42/b.jpg)
+   ![Screenshot shows the ORK widget.](../media/goals/4/42/b.jpg)
 
 ### OKR detail
 
@@ -120,7 +120,7 @@ To create this widget:
 
 1. Save and add the widget.
 
-![Screenshot shows the OKR detail widget.](../media/goals/4/42/c.jpg)
+   ![Screenshot shows the OKR detail widget.](../media/goals/4/42/c.jpg)
 
 ### 3. Text block
 
@@ -138,7 +138,7 @@ To create this widget:
 
 1. Save and add the widget.
 
-![Screenshot shows the text block widget.](../media/goals/4/42/d.jpg)
+   ![Screenshot shows the text block widget.](../media/goals/4/42/d.jpg)
 
 ### 4. KPI list
 
@@ -172,11 +172,11 @@ To create this widget:
 
 1. From the list of available options, select the project list widget, and provide a name for this widget.
 
-1, Filter and select projects based on the time period, entity, and status.
+1. Filter and select projects based on the time period, entity, and status.
 
 1. Save and add the widget.
 
-![Screenshot of project list widget.](../media/goals/4/42/e.jpg)
+   ![Screenshot shows the project list widget.](../media/goals/4/42/e.jpg)
 
 ## Customize your review dashboard
   
@@ -192,7 +192,7 @@ After you land on the review dashboard page, the first step is to select the rev
 
 - On the right side of the panel, select the **More Actions** icon to edit or delete the panel.
 
-![Screenshot show where you add panels to the dashboard.](../media/goals/4/42/g.jpg)
+  ![Screenshot show where you add panels to the dashboard.](../media/goals/4/42/g.jpg)
 
 ### Add widgets to a panel
 
@@ -200,19 +200,19 @@ After you land on the review dashboard page, the first step is to select the rev
 
 - To add widgets to an existing panel, select the three-dot icon on the right side of a panel and select **Add a widget** from the dropdown options.
 
-![Screenshot shows where you add a widget to a panel.](../media/goals/4/42/h.jpg)
+  ![Screenshot shows where you add a widget to a panel.](../media/goals/4/42/h.jpg)
 
 - After you add the widget to the panel, you can select the cog icon on the right side widget to edit it. To delete a widget, you chose to edit the panel and select the delete icon, which is next to the cog icon.
 
 - When you edit the panel, you can resize the widgets and move them up or down. To expand a widget for better readability, select the expand icon next to the cog icon.
 
-![edit widget](../media/goals/4/42/i.jpg)
+  ![Screenshot show where to select edit widget.](../media/goals/4/42/i.jpg)
 
 ## How to present the review dashboard
 
 A review dashboard is a presentation-ready dashboard. The **Present** button is at the upper-right corner of the dashboard. Each panel becomes a standalone slide of the presentation. This option helps you present real-time data on OKR progress without having to juggle tools during a review meeting.
 
-![present dashboard](../media/goals/4/42/j.jpg)
+![Screenshot show where to select present dashboard.](../media/goals/4/42/j.jpg)
     
 ## How to clone and move review dashboards
     
@@ -222,11 +222,11 @@ As a team owner or team admin, you may want to clone a dashboard to retain the s
 
 **Step 2:** From the highlighted drop-down menu, select the dashboard you want to clone.
 
-![Screen shot of dropdown menu.](../media/goals/4/42/k.jpg)
+![Screenshot shows the Dashboard drop-down menu.](../media/goals/4/42/k.jpg)
 
 **Step 3:** Select the three dots icon and then select **Clone**.
 
-![Screenshot of the review dashboard.](../media/goals/4/42/l.jpg)
+![Screenshot shows where you select clone.](../media/goals/4/42/l.jpg)
 
 
 **Step 4:** By default, the name of the cloned dashboard will be "**Copy of \<dashboard name\>**". You can edit the name to easily identify the cloned dashboard, edit widgets, and then select **Save**. After cloning, you'll land on the cloned dashboard.

@@ -32,7 +32,7 @@ To follow organizations, teams, and users that are important to you, select the 
 
 For example, you can follow East Coast Sales to receive updates from that team. The icon will turn green to indicate you're **Following** it.
 
-![Screen shot shows how you follow an organization.](../media/goals/4/413/a.jpg)
+![Screen shot shows a set of OKRs with the following icon showing a green checkmark.](../media/goals/4/413/a.jpg)
 
 By default, Viva Goals will have you follow:
 
@@ -50,7 +50,7 @@ By default, Viva Goals will have you follow:
 
 Once you're following one or more organizations, teams, or users, Viva Goals automatically emails you a weekly progress update showing Objective activity, what's going well, and what's not going well.
 
-![Screenshot shows your followed organizations.](../media/goals/4/413/b.jpg)
+![Screenshot shows the people and teams you follow.](../media/goals/4/413/b.jpg)
 
 To view or unfollow an organizations, team, or user:
 

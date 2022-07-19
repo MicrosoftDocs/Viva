@@ -43,7 +43,7 @@ In the check-in sidebar:
 
 3. **Flag the overall status**: Is your objective or KR on track, behind, at risk, or have you not started yet? 
 
-    ![Screenshot showw where to update status.](../media/goals/3/35/b.jpg)
+    ![Screenshot shows where to update status.](../media/goals/3/35/b.jpg)
 
 Keep it short and crisp. The OKR process doesn't require long explanations on every check-in.
 
@@ -70,7 +70,7 @@ Once you make the selection, the user will  start receiving the check-in reminde
 > [!Note] 
 > By default, the owner, or the first owner if there are multiple owners, is set as the person responsible for check-ins.
 
-   ![screenshot shows where you assign check in responsibility.](../media/goals/3/35/c.jpg)
+   ![Screenshot shows where you assign check in responsibility.](../media/goals/3/35/c.jpg)
 
 ## How to use likes and comments with check-ins
 
@@ -78,7 +78,7 @@ OKRs and ongoing feedback make a great team. Use Viva Goals's social features to
 
 To comment on a check-in, go to **Check-in** on the objective page or find it in the feed. Use "**@**" followed by the name of a team member to mention them in a comment. This sends them an email notification, which draws their attention to critical updates or opportunities.
 
-![screenshot of engaging with check-ins.](../media/goals/3/35/d.jpg)
+![Screenshot shows where you add a note and address it to someone.](../media/goals/3/35/d.jpg)
 
 ## How to edit and delete check-ins 
 
@@ -116,7 +116,7 @@ Viva Goals sends reminders in the following ways:
 
 - A chief of staff is setting a check-in cadence for the People Operations department to receive notifications every month on the first Friday at 9 AM PST. The chief of staff wants the subteams reporting to her to continue having a cadence of their own, preferably weekly cadence. Therefore, she won't cascade this cadence down to the reporting teams and will let each team set their own check-in rhythm. 
 
-    ![Screenshot shows where you set check-in cadence.](../media/goals/3/35/f.jpg)
+    ![Screenshot shows where you set check-in rhythym.](../media/goals/3/35/f.jpg)
 
 - The head of marketing is setting a bi-weekly cadence for the Marketing team to receive notifications on every Monday once every two weeks at 9 AM PST. The head of marketing wants his reporting teams (say, Product Marketing, Demand Generation, and Customer Marketing) to have their own cadence but highly recommends starting them with the same cadence as the marketing team. In this case, the cadence will cascade down the teams. But the teams can change this schedule at any time. 
 
