@@ -26,7 +26,7 @@ items:
         - name: Assign licenses
           href: ./setup-maint/assign-licenses.md
         - name: Environment requirements
-          href: /viva/insights/setup/environment-requirements.md?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          href: /viva/insights/setup/environment-requirements?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Manager settings      
         href: ./setup-maint/manager-settings.md
     - name: Admin
