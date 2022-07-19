@@ -96,7 +96,7 @@ You can assign multiple roles to one person. It's up to your organization to cho
 * One person can be both a **Microsoft 365 admin** and an **Insights Administrator**.
 * One person can be both an **Insights Administrator** and an **Insights Analyst**. However, it's a best practice to assign the admin and analyst roles to different people to prevent any misuse of or external linking of organizational data with collaboration metrics.
 
-In the Azure Portal, you can assign multiple roles to one account, but you can assign only one role at a time. In the Azure portal, add the first role, choose **Select**, return to the user list, and then select the same account again to choose the next role for that account. Note that role assignment is performed in the Azure Portal and not in the Microsoft 365 or Office 365 dashboard.
+In the Azure portal, you can assign multiple roles to one account, but you can assign only one role at a time. In the Azure portal, add the first role, choose **Select**, return to the user list, and then select the same account again to choose the next role for that account. Note that role assignment is performed in the Azure portal and not in the Microsoft 365 or Office 365 dashboard.
 
 ## Related topics
 
