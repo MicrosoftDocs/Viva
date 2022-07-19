@@ -35,6 +35,8 @@ On selecting the ‘Contoso help’ menu item, users will see the help and suppo
 
 To configure the help and support options, go to **Admin Dashboard** -> **Settings tab** -> **Help and support** setting and enable support using the toggle.
 
+:::image type="content" source="../media/goals/support-toggle-disabled.png" alt-text="Enable help and support using this toggle." lightbox="../media/goals/support-toggle-disabled.png":::
+
 On enabling the configuration, you'll be able to: 
 
 1. Change the menu item name, which will appear in the help menu. Default is “{your org name} help”. 
@@ -62,5 +64,7 @@ On saving, the menu will start appearing in the help section for users of your o
 ## Disable help and support 
 
 You can use the toggle to disable help and support resources configured by you. You'll be shown a prompt to confirm. On confirmation, the help resources configured by you will disappear from the help menu for all users in the organization. 
+
+:::image type="content" source="../media/goals/support-toggle-disabled.png" alt-text="Disable help and support using this toggle." lightbox="../media/goals/support-toggle-disabled.png":::
 
 Note: You'll lose the configuration once you disable help and support. 
