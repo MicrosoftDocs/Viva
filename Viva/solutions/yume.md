@@ -26,7 +26,7 @@ Yume is an employee-driven solution to support 1:1 interaction between employees
 2.	An employee wants to explore, discuss and/or focus on their career growth and development.
 3.	An employee is a new hire and wants to build a relationship with their new manager.
 
-## Create the solution
+## Configure the solution to use
 
 The next sections will go into detail about how to configure your Yume application for usage. It's divided into six steps:
 
