@@ -1,5 +1,5 @@
 ---
-title: Configure help and support
+title: Configure help and support for your organization
 ms.reviewer: 
 ms.author: ranjaliroy
 author: ranjali-MS
