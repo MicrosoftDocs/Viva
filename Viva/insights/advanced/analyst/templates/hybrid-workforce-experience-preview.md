@@ -193,7 +193,7 @@ This page shows the average weekly time employees in different work modes spend 
 
 **How does hybrid work impact the employees’ connectivity and sense of belonging?**
 
-This page shows the average internal employee network size, split by work mode, including a three-month time trend. This page also shows the average weekly hours employees spent collaborating in small groups (with less than eight people), broken out by work mode.
+This page shows the average internal employee network size, split by work mode, including a three-month time trend. This page also shows the average weekly hours employees spent collaborating in small groups (with fewer than eight people), broken out by work mode.
 
 #### Work-life balance and flex work
 
@@ -210,7 +210,7 @@ This page shows, by work mode, the percent of employees collaborating outside of
 
 **How fast are new hires integrating into the organization’s network and are they getting the manager support they need?**
 
-This page shows the average weekly time new hires get with their manager, broken out by work mode. New hires are defined as employees with a tenure of less than one year. The toggle key allows you to review all time spent in meetings or calls where both the employee and their manager are present. This information can help a manager:
+This page shows the average weekly time new hires get with their manager, broken out by work mode. New hires are defined as employees with tenure of less than one year. The toggle key allows you to review all time spent in meetings or calls where both the employee and their manager are present. This information can help a manager:
 
 * Provide support and mentoring.
 * Focus on the time spent in 1:1s with the employee, which presents a great opportunity for new-hire coaching and providing direction.
