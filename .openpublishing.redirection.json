@@ -170,6 +170,26 @@
         "redirect_url": "/viva/connections/viva-connections-overview",
         "redirect_document_id": false
       },
+      {
+        "source_path": "viva/advanced/analyst/metric-rules.md",
+        "redirect_url": "/viva/insights/advanced/analyst/metric-rules",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/analyst/templates/introduction.md",
+        "redirect_url": "/viva/insights/advanced/analyst/templates/introduction-to-templates",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/advanced/analyst/templates/business-resilience.md",
+        "redirect_url": "/viva/insights/advanced/analyst/templates/business-resilience",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/advanced/analyst/templates/introduction.md",
+        "redirect_url": "/viva/insights/advanced/analyst/templates/introduction-to-templates",
+        "redirect_document_id": false
+      },
       {  
         "source_path": "viva/insights/overview/Getting-Support.md",
         "redirect_url": "/viva/insights/overview/get-support",
