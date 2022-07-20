@@ -37,7 +37,7 @@ Eliminate your talent gaps in digital technologies like data science, ML, cloud,
 4. Copy your token. This is the only opportunity to copy or save your token.
 5. You can generate multiple tokens and can validate or invalidate your tokens at any time by selecting **Invalidate Token**.
 6. Request your company's Customer Company ID from your Udacity Customer Success Manager.
-7. For more details, you can view [Udacity's PDF walkthrough guide](/download.microsoft.com/download/8/9/8/898ce39c-03b0-4c9b-88c0-a4da1c8435f6/EMC Catalog API-merged.pdf).
+7. For more details, you can view [Udacity's PDF walkthrough guide](//download.microsoft.com/download/8/9/8/898ce39c-03b0-4c9b-88c0-a4da1c8435f6/EMC Catalog API-merged.pdf).
 
 You can [contact Udacity Support](mailto:strategicalliances@udacity.com) for help with getting in touch with your Customer Success Manager. If you aren't yet a customer, you can [explore Udacity further here](https://www.udacity.com/enterprise/overview).
 
