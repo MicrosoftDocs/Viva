@@ -71,7 +71,7 @@ There are a few other ways to find which metrics you want to include in your que
 
 To find out more about a metric, hover over its information icon.
 
-:::image type="content" source="../images/person-query-hover-metric-tooltip.png" alt-text="Screenshot of metric tooltip for Call hours":::
+:::image type="content" source="../images/person-query-hover-metric-tooltip.png" alt-text="Screenshot of metric tooltip for Call hours.":::
 
 ### To add metrics to your query
 
