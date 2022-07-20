@@ -51,7 +51,7 @@ The new platform collects both *chat message sent* and *chat message read* signa
 |                  |Old platform |New platform|
 |------------------|---------|--------|
 |Chat messages sent|Supported  |Supported |
-|Chat messages read|No *chat message read* signal. It was assumed that users read every chat message they receive.   | Signal ingested for greater accuracy
+|Chat messages read|No *chat message read* signal. It was assumed that users read every chat message they receive.   | Signal ingested for greater accuracy 
 
 #### Meeting exclusion rules
 
@@ -181,4 +181,3 @@ In addition to updated metrics for improved data analysis, the shift to the new 
     * New Power BI report templates 
     * Qualtrics and Glint Connectors
     * Automatic HR data upload
-
