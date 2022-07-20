@@ -67,9 +67,11 @@ In the **Select metrics** pane, metrics are grouped by *metric category*. You ca
 
 ###### Filters, keyword search, and more information
 
-There are a few other ways to find which metrics you want to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane. You can also use the search bar to find metrics by keyword. If you're building a Power BI query, you can select **Filter by Power BI templates** to see applicable metrics used in [Power BI templates](./templates/introduction-to-templates.md). 
+There are a few other ways to find which metrics you want to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane. You can also use the search bar to find metrics by keyword. You can use **Filter by Power BI templates** to pick metrics used in a particular [Power BI templates](./templates/introduction-to-templates.md) for your Custom Person query.
 
 To find out more about a metric, hover over its information icon.
+
+:::image type="content" source="../images/person-query-hover-metric-tooltip.png" alt-text="Screenshot of metric tooltip for Call hours.":::
 
 ### To add metrics to your query
 
