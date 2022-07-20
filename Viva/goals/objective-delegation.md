@@ -16,17 +16,17 @@ ms.collection:
 search.appverid:
 - MET150
 
-description: "Learn how with Viva Goals’ Delegation option, you can assign another individual to manage/work on OKRs that aren't owned by them."
+description: "Learn how to use the Viva Goals delegation option to assign another individual to manage/work on OKRs that aren't owned by them."
 ---
 
-# Objective Delegation
+# Objective delegation
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 The Viva Goals Objective Delegation feature lets objective owners delegate another individual to manage OKRs on their behalf.
 
-## What is OKR Delegation?
+## What is OKR delegation?
 
 There may be times when you collaborate with other people in your organization and you need to delegate OKRs to another individual to manage on behalf of the OKR owner. The Viva Goals Delegation option provides that functionality.
 

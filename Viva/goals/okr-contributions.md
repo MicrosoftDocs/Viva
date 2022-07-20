@@ -41,8 +41,8 @@ Users can define and control contribution at the parent level. All the contribut
 
    You can enable or disable the **Newly aligned items should start contributing by default** option, which configures newly created child OKRs and or projects to contribute to the parent. This will readjust the contributions you assigned to each child OKR or project.  
   
-> [!Note]
-> By default, *New children should start contributing by default** is enabled. 
+   > [!Note]
+   > By default, **New children should start contributing by default** is enabled. 
 
 3. After you edit contributions, select **Save**.  
 

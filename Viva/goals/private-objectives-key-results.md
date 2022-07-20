@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn how the Private Objectives feature allows user to set private objectives visible only to themselves and designated individuals."
 ---
 
-# Private Objectives 
+# Private objectives 
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)

@@ -30,11 +30,11 @@ Search for users, teams, objectives, and projects, and bring key actions in Viva
 
 With quick Search, a user can:
 
-1. Make a check-in
+- Make a check-in
 
-2. Create an objective
+- Create an objective
 
-3. Search for users, teams, objectives, and projects
+- Search for users, teams, objectives, and projects
 
 ## Hot key support
 
