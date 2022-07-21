@@ -51,7 +51,7 @@
         href: ./organizational-network-analysis/organizational-network-analysis.md
       - name: Organizational network analysis - Gephi
         href: ./organizational-network-analysis/gephi-for-ona.md
-    - name: Engage and Retain Yume
+    - name: Engage and Retain
       items:
       - name: Yume
         items:
@@ -63,7 +63,7 @@
           href: create-dataverse-tables.md
         - name: Create Dataverse permissions
           href: create-dataverse-permissions.md
-        - name: Import data into Dataverse tablesy
+        - name: Import data into Dataverse tables
           href: import-data-into-dataverse-tables.md
         - name: Import Yume application
           href: import-yume-application.md
