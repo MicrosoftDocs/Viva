@@ -21,7 +21,7 @@ _**Applies to**: The Delay delivery plan is available to people who are using Mi
 When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions for the following scenarios:
 
 * When all recipients in the **To** field are outside of their working hours.
-* When a recipient in the **To** field has an [automatic out-of-office reply](https://support.microsoft.com/office/send-automatic-out-of-office-replies-from-outlook-9742f476-5348-4f9f-997f-5e208513bd67) set up in Outlook.
+* When you're sending an email to just one recipient in the **To** field, and that recipient has an [automatic out-of-office reply](https://support.microsoft.com/office/send-automatic-out-of-office-replies-from-outlook-9742f476-5348-4f9f-997f-5e208513bd67) set up in Outlook.
 * When you are outside of your working hours.
 
 The delay helps minimize disruptions to recipients outside their working hours or when they’re away from work. It helps anybody who wants to maintain the flexibility to work when they want without putting the burden of their schedule on others.
@@ -57,7 +57,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
 
    ![Delay delivery insight options](../../Images/mya/use/delay-options.png)
 
-3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
+3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time. At the scheduled delivery time, the email is automatically delivered to all recipients in the **To**, **Cc**, and **Bcc** fields for you.
 
    Before the message is sent, you can open the message and select:
 
