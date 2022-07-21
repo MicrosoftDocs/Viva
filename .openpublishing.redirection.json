@@ -172,22 +172,22 @@
       },
       {
         "source_path": "viva/advanced/analyst/metric-rules.md",
-        "redirect_url": "/viva/insights/",
+        "redirect_url": "/viva/insights/advanced/analyst/metric-rules",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/analyst/templates/introduction.md",
-        "redirect_url": "/viva/insights/",
+        "redirect_url": "/viva/insights/advanced/analyst/templates/introduction-to-templates",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/advanced/analyst/templates/business-resilience.md",
-        "redirect_url": "/viva/insights/",
+        "redirect_url": "/viva/insights/advanced/analyst/templates/business-resilience",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/advanced/analyst/templates/introduction.md",
-        "redirect_url": "/viva/insights/",
+        "redirect_url": "/viva/insights/advanced/analyst/templates/introduction-to-templates",
         "redirect_document_id": false
       },
       {  
@@ -208,6 +208,16 @@
       {
         "source_path": "viva/insights/personal/use/use-the-insights.md",
         "redirect_url": "/viva/insights/personal/use/use-insights",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/advanced/api.md",
+        "redirect_url": "/viva/insights/advanced/analyst/api",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/advanced/partner-integration.md",
+        "redirect_url": "/viva/insights/advanced/analyst/partner-integration",
         "redirect_document_id": false
       }
     ]

@@ -32,7 +32,7 @@ After you've identified the population in scope, the Microsoft 365 global admin 
 The assignment of licenses affects the measured population that is shown in **Organizational data > Data quality**.
 
 >[!Note]
->Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements](/viva/insights/setup/environment-requirements?toc=%2Fviva%2Finsights%2Fadvanced%2Ftoc.json&bc=%2Fviva%2Finsights%2Fbreadcrumb%2Ftoc.json).
+>Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements](/viva/insights/Setup/Environment-Requirements?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ### Subscription status
 
@@ -52,7 +52,7 @@ Microsoft 365 users might want to find out whether their collaboration data is b
 Viva Insights licenses are assigned just like other Microsoft 365 product licenses. You can assign them by using the [Microsoft 365 admin center​](/microsoft-365/admin/add-users/add-users), PowerShell, or Azure [group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign):
 
 >[!Note]
->Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Microsoft 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level. 
+>Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Microsoft 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
 
 ### If mailboxes are not fully migrated to Microsoft 365 Exchange Online
 
@@ -68,4 +68,5 @@ The data that the advanced insights app with Viva Insights uses is refreshed onc
 Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data-refresh cycle is complete the following Monday.
 
 ## Related topics
-* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
+
+[About admin roles](/microsoft-365/admin/add-users/about-admin-roles)

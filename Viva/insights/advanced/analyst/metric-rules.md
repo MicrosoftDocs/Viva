@@ -51,7 +51,7 @@ The app's metric rules:
 
 ### Rule exceptions
 
- The **Are there exceptions to this rule?** section lists metrics that the **Meeting attendance** rule doesn't apply to because they're not collaboration metrics, which are the following:
+ The **Are there exceptions to this rule?** section lists metrics that the **Meeting exclusions** rule doesn't apply to because they're not collaboration metrics, which are the following:
 
 * **Available-to-focus hours**
 * **Conflicting meeting hours**

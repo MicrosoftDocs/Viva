@@ -20,19 +20,19 @@ audience: Admin
 
 *This experience is available only through private preview.*
 
-As leaders figure out their organization’s new working models, the Hybrid workforce experience Power BI report in Microsoft Viva Insights helps organizations understand how hybrid work affects employees in various work modes differently. The report identifies opportunities to improve the experience of employees working in the following ways:
+As leaders figure out their organization’s new working models, the **Hybrid workforce experience** Power BI report in Microsoft Viva Insights helps organizations understand how hybrid work affects employees in various work modes differently. The report identifies opportunities to improve the experience of employees working in the following ways:
 
 * Mostly onsite
 * Mostly remote
 * Onsite some days of the week and remote on others (hybrid)
 
-The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (meaning from the company’s corporate network). The detection of an employee onsite days is based on Azure Active Directory (AD) log-in information. Note that the algorithm only uses 3 out of 4 octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
+The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (meaning from the company’s corporate network). The detection of an employee onsite days is based on Azure Active Directory (AD) log-in information. Note that the algorithm only uses three out of four octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
 
 The report has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.
 
 ![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-preview-PBI-summary.png)
 
-To populate the report in Power BI, you’ll need to set up and successfully run the predefined Hybrid workforce experience (preview) query  in Viva Insights.
+To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Hybrid workforce experience (preview)** query in Viva Insights.
 <!--waiting for embed link
 ## Demonstration
 
@@ -51,7 +51,7 @@ Your organization qualifies for this preview because:
 
 Before you can run the queries and populate the report in Power BI, you’ll need to:
 
-* Be assigned the role of Insights Analyst in Viva Insights.
+* Be assigned the role of **Insights Analyst** in Viva Insights.
 * Have the June 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/) to download and install the latest version.
 * Have the following attributes uploaded as part of your organizational data:
   * **SupervisorIndicator**, an attribute indicating whether someone is a manager.
@@ -64,7 +64,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 >[!Note]
 > For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
 
-1. In the analyst experience in Viva Insights, **Analysis**.
+1. In the analyst experience in Viva Insights, select **Analysis**.
 
 2. Under **Power BI templates**, navigate to **Hybrid workforce experience (preview)** and select **Start analysis**. To get more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 ![Start query](/viva/insights/advanced/images/hwfe-preview-pbi-start.png)
@@ -82,17 +82,17 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
         In this pane:
     
-        * Power BI queries are set to **Group by Week**. Do not change this **Group by** designation.
-         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to **Metric rules**.
+        * Power BI queries are set to **Group by Week**. Don't change this **Group by** designation.
+         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
 
 4. Under **Predefined template metrics**, leave prepopulated metrics as they appear.  
 
     ![Start query](/viva/insights/advanced/images/hwfe-preview-pbi-predefined-metrics.png)
 
 >[!NOTE]
-> Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath Metrics, filters, and organizational attributes.
+> Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
 
-5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter.  For more details about filter and metric options, refer to [Person queries](../person-query.md).
+5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter.  For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
 
     ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
@@ -100,7 +100,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 6. Under **Select which employee attributes you want to include in the query**, select the **HireDate** attribute if available. Then, add other organizational attributes—you can add up to seven organizational attributes, including **HireDate**. Once the query runs, you can use these attributes to group and filter the reports.
 
     >[!IMPORTANT]
-    >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Do not remove any preselected attributes.*
+    >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Don't remove any preselected attributes.*
     >
     >If you see attributes marked in red and the query’s **Run** button disabled, it means that these required attributes are missing from your organizational data. Contact your admin to upload them.
 
@@ -110,7 +110,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 ### Link report to query
 
-9. Open the downloaded Hybrid workforce experience (preview) template.
+9. Open the downloaded **Hybrid workforce experience (preview)** template.
 
 10. If prompted to select a program, select **Power BI**.
 
@@ -122,7 +122,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 12. If prompted by Power BI, sign in using your organizational account. Power BI will load and prepare the data, which can take some time to complete for large files.
 
 >[!IMPORTANT]
-> You must sign in to Power BI with the same account you use to access Viva Insights.
+> You need to sign in to Power BI with the same account you use to access Viva Insights.
 
 ## Report settings
 
@@ -181,7 +181,7 @@ This section:
 
 This page shows the percent of employees by work mode (that is, Mostly onsite, Hybrid, Mostly remote, or Unclassified*) according to the latest week of data, split out by group. This page also highlights a potential disconnect between the share of managers and individual contributors working Mostly onsite, Hybrid, or Mostly remote. In case the **OnsiteDays** data is updated periodically, the **Explore the trends** button allows you to review the trend of percent of employees tagged as “Mostly onsite,” “Hybrid,” “Mostly remote,” and “Unclassified.”
 
-*If an employee is categorized as “Unclassified,” it means that there was no numerical OnsiteDays value found in the organizational data. The “Unclassified” employee category is not displayed in the remainder of this report.
+*If an employee is categorized as “Unclassified,” it means that there was no numerical **OnsiteDays** value found in the organizational data. The “Unclassified” employee category is not displayed in the remainder of this report.
 
 #### Collaboration habits
 
@@ -193,7 +193,7 @@ This page shows the average weekly time employees in different work modes spend 
 
 **How does hybrid work impact the employees’ connectivity and sense of belonging?**
 
-This page shows the average internal employee network size, split by work mode, including a three-month time trend. This page also shows the average weekly hours employees spent collaborating in small groups (with less than eight people), broken out by work mode.
+This page shows the average internal employee network size, split by work mode, including a three-month time trend. This page also shows the average weekly hours employees spent collaborating in small groups (with fewer than eight people), broken out by work mode.
 
 #### Work-life balance and flex work
 
@@ -210,7 +210,7 @@ This page shows, by work mode, the percent of employees collaborating outside of
 
 **How fast are new hires integrating into the organization’s network and are they getting the manager support they need?**
 
-This page shows the average weekly time new hires get with their manager, broken out by work mode. New hires are defined as employees with a tenure of less than one year. The toggle key allows you to review all time spent in meetings or calls where both the employee and their manager are present. This information can help a manager:
+This page shows the average weekly time new hires get with their manager, broken out by work mode. New hires are defined as employees with tenure of less than one year. The toggle key allows you to review all time spent in meetings or calls where both the employee and their manager are present. This information can help a manager:
 
 * Provide support and mentoring.
 * Focus on the time spent in 1:1s with the employee, which presents a great opportunity for new-hire coaching and providing direction.

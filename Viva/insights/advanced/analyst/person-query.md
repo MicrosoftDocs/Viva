@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
 title: Person query
-description: Learn how to run a custom Person query in the Microsoft Viva Insights advanced insights app
+description: Learn how to run a Custom Person query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -15,7 +15,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Create a custom person query
+# Create a Custom Person query
 
 >[!Tip]
 > You can find a demo video, download sample results, and go through a "Show me how" explanation while you’re building your query. Select these options just above **Query setup**.
@@ -39,16 +39,15 @@ In **Query setup**, you define some basic information about your query, like its
         :::image type="content" source="../images/person-query-auto-refresh-with-tooltip.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
     >[!Note]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
+
     4. Optional: Type a **Description**.
-    1. Optional: Set how the query is grouped. Custom person queries are grouped by **Month** by default. To change this setting to **Week**, select **More settings** beneath the **Description** box.
+    1. Optional: Set how the query is grouped. Custom Person queries are grouped by **Month** by default. To change this setting to **Week**, select **More settings** beneath the **Description** box.
         :::image type="content" source="../images/more-settings.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
         Selecting **More settings** brings you to the **More settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
     >[!Note]
     > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
     >
-    > To learn more about metrics used in Viva Insights, refer to [Metric definitions](./metrics.md). To learn more about metric rules, refer to Metric rules.
-<!--- Insert all screenshots. --->
-<!--- Add Metric rules link. --->
+    > To learn more about metrics used in Viva Insights, refer to [Metric definitions](./metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
 
 ### Metrics 
 
@@ -68,13 +67,11 @@ In the **Select metrics** pane, metrics are grouped by *metric category*. You ca
 
 ###### Filters, keyword search, and more information
 
-There are a few other ways to find which metrics you want to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane. You can also use the search bar to find metrics by keyword. When you select **Filter by Power BI templates**, metrics used in [Power BI templates](./templates/introduction-to-templates.md) appear. 
+There are a few other ways to find which metrics you want to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane. You can also use the search bar to find metrics by keyword. You can use **Filter by Power BI templates** to pick metrics used in a particular [Power BI templates](./templates/introduction-to-templates.md) for your Custom Person query.
 
 To find out more about a metric, hover over its information icon.
 
-:::image type="content" source="../images/metric-hover.png" alt-text="Expanded metric definition from information icon next to metric":::
-
-<!--Need to replace this screenshot. Metrics have been renamed. have this now-->
+:::image type="content" source="../images/person-query-hover-metric-tooltip.png" alt-text="Screenshot of metric tooltip for Call hours.":::
 
 ### To add metrics to your query
 
@@ -117,7 +114,7 @@ The app predefines one condition for you: “Is Active.” If you leave this con
 
 Beneath the **Add condition** and **Add condition group** buttons, you’ll see a number for **Total employees** and **Measured employees**. These numbers represent how many employees could be measured and how many employees the query is actually measuring, respectively. Checking these numbers before running your query can help you determine whether you’ve selected the right conditions and condition groups.
 
-### Employee attributes 
+### Employee attributes
 
 #### About employee attributes
 
@@ -125,9 +122,7 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
 * Improves data analysis with fewer columns in a smaller file.
 * Further protects private data by excluding columns from the file.
-* Enables you to select Clear all to clear the selected columns.
-
-<!---Insert .csv output screenshot--->
+* Enables you to select **Clear all** to clear the selected columns.
 
 #### To add employee attributes to your query
 
@@ -139,8 +134,7 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
     >[!Note]
     >
-    >If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly. For more information on errors, refer to Organizational data in the analyst experience.
-<!---Insert Select attributes screenshot and right pane screenshots beneath step b. Insert a new screenshot of a red-tagged attribute. Insert link to the org data in analyst experience--->
+    >If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly.
 
 ## Running the query
 
@@ -150,9 +144,9 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
 After your query runs, you can access its results in the **Query results** page. On the **Query results** page, you can also edit and clone your query. For further information, refer to [Query results](./query-results.md).
 
-## Example person query for after-hours communication
+## Example Person query for after-hours communication
 
-Let’s say you wanted to run a custom Person query to find out how often managers are emailing and sending Teams chats after their working hours. You want to:
+Let’s say you wanted to run a Custom Person query to find out how often managers are emailing and sending Teams chats after their working hours. You want to:
 
 * Analyze your company’s “West” organization only, which is provided in your employee data.
 * See data for the last six months, grouped by month.
@@ -187,7 +181,6 @@ Here’s how you might do that:
     1. Select the **Add to query** button.
 5. It’s time to run the query. On the upper right of the screen, select the **Run button**.
 6. After the query successfully runs, you can find its results in the **Query results** page. To:
-    1. View your query results within the app: Select the query name (alternately, select the ellipses to the right of the **Download** column and select View query).
     1. Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
     1. **Edit**, **Edit query name**, **Clone**, **Favorite**, or **Delete** the query: Select the ellipses to the right of the **Downloads** column, then select the appropriate choice. 
 
