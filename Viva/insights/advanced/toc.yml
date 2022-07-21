@@ -63,6 +63,8 @@ items:
           href: ./analyst/templates/ways-of-working.md            
         - name: Wellbeing - balance and flexibility
           href: ./analyst/templates/wellbeing.md
+        - name: Power BI tips, FAQ, and troubleshooting
+          href: ./analyst/templates/power-bi-faq-troubleshoot.md  
       - name: Data quality
         href: ./analyst/data-quality-analyst-experience.md
       - name: Metrics
