@@ -23,8 +23,7 @@ In Viva Topics, you can use the Multilingual feature to curate and edit a topic 
 > [!Note] 
 > A topic page must be created and curated in the tenant's default language before it can be translated using the Multilingual feature in Viva Topics. 
 
-## Curate a Multilingual topic page from an existing topic
-
+## Curate a Multilingual topic page
 > [!Note] 
 > When translating a topic page using the Multilingual feature in Viva Topics, editing field instructions will be in the default language from your tenant. To change this, update your tenant's language settings.
 
