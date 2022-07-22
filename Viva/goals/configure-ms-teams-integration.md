@@ -60,7 +60,7 @@ We will show how to preinstall the app for a specific group of users. If you wan
 
 **Follow these steps to successfully pre-install Viva Goals:**
 
-1. Log in to https://admin.teams.microsoft.com/ with your user id and password.
+1. Log in to https://admin.teams.microsoft.com/ with your user ID and password.
 2. Select **Teams apps** and choose **Setup policies**.
 
       :::image type="content" source="../media/goals/5/viva-goals-setup-policies.png" alt-text="Screenshot that shows the setup policies tab under Teams apps for pre-installing Viva Goals." lightbox="../media/goals/5/viva-goals-setup-policies.png":::

@@ -47,7 +47,7 @@ Follow these steps to insert an OKR/project in your textbox:
 
 6. Type in the title of the OKR/Project you’re looking for. As you type, suggestions will appear, and you can pick one. You will then see a card for that OKR/Project within your text box.
 
-   :::image type="content" source="../media/goals/5/searching-for-okrps-in-viva-goals-messaging-extension.png" alt-text="Screenshot that shows how to search for OKRs/Projects in the Viva goals messaging extension." lightbox="../media/goals/5/searching-for-okrps-in-viva-goals-messaging-extension.png":::
+   :::image type="content" source="../media/goals/5/searching-for-okrps-in-viva-goals-messaging-extension.png" alt-text="Screenshot that shows how to search for OKRs/Projects in the Viva Goals messaging extension." lightbox="../media/goals/5/searching-for-okrps-in-viva-goals-messaging-extension.png":::
          
 7. Add/remove any text you’d like to share for more context, along with the OKR/project’s progress, and hit **Send**.
 
