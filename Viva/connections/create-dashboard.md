@@ -302,7 +302,11 @@ Add a web link card when you want your users to go to an internal or external li
 
 
 ## Apply audience targeting to cards
-By using audience targeting, you can promote cards to specific groups of people. This kind of targeting is useful when you want to present information that is especially relevant to a particular group of people. For example, you can target cards to a specific department. [Learn more about audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81)
+[Audience targeting can be applied throughout](use-audience-targeting-in-viva-connections.md) the Viva Connections experience, including cards on the Dashboard. Audience targeting creates a personalized viewing experience by filtering the most important content to specific groups. Use audience targeting to: 
+
+- Create custom views for distinct roles and regions. 
+- Generate as many different views as needed to create unique experiences. 
+- Ensure the most important content is seen by the intended audience. 
 
 
 ### Set the target audiences for a card
@@ -324,7 +328,12 @@ By using audience targeting, you can promote cards to specific groups of people.
 
 ### Preview your dashboard to see how it will display for different audiences
 
-What you see in *preview mode* approximates how the Dashboard will display for certain audiences and devices. When you apply audience targeting to cards, you can preview how different people will view the Dashboard depending on the audience or device.
+After creating or editing cards on the Dashboard, make sure you preview the experience for each audience and on both desktop and mobile devices. What you see in *preview mode* approximates how the Dashboard will display for certain audiences and devices. When you apply audience targeting to cards, you can preview how different people will view the Dashboard depending on the audience or device. While in preview-mode, make sure: 
+
+- There aren’t any physical gaps between cards that may appear while previewing different audiences and devices. If you see gaps, rearrange cards so that every audience and device will have a high-quality viewing experience. 
+- Icons, graphics, and images are easy to identify and understand. 
+- Buttons and links are active and go to their intended destinations. 
+- Labels and description text are helpful, easy to read, and make sense for the intended audience. 
  
 #### To preview different audiences:
 
