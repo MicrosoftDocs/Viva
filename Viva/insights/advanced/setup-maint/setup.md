@@ -15,11 +15,11 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Set up Viva Insights
+# Set up advanced insights
 
-Although the Microsoft 365 admin and the Viva Insights admin do most of these steps, others in your organization help make decisions that relate to setup. See Determine key personas  for implementation for details.
+Although the Microsoft 365 admin and the Viva Insights admin do most of these steps, others in your organization help make decisions that relate to setup.
 
-**Prerequisites** - See [Environment requirements](/viva/insights/setup/Environment-Requirements.md) to learn about Viva Insights licenses and other related requirements.
+**Prerequisites** - See [Environment requirements](/viva/insights/Setup/Environment-Requirements?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn about Viva Insights licenses and other related requirements.
 
 ## Setup steps
 
@@ -41,9 +41,8 @@ Although the Microsoft 365 admin and the Viva Insights admin do most of these st
     1. Select **Save changes**.
 
     After you've finished making both the system defaults and the privacy settings, select **Save changes**.
-    <!--- Add link for privacy doc --->
-    ![Privacy settings page](../images/privacy-settings1.png)
-
+    
+:::image type="content" source="../images/privacy-settings1.png" alt-text="Screenshot of the privacy settings page." lightbox="../images/privacy-settings1.png":::
 
 3. **Prepare organizational data (optional)**: Export organizational data from your HR system into a UTF-8 encoded .csv file. For information about what data to export and how to structure it, see Prepare organizational data.
     1. Map data – Map the uploaded data to the applicable field names. For details, refer to [Field mapping](../admin/upload-org-data-first.md#field-mapping).

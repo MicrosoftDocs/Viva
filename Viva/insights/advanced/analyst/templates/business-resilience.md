@@ -40,7 +40,7 @@ The following demonstration uses sample data that’s only representative of thi
 
 Before you can run the queries and populate the report in Power BI, you’ll need to:
 
-* Be assigned the role of Insights Analyst in Viva Insights.
+* Be assigned the role of **Insights Analyst** in Viva Insights.
 * Have the June 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/) to download and install the latest version.
 
 ## Report setup
@@ -69,7 +69,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     
         Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
 
-        * Power BI queries are set to **Group by Week**. Do not change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. Don't change this **Group by** designation.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
 ![Set up the report page in Power BI](/viva/insights/advanced/images/br-pbi-query-setup.png)
 
@@ -78,27 +78,26 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 ![Set up the report page in Power BI](/viva/insights/advanced/images/br-pbi-predefined-metrics.png)
 
     >[!Note]
-    > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath Metrics, filters, and organizational attributes.
+    > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
 
-5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Person queries](../person-query.md).
+5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
 
     ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
 6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
 
     >[!Important]
-    >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Do not remove any preselected attributes.*
+    >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Don't remove any preselected attributes.*
     >
     >If you see attributes marked in red and the query’s **Run** button disabled, it means that these required attributes are missing from your organizational data. Contact your admin to upload them.
 
 7. Select **Run** on the upper right side of the screen, which can take a few minutes to complete.
 
 8. When your query results are ready, go to the **Query results** page and select the **Power BI** icon to download the Power BI template and copy the query identifier. You'll need the query identifier later.
-<!--- pending confirmation whether users are prompted--->
 
 ### Link report to query
 
-9. Open the downloaded Business resilience template.
+9. Open the downloaded **Business resilience** template.
 
 10. If prompted to select a program, select **Power BI**.
 
@@ -110,7 +109,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 12. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data, which can take a few minutes to complete for large files.
 
 >[!Important]
-> You must sign in to Power BI with the same account you use to access Viva Insights.
+> You need to sign in to Power BI with the same account you use to access Viva Insights.
 
 ## Report settings
 
@@ -152,7 +151,7 @@ Transitions at work can cause changes in employee collaboration patterns as they
 
 This page shows how manager coaching has been impacted by your business’s recent transition.
 
-Managers are crucial factors in the development, engagement, and wellbeing of their reports and in periods of transition, managers help their reports prioritize and provide stability. However, long periods of transition could also require managers to take on new or additional responsibilities, leaving less time for them to support their teams. We recommend that individual contributors spend a minimum of one hour per month in 1:1 meetings with their managers, or 15 minutes per week on average. Employees with this level are called “coached employees” in this report.
+Managers are crucial factors in the development, engagement, and wellbeing of their reports and in periods of transition, managers help their reports prioritize and provide stability. However, long periods of transition could also require managers to take on new or additional responsibilities, leaving less time for them to support their teams. We recommend that individual contributors spend a minimum of one hour per month in 1:1 meetings with their managers, or 15 minutes per week on average. Employees with this level are called *coached employees* in this report.
 
 ### Internal connections
 

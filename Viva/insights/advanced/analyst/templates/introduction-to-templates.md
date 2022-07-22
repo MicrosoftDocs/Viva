@@ -17,15 +17,15 @@ audience: Admin
 
 # Power BI report templates
 
-The **Analyst > Analysis** page in Microsoft Viva Insights includes a number of predefined Power BI templates that analysts can use to visually analyze workplace collaboration patterns and trends. A template prepopulates a custom query and selects the applicable Power BI charts to show the query results.
+The **Analysis** page in Microsoft Viva Insights includes a number of predefined Power BI templates that analysts can use to visually analyze workplace collaboration patterns and trends. A template prepopulates a custom query and selects the applicable Power BI charts to show the query results.
 
 ## Requirements for analysts
 
-Before analysts can get to work, they’ll need to be assigned the Insights Analyst role in Viva Insights. A Microsoft 365 global admin assigns roles, and can learn more about this task in [Assign roles](/Viva/insights/advanced/setup-maint/assign-user-roles.md). For general information about user roles in Viva Insights, see [User roles](/Viva/insights/advanced/setup-maint/user-roles.md).
+Before analysts can get to work, they’ll need to be assigned the **Insights Analyst** role in Viva Insights. A Microsoft 365 global admin assigns roles, and can learn more about this task in [Assign roles](/Viva/insights/advanced/setup-maint/assign-user-roles.md). For general information about user roles in Viva Insights, see [User roles](/Viva/insights/advanced/setup-maint/user-roles.md).
 
 ### Licensing notes
 
-* To use analyst features, an employee needs only to have the Insights Analyst role assigned. They don’t need to have been assigned a Viva Insights license.
+* To use analyst features, an employee needs only to have the **Insights Analyst** role assigned. They don’t need to have been assigned a Viva Insights license.
 * The predefined templates available in the Analysis page require the use of the Power BI Desktop, June 2022 version or newer. You don’t need a license for Power BI Desktop; you can download it for free by going to [Getting started with Power BI](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/). If you have an earlier version of Power BI desktop installed, uninstall it before reinstalling the new version.
 
 ## Power BI reports

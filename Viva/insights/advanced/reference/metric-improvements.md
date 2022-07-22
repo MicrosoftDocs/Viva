@@ -39,10 +39,10 @@ Viva Insights now uses activity signals, which use a separate record of *message
 
 |          | Old platform | New platform |
 |----------|-------|--------------|
-|**Messages sent**| Users or company policies could delete sent messages, causing data loss. | Signal ingested for greater accuracy (not impacted by deleting sent items) |
-|**Messages read**| No message read signal. It was assumed that users read every email they receive. | Signal ingested for greater accuracy 
-|**External messages** |	No signal for emails received from external senders. The time users spent reading external emails was assumed based on the emails they sent to external recipients.  | Signal ingested for greater accuracy |
-|**Meeting responses**	| Not filtered out	| Filtered out for greater accuracy
+|Messages sent| Users or company policies could delete sent messages, causing data loss. | Signal ingested for greater accuracy (not impacted by deleting sent items) |
+|Messages read| No *message read* signal. It was assumed that users read every email they receive. | Signal ingested for greater accuracy 
+|External messages |	No signal for emails received from external senders. The time users spent reading external emails was assumed based on the emails they sent to external recipients.  | Signal ingested for greater accuracy |
+|Meeting responses	| Not filtered out	| Filtered out for greater accuracy
 
 #### Teams chat metrics
 
@@ -50,8 +50,8 @@ The new platform collects both *chat message sent* and *chat message read* signa
 
 |                  |Old platform |New platform|
 |------------------|---------|--------|
-|**Chat messages sent**|Supported  |Supported |
-|**Chat messages read**|No *chat message read signal*. It was assumed that users read every chat message they receive.   |
+|Chat messages sent|Supported  |Supported |
+|Chat messages read|No *chat message read* signal. It was assumed that users read every chat message they receive.   | Signal ingested for greater accuracy 
 
 #### Meeting exclusion rules
 
@@ -63,19 +63,19 @@ In the new platform, we no longer assume invitees who responded as “Tentative,
 
 Here’s how each platform excludes different types of meetings by default:
 
-|        |Old platform | New platform
+|        |Old platform | New platform |
 |--------|-------------|----------------|
-|**Meeting response**| Overcounts meetings where invitee responded as “Tentative” or didn’t respond |	Excludes meetings where invitee responded as “Tentative”  or don’t respond
-|**“ShowAs” status**	| Overcounts meetings that don’t show as “Busy” on attendees’ calendars |	Excludes meetings that don’t show as “Busy” on attendees’ calendars
-|**Meeting length**|	Excludes meetings longer than eight hours |	Excludes meetings longer than 24 hours
-|**Meeting size** |	Excludes meetings with more than 249 participants and fewer than two participants |	Excludes meetings with fewer than two accepted participants
-|**Canceled meetings** |	Excludes canceled meetings |	Excludes canceled meetings
+|Meeting response| Overcounts meetings where invitee responded as “Tentative” or didn’t respond |	Excludes meetings where invitee responded as “Tentative”  or don’t respond
+|“ShowAs” status	| Overcounts meetings that don’t show as “Busy” on attendees’ calendars |	Excludes meetings that don’t show as “Busy” on attendees’ calendars
+|Meeting length|	Excludes meetings longer than eight hours |	Excludes meetings longer than 24 hours
+|Meeting size |	Excludes meetings with more than 249 participants and fewer than two participants |	Excludes meetings with fewer than two accepted participants
+|Canceled meetings |	Excludes canceled meetings |	Excludes canceled meetings
 
 #### Multitasking
 
 *Metric name: **Multitasking hours***
 
-The old platform classifies **Multitasking hours** based on the number of emails sent during a meeting. If that number goes over a certain threshold, then the whole meeting duration is marked as multitasking. Let’s say you send two emails right at the start of an hour-long meeting—in the old platform, that whole hour is tagged as multitasking. This method, as we learned from our data validation, often leads to overcounting of multitasking meeting hours.
+The old platform classifies **Multitasking hours** based on the number of emails sent during a meeting. If that number goes over a certain threshold, then the whole meeting duration is marked as multitasking. Let’s say you send two emails right at the start of an hour-long meeting—in the old platform, that whole hour would be tagged as multitasking. This method, as we learned from our data validation, often leads to overcounting of multitasking meeting hours.
 
 The new platform, however, considers the actual time that activities are overlapping—for example, the time you spent reading an email during a meeting.
 
@@ -127,9 +127,9 @@ In the new platform, we use Azure Active Directory to simplify the admin experie
 
 |     |Old platform  | New platform
 |-----|--------------|-------------|
-|**HR data upload** |	Supported	| Supported
-|**Auto-extraction from Azure Active Directory**	| Not supported	| Supported
-|**Third-party connectors**| Not supported| Will be supported in the future
+|HR data upload |	Supported	| Supported
+|Auto-extraction from Azure Active Directory	| Not supported	| Supported
+|Third-party connectors| Not supported| Will be supported in the future
 
 ### Why do the numbers for my metrics look different?
 
@@ -175,10 +175,9 @@ In addition to updated metrics for improved data analysis, the shift to the new 
 * Support of regional data-residency requirements
 * Weekly data refreshes
 * Ability to use: 
-    * Azure Active Directory data to supply organizational structure and attributes and 
+    * Azure Active Directory data to supply organizational structure and attributes *and* 
     * Your own organizational data file to supply custom attributes
 * New features and insights, including:
-* New Power BI report templates 
-* Qualtrics and Glint Connectors
-* Automatic HR data upload
-
+    * New Power BI report templates 
+    * Qualtrics and Glint Connectors
+    * Automatic HR data upload
