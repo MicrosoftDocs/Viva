@@ -51,7 +51,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 
 ## Create a Dashboard and add cards
 
-![Image of adding a dashboard card.](../media/connections/viva-dashboard-step.png)
+![Diagram of how to create a Viva Connections Dashboard.](../media/connections/viva-dashboard-step.png)
 
 
 You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the home site.
