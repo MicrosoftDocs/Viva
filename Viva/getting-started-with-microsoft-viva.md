@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.custom: intro-get-started
 ms.collection:  
 - M365initiative-viva
+- m365solution-overview
 - intro-overview 
 search.appverid:
 - MET150

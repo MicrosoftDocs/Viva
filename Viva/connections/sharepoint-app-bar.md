@@ -10,6 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+ms.subservice: viva-connections
 ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
