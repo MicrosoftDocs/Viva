@@ -17,6 +17,8 @@ items:
       href: navigate-admin-dashboard.md
     - name: Log in, Create, and Join Organizations in Viva Goals
       href: log-in-create-and-join-organizations.md
+    - name: Restrict Organization Creation Permissions
+      href: restrict-organization-creation-permissions.md
     - name: Invite and Remove Users in Viva Goals
       href: inviting-and-removing-a-user.md
     - name: Create and Edit Teams
@@ -25,6 +27,8 @@ items:
       href: configure-okr-model.md
     - name: Manage OKR Time Periods
       href: managing-okr-time-periods.md
+    - name: Configure check-in reminders and notifications
+      href: check-in-reminders.md
     - name: Roles and Permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
 - name: Work with OKRs in Viva Goals

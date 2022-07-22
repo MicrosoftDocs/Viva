@@ -19,9 +19,9 @@ description: Learn how to configure other content providers as a learning conten
 
 # Add other content providers for Microsoft Viva Learning
 
-A growing set of learning content providers are available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
+A growing set of learning content providers is available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
 
-Some learning sources will be enabled by default and will be available without a premium Viva Learning license. These learning sources include:
+Some learning sources are enabled by default and available without a premium Viva Learning license. These learning sources include:
 
 - LinkedIn Learning select 125 courses
 - Microsoft Learn
@@ -41,6 +41,7 @@ Third-party content sources are not enabled by default. To enable these sources,
 |Go1     |[Configure Go1 as a content source](configure-go1-content-source.md)         |
 |OpenSesame    |[Configure OpenSesame as a content source](configure-opensesame-content-source.md)    |
 |Skillsoft     |[Configure Skillsoft as a content source](configure-skillsoft-content-source.md)         |
+|Udacity    |[Configure Udacity as a content source](configure-udacity-content-source.md)    |
 |Udemy   |[Configure Udemy as a content source](configure-udemy-content-source.md)         |
 |Coursera    |Follow the steps below to add Coursera in your Microsoft 365 admin center.    |
 |edX    |Follow the steps below to add edX in your Microsoft 365 admin center.    |
@@ -58,7 +59,7 @@ Third-party content sources are not enabled by default. To enable these sources,
 
 ## Dataflow architecture
 
-The dataflow diagram illustrates how Viva Learning ingests third-party content. The third-party provider is the ultimate source of information for content records for their customers. Viva Learning extracts the content from the third-party provider using the connector.
+The dataflow diagram shows how Viva Learning ingests third-party content. The third-party provider is the ultimate source of information for content records for their customers. Viva Learning extracts the content from the third-party provider using the connector.
 
 ![Flow chart depicting the content ingestion process, which is described in the paragraph below.](../media/learning/3p-dataflow.png)
 
@@ -98,7 +99,7 @@ The step-by-step content ingestion process is described below.
 
 ## Content ingestion errors
 
-If you experience any errors in your Microsoft 365 admin center during content ingestion, refer to the table below for next steps. Please note that this is an exhaustive list and may contain more error codes in the future.
+If you experience any errors in your Microsoft 365 admin center during content ingestion, refer to the table below for next steps. This list may contain more error codes in the future.
 
 >[!NOTE]
 >The maximum number of active learning items supported in a tenant is 500,000 records.
@@ -112,6 +113,6 @@ The maximum number of total learning items supported in a tenant is 1 million re
 
 ## Content consumption for end users
 
-Once you've added a content provider as a content source from the Microsoft 365 admin center, content from the provider will flow to the Viva Learning app and will be visible to end users.
+Once you've added a content provider as a content source from the Microsoft 365 admin center, content from the provider will flow to the Viva Learning app and become visible to end users.
 
-Once a user chooses to play a course in Viva Learning, they will be directed to the content provider's webpage and will need to enter the login credentials on the provider's sign in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).
+Once a user chooses to play a course in Viva Learning, they'll be directed to the content provider's webpage. They'll need to enter the login credentials on the provider's sign in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).
