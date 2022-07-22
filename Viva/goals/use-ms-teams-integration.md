@@ -81,7 +81,7 @@ On both the **My OKRs** and **Organization OKRs** tabs, you can search for any O
 1. After adding an objective, and selecting Save and Add Key Result, the Add Key Result window will appear. 
 2. On this page, you can add your key result, assign tags, add description, choose how you would like to measure success, add scoring guidance, a data integration, choose how to align, adjust owner, delegate and adjust time period. 
 
-:::image type="content" source="../media/goals/5/add-new-key-result.png" alt-text="Screenshot that shows adding a new key result in Viva Goals." lightbox="../media/goals/5/add-new-key-result.png":::
+   :::image type="content" source="../media/goals/5/add-new-key-result.png" alt-text="Screenshot that shows adding a new key result in Viva Goals." lightbox="../media/goals/5/add-new-key-result.png":::
 
 3. Once you have completed this information, you can Save and Close, or choose to **Save** and **Add Another**. 
 
