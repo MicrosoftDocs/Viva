@@ -49,8 +49,6 @@ From the Viva Goals app detail page, click Add.
 
 You can pin the Viva Goals app in Teams by right-clicking on the app icon in the left navigation panel and selecting **Pin**.
 
-Once Viva Goals have been added to Microsoft Teams, the app will guide you on the next steps based on if you already have an account with Viva Goals or not.
-
 <h2 id="admin-setup">Configure the Microsoft Teams integration: For admins</h2>
 
 Preinstalling the app will ensure that your users will be able to see their OKRs directly in Teams, without ever having to install the app from the Teams Store. It is a great way to ensure your users stay in the flow of work, since they will be able to reference OKRs directly in Teams chats and channels without first pausing to install the app.  
