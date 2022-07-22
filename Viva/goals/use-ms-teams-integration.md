@@ -68,15 +68,15 @@ Adding a new objective inside Teams is easy. To do this, follow the steps below:
 
 1. On the **My OKRs** page, select **Add Objective**. 
 
-   :::image type="content" source="../media/goals/5/add-objective-button-in-my-okrs-tab.png" alt-text="Screenshot that shows Adding a new objective." lightbox="../media/goals/5/add-objective-button-in-my-okrs-tab.png":::
+     :::image type="content" source="../media/goals/5/add-objective-button-in-my-okrs-tab.png" alt-text="Screenshot that shows Adding a new objective." lightbox="../media/goals/5/add-objective-button-in-my-okrs-tab.png":::
          
 2. When the **Add Objective** page appears, enter your objective, add useful tags and description, choose a flexible measurement option, align the objective to another objective, and adjust owner, delegation and period. 
 
-   :::image type="content" source="../media/goals/5/new-objective-populated-with-details.png" alt-text="Screenshot that shows filling in details in the new objective quick view page." lightbox="../media/goals/5/new-objective-populated-with-details.png":::
+     :::image type="content" source="../media/goals/5/new-objective-populated-with-details.png" alt-text="Screenshot that shows filling in details in the new objective quick view page." lightbox="../media/goals/5/new-objective-populated-with-details.png":::
          
 3. After you populate the objective information, select **Save and Close**, or **Save and Add Key Results**. 
 
-    :::image type="content" source="../media/goals/5/create-options-for-new-objective.png" alt-text="Screenshot that shows the create options for new objective." lightbox="../media/goals/5/create-options-for-new-objective.png":::
+     :::image type="content" source="../media/goals/5/create-options-for-new-objective.png" alt-text="Screenshot that shows the create options for new objective." lightbox="../media/goals/5/create-options-for-new-objective.png":::
          
 <h2 id="add-krs-in-teams">How to add key results in Microsoft Teams</h2>
 
