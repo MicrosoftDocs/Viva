@@ -66,7 +66,7 @@ On both the **My OKRs** and **Organization OKRs** tabs, you can search for any O
          
 Adding a new objective inside Teams is easy. To do this, follow the steps below:
          
-1. On the **My OKRs** page, select **+Add Objective**. 
+1. On the **My OKRs** page, select **Add Objective**. 
 
    :::image type="content" source="../media/goals/5/add-objective-button-in-my-okrs-tab.png" alt-text="Screenshot that shows Adding a new objective." lightbox="../media/goals/5/add-objective-button-in-my-okrs-tab.png":::
          
