@@ -1,5 +1,5 @@
 ---
-title: Translate an exisiting topic using Multilingual in Microsoft Viva Topics
+title: Translate an existing topic using Multilingual in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
@@ -71,7 +71,7 @@ To create a multilingual topic page, open a topic page, and select **Multilingua
 
 ![Screenshot showing the publish the curated Multilingual page.](../media/knowledge-management/ml-publish-page.png)
 
-## Select a curated Multilingual topic page
+## View a published Multilingual topic page
 To view a published Multilingual topic page, select a language option on the upper-right language menu of the topic page.
 
 ![Screenshot showing the menu of languages to select a publish Multilingual topic page.](../media/knowledge-management/ml-language-menu.png)
