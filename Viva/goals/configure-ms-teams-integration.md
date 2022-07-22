@@ -122,11 +122,11 @@ We will show how to preinstall the app for a specific group of users. If you wan
       
     > Once you see the timestamp in the **Completed on** column, the policy will work for all the users in the group.
 
-15. Now when a user who belongs to this group logs into Teams, the policy will kick in. For example, “Contoso” has “Julia Martins” as a member as we can see in the M365 admin.
+15. Now when a user who belongs to this group logs into Teams, the policy will kick in. For example, “Contoso” has “Abigail Jackson” as a member as we can see in the M365 admin.
       
-      :::image type="content" source="../media/goals/5/member-list-julia-martins.png" alt-text="Screenshot that shows Julia Martins from the list of members." lightbox="../media/goals/5/member-list-julia-martins.png":::
+      :::image type="content" source="../media/goals/5/contoso-members-list.png" alt-text="Screenshot that shows Abigail Jackson from the list of members." lightbox="../media/goals/5/contoso-members-list.png":::
       
-16. When Julia logs into Teams, you can see that both the Viva Goals app and the message extension are preinstalled and pinned on the top left and at the bottom, respectively, in the Teams client.
+16. When Abigail logs into Teams, you can see that both the Viva Goals app and the message extension are preinstalled and pinned on the top left and at the bottom, respectively, in the Teams client.
 
       :::image type="content" source="../media/goals/5/pinned-viva-goals-with-message-extension.png" alt-text="Screenshot that shows the pinned Viva Goals app and Viva Goals message extension." lightbox="../media/goals/5/pinned-viva-goals-with-message-extension.png":::
       
