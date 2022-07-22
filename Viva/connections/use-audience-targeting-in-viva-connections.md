@@ -58,7 +58,7 @@ Create a personalized experience by targeting Dashboard cards to specific audien
 5. Preview the viewing experience for different audiences and devices by selecting **Preview** from the command bar and then Select **audiences to preview as**. Make sure you preview the experience for each audience and on both desktop and mobile devices. 
 <br>
 
-  **While in preview-mode, make sure:** 
+   **While in preview-mode, make sure:** 
 
    - There aren’t any physical gaps between cards that may appear while previewing different audiences and devices. If you see gaps, rearrange cards so that every audience and device will have a high-quality viewing experience. 
    - Icons, graphics, and images are easy to identify and understand. 
