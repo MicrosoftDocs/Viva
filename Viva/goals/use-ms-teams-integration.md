@@ -64,9 +64,9 @@ On both the **My OKRs** and **Organization OKRs** tabs, you can search for any O
 
 <h2 id="add-objective-in-teams">How to add new objectives in Microsoft Teams</h2>
          
-Adding a new objective inside Teams is easy. To do this follow the below steps:
+Adding a new objective inside Teams is easy. To do this, follow the steps below:
          
-1. On the **My OKRs** page, select **+ Add Objective**. 
+1. On the **My OKRs** page, select **+Add Objective**. 
 
    :::image type="content" source="../media/goals/5/add-objective-button-in-my-okrs-tab.png" alt-text="Screenshot that shows Adding a new objective." lightbox="../media/goals/5/add-objective-button-in-my-okrs-tab.png":::
          
@@ -74,17 +74,18 @@ Adding a new objective inside Teams is easy. To do this follow the below steps:
 
    :::image type="content" source="../media/goals/5/new-objective-populated-with-details.png" alt-text="Screenshot that shows filling in details in the new objective quick view page." lightbox="../media/goals/5/new-objective-populated-with-details.png":::
          
-3. After you populate the objective information, select Save and Close, or Save and Add Key Results. 
+3. After you populate the objective information, select **Save and Close**, or **Save and Add Key Results**. 
 
     :::image type="content" source="../media/goals/5/create-options-for-new-objective.png" alt-text="Screenshot that shows the create options for new objective." lightbox="../media/goals/5/create-options-for-new-objective.png":::
          
 <h2 id="add-krs-in-teams">How to add key results in Microsoft Teams</h2>
 
-After adding an objective, and selecting Save and Add Key Result, the Add Key Result window will appear. On this page, you can add your key result, assign tags, add description, choose how you would like to measure success, add scoring guidance, a data integration, choose how to align, adjust owner, delegate and adjust time period. 
+1. After adding an objective, and selecting Save and Add Key Result, the Add Key Result window will appear. 
+2. On this page, you can add your key result, assign tags, add description, choose how you would like to measure success, add scoring guidance, a data integration, choose how to align, adjust owner, delegate and adjust time period. 
 
 :::image type="content" source="../media/goals/5/add-new-key-result.png" alt-text="Screenshot that shows adding a new key result in Viva Goals." lightbox="../media/goals/5/add-new-key-result.png":::
 
-Once you have completed this information, you can Save and Close, or choose to **Save** and **Add Another**. 
+3. Once you have completed this information, you can Save and Close, or choose to **Save** and **Add Another**. 
 
 <h2 id="check-ins-in-teams">How to perform OKR check-ins in Microsoft Teams</h2>
 
@@ -98,4 +99,4 @@ To perform an OKR update in Teams:
 
    :::image type="content" source="../media/goals/5/check-in-from-quick-view.png" alt-text="Screenshot that shows filling in the current progress in the new check-in page." lightbox="../media/goals/5/check-in-from-quick-view.png":::
 
-One you select **Check-in**, the progress of the objective or key result will adjust to reflect the recent check-in. 
+3. One you select **Check-in**, the progress of the objective or key result will adjust to reflect the recent check-in. 
