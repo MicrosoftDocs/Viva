@@ -24,7 +24,7 @@ items:
     - name: Create and Edit Teams
       href: create-and-edit-teams-and-subteams.md
     - name: Configure help and support for your organization
-      href: configure-support.md
+      href: configure-help-and-support.md
     - name: Configure Your OKR Model in Viva Goals
       href: configure-okr-model.md
     - name: Manage OKR Time Periods
