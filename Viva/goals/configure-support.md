@@ -35,7 +35,7 @@ On selecting the ‘Contoso help’ menu item, users will see the help and suppo
 
 To configure the help and support options, go to **Admin Dashboard** -> **Settings tab** -> **Help and support** setting and enable support using the toggle.
 
-:::image type="content" source="../media/goals/support-toggle-disabled.png" alt-text="Enable help and support using this toggle." lightbox="../media/goals/support-toggle-disabled.png":::
+:::image type="content" source="../media/goals/support-toggle-disabled.png" alt-text="Screenshot that shows how to Enable help and support using this toggle." lightbox="../media/goals/support-toggle-disabled.png":::
 
 On enabling the configuration, you'll be able to: 
 
