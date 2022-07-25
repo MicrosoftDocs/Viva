@@ -33,14 +33,12 @@ The report has six sections, which each address different facets of the employee
 ![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-preview-PBI-summary.png)
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Hybrid workforce experience (preview)** query in Viva Insights.
-<!--waiting for embed link
+
 ## Demonstration
 
 The following demonstration uses sample data that’s only representative of this report and might not be exactly what you see in a live report specific to your organization's unique data.
 
-[iframe]
-
--->
+<iframe title="Hybrid workforce experience (preview) - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiYjdmZDQzOWYtZjQwZC00ZDJlLWFjNDYtNTc2NjFkYzJkZTQwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Prerequisites
 
