@@ -29,7 +29,7 @@ As an organization administrator, you can configure help and support resources f
 
 On selecting the ‘Contoso help’ menu item, users will see the help and support options configured by organization administrators. 
 
-:::image type="content" source="../media/goals/end-user-help-resources.png" alt-text="Help resources available for your organization members." lightbox="../media/goals/end-user-help-resources.png":::
+:::image type="content" source="../media/goals/end-user-help-resources.png" alt-text="Screenshot that shows Help resources available for your organization members." lightbox="../media/goals/end-user-help-resources.png":::
 
 ## How to configure help and support
 
