@@ -1,0 +1,21 @@
+﻿- name: Microsoft Viva Sales
+  href: introduction.md
+
+- name: Install Viva Sales
+  items:
+  - name: Overview
+    href: install-viva-sales.md
+  - name: Install Viva Sales as an integrated app
+    href: install-viva-sales-as-an-integrated-app.md
+  - name: Install Viva Sales as an individual add-in from the admin center
+    href: install-viva-sales-individual-add-in-admin-center.md
+  - name: Install Viva Sales as an individual add-in from AppSource
+    href: install-viva-sales-individual-add-in-appsource.md
+  - name: Install and pin Viva Sales in Teams
+    href: install-pin-viva-sales-teams.md
+
+- name: Disable Viva Sales
+  href: disable-viva-sales.md
+
+- name: Block the Viva Sales app in Teams
+  href: block-the-viva-sales-app-in-teams.md
