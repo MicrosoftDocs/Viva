@@ -53,7 +53,7 @@ On enabling the configuration, you'll be able to:
 
 As you make the changes, you'll be able to see a live preview of how it will appear to the users. 
   
-:::image type="content" source="../media/goals/add-contact-info-page.png" alt-text="Enter the contact information and see the preview of how it will appear." lightbox="../media/goals/add-contact-info-page.png":::
+:::image type="content" source="../media/goals/add-contact-info-page.png" alt-text="Screenshot that shows how to enter the contact information and see the preview of how it will appear." lightbox="../media/goals/add-contact-info-page.png":::
   
 You can add multiple links and contacts.
   
