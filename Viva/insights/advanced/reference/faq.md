@@ -57,9 +57,9 @@ A2. Advanced insights aren't available in data cloud environments that Microsoft
 
 ### Language support
 
-Q1. Can I use the advanced insights app in a language other than English? 
+Q1. Can I use the advanced insights app in a language other than English?
 
-A1. Yes, you ou can use the webapp in languages other than English. There are a few features, though, that are available in English only: metric names in custom Person and Power BI queries, system-reserved names for employee attributes, and Power BI templates. We plan to translate these features in the future.
+A1. Yes, you can use the webapp in languages other than English. There are a few features, though, that are available in English only: metric names in custom Person and Power BI queries, system-reserved names for employee attributes, and Power BI templates. We plan to translate these features in the future.
 
 #### Q2. Can I upload an organizational data file that has non-English words or letters?
 
@@ -81,23 +81,23 @@ A3. Yes. You can use filters in queries that include the following:
 
 A1. The main tasks required to enable advanced insights for your organization are:
 
-* Assign licenses 
-* Assign roles
+* Assign licenses. 
+* Assign roles.
 
 Optionally, after you sign in, you can:
 
-* Configure settings
-* Upload organizational data  
+* Configure settings.
+* Upload organizational data.  
 
 For details about setup, refer to [Set up Advanced insights](../setup-maint/setup.md).
 
 #### Q2. Is the number of analyst role assignments limited?
 
-A2. No limit is imposed for Analyst roles.
+A2. No limit is imposed for **Insights Analyst** roles.
 
 #### Q3. Are people who are not assigned a license ignored?
 
-A3. No, they aren't ignored but they aren't measured and their data isn't processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages.  
+A3. No, they aren't ignored but they aren't measured and their data isn't processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or chats.  
 
 ### Organizational data
 
@@ -111,15 +111,15 @@ A1. An upload can fail if the data has invalid values, if it is missing required
 
 #### Q2. For the required fields, what percentage is required for the validity threshold?
 
-A2. **PersonId** and **EffectiveDate** fields need to meet 100 percent of the validity threshold, because each row of data needs to have a PersonId for each person in your organization. The other required fields (such as **ManagerId**) need to exceed 95 percent of the validity threshold. Note that the calculations for validity threshold consider only two kinds of data values: valid values and blank values. For the 95-percent validity threshold, the column will pass validation if fewer than five percent of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.
+A2. **PersonId** and **EffectiveDate** fields need to meet 100 percent of the validity threshold, because each row of data needs to have a **PersonId** for each person in your organization. The other required fields (such as **ManagerId**) need to exceed 95 percent of the validity threshold. Note that the calculations for validity threshold consider only two kinds of data values: valid values and blank values. For the 95-percent validity threshold, the column will pass validation if fewer than five percent of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.
 
 #### Q3. What happens if an employee (who is represented by a PersonId) has more than one manager (represented by ManagerIds)?
 
-A3. Viva Insights doesn’t fail an upload if a person doesn’t have one single, primary manager. However, one manager per employee is recommended. This manager is represented by the **ManagerId** for that **PersonId** on a given **EffectiveDate**. Note that the Viva Insights admin can use the **EffectiveDate** field in the organizational data to indicate that an employee’s primary manager has changed from one month to the next.
+A3. Viva Insights doesn’t fail an upload if a person doesn’t have one single, primary manager. However, one manager per employee is recommended. This manager is represented by the **ManagerId** for that **PersonId** on a given **EffectiveDate**. Note that the **Insights Admin**("admin" in this article) can use the **EffectiveDate** field in the organizational data to indicate that an employee’s primary manager has changed from one month to the next.
 
 #### Q4. Who gets the organizational data to upload?
 
-A4. While Azure Active Directory is the default data source, a manual file upload is preferred. Usually, HR gives this data to the Viva Insights admin, who then prepares and uploads it.
+A4. While Azure Active Directory is the default data source, a manual file upload is preferred. Usually, HR gives this data to the admin, who then prepares and uploads it.
 
 #### Q5. Who can access organizational data after it has been uploaded?
 
