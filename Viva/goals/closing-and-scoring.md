@@ -109,9 +109,9 @@ If your organization has Scoring Guidance enabled, users can define how they tra
 
 This option promotes transparency and understanding throughout your organization and the progress of your OKRs. 
 
-#### How to add Scoring Guidance
+#### How to add scoring guidance
 
-To add Scoring Guidance, select **Add Scoring Guidance** when you create or edit the objective.
+To add scoring guidance, select **Add Scoring Guidance** when you create or edit the objective.
 
 ![Screenshot shows where to add scoring guidance.](../media/goals/3/36/d.jpg)
 
