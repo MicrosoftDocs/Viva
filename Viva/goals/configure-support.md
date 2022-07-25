@@ -57,7 +57,7 @@ As you make the changes, you'll be able to see a live preview of how it will app
   
 You can add multiple links and contacts.
   
-:::image type="content" source="../media/goals/multiple-contacts.png" alt-text="Add multiple contacts." lightbox="../media/goals/multiple-contacts.png":::
+:::image type="content" source="../media/goals/multiple-contacts.png" alt-text="Screenshot that shows how to add multiple contacts." lightbox="../media/goals/multiple-contacts.png":::
   
 On saving, the menu will start appearing in the help section for users of your organization.
 
