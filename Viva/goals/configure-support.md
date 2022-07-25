@@ -49,7 +49,7 @@ On enabling the configuration, you'll be able to:
 
     b. Contacts – You can specify the contact's name or description. You can add email, phone number, or any other kind of contact information. Use comma to separate different kinds of contact information, so that they'll appear in different lines. You can add up to five lines for a contact. 
   
-     :::image type="content" source="../media/goals/contact-info-dropdown.png" alt-text="Use the dropdown to add help and support resources for your organization." lightbox="../media/goals/contact-info-dropdown.png":::
+     :::image type="content" source="../media/goals/contact-info-dropdown.png" alt-text="Screenshot that shows how to use the dropdown to add help and support resources for your organization." lightbox="../media/goals/contact-info-dropdown.png":::
 
 As you make the changes, you'll be able to see a live preview of how it will appear to the users. 
   
