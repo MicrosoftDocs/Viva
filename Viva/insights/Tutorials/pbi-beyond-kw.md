@@ -51,7 +51,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Viva Insights. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: https://workplaceanalytics.office.com/en-us/Home/
+>This dashboard is currently only available in English and will only work with data generated from the English version of the app. Before running the required queries, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/...
 
 1. In the advanced insights app, select **Analyze** > **Query designer**.
 2. Under **Start from preselected filters and metrics**, select **Beyond knowledge workers** to open the predefined query, which contains the required metrics to populate the dashboard.

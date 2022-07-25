@@ -27,7 +27,7 @@ The Query designer in the advanced insights app that's available with Viva Insig
 The Query designer has templates for the following Power BI dashboards for visually analyzing data in Power BI. Select one to see more details about it and to view an interactive demo.
 
 >[!Note]
->Most of these dashboards are currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/> (Business continuity and Microsoft Teams insights are the exceptions that support the same [languages as Viva Insights](../overview/supported-languages.md#supported-languages).)
+>Most of these dashboards are currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required queries, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/... (Business continuity and Microsoft Teams insights are the exceptions that support the same [languages as Viva Insights](../overview/supported-languages.md#supported-languages).)
 
 | &nbsp; | &nbsp; |
 |------|-------|

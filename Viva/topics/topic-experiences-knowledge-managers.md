@@ -18,7 +18,7 @@ description: Learn how knowledge managers build and manage a knowledge base with
 
 # Knowledge managers: Build and manage a knowledge base in Microsoft Viva Topics
 
-Knowledge managers play a key role in building a knowledge base that Viva Topics then makes available to employees, in the flow of their work. In this article we review:  
+Knowledge managers play a key role in building a knowledge base that Viva Topics makes available to employees, in the flow of their work. In this article we review:  
 
 - [The importance of the knowledge manager](topic-experiences-knowledge-managers.md#importance-of-the-knowledge-manager)
 

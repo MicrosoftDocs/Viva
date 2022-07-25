@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: viva
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn about analytics for Microsoft Viva Topics.
