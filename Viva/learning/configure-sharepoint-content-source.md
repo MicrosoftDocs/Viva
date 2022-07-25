@@ -105,10 +105,12 @@ Create a folder to store learning content for your organization.
 
     ![Screenshot of a folder called Training Materials in the document library.](../media/learning/spfolder-8.png)
 
-4. Upload files that you want to publish as learning content in this folder.
+4. Upload files that you want to publish as learning content in this folder. Apply M365 permissions to the folders that contain learning objects and to any items within the folders that have unique permissions. [Learn how to use permissions for learning content](#permissions).
+
+​
 5. To get the folder url, choose this folder and select **Copy link**.
 
-    ![Screenshot of the Link copied popup.](../media/learning/spfolder-link.png)
+   ![Screenshot of the Link copied popup.](../media/learning/spfolder-link.png)
 
 ### Metadata
 
@@ -117,6 +119,9 @@ Default metadata (such as modified date, created by, document name, content type
 To improve overall discovery and search relevance of the content, we recommend adding columns for description, a thumbnail URL, content duration, content author, and tags. If there's already a description column present, you can delete it and add a new one by following the steps below.
 
 To add a metadata field, follow these steps first.
+
+> [!IMPORTANT]
+> You'll need to use the column names exactly as they're provided here for the metadata to pull through.
 
 1. Select the folder from your learning content repository.
 2. From the **Documents** page, select **Add column**.
@@ -218,7 +223,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 
     ![Screenshot of a group being selected in the Direct access pane.](../media/learning/sharepoint-group.png)
 
-7. By default, users in the group are given Edit permissions. Select the pencil icon to choose between Edit and View permissions. The pencil icon will have a slash through it if the group has only view permissions.
+7. By default, users in the group are given Edit permissions. Select the pencil icon to choose between Edit and View permissions. The pencil icon will have a slash through it if the group has only view permissions. Users need a minimum of Can View permission.
 
     ![Screenshot of the pencil icon showing options for Can edit and Can view.](../media/learning/sharepoint-edit-view.png)
 
