@@ -26,9 +26,9 @@ description: "Learn how to perform key actions with keyboard strokes, and the ab
 
 ## Quick search
 
-Search for users, teams, objectives, and projects, and bring key actions in Viva Goals together in a seamless experience. With quick search, users can access commands in Viva Goals fast, with no more than two clicks.
+Search for users, teams, objectives, and projects, and bring key actions in Viva Goals together in a seamless experience. With quick search, users can access data in Viva Goals fast, in not more than two commands.
 
-With quick Search, a user can:
+With Quick search, a user can:
 
 - Make a check-in
 

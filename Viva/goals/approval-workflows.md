@@ -36,11 +36,11 @@ The approval workflow in Viva Goals enables managers to regulate OKR workflows i
 
 ![Chart shows the steps in each stage of OKR approval.](../media/goals/4/44/a.png)
    
-*Planning* and *Review* are similar and are used to indicate status. For example, an employee might plan out their OKRs and tell their manager when their OKRs are ready for review. The manager would then set them to the Review stage.
+*Planning* and *Review*, which are similar, are used to indicate status. For example, an employee might plan out their OKRs and tell their manager when their OKRs are ready for review. The manager would then set them to the *Review* stage.
 
 They would then have a discussion to finalize OKRs before the manager moves the OKRs to the *Approved* stage.
 
-One they're approved, the OKRs are **locked** and can't be changed by the employee. In order for a manager (also called the approver) to make changes to the OKR, they'd need to move it back to the Review stage. 
+One they're approved, the OKRs are **locked** and can't be changed by the employee. In order for the manager (also called the approver) to make changes to the OKR, they'd need to move it back to the Review stage. 
 
 ## How to enable the approval workflow
 
@@ -60,7 +60,7 @@ Only org owners and org admins can approve organization OKRs.
 
 #### Approval of team OKRs 
 
-By default, team OKRs can be approved by managers of the team owners. Optionally, you enable team owners and team admins to approve the team OKRs. 
+By default, team OKRs can be approved by managers of the team owners. Optionally, you can enable team owners and team admins to approve team OKRs. 
 
 #### Approval of individual OKRs 
 
@@ -70,11 +70,11 @@ Individual OKRs can only be approved by the managers of the individuals.
   
 1. After the Approval Workflow feature is enabled, go to the entity that you want to change the workflow status for.
   
-2. In the upper-right corner of your screen, select the **...** button to view all possible actions for the current entity.
+2. In the upper-right corner of the screen, select the **...** button to view all possible actions for the current entity.
 
 3. Select **Change Status**.
     
-4. In the pop-up box dialog that appears, select the status dropdown.
+4. In the pop-up dialog that appears, select the status dropdown.
    
 5. Select the status.
  
@@ -82,6 +82,6 @@ Individual OKRs can only be approved by the managers of the individuals.
   
 ## Permissions available for each workflow stage
 
-This setting allows for more regulation, although there's more effort on the part of the objective owner and the managers. Admins should consider this factor before they enable the feature.
+This setting allows for more regulation, although it requires more effort from the objective owner and the managers. Admins should consider this factor before they enable the feature.
 
-It's not advisable to enable this setting while you are in the middle of an OKR period.
+It's best not to enable this setting while you're in the middle of an OKR period.

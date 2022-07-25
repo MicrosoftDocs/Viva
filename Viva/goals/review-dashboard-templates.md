@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - MET150
 
-description: "Learn about templates that you can use as an inspiration while creating your next dashboard."
+description: "Learn about templates that you can use for inspiration when you create your next dashboard."
 ---
 
 # Review Dashboard Templates
@@ -49,8 +49,8 @@ It's good practice to focus on leading and lagging indicators, progress on goals
 | Text block | Agenda | Communicate the agenda for the meeting. | Helps set the context to everyone for the meeting. |
 | Image | Customer logos | Showcase top customer logos we "won" in the last quarter. | Quickly communicate the significant customer logos achieved in the last quarter. || Widget type | Widget name | Usage | Benefit || Custom Embed | Revenue Metrics | Share revenue metrics using embedding reports. | Allows managers to quickly communicate by sharing reports without having to jump back and forth to pull data from other tools during the quarterly business review meeting. ||---------|---------|---------|
 | Text block | Major features launched | Highlight major feature launched in the quarter. | Allows everyone to look back at the features launched and talk about the learnings from the launches. || OKR list | Summary of OKRs | List objectives by filtering them based on the current time period. | Enables managers to briefly summarize the progress made since the beginning of the current cycle. |
-| Key performance indicator (KPI) list | Key Metrics | Highlight the key metrics and review the progress of these metrics over time. | Provide bird's-eye view on the numbers and the progress update since the last review cycle. |
-| OKR list | Next Quarter Priorities | To communicate and discuss next quarter’s priorities. | Allows you to set the expectations and align everyone on what the priorities are for the next quarter. |
+| Key performance indicator (KPI) list | Key metrics | Highlight the key metrics and review the progress of these metrics over time. | Provides a bird's-eye view on the numbers and the progress update since the last review cycle. |
+| OKR list | Next Quarter Priorities | To communicate and discuss next quarter’s priorities. | Allows you to set the expectations and align everyone on priorities for the next quarter. |
 
 
 ## Monthly department meeting template
@@ -73,10 +73,10 @@ It's good practice to focus on leading and lagging indicators, progress on goals
 | Widget type | Widget name | Usage | Benefit |
 |---------|---------|---------|---------|
 | Text block | Agenda | Communicate the agenda for the meeting. | Helps set the context to everyone for the meeting. |
-| OKR list | View Current Objectives | List objectives by filtering them based on the **Current** or **Active** time period. | Enables managers to briefly summarize the progress made since the beginning of the current cycle. |
-| Text block | Updates from last month | Used to communicate **What happened last month**, **Plan for the upcoming month**, **Current Blockers**, and **Dependencies**. | Enables the manager to quickly communicate the plan for the coming month and discuss how the team can tackle problems they’re facing. |
-| OKR detail | Current OKRs | Provide granular analysis of the progress of each key result. | Helps to get to the root cause of issues and focus on how things can be improved for the upcoming quarter. |
-| KPI list | Key Metrics | Highlight key metrics and review the progress of these metrics over time. | Allows everyone to get an understanding on where the team is on KPI metrics since the last monthly review. |
+| OKR list | View current objectives | List objectives by filtering them based on the **Current** or **Active** time period. | Enables managers to briefly summarize the progress made since the beginning of the current cycle. |
+| Text block | Updates from last month | Used to communicate what happened last month, plan for the upcoming month, identify current blockers and dependencies. | Enables the manager to quickly communicate the plan for the coming month and discuss how the team can tackle problems they’re facing. |
+| OKR detail | Current OKRs | Provide granular analysis of the progress of each key result. | Helps get to the root cause of issues and focus on how things can be improved for the upcoming quarter. |
+| KPI list | Key metrics | Highlight key metrics and review the progress of these metrics over time. | Allows everyone to understand where the team is on KPI metrics since the last monthly review. |
 
 ## Weekly department meeting template
 
@@ -95,10 +95,10 @@ The purpose of the weekly business review meeting is to focus on leading indicat
 | Widget type | Widget name | Usage | Benefit |
 |---------|---------|---------|---------|
 | Text block | Agenda | Communicate the agenda for the meeting. | Helps set the context to everyone for the weekly review meeting. |
-| Text block | Updates from last week | Communicate what happened last week, plan for the upcoming week, Current Blockers, and Dependencies**. | Enables the manager to quickly communicate the plan for the coming week and focus discussion on how the team can tackle problems they’re facing. |
-| OKR detail | OKR detailed overview | Gives a granular look into the progress of each OKR. | Allows you to discuss every single OKR, address concerns around if the OKR will be achieved, and get to the root cause of the problem (if any). |
-| Text block | Hot Issues | Communicate hot issues that have come up since the last weekly review meeting so that tactical items outside OKRs are also tracked. | Ensures the most pressing issues are brought up and addressed quickly. |
-| KPI list | Key Metrics | Used to highlight the key metrics, and review the progress of these metrics over time. | Allows all members of the team to assess how well they've progressed toward their KPI metrics since the last weekly review meeting. |
-| Project list | Project Initiatives | Lets everyone periodically review projects in the context of OKRs and gain greater visibility into work that’s driving the progress of OKRs. | Focus on projects to make sure your team works on the projects that drive results. |
+| Text block | Updates from last week | Communicate what happened last week, plan for the upcoming week, identify current blockers, and dependencies. | Enables the manager to quickly communicate the plan for the coming week and focus discussion on how the team can tackle problems they’re facing. |
+| OKR detail | OKR detailed overview | Gives a granular look into the progress of each OKR. | Allows you to discuss every single OKR, address concerns about whether the OKR will be achieved, and get to the root cause of any problems. |
+| Text block | Hot issues | Communicate hot issues that have come up since the last weekly review meeting so that tactical items outside OKRs are also tracked. | Ensures the most pressing issues are brought up and addressed quickly. |
+| KPI list | Key metrics | Used to highlight the key metrics, and review the progress of these metrics over time. | Allows all members of the team to assess how well they've progressed toward their KPI metrics since the last weekly review meeting. |
+| Project list | Project initiatives | Lets everyone periodically review projects in the context of OKRs and gain greater visibility into work that’s driving the progress of OKRs. | Focus on projects to make sure your team works on the projects that drive results. |
 
-For detailed steps, see [Review dashboards](review-dashboard.md)].
+For detailed steps, see [Review dashboards](review-dashboard.md).

@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - MET150
 
-description: "Learn how to add tags to OKRs & Projects to simplify navigation and reporting."
+description: "Learn how to add tags to OKRs and projects to simplify navigation and reporting."
 ---
 
 # Tags
@@ -24,9 +24,9 @@ description: "Learn how to add tags to OKRs & Projects to simplify navigation an
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-You  add tags to your OKRs and projects in Viva Goals to group similar OKRs and projects under a common identifier or add an extra level of description. Tags make it easier to search for specific OKRs and projects and to generate targeted reports.
+You  add tags in Viva Goals to group similar OKRs and projects under a common identifier or add an extra level of description. Tags make it easier to search for specific OKRs and projects and to generate targeted reports.
     
-This article describes how to add tags, search by tag, and use the explorer to make reports with the Tags filter.
+This article describes how to add tags, search by tag, and use Explorer to make reports with the Tags filter.
 
 ## Add a tag
 
@@ -43,15 +43,15 @@ In the example pictured below, we're tagging OKRs related to **Customer Obsessio
 
 ## Search by tag
 
-Tags are searchable. To search by tag, select the search button in the upper-right corner and type the tag.
+Tags are searchable. To search by tag, select the search button in the upper-right corner and type the tag name.
 
 ![Screenshot shows where you search by tag.](../media/goals/4/45/b.jpg)
 
 ## Reporting with tags
 
-You can use the explorer to filter by tag and create meaningful reports and views. To create a report:
+You can use Explorer to filter by tag and create meaningful reports and views. To create a report:
 
-1. Go to the explorer from the main menu and create a new view.
+1. Go to Explorer from the main menu and create a new view.
 
 2. Add the **Tags** filter, and select the desired tag.
 

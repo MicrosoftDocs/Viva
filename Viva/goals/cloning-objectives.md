@@ -33,7 +33,7 @@ There are two key situations when cloning is useful:
 
 If you're collaborating on writing OKRs with cross-functional teams, you may find that OKRs move from team to team, or that you want to use a slightly modified version of another team's OKR on your team to ensure you're rowing in the same direction. Instead of starting from scratch, you can use the clone function in Viva Goals to make a duplicate copy of an objective, and then edit it easily. 
 
-Cloning makes it simple to get set up quickly but still allows customization.
+Cloning makes it simple to make a copy but still allows customization.
 
 ### When you roll over unfinished objectives to a new time period
 
@@ -45,7 +45,7 @@ You can edit the cloned objective to reflect the leftover portion of the goal in
 
 ## How to clone a single objective
 
-1. Hover over the objective and select **Clone** from the dropdown on the far right. You can also do this from the Objective page: select **Actions** -> **Clone**. 
+1. Hover over the objective and select **Clone** from the dropdown on the far right. You can also do this from the Objective page: Select **Actions** -> **Clone**. 
 
    ![Screenshot showing how you clone a single objective.](../media/goals/3/33/a.jpg)
 
@@ -63,9 +63,9 @@ You can edit the cloned objective to reflect the leftover portion of the goal in
    ![Screenshot of the dialog box where you clone an objective.](../media/goals/3/33/b.jpg)
 
    >[!NOTE]
-   >Select **Keep original objective owner** if you want to retain the original owners for the objectives, key results, and projects in the hierarchy. If you want to change the OKR owner, you can assign it to yourself or any of your team members. All the OKRs and projects in the hierarchy will be assigned to the assigned owner.
+   >Select **Keep original objective owner** if you want to retain the original owners for the objectives, key results, and projects in the hierarchy. If you want to change the OKR owner, you can assign it to yourself or anyone on your team. All the OKRs and projects in the hierarchy will be assigned to the new owner.
 
-3. If necessary, edit the newly cloned objective. You might change key results or KPIs to reflect the remaining work in the new time period.
+3. If necessary, edit the newly cloned objective. For example, you might change key results or KPIs to reflect the remaining work in the new time period.
 
 ## How to clone multiple objectives
 
@@ -78,4 +78,4 @@ You can edit the cloned objective to reflect the leftover portion of the goal in
    ![Screenshot showing where you clone multiple objectives.](../media/goals/3/33/c.jpg)
 
 >[!NOTE]
->The cloning operation happens asynchronously without blocking you from performing other actions in Viva Goals. The time to complete cloning depends on the number of OKRs being cloned. If you try to to clone multiple times during the process, you'll end up with multiple clones. 
+>The cloning operation happens asynchronously without blocking you from performing other actions in Viva Goals. The time to complete cloning depends on the number of OKRs you're cloning. If you try to to clone multiple times during the process, you'll end up with multiple clones. 

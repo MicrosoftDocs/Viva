@@ -30,14 +30,14 @@ Business reviews happen across every level of the organization. Examples include
 
 Instead of building a dashboard from scratch, you can use the Viva Goals Review Dashboard to easily create a presentation-ready dashboard. You can then present real-time data on objectives and key results (OKR) progress during review meetings.
     
-With the ability to create multiple dashboards, you can avoid creating or editing presentations for each meeting, and use dashboards to present live data on OKR progress. 
+With the ability to create multiple dashboards, you don't have to create or edit presentations for each meeting. You can instead use dashboards to present live data on OKR progress. 
 
    
 ## What is a review dashboard?
 
-The review dashboard is a customizable, presentation-ready dashboard that populates real-time data on OKR progress. This feature eliminates the need to create a presentation from the ground up every time before a review meeting.
+The review dashboard is a customizable, presentation-ready dashboard that populates real-time data on OKR progress. 
 
-You might be using several tools to track metrics that are closely correlated to the OKR progress in Viva Goals. Instead of juggling tools to present real-time data during reviews, review dashboard lets you bring key performance indicator (KPIs), visualizations, projects, trends, and contextual information on OKR status into a single view. This feature helps foster focused review meetings.
+You might be using several tools to track metrics that are closely correlated to the OKR progress in Viva Goals. Instead of juggling tools to present real-time data during reviews, review dashboard lets you bring key performance indicator (KPI), visualizations, projects, trends, and contextual information on OKR status into a single view. This feature helps foster focused review meetings.
 
 ## Who can benefit from the review dashboard?
 
@@ -45,13 +45,13 @@ Anyone who leads a review meeting or presents the overall OKR progress to the le
 
 - The **executive team** can periodically facilitate effective strategic reviews of OKR status with department heads.
 
-- The **department heads** can preside over tactical review meetings with team managers, and present the department's OKR status to the leadership team during business reviews.
+- **Department heads** can preside over tactical review meetings with team managers and present the department's OKR status to the leadership team during business reviews.
 
 - **Team managers** can use the dashboard to take a quick glance at OKR progress, instead of fetching the data manually and creating a presentation from scratch.
 
-- **Individuals** can tailor this dashboard for one-on-ones with their respective managers to talk about their accomplishments, priorities, and blockers using real-time data.
+- **Individuals** can tailor the dashboard for one-on-ones with their respective managers to talk about their accomplishments, priorities, and blockers using real-time data.
 
-## How to access the review dashboard
+## Access the review dashboard
 
 Every organization, team, and individual has their own review dashboard. 
 
@@ -59,7 +59,7 @@ Every organization, team, and individual has their own review dashboard.
 
 - To view a team-level review dashboard, select **All Teams** in the left pane, select a **team**, then select the **Dashboard** tab.
 
-- For review dashboards at an individual level, select **My OKRs** from the left pane and then select the **Dashboard** tab. To view the dashboard of a user, select **All Users** from the left pane, select a **user**, then select the **Dashboard** tab.
+- For review dashboards at an individual level, select **My OKRs** from the left pane and then select the **Dashboard** tab. To view the dashboard of a user, select **All Users** from the left pane, select a **user**, and then select the **Dashboard** tab.
 
 ![Screen shot of a review dashboard.](../media/goals/4/42/a.jpg)
 
@@ -69,11 +69,11 @@ Every organization, team, and individual has their own review dashboard.
 
 2. Open the **Dashboard** dropdown list. Select **New Dashboard**. You'll see options to create various widgets for this dashboard.  
 
-3. Adding panels and widgets to the dashboard. A review dashboard can house multiple panels. Each panel contains seven types of widgets: OKR detail, OKR list, text block, key performance indicator (KPI) list, and project list. You can customize this dashboard with any number of panels and widgets of your choice.
+3. Adding panels and widgets to the dashboard: A review dashboard can house multiple panels. Each panel contains seven types of widgets: OKR detail, OKR list, text block, key performance indicator list, and project list. You can customize this dashboard with any number of panels and widgets of your choice.
 
-4. To edit the dashboard, select the three-dot icon on the right, next to the **Present** button. You can rename the dashboard, clone the dashboard, or set a default dashboard.
+4. To edit the dashboard, select the three-dot icon on the right side, next to the **Present** button. You can rename the dashboard, clone the dashboard, or set a default dashboard.
 
-   When you clone a dashboard, you copy the content and template to use to create new dashboards.
+   When you clone a dashboard, you copy the content and template to create new dashboards.
 
 ## Available widgets for review dashboards 
 
@@ -81,22 +81,22 @@ Every organization, team, and individual has their own review dashboard.
 
 - This widget lets you briefly summarize the progress made since the last review cycle.
 
-- You can list objectives and filter them by time period, entity, and status. This list will set the stage for your review meeting by displaying the objectives that you want to discuss. For instance, to identify objectives that require attention, you can filter by status to view OKRs that are at risk or behind.
+- You can list objectives and filter them by time period, entity, and status. This list will set the stage for your review meetings by displaying the objectives that you want to discuss. For instance, to identify objectives that require attention, you can filter by status to view OKRs that are at risk or behind.
 
-- The key updates section on the left lets you provide a narrative for the progress updates. These updates ensure that all members across all the levels of the organization are aware of the progress made by each team.
+- The key updates section on the left side lets you provide a narrative for the progress updates. These updates ensure that all members across all the levels of the organization are aware of the progress made by each team.
 
-- For shared OKRs, you can view the progress of the dependent teams, instead of switching back and forth between each entity’s OKRs.
+- For shared OKRs, you can view the progress of the dependent teams, instead of switching back and forth between each entity's OKRs.
 
 To create this widget:
 
 1. From the list of available options, select the objective list widget, and enter a name for the widget.
 
-2. The next step is to add objectives to this widget. You can add them automatically based on the rules you define or manually. You can filter these objectives the time period, entity it belongs to, and status.
+2. The next step is to add objectives to this widget. You can add them automatically based on the rules you define or manually. You can filter these objectives by the time period, entity it belongs to, and status.
 
     > [!IMPORTANT]
-    > When you add objectives automatically based on the predefined rules, any objective that meets the criteria will be added to the list automatically. You don't have to rework on the list every time before your review. For example, if you want to review only the OKRs that are at risk, you can define that rule, and any time an objective becomes at risk, it will be added to the list automatically. However, if you want to review significant OKRs regardless of their status, entity, or time period, you can select such objective manually, and review the progress during meetings.
+    > When you add objectives automatically based on the predefined rules, any objective that meets the criteria will be added to the list automatically. You don't have to rework on the list every time before your review. For example, if you want to review only the OKRs that are at risk, you can define that rule. Then when an objective becomes at risk, it will be added to the list automatically. However, if you want to review significant OKRs regardless of their status, entity, or time period, you can select such objective manually, and review the progress during meetings.
 
-3. If you want you can add the Key Updates section, include the summary changes, and append the progress trend graph.
+3. If you want, you can add the Key Updates section, include the summary changes, and append the progress trend graph.
 
 4. Save and add the widget.
 
@@ -104,11 +104,11 @@ To create this widget:
 
 ### OKR detail
 
-- You can choose any particular objective to take the center stage, and dive deep into the progress of each key result.
+- You can choose any particular objective to take center stage and dive deep into the progress of each key result.
 
 - This widget provides a granular analysis of the progress of each key result by using the red, green, and amber status indicators, which help you understand the daily progress of key results. You can quickly get to the root cause of any issue and take necessary steps to bring the key result back on track.
 
-- The **Key Updates** section on the left lets you  provide the narrative for the progress updates of the chosen objective. You can talk through the challenges and make a plan to get back on track.
+- The **Key Updates** section on the left lets you provide the narrative for the progress updates of the chosen objective. You can talk through the challenges and make a plan to get back on track.
 
 To create this widget:
 
@@ -144,15 +144,15 @@ To create this widget:
 
 - The KPI widget lets you highlight the key metrics and review the progress of these metrics over time.
 
-- There are two views of the KPI widget: tabular view and grid view. Grid view provides a much-needed bird's-eye view of the numbers and the progress update since the last review cycle. Table view lets you analyze the daily progress made on the KPI. You can seamlessly switch between the views based on your requirement.
+- There are two views of the KPI widget: tabular and grid. Grid view provides a much-needed bird's-eye view of the numbers and the progress since the last review cycle. Table view lets you analyze the daily progress made on the KPI. You can seamlessly switch between the views based on your requirements.
 
 - You can filter KPIs based on the time period and entity. For better context, the associated objective will also be displayed in this widget for each KPI.
 
 To create this widget:
 
-1. From the list of available options, select the KPI widget, and provide a name for this widget.
+1. From the list of available options, select the KPI widget, and provide a name for the widget.
 
-1. Add KPIs to the widget. You can add KPIs either automatically based on the rules you define or manually. you can filter these key metrics based on the time period, and the entity it belongs to.
+1. Add KPIs to the widget. You can add KPIs either automatically based on the rules you define or manually. You can filter these key metrics based on the time period and the entity it belongs to.
 
 1. Select how you want to view the KPIs: in grid view or list view.
 
@@ -162,7 +162,7 @@ To create this widget:
 
 ### 5. Project list
 
-- Teams and users execute projects to achieve key results. When you connect these projects to the overarching goals, employees see the big picture on how their work is driving progress toward company goals.
+- Teams and users execute projects to achieve key results. When you connect these projects to the overarching goals, employees see the large picture on how their work is driving progress toward company goals.
 
 - To ensure that teams work on the right projects that drive results, it's important to bring focus on projects into your business rhythms. When you periodically review projects in the context of OKRs, you gain greater visibility into work that's driving OKR progression.
 
@@ -188,7 +188,7 @@ After you land on the review dashboard page, the first step is to select the rev
 
 - The default panel includes the objective list widget. Near the end of the dashboard, you'll see the option to **add more panels** to the review dashboard.
 
-- As you create a panel, provide a name for the panel. For greater flexibility in building the dashboard, you can move a panel up or down.
+- As you create a panel, provide a name for it. For greater flexibility in building the dashboard, you can move a panel up or down.
 
 - On the right side of the panel, select the **More Actions** icon to edit or delete the panel.
 
@@ -196,9 +196,9 @@ After you land on the review dashboard page, the first step is to select the rev
 
 ### Add widgets to a panel
 
-- Create a new panel and adding widgets from the list of widgets available.
+- Create a new panel and add widgets from the list of widgets available.
 
-- To add widgets to an existing panel, select the three-dot icon on the right side of a panel and select **Add a widget** from the dropdown options.
+- To add widgets to an existing panel, select the three-dot icon on the right side of the panel and select **Add a widget** from the drop-down options.
 
   ![Screenshot shows where you add a widget to a panel.](../media/goals/4/42/h.jpg)
 
@@ -210,7 +210,7 @@ After you land on the review dashboard page, the first step is to select the rev
 
 ## How to present the review dashboard
 
-A review dashboard is a presentation-ready dashboard. The **Present** button is at the upper-right corner of the dashboard. Each panel becomes a standalone slide of the presentation. This option helps you present real-time data on OKR progress without having to juggle tools during a review meeting.
+A review dashboard is a presentation-ready dashboard. The **Present** button is in the upper-right corner of the dashboard. Each panel becomes a standalone slide of the presentation. This option helps you present real-time data on OKR progress without having to juggle tools during a review meeting.
 
 ![Screenshot show where to select present dashboard.](../media/goals/4/42/j.jpg)
     
@@ -229,7 +229,7 @@ As a team owner or team admin, you may want to clone a dashboard to retain the s
 ![Screenshot shows where you select clone.](../media/goals/4/42/l.jpg)
 
 
-**Step 4:** By default, the name of the cloned dashboard will be "**Copy of \<dashboard name\>**". You can edit the name to easily identify the cloned dashboard, edit widgets, and then select **Save**. After cloning, you'll land on the cloned dashboard.
+**Step 4:** By default, the name of the cloned dashboard will be "**Copy of \<dashboard name\>**". You can edit the name to easily identify the cloned dashboard, edit the widgets, and then select **Save**. After cloning, you'll land on the cloned dashboard.
     
 ## How to share review dashboards
     
@@ -247,11 +247,11 @@ To share a dashboard:
     > - **Org-wide view access:** Anyone in the organization can view the dashboard. In addition, you can determine who will have edit access to the shared dashboard.  
     > - **Private:** Only specific users have access to the shared dashboard. You can choose whether users will have view or edit access to the dashboard.
 
-1. Select the access level for the shared dashboard, either org-wide view access or private access.
+1. Select the access level for the shared dashboard, either org-wide or private access.
 
     If you select org-wide view access, you can add users who can edit the dashboard. If you select private access, you can add users who will either have view-only or edit access to the dashboard.
 
-1. Use the search box to add. You  determine the access level for the specified user.
+1. Use the search box to add users. You  determine the access level for the user.
 
 ## How to revoke share access for review dashboards
 
@@ -265,7 +265,7 @@ To share a dashboard:
 
 ## Permissions for review dashboards 
 
-Permissions can be categorized for both default and user-created dashboard. Default dashboards are provided by Viva Goals across every level of the organization, while user-created dashboards are created and maintained by individual users for an organization, team, or individual.  
+Permissions can be categorized for both default and user-created dashboards. Default dashboards are provided by Viva Goals across every level of the organization, while user-created dashboards are created and maintained by individual users for an organization, team, or individual.  
   
 | Permissions | Organization dashboard | Team dashboard | Individual dashboard |
 |---------|---------|---------|---------|
@@ -273,21 +273,21 @@ Permissions can be categorized for both default and user-created dashboard. Defa
 | Permissions for user-created dashboards | <li>The org owners and org admins can create new organizational dashboards. </li> <li> The respective dashboard owners can share the dashboard. View and edit access is determined when the dashboard is shared.</li> | <li>Team owners, team admins, org owners, and org admins can create new dashboards for the team. </li> <li> Only dashboard owners can share the team dashboard. View and edit access is determined when the dashboard is shared.</li>        | <li>The user, org owners, and org admins can create user-level dashboards. </li> <li> The individual and the org owners/admins can share the individual's dashboard.</li> |
 
 > [!NOTE]
-> Within a private dashboard, if you make check-ins on public objectives and key results (OKRs), these check-in updates will still be visible to everyone in the organization from the OKR activity feed because these are public OKRs.
+> Within a private dashboard, if you make check-ins on public objectives and key results, these check-in updates will still be visible to everyone in the organization from the OKR activity feed because these are public OKRs.
 
 ## Frequently asked questions about review dashboards
 
 **Why can't I perform "Clone" or "Clone and Move"?**
 
-Team members aren't allowed to perform clone and move. These options are only available to the organization admin, organization owner, team admin, team owner, or dashboard owner.
+All team members aren't allowed to perform clone and move. These options are only available to the organization admin, organization owner, team admin, team owner, or dashboard owner.
 
 **Why is the "key updates" widget empty in the cloned dashboard?**
 
-Key updates are not copied during a clone.
+Key updates aren't copied during a clone.
 
 **Why is "Clone and Move" not visible to me?**
 
-Clone and move isn't available for private dashboards. But you can use the clone functionality.
+Clone and move aren't available for private dashboards. But you can use the clone functionality.
 
 **Who can update the key updates on review dashboards?**
 
@@ -295,4 +295,4 @@ The **Key Updates** section can be edited by people other than the owner, depend
 
 **For objective list widget key updates,** all users who own the OKRs on the objective list and any user who has edit access to the dashboard can modify or add key updates.
     
-**For objective detailed widget key updates,** the key updates go in as a new check-in to the objective, so the permission levels apply. Since users can't make edits to another user’s check-ins, the key updates for the objective detail widget on a dashboard can only be added by other OKR owners, not edited or removed.  
+**For objective detailed widget key updates,** the key updates go in as a new check-in to the objective, so the permission levels apply. Since users can't make edits to another user's check-ins, the key updates for the objective detail widget on a dashboard can only be added by other OKR owners, not edited or removed.  

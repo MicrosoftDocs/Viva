@@ -29,23 +29,23 @@ description: "Learn how to manage OKRs"
 
 The Viva Goals OKR contribution feature gives objective creators and owners flexibility and customizability in specifying weights and measuring progress. Users can now define and control contribution at the parent level. 
 
-All the contributions add up to a total of 100 percent, and objective owners/creators can mark a child’s contribution as "fixed." This feature is available only for OKRs that have progress mode set as **Updated via roll-up from key results**.
+All the contributions add up to a total of 100 percent, and objective owners/creators can mark a child’s contribution as "fixed." This feature is available only for OKRs that have progress mode set to **Updated via roll-up from key results**.
 
-Users who have "edit" permissions for the OKR, including check-in owners, can edit the contributions of child objectives.
+Users who have *edit* permissions for the OKR, including check-in owners, can edit the contributions of child objectives.
 
-You can set or edit your OKRs' contribution from the **More actions** dropdown list:
+You can set or edit your OKRs' contributions from the **More actions** dropdown list:
 
 1. Select the **Manage children’s contribution** option.
 
    > [!NOTE]
-   > You can also open the **Manage children's contribution** modal from the objective quick view by selecting the objective's title, and from the objective's detail view, as depicted in the following two images, respectively.
+   > You can also open the **Manage children's contribution** modal from the objective quick view either by selecting the objective's title or from the objective's detail view.
 
    The **Manage contributions** dialog box is displayed.
 
-2. Add or edit the contributions of the children (objectives, key results, or projects)
+2. Add or edit the contributions of the children (objectives, key results, or projects).
 
    > [!NOTE]
-   > You can enable or disable the **New children should start contributing by default** option. This option, which is enabled by default, allows a newly created child to contribute to the parent. This option will re-adjust the contributions assigned to each child.
+   > You can enable or disable the **New children should start contributing by default** option. This option, which is enabled by default, allows a newly created child to contribute to the parent. This option will readjust the contributions assigned to each child.
 
 3. Select **Save** to save all the changes.
 
@@ -54,17 +54,17 @@ You can set or edit your OKRs' contribution from the **More actions** dropdown l
 - OKR contribution is available only for OKRs that have progress mode set to **Updated via roll-up from key results**.
 
 - All the contributions will add up to a total of 100 percent. The default contribution is automatically assigned by Viva Goals to all the children equally. For example, if an objective has three key results (children), the default contribution assigned to each child will be 33.33 percent.
-- When a child's contribution is edited, the contribution is considered "fixed." If a new child is added or an existing child is removed, the contributions marked as "fixed" don't get adjusted. For example, if an objective has three key results (children), and the contribution of the first key result is edited to be 50, the contributions of the second and third key results will be automatically adjusted to 25 percent each. In the future, if a fourth key result is added, only the contribution of the second and third key results will be adjusted.
+- When a child's contribution is edited, the contribution is considered "fixed." If a new child is added or an existing child is removed, the contributions marked as "fixed" don't get adjusted. For example, if an objective has three key results (children), and the contribution of the first key result is edited to be 50, the contributions of the second and third key results will be automatically adjusted to 25 percent each. If a fourth key result is added in the future, only the contribution of the second and third key results will be adjusted.
 
 - To reset all the custom contributions to the default, select the **Reset to default** option.
 
 ## How to customize OKR contributions using KPIs
 
-You can use a KPI metric when you want to set customized "start" and "target" values for your OKR, as opposed to just going from 0 to 100-percent progress. This option gives you a much more accurate idea of progress while executing your OKRs.
+You can use a KPI metric when you want to set customized "start" and "target" values for your OKR, as opposed to just going from 0 to 100-percent progress. This option gives you a much more accurate idea of progress when you execute your OKRs.
 
-KPI metrics in Viva Goals support two types of units - Numeric (No unit) and % (Percentage).
+KPI metrics in Viva Goals support two types of units: Numeric (no unit) and % (percentage).
 
-1. Select the **Add Objective** option and ester a title and other details like type, owner, and time period.
+1. Select the **Add Objective** option and enter a title and other details like type, owner, and time period.
 
 2. Expand the **Outcome** pane, and enter the name of the metric you want to achieve under **Metric name**.
 
@@ -81,7 +81,7 @@ KPI metrics in Viva Goals support two types of units - Numeric (No unit) and % (
 
 ### Progress roll-up for objectives using KPIs
 
-Objectives tracked by using KPI metrics are associated with "units." Units represent the method of measuring an objective’s progress. Viva Goals supports two types of units: **Numeric** and **% based**. The roll-up of progress for these units is calculated differently. The calculation methods are described in the following table.
+Objectives tracked by using KPI metrics are associated with "units." Units represent the method of measuring an objective's progress. Viva Goals supports two types of units: **Numeric** and **% based**. The roll-up of progress for these units is calculated differently. The calculation methods are described in the following table.
 
 |Method  |Description  |
 |---------|---------|
@@ -102,35 +102,36 @@ To create an objective that's tracked by a numeric KPI, follow these steps:
 
 ### Objectives measured based on % unit
 
-Progress of objectives tracked based on % unit will be calculated as the **weighted average**. You can also set the percent completion arbitrarily as per your requirements. This option works for both manual progress updates and automated updates from integrations.
+Progress of objectives tracked based on % unit will be calculated as the **weighted average**. You can also set the percent completion arbitrarily as you wish. This option works for both manual progress updates and automated updates from integrations.
 
 - Objectives that are tracked by percent-complete KPIs can have key results that are tracked either by percent metric or by the numeric metric.
 
-- An objective’s completion doesn’t mean it has to hit 100 percent. You can choose to set your objective’s completion percent as 60 and update progress manually or connect your objective with an integration that will allow you to measure the progress based on percent completion.
+- An objective’s completion doesn’t mean it has to hit 100 percent. You can choose to set your objective’s completion percent as 60 and update progress manually or connect your objective with an integration that will let you measure the progress based on percent of completion.
 
-Say, for example, your Marketing team has an objective to **achieve record-breaking engagement to increase paying customers** from 30 percent to 60 percent. This objective has the following key results that contribute to the parent's progress.
+Say, for example, your Marketing team has an objective to *achieve record-breaking engagement to increase paying customers* from 30 percent to 60 percent. This objective has the following key results that contribute to the parent's progress:
 
-**Objective:** Achieve record-breaking engagement to increase paying customers
-**Metric:** Paying customers
-**Target:**: 60
-**Starting**: 30
+**Objective:** Achieve record-breaking engagement to increase paying customers -
+**Metric:** Paying customers -
+**Target:** 60
+**Starting:** 30
 **Unit**: %
 
 **Key result #1:** Increase monthly trial sign-ups from 25 percent to 40 percent
-**Metric**: Trial sign-ups
+
+**Metric**: Trial sign-ups -
 **Target**: 40
 **Starting**: 25
 **Unit**: %
 
-**Key result #2:** Boost NPS score from 7 to 8
-**Metric**: NPS
+**Key result #2:** Boost NPS score from 7 to 8 -
+**Metric**: NPS -
 **Target**: 8
 **Starting**: 7
 **Unit**: Numeric
 
-**Key result #3**: Increase monthly conversion of new paid customers from 15 percent to 35 percent.
-**Metric**: MoM Conversion
-**Target**: 35
+**Key result #3**: Increase monthly conversion of new paid customers from 15 percent to 35 percent -
+**Metric**: MoM Conversion -
+**Target**: 35 -
 **Starting** 15
 **Unit**: %
 
@@ -138,7 +139,7 @@ Whenever there's a check-in, actual progress made is displayed under the progres
 
 #### How Viva Goals calculates the scaled progress of a key result
 
-Let **S** be the "starting" metric and **T** be the "target" you'd like to achieve. **P** is the value of the progress you’ve made so far.
+Let **S** be the "starting" metric and **T** be the "target" you hope to achieve. **P** is the value of the progress you’ve made so far.
 
 In this example, there's a check-in made on a key result at 20 percent.
 
@@ -150,7 +151,7 @@ The formula used to determine scaled progress is:[P−S/T−S]∗100
 
 For this key result, the scaled progress would be [5/20]∗100 =25% 
 
-If you don’t want a key result measured by a numeric value to contribute to an objective that’s measured by percent complete KPI, open the **Edit weight and progress roll up** menu and select the **Doesn't contribute towards the progress of the parent** option.
+If you don't want a key result measured by a numeric value to contribute to an objective that’s measured by percent complete KPI, open the **Edit weight and progress roll up** menu and select the **Doesn't contribute towards the progress of the parent** option.
 
 The objective’s progress is the weighted average of the key results that contribute to the parent.
 
@@ -204,7 +205,7 @@ TEAM(S): Engineering Department
    
 OWNER(S): VP of engineering and all engineering managers
 
-The Viva Goals flexible shared OKR models ensure that you don't have to create duplicate and redundant OKRs for every team or individual when they're supposed to be commonly owned, worded, and measured.
+The Viva Goals flexible shared OKR models ensure that you don't have to create duplicate and redundant OKRs for every team or individual when they're going to be commonly owned, worded, and measured.
 
 ### What different types of Shared OKRs are possible in Viva Goals?
 
@@ -244,14 +245,14 @@ This user will get the check-in reminders. If there are multiple owners, only th
 **To assign responsibility for check-ins, follow these steps:**
 
 1. Log in to Viva Goals and select the **+** button on the top panel to create a new OKR.
-1. After you enter the objective/key result and are ready to share it with another individual, select **Owners** from dropdown list under **Owners**. Here, you can assign multiple owners for the OKR.
-2. Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** drop-down. Once you make the selection, the user will start receiving the check-in reminders.
+1. After you enter the objective/key result and are ready to share it with another individual, select **Owners** from the dropdown. Here, you can assign multiple owners for the OKR.
+2. Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** dropdown. Once you make the selection, the user will start receiving the check-in reminders.
 
-By default, the owner, or  the first owner if there are multiple owners, is set as the person responsible for check-ins.
+By default, the owner, or the first owner if there are multiple owners, is set as the person responsible for check-ins.
 
 ## How to reorder OKRs with drag and drop 
 
-**To drag and drop an objective, perform the following steps:**
+**To drag and drop an objective, follow these steps:**
 
 1. Hover your mouse left of the objective name until you see the icon depicted in the following image:
 
@@ -263,7 +264,7 @@ By default, the owner, or  the first owner if there are multiple owners, is set 
 
 To make an objective become a key result, drag the cursor to the **+ Add key result** icon under the objective.
 
-You can as easily drag a key result out from under an objective to make it become an objective itself. Both examples are covered in the video below.
+You can as easily drag a key result out from under an objective to make it become an objective itself.
 
 > [!NOTE]
 > Drag-and-drop functionality is available at the organizational, team, and individual levels. 
