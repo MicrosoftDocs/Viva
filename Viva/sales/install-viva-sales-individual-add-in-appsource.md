@@ -43,7 +43,7 @@ After you've installed Viva Sales as an individual add-in, you can change the us
 
 2.  On the **Integrated apps** page, select **Add-ins**.
 
-![Open Add ins portal](media/add-in-portal.png "Open Add-ins portal")
+    ![Open Add ins portal](media/add-in-portal.png "Open Add-ins portal")
 
 3.  Select **Microsoft Viva Sales for Microsoft Outlook (Preview)**.
 

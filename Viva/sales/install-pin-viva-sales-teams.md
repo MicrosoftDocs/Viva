@@ -50,7 +50,7 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 
 15. Select **Save**.
 
-For more information about managing Teams app setup policies, go to [Manage app setup policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies).
+For more information about managing Teams app setup policies, go to [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
 
 ## Assign the custom Teams app setup policy to a user group
 
@@ -69,6 +69,6 @@ For more information about managing Teams app setup policies, go to [Manage app 
 
 7.  Select **Apply**.
 
-For more information about assigning user and group policies, go to [Assign policies to users and groups](https://docs.microsoft.com/en-us/microsoftteams/assign-policies-users-and-groups).
+For more information about assigning user and group policies, go to [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups).
 
 
