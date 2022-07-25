@@ -25,7 +25,7 @@ description: "Learn how to configure help and support for your Viva Goals app."
 
 As an organization administrator, you can configure help and support resources for users in your organization. These resources will appear in the help section for users: 
 
-:::image type="content" source="../media/goals/end-user-help-menu.png" alt-text="Help menu button to access help resources." lightbox="../media/goals/end-user-help-menu.png":::
+:::image type="content" source="../media/goals/end-user-help-menu.png" alt-text="Screenshot that shows the help menu button to access help resources." lightbox="../media/goals/end-user-help-menu.png":::
 
 On selecting the ‘Contoso help’ menu item, users will see the help and support options configured by organization administrators. 
 
