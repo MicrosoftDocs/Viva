@@ -30,7 +30,7 @@ Users can define and control contribution at the parent level. All the contribut
 
 **Any Viva Goals user who has edit permissions for an OKR (including check-in owners) can edit the contributions of children OKRs.**
 
-## How to manage OKR Contributions
+## How to manage OKR contributions
   
 1. To set or edit your OKRs' contribution select **Manage contributions** from the **More actions** dropdown. 
 
