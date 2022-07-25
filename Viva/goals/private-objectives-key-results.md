@@ -40,7 +40,7 @@ Private objectives are distinguished from others by a padlock icon. Hover over t
 
 ## How to make an objective private
 
-If your organization has this feature enabled, the option is available when you create or edit an objective.
+If your organization has the private objectives feature enabled, the option is available when you create or edit an objective.
 
 By default, all objectives are visible to the entire organization unless you follow these steps to mark them as private:
 
