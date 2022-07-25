@@ -65,7 +65,7 @@ On saving, the menu will start appearing in the help section for users of your o
 
 You can use the toggle to disable help and support resources configured by you. You'll be shown a prompt to confirm. On confirmation, the help resources configured by you will disappear from the help menu for all users in the organization. 
 
-:::image type="content" source="../media/goals/support-toggle-disabled.png" alt-text="Disable help and support using this toggle." lightbox="../media/goals/support-toggle-disabled.png":::
+:::image type="content" source="../media/goals/support-toggle-disabled.png" alt-text="Screenshot that shows how to disable help and support using this toggle." lightbox="../media/goals/support-toggle-disabled.png":::
 
 > [!Note] 
 > You'll lose the configuration once you disable help and support. 
