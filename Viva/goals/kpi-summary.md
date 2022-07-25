@@ -44,7 +44,7 @@ A team owner or team administrator can manage their team's KPI summary.
 
 Individual contributors can manage the KPI summary for objectives they own.
 
-## How to add more KPIs to the KPI Summary
+## How to add more KPIs to the KPI summary
 
 If an objective has key results below it or there are other key results set as KPIs, users can manually add those to the KPI summary by using the action button.
 
@@ -58,6 +58,6 @@ To remove a KPI from the KPI summary, select **Remove from KPI Summary** from th
 
 ![Screenshot shows the option to remove a key result from the KPI summary.](../media/goals/4/416/c.jpg)
 
-## Rearrange KPIs in your KPI Summary
+## Rearrange KPIs in your KPI summary
 
 To move a KPI tile, drag and drop it into the new position. The previous KPIs will move up to fill the space.
