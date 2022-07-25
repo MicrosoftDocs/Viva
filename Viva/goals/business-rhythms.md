@@ -53,7 +53,7 @@ If everything is moving along as expected, great! If not, remember that OKRs som
 
 In about 15 minutes, you've gained a clear picture into what's moved forward, what's behind, and what's been changed for the coming week for the critical aspects of the business. You've engaged on your team and company's biggest goals and your team can see their progress and how it's contributing.
 
-## Key business rhythm #2: Summary Updates
+## Key business rhythm #2: Summary updates
 
 It takes frequent reminders and updates to keep goals front and center for your organization. Viva Goals let you send automated OKR progress and status updates by email to your company, individual teams, and individual contributors. 
 
