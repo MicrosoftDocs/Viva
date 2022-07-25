@@ -84,7 +84,7 @@ You can also view the parent objective that a particular objective is aligned to
 
 ### OKR or project actions within list view 
 
-- Select the ">" expand icon next to an objective to view all the key results, child objectives, and projects under it.  
+- Select the "**>**" expand icon next to an objective to view all the key results, child objectives, and projects under it.  
 
 - Select the objective to open the quick view and make updates to that objective.  
 
