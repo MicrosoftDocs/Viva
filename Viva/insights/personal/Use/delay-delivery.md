@@ -16,12 +16,12 @@ audience: user
 
 # Delay delivery plan
 
-_**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights and are enrolled in an applicable [Personal insights service plan](../overview/plans-environments.md)._
+_**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights and are enrolled in an applicable [Personal insights service plan](../overview/plans-environments.md#additional-features)._
 
 When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions for the following scenarios:
 
 * When all recipients in the **To** field are outside of their working hours.
-* When a recipient in the **To** field has an [automatic out-of-office reply](https://support.microsoft.com/office/send-automatic-out-of-office-replies-from-outlook-9742f476-5348-4f9f-997f-5e208513bd67) set up in Outlook.
+* When you're sending an email to just one recipient in the **To** field, and that recipient has an [automatic out-of-office reply](https://support.microsoft.com/office/send-automatic-out-of-office-replies-from-outlook-9742f476-5348-4f9f-997f-5e208513bd67) set up in Outlook.
 * When you are outside of your working hours.
 
 The delay helps minimize disruptions to recipients outside their working hours or when they’re away from work. It helps anybody who wants to maintain the flexibility to work when they want without putting the burden of their schedule on others.
@@ -57,7 +57,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
 
    ![Delay delivery insight options](../../Images/mya/use/delay-options.png)
 
-3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
+3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time. At the scheduled delivery time, the email is automatically delivered to all recipients in the **To**, **Cc**, and **Bcc** fields for you.
 
    Before the message is sent, you can open the message and select:
 
@@ -71,9 +71,9 @@ When composing email in Outlook, you can delay delivery of an email as follows:
 When you opt in to the Delay delivery plan, Viva Insights aligns email delivery with your coworker's working hours. You can opt in as follows:
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. In **Config Settings**, change the setting for **Delay delivery** to **On**.
+2. In **Settings** > **Protect time**, change the setting for **Delay delivery** to **On**.
 
-   ![Turn on Delay delivery in the dashboard](../../Images/mya/use/delay-mya.png)
+   ![Turn on Delay delivery in the dashboard](../../Images/mya/use/delay-mya2.png)
 
 ## Opt in with Insights
 
@@ -92,3 +92,9 @@ You can opt in or opt out of the Delay delivery plan as many times as you want. 
 * Or in the Insights Outlook add-in, open **Settings** (gear icon), and then change the setting for **Delay delivery** to **Off** .
 
 After you opt out of the Delay delivery plan, you can delay up to two email deliveries each day when the inline suggestions feature is turned on. To opt out of inline suggestions in Outlook, including delay-delivery inline suggestions, follow the steps in [Inline suggestions in Outlook](mya-notifications.md#opt-out-of-inline-suggestions).
+
+## Video walk-through
+
+Watch this video to take a closer look at Delay delivery experiences in Outlook.
+
+<br><iframe src="https://player.vimeo.com/video/725822960?h=59923f2d8d" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
