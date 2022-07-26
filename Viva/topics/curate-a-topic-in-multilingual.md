@@ -1,5 +1,5 @@
 ---
-title: Translate an existing topic using Multilingual in Microsoft Viva Topics
+title: Curate an existing topic using Multilingual in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
@@ -12,16 +12,16 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150   
 ms.localizationpriority:  medium
-description: Learn how to translate an existing topic using Multilingual in Microsoft Viva Topics
+description: Learn how to curate an existing topic in multiple languages using the Multilingual feauture in Microsoft Viva Topics.
 
 ---
 
-# Translate an existing topic using Multilingual in Microsoft Viva Topics
+# Curate an existing topic using Multilingual in Microsoft Viva Topics
 
 The Multilingual feature in Viva Topics allows you to curate and edit a topic page in English, French, German, and Spanish.
 
 > [!Note] 
-> A topic page must be created and curated in the tenant's default language before it can be translated using the Multilingual feature in Viva Topics. 
+> A topic page must be created and curated in the tenant's default language before it can be curated to a different language using the Multilingual feature in Viva Topics. 
 
 ## Curate a Multilingual topic page
 > [!Note] 
