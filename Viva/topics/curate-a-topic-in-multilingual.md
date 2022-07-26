@@ -16,22 +16,20 @@ description: Learn how to curate an existing topic in multiple languages using t
 
 ---
 
-# Curate an existing topic using Multilingual in Microsoft Viva Topics
+# Curate  Multilingual topics in Microsoft Viva Topics
 
 The Multilingual feature in Viva Topics allows you to curate and edit a topic page in English, French, German, and Spanish.
 
 > [!Note] 
 > A topic page must be created and curated in the tenant's default language before it can be curated to a different language using the Multilingual feature in Viva Topics. 
 
-## Curate a Multilingual topic page
-> [!Note] 
-> When translating a topic page using the Multilingual feature in Viva Topics, editing field instructions will be in the default language from your tenant. To change this, update your tenant's language settings.
+## Curate Multilingual content into a topic page
 
-To create a multilingual topic page, open a topic page, and select **Multilingual** on the upper-left of the topic page. The topic page can also be opened from the topic center home page or from a topic highlight in your tenant.
+To curate a multilingual topic page, open a topic page, and select **Multilingual** on the upper-left of the topic page. The topic page can also be opened from the topic center home page or from a topic highlight in your tenant.
 
    ![Screenshot showing Multilingual button on the topic page.](../media/knowledge-management/ml-topic-page-initial.png)
 
-1. Under the Multilingual panel, find the desired language and select **Create**.
+1. On the Multilingual panel, find the desired language and select **Create**.
 
      ![Screenshot showing the Multilingual panel from the topic page.](../media/knowledge-management/ml-panel.png)
 
@@ -43,11 +41,11 @@ To create a multilingual topic page, open a topic page, and select **Multilingua
 
      ![Screenshot showing the edit option in the Multilingual topic page.](../media/knowledge-management/ml-edit-page.png)
 
-     Make sure you're in the correct topic page by looking at the notification banner that will appear on the upper-left of the page.
+     Make sure you're in the correct topic page by looking at the notification banner that will appear on the upper-left of the page. Complete the curating fields in the selected language.
 
      ![Screenshot showing the notification banner confirming you're in the newly created Multilingual page.](../media/knowledge-management/ml-french-topic-page.png)
 
-4. Confirm or edit the topic name on the Multilingual topic page.
+4. Confirm or edit the topic name on the Multilingual topic page. If the topic name is the same in the new language, keep the current topic name.
 
      ![Screenshot showing the field to confirm or edit the topic name in the Multilingual page.](../media/knowledge-management/ml-edit-topic-name.png)
 
