@@ -5,10 +5,11 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.service: viva
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
+ms.subservice: viva-insights
 
 ---
 

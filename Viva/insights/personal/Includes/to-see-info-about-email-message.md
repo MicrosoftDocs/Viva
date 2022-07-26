@@ -8,5 +8,6 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.service: viva
+ms.subservice: viva-insights
 ---

@@ -6,10 +6,11 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.service: viva
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
+ms.subservice: viva-insights
 ---
 
 You can configure Viva Insights (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).

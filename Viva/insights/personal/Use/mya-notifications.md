@@ -6,9 +6,10 @@ ms.author: loreenl
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-personal
-ms.prod: Mya
+ms.service: viva
 manager: helayne
 audience: user
+ms.subservice: viva-insights
 
 ---
 
