@@ -23,6 +23,8 @@ items:
       href: inviting-and-removing-a-user.md
     - name: Create and Edit Teams
       href: create-and-edit-teams-and-subteams.md
+    - name: Configure help and support for your organization
+      href: configure-support.md
     - name: Configure Your OKR Model in Viva Goals
       href: configure-okr-model.md
     - name: Manage OKR Time Periods
@@ -152,9 +154,6 @@ items:
         - name: Zendesk Integration
           href: zendesk-integration.md
        
-      
-
-  
  
  
       
