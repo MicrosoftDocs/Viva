@@ -75,6 +75,6 @@ To view a published Multilingual topic page, select a language option on the upp
 ## Language settings
 The topic contributor's preferred language in their tenant will determine the language in which the Viva Topics metadata will be presented on a topic card, topic answer, topic picker, and other Viva Topics tools. If the preferred language is Spanish, the topic contributor will be presented with Spanish content.
 
-Languages can be changed or updated through the apps' Settings.
+Languages can be changed or updated through settings in the apps.
 
 ![Screenshot showing Spanish language settings in SharePoint.](../media/knowledge-management/sp-language-settings.png)
