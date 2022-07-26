@@ -31,13 +31,13 @@ landingContent:
       - linkListType: get-started
         links:
           - text: Getting started with Microsoft Viva
-            url: /viva/getting-started-with-microsoft-viva
+            url: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
           - text: Plan for all Viva modules
-            url: /viva/plan-for-all-viva-modules
+            url: /viva/plan-for-all-viva-modules?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
           - text: Learn how to combine modules
-            url: /viva/learn-how-to-combine-modules
+            url: /viva/learn-how-to-combine-modules?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
           - text: Discover more about each Viva module
-            url: /viva/discover-more-about-each-viva-module
+            url: /viva/discover-more-about-each-viva-module?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
 
 
   # Card (optional)
