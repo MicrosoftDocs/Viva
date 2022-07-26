@@ -73,8 +73,8 @@ To curate a multilingual topic page, open a topic page, and select **Multilingua
 To view a published Multilingual topic page, select a language option on the upper-right language menu of the topic page.
 
 ## Language settings
-The topic contributor's preferred language in their tenant will determine the language in which the Viva Topics metadata will be presented on a topic card, topic answer, topic picker, and other Viva Topics tools. If the preferred language is French, the topic contributor will be presented with French content.
+The topic contributor's preferred language in their tenant will determine the language in which the Viva Topics metadata will be presented on a topic card, topic answer, topic picker, and other Viva Topics tools. If the preferred language is Spanish, the topic contributor will be presented with Spanish content.
 
 Languages can be changed or updated through the apps' Settings.
 
-![Screenshot showing language settings in SharePoint.](../media/knowledge-management/ml-language-menu.png)
+![Screenshot showing Spanish language settings in SharePoint.](../media/knowledge-management/sp-language-settings.png)
