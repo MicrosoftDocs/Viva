@@ -55,7 +55,7 @@ To curate a multilingual topic page, open a topic page, and select **Multilingua
 
 6. In the **Alternative names** section, add other names for the topic in the selected language.
 
-     ![Screenshot showing the alternatve names editing field in the Multilingual page.](../media/knowledge-management/ml-edit-alternate-names.png)
+     ![Screenshot showing the alternative names editing field in the Multilingual page.](../media/knowledge-management/ml-edit-alternate-names.png)
 
 7. In the **Short description** section, describe the topic in the selected language.
 
@@ -71,5 +71,11 @@ To curate a multilingual topic page, open a topic page, and select **Multilingua
 
 ## View a published Multilingual topic page
 To view a published Multilingual topic page, select a language option on the upper-right language menu of the topic page.
+
+## Multilingual language settings
+Viva topics language users preferrese affects hot the languages is presented. 
+
+I fthe user preferrd langiage ui spanish, The user will be presneted with sanish content.
+
 
 ![Screenshot showing the menu of languages to select a publish Multilingual topic page.](../media/knowledge-management/ml-language-menu.png)
