@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduction to Microsoft Viva Sales
 description: Get to know Viva Sales
 ms.date: 07/25/2022
