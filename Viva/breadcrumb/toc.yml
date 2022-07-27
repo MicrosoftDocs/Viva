@@ -5,6 +5,9 @@
   - name: Viva Connections
     tocHref: /viva/connections/
     topicHref: /viva/connections/viva-connections-overview
+  - name: Viva Sales
+    tocHref: /viva/sales/
+    topicHref: /viva/sales/introduction
   - name: Viva Learning
     tocHref: /viva/learning/
     topicHref: /viva/learning/index
@@ -20,6 +23,4 @@
   - name: Viva solutions
     tocHref: /viva/solutions/
     topicHref: /viva/solutions/solutions
-  - name: Viva Sales
-    tocHref: /viva/sales/
-    topicHref: /viva/sales/introduction
+  
