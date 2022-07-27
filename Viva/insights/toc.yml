@@ -296,6 +296,8 @@ items:
                                 href: tutorials/meeting-exclusion-concept.md
                           - name: Attendee exclusions
                             href: tutorials/attendee-exclusion-rules.md
+              - name: Partitions for Viva Insights
+                href: setup/partitions-wpa.md
               - name: Audit logs
                 href: setup/audit-logs.md
           - name: Use advanced insights
