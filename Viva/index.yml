@@ -120,9 +120,9 @@ productDirectory:
     - title: Microsoft Viva Sales
       imageSrc: media/logos/viva-logoicon.svg
       links:
-        - url: /Viva/sales/introduction.md
+        - url: /Viva/sales/introduction
           text: Get started
-        - url: /Viva/sales/install-viva-sales.md
+        - url: /Viva/sales/install-viva-sales
           text: Setup
         - url: https://go.microsoft.com/fwlink/p/?linkid=2197685
           text: End user help & training
