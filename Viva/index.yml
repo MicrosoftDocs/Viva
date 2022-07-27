@@ -115,7 +115,18 @@ productDirectory:
           text: Learning path - OKR leadership program
         - url: https://go.microsoft.com/fwlink/?linkid=2193540
           text: End user help & training
-
+    
+    # Card
+    - title: Microsoft Viva Sales
+      imageSrc: media/logos/viva-logoicon.svg
+      links:
+        - url: /Viva/sales/introduction.md
+          text: Get started
+        - url: /Viva/sales/install-viva-sales.md
+          text: Setup
+        - url: https://go.microsoft.com/fwlink/p/?linkid=2197685
+          text: End user help & training
+        
     # Card
     - title: Solutions for your business
       imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-blue.svg
@@ -128,4 +139,5 @@ productDirectory:
           text: Solve common business problems with accelerators
         - url: /viva/solutions/incorporate-learning
           text: Incorporate learning into your organization
+    
 
