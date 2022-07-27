@@ -1,4 +1,4 @@
-﻿---
+---
 title: Install and pin Viva Sales in Teams
 description: Learn how to install and pin Viva Sales in Teams
 ms.date: 07/25/2022
