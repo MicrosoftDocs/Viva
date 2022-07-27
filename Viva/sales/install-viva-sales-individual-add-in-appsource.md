@@ -1,4 +1,4 @@
-﻿---
+---
 title: Install Viva Sales as an individual add-in from AppSource
 description: Learn how to install Viva Sales as an individual add-in from AppSource
 ms.date: 07/25/2022

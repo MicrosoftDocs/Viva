@@ -1,4 +1,4 @@
-﻿---
+---
 title: Supported languages in Viva Sales
 description: Lean which languages are supported in Viva Sales
 ms.date: 07/25/2022

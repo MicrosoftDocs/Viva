@@ -1,4 +1,4 @@
-﻿---
+---
 title: Disable Viva Sales from Microsoft 365 admin center
 description: Learn how to disable Viva Sales from Microsoft 365 admin center
 ms.date: 07/25/2022

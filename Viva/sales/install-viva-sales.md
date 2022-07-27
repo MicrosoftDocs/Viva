@@ -1,4 +1,4 @@
-﻿---
+---
 title: Install Viva Sales
 description: Learn what are the various ways to install Viva Sales
 ms.date: 07/25/2022

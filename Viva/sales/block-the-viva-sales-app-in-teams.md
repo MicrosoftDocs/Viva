@@ -1,4 +1,4 @@
-﻿---
+---
 title: Block the Viva Sales app in Microsoft Teams
 description: Learn how to block the Viva Sales app in Microsoft Teams
 ms.date: 07/25/2022
