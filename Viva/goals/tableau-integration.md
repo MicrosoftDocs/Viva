@@ -21,9 +21,6 @@ description: "Learn how to integrate your Tableau dashboard KPIs directly with V
 
 # Tableau integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 The Viva Goals Tableau integration allows automated real-time tracking of Objectives and Key Results (OKR) progress. 
   
 Let's take this example: you have Tableau workbooks with dashboard views used to visualize the Sales team;s close rate: Quarter-to-date (QTD) vs. Goal. By configuring a Tableau integration and setting up a data link within Viva Goals, you can save the hassle of connecting to any other source sales systems and reinventing the wheel. If you have already implemented all the key performance indicator (KPI) visualizations within Tableau, Viva Goals will sync the values for you, saving you time while keeping your OKRs progress up-to-date.
