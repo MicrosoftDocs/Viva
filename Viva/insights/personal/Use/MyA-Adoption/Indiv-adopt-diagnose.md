@@ -71,7 +71,7 @@ Look at your Viva Insights dashboard to use data to validate your collaboration 
 
 ### Focus
 
-![Focus](/Viva/insights/images/mya/Use/focus-dashboard.png)
+![Focus section on the dashboard](/Viva/insights/images/mya/Use/focus-dashboard.png)
 
 * Is my total number of focus time per week as a percentage of my work week sufficient?
 * Which days during the week do I typically get the most time to focus?
@@ -86,7 +86,7 @@ Look at your Viva Insights dashboard to use data to validate your collaboration 
 
 ### Wellbeing
 
-![Wellbeing](/Viva/insights/images/mya/Use/wellbeing.png)
+![Wellbeing section on the dashboard](/Viva/insights/images/mya/Use/wellbeing.png)
 
 * Is my total after-hours number acceptable?
 * Am I collaborating after hours on certain days or every day?
@@ -94,7 +94,7 @@ Look at your Viva Insights dashboard to use data to validate your collaboration 
 
 ### Network
 
-![Your Network.](/Viva/insights/images/mya/Use/network.png)
+![Network section on the dashboard](/Viva/insights/images/mya/Use/network.png)
 
 * Do my time investments in people line up with my top priorities?
 * Are there opportunities for me to meet more with or less with certain individuals?
