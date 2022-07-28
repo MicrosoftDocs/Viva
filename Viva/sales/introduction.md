@@ -24,6 +24,27 @@ While in public preview, Viva Sales is available at no additional charge to orga
 
 The public preview is currently available globally except for a few selected countries such as Russia, France, and Canada.
 
+## Handling data for Viva Sales 
+
+This articles gives you an overview of how data is handled for Viva Sales. Viva Sales is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/) and data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in addition to the CRM solution that users are connected to.
+
+### Data retention 
+
+Since Viva Sales data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro), data retention policies differ from other M365 applications and non-dynamics CRM solutions. For example, when your M365 subscription ends, your data is retained for 90 days before it’s automatically deleted (in accordance to [Office 365 data retention policies](/microsoft-365/compliance/retention-policies)). However, if you use Viva Sales, that data isn’t automatically deleted 90 days after your subscription ends.  
+
+### Viva Sales and Dataverse 
+
+When Viva Sales is connected to a non-dynamics CRM solution, a default Dataverse instance is provided to your tenant. Viva Sales data is stored in the default instance in addition to creating and updating records in your CRM solution of choice.
+
+Administrators can find the name and details of their default Dataverse instance in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+
+For existing Dynamics Sales customers, Viva Sales data is stored together with the connected Dynamics 365 Sales instance.
+
+### Deleting user data 
+
+If you need to delete Viva Sales data (for example, you need to delete data for a specific user) , an admin can choose to [manually delete it](/power-platform/admin/remove-user-personal-data). An admin can also decide to stop using the app and manually delete the default Dataverse instance from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).  
+
+
 ## Minimum privileges required to use Viva Sales
 
 ### Dynamics 365
@@ -47,24 +68,3 @@ The public preview is currently available globally except for a few selected cou
 |Account     | Show a contact's related account information in the contact card.         | Read, ViewAll     |
 |Opportunity     | Show a contact's related opportunity information in contact card.        | Read, ViewAll       |
 
-
-
-## Handling data for Viva Sales 
-
-This articles gives you an overview of how data is handled for Viva Sales. Viva Sales is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/) and data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in addition to the CRM solution that users are connected to.
-
-### Data retention 
-
-Since Viva Sales data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro), data retention policies differ from other M365 applications and non-dynamics CRM solutions. For example, when your M365 subscription ends, your data is retained for 90 days before it’s automatically deleted (in accordance to [Office 365 data retention policies](/microsoft-365/compliance/retention-policies)). However, if you use Viva Sales, that data isn’t automatically deleted 90 days after your subscription ends.  
-
-### Viva Sales and Dataverse 
-
-When Viva Sales is connected to a non-dynamics CRM solution, a default Dataverse instance is provided to your tenant. Viva Sales data is stored in the default instance in addition to creating and updating records in your CRM solution of choice.
-
-Administrators can find the name and details of their default Dataverse instance in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-
-For existing Dynamics Sales customers, Viva Sales data is stored together with the connected Dynamics 365 Sales instance.
-
-### Deleting user data 
-
-If you need to delete Viva Sales data (for example, you need to delete data for a specific user) , an admin can choose to [manually delete it](/power-platform/admin/remove-user-personal-data). An admin can also decide to stop using the app and manually delete the default Dataverse instance from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).  
