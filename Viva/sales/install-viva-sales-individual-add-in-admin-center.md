@@ -28,7 +28,10 @@ manager: shujoshi
 
 6.  Select **Choose from the Store**.
 
-7.  Search for **Microsoft Viva Sales for Microsoft Outlook (Preview)**.
+7.  Search for the following apps:
+
+    - Microsoft Viva Sales for Microsoft Outlook (Preview)
+    - Microsoft Viva Sales for Teams (Preview)
 
 8.  Select **Add**.
 
@@ -44,6 +47,6 @@ manager: shujoshi
 
 14. When the deployment is complete, select **Next**, and then select **Close**.
 
-Allow up to 12 hours for Viva Sales to appear in users' Outlook ribbon.
+Allow up to 24 hours for Viva Sales to appear in users' Outlook ribbon or Teams.
 
 

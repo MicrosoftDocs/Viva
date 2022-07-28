@@ -16,12 +16,13 @@ manager: shujoshi
 
 You need to be a Microsoft 365 administrator to deploy and install the Viva Sales add-in for Outlook. You need to be a Teams administrator to deploy and install Viva Sales for Teams.
 
-You can install Viva Sales as an integrated app on multiple platforms or as an individual add-in on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft AppSource to install it in Outlook and assign users. If you start from AppSource, you'll finish installation in the Microsoft 365 admin center.
+You can install Viva Sales as an integrated app on multiple platforms or as an individual add-in on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft AppSource to install it in Outlook and assign users. If you start from AppSource, you'll finish installation in the Microsoft 365 admin center. Either way, we recommend an administrator install it for best performance and usability. 
 
 The add-in is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Viva Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users.
 
 > [!NOTE]
-> Ensure that Microsoft Power Platform is not blocked on Salesforce. You can check its status on the **Connected Apps OAuth Usage** page in Salesforce.
+> - If your users are using Salesforce, ensure that Microsoft Power Platform is not blocked. You can check its status on the **Connected Apps OAuth Usage** page in Salesforce.
+> - It can take up to 24 hours for the add-in to show up for your users.
 
 
 

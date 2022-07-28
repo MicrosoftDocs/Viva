@@ -16,7 +16,10 @@ manager: shujoshi
 
 1.  Sign in to [Microsoft AppSource](https://appsource.microsoft.com/en-US/home).
 
-2.  Search for **Microsoft Viva Sales for Microsoft Outlook (Preview)**.
+2.  Search for the following apps:
+
+    - Microsoft Viva Sales for Microsoft Outlook (Preview)
+    - Microsoft Viva Sales for Teams (Preview)
 
 3.  Under the Viva Sales add-in in the search results, select **Get it now**.
 
@@ -33,7 +36,7 @@ manager: shujoshi
 
 9.  When the deployment is complete, select **Done**.
 
-Allow up to 12 hours for Viva Sales to appear in users' Outlook ribbon.
+Allow up to 24 hours for Viva Sales to appear in users' Outlook ribbon or Teams.
 
 ## Manage the Viva Sales add-in
 
@@ -45,6 +48,9 @@ After you've installed Viva Sales as an individual add-in, you can change the us
 
     ![Open Add ins portal](media/add-in-portal.png "Open Add-ins portal")
 
-3.  Select **Microsoft Viva Sales for Microsoft Outlook (Preview)**.
+3.  Search for the following apps:
+
+    - Microsoft Viva Sales for Microsoft Outlook (Preview)
+    - Microsoft Viva Sales for Teams (Preview)
 
 
