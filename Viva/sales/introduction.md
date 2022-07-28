@@ -42,7 +42,7 @@ For existing Dynamics Sales customers, Viva Sales data is stored together with t
 
 ### Deleting user data 
 
-If you need to delete Viva Sales data (for example, you need to delete data for a specific user) , an admin can choose to [manually delete it](/power-platform/admin/remove-user-personal-data). An admin can also decide to stop using the app and manually delete the default Dataverse instance from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).  
+If you need to delete Viva Sales data (for example, you need to delete data for a specific user) , an admin can choose to [manually delete it](/power-platform/admin/remove-user-personal-data).  
 
 
 ## Minimum privileges required to use Viva Sales
