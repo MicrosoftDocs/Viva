@@ -36,7 +36,7 @@ manager: shujoshi
 
 9.  When the deployment is complete, select **Done**.
 
-Allow up to 24 hours for Viva Sales to appear in users' Outlook ribbon.
+Allow up to 24 hours for Viva Sales to appear in users' Outlook ribbon or Teams.
 
 ## Manage the Viva Sales add-in
 
