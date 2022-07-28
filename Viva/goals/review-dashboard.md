@@ -214,7 +214,7 @@ On the **top-right corner** of the dashboard, you'll find the **Present** button
     
 ## How to clone and move Review Dashboards
     
-As a team owner or team admin, often a need arises to clone a dashboard to retain the same structure across the entire organisation. One can achieve this in Viva Goals by making use of the **Clone**, **Clone and Move** and **Set as Default** functionalities on Dashboards which aid users in performing the cloning operations.
+As a team owner or team admin, often a need arises to clone a dashboard to retain the same structure across the entire organization. One can achieve this in Viva Goals by making use of the **Clone**, **Clone and Move** and **Set as Default** functionalities on Dashboards which aid users in performing the cloning operations.
 
 **Step 1:** Navigate to the **Dashboard** tab in the **My OKRs** window.
 
@@ -231,7 +231,7 @@ As a team owner or team admin, often a need arises to clone a dashboard to retai
     
 ## How to share Review Dashboards
     
-Dashboards can be created and shared across every level of the organization. To stay current on what is happening in the company, and to foster transparency across teams, you can **share a dashboard across the the organization, team, and all individuals. 
+Dashboards can be created and shared across every level of the organization. To stay current on what is happening in the company, and to foster transparency across teams, you can **share a dashboard across the organization, team, and all individuals. 
 
 - Navigate to the **Dashboards** page of your desired entity.
 
