@@ -24,7 +24,7 @@ While in public preview, Viva Sales is available at no additional charge to orga
 
 The public preview is currently available globally except for a few selected countries such as Russia, France, and Canada.
 
-## Minimum privileges required by user to use Viva Sales
+## Minimum privileges required to use Viva Sales
 
 ### Dynamics 365
 
