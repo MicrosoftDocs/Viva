@@ -48,6 +48,9 @@ After you've installed Viva Sales as an individual add-in, you can change the us
 
     ![Open Add ins portal](media/add-in-portal.png "Open Add-ins portal")
 
-3.  Select **Microsoft Viva Sales for Microsoft Outlook (Preview)**.
+3.  Search for the following apps:
+
+    - Microsoft Viva Sales for Microsoft Outlook (Preview)
+    - Microsoft Viva Sales for Teams (Preview)
 
 
