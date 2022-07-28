@@ -15,7 +15,7 @@ audience: user
 
 # Reflect in Viva Insights
 
-You can use this feature in the Microsoft Viva Insights app in Teams to become more aware of how you're feeling. This awareness can benefit both your productivity and your wellbeing. In fact, research has shown that even the act of taking a moment to reflect has positive benefits for wellbeing.
+You can use this feature in the Microsoft Viva Insights app to become more aware of how you're feeling. This awareness can benefit both your productivity and your wellbeing. In fact, research has shown that even the act of taking a moment to reflect has positive benefits for wellbeing.
 
 >[!Important]
 >Performing self-reflection by selecting the available emojis is an entirely private action. No one else can see what you chose.
@@ -26,15 +26,15 @@ You can choose your own frequency for self-reflection. Once daily might work wel
 
 1. On the Viva Insights Home page, locate the **How are you feeling?** card.
 
-   ![Reflect icons.](images/reflect-icons-70.png)
+   ![Reflect icons.](images/reflect-card.png)
 
-2. Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice.
+2. Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice. <!--determine whether this is the final look of the feedback card-->
 
-   ![Feedback page.](images/reflect-thats-great-46.png)
+   ![Feedback page.](images/reflect-nice.png)
 
 3. (Optional) Select **Reflection history** to see how your feelings have changed over time, as indicated by the emojis you've chosen. For example:
 
-   ![Reminders to reflect.](images/reflect-trendline.png)  
+   ![Reminders to reflect.](images/reflect-graph.png)  
 
 4. (Optional) Set a reminder to practice reflection. Go to [Set a reminder to self-reflect](#set-a-reminder-to-self-reflect).
 
@@ -54,7 +54,7 @@ You can set reminders to reflect either on the [**Settings** page](viva-teams-ap
 
 1. On the **Build a habit of emotional awareness!** card, select a day and time:
 
-   ![Reflect reminders.](images/set-reflect-reminders-60.png)  
+   ![Reflect reminders.](images/reflect-reminder.png)  
 
 2. Select **Set reminders**.
 
