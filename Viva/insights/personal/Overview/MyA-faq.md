@@ -15,14 +15,12 @@ audience: Admin, user
 
 # Personal insights FAQ
 
-This FAQ is organized into the following sections for using the different personal insights options with Microsoft Viva Insights, such as the [Dashboard](../use/dashboard-2.md), [Digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md):
+This article answers frequently asked questions about Microsoft Viva Insights' personal insights options—like the [Dashboard](../use/dashboard-2.md), [Digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
 
-* The [Privacy](#privacy) section applies to everyone.
+Questions and answers are organized into three sections:
 
-The other questions and answers are grouped by role:
-
-* For [using personal insights](#for-using-personal-insights)
-* For [IT administrators](#for-it-administrators)
+* The [Privacy](#privacy) section, which applies to everyone
+* The [For using personal insights](#for-using-personal-insights) and [For IT administrators](#for-it-administrators) sections, which are grouped by roles
 
 ## Privacy
 
