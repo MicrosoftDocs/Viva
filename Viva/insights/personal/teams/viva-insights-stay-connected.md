@@ -2,20 +2,20 @@
 
 title: Stay connected with Viva Insights
 description: Use the Stay connected feature in Microsoft Viva Insights
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
 # Stay connected
 
-You can use **Stay connected** in the Microsoft Viva Insights app in Teams to stay connected with your collaborators and improve your productivity.
+You can use **Stay connected** in the Microsoft Viva Insights app to stay connected with your collaborators and improve your productivity.
 
 ![Stay connected.](images/stay-connected.png)
 
