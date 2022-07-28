@@ -26,7 +26,7 @@ Questions and answers are organized into three sections:
 
 #### Q1. Who can see my data?
 
-Only you can see your data. The statistics and insights that are generated from your data are for your eyes only. Your manager or system administrator cannot view your personal data.
+Only you can see your data. The statistics and insights that are generated from your data are for your eyes only. Your manager or system administrator can't view your personal data.
 
 For more details, see the [Privacy guide](Privacy-Guide-users.md).
 
@@ -38,7 +38,7 @@ Viva Insights stores your data in your mailbox itself, and gets the same protect
 
 Every calculation that Viva Insights performs is based on data that you, yourself, can get by gathering and examining metadata of your email, meetings, calls, and instant messages, such as their start and end times and their subject lines. In other words, Viva Insights automates what would otherwise be a painstaking task; these automatic calculations provide you with transparency into your workplace collaboration habits.
 
-Viva Insights does not have any tracking software running on your computer.
+Viva Insights doesn't have any tracking software running on your computer.
 
 #### Q3. What data does Viva Insights use?
 
@@ -70,7 +70,7 @@ Viva Insights does not have any tracking software running on your computer.
 
  * _Used only if you have opted in_: Data derived from activities on your computer, such as applications that you've used and websites that you've visited.
 
-**Viva Insights does not use**:
+**Viva Insights doesn't use**:
 
 Email and calendar data from people outside of your organization, with the following exception: Viva Insights uses data that is present in your own Microsoft 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
 
@@ -86,7 +86,7 @@ No. Only Exchange Online and Teams are used as data sources of Viva Insights dat
 
 ##### Q1. Does "meeting time" include time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time does not count as meeting time and will count as focus time.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time doesn't count as meeting time and will count as focus time.
 
 ### Focus time
 
@@ -115,7 +115,7 @@ Yes. You can change your time zone and your working time in your [Outlook settin
 
 #### Q1. How do the Viva digest emails show up in Outlook?
 
- Your [digest emails](../use/email-digests-3.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into your Outlook inbox by Viva Insights.
+ Your [digest emails](../use/email-digests-3.md) are system generated notifications that don't go through the standard email delivery process. They are inserted directly into your Outlook inbox by Viva Insights.
 
 ### Opt out
 
@@ -175,7 +175,7 @@ Follow these steps to add the Viva Insights add-in to your Outlook ribbon.
 
 #### Q1. Why can't I see the dashboard?
 
-The dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in [Plans and environments](plans-environments.md). If an organization has no *qualifying plan*, its members can't see any of the personal insight elements, including the dashboard, and Viva Insights does not use their data.
+The dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in [Plans and environments](plans-environments.md). If an organization has no *qualifying plan*, its members can't see any of the personal insight elements, including the dashboard, and Viva Insights doesn't use their data.
 
 #### Q2. I used to get a dashboard full of data but now it's grayed out. What happened?
 
@@ -226,7 +226,7 @@ Viva Insights uses Windows 10 or 11 Activity history to power insights related t
 
 #### Q10. Will Viva Insights work for shared mailboxes?
 
-No; currently the Viva Insights or MyAnalytics service plans cannot be used with shared mailboxes.
+No; currently the Viva Insights or MyAnalytics service plans can't be used with shared mailboxes.
 
 #### Q11. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
 
@@ -240,7 +240,7 @@ The [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook a
 
 #### Q2. Can I get email read rates for shared or secondary mailboxes?
 
-Viva Insights does not use data from shared or secondary mailboxes.
+Viva Insights doesn't use data from shared or secondary mailboxes.
 
 #### Q3. Why are read statistics not available for some of my email?
 
@@ -298,11 +298,11 @@ The dashboard is available to Viva Insights users a few days after getting assig
 
 #### Q4. How do the Viva digest emails show up in Outlook?
 
- The [digest emails](../use/email-digests-3.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by Viva Insights. Digests cannot be managed by email setting transport rules.
+ The [digest emails](../use/email-digests-3.md) are system generated notifications that don't go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by Viva Insights. Digests can't be managed by email setting transport rules.
 
 #### Q5. Which features are _not_ available to which service plans?
 
-The cards that show [email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) are not currently available with the *Insights by MyAnalytics* service plan.
+The cards that show [email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) aren't currently available with the *Insights by MyAnalytics* service plan.
 
 >[!Note]
 >All Viva Insights features are available to users who have the *MyAnalytics (Full)* or Viva Insights service plan.
@@ -318,11 +318,11 @@ The cards that show [email read rates and document open rates](../use/use-the-in
 
 #### Q1. Can Microsoft personnel access a person's Viva Insights data?
 
-The same rules apply as with Microsoft 365 commercial online services, Microsoft personnel do not have access to an individual's personal data in Viva Insights. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
+The same rules apply as with Microsoft 365 commercial online services, Microsoft personnel don't have access to an individual's personal data in Viva Insights. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
 
 #### Q2. Does the system enable admins the ability to log or audit data activity, such as accessing, modifying, or deleting data?
 
-No. Viva Insights does not support auditing.
+No. Viva Insights doesn't support auditing.
 
 #### Q3. Where and for how long is user data stored?
 
@@ -337,17 +337,17 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as data 
 Yes, you can delete and restrict the processing of Viva Insights user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide-admins.md#gdpr-compliance).
 
    >[!Note]
-   >If a person opts out of using Viva Insights, this action does not delete that person's Viva Insights data.
+   >If a person opts out of using Viva Insights, this action doesn't delete that person's Viva Insights data.
 
 #### Q6. If a user opts out or is opted out in PowerShell, will they stay opted out even through upgrades of Microsoft 365 or Viva Insights? 
 
-Yes. Opt-out settings can only be modified by the user or the tenant administrator. They are not changed as a result of upgrades.
+Yes. Opt-out settings can only be modified by the user or the tenant administrator. They aren't changed as a result of upgrades.
 
 #### Q7. Can an admin disable Viva Insights at the tenant level?
 
 Administrators can configure the default setting for Viva Insights at the tenant level for Viva Insights. This can be overridden by the user, based on their choice to opt out or opt in.
 
-Administrators can also [Assign licenses to users](/microsoft-365/admin/add-users/add-users?preserve-view=true&view=o365-worldwide) to enable or disable access for individual users. If licenses are not assigned, the user does not have access to any Viva Insights features.
+Administrators can also [Assign licenses to users](/microsoft-365/admin/add-users/add-users?preserve-view=true&view=o365-worldwide) to enable or disable access for individual users. If licenses aren't assigned, the user doesn't have access to any Viva Insights features.
 
 #### Q8. Can I see who in my organization is using Viva Insights?
 
