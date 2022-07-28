@@ -19,7 +19,7 @@ audience: user
 
 The Focus page on your personal insights [Dashboard](dashboard-2.md) shows weekly averages for the time you have available to focus and time spent collaborating with others in your network.
 
-![Focus page.](../../Images/mya/use/focus.png)
+![Focus page.](../../Images/mya/use/focus-dashboard.png)
 
 ## Productivity insights
 
@@ -27,7 +27,7 @@ These insights are based on your recent activity in Microsoft 365. Select **View
 
 ## About the metrics
 
-* **Collaboration** is based on time spent in meetings, emails, chats, and calls with Teams and Skype for Business. To learn more about how these metrics are calculated, see [Collaboration](collaboration.md).
+* **Collaboration** is based on time spent in meetings, emails, chats, and calls with Teams. To learn more about how these metrics are calculated, see [Collaboration](collaboration.md).
 
 * **Available to focus** is equal to your working hours minus your collaboration hours; it shows the amount of time you have left over each week for individual work. Time that you block out on your calendar with no other attendees is counted toward the **Available to focus** metric, not toward the **Collaboration** metric. Additionally, any day that you mark as "Out of office" on your calendar is excluded from this calculation.
 
@@ -37,7 +37,7 @@ For example: If your working hours are set as 9 am to 5 pm daily (8 working hour
 
 ## Focus plan
 
-The _focus plan_ in Viva Insights helps you set aside regular focus time for your top-priority work. When you enroll in this plan Viva Insights automatically schedules up to two hours of focus time for you every day. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [Focus plan](focus-plan.md).
+The _focus plan_ in Viva Insights helps you set aside regular focus time for your top-priority work. When you enroll in this plan Viva Insights automatically schedules up to two hours of focus time for you every day. During the booked focus time, it silences chats in Teams. For more information, see [Focus plan](focus-plan.md).
 
 ## Focus tips
 
