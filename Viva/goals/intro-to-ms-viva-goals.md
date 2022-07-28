@@ -20,7 +20,6 @@ description: "Learn about Microsoft Viva Goals on how you can use it for organiz
 
 # Introduction to Microsoft Viva Goals
 
-
 </br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XeI1]  
@@ -42,7 +41,6 @@ The resources in this section will help you learn more about Viva Goals and how 
 |Learn about OKRs     |[Get to know OKRs](/viva/goals/get-to-know-okrs)        |
 |Learn about defining your team |[Define your team](/viva/goals/define-your-team) |
 |Learn about your rollout plan     |[Determine your rollout plan](/viva/goals/determine-your-rollout-plan)         |
-|   |         |
 
 ## Setup and administration
 
@@ -55,7 +53,6 @@ The resources in this section will help the administrator in your organization s
 |Learn to add users    |[Invite and remove users](/viva/goals/inviting-and-removing-a-user)       |
 |Learn to manage OKR time periods   |[Manage OKR time periods](/viva/goals/managing-okr-time-periods)         |
 |Learn about OKR configurations   |[Configure your OKR model](/viva/goals/configure-okr-model)     |
-|   |         |
 
 ## Work with OKRs in Viva Goals
 
@@ -64,10 +61,9 @@ Learn more about how to use and implement Viva Goals in your organization to hel
 |If you're looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn how to create OKRs     |[Create OKRs](/viva/goals/creating-okrs)         |
-|Learn how to check-in with OKRs| [Check-in OKRs](/viva/goals/okr-check-ins)        |
+|Learn how to check in with OKRs| [Check-in OKRs](/viva/goals/okr-check-ins)        |
 |Learn how to track OKR progress| [Track progress on OKRs](/viva/goals/track-okr-progress-status)        |
 |Learn how to score and close OKRs|[Close and score OKRs](/viva/goals/closing-and-scoring)       |
-|   |         |
 
 ## Product features
 
@@ -78,5 +74,4 @@ The resources in this section help your users learn how to use and manage Viva G
 |Learn how to use review dashboards     |[Review dashboard](/viva/goals/review-dashboard)         |
 |Learn how to use projects|[Projects](/viva/goals/projects)         |
 |Learn how to integrate your other tools| [Viva Goals integrations overview](/viva/goals/integrations-overview)        |
-|   |         |
 
