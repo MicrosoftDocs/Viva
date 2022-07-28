@@ -20,7 +20,7 @@ audience: user
 
 The Collaboration page on your personal insights [Dashboard](dashboard-2.md) helps you reflect on how effectively you spend your time in meetings, email, chats, and calls.
 
-  ![Collaboration page.](../../Images/mya/use/collaboration.png)
+  ![Collaboration page.](../../Images/mya/use/collaboration-dashboard.png)
 
 ## Weekly average
 
