@@ -191,4 +191,4 @@ If the current progress is 0, the status will be **Postponed** by default. A pro
 
 ***When the progress is anything but 0***
 
-If the current progress is anything greater than 0, the status will be **Closed** by default. This is owing to the fact that there's a substantial amount of progress made, and you might want to close the objective with the progress you're it at that given point in time. However, you also have the option to postpone this objective to chart progress toward the desired goal.
+If the current progress is anything greater than 0, the status will be **Closed** by default. This is owing to the fact that there's a substantial amount of progress made, and you might want to close the objective with the progress you've made at that given point in time. However, you also have the option to postpone this objective to chart progress toward the desired goal.
