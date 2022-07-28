@@ -15,13 +15,10 @@ audience: user
 
 # Protect time
 
-You can use this feature in the Microsoft Viva Insights app in Microsoft Teams to protect your time in the following ways:
+You can use this feature in the Microsoft Viva Insights app to protect your time in the following ways:
 
 * [Schedule focus time](#schedule-focus-time) for future workdays.
 * [Start a virtual commute](viva-insights-virtual-commute.md) to end your day.
-
->[!Note]
->The images on this page represent the latest experience as part of a rolling release with an expected general availability by the end of April 2022.
 
 ![Protect time screenshot.](Images/protect-t3.png)
 
@@ -29,7 +26,7 @@ You can use this feature in the Microsoft Viva Insights app in Microsoft Teams t
 
 Research shows that it can take an average of 23 minutes to refocus on a task after a distraction. Constant distractions during focused work can cause higher stress and lower productivity. Further, it is difficult to focus on challenging work when you only have small chunks of time available between meetings or are distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions will help you make progress on your important tasks and projects.
 
-Microsoft Viva Insights can help you protect time for focused work and minimize notifications (and thus distraction) by Teams and Skype for business chats and calls during your focus time.
+Microsoft Viva Insights can help you protect time for focused work and minimize notifications (and thus distraction) by Teams chats and calls during your focus time.
 
 You can schedule focus time on the **Protect time** page, as follows:
 
@@ -41,7 +38,7 @@ You can schedule focus time on the **Protect time** page, as follows:
 
 * **Focus plan** - Within **Focus plan**, select **Get started** to create a focus plan.
 
-  * If this is not your first time using a focus plan, you'll automatically be set up with the default settings. Then based on the prompt, you can then select **Edit settings** to make any changes.
+  * If this is not your first time using a focus plan, you'll automatically be set up with the default settings. Then based on the prompt, you can select **Edit settings** to make any changes.
   * If this is your first focus plan, you'll be prompted to select the following options.
 
     * **Do this later** skips the prompts and simply enrolls you in a default plan based on your settings.
@@ -49,9 +46,9 @@ You can schedule focus time on the **Protect time** page, as follows:
     * Do you prefer morning or afternoon hours for scheduled focus time.
     * If you'd like Teams to silence notifications during scheduled focus time.
 
-At any time after the initial setup, you can confirm or change any of the options or leave the plan by selecting **Focus plan preferences** in **Settings** (gear icon) within the Viva Insights in Teams app.
+At any time after the initial setup, you can confirm or change any of the options or leave the plan. In the app, select the ellipses at top right **> Settings** (gear icon) **> Protect time > Focus plan preferences**.
 
-![Book focus time.](Images/pt-focus-3.png)
+![Book focus time.](Images/focus-plan-preferences.png)
 
 ## Related topics
 
