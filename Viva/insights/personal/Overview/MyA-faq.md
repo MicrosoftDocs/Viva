@@ -15,7 +15,7 @@ audience: Admin, user
 
 # Personal insights FAQ
 
-This FAQ is organized into the following sections for using the different personal insights options with Microsoft Viva Insights, such as the the [Dashboard](../use/dashboard-2.md), [Digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md):
+This FAQ is organized into the following sections for using the different personal insights options with Microsoft Viva Insights, such as the [Dashboard](../use/dashboard-2.md), [Digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md):
 
 * The [Privacy](#privacy) section applies to everyone.
 
@@ -64,9 +64,9 @@ Viva Insights does not have any tracking software running on your computer.
    * Duration
    * Attendees
 
- * Information from Teams and from Skype for Business:
+ * Information from Teams:
 
-   * Viva Insights counts audio calls, video calls, and chats that people make in Teams and in Skype for Business as collaboration activities.
+   * Viva Insights counts audio calls, video calls, and chats that people make in Teams as collaboration activities.
 
  * OneDrive SharePoint data: Viva Insights shows a count of OneDrive and SharePoint documents that you have worked on. 
 
@@ -82,7 +82,7 @@ Email and calendar data from people outside of your organization, with the follo
 
 ##### Q1. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
-No. Only Exchange Online, Skype for Business Online, and Teams are used as data sources of Viva Insights data.
+No. Only Exchange Online and Teams are used as data sources of Viva Insights data.
 
 ### Meetings
 
@@ -161,9 +161,9 @@ Follow these steps to remove the Viva Insights add-in from your Outlook ribbon.
     ![Get Add-ins.](../../Images/mya/use/get-add-ins.png)
 
 2. Select **My add-ins**.
-3. In **Admin-managed**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
+3. In **Admin-managed**, select the **ellipsis** (**...**) for **Viva Insights**, and then select **Remove**.
 
-    ![Remove Insights.](../../Images/mya/use/remove-insights.png)
+    ![Remove Insights.](../../Images/mya/use/insights-remove.png)
 
 ##### Add the Viva Insights Outlook add-in
 
@@ -171,7 +171,7 @@ Follow these steps to add the Viva Insights add-in to your Outlook ribbon.
 
 1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
 2. Select **Admin-managed**.
-3. Find **Insights**, and then select **Add**.
+3. Find **Viva Insights**, and then select **Add**.
 
 ### Visibility and access
 
@@ -216,7 +216,7 @@ Viva Insights only uses cookies to authenticate users for the dashboard. See [Mi
 
 #### Q8. Which Viva Insights experiences include Windows 10 activity history?
 
-Viva Insights uses Windows 10 or 11 Activity history to power insights related to time spent in documents within working hours and after hours. These show up as Food for thought in the Viva Insights dashboard. The time spent in documents is also added to the total collaboration time and affects metrics, such as “Time available to focus” and “Quiet hours.”
+Viva Insights uses Windows 10 or 11 Activity history to power insights related to time spent in documents within working hours and after hours. These show up as Food for thought in the Viva Insights dashboard. The time spent in documents is also added to the total collaboration time and affects metrics, such as “Time available to focus” and “Quiet time.”
 
 #### Q9. How can I check if Window 10 or 11 Activity history is enabled on my device?
 
@@ -302,18 +302,14 @@ The dashboard is available to Viva Insights users a few days after getting assig
 
  The [digest emails](../use/email-digests-3.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by Viva Insights. Digests cannot be managed by email setting transport rules.
 
-#### Q5. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
-
-Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in Viva Insights computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest sent on a Monday or Tuesday to your Outlook inbox, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
-
-#### Q6. Which features are _not_ available to which service plans?
+#### Q5. Which features are _not_ available to which service plans?
 
 The cards that show [email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) are not currently available with the *Insights by MyAnalytics* service plan.
 
 >[!Note]
 >All Viva Insights features are available to users who have the *MyAnalytics (Full)* or Viva Insights service plan.
 
-#### Q7. Why can't licensed users see one or more personal insights with Viva Insights?
+#### Q6. Why can't licensed users see one or more personal insights with Viva Insights?
 
 * Check [Access to Viva Insights elements](plans-environments.md#access-to-viva-insights-elements) to see when the elements become available after users are assigned a license with a qualifying service plan.
 * Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) for more details:
@@ -324,7 +320,7 @@ The cards that show [email read rates and document open rates](../use/use-the-in
 
 #### Q1. Can Microsoft personnel access a person's Viva Insights data?
 
-The same rules apply as with Microsoft Microsoft 365 commercial online services, Microsoft personnel do not have access to an individual's personal data in Viva Insights. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
+The same rules apply as with Microsoft 365 commercial online services, Microsoft personnel do not have access to an individual's personal data in Viva Insights. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
 
 #### Q2. Does the system enable admins the ability to log or audit data activity, such as accessing, modifying, or deleting data?
 
@@ -334,7 +330,7 @@ No. Viva Insights does not support auditing.
 
 User metrics data is stored in users' mailboxes. Depending on the scenario, daily data is stored for up to 35 days and weekly data is stored for up to 9 weeks. However, data about the number of collaborators in the past 12 months is stored for up to 370 days.
 
-#### Q4. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
+#### Q4. Can data be extracted from on-premises installations of Microsoft Exchange?
 
 No. Only Exchange Online, Skype for Business Online, and Teams are used as data sources of Viva Insights data.
 
