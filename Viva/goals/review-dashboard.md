@@ -21,9 +21,6 @@ description: "Learn about Review Dashboard and how you can customize it to strea
 
 # Review Dashboards
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## Review Dashboards for every business review rhythm
 
 Business reviews happen across every level of the organization. Examples include quarterly business reviews, departmental deep dives, town halls and all-hands, team meetings, and board meetings. It becomes cumbersome to populate data for each of these reviews, and create presentations from the ground up.

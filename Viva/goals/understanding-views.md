@@ -20,9 +20,6 @@ description: "Learn about the customizable views to easily surface OKRs and proj
 
 # Understand Views in Viva Goals
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 When you log in to your Viva Goals account, you will be able to view and access all your OKR-related information on your OKRs page. With different views, you can access your OKRs for different purposes and in different ways.
 
 ## Which views are available in Viva Goals? 
