@@ -5,8 +5,6 @@
   items:
   - name: Overview
     href: install-viva-sales.md
-  - name: Install Viva Sales as an integrated app
-    href: install-viva-sales-as-an-integrated-app.md
   - name: Install Viva Sales as an individual add-in from the admin center
     href: install-viva-sales-individual-add-in-admin-center.md
   - name: Install Viva Sales as an individual add-in from AppSource
