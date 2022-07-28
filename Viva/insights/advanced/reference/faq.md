@@ -38,7 +38,7 @@ A1. No. Viva Insights is a collaboration analysis tool for analyzing behavior an
 
 #### Q2. How do personal, manager, leader, and advanced insights differ?
 
-A2. Refer to [Introducing Microsoft Viva Insights](/viva/insights/introduction.md) for more information about the following different types of insights for the distinctly different audiences:
+A2. 
 
 * Personal and private insights are for individual use only.
 * Manager insights are for people managers or team leads.
