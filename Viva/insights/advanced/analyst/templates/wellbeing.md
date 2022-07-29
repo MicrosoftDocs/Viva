@@ -140,7 +140,7 @@ This page shows the average weekly after-hours collaboration for each employee, 
 
 ### Handle urgency
 
-This page shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by the following keywords in the email subject lines or meeting invitation titles: "urgent," "immediately," "ASAP," "fire drill," "immediate action." This list of keywords is also provided in the report.This report highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
+This page shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by the following keywords in the email subject lines or meeting invitation titles: "urgent," "immediately," "ASAP," "fire drill," "immediate action." This list of keywords is also provided in the report. This report highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
 
 ### Embrace flexibility
 
