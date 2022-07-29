@@ -48,7 +48,7 @@ If an objective is aligned to multiples above, the progress roll-up will cascade
 
 ## Multiple Alignment and Private Objectives
 
-Viva Goals now allows enabling both the Multiple Alignment and [Private Objectives](https://help.ally.io/en/articles/3152440-private-objectiveshttps://help.ally.io/en/articles/3152440-private-objectives) features at the same time, with the following restrictions:
+Viva Goals now allows enabling both the Multiple Alignment and [Private Objectives & Key Results](private-objectives-key-results.md) features at the same time, with the following restrictions:
 
 - Users can make Private a Multiple Alignment Public OKR, but first the process will remove all alignment.
 
