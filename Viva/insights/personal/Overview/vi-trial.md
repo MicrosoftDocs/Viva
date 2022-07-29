@@ -17,7 +17,7 @@ manager: helayne
 
 *This experience is only available through private preview*
 
-The Viva Insights app helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations for improving productivity and wellbeing.
+The Viva Insights app in Microsoft Teams helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations for improving productivity and wellbeing.
 
 As a licensed user with a Microsoft 365 E3 or E5 plan, you can use this free 60-day trial to access insights to help build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
