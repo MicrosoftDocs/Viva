@@ -25,5 +25,5 @@ Conversation intelligence is available in the following languages.
 |     Japanese                      |     Portuguese    |     Portuguese   (Brazil)    |
 |     Spanish                       |     Hebrew        |     Danish                   |
 |     Swedish                       |     Finnish       |     Norwegian                |
-|     and Arabic                    |                   |                              |
+|     Arabic                    |                   |                              |
 
