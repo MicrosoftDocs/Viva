@@ -20,9 +20,6 @@ description: "Learn how Multiple Alignment allows users to align a single OKR to
 
 # Multiple Alignment
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals recognizes that the modern workplace is often made up of non-linear organizational structures and goal matrixes. The Multiple Alignment feature helps with this. 
 
 ## What is Multiple Alignment? 
@@ -51,7 +48,7 @@ If an objective is aligned to multiples above, the progress roll-up will cascade
 
 ## Multiple Alignment and Private Objectives
 
-Viva Goals now allows enabling both the Multiple Alignment and [Private Objectives](https://help.ally.io/en/articles/3152440-private-objectiveshttps://help.ally.io/en/articles/3152440-private-objectives) features at the same time, with the following restrictions:
+Viva Goals now allows enabling both the Multiple Alignment and [Private Objectives & Key Results](private-objectives-key-results.md) features at the same time, with the following restrictions:
 
 - A Multiple Alignment Public OKR can be made Private, but all of the alignment will first be automatically removed beforehand
 
