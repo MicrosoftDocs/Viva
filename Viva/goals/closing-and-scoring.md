@@ -20,9 +20,6 @@ description: "Learn how to close and score OKRs in Viva Goals"
 
 # Close and score OKRs
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 It's been a few months since your ambitious brainstorming session to set quarterly goals. Week after week you've stayed diligent with your check-ins. 
 
 Now the quarter is ending and you get to find out how close you came to achieving the goals you set. 
@@ -194,4 +191,4 @@ If the current progress is 0, the status will be **Postponed** by default. A pro
 
 ***When the progress is anything but 0***
 
-If the current progress is anything greater than 0, the status will be **Closed** by default. This is owing to the fact that there's a substantial amount of progress made, and you might want to close the objective with the progress you're it at that given point in time. However, you also have the option to postpone this objective to chart progress toward the desired goal.
+If the current progress is anything greater than 0, the status will be **Closed** by default. This is owing to the fact that there's a substantial amount of progress made, and you might want to close the objective with the progress you've made at that given point in time. However, you also have the option to postpone this objective to chart progress toward the desired goal.

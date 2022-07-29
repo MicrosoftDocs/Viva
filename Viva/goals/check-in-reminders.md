@@ -22,9 +22,6 @@ description: "Learn how you can set up check-in reminders and notifications in V
 
 # What is a check-in rhythm? 
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Regular check-ins are a key part of an effective OKR implementation. OKRs are closely aligned, and therefore will reflect inaccuracies if they aren't updated regularly. To avoid such inaccuracies, it’s helpful to send gentle reminders to your team to check in on their OKRs. Setting a cadence to remind teams and users to make check-ins is referred to as the check-in rhythm.
 
 Notifications remind your team to check in regularly. By default, Viva Goals sends a notification to all team members every Monday at 9:00 AM in the user’s time zone, but the notifications can be customized to fit your business needs. 

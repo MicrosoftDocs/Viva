@@ -20,9 +20,6 @@ description: "Learn how to define individual, team, and organization OKRs"
 
 # Create OKRs 
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## 1. Understand OKR fundamentals 
 
 Using OKRs effectively to achieve results usually takes a few cycles. As you embark on defining OKRs for the new quarter or year, remember: 
