@@ -86,7 +86,7 @@ Once you have configured the connection, the next step is to start linking OKRs 
 
 You have now successfully linked your objective to a Sheet in Excel Online to track the cell value, and updated the status of the corresponding OKR automatically.
 
-The colors of the progress bar in Viva Goals indicates the status of the objective.
+The colors of the progress bar in Viva Goals indicate the status of the objective.
 
 - If the progress is 0 - 25% less than the expected progress at any given point in time, the OKR status is Behind, and the progress bar color will be Orange.
 

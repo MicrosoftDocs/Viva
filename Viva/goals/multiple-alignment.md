@@ -26,7 +26,7 @@ Viva Goals recognizes that the modern workplace is often made up of non-linear o
 
 The Multiple Alignment feature in Viva Goals allows users to align a single OKR to two or more above it in the organization.
 
-Multiple Aligned objectives are easy to distinguish from the rest, just look for the double arrow icon.
+Multiple Aligned objectives are easy to distinguish from the rest; just look for the double arrow icon.
 
 ![multiple alignment icon.](../media/goals/4/412/a.jpg)
 
@@ -42,15 +42,14 @@ If an objective is aligned to multiples above, the progress roll-up will cascade
 
 ## When to use Multiple Alignment
 
-- If there's an individual objective that contributes to two separate team objectives
+- Users can use Multiple Alignment if there's an individual objective that contributes to two separate team objectives.
 
-- To group similar individual objectives that are separately aligned to teams above into a single individual objective, further improving the focus of your personal dashboard
+- Users can also use Multiple Alignment to group similar individual objectives that are separately aligned to teams above into a single individual objective, further improving the focus of their personal dashboard.
 
 ## Multiple Alignment and Private Objectives
 
 Viva Goals now allows enabling both the Multiple Alignment and [Private Objectives](https://help.ally.io/en/articles/3152440-private-objectiveshttps://help.ally.io/en/articles/3152440-private-objectives) features at the same time, with the following restrictions:
 
-- A Multiple Alignment Public OKR can be made Private, but all of the alignment will first be automatically removed beforehand
+- Users can make Private a Multiple Alignment Public OKR, but first the process will remove all alignment.
 
-- No Key Result of a Private Objective will be allowed to use Multiple Alignment
-
+- No Key Result of a Private Objective will be allowed to use Multiple Alignment.

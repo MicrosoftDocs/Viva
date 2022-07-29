@@ -47,7 +47,7 @@ If an objective has key results below it, or there are other key results set as 
 
 ![screenshot of how to add to the kpi summary.](../media/goals/4/416/b.jpg)
 
-There is no limit on the number of KPIs you can include, but we suggest that only your business's most critical KPIs be included to ensure a digestable view.
+There is no limit on the number of KPIs you can include, but we suggest that only your business's most critical KPIs be included to ensure a digestible view.
 
 ## How to remove a KPI from your KPI Summary
   

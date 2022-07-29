@@ -45,7 +45,7 @@ By default, Viva Goals will have you follow:
 
 ## Step 2: Receive Updates
 
-Once you're following one or more organizations, teams, or users, Viva Goals will automatically notify you via email with you a weekly progress update showing Objective activity, what's going well, and what's not going well.
+Once you're following one or more organizations, teams, or users, Viva Goals will automatically notify you via email with a weekly progress update showing Objective activity, what's going well, and what's not going well.
 
 ![see followed organizations](../media/goals/4/413/b.jpg)
 

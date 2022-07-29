@@ -33,7 +33,7 @@ Users may add a delegate to an objective when creating or editing an objective.
 
 1. Click the more **More Actions** icon and select **Edit**.
 
-2. From the edit screen, click on the drop down next to **More Options**.
+2. From the edit screen, click on the dropdown list next to **More Options**.
 
 3. Click on **Assign a delegate**.
     
@@ -57,7 +57,7 @@ If you want a user within the organization to check in and update the progress o
 
 - Once you enter the objective/Key Result and want to share it with another individual, select owners from the **Owner** option. Here you can assign multiple owners for the OKR.
 
-- Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** drop-down.
+- Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** dropdown list.
 
 - Once you make the selection, the user will start receiving the check-in reminders.
 

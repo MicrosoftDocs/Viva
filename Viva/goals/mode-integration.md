@@ -40,7 +40,7 @@ All users and admins have access to this integration. Admins also have permissio
 
     :::image type="content" source="../media/goals/11/mode-manage-button.png" alt-text="Managing Mode in Viva Goals." lightbox="../media/goals/11/mode-manage-button.png":::
 
-3. Select **New Connection** and in the pop-up dialog box, sign in to your Mode account using your credentials to authenticate the connection. 
+3. Select **New Connection** and in the pop-up dialog, sign in to your Mode account using your credentials to authenticate the connection. 
 
     :::image type="content" source="../media/goals/11/mode-configure-new-connection.png" alt-text="Configuring a new Mode connection in Viva goals." lightbox="../media/goals/11/mode-configure-new-connection.png":::
 
@@ -62,7 +62,7 @@ Admins can also edit an existing Mode connection, including the integration’s 
 
 1. Start in the Integrations section in the Admin Dashboard and select **Mode**. 
 
-2. Select the **Edit** icon next to the Mode connection. In the pop-up dialog box that displays, you can edit the connection’s name, token, organization domain, password and select or clear the Share connection with all users checkbox. 
+2. Select the **Edit** icon next to the Mode connection. In the dialog box that displays, you can edit the connection’s name, token, organization domain, password and select or clear the Share connection with all users checkbox.
 
 ## How to use the Mode integration
 
