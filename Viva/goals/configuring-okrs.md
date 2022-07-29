@@ -74,7 +74,7 @@ When both the teams are supposed to commonly own and work toward the outcomes, i
     
    **Example #2:** 
     OBJECTIVE: Build a world class Engineering org.
-    KR/INITIATIVE: Invest in 2 Training & Development sessions + Capstone Projects for all 4 engg. teams this quarter
+    KR/INITIATIVE: Invest in 2 Training & Development sessions + Capstone Projects for all 4 eng. teams this quarter
     TEAM(S): Engineering Department
     OWNER(S): VP Engineering and All Engineering Managers
 
@@ -111,7 +111,7 @@ Users can also assign multiple teams to projects by implementing this procedure.
 
 If there is just one owner or multiple owners assigned to an OKR and you would want a user within the organization to check in and update the progress of the OKR, you can use the "check-in responsibility" feature. 
 
-The check-in owner will be able to check-in on the OKR (manual check-in) and set up a data link on the OKR (to auto-check-in). 
+The check-in owner will be able to check in on the OKR (manual check-in) and set up a data link on the OKR (to auto check in). 
 
 This user will be receiving the check-in reminders. In the case of multiple owners, this feature will prevent all of the owners from receiving reminders, and only the user set as 'check-in responsible owner' will receive the reminders.
 
@@ -119,7 +119,7 @@ This user will be receiving the check-in reminders. In the case of multiple owne
 
 1. Log in to Viva Goals and select the **+** button on the top panel to create a new OKR.
 1. Once you enter the objective/key result and want to share it with another individual, select **Owners** from dropdown list under **Owners**. Here, you can assign multiple owners for the OKR.
-1. Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** drop-down. Once you make the selection, the user will start receiving the check-in reminders.
+1. Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** dropdown list. Once you make the selection, the user will start receiving the check-in reminders.
 
 By default, the owner (the first owner in the case of multiple owners) is set as the person responsible for check-in and users need not explicitly choose, unless necessary.
 
