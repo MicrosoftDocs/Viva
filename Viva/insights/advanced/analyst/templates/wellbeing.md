@@ -28,7 +28,7 @@ The report includes the following pages:
 * **Take breaks** – Are employees able to mindfully disconnect?
 * **Stay connected** – Are employees part of a community at work?
 
-![Wellbeing report, Report settings](/viva/insights/advanced/images/wellbeing-PBI-summary1.png)
+![Screenshot that shows the Wellbeing report, Report settings.](/viva/insights/advanced/images/wellbeing-PBI-summary1.png)
 
 Each report includes a **Why it matters** section that explains the business implications, best practices, and recommended actions to help maintain or improve employee wellbeing.
 
@@ -112,7 +112,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 After the **Wellbeing - balance and flexibility** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. Then, view and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
 
-![Wellbeing report summary page](/viva/insights/advanced/images/wellbeing-pbi-summary1.png)
+![Screenshot that shows the Wellbeing report summary page.](/viva/insights/advanced/images/wellbeing-pbi-summary1.png)
 
 * **Select the time period to measure** – This is the time period that you want to analyze. Note that the four-week trend information on the summary page won’t show if the selected time period is less than eight weeks.
 * **Select an organizational attribute to view the report by** – The primary "group-by" attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
@@ -124,7 +124,7 @@ After the **Wellbeing - balance and flexibility** report is set up and populated
 
 For **Embrace flexibility** and **Take break** pages, you can customize the standard working hours for your organization as a baseline. Select **Customize working hours**, and then select the standard start time and end time. Employees’ collaboration patterns will then be compared with these time settings.
 
-![Wellbeing report customize standard working hours page](/viva/insights/advanced/images/wellbeing-pbi-workinghours1.png)
+![Screenshot that shows the Wellbeing report customize standard working hours page.](/viva/insights/advanced/images/wellbeing-pbi-workinghours1.png)
 
 ## About this report
 
