@@ -1,7 +1,7 @@
 ---
 title: Supported languages in Viva Sales
 description: Lean which languages are supported in Viva Sales
-ms.date: 07/25/2022
+ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
@@ -16,6 +16,14 @@ manager: shujoshi
 
 The user interface is in English only.
 
-Conversation intelligence is available in the following languages: Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, Danish, Swedish, Finnish, Norwegian, and Arabic.
+Conversation intelligence is available in the following languages.
 
+||||
+|-----------------------------------|-------------------|------------------------------|
+|     Chinese   Simplified (PRC)    |     Dutch         |     English                  |
+|     French                        |     German        |     Italian                  |
+|     Japanese                      |     Portuguese    |     Portuguese   (Brazil)    |
+|     Spanish                       |     Hebrew        |     Danish                   |
+|     Swedish                       |     Finnish       |     Norwegian                |
+|     and Arabic                    |                   |                              |
 

@@ -1,7 +1,7 @@
 ---
 title: Data handling in Viva Sales 
 description: Know how data is handled in Viva Sales 
-ms.date: 07/25/2022
+ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
@@ -33,3 +33,8 @@ You can find the name and details of your default Dataverse instance named **msd
 ## Delete Viva Sales data 
 
 If you need to delete Viva Sales data (for example, delete data for a specific user), you can choose to [manually delete it](/power-platform/admin/remove-user-personal-data). 
+
+### See also
+
+[Introduction to Microsoft Viva Sales](introduction.md)<br>
+[Install Viva Sales](install-viva-sales.md)

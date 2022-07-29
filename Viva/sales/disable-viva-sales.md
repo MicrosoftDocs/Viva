@@ -1,7 +1,7 @@
 ---
 title: Disable Viva Sales from Microsoft 365 admin center
 description: Learn how to disable Viva Sales from Microsoft 365 admin center
-ms.date: 07/25/2022
+ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
@@ -29,3 +29,6 @@ You can't uninstall the Viva Sales add-in. You can turn it off if your sellers n
 6.  Select **Save**.
 
 
+### See also
+
+[Block the Viva Sales app in Teams](block-the-viva-sales-app-in-teams.md)

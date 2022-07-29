@@ -1,7 +1,7 @@
 ---
 title: Block the Viva Sales app in Microsoft Teams
 description: Learn how to block the Viva Sales app in Microsoft Teams
-ms.date: 07/27/2022
+ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
@@ -24,3 +24,6 @@ You can't delete or uninstall the Viva Sales app in Teams. You can block it if y
 
 3.  Select **Block**.
 
+### See also
+
+[Disable Viva Sales from Microsoft 365 admin center](disable-viva-sales.md)

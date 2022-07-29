@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales as an individual add-in from Microsoft 365 admin center
 description: Learn how to install Viva Sales as an individual add-in from Microsoft 365 admin center
-ms.date: 07/25/2022
+ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
@@ -50,3 +50,7 @@ manager: shujoshi
 Allow up to 24 hours for Viva Sales to appear in users' Outlook ribbon or Teams.
 
 
+### See also
+
+[Install Viva Sales as an individual add-in from AppSource](install-viva-sales-individual-add-in-appsource.md)<br>
+[Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md)

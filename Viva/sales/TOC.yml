@@ -11,6 +11,8 @@
     href: install-viva-sales-individual-add-in-appsource.md
   - name: Install and pin Viva Sales in Teams
     href: install-pin-viva-sales-teams.md
+  - name: Supported languages
+    href: supported-langusges.md
   - name: Data handling in Viva Sales 
     href: data-handling.md
 

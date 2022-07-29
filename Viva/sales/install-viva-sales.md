@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales
 description: Learn what are the various ways to install Viva Sales
-ms.date: 07/25/2022
+ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
@@ -48,3 +48,9 @@ The add-in is enabled in Teams but not installed. You need to go to the Microsof
 |Account     | Show a contact's related account information in the contact card.         | Read, ViewAll     |
 |Opportunity     | Show a contact's related opportunity information in contact card.        | Read, ViewAll       |
 
+
+### See also
+
+[Install Viva Sales as an individual add-in from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
+[Install Viva Sales as an individual add-in from AppSource](install-viva-sales-individual-add-in-appsource.md)<br>
+[Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md)

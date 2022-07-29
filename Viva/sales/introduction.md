@@ -1,7 +1,7 @@
 ---
 title: Introduction to Microsoft Viva Sales
 description: Get to know Viva Sales
-ms.date: 07/25/2022
+ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
@@ -42,4 +42,6 @@ The public preview is available globally except in the following countries:
 - Turkey
 
 
+### See also
 
+[Install Viva Sales](install-viva-sales.md)

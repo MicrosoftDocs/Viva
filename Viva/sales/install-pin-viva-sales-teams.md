@@ -1,7 +1,7 @@
 ---
 title: Install and pin Viva Sales in Teams
 description: Learn how to install and pin Viva Sales in Teams
-ms.date: 07/25/2022
+ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
@@ -72,3 +72,7 @@ For more information about managing Teams app setup policies, go to [Manage app 
 For more information about assigning user and group policies, go to [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups).
 
 
+### See also
+
+[Install Viva Sales as an individual add-in from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
+[Install Viva Sales as an individual add-in from AppSource](install-viva-sales-individual-add-in-appsource.md)
