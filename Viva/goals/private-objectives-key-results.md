@@ -46,11 +46,11 @@ If your organization has this feature enabled, visibility can be managed while c
 
 By default, all objectives will be visible to the entire organization unless configured with the following steps:
 
-1. Select **Who can view** on the **Add/Edit Objective** window.
+1. Select **Visibility** on the **Add/Edit Objective** window.
 
 ![private objective](../media/goals/4/414/a.jpg)
 
-2. Select **Choose who has access** to make it private to only this list of people and select **Done**.
+2. Select **Private** and enter the name(s) of the required users to make it private to only this list of people and select **Done**.
 
     > [!NOTE]
     > This list of users will also be able to see any key results below the objective.
