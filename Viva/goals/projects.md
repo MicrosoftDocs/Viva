@@ -21,9 +21,6 @@ description: "Learn how to track your projects and tasks directly in Viva Goals.
 
 # Projects
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Projects help you keep track of all the work your organization is executing to achieve your Objectives and Key Results (OKRs). Like key results, projects can also be created under objectives and other key results in Viva Goals, depending on which outcome they help to achieve. Select **Add project** under the appropriate objective or key result to create a project.
 
 There are **two ways of adding Projects in Viva Goals** – you can bring projects to Viva Goals through an integration with the project management tool you use, or you can create a project with a task list directly in Viva Goals.
@@ -109,23 +106,19 @@ In addition to being aligned to OKRs, projects also get their own dashboard in V
 
 Progress in Viva Goals is measured either as percentage complete or a key performance indicator (KPI) metric (for example, 10 out of 15 sales calls made). Projects currently use only the percentage complete method, as measured by tasks completed within the project.
 
-By default, project progress does *not* roll up to the parent, to keep the focus on achieving key results (For more information, see: **[Roll Up Process of Key Results](https://help.ally.io/en/articles/1931651-roll-up-of-progress-of-key-results)**). However, this is controlled by an admin setting and can be overridden on a per project level. The admin setting decides the default (whether progress rolls up or not) when projects are created. Should you decide this default doesn't apply to your project, you can always change it from the project's settings.
+By default, project progress does *not* roll up to the parent, to keep the focus on achieving key results. However, this is controlled by an admin setting and can be overridden on a per project level. The admin setting decides the default (whether progress rolls up or not) when projects are created. Should you decide this default doesn't apply to your project, you can always change it from the project's settings.
 
-Viva Goals compared the progress of an item with its expected progress and computes a Status as outlined here **([OKR Status Indicators](https://help.ally.io/en/articles/3065807-okr-status-indicators))**. Status for projects is also computed in the same manner as OKRs.
+Viva Goals compared the progress of an item with its expected progress and computes a Status as outlined here **([Track OKR Progress Status](track-okr-progress-status.md))**. Status for projects is also computed in the same manner as OKRs.
 
 **Project owners can do manual check-ins to provide the progress values (or) connect to a data integration to automatically update progress.**
 
 You can choose to have a project without any tasks in Viva Goals and check in manually to update the project progress.
 
-If you would like to see the individual tasks in your project, you can create a task list directly in Viva Goals. Viva Goals also supports popular project management systems like JIRA, Asana and Wrike, with many more on the way. When you use a task list in Viva Goals or connect to these systems, progress of the project is automatically computed based on the number of tasks completed vs outstanding. You can edit a project to add an integration after creating it without one. When that happens, project progress will be recomputed based on the tasks, however your previous history of checkins will be maintained. You can read about Viva Goals' support for task lists, and popular integrations here:
+If you would like to see the individual tasks in your project, you can create a task list directly in Viva Goals. Viva Goals also supports popular project management systems like JIRA, Asana and Wrike, with many more on the way. When you use a task list in Viva Goals or connect to these systems, progress of the project is automatically computed based on the number of tasks completed vs outstanding. You can edit a project to add an integration after creating it without one. When that happens, project progress will be recomputed based on the tasks, however your previous history of checkins will be maintained. You can read about Viva Goals' support for popular integrations here:
 
-- **[Native Projects](https://help.ally.io/en/articles/4397690-native-projects-in-ally)**
+- **[Jira Integration](jira-integration.md)**
 
-- **[Jira Integration with Projects](https://help.ally.io/en/articles/4097674-better-jira-integration-with-projects)**
-
-- **[Asana Projects](https://help.ally.io/en/articles/4238088-asana-projects-in-ally)**
-
-- **[Wrike Projects](https://help.ally.io/en/articles/4510436-wrike-projects-in-ally-io)**
+- **[Asana Integration](asana-integration.md)**
     
 ## How to structure objectives, key results, and Projects in Viva Goals
 
