@@ -31,4 +31,4 @@ You can't uninstall the Viva Sales add-in. You can turn it off if your sellers n
 
 ### See also
 
-[Block the Viva Sales app in Teams](block-the-viva-sales-app-in-teams.md)
+[Block the Viva Sales app in Teams](block-viva-sales-app-teams.md)
