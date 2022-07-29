@@ -22,9 +22,6 @@ description: "Learn how you can manage OKRs"
 
 # Manage OKRs in Viva Goals
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## How to manage OKR contribution
 
 The Viva Goals OKR contribution feature provides users (objective owners and creators) more flexibility and customizability in specifying weights and measuring progress. Users will now be able to define and control contribution at the parent level. 
@@ -69,9 +66,9 @@ KPI metrics in Viva Goals support two types of units - Numeric (No unit) and % (
 
 2. Expand the **Outcome** pane and enter the name of the metric you would like to achieve under **Metric name**.
 
-3. Under **Target** click the **Increase to** drop down if you want to switch to **Decrease to** as the type of metric you'd like to track.
+3. Under **Target** click the **Increase to** dropdown list if you want to switch to **Decrease to** as the type of metric you'd like to track.
 
-4. Click on the drop down next to **%** to change the unit. You can use the following units:
+4. Click on the dropdown list next to **%** to change the unit. You can use the following units:
 
 a. No unit 
 b. % Percentage
@@ -89,7 +86,7 @@ The calculation methods are described in the following table:
 |Method  |Description  |
 |---------|---------|
 |Numeric Units     |     For objectives tracked based on a numeric unit, the progress of the objective will be the **sum of numeric key results**.     |
-|% Units |    For objectives tracked based on the % unit, the progress of the objective will be calculated as the **weighted average of all key results**, whether they're metric based, or are just going to reach 100% completion. You can also set individual key results that don't contribute to the parent.     |
+|% Units |    For objectives tracked based on the % unit, the progress of the objective will be calculated as the **weighted average of all key results**, whether they're metric-based, or are just going to reach 100% completion. You can also set individual key results that don't contribute to the parent.     |
 
 ### Objectives measured based on numeric unit
 
@@ -195,7 +192,7 @@ When both the teams are supposed to commonly own and work toward the outcomes, i
     
    **Example #2:** 
     OBJECTIVE: Build a world class Engineering org.
-    KR/INITIATIVE: Invest in 2 Training & Development sessions + Capstone Projects for all 4 engg. teams this quarter
+    KR/INITIATIVE: Invest in 2 Training & Development sessions + Capstone Projects for all 4 eng. teams this quarter
     TEAM(S): Engineering Department
     OWNER(S): VP Engineering and All Engineering Managers
 
@@ -232,7 +229,7 @@ Users can also assign multiple teams to projects by implementing this procedure.
 
 If there is just one owner or multiple owners assigned to an OKR and you would want a user within the organization to check in and update the progress of the OKR, you can use the "check-in responsibility" feature. 
 
-The check-in owner will be able to check-in on the OKR (manual check-in) and set up a data link on the OKR (to auto-check-in). 
+The check-in owner will be able to check in on the OKR (manual check-in) and set up a data link on the OKR (to auto check in). 
 
 This user will be receiving the check-in reminders. In the case of multiple owners, this feature will prevent all of the owners from receiving reminders, and only the user set as 'check-in responsible owner' will receive the reminders.
 
@@ -240,7 +237,7 @@ This user will be receiving the check-in reminders. In the case of multiple owne
 
 1. Log in to Viva Goals and select the **+** button on the top panel to create a new OKR.
 1. Once you enter the objective/key result and want to share it with another individual, select **Owners** from dropdown list under **Owners**. Here, you can assign multiple owners for the OKR.
-1. Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** drop-down. Once you make the selection, the user will start receiving the check-in reminders.
+1. Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** dropdown list. Once you make the selection, the user will start receiving the check-in reminders.
 
 By default, the owner (the first owner in the case of multiple owners) is set as the person responsible for check-in and users need not explicitly choose, unless necessary.
 
