@@ -21,9 +21,6 @@ description: "Learn how Private Objectives feature allows user to set private ob
 
 # Private Objectives 
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 While the OKR methodology promotes transparency across the entire organization, Viva Goals recognizes that large enterprises often have sensitive objectives that require a limited audience.
 
 ## What are Private Objectives?
@@ -46,11 +43,11 @@ If your organization has this feature enabled, visibility can be managed while c
 
 By default, all objectives will be visible to the entire organization unless configured with the following steps:
 
-1. Select **Who can view** on the **Add/Edit Objective** window.
+1. Select **Visibility** on the **Add/Edit Objective** window.
 
 ![private objective](../media/goals/4/414/a.jpg)
 
-2. Select **Choose who has access** to make it private to only this list of people and select **Done**.
+2. Select **Private** and enter the name(s) of the required users to make it private to only this list of people and select **Done**.
 
     > [!NOTE]
     > This list of users will also be able to see any key results below the objective.
