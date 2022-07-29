@@ -28,7 +28,7 @@ When Viva Sales is connected to a non-Dynamics 365 CRM, a default Dataverse inst
 
 You can find the name and details of your default Dataverse instance named **msdyn_viva** in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
-:::image type="content" source="media/ppac-admin-center.png" alt-text="Default Dataverse instance in Power Platform admin center":::
+:::image type="content" source="media/ppac-admin-center.png" alt-text="Screenshot that shows the default Dataverse instance in Power Platform admin center.":::
 
 ## Delete Viva Sales data 
 

@@ -20,7 +20,7 @@ manager: shujoshi
 
 3.  On the **Integrated apps** page, select **Add-ins**.
 
-    ![Open Add ins portal](media/add-in-portal.png "Open Add-ins portal")
+    ![Screenshot that shows the Add ins portal link.](media/add-in-portal.png "Screenshot that shows the Add ins portal link.")
 
 4.  On the **Add-ins** page, select **Deploy Add-In**.
 
