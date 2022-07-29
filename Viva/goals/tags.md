@@ -21,9 +21,6 @@ description: "Learn how to add tags to OKRs & Projects to simplify navigation an
 
 # Tags
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 You can tag your OKRs and projects in Viva Goals to group similar OKRs and projects under a common identifier or add an extra level of description. Tags make it easier to search for specific OKRs and projects and generate targeted reports.
     
 In this article, we will cover how to add tags, search by tag and use the explorer to make reports with the Tags filter.

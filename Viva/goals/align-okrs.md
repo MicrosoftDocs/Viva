@@ -20,9 +20,6 @@ description: "Align OKRs"
 
 # Align OKRs
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## How to align OKRs across your organization
 
 Alignment is one of the most powerful features of objectives and key results (OKRs). By aligning your objectives at an individual, team, and organization level, strategically aligned OKRs rapidly get everyone on the same page, working toward results that matter.
@@ -85,13 +82,6 @@ Progress mode indicates how the progress of an OKR is updated. There are three m
 **From the list view:** The icon to the left of the progress bar indicates progress mode. You can select the icon to change the progress mode, or you can make a registration instantly by using the slider progress bar.
 
 **When you make a registration:** If the progress of your objective is updated automatically, you can make a registration and switch to manual progress mode. In this case, the automatic progress will be overridden by the manual registration. You can always switch back to the previous progress mode to resume updating the progress automatically from the children or the connected data source.
-
-**If the progress is rolled up automatically from the key results, follow these steps:**
-
-1. Select the rollup icon, and then select the **Check-in** button.
-1. Make a registration as you see fit and save it. You'll notice the change in the icon that represents the manual mode.
-1. To switch back to the previous mode, select the manual icon and then select the **Check-in** button.
-1. Save this registration, as you'll have the option to resume updating the progress from key results.
 
 **If the progress is rolled up automatically through an integration, follow these steps:**
 

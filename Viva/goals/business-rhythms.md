@@ -20,9 +20,6 @@ description: "learn how to develop a weekly cadence to update, review, and track
 
 # Set up OKR business rhythms
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## Key business rhythm #1: Weekly check-ins 
 
 One of the most important parts of the OKR process is developing a weekly cadence to update, review, and track progress of your OKRs. 
@@ -33,15 +30,13 @@ Setting aside 15 minutes to discuss OKRs once a week will go a long way in OKR a
 
 ### Update your OKRs
 
-Ensure your OKRs have the latest information to discuss. Having check-in notifications set up will help keep your team up to date. You can learn more about setting up these notifications [here](https://help.ally.io/en/articles/2377894-check-in-reminders-and-notifications). 
+Ensure your OKRs have the latest information to discuss. Having check-in notifications set up will help keep your team up to date. You can learn more about setting up these notifications [here](check-in-reminders.md). 
 
 It's best to have these notifications go out at least 24 hours in advance of your scheduled meeting where you'll be discussing OKRs. This way your team can come ready to the meeting.
 
 ### Review OKRs with the team
 
-In your meetings, identify any OKRs marked Behind or At Risk in the past week and drill down to understand details. Additionally you can engage directly with OKRs in Viva Goals via likes and comments: [here](https://help.ally.io/en/articles/2107055-check-ins-and-feedback). 
-
-We recommend using the [Chart View](https://help.ally.io/en/articles/2375435-chart-view) for these meetings, as it will allow you to quickly identify the status of OKRs in a visually pleasing format.
+In your meetings, identify any OKRs marked Behind or At Risk in the past week and drill down to understand details. 
 
 ### Compare progress to previous week
 
@@ -49,7 +44,7 @@ Our "compare to previous" tool is a great trending feature that'll allow you to 
 
 ### Adjust as necessary
 
-If everything is moving along as expected, great! If not, remember OKRs sometimes need adjustments. Make any [edits](https://help.ally.io/articles/3065314-q-can-i-edit-or-delete-a-okr) and reset expectations moving forward. 
+If everything is moving along as expected, great! If not, remember OKRs sometimes need adjustments. Make any edits and reset expectations moving forward. 
 
 In 15 minutes, you've gained a clear picture into what has moved forward, what is behind, and what has been changed for the coming week for the critical aspects of the business. You've engaged on your team and company's biggest goals and your team can see their progress and how it is contributing.
 
