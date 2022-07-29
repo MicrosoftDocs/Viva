@@ -20,9 +20,6 @@ description: "Learn how to close and score OKRs in Viva Goals"
 
 # Close and score OKRs
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 It's been a few months since your ambitious brainstorming session to set quarterly goals. Week after week you've stayed diligent with your check-ins. 
 
 Now the quarter is ending and you get to find out how close you came to achieving the goals you set. 
@@ -46,18 +43,6 @@ At Viva Goals, we recommend closing all KRs that roll up to an Objective, before
 3. Select **Close**.
 
 After Close is selected, a side panel will appear where you can begin the scoring process for your OKR.
-
-Towards the end of each time period, you can save yourself from the hassle of closing your OKRs one by one, and close them all in one go. Here's how you can easily close and reflect on your OKRs: 
-
-- Navigate to your OKR page. 
-
-- Right above all your OKRs, select the **Close Objectives button**. This button will open the quick view window. 
-
-- Start reflecting on your OKRs, and assign a score to the objective if you're closing them. In case you're postponing the OKRs, determine what needs to be cloned, how the progress needs to be cloned while rolling over the unfinished objective. 
-
-- Optionally if you're looking to close all OKRs in the view, you have the ability to automatically open the next OKR to close by enabling the "Continue with N remaining OKRs" at the bottom of the close objective panel that also shows a progress summary of OKRs that have been closed or postponed and the ones that are pending closure. 
-
-- You can continue closing or postponing each objective as you see fit, until you reach the last objective. 
 
 ## How to score OKRs 
 
