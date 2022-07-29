@@ -47,18 +47,6 @@ At Viva Goals, we recommend closing all KRs that roll up to an Objective, before
 
 After Close is selected, a side panel will appear where you can begin the scoring process for your OKR.
 
-Towards the end of each time period, you can save yourself from the hassle of closing your OKRs one by one, and close them all in one go. Here's how you can easily close and reflect on your OKRs: 
-
-- Navigate to your OKR page. 
-
-- Right above all your OKRs, select the **Close Objectives button**. This button will open the quick view window. 
-
-- Start reflecting on your OKRs, and assign a score to the objective if you're closing them. In case you're postponing the OKRs, determine what needs to be cloned, how the progress needs to be cloned while rolling over the unfinished objective. 
-
-- Optionally if you're looking to close all OKRs in the view, you have the ability to automatically open the next OKR to close by enabling the "Continue with N remaining OKRs" at the bottom of the close objective panel that also shows a progress summary of OKRs that have been closed or postponed and the ones that are pending closure. 
-
-- You can continue closing or postponing each objective as you see fit, until you reach the last objective. 
-
 ## How to score OKRs 
 
 Scores in Viva Goals reflect progress towards an objective or key result on a scale of 0-1. The score typically based on the progress of the success metric or key results, but users can also take into account other qualitative factors and manually override the suggested score. At the end of the relevant time period, a score in the range of 0.6 - 0.8 is a healthy place to be. 
