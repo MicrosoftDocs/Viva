@@ -12,7 +12,7 @@
   - name: Install and pin Viva Sales in Teams
     href: install-pin-viva-sales-teams.md
   - name: Supported languages
-    href: supported-langusges.md
+    href: supported-languages.md
   - name: Data handling in Viva Sales 
     href: data-handling.md
 
