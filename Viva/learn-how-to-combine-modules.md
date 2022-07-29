@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.custom:
 ms.collection:  
 - M365initiative-viva
+- m365solution-overview
 search.appverid:
 - MET150
 description: "Learn how to combine Microsoft Viva modules to support popular experiences"

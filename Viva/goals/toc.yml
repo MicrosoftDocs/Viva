@@ -17,10 +17,14 @@ items:
       href: navigate-admin-dashboard.md
     - name: Log in, Create, and Join Organizations in Viva Goals
       href: log-in-create-and-join-organizations.md
+    - name: Restrict Organization Creation Permissions
+      href: restrict-organization-creation-permissions.md
     - name: Invite and Remove Users in Viva Goals
       href: inviting-and-removing-a-user.md
     - name: Create and Edit Teams
       href: create-and-edit-teams-and-subteams.md
+    - name: Configure help and support for your organization
+      href: configure-support.md
     - name: Configure Your OKR Model in Viva Goals
       href: configure-okr-model.md
     - name: Manage OKR Time Periods
@@ -88,62 +92,68 @@ items:
     - name: Viva Goals Integrations Overview
       href: integrations-overview.md
     - name: MS Teams
-      href: ms-teams-integration.md
+      items:
+        - name: Collaborate with Viva Goals in MS Teams
+          href: ms-teams-integration.md
+        - name: Add the Viva Goals app to MS Teams
+          href: configure-ms-teams-integration.md
+        - name: Use Viva Goals in Microsoft Teams
+          href: use-ms-teams-integration.md
+        - name: Share OKR updates in chats
+          href: ms-teams-messaging-extension.md
     - name: Azure DevOps integration (ADO)
       href: azure-devops-integration.md
     - name: Viva Goals Integrations
       items:
-        - name: Snowflake Integration
-          href: snowflake-integration.md
-        - name: Looker Integration
-          href: looker-integration.md
-        - name: BigQuery Integration
-          href: bigquery-integration.md
-        - name: Trello Integration
-          href: trello-integration.md
-        - name: Domo Integration
-          href: domo-integration.md
-        - name: Tableau Integration
-          href: tableau-integration.md
-        - name: Zendesk Integration
-          href: zendesk-integration.md
-        - name: Hubspot Integration
-          href: hubspot-integration.md
+        - name: Amazon RedShift Integration
+          href: amazon-redShift-integration.md
         - name: Asana Integration
           href: asana-integration.md
+        - name: BigQuery Integration
+          href: bigquery-integration.md
+        - name: Box Integration
+          href: box-integration.md
+        - name: Domo Integration
+          href: domo-integration.md
+        - name: Excel Online Integration
+          href: excel-online-integration.md
+        - name: Favro Integration
+          href: favro-generating-an-api-token.md
+        - name: GitHub Integration
+          href: github-integration.md
+        - name: GitLab Integration
+          href: gitlab-integration.md
+        - name: Hubspot Integration
+          href: hubspot-integration.md
+        - name: Jira Integration
+          href: jira-integration.md
+        - name: Looker Integration
+          href: looker-integration.md
+        - name: Mode Integration
+          href: mode-integration.md
+        - name: monday.com Integration
+          href: monday.com-integration.md
+        - name: MS SQL Server Integration
+          href: ms-sql-server-integration.md
+        - name: MySQL Integration
+          href: mysql-integration.md
+        - name: Planview Projectplace Integration
+          href: planview-projectplace-integration.md
+        - name: PostgreSQL Integration
+          href: postgresql-integration.md
         - name: Salesforce Integration
           href: salesforce-integration.md
         - name: Smartsheet Integration
           href: smartsheet-integration.md
-        - name: Jira Integration
-          href: jira-integration.md
-        - name: Excel Online Integration
-          href: excel-online-integration.md
-        - name: GitLab Integration
-          href: gitlab-integration.md
-        - name: GitHub Integration
-          href: github-integration.md
-        - name: Box Integration
-          href: box-integration.md
-        - name: MySQL Integration
-          href: mysql-integration.md
-        - name: PostgreSQL Integration
-          href: postgresql-integration.md
-        - name: Planview Projectplace Integration
-          href: planview-projectplace-integration.md
-        - name: monday.com Integration
-          href: monday.com-integration.md
-        - name: Mode Integration
-          href: mode-integration.md
-        - name: Amazon RedShift Integration
-          href: amazon-redShift-integration.md
-        - name: MS SQL Server Integration
-          href: ms-sql-server-integration.md
-        - name: Favro Integration
-          href: favro-generating-an-api-token.md
-
-
-  
+        - name: Snowflake Integration
+          href: snowflake-integration.md
+        - name: Tableau Integration
+          href: tableau-integration.md
+        - name: Trello Integration
+          href: trello-integration.md  
+        - name: Zendesk Integration
+          href: zendesk-integration.md
+       
  
  
       

@@ -1,6 +1,9 @@
-- name: Microsoft Viva
-  href: /viva/
-  topicHref: /viva/index
+- name: Workplace Analytics
+  tocHref: /
+  topicHref: /workplace-analytics/index
+- name: Viva Insights
+  tocHref: /insights
+  topicHref: /insights/index
   items:
   - name: Viva Connections
     tocHref: /viva/connections/
@@ -23,3 +26,16 @@
   - name: Viva Sales
     tocHref: /viva/sales/
     topicHref: /viva/sales/introduction
+  - name: Personal insights
+    tocHref: /viva/insights/personal
+    topicHref: /viva/insights/personal/index
+  - name: My team
+    tocHref: /viva/insights/use/myteam
+    topicHref: /viva/insights/use/myteam   
+  - name: Setup
+    tocHref: /viva/insights/setup/environment-requirements
+    topicHref: /viva/insights/setup/environment-requirements
+  - name: My Org
+    tocHref: /viva/insights/setup/environment-requirements
+    topicHref: /viva/insights/setup/environment-requirements    
+ 
