@@ -20,9 +20,6 @@ description: "Learn how to configure your OKR rules in Viva Goals"
 
 # Configure your OKR model in Viva Goals
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals understands that every business has its own set of processes and lets you create and configure your own OKR rules to fit your business needs. 
 
 ## How to configure your OKR rules 
