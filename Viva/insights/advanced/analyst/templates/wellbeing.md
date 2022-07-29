@@ -28,7 +28,7 @@ The report includes the following pages:
 * **Take breaks** – Are employees able to mindfully disconnect?
 * **Stay connected** – Are employees part of a community at work?
 
-![Wellbeing report, Report settings](/viva/insights/advanced/images/wellbeing-PBI-summary.png)
+![Wellbeing report, Report settings](/viva/insights/advanced/images/wellbeing-PBI-summary1.png)
 
 Each report includes a **Why it matters** section that explains the business implications, best practices, and recommended actions to help maintain or improve employee wellbeing.
 
@@ -63,7 +63,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 3. Under **Query setup**:
     1. Type a **Query name**.
     1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
-    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people.
+    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
 
     >[!Note]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
@@ -112,7 +112,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 After the **Wellbeing - balance and flexibility** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. Then, view and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
 
-![Wellbeing report summary page](/viva/insights/advanced/images/wellbeing-pbi-summary.png)
+![Wellbeing report summary page](/viva/insights/advanced/images/wellbeing-pbi-summary1.png)
 
 * **Select the time period to measure** – This is the time period that you want to analyze. Note that the four-week trend information on the summary page won’t show if the selected time period is less than eight weeks.
 * **Select an organizational attribute to view the report by** – The primary "group-by" attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
@@ -124,7 +124,7 @@ After the **Wellbeing - balance and flexibility** report is set up and populated
 
 For **Embrace flexibility** and **Take break** pages, you can customize the standard working hours for your organization as a baseline. Select **Customize working hours**, and then select the standard start time and end time. Employees’ collaboration patterns will then be compared with these time settings.
 
-![Wellbeing report customize standard working hours page](/viva/insights/advanced/images/wellbeing-pbi-workinghours.png)
+![Wellbeing report customize standard working hours page](/viva/insights/advanced/images/wellbeing-pbi-workinghours1.png)
 
 ## About this report
 
@@ -140,7 +140,7 @@ This page shows the average weekly after-hours collaboration for each employee, 
 
 ### Handle urgency
 
-This page shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by keywords such as "urgent" in the email subject lines or meeting invitation titles. The list of these keywords is provided in the report. This report highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
+This page shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by the following keywords in the email subject lines or meeting invitation titles: "urgent," "immediately," "ASAP," "fire drill," "immediate action." This list of keywords is also provided in the report.This report highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
 
 ### Embrace flexibility
 
