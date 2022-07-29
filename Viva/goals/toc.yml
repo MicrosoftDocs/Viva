@@ -87,11 +87,7 @@ items:
       href: objective-delegation.md
     - name: KPI Summary
       href: kpi-summary.md
-- name: Integrations
-  items:
-    - name: Viva Goals Integrations Overview
-      href: integrations-overview.md
-    - name: MS Teams
+- name: MS Teams
       items:
         - name: Collaborate with Viva Goals in MS Teams
           href: ms-teams-integration.md
@@ -101,6 +97,10 @@ items:
           href: use-ms-teams-integration.md
         - name: Share OKR updates in chats
           href: ms-teams-messaging-extension.md
+- name: Integrations
+  items:
+    - name: Viva Goals Integrations Overview
+      href: integrations-overview.md
     - name: Azure DevOps integration (ADO)
       href: azure-devops-integration.md
     - name: Viva Goals Integrations
