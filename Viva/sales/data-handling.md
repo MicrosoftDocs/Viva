@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Data handling in Viva Sales 
 
-This articles gives you an overview of how data is handled in Viva Sales.
+This article gives you an overview of how data is handled in Viva Sales.
 
 Viva Sales is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/). Viva Sales data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in addition to the connected CRM.
 
