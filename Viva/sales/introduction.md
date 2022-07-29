@@ -22,7 +22,7 @@ While in public preview, Viva Sales is available at no additional charge to orga
 
 ## Region availability
 
-The public preview is currently available globally except in the following countries:
+The public preview is available globally except in the following countries:
 - Burma-Myanmar
 - Canada
 - Cape Verde
