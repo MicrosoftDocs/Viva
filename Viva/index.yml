@@ -102,7 +102,7 @@ productDirectory:
           text: End user help & training
 
     # Card
-    - title: Microsoft Viva Goals (Private Preview)
+    - title: Microsoft Viva Goals
       imageSrc: media/logos/goals-launch-c-64.svg
       links:
         - url: /viva/goals/intro-to-ms-viva-goals
@@ -117,7 +117,7 @@ productDirectory:
           text: End user help & training
     
     # Card
-    - title: Microsoft Viva Sales
+    - title: Microsoft Viva Sales (Preview)
       imageSrc: media/logos/viva-logoicon.svg
       links:
         - url: /Viva/sales/introduction
