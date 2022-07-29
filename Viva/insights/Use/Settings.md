@@ -21,7 +21,7 @@ Depending on the role you're assigned in the advanced insights app, you can use 
 
 * [Data sources](#data-sources) – Admins and Analysts use these to verify that Microsoft 365 and organizational data is correctly uploaded into the advanced insights app. And Admins have access to **Upload** in Organizational data and CRM data, so they can prepare and upload organizational and customer data.
 * [Leader & manager settings](#leader-and-manager-settings) – Only Admins have access and can set privacy settings and [manager settings](manager-settings.md) required to maintain minimum-group settings and to specify which managers and leaders get access to team insights in Microsoft Teams and in the advanced insights app.
-* [Analyst settings](#analyst-settings) - Admins can access and configure [system defaults](system-defaults.md) and [privacy settings](privacy-settings.md). Admins and Analysts can access and customize meeting and attendee exclusion rules that help ensure data accuracy.
+* [Analyst settings](#analyst-settings) - Admins can access and configure [system defaults](system-defaults.md) and [privacy settings](privacy-settings.md). Analysts can access and customize meeting and attendee exclusion rules that help ensure data accuracy.
 
 Access to one or more of the following Controls depends on what role you're assigned.
 
