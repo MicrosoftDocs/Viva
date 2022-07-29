@@ -21,9 +21,6 @@ description: "Learn how to use the Trello integration with your OKRs."
 
 # Trello integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals can integrate with boards in Trello to automatically update your Objectives and Key Results (OKRs) inside Viva Goals. 
     
 Let's take this example: you are a marketer using a Trello board to keep track of the blog posts you want to publish. Use the Trello integration to easily keep track of completed posts. Viva Goals will sync the values for you and chart your progress toward your OKR, saving time while keeping OKRs current.

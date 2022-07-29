@@ -21,9 +21,6 @@ description: "Learn how to work smarter by integrating Smartsheet with Viva Goal
 
 # Smartsheet Integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals’ Smartsheet integration allows you to link Objectives and Key Results (OKRs) to Smartsheet cells for real-time updates of your progress. For example, you have a sales sheet used to track revenue. By implementing a Smartsheet integration, you can save yourself the hassle of repeatedly going back and forth between your sheets and Viva Goals to update your progress. Viva Goals will sync the values for you, thus saving time while keeping your OKRs current.
 
 ## Set up
