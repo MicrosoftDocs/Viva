@@ -3,7 +3,7 @@ title: Set up Microsoft Viva Topics
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: nkokoye
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.collection: m365initiative-viva-topics
@@ -56,6 +56,8 @@ To assign licenses:
 5. Click **Save changes**.
 
 It may take up to an hour for users to get access to Topics after the licenses are assigned.
+
+Note that users must also have an Exchange Online license to use Topics.
 
 ## Set up Topics
 
