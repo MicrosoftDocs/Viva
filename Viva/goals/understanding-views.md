@@ -20,18 +20,15 @@ description: "Learn about the customizable views to easily surface OKRs and proj
 
 # Understand Views in Viva Goals
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 When you log in to your Viva Goals account, you will be able to view and access all your OKR-related information on your OKRs page. With different views, you can access your OKRs for different purposes and in different ways.
 
 ## Which views are available in Viva Goals? 
 
-There are 3 views that are available in Viva Goals: 
+There are three views that are available in Viva Goals: 
 
 - **List view** - The list view is the default view in Viva goals. This view enables creating, reviewing, and tracking progress for OKRs and projects across one or more time periods with information like title, type, owner, time period, status, progress, and alignment.
 
-- **Quick View** - Quick view is a a panel that appears on the right side of the OKRs page when you click on the title of an OKR or a project. This view provides an overview of progress, details, alignment, children objectives, and activity for an OKR or a Project.
+- **Quick View** - Quick view is a panel that appears on the right side of the OKRs page when you select the title of an OKR or a project. This view provides an overview of progress, details, alignment, children objectives, and activity for an OKR or a Project.
 
 - **Chart view** - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
 
@@ -82,23 +79,23 @@ You can also view the parent objective that a particular objective is aligned to
     - Owner
     - Status
 
-### OKR or project actions within list view 
+### OKR or project actions within list view
 
-1. Click on the ‘>’ expand icon next to  an objective to view all the key results, child objectives, and projects under it.  
+1. Select the (`>`) expand icon next to  an objective to view all the key results, child objectives, and projects under it.  
 
-2. Click on the objective to open the quick view and make updates to that objective.  
+2. Select the objective to open the quick view and make updates to that objective.  
 
-3. Click on the check-in icon or click on the progress bar for an OKR/project to initiate and make a check-in. Learn more about check-ins
+3. Select the check-in icon or select the progress bar for an OKR/project to initiate and make a check-in. Learn more about check-ins.
 
-4. Add a key result or a project under an objective from the "..." more options menu on the row.
+4. Add a key result or a project under an objective from the (`...`) more options menu on the row.
 
 5. As an OKR owner, make edits to an OKR or a project inline by clicking on the edit icon next to the title, owner, type and time period information in the list.
 
-6. Select the more options ‘...’ icon on the list view row to perform additional actions like close, postpone, edit alignment etc... on an OKR or a project.
+6. Select the more options (`...`) icon on the list-view row to perform additional actions like close, postpone, edit alignment and more on an OKR or a project.
 
 ## Quick view 
 
-When you open the quick view you'll see it has 5 tabs:
+When you open the quick view, you'll see it has five tabs:
 
 - Overview
 
@@ -132,7 +129,7 @@ The Overview tab gives you a quick snapshot of the most important information ab
 
 - **Add a description** - Allows you to add a quick blurb on what the objective is about to provide others with more context.
 
-- **Alignment** - This shows you how the current objective or project is aligned to its parent. For example, if you are viewing an objective's quick view, you will see how it is aligned to a parent objective, if any. To edit alignment, click on ‘Edit’ button. 
+- **Alignment** - This shows you how the current objective or project is aligned to its parent. For example, if you are viewing an objective's quick view, you will see how it is aligned to a parent objective, if any. To edit alignment, select the ‘Edit’ button.
 
 ### Key Results
 
@@ -148,7 +145,7 @@ All objectives can have a child objective aligned to them. You can view and navi
 
 ### Activity
 
-In the Activity section you can quickly catch up on everything that has leading to the current status of the OKR.
+In the Activity section, you can catch up quickly on everything that has happened leading to the current status of the OKR.
 
 If you want to view all the information pertaining to an OKR and a project, including progress, details, alignment, children and activity, you can access this from a full page detailed view. You can get to the detail view by clicking on the link to "open in full view" from the list/ quick view or from an objective link inside a notification.
 

@@ -20,9 +20,6 @@ description: "Learn how to integrate your Viva Goals OKRs with Data in Snowflake
 
 # Snowflake integration
 
-> [!IMPORTANT] 
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals can integrate with Snowflake to automatically update your OKRs. 
 
 Let's take this example: You have data inside your Snowflake warehouse to track leads generated across multiple channels and your goal is to generate 4000 qualified leads from SEO By implementing a Snowflake integration, you can save yourself the hassle of repeatedly going back and forth between Snowflake and Viva Goals to update your progress. Viva Goals will sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current.
