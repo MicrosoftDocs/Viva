@@ -99,7 +99,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
     ![Query URLs for Power BI.](../Images/WpA/Tutorials/wellbeing-odata.png)
 
-13. If you're already signed in to Power BI with your the advanced insights app organizational account, the dashboard visualizations will populate with your data: You are done and can skip the following steps. If not, proceed to the next step.
+13. If you're already signed in to Power BI with your advanced insights app organizational account, the dashboard visualizations will populate with your data: You are done and can skip the following steps. If not, proceed to the next step.
 14. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account** and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
@@ -137,7 +137,7 @@ The Wellbeing - balance and flexibility report includes the following report pag
 
 * **Improve focus** &ndash; Shows the average daily collaboration hours for each employee by organization as compared to focus hours. This highlights how an employee's collaboration load is impacting their focus time.
 * **Balance work and life** &ndash; Shows the average daily after-hours collaboration for each employee, the distribution of employees by their after-hours collaboration, and percentage of employees that were active during the weekends at least once every four weeks. Understanding employees' after-hours and weekend work behaviors can uncover opportunities to improve their work-life balance.
-* **Handle urgency** &ndash; Shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by keywords such as "urgent" in the email subject lines or meeting invitation titles. The list of these keywords is provided in the report. This highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
+* **Handle urgency** &ndash; Shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by the following keywords in the email subject lines or meeting invitation titles: "urgent," "immediately," "ASAP," "fire drill," "immediate action." This list of keywords is also provided in the report. Keywords are by default in English in the query template. Users that are assigned the role of analyst can add or edit keywords in the template. This highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
 * **Embrace flexibility** &ndash; Highlights three key aspects that help you identify employees' flexibility at work:
    * **Flexible start times** &ndash; Shows the percentage of weeks in which the employees have at least one day of flexible start time in a week.
    * **Recurring time to disconnect** &ndash; Shows the percentage of weeks in which the employees take at least one hour of recurring break each day over the week.
