@@ -29,7 +29,7 @@ Access to one or more of the following Controls depends on what role you're assi
 |---|---|---|---|
 | Data sources | Full access| Read-only access excluding Upload | Read-only access excluding Upload |
 | Leader & manager settings  | Full access | No access | No access |
-| Analyst settings | Full access | Access to exclusions | Read-only access to exclusions|
+| Analyst settings | Access to system defaults and privacy settings | Access to exclusions | Read-only access to exclusions|
 
 For more details about roles, see [Assign roles](../Setup/Assign-roles-to-wpa-admins.md).
 
