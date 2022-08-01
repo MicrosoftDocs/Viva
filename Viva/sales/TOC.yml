@@ -16,7 +16,7 @@
   - name: Data handling in Viva Sales 
     href: data-handling.md
 
-- name: Disable Viva Sales
+- name: Remove Viva Sales from the admin center
   href: disable-viva-sales.md
 
 - name: Block the Viva Sales app in Teams

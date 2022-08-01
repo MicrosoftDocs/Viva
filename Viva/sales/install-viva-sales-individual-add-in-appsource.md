@@ -14,14 +14,13 @@ manager: shujoshi
 > [!IMPORTANT]
 > Viva Sales is currently available only for public preview customers, and only in English. The features described here are subject to change.
 
+## Microsoft Outlook
+
 1.  Sign in to [Microsoft AppSource](https://appsource.microsoft.com/en-US/home).
 
-2.  Search for the following apps:
-
-    - Microsoft Viva Sales for Microsoft Outlook (Preview)
-    - Viva Sales for Microsoft Teams (Preview)
-
-3.  Under the Viva Sales add-in in the search results, select **Get it now**.
+2.  Search for **Microsoft Viva Sales for Microsoft Outlook (Preview)**.
+    
+3.  In the tile for the app in search results, select **Get it now**.
 
 4.  If you're asked to confirm your details to continue, do so, and then select **Get it now** again.  
     The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
@@ -30,28 +29,17 @@ manager: shujoshi
 
 6.  In the **Users** step, select the users or groups who will have access to the add-in, and then select **Next**.
 
-7.  In the **Deployment (Permissions)** step, read the app permissions and capabilities, and then select **Next**.
+7.  In the **Deployment (Permissions)** step, read the app permissions and capabilities, select **Accept permissions**, and then select **Next**.
 
 8.  In the **Deployment (Finish)** step, select **Finish deployment**.
 
 9.  When the deployment is complete, select **Done**.
 
-Allow up to 24 hours for Viva Sales to appear in users' Outlook ribbon or Teams.
+Allow up to 24 hours for Viva Sales to appear in users' Outlook ribbon.
 
-## Manage the Viva Sales add-in
+## Microsoft Teams
 
-After you've installed Viva Sales as an individual add-in, you can change the users who can access it, change the deployment method, and disable the add-in if needed in the Microsoft 365 admin center.
-
-1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
-
-2.  On the **Integrated apps** page, select **Add-ins**.
-
-    ![Screenshot that shows the Add ins portal link.](media/add-in-portal.png "Screenshot that shows the Add ins portal link.")
-
-3.  Search for the following apps:
-
-    - Microsoft Viva Sales for Microsoft Outlook (Preview)
-    - Microsoft Viva Sales for Teams (Preview)
+If you install the Viva Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users. We recommend you to install the Viva Sales app for your users from Microsoft 365 admin center.
 
 ### See also
 
