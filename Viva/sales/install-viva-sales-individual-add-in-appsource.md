@@ -19,7 +19,7 @@ manager: shujoshi
 2.  Search for the following apps:
 
     - Microsoft Viva Sales for Microsoft Outlook (Preview)
-    - Microsoft Viva Sales for Teams (Preview)
+    - Viva Sales for Microsoft Teams (Preview)
 
 3.  Under the Viva Sales add-in in the search results, select **Get it now**.
 

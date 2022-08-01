@@ -31,7 +31,7 @@ manager: shujoshi
 7.  Search for the following apps:
 
     - Microsoft Viva Sales for Microsoft Outlook (Preview)
-    - Microsoft Viva Sales for Teams (Preview)
+    - Viva Sales for Microsoft Teams (Preview)
 
 8.  Select **Add**.
 
