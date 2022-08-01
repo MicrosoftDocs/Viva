@@ -5,9 +5,9 @@
   items:
   - name: Install Viva Sales
     href: install-viva-sales.md
-  - name: Install Viva Sales as an individual add-in from the admin center
+  - name: Install Viva Sales from Microsoft 365 admin center
     href: install-viva-sales-individual-add-in-admin-center.md
-  - name: Install Viva Sales as an individual add-in from AppSource
+  - name: Install Viva Sales from AppSource
     href: install-viva-sales-individual-add-in-appsource.md
   - name: Install and pin Viva Sales in Teams
     href: install-pin-viva-sales-teams.md

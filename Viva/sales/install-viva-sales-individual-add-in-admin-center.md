@@ -1,6 +1,6 @@
 ---
-title: Install Viva Sales as an individual add-in from Microsoft 365 admin center
-description: Learn how to install Viva Sales as an individual add-in from Microsoft 365 admin center
+title: Install Viva Sales from Microsoft 365 admin center
+description: Learn how to install Viva Sales from Microsoft 365 admin center
 ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
@@ -9,7 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Install Viva Sales as an individual add-in from Microsoft 365 admin center
+# Install Viva Sales from Microsoft 365 admin center
 
 > [!IMPORTANT]
 > Viva Sales is currently available only for public preview customers, and only in English. The features described here are subject to change.
@@ -72,5 +72,5 @@ After you've installed Viva Sales as an individual add-in, you can change the us
 
 ### See also
 
-[Install Viva Sales as an individual add-in from AppSource](install-viva-sales-individual-add-in-appsource.md)<br>
+[Install Viva Sales from AppSource](install-viva-sales-individual-add-in-appsource.md)<br>
 [Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md)

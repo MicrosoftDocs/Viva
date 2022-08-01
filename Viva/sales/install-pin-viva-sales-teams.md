@@ -77,5 +77,5 @@ For more information about assigning user and group policies, go to [Assign poli
 
 ### See also
 
-[Install Viva Sales as an individual add-in from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
-[Install Viva Sales as an individual add-in from AppSource](install-viva-sales-individual-add-in-appsource.md)
+[Install Viva Sales from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
+[Install Viva Sales from AppSource](install-viva-sales-individual-add-in-appsource.md)
