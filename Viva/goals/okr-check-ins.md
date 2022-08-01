@@ -20,9 +20,6 @@ description: "Learn how to use check-ins, likes, comments and mentions to motiva
 
 # Update OKRs with check-ins
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## How to check in with Viva Goals 
 
 Check-ins are updates that OKR owners make to the objectives and key results they are responsible for.
@@ -122,7 +119,7 @@ Viva Goals sends reminders in the following ways:
 
 3. The VP of Sales wants her team to have a weekly check-in cadence, and is setting a rhythm to receive notifications every Wednesday at 9AM PST. She wants all the subteams reporting into her to follow the same cadence, and doesn't want them to have a cadence of their own, to ensure everyone is caught upto speed every week, and is on the same page. Therefore, she'll set a cadence, cascade it cadence down to all her reporting teams, and not let them change this rhythm.
 
-Team Owners and Team Admins can create a custom cadence for reminders for their departments and teams in **Admin -> Team Settings**. These cadences can differ from the organization-level cadence. 
+Team Owners and Team Admins can create a custom cadence for reminders for their departments and teams under the **Team Settings** tab at the team level. These cadences can differ from the organization-level cadence. 
 
 If teams have to follow the parent team's check-in rhythm, the team owners and/or team admins won't be able to change the schedule.
 

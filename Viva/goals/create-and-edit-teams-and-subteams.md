@@ -20,9 +20,6 @@ description: "Learn how to set up teams and subteams, from divisions to small fu
 
 # Create and edit teams 
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals supports multiple levels of hierarchy, from department level down to individual teams and functional units. To achieve this setup, you can use the teams and subteams functionality.
 
 ## How to create teams 
@@ -81,7 +78,7 @@ You can promote or remove any team member as a team owner or administrator from 
 
 ### How to update team owners
 
-1. To update the team owner, go to the **Teams** section of the **Admin** menu, select **...**, and then select **Edit**.
+1. To update the team owner, go to the **Teams** section of the **Admin** menu, select the **More Actions** menu of the relevant team, and then select **Edit**.
 
     ![Screenshot showing where you update team owners.](../media/goals/2/22/f.jpg)
 
@@ -91,7 +88,7 @@ You can promote or remove any team member as a team owner or administrator from 
 
 ### How to update team administrators
 
-1. From the **Teams** section of the **Admin** menu, select **...**, and then select **Manage Members**.
+1. From the **Teams** section of the **Admin** menu, select the **More Actions** menu of the relevant team, and then select **Manage Members**.
 
     ![Screenshot showing where you update team administrators.](../media/goals/2/22/g.jpg)
 
@@ -102,8 +99,8 @@ You can promote or remove any team member as a team owner or administrator from 
 ## How to archive and delete teams
 
 As an Viva goals administrator, we give you support to manage your teams. Sometimes, teams are dissolved or retired due to an organizational change. In that case, you have the following two options in Viva Goals.
-- [Delete a team](#how-to-delete-a-team)
-- [Archive a team](#how-to-archive-a-team)
+- Delete a team
+- Archive a team
 
 ### How to delete a team
 
