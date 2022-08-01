@@ -38,6 +38,7 @@ The public preview is available globally except in the following countries:
 - Palestine
 - Russia
 - Saint Helena
+- South Korea
 - Syria
 - Turkey
 
