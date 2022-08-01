@@ -56,7 +56,7 @@ Creating or adding new Yume cards content occurs every time you edit/update the 
 To create new content for the Yume Cards, perform the following steps:
 1. Add a new row by selecting **+ New row** on the page containing information of the Yume Cards.
 
-   :::image type="content" source="../media/add-new-row.png" alt-text="The page on which the user can add a new row" lightbox="./media/add-new-row.png":::
+   :::image type="content" source="../media/add-new-row.png" alt-text="The page on which the user can add a new row" lightbox="../media/add-new-row.png":::
 
 Examples of the content that can be added are described below:
 
