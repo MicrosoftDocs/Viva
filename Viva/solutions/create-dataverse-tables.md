@@ -51,7 +51,7 @@ audience: Admin
 |SettingName     |    **Text(100)**: (Primary) Setting Name     |
 |SettingValue     |   **Text (512)**: Content for the card      |
 
-2. During the Dataverses table creation, make a note of the table prefix name.
+2. During the Dataverse table creation, make a note of the table prefix name.
 
    :::image type="content" source="../media/tables-yume-card-data.png" alt-text="Tables containing Yume card data":::
 
