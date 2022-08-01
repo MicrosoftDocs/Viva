@@ -60,7 +60,7 @@ To create new content for the Yume Cards, perform the following steps:
 
 Examples of the content that can be added are described below:
 
-:::image type="content" source="../media/updating-cards-overall-example.png" alt-text="The top-level example of updating cards":::
+:::image type="content" source="../media/updating-cards-overall-example.png" alt-text="The top-level example of updating cards" lightbox="../media/updating-cards-overall-example.png":::
 
 Examples of how the cards can be updated are described below:
 
