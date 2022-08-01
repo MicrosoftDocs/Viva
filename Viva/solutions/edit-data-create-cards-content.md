@@ -45,7 +45,7 @@ To edit the Dataverse tables, perform the following steps:
 
 1. Select and save all the fields defined in the schema for Yume Cards. The page containing the schema selected from the drop-down list is displayed.
 
-   :::image type="content" source="../media/editdataverse1c.png" alt-text="The page showing the schema that is selected from the drop-down list":::
+   :::image type="content" source="../media/editdataverse1c.png" alt-text="The page showing the schema that is selected from the drop-down list" lightbox="../media/editdataverse1c.png":::
 
 1. Update the content that you want to, from the cells of the table.
 
@@ -56,7 +56,7 @@ Creating or adding new Yume cards content occurs every time you edit/update the 
 To create new content for the Yume Cards, perform the following steps:
 1. Add a new row by selecting **+ New row** on the page containing information of the Yume Cards.
 
-   :::image type="content" source="../media/add-new-row.png" alt-text="The page on which the user can add a new row":::
+   :::image type="content" source="../media/add-new-row.png" alt-text="The page on which the user can add a new row" lightbox="./media/add-new-row.png":::
 
 Examples of the content that can be added are described below:
 
@@ -68,12 +68,12 @@ In the following screenshot:
 - Example A describes the process of adding a new TitleName for the main category.
 - Example C describes the process of adding a new Title Description for the main category.
 
-  :::image type="content" source="../media/examples-a-and-c.png" alt-text="An example of adding a new name and description for a title":::
+  :::image type="content" source="../media/examples-a-and-c.png" alt-text="An example of adding a new name and description for a title" lightbox="../media/examples-a-and-c.png":::
 
 - The following screenshot describes Example B, that is, the process of adding the Content Title for the new main card category.
 
-  :::image type="content" source="../media/example-b.png" alt-text="An example that illustrates how to add ContentTitle to the new main card category":::
+  :::image type="content" source="../media/example-b.png" alt-text="An example that illustrates how to add ContentTitle to the new main card category" lightbox="../media/example-b.png":::
 
 - The following screenshot describes Example D, that is, the process of adding the Content for the new main card category.
 
-  :::image type="content" source="../media/example-d.png" alt-text="The example that illustrates how to add content for the new main card category":::
+  :::image type="content" source="../media/example-d.png" alt-text="The example that illustrates how to add content for the new main card category" lightbox="../media/example-d.png":::
