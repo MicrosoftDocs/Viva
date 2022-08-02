@@ -21,9 +21,6 @@ description: "Learn how to integrate your Looker KPIs with OKRs in Viva Goals."
 
 # Looker integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 The Viva Goals Looker integration allows automated real-time tracking of Objectives and Key Results (OKR) progress. 
   
 Take this example: You maintain sales reports inside Looker dashboards and you have an objective to achieve a target of 50 Sales Demos within a specific time period. Using the Looker integration, you can set up a connection to an OKR in Viva Goals with a **demos booked** metric. Viva Goals will automatically sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current.

@@ -22,16 +22,13 @@ description: "Learn how you can set up check-in reminders and notifications in V
 
 # What is a check-in rhythm? 
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Regular check-ins are a key part of an effective OKR implementation. OKRs are closely aligned, and therefore will reflect inaccuracies if they aren't updated regularly. To avoid such inaccuracies, it’s helpful to send gentle reminders to your team to check in on their OKRs. Setting a cadence to remind teams and users to make check-ins is referred to as the check-in rhythm.
 
 Notifications remind your team to check in regularly. By default, Viva Goals sends a notification to all team members every Monday at 9:00 AM in the user’s time zone, but the notifications can be customized to fit your business needs. 
 
 ## Setting a check-in rhythm
 
-In this section you can set:
+In the **Notifications** tab of the **Admin** dashboard, you can set:
 
 - Frequency (every one, two, or three weeks, or monthly)
 
@@ -76,13 +73,6 @@ If teams have to follow the parent team's check-in rhythm, the team owners, and/
 
 :::image type="content" source="../media/goals/subteams-match-parent-cadence.png" alt-text="Subteams won't be able to change the schedule if they are configured to follow the parent team's cadence." lightbox="../media/goals/subteams-match-parent-cadence.png":::
 
-Once the updates have been scheduled, you'll receive the notification in one of the following ways:
-
-- If a Slack or MS Teams integration has been enabled, the notifications will be sent through one of those platforms. 
-
-- If the iOS or Android App has been installed, you'll receive a push notification.
-
-- If no integrations have been set up, Viva Goals will send a reminder as an email. 
 
 ## Check-ins for single and multiple owners
 
@@ -123,10 +113,3 @@ For OKRs having single or multiple owners, you can decide which user in the orga
 
    - The user has been mentioned in a comment
 
-The notifications will be received in one of the following ways:
-
-- Email
-
-- Slack (if enabled)
-
-- Discord (if enabled) 

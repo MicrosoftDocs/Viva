@@ -1,6 +1,6 @@
 ---
-title: Disable Viva Sales from Microsoft 365 admin center
-description: Learn how to disable Viva Sales from Microsoft 365 admin center
+title: Remove Viva Sales from Microsoft 365 admin center
+description: Learn how to remove Viva Sales from Microsoft 365 admin center
 ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
@@ -9,25 +9,20 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Disable Viva Sales from Microsoft 365 admin center
+# Remove Viva Sales from Microsoft 365 admin center
 
 > [!IMPORTANT]
 > Viva Sales is currently available only for public preview customers, and only in English. The features described here are subject to change.
 
-You can't uninstall the Viva Sales add-in. You can turn it off if your sellers no longer need it.
+You can remove the Viva Sales add-in if your sellers no longer need it.
 
 1.  In the Microsoft 365 admin center, go to **Settings** &gt; **Integrated apps**.
 
-2.  Select the Viva Sales add-in and then select the **Configuration** tab.
+2.  Select the Viva Sales add-in and then select the **Overview** tab.
 
-3.  In the **Configuration** pane, go to **Advanced Settings** &gt; **Add-ins**.
+3. Under **Actions**, select **Remove app**.
 
-4.  Select the add-in from the list again.
-
-5.  Select the **Status** toggle to turn it off.
-
-6.  Select **Save**.
-
+4.  Confirm about your choice and then select **Remove**.
 
 ### See also
 
