@@ -24,7 +24,7 @@ manager: shujoshi
 
    Microsoft AppSource opens in an embedded window.
 
-4. Search for **Microsoft Viva Sales for Microsoft Outlook (Preview)**.
+4. Search for **Viva Sales for Microsoft Outlook (Preview)**.
 
 5. In the tile for the app in search results, select **Get it now**.
 
@@ -62,7 +62,7 @@ After you've installed Viva Sales as an individual add-in, you can change the us
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select **Microsoft Viva Sales for Microsoft Outlook (Preview)**.
+2.  On the **Integrated apps** page, select **Viva Sales for Microsoft Outlook (Preview)**.
 
     The Viva Sales panel opens with the following tabs:
     - **Overview**: Displays basic information about the add-in, host products, and assigned users.
