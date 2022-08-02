@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Business resilience report in the Productivity Score report
 description: Use the Business resilience report that's within the Productivity Score report to analyze organizational collaboration data
 author: madehmer

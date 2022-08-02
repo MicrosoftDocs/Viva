@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Power BI Microsoft Teams dashboard
 description: Use the Power BI Microsoft Teams insights dashboard to visualize predefined data from Viva Insights in Power BI
 author: madehmer

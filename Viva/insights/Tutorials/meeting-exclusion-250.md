@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,FOLLOW
 title: The meeting exclusion rule limitation for large meetings
 description: Meeting exclusion rule limitation for large meetings in Microsoft Viva Insights
 author: madehmer

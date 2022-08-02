@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Attendee exclusion rules 
 description: Attendee exclusion rules -- Introduction and walkthrough   
 author: madehmer

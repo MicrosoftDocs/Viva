@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,FOLLOW
 title: Group-to-group queries in Viva Insights
 description: Group-to-group queries show how a team invested their time across the rest of the organization and beyond with Microsoft Viva Insights  
 author: madehmer

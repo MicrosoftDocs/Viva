@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: CRM queries in Viva Insights 
 description: Describes how to use Query designer to analyze CRM data in Microsoft Viva Insights 
 author: madehmer

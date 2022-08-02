@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Wellbeing dashboard
 description: Use the Wellbeing dashboard in Power BI to visualize insights into employee wellbeing across the company that's based on Viva Insights data
 author: madehmer

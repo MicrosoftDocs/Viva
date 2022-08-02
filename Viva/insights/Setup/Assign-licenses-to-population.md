@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,FOLLOW
 title: Assigning licenses overview
 description: Assign Microsoft Viva Insights licenses for population in scope for analysis
 author: madehmer

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Setup overview for Viva Insights
 description: Setup overview for Microsoft Viva Insights features
 author: madehmer

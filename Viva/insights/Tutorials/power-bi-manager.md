@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,FOLLOW
 title: Manager effectiveness dashboard for Power BI
 description: Use the Manager effectiveness dashboard to visualize predefined data from Viva Insights in Power BI
 author: madehmer

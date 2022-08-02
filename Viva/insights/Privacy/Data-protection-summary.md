@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,FOLLOW
 title: Summary of data-protection considerations
 description: Data-protection considerations summary when using Microsoft Viva Insights 
 author: madehmer

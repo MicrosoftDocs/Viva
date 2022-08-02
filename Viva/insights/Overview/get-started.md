@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,FOLLOW
 title: Advanced insights in Viva Insights
 description: Learn about advanced insights in Microsoft Viva Insights
 author: madehmer

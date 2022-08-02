@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,FOLLOW
 title: Behavior patterns for Glint dashboard
 description: Use this dashboard to visualize analysis in Power BI that combines Viva Insights and Glint data
 author: madehmer

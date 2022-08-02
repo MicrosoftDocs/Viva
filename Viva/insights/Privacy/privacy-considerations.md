@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,FOLLOW
 title: Viva Insights privacy considerations
 description: Privacy considerations when using Advanced insights in Microsoft Viva Insights to analyze your organizational data 
 author: madehmer

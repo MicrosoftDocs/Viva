@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Person queries in Query designer 
 description: Describes how to use Person queries to analyze the collaboration of individuals in your organization, from the point of view of each individual
 author: madehmer

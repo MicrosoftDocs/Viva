@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Key personas and roles
 description: Determine key personas and roles for setting up Microsoft Viva Insights
 author: madehmer

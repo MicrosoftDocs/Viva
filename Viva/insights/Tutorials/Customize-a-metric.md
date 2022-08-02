@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Customize query metrics 
 description: How to customize a base metric in a query
 author: madehmer

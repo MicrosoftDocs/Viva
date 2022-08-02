@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Query overview
 description: Advanced insights with Viva Insights offers a number of queries for custom data analysis
 author: madehmer

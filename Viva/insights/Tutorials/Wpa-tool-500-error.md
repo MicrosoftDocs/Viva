@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Viva Insights 500 error
 description: This explains why users receive a 500 error when using the advanced insights app 
 author: madehmer

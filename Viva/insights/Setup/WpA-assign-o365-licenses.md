@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Ways to assign Microsoft 365 licenses
 description: Links to instructions and to videos that describe how to assign licenses using the Microsoft 365 admin center, PowerShell, and Group-based licensing 
 author: madehmer

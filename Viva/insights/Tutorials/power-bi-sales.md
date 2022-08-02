@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,FOLLOW
 title: Sales effectiveness dashboard for Power BI
 description: Use the Sales effectiveness dashboard to visualize predefined data from Viva Insights in Power BI
 author: madehmer

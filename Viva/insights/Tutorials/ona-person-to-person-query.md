@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Network person-to-person queries 
 description: Describes how to use Network person-to-person queries in Viva Insights to determine the metrics that measure ties between individuals in your organization
 author: madehmer

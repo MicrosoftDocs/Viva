@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: wpa R package
 description: Describes the wpa R package, an open-source package of 100+ functions in the R data-analysis language for use with Viva Insights 
 author: madehmer
