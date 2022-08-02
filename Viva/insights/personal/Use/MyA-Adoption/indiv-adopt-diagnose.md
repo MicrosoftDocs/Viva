@@ -86,7 +86,7 @@ Look at your Viva Insights dashboard to use data to validate your collaboration 
 
 ### Wellbeing
 
-![Screenshot that shows the Wellbeing section on the dashboard.](/Viva/insights/images/mya/Use/wellbeing.png)
+:::image type="content" source="/Viva/insights/images/mya/Use/wellbeing.png" alt-text="Screenshot that shows the Wellbeing section on the dashboard." lightbox="/Viva/insights/images/mya/Use/wellbeing.png":::
 
 * Is my total after-hours number acceptable?
 * Am I collaborating after hours on certain days or every day?
