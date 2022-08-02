@@ -20,7 +20,7 @@ audience: user
 
 The Collaboration page on your personal insights [Dashboard](dashboard-2.md) helps you reflect on how effectively you spend your time in meetings, email, chats, and calls.
 
-  ![Collaboration page.](../../Images/mya/use/collaboration-dashboard.png)
+  ![Screenshot that shows the Viva Insights Collaboration page.](../../Images/mya/use/collaboration-dashboard.png)
 
 ## Weekly average
 
@@ -87,7 +87,7 @@ The following meeting-habit metrics are included on the Collaboration page. You 
 The following meeting types are excluded from meeting metrics:
 
 * Meetings whose length is equal to or greater than 24 hours. Notably, this also excludes **All day** meetings:
-![All-day meeting checkbox.](../../Images/mya/use/all-day-mtgs.png)
+![Screenshot that shows the All-day meeting checkbox in Outlook.](../../Images/mya/use/all-day-mtgs.png)
 
 * Meetings that are marked as **Private**
 
