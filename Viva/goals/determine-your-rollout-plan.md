@@ -20,9 +20,6 @@ description: "Learn how to determine your rollout plan"
 
 # Determine your rollout plan
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 At the completion of your rollout plan or deployment phase, you'll have Microsoft Viva Goals operating across your entire organization so you can connect the daily work of every team member to business outcomes.
 
 As you navigate the OKR Maturity Model shown below and change management associated with a Viva Goals OKR rollout, we recommend that you ease your organization into OKRs through a user pilot.
