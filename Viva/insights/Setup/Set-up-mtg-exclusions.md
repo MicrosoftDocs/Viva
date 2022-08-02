@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Set up meeting exclusions for Viva Insights
 description: Set up initial meeting exclusions for Microsoft Viva Insights
 author: madehmer

@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Get support for Viva Insights
 description: What support options are available for help with Microsoft Viva Insights 
 author: madehmer

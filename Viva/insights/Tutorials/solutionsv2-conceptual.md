@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights plans concepts
 description: Concepts and definitions to help you better work with the plans feature of Viva Insights. 
 author: madehmer

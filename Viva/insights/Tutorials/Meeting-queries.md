@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Meeting queries in Viva Insights
 description: When to use a meeting query and the type of data available for analysis in Viva Insights.  
 author: madehmer

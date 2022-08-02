@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: First organizational data upload
 description: Learn how to upload your organizational data for the first time 
 author: madehmer

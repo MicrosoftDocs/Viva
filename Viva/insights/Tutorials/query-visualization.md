@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Visualize person queries with Viva insights
 description: View query results in charts without leaving the advanced insights app with Viva Insights
 author: madehmer

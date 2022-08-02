@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Accelerate change with Viva Insights
 description: Learn how to use Viva Insights data to analyze and accelerate organizational change
 author: madehmer

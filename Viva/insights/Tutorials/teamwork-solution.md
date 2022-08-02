@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights Teamwork plans 
 description: Introduction and summary of the Viva Insights Teamwork plans
 author: madehmer

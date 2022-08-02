@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI tips, troubleshooting, and FAQ
 description: Learn some tips, troubleshooting, and answers to the FAQ about setting up and using the Viva Insights Templates
 author: lilyolason

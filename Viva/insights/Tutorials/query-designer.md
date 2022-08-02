@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Query designer in Viva Insights
 description: The Query designer in Viva Insights offers predefined Templates and other custom query options for more in-depth data analysis
 author: madehmer

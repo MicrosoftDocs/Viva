@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Setup for manager and leader insights
 description: Setup steps for manager and leader insights in Viva Insights in Teams
 author: madehmer

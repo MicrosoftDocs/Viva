@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Person-to-group queries in Query designer
 description: Person-to-group queries uncover how an individual invested their time across the rest of the organization and beyond
 author: madehmer

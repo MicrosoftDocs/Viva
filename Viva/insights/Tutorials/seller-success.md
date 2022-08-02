@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Seller success plan in Viva Insights 
 description: Describes the seller success plan and how to create one 
 author: madehmer

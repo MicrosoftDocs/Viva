@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Sales business continuity dashboard
 description: Use the Sales business continuity dashboard to visualize predefined query data from Viva Insights in Power BI
 author: madehmer

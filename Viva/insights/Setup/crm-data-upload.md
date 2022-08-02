@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Prepare and upload CRM data for advanced insights
 description: How to prepare and upload CRM data in the advanced insights app for Viva Insights
 author: madehmer

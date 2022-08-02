@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Query auto-refresh in Viva Insights
 description: Describes the query auto-refresh option in Viva Insights
 author: madehmer

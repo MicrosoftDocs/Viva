@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Introduction to Analyst settings 
 description: Introduction to Analyst settings in Microsoft Viva Insights
 author: madehmer

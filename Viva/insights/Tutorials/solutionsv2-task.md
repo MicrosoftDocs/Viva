@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights plan walkthrough
 description: A walkthrough of the steps required to create a plan in the advanced insights app
 author: madehmer

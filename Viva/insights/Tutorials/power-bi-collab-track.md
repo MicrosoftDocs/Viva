@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Ways of working tracker
 description: Use the Ways of working tracker dashboard to visualize predefined collaboration data from Viva Insights in Power BI
 author: madehmer
