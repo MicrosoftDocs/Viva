@@ -1,9 +1,9 @@
 ---
 
 title: Viva Insights Individual Adoption --Diagnose 
-description: Viva Insights Individual Adoption by Kate Nowak --Diagnose issues
-author: madehmer
-ms.author: helayne
+description: Diagnose an issue to improve with Viva Insights
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
