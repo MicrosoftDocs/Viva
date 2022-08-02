@@ -21,9 +21,6 @@ description: "Learn how to have contextual discussions on OKRs with users by qui
 
 # Share Objectives via email
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 When working in Viva Goals, there may be several scenarios where you want to share an objective, or a list of objectives. You may do this to:
 
 1. **Provide visibility to stakeholders:** Share a quick update on the status and progress of my team's objective(s) to keep the everyone up to date.

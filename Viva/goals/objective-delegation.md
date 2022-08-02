@@ -21,9 +21,6 @@ description: "Learn how with Viva Goals’ Delegation option, you can assign ano
 
 # Objective Delegation
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals’ Objective Delegation feature allows objective owners to delegate another individual to manage OKRs on their behalf in Viva Goals.
 
 ## What is OKR Delegation?
@@ -36,7 +33,7 @@ Users may add a delegate to an objective when creating or editing an objective.
 
 1. Click the more **More Actions** icon and select **Edit**.
 
-2. From the edit screen, click on the drop down next to **More Options**.
+2. From the edit screen, click on the dropdown list next to **More Options**.
 
 3. Click on **Assign a delegate**.
     
@@ -60,7 +57,7 @@ If you want a user within the organization to check in and update the progress o
 
 - Once you enter the objective/Key Result and want to share it with another individual, select owners from the **Owner** option. Here you can assign multiple owners for the OKR.
 
-- Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** drop-down.
+- Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** dropdown list.
 
 - Once you make the selection, the user will start receiving the check-in reminders.
 
