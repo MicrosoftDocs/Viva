@@ -51,7 +51,7 @@ For more information about the **Query results** page, refer to [Access query re
 
 #### Metric rules
 
-There is one default metric rule for this release of Viva Insights, called **Meeting attendance**. This rule determines which meetings are excluded from collaboration metrics in Power BI templates, custom queries, and the Viva Insights app in Teams.
+There is one default metric rule for this release of Viva Insights, called **Meeting exclusions**. This rule determines which meetings are excluded from collaboration metrics in Power BI templates, custom queries, and the Viva Insights app in Teams.
 
 While you can’t customize any metric rules in this release, you’ll be able to soon. For more information about metric rules in Viva Insights, refer to [Metric rules](./analyst/metric-rules.md).
 
