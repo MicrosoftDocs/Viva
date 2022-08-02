@@ -83,13 +83,6 @@ Progress mode indicates how the progress of an OKR is updated. There are three m
 
 **When you make a registration:** If the progress of your objective is updated automatically, you can make a registration and switch to manual progress mode. In this case, the automatic progress will be overridden by the manual registration. You can always switch back to the previous progress mode to resume updating the progress automatically from the children or the connected data source.
 
-**If the progress is rolled up automatically from the key results, follow these steps:**
-
-1. Select the rollup icon, and then select the **Check-in** button.
-1. Make a registration as you see fit and save it. You'll notice the change in the icon that represents the manual mode.
-1. To switch back to the previous mode, select the manual icon and then select the **Check-in** button.
-1. Save this registration, as you'll have the option to resume updating the progress from key results.
-
 **If the progress is rolled up automatically through an integration, follow these steps:**
 
 1. Select the integration icon, and then select the **Check-in** button.

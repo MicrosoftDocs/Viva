@@ -41,7 +41,7 @@ At that point, the OKRs are **locked** and can't be changed by the employee. In 
 
 ## How to enable the approval workflow
 
-Go to **Admin Tools -> Settings -> OKR Workflow -> Check Approval Workflow -> Save**.
+Go to **Admin Tools -> OKRs & Projects -> OKR Workflow -> Enable Approval Workflow -> Save**.
 
 Once this feature is enabled, an additional option becomes available to block changes to OKRs after approval.
    

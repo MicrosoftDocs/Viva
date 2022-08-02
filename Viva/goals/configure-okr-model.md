@@ -88,7 +88,7 @@ Select **Save** once you've chosen the settings that define your objectives, key
 
 ## How to customize the Objectives and Key Results progress bar 
 
-Viva Goals offers a progress bar customization setting. This setting lets admins override the automatic scoring system.
+Viva Goals offers a progress bar customization setting. This setting lets admins override the automatic scoring system. These setting can be found in the **OKRs & Projects** tab of the **Admin** dashboard. 
 
 Viva Goals assesses progress in two ways: Actual and expected. By default, Viva Goals calculates the expected progress percentage based on the "Start date" and "End date" as specified by the user in the OKR. The actual progress is updated automatically via data integration or the roll-up of key results to an objective for auto-computed OKRs.
 

@@ -44,18 +44,6 @@ At Viva Goals, we recommend closing all KRs that roll up to an Objective, before
 
 After Close is selected, a side panel will appear where you can begin the scoring process for your OKR.
 
-Towards the end of each time period, you can save yourself from the hassle of closing your OKRs one by one, and close them all in one go. Here's how you can easily close and reflect on your OKRs: 
-
-- Navigate to your OKR page. 
-
-- Right above all your OKRs, select the **Close Objectives button**. This button will open the quick view window. 
-
-- Start reflecting on your OKRs, and assign a score to the objective if you're closing them. In case you're postponing the OKRs, determine what needs to be cloned, how the progress needs to be cloned while rolling over the unfinished objective. 
-
-- Optionally if you're looking to close all OKRs in the view, you have the ability to automatically open the next OKR to close by enabling the "Continue with N remaining OKRs" at the bottom of the close objective panel that also shows a progress summary of OKRs that have been closed or postponed and the ones that are pending closure. 
-
-- You can continue closing or postponing each objective as you see fit, until you reach the last objective. 
-
 ## How to score OKRs 
 
 Scores in Viva Goals reflect progress towards an objective or key result on a scale of 0-1. The score typically based on the progress of the success metric or key results, but users can also take into account other qualitative factors and manually override the suggested score. At the end of the relevant time period, a score in the range of 0.6 - 0.8 is a healthy place to be. 
@@ -71,8 +59,8 @@ The following fields are displayed:
 |**Metric***    |    This field pertains to the degree of completion that has been achieved for your OKR and may be represented by a KPI or a percent complete. In this field you will enter your final number.     |
 |**Overall Status**    |    By default, Viva Goals will set your status to closed. In order to successfully close the OKR, this status will need to remain closed.     |
 |**Score**  |    Based on the above inputs, Viva Goals will recommend a score for your OKR, which is a simple calculation of your completed percentage mapped to a score between 0 and 1. You can choose to go with Viva Goals recommended score, or override it with a number of your preference based on the perceived outcome.     |
-|**Continue working on this in another time period?**  |   This is a field where you can decide whether or not you want to move this objective to another time period in order to keep working on it. This will essentially postpone the completion of this OKR until the next quarter. Select Yes or No based on preference.    |
-|**Closing Note**  |   This is a note about the OKRs you're closing. At Viva Goals, we recommend putting your final assessment of the success/failure of the OKR here and any suggestions you might have for including it in future time periods. |  
+|**Continue working on this in another time period?**  |   This field is where you can decide whether or not you want to move this objective to another time period in order to keep working on it. This will essentially postpone the completion of this OKR until the next quarter. Select Yes or No based on preference.    |
+|**Closing Note**  |   This note is about the OKRs you're closing. At Viva Goals, we recommend putting your final assessment of the success/failure of the OKR here and any suggestions you might have for including it in future time periods. |  
 
 ![screenshot showing scoring okr.](../media/goals/3/36/a.jpg)
 
@@ -92,15 +80,15 @@ When you score and close your OKRs, Viva Goals automatically generates a score f
 
 Standard scoring would look like this:
 
-- If you met with 8 investors this month, your score would be .8
+- If you met with eight investors this month, your score would be 0.8.
 
-- If you met with only 2 investors this month, your score would be .2
+- If you met with only two investors this month, your score would be 0.2.
 
 Why would you want to modify your score?
 
-If you met with 8 investors, and 2 of them ended the meeting early, 4 of them turned you down, and 2 of them not only turned you down, but said that your company idea would never work, then you might downgrade your score from a "successful" .8 to a more realistic .3. You went to a lot of meetings, but you are far away from getting funding.
+If you met with eight investors, and two of them ended the meeting early, four of them turned you down, and two of them not only turned you down, but said that your company idea would never work, then you might downgrade your score from a "successful" 0.8 to a more realistic 0.3. You went to a lot of meetings, but you're far away from getting funding.
 
-On the other hand, if you met with only 2 investors, and one of them thought your idea was promising, and the second one agreed to give you $1 million in funding, you could certainly upgrade your score from a "failed" .2 to a "mission accomplished": 1.0. 
+On the other hand, if you met with only two investors, and one of them thought your idea was promising, and the second one agreed to give you $1 million in funding, you could certainly upgrade your score from a "failed" 0.2 to a "mission accomplished": 1.0. 
 
 In other words, you can modify your score to focus on the outcomes, not the outputs. 
 
@@ -130,13 +118,13 @@ When making Check-ins the Scoring Guidance will be displayed for user reference.
 
 ![second screenshot showing view scoring guidance.](../media/goals/3/36/g.jpg)
 
-If you have an enterprise subscription and would like to have this enabled for your organization, please have an admin account and reach out to support@xxxxx.com with the request. 
+If you have an enterprise subscription and would like to have this enabled for your organization, have an admin account and reach out to support@xxxxx.com with the request. 
 
 ## Best practices for closing and scoring OKRs
 
 **- Keep the evaluation simple.** If your objective is to increase traffic to your website by 20%, and you increased it by 15%, give yourself a 0.75.
 
-**- Low scores don't always equate to low performance, and vice versa.** Both extremely low and high scoring have something to teach your organization.  OKRs which score low help you learn and improve future processes; high scores open questions about whether you are setting ambitious enough goals as an organization, or playing it too safe. In either case, you have a solid benchmark of where to go and what to do next. 
+**- Low scores don't always equate to low performance, and vice versa.** Both extremely low and high scoring have something to teach your organization.  OKRs that score low help you learn and improve future processes; high scores open questions about whether you're setting ambitious enough goals as an organization, or playing it too safe. In either case, you have a solid benchmark of where to go and what to do next. 
 
 **- Review OKRs with your team.** If you're a manager, here are the steps to take at the end of the OKR cycle: 
 

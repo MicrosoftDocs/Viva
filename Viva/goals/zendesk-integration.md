@@ -21,9 +21,6 @@ description: "Learn how to use the Zendesk integration with your customer succes
 
 # Zendesk integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 The Viva Goals Zendesk integration allows you to link Objectives and Key Results (OKRs) to customer success metrics available inside Zendesk for automatic real-time updates on the progress. 
     
 Let's take this example: you have an objective to increase the customer satisfaction rate this quarter. You can implement a Zendesk integration to save yourself the hassle of repeatedly going back and forth between Zendesk and Viva Goals to update progress. Viva Goals will sync values for you, saving time and keeping your OKRs current.
