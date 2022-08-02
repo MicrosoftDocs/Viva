@@ -146,7 +146,7 @@ You might miss out on valuable collaboration time if you're spending too much ti
 
 * **Reduce the meetings you attend and schedule**:
 
-  * Fewer meetings enables more time for collaboration. Review your recurring meetings to make sure they're a good use of time each week.
+  * Fewer meetings enable more time for collaboration. Review your recurring meetings to make sure they're a good use of time each week.
   * Check the attendee lists for meetings you organize. Try condensing meetings with identical attendees.
   * In an office culture where meetings fill the day, make the most of yours. By setting expectations and making goals clear ahead of time, meetings can become more efficient, giving you and your colleagues some time back.
 
