@@ -37,4 +37,4 @@ highlightedContent:
       url: ./use/viva-insights-my-org.md
     - title: Advanced insights
       itemType: deploy
-      url: index-orig.md
+      url: advanced/introduction-to-advanced-insights.md
