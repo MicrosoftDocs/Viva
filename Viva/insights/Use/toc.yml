@@ -1,21 +1,21 @@
-#this is the Workplace Analytics legacy toc
+#this is the Workplace Analytics legacy contextual toc. Existing customers enter via a link from the legacy application.
 items:
 - name: Advanced insights
   items:
   - name: Overview
-    href: index-orig.md
+    href: /viva/insights/index-orig?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
   - name: Data privacy and protection
     items:
     - name: Data-protection considerations
       href: /viva/insights/privacy/data-protection-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Data de-identification
-      href: /Privacy/de-identify-data
+      href: /viva/insights//Privacy/de-identify-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Differential privacy
-      href: Privacy/differential-privacy.md
+      href: /viva/insights/Privacy/differential-privacy?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Privacy and data access
-      href: Privacy/privacy-and-data-access.md 
+      href: /viva/insights/Privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Data retention policy
-      href: Privacy/license-expiration.md     
+      href: /viva/insights/Privacy/license-expiration?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json   
   - name: Setup and maintenance
     items:
     - name: Setup
