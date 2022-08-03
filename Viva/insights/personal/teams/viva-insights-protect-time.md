@@ -77,7 +77,7 @@ To create a plan through the Viva Insights app, follow these steps:
 
 3. Review the different plans, then select **Get started** to join the plan or plans that align with your goals.
 
-    ![Screenshot that shows the Protect time tab.](Images/plans-get-started.png)
+    ![Screenshot that shows selecting Get started.](Images/plans-get-started.png)
 
 4. Configure the plan(s) to match your needs. For example, in the **Breaks** plan, select how long you want your breaks to be.
 
