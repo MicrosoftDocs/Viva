@@ -18,6 +18,9 @@ The Viva Sales app is enabled in Teams but isn't installed automatically. You ne
 
 To install and pin the app in Teams, you'll [create a custom Teams app setup policy](disable-viva-sales.md) and [assign the policy to a user group](disable-viva-sales.md) (security group, organizational unit, or distribution list).
 
+> [!NOTE]
+> The Teams meeting must be recorded and transcribed for Viva Sales to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
+
 ## Create a custom Teams app setup policy
 
 1.  Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
@@ -74,5 +77,5 @@ For more information about assigning user and group policies, go to [Assign poli
 
 ### See also
 
-[Install Viva Sales as an individual add-in from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
-[Install Viva Sales as an individual add-in from AppSource](install-viva-sales-individual-add-in-appsource.md)
+[Install Viva Sales from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
+[Install Viva Sales from AppSource](install-viva-sales-individual-add-in-appsource.md)

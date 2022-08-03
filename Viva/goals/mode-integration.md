@@ -20,9 +20,6 @@ description: "Automate your OKR progress by connecting OKRs with Mode reports."
 
 # Mode integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## About the Mode integration
 
 The Viva Goals Mode integration allows you to link your OKRs to reports in Mode for automatic real-time updates on your objectives. 
@@ -43,7 +40,7 @@ All users and admins have access to this integration. Admins also have permissio
 
     :::image type="content" source="../media/goals/11/mode-manage-button.png" alt-text="Managing Mode in Viva Goals." lightbox="../media/goals/11/mode-manage-button.png":::
 
-3. Select **New Connection** and in the pop-up dialog box, sign in to your Mode account using your credentials to authenticate the connection. 
+3. Select **New Connection** and in the pop-up dialog, sign in to your Mode account using your credentials to authenticate the connection. 
 
     :::image type="content" source="../media/goals/11/mode-configure-new-connection.png" alt-text="Configuring a new Mode connection in Viva goals." lightbox="../media/goals/11/mode-configure-new-connection.png":::
 
@@ -65,7 +62,7 @@ Admins can also edit an existing Mode connection, including the integration’s 
 
 1. Start in the Integrations section in the Admin Dashboard and select **Mode**. 
 
-2. Select the **Edit** icon next to the Mode connection. In the pop-up dialog box that displays, you can edit the connection’s name, token, organization domain, password and select or clear the Share connection with all users checkbox. 
+2. Select the **Edit** icon next to the Mode connection. In the dialog box that displays, you can edit the connection’s name, token, organization domain, password and select or clear the Share connection with all users checkbox.
 
 ## How to use the Mode integration
 
