@@ -106,7 +106,6 @@ Create a folder to store learning content for your organization.
     ![Screenshot of a folder called Training Materials in the document library.](../media/learning/spfolder-8.png)
 
 4. Upload files that you want to publish as learning content in this folder. Apply M365 permissions to the folders that contain learning objects and to any items within the folders that have unique permissions. [Learn how to use permissions for learning content](sharepoint-permissions.md).
-
 ​
 5. To get the folder url, choose this folder and select **Copy link**.
 
