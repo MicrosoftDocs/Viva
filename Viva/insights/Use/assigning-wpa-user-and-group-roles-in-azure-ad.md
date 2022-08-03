@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Assign user or group roles
 description: How to assign roles for Advanced insights with Microsoft Viva Insights
 author: madehmer

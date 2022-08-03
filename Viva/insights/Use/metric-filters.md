@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Advanced insights metric filters 
 description: Describes the filters that analysts can use to refine metrics in queries in the advanced insights app with Microsoft Viva Insights
 author: madehmer

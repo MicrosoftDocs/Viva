@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Metric definitions for Advanced insights
 description: Describes the metrics for queries that are available in Microsoft Viva Insights, including Person, Meeting, Group-to-group, Person-to-group, and Network query metrics 
 author: madehmer

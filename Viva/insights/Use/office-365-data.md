@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights Microsoft 365 data
 description: What's available on the Microsoft 365 data sources page in the advanced insights app with Microsoft Viva Insights
 author: madehmer

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Assigning licenses with PowerShell
 description: Learn how to assign Microsoft Viva Insights licenses in Azure Active Directory by using PowerShell
 author: madehmer

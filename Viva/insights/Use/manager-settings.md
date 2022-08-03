@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Manager settings for Viva Insights
 description: Learn about the manager settings for Viva Insights in Teams and in Advanced insights and how administrators can set up and edit them for your organization 
 author: madehmer

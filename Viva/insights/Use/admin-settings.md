@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Leader and manager settings for Viva Insights
 description: Learn about Leader & manager settings that only administrators can configure and edit in the advanced insights app for Microsoft Viva Insights
 author: madehmer

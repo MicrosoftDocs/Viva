@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Data sources for Viva Insights
 description: An overview of data sources for Microsoft Viva Insights
 author: madehmer

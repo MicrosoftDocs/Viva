@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Enhance organizational resiliency with Viva Insights
 description: Learn how to use Viva Insights data to analyze and enhance organizational resiliency
 author: madehmer

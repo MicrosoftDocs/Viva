@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights CRM data
 description: What is available on the CRM data sources page in the advanced insights app with Microsoft Viva Insights
 author: madehmer

@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore internal network metrics in Viva Insights
 description: An overview of the internal network collaboration data available in advanced insights with Microsoft Viva Insights
 author: madehmer

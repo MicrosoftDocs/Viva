@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore external collaboration data in Viva Insights
 description: An overview of external collaboration data available in Viva Insights
 author: madehmer

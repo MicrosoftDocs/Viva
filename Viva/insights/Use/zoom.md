@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights Zoom integration
 description: Learn how to use the Viva Insights Zoom integration for including Zoom data in collaboration analysis
 author: madehmer

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Advanced insights FAQ
 description: Frequently asked questions about advanced insights for the advanced insights app with Microsoft Viva Insights
 author: lilyolason

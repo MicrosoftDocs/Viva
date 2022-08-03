@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Roles for Viva Insights
 description: Which roles get access to which Viva Insights features
 author: madehmer

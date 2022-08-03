@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Peer analysis 
 description: Describes the peer analysis functionality in the advanced insights app with Microsoft Viva Insights
 author: madehmer
