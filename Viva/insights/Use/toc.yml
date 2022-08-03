@@ -19,249 +19,249 @@ items:
   - name: Setup and maintenance
     items:
     - name: Setup
-      href: setup/set-up-workplace-analytics.md
+      href: /viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Maintenance
-      href: setup/maintain-workplace-analytics.md
+      href: /viva/insights/setup/maintain-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Assign licenses
       items:
       - name: Overview
-        href: setup/assign-licenses-to-population.md
+        href: /viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Assign licenses with PowerShell
-        href: use/Assigning-licenses-with-powershell.md
+        href: /viva/insights/use/Assigning-licenses-with-powershell?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Assign roles
       items:
     - name: Assign admin roles
-      href: setup/assign-roles-to-wpa-admins.md
+      href: /viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Role access
-      href: Use/User-Roles.md
+      href: /viva/insights/Use/User-Roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Assign user roles
-      href: setup/assign-user-roles.md
+      href: /viva/insights/setup/assign-user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Controls
       items:
     - name: Introduction
-      href: Use/Settings.md
+      href: /viva/insights/Use/Settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Data sources
       items:
       - name: Introduction
-        href: Use/data-sourcesv2.md 
+        href: /viva/insights/Use/data-sourcesv2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json  
       - name: Microsoft 365 data
-        href: Use/office-365-data.md
+        href: /viva/insights/Use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Organizational data
-        href: Use/organizational-data.md
+        href: /viva/insights/Use/organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: CRM data
-        href: Use/crm-data.md
+        href: /viva/insights/Use/crm-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Upload
       items:
     - name: Prepare organizational data
-      href: Setup/prepare-organizational-data.md
+      href: /viva/insights/Setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Upload organizational data
       items: 
       - name: First upload
-        href: Setup/upload-organizational-data-1st.md 
+        href: /viva/insights/Setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json  
       - name: Subsequent uploads
-        href: Setup/upload-organizational-data2.md 
+        href: /viva/insights/Setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Upload CRM data
-      href: Setup/crm-data-upload.md
+      href: /viva/insights/Setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Leader & manager settings
       items:
       - name: Introduction
-        href: Use/admin-settings.md
+        href: /viva/insights/Use/admin-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Manager settings
-        href: Use/manager-settings.md
+        href: /viva/insights/Use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Analyst settings
       items:
       - name: Introduction
-        href: Use/analyst-settings.md
+        href: /viva/insights/Use/analyst-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: System defaults
-        href: Use/system-defaults.md
+        href: /viva/insights/Use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Privacy settings and exclusions
-      href: Use/privacy-settings.md
+      href: /viva/insights/Use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Exclusions
       items:
       - name: Introduction
-        href: tutorials/exclusions-introduction.md
+        href: /viva/insights/tutorials/exclusions-introduction?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Meeting exclusions
         items:
         - name: Introduction
-          href: tutorials/meeting-exclusions-intro.md
+          href: /viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Walkthroughs
-        href: tutorials/meeting-exclusion-rules.md
+        href: /viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Tools and concepts
-        href: tutorials/meeting-exclusion-concept.md
+        href: /viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Attendee exclusions
-      href: tutorials/attendee-exclusion-rules.md
+      href: /viva/insights/tutorials/attendee-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Audit logs
-      href: setup/audit-logs.md
+      href: /viva/insights/setup/audit-logs?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
   - name: Use advanced insights
     items:
     - name: Introduction
-      href: overview/get-started.md 
+      href: /viva/insights/overview/get-started?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json  
     - name: Home
-      href: Use/insights.md
+      href: /viva/insights/Use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       items:
       - name: Enhance organizational resiliency
-        href: Use/resilient-organizations.md
+        href: /viva/insights/Use/resilient-organizations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Boost employee engagement
-        href: Use/boost-engagement.md
+        href: /viva/insights/Use/boost-engagement?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Improve agility
-        href: Use/improve-agility.md
+        href: /viva/insights/Use/improve-agility?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Foster innovation
-        href: Use/foster-innovation.md
+        href: /viva/insights/Use/foster-innovation?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Develop effective managers
-        href: Use/develop-managers.md
+        href: /viva/insights/Use/develop-managers?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Enhance operational effectiveness
-        href: Use/effective-operations.md
+        href: /viva/insights/Use/effective-operations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Accelerate change
-        href: Use/accelerate-change.md
+        href: /viva/insights/Use/accelerate-change?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Transform meeting culture
-        href: Use/transform-meetings.md
+        href: /viva/insights/Use/transform-meetings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Increase customer focus
-        href: Use/customer-focus.md
+        href: /viva/insights/Use/customer-focus?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: Analyze
       items:
       - name: Query designer
         items:
-      - name: Overview
-        href: tutorials/query-designer.md
-      - name: Templates
-        items:
-        - name: Introduction
-          href: tutorials/power-bi-intro.md
-        - name: Sales effectiveness
-          href: tutorials/power-bi-sales.md
-        - name: Ways of working assessment
-          href: tutorials/power-bi-collab-assess.md
-        - name: Ways of working tracker
-          href: tutorials/power-bi-collab-track.md
-        - name: Return to worksites
-          href: tutorials/power-bi-return-tw.md
-        - name: Wellbeing
-          href: tutorials/power-bi-wellbeing.md    
-        - name: Business continuity
-          href: tutorials/power-bi-bc.md
-        - name: Teams insights
-          href: tutorials/power-bi-teams.md
-        - name: Manager effectiveness
-          href: tutorials/power-bi-manager.md
-        - name: Behavior patterns for Glint
-          href: tutorials/power-bi-glint-2.md
-        - name: Sales business continuity
-          href: tutorials/pbi-bc-sales.md
-        - name: Power BI tips, FAQ, and troubleshooting
-          href: tutorials/power-bi-templates.md
+        - name: Overview
+          href: /viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+        - name: Templates
+          items:
+          - name: Introduction
+            href: /viva/insights/tutorials/power-bi-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Sales effectiveness
+            href: /viva/insights/tutorials/power-bi-sales?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Ways of working assessment
+            href: /viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Ways of working tracker
+            href: /viva/insights/tutorials/power-bi-collab-track?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Return to worksites
+            href: /viva/insights/tutorials/power-bi-return-tw?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Wellbeing
+            href: /viva/insights/tutorials/power-bi-wellbeing?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json    
+          - name: Business continuity
+            href: /viva/insights/tutorials/power-bi-bc?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Teams insights
+            href: /viva/insights/tutorials/power-bi-teams?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Manager effectiveness
+            href: /viva/insights/tutorials/power-bi-manager?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Behavior patterns for Glint
+            href: /viva/insights/tutorials/power-bi-glint-2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Sales business continuity
+            href: /viva/insights/tutorials/pbi-bc-sales?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Power BI tips, FAQ, and troubleshooting
+            href: /viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Queries
         items:
         - name: Overview
-          href: tutorials/query-basics.md     
+          href: /viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json     
         - name: Person queries
           items:
           - name: Introduction
-            href: tutorials/Person-queries.md
+            href: /viva/insights/tutorials/Person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
           - name: Visualize person queries
-            href: tutorials/query-visualization.md
+            href: /viva/insights/tutorials/query-visualization?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Meeting queries
-          href: tutorials/Meeting-queries.md
+          href: /viva/insights/tutorials/Meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Group-to-group queries
-          href: tutorials/Group-to-group-queries.md
+          href: /viva/insights/tutorials/Group-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Person-to-group queries
-          href: tutorials/Person-to-group-queries.md
+          href: /viva/insights/tutorials/Person-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Queries with CRM data
-          href: tutorials/crm-queries.md
+          href: /viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Peer comparison queries
-          href: tutorials/comparison-query.md
+          href: /viva/insights/tutorials/comparison-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Network queries
           items: 
           - name: Network person queries
-            href: tutorials/ona-person-query.md
+            href: /viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
           - name: Network person-to-person queries
-            href: tutorials/ona-person-to-person-query.md
+            href: /viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
           - name: Network query metrics
-            href: tutorials/ona-metrics.md
+            href: /viva/insights/tutorials/ona-metrics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Customize query metrics
-          href: tutorials/Customize-a-metric.md
+          href: /viva/insights/tutorials/Customize-a-metric?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: View, download, and export query results
-          href: Use/View-download-and-export-query-results.md
+          href: /viva/insights/Use/View-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Understand and interpret query output
-          href: Use/Csv-query-output-file.md
+          href: /viva/insights/Use/Csv-query-output-file?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Query auto-refresh
-          href: tutorials/Query-auto-refresh.md
+          href: /viva/insights/tutorials/Query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Capacity model
-        href: tutorials/consump-model.md 
+        href: /viva/insights/tutorials/consump-model?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
       - name: Business process analysis
-        href: tutorials/analyze-business-processes.md
+        href: /viva/insights/tutorials/analyze-business-processes?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Peer analysis
-        href: use/peer-analysis.md
+        href: /viva/insights/use/peer-analysis?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Explore the stats
         items:
         - name: Introduction
-          href: Use/explore-intro.md
+          href: /viva/insights/Use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Week in the life
-          href: Use/explore-metrics-week-life.md
+          href: /viva/insights/Use/explore-metrics-week-life?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Meetings overview
-          href: Use/Explore-Metrics-meetings-overview.md
+          href: /viva/insights/Use/Explore-Metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Management and coaching
-          href: Use/Explore-Metrics-management-and-coaching.md
+          href: /viva/insights/Use/Explore-Metrics-management-and-coaching?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Internal networks
-          href: Use/Explore-Metrics-internal-networks.md
+          href: /viva/insights/Use/Explore-Metrics-internal-networks?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: External collaboration
-          href: Use/Explore-Metrics-external-collaboration.md
+          href: /viva/insights/Use/Explore-Metrics-external-collaboration?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: Teams collaboration
-          href: Use/Explore-metrics-teams.md
+          href: /viva/insights/Use/Explore-metrics-teams?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Charts
-        href: Use/Chart-Types.md
+        href: /viva/insights/Use/Chart-Types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: wpa R package
-        href: tutorials/wpa-r-package.md
+        href: /viva/insights/tutorials/wpa-r-package?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Zoom integration
-        href: Use/zoom.md
+        href: /viva/insights/Use/zoom?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Qualtrics integration
-        href: Use/qualtrics.md
+        href: /viva/insights/Use/qualtrics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Workspace Collaboration Optimizer
-        href: Use/wsplan.md
+        href: /viva/insights/Use/wsplan?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Plans
       items:
       - name: Introduction
-        href: tutorials/solutionsv2-intro.md
+        href: /viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Plan types
       items:
       - name: Teamwork plans
-        href: tutorials/teamwork-solution.md
+        href: /viva/insights/tutorials/teamwork-solution?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Seller success plan
-        href: tutorials/seller-success.md
+        href: /viva/insights/tutorials/seller-success?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Use plans
       items: 
       - name: Walkthrough    
-        href: tutorials/solutionsv2-task.md 
+        href: /viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Participants
-        href: tutorials/solutionsv2-participants.md
+        href: /viva/insights/tutorials/solutionsv2-participants?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Concepts
-        href: tutorials/solutionsv2-conceptual.md
+        href: /viva/insights/tutorials/solutionsv2-conceptual?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Notifications 
-      href: use/wpa-notifications.md 
+      href: /viva/insights/use/wpa-notifications?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json 
     - name: In Power BI
-      href: tutorials/pbi-home-deeper.md
+      href: /viva/insights/tutorials/pbi-home-deeper?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Advanced insights FAQ
-      href: use/faq.md
+      href: /viva/insights/use/faq?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Known issues
       items:
       - name: Download a query report in UTF-8 format
-        href: tutorials/Download-UTF8-query-report.md
+        href: /viva/insights/tutorials/Download-UTF8-query-report?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Advanced insights 500 error
-        href: tutorials/Wpa-tool-500-error.md
+        href: /viva/insights/tutorials/Wpa-tool-500-error?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Meeting exclusion rules - large meeting limitation
-        href: tutorials/meeting-exclusion-250.md    
+        href: /viva/insights/tutorials/meeting-exclusion-250?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json    
     - name: Reference
       items:
       - name: Glossary
-        href: Use/Glossary.md
+        href: /viva/insights/Use/Glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Metric descriptions
-        href: Use/metric-definitions.md
+        href: /viva/insights/Use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Metric filters
-        href: Use/metric-filters.md
+        href: /viva/insights/Use/metric-filters?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Network graph metrics
-        href: Use/insight-ona-measures.md    
+        href: /viva/insights/Use/insight-ona-measures?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json    
       - name: Best practices
-        href: Tutorials/gm-best-practices.md
+        href: /viva/insights/Tutorials/gm-best-practices?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Time zones
-        href: Use/Timezones-for-Workplace-analytics.md
+        href: /viva/insights/Use/Timezones-for-Workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
       - name: Languages and guidelines
-      href: Overview/Supported-languages.md
+      href: /viva/insights/Overview/Supported-languages?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
