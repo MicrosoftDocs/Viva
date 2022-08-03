@@ -28,7 +28,7 @@ To import the Yume application, perform the following steps:
 
 1. Select **Import canvas app**. The page with the **Upload** button is displayed.
 
-   :::image type="content" source="../media/importcanvasapp1a.png" alt-text="The page with the Upload option":::
+   :::image type="content" source="../media/importcanvasapp1a.png" alt-text="The page with the Upload option" lightbox="../media/importcanvasapp1a.png":::
    
 1. Upload the zip file that was downloaded earlier. Once the upload process has been successfully completed, the page as shown in the following screenshot is displayed:
 
@@ -36,18 +36,18 @@ To import the Yume application, perform the following steps:
 
 1. Under the **Choose your import options** pane, select **Create as new** that is corresponding to YUME_mobile_MVP. The page shown in the following screenshot is displayed.
 
-   :::image type="content" source="../media/importcanvasapp2a.png" alt-text="The page on which the user can update the name":::
+   :::image type="content" source="../media/importcanvasapp2a.png" alt-text="The page on which the user can update the name" lightbox="../media/importcanvasapp2a.png":::
 
 1. Update the name to a unique name for the environment in the **Resource name** box, for example, Yume_mobile.
 1. Select **Save**. You return to the Import wizard page.
 1. Select the option **Select during import** corresponding to **vsol-yume-connector**. The page with the **Import setup** pane on the right side is displayed.
 
-   :::image type="content" source="../media/importcanvasapp2b2.png" alt-text="The Import setup pane on the right side of the Import wizard page":::
+   :::image type="content" source="../media/importcanvasapp2b2.png" alt-text="The Import setup pane on the right side of the Import wizard page" lightbox="../media/importcanvasapp2b2.png":::
 
 1. Select **Save**. You return to the Import wizard page.
 1. Select **Import** at the bottom-right side of the page. 
 
-   :::image type="content" source="../media/selecting-import.png" alt-text="The page on which the user can select the Import option":::
+   :::image type="content" source="../media/selecting-import.png" alt-text="The page on which the user can select the Import option" lightbox="../media/selecting-import.png":::
 
    Once the import process has been completed, there will be a message as shown in the following screenshot.
 
@@ -62,7 +62,7 @@ To import the Yume application, perform the following steps:
    > [!NOTE]
    > The application to which access has been allowed will be displayed on the **Apps** section of the page after a few minutes. This time period during which the application is about to be displayed is depicted in the following screenshot:
 
-     :::image type="content" source="../media/editapp1.png" alt-text="The page that indicates the time period leading up to the display of the application":::
+     :::image type="content" source="../media/editapp1.png" alt-text="The page that indicates the time period leading up to the display of the application" lightbox="../media/editapp1.png":::
    
    The app will appear in the **Apps** section of PowerApps.
 

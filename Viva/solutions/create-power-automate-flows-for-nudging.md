@@ -38,17 +38,17 @@ To create the Power Automate flows for nudging, perform the following steps:
 
     1.  Select **Upload**. The file browser dialog box is displayed.
     
-        :::image type="content" source="../media/powerautomateimportmeetingsflo1abrowse.png" alt-text="The dialog box displaying th files from which the user can select the one to upload":::
+        :::image type="content" source="../media/powerautomateimportmeetingsflo1abrowse.png" alt-text="The dialog box displaying th files from which the user can select the one to upload" lightbox="../media/powerautomateimportmeetingsflo1abrowse.png":::
 
     1. Select the file you want to upload, and select **Open**.
     
        The selected file is populated in the **Upload** box, and the upload process begins which is indicated by the button changing from **Upload** to **Uploading**.
 
-       :::image type="content" source="../media/uploading-process-commencement.png" alt-text="The page displaying the in-progress upload process":::
+       :::image type="content" source="../media/uploading-process-commencement.png" alt-text="The page displaying the in-progress upload process" lightbox="../media/uploading-process-commencement.png":::
 
        After a few minutes, the package is successfully uploaded, and the same is displayed on the **Import package** page.
 
-       :::image type="content" source="../media/page-containing-uploaded-package.png" alt-text="The page displaying the uploaded package":::
+       :::image type="content" source="../media/page-containing-uploaded-package.png" alt-text="The page displaying the uploaded package" lightbox="../media/page-containing-uploaded-package.png":::
      
     1. Select **Create as new**. The Import setup pane is displayed on the right side of the page, as shown in the following screenshot.
     
@@ -59,10 +59,11 @@ To create the Power Automate flows for nudging, perform the following steps:
         1. Select the option **Select during import** for each of the two connections.
            The **Import setup** pane as shown in the following screenshot is displayed.
 
-           :::image type="content" source="../media/connection-display.png" alt-text="The Import setup pane on which the created connection is displayed":::
+           :::image type="content" source="../media/connection-display.png" alt-text="The Import setup pane on which the created connection is displayed" lightbox="../media/connection-display.png":::
+
         1. Select the connection. On selecting it, the **Save** button is enabled, as shown in the following screenshot.
         
-           :::image type="content" source="../media/saving-displayed-connection.png" alt-text="The option to Save the connection that is displayed":::
+           :::image type="content" source="../media/saving-displayed-connection.png" alt-text="The option to Save the connection that is displayed" lightbox="../media/saving-displayed-connection.png":::
 
         1. Select **Save**. You're taken back to the **Import package** page.
 
@@ -74,7 +75,7 @@ To create the Power Automate flows for nudging, perform the following steps:
 
        If this import process fails, the page as shown in the following screenshot is displayed.
 
-       :::image type="content" source="../media/saveasnewflow.png" alt-text="The page containing the Save as new flow option":::
+       :::image type="content" source="../media/saveasnewflow.png" alt-text="The page containing the Save as new flow option" lightbox="../media/saveasnewflow.png":::
            
     1. Select **Save as new flow**. The import process is completed successfully as shown in the following screenshot:
     
@@ -82,7 +83,7 @@ To create the Power Automate flows for nudging, perform the following steps:
          
     1. Select **Open flow** to edit the flow-related information. The page as shown in the following screenshot is displayed:
     
-       :::image type="content" source="../media/page-on-selecting-open-flow.png" alt-text="The page on selecting the Open flow option":::
+       :::image type="content" source="../media/page-on-selecting-open-flow.png" alt-text="The page on selecting the Open flow option" lightbox="../media/page-on-selecting-open-flow.png":::
        
     1. Update the **Initialize variable** page for data prefix by populating the **Value** field with the value of the Dataverse table created earlier, for example, **cr627** as shown in the following screenshot.
       

@@ -27,11 +27,11 @@ To import data into the Dataverse tables, perform the following steps:
 
    The page listing the Dataverse tables is displayed.
 
-   :::image type="content" source="../media/importdataverse1a.png" alt-text="The page listing the Dataverse tables":::
+   :::image type="content" source="../media/importdataverse1a.png" alt-text="The page listing the Dataverse tables" lightbox="../media/importdataverse1a.png":::
 
 1. Find the Yume Cards table using the **search** box as shown in the following screenshot.
 
-   :::image type="content" source="../media/importdataverse1b.png" alt-text="The search box using which the user can find the Yume table":::
+   :::image type="content" source="../media/importdataverse1b.png" alt-text="The search box using which the user can find the Yume table" lightbox="../media/importdataverse1b.png":::
  
    The Yume Cards table is displayed.
 
@@ -45,23 +45,23 @@ To import data into the Dataverse tables, perform the following steps:
 
 1. Select **Import > Import data from Excel**. The page as shown in the following screenshot is displayed.
 
-   :::image type="content" source="../media/importdataverse2b.png" alt-text="The Import data pane":::
+   :::image type="content" source="../media/importdataverse2b.png" alt-text="The Import data pane" lightbox="../media/importdataverse2b.png":::
 
 1. Select **Upload**. A dialog box listing files and folders are displayed.
 
-   :::image type="content" source="../media/importdataverse2c.png" alt-text="The dialog box listing files and folders that the user can select to upload":::
+   :::image type="content" source="../media/importdataverse2c.png" alt-text="The dialog box listing files and folders that the user can select to upload" lightbox="../media/importdataverse2c.png":::
 
 1. Select the *YumeCardDataV3_initialcontent.csv* file. This selected file is displayed in the **File** box as shown in the following screenshot.
 
-   :::image type="content" source="../media/importdataverse2d.png" alt-text="The page on which the file to be uploaded is displayed in the File box":::
+   :::image type="content" source="../media/importdataverse2d.png" alt-text="The page on which the file to be uploaded is displayed in the File box" lightbox="../media/importdataverse2d.png":::
 
 1. Select **Map columns** on the far-right side of the page. The column mapping page is displayed, as shown in the following screenshot.
 
-   :::image type="content" source="../media/column-mapping.png" alt-text="Column mapping":::
+   :::image type="content" source="../media/column-mapping.png" alt-text="Column mapping" lightbox="../media/column-mapping.png":::
 
 1. Select **Save changes** on the top right. You return to the Import data pane, as shown in the following screenshot.
 
-   :::image type="content" source="../media/dataimport.png" alt-text="The Import data pane on the right side of the page":::
+   :::image type="content" source="../media/dataimport.png" alt-text="The Import data pane on the right side of the page" lightbox="../media/dataimport.png":::
 
 1. Select **Import** on the top right. A notification message denoting a successful import is displayed, for example, the following screenshot.
 
