@@ -51,6 +51,6 @@ The add-in is enabled in Teams but not installed. You need to go to the Microsof
 
 ### See also
 
-[Install Viva Sales as an individual add-in from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
-[Install Viva Sales as an individual add-in from AppSource](install-viva-sales-individual-add-in-appsource.md)<br>
+[Install Viva Sales from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
+[Install Viva Sales from AppSource](install-viva-sales-individual-add-in-appsource.md)<br>
 [Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md)
