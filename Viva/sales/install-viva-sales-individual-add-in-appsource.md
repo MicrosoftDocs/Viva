@@ -18,7 +18,7 @@ manager: shujoshi
 
 1.  Sign in to [Microsoft AppSource](https://appsource.microsoft.com/en-US/home).
 
-2.  Search for **Microsoft Viva Sales for Microsoft Outlook (Preview)**.
+2.  Search for **Viva Sales for Microsoft Outlook (Preview)**.
     
 3.  In the tile for the app in search results, select **Get it now**.
 
