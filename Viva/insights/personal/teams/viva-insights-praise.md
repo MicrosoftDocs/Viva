@@ -17,10 +17,10 @@ audience: user
 
 You can use this feature in the Microsoft Viva Insights app in Microsoft Teams to recognize the contributions of your employees and coworkers. Praise messages are shown as notifications in Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
 
-You can also set reminders to send acclaim on a regular basis to your coworkers and view your Praise history. See [Set a praise reminder](#set-praise-reminders) and [Praise history](#praise-history) for details.
+You can also set reminders to send acclaim on a regular basis to your coworkers and view your praise history. See [Set a praise reminder](#set-praise-reminders) and [Praise history](#praise-history) for details.
 
 >[!Note]
->The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+>The **Praise** app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
 ## Send praise
 
@@ -31,17 +31,17 @@ To send praise, open the praise feature in one of the following ways:
 
 ### Send praise from the Viva Insights Home page
 
-1. On the Home page, select **Send praise** button on the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
+1. On the Home page, select **Send praise** button on the **Send praise to your colleagues** card, which is located on the **Home** page at center left.
 
    ![Screenshot that shows Praise on Home page.](images/home-page-two-hours.png)
 
-2. When the Praise page opens, the badge defaults to **Awesome**. If you’d like to send a different badge with your praise message, select a new choice:
+2. When the Praise page opens, the badge defaults to **Awesome**. If you’d like to send a different badge with your praise message, select a new choice.
 
     ![Screenshot that shows selecting a praise badge.](images/new-badge-choice.png)
 
 3. Add the name of the person you want to praise.
 
-4. Choose the visibility of this praise. To make this choice, you must first decide whether you want to keep the praise private between you and the recipient or to make it visible (as a form of kudos, for example) to everyone in a Teams channel:
+4. Choose the visibility of this praise. To make this choice, you first need to decide whether you want to keep the praise private between you and the recipient or to make it visible (as a form of kudos, for example) to everyone in a Teams channel:
 
    * To make the praise message appear privately in a 1:1 chat between you and the recipient, select **1:1 chat**. This option is available only if you and the recipient have already participated in a Teams chat together. 
 
@@ -60,13 +60,13 @@ To send praise, open the praise feature in one of the following ways:
 
 In Viva Insights, you can always send praise directly from the [**Home** page](#send-praise-from-the-viva-insights-home-page), which does not require installing the Praise messaging extension.
 
-1. Below the **Type a new message** field, select **Praise**:
+1. Below the **Type a new message** field, select **Praise**.
 
    ![Screenshot that shows selecting the Praise icon.](images/content-pane-select-praise1.png)
 
-   (If the Praise feature does not appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).)
+   (If the Praise feature doesn't appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).)
 
-2. When the Praise modal opens, the badge defaults to **Awesome**. If you want to send a different badge with your praise message, select a new choice:
+2. When the **Praise** modal opens, the badge defaults to **Awesome**. If you want to send a different badge with your praise message, select a new choice.
 
    ![Screenshot that shows selecting a new badge.](images/praise-chat-select-new-badge.png)
 
