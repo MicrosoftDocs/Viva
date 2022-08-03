@@ -7,7 +7,7 @@ items:
   - name: Data privacy and protection
     items:
     - name: Data-protection considerations
-      href: /Privacy/data-protection-intro.md
+      href: /Privacy/data-protection-intro
     - name: Data de-identification
       href: /Privacy/de-identify-data.md
     - name: Differential privacy
