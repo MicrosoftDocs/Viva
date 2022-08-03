@@ -21,9 +21,6 @@ description: "Learn how to integrate your GitHub repositories with OKRs in Viva 
 
 # GitHub integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## Introduction to the GitHub integration
 
 The Viva Goal GitHub integration allows you to update your Objectives and Key Results (OKR) progress automatically depending on the progress of issues in your GitHub repositories. 

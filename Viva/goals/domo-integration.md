@@ -21,9 +21,6 @@ description: "Learn how to integrate your Domo datasets directly with Viva Goals
 
 # Domo integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 The Viva Goals Domo integration allows automated real-time tracking of OKR progress. 
   
 Let's take this example: you use Domo cards to visualize your Sales team's close rate: Quarter-to-date (QTD) vs. Goal. By configuring a Domo integration and setting up a data link within Viva Goals, you can save the hassle of reinventing the wheel by connecting to other source sales systems, if all data integrations, aggregations and key performance indicator (KPI) visualizations have already been implemented within Domo. Viva Goals will automatically update OKR progress, saving you time and bringing all your data and progress in one place. 
