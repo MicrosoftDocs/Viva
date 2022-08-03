@@ -17,7 +17,7 @@ audience: Admin
 
 *The link to documentation for the previous platform can be accessed in the legacy application.*
 
-Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets works done—for example, the ways managers collaborate with their direct reports, such as whether employees maintain work-life balance, how to protect employee wellbeing,and the ways hybrid work affects the employee experience. 
+Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets works done—for example, the ways managers collaborate with their direct reports, such as whether employees maintain work-life balance, how to protect employee wellbeing, and the ways hybrid work affects the employee experience. 
 
 Viva Insights includes the [advanced insights app](https://go.microsoft.com/fwlink/?linkid=2201482), which has advanced analysis tools for deep-diving into data that's shown both within Microsoft Teams and in the app. The advanced analysis tools available in the app include different ways of analyzing and reporting custom analysis to your company’s business leaders.
 
