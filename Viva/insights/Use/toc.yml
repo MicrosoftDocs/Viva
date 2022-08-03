@@ -7,7 +7,7 @@ items:
   - name: Data privacy and protection
     items:
     - name: Data-protection considerations
-      href: /viva/insights/Privacy/data-protection-intro
+      href: /viva/insights/privacy/data-protection-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
     - name: Data de-identification
       href: /Privacy/de-identify-data
     - name: Differential privacy

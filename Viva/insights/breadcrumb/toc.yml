@@ -16,5 +16,8 @@
     topicHref: /viva/insights/setup/environment-requirements
   - name: Environment requirements
     tocHref: /viva/insights/setup/environment-requirements
-    topicHref: /viva/insights/setup/environment-requirements    
+    topicHref: /viva/insights/setup/environment-requirements
+  - name: Data-protection considerations
+    tocHref: /viva/insights/privacy/data-protection-intro
+    topicHref: /viva/insights/setup/data-protection-intro     
  
