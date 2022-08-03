@@ -20,9 +20,6 @@ description: "Learn how progress status is calculated in Viva Goals and how to t
 
 # Track OKR progress status
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## How to track OKR progress in Viva Goals
 
 Each OKR in Viva Goals contains a progress bar that displays the last identified progress. Viva Goals assesses progress in 2 ways: Actual and Expected. 

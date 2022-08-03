@@ -20,9 +20,6 @@ description: "Learn how to log in, create, and join an organization in Viva Goal
 
 # Log in, create, and join organizations in Viva Goals
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 After you purchase Viva Goals licenses for your organization, you can log into Viva Goals by using your Azure Active Directory credentials. 
 
 To log into Viva Goals, you must be logged into your Azure Active Directory.

@@ -21,9 +21,6 @@ description: "Learn how to add a personal API token from the 'Profile & account'
 
 # Favro Integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Here's how to add a personal API token from the '**My profile**' section in Favro.
   
 1. From the top-left corner, select your account drop-down.
