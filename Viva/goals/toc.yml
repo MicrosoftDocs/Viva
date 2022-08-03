@@ -99,7 +99,7 @@ items:
           href: ms-teams-messaging-extension.md
 - name: Integrations
   items:
-    - name: Viva Goals Integrations Overview
+    - name: Viva Goals integrations overview
       href: integrations-overview.md
     - name: Azure DevOps integration (ADO)
       href: azure-devops-integration.md
