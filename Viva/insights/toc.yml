@@ -208,270 +208,81 @@ items:
             href: Use/myorg-faq.md
       - name: Advanced insights
         items:
-          - name: Overview
-            href: index-orig.md
-          - name: Data privacy and protection
+        - name: Introduction to advanced insights
+          href: advanced/introduction-to-advanced-insights.md
+        - name: Privacy
+          href: advanced/privacy/privacy.md
+        - name: Setup and maintenance
+          items:
+          - name: Setup overview
+            href: advanced/setup-maint/setup-overview.md
+          - name: Set up advanced insights
+            href: advanced/setup-maint/setup.md
+          - name: Maintenance
+            href: advanced/setup-maint/maintenance.md
+          - name: Roles and licenses
+            items: 
+            - name: Roles in Viva Insights
+              href: advanced/setup-maint/user-roles.md
+            - name: Assign admin roles
+              href: advanced/setup-maint/assign-admin-roles.md
+            - name: Assign user roles
+              href: advanced/setup-maint/assign-user-roles.md
+            - name: Assign licenses
+              href: advanced/setup-maint/assign-licenses.md
+            - name: Environment requirements
+              href: /viva/insights/setup/environment-requirements?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json
+          - name: Manager settings      
+            href: advanced/setup-maint/manager-settings.md
+        - name: Admin
+          items:
+          - name: Organizational data overview
+            href: advanced/admin/org-data-overview.md
+          - name: Prepare organizational data
+            href: advanced/admin/prepare-org-data.md
+          - name: Upload organizational data (first upload)
+            href: advanced/admin/upload-org-data-first.md
+          - name: Upload organizational data (subsequent upload)
+            href: advanced/admin/upload-org-data-subsequent.md
+        - name: Analyst
+          items:
+          - name: Queries
             items:
-              - name: Data-protection considerations
-                href: Privacy/data-protection-considerations.md
-              - name: Data de-identification
-                href: Privacy/de-identify-data.md
-              - name: Differential privacy
-                href: Privacy/differential-privacy.md
-              - name: Privacy and data access
-                href: Privacy/privacy-and-data-access.md 
-              - name: Data retention policy
-                href: Privacy/license-expiration.md       
-          - name: Setup and maintenance
+            - name: Person query overview
+              href: advanced/analyst/person-query-overview.md
+            - name: Create a Person query
+              href: advanced/analyst/person-query.md
+            - name: Access query results and modify existing queries
+              href: advanced/analyst/query-results.md  
+          - name: Templates
             items:
-              - name: Setup
-                href: setup/set-up-workplace-analytics.md
-              - name: Maintenance
-                href: setup/maintain-workplace-analytics.md
-              - name: Assign licenses
-                items:
-                  - name: Overview
-                    href: setup/assign-licenses-to-population.md
-                  - name: Assign licenses with PowerShell
-                    href: use/Assigning-licenses-with-powershell.md
-              - name: Assign roles
-                items:
-                  - name: Assign admin roles
-                    href: setup/assign-roles-to-wpa-admins.md
-                  - name: Role access
-                    href: Use/User-Roles.md
-                  - name: Assign user roles
-                    href: setup/assign-user-roles.md
-              - name: Controls
-                items:
-                  - name: Introduction
-                    href: Use/Settings.md
-                  - name: Data sources
-                    items:
-                      - name: Introduction
-                        href: Use/data-sourcesv2.md 
-                      - name: Microsoft 365 data
-                        href: Use/office-365-data.md
-                      - name: Organizational data
-                        href: Use/organizational-data.md
-                      - name: CRM data
-                        href: Use/crm-data.md
-                  - name: Upload
-                    items:
-                      - name: Prepare organizational data
-                        href: Setup/prepare-organizational-data.md
-                      - name: Upload organizational data
-                        items: 
-                          - name: First upload
-                            href: Setup/upload-organizational-data-1st.md 
-                          - name: Subsequent uploads
-                            href: Setup/upload-organizational-data2.md 
-                          - name: Upload CRM data
-                            href: Setup/crm-data-upload.md
-                  - name: Leader & manager settings
-                    items:
-                      - name: Introduction
-                        href: Use/admin-settings.md
-                      - name: Manager settings
-                        href: Use/manager-settings.md
-                  - name: Analyst settings
-                    items:
-                      - name: Introduction
-                        href: Use/analyst-settings.md
-                      - name: System defaults
-                        href: Use/system-defaults.md
-                      - name: Privacy settings and exclusions
-                        href: Use/privacy-settings.md
-                      - name: Exclusions
-                        items:
-                          - name: Introduction
-                            href: tutorials/exclusions-introduction.md
-                          - name: Meeting exclusions
-                            items:
-                              - name: Introduction
-                                href: tutorials/meeting-exclusions-intro.md
-                              - name: Walkthroughs
-                                href: tutorials/meeting-exclusion-rules.md
-                              - name: Tools and concepts
-                                href: tutorials/meeting-exclusion-concept.md
-                          - name: Attendee exclusions
-                            href: tutorials/attendee-exclusion-rules.md
-              - name: Audit logs
-                href: setup/audit-logs.md
-          - name: Use advanced insights
-            items:
-              - name: Introduction
-                href: overview/get-started.md 
-              - name: Home
-                href: Use/insights.md
-                items:
-                  - name: Enhance organizational resiliency
-                    href: Use/resilient-organizations.md
-                  - name: Boost employee engagement
-                    href: Use/boost-engagement.md
-                  - name: Improve agility
-                    href: Use/improve-agility.md
-                  - name: Foster innovation
-                    href: Use/foster-innovation.md
-                  - name: Develop effective managers
-                    href: Use/develop-managers.md
-                  - name: Enhance operational effectiveness
-                    href: Use/effective-operations.md
-                  - name: Accelerate change
-                    href: Use/accelerate-change.md
-                  - name: Transform meeting culture
-                    href: Use/transform-meetings.md
-                  - name: Increase customer focus
-                    href: Use/customer-focus.md
-              - name: Analyze
-                items:
-                  - name: Query designer
-                    items:
-                      - name: Overview
-                        href: tutorials/query-designer.md
-                      - name: Templates
-                        items:
-                          - name: Introduction
-                            href: tutorials/power-bi-intro.md
-                          - name: Sales effectiveness
-                            href: tutorials/power-bi-sales.md
-                          - name: Ways of working assessment
-                            href: tutorials/power-bi-collab-assess.md
-                          - name: Ways of working tracker
-                            href: tutorials/power-bi-collab-track.md
-                          - name: Return to worksites
-                            href: tutorials/power-bi-return-tw.md
-                          - name: Wellbeing
-                            href: tutorials/power-bi-wellbeing.md                            
-                          - name: Business continuity
-                            href: tutorials/power-bi-bc.md
-                          - name: Teams insights
-                            href: tutorials/power-bi-teams.md
-                          - name: Manager effectiveness
-                            href: tutorials/power-bi-manager.md
-                          - name: Behavior patterns for Glint
-                            href: tutorials/power-bi-glint-2.md
-                          - name: Sales business continuity
-                            href: tutorials/pbi-bc-sales.md
-                          - name: Power BI tips, FAQ, and troubleshooting
-                            href: tutorials/power-bi-templates.md
-                      - name: Queries
-                        items:
-                          - name: Overview
-                            href: tutorials/query-basics.md                         
-                          - name: Person queries
-                            items:
-                              - name: Introduction
-                                href: tutorials/Person-queries.md
-                              - name: Visualize person queries
-                                href: tutorials/query-visualization.md
-                          - name: Meeting queries
-                            href: tutorials/Meeting-queries.md
-                          - name: Group-to-group queries
-                            href: tutorials/Group-to-group-queries.md
-                          - name: Person-to-group queries
-                            href: tutorials/Person-to-group-queries.md
-                          - name: Queries with CRM data
-                            href: tutorials/crm-queries.md
-                          - name: Peer comparison queries
-                            href: tutorials/comparison-query.md
-                          - name: Network queries
-                            items: 
-                              - name: Network person queries
-                                href: tutorials/ona-person-query.md
-                              - name: Network person-to-person queries
-                                href: tutorials/ona-person-to-person-query.md
-                              - name: Network query metrics
-                                href: tutorials/ona-metrics.md
-                          - name: Customize query metrics
-                            href: tutorials/Customize-a-metric.md
-                          - name: View, download, and export query results
-                            href: Use/View-download-and-export-query-results.md
-                          - name: Understand and interpret query output
-                            href: Use/Csv-query-output-file.md
-                          - name: Query auto-refresh
-                            href: tutorials/Query-auto-refresh.md
-                      - name: Capacity model
-                        href: tutorials/consump-model.md 
-                      - name: Business process analysis
-                        href: tutorials/analyze-business-processes.md
-                      - name: Peer analysis
-                        href: use/peer-analysis.md
-                      - name: Explore the stats
-                        items:
-                          - name: Introduction
-                            href: Use/explore-intro.md
-                          - name: Week in the life
-                            href: Use/explore-metrics-week-life.md
-                          - name: Meetings overview
-                            href: Use/Explore-Metrics-meetings-overview.md
-                          - name: Management and coaching
-                            href: Use/Explore-Metrics-management-and-coaching.md
-                          - name: Internal networks
-                            href: Use/Explore-Metrics-internal-networks.md
-                          - name: External collaboration
-                            href: Use/Explore-Metrics-external-collaboration.md
-                          - name: Teams collaboration
-                            href: Use/Explore-metrics-teams.md
-                          - name: Charts
-                            href: Use/Chart-Types.md
-                      - name: wpa R package
-                        href: tutorials/wpa-r-package.md
-                      - name: Zoom integration
-                        href: Use/zoom.md
-                      - name: Qualtrics integration
-                        href: Use/qualtrics.md
-                      - name: Workspace Collaboration Optimizer
-                        href: Use/wsplan.md
-                  - name: Plans
-                    items:
-                      - name: Introduction
-                        href: tutorials/solutionsv2-intro.md
-                      - name: Plan types
-                        items:
-                          - name: Teamwork plans
-                            href: tutorials/teamwork-solution.md
-                          - name: Seller success plan
-                            href: tutorials/seller-success.md
-                      - name: Use plans
-                        items: 
-                          - name: Walkthrough    
-                            href: tutorials/solutionsv2-task.md 
-                          - name: Participants
-                            href: tutorials/solutionsv2-participants.md
-                          - name: Concepts
-                            href: tutorials/solutionsv2-conceptual.md
-                  - name: Notifications 
-                    href: use/wpa-notifications.md 
-              - name: In Power BI
-                href: tutorials/pbi-home-deeper.md
-          - name: Advanced insights FAQ
-            href: use/faq.md
-          - name: Known issues
-            items:
-              - name: Download a query report in UTF-8 format
-                href: tutorials/Download-UTF8-query-report.md
-              - name: Advanced insights 500 error
-                href: tutorials/Wpa-tool-500-error.md
-              - name: Meeting exclusion rules - large meeting limitation
-                href: tutorials/meeting-exclusion-250.md                      
-          - name: Reference
-            items:
-              - name: Glossary
-                href: Use/Glossary.md
-              - name: Metric descriptions
-                href: Use/metric-definitions.md
-              - name: Metric filters
-                href: Use/metric-filters.md
-              - name: Network graph metrics
-                href: Use/insight-ona-measures.md                      
-              - name: Best practices
-                href: Tutorials/gm-best-practices.md
-              - name: Time zones
-                href: Use/Timezones-for-Workplace-analytics.md
-              - name: Languages and guidelines
-                href: Overview/Supported-languages.md
-      - name: Viva Insights FAQ
-        href: use/faq-intro.md
-      - name: Get support
-        href: overview/getting-support.md
+            - name: Introduction to templates
+              href: advanced/analyst/templates/introduction-to-templates.md
+            - name: Business resilience
+              href: advanced/analyst/templates/business-resilience.md
+            - name: Hybrid workforce experience
+              href: advanced/analyst/templates/hybrid-workforce-experience.md
+            - name: Manager effectiveness
+              href: advanced/analyst/templates/manager-effectiveness.md
+            - name: Ways of working
+              href: advanced/analyst/templates/ways-of-working.md            
+            - name: Wellbeing - balance and flexibility
+              href: advanced/analyst/templates/wellbeing.md
+            - name: Power BI tips, FAQ, and troubleshooting
+              href: advanced/analyst/templates/power-bi-faq-troubleshoot.md  
+          - name: Data quality
+            href: advanced/analyst/data-quality-analyst-experience.md
+          - name: Metrics
+            href: advanced/analyst/metrics.md
+          - name: Metric rules
+            href: advanced/analyst/metric-rules.md       
+    - name: Reference
+      items:
+      - name: FAQ
+        href: advanced/reference/faq.md
+      - name: Glossary
+        href: advanced/reference/glossary.md
+    - name: Viva Insights FAQ
+      href: use/faq-intro.md
+    - name: Get support
+      href: overview/getting-support.md
