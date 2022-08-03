@@ -21,9 +21,6 @@ description: "Learn how to use Asana integration with your OKRs."
 
 # Asana integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## About Asana integration
 
 Viva Goals can integrate with Asana projects to automatically update your objectives and key results (OKRs) in Viva Goals. OKR progress is calculated by the number of tasks or subtasks that have been completed in Asana. This integration works for both types of measuring progress: percentage completed or key performance indicator (KPI) progress.

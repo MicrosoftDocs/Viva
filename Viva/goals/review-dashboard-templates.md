@@ -21,9 +21,6 @@ description: "Learn about templates that you can use as an inspiration while cre
 
 # Review Dashboard Templates
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Business reviews happen across multiple levels in an organization. Review Dashboards in Viva Goals help you run these review meetings effectively.
 
 Read on to learn about the templates that you can leverage when creating your next Review Dashboard.
@@ -94,7 +91,7 @@ The monthly business review is often run by Department heads and team managers.
 
 ### Purpose 
 
-The purpose of the monthly business review meeting is to check-in on progress and see how teams can course-correct if needed to achieve their goals.
+The purpose of the monthly business review meeting is to check in on progress and see how teams can course-correct if needed to achieve their goals.
 
 It’s good practice to focus on leading and lagging indicators, progress on goals, and the performance of individual teams within the department.
 
@@ -158,4 +155,4 @@ The purpose of the weekly business review meeting is to focus on leading indicat
 |---------|---------|---------|---------|
 | Project List | Project Initiatives | Lets everyone periodically review Projects in the context of OKRs and gain greater visibility into work that’s driving the progress of OKRs. | Bringing focus on Projects into your weekly review meeting ensures your team works on the right projects that drive results. |
 
-For detailed steps on how to set up Review Dashboards, visit our Review Dashboards article.
+For detailed steps on how to set up Review Dashboards, visit our [Review Dashboards](review-dashboard.md) article.

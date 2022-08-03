@@ -29,7 +29,7 @@ You can configure SharePoint as a learning content source to make your organizat
 
 The knowledge admin (or global administrator) provides a site URL to where the [Learning Service](configure-sharepoint-content-source.md#learning-service) can create an empty centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in Viva Learning.
 
-![Infographic showing the process of getting content from folders to a SharePoint list into Viva Learning, as described in the paragraph above](../media/learning/sharepoint-dataflow.png)
+![Diagram that shows the process of getting content from folders to a SharePoint list into Viva Learning, as described in the paragraph above.](../media/learning/sp-dataflow-infographic.png)
 
 Viva Learning supports the following document types:
 
@@ -209,11 +209,11 @@ Document library folder URLs can be collected from any SharePoint site in the or
 >[!NOTE]
 > You'll need to add the owners as members in order for them to have access.
 
-2. Go to the learning content repository that you created in SharePoint.
+2. Go to the folder where you store learning content that you created in SharePoint.
 3. Select the vertical ellipses (**...**) on the item you want to control access to. If you want to control access to specific items in a folder, go to that folder.
 4. Select **Manage access**.
 
-    ![Screenshot of a folder selected in the learning content repository with the cursor hovering over Manage access.](../media/learning/sharepoint-manage-access.png)
+    ![Screenshot of a folder selected in the documents library with the cursor hovering over Manage access.](../media/learning/sharepoint-manage-access.png)
 
 5. Select the plus icon (**+**) next to **Direct access**.
 
