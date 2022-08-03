@@ -33,11 +33,11 @@ To send praise, open the praise feature in one of the following ways:
 
 1. On the Home page, select **Send praise** button on the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
 
-   ![Praise on Home page.](images/home-page-two-hours.png)
+   ![Screenshot that shows Praise on Home page.](images/home-page-two-hours.png)
 
 2. When the Praise page opens, the badge defaults to **Awesome**. If you’d like to send a different badge with your praise message, select a new choice:
 
-    ![Select a praise badge.](images/new-badge-choice.png)
+    ![Screenshot that shows selecting a praise badge.](images/new-badge-choice.png)
 
 3. Add the name of the person you want to praise.
 
@@ -52,7 +52,7 @@ To send praise, open the praise feature in one of the following ways:
 6. (Optional) Select **Preview**.
    * Inspect your praise on the left panel. If you need to edit it, select **Edit**. Change the badge choice, the recipients list, or the personalized note.
 
-   ![Select Preview.](images/preview.png)
+   ![Screenshot that shows the message preview.](images/preview.png)
 
 7. When it's ready to go, select **Send**.
 
@@ -62,13 +62,13 @@ In Viva Insights, you can always send praise directly from the [**Home** page](#
 
 1. Below the **Type a new message** field, select **Praise**:
 
-   ![Select Praise.](images/content-pane-select-praise.png)
+   ![Screenshot that shows selecting the Praise icon.](images/content-pane-select-praise1.png)
 
    (If the Praise feature does not appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).)
 
 2. When the Praise modal opens, the badge defaults to **Awesome**. If you want to send a different badge with your praise message, select a new choice:
 
-   ![Select new badge.](images/praise-chat-select-new-badge.png)
+   ![Screenshot that shows selecting a new badge.](images/praise-chat-select-new-badge.png)
 
 3. If you’re in a group chat or channel, add the name of the person you want to praise. In a 1:1 chat, the name defaults to the other person in the chat.
 
@@ -82,11 +82,11 @@ In Viva Insights, you can always send praise directly from the [**Home** page](#
 
 1. Below the **Type a new message** field, select more options (the ellipsis):
 
-   ![Ellipsis.](images/type-new-msg.png)
+   ![Screenshot that shows selecting the ellipsis.](images/type-new-msg1.png)
 
 2. In the **Find an app** field, start typing "praise" and then select the **Praise** app to open it.  
 
-   ![Select icon for Praise app.](images/find-app-praise.png)
+   ![Screenshot that shows selecting the icon for the Praise app.](images/find-app-praise.png)
 
    The **Praise** app opens.
 
@@ -107,7 +107,7 @@ You can set praise reminders either on the [**Settings** page](viva-teams-app-se
 1. Select the **Send praise to your colleagues** card, which is located on the **Home** page at center left.
 2. In the praise reminder settings, select the time of day and day of the week, and then move the **Reminders** slider to **On**:
 
-   ![Praise reminder.](images/praise-settings-page.png)
+   ![Screenshot that shows setting a Praise reminder.](images/praise-settings-page.png)
 
    On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send praise from the Viva Insights Home page](#send-praise-from-the-viva-insights-home-page).
 
@@ -118,11 +118,17 @@ You can set praise reminders either on the [**Settings** page](viva-teams-app-se
 
 In the **Looking back** section on the **Praise** page, you can see the history for as many as 24 messages that you have either sent or received over the last six months. This history includes any praise sent or received through this page and through the Teams messaging extension.
 
-![Praise history.](images/praise-history.png)
+![Screenshot that shows Praise history.](images/praise-history.png)
 
 This history includes related praise details, such as the type of badge, who the sender and receiver were, the date and time it was sent, and so on. You can also view the original praise in the Teams chat by selecting **Go to message** within the detailed view of the badge.
 
 You can also access your personal praise history by selecting **Review your praise history** in the **Praise** section that shows within your Teams channel **Posts**. This link only shows you your own personal history that nobody else can see.
+
+## Praise recommendations
+
+At the top of the **Praise** page, you'll see praise recommendations for your top collaborators. If you're a manager, the app recommends team members you haven't praised in a while. To start your message, select the **Send praise** button.
+
+![Screenshot that shows Praise recommendations.](images/praise-recommendations.png)
 
 ## Related topics
 
