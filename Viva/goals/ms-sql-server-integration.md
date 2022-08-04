@@ -20,9 +20,6 @@ description: "Keep track of your OKR progress by automating key updates from you
 
 # MS SQL Server integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## About the MS SQL integration
 
 The Viva Goals integration with MS SQL Server allows you to link your OKRs in Viva Goals to a server database in MS SQL and provides automatic, real-time updates on your objectives. 

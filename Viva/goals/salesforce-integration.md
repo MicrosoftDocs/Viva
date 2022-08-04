@@ -21,9 +21,6 @@ description: "Learn how to integrate your Viva Goals OKRs with Salesforce report
 
 # Salesforce integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals integrates with Salesforce, allowing you to automatically update your Objectives and Key Results (OKRs). For example, if you have a Salesforce report that tracks converted leads, with a goal in mind to increase the value of converted leads to a certain amount, implementing a Salesforce integration will automatically update your progress in Viva Goals.
 
 ## How to set up the Salesforce integration 

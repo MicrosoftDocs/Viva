@@ -20,9 +20,6 @@ description: "Learn about Organizations and Teams in Viva Goals and how to struc
 
 # Understand Organizations and Teams in Viva Goals 
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Organizations and Teams can mean different things to different enterprises. Let’s discuss a few ways, with examples, of how Organizations and Teams can be set up flexibly in Viva Goals to help you identify the best structure for your organization. 
 
 ## Organizations in Viva Goals 
