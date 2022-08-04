@@ -23,7 +23,9 @@ description: "Learn how to create the Viva Connections Dashboard"
 
 # Create a Viva Connections Dashboard
 
-The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. The Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization. 
+The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. 
+
+The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. The Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization. 
 
 ![Image of a Dashboard example.](../media/connections/vc-dashboard.png)
 
@@ -69,24 +71,23 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
 
 4. Select **+ Add a card**.
 
-   ![Image of adding a dashboard card.](../media/connections/add-a-card.png)
+   ![Image of adding a dashboard card.](../media/connections/add-card-dashboard.png)
 
 
 5. Select the type of card you want to add from the Dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the Dashboard, you can preview its appearance in mobile and desktop for different audiences.
 
    **Available cards:**
 
-   |Card Name  |Description  |
-   |---------|---------|
-   |[Approvals](#add-the-approvals-card)     |    Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on documents, and approve expense reports     |
-   |[Assigned Tasks](#add-the-assigned-tasks-card)     |    Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
-   |[Card designer](#design-your-own-card-with-a-quick-view)    |     Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)    |
-   |[Shifts](#add-a-shifts-card)     | Display information about the next or current shift from the Shifts app in Teams          |
-   |[Teams app card](#add-a-teams-app-card)     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
-   |[Third-party cards](#add-a-third-party-card-or-microsoft-app)     |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
-   |[Top news card](#add-the-top-news-card)    |    Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
-   |[Web link](#add-a-web-link-card)    |  Access a site without leaving the Viva Connections app     |
-
+   |Card Name    |Toolbox icon   | Description  |
+   |:-----------:|:-------------:|:-------------:|
+   |[Approvals](#add-the-approvals-card) | ![Image of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on documents, and approve expense reports     |
+   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
+   |[Card designer](#design-your-own-card-with-a-quick-view) | ![Image of the card designer icon.](../media/connections/card-designer-card-icon.png) | Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)|
+   |[Shifts](#add-a-shifts-card)     |![Image of adding a dashboard card.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams          |
+   |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the Dashboard author     |
+   |[Third-party cards](#add-a-third-party-card-or-microsoft-app) | Varies |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
+   |[Top news card](#add-the-top-news-card)    | ![Image of the top news card icon.](../media/connections/top-news-card-icon.png) |   Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+   |[Web link](#add-a-web-link-card)    | ![Image of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
  
 6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
 
