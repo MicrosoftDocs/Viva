@@ -68,7 +68,7 @@ You can opt in or out of the Viva Insights app in Teams, the Viva Insights web a
 
     ![Screenshot that shows selecting the Privacy tab.](../../Images/mya/use/privacy-tab.png)
 
-1. Turn the toggle for Viva Insights **Off**.
+1. Switch the toggle for Viva Insights from **On** to **Off**.
 :::image type="content" source="../../Images/mya/use/viva-insights-opt-out1.png" alt-text="Screenshot that shows the Viva Insights home page." lightbox="../../Images/mya/use/viva-insights-opt-out.png":::
 
 4. Select **Save changes**.
