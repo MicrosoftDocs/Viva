@@ -37,7 +37,7 @@ Depending on your role, the following guides describe how the data processed in 
 Based on your role, the following information explains how Microsoft protects employees' privacy when processing the data that the Viva Insights features use for manager, leader, and advanced insights.
 
 * For leaders, admins, program managers, group or people managers, and analysts: [Data-protection considerations](data-protection-considerations.md)
-* For leaders, admins, and analysts: [Data access after license expiration](/viva/insights/privacy/license-expiration?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* For leaders, admins, and analysts: [Data access after license expiration](license-expiration.md)
 * For admins and analysts: [Privacy and data access](privacy-and-data-access.md)
 
 ## More about advanced insights
