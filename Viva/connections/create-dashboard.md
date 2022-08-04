@@ -79,7 +79,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
    **Available cards:**
 
    |Card Name    |Toolbox icon   | Description  |
-   |:-----------:|:-------------:|:-------------:|
+   |:------------|:-------------:|:--------------|
    |[Approvals](#add-the-approvals-card) | ![Image of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on documents, and approve expense reports     |
    |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
    |[Card designer](#design-your-own-card-with-a-quick-view) | ![Image of the card designer icon.](../media/connections/card-designer-card-icon.png) | Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)|
@@ -89,7 +89,9 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
    |[Top news card](#add-the-top-news-card)    | ![Image of the top news card icon.](../media/connections/top-news-card-icon.png) |   Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
    |[Web link](#add-a-web-link-card)    | ![Image of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
  
-6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
+6. When you're done adding cards and targeting audiences, preview the experience to ensure an ideal viewing experience.
+
+7. Once you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
 
 
 
@@ -101,26 +103,25 @@ The Approvals card connects to [Approvals in Microsoft Teams](https://support.mi
 
 1. While in edit mode, click **+ Add a card** from the Dashboard.
 
-   ![Adding a approvals card.](../media/connections/approvals-card-1.png)
-
 2. Select **Approvals** from the Dashboard toolbox.
 
-      ![Adding an approvals card in the dashboard.](../media/connections/approvals-edit.png)
+   ![Adding a approvals card.](../media/connections/approvals-card-1.png)
 
-3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+3. Select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list.
+
+   ![Adding an approvals card in the dashboard.](../media/connections/approvals-edit.png)
+
 4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
 ## Add the Assigned tasks card
 
-The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the Tasks app in Teams.
+The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the [Tasks app in Teams](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f).
 
 ![Example of an assigned tasks card.](../media/connections/assigned-tasks-card-example.png)
 
 
 1. While in edit mode, click **+ Add a card** from the dashboard.
-
-   ![Adding a tasks card.](../media/connections/tasks-card.png)
 
 2. Select **Assigned Tasks** from the Dashboard toolbox.
 
@@ -140,8 +141,6 @@ You can choose the **Card designer** option to design your own card that include
 ![Example of a card designer card.](../media/connections/card-designer-card-example.png)
 
 1. While in **edit** mode, select **+ Add a card** from the dashboard.
-
-   ![Adding a tasks card.](../media/connections/tasks-card.png)
 
 2. Select **Card designer**.
 
@@ -194,8 +193,6 @@ A Teams app card allows you to create a card for an existing Teams app.
 ![Example of a teams app card.](../media/connections/teams-app-card-example.png)
 
 1. While in **edit** mode, select **+ Add a card** from the Dashboard.
-
-   ![Adding a tasks card.](../media/connections/tasks-card.png)
 
 2. Select **Teams app** from the web toolbox.
 
@@ -262,15 +259,13 @@ A Microsoft app card allows you to create a card that links to Microsoft apps e.
 ## Add the Top news card
 Set up the Top news card to surface [boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). News that has been boosted will prominently display in the Top news card.
 
-![Example of a top news card.](../media/connections/third-party-card-example.png)
+![Example of a top news card.](../media/connections/top-news-card-example.png)
 
 1. While in **edit** mode, select **+ Add a card** from the Dashboard.
 
-   ![Adding a Top news card.](../media/connections/top-news-card.png)
-
 2. Select **Top news** from the web toolbox.
 
-   ![Property panel for the top news card.](../media/connections/top-news-card-example.png)
+   ![Adding a Top news card.](../media/connections/top-news-card.png) 
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
@@ -286,9 +281,9 @@ The Shifts card shows users information about their next or current shift from t
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
-   ![Adding a Shifts app card](../media/connections/shiftsicon.png)
-
 2. Select **Shifts** from the Dashboard toolbox.
+
+   ![Adding a Shifts app card](../media/connections/shiftsicon.png)
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
@@ -304,9 +299,9 @@ Add a web link card when you want your users to go to an internal or external li
 
 1. While in **edit** mode, select **+ Add a card** from the Dashboard.
 
-   ![Adding a web link card.](../media/connections/add-web-link-card.png)
-
 2. Select **Web link** from the web toolbox.
+
+   ![Adding a web link card.](../media/connections/web-link-icon.png)
 
 3. In the property pane on the right side of the page, select your options.
 
@@ -389,7 +384,7 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
    In the following example, the preview is set for mobile devices and highlights the different views that can be created from a single Dashboard.
 
    | View 1                  | View 2                 | 
-   | :------------------- | -------------------: |
+   | :-------------------: | :-------------------: |
    |![Image of one view created for a specific audiences.](../media/connections/preview-dash-1.png) | ![Image of a second view created for a specific audiences..](../media/connections/preview-dash-2.png) | 
    
 
