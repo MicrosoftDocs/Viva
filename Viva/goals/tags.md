@@ -52,7 +52,7 @@ You can use Explorer to filter by tag and create meaningful reports and views. T
 
 2. Add the **Tags** filter, and select the desired tag.
 
-3. Optionally, add other filters to the report. In this example, we use the **Tags** filter in combination with **Last Updated** to bring up recent progress made toward the Annual Event.
+3. Optionally, add other filters to the report. For example, we could use the **Tags** filter in combination with **Last Updated** to bring up recent progress made toward the Annual Event.
 
 4. To separate tags in the exported report, select **Export tag values as separate columns**.
 
