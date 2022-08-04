@@ -68,7 +68,7 @@ In the following screenshot:
 - Example A describes the process of adding a new TitleName for the main category.
 - Example C describes the process of adding a new Title Description for the main category.
 
-  :::image type="content" source="../media/examples-a-and-c.png" alt-text="An example of adding a new name and description for a title" lightbox="../media/examples-a-and-c.png":::
+  :::image type="content" source="../media/example-a-and-c.png" alt-text="An example of adding a new name and description for a title" lightbox="../media/example-a-and-c.png":::
 
 - The following screenshot describes Example B, that is, the process of adding the Content Title for the new main card category.
 
