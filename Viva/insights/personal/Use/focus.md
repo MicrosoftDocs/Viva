@@ -19,7 +19,7 @@ audience: user
 
 The Focus page on your personal insights [Dashboard](dashboard-2.md) shows weekly averages for the time you have available to focus and time spent collaborating with others in your network.
 
-![Focus page.](../../Images/mya/use/focus-dashboard.png)
+:::image type="content" source="../../Images/mya/use/focus-dashboard.png" alt-text="Screenshot of the Focus dashboard" lightbox="../../Images/mya/use/focus-dashboard-expanded.png":::
 
 ## Productivity insights
 
