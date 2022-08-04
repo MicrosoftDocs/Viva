@@ -276,12 +276,12 @@ items:
             href: advanced/analyst/metrics.md
           - name: Metric rules
             href: advanced/analyst/metric-rules.md       
-      - name: Reference
-        items:
-        - name: FAQ
-          href: advanced/reference/faq.md
-        - name: Glossary
-          href: advanced/reference/glossary.md
+        - name: Reference
+          items:
+          - name: FAQ
+            href: advanced/reference/faq.md
+          - name: Glossary
+            href: advanced/reference/glossary.md
       - name: Viva Insights FAQ
         href: use/faq-intro.md
       - name: Get support
