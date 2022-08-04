@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+
 title: Assign licenses overview
 description: Get an overview about assigning licenses to Microsoft Viva Insights users 
 author: lilyolason

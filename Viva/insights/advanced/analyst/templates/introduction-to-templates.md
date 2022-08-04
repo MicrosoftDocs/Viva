@@ -1,5 +1,5 @@
 ---
-title: Hybrid Workforce Experience Power BI report
+title: Introduction to Power BI templates
 description: Learn about Microsoft Viva Insights Power BI templates
 author: lilyolason
 ms.author: v-lilyolason
