@@ -53,6 +53,7 @@ Once you've begun the closing process, you'll then be able to assign a score to 
 The following fields are displayed:
 
 |Field  |Description  |
+|---------|---------|
 |**Metric**    |    This field pertains to the degree of completion that has been achieved for your OKR and may be represented by a KPI or a percent complete. In this field, you'll enter your final number.     |
 |**Overall status**    |    By default, Viva Goals will set your status to *closed*. To be able to close the OKR, this status must remain closed.     |
 |**Score**  |    Based on the above inputs, Viva Goals will recommend a score for your OKR, which is a simple calculation of your completed percentage mapped to a score between 0 and 1. You can choose to accept the Viva Goals-recommended score or override it with many your preference based on the perceived outcome.     |
