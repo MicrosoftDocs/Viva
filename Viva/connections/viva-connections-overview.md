@@ -235,8 +235,13 @@ Many components to the Viva Connections experience can be completely customized.
 
 
 ## Step-by-step guidance to provision Viva Connections
+There are several options to learn more about how to get Viva Connections for your organization.
 
-Use the [quick guide to set up Viva Connections](guide-to-setting-up-viva-connections.md) or get [more detailed guidance on how to plan, build, and launch](/viva/connections/plan-viva-connections). 
+| Option                  | Description        | Time to complete|
+| :--------------------- | :--------------------|:----------------------:|
+| [Quick guide](guide-to-setting-up-viva-connections.md) | Use the quick guide to get a high-level overview of how to get Viva Connections | 10 minutes |
+| [Plan, build, and launch guidance](viva-connections-setup-overview.md) | Get more detailed guidance that focus on tasks in the plan, build, and launch phases.   | 30 minutes           |
+| [Learning path](/learn/paths/viva-connections-get-started/    | Get in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings.       | 2 hours            | 
 
 
 ## More resources
