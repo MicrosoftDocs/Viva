@@ -35,7 +35,7 @@ In **Query setup**, you define some basic information about your query, like its
     :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Time period options":::
     :::image type="content" source="../images/person-query-timeperiod-datepicker.png" alt-text="Date picker for custom Time period":::
     1. Optional: Set the query to automatically update by checking the **Auto-refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people. This option is unchecked by default, but you can check it on any query where the **Time period** isn’t customized.
-        :::image type="content" source="../images/person-query-auto-refresh-with-tooltip.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
+        :::image type="content" source="../images/person-query-auto-refresh-with-tooltip.png" alt-text="Auto-refresh option":::
     >[!Note]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
 
