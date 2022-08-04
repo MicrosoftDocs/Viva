@@ -39,6 +39,9 @@ Viva Learning supports the following document types:
 
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
+>[!NOTE]
+> You can use either a Modern or Classic SharePoint site. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
+
 ## Learning Service
 
 The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees can search for and use your organization's content within Viva Learning. All changes to content, including updated metadata and permissions, will also be applied in the Learning Service within 24 hours.
