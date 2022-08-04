@@ -25,7 +25,7 @@
         - name: Add SharePoint
           href: configure-sharepoint-content-source.md
           items:
-            - name: How permissions work with SharePoint content in Viva Learning
+            - name: Configure permissions for SharePoint content
               href: sharepoint-permissions.md
         - name: Add learning management systems
           href: configure-lms.md

@@ -111,6 +111,9 @@ Create a folder to store learning content for your organization.
 
    ![Screenshot of the Link copied popup.](../media/learning/spfolder-link.png)
 
+> [!IMPORTANT]
+> Users will only be able to view content in Viva Learning if you give them the correct permissions. [Configure permissions for SharePoint content](sharepoint-permissions.md).
+
 ### Metadata
 
 Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning by the Microsoft Graph API.
