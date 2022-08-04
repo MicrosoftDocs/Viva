@@ -105,8 +105,7 @@ In addition to being aligned to OKRs, projects also get their own dashboard in V
     
 ## Understand project progress and status
 
-    > [!NOTE]
-    > Unaligned OKRs will be displayed only in the Projects dashboard and not in the current time period view. Unless you align the project to an objective, you will not be able to see the Project in the current time period view.
+Unaligned OKRs will be displayed only in the Projects dashboard and not in the current time period view. Unless you align the project to an objective, you will not be able to see the Project in the current time period view.
 
 ## How to access your Projects Dashboard
 
