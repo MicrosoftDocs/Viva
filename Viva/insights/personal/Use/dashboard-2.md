@@ -32,7 +32,7 @@ Thank you for trying Viva Insights. Welcome to your new personalized dashboard t
 
 The dashboard opens to the **Home** page that shows you statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
 
-![Your work patterns.](../../Images/mya/use/home-2.png)
+:::image type="content" source="../../Images/mya/use/dashboard-home.png" alt-text="Image alt text." lightbox="../../Images/mya/use/dashboard-home-expanded.png":::
 
 ## Focus and Wellbeing
 
@@ -55,21 +55,15 @@ For more details and tips, see [Network](../use/network.md) and [Collaboration](
 
 ## Productivity insights
 
-Viva Insights gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.  
+Viva Insights gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.These insights are available on your dashboard home page as well as on the specific outcome pages. 
 
-![Digest email insight.](../../Images/mya/use/digest-insight.png)
+![Productivity insights.](../../Images/mya/use/dashboard-productivity-insights-all.png)
 
-These insights are also available on your dashboard home page as well as on the specific outcome pages. Select **View Suggestions** to see research-based recommendations on how to improve your work patterns.
+Select **View Suggestions** to see research-based recommendations on how to improve your work patterns.
 
-![Productivity insights.](../../Images/mya/use/productivity.png)
+![Productivity insights.](../../Images/mya/use/dashboard-productivity-insights-flip.png)
 
 If you don’t meet the qualifications for specific productivity insights on the dashboard, the cards will show you educational tips instead. Educational tips are only available in the dashboard.
-
-### Educational tips
-
-Educational insights give you work productivity and wellbeing tips and ideas, which come from a variety of resources, such as academic and industry research. Viva Insights refreshes these cards periodically to reflect your most recent work patterns. You can come back at a later time to check out new sets of productivity and educational insights.
-
-![Educational insights.](../../Images/mya/use/educational-tips.png)
 
 ## Settings
 
