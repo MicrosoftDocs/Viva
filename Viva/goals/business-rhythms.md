@@ -20,9 +20,6 @@ description: "Learn how to develop a weekly cadence to update, review, and track
 
 # Set up OKR business rhythms
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## Key business rhythm #1: Weekly check-ins 
 
 One of the most important parts of the OKR process is developing a weekly cadence to update, review, and track progress of your OKRs. 
@@ -33,15 +30,13 @@ It's a good idea to set aside 15 minutes to discuss OKRs once a week. That habit
 
 ### Update your OKRs
 
-Make sure your OKRs have the latest information to discuss. Having check-in notifications set up will help keep your team up to date. Learn more at [Check-in reminders and notifications](https://help.ally.io/en/articles/2377894-check-in-reminders-and-notifications). 
+Ensure your OKRs have the latest information to discuss. Having check-in notifications set up will help keep your team up to date. You can learn more about setting up these notifications [here](check-in-reminders.md). 
 
 It's best to have notifications go out at least 24 hours before meetings where you'll  discuss OKRs so your team is prepared.
 
 ### Review OKRs with the team
 
 In your meetings, identify any OKRs marked "behind" or "at risk" in the past week, and drill down to understand details. Additionally you can engage directly with OKRs via likes and comments. For details, see [Check-ins and feedback](https://help.ally.io/en/articles/2107055-check-ins-and-feedback). 
-
-We recommend that you use the [Chart view](https://help.ally.io/en/articles/2375435-chart-view) for these meetings, so you can quickly view the status of OKRs in a visually pleasing format.
 
 ### Compare progress to the previous week
 

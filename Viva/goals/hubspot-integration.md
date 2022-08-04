@@ -21,9 +21,6 @@ description: "Learn how to base your OKR progress in Viva Goals by connecting wi
 
 # Hubspot integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## About the HubSpot integration
     
 The Viva Goals HubSpot integration allows you to link Objectives and Key Results (OKRs) to HubSpot Sales and Marketing metrics for automatic real-time updates on the progress. 

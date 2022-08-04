@@ -20,9 +20,6 @@ description: "Learn how to use OKR Contribution in Viva Goals."
 ---
 
 # OKR contributions
-
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
   
 The Viva Goals OKR contribution feature gives OKR owners and creators flexibility when they specify how much weight each objective, key result, and project has in moving toward a goal. This power helps in tracking progress and prioritizing OKRs and projects. 
   

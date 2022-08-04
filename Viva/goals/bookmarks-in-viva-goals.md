@@ -21,10 +21,7 @@ description: "Learn how to use bookmarks for easy access to teams and users."
 
 # Bookmarks 
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
-You can bookmark users and teams in Viva Goals to access their objectives and key results (OKRs) and other activities without having to browse through all users and teams.
+You can bookmark users and teams in Viva Goals to access their Objectives and Key Results (OKRs) and other activities without having to browse through all users and teams.
 
 To bookmark a user, go to **All users** and search for the user. Then, select the "bookmark" symbol.
 

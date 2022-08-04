@@ -20,10 +20,9 @@ description: "Learn how to close and score OKRs in Viva Goals"
 
 # Close and score OKRs
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+It's been a few months since your ambitious brainstorming session to set quarterly goals. Week after week you've stayed diligent with your check-ins. 
 
-It's been a few months since your ambitious brainstorming session to set quarterly goals. Week after week you've stayed diligent with your check-ins. Now the quarter is ending and you get to find out how close you got to achieving the goals you set. 
+Now the quarter is ending and you get to find out how close you came to achieving the goals you set. 
 
 ## How to close out your OKRs
 
@@ -43,18 +42,6 @@ To score your OKRs for your time period, you first have to begin closing them. W
 
 A side panel will appear, where you can begin the scoring process for your OKR.
 
-Toward the end of each time period, you can save yourself the hassle of closing your OKRs one by one  and instead close them all at once. Here's how you can easily close and reflect on your OKRs: 
-
-1. Go to your OKR page. 
-
-1. Above all your OKRs, select the **Close Objectives button**. This button will open the quick view window.
-
-1. Start reflecting on your OKRs, and assign a score to the objective if you're closing them. If you're postponing the OKR, determine what needs to be cloned and how the progress needs to be cloned while you roll over the unfinished objective.
-
-   Optionally, if you want to close all OKRs in the view, automatically access the next OKR to close by enabling **Continue with *X* remaining OKRs** at the bottom of the **Close objective** panel, which shows a progress summary of OKRs that have been closed or postponed or are pending closure. 
-
-1. Continue closing or postponing each objective as you see fit, until you reach the last objective. 
-
 ## How to score OKRs 
 
 Scores in Viva Goals reflect progress toward an objective or key result on a scale of 0 to 1. The score is typically based on the progress of the success metric or key results. But users can also take into account other qualitative factors and manually override the suggested score. At the end of the relevant time period, a score in the range of 0.6 to 0.8 is generally positive.
@@ -66,12 +53,12 @@ Once you've begun the closing process, you'll then be able to assign a score to 
 The following fields are displayed:
 
 |Field  |Description  |
-|---------|---------|
 |**Metric**    |    This field pertains to the degree of completion that has been achieved for your OKR and may be represented by a KPI or a percent complete. In this field, you'll enter your final number.     |
 |**Overall status**    |    By default, Viva Goals will set your status to *closed*. To be able to close the OKR, this status must remain closed.     |
 |**Score**  |    Based on the above inputs, Viva Goals will recommend a score for your OKR, which is a simple calculation of your completed percentage mapped to a score between 0 and 1. You can choose to accept the Viva Goals-recommended score or override it with many your preference based on the perceived outcome.     |
 |**Continue working on this in another time period?**  |   This is a field where you designate whether you want to move the objective to another time period  to keep working on it. That action postpones completion of the OKR until the next quarter. Select **Yes** or **No** based on preference.    |
 |**Closing note**  |   This is a note about the OKR you're closing. We recommend you enter an  assessment of the success/failure of the OKR and any suggestions you have for including it in future time periods. |  
+
 
 ![Screenshot shows where you score an OKR.](../media/goals/3/36/a.jpg)
 
@@ -96,6 +83,14 @@ When you score and close your OKRs, Viva Goals automatically generates a score f
 Why would you want to modify your score?
 
 If you met with eight investors, and two of them ended the meeting early, four of them turned you down, and two of them not only turned you down but said that your company idea would never work, you might downgrade your score from a "successful" 0.8 to a more realistic 0.3. You went to many meetings, but you're far from getting funding.
+=======
+- If you met with eight investors this month, your score would be 0.8.
+
+- If you met with only two investors this month, your score would be 0.2.
+
+Why would you want to modify your score?
+
+If you met with eight investors, and two of them ended the meeting early, four of them turned you down, and two of them not only turned you down, but said that your company idea would never work, then you might downgrade your score from a "successful" 0.8 to a more realistic 0.3. You went to a lot of meetings, but you're far away from getting funding.
 
 On the other hand, if you met with only two investors, and one of them thought your idea was promising, and the second one agreed to give you $1 million in funding, you could certainly upgrade your score from a "failed" 0.2 to a "mission accomplished": 1.0. 
 
@@ -188,3 +183,4 @@ If the current progress is 0, the status will be **Postponed** by default. A pro
 ***When the progress is anything but 0***
 
 If the current progress is greater than 0, the status will be **Closed** by default. This is because there's been substantial progress made, and you might want to close the objective with the progress you're at. However, you can also postpone this objective to chart progress toward the desired goal.
+

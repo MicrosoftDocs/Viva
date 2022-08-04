@@ -21,10 +21,7 @@ description: "Viva Goals offers the ability to enable a workflow to gain manager
 
 # Approval workflows 
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
-The approval workflow in Viva Goals enables managers to regulate OKR workflows in their organization. There are four stages in the OKR approval workflow:
+The approval workflow in Viva Goals gives managers the ability to regulate OKR workflows in their organization. There are four stages in the OKR approval workflow:
 
 1. Planning
 
@@ -44,7 +41,7 @@ One they're approved, the OKRs are **locked** and can't be changed by the employ
 
 ## How to enable the approval workflow
 
-Go to **Admin Tools** -> **Settings** -> **OKR Workflow** -> **Check Approval Workflow** -> **Save**.
+Go to **Admin Tools -> OKRs & Projects -> OKR Workflow -> Enable Approval Workflow -> Save**.
 
 When this feature is enabled, an extra option becomes available to block changes to OKRs after approval.
    

@@ -21,9 +21,6 @@ description: "Learn about templates that you can use for inspiration when you cr
 
 # Review dashboard templates
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Business reviews happen across multiple levels in an organization. Review dashboards in Viva Goals help you run these review meetings effectively. Learn about the templates that you can use to create your next review dashboard.
 
 ## Quarterly business review template

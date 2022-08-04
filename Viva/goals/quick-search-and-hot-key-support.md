@@ -21,10 +21,7 @@ description: "Learn how to perform key actions with keyboard strokes, and the ab
 
 # Quick search and hot key actions
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
-## Quick search
+## Quick Search
 
 Search for users, teams, objectives, and projects, and bring key actions in Viva Goals together in a seamless experience. With quick search, users can access data in Viva Goals fast, in not more than two commands.
 

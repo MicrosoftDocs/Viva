@@ -20,9 +20,6 @@ description: "Learn about the customizable views to easily surface OKRs and proj
 
 # Understand views in Viva Goals
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 When you log in to your Viva Goals account, you can view all the information on your objectives and key results (OKRs) page. Use the different views to access your OKRs in different ways for different purposes.
 
 ## What views are available in Viva Goals? 
@@ -82,23 +79,23 @@ You can also view the parent objective that a particular objective is aligned to
     - Owner
     - Status
 
-### OKR or project actions within list view 
+### OKR or project actions within list view
 
-- Select the "**>**" expand icon next to an objective to view all the key results, child objectives, and projects under it.  
+1. Select the (`>`) expand icon next to  an objective to view all the key results, child objectives, and projects under it.  
 
-- Select the objective to open the quick view and make updates to that objective.  
+2. Select the objective to open the quick view and make updates to that objective.  
 
-- Select the check-in icon or the progress bar for an OKR/project to initiate and make a check-in. [Learn more about check-ins](okr-check-ins.md).
+3. Select the check-in icon or select the progress bar for an OKR/project to initiate and make a check-in. Learn more about check-ins.
 
-- Add a key result or a project under an objective from the "**...**" more options menu on the row.
+4. Add a key result or a project under an objective from the (`...`) more options menu on the row.
 
-- As an OKR owner, to make edits to an OKR or a project inline, select the edit icon next to the title, owner, type, and time period information in the list.
+5. As an OKR owner, to make edits to an OKR or a project inline, select the edit icon next to the title, owner, type, and time period information in the list.
 
-- Select the more options "**...**" icon on the list view row to perform other actions like close, postpone, or edit alignment for an OKR or a project.
+6. Select the more options (`...`) icon on the list-view row to perform additional actions like close, postpone, edit alignment and more on an OKR or a project.
 
 ## Quick view 
 
-When you open the quick view, you see five tabs:
+When you open the quick view, you'll see it has five tabs:
 
 - Overview
 
@@ -132,7 +129,7 @@ The Overview tab gives you a quick snapshot of the most important information ab
 
 - **Add a description** - Allows you to add a quick blurb that states what the objective is about to provide others with more context.
 
-- **Alignment** - Shows you how the current objective or project is aligned to its parent. For example, if you're viewing an objective's quick view, you'll see how it's aligned to a parent objective, if any. To edit alignment, select the **Edit** button. 
+- **Alignment** - This shows you how the current objective or project is aligned to its parent. For example, if you are viewing an objective's quick view, you will see how it is aligned to a parent objective, if any. To edit alignment, select the ‘Edit’ button.
 
 ### Key Results
 

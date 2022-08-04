@@ -20,9 +20,6 @@ description: "Learn how Multiple Alignment allows users to align a single OKR to
 
 # Multiple Alignment
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals recognizes that the modern workplace is often made up of nonlinear organizational structures and goal matrixes. The Multiple Alignment feature helps. 
 
 ## What is Multiple Alignment? 
@@ -45,7 +42,7 @@ If an objective is aligned to multiple objectives, the progress roll-up will cas
 
 ## When to use Multiple Alignment
 
-- If there's an individual objective that contributes to two separate team objectives
+- Users can use Multiple Alignment if there's an individual objective that contributes to two separate team objectives.
 
 - To group similar individual objectives that are separately aligned to teams above into a single individual objective. The functionality improves the focus of your personal dashboard.
 

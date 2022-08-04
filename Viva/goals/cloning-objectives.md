@@ -20,9 +20,6 @@ description: "Set up OKRs and rollover unfinished objectives quickly with this h
 
 # Clone objectives 
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Cloning objectives helps your OKR process run more efficiently. 
 
 ## When to clone objectives 
