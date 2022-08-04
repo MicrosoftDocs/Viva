@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Access query results and modify existing queries
 description: Learn how to run a custom Person query in the Microsoft Viva Insights advanced insights app
 author: lilyolason

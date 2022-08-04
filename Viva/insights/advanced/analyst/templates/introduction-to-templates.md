@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Hybrid Workforce Experience Power BI report
 description: Learn about Microsoft Viva Insights Power BI templates
 author: lilyolason

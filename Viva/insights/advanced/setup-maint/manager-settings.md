@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Manager settings
 description: Set manager settings in the advanced insights app
 author: lilyolason

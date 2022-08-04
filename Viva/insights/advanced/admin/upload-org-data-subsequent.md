@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Organizational data overview
 description: This article discusses how to upload your data to the Viva Insights advanced insights app after you've already uploaded data there.
 author: lilyolason

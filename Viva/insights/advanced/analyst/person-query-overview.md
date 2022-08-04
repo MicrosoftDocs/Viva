@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Person query overview
 description: Learn about custom Person queries in the Microsoft Viva Insights advanced insights app
 author: lilyolason
