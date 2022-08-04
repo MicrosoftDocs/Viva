@@ -69,7 +69,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 2. Under **Power BI templates**, navigate to **Ways of working** and select **Start analysis**. To get more information about the Ways of working template before running your analysis, select **Learn more**.
 
-    ![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-start.png)
+    ![Ways of working icon](/viva/insights/advanced/images/wow-pbi-start.png)
 
 3. Under **Query setup**:
     1. Type a **Query name**.
@@ -85,10 +85,10 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
         * Power BI queries are set to **Group by Week**. You can't edit this field.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
-![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-setup.png)
+![Query setup section](/viva/insights/advanced/images/wow-pbi-setup.png)
 
 4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
-![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-predefined-metrics1.png)
+![Predefined query metrics](/viva/insights/advanced/images/wow-pbi-predefined-metrics1.png)
 
     >[!Note]
     > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
@@ -137,7 +137,7 @@ After the **Ways of working** report is set up and populated with Viva Insights 
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
-![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-report-settings.png)
+![Report settings page in Power BI](/viva/insights/advanced/images/wow-pbi-report-settings.png)
 
 ### Employees with low collaboration
 

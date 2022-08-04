@@ -37,7 +37,7 @@ After the data successfully validates and processes, the overall data-upload tas
 To upload your .csv file, follow these steps:
 
 1. In the **Organizational data** page, select **.csv upload**.
-    ![Organizational data page](../images/admin-data-hub.png)
+    ![Organizational data page hub.](../images/admin-data-hub.png)
 1. Enter an **Upload name**.
 1. Under **Upload file**, select the .csv file you want to upload. 
     
@@ -89,11 +89,11 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     >To prevent a validation error later, make sure this column is the right data type.
 
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a. 
-     ![Organizational data page](../images/admin-map.png)
+     ![Map Viva attributes](../images/admin-map.png)
 
     >[!Tip]
     > Hover over an attribute name to read its description.
-    > ![Organizational data page](../images/admin-hover-attribute.png)
+    > ![Hover over an attribute](../images/admin-hover-attribute.png)
 
 2. Repeat steps 1a and 1b for custom and optional fields.
     * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it.

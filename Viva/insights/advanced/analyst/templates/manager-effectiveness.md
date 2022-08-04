@@ -121,7 +121,7 @@ After this initial prompt, you can then select **Settings** at top right of any 
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.
 
-![Manager effectiveness report IC and Mgr questions](/viva/insights/advanced/images/manager-effectiveness-pbi-customize-report.png)
+![Manager effectiveness report, customize report](/viva/insights/advanced/images/manager-effectiveness-pbi-customize-report.png)
 
 ## About this report
 

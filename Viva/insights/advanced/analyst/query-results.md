@@ -67,7 +67,7 @@ If you ran the query, you can now edit, delete, or rename it. All other analysts
 
 If an error occurs while a query is running, you’ll see a **Failed** status. 
 
-![Query recurrence toggle with tooltip](../images/query-results-status-failed1.png)
+![Failed status](../images/query-results-status-failed1.png)
 
 ### Results filters
 
@@ -111,7 +111,7 @@ After you’ve successfully renamed your query, you’ll receive a notification 
 
 If you want to change your query’s setup information (like **Query name** and **Time period**), metrics, conditions and condition groups, and employee attributes, you can edit the query and run it again.
 
-![Query recurrence toggle with tooltip](../images/query-results-edit-query-tooltip-close.png)
+![Edit query tooltip](../images/query-results-edit-query-tooltip-close.png)
 
 >[!Caution]
 >The **Edit query** option permanently deletes and replaces the query’s existing results. To keep a query’s existing results, use the **Clone option** instead and make changes in a new query.
@@ -163,7 +163,7 @@ When you define a query, you select metrics and employee attributes. After the q
 2.	Select to open and right-click the zip file, which contains a .csv version of the data, and then select **Extract All** and extract the .csv to a local folder.
 3. Open the extracted .csv file using Excel.
 
-![Query recurrence toggle with tooltip](../images/query-csv-output.png)
+![.csv query output](../images/query-csv-output.png)
 
 ##### Connect through the Power BI Connector
 

@@ -85,7 +85,7 @@ Let’s say you want to upload a new engagement score value for each employee. Y
     * Not open in a different program when you begin the upload process
     * Not larger than 1 GB
 
-    ![Start data-upload process](../images/admin-prepare-upload.png)
+    ![Prepare and upload window](../images/admin-prepare-upload.png)
 
     >[!Note]
     >To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv** template link.
@@ -142,10 +142,10 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     >To prevent a validation error later, make sure this column is the right data type.
 
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a.
-     ![Organizational data page](../images/admin-map.png)
+     ![Map Viva attributes](../images/admin-map.png)
     >[!Tip]
     > Hover over an attribute name to read its description. 
-    > ![Organizational data page](../images/admin-hover-attribute.png)
+    > ![Hover over an attribute](../images/admin-hover-attribute.png)
     >
     >If you’re *updating* data, you can choose to only see the new columns you’ve added or column headers you’ve changed. To do so, select the **Show invalid fields only** toggle.
 2. Repeat steps 4a and 4b for custom and optional fields.

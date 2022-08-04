@@ -32,8 +32,8 @@ In **Query setup**, you define some basic information about your query, like its
 1. Under **Query setup**:
     1. Optional: Name your query. Queries are assigned a default name, which follow this format: Query type, user ID, date, and time. Make sure the name is unique.
     1. Optional: Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a custom date range. If you choose a custom date range, use the date picker to select the range you want to analyze.
-    :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
-    :::image type="content" source="../images/person-query-timeperiod-datepicker.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
+    :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Time period options":::
+    :::image type="content" source="../images/person-query-timeperiod-datepicker.png" alt-text="Date picker for custom Time period":::
     1. Optional: Set the query to automatically update by checking the **Auto-refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people. This option is unchecked by default, but you can check it on any query where the **Time period** isn’t customized.
         :::image type="content" source="../images/person-query-auto-refresh-with-tooltip.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
     >[!Note]
@@ -41,7 +41,7 @@ In **Query setup**, you define some basic information about your query, like its
 
     4. Optional: Type a **Description**.
     1. Optional: Set how the query is grouped. Custom Person queries are grouped by **Month** by default. To change this setting to **Week**, select **More settings** beneath the **Description** box.
-        :::image type="content" source="../images/more-settings.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
+        :::image type="content" source="../images/more-settings.png" alt-text="Description box":::
         Selecting **More settings** brings you to the **More settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
     >[!Note]
     > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
@@ -101,7 +101,7 @@ The app predefines one condition for you: “Is Active.” If you leave this con
 #### To add employees to your query
 
 5. Underneath the predefined "Is Active" filter, select the **Add condition button**, then select **Organizational data**.
-    :::image type="content" source="../images/person-query-add-conditions.png" alt-text="Select metrics section, with 'Add metrics' button highlighted":::
+    :::image type="content" source="../images/person-query-add-conditions.png" alt-text="Add condition button":::
 
     To add a condition group, select the **Add condition group** button and select the **Organizational data** attribute(s), **Operator** (= or !=), and **Value(s)**. The values you select appear as tags.
 

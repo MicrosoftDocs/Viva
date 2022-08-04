@@ -54,7 +54,7 @@ To access and run your own custom Person queries, follow this navigation in the 
 
 Person queries give you data in a clean and easy-to-use format that can take your analysis to the next level. Results show a de-identified list of each measured employee’s productivity metrics (such as time in meetings and email). Each row of data represents one person, and you can select to aggregate the results by day, week, or month. You can also combine .csv output files from two different custom person queries to gain even more in-depth insights. For more information about query results, refer to [Access query results and modify existing queries](./query-results.md). 
 
-:::image type="content" source="../images/query-csv-output.png" alt-text="3 questions Person queries can help answer":::
+:::image type="content" source="../images/query-csv-output.png" alt-text="Person query result .csv output":::
 
 ### How to run a custom Person query
 

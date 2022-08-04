@@ -1,6 +1,6 @@
 ---
 title: Power BI tips, FAQ, and troubleshooting
-description: Learn how the Ways of working PowerBI template from Microsoft Viva Insights helps you explore collaboration, meeting, wellbeing, and coaching patterns.
+description: Get answers to frequently asked questions about using Power BI for Viva Insights data
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
