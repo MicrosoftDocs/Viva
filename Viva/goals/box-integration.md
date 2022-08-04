@@ -21,10 +21,7 @@ description: "Learn how to integrate your spreadsheets in Box with OKRs in Viva 
 
 # Box integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
-The Viva Goals Box integration allows you to update your objectives and key results (OKR) progress automatically by syncing your data from your spreadsheets within Box to your OKRs in Viva Goals. 
+The Viva Goals Box integration allows you to update your Objectives and Key Results (OKR) progress automatically by syncing your data from your spreadsheets within Box to your OKRs in Viva Goals. 
   
 When you link your objectives to the corresponding key performance indicator (KPIs) within spreadsheets in Box, the status of your OKR will be updated based on the data in your spreadsheets. Viva Goals automatically syncs the values for you and charts your progress toward the goal, thus saving time while keeping your OKRs current.
 

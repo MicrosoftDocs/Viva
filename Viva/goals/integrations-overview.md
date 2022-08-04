@@ -20,9 +20,6 @@ description: "Learn how to enable and manage your connections and even request a
 
 # Viva Goals integrations overview
 
-> [!IMPORTANT] 
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals offers integrations with industry-leading tools and platforms you use every day, so your OKR implementation process is as simple, effective, and seamless as possible. Don't switch away from the tools you love, and don't waste time switching back and forth. Use integrations to automatically update OKRs when your work gets done and foster ongoing feedback around your goals.
 
 ## How to enable integrations 

@@ -21,9 +21,6 @@ description: "Learn how to integrate your Viva Goals OKRs with BigQuery Data"
 
 # BigQuery integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 Viva Goals can integrate with Google BigQuery to automatically update your OKRs. 
   
 Consids\er this example: You have data inside your BigQuery warehouse to track the number of converted leads. Your goal is to increase the value of converted leads to a certain amount. By implementing a BigQuery integration, you can save yourself the hassle of repeatedly going back and forth between BigQuery and Viva Goals to update your progress. Viva Goals will sync the values for you and chart your progress toward goals, saving time and keeping OKRs current.

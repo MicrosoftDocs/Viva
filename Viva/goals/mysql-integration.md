@@ -21,9 +21,6 @@ description: "Learn how to integrate your MySQL database with OKRs in Viva Goals
 
 # MySQL Integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## Introduction to MySQL integration
 
 The Viva Goals MySQL integration allows you to update your Objectives and Key Results (OKR) progress automatically depending on the data fetched from your MySQL database. 
