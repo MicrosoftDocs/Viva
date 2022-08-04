@@ -123,8 +123,6 @@ When you make check-ins, the scoring guidance will be displayed for user referen
 
 ![Second screenshot showing view scoring guidance and status for an employee's OKRs.](../media/goals/3/36/g.jpg)
 
-If you have an enterprise subscription and want this feature enabled for your organization, please have an admin account and reach out to support@xxxxx.com with the request. 
-
 ## Best practices for closing and scoring OKRs
 
 **- Keep the evaluation simple.** If your objective is to increase traffic to your website by 20 percent, and you increased it by 15 percent, give yourself a 0.75.
