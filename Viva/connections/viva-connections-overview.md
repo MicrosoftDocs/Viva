@@ -241,7 +241,7 @@ There are several options to learn more about how to get Viva Connections for yo
 | :--------------------- | :--------------------|:----------------------:|
 | [Quick guide](guide-to-setting-up-viva-connections.md) | Use the quick guide to get a high-level overview of how to get Viva Connections | 10 minutes |
 | [Plan, build, and launch guidance](viva-connections-setup-overview.md) | Get more detailed guidance that focus on tasks in the plan, build, and launch phases.   | 30 minutes           |
-| [Learning path](/learn/paths/viva-connections-get-started/)    | Get in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings.       | 2 hours            | 
+| [Learning path](https://docs.microsoft.com/learn/paths/viva-connections-get-started/)    | Get in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings.       | 2 hours            | 
 
 
 ## More resources
