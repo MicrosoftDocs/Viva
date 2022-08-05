@@ -175,8 +175,7 @@ Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also
 
 **Shorten meeting** is triggered when:
 
-* You're composing a meeting.
-* The meeting has a start and end time, or it's recurring.
+* You're composing a one-hour meeting.
 * You're not scheduling a same-day meeting.
 * For *recurring* meetings, there are at least three attendees, including the organizer. Attendees can be either optional or required.
 * For meetings that *don't* recur, there are at least four attendees, including the organizer. Attendees can be either optional or required.
