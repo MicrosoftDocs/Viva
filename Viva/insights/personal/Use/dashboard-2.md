@@ -32,7 +32,7 @@ Thank you for trying Viva Insights. Welcome to your new personalized dashboard t
 
 The dashboard opens to the **Home** page that shows you statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
 
-:::image type="content" source="../../Images/mya/use/dashboard-home.png" alt-text="Image alt text." lightbox="../../Images/mya/use/dashboard-home-expanded.png":::
+:::image type="content" source="../../Images/mya/use/dashboard-home.png" alt-text="Image alt text." lightbox="../../Images/mya/use/dashboard-home-expanded1.png":::
 
 ## Focus and Wellbeing
 
