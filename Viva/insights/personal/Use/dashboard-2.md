@@ -79,7 +79,7 @@ In **Protect Time**, you can:
 * Configure your quiet time to mute mobile notifications from Outlook and Teams for a set number of hours or days.
 * Turn the **Delay Delivery** feature **On** or **Off** for the option to delay delivery of an email until when your co-workers are in their set working hours.
 
-:::image type="content" source="../../Images/mya/use/dashboard-settings-protect-time-tab.png" alt-text="Screenshot that shows the Protect time tab and, when expanded, its settings." lightbox="../../Images/mya/use/dashboard-settings-protect-time-expanded.png":::
+:::image type="content" source="../../Images/mya/use/dashboard-settings-protect-time-tab.png" alt-text="Screenshot that shows the Protect time tab and, when expanded, its settings." lightbox="../../Images/mya/use/dashboard-settings-protect-time-tab-expanded.png":::
 
 In **Daily Briefing**, you can change the settings for your Briefing email, such as to subscribe or unsubscribe and to set up when you want to receive it. For details, see [Briefing settings](../briefing/be-settings.md).
 
