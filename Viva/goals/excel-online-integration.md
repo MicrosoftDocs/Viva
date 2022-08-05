@@ -21,9 +21,6 @@ description: "Learn how to sync your Excel cell values with OKRs in Viva Goals."
 
 # Excel Online integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## Introduction to Excel Online integration
 
 The Viva Goals Excel Online integration allows you to update your Objectives and Key Results (OKR) progress automatically depending on the value of specific cells of Excel Sheets. 
@@ -89,7 +86,7 @@ Once you have configured the connection, the next step is to start linking OKRs 
 
 You have now successfully linked your objective to a Sheet in Excel Online to track the cell value, and updated the status of the corresponding OKR automatically.
 
-The colors of the progress bar in Viva Goals indicates the status of the objective.
+The colors of the progress bar in Viva Goals indicate the status of the objective.
 
 - If the progress is 0 - 25% less than the expected progress at any given point in time, the OKR status is Behind, and the progress bar color will be Orange.
 
