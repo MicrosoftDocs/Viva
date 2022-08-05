@@ -26,7 +26,7 @@ This plan displays insights to help salespeople optimally use their limited time
 
 **Role** - Analyst or Limited analyst
 
-**Prerequisite** - To create a seller success plan, you must have CRM data uploaded. For more information, see [CRM data](../setup/crm-data-upload.md).
+**Prerequisite** - To create a seller success plan, you must have CRM data uploaded. For more information, see [CRM data](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 Complete the following tasks to create and run a seller success plan:
 

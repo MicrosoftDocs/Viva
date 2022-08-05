@@ -68,4 +68,4 @@ We appreciate all your feedback. To report any language-related issues, use **Se
 
 * [Supported languages in meeting exclusion rules](../tutorials/meeting-exclusion-concept.md#supported-languages)
 * [Control settings](../use/settings.md)
-* [Privacy settings considerations](../Privacy/privacy-considerations.md)
+* [Privacy settings considerations](/viva/insights/privacy/privacy-considerations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

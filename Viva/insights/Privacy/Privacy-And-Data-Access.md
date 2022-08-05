@@ -52,7 +52,7 @@ Organizational data is contextual information about your employees (for example:
 The organizational data set is combined with the Microsoft 365 metadata to produce the complete dataset that is analyzed for insights. The data sets are combined using the email addresses of the users, but the email addresses are never shown in Viva Insights through dashboards or query results.
 
 Other information provided in the organizational data set is exposed in Viva Insights and in Viva Insights. Take care to ensure that the data set doesn't include personal data (such as the employee ID).
-For more information, see [Prepare organizational data](../setup/prepare-organizational-data.md).
+For more information, see [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ### Collaboration data from Microsoft 365
 

@@ -72,7 +72,7 @@ For example, the following steps define analysis data for meetings of a particul
 
    ![Add an Attendee filter.](../images/wpa/tutorials/attendee.png)
 
-9. For **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Viva Insights admin has uploaded.)
+9. For **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) that the Viva Insights admin has uploaded.)
 
     ![Sales as function type.](../images/wpa/tutorials/function-type-sales.png)
 

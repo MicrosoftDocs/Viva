@@ -28,11 +28,11 @@ While you can also see these outcomes and their related best practices in the ad
 
 ## Data privacy
 
-For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](../privacy/data-protection-intro.md).
+For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](/viva/insights/privacy/data-protection-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Admin tasks
 
-For access to **My organization**, your admin must assign you the role of _Analyst (Limited)_ for the advanced insights app. Refer your admin to [Assign roles](../setup/assign-roles-to-wpa-admins.md) for details.
+For access to **My organization**, your admin must assign you the role of _Analyst (Limited)_ for the advanced insights app. Refer your admin to [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 Ask your admin also needs to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 

@@ -55,7 +55,7 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
 For further details on Organizational data preparation and upload, download our  [step-by-step guide](https://go.microsoft.com/fwlink/?linkid=2195632).
 
 You can add new attributes to your organizational data at any time.
-For more details on how to add new data for existing employees, review the documentation on [subsequent uploads](/viva/insights/setup/upload-organizational-data2).
+For more details on how to add new data for existing employees, review the documentation on [subsequent uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Set up the template
 

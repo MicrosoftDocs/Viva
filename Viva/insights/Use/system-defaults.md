@@ -37,7 +37,7 @@ If you are _not_ setting up the app, feel free to change these settings whenever
 >[!Important]
 >Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
 
-**Owner** – Viva Insights admins have full access to this page. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Viva Insights admins have full access to this page. For details, see [Assign roles to admins and analysts](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ![System defaults.](../images/wpa/use/sys-def-page.png)
 
@@ -96,5 +96,5 @@ After you add a domain and save the change for this setting, it'll change all of
 
 ## Related topics
 
-* [Set up Advanced insights](../setup/set-up-workplace-analytics.md)
+* [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Privacy settings](privacy-settings.md)

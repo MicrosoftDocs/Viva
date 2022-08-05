@@ -20,7 +20,7 @@ audience: Admin
 Administrators must first upload (import) organizational data before you can analyze insights about your company in the advanced insights app that's available with Microsoft Viva Insights. Complete the following steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 >[!Important]
->Only use the following steps if this is the **first time** you are uploading organizational data. If this is not your first upload, see [Upload organizational data (subsequent uploads)](upload-organizational-data2.md) to update previously uploaded data.
+>Only use the following steps if this is the **first time** you are uploading organizational data. If this is not your first upload, see [Upload organizational data (subsequent uploads)](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to update previously uploaded data.
 
 ## Import tasks
 
@@ -209,4 +209,4 @@ When any data row or column has an invalid value for any attribute, the entire u
 
 ### Related topics
 
-* [Prepare organizational data](prepare-organizational-data.md)
+* [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

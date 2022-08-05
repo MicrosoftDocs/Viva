@@ -27,7 +27,7 @@ You can exclude events with one of the following exclusion types:
 
 * [Attendee exclusions](attendee-exclusion-rules.md) - Use the responses by meeting invitees to optionally exclude them from analysis. For example, invitees who accepted a meeting invitation as "Tentative" would normally be included in analysis by default. By adding an attendee exclusion, you can explicitly exclude them. In this way, creating attendee exclusions lets you effectively redefine "meeting attendance."
 
-**Owners** – Viva Insights Analysts have full access and limited Analysts have read-only access to these settings. For details, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
+**Owners** – Viva Insights Analysts have full access and limited Analysts have read-only access to these settings. For details, see [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ![Analyst exclusion settings](../images/WpA/Tutorials/analyst-exclusion-settings.png)
 

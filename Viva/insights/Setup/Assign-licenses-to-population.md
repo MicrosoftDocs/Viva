@@ -31,7 +31,7 @@ After you have identified the population in scope, the global admin assigns Viva
 The assignment of licenses affects the measured population that is shown in **Data sources**. See [Origin of data counts](../use/office-365-data.md#origin-of-data-counts) for details.
 
 >[!Note]
->Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements](environment-requirements.md).
+>Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ### Subscription status
 
@@ -83,6 +83,6 @@ Azure AD is the single source of truth for licensing statuses. After a user lice
 
 ## Related topics
 
-* [Environment requirements](environment-requirements.md)
+* [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Microsoft 365 data](../use/office-365-data.md)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)

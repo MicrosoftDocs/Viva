@@ -22,6 +22,6 @@ As an admin for Microsoft Viva Insights, you can use **Analyst settings** to con
 * [Privacy settings](privacy-settings.md) - Specify what data is excluded from analysis and what data is visible in Query designer and in Explore the stats.
 * [Exclusion rules](../tutorials/exclusions-introduction.md) - Set up default meeting and attendee exclusion rules for data analysis purposes.
 
-**Owner** – Only Viva Insights admins have full access to Analyst settings. For details about roles, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Only Viva Insights admins have full access to Analyst settings. For details about roles, see [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ![Analyst settings that admins configure](../images/wpa/use/analyst-admin-settings.png)

@@ -28,7 +28,7 @@ The following [illustrative example](#illustrative-example) describes how Viva I
 See the [Glossary](../use/glossary.md) for definitions of the terms related to privacy, such as: aggregation, anonymization, de-identification, hashing, and personal data.
 
 >[!Note]
->To balance the requirements of protecting individual privacy and providing useful information, Viva Insights is gradually incorporating a nuanced approach known as [differential privacy](differential-privacy.md).
+>To balance the requirements of protecting individual privacy and providing useful information, Viva Insights is gradually incorporating a nuanced approach known as [differential privacy](/viva/insights/privacy/differential-privacy?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Illustrative example
 

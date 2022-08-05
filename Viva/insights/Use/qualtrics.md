@@ -87,7 +87,7 @@ A Qualtrics data manager with the necessary credentials must complete the follow
 
 Before using the Viva Insights Query Designer, you must confirm or complete the following prerequisites:
 
-* [The advanced insights app is set up](../setup/set-up-workplace-analytics.md) and ready to use.
+* [The advanced insights app is set up](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and ready to use.
 * Your analysis population is assigned Viva Insights licenses
 * Have a Viva Insights admin assigned to upload organizational (HR) data (who’s synonymous with the _legacy_ Workplace Analytics admin in the following steps).
 * Have a Advanced insights analyst assigned to create and run analysis with the Query designer.
@@ -105,7 +105,7 @@ As a Viva Insights admin, do the following to import organizational and survey d
    ![Required attributes in export file.](../images/wpa/use/qualtrics-attributes.png)
 
 2. Save the organizational file as a UTF-8 encoded .csv file.
-3. To upload this organizational file into Viva Insights, follow the steps in [Subsequent uploads](../setup/upload-organizational-data2.md) and in **Step 6** of [File Upload](../setup/upload-organizational-data2.md#file-upload), select **Add new data for existing employees**.
+3. To upload this organizational file into Viva Insights, follow the steps in [Subsequent uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and in **Step 6** of [File Upload](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#file-upload), select **Add new data for existing employees**.
 4. When prompted to map the custom fields in the app, for **Engagement**, **Motivation**, **Wellbeing**, or any other survey attribute, enter the same field names in the the app's attribute column, and select **Show in report** in the **Report options** column.
 
 ### Data analysis in Viva Insights
@@ -138,14 +138,14 @@ If the organizational data in Viva Insights includes an employee identifier, suc
 If the organizational data in Viva Insights does not share a unique employee identifier with Qualtrics data, your manager needs to do the following to append organizational data in Viva Insights.
 
 1. As the Qualtrics data manager, follow the steps in [Employee Directory Tools](https://www.qualtrics.com/support/employee-experience/directories/employee-directory-tools-ex/#DownloadParticipants) to export a .csv file with employee email and ID data that is required by Viva Insights.
-2. Prepare an organizational data upload (.csv file in UTF-8 format) that maps Viva Insights data to Qualtrics data. See [Prepare organizational data](../setup/prepare-organizational-data.md) for more details about what's required in the upload. For example, the following shows how a unique identifier, such as employee ID from Qualtrics can be mapped to the Viva Insights **PersonID** in the .csv upload file:
+2. Prepare an organizational data upload (.csv file in UTF-8 format) that maps Viva Insights data to Qualtrics data. See [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details about what's required in the upload. For example, the following shows how a unique identifier, such as employee ID from Qualtrics can be mapped to the Viva Insights **PersonID** in the .csv upload file:
 
    ![Required attributes in Qualtrics upload.](../images/wpa/use/qualtrics-id-upload.png)
 
    >[!Note]
    >**EffectiveDate** in this example is the start of the survey period.
 
-3. You then need to upload this organizational file into the advanced insights app by following the steps in [Subsequent uploads](../setup/upload-organizational-data2.md) and select **Add new data for existing employees**.
+3. You then need to upload this organizational file into the advanced insights app by following the steps in [Subsequent uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and select **Add new data for existing employees**.
 4. When prompted to map the custom fields in the app, for UniqueIdentifier (Employee ID), enter the same field name in the app's attribute column, and select **Show in report** in the **Report options** column.
 5. After the upload is successful, notify the analyst that the Qualtrics data is available.
 

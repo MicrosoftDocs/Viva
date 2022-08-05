@@ -149,5 +149,5 @@ People manager isn't technically a role that can be assigned. Assuming these man
 * [Roles in Viva Insights](../use/user-roles.md)
 * [Manager settings](../use/manager-settings.md)
 * [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
-* [Environment requirements](../setup/environment-requirements.md)
+* [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)

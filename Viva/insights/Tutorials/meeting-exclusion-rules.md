@@ -25,7 +25,7 @@ As an analyst, you can work with meeting exclusion rules in the following ways:
 * [Select a rule for use](#select-which-rule-to-use) - Select a rule to apply to data in **Explore the stats** or in **Query designer**.
 * [Archive a rule](#archive-a-rule) - You can archive a rule for later reference.
 
-**Owners** – Viva Insights Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owners** – Viva Insights Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to admins and analysts](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ![Analyst exclusion settings](../images/WpA/Tutorials/analyst-exclusion-settings.png)
 

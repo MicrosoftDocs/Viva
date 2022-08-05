@@ -23,7 +23,7 @@ audience: Admin
 * [Organizational data](organizational-data.md) - Shows information about your company that you provide to Viva Insights through uploads of organizational (HR) data. By default, Viva Insights uses Azure AD data to present data about your organization, unless organizational data is uploaded.
 * [CRM data](crm-data.md) - Shows a high-level view of the latest available CRM data that you uploaded and was successfully processed in Viva Insights.
 
-**Owners** – Viva Insights Admins, Analysts, and limited Analysts have full access to **Data sources**. For details on how to assign roles, see [Assign admin roles](../setup/assign-roles-to-wpa-admins.md).
+**Owners** – Viva Insights Admins, Analysts, and limited Analysts have full access to **Data sources**. For details on how to assign roles, see [Assign admin roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ![Data sources.](../images/WpA/Use/m365data.png)
 

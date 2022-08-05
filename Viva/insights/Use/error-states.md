@@ -36,6 +36,6 @@ Access, connectivity, or other issues can cause pages to not appear or to appear
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Assign licenses](../setup/assign-licenses-to-population.md)
+* [Assign licenses](/viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [User roles in Viva Insights](user-roles.md)
-* [Assign Viva Insights roles](../setup/assign-roles-to-wpa-admins.md)
+* [Assign Viva Insights roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

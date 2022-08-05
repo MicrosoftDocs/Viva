@@ -164,7 +164,7 @@ Follow these steps to upload a file that contains email addresses:
 
     ![Validation results.](../images/wpa/use/validation-results.png)
  
-   In this example, the validation results contain the errors of invalid email addresses and a person who has no Viva Insights license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. To participate, a person needs only a Viva Insights [license assigned](../setup/assign-licenses-to-population.md).
+   In this example, the validation results contain the errors of invalid email addresses and a person who has no Viva Insights license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. To participate, a person needs only a Viva Insights [license assigned](/viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
    If validation errors are found, you cannot proceed with the analysis. After you correct the validation errors (or select a group with other participants), you must re-upload the .csv file to cause Viva Insights to validate the file again. After your .csv file successfully validates, you can proceed with the analysis.
 

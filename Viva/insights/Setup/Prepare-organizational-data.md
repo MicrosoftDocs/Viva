@@ -128,7 +128,7 @@ If the app detects that data is missing for one or more licensed employees, it a
 
 2. Open the .csv file.
 3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. See [Know what data to include](#know-what-data-to-include).
-4. Upload the file. See [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
+4. Upload the file. See [Upload organizational data (subsequent uploads)](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Also include unlicensed employees
 
@@ -235,7 +235,7 @@ For more information about attributes, see the [Attribute reference](#attribute-
 
 ## Upload the data
 
-After you create a source .csv file, you can upload it to the advanced insights app. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
+After you create a source .csv file, you can upload it to the advanced insights app. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If this is not the first time, see [Upload organizational data (subsequent uploads)](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 After your data has been successfully uploaded, the app performs additional validation and processing to complete provisioning. If any problems occur, the Microsoft Viva Insights team will contact your Viva Insights Administrator.
 

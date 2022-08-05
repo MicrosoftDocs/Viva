@@ -77,7 +77,7 @@ The following is required before setting up the Zoom integration tool:
    >[!Important]
    >You must save the mapping file as a .csv (not as an .xls or .xlsx file) with "mapping file" included in the file name.
 
-5. **Append to the existing organizational data** - Your Viva Insights or Viva Insights admin must upload the .csv mapping file with the **HashID** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in the advanced insights app. For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data2.md).
+5. **Append to the existing organizational data** - Your Viva Insights or Viva Insights admin must upload the .csv mapping file with the **HashID** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in the advanced insights app. For detailed instructions, see [Subsequent organizational data uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
    >[!Important]
    >The Zoom meeting data includes identifiable data (email IDs) that must be de-identified before using it to create Viva Insights Person query data. Your admins must protect any identifiable data and only use de-identified Zoom data for analysis purposes.

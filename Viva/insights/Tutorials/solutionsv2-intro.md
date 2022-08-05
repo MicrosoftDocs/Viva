@@ -56,12 +56,12 @@ Confirm that your organization meets the following licensing prerequisites:
 
 * **For plan organizers** &ndash; Identify who in your organization to assign one of the following roles:
 
-  * **Analyst**, **limited analyst**, or **program manager** &ndash; Both analysts and program managers can help identify opportunities for plans, set up plans, run and track plans, and measure plan ROI. (See [Assign Viva Insights roles](../setup/assign-roles-to-wpa-admins.md).)
+  * **Analyst**, **limited analyst**, or **program manager** &ndash; Both analysts and program managers can help identify opportunities for plans, set up plans, run and track plans, and measure plan ROI. (See [Assign Viva Insights roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).)
 
 * **For plan participants** &ndash; Assign both of the following to members of groups that will take part in change plans:
 
-  * A [Viva Insights license](../setup/assign-licenses-to-population.md)
-  * A [Viva Insights service plan](../personal/overview/plans-environments.md)
+  * A [Viva Insights license](/viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+  * A [Viva Insights service plan](/viva/insights/personal/overview/plans-environments?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 
 >[!Note]
 >Managers get access to their team's data and plans in Viva Insights as set in [Manager settings](../use/manager-settings.md).
@@ -94,7 +94,7 @@ Additional information about roles and access:
 
 * For more information about roles in Viva Insights, see [User roles in Viva Insights](../use/user-roles.md).
 
-* For more information about assigning roles, see [Assign roles](../setup/set-up-workplace-analytics.md#setup-steps).
+* For more information about assigning roles, see [Assign roles](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#setup-steps).
 
 ### Plan implementation
 

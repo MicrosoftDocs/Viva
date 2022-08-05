@@ -27,7 +27,7 @@ You can use privacy settings to:
 * [Exclude email addresses](#exclude-domains-or-email-addresses)
 * [Exclude terms from subject lines](#exclude-terms-from-subject-lines)
 
-**Owner** – Viva Insights admins have full access to this page. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Viva Insights admins have full access to this page. For details, see [Assign roles to admins and analysts](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 Admins configure the privacy settings in **Analyst settings** > **Privacy** when setting up the advanced insights app.
 
@@ -66,7 +66,7 @@ If you select **Yes** for **Hash subject lines**, they are converted to a hashed
 For example, you could run a query with the subject-line keyword "All-hands." Based on the attributes you include in the query, the results could show data with that subject line, including the number of meetings, the length and size of the meetings, and so on. However, you could not get a specific list of all the meetings with the subject line "All-hands" (a row for each all-hands meeting).
 
 >[!Note]
->Viva Insights offers a second opportunity to control which HR attributes are included in query output. You can make selections for the "Include in report" and "Hash in report" options in a dropdown menu when you map uploaded HR data. For details, see the descriptions of **Include in report** and **Hash in report** in [Field mapping](../setup/upload-organizational-data2.md#field-mapping).
+>Viva Insights offers a second opportunity to control which HR attributes are included in query output. You can make selections for the "Include in report" and "Hash in report" options in a dropdown menu when you map uploaded HR data. For details, see the descriptions of **Include in report** and **Hash in report** in [Field mapping](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-mapping).
 
 ## Exclude domains or email addresses
 
@@ -135,5 +135,5 @@ Learn more about [Viva Insights privacy and data access](/viva/insights/privacy/
 
 ## Related topics
 
-* [Set up Advanced insights](../setup/set-up-workplace-analytics.md)
+* [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [System defaults](system-defaults.md)

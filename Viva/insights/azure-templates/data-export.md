@@ -33,7 +33,7 @@ Saving the SAS URI enables a workflow that exports the Workplace Analytics data 
 
 You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The export uses the latest available organizational data that was uploaded and processed in Workplace Analytics.
 
-If you add new organizational data attributes to your Workplace Analytics upload, you must also add them as additional fields in the export in **Data export** > **Field privacy**. The new fields are added to the next data export after the data upload is next refreshed and processed in Workplace Analytics. For details, see [Subsequent organizational data uploads](../setup/upload-organizational-data2.md).
+If you add new organizational data attributes to your Workplace Analytics upload, you must also add them as additional fields in the export in **Data export** > **Field privacy**. The new fields are added to the next data export after the data upload is next refreshed and processed in Workplace Analytics. For details, see [Subsequent organizational data uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
 
@@ -144,7 +144,7 @@ The following describes possible values for the **PopulationType** column.
 
 #### HR attributes
 
-The HR attributes represent organizational data your company has uploaded for use in Workplace Analytics. The attributes include a required set of attributes, optional attributes, and custom attributes. For more information about these attributes, see [Prepare organizational data](../setup/prepare-organizational-data.md#attribute-reference).
+The HR attributes represent organizational data your company has uploaded for use in Workplace Analytics. The attributes include a required set of attributes, optional attributes, and custom attributes. For more information about these attributes, see [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#attribute-reference).
 
 ### MailParticipants
 

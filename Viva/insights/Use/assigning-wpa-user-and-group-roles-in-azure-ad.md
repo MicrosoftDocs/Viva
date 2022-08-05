@@ -96,5 +96,5 @@ However, in a larger company where the number of users required for the same rol
 ## Related topics
 
 * [User roles](../use/user-roles.md)
-* [Environment requirements for advanced insights](../setup/environment-requirements.md)
+* [Environment requirements for advanced insights](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [People manager settings](manager-settings.md)

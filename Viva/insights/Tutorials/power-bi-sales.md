@@ -14,7 +14,7 @@ audience: Admin
 
 The Sales effectiveness dashboard for Power BI that’s populated by Microsoft Viva Insights data to help you understand how your sales employees collaborate with external parties and identify opportunities to improve sales effectiveness in your organizations.
 
-Part of the report requires CRM data for advanced insights about CRM account collaboration. For details about how to prepare and upload CRM data into into the advanced insights app, see [Upload CRM data](../setup/crm-data-upload.md). Without CRM data, you can still run the report and access an external collaboration baseline for your organizations. Any collaborators with an external domain are defined as external collaborators.
+Part of the report requires CRM data for advanced insights about CRM account collaboration. For details about how to prepare and upload CRM data into into the advanced insights app, see [Upload CRM data](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Without CRM data, you can still run the report and access an external collaboration baseline for your organizations. Any collaborators with an external domain are defined as external collaborators.
 
 The dashboard includes the following reports.
 
@@ -57,7 +57,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 >[!Note]
->For best results, you must have CRM data available. Without it, insights about account collaboration will be unavailable. For instructions, see [Upload CRM data](../setup/crm-data-upload.md).
+>For best results, you must have CRM data available. Without it, insights about account collaboration will be unavailable. For instructions, see [Upload CRM data](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Set up the dashboard
 
@@ -110,7 +110,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
     ![Their collaborators selections for Power BI Sales dashboard](../Images/WpA/tutorials/pbi-sales-collaborators.png)
 
     >[!Note]
-    >The **Default match with CRM data** setting identifies an external person as a collaborator only when their email address is an exact match in [Customer contacts](../setup/crm-data-upload.md). Alternatively, if **Default + Extrapolation match with CRM data** is selected, an external person is identified as a collaborator if they share the same email domain as a customer contact.
+    >The **Default match with CRM data** setting identifies an external person as a collaborator only when their email address is an exact match in [Customer contacts](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Alternatively, if **Default + Extrapolation match with CRM data** is selected, an external person is identified as a collaborator if they share the same email domain as a customer contact.
 
 12. In **Organizational data**, keep the preselected attributes and select the same optional attributes as you did for the **Sales effectiveness** query in **Step 6**.
 13. When prompted, continue to **Results**. After both queries successfully run, in **Query designer** > **Results**, select the **Download** icon for the **Sales effectiveness** query results, select **PBI template**, and then select **OK** to download the template.

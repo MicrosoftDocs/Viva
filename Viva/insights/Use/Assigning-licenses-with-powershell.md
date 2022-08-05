@@ -374,11 +374,11 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 **If the script is successful but the output reports: Script completed, but the total number of users licensed is zero (0).**
 
 1. Confirm the user is not already licensed.
-2. Confirm the user is using the correct [Exchange Online plan](../setup/environment-requirements.md).
+2. Confirm the user is using the correct [Exchange Online plan](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 3. Confirm the users UPN or proxy email address resolves in the environment.
 
 ## Related topics
 
 * [Assign licenses to the population](../setup/Assign-licenses-to-population.md)
 * [Assign licenses with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
-* [Environment requirements](../setup/environment-requirements.md)
+* [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

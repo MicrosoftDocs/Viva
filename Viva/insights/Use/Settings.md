@@ -40,8 +40,8 @@ For more details about roles, see [Assign roles](../Setup/Assign-roles-to-wpa-ad
 * In **Data sources**, as an owner, you can see what Microsoft 365 collaboration data and organizational data was most recently uploaded into the advanced insights app. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Viva Insights. For details, see [Data sources](data-sourcesv2.md).
 * In **Upload**, admins can upload the following types of data files in .csv format, UTF-8 encoded:
 
-  * **Organizational data** - Contextual information about employees (such as, job title, level, location) from an HR or other information systems that admins upload as a data file into the advanced insights app. For details on preparing this upload file, see [Prepare organizational data](../setup/prepare-organizational-data.md).
-  * **CRM data** - Customer relationship management data from Microsoft Dynamics or Salesforce, which typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries. For details, see [CRM data in Advanced insights](../setup/crm-data-upload.md).
+  * **Organizational data** - Contextual information about employees (such as, job title, level, location) from an HR or other information systems that admins upload as a data file into the advanced insights app. For details on preparing this upload file, see [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
+  * **CRM data** - Customer relationship management data from Microsoft Dynamics or Salesforce, which typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries. For details, see [CRM data in Advanced insights](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Leader and manager settings
 
@@ -57,5 +57,5 @@ In **Analyst settings**, Admins can configure [system defaults](system-defaults.
 
 ## Related topics
 
-* [Set up Advanced insights](../setup/set-up-workplace-analytics.md)
+* [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Plans in Advanced insights](../tutorials/solutionsv2-intro.md)

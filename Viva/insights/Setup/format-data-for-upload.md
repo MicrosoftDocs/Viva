@@ -44,7 +44,7 @@ For these uploads, you can choose from among two file formats. The following sec
 
 >[!Note]
 >
->* For more information about selecting and arranging the _contents_ of these files (as opposed to adhering to their _formatting_ rules), see [Prepare organizational data](prepare-organizational-data.md).
+>* For more information about selecting and arranging the _contents_ of these files (as opposed to adhering to their _formatting_ rules), see [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 >* If you've uploaded data by using one file format and would like to upload data in a different file format in the future, you can do so, as long as you format the data according to the rules in the following sections.
 
 <!-- PER PRAMOD (23 AUGUST 2019) REMOVE THIS. "For now, CRM will continue to support upload only through CSV."
@@ -83,7 +83,7 @@ Acceptable .xlsx files must adhere to the following:
 
 * **The first row contains column headers only** - In the first sheet, the values in the first row are considered to be column headers.
 
-   Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](upload-organizational-data-1st.md#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md).
+   Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md).
 
 * **No duplicate column headers** - Every column header must be unique.
 * **No blank or repetitive cells** - Viva Insights checks all cells in the first row to verify that there are no blank cells and no repetitions.
@@ -136,7 +136,7 @@ All field header or column names must adhere to the following:
 | Contain no special characters | Do not use non-alphanumeric characters such as _@, #, %, &, *_ |
 | Contain at least one lower-case letter | Example: _Hrbp_ <br>All uppercase does not work: <strike>HRBP</strike> |
 | Contain no spaces | Example: _Date1_ |
-| Adhere to the requirements for Viva Insights [required attributes](prepare-organizational-data.md#required-attributes) and [reserved optional attributes](prepare-organizational-data.md#reserved-optional-attributes), including for case sensitivity | For example, for the attributes _PersonId_ and _HireDate_ |
+| Adhere to the requirements for Viva Insights [required attributes](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#required-attributes) and [reserved optional attributes](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#reserved-optional-attributes), including for case sensitivity | For example, for the attributes _PersonId_ and _HireDate_ |
 
 ##### Format the field-value rows
 
@@ -148,7 +148,7 @@ To help ensure that Viva Insights can successfully validate the data in your upl
 
 ##### Use only valid values and formats
 
-When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the [mapping](upload-organizational-data-1st.md#field-mapping) changes the validation type of the attribute in a way that makes the cell valid).
+When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the [mapping](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-mapping) changes the validation type of the attribute in a way that makes the cell valid).
 
 The field values in the data rows must comply with the following rules:
 
@@ -171,7 +171,7 @@ The field values also cannot contain any of the following:
 
 ##### Required data types
 
-In a later step, you [map](upload-organizational-data-1st.md#field-mapping) data in columns to Viva Insights data types. Several attributes that you map in this step are required attributes. They expect particular data formats.
+In a later step, you [map](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-mapping) data in columns to Viva Insights data types. Several attributes that you map in this step are required attributes. They expect particular data formats.
 
 To be able to map data successfully, use the data specified in the following table. Apply these data types by using the steps in [Apply the correct data type](#apply-the-correct-data-type).
 
@@ -265,11 +265,11 @@ The field values also cannot contain any of the following characters:
 3. In Excel, organize the data:
 
    1. Place all of the data on a single worksheet.
-   2. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare organizational data](prepare-organizational-data.md).
+   2. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
    3. All rows below row 1 must contain data about employees. Include one row of data per person, per EffectiveDate.
 
    >[!Note]
-   >Each column represents an attribute. Many attributes are optional, but a few attributes (such as **PersonID**) are required. For details, see [Structure the organizational data](prepare-organizational-data.md#structure-the-organizational-data).
+   >Each column represents an attribute. Many attributes are optional, but a few attributes (such as **PersonID**) are required. For details, see [Structure the organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#structure-the-organizational-data).
 
 4. Save the worksheet into a single, flat, text file.
 
@@ -301,24 +301,24 @@ Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sa
 
 After you have populated and formatted your organizational data file, you can continue with the following intake steps. This section provides an overview only. To see the complete procedures, select the links in these steps:
 
-1. [File upload](upload-organizational-data-1st.md#file-upload).
-2. [Field mapping](upload-organizational-data-1st.md#field-mapping). After the data file is uploaded, you will encounter the mapping screen, where you map the source columns in the data file to Viva Insights names and select a data type.
-3. After you have confirmed the field mapping, [data validation](upload-organizational-data-1st.md#data-validation) starts.
-4. When validation finishes, it reports [success](upload-organizational-data-1st.md#validation-succeeds) or [failure](upload-organizational-data-1st.md#validation-fails). In case of errors, validation logs are made available.
+1. [File upload](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#file-upload).
+2. [Field mapping](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-mapping). After the data file is uploaded, you will encounter the mapping screen, where you map the source columns in the data file to Viva Insights names and select a data type.
+3. After you have confirmed the field mapping, [data validation](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#data-validation) starts.
+4. When validation finishes, it reports [success](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation-succeeds) or [failure](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation-fails). In case of errors, validation logs are made available.
 
    Validation errors can be caused by:
 
    * Cells with invalid formatting, see [Rules for .xlsx files](#rules-for-xlsx-files) and [Rules for .csv files](#rules-for-csv-files)
-   * Missing entries (empty or blank cells), see [Set validity threshold for custom fields](upload-organizational-data2.md#set-validity-threshold-for-custom-fields)
+   * Missing entries (empty or blank cells), see [Set validity threshold for custom fields](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#set-validity-threshold-for-custom-fields)
    * Invalid use of special characters in column headers or in data rows, see [Use only valid values and formats](#use-only-valid-values-and-formats)
 
    If validation fails:
 
-   * If this is your first upload of organizational data, see [Validation fails](upload-organizational-data-1st.md#validation-fails) for details.
-   * If this is a subsequent upload of organizational data, see [Validation fails](upload-organizational-data2.md#validation-fails) for details.
+   * If this is your first upload of organizational data, see [Validation fails](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation-fails) for details.
+   * If this is a subsequent upload of organizational data, see [Validation fails](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation-fails) for details.
   
    > [!Note]
-   > If this is a subsequent upload of organizational data, another factor that can play a role in validation is the _validity threshold_. For more information, see [Field column details](upload-organizational-data2.md#field-column-details) and [Set validity threshold for custom fields](upload-organizational-data2.md#set-validity-threshold-for-custom-fields).
+   > If this is a subsequent upload of organizational data, another factor that can play a role in validation is the _validity threshold_. For more information, see [Field column details](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-column-details) and [Set validity threshold for custom fields](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#set-validity-threshold-for-custom-fields).
 
 <!-- NOTE FROM PRAMOD:
 Specific instructions to create, debug & fix (in case of validation errors) should be separate for CSV & XSLX files. We should have a separate page for each. We should link to these pages as required in the Prepare organizational data, Upload org data (First upload), Upload org data (subsequent uploads) pages.
@@ -326,4 +326,4 @@ Specific instructions to create, debug & fix (in case of validation errors) shou
 
 ## Related topic
 
-[Prepare organizational data](prepare-organizational-data.md)
+[Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

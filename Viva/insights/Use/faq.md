@@ -95,7 +95,7 @@ A1. The main tasks required to enable advanced insights for your organization ar
 * Configure settings
 * Upload organizational data
 
-For details about setup, see [Set up Advanced insights](../setup/set-up-workplace-analytics.md).
+For details about setup, see [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ##### Q2. What if my licensed population works in different time zones or has varying working hours?
 
@@ -103,7 +103,7 @@ A2. Not an issue. Viva Insights can determine each employee's time-zone value an
 
 ##### Q3. Can I configure what data an analyst can access and use?
 
-A3. You can assign the Analyst (Limited access) role to limit an analyst access to only [Explore the stats](explore-intro.md) data for advanced insights. See [Assign roles](../setup/assign-roles-to-wpa-admins.md) and [User roles](user-roles.md) for more details.
+A3. You can assign the Analyst (Limited access) role to limit an analyst access to only [Explore the stats](explore-intro.md) data for advanced insights. See [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [User roles](/viva/insights/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details.
 
 ##### Q4. Why are Start and End times so important during configuration?
 
@@ -131,16 +131,16 @@ A8. No, Advanced insights in Viva Insights does not currently support mailboxes 
 
 A1. An upload can fail if the data has invalid values, if it is missing required data, or if the validity threshold for reserved or optional data is set too high. This is common for custom fields in uploads after the organization's first upload. See the following for details:
 
-* [Validation fails](../setup/upload-organizational-data2.md#validation-fails) in _Upload organizational data (subsequent uploads)_
-* [Validation fails](../setup/upload-organizational-data-1st.md#validation-fails) in _Upload organizational data (first upload)_
+* [Validation fails](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation-fails) in _Upload organizational data (subsequent uploads)_
+* [Validation fails](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation-fails) in _Upload organizational data (first upload)_
 
 ##### Q2. For my first organizational data upload, should I add, edit, or replace?
 
-A2.  For your first upload, you won't see any of these choices. For more details about your first upload, see [Upload organizational data](../setup/upload-organizational-data-1st.md). For more information about when to add or edit data in a subsequent upload, see [Subsequent uploads](../setup/upload-organizational-data2.md#file-upload).
+A2.  For your first upload, you won't see any of these choices. For more details about your first upload, see [Upload organizational data](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). For more information about when to add or edit data in a subsequent upload, see [Subsequent uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#file-upload).
 
-##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields), what percentage is required for the validity threshold?
+##### Q3. For the [required fields](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#system-default-fields), what percentage is required for the validity threshold?
 
-A3. PersonId and EffectiveDate fields must meet 100 percent of the validity threshold, because each row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95 percent of the validity threshold. Note that the calculations for validity threshold consider only two kinds of data values: valid values and blank values. For a validity threshold set to 95 percent, the column will pass validation if fewer than five percent of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail. See [Field column details](../setup/upload-organizational-data2.md#field-column-details) for more information.
+A3. PersonId and EffectiveDate fields must meet 100 percent of the validity threshold, because each row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95 percent of the validity threshold. Note that the calculations for validity threshold consider only two kinds of data values: valid values and blank values. For a validity threshold set to 95 percent, the column will pass validation if fewer than five percent of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail. See [Field column details](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-column-details) for more information.
 
 ##### Q4. What happens if an employee (who is represented by a PersonID) has more than one manager (represented by ManagerIDs)?
 
@@ -148,7 +148,7 @@ A4. Organizational data allows for the identification of only one single, primar
 
 ##### Q5. Who gets the organizational data to upload?
 
-A5. Usually, HR gives this data to the Viva Insights admin, who then [prepares](../setup/prepare-organizational-data.md) and [uploads](../setup/upload-organizational-data-1st.md) it.
+A5. Usually, HR gives this data to the Viva Insights admin, who then [prepares](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [uploads](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) it.
 
 ##### Q6. Who can access organizational data after it has been uploaded?
 
@@ -172,7 +172,7 @@ A2.  Yes. Anyone in your organization can use the meeting exclusion rules that a
 
 ##### Q1. Why is my measured population less than the number of employees with assigned licenses?
 
-A1. This can occur if you selected only a subset of the population for the analysis, or if your admin excluded a subset of the population from the organizational data that's uploaded. See [Assign licenses](../setup/assign-licenses-to-population.md), [Who to include in the data](../setup/prepare-organizational-data.md#which-employees-to-include), and [Origin of data counts](office-365-data.md#origin-of-data-counts) for details.
+A1. This can occur if you selected only a subset of the population for the analysis, or if your admin excluded a subset of the population from the organizational data that's uploaded. See [Assign licenses](/viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [Who to include in the data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#which-employees-to-include), and [Origin of data counts](office-365-data.md#origin-of-data-counts) for details.
 
 ##### Q2. Why do the totals seem too high for internal and external collaborators?
 
@@ -184,7 +184,7 @@ A3. Business policies can affect the historical data that is processed for Viva 
 
 ##### Q4. How does data for meetings and emails sent to distribution lists get processed?
 
-A4. Email and meetings data for a distribution list is processed as a single entity or person. It does not expand the distribution list and assign meeting and email hours to its members. For more accurate data, upload the organizational data attributes for these lists by adding attributes of the distribution-list members or whatever best describes the list population. See [Subsequent uploads](../setup/upload-organizational-data2.md) for details.
+A4. Email and meetings data for a distribution list is processed as a single entity or person. It does not expand the distribution list and assign meeting and email hours to its members. For more accurate data, upload the organizational data attributes for these lists by adding attributes of the distribution-list members or whatever best describes the list population. See [Subsequent uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 ##### Q5. What collaboration information is processed from Microsoft Teams?
 

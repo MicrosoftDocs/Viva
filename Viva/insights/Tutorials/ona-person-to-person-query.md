@@ -86,7 +86,7 @@ _Query results example: Columns A and B_
 
 The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These first two columns appear automatically:
 
-* TieOrigin_[**PersonId**](../setup/prepare-organizational-data.md#personid-define) - A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.  
+* TieOrigin_[**PersonId**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#personid-define) - A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.  
 * TieOrigin_[**GroupId**](#groupid-define) - A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to understand whether there are opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically.
 
 ### The next columns describe the initiator of the tie
@@ -97,9 +97,9 @@ _Query results example: Columns C through E_
 
 The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These three columns represent attributes that you selected while building the query:
 
-* TieOrigin_[**FunctionType**](../setup/prepare-organizational-data.md#functiontype-define). The job function that the employee performs.
-* TieOrigin_[**LevelDesignation**](../setup/prepare-organizational-data.md#leveldesignation-define). The employee's level within the organization.
-* TieOrigin_[**Organization**](../setup/prepare-organizational-data.md#organization-define). The internal organization that the employee belongs to.
+* TieOrigin_[**FunctionType**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#functiontype-define). The job function that the employee performs.
+* TieOrigin_[**LevelDesignation**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#leveldesignation-define). The employee's level within the organization.
+* TieOrigin_[**Organization**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#organization-define). The internal organization that the employee belongs to.
 
 ### The next two columns identify the other participant in the tie
 
@@ -109,7 +109,7 @@ _Query results example: Columns F and G_
 
 The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These first two columns for this person appear automatically:
 
-* TieDestination_[**PersonId**](../setup/prepare-organizational-data.md#personid-define) - A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.
+* TieDestination_[**PersonId**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#personid-define) - A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.
 * TieDestination_[**GroupId**](#groupid-define) - A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties into another team to understand how well connected one is with that team and also discover Diverse ties in another team to understand  opportunities for novel information to flow from that team. You do not select this column as you build a query; it appears automatically.
 
 ### The next columns describe the other participant in the tie
@@ -120,9 +120,9 @@ _Query results example: Columns H through J_
 
 The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These three columns represent attributes that you selected while building the query:
 
-* TieDestination_[**FunctionType**](../setup/prepare-organizational-data.md#functiontype-define). The job function that the employee performs.  
-* TieDestination_[**LevelDesignation**](../setup/prepare-organizational-data.md#leveldesignation-define). The employee's level within the organization.  
-* TieDestination_[**Organization**](../setup/prepare-organizational-data.md#organization-define). The internal organization that the employee belongs to.  
+* TieDestination_[**FunctionType**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#functiontype-define). The job function that the employee performs.  
+* TieDestination_[**LevelDesignation**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#leveldesignation-define). The employee's level within the organization.  
+* TieDestination_[**Organization**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#organization-define). The internal organization that the employee belongs to.  
 
 ### The last columns give the results
 
@@ -148,7 +148,7 @@ _Query results example: Columns K through O_
 
 ### Derived attributes
 
-The following organizational attribute, GroupId, is used in this query type. Note that this attribute is not among the organization data that [admins upload to the app](../setup/upload-organizational-data-1st.md). Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
+The following organizational attribute, GroupId, is used in this query type. Note that this attribute is not among the organization data that [admins upload to the app](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Rather, it is derived from the [ManagerId](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
 
 Attribute (column header) | Description |
 ---------|----------|

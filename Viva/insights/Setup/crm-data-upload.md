@@ -114,7 +114,7 @@ The following is a sample list of **Reserved attributes** that you can optionall
 > [!Note]
 > * Field values cannot contain commas or other special characters.
 > * All Date values must be in the MM/DD/YYYY format.
-> * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign. For more details, see [Use only valid values and formats](prepare-organizational-data.md#attribute-reference).
+> * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign. For more details, see [Use only valid values and formats](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#attribute-reference).
 
 The **AccountsStartDate** is required to help capture a historical snapshot of your CRM data. These  help ensure accuracy of analyses that span the time frames in which changes can occur in your CRM system. For example, in your CRM system, consider an Account with AccountName “Contoso” and AccountID “123” which is created on 01-Jan-2019 and the name is changed to “Contoso Corp” in the system on 01-April-2019. This change will show as a new record with the new AccountsStartDate and AccountName. For example:
 
@@ -218,5 +218,5 @@ For a complete list of rules, see [Attribute notes and recommendations](Prepare-
 
 * [Queries with CRM data](../tutorials/crm-queries.md)
 * [Prepare organizational data](Prepare-organizational-data.md)
-* [First organizational upload](upload-organizational-data-1st.md)
+* [First organizational upload](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [CRM data sources](../Use/crm-data.md)

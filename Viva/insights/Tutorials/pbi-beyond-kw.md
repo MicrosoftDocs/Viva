@@ -147,7 +147,7 @@ Your admin must do the following steps to upload (import) organizational data to
 2. Map the fields in the app.
 3. Allow the app to validate the data.
 
-For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data2.md).
+For detailed instructions, see [Subsequent organizational data uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Power BI tips, troubleshooting, and FAQs
 

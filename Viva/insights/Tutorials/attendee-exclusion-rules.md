@@ -23,7 +23,7 @@ This enables you to measure work-related calendar collaboration in analysis, suc
 
 For example, the data shouldn't include meetings that schedule personal time, or count an invitee as "present" at a meeting when they weren't actually there. The advanced insights app lets you exclude these kinds of events so that they don't skew your data.
 
-**Owners** – Admins and Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to admins](../setup/assign-roles-to-wpa-admins.md).
+**Owners** – Admins and Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to admins](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ![Attendee exclusions](../images/wpa/tutorials/attendee-exclusions.png)
 

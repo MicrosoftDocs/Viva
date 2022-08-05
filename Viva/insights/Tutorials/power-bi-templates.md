@@ -96,7 +96,7 @@ Only the required Organizational attributes are used when setting up the Power B
 
 ##### Q9 How do I integrate additional metrics or data sources with this dashboard?
 
-See [Connect to data in Power BI](/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in the advanced insights app and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within the advanced insights app.
+See [Connect to data in Power BI](/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn about what organizational data you can analyze in the advanced insights app and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within the advanced insights app.
 
 ##### Q10 How do I use Power BI?
 

@@ -53,7 +53,7 @@ Consider implementing the following data-privacy recommendations before you begi
 You have full control over what data to include in analysis using Viva Insights. The primary data source is Microsoft 365, but you supplement it with HR and other data from your organization so that you can group information by job title, location, or other attributes.
 
 * **Data provided by Microsoft 365** - Viva Insights uses header information from Microsoft 365 email and calendar items. This information includes sender and recipients and date and subject lines for email; and organizer, attendees, and duration of meetings. For more information, see [Data provided by Microsoft Microsoft 365](Data-protection-considerations.md#data-provided-by-microsoft-365).
-* **Privacy capabilities in your control** - You decide which users’ mailboxes to include in your Viva Insights study. You can apply multiple controls over this data to limit it further. For more information, see [Privacy capabilities in your control](Data-protection-considerations.md#privacy-capabilities-in-your-control), [Privacy and data access](../Privacy/privacy-and-data-access.md), and [Assign roles to admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
+* **Privacy capabilities in your control** - You decide which users’ mailboxes to include in your Viva Insights study. You can apply multiple controls over this data to limit it further. For more information, see [Privacy capabilities in your control](Data-protection-considerations.md#privacy-capabilities-in-your-control), [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), and [Assign roles to admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
 * **Data provided by your organization** - You control what other information you want to be included in Viva Insights analyses. You must balance the benefits of analyzing along organizational lines with the risks of including the data required to make those analyses. For more information, see [Data provided by your organization](Data-protection-considerations.md#data-provided-by-your-organization).
 * **Who can see the data** - You control who gets to see the data and the results of the analysis. Like other products that work with sensitive data, such as HR systems, Viva Insights is not meant for the general workforce. Rather, its users are expected to have been trained in the handling sensitive information. For more information, see [Who can see the data](Data-protection-considerations.md#who-can-see-the-data).
 
@@ -70,6 +70,6 @@ For more information about the following request types and how to fulfill them, 
 
 ## Additional Resources
 
-* [Viva Insights privacy documentation](../Privacy/privacy-and-data-access.md)
+* [Viva Insights privacy documentation](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * Article 29 Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=4563)
 * EU [General Data Protection Regulation](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC)

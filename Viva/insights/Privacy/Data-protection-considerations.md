@@ -52,7 +52,7 @@ As a data controller, your organization should:
 > Some countries require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology in the workplace, while others restrict when and how employers can process certain employee data. For example, if your company has employees in Germany or Netherlands, then you should consider if works council engagement or approval is required. Moreover, Viva Insights processes data from employee communications, which could be considered “communications data” (including “traffic data”) in Finland. Thus, if your company has employees in Finland, then you should understand how Finnish laws apply to the processing of employee personal data and communications or traffic data to determine if use of Viva Insights is permissible.
 
 * Use Viva Insights privacy controls to direct what data will be analyzed, how data will appear in results, and who will have access to both raw data and the results of analysis.
-* Review and be familiar with this document and other Viva Insights [privacy documentation](privacy-and-data-access.md) provided by Microsoft.
+* Review and be familiar with this document and other Viva Insights [privacy documentation](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) provided by Microsoft.
 
 ### Data processor
 
@@ -78,7 +78,7 @@ A data subject is a person who can be identified through personal data. In the c
 
 ## De-identification of data
 
-To keep from disclosing personal data, Viva Insights de-identifies user data. See [De-identification of personal data](de-identify-data.md) for details.  
+To keep from disclosing personal data, Viva Insights de-identifies user data. See [De-identification of personal data](/viva/insights/privacy/de-identify-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.  
 
 ## Types of data used in analysis
 
@@ -133,7 +133,7 @@ You have full control over what data to include in analysis using Viva Insights.
 
 ### Data provided by Microsoft 365
 
-Viva Insights uses header information from Microsoft 365 email and calendar items. This header information includes sender and recipient, date, and subject lines for email, and organizer, attendee, and duration of meetings. Viva Insights never includes attachments and content in email and calendar items. For a full description of what is included and excluded, see [Privacy and data access](privacy-and-data-access.md).
+Viva Insights uses header information from Microsoft 365 email and calendar items. This header information includes sender and recipient, date, and subject lines for email, and organizer, attendee, and duration of meetings. Viva Insights never includes attachments and content in email and calendar items. For a full description of what is included and excluded, see [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 It’s important to note that while Viva Insights uses this Microsoft 365 data, most of the header information is never directly available to users within the service. Rather, Viva Insights provides computations and metrics based on this information. Furthermore, using the settings within the service, you get to decide and configure what data to use and who can see it. Review the product privacy features documentation for full details.
 
@@ -146,7 +146,7 @@ First, you get to decide which users’ mailboxes to include in your Viva Insigh
 * You can remove all references to any individual from the initial set of user mailboxes that you have included for analysis.
 * You can rule out confidential or private email, or those that are rights protected by using Microsoft's digital rights management technology.
 
-To learn more about privacy, see [Privacy and data access](privacy-and-data-access.md) and [Assign roles to admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
+To learn more about privacy, see [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Assign roles to admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
 
 ### Data provided by your organization
 
@@ -179,10 +179,10 @@ Under the GDPR, data subjects may have rights to request exclusion from processi
 * **Transparency regarding processing** - See [Metric descriptions](../Use/Metric-definitions.md) for detailed information about the metrics calculated by Viva Insights, and what they mean.  
 
 >[!Note]
->Microsoft 365 users can determine whether they have a Viva Insights license and, consequently, whether their data is being processed. For more information, see [Subscription status](../setup/assign-licenses-to-population.md#subscription-status).
+>Microsoft 365 users can determine whether they have a Viva Insights license and, consequently, whether their data is being processed. For more information, see [Subscription status](/viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#subscription-status).
 
 ## Additional resources
 
-* [Privacy and data access](privacy-and-data-access.md)
+* [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * Article 29 Data Protection Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=45631)
 * EU [General Data Protection Regulation](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC)

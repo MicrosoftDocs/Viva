@@ -47,11 +47,11 @@ To learn general information about and step-by-step instructions on how to creat
 
 ## Data analysis options
 
-After you successfully [upload and process CRM data](../setup/crm-data-upload.md) in Viva Insights, the following additional options are available for person, person-to-group, or group-to-group queries.
+After you successfully [upload and process CRM data](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in Viva Insights, the following additional options are available for person, person-to-group, or group-to-group queries.
 
 * In the **Time investors** section, you can optionally filter to include specific time investors based on their HR attributes. Assuming you have uploaded the seller to account mapping table and completed the account owner fields, you can also filter specific time investors based on account attributes for the accounts they own or have been assigned.
 
-* If you mapped your CRM seller and account data to account owners [during the upload process](../setup/crm-data-upload.md), you can filter sellers or sales teams based on account attributes for the accounts they are assigned in the **Time investors** section.
+* If you mapped your CRM seller and account data to account owners [during the upload process](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), you can filter sellers or sales teams based on account attributes for the accounts they are assigned in the **Time investors** section.
 
   For example, the following graphic shows an employee filter of **FunctionType** > Equals > **Sales** *and* customer filters of **IsAccountOwner** or **IsSeller** > Equals > **True**, which will include query results for employee time investors in Sales who are also account owners.
 
@@ -127,7 +127,7 @@ To do this, you can create a query as shown in the following graphic to analyze 
 * [Person-to-group queries](../Tutorials/person-to-group-queries.md)
 * [Group-to-group queries](../Tutorials/group-to-group-queries.md)
 * [Person queries](../Tutorials/person-queries.md)
-* [CRM data upload](../setup/crm-data-upload.md)
+* [CRM data upload](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [CRM data sources](../Use/crm-data.md)
 * [Metric descriptions](../Use/Metric-definitions.md)
 * [View, download, and export query results](../Use/View-download-and-export-query-results.md)
