@@ -31,7 +31,7 @@ Use [Viva Connections](viva-connections-overview.md) to engage and empower front
 - Discover planning considerations and best practice.
 - Get guidance for change management, adoption, and end-user training.
 
-Want to get started now? [Use the quick guide to create your organization’s instance of Viva Connections](/viva/connections/guide-to-setting-up-viva-connections).  
+Want to get started now? [Use the quick guide to create your organization’s instance of Viva Connections](/viva/connections/guide-to-setting-up-viva-connections). Or, take the [Viva Connections learning path](/learn/paths/viva-connections-get-started/) get more in-depth guidance that includes fictitious business stories, examples, and knowledge checks.
 
 
 ## Overview of activities in each phase
