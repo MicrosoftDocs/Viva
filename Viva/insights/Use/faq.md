@@ -160,7 +160,7 @@ A6. For privacy reasons, no one can download the raw data that was uploaded. Viv
 
 ##### Q1. How are privacy settings and meeting-exclusion rules different?
 
-A1. Admins set up the  _privacy settings_ for how data is extracted, such as preventing data from ever being included in any calculation. Note that changes to privacy settings apply to future data extractions and aren't retroactive to past data. See [Privacy settings](privacy-settings.md) and [Privacy and data access](../privacy/privacy-and-data-access.md) for details.
+A1. Admins set up the  _privacy settings_ for how data is extracted, such as preventing data from ever being included in any calculation. Note that changes to privacy settings apply to future data extractions and aren't retroactive to past data. See [Privacy settings](privacy-settings.md) and [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 Analysts use _meeting-exclusion rules_ in queries to help ensure that the results accurately represent relevant meeting norms within the organization. Changes to these rules apply retroactively in the data. See [Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) for details.
 

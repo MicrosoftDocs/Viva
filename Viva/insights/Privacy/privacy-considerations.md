@@ -125,4 +125,4 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 ## Related topics
 
-* [Privacy and data access](../privacy/privacy-and-data-access.md)
+* [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

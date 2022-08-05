@@ -31,7 +31,7 @@ The My team insights are based on information managers and team leads already ha
 
 ##### Q2 What data is used in these insights and how is it protected?
 
-My team insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../privacy/data-protection-considerations.md) for more details.
+My team insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](/viva/insights/privacy/data-protection-considerations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details.
 
 ##### Q3 Can you identify specific team members or see their personal collaboration habits in My team?
 
@@ -58,7 +58,7 @@ Group insights in My team are not shown by default. These insights are based on 
 
 * **Access** - Group insights are only available to those who are licensed and granted access by their Viva Insights admin. Additionally, you must have at least nine direct or indirect reports in Azure Active Directory (AD) to be eligible to see Group insights.
 * **Team population** - Group insights are based on organizational data from Azure AD. The metrics are calculated based on all employees reporting up to you. This is not the team you manually select and set up in the Viva Insights Settings.
-* **Privacy** - The metrics are de-identified and aggregated for Group insights and use differential privacy to keep personal data private. To learn more about differential privacy, see [Differential Privacy](../privacy/differential-privacy.md).
+* **Privacy** - The metrics are de-identified and aggregated for Group insights and use differential privacy to keep personal data private. To learn more about differential privacy, see [Differential Privacy](/viva/insights/privacy/differential-privacy?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ##### Q7 Can I use My team as a team lead?
 

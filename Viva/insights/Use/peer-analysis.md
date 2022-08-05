@@ -36,7 +36,7 @@ To be able to perform the tasks in this article, you must have either the analys
 
 ### Privacy notes
 
-Peer analyses enforce the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the other group.
+Peer analyses enforce the [minimum group size](/viva/insights/privacy/privacy-considerations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#minimum-group-size) settings for your organization. In other words, if the number of members on a team that you select is smaller than the minimum group size, the analysis is halted and cannot continue. This applies to both the reference group and the other group.
 
 The results of analyses are always presented in aggregate form. No individual's data is ever presented in isolation.
 
@@ -171,7 +171,7 @@ Follow these steps to upload a file that contains email addresses:
     <!-- REMOVE FOR NOW (PER SANJAY, WHO IS CHECKING ON THIS) Even if errors were found, you can proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (5), so you can start the analysis with this group. -->
 
    > [!Note] 
-   > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
+   > In addition to the [minimum group size](/viva/insights/privacy/privacy-considerations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group. 
 
 4. Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the other group](#select-the-other-group).
  
@@ -190,7 +190,7 @@ Follow these steps to upload a file that contains email addresses:
    Now, you could proceed with the analysis if the group size falls between the allowed minimum and maximum group sizes. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization).
 
    > [!Note]
-   > In addition to the [minimum group size](../privacy/privacy-considerations.md#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group.
+   > In addition to the [minimum group size](/viva/insights/privacy/privacy-considerations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#minimum-group-size), a maximum group size is also in effect. The current maximum group size for peer analyses is 150 if you are uploading a .csv file to define the group, while the limit is 1000 members if you are using filters to define the group.
 
 3. Return to your current step, either [Identify the reference group](#identify-the-reference-group) or [Select the other group](#select-the-other-group).  
 

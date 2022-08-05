@@ -78,7 +78,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 
 ## Achieved or At Risk KPIs
 
-Because Viva Insights respects user privacy, the Employee experience reports in Power BI do not show information about individual recipients and when necessary to protect privacy, it reports approximated values only. For example, the following shows an approximation about “Hosting targeted meetings.” Groups with less than 10 employees are not shown in the reports. See [De-identification of personal data in Viva Insights](../privacy/de-identify-data.md) for details.
+Because Viva Insights respects user privacy, the Employee experience reports in Power BI do not show information about individual recipients and when necessary to protect privacy, it reports approximated values only. For example, the following shows an approximation about “Hosting targeted meetings.” Groups with less than 10 employees are not shown in the reports. See [De-identification of personal data in Viva Insights](/viva/insights/privacy/de-identify-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 ![Example KPI approximation about Hosting targeted meetings.](../Images/WpA/Tutorials/kpi-example.png)
 
@@ -90,7 +90,7 @@ Number of employees in a group | Value threshold range for Achieved
 11 to 20 | 10 to 90 percent
 21 or more | 5 to 95 percent
 
-For more information, see [Differential privacy in Viva Insights](../privacy/differential-privacy.md).  
+For more information, see [Differential privacy in Viva Insights](/viva/insights/privacy/differential-privacy?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).  
 
 ## Organizational data
 

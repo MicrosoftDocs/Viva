@@ -110,7 +110,7 @@ Term from subject line to exclude | Actual subject line | Excluded
  legal;acquisition | Acquisitions are finalized | No - Does not match partial words, and did not exclude acquisitions
  legal;acquisition |Is this a legal acquisition | Yes  - Excluded both legal and acquisition
 
-Learn more about [Viva Insights privacy and data access](../privacy/privacy-and-data-access.md).
+Learn more about [Viva Insights privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## To configure privacy settings
 
