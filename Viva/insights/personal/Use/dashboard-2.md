@@ -2,7 +2,7 @@
 
 title: Personal insights dashboard
 description: Learn about your work patterns in Microsoft Viva Insights
-author: madehmer
+author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: high 
@@ -13,7 +13,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
@@ -69,7 +69,7 @@ Select **View Suggestions** to see research-based recommendations on how to impr
 
 Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work Week** section of **Settings**. You can access **Settings** at the bottom of the left pane.
 
-![Screenshot that shows the front of a Productivity insight card and the suggestions on the other side.](../../Images/mya/use/dashboard-settings-left-pane.png)
+![Screenshot that shows Settings on the left pane.](../../Images/mya/use/dashboard-settings-left-pane.png)
 
 Changes to your settings are reflected in next week's data.
 <!--verify-->
@@ -89,7 +89,7 @@ In **Protect Time**, you can:
 
 In **Daily Briefing**, you can change the settings for your Briefing email, such as to subscribe or unsubscribe and to set up when you want to receive it. For details, see [Briefing settings](../briefing/be-settings.md).
 
-![Screenshot that shows Delay delivery settings.](../../Images/mya/use/dashboard-settings-briefing.png)
+![Screenshot that shows Briefing email settings.](../../Images/mya/use/dashboard-settings-briefing.png)
 
 <!--verify deletion
 As a manager or team lead with a Microsoft Viva Insights license, you can select **Manage team** in **My Team** to add or remove team members and your team insights will update accordingly. If you're not a manager or team lead, select **I don't lead a team** to hide this section.

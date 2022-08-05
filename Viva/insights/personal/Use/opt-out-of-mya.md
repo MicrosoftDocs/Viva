@@ -2,7 +2,7 @@
 
 title: Opt out of personal insights
 description: How to opt out of Microsoft Viva Insights
-author: madehmer
+author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
@@ -116,7 +116,8 @@ You can opt out of Viva Insights in the dashboard, and also turn off access to t
 
 1. If you want to opt out of:
     * Viva Insights: turn the toggle beneath **Microsoft Viva Insights** from **On** to **Off**.
-    ![Screenshot that shows the Viva Insights Feature settings, Viva Insights](../../Images/mya/use/dashboard-settings-toggles-vi.png)
+    
+        ![Screenshot that shows the Viva Insights Feature settings, Viva Insights](../../Images/mya/use/dashboard-settings-toggles-vi.png)
     >[!Important]
     >When you turn this toggle **Off**, you'll lose access to the items described in [Access](#access).
     * Access to the Dashboard, Digest email, or the Insights Outlook add-in: turn toggle(s) beneath the respective header(s) from **On** to **Off**.
