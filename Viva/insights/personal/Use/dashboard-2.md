@@ -43,7 +43,7 @@ The Wellbeing section shows how well you are disconnecting from work during your
 For more details and tips, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
 
 >[!Tip]
->The _focus plan_ in Viva Insights helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [Focus plan](focus-plan.md).  
+>The _focus plan_ in Viva Insights helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams. For more information, see [Focus plan](focus-plan.md).  
 
 ## Network and Collaboration
 
@@ -55,31 +55,46 @@ For more details and tips, see [Network](../use/network.md) and [Collaboration](
 
 ## Productivity insights
 
-Viva Insights gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.These insights are available on your dashboard home page as well as on the specific outcome pages. 
+Viva Insights gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.These insights are available on your dashboard home page as well as on the specific outcome pages.
 
-![Productivity insights.](../../Images/mya/use/dashboard-productivity-insights-all.png)
+![Screenshot that shows Productivity insight cards.](../../Images/mya/use/dashboard-productivity-insights-all.png)
 
 Select **View Suggestions** to see research-based recommendations on how to improve your work patterns.
 
-![Productivity insights.](../../Images/mya/use/dashboard-productivity-insights-flip.png)
+![Screenshot that shows the front of a Productivity insight card and the suggestions on the other side.](../../Images/mya/use/dashboard-productivity-insights-flip.png)
 
-If you don’t meet the qualifications for specific productivity insights on the dashboard, the cards will show you educational tips instead. Educational tips are only available in the dashboard.
+<!--verify If you don’t meet the qualifications for specific productivity insights on the dashboard, the cards will show you educational tips instead. Educational tips are only available in the dashboard.-->
 
 ## Settings
 
-Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work Week** section of **Settings**. Changes to these settings are reflected in next week's data.
+Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work Week** section of **Settings**. You can access **Settings** at the bottom of the left pane.
 
-In **Protect Time**, you can do the following:
+![Screenshot that shows the front of a Productivity insight card and the suggestions on the other side.](../../Images/mya/use/dashboard-settings-left-pane.png)
+
+Changes to your settings are reflected in next week's data.
+<!--verify-->
+In **Protect Time**, you can:
 
 * Personalize your focus plan by selecting how much focus time you want to schedule for what time of day and set Teams settings accordingly. For more details, see [Focus plan](../use/focus-plan.md).
+
+    ![Screenshot that shows focus plan settings.](../../Images/mya/use/dashboard-settings-focus.png)
+
 * Configure your quiet time to mute mobile notifications from Outlook and Teams for a set number of hours or days.
+
+    ![Screenshot that shows quiet time settings.](../../Images/mya/use/dashboard-settings-quiet.png)
+
 * Turn the **Delay Delivery** feature **On** or **Off** for the option to delay delivery of an email until when your co-workers are in their set working hours.
+
+    ![Screenshot that shows Delay delivery settings.](../../Images/mya/use/dashboard-settings-delay-delivery.png)
 
 In **Daily Briefing**, you can change the settings for your Briefing email, such as to subscribe or unsubscribe and to set up when you want to receive it. For details, see [Briefing settings](../briefing/be-settings.md).
 
+![Screenshot that shows Delay delivery settings.](../../Images/mya/use/dashboard-settings-briefing.png)
+
+<!--verify deletion
 As a manager or team lead with a Microsoft Viva Insights license, you can select **Manage team** in **My Team** to add or remove team members and your team insights will update accordingly. If you're not a manager or team lead, select **I don't lead a team** to hide this section.
 
-![Viva Insights Settings.](../../Images/mya/use/settings.png)
+![Viva Insights Settings.](../../Images/mya/use/settings.png)-->
 
 ## Your feedback
 
@@ -87,23 +102,22 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select **Feedback** on the left pane.
-3. Complete the form, and then select **Submit**.
+3. Complete the form, and then select **Submit**. 
 
 ## Opt out of the dashboard
 
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon in the top right.
+To opt out of the dashboard:
 
-    ![Viva Insights settings.](../../Images/mya/use/mya-gear-settings.png)
+1. Select the gear icon in the top right of your screen.
+ 
+    ![Screenshot that shows the gear icon.](../../Images/mya/use/dashboard-settings-gear.png)
 
-3. Under **Viva Insights**, select **Settings**.
-4. For **Dashboard**, set the control to **Off**.
+2. Under **Viva Insights**, select **Settings**.
+1. Under **Dashboard**, switch the toggle from **On** to **Off**.
 
-    ![Slider in off position.](../../Images/mya/use/Slider-off.png)
-  
-5. Select **Save** to save your changes.
+    ![Screenshot that shows toggle set to Off.](../../Images/mya/use/dashboard-settings-toggle-off.png)
 
->[!NOTE]
+>[!Note]
 >It might take up to 24 hours for your saved changes to take effect. See [Opt out](../overview/mya-faq.md#opt-out) for more details on opting out of digest emails or inline suggestions.
 
 ### If I am opted out, can I opt back in?

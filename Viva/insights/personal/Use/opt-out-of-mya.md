@@ -22,8 +22,10 @@ You can opt in or out of the Viva Insights app in Teams, the Viva Insights web a
 ## To opt out of Viva Insights in the app
 
 1. Select the ellipses at the top-right of the Viva Insights window, then select **Settings**.
-![Screenshot that shows selecting Settings.](../../Images/mya/use/vi-settings-ellipses.png)
-1. Select the **Privacy** tab.
+
+    ![Screenshot that shows selecting Settings.](../../Images/mya/use/vi-settings-ellipses.png)
+
+2. Select the **Privacy** tab.
 
     ![Screenshot that shows selecting the Privacy tab.](../../Images/mya/use/privacy-tab.png)
 
