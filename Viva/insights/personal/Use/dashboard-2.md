@@ -32,7 +32,7 @@ Thank you for trying Viva Insights. Welcome to your new personalized dashboard t
 
 The dashboard opens to the **Home** page that shows you statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
 
-:::image type="content" source="../../Images/mya/use/dashboard-home.png" alt-text="Image alt text." lightbox="../../Images/mya/use/dashboard-home-expanded1.png":::
+:::image type="content" source="../../Images/mya/use/dashboard-home.png" alt-text="Screenshot that shows the dashboard home page." lightbox="../../Images/mya/use/dashboard-expanded1.png":::
 
 ## Focus and Wellbeing
 
@@ -76,20 +76,14 @@ Changes to your settings are reflected in next week's data.
 In **Protect Time**, you can:
 
 * Personalize your focus plan by selecting how much focus time you want to schedule for what time of day and set Teams settings accordingly. For more details, see [Focus plan](../use/focus-plan.md).
-
-    ![Screenshot that shows focus plan settings.](../../Images/mya/use/dashboard-settings-focus.png)
-
 * Configure your quiet time to mute mobile notifications from Outlook and Teams for a set number of hours or days.
-
-    ![Screenshot that shows quiet time settings.](../../Images/mya/use/dashboard-settings-quiet.png)
-
 * Turn the **Delay Delivery** feature **On** or **Off** for the option to delay delivery of an email until when your co-workers are in their set working hours.
 
-    ![Screenshot that shows Delay delivery settings.](../../Images/mya/use/dashboard-settings-delay-delivery.png)
+:::image type="content" source="../../Images/mya/use/dashboard-settings-protect-time-tab.png" alt-text="Screenshot that shows the Protect time tab and, when expanded, its settings." lightbox="../../Images/mya/use/dashboard-settings-protect-time-expanded.png":::
 
 In **Daily Briefing**, you can change the settings for your Briefing email, such as to subscribe or unsubscribe and to set up when you want to receive it. For details, see [Briefing settings](../briefing/be-settings.md).
 
-![Screenshot that shows Briefing email settings.](../../Images/mya/use/dashboard-settings-briefing.png)
+:::image type="content" source="../../Images/mya/use/dashboard-settings-briefing-tab.png" alt-text="Screenshot that shows the Daily briefing tab and, when expanded, its settings." lightbox="../../Images/mya/use/dashboard-settings-briefing-tab-expanded.png":::
 
 <!--verify deletion
 As a manager or team lead with a Microsoft Viva Insights license, you can select **Manage team** in **My Team** to add or remove team members and your team insights will update accordingly. If you're not a manager or team lead, select **I don't lead a team** to hide this section.
@@ -102,7 +96,7 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select **Feedback** on the left pane.
-3. Complete the form, and then select **Submit**. 
+3. Complete the form, and then select **Submit**.
 
 ## Opt out of the dashboard
 
