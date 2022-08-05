@@ -21,14 +21,22 @@ Meetings, emails, and chats are necessary to get work done, but they often leave
 
 The focus plan in Viva Insights helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs:
 
-* You can silence or allow chats in Teams and in Skype for Business. 
+* You can silence or allow chats in Teams. 
 * You can mute or unmute team notifications. 
 
 You can create, configure, or end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
 
 ## To create your focus plan
 
-You can create your focus plan in the [Dashboard](#create-focus-plan-in-the-dashboard) or in the [Insights Outlook add-in](#create-focus-plan-in-the-insights-outlook-add-in):
+You can create your focus plan in the [Dashboard](#create-focus-plan-in-the-dashboard), in the app, or in the [Insights Outlook add-in](#create-focus-plan-in-the-insights-outlook-add-in):
+
+### Create focus plan in the app
+
+1.	On the app’s **Home** page, find the **Protect time** card, which shows you available times in your calendar that you can book to focus. Select **More options** to the right of the **Book now** button. Alternately, select the **Protect time** tab at the top of the app.
+
+    ![Focus plan - Get started.](../../Images/mya/use/focus-time-more-options.png)
+
+2. Find the **Focus plan** card, then select **Get started**.
 
 ### Create focus plan in the dashboard
 
