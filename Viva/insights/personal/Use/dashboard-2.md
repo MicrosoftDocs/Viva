@@ -71,7 +71,7 @@ Educational insights give you work productivity and wellbeing tips and ideas, wh
 
 <!--pending screenshot-->
 
-![Screenshot that shows the front of a Productivity insight card and the suggestions on the other side.](../../Images/mya/use/educational-tips.png)
+![Screenshot that shows Educational tips cards.](../../Images/mya/use/educational-tips.png)
 
 
 ## Settings
