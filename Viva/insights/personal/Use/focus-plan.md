@@ -28,15 +28,17 @@ You can create, configure, or end your focus plan at will. For more information,
 
 ## To create your focus plan
 
-You can create your focus plan in the [Dashboard](#create-focus-plan-in-the-dashboard), in the app, or in the [Insights Outlook add-in](#create-focus-plan-in-the-insights-outlook-add-in):
+You can create your focus plan in three places:
 
-### Create focus plan in the app
+* [Viva Insights app](#create-focus-plan-in-the-app)
+* [Dashboard](#create-focus-plan-in-the-dashboard)
+* [Insights Outlook add-in](#create-focus-plan-in-the-insights-outlook-add-in)
 
-You can enroll in a focus plan in a few ways--from the Home page or from the **Protect time** tab.
+### In the app
 
-#### From the Home page
+From the Viva Insights app Home page:
 
-1. Locate the **Focus time** card on the Home page.
+1. Locate the **Focus time** card beneath **Improve work life balance**.
 1. Select **Get started**.
 
  ![Screenshot that shows the Focus time card and Get started button.](../../Images/mya/use/focus-plan-enroll.png)
@@ -46,12 +48,12 @@ You can enroll in a focus plan in a few ways--from the Home page or from the **P
     * Your first time using a focus plan, you'll be prompted to confirm settings in **Focus plan preferences** after you select **Get started**. These settings are described further in the next section.
     * *Not* your first time using a focus plan, Viva Insights automatically starts booking focus time for you. You can change your settings later in **Focus plan preferences**.
 
-Alternately, you can select **More options** to the right of the **Book** button on the **Protect time** card. **More options** takes you to the **Protect time** tab; refer to the next section for your next steps.
+#### By using Protect time
+
+Alternately, you can set up your focus plan through **Protect time**. To get there, either directly select the **Protect time** tab, or select **More options** on the **Protect time** card on the Home page.
     ![Screenshot that shows the Protect time card and More options link.](../../Images/mya/use/focus-time-more-options1.png)
 
-#### From the Protect time tab
-
-After you arrive at the **Protect time** tab, either by selecting it directly or by selecting **More options** from the **Protect time** card:
+In the **Protect time** tab:
 
 1.	Locate the **Focus plan** card.
 1. Select **Get started**.
@@ -64,29 +66,12 @@ After you arrive at the **Protect time** tab, either by selecting it directly or
    
         ![Screenshot that shows the Focus plan card and the View settings link.](../../Images/mya/use/focus-plan-view-settings.png)
 
-### Change your focus plan preferences in the app
-
-To change settings right after you set up your focus plan, select **View settings** on the card’s success screen (image above). 
-
-You can change settings at any other time within the **Protect time** tab; just select **View focus plan preferences** on the **Focus plan** card. The **Focus plan** card also shows you how much focus time you’ve kept, and how much is booked for the next week.
-
-![Screenshot that shows the Focus plan card and the View settings link.](../../Images/mya/use/focus-plan-view-preferences.png)
-
-After you arrive at the preferences page, you can pick:
-
-* How many hours you want to spend focusing each day.
-* Whether you want to focus in the morning or afternoon.
-* The earliest you’d want Viva Insights to schedule focus time. 
-* Whether you want reminders or to mute Teams notifications during your focus time.
-
-![Focus plan - Get started.](../../Images/mya/use/focus-plan-preferences.png)
-
-### Create focus plan in the dashboard
+### In the dashboard
 
 1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
 
    ![Focus plan - Get started.](../../Images/mya/use/focus-dashboard-get-started.png)
-
+<!--waiting on new screenshots-->
 2. Select the number of hours of focus time you would like Viva Insights to book for you every day, and then select **Next**.
 
    ![Focus plan - Choose hours.](../../Images/mya/use/focus-plan-choose-hours-83.png)
@@ -103,40 +88,31 @@ After you arrive at the preferences page, you can pick:
 
      See [Automatic booking of focus time](#automatic-booking-of-focus-time) for details.
 
-#### Change your focus-plan preferences
+### In the Insights Outlook add-in
 
-You can always modify your focus-plan preferences by selecting **Plan Configuration**.
+1. Select the **Want focus time every day?** insight.
 
-   ![Focus plan - Settings.](../../Images/mya/use/focus-plan-open-settings.png)
-
-This opens the **Plan configuration** pane, on which you can change the number of focus hours per day, your preference of morning or afternoon, and whether to mute Teams notifications. See [To leave or change your focus plan](#to-leave-or-change-your-focus-plan).
-
-### Create focus plan in the Insights Outlook add-in
-
-You can also use the Outlook add-in to enroll in the focus plan. To do so, follow these steps.
-
-1. Select the insight **Want focus time every day?**
-
-   ![Create focus plan in add-in.](../../Images/mya/use/want-focus-time.png)
+   ![Screenshot that shows Want focus time every day? insight](../../Images/mya/use/outlook-focus-plan-start.png)
 
 2. Select **Book time now**.
 
-   ![Book time now.](../../Images/mya/use/book-time-now.png)
+   ![Screenshot that shows the Create your focus plan window with Book time now option.](../../Images/mya/use/book-time-now.png)
 
    The Insights pane now notifies you that your focus plan has begun, and your calendar now contains focus-time blocks:
 
-   ![Plan has started.](../../Images/mya/use/all-set.png)
+   ![Screenshot that shows the Outlook add-in's focus plan confirmation window.](../../Images/mya/use/outlook-focus-plan-confirmation.png)
 
 Now that your focus plan is underway, you can do the following: 
 
-* [Check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan)
-* [Leave or change your focus plan](#to-leave-or-change-your-focus-plan)
+* [Check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan).
+* [Leave or change your focus plan](#to-leave-or-change-your-focus-plan).
+
 
 ## To check the progress of your focus plan
 
 After your plan has started, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report.
 
-In the dashboard, select **Focus** on the left to see statistics about your focus time:
+In the dashboard, select **Focus** on the left pane to see statistics about your focus time:
 
    ![Dashboard report.](../../Images/mya/use/track-progress.png)
   
@@ -159,28 +135,60 @@ During the number of days shown (in the screenshot, three days) Viva Insights ha
 >[!Note]
 >If you make changes to your Outlook calendar, they will be reflected on your dashboard within five minutes.
 
-<!-- 
-### To add tasks to your focus time
-[Need steps here]
--->
+## To change or leave your focus plan
 
-## To leave or change your focus plan
+Through the app or the dashboard, you can change or opt in and opt out of the focus plan as many times as you want.
 
-_**Applies to**: The new Focus Plan Settings page (which is described in this section) is currently in preview status. It is in the process of rolling out to all Viva Insights users._
+### In the app
 
-You can opt in and opt out of the focus plan as many times as you want. 
+#### To make changes
 
-* Select **Plan configuration**:
+From the Home page:
 
-    ![Plan configuration.](../../Images/mya/use/plan-config.png)
+1. Locate the **Focus plan** card beneath **Your insights**.
+1. Select **View focus plan preferences**.
+
+ ![Screenshot that shows the Focus plan card with the View plan preferences option](../../Images/mya/use/focus-plan-your-insights-view-preferences.png)
+
+3. On the preferences page, you can pick:
+   * How many hours you want to spend focusing each day.
+   * Whether you want to focus in the morning or afternoon.
+   * The earliest you’d want Viva Insights to schedule focus time.
+   * Whether you want reminders or to mute Teams notifications during your focus time.
+
+   ![Screenshot that shows Focus plan preferences.](../../Images/mya/use/focus-plan-preferences-app.png)
+
+4. After you're done making edits, select Save changes.
+
+#### To leave
+
+Select the **Leave plan** button at top right. 
+
+   ![Screenshot that shows the Leave plan button.](../../Images/mya/use/focus-plan-app-leave-plan.png)
+
+Answer the survey question, then select **Leave plan** again.
+
+### In the dashboard
+
+#### To make changes
+
+1. Select **Plan configuration**.
+
+    ![Screenshot that shows the Plan configuration link.](../../Images/mya/use/dashboard-focus-plan-config.png)
  
-    This opens the **Configurations** page and displays the **Plan configuration** pane, on which you can leave the plan or change your preferences.
+1. In the **Protect time** tab, configure your settings.
 
-    ![Plan configuration card.](../../Images/mya/use/plan-config-pane.png)
+    ![Screenshot that shows focus time settings.](../../Images/mya/use/dashboard-settings-configure-focus.png)
    
-   After you indicate your preferences, select **Save changes**.
-   
-   To have Viva Insights stop helping you book focus time, select **Leave plan**. 
+1. After you indicate your preferences, select **Save changes**.
+
+#### To leave
+
+To have Viva Insights stop helping you book focus time, turn the toggle for **Focus plan enabled** from **On** to **Off**. 
+
+ ![Screenshot that shows the toggle next to Focus plan enabled](../../Images/mya/use/dashboard-focus-plan-toggle.png)
+
+Answer the survey question, then select **Submit**.
 
 ## Concepts
 
