@@ -83,15 +83,9 @@ After you arrive at the preferences page, you can pick:
 
 ### Create focus plan in the dashboard
 
-When you enroll in the focus plan, you configure how focus time will be booked on your calendar. Viva Insights books this time based on the preferences that you set:
-
-* The number of focus hours per day &mdash; one, two, or four hours.
-* Your preferred time of day &mdash; morning or afternoon.  
-* Whether to mute or to allow chat notifications in Teams. Muting chat notifications changes your Teams status to "Focusing."
-
 1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
 
-   ![Focus plan - Get started.](../../Images/mya/use/focus-every-day-83.png)
+   ![Focus plan - Get started.](../../Images/mya/use/focus-dashboard-get-started.png)
 
 2. Select the number of hours of focus time you would like Viva Insights to book for you every day, and then select **Next**.
 
