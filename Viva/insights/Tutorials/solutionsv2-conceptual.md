@@ -17,7 +17,7 @@ audience: Admin
 
 # Plan concepts
 
-This section describes concepts whose understanding can help you create and monitor Teamwork improvement plans. These creation and monitoring tasks are described in the step-by-step walkthrough for creating a plan, [Plan walkthrough](solutionsv2-task.md).
+This section describes concepts whose understanding can help you create and monitor Teamwork improvement plans. These creation and monitoring tasks are described in the step-by-step walkthrough for creating a plan, [Plan walkthrough](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Use of a .csv file
 
@@ -43,7 +43,7 @@ You can change the minimum group size to a level that you consider more relevant
 In the **Group Details** area of the **Upload group** page, you can check the number of members shown for the uploaded group. (The app obtains this number from the number of rows in the uploaded .csv file.) If this number is less than your organization’s minimum group size, you cannot submit this group for processing and use. LEANNA SAYS THIS IS LEGACY. -->
 
 > [!Note] 
-> After you submit a group that was manually uploaded, if too many email addresses are invalid and the group drops below minimum group size, you cannot create a plan with that group. You can try again by uploading a different .csv file. For more information, see [Upload a .csv file](solutionsv2-task.md#upload-a-csv-file) and [Find the group through analysis](solutionsv2-task.md#find-the-group-through-analysis).
+> After you submit a group that was manually uploaded, if too many email addresses are invalid and the group drops below minimum group size, you cannot create a plan with that group. You can try again by uploading a different .csv file. For more information, see [Upload a .csv file](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#upload-a-csv-file) and [Find the group through analysis](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#find-the-group-through-analysis).
 
 ## Validation
 
@@ -58,13 +58,13 @@ After validation, the app reports the results, including the number of qualified
 
 ![Validation warnings.](../images/wpa/tutorials/validation-warnings.png)
  
-All four of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with the plan. See [Start the plan](solutionsv2-task.md#start-the-plan).
+All four of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with the plan. See [Start the plan](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#start-the-plan).
 
 If the number of qualified participants falls below the minimum group size, you cannot proceed with this group as it is. To move forward, you need to make changes outside of Viva Insights. For example, you could ask an admin to assign licenses to those who are missing them, and then to upload the file again. Or you could upload a different group. 
 
 As for those who have opted out or are already in a plan, you cannot enroll them in a plan at this time. 
 
-You must validate the group of potential participants whether you identified that group through filters or by uploading a file. If you uploaded a file and validation fails, you might decide to upload a new file to try again. After any subsequent upload, you must select **Validate** again. After a file that you’ve uploaded successfully validates, go to [Start the plan](solutionsv2-task.md#start-the-plan).
+You must validate the group of potential participants whether you identified that group through filters or by uploading a file. If you uploaded a file and validation fails, you might decide to upload a new file to try again. After any subsequent upload, you must select **Validate** again. After a file that you’ve uploaded successfully validates, go to [Start the plan](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#start-the-plan).
 
 ## Set a value for Max or Min target
 
@@ -108,7 +108,7 @@ For plans that have started, select **Track** to see the tracking dashboard.
 
 A **Completed** plan is one that has finished, either because its twelve weeks have passed or because someone ended the plan early.
 
-Return to [Track plans](solutionsv2-task.md#track-plans)<!-- or [Next steps: processing tasks](solutionsv2-task.md#next-steps-processing-tasks)-->.
+Return to [Track plans](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#track-plans)<!-- or [Next steps: processing tasks](solutionsv2-task.md#next-steps-processing-tasks)-->.
 
 ## Available and selected employees
 
@@ -120,7 +120,7 @@ On the **Plans** > **Teamwork** page, groups of employees are shown below the ch
 * **In filter group** - The number of measured employees who remain available for analysis after you applied filters.
 * **Selected group** - The number of employees in the group or groups that you selected in the chart.
 
-Return to [Select a group](solutionsv2-task.md#select-a-group).
+Return to [Select a group](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#select-a-group).
 
 ## Persistence of group selections
 
@@ -138,7 +138,7 @@ After you select groups, you can change other settings on this page. Not all of 
 
 To select groups again after you have changed the chart or area of focus, select **groups** in the chart.  
 
-Return to [Select a group](solutionsv2-task.md#select-a-group).
+Return to [Select a group](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#select-a-group).
 
 ## Progress report
 
@@ -146,7 +146,7 @@ The banner on the **Track** page shows the plan type, the number of participants
 
 The highlighted numbers show the average value per person per week since the plan started, as compared with the plan benchmark. The benchmark, in turn, refers to the average value per person per week for the twelve weeks that immediately preceded the start of the plan.
 
-Return to [Track plans](solutionsv2-task.md#track-plans).
+Return to [Track plans](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#track-plans).
 
 ## Manually upload a .csv file
 
@@ -187,6 +187,6 @@ Viva Insights uses the concept of dated attributes. Every time an admin uploads 
 
 ## Related topics
 
-* [Plan introduction](solutionsv2-intro.md)  
+* [Plan introduction](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)  
 * [Plan walkthrough](solutionsv2-task.md)
-* [Plan participants' experience](solutionsv2-participants.md)  
+* [Plan participants' experience](/viva/insights/tutorials/solutionsv2-participants?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)  

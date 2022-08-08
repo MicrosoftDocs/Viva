@@ -103,8 +103,8 @@ This is the cost of the price tier that is in use for a metric in the query. A q
 | Tier | Metric used in the query | Units |
 | ---- | ------------ | -------------- |
 | 1    | Most of the metrics - Such as collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
-| 2    | Advanced metrics - Specifically, the [Network query metrics](../tutorials/ona-metrics.md). | 2.25 |
-| 3    | Metrics with [CRM data](crm-queries.md) - External-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
+| 2    | Advanced metrics - Specifically, the [Network query metrics](/viva/insights/tutorials/ona-metrics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). | 2.25 |
+| 3    | Metrics with [CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) - External-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
 
 >[!Note]
 >If you use metrics at multiple price tiers, a subtotal is calculated for each metric, and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** x **B** x **C** x **D** (for the metric on price tier 1) + **A** x **B** x **C** x **D** (for the metric on price tier 2)
@@ -136,7 +136,7 @@ The query page shows how units are calculated for the query that's being defined
 
 ### Recurring query charges
 
-Viva Insights uses the usage formula to calculate the units that are consumed whenever analysts run a query in the Query designer, except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the current number of employees and weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
+Viva Insights uses the usage formula to calculate the units that are consumed whenever analysts run a query in the Query designer, except for recurring ([auto-refresh](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)) queries. The first time a recurring query runs, the formula uses the current number of employees and weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
 
 Note that the queried population can change between query refresh runs. For example, when you set up a new "last four weeks" auto-refresh query that includes 1,000 licensed employees. And then before the query runs again, another 2,000 employee licenses are approved. The first time the query refreshes after the initial run, it will include:
 
@@ -165,7 +165,7 @@ If you open an existing, previously run query, and you edit it and run it again,
 No additional units are charged for the following:
 
 * Viva Insights licenses for advanced insights that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following features: [Plans](solutionsv2-intro.md), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), and [Explore the stats](../use/explore-intro.md).
+* Your use of the following features: [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), and [Explore the stats](../use/explore-intro.md).
 * Your choice of tool, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.

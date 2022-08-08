@@ -19,7 +19,7 @@ audience: Admin
 
 You can now upload your company's Customer Relationship Management (CRM) data into the advanced insights app. Data from Salesforce or Dynamics CRM typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries.
 
-The advanced insights app available in Microsoft Viva Insights can combine your CRM data with your organizational (HR) and Microsoft 365 data for more advanced collaboration and productivity analysis in the [Query designer](../tutorials/query-designer.md). For the most complete analysis, Viva Insights needs the following CRM data:
+The advanced insights app available in Microsoft Viva Insights can combine your CRM data with your organizational (HR) and Microsoft 365 data for more advanced collaboration and productivity analysis in the [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). For the most complete analysis, Viva Insights needs the following CRM data:
 
 * Customer accounts
 * Customer contacts
@@ -216,7 +216,7 @@ For a complete list of rules, see [Attribute notes and recommendations](Prepare-
 
 ## Related topics
 
-* [Queries with CRM data](../tutorials/crm-queries.md)
+* [Queries with CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Prepare organizational data](Prepare-organizational-data.md)
 * [First organizational upload](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [CRM data sources](../Use/crm-data.md)

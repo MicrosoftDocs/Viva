@@ -82,7 +82,7 @@ A3. Yes. You can use filters in queries that include the following:
 * Attributes or values from your organizational data that include non-English words or characters.
 * Meeting subject lines (which can include non-English words or characters) as specific filter criteria.
 
-For more information, see [Customize a base metric in a query](../tutorials/customize-a-metric.md).
+For more information, see [Customize a base metric in a query](/viva/insights/tutorials/customize-a-metric?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Setup and configuration
 
@@ -162,11 +162,11 @@ A6. For privacy reasons, no one can download the raw data that was uploaded. Viv
 
 A1. Admins set up the  _privacy settings_ for how data is extracted, such as preventing data from ever being included in any calculation. Note that changes to privacy settings apply to future data extractions and aren't retroactive to past data. See [Privacy settings](privacy-settings.md) and [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
-Analysts use _meeting-exclusion rules_ in queries to help ensure that the results accurately represent relevant meeting norms within the organization. Changes to these rules apply retroactively in the data. See [Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) for details.
+Analysts use _meeting-exclusion rules_ in queries to help ensure that the results accurately represent relevant meeting norms within the organization. Changes to these rules apply retroactively in the data. See [Meeting exclusion rules](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 ##### Q2. Can meeting exclusion rule sets that I create be used by other analysts?
 
-A2.  Yes. Anyone in your organization can use the meeting exclusion rules that anyone else in the organization has created. See [Application of meeting-exclusion rules](../tutorials/meeting-exclusion-concept.md#application-of-meeting-exclusion-rules) for details.
+A2.  Yes. Anyone in your organization can use the meeting exclusion rules that anyone else in the organization has created. See [Application of meeting-exclusion rules](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#application-of-meeting-exclusion-rules) for details.
 
 ### Data validation, verification, and use
 
@@ -237,7 +237,7 @@ A4. If measured employees or internal collaborators have their time zones define
 
 ##### Q1. For a group-to-group query, what's the difference between the results for "Collaborators Within Group" and for "Same group as Time Investor?"
 
-A1.  If the result of a query defines the same set of people as members of both the time investors and collaborators groups, and these individuals also match any defined filters, then the collaborators are grouped together under the **Collaborators Within Group** results. The **Same group as Time Investor** results apply when a time-investor group allocates time only to themselves if no other groups are participating in the meeting or email. See [Group-to-group query output](csv-query-output-file.md#group-to-group-query-output) and [Overview of time allocation](../tutorials/group-to-group-queries.md#overview-of-time-allocation) for more details.
+A1.  If the result of a query defines the same set of people as members of both the time investors and collaborators groups, and these individuals also match any defined filters, then the collaborators are grouped together under the **Collaborators Within Group** results. The **Same group as Time Investor** results apply when a time-investor group allocates time only to themselves if no other groups are participating in the meeting or email. See [Group-to-group query output](csv-query-output-file.md#group-to-group-query-output) and [Overview of time allocation](/viva/insights/tutorials/group-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#overview-of-time-allocation) for more details.
 
 ##### Q2. How do I analyze collaboration hours at my company for a specific time frame, such as 8 PM to 8 AM?
 

@@ -19,7 +19,7 @@ audience: Admin
 
 As an analyst for the advanced insights app that's available in Microsoft Viva Insights, you can set attendee exclusion rules. The rules can exclude data from analysis about meeting invitees, which are based on responses that the invitees made to meeting invitations.
 
-This enables you to measure work-related calendar collaboration in analysis, such as in [Query designer](query-basics.md). These measurements are most accurate when they include data that reflects genuine collaboration.
+This enables you to measure work-related calendar collaboration in analysis, such as in [Query designer](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). These measurements are most accurate when they include data that reflects genuine collaboration.
 
 For example, the data shouldn't include meetings that schedule personal time, or count an invitee as "present" at a meeting when they weren't actually there. The advanced insights app lets you exclude these kinds of events so that they don't skew your data.
 
@@ -87,4 +87,4 @@ Sometimes, meeting invitees don't respond to meeting invitations. Using the "did
 
 ## Related topics
 
-* [Meeting exclusions](meeting-exclusions-intro.md)
+* [Meeting exclusions](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

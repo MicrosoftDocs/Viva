@@ -43,7 +43,7 @@ Group-to-group queries in Viva Insights give results that help you understand ho
 
 For example, if CRM data is available, you could analyze how much time each sales person (FunctionType equals Sales) spent with platinum-tier customers (CRM AccountTier equals Platinum).
 
-To learn general information about and step-by-step instructions on how to create these queries, see [Group-to-group queries](../Tutorials/group-to-group-queries.md).
+To learn general information about and step-by-step instructions on how to create these queries, see [Group-to-group queries](/viva/insights/Tutorials/group-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Data analysis options
 
@@ -124,9 +124,9 @@ To do this, you can create a query as shown in the following graphic to analyze 
 
 ## Related topics
 
-* [Person-to-group queries](../Tutorials/person-to-group-queries.md)
-* [Group-to-group queries](../Tutorials/group-to-group-queries.md)
-* [Person queries](../Tutorials/person-queries.md)
+* [Person-to-group queries](/viva/insights/Tutorials/person-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Group-to-group queries](/viva/insights/Tutorials/group-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Person queries](/viva/insights/Tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [CRM data upload](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [CRM data sources](../Use/crm-data.md)
 * [Metric descriptions](../Use/Metric-definitions.md)

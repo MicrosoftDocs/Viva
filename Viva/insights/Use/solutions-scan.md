@@ -164,7 +164,7 @@ After validation, Viva Insights reports the results, including the number of qua
 
 ![Validation warnings.](../images/wpa/use/participants-warnings.png)
 
-Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with [starting a plan](../tutorials/solutionsv2-task.md#start-the-plan).
+Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with [starting a plan](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#start-the-plan).
 
 If the number of qualified participants falls below the minimum group size, you cannot proceed with this group as it is. To move forward, you need to make changes outside of Viva Insights. For example, you could ask an admin to assign licenses to those who are missing them, or you could try a different group.
 

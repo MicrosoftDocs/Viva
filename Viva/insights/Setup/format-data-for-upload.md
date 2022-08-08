@@ -83,7 +83,7 @@ Acceptable .xlsx files must adhere to the following:
 
 * **The first row contains column headers only** - In the first sheet, the values in the first row are considered to be column headers.
 
-   Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md).
+   Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 * **No duplicate column headers** - Every column header must be unique.
 * **No blank or repetitive cells** - Viva Insights checks all cells in the first row to verify that there are no blank cells and no repetitions.

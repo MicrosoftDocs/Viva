@@ -124,8 +124,8 @@ These computations compute the strong tie and diverse tie scores for every pair 
 
 ## Related topics
 
-* [Network metrics](ona-metrics.md)
-* [Network person queries](ona-person-query.md)
-* [Network person-to-person queries](ona-person-to-person-query.md)
+* [Network metrics](/viva/insights/tutorials/ona-metrics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Network person queries](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Network metric descriptions](../use/metric-definitions.md#network-metrics)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

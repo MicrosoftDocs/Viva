@@ -77,7 +77,7 @@ You can add a filter to a base metric and edit the metric name with the filter. 
 
 ![Person query custom metric.](../images/wpa/tutorials/query-custom-metric.png)
 
-To get more details on adding metric filters, see [Customize a metric](../tutorials/customize-a-metric.md).
+To get more details on adding metric filters, see [Customize a metric](/viva/insights/tutorials/customize-a-metric?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Standardize working hours
 
@@ -189,4 +189,4 @@ The following are the columns included in the query results for the custom query
 
 * [Metric descriptions](../Use/Metric-definitions.md)
 * [View, download, and export query results](../Use/View-download-and-export-query-results.md)
-* [Queries with CRM data](../tutorials/crm-queries.md)
+* [Queries with CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

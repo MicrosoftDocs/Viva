@@ -62,7 +62,7 @@ For example, the following steps define analysis data for meetings of a particul
    ![Dataset name given.](../images/wpa/tutorials/data-set-name-in-place.png)
 
 4. For **Time period**, select start and end dates. All meetings that occurred outside of this time period are excluded from the dataset.
-5. For **Meeting exclusions**, specify a [meeting exclusion rule](meeting-exclusions-intro.md) or accept the default, the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule).
+5. For **Meeting exclusions**, specify a [meeting exclusion rule](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) or accept the default, the [Tenant default meeting exclusion rule](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#default-meeting-exclusion-rule).
 6. For **Which meetings do you want to include in your query results**, define filters to scope the dataset for the analysis. For example, to filter out specific meetings, select **Add filter**, and then select **Meeting**:
 
    ![Add a Meeting filter.](../images/wpa/tutorials/meeting-filter-1.png)
@@ -218,7 +218,7 @@ You can filter by business processes wherever the **Meeting** option is availabl
 
 ### Use a business process in a meeting query
 
-In [meeting queries](Meeting-queries.md#meeting-queries), business processes are only available as filters for meetings, as described in the following steps.
+In [meeting queries](/viva/insights/tutorials/Meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meeting-queries), business processes are only available as filters for meetings, as described in the following steps.
 
 1. In **Analyze** > **Query designer**, under **Query**, select **Get started** > **Meeting** > **Next**.
 2. Select **Set up query** and enter initial information about it, such as name, time period, and exclusions.
@@ -242,7 +242,7 @@ For general information about examining query results, see [View, download, and 
 
 ### Use a business process in a person query
 
-In [person queries](Person-queries.md#person-queries), business processes are available as filters for meetings that are used for customizing metrics, as described in the following steps.
+In [person queries](/viva/insights/tutorials/Person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#person-queries), business processes are available as filters for meetings that are used for customizing metrics, as described in the following steps.
 
 1. In **Analyze** > **Query designer**, under **Query**, select **Get started** > **Person** > **Next**.
 2. Select **Set up query** and then enter the applicable information for the query, such as name, time period, and exclusions.
@@ -269,7 +269,7 @@ To define a business process, you must use meeting subject lines, but access to 
 
 ### Hash subject lines
 
-You can use this setting to control whether to show legible or hashed subject lines in [Meeting query](meeting-queries.md) results.
+You can use this setting to control whether to show legible or hashed subject lines in [Meeting query](/viva/insights/tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) results.
 
 ![Hash subject lines.](../images/wpa/tutorials/hash-subject-lines.png)
 
@@ -306,6 +306,6 @@ The following example shows how this can unfold:
 ## Related topics
 
 * [Prepare organizational data](../setup/prepare-organizational-data.md)
-* [Meeting queries](meeting-queries.md)
-* [Person queries](person-queries.md)
+* [Meeting queries](/viva/insights/tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Person queries](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Privacy settings](../use/privacy-settings.md)

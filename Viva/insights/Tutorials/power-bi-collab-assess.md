@@ -84,7 +84,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >[!Important]
    >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-4. In **Select filters**, select **Active only** for **Which measured employees do you want to include?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md#create-a-person-query).
+4. In **Select filters**, select **Active only** for **Which measured employees do you want to include?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](/viva/insights/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-person-query).
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires.
 
    >[!Important]
@@ -135,7 +135,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
 19. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-20. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+20. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
@@ -156,7 +156,7 @@ After the Ways of working assessment dashboard is set up and populated with Viva
 * **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who sent at least one email or instant message during a work week included in the current time period.
 
 >[!Important]
->The filters selected in **Settings** apply to all but one of the reports. The **Meeting engagement** report is the exception. To focus on a specific organization in that report, you must **customize the metrics** in the [Standard meeting query](meeting-queries.md#add-metrics), as described in **Step 11** of [Set up the dashboard](#set-up-the-dashboard).
+>The filters selected in **Settings** apply to all but one of the reports. The **Meeting engagement** report is the exception. To focus on a specific organization in that report, you must **customize the metrics** in the [Standard meeting query](/viva/insights/tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#add-metrics), as described in **Step 11** of [Set up the dashboard](#set-up-the-dashboard).
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
@@ -213,7 +213,7 @@ Learn how to use this template to evaluate collaboration culture and employee ex
 
 ## Power BI tips, FAQs, and troubleshooting
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Related topic
 

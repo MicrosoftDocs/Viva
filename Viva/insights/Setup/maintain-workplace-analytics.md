@@ -73,7 +73,7 @@ After you have installed and set up Microsoft Viva Insights, it will require mai
 * **Task** - Create custom meeting exclusion rules to remove meetings from analysis.  
 * **Frequency** - As needed, create these rules to exclude meetings that might skew your data.
 
-[Meeting exclusion rules.](../tutorials/meeting-exclusions-intro.md)
+[Meeting exclusion rules.](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 
 ## Audit activity
 

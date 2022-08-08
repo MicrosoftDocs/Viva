@@ -29,6 +29,6 @@ The following roles are assigned by your admin as described in [Assign user role
 * **Analyst (Limited Access)** &ndash; Has the same access as people who have the **Analyst** role but with the following restrictions:
 
   * No access to **Query designer**.
-  * _Read-only_ access to **Analyst settings** where the [meeting and attendee exclusion rules](../tutorials/exclusions-introduction.md) are defined.
+  * _Read-only_ access to **Analyst settings** where the [meeting and attendee exclusion rules](/viva/insights/tutorials/exclusions-introduction?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) are defined.
 
 * **Program Manager** &ndash; Has access to organizational data for Viva Insights within the advanced insights app. A Program Manager can also open, manage, and track **Plans** in the advanced insights app.

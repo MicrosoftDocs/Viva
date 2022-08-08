@@ -44,6 +44,6 @@ The **Analysis** page has templates for the following Power BI reports for visua
 * [Manager effectiveness](manager-effectiveness.md)
 
     Gain insight into collaboration patterns of people managers and find ways to improve their effectiveness.
-* [Hybrid workforce experience](hybrid-workforce-experience.md)
+* [Hybrid workforce experience](/viva/insights/tutorials/hybrid-workforce-experience?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
     
     Understand how hybrid work affects the experience of onsite, hybrid, and remote employees differently.

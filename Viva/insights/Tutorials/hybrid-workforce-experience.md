@@ -72,7 +72,7 @@ For more details on how to add new data for existing employees, review the docum
     In the second setup step, select **Set up** next to **Hybrid workforce experience** (if repeating this process per step 8 below, select **Strong and diverse ties**).
 3. When prompted, select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 4. In **Select metrics**, keep the preselected metrics (these are required for the template to work).
-5. In **Select filters**, select **Active only** for **Which measured employees do you want to include in your query results**? Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, refer to [Create a Person Query](/viva/insights/Tutorials/person-queries).
+5. In **Select filters**, select **Active only** for **Which measured employees do you want to include in your query results**? Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, refer to [Create a Person Query](/viva/insights/Tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 6. In **Organizational data**, add the attribute that specifies someone’s number of onsite work days (for example, **OnsiteDays**), the attribute that indicates whether someone is a manager (for example, **SupervisorIndicator**), and the HireDate. Add any other attributes you want to be able to use in the dashboard. For best performance, select no more than seven attributes.
 7. Select **Run** (located in the upper right) to run the query, which can take between a few minutes and a few hours to complete.
 8. When prompted, select to return to the **Query designer**. Repeat preceding steps 2-7, except this time, select the **Strong and diverse ties** query. Make the same selections that you did for the Hybrid workforce experience. Skip step 6; there's no need to include any organizational attributes in this Strong and diverse ties query.
@@ -95,7 +95,7 @@ For more details on how to add new data for existing employees, review the docum
     :::image-end:::
 
 1. If you're already signed in to Power BI with your organizational account, the dashboard visualizations will populate with your data. At this point, you’ve completed the setup process and can skip to [Customize the dashboard](#customize-the-dashboard).
-1. If you're not signed into Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](/viva/insights/Tutorials/power-bi-templates#troubleshooting) for more details.
+1. If you're not signed into Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](/viva/insights/Tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#troubleshooting) for more details.
 
     :::image type="complex" source="../images/wpa/tutorials/hwfe-o-data-not-signed-in.png" alt-text="Screenshot of pop-up window in Power BI prompting users to sign in":::
        Screenshot that shows a pop-up window in Power BI, titled "OData feed." There is square icon beneath the window title; a URL to its right reads, "https://workplaceanalytics.office.com/205951...". In smaller font, a note underneath the URL reads, "You aren't signed in." Beneath the note, there is a Sign-in button. The left-hand sidebar contains five section titles arranged vertically; "Organizational account" is selected. Save and Cancel buttons are in the bottom right of the window.
@@ -135,7 +135,7 @@ To adjust the individual contributors and managers mappings, navigate to **View 
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, refer to [Power BI tips, FAQ, and troubleshooting](/viva/insights/Tutorials/power-bi-templates).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, refer to [Power BI tips, FAQ, and troubleshooting](/viva/insights/Tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Related topic
 

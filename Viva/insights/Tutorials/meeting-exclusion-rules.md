@@ -31,16 +31,16 @@ As an analyst, you can work with meeting exclusion rules in the following ways:
 
 ### For more information
 
-[Tools and concepts](meeting-exclusion-concept.md) has more information about screen areas, the on-screen tools, and ideas to help you work with meeting exclusion rules. It contains the following sections:
+[Tools and concepts](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) has more information about screen areas, the on-screen tools, and ideas to help you work with meeting exclusion rules. It contains the following sections:
 
-* [Progress summaries](meeting-exclusion-concept.md#progress-summaries) show your progress, including which step you are on and the effects of the current and completed meeting exclusion steps.  
-* [Customization working area](meeting-exclusion-concept.md#customization-working-area) describes the on-screen tools that you can use to define effective meeting exclusions, including the following:
+* [Progress summaries](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#progress-summaries) show your progress, including which step you are on and the effects of the current and completed meeting exclusion steps.  
+* [Customization working area](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#customization-working-area) describes the on-screen tools that you can use to define effective meeting exclusions, including the following:
 
-  * [Word cloud](meeting-exclusion-concept.md#word-cloud) consists of keywords taken from subject lines of meetings, which helps you understand what customizations you might want to make to your exclusion.
-  * [Keyword search](meeting-exclusion-concept.md#keyword-search) is used to find a particular keyword that might be used in meeting subject lines.
-  * [Phrase table](meeting-exclusion-concept.md#phrase-table) shows you the context in which keywords are found. Knowing this context helps you decide whether to retain or exclude the keyword and its associated meetings.
+  * [Word cloud](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#word-cloud) consists of keywords taken from subject lines of meetings, which helps you understand what customizations you might want to make to your exclusion.
+  * [Keyword search](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#keyword-search) is used to find a particular keyword that might be used in meeting subject lines.
+  * [Phrase table](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#phrase-table) shows you the context in which keywords are found. Knowing this context helps you decide whether to retain or exclude the keyword and its associated meetings.
 
-* Multiple meeting exclusion rules can exist simultaneously. To learn how they are applied in Viva Insights, see [Application of meeting exclusion rules](meeting-exclusion-concept.md#application-of-meeting-exclusion-rules). For a high-level overview of meeting exclusion rules, see [Meeting exclusion rules introduction](meeting-exclusions-intro.md).
+* Multiple meeting exclusion rules can exist simultaneously. To learn how they are applied in Viva Insights, see [Application of meeting exclusion rules](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#application-of-meeting-exclusion-rules). For a high-level overview of meeting exclusion rules, see [Meeting exclusion rules introduction](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 <!-- _[PUT VIDEO HERE]_ -->
 
@@ -59,7 +59,7 @@ You can view existing meeting exclusion rules or create new ones in **Analyst se
 
 Active rules are listed in the following order:
 
-* **The preferred rule** - The "preferred" rule will be at the top of the list. See [Select which rule to use](#select-which-rule-to-use). When you first start using Viva Insights, this is the [Default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule).  
+* **The preferred rule** - The "preferred" rule will be at the top of the list. See [Select which rule to use](#select-which-rule-to-use). When you first start using Viva Insights, this is the [Default meeting exclusion rule](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#default-meeting-exclusion-rule).  
 * **Favorite rules** - You can select a rule as a favorite. This moves it to the top of the list after the preferred rule, among other rules marked as favorites.
 * **Other rules** - Rules that are not the preferred rule and that have not been marked as favorites are listed after the favorites.
 
@@ -87,7 +87,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 
    ![Choose exclusion type.](../images/wpa/tutorials/exclusion-type.png)
 
-   For information about choosing between **Meeting exclusion** and **Attendee exclusion**, see [Select exclusion type](meeting-exclusion-concept.md#select-exclusion-type).
+   For information about choosing between **Meeting exclusion** and **Attendee exclusion**, see [Select exclusion type](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#select-exclusion-type).
 
 4. If you selected **Attendee exclusion**, choose the types of invitees whose data you want to exclude from analysis, including those who did not respond to meeting invitations, those who responded as **Tentative** to meeting invitations, or both types of invitees:
 
@@ -95,7 +95,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 
    After you select one or both of these options, you'll see the number of invitees who will be excluded from analysis.
 
-   For more information, see [Attendee exclusions](attendee-exclusion-rules.md).
+   For more information, see [Attendee exclusions](/viva/insights/tutorials/attendee-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 5. In **New exclusion**, you'll see the types of meetings that are commonly excluded from analysis. The following steps enable you to customize each of these exclusions.
 
@@ -104,7 +104,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
    ![Five exclusion steps.](../images/wpa/tutorials/01-five-exclusion-steps.png)
 
    > [!Note]
-   > The first five steps in this list are for excluding data about meetings based on the type of meeting. In the sixth step on the list, you exclude data about attendees, based on the response they gave to the meeting invitation. For more information, see [Select exclusion type](meeting-exclusion-concept.md#select-exclusion-type).
+   > The first five steps in this list are for excluding data about meetings based on the type of meeting. In the sixth step on the list, you exclude data about attendees, based on the response they gave to the meeting invitation. For more information, see [Select exclusion type](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#select-exclusion-type).
 
 6. Enter a name and optionally a description for the exclusion rule, select **Next**, and then do the following steps [to create a meeting exclusion rule](#to-create-a-meeting-exclusion-rule).
 
@@ -124,18 +124,18 @@ Now that you've created a framework for your new rule, use the following steps t
    >While defining exclusions in the following steps, you can save the exclusion rule as a draft at any time. (To do this, select **Save as draft** in the lower right.) After you have save a draft of a rule, you can continue to define the rule or you can safely close your browser. For more information about editing a rule that you have saved, see [Edit a draft rule](#edit-a-draft-rule).
 
 1. **Exclude cancelled meetings** - The first step is to exclude meetings that have been cancelled. For this step, you cannot change the default filter. To add this exclusion to your rule, select **Next**. 
-2. **Exclude small meetings** - Just as for cancelled meetings, you cannot change the default filter for this exclusion. However, you can change the way it is applied by specifying exceptions to the exclusion. You do this with the following on-screen tools: [Word cloud](meeting-exclusion-concept.md#word-cloud), [Keyword search](meeting-exclusion-concept.md#keyword-search), and [Phrase table](meeting-exclusion-concept.md#phrase-table).
+2. **Exclude small meetings** - Just as for cancelled meetings, you cannot change the default filter for this exclusion. However, you can change the way it is applied by specifying exceptions to the exclusion. You do this with the following on-screen tools: [Word cloud](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#word-cloud), [Keyword search](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#keyword-search), and [Phrase table](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#phrase-table).
 
-   Optionally, select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
+   Optionally, select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#make-an-exception-to-an-exclusion).
 
    When you have finished making exceptions to the small-meetings exclusion and you are ready to add the exclusion to the rule, select **Next**. In the page for excluding large meetings, notice that the values near the top of the page for **Attendee meeting hours** and **Number of meetings** have decreased as a result of the exclusions that were applied in the preceding steps.
 
 3. **Exclude large meetings** - This exclusion differs from the first two in that you can change the value in the "Exclude meetings where" filter from the default value of 250 attendees.
 
    >[!Important]
-   > In certain cases, the meeting exclusion for large meetings has limitations. For details, see [Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md).
+   > In certain cases, the meeting exclusion for large meetings has limitations. For details, see [Meeting exclusion rules: Large-meeting limitation](/viva/insights/tutorials/meeting-exclusion-250?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
-   (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
+   (Optional) Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion. You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#make-an-exception-to-an-exclusion).
 
    >[!Note]
    >If you change the default filter value after you designate exceptions, the exceptions will be lost.
@@ -144,7 +144,7 @@ Now that you've created a framework for your new rule, use the following steps t
 
 4. **Exclude long meetings** - To exclude meetings by duration, under **Exclude meetings where,** specify the maximum length of meetings that you want your analysis to include. The default value is 8 hours.
 
-   **(Optional)** Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion.  You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](meeting-exclusion-concept.md#make-an-exception-to-an-exclusion).
+   **(Optional)** Select words from the word cloud, inspect their impact in the **Phrases that contain the selected keyword** table, and designate one or more as exceptions to this exclusion.  You can search for additional keywords or phrases that are not present in your word cloud by typing them in the search box above the phrase table. For more information, see [Make an exception to an exclusion](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#make-an-exception-to-an-exclusion).
 
    >[!Note]
    >If you change the default filter value after you designate exceptions, the exceptions will be lost.
@@ -159,7 +159,7 @@ Now that you've created a framework for your new rule, use the following steps t
 
    Each topic that is listed under **List of topics** is also a tab. Select a tab to see keywords and phrases that relate to the topic. For example, **Out of Office** includes the phrase "day off." These related keywords are excluded from analysis. Select the 'X next to a keyword to remove it from this list. This exempts the keyword from exclusion; in other words, meetings whose subject line contains that keyword are removed from the exclusion and, therefore, available for analysis.
 
-   You might know of a specific word or phrase that you want to exclude from analysis; that is, to add to this exclusion. If it is not listed under **Keywords**, search for it by typing it in the **Add a custom keyword** field. For more information, see [Keyword search](meeting-exclusion-concept.md#keyword-search).
+   You might know of a specific word or phrase that you want to exclude from analysis; that is, to add to this exclusion. If it is not listed under **Keywords**, search for it by typing it in the **Add a custom keyword** field. For more information, see [Keyword search](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#keyword-search).
 
    This meetings-by-topic page also offers the **Phrases that contain the selected keyword** table and the functionality as described in the step to exclude small meetings.
 
@@ -260,6 +260,6 @@ You might have built and used a rule in a past project that you no longer use. H
 
 ## Related topics
 
-* [Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)
-* [Meeting exclusion rules: Tools and concepts](meeting-exclusion-concept.md)
-* [Attendee exclusions](attendee-exclusion-rules.md)
+* [Meeting exclusion rules: Large-meeting limitation](/viva/insights/tutorials/meeting-exclusion-250?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Meeting exclusion rules: Tools and concepts](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Attendee exclusions](/viva/insights/tutorials/attendee-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

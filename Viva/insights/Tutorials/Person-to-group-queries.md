@@ -79,4 +79,4 @@ While setting up a person-to-group query differs from setting up meeting or grou
 * [Metric descriptions](../Use/Metric-definitions.md)
 * [Understand and interpret query output](../Use/csv-query-output-file.md)
 * [View, download, and export query results](../Use/View-download-and-export-query-results.md)
-* [Queries with CRM data](../tutorials/crm-queries.md)
+* [Queries with CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

@@ -58,4 +58,4 @@ In **Analyst settings**, Admins can configure [system defaults](system-defaults.
 ## Related topics
 
 * [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [Plans in Advanced insights](../tutorials/solutionsv2-intro.md)
+* [Plans in Advanced insights](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

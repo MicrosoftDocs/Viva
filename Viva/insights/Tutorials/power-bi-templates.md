@@ -81,11 +81,11 @@ Starting with version 2 and later versions of a template, you can find the versi
 
 ##### Q6 How can I extend the dates of the data used in the dashboard?
 
-If you have been using a dashboard for a few months now, you are probably using data for the last six months. You need to run new queries that include the last one year. For the Business continuity dashboard, see [Template update](../tutorials/power-bi-bc.md#template-update) for details.  
+If you have been using a dashboard for a few months now, you are probably using data for the last six months. You need to run new queries that include the last one year. For the Business continuity dashboard, see [Template update](/viva/insights/tutorials/power-bi-bc?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#template-update) for details.  
 
 ##### Q7 How do I set up the Viva Insights data?
 
-See [Create a Person Query](./person-queries.md) for details.
+See [Create a Person Query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 ##### Q8 How do I change the axis of a chart to use a different Organizational data attribute?
 
@@ -192,7 +192,7 @@ Do the following to reset your global permissions for the OData feed.
 
 ##### Apply query error for blank values in columns
 
-When setting up a report or refreshing an existing report for either the [Business continuity](power-bi-bc.md) or the [Ways of working assessment](power-bi-collab-assess.md) dashboards in Power BI, you might get the following Power BI error about the PersonIdDateKey column in a table containing "blank values," which is "not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table."
+When setting up a report or refreshing an existing report for either the [Business continuity](/viva/insights/tutorials/power-bi-bc?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) or the [Ways of working assessment](/viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) dashboards in Power BI, you might get the following Power BI error about the PersonIdDateKey column in a table containing "blank values," which is "not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table."
 
 ![Blank values error.](../Images/WpA/Tutorials/pbi-blank-error.png)
 
@@ -204,7 +204,7 @@ If you get the following error, you have not selected the Organizational attribu
 
 ![Collaborators record not found error.](../Images/WpA/Tutorials/pbi-collaborators-error.png)
 
-Close Power BI, redo the set up steps in [Set up the dashboard for Return to worksites](power-bi-return-tw.md#set-up-the-dashboard), and then select the applicable Organizational attribute in **Steps 7 and 9** for the worksite location for the employees included in the analysis.
+Close Power BI, redo the set up steps in [Set up the dashboard for Return to worksites](/viva/insights/tutorials/power-bi-return-tw?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#set-up-the-dashboard), and then select the applicable Organizational attribute in **Steps 7 and 9** for the worksite location for the employees included in the analysis.
 
 ## Support
 
@@ -214,5 +214,5 @@ Close Power BI, redo the set up steps in [Set up the dashboard for Return to wor
 
 ## Related topics
 
-* [Templates introduction](power-bi-intro.md)
+* [Templates introduction](/viva/insights/tutorials/power-bi-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

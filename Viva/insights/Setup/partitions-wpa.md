@@ -26,14 +26,14 @@ A partition is a data workspace for Microsoft Viva Insights analysis. A partitio
 
 ## Partitions give access to data
 
-A partition defines what data you work with in the advanced insights app for Viva Insights. If you have one of the analyst roles (analyst limited), you work with data in [Explore the stats](../use/explore-intro.md) and [Query designer](../tutorials/query-designer.md) in the advanced insights app. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages.
+A partition defines what data you work with in the advanced insights app for Viva Insights. If you have one of the analyst roles (analyst limited), you work with data in [Explore the stats](../use/explore-intro.md) and [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in the advanced insights app. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages.
 
 If you have the program manager role, you have complete access to **Plans** with no limitations.
 
 For example, if you are an analyst with the job of finding workplace trends in the sales organization, you must be assigned a partition that encompasses the data of salespeople. You can then view data about salespeople in **Explore the stats** and create queries about salespeople in **Query designer**.
 
 >[!Note]
->Analysts (and limited analysts) are not the only people who use partitions. Program managers who work in [Plans](../tutorials/solutionsv2-intro.md) must also be granted explicit access to a partition, after which they can create and view solution [Plans](../tutorials/solutionsv2-task.md#create-a-plan) only in that partition.
+>Analysts (and limited analysts) are not the only people who use partitions. Program managers who work in [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) must also be granted explicit access to a partition, after which they can create and view solution [Plans](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-plan) only in that partition.
 
 ## The Global partition
 

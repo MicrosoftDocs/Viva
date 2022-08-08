@@ -185,7 +185,7 @@ Follow these steps to upload a file that contains email addresses:
 
    In this step, you use organizational data in filters to refine your group selection. For example, in the left box, select **Organization** and in the right box, type an org name or a manager's identifier. Add more filters to refine the selection further, if you want. The results of filtering are shown in a chart. You can then select groups by clicking the columns that represent them in the chart. You can select multiple groups.
 
-   For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](../tutorials/solutionsv2-conceptual.md#persistence-of-group-selections).
+   For more information about what happens with selected groups when you make other settings on this page, see [Persistence of group selections](/viva/insights/tutorials/solutionsv2-conceptual?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#persistence-of-group-selections).
 
    Now, you could proceed with the analysis if the group size falls between the allowed minimum and maximum group sizes. In this example, the actual group size (25) exceeds the minimum group size (five is the default, but it might be set to a higher number for your organization).
 

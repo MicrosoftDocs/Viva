@@ -31,7 +31,7 @@ The following shows an example of how you can connect Qualtrics survey scores wi
 
 ## Example use cases
 
-For example, the following shows how you can use Qualtrics survey scores for employees within the Viva Insights [Ways of working assessment](../tutorials/power-bi-collab-assess.md) dashboard in Power BI. You can use the report settings to filter the data to depict favorable (or unfavorable) responses and observe how collaboration patterns differ based on their wellbeing scores.
+For example, the following shows how you can use Qualtrics survey scores for employees within the Viva Insights [Ways of working assessment](/viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) dashboard in Power BI. You can use the report settings to filter the data to depict favorable (or unfavorable) responses and observe how collaboration patterns differ based on their wellbeing scores.
 
 ![Qualtrics and Viva Insights in Power BI settings options.](../images/wpa/use/qualtrics-pbi-settings.png)
 
@@ -110,7 +110,7 @@ As a Viva Insights admin, do the following to import organizational and survey d
 
 ### Data analysis in Viva Insights
 
-After the upload is successfully processed in Viva Insights within the app, a Viva Insights analyst can use the survey score data in [Query designer](../tutorials/query-designer.md) with any of the available queries and Power BI templates. For example, you can include the **Engagement** attribute in [Ways of Working assessment](../tutorials/power-bi-collab-assess.md).
+After the upload is successfully processed in Viva Insights within the app, a Viva Insights analyst can use the survey score data in [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) with any of the available queries and Power BI templates. For example, you can include the **Engagement** attribute in [Ways of Working assessment](/viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 1. In [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**, and then select a query or template you want to create analysis with.
 2. When creating the query, be sure to select what Qualtrics survey score data you want to include, such as **Engagement**, **Motivation**, and **Wellbeing**.
@@ -156,7 +156,7 @@ As the analyst, you can run the prebuilt query survey templates. You can then sh
 1. In [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 2. Select **Person** > **Next** > **Person query for surveys** > **Set up query**.
 3. In the **Select metrics** section of the query, keep all the predefined metrics.
-4. In **Select filters**, select **Active only** for **Which measured employees do you want to include** and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](../tutorials/person-queries.md).
+4. In **Select filters**, select **Active only** for **Which measured employees do you want to include** and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 5. In **Organizational data**, confirm the UniqueIdentifier (Employee ID) attribute is selected.
 6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
 7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the query results, and then select **OK** to download it.

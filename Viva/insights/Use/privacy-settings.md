@@ -17,7 +17,7 @@ audience: Admin
 
 # Privacy settings and exclusions
 
-As the Viva Insights admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](../Tutorials/query-designer.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Viva Insights keeps personal data private.
+As the Viva Insights admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](/viva/insights/Tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Viva Insights keeps personal data private.
 
 You can use privacy settings to:
 
@@ -46,7 +46,7 @@ If you do change privacy settings, your changes take effect after Microsoft 365 
 
 ## Minimum group size
 
-The minimum-group-size rule protects people from being identified in Viva Insights data, including in [Insights](insights.md), [Explore the stats](../Use/explore-intro.md), and [Plans](../tutorials/solutionsv2-intro.md). If you change this setting, your change takes effect immediately.
+The minimum-group-size rule protects people from being identified in Viva Insights data, including in [Insights](insights.md), [Explore the stats](../Use/explore-intro.md), and [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If you change this setting, your change takes effect immediately.
 
 The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
 
@@ -59,7 +59,7 @@ For example, the columns on the left in the following graphic shows chart data f
 
 ## Hash subject lines
 
-Use this setting to control whether to show or hash subject lines in [Meeting query](../tutorials/meeting-queries.md) results, which, by default, are *not* shown.
+Use this setting to control whether to show or hash subject lines in [Meeting query](/viva/insights/tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) results, which, by default, are *not* shown.
 
 If you select **Yes** for **Hash subject lines**, they are converted to a hashed value (a system-generated number), so the text in unreadable in any queries. You can still create meeting queries that include subject-line terms, such as for meeting attributes. However, you won't be able to see a list of meetings that show the subject lines. (After you make this setting, it can take up to ten minutes for your change to take effect. After the change does take effect, it affects data that Viva Insights has already processed.)
 

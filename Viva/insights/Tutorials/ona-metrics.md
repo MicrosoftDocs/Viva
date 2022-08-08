@@ -17,7 +17,7 @@ search.appverid:
 
 # Network query metrics
 
-The [Network person query](ona-person-query.md) and [Network person-to-person query](ona-person-to-person-query.md) use a number of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups.
+The [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Network person-to-person query](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) use a number of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups.
 
 These connectivity relationships are of two broad types, _influence_ and _ties_. People in a company can have varying amounts of influence over their coworkers. Because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people including, _diverse_ and _strong_. Identifying these ties can help you determine aspects such as, team alignment and potential for the flow of information and ideas.
 
@@ -25,16 +25,16 @@ You can find the basic definitions of the connectivity metrics in [network metri
 
 | Metric | Available in this query type |
 | ------ | ---------------------------- |
-| [Diverse tie score](../use/metric-definitions.md#diverse-tie-score-define) | [Network person-to-person query](ona-person-to-person-query.md) |
-| [Diverse tie type](../use/metric-definitions.md#diverse-tie-type-define) | [Network person query](ona-person-query.md) |
-| [Diverse ties](../use/metric-definitions.md#diverse-ties-define) | [Network person query](ona-person-query.md) |
-| [Influence](../use/metric-definitions.md#influence-define) | [Network person query](ona-person-query.md) |
-| [Influence rank](../use/metric-definitions.md#influence-rank-define) | [Network person query](ona-person-query.md) |
-| [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) | [Network person query](ona-person-query.md) |
-| [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) | [Network person query](ona-person-query.md) |
-| [Strong tie score](../use/metric-definitions.md#strong-tie-score-define) | [Network person-to-person query](ona-person-to-person-query.md) |
-| [Strong tie type](../use/metric-definitions.md#strong-tie-type-define) | [Network person query](ona-person-query.md) |
-| [Strong ties](../use/metric-definitions.md#strong-ties-define) | [Network person query](ona-person-query.md) |
+| [Diverse tie score](../use/metric-definitions.md#diverse-tie-score-define) | [Network person-to-person query](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Diverse tie type](../use/metric-definitions.md#diverse-tie-type-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Diverse ties](../use/metric-definitions.md#diverse-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Influence](../use/metric-definitions.md#influence-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Influence rank](../use/metric-definitions.md#influence-rank-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Strong tie score](../use/metric-definitions.md#strong-tie-score-define) | [Network person-to-person query](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Strong tie type](../use/metric-definitions.md#strong-tie-type-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Strong ties](../use/metric-definitions.md#strong-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
 
 The following sections describe the connectivity metrics in greater detail.
 
@@ -166,7 +166,7 @@ A6. Diverse ties is internal only: It does not consider connections that a perso
 
 ## Related topics
 
-* [Network person queries](ona-person-query.md)
-* [Network person-to-person queries](ona-person-to-person-query.md)
+* [Network person queries](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Network metric descriptions](../use/metric-definitions.md#network-metrics)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

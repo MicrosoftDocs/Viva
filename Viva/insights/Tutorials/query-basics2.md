@@ -45,7 +45,7 @@ Tenants subscribe to the advanced insights app through one of the following bill
 
 <!-- CURRENT (TEMPORARY) TEXT: -->
 
-Your tenant's choice of billing model affects the page for creating [person queries](person-queries.md). Analysts will see the following differences:
+Your tenant's choice of billing model affects the page for creating [person queries](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Analysts will see the following differences:
 
 <!-- ULTIMATE (GA) TEXT, COMMENTED OUT FOR NOW: -->
 <!--
@@ -98,8 +98,8 @@ The terms in this formula are as follows:
    | Tier | Metric used in the query | Units |
    | ---- | ------------ | -------------- |
    | 1    | Most Viva Insights metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
-   | 2    | Advanced Viva Insights metrics &ndash; specifically, the [Network query metrics](../tutorials/ona-metrics.md). | 2.25 |
-   | 3    | The Viva Insights metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
+   | 2    | Advanced Viva Insights metrics &ndash; specifically, the [Network query metrics](/viva/insights/tutorials/ona-metrics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). | 2.25 |
+   | 3    | The Viva Insights metrics with [CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
 
    >[!Note]
    >If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
@@ -142,7 +142,7 @@ This opens a panel that describes the current calculation:
 
 ##### Charges for recurring queries
 
-Viva Insights uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
+Viva Insights uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
 
 Note that the queried population can change between query refresh runs. Take the following example: There are 1,000 licensed employees when you first set up a "last four weeks" auto-refresh query. Before the query runs again, another 2000 employee licenses are approved. The first time that the query refreshes after the initial run, it will include:
 
@@ -175,7 +175,7 @@ The edited query runs again. As it does, it incurs a new cost, in units, calcula
 No additional units are charged for the following:
 
 * Viva Insights licenses that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following the advanced insights app features: [plans](solutionsv2-intro.md), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Explore pages](../use/explore-intro.md).
+* Your use of the following the advanced insights app features: [plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Explore pages](../use/explore-intro.md).
 * Your choice of a query-results visualization method, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
@@ -235,7 +235,7 @@ With a person query you can compare across individual activities and attributes,
 * Time-use metrics
 * Organizational attributes
 
-See [Person queries](../Tutorials/person-queries.md) to learn more.
+See [Person queries](/viva/insights/Tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ### Meeting query  
 
@@ -248,7 +248,7 @@ With a meeting query you can compare across meeting attributes, such as:
 * Double-booked or multitasking rates
 * Meeting organizer attributes
 
-See [Meeting queries](../Tutorials/meeting-queries.md) to learn more.
+See [Meeting queries](/viva/insights/Tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ### Group-to-group query
 
@@ -262,7 +262,7 @@ For this query type, you can define a team in a variety of ways, with any organi
 
 Group-to-group queries also offer alternative perspectives on collaboration. Rather than allocating collaboration hours across other teams, you can analyze the number of interactions between the teams, or analyze only those collaboration activities initiated by the “time giver” team.
 
-See [Group-to-group queries](../Tutorials/group-to-group-queries.md) to learn more.
+See [Group-to-group queries](/viva/insights/Tutorials/group-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ### Person-to-group query
 
@@ -272,7 +272,7 @@ As with a group-to-group query, you can define the person (or time investor) and
 
 You can choose to analyze the number of interactions between a time investor and the defined collaboration team, or to analyze only those collaboration activities initiated by the specified time investor.
 
-See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn more.
+See [Person-to-group queries](/viva/insights/Tutorials/person-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ### Peer comparison query
 
@@ -280,19 +280,19 @@ The peer comparison query helps you identify people whose collaboration patterns
 
 You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group as defined with organizational attributes.
 
-See [Peer comparison queries](../Tutorials/comparison-query.md) to learn more.
+See [Peer comparison queries](/viva/insights/Tutorials/comparison-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ### Network queries
 
 You can use the Organizational network analysis (ONA) queries in the advanced insights app to find out who are the best-connected people in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
 
-See [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) for more details.
+See [ONA person queries](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [ONA person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details.
 
 ## Meeting exclusions
 
 You can use meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
 
-See [Meeting exclusions](../Tutorials/meeting-exclusions-intro.md) to learn more.
+See [Meeting exclusions](/viva/insights/Tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ## Business scenario
 
@@ -300,7 +300,7 @@ An analyst might start by looking at a person query to see trends of employees a
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a meeting query to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally, to address the problem, the analyst could work with a program to set up an improvement plan. See [Plan walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
+Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally, to address the problem, the analyst could work with a program to set up an improvement plan. See [Plan walkthrough](/viva/insights/Tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 You can create queries in the following ways:
 
@@ -314,7 +314,7 @@ When you create a new query or edit an existing query, you can select the metric
 
 ## Predefined query templates
 
-The advanced insights app includes the following predefined query templates to help you get started with queries. In addition to these, a number of Power BI templates are also available. For details, see [Power BI templates](power-bi-intro.md).
+The advanced insights app includes the following predefined query templates to help you get started with queries. In addition to these, a number of Power BI templates are also available. For details, see [Power BI templates](/viva/insights/tutorials/power-bi-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 * **Domain collaboration** analyzes collaboration patterns with external domains.
 * **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
@@ -327,13 +327,13 @@ The videos in this section were used in a bootcamp for training analysts in how 
 
 ### A week in the life  
 
-The _A week in the life_ video demonstrates how to work with a [person query](person-queries.md).
+The _A week in the life_ video demonstrates how to work with a [person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 <iframe src="https://player.vimeo.com/video/434889941" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ### Expensive meetings
 
-The _Expensive meetings_ video demonstrates how to work with a [meeting query](meeting-queries.md). 
+The _Expensive meetings_ video demonstrates how to work with a [meeting query](/viva/insights/tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). 
 
 <iframe src="https://player.vimeo.com/video/434889528" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 

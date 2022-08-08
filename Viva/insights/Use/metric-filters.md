@@ -17,7 +17,7 @@ search.appverid:
 
 # Advanced insights metric filters
 
-To customize the results from [queries](../tutorials/query-basics.md), you use metrics (see [metric definitions](metric-definitions.md)).
+To customize the results from [queries](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), you use metrics (see [metric definitions](metric-definitions.md)).
 
 After you select a metric for a Viva Insights query, you can narrow the focus of that metric by applying filters. You can also rename the metric to indicate the new focus that you gave when you applied filters; its new name will appear in the query results. See [Apply a metric filter](#apply-a-metric-filter).
 
@@ -70,7 +70,7 @@ After you select a metric for a Viva Insights query, you can narrow the focus of
 | IsCancelled     | True means that this meeting has been cancelled; <br>False means that this meeting has not been canceled. |
 | Subject         | Subject line of the meeting invitation. |
 | Total accepted  | Number of invitees who have accepted the meeting invitation. |
-| Total attendees | Total attendees can be configured at the report level by using an [attendee-exclusion rule](../tutorials/attendee-exclusion-rules.md). When you select an attendee-exclusion rule, you redefine meeting attendance to include or exclude the cases of “tentative” and “no response.” Therefore, based on the attendee-exclusion rule that you have selected, Total attendees can mean one of the following: <br> <ul> <li>Total attendees = Total accepted </li> <li>Total attendees = Total accepted + Total no response </li> <li>Total attendees = Total accepted + Total tentatively accepted </li> <li>Total attendees = Total accepted + Total no response + Total tentatively accepted </li> </ul> |
+| Total attendees | Total attendees can be configured at the report level by using an [attendee-exclusion rule](/viva/insights/tutorials/attendee-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). When you select an attendee-exclusion rule, you redefine meeting attendance to include or exclude the cases of “tentative” and “no response.” Therefore, based on the attendee-exclusion rule that you have selected, Total attendees can mean one of the following: <br> <ul> <li>Total attendees = Total accepted </li> <li>Total attendees = Total accepted + Total no response </li> <li>Total attendees = Total accepted + Total tentatively accepted </li> <li>Total attendees = Total accepted + Total no response + Total tentatively accepted </li> </ul> |
 | Total declined  | Number of invitees who have declined the meeting invitation. |
 | Total double booked  | Number of invitees who have accepted this meeting invitation and the invitation of another meeting that is scheduled to overlap with this one. |
 | Total emails sent during meeting   | Number of emails sent by all participants during the meeting. |

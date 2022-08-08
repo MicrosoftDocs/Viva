@@ -37,7 +37,7 @@ You can subscribe a tenant to using the the advanced insights app through the Ca
 
 The appearance and behavior of the pages for creating and running queries and of the query results page will depend on whether your tenant is subscribed to the Workplace Analytics SKU or to the Viva Insights SKU.
 
-For more details, see [Capacity model](consump-model.md).
+For more details, see [Capacity model](/viva/insights/tutorials/consump-model?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Query types
 
@@ -54,7 +54,7 @@ With a person query you can compare across individual activities and attributes,
 * Time-use metrics
 * Organizational attributes
 
-See [Person queries](../Tutorials/person-queries.md) to learn more.
+See [Person queries](/viva/insights/Tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ### Meeting query  
 
@@ -67,7 +67,7 @@ With a meeting query you can compare across meeting attributes, such as:
 * Double-booked or multitasking rates
 * Meeting organizer attributes
 
-See [Meeting queries](../Tutorials/meeting-queries.md) to learn more.
+See [Meeting queries](/viva/insights/Tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ### Group-to-group query
 
@@ -81,7 +81,7 @@ For this query type, you can define a team in a variety of ways, with any organi
 
 Group-to-group queries also offer alternative perspectives on collaboration. Rather than allocating collaboration hours across other teams, you can analyze the number of interactions between the teams, or analyze only those collaboration activities initiated by the “time giver” team.
 
-See [Group-to-group queries](../Tutorials/group-to-group-queries.md) to learn more.
+See [Group-to-group queries](/viva/insights/Tutorials/group-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ### Person-to-group query
 
@@ -91,7 +91,7 @@ As with a group-to-group query, you can define the person (or time investor) and
 
 You can choose to analyze the number of interactions between a time investor and the defined collaboration team, or to analyze only those collaboration activities initiated by the specified time investor.
 
-See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn more.
+See [Person-to-group queries](/viva/insights/Tutorials/person-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ### Peer comparison query
 
@@ -99,19 +99,19 @@ The peer comparison query helps you identify people whose collaboration patterns
 
 You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group as defined with organizational attributes.
 
-See [Peer comparison queries](../Tutorials/comparison-query.md) to learn more.
+See [Peer comparison queries](/viva/insights/Tutorials/comparison-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ### Network queries
 
 You can use Network queries in the advanced insights app to find out who the best-connected people are in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
 
-See [Network person queries](ona-person-query.md) and [Network person-to-person queries](ona-person-to-person-query.md) for details.
+See [Network person queries](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 ## Meeting exclusions
 
 You can use meeting exclusions to exclude meetings that fall outside relevant norms for the data. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
 
-See [Meeting exclusions](../Tutorials/meeting-exclusions-intro.md) to learn more.
+See [Meeting exclusions](/viva/insights/Tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 ## Business scenario
 
@@ -119,7 +119,7 @@ An analyst might start by looking at a person query to see trends of employees a
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a meeting query to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally, to address the problem, the analyst could work with a program to set up an improvement plan. See [Plan walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
+Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally, to address the problem, the analyst could work with a program to set up an improvement plan. See [Plan walkthrough](/viva/insights/Tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 
 You can create queries in the following ways:
 
@@ -133,7 +133,7 @@ When you create a new query or edit an existing query, you can select the metric
 
 ## Query templates
 
-The advanced insights app includes a number of predefined query templates to help you get started with the Query designer. For details, see [Templates](power-bi-intro.md).
+The advanced insights app includes a number of predefined query templates to help you get started with the Query designer. For details, see [Templates](/viva/insights/tutorials/power-bi-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 * **Domain collaboration** analyzes collaboration patterns with external domains.
 * **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
@@ -145,11 +145,11 @@ The advanced insights app includes a number of predefined query templates to hel
 The following videos were used to train analysts on how to run queries.
 
 >[!Note]
->These videos were recorded before the new [Query designer](query-designer.md) was available.
+>These videos were recorded before the new [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) was available.
 
 ### A week in the life  
 
-The _A week in the life_ video demonstrates how to work with a [Person query](person-queries.md).
+The _A week in the life_ video demonstrates how to work with a [Person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 <iframe src="https://player.vimeo.com/video/434889941" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 

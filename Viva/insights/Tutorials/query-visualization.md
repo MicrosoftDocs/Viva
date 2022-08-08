@@ -15,7 +15,7 @@ audience: Admin
 ---
 # Visualize person queries
 
-Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don't seem to have enough focus time. The [Person query](person-queries.md) can help you with this task, which includes a number of standard and custom metrics that can help you perform analyses of this kind.  
+Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don't seem to have enough focus time. The [Person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) can help you with this task, which includes a number of standard and custom metrics that can help you perform analyses of this kind.  
 
 After you create and run a Person query, you can view its results (in the form of charts) without leaving the advanced insights app. You can refine your results view by having the charts focus on any of the metrics that you used in the query or on any organizational data attributes that have been uploaded. These steps are described in the following sections.
 
@@ -35,7 +35,7 @@ In addition to these capabilities, you can also export results to a data visuali
 
 1. Open [the advanced insights app](https://workplaceanalytics.office.com/). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/).) If prompted, enter your work credentials.
 2. In **Analyze** > **Query designer**, and then select **Get started** under **Query**.
-3. Select **Person query**, and then define and run it. For details, see [Person queries](person-queries.md).
+3. Select **Person query**, and then define and run it. For details, see [Person queries](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 4. After the results are ready, go to **Query designer** > **Results**.
 5. For the results, select **Visualization**.
 6. In **Interactive Data**, you can use the charts to explore the data. A default visualization of results is automatically created and saved as a chart with the name "Original." This is a column chart that is formatted according to the default values in [Settings and filters](../use/explore-page-settings.md). All saved charts, including "Original," are listed in the **Saved charts** area.
@@ -79,7 +79,7 @@ In **Interactive Data**, as you [customize visualizations](#customize-your-data-
 
 Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in with **Plans** in the advanced insights app.
 
-For more information about plans, see [Plans](solutionsv2-intro.md).  
+For more information about plans, see [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).  
 
 **Role** - Analyst
 
@@ -95,14 +95,14 @@ For more information about plans, see [Plans](solutionsv2-intro.md).
 
 2. After you have a group or groups selected that meet or exceed the minimum group size, select **Submit group**.
 3. In **Set up new plan**, select an appropriate plan type for the group that you designated and select **Start now**.
-4. Select **Validate** to validate the selected group. You'll see warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutionsv2-conceptual.md#validation).)
+4. Select **Validate** to validate the selected group. You'll see warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](/viva/insights/tutorials/solutionsv2-conceptual?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation).)
 
    If validation fails, you can return to your query results and select a different group or additional groups, or start over. After any subsequent group selection, you must select **Validate** again. After validation succeeds, go to the next step.
 
-5. With your group validated, you can now start a change plan. See the [Start the plan](solutionsv2-task.md#start-the-plan) section of [Plan walkthrough](solutionsv2-task.md).
-6. After the plan starts and is underway, you can track its progress; for more information, see [Track plans](solutionsv2-task.md#track-plans). To learn about the plan from the participants' perspective, see [The experience of plan participants](solutionsv2-participants.md).
+5. With your group validated, you can now start a change plan. See the [Start the plan](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#start-the-plan) section of [Plan walkthrough](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
+6. After the plan starts and is underway, you can track its progress; for more information, see [Track plans](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#track-plans). To learn about the plan from the participants' perspective, see [The experience of plan participants](/viva/insights/tutorials/solutionsv2-participants?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Related topics
 
-* [Person query](person-queries.md)
-* [Plan walkthrough](solutionsv2-task.md)
+* [Person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Plan walkthrough](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

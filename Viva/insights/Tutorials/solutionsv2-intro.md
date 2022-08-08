@@ -39,16 +39,16 @@ For more information about real-world possibilities, see [Microsoft Workplace In
 
 Viva Insights currently offers plans of the following types:
 
-* [Teamwork improvement plans](teamwork-solution.md) have the goal of helping employees work better together.
-* [Seller success solution](seller-success.md) has the goal of helping sales people become more productive.
+* [Teamwork improvement plans](/viva/insights/tutorials/teamwork-solution?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) have the goal of helping employees work better together.
+* [Seller success solution](/viva/insights/tutorials/seller-success?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) has the goal of helping sales people become more productive.
 
 ## Creating and using plans
 
 See the following topics to learn how to create and track plans:
 
-* [Walkthrough](solutionsv2-task.md) &ndash; Follow these steps to create a plan.
-* [Participants](solutionsv2-participants.md) &ndash; Learn about the experience of participants in a plan.
-* [Concepts](solutionsv2-conceptual.md) &ndash; Learn concepts whose understanding can help you create a plan and monitor its progress.
+* [Walkthrough](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) &ndash; Follow these steps to create a plan.
+* [Participants](/viva/insights/tutorials/solutionsv2-participants?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) &ndash; Learn about the experience of participants in a plan.
+* [Concepts](/viva/insights/tutorials/solutionsv2-conceptual?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) &ndash; Learn concepts whose understanding can help you create a plan and monitor its progress.
 
 ## Prerequisites for plans
 
@@ -114,6 +114,6 @@ In **Leader and manager settings** > **Manager settings**, admins can also set a
 
 ## Related topics
 
-* [Plan walkthrough](solutionsv2-task.md)
-* [Plan participants' experience](solutionsv2-participants.md)  
-* [Plan concepts](solutionsv2-conceptual.md)
+* [Plan walkthrough](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Plan participants' experience](/viva/insights/tutorials/solutionsv2-participants?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)  
+* [Plan concepts](/viva/insights/tutorials/solutionsv2-conceptual?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

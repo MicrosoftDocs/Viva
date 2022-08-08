@@ -28,7 +28,7 @@ The Microsoft Viva Insights documentation has a number of videos that help expla
 
 ### Analyst settings
 
-* [Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md#video-learn-about-meeting-exclusion-rules)
+* [Meeting exclusion rules](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#video-learn-about-meeting-exclusion-rules)
 
 ### Upload data
 
