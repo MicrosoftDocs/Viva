@@ -19,20 +19,20 @@ audience: user
 
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the workday for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
-The focus plan in Viva Insights helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs:
+The focus plan in Microsoft Viva Insights helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs:
 
 * You can silence or allow chats in Teams.
 * You can mute or unmute team notifications.
 
-You can create, configure, or end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
+You can create, configure, or end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To change or leave your focus plan](#to-change-or-leave-your-focus-plan). 
 
 ## To create your focus plan
 
 You can create your focus plan in three places:
 
-* [Viva Insights app](#create-focus-plan-in-the-app)
-* [Dashboard](#create-focus-plan-in-the-dashboard)
-* [Insights Outlook add-in](#create-focus-plan-in-the-insights-outlook-add-in)
+* [Viva Insights app](#in-the-app)
+* [Dashboard](#in-the-dashboard)
+* [Insights Outlook add-in](#in-the-insights-outlook-add-in)
 
 ### In the app
 
@@ -105,7 +105,7 @@ In the **Protect time** tab:
 Now that your focus plan is underway, you can do the following: 
 
 * [Check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan).
-* [Leave or change your focus plan](#to-leave-or-change-your-focus-plan).
+* [Change or leave your focus plan](#to-change-or-leave-your-focus-plan).
 
 
 ## To check the progress of your focus plan
