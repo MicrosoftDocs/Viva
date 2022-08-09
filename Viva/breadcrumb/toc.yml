@@ -1,22 +1,40 @@
-- name: Microsoft Viva
-  href: /viva/
-  topicHref: /viva/index
-  items:
-  - name: Viva Connections
-    tocHref: /viva/connections/
-    topicHref: /viva/connections/viva-connections-overview
-  - name: Viva Learning
-    tocHref: /viva/learning/
-    topicHref: /viva/learning/index
-  - name: Viva Insights
-    tocHref: /viva/insights/
-    topicHref: /viva/insights/index
-  - name: Viva Topics
-    tocHref: /viva/topics/
-    topicHref: /viva/topics/index
-  - name: Viva Goals
-    tocHref: /viva/goals/
-    topicHref: /viva/goals/intro-to-ms-viva-goals
-  - name: Viva solutions
-    tocHref: /viva/solutions/
-    topicHref: /viva/solutions/solutions
+- name: Workplace Analytics
+  tocHref: /
+  topicHref: /workplace-analytics/index
+- name: Viva Insights
+  tocHref: /insights
+  topicHref: /insights/index
+- name: Viva Connections
+  tocHref: /viva/connections/
+  topicHref: /viva/connections/viva-connections-overview
+- name: Viva Learning
+  tocHref: /viva/learning/
+  topicHref: /viva/learning/index
+- name: Viva Insights
+  tocHref: /viva/insights/
+  topicHref: /viva/insights/index
+- name: Viva Topics
+  tocHref: /viva/topics/
+  topicHref: /viva/topics/index
+- name: Viva Goals
+  tocHref: /viva/goals/
+  topicHref: /viva/goals/intro-to-ms-viva-goals
+- name: Viva Solutions
+  tocHref: /viva/solutions/
+  topicHref: /viva/solutions/introduction
+- name: Viva Sales
+  tocHref: /viva/sales/
+  topicHref: /viva/sales/introduction
+- name: Personal insights
+  tocHref: /viva/insights/personal
+  topicHref: /viva/insights/personal/index
+- name: My team
+  tocHref: /viva/insights/use/myteam
+  topicHref: /viva/insights/use/myteam   
+- name: Setup
+  tocHref: /viva/insights/setup/environment-requirements
+  topicHref: /viva/insights/setup/environment-requirements
+- name: My Org
+  tocHref: /viva/insights/setup/environment-requirements
+  topicHref: /viva/insights/setup/environment-requirements    
+ 

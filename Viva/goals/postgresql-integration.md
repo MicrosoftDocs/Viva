@@ -20,9 +20,6 @@ description: "Learn how to integrate your PostgreSQL database with OKRs in Viva 
 
 # PostgreSQL integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 The Viva Goals PostgreSQL integration allows you to update your OKR progress automatically depending on the data fetched from your PostgreSQL database. 
 
 Let’s take this example: you use PostgreSQL databases to store information on leads from multiple sources. You also have an objective in Viva Goals for increasing the number of qualified leads by 40% every quarter. When you link this objective to the corresponding database in PostgreSQL, the status of your OKR will be updated based on the data in your database. Viva Goals will automatically sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current. 

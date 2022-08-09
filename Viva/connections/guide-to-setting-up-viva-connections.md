@@ -29,13 +29,15 @@ Microsoft [Viva Connections](viva-connections-overview.md) is a desktop and mobi
 
 ![Image of a step-by-step diagram about how to set up Viva Connections.](../media/connections/vc-step-diagram-2.png)
 
-Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices using currently available features to create an engaging user experience.
+Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices using currently available features to create an engaging user experience. 
+
+[Get more detailed guidance](viva-connections-setup-overview.md) that focus on tasks in the plan, build, and launch phases. Or, take the [Viva Connections learning path](/learn/paths/viva-connections-get-started/) get more in-depth guidance that includes fictitious business stories, examples, and knowledge checks.
 
 > [!IMPORTANT]
 > - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*.
 > - To complete these step-by-step instructions, ensure that you have the permissions (or privileges) to the SharePoint and Microsoft Teams admin centers. Get more information about [permissions in SharePoint](/sharepoint/customize-sharepoint-site-permissions) and [permissions in Microsoft Teams](/microsoftteams/teams-channels-overview).
 > - Viva Connections is not supported on the Linux operating system.
-
+> - Viva Connections is not currently supported on tablet devices.
 
 
 ## Step 1: Prepare intranet navigation design and content
@@ -215,29 +217,6 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 ## Resources
 
 [Overview of Viva Connections](viva-connections-overview.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
