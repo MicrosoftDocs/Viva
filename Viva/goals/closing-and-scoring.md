@@ -60,7 +60,6 @@ The following fields are displayed:
 |**Continue working on this in another time period?**  |   This is a field where you designate whether you want to move the objective to another time period  to keep working on it. That action postpones completion of the OKR until the next quarter. Select **Yes** or **No** based on preference.    |
 |**Closing note**  |   This is a note about the OKR you're closing. We recommend you enter an  assessment of the success/failure of the OKR and any suggestions you have for including it in future time periods. |  
 
-
 ![Screenshot shows where you score an OKR.](../media/goals/3/36/a.jpg)
 
 After you fill in all of the fields, select **Close** to save the update. The OKR dashboard will update to show your final status, a grayed-out OKR, and a number at the end of the row. 
@@ -84,7 +83,7 @@ When you score and close your OKRs, Viva Goals automatically generates a score f
 Why would you want to modify your score?
 
 If you met with eight investors, and two of them ended the meeting early, four of them turned you down, and two of them not only turned you down but said that your company idea would never work, you might downgrade your score from a "successful" 0.8 to a more realistic 0.3. You went to many meetings, but you're far from getting funding.
-=======
+
 - If you met with eight investors this month, your score would be 0.8.
 
 - If you met with only two investors this month, your score would be 0.2.
