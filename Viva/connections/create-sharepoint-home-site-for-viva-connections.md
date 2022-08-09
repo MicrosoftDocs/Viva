@@ -45,20 +45,20 @@ A home site needs site navigation that is organized well, highlights popular res
 |:::image type="content" source="../media/connections/vc-home-site-design-60.png" alt-text="Home site" lightbox="../media/connections/vc-home-site-design.png" border="false":::    |<ol><li>Hero web part</li><li>World clock web part</li><li>Weather web part</li><li>Feed for Viva Connections web part</li><li>Dashboard web part</li><li>Image web part</li><li>File viewer web part</li><li>Events web part</li><li>Quick Links web part</li><li>Quick Links web part</li><li>News web part</li><li>Quick Links web part</li><li>Call to action web part</li></ol>|
 
 ## Summary of the site structure
-This home site design uses a vertical section and a combination of one and two column sections. After [creating your communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%3A%201%20Sign,5%20Give%20your%20new%20communication%20site%20a%20name), start by [laying out the sections](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) before adding web parts.  
+This home site design uses a vertical section and a combination of one and two column sections. After [creating your communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb), start by [laying out the sections](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) before adding web parts.  
 
 :::image type="content" source="../media/connections/home-site-structure-2.png" alt-text="Home site design" border="false":::    
 
 ## Build the site 
-Start with a [modern SharePoint communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%3A%201%20Sign,5%20Give%20your%20new%20communication%20site%20a%20name). Next, [start adding sections](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) following the diagram in the site sections summary. Then, add and edit web parts. The guidance for customizing web parts can be applied when you are in edit-mode for each web part. 
+Start with a [modern SharePoint communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb). Next, [start adding sections](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) following the diagram in the site sections summary. Then, add and edit web parts. The guidance for customizing web parts can be applied when you are in edit-mode for each web part. 
 
 :::image type="content" source="../media/connections/home-site-top.png" alt-text="Build Home site top section" border="false":::
 
 
 |Number  |Web part  |Customization guidance  |
 |---------|---------|---------|
-|1    | [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645#:~:text=Watch%20this%20video%20to%20see%20how%20it%27s%20done%2C,%28like%20that%20on%20a%20Showcase%20site%29.%20See%20More)| Select **Tiles layout** and then **Four tiles**. |
-|2    | [World clock web part](https://support.microsoft.com/office/use-the-world-clock-web-part-aa2ede87-e331-44f1-a116-a5b8fc67fd04#:~:text=1%20Go%20to%20the%20page%20where%20you%20want,Clock%20web%20part%20for%20SharePoint%20...%20See%20More)| Toggle the **Show days of the week** to **On**. |
+|1    | [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645)| Select **Tiles layout** and then **Four tiles**. |
+|2    | [World clock web part](https://support.microsoft.com/office/use-the-world-clock-web-part-aa2ede87-e331-44f1-a116-a5b8fc67fd04)| Toggle the **Show days of the week** to **On**. |
 |3     | [Weather web part](https://support.microsoft.com/office/show-the-weather-on-your-page-4a86540e-0846-4fc0-bad0-1a82fcd430fc)        |Decide which temperate measurement system makes the most sense for your audience between **Fahrenheit** and **Celsius**.|
 |4  | [The Feed for Viva Connections](use-feed-web-part-for-viva-connections.md) | No settings needed. The [Feed content is personalized](faqs-viva-connections-feed.md) for each user and comes from SharePoint News and Yammer communities that they follow.  |
 |5  | [The Dashboard web part](use-dashboard-web-part-on-home-site.md)| Set the **Maximum number of cards to show** to 9.|
@@ -85,7 +85,7 @@ Start with a [modern SharePoint communication site](https://support.microsoft.co
 
 ## Customize site details
 
-After the site is built, edit site details to create a customized design that aligns with your organizations brand and identity. These [site details can be managed](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b#:~:text=1%20Customize%20the%20theme.%20You%20can%20change%20the,links%20on%20your%20site%20navigation.%20For%20more%20) from **Settings** > **Change the look**.
+After the site is built, edit site details to create a customized design that aligns with your organizations brand and identity. These [site details can be managed](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b) from **Settings** > **Change the look**.
 
   - **Theme** – Select a theme that is ideal for the entire organization. If you make your home site [a hub site](/sharepoint/dev/features/hub-site/hub-site-overview), this theme will get passed down to sites that associate with the hub.
 
@@ -102,7 +102,7 @@ Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overvie
 
 ## Best practices before launching your new home site
 
-- A home site is used by the entire organization, so the site needs to be [inclusive and easily accessible on all devices](https://support.microsoft.com/office/get-ready-build-an-accessible-sharepoint-site-3a1df3ad-f093-450c-85a6-b3bf70fd6abb)and potentially [needs to be viewed in other languages](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
+- A home site is used by the entire organization, so the site needs to be [inclusive and easily accessible on all devices](https://support.microsoft.com/office/get-ready-build-an-accessible-sharepoint-site-3a1df3ad-f093-450c-85a6-b3bf70fd6abb) and potentially [needs to be viewed in other languages](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
 
 - The home site will be viewed by a high volume of users. Make sure you [manage site performance](/sharepoint/portal-health) through the planning and building phases.
 
