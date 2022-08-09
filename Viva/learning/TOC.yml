@@ -60,8 +60,8 @@
         - name: Learning management systems
           items:
             -name: Fix content ingestion errors when adding LMS
-             href: ./troubleshoot/lms-content-ingestion-errors.md
+             href: lms-content-ingestion-errors.md
         - name: Content providers
           items:
             -name: Fix content ingestion errors when adding content providers
-             href: ./troubleshoot/provider-content-ingestion-errors.md
+             href: provider-content-ingestion-errors.md
