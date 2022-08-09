@@ -7,6 +7,7 @@ ms.service: viva
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
+ms.localizationpriority: medium
 ---
 
 
