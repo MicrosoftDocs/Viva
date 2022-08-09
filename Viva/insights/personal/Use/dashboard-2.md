@@ -55,7 +55,7 @@ For more details and tips, see [Network](../use/network.md) and [Collaboration](
 
 ## Productivity insights
 
-Viva Insights gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.These insights are available on your dashboard home page as well as on the specific outcome pages.
+Viva Insights gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data. These insights are available on your dashboard home page as well as on the specific outcome pages.
 
 ![Screenshot that shows Productivity insight cards.](../../Images/mya/use/dashboard-productivity-insights-all.png)
 

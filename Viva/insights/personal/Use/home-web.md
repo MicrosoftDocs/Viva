@@ -109,7 +109,7 @@ If you opt out, you:
 * Continue to have access to Briefing email and privacy settings. 
 * Continue to see currently scheduled individual and shared plan events on your calendar unless you delete them.  
 * Continue to receive shared plan invites. 
-* See a new Home screen on Viva Insights Teams and web app. This Home screen provides the option to opt-in anytime. 
+* See a new Home screen on Viva Insights Teams and web app. This Home screen provides the option to opt in anytime. 
 * Aren’t included in any insights that relate to you as an individual. Here are a few examples:
     * Personal insights, like those found in the Viva Insights Dashboard 
     * Flexible query output that relates to you as an individual, like a Person query 
