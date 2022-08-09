@@ -18,7 +18,7 @@ localization_priority: Normal
 
 # Fix content ingestion errors when adding content providers
 
-You can [add learning content providers](../configure-other-content-sources.md) as content sources for Microsoft Viva Learning. This article lists errors that you may experience in the Microsoft 365 admin center during content ingestion, and steps you can follow to fix them. This list may contain more error codes in the future.
+You can [add learning content providers](configure-other-content-sources.md) as content sources for Microsoft Viva Learning. This article lists errors that you may experience in the Microsoft 365 admin center during content ingestion, and steps you can follow to fix them. This list may contain more error codes in the future.
 
 ## Content ingestion errors
 
