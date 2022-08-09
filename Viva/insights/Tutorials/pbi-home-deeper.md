@@ -29,7 +29,7 @@ To set up these visualizations, follow the steps that are described in the follo
 
 In the following walkthrough, you can do the steps as a business decision maker who has been granted the limited analyst role in the advanced insights app. Your interest in the employee experience at your company is heightened because you’ve become aware of employee attrition, and you want to find out what could be causing this problem. At the end of this walkthrough, you can view custom Power BI visualizations about this issue and optionally share them with team members.
 
-1. Open [the advanced insights app](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/).) If prompted, sign in with your work account.
 
 2. Select the **Boost employee engagement** outcome to see insights about your company.
 
