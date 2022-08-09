@@ -349,6 +349,8 @@ items:
                             href: tutorials/power-bi-teams.md
                           - name: Manager effectiveness
                             href: tutorials/power-bi-manager.md
+                          - name: Hybrid workforce experience
+                            href: tutorials/hybrid-workforce-experience.md
                           - name: Behavior patterns for Glint
                             href: tutorials/power-bi-glint-2.md
                           - name: Sales business continuity
