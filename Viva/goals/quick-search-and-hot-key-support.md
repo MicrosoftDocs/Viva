@@ -1,5 +1,5 @@
 ---
-title: "Quick Search and Hot Key Support"
+title: "Quick search and hot key support"
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -19,23 +19,23 @@ search.appverid:
 description: "Learn how to perform key actions with keyboard strokes, and the ability to search."
 ---
 
-# Quick Search and Hot Key Actions
+# Quick search and hot key actions
 
 ## Quick Search
 
-Search for users, teams, objectives, and projects, and bring key actions in Viva Goals together in a seamless experience. With Quick Search, users can access commands in Viva Goals faster, with no more than two clicks.
+Search for users, teams, objectives, and projects, and bring key actions in Viva Goals together in a seamless experience. With quick search, users can access data in Viva Goals fast, in not more than two commands.
 
-With Quick Search, a user can:
+With Quick search, a user can:
 
-1. Make a check-in
+- Make a check-in
 
-2. Create an objective
+- Create an objective
 
-3. Search for users, teams, objectives, and projects
+- Search for users, teams, objectives, and projects
 
-## Hot Key Support
+## Hot key support
 
-Viva Goals now supports a variety of **Hot Key** actions, allowing users to perform key actions with a few strokes of the keyboard.
+Viva Goals supports various "hot key" combinations that let users perform common actions with a few keystrokes.
 
 **For Mac:**
 
