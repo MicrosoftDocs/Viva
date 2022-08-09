@@ -59,9 +59,5 @@
         - name: Content providers
           items:
             -name: Fix content ingestion errors when adding content providers
-             href: troubleshoot/provider-content-ingestion-errors.md    
-                  
-
-            
-
-
+             href: troubleshoot/provider-content-ingestion-errors.md
+             
