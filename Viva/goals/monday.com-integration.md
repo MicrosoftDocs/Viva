@@ -30,7 +30,7 @@ All users and admins can use the monday.com integration. Admins also have permis
 
 ## How to install the Viva Goals app for monday.com
 
-Before setting up the integration connection, reach out to your monday.com administrator to install the Viva Goals app using this [link](https://auth.monday.com/auth/login_monday/enter_slug?force_existing_account=true&oauth_payload_token=eyJhbGciOiJIUzI1NiJ9.eyJjbGllbnRfaWQiOiJiMTFlMmUxMDljOTdiMzcxYzAzYTk0YzRlNWQ4ZWNmZSIsInJlc3BvbnNlX3R5cGUiOiJpbnN0YWxsIiwib2F1dGhfdmVyc2lvbiI6Mn0.ld79ozTcYkdq5gD2eu60HSLoDeuNB_nb2bsOsmJzqyM](https://auth.monday.com/oauth2/authorize?client_id=1d353d6e717b0b9329a61b0a264499b4&response_type=instal](https://auth.monday.com/oauth2/authorize?client_id=1d353d6e717b0b9329a61b0a264499b4&response_type=install). 
+Before setting up the integration connection, reach out to your monday.com administrator to install the Viva Goals app using this [link](https://auth.monday.com/oauth2/authorize?client_id=1d353d6e717b0b9329a61b0a264499b4&response_type=install).
 
 ## How to connect monday.com to your Viva Goals account from the admin dashboard
 
