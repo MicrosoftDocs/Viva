@@ -15,7 +15,7 @@ audience: user
 
 # Stay connected
 
-You can use **Stay connected** in the Microsoft Viva Insights app in Teams to stay connected with your collaborators and improve your productivity.
+You can use **Stay connected** in the Microsoft Viva Insights app to stay connected with your collaborators and improve your productivity.
 
 ![Stay connected.](images/stay-connected.png)
 
