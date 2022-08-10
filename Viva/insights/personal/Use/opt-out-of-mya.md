@@ -97,12 +97,12 @@ You will use the answer to this question in the following procedure:
 3. Sign in by using the credentials of an email account whose Viva Insights subscription you want to end.
 4. Select the **Settings** (gear) icon in the top right.
 
-    ![Viva Insights settings.](../../Images/mya/use/dashboard-settings-gear.png)
+    ![Screenshot that shows Viva Insights settings.](../../Images/mya/use/dashboard-settings-gear.png)
 
 5. Under **Viva Insights**, select **Settings**.
 6. For Viva Insights, change the setting to **Off**.
 
-    ![Slider in off position.](../../Images/mya/use/dashboard-settings-toggle-off.png)
+    ![Screenshot that shows the slider in off position.](../../Images/mya/use/dashboard-settings-toggle-off.png)
   
 7. Repeat steps 1 - 6 for each account whose Viva Insights subscription you want to opt out of.
 

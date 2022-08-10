@@ -97,7 +97,7 @@ In **Daily Briefing**, you can change the settings for your Briefing email, such
 
 As a manager or team lead with a Microsoft Viva Insights license, you can select **Manage team** in **My Team** to add or remove team members and your team insights will update accordingly. If you're not a manager or team lead, select **I don't lead a team** to hide this section.
 
-![Viva Insights Settings.](../../Images/mya/use/dashboard-my-team.png)
+![Screenshot that shows Viva Insights Settings.](../../Images/mya/use/dashboard-my-team.png)
 
 ## Your feedback
 
