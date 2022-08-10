@@ -85,7 +85,7 @@ Start with a [modern SharePoint communication site](https://support.microsoft.co
 
 ## Customize site details
 
-After the site is built, edit site details to create a customized design that aligns with your organizations brand and identity. These [site details can be managed](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b) from **Settings** > **Change the look**.
+After the site is built, edit site details to create a customized design that aligns with your organization's brand and identity. These [site details can be managed](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b) from **Settings** > **Change the look**.
 
   - **Theme** – Select a theme that is ideal for the entire organization. If you make your home site [a hub site](/sharepoint/dev/features/hub-site/hub-site-overview), this theme will get passed down to sites that associate with the hub.
 
