@@ -22,21 +22,21 @@ Get answers to the most frequently asked questions about what you see in **Organ
 
 ##### Q1 Who benefits from Organization trends in Viva Insights?
 
-**Organization trends** is designed for business leaders with organizational insights derived from Exchange Online mailbox.
+**Organization trends** is designed for qualifying managers and business leaders with privacy-protected organizational insights based on usage of Microsoft 365.
 
-The **Organization trends** insights are based on information that leaders already have access to in Outlook and Teams. Viva Insights applies intelligence to this information to make it easier for leaders to see work patterns and take action to help improve organizational productivity and wellbeing.
+Viva Insights applies intelligence to this information to make it easier for managers and leaders to see work patterns and take action to help improve organizational productivity and wellbeing of the teams and organizations they're responsible for.
 
 ##### Q2 What data is used in these insights and how is it protected?
 
-Leader insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See <!--[Data-protection considerations](../privacy/data-protection-considerations.md)--> [Privacy](../advanced/privacy) for more details.
+Manager and leader insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See <!--[Data-protection considerations](../privacy/data-protection-considerations.md)--> [Privacy](../advanced/privacy) for more details.
 
 ##### Q3 Does the Microsoft Viva Insights app comply with GDPR?
 
 Yes. The Viva Insights app complies with GDPR requirements.
 
-##### Q4 Can leaders gain access to the user experience of a manager or a team lead?
+##### Q4 How can I gain access to Organization trends?
 
-Yes. You gain access to an experience if you fulfill the requirements for that experience. To see the prerequisites for manager and leader insights, see [Setup](../org-team-insights/setup.md).
+You can gain access to an experience if you fulfill the requirements for that experience. To see the prerequisites for manager and leader insights, see [Setup](../org-team-insights/setup.md).
 
 ##### Q5 How can I send Microsoft feedback?
 
