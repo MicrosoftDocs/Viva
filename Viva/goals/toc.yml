@@ -53,6 +53,8 @@ items:
       href: configuring-okrs.md
     - name: Set Up OKR Business Rhythms 
       href: business-rhythms.md
+    - name: Define KR Types in Viva Goals
+      href: kr-types.md
 - name: Product Features
   items:
     - name: Projects
