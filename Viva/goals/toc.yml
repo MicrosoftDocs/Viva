@@ -53,8 +53,6 @@ items:
       href: configuring-okrs.md
     - name: Set Up OKR Business Rhythms 
       href: business-rhythms.md
-    - name: Define KR Types in Viva Goals
-      href: kr-types.md
 - name: Product Features
   items:
     - name: Projects
@@ -65,6 +63,8 @@ items:
       href: review-dashboard-templates.md
     - name: Approval Workflows
       href: approval-workflows.md
+    - name: Define KR Types in Viva Goals
+      href: kr-types.md
     - name: Tags
       href: tags.md
     - name: Explorer
