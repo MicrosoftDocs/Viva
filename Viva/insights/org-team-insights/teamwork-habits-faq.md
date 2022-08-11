@@ -19,7 +19,7 @@ audience: Admin, user
 
 ---
 
-# My team FAQ
+# Teamwork habits FAQ
 
 Get answers to the most frequently asked questions about what you see in **My team** within Microsoft Viva Insights in Microsoft Teams.
 
