@@ -84,10 +84,9 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     
         Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
 
-        * Power BI queries are set to **Group by Week**. Do not change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. You can't edit this field.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
 ![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-setup.png)
-
 
 4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
 ![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-predefined-metrics1.png)
