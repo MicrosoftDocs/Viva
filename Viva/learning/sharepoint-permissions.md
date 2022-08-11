@@ -30,7 +30,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 >[!NOTE]
 > You'll need to add the owners as members in order for them to have access.
 
-2. Go to the learning content repository that you created in SharePoint.
+2. Go to the folder where you're storing learning content in SharePoint.
 3. Select the vertical ellipses (**...**) on the item you want to control access to. If you want to control access to specific items in a folder, go to that folder.
 4. Select **Manage access**.
 
