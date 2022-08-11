@@ -34,7 +34,7 @@ Your admin needs to set up the Viva Insights app in Microsoft Teams before you c
 
 ## Leader insights
 
-Your admin needs to set up the Viva Insights app in Microsoft Teams before you can start using what's available in Viva Insights for business leaders. For details, see [Install, pin, and configure the app](../use/myteam.md#install-pin-and-configure-the-app).
+Your admin needs to set up the Viva Insights app in Microsoft Teams before you can start using what's available in Viva Insights for business leaders. For details, see [Install, pin, and configure the app](../org-team-insights/teamwork-habits.md#install-pin-and-configure-the-app).
 
 ## Advanced insights
 
