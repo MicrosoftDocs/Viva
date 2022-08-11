@@ -38,7 +38,7 @@ You can create your focus plan in three places:
 
 1.	Select the **Protect time** tab.
     
-    ![Screenshot that shows the Focus plan card and the Get started button.](../../Images/mya/use/protect-time-tab.png)
+    ![Screenshot that shows the Protect time tab.](../../Images/mya/use/protect-time-tab.png)
 1. Locate the **Focus plan** card.
 1. Select **Get started**.
    
@@ -54,19 +54,19 @@ You can create your focus plan in three places:
 
 1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
 
-   ![Focus plan - Get started.](../../Images/mya/use/focus-dashboard-get-started.png)
+   ![Screenshot that shows Focus plan setup - Get started.](../../Images/mya/use/focus-dashboard-get-started.png)
 
 2. Select the number of hours of focus time you would like Viva Insights to book for you every day, and then select **Next**.
 
-   ![Focus plan - Choose hours.](../../Images/mya/use/dashboard-focus-plan-1.png)
+   ![Screenshot that shows Focus plan setup - Choose hours.](../../Images/mya/use/dashboard-focus-plan-1.png)
 
 3. Select the time of day for your focus time, and then select **Next**.
 
-   ![Focus plan - Choose AM or PM.](../../Images/mya/use/dashboard-focus-plan-2.png)
+   ![Screenshot that shows Focus plan setup - Choose AM or PM.](../../Images/mya/use/dashboard-focus-plan-2.png)
 
 4. Select whether you want a Teams reminder to begin focus mode.
    
-    ![Focus plan - Choose AM or PM.](../../Images/mya/use/dashboard-focus-plan-3.png)
+    ![Screenshot that shows Focus plan - Want or don't want notification.](../../Images/mya/use/dashboard-focus-plan-3.png)
 
 4. Select whether to have Teams chat notifications muted during focus time, and select **Looks good**.
 
