@@ -37,6 +37,7 @@ You can create your focus plan in three places:
 ### In the app
 
 1.	Select the **Protect time** tab.
+    
     ![Screenshot that shows the Focus plan card and the Get started button.](../../Images/mya/use/protect-time-tab.png)
 1. Locate the **Focus plan** card.
 1. Select **Get started**.
@@ -130,12 +131,12 @@ Through the app or the dashboard, you can change or opt in and opt out of the fo
 
 #### To make changes
 
-From the Home page:
+From the Protect time tab:
 
-1. Locate the **Focus plan** card beneath **Your insights**.
+1. Locate the **Focus plan** card beneath **Protect your time**.
 1. Select **View focus plan preferences**.
 
- ![Screenshot that shows the Focus plan card with the View plan preferences option](../../Images/mya/use/focus-plan-your-insights-view-preferences.png)
+     ![Screenshot that shows the Focus plan card with the View plan preferences option](../../Images/mya/use/focus-protect-time-card.png)
 
 3. On the preferences page, you can pick:
    * How many hours you want to spend focusing each day.
@@ -143,9 +144,9 @@ From the Home page:
    * The earliest you’d want Viva Insights to schedule focus time.
    * Whether you want reminders or to mute Teams notifications during your focus time.
 
-   ![Screenshot that shows Focus plan preferences.](../../Images/mya/use/focus-plan-preferences-app.png)
+       ![Screenshot that shows Focus plan preferences.](../../Images/mya/use/focus-plan-preferences-app.png)
 
-4. After you're done making edits, select Save changes.
+4. After you're done making edits, select **Save changes**.
 
 #### To leave
 
