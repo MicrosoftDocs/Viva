@@ -20,10 +20,10 @@ description: "Learn how to set KR types while creating your Key Results"
 
 # Define KR Types in Viva Goals
 
-The new KR types enable users to establish goals with defined outcomes. These KR types can be simple quantity-type KRs that measure progress from one point to another. Or, they can be guardrail (quality-type) KRs that help monitor consistency and efficiency of businesses.  
+The Key Result(KR) types enable users to establish goals with defined outcomes. These KR types can be simple quantity-type key results that measure progress from one point to another. Or, they can be guardrail (quality-type) key results that help monitor consistency and efficiency of businesses.  
 
 ## What are the different KR types you can create in Viva Goals? 
-Viva Goals allows you to create 5 distinct types of KRs (For Key Results in Classic and for both Objectives and Key Results in Duality); we are broadly classifying them into two main categories: 
+Viva Goals allows you to create 5 distinct types of Key Results; we are broadly classifying them into two main categories: 
 
 1. Regular KR types (Quantity KRs)  
 
@@ -40,7 +40,7 @@ Viva Goals allows you to create 5 distinct types of KRs (For Key Results in Clas
   Similarly, when the OKR is required to track a metric which is already at a certain number and must decrease further to a lower number, you can select the ‘Decrease from’ metric type. E.g., “Reduce P0 bugs from 50 to 10 this quarter”. Here, the start value is the higher value of 50 and the target value is the lower value 10.  
 
 ### Control KR types (Quality) 
-Control KR types are useful when you must keep your OKRs above or below a certain threshold value. For instance, “Keep CSAT score above 9”.  
+Control KR types are useful when you must keep your key results above or below a certain threshold value. For instance, “Keep CSAT score above 9”.  
 
 Viva Goals has 2 control metrics:  
 
@@ -56,7 +56,65 @@ Similarly, when the OKR is required to track a metric to help maintain quality s
 
 ## How can you set KR types for a Key Result?
 
-1. Add a key result by selecting '...' and then choosing the **Add a Key Result** option from the menu.
-2. 
+1. Add a key result by selecting '...' and then choosing the **Add a Key Result** option from the dropdown. You can also edit an existing key result to set a KR type for it.
+2. In the create key result page that appears, enter the title of the key result.
+3. Select **Add metric** that appears below the title.
+4. Enter the target name and choose the appropriate KR type using the **Target should** dropdown.
+5. Depending on the KR type, enter the target values and select **Create**.
 
+## Progress and Status Calculation: 
+Progress and status calculations in Viva Goals vary depending on the key result categories—regular KR types and control KR types.  
 
+### Progress status calculation for regular KR types  
+Progress and status for the regular KR types are determined by two types of progress:
+
+**Expected progress:** 
+Viva Goals calculates expected progress based on the start and end date of an OKR. At the beginning of the time period, the expected progress will be 0% and at the end of the time period the expected progress will be 100% 
+
+**Actual Progress:**
+Based on the check-ins made on the OKR either a. Manually b. From a data source (Integration) c. Roll up from Key results. For further information on how expected or actual progress is calculated refer to this article  
+
+### Status calculation for regular KR types: 
+
+There are two ways in which status can be determined.
+
+1. **Derive Status based on Actual Progress:** Status of the OKR is set based on the actual progress made via automatic progress updates.
+2. **Manually Update Status:** Users can manually update the status of the OKRs by making check-ins. This will override the status set automatically by Viva Goals based on progress updated via roll up from key results or via a data source.
+
+You can learn in detail how the progress and status are calculated for regular KR types in [this article](https://docs.microsoft.com/en-us/viva/goals/track-okr-progress-status).
+
+## Progress status calculation for control KR types 
+Progress and status for the control KR types ‘Stay below’ and ‘Stay above’ are calculated as follows: 
+
+**Stay below:** 
+
+If the current metric value is less than the threshold or target value, then the progress of the OKR is set to 100%, and the status is set to “On Track”. 
+
+Let's take the example key result "Keep churn below 100k" as shown in the image below. The progress graph can be seen with a point in the graph that represents a check-in. Each check-in made will be represented as a point in the graph.
+
+The red dotted line indicates the border value below which the progress points must be in order to be "On Track". 
+
+Similarly, if the value is greater than or equal to the threshold or target value, then the progress of the OKR is 0% and the status is set to “At Risk”. 
+
+Let's take the example key result "Maintain page response time below 2 seconds". As shown in the image, the current progress or check-in made is depicted as a point in the graph.
+
+Since it is greater than the border value of 2, it lies above the red dotted line and in the shaded area that represents "At Risk". This indicates that the status of the key result is "At Risk".
+
+> ![Note] Any check-in or progress point that lies on the red line or in the shaded grey area is "At Risk" while those that lie in the white area are "On Track".
+
+**Stay above:**
+
+If the value is greater than the threshold value, then the progress is set to 100% and the status is “On Track”. 
+
+Let's consider the key result "Ensure NPS stays above 9", where 9 is the border value represented by the red dotted line as shown in the image below. Each point in the graph represents a check-in. Since the points lie in the white area above the dotted line, the progress status is "On Track" as the white area represents "On Track".
+
+If the value is equal to or less than the threshold value then progress of OKR is 0% and status is set to “At Risk”. 
+
+Let's take the example of the following key result: "Maintain average FCSAT score above 8". Here, 8 is the border value represented by the red line. Since the current progress value is 7, which is less than the border value, the progress point is shown to be present in the shaded grey area. This area represents "At Risk" and so, the status of the key result is "At Risk".
+
+For control KR types, there is no notion of “Behind” since we consider these KR types as met or not met. 
+
+## How does roll up happen for control KR types? 
+Based on the progress of the OKR for control metrics (either of 0% or 100%), as and when a check-in is made, the value is rolled up from the child KR to the parent objective. 
+
+If you want to turn off roll-up, this can be done by making the contribution of each key result to 0%. You can navigate to ‘Manage Contributions’ by right-clicking on the parent objective to which the Key result is aligned to and changing the corresponding KRs to 0%.  
