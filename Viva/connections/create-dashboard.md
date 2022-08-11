@@ -51,6 +51,15 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Add the Dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
 - [Get more information about how links and Single sign-on works](#how-urls-and-single-sign-on-works)
 
+
+## Overview of how to create a Dashboard and add cards
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE53Joj]
+
+<br>
+<br>
+
+
 ## Create a Dashboard and add cards
 
 ![Diagram of how to create a Viva Connections Dashboard.](../media/connections/viva-dashboard-step.png)
