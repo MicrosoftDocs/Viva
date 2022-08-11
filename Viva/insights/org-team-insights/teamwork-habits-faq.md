@@ -52,7 +52,7 @@ The first time you open Teamwork habits, you’re prompted to select your team a
 >[!Note]
 >If you're a manger, team members are suggested to you by Azure Active Directory. After you make changes, the automatic sync from your organization’s directory will stop and you'll be responsible for keeping the list up to date.
 
-##### Q6 Can I use Teamwork habits as a team lead?
+##### Q6 Can I use Teamwork habits as an individual contributor?
 
 Yes. As an individual contributor, you can follow the steps described in the previous question to set up your team. After you set up your team, you’ll see **Teamwork habits** within the Viva Insights app. The team insights will filter to match up to your currently selected team. 
 
@@ -65,14 +65,10 @@ If you see a message about reactivation, you've previously deactivated the setti
 
 You can always undo this change later in **Settings** in the Viva Insights app.
 
-##### Q8 Can a team lead gain access to the user experience of a manager or a leader?
-
-Yes. You gain access to an experience if you fulfill the requirements for that experience. To see the prerequisites for the manager and leader insights, see [Admin tasks for manager and leader insights](../org-team-insights/setup.md).
-
-##### Q10 How can I send Microsoft feedback?
+##### Q8 How can I send Microsoft feedback?
 
 For the "Is this helpful" question near the end of every insight and every page, select **Yes** or **No** to provide feedback. You can also select the **Allow Microsoft to contact** checkbox if you’d like Microsoft to contact you about the feedback.
 
-##### Q11 How do I opt back in to Teamwork habits?
+##### Q9 How do I opt back in to Teamwork habits?
 
 You can opt back in at any time to My team within Viva Insights Settings. See Q3 for detailed steps.
