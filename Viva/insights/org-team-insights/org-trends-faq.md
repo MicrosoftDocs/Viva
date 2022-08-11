@@ -28,7 +28,7 @@ Viva Insights applies intelligence to this information to make it easier for man
 
 ##### Q2 What data is used in these insights and how is it protected?
 
-Manager and leader insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See <!--[Data-protection considerations](../privacy/data-protection-considerations.md)--> [Privacy](../advanced/privacy) for more details.
+Manager and leader insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See <!--[Data-protection considerations](../privacy/data-protection-considerations.md)--> [Privacy](../advanced/privacy/privacy.md) for more details.
 
 ##### Q3 Does the Microsoft Viva Insights app comply with GDPR?
 
