@@ -27,7 +27,7 @@ The Viva Connections Dashboard provides fast and easy-access to information and 
 
 The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. The Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization. 
 
-![Image of a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard.png)
+![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard.png)
 
 Once [certain requirements are met](guide-to-setting-up-viva-connections.md), the Dashboard can be created and edited from your [home site.](home-site-plan.md) As you are building the Dashboard, you can see a preview of how it will display for targeted audiences and different devices. Then publish your Dashboard to make it available to users who have access to your home site. When you are done, you can add it to Microsoft Teams so that it's easily accessible from a mobile device and desktop. You can also add it to your home page using the [Dashboard web part.](/sharepoint/use-dashboard-web-part-on-home-site)
 
