@@ -69,7 +69,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 2. Under **Power BI templates**, navigate to **Ways of working** and select **Start analysis**. To get more information about the Ways of working template before running your analysis, select **Learn more**.
 
-    ![Ways of working icon](/viva/insights/advanced/images/wow-pbi-start.png)
+    ![Screenshot that shows the Ways of working icon.](/viva/insights/advanced/images/wow-pbi-start.png)
 
 3. Under **Query setup**:
     1. Type a **Query name**.
@@ -85,17 +85,17 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
         * Power BI queries are set to **Group by Week**. You can't edit this field.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
-![Query setup section](/viva/insights/advanced/images/wow-pbi-setup.png)
+![Screenshot that shows the Query setup section.](/viva/insights/advanced/images/wow-pbi-setup.png)
 
 4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
-![Predefined query metrics](/viva/insights/advanced/images/wow-pbi-predefined-metrics1.png)
+![Screenshot that shows predefined query metrics.](/viva/insights/advanced/images/wow-pbi-predefined-metrics1.png)
 
     >[!Note]
     > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
 
 5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
 
-    ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
+    ![Screenshot that shows the Is active filter.](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
 6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
 
@@ -137,7 +137,7 @@ After the **Ways of working** report is set up and populated with Viva Insights 
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
-![Report settings page in Power BI](/viva/insights/advanced/images/wow-pbi-report-settings.png)
+![Screenshot that shows the Report settings page in Power BI.](/viva/insights/advanced/images/wow-pbi-report-settings.png)
 
 ### Employees with low collaboration
 
