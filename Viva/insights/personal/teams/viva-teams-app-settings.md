@@ -31,7 +31,7 @@ To configure the settings:
 
    * **Workweek** – Edit the days of the week that you work, your start time, end time, and your time zone. These settings are kept synchronized with the same settings in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). That is, if you change them in one place, they will be updated everywhere that they appear.
    * **Virtual commute** – Choose whether you want a reminder to wrap up your day and when you want to see that reminder.
-    * Protect time – You can do three things in Protect time settings:
+    * **Protect time** – You can do three things in **Protect time** settings:
         * Set up your **quiet hours**: Select whether you want to mute mobile notifications during certain times of the day, and whether there are some days you want to mute mobile notifications all day.
         * Set up a **no-meeting day** reminder, which reminds you to clear conflicting meetings on no-meeting days.
         * Configure your **focus plan**. For more information about focus plans, refer to [Focus plan](../Use/focus-plan.md).
@@ -39,7 +39,7 @@ To configure the settings:
    * **Praise** – Choose whether you want a reminder to send praise to your colleagues and when you want to see that reminder. For more information about praise in the Viva Insights app, refer to [Send praise](./viva-insights-praise.md).
    * **Effective meetings** – Choose whether you to send a meeting effectiveness survey to participants in meetings you organize.
    <!--pending verification on licensing--> 
-   * **Teamwork habits** – <!--This option is available only to people who are recognized in Azure AD as managers.-->Initially this shows your team as it is listed in Azure Active Directory. You can use this option to update the list of team members. However, after you edit your team members here, it will no longer synchronize with Azure Active Directory.  
+   * **Teamwork habits** – You can use this option to update your list of team members. Teamwork habits is available to users who have a premium Microsoft Viva Insights license with an [applicable service plan](../Overview/plans-environments.md).
 
 ## About reminders
 
