@@ -126,7 +126,7 @@ You can also access your personal praise history by selecting **Review your prai
 
 ## Praise recommendations
 
-At the top of the **Praise** page, you'll see praise recommendations for your top collaborators. If you're a manager, the app recommends team members you haven't praised in a while. To start your message, select the **Send praise** button.
+At the top of the **Praise** page, you'll see praise recommendations for your top collaborators. Recommendations provide pre-populated suggestions to send praise based on signals such as collaboration activity. If you're a manager, the app recommends team members you haven't praised in a while. To start your message, select the **Start praise** button.
 
 ![Screenshot that shows Praise recommendations.](images/praise-recommendations.png)
 
