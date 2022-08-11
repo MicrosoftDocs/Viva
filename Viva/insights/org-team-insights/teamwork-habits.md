@@ -17,7 +17,7 @@ audience: Admin
 
 # Teamwork habits
 
-***Applies to**: Users who have a premium Microsoft Viva Insights license with an applicable service plan*
+***Applies to**: Users who have a premium Microsoft Viva Insights license with an [applicable service plan](../personal/Overview/plans-environments.md)*
 
 You can see insights and suggested actions based on your personal habits in **Teamwork habits** within the Microsoft Viva Insights app. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
 
@@ -73,7 +73,7 @@ Once you get your team set up, you can make changes to it at any time through th
 
 ![Screenshot that shows the Edit team option](../images/wpa/use/teamwork-habits-edit-team-members.png)
 
-## Your habits
+## Recommendations and actions
 
 If you have a full schedule, it can be tough to stay in contact with your team members. Viva Insights brings together all the information you need to stay caught up and respond quickly to important requests, like:
 
@@ -81,6 +81,8 @@ If you have a full schedule, it can be tough to stay in contact with your team m
 * Reviewing important emails and documents from team members that you haven’t read yet
 * Scheduling [1:1 time](#11-time) with your team members (or rescheduling if a conflict comes up)
 * Viewing and considering changes for [quiet hours impact](#quiet-hours-impact) and [team meeting habits](#team-meeting-habits)
+
+In Teamwork habits, you and your team can set team norms by creating shared plans—for example, [No-meeting days](#plans).
 
 ### 1:1 time
 
@@ -130,11 +132,11 @@ For emails and chats, it is not necessary for the team member to have actually r
 >[!Note]
 >When you add a member to your team list, your impact on the new member's quiet hours are reflected in next week's data.
 
-## Plans
+### Shared plans
 
-To create healthy team norms, you and your team might consider using shared plans. You can find and start plans—for no-meeting days and shared focus <!--and effective meetings-->—in the **Teamwork habits** page. Links to these plans are vertically arranged in cards on the right side of the app; to start one, just select **Get started**. If you already have a plan started, you can edit it by selecting the **Edit** button.
+To create healthy team norms, you and your team might consider using shared plans. You can find and start plans—for [no-meeting days](#no-meeting-days) and [shared focus](#shared-focus-plan)—in the **Teamwork habits** page. Links to these plans are vertically arranged in cards on the right side of the app; to start one, just select **Get started**. If you already have a plan started, you can edit it by selecting the **Edit** button.
 
-![Screenshot that shows plan options.](../images/wpa/use/teamwork-habits-plans-small.png)
+![Screenshot that shows plan options.](../images/wpa/use/teamwork-habits-plans-small-no-em.png)
 
 ### No-meeting days
 
