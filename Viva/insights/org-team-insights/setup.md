@@ -1,9 +1,9 @@
 ---
 
 title: Setup for manager and leader insights
-description: Setup steps for manager and leader insights in Viva Insights in Teams
-author: madehmer
-ms.author: helayne
+description: Setup steps for teamwork habits and organizational trends the Microsoft Viva Insights app
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
@@ -13,7 +13,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: anirudhbajaj
 audience: Admin
 ---
 

@@ -1,9 +1,9 @@
 ---
 
 title: My team in Viva Insights
-description: Learn about the My team page in Microsoft Viva Insights in Teams that shows managers their habits and how that impact their team
-author: madehmer
-ms.author: helayne
+description: Learn about the Teamwork habits page in Microsoft Viva Insights app
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: anirudhbajaj
 audience: Admin
 ---
 
@@ -82,7 +82,7 @@ If you have a full schedule, it can be tough to stay in contact with your team m
 * Scheduling [1:1 time](#11-time) with your team members (or rescheduling if a conflict comes up)
 * Viewing and considering changes for [quiet hours impact](#quiet-hours-impact) and [team meeting habits](#team-meeting-habits)
 
-In Teamwork habits, you and your team can set team norms by creating shared plans—for example, [No-meeting days](#plans).
+In Teamwork habits, you and your team can set team norms by creating shared plans—for example, [No-meeting days](#no-meeting-days).
 
 ### 1:1 time
 
@@ -156,7 +156,7 @@ They can select **Review schedule** within the notice to help with this task.
 
 *Shared focus plans are currently only available through a targeted release.*
 
-Through a shared focus plan, your team can book daily, uninterrupted focus time to get your work done. A shared focus plan helps your team build a shared productivity habit. Refer to [Shared focus plan](shared-focus-plan.md) for details.
+Through a shared focus plan, your team can book daily, uninterrupted focus time to get your work done. A shared focus plan helps your team build a shared productivity habit. Refer to [Shared focus plan](../use/shared-focus-plan.md) for details.
 
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see **Q10** in [Teamwork habits FAQ](teamwork-habits-faq.md).
@@ -164,4 +164,4 @@ Through a shared focus plan, your team can book daily, uninterrupted focus time 
 ## Related topics
 
 * [Personal insights in Viva Insights](../personal/teams/viva-teams-app.md)
-* [Viva Insights introduction](viva-insights-intro.md)
+* [Viva Insights introduction](../introduction.md)
