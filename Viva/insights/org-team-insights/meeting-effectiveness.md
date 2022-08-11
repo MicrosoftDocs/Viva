@@ -40,7 +40,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](../advanced/reference/glossary.md#long-meeting-define), [large meetings](../advanced/reference/glossary#large-meeting-define), and [meeting hours](../advanced/analyst/metrics.md#meeting-hours-define) |Percentage of employees who spend a majority of their meeting hours in long meetings, which are more than one hour, or large meetings, which have more than eight attendees. This insight is calculated weekly and averaged for the entire time period. |
+|Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](../advanced/reference/glossary.md#long-meeting-define), [large meetings](../advanced/reference/glossary.md#large-meeting-define), and [meeting hours](../advanced/analyst/metrics.md#meeting-hours-define) |Percentage of employees who spend a majority of their meeting hours in long meetings, which are more than one hour, or large meetings, which have more than eight attendees. This insight is calculated weekly and averaged for the entire time period. |
 
 #### Best practices
 
@@ -108,7 +108,7 @@ Here's some information about how those metrics are calculated:
 
 |Visual insight| Definition|
 |--------------|-----------|
-Recurring vs. non-recurring meeting hours |Percentage of total meeting hours spent in recurring and non-recurring meetings. These hours are summed for the entire time period and then the percentages are calculated. These calculations use the [Recurring meeting hours](./advanced/analyst/metrics#recurring-meeting-hours-define) metric.
+Recurring vs. non-recurring meeting hours |Percentage of total meeting hours spent in recurring and non-recurring meetings. These hours are summed for the entire time period and then the percentages are calculated. These calculations use the [Recurring meeting hours](./advanced/analyst/metrics.md#recurring-meeting-hours-define) metric.
 <!-- [meeting hours](metric-definitions.md#meeting-hours-define) metric and the [IsRecurring meeting filter](../tutorials/meeting-queries.md#add-metrics).| -->
 
 #### Best practices
