@@ -45,6 +45,8 @@ There are two options that provide in-depth information about how to get Viva Co
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE53Exu]
 
+<br>
+<br>
 
 
 ## Overview of activities in each phase
