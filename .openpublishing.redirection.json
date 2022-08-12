@@ -269,6 +269,16 @@
         "source_path": "viva/insights/use/group-insights.md",
         "redirect_url": "/viva/insights/org-team-insights/org-trends",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/viva-insights-myteam.md",
+        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/viva-insights-myorg.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_document_id": false
       }
     ]
 }
