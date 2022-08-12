@@ -35,7 +35,7 @@ To send praise, open the praise feature in one of the following ways:
 
    ![Screenshot that shows Praise on Home page.](images/send-praise-from-home.png)
 
-2. When the Praise page opens, the badge defaults to **Awesome**. If you’d like to send a different badge with your praise message, select a new choice:
+2. When the **Praise** page opens, the badge defaults to **Awesome**. If you’d like to send a different badge with your praise message, select a new choice:
 
     ![Screenshot that shows selecting a praise badge.](images/new-badge-choice.png)
 
@@ -114,7 +114,7 @@ From the **Home** page:
 
 From the Settings page:
 
-1. Select the ellipses (**...**) at the top of any page, then select **Settings**..
+1. Select the ellipses (**...**) at the top of any page, then select **Settings**.
 1. Select **Praise** from the left pane.
 1. In the praise reminder settings, move the **Reminder** toggle to **On**, then select the time of day and day of the week you want to be reminded.
 
