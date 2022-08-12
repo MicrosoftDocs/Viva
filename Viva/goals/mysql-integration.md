@@ -1,5 +1,5 @@
 ---
-title: "MySQL Integration"
+title: "MySQL integration"
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -19,11 +19,15 @@ search.appverid:
 description: "Learn how to integrate your MySQL database with OKRs in Viva Goals."
 ---
 
-# MySQL Integration
+# MySQL integration
 
 ## Introduction to MySQL integration
 
+<<<<<<< Updated upstream
 The Viva Goals MySQL integration lets you  update your objectives and key result (OKR) progress automatically based on data fetched from your MySQL database. 
+=======
+The Viva Goals MySQL integration lets you update your objectives and key result (OKR) progress automatically based on data fetched from your MySQL database. 
+>>>>>>> Stashed changes
 
 Let's consider this example: You use MySQL databases to store information on leads from multiple sources. You have an objective in Viva Goals to increase the number of qualified leads by 40 percent every quarter. When you link this objective to the corresponding database in MySQL, the status of your OKR will be updated based on the data in your database. Viva Goals will automatically sync the values for you and chart your progress toward the goal, saving time while keeping your OKRs current.
 

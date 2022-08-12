@@ -24,37 +24,40 @@ Viva Goals offers integrations with industry-leading tools and platforms you use
 
 ## How to enable integrations 
 
-To enable integrations, navigate to **Admin > Integrations** and select **Enable** to activate a specific integration.
+To activate a specific integration, go to **Admin** > **Integrations** and select **Enable** .
 
 ## How to view integrations 
 
-When you are at the integrations page within the admin section, there are two views you can use to see all the different integrations we have: list view and grid view. 
+When you are at the integrations page within the admin section, there are two views you can use to see the available integrations: 
 
-The list view is a clean, compact view of all integrations with a clear call-to-action button to enable or manage the integration. 
+- The list view is a clean, compact view of all integrations with a clear call-to-action button to enable or manage the integration. 
 
-The grid view is a detail-driven view that provides links to the corresponding help article and to contact support if necessary. 
+- The detail-driven grid view provides links to the corresponding help article and to contact support. 
 
 You'll see the grid view by default. To toggle between the two views, select the icons in the upper-right corner of the page.
 
 ## How to create connections
 
-To set up a connection, select **Enable** on the integration you want to set up a connection for, and follow the on-screen setup steps. 
+To set up a connection, select **Enable** on the integration you want to set up a connection for, and follow the setup steps. 
 
-**Remember that only admins can edit the connections others have created.** 
+*Remember that only admins can edit connections.* 
 
-You make connections public (usable by everyone in the organization) or private by toggling the **Share connection** checkbox. Users will be able to see their private connections followed by public connections (if any).
+To make connections public (usable by everyone in the organization) or private, toggle the **Share connection** checkbox. Users will be able to see their private connections, followed by their public connections (if any).
 
 ## Data update frequency for integrations 
 
 Viva Goals checks for new data about once per hour. 
 
-You can also trigger a sync manually:
+You can also trigger a sync manually.
+
+   >[!Note]
+   >when you do this, make sure the OKR or project is already integrated with one of the integration tools.
 
 1. Select the integration icon next to the progress bar of an OKR or project.
 
 2. Select the refresh symbol.
 
-To do this, make sure the OKR or project is already integrated with one of the integration tools.
+
 
 ## How to edit an integration
 
