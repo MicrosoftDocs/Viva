@@ -89,7 +89,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 ## Group insights
 
-As a qualifying manager, you'll see a top insight with a **Learn more** link to see more in-depth data about your team's employee experience and effectiveness within Viva Insights in Teams. This section is only available to those who are set up as a manager and meet the minimum-group requirements. <!--See [Group insights](group-insights.md) for details.-->
+As a qualifying manager, you'll see a top insight with a **Learn more** link to see more in-depth data about your team's employee experience and effectiveness within Viva Insights in Teams. This section is only available to those who are set up as a manager and meet the minimum-group requirements. <!--See [Group insights](../org-team-insights/org-trends.md) for details.-->
 
 >[!Note]
 >When you add a member to your team this week, those changes are reflected in next week's data.
