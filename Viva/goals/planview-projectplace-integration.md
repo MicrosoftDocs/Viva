@@ -22,57 +22,57 @@ description: "Sync your project progress in Planview Projectplace with your OKRs
 
 ## About the Planview Projectplace integration 
 
-The Viva Goals Planview Projectplace integration allows you to link OKRs to your project boards for automatic real-time updates. 
+The Viva Goals Planview Projectplace integration lets you link OKRs to your project boards for automatic real-time updates. 
 
-Let's take this example: you have an objective to create an amazing user experience. You can directly link this objective with the project you are running in Planview, so whenever you make an update and move a card in your project board, your OKR status gets updated automatically. 
+Let's take this example: you have an objective to create an amazing user experience. You can directly link this objective with the project you're running in Planview, so whenever you make an update and move a card in your project board, your OKR status is updated automatically. 
 
 ## How to set up a Planview Projectplace integration
 
 ### Create a connection
 
-1. Navigate to your sidebar and select **Admin > Integrations**.
+1. From the sidebar, select **Admin** > **Integrations**.
 
-    :::image type="content" source="../media/goals/11/viva-goals-integrations-page.png" alt-text="Integrations page in Viva Goals." lightbox="../media/goals/11/viva-goals-integrations-page.png":::
+    :::image type="content" source="../media/goals/11/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/11/viva-goals-integrations-page.png":::
 
-2. In the integrations section, navigate to the **Planview Projectplace** and select **Manage**.
+2. In the integrations section, go to the **Planview Projectplace** and select **Manage**.
 
-    :::image type="content" source="../media/goals/11/planview-manage-button.png" alt-text="Managing Planview Projectplace in Viva Goals." lightbox="../media/goals/11/planview-manage-button.png":::
+    :::image type="content" source="../media/goals/11/planview-manage-button.png" alt-text="Screenshot shows where to manage Planview Projectplace in Viva Goals." lightbox="../media/goals/11/planview-manage-button.png":::
 
-3. Select **New Connection** and in the popup that follows, sign in to your Planview Projectplace account to authenticate the connection. 
+3. Select **New Connection**. In the dialog that ape pars, sign in to your Planview Projectplace account. 
 
-    :::image type="content" source="../media/goals/11/planview-new-connection-button.png" alt-text="Creating a new Planview Projectplace connection in Viva goals." lightbox="../media/goals/11/planview-new-connection-button.png":::
+    :::image type="content" source="../media/goals/11/planview-new-connection-button.png" alt-text="Screenshot shows where you create a new Planview Projectplace connection in Viva goals." lightbox="../media/goals/11/planview-new-connection-button.png":::
 
-4. Name your connection and select **Next** to complete the setup. 
+4. Name your connection and select **Next** to complete setup.
 
      :::image type="content" source="../media/goals/11/planview-configure-new-connection.png" alt-text="Configuring a new Planview Projectplace connection in Viva goals." lightbox="../media/goals/11/planview-configure-new-connection.png":::
 
 ### Edit an existing connection
 
-You can edit an existing connection’s name and the connection’s shared state that you’ve created from the Projectplace integration’s view. 
+You can edit an existing connection’s name and the connection’s shared state that you created from the Projectplace integration view: 
 
-Select the **Edit** icon right next to the connection.  In the pop-up that follows, you can make changes to the connection name and enable or disable the **Share connection with all users** checkbox. 
+Select the **Edit** icon right next to the connection.  In the dialog that appears, you can make changes to the connection name and enable or disable the **Share connection with all users** checkbox. 
 
 ## How to use the Planview Projectplace integration 
 
-Once your integration is set up, you can measure the progress of your OKRs by connecting your new or existing OKRs with a board in Planview Projectplace. 
+After your integration is set up, you can connect your new or existing OKRs with a board in Planview Projectplace measure the progress of your OKRs: 
 
-1. While adding or editing an Objective or Key Result, you should choose to measure progress by **Percent Completed**. 
+1. When you add or edit an objective or key result, choose to measure progress by **Percent Completed**. 
 
-2. Select **Planview Projectplace** from the list of integrations available. If there are multiple connections listed, choose a connection you’d like to use.
+2. Select **Planview Projectplace** from the list of integrations available. If there are multiple connections listed, choose the connection you want to use.
 
-    :::image type="content" source="../media/goals/11/planview-datasource.png" alt-text="Selecting Planview Projectplace from the list of data sources in Viva Goals." lightbox="../media/goals/11/planview-datasource.png":::
+    :::image type="content" source="../media/goals/11/planview-datasource.png" alt-text="Screenshot shows where you selecting Planview Projectplace from the list of data sources." lightbox="../media/goals/11/planview-datasource.png":::
 
 3. Next, map the OKR to the project, board, assignee, due date, and activity of your choice. 
 
-     :::image type="content" source="../media/goals/11/planview-connection-details.png" alt-text="Adding new Planview Projectplace connection to OKRs in Viva goals." lightbox="../media/goals/11/planview-connection-details.png":::
+     :::image type="content" source="../media/goals/11/planview-connection-details.png" alt-text="Screenshot show a new Planview Projectplace connection to OKRs in Viva goals." lightbox="../media/goals/11/planview-connection-details.png":::
 
-4. Select **Next** to finish and save your OKR. You’ll now see a Planview Projectplace icon next to the OKR‘s progress indicator, which means Viva Goals will automatically measure the progress based on the number of cards moved to the **Done** list. (‘Completed’ state)
+4. Select **Next** to finish and save your OKR. You’ll now see a Planview Projectplace icon next to the OKR‘s progress indicator, which means Viva Goals will automatically measure the progress based on the number of cards moved to the **Done** list (*Completed* state).
 
-5. The OKR syncs automatically every hour, but you can refresh it manually by selecting **Sync Now**. 
+5. The OKR syncs automatically every hour. You can also select **Sync Now** to refresh it manually. 
 
-## How to disable the Planview Projectplace integration
+## How to disable Planview Projectplace integration
 
-The integration may be disabled at any time from the **Change** dropdown in the Projectplace integration view.
+You can disable the integration at any time from the **Change** dropdown in the Projectplace integration view.
 
-:::image type="content" source="../media/goals/11/planview-disable-button.png" alt-text="Disabling Planview Projectplace in Viva Goals." lightbox="../media/goals/11/planview-disable-button.png":::
+:::image type="content" source="../media/goals/11/planview-disable-button.png" alt-text="Screenshot shows how to disable Planview Projectplace in Viva Goals." lightbox="../media/goals/11/planview-disable-button.png":::
 
