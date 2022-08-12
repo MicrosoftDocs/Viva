@@ -39,6 +39,8 @@ The Viva Engage is built on the foundation of Yammer, but within Teams. It conta
 
 -An Office connector in a team.
 
+## See also 
+[Getting Started with Viva Engage](url)
 
  ## Install the Viva Engage app for Teams 
 
