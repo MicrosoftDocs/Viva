@@ -53,7 +53,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 >[!NOTE]
 > It will take approximately 24 hours for these changes to show up in the Viva Learning app.
 
-To remove unintentionally surfaced content, follow these steps:
+## To remove unintentionally surfaced content
 
 1. To restrict access to the document library, select the **Show actions** option, and then select **Manage access**.
 
