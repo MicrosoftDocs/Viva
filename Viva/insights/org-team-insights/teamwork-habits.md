@@ -1,7 +1,7 @@
 ---
 
 title: My team in Viva Insights
-description: Learn about the Teamwork habits page in Microsoft Viva Insights app
+description: Learn about the Teamwork habits page in Microsoft Viva Insights app.
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article

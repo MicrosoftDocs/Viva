@@ -1,7 +1,7 @@
 ---
 
 title: FAQ for manager and team lead insights
-description: FAQ for Teamwork habits in the Microsoft Viva Insights app
+description: FAQ for Teamwork habits in the Microsoft Viva Insights app.
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article

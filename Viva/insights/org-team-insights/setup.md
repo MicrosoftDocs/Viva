@@ -1,7 +1,7 @@
 ---
 
 title: Setup for manager and leader insights
-description: Setup steps for teamwork habits and organizational trends the Microsoft Viva Insights app
+description: Setup steps for teamwork habits and organizational trends the Microsoft Viva Insights app.
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
