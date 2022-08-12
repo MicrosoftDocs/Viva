@@ -80,7 +80,8 @@ With the Viva Engage app, you'll also get notifications in your Teams activity f
 
 -Announcements from communities that you've joined in your home network.
 
-## See more: Learn how to configure your Teams notification settings. 
+## See more: 
+Learn how to [configure your Teams notification settings](url). 
 
 **Note**: The senders of the notifications must have a Microsoft 365 identity associated with them in your home network.  
 
