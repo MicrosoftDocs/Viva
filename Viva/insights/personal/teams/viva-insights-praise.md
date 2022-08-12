@@ -20,7 +20,7 @@ You can use this feature in the Microsoft Viva Insights app to recognize the con
 You can also set reminders to send acclaim on a regular basis to your coworkers and view your Praise history. See [Set a praise reminder](#set-praise-reminders) and [Praise history](#praise-history) for details.
 
 >[!Note]
->The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+>The praise app is a messaging extension of Microsoft Teams that you can access in the Viva Insights app. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
 ## Send praise
 
