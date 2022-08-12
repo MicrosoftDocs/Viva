@@ -15,7 +15,7 @@ audience: user
 
 # Praise in Viva Insights
 
-You can use this feature in the Microsoft Viva Insights app in Microsoft Teams to recognize the contributions of your employees and coworkers. Praise messages are shown as notifications in Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
+You can use this feature in the Microsoft Viva Insights app to recognize the contributions of your employees and coworkers. Praise messages are shown as notifications in Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
 
 You can also set reminders to send acclaim on a regular basis to your coworkers and view your Praise history. See [Set a praise reminder](#set-praise-reminders) and [Praise history](#praise-history) for details.
 
@@ -33,11 +33,11 @@ To send praise, open the praise feature in one of the following ways:
 
 1. On the Home page, select **Send praise** button on the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
 
-   ![Praise on Home page.](images/home-page-two-hours.png)
+   ![Screenshot that shows Praise on Home page.](images/send-praise-from-home.png)
 
 2. When the Praise page opens, the badge defaults to **Awesome**. If you’d like to send a different badge with your praise message, select a new choice:
 
-    ![Select a praise badge.](images/new-badge-choice.png)
+    ![Screenshot that shows selecting a praise badge.](images/new-badge-choice.png)
 
 3. Add the name of the person you want to praise.
 
@@ -60,15 +60,17 @@ To send praise, open the praise feature in one of the following ways:
 
 In Viva Insights, you can always send praise directly from the [**Home** page](#send-praise-from-the-viva-insights-home-page), which does not require installing the Praise messaging extension.
 
+To use the Teams messaging extension:
+
 1. Below the **Type a new message** field, select **Praise**:
 
-   ![Select Praise.](images/content-pane-select-praise.png)
+   ![Screenshot that shows selecting Praise.](images/content-pane-select-praise.png)
 
    (If the Praise feature does not appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).)
 
 2. When the Praise modal opens, the badge defaults to **Awesome**. If you want to send a different badge with your praise message, select a new choice:
 
-   ![Select new badge.](images/praise-chat-select-new-badge.png)
+   ![Screenshot that shows selecting a new badge.](images/praise-chat-select-new-badge.png)
 
 3. If you’re in a group chat or channel, add the name of the person you want to praise. In a 1:1 chat, the name defaults to the other person in the chat.
 
@@ -86,7 +88,7 @@ In Viva Insights, you can always send praise directly from the [**Home** page](#
 
 2. In the **Find an app** field, start typing "praise" and then select the **Praise** app to open it.  
 
-   ![Select icon for Praise app.](images/find-app-praise.png)
+   ![Screenshot that shows typing to find the Praise app.](images/find-app-praise.png)
 
    The **Praise** app opens.
 
@@ -102,12 +104,21 @@ Remind yourself to send praise to coworkers. Praise reminders are always recurri
 >* The time you select will apply to every day on which you'll see reminders. You can't set different times for different days of the week.
 >* The reminder might not arrive at exactly the scheduled time, but most reminders appear within five minutes before their scheduled time. For example, if your reminder is scheduled for 5:00, the reminder could appear between 4:55 and 5:00.
 
-You can set praise reminders either on the [**Settings** page](viva-teams-app-settings.md) or on the **Home** page, as described here:
+You can set praise reminders either from the **Home** page or the **Settings** page:
 
-1. Select the **Send praise to your colleagues** card, which is located on the **Home** page at center left.
-2. In the praise reminder settings, select the time of day and day of the week, and then move the **Reminders** slider to **On**:
+From the **Home** page:
 
-   ![Praise reminder.](images/praise-settings-page.png)
+1. On the **Send praise to your colleagues** card, select the **Send praise** button.
+1. On the **Praise** page, configure your reminder through the card on the right.
+   ![Screenshot that shows Praise reminder on the Praise page.](images/praise-reminder-pane.png)
+
+From the Settings page:
+
+1. Select the ellipses (**...**) at the top of any page, then select **Settings**..
+1. Select **Praise** from the left pane.
+1. In the praise reminder settings, move the **Reminder** toggle to **On**, then select the time of day and day of the week you want to be reminded.
+
+   ![Screenshot that shows Praise reminder settings on the Settings page.](images/praise-set-reminder-in-settings.png)
 
    On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send praise from the Viva Insights Home page](#send-praise-from-the-viva-insights-home-page).
 
