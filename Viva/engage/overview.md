@@ -1,8 +1,8 @@
 ---
 title: "Overview of Microsoft Viva Engage"
 ms.reviewer: 
-ms.author: 
-author: 
+ms.author: joannaebizie
+author: joannaebizie
 manager: 
 audience: Admin
 f1.keywords:
