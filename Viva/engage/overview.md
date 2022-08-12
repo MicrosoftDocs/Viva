@@ -36,7 +36,7 @@ The Viva Engage is built on the foundation of Yammer, but within Teams. It conta
 
 -Notifications, such as announcements and @mentions, in your Teams Activity feed. 
 
--A channel tab that lets you add a community or topic to a Teams channel. For more information, see Add a Yammer page to a Teams channel.
+-A channel tab that lets you add a community or topic to a Teams channel. For more information, see [Add a Yammer page to a Teams channel](url).
 
 -An Office connector in a team.
 
