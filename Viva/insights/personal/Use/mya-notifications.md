@@ -29,10 +29,8 @@ Inline suggestions are available in the latest versions of Outlook for the web a
 * Outlook Insights add-in version 3.0.0.0 or higher. To check the installed version of the add-in, see [Exchange admin center](/exchange/architecture/client-access/exchange-admin-center). The add-in is installed at the tenant level, after which it can take up to eight days for the upgrade to propagate to all users. If you notice that the proper add-in version isn't installed in Outlook, you can add it by following the steps in [Add the Viva Insights Outlook add-in](../overview/mya-faq.md#add-the-viva-insights-outlook-add-in).
 * Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](/outlook/actionable-messages/).
 
-In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
+In Outlook for Windows and Outlook on the web, inline suggestions will show up while reading or composing an email or a meeting invitation.
 
->[!Note]
->Inline suggestions are not available on mobile devices.
 
 ## Types of inline suggestions
 
@@ -70,11 +68,24 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
-_**Applies to**: Delay delivery inline suggestions are available to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
+When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions when:
 
-When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. Viva Insights can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
+* All recipients in the **To** field are outside of their working hours.
+* You're sending an email to just one recipient in the **To** field, and that recipient has an [automatic out-of-office reply](https://support.microsoft.com/office/send-automatic-out-of-office-replies-from-outlook-9742f476-5348-4f9f-997f-5e208513bd67) set up in Outlook.
+* You are outside of your working hours.
 
-This suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
+The delay helps minimize disruptions to recipients outside their working hours or when they’re away from work. It helps anybody who wants to maintain the flexibility to work when they want without putting the burden of their schedule on others.
+
+You might *not* see suggestions when:
+
+* You’re composing an email during the 30 minutes before the recipients’ or your working hours.
+* There are more than 15 recipients in the **To** field.
+* You're sending an email to yourself.
+
+>[!Note]
+> Distribution lists and Microsoft 365 or Office 365 groups do *not* count as qualifying recipients for use by the delay-delivery feature. A shared mailbox in the **To** field, however, *does* count as a qualifying recipient. If a user has Full access permissions and can **Send as** or **Send on behalf of** the shared mailbox, that user counts as a qualifying sender.
+
+The delay-delivery inline suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
 
 When the inline suggestions feature is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in Viva Insights or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
@@ -91,7 +102,7 @@ When the inline suggestions feature is turned on, you can delay up two email del
 
    ![Delay delivery inline options](../../Images/mya/use/delay-options.png)
 
-3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
+3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time. At the scheduled delivery time, the email is automatically delivered to all recipients in the **To**, **Cc**, and **Bcc** fields for you.
 
    Before the message is sent, you can open the message and select:
 
@@ -150,7 +161,7 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 ## Shorten a meeting
 
-_**Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
+***Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md#additional-features).*
 
 When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time.
 
@@ -160,9 +171,16 @@ Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also
 
 ![Shorten a meeting; nice work](../../Images/mya/use/shorten-meeting-nice-work-50.png)
 
+**Shorten meeting** is triggered when:
+
+- You're composing a one-hour meeting.
+- You're not scheduling a same-day meeting.
+- For *recurring* meetings, there are at least three attendees, including the organizer. Attendees can be either optional or required.
+- For meetings that *don't* recur, there are at least four attendees, including the organizer. Attendees can be either optional or required.
+
 ## Track email open rate
 
-_**Applies to**: This insight is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
+***Applies to**: This insight is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md#additional-features)*
 
 While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email.
 
@@ -174,7 +192,7 @@ Select **See more insights** to see how many people have opened or forwarded you
 
 ## Track email
 
-_**Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
+_**Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md#additional-features)._
 
 When composing an email to more than five recipients, you might see a suggestion that reads "Insights can track the email."
 

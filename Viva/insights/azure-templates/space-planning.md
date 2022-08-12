@@ -58,7 +58,7 @@ This template combines the data in these files and generates a table that shows 
 ## Create an Interaction file
 
 1. Confirm you are assigned the [Analyst role in Workplace Analytics](../use/user-roles.md), which is required to create this file.
-2. Sign in as an **Analyst** and open [Workplace Analytics](https://workplaceanalytics.office.com/).
+2. Sign in as an **Analyst** and open [Workplace Analytics](https://workplaceanalytics.office.com/). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/).)
 3. Select **Analyze** > **Query designer**.
 4. In **Start custom query**, select **Group-to-group query**.
 

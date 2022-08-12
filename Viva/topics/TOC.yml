@@ -55,6 +55,8 @@
           href: edit-a-topic.md
         - name: Save a topic as a draft
           href: save-topic-as-draft.md
+        - name: Curate Multilingual topics
+          href: Curate-a-topic-in-multilingual.md
         - name: Use taxonomy terms to create a topic
           href: sharepoint-taxonomy.md
         - name: Search for topics 

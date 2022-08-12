@@ -18,7 +18,7 @@ description: Learn how knowledge managers build and manage a knowledge base with
 
 # Knowledge managers: Build and manage a knowledge base in Microsoft Viva Topics
 
-Knowledge managers play a key role in building a knowledge base that Viva Topics then makes available to employees, in the flow of their work. In this article we review:  
+Knowledge managers play a key role in building a knowledge base that Viva Topics makes available to employees, in the flow of their work. In this article we review:  
 
 - [The importance of the knowledge manager](topic-experiences-knowledge-managers.md#importance-of-the-knowledge-manager)
 
@@ -32,7 +32,7 @@ Knowledge managers play a key role in building a knowledge base that Viva Topics
 
 Knowledge managers have a unique opportunity to scale their impact and demonstrate leadership by showing colleagues and leaders how knowledge can be used for better outcomes, and by helping build a quality knowledge base for their team and department.  
 
-A high—quality knowledge base can help a knowledge manager and their team:  
+A high-quality knowledge base can help a knowledge manager and their team:  
 
 - Spend less time searching for or recreating information that already exists 
 
@@ -85,7 +85,7 @@ Topics can also be confirmed or removed based on crowdsourced feedback. When use
 
 ### Prioritize topics for curation
 
-To build an initial, high—quality knowledge base quickly, it’s important to determine which topics should be prioritized for curation. Priority topics should be high value and have high visibility in the organization. 
+To build an initial, high-quality knowledge base quickly, it’s important to determine which topics should be prioritized for curation. Priority topics should be high value and have high visibility in the organization. 
 
 There are several different ways to prioritize which topics to focus efforts on:  
 
@@ -177,7 +177,7 @@ To kick-start topic curation, consider running Viva Topics hackathons within a t
 There will be topics that the knowledge manager has the capability and expertise to curate, including topics suggested by the AI, or new topics that the AI didn't discover. Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to [edit an existing topic](edit-a-topic.md) and [create new topics](create-a-topic.md). It’s also possible to [save a topic as a draft](save-topic-as-draft.md) if it’s not ready to publish. 
 
 > [!Note] 
-> While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
+> While information in a topic that's gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
 
 
 

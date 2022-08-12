@@ -23,7 +23,7 @@ This integration enables you to export and combine Microsoft Viva Insights colla
 
 ## Viva Insights data
 
-[My organization in Teams](../../use/viva-insights-my-org.md) shows what kind of Viva Insights data can be integrated with your partner application data. For details about the metrics used within Viva Insights data, see [Viva Insights metrics](metrics.md).
+[My organization in Teams](/viva/insights/use/viva-insights-my-org) shows what kind of Viva Insights data can be integrated with your partner application data. For details about the metrics used within Viva Insights data, see [Viva Insights metrics](metrics.md).
 
 ## Partner prerequisites
 
@@ -40,24 +40,42 @@ This integration enables you to export and combine Microsoft Viva Insights colla
 * Have the tenant set up with a [Consent Request Approvers group](/azure/active-directory/manage-apps/configure-admin-consent-workflow) in the Microsoft 365 admin center.
 * Enable [Microsoft Graph Data Connect](/graph/data-connect-concept-overview) for the tenant, which is the platform you'll use to export the Microsoft 365 data.
 
-## Data egress flow overview
+## Flow overview
 
 The following steps describe the flow that's required by you as a Viva Insights partner and your customer for this integration. These steps include the previously described prerequisites for both you and your customer.
 
-1. As a partner, after you join the program (described in [Partner prerequisites](#partner-prerequisites)), you'll get a [Managed application](/azure/azure-resource-manager/managed-applications/overview) with [Azure Resource Manager (ARM) Templates](/azure/azure-resource-manager/templates/) from Viva Insights that you need to edit for your specific use case. The ARM templates define the Azure Data Factory pipeline and associated resources that will be deployed to Azure, in your customer’s Azure subscription, to move data from their subscription to yours.
-1. Upload the Managed application source code package to a storage account within your Azure subscription. The source code package must include:
+1. Edit the sample [Azure Resource Manager (ARM) Template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction/mainTemplate.json) for your specific use case. The ARM template defines the Azure Data Factory pipeline and associated resources that will be deployed to Azure, in your customer’s Azure subscription, to move data from their subscription to yours.
+1. On your partner tenant:
+    1. Create a Blob storage account resource. This resource will be used to deliver the final data drop from the customer tenant to yours.
+    1. Create a container and navigate to the **Shared Access Tokens** blade.
+    1. Create a token with **Write** permissions for the container and note down the  Blob SAS URL that was generated.
+  
+  > [!Note]
+  > The requirement to create a SAS URL will be removed in an upcoming release.
 
-   * The edited ARM template files with details for the [Azure Data Factory](/azure/data-factory/introduction) that's related to the resources that control the data movement.
-   * UI definition file that defines your customer’s UI experience, such as what options or customizations they can make to the app.
+3. On the customer tenant, create a new registration:
+    1. Select **Azure Active Directory**.
+    1. Navigate to the Application registrations blade and select **App registrations**, then **New registration**.
+    1. Provide a name for your application, leave the other settings on the defaults, then select **Register**.
+1. On the customer tenant, the customer must provision a client secret for the application created in the previous step. The customer should store the secret in a secure location, such as an Azure Key Vault. For more details, refer to [Move data](#move-data).
 
-   >[!Important]
-   >You must store the source code package in a publicly accessible location for your customers to use it in the following steps. You can configure the blob storage container to host the package for [anonymous read access](/azure/storage/blobs/anonymous-read-access-configure/).
+  > [!Note]
+  > The requirement to create an application registration and client secret on the customer tenant will be removed in an upcoming release.
 
-1. Your customer then needs to define and deploy the Managed application in their [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) from the source code with a [Shared Access Signature (SAS) key](/azure/storage/common/storage-sas-overview) URI that you share with the customer. For details, see [Customer onboarding](#customer-onboarding).
+5. On the customer tenant, deploy the template:
+    1. In the Azure portal, select **Deploy a custom template**.
+    1. Select **Build your own template** in the editor and copy the contents of your ARM template.
+    1. Select a **Resource group** and **Region** to deploy to.
+    1. Provide values for the parameters specified in your ARM template:
+        * For the sample template, the **SAS Url** is the URL that was generated in step 2.
+        * The **App Id** is the Application (Client ID) of the application created in step 3.
+        * The **App Secret** is the secret generated in step 4.
 
-   ![Define the Managed application.](../../images/advanced/define-managed-app.png)
+        ![Screenshot of the Custom deployment screen with fields mentioned in step 5d above](/Viva/insights/Images/advanced/custom-deployment.png)
 
-1. Your customer needs to provision a client secret for the application that’s stored in a secure location, such as an [Azure Key Vault](/azure/key-vault/). The secret is required for the Managed application installation. For details, see [Move data](#move-data).
+        > [!Note]
+        > The ARM template will be able to be deployed directly to your partner tenant, instead of the customer’s, in an upcoming release.
+
 1. As the partner, you must call the Partner key through the [Viva Insights API](api.md) to create a unique RSA-2048 bit key for your customer. For more details, see [Customer onboarding](#customer-onboarding).
 1. The customer approves the consent request to kick-off the data extraction, and then the data drops in your partner data store.
 1. Viva Insights then generates an encryption key. See [Encryption and compression](#encryption-and-compression) for details.
@@ -67,17 +85,17 @@ The following steps describe the flow that's required by you as a Viva Insights 
 
 With this integration, behavioral analytics data is moved between Azure and your partner application through an [Azure Data Factory pipeline](/azure/data-factory/concepts-pipelines-activities).
 
-This pipeline needs to be installed by a *partnered-provided* Managed application in the customer’s Azure tenant. The pipeline must do the following tasks:
+This pipeline needs to be configured by a *partner-provided* Azure Data Factory template in the customer’s Azure tenant. The pipeline must do the following tasks:
 
 1. Extract data from Microsoft 365 to a temporary storage location in the customer’s tenant.
 1. Copy data from the temporary location to a Blob Storage account owned by your application, with a [Shared Access Signature (SAS) key](/azure/storage/common/storage-sas-overview) that you generate, and is entered when the application is installed by the customer.
 1. (Optional) Notify your partner application that new data is available for processing.
 
-See the [sample Managed application](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) as an example of how to move data (described in the previous steps).
+See the [sample Data Factory pipeline](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) as an example of how to move data (described in the previous steps).
 
 ### Metadata file
 
-Each data drop includes a **Metadata.json** file, with the path of **Metadata/JobMetadata** in the root directory. The JSON file includes details about the copy activity with the following schema:
+Each data drop includes a **Metadata.json** file, with the path of **metadata/JobMetadata** in the root directory. The JSON file includes details about the copy activity with the following schema:
 
 |Field |Description |
 |-------|----------|
@@ -97,7 +115,7 @@ Each data drop includes a **Metadata.json** file, with the path of **Metadata/Jo
 To enable data extraction for a customer, your application must call the Partner key through the [Viva Insights API](api.md) to provide the Azure Active Directory tenant ID of your customer and the **public key** of a unique [RSA-2048](https://en.wikipedia.org/wiki/RSA_numbers) key pair that you have generated for this customer. Your application can securely generate and store RSA-2048 certificates (containing such a key pair) using [Azure Key Vault](/azure/key-vault/), or you may use a custom solution.
 
 >[!Important]
->Do not reuse certificates for multiple customers. The Partner key will reject duplicate keys as a security risk.
+>Do not reuse certificates for multiple customers. The Partner key API will reject duplicate keys as a security risk.
 
 The public key is used to encrypt the **decryption keys** described in the following section. Microsoft can then safely store your decryption keys because only your application can decrypt the keys by using the private key that only you have access to.
 
@@ -115,13 +133,13 @@ Your application must reverse the encryption and compression process to access t
 1. Stream the file into your application. When encrypted properties (such as Object ID) are encountered in the JSON object, decrypt the property with the column encryption key.
 
 >[!Note]
->In a future release, your customers will be able to choose whether your application receives the column encryption key or not. If this setting is not enabled, your application cannot decrypt identifying information about users and will only have access to aggregated analytics data. For the *Private Preview release*, this setting must be set as **On**.
+>In a future release, your customers will be able to choose whether your application receives the column encryption key or not. If this setting isn't enabled, your application cannot decrypt identifying information about users and will only have access to aggregated analytics data. For the *Private Preview release*, this setting must always be **On**.
 
 ## Pipeline cadence and configuration
 
 Behavioral analytics data is processed by Viva Insights once a week. Your pipeline might run more frequently, but the same output will be returned until the following week.
 
-The sample pipeline includes a [Trigger](/azure/data-factory/concepts-pipeline-execution-triggers) that will execute the pipeline once every seven days, which is the recommended frequency.
+The sample Data Factory pipeline includes a [Trigger](/azure/data-factory/concepts-pipeline-execution-triggers) that will execute the pipeline once every seven days, which is the recommended frequency.
 
 ## Join Viva Insights data with other data
 
@@ -132,9 +150,9 @@ While identifying users by the Object ID is the preferred path, not every applic
 ### Export the directory information along with the analytics data
 
 1. Configure your Azure Data Factory pipeline to add an additional step to export Azure Active Directory user data.
-1. This will create an additional output file from your pipeline that includes basic information about each user in the customer’s tenant. This can be used to correlate user information between Azure and your application by joining on a common field, such as e-mail address. See the Microsoft Graph Data Connect documentation for details on the [User Schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/User_v1.md) and a [Sample of the output](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/BasicDataSet_v0.User_v1.json).
+1. This will create an additional output file from your pipeline that includes basic information about each user in the customer’s tenant. This file can be used to correlate user information between Azure and your application by joining on a common field, such as e-mail address. See the Microsoft Graph Data Connect documentation for details on the [User Schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/User_v1.md) and a [Sample of the output](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/BasicDataSet_v0.User_v1.json).
 
-The [sample Managed application](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) includes an example of a pipeline that exports directory information.
+The [sample Data Factory pipeline](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) includes an example of a pipeline that exports directory information.
 
 ## Consume analytics data
 
@@ -157,7 +175,9 @@ You can use the SDK or REST API to download data from your Blob Storage account 
 
 ## Supported metrics
 
-| Name | System Name | Data Type | Precision/Format |
+The supported metrics for the *Private Preview release* are listed below.
+
+| Metric Name | Column Name | Data Type | Precision/Format |
 |--------|-------------|-----------|-----------------|
 |MetricDate | MetricDate | DateTime | UTC Format |
 |IsActive | IsActive | Boolean | Not applicable |
@@ -184,7 +204,7 @@ You can use the SDK or REST API to download data from your Blob Storage account 
 
 To quickly prototype an application built on the Viva Insights integration, you can use sample data to simulate a data drop received from a customer.
 
-* Upload Viva Insights sample data to a Storage Account in your test environment. See [How to upload data to Azure](/azure/storage/blobs/storage-quickstart-blobs-portal/) for more details.
+* Upload [Viva Insights sample data](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/sampledatasets/VivaInsightsDataset_v0.json) to a Storage Account in your test environment. See [How to upload data to Azure](/azure/storage/blobs/storage-quickstart-blobs-portal/) for more details.
 * Build your application to retrieve the behavioral analytics data, as follows:
 
   * Download the data from your Azure Storage Account. To do this, you can use the [SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet/) or the [REST API](/rest/api/storageservices/).
@@ -199,7 +219,25 @@ Contact Microsoft support to get help resolving the issue.
 ## Best practices for storing customer data
 
 1. **Do not permanently store decrypted files in Azure or on-premises storage.** Your application should decrypt the behavioral analytics data in real-time as it is being processed. The decrypted contents should not be written to the disk.
-1. Ensure that your Azure Data Factory pipeline includes a step to clean up analytics data on the customer’s storage account after it has been transferred to your application’s storage. The sample Managed application includes this step.
+1. Ensure that your Azure Data Factory pipeline includes a step to clean up analytics data on the customer’s storage account after it has been transferred to your application’s storage. The sample Data Factory pipeline includes this step.
+
+## Deployment to a customer tenant
+
+This *Private Preview release* is primarily aimed at partners who are interested in experimenting with building an integration on top of Viva Insights using synthetic (or test) customer data. The experience is not currently optimized for deployment to a retail customer.
+
+Your Azure Data Factory pipeline can be deployed to a customer tenant during the *Private Preview release*, but it involves more steps than upcoming releases will. Instead of deploying an ARM template directly as described in the [Flow overview](#flow-overview) section, you can instead choose to package your template as a *Managed application* that is hosted in your Azure tenant. The customer can download and install the Managed application through a simplified process that is more user-friendly than deploying an ARM template, but still does not represent the final experience.
+
+*If you want to package your template as a Managed application, perform the following steps **instead of** steps 1 – 5 in [Flow overview](#flow-overview):*
+
+1. As a partner, you can author a Managed application containing your Azure Data Factory pipeline definition following the steps described here: Create and Publish a Managed Application Definition.  
+1. Upload the Managed application source code package to a storage account within your Azure subscription. The source code package must include:  
+    * The ARM template file with details for the Azure Data Factory and associated resources that control the data movement. This file must be named **mainTemplate.json**.  
+    * UI definition file that defines your customer’s UI experience, such as which options or customizations they can make to the app. This file must be named **createUiDefinition.json**.  
+
+>[!Important]
+>You must store the source code package in a publicly accessible location for your customers to use it in the following steps. You can configure the blob container to host the package for anonymous read access.  
+
+3. Your customer then needs to define and deploy the Managed application in their Service Catalog from the source code with a Shared Access Signature (SAS) key URI that you share with the customer. For details, see [Customer onboarding](#customer-onboarding).
 
 ## FAQ
 
@@ -218,7 +256,7 @@ A1. The following are estimates of final output size for analytics data, which a
 
 **Q2. Does the analytics data received from Viva Insights include all users in the customer’s tenant?**
 
-A2. Analytics data is only calculated for users who are assigned a Viva Insights license. Unlicensed users are not included in the data.
+A2. Analytics data is only calculated for users who are assigned a Viva Insights license. Unlicensed users aren't included in the data.
 
 **Q3. How frequently is analytics data calculated?**
 
@@ -226,7 +264,7 @@ A3. Currently, analytics data is calculated once a week. For subsequent runs of 
 
 **Q4. Given the potentially large file size, how can the data be processed efficiently?**
 
-A4. Though the output format is JSON, it is not a fully-formed JSON document. Each row of analytics data is modeled as a single JSON object. This allows the file to stream, instead of parse the entire JSON tree and consequently loading the full file into memory.
+A4. Though the output format is JSON, it isn't a fully-formed JSON document. Each row of analytics data is modeled as a single JSON object. This allows the file to stream, instead of parse the entire JSON tree and consequently loading the full file into memory.
 
 The recommended approach is to stream in analytics data line-by-line. Do not attempt to load the entire file into memory. To further improve read performance, your application can divide the stream into segments that are processed by separate threads to leverage multiple cores.
 

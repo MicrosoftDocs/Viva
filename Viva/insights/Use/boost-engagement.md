@@ -61,10 +61,10 @@ You can select **See your insights** to see ways you can improve employee engage
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) |
-  |Prevent employee burnout |Help employees disconnect |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)|
-  |Drive employee empowerment |Increase information sharing |[Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) |
-  |Strengthen team connections |Spend more time with important collaborators |[Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks) |
+  |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)) |
+  |Prevent employee burnout |Help employees disconnect |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork))|
+  |Drive employee empowerment |Increase information sharing |[Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)) |
+  |Strengthen team connections |Spend more time with important collaborators |[Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/ChangeManagement/InternalNetworks))|
 
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.

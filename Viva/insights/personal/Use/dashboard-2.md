@@ -71,17 +71,21 @@ Educational insights give you work productivity and wellbeing tips and ideas, wh
 
 ![Educational insights.](../../Images/mya/use/educational-tips.png)
 
-## Config Settings
+## Settings
 
-Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work week** section of **Config Settings**. Changes to these settings are reflected in next week's data.
+Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work Week** section of **Settings**. Changes to these settings are reflected in next week's data.
 
-In **Plan configuration**, you can personalize your focus plan. You can select how much focus time you want to schedule for what time of day, if you want to automatically book it or only get reminders to schedule it for the next two weeks, and more. For more details, see [Focus plan](../use/focus-plan.md).
+In **Protect Time**, you can do the following:
 
-In Delay Delivery, you can turn the feature On or Off for the option of delaying delivery of an email during your co-workers configured working hours.
+* Personalize your focus plan by selecting how much focus time you want to schedule for what time of day and set Teams settings accordingly. For more details, see [Focus plan](../use/focus-plan.md).
+* Configure your quiet time to mute mobile notifications from Outlook and Teams for a set number of hours or days.
+* Turn the **Delay Delivery** feature **On** or **Off** for the option to delay delivery of an email until when your co-workers are in their set working hours.
 
-If you're a manager or team lead with a Microsoft Viva Insights license, you can select **Edit team** in **Team settings** to add or remove team members and your team insights will update accordingly. If you're not a manager, select **I'm not a manager** to hide this section.
+In **Daily Briefing**, you can change the settings for your Briefing email, such as to subscribe or unsubscribe and to set up when you want to receive it. For details, see [Briefing settings](../briefing/be-settings.md).
 
-![Config Settings.](../../Images/mya/use/config-settings-2.png)
+As a manager or team lead with a Microsoft Viva Insights license, you can select **Manage team** in **My Team** to add or remove team members and your team insights will update accordingly. If you're not a manager or team lead, select **I don't lead a team** to hide this section.
+
+![Viva Insights Settings.](../../Images/mya/use/settings.png)
 
 ## Your feedback
 

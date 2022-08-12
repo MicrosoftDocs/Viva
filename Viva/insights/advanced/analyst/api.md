@@ -36,20 +36,22 @@ Your application must first decrypt the **Value** of the decryption key using th
 
 Use the following path:
 
-```POST https://api.orginsights.viva.office.com/v{version}/tenants/{tenant}/scopes/{scope}/egressDecryptionKey
+```POST 
+https://api.orginsights.viva.office.com/v{version}/egressDecryptionKey
+
 ```
 
 With the following required parameters for the path:
 
 * **Version** - The version of the API. Currently, the only supported version is 1.0.
-* **Tenant** - The Azure Active Directory tenant ID for your customer.
-* **Scope** - The partition or scope identifier for the customer. Currently, this must be the same as the Tenant ID.
 
 ### Sample request
 
 ```http
 {
- "requestId": "5c90fd79-6c11-40c7-a66d-f5af65e2b974"
+ "requestId": "5c90fd79-6c11-40c7-a66d-f5af65e2b974",
+ "scopeId": "dbd9447b-405c-4946-ac5a-492d6e9bfecb" 
+
 }
 ```
 
@@ -72,18 +74,17 @@ With the following required parameters for the path:
 }
 ```
 
-### ID request
+### Request body
 
-Use the following command to create request with the unique ID of the extraction operation for which the decryption keys should be retrieved:
+```DecryptionKeyCreateRequest``` 
 
-```DecryptionKeyCreateRequest```
+[Model](#decryptionkeycreaterequest)
 
 ### Return type
 
-Use the following command for the return type response:
-
 ```DecryptionKeyCreateResponse```
 
+[Model](#decryptionkeycreateresponse)
 ### Responses
 
 * **200** - Returns the created decryption keys as: ```DecryptionKeyCreateResponse```
@@ -114,23 +115,25 @@ A unique RSA-2048 key pair must be created for each customer that installs your 
 
 Use the following path:
 
-```POST https://api.orginsights.viva.office.com /v{version}/tenants/{tenant}/scopes/{scope}/egressPartnerKey```
+```POST
+ https://api.orginsights.viva.office.com/v1.0/egressPartnerKey
+```
 
 With the following required parameters for the path:
 
 * **Version** - The version of the API. Currently, the only supported version is 1.0.
-* **Tenant** - The Azure Active Directory tenant ID for your customer.
-* **Scope** - The partition or scope identifier for the customer. Currently, this must be the same as the Tenant ID.
 
-### Key request
-
-Optionally, use the following command for the partner key information request:
+### Request body
 
 ```PartnerKeyInfoCreateRequest```
+
+[Model](#partnerkeyinfocreaterequest)
 
 ### Return type
 
 ```PartnerKeyInfoCreateResponse```
+
+[Model](#partnerkeyinfocreateresponse)
 
 ### Response
 
@@ -208,6 +211,7 @@ The request object that uploads the partner key information.
 * **tenantId** - The string value for the application’s Azure tenant ID for the application that you are integrating with Viva Insights.
 * **rsaKey** - The object that contains the parameters describing the public key of the RSA-2048 key pair.
 * **encryptionAlgorithm** - The enum that represents the encryption algorithm used for the key pair. The only supported value is RSA2048.
+* **scopeId** – A string value that represents the Viva Insights customer scope ID. Currently, this value must be the same as the customer’s Azure Active Directory tenant ID.
 
 ### PartnerKeyInfoCreateResponse
 

@@ -53,6 +53,17 @@ Viva Learning brings enterprise learning into the flow of work by connecting con
  
 [Get more information on Viva Learning](/viva/learning/overview-viva-learning)
 
+### Viva Goals
+Microsoft Viva Goals is a goal-setting and management solution that aligns teams to your organization’s strategic priorities, driving results and a thriving business. With Viva Goals, you can connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
+
+[Learn more about Viva Goals](/viva/goals/intro-to-ms-viva-goals)
+
+### Viva Sales
+
+Microsoft Viva Sales is a seller experience application that uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. It's designed to help sellers work the way they want to without unnecessary context switching and manual data entry. It brings together the applications you work with daily—your CRM, Microsoft 365, and Microsoft Teams—to provide a more streamlined and AI-powered selling experience.
+
+[Get more information on Viva Sales](/viva/sales/introduction)
+
 ## Partner integrations
 Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. Following are examples of current partner integrations, and new partners are being added on an ongoing basis, so check back for more.
 
