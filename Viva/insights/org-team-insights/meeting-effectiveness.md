@@ -104,12 +104,12 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who spend a majority of their time in recurring meetings | <!--[IsRecurring meeting filter](../tutorials/meeting-queries.md#add-metrics) and [meeting hours](metric-definitions.md#meeting-hours-define)--> [Recurring meeting hours](../advanced/analyst/metrics.md#recurring-meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
+|Percentage of employees who spend a majority of their time in recurring meetings | [Recurring meeting hours](../advanced/analyst/metrics.md#recurring-meeting-hours-define)
+(../advanced/analyst/metrics.md#recurring-meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
 
 |Visual insight| Definition|
 |--------------|-----------|
-Recurring vs. non-recurring meeting hours |Percentage of total meeting hours spent in recurring and non-recurring meetings. These hours are summed for the entire time period and then the percentages are calculated. These calculations use the [Recurring meeting hours](./advanced/analyst/metrics.md#recurring-meeting-hours-define) metric.
-<!-- [meeting hours](metric-definitions.md#meeting-hours-define) metric and the [IsRecurring meeting filter](../tutorials/meeting-queries.md#add-metrics).| -->
+Recurring vs. non-recurring meeting hours |Percentage of total meeting hours spent in recurring and non-recurring meetings. These hours are summed for the entire time period and then the percentages are calculated. These calculations use the [Recurring meeting hours](../advanced/analyst/metrics.md#recurring-meeting-hours-define) metric.
 
 #### Best practices
 
