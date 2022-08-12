@@ -21,6 +21,7 @@ Viva Engage connects leaders and coworkers by helping them find answers to quest
 *Learn more: [What is Yammer?](url)*
 
 <br/>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [![Video: Introducing Viva Engage](http://img.youtube.com/vi/E_xTiWClwYc/4.jpg)](http://www.youtube.com/watch?v=E_xTiWClwYc "Video: Introducing Viva Engage")
