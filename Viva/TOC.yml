@@ -34,7 +34,7 @@ items:
   - name: Microsoft Viva Goals
     href: /goals/intro-to-ms-viva-goals
   - name: Microsoft Viva Solutions
-    href: solutions/introduction.md
+    href: /solutions/introduction
   - name: Microsoft Viva Sales
     href: /viva/sales/introduction
 
