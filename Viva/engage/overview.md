@@ -1,8 +1,8 @@
 ---
 title: "Introducing Microsoft Viva Engage"
 ms.reviewer: 
-ms.author: joannaebizie
-author: joannaebizie
+ms.author: v-jebizie
+author: v-jebizie
 manager: 
 audience: Admin
 f1.keywords:
@@ -62,13 +62,13 @@ Viva Engage is a new app, integrated in Teams, that surfaces existing and new em
 
 Currently, Viva Engage is included as a part of the existing Yammer license. If a user is enabled for Yammer, they are also enabled to use Viva Engage. This is unchanged from the Yammer Communities app for Microsoft Teams that Viva Engage replaces.
 
-_Learn more: [Manage Yammer licenses in Office 365](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-licenses-in-office-365)_
+_Learn more: [Manage Yammer licenses in Office 365](/yammer/manage-yammer-users/manage-yammer-licenses-in-office-365)_
 
 ## Privacy and security
 
 The Yammer admininstrator can manage the content in Yammer and Viva Engage. Privacy and security controls from Yammer are shared with Viva Engage.
 
-_Learn more: [Overview of security & compliance for Yammer](https://docs.microsoft.com/yammer/manage-security-and-compliance/security-and-compliance)_
+_Learn more: [Overview of security & compliance for Yammer](/yammer/manage-security-and-compliance/security-and-compliance)_
 
 ## Installing Viva Engage
 ### Install the Viva Engage app for yourself in Teams 
@@ -85,7 +85,7 @@ _Learn more: [Overview of security & compliance for Yammer](https://docs.microso
  
  ### Install the Viva Engage app for your organization
 
-The Microsoft Teams admin can choose to deploy and pin the app for all users or for particular departments through a [Teams app setup policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies).
+The Microsoft Teams admin can choose to deploy and pin the app for all users or for particular departments through a [Teams app setup policies](/microsoftteams/teams-app-setup-policies).
 
  ## Customize the appearance for Viva Engage in the Teams store
 
@@ -99,7 +99,7 @@ Customizing the Viva Engage app is perfect for companies that have given their n
 
 **Note:** Currently, this won't affect the Viva Engage app branding shown in the app _within_ the Viva Engage Experience.
  
- _Learn more: [Customize details of an app](https://docs.microsoft.com/en-us/MicrosoftTeams/customize-apps#customize-details-of-an-app)_
+ _Learn more: [Customize details of an app](/MicrosoftTeams/customize-apps#customize-details-of-an-app)_
 
  ## See more: 
  Learn how to [configure your Teams notification settings](url). 
@@ -119,7 +119,7 @@ The **Viva Connections feed** features relevant content from Viva Engage, includ
 
 ### Compared with Yammer.com, are there any features missing from the Viva Engage app in Teams?
 Genearlly, all features in Yammer.com are also in Viva Engage. However, there are minor limitations with the Viva Engage app:
-- On iOS, live events and other videos hosted in [Microsoft Stream (Classic)](https://docs.microsoft.com/stream/overview) do not play
+- On iOS, live events and other videos hosted in [Microsoft Stream (Classic)](/stream/overview) do not play
 - Settings that are only available in the new Yammer, such as [managing delegate settings](https://support.microsoft.com/office/60f879cd-43dd-44fe-bffb-1084d4f85285) and [setting your skin tone](https://support.microsoft.com/office/d28e25ed-ef20-4c7d-b54c-8bebe9caaded), are not available
 - Viewing community files stored in the SharePoint document library
 - Viewing or editing the full community info
@@ -128,7 +128,7 @@ Genearlly, all features in Yammer.com are also in Viva Engage. However, there ar
 ## See also 
 End user documentation: [Getting started with Viva Engage](https://support.microsoft.com/office/930c86f1-e1e2-4e45-a66a-ce8faca71a21)
 
-[Yammer adminstration documentation](https://docs.microsoft.com/yammer/)
+[Yammer adminstration documentation](/yammer/)
 
 [Yammer adoption center](https://adoption.microsoft.com/yammer/)
 
