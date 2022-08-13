@@ -16,9 +16,10 @@ search.appverid:
 - MET150
 ---
 # Introducing Microsoft Viva Engage
-Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged. The Viva Engage app in Teams and Outlook helps organizations build community, spark engagement with leadership, harness knowledge and answers, and build personal networks.
+Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged. The Viva Engage app in Teams helps organizations build community, spark engagement with leadership, harness knowledge and answers, and build personal networks.
 
 **Viva Engage brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.**
+
 
 <iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
