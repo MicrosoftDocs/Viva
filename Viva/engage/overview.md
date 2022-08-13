@@ -50,6 +50,8 @@ With Viva Engage you can:
 
 ## Availability
 
+Viva Engage will be available as an Microsoft Teams app. This means that you can use Viva Engage through Microsoft Teams from a desktop web browser, in Windows, Mac, iOS, or Android device.
+
 Viva Engage will be replacing the Yammer Communities app for Microsoft Teams in late August. In late August, the app will be automatically updated to the new Viva Engage brand. However, the UX changes that you see here that are different from the Communities will begin roll out at the same time, but only completed by the end of September. There may be users in your organization that receive the new experience earlier than others within this time frame. 
 
 ## What’s relationship between Viva Engage and Yammer?
@@ -85,9 +87,19 @@ _Learn more: [Overview of security & compliance for Yammer](https://docs.microso
 
 The Microsoft Teams admin can choose to deploy and pin the app for all users or for particular departments through a [Teams app setup policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies).
 
- ## Customize the brand for the Viva Engage app
+ ## Customize the appearance for Viva Engage in the Teams store
 
- In Microsoft Teams, you can customize the brand 
+ You can customize the appear for the following properties of the Viva Engage app in the Teams app store:
+ - app name
+ - app descrption 
+ - app icons
+ - accent color
+
+Customizing the Viva Engage app is perfect for companies that have given their network custom branding to fit their corporate identity.
+
+**Note:** Currently, this won't affect the Viva Engage app branding shown in the app _within_ the Viva Engage Experience.
+ 
+ _Learn more: [Customize details of an app](https://docs.microsoft.com/en-us/MicrosoftTeams/customize-apps#customize-details-of-an-app)_
 
  ## See more: 
  Learn how to [configure your Teams notification settings](url). 
