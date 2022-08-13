@@ -1,10 +1,10 @@
 ---
 title: "Introducing Microsoft Viva Engage"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
-ms.reviewer: 
+ms.reviewer: ethli
 ms.author: v-jebizie
 author: joannaebizie
-manager: 
+manager: dmillerdyson
 audience: Admin
 f1.keywords:
 - NOCSH
