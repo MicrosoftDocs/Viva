@@ -1,5 +1,5 @@
 ---
-title: "Overview of Microsoft Viva Engage"
+title: "Introducing Microsoft Viva Engage"
 ms.reviewer: 
 ms.author: joannaebizie
 author: joannaebizie
@@ -15,34 +15,60 @@ ms.collection:
 search.appverid:
 - MET150
 ---
-# Overview
-Viva Engage connects leaders and coworkers by helping them find answers to questions, share their unique stories, and strengthen connections at work. Viva Engage builds on Yammer, and brings together Yammer’s experiences—communities, open conversations, and personalized discovery—with new capabilities for self-expression and sharing through storyline and stories, and upcoming innovations. 
+# Introducing Microsoft Viva Engage
+Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged. The Viva Engage app in Teams and Outlook helps organizations build community, spark engagement with leadership, harness knowledge and answers, and build personal networks.
 
-*Learn more: [What is Yammer?](url)*
+**Viva Engage brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[![Video: Introducing Viva Engage](http://img.youtube.com/vi/E_xTiWClwYc/0.jpg)](http://www.youtube.com/watch?v=E_xTiWClwYc "Video: Introducing Viva Engage")
+<iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## What’s different about Viva Engage from Yammer?
+With Viva Engage you can:
 
-The Viva Engage is built on the foundation of Yammer, but within Teams. It contains all the functionality from Yammer, plus also extends the capabilities of Yammer with new functionality, such as posts and stories in storylines (coming soon).  
+**Connect** people across the company to strengthen professional relationships and build social capital.
 
--The app includes the following Teams functionality: 
+- Remote work makes it difficult to nurture the social fabric of an organization. 43% of leaders believe relationship-building is the single biggest challenge of remote work.
 
--The ability to pin the app for yourself, or for a subset of your organization.
+**Build** communities that support diversity, shared interests, and business initiatives.
 
--Notifications, such as announcements and @mentions, in your Teams Activity feed. 
+- Communities connect people based on interests, topics, roles, and experiences, give people a sense of belonging and empower the organization to reach and engage employees at scale.
 
--A channel tab that lets you add a community or topic to a Teams channel. For more information, see [Add a Yammer page to a Teams channel](url).
+**Spark** engagement between leaders and employees to amplify vision and shape culture.
 
--An Office connector in a team.
+ - Leaders want better ways to reach, inspire and activate people. Employees want clarity of purpose and to participate in the mission. Foster communications, listening and dialogue at scale.
+ - 
+**Exchange** knowledge, find answers, and crowdsource ideas.
 
-## See also 
-[Getting Started with Viva Engage](url)
+ - When you connect people across working groups and business silos, you harness the power of diverse experiences and perspectives to solve problems, amplify best practices, and accelerate innovation.
+ 
+**Activate** people to contribute their experience and expertise.
 
- ## Install the Viva Engage app for Teams 
+ - When people are connected, they know where they can contribute. When they’re included, they know their contribution matters. When they’re invested, they want to contribute. Empowered, they can. Activated, they do.
+
+**By connecting people to openly share, engage in communities, ideate, problem solve, and contribute across organizational boundaries, Viva Engage empowers people to have a voice, to connect with coworkers and leaders, and to contribute their best.**
+
+## Availability
+
+Viva Engage will be replacing the Yammer Communities app for Microsoft Teams in late August. In late August, the app will be automatically updated to the new Viva Engage brand. However, the UX changes that you see here that are different from the Communities will begin roll out at the same time, but only completed by the end of September. There may be users in your organization that receive the new experience earlier than others within this time frame. 
+
+## What’s relationship between Viva Engage and Yammer?
+
+Viva Engage is a new app, integrated in Teams, that surfaces existing and new employee experiences powered by Yammer services. Viva Engage delivers high-value employee experiences including community building, leadership engagement, knowledge sharing, and self-expression. The Viva Engage app integrates these experiences into Teams, and introduces new features including storyline and stories. These new Viva Engage features will also appear in Yammer web, desktop and mobile apps. So whether a user visits to Yammer.com, uses one of the popular Yammer mobile apps for iOS or Android, or experiences the Viva Engage app in Teams, they will see the same content and generally access effectively the same feature set.
+
+## Licensing for Viva Engage
+
+Currently, Viva Engage is included as a part of the existing Yammer license. If a user is enabled for Yammer, they are also enabled to use Viva Engage. This is unchanged from the Yammer Communities app for Microsoft Teams that Viva Engage replaces.
+
+_Learn more: [Manage Yammer licenses in Office 365](https://docs.microsoft.com/en-us/yammer/manage-yammer-users/manage-yammer-licenses-in-office-365)_
+
+## Privacy and security
+
+The Yammer admininstrator can manage the content in Yammer and Viva Engage. Privacy and security controls from Yammer are shared with Viva Engage.
+
+_Learn more: [Overview of security & compliance for Yammer](https://docs.microsoft.com/en-us/yammer/manage-security-and-compliance/security-and-compliance)_
+
+## Installing Viva Engage
+### Install the Viva Engage app for yourself in Teams 
 
  1. Open Teams on the web or in a desktop client.
 
@@ -50,39 +76,46 @@ The Viva Engage is built on the foundation of Yammer, but within Teams. It conta
 
  3. Search for **Viva Engage**.
 
- 4. Select the **Viva Engage** app, and then select **Add**. This will add the app to all your Teams clients, including mobile. Or, select **Viva Engage** to find and add the **Viva Engage** app.
+ 4. Select the **Viva Engage** app, and then select **Add**. This will add the app to all your Teams clients, including mobile. Or, select [Viva Engage here](https://aka.ms/VivaEngage/Install) to find and add the **Viva Engage** app. You can use the link (https://aka.ms/VivaEngage/Install) to share the app with others in your organization.
 
  **Note**: If you don't see **Viva Engage** in the available apps, check with your Teams admin. They might have renamed the app. 
+ 
+ ### Install the Viva Engage app for your organization
 
- VivaTeamsCommunities
+The Microsoft Teams admin can choose to deploy and pin the app for all users or for particular departments through a [Teams app setup policies](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies).
 
- Pin the Viva Engage app to the app bar of Teams 
+ ## Customize the brand for the Viva Engage app
 
- On the web and in a desktop client. 
-
- Select  More  Ellipsis on the left side of Teams.
-
- Right-click any app icon and select Pin   VivaTeamsPinto make that app always visible.
-
- **Tip**: You can arrange the icons on the left by dragging and dropping them. For more information about pinning and unpinning apps in Teams, see Pin an app for easy access. 
-
- ### On the iOS and Android mobile platforms 
-
- 1. Select **More**  ![More ellipsis](https://upload.wikimedia.org/wikipedia/commons/9/98/Ellipsis.svg) at the bottom of Teams—this is where you’ll find all your apps.
-
- 2. Select **Reorder** and drag and drop the app so it is no longer in the **More** section.
-
- 3. Select **Done** to save your changes.
-
- ## Notifications 
-
- With the Viva Engage app, you'll also get notifications in your Teams activity for: 
-
- -@mentions sent to you
-
- -Announcements from communities that you've joined in your home network.
+ In Microsoft Teams, you can customize the brand 
 
  ## See more: 
  Learn how to [configure your Teams notification settings](url). 
 
  **Note**: The senders of the notifications must have a Microsoft 365 identity associated with them in your home network.  
+ 
+## Frequently asked questions
+
+### What is the difference between Viva Connections and Viva Engage?
+**Viva Connections** is the gateway to your employee experience. Connections offers organizations a branded company app for employees to find everything they need to get their jobs done and stay connected. Viva Connections is positioned to be the "home" for Microsoft Viva--a place where people can start their day and quickly catch up and keep up with organizational news, taks, and resources.
+
+**Viva Engage** powers the social layer of Microsoft Viva and Microsoft 365. The app is a place to connect and engage with leaders, colleagues, and communities; featuring experiences for serendipitous discovery of conversations happening across the organization, for asking questions and sharing knowledge, for deeper engagement, for virtual events, and for building social capital and extending your network at work.
+
+The **Viva Connections feed** features relevant content from Viva Engage, including announcements, mentions (@ mentions), and storyline posts from people you follow. The Viva Connections feed includes content from other sources as well, including SharePoint news.
+
+**Different roles, better together.** Viva Connections operates at a Viva-wide aperture, bringing together content, tasks and resources in a more tailored, structured and curated experience that reflects the priorities of the organization and the user's job role. All with the goal of providing a one-stop shop, a "home" for the employee experience. Viva Engage is all about you, leaders, coworkers and communities. Viva Engage & Viva Connections work together to surface relevant content and empower employees to contribute, collaborate, work, and share.
+
+### Compared with Yammer.com, are there any features missing from the Viva Engage app in Teams?
+Genearlly, all features in Yammer.com are also in Viva Engage. However, there are minor limitations with the Viva Engage app:
+- On iOS, live events and other videos hosted in [Microsoft Stream (Classic)](https://docs.microsoft.com/en-us/stream/overview) do not play
+- Settings that are only available in the new Yammer, such as [managing delegate settings](https://support.microsoft.com/office/60f879cd-43dd-44fe-bffb-1084d4f85285) and [setting your skin tone](https://support.microsoft.com/office/d28e25ed-ef20-4c7d-b54c-8bebe9caaded), are not available
+- 
+ 
+## See also 
+End user documentation: [Getting started with Viva Engage](https://support.microsoft.com/office/930c86f1-e1e2-4e45-a66a-ce8faca71a21)
+
+[Yammer adminstration documentation](https://docs.microsoft.com/en-us/yammer/)
+
+[Yammer adoption center](https://adoption.microsoft.com/en-us/yammer/)
+
+[Yammer help & learning](https://support.microsoft.com/yammer)
+
