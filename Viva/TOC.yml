@@ -24,18 +24,18 @@ items:
     - name: Microsoft Viva language support
       href: viva-language-support.md
   - name: Microsoft Viva Connections
-    href: connections/viva-connections-overview.md
+    href: /connections/viva-connections-overview.md
   - name: Microsoft Viva Insights
-    href: insights/introduction.md
+    href: /insights/introduction.md
   - name: Microsoft Viva Learning
-    href: learning/overview-viva-learning.md
+    href: /learning/overview-viva-learning.md
   - name: Microsoft Viva Topics
-    href: topics/topic-experiences-overview.md 
+    href: /topics/topic-experiences-overview.md 
   - name: Microsoft Viva Goals
-    href: goals/intro-to-ms-viva-goals
+    href: /goals/intro-to-ms-viva-goals
   - name: Microsoft Viva Engage
-    href: engage/overview
+    href: /engage/overview
   - name: Microsoft Viva Solutions
-    href: solutions/introduction
+    href: /solutions/introduction
   - name: Microsoft Viva Sales
-    href: sales/introduction
+    href: /sales/introduction
