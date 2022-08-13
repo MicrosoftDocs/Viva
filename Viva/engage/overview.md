@@ -1,5 +1,6 @@
 ---
 title: "Introducing Microsoft Viva Engage"
+descrption: Introductory article covering the basics of Viva Engage
 ms.reviewer: 
 ms.author: v-jebizie
 author: v-jebizie
@@ -100,11 +101,6 @@ Customizing the Viva Engage app is perfect for companies that have given their n
 **Note:** Currently, this won't affect the Viva Engage app branding shown in the app _within_ the Viva Engage Experience.
  
  _Learn more: [Customize details of an app](/MicrosoftTeams/customize-apps#customize-details-of-an-app)_
-
- ## See more: 
- Learn how to [configure your Teams notification settings](url). 
-
- **Note**: The senders of the notifications must have a Microsoft 365 identity associated with them in your home network.  
  
 ## Frequently asked questions
 
