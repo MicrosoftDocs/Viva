@@ -37,7 +37,7 @@ The following levels of permission provide access to the Viva Insights data:
 * **Analyst** has full access to all product features except the administrator features.
 * **Administrator role** has access to administrator features only (such as some of the **Analyst settings** and **Data Source** in Viva Insights).
 * **Program manager** has access to Viva Insights in Teams and in Viva Insights, where program managers can also explore metrics in cases where the minimum group size is enforced. They also have access to **Plans** in Viva Insights and its **Manage** and **Track** pages, where they can set up plans and track the progress of active or ended plans.
-* **People managers** who meet the minimum team size can get access to Viva Insights in Teams and in Viva Insights through [Manager settings](../use/manager-settings.md). They can also explore metrics about their specific team and access **Plans** in Viva Insights, where they can set up plans and track plan progress.
+* **People managers** who meet the minimum team size can get access to Viva Insights in Teams and in Viva Insights through [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). They can also explore metrics about their specific team and access **Plans** in Viva Insights, where they can set up plans and track plan progress.
 
 ## You control the data that Viva Insights uses
 

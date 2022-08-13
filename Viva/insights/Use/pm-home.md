@@ -17,7 +17,7 @@ audience: Admin
 # Insights for managers
 
 >[!Note]
->Only people managers granted access to Viva Insights in [Manager settings](../use/manager-settings.md) can see their team's data in My team in Microsoft Viva Insights and in the advanced insights app.
+>Only people managers granted access to Viva Insights in [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) can see their team's data in My team in Microsoft Viva Insights and in the advanced insights app.
 
 As a people manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
 
@@ -27,7 +27,7 @@ You can use the following information to lead your team toward more effective bu
 
 * **Team effectiveness** - Nimble companies can more efficiently adapt to market changes and gain a true competitive advantage. The insights in this section show if your team has time to collaborate for rapid innovation, and to focus and produce higher quality work.
 
-* **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](organizational-data.md) that's been uploaded to and processed in Viva Insights, including the current date range and the number of *measured employees* in your team. Your Viva Insights admin can give you more details about uploads and measured employees.
+* **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](/viva/insights/use/organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) that's been uploaded to and processed in Viva Insights, including the current date range and the number of *measured employees* in your team. Your Viva Insights admin can give you more details about uploads and measured employees.
 
 The following shows what your managers will see in [My team in Viva Insights](myteam.md).
 
@@ -39,7 +39,7 @@ The following shows what your managers can see in the advanced insights app, whi
 
 ## Manager access
 
-To grant managers access to [My team in Viva Insights](myteam.md) and to Manager insights in the advanced insights app, your Viva Insights admin must add them as managers in [Manager settings](../use/manager-settings.md).
+To grant managers access to [My team in Viva Insights](myteam.md) and to Manager insights in the advanced insights app, your Viva Insights admin must add them as managers in [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 >[!Note]
 >By late June 2021, the app will no longer send an automated welcome email to managers who get access to My team in Viva Insights and to Manager insights in Advanced insights.
@@ -55,7 +55,7 @@ The following describes how your team metrics are calculated to support the beha
 |Is your team overwhelmed by email? |Employees that spend over 10 hours in email each week. Email workload is the number of hours employees spend sending and receiving email. |Average number of hours spent sending and receiving email. |
 |Does your team have long and large meetings? |The number of employees that spend over 30 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. Long meetings are those scheduled for more than an hour. Large meetings are those that involve more than eight people. |Average number of meeting hours spent by the team. |
 |Does your team have time to focus? |The number of employees who have less than 30 hours each of available time for focused work, divided by the total number of measured employees. Focus time is when employees have two or more consecutive hours with no meetings. |Average number of total hours with two or more one-hour blocks of time where people had no meetings. |
-|Are managers on your team connected across the company? |Manager cross-team connections are the number of departments outside your own that you had [meaningful interactions](glossary.md#meaningful-interaction-define) with in the last 28 days. |An average number of meaningful connections the managers have outside their team. |
+|Are managers on your team connected across the company? |Manager cross-team connections are the number of departments outside your own that you had [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define) with in the last 28 days. |An average number of meaningful connections the managers have outside their team. |
 |Is your team collaborating across the company? |Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department. This insight highlights the organizations that spend more than 50 percent of their overall collaboration within their group. |Average number of hours the team spent collaborating with people outside their department. |
 |Do your team members act as influencers? |Influencers are employees who have the best connections to people across the company based on their collaboration patterns. This insight accounts for the team's size and how it is represented within the organizational hierarchy for calculating the actual and recommended numbers of influencers in your team. |The average numeric scores indicate how well connected a person in that team is within the overall company. The higher the score, the more well connected that team is with the potential to drive change. |
 |Is your team sharing information quickly? |One-on-one communication is the combination of email and instant messages (IMs) sent between two employees. This insight highlights the employees that spend less than 20 percent of their one-on-one communication over Teams IM. This is calculated as the percentage of one-on-one IMs sent, divided by the total number of one-on-one IMs and emails sent. |Average number of emails sent between only two employees. |

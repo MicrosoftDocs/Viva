@@ -66,7 +66,7 @@ For more information about the following request types and how to fulfill them, 
 * **Access** - Data subjects have the right to demand what personal information is being processed, and Viva Insights gives you the ability to export the raw data, which may contain personal data.
 * **Correction** - Data subjects have the right to rectify their personal data. Viva Insights only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Microsoft 365 or the organizational data that you upload. This data is not corrected through Viva Insights.
 * **Deletion** - Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed.
-* **Transparency regarding processing** - [Metric descriptions](../Use/metric-definitions.md) discusses in detail the metrics calculated by Viva Insights, and what they mean.
+* **Transparency regarding processing** - [Metric descriptions](/viva/insights/Use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) discusses in detail the metrics calculated by Viva Insights, and what they mean.
 
 ## Additional Resources
 

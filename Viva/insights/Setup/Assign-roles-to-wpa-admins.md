@@ -31,7 +31,7 @@ The _Insights Administrator_ and the legacy _Workplace Analytics admin_ are inte
 
 ## Roles and access levels
 
-See [User roles](../use/user-roles.md) for detailed role descriptions and access levels.
+See [User roles](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for detailed role descriptions and access levels.
 <!--
 ## Video: Assign roles
 

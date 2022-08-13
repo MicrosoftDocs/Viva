@@ -37,12 +37,12 @@ The Microsoft Viva Insights documentation has a number of videos that help expla
 
 <!-- DELETING THIS FOR NOW. WE'RE ABOUT TO CHANGE THE UI OF THE PRIVACY SETTINGS, SO THIS WILL BE OUT OF DATE.
 ## Data Privacy
-* [Privacy settings](../use/privacy-settings.md#privacy-video) -->
+* [Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#privacy-video) -->
 
 ## Data sources
 
-* [Data sources](../use/data-sourcesv2.md#video-learn-about-data-sources)
-* [Explore the stats](../use/explore-intro.md#video-learn-about-explore-the-stats)
+* [Data sources](/viva/insights/use/data-sourcesv2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#video-learn-about-data-sources)
+* [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#video-learn-about-explore-the-stats)
 
 ## Query designer
 

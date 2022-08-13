@@ -27,7 +27,7 @@ With these queries, you can:
 
 ## Time limit for querying data
 
-The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that, after you have 27 months of [Microsoft 365 data](../use/office-365-data.md) data, as the data is refreshed each week, the 27-month extent of data that you can query advances by one week to include only the preceding 27 months.
+The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that, after you have 27 months of [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) data, as the data is refreshed each week, the 27-month extent of data that you can query advances by one week to include only the preceding 27 months.
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 

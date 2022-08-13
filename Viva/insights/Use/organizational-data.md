@@ -58,5 +58,5 @@ For more details about what data is needed for metric calculations, see:
 
 ## Related topics
 
-* [Office 365 data](office-365-data.md)
-* [CRM data](crm-data.md)
+* [Office 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [CRM data](/viva/insights/use/crm-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

@@ -173,5 +173,5 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 
 ## Related topic
 
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+[View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 

@@ -17,7 +17,7 @@ search.appverid:
 
 # Advanced insights metric filters
 
-To customize the results from [queries](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), you use metrics (see [metric definitions](metric-definitions.md)).
+To customize the results from [queries](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), you use metrics (see [metric definitions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)).
 
 After you select a metric for a Viva Insights query, you can narrow the focus of that metric by applying filters. You can also rename the metric to indicate the new focus that you gave when you applied filters; its new name will appear in the query results. See [Apply a metric filter](#apply-a-metric-filter).
 
@@ -178,4 +178,4 @@ In this example procedure, you apply a filter to a metric in a person query. Spe
 
 ## Related topic
 
-* [Metric descriptions](metric-definitions.md)
+* [Metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

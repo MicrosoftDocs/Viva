@@ -18,8 +18,8 @@ audience: Admin
 
 As an admin for Microsoft Viva Insights, you can use **Analyst settings** to configure the following.
 
-* [System defaults](system-defaults.md) - Set the system defaults for your organization, including time zone, working days and hours, the average hourly rate, and external domains that require reclassification, which are used for any person whose personal settings are not set up or inaccessible to Viva Insights.
-* [Privacy settings](privacy-settings.md) - Specify what data is excluded from analysis and what data is visible in Query designer and in Explore the stats.
+* [System defaults](/viva/insights/use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) - Set the system defaults for your organization, including time zone, working days and hours, the average hourly rate, and external domains that require reclassification, which are used for any person whose personal settings are not set up or inaccessible to Viva Insights.
+* [Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) - Specify what data is excluded from analysis and what data is visible in Query designer and in Explore the stats.
 * [Exclusion rules](/viva/insights/tutorials/exclusions-introduction?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) - Set up default meeting and attendee exclusion rules for data analysis purposes.
 
 **Owner** – Only Viva Insights admins have full access to Analyst settings. For details about roles, see [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).

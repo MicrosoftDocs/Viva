@@ -21,7 +21,7 @@ Effective October 2021, the Microsoft Viva Insights SKU replaced the Microsoft W
 
 You can subscribe a tenant to the advanced insights and tools in Viva Insights through the Capacity model where the tenant consumes capacity units based on their volume of query usage.
 
-The appearance and behavior of the pages used to create and run queries and [query results](../use/view-download-and-export-query-results.md) will differ based on your tenant's SKU subscription.
+The appearance and behavior of the pages used to create and run queries and [query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) will differ based on your tenant's SKU subscription.
 
 ## Analysts with the capacity model
 
@@ -165,7 +165,7 @@ If you open an existing, previously run query, and you edit it and run it again,
 No additional units are charged for the following:
 
 * Viva Insights licenses for advanced insights that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following features: [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), and [Explore the stats](../use/explore-intro.md).
+* Your use of the following features: [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), and [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 * Your choice of tool, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
@@ -174,7 +174,7 @@ No additional units are charged for the following:
 
 In **Query designer** > **Results**, you'll see additional information if the capacity model is in use for a tenant:
 
-* **Workplace Analytics SKU** - Analysts in an advanced insights tenant can use the **Query designer** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
+* **Workplace Analytics SKU** - Analysts in an advanced insights tenant can use the **Query designer** > **Results** page as described in [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 * **Capacity-model tenants** - For analysts in a capacity-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the Information tooltip (i) icon to see details about a charge, namely the number of people analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 

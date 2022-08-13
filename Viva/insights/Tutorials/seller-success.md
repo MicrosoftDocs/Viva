@@ -94,7 +94,7 @@ A **prerequisite** is to get a .csv file that lists the employees you want to pa
 
 After you select **Validate**, the app checks for licenses of potential plan participants. Participants must have an applicable [Microsoft Viva Insights license](../personal/overview/plans-environments.md). If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. Validation results will only show the number of users for whom errors were found; no individual users are identified.
 
-After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/privacy-settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan.
+After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#minimum-group-size) set for the organization, you can continue to use this group in creating your plan.
 
 <!-- ADD THIS CONTENT AFTER THE TRACK PAGE APPEARS
 Note: After you start the plan, you can end it by selecting the Stop button on the [what page is this? Show how to navigate there and what other actions you can take there] page. -->
@@ -143,7 +143,7 @@ Its purpose is to help sellers decide whether they are spending time optimally w
 
 ### Depth of engagement
 
-The _Depth of engagement_ card shows the number of distinct people in the account with whom the seller had one or more [meaningful interactions](../use/glossary.md#meaningful-interaction-define) in the last 28 days.
+The _Depth of engagement_ card shows the number of distinct people in the account with whom the seller had one or more [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define) in the last 28 days.
 
 ![Depth of engagement.](../images/wpa/tutorials/depth-of-engagement-ss.png)
 

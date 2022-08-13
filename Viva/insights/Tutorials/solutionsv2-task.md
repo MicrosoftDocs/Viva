@@ -25,7 +25,7 @@ People in the following roles can work on improvement plans in various ways:
 * **Participants** who use a plan they're enrolled in. [Plan participants' experience](/viva/insights/tutorials/solutionsv2-participants?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 >[!Note]  
->If you have been assigned multiple roles, your capabilities are expanded. See [User roles](../use/user-roles.md).
+>If you have been assigned multiple roles, your capabilities are expanded. See [User roles](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 >[!Important]  
 >To create a plan, you must select a group of participants. For any person to be eligible for participation in a plan, they must have a Viva Insights license. See [Prerequisites for plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#prerequisites-for-plans).

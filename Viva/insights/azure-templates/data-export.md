@@ -82,7 +82,7 @@ This file includes one row for each meeting or appointment with the following me
 |-----------------|---------------|-----------------|
 |MeetingId|string|Unique identifier for each meeting (including recurring meetings); primary key|
 |ICalUid|string|Meeting calendar ID|  
-|Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](../use/privacy-settings.md) for details)  |
+|Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details)  |
 |IsRecurring|Boolean|True if this is a recurring meeting|
 |IsCanceled|Boolean|True if the meeting was canceled|
 |StartTime|datetime|Meeting start time|
@@ -167,7 +167,7 @@ This file includes one row for every email sent with the following metrics.
 |-----------------|---------------|-----------------|
 |MailId|string|Unique identifier for each email; primary key|
 |ConversationId|string|Unique thread identifier|
-|Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](../use/privacy-settings.md) for details)|
+|Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details)|
 |SentTime|datetime|When the email was sent, in the sender's local time|
 |SenderTimeSpentinMinutes|double|How many minutes spent writing the email (heuristic estimated value)|
 |NumberOfRecipients|integer|Number of email recipients, not including the sender|

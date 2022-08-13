@@ -17,7 +17,7 @@ audience: Admin
 
 # Assign user roles for Viva Insights
 
-People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](../use/user-roles.md) for details on what each role can do with Viva Insights. Refer to the following for assigning roles:
+People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details on what each role can do with Viva Insights. Refer to the following for assigning roles:
 
 * [Assign Viva Insights roles](#assign-viva-insights-roles)
 * [Assign advanced insights roles](#assign-advanced-insights-roles)
@@ -26,7 +26,7 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 * [Role assignment FAQ](#role-assignment-faq)
 
 >[!Note]
->The Insights admin enables people managers access to [Group insights](../use/group-insights.md#admin-tasks) through [Manager settings](../use/manager-settings.md).
+>The Insights admin enables people managers access to [Group insights](../use/group-insights.md#admin-tasks) through [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Assign Viva Insights roles
 
@@ -146,8 +146,8 @@ People manager isn't technically a role that can be assigned. Assuming these man
 
 ## Related topics
 
-* [Roles in Viva Insights](../use/user-roles.md)
-* [Manager settings](../use/manager-settings.md)
+* [Roles in Viva Insights](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)

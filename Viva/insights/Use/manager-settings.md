@@ -57,4 +57,4 @@ Viva Insights admins can access **Manager settings**. Also, before managers can 
 ## Related topics
 
 * [Plans](/viva/insights/Tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [Controls](settings.md)
+* [Controls](/viva/insights/use/settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

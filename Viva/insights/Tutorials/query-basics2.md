@@ -32,7 +32,7 @@ With these queries, you can:
 
 ## Time limit for querying data 
 
-The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Microsoft 365 data](../use/office-365-data.md) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
+The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 
@@ -52,7 +52,7 @@ Your tenant's choice of billing model affects the page for creating [person quer
 Your tenant's choice of billing model affects the analyst experience as follows:
 
 * The appearance and behavior of the page for creating queries (such as  [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) will differ.
-* The [query results](../use/view-download-and-export-query-results.md) page will offer additional functionality.
+* The [query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) page will offer additional functionality.
 
 Analysts will see the following differences: -->
 
@@ -112,7 +112,7 @@ The terms in this formula are as follows:
 
 As described in [Capacity model details](#capacity-model-details), the calculation is the same across all query types: **units consumed** = **A** (users) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). With this in mind, the user scope for the various query types is defined as follows:
 
-* **Person query**: **A** (users) = the number of [measured employees](../use/glossary.md#measured-employees-define), as filtered in the query definition
+* **Person query**: **A** (users) = the number of [measured employees](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#measured-employees-define), as filtered in the query definition
 
 * **Meeting query**: **A** (users) = the number of licensed users that are invited in the filtered meetings
 
@@ -175,7 +175,7 @@ The edited query runs again. As it does, it incurs a new cost, in units, calcula
 No additional units are charged for the following:
 
 * Viva Insights licenses that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following the advanced insights app features: [plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Explore pages](../use/explore-intro.md).
+* Your use of the following the advanced insights app features: [plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Explore pages](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 * Your choice of a query-results visualization method, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
@@ -187,7 +187,7 @@ No additional units are charged for the following:
 
 In Query designer results, you'll see additional information if the capacity model is in use at your tenant:
 
-* **PUPM-model tenants** &ndash; Analysts in a PUPM-model tenant can use the **Query designer** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
+* **PUPM-model tenants** &ndash; Analysts in a PUPM-model tenant can use the **Query designer** > **Results** page as described in [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 * **Capacity-model tenants** &ndash; For analysts in a capacity-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information.](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 

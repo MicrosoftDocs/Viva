@@ -25,7 +25,7 @@ Confirm the following prerequisites and then ask your Teams Service Admin to dep
 
 For access to the **My team** page in the Viva Insights app in Teams, confirm you meet the following prerequisites:
 
-* **Manager access** - Ask if your Viva Insights admin has [Manager settings](../use/manager-settings.md) turned **On**.
+* **Manager access** - Ask if your Viva Insights admin has [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) turned **On**.
 * **Licensed team** - The members of your team are assigned licenses for Viva Insights and are included in the reporting hierarchy that leads to you as their manager.  
 * **Minimum team size** - Your team structure meets the minimum group size of 10 or more measured and licensed employees (including you as their manager).
 

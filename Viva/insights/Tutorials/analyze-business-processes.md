@@ -21,7 +21,7 @@ When you and your co-workers perform an organized series of steps to reach a goa
 
 You can improve your business processes by analyzing them, such as by measuring their cost in time and money. For example, your business routinely conducts an information-security audit and your CFO or CIO might want to know if the right amount of time is being spent on these audits, and whether the correct employees (roles) are participating in them.
 
-To find out, you can conduct an analysis by running a business process query (such as for hiring or auditing) with a query filter or a [metric filter](../use/metric-filters.md).
+To find out, you can conduct an analysis by running a business process query (such as for hiring or auditing) with a query filter or a [metric filter](/viva/insights/use/metric-filters?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 To analyze a business process:
 
@@ -259,13 +259,13 @@ In [person queries](/viva/insights/tutorials/Person-queries?toc=/viva/insights/u
 
 The query results in which you’ve specified a business-process filter will include a column called **BusinessProcesses**. This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
 
-After the query runs, examine its results as described in [Understand and interpret query output](../use/csv-query-output-file.md) and [View, download, and export query results](../use/View-download-and-export-query-results.md).
+After the query runs, examine its results as described in [Understand and interpret query output](/viva/insights/use/csv-query-output-file?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [View, download, and export query results](../use/View-download-and-export-query-results.md).
 
 ## Data privacy
 
-The business-process analysis feature follows the data-privacy standards of Viva Insights, which are described in [Privacy settings](../use/privacy-settings.md).
+The business-process analysis feature follows the data-privacy standards of Viva Insights, which are described in [Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
-To define a business process, you must use meeting subject lines, but access to meeting subject lines is restricted by two of the available data-privacy settings: [Hash subject lines](../use/privacy-settings.md#hash-subject-lines) and [Exclude terms from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines). These settings affect your ability to define a business process as described here:
+To define a business process, you must use meeting subject lines, but access to meeting subject lines is restricted by two of the available data-privacy settings: [Hash subject lines](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#hash-subject-lines) and [Exclude terms from subject lines](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#exclude-terms-from-subject-lines). These settings affect your ability to define a business process as described here:
 
 ### Hash subject lines
 
@@ -279,7 +279,7 @@ However, this option also makes subject lines unusable for business-process anal
 
 ### Exclude terms from subject lines
 
-For data-privacy reasons, you might want to exclude particular meetings from analysis. (For more information, see [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).) You do this by adding words that occur in those meetings' subject lines to the **Exclude terms from subject lines** list on the **Privacy settings** page:
+For data-privacy reasons, you might want to exclude particular meetings from analysis. (For more information, see [Exclude content from subject lines](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#exclude-terms-from-subject-lines).) You do this by adding words that occur in those meetings' subject lines to the **Exclude terms from subject lines** list on the **Privacy settings** page:
 
 ![Exclude terms from subject lines.](../images/wpa/tutorials/exclude-terms-5.png)
 
@@ -308,4 +308,4 @@ The following example shows how this can unfold:
 * [Prepare organizational data](../setup/prepare-organizational-data.md)
 * [Meeting queries](/viva/insights/tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Person queries](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [Privacy settings](../use/privacy-settings.md)
+* [Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

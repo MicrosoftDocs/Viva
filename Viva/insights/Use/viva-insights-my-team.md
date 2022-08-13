@@ -55,7 +55,7 @@ After your admin has completed the [Admin tasks](../personal/teams/viva-teams-ap
 See the following for more details about an outcome.
 
 * [Employee experience](team-experience.md)
-* [Team effectiveness](team-effectiveness.md)
+* [Team effectiveness](/viva/insights/use/team-effectiveness?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see **Q2** in [Manager and leader insights FAQ](my-team-faq.md).

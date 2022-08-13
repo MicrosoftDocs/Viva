@@ -24,7 +24,7 @@ After you create and run a Person query, you can view its results (in the form o
 * [Customize your data visualization](#customize-your-data-visualization)
 * [Optionally create a plan](#optionally-create-a-plan)
 
-In addition to these capabilities, you can also export results to a data visualization tool, such as [Power BI](../use/view-download-and-export-query-results.md). 
+In addition to these capabilities, you can also export results to a data visualization tool, such as [Power BI](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). 
 
 >[!Note]
 >Your query results might indicate groups of employees that could benefit from a targeted [change plan](solutionsv2-intro.md). You can create such a plan by starting with the query results display. For more information, see [Optionally create a plan](#optionally-create-a-plan).
@@ -38,7 +38,7 @@ In addition to these capabilities, you can also export results to a data visuali
 3. Select **Person query**, and then define and run it. For details, see [Person queries](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 4. After the results are ready, go to **Query designer** > **Results**.
 5. For the results, select **Visualization**.
-6. In **Interactive Data**, you can use the charts to explore the data. A default visualization of results is automatically created and saved as a chart with the name "Original." This is a column chart that is formatted according to the default values in [Settings and filters](../use/explore-page-settings.md). All saved charts, including "Original," are listed in the **Saved charts** area.
+6. In **Interactive Data**, you can use the charts to explore the data. A default visualization of results is automatically created and saved as a chart with the name "Original." This is a column chart that is formatted according to the default values in [Settings and filters](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). All saved charts, including "Original," are listed in the **Saved charts** area.
 
 To change how the results are presented, see [Customize your data visualization](#customize-your-data-visualization). After you have modified a visualization, you can save the modified version. See [Save your charts](#save-your-charts) for details.
 
@@ -48,7 +48,7 @@ To change how the results are presented, see [Customize your data visualization]
 
 The following steps are all optional. You can use them to refine your view of the query results in various ways.
 
-1. **Modify filters and metrics** - Use **Settings and filters** to modify the date range, the filters that are applied, the metrics that you want included in your chart, and the number of groups that are displayed. Note that the kind of chart you are viewing could affect the view options that are available to you. For more information about using these settings, see [Settings and filters](../use/chart-types.md#settings-and-filters).
+1. **Modify filters and metrics** - Use **Settings and filters** to modify the date range, the filters that are applied, the metrics that you want included in your chart, and the number of groups that are displayed. Note that the kind of chart you are viewing could affect the view options that are available to you. For more information about using these settings, see [Settings and filters](/viva/insights/use/chart-types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#settings-and-filters).
 
 2. **Change chart attributes** - Use the chart toolbar to change the chart type or the chart’s sort order. Some options are available only with certain chart types.  
 
@@ -60,7 +60,7 @@ As you add and apply filters and select groups, the chart section of the results
 
 **Role** - Analyst
 
-In **Interactive Data**, as you [customize visualizations](#customize-your-data-visualization) to reflect the results of a query in various ways, you can save those visualizations as charts. All changes are saved, including modifications to the chart type, the results of drilling down, or the application of [Settings and filters](../use/explore-page-settings.md).
+In **Interactive Data**, as you [customize visualizations](#customize-your-data-visualization) to reflect the results of a query in various ways, you can save those visualizations as charts. All changes are saved, including modifications to the chart type, the results of drilling down, or the application of [Settings and filters](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 1. In **Query designer** > **Results** > **Interactive Data**, select **Save as** to save a chart that you have created.  
 
@@ -91,7 +91,7 @@ For more information about plans, see [Plans](/viva/insights/tutorials/solutions
 
    ![Total group size.](../images/wpa/tutorials/group-size-finance.png)
 
-   The group size is important because query visualization adheres to the [minimum group size](../use/privacy-settings.md#minimum-group-size) that has been set for your organization. If you've selected a group smaller than the minimum group size, you see a warning that the "filter group is below the minimum size."
+   The group size is important because query visualization adheres to the [minimum group size](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#minimum-group-size) that has been set for your organization. If you've selected a group smaller than the minimum group size, you see a warning that the "filter group is below the minimum size."
 
 2. After you have a group or groups selected that meet or exceed the minimum group size, select **Submit group**.
 3. In **Set up new plan**, select an appropriate plan type for the group that you designated and select **Start now**.

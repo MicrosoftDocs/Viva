@@ -24,7 +24,7 @@ After you have installed and set up Microsoft Viva Insights, it will require mai
 * **Task** - Set the default time zone and the default settings for working days and hours.  
 * **Frequency** - As needed to update settings.
 
-[System defaults](../use/system-defaults.md)
+[System defaults](/viva/insights/use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 
 ## Update privacy settings
 
@@ -36,7 +36,7 @@ After you have installed and set up Microsoft Viva Insights, it will require mai
 
 * **Frequency** - As needed to keep the settings up-to-date.
 
-[Privacy settings](../use/privacy-settings.md)
+[Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 
 ## Update organizational data
 
@@ -84,4 +84,4 @@ After you have installed and set up Microsoft Viva Insights, it will require mai
 
 ## Related topics
 
-[Settings](../use/settings.md)
+[Settings](/viva/insights/use/settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

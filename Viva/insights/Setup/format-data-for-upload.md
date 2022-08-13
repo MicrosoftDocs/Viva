@@ -178,7 +178,7 @@ To be able to map data successfully, use the data specified in the following tab
 | Viva Insights data type | Format as this data type in Excel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
 | ----- | ----- | ----- |
 | Email |  General | This data type is the default option so no special formatting is necessary. |
-| Timezone | General | This data type is the default option so no special formatting is necessary. Every Timezone string must be one of the values specified in [Time zones for Viva Insights](../use/timezones-for-workplace-analytics.md). |
+| Timezone | General | This data type is the default option so no special formatting is necessary. Every Timezone string must be one of the values specified in [Time zones for Viva Insights](/viva/insights/use/timezones-for-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). |
 | Boolean | General  | This data type is the default option so no special formatting is necessary. The data value can only be **TRUE** or **FALSE**|
 | DateTime |Date | |
 | Double |Number | |

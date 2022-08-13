@@ -69,7 +69,7 @@ To investigate more about an outcome, select it to see more details.
 * [Foster innovation](innovation.md)
 * [Effective managers](effective-managers.md)
 * [Operational effectiveness](operational.md)
-* [Accelerate change](change.md)
+* [Accelerate change](/viva/insights/use/change?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Transform meeting culture](meeting-culture.md)
 * [Increase customer focus](icustomer-focus.md)
 

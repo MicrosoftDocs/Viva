@@ -27,7 +27,7 @@ The Viva Insights plans help you transform insights from Viva Insights into targ
 3. Measure the progress of the plan while it is underway, and the ROI of the plan after it has finished.
 
    >[!Note]
-   >Plans are intended for use by analysts or program managers. For general information about roles, see [User roles in Viva Insights](../use/user-roles.md).
+   >Plans are intended for use by analysts or program managers. For general information about roles, see [User roles in Viva Insights](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 For more information about real-world possibilities, see [Microsoft Workplace Insights](https://insights.office.com/). <!-- and [[Helen's video]]. -->
 
@@ -64,11 +64,11 @@ Confirm that your organization meets the following licensing prerequisites:
   * A [Viva Insights service plan](/viva/insights/personal/overview/plans-environments?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 
 >[!Note]
->Managers get access to their team's data and plans in Viva Insights as set in [Manager settings](../use/manager-settings.md).
+>Managers get access to their team's data and plans in Viva Insights as set in [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 <!-- RECONSTITUTE THE SECTION "WHEN MULTIPLE ROLES ARE ASSIGNED"
    > [!Note]
-   > One person can be have more than one role (for example, both the analyst and program manager roles). For more information, see [When multiple roles are assigned](../use/user-roles.md#when-multiple-roles-are-assigned). -->
+   > One person can be have more than one role (for example, both the analyst and program manager roles). For more information, see [When multiple roles are assigned](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#when-multiple-roles-are-assigned). -->
 
 <!-- REMOVING PLAYBOOK FOR NOW. IT'S FULL OR "PROGRAM" AND "HABITS" AND PROCEDURES THAT DO NOT REFLECT THE NEW SIMPLER MODEL. 
 
@@ -92,7 +92,7 @@ All roles -- analysts of both levels or program managers -- can upload a .csv fi
 
 Additional information about roles and access:
 
-* For more information about roles in Viva Insights, see [User roles in Viva Insights](../use/user-roles.md).
+* For more information about roles in Viva Insights, see [User roles in Viva Insights](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 * For more information about assigning roles, see [Assign roles](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#setup-steps).
 
@@ -104,9 +104,9 @@ Additional information about roles and access:
 
 **Q2:** What is the minimum group size?
 
-**A2:** In **Analyst settings** > **Privacy**, admins can set the [minimum group size](../use/privacy-settings.md) for an organization or tenant, which can be greater than or equal to the absolute limit of **5** (five people).
+**A2:** In **Analyst settings** > **Privacy**, admins can set the [minimum group size](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for an organization or tenant, which can be greater than or equal to the absolute limit of **5** (five people).
 
-In **Leader and manager settings** > **Manager settings**, admins can also set a [Minimum team size](../use/manager-settings.md) for people managers, which is different than the overall minimum group size setting. The absolute limit for this team size setting is **10**, which applies to all managers.
+In **Leader and manager settings** > **Manager settings**, admins can also set a [Minimum team size](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for people managers, which is different than the overall minimum group size setting. The absolute limit for this team size setting is **10**, which applies to all managers.
 
 **Q3:** Can I monitor metrics for specific users?
 

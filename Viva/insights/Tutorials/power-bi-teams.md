@@ -54,7 +54,7 @@ To find the template for the Power BI Teams Insights dashboard, go to the [Query
 
 Before you can run the results and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in the advanced insights app.
+* Be assigned the role of [Analyst](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version.
 Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
@@ -137,4 +137,4 @@ Learn how to generate useful data using the Teams insights dashboard and analyze
 
 ## Related topic
 
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+[View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

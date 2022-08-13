@@ -25,7 +25,7 @@ To keep from disclosing personal data, Microsoft Viva Insights de-identifies an 
 
 The following [illustrative example](#illustrative-example) describes how Viva Insights secures information in query results. For more examples of how various types of data are de-identified, see **Examples** in [Types of data for analysis](data-protection-considerations.md#types-of-data-used-in-analysis).
 
-See the [Glossary](../use/glossary.md) for definitions of the terms related to privacy, such as: aggregation, anonymization, de-identification, hashing, and personal data.
+See the [Glossary](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for definitions of the terms related to privacy, such as: aggregation, anonymization, de-identification, hashing, and personal data.
 
 >[!Note]
 >To balance the requirements of protecting individual privacy and providing useful information, Viva Insights is gradually incorporating a nuanced approach known as [differential privacy](/viva/insights/privacy/differential-privacy?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).

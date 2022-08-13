@@ -26,7 +26,7 @@ A partition is a data workspace for Microsoft Viva Insights analysis. A partitio
 
 ## Partitions give access to data
 
-A partition defines what data you work with in the advanced insights app for Viva Insights. If you have one of the analyst roles (analyst limited), you work with data in [Explore the stats](../use/explore-intro.md) and [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in the advanced insights app. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages.
+A partition defines what data you work with in the advanced insights app for Viva Insights. If you have one of the analyst roles (analyst limited), you work with data in [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in the advanced insights app. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages.
 
 If you have the program manager role, you have complete access to **Plans** with no limitations.
 

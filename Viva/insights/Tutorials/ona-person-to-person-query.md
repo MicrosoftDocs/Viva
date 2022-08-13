@@ -21,7 +21,7 @@ Successful employees and teams use their networks to get work done effectively. 
 
 You can use the Organizational network analysis (ONA) queries to qualify a network connection between two people as a **strong tie**, a **diverse tie**, or neither.
 
-A generic network tie is defined liberally: two people who've shared at least two [meaningful interactions](../use/glossary.md#meaningful-interaction-define) in the last four weeks.
+A generic network tie is defined liberally: two people who've shared at least two [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define) in the last four weeks.
 
 Some network connections represent significantly more close collaboration than the generic minimum of just two meaningful interactions. When a network connection represents significantly more close collaboration time, Viva Insights will classify it as either a **strong tie** or as a **diverse tie**.
 
@@ -70,7 +70,7 @@ You can use the tie metrics in Network person-to-person queries. In the followin
 12. In **Query designer** > **Results**, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 >[!Note]
->You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
+>You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) describes how to see and share results. For example, you can [view query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#view-query-results), [download and import query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#download-and-import-query-results), and [use an OData feed in Power BI](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
 ## Network person-to-person query output
 
@@ -131,17 +131,17 @@ The column names for these attributes are organizational attribute names with th
 _Query results example: Columns K through O_
 
 * **Date** - The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
-* **Metrics** - The metrics that you included in the query. For more information, see [Network metric descriptions](../use/metric-definitions.md#network-metrics).
+* **Metrics** - The metrics that you included in the query. For more information, see [Network metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics).
 
    The results for this query type always include the following metrics:
 
-  * **[StrongTieScore](../use/metric-definitions.md#strong-tie-score-define)** - Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals.
-  * **[DiverseTieScore](../use/metric-definitions.md#diverse-tie-score-define)** - Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals.
-  * **[StrongTieType](../use/metric-definitions.md#strong-tie-type-define)** - This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2, based on the distribution of StrongTieScore. The values indicate the following:
+  * **[StrongTieScore](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#strong-tie-score-define)** - Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals.
+  * **[DiverseTieScore](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#diverse-tie-score-define)** - Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals.
+  * **[StrongTieType](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#strong-tie-type-define)** - This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2, based on the distribution of StrongTieScore. The values indicate the following:
     * **1:** This row clearly indicates a strong tie &mdash; 35th percentile and above, by strength.
     * **2:** This row indicates a tie that is significant but less strong: at or above the 30th percentile but below the 35th percentile.
     * **0:** This row indicates a tie that is not that strong: below the 30th percentile.  
-  * **[DiverseTieType](../use/metric-definitions.md#diverse-tie-type-define)** - This column is present to help analysts quickly find the most diverse ties. It contains values of 0, 1, or 2, based on the distribution of DiverseTieScore. The values indicate the following:
+  * **[DiverseTieType](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#diverse-tie-type-define)** - This column is present to help analysts quickly find the most diverse ties. It contains values of 0, 1, or 2, based on the distribution of DiverseTieScore. The values indicate the following:
     * **1:** This row clearly indicates a diverse tie &mdash; 50th percentile and above, by diversity.
     * **2:** This row indicates a tie that is significant but less diverse: at or above the 45th percentile but below the 50th percentile.
     * **0:** This row indicates a tie that is not that diverse: below the 45th percentile.
@@ -158,5 +158,5 @@ Attribute (column header) | Description |
 
 * [Network metrics](/viva/insights/tutorials/ona-metrics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Network person queries](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [Network metric definitions](../use/metric-definitions.md#network-metrics)
-* [View, download, and export query results](../use/view-download-and-export-query-results.md)
+* [Network metric definitions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics)
+* [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

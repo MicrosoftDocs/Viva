@@ -21,20 +21,20 @@ The [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/i
 
 These connectivity relationships are of two broad types, _influence_ and _ties_. People in a company can have varying amounts of influence over their coworkers. Because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people including, _diverse_ and _strong_. Identifying these ties can help you determine aspects such as, team alignment and potential for the flow of information and ideas.
 
-You can find the basic definitions of the connectivity metrics in [network metrics](../use/metric-definitions.md#network-metrics):
+You can find the basic definitions of the connectivity metrics in [network metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics):
 
 | Metric | Available in this query type |
 | ------ | ---------------------------- |
-| [Diverse tie score](../use/metric-definitions.md#diverse-tie-score-define) | [Network person-to-person query](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
-| [Diverse tie type](../use/metric-definitions.md#diverse-tie-type-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
-| [Diverse ties](../use/metric-definitions.md#diverse-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
-| [Influence](../use/metric-definitions.md#influence-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
-| [Influence rank](../use/metric-definitions.md#influence-rank-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
-| [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
-| [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
-| [Strong tie score](../use/metric-definitions.md#strong-tie-score-define) | [Network person-to-person query](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
-| [Strong tie type](../use/metric-definitions.md#strong-tie-type-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
-| [Strong ties](../use/metric-definitions.md#strong-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Diverse tie score](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#diverse-tie-score-define) | [Network person-to-person query](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Diverse tie type](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#diverse-tie-type-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Diverse ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#diverse-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Influence](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#influence-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Influence rank](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#influence-rank-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Manager overlapping strong ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#manager-overlapping-strong-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Manager unique strong ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#manager-unique-strong-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Strong tie score](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#strong-tie-score-define) | [Network person-to-person query](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Strong tie type](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#strong-tie-type-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
+| [Strong ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#strong-ties-define) | [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |
 
 The following sections describe the connectivity metrics in greater detail.
 
@@ -62,23 +62,23 @@ Influence indicates a node's potential influence on opinions of the network or a
 
 The most meaningful information to glean from Influence is the rank of the nodes. You can do this by using either of the two pertinent Network metrics, Influence and Influence rank.
 
-* Use [Influence rank](../use/metric-definitions.md#influence-rank-define). This metric assigns to each node a number that corresponds to their relative influence, with the lowest number (1) for the most
+* Use [Influence rank](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#influence-rank-define). This metric assigns to each node a number that corresponds to their relative influence, with the lowest number (1) for the most
 influential node. You can use this metric, for example, to obtain a simple ranked list or to evaluate whether a node's network influence is changing over time.
 
-* Use [Influence](../use/metric-definitions.md#influence-define). You use this metric in a more nuanced way than you'd use Influence rank. For example, assume that node A has an Influence of 0.6 and node B has an Influence of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a ranking or source of influence, not the amount of influence. The calculations for Influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
+* Use [Influence](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#influence-define). You use this metric in a more nuanced way than you'd use Influence rank. For example, assume that node A has an Influence of 0.6 and node B has an Influence of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a ranking or source of influence, not the amount of influence. The calculations for Influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
 
 ## Strong and diverse tie metrics
 
-You can use the Network queries to qualify a network connection between two people as a [strong tie](../use/metric-definitions.md#strong-ties-define), a [diverse tie](../use/metric-definitions.md#diverse-ties-define), or neither.
+You can use the Network queries to qualify a network connection between two people as a [strong tie](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#strong-ties-define), a [diverse tie](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#diverse-ties-define), or neither.
 
-* [Diverse ties](../use/metric-definitions.md#diverse-ties-define) &ndash; *Diverse ties* reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection. This metric also takes into account network differences that exist between the two people where both people are investing time. Diverse ties are both directional and asymmetrical. For example, if A has a diverse tie with B if A either collaborates a lot with B or a lot with a network that they have in common with B.
-* [Strong ties](../use/metric-definitions.md#strong-ties-define) &ndash; If two people have many network connections in common, they are considered to have a *strong tie*. Strong ties typically indicate shared membership in a workgroup or team. Like diverse ties, strong ties are directional. The strength of a person's tie depends on the contribution that the person makes in the relationship with the other person. Network queries also offer the following metrics that derive from the strong-tie metric:
+* [Diverse ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#diverse-ties-define) &ndash; *Diverse ties* reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection. This metric also takes into account network differences that exist between the two people where both people are investing time. Diverse ties are both directional and asymmetrical. For example, if A has a diverse tie with B if A either collaborates a lot with B or a lot with a network that they have in common with B.
+* [Strong ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#strong-ties-define) &ndash; If two people have many network connections in common, they are considered to have a *strong tie*. Strong ties typically indicate shared membership in a workgroup or team. Like diverse ties, strong ties are directional. The strength of a person's tie depends on the contribution that the person makes in the relationship with the other person. Network queries also offer the following metrics that derive from the strong-tie metric:
 
-  * [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) &ndash; A count of the number of strong ties that both a manager has and that their direct reports have in common with the manager.
-  * [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) &ndash; A count of the number of strong ties that are unique in a manager's network that do not exist in the strong ties of any of that manager's direct reports.
+  * [Manager overlapping strong ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#manager-overlapping-strong-ties-define) &ndash; A count of the number of strong ties that both a manager has and that their direct reports have in common with the manager.
+  * [Manager unique strong ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#manager-unique-strong-ties-define) &ndash; A count of the number of strong ties that are unique in a manager's network that do not exist in the strong ties of any of that manager's direct reports.
 
 >[!Note]
->When Viva Insights evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two [measured employees](../use/glossary.md#measured-employees-define).
+>When Viva Insights evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two [measured employees](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#measured-employees-define).
 <!--
 For more details about how strong and diverse ties are calculated, see [Network metric calculations](ona-metric-calculations.md) and, in particular, the following sections:
 
@@ -106,7 +106,7 @@ Another example: A manager's tie to a direct report might be strong, but not nec
 
 ### Strong ties example
 
-John and Sally are peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the frequent nature of their interaction, a Strong tie likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a [common network](../use/glossary.md#common-network).  Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &ndash; a common network &ndash; which, in turn, strengthens the Strong tie between John and Sally.
+John and Sally are peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the frequent nature of their interaction, a Strong tie likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a [common network](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#common-network).  Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &ndash; a common network &ndash; which, in turn, strengthens the Strong tie between John and Sally.
 
 Each person's contribution counts. See [Directionality](ona-metric-calculations.md#directionality) for more details.
 
@@ -126,13 +126,13 @@ Now, since they work on separate products, they tend to work with different peop
 
 ## FAQ
 
-The following questions and answers refer to metrics, which you can find definitions for in [Person metrics](../use/metric-definitions.md#person-metrics) and in [Network metrics](../use/metric-definitions.md#network-metrics).
+The following questions and answers refer to metrics, which you can find definitions for in [Person metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#person-metrics) and in [Network metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics).
 
 **Q1. What is the difference between strong ties and internal network size?**
 
 A1. Strong ties takes the network commonality that exists between the two people into account, a situation in which both people are investing time together or enabling other forms of bonding. Strong ties also gives more weight to meetings-based collaboration than to email. This is because meetings are more inter-personal in nature and enable direct person-to-person engagement, which results in a formalized engagement. Email-based collaboration doesn't translate into such an interpersonal engagement.
 
-Internal network size simply means the number of connections a person has within the company, based on the number of [meaningful interactions](../use/glossary.md#meaningful-interaction-define) the person has with their connections. Strong ties means the number of tight-knit, engaged connections a person has within the company, based on the time that the person invested with their connections.
+Internal network size simply means the number of connections a person has within the company, based on the number of [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define) the person has with their connections. Strong ties means the number of tight-knit, engaged connections a person has within the company, based on the time that the person invested with their connections.
 
 In summary: Strong ties differs from Internal network size in that they reflect the number of a person's connections based on the quality of the engagement that exists between two people.
 
@@ -148,9 +148,9 @@ A3. Strong ties currently does not consider connections that a person has outsid
 
 **Q4. What is the difference between "diverse ties" and "Networking outside organization"?**
 
-A4. Diverse ties returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exist between the two people where both people are investing time, enabling other forms of indirect sourcing of novel information. Person A can become a good source of diverse information for Person B if Person A does not spend too much time with Person B or if their [common network](../use/glossary.md#common-network) has minimal overlap.
+A4. Diverse ties returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exist between the two people where both people are investing time, enabling other forms of indirect sourcing of novel information. Person A can become a good source of diverse information for Person B if Person A does not spend too much time with Person B or if their [common network](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#common-network) has minimal overlap.
 
-In contrast, Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of [meaningful interactions](../use/glossary.md#meaningful-interaction-define) the person has with their connection. This metric quantifies connections at the organization attribute level.
+In contrast, Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define) the person has with their connection. This metric quantifies connections at the organization attribute level.
 
 Therefore, unlike Networking outside organization, which returns connections only at the organization attribute level (a very high level), diverse ties returns the number of connections based on the _quality_ of the engagement and the _variety_ of information that can potentially be conveyed through the connection. Also, diverse ties can span any organizational attribute, which lets you more flexibly locate such ties anywhere in the company.
 
@@ -168,5 +168,5 @@ A6. Diverse ties is internal only: It does not consider connections that a perso
 
 * [Network person queries](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [Network metric descriptions](../use/metric-definitions.md#network-metrics)
+* [Network metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

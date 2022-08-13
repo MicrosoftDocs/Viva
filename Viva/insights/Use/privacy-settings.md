@@ -17,7 +17,7 @@ audience: Admin
 
 # Privacy settings and exclusions
 
-As the Viva Insights admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](/viva/insights/Tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Viva Insights keeps personal data private.
+As the Viva Insights admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](/viva/insights/Tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Explore the stats](/viva/insights/Use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Watch the [Privacy video](#privacy-video) to learn more about how Viva Insights keeps personal data private.
 
 You can use privacy settings to:
 
@@ -46,7 +46,7 @@ If you do change privacy settings, your changes take effect after Microsoft 365 
 
 ## Minimum group size
 
-The minimum-group-size rule protects people from being identified in Viva Insights data, including in [Insights](insights.md), [Explore the stats](../Use/explore-intro.md), and [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If you change this setting, your change takes effect immediately.
+The minimum-group-size rule protects people from being identified in Viva Insights data, including in [Insights](/viva/insights/use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [Explore the stats](/viva/insights/Use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), and [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If you change this setting, your change takes effect immediately.
 
 The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
 
@@ -136,4 +136,4 @@ Learn more about [Viva Insights privacy and data access](/viva/insights/privacy/
 ## Related topics
 
 * [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [System defaults](system-defaults.md)
+* [System defaults](/viva/insights/use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

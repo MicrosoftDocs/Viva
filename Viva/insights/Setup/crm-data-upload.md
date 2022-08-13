@@ -219,4 +219,4 @@ For a complete list of rules, see [Attribute notes and recommendations](Prepare-
 * [Queries with CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Prepare organizational data](Prepare-organizational-data.md)
 * [First organizational upload](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [CRM data sources](../Use/crm-data.md)
+* [CRM data sources](/viva/insights/use/crm-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

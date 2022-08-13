@@ -54,7 +54,7 @@ Follow these steps only for results that have already run and for which auto-ref
 
    ![Turn on auto-refresh.](../images/wpa/tutorials/auto-refresh-options-off-48.png)
 
-Alternatively, you can renew an auto-refresh query within the [notifications panel](../use/wpa-notifications.md) in the advanced insights app.
+Alternatively, you can renew an auto-refresh query within the [notifications panel](/viva/insights/use/wpa-notifications?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in the advanced insights app.
 
 ## Auto-refresh details
 
@@ -153,4 +153,4 @@ After you do this, Power BI maintains a connection to this query in the advanced
 
 ### Related topics
 
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+[View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

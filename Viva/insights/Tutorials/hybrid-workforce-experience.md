@@ -40,7 +40,7 @@ This dashboard has six sections, which each address different facets of the empl
 
 Before you can run queries and populate the dashboard in Power BI, make sure you:
 
-* Are assigned the role of [Analyst](/viva/insights/use/user-roles) for Viva Insights
+* Are assigned the role of [Analyst](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for Viva Insights
 
 * Have installed the latest version of Power BI Desktop
   * Have the June 2022 or newer version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.

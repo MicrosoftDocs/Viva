@@ -18,9 +18,9 @@ search.appverid:
 
 # Network person queries
 
-Network person queries help you measure connectivity within an organization. In addition to the two influence metrics ([Influence](../use/metric-definitions.md#influence-define) and [Influence rank](../use/metric-definitions.md#influence-rank-define)), Network person queries also offer the a selection of tie metrics, starting with [Diverse ties](../use/metric-definitions.md#diverse-ties-define) and [Strong ties](../use/metric-definitions.md#strong-ties-define).  
+Network person queries help you measure connectivity within an organization. In addition to the two influence metrics ([Influence](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#influence-define) and [Influence rank](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#influence-rank-define)), Network person queries also offer the a selection of tie metrics, starting with [Diverse ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#diverse-ties-define) and [Strong ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#strong-ties-define).  
 
-For basic information about these connectivity metrics, see their definitions in [Network metrics](../use/metric-definitions.md#network-metrics). For deeper descriptions of the connectivity metrics, see [Network metrics](/viva/insights/tutorials/ona-metrics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
+For basic information about these connectivity metrics, see their definitions in [Network metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics). For deeper descriptions of the connectivity metrics, see [Network metrics](/viva/insights/tutorials/ona-metrics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Run a query to determine ties and influence
 
@@ -59,7 +59,7 @@ You can use any of connectivity metrics in the Network person query. In the foll
 12. In **Query designer** > **Results**, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 >[!Note]
->You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
+>You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) describes how to see and share results. For example, you can [view query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#view-query-results), [download and import query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#download-and-import-query-results), and [use an OData feed in Power BI](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
 ## Network query output
 
@@ -68,12 +68,12 @@ The following columns are included in the query results for Network queries:
 * **Person ID** - De-identified ID number for the person represented in that data row.
 * **Date** - The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
 * **Person attributes** - Attributes about the person supplied through the latest organizational (HR) data upload.
-* **Metrics** - Any metrics that you include in the query. For more information, see [Network metrics](../use/metric-definitions.md#network-metrics).
+* **Metrics** - Any metrics that you include in the query. For more information, see [Network metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics).
 
 ## Related topics
 
 * [Network metrics](/viva/insights/tutorials/ona-metrics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [Network metric definitions](../use/metric-definitions.md#network-metrics)
-* [View, download, and export query results](../use/view-download-and-export-query-results.md)
+* [Network metric definitions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics)
+* [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Best practices for influencers](../tutorials/gm-influencer.md)

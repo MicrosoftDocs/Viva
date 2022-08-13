@@ -61,7 +61,7 @@ For more details about using Power BI, see [Interact with visuals in reports, da
 
 ##### Q1 Who can create the dashboard in Power BI?
 
-You must be assigned the role of [Analyst](../use/user-roles.md) in the advanced insights app to create the dashboard. You must also have a Power BI license and have the desktop version installed. See [Install and run Power BI Desktop](/power-bi/desktop-getting-started#install-and-run-power-bi-desktop) for details.
+You must be assigned the role of [Analyst](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in the advanced insights app to create the dashboard. You must also have a Power BI license and have the desktop version installed. See [Install and run Power BI Desktop](/power-bi/desktop-getting-started#install-and-run-power-bi-desktop) for details.
 
 ##### Q2 How frequently is data refreshed in the dashboard?
 
@@ -73,7 +73,7 @@ You can share the dashboard with others in your organization *without sharing th
 
 ##### Q4 Can I share the underlying dashboard dataset with others in my organization?
 
-To maintain data privacy, only employees assigned the role of [Analyst](../use/user-roles.md) in the advanced insights app should have access to the underlying dataset in the Power BI dashboard.
+To maintain data privacy, only employees assigned the role of [Analyst](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in the advanced insights app should have access to the underlying dataset in the Power BI dashboard.
 
 ##### Q5 How do I know if I have the latest version of the template?
 
@@ -96,7 +96,7 @@ Only the required Organizational attributes are used when setting up the Power B
 
 ##### Q9 How do I integrate additional metrics or data sources with this dashboard?
 
-See [Connect to data in Power BI](/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn about what organizational data you can analyze in the advanced insights app and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within the advanced insights app.
+See [Connect to data in Power BI](/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn about what organizational data you can analyze in the advanced insights app and see [Data sources](/viva/insights/use/data-sourcesv2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to see what data sources you can connect to and analyze from within the advanced insights app.
 
 ##### Q10 How do I use Power BI?
 
@@ -215,4 +215,4 @@ Close Power BI, redo the set up steps in [Set up the dashboard for Return to wor
 ## Related topics
 
 * [Templates introduction](/viva/insights/tutorials/power-bi-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [View, download, and export query results](../use/view-download-and-export-query-results.md)
+* [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
