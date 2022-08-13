@@ -78,4 +78,4 @@ Inside the Admin Dashboard, you will see different tabs where you can make adjus
 For more information about admin settings in the admin dashboard, see [Navigate the admin dashboard](/viva/goals/navigate-admin-dashboard)
 
 ### Viva Engage
-See: [Manager Yammer admins](https://docs.microsoft.com/en-us/yammer/manage-yammer-users/manage-yammer-admins)
+See: [Manager Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins)
