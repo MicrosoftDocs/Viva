@@ -65,4 +65,4 @@ Viva Topics is available to customers worldwide. However, for processing and ind
 Viva Goals is currently in Private Preview and available only in English. More languages will be supported soon.
 
 ## Viva Engage
-Viva Engage supports the same languages as Yammer on the web. See [which languages Yammer is available in](https://support.microsoft.com/office/14dd5886-d48d-4d6d-a583-4273a2538540).
+Viva Engage supports the same languages as Yammer on the web. See [which languages Yammer is available in](https://support.microsoft.com/office/14dd5886-d48d-4d6d-a583-4273a2538540). Viva Engage will use the language set for Microsoft Teams. If that language is not supported, Viva Engage will fall back to English.
