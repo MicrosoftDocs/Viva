@@ -51,4 +51,22 @@
         href: ./organizational-network-analysis/organizational-network-analysis.md
       - name: Organizational network analysis - Gephi
         href: ./organizational-network-analysis/gephi-for-ona.md
+    - name: Engage and Retain Employees
+      items:
+      - name: Yume
+        items:
+        - name: Overview
+          href: yume.md
+        - name: Prerequisites
+          href: prerequisities-for-yume.md
+        - name: Create Dataverse tables
+          href: create-dataverse-tables.md
+        - name: Create Dataverse permissions
+          href: create-dataverse-permissions.md
+        - name: Import data into Dataverse tables
+          href: import-data-into-dataverse-tables.md
+        - name: Import Yume application
+          href: import-yume-application.md
+        - name: Create Power Automate flows for nudging
+          href: create-power-automate-flows-for-nudging.md
 
