@@ -33,6 +33,8 @@ To configure the settings:
    * **Virtual commute** – Choose whether you want a reminder to wrap up your day and when you want to see that reminder.
     * **Protect time** – You can do three things in **Protect time** settings:
         * Set up your **quiet hours**: Select whether you want to mute mobile notifications during certain times of the day, and whether there are some days you want to mute mobile notifications all day.
+        >[!Note]
+        > Quiet time is currently in private preview.
         * Set up a **no-meeting day** reminder, which reminds you to clear conflicting meetings on no-meeting days.
         * Configure your **focus plan**. For more information about focus plans, refer to [Focus plan](../Use/focus-plan.md).
    * **Reflection** – Choose whether you want a reminder to reflect and when you want to see that reminder. For more information about reflections in the Viva Insights app, refer to [Reflect](./viva-insights-reflect.md).
