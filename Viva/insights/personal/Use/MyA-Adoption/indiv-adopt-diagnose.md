@@ -1,9 +1,9 @@
 ---
 
 title: Viva Insights Individual Adoption --Diagnose 
-description: Viva Insights Individual Adoption by Kate Nowak --Diagnose issues
-author: madehmer
-ms.author: helayne
+description: Diagnose an issue to improve with Viva Insights
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
@@ -71,8 +71,7 @@ Look at your Viva Insights dashboard to use data to validate your collaboration 
 
 ### Focus
 
-<img src="../../../Images/mya/use/focus.png" alt="Focus page">
-
+![Screenshot that shows the Focus section on the dashboard.](/Viva/insights/images/mya/Use/focus-dashboard.png)
 
 * Is my total number of focus time per week as a percentage of my work week sufficient?
 * Which days during the week do I typically get the most time to focus?
@@ -87,16 +86,15 @@ Look at your Viva Insights dashboard to use data to validate your collaboration 
 
 ### Wellbeing
 
-<img src="../../../images/mya/use/wellbeing-pg.png" alt="Wellbeing page">
+:::image type="content" source="/Viva/insights/images/mya/Use/wellbeing.png" alt-text="Screenshot that shows the Wellbeing section on the dashboard." lightbox="/Viva/insights/images/mya/Use/wellbeing.png":::
 
 * Is my total after-hours number acceptable?
 * Am I collaborating after hours on certain days or every day?
 * Am I spending the majority of my after hours in meetings or on email?
 
 ### Network
- 
-<img src="../../../Images/mya/use/network-pg.png" alt="Network page">
 
+![Screenshot that shows the Network section on the dashboard.](/Viva/insights/images/mya/Use/network.png)
 
 * Do my time investments in people line up with my top priorities?
 * Are there opportunities for me to meet more with or less with certain individuals?
