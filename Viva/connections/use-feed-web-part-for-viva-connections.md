@@ -37,7 +37,7 @@ Viva Connections combines the power of your intelligent SharePoint intranet with
 
 ## What is the Viva Connections Company Feed web part?
 
-If you're using Viva Connections, the Viva Connections Feed web part aggregates organizational communication content from sources across SharePoint, Yammer, Stream, Teams, and more into a single feed that can be added to the [home site](/viva/connections/home-site-plan).
+If you're using Viva Connections, the Viva Connections Feed web part aggregates organizational communication content from sources across SharePoint, Yammer, Stream, Teams, and more into a single feed that can be added to SharePoint pages.
 
 ### Benefits of the web part include:
 
