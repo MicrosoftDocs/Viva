@@ -2,8 +2,8 @@
 
 title: Collaboration page for Viva Insights
 description: Learn how to use Microsoft Viva Insights to improve your collaboration at work
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: helayne
+manager: anirudhbajaj
 audience: user
 
 ---
@@ -20,23 +20,23 @@ audience: user
 
 The Collaboration page on your personal insights [Dashboard](dashboard-2.md) helps you reflect on how effectively you spend your time in meetings, email, chats, and calls.
 
-  ![Collaboration page.](../../Images/mya/use/collab.png)
+  ![Screenshot that shows the Viva Insights Collaboration page.](../../Images/mya/use/collaboration-dashboard.png)
 
 ## Weekly average
 
-The Weekly average section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours as configured in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
+The Weekly average section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. This estimate is measured as a percentage of your work week, which is based on activity within your set working hours as configured in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
    ![Collaboration Weekly Average.](../../Images/mya/use/collab-weekly-average.png)
 
 ## Meeting habits
 
-The Meeting habits section highlights what your habits or practices are in meetings you organized and accepted. You can switch between the Habits view and the List view:
+The **Meeting habits** section highlights what your habits or practices are in meetings you organized and accepted. You can switch between the Habits view and the **Meetings** view:
 
-* The **Meeting habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
+* The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
 
     ![Collaboration Meeting Habits View.](../../Images/mya/use/collab-habits-2.png)
 
-* The **List View** shows details about all the meetings on your calendar over the past four weeks.
+* The **Meetings view** shows details about all the meetings on your calendar over the past four weeks.
 
     ![Collaboration Meeting List View.](../../Images/mya/use/collab-meeting-list.png)
 
@@ -60,7 +60,7 @@ The Communication habits section shows the total number of chats (instant messag
 
 ## Productivity insights
 
-The insights are based on your recent collaboration activity at work. Select **View Suggestions** to get ideas about how you might change your current collaboration patterns.
+The Collaboration page's productivity insights are based on your recent collaboration activity at work. Select **View suggestions** to get ideas about how you might change your current collaboration patterns.
 
 ## About the metrics
 
@@ -76,10 +76,10 @@ The following meeting-habit metrics are included on the Collaboration page. You 
 
 * **High attendance** includes meetings you organized or accepted that had greater than a 50 percent response rate.
 * **Invitations sent with a days' notice** includes meetings where you sent invitations with more than 24 hours notice before the meeting's scheduled start time.
-* **Added Skype or Teams link** includes meetings you organized and included a Skype or Teams link for remote attendance.
+* **Added Teams link** includes meetings you organized and included a Teams link for remote attendance.
 * **No overlap with other meetings** includes meetings that you organized or accepted that did not overlap with other meetings.
 * **No emails or chats during the meeting** includes meetings during which you did not send a significant number of emails or chats.
-* **Online meetings joined on time** includes Skype or Teams meetings that you joined or started on time (or within five minutes of their schedule start time).
+* **Online meetings joined on time** includes Teams meetings that you joined or started on time (or within five minutes of their schedule start time).
 * **During working hours** includes meetings you organized or accepted to attend during your working hours.
 
 #### Meeting exclusions
@@ -87,7 +87,7 @@ The following meeting-habit metrics are included on the Collaboration page. You 
 The following meeting types are excluded from meeting metrics:
 
 * Meetings whose length is equal to or greater than 24 hours. Notably, this also excludes **All day** meetings:
-![All-day meeting checkbox.](../../Images/mya/use/all-day-mtg.png)
+![Screenshot that shows the All-day meeting checkbox in Outlook.](../../Images/mya/use/all-day-mtgs.png)
 
 * Meetings that are marked as **Private**
 
@@ -116,16 +116,16 @@ Also, the time you spend sending or reading email outside your set work hours (a
 
 ### Chats and calls
 
-Viva Insights counts your audio calls, video calls, and chats (instant messages) that occur in Teams and in Skype for Business as collaboration activities, which are calculated as follows:
+Viva Insights counts your audio calls, video calls, and chats (instant messages) that occur in Teams as collaboration activities, which are calculated as follows:
 
 * Each chat or instant message that *you send* counts the time as 30 seconds.
-* Each chat that *you receive* counts as zero seconds in time because empirically, time spent on sent messages is a good predictor of the total duration of Teams and Skype for Business sessions.
+* Each chat that *you receive* counts as zero seconds in time because empirically, time spent on sent messages is a good predictor of the total duration of Teams sessions.
 * Each chat or instant message within a 15-minute window of time is counted as one chat.
 * For each impromptu call, Viva Insights uses the actual duration of the call. An impromptu or ad hoc call is an unscheduled call that’s not included in your calendar.
 * For calls that are scheduled as meetings in your calendar, the time counts as zero seconds because these calls are already being counted as meeting time.
 
   >[!Note]
-  > Chats from Teams channels are excluded from the metrics. Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [Viva Insights FAQ](../Overview/MyA-faq.md).
+  > Chats from Teams channels are excluded from the metrics. 
 
 ### Documents
 
@@ -146,17 +146,17 @@ You might miss out on valuable collaboration time if you're spending too much ti
 
 * **Reduce the meetings you attend and schedule**:
 
-  * Fewer meetings enables more time for collaboration. Review your recurring meetings to make sure they're a good use of time each week.
+  * Fewer meetings enable more time for collaboration. Review your recurring meetings to make sure they're a good use of time each week.
   * Check the attendee lists for meetings you organize. Try condensing meetings with identical attendees.
-  * In an office culture where meetings fill the day, make the most of yours. By setting expectations and making goals clear ahead of time, meetings can become more efficient. Giving you and your colleagues some time back.
+  * In an office culture where meetings fill the day, make the most of yours. By setting expectations and making goals clear ahead of time, meetings can become more efficient, giving you and your colleagues some time back.
 
 * **Keep meeting size under control**: Small and short meetings are more conducive to decision making, as it prompts attendees to communicate faster and focus on getting the work done. Research shows that every person added to the meeting group over seven reduces decision effectiveness by 10 percent. Consider making your meeting size small to avoid decision making overhead.
 
 * **Respond to meetings on time**: Respond to meeting invites on time so your team knows what to expect. Coworkers can better prepare for meetings when they have a good sense of who plans to attend.
 
-* **Give people time to prepare for meetings**: Last-minute invitations are sometimes necessary, but your meetings may be more effective if you give attendees some time to prepare.
+* **Give people time to prepare for meetings**: Last-minute invitations are sometimes necessary, but your meetings might be more effective if you give attendees some time to prepare.
 
-* **Include Skype or Teams link for remote attendees**: Consider adding a Skype or Team links to your meetings to accommodate remote attendees.
+* **Include Teams link for remote attendees**: Consider adding a Teams links to your meetings to accommodate remote attendees.
 
 * **Include meeting agendas and action items in your invites**: Add agendas and action items to get the most out of your meetings. Consider adding clarity for what you’d like participants to do with attached files in your meeting invitations.
 
@@ -169,6 +169,6 @@ You might miss out on valuable collaboration time if you're spending too much ti
 
 * **Take long email threads offline**: For long email threads that increase over the course of a few weeks, consider taking the email offline and scheduling a meeting to sync up.
 
-* **Schedule meeting during work hours**: For non-urgent meetings, scheduling them during the attendees set work hours is a good practice that respects people’s wellbeing.
+* **Schedule meeting during work hours**: For non-urgent meetings, scheduling them during attendees' set working hours is a good practice that respects people’s wellbeing.
 
 * **Avoid multitasking during meetings**: Research shows that merely having your smartphone nearby impairs cognitive capacity on par with the effects of lacking sleep. Consider putting away your phone while in meetings to dedicate full attention to them.
