@@ -54,26 +54,10 @@ At any time after the initial setup, you can confirm or change any of the option
 
 ![Screenshot that shows Focus plan preferences.](Images/protect-time-focus-plan-preferences.png)
 
-### Focus mode
-
-If you selected the option to be reminded to begin focus mode, you'll receive a Teams notification to start focus mode. When you select the **Ready to focus** prompt, it'll open a **Focus mode** page.
-
-You can also start focus mode through **Home** > **Launch focus mode**. Or if you leave focus mode, you can always restart it through **Home** > **Return to focus mode**.
-
-* If Headspace for Viva Insights is enabled by your organization, the page provides options to play a short one-minute deep-breathing exercise and play music. There'll also be a **Focus timer** that tracks your time within the **Focus mode** page.
-
-    :::image type="content" source="images/focus-mode-small.png" alt-text="Screenshot that shows Focus mode with Headspace." lightbox="images/focus-mode.png":::
-
-* If Headspace is disabled, you'll be prompted to play a short one-minute **Deep breathing** exercise within the **Focus mode** page. There'll also be a **Focus timer** that tracks your time.
-
-### Pop out Focus mode
-
-You can open **Focus mode** in a separate pop-out window in Teams, which allows you to play focus music while using Teams for other work.
-
-1. In the left navigation in Teams, right-click **Viva Insights**.
-2. Select **Pop out app**.
-
 ## Configure quiet time
+
+>[!Note]
+> Quiet time is currently in private preview. 
 
 Research shows that long hours and the pressure to always be available can lead to employee burnout. The amount of time you spend collaborating outside of business hours can be an indicator that you are at risk of burnout, even as you and your team embrace flexibility.
 
