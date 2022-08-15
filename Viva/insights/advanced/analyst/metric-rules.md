@@ -38,7 +38,7 @@ To see an example .xlsx file that shows what's included and excluded from existi
 
 The app's metric rules:
 
-* Only apply to analysis data – Metric rules only apply and filter data in the **Analysis** pages and for the data shown within the Viva Insights app in Teams for managers and leader insights.
+* Only apply to analysis data – Metric rules only apply and filter data in the **Analysis** pages and for the data shown within the Viva Insights app for managers and leader insights.
 * Are read-only – These rules are set up automatically by default. For the first release of the new advanced insights app, you can't edit or change these metric rules, but you'll be able to in the future.
 * Exclude certain meeting types from collaboration metrics – The default **Meeting exclusions** rule excludes the time and count metrics for meetings that match the following criteria:
     * If the duration of the meeting is 24 hours or more.
