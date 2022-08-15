@@ -24,11 +24,11 @@ Thank you for trying Microsoft Viva Insights. Welcome to your new personal Home 
 >[!NOTE]
 >You can also open Viva Insights through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
 
-![Viva Insights web app home page](../../Images/mya/use/home-web.png)
+:::image type="content" source="../../Images/mya/use/viva-insights-home1.png" alt-text="Screenshot that shows the Viva Insights home page." lightbox="../../Images/mya/use/viva-insights-home-expanded.png":::
 
-Viva Insights provides personalized recommendations to help you do your best work. Get insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
+Viva Insights gives you insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
-It derives these insights by summarizing your Microsoft 365 data, which you already have access to, such as emails, meetings, calls, and chats.
+Viva Insights derives these insights by summarizing your Microsoft 365 data, which you already have access to, such as emails, meetings, calls, and chats.
 
 With Viva Insights, you can:
 
@@ -58,18 +58,65 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 
 ## Opt in or out of features
 
-Do the following to opt in or our of features in **Feature settings**:
+You can opt in or out of the Viva Insights app in Teams, the Viva Insights web app, and Microsoft Viva Insights all at once. 
 
-1. Open your [Viva Insights Home page](https://insights.viva.office.com).
-2. Select the **Settings** (gear) icon at the top-right of the page.
-3. Select **Settings**, and then under **Microsoft Viva Insights**, select to turn features **On** or **Off**. For example, to opt out of this page, turn **Off** the **Dashboard**.
+### To opt in or out
 
-    ![Feature settings.](../../Images/mya/use/v-feature-settings.png)
+1. Select the ellipses at the top-right of the Viva Insights window, then select **Settings**.
 
-4. Select **Save** to save your changes.
+    ![Screenshot that shows selecting Settings.](../../Images/mya/use/vi-settings-ellipses.png)
+
+2. Select the **Privacy** tab.
+
+    ![Screenshot that shows selecting the Privacy tab.](../../Images/mya/use/privacy-tab.png)
+
+1. Switch the toggle for Viva Insights from **On** to **Off**.
+
+    :::image type="content" source="../../Images/mya/use/viva-insights-opt-out1.png" alt-text="Screenshot that shows the Viva Insights toggle in Settings." lightbox="../../Images/mya/use/viva-insights-opt-out.png":::
+
+4. Select **Save changes**.
 
 >[!NOTE]
 >It might take up to 24 hours for your saved changes to take effect.
+
+### Access
+
+If you choose to opt out, you lose access to the following items:
+
+* Features
+    * All features in the following:
+        * Viva Insights app in Teams
+        * Viva Insights web app 
+        * Microsoft Viva Insights
+* Emails
+    * Briefing email
+        * If you’re subscribed to the daily Briefing email, you’ll continue to receive it without the Viva Insights personal insights content. 
+    * Semi-monthly Digest email
+* Outlook
+    * Outlook add-in
+    * Delay delivery plan and notifications
+        * You can separately opt in to resume the Delay delivery plan and receive notifications
+* Settings
+    * All settings *except* for the following:
+        * Opting in and opting out
+        * Briefing email
+* Focus plans and quiet time
+* Virtual commute notifications
+
+If you opt out, you:
+
+* Don’t lose any previously saved settings. If you turn Viva Insights back on later, your current settings reactivate. 
+* Continue to have access to Briefing email and privacy settings. 
+* Continue to see currently scheduled individual and shared plan events on your calendar unless you delete them.  
+* Continue to receive shared plan invites. 
+* See a new Home screen on Viva Insights Teams and web app. This Home screen provides the option to opt in anytime. 
+* Aren’t included in any insights that relate to you as an individual. Here are a few examples:
+    * Personal insights, like those found in the Viva Insights Dashboard 
+    * Flexible query output that relates to you as an individual, like a Person query 
+* Continue to be included in aggregated insights and collaboration events. Here are a few examples: 
+    * Aggregated insights, like the ones on the Organization trends page 
+    * Flexible query results that draw from the collaboration events, like a Meeting query
+* May not see all changes reflected immediately. Some changes, like the Digest email and add-in changes, might take up to a week to take effect.
 
 ### If I am opted out, can I opt back in?
 
