@@ -2,14 +2,14 @@
 
 title: Stay connected with Viva Insights
 description: Use the Stay connected feature in Microsoft Viva Insights
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
