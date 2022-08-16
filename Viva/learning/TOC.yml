@@ -59,9 +59,9 @@
       items:
         - name: Learning management systems
           items:
-            - name: Fix content ingestion errors when adding LMS
+            - name: Content ingestion errors when adding an LMS 
               href: lms-content-ingestion-errors.md
         - name: Content providers
           items:
-            - name: Fix content ingestion errors when adding content providers
+            - name: Content ingestion errors when adding a content provider
               href: provider-content-ingestion-errors.md
