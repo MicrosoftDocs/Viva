@@ -25,6 +25,9 @@
 - name: Viva Sales
   tocHref: /viva/sales/
   topicHref: /viva/sales/introduction
+- name: Viva Engage
+  tocHref: /viva/engage/
+  topicHref: /viva/engage/overview
 - name: Personal insights
   tocHref: /viva/insights/personal
   topicHref: /viva/insights/personal/index
