@@ -45,7 +45,7 @@ Yes. The Viva Insights app complies with GDPR requirements.
 
 The first time you open Teamwork habits, you’re prompted to select your team and other settings. After the initial setup, you can make changes to your team any time within **Settings**:
 
-1. Select the **ellipsis** (...) in the upper-right of the Viva Insights app in Teams.
+1. Select the **ellipsis** (...) in the upper-right of the Viva Insights app.
 2. Select **Settings**.
 3. Select **Teamwork habits** to make changes to your team, and then select **Save**.
 
