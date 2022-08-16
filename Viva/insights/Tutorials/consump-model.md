@@ -165,7 +165,7 @@ If you open an existing, previously run query, and you edit it and run it again,
 No additional units are charged for the following:
 
 * Viva Insights licenses for advanced insights that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following features: [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), and [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
+* Your use of the following features: [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [My team in Viva Insights](../org-team-insights/teamwork-habits.md), [My organization in Viva Insights](../org-team-insights/org-trends.md), and [Explore the stats](../use/explore-intro.md).
 * Your choice of tool, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.

@@ -60,7 +60,7 @@ For more details on how to add new data for existing employees, review the docum
 ## Set up the template
 
 >[!NOTE]
-
+>
 > This dashboard is currently only available in English and only works with data generated from the English version of the app. Before completing the following steps, confirm that the browser language contains **en-us** in the app's URL ("...office.com/en-us/...").
 
 1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.

@@ -175,7 +175,7 @@ The edited query runs again. As it does, it incurs a new cost, in units, calcula
 No additional units are charged for the following:
 
 * Viva Insights licenses that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following the advanced insights app features: [plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Explore pages](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
+* Your use of the following the advanced insights app features: [plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [My team in Viva Insights](../org-team-insights/teamwork-habits.md), [My organization in Viva Insights](../org-team-insights/org-trends.md), [Explore pages](../use/explore-intro.md).
 * Your choice of a query-results visualization method, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.

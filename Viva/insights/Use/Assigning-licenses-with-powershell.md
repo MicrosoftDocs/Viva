@@ -27,7 +27,7 @@ Do the following steps to assign licenses with PowerShell in Azure Active Direct
    2. Enter the following command:
 
       ``` powershell
-      Install-Module *AzureAD*
+      Install-Module AzureAD
       ```
 
 2. Run the Azure AD PowerShell module:
@@ -379,6 +379,6 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 
 ## Related topics
 
-* [Assign licenses to the population](../setup/Assign-licenses-to-population.md)
+* [Assign licenses to the population](/viva/insights/setup/Assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Assign licenses with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
 * [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

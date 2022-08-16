@@ -23,7 +23,7 @@ Each role only gives access to actions, pages, dashboards, and data that corresp
 
 The _Insights Administrator_ and the legacy _Workplace Analytics admin_ are interchangeable. Both have access to the same features and functions and share the same responsibilities and tasks for Viva insights.
 
-The _Analyst (Limited Access)_ and _Program Manager_ roles that are listed in the following tables, are only applicable to features available within the advanced insights app for licenses assigned before October 2021. For those who are assigned licenses and the Insights Business Leader roles starting in October 2021, can only access their applicable insights within the Viva Insights app in Microsoft Teams.
+The _Analyst (Limited Access)_ and _Program Manager_ roles that are listed in the following tables, are only applicable to features available within the advanced insights app for licenses assigned before October 2021. For those who are assigned licenses and the Insights Business Leader roles starting in October 2021, they can only access their applicable insights within the Viva Insights app.
 
 ## Role descriptions and access levels
 
@@ -35,8 +35,8 @@ The following shows who can access what.
 
 |Feature |Description |Insights Administrator |Analyst |Insights Business Leader |Analyst (Limited Access) |Program Manager |People Manager |
 | ---------- | ------------- | -------- | ---------- |--------- | ------- |-------------- | --------------- |
-| **My team** | View Group insights about your team in **My team** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | &nbsp; | &nbsp;  | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
-| **My organization** | View highlights about your organization in **My organization** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; | &nbsp; |
+| **My team** | View Group insights about your team in **My team** within the Viva Insights app | &nbsp;  |&nbsp;  | &nbsp; | &nbsp;  | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
+| **My organization** | View highlights about your organization in **My organization** within the Viva Insights app | &nbsp;  |&nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; | &nbsp; |
 | **Home**      | View highlights from the latest organizational data and see the latest notifications | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;   |
 | **Analyze**   | &nbsp;                | &nbsp;    | &nbsp;  |&nbsp; |&nbsp; | &nbsp;   | &nbsp;  | 
 | &nbsp;        | **Peer analysis** collaboration data                               | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    |&nbsp; | &nbsp;   | &nbsp;  | &nbsp; |
@@ -57,10 +57,10 @@ The following shows who can do what with Viva Insights.
 | ---- | ---- | ---- | ---- | ---- | ---- |----| 
 | Configure system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark">|&nbsp; |&nbsp; |&nbsp;|&nbsp; |&nbsp; |
 | Upload organizational data into the system | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |&nbsp; |&nbsp; |
-| Use the **My organization** page within the Viva Insights app in Teams |&nbsp; | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |
+| Use the **My organization** page within the Viva Insights app |&nbsp; | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |
 | Use the full set of analyst tools in Data sources and Analyze |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |&nbsp; |
 | Help coordinate, set up, and manage Plans |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;   |
-| Use Group insights on the **My team** page within the Viva Insights app in Teams |&nbsp; | &nbsp; |&nbsp; |&nbsp; |&nbsp;|<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
+| Use Group insights on the **My team** page within the Viva Insights app |&nbsp; | &nbsp; |&nbsp; |&nbsp; |&nbsp;|<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 
 ### Levels of responsibility
 

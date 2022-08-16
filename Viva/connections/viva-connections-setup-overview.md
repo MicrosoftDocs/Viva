@@ -31,7 +31,22 @@ Use [Viva Connections](viva-connections-overview.md) to engage and empower front
 - Discover planning considerations and best practice.
 - Get guidance for change management, adoption, and end-user training.
 
-Want to get started now? [Use the quick guide to create your organization’s instance of Viva Connections](/viva/connections/guide-to-setting-up-viva-connections). Or, take the [Viva Connections learning path](/learn/paths/viva-connections-get-started/) get more in-depth guidance that includes fictitious business stories, examples, and knowledge checks.
+
+## Step-by-step guidance to provision Viva Connections
+There are two options that provide in-depth information about how to get Viva Connections for your organization.
+
+| Option                  | Description        | Time to complete|
+| :--------------------- | :--------------------|:----------------------:|
+| [Plan, build, and launch guidance](plan-viva-connections.md) | Get detailed guidance that focus on tasks in the plan, build, and launch phases.   | 30 minutes           |
+| [Learning path](/learn/paths/viva-connections-get-started/)    | Get even more in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings.       | 2 hours            | 
+
+
+## Overview of setting up Viva Connections
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE53Exu]
+
+<br>
+<br>
 
 
 ## Overview of activities in each phase
