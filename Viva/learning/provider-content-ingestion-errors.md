@@ -1,6 +1,6 @@
 ---
-title: Fix content ingestion errors when adding content providers
-description: Lists common content ingestion errors when adding content providers for Viva Learning. Provides actions to be taken to fix these errors.
+title: Content ingestion errors when adding a content provider
+description: Lists common content ingestion errors when adding content providers for Viva Learning. Provides descriptions for these errors and next steps that you can take.
 ms.author: luche
 author: helenclu
 manager: dcscontentpm

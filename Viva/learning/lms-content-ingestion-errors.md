@@ -1,6 +1,6 @@
 ---
-title: Fix content ingestion errors when adding LMS
-description: Lists common content ingestion errors when adding LMSs for Viva Learning. Provides actions to be taken to fix these errors.
+title: Content ingestion errors when adding an LMS
+description: Lists common content ingestion errors when adding LMSs for Viva Learning. Provides descriptions for these errors and next steps that you can take.
 ms.author: luche
 author: helenclu
 manager: dcscontentpm
