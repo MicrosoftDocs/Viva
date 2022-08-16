@@ -64,7 +64,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 >[!Note]
 >This dashboard is currently only available in English.
 
-1. In the Viva Insights app in Teams, select **My organization**, and then select **Get started** for **Unlock more insights** within the **Recommended actions** section.
+1. In the Viva Insights app, select **Organization trends**, and then select **Get started** for **Unlock more insights** within the **Recommended actions** section.
 2. For **Try the beta version of Organizational Insights**, select **Download Power BI**.
 3. Open the downloaded **Employee experience** template, and if prompted to select a program, select **Power BI**.
 4. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.

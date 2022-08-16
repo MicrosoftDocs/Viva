@@ -17,9 +17,9 @@ audience: Admin
 
 # Manager insights introduction
 
-Managers like you can discover key insights about your team’s collaboration effectiveness and employee experience in the Microsoft Viva Insights app in Teams and on the web, and in Advanced insights.
+Managers like you can discover key insights about your team’s collaboration effectiveness and employee experience in the Microsoft Viva Insights app and in Advanced insights.
 
-Managers who are assigned licenses can view their team's [organization trends](../org-team-insights/org-trends.md) within the Viva Insights app in Teams.
+Managers who are assigned licenses can view their team's [organization trends](../org-team-insights/org-trends.md) within the Viva Insights app.
 
 ![Manager insights in advanced insights.](./images/manager-insights.png)
 
