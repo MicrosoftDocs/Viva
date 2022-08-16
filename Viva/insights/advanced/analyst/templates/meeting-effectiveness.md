@@ -57,7 +57,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     1. Type a **Query name**.
     1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
     >[!Important]
-    > Some metrics in this query only have history back to May 2022. Setting the Time period to before May 2022 will result in incomplete data.
+    > Some metrics in this query only have history back to May 2022. If you set the **Time period** to before May 2022, your query won't have complete data.
     1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
 
     >[!Note]
@@ -113,7 +113,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 After the Meeting effectiveness report is set up and populated with Viva Insights data in Power BI:
 
 1. Select the report's time period. This setting primarily alters the data displayed in the trend charts. Reducing the time period to less than eight weeks isn't recommended because some insights, like the month-over-month indicators, won’t have enough data to calculate.
-1. Select the report's aggregation period. The aggregation period defines the amount of time that all aggregated insights are computed over. For example, if you select **Last 4 weeks**, then the report includes the last four weeks leading up to the end date when it computes insights. If you select **Last 1 week**, the report only includes the last week leading up to the end date when it computes insights.
+1. Select the report's aggregation period. The aggregation period defines the span of time the report uses to calculate all aggregated insights. For example, if you select **Last 4 weeks**, then the report includes the last four weeks leading up to the end date when it computes insights. If you select **Last 1 week**, the report only includes the last week leading up to the end date when it computes insights.
 1. Select the average cost of an employee meeting hour. Change this value to calculate a more accurate value for meeting hours across the report.
 1. Select an organizational attribute to view the report by. This attribute is the primary group-by attribute shown in all subsequent pages. You can change this attribute at any time; all subsequent report pages will show values grouped by the new attribute.
 1. Select optional filters to exclude employee groups. To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you use these optional filters, the measured employees count will reflect a reduced number.
@@ -141,27 +141,25 @@ The Meeting effectiveness report includes the following report pages that help y
 
 ### Overview
 
-This page shows a high-level overview of all insights included in the report: three insights address the quantity of meeting hours and six insights comment on the quality of the meeting hours.
-
-<!--phrasing-->
+This page shows a high-level overview of all insights included in the report: three insights address meeting-hour quantity and six insights address meeting-hour quality.
 
 All insights that show the quality of meeting hours, like **Short and small** or **Advanced meeting notice**, are measured as a percent of all person meeting hours that have those traits. <!--phrasing-->
 
 For example, let's say two people join a 30-minute meeting. One person joins on time and the other joins late. That meeting had 60 cumulative minutes of meeting time, but only 30 of those minutes were joined on time. So, 50% of meeting time was joined on time.
 
-The **Top mover** icon calls out the insight that had the greatest change, while the **Bottom mover** icon calls out the insight with the least change.
+The **Top mover** icon calls out the insight with the greatest change, while the **Bottom mover** icon calls out the insight with the least change.
 
-Finally, based on the aggregation period selected, you’ll either see month-over-month comparisons or week-over-week comparisons by default. If you select **Last 4 weeks**, the report shows month-over-month calculations comparing the last four weeks to the four weeks before that. If you select **Last 1 week**, the report shows week-over-week calculations comparing the last one week to week before that.
+Finally, based on the aggregation period selected, you’ll either see month-over-month comparisons or week-over-week comparisons by default. If you select **Last 4 weeks**, the report shows month-over-month calculations comparing the last four weeks to the four weeks before that. If you select **Last 1 week**, the report shows week-over-week calculations comparing the last one week to the week before that.
 
 ### Meeting lifecycle
 
 This page shows similar insights to the overview page, but displays them based on the phases of the meeting lifecycle: **before**, **during**, and **after**.
 
-When organizing meetings and trying to ensure the time is spent effectively, it can help to think about the meeting broken down into these three phases. Before the meeting, you want to think about who the right attendees are, how much time you’ll need, who your required stakeholders are and whether they’re available, and more. During the meeting, you’ll want to ensure you get started on time, get through your agenda, and engage the participation. After the meeting, you'll want to evaluate it, ask for feedback, and send out notes and action items.
+When organizing meetings and trying to ensure the time is spent effectively, it can help to think about the meeting broken down into these three phases. Before the meeting, think about who the right attendees are, how much time you’ll need, who your required stakeholders are and whether they’re available, and more. During the meeting, ensure you get started on time, get through your agenda, and engage the participation. After the meeting, evaluate it, ask for feedback, and send out notes and action items.
 
 ### Meeting hours
 
-Sometimes it can be shocking to learn just how much time your organization spends in meetings. Once you understand that investment, it’s easy to start asking questions about how to decrease the amount of non-productive meeting time.
+Sometimes it's shocking to learn just how much time your organization spends in meetings. Once you understand that investment, it’s easy to start asking questions about how to decrease the amount of non-productive meeting time.
 
 To learn more about **Why it matters**, click on the icon next the title of the page.
 
@@ -169,7 +167,7 @@ To learn more about **Why it matters**, click on the icon next the title of the 
 
 This format of this page reflects how all remaining report pages look: an all-up group average for the metric, and then a breakdown of that metric average by the organizational attribute selected. These averages are calculated over the aggregation period you selected in [report settings](#report-settings).You can also see how the group average has trended from the selected **Start date** to **End date**.
 
-On this page in particular, you can see the value of time spent in meetings. If this is something not worth tracking for your organization, you can always go into Settings and set that value to zero.
+On this page in particular, you can see the value of time spent in meetings. If time spend in meetings isn't something worth tracking for your organization, you can always navigate to **Settings** and set that value to **0**.
 
 Finally, each page ends with a **Take action** suggestion. Click on the **Explore more** to access relevant links and next steps.
 
@@ -184,11 +182,11 @@ From there, you can explore the following pages and learn about the various insi
 
 ### After meetings
 
-Even after you leave a meeting room (physically, or virtually), the meeting isn’t done. Ensure that you are always disseminating clear action items and next steps. Also consider how the meeting went to make sure your next meeting is more effective than the last. This page provides a few helpful tips to ensure this trend remains positive.
+Even after you leave a meeting room (whether physically or virtually), the meeting isn’t done. Ensure that you're always disseminating clear action items and next steps. Also, consider how the meeting went to make sure your next meeting is more effective than the last. This page provides a few helpful tips to ensure this trend remains positive.
 
 #### Glossary
 
-This page defines the metrics and other key terms used in the report 
+This page defines the metrics and other key terms used in the report. 
 
 ## Power BI tips, FAQs, and troubleshooting
 
