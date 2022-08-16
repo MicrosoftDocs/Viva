@@ -26,7 +26,7 @@ To log into Viva Goals, you must be logged into your Azure Active Directory.
 
 ## How to log in to Viva Goals 
 
-1. Go to the Viva Goals sign-in page.
+1. Go to the [Viva Goals sign-in page](https://goals.microsoft.com/).
 
 2. Select the Azure Active Directory credentials to log in.
 
