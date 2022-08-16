@@ -19,7 +19,7 @@ audience: user
 
 The **Wellbeing** page on the [Dashboard](dashboard-2.md) shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
-:::image type="content" source="../../Images/mya/use/wellbeing.png" alt-text="Screenshot of the Wellbeing dashboard" lightbox="../../Images/mya/use/wellbeing-expanded.png":::
+![<alt text>.](../../Images/WpA/Use/wellbeingdashboard2.png)
 
 ## Productivity insights
 
@@ -27,10 +27,7 @@ These insights are based on your recent workplace activity. Select **View Sugges
 
 ## About the metrics
 
-  >[!Note]
-  > Quiet time is currently in private preview.
-
-**Quiet time kept** measures the number of days where you did not have significant collaboration outside your set work hours (as defined in your Outlook calendar). Significant collaboration includes sending and reading email, sending, and responding to chats, or attending calls and meetings in more than one one-hour period outside your working hours. Weekends are considered all-day quiet time and are included in the quiet days calculation because they're opportunities to recharge from work for a full day.
+**Quiet hours kept** measures the number of days where you did not have significant collaboration outside your set work hours (as defined in your Outlook calendar). Significant collaboration includes sending and reading email, sending, and responding to chats, or attending calls and meetings in more than one one-hour period outside your working hours. Weekends are considered all-day quiet time and are included in the quiet days calculation because they're opportunities to recharge from work for a full day.
 
 For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, and you collaborate in meetings, emails, chats, or calls after 5 PM on Monday, or during a weekend, Monday (or the weekend day) won't count as a quiet day.
 
