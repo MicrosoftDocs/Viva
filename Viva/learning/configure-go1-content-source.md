@@ -56,7 +56,7 @@ Learn more about [how to create a private developer's app for Go1](https://help.
 >[!NOTE]
 >You'll need to have admin permissions in Microsoft 365 to complete these steps.
 
-1. Log in to your [Microsoft 365 admin center](https://admin.microsoft.com).
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
 2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable Go1 in the panel.
 3. Fill in the configuration details that you retrieved from your Go1 portal.
 4. Select **Save** to activate Go1 content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
