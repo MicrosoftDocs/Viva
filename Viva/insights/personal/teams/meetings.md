@@ -56,7 +56,7 @@ Confirm the following before configuring access:
 
 ## User-level configuration
 
-As the admin, you can use the [Exchange Online PowerShell V2](https://docs.microsoft.com/powershell/module/exchange/set-vivainsightssettings) module to set access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users) for meeting effectiveness surveys.
+As the admin, you can use the [Exchange Online PowerShell V2](/powershell/module/exchange/set-vivainsightssettings) module to set access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users) for meeting effectiveness surveys.
 
 ### Set access for one user
 
