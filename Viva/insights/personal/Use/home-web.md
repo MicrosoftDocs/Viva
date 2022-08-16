@@ -101,6 +101,8 @@ If you choose to opt out, you lose access to the following items:
         * Opting in and opting out
         * Briefing email
 * Focus plans and quiet time
+    >[!Note]
+    > Quiet time is currently in private preview.
 * Virtual commute notifications
 
 If you opt out, you:
