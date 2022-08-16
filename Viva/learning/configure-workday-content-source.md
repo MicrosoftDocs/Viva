@@ -39,7 +39,7 @@ You'll need to complete the following steps in Workday:
 5. [Activate pending security policy changes](#activate-pending-security-policy-changes).
 6. [Retrieve the WWS endpoint](#retrieve-the-workday-web-service-endpoint).
 
-If you require additional support, contact Workday.
+If you require more support, contact Workday.
 
 ### Create an integration system user
 
