@@ -271,7 +271,7 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "viva/insights/use/viva-insights-myteam.md",
+        "source_path": "viva/insights/use/viva-insights-my-team.md",
         "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
         "redirect_document_id": false
       },
@@ -280,5 +280,6 @@
         "redirect_url": "/viva/insights/org-team-insights/org-trends",
         "redirect_document_id": false
       }
+    
     ]
 }
