@@ -21,6 +21,13 @@ Certain roles need the correct level of access to specific product areas to perf
 
 Each role only gives access to actions, pages, reports, and data that correspond with that role. Roles are assigned independently, are non-cumulative, and don't roll up.
 
+## Inherited roles
+
+Two Viva Insights roles can be automatically inherited through a user's Global Azure Active Directory roles:
+
+* Users with the **Global Admin** role automatically inherit **Insights Administrator** privileges.
+* Users with the **Global Leader** role automatically inherit **Insights Business Leader** privileges.
+
 ## Role descriptions and access levels
 
 ### Feature access
@@ -30,8 +37,8 @@ The following matrix shows which roles can access which features.
 | Feature |  |   | Description | Insights Administrator | Insights Analyst | Insights Business Leader | People Manager<sup>1</sup>|
 |---|---|---|---|---|---|---|---|
 | Viva Insights app |  |   |   |   |   |   |   |
-|   |  | **My team**<sup>2</sup> | View Group insights about your   team in **My team**  |   |   |   | X |
-|   |  | **My organization**    | View highlights about your   organization in **My organization**  |   |   | X |   |
+|   |  | **Teamwork habits**<sup>2</sup> | View Group insights about your   team in **Teamwork habits**  |   |   |   | X |
+|   |  | **Organization trends**    | View highlights about your   organization in **Organization trends**  |   |   | X |   |
 | Viva Insights advanced insights app |  |   |   |   |   |     |   |
 |   |  | **Analysis** | Landing page for analysts. View recent queries, Power BI templates, and build custom queries.  |   | X |   |   |
 |   |  | **Query results** | View query results |   | X |   |   |
@@ -41,7 +48,7 @@ The following matrix shows which roles can access which features.
 
 <sup>1. People manager isn't technically a role that can be assigned. The Insights admin can enable them access to their Group insights through [Manager settings](./manager-settings.md) within the advanced insights app. </sup>
 
-<sup> 2. My team and its features are available to managers or team leads who have a Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](/viva/insights/personal/teams/viva-teams-app-admin-tasks) for details. </sup>
+<sup> 2. Teamwork habits and its features are available to users who have a premium Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](/viva/insights/personal/teams/viva-teams-app-admin-tasks) for details. </sup>
 
 <sup>3. Insights Analysts can't upload custom organizational data files.</sup>
 
@@ -53,7 +60,7 @@ The following table shows which roles can perform which tasks in Viva Insights.
 |---|---|---|---|---|---|
 | Configure privacy settings and manager settings | X | | | | |
 | Upload organizational data into the system | X | | | | |
-| Use the **My organization** page within the Viva Insights app  | | | X | | |
+| Use the **Organization trends** page within the Viva Insights app  | | | X | | |
 | Use the full set of analyst tools | | X | | | |
 | Use **Group insights** on the **My team** page within the Viva Insights app  | | | | X | |
 
