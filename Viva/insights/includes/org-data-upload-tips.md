@@ -30,7 +30,7 @@ The field values in data rows must comply with the following formatting rules:
 * The required PersonId and ManagerId field values must be a valid email address (for example, gc@contoso.com)
 * The TimeZone field values must be in a supported Windows format
 * The Layer field values must contain numbers only
-* The HourlyRate field values must contain numbers only, which the app assumes is in US dollars for calculations and data analysis
+* The HourlyRate field values must contain numbers only, which the app assumes are in US dollars for calculations and data analysis
 
 >[!Note]
 >The app does not currently perform currency conversions for HourlyRate data. All calculations and data analysis assumes the data to be in US dollars.
