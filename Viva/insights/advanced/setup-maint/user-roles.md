@@ -37,20 +37,17 @@ The following matrix shows which roles can access which features.
 | Feature |  |   | Description | Insights Administrator | Insights Analyst | Insights Business Leader | People Manager<sup>1</sup>|
 |---|---|---|---|---|---|---|---|
 | Viva Insights app |  |   |   |   |   |   |   |
-|   |  | **Teamwork habits**<sup>2</sup> | View Group insights about your   team in **Teamwork habits**  |   |   |   | X |
-|   |  | **Organization trends**    | View highlights about your   organization in **Organization trends**  |   |   | X |   |
+|   |  | **Organization trends** | View group insights about your team and highlights about your organization in **Organization trends**  |   |   |   | X |
 | Viva Insights advanced insights app |  |   |   |   |   |     |   |
 |   |  | **Analysis** | Landing page for analysts. View recent queries, Power BI templates, and build custom queries.  |   | X |   |   |
 |   |  | **Query results** | View query results |   | X |   |   |
-|   |  | **Organizational data** | Verify whether organizational data quality is high enough for analysis and upload custom organizational data files | X | X<sup>3</sup>|   |   |
+|   |  | **Organizational data** | Verify whether organizational data quality is high enough for analysis and upload custom organizational data files | X | X<sup>2</sup>|   |   |
 |   |  | **Privacy settings** | Manage privacy settings  | X |   |   |   |
-|   |  | **Manager settings** | Turn on/off group insights; select eligible managers for group insights | X |   |   |   |
+|   |  | **Manager settings** | Turn on/off group insights that appear in Organization trends; select eligible managers for group insights | X |   |   |   |
 
 <sup>1. People manager isn't technically a role that can be assigned. The Insights admin can enable them access to their Group insights through [Manager settings](./manager-settings.md) within the advanced insights app. </sup>
 
-<sup> 2. Teamwork habits and its features are available to users who have a premium Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](/viva/insights/personal/teams/viva-teams-app-admin-tasks) for details. </sup>
-
-<sup>3. Insights Analysts can't upload custom organizational data files.</sup>
+<sup>2. Insights Analysts can't upload custom organizational data files.</sup>
 
 ### Functional tasks
 
@@ -60,9 +57,8 @@ The following table shows which roles can perform which tasks in Viva Insights.
 |---|---|---|---|---|---|
 | Configure privacy settings and manager settings | X | | | | |
 | Upload organizational data into the system | X | | | | |
-| Use the **Organization trends** page within the Viva Insights app  | | | X | | |
+| Use the **Organization trends** page within the Viva Insights app  | | | X | X| |
 | Use the full set of analyst tools | | X | | | |
-| Use **Group insights** on the **My team** page within the Viva Insights app  | | | | X | |
 
 ### Levels of responsibility
 
@@ -72,7 +68,7 @@ People who access data with Viva Insights should ideally have previous experienc
 |---|---|---|---|---|
 | View personally identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization) | X | | | |
 | View de-identified, individual-level data: Organizational data (HR fields, such as level or organization) and Microsoft 365 data (metrics about collaboration and relationships) | | X | | |
-| View aggregated and de-identified Microsoft 365 data (metrics about collaboration time and relationships) | | X | | X (team only) |
+| View aggregated and de-identified Microsoft 365 data (metrics about collaboration time and relationships) | | X | X | X (team only) |
 
 ### Suggested personas
 
@@ -82,7 +78,7 @@ Consider the following personas when granting the different levels of access for
 | Persona | Administrator | Analyst | Insights Business Leader | People Manager |
 |---|---|---|---|---|
 | Administrator | X | | | |
-| Executive or business leader | | X | X | |
+| Executive or business leader | | X | X | X|
 | Analyst or data scientist | | X | | |
 | Group or team manager | | | | X |
 
