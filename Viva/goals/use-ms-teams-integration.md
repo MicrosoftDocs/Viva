@@ -22,14 +22,6 @@ description: "Learn how to track and update OKRs from within Microsoft Teams"
 
 Viva Goals in Microsoft Teams is your one stop shop for adding, updating and managing OKRs within Microsoft Teams. 
 
-In this article, you'll learn:
-- [How to manage your OKRs in Microsoft Teams](#manage-okrs-in-teams)
-- [How to view organization OKRs in Microsoft Teams](#view-org-okrs-in-teams)
-- [How to find OKRs in Microsoft Teams](#find-okrs-in-teams)
-- [How to add new objectives in Microsoft Teams](#add-objective-in-teams)
-- [How to add key results in Microsoft Teams](#add-krs-in-teams)
-- [How to perform OKR check-ins in Microsoft Teams](#check-ins-in-teams)
-
 <h2 id="manage-okrs-in-teams">How to manage your OKRs in Microsoft Teams</h2>
 
 The **My OKRs** tab shows the OKRs assigned to you. 
