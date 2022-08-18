@@ -47,7 +47,7 @@ The following matrix shows which roles can access which features.
 
 <sup>1. People Manager isn't technically a role that can be assigned. The Insights admin can enable them access to their Group insights through [Manager settings](./manager-settings.md) within the advanced insights app. </sup>
 
-<sup>2. People Managers can access group insights about their team. Insights Business Leaders can access insights about their company. People assigned both roles can access both insights about their team and their company. </sup>
+<sup>2. People Managers can access group insights about their team. Insights Business Leaders can access insights about their company. People assigned both roles can access insights about their team and their company. </sup>
 
 <sup>3. Insights Analysts can't upload custom organizational data files.</sup>
 
