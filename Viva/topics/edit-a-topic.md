@@ -44,10 +44,6 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
    ![Screenshot showing the Edit button.](../media/knowledge-management/edit-button.png) </br> 
 
-Knowledge managers can also edit topics directly from the **Manage topics** page by selecting the topic, and then selecting **Edit** in the toolbar.
-
-   ![Screenshot showing Edit topic on Manage topics page.](../media/knowledge-management/manage-topics-edit.png)
-
 ### To edit a topic page
 
 1. On the topic page, select **Edit**. This lets you make changes as needed to the topic page.
