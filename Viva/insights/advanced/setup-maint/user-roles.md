@@ -34,7 +34,7 @@ Two Viva Insights roles can be automatically inherited through a user's Global A
 
 The following matrix shows which roles can access which features.
 
-| Feature |  |   | Description | Insights Administrator | Insights Analyst | Insights Business Leader | People Manager<sup>1</sup>|
+| Feature |  |Page  | Description | Insights Administrator | Insights Analyst | Insights Business Leader | People Manager<sup>1</sup>|
 |---|---|---|---|---|---|---|---|
 | Viva Insights app |  |   |   |   |   |   |   |
 |   |  | **Organization trends** | Depending on your role<sup>2</sup>, view group insights about your team or highlights about your company in **Organization trends**.  |   |   |  X | X |
@@ -55,8 +55,8 @@ The following matrix shows which roles can access which features.
 
 The following table shows which roles can perform which tasks in Viva Insights.
 
-| Function | Insights Administrator | Insights Analyst | Insights Business Leader | People Manager | |
-|---|---|---|---|---|---|
+| Function | Insights Administrator | Insights Analyst | Insights Business Leader | People Manager | 
+|---|---|---|---|---|
 | Configure privacy settings and manager settings | X | | | | |
 | Upload organizational data into the system | X | | | | |
 | Use the **Organization trends** page within the Viva Insights app  | | | X | X| |
