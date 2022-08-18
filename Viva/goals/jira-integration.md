@@ -49,9 +49,9 @@ Admins follow these steps to enable integration:
 
 After you enable the integration, the first step is to configure a Jira connection:
 
--1. Select **New Connection**, and provide a name for the connection.
+1. Select **New Connection**, and provide a name for the connection.
     
-    :::image type="content" source="../media/goals/9/jira-new-connection-button.png" alt-text="Screenshot shows where you add new Jira connection in Viva Goals." lightbox="../media/goals/9/jira-new-connection-button.png":::
+   :::image type="content" source="../media/goals/9/jira-new-connection-button.png" alt-text="Screenshot shows where you add new Jira connection in Viva Goals." lightbox="../media/goals/9/jira-new-connection-button.png":::
 
 1. Add the **Server URL** of your Jira account.
     
