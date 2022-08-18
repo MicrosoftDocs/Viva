@@ -37,17 +37,19 @@ The following matrix shows which roles can access which features.
 | Feature |  |   | Description | Insights Administrator | Insights Analyst | Insights Business Leader | People Manager<sup>1</sup>|
 |---|---|---|---|---|---|---|---|
 | Viva Insights app |  |   |   |   |   |   |   |
-|   |  | **Organization trends** | View group insights about your team and highlights about your organization in **Organization trends**  |   |   |   | X |
+|   |  | **Organization trends** | Depending on your role<sup>2</sup>, view group insights about your team or highlights about your company in **Organization trends**.  |   |   |  X | X |
 | Viva Insights advanced insights app |  |   |   |   |   |     |   |
 |   |  | **Analysis** | Landing page for analysts. View recent queries, Power BI templates, and build custom queries.  |   | X |   |   |
 |   |  | **Query results** | View query results |   | X |   |   |
-|   |  | **Organizational data** | Verify whether organizational data quality is high enough for analysis and upload custom organizational data files | X | X<sup>2</sup>|   |   |
+|   |  | **Organizational data** | Verify whether organizational data quality is high enough for analysis and upload custom organizational data files | X | X<sup>3</sup>|   |   |
 |   |  | **Privacy settings** | Manage privacy settings  | X |   |   |   |
 |   |  | **Manager settings** | Turn on/off group insights that appear in Organization trends; select eligible managers for group insights | X |   |   |   |
 
-<sup>1. People manager isn't technically a role that can be assigned. The Insights admin can enable them access to their Group insights through [Manager settings](./manager-settings.md) within the advanced insights app. </sup>
+<sup>1. People Manager isn't technically a role that can be assigned. The Insights admin can enable them access to their Group insights through [Manager settings](./manager-settings.md) within the advanced insights app. </sup>
 
-<sup>2. Insights Analysts can't upload custom organizational data files.</sup>
+<sup>2. People Managers can access group insights about their team. Insights Business Leaders can access insights about their company. People assigned both roles can access both insights about their team and their company. </sup>
+
+<sup>3. Insights Analysts can't upload custom organizational data files.</sup>
 
 ### Functional tasks
 
