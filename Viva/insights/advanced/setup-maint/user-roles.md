@@ -29,7 +29,7 @@ The following matrix shows which roles can access which features.
 
 | Feature |  |   | Description | Insights Administrator | Insights Analyst | Insights Business Leader | People Manager<sup>1</sup>|
 |---|---|---|---|---|---|---|---|
-| Viva Insights app in Teams |  |   |   |   |   |   |   |
+| Viva Insights app |  |   |   |   |   |   |   |
 |   |  | **My team**<sup>2</sup> | View Group insights about your   team in **My team**  |   |   |   | X |
 |   |  | **My organization**    | View highlights about your   organization in **My organization**  |   |   | X |   |
 | Viva Insights advanced insights app |  |   |   |   |   |     |   |
@@ -53,9 +53,9 @@ The following table shows which roles can perform which tasks in Viva Insights.
 |---|---|---|---|---|---|
 | Configure privacy settings and manager settings | X | | | | |
 | Upload organizational data into the system | X | | | | |
-| Use the **My organization** page within the Viva Insights app in Teams | | | X | | |
+| Use the **My organization** page within the Viva Insights app  | | | X | | |
 | Use the full set of analyst tools | | X | | | |
-| Use **Group insights** on the **My team** page within the Viva Insights app in Teams | | | | X | |
+| Use **Group insights** on the **My team** page within the Viva Insights app  | | | | X | |
 
 ### Levels of responsibility
 
