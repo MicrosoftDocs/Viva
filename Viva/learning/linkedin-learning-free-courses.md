@@ -169,6 +169,6 @@ A selection of courses are available from LinkedIn Learning for free. This means
 |-----------|-----------|
 |团队沟通 |Business |
 |培养成长型思维 |Business |
-|中的团队合作 (Microsoft 365) |Business |
+|Office 365 中的团队合作 (Microsoft 365) |Business |
 |学习数据科学：用数据说话 |Tech|
 |学习数据科学：基础知识理解 |Tech|
