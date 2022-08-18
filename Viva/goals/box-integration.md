@@ -21,7 +21,7 @@ description: "Learn how to integrate your spreadsheets in Box with OKRs in Viva 
 
 # Box integration
 
-Viva Goals Box integration lets you update your objectives and key result (OKR) progress automatically by syncing your data from your spreadsheets in Box to your OKRs in Viva Goals. 
+Viva Goals Box integration lets you update your objective and key result (OKR) progress automatically by syncing your data from your spreadsheets in Box to your OKRs in Viva Goals. 
   
 When you link your objectives to the corresponding key performance indicator (KPIs) within spreadsheets in Box, the status of your OKR will be updated based on the data in your spreadsheets. Viva Goals automatically syncs the values for you and charts your progress toward the goal, thus saving time while keeping your OKRs current.
 
