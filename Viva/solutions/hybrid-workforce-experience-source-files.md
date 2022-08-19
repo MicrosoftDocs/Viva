@@ -16,7 +16,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Generate source files
+# Generate source files for the Hybrid workforce experience solution
 
 Before you can use the template, you’ll need to generate these source files:
 

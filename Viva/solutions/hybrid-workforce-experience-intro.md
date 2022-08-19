@@ -62,7 +62,7 @@ In addition to having the latest version of Power BI Desktop installed, you’ll
 
 ## Solution – create an OnsiteDays attribute and use the report
 
-To help you create the required OnsiteDays attribute, we’ve developed an automated template that draws from Azure Active Directory (AD) sign-in information. Setting up and using the template involves three steps, which we’ll describe in detail in separate articles:
+To help you create the required **OnsiteDays** attribute, we’ve developed an automated template that draws from Azure Active Directory (AD) sign-in information. Setting up and using the template involves three steps, which we’ll describe in detail in separate articles:
 
 1. **Prepare two source files:** <!--link to article-->
     * Event log from Azure Active Directory (AD)
@@ -70,5 +70,17 @@ To help you create the required OnsiteDays attribute, we’ve developed an autom
 2. **Transform data:** Use the Excel template to determine **Onsite days**. <!--link to article-->
 3. **Use the Hybrid workforce experience report:** <!--link to article--> Use Viva Insights Hybrid workforce experience template to understand your company’s hybrid work patterns and how hybrid work impacts employees differently.
 
+### Assumptions
+
+This solution makes the following assumptions about your licenses and connection environment:
+
+* You’ve already assigned Viva insights licenses and are using Azure AD, including using it to access Office 365. 
+* The connection between a device (PC, mobile device) and Azure Active directory is configured to differentiate between being connected in the office and being connected on a VPN outside of the office. A few configurations allow that differentiation, like these:
+* VPN split tunneling for Azure AD
+* The VPN users would have a different NAT IP address than office users.
+* When an employee is onsite, they’re not using a VPN. 
+* You’ve documented the gateway IPs of all office locations and the time zone for each location. This documentation will be used to define the times and days employees work onsite in different locations.
+
+
 > [!div class="nextstepaction"]
-> [Next up: Prepare source files](hybrid-workforce-experience-intro.md)
+> [Next up: Prepare source files](hybrid-workforce-experience-source-files.md)
