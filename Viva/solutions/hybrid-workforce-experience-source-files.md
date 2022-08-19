@@ -36,7 +36,7 @@ To generate event logs and download them as .csvs:
 
 Your output file will resemble the following image:
 
-![Screenshot that shows the Download Sign-ins in CSV format pane.](./images/hwfe-csv-output1.png)
+![Screenshot that shows the .csv output page.](./images/hwfe-csv-output1.png)
 
 ## About Azure Active Directory sign-ins 
 
@@ -64,5 +64,5 @@ For the:
 >
 >For example, the **TimeZoneData** sheet has “EST” for Eastern Standard Time (North America). If you update the **TimeZone** value to “ET” instead of “EST,” the results would be inaccurate.
 >
->![Screenshot that shows the TimeZoneData sheet](./images/hwfe-ipaddresses-timezone.png)
+>![Screenshot that shows the TimeZoneData sheet](./images/hwfe-ipaddresses-timezone1.png)
 
