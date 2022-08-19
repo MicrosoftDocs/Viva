@@ -23,7 +23,7 @@ A growing set of learning content providers is available through Viva Learning. 
 
 Some learning sources are enabled by default and available without a Viva Suite or Viva Learning license. These learning sources include:
 
-- LinkedIn Learning select 125 courses or
+- LinkedIn Learning select 125 courses or full LinkedIn Learning course catalog with a LinkedIn Learning Enterprise subscription
 - Microsoft Learn
 - Microsoft 365 Training
 
