@@ -64,7 +64,7 @@ In addition to having the latest version of Power BI Desktop installed, you’ll
 
 To help you create the required **OnsiteDays** attribute, we’ve developed an automated template that draws from Azure Active Directory (AD) sign-in information. Setting up and using the template involves three steps, which we’ll describe in detail in separate articles:
 
-1. **Prepare two source files:** <!--link to article-->
+1. **[Prepare two source files](./hybrid-workforce-experience-source-files.md):** <!--link to article-->
     * Event log from Azure Active Directory (AD)
     * List of office IP addresses
 2. **Transform data:** Use the Excel template to determine **Onsite days**. <!--link to article-->
@@ -80,7 +80,6 @@ This solution makes the following assumptions about your licenses and connection
 * The VPN users would have a different NAT IP address than office users.
 * When an employee is onsite, they’re not using a VPN. 
 * You’ve documented the gateway IPs of all office locations and the time zone for each location. This documentation will be used to define the times and days employees work onsite in different locations.
-
 
 > [!div class="nextstepaction"]
 > [Next up: Prepare source files](hybrid-workforce-experience-source-files.md)

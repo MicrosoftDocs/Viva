@@ -18,10 +18,14 @@ audience: Admin
 
 # Generate source files for the Hybrid workforce experience solution
 
-Before you can use the template, you’ll need to generate these source files:
+In this article, you'll:
 
-* Interactive and non-interactive event logs from Azure AD (as .csv)
-* List of office IP addresses
+> [!div class="checklist"]
+>
+> * Download interactive and non-interactive event logs from Azure AD  as .csv files.
+> * Create an office IP address list. 
+
+## Event logs
 
 To generate event logs and download them as .csvs:
 
@@ -38,11 +42,11 @@ Your output file will resemble the following image:
 
 ![Screenshot that shows the .csv output page.](./images/hwfe-csv-output1.png)
 
-## About Azure Active Directory sign-ins 
+### About Azure Active Directory sign-ins 
 
 While this solution only requires you to download the sign-in files detailed earlier, here’s some background information about Azure AD sign-ins:
 
-* Interactive and non-interactive sign-ins: When a user signs in to any application configured for Azure AD (for example, Office or Teams), a sign-in event is logged. That event is an “interactive” sign-in and can be accessed under User sign-ins (interactive) in Azure. As long as the user leaves that application open, a refresh-token event is logged every 60-90 minutes. That refresh-token event is a “non-interactive” sign-in and can be accessed under User sign-ins (non-interactive) in Azure.
+* Interactive and non-interactive sign-ins: When a user signs in to any application configured for Azure AD (for example, Office or Teams), a sign-in event is logged. That event is an “interactive” sign-in and can be accessed under **User sign-ins (interactive)** in Azure. As long as the user leaves that application open, a refresh-token event is logged every 60-90 minutes. That refresh-token event is a “non-interactive” sign-in and can be accessed under **User sign-ins (non-interactive)** in Azure.
 * You can configure the lifetime of the access token.
 * You can access sign-in events that are up to 30 days old and export them as .json or .csv files.
 
@@ -66,3 +70,5 @@ For the:
 >
 >![Screenshot that shows the TimeZoneData sheet](./images/hwfe-ipaddresses-timezone1.png)
 
+> [!div class="nextstepaction"]
+> [Next up: Transform data](hybrid-workforce-experience-source-files.md)
