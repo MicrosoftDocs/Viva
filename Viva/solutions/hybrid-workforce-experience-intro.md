@@ -18,13 +18,13 @@ audience: Admin
 
 # Hybrid workforce experience report Onsite days solution
 
-With this solution, you'll:
+By following the steps in this solution, you'll:
 
 > [!div class="checklist"]
 >
 > * Create an **OnsiteDays** attribute, which is required to use the Hybrid workforce experience Power BI template.
 
-In this article, you'll:
+In this introductory article, you'll:
 
 > [!div class="checklist"]
 >
@@ -39,7 +39,7 @@ Before the COVID-19 pandemic, the business world mostly worked onsite, and workp
 
 So, what should businesses do to prepare for a more permanent hybrid employee workforce? First, before starting any planning and strategizing, really understand how hybrid work affects their employees. That’s where the Hybrid employee experience report from Microsoft Viva Insights comes in.
 
-### Report overview
+### Overview of the report
 
 Using data-driven insights, the Hybrid employee experience report helps leaders quickly sum up how hybrid work affects employees in different work modes (onsite, remote, or hybrid) in the following six ways:
 
@@ -56,21 +56,32 @@ Then, using information from these six categories, the report provides guidance 
 
 In addition to having the latest version of Power BI Desktop installed, you’ll need to upload three attributes as part of your HR data before you can start using the Hybrid workforce experience report:
 
-* **OnsiteDays** – The number of days per week an employee works from the company’s main worksite. This attribute can be based on badge data, wireless network data, or other sources—for example, tags in the HR system showing the number of days an employee plans to work onsite. This solution helps you create an OnsiteDays attribute.
+* **OnsiteDays** – The number of days per week an employee works from the company’s main worksite. This attribute can be based on badge data, wireless network data, or other sources—for example, tags in the HR system showing the number of days an employee plans to work onsite. This solution helps you create an **OnsiteDays** attribute.
 * **SupervisorIndicator** – Indicates whether someone is a manager.
 * **HireDate** – The day someone was hired. This attribute enables the New hire onboarding insights.
 
-## Solution – create an OnsiteDays attribute and use the report
+## Overview of the solution
 
-To help you create the required **OnsiteDays** attribute, we’ve developed an automated template that draws from Azure Active Directory (AD) sign-in information. Setting up and using the template involves three steps, which we’ll describe in detail in separate articles:
+![Screenshot that shows Azure Active Directory option highlighted under Azure services.](./images/hwfe-diagram.png)
 
-1. **[Prepare two source files](./hybrid-workforce-experience-source-files.md):** <!--link to article-->
+To help you create the required **OnsiteDays** attribute, we’ve developed an automated template that draws from Azure Active Directory (AD) sign-in information. 
+
+This solution involves four components:
+
+* Azure AD
+* Excel
+* Viva Insights
+* Power BI
+
+### How it all works
+
+1. **Prepare two source files:**
     * Event log from Azure Active Directory (AD)
     * List of office IP addresses
-2. **Transform data:** Use the Excel template to determine **Onsite days**. <!--link to article-->
-3. **Use the Hybrid workforce experience report:** <!--link to article--> Use Viva Insights Hybrid workforce experience template to understand your company’s hybrid work patterns and how hybrid work impacts employees differently.
+2. **Transform data:** Use the Excel template to determine **Onsite days**.
+3. **Use the Hybrid workforce experience report:**  Use Viva Insights Hybrid workforce experience template to understand your company’s hybrid work patterns and how hybrid work impacts employees differently.
 
-### Assumptions
+### Licensing and connection requirements
 
 This solution makes the following assumptions about your licenses and connection environment:
 
@@ -80,6 +91,16 @@ This solution makes the following assumptions about your licenses and connection
 * The VPN users would have a different NAT IP address than office users.
 * When an employee is onsite, they’re not using a VPN. 
 * You’ve documented the gateway IPs of all office locations and the time zone for each location. This documentation will be used to define the times and days employees work onsite in different locations.
+
+## Create the solution
+
+In the next sections, we'll describe how to configure your Hybrid workforce experience report solution.
+
+[Step 1. Generate source files](hybrid-workforce-experience-source-files.md)
+
+[Step 2. Use the automated OnsiteDays template](hybrid-workforce-experience-template.md)
+
+[Step 3. Use the Hybrid workforce experience Power BI template](../insights/Tutorials/hybrid-workforce-experience.md)
 
 > [!div class="nextstepaction"]
 > [Next up: Prepare source files](hybrid-workforce-experience-source-files.md)

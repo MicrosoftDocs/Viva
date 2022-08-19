@@ -16,9 +16,9 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Hybrid workforce experience report Onsite days solution – generate source files
+# Step 1. Generate source files
 
-In this article, you'll:
+In this step of the Hybrid workforce experience OnsiteDays solution, you'll:
 
 > [!div class="checklist"]
 >

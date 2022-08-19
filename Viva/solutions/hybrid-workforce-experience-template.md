@@ -16,7 +16,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Hybrid workforce experience report Onsite days solution – use the automated OnsiteDays template
+# Step 2. Use the automated OnsiteDays template
 
 In this article, you'll:
 
