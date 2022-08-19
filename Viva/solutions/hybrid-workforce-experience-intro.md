@@ -63,3 +63,6 @@ As mentioned earlier, this solution helps you create an OnsiteDays attribute. Th
     * List of office IP addresses
 2. **Transform data:** Use an Excel template to determine **Onsite days**. <!--link to article-->
 3. **Use the Hybrid workforce experience report:** <!--link to article--> Use Viva Insights Hybrid workforce experience template to understand your company’s hybrid work patterns and how hybrid work impacts employees differently.
+
+> [!div class="nextstepaction"]
+> [Next up: Prepare source files](hybrid-workforce-experience-intro.md)
