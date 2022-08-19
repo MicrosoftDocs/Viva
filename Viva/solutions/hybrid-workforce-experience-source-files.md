@@ -16,14 +16,14 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Generate source files for the Hybrid workforce experience solution
+# Hybrid workforce experience report Onsite days solution – generate source files
 
 In this article, you'll:
 
 > [!div class="checklist"]
 >
 > * Download interactive and non-interactive event logs from Azure AD  as .csv files.
-> * Create an office IP address list. 
+> * Create an office IP address list.
 
 ## Event logs
 
@@ -71,4 +71,4 @@ For the:
 >![Screenshot that shows the TimeZoneData sheet](./images/hwfe-ipaddresses-timezone1.png)
 
 > [!div class="nextstepaction"]
-> [Next up: Transform data](hybrid-workforce-experience-source-files.md)
+> [Next up: Transform data](hybrid-workforce-experience-template.md)
