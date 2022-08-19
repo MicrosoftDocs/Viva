@@ -62,12 +62,12 @@ In addition to having the latest version of Power BI Desktop installed, you’ll
 
 ## Solution – create an OnsiteDays attribute and use the report
 
-As mentioned earlier, this solution helps you create an OnsiteDays attribute. This process includes three steps, which we’ll describe in detail:
+To help you create the required OnsiteDays attribute, we’ve developed an automated template that draws from Azure Active Directory (AD) sign-in information. Setting up and using the template involves three steps, which we’ll describe in detail in separate articles:
 
 1. **Prepare two source files:** <!--link to article-->
     * Event log from Azure Active Directory (AD)
     * List of office IP addresses
-2. **Transform data:** Use an Excel template to determine **Onsite days**. <!--link to article-->
+2. **Transform data:** Use the Excel template to determine **Onsite days**. <!--link to article-->
 3. **Use the Hybrid workforce experience report:** <!--link to article--> Use Viva Insights Hybrid workforce experience template to understand your company’s hybrid work patterns and how hybrid work impacts employees differently.
 
 > [!div class="nextstepaction"]
