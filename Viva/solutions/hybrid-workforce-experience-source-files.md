@@ -71,4 +71,4 @@ For the:
 >![Screenshot that shows the TimeZoneData sheet](./images/hwfe-ipaddresses-timezone1.png)
 
 > [!div class="nextstepaction"]
-> [Next up: Transform data](hybrid-workforce-experience-template.md)
+> [Next up: Use the automated OnsiteDays template](hybrid-workforce-experience-template.md)
