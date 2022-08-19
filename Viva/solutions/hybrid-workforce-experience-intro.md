@@ -18,12 +18,18 @@ audience: Admin
 
 # Hybrid workforce experience report Onsite days solution
 
-What you'll learn:
+With this solution, you'll:
 
 > [!div class="checklist"]
 >
-> * How to create an **OnsiteDays** attribute, which is required to use the Hybrid workforce experience Power BI template
-> * What the Hybrid workforce experience report from Microsoft Viva Insights does and how it can help your organization as it transitions to hybrid working modes
+> * Create an **OnsiteDays** attribute, which is required to use the Hybrid workforce experience Power BI template.
+
+In this article, you'll:
+
+> [!div class="checklist"]
+>
+> * Learn what the Hybrid workforce experience report from Microsoft Viva Insights does and how it can help your organization as it transitions to hybrid working modes.
+> * Get an overview of the solution and which steps you'll need to complete.
 
 ## Background
 
