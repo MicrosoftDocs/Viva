@@ -18,7 +18,7 @@ audience: Admin
 
 # Step 2. Use the automated OnsiteDays template
 
-In this article, you'll:
+In this step of the Hybrid workforce experience OnsiteDays solution, you'll:
 
 > [!div class="checklist"]
 >
