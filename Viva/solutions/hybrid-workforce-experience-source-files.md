@@ -56,7 +56,7 @@ This article provides a more in-depth look at sign-in logs: [Sign-in logs in Azu
 
 The next source file to create is the office IP address list. You’ll need to generate a list of office IP addresses and include the time zone associated with each IP address. 
 
-Here is a two-column sample file, which you can download, update with your data, and use in the template described later in this article. 
+Here is a two-column [sample file](https://github.com/microsoft/VivaSolutions/blob/main/Sample Solutions/HW_OnsiteDays/IpAddresses.xlsx), which you can download, update with your data, and use in the template described later in this article. 
 
 For the:
 

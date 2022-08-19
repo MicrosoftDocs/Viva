@@ -87,7 +87,7 @@ This solution makes the following assumptions about your licenses and connection
 
 * You’ve already assigned Viva insights licenses and are using Azure AD, including using it to access Office 365. 
 * The connection between a device (PC, mobile device) and Azure Active directory is configured to differentiate between being connected in the office and being connected on a VPN outside of the office. A few configurations allow that differentiation, like these:
-* VPN split tunneling for Azure AD
+* [VPN split tunneling](/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel) for Azure AD
 * The VPN users would have a different NAT IP address than office users.
 * When an employee is onsite, they’re not using a VPN. 
 * You’ve documented the gateway IPs of all office locations and the time zone for each location. This documentation will be used to define the times and days employees work onsite in different locations.
