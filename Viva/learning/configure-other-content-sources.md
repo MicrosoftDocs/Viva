@@ -21,9 +21,9 @@ description: Learn how to configure other content providers as a learning conten
 
 A growing set of learning content providers is available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
 
-Some learning sources are enabled by default and available without a premium Viva Learning license. These learning sources include:
+Some learning sources are enabled by default and available without a Viva Suite or Viva Learning license. These learning sources include:
 
-- LinkedIn Learning select 125 courses
+- LinkedIn Learning select 125 courses or
 - Microsoft Learn
 - Microsoft 365 Training
 
