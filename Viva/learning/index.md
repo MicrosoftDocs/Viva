@@ -1,5 +1,5 @@
 ---
-to Microsoft Viva Learning
+title: Introduction to Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
