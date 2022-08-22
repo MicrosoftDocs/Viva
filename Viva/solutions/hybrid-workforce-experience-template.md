@@ -18,7 +18,7 @@ audience: Admin
 
 # Step 2. Use the automated OnsiteDays template
 
-In this step of the Hybrid workforce experience OnsiteDays solution, you'll:
+In this step of the Hybrid workforce experience report OnsiteDays solution, you'll:
 
 > [!div class="checklist"]
 >
@@ -29,19 +29,17 @@ Now that you’ve prepared your source files, you’re ready to start using the 
 
 ## Template structure
 
-The template contains the following sheets: 
+The template contains the following sheets:
 
-* **Inputs**: This sheet accepts the source files required to generate **OnsiteDays** for each user. You’ll upload the required .csv files here, as described in the next section.
+|  | Sheet | Description | Action required? |
+|---|---|---|---|
+|  | **Inputs** | Accepts the source files<sup>1</sup> required to generate **OnsiteDays** for each user. You’ll upload the required .csv files here, as described in the next section. | [Yes](#upload-files) |
+|  | **Final Report** | Provides the data with **PersonID**, **EffectiveDate**, and **OnsiteDays** attributes, which you'll either upload to Viva Insights or append to an existing organizational data file. | No |
+|  | **Database** | Performs all the transformations required to determine **OnsiteDays** from interactive and non-interactive .csv file data you upload in the **Inputs** sheet. | No | 
+|  | **IP Addresses** | Populates the data from the IP address file<sup>1</sup> you upload in the **Inputs** sheet. | No |
+|  | **TimeZoneData** | Populates with the metadata of all the time zones and offsets, which is used to convert UTC datetime to users’ local datetime. This data is then used to transform dates in the **Database** sheet. | No |
 
-    [Creating source files](hybrid-workforce-experience-source-files.md) provides guidance on creating the Azure event log files.
-
-* **Final Report**: This sheet provides the data with **PersonID**,**EffectiveDate**, and **OnsiteDays** attributes, which you'll either upload or append to an existing organizational data file. You don’t need to perform any actions in this sheet.
-
-* **Database**: This sheet performs all the transformations required to determine **OnsiteDays** from interactive and non-interactive .csv file data you upload in the **Inputs** sheet. You don’t need to perform any actions in this sheet.
-
-* **IP Addresses**: This sheet populates the data from the IP address file you upload in the Inputs sheet. You don’t need to perform any actions in this sheet.
-
-* **TimeZoneData**: This sheet auto-populates with the metadata of all the time zones and offsets, which is used to convert UTC datetime to users’ local datetime. This data is used to transform dates in database sheet. You don’t need perform any actions in this sheet.
+<sup> 1. [Step 1. Generate source files](hybrid-workforce-experience-source-files.md) provides guidance on creating the Azure AD event log and IP address files.</sup>
 
 ## How to use the template
 
@@ -54,21 +52,20 @@ The template contains the following sheets:
 3. On the **Inputs** sheet:
     1. In **InteractiveSignins** section, upload the interactive event log .csv files generated from Azure AD.
     1. In the **NonInteractiveSignins** section, upload the non-interactive event log .csv files generated from Azure AD.
-    1. In the **IP Address** section, upload the IP addresses list.
+    1. In the **IP Address** section, upload the IP addresses list you created.
 
-    ![Screenshot that shows the Inputs page with Interactive, Noninteractive, and IP Address highlighted on the field label and within the file names.](./images/hwfe-inputs-a-b-c.png)
-
+    ![Screenshot that shows the Inputs page with Interactive, Noninteractive, and IP Address highlighted on the field label and within the file names.](./images/hwfe-inputs-a-b-c1.png)
 
     >[!Important]
-    > Don’t alter any columns or attributes that are downloaded from Azure AD.
-    
-#### About file names 
+    > Don’t alter any columns or attributes downloaded from Azure AD.
 
-Each file name needs to include the keyword that’s underlined in the file attribute field, beneath “Inputs.” Including the right keyword makes sure the correct file is being uploaded. Failing to comply with this naming standard will result in a wrong-file error. Specifically:
+#### About file names
 
-* **InteractiveSignIns**: This field accepts the interactive sign-in .csv file you generated in Creating source files. Make sure the file name contains the underlined keyword, which is “Interactive.” 
+Each file name needs to include the keyword that’s underlined in the file attribute field, beneath “Inputs.” Including the right keyword makes sure you're uploading the correct file. Failing to comply with this naming standard will result in a wrong-file error. Specifically:
+
+* **InteractiveSignIns**: This field accepts the interactive sign-in .csv file you generated in [Creating source files](hybrid-workforce-experience-source-files.md). Make sure the file name contains the underlined keyword, which is “Interactive.” 
 * **NonInteractiveSignins**: This field accepts the non-interactive sign-in .csv file you generated in [Creating source files](hybrid-workforce-experience-source-files.md). Make sure the file name contains the underlined keyword, which is “NonInteractive.”
-* **IP Address**: This field accepts the list of office IP addresses you generated in Creating source files. Make sure the file name has underlined keyword, which is “Address.”
+* **IP Address**: This field accepts the list of office IP addresses you generated in [Creating source files](hybrid-workforce-experience-source-files.md). Make sure the file name has underlined keyword, which is “Address.”
 
     ![Screenshot that shows the Inputs page with Interactive, Noninteractive, and IP Address highlighted on the field label and within the file names.](./images/hwfe-inputs.png)
 

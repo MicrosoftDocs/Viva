@@ -18,7 +18,7 @@ audience: Admin
 
 # Step 1. Generate source files
 
-In this step of the Hybrid workforce experience OnsiteDays solution, you'll:
+In this step of the Hybrid workforce experience report OnsiteDays solution, you'll:
 
 > [!div class="checklist"]
 >
@@ -27,7 +27,7 @@ In this step of the Hybrid workforce experience OnsiteDays solution, you'll:
 
 ## Event logs
 
-The first source files you'll need to generate are event logs. which need to be downloaded as .csvs. To do so:
+The first source files you'll need to generate are event logs, which need to be downloaded as .csvs. To do so:
 
 1. Sign in to the [Azure portal](https://portal.azure.com/#home) and navigate to Azure AD.
 

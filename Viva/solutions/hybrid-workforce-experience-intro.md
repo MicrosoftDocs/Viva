@@ -29,7 +29,7 @@ In this introductory article, you'll:
 > [!div class="checklist"]
 >
 > * Learn what the Hybrid workforce experience report from Microsoft Viva Insights does and how it can help your organization as it transitions to hybrid working modes.
-> * Get an overview of the solution and which steps you'll need to complete.
+> * Get an overview of the solution and the steps you'll need to complete.
 
 ## Background
 
