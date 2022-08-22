@@ -26,29 +26,6 @@ Viva Engage is a new employee experience that connects people across the company
 <iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-With Viva Engage you can:
-
-**Connect** people across the company to strengthen professional relationships and build social capital.
-
-- Remote work makes it difficult to nurture the social fabric of an organization. 43% of leaders believe relationship-building is the single biggest challenge of remote work.
-
-**Build** communities that support diversity, shared interests, and business initiatives.
-
-- Communities connect people based on interests, topics, roles, and experiences, give people a sense of belonging and empower the organization to reach and engage employees at scale.
-**Spark** engagement between leaders and employees to amplify vision and shape culture.
-
- - Leaders want better ways to reach, inspire and activate people. Employees want clarity of purpose and to participate in the mission. Foster communications, listening and dialogue at scale.
-
-**Exchange** knowledge, find answers, and crowdsource ideas.
-
- - When you connect people across working groups and business silos, you harness the power of diverse experiences and perspectives to solve problems, amplify best practices, and accelerate innovation.
- 
-**Activate** people to contribute their experience and expertise.
-
- - When people are connected, they know where they can contribute. When they’re included, they know their contribution matters. When they’re invested, they want to contribute. Empowered, they can. Activated, they do.
-
-**By connecting people to openly share, engage in communities, ideate, problem solve, and contribute across organizational boundaries, Viva Engage empowers people to have a voice, to connect with coworkers and leaders, and to contribute their best.**
-
 ## Availability
 
 Viva Engage will be available as an Microsoft Teams app. This means that you can use Viva Engage through Microsoft Teams from a desktop web browser, in Windows, Mac, iOS, or Android device.
