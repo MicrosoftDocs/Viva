@@ -27,7 +27,7 @@ In this step of the Hybrid workforce experience OnsiteDays solution, you'll:
 
 ## Event logs
 
-To generate event logs and download them as .csvs:
+The first source files you'll need to generate are event logs. which need to be downloaded as .csvs. To do so:
 
 1. Sign in to the [Azure portal](https://portal.azure.com/#home) and navigate to Azure AD.
 
@@ -54,9 +54,9 @@ This article provides a more in-depth look at sign-in logs: [Sign-in logs in Azu
 
 ## Office IP addresses list
 
-The next source file to create is the office IP address list. You’ll need to generate a list of office IP addresses and include the time zone associated with each IP address. 
+The next source file you need to create is the office IP address list. You’ll need to generate a list of office IP addresses and include the time zone associated with each IP address. 
 
-Here is a two-column [sample file](https://github.com/microsoft/VivaSolutions/blob/main/Sample Solutions/HW_OnsiteDays/IpAddresses.xlsx), which you can download, update with your data, and use in the template described later in this article. 
+Here is a two-column [sample file](https://github.com/microsoft/VivaSolutions/blob/main/Sample%20Solutions/HW_OnsiteDays/IpAddresses.xlsx), which you can download, update with your data, and use in the template described later in this article. 
 
 For the:
 

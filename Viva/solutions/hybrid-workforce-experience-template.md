@@ -22,10 +22,10 @@ In this step of the Hybrid workforce experience OnsiteDays solution, you'll:
 
 > [!div class="checklist"]
 >
->* Learn how the OnsiteDays Excel template is organized and what it contains.
+>* Learn how the OnsiteDays Excel template is organized and what information it contains.
 >* Use the OnsiteDays Excel template to generate the **OnsiteDays** attribute.
 
-Now that you’ve prepared your source files, you’re ready to start using the template. In this section, we’ll discuss what the template contains and how to use it. You can download the template [here](https://github.com/microsoft/VivaSolutions/blob/main/Sample%20Solutions/HW_OnsiteDays/HW_OnsiteDaysTemplate.xlsb). 
+Now that you’ve prepared your source files, you’re ready to start using the template. You can download the template [here](https://github.com/microsoft/VivaSolutions/blob/main/Sample%20Solutions/HW_OnsiteDays/HW_OnsiteDaysTemplate.xlsb). 
 
 ## Template structure
 
@@ -35,7 +35,7 @@ The template contains the following sheets:
 
     [Creating source files](hybrid-workforce-experience-source-files.md) provides guidance on creating the Azure event log files.
 
-* **Final Report**: This sheet provides the data with **PersonID**,**EffectiveDate**, and **OnsiteDays** attributes, which will be either uploaded or appended to an existing organizational data file. You don’t need to perform any actions in this sheet.
+* **Final Report**: This sheet provides the data with **PersonID**,**EffectiveDate**, and **OnsiteDays** attributes, which you'll either upload or append to an existing organizational data file. You don’t need to perform any actions in this sheet.
 
 * **Database**: This sheet performs all the transformations required to determine **OnsiteDays** from interactive and non-interactive .csv file data you upload in the **Inputs** sheet. You don’t need to perform any actions in this sheet.
 
@@ -51,7 +51,13 @@ The template contains the following sheets:
 
 ### Upload files
 
-3. In the **Inputs** sheet, in their respective file attributes section, upload the .csv files for the interactive and non-interactive event logs generated from Azure AD, as well as the IP addresses list.
+3. On the **Inputs** sheet:
+    1. In **InteractiveSignins** section, upload the interactive event log .csv files generated from Azure AD.
+    1. In the **NonInteractiveSignins** section, upload the non-interactive event log .csv files generated from Azure AD.
+    1. In the **IP Address** section, upload the IP addresses list.
+
+    ![Screenshot that shows the Inputs page with Interactive, Noninteractive, and IP Address highlighted on the field label and within the file names.](./images/hwfe-inputs-a-b-c.png)
+
 
     >[!Important]
     > Don’t alter any columns or attributes that are downloaded from Azure AD.
