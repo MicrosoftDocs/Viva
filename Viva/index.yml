@@ -124,7 +124,7 @@ productDirectory:
           text: Get started
         - url: https://support.microsoft.com/office/930c86f1-e1e2-4e45-a66a-ce8faca71a21
           text: End user help
-        - url: https://adoption.microsoft.com/yammer/#viva-engage
+        - url: https://aka.ms/VivaEngage/Resources
           text: Adoption resources
     
     # Card
