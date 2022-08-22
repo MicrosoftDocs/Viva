@@ -115,8 +115,10 @@ We'll show how to preinstall the app for a specific group of users. If you want 
 
        :::image type="content" source="../media/goals/5/group-policies-list.png" alt-text="Screenshot that shows how to view the assignment under Group Policy Assignment." lightbox="../media/goals/5/group-policies-list.png":::
 
-    > [!Note:]
+
+    > [!Note]
     > The policy can take some time to kick in. You can check this by going to the Activity Log and seeing if the policy application was complete.
+
       
       :::image type="content" source="../media/goals/5/activity-log.png" alt-text="Screenshot that shows how to check the completion of policy application in Activity log." lightbox="../media/goals/5/activity-log.png":::
       

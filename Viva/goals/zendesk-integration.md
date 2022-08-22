@@ -25,7 +25,7 @@ Viva Goals Zendesk integration lets you link objectives and key results (OKRs) t
     
 Let's consider this example: You have an objective to increase the customer satisfaction rate this quarter. You can implement a Zendesk integration to save yourself the hassle of going back and forth between Zendesk and Viva Goals to update progress. Viva Goals will sync values for you, saving time and keeping your OKRs current.
 
-## How to set up the Zendesk integration
+## How to set up Zendesk integration
 
 1. Go to the Viva Goals integrations page:  **Admin** > **Integrations**.
     

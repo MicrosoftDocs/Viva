@@ -25,7 +25,7 @@ The Viva Goals Domo integration allows automated real-time tracking of OKR progr
   
 Let's consider this example: You use Domo cards to visualize your Sales team's close rate: Quarter-to-date (QTD) versus Goal. By configuring a Domo integration and setting up a data link within Viva Goals, you can save the hassle of reinventing the wheel by connecting to other source sales systems, if all data integrations, aggregations and key performance indicator (KPI) visualizations have already been implemented within Domo. Viva Goals will automatically update OKR progress, which saves you time and brings all your data and progress in one place. 
   
-## How to enable the Domo integration
+## How to enable Domo integration
 
 A Viva Goals admin can follow these steps to enable the Domo Integration: 
 

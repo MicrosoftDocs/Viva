@@ -25,7 +25,7 @@ The Viva Goals Smartsheet integration lets you link objectives and key results (
 
 ## Setup
 
-1. God to the Viva Goals’ integrations page:  **Admin** > **Integrations**.
+1. Go to the Viva Goals’ integrations page:  **Admin** > **Integrations**.
     
     :::image type="content" source="../media/goals/9/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/9/viva-goals-integrations-page.png":::
 
@@ -50,7 +50,7 @@ The Viva Goals Smartsheet integration lets you link objectives and key results (
     
     :::image type="content" source="../media/goals/9/smartsheet-disable-button.png" alt-text="Screenshot shows where you disable Smartsheet in Viva Goals." lightbox="../media/goals/9/smartsheet-disable-button.png":::
 
-## How to use the Smartsheet integration
+## How to use Smartsheet integration
 
 Now that the integration is enabled, your team can link a Smartsheet cell with an OKR.
 

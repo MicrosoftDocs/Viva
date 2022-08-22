@@ -47,15 +47,15 @@ Admins follow these steps to enable this integration:
 
 After you enable the integration, the first step is to configure a MySQL connection:
 
-2. Select **New Connection**, and provide a **Connection Name**.
+1. Select **New Connection**, and provide a **Connection Name**.
   
     :::image type="content" source="../media/goals/10/mysql-new-connection-button.png" alt-text="Screenshot shows where you add a new MySQL connection in Viva Goals." lightbox="../media/goals/10/mysql-new-connection-button.png"::: 
 
-3. Provide the **Hostname/IP address** of the database server and the **Port** number that the server is listening on.
+1. Provide the **Hostname/IP address** of the database server and the **Port** number that the server is listening on.
   
     :::image type="content" source="../media/goals/10/mysql-configure-new-connection.png" alt-text="Screenshot shows where you configure a new MySQL connection in Viva Goals." lightbox="../media/goals/10/mysql-configure-new-connection.png":::
 
-4. Enter **User** and **Password** details. Following authentication, the associated databases will be populated automatically. Select your **Database** from the dropdown menu.
+1. Enter **User** and **Password** details. Following authentication, the associated databases will be populated automatically. Select your **Database** from the dropdown menu.
 
 1. Optionally, share this connection with other users in the organization. 
 

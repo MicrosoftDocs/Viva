@@ -31,17 +31,17 @@ For example, say you use Azure DevOps to track the status of issues, and you hav
 
 Admins can follow these steps to enable this integration: 
 
-- In the sidebar, select on **Admin** and then select the **Integrations** tab. 
+1. In the sidebar, select on **Admin** and then select the **Integrations** tab. 
 
    :::image type="content" source="../media/goals/6/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/6/viva-goals-integrations-page.png":::
 
 1.  Under Azure DevOps, you can **enable** the integration. If a connection was made previously or if the integration was already enabled, you'll see the option to **Manage** the integration. 
 
-   :::image type="content" source="../media/goals/6/azure-devops-enable-button.png" alt-text="Enabling Azure DevOps in Viva Goals." lightbox="../media/goals/6/azure-devops-enable-button.png":::
+    :::image type="content" source="../media/goals/6/azure-devops-enable-button.png" alt-text="Enabling Azure DevOps in Viva Goals." lightbox="../media/goals/6/azure-devops-enable-button.png":::
 
-To dispable the integration from the same section, select **Change** and then select **Disable integration** from the dropdown.
+    To dispable the integration from the same section, select **Change** and then select **Disable integration** from the dropdown.
 
-  :::image type="content" source="../media/goals/6/azure-devops-disable-button.png" alt-text="Disabling Azure DevOps in Viva Goals." lightbox="../media/goals/6/azure-devops-disable-button.png":::
+    :::image type="content" source="../media/goals/6/azure-devops-disable-button.png" alt-text="Disabling Azure DevOps in Viva Goals." lightbox="../media/goals/6/azure-devops-disable-button.png":::
 
 ## How to configure the Azure DevOps connection 
 
@@ -57,7 +57,7 @@ After you enabling the integration, the first step is to configure an Azure DevO
 
 1. It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
-Viva Goals allows you to connect with multiple projects. Select **New Connection** to fetch data from another project. You differentiate these connections by name. The names will be displayed to other users when they link their OKRs with Azure DevOps data.
+   Viva Goals allows you to connect with multiple projects. Select **New Connection** to fetch data from another project. You differentiate these connections by name. The names will be displayed to other users when they link their OKRs with Azure DevOps data.
 
 ## How to connect the Azure DevOps connection to an OKR
 
@@ -73,12 +73,13 @@ The option to connect to a data source will appear only for key results, not for
 
 1.  Select a connection, and choose the **Query**. As soon as you choose a query, the **count of matching work items** will be displayed. 
 
-  :::image type="content" source="../media/goals/6/azure-devops-connection-details.png" alt-text="Adding Azure DevOps connection to your OKRs in Viva goals.png." lightbox="../media/goals/6/azure-devops-connection-details.png":::
+    :::image type="content" source="../media/goals/6/azure-devops-connection-details.png" alt-text="Adding Azure DevOps connection to your OKRs in Viva goals.png." lightbox="../media/goals/6/azure-devops-connection-details.png":::
 
-1.  Progress will be calculated based on the count of tickets completed under the chosen query if you've chosen KPI metric to track progress. It will be calculated based on the percentage of tickets closed if you've chosen percent complete to track progress). 
-- Click **Next > Save**.
+    Progress will be calculated based on the count of tickets completed under the chosen query if you've chosen KPI metric to track progress. It will be calculated based on the percentage of tickets closed if you've chosen percent complete to track progress).
 
-Now you've successfully linked your objective to a query in Azure DevOps to track the progress of your work items and automatically  update the status of the corresponding OKR.
+1. Click **Next > Save**.
+
+You've now successfully linked your objective to a query in Azure DevOps to track the progress of your work items and automatically  update the status of the corresponding OKR.
 
 The colors of the progress bar indicate the status of the objective.
 

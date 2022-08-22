@@ -62,17 +62,17 @@ Admins can also edit an existing monday.com connection, including the integratio
 
 After the monday.com integration is set up, you can connect your Viva Goals OKRs with a corresponding board in monday.com to measure your OKR progress:
 
-2. Go to the OKR of your choice. In the **Progress** section, select the **Automatically from a data source** option.
+1. Go to the OKR of your choice. In the **Progress** section, select the **Automatically from a data source** option.
 
-3. Select **monday.com** from the list of integrations available. If multiple monday.com connections are listed, choose the connection you want to use or create a new one. 
+1. Select **monday.com** from the list of integrations available. If multiple monday.com connections are listed, choose the connection you want to use or create a new one. 
 
     :::image type="content" source="../media/goals/11/monday-datasource.png" alt-text="Screenshot shows where to select monday.com from the list of data sources in Viva Goals." lightbox="../media/goals/11/monday-datasource.png":::
 
-4. Select the board, group, and assignee you want to connect to and map the status column based on which OKR progress should be tracked. 
+1. Select the board, group, and assignee you want to connect to and map the status column based on which OKR progress should be tracked. 
 
     :::image type="content" source="../media/goals/11/monday-connection-details.png" alt-text="Screenshot shows where you adding new monday.com connection to an OKR." lightbox="../media/goals/11/monday-connection-details.png":::
 
-5. Select **Next** to finish and save your OKR. You'll now see the monday.com icon next to the OKR's progress indicator, which means Viva Goals will automatically measure the progress based on item updates in the corresponding board in monday.com. 
+1. Select **Next** to finish and save your OKR. You'll now see the monday.com icon next to the OKR's progress indicator, which means Viva Goals will automatically measure the progress based on item updates in the corresponding board in monday.com. 
 
     > [!NOTE]
     >

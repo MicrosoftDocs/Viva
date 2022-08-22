@@ -40,7 +40,7 @@ Admins follow these steps to enable this integration:
 
     :::image type="content" source="../media/goals/11/postgres-disable-button.png" alt-text="Screenshot shows how to disable PostgreSQL in Viva Goals." lightbox="../media/goals/11/postgres-disable-button.png":::
 
-## How to configure the PostgreSQL connection 
+## How to configure PostgreSQL connection 
 
 After you enable the integration, the first step is to configure a PostgreSQL connection:
 

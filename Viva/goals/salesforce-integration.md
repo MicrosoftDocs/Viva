@@ -43,7 +43,7 @@ An admin can follow these steps to set up Salesforce integration in Viva Goals.
 
 Viva Goals allows you to connect with multiple Salesforce accounts. Select **New connection** to add another account. You differentiate connections by name. The names are displayed to members when they link their OKRs to Salesforce reports.
 
-## How to use the Salesforce integration
+## How to use Salesforce integration
 
 Once the setup is complete, users in your organization can link the success of their OKRs directly to fields in Salesforce reports.
 

@@ -70,15 +70,15 @@ After the connection is configured, users can **Edit** their OKRs to set up a da
   
     :::image type="content" source="../media/goals/7/zendesk-integration-from-the-list-of-integrations-in-viva-goals.png" alt-text="Screenshot shows where you selecting Tableau from the list of data sources in Viva goals." lightbox="../media/goals/7/zendesk-integration-from-the-list-of-integrations-in-viva-goals.png":::
 
-2. If a Tableau connection isn't already configured, Viva Goals prompts the user to configure a connection. If a connection is already configured, Viva Goals lets the user proceed to set up the data link.
+1. If a Tableau connection isn't already configured, Viva Goals prompts the user to configure a connection. If a connection is already configured, Viva Goals lets the user proceed to set up the data link.
 
-In the dialog that appears, follow the steps to set up the Tableau data link integration. Select **Workbook**, **View** (Dashboards or Standalone Worksheets), and your **KPI** from the list of measures/dimensions available on the selected **View**.  
+1. In the dialog that appears, follow the steps to set up the Tableau data link integration. Select **Workbook**, **View** (Dashboards or Standalone Worksheets), and your **KPI** from the list of measures/dimensions available on the selected **View**.  
   
-:::image type="content" source="../media/goals/7/tableau-connection-details.png" alt-text="Screenshot shows where you add a new Tableau connection to OKRs in Viva goals." lightbox="../media/goals/7/tableau-connection-details.png":::
+   :::image type="content" source="../media/goals/7/tableau-connection-details.png" alt-text="Screenshot shows where you add a new Tableau connection to OKRs in Viva goals." lightbox="../media/goals/7/tableau-connection-details.png":::
 
-If there are multiple instances for the KPI value, for example, you have the Sales Goal for all your sales team members as part of the Tableau View, you can choose to apply a sum/average/count on the set of values (or) filter out by a particular person or any available filter field.  
+   If there are multiple instances for the KPI value, for example, you have the Sales Goal for all your sales team members as part of the Tableau View, you can choose to apply a sum/average/count on the set of values (or) filter out by a particular person or any available filter field.  
 
-Viva Goals displays the selected value for your reference before you save the data link set up.
+   Viva Goals displays the selected value for your reference before you save the data link set up.
 
 > [!NOTE]
 > Based on Tableau REST API limitations, Viva Goals currently has visibility only into published workbooks and views. If any worksheets already part of a workbook are hidden, they will not be displayed. Unhide all worksheets from which your team would like to integrate KPIs before you publish Tableau dashboards.

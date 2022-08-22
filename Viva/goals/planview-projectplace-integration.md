@@ -20,13 +20,13 @@ description: "Sync your project progress in Planview Projectplace with your OKRs
 
 # Planview Projectplace integration
 
-## About the Planview Projectplace integration 
+## About Planview Projectplace integration 
 
 The Viva Goals Planview Projectplace integration lets you link OKRs to your project boards for automatic real-time updates. 
 
 Let's take this example: you have an objective to create an amazing user experience. You can directly link this objective with the project you're running in Planview, so whenever you make an update and move a card in your project board, your OKR status is updated automatically. 
 
-## How to set up a Planview Projectplace integration
+## How to set up Planview Projectplace integration
 
 ### Create a connection
 
@@ -52,7 +52,7 @@ You can edit an existing connection’s name and the connection’s shared state
 
 Select the **Edit** icon right next to the connection.  In the dialog that appears, you can make changes to the connection name and enable or disable the **Share connection with all users** checkbox. 
 
-## How to use the Planview Projectplace integration 
+## How to use Planview Projectplace integration 
 
 After your integration is set up, you can connect your new or existing OKRs with a board in Planview Projectplace measure the progress of your OKRs: 
 
