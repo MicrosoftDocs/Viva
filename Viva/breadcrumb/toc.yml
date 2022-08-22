@@ -14,17 +14,17 @@
       topicHref: /viva/insights/index
       items:
         - name: Personal insights
-        tocHref: /viva/insights/personal
-        topicHref: /viva/insights/personal/index
-      - name: My team
-        tocHref: /viva/insights/use/myteam
-        topicHref: /viva/insights/use/myteam   
-      - name: Setup
-        tocHref: /viva/insights/setup/environment-requirements
-        topicHref: /viva/insights/setup/environment-requirements
-      - name: My Org
-        tocHref: /viva/insights/setup/environment-requirements
-        topicHref: /viva/insights/setup/environment-requirements    
+          tocHref: /viva/insights/personal
+          topicHref: /viva/insights/personal/index
+        - name: My team
+          tocHref: /viva/insights/use/myteam
+          topicHref: /viva/insights/use/myteam   
+        - name: Setup
+          tocHref: /viva/insights/setup/environment-requirements
+          topicHref: /viva/insights/setup/environment-requirements
+        - name: My Org
+          tocHref: /viva/insights/setup/environment-requirements
+          topicHref: /viva/insights/setup/environment-requirements    
     - name: Viva Connections
       tocHref: /viva/connections/
       topicHref: /viva/connections/viva-connections-overview
