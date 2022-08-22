@@ -1,7 +1,7 @@
 ---
 title: Manage content sources for Microsoft Viva Learning in the Microsoft 365 admin center
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 10/27/2021
