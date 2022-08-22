@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft 365 Groups permissions with SharePoint content in Viva Learning
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 10/27/2021
