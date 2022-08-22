@@ -43,18 +43,18 @@ So, what should businesses do to prepare for a more permanent hybrid employee wo
 
 Using data-driven insights, the Hybrid employee experience report helps leaders quickly sum up how hybrid work affects employees in different work modes (onsite, remote, or hybrid) in the following six ways:
 
-* **Collaboration Habits**: How does hybrid work impact meeting engagement and collaboration patterns? What does meeting engagement look like for employees in different work modes?
-* **Behavioral Trends**: How are behaviors evolving over time in different work modes?
+* **Collaboration Habits** – How does hybrid work impact meeting engagement and collaboration patterns? What does meeting engagement look like for employees in different work modes?
+* **Behavioral Trends** – How are behaviors evolving over time in different work modes?
 * **New Hire Onboarding**: Are new hires getting the support they need from their managers?
-* **Manager Connection**: How does employee work mode impact access to 1:1 time with their manager?
-* **Work-Life Balance & Flex Work**: How does hybrid work impact employees’ ability to unplug? Are there specific work modes working longer hours, or embracing more flexible schedules?
-* **Connectivity and Belonging**: Are people connecting in ways that boost their sense of belonging?
+* **Manager Connection** – How does employee work mode impact access to 1:1 time with their manager?
+* **Work-Life Balance & Flex Work** – How does hybrid work impact employees’ ability to unplug? Are there specific work modes working longer hours, or embracing more flexible schedules?
+* **Connectivity and Belonging** – Are people connecting in ways that boost their sense of belonging?
 
 Then, using information from these six categories, the report provides guidance on **Why it matters**, as well as actionable insights and recommendations about how improve the overall hybrid employee experience.
 
 ### Report prerequisites
 
-In addition to having the latest version of Power BI Desktop installed, you’ll need to upload three attributes as part of your HR data before you can start using the Hybrid workforce experience report:
+Before you can start using the Hybrid workforce experience report, you'll need to have the latest version of Power BI Desktop installed. You'll also need to upload three attributes as part of your HR data:
 
 * **OnsiteDays** – The number of days per week an employee works from the company’s main worksite. This attribute can be based on badge data, wireless network data, or other sources—for example, tags in the HR system showing the number of days an employee plans to work onsite. This solution helps you create an **OnsiteDays** attribute.
 * **SupervisorIndicator** – Indicates whether someone is a manager.
@@ -66,12 +66,12 @@ In addition to having the latest version of Power BI Desktop installed, you’ll
 
 To help you create the required **OnsiteDays** attribute, we’ve developed an automated template that draws from Azure Active Directory (AD) sign-in information. 
 
-This solution involves four components:
+This solution involves two components:
 
 * Azure AD
 * Excel
-* Viva Insights
-* Power BI
+
+After you've determined **OnsiteDays**, you'll use Viva Insights and Power BI to populate the report template.
 
 ### How it all works
 
@@ -79,18 +79,19 @@ This solution involves four components:
     * Event log from Azure Active Directory (AD)
     * List of office IP addresses
 2. **Transform data:** Use the Excel template to determine **Onsite days**.
-3. **Use the Hybrid workforce experience report:**  Use Viva Insights Hybrid workforce experience template to understand your company’s hybrid work patterns and how hybrid work impacts employees differently.
+
+After you've completed these two steps, you're ready to use the Viva Insights Hybrid workforce experience report template. Through this report, you can understand your company’s hybrid work patterns and how hybrid work impacts employees differently.
 
 ### Licensing and connection requirements
 
 This solution makes the following assumptions about your licenses and connection environment:
 
-* You’ve already assigned Viva insights licenses and are using Azure AD, including using it to access Office 365. 
-* The connection between a device (PC, mobile device) and Azure Active directory is configured to differentiate between being connected in the office and being connected on a VPN outside of the office. A few configurations allow that differentiation, like these:
-* [VPN split tunneling](/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel) for Azure AD
-* The VPN users would have a different NAT IP address than office users.
-* When an employee is onsite, they’re not using a VPN. 
-* You’ve documented the gateway IPs of all office locations and the time zone for each location. This documentation will be used to define the times and days employees work onsite in different locations.
+* You’ve already assigned Viva insights licenses and are using Azure AD, including using Azure AD to access Office 365. 
+* The connection between a device (PC, mobile device) and Azure AD is configured to differentiate between being connected in the office and being connected on a VPN outside of the office. A few configurations allow that differentiation, like these:
+    * [VPN split tunneling](/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel) for Azure AD
+    * VPN users having a different NAT IP address than office users
+* When an employee is onsite, they’re not using a VPN.
+* You’ve documented the gateway IPs of all office locations and the time zone for each location. This documentation will be used to define the times and days that employees work onsite in different locations.
 
 ## Create the solution
 
