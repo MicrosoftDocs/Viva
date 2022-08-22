@@ -45,7 +45,7 @@ _Learn more: [Overview of security & compliance for Yammer](/yammer/manage-secur
  
  ### Install the Viva Engage app for your organization
 
-The Microsoft Teams admin can choose to deploy and pin the app for all users or for particular departments through a [Teams app setup policies](/microsoftteams/teams-app-setup-policies).
+The Microsoft Teams admin can choose to deploy and pin the app for all users or for particular departments through a [Teams app setup policy](/microsoftteams/teams-app-setup-policies).
 
  ## Customize the appearance for Viva Engage in the Teams store
 
@@ -63,6 +63,6 @@ Customizing the Viva Engage app is perfect for companies that have given their n
  
  ## Configure your Yammer network
  
-Review the contents in the Yammer & Viva Engage Adoption site to help you get started, train and engage your organization, build champions, and securing your enviornment.
+Review the contents in the Yammer & Viva Engage Adoption site to help you get started, train and engage your organization, build champions, and secure your enviornment.
 
 _Learn more: [Yammer & Viva Engage Adoption](https://aka.ms/VivaEngage/Resources)_
