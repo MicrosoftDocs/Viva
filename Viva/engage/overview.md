@@ -36,7 +36,6 @@ With Viva Engage you can:
 **Build** communities that support diversity, shared interests, and business initiatives.
 
 - Communities connect people based on interests, topics, roles, and experiences, give people a sense of belonging and empower the organization to reach and engage employees at scale.
-- 
 **Spark** engagement between leaders and employees to amplify vision and shape culture.
 
  - Leaders want better ways to reach, inspire and activate people. Employees want clarity of purpose and to participate in the mission. Foster communications, listening and dialogue at scale.
