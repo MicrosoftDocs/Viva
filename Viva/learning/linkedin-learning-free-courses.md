@@ -1,7 +1,7 @@
 ---
 title: Free courses from LinkedIn Learning
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 1/06/2022
