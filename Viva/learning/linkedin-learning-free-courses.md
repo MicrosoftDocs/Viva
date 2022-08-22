@@ -19,7 +19,7 @@ description: See what LinkedIn Learning courses are available for free in Micros
 
 # Free courses from LinkedIn Learning
 
-A selection of courses are available from LinkedIn Learning for free. This means you don't need an Enterprise license for users in your organization to access these courses through Viva Learning. LinkedIn Learning is enabled as a content source by default in Viva Learning. [Learn more about content sources in Viva Learning](content-sources-365-admin-center.md).
+A selection of courses are available from LinkedIn Learning for free. This means you don't need a LinkedIn Learning Enterprise subscription for users in your organization to access these courses through Viva Learning. LinkedIn Learning is enabled as a content source by default in Viva Learning. [Learn more about content sources in Viva Learning](content-sources-365-admin-center.md).
 
 > [!NOTE]
 > You'll need to search the course in the Viva Learning app for Teams to get free access.
