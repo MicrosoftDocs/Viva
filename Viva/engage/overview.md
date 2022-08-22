@@ -26,7 +26,6 @@ Viva Engage is a new employee experience that connects people across the company
 <iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-
 With Viva Engage you can:
 
 **Connect** people across the company to strengthen professional relationships and build social capital.
