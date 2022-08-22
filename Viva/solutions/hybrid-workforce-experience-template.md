@@ -54,7 +54,7 @@ The template contains the following sheets:
     1. In the **NonInteractiveSignins** section, upload the non-interactive event log .csv files generated from Azure AD.
     1. In the **IP Address** section, upload the IP addresses list you created.
 
-    ![Screenshot that shows the Inputs page with Interactive, Noninteractive, and IP Address highlighted on the field label and within the file names.](./images/hwfe-inputs-a-b-c1.png)
+    ![Screenshot that shows the Inputs page with Interactive, Noninteractive, and IP Address highlighted on the field label and within the file names.](./images/hwfe-inputs-a-b-c.png)
 
     >[!Important]
     > Don’t alter any columns or attributes downloaded from Azure AD.
@@ -86,7 +86,7 @@ There are two other buttons on the Input sheet:
 
 Now that you've created the **OnsiteDays** attributes, you're ready to use the Hybrid workforce experience Power BI report template. In addition to **OnsiteDays**, you'll also need to upload the other two required attributes as part of your HR data—**SupervisorIndicator** and **HireDate**.
 
-The next article guides you through running the required query in Workplace Analytics, then downloading and using the Power BI template. For more details on the data-upload process, you can refer to a [step-by-step guide](https://go.microsoft.com/fwlink/?linkid=2195632).
+The next article guides you through running the required query in Viva Insights, then downloading and using the Power BI template. For more details on the data-upload process, you can refer to a [step-by-step guide](https://go.microsoft.com/fwlink/?linkid=2195632).
 
 > [!div class="nextstepaction"]
 > [Next up: Generate the Hybrid workforce experience Power BI report](../insights/Tutorials/hybrid-workforce-experience.md)
