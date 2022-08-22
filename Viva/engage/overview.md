@@ -74,7 +74,7 @@ The **Viva Connections feed** features relevant content from Viva Engage, includ
 
 ### Compared with Yammer.com, are there any features missing from the Viva Engage app in Teams?
 Genearlly, all features in Yammer.com are also in Viva Engage. However, there are minor limitations with the Viva Engage app:
-- On iOS, live events and other videos hosted in [Microsoft Stream (Classic)]([/stream/overview](https://www.microsoft.com/en-us/microsoft-365/microsoft-stream)) do not play
+- On iOS, live events and other videos hosted in [Microsoft Stream (Classic)](/stream/overview) do not play
 - Settings that are only available in the new Yammer, such as [managing delegate settings](https://support.microsoft.com/office/60f879cd-43dd-44fe-bffb-1084d4f85285) and [setting your skin tone](https://support.microsoft.com/office/d28e25ed-ef20-4c7d-b54c-8bebe9caaded), are not available
 - Viewing community files stored in the SharePoint document library
 - Viewing or editing the full community info
@@ -83,7 +83,7 @@ Genearlly, all features in Yammer.com are also in Viva Engage. However, there ar
 ## See also 
 End user documentation: [Getting started with Viva Engage](https://support.microsoft.com/office/930c86f1-e1e2-4e45-a66a-ce8faca71a21)
 
-[Yammer adminstration documentation](https://docs.microsoft.com/en-us/yammer/)
+[Yammer adminstration documentation](/yammer/)
 
 [Yammer adoption center](https://adoption.microsoft.com/yammer/)
 
