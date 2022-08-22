@@ -1,5 +1,4 @@
 ---
-title: Introduction 
 to Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
