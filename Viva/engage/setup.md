@@ -17,86 +17,52 @@ search.appverid:
 - MET150
 ---
 # Setting up Viva Engage
-Viva Engage brings people together across the organization to connect with leaders and coworkers, find answers to questions, share their unique story, and find belonging at work. Viva Engage builds on Yammer, and brings together Yammer’s experiences—communities, open conversations, and personalized discovery—with new capabilities for self-expression and sharing through storyline and stories, and upcoming innovations.
 
-Learn more: [What is Yammer?]([url])
+## Set up licensing for Viva Engage
 
+If a user is enabled for Yammer, they are also enabled to use Viva Engage. Viva Engage is included as a part of the existing Yammer license.  This is unchanged from the Yammer Communities app for Microsoft Teams that Viva Engage replaces.
 
-[Introducing Microsoft Viva Engage - YouTube  
-](url)
+_Learn more: [Manage Yammer licenses in Office 365](/yammer/manage-yammer-users/manage-yammer-licenses-in-office-365)_
 
-## What’s different about Viva Engage from Yammer? 
+## Confirgure and review privacy and security settings
 
-The Viva Engage is built on the foundation of Yammer, but within Teams. It contains all the functionality from Yammer, plus also extends the capabilities of Yammer with new functionality, such as posts and stories in storylines (coming soon).  
+The Yammer admininstrator can manage the content in Yammer and Viva Engage. Privacy and security controls from Yammer are shared with Viva Engage.
 
-The app includes the following Teams functionality: 
+_Learn more: [Overview of security & compliance for Yammer](/yammer/manage-security-and-compliance/security-and-compliance)_
 
--The ability to pin the app for yourself, or for a subset of your organization.
+## Installing Viva Engage
+### Install the Viva Engage app for yourself in Teams 
 
--Notifications, such as announcements and @mentions, in your Teams Activity feed. 
+ 1. Open Teams on the web or in a desktop client.
 
--A channel tab that lets you add a community or topic to a Teams channel. For more information, see Add a Yammer page to a Teams channel.
+ 2. Go to the left side of Teams and select **Apps**.
 
--An Office connector in a team.
+ 3. Search for **Viva Engage**.
 
-## Install the Viva Engage app for Teams 
+ 4. Select the **Viva Engage** app, and then select **Add**. This will add the app to all your Teams clients, including mobile. Or, select [Viva Engage here](https://aka.ms/VivaEngage/Install) to find and add the **Viva Engage** app. You can use the link (https://aka.ms/VivaEngage/Install) to share the app with others in your organization.
 
-1. Open Teams on the web or in a desktop client.
-
-2. Go to the left side of Teams and select **Apps**.
-
-3. Search for **Viva Engage**.
-
-4. Select the **Viva Engage** app, and then select **Add**. This will add the app to all your Teams clients, including mobile. Or, select [Viva Engage](url) to find and add the Viva Engage app.
-
-**Note**: If you don't see **Viva Engage** in the available apps, check with your Teams admin. They might have renamed the app. 
-
-## Install the Viva Engage app for Teams for your organization 
-Admins can choose to deploy and pin the app for all users or for particular departments through custom policies. 
-
-
-## Pin the Viva Engage app to the app bar of Teams 
-
-### On the web and in a desktop client. 
-
-1. Select **More** (ellipsis icon) on the left side of Teams.
-
-2. Right-click any app icon and select **Pin**  (pin icon) to make that app always visible.
-
-**Tip**: You can arrange the icons on the left by dragging and dropping them. For more information about pinning and unpinning apps in Teams, see [Pin an app for easy access](url). 
-
-### On the iOS and Android mobile platforms 
-
-1. Select **More** (ellipsis icon) at the bottom of Teams—this is where you’ll find all your apps.
-
-2. Select **Reorder** and drag and drop the app so it is no longer in the **More** section.
-
-3. Select **Done** to save your changes.
-
-## Notifications 
-
-With the Viva Engage app, you'll also get notifications in your Teams activity for: 
-
--@mentions sent to you
-
--Announcements from communities that you've joined in your home network.
-
-See more: Learn how to configure your Teams notification settings. 
-
-**Note**: The senders of the notifications must have a Microsoft 365 identity associated with them in your home network.  
-
-## Customize the Viva Engage app 
-Your Teams admin can also customize the following properties for the Viva Engage app in Teams in your organization. 
-•	App name
-•	App description
-•	App icons
-•	Accent color
-
-Customizing the Viva Engage app is perfect for companies that have given their network custom branding to fit their corporate identity. You can learn more in Customize apps in Microsoft Teams. 
-
-**Note**: Currently, this won't affect the Viva Engage app branding shown in the app within Teams. 
-
+ **Note**: If you don't see **Viva Engage** in the available apps, check with your Teams admin. They might have renamed the app. 
  
-## See also 
-[Learn how to configure your Teams notification settings.](url)
+ ### Install the Viva Engage app for your organization
 
+The Microsoft Teams admin can choose to deploy and pin the app for all users or for particular departments through a [Teams app setup policies](/microsoftteams/teams-app-setup-policies).
+
+ ## Customize the appearance for Viva Engage in the Teams store
+
+ You can customize the appear for the following properties of the Viva Engage app in the Teams app store:
+ - app name
+ - app descrption 
+ - app icons
+ - accent color
+
+Customizing the Viva Engage app is perfect for companies that have given their network custom branding to fit their corporate identity.
+
+**Note:** Currently, this won't affect the Viva Engage app branding shown in the app _within_ the Viva Engage Experience.
+ 
+ _Learn more: [Customize details of an app](/MicrosoftTeams/customize-apps#customize-details-of-an-app)_
+ 
+ ## Configure your Yammer network
+ 
+Review the contents in the Yammer & Viva Engage Adoption site to help you get started, train and engage your organization, build champions, and securing your enviornment.
+
+_Learn more: [Yammer & Viva Engage Adoption](https://aka.ms/VivaEngage/Resources)
