@@ -62,7 +62,7 @@ Before you can start using the Hybrid workforce experience report, you'll need t
 
 ## Overview of the solution
 
-![Screenshot that shows Azure Active Directory option highlighted under Azure services.](./images/hwfe-diagram1.png)
+![Screenshot that shows Azure Active Directory option highlighted under Azure services.](./images/hwfe-diagram.png)
 
 To help you create the required **OnsiteDays** attribute, we’ve developed an automated template that draws from Azure Active Directory (AD) sign-in information. 
 
@@ -101,7 +101,7 @@ In the next sections, we'll describe how to configure your Hybrid workforce expe
 
 [Step 2. Use the automated OnsiteDays template](hybrid-workforce-experience-template.md)
 
-[Use the Hybrid workforce experience Power BI template](../insights/Tutorials/hybrid-workforce-experience.md)
+[Step 3. Use the Hybrid workforce experience Power BI template](../insights/Tutorials/hybrid-workforce-experience.md)
 
 > [!div class="nextstepaction"]
 > [Next up: Prepare source files](hybrid-workforce-experience-source-files.md)
