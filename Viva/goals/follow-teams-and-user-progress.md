@@ -47,7 +47,7 @@ By default, Viva Goals will have you follow:
 
 Once you're following one or more organizations, teams, or users, Viva Goals automatically emails you a weekly progress update showing Objective activity, what's going well, and what's not going well.
 
-:::image type="content" source="../media/goals/4/413/b.jpg" alt-text="Screenshot shows the people and teams you follow.." lightbox="../media/goals/4/413/b.jpg":::
+:::image type="content" source="../media/goals/4/413/b.jpg" alt-text="Screenshot shows the people and teams you follow." lightbox="../media/goals/4/413/b.jpg":::
 
 To view or unfollow an organizations, team, or user:
 
