@@ -36,13 +36,13 @@ When you switch to a custom time period cadence, Viva Goals will no longer autom
 
 1. Go to the **Time Periods** section in the admin dashboard. Select and save the month when your planning year starts. It's set to January by default.  
  
-   ![Screenshot of the time period dialog box.](../media/goals/2/25/a.jpg)
+    :::image type="content" source="../media/goals/2/25/a.jpg" alt-text="Screenshot of the time period dialog box." lightbox="../media/goals/2/25/a.jpg":::
     
 2. Use the **Add Time Periods** option to add custom time periods.
 
 3. From the **Actions** menu, set **Custom** time period as **Current Time Period**.
 
-   ![Screen shot showing dialog box where you set a custom time period.](../media/goals/2/25/b.jpg)
+    :::image type="content" source="../media/goals/2/25/b.jpg" alt-text="Screenshot showing dialog box where you set a custom time period." lightbox="../media/goals/2/25/b.jpg":::
 
 ## FAQs
 
