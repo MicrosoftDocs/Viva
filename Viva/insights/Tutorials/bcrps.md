@@ -1,7 +1,7 @@
 ---
 
-title: Business resilience report in the Productivity Score report
-description: Use the Business resilience report that's within the Productivity Score report to analyze organizational collaboration data
+title: Business resilience report in the Adoption Score report
+description: Use the Business resilience report that's within the Adoption Score report to analyze organizational collaboration data
 author: madehmer
 ms.author: v-lilyolason
 ms.topic: article
@@ -19,14 +19,14 @@ audience: Admin
 
 As the need to accommodate remote workers continues, employees and their organizations face challenges in making suitable adjustments. This report offers insights for successfully maintaining organizational flexibility and resilience.
 
-The Business resilience report is available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](/graph) data to provide high-level insights about your organization collaborates and how it's changed over time.
+The Business resilience report is available within the Adoption Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](/graph) data to provide high-level insights about how your organization collaborates and how it's changed over time.
 
 ![Business resilience option within Productivity Score.](../Images/WpA/Tutorials/bus-res-psr.png)
 
 >[!Note]
->Organizations who have at least 100 active Exchange Online users with active [Viva Insights licenses](../personal/overview/plans-environments.md) can see this report when they register for the Productivity Score.
+>Organizations who have at least 100 active Exchange Online users with active [Viva Insights licenses](../personal/overview/plans-environments.md) can see this report when they register for the Adoption Score.
 
-We encourage you to share this report with business leaders in your organization. You can add business leaders to the Report Reader role for access to this and other Productivity Score Insights. This report helps business leaders understand how employees are:
+We encourage you to share this report with business leaders in your organization. You can add business leaders to the Report Reader role for access to this and other Adoption Score Insights. This report helps business leaders understand how employees are:
 
 * Adapting to the shift to remote work.
 * Able to maintain work-life balance.
@@ -51,11 +51,11 @@ The following are some of the top-level business questions this report helps you
 
 #### Q1 How do I access the report?
 
-You can access the report from the Microsoft 365 Admin home under **Reports** > **Productivity Score**. To learn more, see [Microsoft Productivity score](/microsoft-365/admin/productivity/productivity-score).
+You can access the report from the Microsoft 365 Admin home under **Reports** > **Adoption Score**. To learn more, see [Microsoft Adoption Score](/microsoft-365/admin/productivity/productivity-score).
 
 #### Q2 Can I share this report with others in my company?
 
-Yes, you are encouraged to share this report with business leaders in your organization. You can save the file as an *.mhtml* file and email it. IT admins can also add business leaders to the Report Reader role for access to this and other Productivity Score Insights.
+Yes, you are encouraged to share this report with business leaders in your organization. You can save the file as an *.mhtml* file and email it. IT admins can also add business leaders to the Report Reader role for access to this and other Adoption Score Insights.
 
 #### Q3 How can I get more detailed analysis for my organization?
 
@@ -63,4 +63,4 @@ You can use Microsoft Viva Insights to get more detailed analysis and additional
 
 #### Q4 Who is eligible to see this report?
 
-Organizations who have at least 100 active Exchange Online users with active [Viva Insights licenses](../personal/overview/plans-environments.md) can see this report when they register for the Productivity Score.
+Organizations who have at least 100 active Exchange Online users with active [Viva Insights licenses](../personal/overview/plans-environments.md) can see this report when they register for the Adoption Score.
