@@ -79,7 +79,7 @@ You can promote or remove any team member as a team owner or administrator from 
 
 1. To update the team owner, go to the **Teams** section of the **Admin** menu, select the **More Actions** menu of the relevant team, and then select **Edit**.
 
-    ![Screenshot showing where you update team owners.](../media/goals/2/22/f.jpg)
+    :::image type="content" source="../media/goals/2/22/f.jpg" alt-text="Screenshot showing where you update team owners." lightbox="../media/goals/2/22/f.jpg":::
 
 2. From the edit teams dialog, select the **Team Owner** dropdown menu to select and update the team owner.
 
@@ -89,11 +89,11 @@ You can promote or remove any team member as a team owner or administrator from 
 
 1. From the **Teams** section of the **Admin** menu, select the **More Actions** menu of the relevant team, and then select **Manage Members**.
 
-    ![Screenshot showing where you update team administrators.](../media/goals/2/22/g.jpg)
+    :::image type="content" source="../media/goals/2/22/g.jpg" alt-text="Screenshot showing where you update team administrators." lightbox="../media/goals/2/22/g.jpg":::
 
 2. Select the **Action** dropdown list to the right of the person's name, and you'll be able to edit their member status.
 
-   ![Screenshot showing where you promote team members to team administrator.](../media/goals/2/22/h.jpg)
+   :::image type="content" source="../media/goals/2/22/h.jpg" alt-text="Screenshot showing where you promote team members to team administrators." lightbox="../media/goals/2/22/h.jpg":::
  
 ## How to archive and delete teams
 
@@ -124,8 +124,8 @@ We recommend you archive teams that are no longer in service. To archive a team,
 1. Select **Admin** > **Teams** tab > **Actions**.
 2. Select **Archive** for the team that you want to archive.
 
-![Screenshot shows where you archive a team.](../media/goals/2/22/i.jpg)
-
+    :::image type="content" source="../media/goals/2/22/i.jpg" alt-text="Screenshot showing where you archive a team." lightbox="../media/goals/2/22/i.jpg":::
+    
 Alternately, you can navigate to the team's OKR page, and archive the team from the options in the upper-right corner.
 
 Once a team has been archived, it will be marked as **Archived** on the **Teams** tab in the Admin console. It won't be visible anywhere else. Any objectives that were owned by this team will remain unchanged. But you can't assign new objectives to the team.
@@ -135,8 +135,8 @@ Archiving a team isn't permanent. You can restore an archived team. To restore a
 1. Select **Admin** > **Teams** tab > **Actions**.
 2. Select **Unarchive** for the team you want to restore.
 
-   ![Screenshot showing where you unarchive a team.](../media/goals/2/22/j.jpg)
-   
+    :::image type="content" source="../media/goals/2/22/j.jpg" alt-text="Screenshot showing where you unarchive a team." lightbox="../media/goals/2/22/j.jpg":::
+    
 ### What happens when I archive a team?
 
 Once a team is archived, you can no longer create OKRs and projects under that team, and no users will be a part of the team. Additionally, any subteams become independent teams in Viva Goals. All OKRs that were previously assigned to the archived teams will still be accessible for actions to be performed on them, such as check-ins.
