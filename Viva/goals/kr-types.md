@@ -103,7 +103,7 @@ If the current metric value is less than the threshold or target value, then the
 
 Let's take the example key result "Keep churn below 100k" as shown in the image below. The progress graph, on the right, can be seen with a point in the graph that represents a check-in. Each check-in made will be represented as a point in the graph.
 
-:::image type="content" source="../media/goals/on-track-stay-below-kr.png" alt-text="Screenshot that shows the progress graph for a stay above KR that's on track." lightbox="../media/goals/on-track-stay-below-kr.png":::
+:::image type="content" source="../media/goals/on-track-stay-below-kr.png" alt-text="Screenshot that shows the progress graph for a stay below KR that's on track." lightbox="../media/goals/on-track-stay-below-kr.png":::
 
 The red dotted line indicates the border value below which the progress points must be in order to be "On Track". 
 
