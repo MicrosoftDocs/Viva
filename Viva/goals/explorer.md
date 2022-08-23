@@ -45,7 +45,7 @@ Viva Goals lets you create custom views and save the filters you use often.
 
 2. Add new add filters to customize the view.
 
-   ![Screenshot shows Explorer filters.](../media/goals/4/46/a.jpg)
+      :::image type="content" source="../media/goals/4/46/a.jpg" alt-text="Screenshot shows Explorer filters." lightbox="../media/goals/4/46/a.jpg":::
 
 The following filters are available:
 
@@ -78,7 +78,7 @@ By default, views list objectives, key results, and projects. To view only top-l
 
 Save and export views for future reference or to share insight with your team. To save a view, select the **Save View** button in the upper-right corner. You'll be prompted to name the view and select a sharing option.
 
-![Screenshot shows the save view option on the all objectives list.](../media/goals/4/46/b.jpg)
+:::image type="content" source="../media/goals/4/46/b.jpg" alt-text="Screenshot shows the save view option on the all objectives list." lightbox="../media/goals/4/46/b.jpg":::
 
 > [!Note] 
 > If you don't want to share the new view with your team, change the security setting to **Only Me** and then save the view.
@@ -99,19 +99,19 @@ Here are for settings for the **Export** feature:
 
 Any changes that you make will be preserved for every user for subsequent exports.
 
-![Screenshot shows the filter options for exports.](../media/goals/4/46/c.jpg)
+:::image type="content" source="../media/goals/4/46/c.jpg" alt-text="Screenshot shows the filter options for exports." lightbox="../media/goals/4/46/c.jpg":::
 
 ## Rename a view
 
 You can rename a view after it's been saved: Select **Actions** -> **Rename View**.
 
-![Screenshot shows the dialog where you rename a view.](../media/goals/4/46/d.jpg)
+:::image type="content" source="../media/goals/4/46/d.jpg" alt-text="Screenshot shows the dialog where you rename a view." lightbox="../media/goals/4/46/d.jpg":::
 
 ## Use an existing view to create a similar view
 
 Viva Goals enables you to edit a saved view and save it as a new view. To do this, open a saved view, make any appropriate changes to filters, and then select **Save** from the dropdown on the right side. You'll be prompted to update the current view or save it as a new view.
 
-![Screenshot showing where you save a new view.](../media/goals/4/46/e.jpg)
+:::image type="content" source="../media/goals/4/46/e.jpg" alt-text="Screenshot shows where you save a new view." lightbox="../media/goals/4/46/e.jpg":::
 
 Example: I want to create specific views for each of my employees or teams. I've created a view for John with the appropriate filters set and saved it. I would then edit the filter for **Owner** from John to Jordan and save it as a new view.
     
@@ -119,7 +119,7 @@ Example: I want to create specific views for each of my employees or teams. I've
     
 You can sort your objectives and key results in Explorer.
 
-![Screenshot shows how you sort OKRs.](../media/goals/4/46/f.jpg)
+:::image type="content" source="../media/goals/4/46/f.jpg" alt-text="Screenshot shows how you sort OKRs." lightbox="../media/goals/4/46/f.jpg":::
 
 This information refers to the order in which the OKRs are arranged in the Entity (organization/team/individual) OKR view. For example: If you have OKRs arranged in a certain manner on your page and want to see the same priority order in Explorer, you can use this option.  
 
@@ -129,31 +129,31 @@ This information refers to the order in which the OKRs are arranged in the Entit
 
 In Explorer, select the **All Objectives** preset view.
 
-![Screenshot shows the Explorer All Objectives view.](../media/goals/4/46/g.jpg)
+:::image type="content" source="../media/goals/4/46/g.jpg" alt-text="Screenshot shows the Explorer All Objectives view." lightbox="../media/goals/4/46/g.jpg":::
 
 **How do I view all projects?**
 
 In Explorer, apply the filter for **Object Type** as **Project** to view all projects.
 
-![Screenshot shows how to choose to filer for all projects.](../media/goals/4/46/h.jpg)
+:::image type="content" source="../media/goals/4/46/h.jpg" alt-text="Screenshot shows how to choose to filter for all projects." lightbox="../media/goals/4/46/h.jpg":::
 
 **How do I export my data?**
 
 Use filters to access the data you want, and then go to **Actions** -> **Export**. You'll receive an email with a link to download your OKRs and projects as a .csv/Excel file. Remember to clear the **Show only top-level objectives** checkbox if you need the KRs too.
 
-![Screenshot shows how to choose to export date.](../media/goals/4/46/i.jpg)
+:::image type="content" source="../media/goals/4/46/i.jpg" alt-text="Screenshot shows how to choose to export data." lightbox="../media/goals/4/46/i.jpg":::
 
 **How do I save a view?**
 
 To save a view for easy access, select **Save view** in the upper-right corner. Enter a name for the new view and select a visibility option. After it's saved, you can access the view from the Explorer menu.
 
-![Screenshot shows how to save a view.](../media/goals/4/46/j.jpg)
+:::image type="content" source="../media/goals/4/46/j.jpg" alt-text="Screenshot shows how to save a view." lightbox="../media/goals/4/46/j.jpg":::
 
 **How do I delete a view?**
 
 To delete a saved view go to **Actions -> Remove view**.
 
-![Screenshot shows how to delete a view.](../media/goals/4/46/k.jpg)
+:::image type="content" source="../media/goals/4/46/k.jpg" alt-text="Screenshot shows how to delete a view." lightbox="../media/goals/4/46/k.jpg":::
 
 **Who can access my view?**
 
@@ -164,7 +164,7 @@ That depends on the availability configuration you choose when you save the view
 
 To change this setting, select **Save view**, change the setting, and save it again.
 
-![Screeenshot shows where you make a view public or private.](../media/goals/4/46/l.jpg)
+:::image type="content" source="../media/goals/4/46/l.jpg" alt-text="Screenshot shows where you make a view public or private." lightbox="../media/goals/4/46/l.jpg":::
 
 **What does exporting tags as a separate field mean?**
 
@@ -179,7 +179,7 @@ You can use Explorer to export OKRs and projects. Go to Explorer from the main m
 
 **Flat-list view:**
 
-![Screenshot shows how you choose flat-list view.](../media/goals/4/46/m.jpg)
+:::image type="content" source="../media/goals/4/46/m.jpg" alt-text="Screenshot shows how you choose flat-list view." lightbox="../media/goals/4/46/m.jpg":::
 
 After you modify your view as desired, go to **Actions** -> **Export** to export it. You'll soon receive an email with your download. To learn more, see our [Explorer article](https://help.ally.io/en/articles/5845706-explorer).
 
@@ -187,6 +187,6 @@ After you modify your view as desired, go to **Actions** -> **Export** to export
 
 Use the **Type** filter to refine the OKRs list by teams or individuals.
 
-![Screenshot shows where you filter OKRs by team or individual.](../media/goals/4/46/n.jpg)
+:::image type="content" source="../media/goals/4/46/n.jpg" alt-text="Screenshot shows where you filter OKRs by team or individual." lightbox="../media/goals/4/46/n.jpg":::
 
 Apply the changes and save the view for future reference.
