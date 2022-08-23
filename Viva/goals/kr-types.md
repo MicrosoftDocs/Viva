@@ -58,20 +58,20 @@ Similarly, when the OKR is required to track a metric to help maintain quality s
 
 1. Add a key result by selecting '...' and then choosing the **Add a Key Result** option from the dropdown. You can also edit an existing key result to set a KR type for it.
 
-    :::image type="content" source="../media/goals/end-user-help-menu.png" alt-text="Screenshot that shows the help menu button to access help resources." lightbox="../media/goals/end-user-help-menu.png":::
+    :::image type="content" source="../media/goals/add-key-result.png" alt-text="Screenshot that shows thow to add a key result." lightbox="../media/goals/add-key-result.png":::
 
 3. In the create key result page that appears, enter the title of the key result.
 4. Select **Add metric** that appears below the title.
 
-    :::image type="content" source="../media/goals/end-user-help-menu.png" alt-text="Screenshot that shows the help menu button to access help resources." lightbox="../media/goals/end-user-help-menu.png":::
+    :::image type="content" source="../media/goals/add-metric-button.png" alt-text="Screenshot that shows where to find the add metric button." lightbox="../media/goals/add-metric-button.png":::
     
 6. Enter the target name and choose the appropriate KR type using the **Target should** dropdown.
 
-    :::image type="content" source="../media/goals/end-user-help-menu.png" alt-text="Screenshot that shows the help menu button to access help resources." lightbox="../media/goals/end-user-help-menu.png":::
+    :::image type="content" source="../media/goals/target-should-dropdown.png" alt-text="Screenshot that shows the various KR types under the Target should dropdown.." lightbox="../media/goals/target-should-dropdown.png":::
     
 8. Depending on the KR type, enter the target values and select **Create**.
 
-    :::image type="content" source="../media/goals/end-user-help-menu.png" alt-text="Screenshot that shows the help menu button to access help resources." lightbox="../media/goals/end-user-help-menu.png":::
+    :::image type="content" source="../media/goals/create-kr-button.png" alt-text="Screenshot that shows the create button to save your changes and create your Key Result." lightbox="../media/goals/create-kr-button.png":::
 
 ## Progress and Status Calculation: 
 Progress and status calculations in Viva Goals vary depending on the key result categories—regular KR types and control KR types.  
@@ -103,7 +103,7 @@ If the current metric value is less than the threshold or target value, then the
 
 Let's take the example key result "Keep churn below 100k" as shown in the image below. The progress graph, on the right, can be seen with a point in the graph that represents a check-in. Each check-in made will be represented as a point in the graph.
 
-:::image type="content" source="../media/goals/on-track-stay-below-kr.png" alt-text="Screenshot that shows the progress graph for a 'stay above' KR that's on track." lightbox="../media/goals/on-track-stay-below-kr.png":::
+:::image type="content" source="../media/goals/on-track-stay-below-kr.png" alt-text="Screenshot that shows the progress graph for a stay above KR that's on track." lightbox="../media/goals/on-track-stay-below-kr.png":::
 
 The red dotted line indicates the border value below which the progress points must be in order to be "On Track". 
 
@@ -111,7 +111,7 @@ Similarly, if the value is greater than or equal to the threshold or target valu
 
 Let's take the example key result "Maintain page response time below 2 seconds". As shown in the image, the current progress or check-in made is depicted as a point in the graph.
 
-:::image type="content" source="../media/goals/at-risk-stay-below-kr.png" alt-text="SScreenshot that shows the progress graph for a 'stay below' KR that's at risk." lightbox="../media/goals/at-risk-stay-below-kr.png":::
+:::image type="content" source="../media/goals/at-risk-stay-below-kr.png" alt-text="SScreenshot that shows the progress graph for a stay below KR that's at risk." lightbox="../media/goals/at-risk-stay-below-kr.png":::
 
 Since it is greater than the border value of 2, it lies above the red dotted line and in the shaded area that represents "At Risk". This indicates that the status of the key result is "At Risk".
 
@@ -124,19 +124,26 @@ If the value is greater than the threshold value, then the progress is set to 10
 
 Let's consider the key result "Ensure NPS stays above 9", where 9 is the border value represented by the red dotted line as shown in the image below. Each point in the graph represents a check-in. Since the point lies in the white area above the dotted line, the progress status is "On Track" as the white area represents "On Track".
 
-:::image type="content" source="../media/goals/on-track-stay-above-kr.png" alt-text="Screenshot that shows the progress graph for a 'stay above' KR that's on track." lightbox="../media/goals/on-track-stay-above-kr.png":::
+:::image type="content" source="../media/goals/on-track-stay-above-kr.png" alt-text="Screenshot that shows the progress graph for a stay above KR that's on track." lightbox="../media/goals/on-track-stay-above-kr.png":::
 
 If the value is equal to or less than the threshold value then progress of OKR is 0% and status is set to “At Risk”. 
 
 Let's take the example of the following key result: "Maintain average FCSAT score above 8". Here, 8 is the border value represented by the red line. Since the current progress value is 7.8, which is less than the border value, the progress point is shown to be present in the shaded grey area. This area represents "At Risk" and so, the status of the key result is "At Risk".
 
-:::image type="content" source="../media/goals/at-risk-stay-above-kr.png" alt-text="Screenshot that shows the progress graph for a 'stay above' KR that's at risk." lightbox="../media/goals/at-risk-stay-above-kr.png":::
+:::image type="content" source="../media/goals/at-risk-stay-above-kr.png" alt-text="Screenshot that shows the progress graph for a stay above KR that's at risk." lightbox="../media/goals/at-risk-stay-above-kr.png":::
 
 For control KR types, there is no notion of “Behind” since we consider these KR types as met or not met. 
 
 ## How does roll up happen for control KR types? 
 Based on the progress of the OKR for control metrics (either of 0% or 100%), as and when a check-in is made, the value is rolled up from the child KR to the parent objective. 
 
-If you want to turn off roll-up, this can be done by making the contribution of each key result to 0%. You can navigate to ‘Manage Contributions’ by right-clicking on the parent objective to which the Key result is aligned to and changing the corresponding KRs to 0%.  
+If you want to turn off roll-up, this can be done by making the contribution of each key result to 0%. Here's how:
 
-:::image type="content" source="../media/goals/end-user-help-menu.png" alt-text="Screenshot that shows the help menu button to access help resources." lightbox="../media/goals/end-user-help-menu.png":::
+1. Navigate to ‘Manage Contributions’ by right-clicking on the parent objective to which the Key result is aligned to. 
+
+    :::image type="content" source="../media/goals/manage-contributions-button.png" alt-text="Screenshot that shows where to find manage contributions." lightbox="../media/goals/manage-contributions-button.png":::
+    
+2. Changing the corresponding KRs to 0% and select **Save**.  
+
+    :::image type="content" source="../media/goals/manage-contributions.png" alt-text="Screenshot that shows roll-up being disabled for a few Key Results." lightbox="../media/goals/manage-contributions.png":::
+    
