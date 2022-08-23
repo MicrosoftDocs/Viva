@@ -31,7 +31,7 @@ Microsoft protects employee privacy and fully complies with local regulations, s
 
 ## Admin tasks
 
-**Teamwork habits** and its features (as described on this page) are available users who have a premium Microsoft Viva Insights license with an applicable [service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+**Teamwork habits** and its features (as described on this page) are available users who have a premium Microsoft Viva Insights license with an applicable [service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Install, pin, and configure the app
 
