@@ -37,7 +37,7 @@ Viva Goals allows you to create 5 distinct types of Key Results; we are broadly 
   When the OKR is required to track a metric which is already at a certain number and must increase to a higher number such as “Increase revenue from $20Mn to $40mn this year”, you can choose the 'Increase from' metric. Here, the ‘from’ indicates the starting value of $20Mn and the ‘to’ indicates the target value of $40Mn.  
 
 3. **Decrease from:**
-  Similarly, when the OKR is required to track a metric which is already at a certain number and must decrease further to a lower number, you can select the ‘Decrease from’ metric type. E.g., “Reduce P0 bugs from 50 to 10 this quarter”. Here, the start value is the higher value of 50 and the target value is the lower value 10.  
+  Similarly, when the OKR is required to track a metric which is already at a certain number and must decrease further to a lower number, you can select the ‘Decrease from’ metric type. For example, “Reduce P0 bugs from 50 to 10 this quarter”. Here, the start value is the higher value of 50 and the target value is the lower value 10.  
 
 ### Control KR types (Quality) 
 Control KR types are useful when you must keep your key results above or below a certain threshold value. For instance, “Keep CSAT score above 9”.  
@@ -58,16 +58,16 @@ Similarly, when the OKR is required to track a metric to help maintain quality s
 
 1. Add a key result by selecting '...' and then choosing the **Add a Key Result** option from the dropdown. You can also edit an existing key result to set a KR type for it.
 
-    :::image type="content" source="../media/goals/add-key-result.png" alt-text="Screenshot that shows thow to add a key result." lightbox="../media/goals/add-key-result.png":::
+    :::image type="content" source="../media/goals/add-key-result.png" alt-text="Screenshot that shows how to add a key result." lightbox="../media/goals/add-key-result.png":::
 
-3. In the create key result page that appears, enter the title of the key result.
+3. In the 'Create Key Results' quick view page that appears, enter the title of the key result.
 4. Select **Add metric** that appears below the title.
 
     :::image type="content" source="../media/goals/add-metric-button.png" alt-text="Screenshot that shows where to find the add metric button." lightbox="../media/goals/add-metric-button.png":::
     
 6. Enter the target name and choose the appropriate KR type using the **Target should** dropdown.
 
-    :::image type="content" source="../media/goals/target-should-dropdown.png" alt-text="Screenshot that shows the various KR types under the Target should dropdown.." lightbox="../media/goals/target-should-dropdown.png":::
+    :::image type="content" source="../media/goals/target-should-dropdown.png" alt-text="Screenshot that shows the various KR types under the target should dropdown." lightbox="../media/goals/target-should-dropdown.png":::
     
 8. Depending on the KR type, enter the target values and select **Create**.
 
@@ -83,14 +83,17 @@ Progress and status for the regular KR types are determined by two types of prog
 Viva Goals calculates expected progress based on the start and end date of an OKR. At the beginning of the time period, the expected progress will be 0% and at the end of the time period the expected progress will be 100% 
 
 **Actual Progress:**
-Based on the check-ins made on the OKR either a. Manually b. From a data source (Integration) c. Roll up from Key results. For further information on how expected or actual progress is calculated refer to this article  
+Actual progress is calculated based on the check-ins made on the OKR. There are three ways check-ins can be made:
+1. Manually
+2. From a data source (Integration) 
+3. Roll up from Key results
 
 ### Status calculation for regular KR types: 
 
 There are two ways in which status can be determined.
 
 1. **Derive Status based on Actual Progress:** Status of the OKR is set based on the actual progress made via automatic progress updates.
-2. **Manually Update Status:** Users can manually update the status of the OKRs by making check-ins. This will override the status set automatically by Viva Goals based on progress updated via roll up from key results or via a data source.
+2. **Manually Update Status:** Users can manually update the status of the OKRs by making check-ins. This will override the status set automatically by Viva Goals based on progress updated via roll-up from key results or via a data source.
 
 You can learn in detail how the progress and status are calculated for regular KR types in [this article](/viva/goals/track-okr-progress-status).
 
@@ -126,20 +129,20 @@ Let's consider the key result "Ensure NPS stays above 9", where 9 is the border 
 
 :::image type="content" source="../media/goals/on-track-stay-above-kr.png" alt-text="Screenshot that shows the progress graph for a stay above KR that's on track." lightbox="../media/goals/on-track-stay-above-kr.png":::
 
-If the value is equal to or less than the threshold value then progress of OKR is 0% and status is set to “At Risk”. 
+If the value is equal to or less than the threshold value, then progress of OKR is 0% and status is set to “At Risk”. 
 
 Let's take the example of the following key result: "Maintain average FCSAT score above 8". Here, 8 is the border value represented by the red line. Since the current progress value is 7.8, which is less than the border value, the progress point is shown to be present in the shaded grey area. This area represents "At Risk" and so, the status of the key result is "At Risk".
 
 :::image type="content" source="../media/goals/at-risk-stay-above-kr.png" alt-text="Screenshot that shows the progress graph for a stay above KR that's at risk." lightbox="../media/goals/at-risk-stay-above-kr.png":::
 
-For control KR types, there is no notion of “Behind” since we consider these KR types as met or not met. 
+For control KR types, there is no notion of “Behind” since we consider these KR types as met or unmet. 
 
 ## How does roll up happen for control KR types? 
-Based on the progress of the OKR for control metrics (either of 0% or 100%), as and when a check-in is made, the value is rolled up from the child KR to the parent objective. 
+Based on the progress of the control metric-type key result (either of 0% or 100%), the value is rolled up from the child KR to the parent objective. 
 
 If you want to turn off roll-up, this can be done by making the contribution of each key result to 0%. Here's how:
 
-1. Navigate to ‘Manage Contributions’ by right-clicking on the parent objective to which the Key result is aligned to. 
+1. Right-click on the parent objective and select **Manage contributions**. 
 
     :::image type="content" source="../media/goals/manage-contributions-button.png" alt-text="Screenshot that shows where to find manage contributions." lightbox="../media/goals/manage-contributions-button.png":::
     
