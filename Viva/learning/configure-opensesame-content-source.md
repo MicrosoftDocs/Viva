@@ -1,7 +1,7 @@
 ---
 title: Configure OpenSesame as a content source for Microsoft Viva Learning
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 3/15/2022
