@@ -94,7 +94,7 @@ You can also manually trigger summary and follower update emails from the Share 
 
 3. Select **Add a personal note** if you want to add more context when you share the summary of objectives. You can select the option **Include objective progress changes in the last xx days** and set the number of days for the summary to cover.
 
-    :::image type="content" source="../media/goals/3/37/f.jpg" alt-text="Screenshot shows where you send an email summary." lightbox="../media/goals/3/37/f.jpg":::
+    :::image type="content" source="../media/goals/3/37/f.png" alt-text="Screenshot shows where you send an email summary." lightbox="../media/goals/3/37/f.png":::
 
 To send yourself a preview of the message that will be shared, select **Send Preview**
 
