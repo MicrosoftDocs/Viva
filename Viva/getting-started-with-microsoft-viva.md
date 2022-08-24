@@ -25,7 +25,6 @@ With the growth in hybrid work, it's more important than ever to connect employe
 
 >[!NOTE] 
 > New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/engage/overview), [Viva Goals](/goals/intro-to-ms-viva-goals), and [Viva Sales](/sales/introduction). 
-<br>
 
 [Learn more about new Viva experiences](#learn-more-about-new-viva-experiences)
 
