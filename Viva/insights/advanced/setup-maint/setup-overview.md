@@ -23,23 +23,19 @@ The setup steps vary depending on the type of insights you are going to view in 
 
 Your admin needs to set up Viva Insights for personal insights before you can start using the different personal insights apps that are available. For details, refer to the [Admin guide for personal insights](/viva/insights/personal/overview/mya-for-admins.md).
 
-## Team insights and group insights
+## Teamwork habits
 
-My team and its features are available to managers or team leads who have a Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments.md). Additional features are available to group managers with the manager role. Your admin needs to do the following things before you can start using what’s available in Viva Insights for group and team insights.
+**Teamwork habits** and its features are available to users with a Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments.md).
 
-For Team insights:
+You can access **Teamwork habits** through the Viva Insights app on the web or in Teams. To access through Teams, you'll need to set up the Viva Insights app in Teams. For details, refer to  [Install, pin, and configure the app](../../org-team-insights/org-trends.md#install-pin-and-configure-the-app).
 
-* Set up the Viva Insights app in Microsoft Teams. For details, refer to  [Install, pin, and configure the app](../../org-team-insights/org-trends.md#install-pin-and-configure-the-app).
+## Organization trends
 
-For group and manager insights:
+**Organization trends** offers additional features to group managers with the manager role. Your admin needs to do the following things before you can start using what’s available in Viva Insights for group and team insights.
 
 * Set up the Viva Insights app in Microsoft Teams. For details, refer to  [Install, pin, and configure the app](/viva/insights/use/viva-insights-my-org.md#install-pin-and-configure-the-app).
 * Assign the manager role. To do this, they can go to the **advanced insights app > [Manager settings](./manager-settings.md)**.
 
-## Leader insights
-
-Your admin needs to set up the Viva Insights app in Microsoft Teams before you can start using what's available in Viva Insights for business leaders. For details, refer to [Install, pin, and configure the app](/viva/insights/use/viva-insights-my-org.md#install-pin-and-configure-the-app).
-
 ## Advanced insights
 
-Before you can use the advanced analysis tools that are available in Viva Insights, your admin must complete the required steps in [Set up advanced insights](./setup.md), which includes assigning licenses.
+Before you can use the advanced analysis tools that are available in Viva Insights, your admin needs to complete the required steps in [Set up advanced insights](./setup.md), which includes assigning licenses.
