@@ -25,7 +25,7 @@ The following table provides a list of the error codes or messages that you migh
 > [!NOTE]
 > The maximum number of active learning items supported in a tenant is 500,000 records. The maximum number of total learning items supported in a tenant is 1 million records.
 
-|Content provider |Error code |Error code description |
+|Content provider |Error code/Error message |Error description |
 |:----------------|:----------|:----------------------|
 |All providers |USR_ERROR_INVALID_RESOURCE_CREDENTIALS |The authentication credentials you provided are invalid. <br/><br/>**Next steps:** Make sure you enter the correct credentials. If they're correct, [contact Microsoft customer support](help-support.md) for more details.|
 |All providers |USR_ERROR_ACCESS_DENIED |Access denied by partner. <br/><br/>**Next steps:** Confirm that the credentials you entered are correct or contact the content provider's support team. |
