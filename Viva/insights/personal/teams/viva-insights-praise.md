@@ -34,11 +34,11 @@ To send praise, open the praise feature in one of the following ways:
 
 1. On the Home page, select **Send praise** button on the **Send praise to your colleagues** card, which is located on the **Home** page at center left.
 
-   ![Screenshot that shows Praise on Home page.](images/send-praise-from-home.png)
+   :::image type="content" source="images/send-praise-from-home.png" alt-text="Screenshot that shows Praise on Home page.":::
 
 2. When the **Praise** page opens, the badge defaults to **Awesome**. If you’d like to send a different badge with your praise message, select a new choice:
 
-    ![Screenshot that shows selecting a praise badge.](images/new-badge-choice.png)
+    :::image type="content" source="images/new-badge-choice.png" alt-text="Screenshot that shows selecting a praise badge.":::
 
 3. Add the name of the person you want to praise.
 
@@ -53,7 +53,7 @@ To send praise, open the praise feature in one of the following ways:
 6. (Optional) Select **Preview**.
    * Inspect your praise on the left panel. If you need to edit it, select **Edit**. Change the badge choice, the recipients list, or the personalized note.
 
-   ![Screenshot that shows the message preview.](images/preview.png)
+   :::image type="content" source="images/preview.png" alt-text="Screenshot that shows the message preview.":::
 
 7. When it's ready to go, select **Send**.
 
@@ -65,13 +65,13 @@ To use the Teams messaging extension:
 
 1. Below the **Type a new message** field, select **Praise**.
 
-   ![Screenshot that shows selecting the Praise icon.](images/content-pane-select-praise1.png)
+   :::image type="content" source="images/content-pane-select-praise1.png" alt-text="Screenshot that shows selecting the Praise icon.":::
 
    (If the Praise feature doesn't appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).)
 
 2. When the **Praise** modal opens, the badge defaults to **Awesome**. If you want to send a different badge with your praise message, select a new choice.
 
-   ![Screenshot that shows selecting a new badge.](images/praise-chat-select-new-badge.png)
+   :::image type="content" source="images/praise-chat-select-new-badge.png" alt-text="Screenshot that shows selecting a new badge.":::
 
 3. If you’re in a group chat or channel, add the name of the person you want to praise. In a 1:1 chat, the name defaults to the other person in the chat.
 
@@ -85,11 +85,11 @@ To use the Teams messaging extension:
 
 1. Below the **Type a new message** field, select more options (the ellipsis):
 
-   ![Screenshot that shows selecting the ellipsis.](images/type-new-msg1.png)
+   :::image type="content" source="images/type-new-msg1.png" alt-text="Screenshot that shows selecting the ellipsis.":::
 
 2. In the **Find an app** field, start typing "praise" and then select the **Praise** app to open it.  
 
-   ![Screenshot that shows typing to find the Praise app.](images/find-app-praise.png)
+   :::image type="content" source="images/find-app-praise.png" alt-text="Screenshot that shows typing to find the Praise app.":::
 
    The **Praise** app opens.
 
@@ -111,7 +111,7 @@ From the **Home** page:
 
 1. On the **Send praise to your colleagues** card, select the **Send praise** button.
 1. On the **Praise** page, configure your reminder through the card on the right.
-   ![Screenshot that shows Praise reminder on the Praise page.](images/praise-reminder-pane.png)
+   :::image type="content" source="images/praise-reminder-pane.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
 
 From the Settings page:
 
@@ -119,7 +119,7 @@ From the Settings page:
 1. Select **Praise** from the left pane.
 1. In the praise reminder settings, move the **Reminder** toggle to **On**, then select the time of day and day of the week you want to be reminded.
 
-   ![Screenshot that shows Praise reminder settings on the Settings page.](images/praise-set-reminder-in-settings.png)
+   :::image type="content" source="images/praise-set-reminder-in-settings.png" alt-text="Screenshot that shows Praise reminder settings on the Settings page.":::
 
    On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send praise from the Viva Insights Home page](#send-praise-from-the-viva-insights-home-page).
 
@@ -130,7 +130,7 @@ From the Settings page:
 
 In the **Looking back** section on the **Praise** page, you can see the history for as many as 24 messages that you have either sent or received over the last six months. This history includes any praise sent or received through this page and through the Teams messaging extension.
 
-![Screenshot that shows Praise history.](images/praise-history.png)
+:::image type="content" source="images/praise-history.png" alt-text="Screenshot that shows Praise history." lightbox="images/praise-history.png":::
 
 This history includes related praise details, such as the type of badge, who the sender and receiver were, the date and time it was sent, and so on. You can also view the original praise in the Teams chat by selecting **Go to message** within the detailed view of the badge.
 
@@ -140,7 +140,7 @@ You can also access your personal praise history by selecting **Review your prai
 
 At the top of the **Praise** page, you'll see praise recommendations for your top collaborators. Recommendations provide pre-populated suggestions to send praise based on signals such as collaboration activity. If you're a manager, the app recommends team members you haven't praised in a while. To start your message, select the **Start praise** button.
 
-![Screenshot that shows Praise recommendations.](images/praise-recommendations.png)
+:::image type="content" source="images/praise-recommendations.png" alt-text="Screenshot that shows Praise recommendations.":::
 
 ## Related topics
 
