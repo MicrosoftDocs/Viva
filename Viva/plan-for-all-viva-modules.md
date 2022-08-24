@@ -22,6 +22,9 @@ description: "Get all Microsoft Viva modules"
 
 [Microsoft Viva](https://www.microsoft.com/microsoft-viva) currently offers four modules that can make an impact on their own and become even more powerful when used together. Learn more about [individual Viva modules](discover-more-about-each-viva-module.md) and how you can use [two or more modules together](learn-how-to-combine-modules.md) to create personalized employee experiences for your organization.
 
+>[!NOTE] 
+> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/engage/overview), [Viva Goals](/goals/intro-to-ms-viva-goals), and [Viva Sales](/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
+
 Follow the guidance in this article if you know your organization wants all four Viva modules.
 
 |:::image type="icon" source="media/viva-confirm-licensing.png" border="false"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png" border="false"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png" border="false"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png" border="false"::: <br> Step 4|

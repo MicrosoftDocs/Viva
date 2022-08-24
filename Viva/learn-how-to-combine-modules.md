@@ -29,7 +29,7 @@ Microsoft Viva modules can be combined to create powerful employee experiences f
 - Knowledge sharing and management
 
 >[!NOTE] 
-> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/engage/overview), [Viva Goals](/goals/intro-to-ms-viva-goals), and [Viva Sales](/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences)
+> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/engage/overview), [Viva Goals](/goals/intro-to-ms-viva-goals), and [Viva Sales](/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
 
 ## Training and onboarding
 

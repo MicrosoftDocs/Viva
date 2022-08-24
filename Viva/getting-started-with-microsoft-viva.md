@@ -24,7 +24,7 @@ description: "Learn everything about Microsoft Viva and Microsoft Viva experienc
 With the growth in hybrid work, it's more important than ever to connect employees with an experience that brings together communications, knowledge, learning, resources, and insights all in Microsoft Teams.
 
 >[!NOTE] 
-> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/engage/overview), [Viva Goals](/goals/intro-to-ms-viva-goals), and [Viva Sales](/sales/introduction). Learn more about [new Viva experiences](#learn-more-about-new-viva-experiences)
+> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/engage/overview), [Viva Goals](/goals/intro-to-ms-viva-goals), and [Viva Sales](/sales/introduction). Learn more about [new Viva experiences](#learn-more-about-new-viva-experiences).
 
 
 Microsoft Viva is an employee experience platform made up of four modules that can be used individually or combined to meet your organization’s needs. Microsoft Viva is customizable and extensible, accessible from anywhere you work, and integrates with tools you already use. It also supports various partner integrations to give you access to industry-leading apps in the natural flow of work.
@@ -108,7 +108,7 @@ Review how each Viva module will impact the day-to-day work of the rest of your 
 
 
 ## Learn more about new Viva experiences 
-New Microsoft Viva experiences have just been released or are coming soon. Learn more about how each Viva experience can be incorporated into your organization's employee experience. 
+New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution soon. Learn more about how each Viva experience can be incorporated into your organization's employee experience. 
 
 | Module              | Features and capabilities | Overview          |
 | :------------------- | :------------------- |:----------------|
