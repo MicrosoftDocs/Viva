@@ -21,7 +21,7 @@ As the need to accommodate remote workers continues, employees and their organiz
 
 The Business resilience report is available within the Adoption Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](/graph) data to provide high-level insights about how your organization collaborates and how it's changed over time.
 
-:::image type="content" source="../Images/WpA/Tutorials/bus-res-psr.png" alt-text="Business resilience option within Adoption Score.":::
+:::image type="content" source="../Images/WpA/Tutorials/bus-res-psr.png" alt-text="Screenshot that shows the Business resilience option within Adoption Score.":::
 
 >[!Note]
 >Organizations who have at least 100 active Exchange Online users with active [Viva Insights licenses](../personal/overview/plans-environments.md) can see this report when they register for the Adoption Score.
@@ -33,7 +33,7 @@ We encourage you to share this report with business leaders in your organization
 * Able to effectively meet and share ideas and information remotely.
 * Maintaining their community connections.
 
-:::image type="content" source="../Images/WpA/Tutorials/bus-res-ex.png" alt-text="Business resilience example report.":::
+:::image type="content" source="../Images/WpA/Tutorials/bus-res-ex.png" alt-text="Screenshot that shows the Business resilience example report.":::
 
 In the report, when it says the **last 90 days**, it’s referring to the time period of the last 90 days from when the day the report was updated. Also, where it says **90 days ago**, it’s referring to the time period starting from 180 days ago to 91 days from when the day the report was updated.
 
