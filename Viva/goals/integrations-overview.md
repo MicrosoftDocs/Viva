@@ -1,8 +1,8 @@
 ---
 title: Integrations overview
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -70,19 +70,19 @@ C. From the quick-view window, click on the **Integrations icon**  and select **
 
 The following is a list of all the integrations available in Viva Goals today:
 
-| [Amazon RedShift](/viva/goals/amazon-redshift-integration) | [Mode](/viva/goals/mode-integration) |
-| [Asana](/viva/goals/asana-integration) | [monday.com](/viva/goals/monday.com-integration) |
-| [Azure DevOps](/viva/goals/azure-devops-integration) | [MS SQL Server](/viva/goals/ms-sql-server-integration) |
-| [BigQuery](/viva/goals/bigquery-integration) | [MySQL](/viva/goals/mysql-integration) |
-| [Box](/viva/goals/box-integration) | [MS Teams](/viva/goals/ms-teams-integration) |
-| [Domo](/viva/goals/domo-integration) | [Planview Projectplace](/viva/goals/planview-projectplace-integration) |
-| [Excel Online](/viva/goals/excel-online-integration) | [PostgreSQL](/viva/goals/postgresql-integration) |
-| [Favro](/viva/goals/favro-generating-an-api-token) | [Salesforce](/viva/goals/salesforce-integration) |
-| [GitHub](/viva/goals/github-integration) | [Smartsheet](/viva/goals/smartsheet-integration) |
-| [GitLab](/viva/goals/gitlab-integration) | [Snowflake](/viva/goals/snowflake-integration) |
-| [Hubspot](/viva/goals/hubspot-integration) | [Tableau](/viva/goals/tableau-integration) |
-| [Jira](/viva/goals/jira-integration) | [Trello](/viva/goals/trello-integration) |
-| [Looker](/viva/goals/looker-integration) | [Zendesk](/viva/goals/zendesk-integration) |
+- [Amazon RedShift](/viva/goals/amazon-redshift-integration) - [Mode](/viva/goals/mode-integration) |
+- [Asana](/viva/goals/asana-integration) - [monday.com](/viva/goals/monday.com-integration) |
+- [Azure DevOps](/viva/goals/azure-devops-integration) - [MS SQL Server](/viva/goals/ms-sql-server-integration) |
+- [BigQuery](/viva/goals/bigquery-integration) - [MySQL](/viva/goals/mysql-integration) |
+- [Box](/viva/goals/box-integration) - [MS Teams](/viva/goals/ms-teams-integration) |
+- [Domo](/viva/goals/domo-integration) - [Planview Projectplace](/viva/goals/planview-projectplace-integration) |
+- [Excel Online](/viva/goals/excel-online-integration) - [PostgreSQL](/viva/goals/postgresql-integration) |
+- [Favro](/viva/goals/favro-generating-an-api-token) - [Salesforce](/viva/goals/salesforce-integration) |
+- [GitHub](/viva/goals/github-integration) - [Smartsheet](/viva/goals/smartsheet-integration) |
+- [GitLab](/viva/goals/gitlab-integration) - [Snowflake](/viva/goals/snowflake-integration) |
+- [Hubspot](/viva/goals/hubspot-integration) - [Tableau](/viva/goals/tableau-integration) |
+- [Jira](/viva/goals/jira-integration) - [Trello](/viva/goals/trello-integration) |
+- [Looker](/viva/goals/looker-integration) - [Zendesk](/viva/goals/zendesk-integration) |
 
 ## How to disable an integration
 
