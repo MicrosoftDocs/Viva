@@ -1,7 +1,7 @@
 ---
 
 title: Configure Viva Insights
-description: Learn how to configure the settings for the Microsoft Viva Insights app in Teams
+description: Learn how to configure the settings for the Microsoft Viva Insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -32,7 +32,7 @@ To configure the settings:
    * **Workweek** – Edit the days of the week that you work, your start time, end time, and your time zone. These settings are kept synchronized with the same settings in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). That is, if you change them in one place, they will be updated everywhere that they appear.
    * **Virtual commute** – Choose whether you want a reminder to wrap up your day and when you want to see that reminder.
     * **Protect time** – You can do three things in **Protect time** settings:
-        * Set up your **quiet hours**: Select whether you want to mute mobile notifications during certain times of the day, and whether there are some days you want to mute mobile notifications all day.
+        * Set up your **quiet time**: Select whether you want to mute mobile notifications during certain times of the day, and whether there are some days you want to mute mobile notifications all day.
         >[!Note]
         > Quiet time is currently in private preview.
         * Set up a **no-meeting day** reminder, which reminds you to clear conflicting meetings on no-meeting days.

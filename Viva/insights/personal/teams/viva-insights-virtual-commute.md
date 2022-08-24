@@ -15,7 +15,7 @@ audience: user
 
 # Virtual commute
 
-You can use virtual commute feature in the Microsoft Viva Insights app in Teams from either the [Up-next card](#up-next-card) or [Within Protect time](#within-protect-time).
+You can use virtual commute feature in the Microsoft Viva Insights app from either the [Up-next card](#up-next-card) or [Within Protect time](#within-protect-time).
 
 If you’ve set a reminder, that reminder appears as a Teams notification you can select to begin your virtual commute.
 
