@@ -17,7 +17,7 @@ audience: Admin
 
 # Viva Insights setup overview
 
-The setup steps vary depending on the type of insights you are going to view in which Microsoft Viva Insights features.
+Depending on the insights you want to see and which features they require, the setup process for Microsoft Viva Insights varies. This article gives a quick overview of the different types of insights available in Viva Insights and what you need to do to get things up and running.
 
 ## Personal insights
 
