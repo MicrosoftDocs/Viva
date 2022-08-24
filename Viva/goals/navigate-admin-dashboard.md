@@ -1,8 +1,8 @@
 ---
 title: Navigate the admin dashboard
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
