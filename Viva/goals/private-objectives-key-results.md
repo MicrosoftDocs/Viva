@@ -1,8 +1,8 @@
 ---
 title: "Private objectives and key results"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: <TBD>
 audience: Admin
 f1.keywords:
