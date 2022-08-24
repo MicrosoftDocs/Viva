@@ -55,7 +55,13 @@
               href: configure-udemy-content-source.md
         - name: Free courses from LinkedIn Learning
           href: linkedin-learning-free-courses.md
-
-            
-
-
+    - name: Troubleshoot
+      items:
+        - name: Learning management systems
+          items:
+            - name: Content ingestion errors when adding an LMS 
+              href: lms-content-ingestion-errors.md
+        - name: Content providers
+          items:
+            - name: Content ingestion errors when adding a content provider
+              href: provider-content-ingestion-errors.md
