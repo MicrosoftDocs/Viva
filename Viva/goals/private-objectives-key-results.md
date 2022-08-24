@@ -1,8 +1,8 @@
 ---
 title: "Private objectives and key results"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: <TBD>
 audience: Admin
 f1.keywords:
@@ -43,18 +43,18 @@ By default, all objectives are visible to the entire organization unless you fol
 
 1. Select **Visibility** on the **Add/Edit Objective** window.
 
-![Screenshot shows a private objective with the visibility option highlighted.](../media/goals/4/414/a.jpg)
+    :::image type="content" source="../media/goals/4/414/a.jpg" alt-text="Screenshot shows a private objective with the visibility option highlighted." lightbox="../media/goals/4/414/a.jpg":::
 
 2. Select **Private** and enter the name(s) of the required users to make it private to only this list of people and select **Done**.
 
     > [!NOTE]
     > This users on the list will also be able to see any key results below the objective.
 
-   ![Screenshot shows the list visibility diaolog with a list users for a private objective.](../media/goals/4/414/b.jpg)
+    :::image type="content" source="../media/goals/4/414/b.jpg" alt-text="Screenshot shows the list visibility diaolog with a list users for a private objective." lightbox="../media/goals/4/414/b.jpg":::
 
 3. Now the user can see this objective is private to them and one other person.
 
-   ![Screenshot shows an objective with visibility set to private.](../media/goals/4/414/c.jpg)
+    :::image type="content" source="../media/goals/4/414/c.jpg" alt-text="Screenshot shows an objective with visibility set to private." lightbox="../media/goals/4/414/c.jpg":::
 
 The owner of the object can modify privacy of that objective.
 
