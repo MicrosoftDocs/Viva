@@ -31,10 +31,11 @@ You can access **Teamwork habits** through the Viva Insights app on the web or i
 
 ## Organization trends
 
-**Organization trends** offers additional features to group managers with the manager role. Your admin needs to do the following things before you can start using what’s available in Viva Insights for group and team insights.
+**Organization trends** offers additional features to group managers who've been assigned the manager role. Before you can start using Organization trends, your admin needs to:
 
-* Set up the Viva Insights app in Microsoft Teams. For details, refer to  [Install, pin, and configure the app](/viva/insights/use/viva-insights-my-org.md#install-pin-and-configure-the-app).
-* Assign the manager role. To do this, they can go to the **advanced insights app > [Manager settings](./manager-settings.md)**.
+* Assign you the manager role, which they can do through the **advanced insights app > [Manager settings](./manager-settings.md)**.
+
+* Get the Viva Insights app set up in Teams so you can view insights there. For details, refer to  [Install, pin, and configure the app](/viva/insights/use/viva-insights-my-org.md#install-pin-and-configure-the-app). In addition to in Teams, you can also see the Viva Insights app on the web.
 
 ## Advanced insights
 
