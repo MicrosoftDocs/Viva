@@ -61,7 +61,7 @@ After your admin completes the [Admin tasks](#admin-tasks), you can set up **Org
 * [Configure the app](../personal/teams/viva-teams-app-settings.md)
 
 >[!Note]
->You can also locate the Viva Insights app at [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
+>You can also open a web-based Viva Insights at [insights.viva.office.com](https://insights.viva.office.com/), or through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com/).
 
 ## View Organization trends
 
