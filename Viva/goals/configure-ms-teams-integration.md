@@ -37,7 +37,7 @@ The first way to add Viva Goals to Teams is for you to select the ellipsis [**â€
 
 From the Viva Goals app detail page, you can select the **Add** button to add Viva Goals.
 
-:::image type="content" source="../media/goals/5/add-viva-goals-from-navigation-bar.png" alt-text="Screenshot shows how to use the "Add" button to add Viva Goals app from Teams." lightbox="../media/goals/5/add-viva-goals-from-navigation-bar.png":::
+:::image type="content" source="../media/goals/5/add-viva-goals-from-navigation-bar.png" alt-text="Screenshot shows how to use the Add button to add Viva Goals app from Teams." lightbox="../media/goals/5/add-viva-goals-from-navigation-bar.png":::
 
 Another way to Add Viva Goals is to visit the Apps store, search for Viva Goals, and select the Viva Goals app listing.
 
@@ -80,7 +80,7 @@ We'll show how to preinstall the app for a specific group of users. If you want 
 6. After you add the app to the **Apps to add** list, select **Add** at the bottom of the dialog box to confirm.
 7. To make sure users can find the installed app, we recommend you also pin the app and the message extension. Under **Pinned apps**, select **Add app**.
 
-      :::image type="content" source="../media/goals/5/add-pinned-apps-button.png" alt-text="Screenshot shows where to choose to add an app to "pinned apps"." lightbox="../media/goals/5/add-pinned-apps-button.png":::
+      :::image type="content" source="../media/goals/5/add-pinned-apps-button.png" alt-text="Screenshot shows where to choose to add an app to pinned apps." lightbox="../media/goals/5/add-pinned-apps-button.png":::
 
 8. Search for and add the Viva Goals app. Select **Save** to confirm the changes to this policy.
 

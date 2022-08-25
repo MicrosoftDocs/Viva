@@ -34,7 +34,7 @@ This procedure will generate an API token for your Favro account that you can us
   
 4. Select the **Create new token** button**.
   
-    :::image type="content" source="../media/goals/12/favro-create-token-button.png" alt-text="Screenshot shows where you choose "Create token" in Favro." lightbox="../media/goals/12/favro-create-token-button.png":::
+    :::image type="content" source="../media/goals/12/favro-create-token-button.png" alt-text="Screenshot shows where you choose Create token in Favro." lightbox="../media/goals/12/favro-create-token-button.png":::
   
 This procedure will generate an API token for your Favro account that you can use to integrate with Viva Goals. 
 

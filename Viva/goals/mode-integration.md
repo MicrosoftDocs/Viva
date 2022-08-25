@@ -38,7 +38,7 @@ All users and admins have access to this integration. Admins also have permissio
 
 2. In the integrations section, go to **Mode** and then select **Manage**.
 
-    :::image type="content" source="../media/goals/11/mode-manage-button.png" alt-text="Screenshot shows where to select "Mange" for Mode in Viva Goals." lightbox="../media/goals/11/mode-manage-button.png":::
+    :::image type="content" source="../media/goals/11/mode-manage-button.png" alt-text="Screenshot shows where to select Mange for Mode in Viva Goals." lightbox="../media/goals/11/mode-manage-button.png":::
 
 3. Select **New Connection**. In the pop-up dialog, sign in to your Mode account. 
 
@@ -50,7 +50,7 @@ All users and admins have access to this integration. Admins also have permissio
 
 2. To create your mode API token, select your profile and then select **My Account Settings**. On your account page, go to **API Tokens** under **Community**. Select **Create token** to create a new mode API token.
 
-    :::image type="content" source="../media/goals/11/mode-create-token.png" alt-text="Screenshot shows where you select "Create token" for Mode." lightbox="../media/goals/11/mode-create-token.png":::
+    :::image type="content" source="../media/goals/11/mode-create-token.png" alt-text="Screenshot shows where you select Create token for Mode." lightbox="../media/goals/11/mode-create-token.png":::
 
 3. After you have your Mode workspace ID and API token, add the token to the connection page in Viva Goals. 
 

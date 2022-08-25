@@ -37,7 +37,7 @@ An admin can follow these steps to set up Salesforce integration in Viva Goals.
 
 3. Select **"New Connection"** and follow the prompts to sign in to your Salesforce account.
   
-    :::image type="content" source="../media/goals/9/salesforce-new-connection-button.png" alt-text="Screenshot shows where you select "New Connection" for Salesforce in Viva Goals." lightbox="../media/goals/9/salesforce-new-connection-button.png":::
+    :::image type="content" source="../media/goals/9/salesforce-new-connection-button.png" alt-text="Screenshot shows where you select New Connection for Salesforce in Viva Goals." lightbox="../media/goals/9/salesforce-new-connection-button.png":::
 
 4. Select **"Next"** to finish setup.
 

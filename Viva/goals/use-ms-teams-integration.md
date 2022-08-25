@@ -52,13 +52,13 @@ To maintain your alignment to top-level OKRs, the **Organization OKRs** tab show
 
 On both the **My OKRs** and **Organization OKRs** tabs, you can search for any OKRs from the upper-right corner. You can use this to view any team's OKRs or search for OKRs by name. This is a powerful way to quickly see what other teams in your organization are focused on. 
 
-:::image type="content" source="../media/goals/5/search-bar-to-find-okrps.png" alt-text="Screenshot shows how to find OKRs/projects by using the search bar in "My OKRs"." lightbox="../media/goals/5/search-bar-to-find-okrps.png":::
+:::image type="content" source="../media/goals/5/search-bar-to-find-okrps.png" alt-text="Screenshot shows how to find OKRs/projects by using the search bar in My OKRs." lightbox="../media/goals/5/search-bar-to-find-okrps.png":::
 
 <h2 id="add-objective-in-teams">How to add new objectives in Microsoft Teams</h2>
 
 1. On the **My OKRs** page, select **Add Objective**. 
 
-     :::image type="content" source="../media/goals/5/add-objective-button-in-my-okrs-tab.png" alt-text="Screenshot that shows where you select "Add Objective." lightbox="../media/goals/5/add-objective-button-in-my-okrs-tab.png":::
+     :::image type="content" source="../media/goals/5/add-objective-button-in-my-okrs-tab.png" alt-text="Screenshot that shows where you select Add Objective." lightbox="../media/goals/5/add-objective-button-in-my-okrs-tab.png":::
          
 2. When the **Add Objective** page appears, enter your objective, add useful tags and a description, choose a flexible measurement option, align the objective to another objective, and adjust owner, delegation and period. 
 
@@ -66,7 +66,7 @@ On both the **My OKRs** and **Organization OKRs** tabs, you can search for any O
          
 3. After you populate the objective information, select **Save and Close**, or **Save and Add Key Results**. 
 
-     :::image type="content" source="../media/goals/5/create-options-for-new-objective.png" alt-text="Screenshot of the "New Objective" dialog box that emphasizes the options to create another objective, key result, or project." lightbox="../media/goals/5/create-options-for-new-objective.png":::
+     :::image type="content" source="../media/goals/5/create-options-for-new-objective.png" alt-text="Screenshot of the New Objective dialog box that emphasizes the options to create another objective, key result, or project." lightbox="../media/goals/5/create-options-for-new-objective.png":::
          
 <h2 id="add-krs-in-teams">How to add key results in Microsoft Teams</h2>
 

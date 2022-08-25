@@ -39,11 +39,11 @@ Admins can follow these steps to enable this integration:
 
 2. For **GitLab**, you'll have an option to **Enable** the integration. If you already created a connection, you'll have an option to **Manage** the integration.
   
-    :::image type="content" source="../media/goals/10/gitlab-enable-button.png" alt-text="Screenshot highlights the "enable" option for GitLab in Viva Goals." lightbox="../media/goals/10/gitlab-enable-button.png":::
+    :::image type="content" source="../media/goals/10/gitlab-enable-button.png" alt-text="Screenshot highlights the enable option for GitLab in Viva Goals." lightbox="../media/goals/10/gitlab-enable-button.png":::
   
 3. You can also disable the integration from the same section: Go to **Change** and select **Disable integration** from the dropdown.
     
-   :::image type="content" source="../media/goals/10/gitlab-disable-button.png" alt-text="Screenshot shows where you select "Disable Integration" for GitLab in Viva Goals." lightbox="../media/goals/10/gitlab-disable-button.png"::: 
+   :::image type="content" source="../media/goals/10/gitlab-disable-button.png" alt-text="Screenshot shows where you select Disable Integration for GitLab in Viva Goals." lightbox="../media/goals/10/gitlab-disable-button.png"::: 
 
 ## For admins: How to connect GitLab to your Viva Goals account
 
