@@ -18,9 +18,7 @@ audience: Admin
 
 # Meeting effectiveness
 
-Meetings often represent your organization’s largest resource investment. In Microsoft Viva Insights, three elements make up the Meeting effectiveness framework: Before the meeting, during the meeting, and after the meeting.
-
-This article explains how to leverage best practices before, during, and after your next meeting to make the most of this time.
+Meetings often represent your organization’s largest resource investment. In Microsoft Viva Insights, three elements make up the Meeting effectiveness framework: Before the meeting, during the meeting, and after the meeting. This article explains how to leverage best practices before, during, and after your next meeting to make the most of this time.
 
 You can find the **Meeting effectiveness** tab in the Viva Insights app, under **Organization trends**.
 

@@ -18,15 +18,13 @@ audience: Admin
 
 # Manager connection
 
-Because a focus on *coaching* and *empowering* employees sets your team up to deliver their best, Microsoft Viva Insights uses these two elements make up the Manager connection framework.
+Because a focus on *coaching* and *empowering* employees sets your team up to deliver their best, Microsoft Viva Insights uses these two elements make up the Manager connection framework. This article explains how to leverage best practices for coaching and empowerment, and how related insights are calculated.
 
-This article explains how to leverage best practices for coaching and empowerment, and how related insights are calculated.
-
-You can find the **Manager connection** tab in the Viva Insights app, under **Organization trends**.
+You can find the **Manager connection** page in the Viva Insights app, within the **Organization trends** tab.
 
 <!-- placeholder image-->
 
-![Screenshot that shows the Manager connection tab.](../Images/WpA/Use/org-manager-connection1.png)
+![Screenshot that shows the Manager connection page.](../Images/WpA/Use/org-manager-connection1.png)
 
 ## Coaching
 
@@ -34,7 +32,7 @@ You can find the **Manager connection** tab in the Viva Insights app, under **Or
 
 #### Insights
 
-For **Coaching**, the **Manager connection** tab provides a percentage insight that shows how many employees meet with their manager for less than one hour a month and a visual insight that shows the distribution of monthly 1:1 time with managers.
+For **Coaching**, the **Manager connection** page provides a percentage insight that shows how many employees meet with their manager for less than one hour a month and a visual insight that shows the distribution of monthly 1:1 time with managers.
 
 ![Screenshot of the app that shows the Coaching insight.](../Images/WpA/Use/org-manager-connection-coaching.png)
 
@@ -71,7 +69,7 @@ For more best practices and how to develop a 1:1 conversation series, see [Best 
 
 #### Insights
 
-For **Empowerment**, the **Manager connection** tab provides a percentage insight that shows how many employees have their managers attend a majority of their meetings and a visual insight that shows the distribution of manager-coaching relationships.
+For **Empowerment**, the **Manager connection** page provides a percentage insight that shows how many employees have their managers attend a majority of their meetings and a visual insight that shows the distribution of manager-coaching relationships.
 
 Here’s some information about how those metrics are calculated:
 
