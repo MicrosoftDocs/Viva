@@ -1,8 +1,8 @@
 ---
 title: monday.com integration
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -20,9 +20,6 @@ description: "Learn how to connect your projects in monday.com with Viva Goals."
 
 # monday.com integration
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## About the monday.com integration
 
 The Viva Goals monday.com integration allows you to link your OKRs to monday.com boards for automatic real-time updates on your objectives. 
@@ -33,7 +30,7 @@ All users and admins can use the monday.com integration. Admins also have permis
 
 ## How to install the Viva Goals app for monday.com
 
-Before setting up the integration connection, reach out to your monday.com administrator to install the Viva Goals app using this [link.](https://auth.monday.com/auth/login_monday/enter_slug?force_existing_account=true&oauth_payload_token=eyJhbGciOiJIUzI1NiJ9.eyJjbGllbnRfaWQiOiJiMTFlMmUxMDljOTdiMzcxYzAzYTk0YzRlNWQ4ZWNmZSIsInJlc3BvbnNlX3R5cGUiOiJpbnN0YWxsIiwib2F1dGhfdmVyc2lvbiI6Mn0.ld79ozTcYkdq5gD2eu60HSLoDeuNB_nb2bsOsmJzqyM](https://auth.monday.com/oauth2/authorize?client_id=1d353d6e717b0b9329a61b0a264499b4&response_type=install) 
+Before setting up the integration connection, reach out to your monday.com administrator to install the Viva Goals app using this [link](https://auth.monday.com/oauth2/authorize?client_id=1d353d6e717b0b9329a61b0a264499b4&response_type=install).
 
 ## How to connect monday.com to your Viva Goals account from the admin dashboard
 

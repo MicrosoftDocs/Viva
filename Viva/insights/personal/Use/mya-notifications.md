@@ -30,10 +30,8 @@ Inline suggestions are available in the latest versions of Outlook for the web a
 * Outlook Insights add-in version 3.0.0.0 or higher. To check the installed version of the add-in, see [Exchange admin center](/exchange/architecture/client-access/exchange-admin-center). The add-in is installed at the tenant level, after which it can take up to eight days for the upgrade to propagate to all users. If you notice that the proper add-in version isn't installed in Outlook, you can add it by following the steps in [Add the Viva Insights Outlook add-in](../overview/mya-faq.md#add-the-viva-insights-outlook-add-in).
 * Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](/outlook/actionable-messages/).
 
-In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook on the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
+In Outlook for Windows and Outlook on the web, inline suggestions will show up while reading or composing an email or a meeting invitation.
 
->[!Note]
->In Outlook on the web, we're in the process of rolling out inline suggestions for when you're composing an email or a meeting invitation.
 
 ## Types of inline suggestions
 
@@ -173,6 +171,13 @@ When composing a meeting invitation with a duration of one hour, you might see a
 Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all the participants in the meeting.
 
 ![Shorten a meeting; nice work](../../Images/mya/use/shorten-meeting-nice-work-50.png)
+
+**Shorten meeting** is triggered when:
+
+- You're composing a one-hour meeting.
+- You're not scheduling a same-day meeting.
+- For *recurring* meetings, there are at least three attendees, including the organizer. Attendees can be either optional or required.
+- For meetings that *don't* recur, there are at least four attendees, including the organizer. Attendees can be either optional or required.
 
 ## Track email open rate
 

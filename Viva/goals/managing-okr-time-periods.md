@@ -1,8 +1,8 @@
 ---
 title: Managing OKR time periods
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -20,9 +20,6 @@ description: "Learn how to manage Quarterly OKR Periods and custom periods (mont
 
 # Manage OKR time periods
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 ## Time periods in Viva Goals
 
 Viva Goals comes with both annual and quarterly time periods. Typically, organizations operate on an annual planning cadence and departments/teams operate on a quarterly planning cadence.
@@ -39,13 +36,13 @@ When you switch to a custom time period cadence, Viva Goals will no longer autom
 
 1. Go to the **Time Periods** section in the admin dashboard. Select and save the month when your planning year starts. It's set to January by default.  
  
-   ![Screenshot of the time period dialog box.](../media/goals/2/25/a.jpg)
+    :::image type="content" source="../media/goals/2/25/a.jpg" alt-text="Screenshot of the time period dialog box." lightbox="../media/goals/2/25/a.jpg":::
     
 2. Use the **Add Time Periods** option to add custom time periods.
 
 3. From the **Actions** menu, set **Custom** time period as **Current Time Period**.
 
-   ![Screen shot showing dialog box where you set a custom time period.](../media/goals/2/25/b.jpg)
+    :::image type="content" source="../media/goals/2/25/b.jpg" alt-text="Screenshot showing dialog box where you set a custom time period." lightbox="../media/goals/2/25/b.jpg":::
 
 ## FAQs
 

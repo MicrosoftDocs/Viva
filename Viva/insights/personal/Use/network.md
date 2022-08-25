@@ -1,8 +1,8 @@
 ---
 title: Viva Insights Network page
 description: Learn how to use Viva Insights to improve your work relationships and grow your network
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 
@@ -10,7 +10,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
@@ -20,7 +20,7 @@ The Network page on the [Dashboard](dashboard-2.md) shows how many people you ac
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 
-![Your Network.](../../Images/mya/use/network-pg.png)
+![Your Network.](../../Images/mya/use/network.png)
 
 ## Productivity insights
 

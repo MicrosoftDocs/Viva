@@ -1,8 +1,8 @@
 ---
 title: Navigate the admin dashboard
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -18,9 +18,6 @@ search.appverid:
 description: "Learn how to navigate the admin dashboard"
 ---
 # Navigate the admin Dashboard
-
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 Organization admins have direct access to the Microsoft Viva Goals admin dashboard. The dashboard offers settings that you can customize for your organization, which creates efficiency and confidence in Microsoft Viva Goals.
 
@@ -75,11 +72,9 @@ All of the information can be filtered using dropdown menus such as role, accoun
 
 For example, if one of your users isn't sure if they got an invite, you could filter for users who have a status of "Pending."  
 
-![Screenshot showing pending users alignment.](../media/goals/2/28/b.png)
+:::image type="content" source="../media/goals/2/28/b.png" alt-text="Screenshot showing pending users alignment." lightbox="../media/goals/2/28/b.png":::
 
 As admin, you can use the action menu, marked by three dots, to modify the various settings.
-
-![Screenshot showing the more actions menu.](../media/goals/2/28/b.png)
 
 - **Cancel Invite** retracts an email that you sent.
 - **Resend Invite** resends an invitation to join your instance.

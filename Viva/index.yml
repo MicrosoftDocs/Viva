@@ -102,7 +102,7 @@ productDirectory:
           text: End user help & training
 
     # Card
-    - title: Microsoft Viva Goals (Private Preview)
+    - title: Microsoft Viva Goals
       imageSrc: media/logos/goals-launch-c-64.svg
       links:
         - url: /viva/goals/intro-to-ms-viva-goals
@@ -115,7 +115,31 @@ productDirectory:
           text: Learning path - OKR leadership program
         - url: https://go.microsoft.com/fwlink/?linkid=2193540
           text: End user help & training
-
+          
+    # Card
+    - title: Microsoft Viva Engage
+      imageSrc: media/logos/engage-launch-c-64.svg
+      links:
+        - url: /viva/engage/overview
+          text: Get started
+        - url: /viva/engage/setup
+          text: Setup
+        - url: https://support.microsoft.com/office/930c86f1-e1e2-4e45-a66a-ce8faca71a21
+          text: End user help & training
+        - url: https://aka.ms/VivaEngage/Resources
+          text: Adoption resources
+    
+    # Card
+    - title: Microsoft Viva Sales (Preview)
+      imageSrc: media/logos/viva-logoicon.svg
+      links:
+        - url: /Viva/sales/introduction
+          text: Get started
+        - url: /Viva/sales/install-viva-sales
+          text: Setup
+        - url: https://go.microsoft.com/fwlink/p/?linkid=2197685
+          text: End user help & training
+        
     # Card
     - title: Solutions for your business
       imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-blue.svg
@@ -128,4 +152,5 @@ productDirectory:
           text: Solve common business problems with accelerators
         - url: /viva/solutions/incorporate-learning
           text: Incorporate learning into your organization
+    
 
