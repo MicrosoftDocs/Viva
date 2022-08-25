@@ -38,7 +38,7 @@ When you select this button, your virtual commute starts immediately. For detail
 
 ## Set up virtual commutes
 
-The first time you open **Protect time**, you're prompted to schedule your virtual-commute reminders.
+The first time you open **Protect time**, you're prompted to schedule your virtual commute reminders.
 
 ![Screenshot that shows option to schedule virtual commute.](Images/virtual-commute-reminders.png)  
 

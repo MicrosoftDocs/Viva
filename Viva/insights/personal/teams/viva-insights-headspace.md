@@ -29,7 +29,7 @@ Anytime you want, you can start a guided meditation that's been designed for the
 
    ![Screenshot that shows the Home page with Headspace.](images/viva-insights-home.png)
 
-2. To start the Headspace exercise, select the 'Play' button on the **Headspace** card.
+2. To start the Headspace exercise, select the **Play** button on the **Headspace** card.
 
    ![Screenshot that shows the Headspace card.](images/headspace-play.png)
 
