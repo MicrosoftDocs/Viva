@@ -1,8 +1,8 @@
 ---
 title: Determine your rollout plan
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -24,7 +24,7 @@ At the completion of your rollout plan or deployment phase, you'll have Microsof
 
 As you navigate the OKR Maturity Model shown below and change management associated with a Viva Goals OKR rollout, we recommend that you ease your organization into OKRs through a user pilot.
 
-![Table that shows the O K R maturing process.](../media/goals/1/13/a.png)
+:::image type="content" source="../media/goals/1/13/a.png" alt-text="Table that shows the O K R maturing process." lightbox="../media/goals/1/13/a.png":::
 
 The benefits of a user pilot are two-fold: first, you quickly learn how the methodology works within your organizational culture and gain insight into the challenges and opportunities. Second, your pilot group acts as an example for the rest of the organization. The pilot group's success in achieving their objectives will serve as a motivator for more groups to get on board.  
 
