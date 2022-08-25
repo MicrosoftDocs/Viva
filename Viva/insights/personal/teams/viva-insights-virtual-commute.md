@@ -63,7 +63,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    ![Screenshot that shows option to start virtual commute.](Images/virtual-commute-start.png)  
 
-2. **Review and close out current tasks** &ndash; Virtual commute shows you your open tasks on the Microsoft To-Do list whose due date is today or that have a reminder set for today. (If you currently have no tasks, this step is not shown and you go directly to **Add new tasks**.)
+2. **Review and close out current tasks** &ndash; Virtual commute shows you your open tasks on the Microsoft To Do list whose due date is today or that have a reminder set for today. (If you currently have no tasks, this step is not shown and you go directly to **Add new tasks**.)
 
    In this step, you can mark each task as complete (select "**It's done**") or set a reminder for another day:
 
@@ -86,7 +86,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
    Tasks that you add on this page will appear in two places:
 
    * If you subscribe to the Cortana briefing email, you'll see your tasks there.
-   * If you add a task today, it will appear tomorrow on the **Microsoft To-Do** card on the **Home** page:
+   * If you add a task today, it will appear tomorrow on the **Microsoft To Do** card on the **Home** page:
 
      ![Screenshot that shows the Home page to-do card.](Images/home-to-do.png)  
 
