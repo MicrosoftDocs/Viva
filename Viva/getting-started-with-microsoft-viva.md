@@ -112,9 +112,9 @@ New Microsoft Viva experiences have just been released or are coming soon. New V
 
 | Module              | Features and capabilities | Overview          |
 | :------------------- | :------------------- |:----------------|
-| **Viva Engage**  | Viva Engage brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.| [Learn more about Viva Engage](/engage/overview) |
-| **Viva Goals** | Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. | [Learn more about Viva Goals](/goals/intro-to-ms-viva-goals)|
-| **Viva Sales** | Viva Sales is available for select preview customers but will become generally available in the Fall. Viva Sales is an experience for sales representatives and uses Microsoft 365 and Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. | [Learn more about Viva Sales](/sales/introduction) |
+| **Viva Engage**  | Viva Engage brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.| [Learn more about Viva Engage](/viva/engage/overview) |
+| **Viva Goals** | Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. | [Learn more about Viva Goals](/viva/goals/intro-to-ms-viva-goals)|
+| **Viva Sales** | Viva Sales is available for select preview customers but will become generally available in the Fall. Viva Sales is an experience for sales representatives and uses Microsoft 365 and Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. | [Learn more about Viva Sales](/viva/sales/introduction) |
 
 
 ## Learn more
