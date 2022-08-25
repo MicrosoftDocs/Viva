@@ -20,7 +20,7 @@ audience: Admin
 
 Meetings often represent your organization’s largest resource investment. In Microsoft Viva Insights, three elements make up the Meeting effectiveness framework: Before the meeting, during the meeting, and after the meeting. This article explains how to leverage best practices before, during, and after your next meeting to make the most of this time.
 
-You can find the **Meeting effectiveness** tab in the Viva Insights app, under **Organization trends**.
+You can find the **Meeting effectiveness** page in the Viva Insights app, within the **Organization trends** tab.
 
 ![Screenshot that shows the Organization trends tab highlighted and Meeting effectiveness page selected.](../Images/WpA/Use/org-meeting-effectiveness1.png)
 
@@ -34,7 +34,7 @@ You can find the **Meeting effectiveness** tab in the Viva Insights app, under *
 
 ![Screenshot that shows the Try shorter meetings insight.](../Images/WpA/Use/org-meeting-effectiveness-shorter-meetings.png)
 
-For **Try shorter meetings**, the **Meeting effectiveness** tab provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings, and a visual insight that shows the percentage meetings attended, divided into four categories.
+For **Try shorter meetings**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings, and a visual insight that shows the percentage meetings attended, divided into four categories.
 
 Here's some information about how those metrics are calculated:
 
@@ -64,7 +64,7 @@ For more best practices and change strategies, see [Best practices for meetings]
 
 !['Improve meeting practices' insight](../Images/WpA/Use/org-meeting-effectiveness-improve.png)
 
-For **Improve meeting practices**, the **Meeting effectiveness** tab provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings and a visual insight that shows the percentage of meetings attended, divided into four categories.
+For **Improve meeting practices**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings and a visual insight that shows the percentage of meetings attended, divided into four categories.
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
@@ -98,7 +98,7 @@ For more best practices and change strategies, see [Best practices for meetings]
 
 ![Screenshot that shows the Reinvent the recurring meeting insight.](../Images/WpA/Use/org-meeting-reinvent-recurring.png)
 
-For **Reinvent the recurring meeting**, the **Meeting effectiveness** tab provides a percentage insight that shows how many employees spend a majority of their time in recurring meetings and a visual insight that shows the percentage of recurring vs. non-recurring meeting hours.
+For **Reinvent the recurring meeting**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend a majority of their time in recurring meetings and a visual insight that shows the percentage of recurring vs. non-recurring meeting hours.
 
 Here's some information about how those metrics are calculated:
 
