@@ -1,8 +1,8 @@
 ---
 title: Manage OKRs in Viva Goals
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -136,7 +136,7 @@ By default, the owner, or the first owner if there are multiple owners, is set a
 
 1. Hover your mouse left of the objective name until you see the icon depicted in the following image:
 
-   ![Screenshot shows a sample list of an employee's objectives.](../media/goals/3/32/a.jpg)
+      :::image type="content" source="../media/goals/3/32/a.jpg" alt-text="Screenshot shows a sample list of an employee's objectives." lightbox="../media/goals/3/32/a.jpg":::
 
 2. Select and hold to grab the objective.
 

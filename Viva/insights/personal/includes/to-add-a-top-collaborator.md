@@ -1,12 +1,12 @@
 ---
-
 title: Add a top collaborator in Viva Insights
 description: How-to steps to add a top collaborator in Viva Insights 
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.service: viva
+ms.subservice: viva-insights
 ---
 
 **To add a top collaborator**

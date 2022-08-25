@@ -1,8 +1,8 @@
 ---
 title: "Review Dashboard"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: <TBD>
 audience: Admin
 f1.keywords:
@@ -61,7 +61,7 @@ Every organization, team, and individual has their own review dashboard.
 
 - For review dashboards at an individual level, select **My OKRs** from the left pane and then select the **Dashboard** tab. To view the dashboard of a user, select **All Users** from the left pane, select a **user**, and then select the **Dashboard** tab.
 
-![Screen shot of a review dashboard.](../media/goals/4/42/a.jpg)
+    :::image type="content" source="../media/goals/4/42/a.jpg" alt-text="Screenshot of a review dashboard." lightbox="../media/goals/4/42/a.jpg":::
 
 ## How to set up a review dashboard
 
@@ -100,7 +100,7 @@ To create this widget:
 
 4. Save and add the widget.
 
-   ![Screenshot shows the ORK widget.](../media/goals/4/42/b.jpg)
+    :::image type="content" source="../media/goals/4/42/b.jpg" alt-text="Screenshot shows the OKR widget." lightbox="../media/goals/4/42/b.jpg":::
 
 ### OKR detail
 
@@ -120,7 +120,7 @@ To create this widget:
 
 1. Save and add the widget.
 
-   ![Screenshot shows the OKR detail widget.](../media/goals/4/42/c.jpg)
+    :::image type="content" source="../media/goals/4/42/c.jpg" alt-text="Screenshot shows the OKR detail widget." lightbox="../media/goals/4/42/c.jpg":::
 
 ### 3. Text block
 
@@ -138,7 +138,7 @@ To create this widget:
 
 1. Save and add the widget.
 
-   ![Screenshot shows the text block widget.](../media/goals/4/42/d.jpg)
+    :::image type="content" source="../media/goals/4/42/d.jpg" alt-text="Screenshot shows the text block widget." lightbox="../media/goals/4/42/d.jpg":::
 
 ### 4. KPI list
 
@@ -176,13 +176,13 @@ To create this widget:
 
 1. Save and add the widget.
 
-   ![Screenshot shows the project list widget.](../media/goals/4/42/e.jpg)
+    :::image type="content" source="../media/goals/4/42/e.jpg" alt-text="Screenshot shows the project list widget." lightbox="../media/goals/4/42/e.jpg":::
 
 ## Customize your review dashboard
   
 After you land on the review dashboard page, the first step is to select the review period. 
 
-![Screenshot shows where you select the review period.](../media/goals/4/42/f.jpg)
+:::image type="content" source="../media/goals/4/42/f.jpg" alt-text="Screenshot shows where you select the review period." lightbox="../media/goals/4/42/f.jpg":::
 
 ### Add panels to the dashboard
 
@@ -192,7 +192,7 @@ After you land on the review dashboard page, the first step is to select the rev
 
 - On the right side of the panel, select the **More Actions** icon to edit or delete the panel.
 
-  ![Screenshot show where you add panels to the dashboard.](../media/goals/4/42/g.jpg)
+    :::image type="content" source="../media/goals/4/42/g.jpg" alt-text="Screenshot shows where you add panels to the dashboard." lightbox="../media/goals/4/42/g.jpg":::
 
 ### Add widgets to a panel
 
@@ -200,19 +200,19 @@ After you land on the review dashboard page, the first step is to select the rev
 
 - To add widgets to an existing panel, select the three-dot icon on the right side of the panel and select **Add a widget** from the drop-down options.
 
-  ![Screenshot shows where you add a widget to a panel.](../media/goals/4/42/h.jpg)
+    :::image type="content" source="../media/goals/4/42/h.jpg" alt-text="Screenshot shows where you add a widget to a panel." lightbox="../media/goals/4/42/h.jpg":::
 
 - After you add the widget to the panel, you can select the cog icon on the right side widget to edit it. To delete a widget, you chose to edit the panel and select the delete icon, which is next to the cog icon.
 
 - When you edit the panel, you can resize the widgets and move them up or down. To expand a widget for better readability, select the expand icon next to the cog icon.
 
-  ![Screenshot show where to select edit widget.](../media/goals/4/42/i.jpg)
+    :::image type="content" source="../media/goals/4/42/i.jpg" alt-text="Screenshot shows where to select widget." lightbox="../media/goals/4/42/i.jpg":::
 
 ## How to present the review dashboard
 
 A review dashboard is a presentation-ready dashboard. The **Present** button is in the upper-right corner of the dashboard. Each panel becomes a standalone slide of the presentation. This option helps you present real-time data on OKR progress without having to juggle tools during a review meeting.
 
-![Screenshot show where to select present dashboard.](../media/goals/4/42/j.jpg)
+:::image type="content" source="../media/goals/4/42/j.jpg" alt-text="Screenshot shows where to select present dashboard." lightbox="../media/goals/4/42/j.jpg":::
     
 ## How to clone and move review dashboards
     
@@ -222,12 +222,11 @@ As a team owner or team admin, you may want to clone a dashboard to retain the s
 
 **Step 2:** From the highlighted drop-down menu, select the dashboard you want to clone.
 
-![Screenshot shows the Dashboard drop-down menu.](../media/goals/4/42/k.jpg)
+:::image type="content" source="../media/goals/4/42/k.jpg" alt-text="Screenshot shows the Dashboard drop-down menu." lightbox="../media/goals/4/42/k.jpg":::
 
 **Step 3:** Select the three dots icon and then select **Clone**.
 
-![Screenshot shows where you select clone.](../media/goals/4/42/l.jpg)
-
+:::image type="content" source="../media/goals/4/42/l.jpg" alt-text="Screenshot shows where you select clone." lightbox="../media/goals/4/42/l.jpg":::
 
 **Step 4:** By default, the name of the cloned dashboard will be "**Copy of \<dashboard name\>**". You can edit the name to easily identify the cloned dashboard, edit the widgets, and then select **Save**. After cloning, you'll land on the cloned dashboard.
     
