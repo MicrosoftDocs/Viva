@@ -40,15 +40,15 @@ Before you set up the integration connection, [reach out to your monday.com admi
 
 2. In the **Integrations** section, go to **monday.com** and then select **Manage**. 
 
-    :::image type="content" source="../media/goals/11/monday-manage-button.png" alt-text="Screenshot shows where you manage monday.com in Viva Goals." lightbox="../media/goals/11/monday-manage-button.png":::
+    :::image type="content" source="../media/goals/11/monday-manage-button.png" alt-text="Screenshot shows where you choose to manage monday.com in Viva Goals." lightbox="../media/goals/11/monday-manage-button.png":::
 
 3. Select **New Connection**. In the pop-up dialog, sign in to your monday.com account. 
 
-    :::image type="content" source="../media/goals/11/monday-new-connection-button.png" alt-text="Screenshot shows where you create a new monday.com connection in Viva goals." lightbox="../media/goals/11/monday-new-connection-button.png":::
+    :::image type="content" source="../media/goals/11/monday-new-connection-button.png" alt-text="Screenshot shows where you choose to create a new connection for monday.com in Viva goals." lightbox="../media/goals/11/monday-new-connection-button.png":::
 
 4. Name your connection, and then select **Next** to complete new account setup.
 
-    :::image type="content" source="../media/goals/11/monday-configure-new-connection.png" alt-text="Screenshot shows where you configuring a new monday.com connection in Viva goals." lightbox="../media/goals/11/monday-configure-new-connection.png":::
+    :::image type="content" source="../media/goals/11/monday-configure-new-connection.png" alt-text="Screenshot shows where you name your new monday.com connection." lightbox="../media/goals/11/monday-configure-new-connection.png":::
 
 ## How to edit an existing monday.com connection
 
@@ -66,11 +66,11 @@ After the monday.com integration is set up, you can connect your Viva Goals OKRs
 
 1. Select **monday.com** from the list of integrations available. If multiple monday.com connections are listed, choose the connection you want to use or create a new one. 
 
-    :::image type="content" source="../media/goals/11/monday-datasource.png" alt-text="Screenshot shows where to select monday.com from the list of data sources in Viva Goals." lightbox="../media/goals/11/monday-datasource.png":::
+    :::image type="content" source="../media/goals/11/monday-datasource.png" alt-text="Screenshot shows where you select monday.com as the data source to update progress." lightbox="../media/goals/11/monday-datasource.png":::
 
 1. Select the board, group, and assignee you want to connect to and map the status column based on which OKR progress should be tracked. 
 
-    :::image type="content" source="../media/goals/11/monday-connection-details.png" alt-text="Screenshot shows where you adding new monday.com connection to an OKR." lightbox="../media/goals/11/monday-connection-details.png":::
+    :::image type="content" source="../media/goals/11/monday-connection-details.png" alt-text="Screenshot shows where you specify monday.com connection details for an OKR." lightbox="../media/goals/11/monday-connection-details.png":::
 
 1. Select **Next** to finish and save your OKR. You'll now see the monday.com icon next to the OKR's progress indicator, which means Viva Goals will automatically measure the progress based on item updates in the corresponding board in monday.com. 
 

@@ -31,7 +31,7 @@ A Viva Goals admin follows these steps to enable Looker integration in Viva Goal
 
 1. Go to the Viva Goals integrations page: **Admin** > **Integrations**.
   
-      :::image type="content" source="../media/goals/6/viva-goals-integrations-page.png" alt-text="Screen shot of the integrations page." lightbox="../media/goals/6/viva-goals-integrations-page.png":::
+      :::image type="content" source="../media/goals/6/viva-goals-integrations-page.png" alt-text="Screen shot of the integrations page in Viva Goals." lightbox="../media/goals/6/viva-goals-integrations-page.png":::
 
 2. Scroll through the list until you reach **Looker**. Select **Enable** (or select **Manage** if a connection was previously made).
   
@@ -45,7 +45,7 @@ A Viva Goals admin follows these steps to enable Looker integration in Viva Goal
 
 In the **Connections** section, select **New Connection**. In the dialog that appears, follow the prompt to enter the name of the connection and the application programming interface (API) from your Looker administrator. You can optionally choose to share the connection with other users in the organization and select **Save**. You can edit the saved connection anytime.
   
-:::image type="content" source="../media/goals/6/looker-configure-new-connection.png" alt-text="Screenshot shows where you create a new Looker connection in Viva Goals." lightbox="../media/goals/6/looker-configure-new-connection.png":::
+:::image type="content" source="../media/goals/6/looker-configure-new-connection.png" alt-text="Screenshot shows where you add details for your new Looker connection." lightbox="../media/goals/6/looker-configure-new-connection.png":::
 
 ## How to connect the Looker integration to an OKR
 
@@ -55,7 +55,7 @@ Once  setup is complete, users in your organization can link their OKRs to Looke
   
 2. From the list of integrations, select **Looker**.
   
-      :::image type="content" source="../media/goals/6/looker-datasource.png" alt-text="Screenshot shows where you selecting Looker from the list of data sources." lightbox="../media/goals/6/looker-datasource.png":::
+      :::image type="content" source="../media/goals/6/looker-datasource.png" alt-text="Screenshot shows where you select Looker as your data sources." lightbox="../media/goals/6/looker-datasource.png":::
 
 3. If you already created a Looker connection or an administrator in your organization shared a Looker connection with you, that connections will automatically be selected. If there are no connections already created or shared, Viva Goals will prompt you to add a new connection. If you have more than one Looker connection, you can choose the connection you’d like to use.
 
@@ -64,7 +64,7 @@ Once  setup is complete, users in your organization can link their OKRs to Looke
   
 4. After you select the connection, you can choose to **Track KPI from** either a dashboard or a look. After you choose a dashboard or a look, you can further narrow it down to a specific dashboard tile or a look name. Select the tile or look that has the data you want to be connected to the OKR.
   
-      :::image type="content" source="../media/goals/6/looker-connection-details.png" alt-text="Adding Looker connection to your OKRs in Viva goals.png." lightbox="../media/goals/6/looker-connection-details.png":::
+      :::image type="content" source="../media/goals/6/looker-connection-details.png" alt-text="Screenshot shows where you add a Looker connection to your OKRs." lightbox="../media/goals/6/looker-connection-details.png":::
 
 5. Select a key performance indicator (KPI) metric that is available from the selected tile or look. Depending on the type of visualization, there could be multiple values for the KPI, broken down by a dimension. For example, if you have the demos setup metric broken down by your sales team members as part of the Looker tile, you can choose to apply a metric/sum/average/count on the set of values or filter out by a particular person or any available filter field.
 

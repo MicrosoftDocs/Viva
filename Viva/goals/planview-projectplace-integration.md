@@ -36,15 +36,15 @@ Let's take this example: you have an objective to create an amazing user experie
 
 2. In the integrations section, go to the **Planview Projectplace** and select **Manage**.
 
-    :::image type="content" source="../media/goals/11/planview-manage-button.png" alt-text="Screenshot shows where to manage Planview Projectplace in Viva Goals." lightbox="../media/goals/11/planview-manage-button.png":::
+    :::image type="content" source="../media/goals/11/planview-manage-button.png" alt-text="Screenshot shows where you chose to manage Planview Projectplace in Viva Goals." lightbox="../media/goals/11/planview-manage-button.png":::
 
 3. Select **New Connection**. In the dialog that ape pars, sign in to your Planview Projectplace account. 
 
-    :::image type="content" source="../media/goals/11/planview-new-connection-button.png" alt-text="Screenshot shows where you create a new Planview Projectplace connection in Viva goals." lightbox="../media/goals/11/planview-new-connection-button.png":::
+    :::image type="content" source="../media/goals/11/planview-new-connection-button.png" alt-text="Screenshot shows where you opt to create a new Planview Projectplace connection." lightbox="../media/goals/11/planview-new-connection-button.png":::
 
 4. Name your connection and select **Next** to complete setup.
 
-     :::image type="content" source="../media/goals/11/planview-configure-new-connection.png" alt-text="Configuring a new Planview Projectplace connection in Viva goals." lightbox="../media/goals/11/planview-configure-new-connection.png":::
+     :::image type="content" source="../media/goals/11/planview-configure-new-connection.png" alt-text="Screenshot shows where you configure a new Planview Projectplace connection in Viva goals." lightbox="../media/goals/11/planview-configure-new-connection.png":::
 
 ### Edit an existing connection
 
@@ -60,11 +60,11 @@ After your integration is set up, you can connect your new or existing OKRs with
 
 2. Select **Planview Projectplace** from the list of integrations available. If there are multiple connections listed, choose the connection you want to use.
 
-    :::image type="content" source="../media/goals/11/planview-datasource.png" alt-text="Screenshot shows where you selecting Planview Projectplace from the list of data sources." lightbox="../media/goals/11/planview-datasource.png":::
+    :::image type="content" source="../media/goals/11/planview-datasource.png" alt-text="Screenshot shows where you select Planview Projectplace as your data source." lightbox="../media/goals/11/planview-datasource.png":::
 
 3. Next, map the OKR to the project, board, assignee, due date, and activity of your choice. 
 
-     :::image type="content" source="../media/goals/11/planview-connection-details.png" alt-text="Screenshot show a new Planview Projectplace connection to OKRs in Viva goals." lightbox="../media/goals/11/planview-connection-details.png":::
+     :::image type="content" source="../media/goals/11/planview-connection-details.png" alt-text="Screenshot shows where you configure a new Planview Projectplace connection to OKRs in Viva goals." lightbox="../media/goals/11/planview-connection-details.png":::
 
 4. Select **Next** to finish and save your OKR. You’ll now see a Planview Projectplace icon next to the OKR‘s progress indicator, which means Viva Goals will automatically measure the progress based on the number of cards moved to the **Done** list (*Completed* state).
 

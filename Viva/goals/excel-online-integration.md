@@ -37,23 +37,23 @@ To enable the integration, admins can follow these steps:
 
 1. For Excel Online, select to **Enable** the integration. If a connection was made previously or if the integration was already enabled, you'll have the option to **Manage** the enabled integration.
 
-    :::image type="content" source="../media/goals/9/excel-enable-button.png" alt-text="Screenshot shows where you enabling Excel Online integration." lightbox="../media/goals/9/excel-enable-button.png":::
+    :::image type="content" source="../media/goals/9/excel-enable-button.png" alt-text="Screenshot shows where you enable Excel Online integration." lightbox="../media/goals/9/excel-enable-button.png":::
   
-    This integration can also be **disabled** from the same section: Go to **Change** and select **Disable integration** from the dropdown.
+    You can disable this integration from the same section: Go to **Change** and select **Disable integration** from the dropdown.
   
     :::image type="content" source="../media/goals/9/excel-disable-button.png" alt-text="Screenshot shows where to disable Excel Online integration." lightbox="../media/goals/9/excel-disable-button.png":::
 
 ## How to configure the Excel Online connection
 
-After you enable the integration, the first step is to configure an Excel Online connection.
+After you enable the integration, the next step is to configure an Excel Online connection.
 
 1. Select **New Connection**, and sign in to your Excel account.
   
-    :::image type="content" source="../media/goals/9/excel-new-connection-button.png" alt-text="Screenshot shows where you add a new Excel Online connection in Viva Goals." lightbox="../media/goals/9/excel-new-connection-button.png":::
+    :::image type="content" source="../media/goals/9/excel-new-connection-button.png" alt-text="Screenshot shows where you select the option to create a new connection." lightbox="../media/goals/9/excel-new-connection-button.png":::
 
 1. Provide a name for the connection.
   
-    :::image type="content" source="../media/goals/9/excel-configure-new-connection.png" alt-text="Screenshot shows where you configure a new Excel Online connection in Viva Goals." lightbox="../media/goals/9/excel-configure-new-connection.png":::
+    :::image type="content" source="../media/goals/9/excel-configure-new-connection.png" alt-text="Screenshot shows where you enter a name for your new Excel Online connection." lightbox="../media/goals/9/excel-configure-new-connection.png":::
 
 1. It's optional to share this connection with other users in the organization. Select **Next** to get running with this integration. You can edit the saved connection at any time.
 
@@ -65,7 +65,7 @@ After you configured the connection, the next step is to link OKRs to Excel shee
 
 1. When you create or elite an OKR, select **Connect data source to auto-update progress**. From the drop-down menu, select **Excel Online**.
   
-    :::image type="content" source="../media/goals/9/select-excel-datasource.png" alt-text="Screenshot shows where you selecting Excel Online from the list of data sources." lightbox="../media/goals/9/select-excel-datasource.png":::
+    :::image type="content" source="../media/goals/9/select-excel-datasource.png" alt-text="Screenshot shows where you select Excel Online from the list of data sources." lightbox="../media/goals/9/select-excel-datasource.png":::
 
 1. If you already created a connection or if your admin shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared.
 
@@ -73,7 +73,7 @@ After you configured the connection, the next step is to link OKRs to Excel shee
 
 1. Select a connection and select a **Workbook**. As soon as you select the workbook, the associated sheets will be displayed in the **Sheet** dropdown menu. Select a worksheet.
   
-    :::image type="content" source="../media/goals/9/excelonline-connection-details.png" alt-text="Screenshot shows where you add a new Excel Online connection to OKRs." lightbox="../media/goals/9/excelonline-connection-details.png":::
+    :::image type="content" source="../media/goals/9/excelonline-connection-details.png" alt-text="Screenshot shows where you select a workbook and worksheet for your new Excel Online connection." lightbox="../media/goals/9/excelonline-connection-details.png":::
 
 1. To locate the cell accurately, furnish the **Column** and the **Row Number**.
 

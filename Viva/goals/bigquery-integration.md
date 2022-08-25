@@ -23,7 +23,7 @@ description: "Learn how to integrate your Viva Goals OKRs with BigQuery Data"
 
 Viva Goals can integrate with Google BigQuery to automatically update your OKRs. 
   
-Consids\er this example: You have data inside your BigQuery warehouse to track the number of converted leads. Your goal is to increase the value of converted leads to a certain amount. By implementing a BigQuery integration, you can save yourself the hassle of repeatedly going back and forth between BigQuery and Viva Goals to update your progress. Viva Goals will sync the values for you and chart your progress toward goals, saving time and keeping OKRs current.
+Consider this example: You have data inside your BigQuery warehouse to track the number of converted leads. Your goal is to increase the value of converted leads to a certain amount. By implementing a BigQuery integration, you can save yourself the hassle of repeatedly going back and forth between BigQuery and Viva Goals to update your progress. Viva Goals will sync the values for you and chart your progress toward goals, saving time and keeping OKRs current.
 
 ## Step 1: Set up the service account in the Google Cloud admin console 
 
@@ -37,11 +37,11 @@ Follow these steps in your Google Cloud platform console to Create a role:
 
 2. Go to the "hamburger" menu in the upper-left corner of the screen and choose **IAM & Admin** -> **Roles**.
 
-    :::image type="content" source="../media/goals/goals-create-IAM-role-for-bigQuery.png" alt-text="Screenshot shows creating an IAM Role for BigQuery " lightbox="../media/goals/goals-create-IAM-role-for-bigQuery.png":::
+    :::image type="content" source="../media/goals/goals-create-IAM-role-for-bigQuery.png" alt-text="Screenshot shows where you create an IAM Role for BigQuery." lightbox="../media/goals/goals-create-IAM-role-for-bigQuery.png":::
 
 3. From the roles screen, select the **+ Create Role** at the top of the page.
 
-    :::image type="content" source="../media/goals/goals-create-role.png" alt-text="Screenshot shows the create role option" lightbox="../media/goals/goals-create-role.png":::
+    :::image type="content" source="../media/goals/goals-create-role.png" alt-text="Screenshot shows the create role option." lightbox="../media/goals/goals-create-role.png":::
 
 4. Enter the details in the form. Proceed to **Add Permissions** and add the following permissions:
 
@@ -85,15 +85,15 @@ The admin can follow these steps to set up the BigQuery integration in Viva Goal
     
 2. Scroll through the integration options until you locate BigQuery. Select **enable** if this is the first time or **manage** if an integration was previously established.
   
-    :::image type="content" source="../media/goals/8/bigquery-enable-button.png" alt-text="Screenshot show enabling BigQuery in Viva Goals." lightbox="../media/goals/8/bigquery-enable-button.png":::
+    :::image type="content" source="../media/goals/8/bigquery-enable-button.png" alt-text="Screenshot show where you enable BigQuery in Viva Goals." lightbox="../media/goals/8/bigquery-enable-button.png":::
   
 3. Select **New Connection**. In the popup dialog that opens, enter the connection name and the BigQuery Project ID that holds the data you want to connect to OKRs.
   
-    :::image type="content" source="../media/goals/8/bigquery-new-connection-button.png" alt-text="Screenshot shows adding BigQuery connection in Viva Goals." lightbox="../media/goals/8/bigquery-new-connection-button.png":::
+    :::image type="content" source="../media/goals/8/bigquery-new-connection-button.png" alt-text="Screenshot highlights the New Connection option." lightbox="../media/goals/8/bigquery-new-connection-button.png":::
   
 4. Viva Goals uses a service account with OAuth 2.0 to call into the Google BigQuery APIs. For the BigQuery integration to work, you need to add the Viva Goals service account to your BigQuery project and provide the required access and permissions.
   
-    :::image type="content" source="../media/goals/8/bigquery-configure-new-connection.png" alt-text="Screenshot show where you configure new BigQuery connection in Viva Goals." lightbox="../media/goals/8/bigquery-configure-new-connection.png":::
+    :::image type="content" source="../media/goals/8/bigquery-configure-new-connection.png" alt-text="Screenshot shows where you configure a new BigQuery connection in Viva Goals." lightbox="../media/goals/8/bigquery-configure-new-connection.png":::
   
 5. Select **Next** to finish setup.
 
@@ -111,6 +111,6 @@ After setup is complete, users in your organization can link the success of thei
 3. If you already created a BigQuery connection, or an administrator in your organization shared a BigQuery connection with you, that will be automatically selected for you. If there are no connections already created or shared, Viva Goals will prompt you to add a new connection.
 4. Add the BigQuery SQL query that will return a single-valued numeric value. This value will be connected to the OKR's progress or KPI depending on how the OKR is measured.
   
-    :::image type="content" source="../media/goals/8/bigquery-connection-details.png" alt-text="Adding new BigQuery connection to OKRs in Viva goals." lightbox="../media/goals/8/bigquery-connection-details.png":::
+    :::image type="content" source="../media/goals/8/bigquery-connection-details.png" alt-text="Screenshot shows where you add new BigQuery connection to OKRs in Viva goals." lightbox="../media/goals/8/bigquery-connection-details.png":::
   
 5. Select **Next** to finish and save your OKR. You should now see a BigQuery icon next to the OKR. The OKR will sync automatically every hour, but you can also select **refresh**  to refresh it manually.

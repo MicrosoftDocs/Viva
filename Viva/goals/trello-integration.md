@@ -35,11 +35,11 @@ An admin follows these steps to set up the Trello integration in Viva Goals:
 
 2. **Enable** Trello integration.
     
-    :::image type="content" source="../media/goals/8/trello-enable-button.png" alt-text="Screenshot shows how to enable Trello in Viva Goals." lightbox="../media/goals/8/trello-enable-button.png":::
+    :::image type="content" source="../media/goals/8/trello-enable-button.png" alt-text="Screenshot shows where you enable Trello in Viva Goals." lightbox="../media/goals/8/trello-enable-button.png":::
 
 3. Select **New Connection**. In the dialog that follows, sign in to your Trello account. Next, configure Trello connections to link to OKRs to update progress.
     
-     :::image type="content" source="../media/goals/8/trello-configure-new-connection.png" alt-text="Screenshot shows where you configure a new Trello connection in Viva Goals." lightbox="../media/goals/8/trello-configure-new-connection.png":::
+     :::image type="content" source="../media/goals/8/trello-configure-new-connection.png" alt-text="Screenshot shows where you enter a name for your new Trello connection." lightbox="../media/goals/8/trello-configure-new-connection.png":::
 
 4. Select **Next** to finish setup.
 
@@ -53,15 +53,15 @@ After setup is complete, users in your organization can link their OKRs to Trell
 
 2. From the list of integrations, pick **Trello**.
     
-    :::image type="content" source="../media/goals/8/trello-datasource.png" alt-text="Selecting Trello from the list of data sources in Viva goals." lightbox="../media/goals/8/trello-datasource.png":::
+    :::image type="content" source="../media/goals/8/trello-datasource.png" alt-text="Screenshot shows where you select Trello as the data source in Viva goals." lightbox="../media/goals/8/trello-datasource.png":::
 
 3. If you already created a Trello connection or an administrator in your organization shared a Trello connection with you, that connection will be automatically selected for you. If there are no connections already created or shared, Viva Goals will prompt you to add a new connection.
 
 4. After you select the connection, select the Trello **Board** that has the cards data that you want to connect to an OKR.
     
-    :::image type="content" source="../media/goals/8/trello-connection-details.png" alt-text="Screenshow shows how you add new Trello connection to OKRs in Viva goals." lightbox="../media/goals/8/trello-connection-details.png":::
+    :::image type="content" source="../media/goals/8/trello-connection-details.png" alt-text="Screenshot shows how you specify the trello board and other details for your new connection." lightbox="../media/goals/8/trello-connection-details.png":::
 
-5. After you selected the Trello board, you can further filter the list of cards by selecting one or more of the following criteria:
+5. After you select the Trello board, you can further filter the list of cards by selecting one or more of the following criteria:
 
     - Cards belonging to a specific list
     - Cards assigned to a specific owner

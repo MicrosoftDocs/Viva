@@ -49,11 +49,11 @@ After you enable the integration, the first step is to configure a MySQL connect
 
 1. Select **New Connection**, and provide a **Connection Name**.
   
-    :::image type="content" source="../media/goals/10/mysql-new-connection-button.png" alt-text="Screenshot shows where you add a new MySQL connection in Viva Goals." lightbox="../media/goals/10/mysql-new-connection-button.png"::: 
+    :::image type="content" source="../media/goals/10/mysql-new-connection-button.png" alt-text="Screenshot shows where you choose to add a new MySQL connection in Viva Goals." lightbox="../media/goals/10/mysql-new-connection-button.png"::: 
 
 1. Provide the **Hostname/IP address** of the database server and the **Port** number that the server is listening on.
   
-    :::image type="content" source="../media/goals/10/mysql-configure-new-connection.png" alt-text="Screenshot shows where you configure a new MySQL connection in Viva Goals." lightbox="../media/goals/10/mysql-configure-new-connection.png":::
+    :::image type="content" source="../media/goals/10/mysql-configure-new-connection.png" alt-text="Screenshot shows where you configure your new MySQL connection in Viva Goals." lightbox="../media/goals/10/mysql-configure-new-connection.png":::
 
 1. Enter **User** and **Password** details. Following authentication, the associated databases will be populated automatically. Select your **Database** from the dropdown menu.
 
@@ -69,7 +69,7 @@ After you configure the connection, the next step is to link OKRs to the MySQL d
 
 1. When you create or edit an OKR, select **Connect data source to auto-update progress**. From the drop-down menu, select **MySQL**.
   
-    :::image type="content" source="../media/goals/10/mysql-datasource.png" alt-text="Screenshot shows where you select MySQL from the list of data sources." lightbox="../media/goals/10/mysql-datasource.png":::
+    :::image type="content" source="../media/goals/10/mysql-datasource.png" alt-text="Screenshot shows where you select MySQL as your data source." lightbox="../media/goals/10/mysql-datasource.png":::
 
 2. If you already created a connection, or if your admin shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared.
 
@@ -77,7 +77,7 @@ After you configure the connection, the next step is to link OKRs to the MySQL d
 
 4. Select a connection, and provide the **MySQL query**. This query will return a single numeric value, and this value will be tied to the OKR progress.
   
-    :::image type="content" source="../media/goals/10/mysql-connection-details.png" alt-text="Screenshot shows where you add a new MySQL connection to OKRs in Viva goals." lightbox="../media/goals/10/mysql-connection-details.png":::
+    :::image type="content" source="../media/goals/10/mysql-connection-details.png" alt-text="Screenshot shows where specify a query and query type for your new MySQL connection." lightbox="../media/goals/10/mysql-connection-details.png":::
 
 5. Validate the query by using the query result.
 

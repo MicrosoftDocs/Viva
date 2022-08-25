@@ -22,22 +22,22 @@ description: "Learn how to add Viva Goals to Microsoft Teams to easily view, man
 
 This article describes how to install, pin, and interact with Viva Goals directly inside Microsoft Teams. The Viva Goals personal app brings the ability to create objectives and key results (OKRs), check in on them, track progress, and close OKRs within Microsoft Teams.
 
-:::image type="content" source="../media/goals/5/organization-okrs-tab.png" alt-text="Screenshot that shows how to view Viva Goals Organization OKRs within Microsoft Teams." lightbox="../media/goals/5/organization-okrs-tab.png":::
+:::image type="content" source="../media/goals/5/organization-okrs-tab.png" alt-text="Screenshot shows a sample view of Viva Goals organization OKRs in Microsoft Teams." lightbox="../media/goals/5/organization-okrs-tab.png":::
 
-- [Configure the Microsoft Teams integration: For regular users](#regular-user-setup)
-- [Configure the Microsoft Teams integration: For admins](#admin-setup)
+- [Configure Microsoft Teams integration: For regular users](#regular-user-setup)
+- [Configure Microsoft Teams integration: For admins](#admin-setup)
 
-<h2 id="regular-user-setup">Configure the Microsoft Teams integration: For regular users</h2>
+<h2 id="regular-user-setup">Configure Microsoft Teams integration: For regular users</h2>
 
 There are multiple ways to install the Viva Goals app in Teams.
 
 The first way to add Viva Goals to Teams is for you to select the ellipsis [**…**] button on the navigation bar on the left side, search for Viva Goals, and then select the Viva Goals app from the list of search results.
 
-:::image type="content" source="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png" alt-text="Screenshot that shows how to search and add Viva Goals app from the Teams navigation bar." lightbox="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png":::
+:::image type="content" source="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png" alt-text="Screenshot shows how to search for and add Viva Goals app from the Teams navigation bar." lightbox="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png":::
 
 From the Viva Goals app detail page, you can select the **Add** button to add Viva Goals.
 
-:::image type="content" source="../media/goals/5/add-viva-goals-from-navigation-bar.png" alt-text="Screenshot that shows how to add Viva Goals app from the Teams navigation bar." lightbox="../media/goals/5/add-viva-goals-from-navigation-bar.png":::
+:::image type="content" source="../media/goals/5/add-viva-goals-from-navigation-bar.png" alt-text="Screenshot shows how to use the "Add" button to add Viva Goals app from Teams." lightbox="../media/goals/5/add-viva-goals-from-navigation-bar.png":::
 
 Another way to Add Viva Goals is to visit the Apps store, search for Viva Goals, and select the Viva Goals app listing.
 
@@ -45,11 +45,11 @@ Another way to Add Viva Goals is to visit the Apps store, search for Viva Goals,
 
 On the Viva Goals app detail page, select **Add**.
 
-:::image type="content" source="../media/goals/5/add-button-in-viva-goals-app-detail-page.png" alt-text="Screenshot that shows how to add the Viva Goals app from the MS Teams app store." lightbox="../media/goals/5/add-button-in-viva-goals-app-detail-page.png":::
+:::image type="content" source="../media/goals/5/add-button-in-viva-goals-app-detail-page.png" alt-text="Screenshot that shows how to add the Viva Goals app from the Microsoft Teams app store." lightbox="../media/goals/5/add-button-in-viva-goals-app-detail-page.png":::
 
 To pin the Viva Goals app in Teams, right-click the app icon in the left navigation panel and select **Pin**.
 
-<h2 id="admin-setup">Configure the Microsoft Teams integration: For admins</h2>
+<h2 id="admin-setup">Configure Microsoft Teams integration: For admins</h2>
 
 Preinstalling the app will ensure that your users will be able to see their OKRs directly in Teams without ever having to install the app from the Teams Store. It's a great way to ensure your users stay in the flow of work, since they will be able to reference OKRs directly in Teams chats and channels without first pausing to install the app.  
 
@@ -63,28 +63,28 @@ We'll show how to preinstall the app for a specific group of users. If you want 
 1. Log in to https://admin.teams.microsoft.com/ with your user ID and password.
 2. Select **Teams apps** and then choose **Setup policies**.
 
-      :::image type="content" source="../media/goals/5/viva-goals-setup-policies.png" alt-text="Screenshot that shows the setup policies tab under Teams apps for pre-installing Viva Goals." lightbox="../media/goals/5/viva-goals-setup-policies.png":::
+      :::image type="content" source="../media/goals/5/viva-goals-setup-policies.png" alt-text="Screenshot shows the setup policies tab for pre-installing Viva Goals." lightbox="../media/goals/5/viva-goals-setup-policies.png":::
 
 3. Under **Manage Policies**, select **Add** to create a new policy.
 
-      :::image type="content" source="../media/goals/5/viva-goals-add-policies-button.png" alt-text="Screenshot that shows how to add the appropriate setup policy for pre-installing Viva Goals." lightbox="../media/goals/5/viva-goals-add-policies-button.png":::
+      :::image type="content" source="../media/goals/5/viva-goals-add-policies-button.png" alt-text="Screenshot shows how to add the appropriate setup policy for pre-installing Viva Goals." lightbox="../media/goals/5/viva-goals-add-policies-button.png":::
 
 4. Enter a name and description for your new policy.
 
-   :::image type="content" source="../media/goals/5/ms-teams-policy-name.png" alt-text="Screenshot that shows how to name the appropriate setup policy for pre-installing Viva Goals." lightbox="../media/goals/5/ms-teams-policy-name.png":::
+   :::image type="content" source="../media/goals/5/ms-teams-policy-name.png" alt-text="Screenshot shows how to name the appropriate setup policy for pre-installing Viva Goals." lightbox="../media/goals/5/ms-teams-policy-name.png":::
 
-5. To preinstall the Viva Goals app as part of this policy, under **Installed apps**, select **Add Apps** and search for the app by name
+5. To preinstall the Viva Goals app as part of this policy, under **Installed apps**, select **Add Apps** and search for the app by name.
    
-    :::image type="content" source="../media/goals/5/ms-teams-setup-policies-for-pre-installing-viva-goals.png" alt-text="Screenshot that shows how to search and add the Viva Goals app for pre-installation." lightbox="../media/goals/5/ms-teams-setup-policies-for-pre-installing-viva-goals.png":::
+    :::image type="content" source="../media/goals/5/ms-teams-setup-policies-for-pre-installing-viva-goals.png" alt-text="Screenshot shows how to search by name to add the Viva Goals app for pre-installation." lightbox="../media/goals/5/ms-teams-setup-policies-for-pre-installing-viva-goals.png":::
 
 6. After you add the app to the **Apps to add** list, select **Add** at the bottom of the dialog box to confirm.
 7. To make sure users can find the installed app, we recommend you also pin the app and the message extension. Under **Pinned apps**, select **Add app**.
 
-      :::image type="content" source="../media/goals/5/add-pinned-apps-button.png" alt-text="Screenshot that shows how to add the Viva Goals app to pinned apps." lightbox="../media/goals/5/add-pinned-apps-button.png":::
+      :::image type="content" source="../media/goals/5/add-pinned-apps-button.png" alt-text="Screenshot shows where to choose to add an app to "pinned apps"." lightbox="../media/goals/5/add-pinned-apps-button.png":::
 
 8. Search for and add the Viva Goals app. Select **Save** to confirm the changes to this policy.
 
-      :::image type="content" source="../media/goals/5/pin-viva-goals-app.png" alt-text="Screenshot that shows how to search and pin the Viva Goals app." lightbox="../media/goals/5/pin-viva-goals-app.png":::
+      :::image type="content" source="../media/goals/5/pin-viva-goals-app.png" alt-text="Screenshot  shows how to search for and pin the Viva Goals app." lightbox="../media/goals/5/pin-viva-goals-app.png":::
    
    > [!Note]
    > The app will be added by default at the bottom of the pinned list. You can use the drag handle on the right side to adjust the relative position of the app in the list.

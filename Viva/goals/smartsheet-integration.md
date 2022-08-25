@@ -35,11 +35,11 @@ The Viva Goals Smartsheet integration lets you link objectives and key results (
 
 3. Select **New Connection**. In the dialog that appears, follow the steps to sign in to Smartsheet.
     
-    :::image type="content" source="../media/goals/9/smartsheet-new-connection-button.png" alt-text="Screenshot shows where you add a new Smartsheet connection in Viva Goals." lightbox="../media/goals/9/smartsheet-new-connection-button.png":::
+    :::image type="content" source="../media/goals/9/smartsheet-new-connection-button.png" alt-text="Screenshot shows where you opt to add a new Smartsheet connection in Viva Goals." lightbox="../media/goals/9/smartsheet-new-connection-button.png":::
 
 4. Name your connection and select **Next** to complete setup.
     
-    :::image type="content" source="../media/goals/9/smartsheet-configure-new-connection.png" alt-text="Where to configure a new Smartsheet connection in Viva Goals." lightbox="../media/goals/9/smartsheet-configure-new-connection.png":::
+    :::image type="content" source="../media/goals/9/smartsheet-configure-new-connection.png" alt-text="Screenshot shows where you name your new Smartsheet connection." lightbox="../media/goals/9/smartsheet-configure-new-connection.png":::
 
     Viva Goals allows you to connect with multiple Smartsheet accounts. Select **New connection** to add another instance. You use names to differentiate connections. The names are displayed to members when they link their OKRs to Smartsheet cells.
 
@@ -59,11 +59,11 @@ Now that the integration is enabled, your team can link a Smartsheet cell with a
     > [!NOTE]
     > At this time, you can only track by key performance indicator (KPI), not percentage completed, with Smartsheet integration.
     
-    :::image type="content" source="../media/goals/9/select-smartsheet-datasource.png" alt-text="Screenshot showers where you select Smartsheet from the list of data sources." lightbox="../media/goals/9/select-smartsheet-datasource.png":::
+    :::image type="content" source="../media/goals/9/select-smartsheet-datasource.png" alt-text="Screenshot shows where you select Smartsheet as your data source." lightbox="../media/goals/9/select-smartsheet-datasource.png":::
 
-2. In the dialog, indicate the cell you would like to link the metric with. Select **view** to preview your sheet.
+2. In the dialog, indicate the cell you want to link the metric with. Select **view** to preview your sheet.
     
-    :::image type="content" source="../media/goals/9/smartsheet-connection-details.png" alt-text="Adding new Smartsheet connection to OKRs in Viva goals." lightbox="../media/goals/9/smartsheet-connection-details.png":::
+    :::image type="content" source="../media/goals/9/smartsheet-connection-details.png" alt-text="Screenshot shows where you identify the worksheet, column, and row to link your metric with." lightbox="../media/goals/9/smartsheet-connection-details.png":::
 
 3. Select **Next** to finish and save your OKR. You should now see an icon next to the OKR. The OKR will sync automatically every hour. To refresh it manually, select **refresh**.
 

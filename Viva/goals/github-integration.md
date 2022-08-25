@@ -37,11 +37,11 @@ Admins can follow these steps to enable the integration:
 
 2. For **GitHub**, you'll have an option to **Enable** the integration. If a connection was previously made or if the integration was already enabled, you'll have the option to **Manage** the enabled integration.
     
-    :::image type="content" source="../media/goals/10/github-enable-button.png" alt-text="Screenshot shows where you enable GitHub in Viva Goals." lightbox="../media/goals/10/github-enable-button.png":::
+    :::image type="content" source="../media/goals/10/github-enable-button.png" alt-text="Screenshot shows the enable option highlighted on the integrations page.." lightbox="../media/goals/10/github-enable-button.png":::
 
 3. You can also disable the integration from the same section: Go to **Change** and select **Disable integration** from the dropdown.
     
-   :::image type="content" source="../media/goals/10/github-disable-button.png" alt-text="Disabling GitHub in Viva Goals." lightbox="../media/goals/10/github-disable-button.png"::: 
+   :::image type="content" source="../media/goals/10/github-disable-button.png" alt-text="Screenshot shows where you disable GitHub in Viva Goals." lightbox="../media/goals/10/github-disable-button.png"::: 
 
 ## How to configure the GitHub connection
 
@@ -53,7 +53,7 @@ Admins can follow these steps to enable the integration:
 
 3. Provide a name for the connection.
     
-    :::image type="content" source="../media/goals/10/github-configure-new-connection.png" alt-text="Configuring a new GitHub connection in Viva Goals." lightbox="../media/goals/10/github-configure-new-connection.png"::: 
+    :::image type="content" source="../media/goals/10/github-configure-new-connection.png" alt-text="Screenshot shows where you enter a name for your new GitHub connection in Viva Goals." lightbox="../media/goals/10/github-configure-new-connection.png"::: 
 
 4. You have the option to share the connection with other users in the organization. 
 5. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
@@ -63,11 +63,11 @@ Admins can follow these steps to enable the integration:
 
 ## How to connect the GitHub connection to an OKR
 
-After you configure the connection, the next step is to link OKRs to the GitHub repositories.
+After you configure the connection, the next step is to link OKRs to GitHub repositories.
 
-1. When you create or edit an OKR**, select **Connect data source to auto-update progress**. From the drop-down menu, select **GitHub**.
+1. When you create or edit an OKR, select **Connect data source to auto-update progress**. From the drop-down menu, select **GitHub**.
     
-    :::image type="content" source="../media/goals/10/github-datasource.png" alt-text="Screenshot shows where you selecting GitHub from the list of data sources." lightbox="../media/goals/10/github-datasource.png":::
+    :::image type="content" source="../media/goals/10/github-datasource.png" alt-text="Screenshot shows where you select GitHub as the data source." lightbox="../media/goals/10/github-datasource.png":::
 
 2. If you already created a connection, or if your administrator shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared.
 
@@ -75,7 +75,7 @@ After you configure the connection, the next step is to link OKRs to the GitHub 
 
 4. Select a connection, and all the **associated repositories** will be available in the drop-down. Select a repository and select a **Milestone**.
     
-     :::image type="content" source="../media/goals/10/github-new-connection-details.png" alt-text="Screenshow shows where you add new GitHub connection to OKRs in Viva goals." lightbox="../media/goals/10/github-new-connection-details.png":::
+     :::image type="content" source="../media/goals/10/github-new-connection-details.png" alt-text="Screenshot shows where you add GitHub connection details." lightbox="../media/goals/10/github-new-connection-details.png":::
 
 5. Select an **Assignee** to keep tabs on the issues being handled by a specific user. Select the **custom labels** as applicable.
 

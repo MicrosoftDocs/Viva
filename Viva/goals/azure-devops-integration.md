@@ -31,17 +31,17 @@ For example, say you use Azure DevOps to track the status of issues, and you hav
 
 Admins can follow these steps to enable this integration: 
 
-1. In the sidebar, select on **Admin** and then select the **Integrations** tab. 
+1. In the sidebar, select **Admin** and then select the **Integrations** tab. 
 
    :::image type="content" source="../media/goals/6/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/6/viva-goals-integrations-page.png":::
 
 1.  Under Azure DevOps, you can **enable** the integration. If a connection was made previously or if the integration was already enabled, you'll see the option to **Manage** the integration. 
 
-    :::image type="content" source="../media/goals/6/azure-devops-enable-button.png" alt-text="Enabling Azure DevOps in Viva Goals." lightbox="../media/goals/6/azure-devops-enable-button.png":::
+    :::image type="content" source="../media/goals/6/azure-devops-enable-button.png" alt-text="Screenshot highlights the Enable button for Azure DevOps in Viva Goals." lightbox="../media/goals/6/azure-devops-enable-button.png":::
 
     To dispable the integration from the same section, select **Change** and then select **Disable integration** from the dropdown.
 
-    :::image type="content" source="../media/goals/6/azure-devops-disable-button.png" alt-text="Disabling Azure DevOps in Viva Goals." lightbox="../media/goals/6/azure-devops-disable-button.png":::
+    :::image type="content" source="../media/goals/6/azure-devops-disable-button.png" alt-text="Screenshot highlight the option to disable Azure DevOps in Viva Goals." lightbox="../media/goals/6/azure-devops-disable-button.png":::
 
 ## How to configure the Azure DevOps connection 
 
@@ -53,7 +53,7 @@ After you enabling the integration, the first step is to configure an Azure DevO
 
 2. Provide a name for the connection, and furnish the **Account Name** and the **Project Name**. 
 
-   :::image type="content" source="../media/goals/6/azure-devops-configure-new-connection.png" alt-text="Filling in details for the new Azure DevOps connection in Viva goals.png." lightbox="../media/goals/6/azure-devops-configure-new-connection.png":::
+   :::image type="content" source="../media/goals/6/azure-devops-configure-new-connection.png" alt-text="Screenshot shows where you fill in details for thae new Azure DevOps connection in Viva goals.png." lightbox="../media/goals/6/azure-devops-configure-new-connection.png":::
 
 1. It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
@@ -65,7 +65,7 @@ Once you've configured the connection, the next step is to start linking OKRs to
 
 The option to connect to a data source will appear only for key results, not for objectives.
 
-  :::image type="content" source="../media/goals/6/azure-devops-datasource.png" alt-text="Selecting Azure DevOps from the list of data sources in Viva goals.png." lightbox="../media/goals/6/azure-devops-datasource.png":::
+  :::image type="content" source="../media/goals/6/azure-devops-datasource.png" alt-text="Screenshot shows where you selecting Azure DevOps from the list of data sources in Viva goals.png." lightbox="../media/goals/6/azure-devops-datasource.png":::
 
 1. If you've already created a connection, or if your administrator has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared. 
 
@@ -73,7 +73,7 @@ The option to connect to a data source will appear only for key results, not for
 
 1.  Select a connection, and choose the **Query**. As soon as you choose a query, the **count of matching work items** will be displayed. 
 
-    :::image type="content" source="../media/goals/6/azure-devops-connection-details.png" alt-text="Adding Azure DevOps connection to your OKRs in Viva goals.png." lightbox="../media/goals/6/azure-devops-connection-details.png":::
+    :::image type="content" source="../media/goals/6/azure-devops-connection-details.png" alt-text="Screenshot shows whereyou add a Azure DevOps connection to your OKRs in Viva goals.png." lightbox="../media/goals/6/azure-devops-connection-details.png":::
 
     Progress will be calculated based on the count of tickets completed under the chosen query if you've chosen KPI metric to track progress. It will be calculated based on the percentage of tickets closed if you've chosen percent complete to track progress).
 

@@ -39,7 +39,7 @@ Admins follow these steps to enable integration:
 
 1. In Jira, you'll have an option to **Enable** the integration. If a connection was made previously or if the integration was already enabled, you'll have the option to **Manage** the enabled integration.
     
-    :::image type="content" source="../media/goals/9/jira-enable-button.png" alt-text="Screenshot shows where you enable Jira." lightbox="../media/goals/9/jira-enable-button.png":::
+    :::image type="content" source="../media/goals/9/jira-enable-button.png" alt-text="Screenshot shows where you choose to enable Jira." lightbox="../media/goals/9/jira-enable-button.png":::
 
     The integration can be **disabled** from the same section: Go to **Change** and select **Disable integration** from the dropdown.
     
@@ -51,13 +51,13 @@ After you enable the integration, the first step is to configure a Jira connecti
 
 1. Select **New Connection**, and provide a name for the connection.
     
-   :::image type="content" source="../media/goals/9/jira-new-connection-button.png" alt-text="Screenshot shows where you add new Jira connection in Viva Goals." lightbox="../media/goals/9/jira-new-connection-button.png":::
+   :::image type="content" source="../media/goals/9/jira-new-connection-button.png" alt-text="Screenshot shows where you name your new Jira connection." lightbox="../media/goals/9/jira-new-connection-button.png":::
 
 1. Add the **Server URL** of your Jira account.
     
     :::image type="content" source="../media/goals/9/jira-configure-new-connection.png" alt-text="Screenshot shows where you configure a new Jira connection." lightbox="../media/goals/9/jira-configure-new-connection.png":::
 
-1. For Jira instances on the cloud, enter the email address and the Application Programming Interface (API) token associated with your Jira account. See the [instructions to generate an API token for your Jira cloud account](https://confluence.atlassian.com/cloud/api-tokens-938839638.html).
+1. For Jira instances in the cloud, enter the email address and the Application Programming Interface (API) token associated with your Jira account. See the [instructions to generate an API token for your Jira cloud account](https://confluence.atlassian.com/cloud/api-tokens-938839638.html).
 
 1. Select **Next** to get this integration running. You can edit the saved connection at any time.
 
@@ -69,7 +69,7 @@ After you configure a connection, the next step is to link OKRs to the stories o
 
 1. When you create or edit an OKR, select **Connect data source to auto-update progress**. From the drop-down menu, select **Jira**.
     
-    :::image type="content" source="../media/goals/9/select-jira-datasource.png" alt-text="Screenshot shows where you select Jira from the list of data sources." lightbox="../media/goals/9/select-jira-datasource.png":::
+    :::image type="content" source="../media/goals/9/select-jira-datasource.png" alt-text="Screenshot shows where you select Jira as the data source." lightbox="../media/goals/9/select-jira-datasource.png":::
 
 1. If you already created a connection or if your administrator shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared.
 
@@ -77,7 +77,7 @@ After you configure a connection, the next step is to link OKRs to the stories o
 
 1. Select a connection, and add a JQL query to match any issues that would relate to the objective or key result. As more issues in Jira match the query, theyll be linked to the success of the objective or key result.
     
-    :::image type="content" source="../media/goals/9/jira-connection-details.png" alt-text="Screenshot shows where you add a new Jira connection to an OKR." lightbox="../media/goals/9/jira-connection-details.png":::
+    :::image type="content" source="../media/goals/9/jira-connection-details.png" alt-text="Screenshot shows where you add a Jira query." lightbox="../media/goals/9/jira-connection-details.png":::
     
     A JQL query can be copied from Jira. Search for issues you want to link to your objective using available filters on Jira. Next, select the **Advanced** option and Jira automatically converts your search to a JQL query. You can copy and paste the query string into your integration with Viva Goals.
 
@@ -206,9 +206,9 @@ When you create or edit a key result in Viva Goals, choose the method you want t
 
 The status of projects will be updated automatically depending on the story points completed in Jira.
 
-1. When you create or edit a project in Viva Goals, select **Select an option** to add tasks to project. From the drop-down menu, select **Jira**.
+1. When you create or edit a project in Viva Goals, select **Select an option** to add tasks to the project. From the drop-down menu, select **Jira**.
 
-    :::image type="content" source="../media/goals/9/jira-project-connection.png" alt-text="Screenbox shows where you select Jira connection for projects." lightbox="../media/goals/9/jira-project-connection.png":::
+    :::image type="content" source="../media/goals/9/jira-project-connection.png" alt-text="Screenbox shows where you select Jira connection for a project." lightbox="../media/goals/9/jira-project-connection.png":::
 
 1. If you already created a connection or if your administrator shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared.
 

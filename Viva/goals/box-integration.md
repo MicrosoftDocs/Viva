@@ -35,13 +35,13 @@ Admins can follow these steps to enable this integration:
 
 2. For **Box**, choose to **Enable** the integration. If a connection was made previously or if the integration was already enabled, you can choose to **Manage** the enabled integration.
   
-    :::image type="content" source="../media/goals/10/box-enable-button.png" alt-text="Screenshot shows how you enable Box in Viva Goals." lightbox="../media/goals/10/box-enable-button.png":::
+    :::image type="content" source="../media/goals/10/box-enable-button.png" alt-text="Screenshot shows where you enable Box in Viva Goals." lightbox="../media/goals/10/box-enable-button.png":::
 
 3. This integration can also be disabled from the same section: Go to **Change** and select **Disable integration** from the dropdown.
   
-    :::image type="content" source="../media/goals/10/box-disable-button.png" alt-text="Screenshot shows how you disabling Box integration in Viva Goals." lightbox="../media/goals/10/box-disable-button.png":::
+    :::image type="content" source="../media/goals/10/box-disable-button.png" alt-text="Screenshot shows how you disable Box integration in Viva Goals." lightbox="../media/goals/10/box-disable-button.png":::
 
-## How to configure the Box integration
+## How to configure Box integration
 
 1. After you enable the integration, the first step is to configure a Box connection.
 
@@ -49,11 +49,11 @@ Admins can follow these steps to enable this integration:
 
 3. Open the newly created objective and select **Edit** within the **More** option.
   
-     :::image type="content" source="../media/goals/10/box-okr-edit-button.png" alt-text="Screenshot shows where you edit an OKR to add a new Box connection." lightbox="../media/goals/10/box-okr-edit-button.png":::
+     :::image type="content" source="../media/goals/10/box-okr-edit-button.png" alt-text="Screenshot shows where you choose to edit an OKR to add a new Box connection." lightbox="../media/goals/10/box-okr-edit-button.png":::
 
 4. Under **Progress**, select **Automatically from a data source** and choose **Box** from the search menu.
   
-    :::image type="content" source="../media/goals/10/box-datasource.png" alt-text="Selecting Box from the list of data sources in Viva Goals." lightbox="../media/goals/10/box-datasource.png":::
+    :::image type="content" source="../media/goals/10/box-datasource.png" alt-text="Screenshot shows where you select Box from the list of data sources in Viva Goals." lightbox="../media/goals/10/box-datasource.png":::
 
 5. To add a new connection between Viva Goals and Box, sign in with your Box credentials.
 
@@ -67,7 +67,7 @@ After you configure the connection, the next step is to start linking OKRs to th
 
 2. Select the **Edit Integration** link from the dropdown.
   
-    :::image type="content" source="../media/goals/10/box-edit-integration-button.png" alt-text="Edit integration to add new Box connection in Viva Goals." lightbox="../media/goals/10/box-edit-integration-button.png":::
+    :::image type="content" source="../media/goals/10/box-edit-integration-button.png" alt-text="Screenshot shows the option to edit the integration to add a new Box connection in Viva Goals." lightbox="../media/goals/10/box-edit-integration-button.png":::
 
 3. Next, select the spreadsheet or the Excel workbook (.xlsx) by searching for it in the search bar. You can search for any sheet that you own or that was shared with you by other users. For your spreadsheet to be processed, it needs to be unlocked from the sheet.
 
@@ -79,7 +79,7 @@ After you configure the connection, the next step is to start linking OKRs to th
 
 7. Once you select the named range, you'll see a preview of the selected value from the sheet so you can double-check from the sheet.
   
-    :::image type="content" source="../media/goals/10/box-connection-details.png" alt-text="Adding new Box connection to OKRs in Viva goals." lightbox="../media/goals/10/box-connection-details.png":::
+    :::image type="content" source="../media/goals/10/box-connection-details.png" alt-text="Screenshot shows a preview from your selected worksheet in Box." lightbox="../media/goals/10/box-connection-details.png":::
 
 8. Select the **Next** button. You'll now see that the objective has been connected to Box.
 
@@ -103,11 +103,11 @@ Also, name ranges are permanent. So, if you make any changes in your sheet by ad
 
 2. Select **Define Name** under **Formulas**.
 
-    :::image type="content" source="../media/goals/9/excel-define-name-button.png" alt-text="Selecting Define Name under Formulas in Excel." lightbox="../media/goals/9/excel-define-name-button.png":::
+    :::image type="content" source="../media/goals/9/excel-define-name-button.png" alt-text="Screenshot shows where you selecting "Define Name" in Excel." lightbox="../media/goals/9/excel-define-name-button.png":::
 
 3. In the **New Name** dialogue box, type the name you want to assign to the selected data range. You can specify the scope as the entire workbook or a specific worksheet. If you select a particular sheet, the name wouldn't be available on other sheets.
 
-    :::image type="content" source="../media/goals/9/excel-define-name-dialog.png" alt-text="Define Name dialog box in Excel." lightbox="../media/goals/9/excel-define-name-dialog.png":::
+    :::image type="content" source="../media/goals/9/excel-define-name-dialog.png" alt-text="Screenshot shows the "Define Name" dialog box in Excel." lightbox="../media/goals/9/excel-define-name-dialog.png":::
 
 4. Select **OK**.
 
@@ -123,6 +123,6 @@ Also, name ranges are permanent. So, if you make any changes in your sheet by ad
 
 4. Type the range name you want.
 
-    :::image type="content" source="../media/goals/9/google-named-range-dialog.png" alt-text="Named Range dialog Box in Google Sheets." lightbox="../media/goals/9/google-named-range-dialog.png":::
+    :::image type="content" source="../media/goals/9/google-named-range-dialog.png" alt-text="Screenshot shows the "Named Ranges" option highlighted on the Data menu." lightbox="../media/goals/9/google-named-range-dialog.png":::
 
 5. Select **Done**.

@@ -31,21 +31,21 @@ A Viva Goals admin can follow these steps to enable the Domo Integration:
 
 1. Go to Viva Goals integrations page through **Admin > Integrations**.
   
-    :::image type="content" source="../media/goals/7/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page." lightbox="../media/goals/7/viva-goals-integrations-page.png":::
+    :::image type="content" source="../media/goals/7/viva-goals-integrations-page.png" alt-text="Screenshot shows the integrations page in Viva Goals." lightbox="../media/goals/7/viva-goals-integrations-page.png":::
 
 2. Enable the Domo integration in the **Data Integrations** category.
   
-    :::image type="content" source="../media/goals/7/domo-enable-button.png" alt-text="Screenshot shows enabling Domo in Viva Goals." lightbox="../media/goals/7/domo-enable-button.png":::
+    :::image type="content" source="../media/goals/7/domo-enable-button.png" alt-text="Screenshot shows where you enable Domo in Viva Goals." lightbox="../media/goals/7/domo-enable-button.png":::
 
 3. The integration can also be disabled at any time from the same section.
   
-    :::image type="content" source="../media/goals/7/domo-disable-button.png" alt-text="Screenshot show where you disabling Domo." lightbox="../media/goals/7/domo-disable-button.png":::
+    :::image type="content" source="../media/goals/7/domo-disable-button.png" alt-text="Screenshot show where you disable Domo." lightbox="../media/goals/7/domo-disable-button.png":::
 
 ## How to configure the Domo connection
 
 In the **Connections** section, select **New Connection.** In the popup that appears, follow the prompt to configure the Domo connection by using a Domo Client ID and Secret. A connection can be shared with all users or made private. You can also edit a saved Domo connection from the same section.
   
-  :::image type="content" source="../media/goals/7/domo-creating-new-connection.png" alt-text="Screenshot shows where you enter new Domo connection details." lightbox="../media/goals/7/domo-creating-new-connection.png":::
+  :::image type="content" source="../media/goals/7/domo-creating-new-connection.png" alt-text="Screenshot shows the dialog box where you enter new Domo connection details." lightbox="../media/goals/7/domo-creating-new-connection.png":::
 
 To create a Domo Client ID and Secret, visit [https://developer.domo.com/new-client](https://developer.domo.com/new-client), sign in with your Domo domain and credentials. Enter **Name** and **Description** details, and select **Data** as **Application scope**.
 
@@ -58,7 +58,7 @@ Once the connection configuration is done, users can **Edit** their Viva Goals O
 
 1. When you create/edit an objective or key result, select **Add an integration**. Select **Domo** from the list of integrations.
   
-   :::image type="content" source="../media/goals/7/domo-from-the-list-of-datasources.png" alt-text="Screenshot show where you select Domo from the list of data sources in Viva goals." lightbox="../media/goals/7/domo-from-the-list-of-datasources.png":::
+   :::image type="content" source="../media/goals/7/domo-from-the-list-of-datasources.png" alt-text="Screenshot shows where you select Domo from the list of data sources in Viva goals." lightbox="../media/goals/7/domo-from-the-list-of-datasources.png":::
 
 2. If a Domo Connection isn't configured, Viva Goals also allows the user to configure a connection right there. If already configured, Viva Goals allows the users to proceed with setting up the data link by selecting an available connection.
 
@@ -66,7 +66,7 @@ Once the connection configuration is done, users can **Edit** their Viva Goals O
   
 4. Select **Connection**, key in **DataSet-ID**, your actual **KPI** from the list of measures/dimensions available in the selected dataset.
   
-   :::image type="content" source="../media/goals/7/domo-new-connection-details.png" alt-text="Screenshot shows where you add a new Domo connection to OKRs." lightbox="../media/goals/7/domo-new-connection-details.png":::
+   :::image type="content" source="../media/goals/7/domo-new-connection-details.png" alt-text="Screenshot shows where you specify the KPI measurement type." lightbox="../media/goals/7/domo-new-connection-details.png":::
 
 > [!NOTE]
 > To obtain the DataSet-ID: Log in to your Domo instance and select the Dataset name mentioned under the card.

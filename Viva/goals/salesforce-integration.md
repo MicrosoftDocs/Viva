@@ -37,7 +37,7 @@ An admin can follow these steps to set up Salesforce integration in Viva Goals.
 
 3. Select **"New Connection"** and follow the prompts to sign in to your Salesforce account.
   
-    :::image type="content" source="../media/goals/9/salesforce-new-connection-button.png" alt-text="Screenshot shows how you adding new Salesforce connection in Viva Goals." lightbox="../media/goals/9/salesforce-new-connection-button.png":::
+    :::image type="content" source="../media/goals/9/salesforce-new-connection-button.png" alt-text="Screenshot shows where you select "New Connection" for Salesforce in Viva Goals." lightbox="../media/goals/9/salesforce-new-connection-button.png":::
 
 4. Select **"Next"** to finish setup.
 
@@ -51,7 +51,7 @@ Once the setup is complete, users in your organization can link the success of t
 
 2. From the list of integrations, select **Salesforce**.
   
-    :::image type="content" source="../media/goals/9/select-salesforce-datasource.png" alt-text="Screenshot shows where you select Salesforce from the list of data sources in Viva Goals." lightbox="../media/goals/9/select-salesforce-datasource.png":::
+    :::image type="content" source="../media/goals/9/select-salesforce-datasource.png" alt-text="Screenshot shows where you select Salesforce as the data source in Viva Goals." lightbox="../media/goals/9/select-salesforce-datasource.png":::
 
 3. Search for the name of the report you want to connect to. If you have multiple Salesforce connections, select the connection that your report is associated with before you search for the report.
   
@@ -59,7 +59,7 @@ Once the setup is complete, users in your organization can link the success of t
 
 4. Select the field you want to designate as the measure of success. The available fields will vary based on the configuration of the report selected.
   
-    :::image type="content" source="../media/goals/9/salesforce-field-selection.png" alt-text="Screenshot shows where you selecting a Salesforce field." lightbox="../media/goals/9/salesforce-field-selection.png":::
+    :::image type="content" source="../media/goals/9/salesforce-field-selection.png" alt-text="Screenshot shows where you select a Salesforce field to be your measure of success." lightbox="../media/goals/9/salesforce-field-selection.png":::
 
 5. Select **Next** and then **Save** to complete the update for your OKR.
 
