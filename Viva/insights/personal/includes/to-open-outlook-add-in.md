@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 title: To open the Insights Outlook add-in 
 description: How to open the Insights Outlook add-in
 author: madehmer
