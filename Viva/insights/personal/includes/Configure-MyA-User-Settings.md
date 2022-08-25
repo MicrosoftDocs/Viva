@@ -1,5 +1,4 @@
 ---
-
 title: Configure Viva Insights user settings
 description: Configure Viva Insights settings for new users
 author: madehmer
