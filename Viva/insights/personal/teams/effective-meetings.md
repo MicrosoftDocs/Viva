@@ -31,13 +31,13 @@ To set up Outlook meeting categories, refer to [Assign a color category to a cal
   
 **Meeting category insights** shows you how many hours you’re spending in meetings, then breaks down the time you spend in each of your categories.
 
-![Screenshot that shows the Meeting category insights page.](Images/meeting-category-insights.png)
+![Screenshot that shows the Meeting category insights page.](Images/meeting-category-insights2.png)
 
 You can customize what you see here. If you want to:
 
 * Analyze a specific category, select it from the checklist to the left.
 
-    ![Screenshot that shows one category selected.](Images/meeting-category-insights-customer-meetings.png)
+    ![Screenshot that shows one category selected.](Images/meeting-category-insights-customer-meetings2.png)
 
 * Pick a specific timeframe, use the dropdown menu in the top-right. You can choose from **Last 3 months**, **Last 4 weeks**, or **Next 4 weeks**.
 
