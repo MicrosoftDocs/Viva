@@ -18,6 +18,10 @@ audience: user
 
 You can use **Effective meetings** in Microsoft Viva Insights to help reinforce positive meeting habits. This feature also helps you identify and work on areas of improvement so you can lead more effective meetings.
 
+>[!Note]
+>With future updates, you'll see more personalized insights and suggestions displayed in the **Effective meetings** tab that can help improve meeting habits. You’ll also see options to create and share meeting plans that can help set team meeting norms.
+
+
 ## Meeting category insights
 
 You can use **Meeting category insights** in **Effective meetings** to help understand how you’re allocating time across your Outlook meeting categories.
@@ -29,17 +33,17 @@ You can use **Meeting category insights** in **Effective meetings** to help unde
   
 **Meeting category insights** shows you how many hours you’re spending in meetings, then breaks down the time you spend in each of your categories.
 
-![Screenshot that shows the Meeting category insights page.](Images/meeting-category-insights-all-categories.png)
+![Screenshot that shows the Meeting category insights page.](Images/meeting-category-insights.png)
 
 You can customize what you see here. If you want to:
 
 * Analyze a specific category, select it from the checklist to the left.
 
-    ![Screenshot that shows one category selected.](Images/meeting-category-insights-green-category.png)
+    ![Screenshot that shows one category selected.](Images/meeting-category-insights-customer-meetings.png)
 
 * Pick a specific timeframe, use the dropdown menu in the top-right. You can choose from **Last 3 months**, **Last 4 weeks**, or **Next 4 weeks**.
 
     ![Screenshot that shows the time frame dropdown list.](Images/meeting-category-insights-time-frame.png)
 
->[!Note]
->If you haven’t categorized any meetings between the last three months and next four weeks, these insights won’t be available to you. However, you’ll have access to them once you categorize any meeting within this time period as long as you have a Viva Insights subscription.
+>[!Important]
+>If you haven’t categorized any meetings between the last three months and next four weeks, these insights won’t be available to you. However, you’ll have access to them once you categorize any meeting within this time period, as long as you have a Viva Insights subscription.
