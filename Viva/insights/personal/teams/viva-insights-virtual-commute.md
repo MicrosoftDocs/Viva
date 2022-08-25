@@ -15,7 +15,7 @@ audience: user
 
 # Virtual commute
 
-You can use virtual commute feature in the Microsoft Viva Insights app from either the [Up-next card](#up-next-card) or [within Protect time](#within-protect-time).
+You can use virtual commute feature in the Microsoft Viva Insights app from either the [Up-next card](#from-the-up-next-card-on-the-home-page) on the Home page or [within Protect time](#within-protect-time).
 
 ## From the Up-next card on the Home page
 
@@ -34,7 +34,7 @@ In **Protect time**, when prompted with, "Ready to wrap up?", select **Let's go*
 
 ![Screenshot that shows the option to book focus time.](Images/vc-lets-go-pt1.png)  
 
-When you select this button, your virtual commute will start immediately. For details about the virtual commute experience, see [virtual commute steps](#virtual-commute-steps). Starting a virtual commute this way doesn't affect the scheduled days and time of day that you set in [Set up virtual commutes](#set-up-virtual-commutes).
+When you select this button, your virtual commute starts immediately. For details about the virtual commute experience, see [virtual commute steps](#virtual-commute-steps). Starting a virtual commute this way doesn't affect the scheduled days and time of day that you set in [Set up virtual commutes](#set-up-virtual-commutes).
 
 ## Set up virtual commutes
 
