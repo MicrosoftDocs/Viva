@@ -68,7 +68,7 @@ After the connection is configured, users can **Edit** their OKRs to set up a da
 
 1. When you create or edit an objective or key result, select **Add an integration**, and then select **Tableau** from the list of integrations.
   
-    :::image type="content" source="../media/goals/7/tableau-integration-from-the-list-of-integrations-in-viva-goals.png" alt-text="Screenshot shows where you select Tableau as the data source for the new connection." lightbox="../media/goals/7/tableau-from-the-list-of-datasources.png":::
+    :::image type="content" source="../media/goals/7/tableau-from-the-list-of-datasources.png" alt-text="Screenshot shows where you select Tableau as the data source for the new connection." lightbox="../media/goals/7/tableau-from-the-list-of-datasources.png":::
 
 1. If a Tableau connection isn't already configured, Viva Goals prompts the user to configure a connection. If a connection is already configured, Viva Goals lets the user proceed to set up the data link.
 
