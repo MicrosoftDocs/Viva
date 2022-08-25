@@ -1,7 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
-
 title: To open the Insights Outlook add-in 
 description: How to open the Insights Outlook add-in
 author: madehmer
@@ -9,7 +6,8 @@ ms.author: helayne
 ms.date: 04/11/2019
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.service: viva
+ms.subservice: viva-insights
 ---
 
 **To open the Insights Outlook add-in**
