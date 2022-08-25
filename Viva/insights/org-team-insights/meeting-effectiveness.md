@@ -24,7 +24,7 @@ This article explains how to leverage best practices before, during, and after y
 
 You can find the **Meeting effectiveness** tab in the Viva Insights app, under **Organization trends**.
 
-![Screenshot that shows the Try shorter meetings insight.](../Images/WpA/Use/org-meeting-effectiveness1.png)
+![Screenshot that shows the Organization trends tab highlighted and Meeting effectiveness page selected.](../Images/WpA/Use/org-meeting-effectiveness1.png)
 
 ## Before the meeting
 
