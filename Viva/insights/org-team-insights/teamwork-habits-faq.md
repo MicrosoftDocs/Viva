@@ -1,6 +1,6 @@
 ---
 
-title: FAQ for manager and team lead insights
+title: FAQ for Teamwork habits
 description: FAQ for Teamwork habits in the Microsoft Viva Insights app.
 author: lilyolason
 ms.author: v-lilyolason
@@ -23,7 +23,7 @@ audience: Admin, user
 
 Get answers to the most frequently asked questions about what you see in the **Teamwork habits** tab within Microsoft Viva Insights in Microsoft Teams.
 
-##### Q1 Who benefits from My team in Viva Insights?
+##### Q1 Who benefits from Teamwork habits in Viva Insights?
 
 Teamwork habits is designed for employees on working teams. Insights in Teamwork habits are derived from your personal Exchange Online mailbox.
 
@@ -71,4 +71,4 @@ For the "Is this helpful" question near the end of every insight and every page,
 
 ##### Q9 How do I opt back in to Teamwork habits?
 
-You can opt back in at any time to My team within Viva Insights Settings. Refer to [Teamwork habits documentation](teamwork-habits.md#disable-or-enable-teamwork-habits) for detailed steps.
+You can opt back in at any time to Teamwork habits within Viva Insights Settings. Refer to [Teamwork habits documentation](teamwork-habits.md#disable-or-enable-teamwork-habits) for detailed steps.
