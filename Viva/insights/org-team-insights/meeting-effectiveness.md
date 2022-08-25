@@ -24,6 +24,8 @@ This article explains how to leverage best practices before, during, and after y
 
 You can find the **Meeting effectiveness** tab in the Viva Insights app, under **Organization trends**.
 
+![Screenshot that shows the Try shorter meetings insight.](../Images/WpA/Use/org-meeting-effectiveness1.png)
+
 ## Before the meeting
 
 ### Try shorter meetings
@@ -34,7 +36,7 @@ You can find the **Meeting effectiveness** tab in the Viva Insights app, under *
 
 ![Screenshot that shows the Try shorter meetings insight.](../Images/WpA/Use/org-meeting-effectiveness-shorter-meetings.png)
 
-For **Try shorter meetings**, the **Meeting effectiveness tab** provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings, and a visual insight that shows the percentage meetings attended, divided into four categories.
+For **Try shorter meetings**, the **Meeting effectiveness** tab provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings, and a visual insight that shows the percentage meetings attended, divided into four categories.
 
 Here's some information about how those metrics are calculated:
 
@@ -64,7 +66,7 @@ For more best practices and change strategies, see [Best practices for meetings]
 
 !['Improve meeting practices' insight](../Images/WpA/Use/org-meeting-effectiveness-improve.png)
 
-For **Improve meeting practices**, the **Meeting effectiveness** tab provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings and a visual insight that shows the percentage meetings attended, divided into four categories.
+For **Improve meeting practices**, the **Meeting effectiveness** tab provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings and a visual insight that shows the percentage of meetings attended, divided into four categories.
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
@@ -83,7 +85,7 @@ According to [If you multitask during meetings, your team will, too](https://ins
 Here are ways to improve meetings:
 
 * Create clear meeting agendas to stay on task. Agendas should clearly state meeting goals and the purpose of each participant's attendance. Framing agenda topics as questions helps to focus and prime discussion.
-* Add quick, 15-minute breaks to long meetings. People have short attention spans. To keep meeting participants engaged during longer meetings, structure agendas in 15-minute increments and take mini-breaks.
+* Add quick, 15-minute breaks to long meetings to keep meeting participants engaged during longer meetings.
 * Use the [Outlook Insights add-in](../personal/use/add-in.md) to help prepare for meetings. The Outlook Insights add-in provides detailed meeting information, related documents, and reminders to book preparation time.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
@@ -104,8 +106,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who spend a majority of their time in recurring meetings | [Recurring meeting hours](../advanced/analyst/metrics.md#recurring-meeting-hours-define)
-(../advanced/analyst/metrics.md#recurring-meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
+|Percentage of employees who spend a majority of their time in recurring meetings | [Recurring meeting hours](../advanced/analyst/metrics.md#recurring-meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
 
 |Visual insight| Definition|
 |--------------|-----------|
