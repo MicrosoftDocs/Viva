@@ -1,15 +1,15 @@
 ---
-
 title: Configure Viva Insights user settings
 description: Configure Viva Insights settings for new users
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.service: viva
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
+ms.subservice: viva-insights
 ---
 
 You can configure Viva Insights (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).
@@ -23,9 +23,9 @@ You can set this parameter for one user or for many users:
 
 PrivacyMode parameter  | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
-Opt-in (This is the default setting)        | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users.</li><li>Personal dashboard is available.</li><li>User can opt-out.</li></ul>  | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users.</li><li>Admins can opt-out unlicensed users through the admin PowerShell. </li></ul>  
-Opt-out    | <ul><li>Microsoft 365 data is not used for aggregated information shown to licensed users.</li><li> Personal dashboard is not available.</li><li>User can opt-in through the Feature settings menu.</li></ul>   |  <ul><li> Microsoft 365 data is not used for aggregated information shown to licensed users.</li></ul>
-Excluded   |<ul><li> Microsoft 365 data is not used for aggregated information shown to licensed users.</li><li>Dashboard is available.</li><li>User cannot opt-in through the Feature settings menu.</li></ul>  |<ul><li> Do not specify _Excluded_ for unlicensed users. Instead, specify _Opt-out_.</li></ul>
+Opt-in (This is the default setting)        | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users.</li><li>Personal dashboard is available.</li><li>User can opt out.</li></ul>  | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users.</li><li>Admins can opt out unlicensed users through the admin PowerShell. </li></ul>  
+Opt-out    | <ul><li>Microsoft 365 data isn't used for aggregated information shown to licensed users.</li><li> Personal dashboard isn't available.</li><li>User can opt in through the Feature settings menu.</li></ul>   |  <ul><li> Microsoft 365 data isn't used for aggregated information shown to licensed users.</li></ul>
+Excluded   |<ul><li> Microsoft 365 data isn't used for aggregated information shown to licensed users.</li><li>Dashboard is available.</li><li>User can't opt in through the Feature settings menu.</li></ul>  |<ul><li> Don't specify _Excluded_ for unlicensed users. Instead, specify _Opt out_.</li></ul>
 
 >[!Note]  
 >
@@ -81,7 +81,7 @@ Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
 Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AD).   |   -
-PrivacyMode   |   Yes   | <ul><li>__Excluded:__ Viva Insights will not use the current user's data to compute derived statistics for other users. The current user will not be able to change this from the **Feature settings** menu in Viva Insights, but will still be able to see personalized statistics in their Viva Insights dashboard and the Insights Outlook add-in.</li><li>__Opt-out:__ Viva Insights will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in Viva Insights, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ Viva Insights will use the current user's data to compute derived statistics for other users. The current user will see statistics in Viva Insights, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
+PrivacyMode   |   Yes   | <ul><li>__Excluded:__ Viva Insights won't use the current user's data to compute derived statistics for other users. The current user won't be able to change this from the **Feature settings** menu in Viva Insights, but will still be able to see personalized statistics in their Viva Insights dashboard and the Insights Outlook add-in.</li><li>__Opt-out:__ Viva Insights won't use the current user's data to compute derived statistics for other users. The current user won't see statistics in Viva Insights, but can change this from the Feature settings menu and choose to opt in.</li><li>__Opt-in:__ Viva Insights will use the current user's data to compute derived statistics for other users. The current user will see statistics in Viva Insights, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
   
 ### Determine Viva Insights access for one user
 
