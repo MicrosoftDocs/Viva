@@ -10,7 +10,6 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ms.subservice: viva-insights
-
 ---
 
 <!-- For now, include this content in the add-in.md topic -->
