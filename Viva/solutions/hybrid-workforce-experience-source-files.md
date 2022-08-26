@@ -1,6 +1,6 @@
 ---
 title: Hybrid workforce experience solution - source files
-description: Learn how generate source files for the Hybrid workforce experience solution
+description: Learn how to generate source files for the Hybrid workforce experience solution.
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article

@@ -51,7 +51,7 @@ Using data-driven insights, the Hybrid employee experience report helps leaders 
 * **Work-Life Balance & Flex Work** – How does hybrid work impact employees’ ability to unplug? Are there specific work modes working longer hours, or embracing more flexible schedules?
 * **Connectivity and Belonging** – Are people connecting in ways that boost their sense of belonging?
 
-Then, using information from these six categories, the report provides guidance on **Why it matters**, as well as actionable insights and recommendations about how improve the overall hybrid employee experience.
+Then, using information from these six categories, the report provides guidance on **Why it matters**, as well as actionable insights and recommendations about how to improve the overall hybrid employee experience.
 
 ### Report prerequisites
 
@@ -89,7 +89,7 @@ After you've completed these two steps, you're ready to use the Viva Insights Hy
 
 This solution makes the following assumptions about your licenses and connection environment:
 
-* You’ve already assigned Viva insights licenses and are using Azure AD, including using Azure AD to access Office 365. 
+* You’ve already assigned Viva Insights licenses and are using Azure AD, including using Azure AD to access Office 365. 
 * The connection between a device (PC, mobile device) and Azure AD is configured to differentiate between being connected in the office and being connected on a VPN outside of the office. A few configurations allow that differentiation, like these:
     * [VPN split tunneling](/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel) for Azure AD
     * VPN users having a different NAT IP address than office users
