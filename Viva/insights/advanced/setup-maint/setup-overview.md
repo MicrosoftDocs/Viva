@@ -29,7 +29,7 @@ My team and its features are available to managers or team leads who have a Micr
 
 For Team insights:
 
-* Set up the Viva Insights app in Microsoft Teams. For details, refer to  [Install, pin, and configure the app](/viva/insights/use/viva-insights-my-org.md#install-pin-and-configure-the-app).
+* Set up the Viva Insights app in Microsoft Teams. For details, refer to  [Install, pin, and configure the app](../../org-team-insights/org-trends.md#install-pin-and-configure-the-app).
 
 For group and manager insights:
 
