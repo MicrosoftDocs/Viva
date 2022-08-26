@@ -1,8 +1,8 @@
 ---
 title: Update OKRs with check-ins 
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -30,7 +30,7 @@ The fact that all check-ins are visible to everyone in the organization maintain
 
 To check in quickly, go to your list of objectives and move the cursor over the objective or key result you want to update. Select the check-in option.
 
-![Screenshot shows where to check in.](../media/goals/3/35/a.jpg)
+:::image type="content" source="../media/goals/3/35/a.jpg" alt-text="Screenshot showing where to check in." lightbox="../media/goals/3/35/a.jpg":::
 
 In the check-in sidebar:
 
@@ -40,7 +40,7 @@ In the check-in sidebar:
 
 3. **Flag the overall status**: Is your objective or KR on track, behind, or at risk, or have you not started yet? 
 
-    ![Screenshot shows where to update status.](../media/goals/3/35/b.jpg)
+    :::image type="content" source="../media/goals/3/35/b.jpg" alt-text="Screenshot shows where to update status." lightbox="../media/goals/3/35/b.jpg":::
 
 Keep it short and sharp. The OKR process doesn't require long explanations on every check-in.
 
@@ -66,7 +66,7 @@ When there are multiple OKR owners, only the user who is set as **check-in respo
 > [!Note] 
 > By default, the owner, or the first owner if there are multiple owners, is set as the person responsible for check-ins.
 
-   ![Screenshot shows where you assign check in responsibility.](../media/goals/3/35/c.jpg)
+   :::image type="content" source="../media/goals/3/35/c.jpg" alt-text="Screenshot shows where you assign check in responsibility." lightbox="../media/goals/3/35/c.jpg":::
 
 ## How to use likes and comments with check-ins
 
@@ -74,13 +74,13 @@ OKRs and ongoing feedback make a great team. Use Viva Goals's social features to
 
 To comment on a check-in, go to **Check-in** on the objective page or find it in the feed. Use "**@**" followed by the name of a team member to mention them in a comment. This sends them an email notification, which draws their attention to critical updates or opportunities.
 
-![Screenshot shows where you add a note and address it to someone.](../media/goals/3/35/d.jpg)
+:::image type="content" source="../media/goals/3/35/d.jpg" alt-text="Screenshot shows where you add a note and address it to someone." lightbox="../media/goals/3/35/d.jpg":::
 
 ## How to edit and delete check-ins 
 
 If you need to change or remove check-in made in error, you can find the check-in on the objective page or feed and then select **edit** or **remove** to make changes.
 
-![Screenshot shows where to edit or delete check-ins.](../media/goals/3/35/e.jpg)
+:::image type="content" source="../media/goals/3/35/e.jpg" alt-text="Screenshot shows where to edit or delete check-ins." lightbox="../media/goals/3/35/e.jpg":::
 
 ## How to set reminders for check-ins 
 
@@ -112,7 +112,7 @@ Viva Goals sends reminders in the following ways:
 
 - A chief of staff is setting a check-in cadence for the People Operations department to receive notifications every month on the first Friday at 9 AM. The chief of staff wants the subteams reporting to her to continue having a cadence of their own, preferably a weekly cadence. Therefore, she won't cascade this cadence down to the reporting teams and will let each team set their own check-in rhythm. 
 
-    ![Screenshot shows where you set check-in rhythym.](../media/goals/3/35/f.jpg)
+    :::image type="content" source="../media/goals/3/35/f.jpg" alt-text="Screenshot shows where you set check-in rhythym." lightbox="../media/goals/3/35/f.jpg":::
 
 - The head of marketing is setting a bi-weekly cadence for the Marketing team to receive notifications on every Monday once every two weeks at 9 AM. The head of marketing wants his reporting teams (say, Product Marketing, Demand Generation, and Customer Marketing) to have their own cadence but highly recommends starting them with the same cadence as the marketing team. In this case, the cadence will cascade down the teams. But the teams can change this schedule at any time. 
 

@@ -115,6 +115,19 @@ productDirectory:
           text: Learning path - OKR leadership program
         - url: https://go.microsoft.com/fwlink/?linkid=2193540
           text: End user help & training
+          
+    # Card
+    - title: Microsoft Viva Engage
+      imageSrc: media/logos/engage-launch-c-64.svg
+      links:
+        - url: /viva/engage/overview
+          text: Get started
+        - url: /viva/engage/setup
+          text: Setup
+        - url: https://support.microsoft.com/office/930c86f1-e1e2-4e45-a66a-ce8faca71a21
+          text: End user help & training
+        - url: https://aka.ms/VivaEngage/Resources
+          text: Adoption resources
     
     # Card
     - title: Microsoft Viva Sales (Preview)

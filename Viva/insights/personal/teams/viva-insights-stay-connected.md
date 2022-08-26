@@ -2,22 +2,22 @@
 
 title: Stay connected with Viva Insights
 description: Use the Stay connected feature in Microsoft Viva Insights
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
 # Stay connected
 
-You can use **Stay connected** in the Microsoft Viva Insights app in Teams to stay connected with your collaborators and improve your productivity.
+You can use **Stay connected** in the Microsoft Viva Insights app to stay connected with your collaborators and improve your productivity.
 
-![Stay connected.](images/stay-connected.png)
+![Screenshot that shows the Stay connected page.](images/stay-connected.png)
 
 **Stay connected** includes the following insights:
 
@@ -38,11 +38,11 @@ Based on your collaboration patterns, you can pin some of your contacts as impor
 
 To pin a contact, select the **pin** icon on the bottom left below the contact’s name: 
    
-   ![Pin a contact.](Images/pin-contact.png)
+   ![Screenshot that shows pinning a contact.](Images/pin-contact.png)
 
 To unpin a contact, select the **unpin** icon: 
    
-   ![Unpin a contact.](Images/unpin-contact.png)
+   ![Screenshot that shows unpinning a contact.](Images/unpin-contact.png)
 
 #### Set up 1:1 meeting reminders 
 
@@ -52,7 +52,7 @@ In the following example, if Lynne was an important colleague, you could set up 
 
 If you want to remove the 1:1 meeting target, you can select the **people** icon and select **None**. If you are a manager, Viva Insights will automatically suggest a biweekly 1:1 meeting with your direct report.  
    
-   ![Stay connected settings.](Images/1-1-meeting-target-75-80.png)
+   ![Screenshot that shows Stay connected settings.](Images/1-1-meeting-target-75-80.png)
 
 #### 1:1 meeting suggestions 
 
@@ -60,7 +60,7 @@ If you’ve set up a target 1:1 meeting cadence with your colleague through the 
 
 In the following example, you can select one of the proposed meeting times and then select **Send invite** to send a meeting invitation to Lynne. Viva Insights will only show meeting time blocks when both of you are available to meet. If none of the suggested time blocks work, you can select **View calendar for other items** to open the Teams calendar and schedule a meeting on your own. 
    
-   ![Schedule a 1:1.](Images/schedule-1-1.png)
+   ![Screenshot that shows scheduling a 1:1.](Images/schedule-1-1.png)
 
 #### Reschedule a 1:1 in case of conflict  
 
@@ -68,7 +68,7 @@ Microsoft Viva Insights also helps you follow through on your intent to have 1:1
 
 In the following example, if your meeting with Lynne has a conflict, Viva Insights will remind you of the conflict ahead of time and you can quickly choose a new time for the 1:1 meeting and select **Reschedule** to move the meeting invitation. 
    
-   ![1:1 has a conflict.](Images/1-1-conflict.png)
+   ![Screenshot that shows if 1:1 has a conflict.](Images/1-1-conflict.png)
 
 #### Stay on top of outstanding task suggestions 
 
@@ -80,7 +80,7 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 
 In the following example, you can select **Re: Sync up on Regression Tests** to open the email in which you can follow up or select **Done** to confirm that you’ve already followed up.  
    
-   ![Sync on regression tests email.](Images/sync-up.png)
+   ![Screenshot that shows task about a meeting called Sync on regression tests email.](Images/sync-up.png)
 
 This insight is available in the languages listed in [Briefing languages](../briefing/be-languages.md).
 
@@ -90,13 +90,13 @@ Have you searched for that document that you planned to read but you just cannot
 
 In the following example, to open the document, select **Open**. To open the email through which the document was shared, select **Re: Sync on Regression Test**. 
    
-   ![Unread document from the meeting.](Images/unread-doc.png)
+   ![Screenshot that shows task about unread document from a meeting.](Images/unread-doc.png)
 
 #### @Mentions for pinned important contacts 
 
 @Mention is a common way to tag colleagues on important work items. Microsoft Viva Insights can help you quickly triage recent @Mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up. 
    
-   ![Sync on virtual commute research.](Images/sync-virtual.png)
+   ![Screenshot that shows task about Sync on virtual commute research.](Images/sync-virtual.png)
 
 #### Upcoming meetings that need your RSVP 
 
@@ -104,7 +104,7 @@ Let your colleagues know if you can join their meeting so that they can run effe
 
 In the following example, select **Sync on Proposal** to open the meeting invitation for more context on the meeting and then select **Accept** to accept (or **Decline** to decline) the meeting invitation. 
    
-   ![You haven't RSVP'd.](Images/havent-rsvpd.png)
+   ![Screenshot that shows notification that you haven't RSVP'd.](Images/havent-rsvpd.png)
 
 ## Related topics
 
