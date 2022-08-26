@@ -1,8 +1,8 @@
 ---
 title: Inviting and removing a user
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -45,11 +45,11 @@ To invite users from the Viva Goals menu, select the **Add members** button.
 
 Or, if you're the organization administrator, you can also go to **Settings** and select **Add members** on the Users tab.
 
-![Screenshot show the dialog box where an admin uses the Invite Users button.](../media/goals/2/23/a.jpg)
+:::image type="content" source="../media/goals/2/23/a.jpg" alt-text="Screenshot show the dialog box where an admin uses the Invite Users button." lightbox="../media/goals/2/23/a.jpg":::
 
 Another way to do this is to select **Users** from the menu and then select the **Add members** button.
 
-![Screenshot showing another option to add members.](../media/goals/2/23/b.jpg)
+:::image type="content" source="../media/goals/2/23/b.jpg" alt-text="Screenshot showing another option to add members." lightbox="../media/goals/2/23/b.jpg"::: 
 
 ## Add an AAD group via invitation
 
@@ -70,19 +70,19 @@ If you have invited users using an AAD group, you can remove the user from the g
 
 A deactivated user will remain visible in Viva Goals but won't be able to sign in. The user will remain assigned as an owner of any OKRs they had. They won't be searchable in **All Users** and will be listed as deactivated in the **Users** section of the admin tools. 
 
-![Screenshot shows deactivated users.](../media/goals/2/23/c.jpg)
+:::image type="content" source="../media/goals/2/23/c.jpg" alt-text="Screenshot shows deactivated users." lightbox="../media/goals/2/23/c.jpg"::: 
 
 To reactivate a user, go to **Action** -> **Make Active**, which will restore their ability to sign in.
 
-![Screenshot showing where you reactivate a user.](../media/goals/2/23/d.jpg)
+:::image type="content" source="../media/goals/2/23/d.jpg" alt-text="Screenshot showing where you reactivate a user." lightbox="../media/goals/2/23/d.jpg"::: 
 
 Deleting a user is a permanent action and can't be undone. It removes all their activities in the system.
 
-![Screenshot shows deleting a user and a warning.](../media/goals/2/23/e.jpg)
+:::image type="content" source="../media/goals/2/23/e.jpg" alt-text="Screenshot shows deleting a user and a warning." lightbox="../media/goals/2/23/e.jpg"::: 
 
 Admins can’t delete users who currently own any objective. To delete those users, reassign their OKRs first, and then delete the user.
 
-![Screenshot of the error dialog you get when you try to delete a user who owns objectives or projects.](../media/goals/2/23/f.jpg)
+:::image type="content" source="../media/goals/2/23/f.jpg" alt-text="Screenshot of the error dialog you get when you try to delete a user who owns objectives or projects." lightbox="../media/goals/2/23/f.jpg"::: 
 
 **Example scenario of when to deactivate a user**
 
