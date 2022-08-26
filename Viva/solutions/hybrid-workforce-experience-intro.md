@@ -18,7 +18,7 @@ audience: Admin
 
 # Hybrid workforce experience report Onsite days solution
 
-By following the steps in this solution, you'll:
+<!--By following the steps in this solution, you'll:
 
 > [!div class="checklist"]
 >
@@ -29,7 +29,8 @@ In this introductory article, you'll:
 > [!div class="checklist"]
 >
 > * Learn what the Hybrid workforce experience report from Microsoft Viva Insights does and how it can help your organization as it transitions to hybrid working modes.
-> * Get an overview of the solution and the steps you'll need to complete.
+> * Get an overview of the solution and the steps you'll need to complete.-->
+
 
 ## Background
 
@@ -60,7 +61,9 @@ Before you can start using the Hybrid workforce experience report, you'll need t
 * **SupervisorIndicator** – Indicates whether someone is a manager.
 * **HireDate** – The day someone was hired. This attribute enables the New hire onboarding insights.
 
-## Overview of the solution
+## OnsiteDays solution
+
+### Overview of the solution
 
 ![Screenshot that shows Azure Active Directory option highlighted under Azure services.](./images/hwfe-diagram.png)
 
