@@ -31,13 +31,13 @@ Now that you’ve prepared your source files, you’re ready to start using the 
 
 The template contains the following sheets:
 
-|  | Sheet | Description | Action required? |
-|---|---|---|---|
-|  | **Inputs** | Accepts the source files<sup>1</sup> required to generate **OnsiteDays** for each user. You’ll upload the required .csv files here, as described in the next section. | [Yes](#upload-files) |
-|  | **Final Report** | Provides the data with **PersonID**, **EffectiveDate**, and **OnsiteDays** attributes, which you'll either upload to Viva Insights or append to an existing organizational data file. | No |
-|  | **Database** | Performs all the transformations required to determine **OnsiteDays** from interactive and non-interactive .csv file data you upload in the **Inputs** sheet. | No | 
-|  | **IP Addresses** | Populates the data from the IP address file<sup>1</sup> you upload in the **Inputs** sheet. | No |
-|  | **TimeZoneData** | Populates with the metadata of all the time zones and offsets, which is used to convert UTC datetime to users’ local datetime. This data is then used to transform dates in the **Database** sheet. | No |
+| Sheet | Description | Action required? |
+|-------|-------------|------------------|
+**Inputs** | Accepts the source files<sup>1</sup> required to generate **OnsiteDays** for each user. You’ll upload the required .csv files here, as described in the next section. | [Yes](#upload-files) |
+|  **Final Report** | Provides the data with **PersonID**, **EffectiveDate**, and **OnsiteDays** attributes, which you'll either upload to Viva Insights or append to an existing organizational data file. | No |
+|  **Database** | Performs all the transformations required to determine **OnsiteDays** from interactive and non-interactive .csv file data you upload in the **Inputs** sheet. | No | 
+| **IP Addresses** | Populates the data from the IP address file<sup>1</sup> you upload in the **Inputs** sheet. | No |
+| **TimeZoneData** | Populates with the metadata of all the time zones and offsets, which is used to convert UTC datetime to users’ local datetime. This data is then used to transform dates in the **Database** sheet. | No |
 
 <sup> 1. [Step 1. Generate source files](hybrid-workforce-experience-source-files.md) provides guidance on creating the Azure AD event log and IP address files.</sup>
 
