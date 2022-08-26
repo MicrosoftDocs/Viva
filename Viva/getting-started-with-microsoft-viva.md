@@ -23,6 +23,10 @@ description: "Learn everything about Microsoft Viva and Microsoft Viva experienc
 
 With the growth in hybrid work, it's more important than ever to connect employees with an experience that brings together communications, knowledge, learning, resources, and insights all in Microsoft Teams.
 
+>[!NOTE] 
+> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](#learn-more-about-new-viva-experiences).
+
+
 Microsoft Viva is an employee experience platform made up of four modules that can be used individually or combined to meet your organization’s needs. Microsoft Viva is customizable and extensible, accessible from anywhere you work, and integrates with tools you already use. It also supports various partner integrations to give you access to industry-leading apps in the natural flow of work.
 
 ## In this solution
@@ -101,6 +105,17 @@ Review how each Viva module will impact the day-to-day work of the rest of your 
 |**Viva Insights**     | Viva Insights includes personal, manager, leader, and advanced insights with custom analysis options for evaluating your specific organization’s work patterns with research-based recommendations about where to focus change management efforts.        | [Microsoft Viva Insights Learning modules](/learn/browse/?terms=viva%20insights) |
 |**Viva Learning**  | Viva Learning allows employees to discover, share, and track formal and informal learning in the flow of work.  Users can engage in social learning with colleagues and set and track personal learning goals. Personalized learning helps users get relevant learning content based on their own interests or recommendations from colleagues.       |[Viva Learning](https://support.microsoft.com/office/viva-learning-01bfed12-c327-41e0-a68f-7fa527dcc98a) <br> [Social learning](https://support.microsoft.com/office/social-learning-6badc784-0948-4922-94cc-85cd987def0a) <br> [Personal learning](https://support.microsoft.com/office/personal-learning-ca774f08-6bed-441b-a74b-3aac15cd9019) <br>   [Learning content](https://support.microsoft.com/office/learning-content-b1ef9cb6-c2b1-4c64-aaf9-72f598e42688) |
 |**Viva Topics**     | Viva Topics compiles information on topics such as a short description and related people, sites, files, and pages. All of this occurs within the flow of your work in Microsoft 365 and Office sites and apps.        | [Understanding Viva Topics](https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332)       |
+
+
+## Learn more about new Viva experiences 
+New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution soon. Learn more about how each Viva experience can be incorporated into your organization's employee experience. 
+
+| Module              | Features and capabilities | Overview          |
+| :------------------- | :------------------- |:----------------|
+| **Viva Engage**  | Viva Engage brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.| [Learn more about Viva Engage](/viva/engage/overview) |
+| **Viva Goals** | Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. | [Learn more about Viva Goals](/viva/goals/intro-to-ms-viva-goals)|
+| **Viva Sales** | Viva Sales is available for select preview customers but will become generally available in the Fall. Viva Sales is an experience for sales representatives and uses Microsoft 365 and Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. | [Learn more about Viva Sales](/viva/sales/introduction) |
+
 
 ## Learn more
 
