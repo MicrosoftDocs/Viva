@@ -1,7 +1,7 @@
 ---
 title: Enable or disable the Learning tab in Bing, Office.com, and SharePoint
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 3/17/2022

@@ -76,3 +76,6 @@ To access the Viva Goals Admin Dashboard, navigate toward the bottom of the left
 Inside the Admin Dashboard, you will see different tabs where you can make adjustments, including Settings, Users, Teams, Time Periods, Notifications, Integrations, OKR Model Configuration, and OKRs & Projects.
 
 For more information about admin settings in the admin dashboard, see [Navigate the admin dashboard](/viva/goals/navigate-admin-dashboard)
+
+### Viva Engage
+See: [Manager Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins)

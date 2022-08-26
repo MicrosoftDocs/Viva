@@ -1,8 +1,8 @@
 ---
 title: "Share objectives"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: <TBD>
 audience: Admin
 f1.keywords:
@@ -37,7 +37,7 @@ When you work in Viva Goals, you may want to share an objective or a list of obj
 
 3. Select **Add a personal note** if you want to add more context while sharing the summary of objectives.
 
-   ![Screenshot shows the Share Objectives dialog.](../media/goals/4/410/a.png)
+      :::image type="content" source="../media/goals/4/410/a.png" alt-text="Screenshot shows the Share objectives dialog." lightbox="../media/goals/4/410/a.png":::
 
    > [!NOTE]
    > To send yourself a preview of the message that will be shared, select **Send Preview**.
