@@ -8,7 +8,7 @@ items:
           href: introduction.md     
         - name: Privacy guide
           href: Overview/privacy-guide-users.md
-        - name: In Teams
+        - name: In Teams and on the web
           items:
             - name: Introduction
               href: teams/viva-teams-app.md
