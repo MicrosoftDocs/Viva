@@ -1,6 +1,6 @@
 ---
-title: Hybrid workforce experience solution - source files
-description: Learn how generate source files for the Hybrid workforce experience solution
+title: Hybrid workforce experience solution - automated template
+description: Learn how to use an Excel template to generate the OnsiteDays attribute for the Hybrid workforce experience OnsiteDays solution
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
