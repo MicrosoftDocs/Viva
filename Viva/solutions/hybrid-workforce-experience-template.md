@@ -54,7 +54,7 @@ The template contains the following sheets:
     1. In the **NonInteractiveSignins** section, upload the non-interactive event log .csv files generated from Azure AD.
     1. In the **IP Address** section, upload the IP addresses list you created.
 
-    ![Screenshot that shows the Inputs page with Interactive, Noninteractive, and IP Address highlighted on the field label and within the file names.](./images/hwfe-inputs-a-b-c.png)
+    ![Screenshot that shows the Inputs page with Interactive, Noninteractive, and IP Address fields labeled with a, b, c.](./images/hwfe-inputs-a-b-c.png)
 
     >[!Important]
     > Don’t alter any columns or attributes downloaded from Azure AD.
@@ -73,7 +73,7 @@ Each file name needs to include the keyword that’s underlined in the file attr
 
 4.	Select the **Extract Final Data** button. When you select this button, the template performs all the transformations and loads data to **Database** sheet and **Final Report** sheet. **Final Report** provides **OnsiteDays** aggregated by user per week, and it can be uploaded or appended to an existing organizational data file to generate the Hybrid workforce experience Power BI report.
 
-    ![Screenshot that shows a security warning banner with the Enable Content button highlighted.](./images/hwfe-final-report.png)
+    ![Screenshot that shows the Final report page of the Excel template.](./images/hwfe-final-report.png)
 
 #### About other buttons on the Input sheet
 
