@@ -32,9 +32,9 @@ As part of a team, you can use this trial to get valuable insights about you and
 
 After you enroll in the trial, you can experience the following subset of features within the **My team** page.
 
-* **Stay connected and engaged with your team**: You'll see a rotating recommendation at the top of your **My team** page that's based on recent activity. It's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their roles. One of the simplest coaching tools that team leads or managers have is regularly scheduled 1:1 time with each team member. Research by Microsoft has shown that people who get consistent 1:1 time with their manager and team members are more engaged. See [1:1 time in My team](../../use/myteam.md#11-time) for more details.
+* **Stay connected and engaged with your team**: You'll see a rotating recommendation at the top of your **My team** page that's based on recent activity. It's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their roles. One of the simplest coaching tools that team leads or managers have is regularly scheduled 1:1 time with each team member. Research by Microsoft has shown that people who get consistent 1:1 time with their manager and team members are more engaged. See [1:1 time in My team](../../org-team-insights/teamwork-habits.md#11-time) for more details.
 
-* **Team meeting habits**: You’ll see your current behavior and suggestions on how to improve, such as if you RSVP’d, joined on time, and didn’t multitask during team meetings. When it comes to collaboration habits, you are a role model, and your team members tend to mimic your behaviors. Studies found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. See [Team meeting habits](../../use/myteam.md#team-meeting-habits) for details.
+* **Team meeting habits**: You’ll see your current behavior and suggestions on how to improve, such as if you RSVP’d, joined on time, and didn’t multitask during team meetings. When it comes to collaboration habits, you are a role model, and your team members tend to mimic your behaviors. Studies found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. See [Team meeting habits](../../org-team-insights/teamwork-habits.md#team-meeting-habits) for details.
 
 * **Send praise**: You can use this feature to recognize the contributions of your employees and coworkers. Praise messages show up as notifications in Microsoft Teams. You can have a praise message delivered in a private chat or for wider recognition, in a Teams channel conversation. See [Praise in Viva Insights](../teams/viva-insights-praise.md) for details.
 
@@ -50,7 +50,7 @@ Features | Microsoft 365 (out of the box) | Viva Insights trial | Viva Insights 
 -----------|------------|-------|--------
 [Home page](../teams/viva-insights-home.md) | X | X | X
 [My team trial features](#my-team-trial-features)| X | X | X
-[My organization page](../../use/viva-insights-my-org.md) |&nbsp; |&nbsp; | X
+[My organization page](../../org-team-insights/org-trends.md) |&nbsp; |&nbsp; | X
 [Advanced analysis tools and templates](../../index-orig.md) | &nbsp;| &nbsp; | X
 
 ## Privacy
@@ -119,7 +119,7 @@ After the admin tasks are complete, do the following to start your trial experie
 
 During the trial experience, you'll see a prompt at the top of the page within Viva Insights in Teams that shows how many days you can use the trial experience. It'll then count down to show you how many days are left during this trial phase.
 
-Throughout the trial and up to 10 days after the trial ends, you are prompted to contact your admin to request a license for [Viva Insights](https://www.microsoft.com/microsoft-viva/insights/). See [My team](../../use/myteam-explore.md) for more details about advanced team features available with the full [Microsoft Viva Insights suite](https://www.microsoft.com/microsoft-viva/buy-insights).
+Throughout the trial and up to 10 days after the trial ends, you are prompted to contact your admin to request a license for [Viva Insights](https://www.microsoft.com/microsoft-viva/insights/). See [My team](../../org-team-insights/teamwork-habits.md) for more details about advanced team features available with the full [Microsoft Viva Insights suite](https://www.microsoft.com/microsoft-viva/buy-insights).
 
 ## Related topics
 
