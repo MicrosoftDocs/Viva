@@ -22,7 +22,7 @@ Use Viva Topics cards to encourage knowledge discoverability, engagement, and sh
 
 
 >[!NOTE]
-> Viva Topics cards will be available at the end of September 2022.
+> Viva Topics cards will be generally available at the end of September 2022.
 
 
 ## Viva Topics cards
