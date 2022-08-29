@@ -28,6 +28,9 @@ Microsoft Viva modules can be combined to create powerful employee experiences f
 - Wellness and work-life balance
 - Knowledge sharing and management
 
+>[!NOTE] 
+> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
+
 ## Training and onboarding
 
 ![Image of Viva Connections, Viva Learning, and Viva Topics combined together.](./media/training-combo.png)

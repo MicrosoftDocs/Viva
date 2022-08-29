@@ -1,8 +1,8 @@
 ---
 title: Navigate the admin dashboard
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -72,11 +72,9 @@ All of the information can be filtered using dropdown menus such as role, accoun
 
 For example, if one of your users isn't sure if they got an invite, you could filter for users who have a status of "Pending."  
 
-![Screenshot showing pending users alignment.](../media/goals/2/28/b.png)
+:::image type="content" source="../media/goals/2/28/b.png" alt-text="Screenshot showing pending users alignment." lightbox="../media/goals/2/28/b.png":::
 
 As admin, you can use the action menu, marked by three dots, to modify the various settings.
-
-![Screenshot showing the more actions menu.](../media/goals/2/28/b.png)
 
 - **Cancel Invite** retracts an email that you sent.
 - **Resend Invite** resends an invitation to join your instance.
