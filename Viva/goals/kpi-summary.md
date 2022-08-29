@@ -1,8 +1,8 @@
 ---
 title: "Key performance indicator (KPI) summary"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: <TBD>
 audience: Admin
 f1.keywords:
@@ -29,7 +29,7 @@ If your organization has the KPI summary option enabled, it will be found on all
 
 The KPI summary contains all top-level objectives that are set as KPIs. It displays the alignment (if there's any), the status given at last check-in, and the current value. The summary also shows the progress from the start value in small gray text.
 
-![Screenshot of a KPI summary.](../media/goals/4/416/a.jpg)
+:::image type="content" source="../media/goals/4/416/a.jpg" alt-text="Screenshot of a KPI summary." lightbox="../media/goals/4/416/a.jpg":::
 
 ## Who can manage KPI summaries? 
 
@@ -45,7 +45,7 @@ Individual contributors can manage the KPI summary for objectives they own.
 
 If an objective has key results below it or there are other key results set as KPIs, users can manually add those to the KPI summary by using the action button.
 
-![Screenshot shows the option to add to the KPI summary.](../media/goals/4/416/b.jpg)
+:::image type="content" source="../media/goals/4/416/b.jpg" alt-text="Screenshot shows the option to add to the KPI summary." lightbox="../media/goals/4/416/b.jpg":::
 
 There is no limit on the number of KPIs you can include, but we suggest that only your business's most critical KPIs be included to ensure a digestible view.
 
@@ -53,7 +53,7 @@ There is no limit on the number of KPIs you can include, but we suggest that onl
   
 To remove a KPI from the KPI summary, select **Remove from KPI Summary** from the action dropdown.
 
-![Screenshot shows the option to remove a key result from the KPI summary.](../media/goals/4/416/c.jpg)
+:::image type="content" source="../media/goals/4/416/c.jpg" alt-text="Screenshot shows the the option to remove a key result from the KPI summary." lightbox="../media/goals/4/416/c.jpg":::
 
 ## Rearrange KPIs in your KPI summary
 

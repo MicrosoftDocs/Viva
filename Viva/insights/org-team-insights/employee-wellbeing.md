@@ -12,21 +12,19 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: helayne
+manager: anirudhbajaj
 audience: Admin
 ---
 
 # Employee wellbeing
 
-Workplaces that balance fluid collaboration patterns alongside capacity for individual focus promote sustained employee wellbeing. In Microsoft Viva Insights, two elements make up the Employee wellbeing framework: balance and capacity.
+Workplaces that balance fluid collaboration patterns alongside capacity for individual focus promote sustained employee wellbeing. In Microsoft Viva Insights, two elements make up the Employee wellbeing framework: balance and capacity. This article explains how to leverage best practices for balance and capacity and how related insights are calculated.
 
-This article explains how to leverage best practices for balance and capacity and how related insights are calculated.
-
-You can find the **Employee wellbeing** tab in the Viva Insights app, under **Organization trends**.
+You can find the **Employee wellbeing** page in the Viva Insights app, within the **Organization trends** tab.
 
 <!-- placeholder image-->
 
-![Screenshot that shows the Employee wellbeing tab.](../Images/WpA/Use/employee-wellbeing.png)
+![Screenshot that shows the Employee wellbeing page.](../Images/WpA/Use/employee-wellbeing1.png)
 
 ## Balance
 
@@ -37,7 +35,7 @@ You can find the **Employee wellbeing** tab in the Viva Insights app, under **Or
 
 #### Insights
 
-For **Help employees disconnect**, the **Employee wellbeing** tab provides a percentage insight that shows how many employees collaborate outside of their set working hours for more than three hours per week and a visual insight that shows average weekly time spend collaborating after hours.
+For **Help employees disconnect**, the **Employee wellbeing** page provides a percentage insight that shows how many employees collaborate outside of their set working hours for more than three hours per week and a visual insight that shows average weekly time spent collaborating after hours.
 
 Here's some information about how those metrics are calculated:
 
@@ -72,7 +70,7 @@ For more best practices and ways to protect employees after hours, see [Best pra
 
 #### Insights
 
-For **Focus without interruptions**, the **Employee wellbeing** tab provides a percentage insight that shows how many employees have less than 10 hours of uninterrupted focus time per week and a visual insight that shows the distribution of uninterrupted weekly time.
+For **Focus without interruptions**, the **Employee wellbeing** page provides a percentage insight that shows how many employees have less than 10 hours of uninterrupted focus time per week and a visual insight that shows the distribution of uninterrupted weekly time.
 
 Here's some information about how those metrics are calculated:
 
@@ -93,7 +91,7 @@ Back-to-back meetings and a barrage of emails and chats leave little time to foc
 Here are ways to support focus time:
 
 * Select a day and period of time when people should try to avoid scheduling meetings—for example, holding "meeting-free Fridays."
-* Avoid Teams chats with colleagues in focus mode. Create a team norm to not send chats to team members who are in focus mode and displaying the focus status symbol in Microsoft Teams.
+* Create a team norm to not send chats to team members who are in focus mode and displaying the focus status symbol in Microsoft Teams.
 * Schedule focus time in Viva Insights. When you schedule regular focus-time sessions into your calendar, Viva Insights helps protect your time by silencing chats and setting your Teams status to focusing.
 
 For more best practices and ways to establish a "no meeting" period, see [Best practices for focus time](../tutorials/gm-focus.md).
@@ -106,7 +104,7 @@ For more best practices and ways to establish a "no meeting" period, see [Best p
 
 ### Insights
 
-For **Reduce meeting hours**, the **Employee wellbeing** tab provides a percentage insight that shows how many employees spend most of their workweek collaborating and a visual insight that shows the distribution of collaboration hours per week.
+For **Reduce meeting hours**, the **Employee wellbeing** page provides a percentage insight that shows how many employees spend most of their workweek collaborating and a visual insight that shows the distribution of collaboration hours per week.
 
 Here's some information about how those metrics are calculated:
 
