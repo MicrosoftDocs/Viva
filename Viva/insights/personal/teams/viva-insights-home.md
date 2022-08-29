@@ -17,7 +17,7 @@ audience: user
 
 In Microsoft Teams, select **Insights** (left app bar) to open the **Home** page for the Microsoft Viva Insights app:
 
-![Home (morning)](images/home-page-with-headspace.png)
+![Screenshot that shows the Viva Insights Home page.](images/viva-insights-home-expanded.png)
 
 The Home page makes it easy to start the other Viva Insights features. You can reach some features on the top menu and others within the Home page.
 

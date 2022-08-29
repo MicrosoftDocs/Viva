@@ -219,6 +219,67 @@
         "source_path": "viva/insights/advanced/partner-integration.md",
         "redirect_url": "/viva/insights/advanced/analyst/partner-integration",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/viva-insights-my-org.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/myteam.md",
+        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/team-insights.md",
+        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/my-team-faq.md",
+        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits-faq",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/my-org-meeting-effectiveness.md",
+        "redirect_url": "/viva/insights/org-team-insights/meeting-effectiveness",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/my-org-manager-connection.md",
+        "redirect_url": "/viva/insights/org-team-insights/manager-connection",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/myorg-faq.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights-faq",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/setup/ml-insights-setup.md",
+        "redirect_url": "/viva/insights/org-team-insights/setup",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/myteam-explore.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/group-insights.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/viva-insights-my-team.md",
+        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/use/viva-insights-myorg.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_document_id": false
       }
+    
     ]
 }
