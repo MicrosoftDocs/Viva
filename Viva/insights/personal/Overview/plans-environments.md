@@ -87,6 +87,7 @@ After users get assigned licenses with an applicable service plan, they get acce
 
   * [Delay delivery plan](../use/delay-delivery.md)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
+  * [Breaks, learning, and message catch-up plans](../teams/viva-insights-protect-time.md#create-other-plans)
 
 * The following additional features are included with the **MyAnalytics (Full) service plan**:
 
