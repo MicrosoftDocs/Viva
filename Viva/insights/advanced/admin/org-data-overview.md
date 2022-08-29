@@ -54,7 +54,7 @@ If you want to manually upload organizational data using a .csv file, instead of
 
 ## Data connections
 
-In the Data connections tab, you can:
+In the **Data connections** tab, you can:
 
 * Start new imports.
 * Edit existing imports.
