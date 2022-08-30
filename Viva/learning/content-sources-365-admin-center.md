@@ -1,7 +1,7 @@
 ---
 title: Manage content sources for Microsoft Viva Learning in the Microsoft 365 admin center
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 10/27/2021
@@ -21,7 +21,7 @@ description: Learn how to configure and manage learning content sources for Micr
 
 The administrators for the Microsoft 365 admin center—either by themselves or by assigning the knowledge admin role to selected individuals in your organization—can manage settings related to Viva Learning and can configure the learning content sources.
 
-The administrator selects which other learning content sources (for example, SharePoint or supported third-party content provider sources) will be available to users of Viva Learning. The admin then configures those sources to make sure the content is available for search and discovery and can be browsed by the employees who use Viva Learning. Content from Microsoft Learn, Microsoft 365 Training, and select content from LinkedIn Learning is available for free and enabled by default.
+The administrator selects which other learning content sources (for example, SharePoint or supported third-party content provider sources) will be available to users of Viva Learning. The admin then configures those sources to make sure the content is available for search and discovery and can be browsed by the employees who use Viva Learning. Content from Microsoft Learn, Microsoft 365 Training, and select content from LinkedIn Learning is available for free and enabled by default. If your organization has a LinkedIn Learning Enterprise subscription, employees can access the entire LinkedIn Learning catalog in Viva Learning without a Viva Suite or Viva Learning license.
 
 >[!NOTE]
 >Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Content and any associated services are subject to the content provider's privacy and service terms.
@@ -85,7 +85,7 @@ To configure settings for learning content sources in Viva Learning, follow thes
 3. On the **Viva Learning** panel, select the learning content sources you want to configure for the organization, and then select **Save**. You can view the date of the last successful sync with your selected sources from the same panel.
 
     > [!NOTE]
-    > You'll need a Viva Learning or Viva Suite license to connect external content sources, with the exception of the select free courses from LinkedIn Learning. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
+    > You'll need a Viva Learning or Viva Suite license to connect external content sources, with the exception of LinkedIn Learning. You'll need a LinkedIn Learning Enterprise subscription to access LinkedIn Learning content other than the select free courses. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
 
     ![Learning panel in the Microsoft 365 admin center showing content sources options.](../media/learning/clcs-panel.png)
 
