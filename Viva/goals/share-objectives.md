@@ -1,8 +1,8 @@
 ---
-title: "Share Objectives"
+title: "Share objectives"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: <TBD>
 audience: Admin
 f1.keywords:
@@ -19,27 +19,27 @@ search.appverid:
 description: "Learn how to have contextual discussions on OKRs with users by quickly sharing objectives with a note."
 ---
 
-# Share Objectives via email
+# Share objectives via email
 
-When working in Viva Goals, there may be several scenarios where you want to share an objective, or a list of objectives. You may do this to:
+When you work in Viva Goals, you may want to share an objective or a list of objectives. You might do this to:
 
-1. **Provide visibility to stakeholders:** Share a quick update on the status and progress of my team's objective(s) to keep the everyone up to date.
+- **Provide visibility to stakeholders:** Share a quick update on the status and progress of my team's objectives to keep the everyone up to date.
 
-2. **Share a win**: Share an update on a shipped feature, closed funding, or winning a deal, directly to a stakeholder over email.
+- **Share a win**: Share an update on a shipped feature, closed funding, or a deal you closed directly to a stakeholder over email.
 
-3. **Nudge users**: Get an update from an OKR owner.
+- **Nudge users**: Request an update from an OKR owner.
 
-## How to share Objectives
+## How to share objectives
 
-1. To share objectives from the OKRs page, select the share icon on the top right corner of the page and select **Share Summary**.
+1. To share objectives from the OKRs page, select the share icon in the upper-right corner of the page and select **Share Summary**.
 
-2. Enter emails that you want to share the objectives within the **recipients** field. You can also choose to share the update to all the users who are following the OKRs you're sharing by checking the **Include followers ...** checkbox.
+2. In the **recipients** field, enter email addresses of people you want to share the objectives with. Or, to share the update to all users who are following the OKRs, select the **Include followers ...** checkbox.
 
 3. Select **Add a personal note** if you want to add more context while sharing the summary of objectives.
 
-![bookmark](../media/goals/4/410/a.png)
+      :::image type="content" source="../media/goals/4/410/a.png" alt-text="Screenshot shows the Share objectives dialog." lightbox="../media/goals/4/410/a.png":::
 
-> [!NOTE]
-> To send yourself a preview of the message that will be shared, select **Send Preview**.
+   > [!NOTE]
+   > To send yourself a preview of the message that will be shared, select **Send Preview**.
 
-4. Once you're ready, select **Share** and the objectives will be sent to the intended recipients
+4. Select **Share**, and the objectives will be sent to the specified recipients.
