@@ -66,7 +66,7 @@ Use this method if you don't have access to the Viva Connections desktop package
 
 The custom line of business Viva Connections app is available only for the desktop version of Microsoft Teams. If your organization wants to use the Viva Connections app for both the Teams desktop and Teams mobile environments, you can enable the Viva Connections first-party app from the Microsoft Teams admin center by using the following steps. Updates to this app can be made directly from the Teams admin center.
 
-1. Use the steps in [this guide](/connections/guide-to-setting-up-viva-connections#step-6-enable-the-viva-connections-app-in-the-microsoft-teams-admin-center) to set up the first-party Viva Connections app.
+1. Use the steps in [this guide](/viva/connections/guide-to-setting-up-viva-connections) to set up the first-party Viva Connections app.
 2. By default, the first-party Viva Connections app is blocked. Leave it set to **Blocked** and complete all the other requirements.
 3. Toggle the **Status** option for the first-party Viva Connections app from **Blocked** to **Allowed**.
 4. Delete and uninstall the custom line of business Viva Connections desktop app.

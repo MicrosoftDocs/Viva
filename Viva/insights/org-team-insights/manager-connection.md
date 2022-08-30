@@ -18,15 +18,13 @@ audience: Admin
 
 # Manager connection
 
-Because a focus on *coaching* and *empowering* employees sets your team up to deliver their best, Microsoft Viva Insights uses these two elements make up the Manager connection framework.
+Because a focus on *coaching* and *empowering* employees sets your team up to deliver their best, Microsoft Viva Insights uses these two elements make up the Manager connection framework. This article explains how to leverage best practices for coaching and empowerment, and how related insights are calculated.
 
-This article explains how to leverage best practices for coaching and empowerment, and how related insights are calculated.
-
-You can find the **Manager connection** tab in the Viva Insights app, under **Organization trends**.
+You can find the **Manager connection** page in the Viva Insights app, within the **Organization trends** tab.
 
 <!-- placeholder image-->
 
-![Screenshot that shows the Manager connection tab.](../Images/WpA/Use/org-manager-connection.png)
+![Screenshot that shows the Manager connection page.](../Images/WpA/Use/org-manager-connection1.png)
 
 ## Coaching
 
@@ -34,7 +32,7 @@ You can find the **Manager connection** tab in the Viva Insights app, under **Or
 
 #### Insights
 
-For **Coaching**, the **Manager connection** tab provides a percentage insight that shows how many employees meet with their manager for less than one hour a month and a visual insight that shows the distribution of monthly 1:1 time with managers.
+For **Coaching**, the **Manager connection** page provides a percentage insight that shows how many employees meet with their manager for less than one hour a month and a visual insight that shows the distribution of monthly 1:1 time with managers.
 
 ![Screenshot of the app that shows the Coaching insight.](../Images/WpA/Use/org-manager-connection-coaching.png)
 
@@ -50,7 +48,7 @@ Distribution 1:1 time with managers each month| Shows the percentage of employee
 
 #### Best practices
 
-Manager one-on-one (1:1) time can improve engagement and job performance, while a lack of manager coaching can contribute to employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
+Manager 1:1 time can improve engagement and job performance, while a lack of manager coaching can contribute to employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
 Here are ways to engage with directs through 1:1 meetings:
 
@@ -71,7 +69,7 @@ For more best practices and how to develop a 1:1 conversation series, see [Best 
 
 #### Insights
 
-For **Empowerment**, the **Manager connection** tab provides a percentage insight that shows how many employees have their managers attend a majority of their meetings and a visual insight that shows the distribution of manager-coaching relationships.
+For **Empowerment**, the **Manager connection** page provides a percentage insight that shows how many employees have their managers attend a majority of their meetings and a visual insight that shows the distribution of manager-coaching relationships.
 
 Here’s some information about how those metrics are calculated:
 
@@ -81,7 +79,7 @@ Here’s some information about how those metrics are calculated:
 
 |Visual insight| Definition|
 |--------------|-----------|
-|Distribution of manager-employee coaching relationships |Uses the average time employees spend with their [managers in 1:1s](../advanced/analyst/metrics.md#meeting-hours-with-manager-1-1-define) and the percentage of [meeting hours with the manager](../advanced/analyst/metrics.md#meeting-hours-with-manager-define) in attendance. The different manager-employee coaching relationships are grouped by employee time percentages that are weekly averages based on the monthly calculations: <ul><li>**Coached** - An employee who spends more than 15 minutes in 1:1s and less than 30 percent of their meeting hours with their managers in attendance.</li><li>**Co-attended** - An employee who spends less than 15 minutes in 1:1s and more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Micromanaged** - An employee who spends more than 15 minutes in 1:1s and more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Under-coached** - An employee who spends less than 15 minutes in 1:1s and less than 30 percent of their meeting hours with their managers in attendance. </li> |
+|Distribution of manager-employee coaching relationships |Uses the average time employees spend with their [managers in 1:1s](../advanced/analyst/metrics.md#meeting-hours-with-manager-1-1-define) and the percentage of [meeting hours with the manager](../advanced/analyst/metrics.md#meeting-hours-with-manager-define) in attendance. The different manager-employee coaching relationships are grouped by employee time percentages, which are weekly averages based on monthly calculations: <ul><li>**Coached** – An employee who spends more than 15 minutes in 1:1s and less than 30 percent of their meeting hours with their managers in attendance.</li><li>**Co-attended** – An employee who spends less than 15 minutes in 1:1s and more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Micromanaged** – An employee who spends more than 15 minutes in 1:1s and more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Under-coached** – An employee who spends less than 15 minutes in 1:1s and less than 30 percent of their meeting hours with their managers in attendance. </li> |
 
 #### Best practices
 
