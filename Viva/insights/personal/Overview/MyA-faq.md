@@ -6,10 +6,11 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium
-ms.prod: Mya
+ms.service: viva
 ms.collection: M365-analytics, viva-insights-personal
 manager: helayne
 audience: Admin, user
+ms.subservice: viva-insights
 
 ---
 
