@@ -59,7 +59,6 @@ The following Personal insights service plans are generally available with a sub
 * Microsoft 365 Germany
 * Microsoft 365 Operated by 21Vianet
 
-<!-- *NOT* REMOVED 21 APRIL 2021! but there are changes to the Germany situation: * Microsoft 365 Germany  -->
 >[!Note]
 >
 >* To determine what your plan and service plan are, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
