@@ -73,7 +73,7 @@ After the initial setup, you'll see the following options in **Configure your qu
 
 *Applies to: users with Viva Insights premium licenses*
 
-In addition to focus plans, Viva Insights can also help you protect time on your calendar for scheduled breaks, learning, and message catch-up time. You can configure these plans to match your needs by setting a target amount of blocked time and can also personalize your booking preferences.  
+In addition to focus plans, Viva Insights can also help you protect time on your calendar for scheduled breaks, learning, and message catch-up time. You can configure these plans to match your needs by setting a target amount of blocked time, and you can also personalize your booking preferences.  
 
 ### To create a breaks, learning, or message catch-up plan
 
