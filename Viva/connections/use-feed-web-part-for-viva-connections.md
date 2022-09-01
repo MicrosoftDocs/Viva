@@ -47,18 +47,22 @@ If you're using Viva Connections, the Feed web part for Viva Connections aggrega
  - Users can share and navigate to find more content within the web part
  - Display the most important updates with the [boost news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) feature
  
-   > [!NOTE]
-   > At this time, it is not possible to edit layouts or change other settings. These features are coming soon.
+
    
 ## Add the Viva Connections Feed web part to a site
+
+> [!NOTE]
+> - You must have site member permissions (or higher) to a SharePoint site to add a web part.
+> - At this time, it is not possible to edit the web part layout or change other settings. These features are coming soon.
 
  1. If you're not in edit mode already, select **Edit** at the top right of the page. 
 
  2. Within the section where you want to add the web part, hover your mouse near the top, and then select the ![icon](../media/circle-icon.png) that appears.
 
- 3. In the web part toolbox that appears, search for and then select the **Feed for Viva Connections Feed web part**.
+ 3. In the web part toolbox that appears, search for and then select the **Feed for Viva Connections**.
  
-    The feed will automatically populate with conversations, news, and Stream videos tailored to users based on the communities and sites they follow.
+    The feed will automatically populate with SharePoint news, Yammer community content, and Stream videos tailored to users based on the communities and sites they follow.
+
 
 ## Related articles
 
