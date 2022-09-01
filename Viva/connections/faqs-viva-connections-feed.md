@@ -23,25 +23,26 @@ description: "Frequently asked questions about the Feed for Viva Connections"
 
 # Get answers to common questions about the Viva Connections Feed 
 
-## Question: What can I expect to see in the Feed?
+## What can I expect to see in the Feed?
 
-The Feed gives content publishers a reliable means of distributing important news and information that their users need within their organizations. End-users will also see engaging content from sites they are a member of, sites they follow, and Yammer communities they follow. Get more information about the [content that displays in the Feed](#question-where-does-content-in-the-feed-come-from) and the [factors that impact the content's ranking in the Feed](#question-what-are-the-available-controls-to-influence-content-in-the-feed). 
+The Feed gives content publishers a reliable means of distributing important news and information that their users need within their organizations. End-users will also see engaging content from sites they are a member of, sites they follow, and Yammer communities they follow. Get more information about the [content that displays in the Feed](#where-does-content-in-the-feed-come-from) and the [factors that impact the content's ranking in the Feed](#what-are-the-available-controls-to-influence-content-in-the-feed). 
 
 
-## Question: Where does content in the Feed come from?
+## Where does content in the Feed come from?
 
 Content that is displayed in the Feed comes from three primary sources: organizational news published in SharePoint, posts in Yammer communities, and videos in Stream that are shared with the entire organization or targeted to user groups. Individual content items in the Feed will display for a 30-day period. 
 
 1. **News published on organizational news sites in SharePoint**
 
-    SharePoint news that's published from [organizational news sites](/SharePoint/organization-news-site) will display in the Feed. Organizational news sites are communication sites that have been specifically designated as a source of authoritative news in the SharePoint admin center. In addition to organizational news posts, the following news will also be displayed in the Feed:
+SharePoint news that's published from [organizational news sites](/SharePoint/organization-news-site) will display in the Feed. Organizational news sites are communication sites that have been specifically designated as a source of authoritative news in the SharePoint admin center. In addition to organizational news posts, the following news will also be displayed in the Feed:
 
     - SharePoint news from [sites you follow and sites you frequently visit](https://support.microsoft.com/office/find-and-follow-sites-news-and-content-4411e38f-9bc5-4ecc-bd33-3dbe939ac84c)
     - [Boosted news in SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) from organizational news sites
     - News that has [audience targeting applied](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) from organizational news site or sites you follow
-    - SharePoint news from sites you have read permissions to that are relevant to your interests
+    - SharePoint news from sites that are relevant to your interests
     
 2. **Posts in Yammer communities**
+
 Certain posts in various Yammer communities will appear in the Feed. These Yammer posts will come from Yammer communities that are authorized to post to "All Company" or the entire organization. Posts that are [All Company](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124) are intended to be viewed by everyone. 
 
     In addition to All Company Yammer posts, you will also see the following activity from Yammer in the Feed:
@@ -54,47 +55,45 @@ Certain posts in various Yammer communities will appear in the Feed. These Yamme
     - Yammer Followed Community Posts
     
 3. **Videos in SharePoint hosted by Stream**
+
 [Stream videos](/stream/streamnew/new-stream) built on SharePoint or OneDrive that are shared with your entire organization will appear in the Feed. Depending on how your organization stores and shares videos in Stream will impact the viewing experience for videos in the Feed. 
 
-
-Not all of the three sources of content will be given equal weight in the ranking, so refer to the question *How is the feed personalized and ranked?* for more information.
-
+Not all of the three sources of content will be given equal weight in the ranking. [Learn more about how content is ranked](#how-is-the-feed-personalized-and-how-is-content-ranked). 
 
 
 
-## Question: How often is Feed content refreshed? 
+## How often is Feed content refreshed? 
 
-For mobile, the Feed refreshes each time the application is selected. Users can also manually refresh the Feed through the pull-down action. On the web, the Feed automatically refreshes each time the web page is refreshed.
-
-
-
-## Question: When can we expect to see a newly created post in the Feed?
-
-Posts will typically take up to one hour to appear on a user’s Feed.  Content from a newly created [home site](home-site-plan.md) is sometimes delayed for seven days after the site is initially created.  After that initial seven-day period has passed, it will take the typical one hour to appear.
+For mobile, the Feed refreshes each time the application is selected. Users can also manually refresh the Feed through the pull-down action. On the web, the Feed automatically refreshes each time the web page is refreshed. Individual content items in the Feed will display for a 30-day period. SharePoint news posts that have been boosted will display prominently for up to 4 days. [Learn more about the news boost feature](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 
 
 
+## When can we expect to see a newly created post in the Feed?
 
-## Question: How is the Feed personalized and how is content ranked?
+Posts will typically take up to 1 hour to appear in a user’s Feed.  Content from a newly created [home site](home-site-plan.md) is sometimes delayed for up to 7 days after the site is initially created. After that initial 7-day period has passed, it will take the up to 1 hour to appear.
+
+
+
+## How is the Feed personalized and how is content ranked?
+
+There are several factors such as the content’s age, whether it’s been "boosted" by the organization, the publishing source, and the author’s relationship to the reader to determine the content ranking. This is to users can discover new content each time they open the Feed so it never gets boring or predictable. However, engaging content in the Feed relies on how often content is created on the SharePoint sites and Yammer communities.
 
 We’re experimenting and rapidly iterating on the logic used:
 
 - **Chronology** - Content is sorted into 3 buckets.
 - **Promotion** - Boost and Featured news is surfaced highly in each bucket.
-- **Source Priority** - “Top Down” messaging is ranked slightly higher than organic content from people around you.
+- **Source Priority** - Messaging from organizational news sites is ranked slightly higher than organic content from people around you.
 - **Engagement** - Ensure dynamic mix of content types within each bucket.
 
 
-One of the primary goals of the Feed is to give content publishers a reliable means of distributing important news and information. To keep them interested and coming back regularly we’re trying to strike a balance between the engaging content, they want (from sites they are a member of or follow and communities they favorite or follow) and the information they need (SharePoint organizational news site and Yammer All Company). To achieve this, we don’t rely on a pure chronological ranking.  
+One of the primary goals of the Feed is to give content publishers a reliable means of distributing important news and information. To keep them interested and coming back regularly we’re working to strike a balance between the engaging content they want (like from sites they are a member of or communities they follow) and the information they need (like SharePoint organizational news site and Yammer All Company posts). To achieve this, we don’t rely on a pure chronological ranking.  
 
-There are several factors such as the content’s age, whether it’s been ‘promoted’ by the organization, the publishing source, and the author’s relationship to the reader to determine the content ranking. This is to users can discover new content each time they open the Feed so it never gets boring or predictable. However, engaging content in the Feed relies on how often content is created on the SharePoint sites and Yammer communities.  
-
-Over time, we plan on continuing to experiment with our ranking and to add new factors to the algorithm we use. We will be moving over to a machine learning model that is optimized for user engagement while preserving the ability for organizations to lift important content that is recent to the top of users Feeds. (Refer to the question “What controls do customers have over the Feed configuration?” for more information).
+Over time, we plan on continuing to experiment with our ranking and to add new factors to the algorithm we use. We will be moving over to a machine learning model that is optimized for user engagement while preserving the ability for organizations to lift important content that is recent to the top of users Feeds. [Learn more about the different controls that can be used to influence the rank of content](#what-are-the-available-controls-to-influence-content-in-the-feed). 
 
 The content in the Feed is personalized for each user based on their memberships and permissions. We always restrict what content the user sees to content they have permissions to view.  In addition to any org-wide memberships, we’ll include content from SharePoint sites and Yammer communities the user is optionally a member of.  The goal of having a fresh, dynamic, and engaging Feed to keep them coming back.
 
 
-## Question: Why don’t I see any content in the Feed?
+## Why don’t I see any content in the Feed?
 
 If you’re not seeing any content in your feed, it could be because of a few reasons:
 1. There needs to be some content published to a SharePoint site or Yammer community that you’re a member of.  
@@ -103,20 +102,20 @@ If you’re not seeing any content in your feed, it could be because of a few re
 
 
 
-## Question: What are the available controls to influence content in the Feed?
+## What are the available controls to influence content in the Feed?
 
-There’s no configuration required to get the Feed working.  For the current release, customers have the ability to impact content placement in the Feed by targeting content, or by promoting it.
+There’s no configuration required to get the Feed working. For the current release, customers have the ability to impact content placement in the Feed by targeting content, or by promoting it.
 
 - **Promote important ‘official’ communications** - Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts.
 - **Highlight community discussions** - Feature posts in public Yammer communities that you’d like seen by the entire organization.
-- **Publish from official news sources** - Where content is from, impacts the ranking.
+- **Publish from official news sources** - Like organizational news sites or the home site. Where content is from, impacts the ranking.
 
 For SharePoint news, more filtering is available through [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293), which allows publishers to designate content relevant to specific groups of individuals. Examples might be employees in a specific region, building, or title.  This is done by enabling audience targeting on the site where content is being published, then using Azure Active Directory groups to define the target audience. However, if audience targeting is not applied, users will still get the SharePoint News on their feed. Publishers also have the ability to promote critical messages in the Feed.  News published from Org News sites has a Boost feature that explicitly tells the feed ‘this content is important’.  As a result, that content is artificially pushed to the top of the feed.
 
 In Yammer, moderators of the All-Company community can Feature a post to indicate it’s significant and increase visibility within the organization.  Featured posts from Yammer are treated as important by our ranking algorithm. For communities that you are a member of, communication managers can also create Announcements within those communities, which will also be treated as important by our ranking algorithm.
 
 
-## Question: What actions can viewers take on the Feed?
+## What actions can viewers take on the Feed?
 
 For the current release, users on the Feed can do the following actions on posts:
 1.	Comment on a post
@@ -127,7 +126,7 @@ For the current release, users on the Feed can do the following actions on posts
 
 
 
-## Question: What can I do to save content in the Feed after I have viewed it?  
+## What can I do to save content in the Feed after I have viewed it?  
 
 Users can bookmark content that they would like to view later by selecting the **Save for Later**. Content can then be accessed through the save for later feature in the Viva Connections mobile app in Teams.
 
