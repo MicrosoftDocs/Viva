@@ -36,23 +36,23 @@ Content that is displayed in the Feed comes from three primary sources: organiza
 
 SharePoint news that's published from [organizational news sites](/SharePoint/organization-news-site) will display in the Feed. Organizational news sites are communication sites that have been specifically designated as a source of authoritative news in the SharePoint admin center. In addition to organizational news posts, the following news will also be displayed in the Feed:
 
-    - SharePoint news from [sites you follow and sites you frequently visit](https://support.microsoft.com/office/find-and-follow-sites-news-and-content-4411e38f-9bc5-4ecc-bd33-3dbe939ac84c)
-    - [Boosted news in SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) from organizational news sites
-    - News that has [audience targeting applied](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) from organizational news site or sites you follow
-    - SharePoint news from sites that are relevant to your interests
+- SharePoint news from [sites you follow and sites you frequently visit](https://support.microsoft.com/office/find-and-follow-sites-news-and-content-4411e38f-9bc5-4ecc-bd33-3dbe939ac84c)
+- [Boosted news in SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) from organizational news sites
+- News that has [audience targeting applied](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) from organizational news site or sites you follow
+- SharePoint news from sites that are relevant to your interests
     
 2. **Posts in Yammer communities**
 
 Certain posts in various Yammer communities will appear in the Feed. These Yammer posts will come from Yammer communities that are authorized to post to "All Company" or the entire organization. Posts that are [All Company](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124) are intended to be viewed by everyone. 
 
-    In addition to All Company Yammer posts, you will also see the following activity from Yammer in the Feed:
+In addition to All Company Yammer posts, you will also see the following activity from Yammer in the Feed:
 
-    - Yammer All Company Featured Posts
-    - Yammer All Company Announcements 
-    - Yammer All Company Posts
-    - Yammer Followed Community Featured Posts
-    - Yammer Followed Community Announcements
-    - Yammer Followed Community Posts
+- Yammer All Company Featured Posts
+- Yammer All Company Announcements 
+- Yammer All Company Posts
+- Yammer Followed Community Featured Posts
+- Yammer Followed Community Announcements
+- Yammer Followed Community Posts
     
 3. **Videos in SharePoint hosted by Stream**
 
@@ -93,6 +93,7 @@ Over time, we plan on continuing to experiment with our ranking and to add new f
 The content in the Feed is personalized for each user based on their memberships and permissions. We always restrict what content the user sees to content they have permissions to view.  In addition to any org-wide memberships, we’ll include content from SharePoint sites and Yammer communities the user is optionally a member of.  The goal of having a fresh, dynamic, and engaging Feed to keep them coming back.
 
 
+
 ## Why don’t I see any content in the Feed?
 
 If you’re not seeing any content in your feed, it could be because of a few reasons:
@@ -108,16 +109,18 @@ There’s no configuration required to get the Feed working. For the current rel
 
 - **Promote important ‘official’ communications** - Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts.
 - **Highlight community discussions** - Feature posts in public Yammer communities that you’d like seen by the entire organization.
-- **Publish from official news sources** - Like organizational news sites or the home site. Where content is from, impacts the ranking.
+- **Publish from official news sources** - Like [organizational news sites](/sharepoint/organization-news-site) or [home sites](/sharepoint/home-site). Where content is from, impacts the ranking.
 
-For SharePoint news, more filtering is available through [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293), which allows publishers to designate content relevant to specific groups of individuals. Examples might be employees in a specific region, building, or title.  This is done by enabling audience targeting on the site where content is being published, then using Azure Active Directory groups to define the target audience. However, if audience targeting is not applied, users will still get the SharePoint News on their feed. Publishers also have the ability to promote critical messages in the Feed.  News published from Org News sites has a Boost feature that explicitly tells the feed ‘this content is important’.  As a result, that content is artificially pushed to the top of the feed.
+For SharePoint news, more filtering is available through [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293), which allows publishers to designate content relevant to specific groups of people. Examples might be employees in a specific department, region, building, or title. This is done by enabling audience targeting on the site where content is being published, then using Azure Active Directory groups to define the target audience. However, if audience targeting is not applied, users will still get the SharePoint News on their feed. Publishers also have the ability to promote critical messages in the Feed. News published from Org News sites has a Boost feature that explicitly tells the feed ‘this content is important’. As a result, that content is artificially pushed to the top of the feed. [Learn more about audience targeting in Viva Connections](/viva/connections/use-audience-targeting-in-viva-connections). 
 
-In Yammer, moderators of the All-Company community can Feature a post to indicate it’s significant and increase visibility within the organization.  Featured posts from Yammer are treated as important by our ranking algorithm. For communities that you are a member of, communication managers can also create Announcements within those communities, which will also be treated as important by our ranking algorithm.
+In Yammer, moderators of the All-Company community can Feature a post to indicate it’s significant and increase visibility within the organization. Featured posts from Yammer are treated as important by our ranking algorithm. For communities that you are a member of, communication managers can also [create Announcements within those communities](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b), which will also be treated as important by our ranking algorithm.
+
 
 
 ## What actions can viewers take on the Feed?
 
 For the current release, users on the Feed can do the following actions on posts:
+
 1.	Comment on a post
 2.	Reply to a comment on a post
 3.	Social Reactions – React to a post and comment
