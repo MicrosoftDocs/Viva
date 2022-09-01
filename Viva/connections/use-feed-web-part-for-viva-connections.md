@@ -1,8 +1,8 @@
 ---
 title: "Use the Feed web part for Viva Connections"
 ms.reviewer: 
-ms.author: v-bshilpa
-author: Benny-54
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
