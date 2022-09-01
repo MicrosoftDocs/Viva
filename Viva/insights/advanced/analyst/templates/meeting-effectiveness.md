@@ -19,7 +19,7 @@ audience: Admin
 
 The **Meeting effectiveness report** uses a template populated by Viva Insights data to identify whether employees practice habits that lead to more effective meetings.
 
-The report enables you to visualize and explore the following top-level business questions asked by leaders:
+The report enables you to:
 
 * Identify behaviors that improve meeting effectiveness.
 * Determine which groups are and aren't practicing these behaviors.
@@ -120,7 +120,6 @@ After the Meeting effectiveness report is set up and populated with Viva Insight
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
 
-After confirming these settings, check the number of measured employees to make sure it's the population you want to analyze.
 
 ![Screenshot that shows Report settings page in PowerBI.](/viva/insights/advanced/images/me-pbi-report-settings.png)
 
