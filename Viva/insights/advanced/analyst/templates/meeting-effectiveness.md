@@ -17,7 +17,7 @@ audience: Admin
 
 # Meeting effectiveness report
 
-The **Meeting effectiveness** uses a template populated by Viva Insights data to identify whether employees practice habits that lead to more effective meetings.
+The **Meeting effectiveness** report uses a template populated by Viva Insights data to identify whether employees practice habits that lead to more effective meetings.
 
 The report enables you to:
 
