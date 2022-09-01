@@ -34,7 +34,7 @@ Viva Goals allows you to create 5 distinct types of Key Results; we are broadly 
   The 'Reach' metric type is useful when you have a specific target that you want to achieve, for example, "Conduct 5 internal surveys" or "Launch 4 Kitchens".
 
 2. **Increase from:**
-  When the OKR is required to track a metric which is already at a certain number and must increase to a higher number such as “Increase revenue from $20Mn to $40mn this year”, you can choose the 'Increase from' metric. Here, the ‘from’ indicates the starting value of $20Mn and the ‘to’ indicates the target value of $40Mn.  
+  When the OKR is required to track a metric which is already at a certain number and must increase to a higher number, you can choose the 'Increase from' metric. For example, “Increase revenue from $20Mn to $40mn this year”. Here, the ‘from’ indicates the starting value of $20Mn and the ‘to’ indicates the target value of $40Mn.  
 
 3. **Decrease from:**
   Similarly, when the OKR is required to track a metric which is already at a certain number and must decrease further to a lower number, you can select the ‘Decrease from’ metric type. For example, “Reduce P0 bugs from 50 to 10 this quarter”. Here, the start value is the higher value of 50 and the target value is the lower value 10.  
