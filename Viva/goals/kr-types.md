@@ -118,7 +118,7 @@ Let's take the example key result "Maintain page response time below 2 seconds".
 
 Since it is greater than the border value of 2, it lies above the red dotted line and in the shaded area that represents "At Risk". This indicates that the status of the key result is "At Risk".
 
-> ![NOTE] 
+> [!NOTE]
 > Any check-in or progress point that lies on the red line or in the shaded grey area is "At Risk" while those that lie in the white area are "On Track".
 
 **Stay above:**
