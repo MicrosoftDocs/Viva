@@ -17,7 +17,7 @@ audience: Admin
 
 # Meeting effectiveness report
 
-The **Meeting effectiveness report** uses a template populated by Viva Insights data to identify whether employees practice habits that lead to more effective meetings.
+The **Meeting effectiveness** uses a template populated by Viva Insights data to identify whether employees practice habits that lead to more effective meetings.
 
 The report enables you to:
 
@@ -136,7 +136,7 @@ If you want to include employees with low collaboration in your analysis, select
 
 The Meeting effectiveness report includes several report pages that help you find out whether your organization is practicing healthy meeting habits.
 
-Except for the first two pages, each report page follows a similar format: an all-up group average for the metric, and then a breakdown of that metric average by the organizational attribute selected. These averages are calculated over the aggregation period you selected in [report settings](#report-settings). You can also see how the group average has trended from the selected **Start date** to **End date**. Finally, each page ends with a **Take action** suggestion. Select **Explore more** to access understand why these insights matter and additional details about suggested actions.
+Except for the first two pages, each report page follows a similar format: an all-up group average for the metric, and then a breakdown of that metric average by the organizational attribute selected. These averages are calculated over the aggregation period you selected in [report settings](#report-settings). You can also see how the group average has trended from the selected **Start date** to **End date**, or select **Why this matters** for an explanation of the purpose behind the page. Finally, each page ends with a **Take action** suggestion, where you can elect **Explore more** to access additional details about suggested actions.
 
 ### Overview
 
