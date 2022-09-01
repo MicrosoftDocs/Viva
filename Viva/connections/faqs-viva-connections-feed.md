@@ -25,10 +25,7 @@ description: "Frequently asked questions about the Feed for Viva Connections"
 
 ## Question: What can I expect to see in the Feed?
 
-The Feed will give content publishers a reliable means of distributing important news and information that their users need within their organizations.  In addition, users will also see engaging content from sites they are a member of/follow and communities they follow. The list of content that users will see in their feed for the Viva Connections current release is listed in the question “Where is content sourced for the Feed?” As fresher content is added to your feed, older content will be pushed down the feed. 
-
-There are several factors to determine the content ranking and users will only be able to view content that they have permission to view. Refer to the question “How is the feed personalized and ranked?" for more information.
-
+The Feed gives content publishers a reliable means of distributing important news and information that their users need within their organizations. End-users will also see engaging content from sites they are a member of, sites they follow, and Yammer communities they follow. Get more information about the [content that displays in the Feed](#question-where-does-content-in-the-feed-come-from) and the [factors that impact the content's ranking in the Feed](#question-what-are-the-available-controls-to-influence-content-in-the-feed). 
 
 
 ## Question: Where does content in the Feed come from?
@@ -36,7 +33,8 @@ There are several factors to determine the content ranking and users will only b
 Content that is displayed in the Feed comes from three primary sources: organizational news published in SharePoint, posts in Yammer communities, and videos in Stream that are shared with the entire organization or targeted to user groups. Individual content items in the Feed will display for a 30-day period. 
 
 1. **News published on organizational news sites in SharePoint**
-SharePoint news that's published from [organizational news sites](/SharePoint/organization-news-site) will display in the Feed. Organizational news sites are communication sites that have been specifically designated as a source of authoritative news in the SharePoint admin center. In addition to organizational news posts, the following news will also be displayed in the Feed:
+
+    SharePoint news that's published from [organizational news sites](/SharePoint/organization-news-site) will display in the Feed. Organizational news sites are communication sites that have been specifically designated as a source of authoritative news in the SharePoint admin center. In addition to organizational news posts, the following news will also be displayed in the Feed:
 
     - SharePoint news from [sites you follow and sites you frequently visit](https://support.microsoft.com/office/find-and-follow-sites-news-and-content-4411e38f-9bc5-4ecc-bd33-3dbe939ac84c)
     - [Boosted news in SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) from organizational news sites
