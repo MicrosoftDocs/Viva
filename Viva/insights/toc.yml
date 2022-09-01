@@ -168,44 +168,27 @@ items:
                     href: personal/Use/mya-adoption/adopt-habit-building.md
                   - name: Habit playbooks
                     href: personal/Use/mya-adoption/adopt-habit-playbooks.md
-      - name: Manager insights
-        items: 
-          - name: My team        
-            href: use/myteam.md
-          - name: Team insights        
-            href: use/team-insights.md
-          - name: Group insights
-            items:
-              - name: Introduction 
-                href: use/group-insights.md
-              - name: Explore
-                href: use/myteam-explore.md
-          - name: My team FAQ
-            href: Use/my-team-faq.md
-      - name: Leader insights
+      - name: Team and organization insights
         items:
-          - name: My organization    
-            href: use/viva-insights-my-org.md
-          - name: Organizational resiliency
-            href: use/resiliency.md
-          - name: Boost engagement
-            href: use/engagement.md
-          - name: Improve agility
-            href: use/agility.md
-          - name: Foster innovation
-            href: use/innovation.md
-          - name: Effective managers
-            href: use/effective-managers.md
-          - name: Operational effectiveness
-            href: use/operational.md
-          - name: Accelerate change
-            href: use/change.md
-          - name: Transform meeting culture
-            href: use/meeting-culture.md
-          - name: Increase customer focus
-            href: use/icustomer-focus.md
-          - name: My organization FAQ
-            href: Use/myorg-faq.md
+        - name: Setup
+          href: org-team-insights/setup.md
+        - name: Teamwork habits       
+          href: org-team-insights/teamwork-habits.md
+          items:
+          - name: Teamwork habits FAQ
+            href: org-team-insights/teamwork-habits-faq.md
+        - name: Organization trends
+          items:
+          - name: Introduction   
+            href: org-team-insights/org-trends.md
+          - name: Employee wellbeing
+            href: org-team-insights/employee-wellbeing.md
+          - name: Meeting effectiveness
+            href: org-team-insights/meeting-effectiveness.md
+          - name: Manager connection
+            href: org-team-insights/manager-connection.md
+          - name: Organization trends FAQ
+            href: org-team-insights/org-trends-faq.md
       - name: Advanced insights
         items:
           - name: Overview

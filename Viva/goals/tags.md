@@ -1,8 +1,8 @@
 ---
 title: "Tags"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: <TBD>
 audience: Admin
 f1.keywords:
@@ -36,13 +36,13 @@ This article describes how to add tags, search by tag, and use Explorer to make 
 
 In the example pictured below, we're tagging OKRs related to **Customer Obsession**, the responsibilities for which are distributed across teams and individuals. It becomes strategically valuable to group these related OKRs together.
 
-![Screenshot shows where you add tags.](../media/goals/4/45/a.jpg)
+:::image type="content" source="../media/goals/4/45/a.jpg" alt-text="Screenshot shows where you add tags." lightbox="../media/goals/4/45/a.jpg":::
 
 ## Search by tag
 
 Tags are searchable. To search by tag, select the search button in the upper-right corner and type the tag name.
 
-![Screenshot shows where you search by tag.](../media/goals/4/45/b.jpg)
+:::image type="content" source="../media/goals/4/45/b.jpg" alt-text="Screenshot shows where you search by tag." lightbox="../media/goals/4/45/b.jpg":::
 
 ## Reporting with tags
 
@@ -56,6 +56,6 @@ You can use Explorer to filter by tag and create meaningful reports and views. T
 
 4. To separate tags in the exported report, select **Export tag values as separate columns**.
 
-   ![Screenshot shows the export report page.](../media/goals/4/45/c.jpg)
+   :::image type="content" source="../media/goals/4/45/c.jpg" alt-text="Screenshot shows the export report page." lightbox="../media/goals/4/45/c.jpg":::
 
-   ![Screenshot shows the export all objectives window](../media/goals/4/45/d.jpg)
+   :::image type="content" source="../media/goals/4/45/d.jpg" alt-text="Screenshot shows the export all objectives window." lightbox="../media/goals/4/45/d.jpg":::
