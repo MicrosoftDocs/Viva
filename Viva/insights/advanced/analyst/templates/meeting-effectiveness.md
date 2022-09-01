@@ -26,7 +26,6 @@ The report enables you to:
 * Learn how to drive the behaviors that enable more effective meetings.
 * Track how these behavioral patterns change over time.
 
-
 Each report page includes a **Why it matters** interpretation, **recommended actions**, and **metric definitions**.
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Meeting effectiveness** query in Viva Insights.
