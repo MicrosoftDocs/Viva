@@ -134,6 +134,12 @@ For the current release, users on the Feed can do the following actions on posts
 Users can bookmark content that they would like to view later by selecting the **Save for Later**. Content can then be accessed through the save for later feature in the Viva Connections mobile app in Teams.
 
 
+
+## Why isn’t boosted news displaying in the Feed for Viva Connections web part?  
+ 
+In the [Feed for Viva Connections web part](/viva/connections/use-feed-web-part-for-viva-connections), news posts from [organizational news sites](/sharepoint/organization-news-site) up to 7 days from the post date will take precedence over older boosted News that has not yet reached the expiration. This can prevent boosted news from displaying prominently to end-users if the boosted news publishing date is older than the organizational news.
+
+
 ## More resources
 
 [Overview of Viva Connections](viva-connections-overview.md)
