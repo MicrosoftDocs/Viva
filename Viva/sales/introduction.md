@@ -24,7 +24,10 @@ While in public preview, Viva Sales is available at no additional charge to orga
 
 ## Role requirements
 
-If you are using Dynamics 365 Sales as your CRM system, users must be assigned either Sales Manager or Salesperson security role. 
+If you are using Dynamics 365 Sales as your CRM system, users must be assigned either Sales Manager or Salesperson security role to use Viva Sales. 
+
+> [!NOTE]
+> If you've assigned a security role to a user, ask the user to sign out of Viva Sales and then sign in again for the security role changes to be reflected appropriately. 
 
 ## Region availability
 
