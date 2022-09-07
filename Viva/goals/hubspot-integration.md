@@ -23,9 +23,9 @@ description: "Learn how to base your OKR progress in Viva Goals by connecting wi
 
 ## About HubSpot integration
     
-Viva Goals HubSpot integration enables you to link objectives and key results (OKRs) to HubSpot Sales and Marketing metrics for automatic real-time updates on progress. 
+Viva Goals HubSpot integration enables you to link objectives and key results (OKRs) to HubSpot sales and marketing metrics for automatic real-time updates on progress. 
 
-Let's use this example: You have an objective to increase the number of marketing qualified leads(MQLs) this quarter. You can use HubSpot integration to save yourself the hassle of going back and forth between HubSpot and Viva Goals to update progress. Viva Goals will sync values for you, saving time while keeping your OKRs current.
+Let's use this example: You have an objective to increase the number of marketing qualified leads (MQLs) this quarter. You can use HubSpot integration to save yourself the hassle of going back and forth between HubSpot and Viva Goals to update progress. Viva Goals will sync values for you, saving time while keeping your OKRs current.
     
 All users and admins can use the HubSpot integration. Admins also have permissions to manage the integration from the admin dashboard.
 
@@ -39,7 +39,7 @@ All users and admins can use the HubSpot integration. Admins also have permissio
 
     :::image type="content" source="../media/goals/7/hubspot-manage-button-in-viva-goals.png" alt-text="Screenshot shows where you choose to manage Hubspot in Viva Goals." lightbox="../media/goals/7/viva-goals-integrations-page.png":::
 
-3. Select **New Connection**. in the dialog that opens, sign in to your Hubspot account.
+3. Select **New Connection**. In the dialog that opens, sign in to your Hubspot account.
     
     :::image type="content" source="../media/goals/7/hubspot-new-connection-button-in-viva-goals.png" alt-text="Screenshot shows where you choose to create a new Hubspot connection in Viva Goals." lightbox="../media/goals/7/hubspot-new-connection-button-in-viva-goals.png":::
 
@@ -51,15 +51,15 @@ All users and admins can use the HubSpot integration. Admins also have permissio
 
 ## How to edit an existing Hubspot connection
 
-Admins can also edit an existing Hubspot connection, including the integration’s name and shared state  from the Hubspot integration view. 
+Admins can also edit an existing Hubspot connection, including the integration’s name and shared state  from the Hubspot integration view: 
 
-1. Start in the **Integrations** section in the Admin Dashboard and select **Hubspot**.  
+1. Start in the **Integrations** section in the Admin Dashboard. Select **Hubspot**.  
 
 2. Select the **Edit** icon next to the Hubspot connection. In the dialog box that appears, you can edit the **Connection Name** and select or clear the **Share connection with all users** checkbox.
 
 ## How to use Hubspot integration
 
-Now that integration is enabled, your team can link a Hubspot metric with an OKR:
+Now that the integration is enabled, your team can link a Hubspot metric with an OKR:
 
 1. When you add or edit an objective or key result, you can choose to measure progress by **KPI** or **% complete**. Select **HubSpot** from the list of integrations available.
     
@@ -71,10 +71,10 @@ Now that integration is enabled, your team can link a Hubspot metric with an OKR
 
 3. Select the product type that you want to integrate with. Currently, Viva Goals integrates with Marketing Hub and Sales Hub.
     
-    :::image type="content" source="../media/goals/7/hubspot-new-connection-details-in-viva-goals.png" alt-text="Screenshot shows where you select a Hubspot Product Type." lightbox="../media/goals/7/hubspot-new-connection-details-in-viva-goals.png":::
+    :::image type="content" source="../media/goals/7/hubspot-new-connection-details-in-viva-goals.png" alt-text="Screenshot shows where you select a Hubspot product type." lightbox="../media/goals/7/hubspot-new-connection-details-in-viva-goals.png":::
 
     > [!NOTE]
-    > If you select **Sales Hub** as the Product Type, addition fields are available including **Pipeline**, **Stage**, **Owner**, and **Team**.
+    > If you select **Sales Hub** as the product type, addition fields become available, including **Pipeline**, **Stage**, **Owner**, and **Team**.
 
     **HubSpot Marketing Hub metrics you can track in Viva Goals**
 
@@ -118,9 +118,9 @@ Now that integration is enabled, your team can link a Hubspot metric with an OKR
 4. Select **Next** to finish and save your OKR. You should now see a HubSpot icon next to the OKR. Viva Goals will now automatically count marketing qualified leads. The OKR syncs automatically every hour. To refresh it manually select **refresh**.
 
 > [!NOTE]
-> Your access to Marketing hub and Sales hub metrics will depend on your HubSpot license.
+> Your access to Marketing Hub and Sales Hub metrics will depend on your HubSpot license.
 
 ### How to disable HubSpot integration 
-The admin can disable Hubspot at any time: Go to **HubSpot** in the **Integrations** section and select **Manage**. On the **Hubspot Configurations** page, go to the **Change** dropdown, select **Disable** and confirm the action.
+The admin can disable Hubspot at any time: Go to **HubSpot** in the **Integrations** section and select **Manage**. On the **Hubspot Configurations** page, go to the **Change** dropdown, select **Disable**, and then confirm the action.
     
-:::image type="content" source="../media/goals/7/disabling-hubspot-in-viva-goals.png" alt-text="Screenshot shows where you choose Disable Integration for Hubspot." lightbox="../media/goals/7/disabling-hubspot-in-viva-goals.png"::: 
+:::image type="content" source="../media/goals/7/disabling-hubspot-in-viva-goals.png" alt-text="Screenshot shows where you disable integration for Hubspot." lightbox="../media/goals/7/disabling-hubspot-in-viva-goals.png"::: 

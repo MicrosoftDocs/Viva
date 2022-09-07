@@ -30,7 +30,7 @@ All users and admins can use the monday.com integration. Admins also have permis
 
 ## How to install the Viva Goals app for monday.com
 
-Before you set up the integration connection, [reach out to your monday.com administrator](https://auth.monday.com/auth/login_monday/enter_slug?force_existing_account=true&oauth_payload_token=eyJhbGciOiJIUzI1NiJ9.eyJjbGllbnRfaWQiOiJiMTFlMmUxMDljOTdiMzcxYzAzYTk0YzRlNWQ4ZWNmZSIsInJlc3BvbnNlX3R5cGUiOiJpbnN0YWxsIiwib2F1dGhfdmVyc2lvbiI6Mn0.ld79ozTcYkdq5gD2eu60HSLoDeuNB_nb2bsOsmJzqyM) to install the Viva Goals app by using this [link.](https://auth.monday.com/oauth2/authorize?client_id=1d353d6e717b0b9329a61b0a264499b4&response_type=install) 
+Before you set up the integration connection, [reach out to your monday.com administrator](https://auth.monday.com/auth/login_monday/enter_slug?force_existing_account=true&oauth_payload_token=eyJhbGciOiJIUzI1NiJ9.eyJjbGllbnRfaWQiOiJiMTFlMmUxMDljOTdiMzcxYzAzYTk0YzRlNWQ4ZWNmZSIsInJlc3BvbnNlX3R5cGUiOiJpbnN0YWxsIiwib2F1dGhfdmVyc2lvbiI6Mn0.ld79ozTcYkdq5gD2eu60HSLoDeuNB_nb2bsOsmJzqyM) to install the Viva Goals app by using this [link](https://auth.monday.com/oauth2/authorize?client_id=1d353d6e717b0b9329a61b0a264499b4&response_type=install).
 
 ## Connect monday.com to your Viva Goals account from the admin dashboard
 
@@ -64,11 +64,11 @@ After the monday.com integration is set up, you can connect your Viva Goals OKRs
 
 1. Go to the OKR of your choice. In the **Progress** section, select the **Automatically from a data source** option.
 
-1. Select **monday.com** from the list of integrations available. If multiple monday.com connections are listed, choose the connection you want to use or create a new one. 
+1. Select **monday.com** from the list of integrations available. If multiple monday.com connections are already listed, choose the connection you want to use or create a new one. 
 
     :::image type="content" source="../media/goals/11/monday-datasource.png" alt-text="Screenshot shows where you select monday.com as the data source to update progress." lightbox="../media/goals/11/monday-datasource.png":::
 
-1. Select the board, group, and assignee you want to connect to and map the status column based on which OKR progress should be tracked. 
+1. Select the board, group, and assignee you want to connect to, and map the status column based on which OKR progress should be tracked to. 
 
     :::image type="content" source="../media/goals/11/monday-connection-details.png" alt-text="Screenshot shows where you specify monday.com connection details for an OKR." lightbox="../media/goals/11/monday-connection-details.png":::
 
@@ -78,16 +78,16 @@ After the monday.com integration is set up, you can connect your Viva Goals OKRs
     >
     > - If an item in your monday.com has status indicated only by color but no labels, Viva Goals will consider that item incomplete even though the specific color is considered as done in the board column settings.
     > - If a monday.com doesn't have the default completion status, items that have status as *Done* will be considered complete.
-    > - The **assignee** field in Viva Goals will be mapped to the **Owner** field in monday.com by default. You can also search and add assignees to list their items. The **Preview** option will show the total number of items that remaine and that are completed. For KPI-based OKRs, the Preview option will just show the total number of items available in the mapped board.
-    > - Viva Goals will sync data from monday.com at one-hour intervals. 
+    > - The **assignee** field in Viva Goals will be mapped to the **Owner** field in monday.com by default. You can also search and add assignees to list their items. The **Preview** option will show the total number of items that remain and that are completed. For KPI-based OKRs, the **Preview** option will just show the total number of items available in the mapped board.
+    > - Viva Goals will sync data from monday.com hourly. 
 
-## How to disable the monday.com integration
+## How to disable monday.com integration
 
 An admin can disable the monday.com integration at any time: 
 
 1. Go to monday.com. In the **Integrations** section, select **Manage**. 
 
-2. On the monday.com Configurations page, select the **Change** dropdown, select **Disable** and confirm. 
+2. On the monday.com configurations page, select the **Change** dropdown, select **Disable** and confirm. 
 
     :::image type="content" source="../media/goals/11/monday-disable-button.png" alt-text="Screenshot shows how to disable monday.com in Viva Goals." lightbox="../media/goals/11/monday-disable-button.png":::
 

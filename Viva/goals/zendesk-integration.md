@@ -35,7 +35,7 @@ Let's consider this example: You have an objective to increase the customer sati
     
     :::image type="content" source="../media/goals/7/zendesk-enable-button-in-viva-goals.png" alt-text="Screenshot shows where you enable Zendesk in Viva Goals." lightbox="../media/goals/7/zendesk-enable-button-in-viva-goals.png":::
 
-3. Select **New Connection**. In the dialog that appears, enter the Zendesk subdomain and sign in to your Zendesk account.
+3. Select **New Connection**. In the dialog that appears, enter the Zendesk subdomain, and sign in to your Zendesk account.
     
      :::image type="content" source="../media/goals/7/zendesk-new-connection-button-in-viva-goals.png" alt-text="Screenshot shows where you opt to create a new connection to configure Zendesk integration." lightbox="../media/goals/7/zendesk-new-connection-button-in-viva-goals.png":::
 
@@ -43,7 +43,7 @@ Let's consider this example: You have an objective to increase the customer sati
     
      :::image type="content" source="../media/goals/7/zendesk-creating-new-connection.png" alt-text="Screenshot shows where you name your new Zendesk connection." lightbox="../media/goals/7/zendesk-creating-new-connection.png":::
 
-5. Viva Goals lets you connect with multiple Zendesk accounts. Select **New connection** to add another instance. You differentiate connections by name. These names are displayed to members when they link their OKRs to Zendesk.
+5. Viva Goals lets you connect with multiple Zendesk accounts. Select **New connection** to add another instance. You differentiate connections by name. These names are displayed to users when they link their OKRs to Zendesk.
 
    You can disable the integration at any time from the **Change** dropdown.
     
@@ -55,12 +55,12 @@ Now that the integration is enabled, your team can link a Zendesk metric with an
 
 1. When you add or edit an objective or key result, choose to measure success by **KPI (success metric)**.
     
-    :::image type="content" source="../media/goals/7/zendesk-integration-from-the-list-of-integrations-in-viva-goals.png" alt-text="Screenshot shows where you specify that Zendesk as the data source." lightbox="../media/goals/7/zendesk-integration-from-the-list-of-integrations-in-viva-goals.png":::
+    :::image type="content" source="../media/goals/7/zendesk-integration-from-the-list-of-integrations-in-viva-goals.png" alt-text="Screenshot shows where you specify Zendesk as the data source." lightbox="../media/goals/7/zendesk-integration-from-the-list-of-integrations-in-viva-goals.png":::
 
     > [!NOTE]
     > Currently you can only track by KPI, not percentage completed. 
 
-2. Next, select the **Connection** and then select the Zendesk metric you want to track the progress of the objective by. Viva Goals supports tracking by *% Resolved tickets*, *% Satisfied Response*, *% Dissatisfied Response*, and *Number of Dissatisfied Responses* in Zendesk for the agents in your organization for tickets created between a customizable date range. By default, Viva Goals considers tickets created for all the agents between the start and end time same as the objective's start and end time.
+2. Next, select the **Connection** and then select the Zendesk metric you want to track the progress of the objective by. Viva Goals supports tracking by *% resolved tickets*, *% satisfied response*, *% dissatisfied response*, and *number of dissatisfied Responses* in Zendesk for the agents in your organization for tickets created between a customizable date range. By default, Viva Goals considers tickets created for all the agents between the start and end time same as the objective's start and end time.
     
     :::image type="content" source="../media/goals/7/zendesk-new-connection-details.png" alt-text="Screenshot shows where you specify progress tracking details in Zendesk." lightbox="../media/goals/7/zendesk-new-connection-details.png":::
 

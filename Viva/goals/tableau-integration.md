@@ -21,9 +21,9 @@ description: "Learn how to integrate your Tableau dashboard KPIs directly with V
 
 # Tableau integration
 
-The Viva Goals Tableau integration allows automated real-time tracking of objectives and key result (OKR) progress. 
+The Viva Goals Tableau integration enables automated real-time tracking of objectives and key result (OKR) progress. 
   
-Let's consider this example: You have Tableau workbooks with dashboard views that are used to visualize the sales team's close rate, quarter-to-date (QTD) versus goal. You configure a Tableau integration and set up a data link in Viva Goals to save the hassle of connecting to any other source sales systems. If you've already implemented all the key performance indicator (KPI) visualizations within Tableau, Viva Goals will sync the values for you, saving you time while keeping your OKR progress up to date.
+Let's consider this example: You have Tableau workbooks with dashboard views that are used to visualize the sales team's close rate, quarter-to-date (QTD) versus goal. You configure Tableau integration and set up a data link in Viva Goals to save the hassle of connecting to any other source sales systems. If you've already implemented all the key performance indicator (KPI) visualizations in Tableau, Viva Goals will sync the values for you, saving you time while keeping your OKR progress up to date.
 
 ## How to enable Tableau integration
 
@@ -33,7 +33,7 @@ Admins follow these steps to enable Tableau integration in Viva Goals:
   
     :::image type="content" source="../media/goals/7/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/7/viva-goals-integrations-page.png":::
 
-2. Enable the Tableau integration under the **Data Integrations** category.
+2. Enable Tableau integration under the **Data Integrations** category.
   
     :::image type="content" source="../media/goals/7/tableau-enable-button.png" alt-text="Screenshot shows where you enable Tableau in Viva Goals." lightbox="../media/goals/7/tableau-enable-button.png":::
 
@@ -50,36 +50,36 @@ In the **Connections** section, select **New Connection**. In the dialog that ap
 > [!NOTE]
 > Personal access token should be available from the Tableau 2019.4 release.
 
-Select the (**i**) information icon to learn more about each field in the dialog. Links to help articles are also provided.
+Select the  information icon (**i**) to learn more about each field in the dialog. Help article link are also provided.
 
 Connections can be shared or made *private*.  
 
 You can edit a saved Tableau connection from the same section at any time.  
   
 > [!NOTE]
-> Ifyour organization uses an on-premises Tableau Server, such as  `https://tableau.\<org-name\>.com`), restrictions apply about external connections can access the server. In this scenarios, contact your Viva Goals Customer Success Manager (CSM), so we can share the IPs that need to be permitted to establish the connection.
+> If your organization uses an on-premises Tableau Server, such as  `https://tableau.\<org-name\>.com`), restrictions apply to external connections that can access the server. In this scenarios, contact your Viva Goals customer success manager (CSM), to learn which IPs must be permitted to establish the connection.
 
 ## How to set up the Tableau data link
 
-After the connection is configured, users can **Edit** their OKRs to set up a data link integration to directly track progress in Viva Goals from their Tableau workbooks.
+After the connection is configured, users can **Edit** their OKRs to set up a data link integration to track progress in Viva Goals from their Tableau workbooks.
 
 > [!NOTE]
-> Tableau Integration is available only for **KPI (success metric)** method of measuring OKR success. It's not available for **% completion** method.
+> Tableau Integration is available only for the **KPI (success metric)** method of measuring OKR success. It's not available for **% completion** method.
 
 1. When you create or edit an objective or key result, select **Add an integration**, and then select **Tableau** from the list of integrations.
   
     :::image type="content" source="../media/goals/7/tableau-from-the-list-of-datasources.png" alt-text="Screenshot shows where you select Tableau as the data source for the new connection." lightbox="../media/goals/7/tableau-from-the-list-of-datasources.png":::
 
-1. If a Tableau connection isn't already configured, Viva Goals prompts the user to configure a connection. If a connection is already configured, Viva Goals lets the user proceed to set up the data link.
+1. If a Tableau connection isn't already configured, Viva Goals prompts the user to configure a connection. If a connection is already configured, Viva Goals prompts the user to set up the data link.
 
 1. In the dialog that appears, follow the steps to set up the Tableau data link integration. Select **Workbook**, **View** (Dashboards or Standalone Worksheets), and your **KPI** from the list of measures/dimensions available on the selected **View**.  
   
    :::image type="content" source="../media/goals/7/tableau-connection-details.png" alt-text="Screenshot shows where you specify the table workbook, view, and measure for your new Tableau connection." lightbox="../media/goals/7/tableau-connection-details.png":::
 
-   If there are multiple instances for the KPI value, for example, you have the Sales Goal for all your sales team members as part of the Tableau View, you can choose to apply a sum/average/count on the set of values (or) filter out by a particular person or any available filter field.  
+   If there are multiple instances for the KPI value, for example, you have the sales goal for all your sales team members as part of the Tableau View, you can choose to apply a sum/average/count on the set of values (or) filter out by a particular person or any available filter field.  
 
    Viva Goals displays the selected value for your reference before you save the data link set up.
 
 > [!NOTE]
-> Based on Tableau REST API limitations, Viva Goals currently has visibility only into published workbooks and views. If any worksheets already part of a workbook are hidden, they will not be displayed. Unhide all worksheets from which your team would like to integrate KPIs before you publish Tableau dashboards.
+> Based on Tableau REST API limitations, Viva Goals currently has visibility only into published workbooks and views. If any worksheets already part of a workbook are hidden, they will not be displayed. Unhide all worksheets from which your team would like to integrate KPIs before you publish the Tableau dashboards.
   

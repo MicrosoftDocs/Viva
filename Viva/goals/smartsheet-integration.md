@@ -21,7 +21,7 @@ description: "Learn how to work smarter by integrating Smartsheet with Viva Goal
 
 # Smartsheet integration
 
-The Viva Goals Smartsheet integration lets you link objectives and key results (OKRs) to Smartsheet cells for real-time updates of your progress. For example, say you have a sales sheet used to track revenue. When you  implement Smartsheet integration, you can save yourself the hassle of going back and forth between your sheets and Viva Goals to update your progress. Viva Goals will sync the values for you, saving time while keeping your OKRs current.
+The Viva Goals Smartsheet integration lets you link objectives and key results (OKRs) to Smartsheet cells for real-time progress updates. For example, say you use a sales sheet to track revenue. With Smartsheet integration, you can save yourself the hassle of going back and forth between your sheets and Viva Goals to update your progress. Viva Goals will sync the values for you, saving time while keeping your OKRs current.
 
 ## Setup
 
@@ -41,10 +41,10 @@ The Viva Goals Smartsheet integration lets you link objectives and key results (
     
     :::image type="content" source="../media/goals/9/smartsheet-configure-new-connection.png" alt-text="Screenshot shows where you name your new Smartsheet connection." lightbox="../media/goals/9/smartsheet-configure-new-connection.png":::
 
-    Viva Goals allows you to connect with multiple Smartsheet accounts. Select **New connection** to add another instance. You use names to differentiate connections. The names are displayed to members when they link their OKRs to Smartsheet cells.
+    Viva Goals lets you connect with multiple Smartsheet accounts. Select **New connection** to add another instance. You use names to differentiate connections. The names are displayed to users when they link their OKRs to Smartsheet cells.
 
     > [!NOTE]
-    > All connections are publicly available for use by everyone in the organization.
+    > All connections are publicly available to everyone in the organization.
 
     You can disable the integration at any time from the **Change** dropdown.
     
@@ -66,5 +66,3 @@ Now that the integration is enabled, your team can link a Smartsheet cell with a
     :::image type="content" source="../media/goals/9/smartsheet-connection-details.png" alt-text="Screenshot shows where you identify the worksheet, column, and row to link your metric with." lightbox="../media/goals/9/smartsheet-connection-details.png":::
 
 3. Select **Next** to finish and save your OKR. You should now see an icon next to the OKR. The OKR will sync automatically every hour. To refresh it manually, select **refresh**.
-
-

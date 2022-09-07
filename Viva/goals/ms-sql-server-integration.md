@@ -22,9 +22,9 @@ description: "Keep track of your OKR progress by automating key updates from you
 
 ## About MS SQL integration
 
-Viva Goals integration with Microsoft SQL Server lets you link your OKRs in Viva Goals to a server database in Microsoft SQL Server and provides automatic, real-time updates on your objectives. 
+Viva Goals integration with Microsoft SQL Server lets you link your OKRs in Viva Goals to a server database in Microsoft SQL Server to provide automatic, real-time updates on your objectives. 
 
-For example, if you have an objective to increase visits and the time spent in your app by 60 percent, directly link this objective with the relevant data in SQL Server. Whenever there's a change in the dataset and the database is updated, this data is automatically synced with Viva Goals every hour, and the OKR status updated.
+For example, if you have an objective to increase visits and the time spent in your app by 60 percent, link this objective with the relevant data in SQL Server. Whenever there's a change in the dataset and the database is updated, this data is automatically synced with Viva Goals every hour, and the OKR status updated.
 
 All users and admins have access to this integration. Admins also have permissions to manage the integration from the admin dashboard.
 
@@ -34,7 +34,7 @@ All users and admins have access to this integration. Admins also have permissio
 
     :::image type="content" source="../media/goals/12/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/12/viva-goals-integrations-page.png":::
 
-2. In the **Integrations** section, go to **MS SQL Server** and then select **Enable** if this is the first time, or select **Manage** if the integration was previously established.
+2. In the **Integrations** section, go to **MS SQL Server** and then select **Enable** if the integration will be new, or select **Manage** if the integration was previously established.
 
     :::image type="content" source="../media/goals/12/sqlserver-enable-button.png" alt-text="Screenshot shows where you enable Microsoft SQL Server in Viva Goals." lightbox="../media/goals/12/sqlserver-enable-button.png":::
 
@@ -49,13 +49,13 @@ All users and admins have access to this integration. Admins also have permissio
 
 ## How to edit an existing connection
 
-Admins can edit an existing connection's name and shared state that you created from the MS SQL Server integration view: 
+Admins can edit an existing connection's name and any shared state that you created from the SQL Server integration view: 
 
-Select the **Edit** icon next to the MS SQL connection.  In the pop-up dialog box that appears, you can edit the connection’s name and other fields and **select** or clear the **Share connection with all users** checkbox.
+Select the **Edit** icon next to the MS SQL connection. In the pop-up dialog box that appears, you can edit the connection name and other fields and **select** or clear the **Share connection with all users** checkbox.
 
 ## How to use the SQL Server integration
 
-after your integration is set up, you can measure your OKR progress by connecting your OKRs with a Microsoft SQL Server database.  
+After your integration is set up, you can measure your OKR progress by connecting your OKRs with a Microsoft SQL Server database.  
 
 1. Select **MS SQL Server** from the list of integrations available. If there are multiple connections listed, choose the connection that you want to use. 
 
@@ -71,6 +71,6 @@ after your integration is set up, you can measure your OKR progress by connectin
 
 ## How to disable the integration
 
-Microsoft SQL Server integrations can be disabled by an admin at any time. To disable the integration, go to **MS SQL** in the **Integrations** section. Select **Manage**. On the configurations page, select the **Change** dropdown, select **Disable** and then confirm. 
+Microsoft SQL Server integrations can be disabled by an admin at any time. To disable the integration, go to **MS SQL** in the **Integrations** section. Select **Manage**. On the configurations page, select the **Change** dropdown, select **Disable**, and then confirm. 
 
 :::image type="content" source="../media/goals/12/sqlserver-disable-button.png" alt-text="Screenshot shows how you disable SQL Server in Viva Goals." lightbox="../media/goals/12/sqlserver-disable-button.png":::

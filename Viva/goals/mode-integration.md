@@ -24,11 +24,11 @@ description: "Automate your OKR progress by connecting OKRs with Mode reports."
 
 Viva Goals Mode integration lets you link your OKRs to reports in Mode for automatic real-time updates on your objectives. 
 
-For example, say you have an objective to increase user adoption to a feature by 30 percent. You can directly link this objective to the relevant data in a Mode report. Whenever there's an update in the report, your OKR status gets automatically updated. 
+For example, say you have an objective to increase user adoption to a certain feature by 30 percent. You can directly link this objective to the relevant data in a Mode report. Whenever there's an update in the report, your OKR status gets automatically updated. 
 
-With Mode integration, Viva Goals continues to offer you flexibility and real-time clarity in your company’s OKR journey.
+With Mode integration, Viva Goals offers flexibility and real-time clarity in your company’s OKR journey.
 
-All users and admins have access to this integration. Admins also have permissions to manage the integration from the admin dashboard. 
+All users and admins have access to this integration. Admins have permissions to manage the integration from the admin dashboard. 
 
 ## How to connect Mode to your Viva Goals account
 
@@ -36,9 +36,9 @@ All users and admins have access to this integration. Admins also have permissio
 
     :::image type="content" source="../media/goals/11/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/11/viva-goals-integrations-page.png":::
 
-2. In the integrations section, go to **Mode** and then select **Manage**.
+2. In the integrations section, go to **Mode** and select **Manage**.
 
-    :::image type="content" source="../media/goals/11/mode-manage-button.png" alt-text="Screenshot shows where to select Mange for Mode in Viva Goals." lightbox="../media/goals/11/mode-manage-button.png":::
+    :::image type="content" source="../media/goals/11/mode-manage-button.png" alt-text="Screenshot shows where to select Range for Mode in Viva Goals." lightbox="../media/goals/11/mode-manage-button.png":::
 
 3. Select **New Connection**. In the pop-up dialog, sign in to your Mode account. 
 
@@ -54,7 +54,7 @@ All users and admins have access to this integration. Admins also have permissio
 
 3. After you have your Mode workspace ID and API token, add the token to the connection page in Viva Goals. 
 
-4. Name your connection, add your **organization name**, which is your Mode Workspace ID and **token**, which is your Mode API token), and then select **Next** to complete new account setup. 
+4. Name your connection, add your **organization name**, which is your Mode Workspace ID, and **token**, which is your Mode API token). Then select **Next** to complete new account setup. 
 
 ## How to edit an existing Mode connection
 
@@ -62,7 +62,7 @@ Admins can edit an existing Mode connection, including the integration’s name 
 
 1. Start in the **Integrations** section in the Admin Dashboard and select **Mode**. 
 
-2. Select the **Edit** icon next to the Mode connection. In the dialog box that appears, you can edit the connection’s name, token, organization domain, password and select or clear the **Share connection with all users** checkbox.
+2. Select the **Edit** icon next to the Mode connection. In the dialog box that appears, you can edit the connection's name, token, organization domain, and password and select or clear the **Share connection with all users** checkbox.
 
 ## How to use Mode integration
 
@@ -76,16 +76,16 @@ After Mode integration is set up, connect your OKRs in Viva Goals with a corresp
 
     :::image type="content" source="../media/goals/11/mode-connection-details.png" alt-text="Screenshot show where you add a new Mode connection to OKRs in Viva goals." lightbox="../media/goals/11/mode-connection-details.png":::
 
-3. Select **Next** to finish and save your OKR. You’ll now see the Mode icon next to the OKR's progress indicator, which means Viva Goals will automatically measure the progress based on the updates in the corresponding report in Mode. 
+3. Select **Next** to finish and save your OKR. You'll now see the Mode icon next to the OKR's progress indicator, which means Viva Goals will automatically measure the progress based on the updates in the corresponding report in Mode. 
 
     > [!NOTE]
-    > Viva Goals will sync data from Mode at every one-hour interval. You can also configure a scheduler in Mode to make sure Viva Goals syncs the latest data from your Mode Report.  
+    > Viva Goals will sync data from Mode every hour. You can also configure a scheduler in Mode to make sure Viva Goals syncs the latest data from your Mode Report.  
 
 ## How to disable Mode integration
 
-An admin can disable Mode integration at any time. To 
+An admin can disable Mode integration at any time: 
 
-1. Go to **Mode** in the Integrations section and select **Manage**. 
-2. On the Mode Configurations page, select the **Change** dropdown, select **Disable** and then confirm the action.
+1. Go to **Mode** in the integrations section and select **Manage**. 
+2. On the Mode Configurations page, select the **Change** dropdown, select **Disable**, and then confirm the action.
 
     :::image type="content" source="../media/goals/11/mode-disable-button.png" alt-text="Screenshot shows how to disable Mode in Viva Goals." lightbox="../media/goals/11/mode-disable-button.png":::
