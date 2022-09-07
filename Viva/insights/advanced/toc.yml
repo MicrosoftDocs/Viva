@@ -59,6 +59,8 @@ items:
           href: ./analyst/templates/hybrid-workforce-experience.md
         - name: Manager effectiveness
           href: ./analyst/templates/manager-effectiveness.md
+        - name: Meeting effectiveness
+          href: ./analyst/templates/meeting-effectiveness.md  
         - name: Ways of working
           href: ./analyst/templates/ways-of-working.md            
         - name: Wellbeing - balance and flexibility

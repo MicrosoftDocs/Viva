@@ -63,6 +63,8 @@ items:
       href: review-dashboard-templates.md
     - name: Approval Workflows
       href: approval-workflows.md
+    - name: Define KR Types in Viva Goals
+      href: kr-types.md
     - name: Tags
       href: tags.md
     - name: Explorer
