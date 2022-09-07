@@ -35,7 +35,6 @@ The public preview is available globally except in the following countries:
 - Indonesia
 - Iran
 - Ivory Coast
-- Curaí_ao
 - North Korea
 - Palestine
 - Russia
