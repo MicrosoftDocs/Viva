@@ -58,7 +58,7 @@ For a successful pilot experience, give your participants clearly defined tasks 
 
 Ensure you have an open feedback channel to track progress and measure outcomes, such as:
 
-* Use a predefined survey as an easy way to capture and assess pilot results. You can use the [Sample feedback surveys](https://download.microsoft.com/download/a/9/f/a9fea3f4-77a9-4465-a6eb-c021087c3b7f/fedback-survey.docx) to get started.
+* Use a predefined survey as an easy way to capture and assess pilot results. You can use the [Sample feedback surveys](https://download.microsoft.com/download/a/9/f/a9fea3f4-77a9-4465-a6eb-c021087c3b7f/feedback-survey.docx) to get started.
 * Create a Team or Channel for pilot participants to join and share their experiences.
 * Create a Security group where pilot users can ask questions and submit feedback.
 
