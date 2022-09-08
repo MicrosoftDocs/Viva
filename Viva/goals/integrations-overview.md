@@ -72,7 +72,7 @@ The following is a list of all the integrations available in Viva Goals today:
 
 • [Amazon RedShift](/viva/goals/amazon-redshift-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [Mode](/viva/goals/mode-integration)
 
-• [Asana](/viva/goals/asana-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [monday.com](/viva/goals/monday.com-integration)
+• [Asana](/viva/goals/asana-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [monday.com](/viva/goals/monday.com-integration)
 
 • [Azure DevOps](/viva/goals/azure-devops-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [MS SQL Server](/viva/goals/ms-sql-server-integration)
 
