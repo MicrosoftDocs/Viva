@@ -71,17 +71,29 @@ C. From the quick-view window, click on the **Integrations icon**  and select **
 The following is a list of all the integrations available in Viva Goals today:
 
 • [Amazon RedShift](/viva/goals/amazon-redshift-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [Mode](/viva/goals/mode-integration)
+
 • [Asana](/viva/goals/asana-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [monday.com](/viva/goals/monday.com-integration)
+
 • [Azure DevOps](/viva/goals/azure-devops-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [MS SQL Server](/viva/goals/ms-sql-server-integration)
+
 • [BigQuery](/viva/goals/bigquery-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [MySQL](/viva/goals/mysql-integration)
+
 • [Box](/viva/goals/box-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [MS Teams](/viva/goals/ms-teams-integration)
+
 • [Domo](/viva/goals/domo-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [Planview Projectplace](/viva/goals/planview-projectplace-integration)
+
 • [Excel Online](/viva/goals/excel-online-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [PostgreSQL](/viva/goals/postgresql-integration)
+
 • [Favro](/viva/goals/favro-generating-an-api-token)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [Salesforce](/viva/goals/salesforce-integration)
+
 • [GitHub](/viva/goals/github-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [Smartsheet](/viva/goals/smartsheet-integration)
+
 • [GitLab](/viva/goals/gitlab-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [Snowflake](/viva/goals/snowflake-integration)
+
 • [Hubspot](/viva/goals/hubspot-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [Tableau](/viva/goals/tableau-integration)
+
 • [Jira](/viva/goals/jira-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [Trello](/viva/goals/trello-integration)
+
 • [Looker](/viva/goals/looker-integration)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • [Zendesk](/viva/goals/zendesk-integration)
 
 ## How to disable an integration
