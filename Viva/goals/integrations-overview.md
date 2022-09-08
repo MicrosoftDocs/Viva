@@ -68,7 +68,7 @@ C. From the quick-view window, click on the **Integrations icon**  and select **
 
 ## Integrations supported in Viva Goals
 
-The following is a list of all the integrations available in Viva Goals today:
+The following is a list of all the integrations currently available in Viva Goals:
 
 • [Amazon RedShift](/viva/goals/amazon-redshift-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Mode](/viva/goals/mode-integration)
 
