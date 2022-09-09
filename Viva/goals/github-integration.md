@@ -47,17 +47,17 @@ Admins can follow these steps to enable the integration:
 
 After you enable the integration, the next step is to configure a GitHub connection.
 
-2. Select **New Connection**, and sign in to your GitHub account.
+1. Select **New Connection**, and sign in to your GitHub account.
     
     :::image type="content" source="../media/goals/10/github-new-connection-button.png" alt-text="Screenshot shows where you add a new GitHub connection in Viva Goals." lightbox="../media/goals/10/github-new-connection-button.png"::: 
 
-3. Provide a name for the connection.
+1. Provide a name for the connection.
     
     :::image type="content" source="../media/goals/10/github-configure-new-connection.png" alt-text="Screenshot shows where you enter a name for your new GitHub connection in Viva Goals." lightbox="../media/goals/10/github-configure-new-connection.png"::: 
 
-4. You have the option to share the connection with other users in the organization.
+1. You have the option to share the connection with other users in the organization.
 
-5. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
+1. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
 > [!NOTE]
 > Viva Goals lets you connect to multiple repositories. Select **New Connection** to fetch data from another repository. You differentiate these connections by name. The names will be displayed to other users when they link their OKRs with GitHub data.
