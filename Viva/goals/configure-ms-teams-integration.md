@@ -120,7 +120,7 @@ We'll show you how to preinstall the app for a specific group of users. If you w
       
       :::image type="content" source="../media/goals/5/activity-log.png" alt-text="Screenshot shows how to check the completion of policy application in Activity log." lightbox="../media/goals/5/activity-log.png":::
       
-    > When you see the timestamp in the **Completed on** column, the policy will work for all the users in the group.
+    When you see the timestamp in the **Completed on** column, the policy will work for all the users in the group.
 
     Now when a user who belongs to this group logs into Teams, the policy will kick in. For example, "Contoso" has "Abigail Jackson" as a member, as we can see in the Microsoft 365 admin.
       
