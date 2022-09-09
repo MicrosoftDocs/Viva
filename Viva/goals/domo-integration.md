@@ -68,8 +68,8 @@ After the connection is configurated, users can **Edit** their Viva Goals OKRs t
   
    :::image type="content" source="../media/goals/7/domo-new-connection-details.png" alt-text="Screenshot shows where you specify the KPI measurement type." lightbox="../media/goals/7/domo-new-connection-details.png":::
 
-> [!NOTE]
-> To obtain the DataSet-ID: Log in to your Domo instance and select the Dataset name mentioned under the card.
+   > [!NOTE]
+   > To obtain the DataSet-ID: Log in to your Domo instance and select the Dataset name mentioned under the card.
 
 5. Copy the 36-character DataSet-ID from the URL of the DataSet page.
 
