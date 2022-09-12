@@ -1,6 +1,6 @@
 ---
 
-title: My team in Viva Insights
+title: Teamwork habits in Viva Insights
 description: Learn about the Teamwork habits page in Microsoft Viva Insights app.
 author: lilyolason
 ms.author: v-lilyolason
@@ -102,7 +102,7 @@ Emailing and chatting during meetings can lead to different interpretations of d
 
 No matter your role, practicing good meeting habits helps you and your teammates communicate effectively and efficiently, discuss important points, and be on the same page.
 
-If you're a manager, you're a role model when it comes to collaboration habits.Team members tend to mimic their manager's behavior. [One study by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
+If you're a manager, you're a role model when it comes to collaboration habits. Team members tend to mimic their manager's behavior. [One study by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
 
 #### How team meetings habits are calculated
 
@@ -121,7 +121,7 @@ A *team meeting* is any scheduled meeting on your calendar that includes you and
 
 Some team members may prefer to do some of their work outside traditional 9-5 working hours, but others may struggle to mentally disconnect and recharge for the next day if they receive a late-night message from work.
 
-[Research by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) has shown that when managers work after hours, team members take that as a signal that they need to be 'on' too; in one study, every hour that people managers spent after hours translated to 20 minutes of additional direct report time spent after hours. 
+[Research by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) has shown that when managers work after hours, team members take that as a signal that they need to be "on" too; in one study, every hour that people managers spent after hours translated to 20 minutes of additional direct report time spent after hours. 
 
 #### How quiet-hours impact is calculated
 

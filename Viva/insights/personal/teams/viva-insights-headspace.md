@@ -25,17 +25,17 @@ Viva Insights has introduced a curated set of guided meditations and Focus music
 
 Anytime you want, you can start a guided meditation that's been designed for the current time of day:
 
-1. Open the **Home** page of Microsoft Viva Insights:
+1. Open the **Home** page of Microsoft Viva Insights.
 
    ![Screenshot that shows the Home page with Headspace.](images/viva-insights-home.png)
 
-2. To start the Headspace exercise, select the 'Play' button on the **Headspace** card:
+2. To start the Headspace exercise, select the **Play** button on the **Headspace** card.
 
    ![Screenshot that shows the Headspace card.](images/headspace-play.png)
 
 3. (Optional) Browse through a curated set of meditations that are designed to fit different scenarios within the flow of your day. To see your options, open the **Practice mindfulness** page by selecting **See more**.
 
-4. Under **Practice mindfulness**, select a meditation option in the **Guided meditations** area or a musical option in the **Focus music** area:
+4. Under **Practice mindfulness**, select a meditation option in the **Guided meditations** area or a musical option in the **Focus music** area.
 
    ![Screenshot that shows the Mindfulness option running.](images/headspace-home.png)
 
