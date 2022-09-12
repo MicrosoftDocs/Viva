@@ -139,10 +139,6 @@ Users can opt out individually from within their Viva Insights app settings. If 
 4. Under **Org Settings**, select **Viva Insights**.
 5. Select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the surveys, including all those who were receiving the surveys. However, individuals can explicitly opt-in again within their Viva Insights app.
 
-## Related topics
-
-[Microsoft Viva Insights overview](viva-teams-app.md)
-
 ## Premium access for licenses assigned before July 2021
 
 The following steps are only applicable to organizations who assigned licenses prior to July 2021. You need to confirm the following assignment options in Azure Active Directory for the Microsoft Viva Insights SKU:
