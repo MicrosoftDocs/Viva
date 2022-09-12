@@ -74,7 +74,7 @@ You can exclude data from specific domains or data that includes specific email 
 
 * In **Exclude domains**, you can enter one or more domains to exclude from analysis. Any email, meetings, calls, or instant messages that involve people included in these domains will be excluded from any queries.
 
-* In **Exclude email addresses**, you can enter one or more email addresses to exclude from analysis. Any email and meetings that have these email addresses (as either sender or recipient, and attendee or invitee) are now excluded from analysis. For this setting, you need to enter every email address for each alias that you want to exclude.
+* In **Exclude email addresses**, you can enter one or more email addresses to exclude from analysis. Any email, meetings, calls, or instant messages that have these email addresses (as either sender or recipient, and attendee or invitee) are now excluded from analysis. For this setting, you need to enter every email address for each alias that you want to exclude.
 
   >[!Important]
   >Be sure to ask your Microsoft 365 admin to not assign licenses to any excluded email addresses.
