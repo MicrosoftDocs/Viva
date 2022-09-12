@@ -11,7 +11,7 @@ ms.collection:
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
-manager: helayne
+manager: anirudhbajaj
 audience: Admin
 
 ---
