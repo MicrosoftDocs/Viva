@@ -47,7 +47,7 @@ You can opt in or out of getting feedback about your meetings.
 
 ## Admin controls
 
-To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](./viva-teams-app-admin-tasks.md).
+To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](./viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys).
 
 ## Related topics
 
