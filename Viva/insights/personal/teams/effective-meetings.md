@@ -2,14 +2,14 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Effective meetings in Viva Insights  
 description: Effective meetings in Microsoft Viva Insights
-author: madehmer
+author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 localization_priority: normal 
 ms.collection: viva-insights-personal
 ms.service: viva
 ms.subservice: viva-insights
-manager: helayne
+manager: anirudhbajaj
 audience: user
 
 ---
