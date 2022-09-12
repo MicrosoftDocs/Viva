@@ -21,9 +21,9 @@ description: Learn how to configure other content providers as a learning conten
 
 A growing set of learning content providers is available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
 
-Some learning sources are enabled by default and available without a premium Viva Learning license. These learning sources include:
+Some learning sources are enabled by default and available without a Viva Suite or Viva Learning license. These learning sources include:
 
-- LinkedIn Learning select 125 courses
+- LinkedIn Learning select 125 courses or full LinkedIn Learning course catalog with a LinkedIn Learning Enterprise subscription
 - Microsoft Learn
 - Microsoft 365 Training
 
@@ -99,17 +99,7 @@ The step-by-step content ingestion process is described below.
 
 ## Content ingestion errors
 
-If you experience any errors in your Microsoft 365 admin center during content ingestion, refer to the table below for next steps. This list may contain more error codes in the future.
-
->[!NOTE]
->The maximum number of active learning items supported in a tenant is 500,000 records.
-The maximum number of total learning items supported in a tenant is 1 million records.
-
-|Content provider |Error code |Error code description |
-|:----------------|:----------|:----------------------|
-|All providers |USR_ERROR_INVALID_RESOURCE_CREDENTIALS |The authentication credentials you provided are Invalid. Make sure you enter the correct credentials. You can contact Microsoft customer support for more details. |
-|All providers |USR_ERROR_ACCESS_DENIED |Access denied by partner. Confirm that the credentials you entered are correct or contact the content provider's support team. |
-|All providers |Changes not saved | Make sure that you've entered the correct configuration details. |
+[Learn how to address content ingestion errors from third-party providers](provider-content-ingestion-errors.md).
 
 ## Content consumption for end users
 
