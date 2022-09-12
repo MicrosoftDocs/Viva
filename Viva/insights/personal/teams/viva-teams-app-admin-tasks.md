@@ -83,8 +83,8 @@ To enable or disable meeting effectiveness surveys for a specific user, use the 
 Set-VivaInsightsSettings -Identity roy@contoso.onmicrosoft.com -Enabled $false -Feature MeetingEffectivenessSurvey
 ```
 
-* If you set the Enabled parameter to **$false**, the meeting effectiveness surveys will be **Off** for that user. The user will not be able to override this setting or opt-in to the meeting effectiveness surveys.
-* If you set the Enabled parameter to **$true**, the meeting effectiveness surveys will be **On** for that user. Users can then opt-out from Viva Insights. If no action occurs, this setting applies by default.
+* If you set the Enabled parameter to **$false**, the meeting effectiveness surveys will be **Off** for that user. The user will not be able to override this setting or opt in to the meeting effectiveness surveys.
+* If you set the Enabled parameter to **$true**, the meeting effectiveness surveys will be **On** for that user. Users can then opt out from Viva Insights. If no action occurs, this setting applies by default.
 
 >[!Note]
 >When Enabled is set as $true, people who had previously opted out will continue to be opted out and will not receive any surveys until they opt back in through their Viva Insights app.
@@ -141,7 +141,7 @@ Users can opt out individually from within their Viva Insights app settings. If 
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
 3. In the left pane, expand **Settings**, and then select **Org Settings**.
 4. Under **Org Settings**, select **Viva Insights**.
-5. Select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the surveys, including all those who were receiving the surveys. However, individuals can explicitly opt-in again within their Viva Insights app.
+5. Select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the surveys, including all those who were receiving the surveys. However, individuals can explicitly opt in again within their Viva Insights app.
 
 ## Premium access for licenses assigned before July 2021
 
