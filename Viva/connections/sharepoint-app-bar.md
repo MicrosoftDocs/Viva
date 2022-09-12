@@ -45,8 +45,7 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > -	When global navigation is disabled or not configured, the home icon links to the SharePoint start page.
 > -	Specific SharePoint app bar tabs cannot be disabled. 
 > -	The SharePoint app bar cannot be disabled on specific sites. 
-> -	The SharePoint app bar is not available on classic SharePoint sites today, however soon administrators will be able to add it to classic sites manually. 
-> -	The SharePoint app bar may impact current page customizations, specifically those that appear on the left side. 
+> -	The SharePoint app bar is not available on classic SharePoint sites. 
 > - The SharePoint app bar will not display in SharePoint for external or guest users outside of your organization.
 > - In GCC High and DoD environments users may experience a degraded experience for the My sites panel in the app bar.
 > - Some additional restrictions may apply to tenants within the GCC High and DoD environments when using My News in the SharePoint app bar.
