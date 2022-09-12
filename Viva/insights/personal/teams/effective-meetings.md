@@ -16,7 +16,7 @@ audience: user
 
 # Effective meetings
 
-*This experience is set to go live in October 2022.*
+*This experience is part of a rolling release set to complete in October 2022*
 
 ## Meeting effectiveness surveys
 

@@ -71,6 +71,10 @@ As the admin, you can use the [Exchange Online PowerShell V2](/powershell/module
 >[!Note]
 >The following user-level configuration can only be modified when users have P1 licenses enabled for Viva Insights.
 
+#### Check a user's access
+
+To check whether a user has access to features in Microsoft Viva Insights in Microsoft Teams, follow the directions in [Get-VivaInsightsSettings](/powershell/module/exchange/get-vivainsightssettings).
+
 #### Set access for one user
 
 To enable or disable meeting effectiveness surveys for a specific user, use the Exchange Online PowerShell V2 module and the following command line, where you replace **roy@contoso.com** with your applicable username and organization:
