@@ -20,7 +20,7 @@ audience: user
 
 ## Meeting effectiveness surveys
 
-The journey to transforming an organization’s meeting culture starts with measuring how people are doing in their meetings. Microsoft Viva Insights can help you you improve your meeting effectiveness, build a feedback culture within your team and company by using meeting effectiveness surveys.
+The journey to transforming an organization’s meeting culture starts with measuring how people are doing in their meetings. Microsoft Viva Insights can help you improve your meeting effectiveness, build a feedback culture within your team and company by using meeting effectiveness surveys.
 
 If you're opted in, Viva Insights will automatically send meeting participants a survey asking for feedback about your meetings. This feedback is aggregated into a meeting rating in **Effective meetings**. You’ll also see personalized insights about what you’re doing well and opportunities to make any improvements.
 
