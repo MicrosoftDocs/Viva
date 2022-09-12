@@ -26,7 +26,7 @@ If you're opted in, Viva Insights will automatically send meeting participants a
 
 This feedback is designed to help you improve your individual meeting habits over time, as well as your team and company’s collective meeting habits.
 
-![Screenshot that shows the effective meetings page.](images/effective-meetings-landing.png)
+:::Image type ="content" source="images/effective-meetings-landing.png" alt-text="Screenshot that shows the effective meetings page." lightbox="images/effective-meetings-landing.png":::
 
 ## Privacy by design
 
