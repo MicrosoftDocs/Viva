@@ -236,14 +236,31 @@ Selecting this card shows the following options, with which you can book focus t
 
 ## Calendar color settings
 
-As we noted above, Outlook doesn't automatically show focus time as a specific color in the calendar. If you want to personalize your focus time to show as a specific color, you can do that by using conditional formatting in the desktop app. Follow the steps below to create a new conditional formatting rule.
+As noted above, Outlook doesn't automatically show focus time as a specific color in the calendar. If you want to personalize your focus time to show as a specific color, you can do that by using conditional formatting in the desktop app. Follow the steps below to create a new conditional formatting rule.
 
 In the Outlook desktop app:
 
 1. From the calendar view, select the **View** tab, **> Current View > View Settings**.
+
+    ![Screenshot that shows navigating the View Settings option.](../../Images/mya/use/focus-plan-view-settings-rule.png)
+
 1. Select the **Conditional formatting** button.
-1. Select the **Add** button to create a new rule. 
-1. In the **Conditional Formatting** dialog box, give your rule a name, then select the color you want focus time blocks to appear as.
-1. Select the **Condition** button.
+
+    ![Screenshot that shows the Conditional Formatting button highlighted in the Advanced View Settings dialog box.](../../Images/mya/use/focus-plan-conditional-formatting.png)
+
+1. Select the **Add** button to create a new rule.
+
+    ![Screenshot that shows the Add button highlighted in the Conditional Formatting dialog box.](../../Images/mya/use/focus-plan-add-rule.png)
+
+1. In the **Conditional Formatting** dialog box:
+    1. Give your rule a name.
+    1. Select the color you want focus time blocks to appear as.
+    1. Select the **Condition** button.
+
+    ![Screenshot that shows Name, Color, and Condition highlighted in the Conditional Formatting dialog box.](../../Images/mya/use/focus-plan-assign-name.png)
+
 1. In the **Filter** dialog box, add "Focus time" as your search term. Leave the **In** field set to "subject field only."
+
+    ![Screenshot that shows the search term field highlighted in the Filter dialog box.](../../Images/mya/use/focus-plan-set-term.png) 
+
 1. Select the **OK** button on each of the three dialog boxes. Your focus time blocks should now appear as the color you set in step 4.
