@@ -110,7 +110,11 @@ The **Plan ahead** area helps you plan focus time for the upcoming days with the
 
 ### Focus time booked
 
-For the current week and the following week, this area shows how many days and which days have had focus time booked. In the preceding example screenshot, the three days with focus time booked are shown in green.
+For the current week and the following week, this area shows how many days and which days have had focus time booked. In the preceding example screenshot of the dashboard, the three days with focus time booked are shown in green.
+
+>[!Note]
+>Outlook no longer automatically shows focus time as green, or any other color, on the calendar. You can set a specific color on your calendar for focus time by following the steps in [Calendar color settings](#calendar-color-settings).
+
 
 ### Needs focus time
 
@@ -230,7 +234,16 @@ Selecting this card shows the following options, with which you can book focus t
 
 ![Book focus time inline.](../../Images/mya/use/book-focus-time-nudge.png)
 
-<!--
-Note that this content is related to this topic: 
-\WorkplaceAnalytics\Tutorials\solutionsv2-participants.md
--->
+## Calendar color settings
+
+As we noted above, Outlook doesn't automatically show focus time as a specific color in the calendar. If you want to personalize your focus time to show as a specific color, you can do that by using conditional formatting in the desktop app. Follow the steps below to create a new conditional formatting rule.
+
+In the Outlook desktop app:
+
+1. From the calendar view, select the **View** tab, **> Current View > View Settings**.
+1. Select the **Conditional formatting** button.
+1. Select the **Add** button to create a new rule. 
+1. In the **Conditional Formatting** dialog box, give your rule a name, then select the color you want.
+1. Select the **Condition** button.
+1. In the **Filter** dialog box, add "Focus time" as your search term. Leave **In** set to "subject field only."
+1. Select the **OK** button on each of the three dialog boxes. Your focus time blocks should now appear as the color you set in step 4.
