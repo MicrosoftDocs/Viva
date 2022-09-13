@@ -16,14 +16,16 @@ items:
               items:
                 - name: Overview
                   href: teams/viva-insights-home.md
+                - name: Effective meetings
+                  href: /teams/effective-meetings.md  
+                - name: Headspace
+                  href: teams/viva-insights-headspace.md                     
                 - name: Reflect
                   href: teams/viva-insights-reflect.md
                 - name: Send praise
                   href: teams/viva-insights-praise.md
                 - name: Virtual commute
-                  href: teams/viva-insights-virtual-commute.md
-                - name: Headspace
-                  href: teams/viva-insights-headspace.md                     
+                  href: teams/viva-insights-virtual-commute.md                  
             - name: Stay connected
               href: teams/viva-insights-stay-connected.md
             - name: Protect time
