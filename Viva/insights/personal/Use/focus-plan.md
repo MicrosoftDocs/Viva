@@ -243,7 +243,7 @@ In the Outlook desktop app:
 1. From the calendar view, select the **View** tab, **> Current View > View Settings**.
 1. Select the **Conditional formatting** button.
 1. Select the **Add** button to create a new rule. 
-1. In the **Conditional Formatting** dialog box, give your rule a name, then select the color you want.
+1. In the **Conditional Formatting** dialog box, give your rule a name, then select the color you want focus time blocks to appear as.
 1. Select the **Condition** button.
-1. In the **Filter** dialog box, add "Focus time" as your search term. Leave **In** set to "subject field only."
+1. In the **Filter** dialog box, add "Focus time" as your search term. Leave the **In** field set to "subject field only."
 1. Select the **OK** button on each of the three dialog boxes. Your focus time blocks should now appear as the color you set in step 4.
