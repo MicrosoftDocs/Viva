@@ -21,7 +21,7 @@ You can use this feature in the Microsoft Viva Insights app to protect your time
 * [Configure quiet time](#configure-quiet-time) to disconnect from work and recharge.
 * [Start a virtual commute](viva-insights-virtual-commute.md) to end your day.
 
-:::image type="content" source="images/protect-time-small.png" alt-text="Screenshot that shows the Protect time page." lightbox="images/protect-time.png":::
+:::image type="content" source="images/protect-time-small.png" alt-text="Screenshot that shows the Protect time page." lightbox="images/protect-time1.png":::
 
 ## Schedule focus time
 
