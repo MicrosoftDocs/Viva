@@ -240,7 +240,7 @@ As noted above, Outlook doesn't automatically show focus time as a specific colo
 
 In the Outlook desktop app:
 
-1. From the calendar view, select the **View** tab, **> Current View > View Settings**.
+1. From the calendar view, select the **View** tab **> Current View > View Settings**.
 
     ![Screenshot that shows navigating the View Settings option.](../../Images/mya/use/focus-plan-view-settings-rule.png)
 
@@ -259,7 +259,7 @@ In the Outlook desktop app:
 
     ![Screenshot that shows Name, Color, and Condition highlighted in the Conditional Formatting dialog box.](../../Images/mya/use/focus-plan-assign-name.png)
 
-1. In the **Filter** dialog box, add "Focus time" as your search term. Leave the **In** field set to "subject field only."
+1. In the **Filter** dialog box, add "Focus time" as your search term. Leave the **In:** field set to "subject field only."
 
     ![Screenshot that shows the search term field highlighted in the Filter dialog box.](../../Images/mya/use/focus-plan-set-term.png) 
 
