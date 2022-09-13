@@ -84,10 +84,9 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     
         Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
 
-        * Power BI queries are set to **Group by Week**. Do not change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. You can't edit this field.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
 ![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-setup.png)
-
 
 4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
 ![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-predefined-metrics1.png)
@@ -140,16 +139,6 @@ After the **Ways of working** report is set up and populated with Viva Insights 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
 ![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-report-settings.png)
-
-### Employees with low collaboration
-
-By default, this report excludes employees who spend a weekly average of less than five hours in meetings, email, instant messages, and calls because they are likely non-knowledge workers or they do not use Outlook or Teams.
-
-The report also excludes unusually low collaboration weeks based on individual collaboration patterns. These low-collaboration weeks usually occur when employees are taking time off from work.
-
-If you want to include employees with low collaboration in your analysis, select the **Clear** filter (eraser) icon to clear the **IsLikelyKnowledgeWorker** and **IsLikelyHoliday** filters in the Power BI **Filters** pane.
-
-<!---insert filters pane screenshot-->
 
 ## About this report
 

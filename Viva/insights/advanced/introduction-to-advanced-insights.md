@@ -28,7 +28,7 @@ audience: Admin
 >
 >*The link to documentation for the previous platform can be accessed in the legacy application.*
 
-Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets works done—for example, the ways managers collaborate with their direct reports, such as whether employees maintain work-life balance, how to protect employee wellbeing,and the ways hybrid work affects the employee experience. 
+Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets works done—for example, the ways managers collaborate with their direct reports, such as whether employees maintain work-life balance, how to protect employee wellbeing, and the ways hybrid work affects the employee experience. 
 
 Viva Insights includes the [advanced insights app](https://go.microsoft.com/fwlink/?linkid=2201482), which has advanced analysis tools for deep-diving into data that's shown both within Microsoft Teams and in the app. The advanced analysis tools available in the app include different ways of analyzing and reporting custom analysis to your company’s business leaders.
 
@@ -62,7 +62,7 @@ For more information about the **Query results** page, refer to [Access query re
 
 #### Metric rules
 
-There is one default metric rule for this release of Viva Insights, called **Meeting exclusions**. This rule determines which meetings are excluded from collaboration metrics in Power BI templates, custom queries, and the Viva Insights app in Teams.
+There is one default metric rule for this release of Viva Insights, called **Meeting exclusions**. This rule determines which meetings are excluded from collaboration metrics in Power BI templates, custom queries, and the Viva Insights app in Teams and on the web.
 
 While you can’t customize any metric rules in this release, you’ll be able to soon. For more information about metric rules in Viva Insights, refer to [Metric rules](./analyst/metric-rules.md).
 
@@ -96,7 +96,7 @@ In the **Organizational data** page, you as an admin can check the quality of da
 
 #### Manager settings
 
-On the **[Manager settings](./setup-maint/manager-settings.md)** page, you can enable **Group insights** and control who can see them in the Viva Insights app in Teams. **Group insights** shows managers aggregated wellbeing and productivity insights about their direct and indirect reports based on organizational hierarchy.
+On the **[Manager settings](./setup-maint/manager-settings.md)** page, you can enable **Group insights** and control who can see them in the Viva Insights app in Teams and on the web. **Group insights** shows managers aggregated wellbeing and productivity insights about their direct and indirect reports based on organizational hierarchy.
 
 #### Privacy settings
 

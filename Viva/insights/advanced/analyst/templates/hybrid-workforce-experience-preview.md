@@ -80,7 +80,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
         In this pane:
     
-        * Power BI queries are set to **Group by Week**. Don't change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. You can't edit this field.
          * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
 
 4. Under **Predefined template metrics**, leave prepopulated metrics as they appear.  
@@ -128,7 +128,7 @@ After the **Hybrid workforce experience report (preview)** is set up and populat
 
 |Attribute value| Prompt|
 |---------------|-------|
-|Mostly onsite  | Select the number of average % of onsite work days that best describe the work mode of employees that work mostly onsite (that is, from the company’s main worksite). |
+|Mostly onsite  | Select the average % of onsite work days that best describe the work mode of employees that work mostly onsite (that is, from the company’s main worksite). |
 |Hybrid | Select the  average % of onsite work days that best describe the work mode of employees that work onsite some days during the week and remote on others.|
 |Mostly remote| Select the  average % of onsite work days that best describe the work mode of employees that work mostly remote (that is, from home or some other location outside the company’s main worksite).|
 |Individual contributors| Select the attribute values that identify employees as individual contributors who do not manage people within your organization.|

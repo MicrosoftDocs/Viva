@@ -1,12 +1,13 @@
 ---
 title: Supported languages in Viva Sales
 description: Lean which languages are supported in Viva Sales
-ms.date: 08/01/2022
+ms.date: 09/07/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
+ms.localizationpriority: medium
 ---
 
 # Supported languages in Viva Sales
@@ -26,4 +27,5 @@ Conversation intelligence is available in the following languages.
 |     Spanish                       |     Hebrew        |     Danish                   |
 |     Swedish                       |     Finnish       |     Norwegian                |
 |     Arabic                    |                   |                              |
+
 

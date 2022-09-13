@@ -1,7 +1,7 @@
 ---
 title: Overview of Microsoft Viva Learning
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: shirana
 ms.date: 11/02/2021

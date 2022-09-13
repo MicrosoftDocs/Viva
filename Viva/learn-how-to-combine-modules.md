@@ -28,6 +28,9 @@ Microsoft Viva modules can be combined to create powerful employee experiences f
 - Wellness and work-life balance
 - Knowledge sharing and management
 
+>[!NOTE] 
+> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
+
 ## Training and onboarding
 
 ![Image of Viva Connections, Viva Learning, and Viva Topics combined together.](./media/training-combo.png)
@@ -72,8 +75,8 @@ Help your employees manage their time effectively and create a healthy workplace
 Understand your organization’s workplace habits and how your team spends their time.
 
 1. Set up [Viva Insights](insights/introduction.md).
-2. Enable [leader insights](insights/Use/viva-insights-my-org.md) to help business leaders understand the work habits of their organization as a whole.
-3. Enable [manager insights](insights/Use/myteam.md) for managers to learn more about their teams’ unique habits and understand how their habits can set a good example.
+2. Enable [Organization trends](insights/org-team-insights/org-trends.md) to help business leaders understand the work habits of their organization as a whole.
+3. Enable [Teamwork habits](insights/org-team-insights/teamwork-habits.md) for employees to learn more about their teams’ unique habits and understand how their habits can set a good example.
 4. Enable [personal insights](insights/personal/introduction.md) for employees to learn how to make the most of their time at work. Viva Insights helps employees be more proactive in protecting their schedule by setting up a [focus plan](insights/personal/Use/focus-plan.md) and a [virtual commute](insights/personal/teams/viva-insights-virtual-commute.md). Employees can also access mindfulness content from [Headspace](insights/personal/teams/viva-insights-headspace.md) to help them reduce stress and burnout.
 
 ### Module 2: Viva Connections

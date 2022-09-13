@@ -1,12 +1,13 @@
 ---
 title: Introduction to Microsoft Viva Sales
 description: Get to know Viva Sales
-ms.date: 08/01/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
+ms.localizationpriority: medium
 ---
 
 # Introduction to Microsoft Viva Sales
@@ -19,7 +20,14 @@ Microsoft Viva Sales is a seller experience application that uses Microsoft 365 
 
 ## License requirements
 
-While in public preview, Viva Sales is available at no additional charge to organizations that use Microsoft 365 and Teams. You must have valid credentials for Dynamics 365 or Salesforce CRM to try out the full public preview experience. When Viva Sales is made generally available, you'll need to purchase licenses to use it.
+While in public preview, Viva Sales is available at no additional charge to organizations that use Microsoft 365 and Teams. You must have valid credentials for Dynamics 365 or Salesforce&reg; CRM to try out the full public preview experience. When Viva Sales is made generally available, you'll need a valid license to use it.
+
+## Role requirements
+
+If you are using Dynamics 365 Sales as your CRM system, users must be assigned either Sales Manager or Salesperson security role to use Viva Sales. 
+
+> [!NOTE]
+> If you've assigned a security role to a user, ask the user to sign out of Viva Sales and then sign in again for the security role changes to be reflected appropriately. 
 
 ## Region availability
 
@@ -34,7 +42,6 @@ The public preview is available globally except in the following countries:
 - Indonesia
 - Iran
 - Ivory Coast
-- Curaí_ao
 - North Korea
 - Palestine
 - Russia

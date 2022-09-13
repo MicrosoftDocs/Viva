@@ -49,6 +49,10 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
   * **SupervisorIndicator**, an attribute indicating whether someone is a manager.
   * **HireDate**, an attribute indicating the person’s hire date is required to be able to load the **New hire onboarding insights**. Without this attribute, however, the rest of the report will still load.
 
+For further details on organizational data preparation and upload, download our [step-by-step guide](https://go.microsoft.com/fwlink/?linkid=2205161).
+
+You can add new attributes to your organizational data at any time. For more details on how to add new data for existing employees, review the documentation on [subsequent uploads](../../admin/upload-org-data-subsequent.md).
+
 ## Report setup
 
 ### Run query
@@ -74,7 +78,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
         In this pane:
     
-        * Power BI queries are set to **Group by Week**. Don't change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. You can't edit this field.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
 ![Hybrid workforce experience query setup](/viva/insights/advanced/images/hwfe-ga-pbi-setup.png)
 
