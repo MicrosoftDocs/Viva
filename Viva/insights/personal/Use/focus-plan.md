@@ -112,10 +112,6 @@ The **Plan ahead** area helps you plan focus time for the upcoming days with the
 
 For the current week and the following week, this area shows how many days and which days have had focus time booked. In the preceding example screenshot of the dashboard, the three days with focus time booked are shown in green.
 
->[!Note]
->Outlook no longer automatically shows focus time as green, or any other color, on the calendar. You can set a specific color on your calendar for focus time by following the steps in [Calendar color settings](#calendar-color-settings).
-
-
 ### Needs focus time
 
 This section shows upcoming days that have no focus time booked but still have open time available. Select **Book now** to have Viva Insights select and book this time.
@@ -236,9 +232,10 @@ Selecting this card shows the following options, with which you can book focus t
 
 ## Calendar color settings
 
-As noted above, Outlook doesn't automatically show focus time as a specific color in the calendar. If you want to personalize your focus time to show as a specific color, you can do that by using conditional formatting in the desktop app. Follow the steps below to create a new conditional formatting rule.
+>[!Note]
+>Outlook no longer automatically shows focus time as green, or any other color, on the calendar.
 
-In the Outlook desktop app:
+If you want to personalize your focus time to show as a specific color, you can do that by using conditional formatting in the Outlook desktop app. Follow the steps below to create a new conditional formatting rule.
 
 1. From the calendar view, select the **View** tab **> Current View > View Settings**.
 
