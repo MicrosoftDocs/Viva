@@ -24,11 +24,11 @@ Get answers to the most frequently asked questions about what you see in **Organ
 
 **Organization trends** is designed for qualifying managers and business leaders with privacy-protected organizational insights based on usage of Microsoft 365.
 
-Viva Insights applies intelligence to this information to make it easier for managers and leaders to see work patterns and take action to help improve organizational productivity and wellbeing of the teams and organizations they're responsible for.
+Viva Insights applies intelligence to this information to make it easier for managers and leaders to see work patterns, then take action to help improve organizational productivity and wellbeing of the teams and organizations they're responsible for.
 
 ##### Q2 What data is used in these insights and how is it protected?
 
-Manager and leader insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See <!--[Data-protection considerations](../privacy/data-protection-considerations.md)--> [Privacy](../advanced/privacy/privacy.md) for more details.
+These manager and leader insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Privacy](../advanced/privacy/privacy.md) for more details.
 
 ##### Q3 Does the Microsoft Viva Insights app comply with GDPR?
 

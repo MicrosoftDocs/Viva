@@ -29,12 +29,12 @@ highlightedContent:
     - title: Personal insights
       itemType: quickstart
       url: ./personal/introduction.md
-    - title: Manager insights
+    - title: Teamwork habits
       itemType: overview
-      url: ./use/myteam.md
-    - title: Leader insights
+      url: ./org-team-insights/teamwork-habits.md
+    - title: Organization trends
       itemType: tutorial
-      url: ./use/viva-insights-my-org.md
+      url: ./org-team-insights/org-trends.md
     - title: Advanced insights
       itemType: deploy
       url: advanced/introduction-to-advanced-insights.md

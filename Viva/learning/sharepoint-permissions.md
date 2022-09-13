@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft 365 Groups permissions with SharePoint content in Viva Learning
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 10/27/2021
@@ -53,7 +53,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 >[!NOTE]
 > It will take approximately 24 hours for these changes to show up in the Viva Learning app.
 
-To remove unintentionally surfaced content, follow these steps:
+## Remove unintentionally surfaced content
 
 1. To restrict access to the document library, select the **Show actions** option, and then select **Manage access**.
 

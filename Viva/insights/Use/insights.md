@@ -81,4 +81,4 @@ These insights are only about the participants who are included in the selected 
 
 #### Q2 Which roles have access to these insights?
 
-The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Manager insights](myteam.md) for details.
+The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Manager insights](../org-team-insights/teamwork-habits.md) for details.

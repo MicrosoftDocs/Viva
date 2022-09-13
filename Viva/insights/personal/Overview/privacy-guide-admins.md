@@ -142,7 +142,7 @@ The processing of an employee's personal data ceases when they are opted out, wh
 
 End users can opt in or out of Viva Insights via the **Feature settings** menu in Microsoft 365, as shown in this example:
 
-![Feature settings in the dashboard](../../Images/mya/use/v2-dashboard-settings-1h.png)
+:::image type="content" source="../../images/mya/use/dashboard-settings.png" alt-text="Screenshot that shows opening the Settings window" lightbox="../../images/mya/use/dashboard-settings-expanded.png":::
 
 ## Microsoft Graph
 

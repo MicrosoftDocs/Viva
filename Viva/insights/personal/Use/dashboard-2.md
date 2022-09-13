@@ -86,6 +86,8 @@ In **Protect Time**, you can:
 
 * Personalize your focus plan by selecting how much focus time you want to schedule for what time of day and set Teams settings accordingly. For more details, see [Focus plan](../use/focus-plan.md).
 * Configure your quiet time to mute mobile notifications from Outlook and Teams for a set number of hours or days.
+    >[!Note]
+    > Quiet time is currently in private preview.
 * Turn the **Delay Delivery** feature **On** or **Off** for the option to delay delivery of an email until when your co-workers are in their set working hours.
 
 :::image type="content" source="../../Images/mya/use/dashboard-settings-protect-time-tab-small.png" alt-text="Screenshot that shows the Protect time tab and, when expanded, its settings." lightbox="../../Images/mya/use/dashboard-settings-protect-time-tab-expanded.png":::

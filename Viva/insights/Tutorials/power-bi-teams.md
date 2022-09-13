@@ -133,7 +133,7 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 
 ### Training opportunity
 
-Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard](/learn/modules/workplace-analytics-teams/)
+Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard](/learn/modules/workplace-analytics-teams-insights)
 
 ## Related topic
 

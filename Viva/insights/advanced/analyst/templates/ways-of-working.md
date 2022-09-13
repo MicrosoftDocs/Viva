@@ -139,16 +139,6 @@ After confirming the settings, check the number of measured employees to confirm
 
 ![Screenshot that shows the Report settings page in Power BI.](/viva/insights/advanced/images/wow-pbi-report-settings.png)
 
-### Employees with low collaboration
-
-By default, this report excludes employees who spend a weekly average of less than five hours in meetings, email, instant messages, and calls because they are likely non-knowledge workers or they do not use Outlook or Teams.
-
-The report also excludes unusually low collaboration weeks based on individual collaboration patterns. These low-collaboration weeks usually occur when employees are taking time off from work.
-
-If you want to include employees with low collaboration in your analysis, select the **Clear** filter (eraser) icon to clear the **IsLikelyKnowledgeWorker** and **IsLikelyHoliday** filters in the Power BI **Filters** pane.
-
-<!---insert filters pane screenshot-->
-
 ## About this report
 
 The **Ways of working** report includes the following report pages that help you assess your company's collaboration culture and employee experience.
