@@ -36,7 +36,7 @@ Viva Learning supports the following document types:
 - Word, PowerPoint, Excel, PDF
 - Audio (.m4a)
 - Video (.mov, .mp4, .avi)
-- [Linked objects (preview)](#add-linked-objects-preview)
+- [Linked objects (preview)](#add-linked-objects)
 
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
