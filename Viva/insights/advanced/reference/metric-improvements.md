@@ -168,16 +168,9 @@ So, when you see different numbers in the new platform, that doesn’t mean the 
 
 ### What other improvements does the new Viva Insights platform offer?
 
-In addition to updated metrics for improved data analysis, the shift to the new Viva Insights platform provides a faster, richer experience. Here are just a few things you’ll find there:
+The new platform offers several advantages:
 
-* A more intuitive analyst experience with tutorials, video walk-throughs, and improved navigation
-* Faster query processing
-* Support of regional data-residency requirements
-* Weekly data refreshes
-* Ability to use: 
-    * Azure Active Directory data to supply organizational structure and attributes *and* 
-    * Your own organizational data file to supply custom attributes
-* New features and insights, including:
-    * New Power BI report templates 
-    * Qualtrics and Glint Connectors
-    * Automatic HR data upload
+* Improved product performance: Your queries and weekly data refreshes process faster.
+* Regional data storage: For customers worldwide, Viva Insights data is processed and stored in your primary region. Learn more in this article: [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations).
+* A more intuitive analyst experience: The app includes a rich first-run experience, video tutorials, and improved navigation.  
+* Metric improvements: More intuitive custom metrics provide a more predictable and flexible experience.
