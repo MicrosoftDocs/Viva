@@ -136,14 +136,14 @@ To add a description column to the document library page, follow these steps:
 
 1. Follow the initial steps to create a column.
 2. Choose **Multiple lines of text**.
-3. Name the column ContentDescription.
+3. Name the column **ContentDescription**.
 4. Add custom descriptions for each item. If no description is supplied, Viva Learning will provide a default message that highlights the content as being from your own SharePoint library.
 
 Next, provide a thumbnail image.
 
 1. Follow the initial steps to create a column.
 2. Choose **Hyperlink**.
-3. Name the column ThumbnailWebURL.
+3. Name the column **ThumbnailWebURL**.
 4. If you already have the URLs available, skip to step 8. If you have images stored in SharePoint that you want to use for thumbnails, start with step 5.
 5. Go to the document library where your images are stored in SharePoint.
 6. Select the image you want to use, then choose **Details**.
@@ -155,14 +155,14 @@ Next, add the duration of the content.
 
 1. Follow the initial steps to create a column.
 2. Choose **Number**.
-3. Name the column Duration.
+3. Name the column **Duration**.
 4. Provide the duration of the content in seconds.
 
 Next, add tags.
 
 1. Follow the initial steps to create a column.
 2. Choose **Managed metadata**.
-3. Name the column SkillTags.
+3. Name the column **SkillTags**.
 4. Select **More options**.
 5. Toggle to allow multiple values. <br>
     [![Screenshot of the toggle to allow multiple values](../media/learning/skilltags.png)](../media/learning/skilltags-big.png#lightbox)
@@ -174,7 +174,7 @@ Finally, add the author.
 
 1. Follow the initial steps to create a column.
 2. Choose **Multiple lines of text**.
-3. Name the column ContentAuthor.
+3. Name the column **ContentAuthor**.
 4. Add the author or authors of the content.
 
 ### Provide your own organization's content
