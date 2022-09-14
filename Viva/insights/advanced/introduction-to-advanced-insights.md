@@ -15,7 +15,18 @@ audience: Admin
 
 # Advanced insights introduction
 
-*The link to documentation for the previous platform can be accessed in the legacy application.*
+>[!Note]
+>To existing customers:
+>
+>We’ve launched a new version of the advanced insights app, and we’re excited to have our existing Viva Insights customers try its faster, richer experience while continuing to use the legacy advanced insights app. As you make your decision to try out the new app, here’s what we want you to know:  
+>
+>* The first version of the new app only supports global partitions. Support for non-global partitions support isn’t available yet. If you’re using non-global partitions right now and want to keep using them, we recommend you continue with the legacy app.
+>* We’re still bringing over more specialized features. If you rely heavily on features like customized metrics, partitions, subject-line analysis, meeting queries, or group queries, we think you’ll get more out of the new app in the future. ​
+>* If you want to use the new app and the legacy app at the same time, we recommend that you upload your organizational data in the legacy app. Uploading data in the new app while also using the legacy app can lead to data inconsistencies between the two platforms.
+>
+> Otherwise, if you’re ready to start using the new advanced insights app, welcome aboard!
+>
+>*The link to documentation for the previous platform can be accessed in the legacy application.*
 
 Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets works done—for example, the ways managers collaborate with their direct reports, such as whether employees maintain work-life balance, how to protect employee wellbeing, and the ways hybrid work affects the employee experience. 
 

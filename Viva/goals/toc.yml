@@ -63,6 +63,8 @@ items:
       href: review-dashboard-templates.md
     - name: Approval Workflows
       href: approval-workflows.md
+    - name: Define KR Types in Viva Goals
+      href: kr-types.md
     - name: Tags
       href: tags.md
     - name: Explorer
@@ -101,10 +103,11 @@ items:
   items:
     - name: Viva Goals integrations overview
       href: integrations-overview.md
-    - name: Azure DevOps integration (ADO)
-      href: azure-devops-integration.md
+
     - name: Viva Goals Integrations
       items:
+        - name: Azure DevOps integration (ADO)
+          href: azure-devops-integration.md
         - name: Amazon RedShift Integration
           href: amazon-redShift-integration.md
         - name: Asana Integration
