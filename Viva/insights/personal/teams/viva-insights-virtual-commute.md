@@ -86,15 +86,11 @@ In addition to viewing your existing tasks, you can do a few other things in thi
 
 * **Add a new task**. Below **Your tasks**, select **Add a task**.
 
-    ![Screenshot that shows adding a task.](Images/vc-add-task.png)
-
 * **Add a suggested task surfaced from Outlook or Teams.** If To Do notices a potential task in your chats or emails, a notification appears above **Your tasks**. Select the down arrow to expand the message. If you want to put this task on your To Do list, select the **Add to your tasks** button. 
 
     ![Screenshot that shows adding a suggested task.](Images/vc-suggested-task.png)
 
 * **Cross a completed task off your list.** Select the circle to the left of the task name, which sends the task to your **Tasks completed today** list. If you want to delete the task from To Do, select the trash can icon to the right of the task name.
-
-    ![Screenshot that shows completing and deleting a task.](Images/vc-complete-delete-task.png)
 
 * **Set a reminder.** Select the ellipses (…) to the right of the task name, then pick a time you want to be reminded. Reminders appear in your Microsoft To Do list and in your Briefing email, if you’re subscribed to receive Briefing emails. You can also **Edit** and **Delete** tasks from this menu.
 
@@ -107,10 +103,12 @@ After you’re done reviewing and managing your tasks, select **Next** to move t
 **Wind down** provides some activities to help you close out your workday mindfully and disconnect from work:
 
 * A breather break
-* The opportunity to reflect, just like you would using the [Reflect](viva-insights-reflect.md) feature on the **Home** page
 * If you have access to Headspace, a few guided meditation videos
+* The opportunity to reflect, just like you would using the [Reflect](viva-insights-reflect.md) feature on the **Home** page
 
-Choose one or more of these activities to help transition to the next part of your day.
+![Screenshot that shows the Wind down section.](Images/vc-wind-down.png)
+
+**Start** one or more of these activities to help transition to the next part of your day.
 
 When you’re ready to complete your virtual commute, select the **Done** button.
 
