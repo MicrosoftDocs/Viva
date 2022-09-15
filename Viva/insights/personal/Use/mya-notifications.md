@@ -6,9 +6,10 @@ ms.author: loreenl
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-personal
-ms.prod: Mya
+ms.service: viva
 manager: helayne
 audience: user
+ms.subservice: viva-insights
 
 ---
 
@@ -23,14 +24,13 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 ## How to see inline suggestions
 
-Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place on your computer:
+Inline suggestions are available in the latest versions of Outlook on the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place on your computer:
 
 * Outlook for Windows 2016 version 1808 or greater and build 16.0.10730 or greater.
 * Outlook Insights add-in version 3.0.0.0 or higher. To check the installed version of the add-in, see [Exchange admin center](/exchange/architecture/client-access/exchange-admin-center). The add-in is installed at the tenant level, after which it can take up to eight days for the upgrade to propagate to all users. If you notice that the proper add-in version isn't installed in Outlook, you can add it by following the steps in [Add the Viva Insights Outlook add-in](../overview/mya-faq.md#add-the-viva-insights-outlook-add-in).
 * Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](/outlook/actionable-messages/).
 
 In Outlook for Windows and Outlook on the web, inline suggestions will show up while reading or composing an email or a meeting invitation.
-
 
 ## Types of inline suggestions
 
@@ -87,7 +87,7 @@ You might *not* see suggestions when:
 
 The delay-delivery inline suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
 
-When the inline suggestions feature is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in Viva Insights or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
+When the inline suggestions feature is turned on, you can delay up three email deliveries each day. To get more than three daily delayed deliveries, you can opt in to the **Delay delivery** plan either in Viva Insights or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
 ![Inline suggestion in email](../../Images/mya/use/delay-delivery.png)
 
@@ -102,9 +102,9 @@ When the inline suggestions feature is turned on, you can delay up two email del
 
    ![Delay delivery inline options](../../Images/mya/use/delay-options.png)
 
-3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time. At the scheduled delivery time, the email is automatically delivered to all recipients in the **To**, **Cc**, and **Bcc** fields for you.
+3. After you send the email, it's kept in one of two places—the **Drafts** folder if you use Outlook on the web or the **Sent items** folder if you use Outlook for Windows—until the scheduled delivery time. At the scheduled delivery time, the email is automatically delivered to all recipients in the **To**, **Cc**, and **Bcc** fields for you.
 
-   Before the message is sent, you can open the message and select:
+    Before the message is sent, you can open the message and select:
 
    * **Send now** to ignore the scheduled delivery time and send the email now.
    * **Don't send** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.

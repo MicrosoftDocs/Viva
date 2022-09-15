@@ -24,14 +24,16 @@ items:
                 items:
                   - name: Overview
                     href: personal/teams/viva-insights-home.md
+                  - name: Effective meetings
+                    href: personal/teams/effective-meetings.md
+                  - name: Headspace
+                    href: personal/teams/viva-insights-headspace.md                        
                   - name: Reflect
                     href: personal/teams/viva-insights-reflect.md
                   - name: Send praise
                     href: personal/teams/viva-insights-praise.md
                   - name: Virtual commute
-                    href: personal/teams/viva-insights-virtual-commute.md
-                  - name: Headspace
-                    href: personal/teams/viva-insights-headspace.md               
+                    href: personal/teams/viva-insights-virtual-commute.md           
               - name: Stay connected
                 href: personal/teams/viva-insights-stay-connected.md
               - name: Protect time
@@ -174,6 +176,9 @@ items:
           href: org-team-insights/setup.md
         - name: Teamwork habits       
           href: org-team-insights/teamwork-habits.md
+          items:
+          - name: Teamwork habits FAQ
+            href: org-team-insights/teamwork-habits-faq.md
         - name: Organization trends
           items:
           - name: Introduction   
