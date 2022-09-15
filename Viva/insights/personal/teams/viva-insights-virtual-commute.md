@@ -32,9 +32,9 @@ This message appears at the following times:
 
 In **Protect time**, when prompted with, "Ready to wrap up?", select **Let's go**.
 
-![Screenshot that shows the option to book focus time.](Images/vc-lets-go-pt1.png)  
+![Screenshot that shows the Virtual commute card with Let's go highlighted.](Images/vc-lets-go-pt1.png)  
 
-When you select this button, your virtual commute starts immediately. For details about the virtual commute experience, see [virtual commute steps](#virtual-commute-steps). Starting a virtual commute this way doesn't affect the scheduled days and time of day that you set in [Set up virtual commutes](#set-up-virtual-commutes).
+When you select this button, your virtual commute starts immediately. For details about the virtual commute experience, refer to [virtual commute sections](#virtual-commute-sections). Starting a virtual commute this way doesn't affect the scheduled days and time of day that you set in [Set up virtual commutes](#set-up-virtual-commutes).
 
 ## Set up virtual commutes
 
