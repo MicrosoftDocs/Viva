@@ -2,20 +2,20 @@
 
 title: Virtual commute with Viva Insights
 description: Use the virtual commute feature in Microsoft Viva Insights
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
 # Virtual commute
 
-You can use virtual commute feature in the Microsoft Viva Insights app from either the [Up-next card](#from-the-up-next-card-on-the-home-page) on the Home page or [within Protect time](#within-protect-time).
+You can use the virtual commute feature in the Microsoft Viva Insights app from either the [Up-next card](#from-the-up-next-card-on-the-home-page) on the Home page or [within Protect time](#within-protect-time).
 
 ## From the Up-next card on the Home page
 
@@ -52,62 +52,67 @@ You can use this prompt to turn on the **Reminder** toggle, then select the days
 
 If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md).
 
-### Virtual commute steps
+### Virtual commute sections
 
-After you select **Let's go**, your virtual commute consists of the following steps. All steps are optional; to skip a step, select **Next**.
+After you select **Let's go**, your virtual commute starts.
 
-1. **Review and close out current tasks** &ndash; Virtual commute shows open tasks in Microsoft To Do that are either due today or have a reminder set for today. (If you don't have tasks that meet these criteria, you'll go directly to **Add new tasks**.)
+![Screenshot that shows adding a task.](Images/vc-begin.png)
 
-   In this step, you can mark each task as complete (select "**It's done**") or set a reminder for another day.
+The commute guides you through the following sections. All sections are optional; to skip a section, just select **Next**.
 
-     ![Screenshot that shows option to close out current tasks.](Images/02-close-out-current-tasks-55.png)
+#### Meetings
 
-   If you do set a reminder, it will appear in the following places:
-    * In your Microsoft To Do list
-    * In your Briefing email, if you are subscribed to receive Briefing emails
-    * On the To Do card on the **Home** page on the day *after* you set the reminder
+In **Meetings**, you can review tomorrow’s events—those that last all day, those that you’ve accepted, and those that still need your RSVP. 
 
-   Select **Next**.
+![Screenshot that shows the Meetings section.](Images/vc-review-meetings.png) 
 
-1. **Add new tasks** – Use this step to add tasks to your list. There are two reasons to add tasks to your list:
+If an event needs your RSVP, you can **Accept** or **Decline** it from this screen. 
 
-   * If you have work-related tasks that are top-of-mind, adding them to a list holds them for you in a reliable spot so that you can mentally let them go during your personal time.
-   * When you add tasks here, they go directly into Microsoft To Do— complete with reminders set—so you don't forget about them.
+![Screenshot that shows the option to RSVP to an event.](Images/vc-needs-rsvp.png) 
 
-   ![Screenshot that shows adding tasks.](Images/03-add-new-tasks-55.png)
+If you don’t have any events coming up tomorrow, you’ll see open blocks on your calendar that you can use for focus time, instead. Select **Book time** to add that focus time to your calendar.
 
-   Tasks that you add on this page appear in two places:
+![Screenshot that shows the option to book focus time.](Images/vc-no-events.png) 
 
-   * In the Briefing email, if you subscribe to it
-   * The next day, on the **Microsoft To Do** card on the **Home** page
+When you’re ready to move to the next section, select **Next** at the bottom-right of the page.
 
-     ![Screenshot that shows the Home page to-do card.](Images/home-to-do.png)  
+#### Tasks
 
-   After you've finished adding tasks—or if you have no tasks to add—select **Next**.
+In the **Tasks** section, you can review your open tasks. These tasks originate from Microsoft To Do, and they’re are either due today or have a reminder set for today.
 
-4. **Preview of tomorrow** – This step shows you the events (such as meetings) that are on your schedule for tomorrow:
+![Screenshot that shows the Tasks section.](Images/vc-tasks.png)
 
-   ![Screenshot that shows preview of tomorrow.](Images/04-preview-of-tomorrow-55.png)
+In addition to viewing your existing tasks, you can do a few other things in this section:
 
-   The purpose of this step is to reduce surprises so that you can be prepared for all that's on your schedule. You can accept, decline, or cancel meetings to make final decisions about your schedule for the next day. When finished, select **Next**.
+* **Add a new task**. Below **Your tasks**, select **Add a task**.
 
-5. **Opportunity for reflection** – At the end of your workday, this step lets you reflect on your feelings, just as you would by using the [Reflect](viva-insights-reflect.md) feature on the **Home** page.
+    ![Screenshot that shows adding a task.](Images/vc-add-task.png)
 
-   ![Screenshot that shows reflect card.](Images/virtual-commute-reflect.png)
+* **Add a suggested task surfaced from Outlook or Teams.** If To Do notices a potential task in your chats or emails, a notification appears above **Your tasks**. Select the down arrow to expand the message. If you want to put this task on your To Do list, select the **Add to your tasks** button. 
 
-   Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice, which you can view before you select **Next**. This optional step helps you build the healthy habit of checking in with yourself.
+    ![Screenshot that shows adding a suggested task.](Images/vc-suggested-task.png)
 
-6. **Mindfully disconnect with a Headspace meditation** – Select the **Play** button on the Headspace card to begin a guided meditation.
+* **Cross a completed task off your list.** Select the circle to the left of the task name, which sends the task to your **Tasks completed today** list. If you want to delete the task from To Do, select the trash can icon to the right of the task name.
 
-   ![Screenshot that shows the Headspace Play button.](Images/headspace-in-vc.png)
+    ![Screenshot that shows completing and deleting a task.](Images/vc-complete-delete-task.png)
 
-   When you're finished, select **Next**.
+* **Set a reminder.** Select the ellipses (…) to the right of the task name, then pick a time you want to be reminded. Reminders appear in your Microsoft To Do list and in your Briefing email, if you’re subscribed to receive Briefing emails. You can also **Edit** and **Delete** tasks from this menu.
 
-7. **Completion** – Complete your virtual commute.
+    ![Screenshot that shows setting a reminder.](Images/vc-set-reminder.png)
 
-   ![Screenshot that shows completing virtual commute.](Images/07-completion-55.png)
+After you’re done reviewing and managing your tasks, select **Next** to move to the last section.
 
-   Select **Done**.
+##### Wind down
+
+**Wind down** provides some activities to help you close out your workday mindfully and disconnect from work:
+
+* A breather break
+* The opportunity to reflect, just like you would using the [Reflect](viva-insights-reflect.md) feature on the **Home** page
+* If you have access to Headspace, a few guided meditation videos
+
+Choose one or more of these activities to help transition to the next part of your day.
+
+When you’re ready to complete your virtual commute, select the **Done** button.
 
 ## Related topics
 
