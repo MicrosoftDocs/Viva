@@ -68,7 +68,7 @@ In **Meetings**, you can review tomorrow’s events—those that last all day, t
 
 If an event needs your RSVP, you can **Accept** or **Decline** it from this screen. 
 
-![Screenshot that shows the option to RSVP to an event.](Images/vc-needs-rsvp.png) 
+![Screenshot that shows the option to RSVP to an event.](Images/vc-needs-rsvp1.png) 
 
 If you don’t have any events coming up tomorrow, you’ll see open blocks on your calendar that you can use for focus time, instead. Select **Book time** to add that focus time to your calendar.
 
