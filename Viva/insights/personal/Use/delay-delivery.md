@@ -57,7 +57,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
 
    ![Delay delivery insight options](../../Images/mya/use/delay-options.png)
 
-3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time. At the scheduled delivery time, the email is automatically delivered to all recipients in the **To**, **Cc**, and **Bcc** fields for you.
+3. After you send the email, it's kept in one of two places—the **Drafts** folder if you use Outlook on the web or the **Sent items** folder if you use Outlook for Windows—until the scheduled delivery time. At the scheduled delivery time, the email is automatically delivered to all recipients in the **To**, **Cc**, and **Bcc** fields for you.
 
    Before the message is sent, you can open the message and select:
 
