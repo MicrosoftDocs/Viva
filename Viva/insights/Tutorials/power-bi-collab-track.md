@@ -143,7 +143,7 @@ The dashboard also includes an **Example interventions** page that has ideas on 
 
 Use this training module:
 
-[Drive organizational change with Microsoft Viva Insights](/learn/modules/workplace-analytics-business-continuity/)
+[Drive organizational change with Microsoft Viva Insights](/training/modules/workplace-analytics-business-continuity/)
 
 ... to learn how to do the following:
 

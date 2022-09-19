@@ -31,7 +31,7 @@ Microsoft [Viva Connections](viva-connections-overview.md) is a desktop and mobi
 
 Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices using currently available features to create an engaging user experience. 
 
-[Get more detailed guidance](viva-connections-setup-overview.md) that focus on tasks in the plan, build, and launch phases. Or, take the [Viva Connections learning path](/learn/paths/viva-connections-get-started/) get more in-depth guidance that includes fictitious business stories, examples, and knowledge checks.
+[Get more detailed guidance](viva-connections-setup-overview.md) that focus on tasks in the plan, build, and launch phases. Or, take the [Viva Connections learning path](/training/paths/viva-connections-get-started/) get more in-depth guidance that includes fictitious business stories, examples, and knowledge checks.
 
 > [!IMPORTANT]
 > - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*.
@@ -217,7 +217,3 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 ## Resources
 
 [Overview of Viva Connections](viva-connections-overview.md)
-
-
-
-
