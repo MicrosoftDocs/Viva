@@ -30,7 +30,7 @@ This feedback is designed to help you improve your individual meeting habits ove
 
 ## Privacy by design
 
-The meeting effectiveness surveys are only sent for scheduled meetings that have five or more participants (including the meeting organizer). Providing meeting feedback is optional for all participants.
+The meeting effectiveness surveys are only sent for scheduled meetings that have five or more participants (including the meeting organizer). We also check whether the attendees who get those surveys stay in the meetings for at least five minutes. To help mitigate survey fatigue in survey participants, 10% of qualified meetings get the surveys. Providing meeting feedback is optional for all participants.
 
 As the meeting organizer, you’ll only see aggregated results in Viva Insights. You won't see who sent what suggestions within the aggregated feedback.
 
