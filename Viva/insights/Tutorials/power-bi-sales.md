@@ -173,7 +173,7 @@ The dashboard also includes the following:
 
 Learn how to identify and improve sales effectiveness by using Viva Insights with the following resources:
 
-* [Introduction to customer focus with Microsoft Viva Insights](/learn/modules/workplace-analytics-customer-focus/)
+* [Introduction to customer focus with Microsoft Viva Insights](/training/modules/workplace-analytics-customer-focus/)
 * [Viva Insights Customer Focus Playbook](https://download.microsoft.com/download/7/e/b/7eb4dff1-a139-4174-a54d-6616929f16f7/Customer-focus-playbook.pdf)
 
 ## Power BI tips, troubleshooting, and FAQs

@@ -80,14 +80,14 @@ Learn how Macys is using Workplace Analytics and MyAnalytics to drive change in 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282896938" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 This video can also be found here: 
-[Assign licenses](https://review.docs.microsoft.com/Workplace-Analytics/setup/assign-licenses-to-population?branch=PAS-WpAVideos)
+[Assign licenses](https://review.learn.microsoft.com/Workplace-Analytics/setup/assign-licenses-to-population?branch=PAS-WpAVideos)
 
 ## Assign roles
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897409" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
 This video can also be found here: 
-[Assign roles](https://review.docs.microsoft.com/Workplace-Analytics/setup/assign-roles-to-wpa-admins?branch=PAS-WpAVideos)
+[Assign roles](https://review.learn.microsoft.com/Workplace-Analytics/setup/assign-roles-to-wpa-admins?branch=PAS-WpAVideos)
 
 ## Privacy in Workplace Analytics
 
@@ -95,7 +95,7 @@ This video can also be found here:
 
 This video can also be found here: 
 [Privacy in Workplace Analytics](
-https://review.docs.microsoft.com/Workplace-Analytics/use/settings?branch=PAS-WpAVideos#video-privacy)
+https://review.learn.microsoft.com/Workplace-Analytics/use/settings?branch=PAS-WpAVideos#video-privacy)
 
 ## Upload organizational data
 
@@ -103,11 +103,11 @@ https://review.docs.microsoft.com/Workplace-Analytics/use/settings?branch=PAS-Wp
 
 This video can also be found here: 
 [Upload organizational data](
-https://review.docs.microsoft.com/Workplace-Analytics/setup/upload-organizational-data-1st?branch=PAS-WpAVideos#video-upload-organizational-data)
+https://review.learn.microsoft.com/Workplace-Analytics/setup/upload-organizational-data-1st?branch=PAS-WpAVideos#video-upload-organizational-data)
 
 and here:
 [Upload organizational data](
-https://review.docs.microsoft.com/Workplace-Analytics/setup/upload-organizational-data?branch=PAS-WpAVideos#video-upload-organizational-data)
+https://review.learn.microsoft.com/Workplace-Analytics/setup/upload-organizational-data?branch=PAS-WpAVideos#video-upload-organizational-data)
 
 ## Solution overview
 
@@ -115,7 +115,7 @@ https://review.docs.microsoft.com/Workplace-Analytics/setup/upload-organizationa
 
 This video can also be found here: 
 [Solution overview](
-https://review.docs.microsoft.com/workplace-analytics/tutorials/solutionsv2-intro?branch=PAS-WpAVideos#video-solution-overview)
+https://review.learn.microsoft.com/workplace-analytics/tutorials/solutionsv2-intro?branch=PAS-WpAVideos#video-solution-overview)
 
 ## MyAnalytics for admins
 
@@ -123,5 +123,5 @@ https://review.docs.microsoft.com/workplace-analytics/tutorials/solutionsv2-intr
 
 This video can also be found here: 
 [Introduction for admins](
-https://review.docs.microsoft.com/Workplace-Analytics/personal/overview/mya-for-admins?branch=PAS-AddMyAVideo)
+https://review.learn.microsoft.com/Workplace-Analytics/personal/overview/mya-for-admins?branch=PAS-AddMyAVideo)
 -->
