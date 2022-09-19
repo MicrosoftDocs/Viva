@@ -33,7 +33,7 @@ The meeting effectiveness surveys are only sent for scheduled meetings that have
 
 As the meeting organizer, you’ll only see aggregated results in Viva Insights. You won't see who sent what suggestions within the aggregated feedback.
 
-![Meeting feedback setting](images/effective-meetings-share-feedback.png)
+![Screenshot that shows the feedback survey.](images/effective-meetings-share-feedback.png)
 
 ## Opt in or out of surveys
 
@@ -42,7 +42,7 @@ You can opt in or out of getting feedback about your meetings.
 1. In the Viva Insights app, select **Settings**.
 2. For **Meeting effectiveness surveys**, select to turn the setting **On** or **Off**, and then select **Save**. This setting defaults to **On**.
 
-![Meeting feedback setting](images/meeting-effectiveness-settings.png)
+![Screenshot that shows Effective meeting settings.](images/meeting-effectiveness-settings.png)
 
 ## Admin controls
 
