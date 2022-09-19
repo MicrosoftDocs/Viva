@@ -20,6 +20,10 @@ audience: Admin
 
 If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find some additional information on the **Organization trends** tab. Specifically, the following insights are available to you.
 
+Download this [Power BI report](../Tutorials/power-bi-myorg.md) for a visualization of this information.
+
+<!--this also goes to argo-->
+
 ## Improve team cohesion
 
 Changes in work environments can leave employees feeling isolated from their colleagues. Feeling part of community is important for engagement and goal alignment as employees navigate change.
