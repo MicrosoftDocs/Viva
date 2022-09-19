@@ -26,17 +26,15 @@ You can open [Week in the life](https://workplaceanalytics.office.com/en-us/Home
 
 ## All collaboration hours
 
-All collaboration hours shows the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s set business hours.
-
-**Meeting hours** shows the number of hours the person spent in meetings with at least one other person. **Email hours** shows the number of hours the person spent sending and reading email.
+All collaboration hours shows the number of hours a person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting)
 
 ![Week in the life collaboration hours.](../images/wpa/use/wl-all-collab-hours.png)
 
 ### Why it's important
 
-Meeting and email hours are the most basic components of collaboration. They help quantify the collaboration volume and patterns within a company, potentially highlighting an under or overly collaborative culture.
+Meeting, email, call, and IM hours are the most basic components of collaboration. They help quantify the collaboration volume and patterns within a company, potentially highlighting an under or overly collaborative culture.
 
-Excess incoming email becomes a distraction from work focus and a source of employee stress, particularly if combined with many meetings. Too many hours in meetings reduces the time available to complete individual work tasks, which can lead to longer working hours and employee stress.
+Excess incoming email becomes a distraction from work focus and a source of employee stress, particularly if combined with many meetings. Too many hours in meetings reduces the time available to complete individual work tasks, which can lead to longer working hours and employee stress. Similarly, too many IMs and phone calls can distract from the flow of work.
 
 Viva Insights helps analysts identify high and low collaboration and its causes.  
 
@@ -54,7 +52,7 @@ Viva Insights helps analysts identify high and low collaboration and its causes.
 
 ## After-hours collaboration hours
 
-After-hours meeting and email hours are the number of hours that a person spent in meetings and sending email outside of business hours. (Viva Insights uses 9 AM to 5 PM, Monday to Friday as the default for business hours.)
+After-hours collaboration hours shows the number of hours that a person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours. (Viva Insights uses 9 AM to 5 PM, Monday to Friday as the default for business hours.)
 
 ![After-hours collaboration hours.](../images/wpa/use/wl-after-hours-collab-hours.png)
 
@@ -62,16 +60,16 @@ After-hours meeting and email hours are the number of hours that a person spent 
 
 Different roles require different schedules, but monitoring after-hours activity can help identify employees who are at risk of getting overworked or have an unsustainable workload.
 
-* Email sent after hours, particularly by managers, can generate overtime workload for the recipients, and can result in undue stress and poor work-life balance for employees who feel compelled to respond before the next standard workday.
+* Email and IMs sent after hours, particularly by managers, can generate overtime workload for the recipients, and can result in undue stress and poor work-life balance for employees who feel compelled to respond before the next standard workday.
 * Too much after-hours activity also hampers productivity. Employees need time off to recharge and to produce new ideas and fresh insights.
 * If a person consistently has after-hours collaboration, this can be an indicator of under-capacity in a group.
 * Requiring a consistently high number of after-hours work from employees due to collaboration with other time zones creates a work-life imbalance and can lower employee satisfaction and productivity.
 
 ## Internal only and external collaboration hours
 
-**Internal only collaboration hours** are the number of hours a person spent in meetings and email only with people inside of the organization.
+**Internal only collaboration hours** are the number of hours a person spent in meetings, emailing, calling, and IM-ing only with people inside of the organization.
 
-**External collaboration hours** are the number of hours a person spent in meetings and email with at least one person external to the organization.
+**External collaboration hours** are the number of hours a person spent in meetings emailing, calling, and IM-ing with at least one person external to the organization.
 
 ![Internal only and external collaboration hours.](../images/wpa/use/wl-internal-external-collab-hours.png)
 
