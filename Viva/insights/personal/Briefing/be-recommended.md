@@ -46,3 +46,10 @@ When you opt in to a Delay delivery plan, you'll get an unlimited number of inli
 ![Screenshot that shows the Recommended for you Delay delivery card.](./images/be-rec-delay-delivery1.png)
 
 Learn more about delay delivery in [Delay delivery plan](../Use/delay-delivery.md).
+
+## Related topics
+
+* [Briefing email overview](be-overview.md)
+* [Praise in Viva Insights](../teams/viva-insights-praise.md)
+* [Virtual commute](../teams/viva-insights-virtual-commute.md)
+* [Delay delivery plan](../Use/delay-delivery.md)
