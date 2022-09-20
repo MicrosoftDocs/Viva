@@ -56,10 +56,10 @@ You can configure access to Viva Insights elements for all users in your organiz
 1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
 3. In the left pane, expand **Settings**, and then select **Org settings**.
-4. Under **Services**, select **Viva Insights** to see settings for the different options.
-5. Select **Dashboard** to keep all Viva Insights users in your organization opted _in_ for access to the dashboard. Deselect **Dashboard** to opt users _out_.
-6. Select **Digests** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digests** to opt users _out_.  
-7. Select **Viva Insights Outlook add-in** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
+4. Under **Services**, select **Microsoft Viva Insights (formerly MyAnalytics)** to see settings for the different options.
+5. Select **Insights dashboard** to keep all Viva Insights users in your organization opted _in_ for access to the dashboard. Deselect **Insights dashboard** to opt users _out_.
+6. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
+7. Select **Insights Outlook add-in** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
 
 >[!Note]
 >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
