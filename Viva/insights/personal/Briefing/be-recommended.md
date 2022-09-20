@@ -13,39 +13,36 @@ ms.collection:
 manager: anirudhbajaj
 ---
 
-# Recommended actions in the Briefing email
+# Recommendations in the Briefing email
 
-Using the Briefing email’s **Recommended for you** cards, you can request regular reminders to use features including praise, virtual commute, and quiet time. You can also enroll in a Delay delivery plan.  
+To help you connect with teammates, wrap up the workday, or minimize email disruption, you might notice some recommendations in your daily Briefing email. When a **Recommended for you** card appears in your Briefing email, you can use it request regular reminders to send praise or start your virtual commute. You can also use **Recommended for you** to enroll in a Delay delivery plan.  
 
-Before you can start using this section of the Briefing email, you'll need access to Viva Insights in Microsoft Teams. See Discover the Viva Insights app for details.
+You'll need access to Microsoft Viva Insights in Microsoft Teams to use this section of the Briefing email. Refer to Discover the Viva Insights app for details.
 
 ## Praise  
 
-The Praise card provides you with the ability to enroll in praise reminders to establish a habit of recognizing others.  
+Enrolling in praise reminders can help you establish a habit of recognizing others. If you want to get these reminders and you like the time and day that the **Recommended for you** card suggests, select **Set Reminder**. You'll start getting reminders whenever this time and day occurs next. <!--verify there's no latency period.-->
 
-Select **Set Reminder** to get reminders at the time indicated in the card 
+![Screenshot that shows the Recommended for you Praise card.](./images/be-rec-praise1.png)
 
-If you’d prefer to receive your reminders at a different date or time, select Customize settings and update your reminder settings in the Viva Insights Teams App Praise settings page. 
+If you want reminders on another day or at another time, select **Customize settings**. This option takes you to the Viva Insights app, where you can pick when you want your reminder.
 
-![Screenshot that shows the Recommended for you Praise card.](./images/be-rec-praise.png)
-
-## Delay delivery plan
-
-You can opt in to the Delay delivery plan to get an unlimited number of inline suggestions for delaying email delivery to your coworkers.  
-
-The delay helps minimize disruptions to recipients outside their working hours or when they’re away from work. It helps anybody who wants to maintain the flexibility to work when they want without putting the burden of their schedule on others. 
-
-![Screenshot that shows the Recommended for you Delay delivery card.](./images/be-rec-delay-delivery.png) 
+Learn more about the praise feature in [Praise in Viva Insights](../teams/viva-insights-praise.md).
 
 ## Virtual commute
 
-The virtual commute **Recommended for you** card allows users to set up their virtual commute through the Briefing email. Below are the steps a user needs to take in the Briefing email: 
-
-Select the Try it out button. On clicking, the user will see ‘Enrolled’ message 
-
-If the user wants to update their default settings, they can click on ‘Edit Settings’ which will take them to Viva Insights app in Teams where they can configure their Virtual Commute reminder settings.  
+Virtual commute helps you mindfully disconnect from work and transition to the rest of your day. If you want to get reminders at the end of your day to start a virtual commute, and you like the time and days of the week that the **Recommended for you** card suggests, select **Let's do it**.
 
 ![Screenshot that shows the Recommended for you virtual commute card](./images/be-rec-virtual-commute.png)
- 
 
- 
+If you want to pick a different time, or set different days, instead, select **Edit settings**. This option takes you to the Viva Insights app, where you can pick when you want your reminder.
+
+Learn more about virtual commute in [Virtual commute](../teams/viva-insights-virtual-commute.md).
+
+## Delay delivery plan
+
+When you opt in to a Delay delivery plan, you'll get an unlimited number of inline suggestions for delaying email delivery to your coworkers, which helps minimize disruptions to recipients outside their working hours or when they’re away from work. If you want to start using the delay delivery feature as part of the Delay delivery plan, select **Try it out** on the **Recommended for you** card.
+
+![Screenshot that shows the Recommended for you Delay delivery card.](./images/be-rec-delay-delivery1.png)
+
+Learn more about delay delivery in [Delay delivery plan](../Use/delay-delivery.md).
