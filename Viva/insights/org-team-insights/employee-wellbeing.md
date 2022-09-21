@@ -132,7 +132,7 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 ## Insights for leaders
 
-If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find some additional information on the **Organization trends** tab. Specifically, the following insights are available to you.
+If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find some additional information on the **Employee wellbeing** tab. Specifically, the following insights are available to you.
 
 Download this [Power BI report](../Tutorials/power-bi-myorg.md) for a visualization of this information.
 

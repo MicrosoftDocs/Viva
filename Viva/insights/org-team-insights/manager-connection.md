@@ -96,7 +96,7 @@ For more best practices and how to set team meeting rules and policy, see [Best 
 
 ## Insights for leaders
 
-If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find some additional information on the **Employee wellbeing** tab. Specifically, the following insights are available to you.
+If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find some additional information on the **Manager connection** tab. Specifically, the following insights are available to you.
 
 Download this [Power BI report](../Tutorials/power-bi-myorg.md) for a visualization of this information.
 
