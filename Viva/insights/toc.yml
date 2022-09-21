@@ -80,6 +80,8 @@ items:
                     href: personal/Briefing/be-time.md
                   - name: Catch up with your team
                     href: personal/Briefing/be-manager.md
+                  - name: Use recommendations
+                    href: personal/Briefing/be-recommended.md  
               - name: Settings
                 href: personal/Briefing/be-settings.md
               - name: Languages
