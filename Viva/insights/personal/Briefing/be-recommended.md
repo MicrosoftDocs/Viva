@@ -15,13 +15,13 @@ manager: anirudhbajaj
 
 # Recommendations in the Briefing email
 
-To help you connect with teammates, wrap up the workday, or minimize email disruption, you might notice some recommendations in your daily Briefing email. When a **Recommended for you** card appears in your Briefing email, you can use it request regular reminders to send praise or start your virtual commute. You can also use **Recommended for you** to enroll in a Delay delivery plan.  
+To help you connect with teammates, wrap up the workday, or minimize email disruption, you might notice some recommendations in your daily Briefing email. When a **Recommended for you** card appears in your Briefing email, you can use it to request regular reminders to send praise or start your virtual commute. You can also use **Recommended for you** to enroll in a Delay delivery plan.  
 
 You'll need access to Microsoft Viva Insights in Microsoft Teams to use this section of the Briefing email. Refer to [Discover and pin the Viva Insights app](../teams/viva-teams-app-install.md) for details.
 
 ## Praise  
 
-Enrolling in praise reminders can help you establish a habit of recognizing others. If you want to get these reminders and you like the time and day that the **Recommended for you** card suggests, select **Set Reminder**. You'll start getting reminders whenever this time and day occurs next. <!--verify there's no latency period.-->
+Enrolling in praise reminders can help you establish a habit of recognizing others. If you want to get these reminders and you like the time and day that the **Recommended for you** card suggests, select **Set Reminder**. You'll start getting reminders whenever this time and day occurs next. 
 
 ![Screenshot that shows the Recommended for you Praise card.](./images/be-rec-praise2.png)
 
