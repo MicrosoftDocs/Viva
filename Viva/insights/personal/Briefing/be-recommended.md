@@ -21,7 +21,7 @@ You'll need access to Microsoft Viva Insights in Microsoft Teams to use this sec
 
 ## Praise  
 
-Enrolling in praise reminders can help you establish a habit of recognizing others. If you want to get these reminders and you like the time and day that the **Recommended for you** card suggests, select **Set Reminder**. You'll start getting reminders whenever this time and day occurs next. <!--verify there's no latency period.-->
+Enrolling in praise reminders can help you establish a habit of recognizing others. If you want to get these reminders and you like the time and day that the **Recommended for you** card suggests, select **Set Reminder**. You'll start getting reminders whenever this time and day occurs next. 
 
 ![Screenshot that shows the Recommended for you Praise card.](./images/be-rec-praise2.png)
 
