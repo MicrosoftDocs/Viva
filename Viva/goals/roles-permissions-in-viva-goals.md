@@ -43,25 +43,23 @@ Viva Goals supports the following full roster of roles within an organization.
 
 ## Permission levels on individual OKRs
 
-The permission levels on individual OKRs are outlined here: 
+The permission levels on individual OKRs are outlined here:
 
 ![Table shows permission levels on individiual O K Rs by role.](../media/goals/2/26/a.jpg)
 
-
 ## Permission levels on team OKRs
 
-The permission levels on team OKRs are outlined here: 
+The permission levels on team OKRs are outlined here:
 
 ![Table part 1 shows permission levels on team O K Rs by role.](../media/goals/2/26/b.jpg)
 
 ![Table part 2 shows permission levels on team O K Rs by role.](../media/goals/2/26/c.jpg)
 
-
 ## Create OKRs
 
 By default, all members in the organization can create OKRs for themselves, other members, teams, or the organization. This privilege reduces the friction in setting up OKRs and facilitates alignment.
 
-For example, a team member can propose a team-level objective by adding an objective of type **Team** and assign it to the team manager. The manager can respond by: 
+For example, a team member can propose a team-level objective by adding an objective of type **Team** and assign it to the team manager. The manager can respond by:
 
 - Doing nothing
 - Changing it to an individual's objective
@@ -69,54 +67,54 @@ For example, a team member can propose a team-level objective by adding an objec
 
 ## Manage OKRs
 
-### Who can edit and delete objectives? 
+### Who can edit and delete objectives?
 
 **Individual objectives** 
 
-- Creator 
-- Owner 
+- Creator
+- Owner
 - Team manager
 - Parent objective owner
 
 **Team objectives**
 
-- Creator 
-- Owner 
+- Creator
+- Owner
 - Team manager
 - Parent objective owner
 - Team owner
 
 **Organization objectives**
 
-- Creator 
-- Owner 
+- Creator
+- Owner
 - Team manager
 - Parent objective owner
 
 By default, creators can edit and delete objectives that they created. These permissions allow them to correct any errors during creation, like an incorrect assignment.
 
-### Who can check in, close, and reopen objectives? 
+### Who can check in, close, and reopen objectives?
 
 **Individual objectives** 
 
-- Owner 
+- Owner
 - Team manager
 - Parent objective owner
 
 **Team objectives**
 
-- Owner 
+- Owner
 - Team manager
 - Parent objective owner
 - Team owner
 
 **Organization objectives**
 
-- Owner 
+- Owner
 - Team manager
 - Parent objective owner
 
-While the check-in process is largely restricted to members involved in the objective, Viva Goals encourages cross-team collaboration by letting anyone in the organization engage with check-ins, including viewing and liking check-ins, and adding and viewing comments. 
+While the check-in process is largely restricted to members involved in the objective, Viva Goals encourages cross-team collaboration by letting anyone in the organization engage with check-ins, including viewing and liking check-ins, and adding and viewing comments.
 
 ## Administrative privileges
 
@@ -124,43 +122,43 @@ By default, all administrative privileges are restricted to members in an organi
 
 ### User management
 
-Organization owners and organization administrators can: 
+Organization owners and organization administrators can:
 
 - Invite members
 - Bulk-add members
-- Suspend members 
-- Update team member profiles (name, email, profile picture, manager) 
+- Suspend members
+- Update team member profiles (name, email, profile picture, manager)
 
-Members can also update their own profiles. 
+Members can also update their own profiles.
 
 ### Team management
 
-Organization owners and organization administrators can: 
+Organization owners and organization administrators can:
 
-- Create teams 
-- Update team settings (name, description, team hierarchy) 
+- Create teams
+- Update team settings (name, description, team hierarchy)
 - Add and remove team members
 
-The team owner can add and remove team members. 
+The team owner can add and remove team members.
 
 ### Administrator management
 
-Organization owners and organization administrators can: 
+Organization owners and organization administrators can:
 
-- Promote a team member to an administrator 
+- Promote a team member to an administrator
 - Revoke administrator access
 
 ### Other permissions
 
-Organization owners and organization administrators can: 
+Organization owners and organization administrators can:
 
 - Work on the behalf of another team member
-- Add and remove time periods 
-- Enable integrations 
+- Add and remove time periods
+- Enable integrations
 
-Only the organization owner can: 
+Only the organization owner can:
 
-- Manage billing and subscription 
+- Manage billing and subscription
 
 ## User types in Viva Goals
 
