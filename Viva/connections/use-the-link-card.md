@@ -1,5 +1,5 @@
 ---
-title: "Create the Viva Connections Dashboard"
+title: "Use the Web link card to integrate content into Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -18,16 +18,47 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to create the Viva Connections Dashboard"
+description: "Learn more about how to use the Web link card on the Viva Connections Dashboard"
 ---
 
-# Create a Viva Connections Dashboard
+# Use the Web link card to integrate existing content into the Viva COnnections Dashboard. 
 
-The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. 
+The [Viva Connection’s Dashboard](/viva/connections/create-dashboard) is where people in your organization get easy access to popular tools and resources that are relevant to their everyday work. The [Web link card](/viva/connections/create-dashboard#add-a-web-link-card) is a simple yet powerful option to incorporate existing content from across your Microsoft 365 environment and elsewhere into Viva Connections to offer a seamless employee experience. 
 
-The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. The Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization. 
+Learn more about how you can use the Web link card to integrate SharePoint content, PowerApps, Microsoft Forms, Yammer, or Stream into the Viva Connections Dashboard. The Web link card can also be used to link to experiences outside of your M365 environment. 
+ 
 
-![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard.png)
+![Screenshot that shows the link card used in multiple ways on a mobile device.](../media/connections/link-card-dashboard.png)
+
+
+
+## How to access the Viva Connection’s Dashboard and the Web link card 
+Learn more about how to add the Web link card and access the settings panel where you can customize the card’s design and content.
+
+>[!NOTE]
+> You must be a site owner (or higher) to the home site to edit Dashboard content. 
+
+![Screenshot of the card toolbox with a pointer close to the Web link card.](../media/connections/link-card-toolbox.png)
+
+1.	Start by navigating to your organization’s [home site](/viva/connections/create-sharepoint-home-site-for-viva-connections) in SharePoint.
+2.	Select the **Settings** panel and then **Manage Viva Connections**.
+3.	Select **Create Dashboard** or **Edit Dashboard** and then select **Edit** in the top-right.
+4.	Select **+ Add card** and then select the **Web link card**.
+5.	Select the **Edit** (pencil icon) to open the settings panel where you can edit the card size, web link, thumb nail, icon, and content.
+6.	Apply [audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards) to personalize and [preview the experience](/viva/connections/create-dashboard#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences) for mobile and desktop devices before sharing it with others.
+
+
+### Link to a SharePoint page
+[SharePoint sites and pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) can be accessed on the Viva Connection’s Dashboard by using the Web link card. Use audience targeting to ensure this card is surfaced to people who have access to the SharePoint site or page. Consider testing the viewing experience on a mobile device for SharePoint sites and pages before linking to the Viva Connections Dashboard. 
+
+**In this example, Contoso links to an open enrollment page:**
+
+![Screenshot of the web link card that's connected to a SharePoint page.](../media/connections/link-sp.png)
+
+
+
+
+
 
 Once [certain requirements are met](guide-to-setting-up-viva-connections.md), the Dashboard can be created and edited from your [home site.](home-site-plan.md) As you are building the Dashboard, you can see a preview of how it will display for targeted audiences and different devices. Then publish your Dashboard to make it available to users who have access to your home site. When you are done, you can add it to Microsoft Teams so that it's easily accessible from a mobile device and desktop. You can also add it to your home page using the [Dashboard web part.](/sharepoint/use-dashboard-web-part-on-home-site)
 
