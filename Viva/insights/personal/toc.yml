@@ -17,7 +17,7 @@ items:
                 - name: Overview
                   href: teams/viva-insights-home.md
                 - name: Effective meetings
-                  href: /teams/effective-meetings.md  
+                  href: teams/effective-meetings.md  
                 - name: Headspace
                   href: teams/viva-insights-headspace.md                     
                 - name: Reflect
@@ -72,6 +72,8 @@ items:
                   href: Briefing/be-time.md 
                 - name: Catch up with your team
                   href: Briefing/be-manager.md
+                - name: Use recommendations
+                  href: Briefing/be-recommended.md  
             - name: Settings
               href: Briefing/be-settings.md
             - name: Languages
