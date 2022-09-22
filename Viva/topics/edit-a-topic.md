@@ -6,7 +6,9 @@ manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection: 
+    - m365initiative-viva-topics
+    - highpri
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:

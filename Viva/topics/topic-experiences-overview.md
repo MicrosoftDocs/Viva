@@ -16,6 +16,7 @@ ms.subservice: viva-topics
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-topics
+    - highpri
 ms.localizationpriority:  medium
 description: Learn about how to use Viva Topics in your organization.
 ---

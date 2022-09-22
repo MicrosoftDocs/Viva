@@ -6,7 +6,9 @@ manager: pamgreen
 audience: enabler, admin
 ms.topic: article
 ms.custom: intro-get-started
-ms.collection: m365initiative-viva-topics
+ms.collection: 
+    - m365initiative-viva-topics
+    - highpri
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
