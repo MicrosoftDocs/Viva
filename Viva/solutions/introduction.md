@@ -13,6 +13,7 @@ ms.subservice: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights
+- highpri
 manager: scott.ruble
 audience: Admin
 ---

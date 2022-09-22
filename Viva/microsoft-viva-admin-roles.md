@@ -12,6 +12,7 @@ ms.service: viva
 localization_priority: Priority
 ms.collection:  
 - M365initiative-viva
+- highpri
 search.appverid:
 - MET150
 

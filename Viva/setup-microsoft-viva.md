@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.collection:  
 - M365-collaboration
 - M365initiative-viva
+- highpri
 ms.custom: intro-overview
 search.appverid:
 - MET150
