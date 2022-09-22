@@ -56,10 +56,14 @@ The resulting assignment is valid and applied to the group. And thereafter, any 
 
 >[!Tip]
 >You can create multiple groups for each prerequisite service plan. For example, if your organization has both **E1** and **E3** users, you can create two groups for licensing Workplace Analytics. One group for E1 as a prerequisite and the other for E3. This enables you to separately assign licenses for the Workplace Analytics app to E1 and E3 users without consuming additional licenses.
- 
--->
+ -->
 
 ## Related topics
 
+<<<<<<< HEAD:Viva/insights/Use/Group-Based-Licensing.md
 * [Environment requirements for Advanced insights](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign)
+=======
+* [Environment requirements for Advanced insights](../setup/environment-requirements.md)
+* [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign)
+>>>>>>> main:Viva/insights/use/group-based-licensing.md

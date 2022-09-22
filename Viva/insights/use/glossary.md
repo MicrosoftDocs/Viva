@@ -15,7 +15,6 @@ manager: scott.ruble
 audience: Admin
 
 ---
-
 # Glossary for Advanced insights
 
 The following are terms and concepts used in the advanced insights app as part of Microsoft Viva Insights. This glossary excludes [query metric definitions](../use/Metric-definitions.md).

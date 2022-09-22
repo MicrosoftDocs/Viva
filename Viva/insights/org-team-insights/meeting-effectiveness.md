@@ -40,7 +40,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](../advanced/reference/glossary.md#long-meeting-define), [large meetings](../advanced/reference/glossary.md#large-meeting-define), and [meeting hours](../advanced/analyst/metrics.md#meeting-hours-define) |Percentage of employees who spend a majority of their meeting hours in long meetings, which are more than one hour, or large meetings, which have more than eight attendees. This insight is calculated weekly and averaged for the entire time period. |
+|Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](../advanced/reference/glossary.md#long-meeting-define), [large meetings](../advanced/reference/glossary.md#large-meeting-define), and [meeting hours](../advanced/reference/metrics.md#meeting-hours-define) |Percentage of employees who spend a majority of their meeting hours in long meetings, which are more than one hour, or large meetings, which have more than eight attendees. This insight is calculated weekly and averaged for the entire time period. |
 
 #### Best practices
 
@@ -68,11 +68,11 @@ For **Improve meeting practices**, the **Meeting effectiveness** page provides a
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who significantly multitask in meetings |[Multitasking hours](../advanced/analyst/metrics.md#multitasking-hours-define) | Percentage of employees who spend more than 25 percent of their meetings hours multitasking. This insight is calculated weekly and then averaged for the entire time period. |
+|Percentage of employees who significantly multitask in meetings |[Multitasking hours](../advanced/reference/metrics.md#multitasking-hours-define) | Percentage of employees who spend more than 25 percent of their meetings hours multitasking. This insight is calculated weekly and then averaged for the entire time period. |
 
 |Visual insight| Definition|
 |--------------|-----------|
- Distribution of weekly time spent multitasking | Percentage of employees based on their weekly [multitasking hours](../advanced/analyst/metrics.md#multitasking-hours-define). They are divided into those who spend between zero and one hour, one and five hours, and more than five hours multitasking in meetings. These percentages are calculated weekly and averaged for the entire time period. |
+ Distribution of weekly time spent multitasking | Percentage of employees based on their weekly [multitasking hours](../advanced/reference/metrics.md#multitasking-hours-define). They are divided into those who spend between zero and one hour, one and five hours, and more than five hours multitasking in meetings. These percentages are calculated weekly and averaged for the entire time period. |
 
 #### Best practices
 
@@ -104,11 +104,11 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who spend a majority of their time in recurring meetings | [Recurring meeting hours](../advanced/analyst/metrics.md#recurring-meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
+|Percentage of employees who spend a majority of their time in recurring meetings | [Recurring meeting hours](../advanced/reference/metrics.md#recurring-meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
 
 |Visual insight| Definition|
 |--------------|-----------|
-Recurring vs. non-recurring meeting hours |Percentage of total meeting hours spent in recurring and non-recurring meetings. These hours are summed for the entire time period and then the percentages are calculated. These calculations use the [Recurring meeting hours](../advanced/analyst/metrics.md#recurring-meeting-hours-define) metric.
+Recurring vs. non-recurring meeting hours |Percentage of total meeting hours spent in recurring and non-recurring meetings. These hours are summed for the entire time period and then the percentages are calculated. These calculations use the [Recurring meeting hours](../advanced/reference/metrics.md#recurring-meeting-hours-define) metric.
 
 #### Best practices
 
