@@ -72,6 +72,8 @@ items:
                   href: Briefing/be-time.md 
                 - name: Catch up with your team
                   href: Briefing/be-manager.md
+                - name: Use recommendations
+                  href: Briefing/be-recommended.md  
             - name: Settings
               href: Briefing/be-settings.md
             - name: Languages
