@@ -14,8 +14,9 @@ ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
-- m365initiative-viva-connections 
-- intro-overview 
+- m365initiative-viva-connections
+- intro-overview
+- highpri 
 search.appverid:
 - SPO160
 - MET150f

@@ -15,6 +15,7 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 - m365initiative-viva-connections
+- highpri
 search.appverid:
 - SPO160
 - MET150
