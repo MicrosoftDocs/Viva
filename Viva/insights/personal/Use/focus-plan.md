@@ -7,8 +7,8 @@ ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: 
-    - viva-insights-personal
-    - highpri
+- viva-insights-personal
+- highpri
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
