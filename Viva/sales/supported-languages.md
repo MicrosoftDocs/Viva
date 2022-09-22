@@ -4,6 +4,7 @@ description: Lean which languages are supported in Viva Sales
 ms.date: 09/07/2022
 ms.topic: article
 ms.service: viva
+ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

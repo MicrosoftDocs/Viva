@@ -4,6 +4,7 @@ description: Learn how to install Viva Sales from Microsoft 365 admin center
 ms.date: 08/01/2022
 ms.topic: article
 ms.service: viva
+ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
