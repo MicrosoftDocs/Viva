@@ -13,6 +13,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
+- highpri
 search.appverid:
 - MET150
 description: "Learn about Microsoft Viva Goals on how you can use it for organizing and tracking individual and organizational goals."
