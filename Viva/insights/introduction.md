@@ -5,7 +5,8 @@ ms.localizationpriority: medium
 ms.collection: 
 - viva-insights-advanced 
 - viva-insights-manager
-- viva-insights-leader  
+- viva-insights-leader
+- highpri
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
