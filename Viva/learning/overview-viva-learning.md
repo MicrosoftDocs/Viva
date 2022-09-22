@@ -16,6 +16,7 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
+    - highpri
 ms.localizationpriority: medium
 description: Learn about Microsoft Viva Learning in your Microsoft 365 environment.
 ---

@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
+    - highpri
 localization_priority: medium
 description: Learn how to configure learning management systems as a learning content source for Microsoft Viva Learning.
 ---

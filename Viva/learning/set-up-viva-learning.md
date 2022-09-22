@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
+    - highpri
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
 description: Learn how to get Microsoft Viva Learning and manage it in the Teams admin center.
