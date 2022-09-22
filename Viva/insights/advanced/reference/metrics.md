@@ -18,7 +18,7 @@ search.appverid:
 
 # Advanced insights metrics
 
-The following metrics are available when creating analysis in the Advanced insights app with Microsoft Viva Insights, such as for custom Person queries and Power BI templates. The descriptions are listed alphabetically within each category.
+The following metrics are available when creating analyses—like custom Person queries and Power BI template queries—in the advanced insights app with Microsoft Viva Insights. The descriptions are listed alphabetically within each category.
 
 | Category | Name | Description | Data type |
 |---|---|---|---|

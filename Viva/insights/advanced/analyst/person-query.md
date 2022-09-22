@@ -15,7 +15,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Create a Custom Person query
+# Create a custom Person query
 
 >[!Tip]
 > You can find a demo video, download sample results, and go through a "Show me how" explanation while you’re building your query. Select these options just above **Query setup**.
@@ -96,11 +96,13 @@ Once you determine what you want to know about employees, you can select which e
 
 #### About conditions and condition groups
 
-A condition is a statement about one attribute you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, “Organization = Microsoft.com,” the query would only extract rows that equal “Microsoft.com” under the **Organization** column. A condition group is a combination of conditions connected with a conjunction ("and" or "or"). In the following image, the condition group is in the block to the right of the conjunction "or."
+A condition is a statement about one attribute you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, “Organization = Contoso.com,” the query would only extract rows that equal "Contoso.com” under the **Organization** column. 
+
+A condition group is a combination of conditions connected with a conjunction ("and" or "or"). In the following image, the condition group is in the block to the right of the conjunction "or."
 
 :::image type="content" source="../images/person-query-condition-group.png" alt-text="Condition group":::
 
-The app predefines one condition for you: “Is Active.” If you leave this condition set to “True,” the query only analyzes *active employees*. Active employees send at least one email or Teams chat during the unit of time—week or month—defined by the query’s **Group by** setting.
+The app predefines one condition for you: “Is Active.” If you leave this condition set to “true,” the query only analyzes *active employees*. Active employees send at least one email or Teams chat during the unit of time—week or month—defined by the query’s **Group by** setting.
 
 #### To add employees to your query
 
@@ -131,7 +133,7 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
 6.	Select the **Select attributes** button, then:
     1. On the right pane, use the checklist to make selections.
-    1. When you’ve finished picking attributes, select the **Add to query button**.
+    1. When you’ve finished picking attributes, select the **Add to query** button.
         :::image type="content" source="../images/person-query-select-attributes.png" alt-text="Select employee attributes section, with 'Select attributes' button highlighted":::
     Attributes appear as tags in the box about the **Select attributes** button.
 
@@ -149,7 +151,7 @@ After your query runs, you can access its results in the **Query results** page.
 
 ## Example Person query for after-hours communication
 
-Let’s say you wanted to run a Custom Person query to find out how often managers are emailing and sending Teams chats after their working hours. You want to:
+Let’s say you wanted to run a custom Person query to find out how often managers are emailing and sending Teams chats after their working hours. You want to:
 
 * Analyze your company’s “West” organization only, which is provided in your employee data.
 * See data for the last six months, grouped by month.
@@ -157,18 +159,18 @@ Let’s say you wanted to run a Custom Person query to find out how often manage
 
 Here’s how you might do that:
 
-1. Set up your query:
+1. Set up your query.
     1.  **Query name**: Give your query a custom name by typing in something like “AfterHoursWest.”
     1. **Time period**: Select **Last 6 months**.
     1. **Auto-refresh**: You just want to have this run once, so leave the **Auto-refresh** box unchecked.
     1. **Description**: Other analysts in your organization might want to know more about this query, so give it a brief description.
-    1. **More settings**: You want this query to be grouped by month, not week. Select **More settings**, then change **Group by to Month**.
-2. Now you’re ready to add metrics:
+    1. **More settings**: You want this query to be grouped by month, not week. Select **More settings**, then change **Group by** to **Month**.
+2. Add metrics.
     1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
     1. Because you want to add metrics about collaboration after hours, expand the **After hours collaboration** metric category. 
     1. Select the **After hours email hours** and **After hours instant messages** metrics.
     1. Select the **Add to query** button.
-3. Next, specify the employees you want to analyze.
+3. Specify the employees you want to analyze.
     1. Under **Select which employees you want to include in the query**, leave the "Is Active" filter set to “true.“
     1. Select **Add condition**.
     1. Select **Organizational data**.
@@ -178,11 +180,11 @@ Here’s how you might do that:
         1. Leave the **Operator** at “=.”
         1. If you want, you can use the search bar to help find titles with “Manager.” Select Manager, Sales manager, and Design manager from the dropdown list.
     1. Check the **Total employees** against the **Measured employees**. If this number seems off, adjust your conditions above.
-4. Now you can choose the employee attributes you want to include in your output file.
+4. Choose the employee attributes you want to include in your output file.
     1. Under **Select which employee attributes you want to include in the query**, select the **Select attributes** button.
     1. From the right pane, select **PopulationType**.
     1. Select the **Add to query** button.
-5. It’s time to run the query. On the upper right of the screen, select the **Run button**.
+5. Run the query: On the upper right of the screen, select the **Run** button.
 6. After the query successfully runs, you can find its results in the **Query results** page. To:
     1. Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
     1. **Edit**, **Edit query name**, **Clone**, **Favorite**, or **Delete** the query: Select the ellipses to the right of the **Downloads** column, then select the appropriate choice. 
