@@ -26,7 +26,7 @@ When you prepare organizational data for upload to Viva Insights, use the follow
 
 | &nbsp; | &nbsp; | &nbsp; |
 | ------ | ------ | ------ |
-|Afghanistan Standard Time| Ekaterinburg Standard Time|Pacific Standard Time (Mexico)|
+|Afghanistan Standard Time | Ekaterinburg Standard Time|Pacific Standard Time (Mexico)|
 |Alaskan Standard Time| Fiji Standard Time|Pakistan Standard Time|
 |Aleutian Standard Time|FLE Standard Time|Paraguay Standard Time|
 |Altai Standard Time|Georgian Standard Time|Romance Standard Time|

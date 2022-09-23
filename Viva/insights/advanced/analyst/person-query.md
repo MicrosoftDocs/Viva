@@ -49,7 +49,7 @@ In **Query setup**, you define some basic information about your query, like its
     >[!Note]
     > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
     >
-    > To learn more about metrics used in Viva Insights, refer to [Metric definitions](./metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
+    > To learn more about metrics used in Viva Insights, refer to [Metric definitions](../reference/metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
 
 ### Metrics 
 
