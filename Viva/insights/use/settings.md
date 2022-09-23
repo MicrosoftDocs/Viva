@@ -35,7 +35,7 @@ For more details about roles, see [Assign roles](../Setup/Assign-roles-to-wpa-ad
 
 ## Data sources
 
-**Owners** – Viva Insights Admins and Advanced insights analysts, and limited analysts can view Data sources and only Admins can access Upload
+**Owners** – Viva Insights Admins and Advanced insights analysts, and limited analysts can view Data sources and only Admins can access Upload.
 
 * In **Data sources**, as an owner, you can see what Microsoft 365 collaboration data and organizational data was most recently uploaded into the advanced insights app. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Viva Insights. For details, see [Data sources](data-sourcesv2.md).
 * In **Upload**, admins can upload the following types of data files in .csv format, UTF-8 encoded:
@@ -45,15 +45,15 @@ For more details about roles, see [Assign roles](../Setup/Assign-roles-to-wpa-ad
 
 ## Leader and manager settings
 
-**Owner** – Viva Insights admins have full access to these settings
+**Owner** – Viva Insights admins have full access to these settings.
 
 In **Leader & manager settings**, Admins can configure the [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md). For details, see [Leader & manager settings](admin-settings.md).
 
 ## Analyst settings
 
-**Owners** – Viva Insights admins have full access to these settings and Analysts have full access and limited Analysts have read-only access to the exclusion settings
+**Owners** – Viva Insights admins have full access to these settings and Analysts have full access and limited Analysts have read-only access to the exclusion settings.
 
-In **Analyst settings**, Admins can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and default exclusion rules for meetings and attendees. Analysts can create and customize meeting and attendee exclusion rules that exclude meetings or attendees from analysis, such as appointments that are unrelated to work. Limited Analysts have read-only access to exclusion rules. For details, see Exclusion rules
+In **Analyst settings**, Admins can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and default exclusion rules for meetings and attendees. Analysts can create and customize meeting and attendee exclusion rules that exclude meetings or attendees from analysis, such as appointments that are unrelated to work. Limited Analysts have read-only access to exclusion rules. For details, see Exclusion rules.
 
 ## Related topics
 

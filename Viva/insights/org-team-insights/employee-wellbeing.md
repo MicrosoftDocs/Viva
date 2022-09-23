@@ -41,7 +41,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who are working after hours for more than three hours each week | [After-hours collaboration](../advanced/analyst/metrics.md#after-hours-collaboration-define)| Percentage of employees who spend more than one hour collaborating through emails, calls, chats, and meetings after hours. This percentage is calculated weekly and averaged over the entire time period.|
+|Percentage of employees who are working after hours for more than three hours each week | [After-hours collaboration](../advanced/reference/metrics.md#after-hours-collaboration-define)| Percentage of employees who spend more than one hour collaborating through emails, calls, chats, and meetings after hours. This percentage is calculated weekly and averaged over the entire time period.|
 
 |Visual insight  | Definition  
 |----------|-----------|
@@ -76,7 +76,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who get less than 10 hours of weekly uninterrupted time for work | [Available-to-focus hours](../advanced/analyst/metrics.md#available-to-focus-hours-define)| This calculation is based on the percentage of employees who have less than 10 hours available to focus each week. It's calculated weekly and averaged over the time period.
+|Percentage of employees who get less than 10 hours of weekly uninterrupted time for work | [Available-to-focus hours](../advanced/reference/metrics.md#available-to-focus-hours-define)| This calculation is based on the percentage of employees who have less than 10 hours available to focus each week. It's calculated weekly and averaged over the time period.
 
 |Visual insight  | Definition |
 |----------------|------------|
@@ -110,7 +110,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who spend 20+ hours in collaboration every week| [Collaboration hours](../advanced/analyst/metrics.md#collaboration-hours-define)| Percentage of employees who spend more than 20 hours each week collaborating through Microsoft Outlook and Teams. This insight is calculated weekly and averaged for the entire time period.
+|Percentage of employees who spend 20+ hours in collaboration every week| [Collaboration hours](../advanced/reference/metrics.md#collaboration-hours-define)| Percentage of employees who spend more than 20 hours each week collaborating through Microsoft Outlook and Teams. This insight is calculated weekly and averaged for the entire time period.
 
 |Visual insight  |Definition|
 |----------|-----------|
