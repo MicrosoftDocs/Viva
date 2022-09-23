@@ -45,15 +45,57 @@ Viva Goals supports the following full roster of roles within an organization.
 
 The permission levels on individual OKRs are outlined here:
 
-![Table shows permission levels on individiual O K Rs by role.](../media/goals/2/26/a.jpg)
+|Activity |Team member |Team admin |Org admin/owner |OKR owners manager |Owner of the parent OKR |Shared owner |Observer |
+|----|----|----|----|----|----|----|----|
+|Add objective |Yes |Yes |Yes |Yes |Yes |Yes |No |
+|Check-in |No |No |Yes |Yes |Yes |Yes |No |
+|Edit |No |No |Yes |Yes |Yes |Yes |No |
+|Delete |No |No |Yes |Yes |Yes |Yes |No |
+|Modify weights and Rollup |No |No |Yes |Yes |Yes |Yes |No |
+|Close |No |No |Yes |Yes |Yes |Yes |No |
+|Reopen |No |No |Yes |Yes |Yes |Yes |No |
+|Add KR |Yes |Yes |Yes |Yes |Yes |Yes |No |
+|Add Project |Yes |Yes |Yes |Yes |Yes |Yes |No |
+|Clone |Yes |Yes |Yes |Yes |Yes |Yes |No |
+|Comment |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+|Share |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+|Like |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+|Follow |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
 
 ## Permission levels on team OKRs
 
 The permission levels on team OKRs are outlined here:
 
-![Table part 1 shows permission levels on team O K Rs by role.](../media/goals/2/26/b.jpg)
+|Activity |Team member but not OKR owner |Manager of team member who is currently not part of the team |Team admin |Org admin/owner |OKR owners manager |Owner of the parent OKR |Observer |
+|----|----|----|----|----|----|----|----|
+|Add objective |Yes |Yes |Yes |Yes |Yes |Yes |No |
+|Check-in |No |No |Yes |Yes |Yes |Yes |No |
+|Edit |No |No |Yes |Yes |Yes |Yes |No |
+|Delete |No |No |Yes |Yes |Yes |Yes |No |
+|Modify weights and Rollup |No |No |Yes |Yes |Yes |Yes |No |
+|Close |No |No |Yes |Yes |Yes |Yes |No |
+|Reopen |No |No |Yes |Yes |Yes |Yes |No |
+|Add KR |Yes |Yes |Yes |Yes |Yes |Yes |No |
+|Add Project |Yes |Yes |Yes |Yes |Yes |Yes |No |
+|Clone |Yes |Yes |Yes |Yes |Yes |Yes |No |
+|Comment |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+|Share |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+|Like |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+|Follow |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
 
-![Table part 2 shows permission levels on team O K Rs by role.](../media/goals/2/26/c.jpg)
+|Administrative privileges |Org owner |Org admin |Team owner |Member/regular user |Observer |
+|----|----|----|----|----|----|
+|Invite members |yes |yes |yes |yes |no |
+|Bulk add members |yes |yes |no |no |no |
+|Suspend members |yes |yes |no |no |no |
+|Create team |yes |yes |yes |yes |no |
+|Add/remove team |yes |yes |no |no |no |
+|Update team settings |yes |yes |yes |no |no |
+|Add or remove team members |yes |yes |no |no |no |
+|Update team admin |yes |yes |no |no |no |
+|Remove admin access |yes |yes |no |no |no |
+|Add/remove time period |yes |yes |no |no |no |
+|Enable integration |yes |yes |no |no |no |
 
 ## Create OKRs
 
@@ -178,7 +220,7 @@ An observer is entitled to the following privileges:
 
 ### Adding users as an observer
 
-You can set a default user type for new users from **Admin Dashboard** > **Settings**. 
+You can set a default user type for new users from **Admin Dashboard** > **Settings**.
 
 ![image showing how to add new users as observers](../media/goals/2/26/d.jpg)
 
