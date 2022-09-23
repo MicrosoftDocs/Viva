@@ -185,7 +185,7 @@ Here’s how you might do that:
     1. From the right pane, select **PopulationType**.
     1. Select the **Add to query** button.
 5. Run the query: On the upper right of the screen, select the **Run** button.
-6. After the query successfully runs, you can find its results in the **Query results** page. To:
+6. After the query successfully runs, find its results in the **Query results** page. To:
     1. Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
     1. **Edit**, **Edit query name**, **Clone**, **Favorite**, or **Delete** the query: Select the ellipses to the right of the **Downloads** column, then select the appropriate choice. 
 

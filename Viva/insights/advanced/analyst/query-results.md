@@ -74,18 +74,15 @@ If an error occurs while a query is running, you’ll see a **Failed** status.
 
 There are some predefined views on the **Query results** page:
 
-* **My results**: Queries only you’ve run
-* **All results**: Queries all analysts in your organization have run
-* **Favorites**: Queries you’ve marked as **Favorite**
-* **Power BI templates**: Predefined queries all analysts in your organization have run for Power BI templates (for example, Ways of working)
-* **Custom queries**: Custom Person queries all analysts in your organization have run
+* **My results** – Queries only you’ve run
+* **All results** – Queries all analysts in your organization have run
+* **Favorites** – Queries you’ve marked as **Favorite**
+* **Power BI templates** – Predefined queries all analysts in your organization have run for Power BI templates (for example, Ways of working)
+* **Custom queries** – Custom Person queries all analysts in your organization have run
 
-<!--By selecting the **New** button, you can create your own results filter, which filters by **Submitter**, **Query type**, or both.
-verify-->
+### Setting the query to auto-refresh
 
-### Setting the query to recur
-
-If you ran a query and want it to recur on a certain schedule, you can set the **Is recurring** toggle key to **On**.
+If you ran a query and want it to recur on a certain schedule, you can set the **Auto-refresh** toggle key to **On**.
 
 Analysts who didn’t run a query can’t set it to recur.
 
@@ -95,7 +92,7 @@ When you select the **More options** ellipses—located in the far-right column 
 
 Let’s explore these options in more detail.
 
-#### Rename query
+#### Edit query name
 
 *Applies to: analyst who ran the query*
 
@@ -117,9 +114,9 @@ If you want to change your query’s setup information (like **Query name** and 
 >[!Caution]
 >The **Edit query** option permanently deletes and replaces the query’s existing results. To keep a query’s existing results, use the **Clone option** instead and make changes in a new query.
 
-When you select **Edit query**, you’ll be prompted to confirm whether you want to overwrite your existing results or want to clone the query instead.
+When you select **Edit query**, you’re prompted to confirm whether you want to overwrite your existing results or want to clone the query instead.
 
-If you select **Edit query** in this box, the app will take you to the query setup screen. You can then make changes and rerun the original query. If you choose **Clone**, the app will take you to a new query with the same settings as the original.
+If you select **Edit query** in this box, the app takes you to the query setup screen. You can then make changes and rerun the original query. If you choose **Clone**, the app takes you to a new query with the same settings as the original.
 
 #### Clone query
 
@@ -170,7 +167,7 @@ When you define a query, you select metrics and employee attributes. After the q
 
 1.	In Power BI Desktop, select **Get Data**.
 2.	Select **Online Services**, select **Viva Insights**, and then select **Connect**.
-3.	In the **Analyst > Query results** page, find your query and **select Copy link**.
+3.	In the **Analyst > Query results** page, find your query and select **Copy link**.
     >[!Note]
     >The link contains two pieces of information: the partition identifier and the query identifier, which are separated by a slash.
 
@@ -180,7 +177,7 @@ When you define a query, you select metrics and employee attributes. After the q
     >Query name isn't supported right now.
 
 5.	In **Advanced parameters > Data granularity**, select **Row-level data**.
-6.	Select **Import** Data Connectivity mode, and then select **OK**. 
+6.	Select **Import** under **Data Connectivity mode**, and then select **OK**. 
 7.	If you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
 8.	In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI.
 
