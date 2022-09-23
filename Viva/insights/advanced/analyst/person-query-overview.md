@@ -24,7 +24,7 @@ The custom Person query analyzes data from the point of view of each individual 
 * How specific subgroups in the organization spend their time.
 * How one aspect of collaboration influences other time-use habits.
 
-:::image type="content" source="../images/person-query-diagram.png" alt-text="Screenshot that show 3 questions Person queries can help answer":::
+:::image type="content" source="../images/person-query-diagram.png" alt-text="Screenshot that show three questions Person queries can help answer":::
 
 Each query returns one row per person, per period. 
 
