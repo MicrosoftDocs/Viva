@@ -113,6 +113,7 @@ The Viva Insights bulk license script uses the Azure Active Directory PowerShell
    ```
 
 2. When a confirmation message appears, accept the change in order to allow local PowerShell scripts to run.
+
 3. After the execution policy is set correctly on the machine, run the following cmdlet:
 
    ```powershell

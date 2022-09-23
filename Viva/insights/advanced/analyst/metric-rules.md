@@ -26,8 +26,8 @@ When you use the available analysis tools—like for templates and queries—Viv
 The default **Meeting exclusions rule** filters the meeting data for analysis purposes. You can view rule details on the **Metric rules** page, which you can get to in two ways:
 
 1. Through the side menu:
-    1. In the advanced insights app analyst experience, select  **Analysis > Metric rules**.
-    1. Select **View details**, and then you can expand the sections listed on this page, such as **Rule exceptions**.
+    1. In the advanced insights app analyst experience, select  **Metric rules**.
+    1. Select **View details**. You can expand the sections listed on this page, like **Rule exceptions**.
 1. When building a query:
     1. Under **Query setup**, select the **More settings** button, which opens a pane on the left side of the screen.
     1. Select **See metric rule details**.
