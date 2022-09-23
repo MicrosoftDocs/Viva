@@ -26,26 +26,16 @@ The add-in is enabled in Teams but not installed. You need to go to the Microsof
 
 ## Minimum privileges required to use Viva Sales
 
-### Dynamics 365
+Viva Sales applies your organization's existing CRM access controls and user permissions. Users must have the correct permissions to view, update, and create records in their CRM systems.
+
+By default, Sales Manager and Salesperson security roles are created out-of-the-box. If you are using Dynamics 365 Sales as your CRM system, you can create custom security roles and assign the required privileges as per your company policy. Additionally, you must assign the following privileges to the custom security role to use Viva Sales.
 
 |Table  |Functionality  |Privileges  |
 |---------|---------|---------|
-|Tagged Record     | Mark a contact as a customer.  |  Create, Read, Write, Delete, Append, Append To       |
+|Tagged Record     | Match and connect an external contact to a CRM contact automatically.  |  Create, Read, Write, Delete, Append, Append To       |
 |CRM Connection     | Create connection to Dynamics 365 instance.   | Create, Read, Write, Delete, Append, Append To        |
 |Note     | Create, update, and associate notes with the marked customer.  | Create, Read, Write, Delete, Append, Append To        |
-|Contact     | Retrieve contact data in contact card and update standard fields in the contact card.  | Read, Write, Append, Append To        |
-|Account     | Show a contact's related account information in the contact card and associate contact with an account.   | Read, Append, Append To     |
-|Opportunity   | Read the opportunity associated with the contact and is the stake holder in the opportunity.        | Read Opportunity, Read Connection and Read Connection Role        |
 |User     | Create connections in Dynamics 365.       |  Read User       |
-
-### Salesforce
-
-
-|Table  |Functionality  |Privileges  |
-|---------|---------|---------|
-|Contact     | Retrieve contact data in contact card and update standard fields in the contact card.    |Read, ReadAll, Update           |
-|Account     | Show a contact's related account information in the contact card.         | Read, ViewAll     |
-|Opportunity     | Show a contact's related opportunity information in contact card.        | Read, ViewAll       |
 
 
 ### See also
