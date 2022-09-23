@@ -47,14 +47,13 @@ If you see a blue square within a blue circle, the query is running. The analyst
 #### Stop
 
 Selecting **Stop** freezes the query. While stopping is in progress, the query status shows **Stopping**; after the query is fully stopped, the status shows **Stopped**.
-![Query status: "Stop," "Stopping...", and "Stopped" with tooltips](../images/query-results-status-all-stop1.png)
+![Screenshot that shows query statuses "Stop," "Stopping...", and "Stopped".](../images/stop-statuses.png)
 
 If the analyst who ran the query wants to run this query again later, they can select **Rerun** from the **More options** menu.
 
 >[!Note]
 >Other analysts in the organization can see a query is running, but they can’t stop it.
->
->![Query recurrence toggle with tooltip](../images/query-results-toggle-recur-fail1.png)
+
 
 #### Success
 
@@ -84,7 +83,7 @@ There are some predefined views on the **Query results** page:
 
 If you ran a query and want it to recur on a certain schedule, you can set the **Auto-refresh** toggle key to **On**.
 
-Analysts who didn’t run a query can’t set it to recur.
+Analysts who didn’t run a query can’t set it to auto-refresh.
 
 ### More options
 
