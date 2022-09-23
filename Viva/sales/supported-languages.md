@@ -20,7 +20,6 @@ The user interface is in English only.
 
 Conversation intelligence is available in the following languages.
 
-||||
 |-----------------------------------|-------------------|------------------------------|
 |     Chinese   Simplified (PRC)    |     Dutch         |     English                  |
 |     French                        |     German        |     Italian                  |
