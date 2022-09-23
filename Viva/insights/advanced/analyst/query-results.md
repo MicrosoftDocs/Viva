@@ -44,10 +44,11 @@ After you run your query, you might see the following statuses in the **Status**
 
 If you see a blue square within a blue circle, the query is running. The analyst who ran the query can cancel the query by selecting **Stop**.
 
-#### Stop
+#### Stop, Stopping, and Stopped
 
 Selecting **Stop** freezes the query. While stopping is in progress, the query status shows **Stopping**; after the query is fully stopped, the status shows **Stopped**.
-![Screenshot that shows query statuses "Stop," "Stopping...", and "Stopped".](../images/stop-statuses.png)
+
+![Screenshot that shows query statuses "Stop," "Stopping...", and "Stopped".](../images/query-results-stop-statuses.png)
 
 If the analyst who ran the query wants to run this query again later, they can select **Rerun** from the **More options** menu.
 
@@ -67,7 +68,11 @@ If you ran the query, you can now edit, delete, or rename it. All other analysts
 
 If an error occurs while a query is running, you’ll see a **Failed** status. 
 
-![Query recurrence toggle with tooltip](../images/query-results-status-failed1.png)
+![Query recurrence toggle with tooltip](../images/query-results-failed.png)
+
+#### Needs attention
+
+
 
 ### Results filters
 
