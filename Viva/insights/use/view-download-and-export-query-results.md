@@ -188,3 +188,4 @@ After you have finished creating visuals, you can publish your reports to Power 
 * [User roles in Viva Insights](../use/user-roles.md)
 * [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
 * [Supported languages and guidelines](../overview/supported-languages.md)
+

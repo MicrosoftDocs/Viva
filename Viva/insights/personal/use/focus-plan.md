@@ -235,7 +235,7 @@ Selecting this card shows the following options, with which you can book focus t
 >[!Note]
 >Outlook no longer automatically shows focus time as green, or any other color, on the calendar.
 
-If you want to personalize your focus time to show as a specific color, you can do that by using conditional formatting in the Outlook desktop app. Follow the steps below to create a new conditional formatting rule.
+If you want to personalize your focus time to show as a specific color, you can do that by using conditional formatting in the Outlook desktop app on Windows. Follow the steps below to create a new conditional formatting rule.
 
 1. From the calendar view, select the **View** tab **> Current View > View Settings**.
 
