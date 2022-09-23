@@ -1,19 +1,17 @@
 ---
 title: Remove Viva Sales from Microsoft 365 admin center
 description: Learn how to remove Viva Sales from Microsoft 365 admin center
-ms.date: 08/01/2022
+ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
 # Remove Viva Sales from Microsoft 365 admin center
-
-> [!IMPORTANT]
-> Viva Sales is currently available only for public preview customers, and only in English. The features described here are subject to change.
 
 You can remove the Viva Sales add-in if your sellers no longer need it.
 

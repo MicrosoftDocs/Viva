@@ -1,19 +1,17 @@
 ---
 title: Install Viva Sales from Microsoft 365 admin center
 description: Learn how to install Viva Sales from Microsoft 365 admin center
-ms.date: 08/01/2022
+ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
 # Install Viva Sales from Microsoft 365 admin center
-
-> [!IMPORTANT]
-> Viva Sales is currently available only for public preview customers, and only in English. The features described here are subject to change.
 
 ## Microsoft Outlook
 
@@ -25,7 +23,7 @@ ms.localizationpriority: medium
 
    Microsoft AppSource opens in an embedded window.
 
-4. Search for **Viva Sales for Microsoft Outlook (Preview)**.
+4. Search for **Viva Sales for Microsoft Outlook**.
 
 5. In the tile for the app in search results, select **Get it now**.
 
@@ -51,7 +49,7 @@ Allow up to 24 hours for Viva Sales to appear in users' Outlook ribbon.
 
     Microsoft AppSource opens in an embedded window.
 
-4.  Search for **Viva Sales for Microsoft Teams (Preview)**.
+4.  Search for **Viva Sales for Microsoft Teams**.
 
 5. In the tile for the app in search results, select **Get it now**.
 
@@ -63,7 +61,7 @@ After you've installed Viva Sales as an individual add-in, you can change the us
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select **Viva Sales for Microsoft Outlook (Preview)**.
+2.  On the **Integrated apps** page, select **Viva Sales for Microsoft Outlook**.
 
     The Viva Sales panel opens with the following tabs:
     - **Overview**: Displays basic information about the add-in, host products, and assigned users.

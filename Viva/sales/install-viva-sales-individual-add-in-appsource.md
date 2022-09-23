@@ -1,25 +1,23 @@
 ---
 title: Install Viva Sales from AppSource
 description: Learn how to install Viva Sales from AppSource
-ms.date: 08/01/2022
+ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
 # Install Viva Sales from AppSource
-
-> [!IMPORTANT]
-> Viva Sales is currently available only for public preview customers, and only in English. The features described here are subject to change.
 
 ## Microsoft Outlook
 
 1.  Sign in to [Microsoft AppSource](https://appsource.microsoft.com/en-US/home).
 
-2.  Search for **Viva Sales for Microsoft Outlook (Preview)**.
+2.  Search for **Viva Sales for Microsoft Outlook**.
     
 3.  In the tile for the app in search results, select **Get it now**.
 
