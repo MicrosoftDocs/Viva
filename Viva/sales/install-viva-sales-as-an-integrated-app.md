@@ -11,9 +11,6 @@ manager: shujoshi
 
 # Install Viva Sales as an integrated app
 
-> [!IMPORTANT]
-> Viva Sales is currently available only for public preview customers, and only in English. The features described here are subject to change.
-
 1.  Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
 2.  In the left pane, select **Settings** &gt; **Integrated apps**.
