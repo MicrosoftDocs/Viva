@@ -1,7 +1,6 @@
 ---
-title: Introduction to Power BI templates
 ROBOTS: NOINDEX,NOFOLLOW
-title: Power BI templates in Microsoft Viva Insights
+title: Introduction to Power BI templates in Microsoft Viva Insights
 description: Learn about Microsoft Viva Insights Power BI templates
 author: lilyolason
 ms.author: v-lilyolason
