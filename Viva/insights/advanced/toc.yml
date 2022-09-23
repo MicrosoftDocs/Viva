@@ -69,14 +69,14 @@ items:
           href: ./analyst/templates/power-bi-faq-troubleshoot.md  
       - name: Data quality
         href: ./analyst/data-quality-analyst-experience.md
-      - name: Metrics
-        href: ./analyst/metrics.md
       - name: Metric rules
         href: ./analyst/metric-rules.md       
     - name: Reference
       items:
       - name: FAQ
         href: ./reference/faq.md
+      - name: Metrics
+        href: ./reference/metrics.md
       - name: Glossary
         href: ./reference/glossary.md
      
