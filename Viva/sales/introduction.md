@@ -28,7 +28,7 @@ If you are using Dynamics 365 Sales as your CRM system, users must be assigned e
 
 ## Region availability
 
-The public preview is available globally except in the following countries:
+Viva Sales is available globally except in the following countries:
 - Burma-Myanmar
 - Cape Verde
 - China
