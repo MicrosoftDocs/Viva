@@ -78,11 +78,11 @@ Finally, you might want to consider tying collaboration behavior patterns to emp
 
 To get full functionality from the advanced insights app, you must supply several required attributes, as described in Attribute reference Additionally, you can supply up to 100 optional attributes <!--pending confirmation with Abhinav--> to group and filter data in interesting and custom ways.
 
-Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to the advanced insights app at the individual level, which means that these attributes provide context to each person in the dataset.
+Examples of organizational data include job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to the advanced insights app at the individual level, which means that these attributes provide context to each person in the dataset.
 
 ### Which employees to include
 
-At a minimum, include the organizational data for all employees who have Viva Insights licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
+At a minimum, include the organizational data for all employees who have Viva Insights licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup—that is, a specific target population within the company.
 
 For example, if the people in Marketing communicate frequently with the people in Product Development, but the app has HR data only about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
