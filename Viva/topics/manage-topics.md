@@ -92,7 +92,7 @@ To review a suggested topic:
 
 ### Topic scores
 
-Each topic that appears on the **Suggested** topics page has an Org topic score and a Topic score. The Org topic score is a measure of how complete and full quality the information associated to the topic  is within the organization. The Topic score accounts for the files and resources that the current user has permissions to access. Used in combination, these scores help knowledge managers focus their efforts on publishing high quality topics, focusing on topics that the user has the most comprehensive access to. 
+Each topic that appears on the **Suggested** topics page has an **Org topic score** and a **Topic score**. The Org topic score is a measure of how complete and full quality the information associated to the topic  is within the organization. The Topic score accounts for the files and resources that the current user has permissions to access. Used in combination, these scores help knowledge managers focus their efforts on publishing high quality topics, focusing on topics that the user has the most comprehensive access to. 
 
 For example, if a user shows a high topic score for a topic, that user has the most comprehensive access to the resources of that topic and can edit and confirm the topic with full confidence. If an Org topic score is higher than a user’s Topic score, the knowledge manager can find someone who has a high topic score to update and confirm that topic.
 
