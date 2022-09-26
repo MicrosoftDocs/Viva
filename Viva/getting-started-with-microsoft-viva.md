@@ -23,9 +23,8 @@ description: "Learn everything about Microsoft Viva and Microsoft Viva experienc
 
 With the growth in hybrid work, it's more important than ever to connect employees with an experience that brings together communications, knowledge, learning, resources, and insights all in Microsoft Teams.
 
->[!NOTE] 
+>[!NOTE]
 > New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](#learn-more-about-new-viva-experiences).
-
 
 Microsoft Viva is an employee experience platform made up of four modules that can be used individually or combined to meet your organization’s needs. Microsoft Viva is customizable and extensible, accessible from anywhere you work, and integrates with tools you already use. It also supports various partner integrations to give you access to industry-leading apps in the natural flow of work.
 
@@ -39,20 +38,17 @@ Microsoft Viva is an employee experience platform made up of four modules that c
 
 Viva modules can be used on their own or used together for a more cohesive employee experience. This document will help you understand which solutions are right for your organization.
 
-
 ![Image of all the Viva logos being added together.](./media/all-viva-modules.png)
 
 ### Use all Viva modules
 
 Get guidance on how to prepare, plan, and [deploy all Viva modules.](plan-for-all-viva-modules.md)
 
-
 ![Image of the Viva logos stacked on top of eachother.](./media/combine-modules-2.png)
 
 ### Discover how you can combine Viva modules
 
 Viva modules become more powerful if used together. Viva can help your organization meet popular business scenarios like onboarding and helping employees with wellness in the workplace. [Learn how.](learn-how-to-combine-modules.md)
-
 
 ![Image of the Viva logos and descriptions.](./media/viva-individual.png)
 
@@ -71,10 +67,9 @@ Get detailed descriptions of each Viva module and learn more about how they can 
 
 ## Microsoft Viva license requirements
 
-Learn more about [Microsoft Viva licensing](https://www.microsoft.com/en-us/microsoft-viva/pricing) and which Microsoft Viva features are available across Microsoft 365 plans in the Microsoft [Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
+Learn more about [Microsoft Viva licensing](https://www.microsoft.com/microsoft-viva/pricing) and which Microsoft Viva features are available across Microsoft 365 plans in the Microsoft [Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
-## Overview of steps 
-
+## Overview of steps
 
 |Step 1 |Step 2  |Step 3  |Step 4 |
 |:---------:|:---------:|:---------:|:---------:|
@@ -84,7 +79,7 @@ Learn more about [Microsoft Viva licensing](https://www.microsoft.com/en-us/micr
 ## Steps to set up
 
 1. **Discover what module to use and when** <br>
-Get familiar with how each Viva module can help your organization achieve certain outcomes. Review features and functionality for each Viva module. 
+Get familiar with how each Viva module can help your organization achieve certain outcomes. Review features and functionality for each Viva module.
 
 2. **Learn more about requirements and roles** <br>
 Get guidance on technical requirements, roles, and other considerations that will be a part of the planning process.
@@ -106,16 +101,15 @@ Review how each Viva module will impact the day-to-day work of the rest of your 
 |**Viva Learning**  | Viva Learning allows employees to discover, share, and track formal and informal learning in the flow of work.  Users can engage in social learning with colleagues and set and track personal learning goals. Personalized learning helps users get relevant learning content based on their own interests or recommendations from colleagues.       |[Viva Learning](https://support.microsoft.com/office/viva-learning-01bfed12-c327-41e0-a68f-7fa527dcc98a) <br> [Social learning](https://support.microsoft.com/office/social-learning-6badc784-0948-4922-94cc-85cd987def0a) <br> [Personal learning](https://support.microsoft.com/office/personal-learning-ca774f08-6bed-441b-a74b-3aac15cd9019) <br>   [Learning content](https://support.microsoft.com/office/learning-content-b1ef9cb6-c2b1-4c64-aaf9-72f598e42688) |
 |**Viva Topics**     | Viva Topics compiles information on topics such as a short description and related people, sites, files, and pages. All of this occurs within the flow of your work in Microsoft 365 and Office sites and apps.        | [Understanding Viva Topics](https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332)       |
 
+## Learn more about new Viva experiences
 
-## Learn more about new Viva experiences 
-New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution soon. Learn more about how each Viva experience can be incorporated into your organization's employee experience. 
+New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution soon. Learn more about how each Viva experience can be incorporated into your organization's employee experience.
 
 | Module              | Features and capabilities | Overview          |
 | :------------------- | :------------------- |:----------------|
 | **Viva Engage**  | Viva Engage brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.| [Learn more about Viva Engage](/viva/engage/overview) |
 | **Viva Goals** | Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. | [Learn more about Viva Goals](/viva/goals/intro-to-ms-viva-goals)|
 | **Viva Sales** | Viva Sales is available for select preview customers but will become generally available in the Fall. Viva Sales is an experience for sales representatives and uses Microsoft 365 and Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. | [Learn more about Viva Sales](/viva/sales/introduction) |
-
 
 ## Learn more
 
