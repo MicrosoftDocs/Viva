@@ -8,6 +8,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
 # Block the Viva Sales app in Teams
