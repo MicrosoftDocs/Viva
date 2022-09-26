@@ -24,11 +24,15 @@ The add-in is enabled in Teams but not installed. You need to go to the Microsof
 > - It can take up to 24 hours for the add-in to show up for your users.
 
 
-## Minimum privileges required to use Viva Sales
+## Privileges required to use Viva Sales
 
-Viva Sales applies your organization's existing CRM access controls and user permissions. Users must have the correct permissions to view, update, and create records in their CRM systems.
+Viva Sales applies your organization's existing CRM access controls and user permissions. Users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales.
 
-By default, Sales Manager and Salesperson security roles are created out-of-the-box. If you are using Dynamics 365 Sales as your CRM system, you can create custom security roles and assign the required privileges as per your company policy. Additionally, you must assign the following privileges to the custom security role to use Viva Sales.
+### Additional privileges required for Dynamics 365 customers
+
+If you are using the out-of-the-box Salesperson and Sales Manager security roles, Viva sales privileges are added automatically. If you are using custom security roles, you must assign the following privileges to the custom security role to use Viva Sales.
+
+Viva Sales users must have the following privileges in their security roles to use Viva Sales.
 
 |Table  |Functionality  |Privileges  |
 |---------|---------|---------|
