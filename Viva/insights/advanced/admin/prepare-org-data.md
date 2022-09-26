@@ -15,34 +15,31 @@ audience: Admin
 
 # Prepare organizational data
 
-This article describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before uploading it.
+This article describes the value of organizational data for analysts, and also describes the steps you as an admin need to take to identify, gather, and structure data before uploading it. To learn more about the nature and use of organizational data, refer to [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). 
 
-To learn more about the nature and use of organizational data, see [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). When you’re ready to start working with organizational data, the following sections describe how:
+When you’re ready to start working with organizational data, the following sections guide you through the data-preparation process.
 
-* [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide what trends you need to learn about to improve efficiency at work. From this, you can better choose what organizational data to use.
+* [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
 * [Know what data to include](#know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
 * [Get an export of organizational data](#get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
-* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you must first structure it correctly in the.csv file that you upload.
+* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the.csv file that you upload.
 * [Upload the data](#upload-the-data) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
 
 ## Use organizational data for more effective analysis
 
-Organizational data is descriptive information about employees. After an admin uploads organizational data, the advanced insights app combines it with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
+Organizational data is descriptive information about employees. After you upload organizational data, the advanced insights app combines it with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
 
-Here are examples of what analysts can do with advanced insights after the organizational data is uploaded:
-
-* Know how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
-* Customize metrics to quantify group relationships, such as collaboration time between the marketing and sales groups.
+Here's an example: After the organizational data is uploaded in the advanced insights app, an analyst might use it to learn how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
 
 Advanced insights automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; it’s the organizational data that you upload that provides analysis context.
 
 ## Identify trends that you want to analyze
 
-To know what organizational data to extract, you first need to decide what workplace trends you want to learn about. For example, in an upcoming analysis, you may want to examine collaboration across different employee segments, or groups. You must first define these groups, which you can do in various ways:
+To know what organizational data to extract, you first need to decide what workplace trends you want to learn about. For example, in an upcoming analysis, you may want to examine collaboration across different employee segments, or groups. You need to first define these groups, which you can do in various ways:
 
-* Groups as defined by organizational data
-* Groups made up of organizational hierarchy levels
-* Groups made up of performance, engagement, or other line-of-business data
+* By organizational data
+* By organizational hierarchy levels
+* By performance, engagement, or other line-of-business data
 
 Defined groups can be used in the following examples of analyses:
 
@@ -52,10 +49,10 @@ A common analysis scenario is to find patterns of collaboration between differen
 
 Attributes for segmenting populations can be helpful to consider in defining patterns of collaboration, such as:
 
-* Job family or role attributes, such as profession, function, discipline, and job code
-* Organization, line of business, or cost center, such as HR, Finance, Sales, and Marketing
-* Location attributes, such as city, state, country, and regions, as defined by your organization
-* Attributes that describe their work, such as remote, full-time employee or vendor, part-time or full-time, their tenure within the organization, or the tenure of their current role.
+* Job family or role attributes, like profession, function, discipline, and job code
+* Organization, line of business, or cost center, like HR, Finance, Sales, and Marketing
+* Location attributes, like city, state, country, and regions, as defined by your organization
+* Attributes that describe their work, like remote, full-time employee or vendor, part-time or full-time, their tenure within the organization, or the tenure of their current role
 
 Most of these attributes are available within HR information systems.
 
