@@ -90,11 +90,11 @@ To review a suggested topic:
 
     Removed topics will be removed from the **Suggested** list and will now display in the **Removed** tab.
 
-### Quality score
+### Topic scores
 
-Each topic that appears on the **Suggested** topics page has a quality score assigned to it. The quality score is a reflection of the amount of information that the average user will see for the information on the topic, keeping in mind that each user might see more or less information because of the permissions they might or might not have on the information in a topic. 
+Each topic that appears on the **Suggested** topics page has an Org topic score and a Topic score. The Org topic score is a measure of how complete and full quality the information associated to the topic  is within the organization. The Topic score accounts for the files and resources that the current user has permissions to access. Used in combination, these scores help knowledge managers focus their efforts on publishing high quality topics, focusing on topics that the user has the most comprehensive access to. 
 
-The quality score can help give insight to the topics with the most information and can be useful for finding topics that may need to be manually edited. For example, a topic with a lower quality score might be the result of some users not having SharePoint permissions to pertinent files or sites that AI has included in the topic. A contributor could then edit the topic to include the information (when appropriate), which will then be viewable to all users who can view the topic.
+For example, if a user shows a high topic score for a topic, that user has the most comprehensive access to the resources of that topic and can edit and confirm the topic with full confidence. If an Org topic score is higher than a user’s Topic score, the knowledge manager can find someone who has a high topic score to update and confirm that topic.
 
 ### Impressions
 
