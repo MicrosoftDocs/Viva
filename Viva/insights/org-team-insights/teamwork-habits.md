@@ -75,7 +75,7 @@ Once you get your team set up, you can make changes to it at any time through th
 
 ## Recommendations and actions
 
-If you have a full schedule, it can be tough to stay in contact with your team members. Viva Insights brings together all the information you need to stay caught up and respond quickly to important requests, like:
+If you have a full schedule, it can be tough to stay in contact with your team members. Viva Insights brings together all the information you need to stay caught up and respond quickly to important requests, like these:
 
 * Acting on tasks you promised to get done or that team members asked you to complete
 * Reviewing important emails and documents from team members that you haven’t read yet
@@ -140,17 +140,7 @@ To create healthy team norms, you and your team might consider using shared plan
 
 ### No-meeting days
 
-No-meeting days are a shared recurring time that everyone in your team can use to focus without interruptions. When you set up your plan, you can select the start date, frequency, status, and meeting title.
-
-You're then prompted to confirm the team members to invite, an optional note for the email invitation, and then after you confirm the details, select **Send invitation**. Viva Insights will then invite your team to participate in the plan.
-
-The day before a scheduled no-meeting day, your team members are prompted by Viva Insights to prepare for the no-meeting day by rescheduling or canceling any conflicting meetings.
-
-![Screenshot that shows prompt before a no-meeting day.](../images/wpa/use/no-meeting-prompt.png)
-
-They can select **Review schedule** within the notice to help with this task.
-
-![Screenshot that shows window to review schedule before a no-meeting day.](../images/wpa/use/no-meeting-review.png)
+No-meeting days are a shared recurring time that everyone in the plan can use to focus without interruptions. To learn more about these plans and how to set one up for your team, refer to [Shared no-meeting day plan](shared-no-meeting-day.md).
 
 ### Shared focus plan
 
