@@ -32,8 +32,6 @@ Viva Sales applies your organization's existing CRM access controls and user per
 
 If you are using the out-of-the-box Salesperson and Sales Manager security roles, Viva sales privileges are added automatically. If you are using custom security roles, you must assign the following privileges to the custom security role to use Viva Sales.
 
-Viva Sales users must have the following privileges in their security roles to use Viva Sales.
-
 |Table  |Functionality  |Privileges  |
 |---------|---------|---------|
 |Tagged Record     | Match and connect an external contact to a CRM contact automatically.  |  Create, Read, Write, Delete, Append, Append To       |
