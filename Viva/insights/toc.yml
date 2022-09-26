@@ -24,8 +24,6 @@ items:
                 items:
                   - name: Overview
                     href: personal/teams/viva-insights-home.md
-                  - name: Effective meetings
-                    href: personal/teams/effective-meetings.md
                   - name: Headspace
                     href: personal/teams/viva-insights-headspace.md                        
                   - name: Reflect
@@ -38,6 +36,8 @@ items:
                 href: personal/teams/viva-insights-stay-connected.md
               - name: Protect time
                 href: personal/teams/viva-insights-protect-time.md
+              - name: Effective meetings
+                href: personal/teams/effective-meetings.md
               - name: Inspiration library
                 href: personal/teams/inspiration.md  
               - name: Setup
