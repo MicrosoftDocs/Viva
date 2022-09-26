@@ -9,6 +9,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
 # Remove Viva Sales from Microsoft 365 admin center
