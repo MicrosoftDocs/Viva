@@ -91,4 +91,4 @@ For a video walk-through on setting up your query, select the **Watch demo video
 
 [Query results](./query-results.md)
 
-[Metric descriptions](./metrics.md)
+[Metric descriptions](../reference/metrics.md)
