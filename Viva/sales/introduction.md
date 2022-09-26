@@ -17,7 +17,7 @@ Microsoft Viva Sales is a seller experience application that uses Microsoft 365 
 
 ## License requirements
 
-Viva Sales may be subject to an additional free or paid license. For more details, see [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) and [Dynamics 365 Sale pricing](https://dynamics.microsoft.com/en-us/pricing/#Sales), or contact your Microsoft representative.
+Viva Sales may be subject to an additional free or paid license. For more details, see [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) and [Dynamics 365 Sale pricing](https://dynamics.microsoft.com/pricing/#Sales), or contact your Microsoft representative.
 
 ## Role requirements
 
