@@ -56,8 +56,7 @@ The resulting assignment is valid and applied to the group. And thereafter, any 
 
 >[!Tip]
 >You can create multiple groups for each prerequisite service plan. For example, if your organization has both **E1** and **E3** users, you can create two groups for licensing Workplace Analytics. One group for E1 as a prerequisite and the other for E3. This enables you to separately assign licenses for the Workplace Analytics app to E1 and E3 users without consuming additional licenses.
- 
--->
+ -->
 
 ## Related topics
 
