@@ -5,13 +5,13 @@ author: ruthholls
 manager: pamgreen
 audience: admin
 ms.reviewer: ninay
-ms.topic: article
+ms.service: viva 
+ms.subservice: viva-topics
 ms.prod: microsoft-365-enterprise
 search.appverid: 
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-topics
-ms.service: 
 localization_priority: Normal
 description: Find the languages available in Microsoft Viva Topics.
 
