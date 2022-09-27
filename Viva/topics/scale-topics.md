@@ -151,9 +151,9 @@ In the user's search experience, when a user searches for a term like *travel*, 
 
 3.  Suggested topics
 
-### Impressions and quality score
+### Impressions and topic scores
 
-The [impressions](manage-topics.md#impressions) count and [quality score](manage-topics.md#quality-score) are important metrics for understanding the behavior of a topic. The value of these metrics will be limited when only knowledge managers or IT teams have access to topics. Exposing topics to a pilot group of users will generate more representative data for these measures.
+The [impressions](manage-topics.md#impressions) count and [quality score](manage-topics.md#topic-scores) are important metrics for understanding the behavior of a topic. The value of these metrics will be limited when only knowledge managers or IT teams have access to topics. Exposing topics to a pilot group of users will generate more representative data for these measures.
 
 Topics with a high impression count are likely to be more frequently interacted with. The quality score for these topics will give a sense of how rich those topics are. Topics with a high impression count and a low quality score are good targets for curation.
 
