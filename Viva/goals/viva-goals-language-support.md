@@ -2,7 +2,7 @@
 title: viva-goals-language-support
 ms.reviewer: 
 ms.author: rasanders
-author: ms-rasanders
+author: rasanders
 manager: liz.pierce
 audience: Admin
 f1.keywords:
