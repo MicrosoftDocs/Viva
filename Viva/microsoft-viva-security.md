@@ -57,6 +57,12 @@ Microsoft Viva Goals connects employees to your organization’s goals, helps th
 
 Viva Goals adheres to the rigorous security and compliance standards that are promised with Microsoft 365 and Teams. For additional control, advanced administration options are built right into the [Viva Goals admin panel](/viva/goals/navigate-admin-dashboard).
 
+## Viva Engage
+
+Viva Engage security settings are managed as a part of Yammer. 
+
+[Learn more about security and privacy for Viva Engage](/viva/engage/overview#privacy-and-security)
+
 ### Learn more about security for Microsoft Viva
 
 [Settings interactions between Microsoft 365 Groups, Teams and SharePoint](/microsoft-365/solutions/groups-sharepoint-teams-governance)

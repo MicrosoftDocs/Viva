@@ -1,7 +1,7 @@
 ---
 title: Add SharePoint as a learning content source for Microsoft Viva Learning
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 10/27/2021
@@ -29,15 +29,19 @@ You can configure SharePoint as a learning content source to make your organizat
 
 The knowledge admin (or global administrator) provides a site URL to where the [Learning Service](configure-sharepoint-content-source.md#learning-service) can create an empty centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in Viva Learning.
 
-![Infographic showing the process of getting content from folders to a SharePoint list into Viva Learning, as described in the paragraph above](../media/learning/sharepoint-dataflow.png)
+![Diagram that shows the process of getting content from folders to a SharePoint list into Viva Learning, as described in the paragraph above.](../media/learning/sp-dataflow-infographic.png)
 
 Viva Learning supports the following document types:
 
 - Word, PowerPoint, Excel, PDF
 - Audio (.m4a)
 - Video (.mov, .mp4, .avi)
+- [Linked objects (preview)](#add-linked-objects)
 
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+>[!NOTE]
+> You can use either a Modern or Classic SharePoint site. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
 
 ## Learning Service
 
@@ -77,7 +81,7 @@ To configure SharePoint as a learning content sources in for Viva Learning, foll
 
    2. On the **New item** panel, in the **Title** field, add a directory name of your choice. In the **Folder URL** field, add the URL to the learning content folder. Select **Save**. [Learn how to to create the folder URL](#folder-url-document-library-curation).
 
-       ![New item panel in SharePoint showing the Title and Folder URL fields.](../media/learning/learning-sharepoint-configure6.png)
+       [![New item panel in SharePoint showing the Title and Folder URL fields.](../media/learning/learning-sharepoint-configure6.png)](../media/learning/learning-sharepoint-configure6-big.png#lightbox)
 
    3. The **Learning App Content Repository** page is updated with the new learning content.
 
@@ -93,22 +97,41 @@ To configure SharePoint as a learning content sources in for Viva Learning, foll
 
 Create a folder to store learning content for your organization.
 
-1. Go to your Documents library and select **+ New**.
+1. Go to your Documents library and select **+ New** and choose **Folder**.
 
     ![Screenshot of an empty documents library with the cursor selecting New and Folder.](../media/learning/spfolder-3.png)
 
-2. Choose **Folder** and enter a folder name.
+2. Enter a folder name.
 
     ![Screenshot of the Create a folder pane with the name Training Materials entered.](../media/learning/spfolder-5.png)
 
 3. Select **Create**. The folder will now show up in your document library.
 
-    ![Screenshot of a folder called Training Materials in the document library.](../media/learning/spfolder-6.png)
+    ![Screenshot of a folder called Training Materials in the document library.](../media/learning/spfolder-8.png)
 
-4. Upload files that you want to publish as learning content in this folder.
+4. Upload files that you want to publish as learning content in this folder. Apply M365 permissions to the folders that contain learning objects and to any items within the folders that have unique permissions. [Learn how to use permissions for learning content](sharepoint-permissions.md).
+​
 5. To get the folder url, choose this folder and select **Copy link**.
 
-    ![Screenshot of the Link copied popup.](../media/learning/spfolder-8.png)
+   ![Screenshot of the Link copied popup.](../media/learning/spfolder-link.png)
+
+> [!IMPORTANT]
+> Users will only be able to view content in Viva Learning if you give them the correct permissions. [Configure permissions for SharePoint content](sharepoint-permissions.md).
+
+#### Add linked objects
+
+You can add links to both internal content from SharePoint and external content from sites such as YouTube or Vimeo that will pull through into Viva Learning.
+
+1. In your folder, select **New** and then choose **Link**.
+    ![Screenshot of the documents library with New and Link selected.](../media/learning/sp-new-link.png)
+2. Add the URL and choose a name.
+    ![Screenshot of the new link pane with a URL and name filled in.](../media/learning/sp-linkname.png)
+3. Select **Create**.
+4. The link will show up in your document library with the name you selected.
+    ![Screenshot of the documents library with a new file called Azure.url.](../media/learning/sp-linkinlibrary.png)
+5. The linked object will show up in the Viva Learning app.
+
+When users access the content from Viva Learning, they'll be taken to the URL of the content in their browser.
 
 ### Metadata
 
@@ -117,6 +140,9 @@ Default metadata (such as modified date, created by, document name, content type
 To improve overall discovery and search relevance of the content, we recommend adding columns for description, a thumbnail URL, content duration, content author, and tags. If there's already a description column present, you can delete it and add a new one by following the steps below.
 
 To add a metadata field, follow these steps first.
+
+> [!IMPORTANT]
+> You'll need to use the column names exactly as they're provided here for the metadata to pull through.
 
 1. Select the folder from your learning content repository.
 2. From the **Documents** page, select **Add column**.
@@ -188,54 +214,6 @@ Knowledge admins can access their organization's Learning App Content Repository
 
 >[!NOTE]
 > Content you delete from the Learning App Content Repository will take approximately 24 hours to be removed from Viva Learning.
-
-## Permissions
-
-Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
-
->[!NOTE]
-> Only the Microsoft 365 Groups permissions apply. Viva Learning doesn't support user- or SharePoint-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
-
-1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
-
->[!NOTE]
-> While only **Microsoft 365 (recommended)** and **Mail-enabled security** group types are supported, it is recommended that you use a **Microsoft 365 Group**.
-
->[!NOTE]
-> You'll need to add the owners as members in order for them to have access.
-
-2. Go to the learning content repository that you created in SharePoint.
-3. Select the vertical ellipses (**...**) on the item you want to control access to. If you want to control access to specific items in a folder, go to that folder.
-4. Select **Manage access**.
-
-    ![Screenshot of a folder selected in the learning content repository with the cursor hovering over Manage access.](../media/learning/sharepoint-manage-access.png)
-
-5. Select the plus icon (**+**) next to **Direct access**.
-
-    ![Screenshot of the plus icon selected next to Direct access in the Manage access options.](../media/learning/sharepoint-direct-access.png)
-
-6. Start typing the email address of the group you want to give access to, then select the group.
-
-    ![Screenshot of a group being selected in the Direct access pane.](../media/learning/sharepoint-group.png)
-
-7. By default, users in the group are given Edit permissions. Select the pencil icon to choose between Edit and View permissions. The pencil icon will have a slash through it if the group has only view permissions.
-
-    ![Screenshot of the pencil icon showing options for Can edit and Can view.](../media/learning/sharepoint-edit-view.png)
-
-8. Select **Grant access** to give your group access to the learning content.
-
->[!NOTE]
-> It will take approximately 24 hours for these changes to show up in the Viva Learning app.
-
-To remove unintentionally surfaced content, follow these steps:
-
-1. To restrict access to the document library, select the **Show actions** option, and then select **Manage access**.
-
-     ![Document library page in SharePoint showing Show actions option with Manage access highlighted.](../media/learning/learning-sharepoint-permissions2.png)
-
-2. Delete the original document within the document library.
-
-For more information, see [Sharing and permissions in the SharePoint modern experience](/sharepoint/modern-experience-sharing-permissions).
 
 ## Multi-geo
 

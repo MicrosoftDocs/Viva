@@ -25,7 +25,7 @@ Microsoft Viva Insights provides personal insights in the [Viva Insights app in 
 
 The following Personal insights service plans are generally available with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
 
-* With the following Microsoft 365 plans, a [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) is available for purchase:
+* With the following Microsoft 365 plans, a [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights) is available for purchase:
 
   * Microsoft 365 E3, A3, E5, A5, Business Basic, Business Standard, or Business Premium
   * Office 365 E1, E3, A3, E5, A5, G3, G5, or GCC
@@ -59,7 +59,6 @@ The following Personal insights service plans are generally available with a sub
 * Microsoft 365 Germany
 * Microsoft 365 Operated by 21Vianet
 
-<!-- *NOT* REMOVED 21 APRIL 2021! but there are changes to the Germany situation: * Microsoft 365 Germany  -->
 >[!Note]
 >
 >* To determine what your plan and service plan are, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
@@ -79,14 +78,16 @@ After users get assigned licenses with an applicable service plan, they get acce
 >[!Note]  
 >
 >* _Licensed users_ have the personal insights features with Viva Insights automatically enabled after license assignment.
->* _All users_ in your organization are opted-in, whether or not they have licenses with a Viva Insights service plan. If you want one or more licensed users to be opted _out_ by default, see [Set access for one user](../setup/configure.md#set-access-for-one-user) and [Set access for multiple users](../setup/configure.md#set-access-for-multiple-users).
+>* _All users_ in your organization are opted-in, whether or not they have licenses with a Viva Insights subscription. If you want one or more licensed users to be opted _out_ by default, see [Set access for one user](../setup/configure.md#set-access-for-one-user) and [Set access for multiple users](../setup/configure.md#set-access-for-multiple-users).
 
 ## Additional features
 
-* The following additional features are included with the [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights):
+* The following additional features are included with the [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights):
 
   * [Delay delivery plan](../use/delay-delivery.md)
+  * The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
+  * [Breaks, learning, and message catch-up plans](../teams/viva-insights-protect-time.md#create-other-plans)
 
 * The following additional features are included with the **MyAnalytics (Full) service plan**:
 

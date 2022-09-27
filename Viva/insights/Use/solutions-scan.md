@@ -182,6 +182,6 @@ This statement identifies the source of the data. That is, the data that was use
 
 A different analyst with a different partition would see a different trend line because that line would be calculated from different data. 
 
-All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Advanced insights](https://docs.microsoft.com/Workplace-Analytics/setup/partition-in-wpa). 
+All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Advanced insights](https://learn.microsoft.com/Workplace-Analytics/setup/partition-in-wpa). 
 
 -->

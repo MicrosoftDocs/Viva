@@ -1,8 +1,8 @@
 ---
-title: "Key Performance Indicator (KPI) Summary"
+title: "Key performance indicator (KPI) summary"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: <TBD>
 audience: Admin
 f1.keywords:
@@ -19,45 +19,42 @@ search.appverid:
 description: "Learn how the KPI Summary provides a single view for your most important KPIs."
 ---
 
-# Key Performance Indicator (KPI) Summary
+# Key performance indicator (KPI) summary
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+The Viva Goals KPI summary lets users view one or many KPIs in a single view.
 
-Viva Goals' KPI Summary allows users to view one or many KPIs in a single view.
-
-If your organization has the KPI Summary enabled, it will be found on all dashboards in Viva Goals and can be configured differently for each team.
+If your organization has the KPI summary option enabled, it will be found on all dashboards in Viva Goals, and it can be configured differently for each team.
 
 ## KPI Summary
 
-The KPI Summary contains all top-level objectives that are set as KPIs. It will display the alignment (if it exists), the current status given at last check-in, and the current value. It will also show the amount increased from the start value in small gray text.
+The KPI summary contains all top-level objectives that are set as KPIs. It displays the alignment (if there's any), the status given at last check-in, and the current value. The summary also shows the progress from the start value in small gray text.
 
-![screenshot of kpi summary.](../media/goals/4/416/a.jpg)
+:::image type="content" source="../media/goals/4/416/a.jpg" alt-text="Screenshot of a KPI summary." lightbox="../media/goals/4/416/a.jpg":::
 
-## Who can manage KPI Summaries? 
+## Who can manage KPI summaries? 
 
-The KPI Summary can be managed by anyone who has administrator permissions for the view.
+A KPI summary can be managed by anyone who has administrator permissions for the view.
 
-A Viva Goals administrator or organization owner can manage the organization-level Summary.
+A Viva Goals administrator or organization owner can manage the organization-level summary.
 
-A team owner or team administrator can manage their team's KPI Summary.
+A team owner or team administrator can manage their team's KPI summary.
 
-Individual contributors can manage their KPI Summary for objectives they own.
+Individual contributors can manage the KPI summary for objectives they own.
 
-## How to add more KPIs to your KPI Summary
+## How to add more KPIs to the KPI summary
 
-If an objective has key results below it, or there are other key results set as KPIs, users can manually add those to the KPI Summary with the action button.
+If an objective has key results below it or there are other key results set as KPIs, users can manually add those to the KPI summary by using the action button.
 
-![screenshot of how to add to the kpi summary.](../media/goals/4/416/b.jpg)
+:::image type="content" source="../media/goals/4/416/b.jpg" alt-text="Screenshot shows the option to add to the KPI summary." lightbox="../media/goals/4/416/b.jpg":::
 
-There is no limit on the number of KPIs you can include, but we suggest that only your business's most critical KPIs be included to ensure a digestable view.
+There is no limit on the number of KPIs you can include, but we suggest that only your business's most critical KPIs be included to ensure a digestible view.
 
-## How to remove a KPI from your KPI Summary
+## Remove a KPI from the KPI summary
   
-To remove a KPI from the KPI Summary, click **Remove from KPI Summary** from the action dropdown.
+To remove a KPI from the KPI summary, select **Remove from KPI Summary** from the action dropdown.
 
-![screenshot of removing a key result from the kpi summary.](../media/goals/4/416/c.jpg)
+:::image type="content" source="../media/goals/4/416/c.jpg" alt-text="Screenshot shows the the option to remove a key result from the KPI summary." lightbox="../media/goals/4/416/c.jpg":::
 
-## How to rearrange KPIs in your KPI Summary
+## Rearrange KPIs in your KPI summary
 
-To move a KPI tile, drag and drop it into the new position. The previous KPIs will move up to fill the space, from left to right. 
+To move a KPI tile, drag and drop it into the new position. The previous KPIs will move up to fill the space.
