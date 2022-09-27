@@ -9,7 +9,6 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Supported languages in Viva Sales
@@ -19,14 +18,21 @@ ms.subservice: viva-sales
 
 The user interface is in English only.
 
-Conversation intelligence is available in the following languages.
-|---|---|---|
+Conversation intelligence is available in the following languages:
 
-|     Chinese   Simplified (PRC)    |     Dutch         |     English                  |
-|     French                        |     German        |     Italian                  |
-|     Japanese                      |     Portuguese    |     Portuguese   (Brazil)    |
-|     Spanish                       |     Hebrew        |     Danish                   |
-|     Swedish                       |     Finnish       |     Norwegian                |
-|     Arabic                    |                   |                              |
-
-
+- Chinese   Simplified (PRC)
+- Dutch
+- English
+- French
+- German
+- Italian
+- Japanese
+- Portuguese
+- Portuguese   (Brazil)
+- Spanish
+- Hebrew
+- Danish
+- Swedish
+- Finnish
+- Norwegian
+- Arabic
