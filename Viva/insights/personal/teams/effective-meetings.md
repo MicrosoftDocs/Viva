@@ -65,12 +65,12 @@ Surveys appear at the end of select Teams meetings with five or more participant
 
 As an organizer with a Viva Insights subscription, you can see aggregated survey results in the Viva Insights app in Teams and on the web. These results include an aggregated view of star ratings and access to individual, but anonymous, feedback. The **Effective meetings** page also shows how your meetings succeeded and how they could be improved.
 
+
+:::image type ="content" source="images/effective-meetings-landing.png" alt-text="Screenshot that shows the effective meetings page." lightbox="images/effective-meetings-landing.png":::
+
 ### Settings
 
 All users have meeting effectiveness surveys turned on by default. Admins can turn off surveys for their entire organization or enable them for a specific set of users. When you organize meetings, you can turn off meeting effectiveness surveys using the effective meetings plan feature.
-
-
-:::image type ="content" source="images/effective-meetings-landing.png" alt-text="Screenshot that shows the effective meetings page." lightbox="images/effective-meetings-landing.png":::
 
 #### Opt in or out of surveys
 
