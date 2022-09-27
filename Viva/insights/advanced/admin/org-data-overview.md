@@ -47,14 +47,14 @@ Based on how you’re uploading organizational data, this section shows either *
 
 ### Changing the active data source
 
-If you want to manually upload organizational data using a .csv file, instead of using the default Azure Active Directory data source, navigate to .csv upload beneath **Other available data sources**. Then select the **Start** button to begin a manual upload.
+If you want to manually upload organizational data using a .csv file, instead of using the default Azure Active Directory data source, navigate to **.csv upload** beneath **Other available data sources**. Then select the **Start** button to begin a manual upload.
 
 >[!Important]
 >Once you upload organizational data in a .csv file, the Azure Active Directory is no longer available as a data source.
 
 ## Data connections
 
-In the Data connections tab, you can:
+In the **Data connections** tab, you can:
 
 * Start new imports.
 * Edit existing imports.
@@ -65,10 +65,13 @@ Learn how to upload organizational data and view import results in [Upload organ
 
 ## Data quality
 
-The Data quality tab includes the following elements:
+The **Data quality** tab includes the following elements:
 
 * **Data fields** – These are all the attributes provided by your organization in the organizational data upload file. When you create queries, you can filter and group employees in the organization by these data fields, so being familiar with them will give you insight into the types of queries to use for analysis.
 * **Quality score** – The percentage of measured employees who have a non-blank value for the specified data field. This score is intended as guidance, not to be an absolute measure of quality. A quality score of more than 95% leads to better quality insights. If quality scores are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low quality scores on required data fields may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
 * **Employees with this field** – The number of measured employees and internal collaborators with a non-blank value for the data field.
-* **Unique values** – The count of the unique attribute values included in the data. For example, if the Region data field contains North, South, Central, East, West and Southwest, its unique values count is six.
+* **Unique values** – The count of the unique attribute values included in the data. For example, if a **Region** data field contains North, South, Central, East, West and Southwest, its unique values count is six.
 
+## Related topic
+
+* [Prepare organizational data](prepare-org-data.md)
