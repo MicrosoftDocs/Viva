@@ -24,18 +24,20 @@ items:
                 items:
                   - name: Overview
                     href: personal/teams/viva-insights-home.md
+                  - name: Headspace
+                    href: personal/teams/viva-insights-headspace.md                        
                   - name: Reflect
                     href: personal/teams/viva-insights-reflect.md
                   - name: Send praise
                     href: personal/teams/viva-insights-praise.md
                   - name: Virtual commute
-                    href: personal/teams/viva-insights-virtual-commute.md
-                  - name: Headspace
-                    href: personal/teams/viva-insights-headspace.md               
+                    href: personal/teams/viva-insights-virtual-commute.md           
               - name: Stay connected
                 href: personal/teams/viva-insights-stay-connected.md
               - name: Protect time
                 href: personal/teams/viva-insights-protect-time.md
+              - name: Effective meetings
+                href: personal/teams/effective-meetings.md
               - name: Inspiration library
                 href: personal/teams/inspiration.md  
               - name: Setup
@@ -78,6 +80,8 @@ items:
                     href: personal/Briefing/be-time.md
                   - name: Catch up with your team
                     href: personal/Briefing/be-manager.md
+                  - name: Use recommendations
+                    href: personal/Briefing/be-recommended.md  
               - name: Settings
                 href: personal/Briefing/be-settings.md
               - name: Languages
@@ -168,44 +172,27 @@ items:
                     href: personal/Use/mya-adoption/adopt-habit-building.md
                   - name: Habit playbooks
                     href: personal/Use/mya-adoption/adopt-habit-playbooks.md
-      - name: Manager insights
-        items: 
-          - name: My team        
-            href: use/myteam.md
-          - name: Team insights        
-            href: use/team-insights.md
-          - name: Group insights
-            items:
-              - name: Introduction 
-                href: use/group-insights.md
-              - name: Explore
-                href: use/myteam-explore.md
-          - name: My team FAQ
-            href: Use/my-team-faq.md
-      - name: Leader insights
+      - name: Team and organization insights
         items:
-          - name: My organization    
-            href: use/viva-insights-my-org.md
-          - name: Organizational resiliency
-            href: use/resiliency.md
-          - name: Boost engagement
-            href: use/engagement.md
-          - name: Improve agility
-            href: use/agility.md
-          - name: Foster innovation
-            href: use/innovation.md
-          - name: Effective managers
-            href: use/effective-managers.md
-          - name: Operational effectiveness
-            href: use/operational.md
-          - name: Accelerate change
-            href: use/change.md
-          - name: Transform meeting culture
-            href: use/meeting-culture.md
-          - name: Increase customer focus
-            href: use/icustomer-focus.md
-          - name: My organization FAQ
-            href: Use/myorg-faq.md
+        - name: Setup
+          href: org-team-insights/setup.md
+        - name: Teamwork habits       
+          href: org-team-insights/teamwork-habits.md
+          items:
+          - name: Teamwork habits FAQ
+            href: org-team-insights/teamwork-habits-faq.md
+        - name: Organization trends
+          items:
+          - name: Introduction   
+            href: org-team-insights/org-trends.md
+          - name: Employee wellbeing
+            href: org-team-insights/employee-wellbeing.md
+          - name: Meeting effectiveness
+            href: org-team-insights/meeting-effectiveness.md
+          - name: Manager connection
+            href: org-team-insights/manager-connection.md
+          - name: Organization trends FAQ
+            href: org-team-insights/org-trends-faq.md
       - name: Advanced insights
         items:
           - name: Overview
@@ -349,6 +336,8 @@ items:
                             href: tutorials/power-bi-teams.md
                           - name: Manager effectiveness
                             href: tutorials/power-bi-manager.md
+                          - name: Hybrid workforce experience
+                            href: tutorials/hybrid-workforce-experience.md
                           - name: Behavior patterns for Glint
                             href: tutorials/power-bi-glint-2.md
                           - name: Sales business continuity
@@ -402,7 +391,7 @@ items:
                           - name: Introduction
                             href: Use/explore-intro.md
                           - name: Week in the life
-                            href: Use/Explore-Metrics-week-in-the-life.md
+                            href: Use/explore-metrics-week-life.md
                           - name: Meetings overview
                             href: Use/Explore-Metrics-meetings-overview.md
                           - name: Management and coaching

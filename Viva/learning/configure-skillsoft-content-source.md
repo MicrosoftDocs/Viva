@@ -1,7 +1,7 @@
 ---
 title: Configure Skillsoft as a content source for Microsoft Viva Learning
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 10/27/2021
@@ -19,7 +19,7 @@ description: Learn how to configure Skillsoft as a learning content source for M
 
 # Configure Skillsoft as a content source for Microsoft Viva Learning
 
-This article shows you how to configure Skillsoft as a third-party learning content source in Viva Learning.
+This article shows you how to configure Skillsoft as a third-party learning content source in Viva Learning. You'll need a Microsoft Viva Suite or Viva Learning license to add Skillsoft as a content source for your organization.
 
 >[!NOTE]
 >Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Skillsoft content and any associated services are subject to Skillsoft's privacy and service terms.
