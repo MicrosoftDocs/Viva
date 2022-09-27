@@ -62,7 +62,7 @@ Languages in the Viva Topics user interface are based on your organization's Mic
 Viva Topics is available to customers worldwide. However, for processing and indexing content, Viva Topics supports a limited number of languages. See [which languages are supported](/viva/topics/topics-language-support#languages-available-for-processing-topics).
 
 ## Viva Goals 
-Viva Goals is currently in Private Preview and available only in English. More languages will be supported soon.
+Learn more about [language support for Viva Goals](/viva/goals/viva-goals-language-support).
 
 ## Viva Engage
 Viva Engage supports the same languages as Yammer on the web. See [which languages Yammer is available in](https://support.microsoft.com/office/14dd5886-d48d-4d6d-a583-4273a2538540). Viva Engage will use the language set for Microsoft Teams. If that language is not supported, Viva Engage will fall back to English.
