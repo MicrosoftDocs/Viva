@@ -64,9 +64,9 @@ To manage topics in the topic center, you need to:
 
 - Have the [**Who can manage topics**](./topic-experiences-user-permissions.md) permission. Knowledge admins can give users this permission in the Viva Topics topic permissions settings. 
 
-You will not be able to view the **Manage topics** page in the topic center unless you have the **Who can manage topics** permission.
+You won't be able to view the **Manage topics** page in the topic center unless you've the **Who can manage topics** permission.
 
-In the topic center, a knowledge manager can review topics that have been identified in the source locations you specified, and can either confirm or remove them. A knowledge manager can also create and publish new topic pages if one was not found in topic discovery, or edit existing ones if they need to be updated.
+In the topic center, a knowledge manager can review topics that have been identified in the source locations you specified, and can either confirm or remove them. A knowledge manager can also create and publish new topic pages if one wasn't found in topic discovery, or edit existing ones if they need to be updated.
 
 ## Suggested topics
 
@@ -96,15 +96,15 @@ Each topic that appears on the manage topics page has an **Org topic score** and
 
  For example, if a user shows a high topic score for a topic, that user has the most comprehensive access to the resources of that topic and can edit and confirm the topic with full confidence. If an Org topic score is higher than a user’s Topic score, the knowledge manager can find someone who has a high topic score to update and confirm that topic.
 
-Knowledge managers might come across topic scores of 0 for some topics. A 0 topic score may occur when there's not enough resources attached to a particular topic that the user can access. Knowledge managers are encouraged to either augment these low-quality topics with additional information or remove them as needed. Topics that have an Org Topic score of 0 are not displayed to end users because they are not deemed to be of sufficient quality. Keep in mind that some topics can have available associated information or resources, and still have a 0 topic score due to the quality and quantity of those resources.
+Knowledge managers might come across topic scores of 0 for some topics. A 0 topic score may occur when there's not enough resources attached to a particular topic that the user can access. Knowledge managers are encouraged to either augment these low-quality topics with additional information or remove them as needed. Topics that have an Org Topic score of 0 aren't displayed to end users because they aren't deemed to be of sufficient quality. Keep in mind that some topics can have associated information or resources available, and still have a 0 topic score due to the quality and quantity of those resources.
 
 ### Impressions
 
-The **Impressions** column displays the number of times a topic has been shown to end users. This includes views through topic answer cards in search and through topic highlights. It does not reflect the click-through on these topics, but that the topic has been displayed. The **Impressions** column will show for topics in the **Suggested**, **Confirmed**, **Published**, and **Removed** tabs on the **Manage topics** page.
+The **Impressions** column displays the number of times a topic has been shown to end users. This includes views through topic answer cards in search and through topic highlights. It doesn't reflect the click-through on these topics, but that the topic has been displayed. The **Impressions** column will show for topics in the **Suggested**, **Confirmed**, **Published**, and **Removed** tabs on the **Manage topics** page.
 
 ## Confirmed topics
 
-On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations and have been confirmed by a knowledge manager or "crowdsourced" confirmed by a net two or more people (balancing negative user votes against positive user votes) through the card feedback mechanism will be listed in the **Confirmed** tab. If needed, a user with permissions to manage topics can review confirmed topics and choose to reject them.
+On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations and have been confirmed by a knowledge manager or "crowdsourced" confirmed by a net two or more people (balancing negative user votes against positive user votes) through the card feedback mechanism will be listed in the **Confirmed** tab. If needed, a user with permissions to manage topics can review confirmed topics, and choose to reject them.
 
 To review a confirmed topic:
 
@@ -112,7 +112,7 @@ To review a confirmed topic:
 
 2. On the topic page, review the topic page, and select **Edit** if you need to make any changes to the page.
 
-Note that you can still choose to reject a confirmed topic. To do this, go to the selected topic on the **Confirmed** tab, and select the **x** if you want to reject the topic.
+You can still choose to reject a confirmed topic. To reject a confirmed topic, go to the selected topic on the **Confirmed** tab, and select the **x** if you want to reject the topic.
 
 ## Published topics
 
