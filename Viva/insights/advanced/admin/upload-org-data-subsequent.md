@@ -24,7 +24,7 @@ If organizational data has already been uploaded into the advanced insights app,
 Complete these steps after preparing the data as described in [Prepare organizational data](./prepare-org-data.md).
 
 >[!Important]
->Only follow these steps if this is not the first time you’ve uploaded organizational data. If this is the first time, follow the steps in [Upload organizational data (first upload)](upload-org-data-first.md).
+>Only follow these steps if this is not the first time you’ve uploaded organizational data. If this is your first upload, follow the steps in [Upload organizational data (first upload)](upload-org-data-first.md).
 
 ## Workflow
 
@@ -153,7 +153,7 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it.
 
     >[!Note]
-    >For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.in the bottom left of the screen.
+    >For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
 
 After you map fields, the app validates and processes your data as described in the following sections. If validation and processing are successful, your input to the upload process is complete.
 
@@ -225,7 +225,7 @@ If data validation fails, you’ll see a new screen with a “Validation failed�
 
 <!--screenshot - pending from RB-->
 
-Before you make changes in the source file and try the upload again, you can select **Download issues**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next — fix the source data or change your mapping settings.
+Before you make changes in the source file and try the upload again, you can select **Download issues**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next—fix the source data or change your mapping settings.
 
 #### Guidelines for correcting errors in data
 
@@ -239,11 +239,11 @@ All field header or column names must:
 
 * Begin with a letter (not a number).
 * Only contain alphanumeric characters (letters and numbers, for example, **Date1**).
-* Have no leading or trailing blank spaces or special characters (non-alphanumeric, such as *@*, *#*, *%*, *&*).
+* Have no leading or trailing blank spaces or special characters (those that are non-alphanumeric, like *@*, *#*, *%*, *&*).
 
 ##### Rules for field values
 
-The field values in data rows must comply with the following formatting rules:
+The field values in data rows need to comply with the following formatting rules:
 
 * The  **EffectiveDate** and **HireDate** field values need to be in the MM/DD/YYYY format.
 * The required **PersonId** and **ManagerId** field values need to be a valid email address (for example, `gc@contoso.com`).
@@ -259,7 +259,7 @@ The following field rules apply to characters in field values:
 
 * Double-byte characters, such as Japanese characters, are permitted in the field values.
 * The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line” (\n) characters are not permitted in field values. 
+* “New line” (\n) characters are not permitted in field values.
 
 ## Related topic
 
