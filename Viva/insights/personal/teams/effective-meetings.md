@@ -63,7 +63,7 @@ Surveys appear at the end of select Teams meetings with five or more participant
 
 ### Results
 
-As an organizer with a Viva Insights subscription, you can see aggregated survey results in the Viva Insights app in Teams and on the web. These results include an aggregated view of star ratings and access to individual, but anonymous , feedback. The Effective meetings page also shows how your meetings succeeded and how they could be improved.
+As an organizer with a Viva Insights subscription, you can see aggregated survey results in the Viva Insights app in Teams and on the web. These results include an aggregated view of star ratings and access to individual, but anonymous, feedback. The **Effective meetings** page also shows how your meetings succeeded and how they could be improved.
 
 ### Settings
 
