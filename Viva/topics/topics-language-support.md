@@ -6,7 +6,8 @@ manager: pamgreen
 audience: admin
 ms.reviewer: ninay
 ms.topic: article
-ms.prod: microsoft-365-enterprise
+ms.service: viva 
+ms.subservice: viva-topics
 search.appverid: 
 ms.collection: 
     - enabler-strategic
