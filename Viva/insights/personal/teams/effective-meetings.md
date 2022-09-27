@@ -39,18 +39,49 @@ You can customize what you see here. If you want to:
 >[!Important]
 >If you haven’t categorized any meetings between the last three months and next four weeks, these insights won’t be available to you. However, you’ll have access to them once you categorize any meeting within this time period, as long as you have a Viva Insights subscription.
 
-
 ## Meeting effectiveness surveys
 
-The journey to transforming an organization’s meeting culture starts with measuring how people are doing in their meetings. Microsoft Viva Insights can help you improve your meeting effectiveness, build a feedback culture within your team and company by using meeting effectiveness surveys.
+With meeting effectiveness surveys, you can view aggregated feedback from attendees on the meetings you organized. These surveys help you gain insight into what’s going well with your meetings, and what you could improve in future meetings, to promote a healthy meeting culture at your company.
 
-If you're opted in, Viva Insights will automatically send meeting participants a survey asking for feedback about your meetings. This feedback is aggregated into a meeting rating in **Effective meetings**. You’ll also see personalized insights about what you’re doing well and opportunities to make any improvements.
+Surveys appear at the end of select Teams meetings with five or more participants. Here are the survey questions and response choices:
 
-This feedback is designed to help you improve your individual meeting habits over time, as well as your team and company’s collective meeting habits.
+* **What made this meeting a success?**
+    * Agenda
+    * Focused discussions
+    * Attendee participation
+    * Clear next steps
 
-:::Image type ="content" source="images/effective-meetings-landing.png" alt-text="Screenshot that shows the effective meetings page." lightbox="images/effective-meetings-landing.png":::
+* **What would've made it better?**
+    * Agenda
+    * Focused discussions
+    * Attendee participation
+    * Clear next steps
 
-## Privacy by design
+* **How effective was this meeting at achieving its business goals?**
+
+    * A rating scale of one to five stars
+
+### Results
+
+As an organizer with a Viva Insights subscription, you can see aggregated survey results in the Viva Insights app in Teams and on the web. These results include an aggregated view of star ratings and access to individual, but anonymous , feedback. The Effective meetings page also shows how your meetings succeeded and how they could be improved.
+
+### Settings
+
+All users have meeting effectiveness surveys turned on by default. Admins can turn off surveys for their entire organization or enable them for a specific set of users. When you organize meetings, you can turn off meeting effectiveness surveys using the effective meetings plan feature.
+
+
+:::image type ="content" source="images/effective-meetings-landing.png" alt-text="Screenshot that shows the effective meetings page." lightbox="images/effective-meetings-landing.png":::
+
+#### Opt in or out of surveys
+
+To opt in or out of getting feedback about your meetings, follow these steps:
+
+1. In the Viva Insights app, select **Settings**.
+2. For **Meeting effectiveness surveys**, select to turn the setting **On** or **Off**, and then select **Save**. This setting defaults to **On**.
+
+    ![Screenshot that shows Effective meeting settings.](images/meeting-effectiveness-settings.png)
+
+### Privacy by design
 
 The meeting effectiveness surveys are only sent for scheduled meetings that have five or more participants (including the meeting organizer). We also check whether the attendees who get those surveys stay in the meetings for at least five minutes. To help mitigate survey fatigue in survey participants, 10% of qualified meetings get the surveys. Providing meeting feedback is optional for all participants.
 
@@ -58,16 +89,7 @@ As the meeting organizer, you’ll only see aggregated results in Viva Insights.
 
 ![Screenshot that shows the feedback survey.](images/effective-meetings-share-feedback.png)
 
-## Opt in or out of surveys
-
-You can opt in or out of getting feedback about your meetings.
-
-1. In the Viva Insights app, select **Settings**.
-2. For **Meeting effectiveness surveys**, select to turn the setting **On** or **Off**, and then select **Save**. This setting defaults to **On**.
-
-![Screenshot that shows Effective meeting settings.](images/meeting-effectiveness-settings.png)
-
-## Admin controls
+### Admin controls
 
 To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](./viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys).
 
