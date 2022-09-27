@@ -34,8 +34,8 @@ In **Query setup**, you define some basic information about your query, like its
     >If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
 
 2. Under **Query setup**:
-    1. Optional: Name your query. Queries are assigned a default name, which follow this format: Query type, user ID, date, and time. Make sure the name is unique.
-    1. Optional: Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a custom date range. If you choose a custom date range, use the date picker to select the range you want to analyze.
+    1. Optional: Name your query. Queries are assigned a default name, which follows this format: Query type, user ID, date, and time. Make sure the name is unique.
+    1. Optional: Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range you want to analyze.
     :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
     :::image type="content" source="../images/person-query-timeperiod-datepicker.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
     1. Optional: Set the query to automatically update by checking the **Auto-refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people. This option is unchecked by default, but you can check it on any query where the **Time period** isn’t customized.
@@ -70,7 +70,7 @@ In the **Select metrics** pane, metrics are grouped by *metric category*. You ca
 
 ###### Filters, keyword search, and more information
 
-There are a few other ways to find which metrics you want to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane. You can also use the search bar to find metrics by keyword. You can use **Filter by Power BI templates** to pick metrics used in a particular [Power BI templates](./templates/introduction-to-templates.md) for your Custom Person query.
+There are a few other ways to find which metrics you want to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane. You can also use the search bar to find metrics by keyword. You can use **Filter by Power BI templates** to pick metrics used in a particular [Power BI templates](./templates/introduction-to-templates.md) for your custom Person query.
 
 To find out more about a metric, hover over its information icon.
 
@@ -92,7 +92,7 @@ Here’s how you add metrics to your query:
 
 ### Employees
 
-Once you determine what you want to know about employees, you can select which employees you want to include in your query. In **Select which employees you want to include in the query**, you define the employees you want to analyze in your query through *conditions* and *condition groups*.
+Once you determine what you want to know about employees, you can select which employees you want to include in your query. In **Select which employees you want to include in the query**, you define the employees you want to analyze through *conditions* and *condition groups*.
 
 #### About conditions and condition groups
 
