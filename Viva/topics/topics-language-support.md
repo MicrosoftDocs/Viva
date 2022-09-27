@@ -12,7 +12,6 @@ search.appverid:
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-topics
-ms.service: 
 localization_priority: Normal
 description: Find the languages available in Microsoft Viva Topics.
 
