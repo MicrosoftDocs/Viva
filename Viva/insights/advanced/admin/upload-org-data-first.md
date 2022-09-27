@@ -62,7 +62,7 @@ There are two types of fields: *System default* and *Custom*.
 
 ### System default (required or optional)
 
-System default fields can be either *required*—which are **PersonId**, **ManagerId**, and **Organization**—or *optional*. They represent attributes that Viva Insights knows and uses in specific calculations beyond grouping and filtering.
+System default fields can be either *required*—which are **PersonId**, **ManagerId**, and **Organization**—or *optional*. These fields represent attributes that Viva Insights knows and uses in specific calculations beyond grouping and filtering.
 
 >[!Important]
 > Every required field needs to have a valid, non-null value in every row. You need to map all required Viva Insights values, even if the column headers in your .csv files don’t exactly match the Viva Insights value name.
@@ -75,14 +75,14 @@ To find out whether a field is required or optional, refer to the **Viva attribu
 
 ### Custom
 
-Custom fields are optional attributes you can create. Custom fields are optional attributes you can create. The following section, step 2a, explains mapping and naming a custom attribute.
+Custom fields are optional attributes you can create. The following section, step 2a, explains mapping and naming a custom attribute.
 
 #### To map fields
 
 Follow the steps below to map your .csv data to Viva Insights attributes. 
 
 >[!Important]
->All .csv header fields, which appear under **Source column name**, need to be mapped before you can advance to the next part of the upload process.
+>All .csv header fields, which appear under **Source column name**, need to be mapped before you can move on to the next part of the upload process.
 
 1. For each required Viva Insights field:
     1. Find the corresponding column header under **Source column name**.
@@ -126,7 +126,7 @@ For information about what happens next, go to the appropriate section:
 
 After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, you’ll see a “Processing” status on the **Data connections > Upload or delete in progress** table.
 
-After processing completes, it has either succeeded or failed. Depending on the outcome, you’ll either receive a success notification or a failure notification in the top-right corner of the **Data connections** screen. 
+After processing completes, it's either succeeded or failed. Depending on the outcome, you’ll either receive a success notification or a failure notification in the top-right corner of the **Data connections** screen. 
 
 #### Processing succeeds
 
@@ -161,7 +161,7 @@ If data validation fails, you’ll see a new screen with a “Validation failed�
 
 <!--screenshot - confirm with RB-->
 
-Before you make changes in the source file and try the upload again, you can select **Download issues**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next — fix the source data or change your mapping settings.
+Before you make changes in the source file and try the upload again, you can select **Download issues**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next—fix the source data or change your mapping settings.
 
 #### Guidelines for correcting errors in data
 
@@ -175,7 +175,7 @@ All field header or column names need to:
 
 * Begin with a letter (not a number).
 * Only contain alphanumeric characters (letters and numbers, for example, **Date1**).
-* Have no leading or trailing blank spaces or special characters (non-alphanumeric, such as @, #, %, &).
+* Have no leading or trailing blank spaces or special characters (those that are non-alphanumeric, like *@*, *#*, *%*, *&*).
 
 ##### Rules for field values
 
@@ -184,7 +184,7 @@ The field values in data rows need to comply with the following formatting rules
 * The  **EffectiveDate** and **HireDate** field values need to be in the MM/DD/YYYY format.
 * The required **PersonId** and **ManagerId** field values need to be a valid email address (for example, `gc@contoso.com`).
 * The  **Layer** field values need to contain numbers only.
-* The  **HourlyRate** field values need to numbers only, which the app assumes is in US dollars for calculations and data analysis.
+* The  **HourlyRate** field values need to contain numbers only, which the app assumes is in US dollars for calculations and data analysis.
 
 >[!Note]
 >The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
