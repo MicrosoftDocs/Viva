@@ -70,7 +70,7 @@ As an organizer with a [Viva Insights subscription](https://www.microsoft.com/mi
 
 ### Settings
 
-All users have meeting effectiveness surveys turned on by default. Admins can turn off surveys for their entire organization or [enable them](./viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys) for a specific set of users. When you organize meetings, you can turn off meeting effectiveness surveys using the effective meetings plan feature.
+All users have meeting effectiveness surveys turned on by default. Admins can turn off surveys for their entire organization or [enable them](./viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys) for a specific set of users. You also can opt out of receiving feedback.
 
 #### Opt in or out of surveys
 
