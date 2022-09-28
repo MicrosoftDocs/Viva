@@ -41,7 +41,7 @@ You can customize what you see here. If you want to:
 
 ## Meeting effectiveness surveys
 
-With meeting effectiveness surveys, you can view aggregated feedback from attendees on the meetings you organized. These surveys help you gain insight into what’s going well with your meetings, and what you could improve in future meetings, to promote a healthy meeting culture at your company.
+With meeting effectiveness surveys, you can view aggregated feedback from attendees on the meetings you organized. These surveys help you gain insight into what’s going well with your meetings, and what you could improve in future meetings, to promote a healthy meeting culture.
 
 Surveys appear at the end of select Teams meetings with five or more participants. Here are the survey questions and response choices:
 
@@ -61,9 +61,9 @@ Surveys appear at the end of select Teams meetings with five or more participant
 
     * A rating scale of one to five stars
 
-### Results
+### Insights
 
-As an organizer with a Viva Insights subscription, you can see aggregated survey results in the Viva Insights app in Teams and on the web. These results include an aggregated view of star ratings and access to individual, but anonymous, feedback. The **Effective meetings** page also shows how your meetings succeeded and how they could be improved.
+As an organizer with a [Viva Insights subscription](https://www.microsoft.com/microsoft-viva/insights), you can see aggregated survey results in the Viva Insights app in Teams and on the web. These results include an aggregated view of star ratings and access to individual, anonymous feedback. The **Effective meetings** page also shows insights into how your meetings succeeded and how they could be improved.
 
 
 :::image type ="content" source="images/effective-meetings-landing.png" alt-text="Screenshot that shows the effective meetings page." lightbox="images/effective-meetings-landing.png":::
