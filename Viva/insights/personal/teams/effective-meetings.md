@@ -63,6 +63,8 @@ Surveys appear at the end of select Teams meetings with five or more participant
 
     * A rating scale of one to five stars
 
+![Screenshot that shows the feedback survey.](images/effective-meetings-share-feedback.png)
+
 ### Insights
 
 As an organizer with a [Viva Insights subscription](https://www.microsoft.com/microsoft-viva/insights), you can see aggregated survey results in the Viva Insights app in Teams and on the web. These results include an aggregated view of star ratings and access to individual, anonymous feedback. The **Effective meetings** page also shows insights into how your meetings succeeded and how they could be improved.
@@ -88,8 +90,6 @@ To opt in or out of getting feedback about your meetings, follow these steps:
 The meeting effectiveness surveys are only sent for scheduled meetings that have five or more participants (including the meeting organizer). We also check whether the attendees who get those surveys stay in the meetings for at least five minutes. To help mitigate survey fatigue in survey participants, 10% of qualified meetings get the surveys. Providing meeting feedback is optional for all participants.
 
 As the meeting organizer, you’ll only see aggregated results in Viva Insights. You won't see who sent what suggestions within the aggregated feedback.
-
-![Screenshot that shows the feedback survey.](images/effective-meetings-share-feedback.png)
 
 ### Admin controls
 
