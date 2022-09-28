@@ -19,9 +19,8 @@ search.appverid:
 description: "Learn about each Viva module in detail"
 ---
 
-
 # Learn more about Microsoft Viva modules
-
+<!--daisy-->
 Microsoft Viva is designed to solve modern workplace problems for hybrid workers, information workers, and frontline workers alike. Discover how Viva modules can support popular business scenarios. Then, learn more about technical details and planning considerations. Next, get specific guidance on how to get started planning, building, and launching.  
 
 >[!NOTE] 
