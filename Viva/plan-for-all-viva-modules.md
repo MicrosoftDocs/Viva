@@ -20,9 +20,9 @@ description: "Get all Microsoft Viva modules"
 ---
 # Get all Microsoft Viva modules
 
-[Microsoft Viva](https://www.microsoft.com/microsoft-viva) currently offers four modules that can make an impact on their own and become even more powerful when used together. Learn more about [individual Viva modules](discover-more-about-each-viva-module.md) and how you can use [two or more modules together](learn-how-to-combine-modules.md) to create personalized employee experiences for your organization.
+[Microsoft Viva](https://www.microsoft.com/microsoft-viva) currently offers several apps that can make an impact on their own and become even more powerful when used together. Learn more about [individual Viva modules](discover-more-about-each-viva-module.md) and how you can use [two or more modules together](learn-how-to-combine-modules.md) to create personalized employee experiences for your organization.
 
->[!NOTE] 
+>[!NOTE]
 > New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
 
 Follow the guidance in this article if you know your organization wants all four Viva modules.
@@ -40,14 +40,21 @@ Then, you need to purchase the [Microsoft Viva suite](https://www.microsoft.com/
 - Viva Insights to improve employee and team productivity and wellbeing.
 - Viva Learning (premium version) for employee skilling and growth.
 - Viva Topics for organization and discovery of knowledge and expertise.
+- Viva Engage to empower members of your organization to build meaningful connections.
+- Viva Goals to align teams to your organization's priorities.
+
+>[!NOTE]
+> Viva Sales isn't included in the Viva suite license.
 
 ## Step 2: Meet technical requirements
 
 After you’ve got the right licensing in place, review additional requirements to get the Viva module up and running. For more details, [review minimum requirements and planning considerations](discover-more-about-each-viva-module.md).
 
+<!--daisy-->
+
 |:::image type="content" source="media/logos/connections-launch-c-64.svg" alt-text="connection"::: <br> Viva Connections  |:::image type="content" source="media/logos/insights-launch-c-64.svg" alt-text="insight"::: <br> Viva Insights  |:::image type="content" source="media/logos/learning-launch-c-64.svg" alt-text="learning"::: <br> Viva Learning  |:::image type="content" source="media/logos/topics-launch-c-64.svg" alt-text="topics"::: <br> Viva Topics  |
 |:---------:|:---------:|:---------:|:---------:|
-|- SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites|No technical requirements besides licensing for personal and team insights.|- A Microsoft Teams team  (if you're creating a learning tab in Teams). <p> - Modern SharePoint to connect internal resources to Viva Learning. |No technical requirements besides licensing.|
+|- SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites|No technical requirements besides licensing for personal and team insights.|- A Microsoft Teams team  (if you're creating a learning tab in Teams). <p> - SharePoint to connect internal resources to Viva Learning. |No technical requirements besides licensing.|
 
 ## Step 3: Get guidance on roles for each phase
 
