@@ -20,7 +20,7 @@ description: "Learn about each Viva module in detail"
 ---
 
 # Learn more about Microsoft Viva modules
-<!--daisy-->
+
 Microsoft Viva is designed to solve modern workplace problems for hybrid workers, information workers, and frontline workers alike. Discover how Viva modules can support popular business scenarios. Then, learn more about technical details and planning considerations. Next, get specific guidance on how to get started planning, building, and launching.  
 
 >[!NOTE] 
@@ -36,6 +36,9 @@ Not sure which Viva module will have the most impact on your organization? Revie
 |- We want to be more aware of work patterns and how we get work done as individuals, as teams, and as an organization. <br> - We want to surface opportunities for how to improve our business outcomes and take steps to protect employee wellbeing. <br> - We need to help business leaders address critical questions about organizational resiliency and work culture.    | :::image type="content" source="media/logos/insights-launch-c-64.svg" alt-text="Logo of Viva Insight":::  <br>    [Viva Insights](https://www.microsoft.com/microsoft-viva/insights)   |
 |- We need to create a training program that allows employees to discover, share, and recommend training material. <br>- We want to make it easy for frontline workers to access training and skilling opportunities. <br> We need a training solution that can aggregate training content from multiple sources. <br> - We want to engage new employees in training programs that will help them ramp-up into their new roles.   |:::image type="content" source="media/logos/learning-launch-c-64.svg" alt-text="Logo of Viva Learning"::: <br>     [Viva Learning](https://www.microsoft.com/microsoft-viva/learning)    |
 |- We want employees to have a better understanding of projects and popular subjects across the organization. <br> - We need to surface contextual information when employees need it to create efficiencies and improve the employee experience. <br> - We want to create a central repository of terms, project names, and subject-matter experts that can be managed.   | :::image type="content" source="media/logos/topics-launch-c-64.svg" alt-text="Logo of Viva topics"::: <br>  [Viva Topics](https://www.microsoft.com/microsoft-viva/topics)|
+|- We want to increase engagement and social connections with employees working remotely, in different locations, and across work groups. <br> - We want to increase the visibility of our Yammer communities and encourage more participation. <br> - We want to boost participation in employee resource groups and social groups. <br> - We want to create space for employees to ask questions and crowdsource answers from outside their teams. |![Viva Engage logo.](media/logos/engage-launch-c-64.svg) <br> [Viva Engage](https://www.microsoft.com/microsoft-viva/engage) |
+|- We want to establish a transparent view of our organization's priorities and goals <br> - We want to energize teams by giving them a clear view into how their work aligns with greater business needs. <br> - We want to empower individuals to increase their accountability for reaching broader organizational goals. |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](https://www.microsoft.com/microsoft-viva/goals) |
+|- We want to automate data entry to give our sales teams more time to focus on their priorities. <br> - We want to increase the power of our CRM by incorporating customer interactions in Microsoft 365 to the data set. <br> - We want AI-generated insights to help our sales teams increase sales. |[Viva Sales](https://www.microsoft.com/microsoft-viva/sales) |
 
 ## Get more details about each Viva module
 
@@ -54,8 +57,6 @@ Each module offers special features, customization opportunities, and ways to in
 |:::image type="icon" source="media/viva-built-on-microsoft-365.png" border="false":::  |  **Built on Microsoft 365**  <br> Quickly deploy and manage Viva Connections through the Microsoft Teams admin console, no need to push additional apps to your employees’ devices.     |
 
 ## Viva Insights: Productivity and wellbeing
-
-
 
 |Icon  |Feature |
 |:---------:|---------|
@@ -94,9 +95,52 @@ Each module offers special features, customization opportunities, and ways to in
 |:::image type="icon" source="media/viva-knowledge-curation.png" border="false":::  |   **Knowledge curation** <br> Enable experts across your organization to revise topics, pin resources, and identify other experts while Viva Topics learns and makes updates.    |
 |:::image type="icon" source="media/viva-management-and-administration.png" border="false":::   |  **Management and administration** <br> Generate and show topics generated only from the content that people are allowed to see, based on your security and privacy settings in Microsoft 365.|
 
+## Viva Engage: Building meaningful relationships
+
+|Feature |Description |
+|--------|------------|
+|Communities |Connect with coworkers in communities built around interests, job types, departments, and everything else to help employees find belonging. |
+|Announcements |Keep everyone informed and engaged across web and mobile with a variety of announcement types that notify people and reach them where they are. |
+|Conversations |Have discussions, @mention coworkers, pin conversations, and build dialogue across teams and departments. |
+|Analytics |Get detailed insights into every community, event, and conversation to measure activity and engagement. |
+|Virtual events |Bring leaders and employees together for town halls and virtual events. |
+|Post questions and highlight best answers |Upvote replies and mark best answers to crowdsource solutions and help everyone learn. |
+|Stories |Create, upload, and share stories and follow stories from leaders and coworkers. |
+
+## Viva Goals: Align to achieve results
+
+|Feature |Description |
+|--------|------------|
+|[Projects](/viva/goals/projects) |Keep track of the work your organization is executing to achieve your OKRs (objectives and key results). |
+|[Review Dashboard](/viva/goals/review-dashboard) |View a customizable, presentation-ready dashboard that populates real-time data on OKR progress. |
+|[Approval workflows](/viva/goals/approval-workflows) |Managers can regulate OKR workflows for their teams. |
+|[Tags](/viva/goals/tags) |Add tags to group similar OKRs and projects under a common identifier. |
+|[Explorer](/viva/goals/explorer) |Generate preset OKR views and create custom views. |
+|[Bookmarks](/viva/goals/bookmarks-in-viva-goals) |Bookmark users and teams to quickly access their OKRs and related activities. |
+|[Quick Search and hot keys](/viva/goals/quick-search-and-hot-key-support) |Easily search for users, teams, objectives, and projects. Use hot key combinations to perform tasks quickly. |
+|[Share objectives via email](/viva/goals/share-objectives) |Provide visibility to stakeholders, share wins and updates, and request updates from OKR owners. |
+|[Nudge users](/viva/goals/nudge-users-to-check-in) |Send an email notification to a user to check in on or update an OKR. |
+|[Multiple alignment](/viva/goals/multiple-alignment) |Align a single OKR to two or more OKRs above it in the organization. |
+|[Follow organizations, teams, and users](/viva/goals/follow-teams-and-user-progress) |Follow and get updates from relevant organizations, teams, and users. |
+|[Private objectives](/viva/goals/private-objectives-key-results) |Make sensitive objectives visible to only designated audiences. |
+|[Objective delegation](/viva/goals/objective-delegation) |Delegate another individual to manage OKRs on your behalf. |
+|[KPI summary](/viva/goals/kpi-summary) |View one or more key performance indicators in a single view. |
+
+## Viva Sales: Supercharge your CRM
+
+|Feature |Description |
+|--------|------------|
+|[Connect a contact to your CRM](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081#bkmk_connectcontact) |Connect your external contacts to your CRM system. |
+|[Teams meetings](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea#bkmk_createteamsmeeting) |Create Teams meetings with customers so all your customer interactions stay in one place. |
+|[Meeting summaries](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea#bkmk_viewsummary) |Viva Sales automatically generates a meeting summary after you meet with a customer. |
+|Mentions |The **Mentions** tab displays keywords, stakeholders, products, and competitors that were mentioned during the call. When you select a word in these sections, the transcript indicates when it was mentioned. |
+|[Share CRM records in chat](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea#bkmk_sharecrmrecord) |Use Teams chat to share records from your CRM. |
+
 ## Review minimum requirements and planning considerations
 
 Each module has its own technical requirements before it can be customized and shared with others. Review requirements and other considerations like change management and the impact on end-users to help you determine a team and timeline for planning, building, and launching.
+
+<!--daisy-->
 
 |Viva Connections   | |
 |---------|---------|
