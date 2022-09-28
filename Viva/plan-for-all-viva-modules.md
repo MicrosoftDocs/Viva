@@ -70,45 +70,49 @@ After you’ve got the right licensing in place, review additional requirements 
 
 Review the different roles in each phase before you get started planning. Each module needs a few key roles that will help ensure success throughout the planning, building, and launching phases. <!--daisy-->
 
-### Viva Connections
+### Get guidance on Viva Connections
 
-#### Coordinate and plan Viva Connections
+|Coordinate and plan |Build and set up |Deploy and launch |
+|--------------------|-----------------|------------------|
+|Work with **your organization’s stakeholders** and business partners (from groups like HR, communications specialist, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections. |The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <p> - The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center. <p> - **Site owners and authors for the home site** will design the home site content, navigation, and the Dashboard. <p> - Additional **site owners and authors** may be involved to update content or news post that will be relevant to the Viva Connections experience. |Collaborate with **champions** (early adopters) to help other people at the organization adopt Viva Connections.<p> Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications. <p> - **Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working. |
 
-Work with **your organization’s stakeholders** and business partners (from groups like HR, communications specialist, and technology advocates) to identify the most valuable workflows and tasks that can be completed in Viva Connections.
+### Get guidance on Viva Insights
 
-#### Build and set up Viva Connections
+|Coordinate and plan |Build and set up |Deploy and launch |
+|--------------------|-----------------|------------------|
+|Work with your **organization’s stakeholders** and business partners to identify who does what to get Viva Insights set up, introduced, and adopted within the organization. |**Microsoft 365 enterprise or global admin** [assigns licenses](insights/personal/Setup/configure.md), [assigns roles](insights/Setup/Assign-roles-to-wpa-admins.md), and [configures app access](insights/personal/Setup/configure.md). <p> - **Insights Administrator** then works with the enterprise or global admin to [set up advanced insights](insights/Setup/Set-up-Workplace-Analytics.md) and the **Microsoft Teams Service Administrator** to [deploy the Viva Insights app in Teams](insights/personal/teams/viva-teams-app-admin-tasks.md). |After app access is set up, the admin and business leaders can then plan a rollout strategy for introducing Viva Insights to their organization. For rollout ideas, see [Roll out Viva Insights and Conduct a user pilot](insights/personal/Setup/deployment-guide.md) (Briefing emails).|
 
-The **SharePoint admin** will set a home site (if you don’t already have one) in the admin center. SharePoint admins may also help modernize classic SharePoint sites and pages where needed. <p> The **Microsoft Teams admin** will add your organization’s version of Viva Connections as an app and choose settings in the Teams admin center. <p> **Site owners and authors for the home site** will design the home site content, navigation, and the Dashboard. <p> Additional **site owners and authors** may be involved to update content or news post that will be relevant to the Viva Connections experience.
+### Get guidance on Viva Learning
 
-#### Deploy and launch Viva Connections
+|Coordinate and plan |Build and set up |Deploy and launch |
+|--------------------|-----------------|------------------|
+|Work with **Business leaders** and **HR** in your organization to define learning goals. <p> - Find out if any third-party content sources or learning management systems you’re already using can integrate with Viva Learning.|- The **Microsoft 365 global admin, SharePoint admin**, or **Knowledge admin** chooses which content sources to use in the Microsoft 365 admin center. <p> - The **Microsoft 365 global admin**, **Knowledge admin**, or **Knowledge Manager** uses the admin tab in Viva Learning to [choose how content shows up for your organization](learning/use-tabs.md). <p> -The **Microsoft Teams admin** can enable or disable Viva Learning from the Teams admin center (Viva Learning is enabled by default). <p> - The **Microsoft 365 global admin** or **Knowledge admin** can [create a Learning App Content Repository in SharePoint to integrate with Viva Learning.](learning/configure-sharepoint-content-source.md)|- **Managers** can [recommend learning content](https://support.microsoft.com/office/recommend-and-manage-content-in-viva-learning-77f9dcbf-41a8-4b19-b4d1-b99c406f37b8) to their teams, and **Team members** can share content with each other. <p> - **Managers** and **Subject matter experts** can create custom learning content that the **Microsoft 365 global admin** or **Knowledge admin** can add to the Learning App Content Repository in SharePoint.|
 
-Collaborate with **champions** (early adopters) to help other people at the organization adopt Viva Connections.<p> Leverage **executive sponsors** who can help evangelize Viva Connections at large company meetings and in broad communications. <p> **Business owners (like HR) and managers** at all levels can help teams and individuals find value and adopt new ways of working.
+### Get guidance on Viva Topics
 
-### Viva Insights
+|Coordinate and plan |Build and set up |Deploy and launch |
+|--------------------|-----------------|------------------|
+|**Stakeholders, knowledge managers, communications leads, champions**, and **topic contributors** make up your core knowledge team. <p> - **Core team** selects a rollout approach, identifies, and prioritizes scenarios, ensures technical and business readiness, and develops a communications plan.|- **Microsoft 365 global admin** or **SharePoint admin** sets up Viva Topics and configures settings in the Microsoft 365 admin center. <p> - **Knowledge managers** manage topics in the topic center, including reviewing AI-suggested topics, confirming topics are valid, removing topics that you don’t want visible to users, and editing existing topics or creating new topics. <p> - **Topic contributors** edit existing topics or create new topics.|- **Corporate communications leads** use various communication channels to announce Viva Topics. <p> - **Champions and core team** can help spread awareness through engagements and training events.|
 
-#### Coordinate and plan Viva Insights
+### Get guidance on Viva Engage
 
-Work with your **organization’s stakeholders** and business partners to identify who does what to get Viva Insights set up, introduced, and adopted within the organization.
+|Coordinate and plan |Build and set up |Deploy and launch |
+|--------------------|-----------------|------------------|
+|If your organization is already using Yammer, work with **stakeholders and your IT team** to identify how you can leverage your existing Yammer strategy in Viva Engage. If you’re not already using Yammer, work with your corporate communications specialists and leadership teams to determine how you can best use Viva Engage to support communities in your organization. | - Your **admin** will [set up Yammer for your organization](/yammer/get-started-with-yammer/admin-key-concepts) and assign admin roles for Yammer. <p> - **Verified admins** are in charge of security-related tasks, and can configure and customize Yammer for your organization, and can manage users and groups. <p> - **Network admins** can configure and customize Yammer, and can manage users and groups. <p> - **Group admins** can configure and customize their groups, and can manage day-to-day operations for their groups. | - If your organization has already been using Yammer, work with community leaders and active users to promote Viva Engage. <p> - If your organization is new to Yammer, work with leadership teams, employee resource groups, and employee social groups to develop active and vibrant communities on Viva Engage. <p> - Consult the [Yammer adoption resources](https://adoption.microsoft.com/yammer/) to help integrate Yammer communities on Viva Engage into your organization. |
 
-#### Build and set up Viva Insights
+### Get guidance on Viva Goals
 
-**Microsoft 365 enterprise or global admin** [assigns licenses](insights/personal/Setup/configure.md), [assigns roles](insights/Setup/Assign-roles-to-wpa-admins.md), and [configures app access](insights/personal/Setup/configure.md). <p> - **Insights Administrator** then works with the enterprise or global admin to [set up advanced insights](insights/Setup/Set-up-Workplace-Analytics.md) and the **Microsoft Teams Service Administrator** to [deploy the Viva Insights app in Teams](insights/personal/teams/viva-teams-app-admin-tasks.md).
+|Coordinate and plan |Build and set up |Deploy and launch |
+|--------------------|-----------------|------------------|
+|If your organization is already using OKRs (objectives and key results) to set and align business priorities, work with **organizational, division, and team leaders** to determine how best to express these in Viva Goals. If your organization is new to OKRs, work with your organization’s **stakeholders and business partners** to determine the initial levels or divisions of your organization for which you want to set OKRs in Viva Goals. Determine a cadence for reviewing and adjusting your OKRs. | - Your **admin** will sign into Viva Goals for the first time using their Azure Active Directory credentials and create an organization. If your business is choosing to divide OKRs into multiple organizations, your admin can create more than one organization. <p> - **Organizational admins** can add users to organizations, or users can sign into Viva Goals and request to join organizations. Organization admins will need to approve these requests. <p> - **Members** of an organization can create teams and assign **Team owners** and **Team admins**, who can add users to teams and approve requests to join teams. <p> - Your **Microsoft Teams admin** can set a Teams app policy to pin Viva Goals in Microsoft Teams for everyone in your organization. | - If your organization is already using OKRs, work with **stakeholders and division leaders** to migrate their OKRs into Viva Goals. <p> - For every level in your organization, such as the whole business, divisions, and teams, share news with members that OKRs are now in Viva Goals. <p> - Consult the [Viva Goals adoption guide](https://adoption.microsoft.com/files/viva/goals/Viva-Goals-Adoption-Guide.pdf) to learn more about integrating Viva Goals into your organization. |
 
-#### Deploy and launch Viva Insights
+### Get guidance on Viva Sales
 
-After app access is set up, the admin and business leaders can then plan a rollout strategy for introducing Viva Insights to their organization. For rollout ideas, see [Roll out Viva Insights and Conduct a user pilot](insights/personal/Setup/deployment-guide.md) (Briefing emails).|
+|Coordinate and plan |Build and set up |Deploy and launch |
+|--------------------|-----------------|------------------|
+|Work with **sales team leaders** and the team that manages your organization's CRM workflows to come up with an adoption plan for Viva Sales. | - Your **Microsoft 365 admin** will install Viva Sales from the Microsoft 365 admin center or Microsoft AppSource. <p> - Your **Microsoft Teams admin** will create an app setup policy and pin the app for users. | - Work with your **sales team leaders** to train your salespeople in using Viva Sales with your CRM. <p> - Share the [Viva Sales end user training content](https://support.microsoft.com/topic/introduction-to-microsoft-viva-sales-e1b89ece-e97f-4a9d-9cdc-9018fde0a6a5) with your sales teams. |
 
-### Viva Learning
-
-#### Coordinate and plan Viva Learning
-
-Work with **Business leaders** and **HR** in your organization to define learning goals. <p> - Find out if any third-party content sources or learning management systems you’re already using can integrate with Viva Learning.|- The **Microsoft 365 global admin, SharePoint admin**, or **Knowledge admin** chooses which content sources to use in the Microsoft 365 admin center. <p> - The **Microsoft 365 global admin**, **Knowledge admin**, or **Knowledge Manager** uses the admin tab in Viva Learning to [choose how content shows up for your organization](learning/use-tabs.md). <p> -The **Microsoft Teams admin** can enable or disable Viva Learning from the Teams admin center (Viva Learning is enabled by default). <p> - The **Microsoft 365 global admin** or **Knowledge admin** can [create a Learning App Content Repository in SharePoint to integrate with Viva Learning.](learning/configure-sharepoint-content-source.md)|- **Managers** can [recommend learning content](https://support.microsoft.com/office/recommend-and-manage-content-in-viva-learning-77f9dcbf-41a8-4b19-b4d1-b99c406f37b8) to their teams, and **Team members** can share content with each other. <p> - **Managers** and **Subject matter experts** can create custom learning content that the **Microsoft 365 global admin** or **Knowledge admin** can add to the Learning App Content Repository in SharePoint.|
-
-### Viva Topics
-
-#### Coordinate and plan Viva Topics
-
-**Stakeholders, knowledge managers, communications leads, champions**, and **topic contributors** make up your core knowledge team. <p> - **Core team** selects a rollout approach, identifies, and prioritizes scenarios, ensures technical and business readiness, and develops a communications plan.|- **Microsoft 365 global admin** or **SharePoint admin** sets up Viva Topics and configures settings in the Microsoft 365 admin center. <p> - **Knowledge managers** manage topics in the topic center, including reviewing AI-suggested topics, confirming topics are valid, removing topics that you don’t want visible to users, and editing existing topics or creating new topics. <p> - **Topic contributors** edit existing topics or create new topics.|- **Corporate communications leads** use various communication channels to announce Viva Topics. <p> - **Champions and core team** can help spread awareness through engagements and training events.|
+<!--daisy-->
 
 ## Step 4: How to get started
 
