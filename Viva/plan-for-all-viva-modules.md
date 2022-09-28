@@ -112,19 +112,58 @@ Review the different roles in each phase before you get started planning. Each m
 |--------------------|-----------------|------------------|
 |Work with **sales team leaders** and the team that manages your organization's CRM workflows to come up with an adoption plan for Viva Sales. | - Your **Microsoft 365 admin** will install Viva Sales from the Microsoft 365 admin center or Microsoft AppSource. <p> - Your **Microsoft Teams admin** will create an app setup policy and pin the app for users. | - Work with your **sales team leaders** to train your salespeople in using Viva Sales with your CRM. <p> - Share the [Viva Sales end user training content](https://support.microsoft.com/topic/introduction-to-microsoft-viva-sales-e1b89ece-e97f-4a9d-9cdc-9018fde0a6a5) with your sales teams. |
 
-<!--daisy-->
-
 ## Step 4: How to get started
 
-Technically, the Viva modules do not need to be installed in a specific order. Insights and Learning require less time to get going, Connections and Topics takes longer to plan and customize.
+Technically, the Viva apps don't need to be installed in a specific order. Each app has a unique setup and deployment process.
 
-|Connections  |Insights  |Learning  |Topics |
-|---------|---------|---------|---------|
-|- Create a Viva Connections Dashboard with cards. <p> - Target cards to specific audiences. <p> - Prepare content for the Feed and Resources. <p> - Upload the app to the Teams admin center. <p> - [Review the getting started guide for Viva Connections.](connections/guide-to-setting-up-viva-connections.md)| - Decide which types of insights are needed ([personal](insights/personal/introduction.md), [team](insights/org-team-insights/teamwork-habits.md), [organization](insights/org-team-insights/org-trends.md), and [advanced](insights/index-orig.md)). <p> - [Review the getting started guide for Viva Insights.](insights/Setup/setup-intro.md)|- [Choose which learning content sources to use.](learning/content-sources-365-admin-center.md) <p> - [Manage how content shows up for your org.](learning/use-tabs.md) <p> - [Review the getting started guide for Viva Learning.](learning/set-up-viva-learning.md) | - Choose which SharePoint sites you want to crawl for topics. <p> - Identify which topics, if any, you want to exclude from topic experiences. <p> - Choose which users you want to make topics visible to. <p> - Identify which users you want to give permissions to manage topics or to create or edit topics in the topic center. <p> - Choose the name that you want to give your topic center. <p> - Review the [Get your environment ready](topics/topic-experiences-get-ready.md) and [Set up Viva Topics](topics/set-up-topic-experiences.md) guidance.|
+### Get started with Viva Connections
 
-## Step 5: Prepare to launch and scale adoption with end-users
+- Create a Viva Connections Dashboard with cards.
+- Target cards to specific audiences.
+- Prepare content for the Feed and Resources.
+- Upload the app to the Teams admin center.
+- [Review the getting started guide for Viva Connections.](connections/guide-to-setting-up-viva-connections.md)
 
-All four Viva modules don't need to be launched at the same time to be useful to your organization. Consider a phased approach based on the modules that are available, the most valuable to your organization, and which modules will be the most useful and appealing to specific audiences.
+### Get started with Viva Insights
+
+- Decide which types of insights are needed ([personal](insights/personal/introduction.md), [team](insights/org-team-insights/teamwork-habits.md), [organization](insights/org-team-insights/org-trends.md), and [advanced](insights/index-orig.md)).
+- [Review the getting started guide for Viva Insights.](insights/Setup/setup-intro.md)
+
+### Get started with Viva Learning
+
+- [Choose which learning content sources to use.](learning/content-sources-365-admin-center.md)
+- [Manage how content shows up for your org.](learning/use-tabs.md)
+- [Review the getting started guide for Viva Learning.](learning/set-up-viva-learning.md)
+
+### Get started with Viva Topics
+
+- Choose which SharePoint sites you want to crawl for topics.
+- Identify which topics, if any, you want to exclude from topic experiences.
+- Choose which users you want to make topics visible to.
+- Identify which users you want to give permissions to manage topics or to create or edit topics in the topic center.
+- Choose the name that you want to give your topic center.
+- Review the [Get your environment ready](topics/topic-experiences-get-ready.md) and [Set up Viva Topics](topics/set-up-topic-experiences.md) guidance.|
+
+### Get started with Viva Engage
+
+- [Set up Yammer](/yammer/get-started-with-yammer/admin-key-concepts) for your organization.
+- Work with leadership teams to establish communities.
+
+### Get started with Viva Goals
+
+- Create an organization in Viva Goals and set organizational objectives and key results.
+- Create teams that have unique OKRs.
+- [Integrate with the goal-setting platforms](/viva/goals/integrations-overview) and tools your organization is already using.
+
+### Get started with Viva Sales
+
+- Install Viva Sales from the Micrsoft 365 admin center.
+- Add the app to Microsoft Teams.
+- Integrate Viva Sales with your CRM.
+
+## Step 5: Prepare to launch and scale adoption with end users
+
+All Viva apps don't need to be launched at the same time to be useful to your organization. Consider a phased approach based on the modules that are available, the most valuable to your organization, and which modules will be the most useful and appealing to specific audiences.
 
 ![Image of a workplace champion influencing others.](./media/viva-champion.png)
 
