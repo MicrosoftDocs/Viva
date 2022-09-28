@@ -37,7 +37,9 @@ You can customize what you see here. If you want to:
     ![Screenshot that shows the time frame dropdown list.](Images/meeting-category-insights-time-frame.png)
 
 >[!Important]
->If you haven’t categorized any meetings between the last three months and next four weeks, these insights won’t be available to you. However, you’ll have access to them once you categorize any meeting within this time period, as long as you have a Viva Insights subscription.
+>If you haven’t categorized any meetings between the last three months and next four weeks, these insights won’t be available to you. However, you’ll have access to them after you categorize any meeting within this time period, as long as you have a Viva Insights subscription.
+>
+> When you make updates to your meeting categories in Teams or Outlook, it can take up to a day for those changes to appear in the **Effective meetings** tab.
 
 ## Meeting effectiveness surveys
 
