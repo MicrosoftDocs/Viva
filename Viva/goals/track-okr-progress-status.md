@@ -1,8 +1,8 @@
 ---
 title: Track OKR progress status
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: 
 audience: Admin
 f1.keywords:

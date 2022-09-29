@@ -1,8 +1,8 @@
 ---
 title: "Roles and permissions in Viva Goals"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: 
 audience: Admin
 f1.keywords:
