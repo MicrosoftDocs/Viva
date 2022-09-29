@@ -50,16 +50,10 @@ Then, you need to purchase the [Microsoft Viva suite](https://www.microsoft.com/
 
 After you’ve got the right licensing in place, review additional requirements to get the Viva module up and running. For more details, [review minimum requirements and planning considerations](discover-more-about-each-viva-module.md).
 
-<!--daisy
-
-|:::image type="content" source="media/logos/connections-launch-c-64.svg" alt-text="connection"::: <br> Viva Connections  |:::image type="content" source="media/logos/insights-launch-c-64.svg" alt-text="insight"::: <br> Viva Insights  |:::image type="content" source="media/logos/learning-launch-c-64.svg" alt-text="learning"::: <br> Viva Learning  |:::image type="content" source="media/logos/topics-launch-c-64.svg" alt-text="topics"::: <br> Viva Topics  |
-|:---------:|:---------:|:---------:|:---------:|
-|- SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites|No technical requirements besides licensing for personal and team insights.|- A Microsoft Teams team  (if you're creating a learning tab in Teams). <p> - SharePoint to connect internal resources to Viva Learning. |No technical requirements besides licensing.| -->
-
 |Module |Requirements |
 |-------|-------------|
 |![Viva Connections logo.](media/logos/connections-launch-c-64.svg) <br> **Viva Connections** | - SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites |
-|![Viva Insights logo.](media/logos/insights-launch-c-64.svg) <br> **Viva Inights** | No tenchincal requirements besides licensing for personal and team insights |
+|![Viva Insights logo.](media/logos/insights-launch-c-64.svg) <br> **Viva Insights** | No technical requirements besides licensing for personal and team insights |
 |![Viva Learning logo.](media/logos/learning-launch-c-64.svg) <br> **Viva Learning** | - A Microsoft Teams team (if you're creating a learning tab in Teams) <br> - SharePoint site to connect internal resources to Viva Learning |
 |![Viva Topics logo.](media/logos/topics-launch-c-64.svg) <br> **Viva Topics** | No technical requirements besides licensing |
 |![Viva Engage logo.](media/logos/engage-launch-c-64.svg) <br> **Viva Engage** | No technical requirements besides licensing |
@@ -68,7 +62,7 @@ After you’ve got the right licensing in place, review additional requirements 
 
 ## Step 3: Get guidance on roles for each phase
 
-Review the different roles in each phase before you get started planning. Each module needs a few key roles that will help ensure success throughout the planning, building, and launching phases. <!--daisy-->
+Review the different roles in each phase before you get started planning. Each module needs a few key roles that will help ensure success throughout the planning, building, and launching phases.
 
 ### Get guidance on Viva Connections
 
@@ -98,7 +92,7 @@ Review the different roles in each phase before you get started planning. Each m
 
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
-|If your organization is already using Yammer, work with **stakeholders and your IT team** to identify how you can leverage your existing Yammer strategy in Viva Engage. If you’re not already using Yammer, work with your corporate communications specialists and leadership teams to determine how you can best use Viva Engage to support communities in your organization. | - Your **admin** will [set up Yammer for your organization](/yammer/get-started-with-yammer/admin-key-concepts) and assign admin roles for Yammer. <p> - **Verified admins** are in charge of security-related tasks, and can configure and customize Yammer for your organization, and can manage users and groups. <p> - **Network admins** can configure and customize Yammer, and can manage users and groups. <p> - **Group admins** can configure and customize their groups, and can manage day-to-day operations for their groups. | - If your organization has already been using Yammer, work with community leaders and active users to promote Viva Engage. <p> - If your organization is new to Yammer, work with leadership teams, employee resource groups, and employee social groups to develop active and vibrant communities on Viva Engage. <p> - Consult the [Yammer adoption resources](https://adoption.microsoft.com/yammer/) to help integrate Yammer communities on Viva Engage into your organization. |
+|If your organization is already using Yammer, work with **stakeholders and your IT team** to identify how you can leverage your existing Yammer strategy in Viva Engage. If you’re not already using Yammer, work with your corporate communications specialists and leadership teams to determine how you can best use Viva Engage to support communities in your organization. | - If your organization already uses Yammer, you can [set up Viva Engage](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) in Microsoft Teams. - If you're not already using Yammer, your **admin** will [set up Yammer for your organization](/yammer/get-started-with-yammer/admin-key-concepts) and assign admin roles for Yammer. <p> - **Verified admins** are in charge of security-related tasks, and can configure and customize Yammer for your organization, and can manage users and groups. <p> - **Network admins** can configure and customize Yammer, and can manage users and groups. <p> - **Group admins** can configure and customize their groups, and can manage day-to-day operations for their groups. | - If your organization has already been using Yammer, work with community leaders and active users to promote Viva Engage. <p> - If your organization is new to Yammer, work with leadership teams, employee resource groups, and employee social groups to develop active and vibrant communities on Viva Engage. <p> - Consult the [Yammer adoption resources](https://adoption.microsoft.com/yammer/) to help integrate Yammer communities on Viva Engage into your organization. |
 
 ### Get guidance on Viva Goals
 
@@ -110,7 +104,7 @@ Review the different roles in each phase before you get started planning. Each m
 
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
-|Work with **sales team leaders** and the team that manages your organization's CRM workflows to come up with an adoption plan for Viva Sales. | - Your **Microsoft 365 admin** will install Viva Sales from the Microsoft 365 admin center or Microsoft AppSource. <p> - Your **Microsoft Teams admin** will create an app setup policy and pin the app for users. | - Work with your **sales team leaders** to train your salespeople in using Viva Sales with your CRM. <p> - Share the [Viva Sales end user training content](https://support.microsoft.com/topic/introduction-to-microsoft-viva-sales-e1b89ece-e97f-4a9d-9cdc-9018fde0a6a5) with your sales teams. |
+|Work with **sales team leaders** and the team that manages your organization's CRM workflows to come up with an adoption plan for Viva Sales. | - Your **Microsoft 365 admin** will install Viva Sales from the Microsoft 365 admin center or the Microsoft commercial marketplace. <p> - Your **Microsoft Teams admin** will create an app setup policy and pin the app for users. | - Work with your **sales team leaders** to train your salespeople in using Viva Sales with your CRM. <p> - Share the [Viva Sales end user training content](https://support.microsoft.com/topic/introduction-to-microsoft-viva-sales-e1b89ece-e97f-4a9d-9cdc-9018fde0a6a5) with your sales teams. |
 
 ## Step 4: How to get started
 
@@ -147,7 +141,7 @@ Technically, the Viva apps don't need to be installed in a specific order. Each 
 ### Get started with Viva Engage
 
 - [Set up Yammer](/yammer/get-started-with-yammer/admin-key-concepts) for your organization.
-- Work with leadership teams to establish communities.
+- [Install Viva Engage](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) in Microsoft Teams.
 
 ### Get started with Viva Goals
 
@@ -157,7 +151,7 @@ Technically, the Viva apps don't need to be installed in a specific order. Each 
 
 ### Get started with Viva Sales
 
-- Install Viva Sales from the Micrsoft 365 admin center.
+- Install Viva Sales from the Microsoft 365 admin center.
 - Add the app to Microsoft Teams.
 - Integrate Viva Sales with your CRM.
 
