@@ -45,6 +45,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app)
 - [Add the Top news cards](#add-the-top-news-card)
 - [Add a Shifts card](#add-a-shifts-card)
+- [Add a Viva Learning card](#add-a-viva-learning-card)
 - [Add a Web link card](#add-a-web-link-card)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
@@ -96,6 +97,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
    |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the Dashboard author     |
    |[Third-party cards](#add-a-third-party-card-or-microsoft-app) | Varies |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
    |[Top news card](#add-the-top-news-card)    | ![Image of the top news card icon.](../media/connections/top-news-card-icon.png) |   Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+   |[Viva Learning](#add-a-viva-learning-card)    | ![Image of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon-2.png) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences.  |
    |[Web link](#add-a-web-link-card)    | ![Image of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
  
 6. When you're done adding cards and targeting audiences, preview the experience to ensure an ideal viewing experience.
@@ -298,6 +300,25 @@ The Shifts card shows users information about their next or current shift from t
 
 4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
+
+## Add a Viva Learning card
+
+The Viva Learning card provides users quick-links to recommended trainings, and can be set to target specific trainings to certain individuals. By clicking the Viva Learning link, users can easily access their required trainings.
+
+![Example of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-1.png)  ![Example of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-2.png)  ![Example of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-3.png)  
+
+
+1. While in edit mode, select **+ Add a card** from the Dashboard.
+
+2. Select **Viva Learning** from the Dashboard toolbox.
+
+    ![Image of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon.png)
+
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+    ![Image of the Viva Learning property pane.](../media/connections/create-dashboard/viva-learning-card-settings.png)
+
+4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
 ## Add a Web link card
