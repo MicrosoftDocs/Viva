@@ -46,54 +46,54 @@ Each module offers special features, customization opportunities, and ways to in
 
 ## Viva Connections: Culture and communication
 
-|Icon  |Feature  |
+|Feature  |Description |
 |:---------:|---------|
-|:::image type="icon" source="media/viva-company-branding.png" border="false":::    |  **Company branding** <br> Customize your employee app with your organization’s name, logo, and colors for seamless integration. |
-|:::image type="icon" source="media/viva-feed.png" border="false":::|**Feed** <br> Simplify communications sharing into a single, personalized view so employees can explore news and join conversations, keeping people connected and building relationships with people from across the organization.  |
-|:::image type="icon" source="media/viva-boost.png" border="false":::  | **Boost**  <br> Ensure visibility of high priority content by boosting to the top of employees’ feeds based on various conditions such as until read, set number of impressions, or date.      |
-|:::image type="icon" source="media/viva-3rd-party-integration.png" border="false":::   |  **3rd party integration** <br> Customize and extend Viva Connections with a rich set of 1st and 3rd party integrations from our partner ecosystem.      |
-|:::image type="content" source="media/viva-dashboard.png" alt-text="dashboard":::    |   **Dashboard**  <br>  Provide useful company resources and actionable tasks in a central, personalized destination, designed to keep your employees in the flow of work.  |
-|:::image type="icon" source="media/viva-audience-targeting.png" border="false":::   |  **Audience targeting**   <br> Provide the most relevant content to the right audiences by departments, regions, job roles, and more.    |
-|:::image type="icon" source="media/viva-built-on-microsoft-365.png" border="false":::  |  **Built on Microsoft 365**  <br> Quickly deploy and manage Viva Connections through the Microsoft Teams admin console, no need to push additional apps to your employees’ devices.     |
+|Company Branding |Customize your employee app with your organization’s name, logo, and colors for seamless integration. |
+|Feed |Simplify communications sharing into a single, personalized view so employees can explore news and join conversations, keeping people connected and building relationships with people from across the organization.  |
+|Boost |Ensure visibility of high priority content by boosting to the top of employees’ feeds based on various conditions such as until read, set number of impressions, or date.      |
+|Third party integration |Customize and extend Viva Connections with a rich set of 1st and 3rd party integrations from our partner ecosystem.      |
+|Dashboard |Provide useful company resources and actionable tasks in a central, personalized destination, designed to keep your employees in the flow of work.  |
+|Audience targeting |Provide the most relevant content to the right audiences by departments, regions, job roles, and more.    |
+|Built on Microsoft 365 |Quickly deploy and manage Viva Connections through the Microsoft Teams admin console, no need to push additional apps to your employees’ devices.     |
 
 ## Viva Insights: Productivity and wellbeing
 
-|Icon  |Feature |
+|Feature  |Description |
 |:---------:|---------|
-|:::image type="icon" source="media/viva-personal-insight.png" border="false"::: |  **Personal insights**  <br> Explore ways to build better work habits. Track and improve the effectiveness of your meetings. Prioritize wellbeing with actionable recommendations, such as reserving time for focused work.    |
-|:::image type="icon" source="media/viva-manager-insights.png" border="false":::  |    **Manager insights** <br> Help your team stay connected and engaged by better understanding team-level working habits, including patterns that lead to burnout and stress.   |
-|:::image type="icon" source="media/viva-leader-insights.png" border="false"::: |  **Leader insights**  <br> Identify trends and opportunities across the organization to drive a culture of meeting effectiveness, empowered employees, and organizational agility. |
-|:::image type="icon" source="media/viva-advanced-insight.png" border="false":::  |    **Advanced insights** <br> Generate custom insights and use predefined Power BI templates to make data-driven decisions across common business scenarios. Extend the capabilities of Viva Insights by combining Microsoft 365 data with external data, such as customer relationship management (CRM) and survey data, which might require additional capacity units. For more information, see [Viva Insights Capacity.](https://www.microsoft.com/microsoft-viva/buy-insights?rtc=1&activetab=pivot%3aoverviewtab)    |
-|:::image type="icon" source="media/viva-business-transformation-templates.png" border="false":::    |   **Business transformation templates** <br> Quantify the impact of new programs and business shifts over time through preconfigured metric sets and visualizations.     |
-|:::image type="icon" source="media/viva-manager-effectiveness-template.png" border="false"::: | **Manager effectiveness template** <br> See strengths and opportunity areas for managers. Discover trends in how managers collaborate with their direct reports and balance after-hours collaboration demands.     |
-|:::image type="icon" source="media/viva-data-extensibility.png" border="false":::  |   **Data extensibility**  <br> Combine Microsoft 365 data with data from sources—including CRM, surveys, or other collaboration platforms—for richer insights.   |
-|:::image type="icon" source="media/viva-dynamic-recommendations.png" border="false":::   |  **Dynamic recommendations**  <br> Turn insights into action through research-backed tips and suggested actions, including reminders to block weekly focus time and for managers to schedule one-on-one time with employees.    |
-|:::image type="icon" source="media/viva-collaboration-pattern-templates.png" border="false":::  |    **Collaboration pattern templates**  <br> Visualize how your employee network size, burnout risk, meeting habits, and other collaboration-based insights vary by function, level, and geography. See how the organization splits time between internal and customer-facing meetings.   |
-|:::image type="icon" source="media/viva-query-designer.png" border="false":::  |   **Query designer**  <br> Run fully customized analyses tailored to your business objectives. Export query results for use in other reporting and visualization tools.    |
-|:::image type="icon" source="media/viva-advanced-analysis-accelerators.png" border="false":::  |   **Advanced analysis accelerators** <br>  Use features including an R-script library to help analyze organizational data trends, processes, and networks.  |
+|Personal insights |Explore ways to build better work habits. Track and improve the effectiveness of your meetings. Prioritize wellbeing with actionable recommendations, such as reserving time for focused work.    |
+|Manager insights |Help your team stay connected and engaged by better understanding team-level working habits, including patterns that lead to burnout and stress.   |
+|Leader insights |Identify trends and opportunities across the organization to drive a culture of meeting effectiveness, empowered employees, and organizational agility. |
+|Advanced insights |Generate custom insights and use predefined Power BI templates to make data-driven decisions across common business scenarios. Extend the capabilities of Viva Insights by combining Microsoft 365 data with external data, such as customer relationship management (CRM) and survey data, which might require additional capacity units. For more information, see [Viva Insights Capacity.](https://www.microsoft.com/microsoft-viva/buy-insights?rtc=1&activetab=pivot%3aoverviewtab)    |
+|Business transformation templates |Quantify the impact of new programs and business shifts over time through preconfigured metric sets and visualizations.     |
+|Manager effectiveness template |See strengths and opportunity areas for managers. Discover trends in how managers collaborate with their direct reports and balance after-hours collaboration demands.     |
+|Data extensibility |Combine Microsoft 365 data with data from sources—including CRM, surveys, or other collaboration platforms—for richer insights.   |
+|Dynamic recommendations |Turn insights into action through research-backed tips and suggested actions, including reminders to block weekly focus time and for managers to schedule one-on-one time with employees.    |
+|Collaboration pattern templates |Visualize how your employee network size, burnout risk, meeting habits, and other collaboration-based insights vary by function, level, and geography. See how the organization splits time between internal and customer-facing meetings.   |
+|Query designer |Run fully customized analyses tailored to your business objectives. Export query results for use in other reporting and visualization tools.    |
+|Advanced analysis accelerators |Use features including an R-script library to help analyze organizational data trends, processes, and networks.  |
 
 ## Viva Learning: Skilling and growth
 
-|Icon  |Feature  |
+|Feature  |Description  |
 |:---------:|---------|
-|:::image type="icon" source="media/viva-learning-tabs.png" border="false"::: |   **Learning tabs** <br> Create learning tabs in the Teams channels you collaborate into curate learning selections for your team.    |
-|:::image type="icon" source="media/viva-social-learning.png" border="false":::  |   **Social learning**  <br> Share learning content in Teams chat and conversations and email.    |
-|:::image type="icon" source="media/viva-recommend-and-track.png" border="false":::   |  **Recommend and track**  <br> Recommend learning content to colleagues and track reported completion progress.    |
-|:::image type="icon" source="media/viva-diverse-content-libraries.png" border="false"::: |   **Diverse content libraries**  <br>  Bring together learning content from Microsoft, third party providers, learning management systems, and your own organization in one hub.  |
-|:::image type="icon" source="media/viva-personalized-recommendations.png" border="false":::   | **Personalized recommendations** <br>  Use intelligent search and discovery to surface relevant and trending content.     |
-|:::image type="icon" source="media/viva-custom-learning-content.png" border="false":::   |   **Custom learning content**  <br> Bring company resources into a standard learning interface through SharePoint integration.|
-|:::image type="icon" source="media/viva-protect-learning-time.png" border="false":::   |   **Protect learning time**   <br> Add learning courses to your calendar and get weekly suggestions to book learning time. |
+|Learning tabs |Create learning tabs in the Teams channels you collaborate into curate learning selections for your team.    |
+|Social learning |Share learning content in Teams chat and conversations and email.    |
+|Recommend and track |Recommend learning content to colleagues and track reported completion progress.    |
+|Diverse content libraries |Bring together learning content from Microsoft, third party providers, learning management systems, and your own organization in one hub.  |
+|Personalized recommendations |Use intelligent search and discovery to surface relevant and trending content.     |
+|Custom learning content |Bring company resources into a standard learning interface through SharePoint integration.|
+|Protect learning time |Add learning courses to your calendar and get weekly suggestions to book learning time. |
 
 ## Viva Topics: Knowledge management and expertise
 
-|Icon  |Feature |
+|Feature  |Description |
 |:---------:|---------|
-|:::image type="icon" source="media/viva-topic-cards.png" border="false":::   |**Topic cards** <br>  Deliver knowledge in context, with topic cards surfaced across Outlook, Teams, Search, and other Microsoft 365 apps.     |
-|:::image type="icon" source="media/viva-topic-centers.png" border="false":::  |   **Topic centers**  <br> Manage your organization’s topics, recognize relationships between them, or manually add and create additional topics.   |
-|:::image type="icon" source="media/viva-search-and-discovery.png" border="false":::  |    **Search and discovery**  <br> Offer a seamless and integrated experience across Microsoft 365, with topics discoverable in Microsoft Search, and in the apps you use every day.  |
-|:::image type="icon" source="media/viva-topic-pages.png" border="false":::  | **Topic pages** <br> Bring together relevant content, conversations, and expertise from across your organization into topic pages created by the AI capabilities of Viva Topics.       |
-|:::image type="icon" source="media/viva-knowledge-curation.png" border="false":::  |   **Knowledge curation** <br> Enable experts across your organization to revise topics, pin resources, and identify other experts while Viva Topics learns and makes updates.    |
-|:::image type="icon" source="media/viva-management-and-administration.png" border="false":::   |  **Management and administration** <br> Generate and show topics generated only from the content that people are allowed to see, based on your security and privacy settings in Microsoft 365.|
+|Topic cards |Deliver knowledge in context, with topic cards surfaced across Outlook, Teams, Search, and other Microsoft 365 apps.     |
+|Topic centers |Manage your organization’s topics, recognize relationships between them, or manually add and create additional topics.   |
+|Search and discovery |Offer a seamless and integrated experience across Microsoft 365, with topics discoverable in Microsoft Search, and in the apps you use every day.  |
+|Topic pages |Bring together relevant content, conversations, and expertise from across your organization into topic pages created by the AI capabilities of Viva Topics.       |
+|Knowledge curation |Enable experts across your organization to revise topics, pin resources, and identify other experts while Viva Topics learns and makes updates.    |
+|Management and administration |Generate and show topics generated only from the content that people are allowed to see, based on your security and privacy settings in Microsoft 365.|
 
 ## Viva Engage: Building meaningful relationships
 
