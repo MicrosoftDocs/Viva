@@ -189,7 +189,7 @@ Under the GDPR, data subjects may have rights to request exclusion from processi
 * **Access** – Data subjects have the right to demand what personal information is being processed, and Viva Insights gives you the ability to export the raw data, which may contain personal data. The scope of such information is restricted to what is personally associable and does not contain aggregate metrics from which no personal information can be gleaned.
 * **Correction** – Data subjects have the right to rectify their personal data. Viva Insights only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Microsoft 365 or the organizational data that you upload. This data is not corrected through Viva Insights.
 * **Deletion** – Microsoft supports the GDPR [Right to erasure](/compliance/regulatory/gdpr-dsr-Office365#deleting-personal-data).  Additionally, if necessary, customers themselves can also delete reports that identify the data subject. Customers can also delete the data subject from any other data (such as organizational data or CRM data) that they may have provided to Viva Insights.
-* **Transparency regarding processing** – See [Metric definitions](../analyst/metrics.md) for detailed information about the metrics calculated by Viva Insights, and what they mean.
+* **Transparency regarding processing** – See [Metric definitions](../reference/metrics.md) for detailed information about the metrics calculated by Viva Insights, and what they mean.
 
 >[!Note]
 > Microsoft 365 users can determine whether they have a Viva Insights license and, consequently, whether their data is being processed. For more information, see Subscription status.
