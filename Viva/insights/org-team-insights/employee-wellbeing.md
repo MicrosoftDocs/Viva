@@ -132,13 +132,28 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 ## Insights for leaders
 
-If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find some additional information on the **Employee wellbeing** tab. Specifically, the following insights are available to you.
-
-Download this [Power BI report](../Tutorials/power-bi-myorg.md) for a visualization of this information.
+If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find an additional insight on the **Employee wellbeing** tab. 
 
 ### Improve team cohesion
 
 ![Screenshot that shows the team cohesion insight.](../Images/WpA/Use/org-leader-community.png)
+
+#### Insight
+
+For **Improve team cohesion**, the **Employee wellbeing** page provides a percentage insight that shows the share of teams that are composed of tightly connected individuals and a visual insight that shows how these teams are connected across the larger organizational network.
+
+Here's some information about how those metrics are calculated:
+
+|Percentage insight  |Metric| Calculation  
+|----------|-----------|-----------------|
+|Percentage of teams composed of individuals tightly connected across workstreams| [Strong ties](../advanced/analyst/metrics.md#collaboration-hours-define)| If more than 30% of the potential ties between pairs of employees on a team are classified as strong, then the team is determined to be tightly connected.
+
+|Visual insight  |Definition|
+|----------|-----------|
+|Team tie type| Each team is represented by a dot with larger teams showing up as bigger dots. Dot coloration indicates whether the team is composed of a set of tightly connected individuals. 
+
+
+#### Best practices
 
 Changes in work environments can leave employees feeling isolated from their colleagues. Feeling part of community is important for engagement and goal alignment as employees navigate change.
 
