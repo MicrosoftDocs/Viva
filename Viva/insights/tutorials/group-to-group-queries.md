@@ -59,7 +59,7 @@ While setting up a group query differs markedly from setting up meeting or perso
 
    The following sections enable you to define how to group the time-investors and the collaborators. For example, to analyze how senior leaders allocated time across different organizations, you'd set the time investors' group to "level" and the collaborators' group to "organization."
 
-7. In the **Time investors** section, answer the next question, _How do you want to group the time investors?_ by specifying an attribute for this group, for example, FunctionType, IsInternal, or TenureMonths. 
+7. In the **Time investors** section, answer the next question, _How do you want to group the time investors?_ by specifying an attribute for this group, for example, FunctionType, IsInternal, or TenureMonths.
 
    ![Group and filter time investors.](../Images/WpA/tutorials/g2g-02-group-filter-time-investors.png)
 

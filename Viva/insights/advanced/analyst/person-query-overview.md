@@ -26,7 +26,7 @@ The custom Person query analyzes data from the point of view of each individual 
 
 :::image type="content" source="../images/person-query-diagram.png" alt-text="Screenshot that show three questions Person queries can help answer":::
 
-Each query returns one row per person, per period. 
+Each query returns one row per person, per period.
 
 Your results will include any organizational data attributes in the latest available organizational data. You can use those organizational attributes to further summarize the custom Person query results and create powerful analyses that compare and contrast  collaboration of different groups in the organization.
 
@@ -55,13 +55,13 @@ To access and run your own custom Person queries, follow this navigation in the 
 
 ### What Person query results show
 
-Person queries give you data in a clean and easy-to-use format that can take your analysis to the next level. Results show a de-identified list of each measured employee’s productivity metrics (such as time in meetings and email). Each row of data represents one person, and you can select to aggregate the results by day, week, or month. You can also combine .csv output files from two different custom person queries to gain even more in-depth insights. For more information about query results, refer to [Access query results and modify existing queries](./query-results.md). 
+Person queries give you data in a clean and easy-to-use format that can take your analysis to the next level. Results show a de-identified list of each measured employee’s productivity metrics (like time in meetings and email). Each row of data represents one person, and you can select to aggregate the results by day, week, or month. You can also combine .csv output files from two different custom Person queries to gain even more in-depth insights. For more information about query results, refer to [Access query results and modify existing queries](./query-results.md). 
 
 :::image type="content" source="../images/query-csv-output.png" alt-text="Screenshot that shows Person query result .csv output.":::
 
 ### How to run a custom Person query
 
-Refer to [Person query](./person-query.md) for step-by-step instructions on running a person query, additional guidance, and an example query.
+Refer to [Person query](./person-query.md) for step-by-step instructions on running a custom Person query, additional guidance, and an example query.
 
 ## Time limit for querying data
 
@@ -71,9 +71,7 @@ The results of any queries that you've already run remain available to you, even
 
 ## Business scenario
 
-An analyst might start by looking at a custom Person query to see trends of employees across the company related to meeting collaboration.
-
-Additionally, the analyst could create a query to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
+An analyst might start by looking at a custom Person query to see trends of employees across the company related to meeting collaboration. Additionally, the analyst could create a query to identify the groups involved in those meetings and further investigate potential causes that could be addressed.
 
 You can create custom queries, open and edit a query you’ve previously run, or clone a query that you or other analysts in your organization have run.
 

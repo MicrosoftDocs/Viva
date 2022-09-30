@@ -28,7 +28,7 @@ audience: Admin
 >
 >*The link to documentation for the previous platform can be accessed in the legacy application.*
 
-Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets works done—for example, the ways managers collaborate with their direct reports, such as whether employees maintain work-life balance, how to protect employee wellbeing, and the ways hybrid work affects the employee experience. 
+Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets works done—for example, whether employees maintain work-life balance, how to protect employee wellbeing, and the ways hybrid work affects the employee experience. 
 
 Viva Insights includes the [advanced insights app](https://go.microsoft.com/fwlink/?linkid=2201482), which has advanced analysis tools for deep-diving into data that's shown both within Microsoft Teams and in the app. The advanced analysis tools available in the app include different ways of analyzing and reporting custom analysis to your company’s business leaders.
 
@@ -68,9 +68,9 @@ While you can’t customize any metric rules in this release, you’ll be able t
 
 #### Data quality
 
-You as an analyst may receive warning messages related to the quality of uploaded data.  
+You as an analyst might receive warning messages related to the quality of uploaded data.  
 
-Once you select View data quality, the app takes you to the **Organizational data** page, which provides a summary of missing or low-quality data and attribute-specific information.
+Once you select **View data quality**, the app takes you to the **Organizational data** page, which provides a summary of missing or low-quality data and attribute-specific information.
 
 For information about data quality, refer to [Data quality in the analyst experience](./analyst/data-quality-analyst-experience.md).
 
@@ -84,7 +84,7 @@ In addition to the left pane, you can reach these videos by selecting **Watch de
 
 ##### Send feedback
 
-We welcome your feedback on this new platform! Like in other Microsoft products, you can send us feedback through the icon in the top-right of your screen.
+We welcome your feedback on this new platform! Like in other Microsoft products, you can send us feedback through the smiley-face icon in the top-right of your screen.
 
 ### Admin
 
@@ -92,7 +92,7 @@ The Admin experience in the advanced insights app contains four pages, which are
 
 #### Organizational data
 
-In the **Organizational data** page, you as an admin can check the quality of data that’s already been uploaded, check the status of existing data connections, and upload new data. To learn more about the **Organizational data** page and how to upload data into Viva Insights, see Organizational data overview. 
+In the **Organizational data** page, you as an admin can check the quality of data that’s already been uploaded, check the status of existing data connections, and upload new data. To learn more about the **Organizational data** page and how to upload data into Viva Insights, refer to [Organizational data overview](../advanced/admin/org-data-overview.md). 
 
 #### Manager settings
 
