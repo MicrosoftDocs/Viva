@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Business process analysis for Viva Insights 
 description: Learn how to analyze business processes for Viva Insights
 author: madehmer

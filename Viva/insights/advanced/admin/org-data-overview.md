@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Organizational data overview
 description: This article gives an overview of the Organizational data page in the Microsoft Viva Insights advanced insights app. 
 author: lilyolason

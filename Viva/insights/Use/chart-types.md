@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Charts in the advanced insights app
 description: Describes the different chart types and how to use the chart features in the advanced insights app with Microsoft Viva Insights
 author: madehmer

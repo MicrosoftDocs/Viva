@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Privacy settings and exclusions for Viva Insights
 description: Describes the privacy settings and exclusions in Viva Insights that administrators can set up and edit for your organization
 author: madehmer

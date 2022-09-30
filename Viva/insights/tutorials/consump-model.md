@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Capacity model for Viva Insights
 description: Learn about the capacity model for using the Query designer for advanced analysis of Viva Insights
 author: madehmer

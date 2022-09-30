@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore the stats introduction
 description: Describes the analytical Explore the stats data in Viva Insights
 author: madehmer

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Privacy and data access
 description: About the privacy and data access controls available in Microsoft Viva Insights 
 author: madehmer

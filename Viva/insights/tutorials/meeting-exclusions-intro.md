@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Meeting exclusion rules introduction
 description: Introduction to meeting exclusion rules in Microsoft Viva Insights  
 author: madehmer

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore Teams data in Viva Insights
 description: Overview of Teams collaboration data in the advanced insights app with Viva Insights
 author: madehmer

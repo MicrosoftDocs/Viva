@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Advanced insights Controls
 description: Learn about the settings in the Controls section of the advanced insights app with Microsoft Viva Insights, such as data sources, data uploads, system defaults, privacy rules, and other data analyst settings
 author: madehmer

@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Analyst settings for Viva Insights
 description: Learn about Analyst settings that admins can configure and edit for Microsoft Viva Insights
 author: madehmer

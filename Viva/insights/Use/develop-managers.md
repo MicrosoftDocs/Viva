@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Develop effective managers with Advanced insights
 description: Learn how to use Viva Insights data to analyze and develop effective managers in your organization
 author: madehmer

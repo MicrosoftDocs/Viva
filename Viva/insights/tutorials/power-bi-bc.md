@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Business continuity dashboard
 description: Use the Business continuity dashboard to visualize predefined query data from Viva Insights in Power BI
 author: madehmer

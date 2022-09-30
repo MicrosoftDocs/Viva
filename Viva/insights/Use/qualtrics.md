@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights and Qualtrics integration
 description: Learn how to integrate Microsoft Viva Insights and Qualtrics Prism Analytics data for more advanced analysis
 author: madehmer

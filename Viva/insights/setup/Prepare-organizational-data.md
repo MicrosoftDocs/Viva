@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Prepare organizational data for Viva Insights
 description: How to prepare data from your organization to upload and use in the advanced insights app 
 author: madehmer

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights Organizational data
 description: What's available on the Organizational data sources page in the advanced insights app with Microsoft Viva Insights
 author: madehmer

@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: In-depth insights in Power BI
 description: Learn how to use Power BI to deep dive into insights about your organization
 author: madehmer

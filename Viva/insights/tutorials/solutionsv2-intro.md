@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Introduction to Viva Insights plans
 description: Introduction to Viva Insights plans
 author: madehmer

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Assign roles for Microsoft Viva Insights
 description: How to assign user roles for Microsoft Viva Insights
 author: madehmer

@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Week in the life metrics in Viva Insights
 description: Overview of the data available for a Week in the life in Viva Insights
 author: madehmer

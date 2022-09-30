@@ -37,4 +37,4 @@ highlightedContent:
       url: ./org-team-insights/org-trends.md
     - title: Advanced insights
       itemType: deploy
-      url: index-orig.md
+      url: advanced/introduction-to-advanced-insights.md

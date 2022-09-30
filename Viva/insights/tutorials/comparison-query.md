@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Peer comparison queries
 description: Learn what peer comparison queries are and how to use them in Microsoft Viva Insights
 author: madehmer

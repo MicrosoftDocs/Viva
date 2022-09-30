@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Differential privacy in Viva Insights  
 description: Learn about how Microsoft Viva Insights uses Differential Privacy technology for data analysis
 author: madehmer

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Network metrics 
 description: Describes the metrics that are used in network queries
 author: madehmer

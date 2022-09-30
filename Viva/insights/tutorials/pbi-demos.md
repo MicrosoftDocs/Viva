@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights Power BI dashboard demos
 description: See demonstrations of the Power BI dashboards available in Viva Insights 
 ms.localizationpriority: medium 

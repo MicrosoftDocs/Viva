@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Assigning admin roles
 description: Learn how to assign admin roles for Microsoft Viva Insights
 author: madehmer

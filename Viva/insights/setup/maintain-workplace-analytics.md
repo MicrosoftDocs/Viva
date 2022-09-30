@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights maintenance
 description: Admin tasks for maintaining Microsoft Viva Insights data
 author: madehmer

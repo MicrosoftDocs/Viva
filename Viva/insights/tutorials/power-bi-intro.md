@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Query designer templates
 description: Learn about the Query designer templates available in Viva Insights that you can use to run a query, export its results, and visualize them in Power BI
 ms.topic: article

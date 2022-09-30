@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Validate and verify data for Viva Insights setup
 description: Setup step to validate and verify data to upload in Microsoft Viva Insights
 author: madehmer

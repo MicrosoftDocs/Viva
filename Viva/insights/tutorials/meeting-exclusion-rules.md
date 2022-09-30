@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Walkthroughs for meeting exclusion rules
 description: Introduction and walkthrough of meeting exclusion rules in Viva Insights
 author: madehmer

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Ways of working assessment dashboard
 description: Use the Ways of working assessment dashboard to visualize predefined query data from Viva Insights in Power BI
 author: madehmer

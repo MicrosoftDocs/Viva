@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Network person queries 
 description: Describes how to use Network person queries in Viva Insights to determine the Influence metric of individuals in your organization
 author: madehmer

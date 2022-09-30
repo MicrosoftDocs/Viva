@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: System defaults for Advanced insights
 description: Describes the system default settings in the advanced insights app for Viva Insights that admins configure and edit for your organization
 author: madehmer

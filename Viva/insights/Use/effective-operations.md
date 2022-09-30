@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Enhance operational effectiveness with Advanced insights
 description: Learn how to use Viva Insights data to analyze and maximize operational effectiveness in your organization 
 author: madehmer

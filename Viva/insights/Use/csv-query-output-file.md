@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: How to interpret query output in Viva Insights
 description: Understand and interpret query output is the advanced insights app with Microsoft Viva Insights
 author: madehmer

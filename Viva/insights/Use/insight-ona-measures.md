@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Visual network graph metrics with Advanced insights
 description: Learn more about the metrics used for the visual network graphs used in Advanced insights with Microsoft Viva Insights
 author: madehmer

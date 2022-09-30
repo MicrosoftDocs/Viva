@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore meetings overview data in Viva Insights
 description: Overview of meetings data in Advanced insights with Microsoft Viva Insights
 author: madehmer
