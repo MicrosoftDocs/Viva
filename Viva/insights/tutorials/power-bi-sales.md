@@ -15,7 +15,7 @@ audience: Admin
 
 The Sales effectiveness dashboard for Power BI that’s populated by Microsoft Viva Insights data to help you understand how your sales employees collaborate with external parties and identify opportunities to improve sales effectiveness in your organizations.
 
-Part of the report requires CRM data for advanced insights about CRM account collaboration. For details about how to prepare and upload CRM data into into the advanced insights app, see [Upload CRM data](../setup/crm-data-upload.md). Without CRM data, you can still run the report and access an external collaboration baseline for your organizations. Any collaborators with an external domain are defined as external collaborators.
+Part of the report requires CRM data for advanced insights about CRM account collaboration. For details about how to prepare and upload CRM data into into the advanced insights app, see [Upload CRM data](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Without CRM data, you can still run the report and access an external collaboration baseline for your organizations. Any collaborators with an external domain are defined as external collaborators.
 
 The dashboard includes the following reports.
 
@@ -54,11 +54,11 @@ To find the template for the Sales effectiveness dashboard for Power BI, go to t
 
 Before you can run the query and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in the advanced insights app.
+* Be assigned the role of [Analyst](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 >[!Note]
->For best results, you must have CRM data available. Without it, insights about account collaboration will be unavailable. For instructions, see [Upload CRM data](../setup/crm-data-upload.md).
+>For best results, you must have CRM data available. Without it, insights about account collaboration will be unavailable. For instructions, see [Upload CRM data](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Set up the dashboard
 
@@ -81,7 +81,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
    >[!Important]
    >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize employee wellbeing patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-4. In **Select filters**, confirm **Active only** is set for **Which measured employees do you want to include in your query results**. When possible, filter the employees to the sales group or external-facing employees for the dashboard. For details about filters and metrics, see [Create a Person Query](./person-queries.md).
+4. In **Select filters**, confirm **Active only** is set for **Which measured employees do you want to include in your query results**. When possible, filter the employees to the sales group or external-facing employees for the dashboard. For details about filters and metrics, see [Create a Person Query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 5. In **Organizational data**, keep the preselected **LevelDesignation** and **Organization** attributes that the dashboard requires.
 
    >[!Important]
@@ -111,7 +111,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
     ![Their collaborators selections for Power BI Sales dashboard](../Images/WpA/tutorials/pbi-sales-collaborators.png)
 
     >[!Note]
-    >The **Default match with CRM data** setting identifies an external person as a collaborator only when their email address is an exact match in [Customer contacts](../setup/crm-data-upload.md). Alternatively, if **Default + Extrapolation match with CRM data** is selected, an external person is identified as a collaborator if they share the same email domain as a customer contact.
+    >The **Default match with CRM data** setting identifies an external person as a collaborator only when their email address is an exact match in [Customer contacts](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Alternatively, if **Default + Extrapolation match with CRM data** is selected, an external person is identified as a collaborator if they share the same email domain as a customer contact.
 
 12. In **Organizational data**, keep the preselected attributes and select the same optional attributes as you did for the **Sales effectiveness** query in **Step 6**.
 13. When prompted, continue to **Results**. After both queries successfully run, in **Query designer** > **Results**, select the **Download** icon for the **Sales effectiveness** query results, select **PBI template**, and then select **OK** to download the template.
@@ -127,7 +127,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
     ![Power BI Sales OData links](../Images/WpA/tutorials/pbi-sales-odata.png)
 
 17. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-18. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+18. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
@@ -179,8 +179,8 @@ Learn how to identify and improve sales effectiveness by using Viva Insights wit
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Related topic
 
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+[View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

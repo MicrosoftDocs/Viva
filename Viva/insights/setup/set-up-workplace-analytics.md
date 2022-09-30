@@ -21,7 +21,7 @@ audience: Admin
 
 Although the Microsoft 365 admin and the Viva Insights Administrator do most of these steps, others in your organization help make decisions that relate to setup. See [Determine key personas and roles for implementation](Determine-key-personas.md) for details.
 
-**Prerequisites** - See [Environment requirements](environment-requirements.md) to learn about Viva Insights licenses and other related requirements.
+**Prerequisites** - See [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn about Viva Insights licenses and other related requirements.
 
 ## Setup steps
 
@@ -47,25 +47,25 @@ Although the Microsoft 365 admin and the Viva Insights Administrator do most of 
 
       ![The Home page guides you through setup.](../images/wpa/setup/analyst-setup.png)
   
-2. **Licenses and roles** - Verify that your Microsoft 365 admin has assigned licenses and roles to people in the organization, and then select **Next**. For more information, see [Assign licenses](assign-licenses-to-population.md) and [Assign roles](assign-roles-to-wpa-admins.md).
+2. **Licenses and roles** - Verify that your Microsoft 365 admin has assigned licenses and roles to people in the organization, and then select **Next**. For more information, see [Assign licenses](/viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
    >[!Important]
    >On the **Home** page, under **Required to start**, Viva Insights admins can see the current number of assigned roles and licenses. They can proceed with setup only if the number of assigned licenses is greater than zero. Licenses can take from 24 up to 72 hours to activate after you purchase licenses. Until licenses are provisioned, unlicensed users will  get a [500 error](../Tutorials/wpa-tool-500-error.md) when opening the app.
 
-3. **System defaults** - Set the time zone, week days, weekend days, and working hours. For more information, see [System defaults](../Use/system-defaults.md).
+3. **System defaults** - Set the time zone, week days, weekend days, and working hours. For more information, see [System defaults](/viva/insights/Use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
-4. **Privacy settings** - Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For details, see [Privacy settings](../Use/privacy-settings.md). After you've finished making both the system defaults and the privacy settings, select **Next**.
+4. **Privacy settings** - Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For details, see [Privacy settings](/viva/insights/Use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). After you've finished making both the system defaults and the privacy settings, select **Next**.
 
    >[!Important]
    >At this point, the app automatically extracts collaboration data (data about email usage, meetings, chats, and calls) in the background and keeps it ready for analysis. When the extraction is complete, you'll see a "completed processing" status on the **Setup** page.
 
 5. **Prepare organizational data** - Export organizational data from your HR system into a UTF-8 encoded .csv file. For information about what data to export and how to structure it, see [Prepare organizational data](Prepare-organizational-data.md).
 
-6. **Upload organizational data** - Upload the .csv file. For details, see [Upload organizational data](upload-organizational-data-1st.md). The following steps are part of **Uploading organizational data**:
+6. **Upload organizational data** - Upload the .csv file. For details, see [Upload organizational data](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). The following steps are part of **Uploading organizational data**:
 
-   1. **Map data** - Map the uploaded data to the applicable field names. For details, see [Field mapping](upload-organizational-data-1st.md#field-mapping).
+   1. **Map data** - Map the uploaded data to the applicable field names. For details, see [Field mapping](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-mapping).
 
-   2. **Data validation** - When the upload is validated, you'll see a message confirming it. If validation was not successful, you are advised what to do next. For details, see [Data validation](upload-organizational-data-1st.md#data-validation).
+   2. **Data validation** - When the upload is validated, you'll see a message confirming it. If validation was not successful, you are advised what to do next. For details, see [Data validation](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#data-validation).
 
    3. **Data processing** - The validated data is processed. When the processing finishes, you'll see a message that setup is complete.
 
@@ -85,8 +85,8 @@ A test environment is not recommended because good analysis requires real-time c
 
 After organizational data is uploaded and validated, no further action by the admin is necessary. After this point, it takes about one day before you can use Viva Insights for analysis. For organizations with many licensed employees, it might take slightly longer.
 
-As soon as Viva Insights is ready, people who are assigned an [applicable  role](../use/user-roles.md#role-descriptions-and-access-levels) will get an email notification about Viva Insights.
+As soon as Viva Insights is ready, people who are assigned an [applicable  role](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#role-descriptions-and-access-levels) will get an email notification about Viva Insights.
 
 ## Related topics
 
-[Environment requirements](environment-requirements.md)
+[Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

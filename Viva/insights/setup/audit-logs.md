@@ -94,7 +94,7 @@ Updated data access setting |Admin updated data access settings
 
 Activity |Description
 -----|-----------
-User logged in |User logged in to Viva Insights with a valid [user role](../use/user-roles.md)
+User logged in |User logged in to Viva Insights with a valid [user role](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 User logged out |User selected to log out of the app
 
 **Query data access (analyst) activities**

@@ -22,9 +22,9 @@ audience: Admin
 
 As a business decision maker, you can use Viva Insights to see your organization's current work conditions and trends. With these insights, you can identify “opportunity groups” (groups that you might want to act on) and do detailed analysis with the drill-down capabilities in Power BI.
 
-The Power BI Connector combines Viva Insights data with the visualization capabilities of Power BI. The data you view in Power BI stays up to date because it automatically refreshes with new data from Viva Insights. The connector also enforces privacy by preventing those who view the report from seeing data about a group smaller than the [minimum group size](../use/privacy-settings.md#minimum-group-size), which is specified by the Viva Insights admin. This lets you share reports with confidence that individual data is not exposed.
+The Power BI Connector combines Viva Insights data with the visualization capabilities of Power BI. The data you view in Power BI stays up to date because it automatically refreshes with new data from Viva Insights. The connector also enforces privacy by preventing those who view the report from seeing data about a group smaller than the [minimum group size](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#minimum-group-size), which is specified by the Viva Insights admin. This lets you share reports with confidence that individual data is not exposed.
 
-To set up these visualizations, follow the steps that are described in the following walkthrough. You need not run queries nor select metrics to populate these visualizations. The metrics are predefined and communicated to Power BI through the Power BI Connector. For background information, see [Connect through the Power BI Connector](../use/view-download-and-export-query-results.md#connect-through-the-power-bi-connector).
+To set up these visualizations, follow the steps that are described in the following walkthrough. You need not run queries nor select metrics to populate these visualizations. The metrics are predefined and communicated to Power BI through the Power BI Connector. For background information, see [Connect through the Power BI Connector](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#connect-through-the-power-bi-connector).
 
 ## View and publish insights in Power BI
 
@@ -117,17 +117,17 @@ After you've identified one or more groups that need help, how can you help them
 
 With the knowledge gained from these visualizations, you can now take action:
 
-* Learn more about current behavior and trends by running [queries](query-basics.md). You can also create a dashboard for yourself by importing data through the Query designer (especially [auto-refresh queries](query-auto-refresh.md)) into [Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
+* Learn more about current behavior and trends by running [queries](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). You can also create a dashboard for yourself by importing data through the Query designer (especially [auto-refresh queries](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)) into [Power BI](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
 * Help employees help themselves by pointing them to a pertinent [playbook](../personal/use/mya-adoption/adopt-learning-modules.md).
 
-* If you've decided that one or more groups need help recovering focus time, consider starting a [Teamwork plan](teamwork-solution.md).
+* If you've decided that one or more groups need help recovering focus time, consider starting a [Teamwork plan](/viva/insights/tutorials/teamwork-solution?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI tips, FAQs, and troubleshooting](power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI tips, FAQs, and troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Related topics
 
-* [Templates](power-bi-intro.md)
-* [Teamwork plans](teamwork-solution.md)
+* [Templates](/viva/insights/tutorials/power-bi-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Teamwork plans](/viva/insights/tutorials/teamwork-solution?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

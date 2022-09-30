@@ -17,7 +17,7 @@ audience: Admin
 
 # Customize query metrics
 
-Analysts create queries to determine workplace patterns and behaviors. An important step when creating a query is selecting the metrics that define the query's area of focus. You can use a template or a query in [Query designer](query-designer.md) to create analysis. You'll see available base metrics within the query and when you select one, it'll appear in a simple, unfiltered form.
+Analysts create queries to determine workplace patterns and behaviors. An important step when creating a query is selecting the metrics that define the query's area of focus. You can use a template or a query in [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to create analysis. You'll see available base metrics within the query and when you select one, it'll appear in a simple, unfiltered form.
 
 ## Edit a base metric
 

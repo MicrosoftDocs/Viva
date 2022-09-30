@@ -17,7 +17,7 @@ audience: Admin
 
 # Organizational data for Viva Insights
 
-Organizational data is information about your company that your admins provide to the advanced insights app with Microsoft Viva Insights. The admin either [uploads](../setup/upload-organizational-data2.md) your organizational (HR) data or Viva Insights can use the organizational data that's presented in Azure Active Directory.
+Organizational data is information about your company that your admins provide to the advanced insights app with Microsoft Viva Insights. The admin either [uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) your organizational (HR) data or Viva Insights can use the organizational data that's presented in Azure Active Directory.
 
 As either an admin or an analyst, you can use this page to understand the data quality and completeness of it in the specified week's refresh of Microsoft 365 data.
 
@@ -58,5 +58,5 @@ For more details about what data is needed for metric calculations, see:
 
 ## Related topics
 
-* [Office 365 data](office-365-data.md)
-* [CRM data](crm-data.md)
+* [Office 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [CRM data](/viva/insights/use/crm-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

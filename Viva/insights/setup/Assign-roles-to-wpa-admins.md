@@ -31,7 +31,7 @@ The _Insights Administrator_ and the legacy _Workplace Analytics admin_ are inte
 
 ## Roles and access levels
 
-See [User roles](../use/user-roles.md) for detailed role descriptions and access levels.
+See [User roles](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for detailed role descriptions and access levels.
 <!--
 ## Video: Assign roles
 
@@ -39,9 +39,9 @@ See [User roles](../use/user-roles.md) for detailed role descriptions and access
 -->
 ## Assign user or group roles
 
-See [Assign user or group roles](../setup/assign-user-roles.md) for details.
+See [Assign user or group roles](/viva/insights/setup/assign-user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 ## Related topics
 
-* [Assign user or group roles](../setup/assign-user-roles.md)
+* [Assign user or group roles](/viva/insights/setup/assign-user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)

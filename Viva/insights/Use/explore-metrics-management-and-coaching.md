@@ -82,5 +82,5 @@ Depending on roles, it can be important for employees to have time to meet with 
 
 ## Related topics
 
-* [Page settings](../use/explore-page-settings.md)
-* [Advanced insights charts](../use/chart-types.md)
+* [Page settings](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Advanced insights charts](/viva/insights/use/chart-types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

@@ -20,9 +20,9 @@ audience: Admin
 As the Microsoft Viva Insights Administrator, you can use **Leader & manager settings** to configure the following.
 
 * **Privacy settings** - Applies exclusively to the outcome data that leaders see in the Viva Insights app in Microsoft Teams. Use the **Tenant minimum group size** setting to set the minimum number of people in a group, which must be at least five, before **Insights Business Leaders** can see any data in **My organization**.
-* **Manager settings** - Enable all or specific people managers to see team insights on the **My team** page within Viva Insights in Teams. For details, see [Manager settings](manager-settings.md).
+* **Manager settings** - Enable all or specific people managers to see team insights on the **My team** page within Viva Insights in Teams. For details, see [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
-**Owner** – Viva Insights Administrators can access these settings. For details, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Viva Insights Administrators can access these settings. For details, see [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ![Leader and manager settings](../images/wpa/use/privacy-lm-settings.png)
 
@@ -33,4 +33,4 @@ As the Microsoft Viva Insights Administrator, you can use **Leader & manager set
 
 ## Related topic
 
-[Assign roles](../setup/assign-roles-to-wpa-admins.md)
+[Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

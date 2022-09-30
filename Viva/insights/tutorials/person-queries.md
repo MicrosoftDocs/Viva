@@ -77,7 +77,7 @@ You can add a filter to a base metric and edit the metric name with the filter. 
 
 ![Person query custom metric.](../images/wpa/tutorials/query-custom-metric.png)
 
-To get more details on adding metric filters, see [Customize a metric](../tutorials/customize-a-metric.md).
+To get more details on adding metric filters, see [Customize a metric](/viva/insights/tutorials/customize-a-metric?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Standardize working hours
 
@@ -170,7 +170,7 @@ You can create a person query to investigate if long meetings are a significant 
 12. Select **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
 13. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear all selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 14. Select **Run** at the top right to run the query.
-15. In **Query designer** > **Results**, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+15. In **Query designer** > **Results**, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 **Person query results**
 The following are the columns included in the query results for the custom query created in the previous steps and an example of the type of data rows you might see:
@@ -189,4 +189,4 @@ The following are the columns included in the query results for the custom query
 
 * [Metric descriptions](../Use/Metric-definitions.md)
 * [View, download, and export query results](../Use/View-download-and-export-query-results.md)
-* [Queries with CRM data](../tutorials/crm-queries.md)
+* [Queries with CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

@@ -19,11 +19,11 @@ audience: Admin
 
 As an analyst for the advanced insights app that's available in Microsoft Viva Insights, you can set attendee exclusion rules. The rules can exclude data from analysis about meeting invitees, which are based on responses that the invitees made to meeting invitations.
 
-This enables you to measure work-related calendar collaboration in analysis, such as in [Query designer](query-basics.md). These measurements are most accurate when they include data that reflects genuine collaboration.
+This enables you to measure work-related calendar collaboration in analysis, such as in [Query designer](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). These measurements are most accurate when they include data that reflects genuine collaboration.
 
 For example, the data shouldn't include meetings that schedule personal time, or count an invitee as "present" at a meeting when they weren't actually there. The advanced insights app lets you exclude these kinds of events so that they don't skew your data.
 
-**Owners** – Admins and Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to admins](../setup/assign-roles-to-wpa-admins.md).
+**Owners** – Admins and Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to admins](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ![Attendee exclusions](../images/wpa/tutorials/attendee-exclusions.png)
 
@@ -63,7 +63,7 @@ Sometimes, meeting invitees don't respond to meeting invitations. Using the "did
 
    The **Potential impact of exclusion** area shows the percentage and total number of potential attendees at meetings whose data will be excluded from analysis if you publish and use this exclusion rule.
 
-8. Optionally, select **Apply this exclusion for metrics in Explore the stats**. Selecting this option doesn't automatically affect any existing queries. This option makes this exclusion appear as the default for new queries, and it affects only the data shown in [Explore the stats](../use/explore-intro.md).
+8. Optionally, select **Apply this exclusion for metrics in Explore the stats**. Selecting this option doesn't automatically affect any existing queries. This option makes this exclusion appear as the default for new queries, and it affects only the data shown in [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 9. Select **Publish**. Your new exclusion rule will now be available to analysts who create and run queries.
 
 ## Select an attendee exclusion for a query
@@ -87,4 +87,4 @@ Sometimes, meeting invitees don't respond to meeting invitations. Using the "did
 
 ## Related topics
 
-* [Meeting exclusions](meeting-exclusions-intro.md)
+* [Meeting exclusions](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

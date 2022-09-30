@@ -69,7 +69,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >* The dashboard is designed to show you how a disruption can change your organization's work patterns. For best results, select **Last 1 year** for the **Time period** to include time before and after the disruption.
    >* If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" You can use the filters to select employees from Sales organization only. For more details about filter and metric options, see [Create a Person Query](../tutorials/person-queries.md#create-a-person-query).
+4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" You can use the filters to select employees from Sales organization only. For more details about filter and metric options, see [Create a Person Query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-person-query).
 
    >[!Important]
    >You can run the query for entire company, and then filter the Sales population in the Power BI. However, it is advised to filter Sales employees to improve the efficiency of running the report.
@@ -99,7 +99,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     >You must sign in to Power BI with the same account you use to access the advanced insights app.
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
-16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop auto-refresh](../tutorials/query-auto-refresh.md#stop-auto-refresh) option for details.
+16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop auto-refresh](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#stop-auto-refresh) option for details.
 
 ## Dashboard settings
 
@@ -134,4 +134,4 @@ The following describes each report with specific nuances to consider for each.
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
