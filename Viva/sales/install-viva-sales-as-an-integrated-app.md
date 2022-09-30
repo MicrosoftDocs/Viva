@@ -17,22 +17,28 @@ The add-in is installed in Fixed mode by default. In a Fixed deployment, users r
 
 2.  In the left pane, select **Settings** &gt; **Integrated apps**.
 
-3.  On the **Integrated apps** page, select **Get apps**.  
+3.  On the **Integrated apps** page, select **Get apps**.
+
     Microsoft AppSource opens in an embedded window.
 
 4.  In the **AppSource** window, search for **Viva Sales**.
 
-5.  In the search results, select either **Viva Sales for Microsoft Outlook** or **Viva Sales for Microsoft Teams**, and then select **Get it now**.  
+5.  In the search results, select either **Viva Sales for Microsoft Outlook** or **Viva Sales for Microsoft Teams**, and then select **Get it now**. 
 
     The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
 
-    The add-in is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Viva Sales in Teams, go to [Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md).
+6.  In the **Configuration** step, select the apps to deploy, and then select **Next**.
 
-6. In the **Microsoft Viva Sales** panel, a notification is displayed that app for Outlook is available to be deployed. Select **Deploy**.
+7.  In the **Users** step, select the users or groups who will have access to the add-in, and then select **Next**.
 
-7. In the **Deploy more apps** panel, read the app permissions and capabilities, select **Accept permissions**, and then select **Deploy**.
+8.  In the **Deployment** (**Permissions**) step, read the app permissions and capabilities for each of the apps to be deployed, select **Accept permissions** for each app, and then select **Next**.
 
-8. When the deployment is complete, select **Done**.
+9.  In the **Deployment** (**Finish**) step, review the selected settings, and then select **Finish deployment**.
+
+10. When the deployment is complete, select **Done**.
+
+> [!NOTE]
+> The app is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Viva Sales in Teams, go to [Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md).
 
 Allow up to six hours for Viva Sales to appear in users' Outlook ribbon.
 

@@ -71,7 +71,7 @@ After you've installed Viva Sales for Outlook as an individual add-in, you can c
 
 ## Microsoft Teams
 
-Microsoft Teams is not available for installation as an individual app from Microsoft 365 admin center. You must install Viva Sales as an [integrated app](install-viva-sales-as-an-integrated-app.md) and then [complete the setup in the Teams admin center](install-pin-viva-sales-teams.md).
+Microsoft Teams isn't available for installation as an individual app from Microsoft 365 admin center. You must install Viva Sales as an [integrated app](install-viva-sales-as-an-integrated-app.md) and then [complete the setup in the Teams admin center](install-pin-viva-sales-teams.md).
 
 ### See also
 
