@@ -51,7 +51,7 @@ Click the scorecard links for each article to review the Acrolinx feedback on gr
 "
 
  :template-change
- "| ${s/file} | ${acrolinx/qualityscore} | ${acrolinx/scores/correctness} | [link](${acrolinx/scorecard}) | ${s/status} |
+ "| ${s/file} | ${acrolinx/qualityscore} | ${acrolinx/flags/issues} | ${acrolinx/scores/correctness} | [link](${acrolinx/scorecard}) | ${s/status} |
 "
  
  :template-footer
