@@ -134,8 +134,6 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find an additional insight on the **Employee wellbeing** tab. 
 
-###
-
 #### Improve team cohesion
 
 ![Screenshot that shows the team cohesion insight.](../Images/WpA/Use/org-leader-community.png)
