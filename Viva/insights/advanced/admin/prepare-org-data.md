@@ -15,11 +15,11 @@ audience: Admin
 
 # Prepare organizational data
 
-This article describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before uploading it.
+This article describes the value of organizational data for analysts, and also describes the steps you as an admin need to take to identify, gather, and structure data before uploading it. To learn more about the nature and use of organizational data, refer to [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). 
 
-To learn more about the nature and use of organizational data, see [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). When you’re ready to start working with organizational data, the following sections describe how:
+When you’re ready to start working with organizational data, the following sections guide you through the data-preparation process.
 
-* [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide what trends you need to learn about to improve efficiency at work. From this, you can better choose what organizational data to use.
+* [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
 * [Know what data to include](#know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
 * [Get an export of organizational data](#get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
 * [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the.csv file that you upload.
@@ -27,12 +27,9 @@ To learn more about the nature and use of organizational data, see [Use organiza
 
 ## Use organizational data for more effective analysis
 
-Organizational data is descriptive information about employees. After an admin uploads organizational data, the advanced insights app combines it with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
+Organizational data is descriptive information about employees. After you upload organizational data, the advanced insights app combines it with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
 
-Here are examples of what analysts can do with advanced insights after the organizational data is uploaded:
-
-* Know how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
-* Customize metrics to quantify group relationships, such as collaboration time between the marketing and sales groups.
+Here's an example: After the organizational data is uploaded in the advanced insights app, an analyst might use it to learn how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
 
 Advanced insights automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; it’s the organizational data that you upload that provides analysis context.
 
@@ -40,9 +37,9 @@ Advanced insights automatically collects collaboration data from Microsoft 365. 
 
 To know what organizational data to extract, you first need to decide what workplace trends you want to learn about. For example, in an upcoming analysis, you may want to examine collaboration across different employee segments, or groups. You need to first define these groups, which you can do in various ways:
 
-* Groups as defined by organizational data
-* Groups made up of organizational hierarchy levels
-* Groups made up of performance, engagement, or other line-of-business data
+* By organizational data
+* By organizational hierarchy levels
+* By performance, engagement, or other line-of-business data
 
 Defined groups can be used in the following examples of analyses:
 
@@ -52,10 +49,10 @@ A common analysis scenario is to find patterns of collaboration between differen
 
 Attributes for segmenting populations can be helpful to consider in defining patterns of collaboration, such as:
 
-* Job family or role attributes, such as profession, function, discipline, and job code
-* Organization, line of business, or cost center, such as HR, Finance, Sales, and Marketing
-* Location attributes, such as city, state, country, and regions, as defined by your organization
-* Attributes that describe their work, such as remote, full-time employee or vendor, part-time or full-time, their tenure within the organization, or the tenure of their current role.
+* Job family or role attributes, like profession, function, discipline, and job code
+* Organization, line of business, or cost center, like HR, Finance, Sales, and Marketing
+* Location attributes, like city, state, country, and regions, as defined by your organization
+* Attributes that describe their work, like remote, full-time employee or vendor, part-time or full-time, their tenure within the organization, or the tenure of their current role
 
 Most of these attributes are available within HR information systems.
 
@@ -69,7 +66,7 @@ The following concepts are helpful in this kind of analysis:
 * **Organizational hierarchy** – For example, the names of all managers above the employee in that employee's reporting structure; each manager can be stored as a separate attribute.
 * **Layer** – For example, the position of the employee in the organizational hierarchy where layer 0 = the top leader in the company.
 * **Span** – For example, the number of direct reports assigned to an employee.
-* **Level** – For example, senior manager, VP, director, CVP, and so on.
+* **Level** – For example, senior manager, VP, director, CVP.
 
 Most of these attributes are also found in HR information systems.
 
@@ -81,11 +78,11 @@ Finally, you might want to consider tying collaboration behavior patterns to emp
 
 To get full functionality from the advanced insights app, you need to supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
 
-Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to the advanced insights app at the individual level, which means that these attributes provide context to each person in the dataset.
+Examples of organizational data include job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to the advanced insights app at the individual level, which means that these attributes provide context to each person in the dataset.
 
 ### Employees to include
 
-At a minimum, include the organizational data for all employees who have Viva Insights licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
+At a minimum, include the organizational data for all employees who have Viva Insights licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup—that is, a specific target population within the company.
 
 For example, if the people in Marketing communicate frequently with the people in Product Development, but the app has HR data only about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
@@ -118,22 +115,22 @@ Before you format and upload organizational data, you need to get it from one or
 
 In addition, your analysts might need data about business outcomes. If so, you'll need to contact line-of-business owners who have access to data stores that contain this information. For example, this data might include:
 
-* Performance-review data for specific work groups
-* Employee engagement scores captured by HR outside of HR information systems
-* Sales or other quota-attainment data that provide additional views into performance
-* Employee survey data
+* Performance-review data for specific work groups.
+* Employee engagement scores captured by HR outside of HR information systems.
+* Sales or other quota-attainment data that provide additional views into performance.
+* Employee survey data.
 
 After you get this data, you'll need to structure it for successful processing after uploading it to the app.
 
 ## Structure the organizational data
 
-After you’ve identified what data to provide, you need to export it into the correct format for uploading it. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. For more information about saving a file in UTF-8 format, see Solution.
+After you’ve identified what data to provide, you need to export it into the correct format for uploading it. To start with, the data needs to be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. 
 
-The file name needs contain only alphanumeric characters (letters and numbers), with no spaces or special characters. For example, FileName2.csv.
+The file name needs contain only alphanumeric characters (letters and numbers), with no spaces or special characters—for example, FileName2.csv.
 
 ### Required attributes
 
-Supply the following attributes as column headers, exactly as written below, need be supplied exactly as written as column headers in the .csv upload.<!--, of which **PersonId** and **ManagerId** are not case sensitive, but **Organization** is.-->
+Supply the following attributes as column headers, exactly as written below, in the .csv upload.<!--, of which **PersonId** and **ManagerId** are not case sensitive, but **Organization** is.-->
 
 * **EffectiveDate**
     * Make sure the **EffectiveDate** column has values in all rows. If you don’t provide an **EffectiveDate** column in your upload, the date you uploaded the data becomes the default **EffectiveDate**.
@@ -165,7 +162,7 @@ Custom attributes are any additional attributes you want to define to use in fil
 >
 > * The maximum number of total attributes allowed in the system is 105, which includes the five required attributes. 
 > * All dates should be in the MM/DD/YYYY format.
-> * All numerical fields (such as the required attribute "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
+> * All numerical fields (such as the required attribute "HourlyRate") need to be in the "number" format and cannot contain commas or a dollar sign.
 
 For more information, see Attribute descriptions and data-coverage requirements.
 

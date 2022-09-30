@@ -30,10 +30,10 @@ The **Data hub** tab is the first tab you see when you select the **Organization
 
 This section shows the number of:
 
-* Missing and low-quality data fields
-* Available insights
-* Missing insights
-* Days since the data was last refreshed
+* Missing and low-quality data fields.
+* Available insights.
+* Missing insights.
+* Days since the data was last refreshed.
 
 It also shows, as a donut chart, the percentage of insights displayed based on the total number of possible insights. By adding more organizational data, more insights become available and this percentage increases.
 
@@ -67,11 +67,11 @@ Learn how to upload organizational data and view import results in [Upload organ
 
 The **Data quality** tab includes the following elements:
 
-* **Data fields** – These are all the attributes provided by your organization in the organizational data upload file. When you create queries, you can filter and group employees in the organization by these data fields, so being familiar with them will give you insight into the types of queries to use for analysis.
-* **Quality score** – The percentage of measured employees who have a non-blank value for the specified data field. This score is intended as guidance, not to be an absolute measure of quality. A quality score of more than 95% leads to better quality insights. If quality scores are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low quality scores on required data fields may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
+* **Data fields** – All the attributes provided by your organization in the organizational data upload file. When you create queries, you can filter and group employees in the organization by these data fields, so being familiar with them will give you insight into the types of queries to use for analysis.
+* **Quality score** – The percentage of measured employees who have a non-blank value for the specified data field. This score is intended as guidance, not to be an absolute measure of quality. A quality score of more than 95% leads to better-quality insights. If quality scores are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low quality scores on required data fields may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
 * **Employees with this field** – The number of measured employees and internal collaborators with a non-blank value for the data field.
 * **Unique values** – The count of the unique attribute values included in the data. For example, if a **Region** data field contains North, South, Central, East, West and Southwest, its unique values count is six.
 
 ## Related topic
 
-* [Prepare organizational data](prepare-org-data.md)
+[Prepare organizational data](prepare-org-data.md)
