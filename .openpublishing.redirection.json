@@ -279,6 +279,11 @@
         "source_path": "viva/insights/use/viva-insights-myorg.md",
         "redirect_url": "/viva/insights/org-team-insights/org-trends",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/advanced/analyst/metrics.md",
+        "redirect_url": "/viva/insights/advanced/reference/metrics",
+        "redirect_document_id": false
       }
     
     ]

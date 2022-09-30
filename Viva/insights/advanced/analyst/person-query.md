@@ -30,7 +30,10 @@ In **Query setup**, you define some basic information about your query, like its
 #### To set up your query
 
 1. From the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Analysis** page, navigate to **Custom queries > Person query** and select **Start analysis**.
-1. Under **Query setup**:
+    >[!Note]
+    >If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
+
+2. Under **Query setup**:
     1. Optional: Name your query. Queries are assigned a default name, which follow this format: Query type, user ID, date, and time. Make sure the name is unique.
     1. Optional: Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a custom date range. If you choose a custom date range, use the date picker to select the range you want to analyze.
     :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
@@ -47,7 +50,7 @@ In **Query setup**, you define some basic information about your query, like its
     >[!Note]
     > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
     >
-    > To learn more about metrics used in Viva Insights, refer to [Metric definitions](./metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
+    > To learn more about metrics used in Viva Insights, refer to [Metric definitions](../reference/metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
 
 ### Metrics 
 
