@@ -303,16 +303,18 @@ The Shifts card shows users information about their next or current shift from t
 
 ## Add a Viva Learning card
 
-The Viva Learning card provides users quick-links to recommended trainings, and can be set to target specific trainings to certain individuals. By clicking the Viva Learning link, users can easily access their required trainings.
+The [Viva Learning](/viva/learning/overview-viva-learning) card provides users quick-links to recommended trainings, and can be set to target specific trainings to certain individuals. By clicking the Viva Learning link, users can easily access their required trainings.
 
-![Example of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-1.png)  ![Example of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-2.png)  ![Example of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-3.png)  
+Content in the cards is dynamic and will change according to settings in Viva Learning. Below are three example of Viva Learning card states that display different information depending on the viewer and Viva Learning settings.
+
+![Example of the Viva Learning card displaying general learning opportunities.](../media/connections/create-dashboard/viva-learning-card-1.png)  ![Example of the Viva Learning card notifying the user of a required training due.](../media/connections/create-dashboard/viva-learning-card-2.png)  ![Example of the Viva Learning card notifying user of upcoming required trainings.](../media/connections/create-dashboard/viva-learning-card-3.png)  
 
 
 1. While in edit mode, select **+ Add a card** from the Dashboard.
 
 2. Select **Viva Learning** from the Dashboard toolbox.
 
-    ![Image of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon.png)
+    ![Image of the Viva Learning card icon in the Dashboard toolbox.](../media/connections/create-dashboard/viva-learning-card-icon.png)
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
