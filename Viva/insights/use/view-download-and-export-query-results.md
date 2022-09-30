@@ -44,7 +44,7 @@ In the following example of a query-result file that's been opened in Excel, met
 ![Column headers.](../images/wpa/Use/columns-attributes-metrics.png)
   
 >[!Note]
->Metric names in character sets other than the Latin character set are retained in their original languages (as described here) for all query types but two: the [Peer comparison query](../tutorials/comparison-query.md) and the [ONA Person-to-person query](../tutorials/ona-person-to-person-query.md). In the results for these query types, metrics in non-Latin-character-set text appear in column headers as garbled characters.
+>Metric names in character sets other than the Latin character set are retained in their original languages (as described here) for all query types but two: the [Peer comparison query](/viva/insights/tutorials/comparison-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and the [ONA Person-to-person query](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). In the results for these query types, metrics in non-Latin-character-set text appear in column headers as garbled characters.
 
 >[!Important]
 >If your organization has custom applications or clients that use or process query-result data, these downstream apps or clients must be prepared to accept query output with column headers as described here, namely with metric names in their original language and with organizational-data attribute names in English.
@@ -97,7 +97,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
    >[!Note]
    >The auto-refresh option for queries determines whether the data in the OData feed is static or dynamic:
-   >* If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md).
+   >* If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
    >* If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you must run a new query and get a new corresponding URL.
 
 ### Use an OData link to view data in Excel
@@ -184,8 +184,8 @@ After you have finished creating visuals, you can publish your reports to Power 
 ## Related topics
 
 * [Connect to OData feeds in Power BI Desktop](/power-bi/desktop-connect-odata)
-* [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md)
-* [User roles in Viva Insights](../use/user-roles.md)
-* [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
+* [Power BI tips, FAQ, and troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [User roles in Viva Insights](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Auto-refresh option for queries](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Supported languages and guidelines](../overview/supported-languages.md)
 

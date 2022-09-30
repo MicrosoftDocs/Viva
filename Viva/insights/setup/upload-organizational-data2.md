@@ -19,7 +19,7 @@ audience: Admin
 Administrators can use the following steps for a subsequent upload (import) of organizational data into the advanced insights app. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 >[!Important]
->Only follow these steps if **this is not** the first time you have uploaded organizational data. If **this is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
+>Only follow these steps if **this is not** the first time you have uploaded organizational data. If **this is** the first time, follow the steps in [Upload organizational data (first upload)](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Import tasks
 
@@ -152,7 +152,7 @@ Use the Add new data for existing employees or Edit data for existing employees 
 
 ### If expected columns are missing or excluded
 
-For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Report options** on the **Mapping** page) exclude expected columns, you'll see a warning message similar to the following:
+For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Report options** on the **Mapping** page) exclude expected columns, you'll see a warning message similar to the following:
 
 ![auto-refresh query warning.](../images/wpa/setup/auto-refresh-warning.png)
 
@@ -248,5 +248,5 @@ The goal of your analysis might be to determine sales effectiveness. Your data m
 
 ### Related topics
 
-* [Prepare organizational data](prepare-organizational-data.md)
-* [First upload of organizational data](upload-organizational-data-1st.md)
+* [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [First upload of organizational data](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

@@ -21,7 +21,7 @@ Successful employees and teams use their networks to get work done effectively. 
 
 You can use the Organizational network analysis (ONA) queries to qualify a network connection between two people as a **strong tie**, a **diverse tie**, or neither.
 
-A generic network tie is defined liberally: two people who've shared at least two [meaningful interactions](../use/glossary.md#meaningful-interaction-define) in the last four weeks.
+A generic network tie is defined liberally: two people who've shared at least two [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define) in the last four weeks.
 
 Some network connections represent significantly more close collaboration than the generic minimum of just two meaningful interactions. When a network connection represents significantly more close collaboration time, Viva Insights will classify it as either a **strong tie** or as a **diverse tie**.
 
@@ -45,9 +45,9 @@ You can use the tie metrics in Network person-to-person queries. In the followin
 4. For **Group by**, select a time-grouping option: **Month** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose.
 
     >[!Note]
-    >Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with a Network query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
+    >Currently, the only [meeting-exclusion rule](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) that can be used with a Network query is the [Tenant default meeting exclusion rule](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
 
-5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
+5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).)
 
 6. Under **Select network boundary conditions**, define a filter to select the measured employees that you want to analyze in this query. For example, you can use the filters of this step to narrow the scope to a division or a group. If you skip this (optional) step, all measured employees will remain eligible for analysis.
 
@@ -70,7 +70,7 @@ You can use the tie metrics in Network person-to-person queries. In the followin
 12. In **Query designer** > **Results**, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 >[!Note]
->You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
+>You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) describes how to see and share results. For example, you can [view query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#view-query-results), [download and import query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#download-and-import-query-results), and [use an OData feed in Power BI](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
 ## Network person-to-person query output
 
@@ -86,7 +86,7 @@ _Query results example: Columns A and B_
 
 The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These first two columns appear automatically:
 
-* TieOrigin_[**PersonId**](../setup/prepare-organizational-data.md#personid-define) - A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.  
+* TieOrigin_[**PersonId**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#personid-define) - A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.  
 * TieOrigin_[**GroupId**](#groupid-define) - A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to understand whether there are opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically.
 
 ### The next columns describe the initiator of the tie
@@ -97,9 +97,9 @@ _Query results example: Columns C through E_
 
 The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These three columns represent attributes that you selected while building the query:
 
-* TieOrigin_[**FunctionType**](../setup/prepare-organizational-data.md#functiontype-define). The job function that the employee performs.
-* TieOrigin_[**LevelDesignation**](../setup/prepare-organizational-data.md#leveldesignation-define). The employee's level within the organization.
-* TieOrigin_[**Organization**](../setup/prepare-organizational-data.md#organization-define). The internal organization that the employee belongs to.
+* TieOrigin_[**FunctionType**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#functiontype-define). The job function that the employee performs.
+* TieOrigin_[**LevelDesignation**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#leveldesignation-define). The employee's level within the organization.
+* TieOrigin_[**Organization**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#organization-define). The internal organization that the employee belongs to.
 
 ### The next two columns identify the other participant in the tie
 
@@ -109,7 +109,7 @@ _Query results example: Columns F and G_
 
 The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These first two columns for this person appear automatically:
 
-* TieDestination_[**PersonId**](../setup/prepare-organizational-data.md#personid-define) - A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.
+* TieDestination_[**PersonId**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#personid-define) - A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.
 * TieDestination_[**GroupId**](#groupid-define) - A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties into another team to understand how well connected one is with that team and also discover Diverse ties in another team to understand  opportunities for novel information to flow from that team. You do not select this column as you build a query; it appears automatically.
 
 ### The next columns describe the other participant in the tie
@@ -120,9 +120,9 @@ _Query results example: Columns H through J_
 
 The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These three columns represent attributes that you selected while building the query:
 
-* TieDestination_[**FunctionType**](../setup/prepare-organizational-data.md#functiontype-define). The job function that the employee performs.  
-* TieDestination_[**LevelDesignation**](../setup/prepare-organizational-data.md#leveldesignation-define). The employee's level within the organization.  
-* TieDestination_[**Organization**](../setup/prepare-organizational-data.md#organization-define). The internal organization that the employee belongs to.  
+* TieDestination_[**FunctionType**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#functiontype-define). The job function that the employee performs.  
+* TieDestination_[**LevelDesignation**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#leveldesignation-define). The employee's level within the organization.  
+* TieDestination_[**Organization**](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#organization-define). The internal organization that the employee belongs to.  
 
 ### The last columns give the results
 
@@ -131,24 +131,24 @@ The column names for these attributes are organizational attribute names with th
 _Query results example: Columns K through O_
 
 * **Date** - The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
-* **Metrics** - The metrics that you included in the query. For more information, see [Network metric descriptions](../use/metric-definitions.md#network-metrics).
+* **Metrics** - The metrics that you included in the query. For more information, see [Network metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics).
 
    The results for this query type always include the following metrics:
 
-  * **[StrongTieScore](../use/metric-definitions.md#strong-tie-score-define)** - Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals.
-  * **[DiverseTieScore](../use/metric-definitions.md#diverse-tie-score-define)** - Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals.
-  * **[StrongTieType](../use/metric-definitions.md#strong-tie-type-define)** - This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2, based on the distribution of StrongTieScore. The values indicate the following:
+  * **[StrongTieScore](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#strong-tie-score-define)** - Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals.
+  * **[DiverseTieScore](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#diverse-tie-score-define)** - Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals.
+  * **[StrongTieType](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#strong-tie-type-define)** - This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2, based on the distribution of StrongTieScore. The values indicate the following:
     * **1:** This row clearly indicates a strong tie &mdash; 35th percentile and above, by strength.
     * **2:** This row indicates a tie that is significant but less strong: at or above the 30th percentile but below the 35th percentile.
     * **0:** This row indicates a tie that is not that strong: below the 30th percentile.  
-  * **[DiverseTieType](../use/metric-definitions.md#diverse-tie-type-define)** - This column is present to help analysts quickly find the most diverse ties. It contains values of 0, 1, or 2, based on the distribution of DiverseTieScore. The values indicate the following:
+  * **[DiverseTieType](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#diverse-tie-type-define)** - This column is present to help analysts quickly find the most diverse ties. It contains values of 0, 1, or 2, based on the distribution of DiverseTieScore. The values indicate the following:
     * **1:** This row clearly indicates a diverse tie &mdash; 50th percentile and above, by diversity.
     * **2:** This row indicates a tie that is significant but less diverse: at or above the 45th percentile but below the 50th percentile.
     * **0:** This row indicates a tie that is not that diverse: below the 45th percentile.
 
 ### Derived attributes
 
-The following organizational attribute, GroupId, is used in this query type. Note that this attribute is not among the organization data that [admins upload to the app](../setup/upload-organizational-data-1st.md). Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
+The following organizational attribute, GroupId, is used in this query type. Note that this attribute is not among the organization data that [admins upload to the app](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Rather, it is derived from the [ManagerId](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
 
 Attribute (column header) | Description |
 ---------|----------|
@@ -156,7 +156,7 @@ Attribute (column header) | Description |
 
 ## Related topics
 
-* [Network metrics](ona-metrics.md)
-* [Network person queries](ona-person-query.md)
-* [Network metric definitions](../use/metric-definitions.md#network-metrics)
-* [View, download, and export query results](../use/view-download-and-export-query-results.md)
+* [Network metrics](/viva/insights/tutorials/ona-metrics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Network person queries](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Network metric definitions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics)
+* [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

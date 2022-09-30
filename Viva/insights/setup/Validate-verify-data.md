@@ -41,4 +41,4 @@ By using data source metrics, Viva Insights data analysts can:
 
 ### Related topic
 
-[Data sources in Viva Insights](../Use/data-sourcesv2.md)
+[Data sources in Viva Insights](/viva/insights/Use/data-sourcesv2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

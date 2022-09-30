@@ -29,11 +29,11 @@ As an admin or an analyst, you can use this page to confirm that your Microsoft 
 * **Measured employees** - The employees to whom your Viva Insights admin assigned licenses during setup. After license assignments, the advanced insights app extracts Microsoft 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Viva Insights didn't get data for a person, that person is licensed but not counted as a measured employee in Viva Insights. If you are an analyst or limited analyst, this is the population that you can analyze within Viva Insights. The number of measured employees can help determine whether you have good data coverage for analysis.
 
   >[!Note]
-  > Your admin can assign employees Viva Insights licenses as a group with Azure Active Directory (Azure AD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through Azure AD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
+  > Your admin can assign employees Viva Insights licenses as a group with Azure Active Directory (Azure AD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through Azure AD. For more details, see [Assign licenses](/viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 * **Internal collaborators** - These are unmeasured employees who were included in extractions of Microsoft 365 data with whom the _measured_ employees collaborated. These people are not part of your measured population but are internal to your organization. Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.
 
-* **External collaborators** - These are people outside of your company or external to your email domain with whom your measured employees collaborated. For more information about external collaboration, see [External collaboration](../use/explore-metrics-external-collaboration.md).
+* **External collaborators** - These are people outside of your company or external to your email domain with whom your measured employees collaborated. For more information about external collaboration, see [External collaboration](/viva/insights/use/explore-metrics-external-collaboration?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 * **Average weekly collaboration chart** - This chart shows the last refreshed on weekly collaboration hours for measured employees by type, which can include hours spent on email, in meetings, in unscheduled calls, and on instant messages. The Last refreshed date shows when Office 365 Exchange and Teams data was most recently processed for this chart.
 
@@ -69,6 +69,6 @@ The following are examples of where you might encounter instances of inconsisten
 
 ## Related topics
 
-* [Organizational data](organizational-data.md)
-* [CRM data](crm-data.md)
-* [Prepare organizational data](../setup/prepare-organizational-data.md)
+* [Organizational data](/viva/insights/use/organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [CRM data](/viva/insights/use/crm-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

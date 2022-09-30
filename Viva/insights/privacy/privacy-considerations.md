@@ -24,7 +24,7 @@ A minimum group size helps maintain employee privacy by ensuring that people can
 
 ### The rule
 
-The minimum-group setting determines what you can view in [Explore the stats](../Use/explore-metrics-week-life.md) and in [Plans](../Tutorials/solutionsv2-intro.md). You can change the minimum group size to a level that's more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified with de-identified data presented in a chart.
+The minimum-group setting determines what you can view in [Explore the stats](/viva/insights/Use/explore-metrics-week-life?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and in [Plans](/viva/insights/Tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). You can change the minimum group size to a level that's more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified with de-identified data presented in a chart.
 
 #### Example
 
@@ -125,4 +125,4 @@ Term from subject line to exclude | Actual subject line | Excluded
 
 ## Related topics
 
-* [Privacy and data access](../privacy/privacy-and-data-access.md)
+* [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

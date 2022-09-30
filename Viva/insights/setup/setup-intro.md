@@ -38,4 +38,4 @@ Your admin needs to set up the Viva Insights app in Microsoft Teams before you c
 
 ## Advanced insights
 
-Before you can use the advanced analysis tools that are available in Viva Insights, your admin must complete the steps in [Set up advanced insights](set-up-workplace-analytics.md), including assigning licenses and roles and preparing and uploading your organizational data into Viva Insights.
+Before you can use the advanced analysis tools that are available in Viva Insights, your admin must complete the steps in [Set up advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), including assigning licenses and roles and preparing and uploading your organizational data into Viva Insights.

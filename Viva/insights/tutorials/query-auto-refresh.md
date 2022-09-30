@@ -54,7 +54,7 @@ Follow these steps only for results that have already run and for which auto-ref
 
    ![Turn on auto-refresh.](../images/wpa/tutorials/auto-refresh-options-off-48.png)
 
-Alternatively, you can renew an auto-refresh query within the [notifications panel](../use/wpa-notifications.md) in the advanced insights app.
+Alternatively, you can renew an auto-refresh query within the [notifications panel](/viva/insights/use/wpa-notifications?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in the advanced insights app.
 
 ## Auto-refresh details
 
@@ -111,7 +111,7 @@ If a query set to auto-refresh uses a column that becomes excluded or hashed, th
 
 If either of these schema-mismatch situations arises, after you finish mapping fields, you'll see a warning message about your "upload has certain issues that might affect execution of the auto refresh queries."
 
-If you see this message, go to [If expected columns are missing or excluded](../setup/upload-organizational-data2.md#if-expected-columns-are-missing-or-excluded) for more information.
+If you see this message, go to [If expected columns are missing or excluded](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#if-expected-columns-are-missing-or-excluded) for more information.
 
 #### Options for analysts
 
@@ -153,4 +153,4 @@ After you do this, Power BI maintains a connection to this query in the advanced
 
 ### Related topics
 
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+[View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

@@ -41,6 +41,7 @@ The **Analysis** page has templates for the following Power BI reports for visua
 * [Manager effectiveness](manager-effectiveness.md)
 
     Gain insight into collaboration patterns of people managers and find ways to improve their effectiveness.
+
 * [Meeting effectiveness](meeting-effectiveness.md)
 
     Identify whether employees practice habits that lead to more effective meetings.

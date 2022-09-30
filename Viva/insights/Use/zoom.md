@@ -17,9 +17,9 @@ audience: Admin
 
 # Zoom integration
 
-The Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Viva Insights. This integration works with R for Windows and will be included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
+The Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Viva Insights. This integration works with R for Windows and will be included in the existing [wpa R package](/viva/insights/tutorials/wpa-r-package?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), which is an open-source repository of more than 100 functions that provide pre-built analyses.
 
-This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI.
+This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment template](/viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI.
 
 This analysis helps leaders and analysts get a richer, more complete picture of collaboration patterns within their organization. See [Zoom metrics](#zoom-metrics) for a complete list of the type of metrics used for analysis of Zoom collaboration activity.
 
@@ -77,7 +77,7 @@ The following is required before setting up the Zoom integration tool:
    >[!Important]
    >You must save the mapping file as a .csv (not as an .xls or .xlsx file) with "mapping file" included in the file name.
 
-5. **Append to the existing organizational data** - Your Viva Insights or Viva Insights admin must upload the .csv mapping file with the **HashID** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in the advanced insights app. For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data2.md).
+5. **Append to the existing organizational data** - Your Viva Insights or Viva Insights admin must upload the .csv mapping file with the **HashID** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in the advanced insights app. For detailed instructions, see [Subsequent organizational data uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
    >[!Important]
    >The Zoom meeting data includes identifiable data (email IDs) that must be de-identified before using it to create Viva Insights Person query data. Your admins must protect any identifiable data and only use de-identified Zoom data for analysis purposes.
@@ -95,7 +95,7 @@ The following is required before setting up the Zoom integration tool:
 
 7. **Run and download the Viva Insights data** - Your Viva Insights analyst needs to do the following:
 
-   1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#query-templates) to create the applicable query data. When running the results, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
+   1. Follow the steps in [Ways of working assessment](/viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Standard meeting query](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#query-templates) to create the applicable query data. When running the results, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
 
       ![Required query data.](../images/wpa/use/zoom-query-data.png)
       ![HR attributes required for the results.](../images/wpa/use/zoom-hr-attributes.png)
@@ -170,5 +170,5 @@ This integration uses the following Zoom metrics for collaboration analysis.
 
 ## Related topics
 
-* [wpa R package](../tutorials/wpa-r-package.md)
-* [Ways of working assessment](../tutorials/power-bi-collab-assess.md)
+* [wpa R package](/viva/insights/tutorials/wpa-r-package?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Ways of working assessment](/viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

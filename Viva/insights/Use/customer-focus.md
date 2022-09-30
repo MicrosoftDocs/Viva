@@ -31,9 +31,9 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Optimize time with customers  |Percentage of employees who spend 8+ hours in external collaboration every week |[External network size and external collaboration hours](metric-definitions.md#person-metrics) and [connected people and connected groups](glossary.md) |Percentage of employees who spend more than 8 hours collaborating with people outside the company. This insight is calculated weekly and averaged over the entire time period. |
-|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four to get a weekly average. |
-<!--|Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations |[Influence metric](metric-definitions.md#network-metrics) |Calculates how much time employees spent collaborating with the internal network per month and averaged over the entire time period. |-->
+|Optimize time with customers  |Percentage of employees who spend 8+ hours in external collaboration every week |[External network size and external collaboration hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#person-metrics) and [connected people and connected groups](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) |Percentage of employees who spend more than 8 hours collaborating with people outside the company. This insight is calculated weekly and averaged over the entire time period. |
+|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four to get a weekly average. |
+<!--|Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations |[Influence metric](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics) |Calculates how much time employees spent collaborating with the internal network per month and averaged over the entire time period. |-->
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -41,23 +41,23 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight |Definition |
 |---------|--------|----------------------|
-|Optimize time with customers |Distribution of external collaboration |Percentage of employees grouped by their weekly [external collaboration hours](metric-definitions.md#person-metrics). They are divided into groups of employees who spend zero to four hours, four to eight hours, and more than eight hours collaborating externally with people outside the company. These percentages are calculated weekly and averaged over the entire time period. |
-|Promote coaching and development |Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, have between zero and one hour, and have more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
-<!--|Strengthen internal networks |Internal network connections by employee network strength |An [organizational network graph](insight-ona-measures.md) represents the distribution of current managers and potential managers as compared with the other employees within your organization, based on influence scores. You can use this insight to evaluate future managers with high influence scores who are currently not in managerial roles. This graph uses the [influence metric](metric-definitions.md#network-metrics). |-->
+|Optimize time with customers |Distribution of external collaboration |Percentage of employees grouped by their weekly [external collaboration hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#person-metrics). They are divided into groups of employees who spend zero to four hours, four to eight hours, and more than eight hours collaborating externally with people outside the company. These percentages are calculated weekly and averaged over the entire time period. |
+|Promote coaching and development |Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with manager 1:1](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, have between zero and one hour, and have more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
+<!--|Strengthen internal networks |Internal network connections by employee network strength |An [organizational network graph](/viva/insights/use/insight-ona-measures?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) represents the distribution of current managers and potential managers as compared with the other employees within your organization, based on influence scores. You can use this insight to evaluate future managers with high influence scores who are currently not in managerial roles. This graph uses the [influence metric](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics). |-->
 
 ## Take action
 
 You can select **See your insights** to see ways you can drive change or simply maintain your organization's focus on customers. Depending on your role, the following are available in addition to the recommendations within Take action.
 
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [management and coaching](explore-metrics-management-and-coaching.md) and [external collaboration](../tutorials/teamwork-solution.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
+* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](/viva/insights/Tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), which are based on your organizational data and industry research.
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [management and coaching](/viva/insights/use/explore-metrics-management-and-coaching?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [external collaboration](/viva/insights/tutorials/teamwork-solution?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
   |Optimize time with customers |Make strategic time investments |[External collaboration](https://workplaceanalytics.office.com/en-us/Home/Agility/ExternalCollaboration)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/Agility/ExternalCollaboration)) |
   |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching)) |
 
-* **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
+* **Plans** - Opens a new [Plan](/viva/insights/Tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) you can set up relating to one or more of the recommendations.
 
 ## Best practices
 
@@ -104,4 +104,4 @@ For more best practices and how to provide managers with go-to contacts list, se
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Metric descriptions for Advanced insights](metric-definitions.md)
+* [Metric descriptions for Advanced insights](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

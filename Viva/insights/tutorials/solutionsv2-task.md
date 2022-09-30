@@ -22,13 +22,13 @@ You can use Plans in the advanced insights app to create improvement plans for e
 People in the following roles can work on improvement plans in various ways:
 
 * **Analysts**, **limited analysts**, and **program managers** can identify groups of employees and opportunities for change, design and start plans, track plans that are underway, and examine plans that have completed.
-* **Participants** who use a plan they're enrolled in. [Plan participants' experience](solutionsv2-participants.md) for details.
+* **Participants** who use a plan they're enrolled in. [Plan participants' experience](/viva/insights/tutorials/solutionsv2-participants?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 >[!Note]  
->If you have been assigned multiple roles, your capabilities are expanded. See [User roles](../use/user-roles.md).
+>If you have been assigned multiple roles, your capabilities are expanded. See [User roles](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 >[!Important]  
->To create a plan, you must select a group of participants. For any person to be eligible for participation in a plan, they must have a Viva Insights license. See [Prerequisites for plans](solutionsv2-intro.md#prerequisites-for-plans).
+>To create a plan, you must select a group of participants. For any person to be eligible for participation in a plan, they must have a Viva Insights license. See [Prerequisites for plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#prerequisites-for-plans).
 
 ## Create a plan
 
@@ -71,7 +71,7 @@ If you have a particular group in mind, you can identify the group either by [up
 
 4. After the file is uploaded, select **Validate**.
 
-5. After the group is successfully validated, you'll see any applicable warnings about the participants. For more information, see [Validation](solutionsv2-conceptual.md#validation).
+5. After the group is successfully validated, you'll see any applicable warnings about the participants. For more information, see [Validation](/viva/insights/tutorials/solutionsv2-conceptual?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation).
 
 6. Go to [Start the plan](#start-the-plan).
 
@@ -82,7 +82,7 @@ If you have a particular group in mind, you can identify the group either by [up
     ![Filter to find a group.](../images/wpa/tutorials/filter-to-find-group.png)
 
 2. Add filters to define your group. For example, select **FunctionType**, **Equals**, and **Marketing** in the fields to select the people who work in business strategy as your group. Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection.
-3. Select **Validate**. After the group is successfully validated, you'll see any  applicable warnings. For more information, see [Validation](solutionsv2-conceptual.md#validation).
+3. Select **Validate**. After the group is successfully validated, you'll see any  applicable warnings. For more information, see [Validation](/viva/insights/tutorials/solutionsv2-conceptual?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation).
 4. Go to [Start the plan](#start-the-plan).
 
 ### Find the group through analysis
@@ -114,7 +114,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
     Selecting a question shows the answer to the question in the chart. By selecting a question that is relevant to the collaboration problem that you want to solve, you will see groups of employees who are most likely to exhibit symptoms of that problem. Selecting a question also orders the groups shown by their metrics (such as meeting hours, focus hours, or number of meetings) based on what the question asks about.
 
-    The chart has vertical bars that represent different groups of people. Each bar that represents a group that meets or exceeds the minimum group size. Any groups smaller than the minimum group size do not show up in the chart because they are too small to analyze. (Also see [Minimum group size](solutionsv2-conceptual.md#minimum-group-size).)
+    The chart has vertical bars that represent different groups of people. Each bar that represents a group that meets or exceeds the minimum group size. Any groups smaller than the minimum group size do not show up in the chart because they are too small to analyze. (Also see [Minimum group size](/viva/insights/tutorials/solutionsv2-conceptual?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#minimum-group-size).)
 
     <!-- For example, if the organization you are analyzing has a minimum group size of five, you can change it to a level that you consider more relevant for your organization. However, you cannot set the group size lower than five. In the following chart, the Data & Applied Sciences group contains fewer than five people, so its bar is shown as grayed out: -->
 
@@ -173,6 +173,6 @@ You can use the **Track** page to measure progress on the target since the plan 
 
 ## Related topics
 
-* [Plan introduction](solutionsv2-intro.md)  
-* [Plan participants' experience](solutionsv2-participants.md)  
-* [Plan concepts](solutionsv2-conceptual.md)
+* [Plan introduction](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)  
+* [Plan participants' experience](/viva/insights/tutorials/solutionsv2-participants?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)  
+* [Plan concepts](/viva/insights/tutorials/solutionsv2-conceptual?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

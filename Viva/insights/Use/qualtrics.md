@@ -31,7 +31,7 @@ The following shows an example of how you can connect Qualtrics survey scores wi
 
 ## Example use cases
 
-For example, the following shows how you can use Qualtrics survey scores for employees within the Viva Insights [Ways of working assessment](../tutorials/power-bi-collab-assess.md) dashboard in Power BI. You can use the report settings to filter the data to depict favorable (or unfavorable) responses and observe how collaboration patterns differ based on their wellbeing scores.
+For example, the following shows how you can use Qualtrics survey scores for employees within the Viva Insights [Ways of working assessment](/viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) dashboard in Power BI. You can use the report settings to filter the data to depict favorable (or unfavorable) responses and observe how collaboration patterns differ based on their wellbeing scores.
 
 ![Qualtrics and Viva Insights in Power BI settings options.](../images/wpa/use/qualtrics-pbi-settings.png)
 
@@ -87,7 +87,7 @@ A Qualtrics data manager with the necessary credentials must complete the follow
 
 Before using the Viva Insights Query Designer, you must confirm or complete the following prerequisites:
 
-* [The advanced insights app is set up](../setup/set-up-workplace-analytics.md) and ready to use.
+* [The advanced insights app is set up](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and ready to use.
 * Your analysis population is assigned Viva Insights licenses
 * Have a Viva Insights admin assigned to upload organizational (HR) data (who’s synonymous with the _legacy_ Workplace Analytics admin in the following steps).
 * Have a Advanced insights analyst assigned to create and run analysis with the Query designer.
@@ -105,12 +105,12 @@ As a Viva Insights admin, do the following to import organizational and survey d
    ![Required attributes in export file.](../images/wpa/use/qualtrics-attributes.png)
 
 2. Save the organizational file as a UTF-8 encoded .csv file.
-3. To upload this organizational file into Viva Insights, follow the steps in [Subsequent uploads](../setup/upload-organizational-data2.md) and in **Step 6** of [File Upload](../setup/upload-organizational-data2.md#file-upload), select **Add new data for existing employees**.
+3. To upload this organizational file into Viva Insights, follow the steps in [Subsequent uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and in **Step 6** of [File Upload](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#file-upload), select **Add new data for existing employees**.
 4. When prompted to map the custom fields in the app, for **Engagement**, **Motivation**, **Wellbeing**, or any other survey attribute, enter the same field names in the the app's attribute column, and select **Show in report** in the **Report options** column.
 
 ### Data analysis in Viva Insights
 
-After the upload is successfully processed in Viva Insights within the app, a Viva Insights analyst can use the survey score data in [Query designer](../tutorials/query-designer.md) with any of the available queries and Power BI templates. For example, you can include the **Engagement** attribute in [Ways of Working assessment](../tutorials/power-bi-collab-assess.md).
+After the upload is successfully processed in Viva Insights within the app, a Viva Insights analyst can use the survey score data in [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) with any of the available queries and Power BI templates. For example, you can include the **Engagement** attribute in [Ways of Working assessment](/viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 1. In [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**, and then select a query or template you want to create analysis with.
 2. When creating the query, be sure to select what Qualtrics survey score data you want to include, such as **Engagement**, **Motivation**, and **Wellbeing**.
@@ -138,14 +138,14 @@ If the organizational data in Viva Insights includes an employee identifier, suc
 If the organizational data in Viva Insights does not share a unique employee identifier with Qualtrics data, your manager needs to do the following to append organizational data in Viva Insights.
 
 1. As the Qualtrics data manager, follow the steps in [Employee Directory Tools](https://www.qualtrics.com/support/employee-experience/directories/employee-directory-tools-ex/#DownloadParticipants) to export a .csv file with employee email and ID data that is required by Viva Insights.
-2. Prepare an organizational data upload (.csv file in UTF-8 format) that maps Viva Insights data to Qualtrics data. See [Prepare organizational data](../setup/prepare-organizational-data.md) for more details about what's required in the upload. For example, the following shows how a unique identifier, such as employee ID from Qualtrics can be mapped to the Viva Insights **PersonID** in the .csv upload file:
+2. Prepare an organizational data upload (.csv file in UTF-8 format) that maps Viva Insights data to Qualtrics data. See [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details about what's required in the upload. For example, the following shows how a unique identifier, such as employee ID from Qualtrics can be mapped to the Viva Insights **PersonID** in the .csv upload file:
 
    ![Required attributes in Qualtrics upload.](../images/wpa/use/qualtrics-id-upload.png)
 
    >[!Note]
    >**EffectiveDate** in this example is the start of the survey period.
 
-3. You then need to upload this organizational file into the advanced insights app by following the steps in [Subsequent uploads](../setup/upload-organizational-data2.md) and select **Add new data for existing employees**.
+3. You then need to upload this organizational file into the advanced insights app by following the steps in [Subsequent uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and select **Add new data for existing employees**.
 4. When prompted to map the custom fields in the app, for UniqueIdentifier (Employee ID), enter the same field name in the app's attribute column, and select **Show in report** in the **Report options** column.
 5. After the upload is successful, notify the analyst that the Qualtrics data is available.
 
@@ -156,7 +156,7 @@ As the analyst, you can run the prebuilt query survey templates. You can then sh
 1. In [the advanced insights app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 2. Select **Person** > **Next** > **Person query for surveys** > **Set up query**.
 3. In the **Select metrics** section of the query, keep all the predefined metrics.
-4. In **Select filters**, select **Active only** for **Which measured employees do you want to include** and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](../tutorials/person-queries.md).
+4. In **Select filters**, select **Active only** for **Which measured employees do you want to include** and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 5. In **Organizational data**, confirm the UniqueIdentifier (Employee ID) attribute is selected.
 6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
 7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the query results, and then select **OK** to download it.

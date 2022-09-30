@@ -142,5 +142,5 @@ The **Account collaboration by domain** table can list up to a maximum of 500 CR
 
 ## Related topics
 
-* [Microsoft 365 data](office-365-data.md)
-* [Organizational data](organizational-data.md)
+* [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Organizational data](/viva/insights/use/organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
