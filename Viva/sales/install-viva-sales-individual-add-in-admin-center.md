@@ -1,6 +1,6 @@
 ---
-title: Install Viva Sales from Microsoft 365 admin center
-description: Learn how to install Viva Sales from Microsoft 365 admin center
+title: Install Viva Sales as individual add-in from Microsoft 365 admin center
+description: Learn how to install Viva Sales as individual add-in from Microsoft 365 admin center
 ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Install Viva Sales from Microsoft 365 admin center
+# Install Viva Sales as individual add-in from Microsoft 365 admin center
 
 ## Microsoft Outlook
 
