@@ -38,15 +38,15 @@ In **Query setup**, you define some basic information about your query, like its
     1. Optional: Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range you want to analyze.
     :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
     :::image type="content" source="../images/person-query-timeperiod-datepicker.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
-    1. Optional: Set the query to automatically update by checking the **Auto-refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people. This option is unchecked by default, but you can check it on any query where the **Time period** isn’t customized.
-        :::image type="content" source="../images/person-query-auto-refresh-with-tooltip.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
+    1. Optional: Set the query to automatically update by checking the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people. This option is unchecked by default, but you can check it on any query where the **Time period** isn’t customized.
+        :::image type="content" source="../images/person-query-auto-refresh1.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
     >[!Note]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
 
     4. Optional: Type a **Description**.
-    1. Optional: Set how the query is grouped. Custom Person queries are grouped by **Month** by default. To change this setting to **Week**, select **More settings** beneath the **Description** box.
+    1. Optional: Set how the query is grouped. Custom Person queries are grouped by **Month** by default. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
         :::image type="content" source="../images/more-settings.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
-        Selecting **More settings** brings you to the **More settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
+        Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
     >[!Note]
     > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
     >
@@ -139,7 +139,7 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
     >[!Note]
     >
-    >If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly.
+    >If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run, or contact your admin.
 
 ## Running the query
 
@@ -147,7 +147,7 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
 ### To access your query results
 
-After your query runs, you can access its results in the **Query results** page. On the **Query results** page, you can also edit and clone your query. For further information, refer to [Query results](./query-results.md).
+After your query runs, you can access its results in the **Query results** page. On the **Query results** page, you can also edit and clone your query. For further information, refer to [Access query results and modify existing queries](./query-results.md).
 
 ## Example Person query for after-hours communication
 
@@ -162,9 +162,9 @@ Here’s how you might do that:
 1. Set up your query.
     1.  **Query name**: Give your query a custom name by typing in something like “AfterHoursWest.”
     1. **Time period**: Select **Last 6 months**.
-    1. **Auto-refresh**: You just want to have this run once, so leave the **Auto-refresh** box unchecked.
+    1. **Auto-Refresh**: You just want to have this run once, so leave the **Auto-Refresh** box unchecked.
     1. **Description**: Other analysts in your organization might want to know more about this query, so give it a brief description.
-    1. **More settings**: You want this query to be grouped by month, not week. Select **More settings**, then change **Group by** to **Month**.
+    1. **More Settings**: You want this query to be grouped by month, not week. Select **More Settings**, then change **Group by** to **Month**.
 2. Add metrics.
     1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
     1. Because you want to add metrics about collaboration after hours, expand the **After hours collaboration** metric category. 

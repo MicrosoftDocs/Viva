@@ -74,4 +74,4 @@ The **Data quality** tab includes the following elements:
 
 ## Related topic
 
-* [Prepare organizational data](prepare-org-data.md)
+[Prepare organizational data](prepare-org-data.md)

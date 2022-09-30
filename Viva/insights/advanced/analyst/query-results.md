@@ -60,7 +60,7 @@ If the analyst who ran the query wants to run this query again later, they can s
 
 When a query successfully runs, you’ll see a green checkmark within a green circle labeled **Success**.
 
-![Query status: "Success"](../images/query-results-status-success.png)
+![Screenshot that shows a query's Success status.](../images/query-results-status-success.png)
 
 If you ran the query, you can now edit, delete, or rename it. All other analysts can now clone or favorite it.
 
@@ -68,11 +68,7 @@ If you ran the query, you can now edit, delete, or rename it. All other analysts
 
 If an error occurs while a query is running, you’ll see a **Failed** status. 
 
-![Query recurrence toggle with tooltip](../images/query-results-failed.png)
-
-#### Needs attention
-
-
+![Screenshot that shows a query's Failed status.](../images/query-results-failed.png)
 
 ### Results filters
 
@@ -94,6 +90,8 @@ Analysts who didn’t run a query can’t set it to auto-refresh.
 
 When you select the **More options** ellipses—located in the far-right column of the **Query results** page—you’ll see a few different options based on whether you ran the query or are another analyst in the organization: **Edit query name**, **Edit query**, **Clone query**, **Favorite**, and **Delete query**.
 
+![Screenshot that shows a query's Failed status.](../images/query-results-contextual-menu.png)
+
 Let’s explore these options in more detail.
 
 #### Edit query name
@@ -107,13 +105,17 @@ To change a query name, select the **Edit query name** option.
 
 After you’ve successfully renamed your query, you’ll receive a notification in the upper right corner of your screen.
 
+#### View query
+
+*Applies to: any analyst in the organization*
+
+If you want to see how a query was set up, but don't want to edit anything, you can select **View query**. This option takes you to the query's setup screen. You can clone a query from here, too.
+
 #### Edit query
 
 *Applies to: analyst who ran the query*
 
 If you want to change your query’s setup information (like **Query name** and **Time period**), metrics, conditions and condition groups, and employee attributes, you can edit the query and run it again.
-
-![Query recurrence toggle with tooltip](../images/query-results-edit-query-tooltip-close.png)
 
 >[!Caution]
 >The **Edit query** option permanently deletes and replaces the query’s existing results. To keep a query’s existing results, use the **Clone option** instead and make changes in a new query.

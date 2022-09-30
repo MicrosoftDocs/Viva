@@ -66,7 +66,7 @@ The following concepts are helpful in this kind of analysis:
 * **Organizational hierarchy** – For example, the names of all managers above the employee in that employee's reporting structure; each manager can be stored as a separate attribute.
 * **Layer** – For example, the position of the employee in the organizational hierarchy where layer 0 = the top leader in the company.
 * **Span** – For example, the number of direct reports assigned to an employee.
-* **Level** – For example, senior manager, VP, director, CVP, and so on.
+* **Level** – For example, senior manager, VP, director, CVP.
 
 Most of these attributes are also found in HR information systems.
 
@@ -115,22 +115,22 @@ Before you format and upload organizational data, you need to get it from one or
 
 In addition, your analysts might need data about business outcomes. If so, you'll need to contact line-of-business owners who have access to data stores that contain this information. For example, this data might include:
 
-* Performance-review data for specific work groups
-* Employee engagement scores captured by HR outside of HR information systems
-* Sales or other quota-attainment data that provide additional views into performance
-* Employee survey data
+* Performance-review data for specific work groups.
+* Employee engagement scores captured by HR outside of HR information systems.
+* Sales or other quota-attainment data that provide additional views into performance.
+* Employee survey data.
 
 After you get this data, you'll need to structure it for successful processing after uploading it to the app.
 
 ## Structure the organizational data
 
-After you’ve identified what data to provide, you need to export it into the correct format for uploading it. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. For more information about saving a file in UTF-8 format, see Solution.
+After you’ve identified what data to provide, you need to export it into the correct format for uploading it. To start with, the data needs to be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. 
 
-The file name needs contain only alphanumeric characters (letters and numbers), with no spaces or special characters. For example, FileName2.csv.
+The file name needs contain only alphanumeric characters (letters and numbers), with no spaces or special characters—for example, FileName2.csv.
 
 ### Required attributes
 
-Supply the following attributes as column headers, exactly as written below, need be supplied exactly as written as column headers in the .csv upload.<!--, of which **PersonId** and **ManagerId** are not case sensitive, but **Organization** is.-->
+Supply the following attributes as column headers, exactly as written below, in the .csv upload.<!--, of which **PersonId** and **ManagerId** are not case sensitive, but **Organization** is.-->
 
 * **EffectiveDate**
     * Make sure the **EffectiveDate** column has values in all rows. If you don’t provide an **EffectiveDate** column in your upload, the date you uploaded the data becomes the default **EffectiveDate**.
@@ -162,7 +162,7 @@ Custom attributes are any additional attributes you want to define to use in fil
 >
 > * The maximum number of total attributes allowed in the system is 105, which includes the five required attributes. 
 > * All dates should be in the MM/DD/YYYY format.
-> * All numerical fields (such as the required attribute "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
+> * All numerical fields (such as the required attribute "HourlyRate") need to be in the "number" format and cannot contain commas or a dollar sign.
 
 For more information, see Attribute descriptions and data-coverage requirements.
 
