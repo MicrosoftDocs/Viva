@@ -18,7 +18,7 @@ audience: Admin, user
 
 # Shared no-meeting day plan
 
-*To start a no-meeting day plan, users need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../Overview/plans-environments.md). A Viva Insights license isn't required to participate in a no-meeting day plan.*
+*To start a no-meeting day plan, users need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../personal/Overview/plans-environments.md). A Viva Insights license isn't required to participate in a no-meeting day plan.*
 
 No-meeting days are a shared recurring time that everyone in the plan can use to focus without interruptions. Days without scheduled meetings:
 
@@ -41,7 +41,7 @@ Starting and inviting others to a plan is quick and easy. Follow these steps to 
 
 1. On the Viva Insights app **Home** page, beneath **Teamwork habits**, find the **No-meeting day** card. Select **Get started**.
 
-    ![Screenshot of the No-meeting day summary card. The Edit button is highlighted.](../images/wpa/use/nmd-start-card.png)
+    ![Screenshot of the No-meeting day start card. The Get started button is highlighted.](../images/wpa/use/nmd-start-card.png)
 
 2. When the setup window appears, fill in:
     1. **Recipients**.
