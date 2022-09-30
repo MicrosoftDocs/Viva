@@ -41,7 +41,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who are working after hours for more than three hours each week | [After-hours collaboration](../advanced/analyst/metrics.md#after-hours-collaboration-define)| Percentage of employees who spend more than one hour collaborating through emails, calls, chats, and meetings after hours. This percentage is calculated weekly and averaged over the entire time period.|
+|Percentage of employees who are working after hours for more than three hours each week | [After-hours collaboration](../advanced/reference/metrics.md#after-hours-collaboration-define)| Percentage of employees who spend more than one hour collaborating through emails, calls, chats, and meetings after hours. This percentage is calculated weekly and averaged over the entire time period.|
 
 |Visual insight  | Definition  
 |----------|-----------|
@@ -76,7 +76,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who get less than 10 hours of weekly uninterrupted time for work | [Available-to-focus hours](../advanced/analyst/metrics.md#available-to-focus-hours-define)| This calculation is based on the percentage of employees who have less than 10 hours available to focus each week. It's calculated weekly and averaged over the time period.
+|Percentage of employees who get less than 10 hours of weekly uninterrupted time for work | [Available-to-focus hours](../advanced/reference/metrics.md#available-to-focus-hours-define)| This calculation is based on the percentage of employees who have less than 10 hours available to focus each week. It's calculated weekly and averaged over the time period.
 
 |Visual insight  | Definition |
 |----------------|------------|
@@ -110,7 +110,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who spend 20+ hours in collaboration every week| [Collaboration hours](../advanced/analyst/metrics.md#collaboration-hours-define)| Percentage of employees who spend more than 20 hours each week collaborating through Microsoft Outlook and Teams. This insight is calculated weekly and averaged for the entire time period.
+|Percentage of employees who spend 20+ hours in collaboration every week| [Collaboration hours](../advanced/reference/metrics.md#collaboration-hours-define)| Percentage of employees who spend more than 20 hours each week collaborating through Microsoft Outlook and Teams. This insight is calculated weekly and averaged for the entire time period.
 
 |Visual insight  |Definition|
 |----------|-----------|
@@ -129,3 +129,41 @@ Here are ways to reduce meeting time:
 * Use Teams channels as an alternative to meetings. Channels provide team members with a new way to get questions answered and provide updates without the need for a meeting.
 
 For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
+
+## Insights for leaders
+
+If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find an additional insight on the **Employee wellbeing** tab. 
+
+#### Improve team cohesion
+
+![Screenshot that shows the team cohesion insight.](../Images/WpA/Use/org-leader-community.png)
+
+##### Insight
+
+For **Improve team cohesion**, the **Employee wellbeing** page provides a percentage insight that shows the share of teams that are composed of tightly connected individuals and a visual insight that shows how these teams are connected across the larger organizational network.
+
+Here's some information about how those metrics are calculated:
+
+|Percentage insight  |Metric| Calculation  
+|----------|-----------|-----------------|
+|Percentage of teams composed of individuals tightly connected across workstreams| Strong ties*| If more than 30% of the potential ties between pairs of employees on a team are classified as strong, then the team is determined to be tightly connected.
+
+|Visual insight  |Definition|
+|----------|-----------|
+|Team tie type| Each team is represented by a dot with larger teams showing up as bigger dots. Dot coloration indicates whether the team is composed of a set of tightly connected individuals. 
+
+<sup>\* Strong ties indicate how strong and tight a person's engagements are, based on both direct collaboration between two people and on the common network they share. (Collaboration activities consist of emails, meetings, Teams calls, and Teams chats.) For example, a "strong tie" between a manager and a direct report reflects both the amount of direct collaboration they have with each other and the time they both invest in connections that are common to both of them. Typically, a person has only a few strong ties because such ties take more effort to maintain. Type: Count.</sup>
+
+
+##### Best practices
+
+Changes in work environments can leave employees feeling isolated from their colleagues. Feeling part of community is important for engagement and goal alignment as employees navigate change.
+
+According to the [Rebuilding companies as communities](https://insights.office.com/culture/rebuilding-companies-as-communities/) article, "organizations function best when committed people work in cooperative relationships based on respect." 
+
+Here are a couple of ways to improve team cohesion:
+
+* Add colleagues to your [important people list](../personal/use/use-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
+* Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
+
+<!--Best practices-->

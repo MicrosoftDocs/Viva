@@ -17,7 +17,7 @@ audience: Admin
 
 # Maintenance tasks
 
-After you've installed and set up Microsoft Viva Insights, it'll require maintenance by an admin. Some maintenance tasks are infrequently required, while others need to be done regularly.
+After you've installed and set up Microsoft Viva Insights, it requires maintenance by an admin. Some maintenance tasks don't need to be done regularly, while others do.
 
 ## Update privacy settings
 

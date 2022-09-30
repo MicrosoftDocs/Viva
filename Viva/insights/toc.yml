@@ -24,18 +24,20 @@ items:
                 items:
                   - name: Overview
                     href: personal/teams/viva-insights-home.md
+                  - name: Headspace
+                    href: personal/teams/viva-insights-headspace.md                        
                   - name: Reflect
                     href: personal/teams/viva-insights-reflect.md
                   - name: Send praise
                     href: personal/teams/viva-insights-praise.md
                   - name: Virtual commute
-                    href: personal/teams/viva-insights-virtual-commute.md
-                  - name: Headspace
-                    href: personal/teams/viva-insights-headspace.md               
+                    href: personal/teams/viva-insights-virtual-commute.md           
               - name: Stay connected
                 href: personal/teams/viva-insights-stay-connected.md
               - name: Protect time
                 href: personal/teams/viva-insights-protect-time.md
+              - name: Effective meetings
+                href: personal/teams/effective-meetings.md
               - name: Inspiration library
                 href: personal/teams/inspiration.md  
               - name: Setup
@@ -78,6 +80,8 @@ items:
                     href: personal/Briefing/be-time.md
                   - name: Catch up with your team
                     href: personal/Briefing/be-manager.md
+                  - name: Use recommendations
+                    href: personal/Briefing/be-recommended.md  
               - name: Settings
                 href: personal/Briefing/be-settings.md
               - name: Languages
