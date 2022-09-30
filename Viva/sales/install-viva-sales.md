@@ -15,7 +15,7 @@ ms.subservice: viva-sales
 
 You need to be a Microsoft 365 administrator to deploy and install the Viva Sales add-in for Outlook. You need to be a Teams administrator to deploy and install Viva Sales for Teams.
 
-You can install Viva Sales as an integrated app on multiple platforms or as an individual add-in on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft AppSource to install it in Outlook and assign users. If you start from AppSource, you'll finish installation in the Microsoft 365 admin center. Either way, we recommend an administrator install it for best performance and usability. 
+You can install Viva Sales as an integrated app on multiple platforms or as an individual add-in on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft AppSource to install it in Outlook and assign users. If you start from AppSource, you'll finish installation in the Microsoft 365 admin center. Either way, we recommend an administrator installs it for best performance and usability. 
 
 The add-in is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Viva Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users.
 
@@ -30,7 +30,7 @@ Viva Sales applies your organization's existing CRM access controls and user per
 
 ### Additional privileges required for Dynamics 365 customers
 
-If you are using the out-of-the-box Salesperson and Sales Manager security roles, Viva sales privileges are added automatically. If you are using custom security roles, you must assign the following privileges to the custom security role to use Viva Sales.
+If you're using the out-of-the-box Salesperson and Sales Manager security roles, Viva sales privileges are added automatically. If you're using custom security roles, you must assign the following privileges to the custom security role to use Viva Sales.
 
 |Table  |Functionality  |Privileges  |
 |---------|---------|---------|
