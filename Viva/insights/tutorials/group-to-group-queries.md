@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Group-to-group queries in Viva Insights
 description: Group-to-group queries show how a team invested their time across the rest of the organization and beyond with Microsoft Viva Insights  
 author: madehmer
@@ -54,7 +55,7 @@ While setting up a group query differs markedly from setting up meeting or perso
 
    ![Select metrics.](../Images/WpA/tutorials/g2g-01-select-metrics_2.png)
 
-   To learn more about metrics for group-to-group queries, see [Group-to-group metrics](../use/metric-definitions.md#group-to-group-metrics).
+   To learn more about metrics for group-to-group queries, see [Group-to-group metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#group-to-group-metrics).
 
    The following sections enable you to define how to group the time-investors and the collaborators. For example, to analyze how senior leaders allocated time across different organizations, you'd set the time investors' group to "level" and the collaborators' group to "organization."
 
@@ -76,7 +77,7 @@ While setting up a group query differs markedly from setting up meeting or perso
 
 11. Select **Run** at the top right to run the query.
 
-12. In **Query designer** > **Results**, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+12. In **Query designer** > **Results**, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ## Related topics
 

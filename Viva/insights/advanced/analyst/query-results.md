@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Access query results and modify existing queries
 description: Learn how to run a custom Person query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
@@ -44,23 +43,23 @@ After you run your query, you might see the following statuses in the **Status**
 
 If you see a blue square within a blue circle, the query is running. The analyst who ran the query can cancel the query by selecting **Stop**.
 
-#### Stop, Stopping, and Stopped
+#### Stop
 
 Selecting **Stop** freezes the query. While stopping is in progress, the query status shows **Stopping**; after the query is fully stopped, the status shows **Stopped**.
-
-![Screenshot that shows query statuses "Stop," "Stopping...", and "Stopped".](../images/query-results-stop-statuses.png)
+![Query status: "Stop," "Stopping...", and "Stopped" with tooltips](../images/query-results-status-all-stop1.png)
 
 If the analyst who ran the query wants to run this query again later, they can select **Rerun** from the **More options** menu.
 
 >[!Note]
 >Other analysts in the organization can see a query is running, but they can’t stop it.
-
+>
+>![Query recurrence toggle with tooltip](../images/query-results-toggle-recur-fail1.png)
 
 #### Success
 
 When a query successfully runs, you’ll see a green checkmark within a green circle labeled **Success**.
 
-![Screenshot that shows a query's Success status.](../images/query-results-status-success.png)
+![Query status: "Success"](../images/query-results-status-success.png)
 
 If you ran the query, you can now edit, delete, or rename it. All other analysts can now clone or favorite it.
 
@@ -68,33 +67,34 @@ If you ran the query, you can now edit, delete, or rename it. All other analysts
 
 If an error occurs while a query is running, you’ll see a **Failed** status. 
 
-![Screenshot that shows a query's Failed status.](../images/query-results-failed.png)
+![Screenshot that shows the Failed status.](../images/query-results-status-failed1.png)
 
 ### Results filters
 
 There are some predefined views on the **Query results** page:
 
-* **My results** – Queries only you’ve run
-* **All results** – Queries all analysts in your organization have run
-* **Favorites** – Queries you’ve marked as **Favorite**
-* **Power BI templates** – Predefined queries all analysts in your organization have run for Power BI templates (for example, Ways of working)
-* **Custom queries** – Custom Person queries all analysts in your organization have run
+* **My results**: Queries only you’ve run
+* **All results**: Queries all analysts in your organization have run
+* **Favorites**: Queries you’ve marked as **Favorite**
+* **Power BI templates**: Predefined queries all analysts in your organization have run for Power BI templates (for example, Ways of working)
+* **Custom queries**: Custom Person queries all analysts in your organization have run
 
-### Setting the query to auto-refresh
+<!--By selecting the **New** button, you can create your own results filter, which filters by **Submitter**, **Query type**, or both.
+verify-->
 
-If you ran a query and want it to recur on a certain schedule, you can set the **Auto-refresh** toggle key to **On**.
+### Setting the query to recur
 
-Analysts who didn’t run a query can’t set it to auto-refresh.
+If you ran a query and want it to recur on a certain schedule, you can set the **Is recurring** toggle key to **On**.
+
+Analysts who didn’t run a query can’t set it to recur.
 
 ### More options
 
 When you select the **More options** ellipses—located in the far-right column of the **Query results** page—you’ll see a few different options based on whether you ran the query or are another analyst in the organization: **Edit query name**, **Edit query**, **Clone query**, **Favorite**, and **Delete query**.
 
-![Screenshot that shows a query's Failed status.](../images/query-results-contextual-menu.png)
-
 Let’s explore these options in more detail.
 
-#### Edit query name
+#### Rename query
 
 *Applies to: analyst who ran the query*
 
@@ -105,24 +105,20 @@ To change a query name, select the **Edit query name** option.
 
 After you’ve successfully renamed your query, you’ll receive a notification in the upper right corner of your screen.
 
-#### View query
-
-*Applies to: any analyst in the organization*
-
-If you want to see how a query was set up, but don't want to edit anything, you can select **View query**. This option takes you to the query's setup screen. You can clone a query from here, too.
-
 #### Edit query
 
 *Applies to: analyst who ran the query*
 
 If you want to change your query’s setup information (like **Query name** and **Time period**), metrics, conditions and condition groups, and employee attributes, you can edit the query and run it again.
 
+![Screenshot that shows the Edit query tooltip.](../images/query-results-edit-query-tooltip-close.png)
+
 >[!Caution]
 >The **Edit query** option permanently deletes and replaces the query’s existing results. To keep a query’s existing results, use the **Clone option** instead and make changes in a new query.
 
-When you select **Edit query**, you’re prompted to confirm whether you want to overwrite your existing results or want to clone the query instead.
+When you select **Edit query**, you’ll be prompted to confirm whether you want to overwrite your existing results or want to clone the query instead.
 
-If you select **Edit query** in this box, the app takes you to the query setup screen. You can then make changes and rerun the original query. If you choose **Clone**, the app takes you to a new query with the same settings as the original.
+If you select **Edit query** in this box, the app will take you to the query setup screen. You can then make changes and rerun the original query. If you choose **Clone**, the app will take you to a new query with the same settings as the original.
 
 #### Clone query
 
@@ -167,13 +163,13 @@ When you define a query, you select metrics and employee attributes. After the q
 2.	Select to open and right-click the zip file, which contains a .csv version of the data, and then select **Extract All** and extract the .csv to a local folder.
 3. Open the extracted .csv file using Excel.
 
-![Query recurrence toggle with tooltip](../images/query-csv-output.png)
+![Screenshot that shows a .csv query output file.](../images/query-csv-output.png)
 
 ##### Connect through the Power BI Connector
 
 1.	In Power BI Desktop, select **Get Data**.
 2.	Select **Online Services**, select **Viva Insights**, and then select **Connect**.
-3.	In the **Analyst > Query results** page, find your query and select **Copy link**.
+3.	In the **Analyst > Query results** page, find your query and **select Copy link**.
     >[!Note]
     >The link contains two pieces of information: the partition identifier and the query identifier, which are separated by a slash.
 
@@ -183,7 +179,7 @@ When you define a query, you select metrics and employee attributes. After the q
     >Query name isn't supported right now.
 
 5.	In **Advanced parameters > Data granularity**, select **Row-level data**.
-6.	Select **Import** under **Data Connectivity mode**, and then select **OK**. 
+6.	Select **Import** Data Connectivity mode, and then select **OK**. 
 7.	If you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
 8.	In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI.
 
