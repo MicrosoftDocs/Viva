@@ -17,11 +17,13 @@ You can remove the Viva Sales add-in if your sellers no longer need it.
 
 1.  In the Microsoft 365 admin center, go to **Settings** &gt; **Integrated apps**.
 
-2.  Select the Viva Sales add-in and then select the **Overview** tab.
+2.  Select **Microsoft Viva Sales** and then select the **Configuration** tab.
 
-3. Under **Actions**, select **Remove app**.
+3. Select the app to be removed and then select **Remove**.
 
 4.  Confirm about your choice and then select **Remove**.
+
+5. When the app is successfully removed, select **Done**.
 
 ### See also
 

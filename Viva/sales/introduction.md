@@ -33,6 +33,7 @@ Viva Sales is available globally except in the following countries:
 - Cape Verde
 - China
 - Cuba
+- Curaçao
 - East Timor
 - Iran
 - Ivory Coast

@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales as an integrated app
 description: Learn how to install Viva Sales as an integrated app from Microsoft 365 admin center
-ms.date: 07/25/2022
+ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
@@ -10,6 +10,8 @@ manager: shujoshi
 ---
 
 # Install Viva Sales as an integrated app
+
+The add-in is installed in Fixed mode by default. In a Fixed deployment, users receive the add-in automatically and can’t remove it.
 
 1.  Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
@@ -20,20 +22,22 @@ manager: shujoshi
 
 4.  In the **AppSource** window, search for **Viva Sales**.
 
-5.  In the **Viva Sales** card, select **Get it now**.  
+5.  In the search results, select either **Viva Sales for Microsoft Outlook** or **Viva Sales for Microsoft Teams**, and then select **Get it now**.  
+
     The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
 
-6.  In the **Configuration** step, verify the information, and then select **Next**.
+    The add-in is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Viva Sales in Teams, go to [Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md).
 
-7.  In the **Users** step, select the users or groups who will have access to the add-in, and then select **Next**.
+6. In the **Microsoft Viva Sales** panel, a notification is displayed that app for Outlook is available to be deployed. Select **Deploy**.
 
-8.  In the **Deployment** (**Permissions**) step, read the app permissions and capabilities, and then select **Next**.
+7. In the **Deploy more apps** panel, read the app permissions and capabilities, select **Accept permissions**, and then select **Deploy**.
 
-9.  In the **Deployment** (**Finish**) step, select **Finish deployment**.
+8. When the deployment is complete, select **Done**.
 
-10. When the deployment is complete, select **Done**.
+Allow up to six hours for Viva Sales to appear in users' Outlook ribbon.
 
-Allow up to 12 hours for Viva Sales to appear in users' Outlook ribbon.
+Sellers will receive a pop-up notification that their administrator has installed a new app.
+
 
 ## Manage the Viva Sales app
 
@@ -41,16 +45,16 @@ After you've installed Viva Sales as an integrated app, you can manage its confi
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select the Viva Sales add-in.
+2.  On the **Integrated apps** page, select the Viva Sales app.
 
-The Viva Sales panel opens with the following tabs:
+The **Microsoft Viva Sales** panel opens with the following tabs:
 
-- **Overview**: Displays basic information about the add-in, host products, and assigned users.
+- **Overview**: Displays basic information about the add-in, deployed apps, and assigned users.
 
-- **Configuration**: Allows you to remove the add-in from a selected product.
+- **Configuration**: Allows you to remove the app from a selected product. To remove the app, select it, and then select **Remove**.
 
-- **Users**: Allows you to edit the users who can use the add-in.
+- **Users**: Allows you to edit the users who can use the app.
 
-- **Usage**: Displays the number of active users of the add-in based on the selected platform and date range.
+- **Usage**: Displays the number of active users of the app based on the selected platform and date range.
 
 
