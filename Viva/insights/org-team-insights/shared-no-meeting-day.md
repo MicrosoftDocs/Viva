@@ -41,11 +41,14 @@ Starting and inviting others to a plan is quick and easy. Follow these steps to 
 
 1. On the Viva Insights app **Home** page, beneath **Teamwork habits**, find the **No-meeting day** card. Select **Get started**.
 
+    ![Screenshot of the No-meeting day summary card. The Edit button is highlighted.](../images/wpa/use/nmd-start-card.png)
+
 2. When the setup window appears, fill in:
     1. **Recipients**.
 
     >[!Tip]
     > You can look up users, Teams groups, and distribution lists here.
+    >     ![Screenshot of the No-meeting day setup window's Recipients field, showing the type-to-find capability.](../images/wpa/use/nmd-find-dist-lists.png)
 
     2. **Settings**.
         1. **When** and **Frequency**: Confirm or change when you want to hold your no-meetings day.
@@ -60,6 +63,9 @@ Starting and inviting others to a plan is quick and easy. Follow these steps to 
 
         If you want to add a message along with your invitation, type one here. Notes aren’t required.
 1. When you’re ready to send your invitation and get your plan started, select the **Schedule** button. Plan invitees get a calendar event invitation in their inbox.
+
+    ![Screenshot of the No-meeting day schedule window. The Schedule button is highlighted.](../images/wpa/use/nmd-schedule.png)
+
 1. The setup window then shows you a confirmation message with details about your plan. If you want more information, expand the gray arrow under **What happens next?**. Otherwise, select **Done**.
  
 #### Edit
@@ -84,6 +90,8 @@ You can start another plan whenever you want.
 
 If someone on your team wants to start a recurring no-meeting day, you get a calendar invitation from them. If you want to participate in the plan, accept the invitation. When you accept, you get a [reminder](#before-the-no-meeting-day) the day before the no-meeting day, and your status shows as **Busy** (or whatever status the organizer set it to) for that entire workday. If you want your no-meeting day to show with a different status—**Free**, for example—you can make that change after you accept the invitation. Open the series in Outlook, then change **Show As:** to the status you want.
 
+![Screenshot of the Show As: option in Outlook, with Busy in the text box and the dropdown menu expanded to show all options.](../images/wpa/use/nmd-calendar-status.png)
+
 If you don’t want to participate in the plan, decline the invitation. You don't receive a reminder before the no-meeting day, and your calendar doesn't adopt the event or show the status that the organizer set.
 
 ## Before the no-meeting day
@@ -91,6 +99,8 @@ If you don’t want to participate in the plan, decline the invitation. You don'
 When you’re enrolled in a no-meeting day plan—either as an organizer or invitee—Viva Insights sends you a notification the day before a scheduled no-meeting day. This notification prompts you to prepare for the no-meeting day by rescheduling or canceling any conflicting meetings.
 
 To review conflicting events, select **Review schedule** within the notification. Then, use the dropdown arrows to RSVP to these events. You’ll start your no-meeting day with a clean slate, ready to dedicate your focus to individual, sustained work.
+
+![Screenshot of the Review schedule screen, which shows 5 events. The first event has an RSVP button with a dropdown arrow.](../images/wpa/use/no-meeting-review.png)
 
 If you’d rather not get this notification, change your settings in the Viva Insights app in Teams or on the web:
 
