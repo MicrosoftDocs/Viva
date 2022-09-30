@@ -148,11 +148,14 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of teams composed of individuals tightly connected across workstreams| [Strong ties](../advanced/analyst/metrics.md#strong-ties-define)| If more than 30% of the potential ties between pairs of employees on a team are classified as strong, then the team is determined to be tightly connected.
+|Percentage of teams composed of individuals tightly connected across workstreams| Strong ties*| If more than 30% of the potential ties between pairs of employees on a team are classified as strong, then the team is determined to be tightly connected.
 
 |Visual insight  |Definition|
 |----------|-----------|
 |Team tie type| Each team is represented by a dot with larger teams showing up as bigger dots. Dot coloration indicates whether the team is composed of a set of tightly connected individuals. 
+
+<sup>\* Strong ties indicate how strong and tight a person's engagements are, based on both direct collaboration between two people and on the common network they share. (Collaboration activities consist of emails, meetings, Teams calls, and Teams chats.) For example, a "strong tie" between a manager and a direct report reflects both the amount of direct collaboration they have with each other and the time they both invest in connections that are common to both of them. Typically, a person has only a few strong ties because such ties take more effort to maintain. Type: Count.</sup>
+
 
 ##### Best practices
 

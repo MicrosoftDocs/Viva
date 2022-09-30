@@ -112,11 +112,13 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight |Metric| Calculation|
 |-------------------|------|------------|
-|Percentage of teams composed of individuals tightly connected across workstreams|[Influence](../advanced/reference/metrics.md#influence-define)|Count of employees who are connected to top influencers divided by the total number of measured employees.|
+|Percentage of teams composed of individuals tightly connected across workstreams|Influence*|Count of employees who are connected to top influencers divided by the total number of measured employees.|
 
 |Visual insight| Definition|
 |--------------|-----------|
 Reach of influencers | Each employee is represented by a dot with dot size scaled by that employee’s influence score. Dot coloration indicates whether that individual is classified as a top influencer. 
+
+<sup>\* Influence indicates, as a numeric score, how well connected a person is within the company. A higher score means that the person is better connected and has greater potential to drive change. (A person’s connection score is based on the frequency of collaboration activities, which include emails, meetings, Teams calls, and Teams chats with other people within the company.) Type: Score.</sup>
 
 ##### Best practices
 
@@ -143,11 +145,13 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight |Metric| Calculation|
 |-------------------|------|------------|
-|Percentage of managers connected to few people outside of their own teams|[Diverse ties](../advanced/reference/metrics.md#diverse-ties-define)|Binary determination, based on whether each manager’s count of diverse ties places them within the top vs. bottom half compared to all measured managers within the company.|
+|Percentage of managers connected to few people outside of their own teams|Diverse ties*|Binary determination, based on whether each manager’s count of diverse ties places them within the top vs. bottom half compared to all measured managers within the company.|
 
 |Visual insight| Definition|
 |--------------|-----------|
 Reach of influencers | Each employee is represented by a dot with dot size scaled by that employee’s influence score. Dot coloration indicates whether that individual is classified as a top influencer.
+
+<sup>\* Diverse ties indicate how varied and how broad a person's connections are, based on both the infrequent direct collaboration between two people and on the differences in the common network they share between themselves. (Collaboration activities consist of emails, meetings, Teams calls, and Teams chats.) A person doesn't need to have much direct collaboration with their diverse ties, so it’s easy to have more diverse ties than strong ties. Diverse ties present good sources of fresh and varied information from across the company. Type: Count.</sup>
 
 ##### Best practices
 
