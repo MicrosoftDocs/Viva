@@ -47,11 +47,11 @@ For more information about the exception criteria and exception process, see [Mi
 Click the scorecard links for each article to review the Acrolinx feedback on grammar, spelling, punctuation, writing style, and terminology:
 
 | Article | Score | Issues | Correctness<br>score | Scorecard | Processed |
-| ------- | ----- | ------ | --------- | --------- |
+| ------- | ----- | ------ | ---- | ----- | --------- |
 "
 
  :template-change
- "| ${s/file} | ${acrolinx/qualityscore} | ${acrolinx/scores/correctness} | [link](${acrolinx/scorecard}) | ${s/status} |
+ "| ${s/file} | ${acrolinx/qualityscore} | ${acrolinx/flags/issues} | ${acrolinx/scores/correctness} | [link](${acrolinx/scorecard}) | ${s/status} |
 "
  
  :template-footer
