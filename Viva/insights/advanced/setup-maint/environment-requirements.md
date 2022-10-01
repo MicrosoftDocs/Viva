@@ -47,7 +47,7 @@ Viva Insights requires the applicable [Viva Insights licensing](#viva-insights-l
 
 ## Viva Insights licenses
 
-[Assign licenses](/viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to the users whose mailboxes you want to analyze. They include all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies get the most benefit when they deploy Viva Insights to the entire company or to a large group of employees.
+[Assign licenses](assign-licenses.md) to the users whose mailboxes you want to analyze. They include all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies get the most benefit when they deploy Viva Insights to the entire company or to a large group of employees.
 
 ## Pricing
 
