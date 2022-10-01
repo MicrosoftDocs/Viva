@@ -22,10 +22,10 @@ highlightedContent:
   items:
     - title: Environment requirements
       itemType: get-started # controls the icon image and super-title text
-      url: /viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+      url: ./advanced/setup-maint/environment-requirements.md
     - title: Privacy protection
       itemType: learn 
-      url: /viva/insights/privacy/data-protection-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+      url: ./advanced/privacy/privacy.md
     - title: Personal insights
       itemType: quickstart
       url: ./personal/introduction.md
