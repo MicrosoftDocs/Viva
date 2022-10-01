@@ -1,9 +1,9 @@
 ---
 
-title: System requirements for Viva Insights
+title: Environment requirements for Viva Insights
 description: Describes the system requirements for using Microsoft Viva Insights
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 
@@ -11,17 +11,17 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: anirudhbajaj
 audience: Admin
 ---
 
-# Environment requirements
+# Environment requirements for Viva Insights
 
 Environment requirements vary depending on the type of insights you view in Microsoft Viva Insights. They are personal insights, manager insights, or leader insights in Microsoft Teams or advanced insights in the web-based service.
 
 ## Personal insights
 
-The requirements for personal insights in Microsoft Viva Insights are described in [Plans and environments for personal insights](../personal/overview/plans-environments.md).
+The requirements for personal insights in Microsoft Viva Insights are described in [Plans and environments for personal insights](/viva/insights/personal/Overview/plans-environments.md).
 
 ## Manager, leader, and advanced insights
 
