@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Person-to-group queries in Query designer
 description: Person-to-group queries uncover how an individual invested their time across the rest of the organization and beyond
 author: madehmer
@@ -49,9 +49,9 @@ While setting up a person-to-group query differs from setting up meeting or grou
    * **Collaboration hours** gives you the total amount of time that an individual spent with collaborating groups. This includes both time spent working in emails and time spent in meetings.
    * **Email count** and **Email hours** give you, respectively, the number of emails that were sent between the time investor and groups, and the amount of time the time investor spent sending and reading emails.
    * **Meeting count** and **Meeting hours** give you, respectively, the number of meetings in which the time investor and the collaborators participated, and the number of hours the time investor spent in meetings.
-   * **Network size** The number of people in the collaborator group who had at least two [meaningful interactions](../use/glossary.md#meaningful-interaction-define) in the last four weeks with the time investor.
+   * **Network size** The number of people in the collaborator group who had at least two [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define) in the last four weeks with the time investor.
 
-   For more information about these metrics, see [Person-to-group metrics](../use/metric-definitions.md#person-to-group-metrics).
+   For more information about these metrics, see [Person-to-group metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#person-to-group-metrics).
 
       ![Select metrics.](../Images/WpA/tutorials/g2g-01-select-metrics.png)
 
@@ -72,11 +72,11 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 11. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear the selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 12. Select **Run** at the top right to run the query.
-13. In **Query designer** > **Results**, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+13. In **Query designer** > **Results**, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ## Related topics
 
 * [Metric descriptions](../Use/Metric-definitions.md)
-* [Understand and interpret query output](../Use/csv-query-output-file.md)
+* [Understand and interpret query output](/viva/insights/Use/csv-query-output-file?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [View, download, and export query results](../Use/View-download-and-export-query-results.md)
-* [Queries with CRM data](../tutorials/crm-queries.md)
+* [Queries with CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

@@ -26,7 +26,7 @@ Viva Insights helps managers like you identify patterns and habits that impact e
 Managers who meet the following criteria can view insights about their team:
 
 * People managers whose team meets the minimum team size that is set by the admin, which includes people who directly or indirectly report to you.
-* Managers who are granted access through [Manager settings](../use/manager-settings.md).
+* Managers who are granted access through [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ##### Q3 Who is included in these insights?
 
