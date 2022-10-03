@@ -120,7 +120,7 @@ Technically, the Viva apps don't need to be installed in a specific order. Each 
 
 ### Get started with Viva Insights
 
-- Decide which types of insights are needed ([personal](insights/personal/introduction.md), [team](insights/org-team-insights/teamwork-habits.md), [organization](insights/org-team-insights/org-trends.md), and [advanced](insights/advanced/introduction-to-advanced-insights.md.md)).
+- Decide which types of insights are needed ([personal](insights/personal/introduction.md), [team](insights/org-team-insights/teamwork-habits.md), [organization](insights/org-team-insights/org-trends.md), and [advanced](insights/advanced/introduction-to-advanced-insights.md)).
 - [Review the getting started guide for Viva Insights.](insights/advanced/setup-maint/setup-overview.md)
 
 ### Get started with Viva Learning
