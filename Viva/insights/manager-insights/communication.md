@@ -43,7 +43,7 @@ Based on the information presented in [Don’t just tell employees organizationa
 
 * Showcase the value in utilizing instant messages, such as [Chats in Microsoft Teams](https://support.microsoft.com/office/six-things-to-know-about-chat-in-microsoft-teams-88ed0a06-6b59-43a3-8cf7-40c01f2f92f2) for quick questions.
 * Launch a [champions program](/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Microsoft Teams and can guide, teach, and train their peers.
-* Use [Power BI Microsoft Teams insights](../tutorials/power-bi-teams.md) to monitor Teams usage through advanced insights data, including instant messages, meeting, and email metrics.
+* Use [Power BI Microsoft Teams insights](/viva/insights/tutorials/power-bi-teams?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to monitor Teams usage through advanced insights data, including instant messages, meeting, and email metrics.
 * Consider the nature of the conversation based on the subject and type of response needed and identify the appropriate medium for communication.
 * Encourage using instant messages for urgent questions to get what you need faster.
 * When dealing with a sensitive topic, a quick chat on the phone or in person is more ideal than volleying emails back and forth.

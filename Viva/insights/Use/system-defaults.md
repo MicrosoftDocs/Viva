@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: System defaults for Advanced insights
 description: Describes the system default settings in the advanced insights app for Viva Insights that admins configure and edit for your organization
 author: madehmer
@@ -28,7 +28,7 @@ In **System defaults** for the advanced insights app in Microsoft Viva Insights,
 If you are setting up the advanced insights app for the first time, follow these steps:
 
 1. Examine the default values of these **System defaults** settings. Either accept these default values or change one or more of them.
-1. Expand the **Exclusions** section and look at its settings. (For more information about these settings, see [Privacy settings](privacy-settings.md).)
+1. Expand the **Exclusions** section and look at its settings. (For more information about these settings, see [Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).)
 1. Optionally, specify data to exclude in one or the **Exclusion** options and, optionally, select to hash subject lines.
 1. Select **Next** to process your organization's collaboration (Microsoft 365) data in the app.
 
@@ -37,7 +37,7 @@ If you are _not_ setting up the app, feel free to change these settings whenever
 >[!Important]
 >Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
 
-**Owner** – Viva Insights admins have full access to this page. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Viva Insights admins have full access to this page. For details, see [Assign roles to admins and analysts](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ![System defaults.](../images/wpa/use/sys-def-page.png)
 
@@ -45,7 +45,7 @@ If you are _not_ setting up the app, feel free to change these settings whenever
 
 Use this setting to configure the default time zone for your organization. Typically, this is the time zone of the corporate headquarters or the time zone in which most employees reside.
 
-Viva Insights first attempts to read time zones from each user's mailbox. If time zone has not been set up for the mailbox, Viva Insights tries to determine it from the [organizational data](organizational-data.md). If time zones have not been uploaded in the organizational data, Viva Insights reads the time zone from the setting on this page. If the default time zone was not set on this page, Viva Insights uses Pacific Time (US).
+Viva Insights first attempts to read time zones from each user's mailbox. If time zone has not been set up for the mailbox, Viva Insights tries to determine it from the [organizational data](/viva/insights/use/organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If time zones have not been uploaded in the organizational data, Viva Insights reads the time zone from the setting on this page. If the default time zone was not set on this page, Viva Insights uses Pacific Time (US).
 
 Viva Insights uses the time zone setting in calculations of collaboration activities, such as emails and meetings. It uses this setting only for Microsoft 365 data that it has yet to process. Changing the time zone setting does not affect data that has already been processed.
 
@@ -70,7 +70,7 @@ Viva Insights uses the working days and hours settings in calculations of collab
 
 ## Hourly rate
 
-Viva Insights uses hourly rate to calculate the cost of low-quality meetings, where a person's hourly rate for the organization is multiplied by number of low-quality meeting hours. Viva Insights first tries to get the Hourly rate value from organizational (HR) data. Failing that, it uses the value of Hourly rate that is set on this page. For more information, see [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate).
+Viva Insights uses hourly rate to calculate the cost of low-quality meetings, where a person's hourly rate for the organization is multiplied by number of low-quality meeting hours. Viva Insights first tries to get the Hourly rate value from organizational (HR) data. Failing that, it uses the value of Hourly rate that is set on this page. For more information, see [Meetings overview](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#hourly-rate).
 
 ### To set the default hourly rate
 
@@ -87,7 +87,7 @@ After you add a domain and save the change for this setting, it'll change all of
 * Organizational and Microsoft 365 data from this domain will update to be internal after the *next data refresh*.
 * Data sources will then include the domain (previously external) in internal-collaborator metrics and applicable coverage data will change based on this new domain classification.
 * The changes can be reverted by removing the domain that was reclassified.
-* [Excluding domains in the privacy settings](privacy-settings.md#exclude-domains-or-email-addresses) overrides the changes made with this reclassification setting. That is, an excluded domain remains excluded, whether or not it's reclassified as internal.
+* [Excluding domains in the privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#exclude-domains-or-email-addresses) overrides the changes made with this reclassification setting. That is, an excluded domain remains excluded, whether or not it's reclassified as internal.
 
 ### To reclassify an external domain
 
@@ -96,5 +96,5 @@ After you add a domain and save the change for this setting, it'll change all of
 
 ## Related topics
 
-* [Set up Advanced insights](../setup/set-up-workplace-analytics.md)
-* [Privacy settings](privacy-settings.md)
+* [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
