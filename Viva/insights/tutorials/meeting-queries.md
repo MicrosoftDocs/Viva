@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Meeting queries in Viva Insights
 description: When to use a meeting query and the type of data available for analysis in Viva Insights.  
 author: madehmer
@@ -61,7 +61,7 @@ You can add base metrics to customize your meeting data. For example, select the
 
 ![Meeting query metric.](../Images/WpA/Tutorials/meeting-metric.png)
 
-To get more details on adding metric filters, see [Customize a metric](../Tutorials/customize-a-metric.md).
+To get more details on adding metric filters, see [Customize a metric](/viva/insights/Tutorials/customize-a-metric?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 In the basic process to create a Meeting query, you will answer three questions:
 
@@ -85,7 +85,7 @@ When you run a meeting query in Viva Insights, the output (.csv) file can be lar
 
 ## Example query for long recurring meetings
 
-Continuing the example from [Person queries](../Tutorials/meeting-queries.md), to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a meeting query with the following criteria:
+Continuing the example from [Person queries](/viva/insights/Tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), to investigate long meetings that include Operations and identify other significant meeting factors, such as if long meetings are recurring, you can create a meeting query with the following criteria:
 
 * Time frame: Show the data aggregated weekly
 * Meeting properties: Filters

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore external collaboration data in Viva Insights
 description: An overview of external collaboration data available in Viva Insights
 author: madehmer
@@ -57,25 +57,25 @@ The first graph shows the top external domains that people in your company spend
 
 ## External group collaboration
 
-The second graph shows which groups in your company have the most people collaborating with external people. External people is defined by the group-by attribute for **Time investors** in [Settings and filters](explore-page-settings.md#time-investors). By default, the group-by attribute is **Organization** for time investors.
+The second graph shows which groups in your company have the most people collaborating with external people. External people is defined by the group-by attribute for **Time investors** in [Settings and filters](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#time-investors). By default, the group-by attribute is **Organization** for time investors.
 
 ![External group collaboration chart.](../images/wpa/use/external-collab-groups3.png)
 
 ## Weekly average collaboration
 
-This graph shows the top groups who collaborated with external domains based on weekly average number of either total collaboration hours or cost. The top groups are based on the total number of people who had one or more interactions (meetings or email) with people outside the company within the selected date range. The external domains are defined by the group-by attribute for **Time investors** in [Settings and filters](explore-page-settings.md#time-investors).
+This graph shows the top groups who collaborated with external domains based on weekly average number of either total collaboration hours or cost. The top groups are based on the total number of people who had one or more interactions (meetings or email) with people outside the company within the selected date range. The external domains are defined by the group-by attribute for **Time investors** in [Settings and filters](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#time-investors).
 
 ![External groups based on weekly averages.](../images/wpa/use/external-collab-weekly.png)
 
 ## External network size
 
-**External network size** is the number of people external to the company with whom a person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) with in the last 28 days (or if reported by month, in the last month). For example, a sales person tends to have a greater external network size and breadth than a person whose company role is mainly internal.
+**External network size** is the number of people external to the company with whom a person had at least two [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define) with in the last 28 days (or if reported by month, in the last month). For example, a sales person tends to have a greater external network size and breadth than a person whose company role is mainly internal.
 
 ![External network size chart.](../images/wpa/use/external-collab-network.png)
 
 ## External network breadth
 
-The graph for **External network breadth** is the number of distinct external groups or domains with whom an employee had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) with in the last 28 days (or if reported by month, in the last month).
+The graph for **External network breadth** is the number of distinct external groups or domains with whom an employee had at least two [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define) with in the last 28 days (or if reported by month, in the last month).
 
 ![External network breadth chart.](../images/wpa/use/external-collab-network-b.png)
 
@@ -94,9 +94,9 @@ In the graph, if the bubble for your group is found at the top right, then your 
 
 ## Settings and filters
 
- For External collaboration data, you can use **Settings and filters** to change the date range or to apply or change filters for what data is shown in the charts and graphs. For more details, see [Settings and filters for Explore the stats](explore-page-settings.md).
+ For External collaboration data, you can use **Settings and filters** to change the date range or to apply or change filters for what data is shown in the charts and graphs. For more details, see [Settings and filters for Explore the stats](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Related topics
 
-* [Settings and filters for Explore the stats](../use/explore-page-settings.md)
-* [Advanced insights charts](../use/chart-types.md)
+* [Settings and filters for Explore the stats](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Advanced insights charts](/viva/insights/use/chart-types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

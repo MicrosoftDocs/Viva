@@ -26,14 +26,14 @@ A partition is a data workspace for Microsoft Viva Insights analysis. A partitio
 
 ## Partitions give access to data
 
-A partition defines what data you work with in the advanced insights app for Viva Insights. If you have one of the analyst roles (analyst limited), you work with data in [Explore the stats](../use/explore-intro.md) and [Query designer](../tutorials/query-designer.md) in the advanced insights app. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages.
+A partition defines what data you work with in the advanced insights app for Viva Insights. If you have one of the analyst roles (analyst limited), you work with data in [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) in the advanced insights app. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages.
 
 If you have the program manager role, you have complete access to **Plans** with no limitations.
 
 For example, if you are an analyst with the job of finding workplace trends in the sales organization, you must be assigned a partition that encompasses the data of salespeople. You can then view data about salespeople in **Explore the stats** and create queries about salespeople in **Query designer**.
 
 >[!Note]
->Analysts (and limited analysts) are not the only people who use partitions. Program managers who work in [Plans](../tutorials/solutionsv2-intro.md) must also be granted explicit access to a partition, after which they can create and view solution [Plans](../tutorials/solutionsv2-task.md#create-a-plan) only in that partition.
+>Analysts (and limited analysts) are not the only people who use partitions. Program managers who work in [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) must also be granted explicit access to a partition, after which they can create and view solution [Plans](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-plan) only in that partition.
 
 ## The Global partition
 
@@ -165,7 +165,7 @@ Currently the partitions feature is being rolled out on a per-customer basis. To
 
 #### Q2. Why are newly uploaded attributes not being reflected inside non-global partitions?
 
-New attributes are not added automatically. After you upload a new attribute (in an [organizational data upload](../setup/upload-organizational-data2.md)), you must explicitly add the attribute to a partition by [editing the partition](#to-edit-a-partition).
+New attributes are not added automatically. After you upload a new attribute (in an [organizational data upload](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)), you must explicitly add the attribute to a partition by [editing the partition](#to-edit-a-partition).
 
 #### Q3. Why am I not able to see analyst settings in a partition?
 
@@ -209,7 +209,7 @@ Partitions depend on organizational data in the following ways.
 * Partitions can depend on organizational data columns. As described in the **Create filters** step of [To create a partition](#to-create-a-partition), you can define a partition by filtering by organizational data columns. For example, you can define a partition by filtering on an organizational data column called _Country_.
 * As described in the **Select attributes** step of [To create a partition](#to-create-a-partition), organizational-data attributes can be configured to be included in the partition for analysts to use.
 
-Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](upload-organizational-data-1st.md), uploads new data in a [subsequent upload](upload-organizational-data2.md). In [Upload organizational data](upload-organizational-data2.md#important-upload-considerations), the admin has a number of options. Appending existing organizational data does not affect partitions, regardless of the structure of the new data.
+Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), uploads new data in a [subsequent upload](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). In [Upload organizational data](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#important-upload-considerations), the admin has a number of options. Appending existing organizational data does not affect partitions, regardless of the structure of the new data.
 
 However, if the admin selects to **Replace all existing organizational data** and the organizational data has a new data schema, it could cause errors. For example, if the _Country_ column is not present in the new organizational-data upload (and if the column is either used as a filter or included in a partition), the definition of any partition that refers to this column is violated.
 
