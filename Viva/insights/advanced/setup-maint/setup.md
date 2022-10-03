@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Microsoft Viva Insights setup
 description: Learn what's required to set up Microsoft Viva Insights 
 author: lilyolason

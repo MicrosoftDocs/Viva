@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: Data retention policy
 description: Accessing your organization's data after expiration of Microsoft Viva Insights subscriptions or removal of licenses
 author: madehmer

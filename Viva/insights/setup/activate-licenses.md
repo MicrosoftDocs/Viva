@@ -66,5 +66,5 @@ The task of activating licenses has two parts. Each part requires a different Az
 ## Related topics
 
 * [Assign licenses to the population](../setup/Assign-licenses-to-population.md)
-* [Environment requirements for advanced insights](../setup/environment-requirements.md)
+* [Environment requirements for advanced insights](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
