@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Set up meeting exclusions for Viva Insights
 description: Set up initial meeting exclusions for Microsoft Viva Insights
 author: madehmer
@@ -29,7 +29,7 @@ Analysts can use the Meeting exclusions feature to create custom meeting exclusi
 
 ### Related topics
 
-[Meeting exclusion rules](../Tutorials/meeting-exclusions-intro.md)
+[Meeting exclusion rules](/viva/insights/Tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 
 <!-- former topics 
 [Understand meeting exclusions](../Use/Understand-meeting-exclusions.md)
