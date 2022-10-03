@@ -1,7 +1,7 @@
 ---
-
-title: Business resilience report in the Adoption Score report
-description: Use the Business resilience report that's within the Adoption Score report to analyze organizational collaboration data
+ROBOTS: NOINDEX,NOFOLLOW
+title: Business resilience report in the Productivity Score report
+description: Use the Business resilience report that's within the Productivity Score report to analyze organizational collaboration data
 author: madehmer
 ms.author: v-lilyolason
 ms.topic: article

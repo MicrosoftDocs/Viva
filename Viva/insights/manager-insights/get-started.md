@@ -41,7 +41,7 @@ Manager insights give you visibility into your team’s collaboration patterns, 
 
 ## Who is included
 
-Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](../use/organizational-data.md) that's been uploaded to and processed for advanced insights, including the current date range and the number of *included employees* in your team. Your Viva Insights Administrator can give you more details about uploads and measured employees.
+Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](/viva/insights/use/organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) that's been uploaded to and processed for advanced insights, including the current date range and the number of *included employees* in your team. Your Viva Insights Administrator can give you more details about uploads and measured employees.
 
 ## About the insights
 

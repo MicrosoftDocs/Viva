@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Assigning licenses overview
 description: Assign Microsoft Viva Insights licenses for population in scope for analysis
 author: madehmer
@@ -28,10 +29,10 @@ Employees in your organization who are not licensed for analysis but might colla
 
 After you have identified the population in scope, the global admin assigns Viva Insights licenses to users in this population. Note that people can find out if they've been assigned a license; see [Subscription status](#subscription-status).
 
-The assignment of licenses affects the measured population that is shown in **Data sources**. See [Origin of data counts](../use/office-365-data.md#origin-of-data-counts) for details.
+The assignment of licenses affects the measured population that is shown in **Data sources**. See [Origin of data counts](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#origin-of-data-counts) for details.
 
 >[!Note]
->Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements](environment-requirements.md).
+>Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ### Subscription status
 
@@ -47,7 +48,7 @@ Microsoft 365 users might want to find out whether their collaboration data is b
 4. Open the **Subscriptions** page. If you've been assigned a license, "Viva Insights" or "Workplace Analytics" shows as one of your Microsoft 365 subscriptions, then your data is being processed for Viva Insights.
 
 >[!Note]
->Workplace Analytic licenses were sold prior to October 2021 and will continue to be active until updated to a Viva Insights license. As of October 2021, you can only purchase or assign Viva Insights licenses for your organization. Different licenses and role assignments give you access to different features. For details, see [User roles in Viva Insights](../use/user-roles.md).
+>Workplace Analytic licenses were sold prior to October 2021 and will continue to be active until updated to a Viva Insights license. As of October 2021, you can only purchase or assign Viva Insights licenses for your organization. Different licenses and role assignments give you access to different features. For details, see [User roles in Viva Insights](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 <!--## Video: Assign licenses
 Intro text out for now:
@@ -62,7 +63,7 @@ Viva Insights licenses are assigned just like other Microsoft 365 product licens
 
 * [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign)
 * [Microsoft 365 admin center​](/microsoft-365/admin/add-users/add-users)
-* [PowerShell](../Use/Assigning-licenses-with-powershell.md)
+* [PowerShell](/viva/insights/use/Assigning-licenses-with-powershell?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 
 >[!Note]
 >Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Microsoft 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
@@ -75,14 +76,14 @@ If your organization has not fully migrated to Microsoft 365 Exchange Online, yo
 
 The data that the advanced insights app with Viva Insights uses is refreshed once a week, on Sunday. The new data is then processed, which appears one day later, on Monday. This includes the data records for licensed users. Therefore, if you add a user license on a Tuesday, that person will not show up in Viva Insights data until the following Monday. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
 
-* The user is represented in the user counts that are shown in [Insights](../use/insights.md) under **My organization's data**.
-* Analysts can use [Query designer](../tutorials/query-designer.md) to get results that include data about this user's activities.
-* [Explore the stats](../use/explore-intro.md) can reflect data that includes a newly licensed employee.
+* The user is represented in the user counts that are shown in [Insights](/viva/insights/use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) under **My organization's data**.
+* Analysts can use [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to get results that include data about this user's activities.
+* [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) can reflect data that includes a newly licensed employee.
 
 Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data refresh cycle is complete the following Monday.
 
 ## Related topics
 
-* [Environment requirements](environment-requirements.md)
-* [Microsoft 365 data](../use/office-365-data.md)
+* [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
