@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights plan participants
 description: A brief description of what participants in a Viva Insights plan experience
 author: madehmer
@@ -92,9 +92,9 @@ Many other inline suggestions are available to _all_ Viva Insights participants,
 
 ## Related topics
 
-* [Plan introduction](solutionsv2-intro.md)  
-* [Plan walkthrough](solutionsv2-task.md)
-* [Plan concepts](solutionsv2-conceptual.md)
+* [Plan introduction](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)  
+* [Plan walkthrough](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Plan concepts](/viva/insights/tutorials/solutionsv2-conceptual?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 
 
 <!-- REPLACING THe FOLLOWING TABLES WITH LINKS TO THE COMPLETE LIST IN THE MYA TOPICS

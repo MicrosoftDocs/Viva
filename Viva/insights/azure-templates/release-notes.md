@@ -82,7 +82,7 @@ To learn more, see [Process Explorer](./process-explorer.md).
 
 The Workspace Collaboration Optimizer is a new open-sourced set of Python-based web apps (Jupyter Notebooks) that can help with seating plans that are optimized for innovation and cross-team collaboration. The underlying algorithm minimizes the distance between teams who collaborate the most with each other. You can use this tool to generate seating plans quickly and objectively, in a data-driven way.
 
-To learn more, see [Workspace Collaboration Optimizer](../use/wsplan.md).
+To learn more, see [Workspace Collaboration Optimizer](/viva/insights/use/wsplan?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## May 2021
 
