@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore meetings overview data in Viva Insights
 description: Overview of meetings data in Advanced insights with Microsoft Viva Insights
 author: madehmer
@@ -43,7 +43,7 @@ The low-quality meeting hours overview summarizes the number of low-quality meet
 
 Admins can include an optional HourlyRate column in the organizational data, which they can use to calculate the total cost of low-quality meetings as shown in Meetings overview. If the HourlyRate column is included, cost is calculated as the sum of a person's default hourly rate for the organization multiplied by low-quality meeting hours.
 
-If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. In [System defaults](./system-defaults.md), admins can change the Hourly Rate field from its default value to any other hourly rate.
+If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. In [System defaults](/viva/insights/use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), admins can change the Hourly Rate field from its default value to any other hourly rate.
 
 ## Meetings hours by number of attendees
 
@@ -124,5 +124,5 @@ For example, the following scenarios of conflicting meetings are counted differe
 
 ## Related topics
 
-* [Page settings](../use/explore-page-settings.md)
-* [Advanced insights charts](../use/chart-types.md)
+* [Page settings](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Advanced insights charts](/viva/insights/use/chart-types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
