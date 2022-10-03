@@ -39,7 +39,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    ![Add a new ONA dataset.](./images/ona-new-dataset.png)
 
 5. If you selected **Internal Collaboration**, skip to the next step. For external collaboration, you can specify an [Account Mapping File](deploy-configure.md#account-mapping) if you want to select friendly account names instead of account domains. Then in **Select External Collaborators**, select up to five accounts or domains to include in this analysis.
-6. In **Select the Grouping Attributes**, select the internal attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#attribute-reference) from Workplace Analytics.
+6. In **Select the Grouping Attributes**, select the internal attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#attribute-reference) from Workplace Analytics.
 7. If **Advanced Mode** is **Off** (at the top), skip to the next step. If **Advanced Mode** is **On**, you'll see **Specify the Interaction Types and Thresholds**, where you can specify the following:
 
    * **Choose the interaction type(s)** - Select what to analyze in the dataset, independently or in combination, including emails, meetings, Teams chats, and Teams calls. Note that if you include meetings and Teams calls in your analysis, only unscheduled Team calls are counted to avoid double counting meeting call activity.
@@ -51,7 +51,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    >[!Important]
    >When analyzing calls or chats, you'll only see data from the time period where all signals exist. For example, if you select meetings and calls to analyze and 13 months of meeting data is available, but only three months of Microsoft Teams data is available, you'd only see data for the three months that include all of the selected types of interactions.
 
-8. Optionally, in **Enter any Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) to learn more about them.
+8. Optionally, in **Enter any Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more about them.
 9. Select **Submit**. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset.
 
 ## To add new analysis

@@ -100,7 +100,7 @@ To see more details about the collaboration metrics or the interaction matrix th
    ![Define Insight Settings options.](./images/ona-new-insight.png)
 
 4. In **Specify the time range**, select a date range (minimum of two months) to get collaboration trends over time.
-5. In **Select the Grouping Attributes**, select up to a maximum of five internal attributes to analyze. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#attribute-reference) from Workplace Analytics.
+5. In **Select the Grouping Attributes**, select up to a maximum of five internal attributes to analyze. The available attributes match up to the HR attributes included in the imported [organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#attribute-reference) from Workplace Analytics.
 6. If **Advanced Mode** is **Off** (at the top), skip to the next step. If **Advanced Mode** is **On**, you'll see the **Specify the Interaction Types and Thresholds** section, where you can specify the following:
 
    * **Choose the interaction type(s)** - Select what to analyze in the dataset, independently or in combination, including emails, meetings, Teams chats, and Teams calls. Note that if you include meetings and Teams calls in your analysis, only unscheduled Team calls are counted to avoid double counting meeting call activity.
