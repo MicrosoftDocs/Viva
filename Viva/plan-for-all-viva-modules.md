@@ -75,7 +75,7 @@ Review the different roles in each phase before you get started planning. Each m
 
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
-|Work with your **organization’s stakeholders** and business partners to identify who does what to get Viva Insights set up, introduced, and adopted within the organization. |**Microsoft 365 enterprise or global admin** [assigns licenses](insights/personal/Setup/configure.md), [assigns roles](insights/Setup/Assign-roles-to-wpa-admins.md), and [configures app access](insights/personal/Setup/configure.md). <p> - **Insights Administrator** then works with the enterprise or global admin to [set up advanced insights](insights/Setup/Set-up-Workplace-Analytics.md) and the **Microsoft Teams Service Administrator** to [deploy the Viva Insights app in Teams](insights/personal/teams/viva-teams-app-admin-tasks.md). |After app access is set up, the admin and business leaders can then plan a rollout strategy for introducing Viva Insights to their organization. For rollout ideas, see [Roll out Viva Insights and Conduct a user pilot](insights/personal/Setup/deployment-guide.md) (Briefing emails).|
+|Work with your **organization’s stakeholders** and business partners to identify who does what to get Viva Insights set up, introduced, and adopted within the organization. |**Microsoft 365 enterprise or global admin** [assigns licenses](insights/personal/Setup/configure.md), [assigns roles](insights/advanced/setup-maint/assign-admin-roles.md), and [configures app access](insights/personal/Setup/configure.md). <p> - **Insights Administrator** then works with the enterprise or global admin to [set up advanced insights](insights/advanced/setup-maint/setup.md) and the **Microsoft Teams Service Administrator** to [deploy the Viva Insights app in Teams](insights/personal/teams/viva-teams-app-admin-tasks.md). |After app access is set up, the admin and business leaders can then plan a rollout strategy for introducing Viva Insights to their organization. For rollout ideas, see [Roll out Viva Insights and Conduct a user pilot](insights/personal/Setup/deployment-guide.md) (Briefing emails).|
 
 ### Get guidance on Viva Learning
 
@@ -121,8 +121,8 @@ Technically, the Viva apps don't need to be installed in a specific order. Each 
 
 ### Get started with Viva Insights
 
-- Decide which types of insights are needed ([personal](insights/personal/introduction.md), [team](insights/org-team-insights/teamwork-habits.md), [organization](insights/org-team-insights/org-trends.md), and [advanced](insights/index-orig.md)).
-- [Review the getting started guide for Viva Insights.](insights/Setup/setup-intro.md)
+- Decide which types of insights are needed ([personal](insights/personal/introduction.md), [team](insights/org-team-insights/teamwork-habits.md), [organization](insights/org-team-insights/org-trends.md), and [advanced](insights/advanced/introduction-to-advanced-insights.md)).
+- [Review the getting started guide for Viva Insights.](insights/advanced/setup-maint/setup-overview.md)
 
 ### Get started with Viva Learning
 
