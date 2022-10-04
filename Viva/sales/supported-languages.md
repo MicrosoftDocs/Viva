@@ -1,7 +1,7 @@
 ---
 title: Supported languages in Viva Sales
 description: Lean which languages are supported in Viva Sales
-ms.date: 09/07/2022
+ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -13,10 +13,18 @@ ms.localizationpriority: medium
 
 # Supported languages in Viva Sales
 
-> [!IMPORTANT]
-> Viva Sales is currently available only for public preview customers, and only in English. The features described here are subject to change.
+User interface is available in the following languages.
 
-The user interface is in English only.
+||||
+|------------------------------|--------------------------------|--------------------------------|
+|     Arabic                   |     Chinese   (simplified)     |     Chinese   (traditional)    |
+|     Czech                    |     Danish                     |     Dutch                      |
+|     English                  |     Finnish                    |     French                     |
+|     German                   |     Greek                      |     Hebrew                     |
+|     Indonesian               |     Italian                    |     Japanese                   |
+|     Korean                   |     Norwegian                  |     Polish                     |
+|     Portuguese   (Brazil)    |     Portuguese   (Portugal)    |     Spanish                    |
+|     Swedish                  |     Thai                       |     Turkish                    |
 
 Conversation intelligence is available in the following languages:
 
