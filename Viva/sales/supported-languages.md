@@ -13,18 +13,32 @@ ms.localizationpriority: medium
 
 # Supported languages in Viva Sales
 
-User interface is available in the following languages.
+User interface is available in the following languages:
 
-||||
-|------------------------------|--------------------------------|--------------------------------|
-|     Arabic                   |     Chinese   (simplified)     |     Chinese   (traditional)    |
-|     Czech                    |     Danish                     |     Dutch                      |
-|     English                  |     Finnish                    |     French                     |
-|     German                   |     Greek                      |     Hebrew                     |
-|     Indonesian               |     Italian                    |     Japanese                   |
-|     Korean                   |     Norwegian                  |     Polish                     |
-|     Portuguese   (Brazil)    |     Portuguese   (Portugal)    |     Spanish                    |
-|     Swedish                  |     Thai                       |     Turkish                    |
+- Arabic
+- Chinese   (simplified)
+- Chinese   (traditional)
+- Czech
+- Danish
+- Dutch
+- English
+- Finnish
+- French
+- German
+- Greek
+- Hebrew
+- Indonesian
+- Italian
+- Japanese
+- Korean
+- Norwegian
+- Polish
+- Portuguese   (Brazil)
+- Portuguese   (Portugal)
+- Spanish
+- Swedish
+- Thai
+- Turkish
 
 Conversation intelligence is available in the following languages:
 
