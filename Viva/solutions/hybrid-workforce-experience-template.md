@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Hybrid workforce experience solution - automated template
 description: Learn how to use an Excel template to generate the OnsiteDays attribute for the Hybrid workforce experience OnsiteDays solution.
 author: lilyolason
