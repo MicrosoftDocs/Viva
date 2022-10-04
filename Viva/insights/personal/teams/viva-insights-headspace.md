@@ -27,7 +27,7 @@ Anytime you want, you can start a guided meditation that's been designed for the
 
 1. Open the **Home** page of Microsoft Viva Insights.
 
-   ![Screenshot that shows the Home page with Headspace.](images/app-home-ic.png)
+   ![Screenshot that shows the Home page with Headspace.](images/app-home-ic2.png)
 
 2. To start the Headspace exercise, select the **Play** button on the **Headspace** card.
 
