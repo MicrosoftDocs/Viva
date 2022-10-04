@@ -267,7 +267,3 @@ items:
             href: advanced/reference/faq.md
           - name: Glossary
             href: advanced/reference/glossary.md
-      - name: Viva Insights FAQ
-        href: use/faq-intro.md
-      - name: Get support
-        href: overview/getting-support.md
