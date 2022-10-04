@@ -52,7 +52,7 @@ Viva Connections is designed to meet people where they usually get their work do
 | Component                  | Description                 |
 | :------------------- | :------------------- |
 | **Dashboard**                | The Dashboard is your employee’s digital toolset that brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. The Dashboard uses dynamic cards that employees can interact with to do things like complete simple tasks or review critical data. It’s authored in SharePoint and published to the Viva Connections Teams mobile app. <br><br> Cards in the Viva Connections Dashboard are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). They provide a low-code solution to bring your line-of-business apps into the Dashboard. In addition, in Viva Connections for Desktop, the experience uses SharePoint home sites, which can be extended using [SPFx web parts and extensions](/sharepoint/dev/spfx/viva/overview-viva-connections).                 | 
-| **Feed**               | The Viva Connections Feed delivers updates to the right people at the right time with powerful targeting and scheduling capabilities. It is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. It supports both centralized corporate communication scenarios and democratized news scenarios. It is available in the Viva Connections Teams app on mobile, and [as a web part on desktop](/viva/connections/use-feed-web-part-for-viva-connections))  | 
+| **Feed**               | The Viva Connections Feed delivers updates to the right people at the right time with powerful targeting and scheduling capabilities. It's tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. It supports both centralized corporate communication scenarios and democratized news scenarios. It's available in the Viva Connections Teams app on mobile, and [as a web part on desktop](/viva/connections/use-feed-web-part-for-viva-connections))  | 
 | **Resources**             | The Viva Connections Resources experience enables way finding across platforms. It uses navigation elements from the SharePoint app bar, which can be audience targeted.   | 
 
 
@@ -106,7 +106,7 @@ The Viva Connections Dashboard comes with an initial set of built-in cards, but 
 
 Cards in the Viva Connections Dashboard are based on adaptive cards and the SharePoint Framework (SPFx). They provide a low-code solution to bring your line-of-business apps into the Dashboard.
 
-In addition, in Viva Connections for Desktop, the experience leverages SharePoint home sites, which can already be extended using Web parts and SPFx.
+In addition, in Viva Connections for Desktop, the experience uses SharePoint home sites, which can already be extended using Web parts and SPFx.
 
 These cards are available in the Dashboard toolbox when authoring a Dashboard, as shown in the following image:
 
@@ -117,7 +117,7 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 
 |Card Name  |Description  |
 |---------|---------|
-|Approvals     |    Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on documents, and approve expense reports     |
+|Approvals     |    Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign off on documents, and approve expense reports     |
 |Assigned Tasks     |    Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
 |Card designer    |     Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)    |
 |Shifts     | Display information about the next or current shift from the Shifts app in Teams          |
@@ -170,7 +170,7 @@ Use the [Feed web part for Viva Connections](/viva/connections/use-feed-web-part
 
 Resources are the navigational links that are set up and customized in the [SharePoint app bar](sharepoint-app-bar.md) from the home site. These resources will get displayed on both the desktop and mobile instances of Viva Connections. 
 
-In the mobile app, users can view resources by selecting the **Resources** tab. This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
+In the mobile app, users can view resources by selecting the **Resources** tab. This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more—right from their mobile devices.
 
 
 
@@ -231,7 +231,7 @@ Viva Connections is available in most major languages used in Microsoft 365. [Le
 
 
 ## Extensibility
-Many components to the Viva Connections experience can be completely customized. The [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) (SPFx) is the recommended SharePoint customization and extensibility model for developers because of the tight integration between SharePoint Online, Microsoft Teams, and Microsoft Viva Connections. The SPFx is the only extensibility and customization option for Viva Connections. [Learn more about Viva Connections extensibility](/sharepoint/dev/spfx/viva/overview-viva-connections).
+Many components to the Viva Connections experience can be customized. The [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) (SPFx) is the recommended SharePoint customization and extensibility model for developers because of the tight integration between SharePoint Online, Microsoft Teams, and Microsoft Viva Connections. The SPFx is the only extensibility and customization option for Viva Connections. [Learn more about Viva Connections extensibility](/sharepoint/dev/spfx/viva/overview-viva-connections).
 
 
 
