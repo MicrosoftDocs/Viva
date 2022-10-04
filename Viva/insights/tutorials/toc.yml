@@ -3,7 +3,7 @@ items:
 - name: Advanced insights
   items:
   - name: Overview
-    href: /viva/insights/index-orig
+    href: /viva/insights/index-orig?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
   - name: Data privacy and protection
     items:
     - name: Data-protection considerations
