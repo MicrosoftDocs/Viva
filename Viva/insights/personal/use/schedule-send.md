@@ -95,7 +95,7 @@ In **Settings > Protect time**, switch the toggle for **Schedule send su
 
 ## Admin controls
 
-To configure schedule send suggestions for your organization at the tenant level, refer to [Admin setup](../Setup/configure.md#to-enable-access-to-viva-digest-emails-the-dashboard-and-the-viva-insights-outlook-add-in).
+To configure schedule send suggestions for your organization at the tenant level, refer to [Admin setup](../Setup/configure.md#to-enable-access-to-viva-digest-emails-the-dashboard-viva-insights-outlook-add-in-and-schedule-send-suggestions).
 
 <!--## Video walk-through
 
