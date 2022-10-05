@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: How to interpret query output in Viva Insights
 description: Understand and interpret query output is the advanced insights app with Microsoft Viva Insights
 author: madehmer
@@ -20,7 +21,7 @@ After you run a query in the advanced insights app, you'll see the list of query
 
 ![.csv file download.](../images/WpA/Use/qd-results-download.png)
 
-You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For details, see [Use the data in Power BI and other data analysis tools](view-download-and-export-query-results.md#use-viva-insights-data-in-power-bi-excel-or-other-data-analysis-tool).
+You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For details, see [Use the data in Power BI and other data analysis tools](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#use-viva-insights-data-in-power-bi-excel-or-other-data-analysis-tool).
 
 ## Person query output
 
@@ -29,7 +30,7 @@ Person query output can include a number of different metrics, including the fol
 * Person ID - De-identified ID number for the person represented in that data row.
 * Date - The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it'll be the first day of the month your data encompasses).
 * Person attributes - Attributes about the person supplied through the latest organizational (HR) data upload.
-* Metrics - Any other metrics that you include in the query. See [Person query metrics](../use/metric-definitions.md) for more details.
+* Metrics - Any other metrics that you include in the query. See [Person query metrics](/viva/insights/use/?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details.
 
 ### Duration hours adjusted for time booked in the calendar
 
@@ -97,7 +98,7 @@ The .csv output file for both person-to-group queries and group-to-group queries
 
 ![Table of columns for group-to-group queries.](../images/WpA/Use/select-metrics.png)
 
-For details about person-to-group metrics, see [Advanced insights metrics](../use/metric-definitions.md#person-to-group-metrics).
+For details about person-to-group metrics, see [Advanced insights metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#person-to-group-metrics).
 
 **The IsActive attribute**
 
@@ -198,4 +199,4 @@ The query output for group-to-group queries, like person-to-group queries, also 
 |**Meetings invitee count** | The total number of invitees in all meetings from the time investor and collaborator.
 |**Collaboration hours** | The sum of meeting hours and email hours spent between the time investor and collaborator groups. |  
 
-For a complete list of and more details about group query metrics, see [Advanced insights metrics](../use/metric-definitions.md#group-to-group-metrics).
+For a complete list of and more details about group query metrics, see [Advanced insights metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#group-to-group-metrics).
