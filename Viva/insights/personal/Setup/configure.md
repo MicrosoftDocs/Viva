@@ -40,9 +40,6 @@ audience: Admin
 Viva Insights is available to users who are assigned a license with a Microsoft Viva Insights service plan. For more details about which licenses have Viva Insights service plans and when users get access to Viva Insights elements after license assignment, see [plans and environments](../Overview/plans-environments.md).
 
 For information on how to assign a license, see [Assign licenses to users in Microsoft 365 for business](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
-<!--Hiding until the template and adoption info can be updated --
->[!Note]
->If you want to notify your organization before you assign licenses with a Viva Insights service plan, you can use [this email template](Viva Insights-announcement-2020-template.docx). You can download it, customize it with your company's information, and then email it to the new Viva Insights participants. To learn more about adopting Viva Insights, see [Adopt Viva Insights](../Use/MyA-Adoption/adopt-myanalytics.md).-->
 
 ## Configure access at the tenant level
 
@@ -51,15 +48,16 @@ You can configure access to Viva Insights elements for all users in your organiz
 >[!Important]
 >You must have a Global admin or an Exchange Online admin role to configure tenant level settings in the admin center.
 
-### To enable access to Viva digest emails, the dashboard, and the Viva Insights Outlook add-in
+### To enable access to Viva digest emails, the dashboard, Viva Insights Outlook add-in, and schedule send suggestions
 
 1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
-2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
-3. In the left pane, expand **Settings**, and then select **Org settings**.
-4. Under **Services**, select **Microsoft Viva Insights (formerly MyAnalytics)** to see settings for the different options.
-5. Select **Insights dashboard** to keep all Viva Insights users in your organization opted _in_ for access to the dashboard. Deselect **Insights dashboard** to opt users _out_.
-6. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
-7. Select **Insights Outlook add-in** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
+1. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
+1. In the left pane, expand **Settings**, and then select **Org settings**.
+1. Under **Services**, select **Microsoft Viva Insights (formerly MyAnalytics)** to see settings for the different options.
+1. Select **Insights dashboard** to keep all Viva Insights users in your organization opted _in_ for access to the dashboard. Deselect **Insights dashboard** to opt users _out_.
+1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
+1. Select **Insights Outlook add-in** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
+1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt users out. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and dashboard settings page. It may take up to 24 hours for all changes to take effect.
 
 >[!Note]
 >After a new tenant is established, it can take up to 48 hours for this functionality to become available.

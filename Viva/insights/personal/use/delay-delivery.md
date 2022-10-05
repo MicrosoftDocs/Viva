@@ -18,6 +18,8 @@ audience: user
 
 _**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights and are enrolled in an applicable [Personal insights service plan](../overview/plans-environments.md#additional-features)._
 
+>[!Note] We're making some changes to this feature, which will be available worldwide by the end of October. You'll see an update to this article then.
+
 When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions for the following scenarios:
 
 * When all recipients in the **To** field are outside of their working hours.
