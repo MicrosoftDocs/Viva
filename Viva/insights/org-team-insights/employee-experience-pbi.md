@@ -25,14 +25,6 @@ The following is an example of what you'll see in the Protecting personal time r
 
 ![Protecting personal time report.](../Images/WpA/Tutorials/pbi-ppt-report.png)
 
-To populate the dashboard in Power BI, you must set up the **Employee experience** template in the advanced insights app for Viva Insights. The results will refresh your downloaded Power BI dashboard on a weekly basis.
-<!--
-## Demonstration
-
-This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
-
-[Employee experience in Power BI demo](https://msit.powerbi.com/groups/me/reports/a46f5da2-58ba-467d-b1e8-68541ab302ea/ReportSection047f79d6110db8b7d45b?ctid=72f988bf-86f1-41af-91ab-2d7cd011db47&bookmarkGuid=Bookmarkcd33e1e642e6511e8d55) -->
-
 ## Prerequisites  
 
 Before you can run the results and populate the dashboard in Power BI, you must:
