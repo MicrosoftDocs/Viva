@@ -1,5 +1,24 @@
+---
 
-# Employee experience
+title: Employee experience Power BI template from Organization trends
+description: Use the Employee experience Power BI template to learn more about focus time, manager coaching, and other key experience indicators for your organization
+author: lilyolason
+ms.author: v-lilyolason
+ms.topic: article
+ms.localizationpriority: medium 
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-leader
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
+manager: anirudhbajaj
+audience: Admin
+
+---
+
+# Employee experience Power BI
 
 With the new Power BI template and dashboard from Microsoft Viva Insights, you'll learn more about focus time, manager coaching, and other key experience indicators for your organization. You’ll be able to customize the template by grouping and filtering for parts of the organization, and you’ll receive actionable insights to help improve wellbeing and productivity.
 
