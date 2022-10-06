@@ -30,7 +30,7 @@ The dashboard in Power BI includes the following reports:
 * **Getting manager coaching** - Measure how much 1:1 time managers spend with their employees on average each month. Research shows that time spent 1:1 with your manager helps keep employees engaged and improves their job performance and career development.
 * **Effective meetings** - Shows the percentage of employees who spend most of their time in short or focused meetings, which are less than one hour long with two to eight participants. Research shows short and targeted meetings are more inclusive with higher participation where decisions get made and work gets done.
 
-![Power BI My organization template.](../Images/WpA/Tutorials/pbi-myorg.png)
+![Screenshot that shows the Power BI Employee experience template.](../Images/WpA/Tutorials/pbi-myorg.png)
 
 Each report also includes the following details:
 
@@ -42,13 +42,13 @@ Each report also includes the following details:
 
 The following is an example of what you'll see in the Protecting personal time report:
 
-![Protecting personal time report.](../Images/WpA/Tutorials/pbi-ppt-report.png)
+![Screenshot that shows the Protecting personal time report.](../Images/WpA/Tutorials/pbi-ppt-report.png)
 
 ## Prerequisites  
 
-Before you can run the results and populate the dashboard in Power BI, you must:
+Before you can run the results and populate the dashboard in Power BI, you need to:
 
-* Be assigned [Insights Business Leader role](../use/user-roles.md).
+* Be assigned [Insights Business Leader role](../advanced/setup-maint/user-roles.md).
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version.
 Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
@@ -61,17 +61,17 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 2. Select **Download now**.
 3. Open the downloaded **Employee experience** template, and if prompted to select a program, select **Power BI**.
 4. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-5. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+5. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. See [Troubleshooting](../advanced/analyst/templates/power-bi-faq-troubleshoot.md) for more details.
 
     >[!Important]
-    >You must sign in to Power BI with the same account you use to access Viva Insights.
+    >You need to sign in to Power BI with the same account you use to access Viva Insights.
 
 6. In Power BI Desktop, select **Publish** at the top (ribbon), and then sign in with the same email address you use for Microsoft Viva.
 7. Follow the online instructions to view these reports in your Power BI workspace.
 
 ## Achieved or At Risk KPIs
 
-Because Viva Insights respects user privacy, the Employee experience reports in Power BI do not show information about individual recipients and when necessary to protect privacy, it reports approximated values only. For example, the following shows an approximation about “Hosting targeted meetings.” Groups with less than 10 employees are not shown in the reports. See [De-identification of personal data in Viva Insights](../privacy/de-identify-data.md) for details.
+Because Viva Insights respects user privacy, the Employee experience reports in Power BI do not show information about individual recipients and when necessary to protect privacy, it reports approximated values only. For example, the following shows an approximation about “Hosting targeted meetings.” Groups with less than 10 employees are not shown in the reports. See [De-identification of personal data in Viva Insights](../advanced/privacy/privacy.md#de-identification-of-personal-data) for details.
 
 ![Example KPI approximation about Hosting targeted meetings.](../Images/WpA/Tutorials/kpi-example.png)
 
@@ -83,7 +83,7 @@ Number of employees in a group | Value threshold range for Achieved
 11 to 20 | 10 to 90 percent
 21 or more | 5 to 95 percent
 
-For more information, see [Differential privacy in Viva Insights](../privacy/differential-privacy.md).  
+For more information, see [Differential privacy in Viva Insights](../advanced/privacy/privacy.md#differential-privacy).  
 
 ## Organizational data
 
