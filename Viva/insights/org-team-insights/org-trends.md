@@ -78,6 +78,10 @@ To investigate more about an outcome, select it to see more details.
 >[!Note]
 >To provide feedback as you use Viva Insights, select **Yes** or **No** for the "Is this helpful" question near the end of every insight and every page.
 
+## Employee experience Power BI report
+
+To get additional employee experience insights, you can download the **Employee experience** Power BI report. Learn more about the report, which you can find in Organization trends **Recommendations** section, in this article: [Employee experience](employee-experience-pbi.md). 
+
 ## Related topics
 
 * [Viva Insights app](../personal/teams/viva-teams-app.md)
