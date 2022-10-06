@@ -3,7 +3,7 @@ title: "Nudge users to check in"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: <TBD>
+manager:
 audience: Admin
 f1.keywords:
 - NOCSH
