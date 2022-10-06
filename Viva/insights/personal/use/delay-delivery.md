@@ -17,10 +17,10 @@ audience: user
 
 # Schedule send suggestions
 
->[!Important] This feature was formerly called **Delay delivery**. We're rolling out the new **Schedule send suggestions** experience to customers over the next few weeks.
+> [!IMPORTANT]
+> This feature was formerly called **Delay delivery**. We're rolling out the new **Schedule send suggestions** experience to customers over the next few weeks.
 >
 >If you don't see this new experience yet and want to refer to our previous **Delay delivery** documentation, you can find it here: [Delay delivery](delay-delivery-1.md).
-
 
 With schedule send suggestions, you can help minimize email disruptions to your colleagues outside their working hours or when they’re away from work. Schedule send suggestions also help you maintain the flexibility to work when you want without putting the burden of your schedule on others. 
 

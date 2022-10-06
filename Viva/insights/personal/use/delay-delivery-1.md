@@ -18,7 +18,8 @@ audience: user
 
 _**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights and are enrolled in an applicable [Personal insights service plan](../overview/plans-environments.md#additional-features)._
 
->[!Important] This feature is becoming **Schedule send suggestions**, which we're rolling out to customers over the next few weeks. The article below details the old **Delay delivery** experience. After **Schedule send suggestions** is completely rolled out, we'll retire this article.
+> [!IMPORTANT]
+> This feature is becoming **Schedule send suggestions**, which we're rolling out to customers over the next few weeks. The article below details the old **Delay delivery** experience. After **Schedule send suggestions** is completely rolled out, we'll retire this article.
 >
 >To read about the new experience, go to our [new documentation](delay-delivery.md).
 
