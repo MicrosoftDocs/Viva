@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: lilyolason
@@ -15,34 +14,31 @@ audience: Admin
 
 # Prepare organizational data
 
-This article describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before uploading it.
+This article describes the value of organizational data for analysts, and also describes the steps you as an admin need to take to identify, gather, and structure data before uploading it. To learn more about the nature and use of organizational data, refer to [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). 
 
-To learn more about the nature and use of organizational data, see [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). When you’re ready to start working with organizational data, the following sections describe how:
+When you’re ready to start working with organizational data, the following sections guide you through the data-preparation process.
 
-* [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide what trends you need to learn about to improve efficiency at work. From this, you can better choose what organizational data to use.
+* [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
 * [Know what data to include](#know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
 * [Get an export of organizational data](#get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
-* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you must first structure it correctly in the.csv file that you upload.
+* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the.csv file that you upload.
 * [Upload the data](#upload-the-data) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
 
 ## Use organizational data for more effective analysis
 
-Organizational data is descriptive information about employees. After an admin uploads organizational data, the advanced insights app combines it with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
+Organizational data is descriptive information about employees. After you upload organizational data, the advanced insights app combines it with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
 
-Here are examples of what analysts can do with advanced insights after the organizational data is uploaded:
-
-* Know how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
-* Customize metrics to quantify group relationships, such as collaboration time between the marketing and sales groups.
+Here's an example: After the organizational data is uploaded in the advanced insights app, an analyst might use it to learn how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
 
 Advanced insights automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; it’s the organizational data that you upload that provides analysis context.
 
 ## Identify trends that you want to analyze
 
-To know what organizational data to extract, you first need to decide what workplace trends you want to learn about. For example, in an upcoming analysis, you may want to examine collaboration across different employee segments, or groups. You must first define these groups, which you can do in various ways:
+To know what organizational data to extract, you first need to decide what workplace trends you want to learn about. For example, in an upcoming analysis, you may want to examine collaboration across different employee segments, or groups. You need to first define these groups, which you can do in various ways:
 
-* Groups as defined by organizational data
-* Groups made up of organizational hierarchy levels
-* Groups made up of performance, engagement, or other line-of-business data
+* By organizational data
+* By organizational hierarchy levels
+* By performance, engagement, or other line-of-business data
 
 Defined groups can be used in the following examples of analyses:
 
@@ -52,10 +48,10 @@ A common analysis scenario is to find patterns of collaboration between differen
 
 Attributes for segmenting populations can be helpful to consider in defining patterns of collaboration, such as:
 
-* Job family or role attributes, such as profession, function, discipline, and job code
-* Organization, line of business, or cost center, such as HR, Finance, Sales, and Marketing
-* Location attributes, such as city, state, country, and regions, as defined by your organization
-* Attributes that describe their work, such as remote, full-time employee or vendor, part-time or full-time, their tenure within the organization, or the tenure of their current role.
+* Job family or role attributes, like profession, function, discipline, and job code
+* Organization, line of business, or cost center, like HR, Finance, Sales, and Marketing
+* Location attributes, like city, state, country, and regions, as defined by your organization
+* Attributes that describe their work, like remote, full-time employee or vendor, part-time or full-time, their tenure within the organization, or the tenure of their current role
 
 Most of these attributes are available within HR information systems.
 
@@ -63,13 +59,13 @@ Most of these attributes are available within HR information systems.
 
 It’s also common to seek patterns of collaboration behavior in reference to the hierarchy of your organization, as well as to quantify collaboration between managers and individual contributors, and between higher and lower levels and layers in the organization.
 
-The following concepts are helpful in this analysis:
+The following concepts are helpful in this kind of analysis:
 
 * **IC or manager** – Whether an employee is an individual contributor or a manager.
 * **Organizational hierarchy** – For example, the names of all managers above the employee in that employee's reporting structure; each manager can be stored as a separate attribute.
 * **Layer** – For example, the position of the employee in the organizational hierarchy where layer 0 = the top leader in the company.
 * **Span** – For example, the number of direct reports assigned to an employee.
-* **Level** – For example, senior manager, VP, director, CVP, and so on.
+* **Level** – For example, senior manager, VP, director, CVP.
 
 Most of these attributes are also found in HR information systems.
 
@@ -79,22 +75,23 @@ Finally, you might want to consider tying collaboration behavior patterns to emp
 
 ## Know what data to include
 
-To get full functionality from the advanced insights app, you must supply several required attributes, as described in Attribute reference Additionally, you can supply up to 100 optional attributes <!--pending confirmation with Abhinav--> to group and filter data in interesting and custom ways.
+To get full functionality from the advanced insights app, you need to supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
 
-Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to the advanced insights app at the individual level, which means that these attributes provide context to each person in the dataset.
+Examples of organizational data include job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to the advanced insights app at the individual level, which means that these attributes provide context to each person in the dataset.
 
-### Which employees to include
+### Employees to include
 
-At a minimum, include the organizational data for all employees who have Viva Insights licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
+At a minimum, include the organizational data for all employees who have Viva Insights licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup—that is, a specific target population within the company.
 
 For example, if the people in Marketing communicate frequently with the people in Product Development, but the app has HR data only about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
 If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
 
-### Include all licensed employees
+### Including all licensed employees
 
-It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: include the right people and include the right attributes for those people.
-The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build a query in the **Analyst > Analysis** page. This means that those employees will be excluded from the analyses that analysts perform.
+It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: data that includes the right people and includes the right attributes for those people.
+
+The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts can't filter by that data when they build a query on the **Analysis** page. So, employees whose data is missing will be excluded from the analyses that analysts perform.
 
 #### Notification of missing data
 
@@ -102,38 +99,37 @@ If the app detects that data is missing for one or more licensed employees, it a
 
 ##### Upload missing organizational data
 
-1. On the pop-up notification, select **Download** to download a .csv file that contains the names of licensed employees whose organizational data is missing <!--pending confirmation with Kory-->. Here’s an example of what that file might look like:
+To upload this missing data, the admin can follow these steps:
 
+1. On the pop-up notification, select **Download** to download a .csv file that contains the names of licensed employees whose organizational data is missing. 
 1. Open the .csv file.
 1. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads.
 1. Upload the file. Refer to [Upload organizational data (subsequent upload)](./upload-org-data-subsequent.md)] for more information.
 
-### Also include unlicensed employees
-
-In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees. Doing so helps correctly include or exclude those employees from any custom metrics that you build in your queries.
+In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees, as we explained [earlier](#including-all-licensed-employees).
 
 ### Get an export of organizational data
 
-Before you format and upload organizational data, you must get it from one or more sources. Your primary source is the team that manages your organization's human resources (HR) information systems. This team will need to provide you with a data export of HR attributes for individual employees.
+Before you format and upload organizational data, you need to get it from one or more sources. Your primary source is the team that manages your organization's HR information systems. This team will need to provide you with a data export of HR attributes for individual employees.
 
-In addition, your analysts might need data about business outcomes. If so, you'll need to contact line-of-business owners who have access to data stores that contain this information. For example:
+In addition, your analysts might need data about business outcomes. If so, you'll need to contact line-of-business owners who have access to data stores that contain this information. For example, this data might include:
 
-* Performance-review data for specific work groups
-* Employee engagement scores captured by HR outside of HR information systems
-* Sales or other quota-attainment data that provide additional views into performance
-* Employee survey data
+* Performance-review data for specific work groups.
+* Employee engagement scores captured by HR outside of HR information systems.
+* Sales or other quota-attainment data that provide additional views into performance.
+* Employee survey data.
 
 After you get this data, you'll need to structure it for successful processing after uploading it to the app.
 
 ## Structure the organizational data
 
-After you’ve identified what data to provide, you need to export it into the correct format for uploading it. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. For more information about saving a file in UTF-8 format, see Solution.
+After you’ve identified what data to provide, you need to export it into the correct format for uploading it. To start with, the data needs to be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. 
 
-The file name needs contain only alphanumeric characters (letters and numbers), with no spaces or special characters. For example, FileName2.csv.
+The file name needs contain only alphanumeric characters (letters and numbers), with no spaces or special characters—for example, FileName2.csv.
 
 ### Required attributes
 
-Supply the following attributes as column headers, exactly as written below, need be supplied exactly as written as column headers in the .csv upload.<!--, of which **PersonId** and **ManagerId** are not case sensitive, but **Organization** is. <!--pending confirmation that there is case-sensitivity in attribute names. RB has tagged AS-->
+Supply the following attributes as column headers, exactly as written below, in the .csv upload.<!--, of which **PersonId** and **ManagerId** are not case sensitive, but **Organization** is.-->
 
 * **EffectiveDate**
     * Make sure the **EffectiveDate** column has values in all rows. If you don’t provide an **EffectiveDate** column in your upload, the date you uploaded the data becomes the default **EffectiveDate**.
@@ -143,7 +139,7 @@ Supply the following attributes as column headers, exactly as written below, nee
 
 ### Reserved optional attributes
 
-The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. <!--As indicated, FunctionType, and SupervisorIndicator are case sensitive. pending confirmation that there is case-sensitivity in attribute names-->
+The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. <!--As indicated, FunctionType, and SupervisorIndicator are case sensitive.-->
 
 * **LevelDesignation**
 * **FunctionType**
@@ -165,7 +161,7 @@ Custom attributes are any additional attributes you want to define to use in fil
 >
 > * The maximum number of total attributes allowed in the system is 105, which includes the five required attributes. 
 > * All dates should be in the MM/DD/YYYY format.
-> * All numerical fields (such as the required attribute "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
+> * All numerical fields (such as the required attribute "HourlyRate") need to be in the "number" format and cannot contain commas or a dollar sign.
 
 For more information, see Attribute descriptions and data-coverage requirements.
 
@@ -194,18 +190,17 @@ It's recommended that you upload employee data at least once a month to keep dat
 
 <!--pending confirmation-->
 
-By default, Viva Insights includes meeting and email data for measured employees for one year. Organizational data is provided to Viva Insights with an effective date associated with each row in the upload file, as described in Attribute descriptions and data-coverage requirements.
+By default, Viva Insights includes meeting and email data for measured employees for one year. Organizational data is provided to Viva Insights with an effective date associated with each row in the upload file.
 
-If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time. Therefore, for the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
+If you do a point-in-time export of organizational data from your HR information system as of the current date, you'll get a picture of your employee population for that single point in time. For the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This data can be supplied in a single file or in a sequence of files. 
 
-This means that for each measured employee, you would have 13 separate rows; each row would contain an effective date for each month in which data was pulled. If this is not possible, then you can provide one single point in time. In this case, the effective date should be set to the first day of the current month, one year back. For example, if provisioning occurred in October 2020, the effective date for all rows should be set to 10/1/2019.
+Here's how that would look in practice. For each measured employee, you'd have 13 separate rows. Each of those rows would contain an effective date for each month that data was pulled for. If an effective date for each month isn't possible, then you can provide one single point in time. In that case, set the effective date to the first day of the current month, one year back. For example, if provisioning occurred in October 2020, the effective date for all rows should be set to 10/1/2019.
 
-The employee’s collaboration activity will be mapped to the most recent organizational data snapshot (based on **EffectiveDate**) that precedes the date of the collaboration activity. 
+Employee collaboration activity will be mapped to the most recent organizational data snapshot (based on **EffectiveDate**) that precedes the date of the collaboration activity. 
 
 ## Attribute reference
 
 This section contains information about the attributes that you use in the organizational data files uploaded to the advanced insights app.
-Attribute descriptions and data-coverage requirements Attribute notes and recommendations
 
 |Attribute (column header) | Description | Data type | Example value| Required or reserved
 |--------------------------|----------|---|--------------------|----|
@@ -235,7 +230,7 @@ Attribute descriptions and data-coverage requirements Attribute notes and recomm
 
 ### Some attributes exist only for a subset of the population
 
-When choosing attributes to include, some attribute values might be populated for one organization but not others. For example, if the upload includes sales quota-attainment data that only applies to your sales organization, you cannot use this data for filtering and grouping employees outside of sales.
+When choosing attributes to include, some attribute values might be populated for one organization but not others. For example, if the upload includes sales quota-attainment data that only applies to your sales organization, you can't use this data for filtering and grouping employees outside of sales.
 
 ### Too many unique values
 
@@ -243,7 +238,7 @@ Sometimes an attribute has too many unique values to use for grouping and filter
 
 ### Too few unique values
 
-Conversely, sometimes an attribute is too broadly defined for useful filtering. For example, if your organization resides entirely in the United States and your HR records per employee contain a country code that always equals US, that attribute won’t be useful.
+Conversely, sometimes an attribute is too broadly defined for useful filtering. For example, if your organization resides entirely in the United States and your HR records per employee contain a country code that always equals US, that attribute wouldn't be useful.
 
 ### Redundant attributes
 
@@ -252,7 +247,7 @@ Some attributes might represent the same data and provide unnecessary redundant 
 ### Line-of-business data
 
 Unlike HR data, for line-of-business data, you might not need to include every person in your company as part of your data upload. Knowing the scenarios you want to analyze will help you to decide.
-For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you will want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you will use the score values to group and filter specific report outputs.
+For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you'll want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you're using the score values to group and filter specific report outputs.
 
 ## Valid values and formats
 

@@ -1,19 +1,17 @@
 ---
-title: Install Viva Sales from Microsoft 365 admin center
-description: Learn how to install Viva Sales from Microsoft 365 admin center
-ms.date: 08/01/2022
+title: Install Viva Sales as individual add-in from Microsoft 365 admin center
+description: Learn how to install Viva Sales as individual add-in from Microsoft 365 admin center
+ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
-# Install Viva Sales from Microsoft 365 admin center
-
-> [!IMPORTANT]
-> Viva Sales is currently available only for public preview customers, and only in English. The features described here are subject to change.
+# Install Viva Sales as individual add-in from Microsoft 365 admin center
 
 ## Microsoft Outlook
 
@@ -21,55 +19,59 @@ ms.localizationpriority: medium
 
 2.  In the left pane, select **Settings** &gt; **Integrated apps**.
 
-3. Select **Get apps**.
+3. On the **Integrated apps** page, select **Add-ins**.
 
-   Microsoft AppSource opens in an embedded window.
+1. On the **Add-ins** page, select **Deploy Add-In**.
 
-4. Search for **Viva Sales for Microsoft Outlook (Preview)**.
+1. In the **Deploy a new add-in** panel, select **Next**.
 
-5. In the tile for the app in search results, select **Get it now**.
+1. Select **Choose from the Store**.
 
-    The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
+1. Search for **Viva Sales for Microsoft Outlook**.
 
-6. In the **Users** step, select the users or groups who will have access to the add-in, and then select **Next**.
+1. Select **Add** next to the **Viva Sales for Microsoft Outlook** card.
 
-8. In the **Deployment (Permissions)** step, read the app permissions and capabilities, select **Accept permissions**, and then select **Next**.
+1. When you're asked to confirm the **License terms and Privacy policy**, select **Continue**.
 
-9. In the **Deployment (Finish)** step, select **Finish deployment**.
+1. Under **Assign Users**, select the users or groups who will have access to the add-in.
 
-10. When the deployment is complete, select **Done**.
+1. Under **Deployment Method**, select how you want to deploy the add-in.
 
-Allow up to 24 hours for Viva Sales to appear in users' Outlook ribbon.
+1. Select **Next**.
 
-## Microsoft Teams
+1. Review the privacy policy and terms of use, if required, and then select **Save**.
+
+1. In the **Deploy Viva Sales for Microsoft Outlook** panel, select **Next**.
+
+1. In the **Announce add-in** panel, select **Close**.
+
+Allow up to 12 hours for Viva Sales to appear in users' Outlook ribbon.
+
+### Manage the Viva Sales for Microsoft Outlook add-in
+
+After you've installed Viva Sales for Outlook as an individual add-in, you can change the users who can access it, change the deployment method, and disable the add-in if needed in the Microsoft 365 admin center.
 
 1.  Sign in to [Microsoft 365 admin center](https://admin.microsoft.com/).
 
 2.  In the left pane, select **Settings** &gt; **Integrated apps**.
 
-3.  Select **Get apps**.
+3. On the **Integrated apps** page, select **Add-ins**.
 
-    Microsoft AppSource opens in an embedded window.
+4.  On the **Add-ins** page, select **Viva Sales for Microsoft Outlook**.
 
-4.  Search for **Viva Sales for Microsoft Teams (Preview)**.
+    The **Edit Viva Sales for Microsoft Outlook** panel opens.
 
-5. In the tile for the app in search results, select **Get it now**.
+5. Under **Assign Users**, select the users or groups who will have access to the add-in.
 
-    The add-in is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Viva Sales in Teams, go to [Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md).
+6. Under **Deployment Method**, select how you want to deploy the add-in.
 
-## Manage the Viva Sales add-in
+7. To remove the add-in, select **Remove add-in** at the bottom of the panel.
 
-After you've installed Viva Sales as an individual add-in, you can change the users who can access it, change the deployment method, and disable the add-in if needed in the Microsoft 365 admin center.
+8. Confirm about your choice and then select **Remove**.
 
-1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
+## Microsoft Teams
 
-2.  On the **Integrated apps** page, select **Viva Sales for Microsoft Outlook (Preview)**.
-
-    The Viva Sales panel opens with the following tabs:
-    - **Overview**: Displays basic information about the add-in, host products, and assigned users.
-    - **Users**: Allows you to edit the users who can use the add-in.
-    - **Usage**: Displays the number of active users of the add-in based on the selected platform and date range.
-
+Microsoft Teams isn't available for installation as an individual app from Microsoft 365 admin center. You must install Viva Sales as an [integrated app](install-viva-sales-as-an-integrated-app.md) and then [complete the setup in the Teams admin center](install-pin-viva-sales-teams.md).
 
 ### See also
 

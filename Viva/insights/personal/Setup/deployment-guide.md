@@ -82,7 +82,7 @@ Here are some roles you might consider as part of the rollout project:
 * **Security lead** - Reviews the [Privacy guide](../overview/privacy-guide-users.md) to learn about data security in Viva Insights.
 * **Microsoft 365 admin** - Enables and disables Viva Insights access per business requirements; see [Rollout scenarios](#rollout-scenarios). 
 * **Support or Help desk lead** - Manages questions from users. Some helpful answers can be found in the [Viva Insights FAQs](./../overview/mya-faq.md).
-* **Training lead** - Runs a training workshop. The lead can start with [Introduction to Microsoft Viva Insights](/learn/modules/workplace-analytics-ways-working-action/) as a resource.
+* **Training lead** - Runs a training workshop. The lead can start with [Introduction to Microsoft Viva Insights](/training/modules/workplace-analytics-ways-working-action/) as a resource.
 
 ## Choose a rollout scenario
 
@@ -269,7 +269,7 @@ _Recommended:_ Consider grouping the pilot users into groups that correspond to 
 
 ### Train pilot participants
 
-Your organization can choose an internal person responsible for training the pilot users. The trainer can use [Introduction to Microsoft Viva Insights](/learn/modules/workplace-analytics-ways-working-action/) as a resource
+Your organization can choose an internal person responsible for training the pilot users. The trainer can use [Introduction to Microsoft Viva Insights](/training/modules/workplace-analytics-ways-working-action/) as a resource
 
 ### Conduct the pilot
 

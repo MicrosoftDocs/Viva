@@ -51,7 +51,7 @@ productDirectory:
           text: Get started
         - url: /viva/topics/set-up-topic-experiences
           text: Setup
-        - url: /learn/paths/m365-viva-topics/
+        - url: /training/paths/m365-viva-topics/
           text: Learning path - Get started with Microsoft Viva Topics
         - url: https://resources.techcommunity.microsoft.com/viva-topics/
           text: Viva Topics resource center
@@ -82,7 +82,7 @@ productDirectory:
           text: Get started
         - url: /viva/connections/guide-to-setting-up-viva-connections
           text: Setup
-        - url: /learn/paths/m365-extend-viva-connections
+        - url: /training/paths/m365-extend-viva-connections
           text: Learning path - Extend Microsoft Viva Connections
         - url: /sharepoint/dev/spfx/viva/overview-viva-connections
           text: Extensibility
@@ -109,9 +109,9 @@ productDirectory:
           text: Get started
         - url: /viva/goals/log-in-create-and-join-organizations
           text: Setup
-        - url: /learn/paths/viva-goals-get-started
+        - url: /training/paths/viva-goals-get-started
           text: Learning path - Get started with Viva Goals
-        - url: /learn/paths/okr-leadership
+        - url: /training/paths/okr-leadership
           text: Learning path - OKR leadership program
         - url: https://go.microsoft.com/fwlink/?linkid=2193540
           text: End user help & training
@@ -130,7 +130,7 @@ productDirectory:
           text: Adoption resources
     
     # Card
-    - title: Microsoft Viva Sales (Preview)
+    - title: Microsoft Viva Sales
       imageSrc: media/logos/viva-logoicon.svg
       links:
         - url: /Viva/sales/introduction

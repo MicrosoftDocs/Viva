@@ -1,23 +1,21 @@
 ---
 title: Install and pin Viva Sales in Teams
 description: Learn how to install and pin Viva Sales in Teams
-ms.date: 08/01/2022
+ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
 # Install and pin Viva Sales in Teams
 
-> [!IMPORTANT]
-> Viva Sales is currently available only for public preview customers, and only in English. The features described here are subject to change.
+When you install Viva Sales as an integrated app, the Viva Sales app is enabled in Teams but isn't installed automatically. You need to go to the Teams admin center and create setup policies to install the app and assign users. We also recommend that you pin it to increase discoverability and encourage your sellers to use it.
 
-The Viva Sales app is enabled in Teams but isn't installed automatically. You need to go to the Teams admin center and create setup policies to install the app and assign users. We also recommend that you pin it to increase discoverability and encourage your sellers to use it.
-
-To install and pin the app in Teams, you'll [create a custom Teams app setup policy](disable-viva-sales.md) and [assign the policy to a user group](disable-viva-sales.md) (security group, organizational unit, or distribution list).
+To install and pin the app in Teams, you'll [create a custom Teams app setup policy](#create-a-custom-teams-app-setup-policy) and [assign the policy to a user group](#assign-the-custom-teams-app-setup-policy-to-a-user-group) (security group, organizational unit, or distribution list).
 
 > [!NOTE]
 > The Teams meeting must be recorded and transcribed for Viva Sales to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
@@ -36,7 +34,7 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 
 6.  Under **Installed apps**, select **Add apps**.
 
-7.  In the **Add installed apps** panel, search for the **Viva Sales (Preview)** app. You can also filter apps by app permission policy.
+7.  In the **Add installed apps** panel, search for the **Viva Sales** app. You can also filter apps by app permission policy.
 
 8.  Select **Add** to add Viva Sales to the list of apps to install.
 
@@ -44,7 +42,7 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 
 10. Under **Pinned apps**, select **Add apps**.
 
-11. In the **Add pinned apps** panel, search for the **Viva Sales (Preview)** app. You can also filter apps by app permission policy.
+11. In the **Add pinned apps** panel, search for the **Viva Sales** app. You can also filter apps by app permission policy.
 
 12. Select **Add** to add Viva Sales to the list of apps to pin.
 
