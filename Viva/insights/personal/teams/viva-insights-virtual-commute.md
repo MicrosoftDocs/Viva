@@ -70,7 +70,7 @@ If an event needs your RSVP, you can **Accept** or **Decline** it from this scre
 
 If you don’t have any events coming up tomorrow, you’ll see open blocks on your calendar that you can use for focus time, instead. Select **Book time** to add that focus time to your calendar.
 
-![Screenshot that shows the option to book focus time.](Images/vc-no-events.png) 
+![Screenshot that shows the option to book focus time.](Images/vc-no-events1.png) 
 
 When you’re ready to move to the next section, select **Next** at the bottom-right of the page.
 
