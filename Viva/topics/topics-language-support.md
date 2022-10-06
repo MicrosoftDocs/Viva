@@ -5,6 +5,7 @@ author: ruthholls
 manager: pamgreen
 audience: admin
 ms.reviewer: ninay
+ms.topic: article
 ms.service: viva 
 ms.subservice: viva-topics
 search.appverid: 
