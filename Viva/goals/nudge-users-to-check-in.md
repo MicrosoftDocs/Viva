@@ -1,8 +1,8 @@
 ---
 title: "Nudge users to check in"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: <TBD>
 audience: Admin
 f1.keywords:
