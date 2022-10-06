@@ -25,7 +25,7 @@ description: Learn how to manage topics in the topic center in Microsoft Viva To
 
 In the Viva Topics topic center, a knowledge manager can view the **Manage topics** page to review topics that have been identified in the source locations as specified by your knowledge admin.  
 
-   ![Topic Center.](../media/knowledge-management/topic-center.png)  
+   ![Topic Center.](../media/knowledge-management/manage-topics-view.png)  
 
 ## Topic stages
 
@@ -72,7 +72,7 @@ In the topic center, a knowledge manager can review topics that have been identi
 
 On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be listed on the **Suggested** tab. If needed, a knowledge manager can review unconfirmed topics and choose to confirm or remove them.
 
-   ![Screenshot of suggested topics.](../media/knowledge-management/quality-score.png) 
+   ![Screenshot of suggested topics.](../media/knowledge-management/suggested-topics-filtered-view.png) 
 
 To review a suggested topic:
 
@@ -118,7 +118,7 @@ You can still choose to reject a confirmed topic. To reject a confirmed topic, g
 
 On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be listed on the **Published** tab. Published topics have been edited so that specific information will always appear to whoever encounters the page. Manually created topics are listed here as well.
 
-   ![Manage Topics.](../media/knowledge-management/manage-topics-new.png)
+   ![Screenshot of published topics.](../media/knowledge-management/published-topics-filtered-view.png)
 
 ## Removed topics
 
