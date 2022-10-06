@@ -64,8 +64,6 @@ The commute guides you through the following sections. All sections are optional
 
 In **Meetings**, you can review tomorrow’s events—those that last all day, those that you’ve accepted, and those that still need your RSVP. 
 
-![Screenshot that shows the Meetings section.](Images/vc-review-meetings.png) 
-
 If an event needs your RSVP, you can **Accept** or **Decline** it from this screen. 
 
 ![Screenshot that shows the option to RSVP to an event.](Images/vc-needs-rsvp3.png) 
@@ -79,8 +77,6 @@ When you’re ready to move to the next section, select **Next** at the bottom-r
 #### Tasks
 
 In the **Tasks** section, you can review your open tasks. These tasks originate from Microsoft To Do, and they’re are either due today or have a reminder set for today.
-
-![Screenshot that shows the Tasks section.](Images/vc-tasks.png)
 
 In addition to viewing your existing tasks, you can do a few other things in this section:
 
@@ -106,7 +102,7 @@ After you’re done reviewing and managing your tasks, select **Next** to move t
 * If you have access to Headspace, a few guided meditation videos
 * The opportunity to reflect, just like you would using the [Reflect](viva-insights-reflect.md) feature on the **Home** page
 
-![Screenshot that shows the Wind down section.](Images/vc-wind-down.png)
+![Screenshot that shows the Wind down section.](Images/vc-wind-down1.png)
 
 **Start** one or more of these activities to help transition to the next part of your day.
 
