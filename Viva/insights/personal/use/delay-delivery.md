@@ -57,7 +57,7 @@ Schedule send suggestions are currently available in the Outlook desktop app for
 
 If you see a suggested delivery time appear above the **To** field in an email you're composing—for example, *Friday, Oct 7 at 10:00 AM*—and you want to send your email at that time, select  **Schedule send**.
 
-![Screenshot that shows a schedule send suggestion in an Outlook email with options Schedule send and Dismiss.](../../Images/MyA/Use/schedule-send-banner.png)
+![Screenshot that shows a schedule send suggestion in an Outlook email with options Schedule send and Dismiss.](../../Images/MyA/Use/schedule-send-banner1.png)
 
 After you select **Schedule send**, an insight opens to the right of your message confirming that date and time.
 
@@ -91,7 +91,7 @@ In **Settings > Protect time**, switch the toggle for **Schedule send su
 
 ![Screenshot that shows the On/Off toggle in the Viva Insights dashboard settings.](../../Images/MyA/Use/schedule-send-dashboard.png)
 
-### With Viva Insights Outlook add-in
+### With the Viva Insights Outlook add-in
 
 1. In the Viva Insights Outlook add-in, select **Settings** (gear icon).
 2. Switch the toggle for **Schedule send suggestions** to **On** or **Off**.
