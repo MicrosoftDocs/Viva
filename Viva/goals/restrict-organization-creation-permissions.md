@@ -54,19 +54,15 @@ This **Specific users or groups** option is useful when you wish to add specific
 
     :::image type="content" source="../media/goals/organization-picker-dropdown.png" alt-text="Screenshot that shows the select organization picker dropdown." lightbox="../media/goals/organization-picker-dropdown.png"::: 
 
-3. Select **Create or join organization**.
-
-    :::image type="content" source="../media/goals/5/organization-picker.png" alt-text="Screenshot that shows the select, create, or join organization from the dropdown." lightbox="../media/goals/5/organization-picker.png":::
-
-4. In **Create or join organizations** page, select **Settings** in the top right corner. 
+3. In **Create or join organizations** page, select **Settings** in the top right corner. 
 
      :::image type="content" source="../media/goals/settings-button-org-creation-restriction.png" alt-text="Screenshot that shows the select settings button to set the organization creation restrictions." lightbox="../media/goals/settings-button-org-creation-restriction.png":::
 
-5. A menu with the three org creation permissions will appear. 
+4. A menu with the three org creation permissions will appear. 
 
     :::image type="content" source="../media/goals/menu-options-org-creation-restriction.png" alt-text="Screenshot that shows the menu with the organization creation permissions options." lightbox="../media/goals/menu-options-org-creation-restriction.png":::
 
-6. Choose the appropriate option and select **Save**. If you have selected **Specific users or groups**, enter the names of those users or a group (you can select only one group) and select **Save**. 
+5. Choose the appropriate option and select **Save**. If you have selected **Specific users or groups**, enter the names of those users or a group (you can select only one group) and select **Save**. 
 
     :::image type="content" source="../media/goals/special-group-org-creation-restriction.png" alt-text="Screenshot that shows the search and enter special group or users to provide the organization creation access menu." lightbox="../media/goals/special-group-org-creation-restriction.png":::
 
