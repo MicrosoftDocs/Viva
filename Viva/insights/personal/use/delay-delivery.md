@@ -79,7 +79,7 @@ The following graphic shows a scheduled message in Outlook for Windows.
 
 ![Screenshot that shows a scheduled message in the Outlook Sent folder with options Send now, Don't send, and Feedback.](../../Images/MyA/Use/schedule-send-sent-folder.png)
 
-## To turn on and off scheduled send suggestions
+## To turn on and off schedule send suggestions
 
 You can opt in or opt out of schedule send suggestions as many times as you want. When you turn *on* schedule send suggestions, Viva Insights aligns email delivery with your coworker's working hours.
 
