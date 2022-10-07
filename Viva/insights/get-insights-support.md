@@ -22,7 +22,7 @@ Support varies depending on what type of Microsoft Viva Insights you are using.
 |Channel |Description |How to access |
 |------- |----------- |--------------- |
 |Personal insights feedback | Get help with setup or other questions about using Viva Insights. | Sign in and get help from [Microsoft Support](https://support.microsoft.com/). |
-|Personal insights in Teams feedback |Send Microsoft feedback about Viva Insights in Teams. | See [How can I send feedback to Microsoft about the Viva Insights app](../personal/teams/viva-teams-app-faq.md#q4-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app) for details.|
+|Personal insights in Teams feedback |Send Microsoft feedback about Viva Insights in Teams. | See [How can I send feedback to Microsoft about the Viva Insights app](../..personal/teams/viva-teams-app-faq.md#q4-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app) for details.|
 |Briefing email feedback |Send Microsoft feedback about Briefing emails. | Near the end of your Briefing email, locate **Did you find this email helpful?**. Select **Send feedback**, then fill out and submit the feedback form.|
 |Personal insights feedback about the Dashboard, Outlook add-in, Digest emails, or inline suggestions |Send Microsoft feedback about Viva Insights in Outlook or the unified dashboard. | Open your [Dashboard](https://myanalytics.microsoft.com/), select **Feedback** in left navigation, complete the form, and then select **Submit**.|
 |Support for manager and leader insights support |Get help with setup or other questions about using Viva Insights. | Sign in and get help from [Microsoft Support](https://support.microsoft.com/).|
