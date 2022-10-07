@@ -28,7 +28,7 @@ Suggestions appear when you're composing an email in Outlook at certain times, a
 
 ## Who can use schedule send suggestions
 
-If you have either a Viva Insights subscription or MyAnalytics (Full) service plan, you get an unlimited number of schedule send suggestions for delaying email delivery to your coworkers. If you have an Insights by MyAnalytics service plan, you get up to three daily schedule send suggestions. If you fall into one of these categories, but you [turn off the feature](#to-turn-on-and-off-scheduled-send-suggestions), you don't get any schedule send suggestions.
+If you have either a [Viva Insights subscription or MyAnalytics (Full) service plan](../Overview/plans-environments.md), you get an unlimited number of schedule send suggestions for delaying email delivery to your coworkers. If you have an [Insights by MyAnalytics service plan](../Overview/plans-environments.md), you get up to three daily schedule send suggestions. If you fall into one of these categories, but you [turn off the feature](#to-turn-on-and-off-scheduled-send-suggestions), you don't get any schedule send suggestions.
 
 If you qualify to use the feature, schedule send suggestions are turned on by default. Your Global admin or Exchange Online admin can configure tenant-level settings in the Microsoft Admin Center. As an individual user, you can [opt in or out](#to-turn-on-and-off-scheduled-send-suggestions) of schedule send suggestions through the Viva Insights dashboard or your Outlook add-in.
 
