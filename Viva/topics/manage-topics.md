@@ -55,7 +55,7 @@ Knowledge managers help to guide discovered topics through the various topic lif
 > A topic, when removed, can take up to 24 hours to stop appearing to users in your organization.
 
 > [!Note] 
-> On the **Manage topics** page, each knowledge manager will only be able to see topics where they have access to the underlying files and pages connected to the topic. This permission trimming will be reflected in the list of topics that appear in the **Suggested**, **Confirmed**, **Published**, and **Removed** tabs. The topic counts, however, show the total counts in the organization regardless of permissions.
+> On the **Manage topics** page, each knowledge manager will only be able to see topics where they have access to the underlying files and pages connected to the topic. This permission trimming will be reflected in the list of topics that appear in the manage topics page. The topic counts, however, show the total counts in the organization regardless of permissions.
 
 ## Requirements
 
@@ -70,15 +70,15 @@ In the topic center, a knowledge manager can review topics that have been identi
 
 ## Suggested topics
 
-On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be listed on the **Suggested** tab. If needed, a knowledge manager can review unconfirmed topics and choose to confirm or remove them.
+On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be labled as **Suggested** in the status column. If needed, a knowledge manager can review unconfirmed topics and choose to confirm or remove them.
 
    ![Screenshot of suggested topics.](../media/knowledge-management/suggested-topics-filtered-view.png) 
 
 To review a suggested topic:
 
-1. On the **Manage topics** page, select the **Suggested** tab, and then select the topic to open the topic page.
+1. On the **Manage topics** page, filter your view to see topiucs with a **Suggested** status, and then select the topic to open the topic page.
 
-2. On the topic page, review the topic page, and select **Edit** if you need to make any changes to the page. Publishing any edits will move this topic to the **Published** tab.
+2. On the topic page, review the topic page, and select **Edit** if you need to make any changes to the page. Publishing any edits will updated the topic's status to **Published**.
 
 3. After reviewing the topic, go back to the **Manage topics** page. For the selected topic, you can:
 
@@ -88,7 +88,7 @@ To review a suggested topic:
 
     Confirmed topics will be removed from the **Suggested** list and will now display in the **Confirmed** list.
 
-    Removed topics will be removed from the **Suggested** list and will now display in the **Removed** tab.
+    Removed topics will be removed from the **Suggested** list and will now display a **Removed** status.
 
 ### Topic scores
 
@@ -100,37 +100,37 @@ Knowledge managers might come across topic scores of 0 for some topics. A 0 topi
 
 ### Impressions
 
-The **Impressions** column displays the number of times a topic has been shown to end users. This includes views through topic answer cards in search and through topic highlights. It doesn't reflect the click-through on these topics, but that the topic has been displayed. The **Impressions** column will show for topics in the **Suggested**, **Confirmed**, **Published**, and **Removed** tabs on the **Manage topics** page.
+The **Impressions** column displays the number of times a topic has been shown to end users. This includes views through topic answer cards in search and through topic highlights. It doesn't reflect the click-through on these topics, but that the topic has been displayed. The **Impressions** column will show for topics in the manage topics tab.
 
 ## Confirmed topics
 
-On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations and have been confirmed by a knowledge manager or "crowdsourced" confirmed by a net two or more people (balancing negative user votes against positive user votes) through the card feedback mechanism will be listed in the **Confirmed** tab. If needed, a user with permissions to manage topics can review confirmed topics, and choose to reject them.
+On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations and have been confirmed by a knowledge manager or "crowdsourced" confirmed by a net two or more people (balancing negative user votes against positive user votes) through the card feedback mechanism will be listed as **Confirmed** in the status column. If needed, a user with permissions to manage topics can review confirmed topics, and choose to reject them.
 
 To review a confirmed topic:
 
-1. On the **Confirmed** tab, select the topic to open the topic page.
+1. Find a topic with a **Confirmed** status in the manage topics tab, select the topic to open the topic page.
 
 2. On the topic page, review the topic page, and select **Edit** if you need to make any changes to the page.
 
-You can still choose to reject a confirmed topic. To reject a confirmed topic, go to the selected topic on the **Confirmed** tab, and select the **x** if you want to reject the topic.
+You can still choose to reject a confirmed topic. To reject a confirmed topic, go to the selected topic with a **Confirmed** status, and select the **x** if you want to reject the topic.
 
 ## Published topics
 
-On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be listed on the **Published** tab. Published topics have been edited so that specific information will always appear to whoever encounters the page. Manually created topics are listed here as well.
+On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will show a **Published** status. Published topics have been edited so that specific information will always appear to whoever encounters the page. Manually created topics are listed here as well.
 
    ![Screenshot of published topics.](../media/knowledge-management/published-topics-filtered-view.png)
 
 ## Removed topics
 
-On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be listed on the **Removed** tab. Some suggested topics can appear here based on the end user votes on topic cards in the topic center.
+On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be listed as **Removed** in the status column. Some suggested topics can appear here based on the end user votes on topic cards in the topic center.
 
 Removed topics can later be added back as viewable topics if needed. If you want to add a removed topic back as a viewable topic:
 
-1. On the **Removed** tab, select the topic.
+1. Select the topic withh **Removed** status.
 
 2. Select **Restore**.
 
-   ![Screenshot of Removed tab showing the Review and publish option.](../media/knowledge-management/restore-removed-topic.png)
+   ![Screenshot of Removed tab showing the Restore option.](../media/knowledge-management/restore-removed-topic.png)
 
 ## Topic count dashboard
 
