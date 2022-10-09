@@ -1,5 +1,5 @@
 ---
-title: "Create the Viva Connections Dashboard"
+title: "Create a Viva Connections Dashboard and add cards"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -21,7 +21,7 @@ search.appverid:
 description: "Learn how to create the Viva Connections Dashboard"
 ---
 
-# Create a Viva Connections Dashboard
+# Create a Viva Connections Dashboard and add cards
 
 The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. 
 
