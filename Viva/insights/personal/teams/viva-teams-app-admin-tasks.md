@@ -102,7 +102,7 @@ Set-VivaInsightsSettings -Identity roy@contoso.onmicrosoft.com -Enabled $false -
 ```
 
 * If you set the Enabled parameter to **$false**, the meeting effectiveness surveys will be **Off** for that user. The user won't be able to override this setting or opt in to the meeting effectiveness surveys. In other words, you're completely disabling the feature.
-* If you set the Enabled parameter to **$true**, the meeting effectiveness surveys will be **On** for that user. Users can then opt out from Viva Insights. If no action occurs, this setting applies by default.
+* If you set the Enabled parameter to **$true**, the meeting effectiveness surveys will be **On** for that user. Users can then opt out from meeting effectiveness surveys. If no action occurs, this setting applies by default.
 
 >[!Note]
 >When Enabled is set as $true, people who had previously opted out will continue to be opted out and will not receive any surveys until they opt back in through their Viva Insights app.
