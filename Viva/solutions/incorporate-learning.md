@@ -13,6 +13,7 @@ ms.collection:
 - M365-analytics
 - viva-learning 
 - m365solution-overview
+- highpri
 manager: pamgreen
 audience: Admin
 ---
