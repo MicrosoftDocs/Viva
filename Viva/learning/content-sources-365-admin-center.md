@@ -11,8 +11,9 @@ ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
 ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+- enabler-strategic
+- m365initiative-viva-learning
+- highpri
 ms.localizationpriority: medium
 description: Learn how to configure and manage learning content sources for Microsoft Viva Learning in the Microsoft 365 admin center.
 ---
