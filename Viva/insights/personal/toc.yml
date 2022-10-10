@@ -88,7 +88,7 @@ items:
               href: use/use-the-insights.md
             - name: Inline suggestions
               href: Use/mya-notifications.md
-            - name: Delay delivery plan
+            - name: Schedule send suggestions
               href: use/delay-delivery.md
         - name: Home
           href: Use/home-web.md
