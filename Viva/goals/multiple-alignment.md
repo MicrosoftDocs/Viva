@@ -3,7 +3,7 @@ title: "Multiple Alignments"
 ms.reviewer: 
 ms.author: ranjaliroy
 author: ranjali-MS
-manager: <TBD>
+manager:
 audience: Admin
 f1.keywords:
 - NOCSH
