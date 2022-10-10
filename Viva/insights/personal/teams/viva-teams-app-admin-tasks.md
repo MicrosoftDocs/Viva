@@ -69,9 +69,9 @@ Confirm the following before configuring access:
 As the admin, use the following steps to change the setting for meeting effectiveness surveys at the tenant level. This setting is enabled by default, so that all users will receive the surveys. Users can opt out individually from within their Viva Insights app settings.
 
 >[!IMPORTANT] 
-> If you opt out of the meeting effectiveness surveys at the tenant level, people in your organization won't receive the surveys, but individuals can override this tenant-level setting. To completely prevent a person from receiving the surveys, you need to disable the surveys for that user with PowerShell, like we described [earlier](#set-access-for-multiple-users).
+> If you opt out of the meeting effectiveness surveys at the tenant level, people in your organization will be opted-out by default from getting feedback on meetings they organize. However, individuals can override this tenant-level setting. To prevent a person from opting-in and and to disable the feature completely, you need to disable the surveys for that user with PowerShell, like we describe [below](#set-access-for-multiple-users).
 
-#### To configure access for a tenant
+#### To configure the default state for a tenant
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
@@ -106,6 +106,8 @@ Set-VivaInsightsSettings -Identity roy@contoso.onmicrosoft.com -Enabled $false -
 
 >[!Note]
 >When Enabled is set as $true, people who had previously opted out will continue to be opted out and will not receive any surveys until they opt back in through their Viva Insights app.
+>
+>**Suggestions for you cards** (How your meetings succeeded and How your meetings can improve) derived from meeting metrics data (outside of surveys)  appear regardless of tenant- and user-level disablements.
 
 #### Set access for multiple users
 
