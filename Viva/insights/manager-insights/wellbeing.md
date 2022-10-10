@@ -26,7 +26,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 ## Best practices
 
 * Use [Wellbeing data](../personal/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
-* Use [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
+* Use [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with coworkers' configured working hours.
 * Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
 * Remind employees that the organization's success is based on a marathon, not a sprint.  
 * Encourage team to take turns taking time off. This reinforces trust, collaboration, efficiency which can lead to better work satisfaction.
