@@ -36,7 +36,7 @@ In Outlook for Windows and Outlook on the web, inline suggestions will show up w
 
 The following are a few of the suggestions you might see in Outlook:
 
-* [Schedule send suggestions](#delay-delivery)
+* [Schedule send suggestions](#schedule-send-suggestions)
 * [Suggested outstanding tasks](#suggested-outstanding-tasks)
 * [Get more time to focus](#get-more-time-to-focus)
 * [Plan your time away](#plan-your-time-away)
