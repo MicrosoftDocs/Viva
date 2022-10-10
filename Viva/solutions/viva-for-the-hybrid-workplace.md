@@ -12,9 +12,10 @@ ms.service: viva
 localization_priority: Priority
 ms.collection:  
 - M365initiative-viva
+- highpri
 search.appverid:
 - MET150
-description: "Learn how you can streamline and engage your employees in a hybrid workplace with Microsoft Viva."
+description: "Learn how you can streamline and engage your employees in a hybrid workplace with the help of Microsoft Viva."
 ---
 
 # Overview: Microsoft Viva for the hybrid workplace

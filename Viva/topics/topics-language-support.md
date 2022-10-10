@@ -7,7 +7,7 @@ audience: admin
 ms.reviewer: ninay
 ms.topic: article
 ms.service: viva 
-ms.subservice: viva-topics 
+ms.subservice: viva-topics
 search.appverid: 
 ms.collection: 
     - enabler-strategic
