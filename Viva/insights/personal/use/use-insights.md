@@ -5,7 +5,9 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: high 
-ms.collection: viva-insights-personal 
+ms.collection: 
+- viva-insights-personal
+- highpri
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
