@@ -31,7 +31,7 @@ Teamwork habits is based on information you already have access to in Outlook an
 
 ##### Q2 What data is used in these insights and how is it protected?
 
-Teamwork habits uses collaboration data from Microsoft 365 and—depending on your setup—uses organizational data that your admin has uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../privacy/data-protection-considerations.md) for more details.
+Teamwork habits uses collaboration data from Microsoft 365 and—depending on your setup—uses organizational data that your admin has uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../advanced/privacy/privacy.md#data-protection-considerations) for more details.
 
 ##### Q3 Can you identify specific team members and see their personal collaboration habits in Teamwork habits?
 
