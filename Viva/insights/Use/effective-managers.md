@@ -80,7 +80,7 @@ Long hours and the pressure to always be available can lead to burnout. The amou
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support wellbeing:
 
 * Use [personal wellbeing data](../personal/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
-* Use the [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
+* Use the [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with coworkers' configured working hours.
 
 For more best practices and how to define and share working hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
 
