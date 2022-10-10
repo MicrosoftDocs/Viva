@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Schedule send with Viva Insights
 description: Learn how to opt in and use Schedule send with Viva Insights for suggestions on when to send email during your coworker's working hours
 author: lilyolason
