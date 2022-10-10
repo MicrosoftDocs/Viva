@@ -64,6 +64,24 @@ Confirm the following before configuring access:
 * **Admin role** - You need to have a Global admin or an Exchange Online admin role to configure users for meeting effectiveness surveys in the Microsoft 365 admin center. To configure individual users through PowerShell, you need to have an Exchange Online admin, a Global admin, or an Insights admin role.
 * **Understand data privacy** - See the [Privacy guide](./viva-teams-app-privacy.md) to understand how privacy is built into meeting effectiveness surveys and to learn what you can configure to address your organization's specific privacy requirements.
 
+### Tenant-level configuration
+
+As the admin, use the following steps to change the setting for meeting effectiveness surveys at the tenant level. This setting is enabled by default, so that all users will receive the surveys. Users can opt out individually from within their Viva Insights app settings.
+
+>[!IMPORTANT] 
+> If you opt out of the meeting effectiveness surveys at the tenant level, people in your organization won't receive the surveys, but individuals can override this tenant-level setting. To completely prevent a person from receiving the surveys, you need to disable the surveys for that user with PowerShell, like we described [earlier](#set-access-for-multiple-users).
+
+#### To configure access for a tenant
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
+2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
+3. In the left pane, expand **Settings**, and then select **Org Settings**.
+4. Under **Org Settings**, select **Viva Insights**.
+5. Select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the surveys, including all those who were receiving the surveys. However, individuals can explicitly opt in again within their Viva Insights app.
+
+>[!Note]
+>After you change the survey setting in the admin center, it will take up to 24 hours for the new setting change to take effect.
+
 ### User-level configuration
 
 As the admin, you can use the [Exchange Online PowerShell V2](/powershell/module/exchange/set-vivainsightssettings) module to set access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users) for meeting effectiveness surveys.
@@ -126,23 +144,6 @@ Use the following script to:
 
 3. Run the resulting commands at the [Exchange Online PowerShell V2](/powershell/module/exchange/set-vivainsightssettings) module command prompt.
 
->[!Note]
->Individuals can opt out or back in at any time within their personal Viva Insights app. After the admin changes the survey setting in the admin center, it will take up to 24 hours for the new setting change to take effect.
-
-### Tenant-level configuration
-
-As the admin, use the following steps to change the setting for meeting effectiveness surveys at the tenant level. This setting is enabled by default, so that all users will receive the surveys. Users can opt out individually from within their Viva Insights app settings.
-
->[!IMPORTANT] 
-> If you opt out of the meeting effectiveness surveys at the tenant level, people in your organization won't receive the surveys, but individuals can override this tenant-level setting. To completely prevent a person from receiving the surveys, you need to disable the surveys for that user with PowerShell, like we described [earlier](#set-access-for-multiple-users).
-
-#### To configure access for a tenant
-
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
-2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
-3. In the left pane, expand **Settings**, and then select **Org Settings**.
-4. Under **Org Settings**, select **Viva Insights**.
-5. Select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the surveys, including all those who were receiving the surveys. However, individuals can explicitly opt in again within their Viva Insights app.
 
 ### Notification scenarios
 
