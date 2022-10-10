@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Delay delivery plan with Viva Insights
 description: Learn how to opt in and use Delay delivery with Viva Insights for suggestions on when to send email during your coworker's working hours
 author: lilyolason
