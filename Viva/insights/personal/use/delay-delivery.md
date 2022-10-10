@@ -6,7 +6,9 @@ author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-personal 
+ms.collection: 
+- viva-insights-personal
+- highpri
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
