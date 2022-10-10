@@ -55,13 +55,13 @@ The PowerShell commands for working with Viva Insights features are described in
 
 ## Configure meeting effectiveness surveys
 
-As the admin, you can configure the meeting effectiveness surveys for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center, or you can enable or disable the survey for a specific user or multiple users with PowerShell.
+As the admin, you can configure the meeting effectiveness surveys for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can enable or disable the survey for a specific user or multiple users with PowerShell, or you can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center.
 
 ### Prerequisites
 
 Confirm the following before configuring access:
 
-* **Admin role** - You need to have a Global admin or an Exchange Online admin role to configure users for meeting effectiveness surveys in the Microsoft 365 admin center. To configure individual users through PowerShell, you must have an Exchange Online admin, a Global admin, or an Insights admin role.
+* **Admin role** - You need to have a Global admin or an Exchange Online admin role to configure users for meeting effectiveness surveys in the Microsoft 365 admin center. To configure individual users through PowerShell, you need to have an Exchange Online admin, a Global admin, or an Insights admin role.
 * **Understand data privacy** - See the [Privacy guide](./viva-teams-app-privacy.md) to understand how privacy is built into meeting effectiveness surveys and to learn what you can configure to address your organization's specific privacy requirements.
 
 ### User-level configuration
@@ -83,7 +83,7 @@ To enable or disable meeting effectiveness surveys for a specific user, use the 
 Set-VivaInsightsSettings -Identity roy@contoso.onmicrosoft.com -Enabled $false -Feature MeetingEffectivenessSurvey
 ```
 
-* If you set the Enabled parameter to **$false**, the meeting effectiveness surveys will be **Off** for that user. The user will not be able to override this setting or opt in to the meeting effectiveness surveys.
+* If you set the Enabled parameter to **$false**, the meeting effectiveness surveys will be **Off** for that user. The user won't be able to override this setting or opt in to the meeting effectiveness surveys. In other words, you're completely disabling the feature.
 * If you set the Enabled parameter to **$true**, the meeting effectiveness surveys will be **On** for that user. Users can then opt out from Viva Insights. If no action occurs, this setting applies by default.
 
 >[!Note]
@@ -131,9 +131,10 @@ Use the following script to:
 
 ### Tenant-level configuration
 
-As the admin, use the following steps to change the setting for meeting effectiveness surveys at the tenant level. This setting is enabled by default, so that all users will receive the surveys.
+As the admin, use the following steps to change the setting for meeting effectiveness surveys at the tenant level. This setting is enabled by default, so that all users will receive the surveys. Users can opt out individually from within their Viva Insights app settings.
 
-Users can opt out individually from within their Viva Insights app settings. If you opt out of the meeting effectiveness surveys at the tenant level, people in your organization will not receive the surveys, but individuals can override this tenant-level setting. To completely prevent a person from receiving the surveys, you need to disable the surveys for that user with PowerShell.
+>[!IMPORTANT] 
+> If you opt out of the meeting effectiveness surveys at the tenant level, people in your organization won't receive the surveys, but individuals can override this tenant-level setting. To completely prevent a person from receiving the surveys, you need to disable the surveys for that user with PowerShell, like we described [earlier](#set-access-for-multiple-users).
 
 #### To configure access for a tenant
 
@@ -142,6 +143,33 @@ Users can opt out individually from within their Viva Insights app settings. If 
 3. In the left pane, expand **Settings**, and then select **Org Settings**.
 4. Under **Org Settings**, select **Viva Insights**.
 5. Select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the surveys, including all those who were receiving the surveys. However, individuals can explicitly opt in again within their Viva Insights app.
+
+### Notification scenarios
+
+People see different notifications and settings in their Viva Insights app in Teams or on the web, depending on which settings scenario you picked above.
+
+**Scenario 1: You didn't change the default setting in the Microsoft admin center, and the meeting effectiveness survey feature is on for all people in your organization.**
+
+The first time people in your organization use the Viva Insights app, they get a notification about meeting effectiveness surveys. On their **Settings > Effective meetings** page, the toggle for **Meeting effectiveness surveys** is switched on. If people want to opt out of the survey, they can switch the toggle off.
+
+   ![Azure AD license app options for Viva Insights](./images/meeting-effectiveness-notification-on.png)
+
+   ![Azure AD license app options for Viva Insights](./images/meeting-effectiveness-setting-toggle.png)
+
+
+**Scenario 2: In the Microsoft admin center, you set the meeting effectiveness survey feature to default-off.**
+
+The first time people in your organization use the Viva Insights app, they get a notification asking whether they want to start using meeting effectiveness surveys. On their **Settings > Effective meetings** page, the toggle for **Meeting effectiveness surveys** is switched off. If people want to start using the surveys, they can switch the settings toggle on, or select **Get started** on the first-use notification.
+
+   ![Azure AD license app options for Viva Insights](./images/meeting-effectiveness-notification-opt-in.png)
+
+   ![Azure AD license app options for Viva Insights](./images/meeting-effectiveness-setting-toggle.png)
+
+**Scenario 3: You used a PowerShell cmdlet to disable access to the meeting effectiveness survey feature.**
+
+People in your organization don't receive *any* notifications about meeting effectiveness surveys. When they go to their **Settings > Effective meetings** page in the Viva Insights app in Teams or on the web, they don't see a toggle to turn on or off the feature.
+
+   ![Azure AD license app options for Viva Insights](./images/meeting-effectiveness-notification-cmdlet-off.png)
 
 ## Premium access for licenses assigned before July 2021
 
