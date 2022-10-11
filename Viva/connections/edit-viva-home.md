@@ -31,42 +31,65 @@ Elements of the new Viva Connections home experience can be customized to fit yo
 
 >[!NOTE]
 > - The new Viva Connections home experience will be available for [Targeted release](/microsoft-365/admin/manage/release-options-in-office-365) customers by the end of November 2022 and will become generally available to all customers in 2023.
-> - If you already have Viva Connections set up, the new home design uses current content and settings (like audience targeting) from your Dashboard and Resources.
+> - If you already have Viva Connections set up, the new home design uses current content and settings (like audience targeting) from your Dashboard and Resources. There won't be any changes to the mobile experience.
 > - If your organization has a home site, you can choose to use it as the default home experience.
+> - If you haven’t set up Viva Connections yet, the default experience includes cards on the Dashboard but otherwise doesn’t impact [the mobile experience](/viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new home experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams. 
 > - You must have member level permissions or higher to edit the new desktop experience.
-> - If you haven’t set up Viva Connections yet, the default experience includes cards on the Dashboard but otherwise doesn’t impact [the mobile experience](/viva-connections-overview.md#the-viva-connections-mobile-experience).
+
 
 
 ## About the new Viva Connections home experience
 The home experience focuses on the top tasks, tools, and resources that help people in your organization get their jobs done. The new design prominently features key elements to the [Viva Connections experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) - the Dashboard, Feed, and Resources. Content in these elements is filtered [using audience targeting to create a personalized experience](use-audience-targeting-in-viva-connections.md). 
 
 
-| Desktop view         | Elements            |
-| :------------------- | :------------------- |
-| ![Image of the full page home experience.](../media/connections/vc-full.png)  | - **Dashboard:** [The Dashboard](/viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. <br> - **Feed:** [The Feed](/viva-connections-overview.md#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. <br> - **Resources:** [The Resources](/viva-connections-overview.md#viva-connections-resources) experience enables navigation across portals and destinations. <br> - **Navigational elements:** Located in the top-right and top-left corners, [navigational elements(https://go.microsoft.com/fwlink/?linkid=2208247) help viewers easily get to-and-from other landing pages and [other Viva experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0). | 
+![Image of the full page home experience.](../media/connections/vc-full.png) 
+
+**Dashboard:** [The Dashboard](/viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
+
+**Feed:** [The Feed](/viva-connections-overview.md#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
+
+**Resources:** [The Resources](/viva-connections-overview.md#viva-connections-resources) experience enables navigation across portals and destinations.
+
+ **Navigational elements:** Located in the top-right and top-left corners, [navigational elements(https://go.microsoft.com/fwlink/?linkid=2208247) help viewers easily get to-and-from other landing pages and [other Viva experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0).
 
 
 
 ### Summary of customizable elements 
 
-| Elements            | Description           |
-| :------------------- | :------------------- |
-| ![Image of the full page home experience with labels that explain which parts can be edited.](../media/connections/vc-edit-1.png)  | 1. **App icon and label in the Teams app bar:** Customize the app name and label in the [Teams admin center](add-viva-connections-app.md). <br> 2. **Banner image:** Upload a banner image and set the focal point to create a branded look. <br> 3. **Entry point to secondary landing page:** A link to the preferred default desktop experience will automatically display here. <br> 4. **Dashboard:** Customize with [cards and content](create-dashboard.md) specific to roles, regions, departments, and popular tasks. <br> **Resources:** Add navigational links and labels in the first column of the Resources section. Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity. | 
+![Image of the full page home experience with labels that explain which parts can be edited.](../media/connections/vc-edit-1.png)  
+
+1. **App icon and label in the Teams app bar:** Customize the app name and label in the [Teams admin center](add-viva-connections-app.md). 
+
+2. **Banner image:** Upload a banner image and set the focal point to create a branded look. 
+
+3. **Entry point to secondary landing page:** A link to the preferred default desktop experience will automatically display here. 
+
+4. **Dashboard:** Customize with [cards and content](create-dashboard.md) specific to roles, regions, departments, and popular tasks. 
+
+5. **Resources:** Add navigational links and labels in the first column of the Resources section. Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity. 
 
 
 
 ### Summary of non-customizable elements 
 
-| Elements            | Description            |
-| :------------------- | :------------------- |
-| ![Image of the full page home experience with labels that explain which parts can be further edited.](../media/connections/vc-edit-2.png)  | 6. **Shared Viva navigation:** Helps viewers navigate between Viva experiences. Viva apps will automatically display in this menu when Viva licenses are detected. <br> 7. **Ellipses menu:** Access more information about the home experience depending on your level of permissions. <br> 8. **Viva navigational bar:** This provides an opportunity to discover [more Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) and gets automatically generated when Viva licenses are detected. <br> 8. **Feed:** Content in the Feed is dynamically generated based on the sites and communities the user follows. [Learn more about how content in the Feed is sourced](/faqs-viva-connections-feed). <br> 9. **Frequent sites and Followed sites:** Content in these sections are dynamically displayed based on the viewers interests and activity. |
+![Image of the full page home experience with labels that explain which parts can be further edited.](../media/connections/vc-edit-2.png)  
+
+6. **Shared Viva navigation:** Helps viewers navigate between Viva experiences. Viva apps will automatically display in this menu when Viva licenses are detected. 
+
+7. **Ellipses menu:** Access more information about the home experience depending on your level of permissions. 
+
+8. **Viva navigational bar:** This provides an opportunity to discover [more Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) and gets automatically generated when Viva licenses are detected. 
+
+9. **Feed:** Content in the Feed is dynamically generated based on the sites and communities the user follows. [Learn more about how content in the Feed is sourced](/faqs-viva-connections-feed). 
+
+10. **Frequent sites and Followed sites:** Content in these sections are dynamically displayed based on the viewers interests and activity. |
 
 
 
 ## Get started customizing the experience
 >[!NOTE]
-> You must have member level permissions or higher to edit the new desktop experience.
+> You must have member level permissions (or higher) to edit the new desktop experience.
 
 ### How to edit the Viva Connections desktop experience for the first time
 If you already have Viva Connections setup, editors who have site owner or member permissions to the home site will automatically have owner or member permissions to the new home experience in Teams. People with member permissions or higher will automatically see **Edit** buttons in the home experience.
@@ -174,8 +197,7 @@ The permissions model for the new Viva Connections landing experience is similar
 
 | Owner                  | Member                 | Visitor          |
 | :------------------- |: -------------------: |:---------------|
-| Can edit content in the banner, Dashboard, and Resources. <br> Can add or remove owners, members, and visitors.
- | Can edit content in the banner, Dashboard, and Resources.  | Visitors are the end users in your organization. <br> They can view and interact with content but can’t edit content or share the page with others. |
+| Can edit content in the banner, Dashboard, and Resources. <br><br> Can add or remove owners, members, and visitors.| Can edit content in the banner, Dashboard, and Resources.  | Visitors are the end users in your organization. <br><br> They can view and interact with content but can’t edit content or share the page with others. |
 
 
 If you already have Viva Connections setup, editors who have site owner or member permissions to the home site will automatically have owner or member permissions to edit the new home experience in Teams. 
