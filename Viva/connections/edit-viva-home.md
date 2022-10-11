@@ -38,6 +38,43 @@ Elements of the new Viva Connections home experience can be customized to fit yo
 > - If you haven’t set up Viva Connections yet, the default experience includes cards on the Dashboard but otherwise doesn’t impact [the mobile experience](/viva-connections-overview.md#the-viva-connections-mobile-experience).
 
 
+## About the new Viva Connections home experience
+The home experience focuses on the top tasks, tools, and resources that help people in your organization get their jobs done. The new design prominently features key elements to the [Viva Connections experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) - the Dashboard, Feed, and Resources. Content in these elements is filtered [using audience targeting to create a personalized experience](use-audience-targeting-in-viva-connections.md). 
+
+
+
+
+
+
+### Summary of customizable elements 
+
+
+
+
+
+### Summary of non-customizable elements 
+
+
+
+
+
+
+
+
+
+## Get started customizing the experience
+>[!NOTE]
+> You must have member level permissions or higher to edit the new desktop experience.
+
+### How to edit the Viva Connections desktop experience for the first time
+If you already have Viva Connections setup, editors who have site owner or member permissions to the home site will automatically have owner or member permissions to the new home experience in Teams. People with member permissions or higher will automatically see **Edit** buttons in the home experience.
+
+If you are setting it up for the first time, only owners of the SharePoint root site will be able to edit. When the home experience is edited for the first time, a SharePoint site on the backend will get created. You’ll want to assign (at least two) owners and members from this site to give permissions to others so they can edit the experience for the rest of the organization. Manage permissions from the backend site by going to **Settings > Permissions > Share** and assign owner or member level permissions. <Learn more about permission levels.>
+
+
+
+
+
 
 
 
