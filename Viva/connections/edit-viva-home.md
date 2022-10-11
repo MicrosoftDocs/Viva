@@ -51,7 +51,7 @@ The home experience focuses on the top tasks, tools, and resources that help peo
 
 **Resources:** [The Resources](/viva-connections-overview.md#viva-connections-resources) experience enables navigation across portals and destinations.
 
- **Navigational elements:** Located in the top-right and top-left corners, [navigational elements(https://go.microsoft.com/fwlink/?linkid=2208247) help viewers easily get to-and-from other landing pages and [other Viva experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0).
+ **Navigational elements:** Located in the top-right and top-left corners, [navigational elements](https://go.microsoft.com/fwlink/?linkid=2208247) help viewers easily get to-and-from other landing pages and [other Viva experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0).
 
 
 
@@ -135,18 +135,20 @@ The [Viva Connections Dashboard](/create-dashboard.md#overview-of-how-to-create-
 
 ### Summary of default Dashboard cards and how to set them up
 
-Select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
+By default, cards will already be on the Dashboard and require minimal set up. Edit and preview the Dashboard until you are ready to share with others. 
+
+To edit existing cards, select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
 
 Apply **Audience targeting** so this card is filtered to specific roles, regions, or departments. Learn more about [audience targeting for Viva Connections](use-audience-targeting-in-viva-connections.md).
 
 
 | Dashboard cards                 | How to use the card            | 
 | :------------------------       | :-------------------------     |
-| [Approvals](create-dashboard.md#add-the-approvals-card)    | Request time off, approve expense reports, and sign-off on documents. | 
-| [Assigned tasks](/create-dashboard.md#add-the-assigned-tasks-card)    | Review and complete daily tasks assigned by your manager or team. | 
-| [Shifts](/create-dashboard.md#add-a-shifts-card)    | Clock-in and clock-out of shifts and view upcoming shifts and breaktimes. | 
-| [Top news](/create-dashboard.md#add-the-top-news-card)    | View the most important news from inside your organization.  | 
-| [Viva Learning](/create-dashboard.md#add-a-viva-learning-card)    | View recommended and required training courses. | 
+| [Approvals](create-dashboard.md#add-the-approvals-card) | Request time off, approve expense reports, and sign-off on documents.  | 
+| [Assigned tasks](/create-dashboard.md#add-the-assigned-tasks-card)  | Review and complete daily tasks assigned by your manager or team. | 
+| [Shifts](/create-dashboard.md#add-a-shifts-card) | Clock-in and clock-out of shifts and view upcoming shifts and breaktimes. | 
+| [Top news](/create-dashboard.md#add-the-top-news-card) | View the most important news from inside your organization. Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) get news posts from organizational news sites to display in this card.  | 
+| [Viva Learning](/create-dashboard.md#add-a-viva-learning-card) | View recommended and required training courses. | 
 | Viva Topics    | Share and contribute to your organization’s knowledge base. | 
 
 
