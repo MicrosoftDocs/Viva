@@ -73,7 +73,6 @@ After you configure the connection, the next step is link OKRs to your Google Sh
   
     :::image type="content" source="..\media\goals\gsheets-integration\gsheets005.png" alt-text="Screenshot shows where you select Google Sheets as the data source." lightbox="..\media\goals\gsheets-integration\gsheets005.png":::
 
-
 2. If you already created a connection, or if your administrator shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared.
 
 3. Select the **spreadsheet** you want to use, followed by the **sheet**, **column**, and **row number** of the cell you would like to link to the metric.
@@ -85,4 +84,3 @@ After you configure the connection, the next step is link OKRs to your Google Sh
 ## How to disable Google Sheets integration
 
 Admins can disable Google Sheets integration at any time: Go to **Google Sheets** in the **Integrations** section and select **Manage**. On the **Google Sheets Configurations** page, go to the **Change** dropdown, select **Disable**, and confirm.
-
