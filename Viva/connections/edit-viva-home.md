@@ -164,7 +164,7 @@ Resources gives access to the most popular portals and destinations at your orga
 > Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and cannot be edited. 
 
 **If you have a home site:**
-If you have already set up navigational links in the [global navigation](sharepoint-app-bar.md), you’ll see the same content in Resources. When edits are made in Resources from Viva Connections in Teams, the same labels and links in global navigation will be edited at the same time. 
+If you have already set up navigational links in the [SharePoint global navigation](sharepoint-app-bar.md), you’ll see the same content in Resources. When edits are made in Resources from Viva Connections in Teams, the same labels and links in global navigation will be edited at the same time. 
 
 **If you do not have a home site:**
 Editing Resources in the Viva Connections desktop experience will not have an impact in SharePoint or any other M365 experience. 
