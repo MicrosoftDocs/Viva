@@ -44,32 +44,22 @@ Admins can follow these steps to enable this integration:
 1. After you enable the integration as an admin, you need to configure a Google Sheets connection from the **Google Sheets configuration** page.
 
 2. Select **New Connection**, and sign in to your Google account.
-  
-<<<<<<< Updated upstream
-    :::image type="content" source="...media\goals\gsheets-integration\gsheets001.png" alt-text="Screenshot shows how to sign in with Google Sheets in Viva Goals." lightbox="...media\goals\gsheets-integration\gsheets001.png":::
-=======
+
     :::image type="content" source="..\media\goals\gsheets-integration\gsheets001.png" alt-text="Screenshot shows how to sign in with Google Sheets in Viva Goals." lightbox="..\media\goals\gsheets-integration\gsheets001.png":::
->>>>>>> Stashed changes
+
 
 3. Allow Viva Goals to access the below scopes
     a. See and download all Google Drive files
     b. See, edit, create, and delete all you Google Sheets spreadsheets
 
-<<<<<<< Updated upstream
-      :::image type="content" source="...media\goals\gsheets-integration\gsheets002.png" alt-text="Screenshot shows which permissions need to be selected to add a new Google Sheets connection in Viva Goals." lightbox="...media\goals\gsheets-integration\gsheets002.png":::
-=======
       :::image type="content" source="..\media\goals\gsheets-integration\gsheets002.png" alt-text="Screenshot shows which permissions need to be selected to add a new Google Sheets connection in Viva Goals." lightbox="..\media\goals\gsheets-integration\gsheets002.png":::
->>>>>>> Stashed changes
+
 
 Please be aware that since Google Sheets lacks a granular scope to read the drive files, Viva Goals requires access to expanded scopes as described in step #3. Viva Goals shouldn't be able to manage your Google Drive files other than reading them from your Google drive or Shared drive. 
 
 4. Enter a name for the connection.
   
-<<<<<<< Updated upstream
-    :::image type="content" source="...media\goals\gsheets-integration\gsheets003.png" alt-text="Screenshot shows where you name your new Google Sheets connection in Viva goals." lightbox="...media\goals\gsheets-integration\gsheets003.png":::
-=======
     :::image type="content" source="..\media\goals\gsheets-integration\gsheets003.png" alt-text="Screenshot shows where you name your new Google Sheets connection in Viva goals." lightbox="..\media\goals\gsheets-integration\gsheets003.png":::
->>>>>>> Stashed changes
 
 5. It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
@@ -81,21 +71,14 @@ After you configure the connection, the next step is link OKRs to your Google Sh
 
 1. When you create or edit a Key Result, select **Automatically from a data source**. From the drop-down menu, select **Google Sheets**.
   
-<<<<<<< Updated upstream
-    :::image type="content" source="...media\goals\gsheets-integration\gsheets005.png" alt-text="Screenshot shows where you select Google Sheets as the data source." lightbox="...media\goals\gsheets-integration\gsheets005.png":::
-=======
     :::image type="content" source="..\media\goals\gsheets-integration\gsheets005.png" alt-text="Screenshot shows where you select Google Sheets as the data source." lightbox="..\media\goals\gsheets-integration\gsheets005.png":::
->>>>>>> Stashed changes
+
 
 2. If you already created a connection, or if your administrator shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared.
 
 3. Select the **spreadsheet** you want to use, followed by the **sheet**, **column**, and **row number** of the cell you would like to link to the metric.
   
-<<<<<<< Updated upstream
-    :::image type="content" source="...media\goals\gsheets-integration\gsheets007.png" alt-text="Screenshot shows where you add Google Sheets connection details." lightbox="...media\goals\gsheets-integration\gsheets007.png":::
-=======
     :::image type="content" source="..\media\goals\gsheets-integration\gsheets007.png" alt-text="Screenshot shows where you add Google Sheets connection details." lightbox="..\media\goals\gsheets-integration\gsheets007.png":::
->>>>>>> Stashed changes
 
 4. Select an **Next** to save your key result.
 
