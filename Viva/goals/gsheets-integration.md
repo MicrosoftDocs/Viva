@@ -34,16 +34,10 @@ All users and admins can use this feature. Admins can manage the integration fro
 Admins can follow these steps to enable this integration:
 
 1. From the sidebar, go to **Admin** and select the **Integrations** tab.
-  
-    :::image type="content" source="../media/goals/10/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/10/viva-goals-integrations-page.png":::
 
 2. For **Google Sheets**, you'll have an option to **Enable** the integration. If you already created a connection, you'll have an option to **Manage** the integration.
   
-    :::image type="content" source="../media/goals/10/gitlab-enable-button.png" alt-text="Screenshot highlights the enable option for GitLab in Viva Goals." lightbox="../media/goals/10/gitlab-enable-button.png":::
-  
    You can also disable the integration from the same section: Go to **Change** and select **Disable integration** from the dropdown.
-    
-   :::image type="content" source="../media/goals/10/gitlab-disable-button.png" alt-text="Screenshot shows where you select Disable Integration for GitLab in Viva Goals." lightbox="../media/goals/10/gitlab-disable-button.png"::: 
 
 ## For admins: How to connect Google Sheets to your Viva Goals account
 
@@ -51,19 +45,19 @@ Admins can follow these steps to enable this integration:
 
 2. Select **New Connection**, and sign in to your Google account.
   
-    :::image type="content" source="../media/goals/10/gitlab-new-connection-button.png" alt-text="Screenshot shows where you choose to add a new GitLab connection in Viva Goals." lightbox="../media/goals/10/gitlab-new-connection-button.png":::
+    :::image type="content" source="...media\goals\gsheets-integration\gsheets001.png" alt-text="Screenshot shows how to sign in with Google Sheets in Viva Goals." lightbox="...media\goals\gsheets-integration\gsheets001.png":::
 
 3. Allow Viva Goals to access the below scopes
     a. See and download all Google Drive files
     b. See, edit, create, and delete all you Google Sheets spreadsheets
 
-      :::image type="content" source="../media/goals/10/gitlab-new-connection-button.png" alt-text="Screenshot shows where you choose to add a new GitLab connection in Viva Goals." lightbox="../media/goals/10/gitlab-new-connection-button.png":::
+      :::image type="content" source="...media\goals\gsheets-integration\gsheets002.png" alt-text="Screenshot shows which permissions need to be selected to add a new Google Sheets connection in Viva Goals." lightbox="...media\goals\gsheets-integration\gsheets002.png":::
 
 Please be aware that since Google Sheets lacks a granular scope to read the drive files, Viva Goals requires access to expanded scopes as described in step #3. Viva Goals shouldn't be able to manage your Google Drive files other than reading them from your Google drive or Shared drive. 
 
 4. Enter a name for the connection.
   
-    :::image type="content" source="../media/goals/10/gitlab-configure-new-connection.png" alt-text="Screenshot shows where you name your new GitLab connection in Viva goals." lightbox="../media/goals/10/gitlab-configure-new-connection.png":::
+    :::image type="content" source="...media\goals\gsheets-integration\gsheets003.png" alt-text="Screenshot shows where you name your new Google Sheets connection in Viva goals." lightbox="...media\goals\gsheets-integration\gsheets003.png":::
 
 5. It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
@@ -75,13 +69,13 @@ After you configure the connection, the next step is link OKRs to your Google Sh
 
 1. When you create or edit a Key Result, select **Automatically from a data source**. From the drop-down menu, select **Google Sheets**.
   
-    :::image type="content" source="../media/goals/10/gitlab-datasource.png" alt-text="Screenshot shows where you select GitLab as the data source." lightbox="../media/goals/10/gitlab-datasource.png":::
+    :::image type="content" source="...media\goals\gsheets-integration\gsheets005.png" alt-text="Screenshot shows where you select Google Sheets as the data source." lightbox="...media\goals\gsheets-integration\gsheets005.png":::
 
 2. If you already created a connection, or if your administrator shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared.
 
-3. Select the **spreadsheet** you want to use, followed by the **column** and **row number** of the cell you would like to link to the metric.
+3. Select the **spreadsheet** you want to use, followed by the **sheet**, **column**, and **row number** of the cell you would like to link to the metric.
   
-    :::image type="content" source="../media/goals/10/gitlab-new-connection-details.png" alt-text="Screenshot shows where you add GitLab connection details." lightbox="../media/goals/10/gitlab-new-connection-details.png":::
+    :::image type="content" source="...media\goals\gsheets-integration\gsheets007.png" alt-text="Screenshot shows where you add Google Sheets connection details." lightbox="...media\goals\gsheets-integration\gsheets007.png":::
 
 4. Select an **Next** to save your key result.
 
