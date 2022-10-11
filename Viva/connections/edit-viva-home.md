@@ -75,16 +75,28 @@ If you are setting it up for the first time, only owners of the SharePoint root 
 
 
 
+## Customize the app icon and label in the Teams app bar
 
 
 
 
+## Customize the banner image
+Change the banner image in the header and set the focal point for the image. The banner image only displays in the desktop app.
+
+
+1.	Start by selecting Edit and then select Change image.
+2.	Select the image you’d like to use and then select Reposition. 
+3.	Once you are satisfied with the focal point, select Set focal point and then Save. There is no draft state for the banner image. It will be displayed for all users when you select Save.
+
+>[!NOTE]
+> - The greeting is automatically generated and cannot be customed.
+> - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
+> - The Microsoft Viva icons and labels displayed below the greeting are automatically displayed based on the license that’s detected and cannot be customed. 
 
 
 
-
-
-
+## Customize the Dashboard
+The [Viva Connections Dashboard](/create-dashboard.md#overview-of-how-to-create-a-dashboard-and-add-cards) provides fast and easy access to information and job-related tasks. Add and edit cards that helps users quickly access the tools and resources they use in their day-to-day role. Cards on the Dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the Dashboard will also automatically be applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](/viva-connections-overview.md#the-viva-connections-mobile-experience). 
 
 
 
