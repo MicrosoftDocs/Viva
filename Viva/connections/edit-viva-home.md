@@ -32,8 +32,8 @@ Elements of the new Viva Connections home experience can be customized to fit yo
 
 >[!NOTE]
 > - The new Viva Connections home experience will be available for [Targeted release](/microsoft-365/admin/manage/release-options-in-office-365) customers by the end of November 2022 and will become generally available to all customers in 2023.
-> - If you already have Viva Connections set up, the new home design uses current content and settings (like audience targeting) from your Dashboard and Resources. There won't be any changes to the mobile experience.
-> - If your organization has a home site, you can choose to use it as the default home experience.
+> - If you already have Viva Connections set up, the new home design uses current content and settings (like audience targeting) from your Dashboard and Resources and there will not be any impact to the mobile experience. 
+> - If your organization has a home site, you can choose to use it as the default home experience. The ability to choose the default experience will become available when the feature rolls out in November.
 > - If you haven’t set up Viva Connections yet, the default experience includes cards on the Dashboard but otherwise doesn’t impact [the mobile experience](/viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new home experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams. 
 > - You must have member level permissions or higher to edit the new desktop experience.
@@ -90,7 +90,8 @@ The home experience focuses on the top tasks, tools, and resources that help peo
 
 ## Get started customizing the experience
 >[!NOTE]
-> You must have member level permissions (or higher) to edit the new desktop experience.
+> - You must have member level permissions (or higher) to edit the new desktop experience.
+> - If your organization has a home site, you can choose to use it as the default home experience. The ability to choose the default experience will become available when the feature rolls out in November.
 
 ### How to edit the Viva Connections desktop experience for the first time
 If you already have Viva Connections setup, editors who have site owner or member permissions to the home site will automatically have owner or member permissions to the new home experience in Teams. People with member permissions or higher will automatically see **Edit** buttons in the home experience.
