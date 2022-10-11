@@ -19,6 +19,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learnhow to customize and edit the Viva Connections home experience"
 ---
 
