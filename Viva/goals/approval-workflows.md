@@ -1,8 +1,8 @@
 ---
 title: "Approval workflows"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: <TBD>
 audience: Admin
 f1.keywords:

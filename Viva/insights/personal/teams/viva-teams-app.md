@@ -10,6 +10,7 @@ ms.collection:
 - viva-insights-personal
 - viva-insights-manager
 - viva-insights-leader
+- highpri
 ms.service: viva
 ms.subservice: viva-insights
 manager: helayne

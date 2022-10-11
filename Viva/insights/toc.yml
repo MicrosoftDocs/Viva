@@ -96,7 +96,7 @@ items:
                 href: personal/use/use-the-insights.md
               - name: Inline suggestions
                 href: personal/use/mya-notifications.md
-              - name: Delay delivery plan
+              - name: Schedule send suggestions
                 href: personal/use/delay-delivery.md
           - name: Home
             href: personal/use/home-web.md
@@ -191,6 +191,8 @@ items:
             href: org-team-insights/meeting-effectiveness.md
           - name: Manager connection
             href: org-team-insights/manager-connection.md
+          - name: Employee experience Power BI report
+            href: org-team-insights/employee-experience-pbi.md  
           - name: Organization trends FAQ
             href: org-team-insights/org-trends-faq.md
       - name: Advanced insights
