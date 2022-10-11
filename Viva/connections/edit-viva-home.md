@@ -99,6 +99,50 @@ Change the banner image in the header and set the focal point for the image. The
 The [Viva Connections Dashboard](/create-dashboard.md#overview-of-how-to-create-a-dashboard-and-add-cards) provides fast and easy access to information and job-related tasks. Add and edit cards that helps users quickly access the tools and resources they use in their day-to-day role. Cards on the Dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the Dashboard will also automatically be applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](/viva-connections-overview.md#the-viva-connections-mobile-experience). 
 
 
+>[!NOTE]
+> - If your organization already has Viva Connections set up, you’ll see your existing cards and settings displayed in the new home experience. 
+> - If your organization doesn’t already have Viva Connections set up, you’ll see a set of default cards that need minimal configuration.  
+
+### Summary of default Dashboard cards and how to set them up
+
+Select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
+
+Apply **Audience targeting** so this card is filtered to specific roles, regions, or departments. Learn more about [audience targeting for Viva Connections](use-audience-targeting-in-viva-connections.md).
+
+
+| Dashboard cards                 | How to use the card            | 
+| :------------------------       | :-------------------------     |
+| [Approvals](create-dashboard.md#add-the-approvals-card)    | Request time off, approve expense reports, and sign-off on documents. | 
+| [Assigned tasks](/create-dashboard.md#add-the-assigned-tasks-card)    | Review and complete daily tasks assigned by your manager or team. | 
+| [Shifts](/create-dashboard.md#add-a-shifts-card)    | Clock-in and clock-out of shifts and view upcoming shifts and breaktimes. | 
+| [Top news](/create-dashboard.md#add-the-top-news-card)    | View the most important news from inside your organization.  | 
+| [Viva Learning](/create-dashboard.md#add-a-viva-learning-card)    | View recommended and required training courses. | 
+| Viva Topics    | Share and contribute to your organization’s knowledge base. | 
+
+
+### Preview the Dashboard before sharing with others
+After creating or editing cards on the Dashboard, make sure you preview the experience for each audience and on both desktop and mobile devices by selecting Preview in the top-right corner of the editing experience. What you see in preview mode approximates how the Dashboard will display for certain audiences and devices. When you apply audience targeting to cards, you can preview how different people will view the Dashboard depending on the audience or device.
+
+
+## Customize Resources
+Resources gives access to the most popular portals and destinations at your organization. The Resources section displays at the bottom of the home experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled. 
+
+
+>[!NOTE]
+> Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and cannot be edited. 
+
+**If you have a home site:**
+If you have already set up navigational links in the [global navigation](sharepoint-app-bar.md), you’ll see the same content in Resources. When edits are made in Resources from Viva Connections in Teams, the same labels and links in global navigation will be edited at the same time. 
+
+**If you do not have a home site:**
+Editing Resources in the Viva Connections desktop experience will not have an impact in SharePoint or any other M365 experience. 
+
+
+
+
+
+
+
 
 
 
