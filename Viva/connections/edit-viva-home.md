@@ -160,7 +160,7 @@ There’s no configuration required to get the Feed working in the desktop or mo
 The [Feed web part for Viva Connections](use-feed-web-part-for-viva-connections.md) displays the same content and can be added to other SharePoint sites. Content that is displayed in the Feed can’t be edited but the ranking can be influenced with the following actions: 
 - **Promote important ‘official’ communications** - Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts from organizational news sites.
 - **Highlight community discussions** - Feature posts in public Yammer communities that you’d like seen by the entire organization.
-- **Publish from official news sources** - Like [organizational news sites](organization-news-site.md) or [home sites](/sharepoint/home-site). Where content is from impacts the ranking.
+- **Publish from official news sources** - Like [organizational news sites](/sharepoint/organization-news-site) or [home sites](/sharepoint/home-site). Where content is from impacts the ranking.
 - Learn more about [how content in the Feed is sourced and ranked](faqs-viva-connections-feed.md).
 
 
