@@ -26,7 +26,7 @@ You can open [Week in the life](https://workplaceanalytics.office.com/en-us/Home
 
 ## All collaboration hours
 
-All collaboration hours shows the number of hours a person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting)
+All collaboration hours shows the number of hours a person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting).
 
 ![Week in the life collaboration hours.](../images/wpa/use/wl-all-collab-hours.png)
 
@@ -34,7 +34,7 @@ All collaboration hours shows the number of hours a person spent in meetings, em
 
 Meeting, email, call, and IM hours are the most basic components of collaboration. They help quantify the collaboration volume and patterns within a company, potentially highlighting an under or overly collaborative culture.
 
-Excess incoming email becomes a distraction from work focus and a source of employee stress, particularly if combined with many meetings. Too many hours in meetings reduces the time available to complete individual work tasks, which can lead to longer working hours and employee stress. Similarly, too many IMs and phone calls can distract from the flow of work.
+Excess incoming email becomes a distraction from work focus and a source of employee stress, particularly if combined with many meetings. Too many hours in meetings reduces the time available to complete individual work tasks, which can lead to longer working hours and employee stress. Similarly, too many IMs and unscheduled calls can distract from the flow of work.
 
 Viva Insights helps analysts identify high and low collaboration and its causes.  
 
@@ -52,7 +52,7 @@ Viva Insights helps analysts identify high and low collaboration and its causes.
 
 ## After-hours collaboration hours
 
-After-hours collaboration hours shows the number of hours that a person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours. (Viva Insights uses 9 AM to 5 PM, Monday to Friday as the default for business hours.)
+After-hours collaboration hours shows the number of hours that a person spent outside of working hours in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting). (Viva Insights uses 9 AM to 5 PM, Monday to Friday as the default for business hours.)
 
 ![After-hours collaboration hours.](../images/wpa/use/wl-after-hours-collab-hours.png)
 
