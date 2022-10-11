@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Roles in Viva Insights
 description: Learn which roles can access which features in Viva Insights
 author: lilyolason
@@ -20,6 +19,13 @@ audience: Admin
 Certain roles need the correct level of access to specific product areas to perform their required tasks. The roles are distinct in their assigned responsibilities and access permissions.
 
 Each role only gives access to actions, pages, reports, and data that correspond with that role. Roles are assigned independently, are non-cumulative, and don't roll up.
+
+## Inherited roles
+
+Two Viva Insights roles can be automatically inherited through a user's Global Azure Active Directory roles:
+
+* Users with the **Global Admin** role automatically inherit Insights Administrator privileges.
+* Users with the **Global Reader** role automatically inherit **Insights Business Leader** privileges.
 
 ## Role descriptions and access levels
 

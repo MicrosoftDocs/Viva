@@ -6,11 +6,13 @@ manager: pamgreen
 ms.reviewer: ergradel
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection: 
+- m365initiative-viva-topics,
+- highpri
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
-    - MET150  
+- MET150  
 ms.localizationpriority:  medium
 description: Learn how to manage topics in the topic center in Microsoft Viva Topics.
 
@@ -64,9 +66,9 @@ To manage topics in the topic center, you need to:
 
 - Have the [**Who can manage topics**](./topic-experiences-user-permissions.md) permission. Knowledge admins can give users this permission in the Viva Topics topic permissions settings. 
 
-You will not be able to view the **Manage topics** page in the topic center unless you have the **Who can manage topics** permission.
+You won't be able to view the **Manage topics** page in the topic center unless you've the **Who can manage topics** permission.
 
-In the topic center, a knowledge manager can review topics that have been identified in the source locations you specified, and can either confirm or remove them. A knowledge manager can also create and publish new topic pages if one was not found in topic discovery, or edit existing ones if they need to be updated.
+In the topic center, a knowledge manager can review topics that have been identified in the source locations you specified, and can either confirm or remove them. A knowledge manager can also create and publish new topic pages if one wasn't found in topic discovery, or edit existing ones if they need to be updated.
 
 ## Suggested topics
 
@@ -90,19 +92,21 @@ To review a suggested topic:
 
     Removed topics will be removed from the **Suggested** list and will now display in the **Removed** tab.
 
-### Quality score
+### Topic scores
 
-Each topic that appears on the **Suggested** topics page has a quality score assigned to it. The quality score is a reflection of the amount of information that the average user will see for the information on the topic, keeping in mind that each user might see more or less information because of the permissions they might or might not have on the information in a topic. 
+Each topic that appears on the manage topics page has an **Org topic score** and a **Topic score**. The Org topic score is a measure of how complete and full quality the information associated to the topic is within the organization. The Topic score accounts for the files and resources that the current user has permissions to access. Used in combination, these scores help knowledge managers focus their efforts on publishing high quality topics, focusing on topics that the user has the most comprehensive access to.
 
-The quality score can help give insight to the topics with the most information and can be useful for finding topics that may need to be manually edited. For example, a topic with a lower quality score might be the result of some users not having SharePoint permissions to pertinent files or sites that AI has included in the topic. A contributor could then edit the topic to include the information (when appropriate), which will then be viewable to all users who can view the topic.
+ For example, if a user shows a high topic score for a topic, that user has the most comprehensive access to the resources of that topic and can edit and confirm the topic with full confidence. If an Org topic score is higher than a user’s Topic score, the knowledge manager can find someone who has a high topic score to update and confirm that topic.
+
+Knowledge managers might come across topic scores of 0 for some topics. A 0 topic score may occur when there's not enough resources attached to a particular topic that the user can access. Knowledge managers are encouraged to either augment these low-quality topics with additional information or remove them as needed. Topics that have an Org Topic score of 0 aren't displayed to end users because they aren't deemed to be of sufficient quality. Keep in mind that some topics can have associated information or resources available, and still have a 0 topic score due to the quality and quantity of those resources.
 
 ### Impressions
 
-The **Impressions** column displays the number of times a topic has been shown to end users. This includes views through topic answer cards in search and through topic highlights. It does not reflect the click-through on these topics, but that the topic has been displayed. The **Impressions** column will show for topics in the **Suggested**, **Confirmed**, **Published**, and **Removed** tabs on the **Manage topics** page.
+The **Impressions** column displays the number of times a topic has been shown to end users. This includes views through topic answer cards in search and through topic highlights. It doesn't reflect the click-through on these topics, but that the topic has been displayed. The **Impressions** column will show for topics in the **Suggested**, **Confirmed**, **Published**, and **Removed** tabs on the **Manage topics** page.
 
 ## Confirmed topics
 
-On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations and have been confirmed by a knowledge manager or "crowdsourced" confirmed by a net two or more people (balancing negative user votes against positive user votes) through the card feedback mechanism will be listed in the **Confirmed** tab. If needed, a user with permissions to manage topics can review confirmed topics and choose to reject them.
+On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations and have been confirmed by a knowledge manager or "crowdsourced" confirmed by a net two or more people (balancing negative user votes against positive user votes) through the card feedback mechanism will be listed in the **Confirmed** tab. If needed, a user with permissions to manage topics can review confirmed topics, and choose to reject them.
 
 To review a confirmed topic:
 
@@ -110,7 +114,7 @@ To review a confirmed topic:
 
 2. On the topic page, review the topic page, and select **Edit** if you need to make any changes to the page.
 
-Note that you can still choose to reject a confirmed topic. To do this, go to the selected topic on the **Confirmed** tab, and select the **x** if you want to reject the topic.
+You can still choose to reject a confirmed topic. To reject a confirmed topic, go to the selected topic on the **Confirmed** tab, and select the **x** if you want to reject the topic.
 
 ## Published topics
 
