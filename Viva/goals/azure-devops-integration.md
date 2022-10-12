@@ -113,7 +113,7 @@ Now that the Viva Goals Project is linked to a shared query in Azure DevOps, the
    >[!Note] 
     >It is recommended that your Azure DevOps query return a flat list of work items as opposed to a tree-structure. This is because Viva Goals counts each work item, regardless of where the item happens to sit in the hierarchy.  
 
-         :::image type="content" source="../media/goals/6/azure-devops-work-items-progress.png" alt-text="Screenshot shows progress measured by tracking the number of work items." lightbox="../media/goals/6/azure-devops-work-items-progress.png":::
+      :::image type="content" source="../media/goals/6/azure-devops-work-items-progress.png" alt-text="Screenshot shows progress measured by tracking the number of work items." lightbox="../media/goals/6/azure-devops-work-items-progress.png":::
 
 2. The option to connect to a data source will appear only for Key Results and not for Objectives.  The option can be found under Progress. 
 
