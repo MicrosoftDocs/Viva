@@ -26,6 +26,8 @@ You can configure SharePoint as a learning content source to make your organizat
 >[!NOTE]
 > Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Any content you add to Viva Learning, such as SharePoint-hosted content, is subject to the privacy and service terms associated with that content.
 
+ > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58RgE]  
+
 ## Overview
 
 The knowledge admin (or global administrator) provides a site URL to where the [Learning Service](configure-sharepoint-content-source.md#learning-service) can create an empty centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in Viva Learning.
