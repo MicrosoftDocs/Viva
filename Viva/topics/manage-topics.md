@@ -27,7 +27,7 @@ description: Learn how to manage topics in the topic center in Microsoft Viva To
 
 In the Viva Topics topic center, a knowledge manager can view the **Manage topics** page to review topics that have been identified in the source locations as specified by your knowledge admin.  
 
-   ![Topic Center.](../media/knowledge-management/manage-topics-view.png)  
+   ![Screenshot that shows the Topic Center.](../media/knowledge-management/manage-topics-view.png)  
 
 ## Topic stages
 
