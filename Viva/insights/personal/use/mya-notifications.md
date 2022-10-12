@@ -36,7 +36,7 @@ In Outlook for Windows and Outlook on the web, inline suggestions will show up w
 
 The following are a few of the suggestions you might see in Outlook:
 
-* [Delay delivery](#delay-delivery)
+* [Schedule send suggestions](#schedule-send-suggestions)
 * [Suggested outstanding tasks](#suggested-outstanding-tasks)
 * [Get more time to focus](#get-more-time-to-focus)
 * [Plan your time away](#plan-your-time-away)
@@ -66,50 +66,9 @@ You can also select **Turn off all notifications** if you would prefer not to re
 
 You can also provide general feedback on anything by selecting the **smiley face** icon at the upper-right of the Viva Insights Add-in pane.
 
-## Delay delivery
+## Schedule send suggestions
 
-When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions when:
-
-* All recipients in the **To** field are outside of their working hours.
-* You're sending an email to just one recipient in the **To** field, and that recipient has an [automatic out-of-office reply](https://support.microsoft.com/office/send-automatic-out-of-office-replies-from-outlook-9742f476-5348-4f9f-997f-5e208513bd67) set up in Outlook.
-* You are outside of your working hours.
-
-The delay helps minimize disruptions to recipients outside their working hours or when they’re away from work. It helps anybody who wants to maintain the flexibility to work when they want without putting the burden of their schedule on others.
-
-You might *not* see suggestions when:
-
-* You’re composing an email during the 30 minutes before the recipients’ or your working hours.
-* There are more than 15 recipients in the **To** field.
-* You're sending an email to yourself.
-
->[!Note]
-> Distribution lists and Microsoft 365 or Office 365 groups do *not* count as qualifying recipients for use by the delay-delivery feature. A shared mailbox in the **To** field, however, *does* count as a qualifying recipient. If a user has Full access permissions and can **Send as** or **Send on behalf of** the shared mailbox, that user counts as a qualifying sender.
-
-The delay-delivery inline suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
-
-When the inline suggestions feature is turned on, you can delay up three email deliveries each day. To get more than three daily delayed deliveries, you can opt in to the **Delay delivery** plan either in Viva Insights or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
-
-![Inline suggestion in email](../../Images/mya/use/delay-delivery.png)
-
-**To delay delivery**
-
-1. When you see a suggested delivery time while composing an email, such as **Thu, Nov 07 10:00 AM**, select **Delay send** to confirm message delivery at that time.
-2. An insight opens to show the scheduled time. You can select:
-
-   * **Send** (within the email) to send the email at that scheduled time.
-   * **Edit time** (within the insight) to change the suggested delivery time, and then select **Send** (within the email) to send the email at the new time.
-   * **Cancel delay** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
-
-   ![Delay delivery inline options](../../Images/mya/use/delay-options.png)
-
-3. After you send the email, it's kept in one of two places—the **Drafts** folder if you use Outlook on the web or the **Sent items** folder if you use Outlook for Windows—until the scheduled delivery time. At the scheduled delivery time, the email is automatically delivered to all recipients in the **To**, **Cc**, and **Bcc** fields for you.
-
-    Before the message is sent, you can open the message and select:
-
-   * **Send now** to ignore the scheduled delivery time and send the email now.
-   * **Don't send** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
-
-   ![Delay delivery options](../../Images/mya/use/delay-options-2.png)
+When you're composing an email in Outlook, Schedule send suggestions shows you suggestions for scheduling email deliveries. Learn more about this feature and how to use it in [Schedule send suggestions](delay-delivery.md). 
 
 ## Suggested outstanding tasks
 

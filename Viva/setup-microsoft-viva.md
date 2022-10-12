@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.collection:  
 - M365-collaboration
 - M365initiative-viva
+- highpri
 ms.custom: intro-overview
 search.appverid:
 - MET150
@@ -61,7 +62,7 @@ Balance productivity and well-being – Provides data-driven, privacy-protected 
 
 [Overview](/viva/insights/introduction)
 
-[Learn how to set it up](/viva/insights/setup/setup-intro)
+[Learn how to set it up](/viva/insights/advanced/setup-maint/setup-overview.md)
 
 **Viva Topics**
 

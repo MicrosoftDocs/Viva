@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore the stats introduction
 description: Describes the analytical Explore the stats data in Viva Insights
 author: madehmer
@@ -21,12 +21,12 @@ Explore the stats data in Viva Insights gives you a starting point with quick in
 
 The following are available in Viva Insights:
 
-* [**Week in the life**](../use/explore-metrics-week-life.md) summarizes day-to-day collaboration in the organization.
-* [**Meetings overview**](../use/explore-metrics-meetings-overview.md) summarizes meeting norms within your organization.
-* [**Management and coaching**](../use/explore-metrics-management-and-coaching.md) summarizes collaboration between leaders, managers, and employees.
-* [**Internal networks**](../use/explore-metrics-internal-networks.md) shows network connections between different people within a company.
-* [**External collaboration**](../use/explore-metrics-external-collaboration.md) summarizes employees' network patterns with people outside the company.
-* [**Teams collaboration**](../use/explore-metrics-teams.md) shows communication trends about how your employees use Teams for communication and collaboration.
+* [**Week in the life**](/viva/insights/use/explore-metrics-week-life?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) summarizes day-to-day collaboration in the organization.
+* [**Meetings overview**](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) summarizes meeting norms within your organization.
+* [**Management and coaching**](/viva/insights/use/explore-metrics-management-and-coaching?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) summarizes collaboration between leaders, managers, and employees.
+* [**Internal networks**](/viva/insights/use/explore-metrics-internal-networks?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) shows network connections between different people within a company.
+* [**External collaboration**](/viva/insights/use/explore-metrics-external-collaboration?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) summarizes employees' network patterns with people outside the company.
+* [**Teams collaboration**](/viva/insights/use/explore-metrics-teams?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) shows communication trends about how your employees use Teams for communication and collaboration.
 
 ## Access to Explore the stats
 
@@ -49,4 +49,4 @@ The user interface and navigation in recent releases of Viva Insights are differ
 
 ## Data time limit
 
-The historical data that populates **Explore the stats** is time limited; the charts reflect data that is no older than six months. This six-month period is a _rolling window_ that's based on when the [Microsoft 365 data](../use/office-365-data.md) refreshes. After a data refresh, the six-month extent of data reflected in **Explore the stats** advances by one week.
+The historical data that populates **Explore the stats** is time limited; the charts reflect data that is no older than six months. This six-month period is a _rolling window_ that's based on when the [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) refreshes. After a data refresh, the six-month extent of data reflected in **Explore the stats** advances by one week.
