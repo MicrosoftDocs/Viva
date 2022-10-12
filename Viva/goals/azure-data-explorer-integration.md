@@ -34,11 +34,11 @@ The Azure Data Explorer integration can be enabled by an admin. To do so,
 
 1. Go to Azure Data Explorer in the integrations section of the admin console. 
 
-    :::image type="content" source="../media/goals/integrations-page-viva-goals.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/integrations-page-viva-goals.png":::
+    :::image type="content" source="..\media/goals/integrations-page-viva-goals.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="..\media/goals/integrations-page-viva-goals.png":::
 
 2. Select **Azure Data Explorer** and then select **Enable**.  
 
-    :::image type="content" source="../media/goals/azure-data-explorer-enable.png" alt-text="Screenshot highlights the option to enable Azure Data Explorer in Viva Goals." lightbox="../media/goals/azure-data-explorer-enable.png":::   
+    :::image type="content" source="..\media/goals/integrations-page-viva-goals.png" alt-text="Screenshot highlights the option to enable Azure Data Explorer in Viva Goals." lightbox="...\media/goals/integrations-page-viva-goals.png":::   
 
 ## How to disable the integration 
 
