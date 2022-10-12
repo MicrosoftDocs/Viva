@@ -132,7 +132,7 @@ To obtain the folder path:
 >[!Note]
 > All users within an organization will be able to discover all the tenant-specific courses, but they'll only be able to access and consume courses that they have access to. User specific content discovery is planned for future releases.
 
-## Programs and Learning Paths
+## Programs and learning paths
 
 You can bring programs or learning paths from SAP SuccessFactors into Viva Learning. The programs are ingested along with the other content catalog items.
 
