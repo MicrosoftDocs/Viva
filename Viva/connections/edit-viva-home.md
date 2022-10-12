@@ -33,7 +33,7 @@ Elements of the new Viva Connections home experience can be customized to fit yo
 >[!NOTE]
 > - The new Viva Connections home experience will be available for [Targeted release](/microsoft-365/admin/manage/release-options-in-office-365) customers by the end of November 2022 and will become generally available to all customers in 2023.
 > - If you already have Viva Connections set up, the new home design uses current content and settings (like audience targeting) from your Dashboard and Resources and there will not be any impact to the mobile experience. 
-> - If your organization has a home site, you can choose to use it as the default home experience. The ability to choose the default experience will become available when the feature rolls out in November.
+> - If your organization has a home site, you can choose to use it as the default home experience. The ability to choose the default experience will become available when the feature rolls out in November. More details will be shared soon.
 > - If you haven’t set up Viva Connections yet, the default experience includes cards on the Dashboard but otherwise doesn’t impact [the mobile experience](/viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new home experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams. 
 > - You must have member level permissions or higher to edit the new desktop experience.
@@ -144,14 +144,14 @@ To edit existing cards, select the pencil icon to **Edit** the card. In the prop
 Apply **Audience targeting** so this card is filtered to specific roles, regions, or departments. Learn more about [audience targeting for Viva Connections](use-audience-targeting-in-viva-connections.md).
 
 
-| Dashboard cards                 | How to use the card            | 
+| Dashboard cards                 | How to use the card            | Default card by license type            | 
 | :------------------------       | :-------------------------     |
-| [Approvals](create-dashboard.md#add-the-approvals-card) | Request time off, approve expense reports, and sign-off on documents.  | 
-| [Assigned tasks](/create-dashboard.md#add-the-assigned-tasks-card)  | Review and complete daily tasks assigned by your manager or team. | 
-| [Shifts](/create-dashboard.md#add-a-shifts-card) | Clock-in and clock-out of shifts and view upcoming shifts and breaktimes. | 
-| [Top news](/create-dashboard.md#add-the-top-news-card) | View the most important news from inside your organization. Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) get news posts from organizational news sites to display in this card.  | 
-| [Viva Learning](/create-dashboard.md#add-a-viva-learning-card) | View recommended and required training courses. | 
-| Viva Topics    | Share and contribute to your organization’s knowledge base. | 
+| [Approvals](create-dashboard.md#add-the-approvals-card) | Request time off, approve expense reports, and sign-off on documents.  | Frontline worker SKU        |
+| [Assigned tasks](/create-dashboard.md#add-the-assigned-tasks-card)  | Review and complete daily tasks assigned by your manager or team. | Frontline worker and Enterprise SKU        |
+| [Shifts](/create-dashboard.md#add-a-shifts-card) | Clock-in and clock-out of shifts and view upcoming shifts and breaktimes. | Frontline worker SKU        |
+| [Top news](/create-dashboard.md#add-the-top-news-card) | View the most important news from inside your organization. Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) get news posts from organizational news sites to display in this card.  | Frontline worker and Enterprise SKU           | 
+| [Viva Learning](/create-dashboard.md#add-a-viva-learning-card) | View recommended and required training courses. | Enterprise SKU           | 
+| Viva Topics    | Share and contribute to your organization’s knowledge base. | Enterprise SKU           | 
 
 
 ### Preview the Dashboard before sharing with others
@@ -223,7 +223,7 @@ If you have owner permissions or higher, you can give access to new people and c
 ## Help end users in your organization learn more
 
 >[!NOTE]
-> For customers who already have Viva Connections setup, your end users will be automatically routed to the new home experience in Teams if your organization decides to use the new design as the default experience. 
+> For customers who already have Viva Connections setup, your end users will be automatically routed to the new home experience in Teams if your organization decides to use the new design as the default experience. If your organization has a home site, you can choose to use it as the default home experience when the new home experience is available. More details will be shared soon. 
 
 When end users in your organization view the Viva Connections landing experience for the first time, they will have the option to see a basic walkthrough tutorial that shows them how to engage with content and navigational elements. Help end user [see what else they can do in the home experience](https://go.microsoft.com/fwlink/?linkid=2208247). 
 
