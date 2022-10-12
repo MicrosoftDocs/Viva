@@ -78,9 +78,9 @@ On the **Manage topics** page, topics that were discovered in your specified Sha
 
 To review a suggested topic:
 
-1. On the **Manage topics** page, filter your view to see topiucs with a **Suggested** status, and then select the topic to open the topic page.
+1. On the **Manage topics** page, filter your view to see topics with a **Suggested** status, and then select the topic to open the topic page.
 
-2. On the topic page, review the topic page, and select **Edit** if you need to make any changes to the page. Publishing any edits will updated the topic's status to **Published**.
+2. On the topic page, review the topic page, and select **Edit** if you need to make any changes to the page. Publishing any edits will update the topic's status to **Published**.
 
 3. After reviewing the topic, go back to the **Manage topics** page. For the selected topic, you can:
 
@@ -128,7 +128,7 @@ On the **Manage topics** page, topics that were discovered in your specified Sha
 
 Removed topics can later be added back as viewable topics if needed. If you want to add a removed topic back as a viewable topic:
 
-1. Select the topic withh **Removed** status.
+1. Select the topic with **Removed** status.
 
 2. Select **Restore**.
 
