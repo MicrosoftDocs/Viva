@@ -32,9 +32,17 @@ With the new Microsoft Viva admin experience, admins can initiate setup, deploym
 
 Things you can do on this page:
 
-- You can select *Manage licenses* or *Manage roles* to go directly to the Microsoft 365 Licenses page or to the Microsoft 365 Role assignments page.
-- You can see the status of each app
+- You can select **Manage licenses** or **Manage roles** to go directly to the Microsoft 365 Licenses page or to the Microsoft 365 Role assignments page.
+- You can see the type of Viva plan purchased or included with Microsoft 365 in the **Plan type** column.
+- You can see quickly whether admin roles have been assigned for each app, and who the roles are assigned to in the **Admins** column. You can also assign admins here.
 - You can select an app to go to that app's settings page.
 
+App settings pages Each app has its own settings page. Here's an example of the Learning admin page:
+<<image>>
 
+
+In this example you can:
+Select the **More information** tab to get detailed guidance on setting up the app.
+See at a glance which settings are required in the **Priority** column.
+Select a setting in the list, and get a panel where you can set the options without leaving the page.
 
