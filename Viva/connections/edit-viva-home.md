@@ -223,7 +223,7 @@ If you have owner permissions or higher, you can give access to new people and c
 ## Help end users in your organization learn more
 
 >[!NOTE]
-> For customers who already have Viva Connections setup, your end users will be automatically routed to the new home experience in Teams if your organization decides to use the new design as the default experience. If your organization has a home site, you can choose to use it as the default home experience when the new home experience is available. More details will be shared soon. 
+> For customers who already have Viva Connections setup, your end users will be automatically routed to the new home experience in Teams if your organization decides to use the new design as the default experience. If your organization has a home site, you can choose to keep it as the default home experience when the new experience is available. More details will be shared soon. 
 
 When end users in your organization view the Viva Connections landing experience for the first time, they will have the option to see a basic walkthrough tutorial that shows them how to engage with content and navigational elements. Help end user [see what else they can do in the home experience](https://go.microsoft.com/fwlink/?linkid=2208247). 
 
