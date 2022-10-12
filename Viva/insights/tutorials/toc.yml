@@ -89,7 +89,7 @@ items:
       - name: Tools and concepts
         href: /viva/insights/tutorials/meeting-exclusion-concept
       - name: Attendee exclusions
-      href: /viva/insights/tutorials/attendee-exclusion-rules
+        href: /viva/insights/tutorials/attendee-exclusion-rules
     - name: Audit logs
       href: /viva/insights/setup/audit-logs
   - name: Use advanced insights
