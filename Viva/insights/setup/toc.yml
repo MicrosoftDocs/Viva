@@ -77,9 +77,8 @@ items:
       - name: Privacy settings and exclusions
       href: /viva/insights/Use/privacy-settings
     - name: Exclusions
+      href: /viva/insights/tutorials/exclusions-introduction
       items:
-      - name: Introduction
-        href: /viva/insights/tutorials/exclusions-introduction
       - name: Meeting exclusions
         items:
         - name: Introduction
