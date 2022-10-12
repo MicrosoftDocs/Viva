@@ -138,7 +138,7 @@ You can bring programs or learning paths from SAP SuccessFactors into Viva Learn
 
 If you’re setting up SuccessFactors integration for your tenant for the first time, programs will be automatically ingested along with other content.
 
-If you’ve already integrated SuccessFactors and want to bring in programs, you’ll need to request the SuccessFactors support team to regenerate the full sync package for your tenants.Viva Learning will ingest the programs for your tenant once the package becomes available in your SuccessFactors folder path.
+If you’ve already integrated SuccessFactors and want to bring in programs, you’ll need to request the SuccessFactors support team to regenerate the full sync package for your tenants. Viva Learning will ingest the programs for your tenant once the package becomes available in your SuccessFactors folder path.
 
 ## Learner record sync
 
