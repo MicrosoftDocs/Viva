@@ -161,7 +161,7 @@ Editing Resources in the Viva Connections desktop experience will not have an im
 2.	Hover over the Resources panel until you see a **+** (plus) icon. Select it, and then choose to add a **Link** or **Label**. Labels do not link to other destinations. 
 3.	To add a new link, select **Link** from the drop-down menu paste the URL to the site in the Link field. Only modern SharePoint sites and certain Microsoft 365 experiences will display in Teams. All other types of content will open in a separate browser window. 
 4.	To add a new label, select **Label** from the drop-down menu and type a label in the Label field.
-5.	Audience targeting can be applied to each label and link if desired by entering groups into the field. Add up to 10 [azure Active Directory groups](/microsoft-365/community/all-about-groups) (including security groups, Microsoft 365 groups, and AAD dynamic groups.) 
+5.	Audience targeting can be applied to each label and link if desired by entering groups into the field. Add up to 10 [azure Active Directory groups](/microsoft-365/community/all-about-groups) (including security groups, Microsoft 365 groups, and AAD dynamic groups). 
 6.	Select **Save** to share with others. 
 
 ## Learn more about how to influence content in the Feed
@@ -182,7 +182,7 @@ The permissions model for the new Viva Connections landing experience is similar
 > At least two people should be assigned to Owner level permissions. 
 
 | Owner       | Member            | Visitor     |
-|:------------------- |: -------------------:|:---------------|
+|:------------------- |: -------------------|:---------------|
 | Can edit content in the banner, Dashboard, and Resources. <br><br> Can add or remove owners, members, and visitors.| Can edit content in the banner, Dashboard, and Resources.  | Visitors are the end users in your organization. <br><br> They can view and interact with content but can’t edit content or share the page with others. |
 
 If you already have Viva Connections setup, editors who have site owner or member permissions to the home site will automatically have owner or member permissions to edit the new home experience in Teams. 
