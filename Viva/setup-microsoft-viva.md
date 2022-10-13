@@ -24,6 +24,8 @@ description: "Learn how to set up the Microsoft Viva suite"
 Microsoft Viva is an organizing layer for employee experiences that puts people at the center, uniting them to share knowledge, skills, and connections in the natural flow of the workday. It delivers personalized and actionable insights when and where they’re needed in Teams, SharePoint, and other Microsoft 365 services. 
 
 Microsoft Viva consists of several modules including Viva Topics, Viva Insights, Viva Learning, Viva Connections, Viva Sales, Viva Goals, and Viva Engage. To set up the whole suite, you’ll set up each module individually.
+
+![Note] If you are in the targeted release program, you may see a different experience than what is described here. See [The new Microsoft Viva admin experience](/Viva/new-microsoft-viva-admin-experience.md)
  
 ### Start setting up
 
