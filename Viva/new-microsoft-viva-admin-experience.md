@@ -21,10 +21,10 @@ search.appverid:
 description: "Learn about the new Viva admin experience"
 ---
 # Viva admin experience
-With the new Microsoft Viva admin experience, admins can initiate setup, deployment, and license management for all generally available Viva applications from a central location in the Microsoft 365 Admin Center. 
 
-> [!NOTE]
-> This article is intended for [Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365) customers. Some functionality is introduced gradually to organizations that have set up the targeted release options in Microsoft 365. If you're not part of the targeted release program, you may not yet see this feature or it may look different than what is described in this help article. Features are subject to change. If you are not in the Targeted Release program, see [Set up Microsoft Viva](/viva/setup-microsoft-viva.md).
+With the new Microsoft Viva admin experience, admins can initiate setup, deployment, and license management for all generally available Viva applications from a central location in the Microsoft 365 Admin Center.
+
+> [!NOTE] This article is intended for [Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365) customers. Some functionality is introduced gradually to organizations that have set up the targeted release options in Microsoft 365. If you're not part of the targeted release program, you may not yet see this feature or it may look different than what is described in this help article. Features are subject to change. If you are not in the Targeted Release program, see [Set up Microsoft Viva](/viva/setup-microsoft-viva.md).
 
 ## Getting to the admin experience
 
@@ -43,14 +43,13 @@ Things you can do on this page:
 - Manage briefing email in Viva
 
 ## App settings pages
+
 Each app has its own settings page, and they may differ. The Viva Insights and Viva Learning pages utilize the new experience. Other pages will evolve over time. Here's an example of the Learning admin page:
 
 ![Viva learn page](media/learn-admin.png)
-
 
 In this example you can:
 
 - See at a glance which settings are required in the **Priority** column.
 - Select a setting in the list, and get a panel where you can set the options without leaving the page. In this example, you see the panel to assign knowledge managers.
 - Select the **More information** tab to get detailed guidance on setting up the app.
-
