@@ -24,15 +24,20 @@ description: "Learn about the new Viva admin experience"
 
 With the new Microsoft Viva admin experience, admins can initiate setup, deployment, and license management for all generally available Viva applications from a central location in the Microsoft 365 Admin Center.
 
-> [!NOTE] This article is intended for [Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365) customers. Some functionality is introduced gradually to organizations that have set up the targeted release options in Microsoft 365. If you're not part of the targeted release program, you may not yet see this feature or it may look different than what is described in this help article. Features are subject to change. If you are not in the Targeted Release program, see [Set up Microsoft Viva](/viva/setup-microsoft-viva.md).
+> [!NOTE]
+> This article is intended for [Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365) customers. Some functionality is introduced gradually to organizations that have set up the targeted release options in Microsoft 365. If you're not part of the targeted release program, you may not yet see this feature or it may look different than what is described in this help article. Features are subject to change. If you are not in the Targeted Release program, see [Set up Microsoft Viva](/viva/setup-microsoft-viva.md).
 
 ## Getting to the admin experience
 
 1. Sign into your account as an Microsoft 365 admin.
 2. Select Setup in the left navigation.
-3. Select the Microsoft Viva tile. This brings you to the [Microsoft Viva admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences).
+3. Select the Microsoft Viva tile. 
 
-![Viva admin page](media/viva-setup.png)
+![Viva admin tile](media/viva-setup.png)
+
+This brings you to the [Microsoft Viva admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences).
+
+![Viva new admin page](media/viva-new-admin.png)
 
 Things you can do on this page:
 
