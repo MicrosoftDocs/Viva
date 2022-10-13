@@ -44,12 +44,12 @@ For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, a
 * **Be a thoughtful coworker!** Establishing quiet time with no meetings or email can lead to better teamwork:
 
   * For "inform" type emails, condense the emails and status updates into daily or weekly digests. This practice reduces the overall noise and randomization caused by email overload.
-  * Use the [delay delivery inline suggestion](../use/mya-notifications.md#schedule-send-suggestions) to schedule email delivery when the recipients are within their working hours. Limit late night and early morning email to urgent email only, to cut through the noise.
+  * Use [schedule send suggestions](../use/delay-delivery.md) to schedule email delivery when the recipients are within their working hours. Limit late-night and early-morning email to urgent email only, to cut through the noise.
   * Turn off notifications on your phone and computer when you are trying to focus.
 
 * **Be respectful of people's time**:  
 
-  * Agree on "team hours." Use the [delay delivery inline suggestion](../use/mya-notifications.md#schedule-send-suggestions) to deliver email when most of the team is working.
+  * Agree on "team hours." Use [schedule send suggestions](../use/delay-delivery.md) to deliver email when most of the team is working.
   * Be intentional about who you invite to meetings.
   * Try to limit meeting overruns.
   * Consider starting a policy of no meetings on Fridays.

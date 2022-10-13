@@ -29,7 +29,7 @@ Microsoft Viva Insights provides personal insights into two of the key factors i
   * [**Digest emails**](../personal/use/email-digests-3.md) &ndash; Receive a digest email that gives you highlights about your previous activity.
   * [**Inline suggestions in Outlook**](../personal/use/mya-notifications.md) &ndash; Contextual, data-driven recommendations to improve your work patterns.
 * [**Focus plan**](../personal/use/focus-plan.md) &ndash; Helps you schedule up to two hours of uninterrupted time on your calendar each day to focus on top-priority work.
-* [**Delay delivery plan**](../personal/use/delay-delivery.md) &ndash; When you're composing an email in Outlook, Delay delivery suggests scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside of their working hours.
+* [**Schedule send suggetsions**](../personal/use/delay-delivery.md) &ndash; When you're composing an email in Outlook, the schedule send suggestions feature suggests scheduling email deliveries that align with the recipients' working hours in their respective time zones. This scheduling helps minimize disruptions to recipients outside of their working hours.
 * [**Adoption materials**](../personal/use/MyA-Adoption/Adopt-myanalytics.md) &ndash; These adoption materials help teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable.
 
   * [Individual adoption](../personal/use/MyA-Adoption/Indiv-adopt-get-started.md) &ndash; Individuals learn how to use personal insights to build and sustain healthier work patterns.

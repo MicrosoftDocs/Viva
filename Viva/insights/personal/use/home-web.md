@@ -96,8 +96,8 @@ If you choose to opt out, you lose access to the following items:
     * Semi-monthly Digest email
 * Outlook
     * Outlook add-in
-    * Delay delivery plan and notifications
-        * You can separately opt in to resume the Delay delivery plan and receive notifications
+    * Schedule send suggestions notifications
+        * You can separately opt in to resume schedule send suggestions and receive notifications
 * Settings
     * All settings *except* for the following:
         * Opting in and opting out
