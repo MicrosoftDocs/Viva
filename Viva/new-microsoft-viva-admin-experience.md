@@ -20,7 +20,7 @@ search.appverid:
 
 description: "Learn about the new Viva admin experience"
 ---
-# the new Viva admin experience
+# The new Microsoft Viva admin experience
 
 With the new Microsoft Viva admin experience, admins can initiate setup, deployment, and license management for all generally available Viva applications from a central location in the Microsoft 365 Admin Center.
 
