@@ -29,10 +29,10 @@ With the new Microsoft Viva admin experience, admins can initiate setup, deploym
 ## Getting to the admin experience
 
 1. Sign into your account as an Microsoft 365 admin.
-2. In the Microsoft 365 admin center (MAC) search for Microsoft Viva.
-3. In the search results, select Microsoft Viva. This brings you to the [Microsoft Viva admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences).
+2. Select Setup in the left navigation.
+3. Select the Microsoft Viva tile. This brings you to the [Microsoft Viva admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences).
 
-<<image>>
+![Viva admin page](media/viva-setup.png)
 
 Things you can do on this page:
 
@@ -43,14 +43,14 @@ Things you can do on this page:
 - Manage briefing email in Viva
 
 ## App settings pages
-Each app has its own settings page. Here's an example of the Learning admin page:
+Each app has its own settings page, and they may differ. The Viva Insights and Viva Learning pages utilize the new experience. Other pages will evolve over time. Here's an example of the Learning admin page:
 
-<<image>>
+![Viva learn page](media/learn-admin.png)
 
 
 In this example you can:
 
 - See at a glance which settings are required in the **Priority** column.
-- Select a setting in the list, and get a panel where you can set the options without leaving the page.
+- Select a setting in the list, and get a panel where you can set the options without leaving the page. In this example, you see the panel to assign knowledge managers.
 - Select the **More information** tab to get detailed guidance on setting up the app.
 
