@@ -77,19 +77,16 @@ items:
       - name: Privacy settings and exclusions
       href: /viva/insights/Use/privacy-settings
     - name: Exclusions
+      href: /viva/insights/tutorials/exclusions-introduction
       items:
-      - name: Introduction
-        href: /viva/insights/tutorials/exclusions-introduction
       - name: Meeting exclusions
-        items:
-        - name: Introduction
-          href: /viva/insights/tutorials/meeting-exclusions-intro
+        href: /viva/insights/tutorials/meeting-exclusions-intro
       - name: Walkthroughs
         href: /viva/insights/tutorials/meeting-exclusion-rules
       - name: Tools and concepts
         href: /viva/insights/tutorials/meeting-exclusion-concept
       - name: Attendee exclusions
-      href: /viva/insights/tutorials/attendee-exclusion-rules
+        href: /viva/insights/tutorials/attendee-exclusion-rules
     - name: Audit logs
       href: /viva/insights/setup/audit-logs
   - name: Use advanced insights
