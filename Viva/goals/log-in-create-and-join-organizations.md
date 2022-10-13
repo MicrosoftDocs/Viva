@@ -26,7 +26,7 @@ To log into Viva Goals, you must be logged into your Azure Active Directory.
 
 ## How to log in to Viva Goals 
 
-1. Go to the Viva Goals sign-in page.
+1. Go to the Viva Goals sign-in page. https://goals.microsoft.com/
 
 2. Select the Azure Active Directory credentials to log in.
 
@@ -40,7 +40,7 @@ To log into Viva Goals, you must be logged into your Azure Active Directory.
 
 ## How to create your first organization in Viva Goals
 
-1. Log in to your Viva Goals account with your Azure Active Directory credentials.
+1. Log in to your Viva Goals account (https://goals.microsoft.com/) with your Azure Active Directory credentials
 
 2. You'll be prompted to create an organization. Select **Create Organization**.
 
@@ -66,7 +66,7 @@ Use the organization switcher dropdown to switch between different organizations
 
 ## How to join an organization in Viva Goals 
 
-1. Log in to Viva Goals using Azure Active Directory.
+1. Log in to Viva Goals (https://goals.microsoft.com/) using Azure Active Directory.
 
 2. If you're logging in for the first time and aren't yet a part of any organization, you'll be taken to the **Join Organizations** page, where you can select your organization.
 
