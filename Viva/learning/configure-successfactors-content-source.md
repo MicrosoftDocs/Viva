@@ -175,7 +175,7 @@ Content classified as online and instructor-led with online (blended) are consum
 
 ### Pre-requisite for enabling in-app playback and SSO
 
-Refer to the [https://learn.microsoft.com/en-us/azure/active-directory/saas-apps/successfactors-tutorial] "Azure Active Directory single sign-on (SSO) integration with SuccessFactors" topic for configuration information.
+Refer to the [Azure Active Directory single sign-on (SSO) integration with SAP SuccessFactors](/azure/active-directory/saas-apps/successfactors-tutorial) topic for configuration information.
 
 Log into Teams and Windows with the same user account to enable SSO to consume SAP SuccessFactors content within Viva Learning.
 
