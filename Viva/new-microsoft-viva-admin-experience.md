@@ -30,10 +30,11 @@ With the new Microsoft Viva admin experience, admins can initiate setup, deploym
 ## Getting to the admin experience
 
 1. Sign into your account as an Microsoft 365 admin.
-2. Select **Setup** in the left navigation.
-3. Select the **Microsoft Viva** tile. 
+2. In the search bar, enter Viva.
+3. Select **Microsoft Viva**.
 
-![Viva admin tile](media/viva-setup.png)
+![Search for Viva](media\vivasearchscreenshot.png)
+
 
 This brings you to the [Microsoft Viva admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences).
 
