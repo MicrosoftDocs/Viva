@@ -27,7 +27,7 @@ Microsoft Viva is an organizing layer for employee experiences that puts people 
 Microsoft Viva consists of several modules including Viva Topics, Viva Insights, Viva Learning, Viva Connections, Viva Sales, Viva Goals, and Viva Engage. To set up the whole suite, you’ll set up each module individually.
 
 > [!NOTE]
-> If you are in the [Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365) program, you may see a different experience than what is described in this article. See [The new Microsoft Viva admin experience](/Viva/new-microsoft-viva-admin-experience).
+> If you are in the [Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365) program, the new Viva admin experience is being rolled out gradually. You may see a different experience than what is described in this article. See [The new Microsoft Viva admin experience](/Viva/new-microsoft-viva-admin-experience).
 
 ## Start setting up
 
