@@ -166,3 +166,18 @@ Refer to the scenario table below to pick the right integration steps for your s
 After you enable user sync, the EmployeeID is synced with each LMS user synced to Azure Active Directory.  
 
 Viva Learning receives this EmployeeID in a zip package, which is used for StudentID matching.  
+
+## Play SAP SuccessFactors courses inline in Viva Learning
+
+Viva Learning and SAP SuccessFactors integration allows seamless authentication (SSO) and in-app playback. Users can access SAP SuccessFactors content inline within Viva Learning instead of launching content in a browser.  
+
+Content classified as online and instructor-led with online (blended) are consumed within Viva Learning and other content classifications (including third-party content) are launched in the browser.  
+
+### Pre-requisite for enabling in-app playback and SSO
+
+Refer to the [https://learn.microsoft.com/en-us/azure/active-directory/saas-apps/successfactors-tutorial] "Azure Active Directory single sign-on (SSO) integration with SuccessFactors" topic for configuration information.
+
+Log into Teams and Windows with the same user account to enable SSO to consume SAP SuccessFactors content within Viva Learning.
+
+>[!NOTE]
+> If the SSO on both AAD and SAP SuccessFactors are already configured in the tenant, then no action is required.
