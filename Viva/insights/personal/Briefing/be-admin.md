@@ -109,7 +109,8 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 
 ### To configure access for a tenant
 
->[!Note] If you're a targeted release customer, you might see a new admin experience. To learn how to configure access for a tenant through this new experience, refer to [Using the new admin center](../../advanced/setup-maint/new-admin-center.md#manage-the-briefing-email).
+>[!Note] 
+> If you're a targeted release customer, you might see a new admin experience. To learn how to configure access for a tenant through this new experience, refer to [Using the new admin center](../../advanced/setup-maint/new-admin-center.md#manage-the-briefing-email).
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
