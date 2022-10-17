@@ -50,6 +50,8 @@ You can configure access to Viva Insights elements for all users in your organiz
 
 ### To enable access to Viva digest emails, the dashboard, Viva Insights Outlook add-in, and schedule send suggestions
 
+>[!Note] If you're a targeted release customer, you might see a new admin experience. To learn how to assign roles through this new experience, refer to [Using the new admin center](new-admin-center.md). 
+
 1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 1. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
 1. In the left pane, expand **Settings**, and then select **Org settings**.
