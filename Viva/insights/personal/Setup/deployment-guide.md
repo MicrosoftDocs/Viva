@@ -103,6 +103,8 @@ In this scenario, all surfaces of Viva Insights are turned on by default for all
 
 ##### Confirm the configuration
 
+>[!Note] If you're part of the Targeted Release program, you might see a new admin experience. To learn how configure access through this new experience, refer to [Using the new admin center](../../advanced/setup-maint/new-admin-center.md#personal-insights). 
+
 **Role** - Microsoft 365 admin
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal). Make sure you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**. 
