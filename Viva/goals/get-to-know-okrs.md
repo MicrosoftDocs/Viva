@@ -67,7 +67,7 @@ Massive global enterprise companies have adopted OKRs, and so have 10-20 person 
 
 **OKRs inspire stretch and foster involvement**. When done well and made the driving force in the company’s strategic rhythm, OKRs can keep every  employee connected to the broader mission and make sure they’re invested in their own contribution to it.  
 
-**OKRs offer clear, contextual communication with continual progress reviews.** The OKR framework doesn't work stop when your goals are written. It's designed to create a business rhythm around the most important outcomes that your company is pursuing. It should influence every interaction and drive a review process that pushes for continuous improvement.
+**OKRs offer clear, contextual communication with continual progress reviews.** The OKR framework doesn't stop when your goals are written. It's designed to create a business rhythm around the most important outcomes that your company is pursuing. It should influence every interaction and drive a review process that pushes for continuous improvement.
 
 ## What are the benefits of OKRs for executives, team owners and managers, and individual contributors?
 
