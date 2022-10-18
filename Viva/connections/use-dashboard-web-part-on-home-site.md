@@ -37,7 +37,7 @@ Once in **edit** mode, perform the following steps:
 
 2. In the web part search box, enter **Dashboard** to quickly find and select the **Dashboard for Viva Connections** web part.
 
-   :::image type="content" source="../media/connections/dashboard-picker.png" alt-text="The screen on which you can search for a web part and select it once displayed.":::
+   :::image type="content" source="../media/connections/dashboard-picker.png" alt-text="Screenshot that shows the screen on which you can search for a web part and select it once displayed.":::
    
    
    The web part will be added to your page where it is populated with the cards from the existing Dashboard on your site, as in this example where the Dashboard is placed in a vertical column on the right:
