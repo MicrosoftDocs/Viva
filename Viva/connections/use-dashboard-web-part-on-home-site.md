@@ -35,7 +35,7 @@ Once in **edit** mode, perform the following steps:
 
 1. Hover your mouse around the section within which you want to place the web part, and select the **circled +**.
 
-2. In the web part search box, enter **Dashboard** to quickly find and select the **Dashboard (Preview) for Viva Connections** web part.
+2. In the web part search box, enter **Dashboard** to quickly find and select the **Dashboard for Viva Connections** web part.
 
    :::image type="content" source="../media/connections/dashboard-picker.png" alt-text="The screen on which you can search for a web part and select it once displayed.":::
    
