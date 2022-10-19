@@ -9,7 +9,7 @@ items:
       - name: Environment requirements    
         href: advanced/setup-maint/environment-requirements.md
       - name: Setup introduction
-        href: advanced/setup-overview.md
+        href: advanced/setup-maint/setup-overview.md
       - name: Personal insights
         items:
           - name: Introduction
