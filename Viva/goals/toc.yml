@@ -132,6 +132,8 @@ items:
           href: github-integration.md
         - name: GitLab Integration
           href: gitlab-integration.md
+        - name: Google Sheets Integration
+          href: gsheets-integration.md
         - name: Hubspot Integration
           href: hubspot-integration.md
         - name: Jira Integration
