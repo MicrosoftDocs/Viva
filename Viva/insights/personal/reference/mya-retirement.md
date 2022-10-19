@@ -43,7 +43,7 @@ The select MyAnalytics functionality we describe below will continue to be avail
 
 Focus time Insights are available on the **Protect time** page on Viva Insights app in Teams and on the web. These insights show the amount of focus time kept in the current month and the amount of focus time booked for the following week. 
 
-![Screenshot that shows the Book focus time options on the Protect time page.](/viva/insights/images/mya/reference/mya-retire-protect-time-page2.png)
+![Screenshot that shows the Book focus time options on the Protect time page.](/viva/insights/images/mya/reference/mya-retire-protect-time-page3.png)
 
 #### Quiet time insights 
 
@@ -51,14 +51,14 @@ Focus time Insights are available on the **Protect time** page on Viva Insights 
 
 This feature also lets you configure your quiet time settings to match your needs during the initial setup or after setup. 
 
-![Screenshot that shows the settings for quiet time.](/viva/insights/images/mya/reference/mya-retire-quiet-time-settings2.png)
+![Screenshot that shows the settings for quiet time.](/viva/insights/images/mya/reference/mya-retire-quiet-time-settings4.png)
 
 
 #### Meeting habits
 
 Meeting habits highlight your meeting habits or practices. You can switch between the **Habits** view and the **Meetings** view on the **Effective meetings** page of Viva Insights app in Teams and on the web.  The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. The **Meetings** view shows details about all the meetings on your calendar over the past four weeks.
 
-![Screenshot that shows Meeting habits insights.](/viva/insights/images/mya/reference/mya-retire-meeting-habits1.png)
+![Screenshot that shows Meeting habits insights.](/viva/insights/images/mya/reference/mya-retire-meeting-habits2.png)
 
 ### Settings
 
@@ -74,7 +74,7 @@ You can also access these settings through the Viva Insights app in Teams or on 
 
 On the **Setting** page’s **Privacy** tab, you can opt out of the Digest email by switching the **Viva Digest Email** toggle off. To opt back in, switch the toggle on.
 
-![Screenshot that shows Digest insights.](/viva/insights/images/mya/reference/mya-retire-privacy-settings2.png)
+![Screenshot that shows Digest insights.](/viva/insights/images/mya/reference/mya-retire-digest.png)
 
 ##### Briefing
 
