@@ -21,7 +21,10 @@ The Microsoft Viva Insights Outlook add-in is automatically installed for your o
 
 You can confirm that the Viva Insights Outlook add-in is installed by looking in the "Services and add-ins" list for your organization in the Microsoft 365 admin center.
 
-**To confirm the installation**
+## To confirm the installation
+
+>[!Note]
+>If you're a targeted release customer, you might see a new admin experience. To learn how to assign roles through this new experience, refer to [Using the new admin center](../../advanced/setup-maint/new-admin-center.md#to-confirm-installation-of-the-outlook-add-in).
 
 1. [Sign in to Microsoft 365](https://support.microsoft.com/office/where-to-sign-into-microsoft-365-for-business-e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account.
 2. Select the link to the [Microsoft 365 admin center](https://aka.ms/admincenter).

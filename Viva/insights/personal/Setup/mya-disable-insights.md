@@ -19,7 +19,9 @@ audience: Admin
 You can use the following steps to disable the Microsoft Viva Insights Outlook add-in for your entire organization through the Microsoft 365 admin center.
 
 >[!Note]
->You must be an Microsoft 365 admin to perform these steps.
+>You need to be an Microsoft 365 admin to perform these steps.
+>
+> If you're part of the Targeted Release program, you might see a new admin experience. To learn how to disable the add-in through this new experience, refer to [Using the new admin center](../../advanced/setup-maint/new-admin-center.md#manage-default-settings). 
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
 2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center.  

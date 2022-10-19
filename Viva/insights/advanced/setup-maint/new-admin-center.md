@@ -18,7 +18,7 @@ audience: Admin
 # Using the new admin center
 
 >[!Note]
-> This article is intended for [Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365) customers. Some functionality is introduced gradually to organizations that have set up the targeted release options in Microsoft 365. If you're not part of the Targeted Release program:
+> This article is intended for targeted release customers. Some functionality is introduced gradually to organizations that have set up the targeted release options in Microsoft 365. If you're not part of the Targeted Release program:
 >
 >* You might not yet see this feature or it might look different than what is described in this article. Features are subject to change. 
 > * You should follow our regular applicable setup directions (for example, for assigning user roles, read [Assign user roles](assign-user-roles.md)).
@@ -82,3 +82,7 @@ Use the Viva admin page to change your organization’s default Briefing email s
 This option opens a pane on the right side of your screen. If you want everyone in your organization to get the email by default, select the checkbox. If you don’t, deselect the checkbox. Individuals can opt in or out of Briefing emails in their personal settings.
 
 ![Screenshot that shows the Briefing email default settings pane.](../images/briefing-checkbox.png)
+
+### To confirm installation of the Outlook add-in
+
+To confirm that the Viva Insights Outlook add-in is installed for your organization, select Settings > Integrated apps. Then, look or search for the Viva Insights Outlook add-in in the list of apps.
