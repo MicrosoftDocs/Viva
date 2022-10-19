@@ -27,7 +27,13 @@ With the new admin center, you as an admin can initiate setup, deployment, and m
 
 ## To access Viva Insights settings
 
-Go to the Viva [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences).
+Go to the Viva [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences). To access the Viva Insights admin page, select the Viva Insights option within the list of Viva offerings.
+
+![Screenshot that shows the Viva Insights admin options highlighted in the list of Viva offerings.](../images/choose-insights.png)
+
+>[!Note]
+>Some of the directions below—[Assign licenses](#assign-licenses) and [Manage the Briefing email](#manage-the-briefing-email)—take place on the main **Microsoft Viva** admin page, not the **Viva Insights** admin page.
+
 
 ## Manager, leader, and advanced insights
 
@@ -47,6 +53,11 @@ To assign Viva Insights roles in the updated admin experience:
 1. Select **Add users** or **Add groups**.
 1. Select users(s) or groups(s), then select **Add**.
 ![Screenshot that shows the Add users option with three names.](../images/assign-users.png)
+
+### Manage settings in the advanced insights app
+
+Under **Add-on Plan**, select **Manage privacy, data, and manager settings in Advanced Insights**. This option brings you to the advanced insights app’s admin portal. Complete your privacy setup, upload or connect HR data, and determine manager access here. For more information about setting up advanced insights, refer to our [advanced insights setup documentation](setup.md).
+
 
 ## Personal insights
 
@@ -85,4 +96,4 @@ This option opens a pane on the right side of your screen. If you want everyone 
 
 ### To confirm installation of the Outlook add-in
 
-To confirm that the Viva Insights Outlook add-in is installed for your organization, select Settings > Integrated apps. Then, look or search for the Viva Insights Outlook add-in in the list of apps.
+To confirm that the Viva Insights Outlook add-in is installed for your organization, select **Settings > Integrated apps**. Then, look or search for the Viva Insights Outlook add-in in the list of apps. To turn the add-in on or off by default, refer to [Manage default settings](#manage-default-settings).
