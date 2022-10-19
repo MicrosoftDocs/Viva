@@ -39,11 +39,11 @@ The select MyAnalytics functionality we describe below will continue to be avail
 
 [Focus time booking](../teams/viva-insights-protect-time.md#schedule-focus-time) helps you block regular time by scheduling up to four hours every day to focus. You can access the focus time configuration settings by selecting the ellipses (**…**) at the top right of the Viva Insights app, selecting **Settings**, then selecting **Protect time** from the left pane. You can also access these settings by selecting **View focus plan preferences** on the **Focus time insights** card.
 
-![Screenshot that shows the settings for focus plan.](/viva/insights/images/mya/reference/mya-retire-protect-time.png)
+![Screenshot that shows the settings for focus plan.](/viva/insights/images/mya/reference/mya-retire-protect-time1.png)
 
 Focus time Insights are available on the **Protect time** page on Viva Insights app in Teams and on the web. These insights show the amount of focus time kept in the current month and the amount of focus time booked for the following week. 
 
-![Screenshot that shows the Book focus time options on the Protect time page.](/viva/insights/images/mya/reference/mya-retire-protect-time-page.png)
+![Screenshot that shows the Book focus time options on the Protect time page.](/viva/insights/images/mya/reference/mya-retire-protect-time-page1.png)
 
 #### Quiet time insights 
 
@@ -51,7 +51,7 @@ Focus time Insights are available on the **Protect time** page on Viva Insights 
 
 This feature also lets you configure your quiet time settings to match your needs during the initial setup or after setup. 
 
-![Screenshot that shows the settings for quiet time.](/viva/insights/images/mya/reference/mya-retire-quiet-time-settings.png)
+![Screenshot that shows the settings for quiet time.](/viva/insights/images/mya/reference/mya-retire-quiet-time-settings1.png)
 
 
 #### Meeting habits
@@ -82,7 +82,7 @@ Select the **Setting** page’s **Briefing** tab to find your Briefing email set
 
 You’ll also be able to use a new Briefing email setting to personalize your favorite and snooze preferences. Selecting **Favorite** allows you to prioritize a particular card in your future Briefing emails; selecting **Snooze** allows you to de-prioritize a particular card in your future Briefing emails.
 
-![Screenshot that shows Briefing email settings.](/viva/insights/images/mya/reference/mya-retire-briefing.png)
+![Screenshot that shows Briefing email settings.](/viva/insights/images/mya/reference/mya-retire-briefing1.png)
 
 ##### Outlook add-in
 
@@ -99,7 +99,7 @@ These Viva Insights Outlook add-in settings that currently only exist in the add
 
     * **Productivity inline suggestions**: Viva Insights displays Productivity inline suggestions on emails and meetings in Outlook to help book focus time, manage tasks, and more. 
 
-    ![Screenshot that shows Lunch hours, Schedule send suggestions, and Productivity inline suggestions settings.](/viva/insights/images/mya/reference/mya-retire-protect-time-setting-3.png)
+    ![Screenshot that shows Lunch hours, Schedule send suggestions, and Productivity inline suggestions settings.](/viva/insights/images/mya/reference/mya-retire-protect-time-setting-3-1a.png)
 
 ### Opt-out
 
