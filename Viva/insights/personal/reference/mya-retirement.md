@@ -51,7 +51,7 @@ Focus time Insights are available on the **Protect time** page on Viva Insights 
 
 This feature also lets you configure your quiet time settings to match your needs during the initial setup or after setup. 
 
-![Screenshot that shows the settings for quiet time.](/viva/insights/images/mya/reference/mya-retire-quiet-time-settings4.png)
+![Screenshot that shows the settings for quiet time.](/viva/insights/images/mya/reference/mya-retire-quiet-time-settings5.png)
 
 
 #### Meeting habits
@@ -99,7 +99,7 @@ These Viva Insights Outlook add-in settings that currently only exist in the add
 
     * **Productivity inline suggestions**: Viva Insights displays Productivity inline suggestions on emails and meetings in Outlook to help book focus time, manage tasks, and more. 
 
-    ![Screenshot that shows Lunch hours, Schedule send suggestions, and Productivity inline suggestions settings.](/viva/insights/images/mya/reference/mya-retire-protect-time-setting-3-1a.png)
+    ![Screenshot that shows Lunch hours, Schedule send suggestions, and Productivity inline suggestions settings.](/viva/insights/images/mya/reference/mya-retire-lunch.png)
 
 ### Opt-out
 
