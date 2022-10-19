@@ -58,7 +58,7 @@ This feature also lets you configure your quiet time settings to match your need
 
 Meeting habits highlight your meeting habits or practices. You can switch between the **Habits** view and the **Meetings** view on the **Effective meetings** page of Viva Insights app in Teams and on the web.  The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. The **Meetings** view shows details about all the meetings on your calendar over the past four weeks.
 
-![Screenshot that shows Meeting habits insights.](/viva/insights/images/mya/reference/mya-retire-meeting-habits.png)
+![Screenshot that shows Meeting habits insights.](/viva/insights/images/mya/reference/mya-retire-meeting-habits1.png)
 
 ### Settings
 
@@ -74,7 +74,7 @@ You can also access these settings through the Viva Insights app in Teams or on 
 
 On the **Setting** page’s **Privacy** tab, you can opt out of the Digest email by switching the **Viva Digest Email** toggle off. To opt back in, switch the toggle on.
 
-![Screenshot that shows Meeting habits insights.](/viva/insights/images/mya/reference/mya-retire-privacy-settings.png)
+![Screenshot that shows Meeting habits insights.](/viva/insights/images/mya/reference/mya-retire-privacy-settings1.png)
 
 ##### Briefing
 
