@@ -20,20 +20,20 @@ manager: anirudhbajaj
 
 As Viva Insights in Teams and on the web is becoming the central place for personal insights, we’re retiring the MyAnalytics dashboard. As a part of this retirement, we’re doing two things:
 
-1. Redirecting users from Digest email and MyAnalytics dashboard to Viva Insights web app 
+1. Redirecting users from Digest email and MyAnalytics dashboard to the Viva Insights web app
 1. Offering unified settings in the Viva Insights app in Teams and on the web for worldwide and Government Community Cloud (GCC) users
 
-## What's changing? 
+## What's changing?
 
-The MyAnalytics dashboard, in its current form, won’t be accessible after mid-December 2022. Instead, you’ll be redirected to the Viva Insights web app to discover key work-pattern insights. We’re streamlining your experience between the dashboard and the Viva Insights app in Teams and on the web. Here’s how: 
+The MyAnalytics dashboard, in its current form, won’t be accessible after mid-December 2022. Instead, you’ll be redirected to the Viva Insights web app to discover key work-pattern insights. We’re streamlining your experience between the dashboard and the Viva Insights app in Teams and on the web. Here’s how:
 
 ### Redirection
 
-Right now, you access the MyAnalytics web dashboard through https://myanalytics.microsoft.com/, https://myanalytics-gcc.microsoft.com/, or through links in the Viva Digest email (like if you wanted to dive deeper into your work pattern insights) and Outlook add-in. After this change, we’ll automatically redirect you to https://insights.viva.office.com/ or https://gcc.insights.viva.office.com/. You’ll also be able to find the Viva Insights web app in the Microsoft 365 app launcher on office.com.
+Right now, you access the MyAnalytics web dashboard through https://myanalytics.microsoft.com/, https://myanalytics-gcc.microsoft.com/, or through links in the Viva Digest email and Outlook add-in (like if you wanted to dive deeper into your work pattern insights). After this change, we’ll automatically redirect you to https://insights.viva.office.com/ or https://gcc.insights.viva.office.com/. You’ll also be able to find the Viva Insights web app in the Microsoft 365 app launcher on office.com.
 
 ### Feature availability
 
-The following select MyAnalytics functionality will continue to be available as a part of the Viva Insights apps in Teams and web. In the future, additional work-pattern insights from MyAnalytics will be highlighted alongside productivity and wellbeing experiences in the Viva Insights apps in Teams and web to support building better work habits.
+The select MyAnalytics functionality we describe below will continue to be available as part of the Viva Insights app in Teams and web. In the future, we'll highlight additional work-pattern insights from MyAnalytics alongside productivity and wellbeing experiences in the Viva Insights app in Teams and web to support building better work habits.
 
 #### Focus time booking and insights
 
@@ -41,7 +41,7 @@ The following select MyAnalytics functionality will continue to be available as 
 
 ![Screenshot that shows the settings for focus plan.](/viva/insights/images/mya/reference/mya-retire-protect-time.png)
 
-Focus time Insights are available on the **Protect Time** page on Viva Insights app in Teams and on the web. These insights show the amount of focus time kept in the current month and the amount of focus time booked for the following week. 
+Focus time Insights are available on the **Protect time** page on Viva Insights app in Teams and on the web. These insights show the amount of focus time kept in the current month and the amount of focus time booked for the following week. 
 
 ![Screenshot that shows the Book focus time options on the Protect time page.](/viva/insights/images/mya/reference/mya-retire-protect-time-page.png)
 
@@ -62,13 +62,13 @@ Meeting habits highlight your meeting habits or practices. You can switch betwee
 
 ### Settings
 
-A unified settings experience will be available in the Viva Insights app in Teams and on the web. These unified settings will let you modify Digest email settings, Briefing email settings, some MyAnalytics settings, and Viva Insights Outlook add-in settings. Here are a few more details about these settings:
+A unified settings experience will be available in the Viva Insights app in Teams and on the web. With these unified settings, you can modify Digest email settings, Briefing email settings, some MyAnalytics settings, and Viva Insights Outlook add-in settings. Here are a few more details about these settings:
 
 #### Digest and Briefing emails 
 
-When you select the settings modification link within the semi-monthly Digest emails or the daily Briefing email, you’ll be redirected to the relevant email setting on Viva Insights web app. Currently, you’re directed to the email settings on the MyAnalytics web dashboard. 
+When you select the settings modification link within the semi-monthly Digest emails or the daily Briefing email, you’ll be redirected to the relevant email setting on Viva Insights web app. Currently, you’re directed to the email settings on the MyAnalytics web dashboard.
 
-You can also access these settings through the Viva Insights app in Teams or on the web by going to the Settings page.
+You can also access these settings through the Viva Insights app in Teams or on the web by going to the **Settings** page.
 
 ##### Digest
 
@@ -86,13 +86,13 @@ You’ll also be able to use a new Briefing email setting to personalize your fa
 
 ##### Outlook add-in
 
-These Viva Insights Outlook add-in settings that currently only exist in the add-in experience will now also be available on the **Settings** page on Viva Insights app in Teams and on the web:
+These Viva Insights Outlook add-in settings that currently only exist in the add-in experience will now also be available in the Viva Insights app in Teams and on the web:
 
-* On the **Privacy** tab:
+* On the **Settings > Privacy** tab:
 
     * **Insights Outlook Add-in** toggle: Use this toggle to opt in and out of the Outlook add-in experience.
 
-* On the **Protect time** tab:
+* On the **Settings > Protect time** tab:
     * **Lunch hours**: Set up a recurring calendar event for your lunch time. Viva Insights uses this setting to improve recommendations for booking focus time and meetings. 
 
     * **Schedule send suggestions**: Viva Insights offers these suggestions to help users schedule email delivery at a time that aligns with working hours. 
@@ -107,7 +107,7 @@ Right now, the ability to opt out of the Digest email and Outlook add-in exists 
 
 ## When will these changes happen?
 
-The above changes will roll out between 11/21/2022 and 12/12/2022 (worldwide and GCC). You can continue to access Personal insights documentation at [Personal insights introduction](../introduction.md).
+The above changes will roll out between November 21, 2022, and December 12, 2022 (worldwide and GCC). You can continue to access Personal insights documentation at [Personal insights introduction](../introduction.md).
 
 ## What do I need to do to prepare?
 
