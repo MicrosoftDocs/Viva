@@ -58,10 +58,10 @@ Track the current sync status, last successful sync time, ingestion logs, and tr
 
 The My Learning tab helps users take control of their learning journey. Users will be able to track assignments, recommendations, bookmarks, recent history, and completed courses on this page.
 
--**Recommended to you**: Recommendations from your peers will show up here.
+- **Recommended to you**: Recommendations from your peers will show up here.
 
--**Bookmarks**: Content bookmarked by the user will be shown here.
+- **Bookmarks**: Content bookmarked by the user will be shown here.
 
--**Recently viewed**: The user's 20 most recently viewed items will be shown under this tab. The most recently viewed item is shown first.
+- **Recently viewed**: The user's 20 most recently viewed items will be shown under this tab. The most recently viewed item is shown first.
 
--**Completed**: Courses completed by the user will show under this tab.
+- **Completed**: Courses completed by the user will show under this tab.
