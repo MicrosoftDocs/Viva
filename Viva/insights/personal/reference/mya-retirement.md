@@ -39,11 +39,11 @@ The select MyAnalytics functionality we describe below will continue to be avail
 
 [Focus time booking](../teams/viva-insights-protect-time.md#schedule-focus-time) helps you block regular time by scheduling up to four hours every day to focus. You can access the focus time configuration settings by selecting the ellipses (**…**) at the top right of the Viva Insights app, selecting **Settings**, then selecting **Protect time** from the left pane. You can also access these settings by selecting **View focus plan preferences** on the **Focus time insights** card.
 
-![Screenshot that shows the settings for focus plan.](/viva/insights/images/mya/reference/mya-retire-protect-time1.png)
+![Screenshot that shows the settings for focus plan.](/viva/insights/images/mya/reference/mya-retire-protect-time-focus.png)
 
 Focus time Insights are available on the **Protect time** page on Viva Insights app in Teams and on the web. These insights show the amount of focus time kept in the current month and the amount of focus time booked for the following week. 
 
-![Screenshot that shows the Book focus time options on the Protect time page.](/viva/insights/images/mya/reference/mya-retire-protect-time-page1.png)
+![Screenshot that shows the Book focus time options on the Protect time page.](/viva/insights/images/mya/reference/mya-retire-protect-time-page2.png)
 
 #### Quiet time insights 
 
@@ -51,7 +51,7 @@ Focus time Insights are available on the **Protect time** page on Viva Insights 
 
 This feature also lets you configure your quiet time settings to match your needs during the initial setup or after setup. 
 
-![Screenshot that shows the settings for quiet time.](/viva/insights/images/mya/reference/mya-retire-quiet-time-settings1.png)
+![Screenshot that shows the settings for quiet time.](/viva/insights/images/mya/reference/mya-retire-quiet-time-settings2.png)
 
 
 #### Meeting habits
@@ -74,7 +74,7 @@ You can also access these settings through the Viva Insights app in Teams or on 
 
 On the **Setting** page’s **Privacy** tab, you can opt out of the Digest email by switching the **Viva Digest Email** toggle off. To opt back in, switch the toggle on.
 
-![Screenshot that shows Meeting habits insights.](/viva/insights/images/mya/reference/mya-retire-privacy-settings1.png)
+![Screenshot that shows Digest insights.](/viva/insights/images/mya/reference/mya-retire-privacy-settings2.png)
 
 ##### Briefing
 
