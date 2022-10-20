@@ -38,117 +38,115 @@ highlightedContent:
       itemType: video
       url: https://www.youtube.com/playlist?list=PLXtHYVsvn_b-P97FRm0LZ3Y6xQrlpkW4r
 
-
-# productDirectory section (optional)
-productDirectory:
+# tools section (optional)
+tools:
+  title: Explore Microsoft Viva # < 60 chars (optional)
   items:
     # Card
     - title: Microsoft Viva Topics
       # imageSrc should be square in ratio with no whitespace
       imageSrc: media/logos/topics-launch-c-64.svg
-      links:
-        - url: /viva/topics/
-          text: Get started
-        - url: /viva/topics/set-up-topic-experiences
-          text: Setup
-        - url: /training/paths/m365-viva-topics/
-          text: Learning path - Get started with Microsoft Viva Topics
-        - url: https://resources.techcommunity.microsoft.com/viva-topics/
-          text: Viva Topics resource center
-        - url: https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332
-          text: End user help & training
+      url: /viva/topics/
     # Card
     - title: Microsoft Viva Insights
       imageSrc: media/logos/insights-launch-c-64.svg
-      links:
-        - url: /viva/insights/introduction
-          text: Get started
-        - url: /viva/insights/setup/setup-intro
-          text: Setup
-        - url: /viva/insights/personal/introduction
-          text: Personal insights
-        - url: /viva/insights/use/myteam
-          text: Manager insights
-        - url: /viva/insights/use/viva-insights-my-org
-          text: Leader insights
-        - url: /viva/insights/index-orig
-          text: Advanced insights
-
+      url: /viva/insights/introduction
     # Card
     - title: Microsoft Viva Connections
       imageSrc: media/logos/connections-launch-c-64.svg
-      links:
-        - url: /viva/connections/viva-connections-overview
-          text: Get started
-        - url: /viva/connections/guide-to-setting-up-viva-connections
-          text: Setup
-        - url: /training/paths/m365-extend-viva-connections
-          text: Learning path - Extend Microsoft Viva Connections
-        - url: /sharepoint/dev/spfx/viva/overview-viva-connections
-          text: Extensibility
-        - url: https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b
-          text: End user help & training
+      url: /viva/connections/viva-connections-overview
     # Card
     - title: Microsoft Viva Learning
       imageSrc: media/logos/learning-launch-c-64.svg
-      links:
-        - url: /viva/learning/
-          text: Get started
-        - url: /viva/learning/set-up-viva-learning
-          text: Setup
-        - url: /viva/learning/content-sources-365-admin-center
-          text: Manage content sources          
-        - url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
-          text: End user help & training
-
+      url: /viva/learning/
     # Card
     - title: Microsoft Viva Goals
       imageSrc: media/logos/goals-launch-c-64.svg
-      links:
-        - url: /viva/goals/intro-to-ms-viva-goals
-          text: Get started
-        - url: /viva/goals/log-in-create-and-join-organizations
-          text: Setup
-        - url: /training/paths/viva-goals-get-started
-          text: Learning path - Get started with Viva Goals
-        - url: /training/paths/okr-leadership
-          text: Learning path - OKR leadership program
-        - url: https://go.microsoft.com/fwlink/?linkid=2193540
-          text: End user help & training
-          
+      url: /viva/goals/intro-to-ms-viva-goals
     # Card
     - title: Microsoft Viva Engage
       imageSrc: media/logos/engage-launch-c-64.svg
-      links:
-        - url: /viva/engage/overview
-          text: Get started
-        - url: /viva/engage/setup
-          text: Setup
-        - url: https://support.microsoft.com/office/930c86f1-e1e2-4e45-a66a-ce8faca71a21
-          text: End user help & training
-        - url: https://aka.ms/VivaEngage/Resources
-          text: Adoption resources
-    
+      url: /viva/engage/overview
     # Card
     - title: Microsoft Viva Sales
       imageSrc: media/logos/viva-logoicon.svg
-      links:
-        - url: /Viva/sales/introduction
-          text: Get started
-        - url: /Viva/sales/install-viva-sales
-          text: Setup
-        - url: https://go.microsoft.com/fwlink/p/?linkid=2197685
-          text: End user help & training
-        
-    # Card
-    - title: Solutions for your business
-      imageSrc: /office/media/icons/lightbulb-idea-capture-blue.svg
-      links:
-        - url: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
-          text: Get started with Microsoft Viva
-        - url: /viva/solutions/viva-for-the-hybrid-workplace
-          text: Use Microsoft Viva in the hybrid workplace
-        - url: /viva/solutions/introduction
-          text: Solve common business problems with accelerators
-        - url: /viva/solutions/incorporate-learning
-          text: Incorporate learning into your organization
+      url: /Viva/sales/introduction
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 4 subsections
+  sections:
+    - title: Experiences # < 60 chars (optional)
+      items:
+        # Card
+        - title: Connection
+          summary: Keep everyone informed, included, and inspired.  Viva Engage and Viva Amplify
+          url: index
+        # Card
+        - title: Insight
+          summary: Improve productivity and wellbeing with actionable insights. Viva Insights and Viva Pulse
+          url: index
+        # Card
+        - title: Purpose
+          summary: Align people's work to teach and organization goals. Viva Goals
+          url: index
+        # Card
+        - title: Growth
+          summary: Help employees learn, grow, and succeed. Viva Topics and Viva Learning
+          url: index
+        # Card
+        - title: Sales
+          summary: Find role-specific guidance for your Sales team. Viva sales
+          url: index
+    - title: More resources  # < 60 chars (optional)
+      items:
+        # Card
+        - title: End user training
+          links:
+          - text: Viva Topics
+            url: https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332
+          - text: Viva Connections
+            url: https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b
+          - text: Viva Learning
+            url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
+          - text: Viva Goals
+            url: https://go.microsoft.com/fwlink/?linkid=2193540
+          - text: Viva Engage
+            url: https://support.microsoft.com/office/930c86f1-e1e2-4e45-a66a-ce8faca71a21
+          - text: Viva Sales
+            url: https://go.microsoft.com/fwlink/p/?linkid=2197685
+        # Card
+        - title: Learning paths
+          links:
+            - text: Get started with Microsoft Viva Topics
+              url: /training/paths/m365-viva-topics/
+            - text: Learning path - Extend Microsoft Viva Connections
+              url: /training/paths/m365-extend-viva-connections
+            - text: Learning path - Get started with Viva Goals
+              url: /training/paths/viva-goals-get-started
+            - text: Learning path - OKR leadership program
+              url: /training/paths/okr-leadership
+        # Card
+        - title: Adoption
+          links:
+            - text: Viva Topics resource center
+              url: https://resources.techcommunity.microsoft.com/viva-topics/
+            - text: Viva Engage
+              url: https://aka.ms/VivaEngage/Resources
+        # Card
+        - title: Extensibility
+          links:
+            - text: Viva Connections
+              url: /sharepoint/dev/spfx/viva/overview-viva-connections
+        # Card
+        - title: Solutions for your business
+          links:
+            - text: Get started with Microsoft Viva
+              url: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
+            - text: Use Microsoft Viva in the hybrid workplace
+              url: /viva/solutions/viva-for-the-hybrid-workplace
+            - text: Solve common business problems with accelerators
+              url: /viva/solutions/introduction
+            - text: Incorporate learning into your organization
+              url: /viva/solutions/incorporate-learning
