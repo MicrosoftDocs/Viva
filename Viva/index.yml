@@ -121,11 +121,11 @@ additionalContent:
           links:
             - text: Get started with Microsoft Viva Topics
               url: /training/paths/m365-viva-topics/
-            - text: Learning path - Extend Microsoft Viva Connections
+            - text: Extend Microsoft Viva Connections
               url: /training/paths/m365-extend-viva-connections
-            - text: Learning path - Get started with Viva Goals
+            - text: Get started with Viva Goals
               url: /training/paths/viva-goals-get-started
-            - text: Learning path - OKR leadership program
+            - text: OKR leadership program
               url: /training/paths/okr-leadership
         # Card
         - title: Adoption
