@@ -99,6 +99,10 @@ items:
           href: use-ms-teams-integration.md
         - name: Share OKR updates in chats
           href: ms-teams-messaging-extension.md
+- name: Slack
+  items:
+        - name: Slack Integration
+          href: slack-integration.md
 - name: Integrations
   items:
     - name: Viva Goals integrations overview
