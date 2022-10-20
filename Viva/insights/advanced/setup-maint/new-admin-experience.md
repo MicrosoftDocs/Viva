@@ -63,7 +63,7 @@ Under **Add-on Plan**, select **Manage privacy, data, and manager settings in Ad
 
 ### Manage default settings
 
-To manage default personal insights settings for your organization, select **Manage settings for Viva Insights**. On the next page, you’ll see a checklist containing the following features:
+To manage default personal insights settings for your organization, select **Manage settings for Viva Insights**. This opens a pane on the right side of your screen, where you’ll see a checklist containing the following features:
 
 * Insights dashboard
 * Digest email
