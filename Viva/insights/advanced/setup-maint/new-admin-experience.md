@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Assign user roles for Viva Insights
-description: Learn how to assign user roles for Viva Insights 
+title: Using the new admin experience
+description: Learn how to use the new admin center experience for Viva Insights 
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
