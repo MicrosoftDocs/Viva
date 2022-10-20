@@ -52,7 +52,7 @@ To assign Viva Insights roles in the updated admin experience:
 ![Screenshot that shows the Viva Insights admin page with options in the Add-on Plan section highlighted.](../images/assign-admin-leader-analyst.png)
 1. Select **Add users** or **Add groups**.
 1. Select users(s) or groups(s), then select **Add**.
-![Screenshot that shows the Add users option with three names.](../images/assign-users.png)
+![Screenshot that shows the Add users option with three names.](../images/assign-users1.png)
 
 ### Manage settings in the advanced insights app
 
