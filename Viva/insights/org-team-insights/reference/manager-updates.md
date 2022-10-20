@@ -36,11 +36,11 @@ While end-users can modify the teams that result from Azure AD data, they can't 
 
 ## What's changing?
 
-Rather than using a data source for organization insights and another for team insights, Viva insights will only use one: ***the HR file uploaded by the tenant admin***. Also, the product will no longer support end-user modifications to team members. Ending support for end-user-modified teams helps make sure there's only one organizational structure—that is, the one explicitly confirmed by the tenant admin.
+Rather than using a data source for organization insights and another for team insights, Viva Insights will only use one: ***the HR file uploaded by the tenant admin***. Also, the product will no longer support end-user modifications to team members. Ending support for end-user-modified teams helps make sure there's only one organizational structure—that is, the one explicitly confirmed by the tenant admin.
 
 ## Why are we making these changes?
 
-We're making these changes to keep a single, consistent organizational structure across Viva insights features.
+We're making these changes to keep a single, consistent organizational structure across Viva Insights features.
 
 ## How might these changes impact me?
 
