@@ -46,27 +46,27 @@ productDirectory:
     - title: Connection
       # imageSrc should be square in ratio with no white space
       imageSrc: /office/media/icons/collaborate-blue.svg
-      summary: Keep everyone informed, included, and inspired. Key Viva apps - Viva Engage and Viva Amplify
+      summary: Keep everyone informed, included, and inspired. <br>Viva Engage and Viva Amplify
       url: index.yml
     # Card
     - title: Insight
       imageSrc: /office/media/icons/usage-report-blue.svg
-      summary: Improve productivity and wellbeing with actionable insights. Key Viva apps - Viva Insights and Viva Pulse
+      summary: Improve productivity and wellbeing with actionable insights. <br>Viva Insights and Viva Pulse
       url: index.yml
     # Card
     - title: Purpose
       imageSrc: /office/media/icons/connector-blue.svg
-      summary: Align people's work to teach and organization goals. Key Viva app - Viva Goals
+      summary: Align people's work to teach and organization goals. <br>Viva Goals
       url: index.yml
     # Card
     - title: Growth
       imageSrc: /office/media/icons/users-group.svg
-      summary: Help employees learn, grow, and succeed. Key Viva apps - Viva Topics and Viva Learning
+      summary: Help employees learn, grow, and succeed. <br>Viva Topics and Viva Learning
       url: index.yml
     # Card
     - title: Sales
       imageSrc: /office/media/icons/trend-graph-blue.svg
-      summary: Find role-specific guidance for your Sales team. Key Viva app - Viva sales
+      summary: Find role-specific guidance for your Sales team. <br>Viva sales
       url: index.yml
 
 # tools section (optional)
