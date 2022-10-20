@@ -39,7 +39,7 @@ Go to the Viva [admin page](https://admin.microsoft.com/Adminportal/Home?source=
 
 ### Assign licenses
 
-Before you can assign roles, you’ll need to assign licenses. If you don’t have licenses assigned, you’ll be directed to the **Licenses** page. You can also get to this page later by selecting the **Manage licenses** button on the Viva admin page, then selecting **Microsoft Viva**.
+Before you can assign roles, you’ll need to assign licenses. If you don’t have licenses assigned, go to the **Licenses** page by selecting the **Manage licenses** button on the Viva admin page, then selecting **Microsoft Viva**.
 
 Make sure the right individuals or groups are assigned a Viva license. Select a group or user on this page to make changes.
 
