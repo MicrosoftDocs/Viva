@@ -54,7 +54,7 @@ productDirectory:
       summary: "Key Viva apps: Viva Insights and Viva Pulse"
       url: index.yml
     # Card
-    - title: Purpose - Align people's work to teach and organization goals
+    - title: Purpose - Align people's work to team and organization goals
       imageSrc: /office/media/icons/connector-blue.svg
       summary: "Key Viva apps: Viva Goals"
       url: index.yml
