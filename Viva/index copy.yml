@@ -43,30 +43,30 @@ productDirectory:
   title: Experiences # < 60 chars (optional)
   items:
     # Card
-    - title: Connection
+    - title: Connection - Keep everyone informed, included, and inspired. 
       # imageSrc should be square in ratio with no white space
       imageSrc: /office/media/icons/collaborate-blue.svg
-      summary: "Keep everyone informed, included, and inspired. Key Viva apps: Viva Engage and Viva Amplify"
+      summary: "Key Viva apps: Viva Engage and Viva Amplify"
       url: index.yml
     # Card
-    - title: Insight
+    - title: Insight - Improve productivity and wellbeing with actionable insights. 
       imageSrc: /office/media/icons/usage-report-blue.svg
-      summary: "Improve productivity and wellbeing with actionable insights. Key Viva apps: Viva Insights and Viva Pulse"
+      summary: "Key Viva apps: Viva Insights and Viva Pulse"
       url: index.yml
     # Card
-    - title: Purpose
+    - title: Purpose - Align people's work to teach and organization goals. 
       imageSrc: /office/media/icons/connector-blue.svg
-      summary: "Align people's work to teach and organization goals. Key Viva apps: Viva Goals"
+      summary: "Key Viva apps: Viva Goals"
       url: index.yml
     # Card
-    - title: Growth
+    - title: Growth - Help employees learn, grow, and succeed. 
       imageSrc: /office/media/icons/users-group.svg
-      summary: "Help employees learn, grow, and succeed. Key Viva apps: Viva Topics and Viva Learning"
+      summary: "Key Viva apps: Viva Topics and Viva Learning"
       url: index.yml
     # Card
-    - title: Sales
+    - title: Sales - Role-specific guidance for your Sales team. 
       imageSrc: /office/media/icons/trend-graph-blue.svg
-      summary: "Find role-specific guidance for your Sales team. Key Viva apps: Viva sales"
+      summary: "Key Viva apps: Viva sales"
       url: index.yml
 
 # tools section (optional)
