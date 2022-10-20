@@ -17,6 +17,8 @@ items:
         href: discover-more-about-each-viva-module.md   
     - name: Set up Microsoft Viva
       href: setup-microsoft-viva.md
+    - name: The new Microsoft Viva admin experience
+      href: new-microsoft-viva-admin-experience.md
     - name: Microsoft Viva admin roles and tasks
       href: microsoft-viva-admin-roles.md
     - name: Overview of Microsoft Viva security and compliance
