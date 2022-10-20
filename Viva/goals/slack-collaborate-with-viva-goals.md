@@ -18,9 +18,7 @@ search.appverid:
 description: "Learn how to integrate your OKRs in Viva Goals with Slack"
 ---
 
-# Slack Integration 
-
-## Introduction to Slack integration
+# Introduction to Slack integration
 
 Slack users can now leverage the Viva Goals app for Slack to bring OKRs into their daily tooling. The Viva Goals app enables quick and seamless integration with Slack so that your team can add and update their OKRs without ever having to leave Slack. Additionally, notifications in Slack ensure you never miss an OKR update again. 
 

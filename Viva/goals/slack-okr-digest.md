@@ -15,12 +15,10 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Learn how to integrate your OKRs in Viva Goals with Slack"
+description: "Learn about OKR Digests in Viva Goals"
 ---
 
-# Slack Integration 
-
-## OKR Digest Updates 
+# OKR Digest Updates 
 
 Get summarized OKR progress and status updates for the company, teams or individuals delivered to emails or slack channels to stay current on what's happening in your company.
 

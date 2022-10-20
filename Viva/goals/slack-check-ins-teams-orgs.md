@@ -1,5 +1,5 @@
 ---
-title: Check-in reminders for your team and organization 
+title: Check-in reminders and OKR updates
 ms.reviewer: 
 ms.author: rasanders
 author: rasanders
@@ -18,9 +18,7 @@ search.appverid:
 description: "Learn how to check-in on your OKRs in Viva Goals with Slack"
 ---
 
-# Slack Integration 
-
-## Check-in reminders for your team and organization
+# Check-in reminders for your team and organization
 
 Depending upon the OKR check-in cadences, team manager or admin can set all the team members receive check-in reminders for OKRs in Slack and allow them to update on OKRs and projects directly from Slack 
   

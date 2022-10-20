@@ -18,9 +18,7 @@ search.appverid:
 description: "Learn how to share OKRs summaries in Slack with Viva Goals"
 ---
 
-# Slack Integration 
-
-## Share OKR summary via Slack  
+# Share OKR summary via Slack  
 
 Owners or managers of OKRs always want to share their OKRs with their team or to update executives on their progress. With the help of the Viva Goals Slack integration, users can share a list of OKRs with another user via Slack or in a public Slack channel with a note or can ask a colleague to update an OKR.
 
