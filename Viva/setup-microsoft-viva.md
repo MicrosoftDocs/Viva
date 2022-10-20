@@ -21,13 +21,17 @@ search.appverid:
 description: "Learn how to set up the Microsoft Viva suite"
 ---
 # Set up Microsoft Viva
-Microsoft Viva is an organizing layer for employee experiences that puts people at the center, uniting them to share knowledge, skills, and connections in the natural flow of the workday. It delivers personalized and actionable insights when and where they’re needed in Teams, SharePoint, and other Microsoft 365 services. 
 
-Microsoft Viva consists of four modules: Viva Topics, Viva Insights, Viva Learning, and Viva Connections. To set up the whole suite, you’ll set up each module individually.
- 
-### Start setting up
+Microsoft Viva is an organizing layer for employee experiences that puts people at the center, uniting them to share knowledge, skills, and connections in the natural flow of the workday. It delivers personalized and actionable insights when and where they’re needed in Teams, SharePoint, and other Microsoft 365 services.
 
-To jump right in and starting setting up, you'll have to be a Microsoft admin and be signed in to your account. 
+Microsoft Viva consists of several modules including Viva Topics, Viva Insights, Viva Learning, Viva Connections, Viva Sales, Viva Goals, and Viva Engage. To set up the whole suite, you’ll set up each module individually.
+
+> [!NOTE]
+> If you are in the Targeted Release program, the new Viva admin experience is being rolled out gradually. You may see a different experience than what is described in this article. See [The new Microsoft Viva admin experience](/Viva/new-microsoft-viva-admin-experience).
+
+## Start setting up
+
+To jump right in and starting setting up, you'll have to be a Microsoft admin and be signed in to your account.
 
 [Go directly to the the Microsoft Viva admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences)
 
@@ -36,19 +40,19 @@ On the module page, select the **Go to setup guide** button, or in the case of V
 
 ![Viva admin page](media/viva-setup-page.png)
 
-
-
 Or, if you want to set up later, you can follow these steps:
-1.	Go to the Microsoft 365 admin center
-2.	Select **Setup** on the left navigation
-3.	Select the **Microsoft Viva** tile
-4.	At the bottom of the page, select the module you want to set up.
-5.	Select the **Go to setup guide** button, or in the case of Viva Topics, select the **Get started** button to go to the Setup wizard that guides you through the process.
+
+1. Go to the Microsoft 365 admin center
+2. Select **Setup** on the left navigation
+3. Select the **Microsoft Viva** tile
+4. At the bottom of the page, select the module you want to set up.
+5. Select the **Go to setup guide** button, or in the case of Viva Topics, select the **Get started** button to go to the Setup wizard that guides you through the process.
 
 ### More information
+
 If you want to learn more about each module and how you will set them up first, here are some resources:
 
-**Viva Learning** 
+**Viva Learning**
 
 Accelerate skilling and growth – Your employees can easily discover and share everything from training courses to micro-learning content.
 
