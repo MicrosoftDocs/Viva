@@ -189,7 +189,11 @@ Viva Learning receives this EmployeeID in a zip package, which is used for S
 
 Viva Learning and SAP SuccessFactors integration allows seamless authentication (SSO) and in-app playback. Users can access SAP SuccessFactors content inline within Viva Learning instead of launching content in a browser.  
 
+![Screenshot that shows the Azure Active Directory SSO integration with SAP SuccessFactors](../media/learning/viva-learning-sfsf-sso-content-details-page.png)
+
 Content classified as online and instructor-led with online are consumed within Viva Learning and other content classifications are launched in the browser.
+
+![Screenshot that shows how inline content is consumed within Viva Learning](../media/learning/inline-content-consumption.png)
 
 ### Pre-requisite for enabling in-app playback and SSO
 
