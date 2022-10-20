@@ -33,6 +33,8 @@ To do this, Microsoft Viva Goals applies the power of the objectives and key res
 
 Because Viva Goals is a part of Microsoft Viva, it integrates into the employee experience, empowering teams to be their best from anywhere.
 
+To login to Viva Goals, visit: https://goals.microsoft.com/
+
 ## Get started with Microsoft Viva Goals
 
 The resources in this section will help you learn more about Viva Goals and how it can help you.
@@ -75,4 +77,3 @@ The resources in this section help your users learn how to use and manage Viva G
 |Learn how to use review dashboards     |[Review dashboard](/viva/goals/review-dashboard)         |
 |Learn how to use projects|[Projects](/viva/goals/projects)         |
 |Learn how to integrate your other tools| [Viva Goals integrations overview](/viva/goals/integrations-overview)        |
-
