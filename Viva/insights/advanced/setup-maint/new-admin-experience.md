@@ -15,7 +15,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Using the new admin center
+# Using the new admin experience
 
 >[!Note]
 > This article is intended for targeted release customers. Some functionality is introduced gradually to organizations that have set up the targeted release options in Microsoft 365. If you're not part of the Targeted Release program:
@@ -23,7 +23,7 @@ audience: Admin
 >* You might not yet see this feature or it might look different than what is described in this article. Features are subject to change. 
 > * You should follow our regular applicable setup directions (for example, for assigning user roles, read [Assign user roles](assign-user-roles.md)).
 
-With the new admin center, you as an admin can initiate setup, deployment, and manage licenses for all generally available Viva apps from a central location in the Microsoft 365 Admin Center. This article talks about how to perform tasks specific to Viva Insights. To learn more about the new experience in general, refer to [The new Microsoft Viva admin experience](/viva/new-microsoft-viva-admin-experience).
+With the new admin experience, you as an admin can initiate setup, deployment, and manage licenses for all generally available Viva apps from a central location in the Microsoft 365 Admin Center. This article talks about how to perform tasks specific to Viva Insights. To learn more about the new experience in general, refer to [The new Microsoft Viva admin experience](/viva/new-microsoft-viva-admin-experience).
 
 ## To access Viva Insights settings
 
