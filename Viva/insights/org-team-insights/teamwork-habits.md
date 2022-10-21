@@ -23,7 +23,7 @@ You can see insights and suggested actions based on your personal habits in **Te
 
 To learn how to create a team, refer to [Manage your team](#manage-your-team). 
 
-:::image type="content" source="../images/wpa/use/teamwork-habits-small.png" alt-text="Screenshot that shows the Teamwork habits page." lightbox="../images/wpa/use/teamwork-habits.png":::
+:::image type="content" source="../images/wpa/use/teamwork-habits-small1.png" alt-text="Screenshot that shows the Teamwork habits page." lightbox="../images/wpa/use/teamwork-habits-expanded.png":::
 
 ## Data privacy
 

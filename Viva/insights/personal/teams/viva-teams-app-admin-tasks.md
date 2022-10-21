@@ -73,6 +73,9 @@ As the admin, use the following steps to change the setting for meeting effectiv
 
 #### To configure the default state for a tenant
 
+>[!Note] 
+> If you're a targeted release customer, you might see a new admin experience. To learn how configure access through this new experience, refer to [Using the new admin experience](../../advanced/setup-maint/new-admin-experience.md#personal-insights). 
+
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
 3. In the left pane, expand **Settings**, and then select **Org Settings**.

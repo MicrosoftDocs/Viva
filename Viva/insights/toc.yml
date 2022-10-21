@@ -5,11 +5,11 @@ items:
       href: introduction.md
       items:
       - name: Privacy and data protection
-        href: Privacy/data-protection-intro.md
+        href: advanced/privacy/privacy.md
       - name: Environment requirements    
         href: advanced/setup-maint/environment-requirements.md
       - name: Setup introduction
-        href: setup/setup-intro.md
+        href: advanced/setup-maint/setup-overview.md
       - name: Personal insights
         items:
           - name: Introduction
@@ -199,12 +199,8 @@ items:
         items:
         - name: Introduction to advanced insights
           href: advanced/introduction-to-advanced-insights.md
-        - name: Privacy
-          href: advanced/privacy/privacy.md
         - name: Setup and maintenance
           items:
-          - name: Setup overview
-            href: advanced/setup-maint/setup-overview.md
           - name: Set up advanced insights
             href: advanced/setup-maint/setup.md
           - name: Maintenance

@@ -26,7 +26,7 @@ Thank you for trying Microsoft Viva Insights. Welcome to your new personal Home 
 >[!NOTE]
 >You can also open Viva Insights through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
 
-:::image type="content" source="../../Images/mya/use/viva-insights-home1.png" alt-text="Screenshot that shows the Viva Insights home page." lightbox="../../Images/mya/use/viva-insights-home-expanded.png":::
+![Screenshot that shows the Viva Insights Home page.](../teams/Images//app-home-ic2.png)
 
 Viva Insights gives you insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
