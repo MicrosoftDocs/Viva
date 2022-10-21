@@ -45,7 +45,7 @@ When you opt in to schedule send suggestions, you'll get an unlimited number of 
 
 ![Screenshot that shows the Recommended for you Delay delivery card.](./images/be-rec-delay-delivery1.png)
 
-Learn more about schedule send suggestions in [Schedule send suggestions](../Use/delay-delivery.md).
+Learn more about schedule send suggestions in [Schedule send suggestions](../use/schedule-send.md).
 
 ## Related topics
 
