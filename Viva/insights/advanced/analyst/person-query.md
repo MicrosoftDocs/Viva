@@ -158,18 +158,18 @@ Let’s say you wanted to run a Custom Person query to find out how often manage
 
 Here’s how you might do that:
 
-1. Set up your query:
+1. Set up your query.
     1.  **Query name**: Give your query a custom name by typing in something like “AfterHoursWest.”
     1. **Time period**: Select **Last 6 months**.
     1. **Auto-Refresh**: You just want to have this run once, so leave the **Auto-Refresh** box deselected.
     1. **Description**: Other analysts in your organization might want to know more about this query, so give it a brief description.
     1. **More settings**: You want this query to be grouped by month, not week. Select **More settings**, then change **Group by to Month**.
-2. Now you’re ready to add metrics:
+2. Add metrics.
     1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
     1. Because you want to add metrics about collaboration after hours, expand the **After hours collaboration** metric category. 
     1. Select the **After hours email hours** and **After hours instant messages** metrics.
     1. Select the **Add to query** button.
-3. Next, specify the employees you want to analyze.
+3. Specify the employees you want to analyze.
     1. Under **Select which employees you want to include in the query**, leave the "Is Active" filter set to “true.“
     1. Select **Add condition**.
     1. Select **Organizational data**.
@@ -179,12 +179,12 @@ Here’s how you might do that:
         1. Leave the **Operator** at “=.”
         1. If you want, you can use the search bar to help find titles with “Manager.” Select Manager, Sales manager, and Design manager from the dropdown list.
     1. Check the **Total employees** against the **Measured employees**. If this number seems off, adjust your conditions above.
-4. Now you can choose the employee attributes you want to include in your output file.
+4. Choose the employee attributes you want to include in your output file.
     1. Under **Select which employee attributes you want to include in the query**, select the **Select attributes** button.
     1. From the right pane, select **PopulationType**.
     1. Select the **Add to query** button.
-5. It’s time to run the query. On the upper right of the screen, select the **Run button**.
-6. After the query successfully runs, you can find its results in the **Query results** page. To:
+5. Run the query. On the upper right of the screen, select the **Run button**.
+6. After the query successfully runs, find its results in the **Query results** page. To:
     1. Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
     1. **Edit**, **Edit query name**, **Clone**, **Favorite**, or **Delete** the query: Select the ellipses to the right of the **Downloads** column, then select the appropriate choice. 
 
