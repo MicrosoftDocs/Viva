@@ -17,7 +17,7 @@ audience: Admin
 
 # Access query results and modify existing queries
 
-In the advanced insights app Analyst experience, the **Query results** page lists all the results available for your organization. In addition to seeing basic information about each query, you can:
+In the advanced insights app's Analyst experience, the **Query results** page lists all the results available for your organization. In addition to seeing basic information about each query, use this page to:
 
 * Create a copy of (clone) a query.
 * Edit, rename, and delete a query.
@@ -29,7 +29,7 @@ This article talks about each of these capabilities, and it also provides some i
 
 ## Permissions
 
-The **Insights Analyst** role for the advanced insights app is required to view, download, rename, edit, delete, favorite, or clone query results.
+To view, download, rename, edit, delete, favorite, or clone query results, you need to have the **Insights Analyst** role assigned.
 
 >[!Important]
 >Only the analyst who originally ran the query can edit, rename, or delete its results. Other analysts in the organization can view, favorite, and clone results.
@@ -55,14 +55,13 @@ If the analyst who ran the query wants to run this query again later, they can s
 >[!Note]
 >Other analysts in the organization can see a query is running, but they can’t stop it.
 
-
 #### Success
 
-When a query successfully runs, you’ll see a green checkmark within a green circle labeled **Success**.
+When a query successfully runs, you’ll see a green checkmark within a green circle labeled **Success**. If you ran the query, you can now edit, delete, or rename it. All other analysts can now clone or favorite it.
 
 ![Screenshot that shows a query's Success status.](../images/query-results-status-success.png)
 
-If you ran the query, you can now edit, delete, or rename it. All other analysts can now clone or favorite it.
+
 
 #### Failed
 
@@ -82,9 +81,7 @@ There are some predefined views on the **Query results** page:
 
 ### Setting the query to auto-refresh
 
-If you ran a query and want it to recur on a certain schedule, you can set the **Auto-refresh** toggle key to **On**.
-
-Analysts who didn’t run a query can’t set it to auto-refresh.
+If you ran a query and want it to recur on a certain schedule, you can set the **Auto-refresh** toggle key to **On**. Analysts who didn’t run a query can’t set it to auto-refresh.
 
 ### More options
 
@@ -98,12 +95,10 @@ Let’s explore these options in more detail.
 
 *Applies to: analyst who ran the query*
 
-To change a query name, select the **Edit query name** option.
+To change a query name, select the **Edit query name** option. After you’ve successfully renamed your query, you’ll receive a notification in the upper right corner of your screen.
 
 >[!Important]
 >All query names need to be unique. You’ll receive an error if the query name you enter already exists.
-
-After you’ve successfully renamed your query, you’ll receive a notification in the upper right corner of your screen.
 
 #### View query
 
