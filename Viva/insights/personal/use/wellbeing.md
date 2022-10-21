@@ -44,7 +44,7 @@ For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, a
 * **Be a thoughtful coworker!** Establishing quiet time with no meetings or email can lead to better teamwork:
 
   * For "inform" type emails, condense the emails and status updates into daily or weekly digests. This practice reduces the overall noise and randomization caused by email overload.
-  * Use [schedule send suggestions](viva/insights/personal/use/schedule-send.md) to schedule email delivery when the recipients are within their working hours. Limit late-night and early-morning email to urgent email only, to cut through the noise.
+  * Use [schedule send suggestions](../personal/use/schedule-send.md) to schedule email delivery when the recipients are within their working hours. Limit late-night and early-morning email to urgent email only, to cut through the noise.
   * Turn off notifications on your phone and computer when you are trying to focus.
 
 * **Be respectful of people's time**:  
