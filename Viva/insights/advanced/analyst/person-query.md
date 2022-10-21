@@ -1,6 +1,6 @@
 ---
 title: Person query
-description: Learn how to run a Custom Person query in the Microsoft Viva Insights advanced insights app
+description: Learn how to run a custom Person query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -14,7 +14,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Create a Custom Person query
+# Create a custom Person query
 
 >[!Tip]
 > You can find a demo video, download sample results, and go through a **Show me how** explanation while you’re building your query. Select these options just above **Query setup**.
