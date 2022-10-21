@@ -84,7 +84,7 @@ If you ran a query and want it to recur on a certain schedule, you can set the *
 
 When you select the **More options** ellipses—located in the far-right column of the **Query results** page—you’ll see a few different options based on whether you ran the query or are another analyst in the organization: **Edit query name**, **Edit query**, **Clone query**, **Favorite**, and **Delete query**.
 
-![Screenshot that shows a query's Failed status.](../images/query-results-contextual-menu.png)
+![Screenshot that shows the More options contextual menu.](../images/query-results-contextual-menu.png)
 
 Let’s explore these options in more detail.
 
