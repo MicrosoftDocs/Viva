@@ -19,7 +19,7 @@ audience: Admin
 
 ## About custom Person queries
 
-The custom Person query analyzes data from the point of view of each individual in the organization. This method  creates a lot of flexibility in analyzing data. For example, you can learn:
+The custom Person query analyzes data from the point of view of each individual in the organization. This method  creates flexibility in analyzing data. For example, you can learn:
 
 * How time use varies by different organizational attributes.
 * How specific subgroups in the organization spend their time.
@@ -29,17 +29,17 @@ The custom Person query analyzes data from the point of view of each individual 
 
 Each query returns one row per person, per period.
 
-Your results will include any organizational data attributes in the latest available organizational data. You can use those organizational attributes to further summarize the custom Person query results and create powerful analyses that compare and contrast  collaboration of different groups in the organization.
+Your results include any organizational data attributes in the latest available organizational data. You can use those organizational attributes to further summarize the custom Person query results and create powerful analyses that compare and contrast collaboration of different groups in the organization.
 
 ### What custom Person queries do
 
-A custom Person query:
+With a custom Person query, you can:
 
-* Lets you compare activities and attributes across the organization at the person level, such as:
+* Compare activities and attributes across the organization at the person level, like:
     * Time-use metrics.
     * Organizational attributes.
-* Helps you investigate and answer specific business questions.
-* Gives you the flexibility to look at data from multiple perspectives and generate powerful insights.
+* Investigate and answer specific business questions.
+* Look at data from multiple perspectives and generate powerful insights.
 
 ### When to use a custom Person query
 
@@ -66,7 +66,7 @@ Refer to [Person query](./person-query.md) for step-by-step instructions on runn
 
 ## Time limit for querying data
 
-The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a rolling window. This means that, after you have 27 months of Microsoft 365 data, as the data is refreshed each week, the 27-month extent of data that you can query advances by one week to include only the preceding 27 months.
+You can only run queries on data that's no older than 27 months, and this 27-month period is a rolling window. Here's what we mean: after you have 27 months of Microsoft 365 data, and as the data refreshes each week, your 27 weeks of data available to query advances by one week to include *only* the 27 months before.
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 
@@ -79,7 +79,7 @@ You can create custom queries, open and edit a query you’ve previously run, or
 >[!Caution]
 >Editing a query overwrites existing results. To keep a query’s existing results, clone it instead.
 
-When you create a new query or edit or clone an existing query, you can select the metrics to include and customize. You can also use conditions and condition groups to narrow the results and focus in on specific data.
+When you create a new query or edit or clone an existing query, you can select which metrics you want to include. You can also use conditions and condition groups to narrow your results and focus in on specific data.
 
 ## Videos
 
