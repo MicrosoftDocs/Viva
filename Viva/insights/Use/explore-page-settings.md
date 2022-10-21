@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore the stats page settings
 description: Describes the page settings for Explore the stats in Viva Insights
 author: madehmer

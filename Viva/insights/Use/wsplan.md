@@ -46,7 +46,7 @@ Before you can use the tool, confirm with your IT admin that you can install and
 * **Anaconda** - Use to install and manage the following required versions of Python and Jupyter Notebook. See [Anaconda](https://www.anaconda.com/products/individual#windows) to install it. During the installation, select to **Register Anaconda as your default for Python**.
 * **Python** - Latest available or version 3.3 or later is installed and you have some knowledge on how to use it.
 * **Jupyter Notebook** - This open-source application is installed and you have some knowledge on how to use it because it is required to run the Workspace Collaboration Optimizer.
-* **Advanced insights with Viva Insights** - Have [the app set up](../setup/set-up-workplace-analytics.md) with an analyst role to create the query data for the interaction file.
+* **Advanced insights with Viva Insights** - Have [the app set up](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) with an analyst role to create the query data for the interaction file.
 
 ## Input files
 
@@ -218,4 +218,4 @@ A4. Check the following, which might be causing the error.
 ## Related topics
 
 * [Workspace Collaboration Optimizer Readme](https://github.com/microsoft/workspace-optimizer/blob/main/README.md)
-* [Set up Advanced insights](../setup/set-up-workplace-analytics.md)
+* [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

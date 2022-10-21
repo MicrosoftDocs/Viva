@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Microsoft Viva Insights setup
 description: Learn what's required to set up Microsoft Viva Insights 
 author: lilyolason
@@ -19,7 +18,7 @@ audience: Admin
 
 Although the Microsoft 365 admin and the Viva Insights admin do most of these steps, others in your organization help make decisions that relate to setup.
 
-**Prerequisites** - See [Environment requirements](/viva/insights/Setup/Environment-Requirements?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn about Viva Insights licenses and other related requirements.
+**Prerequisites** - See [Environment requirements](./environment-requirements.md) to learn about Viva Insights licenses and other related requirements.
 
 ## Setup steps
 

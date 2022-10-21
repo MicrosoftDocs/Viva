@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,FOLLOW
 title: De-identified data and Viva Insights
 description: De-identified data in Microsoft Viva Insights
 author: madehmer
@@ -11,7 +11,6 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-ROBOTS: NOINDEX,NOFOLLOW
 manager: scott.ruble
 audience: Admin
 ---
