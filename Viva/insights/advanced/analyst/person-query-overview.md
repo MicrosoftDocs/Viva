@@ -65,9 +65,7 @@ Refer to [Person query](./person-query.md) for step-by-step instructions on runn
 
 ## Time limit for querying data
 
-You can only run queries on data that's no older than 27 months, and this 27-month period is a rolling window. Here's what we mean: after you have 27 months of Microsoft 365 data, and as the data refreshes each week, your 27 weeks of data available to query advances by one week to include *only* the 27 months before.
-
-The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
+The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a rolling window. This means that, after you have 27 months of Microsoft 365 data, as the data is refreshed each week, the 27-month extent of data that you can query advances by one week to include only the preceding 27 months.
 
 ## Business scenario
 
