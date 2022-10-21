@@ -109,6 +109,9 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 
 ### To configure access for a tenant
 
+>[!Note] 
+> If you're a targeted release customer, you might see a new admin experience. To learn how to configure access for a tenant through this new experience, refer to [Using the new admin experience](../../advanced/setup-maint/new-admin-experience.md#manage-the-briefing-email).
+
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
@@ -120,23 +123,6 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 
    ![Briefing email access.](./images/be-admin.png)
 
-<!--### To configure access in PowerShell
-
-You can enable or disable the Briefing email for all users in your organization at the tenant level. Use the following Exchange Online PowerShell cmdlets to set the tenant default:
-
-  ```powershell
-  Set-OrganizationIntelligenceConfig [-BriefingEmailDefault [<"Opt-in" | "Opt-out">]
-  ```
-
-   * If you set **BriefingEmailDefault** parameter to **Opt-out**, the Briefing email will be Off by default for your organization. Users can then opt-in at [cortana.office.com](https://cortana.office.com).
-   * If you set **BriefingEmailDefault** parameter to **Opt-in**, the Briefing email will be On by default for your organization. Users can then opt-out at [cortana.office.com](https://cortana.office.com). If no action is taken, this setting applies by default.
-
-To get the current state of the Briefing email setting, use:
-
-```powershell
-Get-OrganizationIntelligenceConfig
-```
--->
 ## Related topics
 
 * [Briefing email overview](be-overview.md)

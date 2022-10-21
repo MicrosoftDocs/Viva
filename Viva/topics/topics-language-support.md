@@ -6,12 +6,12 @@ manager: pamgreen
 audience: admin
 ms.reviewer: ninay
 ms.topic: article
-ms.prod: microsoft-365-enterprise
+ms.service: viva 
+ms.subservice: viva-topics
 search.appverid: 
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-topics
-ms.service: 
 localization_priority: Normal
 description: Find the languages available in Microsoft Viva Topics.
 
@@ -51,7 +51,7 @@ Viva Topics is available to customers worldwide. However, for processing and ind
 
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
-English|Spanish (coming soon)|French (coming soon)
-German (coming soon) |
+English|Spanish |French 
+German |
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).

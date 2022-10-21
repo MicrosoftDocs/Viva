@@ -1,16 +1,18 @@
 ---
 title: Set up Microsoft Viva Topics
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruthhollands
+author: ruthholls
+manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection: 
+- m365initiative-viva-topics
+- highpri
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
-    - MET150  
+- MET150  
 ms.localizationpriority:  medium
 description: Learn how to set up Microsoft Viva Topics.
 ---

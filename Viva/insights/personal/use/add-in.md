@@ -8,6 +8,7 @@ ms.localizationpriority: high
 ms.collection: 
 - m365initiative-viva-insights 
 - viva-insights-personal
+- highpri
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

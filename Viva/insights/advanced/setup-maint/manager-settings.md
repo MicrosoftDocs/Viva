@@ -37,17 +37,17 @@ Insights admins can access **Manager settings**. Before managers can access Vi
 :::image type="content" source="../images/manager-settings.png" alt-text="Screenshot of Manager settings page." lightbox="../images/manager-settings.png":::
 
 1. In **Manager settings**, check the box to allow managers with the minimum team size access to their team data in Viva Insights.
-![Manager settings](../images/manager-settings-check-box.png)
+![Screenshot that shows the Manager settings page.](../images/manager-settings-check-box.png)
 1. Select either **All managers**, which allows all measured managers access, or **Select managers (upload .csv)**, which enables you to give specific managers access.
 
     ![Manager settings](../images/manager-settings-select-managers.png)
-    * If you chose **Select managers (upload .csv)**, you need to create a .csv file that lists the email addresses for the select managers, then select **Upload .csv** to upload that list. 
+    * If you chose **Select managers (upload .csv)**, you need to create a .csv file that lists the email addresses for the select managers, then select **Upload .csv** to upload this list. 
 
     If you're allowing all managers access, continue to step 3. If you're setting up access for select managers, select **Download currently enabled manual upload manager list .csv** to confirm which managers now have access. If an error occurs, like an invalid email or an unlicensed manager, the .csv file will show the error for that manager.
 
 3. In **Minimum team size**, you can change the minimum to a number more than 10 (the lowest allowed setting). This setting limits access to only those managers who have teams equal to or more than that number, which includes the manager in the team count.
 
-![Manager settings](../images/manager-settings-set-min-team-size.png)
+![Screenshot that shows Set team size option.](../images/manager-settings-set-min-team-size.png)
 
 4. Select **Save**.
 

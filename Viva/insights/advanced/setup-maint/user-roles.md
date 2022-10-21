@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Roles in Viva Insights
 description: Learn which roles can access which features in Viva Insights
 author: lilyolason
@@ -86,7 +85,7 @@ Consider the following personas when granting the different levels of access for
 
 ### Access to resources
 
-In the Microsoft 365 admin center, you can assign access rights to users by assigning roles to them. For general information on accessing resources, and for information on the specific methods of role assignment in Azure AD, see [Related topics](#related-topics).
+In the Microsoft 365 admin center, you can assign access rights to users by [assigning roles to them](assign-user-roles.md). For general information on accessing resources, and for information on the specific methods of role assignment in Azure AD, see [Related topics](#related-topics).
 
 ## Aspects of role assignment
 

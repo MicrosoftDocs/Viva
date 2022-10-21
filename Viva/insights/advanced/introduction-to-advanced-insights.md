@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+
 title: Introduction to advanced insights
 description: Get familiar with the new advanced insights app from Microsoft Viva Insights 
 author: lilyolason
