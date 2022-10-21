@@ -54,9 +54,9 @@ Redmond, Washington
 My working hours are 9:00 AM to 6:00 PM PT
 ```
 
-#### Delay delivery of after-hours email
+#### Schedule send of after-hours email
 
-Utilize [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#schedule-send-suggestions) to delay email delivery to your team when you send emails after hours or over the weekend.
+Utilize [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#schedule-send-suggestions) to schedule email delivery to your team when you send emails after hours or over the weekend.
 
 #### Create norm of scheduling focus time
 
