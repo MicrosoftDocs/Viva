@@ -99,6 +99,10 @@ items:
           href: use-ms-teams-integration.md
         - name: Share OKR updates in chats
           href: ms-teams-messaging-extension.md
+- name: Slack
+  items:
+        - name: Slack Integration
+          href: slack-integration.md
 - name: Integrations
   items:
     - name: Viva Goals integrations overview
@@ -106,6 +110,8 @@ items:
 
     - name: Viva Goals Integrations
       items:
+        - name: Azure Data Explorer Integration
+          href: azure-data-explorer-integration.md
         - name: Azure DevOps integration (ADO)
           href: azure-devops-integration.md
         - name: Amazon RedShift Integration
@@ -126,6 +132,8 @@ items:
           href: github-integration.md
         - name: GitLab Integration
           href: gitlab-integration.md
+        - name: Google Sheets Integration
+          href: gsheets-integration.md
         - name: Hubspot Integration
           href: hubspot-integration.md
         - name: Jira Integration
