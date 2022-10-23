@@ -40,7 +40,7 @@ If you want to include or exclude a specific list of sites, you can use the foll
 Site name,URL
 ```
 
-If you add sites using the site picker, they are added to the existing list of sites to include or exclude. If you upload a .csv file, it overwrites any existing list. If you have previously included or excluded specific sites, you and download the list as a .csv file, make changes, and upload the new list.
+If you add sites using the site picker, they are added to the existing list of sites to include or exclude. If you upload a .csv file, it overwrites any existing list. If you have previously included or excluded specific sites, you can download the list as a .csv file, make changes, and upload the new list.
 
 To choose sites for topic discovery
 
