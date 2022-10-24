@@ -285,6 +285,10 @@
         "redirect_url": "/viva/insights/advanced/reference/metrics",
         "redirect_document_id": false
       }
-    
+      {
+        "source_path": "viva/goals/slack-integration.md",
+        "redirect_url": "/viva/goals/slack-collaborate-with-viva-goals",
+        "redirect_document_id": false
+      }
     ]
 }
