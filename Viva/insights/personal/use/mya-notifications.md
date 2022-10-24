@@ -68,7 +68,7 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Schedule send suggestions
 
-When you're composing an email in Outlook, Schedule send suggestions shows you suggestions for scheduling email deliveries. Learn more about this feature and how to use it in [Schedule send suggestions](delay-delivery.md). 
+When you're composing an email in Outlook, Schedule send suggestions shows you suggestions for scheduling email deliveries. Learn more about this feature and how to use it in [Schedule send suggestions](schedule-send.md). 
 
 ## Suggested outstanding tasks
 

@@ -295,8 +295,6 @@ By default, Viva Insights initially collects, processes, and retains 13 months' 
 
 This means that Viva Insights will not have any collaboration data that is older than 27 months.
 
-Customers can file a request to initiate Viva Insights with less than 13 months of data. For this case, the minimum amount that can be collected is one month.
-
 ### Data retention after a license is removed
 
 If the Viva Insights license is removed from a user, Viva Insights retains that user's collaboration data that was collected during the period the license was assigned. Admins can continue to query the collaboration activity that this user participated in before they left.  The person's collaboration data will be deleted according to the overall retention policy that is described in Data retention for active tenants.
