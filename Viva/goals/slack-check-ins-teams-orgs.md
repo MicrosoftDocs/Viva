@@ -22,13 +22,13 @@ description: "Learn how to check-in on your OKRs in Viva Goals with Slack"
 
 Depending upon the OKR check-in cadences, team manager or admin can set all the team members receive check-in reminders for OKRs in Slack and allow them to update on OKRs and projects directly from Slack 
   
-:::image type="content" source="../media/goals/slack-images/check-in 1.png" alt-text="Screenshot of the Viva Goals check-in notification within Slack: an OKR needs to be updated." lightbox="../media/goals/slack-images/check-in 1.png":::
+:::image type="content" source="../media/goals/slack-images/check-in 1.png" alt-text="Screenshot of the Viva Goals check-in notification within Slack: an OKR needs to be updated.":::
 
-:::image type="content" source="../media/goals/slack-images/check-in proj.png" alt-text="Screenshot of the Viva Goals check-in notification within Slack: projects need to be updated." lightbox="../media/goals/slack-images/check-in proj.png":::
+:::image type="content" source="../media/goals/slack-images/check-in proj.png" alt-text="Screenshot of the Viva Goals check-in notification within Slack: projects need to be updated.":::
 
 ## Configure Slack workspace to receive OKR updates 
 
-As an admin, you can configure what OKR updates you’d like your team to be notified on.  To receive notification from OKR updates, Navigate to Admin > Integrations > Slack and click on **Manage**. 
+As an admin, you can configure what OKR updates you’d like your team to be notified for.  To receive notification from OKR updates, navigate to Admin > Integrations > Slack, and select **Manage**. 
 
 To set up notifications, click on **Add Notification**. In the pop-up that appears, choose: 
 
