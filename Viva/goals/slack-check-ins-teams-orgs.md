@@ -56,4 +56,4 @@ In the popup, you can also see how the check-in owner will be notified. The nudg
 
 For Slack integration enabled users, the nudge is received by the Viva Goals Slackbot in the following format. 
 
- :::image type="content" source="../media/goals/nudge 3.png" alt-text="Screenshot of a nudge notification from the Slackbot." lightbox="../media/goals/nudge 3.png":::
+ :::image type="content" source="../media/goals/slack-nudge-3.png" alt-text="Screenshot of a nudge notification from the Slackbot." lightbox="../media/goals/slack-nudge-3.png":::
