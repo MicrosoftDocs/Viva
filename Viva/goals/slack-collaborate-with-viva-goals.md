@@ -40,7 +40,7 @@ To link your Slack workspace with Viva Goals, navigate to Admin > Integrations >
 
 Once Viva Goals is connected to your Slack workspace, all team members will see the Viva Goals app under **Apps** where they can view, add, or update OKRs. 
 
-## Easily bring OKR and projects in the conversations 
+## Easily bring OKR and projects into conversations 
 
 With the help of the Slack integration for Viva Goals, users can access better OKR previews and provide additional context to conversations without switching tools. 
 
