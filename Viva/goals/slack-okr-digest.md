@@ -20,15 +20,15 @@ description: "Learn about OKR Digests in Viva Goals"
 
 # OKR Digest Updates 
 
-Get summarized OKR progress and status updates for the company, teams or individuals delivered to emails or slack channels to stay current on what's happening in your company.
+Get summarized OKR progress and status updates for the company, teams, or individuals delivered to emails or slack channels to stay current on what's happening in your company.
 
 **Follow a team or user**
 
-To start receiving digest updates, user must follow either a team or an individual user or a company. You can follow as many teams or individuals as you like by visiting the respective OKR dashboard page. 
+To start receiving digest updates, users must follow either a team or an individual user or a company. You can follow as many teams or individuals as you like by visiting the respective OKR dashboard page. 
 
 :::image type="content" source="../media/goals/slack-images/follow 1.png" alt-text="Screenshot of how to follow in Viva Goals." lightbox="../media/goals/slack-images/follow 1.png":::
 
-You can also add other users or slack channels as followers to ensure they receive digest updates for the company, team or individuals. Select the Followers button and click on the **Add follower** button or **Add** link. 
+You can also add other users or slack channels as followers to ensure they receive digest updates for the company, team, or individuals. Select the Followers button and click on the **Add follower** button or **Add** link. 
 
 :::image type="content" source="../media/goals/slack-images/follow 2.png" alt-text="Screenshot of how to add a follower in Viva Goals." lightbox="../media/goals/slack-images/follow 2.png":::
 
