@@ -44,7 +44,7 @@ Once Viva Goals is connected to your Slack workspace, all team members will see 
 
 With the help of the Slack integration for Viva Goals, users can access better OKR previews and provide additional context to conversations without switching tools. 
 
-:::image type="content" source="../media/goals/slack-images/preview 1.png" alt-text="Screenshot of a preview of a sample Viva Goals OKR shared on a Slack conversation." lightbox="../media/goals/slack-images/preview 1.png":::
+:::image type="content" source="../media/goals/slack-images/preview-1.png" alt-text="Screenshot of a preview of a sample Viva Goals OKR shared on a Slack conversation." lightbox="../media/goals/slack-images/preview-1.png":::
 
-:::image type="content" source="../media/goals/slack-images/preview 2.png" alt-text="Screenshot of a preview of a sample Viva Goals Project shared on a Slack conversation." lightbox="../media/goals/slack-images/preview 2.png":::
+:::image type="content" source="../media/goals/slack-images/preview-2.png" alt-text="Screenshot of a preview of a sample Viva Goals Project shared on a Slack conversation." lightbox="../media/goals/slack-images/preview-2.png":::
 

@@ -22,9 +22,9 @@ description: "Learn how to check-in on your OKRs in Viva Goals with Slack"
 
 Depending upon the OKR check-in cadences, team manager or admin can set all the team members receive check-in reminders for OKRs in Slack and allow them to update on OKRs and projects directly from Slack 
   
-:::image type="content" source="../media/goals/slack-images/check-in 1.png" alt-text="Screenshot of the Viva Goals check-in notification within Slack: an OKR needs to be updated.":::
+:::image type="content" source="../media/goals/slack-images/check-in-1.png" alt-text="Screenshot of the Viva Goals check-in notification within Slack: an OKR needs to be updated.":::
 
-:::image type="content" source="../media/goals/slack-images/check-in proj.png" alt-text="Screenshot of the Viva Goals check-in notification within Slack: projects need to be updated.":::
+:::image type="content" source="../media/goals/slack-images/check-in-proj.png" alt-text="Screenshot of the Viva Goals check-in notification within Slack: projects need to be updated.":::
 
 ## Configure Slack workspace to receive OKR updates 
 
@@ -40,7 +40,7 @@ To set up notifications, click on **Add Notification**. In the pop-up that appea
 
 All updates to a team's or user's OKRs and projects will be delivered to Slack as notifications depending on the admin notification settings for that team or user. 
 
-:::image type="content" source="../media/goals/slack-images/channel notification.png" alt-text="Screenshot of the Viva Goals notification within Slack." lightbox="../media/goals/slack-images/channel notification.png":::
+:::image type="content" source="../media/goals/slack-images/channel-notification.png" alt-text="Screenshot of the Viva Goals notification within Slack." lightbox="../media/goals/slack-images/channel-notification.png":::
 
 ## Nudge users to make check-in 
 
@@ -48,11 +48,11 @@ When an OKR or Project needs an update and you want to leave a comment specifica
 
 The **Nudge** option is available in the progress popover when you click on it. It will be visible to the users who are not the primary check-in owner of the OKR or project.
 
- :::image type="content" source="../media/goals/slack-images/nudge 1.png" alt-text="Screenshot of where to find the nudge button in Viva Goals." lightbox="../media/goals/slack-images/nudge 1.png":::
+ :::image type="content" source="../media/goals/slack-images/nudge-1.png" alt-text="Screenshot of where to find the nudge button in Viva Goals." lightbox="../media/goals/slack-images/nudge-1.png":::
 
 In the popup, you can also see how the check-in owner will be notified. The nudge will go out on Slack if the organization is integrated with Slack. 
 
- :::image type="content" source="../media/goals/slack-images/nudge 2.png" alt-text="Screenshot of a filled out nudge request." lightbox="../media/goals/slack-images/nudge 2.png":::
+ :::image type="content" source="../media/goals/slack-images/nudge-2.png" alt-text="Screenshot of a filled out nudge request." lightbox="../media/goals/slack-images/nudge-2.png":::
 
 For Slack integration enabled users, the nudge is received by the Viva Goals Slackbot in the following format. 
 
