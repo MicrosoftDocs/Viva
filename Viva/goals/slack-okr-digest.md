@@ -28,7 +28,7 @@ To start receiving digest updates, users must follow either a team or an individ
 
 :::image type="content" source="../media/goals/slack-images/follow 1.png" alt-text="Screenshot of how to follow in Viva Goals." lightbox="../media/goals/slack-images/follow 1.png":::
 
-You can also add other users or slack channels as followers to ensure they receive digest updates for the company, team or individuals. Select the Followers button and click on the **Add follower** button or **Add** link. 
+You can also add other users or slack channels as followers to ensure they receive digest updates for the company, team, or individuals. Select the Followers button and click on the **Add follower** button or **Add** link. 
 
 :::image type="content" source="../media/goals/slack-images/follow 2.png" alt-text="Screenshot of how to add a follower in Viva Goals." lightbox="../media/goals/slack-images/follow 2.png":::
 
