@@ -294,7 +294,11 @@
         "source_path": "viva/insights/personal/use/delay-delivery-1.md",
         "redirect_url": "/viva/insights/personal/use/schedule-send",
         "redirect_document_id": false
-      }
-    
-       ]
+      },
+      {
+        "source_path": "viva/goals/slack-integration.md",
+        "redirect_url": "/viva/goals/slack-collaborate-with-viva-goals",
+        "redirect_document_id": false
+      },
+    ]
 }
