@@ -220,8 +220,8 @@ If your organization already has a home site and you want to keep it as the land
 
 3.	Run `Set-SPOHomeSite-HomeSiteUrl <homesiteURL> - VivaConnectionsDefaultStart <$true/$false>`
 
-      - The parameter should be set to $false to use the new home experience as the default landing experience 
-      - The parameter should be set to $true to use a home site as the default landing experience 
+      - The parameter should be set to $false to use the new home experience as the default landing experience. 
+      - The parameter should be set to $true to use a home site as the default landing experience. 
 
 **Example:**
 <br>
