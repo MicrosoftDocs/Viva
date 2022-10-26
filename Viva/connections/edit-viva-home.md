@@ -205,6 +205,37 @@ If you have owner permissions or higher, you can give access to new people and c
 
 When end users in your organization view the Viva Connections landing experience for the first time, they will have the option to see a basic walkthrough tutorial that shows them how to engage with content and navigational elements. Help end user [see what else they can do in the home experience](https://go.microsoft.com/fwlink/?linkid=2208247). 
 
+
+
+## Choose the default landing experience for Viva Connections desktop
+If your organization already has a home site and you want to keep it as the landing experience for Viva Connections desktop, use the PowerShell command. This command can be applied at any time and will need to be manually reset if you choose to change the default landing experience. To run this cmdlet, you must be a site admin of the home site.
+
+1.	[Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+>[!NOTE]
+> - If you installed a previous version of the SharePoint Online Management Shell, go to Add, or remove programs and uninstall "SharePoint Online Management Shell."
+> -It may take up to 20 minutes to see the updated default landing experience.
+
+2.	Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
+3.	Run `Set-SPOHomeSite-HomeSiteUrl <homesiteURL> - VivaConnectionsDefaultStart <$true/$false>`
+
+   - The parameter should be set to $false to use the new home experience as the default landing experience 
+   - The parameter should be set to $true to use a home site as the default landing experience 
+
+**Example:**
+Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in this example.
+
+To set the default landing to the home site:
+
+Set-SPOHomeSite-HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true
+
+To set the default landing to the new Viva Connections home experience:
+
+Set-SPOHomeSite-HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false
+
+
+
 ## Learn more
 
 [More options coming soon for the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419) 
