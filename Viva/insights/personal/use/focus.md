@@ -17,6 +17,9 @@ audience: user
 
 # Focus
 
+>[!IMPORTANT]
+> The dashboard will be retired soon, but you'll still find focus content in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
+
 The Focus page on your personal insights [Dashboard](dashboard-2.md) shows weekly averages for the time you have available to focus and time spent collaborating with others in your network.
 
 :::image type="content" source="../../Images/mya/use/focus-dashboard1.png" alt-text="Screenshot of the Focus dashboard" lightbox="../../Images/mya/use/focus-dashboard-expanded.png":::

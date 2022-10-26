@@ -130,6 +130,11 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 
 ## To opt out
 
+>[!IMPORTANT]
+>The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
+>![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
+> [Read more about this change](../reference/mya-retirement.md).
+
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon at top right.
 
@@ -159,6 +164,11 @@ If you opt out of the Viva Insights Outlook add-in, you might also want to remov
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Viva Insights Outlook add-in.
 
 ## To opt in
+
+>[!IMPORTANT]
+>The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
+>![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
+> [Read more about this change](../reference/mya-retirement.md).
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon at top right.

@@ -20,6 +20,9 @@ audience: user
 
 # Viva Insights dashboard
 
+>[!IMPORTANT]
+> The dashboard will be retired soon, but you'll still find personal insights content and settings in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
+
 _**Applies to:** Viva Insights elements are available in varying levels to users of different Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
 Thank you for trying Viva Insights. Welcome to your new personalized dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
@@ -78,6 +81,10 @@ Educational insights give you work productivity and wellbeing tips and ideas, wh
 ## Settings
 
 Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work Week** section of **Settings**. You can access **Settings** at the bottom of the left pane.
+
+>[!IMPORTANT]
+>The dashboard will be retired soon. You can access your settings on the Viva Insights app in Teams or on the web by selecting **Try it now** on the banner message.
+>![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
 
 ![Screenshot that shows Settings on the left pane.](../../Images/mya/use/dashboard-settings-left-pane.png)
 

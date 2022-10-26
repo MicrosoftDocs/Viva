@@ -18,6 +18,9 @@ audience: user
 
 # Collaboration
 
+>[!IMPORTANT]
+> The dashboard will be retired soon, but you'll be able to access collaboration insights in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
+
 The Collaboration page on your personal insights [Dashboard](dashboard-2.md) helps you reflect on how effectively you spend your time in meetings, email, chats, and calls.
 
   ![Screenshot that shows the Viva Insights Collaboration page.](../../Images/mya/use/collaboration-dashboard.png)

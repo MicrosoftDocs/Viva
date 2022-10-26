@@ -17,6 +17,9 @@ audience: user
 
 # Personal wellbeing insights
 
+>[!IMPORTANT]
+> The personal insights dashboard will be retired soon, but you'll still find wellbeing content in your Viva Insights app in Teams and on the web. [Read more about this change](../reference/mya-retirement.md).
+
 The **Wellbeing** page on the [Dashboard](dashboard-2.md) shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
 ![Screenshot that shows the Wellbeing page of the dashboard.](../../Images/WpA/Use/wellbeingdashboard2.png)

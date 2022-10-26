@@ -21,6 +21,9 @@ Viva Insights presents you with insights and how you can use these insights to i
 
 * [Home](home-web.md) &ndash; You can access your dashboard from here and see personalized recommendations  to build better work habits.
 * [Dashboard](dashboard-2.md) &ndash; You can see statistics on how you've spent your time over the past month, productivity insights about your work habits, helpful suggestions for improvement, and explore your network, top collaborators, and collaboration activities.
+    >[!IMPORTANT]
+    > The dashboard will be retired soon, but you'll still find personal insights content in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
+
 * [Insights Outlook add-in](add-in.md) &ndash; The Insights Outlook add-in presents you with cards that report on aspects of your recent work experience and let you respond in various ways.
 * [Digests](email-digests-3.md) &ndash; You receive a weekly digest in your Outlook inbox that gives you highlights about your previous week.
 * [Inline suggestions](mya-notifications.md) &ndash; Inline suggestions are notifications that appear in Microsoft Outlook that can help boost your productivity by displaying useful suggestions and tips around managing email and running meetings.

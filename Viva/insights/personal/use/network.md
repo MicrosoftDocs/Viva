@@ -16,7 +16,10 @@ audience: user
 
 # Personal network insights
 
-The Network page on the [Dashboard](dashboard-2.md) shows how many people you actively connect with in the last month and gives you suggestions on how to improve connections with your most important contacts, such as your manager or your direct reports.
+>[!IMPORTANT]
+> The dashboard will be retired soon. You'll be able to access network insights in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
+
+The Network page on the [dashboard](dashboard-2.md) shows how many people you actively connect with in the last month and gives you suggestions on how to improve connections with your most important contacts, such as your manager or your direct reports.
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 

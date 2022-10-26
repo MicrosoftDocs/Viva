@@ -140,6 +140,9 @@ The processing of an employee's personal data ceases when they are opted out, wh
 
 ### How employees opt in or out
 
+>[!IMPORTANT]
+> The dashboard will be retired soon, but users can [opt out through their Viva Insights app in Teams or on the web](../use/home-web.md#opt-in-or-out-of-features), on the **Settings** page. [Read more about this change](../reference/mya-retirement.md). 
+
 End users can opt in or out of Viva Insights via the **Feature settings** menu in Microsoft 365, as shown in this example:
 
 :::image type="content" source="../../images/mya/use/dashboard-settings.png" alt-text="Screenshot that shows opening the Settings window" lightbox="../../images/mya/use/dashboard-settings-expanded.png":::

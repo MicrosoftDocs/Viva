@@ -80,13 +80,26 @@ The following graphic shows a scheduled message in Outlook for Windows.
 
 You can opt in or opt out of schedule send suggestions as many times as you want. When you turn *on* schedule send suggestions, Viva Insights aligns email delivery with your coworker's working hours.
 
-To make changes, use either your Viva Insights dashboard or your Viva Insights Outlook add-in.
+To make changes, use either your Viva Insights dashboard, your Viva Insights app in Teams or on the web, or your Viva Insights Outlook add-in.
 
-### With the dashboard
+### With the Viva Insights dashboard
+
+>[!IMPORTANT]
+>The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
+>![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
+> [Read more about this change](../reference/mya-retirement.md).
 
 In **Settings > Protect time**, switch the toggle for **Schedule send suggestions** to **On** or **Off**.
 
 ![Screenshot that shows the On/Off toggle in the Viva Insights dashboard settings.](../../Images/MyA/Use/schedule-send-dashboard.png)
+
+### With the Viva Insights app in Teams or on the web
+
+1. In the upper-right of any page, select the ellipses (**...**), then select **Settings**.
+1. Select **Briefing** on the left pane.
+1. Toggle the switch to unsubscribe. 
+
+Read more about settings in the app in [Configure Viva Insights](../teams/viva-teams-app-settings.md).
 
 ### With the Viva Insights Outlook add-in
 
