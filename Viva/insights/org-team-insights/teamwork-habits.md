@@ -1,7 +1,7 @@
 ---
 
-title: Teamwork habits in Viva Insights
-description: Learn about the Teamwork habits page in Microsoft Viva Insights app.
+title: Team insights in Viva Insights
+description: Learn about team insights in the Microsoft Viva Insights app.
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -15,11 +15,11 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Teamwork habits
+# Team insights
 
 ***Applies to**: Users who have a premium Microsoft Viva Insights license with an [applicable service plan](../personal/Overview/plans-environments.md)*
 
-You can see insights and suggested actions based on your personal habits in **Teamwork habits** within the Microsoft Viva Insights app. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
+You can see insights and suggested actions based on your personal habits in **Culture** within the Microsoft Viva Insights app. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
 
 To learn how to create a team, refer to [Manage your team](#manage-your-team). 
 
