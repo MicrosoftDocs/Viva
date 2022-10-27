@@ -147,7 +147,7 @@ You can connect to aggregated, auto-refreshed data from custom Person or Meeting
     ![Enter the app data connections.](../images/wpa/use/pbi-connect-viva.png)
 
     >[!Important]
-    > You need to append “wpa:” to the **Partition Identifier**. For example, if your partition identifier is “f016bc17-f743-4021-9d26-0a5dcb11fd4f”, you'd need to enter “wpa: f016bc17-f743-4021-9d26-0a5dcb11fd4f” as your **Partition Identifier**. 
+    > You need to append “wpa:” to the **Partition Identifier**. For example, if your partition identifier is “f016bc17-f743-4021-9d26-0a5dcb11fd4f”, you'd need to enter “wpa:f016bc17-f743-4021-9d26-0a5dcb11fd4f” in the **Partition Identifier** field. 
 
    * If you only enter a **Partition Identifier** and no **Query Name** or **Query Identifier**, you will get a general set of Person metrics for the Power BI reports. For details, see [Power BI Connector metrics](power-bi-metrics.md).
 
@@ -168,12 +168,12 @@ You can connect to aggregated, auto-refreshed data from custom Person or Meeting
     * In **Schema Type**, select:
         * **Pivoted (Default)** to load organizational attributes as individual columns.
         * **Unpivoted** to load organizational attributes as key-value pairs—for example, **AttributeName = Organization**, **AttributeValue = Finance**. 
-        * **Data granularity > Aggregated data (default)** to push queries to the database to get aggregated results. 
+   * **Data granularity > Aggregated data (default)** to push queries to the database to get aggregated results. 
 
 >[!Note] 
 >Row-level data isn't supported. If you want to load raw query results into Power BI, use the [OData connector](#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
-6. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](/power-bi/desktop-use-directquery).
+6. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](/power-bi/connect-data/desktop-use-directquery).
 
    * **DirectQuery** (*recommended*) – As you create Power BI visuals, the Connector will provide the aggregated data to support them.  
    * **Import** – Requires you to identify how you want to aggregate the data first. That data is then imported into Power BI and from there you can create your visualizations.  
