@@ -44,8 +44,14 @@ We're making these changes to keep a single, consistent organizational structure
 
 ## How might these changes impact me?
 
-* **If you're a manager** (that is, you have one or more people reporting directly to you in the company directory): Your team member list might look a little different, and you're more likely to see a change if you've edited or confirmed your team member list for team insights. If you currently have a team member who doesn't report directly to you in your team member list, they won't show up in your list after these changes take effect.
-* **If you're a non-manager** (that is, you don't have anyone reporting directly to you in the company directory): Because we no longer support end-user modifications to the team member list, you'll lose access to team insights features.
+You'll see different changes depending on whether you're a manager or non-manager.
+
+* **If you're a manager** (that is, you have one or more people reporting directly to you in the company directory): 
+    * Team member list: you're more likely to see a change if you've edited or confirmed your team member list for team insights. If you currently have a team member who doesn't report directly to you in your team member list, they'll stop appearing there.
+    * Digest emails: team members you added to your list, but who don't report directly to you, won't appear on the **Catch up with your team** card anymore in the Briefing email. Team insights will no longer appear on digest Digest emails.
+* **If you're a non-manager** (that is, you don't have anyone reporting directly to you in the company directory): 
+    * Team member list: because we no longer support end-user modifications to the team member list, you'll lose access to team insights features. 
+    * Briefing and Digest emails: team insights won't appear in your Digest email anymore, and you'll stop seeing the **Catch up with your Team** card in your daily Briefing email.
 
 ## When are these changes taking place?
 
