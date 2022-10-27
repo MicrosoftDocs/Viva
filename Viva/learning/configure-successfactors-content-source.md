@@ -132,7 +132,7 @@ To obtain the folder path:
 4. Select **Save** to activate SuccessFactors content in Microsoft Viva Learning. There may be a delay before the content is available in Viva Learning.
 
 5. Close out of the Viva Learning flyout and re-open it. If there are any issues, an error message will appear on the screen.
-To troubleshoot, close and re-open the flyout and select the learning source you are trying to enable to check the specific error fields.
+To troubleshoot, close and re-open the flyout.  Select the learning source you are trying to enable. Check the specific error fields.
 
 >[!Note]
 > SuccessFactors courses will start appearing in Viva Learning within 7 days of successful setup.
