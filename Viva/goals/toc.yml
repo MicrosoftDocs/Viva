@@ -101,8 +101,14 @@ items:
           href: ms-teams-messaging-extension.md
 - name: Slack
   items:
-        - name: Slack Integration
-          href: slack-integration.md
+        - name: Collaborate with Viva Goals in Slack 
+          href: slack-collaborate-with-viva-goals.md
+        - name: Check-in reminders and OKR updates
+          href: slack-check-ins-teams-orgs.md
+        - name: Share OKR summary via Slack
+          href: slack-share-okr-summary.md
+        - name: OKR Digest
+          href: slack-okr-digest.md
 - name: Integrations
   items:
     - name: Viva Goals integrations overview
