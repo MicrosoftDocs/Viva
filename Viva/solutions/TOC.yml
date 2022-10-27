@@ -35,8 +35,6 @@
     items:         
     - name: Data lake solutions
       items: 
-      - name: Viva Insights data lake solution
-        href: ./data-lakes/viva-insights.md
       - name: Microsoft Graph data lake solution
         href: ./data-lakes/microsoft-graph-data-connect.md
       - name: Data access automation

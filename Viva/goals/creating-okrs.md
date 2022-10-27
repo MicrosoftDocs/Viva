@@ -12,7 +12,8 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- highpri  
 search.appverid:
 - MET150
 description: "Learn how to define individual, team, and organization OKRs"
@@ -45,6 +46,8 @@ You can create an objective from:
 - The "Sample OKRs" template
 
 **To create an objective, follow these steps:**
+
+To login to Viva Goals, visit: https://goals.microsoft.com/
 
 1. Go to the individual, team, or organization that the objective is for. Select the **+** button.
 

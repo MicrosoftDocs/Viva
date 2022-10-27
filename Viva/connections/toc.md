@@ -31,6 +31,8 @@
 
 #### [Create a Dashboard in more than one language](create-multilingual-dashboard.md)
 
+#### [Use the Web link card to integrate content](use-the-link-card.md)
+
 ### [Feed]()
 
 #### [Embed videos in the Viva Connections Feed](video-news-links.md)

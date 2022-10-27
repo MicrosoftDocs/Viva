@@ -20,7 +20,7 @@ audience: Admin
 
 # Organization trends
 
-You can view organizational insights in **Organization trends** within the Microsoft Viva Insights app. These insights are available to users with either group manager access enabled or the **Insights Business Leader** role assigned. To learn more about assigning roles, refer to [Assign roles](../advanced/setup-maint/assign-user-roles.md)
+You can view organizational insights in **Organization trends** within the Microsoft Viva Insights app. These insights are available to users with either group manager access enabled or the **Insights Business Leader** role assigned. To learn more about assigning roles, refer to [Assign roles](../advanced/setup-maint/assign-user-roles.md).
 
 <!--[Assign roles for Microsoft Viva Insights](../setup/assign-user-roles.md).-->
 
@@ -33,7 +33,7 @@ As a qualifying people manager, Microsoft Viva Insights gives you visibility int
 >[!Note]
 >This reporting structure is defined by the organizational hierarchy confirmed by your company's Viva Insights administrator.
 
-You can use these insights to understand current team norms and take action to create positive change. For details, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md)
+You can use these insights to understand current team norms and take action to create positive change. For details, refer to [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md).
 
 ## Business leaders
 
@@ -51,7 +51,7 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 <!--[Assign roles](../setup/assign-roles-to-wpa-admins.md) for details.-->
 
-* Group manager access enables insights only covering the measured employees withing each user’s reporting structure as determined by Azure Active Directory or the uploaded organizational data file. For details, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md).
+* Group manager access enables insights only covering the measured employees within each user’s reporting structure as determined by Azure Active Directory or the uploaded organizational data file. For details, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md).
 
 ## Install, pin, and configure the app
 
@@ -61,7 +61,7 @@ After your admin completes the [Admin tasks](#admin-tasks), you can set up **Org
 * [Configure the app](../personal/teams/viva-teams-app-settings.md)
 
 >[!Note]
->You can also locate the Viva Insights app at [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
+>You can also open a web-based Viva Insights at [insights.viva.office.com](https://insights.viva.office.com/), or through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com/).
 
 ## View Organization trends
 
@@ -77,6 +77,10 @@ To investigate more about an outcome, select it to see more details.
 
 >[!Note]
 >To provide feedback as you use Viva Insights, select **Yes** or **No** for the "Is this helpful" question near the end of every insight and every page.
+
+## Employee experience Power BI report
+
+To get additional employee experience insights, you can download the **Employee experience** Power BI report. Learn more about the report, which you can find in Organization trends **Recommendations** section, in this article: [Employee experience](employee-experience-pbi.md). 
 
 ## Related topics
 

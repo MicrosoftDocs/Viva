@@ -16,6 +16,7 @@ ms.custom:
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-topics
+    - ContentEngagementFY23
 ms.localizationpriority:  medium
 description: Learn how to find resources for Microsoft Viva Topics.
 ---
@@ -45,7 +46,7 @@ The resources in this section help you learn more about what Viva Topics is and 
 |Learn about topic security|[Viva Topics security and privacy](topic-experiences-security-privacy.md)|
 |Learn how to get Viva Topics|[Viva Topics product page](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
 |See resources in the Microsoft Tech Community Resource Center|[Viva Topics Tech Community](https://resources.techcommunity.microsoft.com/viva-topics/)|
-|Learn to use Viva Topics|[Viva Topics learning path](/learn/paths/m365-viva-topics/)|
+|Learn to use Viva Topics|[Viva Topics learning path](/training/paths/m365-viva-topics/)|
 |Learn which languages are supported in Viva Topics|[Viva Topics supported languages](topics-language-support.md)|
 
 ## Adoption
@@ -92,5 +93,3 @@ Provide feedback about your experience with Viva Topics directly to Microsoft.
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
 |How to provide feedback about Viva Topics|[Provide us feedback](topic-experiences-overview.md#provide-us-feedback)|
-
-

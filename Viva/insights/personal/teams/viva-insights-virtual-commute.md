@@ -2,119 +2,111 @@
 
 title: Virtual commute with Viva Insights
 description: Use the virtual commute feature in Microsoft Viva Insights
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
 # Virtual commute
 
-You can use virtual commute feature in the Microsoft Viva Insights app from either the [Up-next card](#up-next-card) or [Within Protect time](#within-protect-time).
+You can use the virtual commute feature in the Microsoft Viva Insights app from either the [Up-next card](#from-the-up-next-card-on-the-home-page) on the Home page or [within Protect time](#within-protect-time).
 
-If you’ve set a reminder, that reminder appears as a Teams notification you can select to begin your virtual commute.
+## From the Up-next card on the Home page
 
-## Up-next card
+When the Up-next card prompts you to "wrap up," you can select **Let's go** to start your virtual commute right away.
 
-When the Up-next card prompts you to "wrap up your day," you can select it to start your virtual commute now.
-
-![Screenshot that shows the Home page with virtual commute card.](images/virtual-commute.png)
+![Screenshot that shows the Home page with virtual commute card.](images/vc-lets-go-home1.png)
 
 This message appears at the following times:
 
-* If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about making this and other settings, see [Insights app settings](viva-teams-app-settings.md).
-* If you have not configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance).
+* If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about changing this and other settings, refer to [Insights app settings](viva-teams-app-settings.md).
+* If you haven't configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
 ## Within Protect time
 
-In **Protect time**, when prompted with **Ready to wrap up**, select **Start**.
+In **Protect time**, when prompted with, "Ready to wrap up?", select **Let's go**.
 
-![Screenshot that shows the option to book focus time.](Images/virtual-commute-start.png)  
+![Screenshot that shows the Virtual commute card with Let's go highlighted.](Images/vc-lets-go-pt1.png)  
 
-This causes your virtual commute to start immediately. For details about the virtual commute experience, see [virtual commute steps](#virtual-commute-steps).
-
-Starting a virtual commute this way does not affect the scheduled days and time of day that you set in [Set up virtual commutes](#set-up-virtual-commutes).
+When you select this button, your virtual commute starts immediately. For details about the virtual commute experience, refer to [virtual commute sections](#virtual-commute-sections). Starting a virtual commute this way doesn't affect the scheduled days and time of day that you set in [Set up virtual commutes](#set-up-virtual-commutes).
 
 ## Set up virtual commutes
 
-The first time you open **Protect time**, you're prompted to schedule your virtual-commute reminders:
+The first time you open **Protect time**, you're prompted to schedule your virtual commute reminders.
 
 ![Screenshot that shows option to schedule virtual commute.](Images/virtual-commute-reminders.png)  
 
-You can use this prompt to turn on the **Reminder** toggle, then select the days and time of day that you want to see the virtual-commute reminder. When you're done, select **Save changes**.
+You can use this prompt to turn on the **Reminder** toggle, then select the days and time of day that you want to see the virtual commute reminder. When you're done, select **Save changes**.
 
 >[!Note]
->* You can schedule virtual-commute reminders for any day of the week, including days not configured as workdays in your Outlook settings.
+>
+>* You can schedule virtual commute reminders for any day of the week, including days not configured as workdays in your Outlook settings.
 >* The time you select will apply to every day on which you'll see reminders. You can't set different times for different days of the week.
 >* The reminder might not arrive at exactly the scheduled time, but most reminders appear within five minutes before their scheduled time. For example, if your reminder is scheduled for 5:00, the reminder could appear between 4:55 and 5:00.
 
 If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md).
 
-### Virtual commute steps
+### Virtual commute sections
 
-After you begin your virtual commute by selecting **Start** on the **Protect time** page, the sequence starts. It consists of the following steps. All steps are optional; to skip a step, select **Next**.
+After you select **Let's go**, your virtual commute starts.
 
-1. On the start page, select **Let's go**:
+![Screenshot that shows adding a task.](Images/vc-begin.png)
 
-   ![Screenshot that shows option to start virtual commute.](Images/virtual-commute-start.png)  
+The commute guides you through the following sections. All sections are optional; to skip a section, just select **Next**.
 
-2. **Review and close out current tasks** &ndash; Virtual commute shows you your open tasks on the Microsoft To-Do list whose due date is today or that have a reminder set for today. (If you currently have no tasks, this step is not shown and you go directly to **Add new tasks**.)
+#### Meetings
 
-   In this step, you can mark each task as complete (select "**It's done**") or set a reminder for another day:
+In **Meetings**, you can review tomorrow’s events—those that last all day, those that you’ve accepted, and those that still need your RSVP. 
 
-     ![Screenshot that shows option to close out current tasks.](Images/02-close-out-current-tasks-55.png)
+If an event needs your RSVP, you can **Accept** or **Decline** it from this screen. 
 
-   If you do set a reminder, it will appear in the following places:
-    * In your Microsoft To Do list.
-    * In your Briefing email, if you are subscribed to receive Briefing emails.
-    * On the To Do card on the **Home** page; it appears here only on the day after you set the reminder.
+![Screenshot that shows the option to RSVP to an event.](Images/vc-needs-rsvp3.png) 
 
-   Select **Next**.
+If you don’t have any events coming up tomorrow, you’ll see open blocks on your calendar that you can use for focus time, instead. Select **Book time** to add that focus time to your calendar.
 
-3. **Add new tasks** &ndash; Use this step to add tasks to your list. There are two reasons to add them to your list:
+![Screenshot that shows the option to book focus time.](Images/vc-no-events1.png) 
 
-   * If you have work-related tasks that are top of mind, adding them to a list holds them for you in a reliable spot so that you can mentally let them go during your personal time.
-   * Adding them here puts them directly into Microsoft To Do, complete with reminders set, so that you don't forget about them.
+When you’re ready to move to the next section, select **Next** at the bottom-right of the page.
 
-   ![Screenshot that shows adding tasks.](Images/03-add-new-tasks-55.png)
+#### Tasks
 
-   Tasks that you add on this page will appear in two places:
+In the **Tasks** section, you can review your open tasks. These tasks originate from Microsoft To Do, and they’re are either due today or have a reminder set for today.
 
-   * If you subscribe to the Cortana briefing email, you'll see your tasks there.
-   * If you add a task today, it will appear tomorrow on the **Microsoft To-Do** card on the **Home** page:
+In addition to viewing your existing tasks, you can do a few other things in this section:
 
-     ![Screenshot that shows the Home page to-do card.](Images/home-to-do.png)  
+* **Add a new task**. Below **Your tasks**, select **Add a task**.
 
-   After you've finished adding tasks &ndash; or if you have no tasks to add &ndash; select **Next**.
+* **Add a suggested task surfaced from Outlook or Teams.** If To Do notices a potential task in your chats or emails, a notification appears above **Your tasks**. Select the down arrow to expand the message. If you want to put this task on your To Do list, select the **Add to your tasks** button. 
 
-4. **Preview of tomorrow** &ndash; This step shows you the events (such as meetings) that are on your schedule for tomorrow:
+    ![Screenshot that shows adding a suggested task.](Images/vc-suggested-task.png)
 
-   ![Screenshot that shows preview of tomorrow.](Images/04-preview-of-tomorrow-55.png)
+* **Cross a completed task off your list.** Select the circle to the left of the task name, which sends the task to your **Tasks completed today** list. If you want to delete the task from To Do, select the trash can icon to the right of the task name.
 
-   The purpose of this step is to reduce surprises so that you can be prepared for all that's on your schedule. You can accept, decline, or cancel meetings to make final decisions about your schedule for the next day. When finished, select **Next**.
+* **Set a reminder.** Select the ellipses (…) to the right of the task name, then pick a time you want to be reminded. Reminders appear in your Microsoft To Do list and in your Briefing email, if you’re subscribed to receive Briefing emails. You can also **Edit** and **Delete** tasks from this menu.
 
-5. **Opportunity for reflection** &ndash; At the end of your workday, this step lets you reflect on your feelings, just as you would by using the [Reflect](viva-insights-reflect.md) feature on the **Home** page:
+    ![Screenshot that shows setting a reminder.](Images/vc-set-reminder.png)
 
-   ![Screenshot that shows reflect card.](Images/virtual-commute-reflect.png)
+After you’re done reviewing and managing your tasks, select **Next** to move to the last section.
 
-   Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice, which you can view before you select **Next**. This optional step helps you build the healthy habit of checking in with yourself.
+##### Wind down
 
-6. **Mindfully disconnect with a Headspace meditation** &ndash; Select the play button on the Headspace card to begin a guided meditation:
+**Wind down** provides some activities to help you close out your workday mindfully and disconnect from work:
 
-   ![Screenshot that shows the Headspace Play button.](Images/headspace-in-vc.png)
+* A breather break
+* If you have access to Headspace, a few guided meditation videos
+* The opportunity to reflect, just like you would using the [Reflect](viva-insights-reflect.md) feature on the **Home** page
 
-   When you're finished, select **Next**.
+![Screenshot that shows the Wind down section.](Images/vc-wind-down1.png)
 
-7. **Completion** &ndash; Complete your virtual commute.
+**Start** one or more of these activities to help transition to the next part of your day.
 
-   ![Screenshot that shows completing virtual commute.](Images/07-completion-55.png)
-
-   Select **Done**.
+When you’re ready to complete your virtual commute, select the **Done** button.
 
 ## Related topics
 

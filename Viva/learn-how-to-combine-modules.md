@@ -14,6 +14,7 @@ ms.custom:
 ms.collection:  
 - M365initiative-viva
 - m365solution-overview
+- highpri
 search.appverid:
 - MET150
 description: "Learn how to combine Microsoft Viva modules to support popular experiences"
@@ -27,6 +28,9 @@ Microsoft Viva modules can be combined to create powerful employee experiences f
 - Training and onboarding
 - Wellness and work-life balance
 - Knowledge sharing and management
+
+>[!NOTE] 
+> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
 
 ## Training and onboarding
 
