@@ -19,12 +19,21 @@ audience: user
 
 ## Meeting category insights
 
-You can use **Meeting category insights** in **Effective meetings** to help understand how you’re allocating time across your Outlook meeting categories.
-To set up Outlook meeting categories, refer to [Assign a color category to a calendar appointment, meeting, or event (microsoft.com)](https://support.microsoft.com/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527).
-  
-**Meeting category insights** shows you how many hours you’re spending in meetings, then breaks down the time you spend in each of your categories.
+Use **Meeting category insights** in **Effective meetings** to help understand how you’re allocating time across your Outlook meeting categories.
 
+>[!Note]
+>To set up Outlook meeting categories, refer to [Assign a color category to a calendar appointment, meeting, or event (microsoft.com)](https://support.microsoft.com/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527).
+  
+In this section, you'll find three types of insights:
+
+* **Percentage breakdown**: The percentage of total meeting hours you spend in each meeting category.
 ![Screenshot that shows the Meeting category insights page.](Images/meeting-category-insights.png)
+* **Meeting trends**: How the time you spend in each meeting category has changed.
+
+* **Meeting details**: All your meetings in a list, which includes **Category**, **Total time spent**, **Cadence**, and **Duration**.
+
+
+
 
 You can customize what you see here. If you want to:
 
