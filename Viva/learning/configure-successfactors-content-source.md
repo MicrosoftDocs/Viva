@@ -146,7 +146,7 @@ Package generation from Success Factors takes up to 7 days. Once the package is 
 
 ## Manage Permissions for SAP SuccessFactors
 
-You can synchronize Permissions applied using assignment profile on courses in SuccessFactors within Viva Learning application.  If a user is restricted to a certain course in SuccessFactors, then he will not be able to view, search or consume the same course within Viva Learning. This is a one-way sync from SuccessFactors into Viva Learning.
+You can synchronize Permissions applied using assignment profile on courses in SuccessFactors within Viva Learning application.  If a user is restricted to a certain course in SuccessFactors, then that user will not be able to view, search or consume the same course within Viva Learning. This is a one-way sync from SuccessFactors into Viva Learning.
 
 ### Pre-requisites for catalog permissions sync
 
