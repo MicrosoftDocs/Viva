@@ -44,7 +44,7 @@ We're making these changes to keep a single, consistent organizational structure
 
 ## How might these changes impact me?
 
-* **If you're a manger** (that is, you have one or more people reporting directly to you in the company directory): Your team member list might look a little different. You're more likely to see a change if you've edited or confirmed your team member list for team insights.
+* **If you're a manager** (that is, you have one or more people reporting directly to you in the company directory): Your team member list might look a little different, and you're more likely to see a change if you've edited or confirmed your team member list for team insights. If you currently have a team member who doesn't report directly to you in your team member list, they won't show up in your list after these changes take effect.
 * **If you're a non-manager** (that is, you don't have anyone reporting directly to you in the company directory): Because we no longer support end-user modifications to the team member list, you'll lose access to team insights features.
 
 ## When are these changes taking place?
