@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Ways of working report
 description: Learn how the Ways of working PowerBI template from Microsoft Viva Insights helps you explore collaboration, meeting, wellbeing, and coaching patterns.
 author: lilyolason
@@ -70,12 +69,12 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 2. Under **Power BI templates**, navigate to **Ways of working** and select **Start analysis**. To get more information about the Ways of working template before running your analysis, select **Learn more**.
 
-    ![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-start.png)
+    ![Screenshot that shows the Ways of working icon.](/viva/insights/advanced/images/wow-pbi-start.png)
 
 3. Under **Query setup**:
     1. Type a **Query name**.
     1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
-    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people.
+    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
 
     >[!Note]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
@@ -84,20 +83,19 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     
         Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
 
-        * Power BI queries are set to **Group by Week**. Do not change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. You can't edit this field.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
-![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-setup.png)
-
+![Screenshot that shows the Query setup section.](/viva/insights/advanced/images/wow-pbi-setup.png)
 
 4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
-![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-predefined-metrics1.png)
+![Screenshot that shows predefined query metrics.](/viva/insights/advanced/images/wow-pbi-predefined-metrics1.png)
 
     >[!Note]
     > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
 
 5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
 
-    ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
+    ![Screenshot that shows the Is active filter.](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
 6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
 
@@ -139,17 +137,7 @@ After the **Ways of working** report is set up and populated with Viva Insights 
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
-![Set up the report page in Power BI](/viva/insights/advanced/images/wow-pbi-report-settings.png)
-
-### Employees with low collaboration
-
-By default, this report excludes employees who spend a weekly average of less than five hours in meetings, email, instant messages, and calls because they are likely non-knowledge workers or they do not use Outlook or Teams.
-
-The report also excludes unusually low collaboration weeks based on individual collaboration patterns. These low-collaboration weeks usually occur when employees are taking time off from work.
-
-If you want to include employees with low collaboration in your analysis, select the **Clear** filter (eraser) icon to clear the **IsLikelyKnowledgeWorker** and **IsLikelyHoliday** filters in the Power BI **Filters** pane.
-
-<!---insert filters pane screenshot-->
+![Screenshot that shows the Report settings page in Power BI.](/viva/insights/advanced/images/wow-pbi-report-settings.png)
 
 ## About this report
 

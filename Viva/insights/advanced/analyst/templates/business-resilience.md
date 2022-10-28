@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Business resilience report
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: lilyolason
@@ -54,13 +53,12 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 2. Under **Power BI templates**, navigate to **Business resilience** and select **Start analysis**. To get more information about the Business resilience template before running your analysis, select **Learn more**.
 
-    ![Set up the report page in Power BI](/viva/insights/advanced/images/br-pbi-start.png)
+    ![Screenshot that shows the Business resilience icon.](/viva/insights/advanced/images/br-pbi-start.png)
 
 3. Under **Query setup**:
     1. Type a **Query name**.
     1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
-    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people.
-
+    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
 
     >[!Note]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
@@ -69,13 +67,13 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     
         Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
 
-        * Power BI queries are set to **Group by Week**. Don't change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. You can't edit this field.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
-![Set up the report page in Power BI](/viva/insights/advanced/images/br-pbi-query-setup.png)
+![Screenshot that shows the Query setup section.](/viva/insights/advanced/images/br-pbi-query-setup.png)
 
 
 4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
-![Set up the report page in Power BI](/viva/insights/advanced/images/br-pbi-predefined-metrics.png)
+![Screenshot that shows predefined metrics.](/viva/insights/advanced/images/br-pbi-predefined-metrics.png)
 
     >[!Note]
     > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
@@ -115,7 +113,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 After the Business resilience report is set up and populated with Viva Insights data in Power BI, you’ll be prompted to select **Baseline** and **Current** time periods, which can’t overlap.
 
-![Set up the report page in Power BI](/viva/insights/advanced/images/br-set-up-report.png)
+![Screenshot that shows the Set up the report page in Power BI.](/viva/insights/advanced/images/br-set-up-report.png)
 
 Select **Next** after you’ve made your selections. If you change your mind later, you’ll be able to change the **Baseline** and **Current** time periods in the **Settings** page.
 
@@ -184,7 +182,6 @@ This page lists opportunity areas with related best practices and recommendation
 ### Glossary
 
 The **Glossary** describes metrics used in the report pages.
-
 
 ## Power BI tips, FAQs, and troubleshooting
 

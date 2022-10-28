@@ -1,7 +1,7 @@
 ---
 title: Configure OpenSesame as a content source for Microsoft Viva Learning
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 3/15/2022
@@ -43,7 +43,7 @@ You can [contact OpenSesame Support](mailto:support@opensesame.com) for help wit
 >[!NOTE]
 >You'll need to have admin permissions in Microsoft 365 to complete these steps.
 
-1. Log in to your [Microsoft 365 admin center](https://admin.microsoft.com).
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
 2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable OpenSesame in the panel.
 3. Fill in the OpenSesame Customer Integration ID you got from your OpenSesame Customer Success Manager or Implementation Specialist.
 4. Select **Save** to activate OpenSesame content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.

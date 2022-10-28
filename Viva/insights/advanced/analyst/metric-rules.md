@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Metric rules in Viva Insights
 description: Learn about metric rules in Microsoft Viva Insights 
 author: lilyolason
@@ -26,8 +25,8 @@ When you use the available analysis tools—like for templates and queries—Viv
 The default **Meeting exclusions rule** filters the meeting data for analysis purposes. You can view rule details on the **Metric rules** page, which you can get to in two ways:
 
 1. Through the side menu:
-    1. In the advanced insights app analyst experience, select  **Analysis > Metric rules**.
-    1. Select **View details**, and then you can expand the sections listed on this page, such as **Rule exceptions**.
+    1. In the advanced insights app analyst experience, select  **Metric rules**.
+    1. Select **View details**. You can expand the sections listed on this page, like **Rule exceptions**.
 1. When building a query:
     1. Under **Query setup**, select the **More settings** button, which opens a pane on the left side of the screen.
     1. Select **See metric rule details**.
@@ -38,7 +37,7 @@ To see an example .xlsx file that shows what's included and excluded from existi
 
 The app's metric rules:
 
-* Only apply to analysis data – Metric rules only apply and filter data in the **Analysis** pages and for the data shown within the Viva Insights app in Teams for managers and leader insights.
+* Only apply to analysis data – Metric rules only apply and filter data in the **Analysis** pages and for the data shown within the Viva Insights app for managers and leader insights.
 * Are read-only – These rules are set up automatically by default. For the first release of the new advanced insights app, you can't edit or change these metric rules, but you'll be able to in the future.
 * Exclude certain meeting types from collaboration metrics – The default **Meeting exclusions** rule excludes the time and count metrics for meetings that match the following criteria:
     * If the duration of the meeting is 24 hours or more.

@@ -28,19 +28,20 @@ As a Global Admin, you can control who can create organizations in your tenant f
 2. Only Global Administrators 
 3. Specific users or groups 
 
-> Note: Irrespective of the option you choose, Global Admins will always have permission to create organizations. 
+> [!NOTE]
+> Irrespective of the option you choose, Global Admins will always have permission to create organizations.
 
-### Anyone in your tenant 
+## Anyone in your tenant 
 
 When you select this option, any licensed Viva Goals user, in addition to the global admins, will have permission to create organizations in your Viva Goals tenant. 
 
-### Only global administrators 
+## Only global administrators 
 
 Selecting this option enables you to restrict organization creation permission to only the global admins.  
 
 Restricting organization creation permissions to only global admins is a safe option as there won’t be any confusion regarding who created an organization and why. 
 
-### Specific users or groups  
+## Specific users or groups  
 
 If you have a specific set of users or groups you want to grant access to, you can enter the names of those users or groups.
 

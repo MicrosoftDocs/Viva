@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Enhance organizational resiliency with Viva Insights
 description: Learn how to use Viva Insights data to analyze and enhance organizational resiliency
 author: madehmer
@@ -28,11 +28,11 @@ The following are the percentage insights, their underlying metrics, and some de
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Protect employee wellbeing |Percentage of employees who are working after hours for more than one hour each week |[After-hours collaboration](metric-definitions.md#after-hours-collaboration-define) |Percentage of employees who spend more than 1 hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
-|Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |Percentage of employees who spend less than 15 minutes of weekly 1:1 time with their managers. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
-|Free up capacity |Percentage of employees who spend 25+ hours in collaboration each week |[Collaboration hours](metric-definitions.md#collaboration-hours-define) |Percentage of employees who spend more than 25 hours collaborating each week over email, calls, instant messages, and meetings. This insight is calculated weekly and averaged over the time period. |
-|Accelerate decision making | Percentage of managers who spend a majority of their meeting time in double-booked meetings |[Conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define) |Percentage of employees who more than 50 percent of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over all the weeks. |
-|Improve team cohesion |Percentage of employees who are members of teams with strong cohesion |[Strong ties](metric-definitions.md#network-metrics) |Strong cohesion is calculated by the number of strong ties of all team members divided by the maximum possible number of strong ties in the team. This percentage is calculated weekly and averaged over the last six months.* |
+|Protect employee wellbeing |Percentage of employees who are working after hours for more than one hour each week |[After-hours collaboration](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#after-hours-collaboration-define) |Percentage of employees who spend more than 1 hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
+|Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meeting-hours-with-manager-1-1-define) |Percentage of employees who spend less than 15 minutes of weekly 1:1 time with their managers. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
+|Free up capacity |Percentage of employees who spend 25+ hours in collaboration each week |[Collaboration hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#collaboration-hours-define) |Percentage of employees who spend more than 25 hours collaborating each week over email, calls, instant messages, and meetings. This insight is calculated weekly and averaged over the time period. |
+|Accelerate decision making | Percentage of managers who spend a majority of their meeting time in double-booked meetings |[Conflicting meeting hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#conflicting-meeting-hours-define) |Percentage of employees who more than 50 percent of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over all the weeks. |
+|Improve team cohesion |Percentage of employees who are members of teams with strong cohesion |[Strong ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics) |Strong cohesion is calculated by the number of strong ties of all team members divided by the maximum possible number of strong ties in the team. This percentage is calculated weekly and averaged over the last six months.* |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -40,21 +40,21 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Protect employee wellbeing | Distribution of weekly after-hours collaboration  |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#person-metrics). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between 1 to 5 hours collaborating after-hours, and employees who spend more than 5 hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
-|Practice empathy | Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
-|Free up capacity | Distribution of collaboration hours |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between 0 and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period.  |
-|Accelerate decision making| Distribution of conflicting meeting hours |Percentage of employees based on their [conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define). They are divided into those who spend less than 5 hours, between 5 and 10 hours, and more than 10 hours in conflicting meetings. These percentages are calculated weekly and averaged over the entire time period. |
-|Improve team cohesion |Cohesion within teams |An [organizational network graph](insight-ona-measures.md) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [Strong ties](metric-definitions.md#network-metrics).* |
+|Protect employee wellbeing | Distribution of weekly after-hours collaboration  |Percentage of employees based on their weekly [after-hours collaboration](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#person-metrics). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between 1 to 5 hours collaborating after-hours, and employees who spend more than 5 hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
+|Practice empathy | Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
+|Free up capacity | Distribution of collaboration hours |Percentage of employees based on their weekly [collaboration hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#collaboration-hours-define). They are divided into those who spend between 0 and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period.  |
+|Accelerate decision making| Distribution of conflicting meeting hours |Percentage of employees based on their [conflicting meeting hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#conflicting-meeting-hours-define). They are divided into those who spend less than 5 hours, between 5 and 10 hours, and more than 10 hours in conflicting meetings. These percentages are calculated weekly and averaged over the entire time period. |
+|Improve team cohesion |Cohesion within teams |An [organizational network graph](/viva/insights/use/insight-ona-measures?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [Strong ties](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics).* |
 
 >[!Important]
->*At least 25 percent of your teams must have five or more members. If not, this insight will be unavailable due to incomplete information. To ensure teams are accurately identified, confirm that your [Organizational upload](../Setup\upload-organizational-data2.md) includes all employees with the correct **ManagerId** information.
+>*At least 25 percent of your teams must have five or more members. If not, this insight will be unavailable due to incomplete information. To ensure teams are accurately identified, confirm that your [Organizational upload](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) includes all employees with the correct **ManagerId** information.
 
 ## Take action
 
 You can select **See your insights** to see ways you can enhance organizational resiliency. Depending on your role, the following are available in addition to the recommendations within Take action.
 
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [teamwork](../tutorials/teamwork-solution.md) or [management and coaching](explore-metrics-management-and-coaching.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
+* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](/viva/insights/Tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), which are based on your organizational data and industry research.
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [teamwork](/viva/insights/tutorials/teamwork-solution?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) or [management and coaching](/viva/insights/use/explore-metrics-management-and-coaching?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
@@ -64,8 +64,8 @@ You can select **See your insights** to see ways you can enhance organizational 
   |Accelerate decision making | Empower employees to make decisions |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Plans/Teamwork))
   |Strengthen team connections |Spend more time with important collaborators |[Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks)if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Home/ChangeManagement/InternalNetworks)) |  
 
-* **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
-* **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can create for one or more of the recommendations.
+* **Explore in Power BI** - Links to [Power BI reports](/viva/insights/tutorials/power-bi-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more advanced analysis for one or more of the recommendations.
+* **Plans** - Opens a new [Plan](/viva/insights/Tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) you can create for one or more of the recommendations.
 
 ## Best practices
 
@@ -84,7 +84,7 @@ Rapid shifts in ways of working can blur the line between 'home' and 'work'. One
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support employee wellbeing:
 
 * Use [personal wellbeing insights](../personal/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
-* Utilize [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours of coworkers.
+* Utilize [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with configured working hours of coworkers.
 * Use [Teams Together mode](https://www.microsoft.com/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
 
 For more best practices and ways to protect employees' after hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
@@ -107,7 +107,7 @@ Resilient organizations respond to changing demands and new opportunities by nim
 As explained in [How to finally kill the useless, recurring meeting](https://workplaceinsights.microsoft.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done." Ways to reduce meeting time:
 
 * Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
-* Use [personal wellbeing insights](../personal/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../personal/use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
+* Use [personal wellbeing insights](../personal/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../personal/use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with configured working hours for coworkers.
 * Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
 For more best practices and ways to establish 'meeting-free' periods, see [Best practices for meetings](../tutorials/gm-meetings.md).
@@ -137,5 +137,5 @@ For more best practices, see [Best practices for community connectivity](../tuto
 
 ## Related topics
 
-* [Business outcomes overview](insights.md)
-* [Metric descriptions](metric-definitions.md)
+* [Business outcomes overview](/viva/insights/use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

@@ -69,7 +69,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 3. Under **Query setup**:
     1. Type a **Query name**.
     1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
-    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people.
+    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
 
     >[!NOTE]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
@@ -80,7 +80,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
         In this pane:
     
-        * Power BI queries are set to **Group by Week**. Don't change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. You can't edit this field.
          * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
 
 4. Under **Predefined template metrics**, leave prepopulated metrics as they appear.  
@@ -128,7 +128,7 @@ After the **Hybrid workforce experience report (preview)** is set up and populat
 
 |Attribute value| Prompt|
 |---------------|-------|
-|Mostly onsite  | Select the number of average % of onsite work days that best describe the work mode of employees that work mostly onsite (that is, from the company’s main worksite). |
+|Mostly onsite  | Select the average % of onsite work days that best describe the work mode of employees that work mostly onsite (that is, from the company’s main worksite). |
 |Hybrid | Select the  average % of onsite work days that best describe the work mode of employees that work onsite some days during the week and remote on others.|
 |Mostly remote| Select the  average % of onsite work days that best describe the work mode of employees that work mostly remote (that is, from home or some other location outside the company’s main worksite).|
 |Individual contributors| Select the attribute values that identify employees as individual contributors who do not manage people within your organization.|

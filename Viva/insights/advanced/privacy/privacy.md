@@ -189,7 +189,7 @@ Under the GDPR, data subjects may have rights to request exclusion from processi
 * **Access** – Data subjects have the right to demand what personal information is being processed, and Viva Insights gives you the ability to export the raw data, which may contain personal data. The scope of such information is restricted to what is personally associable and does not contain aggregate metrics from which no personal information can be gleaned.
 * **Correction** – Data subjects have the right to rectify their personal data. Viva Insights only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Microsoft 365 or the organizational data that you upload. This data is not corrected through Viva Insights.
 * **Deletion** – Microsoft supports the GDPR [Right to erasure](/compliance/regulatory/gdpr-dsr-Office365#deleting-personal-data).  Additionally, if necessary, customers themselves can also delete reports that identify the data subject. Customers can also delete the data subject from any other data (such as organizational data or CRM data) that they may have provided to Viva Insights.
-* **Transparency regarding processing** – See [Metric definitions](../analyst/metrics.md) for detailed information about the metrics calculated by Viva Insights, and what they mean.
+* **Transparency regarding processing** – See [Metric definitions](../reference/metrics.md) for detailed information about the metrics calculated by Viva Insights, and what they mean.
 
 >[!Note]
 > Microsoft 365 users can determine whether they have a Viva Insights license and, consequently, whether their data is being processed. For more information, see Subscription status.
@@ -227,7 +227,7 @@ Microsoft Viva Insights is serious about protecting individual privacy. Privacy 
 
 Differential privacy offers a balance between providing useful information and protecting individual privacy. Viva Insights uses methods from world-class researchers to apply differential privacy. By introducing slight variations to the data, it protects privacy while simultaneously maintaining accuracy. The methods are more sophisticated than this simple description, with numerous options toward balancing fidelity and privacy. For more details, see [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf).
 
-The first application of differential privacy in Viva Insights is within [Manager insights](/viva/insights/use/viva-insights-my-org?toc=%2Fviva%2Finsights%2Fadvanced%2Ftoc.json&bc=%2Fviva%2Finsights%2Fbreadcrumb%2Ftoc.json). These insights enable managers to understand how the people in their team are doing and to learn how to drive change by using aggregated collaboration data.
+The first application of differential privacy in Viva Insights is within [Manager insights](/viva/insights/org-team-insights/org-trends?toc=%2Fviva%2Finsights%2Fadvanced%2Ftoc.json&bc=%2Fviva%2Finsights%2Fbreadcrumb%2Ftoc.json). These insights enable managers to understand how the people in their team are doing and to learn how to drive change by using aggregated collaboration data.
 
 No matter how the metrics are presented or used in Viva Insights, no individual activity or metric can ever be discerned. The individual activity can never be established with certainty, and no manager or team-leader can conclude with confidence anything specific about any individual.
 
@@ -294,8 +294,6 @@ An active tenant is tenant that has one or more valid Viva Insights user license
 By default, Viva Insights initially collects, processes, and retains 13 months' worth of data. Then, through weekly refreshes, Viva Insights increases this history until 27 months' worth of data is collected. After this point, older collaboration data is deleted as newer collaboration data is collected.
 
 This means that Viva Insights will not have any collaboration data that is older than 27 months.
-
-Customers can file a request to initiate Viva Insights with less than 13 months of data. For this case, the minimum amount that can be collected is one month.
 
 ### Data retention after a license is removed
 

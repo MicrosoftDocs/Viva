@@ -20,9 +20,6 @@ description: "Learn how to configure help and support for your Viva Goals app."
 
 # Configure help and support 
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 As an organization administrator, you can configure help and support resources for users in your organization. These resources will appear in the help section for users: 
 
 :::image type="content" source="../media/goals/end-user-help-menu.png" alt-text="Screenshot that shows the help menu button to access help resources." lightbox="../media/goals/end-user-help-menu.png":::

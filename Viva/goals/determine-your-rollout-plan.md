@@ -1,8 +1,8 @@
 ---
 title: Determine your rollout plan
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -20,14 +20,11 @@ description: "Learn how to determine your rollout plan"
 
 # Determine your rollout plan
 
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
 At the completion of your rollout plan or deployment phase, you'll have Microsoft Viva Goals operating across your entire organization so you can connect the daily work of every team member to business outcomes.
 
 As you navigate the OKR Maturity Model shown below and change management associated with a Viva Goals OKR rollout, we recommend that you ease your organization into OKRs through a user pilot.
 
-![Table that shows the O K R maturing process.](../media/goals/1/13/a.png)
+:::image type="content" source="../media/goals/1/13/a.png" alt-text="Table that shows the O K R maturing process." lightbox="../media/goals/1/13/a.png":::
 
 The benefits of a user pilot are two-fold: first, you quickly learn how the methodology works within your organizational culture and gain insight into the challenges and opportunities. Second, your pilot group acts as an example for the rest of the organization. The pilot group's success in achieving their objectives will serve as a motivator for more groups to get on board.  
 
@@ -45,7 +42,7 @@ One of the most popular ways to roll out an OKR program is from the top down. Th
 
 **After another quarter or two, team managers expand their key results.** At this point, individual team members become involved.  
 
-**Ask participants to take the [OKR Leadership Program learning path on demand](/learn/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
+**Ask participants to take the [OKR Leadership Program learning path on demand](/training/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
 
 ### Department-wide pilot group
 
@@ -55,7 +52,7 @@ Another popular rollout method is for one individual department or group, such a
 
 **Once the individual department and management is comfortably in a rhythm, a training plan is formulated to roll out OKRs to the rest of the organization.** This plan uses the lessons from the individual department to make the process as smooth as possible for the organization as a whole.  
 
-**Ask participants to take the [OKR Leadership Program learning path on-demand](/learn/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
+**Ask participants to take the [OKR Leadership Program learning path on-demand](/training/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
 
 ### Another option: Big bang theory 
 

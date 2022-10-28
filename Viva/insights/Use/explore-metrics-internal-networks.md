@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore internal network metrics in Viva Insights
 description: An overview of the internal network collaboration data available in advanced insights with Microsoft Viva Insights
 author: madehmer
@@ -40,7 +41,7 @@ The **Network diversity** bubble chart shows how each organization in the compan
 
 ## Internal network size
 
-**Internal network size** is the average number of people with whom a person has at least two [meaningful interactions](glossary.md#meaningful-interaction-define). Network connections are measured on a rolling four-week basis.
+**Internal network size** is the average number of people with whom a person has at least two [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define). Network connections are measured on a rolling four-week basis.
 
 ![Internal network size.](../images/wpa/use/17-internal-network-size.png)
 
@@ -57,7 +58,7 @@ Network size can indicate:
 
 ## Internal network breadth
 
-Internal network breadth is the average number of organizations an employee connected with (based on [meaningful interactions](glossary.md#meaningful-interaction-define)) during the period selected. 
+Internal network breadth is the average number of organizations an employee connected with (based on [meaningful interactions](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meaningful-interaction-define)) during the period selected. 
 
 ![Internal network breadth.](../images/wpa/use/18-internal-network-breadth.png)
 
@@ -72,5 +73,5 @@ Network breadth can indicate:
 
 ## Related topics
 
-* [Page settings](../use/explore-page-settings.md)
-* [Advanced insights charts](../use/chart-types.md)
+* [Page settings](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Advanced insights charts](/viva/insights/use/chart-types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

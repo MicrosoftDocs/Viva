@@ -32,8 +32,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define)| Percentage of employees who spend more than 50 percent of their meeting hours in long or large meetings. The insight is calculated weekly and averaged over the entire time period.  |
-|Connect across boundaries |Percentage of employees who could be empowered to make faster decisions | [Influence](metric-definitions.md#influence-define)  |Employees whose influence score is within 25 percent of their manager's influence score are considered empowered employees. This insight calculates the number of employees who are empowered as compared to all measured employees.  |
+|Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#attendees-define), [Attendee meeting hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#attendee-meeting-hours-define), [Long meetings](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json.md#long-meeting-define), [Large meetings](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#large-meeting-define)| Percentage of employees who spend more than 50 percent of their meeting hours in long or large meetings. The insight is calculated weekly and averaged over the entire time period.  |
+|Connect across boundaries |Percentage of employees who could be empowered to make faster decisions | [Influence](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#influence-define)  |Employees whose influence score is within 25 percent of their manager's influence score are considered empowered employees. This insight calculates the number of employees who are empowered as compared to all measured employees.  |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -41,8 +41,8 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Organize better meetings | Meetings by duration and number of attendees | Shows the percentages of meetings that are [long](glossary.md#long-meeting-define), [large](glossary.md#large-meeting-define), [long and large](glossary.md#long-and-large-meeting-define), and [decision-making meetings](glossary.md#decision-making-meeting-define). |
-|<a name="ona-accelerate-define"></a> Connect across boundaries | Employee's influence relative to their manager | [An organizational network graph](insight-ona-measures.md) that shows the distribution of employees with similar influence and much lower influence as compared to their managers. This helps identify information sharing patterns, and where they are well represented in your organization. You can use this insight to understand at a high level which parts of your organization could benefit from better information sharing practices. This graph uses the [influence metric](metric-definitions.md#network-metrics). |
+|Organize better meetings | Meetings by duration and number of attendees | Shows the percentages of meetings that are [long](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#long-meeting-define), [large](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#large-meeting-define), [long and large](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#long-and-large-meeting-define), and [decision-making meetings](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#decision-making-meeting-define). |
+|<a name="ona-accelerate-define"></a> Connect across boundaries | Employee's influence relative to their manager | [An organizational network graph](/viva/insights/use/insight-ona-measures?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) that shows the distribution of employees with similar influence and much lower influence as compared to their managers. This helps identify information sharing patterns, and where they are well represented in your organization. You can use this insight to understand at a high level which parts of your organization could benefit from better information sharing practices. This graph uses the [influence metric](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics). |
 
 ## Best practices
 
@@ -76,5 +76,5 @@ For more best practices and change strategies, see [Best practices for meetings]
 
 ## Related topics
 
-* [Business outcomes overview](insights.md)
-* [Metric descriptions for Viva Insights](metric-definitions.md)
+* [Business outcomes overview](/viva/insights/use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Metric descriptions for Viva Insights](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

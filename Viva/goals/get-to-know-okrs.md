@@ -1,8 +1,8 @@
 ---
 title: Get to know OKRs
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: 
 audience: Admin
 f1.keywords:
@@ -12,16 +12,14 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- highpri  
 search.appverid:
 - MET150
 description: "Learn about an OKR, its superpower, and how it's used"
 ---
 
 # Get to know OKRs
-
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## What are OKRs?
 
@@ -69,7 +67,7 @@ Massive global enterprise companies have adopted OKRs, and so have 10-20 person 
 
 **OKRs inspire stretch and foster involvement**. When done well and made the driving force in the company’s strategic rhythm, OKRs can keep every  employee connected to the broader mission and make sure they’re invested in their own contribution to it.  
 
-**OKRs offer clear, contextual communication with continual progress reviews.** The OKR framework doesn't work stop when your goals are written. It's designed to create a business rhythm around the most important outcomes that your company is pursuing. It should influence every interaction and drive a review process that pushes for continuous improvement.
+**OKRs offer clear, contextual communication with continual progress reviews.** The OKR framework doesn't stop when your goals are written. It's designed to create a business rhythm around the most important outcomes that your company is pursuing. It should influence every interaction and drive a review process that pushes for continuous improvement.
 
 ## What are the benefits of OKRs for executives, team owners and managers, and individual contributors?
 

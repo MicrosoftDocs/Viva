@@ -1,8 +1,8 @@
 ---
 title: Track OKR progress status
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: 
 audience: Admin
 f1.keywords:
@@ -12,16 +12,14 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- highpri
 search.appverid:
 - MET150
 description: "Learn how progress status is calculated in Viva Goals and how to track it. "
 ---
 
 # Track OKR progress status
-
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## How to track OKR progress in Viva Goals
 

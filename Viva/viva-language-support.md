@@ -39,17 +39,17 @@ Learn more about [language support for Viva Learning](/viva/learning/viva-learni
 
 ## Viva Insights 
 
-**Teams app + Personal**
+<!--**Teams app + Personal**-->
 
 Personal insights in Viva Insights are available in most of the [same languages as Microsoft 365](https://support.microsoft.com/office/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
 
-Briefing emails are not supported in all languages listed above. See which languages are supported in [Briefing languages](/viva/insights/personal/briefing/be-languages).
+Briefing emails aren't supported in all languages listed above. See which languages are supported in [Briefing languages](/viva/insights/personal/briefing/be-languages).
 
 [Learn more about language support for Viva Insights](/viva/insights/personal/overview/plans-environments#language-support).
 
-**Advanced**
+<!--**Advanced**
 
-[Learn more about language support and guidelines for Advanced insights](/viva/insights/overview/supported-languages).
+[Learn more about language support and guidelines for Advanced insights](/viva/insights/overview/supported-languages).-->
 
 
 ## Viva Topics supported languages
@@ -63,3 +63,6 @@ Viva Topics is available to customers worldwide. However, for processing and ind
 
 ## Viva Goals 
 Viva Goals is currently in Private Preview and available only in English. More languages will be supported soon.
+
+## Viva Engage
+Viva Engage supports the same languages as Yammer on the web. See [which languages Yammer is available in](https://support.microsoft.com/office/14dd5886-d48d-4d6d-a583-4273a2538540). Viva Engage will use the language set for Microsoft Teams. If that language is not supported, Viva Engage will fall back to English.

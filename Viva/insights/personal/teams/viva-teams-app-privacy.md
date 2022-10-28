@@ -1,7 +1,7 @@
 ---
 
-title: Privacy guide for personal insights in Teams
-description: Learn about how Microsoft keeps your data private when using personal insights in the Microsoft Viva Insights Teams app
+title: Privacy guide for personal insights the Viva Insights app
+description: Learn about how Microsoft keeps your data private when using personal insights in the Microsoft Viva Insights app
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -16,7 +16,7 @@ audience: Admin
 
 ---
 
-# Privacy guide for personal insights in Teams
+# Privacy guide for personal insights in the Viva Insights app
 
 When data is processed in the Microsoft Viva Insights app, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR). Viva Insights protects privacy in the following ways:
 

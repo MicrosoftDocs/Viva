@@ -30,4 +30,4 @@ For comprehensive guidance on how to formally roll out manager insights to your 
 You can use the following sample content to introduce My team or Manager insights to your organization. You can customize these samples to include information specific to your company, such as adding a logo or custom header and footer information.
 
 * [Introductory email to your managers](https://download.microsoft.com/download/5/7/7/57742c87-230c-4a62-8001-6753ebbdc5c6/manager-insights-intro.docx)
-* [My team in Viva Insights](../use/myteam.md)
+* [Teamwork habits Viva Insights](../org-team-insights/teamwork-habits.md)

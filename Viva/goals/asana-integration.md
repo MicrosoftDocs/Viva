@@ -1,8 +1,8 @@
 ---
 title: "Asana integration"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: <TBD>
 audience: Admin
 f1.keywords:
@@ -20,9 +20,6 @@ description: "Learn how to use Asana integration with your OKRs."
 ---
 
 # Asana integration
-
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## About Asana integration
 
