@@ -73,7 +73,7 @@ In addition to the left pane, you can reach these videos by selecting **Watch de
 
 ##### Send feedback
 
-We welcome your feedback on this new platform! Like in other Microsoft products, you can send us feedback through the icon in the top-right of your screen.
+We welcome your feedback on this new platform! Like in other Microsoft products, you can send us feedback through the feedback icon in the top-right of your screen.
 
 ### Admin
 
