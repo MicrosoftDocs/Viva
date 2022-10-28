@@ -24,31 +24,42 @@ This article shows you how to configure SAP SuccessFactors as a third-party cont
 >[!NOTE]
 >Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. SAP SuccessFactors content and any associated services are subject to the SAP SuccessFactors privacy and service terms.
 
+## Create your PGP pair key to enable integration
+
+Use a PGP tool to generate a PGP key (public key, private key, private key passphrase) in order to enable this integration. 
+We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](https://www.gpg4win.org/). Please ensure you are following the guidelines on [GNU Privacy Guard](https://gnupg.org/)
+
+### PGP key generation instructions for Windows
+
+1. Download the Kleopatra tool from [Gpg4win](https://gpg4win.org)
+1. Open Kleopatra. Navigate to **Certificates** > **New Key Pair**.
+1. Enter your name and email, then select “Protect the generated key with a passphrase.”
+
+1. In **Advanced Settings**, change **Key Material** to **RSA**
+1. Select OK to generate your key pair.
+1. Enter a passphrase for your key pair and note this for future reference in the Microsoft 365 Admin center.
+1. Navigate to **File** > **Backup Secret Key**. Save your secret key locally for future reference.
+1. Navigate to **File** > **Export**. Save your public key file locally for future reference.
+
+You have now successfully generated and saved your public and private key pair. Use the public key in the SAP SuccessFactors portal and the private key in the Microsoft 365 Admin Center.
+
+### PGP key generation instructions for UNIX and Linux systems 
+
+1. Download [GNU Privacy Guard](https://www.gnupg.org/).
+
+1. On the GnuPG website, go to **Documentation**, then choose **Guides**
+1. Open the GNU Privacy Handbook.
+1. Follow the instructions in the section **Generating a new keypair**.
+
 ## Configure in your SuccessFactors portal
 
 >[!NOTE]
 >You'll need to have admin permissions in SuccessFactors to complete these steps.
 
+1. Search Learning Administration in the search bar on the SAP SuccessFactors portal.
 1. Obtain the required workflows to edit the PARTNER_EXTRACT configuration, which you can get to by going to **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
 
-2. Use the PGP tool to generate the PGP key (Public key, Private Key, Private Key Passphrase) of your preferred size. While generating the PGP key, you can select RSA algorithm, which is recommended. GNUPG tool is one of the PGP keys generation tools that you can use.
-To generate private and public PGP key pairs, you can work with your IT admin or follow the guidelines in the [GNU Privacy Guard](https://www.gnupg.org/).
-
-   1. For Windows
-       1. Get GNU Privacy Guard for Windows by going to [Gpg4win](https://www.gpg4win.org/) and selecting **Download**.
-       2. Go to **About Gpg4win** and choose **Documentation** to view the documentation. Download the latest version.
-       3. Follow the installation instructions after downloading the software.
-       4. In the documentation that you downloaded, go to section 7: Creating a certificate.
-       5. Create a new PGP key pair.
-       6. Select **Make a Backup Of Your Key Pair** and save the secret file locally for future reference.
-       7. Open the certificate details of the same certificate and export the public key value.
-   2. For UNIX and Linux systems
-       1. Download [GNU Privacy Guard](https://www.gnupg.org/).
-       2. On the GnuPG website, go to **Documentation**, then choose **Guides**.
-       3. Open the GNU Privacy Handbook.
-       4. Follow the instructions in the section **Generating a new keypair**.
-
-3. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you'll need **Edit System Configuration** workflow permission in SuccessFactors.
+2. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you'll need **Edit System Configuration** workflow permission in SuccessFactors.
 
     - Customer notification email for all job status
         - defaultJob.email=
@@ -106,7 +117,7 @@ To obtain the folder path:
 
     **Password**: Enter your password. Check with your LMS application owner for help with retrieving your password. Enter that password here.
 
-    **Folder Path**: Navigate to **LMS Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property.
+    **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property.
     Validate the existence of the folder path in the SFTP server. Create the folder if it doesn't exist.
 
     **Client's Host URL**: This is the BizX domain URL. You can get this from your BizX sign in URL. For example, if your BizX login URL is `organization.successfactors.com/sf/start/#/login` then the host URL is `organization.successfactors.com`.
@@ -117,11 +128,10 @@ To obtain the folder path:
 
     Note that different tools generate keys in different formats. Remove the header if one is present in the block (for example, the version). Copy only the key block, which should be a Base64 string.
 
-    **PGP Private Key Passphrase**: You'll need to get the Private Key value from your IT admin or the team that provides your PGP key.
+    **PGP Private Key Passphrase**: You'll need to get the private key value from your IT admin or the team that provides your PGP key.
 
-    **PGP Public Keys**: You'll need to get Public value from your IT admin or the team that provides your PGP key. Important note: Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated. Don’t remove new line characters. Copy only the key block, which should be a Base64 string.  
+    **PGP Public Key**: You'll need to get public key value from your IT admin or the team that provides your PGP key. Important note: Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated. Don’t remove new line characters. Copy only the key block, which should be a Base64 string.  
 
-    **PGP Public Key Passphrase**: You'll need to get the passphrase value from your IT admin or the team that provides your PGP key.
 
     **Company ID**: Sign in to your SuccessFactors portal. Select your profile icon, then select **Show Version Settings**. You can view your company ID here.
 
@@ -132,14 +142,20 @@ To obtain the folder path:
 4. Select **Save** to activate SuccessFactors content in Microsoft Viva Learning. There may be a delay before the content is available in Viva Learning.
 
 5. Close out of the Viva Learning flyout and re-open it. If there are any issues, an error message will appear on the screen.
-To troubleshoot, close and re-open the flyout.  Select the learning source you are trying to enable. Check the specific error fields.
+
+### Troubleshooting errors
+
+To troubleshoot, close and re-open the flyout.  
+Select the learning source you are trying to enable. Check the specific error fields.
+
+In case an invalid Private and Public Key pair has been entered in MAC Portal an error will display "PGP Keypair validation failed. Possible reasons for this failure - 1. Incorrect values entered for fields -  SF Public Key, SF Private Key, SF Private Key Pass Phrase 2. PGP keys generated with incorrect algorithm.”
 
 >[!Note]
 > SuccessFactors courses will start appearing in Viva Learning within 7 days of successful setup.
 Package generation from Success Factors takes up to 7 days. Once the package is generated, ingestion will be triggered and it will get completed within few hours based on package size.
+SAP SuccessFactors deletes the Full Sync package from SFTP location automatically after 14 days from generation date.
 
->[!Note]
-> All users within an organization will be able to discover all the tenant-specific courses, but they'll only be able to access and consume courses that they have access to. User specific content discovery is planned for future releases.
+All users within an organization will be able to discover all the tenant-specific courses, but they'll only be able to access and consume courses that they have access to. User specific content discovery is planned for future releases. In Viva Learning, we show the courses which are part of an active library in SAP SuccessFactors. 
 
 >[!Note]
 > You will see error messages in MAC if the inputs are entered incorrectly. To see the error messages, close out the Viva Learning window in MAC and reopen to refresh validation.
