@@ -47,6 +47,8 @@ You can create an objective from:
 
 **To create an objective, follow these steps:**
 
+To login to Viva Goals, visit: https://goals.microsoft.com/
+
 1. Go to the individual, team, or organization that the objective is for. Select the **+** button.
 
     :::image type="content" source="../media/goals/3/31/a.jpg" alt-text="Screenshot shows where you start to create an objective." lightbox="../media/goals/3/31/a.jpg":::

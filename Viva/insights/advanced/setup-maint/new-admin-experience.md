@@ -28,7 +28,6 @@ With the new admin experience, you as an admin can initiate setup, deployment, a
 ## To access Viva Insights settings
 
 Go to the Viva [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences). To access the Viva Insights admin page, select the Viva Insights option within the list of Viva experiences.
-
 ![Screenshot that shows the Viva Insights admin options highlighted in the list of Viva offerings.](../images/choose-insights.png)
 
 >[!Note]

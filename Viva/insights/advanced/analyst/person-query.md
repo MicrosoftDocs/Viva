@@ -1,6 +1,6 @@
 ---
 title: Person query
-description: Learn how to run a Custom Person query in the Microsoft Viva Insights advanced insights app
+description: Learn how to run a custom Person query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -14,17 +14,17 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Create a Custom Person query
+# Create a custom Person query
 
 >[!Tip]
-> You can find a demo video, download sample results, and go through a "Show me how" explanation while you’re building your query. Select these options just above **Query setup**.
+> You can find a demo video, download sample results, and go through a **Show me how** explanation while you’re building your query. Select these options just above **Query setup**.
 :::image type="content" source="../images/person-query-setup-help.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
 
 Set up, select data for, and run your query by following the steps and guidance in this section.
 
 ### Query setup
 
-In **Query setup**, you define some basic information about your query, like its name, the time period it’ll analyze, and whether it’ll refresh on its own.
+In **Query setup**, you define some basic information about your query, like its name, the time period it will analyze, and whether it will refresh on its own.
 
 #### To set up your query
 
@@ -33,19 +33,21 @@ In **Query setup**, you define some basic information about your query, like its
     >If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
 
 2. Under **Query setup**:
-    1. Optional: Name your query. Queries are assigned a default name, which follow this format: Query type, user ID, date, and time. Make sure the name is unique.
-    1. Optional: Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a custom date range. If you choose a custom date range, use the date picker to select the range you want to analyze.
-    :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Screenshot that shows Time period options.":::
-    :::image type="content" source="../images/person-query-timeperiod-datepicker.png" alt-text="Screenshot that shows the date picker for custom Time period.":::
-    1. Optional: Set the query to automatically update by checking the **Auto-refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people. This option is unchecked by default, but you can check it on any query where the **Time period** isn’t customized.
-        :::image type="content" source="../images/person-query-auto-refresh-with-tooltip.png" alt-text="Auto-refresh option":::
+
+    1. Optional: Name your query. Queries are assigned a default name, which follows this format: Query type, user ID, date, and time. Make sure the name is unique.
+    1. Optional: Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
+    :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Time period dropdown.":::
+    :::image type="content" source="../images/person-query-timeperiod-datepicker.png" alt-text="Time period with date pickers highlighted.":::
+    1. Optional: Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
+        :::image type="content" source="../images/person-query-auto-refresh1.png" alt-text="Time period with Auto-Refresh highlighted.":::
     >[!Note]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
 
     4. Optional: Type a **Description**.
-    1. Optional: Set how the query is grouped. Custom Person queries are grouped by **Month** by default. To change this setting to **Week**, select **More settings** beneath the **Description** box.
-        :::image type="content" source="../images/more-settings.png" alt-text="Screenshot that shows the Description box.":::
-        Selecting **More settings** brings you to the **More settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
+
+    1. Optional: Set how the query is grouped. By default, custom Person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
+        :::image type="content" source="../images/more-settings.png" alt-text="Description box with More Settings button highlighted.":::
+        Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
     >[!Note]
     > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
     >
@@ -63,13 +65,13 @@ Metrics are criteria used to measure the productivity and wellbeing of employees
 
 ###### Metric categories
 
-In the **Select metrics** pane, metrics are grouped by *metric category*. You can expand the categories to view which metrics they contain. Let’s say you were looking for the **After-hours scheduled call hours** and **After-hours chat hours** metrics in our earlier example. You’d find them in the **After-hours collaboration** metric category.
+In the **Select metrics** pane, metrics are grouped by *metric category*. Expand the categories to see which metrics they contain. Let’s say you were looking for the **After-hours scheduled call hours** and **After-hours chat hours** metrics in our earlier example. You’d find them in the **After-hours collaboration** metric category.
 
 :::image type="content" source="../images/person-query-select-metrics-pane.png" alt-text="Add metrics pane with After-hours collaboration metric category expanded":::
 
 ###### Filters, keyword search, and more information
 
-There are a few other ways to find which metrics you want to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane. You can also use the search bar to find metrics by keyword. You can use **Filter by Power BI templates** to pick metrics used in a particular [Power BI templates](./templates/introduction-to-templates.md) for your Custom Person query.
+There are a few other ways you can find metrics to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane, or use the search bar to find metrics by keyword. If you're working with [Power BI templates](./templates/introduction-to-templates.md), use **Filter by Power BI templates** to pick metrics used in particular reports.
 
 To find out more about a metric, hover over its information icon.
 
@@ -91,7 +93,7 @@ Here’s how you add metrics to your query:
 
 ### Employees
 
-Once you determine what you want to know about employees, you can select which employees you want to include in your query. In **Select which employees you want to include in the query**, you define the employees you want to analyze in your query through *conditions* and *condition groups*.
+Once you determine what you want to know about employees, you select which employees you want to include in your query. In **Select which employees you want to include in the query**, define the employees you want to analyze through *conditions* and *condition groups*.
 
 #### About conditions and condition groups
 
@@ -120,7 +122,7 @@ Beneath the **Add condition** and **Add condition group** buttons, you’ll see 
 
 #### About employee attributes
 
-Employee attributes are the data fields—or columns—that you’ve uploaded in your employee data. In **Select which employee attributes you want to include in the query**, you can narrow down which data fields your query includes—for example, **Job level** or **Hire date**—to prevent your output (.csv) file from being larger than necessary. Making selections here:
+Employee attributes are the data fields—or columns—that you’ve uploaded in your employee data. In **Select which employee attributes you want to include in the query**, you narrow down which data fields your query includes—for example, **Job level** or **Hire date**—to prevent your output (.csv) file from being larger than necessary. Making selections here:
 
 * Improves data analysis with fewer columns in a smaller file.
 * Further protects private data by excluding columns from the file.
@@ -130,7 +132,7 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
 6.	Select the **Select attributes** button, then:
     1. On the right pane, use the checklist to make selections.
-    1. When you’ve finished picking attributes, select the **Add to query button**.
+    1. When you're done picking attributes, select the **Add to query** button.
         :::image type="content" source="../images/person-query-select-attributes.png" alt-text="Select employee attributes section, with 'Select attributes' button highlighted":::
     Attributes appear as tags in the box about the **Select attributes** button.
 
@@ -144,7 +146,7 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
 ### To access your query results
 
-After your query runs, you can access its results in the **Query results** page. On the **Query results** page, you can also edit and clone your query. For further information, refer to [Query results](./query-results.md).
+After your query runs, access its results in the **Query results** page. On the **Query results** page, you can also edit and clone your query. For further information, refer to [Access query results and modify existing queries](./query-results.md).
 
 ## Example Person query for after-hours communication
 
@@ -156,18 +158,18 @@ Let’s say you wanted to run a Custom Person query to find out how often manage
 
 Here’s how you might do that:
 
-1. Set up your query:
+1. Set up your query.
     1.  **Query name**: Give your query a custom name by typing in something like “AfterHoursWest.”
     1. **Time period**: Select **Last 6 months**.
-    1. **Auto-refresh**: You just want to have this run once, so leave the **Auto-refresh** box unchecked.
+    1. **Auto-Refresh**: You just want to have this run once, so leave the **Auto-Refresh** box deselected.
     1. **Description**: Other analysts in your organization might want to know more about this query, so give it a brief description.
     1. **More settings**: You want this query to be grouped by month, not week. Select **More settings**, then change **Group by to Month**.
-2. Now you’re ready to add metrics:
+2. Add metrics.
     1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
     1. Because you want to add metrics about collaboration after hours, expand the **After hours collaboration** metric category. 
     1. Select the **After hours email hours** and **After hours instant messages** metrics.
     1. Select the **Add to query** button.
-3. Next, specify the employees you want to analyze.
+3. Specify the employees you want to analyze.
     1. Under **Select which employees you want to include in the query**, leave the "Is Active" filter set to “true.“
     1. Select **Add condition**.
     1. Select **Organizational data**.
@@ -177,12 +179,12 @@ Here’s how you might do that:
         1. Leave the **Operator** at “=.”
         1. If you want, you can use the search bar to help find titles with “Manager.” Select Manager, Sales manager, and Design manager from the dropdown list.
     1. Check the **Total employees** against the **Measured employees**. If this number seems off, adjust your conditions above.
-4. Now you can choose the employee attributes you want to include in your output file.
+4. Choose the employee attributes you want to include in your output file.
     1. Under **Select which employee attributes you want to include in the query**, select the **Select attributes** button.
     1. From the right pane, select **PopulationType**.
     1. Select the **Add to query** button.
-5. It’s time to run the query. On the upper right of the screen, select the **Run button**.
-6. After the query successfully runs, you can find its results in the **Query results** page. To:
+5. Run the query. On the upper right of the screen, select the **Run button**.
+6. After the query successfully runs, find its results in the **Query results** page. To:
     1. Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
     1. **Edit**, **Edit query name**, **Clone**, **Favorite**, or **Delete** the query: Select the ellipses to the right of the **Downloads** column, then select the appropriate choice. 
 

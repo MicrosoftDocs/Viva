@@ -104,9 +104,10 @@ To obtain the folder path:
 
     **User Name**: Follow the same steps you followed for the SFTP Host URL. Get the value of the `connector.ftp.userID` property.
 
-    **Password**: Enter your password. Check with your LMS application owner for help with retrieving your password.
+    **Password**: Enter your password. Check with your LMS application owner for help with retrieving your password. Enter that password here.
 
     **Folder Path**: Navigate to **LMS Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property.
+    Validate the existence of the folder path in the SFTP server. Create the folder if it doesn't exist.
 
     **Client's Host URL**: This is the BizX domain URL. You can get this from your BizX sign in URL. For example, if your BizX login URL is `organization.successfactors.com/sf/start/#/login` then the host URL is `organization.successfactors.com`.
 
@@ -116,7 +117,11 @@ To obtain the folder path:
 
     Note that different tools generate keys in different formats. Remove the header if one is present in the block (for example, the version). Copy only the key block, which should be a Base64 string.
 
-    **PGP Private Key Passphrase**: You'll need to get this value from your IT admin or the team that provides your PGP key.
+    **PGP Private Key Passphrase**: You'll need to get the Private Key value from your IT admin or the team that provides your PGP key.
+
+    **PGP Public Keys**: You'll need to get Public value from your IT admin or the team that provides your PGP key. Important note: Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated. Don’t remove new line characters. Copy only the key block, which should be a Base64 string.  
+
+    **PGP Public Key Passphrase**: You'll need to get the passphrase value from your IT admin or the team that provides your PGP key.
 
     **Company ID**: Sign in to your SuccessFactors portal. Select your profile icon, then select **Show Version Settings**. You can view your company ID here.
 
@@ -126,15 +131,22 @@ To obtain the folder path:
 
 4. Select **Save** to activate SuccessFactors content in Microsoft Viva Learning. There may be a delay before the content is available in Viva Learning.
 
+5. Close out of the Viva Learning flyout and re-open it. If there are any issues, an error message will appear on the screen.
+To troubleshoot, close and re-open the flyout.  Select the learning source you are trying to enable. Check the specific error fields.
+
 >[!Note]
 > SuccessFactors courses will start appearing in Viva Learning within 7 days of successful setup.
+Package generation from Success Factors takes up to 7 days. Once the package is generated, ingestion will be triggered and it will get completed within few hours based on package size.
 
 >[!Note]
 > All users within an organization will be able to discover all the tenant-specific courses, but they'll only be able to access and consume courses that they have access to. User specific content discovery is planned for future releases.
 
+>[!Note]
+> You will see error messages in MAC if the inputs are entered incorrectly. To see the error messages, close out the Viva Learning window in MAC and reopen to refresh validation.
+
 ## Manage Permissions for SAP SuccessFactors
 
-You can synchronize Permissions applied using assignment profile on courses in SuccessFactors within Viva Learning application.  If a user is restricted to a certain course in SuccessFactors, then he will not be able to view, search or consume the same course within Viva Learning. This is a one-way sync from SuccessFactors into Viva Learning.
+You can synchronize Permissions applied using assignment profile on courses in SuccessFactors within Viva Learning application.  If a user is restricted to a certain course in SuccessFactors, then that user will not be able to view, search or consume the same course within Viva Learning. This is a one-way sync from SuccessFactors into Viva Learning.
 
 ### Pre-requisites for catalog permissions sync
 
@@ -164,6 +176,9 @@ Check the **Enable Learner Record Sync** checkbox to enable assignments and cour
 
 By checking this checkbox, you're allowing Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapping-related information is deduced.  
 
+>[!NOTE]
+>The full sync file needs to be generated from SAP SuccessFactors if you enable the learner record sync at a later stage after enabling catalog sync
+
 ### Prerequisite for learner record sync
 
 You'll need to enable inbound user provisioning with SAP SuccessFactors to ensure that all users in Azure Active Directory have the right employeeID configured. The steps required to enable this integration may vary depending on how your Azure Active Directory tenant is configured.
@@ -183,13 +198,17 @@ Refer to the scenario table below to pick the right integration steps for your s
 
 After you enable user sync, the EmployeeID is synced with each LMS user synced to Azure Active Directory.  
 
-Viva Learning receives this EmployeeID in a zip package, which is used for StudentID matching.  
+Viva Learning receives this EmployeeID in a zip package in an encrypted form, which is used for StudentID matching. As this information can only be decrypted by keys provided by admins, Viva Learning has no way to access this manually. 
 
 ## Play SAP SuccessFactors courses inline in Viva Learning
 
 Viva Learning and SAP SuccessFactors integration allows seamless authentication (SSO) and in-app playback. Users can access SAP SuccessFactors content inline within Viva Learning instead of launching content in a browser.  
 
+![Screenshot that shows the Azure Active Directory SSO integration with SAP SuccessFactors.](../media/learning/viva-learning-sfsf-sso-content-details-page.png)
+
 Content classified as online and instructor-led with online are consumed within Viva Learning and other content classifications are launched in the browser.
+
+![Screenshot that shows how inline content is consumed within Viva Learning.](../media/learning/inline-content-consumption.png)
 
 ### Pre-requisite for enabling in-app playback and SSO
 
