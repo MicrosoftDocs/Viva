@@ -61,7 +61,7 @@ After you enable the integration, the next step is to configure an Azure DevOps 
 
 2. Enter a name for the new connection, and furnish the **Account Name** and **Project Name**. 
 
-   :::image type="content" source="../media/goals/6/azure-devops-configure-new-connection.png" alt-text="Screenshot shows where you fill in details for a new Azure DevOps connection in Viva goals." lightbox="../media/goals/6/azure-devops-configure-new-connection.png":::
+   :::image type="content" source="../media/goals/ado-images/connect-to-ado.png" alt-text="Screenshot shows where you fill in details for a new Azure DevOps connection in Viva goals." lightbox="../media/goals/ado-images/connect-to-ado.png":::
    
 3. Select **Next** to get the connection up and running. You can edit the saved connection at any time.
 

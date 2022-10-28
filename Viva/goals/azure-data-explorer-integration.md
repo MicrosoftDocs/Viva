@@ -105,7 +105,7 @@ You can measure your OKRs progress by connecting your new or existing OKRs with 
 
 2. Once you have selected your Azure Data Explorer connection, provide the database name (e.g., ‘DataBaseName’) and the KQL query. Your query must return a single numeric value. 
 
-    :::image type="content" source="../media/goals/azure-data-explorer-new-connection-details.png" alt-text="Screenshot highlights the details to be provided for the Azure Data Explorer connection." lightbox="../media/goals/azure-data-explorer-new-connection-details.png":::
+    :::image type="content" source="../media/goals/ado-images/kusto-connection.png" alt-text="Screenshot highlights the details to be provided for the Azure Data Explorer connection." lightbox="../media/goals/ado-images/kusto-connection.png":::
 
 >[!NOTE]
 >The connection and the database establishes the context from which your query will be executed.  The user who sets up the connection must have access to any of the clusters/databases called from within the query. 

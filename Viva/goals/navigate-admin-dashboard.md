@@ -20,6 +20,8 @@ description: "Learn how to navigate the admin dashboard"
 ---
 # Navigate the admin Dashboard
 
+To login to Viva Goals, visit: https://goals.microsoft.com/
+
 Organization admins have direct access to the Microsoft Viva Goals admin dashboard. The dashboard offers settings that you can customize for your organization, which creates efficiency and confidence in Microsoft Viva Goals.
 
 Like other employees, you need to be familiar with:  
