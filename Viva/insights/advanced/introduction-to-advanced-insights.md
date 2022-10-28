@@ -29,11 +29,11 @@ Viva Insights includes the [advanced insights app](https://go.microsoft.com/fwli
 
 ### Analyst
 
-### Analysis
+#### Analysis
 
 As an analyst, the **Analysis** page is your jumping-off point to view recent queries and templates, find documentation and other help, run a custom query, or run a pre-defined Power BI query. 
 
-#### Query results
+##### Query results
 
 Use the **Query results** page to view the results of queries you and other analysts in your organization have run. 
 
@@ -49,13 +49,13 @@ In **Query results**, you can:
 
 For more information about the **Query results** page, refer to [Access query results and modify existing queries](./analyst/query-results.md)
 
-#### Metric rules
+##### Metric rules
 
 There is one default metric rule for this release of Viva Insights, called **Meeting exclusions**. This rule determines which meetings are excluded from collaboration metrics in Power BI templates, custom queries, and the Viva Insights app in Teams.
 
 While you can’t customize any metric rules in this release, you’ll be able to soon. For more information about metric rules in Viva Insights, refer to [Metric rules](./analyst/metric-rules.md).
 
-#### Data quality
+##### Data quality
 
 You as an analyst may receive warning messages related to the quality of uploaded data.  
 
@@ -63,7 +63,7 @@ Once you select View data quality, the app takes you to the **Organizational dat
 
 For information about data quality, refer to [Data quality in the analyst experience](./analyst/data-quality-analyst-experience.md).
 
-#### Video demos
+##### Video demos
 
 Go to **Video demos** to learn more about what you can do with the advanced insights app. The page provides several video walk-throughs, including those about running custom queries, using each Power BI template, and getting familiar with the Viva Insights interface.
 
