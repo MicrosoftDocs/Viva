@@ -19,7 +19,7 @@ audience: Admin
 
 ***Applies to**: Users who have a premium Microsoft Viva Insights license with an [applicable service plan](../personal/Overview/plans-environments.md)*
 
-You can see insights and suggested actions based on your personal habits in **Culture** within the Microsoft Viva Insights app. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
+You can see insights and suggested actions based on your personal habits in **Teamwork habits** within the Microsoft Viva Insights app. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
 
 To learn how to create a team, refer to [Manage your team](#manage-your-team). 
 
