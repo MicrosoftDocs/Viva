@@ -34,7 +34,7 @@ Enter user emails or Slack channels (if Slack integration is enabled for the org
 
 Click on **Add a personal note** if you want to add more context while sharing the summary of objectives. 
 
-:::image type="content" source="../media/goals/slack-images/share-3.png" alt-text="Screenshot of a how to share a summary from Viva Goals with the "your notes" section filled out." lightbox="../media/goals/slack-images/share-3.png":::
+:::image type="content" source="../media/goals/slack-images/share-3.png" alt-text="Screenshot of a how to share a summary from Viva Goals with the Your Notes section filled out." lightbox="../media/goals/slack-images/share-3.png":::
 
 > [!NOTE]
 > To send yourself a preview of the message that will be shared, click **Send Preview**
