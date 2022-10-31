@@ -73,7 +73,7 @@ You'll need site member permissions (or higher) to add and edit web parts to a S
 
     ![Screenshot of the company feed size settings](../media/connections/use-feed-web-part/feed-size.png)
 
-    When vertical: Select **Fit web part to height of page** to automatically fit the web part to the hight of the page. Or, **Select the number of items to display** to determine the height of the web part.
+    When vertical: Select **Fit web part to height of page** to automatically fit the web part to the height of the page. Or, **Select the number of items to display** to determine the height of the web part.
 
  6. Select **Save** when you are done.
  
