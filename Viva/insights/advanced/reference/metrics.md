@@ -17,7 +17,7 @@ search.appverid:
 
 # Advanced insights metrics
 
-The following metrics are available when creating analysis in the Advanced insights app with Microsoft Viva Insights, such as for custom Person queries and Power BI templates. The descriptions are listed alphabetically within each category.
+When you create queries in the Microsoft Viva Insights advanced insights app, you can add these metrics from the **Metrics** pane. We've listed the descriptions alphabetically within each category.
 
 | Category | Name | Description | Data type |
 |---|---|---|---|
@@ -93,3 +93,15 @@ The following metrics are available when creating analysis in the Advanced insig
 | | <a name="working-hours-call-hours-define"></a> Working-hours call hours | Number of hours a person spent in scheduled and unscheduled Teams calls, during working hours. | Hour |
 | | <a name="working-hours-chat-hours-define"></a> Working-hours chat hours | Number of hours a person spent in Teams chats during working hours. | Hour |
 | | <a name="working-hours-meeting-hours-define"></a> Working-hours meeting hours | Number of hours a person spent in meetings with at least one other person, during working hours. | Hour |
+
+
+## Exported metrics
+
+These metrics aren't selectable within the **Metrics** pane when you build queries, but they're included in query output.
+
+Applies to|Name| Description|
+|---|-------|------------|
+|Person queries |IsActive<sup>1</sup> | Boolean value of "TRUE" or "FALSE" for each active employee. Active employees send at least one email or Teams chat during the unit of time—day, week, or month<sup>2</sup>—defined by the query’s **Group by** setting. 
+
+<sup> 1. Read more about active employees and the "Is Active" filter in [Person queries](../analyst/person-query.md#is-active).
+<br>2. You might notice differences when comparing metrics summarized by day with metrics summarized by week; a person can be active in a week, but not necessarily active seven days of the week.<br>
