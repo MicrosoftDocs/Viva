@@ -101,7 +101,6 @@ These metrics aren't selectable within the **Metrics** pane when you build queri
 
 Applies to|Name| Description|
 |---|-------|------------|
-|Person queries |IsActive<sup>1</sup> | Boolean value of "TRUE" or "FALSE" for each active employee. Active employees send at least one email or Teams chat during the unit of time—day, week, or month<sup>2</sup>—defined by the query’s **Group by** setting. 
+|Person queries |IsActive | Boolean value of "TRUE" or "FALSE" for each active employee. Active employees send at least one email or Teams chat during the unit of time—day, week, or month<sup>1</sup>—defined by the query’s **Group by** setting. 
 
-<sup> 1. Read more about active employees and the "Is Active" filter in [Person queries](../analyst/person-query.md#is-active).
-<br>2. You might notice differences when comparing metrics summarized by day with metrics summarized by week; a person can be active in a week, but not necessarily active seven days of the week.<br>
+<sup>1. You might notice differences when comparing metrics summarized by day with metrics summarized by week; a person can be active in a week, but not necessarily active seven days of the week.</sup>
