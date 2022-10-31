@@ -40,7 +40,7 @@ Viva Connections combines the power of your intelligent SharePoint intranet with
 
 If you're using Viva Connections, the Feed web part brings organizational communication content from SharePoint, Yammer, Stream, Teams, and more into a single feed that [can be added to the home site](/viva/connections/home-site-plan). The Feed displays personalized content that will look different for each viewer. The hierarchy of content in the Feed can be influenced using tools like [News Boost](https://support.microsoft.com/en-us/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). Learn more about [content in the Feed](/viva/connections/faqs-viva-connections-feed).
 
-![Screenshot with the company feed highlighted](../media/connections/use-feed-web-part/feedwebpart_highlighted.png) 
+![Screenshot with the company feed highlighted.](../media/connections/use-feed-web-part/feedwebpart_highlighted.png) 
 
 ### Benefits of the web part include:
 
@@ -64,14 +64,14 @@ You'll need site member permissions (or higher) to add and edit web parts to a S
  
  4. Next, select either a vertical or horizontal orientation.
 
-    ![Screenshot of the company feed orientation settings](../media/connections/use-feed-web-part/feed-settings.png) 
+    ![Screenshot of the company feed orientation settings.](../media/connections/use-feed-web-part/feed-settings.png) 
 
     > [!NOTE]
     > - The vertical layout option will become available to all customers by the end of November 2022.
 
  5. Then, select the web part size.
 
-    ![Screenshot of the company feed size settings](../media/connections/use-feed-web-part/feed-size.png)
+    ![Screenshot of the company feed size settings.](../media/connections/use-feed-web-part/feed-size.png)
 
     When vertical: Select **Fit web part to height of page** to automatically fit the web part to the height of the page. Or, **Select the number of items to display** to determine the height of the web part.
 
