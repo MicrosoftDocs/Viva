@@ -32,27 +32,28 @@ We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](http
 ### PGP key generation instructions for Windows
 
 1. Download the Kleopatra tool from [Gpg4win](https://gpg4win.org)
+
 1. Open Kleopatra. Navigate to **Certificates** > **New Key Pair**.
 
-![Image of the Kleopatra tool home screen.](../media/learning/sfsf-kleopatra-1.png)
+   ![Image of the Kleopatra tool home screen.](../media/learning/sfsf-kleopatra-1.png)
 
 1. Enter your name and email, then select “Protect the generated key with a passphrase.”
 
-![Image of login window in Kleopatra prompting name and email credentials.](../media/learning/sfsf-kleopatra-2.png)
-
+   ![Image of login window in Kleopatra prompting name and email credentials.](../media/learning/sfsf-kleopatra-2.png)
 
 1. In **Advanced Settings**, change **Key Material** to **RSA**
 
-![Image of Advanced Settings with Key Material selected as RSA in Kleopatra tool](../media/learning/sfsf-kleopatra-3.png)
+   ![Image of Advanced Settings with Key Material selected as RSA in Kleopatra tool](../media/learning/sfsf-kleopatra-3.png)
 
 1. Select OK to generate your key pair.
+
 1. Enter a passphrase for your key pair and note this for future reference in the Microsoft 365 Admin center.
 
-![Image of prompt to enter passphrase to protect your new key in Kleopatra](../media/learning/sfsf-kleopatra-4.png)
+   ![Image of prompt to enter passphrase to protect your new key in Kleopatra](../media/learning/sfsf-kleopatra-4.png)
 
 1. Navigate to **File** > **Backup Secret Key**. Save your secret key locally for future reference.
 
-![Image of file menu with Backup Secret Keys option selected](../media/learning/sfsf-kleopatra-5.png)
+   ![Image of file menu with Backup Secret Keys option selected](../media/learning/sfsf-kleopatra-5.png)
 
 1. Navigate to **File** > **Export**. Save your public key file locally for future reference.
 
@@ -63,7 +64,9 @@ You have now successfully generated and saved your public and private key pair.
 1. Download [GNU Privacy Guard](https://www.gnupg.org/).
 
 1. On the GnuPG website, go to **Documentation**, then choose **Guides**
+
 1. Open the GNU Privacy Handbook.
+
 1. Follow the instructions in the section **Generating a new keypair**.
 
 ## Configure in your SuccessFactors portal
@@ -73,41 +76,38 @@ You have now successfully generated and saved your public and private key pair.
 
 1. Search Learning Administration in the search bar on the SAP SuccessFactors portal.
 
-![Image of SAP SuccessFactors Portal where you search for Learning Administration](../media/learning/SFSF-admin-center-page.png)
+   ![Image of SAP SuccessFactors Portal where you search for Learning Administration](../media/learning/SFSF-admin-center-page.png)
 
 1. Obtain the required workflows to edit the PARTNER_EXTRACT configuration, which you can get to by going to **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
 
-![Image of System Configuration meny with option section in PARTNER_EXTRACT](../media/learning/sfsf-system-config-partner-extract.png)
+   ![Image of System Configuration meny with option section in PARTNER_EXTRACT](../media/learning/sfsf-system-config-partner-extract.png)
 
-2. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you'll need **Edit System Configuration** workflow permission in SuccessFactors.
+1. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you'll need **Edit System Configuration** workflow permission in SuccessFactors.
 
-    - Customer notification email for all job status
-        - defaultJob.email=
-        - Correctly formatted line should read like: 
-            `defaultJob.email=johndoe@contoso.com` ![Image of SAP SuccessFactors Learning System Configuration screen with partner extract field highlighted](../media/learning/SFSF-system-config-highlighted-1.png)   
-           
-        -  For Microsoft Viva Learning enter the value **MVL**.
-            - partners1.partnerID=
-            - Correctly formatted line should read like this: `partners1.partnerID=MVL`
-            - EncryptionKey is the PGP public encryption key.
-             >[!NOTE] 
-            > Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated; don’t remove new line characters. Only copy the key block, which should be a Base64 string.  
-        - Correctly entered line should read like this example: 
-        `partner1.encryptionKey=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cFz0`
-        - Key Owner maps to the User-ID of public key 
-        - partners1.keyOwner= 
-        - Correctly formatted line should read like: `partners1.keyOwner=John Doe <john.doe@contoso.com`
-        - Set it to "true" to enable the partner extract.
+   Customer notification email for all job status
+   - defaultJob.email=
+      - Correctly formatted line should read like: 
+        `defaultJob.email=johndoe@contoso.com` ![Image of SAP SuccessFactors Learning System Configuration screen with partner extract field highlighted](../media/learning/SFSF-system-config-highlighted-1.png)   
+      -  For Microsoft Viva Learning enter the value **MVL**.
+         - partners1.partnerID=
+         - Correctly formatted line should read like this: `partners1.partnerID=MVL`
+         - EncryptionKey is the PGP public encryption key.
+           >[!NOTE] 
+           > Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated; don’t remove new line characters. Only copy the key block, which should be a Base64 string.  
+         - Correctly entered line should read like this example:    `partner1.encryptionKey=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cFz0`
+      - Key Owner maps to the User-ID of public key 
+         - partners1.keyOwner= 
+         - Correctly formatted line should read like: `partners1.keyOwner=John Doe <john.doe@contoso.com`
+         - Set it to "true" to enable the partner extract.
             - partners1.enabled=
             - Correctly formatted line should read like:`partners1.enabled=true `
              
-            
-![Image of SAP SuccessFactors Learning System Configuration screen with partner1.enabled set to "true."](../media/learning/SFSF-system-config-highlighted-2.png)
+:::image type="Content" source="../media/learning/SFSF-system-config-highlighted-2.png" alt-text="Image of SAP SuccessFactors Learning System Configuration screen with partner1.enabled set to "true." lightbox="../media/learning/SFSF-system-config-highlighted-2.png":::
 
-Once you've completed these steps in the SuccessFactors portal, you'll need to complete the setup in the Microsoft 365 admin center.
+After you've completed these steps in the SuccessFactors portal, you'll need to complete the setup in the Microsoft 365 admin center.
 
 >[!NOTE]
->Once you've finished the configuration in your SuccessFactors portal, SuccessFactors will generate the initial sync package. This may take up to 7 business days. Once the package is available in your SFTP folder path, Viva Learning will be able to begin communicating with SuccessFactors. If you can't find the package, contact your SuccessFactors support team.
+>After you've finished the configuration in your SuccessFactors portal, SuccessFactors will generate the initial sync package. This may take up to 7 business days. Once the package is available in your SFTP folder path, Viva Learning will be able to begin communicating with SuccessFactors. If you can't find the package, contact your SuccessFactors support team.
 
 ## Configure in your Microsoft 365 admin center
 
@@ -121,67 +121,69 @@ Make sure that the SuccessFactors package is available in the SFTP folder path.
 To obtain the folder path:
 
 1. Navigate to **SF Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
-2. Get the value of the defaultFtp.path property.
 
->[!NOTE]
->It may take up to 7 business days after configuration in your SuccessFactors portal for the SuccessFactors package to appear in your folder path. If you're still unable to find the package, contact your SuccessFactors support team.
+1. Get the value of the defaultFtp.path property.
+
+   >[!NOTE]
+   >It may take up to 7 business days after configuration in your SuccessFactors portal for the SuccessFactors package to appear in your folder path. If you're still unable to find the package, contact your SuccessFactors support team.
 
 ### Admin center configuration
 
 1. Navigate to your [Microsoft 365 admin center](https://admin.microsoft.com).
 
-2. Navigate to **Settings** > **Org settings**. Search for *Viva Learning* and enable SAP SuccessFactors from the options.
+1. Navigate to **Settings** > **Org settings**. Search for *Viva Learning* and enable SAP SuccessFactors from the options.
 
-3. Fill in the configuration details:
+1. Fill in the configuration details:
+   - **Display Name**: Enter the display name you want to appear for the SAP SuccessFactors carousel.
 
-    **Display Name**: Enter the display name you want to appear for the SAP SuccessFactors carousel.
+   - **SFTP Host URL**: Navigate to **LMS Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **CONNECTORS**. Get the value of the `connector.ftp.server` property.
+   
+   - Validate SFTP url, username and password by visiting https://<sftp_url> and logging in using username and password. 
 
-    **SFTP Host URL**: Navigate to **LMS Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **CONNECTORS**. Get the value of the `connector.ftp.server` property.
-    Validate SFTP url, username and password by visiting https://<sftp_url> and logging in using username and password. 
-
-    **User Name**: Follow the same steps you followed for the SFTP Host URL. Get the value of the `connector.ftp.userID` property. Ignore the password available in the configuration site.
+   - **User Name**: Follow the same steps you followed for the SFTP Host URL. Get the value of the `connector.ftp.userID` property. Ignore the password available in the configuration site.
 
     ![Image of System Config screen on connectors calling out admins to not enter the password in the connector.ftp.password field.](../media/learning/sfsf-system-config-highlighted3.png)
 
+   - **Password**: Check with your LMS application owner for help with retrieving your password. Enter that password here.
 
+   - **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property.
+    
+   - Validate the existence of the folder path in the SFTP server. Create the folder if it doesn't exist.
 
-    **Password**: Check with your LMS application owner for help with retrieving your password. Enter that password here.
+   - **Client's Host URL**: This is the BizX domain URL. You can get this from your BizX sign in URL. For example, if your BizX login URL is `organization.successfactors.com/sf/start/#/login` then the host URL is `organization.successfactors.com`.
 
-    **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property.
-    Validate the existence of the folder path in the SFTP server. Create the folder if it doesn't exist.
+   - **Client's Learning Destination URL**: You can get this from the learning domain module URL. For example, if the learning domain URL is `organization.scdemo.successfactors.com/learning/...` then the Learning Destination URL is `organization.scdemo.successfactors.com`.
 
-    **Client's Host URL**: This is the BizX domain URL. You can get this from your BizX sign in URL. For example, if your BizX login URL is `organization.successfactors.com/sf/start/#/login` then the host URL is `organization.successfactors.com`.
+   - **PGP Private Key**:private key for decryption. Do not copy over the header “BEGIN PGP PRIVATE KEY BLOCK” or the footer “END PGP PRIVATE KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated; don’t remove new line characters. Only copy the key block, which should be a Base64 string.  
 
-    **Client's Learning Destination URL**: You can get this from the learning domain module URL. For example, if the learning domain URL is `organization.scdemo.successfactors.com/learning/...` then the Learning Destination URL is `organization.scdemo.successfactors.com`.
+   - **PGP Private Key Passphrase**: You'll need to get the private key value from your IT admin or the team that provides your PGP key.
 
-    **PGP Private Key**:private key for decryption. Do not copy over the header “BEGIN PGP PRIVATE KEY BLOCK” or the footer “END PGP PRIVATE KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated; don’t remove new line characters. Only copy the key block, which should be a Base64 string.  
+   - **PGP Public Key**: You'll need to get public key value from your IT admin or the team that provides your PGP key. 
+      >[!Important]
+      > - Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated. 
+      > - Don’t remove new line characters. Copy only the key block, which should be a Base64 string.  
 
-    **PGP Private Key Passphrase**: You'll need to get the private key value from your IT admin or the team that provides your PGP key.
+   - **Company ID**: Sign in to your SuccessFactors portal. Select your profile icon, then select **Show Version Settings**. You can view your company ID here.
 
-    **PGP Public Key**: You'll need to get public key value from your IT admin or the team that provides your PGP key. Important note: Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated. Don’t remove new line characters. Copy only the key block, which should be a Base64 string.  
+      ![Image of the profile icon with Show Version Settings selected.](../media/learning/sf-3.png)
 
+      ![Image of the version settings pane.](../media/learning/sf-1.png)
 
+1. Select **Save** to activate SuccessFactors content in Microsoft Viva Learning. There may be a delay before the content is available in Viva Learning.
 
-    **Company ID**: Sign in to your SuccessFactors portal. Select your profile icon, then select **Show Version Settings**. You can view your company ID here.
-
- ![Image of the profile icon with Show Version Settings selected.](../media/learning/sf-3.png)
-
-![Image of the version settings pane.](../media/learning/sf-1.png)
-
-4. Select **Save** to activate SuccessFactors content in Microsoft Viva Learning. There may be a delay before the content is available in Viva Learning.
-
-5. Close out of the Viva Learning flyout and re-open it. If there are any issues, an error message will appear on the screen.
+1. Close out of the Viva Learning flyout and re-open it. If there are any issues, an error message will appear on the screen.
 
 ### Troubleshooting errors
 
 To troubleshoot, close and re-open the flyout.  
 Select the learning source you are trying to enable. Check the specific error fields.
 
-In case an invalid Private and Public Key pair has been entered in MAC Portal an error will display "PGP Keypair validation failed. Possible reasons for this failure - 1. Incorrect values entered for fields -  SF Public Key, SF Private Key, SF Private Key Pass Phrase 2. PGP keys generated with incorrect algorithm.”
+If an invalid Private and Public Key pair has been entered in MAC Portal, this error will display: "PGP Keypair validation failed. Possible reasons for this failure - 1. Incorrect values entered for fields -  SF Public Key, SF Private Key, SF Private Key Pass Phrase 2. PGP keys generated with incorrect algorithm.”
 
 >[!Note]
 > SuccessFactors courses will start appearing in Viva Learning within 7 days of successful setup.
 Package generation from Success Factors takes up to 7 days. Once the package is generated, ingestion will be triggered and it will get completed within few hours based on package size.
+
 SAP SuccessFactors deletes the Full Sync package from SFTP location automatically after 14 days from generation date.
 
 All users within an organization will be able to discover all the tenant-specific courses, but they'll only be able to access and consume courses that they have access to. User specific content discovery is planned for future releases. In Viva Learning, we show the courses which are part of an active library in SAP SuccessFactors. 
@@ -191,21 +193,21 @@ All users within an organization will be able to discover all the tenant-specifi
 
 ## Manage Permissions for SAP SuccessFactors
 
-You can synchronize Permissions applied using assignment profile on courses in SuccessFactors within Viva Learning application.  If a user is restricted to a certain course in SuccessFactors, then that user will not be able to view, search or consume the same course within Viva Learning. This is a one-way sync from SuccessFactors into Viva Learning.
+You can synchronize permissions applied using assignment profile on courses in SuccessFactors within Viva Learning application.  If a user is restricted to a certain course in SuccessFactors, then that user will not be able to view, search, or consume the same course within Viva Learning. This is a one-way sync from SuccessFactors into Viva Learning.
 
 ### Pre-requisites for catalog permissions sync
 
 1. Viva Suite or Viva Learning license is required to set up SAP SuccessFactors integration with Viva Learning.  
-    1. Any Microsoft 365 subscription that has Exchange Online and SharePoint Online will support groups. That includes the Business Essentials and Business Premium plans, and the Enterprise E1, E3, and E5 plan
+   Any Microsoft 365 subscription that has Exchange Online and SharePoint Online will support groups. That includes the Business Essentials and Business Premium plans, and the Enterprise E1, E3, and E5 plan
 
 2. Configure SAP SuccessFactors with Viva Learning: [Configure SAP SuccessFactors as a content source for Microsoft Viva Learning](/viva/learning/configure-successfactors-content-source)
-    1. If SAP SuccessFactors is already configured in your Viva Learning application, then you can skip to step 3.  
+   If SAP SuccessFactors is already configured in your Viva Learning application, then you can skip to step 3.  
 
 3. The Initial sync package generated by SAP SuccessFactors should be available in the configured SFTP folder path.  
 
 4. SAP SuccessFactors & Azure Active Directory user sync should be enabled.
-    1. If the learner record sync is already enabled successfully in Viva Learning, then you can skip to step 5.
-    1. Enable inbound user provisioning with SAP SuccessFactors to ensure that all users in Azure Active Directory have the right employee ID configured. [Prerequisite for learner record sync](/viva/learning/configure-successfactors-content-source#prerequisite-for-learner-record-sync)
+   If the learner record sync is already enabled successfully in Viva Learning, then you can skip to step 5.
+   Enable inbound user provisioning with SAP SuccessFactors to ensure that all users in Azure Active Directory have the right employee ID configured. [Prerequisite for learner record sync](/viva/learning/configure-successfactors-content-source#prerequisite-for-learner-record-sync)
 
 ## Programs and learning paths
 
@@ -222,7 +224,7 @@ Check the **Enable Learner Record Sync** checkbox to enable assignments and cour
 By checking this checkbox, you're allowing Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapping-related information is deduced.  
 
 >[!NOTE]
->The full sync file needs to be generated from SAP SuccessFactors if you enable the learner record sync at a later stage after enabling catalog sync
+>The full sync file needs to be generated from SAP SuccessFactors if you enable the learner record sync at a later stage after enabling catalog sync.
 
 ### Prerequisite for learner record sync
 
@@ -230,8 +232,8 @@ You'll need to enable inbound user provisioning with SAP SuccessFactors to ensur
 
 Refer to the scenario table below to pick the right integration steps for your setup.
 
-| **Scenario** | **Do you have on-premises Active Directory?** | **Do you have an Azure AD tenant?** | **Are you using [AAD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) or [Cloud sync](/azure/active-directory/cloud-sync/what-is-cloud-sync) to sync on-premises identities to Azure AD?** | **Are you synchronizing employee data from SAP SuccessFactors to on-premises AD or Azure AD?** | **Recommended integration steps** |
-| -- | -- | -- | -- | -- | -- |
+| Scenario | Do you have on-premises Active Directory? | Do you have an Azure AD tenant? | Are you using [AAD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) or [Cloud sync](/azure/active-directory/cloud-sync/what-is-cloud-sync) to sync on-premises identities to Azure AD? | Are you synchronizing employee data from SAP SuccessFactors to on-premises AD or Azure AD? | Recommended integration steps |
+| :-- | :-- | :-- | :-- | :-- | :-- |
 | Scenario 1   | Yes | Yes  | Yes  | No  | - Review the cloud HR provisioning [deployment plan](/azure/active-directory/app-provisioning/plan-cloud-hr-provision).<br> - Configure [SAP SuccessFactors inbound user provisioning to on-premises Active Directory](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).  |
 | Scenario 2   | No  | Yes  | NA   | No  | - Review the cloud HR provisioning [deployment plan](/azure/active-directory/app-provisioning/plan-cloud-hr-provision).<br> - Configure [SAP SuccessFactors inbound user provisioning to Azure Active Directory](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-cloud-only-tutorial). |
 | Scenario 3   | Yes | Yes  | Yes  | Yes | - If you're synchronizing SAP SuccessFactors data to on-premises AD using an IAM tool like Microsoft Identity Manager or a middleware service and the `employeeID` information is already present in AD and Azure AD then there is no additional configuration required.  |
