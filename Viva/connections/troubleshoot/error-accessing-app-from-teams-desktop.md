@@ -41,7 +41,7 @@ This error occurs if a SharePoint Framework (SPFx) web part is added to Viva Con
 
 To resolve this issue, navigate to the API Access page from the SharePoint admin center:
 
-1. As a Global Admin, open the **SharePoint admin center**.
+1. As a Global admin, open the **SharePoint admin center**.
 2. Select **Advanced**. 
 3. Select **API access**.
 
