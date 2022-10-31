@@ -47,7 +47,7 @@ To resolve this issue, navigate to the API Access page from the SharePoint admin
 
 **Important** If you don't see the API access option under Advanced, try the following steps: 
 
-1. As a Global Admin, open the **SharePoint admin center**.
+1. As a Global admin, open the **SharePoint admin center**.
 2. Select **More features**.
 3. Select the **Open** button under **Apps**.
 4. Select **API access**.
