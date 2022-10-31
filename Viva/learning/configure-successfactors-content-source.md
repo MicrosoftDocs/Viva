@@ -33,12 +33,27 @@ We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](http
 
 1. Download the Kleopatra tool from [Gpg4win](https://gpg4win.org)
 1. Open Kleopatra. Navigate to **Certificates** > **New Key Pair**.
+
+![Image of the Kleopatra tool home screen.](../media/learning/sfsf-kleopatra-1.png)
+
 1. Enter your name and email, then select “Protect the generated key with a passphrase.”
 
+![Image of login window in Kleopatra prompting name and email credentials.](../media/learning/sfsf-kleopatra-2.png)
+
+
 1. In **Advanced Settings**, change **Key Material** to **RSA**
+
+![Image of Advanced Settings with Key Material selected as RSA in Kleopatra tool](../media/learning/sfsf-kleopatra-3.png)
+
 1. Select OK to generate your key pair.
 1. Enter a passphrase for your key pair and note this for future reference in the Microsoft 365 Admin center.
+
+![Image of prompt to enter passphrase to protect your new key in Kleopatra](../media/learning/sfsf-kleopatra-4.png)
+
 1. Navigate to **File** > **Backup Secret Key**. Save your secret key locally for future reference.
+
+![Image of file menu with Backup Secret Keys option selected](../media/learning/sfsf-kleopatra-5.png)
+
 1. Navigate to **File** > **Export**. Save your public key file locally for future reference.
 
 You have now successfully generated and saved your public and private key pair. Use the public key in the SAP SuccessFactors portal and the private key in the Microsoft 365 Admin Center.
@@ -57,25 +72,30 @@ You have now successfully generated and saved your public and private key pair. 
 >You'll need to have admin permissions in SuccessFactors to complete these steps.
 
 1. Search Learning Administration in the search bar on the SAP SuccessFactors portal.
+
 1. Obtain the required workflows to edit the PARTNER_EXTRACT configuration, which you can get to by going to **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
 
 2. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you'll need **Edit System Configuration** workflow permission in SuccessFactors.
 
     - Customer notification email for all job status
         - defaultJob.email=
+        - Correctly formatted line should read like: 
+            `defaultJob.email=johndoe@contoso.com`
     
     - Partner1
         - The maximum length of PartnerID is 10 characters. For Microsoft Viva Learning enter the value **MVL**.
             - partners1.partnerID=
+            - Correctly formatted line should read like this: `partners1.partnerID=MVL` 
+        -EncryptionKey is the PGP public encryption key. Important note: Do not copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated; don’t remove new line characters. Only copy the key block, which should be a Base64 string.  
+        - Correctly entered line should read like this example: 
+            `partner1.encryptionKey=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cFz0`
     
-    - EncryptionKey is the PGP public encryption key, which is the entire section between BEGIN PGP PUBLIC KEY BLOCK and END PGP PUBLIC KEY BLOCK. Make sure to remove any line breaks in the key when you enter this value.
-        - partners1.encryptionKey=
-    
-    - KeyOwner maps to the User-ID of public key
-        - partners1.keyOwner=
-    
-    - enabled can be "false" or "true". Set it to "true" to enable the partner extract.
+    - Key Owner maps to the User-ID of public key 
+        - partners1.keyOwner= 
+        - Correctly formatted line should read like: `partners1.keyOwner=John Doe <john.doe@contoso.com`
+    - Set it to "true" to enable the partner extract.
         - partners1.enabled=
+        - Correctly formatted line should read like:`partners1.enabled=true `
     
     [![Image of the PARTNER_EXTRACT configuration settings.](../media/learning/sf-focus.png)](../media/learning/sf-2.png#lightbox)
 
