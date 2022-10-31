@@ -102,7 +102,7 @@ You have now successfully generated and saved your public and private key pair.
             - partners1.enabled=
             - Correctly formatted line should read like:`partners1.enabled=true `
              
-:::image type="Content" source="../media/learning/SFSF-system-config-highlighted-2.png" alt-text="Image of SAP SuccessFactors Learning System Configuration screen with partner1.enabled set to "true." lightbox="../media/learning/SFSF-system-config-highlighted-2.png":::
+:::image type="Content" source="../media/learning/SFSF-system-config-highlighted-2.png" alt-text="Image of SAP SuccessFactors Learning System Configuration screen with partner1.enabled set to **true**." lightbox="../media/learning/SFSF-system-config-highlighted-2.png":::
 
 After you've completed these steps in the SuccessFactors portal, you'll need to complete the setup in the Microsoft 365 admin center.
 
