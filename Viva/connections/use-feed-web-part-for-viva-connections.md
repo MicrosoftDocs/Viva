@@ -66,6 +66,9 @@ You'll need site member permissions (or higher) to add and edit web parts to a S
 
     ![Screenshot of the company feed orientation settings](../media/connections/use-feed-web-part/feed-settings.png) 
 
+    > [!NOTE]
+    > - The vertical layout option will become available to all customers by the end of November 2022.
+
  5. Then, select the web part size.
 
     ![Screenshot of the company feed size settings](../media/connections/use-feed-web-part/feed-size.png)
