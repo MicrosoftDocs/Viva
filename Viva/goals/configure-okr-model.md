@@ -76,9 +76,6 @@ Projects are the activities that drive toward your key results (your outcomes). 
    - Projects don't contribute to the progress of their parent by default.
    - Block projects from contributing to the progress of their parent.
 
-- **Rename projects**
-
-   Define what you want projects to be called. You can rename the default label and call projects *initiatives*, *tactics*, or anything else. This change will be reflected across your instance of Viva Goals.
 
 ## How to save your OKR model configuration settings
 
