@@ -55,7 +55,7 @@ This uses sample data that is only representative of the dashboard and might not
 
 Before you can run the results and populate the dashboard in Power BI, you must:
 
-* Be assigned [Insights Business Leader role](../use/user-roles.md).
+* Be assigned [Insights Business Leader role](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version.
 Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
@@ -68,7 +68,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 2. For **Try the beta version of Organizational Insights**, select **Download Power BI**.
 3. Open the downloaded **Employee experience** template, and if prompted to select a program, select **Power BI**.
 4. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-5. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+5. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. See [Troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#troubleshooting) for more details.
 
     >[!Important]
     >You must sign in to Power BI with the same account you use to access Viva Insights.
@@ -78,7 +78,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 
 ## Achieved or At Risk KPIs
 
-Because Viva Insights respects user privacy, the Employee experience reports in Power BI do not show information about individual recipients and when necessary to protect privacy, it reports approximated values only. For example, the following shows an approximation about “Hosting targeted meetings.” Groups with less than 10 employees are not shown in the reports. See [De-identification of personal data in Viva Insights](../privacy/de-identify-data.md) for details.
+Because Viva Insights respects user privacy, the Employee experience reports in Power BI do not show information about individual recipients and when necessary to protect privacy, it reports approximated values only. For example, the following shows an approximation about “Hosting targeted meetings.” Groups with less than 10 employees are not shown in the reports. See [De-identification of personal data in Viva Insights](/viva/insights/privacy/de-identify-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 ![Example KPI approximation about Hosting targeted meetings.](../Images/WpA/Tutorials/kpi-example.png)
 
@@ -90,7 +90,7 @@ Number of employees in a group | Value threshold range for Achieved
 11 to 20 | 10 to 90 percent
 21 or more | 5 to 95 percent
 
-For more information, see [Differential privacy in Viva Insights](../privacy/differential-privacy.md).  
+For more information, see [Differential privacy in Viva Insights](/viva/insights/privacy/differential-privacy?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).  
 
 ## Organizational data
 
@@ -101,8 +101,8 @@ After the dashboard is set up and populated with data in Power BI, as a first st
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Related topic
 
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+[View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

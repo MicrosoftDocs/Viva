@@ -1,6 +1,6 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
-title: Power BI templates in Microsoft Viva Insights
+ROBOTS: NOINDEX,NOFOLLOW
+title: Introduction to Power BI templates in Microsoft Viva Insights
 description: Learn about Microsoft Viva Insights Power BI templates
 author: lilyolason
 ms.author: v-lilyolason
@@ -41,6 +41,7 @@ The **Analysis** page has templates for the following Power BI reports for visua
 * [Manager effectiveness](manager-effectiveness.md)
 
     Gain insight into collaboration patterns of people managers and find ways to improve their effectiveness.
+
 * [Meeting effectiveness](meeting-effectiveness.md)
 
     Identify whether employees practice habits that lead to more effective meetings.

@@ -1,0 +1,268 @@
+#this is the Workplace Analytics legacy contextual toc. Existing customers enter via a link from the legacy application.
+items:
+- name: Advanced insights
+  items:
+  - name: Overview
+    href: /viva/insights/index-orig?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
+  - name: Data privacy and protection
+    items:
+    - name: Data-protection considerations
+      href: /viva/insights/privacy/data-protection-intro
+    - name: Data de-identification
+      href: /viva/insights//Privacy/de-identify-data
+    - name: Differential privacy
+      href: /viva/insights/Privacy/differential-privacy
+    - name: Privacy and data access
+      href: /viva/insights/Privacy/privacy-and-data-access
+    - name: Data retention policy
+      href: /viva/insights/Privacy/license-expiration  
+  - name: Setup and maintenance
+    items:
+    - name: Setup
+      href: /viva/insights/setup/set-up-workplace-analytics 
+    - name: Maintenance
+      href: /viva/insights/setup/maintain-workplace-analytics
+    - name: Assign licenses
+      items:
+      - name: Overview
+        href: /viva/insights/setup/assign-licenses-to-population 
+      - name: Assign licenses with PowerShell
+        href: /viva/insights/use/Assigning-licenses-with-powershell
+    - name: Assign roles
+      items:
+    - name: Assign admin roles
+      href: /viva/insights/setup/assign-roles-to-wpa-admins
+    - name: Role access
+      href: /viva/insights/Use/User-Roles
+    - name: Assign user roles
+      href: /viva/insights/setup/assign-user-roles 
+    - name: Controls
+      items:
+    - name: Introduction
+      href: /viva/insights/Use/Settings
+    - name: Data sources
+      items:
+      - name: Introduction
+        href: /viva/insights/Use/data-sourcesv2
+      - name: Microsoft 365 data
+        href: /viva/insights/Use/office-365-data
+      - name: Organizational data
+        href: /viva/insights/Use/organizational-data 
+      - name: CRM data
+        href: /viva/insights/Use/crm-data
+    - name: Upload
+      items:
+    - name: Prepare organizational data
+      href: /viva/insights/Setup/prepare-organizational-data
+    - name: Upload organizational data
+      items: 
+      - name: First upload
+        href: /viva/insights/Setup/upload-organizational-data-1st
+      - name: Subsequent uploads
+        href: /viva/insights/Setup/upload-organizational-data2
+    - name: Upload CRM data
+      href: /viva/insights/Setup/crm-data-upload
+    - name: Leader & manager settings
+      items:
+      - name: Introduction
+        href: /viva/insights/Use/admin-settings
+      - name: Manager settings
+        href: /viva/insights/Use/manager-settings
+    - name: Analyst settings
+      items:
+      - name: Introduction
+        href: /viva/insights/Use/analyst-settings
+      - name: System defaults
+        href: /viva/insights/Use/system-defaults
+      - name: Privacy settings and exclusions
+      href: /viva/insights/Use/privacy-settings
+    - name: Exclusions
+      items:
+      - name: Introduction
+        href: /viva/insights/tutorials/exclusions-introduction
+      - name: Meeting exclusions
+        items:
+        - name: Introduction
+          href: /viva/insights/tutorials/meeting-exclusions-intro
+      - name: Walkthroughs
+        href: /viva/insights/tutorials/meeting-exclusion-rules
+      - name: Tools and concepts
+        href: /viva/insights/tutorials/meeting-exclusion-concept
+      - name: Attendee exclusions
+      href: /viva/insights/tutorials/attendee-exclusion-rules
+    - name: Audit logs
+      href: /viva/insights/setup/audit-logs
+  - name: Use advanced insights
+    items:
+    - name: Introduction
+      href: /viva/insights/overview/get-started
+    - name: Home
+      href: /viva/insights/Use/insights
+      items:
+      - name: Enhance organizational resiliency
+        href: /viva/insights/Use/resilient-organizations
+      - name: Boost employee engagement
+        href: /viva/insights/Use/boost-engagement
+      - name: Improve agility
+        href: /viva/insights/Use/improve-agility
+      - name: Foster innovation
+        href: /viva/insights/Use/foster-innovation
+      - name: Develop effective managers
+        href: /viva/insights/Use/develop-managers
+      - name: Enhance operational effectiveness
+        href: /viva/insights/Use/effective-operations
+      - name: Accelerate change
+        href: /viva/insights/Use/accelerate-change
+      - name: Transform meeting culture
+        href: /viva/insights/Use/transform-meetings
+      - name: Increase customer focus
+        href: /viva/insights/Use/customer-focus
+    - name: Analyze
+      items:
+      - name: Query designer
+        items:
+        - name: Overview
+          href: /viva/insights/tutorials/query-designer
+        - name: Templates
+          items:
+          - name: Introduction
+            href: /viva/insights/tutorials/power-bi-intro
+          - name: Sales effectiveness
+            href: /viva/insights/tutorials/power-bi-sales
+          - name: Ways of working assessment
+            href: /viva/insights/tutorials/power-bi-collab-assess
+          - name: Ways of working tracker
+            href: /viva/insights/tutorials/power-bi-collab-track
+          - name: Return to worksites
+            href: /viva/insights/tutorials/power-bi-return-tw
+          - name: Wellbeing
+            href: /viva/insights/tutorials/power-bi-wellbeing
+          - name: Business continuity
+            href: /viva/insights/tutorials/power-bi-bc
+          - name: Teams insights
+            href: /viva/insights/tutorials/power-bi-teams
+          - name: Manager effectiveness
+            href: /viva/insights/tutorials/power-bi-manager
+          - name: Behavior patterns for Glint
+            href: /viva/insights/tutorials/power-bi-glint-2
+          - name: Sales business continuity
+            href: /viva/insights/tutorials/pbi-bc-sales
+          - name: Power BI tips, FAQ, and troubleshooting
+            href: /viva/insights/tutorials/power-bi-templates
+      - name: Queries
+        items:
+        - name: Overview
+          href: /viva/insights/tutorials/query-basics
+        - name: Person queries
+          items:
+          - name: Introduction
+            href: /viva/insights/tutorials/Person-queries
+          - name: Visualize person queries
+            href: /viva/insights/tutorials/query-visualization
+        - name: Meeting queries
+          href: /viva/insights/tutorials/Meeting-queries
+        - name: Group-to-group queries
+          href: /viva/insights/tutorials/Group-to-group-queries
+        - name: Person-to-group queries
+          href: /viva/insights/tutorials/Person-to-group-queries
+        - name: Queries with CRM data
+          href: /viva/insights/tutorials/crm-queries
+        - name: Peer comparison queries
+          href: /viva/insights/tutorials/comparison-query
+        - name: Network queries
+          items: 
+          - name: Network person queries
+            href: /viva/insights/tutorials/ona-person-query
+          - name: Network person-to-person queries
+            href: /viva/insights/tutorials/ona-person-to-person-query
+          - name: Network query metrics
+            href: /viva/insights/tutorials/ona-metrics
+        - name: Customize query metrics
+          href: /viva/insights/tutorials/Customize-a-metric
+        - name: View, download, and export query results
+          href: /viva/insights/Use/View-download-and-export-query-results
+        - name: Understand and interpret query output
+          href: /viva/insights/Use/Csv-query-output-file
+        - name: Query auto-refresh
+          href: /viva/insights/tutorials/Query-auto-refresh
+      - name: Capacity model
+        href: /viva/insights/tutorials/consump-model
+      - name: Business process analysis
+        href: /viva/insights/tutorials/analyze-business-processes
+      - name: Peer analysis
+        href: /viva/insights/use/peer-analysis
+      - name: Explore the stats
+        items:
+        - name: Introduction
+          href: /viva/insights/Use/explore-intro
+        - name: Week in the life
+          href: /viva/insights/Use/explore-metrics-week-life
+        - name: Meetings overview
+          href: /viva/insights/Use/Explore-Metrics-meetings-overview
+        - name: Management and coaching
+          href: /viva/insights/Use/Explore-Metrics-management-and-coaching
+        - name: Internal networks
+          href: /viva/insights/Use/Explore-Metrics-internal-networks
+        - name: External collaboration
+          href: /viva/insights/Use/Explore-Metrics-external-collaboration
+        - name: Teams collaboration
+          href: /viva/insights/Use/Explore-metrics-teams
+      - name: Charts
+        href: /viva/insights/Use/Chart-Types
+      - name: wpa R package
+        href: /viva/insights/tutorials/wpa-r-package
+      - name: Zoom integration
+        href: /viva/insights/Use/zoom
+      - name: Qualtrics integration
+        href: /viva/insights/Use/qualtrics
+      - name: Workspace Collaboration Optimizer
+        href: /viva/insights/Use/wsplan
+    - name: Plans
+      items:
+      - name: Introduction
+        href: /viva/insights/tutorials/solutionsv2-intro
+    - name: Plan types
+      items:
+      - name: Teamwork plans
+        href: /viva/insights/tutorials/teamwork-solution
+      - name: Seller success plan
+        href: /viva/insights/tutorials/seller-success
+    - name: Use plans
+      items: 
+      - name: Walkthrough
+        href: /viva/insights/tutorials/solutionsv2-task
+      - name: Participants
+        href: /viva/insights/tutorials/solutionsv2-participants
+      - name: Concepts
+        href: /viva/insights/tutorials/solutionsv2-conceptual
+    - name: Notifications 
+      href: /viva/insights/use/wpa-notifications
+    - name: In Power BI
+      href: /viva/insights/tutorials/pbi-home-deeper
+    - name: Advanced insights FAQ
+      href: /viva/insights/use/faq
+    - name: Known issues
+      items:
+      - name: Download a query report in UTF-8 format
+        href: /viva/insights/tutorials/Download-UTF8-query-report
+      - name: Advanced insights 500 error
+        href: /viva/insights/tutorials/Wpa-tool-500-error
+      - name: Meeting exclusion rules - large meeting limitation
+        href: /viva/insights/tutorials/meeting-exclusion-250
+    - name: Reference
+      items:
+      - name: Glossary
+        href: /viva/insights/Use/Glossary
+      - name: Metric descriptions
+        href: /viva/insights/Use/metric-definitions
+      - name: Metric filters
+        href: /viva/insights/Use/metric-filters
+      - name: Network graph metrics
+        href: /viva/insights/Use/insight-ona-measures
+      - name: Best practices
+        href: /viva/insights/Tutorials/gm-best-practices
+      - name: Time zones
+        href: /viva/insights/Use/Timezones-for-Workplace-analytics
+      - name: Languages and guidelines
+      href: /viva/insights/Overview/Supported-languages
+      

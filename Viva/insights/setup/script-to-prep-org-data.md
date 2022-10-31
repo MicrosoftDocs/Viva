@@ -20,7 +20,7 @@ audience: Admin
 
 ## Introduction
 
-This script can help you to onboard people for the first time or create a new file to update organizational data. It uses the [Mainline service](/powershell/azure/active-directory/overview) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create an organizational-data file. A Viva Insights Administrator can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
+This script can help you to onboard people for the first time or create a new file to update organizational data. It uses the [Mainline service](/powershell/azure/active-directory/overview) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create an organizational-data file. A Viva Insights Administrator can upload this file as is or edit it first. For more information, see [Prepare organizational data](/viva/insights/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [Upload organizational data (first upload)](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), and [Upload organizational data (subsequent uploads)](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Prerequisites
 
@@ -166,6 +166,6 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 
 #### About organizational data
 
-* [Prepare organizational data](prepare-organizational-data.md)
-* [Upload organizational data (first upload)](upload-organizational-data-1st.md)
-* [Upload organizational data (subsequent uploads)](upload-organizational-data2.md)
+* [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Upload organizational data (first upload)](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Upload organizational data (subsequent uploads)](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

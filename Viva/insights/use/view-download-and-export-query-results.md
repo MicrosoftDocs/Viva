@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: View, download, and export query results with Viva Insights
 description: Describes how to view, download, and export Microsoft Viva Insights query data to Power BI and other data analysis tools
 author: madehmer
@@ -44,7 +45,7 @@ In the following example of a query-result file that's been opened in Excel, met
 ![Column headers.](../images/wpa/Use/columns-attributes-metrics.png)
   
 >[!Note]
->Metric names in character sets other than the Latin character set are retained in their original languages (as described here) for all query types but two: the [Peer comparison query](../tutorials/comparison-query.md) and the [ONA Person-to-person query](../tutorials/ona-person-to-person-query.md). In the results for these query types, metrics in non-Latin-character-set text appear in column headers as garbled characters.
+>Metric names in character sets other than the Latin character set are retained in their original languages (as described here) for all query types but two: the [Peer comparison query](/viva/insights/tutorials/comparison-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and the [ONA Person-to-person query](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). In the results for these query types, metrics in non-Latin-character-set text appear in column headers as garbled characters.
 
 >[!Important]
 >If your organization has custom applications or clients that use or process query-result data, these downstream apps or clients must be prepared to accept query output with column headers as described here, namely with metric names in their original language and with organizational-data attribute names in English.
@@ -55,7 +56,7 @@ You can use the following options to access and use Viva Insights query data in 
 
 |Option | Description |
 |------ | ----------- |
-|[Download and import query results](#download-and-import-query-results) | Exports *static raw data* from a Advanced insights query as a .csv file, which you can then import into a tool of your choice. <br><br>When sharing analysis in the other tool, take caution to ensure that only authorized users can access the raw data. |
+|[Download and import query results](#download-and-import-query-results) | Exports *static raw data* from an Advanced insights query as a .csv file, which you can then import into a tool of your choice. <br><br>When sharing analysis in the other tool, take caution to ensure that only authorized users can access the raw data. |
 |[Get a link for an OData feed to use in Power BI](#get-a-link-for-an-odata-feed-to-use-in-power-bi) | Automatically imports dynamic, raw query data from the advanced insights app into Power BI.<br><br>When sharing analysis in Power BI, take caution to ensure that only authorized users can access the raw data. <br><br>If the query is set up to auto-refresh in the advanced insights app, your Power BI visuals will automatically update on the same schedule.|
 |[Connect through the Power BI Connector](#connect-through-the-power-bi-connector) | Automatically connects Power BI to dynamic, aggregated data from within Person or Meeting queries. <br><br>Automatically enforces data privacy by keeping the raw data in the advanced insights app. As you create visuals in Power BI, the Connector dynamically provides the aggregated data to support them (in DirectQuery mode). <br><br>If the query is set up to auto-refresh in the advanced insights app, your Power BI visuals will automatically update on the same schedule. |
 
@@ -97,7 +98,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
    >[!Note]
    >The auto-refresh option for queries determines whether the data in the OData feed is static or dynamic:
-   >* If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md).
+   >* If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
    >* If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you must run a new query and get a new corresponding URL.
 
 ### Use an OData link to view data in Excel
@@ -136,16 +137,19 @@ You can connect to aggregated, auto-refreshed data from custom Person or Meeting
 #### Use the Power BI Connector
 
 1. In Power BI Desktop, select **Get Data**.
-2. Select **Online Services**, select **Workplace Analytics**, and then select **Connect**.
+2. Select **Online Services**, select **Viva Insights**, and then select **Connect**.
 3. Locate and copy the identifier of the currently selected Viva Insights partition. To do this, select the user icon in the top right of the page in the advanced insights app, select **My information**, and then highlight and copy the **Partition identifier**.
 
     ![My information screen.](../images/wpa/use/top-right-my-info.png)
 
-4. In **Connect to Workplace Analytics Data**, paste the copied partition identifier.
+4. In **Connect to Viva Insights Data**, paste the copied partition identifier.
 
-    ![Enter the app data connections.](../images/wpa/use/pbi-connect.png)
+    ![Enter the app data connections.](../images/wpa/use/pbi-connect-viva.png)
 
-   * If you only enter a Partition Identifier and no Query Name or Query Identifier, you will get a general set of Person metrics for the Power BI reports. For details, see [Power BI Connector metrics](power-bi-metrics.md).
+    >[!Important]
+    > You need to append “wpa:” to the **Partition Identifier**. For example, if your partition identifier is “f016bc17-f743-4021-9d26-0a5dcb11fd4f”, you'd need to enter “wpa:f016bc17-f743-4021-9d26-0a5dcb11fd4f” in the **Partition Identifier** field. 
+
+   * If you only enter a **Partition Identifier** and no **Query Name** or **Query Identifier**, you will get a general set of Person metrics for the Power BI reports. For details, see [Power BI Connector metrics](power-bi-metrics.md).
 
    * If instead you want to connect to a custom Person or Meeting query, follow these steps:
 
@@ -159,17 +163,22 @@ You can connect to aggregated, auto-refreshed data from custom Person or Meeting
 
        3. You can add up to two results at a time by adding two IDs, separated by a comma. When two results are added at the same time, they are combined into a single table in Power BI.
 
-5. In **Schema Type**, you can _optionally_ select one of the following:
+5. You can optionally select the following **Advanced parameters**: 
 
-   * **Pivoted (Default)** - The organizational attribute data is imported by using the default data schema that is used in Viva Insights.
-   * **Unpivoted** - Currently only available for person queries. Select to ‘unpivot’ the imported organizational data into two columns named **Attribute Name** and **Attribute Value** for easier comparisons across attributes.
+    * In **Schema Type**, select:
+        * **Pivoted (Default)** to load organizational attributes as individual columns.
+        * **Unpivoted** to load organizational attributes as key-value pairs—for example, **AttributeName = Organization**, **AttributeValue = Finance**. 
+   * **Data granularity > Aggregated data (default)** to push queries to the database to get aggregated results. 
 
-6. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](/power-bi/desktop-use-directquery).
+>[!Note] 
+>Row-level data isn't supported. If you want to load raw query results into Power BI, use the [OData connector](#get-a-link-for-an-odata-feed-to-use-in-power-bi).
+
+6. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](/power-bi/connect-data/desktop-use-directquery).
 
    * **DirectQuery** (*recommended*) – As you create Power BI visuals, the Connector will provide the aggregated data to support them.  
    * **Import** – Requires you to identify how you want to aggregate the data first. That data is then imported into Power BI and from there you can create your visualizations.  
 7. The first time you use the Power BI Connector for a partition ID, or when your authentication token expires, and you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
-8. In the **Power BI Navigator**, select the query name or standard person metrics that you want to analyze, and then select **Load**.
+8. If prompted, in the **Power BI Navigator**, select the query name or standard person metrics that you want to analyze, and then select **Load**.
 
     ![Power BI Navigator.](../images/wpa/use/pbi-navigator.png)
 
@@ -184,8 +193,8 @@ After you have finished creating visuals, you can publish your reports to Power 
 ## Related topics
 
 * [Connect to OData feeds in Power BI Desktop](/power-bi/desktop-connect-odata)
-* [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md)
-* [User roles in Viva Insights](../use/user-roles.md)
-* [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
+* [Power BI tips, FAQ, and troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [User roles in Viva Insights](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Auto-refresh option for queries](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Supported languages and guidelines](../overview/supported-languages.md)
 

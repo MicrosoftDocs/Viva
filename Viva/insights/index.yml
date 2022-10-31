@@ -22,10 +22,10 @@ highlightedContent:
   items:
     - title: Environment requirements
       itemType: get-started # controls the icon image and super-title text
-      url: ./setup/environment-requirements.md
+      url: ./advanced/setup-maint/environment-requirements.md
     - title: Privacy protection
       itemType: learn 
-      url: ./privacy/data-protection-intro.md
+      url: ./advanced/privacy/privacy.md
     - title: Personal insights
       itemType: quickstart
       url: ./personal/introduction.md
@@ -37,4 +37,4 @@ highlightedContent:
       url: ./org-team-insights/org-trends.md
     - title: Advanced insights
       itemType: deploy
-      url: index-orig.md
+      url: advanced/introduction-to-advanced-insights.md

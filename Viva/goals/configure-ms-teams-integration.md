@@ -1,8 +1,8 @@
 ---
 title: Add the Viva Goals app to Microsoft Teams
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: 
 audience: Admin
 f1.keywords:

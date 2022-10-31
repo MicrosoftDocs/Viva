@@ -1,9 +1,9 @@
 ---
 title: "Jira Integration"
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
-manager: <TBD>
+ms.author: rasanders
+author: RaSanders-MSFT
+manager:
 audience: Admin
 f1.keywords:
 - NOCSH

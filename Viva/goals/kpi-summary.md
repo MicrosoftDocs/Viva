@@ -3,7 +3,7 @@ title: "Key performance indicator (KPI) summary"
 ms.reviewer: 
 ms.author: ranjaliroy
 author: ranjali-MS
-manager: <TBD>
+manager:
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Meeting exclusion rule concepts
 description: Describes concepts and tools for meeting exclusion rules, including a word cloud and a list of supported languages
 author: madehmer
@@ -17,7 +17,7 @@ audience: Admin
 
 # Meeting exclusion rule concepts and tools
 
-You can use the following screen elements and concepts to create and use meeting exclusion rules in the advanced insights app for Microsoft Viva Insights. For step-by-step walkthroughs, see [Meeting exclusion rule walkthroughs](meeting-exclusion-rules.md).
+You can use the following screen elements and concepts to create and use meeting exclusion rules in the advanced insights app for Microsoft Viva Insights. For step-by-step walkthroughs, see [Meeting exclusion rule walkthroughs](/viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 At each step in the exclusion-creation flow, you'll see a page, such as the following.
 
@@ -43,7 +43,7 @@ Before you apply any filters, 100% of meeting hours are still available for anal
 
   ![Meeting hours summary (before).](../images/wpa/tutorials/09-summary-meetings-hours.png)
 
-As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough describes, as you complete each step and move on to the next one, you'll see the number of meetings and meeting hours decrease as the exclusion is applied to your data.
+As the [Create a meeting exclusion rule](/viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) walkthrough describes, as you complete each step and move on to the next one, you'll see the number of meetings and meeting hours decrease as the exclusion is applied to your data.
 
   ![Meeting hours summary (after).](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
 
@@ -72,7 +72,7 @@ Below the **Summary of meetings that remain**, you can customize four of the fiv
 You can make the following types of customizations:
 
 * Change the default filter value for any step that has a numerical filter.
-* Choose which keywords and topics that you would like to exclude from analysis. For details, see [Create a meeting exclusion rule](meeting-exclusion-rules.md#create-a-meeting-exclusion-rule).
+* Choose which keywords and topics that you would like to exclude from analysis. For details, see [Create a meeting exclusion rule](/viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-meeting-exclusion-rule).
 * Create [exceptions to an exclusion](#make-an-exception-to-an-exclusion).
 * Use keywords and topics in the following [list of languages](#supported-languages).
 
@@ -131,7 +131,7 @@ If you notice other words in the cloud that you might want to retain in your ana
 
 ## Select exclusion type
 
-For a **New exclusion**, the following types of exclusions are available to create, which you do in Step 3 of [To start a meeting exclusion rule](meeting-exclusion-rules.md#to-start-a-meeting-exclusion-rule):
+For a **New exclusion**, the following types of exclusions are available to create, which you do in Step 3 of [To start a meeting exclusion rule](/viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#to-start-a-meeting-exclusion-rule):
 
 * **Meeting Exclusion** - Excludes data from specific types of meetings (such as all-day training meetings) from analysis whose inclusion might skew query results.
 
@@ -154,7 +154,7 @@ The app supplies one meeting exclusion rule by default, the _Tenant default meet
 
 This default rule is a good start, but if you were to use only it, you would miss the opportunity to verify that this rule doesn't exclude important meetings you wanted to keep, as well as the opportunity to exclude additional meetings based on meeting-subject keywords.
 
-To create a custom rule for your organization, follow the steps in [Create a meeting exclusion rule](meeting-exclusion-rules.md#create-a-meeting-exclusion-rule).
+To create a custom rule for your organization, follow the steps in [Create a meeting exclusion rule](/viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-meeting-exclusion-rule).
 
 ## Rule actions
 
@@ -173,9 +173,9 @@ The following options are available for a published rule:
 * **Duplicate** creates an exact copy of the rule.
 * **Set preferred** sets this rule as the preferred rule. There can be only one preferred rule within your tenant. This has the following effects:
 
-  * When an analyst designates a rule as preferred, that rule will appear to _all_ analysts as the preferred rule in [Explore the stats](../use/explore-intro.md) data.
-  * The preferred rule also appears at the top of the list of rules on the [Analyst settings](../use/settings.md#analyst-settings) page. (The **Set preferred** action is unavailable for the rule that is currently set as preferred.)
-  * The preferred rule will apply to all [queries](query-basics.md) that are run during the time the rule is in place.
+  * When an analyst designates a rule as preferred, that rule will appear to _all_ analysts as the preferred rule in [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) data.
+  * The preferred rule also appears at the top of the list of rules on the [Analyst settings](/viva/insights/use/settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#analyst-settings) page. (The **Set preferred** action is unavailable for the rule that is currently set as preferred.)
+  * The preferred rule will apply to all [queries](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) that are run during the time the rule is in place.
 
 * **Archive** archives the rule.  
 * **Favorite** sets the rule as a favorite, which sorts it near the top of rule lists. (For rules set as favorites, select favorite again to reverse the option.)
@@ -200,8 +200,8 @@ Q1. **Scope of meeting exclusion rules** - You create meeting exclusion rules on
 
 Exclusion rules apply in two areas where analysts work most:
 
-* **Explore the stats** - Exclusion rules work for analysts as they inspect data in Explore the stats. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
-* **Query designer** - Analysts can also apply exclusion rules when creating, refining, and running queries. For more information, see [Use rules with queries](meeting-exclusion-rules.md#use-rules-with-queries).
+* **Explore the stats** - Exclusion rules work for analysts as they inspect data in Explore the stats. For more information, see [Select which rule to use](/viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#select-which-rule-to-use).
+* **Query designer** - Analysts can also apply exclusion rules when creating, refining, and running queries. For more information, see [Use rules with queries](/viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#use-rules-with-queries).
 
 Q2. **Edit existing rules** - Can you change/edit the default meeting-exclusion rule, or rules that you or other analysts have created?
 
@@ -213,7 +213,7 @@ Yes. Anyone in your organization can use the rules that anyone else in the organ
 
 Q4. **Combining of rules** - Can you combine rules? For example, can you use the default meeting-exclusion rule and then layer a new rule on top of it, so that both are in effect? Can you combine a rule of your own with a rule that another analyst has defined?
 
-No. You can have only one rule in effect at a time. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
+No. You can have only one rule in effect at a time. For more information, see [Select which rule to use](/viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#select-which-rule-to-use).
 
 ## Supported languages
 
@@ -237,4 +237,4 @@ The following languages are supported for keywords and phrases in meeting exclus
 
 ## Related topic
 
-[Meeting exclusion rule limitation for large meetings](meeting-exclusion-250.md)
+[Meeting exclusion rule limitation for large meetings](/viva/insights/tutorials/meeting-exclusion-250?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

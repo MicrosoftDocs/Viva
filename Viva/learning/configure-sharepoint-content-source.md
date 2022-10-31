@@ -11,8 +11,9 @@ ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
 ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+- enabler-strategic
+- m365initiative-viva-learning
+- highpri
 localization_priority: medium
 description: Learn how to add SharePoint as a learning content source for Microsoft Viva Learning.
 
@@ -24,6 +25,8 @@ You can configure SharePoint as a learning content source to make your organizat
 
 >[!NOTE]
 > Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Any content you add to Viva Learning, such as SharePoint-hosted content, is subject to the privacy and service terms associated with that content.
+
+ > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58RgE]  
 
 ## Overview
 

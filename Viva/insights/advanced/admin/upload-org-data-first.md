@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Upload organizational data (first upload)
 description: Learn how to first upload your data to the Viva Insights advanced insights app. 
 author: lilyolason
@@ -38,7 +37,7 @@ After the data successfully validates and processes, the overall data-upload tas
 To upload your .csv file, follow these steps:
 
 1. In the **Organizational data** page, select **.csv upload**.
-    ![Organizational data page](../images/admin-data-hub.png)
+    ![Organizational data page hub.](../images/admin-data-hub.png)
 1. Enter an **Upload name**.
 1. Under **Upload file**, select the .csv file you want to upload. 
     
@@ -47,7 +46,7 @@ To upload your .csv file, follow these steps:
     * UTF-8 encoded
     * Not open in a different program when you begin the upload process
     * Not larger than 1 GB
-![Prepare and upload data](../images/admin-prepare-upload.png)
+![Screenshot that shows Prepare and upload data option.](../images/admin-prepare-upload.png)
 
 >[!Note]
 > To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv template** link.
@@ -90,11 +89,11 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     >To prevent a validation error later, make sure this column is the right data type.
 
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a. 
-     ![Organizational data page](../images/admin-map.png)
+     ![Screenshot that shows mapping Viva attributes.](../images/admin-map.png)
 
     >[!Tip]
     > Hover over an attribute name to read its description.
-    > ![Organizational data page](../images/admin-hover-attribute.png)
+    > ![Screenshot that shows hovering over an attribute.](../images/admin-hover-attribute.png)
 
 2. Repeat steps 1a and 1b for custom and optional fields.
     * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it.
@@ -110,7 +109,7 @@ After you map fields, the app validates and processes your data as described in 
 
 After you’ve mapped attributes, the app starts validating your data.  
 
-![Validation in progress](../images/admin-validate.png)
+![Screenshot that shows validation in progress.](../images/admin-validate.png)
 
 In most cases, file validation should complete quickly. If your organizational data file is large, validation could take up to one or two minutes.
 
@@ -132,14 +131,14 @@ After processing completes, it's either succeeded or failed. Depending on the ou
 
 When processing succeeds, you’ll see a “Success” status in the **Upload or delete history** table. At this point, the upload process is complete.
 
-![Successful processing](../images/admin-status-success.png)
+![Screenshot that shows successful processing.](../images/admin-status-success.png)
 
 After you receive the “Success” status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
-![Validation results](../images/admin-upload-results.png)
+![Screenshot that shows validation results.](../images/admin-upload-results.png)
 * Select the mapping icon to see the mapping settings for the workflow.
-![Mapping settings](../images/admin-map-results.png)
+![Screenshot that shows mapping settings.](../images/admin-map-results.png)
 
 >[!Note]
 >Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
@@ -148,7 +147,7 @@ After you receive the “Success” status, you can:
 
 If processing fails, you’ll see a failed status in the **Upload or delete in progress** table. Selecting the link in the status brings you to an explanation of the failure.
 
-![Processing failed](../images/admin-status-process-failed.png)
+![Screenshot that shows Processing failed.](../images/admin-status-process-failed.png)
 
 Select **Edit or start new upload**. This button lets you begin the upload process again.
 

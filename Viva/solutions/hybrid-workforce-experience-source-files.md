@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Hybrid workforce experience solution - source files
 description: Learn how to generate source files for the Hybrid workforce experience solution.
 author: lilyolason
