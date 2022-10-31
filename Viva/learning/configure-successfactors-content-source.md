@@ -56,7 +56,7 @@ We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](http
 
 1. Navigate to **File** > **Export**. Save your public key file locally for future reference.
 
-You have now successfully generated and saved your public and private key pair. Use the public key in the SAP SuccessFactors portal and the private key in the Microsoft 365 Admin Center.
+You have now successfully generated and saved your public and private key pair.
 
 ### PGP key generation instructions for UNIX and Linux systems 
 
