@@ -90,7 +90,7 @@ You can start another plan whenever you want.
 
 If someone on your team wants to start a recurring no-meeting day, you get a calendar invitation from them. If you want to participate in the plan, accept the invitation. When you accept, you get a [reminder](#before-the-no-meeting-day) the day before the no-meeting day, and your status shows as **Busy** (or whatever status the organizer set it to) for that entire workday. If you want your no-meeting day to show with a different status—**Free**, for example—you can make that change after you accept the invitation. Open the series in Outlook, then change **Show As:** to the status you want.
 
-![Screenshot of the Show As: option in Outlook, with Busy in the text box and the dropdown menu expanded to show all options.](../images/wpa/use/nmd-calendar-status.png)
+:::image type="content" source="../images/wpa/use/nmd-calendar-status.png" alt-text="Screenshot of the Show As option in Outlook, with Busy in the text box and the dropdown menu expanded to show all options.":::
 
 If you don’t want to participate in the plan, decline the invitation. You don't receive a reminder before the no-meeting day, and your calendar doesn't adopt the event or show the status that the organizer set.
 
