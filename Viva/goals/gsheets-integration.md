@@ -55,7 +55,8 @@ Admins can follow these steps to enable this integration:
       :::image type="content" source="..\media\goals\gsheets-integration\gsheets002.png" alt-text="Screenshot shows which permissions need to be selected to add a new Google Sheets connection in Viva Goals." lightbox="..\media\goals\gsheets-integration\gsheets002.png":::
 
 
-Please be aware that since Google Sheets lacks a granular scope to read the drive files, Viva Goals requires access to expanded scopes as described in step #3. Viva Goals shouldn't be able to manage your Google Drive files other than reading them from your Google drive or Shared drive. 
+> [!NOTE]
+> Please be aware that since Google Sheets lacks a granular scope to read the drive files, Viva Goals requires access to expanded scopes as described in step #3. Viva Goals shouldn't be able to manage your Google Drive files other than reading them from your Google drive or Shared drive. 
 
 4. Enter a name for the connection.
   
