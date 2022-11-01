@@ -195,7 +195,7 @@ You can synchronize permissions applied using assignment profile on courses in S
 ### Pre-requisites for catalog permissions sync
 
 1. Viva Suite or Viva Learning license is required to set up SAP SuccessFactors integration with Viva Learning.  
-   Any Microsoft 365 subscription that has Exchange Online and SharePoint Online will support groups. That includes the Business Essentials and Business Premium plans, and the Enterprise E1, E3, and E5 plan
+   Any Microsoft 365 subscription that has Exchange Online and SharePoint Online will support groups. That includes the Business Essentials and Business Premium plans, and the Enterprise E1, E3, and E5 plan.
 
 2. Configure SAP SuccessFactors with Viva Learning: [Configure SAP SuccessFactors as a content source for Microsoft Viva Learning](/viva/learning/configure-successfactors-content-source). \
    If SAP SuccessFactors is already configured in your Viva Learning application, then you can skip to the next step.  
