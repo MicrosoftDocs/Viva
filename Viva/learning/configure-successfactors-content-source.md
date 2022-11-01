@@ -258,7 +258,7 @@ Refer to the [Azure Active Directory (AAD) single sign-on (SSO) integration with
 
 Ensure that the SSO configuration on AAD and SAP SuccessFactors is the same and that the users login method on SAP SuccessFactors is set to "SSO."
 
-Log into Teams and Windows with the same user account for seamless consumption of SAP SuccessFactors content within Viva Learning.
+Log in to Teams and Windows with the same user account for seamless consumption of SAP SuccessFactors content within Viva Learning.
 
 You may encounter a "refused to connect" error or a blank screen the first time you consume SAP SuccessFactors content inline within Viva Learning. The content plays successfully on subsequent content launches, however. To resolve this issue, refer to the SAP Knowledge Base Article - [2169861](https://userapps.support.sap.com/sap/support/knowledge/en/2169861).
 
