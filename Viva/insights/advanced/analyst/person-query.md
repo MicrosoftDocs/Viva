@@ -97,11 +97,15 @@ Once you determine what you want to know about employees, you select which emplo
 
 #### About conditions and condition groups
 
-A condition is a statement about one attribute you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, “Organization = Microsoft.com,” the query would only extract rows that equal “Microsoft.com” under the **Organization** column. A condition group is a combination of conditions connected with a conjunction ("and" or "or"). In the following image, the condition group is in the block to the right of the conjunction "or."
+A condition is a statement about one attribute you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, “Organization = Contoso.com,” the query would only extract rows that equal Contoso.com” under the **Organization** column. A condition group is a combination of conditions connected with a conjunction ("and" or "or"). In the following image, the condition group is in the block to the right of the conjunction "or."
 
 :::image type="content" source="../images/person-query-condition-group.png" alt-text="Condition group":::
 
-The app predefines one condition for you: “Is Active.” If you leave this condition set to “True,” the query only analyzes *active employees*. Active employees send at least one email or Teams chat during the unit of time—week or month—defined by the query’s **Group by** setting.
+##### Is Active
+
+The app predefines one condition for you: “Is Active.” If you leave this condition set to “true,” the query only analyzes *active employees*. Active employees send at least one email or Teams chat during the unit of time—day, week, or month—defined by the query’s **Group by** setting.
+
+When you open your query results' output file, you'll see a Boolean value of "TRUE" or "FALSE" in the **IsActive** column for each row. 
 
 #### To add employees to your query
 
