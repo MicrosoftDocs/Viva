@@ -48,7 +48,7 @@ Starting and inviting others to a plan is quick and easy. Follow these steps to 
 
     >[!Tip]
     > You can look up users, Teams groups, and distribution lists here.
-    >     ![Screenshot of the No-meeting day setup window's Recipients field, showing the type-to-find capability.](../images/wpa/use/nmd-find-dist-lists.png)
+    > :::image type="content" source="../images/wpa/use/nmd-find-dist-lists.png" alt-text="Screenshot of the No-meeting day setup window's Recipients field, showing the type-to-find capability.":::
 
     2. **Settings**.
         1. **When** and **Frequency**: Confirm or change when you want to hold your no-meetings day.
