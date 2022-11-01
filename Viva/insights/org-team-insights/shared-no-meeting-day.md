@@ -41,7 +41,7 @@ Starting and inviting others to a plan is quick and easy. Follow these steps to 
 
 1. On the Viva Insights app **Home** page, beneath **Teamwork habits**, find the **No-meeting day** card. Select **Get started**.
 
-    ![Screenshot of the No-meeting day start card. The Get started button is highlighted.](../images/wpa/use/nmd-start-card.png)
+    :::image type="content" source="../images/wpa/use/nmd-start-card.png" alt-text="Screenshot of the No-meeting day start card. The Get started button is highlighted.":::
 
 2. When the setup window appears, fill in:
     1. **Recipients**.
