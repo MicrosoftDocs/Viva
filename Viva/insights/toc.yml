@@ -181,6 +181,8 @@ items:
           items:
           - name: Teamwork habits FAQ
             href: org-team-insights/teamwork-habits-faq.md
+          - name: Shared no-meeting day plan
+            href: org-team-insights/shared-no-meeting-day.md  
         - name: Organization trends
           items:
           - name: Introduction   
