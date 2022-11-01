@@ -104,6 +104,6 @@ To review conflicting events, select **Review schedule** within the notification
 
 If you’d rather not get this notification, change your settings in the Viva Insights app in Teams or on the web:
 
-1.	Select the ellipses (**…**) at top-right, then select **Settings**. 
+1. Select the ellipses (**…**) at top-right, then select **Settings**. 
 2. Select **Protect time** from the left pane.
 3. Under **No-meeting day plan settings > Send reminders to clear conflicts on no-meeting days?**, select **No**.
