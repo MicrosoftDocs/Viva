@@ -82,7 +82,7 @@ To save your changes, select **Send update**.
 
 If you want to end your plan, select **End plan** on the **No-meeting days** summary card on the Viva Insights **Home** or **Teamwork habits** page. On the resulting confirmation box, select **Confirm**. The invitation then disappears from all participants’ calendars.
 
-:::image type"content" source="../images/wpa/use/nmd-end-plan.png" alt-text="Screenshot of the End plan confirmation dialog box, which includes a Confirm button.":::
+:::image type="content" source="../images/wpa/use/nmd-end-plan.png" alt-text="Screenshot of the End plan confirmation dialog box, which includes a Confirm button.":::
 
 You can start another plan whenever you want.
 
