@@ -64,7 +64,7 @@ Starting and inviting others to a plan is quick and easy. Follow these steps to 
         If you want to add a message along with your invitation, type one here. Notes aren’t required.
 1. When you’re ready to send your invitation and get your plan started, select the **Schedule** button. Plan invitees get a calendar event invitation in their inbox.
 
-    ![Screenshot of the No-meeting day schedule window. The Schedule button is highlighted.](../images/wpa/use/nmd-schedule.png)
+    :::image type="content" source="../images/wpa/use/nmd-schedule.png" alt-text="Screenshot of the No-meeting day schedule window. The Schedule button is highlighted.":::
 
 1. The setup window then shows you a confirmation message with details about your plan. If you want more information, expand the gray arrow under **What happens next?**. Otherwise, select **Done**.
  
