@@ -56,7 +56,7 @@ Admins can follow these steps to enable this integration:
 
 
 > [!NOTE]
-> Please be aware that since Google Sheets lacks a granular scope to read the drive files, Viva Goals requires access to expanded scopes as described in step #3. Viva Goals shouldn't be able to manage your Google Drive files other than reading them from your Google drive or Shared drive. 
+> Be aware that because Google Sheets lacks a granular scope to read the drive files, Viva Goals requires access to expanded scopes as described in step #3. Viva Goals won't be able to manage your Google Drive files other than reading them from your Google Drive or shared drive. 
 
 4. Enter a name for the connection.
   
