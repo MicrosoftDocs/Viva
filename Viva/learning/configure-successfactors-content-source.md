@@ -83,24 +83,27 @@ You have now successfully generated and saved your public and private key pair.
    ![Image of System Configuration meny with option section in PARTNER_EXTRACT](../media/learning/sfsf-system-config-partner-extract.png)
 
 1. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you'll need **Edit System Configuration** workflow permission in SuccessFactors.
-
-   Customer notification email for all job statuses:
-   - defaultJob.email=
+![Image of SAP SuccessFactors Learning System Configuration screen with partner extract field highlighted](../media/learning/SFSF-system-config-highlighted-1.png)   
+- You will need to edit the following fields: 
+    - For customer notification email for all job statuses:
+       - defaultJob.email=
       - Correctly formatted line should read like: 
-        `defaultJob.email=johndoe@contoso.com` ![Image of SAP SuccessFactors Learning System Configuration screen with partner extract field highlighted](../media/learning/SFSF-system-config-highlighted-1.png)   
-      -  For Microsoft Viva Learning enter the value **MVL**.
+        `defaultJob.email=johndoe@contoso.com` 
+     -  For Microsoft Viva Learning enter the value **MVL**.
          - partners1.partnerID=
          - Correctly formatted line should read like this: `partners1.partnerID=MVL`
-         - EncryptionKey is the PGP public encryption key.
-           >[!NOTE] 
-           > Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated; don’t remove new line characters. Only copy the key block, which should be a Base64 string.  
-         - Correctly entered line should read like this example:    `partner1.encryptionKey=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cFz0`
+         -  EncryptionKey is the PGP public encryption key.
+   >[!NOTE]
+   > Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated; don’t remove new line characters. Only copy the key block, which should be a Base64 string.
+
+  - Correctly entered line should read like this example:   
+         ```partner1.encryptionKey=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cFz0```
       - Key Owner maps to the User-ID of public key 
          - partners1.keyOwner= 
          - Correctly formatted line should read like: `partners1.keyOwner=John Doe <john.doe@contoso.com`
-         - Set it to "true" to enable the partner extract.
-            - partners1.enabled=
-            - Correctly formatted line should read like:`partners1.enabled=true `
+   - Enable the partner extract by setting the field to true.
+        - partners1.enabled=
+      - Correctly formatted line should read like:`partners1.enabled=true `
              
 :::image type="Content" source="../media/learning/SFSF-system-config-highlighted-2.png" alt-text="Image of SAP SuccessFactors Learning System Configuration screen with partner1.enabled set to **true**." lightbox="../media/learning/SFSF-system-config-highlighted-2.png":::
 
@@ -197,7 +200,6 @@ You can synchronize permissions applied using assignment profile on courses in S
 1. Viva Suite or Viva Learning license is required to set up SAP SuccessFactors integration with Viva Learning.  
    Any Microsoft 365 subscription that has Exchange Online and SharePoint Online will support groups. That includes the Business Essentials and Business Premium plans, and the Enterprise E1, E3, and E5 plan.
 
-2. Configure SAP SuccessFactors with Viva Learning: [Configure SAP SuccessFactors as a content source for Microsoft Viva Learning](/viva/learning/configure-successfactors-content-source). \
    If SAP SuccessFactors is already configured in your Viva Learning application, then you can skip to the next step.  
 
 3. The Initial sync package generated by SAP SuccessFactors should be available in the configured SFTP folder path.  
