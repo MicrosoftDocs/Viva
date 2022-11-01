@@ -130,7 +130,7 @@ productDirectory:
           text: Adoption resources
     
     # Card
-    - title: Microsoft Viva Sales (Preview)
+    - title: Microsoft Viva Sales
       imageSrc: media/logos/viva-logoicon.svg
       links:
         - url: /Viva/sales/introduction

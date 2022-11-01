@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Peer comparison queries
 description: Learn what peer comparison queries are and how to use them in Microsoft Viva Insights
 author: madehmer
@@ -35,8 +35,8 @@ Although peer comparison queries focus on people, they produce different informa
 4. Name the query and, optionally, add a description for it.
 5. For **Group by**, select an amount of time&mdash;day, week, or month&mdash;over which to aggregate and report on data.
 6. For **Time period**, specify the time period whose data you want to query.
-7. (Optional) Select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
-8. If at least one of your metrics has to do with meetings, consider using Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company’s meeting conventions. See [Meeting exclusions](meeting-exclusion-rules.md) to learn more.
+7. (Optional) Select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).)
+8. If at least one of your metrics has to do with meetings, consider using Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company’s meeting conventions. See [Meeting exclusions](/viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn more.
 9. In the **Select employees** section, add filters to select the employees who are the subject of your query. For more information, see [Select employees](#select-employees).
 10. In the **Select peer groups** section, select the employees whom you want to compare with your subject population (the people you selected in the preceding step). For more information, see [Select peer groups](#select-peer-groups).
 11. In the **Select metrics** section, select the aspect of employee behavior that you want to compare with peer groups. For more information, see [Select metrics](#select-metrics).
@@ -116,7 +116,7 @@ In this section, you define how the metrics are used in the comparison:
 
 You can vary the Calculation types and Difference types in the metrics that you’ve chosen.
 
-For descriptions of available metrics, see [Peer-comparison metrics](../use/metric-definitions.md#peer-comparison-metrics).
+For descriptions of available metrics, see [Peer-comparison metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#peer-comparison-metrics).
 
 ## View results
 
@@ -136,10 +136,10 @@ Here are a few things we know about this comparison (the results on these 12 lin
 
 The person sent 140 emails during the week that started in January 27, while their peer group sent 126, on average. The difference was 14. However, during the following week (which began on February 3), the person sent 109 and their group sent on average 120, so Emails_sent_Difference shows that they sent 11 fewer emails than their peer group. If you had chosen percentage for **Difference type**, the displayed result would have been "-9%" (nine percent fewer) emails than were sent by their peer group.
 
-For more information, see [View, download, and export query results](../use/view-download-and-export-query-results.md).
+For more information, see [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Related topics
 
-* [Understand and interpret query output](../use/csv-query-output-file.md)
-* [Peer-comparison metrics](../use/metric-definitions.md#peer-comparison-metrics)
-* [View, download, and export query results](../use/view-download-and-export-query-results.md)
+* [Understand and interpret query output](/viva/insights/use/csv-query-output-file?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Peer-comparison metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#peer-comparison-metrics)
+* [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

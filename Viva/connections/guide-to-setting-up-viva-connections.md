@@ -15,7 +15,8 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 - m365initiative-viva-connections
-- intro-get-started 
+- intro-get-started
+- highpri
 ms.custom: intro-get-started
 search.appverid:
 - SPO160
