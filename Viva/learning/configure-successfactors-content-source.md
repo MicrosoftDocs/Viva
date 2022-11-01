@@ -142,7 +142,7 @@ To obtain the folder path:
 
    - **User Name**: Follow the same steps you followed for the SFTP Host URL. Get the value of the `connector.ftp.userID` property. Ignore the password available in the configuration site.
 
-    ![Image of System Config screen on connectors calling out admins to not enter the password in the connector.ftp.password field.](../media/learning/sfsf-system-config-highlighted3.png)
+     :::image type="content" source="../media/learning/sfsf-system-config-highlighted3.png" alt-text="Image of System Config screen on connectors calling out admins to not enter the password in the connector.ftp.password field." lightbox="../media/learning/sfsf-system-config-highlighted3.png":::
 
    - **Password**: Check with your LMS application owner for help with retrieving your password. Enter that password here.
 
@@ -171,12 +171,9 @@ To obtain the folder path:
 
 1. Select **Save** to activate SuccessFactors content in Microsoft Viva Learning. There may be a delay before the content is available in Viva Learning.
 
-1. Close out of the Viva Learning flyout and re-open it. If there are any issues, an error message will appear on the screen.
-
-### Troubleshooting errors
-
-To troubleshoot, close and re-open the flyout.  
-Select the learning source you are trying to enable. Check the specific error fields.
+1. Close out of the Viva Learning flyout and re-open it. \
+   If there are any issues, an error message will appear on the screen. \ 
+   To troubleshoot the error, close and re-open the flyout. Select the learning source you are trying to enable. Check the specific error fields.
 
 If an invalid Private and Public Key pair has been entered in MAC Portal, this error will display: "PGP Keypair validation failed. Possible reasons for this failure - 1. Incorrect values entered for fields -  SF Public Key, SF Private Key, SF Private Key Pass Phrase 2. PGP keys generated with incorrect algorithm.”
 
@@ -263,7 +260,7 @@ Ensure that the SSO configuration on AAD and SAP SuccessFactors is the same and 
 
 Log into Teams and Windows with the same user account for seamless consumption of SAP SuccessFactors content within Viva Learning.
 
-You may encounter a “refused to connect” error or a blank screen the first time you consume SAP SuccessFactors content inline within Viva Learning. The content plays successfully on subsequent content launches, however. To resolve this issue, refer to the SAP Knowledge Base Article - [2169861](https://userapps.support.sap.com/sap/support/knowledge/en/2169861).
+You may encounter a "refused to connect" error or a blank screen the first time you consume SAP SuccessFactors content inline within Viva Learning. The content plays successfully on subsequent content launches, however. To resolve this issue, refer to the SAP Knowledge Base Article - [2169861](https://userapps.support.sap.com/sap/support/knowledge/en/2169861).
 
 >[!NOTE]
 > If the SSO on both AAD and SAP SuccessFactors are already configured in the tenant, as described in the above documentation, then no action is required.
