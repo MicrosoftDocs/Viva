@@ -72,7 +72,7 @@ Starting and inviting others to a plan is quick and easy. Follow these steps to 
 
 After you start a no-meeting day plan, a **No-meeting days** summary card appears on the Viva Insights app **Teamwork habits** and **Home** page. Select **Edit**.
 
-![Screenshot of the No-meeting day summary card. The Edit button is highlighted.](../images/wpa/use/nmd-summary-card.png)
+:::image type="content" source="../images/wpa/use/nmd-summary-card.png" alt-text="Screenshot of the No-meeting day summary card. The Edit button is highlighted.":::
  
 On the edit window, you can change your plan’s details. If the only change you make is adding new recipients, Viva Insights sends an update to just those people. If you edit other details, like information under **Settings**, all existing and new plan invitees get an update in their inbox. Updates appear as calendar events, like initial invitations do.
 
