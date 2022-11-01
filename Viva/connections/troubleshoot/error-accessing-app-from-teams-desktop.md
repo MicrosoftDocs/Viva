@@ -45,7 +45,8 @@ To resolve this issue, add the app ID for the Teams desktop client to the list o
 2. Select **Azure Active Directory** > **App Registrations**.
 3. Select **SharePoint Online Client Extensibility Web Application Principal**.
 
-**Important** If SharePoint Online Client Extensibility Web Application Principal is not available, please visit the SharePoint admin center, select Advanced, and select API access. This action will create the SharePoint Online Client Extensibility Web Application object. 
+> [!NOTE]
+> If SharePoint Online Client Extensibility Web Application Principal is not available, visit the SharePoint admin center, select **Advanced**, and select **API access**. This action will create the SharePoint Online Client Extensibility Web Application Principal object. 
 
 4. Select **Expose an API**.
 5. Select **Add a client application**.
