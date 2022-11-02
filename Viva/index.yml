@@ -40,7 +40,7 @@ highlightedContent:
 
 # tools section (optional)
 tools:
-  title: Explore Microsoft Viva # < 60 chars (optional)
+  title: Get started # < 60 chars (optional)
   items:
     # Card
     - title: Microsoft Viva Topics
@@ -77,7 +77,7 @@ tools:
 additionalContent:
   # Supports up to 4 subsections
   sections:
-    - title: Experiences # < 60 chars (optional)
+    - title: Bring Microsoft Viva experiences to your organization # < 60 chars (optional)
       items:
         # Card
         - title: Connection
@@ -99,7 +99,7 @@ additionalContent:
         - title: Sales
           summary: Find role-specific guidance for your Sales team. Viva sales
           url: index
-    - title: More resources  # < 60 chars (optional)
+    - title: Key resources  # < 60 chars (optional)
       items:
         # Card
         - title: End user training
