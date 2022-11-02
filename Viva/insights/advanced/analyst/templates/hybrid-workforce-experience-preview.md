@@ -159,13 +159,13 @@ This section:
 
  Name | Description| Type
 |------|------------|------|
-|**Remote days**|  Number of days a person spent working remote (not on the company's corporate network).* | Count|
-|**Manager remote days** | Number of days a person's direct manager spent working remote (not on the company's corporate network).*| Count|
-|**Onsite days**| Number of days a person spent working onsite (on the company's corporate network).* | Count|
-|**Manager onsite days**| Number of days a person's direct manager spent working onsite (on the company's corporate network).*| Count
+|**Remote days**|  Number of days a person spent working remote (not on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available. | Count|
+|**Manager remote days** | Number of days a person's direct manager spent working remote (not on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count|
+|**Onsite days**| Number of days a person spent working onsite (on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available. | Count|
+|**Manager onsite days**| Number of days a person's direct manager spent working onsite (on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count
 
 >[!NOTE] 
->*There’s a one-week delay in computing these metrics. This means that if you run a:
+>There’s a one-week delay in computing these metrics. This means that if you run a:
 >
 > * Weekly query, the last week of data for the four metrics above will be "0."
 > * Daily query, the data for the four metrics above will be "0" for the last seven days in your query.
