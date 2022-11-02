@@ -63,15 +63,15 @@ productDirectory:
       links:
         - url: /viva/insights/introduction
           text: Get started
-        - url: /viva/insights/setup/setup-intro
+        - url: /viva/insights/advanced/setup-maint/setup-overview
           text: Setup
         - url: /viva/insights/personal/introduction
           text: Personal insights
-        - url: /viva/insights/use/myteam
+        - url: /viva/insights/org-team-insights/org-trends
           text: Manager insights
-        - url: /viva/insights/use/viva-insights-my-org
+        - url: /viva/insights/org-team-insights/teamwork-habits
           text: Leader insights
-        - url: /viva/insights/index-orig
+        - url: /viva/insights/advanced/introduction-to-advanced-insights
           text: Advanced insights
 
     # Card
