@@ -33,7 +33,7 @@ Viva connections is:
 ## Viva Engage
 Viva Engage is an employee experience that connects people across the company — wherever and whenever they work — so that everyone is included and engaged. 
 
-Viva Engage is integrated into Teams and surfaces existing and new employee experiences powered by Yammer services. Viva Engage delivers high-value employee experiences including community building, leadership engagement, knowledge sharing, and self-expression. Viva Engage features will also appear in Yammer web, desktop and mobile apps.
+Viva Engage is integrated into Teams as an app and surfaces existing and new employee experiences powered by Yammer services. Viva Engage provides the right environment for community building, leadership engagement, knowledge sharing, and self-expression. 
 
 [Learn more about Viva Engage](/viva/engage/overview), including how to set it up and use it in your organization.
 
