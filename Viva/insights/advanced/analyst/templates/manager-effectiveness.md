@@ -16,7 +16,7 @@ audience: Admin
 
 # Manager effectiveness report
 
-The **Manager effectiveness report** uses a template populated by Microsoft Viva Insights data to analyze people-manager behaviors in your organization. HR analysts can use this analysis to measure behaviors and trends of people managers across four key themes within your organization— manager capacity, coach, empower, connect, and model.
+The **Manager effectiveness report** uses a template populated by Microsoft Viva Insights data to analyze people-manager behaviors in your organization. HR analysts can use this analysis to measure behaviors and trends of people managers across four key themes within your organization: manager capacity, coach, empower, connect, and model.
 
 Each theme includes insights about manager effectiveness and ways to help maintain or increase preferred leadership behaviors. Key metrics are used to deep-dive into each theme, along with a **Why this matters** interpretation and best practices recommended by industry experts.
 
@@ -44,7 +44,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 >[!Note]
 > For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
 
-1. In the Viva Insights Analyst experience, select **Analysis**.
+1. In the Viva Insights analyst experience, select **Analysis**.
 
 2. Under **Power BI templates**, navigate to **Manager effectiveness** and select **Start analysis**. To get more information about the Manager effectiveness template before running your analysis, select **Learn more**.
 
@@ -75,7 +75,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
 ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
-6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
+6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. After the query runs, you can use these attributes to group and filter the reports.
 
     >[!Important]
     >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Don't remove any preselected attributes.*
@@ -152,7 +152,7 @@ This page shows the percentage of employees whose managers co-attend their meeti
 
 **How well-connected are managers and do they leverage their network to help build connections for their employees?**
 
-This page shows the internal network size distribution of managers as compared to the full organizational population, calling out the share of managers that are among the top 25% most connected employees in the company. It also shows the average internal network size of managers as compared to individual contributors broken out by group.
+This page shows the internal network size distribution of managers as compared to the full organizational population, calling out the share of managers who are among the top 25% most connected employees in the company. It also shows the average internal network size of managers as compared to individual contributors broken out by group.
 
 ## Model
 
