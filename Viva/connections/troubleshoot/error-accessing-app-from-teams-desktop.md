@@ -41,13 +41,12 @@ This error occurs if a SharePoint Framework (SPFx) web part is added to Viva Con
 
 To resolve this issue, add the app ID for the Teams desktop client to the list of authorized client applications in Azure Active Directory:
 
-1. Sign in to the [Azure portal](https://portal.azure.com/).
-1. Select **Azure Active Directory** > **App Registrations**.
-1. Select **SharePoint Online Client Extensibility Web Application Principal**.
-1. Select **Expose an API**.
-1. Select **Add a client application**.
-1. Enter the Teams client app ID of 1fec8e78-bce4-4aaf-ab1b-5451cc387264 and a scope value of 1.
+1. Sign in to the **SharePoint admin center** by using Global admin credentials.
+1. Select **Advanced** > **API access**.
 
-    :::image type="content" source="media/error-accessing-app-from-teams-desktop/add-app-id.png" alt-text="Screenshot of the Teams client app ID added to the list of authorized client applications.":::
+If you don't see the **API acess** option, use the following steps:
 
-1. Select **Add application** to save the app ID.
+1. Sign in to the **SharePoint admin center** by using Global admin credentials.
+1. Select **More features**.
+1. Select the **Open** button under **Apps**.
+1. Select **API access**.
