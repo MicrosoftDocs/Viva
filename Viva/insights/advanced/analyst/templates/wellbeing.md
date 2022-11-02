@@ -53,7 +53,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 >[!Note]
 > For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
 
-1. In the Viva Insights Analyst experience, select **Analysis**.
+1. In the Viva Insights analyst experience, select **Analysis**.
 
 2. Under **Power BI templates**, navigate to **Wellbeing - balance and flexibility** and select **Start analysis**. To get more information about the Wellbeing - balance and flexibility template before running your analysis, select **Learn more**.
 
@@ -81,7 +81,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     >[!Note]
     > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
 
-5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Person queries](../person-query.md).
+5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a custom Person query](../person-query.md).
 
     ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
@@ -114,9 +114,9 @@ After the **Wellbeing - balance and flexibility** report is set up and populated
 ![Screenshot that shows the Wellbeing report summary page.](/viva/insights/advanced/images/wellbeing-pbi-summary1.png)
 
 * **Select the time period to measure** – This is the time period that you want to analyze. Note that the four-week trend information on the summary page won’t show if the selected time period is less than eight weeks.
-* **Select an organizational attribute to view the report by** – The primary "group-by" attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
-* **Select optional filters to exclude employee groups** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will represent a reduced number. Measured employees are the number of employees in the filtered population who were active during the specified time period. Active employees are those who send at least one email or instant message during a work week that's included in the current time period.
-* **Exclude weeks marked with a holiday indicator** – Select to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
+* **Select an organizational attribute to view the report by** – This is the primary "group-by" attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will  group values by the new attribute.
+* **Select optional filters to exclude employee groups** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will show a reduced number. Measured employees are the number of employees in the filtered population who were active during the specified time period. Active employees are those who send at least one email or Teams chat during a work week that's included in the current time period.
+* **Exclude weeks marked with a holiday indicator** – Select this control to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
 * **Exclude non-knowledge workers** – Select to exclude employees who spend a weekly average of no more than five hours in meetings, emails, instant messages, and calls because they’re unlikely to be knowledge workers or they don’t use Outlook or Teams.
 
 ### Customize working hours
