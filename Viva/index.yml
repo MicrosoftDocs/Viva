@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
 title: Microsoft Viva # < 60 chars
-summary: Get started with this employee experience platform that brings together communications, knowledge, learning, resources, and insights. # < 160 chars
+summary: Find documentation, solutions, training, and resources for using Microsoft Viva in your organization. # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: m365
 
@@ -11,8 +11,8 @@ metadata:
   ms.prod: m365 #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.technology: viva
   ms.topic: hub-page # Required
-  author: samanro #Required; your GitHub user alias, with correct capitalization.
-  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  author: loreenl #Required; your GitHub user alias, with correct capitalization.
+  ms.author: loreenl #Required; microsoft alias of author; optional team alias.
   ms.date: 09/02/2021 #Required; mm/dd/yyyy format.
   ms.custom: intro-hub-or-landing
 
