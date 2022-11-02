@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Hybrid Workforce Experience Power BI report (preview)
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: lilyolason
@@ -26,7 +26,7 @@ As leaders figure out their organization’s new working models, the **Hybrid wo
 * Mostly remote
 * Onsite some days of the week and remote on others (hybrid)
 
-The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (meaning from the company’s corporate network). The detection of an employee onsite days is based on Azure Active Directory (AD) log-in information. Note that the algorithm only uses three out of four octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
+The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (that is, from the company’s corporate network). The detection of an employee onsite days is based on Azure Active Directory (AD) log-in information. Note that the algorithm only uses three out of four octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
 
 The report has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.
 
@@ -44,8 +44,8 @@ The following demonstration uses sample data that’s only representative of thi
 
 Your organization qualifies for this preview because:
 
-* The analyzed population is using Azure Active Directory to access Microsoft 365 applications.
-* The analyzed population is not on a virtual private network (VPN), or it has [VPN split-tunneling](/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel) for Azure Active Directory configured.
+* The analyzed population is using Azure AD to access Microsoft 365 applications.
+* The analyzed population is not on a virtual private network (VPN), or it has [VPN split-tunneling](/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel) for Azure AD configured.
 
 Before you can run the queries and populate the report in Power BI, you’ll need to:
 
@@ -64,7 +64,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 1. In the analyst experience in Viva Insights, select **Analysis**.
 
-2. Under **Power BI templates**, navigate to **Hybrid workforce experience (preview)** and select **Start analysis**. To get more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
+2. Under **Power BI templates**, navigate to **Hybrid workforce experience (preview)** and select **Start analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 ![Start query](/viva/insights/advanced/images/hwfe-preview-pbi-start.png)
 3. Under **Query setup**:
     1. Type a **Query name**.
@@ -90,12 +90,12 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 >[!NOTE]
 > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
 
-5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter.  For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
+5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter.  For more details about filter and metric options, see [Create a custom Person query](../person-query.md).
 
     ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
 
-6. Under **Select which employee attributes you want to include in the query**, select the **HireDate** attribute if available. Then, add other organizational attributes—you can add up to seven organizational attributes, including **HireDate**. Once the query runs, you can use these attributes to group and filter the reports.
+6. Under **Select which employee attributes you want to include in the query**, select the **HireDate** attribute if available. Then, add other organizational attributes. You can add up to seven organizational attributes, including **HireDate**. Once the query runs, you can use these attributes to group and filter the reports.
 
     >[!IMPORTANT]
     >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Don't remove any preselected attributes.*
@@ -159,10 +159,10 @@ This section:
 
  Name | Description| Type
 |------|------------|------|
-|**Remote days**|  Number of days a person spent working remote (not on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count|
-|**Manager remote days** | Number of days a person's direct manager spent working remote (not on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count|
-|**Onsite days**| Number of days a person spent working onsite (on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count|
-|**Manager onsite days**| Number of days a person's direct manager spent working onsite (on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count
+|**Remote days**|  Number of days a person spent working remote (not on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available. | Count|
+|**Manager remote days** | Number of days a person's direct manager spent working remote (not on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count|
+|**Onsite days**| Number of days a person spent working onsite (on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available. | Count|
+|**Manager onsite days**| Number of days a person's direct manager spent working onsite (on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count
 
 >[!NOTE] 
 >There’s a one-week delay in computing these metrics. This means that if you run a:
@@ -197,7 +197,7 @@ This page shows the average internal employee network size, split by work mode, 
 
 **How does hybrid work impact flexible schedules and the employees’ ability to unplug?**
 
-This page shows, by work mode, the percent of employees collaborating outside of their working hours as set in Outlook for more than five hours per week. The chart on the right takes into account both the number of distinct daily hours employees participate in meetings, emails, and Teams chats or calls, as well as the average weekly hours employees spend collaborating outside of their set working hours. By combining both metrics, the following working patterns are identified:
+This page shows, by work mode, the percent of employees collaborating outside of their working hours as set in Outlook for more than five hours per week. The chart on the right takes into account both the number of distinct daily hours employees participate in meetings, emails, and Teams chats or calls, as well as the average weekly hours employees spend collaborating outside of their set working hours. By combining both metrics, the page shows the following working patterns:
 
 * Long non-standard hours: employees with more than nine distinct active hours a day and spending more than five hours a week in collaboration outside of set working hours.
 * Long hours: employees with more than nine active hours a day but fewer than five hours a week in collaboration outside of set working hours.
@@ -233,7 +233,7 @@ The report also includes the following features:
 
 * **Break out by group** panes, which allow you to do further drill-throughs on the report pages and group data by different organizational attributes.
 * **Take action** panes, which list opportunity areas and recommended actions for each section in the report.
-* **Settings**, which enables you to:
+* **Settings**, where you can:
     * Select the time period and organizational attribute by which to view the reports.
     * Select which employees to include in the reports.
     * Use exclusion options.

@@ -50,7 +50,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 >[!Note]
 > For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
 
-1. In the Viva Insights Analyst experience, select **Analysis**.
+1. In the Viva Insights analyst experience, select **Analysis**.
 
 2. Under **Power BI templates**, navigate to **Meeting effectiveness** and select **Start analysis**. To get more information about the Meeting effectiveness template before running your analysis, select **Learn more**.
 
@@ -61,6 +61,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
     >[!Important]
     > Some metrics in this query only have history back to May 2022. If you set the **Time period** to before May 2022, your query won't have complete data.
+
     3. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
 
     >[!Note]
@@ -80,7 +81,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     >[!Note]
     > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
 
-5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
+5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a custom Person query](../person-query.md).
 
     ![Screenshot that shows the Is active filter.](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
