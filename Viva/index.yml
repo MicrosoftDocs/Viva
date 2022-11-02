@@ -22,7 +22,7 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
     # Card
-    - title: Get started with Microsoft Viva
+    - title: Learn about getting started with the Microsoft Viva suite
       itemType: get-started
       url: microsoft-viva-overview.md
     # Card
@@ -40,7 +40,7 @@ highlightedContent:
 
 # tools section (optional)
 tools:
-  title: Get started # < 60 chars (optional)
+  title: Get started with Microsoft Viva# < 60 chars (optional)
   items:
     # Card
     - title: Microsoft Viva Topics
