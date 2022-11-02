@@ -55,6 +55,6 @@ You'll see different changes depending on whether you're a manager or non-manage
 
 ## When are these changes taking place?
 
-We're expecting these updates to take place in late November 2022.
+We're expecting these updates to take effect in late November/early December 2022.
 
  
