@@ -1294,6 +1294,11 @@
       "source_path": "WorkplaceAnalytics/Use/zoom.md",
       "redirect_url": "/viva/insights/Use/zoom",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "viva/goals/index.yml",
+      "redirect_url": "/viva/goals/intro-to-ms-viva-goals",
+      "redirect_document_id": false
+    }    
   ]
 }

@@ -17,7 +17,7 @@ description: Overview of topic discovery and curation in Viva Topics
 
 # Topic discovery and curation in Microsoft Viva Topics 
 
-Viva Topics organizes information to knowledge in your Microsoft 365 environment. We've all experienced reading through documents and site pages where we encounter terms we are unfamiliar with. Many times we stop what we are doing to spend precious time searching for more information.
+Viva Topics organizes information into knowledge in your Microsoft 365 environment. We've all experienced reading through documents and site pages where we encounter terms we are unfamiliar with. Many times we stop what we are doing to spend precious time searching for more information.
 
 Viva Topics uses Microsoft Graph and AI to identify **topics** in your organization.  A topic is a phrase or term that has a specific meaning to the organization, and has resources related to it that can help people understand what it is and find more information about it. There are lots of different types of topics that will be important to your organization. Initially, the following types of topics can be identified:
 

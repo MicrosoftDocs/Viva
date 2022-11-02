@@ -47,9 +47,25 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-WorkplaceAnalytics",
       "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
-      "uhfHeaderId": "MSDocsHeader-MSViva"
+      "uhfHeaderId": "MSDocsHeader-MSViva",
+      "contributors_to_exclude": [
+        "rjagiewich",
+        "traya1",
+        "rmca14",
+        "claydetels19",
+        "jborsecnik",
+        "tiburd",
+        "AngelaMotherofDragons",
+        "dstrome",
+        "v-dihans",
+        "garycentric"
+      ]
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "manager": {
+        "goals/*.md": "lucyhitz"
+      }
+    },
     "template": [],
     "dest": "OfficeDocs-Viva"
   }

@@ -146,7 +146,7 @@ You assign plans to groups, but just what constitutes a group? For Opportunities
 
 Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Viva Insights processes this data, it generates a management hierarchy that represents the entire organizational structure. 
 
-Groups are defined from this organizational data structure and represented by their manager names. Manager names are obtained from Active Directory by using the values that you provided for the ManagerID attribute in the [uploaded organizational data](../setup/upload-organizational-data-1st.md) file. These manager names are then displayed in the **Result** page to represent the groups. 
+Groups are defined from this organizational data structure and represented by their manager names. Manager names are obtained from Active Directory by using the values that you provided for the ManagerID attribute in the [uploaded organizational data](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) file. These manager names are then displayed in the **Result** page to represent the groups. 
 
 > [!Important]
 > Data for a group includes only the data for a manager's team. It does _not_ include the manager's data.
@@ -164,7 +164,7 @@ After validation, Viva Insights reports the results, including the number of qua
 
 ![Validation warnings.](../images/wpa/use/participants-warnings.png)
 
-Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with [starting a plan](../tutorials/solutionsv2-task.md#start-the-plan).
+Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with [starting a plan](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#start-the-plan).
 
 If the number of qualified participants falls below the minimum group size, you cannot proceed with this group as it is. To move forward, you need to make changes outside of Viva Insights. For example, you could ask an admin to assign licenses to those who are missing them, or you could try a different group.
 
@@ -182,6 +182,6 @@ This statement identifies the source of the data. That is, the data that was use
 
 A different analyst with a different partition would see a different trend line because that line would be calculated from different data. 
 
-All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Advanced insights](https://docs.microsoft.com/Workplace-Analytics/setup/partition-in-wpa). 
+All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Advanced insights](https://learn.microsoft.com/Workplace-Analytics/setup/partition-in-wpa). 
 
 -->

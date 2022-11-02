@@ -14,8 +14,9 @@ ms.custom:
 ms.service: viva
 ms.subservice: viva-topics
 ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-topics
+- enabler-strategic
+- m365initiative-viva-topics
+- highpri
 ms.localizationpriority:  medium
 description: Learn about how to use Viva Topics in your organization.
 ---
@@ -51,7 +52,7 @@ When a topic is mentioned in content on SharePoint news and pages, you'll see it
 
 ### Search results
 
-You can see a [topic answer](search.md#topic-answer) in search results when you search from the SharePoint start page, search on Office.com, or search from a SharePoint site after you you change the search scope to include the full organization. The topic answer will appear at the topic of the results list and give you a short set of information related to that topic. 
+You can see a [topic answer](search.md#topic-answer) in search results when you search from the SharePoint start page, search on Office.com, or search from a SharePoint site after you change the search scope to include the full organization. The topic answer will appear at the topic of the results list and give you a short set of information related to that topic. 
 
    ![Screenshot showing the search results of a SharePoint site search.](../media/knowledge-management/site-search-results.png) 
 
@@ -150,6 +151,8 @@ At Microsoft we take feedback from our customers very seriously. The feedback yo
 You can send feedback to Microsoft directly from a topic page, and from the **Manage topics** and **My topics** pages. Look for this button in the lower-right corner of the page.
 
    ![Screenshot showing the Feedback button.](../media/knowledge-management/feedback-icon.png)
+
+   The button will only appear in tenants that have a correctly configured [OCPS policy](/deployoffice/admincenter/overview-cloud-policy).
 
 On the **Send Feedback to Microsoft** page, let us know if you like something, if you don't like something, or if you have a suggestion.
 

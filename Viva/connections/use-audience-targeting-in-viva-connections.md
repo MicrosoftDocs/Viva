@@ -43,19 +43,29 @@ Learn more about the ways audience targeting can be used to make sure the right 
 
 ## Apply audience targeting to cards in the Dashboard
 
-Create a personalized experience by targeting Dashboard cards to specific audiences to ensure only the most relevant cards are seen. [Follow these instructions if you are setting up the Viva Connections Dashboard for the first time.](create-dashboard.md)
+Create a personalized experience by targeting Dashboard cards to specific audiences to ensure only the most relevant cards are seen. Use audience targeting to create custom views for distinct roles and regions, generate as many different views as needed to create unique experiences, and to ensure the most important content is seen by the intended audience. [Follow these instructions if you are setting up the Viva Connections Dashboard for the first time.](create-dashboard.md)
 
 > [!NOTE]
 > You must be a site owner of the [SharePoint home site](/sharepoint/home-site) to edit the Viva Connections Dashboard.
 
-1. From the select the **Settings** and then select **Set up Viva Connections**.
+1. From the select the **Settings** and then select **Manage Viva Connections**.
 2. Select **View Dashboard** and then select **Edit**.
 3. Select **Edit** on the card you want to apply audience targeting to.
 
     :::image type="content" source="../media/connections/edit-card.png" alt-text="Image of edit card":::
 
 4. At the bottom of the edit pane, apply [groups](/microsoft-365/community/all-about-groups) to the **Audience to target** field. Exit the edit pane when you are done.
-5. Preview the viewing experience for different audiences and devices by selecting **Preview** from the command bar and then Select **audiences to preview as**.
+5. Preview the viewing experience for different audiences and devices by selecting **Preview** from the command bar and then Select **audiences to preview as**. Make sure you preview the experience for each audience and on both desktop and mobile devices. 
+<br>
+
+   **While in preview-mode, make sure:** 
+
+   - There aren’t any physical gaps between cards that may appear while previewing different audiences and devices. If you see gaps, rearrange cards so that every audience and device will have a high-quality viewing experience. 
+   - Icons, graphics, and images are easy to identify and understand. 
+   - Buttons and links are active and go to their intended destinations. 
+   - Labels and description text are helpful, easy to read, and make sense for the intended audience. 
+
+
 6. **Republish** the Dashboard when you are done for the audience targeting to take effect.
 
     :::image type="content" source="../media/connections/card-targeted-audience.png" alt-text="Image of card targeted audience":::

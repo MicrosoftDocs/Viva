@@ -1,16 +1,18 @@
 ---
 title: Set up Microsoft Viva Topics
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
-ms.reviewer: nkokoye
+ms.author: ruthhollands
+author: ruthholls
+manager: pamgreen
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection: 
+- m365initiative-viva-topics
+- highpri
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
-    - MET150  
+- MET150  
 ms.localizationpriority:  medium
 description: Learn how to set up Microsoft Viva Topics.
 ---
@@ -56,6 +58,8 @@ To assign licenses:
 5. Click **Save changes**.
 
 It may take up to an hour for users to get access to Topics after the licenses are assigned.
+
+Note that users must also have an Exchange Online license to use Topics.
 
 ## Set up Topics
 
@@ -159,6 +163,13 @@ Once you have set up Topics, you can change the settings that you chose during s
 
 You can also [add Viva Topics as an app in Teams](add-topics-app.md).
 
+## Resources for your users
+
+- [Understanding Viva Topics](https://support.microsoft.com/office/5bef3020-2679-4045-81cb-bcbc37218332)
+- [Edit an existing topic in Microsoft Viva Topics](https://support.microsoft.com/office/6a4c7459-2293-4291-af76-973af65a44ae)
+
 ## See also
 
 [Topic Experiences Overview](topic-experiences-overview.md)
+
+[Learn about topics in Microsoft Viva Topics](/viva/topics/get-started-with-viva-topics)

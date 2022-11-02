@@ -17,7 +17,7 @@ description: Find resources to help your organization learn about and get the mo
 
 # Adoption resources for Microsoft Viva Topics
 
-Use these downloadable resources and other information to spark ideas about how to help get the most out of Viva Topics in your organization.
+Use these adoption resources and other information to spark ideas about how to help get the most out of Viva Topics in your organization.
 
 ## Downloadable resources
 
@@ -32,5 +32,6 @@ Use these downloadable resources and other information to spark ideas about how 
 |Name     |Description  |
 |---------|---------|
 |[Adoption blog](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/the-journey-to-viva-topics-adoption-success-intro/ba-p/2976552) |Read about how organizations are using Viva Topics to drive a knowledge-centric culture, including learnings, insights, and best practices. |
+|[Viva Topics Hackathon toolkit](https://adoption.microsoft.com/files/viva/topics/Viva-Topics-Hackathon-Documentation.zip) | Jumpstart the Viva Topics adoption process with this collaborative Hackathon toolkit.     |
 |[Viva Topics FAQ](faq-topics.md) |Find answers to frequently asked questions to help you understand more about Viva Topics.    |
 |End user guidance |[Understanding Viva Topics](https://support.microsoft.com/en-us/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332) <br> [Edit an existing topic in Viva Topics](https://support.microsoft.com/en-us/office/edit-an-existing-topic-in-microsoft-viva-topics-6a4c7459-2293-4291-af76-973af65a44ae)  |

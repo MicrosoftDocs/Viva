@@ -6,11 +6,13 @@ manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection: 
+- m365initiative-viva-topics
+- highpri
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
-    - MET150   
+- MET150   
 ms.localizationpriority:  medium
 description: Learn how to edit an existing topic in Microsoft Viva Topics.
 
@@ -44,10 +46,6 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
    ![Screenshot showing the Edit button.](../media/knowledge-management/edit-button.png) </br> 
 
-Knowledge managers can also edit topics directly from the **Manage topics** page by selecting the topic, and then selecting **Edit** in the toolbar.
-
-   ![Screenshot showing Edit topic on Manage topics page.](../media/knowledge-management/manage-topics-edit.png)
-
 ### To edit a topic page
 
 1. On the topic page, select **Edit**. This lets you make changes as needed to the topic page.
@@ -71,7 +69,7 @@ Knowledge managers can also edit topics directly from the **Manage topics** page
 
    ![Screenshot showing pinning suggested people.](../media/knowledge-management/suggested-people.png)
 
-5. In the **Pinned files and pages** section, you can add or "pin" a file or SharePoint site page that is associated to the topic.
+5. In the **Pinned files and pages** section, you can add or "pin" a file, SharePoint site page, or external resource associated to the topic.
 
    ![Screenshot showing the Pinned files and pages section.](../media/knowledge-management/pinned-files-and-pages.png)
  
@@ -81,10 +79,7 @@ Knowledge managers can also edit topics directly from the **Manage topics** page
 
    ![Screenshot showing the search option for a file or page.](../media/knowledge-management/topics-search-resource.png)    
 
-    You can also use the **From a link** option to add a file or page by providing the URL. 
-
-   > [!Note] 
-   > Files and pages that you add must be located within the same Microsoft 365 tenant. If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 9.
+    You can also use the **From a link** option to add a file, page, or external resource by providing the URL. 
 
 6. The **Suggested files and pages** section shows files and pages that AI suggests to be associated to the topic.
 

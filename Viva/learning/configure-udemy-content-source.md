@@ -1,7 +1,7 @@
 ---
 title: Configure Udemy as a content source for Microsoft Viva Learning
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 10/27/2021
@@ -19,7 +19,7 @@ description: Learn how to configure Udemy as a learning content source for Micro
 
 # Configure Udemy as a content source for Microsoft Viva Learning
 
-This article shows you how to configure Udemy as a third-party learning content source for Microsoft Viva Learning.
+This article shows you how to configure Udemy as a third-party learning content source for Microsoft Viva Learning. You'll need a Microsoft Viva Suite or Viva Learning license to add Udemy as a content source for your organization.
 
 >[!NOTE]
 >Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Udemy content and any associated services are subject to Udemy's privacy and service terms.
@@ -31,7 +31,7 @@ This article shows you how to configure Udemy as a third-party learning content 
 
 Follow these steps to enable the APIs in your Udemy Business environment and generate client credentials for your LMS/LXP application to access them.
 
-1. Navigate to **Manage**, then **Settings**, then **API**. Check the status of your APIs. If they are disabled, you can contact support to have them enabled or follow the steps below to enable them.
+1. Navigate to **Manage**, then **Settings**, then **API**. Check the status of your APIs. If they're disabled, you can contact support to have them enabled or follow the steps below to enable them.
 
     ![Image of the API settings page.](../media/learning/udemy-1.png)
 
