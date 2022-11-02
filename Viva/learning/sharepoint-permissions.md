@@ -23,6 +23,8 @@ description: Learn how to control access to SharePoint content in Viva Learning 
 
 Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
 
+ > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bHnt]  
+
 >[!NOTE]
 > While only **Microsoft 365** and **Mail-enabled security** group types are supported, it's recommended that you use a **Microsoft 365 Group.** Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
 
