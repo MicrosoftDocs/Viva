@@ -39,7 +39,7 @@ Navigate to **manage providers** for a detailed view of all configured learning 
 Once an admin configures a learning source on the M365 Admin center, the configured provider is reflected immediately in the **manage providers** section in the Viva Learning admin tab. 
 
 
-![Screenshot shows the manage providers options inside the new admin tab for Viva Learning.](../media/learning/admin-tab-manage-providers.png)
+:::image type="content" source="../media/learning/admin-tab-manage-providers.png" alt-text="Screenshot shows the manage providers options inside the new admin tab for Viva Learning." lightbox="../media/learning/admin-tab-manage-providers.png":::
 
 >[!NOTE]
 > Set up the learning provider and manage content sources for Microsoft Viva Learning in the Microsoft 365 Admin center.
