@@ -44,6 +44,6 @@ You can contact [Skillsoft Support](https://support.skillsoft.com/percipio/) for
     1. The US data center end point URL is: `api.percipio.com`
     1. The European data center end point URL is: `dew1-api.percipio.com`
 
-![Image of the highlighted field where you enter region specific data center end point url](../media/learning/skillsoft-data-center-end-point-url.png)
+![Image of the highlighted field where you enter region-specific data center endpoint url.](../media/learning/skillsoft-data-center-end-point-url.png)
 
 5. Select **Save** to save the configuration details and complete the setup process.
