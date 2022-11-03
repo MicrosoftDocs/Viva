@@ -41,16 +41,12 @@ This error occurs if a SharePoint Framework (SPFx) web part is added to Viva Con
 
 To resolve this issue, navigate to the API Access page from the SharePoint admin center:
 
-1. As a Global admin, open the **SharePoint admin center**.
-2. Select **Advanced**. 
-3. Select **API access**.
+1. Sign in to the **SharePoint admin center** by using Global admin credentials.
+1. Select **Advanced** > **API access**.
 
-If you don't see the **API access** option under **Advanced**, follow these steps: 
+If you don't see the **API acess** option, use the following steps:
 
-1. As a Global admin, open the **SharePoint admin center**.
-2. Select **More features**.
-3. Select the **Open** button under **Apps**.
-4. Select **API access**.
-
-    :::image type="content" source="media/error-accessing-app-from-teams-desktop/add-app-id.png" alt-text="Screenshot of the Teams client app ID added to the list of authorized client applications.":::
-
+1. Sign in to the **SharePoint admin center** by using Global admin credentials.
+1. Select **More features**.
+1. Select the **Open** button under **Apps**.
+1. Select **API access**.
