@@ -48,7 +48,7 @@ Once an admin configures a learning source on the M365 Admin center, the configu
 Track the current sync status, last successful sync time, ingestion logs, and trigger full sync for each component in the expanded view:
 
 - **Sync status and timestamp**: Check the current sync status (success/failed/in progress) of content, learner record sync, and catalog permissions sync for a specific source. Admins can see the sync status and sync completion timestamp for the following:
-    - **Content sync:** Content sync, sync status, and sync status is available for all providers (LMS, 3P, Global, and SharePoint)
+    - **Content sync:** Content sync, sync status, and sync status are available for all providers (LMS, 3P, Global, and SharePoint)
     - **Learning record sync**: LRS status and sync completion timestamp are currently only available for SAP SuccessFactors. We will be extending this to Saba and Cornerstone in upcoming releases.
 
 - **Manual sync trigger**: Trigger the full sync manually for SuccessFactors (content, LRS) and Workday (content). Once a full sync is triggered, the current sync status will be updated accordingly.
