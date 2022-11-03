@@ -60,7 +60,7 @@ There are multiple ways to share Power BI reports. See [Ways to collaborate and 
 
 If you selected the auto-refresh option for your Viva Insights query, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people. 
 
-However, the new results aren't automatically refreshed in Power BI. If you're working in Power BI Desktop, select **Refresh** on the **Home** ribbon to perform a one-time refresh. If you've published your report to the Power BI Service, you can [configure a scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) to define frequency and time slots to refresh your dataset.
+However, the new results aren't automatically refreshed in Power BI. If you're working in Power BI Desktop, select **Refresh** on the **Home** ribbon to perform a one-time refresh. If you've published your report to the Power BI service, you can [configure a scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) to define frequency and time slots to refresh your dataset.
 
 >[!Important]
 >You need to manually adjust the **Selected time frame** setting in the report's **Settings** page to view the most recently processed data. 
