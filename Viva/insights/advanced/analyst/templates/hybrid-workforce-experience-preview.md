@@ -160,9 +160,9 @@ This section:
  Name | Description| Type
 |------|------------|------|
 |**Remote days**|  Number of days a person spent working remote (not on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available. | Count|
-|**Manager remote days** | Number of days a person's direct manager spent working remote (not on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count|
-|**Onsite days**| Number of days a person spent working onsite (on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available. | Count|
-|**Manager onsite days**| Number of days a person's direct manager spent working onsite (on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count
+|**Manager remote days** | Number of days a person's direct manager spent working remote (not on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count|
+|**Onsite days**| Number of days a person spent working onsite (on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available. | Count|
+|**Manager onsite days**| Number of days a person's direct manager spent working onsite (on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count
 
 >[!NOTE] 
 >There’s a one-week delay in computing these metrics. This means that if you run a:
