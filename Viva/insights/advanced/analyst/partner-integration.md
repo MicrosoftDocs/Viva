@@ -21,7 +21,7 @@ audience: Admin
 
 Use this integration to export and combine Microsoft Viva Insights collaboration data with partner application data. Then, use the combined data for more advanced customer analysis, like identifying behaviors and patterns behind key metrics.
 
-To facilitate this integration, we use an Azure Data Factory pipeline. Refer to Process for further information about how this pipeline works.
+To facilitate this integration, we use an Azure Data Factory pipeline. Refer to [Process](#process) for further information about how this pipeline works.
 
 ## About Viva Insights data
 
@@ -45,7 +45,8 @@ Before you can use this integration, you’ll need to:
 5.	Create an Azure Key Vault. You’ll store per-tenant encryption keys here, in the **Keys** section. 
     1. For each customer tenant extraction, create a key and make the name the customer tenant GUID. Make sure each key is unique—that is, you can’t repeat the same key for two different tenants. Learn more about keys in [About keys](/azure/key-vault/keys/about-keys). 
     1. Make sure the key has a valid expiration date. 
-    1. <!--verifying this-->Provide GET Key permission to the AppId that will be passed as ServicePrincipalId in Copy activity- SourceLinkedService. When you fill out the Microsoft Graph Data Connect Application Preview Registration form in the next step, you’ll provide the SourceLinkedService as the Azure Key Vault’s URL. All Viva Insights data will be returned encrypted. For more details, refer to this document’s [Customer onboarding](#customer-onboarding) and [Encryption and compression](#encryption-and-compression) sections.
+    <!--verifying this-->
+    1. Provide GET Key permission to the AppId that will be passed as ServicePrincipalId in Copy activity- SourceLinkedService. When you fill out the Microsoft Graph Data Connect Application Preview Registration form in the next step, you’ll provide the SourceLinkedService as the Azure Key Vault’s URL. All Viva Insights data will be returned encrypted. For more details, refer to this document’s [Customer onboarding](#customer-onboarding) and [Encryption and compression](#encryption-and-compression) sections.
 6.	Fill out the [Microsoft Graph Data Connect Application Preview Registration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-mfqDTQy0ZMj1EdmSbUSwxUOUwyOEVWMkxCTTFTTlVXS1JDQ0xEMjVDUyQlQCN0PWcu).
     1. For question 2, **Organization Type**, select **ISV (Independent Software Vendor)**.
     1. Fill out question 12, **Azure Key Vault URL**, with the Azure Key Vault URL generated earlier (**SourceLinkedService**).
@@ -53,15 +54,15 @@ Before you can use this integration, you’ll need to:
         1. **BasicDataSet_v0.User_v1**
         1. **VivaInsightsDataset_PersonReport_v1**
         
-            *Skip to question 56.*
+        *Skip to question 57.*
 
-        1. On question 57, **BasicDataSet_v0.User_v1 dataset columns**, select all checkboxes.
+    1. On question 57, **BasicDataSet_v0.User_v1 dataset columns**, select all checkboxes.
         
-            *Skip to question 60.*
+        *Skip to question 60.*
 
-        1. On question 60, **VivaInsightsDataset_PersonReport_v1 dataset columns**, select the **All metrics** checkbox.
+    1. On question 60, **VivaInsightsDataset_PersonReport_v1 dataset columns**, select the **All metrics** checkbox.
     1. Complete and submit the form.
-1.	Complete customer onboarding, as described in the following section.
+1.	Complete customer onboarding as described in the following section.
 
 #### Customer onboarding
 
@@ -80,7 +81,7 @@ The public key is used to encrypt the **decryption key** described in [Encryptio
 The customer needs to consent to your application before data extraction can begin. Choose one of two ways to help your customer navigate to your application on their Microsoft 365 Admin Center, where they can approve it:
 
 * **Direct link (recommended):** Send the customer the following link with your app registration information filled in. This link takes your customer admin directly to your MGDC app on the Microsoft 365 Admin Center, where they can review and consent to your application:
-\https://admin.microsoft.com/Adminportal/Home#/Settings/MGDCAdminCenter/{PartnerAppRegistrationTenantId}/{PartnerApplicationId}\
+`https://admin.microsoft.com/Adminportal/Home#/Settings/MGDCAdminCenter/{PartnerAppRegistrationTenantId}/{PartnerApplicationId}`
 
     >[!Note]
     >This link is the same for all customers.
@@ -96,19 +97,21 @@ Before you can use this integration, you’ll need to:
 * Enable Microsoft Graph Data Connect (MGDC) for the customer tenant, which is the platform you’ll use to export the Microsoft 365 data. Refer to the Overview page for more information about MGDC.
 * Have your tenant admin enable the Viva Insights dataset for the customer tenant. They can enable this dataset from the Microsoft 365 admin center, as described in the FAQ.
 * Allow cross-tenant data movement so the partner can extract your customer dataset. We’ve provided detailed instructions in the FAQ about how to allow cross-tenant movement.
-* Have your tenant admin approve your partner’s application before data extraction starts. This consent is fetched and validated against the partner kicks off the data extraction. We’ve provided detailed instructions in the FAQ.
+* Have your tenant admin approve your partner’s application before data extraction starts. This consent is fetched and validated against when the partner kicks off the data extraction. We’ve provided detailed instructions in the FAQ.
 
-## Flow
+## Process
+
+### Flow
 
 *Applies to: partners*
 
 To use this integration, here’s what you’ll need to do.
 
-### Edit the template, provision a client secret, and deploy the template
+#### Edit the template, provision a client secret, and deploy the template
 
 1.	Edit the sample [Data Factory Pipeline template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction/mainTemplateV1.json) (also known as an Azure Resource Manager [ARM] template) from GitHub for your specific use case. This template defines the Azure Data Factory pipeline and associated resources that will be deployed to Azure, in your Azure subscription, to move data to your subscription.
-2.	 Provision a client secret for the application you created [earlier](#for-partners). Store the secret in the Azure Key Vault you made earlier, unless you’re using a custom solution. 
-3.	On your Azure subscription, deploy the template:
+1.	 Provision a client secret for the application you created [earlier](#for-partners). Store the secret in the Azure Key Vault you made earlier, unless you’re using a custom solution. 
+1.	On your Azure subscription, deploy the template:
     1. In the Azure portal, select **Deploy a custom template**.
     1. Select **Build your own template** in the editor and copy the contents of the sample template we provided on GitHub.
     1. Select a **Resource group** and **Region** to deploy to.
@@ -118,7 +121,7 @@ To use this integration, here’s what you’ll need to do.
  <!--add picture-->
 ### Access customer data from the data drop
 
-1. Viva Insights generates an encryption key. Refer to [Encryption and compression](#encryption-and-compression) for details.
+4. Viva Insights generates an encryption key. Refer to [Encryption and compression](#encryption-and-compression) for details.
 1. Begin your MGDC data extraction by triggering the pipeline. You’ll receive the encrypted customer data in the storage account that [you configured](#for-partners) as the destination. 
 1. Your application needs to reverse the encryption and compression process to access the original data. To access the customer data from the data drop:
     1. Decompress the file (here's a [C# sample](/dotnet/api/system.io.compression.gzipstream)).
@@ -126,9 +129,9 @@ To use this integration, here’s what you’ll need to do.
     1. Get the file decryption key from the extraction metadata.
     1. Decrypt the entire file with the file encryption key (here's a [C# sample](/dotnet/api/system.security.cryptography.aes)).
 
-### Take optional steps
+#### Take optional steps
 
-At this point, you’ve completed all required steps and should have access to your decrypted customer data. However, you might need to take a few optional steps, like joining Viva Insights data with other data, or using a pull rather than a push model to process analytics data. If that information applies to you, refer to Optional steps. We also recommend you refer to the Encryption and compression section for best practices for storing customer data,
+At this point, you’ve completed all required steps and should have access to your decrypted customer data. However, you might need to take a few optional steps, like joining Viva Insights data with other data, or using a pull rather than a push model to process analytics data. If that information applies to you, refer to Optional steps. We also recommend you review best practices for storing customer data in [About storing customer data](#about-storing-customer-data).
 
 ## About metadata, encryption and compression, and the pipeline
 
