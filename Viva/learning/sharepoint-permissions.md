@@ -31,7 +31,11 @@ Document library folder URLs can be collected from any SharePoint site in the or
 1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
 
 >[!NOTE]
+>You need to be a site owner or site contributor to add permissions.
+
+>[!NOTE]
 > You'll need to add the owners as members in order for them to have access.
+
 
 2. Go to the folder where you're storing learning content in SharePoint.
 3. Select the vertical ellipses (**...**) on the item you want to control access to. If you want to control access to specific items in a folder, go to that folder.
@@ -52,6 +56,8 @@ Document library folder URLs can be collected from any SharePoint site in the or
     ![Screenshot of the pencil icon showing options for Can edit and Can view.](../media/learning/sharepoint-edit-view.png)
 
 8. Select **Grant access** to give your group access to the learning content.
+
+9. To validate that the right permission has been added, click on advanced options for permissions and check whether the permission you added has "TYPE" as its Domain Group.
 
 >[!NOTE]
 > It will take approximately 24 hours for these changes to show up in the Viva Learning app.
