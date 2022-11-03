@@ -82,7 +82,7 @@ additionalContent:
         # Card
         - title: Connection
           summary: Keep everyone informed, included, and inspired.  Viva Engage and Viva Amplify
-          url: index
+          url: https://review.learn.microsoft.com/en-us/viva/experience-connection?branch=loreenl-working
         # Card
         - title: Insight
           summary: Improve productivity and wellbeing with actionable insights. Viva Insights and Viva Pulse
