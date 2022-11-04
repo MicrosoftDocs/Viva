@@ -235,7 +235,7 @@ To process analytics data sent to your application, you have the option of using
 The Azure Data Factory pipeline powering the data movement notifies your application when new data is available. There are a couple of ways this can be done:
 
 * An Azure function can be invoked when data in your Blob storage account changes. See the Azure Function Overview and Blob Storage Trigger Sample to understand how this function is configured. This is the method our sample pipeline on GitHub uses.
-* The Azure Data Factory pipeline can invoke a web activity that makes a REST call to your application’s backend, notifying it that new data is available. Web activities are described in [Web activity in Azure Data Factory and Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/data-factory/control-flow-web-activity). 
+* The Azure Data Factory pipeline can invoke a web activity that makes a REST call to your application’s backend, notifying it that new data is available. Web activities are described in [Web activity in Azure Data Factory and Azure Synapse Analytics](/azure/data-factory/control-flow-web-activity). 
 
 #### How to use a pull model
 
