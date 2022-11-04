@@ -70,7 +70,7 @@ Before you can use this integration, you’ll need to:
 >[!Note]
 >While private preview is still in effect, Microsoft Graph Data Connect (MGDC) needs to explicitly enable the new MGDC admin center experiences for cross-tenant data movement for *each* customer tenant. For each new customer you onboard, send their tenant ID to dataconnect@microsoft.com. 
 
-To extract customer data, you need to generate a unique RSA-2048 key pair for each customer. Your application can securely generate and store RSA-2048 certificates (containing key pairs) by using [Azure Key Vault](/azure/key-vault) or a custom solution.
+As detailed earlier in step 5a, you need to generate a unique RSA-2048 key pair for each customer to extract customer data. Your application can securely generate and store RSA-2048 certificates (containing key pairs) by using [Azure Key Vault](/azure/key-vault) or a custom solution.
 
 >[!IMPORTANT] 
 >Don’t reuse certificates for multiple customers. Duplicate keys will be rejected as a security risk.
@@ -115,10 +115,6 @@ To use this integration, here’s what you’ll need to do.
 #### Edit the template, provision a client secret, and deploy the template
 
 1.	Edit the sample [Data Factory Pipeline template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction/mainTemplateV1.json) (also known as an Azure Resource Manager [ARM] template) from GitHub for your specific use case. This template defines the Azure Data Factory pipeline and associated resources that will be deployed to Azure, in your Azure subscription, to move data to your subscription.
-
-    >[!Note]
-    >If you want to add a REST call to your application’s backend, notifying it that new data is available, refer to the resources in [Process analytics data](#process-analytics-data).
-
 1. Provision a client secret for the application you created [earlier](#for-partners). Store the secret in the Azure Key Vault you made earlier, unless you’re using a custom solution. 
 1.	On your Azure subscription, deploy the template:
     1. In the Azure portal, select **Deploy a custom template**.
@@ -127,7 +123,7 @@ To use this integration, here’s what you’ll need to do.
     1. Provide values for the parameters specified in the template:
         * The **App Id** is the ID you received when you registered the app in [Prerequisites](#for-partners).  
         * The **App Secret** is the secret generated when you registered the app in [Prerequisites](#for-partners). 
-        * The **AzureActiveDirectoryTenantId** is the Azure Active Directory Tenant Id of the customer whose data needs to be extracted.
+        * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant Id of the customer whose data needs to be extracted.
 
     ![Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)](/viva/insights/advanced/images/custom-deployment.png)
 
@@ -214,8 +210,8 @@ The sample Azure Data Factory pipeline we’ve provided on GitHub includes a [tr
 
 You might need to take one or both of these steps depending on your use case:
 
-* If you don’t have access to your customer’s tenant directory information, you can use the information in Join Viva Insights data with other data to export Azure Active Directory user data. In the sample Data Factory Pipeline we’ve provided on GitHub, this step is marked as **OPTIONAL**.
-* If you want to continuously poll the Blob Storage account (that is, use a pull model) for changes instead of using the sample pipeline’s Azure function, refer to How to use a pull model.
+* If you don’t have access to your customer’s tenant directory information, you can use the information in [Join Viva Insights data with other data](#join-viva-insights-data-with-other-data) to export Azure Active Directory user data. In the sample Data Factory Pipeline we’ve provided on GitHub, this step is marked as **OPTIONAL**.
+* If you want to continuously poll the Blob Storage account (that is, use a pull model) for changes instead of using the sample pipeline’s Azure function, refer to [How to use a pull model](#how-to-use-a-pull-model).
 
 #### Join Viva Insights data with other data
 
@@ -223,36 +219,37 @@ The analytics data includes the Azure Active Directory Object ID of each user th
 
 If you don’t have this access, you can export directory information and correlate it with a common field by following these steps:
 
-1.	Configure your Azure Data Factory pipeline to add an additional step to export Azure Active Directory user data. This step is provided, but marked as **OPTIONAL**, in the sample pipeline we’ve provided on GitHub. Adding this step creates an additional output file from your pipeline that includes basic information about each user in the customer’s tenant
+1.	Configure your Azure Data Factory pipeline to add an additional step to export Azure Active Directory user data. This step is provided, but marked as **OPTIONAL**, in our sample pipeline on GitHub. Adding this step creates an additional output file from your pipeline that includes basic information about each user in the customer’s tenant.
 2.	Use this output from step 1 correlate user information between Azure and your application with a join of a common field, such as e-mail address. Refer to the Microsoft Graph Data Connect documentation for details on the [user schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/User_v1.md) and a [sample of the output](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/BasicDataSet_v0.User_v1.json).
 
 ### Process analytics data
 
 To process analytics data sent to your application, you have the option of using either a push or a pull model to start processing. The sample pipeline we provide on GitHub uses a push model, which works like this:
 
-The Azure Data Factory pipeline powering the data movement notifies your application when new data is available. There are a couple of ways this can be done:
+The Azure Data Factory pipeline powering the data movement notifies your application when new data is available. There are a couple of ways the pipeline can do this:
 
-* An Azure function can be invoked when data in your Blob storage account changes. See the Azure Function Overview and Blob Storage Trigger Sample to understand how this function is configured. This is the method our sample pipeline on GitHub uses.
-* The Azure Data Factory pipeline can invoke a web activity that makes a REST call to your application’s backend, notifying it that new data is available. Web activities are described in [Web activity in Azure Data Factory and Azure Synapse Analytics](/azure/data-factory/control-flow-web-activity). 
+* It can invoke an Azure function when data in your Blob Storage account changes. Refer to the [Azure function overview](https://github.com/microsoftgraph/dataconnect-solutions/tree/VIvaInsightsARM/ARMTemplates/genericPipelineWithAzureFunctionTrigger) and [Blob Storage trigger sample](/azure/azure-functions/functions-bindings-storage-blob-trigger?tabs=in-process%2Cextensionv5&pivots=programming-language-csharp) to understand how this function is configured. This is the method our sample pipeline on GitHub uses.
+* The Azure Data Factory pipeline can invoke a web activity that makes a REST call to your application’s backend, notifying it that new data is available. Web activities are described in [Web activity in Azure Data Factory and Azure Synapse Analytics](/azure/data-factory/control-flow-web-activity). You can edit our sample template to include this activity as an extra step.
 
 #### How to use a pull model
 
-Optionally, you can have your application continuously poll the Blob Storage account for changes using the Blob Storage SDK or REST API. To do this, your application can maintain a “watermark” of the last processed folder’s timestamp so that failed processing can be retried.
+Optionally, you can have your application continuously poll the Blob Storage account for changes using the [Blob Storage SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet) or [REST API](https://docs.microsoft.com/rest/api/storageservices/). To do this, your application can maintain a “watermark” of the last processed folder’s timestamp so that failed processing can be retried.
 
 Use the SDK or REST API to download data from your Blob Storage account to a local destination (or cloud storage outside of Azure).
 
 ### Related information 
 
-#### Supported metrics
+#### Applicable metrics
 
-The supported metrics for the private preview release are listed in [Advanced insights metrics](../reference/metrics.md). 
+We list applicable metrics in [Advanced insights metrics](../reference/metrics.md). 
 
 #### How to simulate a data drop with sample data
 
-To quickly prototype an application built on the Viva Insights integration, you can use sample data to simulate a data drop received from a customer.
-1.	Upload Viva Insights sample data to a storage account in your test environment. See How to upload data to Azure for further details. 
+To quickly prototype an application built on the Viva Insights integration, you can use sample data to simulate a data drop received from a customer. To do so:
+
+1.	Upload [Viva Insights sample data](https://raw.githubusercontent.com/niblak/dataconnect-solutions/vivaarmtemplates/sampledatasets/VivaInsightsDataset_v1.json) to a storage account in your test environment. Refer to [How to upload data to Azure](/azure/storage/blobs/storage-quickstart-blobs-portal) for further details. 
 2.	Build your application to retrieve the behavioral analytics data:
-    1. Download the data from your Azure Storage Account. To do this, you can use the SDK or the REST API.
+    1. Download the data from your Azure Storage Account. To download this data, you can use the [SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet) or the [REST API](/rest/api/storageservices/).
     1. Ingest the data into your partner application. Steps vary based on what your application requires.
 
 ## FAQ
@@ -261,7 +258,7 @@ To quickly prototype an application built on the Viva Insights integration, you 
 
 #### Q1. How large will my output file be?
 
-A1. The following sizes are *estimates* of final output size for analytics data. These estimates are extrapolated from a baseline of real-world, 175K-person set of Microsoft tenant data.
+A1. The following sizes are *estimates* of final output size for analytics data. These estimates are extrapolated from a real-world baseline—a 175K-person set of Microsoft tenant data.
 
 |Tenant size (licensed users)|	Date range	|Compressed size	|Uncompressed size|
 |----|----|----|----|
@@ -292,8 +289,6 @@ We recommend that you stream in analytics data line-by-line. Don’t try to load
 
 A6. A global admin for the customer tenant needs to enable the dataset and cross-tenant data movement. In the admin portal (admin.microsoft.com), under **Microsoft Graph Data Connect** settings, they’ll select the option to enable **Viva Insights dataset** and **Cross-Tenant data movement**. This link takes the admin into the Microsoft Graph Data Connect settings page in the admin portal:
 https://admin.microsoft.com/Adminportal/Home#/Settings/Services/:/Settings/L1/O365DataPlan.
-
-![Screenshot that shows the Microsoft Graph Data Connect settings page in the admin portal. All settings options are selected: Turn on MGDC, Enable dataset access from these services (both options), and Allow Cross-Tenant data movement.](/viva/insights/advanced/images/mgdc-admin-center1.png)
  
 #### Q6. How do I approve a partner’s MGDC application as a customer?
 
@@ -306,25 +301,12 @@ To approve a partner’s request:
     1. Option 2: Search for the partner’s MGDC application manually using the partner app registration tenant ID and partner application ID. 
         1. Go to the MGDC admin center: https://admin.microsoft.com/Adminportal/Home#/Settings/MGDCAdminCenter.
         1. Select **Add new multi-tenant app**.
-        ![Screenshot that shows the Microsoft Graph Data Connect Admin Center Apps section. Add new multi-tenant app is highlighted.](/viva/insights/advanced/images/add-new-app.png)
         1. Enter the app registration information that the partner gave you, then select **Find**. 
-        ![Screenshot that shows the Add new multi-tenant app screen. The tenant ID and App ID fields, and the Find button, are highlighted.](/viva/insights/advanced/images/add-multi-tenant-app.png)
 1. Approve the app by going through each screen: **Overview**, **Datasets**, and **Review**. Carefully review the information on each screen before selecting **Next**.
-    1. **Overview**: Review information about the application and data destination. 
-
-    ![Screenshot that shows the app approval Overview screen. Information is contained in each field. The Next button is highlighted.](/viva/insights/advanced/images/app-overview.png)
- 
+    1. **Overview**: Review information about the application and data destination.
     1. **Datasets**: Review details about which datasets and columns the application wants to extract. Your approval only allows the application to extract the datasets and columns specified here. Make sure you’re fully reviewing each dataset; for each dataset, expand the list of columns the application is requesting to extract. 
-     ![Screenshot that shows the app approval Datasets screen. Each expansion arrow next to the dataset title is highlighted. the Next button is highlighted.](/viva/insights/advanced/images/app-datasets.png)
     1. **Review**: After taking another look at the app publisher and the data destination, **Approve** or **Decline** the application to extract the requested datasets. Your approval or denial isn't committed until you select the **Approve** or **Decline** button. If you approve, your approval remains valid for the next 180 days. 
-      ![Screenshot that shows the app approval Approve screen. The Approve button is highlighted.](/viva/insights/advanced/images/app-review.png)
 3.	If you approved, return to the Microsoft Graph Data Connect Admin Center landing page. The app you just approved should appear in the summary table. 
- 
-      ![Screenshot that shows the MGDC admin center summary table. The Sample App is highlighted.](/viva/insights/advanced/images/app-in-mgdc-admin-center.png)
-
-
-
-
 
 ## Related topics
 
