@@ -57,8 +57,8 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 After your admin completes the [Admin tasks](#admin-tasks), you can set up **Organization trends** in Teams. See the following articles to install, pin, and configure the app in Teams:
 
-* [Install and pin the app](../personal/teams/viva-teams-app-install.md)
-* [Configure the app](../personal/teams/viva-teams-app-settings.md)
+* [Install and pin the app](../personal/teams/viva-teams-app-install)
+* [Configure the app](../personal/teams/viva-teams-app-settings)
 
 >[!Note]
 >You can also open a web-based Viva Insights at [insights.viva.office.com](https://insights.viva.office.com/), or through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com/).
