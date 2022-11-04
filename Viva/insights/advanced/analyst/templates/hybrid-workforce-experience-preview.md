@@ -26,7 +26,7 @@ As leaders figure out their organization’s new working models, the **Hybrid wo
 * Mostly remote
 * Onsite some days of the week and remote on others (hybrid)
 
-The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (that is, from the company’s corporate network). The detection of an employee onsite days is based on Azure Active Directory (AD) log-in information. Note that the algorithm only uses three out of four octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
+The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (that is, from the company’s corporate network). The detection of an employee's onsite days is based on Azure Active Directory (AD) log-in information. Note that the algorithm only uses three out of four octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
 
 The report has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.
 
@@ -160,9 +160,9 @@ This section:
  Name | Description| Type
 |------|------------|------|
 |**Remote days**|  Number of days a person spent working remote (not on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available. | Count|
-|**Manager remote days** | Number of days a person's direct manager spent working remote (not on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count|
-|**Onsite days**| Number of days a person spent working onsite (on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available. | Count|
-|**Manager onsite days**| Number of days a person's direct manager spent working onsite (on the company's corporate network).Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count
+|**Manager remote days** | Number of days a person's direct manager spent working remote (not on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count|
+|**Onsite days**| Number of days a person spent working onsite (on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available. | Count|
+|**Manager onsite days**| Number of days a person's direct manager spent working onsite (on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count
 
 >[!NOTE] 
 >There’s a one-week delay in computing these metrics. This means that if you run a:
