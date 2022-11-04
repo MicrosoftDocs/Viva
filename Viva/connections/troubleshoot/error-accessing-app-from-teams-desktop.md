@@ -39,7 +39,7 @@ This error occurs if a SharePoint Framework (SPFx) web part is added to Viva Con
 
 ## Resolution
 
-To resolve this issue, add the app ID for the Teams desktop client to the list of authorized client applications in Azure Active Directory:
+To resolve this issue, navigate to the API Access page from the SharePoint admin center:
 
 1. Sign in to the **SharePoint admin center** by using Global admin credentials.
 1. Select **Advanced** > **API access**.

@@ -163,12 +163,7 @@ Next, provide a thumbnail image.
 1. Follow the initial steps to create a column.
 2. Choose **Hyperlink**.
 3. Name the column ThumbnailWebURL.
-4. If you already have the URLs available, skip to step 8. If you have images stored in SharePoint that you want to use for thumbnails, start with step 5.
-5. Go to the document library where your images are stored in SharePoint.
-6. Select the image you want to use, then choose **Details**.
-7. Choose **Path** and select the copy icon.
-    [![Screenshot of an image in a document library with Copy link selected.](../media/learning/copy-link.png)](../media/learning/copy-link-big.png#lightbox)
-8. Add the URLs for each item.
+4. Add the URLs for each item.
 
 Next, add the duration of the content.
 
