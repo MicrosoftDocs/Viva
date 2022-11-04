@@ -70,8 +70,6 @@ Before you can use this integration, you’ll need to:
 >[!Note]
 >While private preview is still in effect, Microsoft Graph Data Connect (MGDC) needs to explicitly enable the new MGDC admin center experiences for cross-tenant data movement for *each* customer tenant. For each new customer you onboard, send their tenant ID to dataconnect@microsoft.com. 
 
-<!--verifying V-->
-
 To extract customer data, you need to generate a unique RSA-2048 key pair for each customer. Your application can securely generate and store RSA-2048 certificates (containing key pairs) by using [Azure Key Vault](/azure/key-vault) or a custom solution.
 
 >[!IMPORTANT] 
@@ -87,18 +85,18 @@ The customer needs to consent to your application before data extraction can beg
     >[!Note]
     >This link is the same for all customers.
 
-* **Tenant and application ID:** Share the partner application’s tenant ID and partner application ID with the customer. They’ll then search for your application manually through the Microsoft Graph Data Connect admin center and add a new multi-tenant app. Customers can refer to question 6 in the FAQs for detailed instructions on adding an app through its ID.
+* **Tenant and application ID:** Share the partner application’s tenant ID and partner application ID with the customer. They’ll then search for your application manually through the Microsoft Graph Data Connect Admin Center and add a new multi-tenant app. Customers can refer to question 6 in the FAQs for detailed instructions on adding an app through its ID.
 
 ### For customers
 
 Before you can use this integration, you’ll need to:
-<!--add in FAQ links-->
-* Set up an Azure tenant and an administrator account. We’ll refer to this tenant as the “customer tenant.”
+
+* Set up an [Azure tenant](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant) and an administrator account. We’ll refer to this tenant as the “customer tenant.”
 * Set the customer tenant up with a Consent Request Approvers group in the Microsoft 365 admin center.
-* Enable Microsoft Graph Data Connect (MGDC) for the customer tenant, which is the platform you’ll use to export the Microsoft 365 data. Refer to the Overview page for more information about MGDC.
-* Have your tenant admin enable the Viva Insights dataset for the customer tenant. They can enable this dataset from the Microsoft 365 admin center, as described in the FAQ.
-* Allow cross-tenant data movement so the partner can extract your customer dataset. We’ve provided detailed instructions in the FAQ about how to allow cross-tenant movement.
-* Have your tenant admin approve your partner’s application before data extraction starts. This consent is fetched and validated against when the partner kicks off the data extraction. We’ve provided detailed instructions in the FAQ.
+* Enable Microsoft Graph Data Connect (MGDC) for the customer tenant, which is the platform you’ll use to export the Microsoft 365 data. Refer to the [Overview](/graph/data-connect-concept-overview) page for more information about MGDC.
+* Have your tenant admin enable the Viva Insights dataset for the customer tenant. They can enable this dataset from the Microsoft 365 admin center, as we describe in the [FAQ](#q5-how-do-i-enable-viva-insights-dataset-and-cross-tenant-data-movement-as-a-customer).
+* Allow cross-tenant data movement so the partner can extract your customer dataset. We’ve provided detailed instructions in the [FAQ](#q5-how-do-i-enable-viva-insights-dataset-and-cross-tenant-data-movement-as-a-customer) about how to allow cross-tenant movement.
+* Have your tenant admin approve your partner’s application before data extraction starts. This consent is fetched and validated against when the partner kicks off the data extraction. We provide detailed instructions on how customers can approve your application in the [FAQ](#q6-how-do-i-approve-a-partners-mgdc-application-as-a-customer).
 
 ## Process
 
@@ -297,7 +295,7 @@ https://admin.microsoft.com/Adminportal/Home#/Settings/Services/:/Settings/L1/O3
 
 ![Screenshot that shows the Microsoft Graph Data Connect settings page in the admin portal. All settings options are selected: Turn on MGDC, Enable dataset access from these services (both options), and Allow Cross-Tenant data movement.](/viva/insights/advanced/images/mgdc-admin-center1.png)
  
-#### Q6. How do I consent to a partner’s MGDC application as a customer?
+#### Q6. How do I approve a partner’s MGDC application as a customer?
 
 A6. A global admin for the customer tenant needs to consent to the partner’s application. To review the application, they’ll either need a direct link from the partner or the partner’s app details (partner app registration tenant ID and partner application ID). 
 
