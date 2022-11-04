@@ -233,7 +233,7 @@ The Azure Data Factory pipeline powering the data movement notifies your applica
 
 #### How to use a pull model
 
-Optionally, you can have your application continuously poll the Blob Storage account for changes using the [Blob Storage SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet) or [REST API](h/rest/api/storageservices/). To do this, your application can maintain a “watermark” of the last processed folder’s timestamp so that failed processing can be retried.
+Optionally, you can have your application continuously poll the Blob Storage account for changes using the [Blob Storage SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet) or [REST API](/rest/api/storageservices/). To do this, your application can maintain a “watermark” of the last processed folder’s timestamp so that failed processing can be retried.
 
 Use the SDK or REST API to download data from your Blob Storage account to a local destination (or cloud storage outside of Azure).
 
