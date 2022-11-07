@@ -73,11 +73,7 @@ productDirectory:
           text: Leader insights
         - url: /viva/insights/advanced/introduction-to-advanced-insights
           text: Advanced insights
-        - url: /training/paths/m365-workplace-analytics-start/
-          text: Learning path - Get started with Viva Insights
-
-          
-
+        
     # Card
     - title: Microsoft Viva Connections
       imageSrc: media/logos/connections-launch-c-64.svg
