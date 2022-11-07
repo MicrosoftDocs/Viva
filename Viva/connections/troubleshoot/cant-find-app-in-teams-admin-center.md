@@ -1,6 +1,6 @@
 ---
 title: Can't find the Viva Connections app in the Teams admin center
-description: Provides troubleshooting steps to determine why the manifest file can't be read when uploading the Viva Connections desktop package to the Teams admin center.
+description: Describes how to determine why the Viva Connections app can't be found in the Teams admin center and provide solutions.
 author: helenclu
 ms.author: luche
 manager: dcscontentpm
