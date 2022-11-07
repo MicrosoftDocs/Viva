@@ -181,6 +181,8 @@ items:
           items:
           - name: Teamwork habits FAQ
             href: org-team-insights/teamwork-habits-faq.md
+          - name: Shared no-meeting day plan
+            href: org-team-insights/shared-no-meeting-day.md  
         - name: Organization trends
           items:
           - name: Introduction   
@@ -247,6 +249,8 @@ items:
               href: advanced/analyst/templates/hybrid-workforce-experience.md
             - name: Manager effectiveness
               href: advanced/analyst/templates/manager-effectiveness.md
+            - name: Meeting effectiveness
+              href: advanced/analyst/templates/meeting-effectiveness.md  
             - name: Ways of working
               href: advanced/analyst/templates/ways-of-working.md            
             - name: Wellbeing - balance and flexibility
