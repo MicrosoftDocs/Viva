@@ -18,7 +18,11 @@ search.appverid:
 description: "Learn how Microsoft Viva supports employee connection in your organization"
 ---
 
+<<<<<<< Updated upstream
 # The Connection experience with Microsoft Viva
+=======
+# The Connection experience in Microsoft Viva
+>>>>>>> Stashed changes
 Discover ways to connect and share interests at work. Get company news,  start a conversation, or join a community with Viva Connections and Viva Engage.
 
 ## Viva Connections
