@@ -73,6 +73,10 @@ productDirectory:
           text: Leader insights
         - url: /viva/insights/advanced/introduction-to-advanced-insights
           text: Advanced insights
+        - url: /training/paths/m365-workplace-analytics-start/
+          text: Learning path - Get started with Viva Insights
+
+          
 
     # Card
     - title: Microsoft Viva Connections
@@ -82,6 +86,8 @@ productDirectory:
           text: Get started
         - url: /viva/connections/guide-to-setting-up-viva-connections
           text: Setup
+        - url: /training/paths/viva-connections-get-started/
+          text: Learning path - Get started with Viva Connections
         - url: /training/paths/m365-extend-viva-connections
           text: Learning path - Extend Microsoft Viva Connections
         - url: /sharepoint/dev/spfx/viva/overview-viva-connections
@@ -97,7 +103,9 @@ productDirectory:
         - url: /viva/learning/set-up-viva-learning
           text: Setup
         - url: /viva/learning/content-sources-365-admin-center
-          text: Manage content sources          
+          text: Manage content sources
+        - url: /training/modules/viva-learning-introduction/
+          text: Learning path - Introduction to Viva Learning          
         - url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
           text: End user help & training
 
@@ -113,6 +121,8 @@ productDirectory:
           text: Learning path - Get started with Viva Goals
         - url: /training/paths/okr-leadership
           text: Learning path - OKR leadership program
+        - url: /training/paths/viva-goals-get-started/
+          text: Learning path - Get started with Viva Goals  
         - url: https://go.microsoft.com/fwlink/?linkid=2193540
           text: End user help & training
           
