@@ -45,9 +45,7 @@ In **Query setup**, you define some basic information about your query, like its
 
     4. Optional: Type a **Description**.
 
-    1. Optional: Set how the query is grouped. By default, meeting queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
-        :::image type="content" source="../images/more-settings.png" alt-text="Description box with More Settings button highlighted.":::
-        Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
+        Selecting **More Settings** brings you to the **More Settings** pane. This pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
     >[!Note]
     > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
     >
@@ -71,7 +69,7 @@ In the **Select metrics** pane, metrics are grouped by *metric category*. Expand
 
 <!--address capitalization-->
 
-###### Keyword search, and more information
+###### Keyword search and more information
 
 While you're adding meeting query metrics metrics, you can use the search bar at the top of the pane. Enter keywords or related Power BI templates to find the metrics you're looking for.
 
@@ -107,7 +105,7 @@ A condition is a statement about one attribute you want to analyze in your query
 
 6. Using conditions and condition groups, add one or multiple filters to narrow down your analysis. 
 
-Refer to our sample meeting query for an example of using conditions and condition groups.
+    Refer to our sample meeting query for an example of using conditions and condition groups.
 
 >[!Note]
     >
