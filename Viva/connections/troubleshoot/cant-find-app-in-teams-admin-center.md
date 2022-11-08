@@ -43,7 +43,7 @@ To fix this issue, follow these steps as a Global Admin:
    [https://admin.teams.microsoft.com/policies/manage-apps/d2c6f111-ffad-42a0-b65e-ee00425598aa](https://admin.teams.microsoft.com/policies/manage-apps/d2c6f111-ffad-42a0-b65e-ee00425598aa).
 1. Verify that it takes you to the Viva Connections app overview page. If not, check whether Viva Connections is included in your Microsoft subscription. For more information, see the [full subscription comparison table](https://go.microsoft.com/fwlink/?linkid=2139145).
 
-   **Note** A SharePoint license is required.
+   **Note:** A SharePoint license is required.
 1. On the Viva Connections app overview page, check the following settings in the **Details** section:
 
    - **Short name**: This is the display name of the Viva Connections app in your tenant. In the following example, it's **Contoso App**.
