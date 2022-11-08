@@ -117,8 +117,6 @@ productDirectory:
           text: Learning path - Get started with Viva Goals
         - url: /training/paths/okr-leadership
           text: Learning path - OKR leadership program
-        - url: /training/paths/viva-goals-get-started/
-          text: Learning path - Get started with Viva Goals  
         - url: https://go.microsoft.com/fwlink/?linkid=2193540
           text: End user help & training
           
