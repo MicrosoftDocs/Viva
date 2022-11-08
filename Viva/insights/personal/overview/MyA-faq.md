@@ -18,6 +18,9 @@ ms.subservice: viva-insights
 
 This article answers frequently asked questions about Microsoft Viva Insights' personal insights options—like the [Dashboard](../use/dashboard-2.md), [Digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
 
+>[!IMPORTANT]
+> The dashboard will be retired soon. You'll still be able to find personal insights content in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
+
 Questions and answers are organized into three sections:
 
 * The [Privacy](#privacy) section, which applies to everyone
@@ -173,6 +176,9 @@ Follow these steps to add the Viva Insights add-in to your Outlook ribbon.
 3. Find **Viva Insights**, and then select **Add**.
 
 ### Visibility and access
+
+>[!IMPORTANT]
+> Questions 1 through 3 below address the dashboard, which will be retired soon. You'll still be able to find personal insights content in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
 
 #### Q1. Why can't I see the dashboard?
 
