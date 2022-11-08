@@ -108,8 +108,8 @@ A condition is a statement about one attribute you want to analyze in your query
     Refer to our sample meeting query for an example of using conditions and condition groups.
 
 >[!Note]
-    >
-    >The default conjunction for conditions and condition groups is “and.” To select “or” instead, use the dropdown menu.
+>
+>The default conjunction for conditions and condition groups is “and.” To select “or” instead, use the dropdown menu.
 
 
 ### Meeting and employee attributes
