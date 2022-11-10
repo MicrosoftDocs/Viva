@@ -280,9 +280,7 @@ To quickly prototype an application built on the Viva Insights integration, you 
 
 ## FAQ
 
-### For partners
-
-#### Q1. How large will my output file be?
+### Q1. How large will my output file be?
 
 A1. The following sizes are *estimates* of final output size for analytics data. These estimates are extrapolated from a real-world baseline—a 175K-person set of Microsoft tenant data.
 
@@ -295,21 +293,21 @@ A1. The following sizes are *estimates* of final output size for analytics data.
 50K | 3 months | 23 MB | 123 MB
 25K | 3 months |11 MB |61 MB
 
-#### Q2. Does the analytics data received from Viva Insights include all users in the customer’s tenant?
+### Q2. Does the analytics data received from Viva Insights include all users in the customer’s tenant?
 
 A2. Viva Insights analytics data is only calculated for users who are assigned a Viva Insights license. Unlicensed users aren’t included in the data.
 
-#### Q3. How frequently is analytics data calculated?
+### Q3. How frequently is analytics data calculated?
 
 A3. Currently, analytics data is calculated once a week. For subsequent runs of an existing pipeline, new data will be available every Monday.
 
-#### Q4. Given the potentially large file size, how can the data be processed efficiently?
+### Q4. Given the potentially large file size, how can the data be processed efficiently?
 
 A4. Though the output format is JSON, the output file isn’t a fully formed JSON document. Each row of analytics data is modeled as a single JSON object. This format allows you to stream the file, instead of parsing the entire JSON tree and consequently loading the full file into memory.
 
 We recommend that you stream in analytics data line-by-line. Don’t try to load the entire file into memory. To further improve read performance, your application can divide the stream into segments that are processed by separate threads. This approach leverages multiple cores.
 
-#### Q5. Can I programmatically deploy the ARM template using PowerShell, C#, or Java?
+### Q5. Can I programmatically deploy the ARM template using PowerShell, C#, or Java?
 
 A5. Yes. We’ve provided the documentation for each approach here:
 
@@ -331,7 +329,7 @@ You can use the information in this article to deploy any kind of ARM template t
 
 The sample shown in the following GitHub repository provides a guide for deploying ARM templates through Java: https://github.com/Azure-Samples/resources-java-deploy-using-arm-template-with-progress.
 
-#### Q6. Can I create a customer keys externally and import them into Azure Key Vault?
+### Q6. Can I create a customer keys externally and import them into Azure Key Vault?
 
 Yes. Here’s what you need to do. For more information, refer to [Import Key](/rest/api/keyvault/keys/import-key/import-key).
 
