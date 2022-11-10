@@ -16,29 +16,12 @@ audience: Admin
 
 # Set up advanced insights
 
----
-title: Microsoft Viva Insights setup
-description: Learn what's required to set up Microsoft Viva Insights 
-author: lilyolason
-ms.author: v-lilyolason
-ms.topic: article
-ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
-search.appverid: 
-- MET150 
-manager: anirudhbajaj
-audience: Admin
----
-
-# Set up advanced insights
 
 ## Required settings
 
 ### Verify licenses and roles 
 
-Make sure your Microsoft 365 admin has assigned licenses and roles to people in your organization. For more information about this process, refer to [Assign licenses](assign-licenses.md) and [Assign roles](assign-user-roles.md). To learn about Viva Insights licenses and other related requirements, refer to [Environment requirements](environment-requirements).
+Make sure your Microsoft 365 admin has assigned licenses and roles to people in your organization. For more information about this process, refer to [Assign licenses](assign-licenses.md) and [Assign roles](assign-user-roles.md). To learn about Viva Insights licenses and other related requirements, refer to [Environment requirements](environment-requirements.md).
 
 After the Microsoft 365 admin assigns licenses and roles—and after the app successfully processes organizational data from Azure Active Directory (AD)—you’ve fulfilled all setup requirements. 
 
