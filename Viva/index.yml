@@ -3,7 +3,7 @@
 title: Microsoft Viva # < 60 chars
 summary: Microsoft Viva is the employee experience platform within Microsoft 365 and Teams. Here you can find documentation, solutions, training, and resources for using Microsoft Viva. # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | sql | sql-server | vs | visual-studio | windows | xamarin
-brand: m365
+brand: m365l
 
 metadata:
   title: Microsoft Viva # Required; page title displayed in search results. Include the brand. < 60 chars.
