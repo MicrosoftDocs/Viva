@@ -43,11 +43,11 @@ The home experience focuses on the top tasks, tools, and resources that help peo
 
 ![Image of the full page home experience.](../media/connections/vc-full.png) 
 
-**Dashboard:** [The Dashboard](/viva-connections-overview#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
+**Dashboard:** [The Dashboard](/viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
 
-**Feed:** [The Feed](/viva-connections-overview#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
+**Feed:** [The Feed](/viva-connections-overview.md#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
 
-**Resources:** [The Resources](/viva-connections-overview#viva-connections-resources) experience enables navigation across portals and destinations.
+**Resources:** [The Resources](/viva-connections-overview.md#viva-connections-resources) experience enables navigation across portals and destinations.
 
  **Navigational elements:** Located in the top-right and top-left corners, [navigational elements](https://go.microsoft.com/fwlink/?linkid=2208247) help viewers easily get to-and-from other landing pages and [other Viva experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0).
 
@@ -229,11 +229,11 @@ Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in th
 
 **To set the default landing to the home site:**
 
-Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true
+`Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true`
 
 **To set the default landing to the new Viva Connections home experience:**
 
-Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false
+`Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false`
 
 >[!NOTE]
 > It may take up to 15 minutes to see the updated default landing experience.
