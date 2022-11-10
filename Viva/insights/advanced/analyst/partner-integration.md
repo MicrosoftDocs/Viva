@@ -115,7 +115,7 @@ To use this integration, here’s what you’ll need to do.
         * The **App Id** is the ID you received when you registered the app in [Prerequisites](#for-partners).  
         * The **App Secret** is the secret generated in step 2 above.
         * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant ID of the customer whose data needs to be extracted.
-
+    1. Select **Review + create**.
     ![Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)](/viva/insights/advanced/images/custom-deployment.png)
 
 <!--replace image-->
@@ -124,7 +124,7 @@ To use this integration, here’s what you’ll need to do.
 
 4. Viva Insights generates an encryption key. Refer to [Encryption and compression](#encryption-and-compression) for details.
 1. Begin your MGDC data extraction by triggering the pipeline. You’ll receive the encrypted customer data in the storage account that you configured as the destination. To trigger the pipeline *manually*, follow the instructions below. To trigger the pipeline *programmatically*, follow the instructions in Programmatic configuration. <!--add link-->
-    1. Go to the ADF Pipeline resource, and select **Launch Studio** in the Overview tab. 
+    1. Go to the Azure Data Factory Pipeline resource, and select **Launch Studio** in the Overview tab. 
     1. In the left side panel, select the **Author** tab (pencil icon). Under **Pipelines**, select **ExportO365DataEvents**.
     1. Select **Debug** to run the pipeline. 
 1. Your application needs to reverse the encryption and compression process to access the original data. To access the customer data from the data drop:
@@ -138,7 +138,7 @@ To use this integration, here’s what you’ll need to do.
 
 #### Take optional steps
 
-At this point, you’ve completed all required steps and should have access to your decrypted customer data. We recommend you review best practices for storing customer data in About storing customer data. For production solutions, refer to the steps for programmatic setup in Programmatic configuration.
+At this point, you’ve completed all required steps and should have access to your decrypted customer data. We recommend you review best practices for storing customer data in [About storing customer data](#about-storing-customer-data). For production solutions, refer to the steps for programmatic setup in Programmatic configuration.
 
 Depending on your use case, you might need to take a few optional steps, like joining Viva Insights data with other data, or using a pull rather than a push model to process analytics data. If that information applies to you, refer to [Optional steps](#optional-steps). We also recommend you review best practices for storing customer data in [About storing customer data](#about-storing-customer-data).
 
@@ -182,7 +182,7 @@ Find both the decryption key for your application and the key version of the par
 
 #### About decryption keys
 
-The decryption key comes encrypted as a base 64 string with the per-customer tenant public key provided in the Azure Key Vault. Decryption keys consist of the following components:
+The decryption key comes encrypted as a Base-64 string with the per-customer tenant public key provided in the Azure Key Vault. Decryption keys consist of the following components:
 
 * **DecryptionKeyType** – Indicates whether the decryption key is intended to be used to decrypt an entire file. The value will be **File**.
 * **value** – The Base-64 representation of the decryption key’s value. For example: 
@@ -204,6 +204,31 @@ Viva Insights processes behavioral analytics data once a week. You can run your 
 
 The sample Azure Data Factory pipeline we provide on GitHub includes a [trigger](/azure/data-factory/concepts-pipeline-execution-triggers) that executes the pipeline once every seven days, which is the recommended frequency.
 
+#### Programmatic configuration
+
+##### Deploy
+
+To programmatically deploy the ARM template, here’s what you need to do. For more information, refer to [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).
+
+1.	Make sure you have a resource group to be used for the deployment. This group can be the same resource group you created in [Prerequisites](#prerequisites), step 2a.
+2.	Create a **PUT** request to this endpoint:  `https://management.azure.com/subscriptions/<YourSubscriptionId>/resourcegroups/<YourResourceGroupName>?api-version=2020-06-01`
+3.	Include the ARM template in the Request Body as shown in [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).  
+4.	Add the Azure Access Token as a Bearer token. 
+
+>[!Note]
+>To get access tokens for REST APIs, follow the Azure CLI’s documentation or use the Azure Identity SDK. 
+
+5.	Submit the request.  
+We provide detailed instructions in the FAQ<!--add link--> about deploying the template using PowerShell, C#, and Java.
+
+Run
+To programmatically run the pipeline, here’s what you need to do. Pipelines - Create Run
+1.	Create a **POST** request to this endpoint: 
+    `https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelines/{pipelineName}/createRun?api-version=2018-06-01` 
+2.	Populate the Request Body with the relevant parameters.
+3.	Submit the request.  
+
+
 ### Optional steps
 
 You might need to take one or both of these steps depending on your use case:
@@ -222,18 +247,21 @@ If you don’t have this access, you can export directory information and correl
 
 ### Process analytics data
 
-To process analytics data sent to your application, you have the option of using either a push or a pull model to start processing. The sample pipeline we provide on GitHub uses a push model, which works like this:
+To process analytics data sent to your application, you have the option of using either a push or a pull model to start processing. 
+
+>[!Note]
+>The sample pipeline we provide on GitHub doesn’t have a built-in notification method.
+
+
+The sample pipeline we provide on GitHub uses a push model, which works like this:
 
 The Azure Data Factory pipeline powering the data movement notifies your application when new data is available. There are a couple of ways the pipeline can do this:
 
-* It can invoke an Azure function when data in your Blob Storage account changes. Refer to the [Azure function overview](https://github.com/microsoftgraph/dataconnect-solutions/tree/VIvaInsightsARM/ARMTemplates/genericPipelineWithAzureFunctionTrigger) and [Blob Storage trigger sample](/azure/azure-functions/functions-bindings-storage-blob-trigger?tabs=in-process%2Cextensionv5&pivots=programming-language-csharp) to understand how this function is configured. This is the method our sample pipeline on GitHub uses.
-* The Azure Data Factory pipeline can invoke a web activity that makes a REST call to your application’s backend, notifying it that new data is available. Web activities are described in [Web activity in Azure Data Factory and Azure Synapse Analytics](/azure/data-factory/control-flow-web-activity). You can edit our sample template to include this activity as an extra step.
+The Azure Data Factory pipeline powering the data movement can notify your application when new data is available. The recommended approach is to invoke a web activity that makes a REST call to your application’s backend once the copy operation completes. For more information about web activities, refer to [Web activity in Azure Data Factory and Azure Synapse Analytics](/azure/data-factory/control-flow-web-activity). You can edit our sample template to include this activity as an extra step.
 
 #### How to use a pull model
 
-Optionally, you can have your application continuously poll the Blob Storage account for changes using the [Blob Storage SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet) or [REST API](/rest/api/storageservices/). To do this, your application can maintain a “watermark” of the last processed folder’s timestamp so that failed processing can be retried.
-
-Use the SDK or REST API to download data from your Blob Storage account to a local destination (or cloud storage outside of Azure).
+Optionally, you can have your application programmatically start the Azure Data Factory pipeline and continuously poll it for completion. We describe programmatic usage of the Data Factory more in [Programmatic configuration](#programmatic-configuration).
 
 ### Related information 
 
@@ -280,6 +308,57 @@ A3. Currently, analytics data is calculated once a week. For subsequent runs of 
 A4. Though the output format is JSON, the output file isn’t a fully formed JSON document. Each row of analytics data is modeled as a single JSON object. This format allows you to stream the file, instead of parsing the entire JSON tree and consequently loading the full file into memory.
 
 We recommend that you stream in analytics data line-by-line. Don’t try to load the entire file into memory. To further improve read performance, your application can divide the stream into segments that are processed by separate threads. This approach leverages multiple cores.
+
+#### Q5. Can I programmatically deploy the ARM template using PowerShell, C#, or Java?
+
+A5. Yes. We’ve provided the documentation for each approach here:
+
+**PowerShell:**
+
+1.	Sign in to your Azure account in PowerShell using Az Login.  
+1.	Run this command:      `New-AzResourceGroupDeployment -ResourceGroupName <resource-group-name> -TemplateFile <path-to-template> `
+
+    >[!Note]
+    >The `ResourceGroupName` is the name of the resource group you created in [Prerequisites](#prerequisites), step 2a.
+
+For more information, refer to [Deploy resources with ARM templates and Azure PowerShell](/azure/azure-resource-manager/templates/deploy-powershell#deployment-scope), specifically, the first bullet under **Deployment scope**.
+
+**C#:**
+
+You can use the information in this article to deploy any kind of ARM template through C# code: [Getting started on deploying using an ARM template in C#](/samples/azure-samples/resources-dotnet-deploy-using-arm-template/getting-started-on-deploying-using-an-arm-template-in-c/).
+ 
+**Java:**
+
+The sample shown in the following GitHub repository provides a guide for deploying ARM templates through Java: https://github.com/Azure-Samples/resources-java-deploy-using-arm-template-with-progress.
+
+#### Q6. Can I create a customer keys externally and import them into Azure Key Vault?
+
+Yes. Here’s what you need to do. For more information, refer to [Import Key](/rest/api/keyvault/keys/import-key/import-key).
+
+1.	Make sure you have an RSA key and an Azure Key Vault resource. You created the Key Vault resource in [Prerequisites](#prerequisites), step 5.
+1.	Install OpenSSL locally.
+1.	Run this command in PowerShell or the command line: `openssl rsa -in .\CustomerKey.rsa -text -noout` 
+1.	From the output of that command, fetch and map each of the output variables to the input parameters for the Import Key API. Here’s how that mapping should look:
+
+|Output variable from the OpenSSL command|Input parameter to API|
+|---|---|
+|kty <br><br><sup>See note</br>|"RSA" 
+modulus| n (remove leading 00) 
+e| AQAB 
+Private Exponent| d
+Prime 1| p 
+Prime 2|Q
+Exponent 1|DP 
+Exponent 2|DQ 
+Coefficient| QI 
+
+<sup>Note: This is not from the OpenSSL command and should always be “RSA.”
+
+5. Convert each of the parameters to use Base-64 encoding. Either use a Base-64 encoder directly, or convert the hex bytes to a byte array and then to Base-64. For more information, refer to [Convert.ToBase64String Method](/dotnet/api/system.convert.tobase64string).
+1. Run the [Import Key API](/rest/api/keyvault/keys/decrypt/decrypt).
+
+
+
 
 ### Information for customers
 
