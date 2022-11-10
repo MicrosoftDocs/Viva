@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Microsoft Viva Insights setup
 description: Learn what's required to set up Microsoft Viva Insights 
 author: lilyolason
@@ -17,35 +16,56 @@ audience: Admin
 
 # Set up advanced insights
 
-Although the Microsoft 365 admin and the Viva Insights admin do most of these steps, others in your organization help make decisions that relate to setup.
+## Required settings
 
-**Prerequisites** - See [Environment requirements](/viva/insights/Setup/Environment-Requirements?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn about Viva Insights licenses and other related requirements.
+### Verify licenses and roles 
 
-## Setup steps
+Make sure your Microsoft 365 admin has assigned licenses and roles to people in your organization. For more information about this process, refer to [Assign licenses](assign-licenses.md) and [Assign roles](assign-user-roles.md). To learn about Viva Insights licenses and other related requirements, refer to Environment requirements.
 
-* Owner – The following key personas perform the setup steps in this article:
-    * Viva Insights admin does most of the setup tasks and is the person referred to as "you" in the following steps.
-    * Microsoft 365 admin assigns licenses and roles in Step 1.
-    * Viva Insights processes and validates data in a few of the steps.
+After the Microsoft 365 admin assigns licenses and roles—and after the app successfully processes organizational data from Azure Active Directory (AD)—you’ve fulfilled all setup requirements. 
 
-* Task – Complete steps to set up and configure the Viva Insights applications.
+>[!Important]
+>Viva Insights won’t be ready for your organization to use immediately. After you finish assigning licenses, wait five days before using the app.
 
-* Outcome – In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implement change in how employees spend their time. Also, you've set system defaults and privacy settings and an admin has uploaded organizational data.
+## Optional settings
 
-## To set up the app
+To get the most out of the Viva Insights experience, you might want to set up a few optional controls. 
 
-1. **Licenses and roles (required)**: Verify that your Microsoft 365 admin has assigned licenses and roles to people in the organization. For more information, see [Assign licenses](./assign-licenses.md) and [Assign roles](./assign-user-roles.md). The **Insights Administrator** role is required to perform the following steps.
+>[!Note]
+>The **Insights Administrator** role is required to perform the following tasks.
 
-2. **Privacy settings (optional)**:
-    1. Set the **Minimum group size**.
-    1. Select **Save changes**.
+### Customize privacy settings
 
-    After you've finished making both the system defaults and the privacy settings, select **Save changes**.
-    
-:::image type="content" source="../images/privacy-settings1.png" alt-text="Screenshot of the privacy settings page." lightbox="../images/privacy-settings1.png":::
+#### Minimum group size
 
-3. **Prepare organizational data (optional)**: Export organizational data from your HR system into a UTF-8 encoded .csv file. For information about what data to export and how to structure it, see Prepare organizational data.
-    1. Map data – Map the uploaded data to the applicable field names. For details, refer to [Field mapping](../admin/upload-org-data-first.md#field-mapping).
-    1. Data validation – When the upload is validated, you'll see a confirmation message. If validation was not successful, you are advised what to do next. For details, refer to [Validation](../admin/upload-org-data-first.md#validation).
-    1. Data processing – The validated data is processed. When the processing finishes, you'll see a message that setup is complete.
+Set the minimum group size, which is the minimum aggregation threshold for insights. In other words, this is the smallest number of people that Viva Insights considers a “group.” Viva Insights shows insights about groups in the app in Teams and on the web, on the **Organization trends** page. You’ll need to make this number at least 10.
 
+#### End-user opt-out
+
+Select **End-user opt-out** to grant users the option to opt out of having their user metrics made available in advanced insights line-level query results from the person query. When users opt out, future person queries and those that refresh each week are affected. Opt-out doesn’t apply to aggregated insights (like those on the Organization trends page) and query results from collaboration events (like meetings). 
+
+Users can find opt-out settings in their Viva Insights app in Teams or on the web under Settings > Privacy. After you turn on the **End-user opt-out** control, users who already opted out of Viva Insights through their app in Teams or on the web are automatically opted out of person query data. Settings take effect after one day. Users can opt back in to Viva Insights whenever they want and they’ll see their previously saved settings. 
+
+#### Save changes
+
+After you’re done making changes to group size and/or opt-out settings, select **Save changes**.
+
+## Customize manager settings 
+
+Use the **Manager settings** page to allow managers to see aggregated collaboration insights. These insights appear in the Viva Insights app in Teams or on the web, under **Organization trends**. Learn more about manager settings in [Manager settings](manager-settings.md). 
+
+### Prepare and upload organizational data 
+
+By default, Viva Insights uses your organization’s Azure AD data. This data automatically feeds into Viva Insights, so you don’t need to do anything extra to set up organizational data in the advanced insights app. If you want to upload your organizational data as a .csv file instead of using Azure AD, follow the guidance in [Prepare organizational data](../admin/prepare-org-data.md) and [Upload organizational data (first upload)](../admin/upload-org-data-first.md). After you upload a file, here’s the basic process:
+
+1. Data mapping – You map the uploaded data to the applicable field names. For details, refer to Field mapping.
+1. Data validation – Viva Insights validates the data. When validation completes successfully, you'll see a confirmation message. If validation wasn’t successful, you’re  advised what to do next. For details, refer to Validation.
+1. Data processing – Viva Insights processes the validated data. When the processing is done, you'll see a message that setup is complete.
+
+## Related topics
+
+[Manager settings](manager-settings.md)
+
+[Prepare organizational data](../admin/prepare-org-data.md)
+
+[Upload organizational data (first upload)](../admin/upload-org-data-first.md)
