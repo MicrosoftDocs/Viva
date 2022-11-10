@@ -162,6 +162,18 @@ items:
           href: postgresql-integration.md
         - name: Salesforce Integration
           href: salesforce-integration.md
+        - name: Slack
+          items:
+            - name: Collaborate with Viva Goals in Slack 
+              href: slack-collaborate-with-viva-goals.md
+            - name: Check-in reminders and OKR updates
+              href: slack-check-ins-teams-orgs.md
+            - name: Share OKR summary via Slack
+              href: slack-share-okr-summary.md
+            - name: OKR Digest
+              href: slack-okr-digest.md
+            - name: Slack troubleshooting and support
+              href: slack-support.md
         - name: Smartsheet Integration
           href: smartsheet-integration.md
         - name: Snowflake Integration
