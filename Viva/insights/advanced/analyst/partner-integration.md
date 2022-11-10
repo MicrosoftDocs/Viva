@@ -106,13 +106,13 @@ To use this integration, here’s what you’ll need to do.
 #### Edit the template, provision a client secret, and deploy the template
 
 1.	Edit the sample [Data Factory Pipeline template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction/mainTemplateV1.json) (also known as an Azure Resource Manager [ARM] template) from GitHub for your specific use case. This template defines the Azure Data Factory pipeline and associated resources that will be deployed to Azure, in your Azure subscription, to move data to your subscription.
-1. Provision a client secret for the application you created [earlier](#for-partners). Store the secret in the Azure Key Vault you made earlier, unless you’re using a custom solution. 
+1. Provision a client secret for the application you created [earlier](#prerequisites). Store the secret in the Azure Key Vault you made earlier, unless you’re using a custom solution. 
 1.	On your Azure subscription, deploy the template:
     1. In the Azure portal, select **Deploy a custom template**.
     1. Select **Build your own template** in the editor and copy the contents of the sample template we provide on GitHub.
     1. Select a **Resource group** and **Region** to deploy to.
     1. Provide values for the parameters specified in the template:
-        * The **App Id** is the ID you received when you registered the app in [Prerequisites](#for-partners).  
+        * The **App Id** is the ID you received when you registered the app in [Prerequisites](#prerequisites).  
         * The **App Secret** is the secret generated in step 2 above.
         * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant ID of the customer whose data needs to be extracted.
     1. Select **Review + create**.
