@@ -92,6 +92,11 @@ You will use the answer to this question in the following procedure:
 
 #### To opt out of multiple accounts
 
+>[!IMPORTANT]
+>The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
+>![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
+> [Read more about this change](../reference/mya-retirement.md). 
+
 1. Open a web browser in incognito mode.
 2. In the incognito browser session, open your [dashboard](https://myanalytics.microsoft.com). You'll see a Microsoft **Sign in** dialog box. 
 3. Sign in by using the credentials of an email account whose Viva Insights subscription you want to end.
@@ -107,6 +112,11 @@ You will use the answer to this question in the following procedure:
 7. Repeat steps 1 - 6 for each account whose Viva Insights subscription you want to opt out of.
 
 ## To opt out of Viva Insights in the dashboard
+
+>[!IMPORTANT]
+>The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
+>![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
+> [Read more about this change](../reference/mya-retirement.md).
 
 You can opt out of Viva Insights in the dashboard, and also turn off access to the dashboard, the digest email, and the Insights Outlook add-in. To do so, follow these steps:
 
@@ -137,7 +147,7 @@ To opt in through the app, repeat the steps in [To opt out of Viva Insights in t
 
 Use the procedures in this section to configure your own access to Viva Insights.
 
-* [Opt out of the dashboard](dashboard-2.md#opt-out-of-the-dashboard)
+* [Opt out of the dashboard](dashboard-2.md#opt-out-of-the-dashboard) (this experience will be retired soon)
 * [Opt out of the digests](email-digests-3.md#opt-out-of-digests)
 * [Opt out of the add-in](../use/add-in.md#to-opt-out)
 * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
