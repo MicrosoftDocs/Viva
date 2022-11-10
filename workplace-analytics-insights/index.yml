@@ -17,32 +17,32 @@ productDirectory:
  
     items:
     - title: Overview
-      imageSrc: https://docs.microsoft.com/media/common/i_overview.svg
+      imageSrc: /media/common/i_overview.svg
       links:
         - url: intro.md
           text: Learn about how your employees work and collaborate to get work done and how your organization's behaviors can impact your bottom line.
     - title: Setup
-      imageSrc: https://docs.microsoft.com/media/common/i_setup.svg
+      imageSrc: /media/common/i_setup.svg
       links:
         - url: setup.md
           text: Steps your Microsoft 365 admin must follow to give you access to these insights.
     - title: Privacy
-      imageSrc: https://docs.microsoft.com/media/common/i_information-protection.svg
+      imageSrc: /media/common/i_information-protection.svg
       links:
         - url: privacy.md
           text: Learn how these insights use trusted Microsoft 365 security to keep your data safe and private.
     - title: Leader insights
-      imageSrc: https://docs.microsoft.com/media/common/i_guidelines.svg
+      imageSrc: /media/common/i_guidelines.svg
       links:
         - url: myorg.md
           text: Help business leaders address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business.
     - title: Manager insights
-      imageSrc: https://docs.microsoft.com/media/common/i_management.svg
+      imageSrc: /media/common/i_management.svg
       links:
         - url: myteam.md
           text: Answers to the most frequently asked questions about these insights.
     - title: FAQ
-      imageSrc: https://docs.microsoft.com/media/common/i_support.svg
+      imageSrc: /media/common/i_support.svg
       links:
         - url: faqs.md
           text: Answers to the most frequently asked questions about these insights.

@@ -32,11 +32,11 @@ Microsoft Viva Insights has a **My organization** page that shows leader's colla
 
 ## Calculations
 
-The **Engage influencers** insights shows the **Percentage of employees who can drive change within your workforce**, which uses the [Influence](metric-definitions.md#network-metrics) metric. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
+The **Engage influencers** insights shows the **Percentage of employees who can drive change within your workforce**, which uses the [Influence](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics) metric. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
 
 ![Accelerate change percentage insight.](../images/wpa/use/accelerate-change-percent.png)
 
-The visual insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](insight-ona-measures.md) that shows the [influencers](metric-definitions.md#network-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
+The visual insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](/viva/insights/use/insight-ona-measures?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) that shows the [influencers](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
 
 ![Accelerate change visual insight](../images/wpa/use/accelerate-change-visual.png)
 

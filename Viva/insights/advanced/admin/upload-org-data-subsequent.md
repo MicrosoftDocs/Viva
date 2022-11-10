@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
-title: Organizational data overview
+title: Upload organizational data (subsequent upload)
 description: This article discusses how to upload your data to the Viva Insights advanced insights app after you've already uploaded data there.
 author: lilyolason
 ms.author: v-lilyolason
@@ -24,7 +23,7 @@ If organizational data has already been uploaded into the advanced insights app,
 Complete these steps after preparing the data as described in [Prepare organizational data](./prepare-org-data.md).
 
 >[!Important]
->Only follow these steps if this is not the first time you’ve uploaded organizational data. If this is the first time, follow the steps in [Upload organizational data (first upload)](upload-org-data-first.md).
+>Only follow these steps if this is not the first time you’ve uploaded organizational data. If this is your first upload, follow the steps in [Upload organizational data (first upload)](upload-org-data-first.md).
 
 ## Workflow
 
@@ -42,11 +41,11 @@ After the data successfully validates and processes, the overall data-upload tas
 All three actions share the same two first steps:
 
 1.	Select either the **Start** button on the **Data hub** tab or the **Edit or start new upload** button on the **Data connections** tab.
-![Edit or start new upload](../images/admin-upload2-start-process.png)
+![Screenshot that shows Edit or start new upload option.](../images/admin-upload2-start-process.png)
 2.	The resulting page lists three options:
     * **Update existing organizational data**
     * **Delete fields**
-    * **Upload a new file to replace existing organizational data** ![Start data-upload process](../images/admin-upload2-options.png)
+    * **Upload a new file to replace existing organizational data** ![Screenshot that shows starting data-upload process.](../images/admin-upload2-options.png)
 
     Make your selection based on what you want to do, then navigate to the corresponding section below for step 3.
 
@@ -86,7 +85,7 @@ Let’s say you want to upload a new engagement score value for each employee. Y
     * Not open in a different program when you begin the upload process
     * Not larger than 1 GB
 
-    ![Start data-upload process](../images/admin-prepare-upload.png)
+    ![Screenshot that shows the Prepare and upload window.](../images/admin-prepare-upload.png)
 
     >[!Note]
     >To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv** template link.
@@ -124,7 +123,7 @@ Optional fields are commonly encountered system fields that the app suggests for
 
 To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Optional” label.
 
-![Viva attributes](../images/admin-vi-attributes.png)
+![Screenshot that shows Viva attributes.](../images/admin-vi-attributes.png)
 
 ### Custom
 
@@ -143,17 +142,17 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     >To prevent a validation error later, make sure this column is the right data type.
 
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a.
-     ![Organizational data page](../images/admin-map.png)
+     ![Screenshot that shows mapping Viva attributes.](../images/admin-map.png)
     >[!Tip]
     > Hover over an attribute name to read its description. 
-    > ![Organizational data page](../images/admin-hover-attribute.png)
+    > ![Screenshot that shows hovering over an attribute.](../images/admin-hover-attribute.png)
     >
     >If you’re *updating* data, you can choose to only see the new columns you’ve added or column headers you’ve changed. To do so, select the **Show invalid fields only** toggle.
 2. Repeat steps 4a and 4b for custom and optional fields.
     * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it.
 
     >[!Note]
-    >For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.in the bottom left of the screen.
+    >For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
 
 After you map fields, the app validates and processes your data as described in the following sections. If validation and processing are successful, your input to the upload process is complete.
 
@@ -170,7 +169,7 @@ After you review missing attributes:
 
 After you’ve mapped attributes, the app starts validating your data.  
 
-![Validation in progress](../images/admin-validate.png)
+![Screenshot that shows validation in progress.](../images/admin-validate.png)
 
 In most cases, file validation should complete quickly. If your organizational data file is large, validation could take up to one or two minutes.
 
@@ -192,14 +191,14 @@ After processing completes, it has either succeeded or failed. Depending on the 
 
 When processing succeeds, you’ll see a “Success” status in the **Upload or delete history** table. At this point, the upload process is complete.
 
-![Successful processing](../images/admin-status-success.png)
+![Screenshot that shows successful processing.](../images/admin-status-success.png)
 
 After you receive the “Success” status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
-![Validation results](../images/admin-upload-results.png)
+![Screenshot that shows validation results.](../images/admin-upload-results.png)
 * Select the mapping icon to see the mapping settings for the workflow.
-![Mapping settings](../images/admin-map-results.png)
+![Screenshot that shows mapping settings.](../images/admin-map-results.png)
 
 >[!Note]
 >Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
@@ -208,7 +207,7 @@ After you receive the “Success” status, you can:
 
 If processing fails, you’ll see a failed status in the **Upload or delete in progress** table. Selecting the link in the status brings you to an explanation of the failure.
 
-![Processing failed](../images/admin-status-process-failed.png)
+![Screenshot that shows processing failed.](../images/admin-status-process-failed.png)
 
 Select **Edit or start new upload**. This button lets you do the following things for the data file you uploaded earlier:
 
@@ -225,7 +224,7 @@ If data validation fails, you’ll see a new screen with a “Validation failed�
 
 <!--screenshot - pending from RB-->
 
-Before you make changes in the source file and try the upload again, you can select **Download issues**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next — fix the source data or change your mapping settings.
+Before you make changes in the source file and try the upload again, you can select **Download issues**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next—fix the source data or change your mapping settings.
 
 #### Guidelines for correcting errors in data
 
@@ -239,11 +238,11 @@ All field header or column names must:
 
 * Begin with a letter (not a number).
 * Only contain alphanumeric characters (letters and numbers, for example, **Date1**).
-* Have no leading or trailing blank spaces or special characters (non-alphanumeric, such as *@*, *#*, *%*, *&*).
+* Have no leading or trailing blank spaces or special characters (those that are non-alphanumeric, like *@*, *#*, *%*, *&*).
 
 ##### Rules for field values
 
-The field values in data rows must comply with the following formatting rules:
+The field values in data rows need to comply with the following formatting rules:
 
 * The  **EffectiveDate** and **HireDate** field values need to be in the MM/DD/YYYY format.
 * The required **PersonId** and **ManagerId** field values need to be a valid email address (for example, `gc@contoso.com`).
@@ -259,7 +258,7 @@ The following field rules apply to characters in field values:
 
 * Double-byte characters, such as Japanese characters, are permitted in the field values.
 * The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line” (\n) characters are not permitted in field values. 
+* “New line” (\n) characters are not permitted in field values.
 
 ## Related topic
 

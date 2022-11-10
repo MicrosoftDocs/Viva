@@ -1,7 +1,7 @@
 ---
 title: Configure Cornerstone OnDemand as a content source for Microsoft Viva Learning
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 10/27/2021
@@ -27,7 +27,7 @@ This article shows you how to configure Cornerstone OnDemand as a third-party le
 
 ## Configure in your Cornerstone Portal
 
-1. Log in to your Cornerstone Portal as an admin.
+1. Sign in to your Cornerstone Portal as an admin.
 
     ![Image of the Cornerstone Portal.](../media/learning/csod-1.png)
 
@@ -65,7 +65,7 @@ This article shows you how to configure Cornerstone OnDemand as a third-party le
 
 ## Configure in your Microsoft 365 admin center
 
-1. Log in to your [Microsoft 365 admin center](https://admin.microsoft.com).
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
 2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable Cornerstone OnDemand in the panel.
 3. Fill in the following required configuration details:
     1. **Display Name**: This is the name of the carousel under which Cornerstone learning content will appear for your organization in Viva Learning. If you don’t enter a name, it will display the name “Cornerstone OnDemand”.

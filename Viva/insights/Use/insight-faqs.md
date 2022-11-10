@@ -19,7 +19,7 @@ audience: Admin
 
 ##### Q1 Which roles have access to manager insights in Viva Insights and Advanced insights?
 
-Only managers granted access to the advanced insights app in [Manager settings](../use/manager-settings.md) can see insights about their teams in Viva Insights in Teams and in the advanced insights app.
+Only managers granted access to the advanced insights app in [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) can see insights about their teams in Viva Insights in Teams and in the advanced insights app.
 
 ##### Q2 Who is included as a measured employee?
 

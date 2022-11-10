@@ -1,7 +1,6 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Business resilience report
-description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
+description: Learn how to use the Microsoft Viva Insights Power BI template to compare employee behavior before and after a business transition
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -19,7 +18,7 @@ audience: Admin
 
 The **Business resilience report** uses a template populated by Viva Insights data to compare employee behavior before and after a business transition.
 
-The report enables you to visualize and explore the following top-level business questions asked by leaders:
+With this report, you can visualize and explore the following top-level business questions asked by leaders:
 
 * How are collaboration activities changing?
 * How has manager coaching changed over time?
@@ -50,11 +49,11 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 >[!Note]
 > For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
 
-1. In the Viva Insights Analyst experience, select **Analysis**.
+1. In the Viva Insights analyst experience, select **Analysis**.
 
-2. Under **Power BI templates**, navigate to **Business resilience** and select **Start analysis**. To get more information about the Business resilience template before running your analysis, select **Learn more**.
+2. Under **Power BI templates**, navigate to **Business resilience** and select **Start analysis**. For more information about the Business resilience template before running your analysis, select **Learn more**.
 
-    ![Set up the report page in Power BI](/viva/insights/advanced/images/br-pbi-start.png)
+    ![Screenshot that shows the Business resilience icon.](/viva/insights/advanced/images/br-pbi-start.png)
 
 3. Under **Query setup**:
     1. Type a **Query name**.
@@ -68,13 +67,13 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     
         Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
 
-        * Power BI queries are set to **Group by Week**. Don't change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. You can't edit this field.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
-![Set up the report page in Power BI](/viva/insights/advanced/images/br-pbi-query-setup.png)
+![Screenshot that shows the Query setup section.](/viva/insights/advanced/images/br-pbi-query-setup.png)
 
 
 4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
-![Set up the report page in Power BI](/viva/insights/advanced/images/br-pbi-predefined-metrics.png)
+![Screenshot that shows predefined metrics.](/viva/insights/advanced/images/br-pbi-predefined-metrics.png)
 
     >[!Note]
     > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
@@ -114,7 +113,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 After the Business resilience report is set up and populated with Viva Insights data in Power BI, you’ll be prompted to select **Baseline** and **Current** time periods, which can’t overlap.
 
-![Set up the report page in Power BI](/viva/insights/advanced/images/br-set-up-report.png)
+![Screenshot that shows the Set up the report page in Power BI.](/viva/insights/advanced/images/br-set-up-report.png)
 
 Select **Next** after you’ve made your selections. If you change your mind later, you’ll be able to change the **Baseline** and **Current** time periods in the **Settings** page.
 
@@ -127,7 +126,7 @@ Then, view and set the following parameters on the **Settings** page.
 
 * **Current** – This is the time period you want to compare with the **Baseline**.
 * **Select an organizational attribute to view the report by** – This is the primary group-by attribute shown in all subsequent pages. You can change this attribute at any time; all subsequent report pages will show values grouped by the new attribute.
-* **Select optional filters to exclude employee groups** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number.
+* **Select optional filters to exclude employee groups** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number.
 * **Exclusions** – Use the check boxes to:
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
@@ -142,7 +141,7 @@ The **Business resilience report** pages, listed below, directionally highlight 
 
 This page shows how employee collaboration patterns are changing in response to a shift in work patterns, and which collaboration tools people are substituting for in-person interactions. 
 
-Transitions at work can cause changes in employee collaboration patterns as they adjust to a new normal. Groups with large increases in collaboration may be facing challenges managing their workload, while groups with significantly reduced workloads may be struggling to adapt.
+Transitions at work can cause changes in employee collaboration patterns as they adjust to a new normal. Groups with large increases in collaboration might be facing challenges managing their workload, while groups with significantly reduced workloads might be struggling to adapt.
 
 ### Manager coaching
 
@@ -150,7 +149,7 @@ Transitions at work can cause changes in employee collaboration patterns as they
 
 This page shows how manager coaching has been impacted by your business’s recent transition.
 
-Managers are crucial factors in the development, engagement, and wellbeing of their reports and in periods of transition, managers help their reports prioritize and provide stability. However, long periods of transition could also require managers to take on new or additional responsibilities, leaving less time for them to support their teams. We recommend that individual contributors spend a minimum of one hour per month in 1:1 meetings with their managers, or 15 minutes per week on average. Employees with this level are called *coached employees* in this report.
+Managers are crucial factors in the development, engagement, and wellbeing of their reports and in periods of transition, managers help their reports prioritize and provide stability. However, long periods of transition could also require managers to take on new or additional responsibilities, leaving less time for them to support their teams. We recommend that individual contributors spend a minimum of one hour per month in 1:1 meetings with their managers, or 15 minutes per week on average. Employees with this level of 1:1 interaction with their managers are called *coached employees* in this report.
 
 ### Internal connections
 
@@ -166,7 +165,7 @@ Internal relationships are key to preventing isolation and helping employees fee
 
 This page shows how different parts of the company may have been impacted by business shifts in different ways.
 
-Despite business changes, it’s important to ensure that relationships with continuing customers, partners, and vendors stay strong. In times of change, internal demands can take precedence over time previously spent with external contacts. Those external contacts may also be refocusing on their own critical priorities and may not have time to meet with your sales and support teams.
+Despite business changes, it’s important to ensure that relationships with continuing customers, partners, and vendors stay strong. In times of change, internal demands can take precedence over time previously spent with external contacts. Those external contacts might also be refocusing on their own critical priorities and might not have time to meet with your sales and support teams.
 
 For groups with increased external engagement, make sure these business shifts don’t come at the expense of increased after-hours activity and work week spans. For groups experiencing a decrease, consider guiding them to proactively check in with their external contacts.
 
@@ -183,7 +182,6 @@ This page lists opportunity areas with related best practices and recommendation
 ### Glossary
 
 The **Glossary** describes metrics used in the report pages.
-
 
 ## Power BI tips, FAQs, and troubleshooting
 

@@ -6,11 +6,13 @@ manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection: 
+- m365initiative-viva-topics
+- highpri
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
-    - MET150   
+- MET150   
 ms.localizationpriority:  medium
 description: Learn how to edit an existing topic in Microsoft Viva Topics.
 
@@ -43,10 +45,6 @@ To edit an existing topic, you need to:
 Users who have the *Who can create or edit topics* permission can edit a topic by opening the topic page from a topic highlight, and then selecting the **Edit** button on the top right of the topic page. The topic page can also be opened from the topic center home page where you can find all the topics that you have a connection to.
 
    ![Screenshot showing the Edit button.](../media/knowledge-management/edit-button.png) </br> 
-
-Knowledge managers can also edit topics directly from the **Manage topics** page by selecting the topic, and then selecting **Edit** in the toolbar.
-
-   ![Screenshot showing Edit topic on Manage topics page.](../media/knowledge-management/manage-topics-edit.png)
 
 ### To edit a topic page
 

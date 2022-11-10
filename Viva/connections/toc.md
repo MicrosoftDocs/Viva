@@ -31,6 +31,8 @@
 
 #### [Create a Dashboard in more than one language](create-multilingual-dashboard.md)
 
+#### [Use the Web link card to integrate content](use-the-link-card.md)
+
 ### [Feed]()
 
 #### [Embed videos in the Viva Connections Feed](video-news-links.md)
@@ -46,6 +48,8 @@
 ## [Troubleshoot]()
 
 ### [Can't find app in Teams mobile](troubleshoot/cant-find-app-in-teams-mobile.md)
+
+### [Can't find the app in the Teams admin center](troubleshoot/cant-find-app-in-teams-admin-center.md)
 
 ### [Can't update app details](troubleshoot/cant-update-app-details.md)
 

@@ -50,7 +50,7 @@ You can schedule focus time on the **Protect time** page, as follows:
     * If you'd like a Teams reminder to begin focus mode.
     * If you'd like Teams to silence notifications during scheduled focus time.
 
-At any time after the initial setup, you can confirm or change any of the options or leave the plan by selecting **Focus plan preferences** in **Settings** (gear icon) within the Viva Insights in Teams app.
+At any time after the initial setup, you can confirm or change any of the options or leave the plan by selecting **Focus plan preferences** in **Settings** (gear icon) within the Viva Insights app.
 
 ![Book focus time.](Images/pt-focus-2.png)
 
@@ -76,9 +76,6 @@ You can open **Focus mode** in a separate pop-out window in Teams, which allows 
 2. Select **Pop out app**.
 
 ## Configure quiet time
-
->[!NOTE]
->Quiet time is only available as a preview.
 
 Research shows that long hours and the pressure to always be available can lead to employee burnout. The amount of time you spend collaborating outside of business hours can be an indicator that you are at risk of burnout, even as you and your team embrace flexibility.
 

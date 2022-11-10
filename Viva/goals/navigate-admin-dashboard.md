@@ -1,8 +1,8 @@
 ---
 title: Navigate the admin dashboard
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: ranjaliroy
+author: ranjali-MS
 manager: 
 audience: Admin
 f1.keywords:
@@ -12,12 +12,15 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- highpri  
 search.appverid:
 - MET150
 description: "Learn how to navigate the admin dashboard"
 ---
 # Navigate the admin Dashboard
+
+To login to Viva Goals, visit: https://goals.microsoft.com/
 
 Organization admins have direct access to the Microsoft Viva Goals admin dashboard. The dashboard offers settings that you can customize for your organization, which creates efficiency and confidence in Microsoft Viva Goals.
 
@@ -26,7 +29,7 @@ Like other employees, you need to be familiar with:
 - How to write great OKRs  
 - Viva Goals software training 
 
-Review the [Get Started with Viva Goals Learning path](/learn/paths/viva-goals-get-started) to dive deeper into these topics.  
+Review the [Get Started with Viva Goals learning path](/training/paths/viva-goals-get-started) to dive deeper into these topics.  
 
 ## How to access and use the admin dashboard
 
@@ -72,11 +75,9 @@ All of the information can be filtered using dropdown menus such as role, accoun
 
 For example, if one of your users isn't sure if they got an invite, you could filter for users who have a status of "Pending."  
 
-![Screenshot showing pending users alignment.](../media/goals/2/28/b.png)
+:::image type="content" source="../media/goals/2/28/b.png" alt-text="Screenshot showing pending users alignment." lightbox="../media/goals/2/28/b.png":::
 
 As admin, you can use the action menu, marked by three dots, to modify the various settings.
-
-![Screenshot showing the more actions menu.](../media/goals/2/28/b.png)
 
 - **Cancel Invite** retracts an email that you sent.
 - **Resend Invite** resends an invitation to join your instance.

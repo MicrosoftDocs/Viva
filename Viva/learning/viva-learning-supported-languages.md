@@ -2,8 +2,8 @@
 title: "Supported languages in Viva Learning"
 ms.reviewer:
 ms.date: 2/17/2022
-ms.author: daisyfeller
-author: daisyfell
+ms.author: bhaswatic
+author: bhaswatic
 manager: pamgreen
 audience: Admin
 f1.keywords:

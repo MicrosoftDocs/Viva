@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Manager effectiveness report
 description: Learn how the Ways of working PowerBI template from Microsoft Viva Insights helps you gain insight into the collaboration habits and effectiveness of your people managers.
 author: lilyolason
@@ -17,11 +16,11 @@ audience: Admin
 
 # Manager effectiveness report
 
-The **Manager effectiveness report** uses a template populated by Microsoft Viva Insights data to analyze people-manager behaviors in your organization. HR analysts can use this analysis to measure behaviors and trends of people managers across four key themes within your organization— manager capacity, coach, empower, connect, and model.
+The **Manager effectiveness report** uses a template populated by Microsoft Viva Insights data to analyze people-manager behaviors in your organization. HR analysts can use this analysis to measure behaviors and trends of people managers across four key themes within your organization: manager capacity, coach, empower, connect, and model.
 
 Each theme includes insights about manager effectiveness and ways to help maintain or increase preferred leadership behaviors. Key metrics are used to deep-dive into each theme, along with a **Why this matters** interpretation and best practices recommended by industry experts.
 
-![Manager effectiveness report, Summary](/viva/insights/advanced/images/manager-effectiveness-pbi-summary.png)
+![Screenshot that shows the Manager effectiveness report, Summary.](/viva/insights/advanced/images/manager-effectiveness-pbi-summary.png)
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Manager effectiveness** query in Viva Insights.
 
@@ -45,7 +44,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 >[!Note]
 > For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
 
-1. In the Viva Insights Analyst experience, select **Analysis**.
+1. In the Viva Insights analyst experience, select **Analysis**.
 
 2. Under **Power BI templates**, navigate to **Manager effectiveness** and select **Start analysis**. To get more information about the Manager effectiveness template before running your analysis, select **Learn more**.
 
@@ -63,7 +62,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     
         Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
 
-        * Power BI queries are set to **Group by Week**. Don't change this **Group by** designation.
+        * Power BI queries are set to **Group by Week**. You can't edit this field.
         * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
 ![Query setup](/viva/insights/advanced/images/me-pbi-setup.png)
 
@@ -76,7 +75,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
 ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
-6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
+6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. After the query runs, you can use these attributes to group and filter the reports.
 
     >[!Important]
     >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Don't remove any preselected attributes.*
@@ -112,7 +111,7 @@ After the **Manager effectiveness report** is set up and populated with Viva Ins
 |Individual contributor     |Select the attribute values that identify employees as individual contributors who do not manage people within your organization      |
 |Manager indicator|Select the attribute values that identify managers who manage people within your organization, such as **Mgr** and **Mgr+.**|
 
-![Manager effectiveness report IC and Mgr questions](/viva/insights/advanced/images/manager-effectiveness-pbi-questions.png)
+![Screenshot that shows the Manager effectiveness report IC and Mgr questions.](/viva/insights/advanced/images/manager-effectiveness-pbi-questions.png)
 
 After this initial prompt, you can then select **Settings** at top right of any page to view and change the following parameters:
 * **Select the time period for the report** – Select the time period for which you want to view data in the report.  
@@ -122,7 +121,7 @@ After this initial prompt, you can then select **Settings** at top right of any 
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.
 
-![Manager effectiveness report IC and Mgr questions](/viva/insights/advanced/images/manager-effectiveness-pbi-customize-report.png)
+![Screenshot that shows the Manager effectiveness report, customize report.](/viva/insights/advanced/images/manager-effectiveness-pbi-customize-report.png)
 
 ## About this report
 
@@ -153,7 +152,7 @@ This page shows the percentage of employees whose managers co-attend their meeti
 
 **How well-connected are managers and do they leverage their network to help build connections for their employees?**
 
-This page shows the internal network size distribution of managers as compared to the full organizational population, calling out the share of managers that are among the top 25% most connected employees in the company. It also shows the average internal network size of managers as compared to individual contributors broken out by group.
+This page shows the internal network size distribution of managers as compared to the full organizational population, calling out the share of managers who are among the top 25% most connected employees in the company. It also shows the average internal network size of managers as compared to individual contributors broken out by group.
 
 ## Model
 
