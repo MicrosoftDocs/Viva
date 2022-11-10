@@ -358,16 +358,11 @@ Coefficient| QI
 1. Run the [Import Key API](/rest/api/keyvault/keys/decrypt/decrypt).
 
 
-
-
 ### Information for customers
 
 *Applies to: global admin for the customer tenant*
 
 Before the partner can run the integration, you’ll need to take care of a few prerequisites and approve the partner’s app request. Read on to find out how.
-
-
-### For customers
 
 #### Prerequisites
 
@@ -384,12 +379,12 @@ Before you can use this integration, you’ll need to:
 
 ##### Enable Viva Insights dataset and cross-tenant data movement 
 
-In the admin portal (admin.microsoft.com), under **Microsoft Graph Data Connect** settings, they’ll select the option to enable **Viva Insights dataset** and **Cross-Tenant data movement**. This link takes the admin into the Microsoft Graph Data Connect settings page in the admin portal:
+In the admin portal (admin.microsoft.com), under **Microsoft Graph Data Connect** settings, you'll select the option to enable **Viva Insights dataset** and **Cross-Tenant data movement**. This link takes you into the Microsoft Graph Data Connect settings page in the admin portal:
 https://admin.microsoft.com/Adminportal/Home#/Settings/Services/:/Settings/L1/O365DataPlan.
  
 #### Approve a partner's MGDC application
 
-To review the application, they’ll either need a direct link from the partner or the partner’s app details (partner app registration tenant ID and partner application ID). 
+To review the application, you'll either need a direct link from the partner or the partner’s app details (partner app registration tenant ID and partner application ID). 
 
 To approve a partner’s request:
 
