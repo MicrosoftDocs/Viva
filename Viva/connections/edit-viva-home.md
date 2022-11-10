@@ -208,7 +208,7 @@ When end users in your organization view the Viva Connections landing experience
 
 
 ## Choose the default landing experience for Viva Connections desktop
-If your organization already has a SharePoint home site and you want to keep it as the landing experience for Viva Connections desktop, use the PowerShell command listed below. If you decide to change the default experience from a home site back to the Viva Connections home experience, you'll need to run this command again using the **$false** parameter. To run this cmdlet, you must be a tenant admin.
+If your organization already has a SharePoint home site and you want to keep it as the landing experience for Viva Connections desktop, use the PowerShell command listed below. If you decide to change the default experience from a home site back to the Viva Connections home experience, you'll need to run this command again using the `$false` parameter. To run this cmdlet, you must be a tenant admin.
 
 1.	[Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
