@@ -19,6 +19,9 @@ audience: Admin
 
 *This experience is only available through private preview.*
 
+>[!IMPORTANT]
+> This document contains information for two groups: partners and customers. If you’re a customer, skip to our [Information for customers](#information-for-customers) section to find out what you need to do to enable this integration. If you’re a partner, read on.
+
 Use this integration to export and combine Microsoft Viva Insights collaboration data with partner application data. Then, use the combined data for more advanced customer analysis, like identifying behaviors and patterns behind key metrics.
 
 To facilitate this integration, we use an Azure Data Factory pipeline. Refer to [Process](#process) for further information about how this pipeline works.
@@ -29,23 +32,22 @@ Viva Insights calculates metrics based on Exchange Online mailbox data, like ema
 
 ## Prerequisites
 
-### For partners
-
 Before you can use this integration, you’ll need to:
 
-1. Complete the program form to join the Microsoft Graph TAP partner program. Joining the program gives you access to the Azure APIs you use to access Viva Insights. In the form, include these details: 
+1. Complete [the program form](https://aka.ms/GraphTAPForm) to join the Microsoft Graph TAP partner program. Joining the program gives you access to the Azure APIs you use to access Viva Insights. In the form, include these details: 
     1. For **Microsoft Graph workload**, select **Data Connect**. 
     1. In **Justification for TAP entry**, enter what partner data you want to integrate with Viva Insights data through a Microsoft Graph API.
 2. Set up a test Azure environment to build your solution within your Microsoft 365 developer environment. Go to [Create your free Azure account today](https://azure.microsoft.com/free/) and select **Start free** to get started. You can access sample data after you set up this test environment.
-3. Create an Azure Data Lake Storage Gen2 storage account resource. This account is where we deliver the final data drop to your tenant. 
-4. Register a new application on the partner tenant:
+3. Create an Azure Data Lake Storage (ADLS) Gen 2 Storage account resource. This account is where we deliver the final data drop to your tenant. 
+    1. On the Advanced tab, select **Enable hierarchical namespace**.
+1. Register a new application on the partner tenant:
     1. Select **Azure Active Directory**. 
     1. Go to the **Application registrations** blade and select **App registrations**, then **New registration**. 
     1. Provide a name for your application, set the application to be multi-tenant, leave the other settings on the defaults, then select **Register**. Learn how to configure multitenancy in [Making your application multi-tenant](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant).
-5.	Create an Azure Key Vault. You’ll store per-tenant encryption keys here, in the **Keys** section. 
-    1. For each customer tenant extraction, create a key and make the name the customer tenant GUID. Make sure each key is unique—that is, you can’t repeat the same key for two different tenants. Learn more about keys in [About keys](/azure/key-vault/keys/about-keys). 
+5.	Create an Azure Key Vault. You’ll store per-tenant encryption keys here, in the **Keys** section.
+    1. On the **Access Policies** page, select **Azure role-based access control** as the **Permission model**.
+    1. For each customer tenant extraction, create a key and make the name the customer tenant GUID. Make sure each key is unique—that is, you can’t repeat the same key for two different tenants. Learn more about keys in [About keys](/azure/key-vault/keys/about-keys). We provide details in the FAQ <!--link--> about how to import externally generated keys.
     1. Make sure the key has a valid expiration date. 
-    1. On the **Access Policies** page, create a new policy. Under **Key permission**, select **GET**. On the next page, select the app created in the previous step. Finish creating the new policy.
     
     When you fill out the Microsoft Graph Data Connect Application Preview Registration form in the next step, you’ll provide the Azure Key Vault’s URI found in the **Overview** page. All Viva Insights data will be returned encrypted. For more details, refer to this document’s [Customer onboarding](#customer-onboarding) and [Encryption and compression](#encryption-and-compression) sections.
 6.	Fill out the [Microsoft Graph Data Connect Application Preview Registration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-mfqDTQy0ZMj1EdmSbUSwxUOUwyOEVWMkxCTTFTTlVXS1JDQ0xEMjVDUyQlQCN0PWcu).
@@ -85,24 +87,13 @@ The customer needs to consent to your application before data extraction can beg
     >[!Note]
     >This link is the same for all customers.
 
-* **Tenant and application ID:** Share the partner application’s tenant ID and partner application ID with the customer. They’ll then search for your application manually through the Microsoft Graph Data Connect admin center and add a new multi-tenant app. Customers can refer to [question 6](#q6-how-do-i-approve-a-partners-mgdc-application-as-a-customer) in the FAQs for detailed instructions on adding an app through its ID.
-
-### For customers
-
-Before you can use this integration, you’ll need to:
-
-* Set up an [Azure tenant](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant) and an administrator account. We’ll refer to this tenant as the “customer tenant.”
-* Set the customer tenant up with a Consent Request Approvers group in the Microsoft 365 admin center.
-* Enable Microsoft Graph Data Connect (MGDC) for the customer tenant, which is the platform you’ll use to export the Microsoft 365 data. Refer to the [Overview](/graph/data-connect-concept-overview) page for more information about MGDC.
-* Have your tenant admin enable the Viva Insights dataset for the customer tenant. They can enable this dataset from the Microsoft 365 admin center, as we describe in the [FAQ](#q5-how-do-i-enable-viva-insights-dataset-and-cross-tenant-data-movement-as-a-customer).
-* Allow cross-tenant data movement so the partner can extract your customer dataset. We provide detailed instructions in the [FAQ](#q5-how-do-i-enable-viva-insights-dataset-and-cross-tenant-data-movement-as-a-customer) about how to allow cross-tenant movement.
-* Have your tenant admin approve your partner’s application before data extraction starts. This consent is fetched and validated against when the partner kicks off the data extraction. We provide detailed instructions on how customers can approve your application in the [FAQ](#q6-how-do-i-approve-a-partners-mgdc-application-as-a-customer).
+* **Tenant and application ID:** Share the partner application’s tenant ID and partner application ID with the customer. They’ll then search for your application manually through the Microsoft Graph Data Connect admin center and add a new multi-tenant app. Customers can refer to [Approve a partner's MGDC application](#approve-a-partners-mgdc-application) later in this article for detailed instructions on adding an app through its ID.
 
 ## Process
 
 This integration moves behavioral analytics data between Azure and your partner application through an [Azure Data Factory pipeline](/azure/data-factory/concepts-pipelines-activities?tabs=data-factory). We built a [sample Data Factory Pipeline template](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) that you  can edit and deploy to your Azure subscription. After you add your parameters, this template configures the pipeline.
 
-After it’s deployed to your subscription, the pipeline extracts data from Microsoft 365 to the Blob Storage account owned by your application. We recommend that you create a separate container for each customer’s data, using their Azure Active Directory tenant ID as the name.
+After it’s deployed to your subscription, the pipeline extracts data from Microsoft 365 to the ADLS Gen 2 Storage account owned by your application. We recommend that you create a separate container for each customer’s data, using their Azure Active Directory tenant ID as the name.
 
 If you want, you can add an extra step to your pipeline that notifies your external application new data is available for processing. We explain how to do this [later](#process-analytics-data).
 
@@ -122,17 +113,22 @@ To use this integration, here’s what you’ll need to do.
     1. Select a **Resource group** and **Region** to deploy to.
     1. Provide values for the parameters specified in the template:
         * The **App Id** is the ID you received when you registered the app in [Prerequisites](#for-partners).  
-        * The **App Secret** is the secret generated when you registered the app in [Prerequisites](#for-partners). 
-        * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant Id of the customer whose data needs to be extracted.
+        * The **App Secret** is the secret generated in step 2 above.
+        * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant ID of the customer whose data needs to be extracted.
 
     ![Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)](/viva/insights/advanced/images/custom-deployment.png)
+
+<!--replace image-->
 
 ### Access customer data from the data drop
 
 4. Viva Insights generates an encryption key. Refer to [Encryption and compression](#encryption-and-compression) for details.
-1. Begin your MGDC data extraction by triggering the pipeline (either manually or through the template’s automatic run). You’ll receive the encrypted customer data in the storage account that you configured as the destination. 
+1. Begin your MGDC data extraction by triggering the pipeline. You’ll receive the encrypted customer data in the storage account that you configured as the destination. To trigger the pipeline *manually*, follow the instructions below. To trigger the pipeline *programmatically*, follow the instructions in Programmatic configuration. <!--add link-->
+    1. Go to the ADF Pipeline resource, and select **Launch Studio** in the Overview tab. 
+    1. In the left side panel, select the **Author** tab (pencil icon). Under **Pipelines**, select **ExportO365DataEvents**.
+    1. Select **Debug** to run the pipeline. 
 1. Your application needs to reverse the encryption and compression process to access the original data. To access the customer data from the data drop:
-    1. Get the decryption key from the extraction metadata.
+    1. Get the file decryption key from the extraction metadata.
     1. Decrypt the encryption key with the partner-customer private key, which is provided in the Azure Key Vault.
     1. Decrypt the entire file with the file encryption key. (Here's a [C# sample](/dotnet/api/system.security.cryptography.aes).)
     1. Decompress the entire file to get the extracted data. (Here's a [C# sample](/dotnet/api/system.io.compression.gzipstream).)
@@ -142,7 +138,9 @@ To use this integration, here’s what you’ll need to do.
 
 #### Take optional steps
 
-At this point, you’ve completed all required steps and should have access to your decrypted customer data. However, you might need to take a few optional steps, like joining Viva Insights data with other data, or using a pull rather than a push model to process analytics data. If that information applies to you, refer to [Optional steps](#optional-steps). We also recommend you review best practices for storing customer data in [About storing customer data](#about-storing-customer-data).
+At this point, you’ve completed all required steps and should have access to your decrypted customer data. We recommend you review best practices for storing customer data in About storing customer data. For production solutions, refer to the steps for programmatic setup in Programmatic configuration.
+
+Depending on your use case, you might need to take a few optional steps, like joining Viva Insights data with other data, or using a pull rather than a push model to process analytics data. If that information applies to you, refer to [Optional steps](#optional-steps). We also recommend you review best practices for storing customer data in [About storing customer data](#about-storing-customer-data).
 
 ## About metadata, encryption and compression, and the pipeline
 
@@ -283,16 +281,36 @@ A4. Though the output format is JSON, the output file isn’t a fully formed JSO
 
 We recommend that you stream in analytics data line-by-line. Don’t try to load the entire file into memory. To further improve read performance, your application can divide the stream into segments that are processed by separate threads. This approach leverages multiple cores.
 
+### Information for customers
+
+*Applies to: global admin for the customer tenant*
+
+Before the partner can run the integration, you’ll need to take care of a few prerequisites and approve the partner’s app request. Read on to find out how.
+
+
 ### For customers
 
-#### Q5. How do I enable Viva Insights dataset and Cross-Tenant data movement as a customer?
+#### Prerequisites
 
-A6. A global admin for the customer tenant needs to enable the dataset and cross-tenant data movement. In the admin portal (admin.microsoft.com), under **Microsoft Graph Data Connect** settings, they’ll select the option to enable **Viva Insights dataset** and **Cross-Tenant data movement**. This link takes the admin into the Microsoft Graph Data Connect settings page in the admin portal:
+Before you can use this integration, you’ll need to:
+
+* Set up an [Azure tenant](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant) and an administrator account. We’ll refer to this tenant as the “customer tenant.”
+* Set the customer tenant up with a Consent Request Approvers group in the Microsoft 365 admin center.
+* Enable Microsoft Graph Data Connect (MGDC) for the customer tenant, which is the platform you’ll use to export the Microsoft 365 data. Refer to the [Overview](/graph/data-connect-concept-overview) page for more information about MGDC.
+* Have your tenant admin enable the Viva Insights dataset for the customer tenant. They can enable this dataset from the Microsoft 365 admin center, as we describe later.
+* Allow cross-tenant data movement so the partner can extract your customer dataset. We provide detailed instructions later about how to allow cross-tenant movement.
+* Have your tenant admin approve your partner’s application before data extraction starts. This consent is fetched and validated against when the partner kicks off the data extraction. We provide detailed instructions on how customers can approve your application later.
+
+#### Process
+
+##### Enable Viva Insights dataset and cross-tenant data movement 
+
+In the admin portal (admin.microsoft.com), under **Microsoft Graph Data Connect** settings, they’ll select the option to enable **Viva Insights dataset** and **Cross-Tenant data movement**. This link takes the admin into the Microsoft Graph Data Connect settings page in the admin portal:
 https://admin.microsoft.com/Adminportal/Home#/Settings/Services/:/Settings/L1/O365DataPlan.
  
-#### Q6. How do I approve a partner’s MGDC application as a customer?
+#### Approve a partner's MGDC application
 
-A6. A global admin for the customer tenant needs to consent to the partner’s application. To review the application, they’ll either need a direct link from the partner or the partner’s app details (partner app registration tenant ID and partner application ID). 
+To review the application, they’ll either need a direct link from the partner or the partner’s app details (partner app registration tenant ID and partner application ID). 
 
 To approve a partner’s request:
 
@@ -301,12 +319,17 @@ To approve a partner’s request:
     1. Option 2: Search for the partner’s MGDC application manually using the partner app registration tenant ID and partner application ID. 
         1. Go to the MGDC admin center: https://admin.microsoft.com/Adminportal/Home#/Settings/MGDCAdminCenter.
         1. Select **Add new multi-tenant app**.
+            ![Screenshot that shows the MGDC admin center with Add new multi-tenant app option highlighted.](/viva/insights/advanced/images/partner-integration-mgdcac.png)
         1. Enter the app registration information that the partner gave you, then select **Find**. 
 1. Approve the app by going through each screen: **Overview**, **Datasets**, and **Review**. Carefully review the information on each screen before selecting **Next**.
     1. **Overview**: Review information about the application and data destination.
-    1. **Datasets**: Review details about which datasets and columns the application wants to extract. Your approval only allows the application to extract the datasets and columns specified here. Make sure you’re fully reviewing each dataset; for each dataset, expand the list of columns the application is requesting to extract. 
-    1. **Review**: After taking another look at the app publisher and the data destination, **Approve** or **Decline** the application to extract the requested datasets. Your approval or denial isn't committed until you select the **Approve** or **Decline** button. If you approve, your approval remains valid for the next 180 days. 
-3.	If you approved, return to the Microsoft Graph Data Connect admin center landing page. The app you just approved should appear in the summary table. 
+    ![Screenshot that shows the app Overview screen with the Next button highlighted.](/viva/insights/advanced/images/partner-integration-app-details1.png)
+    1. **Datasets**: Review details about which datasets and columns the application wants to extract. Your approval only allows the application to extract the datasets and columns specified here. Make sure you’re fully reviewing each dataset; for each dataset, expand the list of columns the application is requesting to extract.
+    ![Screenshot that shows the app Datasets screen with the expand/collapse buttons highlighted and the Next button highlighted.](/viva/insights/advanced/images/partner-integration-app-details2.png)
+    1. **Review**: After taking another look at the app publisher and the data destination, **Approve** or **Decline** the application to extract the requested datasets. Your approval or denial isn't committed until you select the **Approve** or **Decline** button. If you approve, your approval remains valid for the next 180 days.
+    ![Screenshot that shows the app Review screen with the Approve button highlighted.](/viva/insights/advanced/images/partner-integration-app-details3.png)
+3.	If you approved, return to the Microsoft Graph Data Connect admin center landing page. The app you just approved should appear in the summary table.
+    ![Screenshot that shows the app Review screen with the Approve button highlighted.](/viva/insights/advanced/images/partner-integration-mgdcac-summary.png)
 
 ## Related topics
 
