@@ -236,7 +236,7 @@ Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -Vi
 Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false
 
 >[!NOTE]
-> - It may take up to 15 minutes to see the updated default landing experience.
+> It may take up to 15 minutes to see the updated default landing experience.
 
 ## Learn more
 
