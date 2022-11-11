@@ -51,9 +51,7 @@ Users can find opt-out settings in their Viva Insights app in Teams or on the we
 
 After you’re done making changes to group size and/or opt-out settings, select **Save changes**.
 
-
-![Screenshot that shows the Manager settings page.](../images/privacy-settings10.png)
-
+:::image type="content" source="../images/privacy-settings10-small.png" alt-text="Screenshot that shows the Manager settings page." lightbox="../images/privacy-settings10.png":::
 
 ## Customize manager settings 
 
