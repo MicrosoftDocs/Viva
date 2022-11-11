@@ -3,7 +3,7 @@ title: Configure your OKR creation permissions in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -18,8 +18,9 @@ search.appverid:
 - MET150
 description: "Learn how to configure your OKR creation rules in Viva Goals"
 ---
+# Configure OKR create permissions
 
-# Create permissions for Organizations  
+## Create permissions for Organizations  
 
 You can set **Create permissions** to provide access for creating OKRs and Projects at an organization level and at a team level.  
 
@@ -30,7 +31,7 @@ You can set **Create permissions** to provide access for creating OKRs and Proje
 > [!NOTE]
 > Organization/team admins and organization/team owners will have access to create OKRs irrespective of the option. In organization level settings, only org_owners and org_admins would be able to create OKRs for the org by default. 
 
-## Establish create permission for an Organization
+### Establish create permission for an Organization
 
 1.	Navigate to the organization’s OKRs page.
 1. Select the **Settings** tab that you’ll find at the top of the page.  
@@ -48,7 +49,7 @@ When you choose to add specific people to provide create permissions to them, yo
 > [!NOTE]
 > You cannot revoke access for the organization admins and organization owners.  
 
-# Create permissions for Teams 
+## Create permissions for Teams 
 
 You can set **Create permissions** at the team level to control who can create OKRs and projects for your team.  
 
@@ -61,7 +62,7 @@ Like the organization-level settings, you will have three options to choose from
 > [!NOTE]
 > Organization/team admins and organization/team owners will have access to create OKRs irrespective of the option.   
 
-## Establish create permission for a Team
+### Establish create permission for a Team
 
 1.	Navigate to the specific team you want to set the create permissions for.   
 1. Select the **Team settings** tab.  
