@@ -43,7 +43,7 @@ Set the minimum group size, which is the minimum aggregation threshold for insig
 
 #### End-user opt-out
 
-Select **End-user opt-out** to grant users the option to opt out of having their user metrics made available in advanced insights line-level query results from the [person query](..//analyst/person-query-overview.md). When users opt out, future person queries and those that refresh each week are affected. Opt-out doesn’t apply to aggregated insights (like those on the **Organization trends** page) and query results from collaboration events (like meetings). 
+The **End-user opt-out** control lets users choose whether their metrics—which are always de-identified—appear in [person query](..//analyst/person-query-overview.md) results. Analysts run person queries through the advanced insights app. When users opt out, future person queries and those that refresh each week are affected. Opt-out doesn’t apply to aggregated insights (like those on the **Organization trends** page) and query results from collaboration events (like meetings). 
 
 Users can find opt-out settings in their Viva Insights app in Teams or on the web under **Settings > Privacy**. After you turn on the **End-user opt-out** control, users who already opted out of Viva Insights through their app in Teams or on the web are automatically opted out of person query data. Settings take effect after one day. Users can opt back in to Viva Insights whenever they want and they’ll see their previously saved settings. 
 
