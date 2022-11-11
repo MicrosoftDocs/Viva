@@ -1,5 +1,5 @@
 ---
-title: "Microsft Viva connection experience"
+title: "Support an inclusive work culture with conversations, company news, and shared interests."
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
@@ -12,18 +12,15 @@ ms.service: viva
 localization_priority: Priority
 ms.collection:  
 - M365initiative-viva
+- highpri
 search.appverid:
 - MET150
 
 description: "Learn how Microsoft Viva supports employee connection in your organization"
 ---
 
-<<<<<<< Updated upstream
 # The Connection experience with Microsoft Viva
-=======
-# The Connection experience in Microsoft Viva
->>>>>>> Stashed changes
-Discover ways to connect and share interests at work. Get company news,  start a conversation, or join a community with Viva Connections and Viva Engage.
+Discover ways to connect and share interests at work. Get company news, start a conversation, or join a community with Viva Connections and Viva Engage.
 
 ## Viva Connections
 Viva Connections is a customizable app in Microsoft Teams that gives everyone a personalized destination to discover relevant news, conversations, and the tools they need to succeed.
