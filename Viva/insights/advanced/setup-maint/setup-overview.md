@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Viva Insights setup overview
 description: Get an overview of setup required for Viva Insights
 author: lilyolason

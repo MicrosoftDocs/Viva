@@ -269,3 +269,5 @@ items:
             href: advanced/reference/faq.md
           - name: Glossary
             href: advanced/reference/glossary.md
+          - name: Metrics
+            href: advanced/reference/metrics.md  
