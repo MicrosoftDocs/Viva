@@ -76,24 +76,8 @@ items:
                 href: personal/use/mya-notifications.md
               - name: Schedule send suggestions
                 href: personal/use/delay-delivery.md
-          - name: Home
-            href: personal/use/home-web.md
-          - name: Dashboard
-            href: personal/use/dashboard-2.md
           - name: Digests
             href: personal/use/email-digests-3.md            
-          - name: Focus plan
-            href: personal/use/focus-plan.md     
-          - name: Work patterns
-            items:
-              - name: Focus
-                href: personal/use/focus.md
-              - name: Wellbeing
-                href: personal/use/wellbeing.md
-              - name: Network
-                href: personal/use/network.md
-              - name: Collaboration
-                href: personal/use/collaboration.md
           - name: Personal insights FAQ
             href: personal/overview/mya-faq.md 
           - name: Admin guide
