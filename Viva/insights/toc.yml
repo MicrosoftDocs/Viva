@@ -21,35 +21,13 @@ items:
               - name: Introduction
                 href: personal/teams/viva-teams-app.md
               - name: Home
-                items:
-                  - name: Overview
-                    href: personal/teams/viva-insights-home.md
-                  - name: Headspace
-                    href: personal/teams/viva-insights-headspace.md                        
-                  - name: Reflect
-                    href: personal/teams/viva-insights-reflect.md
-                  - name: Send praise
-                    href: personal/teams/viva-insights-praise.md
-                  - name: Virtual commute
-                    href: personal/teams/viva-insights-virtual-commute.md           
-              - name: Stay connected
-                href: personal/teams/viva-insights-stay-connected.md
-              - name: Protect time
-                href: personal/teams/viva-insights-protect-time.md
-              - name: Effective meetings
-                href: personal/teams/effective-meetings.md
-              - name: Inspiration library
-                href: personal/teams/inspiration.md  
-              - name: Setup
-                items: 
-                  - name: Discover the app
-                    href: personal/teams/viva-teams-app-install.md
-                  - name: Configure the app
-                    href: personal/teams/viva-teams-app-settings.md
-                  - name: Admin tasks
-                    href: personal/teams/viva-teams-app-admin-tasks.md
-                  - name: FAQ
-                    href: personal/teams/viva-teams-app-faq.md
+                href: personal/teams/home.md
+              - name: Productivity
+                href: personal/teams/productivity.md
+              - name: Teamwork
+                href: personal/teams/teamwork.md
+              - name: Wellbeing
+                href: personal/teams/wellbeing.md      
           - name: Briefing
             items:
               - name: Overview
