@@ -46,7 +46,7 @@ Before you can use this integration, you’ll need to:
     1. Provide a name for your application, set the application to be multi-tenant, leave the other settings on the defaults, then select **Register**. Learn how to configure multitenancy in [Making your application multi-tenant](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant).
  
     >[!Note]
-    > Reach out to the Microsoft Viva Insights team after you create your application registration. We need to add your application's client ID to our internal allow-list before you can start extractions.   
+    > Reach out to the Microsoft Viva Insights team at VivaInsightsDataEgress@service.microsoft.com after you create your application registration. We need to add your application's client ID to our internal allow-list before you can start extractions.
 
 5.	Create an Azure Key Vault. You’ll store per-tenant encryption keys here, in the **Keys** section. After creating the Key Vault, you'll need to configure these Key Vault settings:
     1. On the **Access Policies** page, select **Azure role-based access control** as the **Permission model**.
@@ -58,6 +58,9 @@ Before you can use this integration, you’ll need to:
     1. For each customer tenant extraction, generate a RSA 2048 key and make the name the customer tenant GUID. If you prefer to generate your own keys externally from Azure Key Vault, we provide details in the [FAQ](#q6-can-i-create-a-customer-keys-externally-and-import-them-into-azure-key-vault) about how to import externally generated keys. Make sure each key is unique—that is, you can’t repeat the same key for two different tenants. Learn more about keys in [About keys](/azure/key-vault/keys/about-keys). 
     1. Make sure the key has a valid expiration date. 
     
+    >[!Note]
+    > If no expiration date is set for your key, the pipeline will fail.
+
     When you fill out the Microsoft Graph Data Connect Application Preview Registration form in the next step, you’ll provide the Azure Key Vault’s URI found in the **Overview** page. All Viva Insights data will be returned encrypted. For more details, refer to this document’s [Customer onboarding](#customer-onboarding) and [Encryption and compression](#encryption-and-compression) sections.
 6.	Fill out the [Microsoft Graph Data Connect Application Preview Registration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-mfqDTQy0ZMj1EdmSbUSwxUOUwyOEVWMkxCTTFTTlVXS1JDQ0xEMjVDUyQlQCN0PWcu).
     1. For question 2, **Organization Type**, select **ISV (Independent Software Vendor)**.
@@ -166,7 +169,7 @@ As we mentioned earlier, after you extract customer data, you’ll receive a dat
 |Field|Description|
 |---|----|
 |**CopyActivityId**	|A unique identifier for the copy operation that you can use to get a decryption key for the file.
-**JobSubmissionTime**|	The time that the Azure Data Factory pipeline started.
+**JobSubmissionTime**| The time that the Azure Data Factory pipeline started.
 **JobCompletionTime**	|The time that the Azure Data Factory pipeline ended.
 **RequestStartDate**	|The starting time period for which behavioral analytics data was extracted.
 **RequestEndDate**	|The ending time period for which behavioral analytics data was extracted.
