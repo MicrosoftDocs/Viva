@@ -169,7 +169,7 @@ As we mentioned earlier, after you extract customer data, you’ll receive a dat
 |Field|Description|
 |---|----|
 |**CopyActivityId**	|A unique identifier for the copy operation that you can use to get a decryption key for the file.
-**JobSubmissionTime**| The time that the Azure Data Factory pipeline started.
+|**JobSubmissionTime**| The time that the Azure Data Factory pipeline started.|
 **JobCompletionTime**	|The time that the Azure Data Factory pipeline ended.
 **RequestStartDate**	|The starting time period for which behavioral analytics data was extracted.
 **RequestEndDate**	|The ending time period for which behavioral analytics data was extracted.
@@ -240,7 +240,7 @@ To programmatically deploy the pipeline, here’s what you need to do. For more 
 
 5.	Submit the request.  
 
-    We provide detailed instructions in the [FAQ](#q5-can-i-programmatically-deploy-the-arm-template-using-powershell-c-or-java) about deploying the template using PowerShell, C#, and Java.
+    We provide detailed instructions in the [FAQ](#q5-can-i-programmatically-deploy-the-pipeline-using-powershell-c-or-java) about deploying the template using PowerShell, C#, and Java.
 
 ###### Run
 
