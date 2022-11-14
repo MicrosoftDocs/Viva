@@ -96,11 +96,11 @@ The customer needs to consent to your application before data extraction can beg
     >[!Note]
     >This link is the same for all customers.
 
-* **Tenant and application ID:** Share the partner application’s tenant ID and partner application ID with the customer. They’ll then search for your application manually through the Microsoft Graph Data Connect admin center and add a new multi-tenant app. Customers can refer to [Approve a partner's MGDC application](#approve-a-partners-mgdc-application) later in this article for detailed instructions on adding an app through its ID.
+* **Tenant and application ID:** Share the partner application’s tenant ID and partner application ID with the customer. They’ll then search for your application manually through the Microsoft Graph Data Connect admin center and add a new multi-tenant app. Customers can refer to [Approve a partner's Microsoft Graph Data Connect application](#approve-a-partners-microsoft-graph-data-connect-application)later in this article for detailed instructions on adding an app through its ID.
 
 ## Process
 
-This integration moves behavioral analytics data between Azure and your partner application through an [Azure Data Factory pipeline](/azure/data-factory/concepts-pipelines-activities?tabs=data-factory). We built a [sample Data Factory Pipeline template](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) that you  can edit and deploy to your Azure subscription. After you add your parameters, this template configures the pipeline.
+This integration moves behavioral analytics data between Azure and your partner application through an [Azure Data Factory pipeline](/azure/data-factory/concepts-pipelines-activities?tabs=data-factory). We built a [sample Azure Data Factory pipeline template](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) that you  can edit and deploy to your Azure subscription. After you add your parameters, this template configures the pipeline.
 
 After it’s deployed to your subscription, the pipeline extracts data from Microsoft 365 to the Azure Data Lake Storage Gen 2 Storage account owned by your application. We recommend that you create a separate container for each customer’s data, using their Azure Active Directory tenant ID as the name.
 
@@ -114,7 +114,7 @@ To use this integration, here’s what you’ll need to do.
 
 #### Edit the template, provision a client secret, and deploy the template
 
-1.	Edit the sample [Data Factory Pipeline template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction/mainTemplateV1.json) (also known as an Azure Resource Manager [ARM] template) from GitHub for your specific use case. This template defines the Azure Data Factory pipeline and associated resources that will be deployed to Azure, in your Azure subscription, to move data to your subscription.
+1.	Edit the sample [Azure Data Factory pipeline template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction/mainTemplateV1.json) (also known as an Azure Resource Manager [ARM] template) from GitHub for your specific use case. This template defines the Azure Data Factory pipeline and associated resources that will be deployed to Azure, in your Azure subscription, to move data to your subscription.
 1. Provision a client secret for the application you created [earlier](#prerequisites). Store the secret in the Azure Key Vault you made earlier, unless you’re using a custom solution. 
 1.	On your Azure subscription, deploy the template:
     1. In the Azure portal, select **Deploy a custom template**.
@@ -128,7 +128,7 @@ To use this integration, here’s what you’ll need to do.
 
     1. Select **Review + create**.
 >[!Note] 
->To deploy the template programmatically, follow the directions in Programmatic configuration.
+>To deploy the template programmatically, follow the directions in [Programmatic configuration](#programmatic-configuration).
 
 
 <!--replace image-->
@@ -137,7 +137,7 @@ To use this integration, here’s what you’ll need to do.
 
 4. Viva Insights generates an encryption key. Refer to [Encryption and compression](#encryption-and-compression) for details.
 1. Begin your MGDC data extraction by triggering the pipeline. You’ll receive the encrypted customer data in the storage account that you configured as the destination. To trigger the pipeline *manually*, follow the instructions below. To trigger the pipeline *programmatically*, follow the instructions in [Programmatic configuration](#programmatic-configuration). 
-    1. Go to the Azure Data Factory Pipeline resource, and select **Launch Studio** in the **Overview** tab. 
+    1. Go to the Azure Data Factory pipeline resource, and select **Launch Studio** in the **Overview** tab. 
     1. In the left side panel, select the **Author** tab (pencil icon). Under **Pipelines**, select **ExportO365DataEvents**.
     1. Select **Debug** to run the pipeline. 
 1. Your application needs to reverse the encryption and compression process to access the original data. To access the customer data from the data drop:
@@ -151,7 +151,7 @@ To use this integration, here’s what you’ll need to do.
 
 #### Take optional steps
 
-At this point, you’ve completed all required steps and should have access to your decrypted customer data. We recommend you review best practices for storing customer data in [About storing customer data](#about-storing-customer-data). For production solutions, refer to the steps for programmatic setup in Programmatic configuration.
+At this point, you’ve completed all required steps and should have access to your decrypted customer data. We recommend you review best practices for storing customer data in [About storing customer data](#about-storing-customer-data). For production solutions, refer to the steps for programmatic setup in [Programmatic configuration](#programmatic-configuration).
 
 Depending on your use case, you might need to take a few optional steps, like joining Viva Insights data with other data, or using a pull rather than a push model to process analytics data. If that information applies to you, refer to [Optional steps](#optional-steps). We also recommend you review best practices for storing customer data in [About storing customer data](#about-storing-customer-data).
 
@@ -166,13 +166,13 @@ As we mentioned earlier, after you extract customer data, you’ll receive a dat
 |Field|Description|
 |---|----|
 |**CopyActivityId**	|A unique identifier for the copy operation that you can use to get a decryption key for the file.
-**JobSubmissionTime**|	The time that the Data Factory pipeline started.
-**JobCompletionTime**	|The time that the Data Factory pipeline ended.
+**JobSubmissionTime**|	The time that the Azure Data Factory pipeline started.
+**JobCompletionTime**	|The time that the Azure Data Factory pipeline ended.
 **RequestStartDate**	|The starting time period for which behavioral analytics data was extracted.
 **RequestEndDate**	|The ending time period for which behavioral analytics data was extracted.
 **ColumnsRequested**	|A comma-separated list of the columns included in the output.
 **NumberOfRowsExtracted**	|The number of rows in the output.
-**DataFactoryName**	|The name of the Data Factory pipeline.
+**DataFactoryName**	|The name of the Azure Data Factory pipeline.
 **TenantId**	|The Azure Active Directory tenant that the partner analytics data was extracted for.
 **Errors**	|A string describing errors encountered while processing the copy operation. If this property is non-empty, no output file will be present.
 **TableName**	|Viva data set activity name and version. The expected format of the tablename is “VivaInsightsDataset_{activityName}_{datasetVersion}”.
@@ -207,7 +207,7 @@ The decryption key comes encrypted as a Base-64 string with the per-customer ten
 Here are a couple of best practices for storing customer data:
 
 * Don’t permanently store decrypted files in Azure or on-premises storage. Your application should decrypt the behavioral analytics data in real-time as it’s being processed. The decrypted contents shouldn’t be written to the disk.
-* Make sure that your Azure Data Factory pipeline includes a step to clean up analytics data on the customer’s storage account after it’s has been transferred to your application’s storage. Our sample Data Factory pipeline on GitHub includes this step.
+* Make sure that your Azure Data Factory pipeline includes a step to clean up analytics data on the customer’s storage account after it’s has been transferred to your application’s storage. Our sample Azure Data Factory pipeline on GitHub includes this step.
 
 ### Pipeline
 
@@ -225,21 +225,24 @@ To programmatically generate RSA Keys, refer to the [Create Key REST API](/rest/
 
 ###### Deploy
 
-To programmatically deploy the ARM template, here’s what you need to do. For more information, refer to [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).
+To programmatically deploy the pipeline, here’s what you need to do. For more information, refer to [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).
 
 1.	Make sure you have a resource group to be used for the deployment. This group can be the same resource group you created in [Prerequisites](#prerequisites), step 2a.
 2.	Create a **PUT** request to this endpoint:  `https://management.azure.com/subscriptions/<YourSubscriptionId>/resourcegroups/<YourResourceGroupName>?api-version=2020-06-01`
-3.	Include the ARM template in the Request Body as shown in [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).  
+3.	Include the pipeline in the Request Body as shown in [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).  
 4.	Add the Azure Access Token as a Bearer token. 
 
 >[!Note]
 >To get access tokens for REST APIs, follow the Azure CLI’s documentation or use the Azure Identity SDK. 
 
 5.	Submit the request.  
-We provide detailed instructions in the FAQ<!--add link--> about deploying the template using PowerShell, C#, and Java.
 
-Run
-To programmatically run the pipeline, here’s what you need to do. Pipelines - Create Run
+    We provide detailed instructions in the [FAQ](#q5-can-i-programmatically-deploy-the-arm-template-using-powershell-c-or-java) about deploying the template using PowerShell, C#, and Java.
+
+###### Run
+
+To programmatically run the pipeline, here’s what you need to do. For more information, refer to [Pipelines – Create Run](/rest/api/datafactory/pipelines/create-run).
+
 1.	Create a **POST** request to this endpoint: 
     `https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelines/{pipelineName}/createRun?api-version=2018-06-01` 
 2.	Populate the Request Body with the relevant parameters.
@@ -250,7 +253,7 @@ To programmatically run the pipeline, here’s what you need to do. Pipelines - 
 
 You might need to take one or both of these steps depending on your use case:
 
-* If you don’t have access to your customer’s tenant directory information, you can use the information in [Join Viva Insights data with other data](#join-viva-insights-data-with-other-data) to export Azure Active Directory user data. In the sample Data Factory Pipeline we provide on GitHub, this step is marked as **OPTIONAL**.
+* If you don’t have access to your customer’s tenant directory information, you can use the information in [Join Viva Insights data with other data](#join-viva-insights-data-with-other-data) to export Azure Active Directory user data. In the sample Azure Data Factory pipeline we provide on GitHub, this step is marked as **OPTIONAL**.
 * If you want to continuously poll the Blob Storage account (that is, use a pull model) for changes instead of using the sample pipeline’s Azure function, refer to [How to use a pull model](#how-to-use-a-pull-model).
 
 #### Join Viva Insights data with other data
@@ -259,7 +262,7 @@ The analytics data includes the Azure Active Directory Object ID of each user th
 
 If you don’t have this access, you can export directory information and correlate it with a common field by following these steps:
 
-1.	Configure your Data Factory pipeline to add an additional step to export Azure Active Directory user data. This step is provided, but marked as **OPTIONAL**, in our sample pipeline on GitHub. Adding this step creates an additional output file from your pipeline that includes basic information about each user in the customer’s tenant.
+1.	Configure your Azure Data Factory pipeline to add an additional step to export Azure Active Directory user data. This step is provided, but marked as **OPTIONAL**, in our sample pipeline on GitHub. Adding this step creates an additional output file from your pipeline that includes basic information about each user in the customer’s tenant.
 2.	Use this output from step 1 correlate user information between Azure and your application with a join of a common field, such as e-mail address. Refer to the Microsoft Graph Data Connect documentation for details on the [user schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/User_v1.md) and a [sample of the output](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/BasicDataSet_v0.User_v1.json).
 
 ### Process analytics data
@@ -278,7 +281,7 @@ The Azure Data Factory pipeline powering the data movement can notify your appli
 
 #### How to use a pull model
 
-Optionally, you can have your application programmatically start the Azure Data Factory pipeline and continuously poll it for completion. We describe programmatic usage of the Data Factory more in [Programmatic configuration](#programmatic-configuration).
+Optionally, you can have your application programmatically start the Azure Data Factory pipeline and continuously poll it for completion. We describe programmatic usage of the Azure Data Factory more in [Programmatic configuration](#programmatic-configuration).
 
 ### Related information 
 
@@ -324,7 +327,7 @@ A4. Though the output format is JSON, the output file isn’t a fully formed JSO
 
 We recommend that you stream in analytics data line-by-line. Don’t try to load the entire file into memory. To further improve read performance, your application can divide the stream into segments that are processed by separate threads. This approach leverages multiple cores.
 
-### Q5. Can I programmatically deploy the ARM template using PowerShell, C#, or Java?
+### Q5. Can I programmatically deploy the pipeline using PowerShell, C#, or Java?
 
 A5. Yes. We’ve provided the documentation for each approach here:
 
@@ -419,7 +422,7 @@ To approve a partner’s request:
     ![Screenshot that shows the app Datasets screen with the expand/collapse buttons highlighted and the Next button highlighted.](/viva/insights/advanced/images/partner-integration-app-details2.png)
     1. **Review**: After taking another look at the app publisher and the data destination, **Approve** or **Decline** the application to extract the requested datasets. Your approval or denial isn't committed until you select the **Approve** or **Decline** button. If you approve, your approval remains valid for the next 180 days.
     ![Screenshot that shows the app Review screen with the Approve button highlighted.](/viva/insights/advanced/images/partner-integration-app-details3.png)
-3.	If you approved, return to the Microsoft Graph Data Connect admin center landing page. The app you just approved should appear in the summary table.
+3.	If you approved, return to the MGDC admin center landing page. The app you just approved should appear in the summary table.
     ![Screenshot that shows the app Review screen with the Approve button highlighted.](/viva/insights/advanced/images/partner-integration-mgdcac-summary.png)
 
 ## Related topics
