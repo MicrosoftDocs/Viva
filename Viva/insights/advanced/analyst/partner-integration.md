@@ -226,7 +226,7 @@ The sample Azure Data Factory pipeline we provide on GitHub includes a [trigger]
 
 To programmatically generate RSA Keys, refer to the [Create Key REST API](/rest/api/keyvault/keys/create-key/create-key) (or the [C#](/api/azure.security.keyvault.keys.keyclient.creatersakey) or [Java SDK](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-security-keyvault-keys/4.2.3/index.html) methods). This method also stores the RSA into the specified Key Vault.
 
-###### Deploy
+##### Deploy
 
 To programmatically deploy the pipeline, here’s what you need to do. For more information, refer to [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).
 
@@ -242,7 +242,7 @@ To programmatically deploy the pipeline, here’s what you need to do. For more 
 
     We provide detailed instructions in the [FAQ](#q5-can-i-programmatically-deploy-the-pipeline-using-powershell-c-or-java) about deploying the template using PowerShell, C#, and Java.
 
-###### Run
+##### Run
 
 To programmatically run the pipeline, here’s what you need to do. For more information, refer to [Pipelines – Create Run](/rest/api/datafactory/pipelines/create-run).
 
