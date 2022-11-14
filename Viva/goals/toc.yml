@@ -33,62 +33,6 @@ items:
       href: check-in-reminders.md
     - name: Roles and Permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
-- name: Work with OKRs in Viva Goals
-  items:
-    - name: Understand Views in Viva Goals
-      href: understanding-views.md
-    - name: Create OKRs
-      href: creating-okrs.md
-    - name: Align OKRs
-      href: align-okrs.md
-    - name: Update OKRs using check-ins in Viva Goals
-      href: okr-check-ins.md
-    - name: Track OKR progress status in Viva Goals
-      href: track-okr-progress-status.md
-    - name: Close and Score OKRs
-      href: closing-and-scoring.md
-    - name: Clone OKRs
-      href: cloning-objectives.md
-    - name: Manage OKRs in Viva Goals
-      href: configuring-okrs.md
-    - name: Set Up OKR Business Rhythms 
-      href: business-rhythms.md
-- name: Product Features
-  items:
-    - name: Projects
-      href: projects.md
-    - name: Review Dashboard
-      href: review-dashboard.md
-    - name: Review Dashboard Templates
-      href: review-dashboard-templates.md
-    - name: Approval Workflows
-      href: approval-workflows.md
-    - name: Define KR Types in Viva Goals
-      href: kr-types.md
-    - name: Tags
-      href: tags.md
-    - name: Explorer
-      href: explorer.md
-    - name: Bookmarks
-      href: bookmarks-in-viva-goals.md
-    - name: Quick Search and Hot Key Actions
-      href: quick-search-and-hot-key-support.md
-    - name: OKR Contributions
-      href: okr-contributions.md
-    - name: Share Objectives via Email
-      href: share-objectives.md
-    - name: Nudge Users 
-      href: nudge-users-to-check-in.md
-    - name: Multiple Alignment
-      href: multiple-alignment.md
-    - name: Follow Organizations, Teams and Users
-      href: follow-teams-and-user-progress.md
-    - name: Private Objectives 
-      href: private-objectives-key-results.md
-    - name: Objective Delegation
-      href: objective-delegation.md
-    - name: KPI Summary
-      href: kpi-summary.md
 - name: MS Teams
   items:
         - name: Collaborate with Viva Goals in MS Teams
@@ -99,18 +43,6 @@ items:
           href: use-ms-teams-integration.md
         - name: Share OKR updates in chats
           href: ms-teams-messaging-extension.md
-- name: Slack
-  items:
-        - name: Collaborate with Viva Goals in Slack 
-          href: slack-collaborate-with-viva-goals.md
-        - name: Check-in reminders and OKR updates
-          href: slack-check-ins-teams-orgs.md
-        - name: Share OKR summary via Slack
-          href: slack-share-okr-summary.md
-        - name: OKR Digest
-          href: slack-okr-digest.md
-        - name: Get support
-          href: slack-support.md
 - name: Integrations
   items:
     - name: Viva Goals integrations overview
@@ -162,6 +94,18 @@ items:
           href: postgresql-integration.md
         - name: Salesforce Integration
           href: salesforce-integration.md
+        - name: Slack
+          items:
+            - name: Collaborate with Viva Goals in Slack 
+              href: slack-collaborate-with-viva-goals.md
+            - name: Check-in reminders and OKR updates
+              href: slack-check-ins-teams-orgs.md
+            - name: Share OKR summary via Slack
+              href: slack-share-okr-summary.md
+            - name: OKR Digest
+              href: slack-okr-digest.md
+            - name: Slack troubleshooting and support
+              href: slack-support.md
         - name: Smartsheet Integration
           href: smartsheet-integration.md
         - name: Snowflake Integration

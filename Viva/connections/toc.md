@@ -49,6 +49,8 @@
 
 ### [Can't find app in Teams mobile](troubleshoot/cant-find-app-in-teams-mobile.md)
 
+### [Can't find the app in the Teams admin center](troubleshoot/cant-find-app-in-teams-admin-center.md)
+
 ### [Can't update app details](troubleshoot/cant-update-app-details.md)
 
 ### [Can't upload package](troubleshoot/cant-upload-package.md)

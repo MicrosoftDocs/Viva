@@ -43,13 +43,13 @@ The home experience focuses on the top tasks, tools, and resources that help peo
 
 ![Image of the full page home experience.](../media/connections/vc-full.png) 
 
-**Dashboard:** [The Dashboard](/viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
+**Dashboard:** The Dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
 
-**Feed:** [The Feed](/viva-connections-overview.md#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
+**Feed:** The Feed delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
 
-**Resources:** [The Resources](/viva-connections-overview.md#viva-connections-resources) experience enables navigation across portals and destinations.
+**Resources:** The Resources experience enables navigation across portals and destinations.
 
- **Navigational elements:** Located in the top-right and top-left corners, [navigational elements](https://go.microsoft.com/fwlink/?linkid=2208247) help viewers easily get to-and-from other landing pages and [other Viva experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0).
+ **Navigational elements:** Located in the top-right and top-left corners, navigational elements help viewers easily get to-and-from other landing pages and [other Viva experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0).
 
 ### Summary of customizable elements 
 
@@ -208,17 +208,17 @@ When end users in your organization view the Viva Connections landing experience
 
 
 ## Choose the default landing experience for Viva Connections desktop
-If your organization already has a home site and you want to keep it as the landing experience for Viva Connections desktop, use the PowerShell command. This command can be applied at any time and will need to be manually reset if you choose to change the default landing experience. To run this cmdlet, you must be a site admin of the home site.
+If your organization already has a SharePoint home site and you want to keep it as the landing experience for Viva Connections desktop, use the PowerShell command listed below. If you decide to change the default experience from a home site back to the Viva Connections home experience, you'll need to run this command again using the `$false` parameter. To run this cmdlet, you must be a tenant admin.
 
 1.	[Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
 >[!NOTE]
-> - If you installed a previous version of the SharePoint Online Management Shell, go to Add, or remove programs and uninstall "SharePoint Online Management Shell."
-> - It may take up to 20 minutes to see the updated default landing experience.
+> - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell."
+
 
 2.	Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-3.	Run `Set-SPOHomeSite-HomeSiteUrl <homesiteURL> - VivaConnectionsDefaultStart <$true/$false>`
+3.	Run `Set-SPOHomeSite -HomeSiteUrl <homesiteURL> -VivaConnectionsDefaultStart <$true/$false>`
 
       - The parameter should be set to **$false** to use the new home experience as the default landing experience. 
       - The parameter should be set to **$true** to use a home site as the default landing experience. 
@@ -229,13 +229,14 @@ Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in th
 
 **To set the default landing to the home site:**
 
-Set-SPOHomeSite-HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true
+`Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true`
 
 **To set the default landing to the new Viva Connections home experience:**
 
-Set-SPOHomeSite-HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false
+`Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false`
 
-
+>[!NOTE]
+> It may take up to 15 minutes to see the updated default landing experience.
 
 ## Learn more
 

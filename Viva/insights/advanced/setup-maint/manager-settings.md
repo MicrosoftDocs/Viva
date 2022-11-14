@@ -47,7 +47,7 @@ Insights admins can access **Manager settings**. Before managers can access Vi
 
 3. In **Minimum team size**, you can change the minimum to a number more than 10 (the lowest allowed setting). This setting limits access to only those managers who have teams equal to or more than that number, which includes the manager in the team count.
 
-![Screenshot that shows Set team size option.](../images/manager-settings-set-min-team-size.png)
+    ![Screenshot that shows Set team size option.](../images/manager-settings-set-min-team-size.png)
 
 4. Select **Save**.
 
