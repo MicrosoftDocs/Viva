@@ -38,15 +38,24 @@ Before you can use this integration, you’ll need to:
     1. For **Microsoft Graph workload**, select **Data Connect**. 
     1. In **Justification for TAP entry**, enter what partner data you want to integrate with Viva Insights data through a Microsoft Graph API.
 2. Set up a test Azure environment to build your solution within your Microsoft 365 developer environment. Go to [Create your free Azure account today](https://azure.microsoft.com/free/) and select **Start free** to get started. You can access sample data after you set up this test environment.
-3. Create an Azure Data Lake Storage (ADLS) Gen 2 Storage account resource. This account is where we deliver the final data drop to your tenant. 
+3. Create an Azure Data Lake Storage Gen 2 Storage account resource. This account is where we deliver the final data drop to your tenant. 
     1. On the Advanced tab, select **Enable hierarchical namespace**.
 1. Register a new application on the partner tenant:
     1. Select **Azure Active Directory**. 
     1. Go to the **Application registrations** blade and select **App registrations**, then **New registration**. 
     1. Provide a name for your application, set the application to be multi-tenant, leave the other settings on the defaults, then select **Register**. Learn how to configure multitenancy in [Making your application multi-tenant](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant).
-5.	Create an Azure Key Vault. You’ll store per-tenant encryption keys here, in the **Keys** section.
+ 
+    >[!Note]
+    > Reach out to the Microsoft Viva Insights team after you create your application registration. We need to add your application's client ID to our internal allow-list before you can start extractions.   
+
+5.	Create an Azure Key Vault. You’ll store per-tenant encryption keys here, in the **Keys** section. After creating the Key Vault, you'll need to configure these Key Vault settings:
     1. On the **Access Policies** page, select **Azure role-based access control** as the **Permission model**.
-    1. For each customer tenant extraction, create a key and make the name the customer tenant GUID. Make sure each key is unique—that is, you can’t repeat the same key for two different tenants. Learn more about keys in [About keys](/azure/key-vault/keys/about-keys). We provide details in the FAQ <!--link--> about how to import externally generated keys.
+    1. After creating the Key Vault, go the **Access control (IAM)** page:
+        1. Select **Add**, then **Add role assignment**. 
+        1. Select **Key Vault Crypto User**, then select **Next**. 
+        1. Select **User, group, or service principal**, then **Select Members**.
+        1. Enter the name of the app registration you created in step 4, then finish the role assignment. 
+    1. For each customer tenant extraction, generate a RSA 2048 key and make the name the customer tenant GUID. If you prefer to generate your own keys externally from Azure Key Vault, we provide details in the [FAQ](#q6-can-i-create-a-customer-keys-externally-and-import-them-into-azure-key-vault) about how to import externally generated keys. Make sure each key is unique—that is, you can’t repeat the same key for two different tenants. Learn more about keys in [About keys](/azure/key-vault/keys/about-keys). 
     1. Make sure the key has a valid expiration date. 
     
     When you fill out the Microsoft Graph Data Connect Application Preview Registration form in the next step, you’ll provide the Azure Key Vault’s URI found in the **Overview** page. All Viva Insights data will be returned encrypted. For more details, refer to this document’s [Customer onboarding](#customer-onboarding) and [Encryption and compression](#encryption-and-compression) sections.
@@ -72,7 +81,7 @@ Before you can use this integration, you’ll need to:
 >[!Note]
 >While private preview is still in effect, Microsoft Graph Data Connect (MGDC) needs to explicitly enable the new MGDC admin center experiences for cross-tenant data movement for *each* customer tenant. For each new customer you onboard, send their tenant ID to dataconnect@microsoft.com. 
 
-As detailed earlier in step 5a, you need to generate a unique RSA-2048 key pair for each customer to extract customer data. Your application can securely generate and store RSA-2048 certificates (containing key pairs) by using [Azure Key Vault](/azure/key-vault) or a custom solution.
+As detailed earlier in step 5a, you need to generate a unique RSA-2048 key pair for each customer to extract customer data. Your application can securely generate and store RSA-2048 certificates (containing key pairs) by using [Azure Key Vault](/azure/key-vault) or a custom solution. For details on how to programmatically generate and store key pairs, refer to [Programmatic configuration](#programmatic-configuration).
 
 >[!IMPORTANT] 
 >Don’t reuse certificates for multiple customers. Duplicate keys will be rejected as a security risk.
@@ -93,7 +102,7 @@ The customer needs to consent to your application before data extraction can beg
 
 This integration moves behavioral analytics data between Azure and your partner application through an [Azure Data Factory pipeline](/azure/data-factory/concepts-pipelines-activities?tabs=data-factory). We built a [sample Data Factory Pipeline template](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) that you  can edit and deploy to your Azure subscription. After you add your parameters, this template configures the pipeline.
 
-After it’s deployed to your subscription, the pipeline extracts data from Microsoft 365 to the ADLS Gen 2 Storage account owned by your application. We recommend that you create a separate container for each customer’s data, using their Azure Active Directory tenant ID as the name.
+After it’s deployed to your subscription, the pipeline extracts data from Microsoft 365 to the Azure Data Lake Storage Gen 2 Storage account owned by your application. We recommend that you create a separate container for each customer’s data, using their Azure Active Directory tenant ID as the name.
 
 If you want, you can add an extra step to your pipeline that notifies your external application new data is available for processing. We explain how to do this [later](#process-analytics-data).
 
@@ -115,16 +124,20 @@ To use this integration, here’s what you’ll need to do.
         * The **App Id** is the ID you received when you registered the app in [Prerequisites](#prerequisites).  
         * The **App Secret** is the secret generated in step 2 above.
         * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant ID of the customer whose data needs to be extracted.
+![Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)](/viva/insights/advanced/images/custom-deployment.png)
+
     1. Select **Review + create**.
-    ![Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)](/viva/insights/advanced/images/custom-deployment.png)
+>[!Note] 
+>To deploy the template programmatically, follow the directions in Programmatic configuration.
+
 
 <!--replace image-->
 
 ### Access customer data from the data drop
 
 4. Viva Insights generates an encryption key. Refer to [Encryption and compression](#encryption-and-compression) for details.
-1. Begin your MGDC data extraction by triggering the pipeline. You’ll receive the encrypted customer data in the storage account that you configured as the destination. To trigger the pipeline *manually*, follow the instructions below. To trigger the pipeline *programmatically*, follow the instructions in Programmatic configuration. <!--add link-->
-    1. Go to the Azure Data Factory Pipeline resource, and select **Launch Studio** in the Overview tab. 
+1. Begin your MGDC data extraction by triggering the pipeline. You’ll receive the encrypted customer data in the storage account that you configured as the destination. To trigger the pipeline *manually*, follow the instructions below. To trigger the pipeline *programmatically*, follow the instructions in [Programmatic configuration](#programmatic-configuration). 
+    1. Go to the Azure Data Factory Pipeline resource, and select **Launch Studio** in the **Overview** tab. 
     1. In the left side panel, select the **Author** tab (pencil icon). Under **Pipelines**, select **ExportO365DataEvents**.
     1. Select **Debug** to run the pipeline. 
 1. Your application needs to reverse the encryption and compression process to access the original data. To access the customer data from the data drop:
@@ -198,7 +211,7 @@ Here are a couple of best practices for storing customer data:
 
 ### Pipeline
 
-#### Cadence and configuration
+#### Cadence 
 
 Viva Insights processes behavioral analytics data once a week. You can run your pipeline more frequently than weekly, but you’ll get the same output until the following week. 
 
@@ -206,7 +219,11 @@ The sample Azure Data Factory pipeline we provide on GitHub includes a [trigger]
 
 #### Programmatic configuration
 
-##### Deploy
+##### Generate and store RSA keys
+
+To programmatically generate RSA Keys, refer to the [Create Key REST API](/rest/api/keyvault/keys/create-key/create-key) (or the [C#](/api/azure.security.keyvault.keys.keyclient.creatersakey) or [Java SDK](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-security-keyvault-keys/4.2.3/index.html) methods). This method also stores the RSA into the specified Key Vault.
+
+###### Deploy
 
 To programmatically deploy the ARM template, here’s what you need to do. For more information, refer to [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).
 
@@ -242,7 +259,7 @@ The analytics data includes the Azure Active Directory Object ID of each user th
 
 If you don’t have this access, you can export directory information and correlate it with a common field by following these steps:
 
-1.	Configure your Azure Data Factory pipeline to add an additional step to export Azure Active Directory user data. This step is provided, but marked as **OPTIONAL**, in our sample pipeline on GitHub. Adding this step creates an additional output file from your pipeline that includes basic information about each user in the customer’s tenant.
+1.	Configure your Data Factory pipeline to add an additional step to export Azure Active Directory user data. This step is provided, but marked as **OPTIONAL**, in our sample pipeline on GitHub. Adding this step creates an additional output file from your pipeline that includes basic information about each user in the customer’s tenant.
 2.	Use this output from step 1 correlate user information between Azure and your application with a join of a common field, such as e-mail address. Refer to the Microsoft Graph Data Connect documentation for details on the [user schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/User_v1.md) and a [sample of the output](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/BasicDataSet_v0.User_v1.json).
 
 ### Process analytics data
@@ -380,7 +397,9 @@ Before you can use this integration, you’ll need to:
 In the admin portal (admin.microsoft.com), under **Microsoft Graph Data Connect** settings, you'll select the option to enable **Viva Insights dataset** and **Cross-Tenant data movement**. This link takes you into the Microsoft Graph Data Connect settings page in the admin portal:
 https://admin.microsoft.com/Adminportal/Home#/Settings/Services/:/Settings/L1/O365DataPlan.
  
-#### Approve a partner's MGDC application
+ ![Screenshot that shows the MGDC admin center with Add new multi-tenant app option highlighted.](/viva/insights/advanced/images/mgdc-admin-center.png)
+
+#### Approve a partner's Microsoft Graph Data Connect application
 
 To review the application, you'll either need a direct link from the partner or the partner’s app details (partner app registration tenant ID and partner application ID). 
 
