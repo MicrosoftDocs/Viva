@@ -24,14 +24,14 @@ Use **Meeting category insights** in **Effective meetings** to help understand h
 >[!Note]
 >To set up Outlook meeting categories, refer to [Assign a color category to a calendar appointment, meeting, or event (microsoft.com)](https://support.microsoft.com/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527).
   
-In this section, you'll find three types of insights:
+In this section, you'll find three types of insights, which are based on meetings  you organized, meetings you accepted, and your appointments:
 
 * **Percentage breakdown**: The percentage of total meeting hours you spend in each meeting category.
-![Screenshot that shows the Meeting category insights page.](Images/meeting-category-insights.png)
+![Screenshot that shows meeting category insights.](Images/meeting-percentage-breakdown.png)
 * **Meeting trends**: How the time you spend in each meeting category has changed.
-
+![Screenshot that shows meeting trends.](Images/meeting-trends1.png)
 * **Meeting details**: All your meetings in a list, which includes **Category**, **Total time spent**, **Cadence**, and **Duration**.
-
+![Screenshot that shows meeting details.](Images/meeting-details.png)
 
 
 
@@ -39,11 +39,7 @@ You can customize what you see here. If you want to:
 
 * Analyze a specific category, select it from the checklist to the left.
 
-    ![Screenshot that shows one category selected.](Images/meeting-category-insights-customer-meetings.png)
-
 * Pick a specific timeframe, use the dropdown menu in the top-right. You can choose from **Last 3 months**, **Last 4 weeks**, or **Next 4 weeks**.
-
-    ![Screenshot that shows the time frame dropdown list.](Images/meeting-category-insights-time-frame.png)
 
 >[!Important]
 >If you haven’t categorized any meetings between the last three months and next four weeks, these insights won’t be available to you. However, you’ll have access to them after you categorize any meeting within this time period, as long as you have a Viva Insights subscription.
