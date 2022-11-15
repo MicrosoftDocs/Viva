@@ -66,7 +66,7 @@ Balance productivity and well-being – Provides data-driven, privacy-protected 
 
 [Overview](/viva/insights/introduction)
 
-[Learn how to set it up](/viva/insights/advanced/setup-maint/setup-overview.md)
+[Learn how to set it up](/viva/insights/advanced/setup-maint/setup-overview)
 
 **Viva Topics**
 
