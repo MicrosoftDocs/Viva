@@ -30,7 +30,7 @@ Viva Goals supports integrations with Microsoft and third-party apps and platfor
 
 Viva Goals supports two types of integrations, which are discussed in further detail below: data integrations and collaboration integrations. Additionally, integrations can be grouped into three different categories: 
 
-1. In-Boundary M365 Integrations: In-boundary M365 integrations, such as Microsoft Teams, process all data within the M365 service boundary.  
+1. In-Boundary Microsoft 365 Integrations: In-boundary Microsoft 365 integrations, such as Microsoft Teams, process all data within the Microsoft 365 service boundary.  
 
 1. Cross-Boundary Integrations: Cross-boundary integrations, such as Azure Data Explorer, process data between different Microsoft service boundaries utilizing Microsoft APIs.   
 
@@ -48,9 +48,9 @@ The table below shows which type of integrations are supported, their category, 
 |Box      |Third-party |Data |https://www.box.com/legal/  |
 |Domo       |Third-party |Data |https://www.domo.com/company/service-terms |
 |Dynamics      |Cross-boundary Microsoft |Data |https://www.microsoft.com/licensing/terms |
-|Excel Online       |In-boundary M365 |Data |https://www.microsoft.com/licensing/terms |
+|Excel Online       |In-boundary Microsoft 365 |Data |https://www.microsoft.com/licensing/terms |
 |Favro      |Third-party |Data |https://help.favro.com/en/collections/362206-pricing-privacy-and-terms |
-|Github      |Third-party |Data |https://docs.github.com/en/site-policy |
+|GitHub      |Third-party |Data |https://docs.github.com/en/site-policy |
 |GitLab      |Third-party |Data |https://about.gitlab.com/terms/ |
 |Google Sheets       |Third-party |Data |https://cloud.google.com/product-terms/ |
 |HubSpot      |Third-party |Data |https://legal.hubspot.com/terms-of-service |
@@ -60,16 +60,16 @@ The table below shows which type of integrations are supported, their category, 
 |Monday.com      |Third-party |Data |https://monday.com/l/ |
 |MS SQL     |Cross-boundary Microsoft |Data |https://www.microsoft.com/licensing/terms |
 |MySQL      |Third-party|Data |https://www.mysql.com/about/legal/ |
-|Planner      |In-boundary M365 |Data |https://www.microsoft.com/licensing/terms |
+|Planner      |In-boundary Microsoft 365 |Data |https://www.microsoft.com/licensing/terms |
 |PostgresSQL      |Third-party |Data |https://www.postgresql.org/about/policies/ |
-|PowerBI      |Cross-boundary Microsoft |Data |https://www.microsoft.com/licensing/terms |
+|Power BI      |Cross-boundary Microsoft |Data |https://www.microsoft.com/licensing/terms |
 |ProjectPlace      |Third-party |Data |https://www.planview.com/legal/legal-terms/ |
 |Salesforce      |Third-party |Data |https://www.salesforce.com/company/legal/ |
 |Smartsheet      |Third-party |Data |https://www.smartsheet.com/legal |
 |Slack      |Third-party |Collaboration|https://slack.com/legal |
 |Snowflake      |Third-party |Data |https://www.snowflake.com/legal |
 |Tableau      |Third-party |Data |https://www.tableau.com/legal |
-|Teams|In-boundary M365 |Collaboration|https://www.microsoft.com/licensing/terms |
+|Teams|In-boundary Microsoft 365 |Collaboration|https://www.microsoft.com/licensing/terms |
 |Trello|Third-party|Data  |https://www.atlassian.com/legal/cloud-terms-of-service |
 |Zendesk|Third-party|Data  |https://www.zendesk.com/company/agreements-and-terms  |
 |Zapier|Third-party|Data  |https://zapier.com/legal |
@@ -90,6 +90,6 @@ Collaboration integrations enable users to complete their work in Viva Goals fro
 
 Control over whether Viva Goals is allowed to be installed in the collaboration platform is exercised at the tenant level via administrative tools provided by the platform. For example, the Viva Goals app can be blocked at the tenant level in the Teams Admin Center. 
 
-If enabled by the tenant administrator and organizational administrator, users can install Viva Goals as an application from app stores in these collaboration applications, such as the Microsoft Teams store. Once installed, in addition to viewing Viva Goals within the collaboration application, Viva Goals leverages the chat, notification and meeting capabilities of the collaboration platform to have conversations about goals.  
+If enabled by the tenant administrator and organizational administrator, users can install Viva Goals as an application from app stores in these collaboration applications, such as the Microsoft Teams store. Once installed, in addition to viewing Viva Goals within the collaboration application, Viva Goals uses the chat, notification and meeting capabilities of the collaboration platform to have conversations about goals.  
 
 For example, in a Teams chat or channel, a user can search for a goal and ask a question about it. Other users can then respond and react, and Viva Goals can synchronize this comment thread back to the OKR’s activity feed in Viva Goals. This means that data from Viva Goals can be shared to Teams and other collaboration integrations. 
