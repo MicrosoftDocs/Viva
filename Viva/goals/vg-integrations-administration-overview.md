@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn about integration administration with Viva Goals."
 ---
 
-# Viva Goals integrations overview
+# Viva Goals Integrations Administration Overview 
 
 Viva Goals supports integrations with Microsoft and third-party apps and platforms so that the OKR implementation process is as simple, effective, and seamless as possible.   
 
