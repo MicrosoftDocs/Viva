@@ -53,7 +53,7 @@ Before you can use this integration, you’ll need to:
 
     1. Provide a name for your application, set the application to be multi-tenant, leave the other settings on the defaults, then select **Register**. Learn how to configure multitenancy in [Making your application multi-tenant](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant).
  
-    >[!Note]
+    > [!Note]
     > Reach out to the Microsoft Viva Insights team at VivaInsightsDataEgress@service.microsoft.com after you create your application registration. We need to add your application's client ID to our internal allow-list before you can start extractions.
 
 5.	Create an Azure Key Vault. You’ll store per-tenant encryption keys here, in the **Keys** section. After creating the Key Vault, you'll need to configure these Key Vault settings:
