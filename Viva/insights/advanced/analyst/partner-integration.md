@@ -486,11 +486,11 @@ To approve a partner’s request:
 
     1. **Review**: After taking another look at the app publisher and the data destination, **Approve** or **Decline** the application to extract the requested datasets. Your approval or denial isn't committed until you select the **Approve** or **Decline** button. If you approve, your approval remains valid for the next 180 days.
     
-        :::image type="content" source="/viva/insights/advanced/images/partner-integration-app-details3.png" alt-text="Screenshot that shows the app Review screen with the Approve button highlighted.]":::
+        :::image type="content" source="/viva/insights/advanced/images/partner-integration-app-details3.png" alt-text="Screenshot that shows the app Review screen with the Approve button highlighted.":::
 
 3.	If you approved, return to the MGDC admin center landing page. The app you just approved should appear in the summary table.
 
-    :::image type="content" source="/viva/insights/advanced/images/partner-integration-mgdcac-summary.png" alt-text="Screenshot that shows the app Review screen with the Approve button highlighted.]":::
+    :::image type="content" source="/viva/insights/advanced/images/partner-integration-mgdcac-summary.png" alt-text="Screenshot that shows the app Review screen with the Approve button highlighted.":::
 
 
 ## Related topics
