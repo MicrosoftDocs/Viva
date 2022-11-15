@@ -3,7 +3,7 @@ title: Add the Viva Goals app to Microsoft Teams
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -137,8 +137,10 @@ If the initial Viva Goals setup is not complete, you may receive the following m
 
 1. Log on to Viva Goals portal i.e. https://goals.microsoft.com
 
-1. Create an organization in the Goals portal (https://learn.microsoft.com/en-us/viva/goals/log-in-create-and-join-organizations) 
+1. [Create an organization](log-in-create-and-join-organizations.md) in the Goals portal  
 
-1. Invite Users to the Viva Goals. (https://learn.microsoft.com/en-us/viva/goals/inviting-and-removing-a-user)
+1. [Invite Users](inviting-and-removing-a-user.md) to the Viva Goals. 
 
-1. Create teams and assign users to them. 5. Create Organization's OKR (https://learn.microsoft.com/en-us/viva/goals/creating-okrs)
+1. Create teams and assign users to them. 
+
+1. [Create Organization's OKR ](creating-okrs.md)
