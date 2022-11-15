@@ -34,39 +34,59 @@ Viva Insights calculates metrics based on Exchange Online mailbox data, like ema
 
 Before you can use this integration, you’ll need to:
 
-1. Complete [the program form](https://aka.ms/GraphTAPForm) to join the Microsoft Graph TAP partner program. Joining the program gives you access to the Azure APIs you use to access Viva Insights. In the form, include these details: 
-    1. For **Microsoft Graph workload**, select **Data Connect**. 
+1. Complete [the program form](https://aka.ms/GraphTAPForm) to join the Microsoft Graph TAP partner program. Joining the program gives you access to the Azure APIs you use to access Viva Insights. In the form, include these details:
+
+    1. For **Microsoft Graph workload**, select **Data Connect**.
+     
     1. In **Justification for TAP entry**, enter what partner data you want to integrate with Viva Insights data through a Microsoft Graph API.
-2. Set up a test Azure environment to build your solution within your Microsoft 365 developer environment. Go to [Create your free Azure account today](https://azure.microsoft.com/free/) and select **Start free** to get started. You can access sample data after you set up this test environment.
-3. Create an Azure Data Lake Storage Gen 2 Storage account resource. This account is where we deliver the final data drop to your tenant. 
+
+1. Set up a test Azure environment to build your solution within your Microsoft 365 developer environment. Go to [Create your free Azure account today](https://azure.microsoft.com/free/) and select **Start free** to get started. You can access sample data after you set up this test environment.
+
+1. Create an Azure Data Lake Storage Gen 2 Storage account resource. This account is where we deliver the final data drop to your tenant. 
     1. On the Advanced tab, select **Enable hierarchical namespace**.
+
 1. Register a new application on the partner tenant:
+
     1. Select **Azure Active Directory**. 
+
     1. Go to the **Application registrations** blade and select **App registrations**, then **New registration**. 
+
     1. Provide a name for your application, set the application to be multi-tenant, leave the other settings on the defaults, then select **Register**. Learn how to configure multitenancy in [Making your application multi-tenant](/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#update-registration-to-be-multi-tenant).
  
     >[!Note]
     > Reach out to the Microsoft Viva Insights team at VivaInsightsDataEgress@service.microsoft.com after you create your application registration. We need to add your application's client ID to our internal allow-list before you can start extractions.
 
 5.	Create an Azure Key Vault. You’ll store per-tenant encryption keys here, in the **Keys** section. After creating the Key Vault, you'll need to configure these Key Vault settings:
+
     1. On the **Access Policies** page, select **Azure role-based access control** as the **Permission model**.
+
     1. After creating the Key Vault, go the **Access control (IAM)** page:
-        1. Select **Add**, then **Add role assignment**. 
-        1. Select **Key Vault Crypto User**, then select **Next**. 
+        1. Select **Add**, then **Add role assignment**.
+
+        1. Select **Key Vault Crypto User**, then select **Next**.
+
         1. Select **User, group, or service principal**, then **Select Members**.
-        1. Enter the name of the app registration you created in step 4, then finish the role assignment. 
-    1. For each customer tenant extraction, generate a RSA 2048 key and make the name the customer tenant GUID. If you prefer to generate your own keys externally from Azure Key Vault, we provide details in the [FAQ](#q6-can-i-create-a-customer-keys-externally-and-import-them-into-azure-key-vault) about how to import externally generated keys. Make sure each key is unique—that is, you can’t repeat the same key for two different tenants. Learn more about keys in [About keys](/azure/key-vault/keys/about-keys). 
+
+        1. Enter the name of the app registration you created in step 4, then finish the role assignment.
+
+    1. For each customer tenant extraction, generate an RSA 2048 key and make the name the customer tenant GUID. If you prefer to generate your own keys externally from Azure Key Vault, we provide details in the [FAQ](#q6-can-i-create-customer-keys-externally-and-import-them-into-azure-key-vault) about how to import externally generated keys. Make sure each key is unique—that is, you can’t repeat the same key for two different tenants. Learn more about keys in [About keys](/azure/key-vault/keys/about-keys). 
+
     1. Make sure the key has a valid expiration date. 
     
     >[!Note]
     > If no expiration date is set for your key, the pipeline will fail.
 
     When you fill out the Microsoft Graph Data Connect Application Preview Registration form in the next step, you’ll provide the Azure Key Vault’s URI found in the **Overview** page. All Viva Insights data will be returned encrypted. For more details, refer to this document’s [Customer onboarding](#customer-onboarding) and [Encryption and compression](#encryption-and-compression) sections.
+
 6.	Fill out the [Microsoft Graph Data Connect Application Preview Registration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-mfqDTQy0ZMj1EdmSbUSwxUOUwyOEVWMkxCTTFTTlVXS1JDQ0xEMjVDUyQlQCN0PWcu).
     1. For question 2, **Organization Type**, select **ISV (Independent Software Vendor)**.
+
     1. Fill out question 12, **Azure Key Vault URL**, with the Azure Key Vault URL generated earlier (**SourceLinkedService**).
+    
     1. For question 13, **Microsoft Graph Data Connect datasets requested**, select the following:
+
         1. **BasicDataSet_v0.User_v1**
+
         1. **VivaInsightsDataset_PersonReport_v1**
         
         *Skip to question 57.*
@@ -76,7 +96,9 @@ Before you can use this integration, you’ll need to:
         *Skip to question 60.*
 
     1. On question 60, **VivaInsightsDataset_PersonReport_v1 dataset columns**, select the **All metrics** checkbox.
+
     1. Complete and submit the form.
+    
 1.	Complete customer onboarding as described in the following section.
 
 #### Customer onboarding
@@ -99,7 +121,7 @@ The customer needs to consent to your application before data extraction can beg
     >[!Note]
     >This link is the same for all customers.
 
-* **Tenant and application ID:** Share the partner application’s tenant ID and partner application ID with the customer. They’ll then search for your application manually through the Microsoft Graph Data Connect admin center and add a new multi-tenant app. Customers can refer to [Approve a partner's Microsoft Graph Data Connect application](#approve-a-partners-microsoft-graph-data-connect-application)later in this article for detailed instructions on adding an app through its ID.
+* **Tenant and application ID:** Share the partner application’s tenant ID and partner application ID with the customer. They’ll then search for your application manually through the Microsoft Graph Data Connect admin center and add a new multi-tenant app. Customers can refer to [Approve a partner's Microsoft Graph Data Connect application](#approve-a-partners-microsoft-graph-data-connect-application) later in this article for detailed instructions on adding an app through its ID.
 
 ## Process
 
@@ -118,14 +140,23 @@ To use this integration, here’s what you’ll need to do.
 #### Edit the template, provision a client secret, and deploy the template
 
 1.	Edit the sample [Azure Data Factory pipeline template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction/mainTemplateV1.json) (also known as an Azure Resource Manager [ARM] template) from GitHub for your specific use case. This template defines the Azure Data Factory pipeline and associated resources that will be deployed to Azure, in your Azure subscription, to move data to your subscription.
+
 1. Provision a client secret for the application you created [earlier](#prerequisites). Store the secret in the Azure Key Vault you made earlier, unless you’re using a custom solution. 
+
 1.	On your Azure subscription, deploy the template:
+
     1. In the Azure portal, select **Deploy a custom template**.
+    
     1. Select **Build your own template** in the editor and copy the contents of the sample template we provide on GitHub.
+    
     1. Select a **Resource group** and **Region** to deploy to.
+    
     1. Provide values for the parameters specified in the template:
+
         * The **App Id** is the ID you received when you registered the app in [Prerequisites](#prerequisites).  
+
         * The **App Secret** is the secret generated in step 2 above.
+
         * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant ID of the customer whose data needs to be extracted.
 ![Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)](/viva/insights/advanced/images/custom-deployment.png)
 
@@ -139,14 +170,22 @@ To use this integration, here’s what you’ll need to do.
 ### Access customer data from the data drop
 
 4. Viva Insights generates an encryption key. Refer to [Encryption and compression](#encryption-and-compression) for details.
+
 1. Begin your MGDC data extraction by triggering the pipeline. You’ll receive the encrypted customer data in the storage account that you configured as the destination. To trigger the pipeline *manually*, follow the instructions below. To trigger the pipeline *programmatically*, follow the instructions in [Programmatic configuration](#programmatic-configuration). 
+
     1. Go to the Azure Data Factory pipeline resource, and select **Launch Studio** in the **Overview** tab. 
+    
     1. In the left side panel, select the **Author** tab (pencil icon). Under **Pipelines**, select **ExportO365DataEvents**.
     1. Select **Debug** to run the pipeline. 
+    
 1. Your application needs to reverse the encryption and compression process to access the original data. To access the customer data from the data drop:
+
     1. Get the file decryption key from the extraction metadata.
+
     1. Decrypt the encryption key with the partner-customer private key, which is provided in the Azure Key Vault.
+
     1. Decrypt the entire file with the file encryption key. (Here's a [C# sample](/dotnet/api/system.security.cryptography.aes).)
+    
     1. Decompress the entire file to get the extracted data. (Here's a [C# sample](/dotnet/api/system.io.compression.gzipstream).)
 
 >[!Note]
@@ -231,8 +270,11 @@ To programmatically generate RSA Keys, refer to the [Create Key REST API](/rest/
 To programmatically deploy the pipeline, here’s what you need to do. For more information, refer to [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).
 
 1.	Make sure you have a resource group to be used for the deployment. This group can be the same resource group you created in [Prerequisites](#prerequisites), step 2a.
+
 2.	Create a **PUT** request to this endpoint:  `https://management.azure.com/subscriptions/<YourSubscriptionId>/resourcegroups/<YourResourceGroupName>?api-version=2020-06-01`
+
 3.	Include the pipeline in the Request Body as shown in [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).  
+
 4.	Add the Azure Access Token as a Bearer token. 
 
 >[!Note]
@@ -248,7 +290,9 @@ To programmatically run the pipeline, here’s what you need to do. For more inf
 
 1.	Create a **POST** request to this endpoint: 
     `https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelines/{pipelineName}/createRun?api-version=2018-06-01` 
+
 2.	Populate the Request Body with the relevant parameters.
+
 3.	Submit the request.  
 
 
@@ -266,6 +310,7 @@ The analytics data includes the Azure Active Directory Object ID of each user th
 If you don’t have this access, you can export directory information and correlate it with a common field by following these steps:
 
 1.	Configure your Azure Data Factory pipeline to add an additional step to export Azure Active Directory user data. This step is provided, but marked as **OPTIONAL**, in our sample pipeline on GitHub. Adding this step creates an additional output file from your pipeline that includes basic information about each user in the customer’s tenant.
+
 2.	Use this output from step 1 correlate user information between Azure and your application with a join of a common field, such as e-mail address. Refer to the Microsoft Graph Data Connect documentation for details on the [user schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/User_v1.md) and a [sample of the output](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/BasicDataSet_v0.User_v1.json).
 
 ### Process analytics data
@@ -296,9 +341,11 @@ We list applicable metrics in [Advanced insights metrics](../reference/metrics.m
 
 To quickly prototype an application built on the Viva Insights integration, you can use sample data to simulate a data drop received from a customer. To do so:
 
-1.	Upload [Viva Insights sample data](https://raw.githubusercontent.com/niblak/dataconnect-solutions/vivaarmtemplates/sampledatasets/VivaInsightsDataset_v1.json) to a storage account in your test environment. Refer to [How to upload data to Azure](/azure/storage/blobs/storage-quickstart-blobs-portal) for further details. 
+1.	Upload [Viva Insights sample data](https://raw.githubusercontent.com/niblak/dataconnect-solutions/vivaarmtemplates/sampledatasets/VivaInsightsDataset_v1.json) to a storage account in your test environment. Refer to [How to upload data to Azure](/azure/storage/blobs/storage-quickstart-blobs-portal) for further details.
+
 2.	Build your application to retrieve the behavioral analytics data:
     1. Download the data from your Azure Storage Account. To download this data, you can use the [SDK](/azure/storage/blobs/storage-quickstart-blobs-dotnet) or the [REST API](/rest/api/storageservices/).
+
     1. Ingest the data into your partner application. Steps vary based on what your application requires.
 
 ## FAQ
@@ -336,7 +383,8 @@ A5. Yes. We’ve provided the documentation for each approach here:
 
 **PowerShell:**
 
-1.	Sign in to your Azure account in PowerShell using Az Login.  
+1.	Sign in to your Azure account in PowerShell using Az Login. 
+
 1.	Run this command:      `New-AzResourceGroupDeployment -ResourceGroupName <resource-group-name> -TemplateFile <path-to-template> `
 
     >[!Note]
@@ -352,18 +400,21 @@ You can use the information in this article to deploy any kind of ARM template t
 
 The sample shown in the following GitHub repository provides a guide for deploying ARM templates through Java: https://github.com/Azure-Samples/resources-java-deploy-using-arm-template-with-progress.
 
-### Q6. Can I create a customer keys externally and import them into Azure Key Vault?
+### Q6. Can I create customer keys externally and import them into Azure Key Vault?
 
 Yes. Here’s what you need to do. For more information, refer to [Import Key](/rest/api/keyvault/keys/import-key/import-key).
 
 1.	Make sure you have an RSA key and an Azure Key Vault resource. You created the Key Vault resource in [Prerequisites](#prerequisites), step 5.
+
 1.	Install OpenSSL locally.
+
 1.	Run this command in PowerShell or the command line: `openssl rsa -in .\CustomerKey.rsa -text -noout` 
+
 1.	From the output of that command, fetch and map each of the output variables to the input parameters for the Import Key API. Here’s how that mapping should look:
 
 |Output variable from the OpenSSL command|Input parameter to API|
 |---|---|
-|kty <br><br><sup>See note</br>|"RSA" 
+|kty <br><br><sup>Note that this is not from the OpenSSL command and should always be “RSA.”</br>|"RSA" 
 modulus| n (remove leading 00) 
 e| AQAB 
 Private Exponent| d
@@ -373,9 +424,9 @@ Exponent 1|DP
 Exponent 2|DQ 
 Coefficient| QI 
 
-<sup>Note: This is not from the OpenSSL command and should always be “RSA.”
 
 5. Convert each of the parameters to use Base-64 encoding. Either use a Base-64 encoder directly, or convert the hex bytes to a byte array and then to Base-64. For more information, refer to [Convert.ToBase64String Method](/dotnet/api/system.convert.tobase64string).
+
 1. Run the [Import Key API](/rest/api/keyvault/keys/decrypt/decrypt).
 
 
@@ -403,6 +454,8 @@ Before you can use this integration, you’ll need to:
 In the admin portal (admin.microsoft.com), under **Microsoft Graph Data Connect** settings, you'll select the option to enable **Viva Insights dataset** and **Cross-Tenant data movement**. This link takes you into the Microsoft Graph Data Connect settings page in the admin portal:
 https://admin.microsoft.com/Adminportal/Home#/Settings/Services/:/Settings/L1/O365DataPlan.
  
+:::image type="content" source="/viva/insights/advanced/images/mgdc-admin-center.png" alt-text="text":::
+
  ![Screenshot that shows the MGDC admin center with Add new multi-tenant app option highlighted.](/viva/insights/advanced/images/mgdc-admin-center.png)
 
 #### Approve a partner's Microsoft Graph Data Connect application
@@ -412,19 +465,29 @@ To review the application, you'll either need a direct link from the partner or 
 To approve a partner’s request:
 
 1. Find the partner’s MGDC application. You can find it in one of two ways:
+
     1. Option 1: Use the direct link the partner provided.
+
     1. Option 2: Search for the partner’s MGDC application manually using the partner app registration tenant ID and partner application ID. 
+
         1. Go to the MGDC admin center: https://admin.microsoft.com/Adminportal/Home#/Settings/MGDCAdminCenter.
+        
         1. Select **Add new multi-tenant app**.
             ![Screenshot that shows the MGDC admin center with Add new multi-tenant app option highlighted.](/viva/insights/advanced/images/partner-integration-mgdcac.png)
+
         1. Enter the app registration information that the partner gave you, then select **Find**. 
 1. Approve the app by going through each screen: **Overview**, **Datasets**, and **Review**. Carefully review the information on each screen before selecting **Next**.
+
     1. **Overview**: Review information about the application and data destination.
-    ![Screenshot that shows the app Overview screen with the Next button highlighted.](/viva/insights/advanced/images/partner-integration-app-details1.png)
+    :::image type="content" source="/viva/insights/advanced/images/partner-integration-app-details1.png" alt-text="Screenshot that shows the app Overview screen with the Next button highlighted.":::
+    
+
     1. **Datasets**: Review details about which datasets and columns the application wants to extract. Your approval only allows the application to extract the datasets and columns specified here. Make sure you’re fully reviewing each dataset; for each dataset, expand the list of columns the application is requesting to extract.
     ![Screenshot that shows the app Datasets screen with the expand/collapse buttons highlighted and the Next button highlighted.](/viva/insights/advanced/images/partner-integration-app-details2.png)
+
     1. **Review**: After taking another look at the app publisher and the data destination, **Approve** or **Decline** the application to extract the requested datasets. Your approval or denial isn't committed until you select the **Approve** or **Decline** button. If you approve, your approval remains valid for the next 180 days.
     ![Screenshot that shows the app Review screen with the Approve button highlighted.](/viva/insights/advanced/images/partner-integration-app-details3.png)
+
 3.	If you approved, return to the MGDC admin center landing page. The app you just approved should appear in the summary table.
     ![Screenshot that shows the app Review screen with the Approve button highlighted.](/viva/insights/advanced/images/partner-integration-mgdcac-summary.png)
 
