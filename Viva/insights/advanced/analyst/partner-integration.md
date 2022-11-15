@@ -471,7 +471,8 @@ To approve a partner’s request:
         1. Go to the MGDC admin center: https://admin.microsoft.com/Adminportal/Home#/Settings/MGDCAdminCenter.
         
         1. Select **Add new multi-tenant app**.
-            :::image type="content" source="/viva/insights/advanced/images/mgdc-admin-center.png" alt-text="Screenshot that shows the MGDC admin center with Add new multi-tenant app option highlighted.":::
+        
+            :::image type="content" source="\viva\insights\advanced\images\partner-integration-mgdcac.png" alt-text="Screenshot that shows the MGDC admin center with Add new multi-tenant app option highlighted.":::
 
         1. Enter the app registration information that the partner gave you, then select **Find**. 
 1. Approve the app by going through each screen: **Overview**, **Datasets**, and **Review**. Carefully review the information on each screen before selecting **Next**.
