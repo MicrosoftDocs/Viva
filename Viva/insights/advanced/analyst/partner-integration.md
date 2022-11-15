@@ -454,9 +454,7 @@ Before you can use this integration, you’ll need to:
 In the admin portal (admin.microsoft.com), under **Microsoft Graph Data Connect** settings, you'll select the option to enable **Viva Insights dataset** and **Cross-Tenant data movement**. This link takes you into the Microsoft Graph Data Connect settings page in the admin portal:
 https://admin.microsoft.com/Adminportal/Home#/Settings/Services/:/Settings/L1/O365DataPlan.
  
-:::image type="content" source="/viva/insights/advanced/images/mgdc-admin-center.png" alt-text="text":::
-
- ![Screenshot that shows the MGDC admin center with Add new multi-tenant app option highlighted.](/viva/insights/advanced/images/mgdc-admin-center.png)
+:::image type="content" source="/viva/insights/advanced/images/mgdc-admin-center.png" alt-text="Screenshot that shows the MGDC admin center with Viva Insights and enable cross-tenant data movement options checked.":::
 
 #### Approve a partner's Microsoft Graph Data Connect application
 
@@ -473,7 +471,7 @@ To approve a partner’s request:
         1. Go to the MGDC admin center: https://admin.microsoft.com/Adminportal/Home#/Settings/MGDCAdminCenter.
         
         1. Select **Add new multi-tenant app**.
-            ![Screenshot that shows the MGDC admin center with Add new multi-tenant app option highlighted.](/viva/insights/advanced/images/partner-integration-mgdcac.png)
+            :::image type="content" source="/viva/insights/advanced/images/mgdc-admin-center.png" alt-text="Screenshot that shows the MGDC admin center with Add new multi-tenant app option highlighted.":::
 
         1. Enter the app registration information that the partner gave you, then select **Find**. 
 1. Approve the app by going through each screen: **Overview**, **Datasets**, and **Review**. Carefully review the information on each screen before selecting **Next**.
@@ -483,13 +481,17 @@ To approve a partner’s request:
     
 
     1. **Datasets**: Review details about which datasets and columns the application wants to extract. Your approval only allows the application to extract the datasets and columns specified here. Make sure you’re fully reviewing each dataset; for each dataset, expand the list of columns the application is requesting to extract.
-    ![Screenshot that shows the app Datasets screen with the expand/collapse buttons highlighted and the Next button highlighted.](/viva/insights/advanced/images/partner-integration-app-details2.png)
+    
+        :::image type="content" source="/viva/insights/advanced/images/partner-integration-app-details2.png" alt-text="Screenshot that shows the app Datasets screen with the expand/collapse buttons highlighted and the Next button highlighted.":::    
 
     1. **Review**: After taking another look at the app publisher and the data destination, **Approve** or **Decline** the application to extract the requested datasets. Your approval or denial isn't committed until you select the **Approve** or **Decline** button. If you approve, your approval remains valid for the next 180 days.
-    ![Screenshot that shows the app Review screen with the Approve button highlighted.](/viva/insights/advanced/images/partner-integration-app-details3.png)
+    
+        :::image type="content" source="/viva/insights/advanced/images/partner-integration-app-details3.png" alt-text="Screenshot that shows the app Review screen with the Approve button highlighted.]":::
 
 3.	If you approved, return to the MGDC admin center landing page. The app you just approved should appear in the summary table.
-    ![Screenshot that shows the app Review screen with the Approve button highlighted.](/viva/insights/advanced/images/partner-integration-mgdcac-summary.png)
+
+    :::image type="content" source="/viva/insights/advanced/images/partner-integration-mgdcac-summary.png" alt-text="Screenshot that shows the app Review screen with the Approve button highlighted.]":::
+
 
 ## Related topics
 
