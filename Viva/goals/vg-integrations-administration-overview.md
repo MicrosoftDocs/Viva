@@ -16,7 +16,7 @@ ms.collection:
 - highpri
 search.appverid:
 - MET150
-description: "Learn how to enable and manage your connections and even request an integration"
+description: "Learn about integration administration with Viva Goals."
 ---
 
 # Viva Goals integrations overview
