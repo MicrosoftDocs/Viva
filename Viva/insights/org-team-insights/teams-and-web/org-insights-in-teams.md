@@ -17,7 +17,7 @@ audience: user
 <!--original content from Jess-->
 
 
-Organization insights show organization-wide trends by measuring the group of employees who report directly or indirectly to you. <!--detail-->
+Organization insights show organization-wide trends by measuring the group of employees who report directly or indirectly to you. You'll find these insights on each tab within the Microsoft Viva Insights app--Home, Teamwork, Productivity, and Wellbeing.<!--detail-->
 
 ## Who can access organization insights
 
@@ -34,17 +34,25 @@ If you're assigned the **Insights Business Leader** role, you can view organizat
 
 Here are some things to remember while you explore organization insights within the Viva Insights app.
 
-* Tooltips: If you need a detailed definition of an insight, select the tooltip to the right.
+#### Tooltips and recommended actions
 
- Select the tooltip next to each insight's title to find a detailed definition.
-* Each organization insight card includes a button for a primary recommended action. Clicking this button gives the user a shortcut to launch or share a related Viva Insights workflow or feature.
-* If the user clicks the “Explore more” button from the card, they will navigate to a full-page report that provides more information about the measure, including:
-    * Trending changes over time
-    * Comparisons to peer organizations and across internal group breakdowns (if eligible)
-    * Distributions to identify if there is a significant share of employees with outlying experience
-    * Explanatory notes to support interpreting the measures
-    * Links to related insights and inspiration library articles
-* The “Explore more” pages will only include peer comparison for users for whom a sufficiently large peer organization is identified. Peer organizations are identified based on the reporting hierarchy managed by the Insights Administrator, and include employees who report directly or indirectly to the user’s manager (or skip-manager) but not to the user. Some users will not have an identifiable or sufficiently large peer organization based on these definitions – these users will not see peer comparisons.
+If you need a detailed definition of an insight, select the tooltip to the right.
+
+<!--image-->
+
+Each organization insight card includes a button for a primary recommended action. When you select it, Viva Insights takes you to a related feature that might help address that insight. For example, if your insight indicates that average meeting hours are up, the recommended action card might encourage you to **Set up a no-meeting day**. When you select the button, you'll start the no-meeting day setup right away.
+
+#### Explore more
+
+Each insight card also contains an **Explore more** button, which takes you to a full-page report that provides more information about the measure. The report includes:
+
+* Trending changes over time
+* Comparisons to peer organizations and across internal group breakdowns (if eligible)
+* Distributions to identify if there is a significant share of employees with outlying experience <!--explanation needed-->
+* Explanatory notes to support interpreting the measures
+* Links to related insights and inspiration library articles
+
+
 * The “Explore more” pages will only include internal group breakdowns for users who have one or more managers who report directly to them, and when those reporting managers themselves have sufficiently large organizations of direct and indirect reports. For these users, they will see results for those sub-organizations labeled with the name of the manager who reports directly to the user (“Ava Kim’s organization”). 
 
 
