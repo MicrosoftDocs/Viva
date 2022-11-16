@@ -4,9 +4,12 @@ description: Learn how to install Viva Sales as an integrated app from Microsoft
 ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
+ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
+ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
 # Install Viva Sales as an integrated app
