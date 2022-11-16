@@ -69,7 +69,7 @@ Microsoft Viva Sales is a seller experience application that uses Microsoft 365 
 
 Microsoft Viva Engage is an employee experience - powered by Yammer services -   that brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work. The Viva Engage app integrates these experiences into Microsoft Teams and introduces new features including storyline and stories. These new Viva Engage features will also appear in the Yammer web, desktop and mobile apps, so no matter where a user visits, they will see the same content and generally access the same feature set. 
 
-[Get more information on Viva Engage](/viva/engage/overview.md)
+[Get more information on Viva Engage](/viva/engage/overview)
 
 ## Partner integrations
 Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. Following are examples of current partner integrations, and new partners are being added on an ongoing basis, so check back for more.
@@ -85,4 +85,4 @@ Microsoft Viva supports several partner integrations to give you access to indus
 ## Viva Solutions
 The Viva solution center provides guidance to help understand, plan, and implement integrated Viva solutions. Here you will find summaries of each Viva module, license requirements, how to plan and combine modules for greater impact, and more. 
 
-[Access the Microsoft Viva solution center](/viva/solutions/solutions.yml)
+[Access the Microsoft Viva solution center](/viva/solutions/solutions)
