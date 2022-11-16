@@ -230,11 +230,12 @@ Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in th
 
 **To set the default landing to the home site:**
 
-`Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true`
+Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true
 
 **To set the default landing to the new Viva Connections home experience:**
 
-`Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false`
+Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false
+
 
 >[!NOTE]
 > It may take up to 15 minutes to see the updated default landing experience.
