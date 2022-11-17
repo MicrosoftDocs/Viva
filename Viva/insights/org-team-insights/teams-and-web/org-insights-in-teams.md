@@ -67,3 +67,5 @@ These **Explore more** pages only include internal group breakdowns for people w
 * Minimum group size: Because it’s easier to guess information about an individual based on results about a smaller group, you  won’t see results for groups with fewer than 10 people. Your admin can increase this minimum.
 * Differential privacy: For simple averages and totals, Viva Insights introduces a small amount of noise into each calculation. The aggregated amount stays accurate, but you can't add or subtract different values to figure out results for a single person.
 * Distribution tails. Where an insight counts how many people have a certain profile, like what percentage of your organization gets enough focus time, you won’t see results that would otherwise tell you that “almost all” or “almost none” of the group fit the profile, because that would effectively give the you information about every individual in the group.
+
+## Home

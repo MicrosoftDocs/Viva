@@ -14,8 +14,6 @@ audience: user
 
 # Organization insights in the Viva Insights app
 
-<!--original content from Jess, and some from the old Org trends doc-->
-<!--provide info about what "measures" are-->
 
 ## About organization insights
 
