@@ -17,104 +17,109 @@ audience: Admin
 # Create a custom meeting query
 
 >[!Tip]
-> You can find a demo video, download sample results, and go through a **Show me how** explanation while you’re building your query. Select these options just above **Query setup**.
-:::image type="content" source="../images/person-query-setup-help.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
+> You can download sample results and go through a **Show me how** explanation while you’re building your query. Select these options just above **Query setup**.
+:::image type="content" source="../images/meeting-query-setup-help.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
 
-Set up, select data for, and run your query by following the steps and guidance in this section.
+## Overview
 
-### Query setup
+To run a meeting query, you'll follow five basic steps. Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Meeting query** page.
 
-In **Query setup**, you define some basic information about your query, like its name, the time period it will analyze, and whether it will refresh on its own.
+>[!Note]
+>If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
 
-#### To set up your query
+1. Set up your query.
+1. Add metrics.
+1. Add conditions and condition groups.
+1. Add attributes.
+1. Run your query.
 
-1. From the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Analysis** page, navigate to **Custom queries > Meeting query** and select **Start analysis**.
-    >[!Note]
-    >If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
+In this article, we talk about how to complete each of these steps, and also give some important background information about how metrics, conditions, and attributes work.
 
-2. Under **Query setup**:
+## Set up your query
 
-    1. Optional: Name your query. Queries are assigned a default name, which follows this format: Query type, user ID, date, and time. Make sure the name is unique.
+*Section: **Query setup***
+
+:::image type="content" source="../images/meeting-query-setup-section.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
+
+<!--In the **Query setup** section, you define some basic information about your query, like its name, the time period it will analyze, and whether it will refresh on its own.-->
+
+1. Under **Query setup**:
+
+    1. Optional: Name your query. Queries are assigned a default name, which follows this format: "Activity," user ID, date, and time. Make sure the name is unique.
     1. Optional: Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
-    :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Time period dropdown.":::
-    :::image type="content" source="../images/person-query-timeperiod-datepicker.png" alt-text="Time period with date pickers highlighted.":::
-    1. Optional: Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
-        :::image type="content" source="../images/person-query-auto-refresh1.png" alt-text="Time period with Auto-Refresh highlighted.":::
-    >[!Note]
-    >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
+    :::image type="content" source="../images/custom-date-picker.png" alt-text="Time period with date pickers highlighted.":::
+    1. Optional: Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every day. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
+        :::image type="content" source="../images/hover-auto-refresh.png" alt-text="Time period with Auto-Refresh highlighted.":::
 
-    4. Optional: Type a **Description**.
+    1. Optional: Type a **Description**.
 
-        Selecting **More Settings** brings you to the **More Settings** pane. This pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
-    >[!Note]
-    > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
-    >
-    > To learn more about metrics used in Viva Insights, refer to [Metric definitions](../reference/metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
+        Selecting **More Settings** beneath the **Description** box brings you to the **More Settings** pane. This pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
+        >[!Note]
+        > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
+        >
+        > To learn more about metrics used in Viva Insights, refer to [Metric definitions](../reference/metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
 
-### Metrics 
+## Add metrics 
 
-In **Select metrics for what you want to know about your meetings**, you specify what you want to find out about the meetings you’re analyzing, and also define the meetings you’re including in your query. 
+*Section: **Select metrics for what you want to know about your meetings***
 
-#### About metrics
+:::image type="content" source="../images/meeting-query-section-1.png" alt-text="Add metrics pane":::
 
-Metrics are criteria used to measure the productivity and wellbeing of employees. In the case of meeting queries, metrics describe employee wellbeing as related to meetings. For example, if you’re wondering how much time employees spend multitasking during meetings, you could use the **Multitasking hours** metric in your query.
+2. Select the **Add metrics** button, then pick metrics from the resulting **Select metrics** pane. When you're done picking metrics, select **Add to query**.
 
-##### Select metrics pane
+    :::image type="content" source="../images/meeting-query-metric-pane2.png" alt-text="Add metrics pane":::
 
-###### Metric categories
+    The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
 
-In the **Select metrics** pane, metrics are grouped by *metric category*. Expand the categories to see which metrics they contain. Let’s say you were looking for how many hours attendees spent in meetings.  You'd find the **Attendee meeting hours** metric under the **Meeting impact metrics** category. 
+    :::image type="content" source="../images/meeting-query-metric-tags.png" alt-text="Screenshot that shows selected metrics in the box beneath Select metrics for what you want to know about your meetings.":::
 
-:::image type="content" source="../images/meeting-query-metric-pane1.png" alt-text="Add metrics pane":::
+### About metrics
 
-<!--address capitalization-->
+Metrics are criteria used to measure the productivity and wellbeing of employees. In the case of meeting queries, metrics describe employee wellbeing as related to meetings. For example, if you’re wondering how many chats were sent during meetings, you could use the **Number of chats sent during the meeting** metric in your query.
 
-###### Keyword search and more information
+You can pick from seven meeting-related metrics, which we've broken into two categories: meeting impact metrics and meeting quality metrics. Here are their names and definitions:
+
+<!--address "the" vs. "a" w/ Gayathri and Lucas. Also if we do this here, should we do it in the Person query? Part of me feels like it would be more consistent to just link people out to the Metrics article.-->
+
+|Category|Name|Definition|
+|---|----|----
+|**Meeting impact metrics**| Attendee meeting hours| Sum of hours each attendee spent in a meeting
+||Number of attendees| Number of people who attended a meeting
+|**Meeting quality metrics**| Number of attendees multitasking|Number of attendees who sent or read emails or Teams chats during a meeting
+|| Number of chats send during the meeting| Number of Teams chats attendees sent during a meeting
+|| Number of emails send during the meeting|Number of emails attendees sent during a meeting
+|| Number of participants with conflicting meetings|Number of intended participants or meeting organizer who have non-declined meetings that overlap
+||Number of redundant attendees| Number of attendees who are redundant in a meeting, meaning that their manager and their manager's manager also attended
+
+#### About the Select metrics pane
+
+In the **Select metrics** pane, metrics are grouped by the metric categories we just described. Expand the categories to see which metrics they contain. Let’s say you were looking for how many hours attendees spent in meetings.  You'd find the **Attendee meeting hours** metric under the **Meeting impact metrics** category. 
 
 While you're adding meeting query metrics metrics, you can use the search bar at the top of the pane. Enter keywords or related Power BI templates to find the metrics you're looking for.
 
 To learn more about a metric, hover over its information icon.
 
-### To add metrics to your query
+:::image type="content" source="../images/meeting-query-metric-information.png" alt-text="Screenshot that shows hovering over a metric's information icon. The popup shows the metric definition and information.":::
 
-Here’s how you add metrics to your query:
+## Add conditions and condition groups
 
-3. Under **Select metrics for what you want to know about your meetings**, select the **Add metrics** button.
+*Section: **Select which meetings and employees you want to include in the query***
 
-    :::image type="content" source="../images/meeting-query-select-metrics.png" alt-text="Add metrics pane":::
+:::image type="content" source="../images/meeting-query-conditions.png" alt-text="Screenshot that shows hovering over a metric's information icon. The popup shows the metric definition and information.":::
 
-4. The **Add metrics** button brings you to the **Select metrics** pane. Using the check marks and the tools described earlier (like search) select the metrics you want to use in the query, then select **Add to query**.
+3. Select the **Add condition** or **Add condition group** button. Using conditions and condition groups, add one or multiple filters to narrow down your analysis of meetings and employees.
 
-    The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
+    >[!Note]
+    >
+    >The default conjunction for conditions and condition groups is “and.” To select “or” instead, use the dropdown menu.
 
-### Meetings and employees
-
-Once you determine what you want to know about meetings, you select which meetings and employees you want to include in your query. In **Select which meetings and employees you want to include in the query**, define the employees you want to analyze through *conditions* and *condition groups*.
-
-#### About conditions and condition groups
+### About conditions and condition groups
 
 A condition is a statement about one attribute you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, “Organization = Contoso.com,” the query would only extract rows that equal Contoso.com” under the **Organization** column. A condition group is a combination of conditions connected with a conjunction ("and" or "or"). In the following image, the condition group is in the block to the right of the conjunction "and."
 
 :::image type="content" source="../images/meeting-query-condition-group2.png" alt-text="Condition group":::
 
-
-#### To add employees to your query
-
-5. Select the **Add condition** or **Add condition group** button.
-    :::image type="content" source="../images/meeting-query-condition-buttons.png" alt-text="Screenshot that shows the Add condition button.":::
-
-6. Using conditions and condition groups, add one or multiple filters to narrow down your analysis. 
-
-    Refer to our sample meeting query for an example of using conditions and condition groups.
-
->[!Note]
->
->The default conjunction for conditions and condition groups is “and.” To select “or” instead, use the dropdown menu.
-
-
-### Meeting and employee attributes
-
-#### About meeting and employee attributes
+### About meeting and employee attributes
 
 Meeting and employee attributes are the data fields—or columns—that appear in your query output. These attributes are broken up into two categories: the first is about the meeting itself (for example, Sensitivity, Duration, Importance), and the second is attributes from the organizational data you've uploaded to Viva Insights. In **Select which meeting and employee attributes you want to include in the query**, you narrow down which data fields your query includes—for example, **Job level** or **Hire date**—to prevent your output (.csv) file from being larger than necessary. Making selections here:
 
@@ -131,9 +136,11 @@ Meeting and employee attributes are the data fields—or columns—that appear i
     
     Attributes appear as tags in the box above the **Select attributes** button.
 
-    >[!Note]
-    >
-    >If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly.
+##### Attribute errors and warnings
+
+If an attribute appears as a *red* tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run, or contact your admin to add these attributes back into the organizational data.
+
+If an attribute appears as a *yellow* tag with a warning icon, that means the attribute isn't available. If you find a yellow tag on an attribute like "Subject" or "Title," email subject lines and meeting titles might be disabled. Your admin can turn on keywords if your organization wants to use them.
 
 ## Running the query
 
