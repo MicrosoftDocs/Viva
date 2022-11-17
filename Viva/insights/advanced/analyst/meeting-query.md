@@ -30,7 +30,7 @@ To run a meeting query, you'll follow five basic steps. Each of these steps take
 1. Set up your query.
 1. Add metrics.
 1. Add conditions and condition groups.
-1. Add attributes.
+1. Add meeting and organizer attributes.
 1. Run your query.
 
 In this article, we talk about how to complete each of these steps, and also give some important background information about how metrics, conditions, and attributes work.
@@ -115,9 +115,27 @@ To learn more about a metric, hover over its information icon.
 
 ### About conditions and condition groups
 
-A condition is a statement about one attribute you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, “Organization = Contoso.com,” the query would only extract rows that equal Contoso.com” under the **Organization** column. A condition group is a combination of conditions connected with a conjunction ("and" or "or"). In the following image, the condition group is in the block to the right of the conjunction "and."
+A condition is a statement about one attribute you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, "Recurring = true,” the query would only extract rows that equal "true" under the **Recurring** column. A condition group is a combination of conditions connected with a conjunction ("and" or "or"). 
 
-:::image type="content" source="../images/meeting-query-condition-group2.png" alt-text="Condition group":::
+For meeting queries, you'll pick from 13 predefined filters. Some behave a bit differently than others. Here's information about each filter.
+
+
+
+
+## Add meeting and organizer attributes
+
+*Section: **Select which meeting and employee attributes of the meeting organizer you want to include in the query***
+
+<!--I think this is too long of a section title. Is there any way to decrease verbiage here? Maybe "Select which meeting attributes and organizer attributes you want to include in the query"?-->
+
+4.	Select the **Select attributes** button, then:
+    1. On the right pane, use the checklist to make selections.
+    1. When you're done picking attributes, select the **Add to query** button.
+        :::image type="content" source="../images/meeting-query-add-attributes1.png" alt-text="Screenshot that shows the attributes pane with three attributes selected and the Add to query button highlighted.":::
+    
+    Attributes appear as tags in the box above the **Select attributes** button.
+
+    :::image type="content" source="../images/meeting-query-attribute-tags.png" alt-text="Screenshot that shows the Select which meeting and employee attributes of the meeting organizer you want to include in the query section, with tags of selected attributes below.":::
 
 ### About meeting and employee attributes
 
@@ -127,24 +145,17 @@ Meeting and employee attributes are the data fields—or columns—that appear i
 * Further protects private data by excluding columns from the file.
 * Enables you to select **Clear all** to clear the selected columns.
 
-#### To add meeting and employee attributes to your query
-
-6.	Select the **Select attributes** button, then:
-    1. On the right pane, use the checklist to make selections.
-    1. When you're done picking attributes, select the **Add to query** button.
-        :::image type="content" source="../images/meeting-query-add-attributes.png" alt-text="Select meeting and employee attributes pane, with 'Add to query' button highlighted":::
-    
-    Attributes appear as tags in the box above the **Select attributes** button.
-
-##### Attribute errors and warnings
+#### Attribute errors and warnings
 
 If an attribute appears as a *red* tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run, or contact your admin to add these attributes back into the organizational data.
 
 If an attribute appears as a *yellow* tag with a warning icon, that means the attribute isn't available. If you find a yellow tag on an attribute like "Subject" or "Title," email subject lines and meeting titles might be disabled. Your admin can turn on keywords if your organization wants to use them.
 
-## Running the query
+## Run the query
 
-7.	After you’ve set up your query, selected metrics, set conditions and condition groups, and selected meeting and employee attributes, you’re ready to run your query. Select the **Run** button in the screen’s upper right.
+5.	Select the **Run** button in the screen’s upper right.
+
+    :::image type="content" source="../images/run-button.png" alt-text="Screenshot that shows the Run button.":::
 
 ### To access your query results
 
