@@ -53,7 +53,7 @@ In this article, we talk about how to complete each of these steps, and also giv
 
     1. Optional: Type a **Description**.
 
-        Selecting **More Settings** beneath the **Description** box brings you to the **More Settings** pane. This pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
+        Selecting **More Settings** beneath the **Description** box brings you to the **More Settings** pane. This pane shows the metric rules that apply to your query. To find out more about these rules, select **See metric rule details**.
         >[!Note]
         > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
         >
@@ -115,11 +115,54 @@ To learn more about a metric, hover over its information icon.
 
 ### About conditions and condition groups
 
-A condition is a statement about one attribute you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, "Recurring = true,” the query would only extract rows that equal "true" under the **Recurring** column. A condition group is a combination of conditions connected with a conjunction ("and" or "or"). 
+<!--Gayahtri to vet-->
 
-For meeting queries, you'll pick from 13 predefined filters. Some behave a bit differently than others. Here's information about each filter.
+A *condition* is a statement about one [attribute](#about-meeting-and-organizer-attributes) you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, "Recurring = true,” the query would only extract rows that equal "true" under the **Recurring** column. 
 
+A *condition group* is a combination of conditions connected with a conjunction ("and" or "or"). Condition groups contain multiple conditions, and all of them are true. Instead of considering conditions hierarchically (condition 1, condition 2), Viva Insights considers condition groups altogether when it runs queries.
 
+Here's an example. Let's say that in addition to analyzing whether certain meetings recur, you only want to look at meetings that contain at least one person from the New York timezone *and* contain "Design" in their subject line. You'd add a condition group. The first statement in the group would cover the "at least one person from New York" part. The second statement, with an "and" conjunction, would cover the "'Design in the subject line" part. 
+
+When Viva Insights runs your query, it will first check for whether meetings recur (your earlier condition statement). After that, instead of checking for at least one person from New York *then* the "Design" in the subject line, it will only check for meetings where *both* of those conditions are true.
+
+When you use filters in a meeting query, you're creating individual condition statements or condition groups to narrow down your query's analysis.
+
+#### Predefined filters
+
+To create conditions and condition groups in meeting queries, you'll pick from 13 predefined filters. 10 of these filters are for meeting attributes, which have to do with characteristics of the meeting (for example, **Duration**). Three of these filters are for person attributes, which have to do with people involved in the meeting (for example, **Attendees**).
+
+If you pick a meeting attribute, an operator (like "=")  appears. Then you fill in either "true" or "false," add a numerical value, or enter a text value. 
+
+If you pick a person attribute, you create a filter based on organizational data with the following components:
+
+* **Aggregation type** – *All*, *AtLeastOne*, or *None*
+* **Meeting attribute** – The attribute you picked from the initial dropdown list
+* **Organizational data attribute** – An attribute from your company's organizational data
+* **Operator** – *=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked
+* **Value** – One of a list of predefined choices, based on what your company's organizational data contains
+
+ <!--is there a way to change Meeting attribute in the UI? It's confusing that the box says "Meeting attribute"-->
+
+>[!Note] 
+>Organizational data available for you to use in filters depends on what your organization sends to Viva Insights.
+
+Here's a list of all predefined filters, their type, input format,
+
+|Name|Type|Input|Example statement
+|----|--------|----|---|
+|Subject|Meeting|Text value| Subject = Design review
+|All Day Meeting| Meeting| True or false| All Day Meeting = true
+|Cancelled| Meeting| True or false| Cancelled = false
+|Recurring| Meeting| True or false| Recurring = true
+|Intended participants| Person| Organizational data attribute and predefined value choices| All Intended participants Profession = Designer
+|Attendees| Person| Organizational data attribute and predefined value choices| AtLeastOne Attendees City = Los Angeles
+|Organizer| Person| Organizational data attribute and predefined value choices | Organization = Marketing
+Duration| Meeting| Numerical value in the 00:00 format | Duration > 30:00
+|Accept count| Meeting| Numerical value| Accept count >= 10
+|No response count| Meeting| Numerical value| No response count < 5
+|Decline count| Meeting| Numerical value| Decline count != 0
+|Tentatively accepted count | Meeting| Numerical value| Tentatively accepted count <= 20
+|Intended participant count | Meeting| Numerical value| Intended participant count > 100
 
 
 ## Add meeting and organizer attributes
@@ -137,9 +180,11 @@ For meeting queries, you'll pick from 13 predefined filters. Some behave a bit d
 
     :::image type="content" source="../images/meeting-query-attribute-tags.png" alt-text="Screenshot that shows the Select which meeting and employee attributes of the meeting organizer you want to include in the query section, with tags of selected attributes below.":::
 
-### About meeting and employee attributes
+### About meeting and organizer attributes
 
-Meeting and employee attributes are the data fields—or columns—that appear in your query output. These attributes are broken up into two categories: the first is about the meeting itself (for example, Sensitivity, Duration, Importance), and the second is attributes from the organizational data you've uploaded to Viva Insights. In **Select which meeting and employee attributes you want to include in the query**, you narrow down which data fields your query includes—for example, **Job level** or **Hire date**—to prevent your output (.csv) file from being larger than necessary. Making selections here:
+Meeting and organizer attributes are the data fields—or columns—that appear in your query output. These attributes are broken up into two categories: the first is about the meeting itself (for example, Sensitivity, Duration, Importance), and the second is about the meeting organizer—that is, attributes from the organizational data you've uploaded to Viva Insights. 
+
+In **Select which meeting and employee attributes of the meeting organizer you want to include in the query**, you narrow down which data fields your query includes—for example, **Recurring** (a meeting attribute) or **TimeZone** (an organizer attribute)—to prevent your output (.csv) file from being larger than necessary. Making selections here:
 
 * Improves data analysis with fewer columns in a smaller file.
 * Further protects private data by excluding columns from the file.
