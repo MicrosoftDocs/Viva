@@ -215,6 +215,10 @@ If an attribute appears as a *yellow* tag with a warning icon, that means the at
 
 After your query runs, access its results in the **Query results** page. On the **Query results** page, you can also edit and clone your query. For further information, refer to [Access query results and modify existing queries](./query-results.md).
 
+Here's a sample of what a .csv meeting query output looks like:
+
+:::image type="content" source="../images/meeting-query-output.png" alt-text="Screenshot that shows the Run button.":::
+
 ## Example meeting query
 
 Let’s say you wanted to run a meeting query to find out how often attendees are multitasking during large, recurring meetings.
