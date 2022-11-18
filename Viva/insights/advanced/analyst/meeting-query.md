@@ -117,15 +117,19 @@ To learn more about a metric, hover over its information icon.
 
 <!--Gayahtri to vet-->
 
+When you use filters in a meeting query, you're creating individual condition statements or condition groups to narrow down your query's analysis. We describe which filters are available for meeting queries in the [next section](#predefined-filters).
+
 A *condition* is a statement about one [attribute](#about-meeting-and-organizer-attributes) you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, "Recurring = true,” the query would only extract rows that equal "true" under the **Recurring** column. 
+
+:::image type="content" source="../images/meeting-query-sample-condition.png" alt-text="Screenshot that shows a condition filter where the Meeting attribute is Recurring, the Operator is =, and the Value is true.":::
 
 A *condition group* is a combination of conditions connected with a conjunction ("and" or "or"). Condition groups contain multiple conditions, and all of them are true. Instead of considering conditions hierarchically (condition 1, condition 2), Viva Insights considers condition groups altogether when it runs queries.
 
-Here's an example. Let's say that in addition to analyzing whether certain meetings recur, you only want to look at meetings that contain at least one person from the New York timezone *and* contain "Design" in their subject line. You'd add a condition group. The first statement in the group would cover the "at least one person from New York" part. The second statement, with an "and" conjunction, would cover the "'Design in the subject line" part. 
+Here's an example. Let's say that in addition to analyzing whether certain meetings recur, you only want to look at meetings that contain at least one person from the New York timezone *and* contain "Design" in their subject line. You'd add a condition group. The first statement in the group would cover the "at least one person from New York" part. The second statement, with an "and" conjunction, would cover the "'Design in the subject line" part.
+
+:::image type="content" source="../images/meeting-query-sample-condition-group.png" alt-text="Screenshot that shows a condition filter where the Meeting attribute is Recurring, the Operator is =, and the Value is true.":::
 
 When Viva Insights runs your query, it will first check for whether meetings recur (your earlier condition statement). After that, instead of checking for at least one person from New York *then* the "Design" in the subject line, it will only check for meetings where *both* of those conditions are true.
-
-When you use filters in a meeting query, you're creating individual condition statements or condition groups to narrow down your query's analysis.
 
 #### Predefined filters
 
@@ -164,6 +168,11 @@ Duration| Meeting| Numerical value in the 00:00 format | Duration > 30:00
 |Tentatively accepted count | Meeting| Numerical value| Tentatively accepted count <= 20
 |Intended participant count | Meeting| Numerical value| Intended participant count > 100
 
+#### To move and delete conditions and condition groups
+
+To move a condition or condition group, select the six-dot icon to the right, then drag it above or below other conditions or groups. To delete a condition or condition group, select the trashcan icon to the right.
+
+:::image type="content" source="../images/meeting-query-move-condition.png" alt-text="Screenshot that shows selected metrics in the box beneath Select metrics for what you want to know about your meetings.":::
 
 ## Add meeting and organizer attributes
 
