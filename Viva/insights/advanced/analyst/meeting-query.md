@@ -150,7 +150,7 @@ If you pick a person attribute, you create a filter based on organizational data
 >[!Note] 
 >Organizational data available for you to use in filters depends on what your organization sends to Viva Insights.
 
-Here's a list of all predefined filters, their type, input format,
+Here's a list of all predefined filters, their type, input format, and an example condition statement that uses that filter.
 
 |Name|Type|Input|Example statement
 |----|--------|----|---|
