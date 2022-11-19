@@ -1,6 +1,6 @@
 ---
 title: Effective meetings in Viva Insights  
-description: Effective meetings in Microsoft Viva Insights
+description: Learn how to create effective meetings with Microsoft Viva Insights
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
