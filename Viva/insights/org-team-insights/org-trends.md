@@ -22,7 +22,7 @@ audience: Admin
 
 You can view organizational insights in **Organization trends** within the Microsoft Viva Insights app. These insights are available to users with either group manager access enabled or the **Insights Business Leader** role assigned. To learn more about assigning roles, refer to [Assign roles](../advanced/setup-maint/assign-user-roles.md).
 
-:::image type="content" source="../images/wpa/use/org-trends-outcomes-new-small.png" alt-text="Screenshot that shows the Organization trends Outcomes page." lightbox="../images/wpa/use/org-trends-outcomes-new.png":::
+:::image type="content" source="../images/wpa/use/org-trends-outcomes-new-small1.png" alt-text="Screenshot that shows the Organization trends Outcomes page." lightbox="../images/wpa/use/org-trends-outcomes-new1.png":::
 
 ## Group managers
 
