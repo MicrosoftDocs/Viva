@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Prepare and upload CRM data for advanced insights
 description: How to prepare and upload CRM data in the advanced insights app for Viva Insights
 author: madehmer
@@ -19,7 +19,7 @@ audience: Admin
 
 You can now upload your company's Customer Relationship Management (CRM) data into the advanced insights app. Data from Salesforce or Dynamics CRM typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries.
 
-The advanced insights app available in Microsoft Viva Insights can combine your CRM data with your organizational (HR) and Microsoft 365 data for more advanced collaboration and productivity analysis in the [Query designer](../tutorials/query-designer.md). For the most complete analysis, Viva Insights needs the following CRM data:
+The advanced insights app available in Microsoft Viva Insights can combine your CRM data with your organizational (HR) and Microsoft 365 data for more advanced collaboration and productivity analysis in the [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). For the most complete analysis, Viva Insights needs the following CRM data:
 
 * Customer accounts
 * Customer contacts
@@ -114,7 +114,7 @@ The following is a sample list of **Reserved attributes** that you can optionall
 > [!Note]
 > * Field values cannot contain commas or other special characters.
 > * All Date values must be in the MM/DD/YYYY format.
-> * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign. For more details, see [Use only valid values and formats](prepare-organizational-data.md#attribute-reference).
+> * Numerical fields (such as "Revenue") must be in the "number" format and cannot contain commas or a dollar sign. For more details, see [Use only valid values and formats](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#attribute-reference).
 
 The **AccountsStartDate** is required to help capture a historical snapshot of your CRM data. These  help ensure accuracy of analyses that span the time frames in which changes can occur in your CRM system. For example, in your CRM system, consider an Account with AccountName “Contoso” and AccountID “123” which is created on 01-Jan-2019 and the name is changed to “Contoso Corp” in the system on 01-April-2019. This change will show as a new record with the new AccountsStartDate and AccountName. For example:
 
@@ -216,7 +216,7 @@ For a complete list of rules, see [Attribute notes and recommendations](Prepare-
 
 ## Related topics
 
-* [Queries with CRM data](../tutorials/crm-queries.md)
+* [Queries with CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Prepare organizational data](Prepare-organizational-data.md)
-* [First organizational upload](upload-organizational-data-1st.md)
-* [CRM data sources](../Use/crm-data.md)
+* [First organizational upload](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [CRM data sources](/viva/insights/use/crm-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

@@ -32,7 +32,7 @@ Setting up Viva Topics does not modify any existing access controls on content i
 
 Microsoft Viva Insights produces useful insights about how your organization and employees function. It does this by analyzing Microsoft 365 collaboration data and organizational (HR) data that you provide through an upload or that's presented in Microsoft Azure Active Directory (Azure AD). Because of the potential sensitivity about how data could be used, successful implementation and use of Viva Insights requires planning.
 
-[Learn more about data protection for Viva Insights](/viva/insights/privacy/data-protection-intro)
+[Learn more about data protection for Viva Insights](/viva/insights/advanced/privacy/privacy)
 
 ## Viva Learning
 Viva Learning is enabled by default for all Microsoft Teams users in your organization, and, like Teams, it leverages the advanced security and compliance capabilities that are built into Microsoft 365 and Office 365. You can turn off or turn on Viva Learning at the organization level on the Manage apps page in the Microsoft Teams admin center. For more information, see [Manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps).

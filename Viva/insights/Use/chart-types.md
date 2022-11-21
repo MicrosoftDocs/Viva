@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Charts in the advanced insights app
 description: Describes the different chart types and how to use the chart features in the advanced insights app with Microsoft Viva Insights
 author: madehmer
@@ -16,7 +17,7 @@ audience: Admin
 
 # Advanced insights charts
 
-[Explore the stats](explore-intro.md) data in the advanced insights app summarizes your organizational data into visual charts. The following describes these charts and information about how to use them:
+[Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) data in the advanced insights app summarizes your organizational data into visual charts. The following describes these charts and information about how to use them:
 
 * [Chart types](#chart-types) describes the primary chart types.
 * [Chart features](#chart-features) helps you get the most out of the charts.
@@ -24,11 +25,11 @@ audience: Admin
 
 ## Chart types
 
-[Explore the stats](explore-intro.md) show data primarily through the following chart types:
+[Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) show data primarily through the following chart types:
 
-![column graph.](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for a metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](explore-metrics-meetings-overview.md#meetings-hours-by-number-of-attendees).
+![column graph.](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for a metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meetings-hours-by-number-of-attendees).
 
-![bar chart.](../images/wpa/use/b-bar-chart.png) **Bar charts** also compare data across groups. The bars run horizontally. Bar charts are used on the **External collaboration** page. Each bar shows the value for the metric, such as external network size, within a group, for the period selected. For an example, see [Groups collaborating with external domains](explore-metrics-external-collaboration.md#external-domain-collaboration).
+![bar chart.](../images/wpa/use/b-bar-chart.png) **Bar charts** also compare data across groups. The bars run horizontally. Bar charts are used on the **External collaboration** page. Each bar shows the value for the metric, such as external network size, within a group, for the period selected. For an example, see [Groups collaborating with external domains](/viva/insights/use/explore-metrics-external-collaboration?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#external-domain-collaboration).
 
 ![box plot.](../images/wpa/use/c-box-plot.png) **Box plots** (also known as distribution charts) show the distribution of metric values within a group. A box plot shows the maximum, minimum, median, upper quartile, and lower quartile for the group for the period selected. Each value within a group represents the average value for a person. For example, the person with the highest average is represented by the maximum point on each box plot in the chart.
 
@@ -36,7 +37,7 @@ audience: Admin
 
 ![line graph.](../images/wpa/use/d-line-graph.png) **Line graphs** are used as trend-line charts in that they show metric values over time. The default trend line is the company average for the selected metric. Trend-line charts show one point per week for as many weeks as you have set in **Date range**, under **Settings and filters**. See [Change the date range](#to-change-the-date-range).
 
-For an example, see the chart on the right in [Skip-level meeting hours](explore-metrics-management-and-coaching.md#skip-level-meeting-hours).
+For an example, see the chart on the right in [Skip-level meeting hours](/viva/insights/use/explore-metrics-management-and-coaching?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#skip-level-meeting-hours).
 
 ## Chart features
 
@@ -67,7 +68,7 @@ Charts also show the average for all groups, in the reference line. For more inf
 
 The Viva Insights admin can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. (The minimum group size can be raised or lowered, but it cannot be set to a number lower than five.)
 
-In the show of a group whose size is smaller than the minimum, you can see the name of the group but not its values. If the size of a group equals zero, the name is also excluded. For more information about setting group size, see [Privacy settings](privacy-settings.md).
+In the show of a group whose size is smaller than the minimum, you can see the name of the group but not its values. If the size of a group equals zero, the name is also excluded. For more information about setting group size, see [Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ### Use of filters
 

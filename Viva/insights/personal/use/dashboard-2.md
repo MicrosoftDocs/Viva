@@ -9,6 +9,7 @@ ms.localizationpriority: high
 ms.collection: 
 - m365initiative-viva-insights 
 - viva-insights-personal
+- highpri
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -18,6 +19,9 @@ audience: user
 ---
 
 # Viva Insights dashboard
+
+>[!IMPORTANT]
+> The dashboard will be retired soon, but you'll still find personal insights content and settings in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
 
 _**Applies to:** Viva Insights elements are available in varying levels to users of different Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
@@ -78,6 +82,10 @@ Educational insights give you work productivity and wellbeing tips and ideas, wh
 
 Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work Week** section of **Settings**. You can access **Settings** at the bottom of the left pane.
 
+>[!IMPORTANT]
+>The dashboard will be retired soon. You can access your settings on the Viva Insights app in Teams or on the web by selecting **Try it now** on the banner message.
+>![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
+
 ![Screenshot that shows Settings on the left pane.](../../Images/mya/use/dashboard-settings-left-pane.png)
 
 Changes to your settings are reflected in next week's data.
@@ -86,9 +94,7 @@ In **Protect Time**, you can:
 
 * Personalize your focus plan by selecting how much focus time you want to schedule for what time of day and set Teams settings accordingly. For more details, see [Focus plan](../use/focus-plan.md).
 * Configure your quiet time to mute mobile notifications from Outlook and Teams for a set number of hours or days.
-    >[!Note]
-    > Quiet time is currently in private preview.
-* Turn the **Delay Delivery** feature **On** or **Off** for the option to delay delivery of an email until when your co-workers are in their set working hours.
+* Turn the **Schedule send** feature **On** or **Off** for the option to schedule delivery of an email until when your co-workers are in their set working hours.
 
 :::image type="content" source="../../Images/mya/use/dashboard-settings-protect-time-tab-small.png" alt-text="Screenshot that shows the Protect time tab and, when expanded, its settings." lightbox="../../Images/mya/use/dashboard-settings-protect-time-tab-expanded.png":::
 

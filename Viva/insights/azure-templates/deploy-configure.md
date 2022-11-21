@@ -52,7 +52,7 @@ Before deploying and configuring these templates, review the following security 
 
 Before deploying Workplace Analytics Azure Templates, confirm or complete the following:
 
-1. Confirm that [Workplace Analytics is set up](../setup/set-up-workplace-analytics.md) and ready to use.
+1. Confirm that [Workplace Analytics is set up](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and ready to use.
 2. Enable [Workplace Analytics Data export](data-export.md) for the Azure tenant.
 3. Do the following for the Azure subscription that will host these templates and the data exported from Workplace Analytics:
 

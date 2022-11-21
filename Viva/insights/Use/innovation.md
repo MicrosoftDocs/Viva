@@ -26,16 +26,16 @@ Microsoft Viva Insights has a **My organization** page that shows leader's colla
 
 ## Calculations
 
-The **Focus without interruptions** insight shows a percentage of employees who get less than 10 hours of weekly uninterrupted time for work that uses the [Total focus hours](metric-definitions.md#focus-define) metric. The calculation is based on the percentage of employees who have less than 10 hours available to focus each week. It's calculated weekly and averaged over the time period.
+The **Focus without interruptions** insight shows a percentage of employees who get less than 10 hours of weekly uninterrupted time for work that uses the [Total focus hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#focus-define) metric. The calculation is based on the percentage of employees who have less than 10 hours available to focus each week. It's calculated weekly and averaged over the time period.
 
 ![Foster innovation percentage insight](../images/wpa/use/f-innovation-percent.png)
 
-<!--|Leverage influencers |Percentage of organizations who have few influencers |[Influence](metric-definitions.md#network-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size.-->
-The visual insight for **Focus without interruptions** is the **Distribution of uninterrupted weekly time** that shows the percentage of employees grouped by their uninterrupted [focus time](metric-definitions.md#focus-define). The groups are divided into those who spend between 0 and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. The percentages are calculated weekly and averaged over the entire time period.
+<!--|Leverage influencers |Percentage of organizations who have few influencers |[Influence](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size.-->
+The visual insight for **Focus without interruptions** is the **Distribution of uninterrupted weekly time** that shows the percentage of employees grouped by their uninterrupted [focus time](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#focus-define). The groups are divided into those who spend between 0 and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. The percentages are calculated weekly and averaged over the entire time period.
 
 ![Foster innovation visual insight](../images/wpa/use/f-innovation-visual.png)
 
-<!--Leverage influencers |Organizations with limited influencers |Percentage of organizations that don't have sufficient representation of influencers, based on company size. This uses the [influence](metric-definitions.md#network-metrics) metric.|-->
+<!--Leverage influencers |Organizations with limited influencers |Percentage of organizations that don't have sufficient representation of influencers, based on company size. This uses the [influence](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics) metric.|-->
 
 ## Best practices
 

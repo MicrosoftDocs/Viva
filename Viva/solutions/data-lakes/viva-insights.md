@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Microsoft Viva Insights data lake solution
 description: Learn how to set up and use the Viva Insights data lake solution
 author: madehmer

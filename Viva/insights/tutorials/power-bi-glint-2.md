@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Behavior patterns for Glint dashboard
 description: Use this dashboard to visualize analysis in Power BI that combines Viva Insights and Glint data
 author: madehmer
@@ -122,7 +123,7 @@ The following is required before you can run the query in the advanced insights 
    >[!Important]
    >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" and then, optionally, you can further filter for the population of interest for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" and then, optionally, you can further filter for the population of interest for the dashboard. For more details about filter and metric options, see [Create a Person Query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires and up to three more that match up with the attributes included in your Glint data.
 
    >[!Important]
@@ -143,7 +144,7 @@ The following is required before you can run the query in the advanced insights 
     * In **Minimum group size**, enter a number for data aggregation within this report's visualizations that complies with your company's policy for viewing advanced insights data.
 
 4. If you're already signed in to Power BI with your the organizational account for the advanced insights app, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-5. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+5. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
@@ -169,9 +170,9 @@ After the Behavior patterns dashboard is set up and populated with both the Glin
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Related topic
 
-[View, download, and export query results](../use/view-download-and-export-query-results.md)
+[View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 

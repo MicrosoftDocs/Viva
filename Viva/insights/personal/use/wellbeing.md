@@ -17,6 +17,9 @@ audience: user
 
 # Personal wellbeing insights
 
+>[!IMPORTANT]
+> The personal insights dashboard will be retired soon, but you'll still find wellbeing content in your Viva Insights app in Teams and on the web. [Read more about this change](../reference/mya-retirement.md).
+
 The **Wellbeing** page on the [Dashboard](dashboard-2.md) shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
 ![Screenshot that shows the Wellbeing page of the dashboard.](../../Images/WpA/Use/wellbeingdashboard2.png)
@@ -44,12 +47,12 @@ For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, a
 * **Be a thoughtful coworker!** Establishing quiet time with no meetings or email can lead to better teamwork:
 
   * For "inform" type emails, condense the emails and status updates into daily or weekly digests. This practice reduces the overall noise and randomization caused by email overload.
-  * Use the [delay delivery inline suggestion](../use/mya-notifications.md#delay-delivery) to schedule email delivery when the recipients are within their working hours. Limit late night and early morning email to urgent email only, to cut through the noise.
+  * Use [schedule send suggestions](schedule-send.md) to schedule email delivery when the recipients are within their working hours. Limit late-night and early-morning email to urgent email only, to cut through the noise.
   * Turn off notifications on your phone and computer when you are trying to focus.
 
 * **Be respectful of people's time**:  
 
-  * Agree on "team hours." Use the [delay delivery inline suggestion](../use/mya-notifications.md#delay-delivery) to deliver email when most of the team is working.
+  * Agree on "team hours." Use [schedule send suggestions](schedule-send.md) to deliver email when most of the team is working.
   * Be intentional about who you invite to meetings.
   * Try to limit meeting overruns.
   * Consider starting a policy of no meetings on Fridays.
