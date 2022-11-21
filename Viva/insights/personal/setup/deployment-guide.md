@@ -86,7 +86,7 @@ Here are some roles you might consider as part of the rollout project:
 
 ## Choose a rollout scenario
 
-This section presents four scenarios for deploying Viva Insights. An Microsoft 365 admin can implement any of these scenarios either by using PowerShell or by using the Microsoft 365 admin center. Typically, admins use the admin center to broadly configure Viva Insights for most or all users, and they use PowerShell to set specific configurations for select users.
+This section presents four scenarios for deploying Viva Insights. A Microsoft 365 admin can implement any of these scenarios either by using PowerShell or by using the Microsoft 365 admin center. Typically, admins use the admin center to broadly configure Viva Insights for most or all users, and they use PowerShell to set specific configurations for select users.
 
 ### Rollout scenarios
 
