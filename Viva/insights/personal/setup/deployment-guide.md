@@ -86,7 +86,7 @@ Here are some roles you might consider as part of the rollout project:
 
 ## Choose a rollout scenario
 
-This section presents four scenarios for deploying Viva Insights. An Microsoft 365 admin can implement any of these scenarios either by using PowerShell or by using the Microsoft 365 admin center. Typically, admins use the admin center to broadly configure Viva Insights for most or all users, and they use PowerShell to set specific configurations for select users.
+This section presents four scenarios for deploying Viva Insights. A Microsoft 365 admin can implement any of these scenarios either by using PowerShell or by using the Microsoft 365 admin center. Typically, admins use the admin center to broadly configure Viva Insights for most or all users, and they use PowerShell to set specific configurations for select users.
 
 ### Rollout scenarios
 
@@ -100,6 +100,9 @@ Select and complete one of the following scenarios:
 #### Default on
 
 In this scenario, all surfaces of Viva Insights are turned on by default for all users. They will receive the welcome email and subsequent Viva digest emails and have access to the Viva Insights in Teams app, the Dashboard, the Viva Insights Outlook add-in, and inline suggestions in Outlook.
+
+>[!IMPORTANT]
+> The dashboard will be retired soon, but users will still find personal insights content and settings in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
 
 ##### Confirm the configuration
 
