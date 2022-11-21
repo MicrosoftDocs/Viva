@@ -37,6 +37,8 @@ items:
       href: check-in-reminders.md
     - name: Roles and Permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
+    - name: Viva Goals language support
+      href: viva-goals-language-support.md
 - name: MS Teams
   items:
         - name: Collaborate with Viva Goals in MS Teams
