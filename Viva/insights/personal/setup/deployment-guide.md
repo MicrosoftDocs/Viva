@@ -101,6 +101,9 @@ Select and complete one of the following scenarios:
 
 In this scenario, all surfaces of Viva Insights are turned on by default for all users. They will receive the welcome email and subsequent Viva digest emails and have access to the Viva Insights in Teams app, the Dashboard, the Viva Insights Outlook add-in, and inline suggestions in Outlook.
 
+>[!IMPORTANT]
+> The dashboard will be retired soon, but users will still find personal insights content and settings in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
+
 ##### Confirm the configuration
 
 >[!Note] 

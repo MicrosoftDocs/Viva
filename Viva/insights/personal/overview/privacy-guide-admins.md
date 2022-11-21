@@ -23,6 +23,9 @@ By using data generated from everyday work in Microsoft 365, personal insights i
 
 This guide answers key questions on how Viva Insights processes information in a manner that protects employee privacy and supports compliance with local regulations, such as [General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx).
 
+>[!IMPORTANT]
+> This article discusses the dashboard, which will be retired soon. Users will still find personal insights content in their Viva Insights app in Teams or on the web.[Read more about this change](../reference/mya-retirement.md).
+
 ## Summary of key points
 
 * **Personal insights in Viva Insights is not designed to enable employee evaluation, tracking, automated decision making, profiling, or monitoring**.
