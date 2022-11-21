@@ -33,6 +33,9 @@ To create a shared meeting plan, go to the **Effective meetings** tab in the Viv
 
 Learn a bit more about how a shared meeting plan can help. Then select **Get started**.
 
+![Effective meetings tab get started](./Images/smp-create.png)
+
+
 First, you'll set some meeting norms that affect how your meetings appear on calendars and in Teams. Then, you'll invite participants to join your plan.
 
 #### Create meeting norms
@@ -41,13 +44,20 @@ First, you'll set some meeting norms that affect how your meetings appear on cal
 
 * **Automatically include a Microsoft Teams meeting link**: Select whether every meeting invite includes a link for an online meeting in Microsoft Teams. Adding Teams links promotes hybrid meetings by including both remote and in-person attendees.
 
-* **Get feedback from your meeting participants**: Activate meeting effectiveness surveys for plan participants who have a Viva Insights subscription. Meeting effectiveness surveys promote a healthy meeting culture by providing aggregated feedback to meeting organizers on what’s going well with and what you could be improve in future meetings.
+* **Get feedback from your meeting participants**: Activate meeting effectiveness surveys for plan participants who have a Viva Insights subscription. Meeting effectiveness surveys promote a healthy meeting culture by providing aggregated feedback to meeting organizers on what’s going well with and what you could improve in future meetings.
+
+![Effective meetings tab get started](./Images/smp-meeting-norms.png)
 
 When you're done setting your meeting norms, select **Next**.
+
+>[!Important]
+>After you start the plan, you won't be able to make changes later that apply to all plan participants.
 
 #### Invite participants
 
 Type in names to the **Recipients** field. When you're done adding recipients, you're ready to send them an invitation to join your plan. Select **Confirm** to send.
+
+![Effective meetings tab get started](./Images/smp-add-recipients.png)
 
 After they get your invitation, recipients can accept or decline it.
 
@@ -55,12 +65,52 @@ After they get your invitation, recipients can accept or decline it.
 
 Anyone can join and participate in a shared meeting plan. If you don't have a premium Viva Insights subscription, Viva Insights won't display any settings to request meeting feedback. 
 
-### Join a shared meeting plan
+### To join a shared meeting plan
 
 If someone invites you to join a shared meeting plan, you'll get an invitation in Teams. If you want to join the plan and like the settings the organizer has configured, select **Join**. If you want to edit settings for your meetings before joining, select **Edit**.
 
-If you're already a part of a shared meeting plan, Viva Insights applies the settings from the plan you just joined, then summarizes the changes under **Changes to your plan**. 
+![Effective meetings tab get started](./Images/smp-new-invite.png)
+
+
+If you're already part of a shared meeting plan, Viva Insights applies the settings from the plan you were just invited to, then summarizes the changes under **Changes to your plan**. If you're OK with these changes and want to continue joining the plan, select **Join**. If you want to make changes before joining, select **Edit**.
+
+![Effective meetings tab get started](./Images/smp-changes-to-your-plan.png)
 
 ## For all plan participants
 
-### Edit a shared meeting plan
+After you're part of a shared meeting plan, either as an organizer or a participant, you’ll see that reflected on your **Effective meetings** tab under the **Shared meeting plan** section. 
+
+### To edit a shared meeting plan
+
+Anyone who's part of a plan can make changes to their personal settings. Select **Edit** under the **Shared meeting plan** section, which takes you to your **Settings** page.
+
+![Effective meetings tab get started](./Images/smp-edit.png)
+
+To change whether you send out feedback surveys about your meetings, toggle the switch under **Get feedback on your meetings**. You won't find this setting if you don't have a premium Viva Insights subscription.
+
+To start or stop automatically shortening meetings, toggle the switch under **Shorten meetings**. If you're turning on the feature, use the dropdown menus to set how early you want to end your meetings or how late you want to start them.
+
+To add or stop adding Teams links to meetings, toggle the switch under **Add Teams meeting**.
+
+![Effective meetings tab get started](./Images/smp-change-settings.png)
+
+>[!Note]
+>Changes you make here only apply to your settings and won't change any other plan participants' settings. If you organized the plan and want to make changes that apply to everyone, you'll need to leave the plan, create a new one, and re-invite participants.
+
+### To leave a shared meeting plan
+
+If you want to leave a plan, either [**Edit** the plan](#to-edit-a-shared-meeting-plan) from the **Effective meetings** tab or go to your **Settings** page and select **Effective meetings**.
+
+Within **Your shared meeting plan**, select **Leave plan**.
+
+![Effective meetings tab get started](./Images/smp-leave-plan.png)
+
+After you select **Leave plan**, pick whether you want to keep any of these meeting-related settings from your plan:
+
+* Automatically shorten duration for all meetings
+* Automatically include a Microsoft Teams meeting link
+* Get feedback from your meeting participants
+
+![Effective meetings tab get started](./Images/smp-leave-confirm.png)
+
+Select **Confirm**. Your settings apply right away. 
