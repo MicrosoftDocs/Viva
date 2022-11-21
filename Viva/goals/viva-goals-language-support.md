@@ -1,5 +1,5 @@
 ---
-title: Viva Goals language-support
+title: Viva Goals language support
 ms.reviewer: 
 ms.author: rasanders
 author: rasanders
