@@ -21,7 +21,7 @@ audience: Admin
 # Admin guide for personal insights
 
 >[!IMPORTANT]
-> This article mentions the dashboard, which will be retired soon. Users will still find personal insights content and settings in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
+> This article mentions the dashboard, which will be retired soon. Users will still find personal insights content and settings in their Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
 
 As an administrator, you benefit from knowing what Microsoft Viva Insights provides to its participants and what you can do to enable and enhance their experience.
 
