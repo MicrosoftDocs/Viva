@@ -87,7 +87,7 @@ For more information, see [Differential privacy in Viva Insights](../advanced/pr
 
 ## Organizational data
 
-After the dashboard is set up and populated with data in Power BI, make sure the date range and number of measured employees shown at the top of each page is what you expected for this analysis. **Measured employees** counts the number of employees who were active during the last week, while **Active employees** are those who sent at least one email or Teams chat during the last week. 
+After the dashboard is set up and populated with data in Power BI, make sure the date range and number of measured employees shown at the top of each page is what you expected for this analysis. **Measured employees** counts the number of employees who were active during the last week, meaning they sent at least one email or Teams chat.
 
 >[!Important]
 >As new data is processed on a weekly basis, select **On** for **Keep your data up to date** in the **Scheduled refresh** section in Power BI if you want the report data to refresh in Power BI each week. For details, see [Configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh#scheduled-refresh).
