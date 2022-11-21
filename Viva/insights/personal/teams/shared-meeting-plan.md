@@ -15,11 +15,11 @@ audience: user
 
 # Shared meeting plan
 
-Shared meeting plans help you promote healthy meeting norms with your colleagues. With shared meeting plans, you can automate the following settings to promote research-backed meeting best practices:
+Shared meeting plans in Microsoft Viva Insights help you promote healthy meeting norms with your colleagues. With shared meeting plans, you can automate the following settings to promote research-backed meeting best practices:
 
-* Automatically shorten duration of all meetings (start late or end early) 
-* Automatically include a Microsoft Teams meeting link to all your meetings
-* Get feedback from your meeting participants through meeting effectiveness surveys
+* **Meeting duration** – Give people a breather between events by starting meetings a few minutes late or ending them a few minutes early.
+* **Teams link** – Include a Microsoft Teams meeting link to all your meetings so people can attend remotely.
+* **Feedback** – Find out how your meetings are doing by sending participants meeting effectiveness surveys.
 
 ## For plan organizers
 
@@ -40,11 +40,11 @@ First, you'll set some meeting norms that affect how your meetings appear on cal
 
 #### Create meeting norms
 
-* **Automatically shorten the duration of all meetings**: Choose whether you want events to automatically start late or end early, then pick by how many minutes. You'll set a default number of minutes for meetings that are less than one hour and for meetings that are one hour or longer. When you automatically shorten meetings, you promote wellbeing for all participants by allowing breaks between back-to-back events.
+* **Automatically shorten the duration of all meetings** – Choose whether you want events to automatically start late or end early, then pick by how many minutes. You'll set a default number of minutes for meetings that are less than one hour and for meetings that are one hour or longer. When you automatically shorten meetings, you promote wellbeing for all participants by allowing breaks between back-to-back events.
 
-* **Automatically include a Microsoft Teams meeting link**: Select whether every meeting invite includes a link for an online meeting in Microsoft Teams. Adding Teams links promotes hybrid meetings by including both remote and in-person attendees.
+* **Automatically include a Microsoft Teams meeting link** – Select whether every meeting invite includes a link for an online meeting in Microsoft Teams. Adding Teams links promotes hybrid meetings by including both remote and in-person attendees.
 
-* **Get feedback from your meeting participants**: Activate meeting effectiveness surveys for plan participants who have a Viva Insights subscription. Meeting effectiveness surveys promote a healthy meeting culture by providing aggregated feedback to meeting organizers on what’s going well with and what you could improve in future meetings.
+* **Get feedback from your meeting participants** – Activate meeting effectiveness surveys for plan participants who have a Viva Insights subscription. Meeting effectiveness surveys promote a healthy meeting culture by providing aggregated feedback to meeting organizers on what’s going well with and what you could improve in future meetings.
 
 ![Effective meetings tab get started](./Images/smp-meeting-norms.png)
 
