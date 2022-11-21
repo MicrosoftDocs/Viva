@@ -21,6 +21,9 @@ audience: Admin, user
 
 Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [Dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
 
+  >[!IMPORTANT]
+  > The dashboard will be retired soon, but you'll still find personal insights content and settings in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
+
 ## Microsoft 365 plans
 
 The following Personal insights service plans are generally available with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
