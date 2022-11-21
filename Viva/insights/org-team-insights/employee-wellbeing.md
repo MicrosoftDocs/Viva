@@ -28,7 +28,7 @@ You can find the **Employee wellbeing** page in the Viva Insights app, within th
 
 ### Help employees disconnect
 
-![Screenshot that shows the Help employees disconnect insights.](../Images/WpA/Use/org-trends-wellbeing-balance.png)
+:::image type="content" alt-text="Screenshot that shows the Help employees disconnect insights."source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
 
 #### Insights
 
@@ -62,7 +62,7 @@ For more best practices and ways to protect employees after hours, see [Best pra
 
 ### Focus without interruptions
 
-![Screenshot that shows the Focus without interruptions insights.](../Images/WpA/Use/org-trends-wellbeing-capacity.png)
+:::image type"content" alt-text="Screenshot that shows the Focus without interruptions insights." source="../Images/WpA/Use/org-trends-wellbeing-capacity.png":::
 
 #### Insights
 
@@ -94,7 +94,7 @@ For more best practices and ways to establish a "no meeting" period, see [Best p
 
 ### Reduce meeting hours
 
-![Screenshot that shows the Reduce meeting hours insights](../Images/WpA/Use/org-trends-wellbeing-capacity-2.png)
+:::image type="content" alt-text="Screenshot that shows the Reduce meeting hours insights" source="../Images/WpA/Use/org-trends-wellbeing-capacity-2.png":::
 
 ### Insights
 

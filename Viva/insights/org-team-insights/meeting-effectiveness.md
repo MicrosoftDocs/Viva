@@ -30,7 +30,7 @@ You can find the **Meeting effectiveness** page in the Viva Insights app, within
 
 #### Insights
 
-![Screenshot that shows the Try shorter meetings insight.](../Images/WpA/Use/org-trends-meeting-before.png)
+:::image type="content" alt-text="Screenshot that shows the Try shorter meetings insight." source="../Images/WpA/Use/org-trends-meeting-before.png":::
 
 For **Try shorter meetings**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings, and a visual insight that shows the percentage meetings attended, divided into four categories.
 
@@ -90,7 +90,7 @@ For more best practices and change strategies, see [Best practices for meetings]
 
 #### Insights
 
-![Screenshot that shows the Reinvent the recurring meeting insight.](../Images/WpA/Use/org-trends-meeting-after.png)
+:::image type ="content" alt-text="Screenshot that shows the Reinvent the recurring meeting insight." source="../Images/WpA/Use/org-trends-meeting-after.png":::
 
 For **Reinvent the recurring meeting**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend a majority of their time in recurring meetings and a visual insight that shows the percentage of recurring vs. non-recurring meeting hours.
 
