@@ -19,12 +19,12 @@ audience: Admin
 
 # Privacy guide for admins
 
+>[!IMPORTANT]
+> This article discusses the dashboard, which will be retired soon. Users will still find personal insights content in their Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
+
 By using data generated from everyday work in Microsoft 365, personal insights in Microsoft Viva Insights help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 This guide answers key questions on how Viva Insights processes information in a manner that protects employee privacy and supports compliance with local regulations, such as [General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx).
-
->[!IMPORTANT]
-> This article discusses the dashboard, which will be retired soon. Users will still find personal insights content in their Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
 
 ## Summary of key points
 
