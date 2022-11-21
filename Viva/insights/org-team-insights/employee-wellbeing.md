@@ -22,16 +22,13 @@ Workplaces that balance fluid collaboration patterns alongside capacity for indi
 
 You can find the **Employee wellbeing** page in the Viva Insights app, within the **Organization trends** tab.
 
-<!-- placeholder image-->
-
 ![Screenshot that shows the Employee wellbeing page.](../Images/WpA/Use/employee-wellbeing1.png)
 
 ## Balance
 
 ### Help employees disconnect
 
-<!-- placeholder image-->
-![Screenshot that shows the Help employees disconnect insights.](../Images/WpA/Use/org-help-employees-disconnect.png)
+![Screenshot that shows the Help employees disconnect insights.](../Images/WpA/Use/org-trends-wellbeing-balance.png)
 
 #### Insights
 
@@ -65,8 +62,7 @@ For more best practices and ways to protect employees after hours, see [Best pra
 
 ### Focus without interruptions
 
-<!--placeholder image-->
-![Screenshot that shows the Focus without interruptions insights.](../Images/WpA/Use/org-focus-without-interruptions.png)
+![Screenshot that shows the Focus without interruptions insights.](../Images/WpA/Use/org-trends-wellbeing-capacity.png)
 
 #### Insights
 
@@ -98,9 +94,7 @@ For more best practices and ways to establish a "no meeting" period, see [Best p
 
 ### Reduce meeting hours
 
-<!-- placeholder image-->
-
-![Screenshot that shows the Reduce meeting hours insights](../Images/WpA/Use/org-reduce-meeting-hours.png)
+![Screenshot that shows the Reduce meeting hours insights](../Images/WpA/Use/org-trends-wellbeing-capacity-2.png)
 
 ### Insights
 
@@ -154,7 +148,6 @@ Here's some information about how those metrics are calculated:
 
 <sup>\* Strong ties indicate how strong and tight a person's engagements are, based on both direct collaboration between two people and on the common network they share. (Collaboration activities consist of emails, meetings, Teams calls, and Teams chats.) For example, a "strong tie" between a manager and a direct report reflects both the amount of direct collaboration they have with each other and the time they both invest in connections that are common to both of them. Typically, a person has only a few strong ties because such ties take more effort to maintain. Type: Count.</sup>
 
-
 ##### Best practices
 
 Changes in work environments can leave employees feeling isolated from their colleagues. Feeling part of community is important for engagement and goal alignment as employees navigate change.
@@ -165,5 +158,3 @@ Here are a couple of ways to improve team cohesion:
 
 * Add colleagues to your [important people list](../personal/use/use-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
-
-<!--Best practices-->
