@@ -58,7 +58,7 @@ For more best practices and change strategies, see [Best practices for meetings]
 
 #### Insights
 
-![Screenshot that shows the Improve meeting practices insight.](../Images/WpA/Use/org-trends-meeting-during.png)
+:::image type="content" alt-text="Screenshot that shows the Improve meeting practices insight." source="../Images/WpA/Use/org-trends-meeting-during.png":::
 
 For **Improve meeting practices**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings and a visual insight that shows the percentage of meetings attended, divided into four categories.
 
