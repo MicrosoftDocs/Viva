@@ -15,11 +15,11 @@ audience: user
 
 # Shared meeting plan
 
-Shared meeting plans help you promote healthy meeting norms with your colleagues. You can configure it in the following ways to automate research-backed meeting best practices:
+Shared meeting plans help you promote healthy meeting norms with your colleagues. With shared meeting plans, you can automate the following settings to promote research-backed meeting best practices:
 
-* Automatically shorten duration of all meetings (start late or end early) to take a breather between back-to-back meetings and promote team wellbeing.
-* Automatically include a Microsoft Teams meeting link to all your meetings to promote inclusion of in-person and remote attendees.
-* Get feedback from your meeting participants through meeting effectiveness surveys.
+* Automatically shorten duration of all meetings (start late or end early) 
+* Automatically include a Microsoft Teams meeting link to all your meetings
+* Get feedback from your meeting participants through meeting effectiveness surveys
 
 ## For plan organizers
 
