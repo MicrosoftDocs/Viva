@@ -33,8 +33,6 @@ In this section, you'll find three types of insights, which are based on meeting
 * **Meeting details**: All your meetings in a list, which includes **Category**, **Total time spent**, **Cadence**, and **Duration**.
 ![Screenshot that shows meeting details.](Images/meeting-details.png)
 
-
-
 You can customize what you see here. If you want to:
 
 * Analyze a specific category, select it from the checklist to the left.
@@ -49,27 +47,30 @@ You can customize what you see here. If you want to:
 ## Meeting habits
 
 >[!Note]
-> This capability is currently available in the MyAnalytics dashboard, but it's coming to the Viva Insights app in Teams and on the web soon.
+> We're in the process of rolling out these changes to customers.
 
 The **Meeting habits** section highlights your habits or practices in meetings you organized and accepted. Switch between the **Habits** and **Meetings** views by toggling the control above the graph/table.
 
 * Use percentage data from the **Habits** view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 81% of the online meetings you attend end on time. 
 
-    ![Collaboration Meeting Habits View.](../teams/Images/meeting-effectiveness-habits.png)
+    ![Collaboration Meeting Habits View.](../teams/Images/meeting-effectiveness-habits1.png)
 
 * For details about all your meetings in the past four weeks, use the **Meetings** view.
     
 
-    ![Collaboration Meeting List View.](../teams/Images/meeting-effectiveness-list-view.png)
+    ![Collaboration Meeting List View.](../teams/Images/meeting-effectiveness-details.png)
 
     The **Meetings** view classifies meetings by using icons, which we describe in the following table:
 
    |Icon|Description |
    |--|---|
-   |![recur icon.](../../Images/mya/use/recur-icon.png) |  This meeting is recurring |
-   | ![check mark icon.](../../Images/mya/use/checkmark.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
-   |![X icon.](../../Images/mya/use/x-icon.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
-   |![dash icon.](../../Images/mya/use/dash-icon.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
+   |![recur icon.](../teams/Images/me-icon-recurring-invited.png) |  This meeting is recurring |
+   |![recur, organized by you icon.](../teams/Images/me-icon-recurring-by-you.png)|This meeting is recurring and you organized it
+   |![Invited icon.](../teams/Images/me-icon-invited.png)|You were invited to this meeting
+    |![Organized icon](../teams/images/me-icon-organized-you.png)| You organized this meeting
+   | ![check mark icon.](../teams/images/me-icon-yes.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
+   |![X icon.](../teams/images/me-icon-no.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
+   |![dash icon.](../teams/images/me-icon-na.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
 
 You can sort this table by selecting the column header.
 
