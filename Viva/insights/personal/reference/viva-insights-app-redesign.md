@@ -59,6 +59,8 @@ Like in the previous navigation setup, you'll get to **Settings**, **How it work
 
 We built the **Home** tab as your jumping-off point to explore and use Viva Insights features, and also to summarize important benchmarks.
 
+:::image type="content" source="../../Images/MyA/reference/redesign-homepage-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../Images/MyA/reference/redesign-homepage.png":::
+
 From **Home**, you'll be able to:
 
 * Send praise to colleagues.
@@ -69,11 +71,12 @@ From **Home**, you'll be able to:
 * Check in on your focus plan and quiet time progress.
 * Read **Inspiration library** articles.
 
-
-
 #### Wellbeing
 
 The **Wellbeing** tab helps you understand your work habits, act with intention, and achieve a sustainable work-life balance. Features you used to find on the **Protect time** tab--focus time and focus plan, virtual commute, and quiet time progress--will appear in **Wellbeing**. Looking for the reflect or Headspace meditation features? Those will be here too, along with wellbeing-related articles.
+
+:::image type="content" source="../../Images/MyA/reference/redesign-wellbeing-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../Images/MyA/reference/redesign-wellbeing.png":::
+
 
 #### Productivity
 
