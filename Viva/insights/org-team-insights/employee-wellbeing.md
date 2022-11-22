@@ -62,7 +62,7 @@ For more best practices and ways to protect employees after hours, see [Best pra
 
 ### Focus without interruptions
 
-:::image type"content" alt-text="Screenshot that shows the Focus without interruptions insights." source="../Images/WpA/Use/org-trends-wellbeing-capacity.png":::
+:::image type="content" alt-text="Screenshot that shows the Focus without interruptions insights." source="../Images/WpA/Use/org-trends-wellbeing-capacity.png":::
 
 #### Insights
 
