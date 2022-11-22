@@ -29,9 +29,11 @@ The Microsoft Viva Insights web application will remain discoverable through htt
 
 ## What's changing?
 
-After we roll out these changes, you'll be able to navigate the Viva Insights app through a left-positioned bar instead of the current, top-aligned one. You'll also find Viva Insights content consolidated across four tabs. 
+After we roll out these changes, you'll be able to navigate the Viva Insights app through a left-positioned bar instead of the current, top-aligned one.  
 
-Because we're consolidating content into four tabs, these tabs from the old design won't be available anymore:
+![Screenshot that shows the Viva Insights app's new navigation bar.](../../Images/MyA/reference/redesign-navigation-change.png)
+
+You'll also find Viva Insights content consolidated across four tabs. Because of this consolidation, these tabs from the old design won't be available anymore:
 
 * **Stay connected**
 * **Effective meetings**
@@ -43,8 +45,6 @@ Because we're consolidating content into four tabs, these tabs from the old desi
 >In the previous design, insights for leaders used to only appear on the **Organization trends** or **Teamwork habits** tab. Now, leaders can find insights throughout each new tab. We talk about leader content more [later](#for-leaders).
 
 ### Navigation
-
-![Screenshot that shows the Viva Insights app's new navigation bar.](../../Images/MyA/reference/redesign-navigation-change.png)
 
 The navigation bar will always sit on the left-hand side of the page, and you can access it at any time. <!--pending confirmation re: Focus mode-->
 
@@ -73,20 +73,23 @@ From **Home**, you'll be able to:
 
 #### Wellbeing
 
-The **Wellbeing** tab helps you understand your work habits, act with intention, and achieve a sustainable work-life balance. Features you used to find on the **Protect time** tab--focus time and focus plan, virtual commute, and quiet time progress--will appear in **Wellbeing**. Looking for the reflect or Headspace meditation features? Those will be here too, along with wellbeing-related articles.
+The **Wellbeing** tab is designed to help you understand your work habits, act with intention, and achieve a sustainable work-life balance. Features you used to find on the **Protect time** tab—focus time and focus plan, virtual commute, and quiet time progress—will appear in **Wellbeing**. Looking for the reflect or Headspace meditation features? Those will be here too, along with wellbeing-related articles.
 
 :::image type="content" source="../../Images/MyA/reference/redesign-wellbeing-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../Images/MyA/reference/redesign-wellbeing.png":::
 
 
 #### Productivity
 
-The **Productivity** tab helps you find and decrease non-productive meeting time, and also helps you stay on top of your work with suggested tasks. Content you used to find in **Effective meetings**--including meeting surveys, meeting categories insights, shared meeting plans, and meeting habits--and **Stay connected**--including suggested tasks--will soon live in **Productivity**.
+Effective meetings and clear tasks are key to increasing productivity. 
+That's why we built the **Productivity** tab—to help you identify ways to identify and decrease non-productive meeting time, and also stay on top of your work with suggested tasks. Content you used to find in **Effective meetings** (meeting surveys, meeting categories insights, shared meeting plans, and meeting habits) and **Stay connected** (suggested tasks) will soon live in **Productivity**.
 
 :::image type="content" source="../../Images/MyA/reference/redesign-productivity-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../Images/MyA/reference/redesign-productivity.png":::
 
 #### Teamwork
 
-With its insights on network and collaboration, **Teamwork** will become your hub for building and strengthening connections with your team. We're moving some familiar content from your MyAnalytics dashboard here--like network and collaboration habits--so you can get a quantitative picture of who you collaborate with and how.
+With its insights on network and collaboration, **Teamwork** will become your hub for building and strengthening connections with your team. We're moving some familiar content from your MyAnalytics dashboard here—like network and collaboration habits—so you can get a quantitative picture of who you collaborate with and how.
+![teamwork](../../Images/MyA/reference/redesign-teamwork.png)
+
 
 ### For leaders
 
