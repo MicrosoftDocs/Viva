@@ -33,8 +33,6 @@ In this section, you'll find three types of insights, which are based on meeting
 * **Meeting details**: All your meetings in a list, which includes **Category**, **Total time spent**, **Cadence**, and **Duration**.
 ![Screenshot that shows meeting details.](Images/meeting-details.png)
 
-
-
 You can customize what you see here. If you want to:
 
 * Analyze a specific category, select it from the checklist to the left.
