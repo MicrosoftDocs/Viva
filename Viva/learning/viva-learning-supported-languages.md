@@ -24,12 +24,23 @@ Viva Learning adapts to your organization's Microsoft 365 language preferences. 
 
 |&nbsp; | &nbsp; | &nbsp; |
 |---|---|---|
-English|Chinese (Traditional)|Danish|
-Japanese|Korean|Hungarian|
-German|Dutch|Finnish|
-Chinese (Simplified)|Polish|Indonesian|
-Spanish|Swedish|Greek|
-French|Turkish|Romanian|
-Portuguese (Brazil)|Czech|Ukrainian|
-Russian|Portuguese (Portugal)|Catalan|
-Italian|Thai|Norwegian Bokmål|
+Shqip (Shqipëri)|Mакедонски(Северна Македонија)|Norsk, Nynorsk (Norge)
+Azərbaycan (Azərbaycan)|Galego (Galego)|Polski (Polska)
+Euskara (Euskara)|ქართული (საქართველო)|Português (Brasil)
+বাংলা (ভারত)|Deutsch (Deutschland)|Português (Portugal)
+Български (България)|Ελληνικά (Ελλάδας)|Română (România)
+Català (Català)|ગુજરાતી (ભારત)|Русский (Россия)
+Valencià (Espanya)|हिन्दी (भारत)|Srpski (Srbija)
+中文(中国)|Magyar (Magyarország)|Slovenčina (Slovenská republika)
+中文(台灣)|Íslenska (Ísland)|Slovenščina (Slovenija)
+Hrvatski (Hrvatska)|Bahasa Indonesia (Indonesia)|Español (España, alfabetización internacional)
+Čeština (Česká republika)|Italiano (Italia)|Español (México)
+Dansk (Danmark)|日本語 (日本)|Svenska (Sverige)
+Nederlands (Nederland)|ಕನ್ನಡ (ಭಾರತ)|தமிழ் (இந்தியா)
+English (United Kingdom)|Қазақ (Қазақстан)|తెలుగు (భారతదేశం)
+English (United States)|한국어 (대한민국)|ไทย (ไทย)
+Eesti (Eesti)|Latviešu (Latvija)|Türkçe (Türkiye)
+Filipino (Pilipinas)|Lietuvių (Lietuva)|Українська (Україна)
+Suomi (Suomi)|മലയാളം (ഇന്ത്യ)|Tiếng Việt (Việt Nam)
+Français (Canada)|मराठी (भारत)|Cymraeg (Y Deyrnas Unedig)
+Français (France)|Norsk, Bokmål (Norge)	
