@@ -26,7 +26,7 @@ Only managers whose team meets or exceeds the **Minimum team size** setting 
 
 The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. The following are based on Azure Active Directory data by default, or the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
 
-* **Measured managers** – Managers who are assigned licenses can see their team's insights through Group insights within My team in Viva Insights in Teams.
+* **Measured managers** – Managers who are assigned licenses can see their team's insights through **Organization trends** Viva Insights in Teams.
 * **Managers enabled** – Only managers who meet the minimum team size can view their team's insights.
 * **Minimum team size** – You can set the minimum size of a team that a manager is allowed to view insights about and start plans for. The minimum size allowed is 10 (including the manager). This section also shows you how many measured managers currently have teams that are equal to or more than the minimum setting.
 
