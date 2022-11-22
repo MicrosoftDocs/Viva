@@ -82,6 +82,8 @@ The **Wellbeing** tab helps you understand your work habits, act with intention,
 
 The **Productivity** tab helps you find and decrease non-productive meeting time, and also helps you stay on top of your work with suggested tasks. Content you used to find in **Effective meetings**--including meeting surveys, meeting categories insights, shared meeting plans, and meeting habits--and **Stay connected**--including suggested tasks--will soon live in **Productivity**.
 
+:::image type="content" source="../../Images/MyA/reference/redesign-productivity-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../Images/MyA/reference/redesign-productivity.png":::
+
 #### Teamwork
 
 With its insights on network and collaboration, **Teamwork** will become your hub for building and strengthening connections with your team. We're moving some familiar content from your MyAnalytics dashboard here--like network and collaboration habits--so you can get a quantitative picture of who you collaborate with and how.
