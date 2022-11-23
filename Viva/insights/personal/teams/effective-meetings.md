@@ -49,18 +49,18 @@ You can customize what you see here. If you want to:
 >[!Note]
 > We're in the process of rolling out these changes to customers.
 
-The **Meeting habits** section highlights your habits or practices in meetings you organized and accepted. Switch between the **Habits** and **Meetings** views by toggling the control above the graph/table.
+The **Meeting habits** section highlights your habits or practices in meetings you organized and accepted. Switch between the **Meeting habits** and **Meeting details** views by selecting the tabs above the graph/table.
 
-* Use percentage data from the **Habits** view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 81% of the online meetings you attend end on time. 
+* Use percentage data from the **Meeting habits** view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 80% of the meetings you attended ended on time. 
 
     ![Collaboration Meeting Habits View.](../teams/Images/meeting-effectiveness-habits1.png)
 
-* For details about all your meetings in the past four weeks, use the **Meetings** view.
+* For details about all your meetings in the past four weeks, use the **Meeting details** view.
     
 
     ![Collaboration Meeting List View.](../teams/Images/meeting-effectiveness-details.png)
 
-    The **Meetings** view classifies meetings by using icons, which we describe in the following table:
+    The **Meeting details** view classifies meetings by using icons, which we describe in the following table:
 
    |Icon|Description |
    |--|---|
