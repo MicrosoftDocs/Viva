@@ -93,13 +93,26 @@ With its insights on network and collaboration, **Teamwork** will become your hu
 
 ### For leaders
 
-Each tab will contain insights for leaders to help you drive productivity, promote work-life balance, and strengthen connections with your team. On each tab, you'll find insights related to different key indicators for your group:
+Like in the old design, the Viva Insights app will still contain insights for leaders to help you drive productivity, promote work-life balance, and strengthen connections with your team. 
 
-* **Wellbeing** - Focused work and work-life balance
-* **Teamwork** - Manager coaching and networks
-* **Productivity** - Meeting effectiveness
+Every day, you'll find a different featured insight on each tab. Each tab (except Home) contains insights related to different key indicators for your group:
 
-Every day, you'll find a different featured insight on each tab. Insights on the **Home** tab draw from insights on the **Productivity**, **Wellbeing**, and **Teamwork** tabs. Each insight shows the current week's average measure, along with the difference from the last week. 
+* **Wellbeing** – Focused work and work-life balance
+
+    ![Screenshot that shows org trends on the Wellbeing tab.](../../Images/MyA/reference/redesign-wellbeing-org-insights.png)
+
+* **Teamwork** – Manager coaching and networks
+
+    ![Screenshot that shows org trends on the Teamwork tab.](../../Images/MyA/reference/redesign-teamwork-org-insights.png)
+
+* **Productivity** – Meeting effectiveness
+
+    ![Screenshot that shows org trends on the Productivity tab.](../../Images/MyA/reference/redesign-productivity-org-insights.png)
+
+
+**Home** works a little differently. Insights on the **Home** tab draw from insights on the **Productivity**, **Wellbeing**, and **Teamwork** tabs. Each insight shows the current week's average measure, along with the difference from the last week. 
+
+![Screenshot that shows org trends on the Home tab.](../../Images/MyA/reference/redesign-home-org-insights.png)
 
 You'll notice several new insights throughout each tab, including **Meeting hours**, **No-meeting day impact**, **Join on time rate**, and **Focus time impact**. You can share insights with others through a Teams chat or direct link.
 
