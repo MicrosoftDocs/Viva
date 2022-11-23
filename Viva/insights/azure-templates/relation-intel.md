@@ -163,7 +163,7 @@ After the Relationship Intelligence Report is set up and populated with data, us
 
     ![Power BI error if no database and server data are linked.](./images/ri-pbi-error.png)
 
-For details about how to share the dashboard and other Power BI tips, to troubleshoot common issues, or to review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, to troubleshoot common issues, or to review the FAQ, see [Power BI templates in Workplace Analytics](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 For more details about how to use Power BI tools, see [Interact with visuals in reports, dashboards, and apps](/power-bi/consumer/end-user-visualizations).
 
@@ -182,7 +182,7 @@ The following metrics are used in Relationship Intelligence.
 |Meeting Hours |Total number of hours spent collaborating in meetings with an individual, group, or account. |
 |Total Collaboration Hours |Total sum of Email Hours and Meeting Hours, which represents the total person hours spent with an individual, group, or account. |
 
-For details about how to share the dashboard and other Power BI tips, to troubleshoot common issues, or to review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, to troubleshoot common issues, or to review the FAQ, see [Power BI tips, FAQ, and troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Related topics
 

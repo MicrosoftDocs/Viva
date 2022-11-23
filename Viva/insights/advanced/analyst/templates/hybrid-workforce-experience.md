@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Hybrid Workforce Experience Power BI report
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: lilyolason
@@ -25,7 +24,7 @@ As leaders figure out their organization’s new working models, the Hybrid work
 
 The report has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.
 
-![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-ga-pbi-summary.png)
+![Screenshot that shows the Hybrid workforce experience Power BI report, Report summary.](/viva/insights/advanced/images/hwfe-ga-pbi-summary.png)
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Hybrid workforce experience** query  in Viva Insights.
 
@@ -49,7 +48,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
   * **SupervisorIndicator**, an attribute indicating whether someone is a manager.
   * **HireDate**, an attribute indicating the person’s hire date is required to be able to load the **New hire onboarding insights**. Without this attribute, however, the rest of the report will still load.
 
-For further details on organizational data preparation and upload, download our [step-by-step guide](https://go.microsoft.com/fwlink/?linkid=2205161).
+For more details on organizational data preparation and upload, download our [step-by-step guide](https://go.microsoft.com/fwlink/?linkid=2205161).
 
 You can add new attributes to your organizational data at any time. For more details on how to add new data for existing employees, review the documentation on [subsequent uploads](../../admin/upload-org-data-subsequent.md).
 
@@ -62,7 +61,7 @@ You can add new attributes to your organizational data at any time. For more det
 
 1. In the analyst experience in Viva Insights, select **Analysis**.
 
-2. Under **Power BI templates**, navigate to **Hybrid workforce experience** and select **Start analysis**. To get more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
+2. Under **Power BI templates**, navigate to **Hybrid workforce experience** and select **Start analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 
 3. Under **Query setup**:
     1. Type a **Query name**.
@@ -89,10 +88,10 @@ You can add new attributes to your organizational data at any time. For more det
 
     ![Hybrid workforce experience query predefined metrics](/viva/insights/advanced/images/hwfe-ga-pbi-predefined-metrics.png)
 
-1. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
+1. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a custom Person query](../person-query.md).
 ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
-1. Under **Select which employee attributes you want to include in the query**, select the **HireDate** attribute if available. Then, add other organizational attributes—you can add up to seven organizational attributes, including **HireDate**. Once the query runs, you can use these attributes to group and filter the reports.
+1. Under **Select which employee attributes you want to include in the query**, select the **HireDate** attribute if available. Then, add other organizational attributes. You can add up to seven organizational attributes, including **HireDate**. After the query runs, you can use these attributes to group and filter the reports.
 
     >[!IMPORTANT]
     >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Do not remove any preselected attributes.*
@@ -144,7 +143,7 @@ After this initial prompt, you can then select **Settings** at top right of any 
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
 
-    ![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-ga-pbi-settings.png)
+    ![Screenshot that shows Hybrid workforce experience Power BI report, Customize work mode.](/viva/insights/advanced/images/hwfe-ga-pbi-settings.png)
 
 ## About this report
 
@@ -180,7 +179,7 @@ This page shows the average internal employee network size, split by work mode, 
 
 **How does hybrid work impact flexible schedules and the employees’ ability to unplug?**
 
-This page shows, by work mode, the percent of employees collaborating outside of their working hours as set in Outlook for more than five hours per week. The chart on the right takes into account both the number of distinct daily hours employees participate in meetings, emails, and Teams chats or calls, as well as the average weekly hours employees spend collaborating outside of their set working hours. By combining both metrics, the following working patterns are identified:
+This page shows, by work mode, the percent of employees collaborating outside of their working hours as set in Outlook for more than five hours per week. The chart on the right takes into account both the number of distinct daily hours employees participate in meetings, emails, and Teams chats or calls, as well as the average weekly hours employees spend collaborating outside of their set working hours. By combining both metrics, the page shows the following working patterns:
 
 * Long non-standard hours: employees with more than nine distinct active hours a day and spending more than five hours a week in collaboration outside of set working hours.
 * Long hours: employees with more than nine active hours a day but fewer than five hours a week in collaboration outside of set working hours.
@@ -202,7 +201,7 @@ The chart on the right shows the average internal new-hire network size in an em
 
 **How does the employee and manager work mode impact the employees’ access to manager coaching?**
 
-This page shows, by work mode, the average 1:1 time employees get with their manager. The chart on the right explores whether a manager’s work mode affects the 1:1 time employees get with their manager. If the correlation is **Large**, Mostly onsite managers may have an unconscious tendency to give preferential treatment to those employees in the immediate vicinity.
+This page shows, by work mode, the average 1:1 time employees get with their manager. The chart on the right explores whether a manager’s work mode affects the 1:1 time employees get with their manager. If the correlation is **Large**, Mostly onsite managers might have an unconscious tendency to give preferential treatment to those employees in the immediate vicinity.
   
 #### Track changes
 
@@ -216,7 +215,7 @@ The report also includes the following features:
 
 * **Break out by group** panes, which allow you to do further drill-throughs on the report pages and group data by different organizational attributes.
 * **Take action** panes, which list opportunity areas and recommended actions for each section in the report.
-* **Settings**, which enables you to:
+* **Settings**, where you can:
     * Select the time period and organizational attribute by which to view the reports.
     * Select which employees to include in the reports.
     * Use exclusion options.

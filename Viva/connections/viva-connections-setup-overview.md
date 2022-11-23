@@ -38,7 +38,7 @@ There are two options that provide in-depth information about how to get Viva Co
 | Option                  | Description        | Time to complete|
 | :--------------------- | :--------------------|:----------------------:|
 | [Plan, build, and launch guidance](plan-viva-connections.md) | Get detailed guidance that focus on tasks in the plan, build, and launch phases.   | 30 minutes           |
-| [Learning path](/learn/paths/viva-connections-get-started/)    | Get even more in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings.       | 2 hours            | 
+| [Learning path](/training/paths/viva-connections-get-started/)    | Get even more in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings.       | 2 hours            | 
 
 
 ## Overview of setting up Viva Connections

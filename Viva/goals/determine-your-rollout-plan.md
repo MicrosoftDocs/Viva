@@ -42,7 +42,7 @@ One of the most popular ways to roll out an OKR program is from the top down. Th
 
 **After another quarter or two, team managers expand their key results.** At this point, individual team members become involved.  
 
-**Ask participants to take the [OKR Leadership Program learning path on demand](/learn/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
+**Ask participants to take the [OKR Leadership Program learning path on demand](/training/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
 
 ### Department-wide pilot group
 
@@ -52,7 +52,7 @@ Another popular rollout method is for one individual department or group, such a
 
 **Once the individual department and management is comfortably in a rhythm, a training plan is formulated to roll out OKRs to the rest of the organization.** This plan uses the lessons from the individual department to make the process as smooth as possible for the organization as a whole.  
 
-**Ask participants to take the [OKR Leadership Program learning path on-demand](/learn/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
+**Ask participants to take the [OKR Leadership Program learning path on-demand](/training/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
 
 ### Another option: Big bang theory 
 

@@ -6,11 +6,13 @@ manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection: 
+- m365initiative-viva-topics
+- highpri
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
-    - MET150   
+- MET150   
 ms.localizationpriority:  medium
 description: Learn how to edit an existing topic in Microsoft Viva Topics.
 

@@ -77,9 +77,6 @@ You can open **Focus mode** in a separate pop-out window in Teams, which allows 
 
 ## Configure quiet time
 
->[!NOTE]
->Quiet time is only available as a preview.
-
 Research shows that long hours and the pressure to always be available can lead to employee burnout. The amount of time you spend collaborating outside of business hours can be an indicator that you are at risk of burnout, even as you and your team embrace flexibility.
 
 This feature can help protect your quiet time, which is the hours each day when you want to disconnect from work and recharge. To minimize work related interruptions, you can schedule when you want mobile notifications from Outlook and Teams to automatically be muted.

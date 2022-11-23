@@ -12,12 +12,15 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- highpri  
 search.appverid:
 - MET150
 description: "Learn how to navigate the admin dashboard"
 ---
 # Navigate the admin Dashboard
+
+To login to Viva Goals, visit: https://goals.microsoft.com/
 
 Organization admins have direct access to the Microsoft Viva Goals admin dashboard. The dashboard offers settings that you can customize for your organization, which creates efficiency and confidence in Microsoft Viva Goals.
 
@@ -26,7 +29,7 @@ Like other employees, you need to be familiar with:
 - How to write great OKRs  
 - Viva Goals software training 
 
-Review the [Get Started with Viva Goals Learning path](/learn/paths/viva-goals-get-started) to dive deeper into these topics.  
+Review the [Get Started with Viva Goals learning path](/training/paths/viva-goals-get-started) to dive deeper into these topics.  
 
 ## How to access and use the admin dashboard
 

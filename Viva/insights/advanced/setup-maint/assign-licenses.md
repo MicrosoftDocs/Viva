@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+
 title: Assign licenses overview
 description: Get an overview about assigning licenses to Microsoft Viva Insights users 
 author: lilyolason
@@ -27,7 +27,7 @@ The Viva Insights sponsor works with the Viva Insights Administrator and Microso
 
 Employees in your organization who aren't licensed for analysis—but might collaborate with your measured employees through meetings, email, unscheduled calls, or Teams chats—are *other internal collaborators*. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
-After you've identified the population in scope, the Microsoft 365 global admin assigns Viva Insights licenses to users in that population. Note that people can find out whether they've been assigned a license; see [Subscription status](#subscription-status).
+After you've identified the population in scope, the Microsoft 365 global admin assigns Viva Insights licenses to users in that population. People can find out whether they've been assigned a license; refer to [Subscription status](#subscription-status).
 
 The assignment of licenses affects the measured population that is shown in **Organizational data > Data quality**.
 
@@ -49,14 +49,14 @@ Microsoft 365 users might want to find out whether their collaboration data is b
 
 ## License assignment options
 
-Viva Insights licenses are assigned just like other Microsoft 365 product licenses. You can assign them by using the [Microsoft 365 admin center​](/microsoft-365/admin/add-users/add-users), PowerShell, or Azure [group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign):
+Viva Insights licenses are assigned just like other Microsoft 365 product licenses. You can assign them by using the [Microsoft 365 admin center​](/microsoft-365/admin/add-users/add-users), PowerShell, or Azure [group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign).
 
 >[!Note]
 >Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Microsoft 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
 
 ### If mailboxes are not fully migrated to Microsoft 365 Exchange Online
 
-If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Azure AD [Global Admin](/azure/active-directory/roles/permissions-reference#global-administrator) or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online. 
+If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you might encounter mailboxes that are hosted using Exchange on-premises. Your Azure Active Directory (AD) [Global Admin](/azure/active-directory/roles/permissions-reference#global-administrator) or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online. 
 
 ## Appearance of newly licensed users
 

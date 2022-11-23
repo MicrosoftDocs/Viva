@@ -11,8 +11,9 @@ ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
 ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+- enabler-strategic
+- m365initiative-viva-learning
+- highpri
 localization_priority: medium
 description: Learn how to add SharePoint as a learning content source for Microsoft Viva Learning.
 
@@ -25,6 +26,8 @@ You can configure SharePoint as a learning content source to make your organizat
 >[!NOTE]
 > Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Any content you add to Viva Learning, such as SharePoint-hosted content, is subject to the privacy and service terms associated with that content.
 
+ > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58RgE]  
+
 ## Overview
 
 The knowledge admin (or global administrator) provides a site URL to where the [Learning Service](configure-sharepoint-content-source.md#learning-service) can create an empty centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in Viva Learning.
@@ -36,6 +39,7 @@ Viva Learning supports the following document types:
 - Word, PowerPoint, Excel, PDF
 - Audio (.m4a)
 - Video (.mov, .mp4, .avi)
+- [Linked objects (preview)](#add-linked-objects)
 
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
@@ -117,6 +121,21 @@ Create a folder to store learning content for your organization.
 > [!IMPORTANT]
 > Users will only be able to view content in Viva Learning if you give them the correct permissions. [Configure permissions for SharePoint content](sharepoint-permissions.md).
 
+#### Add linked objects
+
+You can add links to both internal content from SharePoint and external content from sites such as YouTube or Vimeo that will pull through into Viva Learning.
+
+1. In your folder, select **New** and then choose **Link**.
+    ![Screenshot of the documents library with New and Link selected.](../media/learning/sp-new-link.png)
+2. Add the URL and choose a name.
+    ![Screenshot of the new link pane with a URL and name filled in.](../media/learning/sp-linkname.png)
+3. Select **Create**.
+4. The link will show up in your document library with the name you selected.
+    ![Screenshot of the documents library with a new file called Azure.url.](../media/learning/sp-linkinlibrary.png)
+5. The linked object will show up in the Viva Learning app.
+
+When users access the content from Viva Learning, they'll be taken to the URL of the content in their browser.
+
 ### Metadata
 
 Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning by the Microsoft Graph API.
@@ -144,12 +163,7 @@ Next, provide a thumbnail image.
 1. Follow the initial steps to create a column.
 2. Choose **Hyperlink**.
 3. Name the column ThumbnailWebURL.
-4. If you already have the URLs available, skip to step 8. If you have images stored in SharePoint that you want to use for thumbnails, start with step 5.
-5. Go to the document library where your images are stored in SharePoint.
-6. Select the image you want to use, then choose **Details**.
-7. Choose **Path** and select the copy icon.
-    [![Screenshot of an image in a document library with Copy link selected.](../media/learning/copy-link.png)](../media/learning/copy-link-big.png#lightbox)
-8. Add the URLs for each item.
+4. Add the URLs for each item.
 
 Next, add the duration of the content.
 
