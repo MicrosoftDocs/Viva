@@ -36,7 +36,7 @@ The Contribute card can be used to reach people who are known knowledge managers
 
 ## The Viva Topics Discover card
 
-![Screenshot Viva Topics Discover card.](../media/knowledge-management/viva-topics-discover-card.png) 
+![Screenshot Viva Topics Discover card.](../media/knowledge-management/discover-card-edit-2.png) 
 
 The Discover card can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic. Topics and knowledge areas are dynamically displayed in the card based on the viewer’s interests, current projects, and expertise. When viewers engage with the Discover card, they will be directed to the Topic center where they can learn more about topics and contribute (Edit an existing topic in Microsoft Viva Topics | Microsoft Docs).
 
