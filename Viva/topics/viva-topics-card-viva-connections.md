@@ -44,14 +44,14 @@ The Discover card can be used to view topics and knowledge areas for people who 
 ## Use the Viva Topics cards
 
 >[!NOTE]
-> - You need site owner permissions or higher to your organization’s [SharePoint home site](sharepoint/home-site.md) to edit the Viva Connections Dashboard.
+> - You need site owner permissions or higher to your organization’s [SharePoint home site](/sharepoint/home-site) to edit the Viva Connections Dashboard.
 > - Viva Topics cards will be generally available by the end of December 2022.
 
 Viva Topics cards can be added to the Viva Connections Dashboard. The Dashboard is one part of the Viva Connections experience that surfaces tools and content relevant to the viewer. [Learn more about how to add Viva Topics cards to the Dashboard](/viva/connections/create-dashboard#create-a-dashboard-and-add-cards).
 
 ![Screenshot of the Viva Topics cards in the Viva Connections toolbox.](../media/knowledge-management/viva-topics-toolbox.png) 
 
-1. Start by navigating to the [SharePoint home site](sharepoint/home-site.md) and select **Manage Viva Connections** in the Settings panel.  
+1. Start by navigating to the [SharePoint home site](/sharepoint/home-site) and select **Manage Viva Connections** in the Settings panel.  
 2. Select **Create Dashboard** or **View Dashboard**.
 3. Select **Add card** and then select one of the a Viva Topics cards.
 4. Select the **Edit** (pencil icon) to open the settings panel where you can choose the card size and add audience to target. 
