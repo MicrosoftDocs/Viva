@@ -1,8 +1,8 @@
 ---
 title: Add the Viva Topics app in the Teams Admin Center
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: ruthhollands
+author: ruthholls
+manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article

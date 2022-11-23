@@ -91,7 +91,7 @@ Email and chat activity during meetings unrelated to meeting goals can lead to d
 * Prepare thoughtful agendas that clearly state meeting goals and the purpose of each participant's attendance. Frame agenda topics as questions to focus and prime discussions.
 * People have short attention spans. To keep meeting participants engaged during longer meetings, structure agendas in 15-minute increments and take mini-breaks.
 
-For more best practices and ways to maintain the interest and participation of meeting attendees, see [Best practices for meetings](/viva/insights/personal/tutorials/gm-meetings).
+For more best practices and ways to maintain the interest and participation of meeting attendees, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
 
 ### Protect time to get work done
 

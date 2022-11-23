@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Privacy settings and exclusions for Viva Insights
 description: Describes the privacy settings and exclusions in Viva Insights that administrators can set up and edit for your organization
 author: madehmer
@@ -17,7 +17,7 @@ audience: Admin
 
 # Privacy settings and exclusions
 
-As the Viva Insights admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](../Tutorials/query-designer.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Viva Insights keeps personal data private.
+As the Viva Insights admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](/viva/insights/Tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Explore the stats](/viva/insights/Use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Watch the [Privacy video](#privacy-video) to learn more about how Viva Insights keeps personal data private.
 
 You can use privacy settings to:
 
@@ -27,7 +27,7 @@ You can use privacy settings to:
 * [Exclude email addresses](#exclude-domains-or-email-addresses)
 * [Exclude terms from subject lines](#exclude-terms-from-subject-lines)
 
-**Owner** – Viva Insights admins have full access to this page. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Viva Insights admins have full access to this page. For details, see [Assign roles to admins and analysts](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 Admins configure the privacy settings in **Analyst settings** > **Privacy** when setting up the advanced insights app.
 
@@ -46,7 +46,7 @@ If you do change privacy settings, your changes take effect after Microsoft 365 
 
 ## Minimum group size
 
-The minimum-group-size rule protects people from being identified in Viva Insights data, including in [Insights](insights.md), [Explore the stats](../Use/explore-intro.md), and [Plans](../tutorials/solutionsv2-intro.md). If you change this setting, your change takes effect immediately.
+The minimum-group-size rule protects people from being identified in Viva Insights data, including in [Insights](/viva/insights/use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [Explore the stats](/viva/insights/Use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), and [Plans](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If you change this setting, your change takes effect immediately.
 
 The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
 
@@ -59,14 +59,14 @@ For example, the columns on the left in the following graphic shows chart data f
 
 ## Hash subject lines
 
-Use this setting to control whether to show or hash subject lines in [Meeting query](../tutorials/meeting-queries.md) results, which, by default, are *not* shown.
+Use this setting to control whether to show or hash subject lines in [Meeting query](/viva/insights/tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) results, which, by default, are *not* shown.
 
 If you select **Yes** for **Hash subject lines**, they are converted to a hashed value (a system-generated number), so the text in unreadable in any queries. You can still create meeting queries that include subject-line terms, such as for meeting attributes. However, you won't be able to see a list of meetings that show the subject lines. (After you make this setting, it can take up to ten minutes for your change to take effect. After the change does take effect, it affects data that Viva Insights has already processed.)
 
 For example, you could run a query with the subject-line keyword "All-hands." Based on the attributes you include in the query, the results could show data with that subject line, including the number of meetings, the length and size of the meetings, and so on. However, you could not get a specific list of all the meetings with the subject line "All-hands" (a row for each all-hands meeting).
 
 >[!Note]
->Viva Insights offers a second opportunity to control which HR attributes are included in query output. You can make selections for the "Include in report" and "Hash in report" options in a dropdown menu when you map uploaded HR data. For details, see the descriptions of **Include in report** and **Hash in report** in [Field mapping](../setup/upload-organizational-data2.md#field-mapping).
+>Viva Insights offers a second opportunity to control which HR attributes are included in query output. You can make selections for the "Include in report" and "Hash in report" options in a dropdown menu when you map uploaded HR data. For details, see the descriptions of **Include in report** and **Hash in report** in [Field mapping](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-mapping).
 
 ## Exclude domains or email addresses
 
@@ -110,7 +110,7 @@ Term from subject line to exclude | Actual subject line | Excluded
  legal;acquisition | Acquisitions are finalized | No - Does not match partial words, and did not exclude acquisitions
  legal;acquisition |Is this a legal acquisition | Yes  - Excluded both legal and acquisition
 
-Learn more about [Viva Insights privacy and data access](../privacy/privacy-and-data-access.md).
+Learn more about [Viva Insights privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## To configure privacy settings
 
@@ -135,5 +135,5 @@ Learn more about [Viva Insights privacy and data access](../privacy/privacy-and-
 
 ## Related topics
 
-* [Set up Advanced insights](../setup/set-up-workplace-analytics.md)
-* [System defaults](system-defaults.md)
+* [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [System defaults](/viva/insights/use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)

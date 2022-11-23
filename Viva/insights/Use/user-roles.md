@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Roles for Viva Insights
 description: Which roles get access to which Viva Insights features
 author: madehmer
@@ -106,6 +106,6 @@ In the Azure Portal, you can assign multiple roles to one account, but you can a
 
 ## Related topics
 
-* [Assign user or group roles](../setup/assign-user-roles.md)
+* [Assign user or group roles](/viva/insights/setup/assign-user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [What is Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis)
 * [Managing access to resources with Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups)

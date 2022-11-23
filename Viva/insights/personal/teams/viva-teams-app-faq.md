@@ -54,7 +54,7 @@ The following are the most frequently asked questions about personal insights wi
   * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status.
   * Task statements. Statements that people have made in the body text of the email. These statements are used to create task cards for your use only.
 
-<!-- THIS 'TASK CARDS' LINK NEEDS TO GO HERE: [task cards](../WorkplaceAnalytics/personal/Use/MyA-Outlook-add-in/MyA-Add-in-To-do.md)  WHICH REPLACED [task cards](https://docs.microsoft.com/workplace-analytics/personal/use/mya-outlook-add-in/mya-add-in-to-do) -->
+<!-- THIS 'TASK CARDS' LINK NEEDS TO GO HERE: [task cards](../WorkplaceAnalytics/personal/Use/MyA-Outlook-add-in/MyA-Add-in-To-do.md)  WHICH REPLACED [task cards](https://learn.microsoft.com/workplace-analytics/personal/use/mya-outlook-add-in/mya-add-in-to-do) -->
 
 * Information from calendar items:
   * Type (meeting or appointment)

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Advanced insights FAQ
 description: Frequently asked questions about advanced insights for the advanced insights app with Microsoft Viva Insights
 author: lilyolason
@@ -82,7 +82,7 @@ A3. Yes. You can use filters in queries that include the following:
 * Attributes or values from your organizational data that include non-English words or characters.
 * Meeting subject lines (which can include non-English words or characters) as specific filter criteria.
 
-For more information, see [Customize a base metric in a query](../tutorials/customize-a-metric.md).
+For more information, see [Customize a base metric in a query](/viva/insights/tutorials/customize-a-metric?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Setup and configuration
 
@@ -95,19 +95,19 @@ A1. The main tasks required to enable advanced insights for your organization ar
 * Configure settings
 * Upload organizational data
 
-For details about setup, see [Set up Advanced insights](../setup/set-up-workplace-analytics.md).
+For details about setup, see [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ##### Q2. What if my licensed population works in different time zones or has varying working hours?
 
-A2. Not an issue. Viva Insights can determine each employee's time-zone value and their working hours, regardless of their location. For details, see [Default time zone](../use/system-defaults.md#default-time-zone).
+A2. Not an issue. Viva Insights can determine each employee's time-zone value and their working hours, regardless of their location. For details, see [Default time zone](/viva/insights/use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#default-time-zone).
 
 ##### Q3. Can I configure what data an analyst can access and use?
 
-A3. You can assign the Analyst (Limited access) role to limit an analyst access to only [Explore the stats](explore-intro.md) data for advanced insights. See [Assign roles](../setup/assign-roles-to-wpa-admins.md) and [User roles](user-roles.md) for more details.
+A3. You can assign the Analyst (Limited access) role to limit an analyst access to only [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) data for advanced insights. See [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [User roles](/viva/insights/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details.
 
 ##### Q4. Why are Start and End times so important during configuration?
 
-A4. The **Start** and **End** time values determine the working hours for which data will be analyzed. They also determine the time period that is considered *after hours*. See [Working days and working hours](system-defaults.md#working-days-and-working-hours).
+A4. The **Start** and **End** time values determine the working hours for which data will be analyzed. They also determine the time period that is considered *after hours*. See [Working days and working hours](/viva/insights/use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#working-days-and-working-hours).
 
 ##### Q5. Is the number of analyst role assignments limited?
 
@@ -115,11 +115,11 @@ A5. No limit is imposed for Analyst roles.
 
 ##### Q6. In Data sources, who's included in the number of "Measured employees" on the Microsoft 365 data page?
 
-A6. This number includes licensed employees who are also present in your organization's collaboration (Microsoft 365 or Office 365) data. For details, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A6. This number includes licensed employees who are also present in your organization's collaboration (Microsoft 365 or Office 365) data. For details, see [Origin of data counts](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#origin-of-data-counts).
 
 ##### Q7. Are people who are not assigned a license ignored?
 
-A7. No, they aren't ignored but they aren't measured and their data isn't processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages. For details, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A7. No, they aren't ignored but they aren't measured and their data isn't processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages. For details, see [Origin of data counts](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#origin-of-data-counts).
 
 ##### Q8. Do advanced insights in Viva Insights support user mailboxes in Sweden go-local?
 
@@ -131,16 +131,16 @@ A8. No, Advanced insights in Viva Insights does not currently support mailboxes 
 
 A1. An upload can fail if the data has invalid values, if it is missing required data, or if the validity threshold for reserved or optional data is set too high. This is common for custom fields in uploads after the organization's first upload. See the following for details:
 
-* [Validation fails](../setup/upload-organizational-data2.md#validation-fails) in _Upload organizational data (subsequent uploads)_
-* [Validation fails](../setup/upload-organizational-data-1st.md#validation-fails) in _Upload organizational data (first upload)_
+* [Validation fails](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation-fails) in _Upload organizational data (subsequent uploads)_
+* [Validation fails](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#validation-fails) in _Upload organizational data (first upload)_
 
 ##### Q2. For my first organizational data upload, should I add, edit, or replace?
 
-A2.  For your first upload, you won't see any of these choices. For more details about your first upload, see [Upload organizational data](../setup/upload-organizational-data-1st.md). For more information about when to add or edit data in a subsequent upload, see [Subsequent uploads](../setup/upload-organizational-data2.md#file-upload).
+A2.  For your first upload, you won't see any of these choices. For more details about your first upload, see [Upload organizational data](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). For more information about when to add or edit data in a subsequent upload, see [Subsequent uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#file-upload).
 
-##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields), what percentage is required for the validity threshold?
+##### Q3. For the [required fields](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#system-default-fields), what percentage is required for the validity threshold?
 
-A3. PersonId and EffectiveDate fields must meet 100 percent of the validity threshold, because each row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95 percent of the validity threshold. Note that the calculations for validity threshold consider only two kinds of data values: valid values and blank values. For a validity threshold set to 95 percent, the column will pass validation if fewer than five percent of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail. See [Field column details](../setup/upload-organizational-data2.md#field-column-details) for more information.
+A3. PersonId and EffectiveDate fields must meet 100 percent of the validity threshold, because each row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95 percent of the validity threshold. Note that the calculations for validity threshold consider only two kinds of data values: valid values and blank values. For a validity threshold set to 95 percent, the column will pass validation if fewer than five percent of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail. See [Field column details](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#field-column-details) for more information.
 
 ##### Q4. What happens if an employee (who is represented by a PersonID) has more than one manager (represented by ManagerIDs)?
 
@@ -148,11 +148,11 @@ A4. Organizational data allows for the identification of only one single, primar
 
 ##### Q5. Who gets the organizational data to upload?
 
-A5. Usually, HR gives this data to the Viva Insights admin, who then [prepares](../setup/prepare-organizational-data.md) and [uploads](../setup/upload-organizational-data-1st.md) it.
+A5. Usually, HR gives this data to the Viva Insights admin, who then [prepares](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [uploads](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) it.
 
 ##### Q6. Who can access organizational data after it has been uploaded?
 
-A6. For privacy reasons, no one can download the raw data that was uploaded. Viva Insights admins can view metadata about the organizational data on the [Data sources](data-sourcesv2.md) page, but they cannot see how the attribute values map to individual people.
+A6. For privacy reasons, no one can download the raw data that was uploaded. Viva Insights admins can view metadata about the organizational data on the [Data sources](/viva/insights/use/data-sourcesv2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) page, but they cannot see how the attribute values map to individual people.
 
 ## Use advanced insights
 
@@ -160,31 +160,31 @@ A6. For privacy reasons, no one can download the raw data that was uploaded. Viv
 
 ##### Q1. How are privacy settings and meeting-exclusion rules different?
 
-A1. Admins set up the  _privacy settings_ for how data is extracted, such as preventing data from ever being included in any calculation. Note that changes to privacy settings apply to future data extractions and aren't retroactive to past data. See [Privacy settings](privacy-settings.md) and [Privacy and data access](../privacy/privacy-and-data-access.md) for details.
+A1. Admins set up the  _privacy settings_ for how data is extracted, such as preventing data from ever being included in any calculation. Note that changes to privacy settings apply to future data extractions and aren't retroactive to past data. See [Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
-Analysts use _meeting-exclusion rules_ in queries to help ensure that the results accurately represent relevant meeting norms within the organization. Changes to these rules apply retroactively in the data. See [Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) for details.
+Analysts use _meeting-exclusion rules_ in queries to help ensure that the results accurately represent relevant meeting norms within the organization. Changes to these rules apply retroactively in the data. See [Meeting exclusion rules](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 ##### Q2. Can meeting exclusion rule sets that I create be used by other analysts?
 
-A2.  Yes. Anyone in your organization can use the meeting exclusion rules that anyone else in the organization has created. See [Application of meeting-exclusion rules](../tutorials/meeting-exclusion-concept.md#application-of-meeting-exclusion-rules) for details.
+A2.  Yes. Anyone in your organization can use the meeting exclusion rules that anyone else in the organization has created. See [Application of meeting-exclusion rules](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#application-of-meeting-exclusion-rules) for details.
 
 ### Data validation, verification, and use
 
 ##### Q1. Why is my measured population less than the number of employees with assigned licenses?
 
-A1. This can occur if you selected only a subset of the population for the analysis, or if your admin excluded a subset of the population from the organizational data that's uploaded. See [Assign licenses](../setup/assign-licenses-to-population.md), [Who to include in the data](../setup/prepare-organizational-data.md#which-employees-to-include), and [Origin of data counts](office-365-data.md#origin-of-data-counts) for details.
+A1. This can occur if you selected only a subset of the population for the analysis, or if your admin excluded a subset of the population from the organizational data that's uploaded. See [Assign licenses](/viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [Who to include in the data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#which-employees-to-include), and [Origin of data counts](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#origin-of-data-counts) for details.
 
 ##### Q2. Why do the totals seem too high for internal and external collaborators?
 
-A2. The collaborator totals include the number of internal (or external) people with whom the measured employees have collaborated at least one time during the selected period. The totals that are included in the [Summary data](explore-metrics-external-collaboration.md#summary-data) on the **External collaboration** page don't change because of filters that have been applied in **Settings and filters**. For details, see [External collaboration](explore-metrics-external-collaboration.md).
+A2. The collaborator totals include the number of internal (or external) people with whom the measured employees have collaborated at least one time during the selected period. The totals that are included in the [Summary data](/viva/insights/use/explore-metrics-external-collaboration?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#summary-data) on the **External collaboration** page don't change because of filters that have been applied in **Settings and filters**. For details, see [External collaboration](/viva/insights/use/explore-metrics-external-collaboration?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the selected custom time period)?
 
-A3. Business policies can affect the historical data that is processed for Viva INsights. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions don't affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For details, see [Microsoft 365 data](office-365-data.md).
+A3. Business policies can affect the historical data that is processed for Viva INsights. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions don't affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For details, see [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ##### Q4. How does data for meetings and emails sent to distribution lists get processed?
 
-A4. Email and meetings data for a distribution list is processed as a single entity or person. It does not expand the distribution list and assign meeting and email hours to its members. For more accurate data, upload the organizational data attributes for these lists by adding attributes of the distribution-list members or whatever best describes the list population. See [Subsequent uploads](../setup/upload-organizational-data2.md) for details.
+A4. Email and meetings data for a distribution list is processed as a single entity or person. It does not expand the distribution list and assign meeting and email hours to its members. For more accurate data, upload the organizational data attributes for these lists by adding attributes of the distribution-list members or whatever best describes the list population. See [Subsequent uploads](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details.
 
 ##### Q5. What collaboration information is processed from Microsoft Teams?
 
@@ -217,11 +217,11 @@ A8. I expect my analysis to include last week's collaboration data and I only se
 
 ##### Q1. Why do I have fewer "filtered employees" than "measured employees" with no filters applied?
 
-A1. Employee data can change based on the Settings and filters that are selected for **Explore the stats** or **Solutions** data. These settings aren't necessarily considered filters but can still cause totals to vary. For details, see [Settings and filters in Explore the stats](explore-page-settings.md).
+A1. Employee data can change based on the Settings and filters that are selected for **Explore the stats** or **Solutions** data. These settings aren't necessarily considered filters but can still cause totals to vary. For details, see [Settings and filters in Explore the stats](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ##### Q2. How does Viva Insights estimate the cost of low-quality meetings? Can I customize this estimate?
 
-A2. Admins can include optional hourly-rate data in the organizational data upload, which they can then use to calculate the total cost of low-quality meetings for the [Meetings overview](explore-metrics-meetings-overview.md). If this organizational data is provided, cost is calculated as the person's default hourly rate for the organization multiplied by the number of low-quality meeting hours. If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. On the **Settings** page, admins can change the value in the Hourly Rate field from its default value to another hourly rate.
+A2. Admins can include optional hourly-rate data in the organizational data upload, which they can then use to calculate the total cost of low-quality meetings for the [Meetings overview](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If this organizational data is provided, cost is calculated as the person's default hourly rate for the organization multiplied by the number of low-quality meeting hours. If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. On the **Settings** page, admins can change the value in the Hourly Rate field from its default value to another hourly rate.
 
 ##### Q3. Why are a group's total meeting hours (included as part of working hours and after-hours work) larger than the group's total meeting hours for the week?
 
@@ -231,13 +231,13 @@ This discrepancy can occur when meetings overlap. Viva Insights doesn't know whi
 
 ##### Q4. What is the total workday length assumed for calculating focus hours?
 
-A4. If measured employees or internal collaborators have their time zones defined as part of your organizational data, Viva Insights uses their individual time-zone settings for working hours, focus hours, and other time-related metrics. However, if the organizational data does not define a time zone for an employee, Viva Insights uses the default time-zone setting that your admin sets in Viva Insights for that employee. For more details, see [Time zone setting](system-defaults.md) and [Focus hours and fragmented hours](explore-metrics-week-life.md#focus-hours-and-fragmented-hours).
+A4. If measured employees or internal collaborators have their time zones defined as part of your organizational data, Viva Insights uses their individual time-zone settings for working hours, focus hours, and other time-related metrics. However, if the organizational data does not define a time zone for an employee, Viva Insights uses the default time-zone setting that your admin sets in Viva Insights for that employee. For more details, see [Time zone setting](/viva/insights/use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Focus hours and fragmented hours](/viva/insights/use/explore-metrics-week-life?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#focus-hours-and-fragmented-hours).
 
 ### Query designer
 
 ##### Q1. For a group-to-group query, what's the difference between the results for "Collaborators Within Group" and for "Same group as Time Investor?"
 
-A1.  If the result of a query defines the same set of people as members of both the time investors and collaborators groups, and these individuals also match any defined filters, then the collaborators are grouped together under the **Collaborators Within Group** results. The **Same group as Time Investor** results apply when a time-investor group allocates time only to themselves if no other groups are participating in the meeting or email. See [Group-to-group query output](csv-query-output-file.md#group-to-group-query-output) and [Overview of time allocation](../tutorials/group-to-group-queries.md#overview-of-time-allocation) for more details.
+A1.  If the result of a query defines the same set of people as members of both the time investors and collaborators groups, and these individuals also match any defined filters, then the collaborators are grouped together under the **Collaborators Within Group** results. The **Same group as Time Investor** results apply when a time-investor group allocates time only to themselves if no other groups are participating in the meeting or email. See [Group-to-group query output](/viva/insights/use/csv-query-output-file?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#group-to-group-query-output) and [Overview of time allocation](/viva/insights/tutorials/group-to-group-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#overview-of-time-allocation) for more details.
 
 ##### Q2. How do I analyze collaboration hours at my company for a specific time frame, such as 8 PM to 8 AM?
 
@@ -245,12 +245,12 @@ A2. You can use the Collaboration hours metric to filter for a specific time fra
 
 ##### Q3. Why don't totals for meeting hours and email hours match up with totals for working hours and after hours in person query output?
 
-A3. Because totals for working hours and after hours calculate the "time booked on your calendar" instead of "time in meetings." Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double-booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](../use/csv-query-output-file.md#person-query-output).
+A3. Because totals for working hours and after hours calculate the "time booked on your calendar" instead of "time in meetings." Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double-booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly. For more details, see [Person query output](/viva/insights/use/csv-query-output-file?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#person-query-output).
 
 ##### Q4. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
-A4. You probably opened the .csv file as is. For Excel to show the data correctly, you need to import the .csv file into Excel. If you're using Excel 2016, follow the steps in [Download and import query results](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** in Excel and then search for the instructions on how to import a .csv file.
+A4. You probably opened the .csv file as is. For Excel to show the data correctly, you need to import the .csv file into Excel. If you're using Excel 2016, follow the steps in [Download and import query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#download-and-import-query-results). For other versions of Excel, open **Help** in Excel and then search for the instructions on how to import a .csv file.
 
 ##### Q5. Why don’t a person’s low-quality meeting hours equal the sum of their redundant, conflicting, and multitasking meeting hours in my query?
 
-You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated. For more details, see [Low-quality meeting hours](../use/explore-metrics-meetings-overview.md#low-quality-meeting-hours), [Conflicting meeting hours](../use/explore-metrics-meetings-overview.md#conflicting-meeting-hours), and [Calculation variables](../use/explore-metrics-meetings-overview.md#calculation-variables).
+You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated. For more details, see [Low-quality meeting hours](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#low-quality-meeting-hours), [Conflicting meeting hours](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#conflicting-meeting-hours), and [Calculation variables](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#calculation-variables).
