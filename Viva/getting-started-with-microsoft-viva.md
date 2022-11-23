@@ -14,7 +14,8 @@ ms.custom: intro-get-started
 ms.collection:  
 - M365initiative-viva
 - m365solution-overview
-- intro-overview 
+- intro-overview
+- highpri
 search.appverid:
 - MET150
 description: "Learn everything about Microsoft Viva and Microsoft Viva experiences"

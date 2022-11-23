@@ -11,8 +11,9 @@ ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
 ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+- enabler-strategic
+- m365initiative-viva-learning
+- highpri
 localization_priority: medium
 description: Learn how to add SharePoint as a learning content source for Microsoft Viva Learning.
 
@@ -24,6 +25,8 @@ You can configure SharePoint as a learning content source to make your organizat
 
 >[!NOTE]
 > Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Any content you add to Viva Learning, such as SharePoint-hosted content, is subject to the privacy and service terms associated with that content.
+
+ > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58RgE]  
 
 ## Overview
 
@@ -160,12 +163,7 @@ Next, provide a thumbnail image.
 1. Follow the initial steps to create a column.
 2. Choose **Hyperlink**.
 3. Name the column ThumbnailWebURL.
-4. If you already have the URLs available, skip to step 8. If you have images stored in SharePoint that you want to use for thumbnails, start with step 5.
-5. Go to the document library where your images are stored in SharePoint.
-6. Select the image you want to use, then choose **Details**.
-7. Choose **Path** and select the copy icon.
-    [![Screenshot of an image in a document library with Copy link selected.](../media/learning/copy-link.png)](../media/learning/copy-link-big.png#lightbox)
-8. Add the URLs for each item.
+4. Add the URLs for each item.
 
 Next, add the duration of the content.
 

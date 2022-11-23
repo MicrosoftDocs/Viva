@@ -4,6 +4,7 @@ description: Know how data is handled in Viva Sales
 ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
+ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

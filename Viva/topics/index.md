@@ -16,6 +16,7 @@ ms.custom:
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-topics
+    - ContentEngagementFY23
 ms.localizationpriority:  medium
 description: Learn how to find resources for Microsoft Viva Topics.
 ---

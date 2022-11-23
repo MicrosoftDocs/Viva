@@ -1,8 +1,8 @@
 ---
 title: Understanding views in Viva Goals
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: 
 audience: Admin
 f1.keywords:
@@ -21,6 +21,8 @@ description: "Learn about the customizable views to easily surface OKRs and proj
 # Understand views in Viva Goals
 
 When you log in to your Viva Goals account, you can view all the information on your objectives and key results (OKRs) page. Use the different views to access your OKRs in different ways for different purposes.
+
+To login to Viva Goals, visit: https://goals.microsoft.com/
 
 ## What views are available in Viva Goals? 
 

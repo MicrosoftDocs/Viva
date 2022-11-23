@@ -1,8 +1,8 @@
 ---
 title: Understand Organizations and Teams
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: 
 audience: Admin
 f1.keywords:
@@ -12,7 +12,8 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- highpri  
 search.appverid:
 - MET150
 description: "Learn about Organizations and Teams in Viva Goals and how to structure them. "

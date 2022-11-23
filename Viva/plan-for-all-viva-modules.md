@@ -14,6 +14,7 @@ ms.custom:
 ms.collection:  
 - M365initiative-viva
 - m365solution-overview
+- highpri
 search.appverid:
 - MET150
 description: "Get all Microsoft Viva modules"

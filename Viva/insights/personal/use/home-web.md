@@ -6,7 +6,9 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-personal 
+ms.collection: 
+- viva-insights-personal
+- highpri
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -24,7 +26,7 @@ Thank you for trying Microsoft Viva Insights. Welcome to your new personal Home 
 >[!NOTE]
 >You can also open Viva Insights through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
 
-:::image type="content" source="../../Images/mya/use/viva-insights-home1.png" alt-text="Screenshot that shows the Viva Insights home page." lightbox="../../Images/mya/use/viva-insights-home-expanded.png":::
+![Screenshot that shows the Viva Insights Home page.](../teams/Images//app-home-ic2.png)
 
 Viva Insights gives you insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
@@ -94,15 +96,13 @@ If you choose to opt out, you lose access to the following items:
     * Semi-monthly Digest email
 * Outlook
     * Outlook add-in
-    * Delay delivery plan and notifications
-        * You can separately opt in to resume the Delay delivery plan and receive notifications
+    * Schedule send suggestions notifications
+        * You can separately opt in to resume schedule send suggestions and receive notifications
 * Settings
     * All settings *except* for the following:
         * Opting in and opting out
         * Briefing email
 * Focus plans and quiet time
-    >[!Note]
-    > Quiet time is currently in private preview.
 * Virtual commute notifications
 
 If you opt out, you:

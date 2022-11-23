@@ -1,9 +1,10 @@
 ---
 title: Install Viva Sales
 description: Learn what are the various ways to install Viva Sales
-ms.date: 10/03/2022
+ms.date: 10/28/2022
 ms.topic: article
 ms.service: viva
+ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -39,6 +40,12 @@ If you're using the out-of-the-box Salesperson and Sales Manager security roles,
 |Note     | Create, update, and associate notes with the marked customer.  | Create, Read, Write, Delete, Append, Append To        |
 |User     | Create connections in Dynamics 365.       |  Read User       |
 
+## How to use Viva Sales?
+
+After you install Viva Sales for your users, they can start using it in Outlook and Teams. For information on how to use Viva Sales, see:
+
+- [Use Viva Sales in Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081)
+- [Use Viva Sales in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea)
 
 ### See also
 
