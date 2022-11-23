@@ -22,11 +22,11 @@ Use Viva Topics cards to encourage knowledge discoverability, engagement, and sh
 
 
 >[!NOTE]
-> Viva Topics cards will be generally available at the end of September 2022.
+> Viva Topics cards will be generally available by the end of December 2022.
 
 
 ## Viva Topics cards
-There are two separate Viva Topics cards for two separate intentions. 
+There are two separate Viva Topics cards for two separate intentions. The Viva Topics Discover card can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic. Topics and knowledge areas are dynamically displayed in the card based on the viewer’s interests, current projects, and expertise. The Viva Topics Share card can be used to reach people who are known knowledge managers and are already engaged with topics and knowledge areas. Topics and knowledge areas are dynamically displayed in the card based on the viewers interests, current projects, and expertise.
 
 ## The Viva Topics Contribute card
 
@@ -45,7 +45,7 @@ The Discover card can be used to view topics and knowledge areas for people who 
 
 >[!NOTE]
 > - You need site owner permissions or higher to your organization’s SharePoint home site to edit the Viva Connections Dashboard.
-> - Viva Topics cards will be available in the Viva Connections card toolbox at the end of September 2022.
+> - Viva Topics cards will be generally available by the end of December 2022.
 
 Viva Topics cards can be added to the Viva Connections Dashboard. The Dashboard is one part of the Viva Connections experience that surfaces tools and content relevant to the viewer. [Learn more about how to add Viva Topics cards to the Dashboard](/viva/connections/create-dashboard#create-a-dashboard-and-add-cards).
 
@@ -58,8 +58,7 @@ Viva Topics cards can be added to the Viva Connections Dashboard. The Dashboard 
 
 |Contribute card editing panel  |Discover card editing panel  | 
 | :---------------------- | :------------------- |
-|![Screenshot of the Viva Topics Contribute card's edit panel.](../media/knowledge-management/edit-contribute-card.png)| 
-![Screenshot of the Viva Topics Discover card's edit panel.](../media/knowledge-management/edit-discover-card.png)  | 
+|![Screenshot of the Viva Topics Contribute card's edit panel.](../media/knowledge-management/edit-contribute-card.png)|![Screenshot of the Viva Topics Discover card's edit panel.](../media/knowledge-management/edit-discover-card.png)  | 
 
 5. Plan to [apply audience targeting for cards](/viva/connections/use-audience-targeting-in-viva-connections#apply-audience-targeting-to-cards-in-the-dashboard) to cards to make sure relevant content is displayed to the appropriate audiences. 
 6. [Preview the experience](/viva/connections/create-dashboard#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences) for different audiences and devices by selecting **Preview** in the top-right corner before sharing with others.
