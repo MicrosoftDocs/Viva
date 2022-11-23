@@ -51,7 +51,7 @@ You can customize what you see here. If you want to:
 
 The **Meeting habits** section highlights your habits or practices in meetings you organized and accepted. Switch between the **Meeting habits** and **Meeting details** views by selecting the tabs above the graph/table.
 
-* Use percentage data from the habits view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 80% of the meetings you attended ended on time. 
+* Use percentage data from the **Meeting habits** view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 80% of the meetings you attended ended on time. 
 
     ![Collaboration Meeting Habits View.](../teams/Images/meeting-effectiveness-habits1.png)
 
