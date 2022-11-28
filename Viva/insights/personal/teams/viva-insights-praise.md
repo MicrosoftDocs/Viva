@@ -42,7 +42,7 @@ To send praise, open the praise feature in one of the following ways:
 
 1. Add the name of the person you want to praise.
 
-1. Choose the visibility of your praise--either just between you and the recipient, or to everyone in a Teams channel: 
+1. Choose the visibility of your praise—either just between you and the recipient, or to everyone in a Teams channel: 
 
    * To make the praise message appear privately in a 1:1 chat between you and the recipient, select **1:1 chat**. This option is available only if you and the recipient have already participated in a Teams chat together. 
 
