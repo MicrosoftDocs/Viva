@@ -19,6 +19,9 @@ audience: Admin
 
 # Privacy guide for admins
 
+>[!IMPORTANT]
+> This article discusses the dashboard, which will be retired soon. Users will still find personal insights content in their Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
+
 By using data generated from everyday work in Microsoft 365, personal insights in Microsoft Viva Insights help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 This guide answers key questions on how Viva Insights processes information in a manner that protects employee privacy and supports compliance with local regulations, such as [General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx).
@@ -139,6 +142,9 @@ Employees can opt themselves out of Viva Insights. This causes them to lose acce
 The processing of an employee's personal data ceases when they are opted out, whether they opt themselves out or an admin opts them out.
 
 ### How employees opt in or out
+
+>[!IMPORTANT]
+> The dashboard will be retired soon, but users can [opt out through their Viva Insights app in Teams or on the web](../use/home-web.md#opt-in-or-out-of-features), on the **Settings** page. [Read more about this change](../reference/mya-retirement.md). 
 
 End users can opt in or out of Viva Insights via the **Feature settings** menu in Microsoft 365, as shown in this example:
 
