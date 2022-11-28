@@ -32,13 +32,13 @@ To send praise, open the praise feature in one of the following ways:
 
 ### Send praise from the Viva Insights Home page
 
-1. On the Home page, select **Send praise** button on the **Send praise to your colleagues** card, which is located on the **Home** page at center left.
+1. On the **Home** page, select **Send praise** button on the **Send praise to your colleagues** card, which is located on the **Home** page at center left.
 
    :::image type="content" source="images/send-praise-from-home.png" alt-text="Screenshot that shows Praise on Home page.":::
 
 1. When the praise page opens, the **Title** defaults to **Awesome**. If you want to send a different title with your praise message, select a new choice.
 
-    :::image type="content" source="images/send-praise2.png" alt-text="Screenshot that shows selecting a praise badge.":::
+    :::image type="content" source="images/send-praise3.png" alt-text="Screenshot that shows selecting a praise badge.":::
 
 1. Add the name of the person you want to praise.
 
