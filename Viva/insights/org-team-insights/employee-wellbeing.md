@@ -26,7 +26,7 @@ You can find the **Employee wellbeing** page in the Viva Insights app, within th
 
 ## Balance
 
-### Help employees disconnect
+### Protect time outside of working hours
 
 :::image type="content" alt-text="Screenshot that shows the Help employees disconnect insights."source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
 
@@ -60,7 +60,7 @@ For more best practices and ways to protect employees after hours, see [Best pra
 
 ## Capacity
 
-### Focus without interruptions
+### Help teams find time to finish their work
 
 :::image type="content" alt-text="Screenshot that shows the Focus without interruptions insights." source="../Images/WpA/Use/org-trends-wellbeing-capacity.png":::
 
@@ -92,7 +92,7 @@ Here are ways to support focus time:
 
 For more best practices and ways to establish a "no meeting" period, see [Best practices for focus time](../tutorials/gm-focus.md).
 
-### Reduce meeting hours
+### Keep a pulse on collaboration overload
 
 :::image type="content" alt-text="Screenshot that shows the Reduce meeting hours insights" source="../Images/WpA/Use/org-trends-wellbeing-capacity-2.png":::
 
@@ -124,11 +124,11 @@ Here are ways to reduce meeting time:
 
 For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
-## Insights for leaders
+## Community (Insights for leaders)
 
 If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find an additional insight on the **Employee wellbeing** tab. 
 
-#### Improve team cohesion
+#### Drive team cohesion and alignment through shared activities and projects
 
 ![Screenshot that shows the team cohesion insight.](../Images/WpA/Use/org-leader-community.png)
 
