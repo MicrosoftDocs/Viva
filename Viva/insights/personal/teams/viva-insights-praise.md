@@ -38,7 +38,7 @@ To send praise, open the praise feature in one of the following ways:
 
 1. When the praise page opens, the **Title** defaults to **Awesome**. If you want to send a different title with your praise message, select a new choice.
 
-    :::image type="content" source="images/send-praise1.png" alt-text="Screenshot that shows selecting a praise badge.":::
+    :::image type="content" source="images/send-praise2.png" alt-text="Screenshot that shows selecting a praise badge.":::
 
 1. Add the name of the person you want to praise.
 
@@ -85,7 +85,7 @@ To use the Teams messaging extension:
 
 The praise feed shows your six most recent praise messages. To only see praise you've **Received** or praise you've **Sent**, use the dropdown menu.
 
-   :::image type="content" source="images/praise-trends1.png" alt-text="Screenshot that shows selecting the ellipsis.":::
+   :::image type="content" source="images/praise-feed.png" alt-text="Screenshot that shows selecting the ellipsis.":::
 
 ### Find the praise feature
 
@@ -117,7 +117,7 @@ From the **Home** page:
 
 1. On the **Send praise to your colleagues** card, select the **Send praise** button.
 1. On the **Praise** page, configure your reminder through the card on the right.
-   :::image type="content" source="images/praise-reminder3.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
+   :::image type="content" source="images/praise-reminder4.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
 
 From the **Settings** page:
 
@@ -136,15 +136,12 @@ From the **Settings** page:
 
 To find a history of all the praise messages you've sent and received over the last six months, select **View history** at the bottom of your praise feed.
 
-<!--image should show button-->
-
-:::image type="content" source="images/praise-view-history2.png" alt-text="Screenshot that shows Praise history.":::
+:::image type="content" source="images/praise-view-history3.png" alt-text="Screenshot that shows Praise history.":::
 
 This history includes the message's title and text, sender and receiver, and date sent. View the original praise in the Teams chat by selecting **Go to message**.
 
 You can also access your personal praise history by selecting **Review your praise history** in the **Praise** section that shows within your Teams channel **Posts**. This link only shows you your own personal history that nobody else can see.
 
-<!--still?-->
 
 ## Praise recommendations
 
@@ -153,6 +150,8 @@ On the right section of the praise page, you'll see praise recommendations for y
 ## Praise trends
 
 Praise trends is available to you if you have a Viva Insights subscription. Use this section to see analytics about your praise messages, like praise sent and received counts, your biggest fans, and top praises received. Only you can see this information.
+
+:::image type="content" source="images/praise-trends-list.png" alt-text="Screenshot that shows Praise trends.":::
 
 ## Related topics
 
