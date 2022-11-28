@@ -1,5 +1,5 @@
 ---
-title: "Support the employee experience with tools for specific roles, like Sales, Marketing, and Customer Service.."
+title: "Support the employee experience with tools for specific roles, like Sales, Marketing, and Customer Service."
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
