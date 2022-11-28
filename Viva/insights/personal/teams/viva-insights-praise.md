@@ -85,7 +85,7 @@ To use the Teams messaging extension:
 
 The praise feed shows your six most recent praise messages. To only see praise you've **Received** or praise you've **Sent**, use the dropdown menu.
 
-   :::image type="content" source="images/all-praises.png" alt-text="Screenshot that shows selecting the ellipsis.":::
+   :::image type="content" source="images/praise-trends1.png" alt-text="Screenshot that shows selecting the ellipsis.":::
 
 ### Find the praise feature
 
@@ -117,9 +117,9 @@ From the **Home** page:
 
 1. On the **Send praise to your colleagues** card, select the **Send praise** button.
 1. On the **Praise** page, configure your reminder through the card on the right.
-   :::image type="content" source="images/praise-reminder-pane.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
+   :::image type="content" source="images/praise-reminder2.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
 
-From the Settings page:
+From the **Settings** page:
 
 1. Select the ellipses (**...**) at the top of any page, then select **Settings**.
 1. Select **Praise** from the left pane.
@@ -138,7 +138,7 @@ To find a history of all the praise messages you've sent and received over the l
 
 <!--image should show button-->
 
-:::image type="content" source="images/praise-history2.png" alt-text="Screenshot that shows Praise history." lightbox="images/praise-history.png":::
+:::image type="content" source="images/praise-view-history1.png" alt-text="Screenshot that shows Praise history.":::
 
 This history includes the message's title and text, sender and receiver, and date sent. View the original praise in the Teams chat by selecting **Go to message**.
 
