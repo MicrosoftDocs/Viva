@@ -38,7 +38,7 @@ To send praise, open the praise feature in one of the following ways:
 
 1. When the praise page opens, the **Title** defaults to **Awesome**. If you want to send a different title with your praise message, select a new choice.
 
-    :::image type="content" source="images/send-praise.png" alt-text="Screenshot that shows selecting a praise badge.":::
+    :::image type="content" source="images/send-praise1.png" alt-text="Screenshot that shows selecting a praise badge.":::
 
 1. Add the name of the person you want to praise.
 
@@ -117,7 +117,7 @@ From the **Home** page:
 
 1. On the **Send praise to your colleagues** card, select the **Send praise** button.
 1. On the **Praise** page, configure your reminder through the card on the right.
-   :::image type="content" source="images/praise-reminder2.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
+   :::image type="content" source="images/praise-reminder3.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
 
 From the **Settings** page:
 
@@ -138,7 +138,7 @@ To find a history of all the praise messages you've sent and received over the l
 
 <!--image should show button-->
 
-:::image type="content" source="images/praise-view-history1.png" alt-text="Screenshot that shows Praise history.":::
+:::image type="content" source="images/praise-view-history2.png" alt-text="Screenshot that shows Praise history.":::
 
 This history includes the message's title and text, sender and receiver, and date sent. View the original praise in the Teams chat by selecting **Go to message**.
 
