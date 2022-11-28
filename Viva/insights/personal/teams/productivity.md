@@ -1,6 +1,6 @@
 ---
-title: Productivity page in Viva Insights
-description: Use the Productivity page in Microsoft Viva Insights
+title: Productivity tab in Viva Insights
+description: Use the Productivity tab in Microsoft Viva Insights
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -14,6 +14,10 @@ audience: user
 
 # Productivity
 
+On the **Productivity** tab, you'll find centralized insights and actions that help you as an information worker get your work done more effectively.
+
+
+•	All users will find content that helps them understand and decrease non-productive meeting time through meeting effectiveness surveys, meeting category insights, and meeting habits as well as stay on top of their work thanks to suggested tasks.
 
 
 ## Effective meetings
