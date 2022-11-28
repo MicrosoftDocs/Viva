@@ -85,7 +85,7 @@ To use the Teams messaging extension:
 
 The praise feed shows your six most recent praise messages. To only see praise you've **Received** or praise you've **Sent**, use the dropdown menu.
 
-   :::image type="content" source="images/praise-feed.png" alt-text="Screenshot that shows selecting the ellipsis.":::
+   :::image type="content" source="images/praise-feed.png" alt-text="Screenshot that shows the praise feed and the All praises, Received, and Sent dropdown options.":::
 
 ### Find the praise feature
 
