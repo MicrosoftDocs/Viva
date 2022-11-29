@@ -22,9 +22,7 @@ audience: Admin
 
 You can view organizational insights in **Organization trends** within the Microsoft Viva Insights app. These insights are available to users with either group manager access enabled or the **Insights Business Leader** role assigned. To learn more about assigning roles, refer to [Assign roles](../advanced/setup-maint/assign-user-roles.md).
 
-<!--[Assign roles for Microsoft Viva Insights](../setup/assign-user-roles.md).-->
-
-![Screenshot that shows the Organization trends page.](../images/wpa/use/org-trends-outcomes.png)
+:::image type="content" source="../images/wpa/use/org-trends-outcomes-new-small1.png" alt-text="Screenshot that shows the Organization trends Outcomes page." lightbox="../images/wpa/use/org-trends-outcomes-new1.png":::
 
 ## Group managers
 
@@ -43,13 +41,9 @@ As a business leader, Viva Insights gives you a snapshot of these same wellbeing
 
 For information about data privacy and GDPR compliance in the Viva Insights app, refer to [Privacy](../advanced/privacy/privacy.md).
 
-<!--[Privacy and data protection](../privacy/data-protection-intro.md).-->
-
 ## Admin tasks
 
 * The **Insights Business Leader** role provides access to aggregated insights covering all measured employees at the company. Refer your admin to [Assign roles](../advanced/setup-maint/assign-admin-roles.md) for details.
-
-<!--[Assign roles](../setup/assign-roles-to-wpa-admins.md) for details.-->
 
 * Group manager access enables insights only covering the measured employees within each user’s reporting structure as determined by Azure Active Directory or the uploaded organizational data file. For details, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md).
 

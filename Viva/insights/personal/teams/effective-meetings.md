@@ -19,22 +19,25 @@ audience: user
 
 ## Meeting category insights
 
-You can use **Meeting category insights** in **Effective meetings** to help understand how you’re allocating time across your Outlook meeting categories.
-To set up Outlook meeting categories, refer to [Assign a color category to a calendar appointment, meeting, or event (microsoft.com)](https://support.microsoft.com/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527).
-  
-**Meeting category insights** shows you how many hours you’re spending in meetings, then breaks down the time you spend in each of your categories.
+Use **Meeting category insights** in **Effective meetings** to help understand how you’re allocating time across your Outlook meeting categories.
 
-![Screenshot that shows the Meeting category insights page.](Images/meeting-category-insights.png)
+>[!Note]
+>To set up Outlook meeting categories, refer to [Assign a color category to a calendar appointment, meeting, or event (microsoft.com)](https://support.microsoft.com/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527).
+  
+In this section, you'll find three types of insights, which are based on meetings  you organized, meetings you accepted, and your appointments:
+
+* **Percentage breakdown**: The percentage of total meeting hours you spend in each meeting category.
+![Screenshot that shows meeting category insights.](Images/meeting-percentage-breakdown.png)
+* **Meeting trends**: How the time you spend in each meeting category has changed.
+![Screenshot that shows meeting trends.](Images/meeting-trends1.png)
+* **Meeting details**: All your meetings in a list, which includes **Category**, **Total time spent**, **Cadence**, and **Duration**.
+![Screenshot that shows meeting details.](Images/meeting-details.png)
 
 You can customize what you see here. If you want to:
 
 * Analyze a specific category, select it from the checklist to the left.
 
-    ![Screenshot that shows one category selected.](Images/meeting-category-insights-customer-meetings.png)
-
 * Pick a specific timeframe, use the dropdown menu in the top-right. You can choose from **Last 3 months**, **Last 4 weeks**, or **Next 4 weeks**.
-
-    ![Screenshot that shows the time frame dropdown list.](Images/meeting-category-insights-time-frame.png)
 
 >[!Important]
 >If you haven’t categorized any meetings between the last three months and next four weeks, these insights won’t be available to you. However, you’ll have access to them after you categorize any meeting within this time period, as long as you have a Viva Insights subscription.
@@ -44,27 +47,30 @@ You can customize what you see here. If you want to:
 ## Meeting habits
 
 >[!Note]
-> This capability is currently available in the MyAnalytics dashboard, but it's coming to the Viva Insights app in Teams and on the web soon.
+> We're in the process of rolling out these changes to customers.
 
-The **Meeting habits** section highlights your habits or practices in meetings you organized and accepted. Switch between the **Habits** and **Meetings** views by toggling the control above the graph/table.
+The **Meeting habits** section highlights your habits or practices in meetings you organized and accepted. Switch between the **Meeting habits** and **Meeting details** views by selecting the tabs above the graph/table.
 
-* Use percentage data from the **Habits** view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 81% of the online meetings you attend end on time. 
+* Use percentage data from the **Meeting habits** view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 80% of the meetings you attended ended on time. 
 
-    ![Collaboration Meeting Habits View.](../teams/Images/meeting-effectiveness-habits.png)
+    ![Collaboration Meeting Habits View.](../teams/Images/meeting-effectiveness-habits1.png)
 
-* For details about all your meetings in the past four weeks, use the **Meetings** view.
+* For details about all your meetings in the past four weeks, use the **Meeting details** view.
     
 
-    ![Collaboration Meeting List View.](../teams/Images/meeting-effectiveness-list-view.png)
+    ![Collaboration Meeting List View.](../teams/Images/meeting-effectiveness-details.png)
 
-    The **Meetings** view classifies meetings by using icons, which we describe in the following table:
+    The **Meeting details** view classifies meetings by using icons, which we describe in the following table:
 
    |Icon|Description |
    |--|---|
-   |![recur icon.](../../Images/mya/use/recur-icon.png) |  This meeting is recurring |
-   | ![check mark icon.](../../Images/mya/use/checkmark.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
-   |![X icon.](../../Images/mya/use/x-icon.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
-   |![dash icon.](../../Images/mya/use/dash-icon.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
+   |![recur icon.](../teams/Images/me-icon-recurring-invited.png) |  This meeting is recurring |
+   |![recur, organized by you icon.](../teams/Images/me-icon-recurring-by-you.png)|This meeting is recurring and you organized it
+   |![Invited icon.](../teams/Images/me-icon-invited.png)|You were invited to this meeting
+    |![Organized icon](../teams/images/me-icon-organized-you.png)| You organized this meeting
+   | ![check mark icon.](../teams/images/me-icon-yes.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
+   |![X icon.](../teams/images/me-icon-no.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
+   |![dash icon.](../teams/images/me-icon-na.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
 
 You can sort this table by selecting the column header.
 
