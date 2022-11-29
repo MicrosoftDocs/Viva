@@ -13,10 +13,7 @@ localization_priority: Priority
 ms.custom: intro-overview
 search.appverid:
 - MET150
-ROBOTS:
-- NOINDEX
-- NOFOLLOW
-
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn about the new Viva admin experience"
 ---
 # The new Microsoft Viva admin experience

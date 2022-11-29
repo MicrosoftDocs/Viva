@@ -22,7 +22,7 @@ description: "Learn how to set up the Microsoft Viva suite"
 ---
 # Set up Microsoft Viva
 
-Microsoft Viva consists of several apps including Viva Topics, Viva Insights, Viva Learning, Viva Connections, Viva Sales, Viva Goals, and Viva Engage. Admins can initiate setup, deployment, and manage licenses for all generally available Viva apps from a central location in the Microsoft 365 Admin Center.
+Microsoft Viva consists of several apps including Viva Topics, Viva Insights, Viva Learning, Viva Connections, Viva Sales, Viva Goals, and Viva Engage. Admins can initiate setup and deployment and manage licenses for Viva apps from the Microsoft 365 Admin Center.
 
 ## Start setting up
 
@@ -37,7 +37,7 @@ Alternatively, you can go to the Microsoft 365 admin center, select **Setup** on
 
 This brings you to the [Microsoft Viva admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences).
 
-![Viva new admin page](media/viva-new-admin.png)
+![Viva admin page](media/viva-new-admin.png)
 
 Things you can do on this page:
 
@@ -49,7 +49,7 @@ Things you can do on this page:
 
 ## App settings pages
 
-Each app has its own settings page, and they may differ. The Viva Insights and Viva Learning pages utilize the new admin experience. Other pages will evolve over time. Here's an example of the Learning admin page:
+Each app has its own settings page, and they may differ.  Here's an example of the Learning admin page:
 
 ![Viva learn page](media/learn-admin.png)
 
@@ -59,51 +59,64 @@ In this example you can:
 - Select a setting in the list, and get a panel where you can set the options without leaving the page. In this example, you see the panel to assign knowledge managers.
 - Select the **More information** tab to get detailed guidance on setting up the app.
 
-### More information
-
-If you want to learn more about each module and how you will set them up first, here are some resources:
+### Set up each app
 
 **Viva Learning**
 
 Accelerate skilling and growth – Your employees can easily discover and share everything from training courses to micro-learning content.
 
-[Overview](/microsoft-365/learning)
-
 [Learn how to set it up](/microsoft-365/learning/set-up-teams-admin-center)
+
+[More information about Viva Learning](/microsoft-365/learning)
 
 **Viva Insights**
 
 Balance productivity and well-being – Provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance.
 
-[Overview](/viva/insights/introduction)
-
 [Learn how to set it up](/viva/insights/advanced/setup-maint/setup-overview)
+
+[More information about Viva Insights](/viva/insights/introduction)
 
 **Viva Topics**
 
 Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results.
 
-[Overview](/microsoft-365/knowledge/)
-
 [Learn how to set it up](/microsoft-365/knowledge/set-up-topic-experiences)
+
+[More information about Viva Topics](/microsoft-365/knowledge/)
 
 **Viva Connections**
 
 Inform, engage, and empower -- Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.
 
-[Overview](/sharepoint/viva-connections-overview)
-
 [Learn how to set it up](/sharepoint/guide-to-setting-up-viva-connections)
 
-**Viva Goals**
-Connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
+[More information about Viva Connections](/sharepoint/viva-connections-overview)
 
-[Overview](/viva/goals/intro-to-ms-viva-goals)
+**Viva Goals**
+
+Connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
 
 [Learn how to set it up](/viva/goals/log-in-create-and-join-organizations)
 
-**More information**
+[More information about Viva Goals](/viva/goals/intro-to-ms-viva-goals)
 
-[Learn about where Microsoft Viva data is stored](/microsoft-365/enterprise/o365-data-locations#what-are-the-considerations-for-microsoft-viva-data-locations)
+**Viva Sales**
 
-[Find more documentation for Microsoft Viva](/microsoft-365/viva)
+Setup for Viva Sales is a bit different from other Viva apps. It requires you to install the Viva Sales app, which you can do from the Microsoft 365 admin center, but not yet from the Viva admin page.
+
+[Install the Viva Sales app](/viva/sales/install-viva-sales-individual-add-in-admin-center)
+
+[More information about Viva Sales](h/viva/sales/introduction)
+
+**Viva Engage**
+
+If your organization uses [Yammer](https://learn.microsoft.com/yammer), and a user is enabled for Yammer, they are also enabled to use Viva Engage. Viva Engage is included as a part of the existing Yammer license. This is unchanged from the Yammer Communities app for Microsoft Teams that Viva Engage replaces.
+
+The Yammer administrator can manage the content in Yammer and Viva Engage. Privacy and security controls from Yammer are shared with Viva Engage.
+
+The Viva Engage app is installed in Teams, but not yet available to set up from the Viva admin page.
+
+[Learn how to set it up](/viva/engage/setup)
+
+[More information about Viva Engage](/viva/engage/overview)
