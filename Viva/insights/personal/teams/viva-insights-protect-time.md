@@ -68,14 +68,14 @@ If you pre-booked time to focus—either through a plan or by booking earlier—
 
 To enter focus mode, select this notification. If you don’t select the notification, your calendar will still show the **Focus time** event, your Teams status will update to **Focusing**, and you won’t get Teams notifications unless they’re from priority contacts you set.
 
-#### Use features during your focus session
-
- When you’re in focus mode, Viva Insights shows you three sections: **Timer**, **Tasks**, and **Mindfulness break**.
-
 >[!Note]
 > If you want to keep using Teams while you’re in focus mode, right-click on the Viva Insights app icon, then select **Pop out app**.
 >
 >![Screenshot that shows the using the Pop out app option.](Images/right-click-pop-out.png)
+
+#### Use features during your focus session
+
+ When you’re in focus mode, Viva Insights shows you three sections: **Timer**, **Tasks**, and **Mindfulness break**.
 
 ##### Timer
 
