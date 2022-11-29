@@ -111,7 +111,7 @@ In addition to viewing your existing tasks, you can:
 
 During breaks between focus intervals, you can use the guided videos in Mindfulness break to catch your breath and reset. After you select **Start** beneath a video, you’ll complete a three- or five-minute exercise before your next focus interval starts.
 
-![Screenshot that shows Tasks options.](Images/focus-mode-mindfulness-break.png)
+![Screenshot that shows Mindfulness break options.](Images/focus-mode-mindfulness-break.png)
 
 
 #### To end a focus session
