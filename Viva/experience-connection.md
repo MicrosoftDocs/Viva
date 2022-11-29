@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn how Microsoft Viva supports employee connection in your organization"
 ---
 
-# The Connection experience with Microsoft Viva
+# Connection: Share, include, and inform with Microsoft Viva
 Discover ways to connect and share interests at work. Get company news, start a conversation, or join a community with Viva Connections and Viva Engage.
 
 ## Viva Connections
@@ -49,4 +49,3 @@ Viva Engage is all about you, leaders, coworkers and communities.
 Viva Engage powers the social layer of Microsoft Viva and Microsoft 365. The app is a place to connect and engage with leaders, colleagues, and communities. It features experiences for discovery of conversations happening across the organization, for asking questions and sharing knowledge, for deeper engagement, for virtual events, and for building social capital and extending your network at work.
 
 The Viva Connections feed features relevant content from Viva Engage, including announcements, mentions (@ mentions), and storyline posts from people you follow. The Viva Connections feed includes content from other sources as well, including SharePoint news.
-

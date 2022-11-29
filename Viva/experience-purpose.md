@@ -18,3 +18,4 @@ search.appverid:
 
 description: "Learn how Microsoft Viva supports purpose in your organization."
 ---
+## Purpose: align people’s work to team and organizational goals with Viva Goals

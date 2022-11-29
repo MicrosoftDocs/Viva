@@ -18,13 +18,13 @@ search.appverid:
 
 description: "Learn how Microsoft Viva supports growth with knowledge and learning tools."
 ---
-## Help people learn, grow, and succeed
+## Growth: Learn, grow, and succeed with Microsoft Viva
 If you've ever been a new employee, or an employee changing roles, or even a long-time employee in a large organization, you know that learning is paramount to success. Viva Learning and Viva Topics can provide the training and information needed to help employees thrive.
 
 ## Viva Learning
 Viva Learning is a centralized learning hub in Microsoft Teams that allows employees to access training and learning materials without leaving Teams.
 
-Viva Learning provides learning content from sources such as LinkedIn, sources that you set up, and also customized learning that your organization provides. The teams and people in your organizzation can discover, share, recommend, and learn from content libraries provided by both your organization and partners.
+Viva Learning provides learning content from sources such as LinkedIn, sources that you set up, and also customized learning that your organization provides. The teams and people in your organization can discover, share, recommend, and learn from content libraries provided by both your organization and partners.
 
 ## Viva Topics
 Viva Topics uses Microsoft AI technology, Microsoft 365, Microsoft Graph, Search, and other components and services to bring knowledge to your users in the Microsoft 365 apps they use everyday, starting with SharePoint modern pages, Microsoft Search, and Search in Word, PowerPoint, Outlook, and Excel.

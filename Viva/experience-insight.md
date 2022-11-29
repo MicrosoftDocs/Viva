@@ -18,7 +18,7 @@ search.appverid:
 
 description: "Learn how Microsoft Viva supports improved productivity and wellbeing with actionable insights."
 ---
-## Support productivity and wellbeing with actionable insights
+## Insight: Support productivity and wellbeing with Viva Insights
 
 ### Viva Insights
 Viva Insights includes a Microsoft Teams and web app, along with web features and tools, that help people and businesses use data-driven, privacy-protected insights and recommendations to improve productivity and wellbeing.
