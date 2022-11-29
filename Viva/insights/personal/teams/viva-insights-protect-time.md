@@ -88,7 +88,7 @@ If you increase time, the app asks whether you want to extend your scheduled foc
 To skip automatically scheduled breaks, select the box next to **Skip breaks**. 
 To adjust other settings, like sounds and how long breaks and focus intervals last, open the **Timer settings**.
 
-![Screenshot that shows setting up the timer.](Images/focus-timer1.png)
+![Screenshot that shows setting up the timer.](Images/focus-timer2.png)
 
 When you’re ready to start your timer, select the **Start focus timer** button. You can stop the focus timer whenever you need to.
 
