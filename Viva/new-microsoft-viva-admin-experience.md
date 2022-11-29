@@ -13,6 +13,9 @@ localization_priority: Priority
 ms.custom: intro-overview
 search.appverid:
 - MET150
+ROBOTS:
+- NOINDEX
+- NOFOLLOW
 
 description: "Learn about the new Viva admin experience"
 ---
@@ -21,7 +24,7 @@ description: "Learn about the new Viva admin experience"
 With the new Microsoft Viva admin experience, admins can initiate setup, deployment, and manage licenses for all generally available Viva apps from a central location in the Microsoft 365 Admin Center.
 
 > [!NOTE]
-> This article is intended for Targeted Release customers. Some functionality is introduced gradually to organizations that have set up the targeted release options in Microsoft 365. If you're not part of the targeted release program, you may not yet see this feature or it may look different than what is described in this help article. Features are subject to change. If you are not in the Targeted Release program, see [Set up Microsoft Viva](/viva/setup-microsoft-viva).
+> This article is being retired. Please see [Set up Microsoft Viva](/viva/setup-microsoft-viva) for the latest information.
 
 ## Getting to the admin experience
 
