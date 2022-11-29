@@ -22,10 +22,6 @@ description: View the new Microsoft 365 Admin Experience for Viva Learning.
 
 Use the Microsoft 365 admin center to set up and manage settings for Viva Learning.
 
-> [!NOTE]
-> This article is intended for Targeted Release customers. Some functionality is introduced gradually to organizations that have set up the targeted release options in Microsoft 365. If you're not part of the targeted release program, you may not yet see this feature or it may look different than what is described in this help article. Features are subject to change. If you are not in the Targeted Release program, see [Set up Microsoft Viva](/viva/setup-microsoft-viva).
-
-
 The functionalities include:
 
 - Manage settings for learning content sources
