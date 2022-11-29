@@ -62,43 +62,37 @@ Focus mode intersperses short breaks within your focus time to help you stay on-
 
 ##### Scheduled focus session
 
-If you pre-booked time to focus—either through a plan or by booking earlier —you’ll get a notification on the **Focus Mode** card.
+If you pre-booked time to focus—either through a plan or by booking earlier—you’ll get a Teams notification.
 
-![Screenshot that shows the focus mode notification card in Protect time.](Images/focus-mode-pt-notification-card.png)
+![Screenshot that shows the focus mode notification card in Protect time.](Images/focus-mode-teams-reminder.png)
 
-If you said you wanted a reminder to start your focus session during setup, you’ll also get a Teams notification.
-
-To enter focus mode, select either the Teams notification or **Let’s Go** on the **Focus Mode** card. If you don’t select one of these notifications, your calendar will still show the **Focus time** event, your Teams status will update to **Focusing**, and you won’t get Teams notifications unless they’re from priority contacts you set.
-
-##### On-demand focus session
-
-If you have some time to focus and you want to start a focus session on-demand, select **Let’s Go** on the **Focus Mode** card.
-
-![Screenshot that shows the focus mode card in Protect time.](Images/focus-mode-on-demand-start.png)
-
-Pick how long you want to focus, then select **Start focus mode**.
-
-![Screenshot that shows starting an on-demand focus session.](Images/focus-mode-on-demand.png)
+To enter focus mode, select this notification. If you don’t select the notification, your calendar will still show the **Focus time** event, your Teams status will update to **Focusing**, and you won’t get Teams notifications unless they’re from priority contacts you set.
 
 #### Use features during your focus session
 
  When you’re in focus mode, Viva Insights shows you three sections: **Timer**, **Tasks**, and **Mindfulness break**.
 
 >[!Note]
-> If you want to keep using Teams while you’re in focus mode, select the ellipses at top-right, then select **Pop out app**.
+> If you want to keep using Teams while you’re in focus mode, right-click on the Viva Insights app icon, then select **Pop out app**.
+>
+>![Screenshot that shows the using the Pop out app option.](Images/right-click-pop-out.png)
 
 ##### Timer
 
-When you launch focus mode, you’ll arrive at the **Timer** section. Here, your focus time is displayed in minutes, which correspond to the time you set through your plan, or when you booked time. If you need to increase or decrease this time, select the arrows. If you increase time, the app asks whether you want to extend your scheduled focus time. You can select the **Add 15 minutes** button to add 15 more minutes to your scheduled time, or you can add another amount by selecting the button’s down arrow.
+When you launch focus mode, you’ll arrive at the **Timer** section. Here, your focus time is displayed in minutes, which correspond to the time you set through your plan, or when you booked time. If you need to increase or decrease this time, select the arrows. 
+
+If you increase time, the app asks whether you want to extend your scheduled focus time. You can select the **Add 15 minutes** button to add 15 more minutes to your scheduled time, or you can add another amount by selecting the button’s down arrow.
  
+![Screenshot that shows the "Add 15 minutes" button.](Images/focus-extend.png)
+
 To skip automatically scheduled breaks, select the box next to **Skip breaks**. 
 To adjust other settings, like sounds and how long breaks and focus intervals last, open the **Timer settings**.
 
-![Screenshot that shows setting up the timer.](Images/focus-mode-timer-all-settings.png)
+![Screenshot that shows setting up the timer.](Images/focus-timer.png)
 
 When you’re ready to start your timer, select the **Start focus timer** button. You can stop the focus timer whenever you need to.
 
-![Screenshot that shows setting up the timer.](Images/focus-mode-interval-1.png)
+![Screenshot that shows setting up the timer.](Images/focus-clock.png)
 
 ##### Tasks
 
@@ -119,11 +113,6 @@ During breaks between focus intervals, you can use the guided videos in Mindfuln
 
 ![Screenshot that shows Tasks options.](Images/focus-mode-mindfulness-break.png)
 
-##### Re-enter focus mode
-
-If you leave the focus mode page, you can enter it again through the **Protect time** page. Select the **Let’s Go** button on the **Focus Mode > Return to focus mode** card.
-
-![Screenshot that shows the Return to focus mode card in Protect time.](Images/focus-mode-return-card.png)
 
 #### To end a focus session
 
