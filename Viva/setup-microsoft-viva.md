@@ -22,31 +22,44 @@ description: "Learn how to set up the Microsoft Viva suite"
 ---
 # Set up Microsoft Viva
 
-Microsoft Viva is an organizing layer for employee experiences that puts people at the center, uniting them to share knowledge, skills, and connections in the natural flow of the workday. It delivers personalized and actionable insights when and where they’re needed in Teams, SharePoint, and other Microsoft 365 services.
+Microsoft Viva is an organizing layer for employee experiences that puts knowledge, skills, connections, and insights in the natural flow of the workday when they’re needed in Teams, SharePoint, and other Microsoft 365 services.
 
-Microsoft Viva consists of several modules including Viva Topics, Viva Insights, Viva Learning, Viva Connections, Viva Sales, Viva Goals, and Viva Engage. To set up the whole suite, you’ll set up each module individually.
-
-> [!NOTE]
-> If you are in the Targeted Release program, the new Viva admin experience is being rolled out gradually. You may see a different experience than what is described in this article. See [The new Microsoft Viva admin experience](/Viva/new-microsoft-viva-admin-experience).
+Microsoft Viva consists of several modules including Viva Topics, Viva Insights, Viva Learning, Viva Connections, Viva Sales, Viva Goals, and Viva Engage. To set up the whole suite, you’ll set up each module individually starting from a centralized Viva setup page.
 
 ## Start setting up
 
-To jump right in and starting setting up, you'll have to be a Microsoft admin and be signed in to your account.
+1. Sign in to your account as a Microsoft 365 admin.
+2. In the search bar, enter Viva.
+3. Select **Microsoft Viva**.
 
-[Go directly to the the Microsoft Viva admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences)
+![Search for Viva](media\vivasearchscreenshot.png)
 
-At the bottom of the page, select the module you want to set up.
-On the module page, select the **Go to setup guide** button, or in the case of Viva Topics, select the **Get started** button to go to the Setup wizard that guides you through the process.
+Alternatively, you can go to the Microsoft 365 admin center, select **Setup** on the left navigation, and then select the **Microsoft Viva** tile.
 
-![Viva admin page](media/viva-setup-page.png)
 
-Or, if you want to set up later, you can follow these steps:
+This brings you to the [Microsoft Viva admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences).
 
-1. Go to the Microsoft 365 admin center
-2. Select **Setup** on the left navigation
-3. Select the **Microsoft Viva** tile
-4. At the bottom of the page, select the module you want to set up.
-5. Select the **Go to setup guide** button, or in the case of Viva Topics, select the **Get started** button to go to the Setup wizard that guides you through the process.
+![Viva new admin page](media/viva-new-admin.png)
+
+Things you can do on this page:
+
+- **Licenses and roles**:  You can select **Manage licenses** or **Manage roles** to go directly to the Microsoft 365 Licenses page or to the Microsoft 365 Role assignments page. On the Role assignments page, you can search for Viva in the search box to narrow the roles to those specific to Viva.
+- **Plan types**:  You can see the type of Viva plan purchased or included with Microsoft 365 in the **Plan type** column.
+- **Assigned admins**:  You can see quickly whether admin roles have been assigned for each app, and who the roles are assigned to in the **Admins** column. Hover over the profile circles to get the names of people who are assigned roles
+- **App pages**:  You can select an app to go to that app's settings page.
+- **Briefing email**: Select the **Manage briefing email in Viva** to select whether people in your organization should receive [briefing emails](/viva/insights/personal/Briefing/be-overview?WT.mc_id=365AdminCSH_inproduct).
+
+## App settings pages
+
+Each app has its own settings page, and they may differ. The Viva Insights and Viva Learning pages utilize the new admin experience. Other pages will evolve over time. Here's an example of the Learning admin page:
+
+![Viva learn page](media/learn-admin.png)
+
+In this example you can:
+
+- See at a glance which settings are required in the **Priority** column.
+- Select a setting in the list, and get a panel where you can set the options without leaving the page. In this example, you see the panel to assign knowledge managers.
+- Select the **More information** tab to get detailed guidance on setting up the app.
 
 ### More information
 
