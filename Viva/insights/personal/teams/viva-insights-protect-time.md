@@ -92,7 +92,7 @@ To adjust other settings, like sounds and how long breaks and focus intervals la
 
 When you’re ready to start your timer, select the **Start focus timer** button. You can stop the focus timer whenever you need to.
 
-![Screenshot that shows setting up the timer.](Images/focus-clock.png)
+![Screenshot that shows the focus timer elapsing.](Images/focus-clock.png)
 
 ##### Tasks
 
@@ -118,7 +118,7 @@ During breaks between focus intervals, you can use the guided videos in Mindfuln
 
 After your timer runs out, a **Congratulations** message appears. If you want to extend your focus time, select **Restart interval timer**.
 
-![Screenshot that shows focus mode's end screen.](Images/focus-mode-end.png)
+![Screenshot that shows focus mode's end screen.](Images/focus-mode-end1.png)
 
 If you’re done focusing, you can move forward with your day and continue using Teams. Your Teams status will stop showing as **Focusing** and, if they were muted, you’ll start receiving Teams notifications again.
 
