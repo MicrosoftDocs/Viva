@@ -6,7 +6,9 @@ author: madehmer
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium
-ms.collection: viva-insights-personal
+ms.collection: 
+- viva-insights-personal
+- highpri
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -51,6 +53,11 @@ You can create your focus plan in three places:
         ![Screenshot that shows the Focus plan card and the View settings link.](../../Images/mya/use/focus-plan-view-settings.png)
 
 ### In the dashboard
+
+>[!IMPORTANT]
+>The dashboard will be retired soon, but you can access focus plan settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
+>![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
+> [Read more about this change](../reference/mya-retirement.md).
 
 1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
 
@@ -157,6 +164,11 @@ Select the **Leave plan** button at top right.
 Answer the survey question, then select **Leave plan** again.
 
 ### In the dashboard
+
+>[!IMPORTANT]
+>The dashboard will be retired soon, but you can access focus plan settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
+>![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
+> [Read more about this change](../reference/mya-retirement.md).
 
 #### To make changes
 

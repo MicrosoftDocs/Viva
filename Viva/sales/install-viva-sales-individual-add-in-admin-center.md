@@ -4,6 +4,7 @@ description: Learn how to install Viva Sales as individual add-in from Microsoft
 ms.date: 10/03/2022
 ms.topic: article
 ms.service: viva
+ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

@@ -53,11 +53,7 @@ In **Leader & manager settings**, Admins can configure the [system defaults](/vi
 
 **Owners** – Viva Insights admins have full access to these settings and Analysts have full access and limited Analysts have read-only access to the exclusion settings.
 
-<<<<<<< HEAD:Viva/insights/Use/Settings.md
-In **Analyst settings**, Admins can configure [system defaults](/viva/insights/use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), [privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), and default exclusion rules for meetings and attendees. Analysts can create and customize meeting and attendee exclusion rules that exclude meetings or attendees from analysis, such as appointments that are unrelated to work. Limited Analysts have read-only access to exclusion rules. For details, see Exclusion rules
-=======
 In **Analyst settings**, Admins can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and default exclusion rules for meetings and attendees. Analysts can create and customize meeting and attendee exclusion rules that exclude meetings or attendees from analysis, such as appointments that are unrelated to work. Limited Analysts have read-only access to exclusion rules. For details, see Exclusion rules.
->>>>>>> main:Viva/insights/use/settings.md
 
 ## Related topics
 

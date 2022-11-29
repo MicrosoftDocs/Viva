@@ -34,7 +34,7 @@ You can find the **Manager connection** page in the Viva Insights app, within th
 
 For **Coaching**, the **Manager connection** page provides a percentage insight that shows how many employees meet with their manager for less than one hour a month and a visual insight that shows the distribution of monthly 1:1 time with managers.
 
-![Screenshot of the app that shows the Coaching insight.](../Images/WpA/Use/org-manager-connection-coaching.png)
+:::image type="content" alt-text="Screenshot of the app that shows the Coaching insight." source="../Images/WpA/Use/org-trends-manager-coaching.png":::
 
 Here's some information about how those metrics are calculated:
 
@@ -63,9 +63,7 @@ For more best practices and how to develop a 1:1 conversation series, see [Best 
 
 ### Cultivate autonomy
 
-<!-- placeholder image-->
-
-![Screenshot that shows the Autonomy insight.](../Images/WpA/Use/org-manager-connection-autonomy.png)
+:::image type="content" alt-text="Screenshot that shows the Autonomy insight." source="../Images/WpA/Use/org-trends-manager-empowerment.png":::
 
 #### Insights
 

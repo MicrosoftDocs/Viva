@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- highpri
 search.appverid:
 - MET150
 description: "Learn how to manage OKRs"

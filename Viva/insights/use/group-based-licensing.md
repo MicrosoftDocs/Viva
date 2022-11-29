@@ -60,10 +60,5 @@ The resulting assignment is valid and applied to the group. And thereafter, any 
 
 ## Related topics
 
-<<<<<<< HEAD:Viva/insights/Use/Group-Based-Licensing.md
-* [Environment requirements for Advanced insights](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign)
-=======
 * [Environment requirements for Advanced insights](../setup/environment-requirements.md)
 * [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign)
->>>>>>> main:Viva/insights/use/group-based-licensing.md

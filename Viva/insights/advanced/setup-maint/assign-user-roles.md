@@ -29,6 +29,9 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 
 *Applies to: [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles)*
 
+>[!Note] 
+> If you're a targeted release customer, you might see a new admin experience. To learn how to assign roles through this new experience, refer to [Using the new admin experience](new-admin-experience.md).
+
 Follow these steps to assign users to a Viva Insights role, including the **Insights Administrator**, **Insights Analyst**, and **Insights Business Leader** roles: 
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home).

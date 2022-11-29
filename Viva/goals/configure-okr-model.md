@@ -1,8 +1,8 @@
 ---
 title: Configure your OKR rules in Viva Goals
 ms.reviewer: 
-ms.author: vsreenivasan
-author: ms-vikashkoushik
+ms.author: rasanders
+author: RaSanders-MSFT
 manager: 
 audience: Admin
 f1.keywords:
@@ -12,7 +12,8 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- highpri  
 search.appverid:
 - MET150
 description: "Learn how to configure your OKR rules in Viva Goals"
@@ -75,9 +76,6 @@ Projects are the activities that drive toward your key results (your outcomes). 
    - Projects don't contribute to the progress of their parent by default.
    - Block projects from contributing to the progress of their parent.
 
-- **Rename projects**
-
-   Define what you want projects to be called. You can rename the default label and call projects *initiatives*, *tactics*, or anything else. This change will be reflected across your instance of Viva Goals.
 
 ## How to save your OKR model configuration settings
 
