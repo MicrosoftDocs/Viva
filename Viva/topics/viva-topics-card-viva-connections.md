@@ -22,7 +22,7 @@ Use Viva Topics cards to encourage knowledge discoverability, engagement, and sh
 
 
 >[!NOTE]
-> Viva Topics cards will be generally available by the end of December 2022.
+> Viva Topics cards will be generally available by the end of January 2023.
 
 
 ## Viva Topics cards
@@ -45,7 +45,7 @@ The Discover card can be used to view topics and knowledge areas for people who 
 
 >[!NOTE]
 > - You need site owner permissions or higher to your organization’s [SharePoint home site](/sharepoint/home-site) to edit the Viva Connections Dashboard.
-> - Viva Topics cards will be generally available by the end of December 2022.
+> - Viva Topics cards will be generally available by the end of January 2023.
 
 Viva Topics cards can be added to the Viva Connections Dashboard. The Dashboard is one part of the Viva Connections experience that surfaces tools and content relevant to the viewer. [Learn more about how to add Viva Topics cards to the Dashboard](/viva/connections/create-dashboard#create-a-dashboard-and-add-cards).
 
