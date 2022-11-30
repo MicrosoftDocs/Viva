@@ -61,9 +61,9 @@
       items:
         - name: Learning management systems
           items:
-            - name: Content ingestion errors when adding an LMS 
-              href: lms-content-ingestion-errors.md
+            - name: Content ingestion errors when adding an LMS
+              href: /viva/troubleshoot/learning/lms-content-ingestion-errors
         - name: Content providers
           items:
             - name: Content ingestion errors when adding a content provider
-              href: provider-content-ingestion-errors.md
+              href: /viva/troubleshoot/learning/provider-content-ingestion-errors
