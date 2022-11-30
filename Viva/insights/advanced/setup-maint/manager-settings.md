@@ -49,7 +49,7 @@ Insights admins can access **Manager settings**. Before managers can access Viva
 
     ![Screenshot that shows Set team size option.](../images/manager-settings-set-min-team-size.png)
 
-4. Select **Save**.
+4. Select  *Save**.
 
 >[!Note] 
 > Changes to these settings will apply after one hour.
