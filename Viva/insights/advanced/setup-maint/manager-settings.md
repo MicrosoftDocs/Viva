@@ -18,7 +18,7 @@ audience: Admin
 # Manager settings
 
 >[!Important]
-> Manager settings only control **Organization trends** in the Viva Insights app in Teams and on the web. To set up or disable the **Organization trends** page, refer to [Admin tasks](/viva/insights/personal/teams/viva-teams-app-admin-tasks).
+> Manager settings only control **Organization trends** in the Viva Insights app in Teams and on the web. To set up or disable the **Organization trends** page, refer to [Admin tasks](/viva/insights/personal/teams/viva-teams-app-admin-tasks).
 
 As an admin for Microsoft Viva Insights, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team.
 
