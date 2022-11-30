@@ -15,6 +15,9 @@ audience: user
 
 # Shared meeting plan
 
+>[!Note]
+> We're in the process of rolling out these changes to customers.
+
 Shared meeting plans in Microsoft Viva Insights help you promote healthy meeting norms with your colleagues. With shared meeting plans, you can automate the following settings to promote research-backed meeting best practices:
 
 * **Meeting duration** – Give people a breather between events by starting meetings a few minutes late or ending them a few minutes early.
@@ -51,11 +54,13 @@ First, you'll set some meeting norms that affect how your meetings appear on cal
 When you're done setting your meeting norms, select **Next**.
 
 >[!Important]
->After you start the plan, you won't be able to make changes later that apply to all plan participants.
+>You'll be able to make changes to your personal settings after you start your plan. However, if you want to make changes for everyone, you'll need to leave the plan and start a new one.
 
 #### Invite participants
 
 Type in names to the **Recipients** field. When you're done adding recipients, you're ready to send them an invitation to join your plan. Select **Confirm** to send.
+
+If you have one or more people reporting to you, we'll automatically fill in your team members. You can then add or remove people as you need to.
 
 ![Effective meetings tab get started](./Images/smp-add-recipients.png)
 
