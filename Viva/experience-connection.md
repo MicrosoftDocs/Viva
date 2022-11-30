@@ -42,7 +42,7 @@ Viva Engage is integrated into Teams as an app and surfaces existing and new emp
 
 Viva Engage and Viva Connections work together to surface relevant content and to empower employees to contribute, collaborate, work, and share.
 
-Viva Connections operates at a Viva-wide scope, bringing together content, tasks and resources in a tailored, structured and curated experience reflecting the priorities of the organization and the user's job role. It provides a one-stop shop, a "home" for the employee experience. 
+Viva Connections operates at a Viva-wide scope, bringing together content, tasks and resources in a tailored, structured and curated experience reflecting the priorities of the organization and the user's job role. It provides a one-stop shop, a "home" for the employee experience.
 
 Viva Engage is all about you, leaders, coworkers and communities.
 
