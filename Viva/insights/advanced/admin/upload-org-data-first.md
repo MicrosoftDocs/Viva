@@ -84,10 +84,7 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
 >All .csv header fields, which appear under **Source column name**, need to be mapped before you can move on to the next part of the upload process.
 
 1. For each required Viva Insights field:
-    1. Find the corresponding column header under **Source column name**.
-    >[!Important]
-    >To prevent a validation error later, make sure this column is the right data type.
-
+    1. Find the corresponding column header under **Source column name**. To prevent a validation error later, make sure this column is the right data type.
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a. 
      ![Screenshot that shows mapping Viva attributes.](../images/admin-map.png)
 
