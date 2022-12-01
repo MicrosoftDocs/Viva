@@ -13,6 +13,8 @@ manager: helayne
 audience: user
 ---
 
+[CONTENT STORE ONLY]
+
 # Viva Insights Home
 
 In Microsoft Teams, select **Insights** (left app bar) to open the **Home** page for the Microsoft Viva Insights app. You can also open a web-based Viva Insights at [insights.viva.office.com](https://insights.viva.office.com), or through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
