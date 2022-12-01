@@ -1,6 +1,6 @@
 ---
 title: Effective meetings in Viva Insights  
-description: Effective meetings in Microsoft Viva Insights
+description: Learn how to create effective meetings with Microsoft Viva Insights
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -15,9 +15,9 @@ audience: user
 
 # Effective meetings
 
-*This experience is part of a rolling release set to complete in October 2022. It's available to users with a Viva Insights subscription. Refer to [Plans and environments](../Overview/plans-environments.md) for more information.*
-
 ## Meeting category insights
+
+*Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../Overview/plans-environments.md) for more information.*
 
 Use **Meeting category insights** in **Effective meetings** to help understand how you’re allocating time across your Outlook meeting categories.
 
@@ -45,9 +45,6 @@ You can customize what you see here. If you want to:
 > When you make updates to your meeting categories in Teams or Outlook, it can take up to a day for those changes to appear in the **Effective meetings** tab.
 
 ## Meeting habits
-
->[!Note]
-> We're in the process of rolling out these changes to customers.
 
 The **Meeting habits** section highlights your habits or practices in meetings you organized and accepted. Switch between the **Meeting habits** and **Meeting details** views by selecting the tabs above the graph/table.
 
@@ -106,6 +103,8 @@ These types of meetings are excluded from meeting metrics—that is, they don't 
 >Viva Insights counts double-booked meetings only one time for metric calculations. For example, if you have two meetings scheduled for 10:00 AM to 11:00 AM on the same day, Viva Insights counts this as only one hour of meeting time.
 
 ## Meeting effectiveness surveys
+
+*Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../Overview/plans-environments.md) for more information.*
 
 With meeting effectiveness surveys, you can view aggregated feedback from attendees on the meetings you organized. These surveys help you gain insight into what’s going well with your meetings, and what you could improve in future meetings, to promote a healthy meeting culture.
 
