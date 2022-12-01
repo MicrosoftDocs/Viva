@@ -36,7 +36,7 @@ To create a shared meeting plan, go to the **Effective meetings** tab in the Viv
 
 Learn a bit more about how a shared meeting plan can help. Then select **Get started**.
 
-![Effective meetings tab get started](./Images/smp-get-started1.png)
+![Effective meetings tab get started](./Images/smp-get-started2.png)
 
 
 First, you'll set some meeting norms that affect how your meetings appear on calendars and in Teams. Then, you'll invite participants to join your plan.
@@ -49,7 +49,7 @@ First, you'll set some meeting norms that affect how your meetings appear on cal
 
 * **Get feedback from your meeting participants** – Activate meeting effectiveness surveys for plan participants who have a Viva Insights subscription. Meeting effectiveness surveys promote a healthy meeting culture by providing aggregated feedback to meeting organizers on what’s going well with and what you could improve in future meetings.
 
-![Effective meetings tab get started](./Images/smp-norms.png)
+![Effective meetings tab get started](./Images/smp-norms1.png)
 
 When you're done setting your meeting norms, select **Next**.
 
@@ -62,7 +62,7 @@ Type in names to the **Recipients** field. When you're done adding recipients, y
 
 If you have one or more people reporting to you, we'll automatically fill in your team members. You can then add or remove people as you need to.
 
-![Effective meetings tab get started](./Images/smp-new-invite-type.png)
+![Effective meetings tab get started](./Images/smp-new-invite-type1.png)
 
 After they get your invitation, recipients can accept or decline it.
 
@@ -74,7 +74,7 @@ Anyone can join and participate in a shared meeting plan. If you don't have a pr
 
 If someone invites you to join a shared meeting plan, you'll get an invitation in Teams. If you want to join the plan and like the settings the organizer has configured, select **Join**. If you want to edit settings for your meetings before joining, select **Edit**.
 
-![Effective meetings tab get started](./Images/smp-teams-invite.png)
+![Effective meetings tab get started](./Images/smp-teams-invite1.png)
 
 If you're already part of a shared meeting plan, Viva Insights applies the settings from the plan you were just invited to, then summarizes the changes under **Changes to your plan**. If you're OK with these changes and want to continue joining the plan, select **Join**. If you want to make changes before joining, select **Edit**.
 
