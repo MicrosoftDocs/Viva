@@ -36,7 +36,7 @@ To create a shared meeting plan, go to the **Effective meetings** tab in the Viv
 
 Learn a bit more about how a shared meeting plan can help. Then select **Get started**.
 
-![Effective meetings tab get started](./Images/smp-get-started2.png)
+![Effective meetings tab get started](./Images/smp-create.png)
 
 
 First, you'll set some meeting norms that affect how your meetings appear on calendars and in Teams. Then, you'll invite participants to join your plan.
