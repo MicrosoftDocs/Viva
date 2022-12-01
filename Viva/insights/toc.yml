@@ -26,6 +26,8 @@ items:
                 items: 
                 - name: Productivity
                   href: personal/teams/productivity.md
+                - name: Effective meetings
+                  href: /teams/effective-meetings.md  
                 - name: Shared meeting plan  
                   href: personal/teams/shared-meeting-plan.md
               - name: Teamwork
