@@ -123,7 +123,7 @@ Optional fields are commonly encountered system fields that the app suggests for
 
 To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Optional” label.
 
-![Screenshot that shows Viva attributes.](../images/admin-vi-attributes.png)
+![Screenshot that shows Viva attributes.](../images/admin-attributes1.png)
 
 ### Custom
 
@@ -149,10 +149,9 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     >
     >If you’re *updating* data, you can choose to only see the new columns you’ve added or column headers you’ve changed. To do so, select the **Show invalid fields only** toggle.
 2. Repeat steps 4a and 4b for custom and optional fields.
-    * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it.
-
-    >[!Note]
-    >For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
+    * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it. For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
+        >[!Important]
+        >Don't upload **TimeZone** as a column. You'll get an error.
 
 After you map fields, the app validates and processes your data as described in the following sections. If validation and processing are successful, your input to the upload process is complete.
 

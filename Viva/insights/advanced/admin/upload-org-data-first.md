@@ -68,9 +68,9 @@ System default fields can be either *required*—which are **PersonId**, **Manag
 
 Optional fields are commonly encountered system fields that the app suggests for use. You don’t need to map optional fields if your organization doesn’t have data for them.
 
-To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Optional” label.
+To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Reserved optional” label.
 
-![Viva attributes](../images/admin-vi-attributes.png)
+![Viva attributes](../images/admin-attributes1.png)
 
 ### Custom
 
@@ -96,10 +96,9 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     > ![Screenshot that shows hovering over an attribute.](../images/admin-hover-attribute.png)
 
 2. Repeat steps 1a and 1b for custom and optional fields.
-    * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it.
-
-    >[!Note]
-    >For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
+    * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it. For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
+        >[!Important]
+        >Don't upload **TimeZone** as a column. You'll get an error.
 
 1. After you’ve completed mapping your attributes, select the **Next** button in the bottom left of the screen.
 
