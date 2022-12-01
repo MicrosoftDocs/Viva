@@ -30,6 +30,9 @@ items:
               href: teams/viva-insights-protect-time.md
             - name: Effective meetings
               href: teams/effective-meetings.md 
+              items:
+            - name: Shared meeting plan
+              href: teams/shared-meeting-plan.md
             - name: Inspiration library
               href: teams/inspiration.md  
             - name: Setup
