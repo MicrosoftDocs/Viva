@@ -23,9 +23,17 @@ items:
               - name: Home
                 href: personal/teams/home.md
               - name: Productivity
-                href: personal/teams/productivity.md
+                items: 
+                - name: Productivity
+                  href: personal/teams/productivity.md
+                - name: Shared meeting plan  
+                  href: personal/teams/shared-meeting-plan.md
               - name: Teamwork
-                href: personal/teams/teamwork.md
+                items: 
+                - name: Teamwork
+                  href: personal/teams/teamwork.md
+                - name: Shared no meeting day
+                  href: org-team-insights/shared-no-meeting-day.md  
               - name: Wellbeing
                 href: personal/teams/wellbeing.md      
           - name: Briefing
@@ -128,37 +136,19 @@ items:
                     href: personal/Use/mya-adoption/Indiv-adopt-resources.md
               - name: Habit resources
                 items: 
-                  - name: Learning modules
-                    href: personal/Use/mya-adoption/adopt-learning-modules.md
                   - name: Habit-building method
                     href: personal/Use/mya-adoption/adopt-habit-building.md
-                  - name: Habit playbooks
-                    href: personal/Use/mya-adoption/adopt-habit-playbooks.md
       - name: Team and organization insights
         items:
         - name: Setup
           href: org-team-insights/setup.md
-        - name: Teamwork habits       
-          href: org-team-insights/teamwork-habits.md
           items:
-          - name: Teamwork habits FAQ
+          - name: Team insights FAQ
             href: org-team-insights/teamwork-habits-faq.md
-          - name: Shared no-meeting day plan
-            href: org-team-insights/shared-no-meeting-day.md  
-        - name: Organization trends
+        - name: Organization insights
           items:
-          - name: Introduction   
-            href: org-team-insights/org-trends.md
-          - name: Employee wellbeing
-            href: org-team-insights/employee-wellbeing.md
-          - name: Meeting effectiveness
-            href: org-team-insights/meeting-effectiveness.md
-          - name: Manager connection
-            href: org-team-insights/manager-connection.md
-          - name: Employee experience Power BI report
-            href: org-team-insights/employee-experience-pbi.md  
-          - name: Organization trends FAQ
-            href: org-team-insights/org-trends-faq.md
+          - name: Organization insights   
+            href: org-team-insights/teams-and-web/org-insights-in-teams-all.md
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
