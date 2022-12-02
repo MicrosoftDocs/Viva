@@ -43,6 +43,14 @@ Similarly these links will open the entity in Viva Engage in Teams.
 - `https://aka.ms/VivaEngage/Launch?context=%7B%22subEntityId%22:%22type=custom,data=\<entityType\>:\<entityId\>%22%7D`
 - `https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage?context=%7B%22subEntityId%22:%22type=custom,data=\<entityType\>:\<entityId\>%22%7D`
 
-Replace _`\<entityType\>`_ with one of the following:
+However, you will need to:
+- replace _`<entityType>`_ with one of the following:
+| Type      | Replace _`<entityType>`_ with... |
+| --------- | ------------- |
+| Post      | `threaad`  |
+| Community | `group`  |
+| Campaign  | `campaign`  |
+| Storyline | `user`  |
+| Leadership corner | `leadershipcorner`  |
   
-The simpliest way to get to the _`\<entityid\>`_, is by going to the corresponding page on Yammer.com, and then pasting the last part of the...
+- and fill in the  _`<entityid>`_. The easiest way is by going to the corresponding page on Yammer.com, and then pasting the last part of the URL. For example, for the storyline of 'https://web.yammer.com/main/users/eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`, _`<entityid>`_ replace with eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9
