@@ -26,6 +26,9 @@ Often, you'll want to create a deep link to the Viva Engage app in Microsoft Tea
 
 This article will discuss how you can manually construct a deep link into the Viva Engage app.
 
+> [!TIP]
+> While the `https://aka.ms/...` link is shorter, use the longer `https://teams.microsoft.com...` link if you're sharing the deep link in Teams. This way, it will link directly to the Viva Engage tab without opening a new browser window first.
+
 ## Deep link to the Viva Engage store entry
 The following links open the Viva Engage store page in Microsoft Teams:
 - https://aka.ms/VivaEngage/Install
@@ -48,9 +51,10 @@ However, you will need to:
 
 | Type      | Replace _`<entityType>`_ with... |
 | --------- | ------------- |
-| Post      | `threaad`  |
+| Post      | `thread`  |
 | Community | `group`  |
-| Campaign  | `campaign`  |
 | Storyline | `user`  |
+| Storyline | `user`  |
+| Campaign  | `campaign`  |
 | Leadership corner | `leadershipcorner`  |
 2. and fill in the  _`<entityid>`_. The easiest way is by going to the corresponding page on Yammer.com, and then pasting the last part of the URL. For example, for the storyline of `https://web.yammer.com/main/users/eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`, replace _`<entityid>`_  with `eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`.
