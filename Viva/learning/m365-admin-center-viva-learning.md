@@ -10,6 +10,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
