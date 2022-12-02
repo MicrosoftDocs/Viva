@@ -2,8 +2,8 @@
 title: "Deep linking into Viva Engage"
 description: "Create deep links into Viva Engage"
 ms.reviewer: ethli
-ms.author: v-jebizie
-author: v-jebizie
+ms.author: mamiejohnson
+author: mamiejohnson
 manager: dmillerdyson
 audience: Admin
 f1.keywords:
