@@ -57,10 +57,6 @@ Here's how we calculate the habits shown in this section:
 * **RSVP'd to invite** – Meetings you were invited to and either accepted or declined (that is, you didn't leave your status as **Tentative**)
 * **You didn't multitask** – Meetings where you didn't read or send emails or chats
 
-## Shared meeting plan
-
-To help you promote healthy meeting norms with your colleagues, consider using a shared meeting plan. [Read more about shared meeting plans and how to start one.](shared-meeting-plan.md)
-
 ### Meeting exclusions
 
 These types of meetings are excluded from meeting metrics—that is, they don't factor into the habits you see in this section.
@@ -77,6 +73,9 @@ These types of meetings are excluded from meeting metrics—that is, they don't 
 >[!Note]
 >Viva Insights counts double-booked meetings only one time for metric calculations. For example, if you have two meetings scheduled for 10:00 AM to 11:00 AM on the same day, Viva Insights counts this as only one hour of meeting time.
 
+## Shared meeting plan
+
+To help you promote healthy meeting norms with your colleagues, consider using a shared meeting plan. [Read more about shared meeting plans and how to start one.](shared-meeting-plan.md)
 
 ## Meeting category insights
 
