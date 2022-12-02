@@ -21,7 +21,7 @@ The **Meeting habits** section highlights your habits or practices in meetings y
 
 * Use percentage data from the **Meeting habits** view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 80% of the meetings you attended ended on time. 
 
-    ![Collaboration Meeting Habits View.](../teams/Images/effective-meetings-habits.png)
+    ![Collaboration Meeting Habits View.](../teams/Images/effective-meetings-habits1.png)
 
 * For details about all your meetings in the past four weeks, use the **Meeting details** view.
     
