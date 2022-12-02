@@ -21,7 +21,7 @@ The **Meeting habits** section highlights your habits or practices in meetings y
 
 * Use percentage data from the **Meeting habits** view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 80% of the meetings you attended ended on time. 
 
-    ![Collaboration Meeting Habits View.](../teams/Images/effective-meetings-habits1.png)
+    :::image type="content" source="../teams/Images/effective-meetings-habits1.png" alt-text="Collaboration Meeting Habits View." lightbox="../teams/Images/effective-meetings-habits1.png" :::
 
 * For details about all your meetings in the past four weeks, use the **Meeting details** view.
     
@@ -86,11 +86,11 @@ Use **Meeting category insights** in **Effective meetings** to help understand h
 In this section, you'll find three types of insights, which are based on meetings  you organized, meetings you accepted, and your appointments:
 
 * **Percentage breakdown**: The percentage of total meeting hours you spend in each meeting category.
-![Screenshot that shows meeting category insights.](Images/meeting-percentage-breakdown.png)
+:::image type="content" source=Images/meeting-percentage-breakdown.png" alt-text="Screenshot that shows meeting category insights." lightbox="Images/meeting-percentage-breakdown.png":::
 * **Meeting trends**: How the time you spend in each meeting category has changed.
-![Screenshot that shows meeting trends.](Images/meeting-trends1.png)
+:::image type="content" source="Images/meeting-trends1.png" alt-text="Screenshot that shows meeting trends." lightbox="Images/meeting-trends1.png":::
 * **Meeting details**: All your meetings in a list, which includes **Category**, **Total time spent**, **Cadence**, and **Duration**.
-![Screenshot that shows meeting details.](Images/meeting-details.png)
+:::image type=content" source="Images/meeting-details.png" alt-text="Screenshot that shows meeting details." lightbox="Images/meeting-details.png":::
 
 You can customize what you see here. If you want to:
 
