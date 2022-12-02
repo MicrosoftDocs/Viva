@@ -19,6 +19,9 @@ search.appverid:
 - MET150
 ---
 # Deep linking into Viva Engage
+
+## Set up deep links into Viva Engage
+
 Often, you'll want to create a deep link to the Viva Engage app in Microsoft Teams or an entity within Viva Engage, such as a community. For example, you want to include a link to a conversation a leader shared, a community that you're launching, or a campaign you're emailing about.
 
 This article will discuss how you can manually construct a deep link into the Viva Engage app.
@@ -40,18 +43,18 @@ The following links directly open Viva Engage in Microsoft Teams. If the app isn
 ## Deep link to a Viva Engage entity
 Links in these formats will open the entity in Viva Engage in Teams. 
 
-- `https://aka.ms/VivaEngage/Launch?context=%7B%22subEntityId%22:%22type=custom,data=<entityType>:<entityId>%22%7D`
-- `https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage?context=%7B%22subEntityId%22:%22type=custom,data=<entityType>:<entityId>%22%7D`
+- `https://aka.ms/VivaEngage/Launch?context=%7B%22subEntityId%22:%22type=custom,data=<EntityType>:<EntityId>%22%7D`
+- `https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage?context=%7B%22subEntityId%22:%22type=custom,data=<EntityType>:<EntityId>%22%7D`
 
 However, you will need to:
-1. replace _`<entityType>`_ with one of the following values: 
+1. replace _`<EntityType>`_ with one of the following values: 
 
-| Type      | Replace _`<entityType>`_ with... |
+| Type      | Replace _`<EntityType>`_ with... |
 | --------- | ------------- |
 | Post      | `thread`  |
 | Community | `group`  |
 | Storyline | `user`  |
-| Storyline | `user`  |
-| Campaign  | `campaign`  |
-| Leadership corner | `leadershipcorner`  |
-2. and fill in the  _`<entityid>`_. The easiest way is by going to the corresponding page on Yammer.com, and then pasting the last part of the URL. For example, for the storyline of `https://web.yammer.com/main/users/eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`, replace _`<entityid>`_  with `eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`.
+<!-- | Campaign  | `campaign`  |
+| Leadership corner | `leadershipcorner`  | -->
+
+2. and fill in the  _`<EntityId>`_. The easiest way is by going to the corresponding page on Yammer.com, and then pasting the last part of the URL. For example, for the storyline of `https://web.yammer.com/main/users/eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`, replace _`<EntityId>`_  with `eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`.
