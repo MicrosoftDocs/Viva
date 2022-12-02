@@ -24,7 +24,7 @@ search.appverid:
 
 Often, you'll want to create a deep link to the Viva Engage app in Microsoft Teams or an entity within Viva Engage, such as a community. For example, you want to include a link to a conversation a leader shared, a community that you're launching, or a campaign you're emailing about.
 
-This article will discuss how you can manually construct a deep link into the Viva Engage app.
+This article will discuss how you can manually construct different deep links into the Viva Engage app.
 
 > [!TIP]
 > While the `https://aka.ms/...` link is shorter, use the longer `https://teams.microsoft.com...` link if you're sharing the deep link in Teams. This way, it will link directly to the Viva Engage tab without opening a new browser window first.
