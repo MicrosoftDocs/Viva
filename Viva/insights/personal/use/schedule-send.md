@@ -93,14 +93,6 @@ In **Settings > Protect time**, switch the toggle for **Schedule send su
 
 ![Screenshot that shows the On/Off toggle in the Viva Insights dashboard settings.](../../Images/MyA/Use/schedule-send-dashboard.png)
 
-### With the Viva Insights app in Teams or on the web
-
-1. In the upper-right of any page, select the ellipses (**...**), then select **Settings**.
-1. Select **Briefing** on the left pane.
-1. Toggle the switch to unsubscribe. 
-
-Read more about settings in the app in [Configure Viva Insights](../teams/viva-teams-app-settings.md).
-
 ### With the Viva Insights Outlook add-in
 
 1. In the Viva Insights Outlook add-in, select **Settings** (gear icon).
