@@ -43,6 +43,6 @@ Similarly these links will open the entity in Viva Engage in Teams.
 - `https://aka.ms/VivaEngage/Launch?context=%7B%22subEntityId%22:%22type=custom,data=\<entityType\>:\<entityId\>%22%7D`
 - `https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage?context=%7B%22subEntityId%22:%22type=custom,data=\<entityType\>:\<entityId\>%22%7D`
 
-Replace _'\<entityType\>'_ with one of the following:
+Replace _`\<entityType\>`_ with one of the following:
   
-The simpliest way to get to the _'\<entityid\>'_, is by going to the corresponding page on Yammer.com, and then pasting the last part of the...
+The simpliest way to get to the _`\<entityid\>`_, is by going to the corresponding page on Yammer.com, and then pasting the last part of the...
