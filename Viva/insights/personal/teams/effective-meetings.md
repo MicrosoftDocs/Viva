@@ -26,7 +26,7 @@ The **Meeting habits** section highlights your habits or practices in meetings y
 * For details about all your meetings in the past four weeks, use the **Meeting details** view.
     
 
-    ![Collaboration Meeting List View.](../teams/Images/meeting-effectiveness-details.png)
+    :::image type="content" source="../teams/Images/meeting-effectiveness-details.png" alt-text="Collaboration Meeting List View." lioghtbox="../teams/Images/meeting-effectiveness-details.png":::
 
     The **Meeting details** view classifies meetings by using icons, which we describe in the following table:
 
