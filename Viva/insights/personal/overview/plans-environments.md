@@ -89,6 +89,7 @@ After users get assigned licenses with an applicable service plan, they get acce
 
   * [Schedule send suggestions](../use/delay-delivery.md)
   * The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature
+  * [Meeting category insights](../teams/effective-meetings.md#meeting-category-insights)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
   * [Breaks, learning, and message catch-up plans](../teams/viva-insights-protect-time.md#create-other-plans)
 
