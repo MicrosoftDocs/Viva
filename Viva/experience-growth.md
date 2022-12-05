@@ -22,9 +22,11 @@ description: "Learn how Microsoft Viva supports growth with knowledge and learni
 
 If you've ever been a new employee, or an employee changing roles, or even a long-time employee in a large organization, you know that learning is paramount to success. Viva Learning and Viva Topics can provide training and information needed to help employees grow skills and gain knowledge about your organization. Used together, employees won't have to disrupt their everyday flow of work to find the information they need.
 
+For example, a new employee might need to learn how to apply policies in your organization. Your customized training can be assigned to the employee who can complete the training right in Teams. The same employee may be reading a news post that includes organization acronyms they don't know the meaning of. With Viva Topics, all they have to do is select the highlighted acronym in the news post and see details like what the term means, who in the organization is a subject matter expert, and even sites and documents that are related to the term.
+
 ## Viva Learning
 
-Viva Learning is a centralized learning hub in Microsoft Teams that allows employees to access training and learning materials without leaving Teams. Your organization no longer needs a separate location for learning materials, and employees don't have to leave their normal flow of work to find and complete training.
+Your organization no longer needs a separate location for learning materials, and employees don't have to leave their normal flow of work to find and complete training.
 
 ![Viva Learning page)](./media/learning/overview-1.png)
 
@@ -38,11 +40,9 @@ For more information, see [Set up Viva Learning](/viva/learning/set-up-viva-lear
 
 ## Viva Topics
 
-Viva Topics helps to address a key business issue in many companies — providing the information to users when they need it. For example, new employees need to learn a lot of new information quickly, and may encounter terms and acronyms they know nothing about when reading through company information. To learn more, the user might need to step away from what they are doing and spend valuable time searching for details, such as information about what the term is, who in the organization is a subject matter expert, and maybe sites and documents that are related to the term. Now they can select a highlighted term that has a topic associated with it and get information including a description, people working on the topic, and sites, files, and pages that are related to it. Viva Topics uses AI to automatically search for and identify topics in your organization.
+Viva Topics helps to address a key business issue in many companies — providing the information to users when they need it. For example, new employees need to learn a lot of new information quickly, and may encounter terms and acronyms they know nothing about when reading through company information. To learn more, the user might need to step away from what they are doing and spend valuable time searching for details. With Viva Topics, they can select a highlighted term that has a topic associated with it and get information including a description, people working on the topic, and sites, files, and pages that are related to it. Viva Topics uses AI to automatically search for and identify topics in your organization.
 
 ![Example of a topic)](./media/knowledge-management/saturn.png)
-
-
 
  A [knowledge manager or contributor](/viva/topics/topic-experiences-roles) can update the topic information as needed. The topics are available to your users, which means that for every instance of the topic that appears in a modern SharePoint site in news and pages, the text will be highlighted. Users can choose to select the topic to learn more about it through the topic details. Topics can also be found in SharePoint Search.
 
