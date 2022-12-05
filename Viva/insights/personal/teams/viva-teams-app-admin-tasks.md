@@ -20,6 +20,8 @@ audience: Admin
 
 As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can deploy and pin the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
 
+
+
 ## Prerequisites
 
 Before people in your organization can use the Viva Insights app, they must have the following:
@@ -32,7 +34,10 @@ Before people in your organization can use the Viva Insights app, they must have
 Complete the steps in the following playbooks to get the Viva Insights app up and running for people in your organization.
 
 1. Confirm they have a [Viva Insights service plan](../overview/plans-environments.md).
-2. In the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), add the Viva Insights app to the list of allowed apps within the organization, as follows:
+1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
+1. Under **Viva Insights in Microsoft 365**, select **Manage availability in the Teams admin center**.
+   ![Screenshot that shows the Manage availability in Teams admin center option in the Insights admin collection.](../../Images/MyA/setup/mac-teams-admin1.png)
+1. In the Teams admin center, add the Viva Insights app to the list of allowed apps within the organization, as follows:
 [Release the Viva Insights app within your organization](https://download.microsoft.com/download/1/b/9/1b980a29-f166-4b72-8d8e-d1126f4028c7/Release-the-Insights-app.pdf).
 
    >[!Note]
@@ -73,14 +78,12 @@ As the admin, use the following steps to change the setting for meeting effectiv
 
 #### To configure the default state for a tenant
 
->[!Note] 
-> If you're a targeted release customer, you might see a new admin experience. To learn how configure access through this new experience, refer to [Using the new admin experience](../../advanced/setup-maint/new-admin-experience.md#personal-insights). 
+1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
+1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
+   ![Screenshot that shows the Manage settings for Viva Insights option in the Viva Insights admin collection.](../../Images/MyA/setup/manage-settings-insights.png)
+1. In the resulting pane, select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, *no user in your organization will receive the surveys*, including those who previously were receiving them. However, individuals can explicitly opt in again within their Viva Insights app.
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
-2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
-3. In the left pane, expand **Settings**, and then select **Org Settings**.
-4. Under **Org Settings**, select **Viva Insights**.
-5. Select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the surveys, including all those who were receiving the surveys. However, individuals can explicitly opt in again within their Viva Insights app.
+   ![Screenshot that shows the Viva Insights elements pane in the Viva Insights admin collection.](images/meeting-effectiveness-surveys-admin.png)
 
 >[!Note]
 >After you change the survey setting in the admin center, it will take up to 24 hours for the new setting change to take effect.

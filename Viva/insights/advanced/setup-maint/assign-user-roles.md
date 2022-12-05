@@ -29,19 +29,24 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 
 *Applies to: [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles)*
 
->[!Note] 
-> If you're a targeted release customer, you might see a new admin experience. To learn how to assign roles through this new experience, refer to [Using the new admin experience](new-admin-experience.md).
+To assign users to a Viva Insights role, including **Insights administrator**, **Insights analyst**, and **Insights business leader**:
 
-Follow these steps to assign users to a Viva Insights role, including the **Insights Administrator**, **Insights Analyst**, and **Insights Business Leader** roles: 
+1. Go to the Viva [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva) and select **Viva Insights**. You'll need to enter your credentials if you're not already signed in.
+1. Under **Add-on Plan**, select the role you want to assign: **Insights admin, Insights business leader, or Insights analyst**.
+![Screenshot that shows the Viva Insights admin page with options in the Add-on Plan section highlighted.](../images/assign-admin-leader-analyst.png)
+1. Select **Add users** or **Add groups**. We discuss group role assignment in [Assign roles to groups](#assign-roles-to-groups).
+1. Select users(s) or groups(s), then select **Add**.
+![Screenshot that shows the Add users option with three names.](../images/assign-users1.png)
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home).
-2. Go to [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861).
-3. Search for **Insights**, and then select the applicable Insights role to assign a user.
-4. Select **Assign** > **Add**.
-5. Enter the username, and then select the user from the list of suggestions. Optionally, add multiple users until you're done.
-6. Select **Save**.
+You can also add users from the **Role assignments** page:
 
-Within a few days of being assigned a Viva Insights role, the Insights Administrator and Insights Business Leader users get an email about available product features based on their role and service plan.
+1. Go to the [Role assignments page](https://go.microsoft.com/fwlink/p/?linkid=2097861) in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home). You'll need to enter your credentials if you're not already signed in.
+1. Search for **Insights**, and then select the applicable Insights role to assign a user.
+1. Select **Assign** > **Add**.
+1. Enter the username, and then select the user from the list of suggestions. Optionally, add multiple users until you're done.
+1. Select **Save**.
+
+Within a few days of being assigned a Viva Insights role, the **Insights administrator** and **Insights business leader** users get an email about available product features based on their role and service plan.
 
 ## Assign roles to groups
 
@@ -53,10 +58,9 @@ To assign Viva Insights roles to a group, the steps are similar to those for ass
 
 ## Verify role assignments
 
-To find out which roles are assigned for Viva Insights, follow these steps:
+To find out which roles are assigned for Viva Insights, go to the Viva [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences) and select **Viva Insights**. Under **Add-on Plan**, select which role you want to verify. 
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home).
-2. Go to [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861) to see a person or group's assigned roles.
+Alternately, go to [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861) and search for "Insights" to see a person or group's assigned Insights role(s).
 
 ## Role assignment FAQ
 
