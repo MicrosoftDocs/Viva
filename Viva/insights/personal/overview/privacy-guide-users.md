@@ -1,5 +1,5 @@
 ---
-title: Privacy guide 
+title: Privacy guide for personal insights
 description: Overview of privacy features for personal insights, including info about data de-identification and privacy, minimum group size for reporting, admin settings, and users in sensitive roles
 author: madehmer
 ms.author: helayne
