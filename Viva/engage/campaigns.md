@@ -23,8 +23,10 @@ search.appverid:
 
 ## Setup and configuration of campaigns 
 
+![Viva admin page](media/viva-setup-page.png)
 
 Campaigns are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging. Campaigns can be created, managed, and deleted by Global admins, Engage admins, and corporate communicators. 
+
 
 ## Frequently asked questions
 
