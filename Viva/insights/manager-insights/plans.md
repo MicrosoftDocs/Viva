@@ -6,7 +6,7 @@ author: madehmer
 ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: helayne
 audience: user
 ---
