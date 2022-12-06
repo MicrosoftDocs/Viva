@@ -340,10 +340,17 @@
         "redirect_url": "/viva/insights/personal/teams/effective-meetings",
         "redirect_document_id": false
       },
-      {  "source_path": "viva/insights/advanced/setup-maint/new-admin-experience.md",
+      {  
+        "source_path": "viva/insights/advanced/setup-maint/new-admin-experience.md",
       "redirect_url": "/viva/insights/advanced/setup-maint/assign-user-roles",
       "redirect_document_id": false
-    }
+      },
+      {
+        "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
+      "redirect_url": "/viva/insights/personal/setup/configure",
+      "redirect_document_id": false
+
+      }
 
     ]
 }
