@@ -25,51 +25,51 @@ search.appverid:
 
 Campaigns are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging. Campaigns can be created, managed, and deleted by Global admins, Engage admins, and corporate communicators. 
 
-![Viva admin page](/Viva/media/viva-setup-page.png)
-
 ## Accessing the campaign dashboard 
 
 Within the **Feature management** tab in the Engage admin center, select **Campaigns** to view the campaign dashboard.  
 
-![View of the Engage Admin center](/Viva/media/viva-setup-page.png)
+![Viva admin page](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
  
 The campaign dashboard provides a list of active, ended, and in-progress (draft) campaigns created for the organization.  
+
+![Viva admin page](/Viva/media/engage/campaigns/create-campaign-button.png)
 
 ## Creating a campaign 
 
 1. Select **Create campaign** from the top right corner. 
 2. Fill in the fields according to your campaign goals. 
-3. Select **Create** when you are ready to enter the draft state. 
+3. Select **Confirm** when you are ready to enter the draft state. 
 
-![View of the Campaign creation form](/Viva/media/viva-setup-page.png)
+![View of the Campaign creation form](/Viva/media/engage/campaigns/create-campaign-new-campaign-modal.png)
 
 Campaign hashtags are used as the binding element for all campaign content, meaning any posted content containing the campaign hashtag will populate to the campaign landing page and will be included in campaign analytics.  
 
 > [!NOTE]
 > Campaign name and Campaign hashtag are required to successfully create your campaign. The campaign name will only appear in the campaign management dashboard and the campaign hashtag will appear on the campaign landing page. Default publisher only supports discussion, question, praise, and poll type.
 
-## Corporate communicator accessibilities 
+## Corporate communicator accessibilities
 
-Corporate communicators can manage campaigns via: 
-- Publishing Draft campaigns to be Active and viewable to all users in the network 
+Corporate communicators can manage campaigns via:
+- Publishing Draft campaigns to be Active and viewable to all users in the network
 - Setting Active campaigns to Ended once a campaign is finished
-- Re-publishing Ended campaigns to be Active again for reoccurring campaigns 
-- Deleting campaigns that are not relevant or were made by mistake 
-- Updating certain assets on a campaign page such as the: 
+- Re-publishing Ended campaigns to be Active again for reoccurring campaigns
+- Deleting campaigns that are not relevant or were made by mistake
+- Updating certain assets on a campaign page such as the:
     - Goal tracker  
-    - Executive sponsors 
-    - Cover photo 
-    - Pinning posts 
-    - Pinning resources and links 
-    - Updating theme colors 
-    - View campaign analytics 
+    - Executive sponsors
+    - Cover photo
+    - Pinning posts
+    - Pinning resources and links
+    - Updating theme colors
+    - View campaign analytics
 
-## Publishing or ending a campaign 
+## Publishing or ending a campaign
 
 1. To publish a campaign, select the more menu (…) from the campaign management dashboard or from the campaign landing page.  
-2. Select **Publish campaign** to make the campaign **Active**. 
+2. Select **Publish campaign** to make the campaign **Active**.
 
-![View of the UI dropdown for publishing and deleting a campaign](/Viva/media/viva-setup-page.png)
+![View of the UI dropdown for publishing and deleting a campaign](/Viva/media/engage/campaigns/publish-from-dashboard.png)
 
 Once a campaign is published, it becomes **Active** in the campaign management dashboard and the campaign landing page will be visible to anyone who selects a post or comment with the verified campaign hashtag. 
 
