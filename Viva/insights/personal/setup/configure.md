@@ -33,7 +33,7 @@ audience: Admin
 * [Configure access at the tenant level](#configure-access-at-the-tenant-level) or [at the user level](#configure-access-at-the-user-level)
 
 >[!Note]
->When you set the defaults (at either the tenant or user level), users can individually override these settings. For example, if you keep the dashboard tenant setting as opt in, users can open the dashboard and opt themselves out. Similarly, if you opt out users with a user-level setting, those users can choose to opt back in. The exception is if a user's license with a Viva Insights service plan expires, that user cannot opt in.
+>When you set the defaults (at either the tenant or user level), users can individually override these settings. Similarly, if you opt out users with a user-level setting, those users can choose to opt back in. The exception is if a user's license with a Viva Insights service plan expires, that user cannot opt in.
 
 ## Assign licenses with a service plan
 
@@ -46,24 +46,34 @@ For information on how to assign a license, see [Assign licenses to users in Mic
 You can configure access to Viva Insights elements for all users in your organization.
 
 >[!Important]
->You must have a Global admin or an Exchange Online admin role to configure tenant level settings in the admin center.
+>You need to have a Global admin or an Exchange Online admin role to configure tenant-level settings in the admin center. Make sure you're signed in to the Microsoft admin center as a Global or Exchange Online admin before configuring settings.
 
-### To enable access to Viva digest emails, the dashboard, Viva Insights Outlook add-in, and schedule send suggestions
+### To enable access to Viva digest emails, meeting effectiveness surveys, Viva Insights Outlook add-in, and schedule send suggestions
 
->[!Note]
-> If you're a targeted release customer, you might see a new admin experience. To learn how to enable access to these features through the new experience, refer to [Using the new admin experience](../../advanced/setup-maint/new-admin-experience.md#personal-insights). 
+1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
+1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
+    ![Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.](../../images/mya/setup/manage-settings-insights.png)
+1. In the resulting pane:
+    1. Select **Viva Insights web experience** to keep all Viva Insights users in your organization opted _in_ for access to the Viva Insights app on the web. Clear the selection for **Viva Insights web experience** to opt users _out_.  
+    1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
+    1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
+    1. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt users _out_. If you opt users out, they won't see an option for meeting effectiveness surveys in their settings.
+    1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt users out. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and app settings page. It may take up to 24 hours for all changes to take effect.
 
-1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
-1. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
-1. In the left pane, expand **Settings**, and then select **Org settings**.
-1. Under **Services**, select **Microsoft Viva Insights (formerly MyAnalytics)** to see settings for the different options.
-1. Select **Insights dashboard** to keep all Viva Insights users in your organization opted _in_ for access to the dashboard. Deselect **Insights dashboard** to opt users _out_.
-1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
-1. Select **Insights Outlook add-in** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
-1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt users out. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and dashboard settings page. It may take up to 24 hours for all changes to take effect.
+    >[!Note]
+    >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
 
->[!Note]
->After a new tenant is established, it can take up to 48 hours for this functionality to become available.
+
+    ![Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled.](../../Images/MyA/setup/insights-settings-pane.png)
+1. Select **Save**.
+
+
+
+
+You can also get to these settings in from the main [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal):
+
+1. In the left pane, expand **Settings** and then select **Org settings**.
+1. On the **Services** tab, select **Microsoft Viva Insights (formerly MyAnalytics)**.
 
 ## Configure access at the user level
 
@@ -78,8 +88,8 @@ You configure Viva Insights by setting the *PrivacyMode* parameter. For informat
 
 PrivacyMode parameter  | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
-Opt-in (default setting)        | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Dashboard is available</li><li>User can opt out</li></ul>  | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Admins can opt out unlicensed users through the admin PowerShell </li></ul>  
-Opt-out    | <ul><li>Microsoft 365 data is not used for aggregated information shown to licensed users</li><li> Dashboard is not available</li><li>User can opt in through the Feature settings menu</li></ul>   |  <ul><li> Microsoft 365 data is not used for aggregated information shown to licensed users.</li></ul> |
+Opt-in (default setting)        | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Viva Insights on the web is available</li><li>User can opt out</li></ul>  | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Admins can opt out unlicensed users through the admin PowerShell </li></ul>  
+Opt-out    | <ul><li>Microsoft 365 data is not used for aggregated information shown to licensed users</li><li> Viva Insights on the web is not available</li><li>User can opt in through the Feature settings menu</li></ul>   |  <ul><li> Microsoft 365 data is not used for aggregated information shown to licensed users.</li></ul> |
 
 ### Command sequence
 
@@ -134,10 +144,6 @@ Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AD)   |   --
 PrivacyMode   |   Yes   | <ul><li>**Opt-out**: Viva Insights won't use the user's data to compute derived statistics for other users. The user won't see statistics in Viva Insights, but can choose to opt in from the Feature settings menu.</li><li>**Opt-in**: Viva Insights uses the user's data to compute derived statistics for other users. The user can see statistics in Viva Insights, but can choose to opt out from the Feature settings menu.</li></ul>|  Opt-in
-
-<!-- REMOVED MARCH 5 PER VIKRAM: 
-> [!Important]
-> The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out. -->
 
 Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's Viva Insights features were turned on except the digest email:
 
