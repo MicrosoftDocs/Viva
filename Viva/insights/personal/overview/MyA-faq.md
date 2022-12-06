@@ -16,10 +16,9 @@ ms.subservice: viva-insights
 
 # Personal insights FAQ
 
-This article answers frequently asked questions about Microsoft Viva Insights' personal insights options—like the [Dashboard](../use/dashboard-2.md), [Digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
+<!--do we want to specifically talk about the app?-->
 
->[!IMPORTANT]
-> The dashboard will be retired soon. You'll still be able to find personal insights content in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
+This article answers frequently asked questions about Microsoft Viva Insights' personal insights options—like the [Viva Insights app](../teams/viva-teams-app.md), [Digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
 
 Questions and answers are organized into three sections:
 
@@ -36,7 +35,7 @@ For more details, see the [Privacy guide](Privacy-Guide-users.md).
 
 #### Q2. How does Viva Insights protects my data?
 
-Viva Insights uses data from your Microsoft 365 mailbox, namely data about your email and your meetings plus data about your calls and chats in Teams or in Skype for Business.
+Viva Insights uses data from your Microsoft 365 mailbox, namely data about your email and your meetings plus data about your calls and chats in Teams.
 
 Viva Insights stores your data in your mailbox itself, and gets the same protection that your email and calendar itself gets. This means your data is protected the same way your email and calendar information is kept private and protected.
 
@@ -88,20 +87,20 @@ No. Only Exchange Online and Teams are used as data sources of Viva Insights dat
 
 ##### Q1. Does "meeting time" include time that I block out for personal work on my calendar?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time doesn't count as meeting time and will count as focus time.
+If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time doesn't count as meeting time.
 
 ### Focus time
 
-##### Q1. Does "focus time" exclude time that I block out for personal work on my calendar?
+##### Q1. What does "focus time kept" mean?
 
-If you block out your calendar for personal work by using an appointment (see [Create or schedule an appointment](https://support.office.com/article/create-or-schedule-an-appointment-be84396a-0903-4e25-b31c-1c99ce0dacf2)) or by creating a meeting with just yourself, this time can count as focus time. For more details, see [Focus](../Use/focus.md). To exclude focus time, right-click the appointment and set **Show As** to **Out of Office**.
+Focus time counts as kept when you don't delete it and you don't have a meeting conflict. You can book focus time automatically by enrolling in a focus plan, or schedule non-recurring, single sessions through the briefing email or the Viva Insights app. 
 
 ##### Q2. Why does my focus time seem incorrect or inaccurate?
 
 Try the following to troubleshoot your focus-time totals:
 
 1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).)
-2. For more details about focus time, see [Focus](../Use/focus.md).  
+2. For more details about focus time, see [Focus](../teams/viva-insights-protect-time.md#book-focus-time-or-a-plan).  
 
 ### Calendar
 
@@ -133,9 +132,8 @@ See the following for details:
 
 ##### Opt out of different elements
 
- * [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-dashboard)
  * [Opt out of digest emails](../use/email-digests-3.md#opt-out-of-digests)
- * [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-out)
+ * [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-in-and-opt-out)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
 ##### Opt in to Viva Insights
@@ -146,7 +144,7 @@ See the following for details:
 
 Yes, you can. But first, what's the difference between "opt out" and "remove"?
 
-* **Opt out**: If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-out) but in step 4, set the control to **On**.)
+* **Opt out**: If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-in-and-opt-out) but in step 4, set the control to **On**.)
 * **Remove**: If you remove the add-in, not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Viva Insights Outlook add-in](#add-the-viva-insights-outlook-add-in)).  
 
 ##### Remove the Viva Insights Outlook add-in
@@ -175,22 +173,7 @@ Follow these steps to add the Viva Insights add-in to your Outlook ribbon.
 
 ### Visibility and access
 
->[!IMPORTANT]
-> Questions 1 through 3 below address the dashboard, which will be retired soon. You'll still be able to find personal insights content in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
-
-#### Q1. Why can't I see the dashboard?
-
-The dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in [Plans and environments](plans-environments.md). If an organization has no *qualifying plan*, its members can't see any of the personal insight elements, including the dashboard, and Viva Insights doesn't use their data.
-
-#### Q2. I used to get a dashboard full of data but now it's grayed out. What happened?
-
-Your personalized data is only accurately calculated when you have a minimum level of activities with Microsoft 365. Check back on your dashboard in a few days to get a fully personalized experience.
-
-#### Q3. Even though I don't have a Viva Insights license, why is the toggle "on" in the dashboard's Feature settings? What will happen if I change it?
-
-Viva Insights will not be available to you if you don't have a license. However, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, Viva Insights includes that statistic in the read percentage that's shown to the sender. You can change this and not contribute data by turning the toggle off in the [Feature settings](../overview/privacy-guide-admins.md#opt-in-or-out) on the dashboard.
-
-#### Q4. How can I find out what my plan is?
+#### Q1. How can I find out what my plan is?
 
 Some Viva Insights feature descriptions start with _**Applies to**_ sections that refer to Microsoft 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have?
 
@@ -204,24 +187,24 @@ You can identify your _plan_ (and also your _service plan_) by following these s
 
 4. In **Subscriptions**, the available service plans are listed under **Licenses**.
 
-#### Q5. What languages are supported?
+#### Q2. What languages are supported?
 
 Personal insights are available in most of the same languages as the Microsoft 365 apps you're viewing them through. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec). Also, see [Language support](../overview/plans-environments.md#language-support) for more details about what's supported by Viva Insights.
 
-#### Q6. If my assistant manages my email and calendar, does Viva Insights include these activities in my data?
+#### Q3. If my assistant manages my email and calendar, does Viva Insights include these activities in my data?
 
 * Email sent by your assistant on your behalf is not included in your data. Viva Insights only includes data about email that you send from your mailbox.
 * However, Viva Insights does include your calendar events in your data, including the events created and accepted on your behalf by your assistant.
 
-#### Q7. Does Viva Insights use cookies?
+#### Q4. Does Viva Insights use cookies?
 
 Viva Insights only uses cookies to authenticate users for the dashboard. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
 
-#### Q8. Will Viva Insights work for shared mailboxes?
+#### Q5. Will Viva Insights work for shared mailboxes?
 
 No; currently the Viva Insights or MyAnalytics service plans can't be used with shared mailboxes.
 
-#### Q9. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
+#### Q6. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
 
 After activation, Viva Insights processes historical data for four weeks before the date of activation. No data before this four-week date range is shown in the dashboard. For calculating active collaborators, Viva Insights processes historical data for the previous 12 months.
 
@@ -262,7 +245,7 @@ Turn on the "Insights by MyAnalytics" or "MyAnalytics (Full)" service plan for t
 
 #### Q3. How can I manage Viva Insights experiences in Microsoft 365 GCC?
 
-You can enable or disable Viva Insights experiences by following the applicable steps in [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users). More granular controls for each user surface will be available by the end of 2019. 
+You can enable or disable Viva Insights experiences by following the applicable steps in [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users). 
 
 #### Q4. How can I manage the Windows 10 activity history for the organization?
 
@@ -277,7 +260,7 @@ For details, see [New policies for Windows 10](/windows/client-management/new-po
 
 #### Q1. What browsers can I use with Viva Insights and the Insights Outlook Add-in?
 
-See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the Dashboard or Viva Insights web-based pages support.
+See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the Viva Insights web-based pages support.
 
 As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
 
@@ -323,7 +306,7 @@ User metrics data is stored in users' mailboxes. Depending on the scenario, dail
 
 #### Q4. Can data be extracted from on-premises installations of Microsoft Exchange?
 
-No. Only Exchange Online, Skype for Business Online, and Teams are used as data sources of Viva Insights data.
+No. Only Exchange Online and Teams are used as data sources of Viva Insights data.
 
 #### Q5. Can I ask that Viva Insights user data be deleted and not stored?
 
