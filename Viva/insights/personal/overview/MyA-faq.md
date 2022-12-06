@@ -16,7 +16,6 @@ ms.subservice: viva-insights
 
 # Personal insights FAQ
 
-<!--do we want to specifically talk about the app?-->
 
 This article answers frequently asked questions about Microsoft Viva Insights' personal insights options—like the [Viva Insights app](../teams/viva-teams-app.md), [Digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
 
