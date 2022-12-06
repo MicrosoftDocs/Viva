@@ -339,6 +339,46 @@
         "source_path": "viva/insights/personal/use/executive.md",
         "redirect_url": "/viva/insights/personal/teams/effective-meetings",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/collaboration.md",
+        "redirect_url": "/viva/insights/personal/teams/effective-meetings",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/dashboard-2.md",
+        "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/focus.md",
+        "redirect_url": "/viva/insights/personal/teams/viva-insights-protect-time",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/leadership.md",
+        "redirect_url": "/viva/insights/personal/org-team-insights/org-trends",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/network.md",
+        "redirect_url": "/viva/insights/personal/teams/viva-insights-stay-connected",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/wellbeing.md",
+        "redirect_url": "/viva/insights/personal/teams/viva-insights-protect-time",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/protect-time.md",
+        "redirect_url": "/viva/insights/personal/teams/viva-insights-protect-time",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/home-web.md",
+        "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
+        "redirect_document_id": false
       }
     ]
 }
