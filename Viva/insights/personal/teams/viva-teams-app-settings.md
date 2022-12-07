@@ -19,27 +19,25 @@ audience: user
 
 # Configure the app
 
-Use the **Settings** page to configure the features for the Microsoft Viva Insights app. For example, you can turn reminders on or off, or change the day and hour settings for features on the Settings page, such as for [Praise](viva-insights-reflect.md) and [Reflection](viva-insights-reflect.md).
+Use the **Settings** page to configure the features for the Microsoft Viva Insights app. For example, you can turn reminders on or off, change the day and hour settings for features like [Praise](viva-insights-reflect.md) and [Reflection](viva-insights-reflect.md), and set your lunch hours.
 
-To configure the settings:
-
-1. In the upper-right corner of any page, select the **ellipsis** (...), and then select **Settings**.
+To reach the **Settings** page, select the **ellipsis** (...) in the upper-right corner of any page, and then select **Settings**.
 
    ![Screenshot that shows selecting settings.](Images/vi-settings-ellipses.png)
 
-2. You can configure settings for the following features:
+You can configure settings for the following features:
 
-   * **Workweek** – Edit the days of the week that you work, your start time, end time, and your time zone. These settings are kept synchronized with the same settings in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). That is, if you change them in one place, they will be updated everywhere that they appear.
-   * **Virtual commute** – Choose whether you want a reminder to wrap up your day and when you want to see that reminder.
-    * **Protect time** – You can do three things in **Protect time** settings:
-        * Set up your **quiet time**: Select whether you want to mute mobile notifications during certain times of the day, and whether there are some days you want to mute mobile notifications all day.
-        * Set up a **no-meeting day** reminder, which reminds you to clear conflicting meetings on no-meeting days.
-        * Configure your **focus plan**. For more information about focus plans, refer to [Focus plan](../Use/focus-plan.md).
-   * **Reflection** – Choose whether you want a reminder to reflect and when you want to see that reminder. For more information about reflections in the Viva Insights app, refer to [Reflect](./viva-insights-reflect.md).
-   * **Praise** – Choose whether you want a reminder to send praise to your colleagues and when you want to see that reminder. For more information about praise in the Viva Insights app, refer to [Send praise](./viva-insights-praise.md).
-   * **Effective meetings** – Choose whether you to send a meeting effectiveness survey to participants in meetings you organize.
-   <!--pending verification on licensing--> 
-   * **Teamwork habits** – You can use this option to update your list of team members. Teamwork habits is available to users who have a premium Microsoft Viva Insights license with an [applicable service plan](../Overview/plans-environments.md).
+| Feature | Settings |  
+|---|---|
+| Workweek |  Edit the days of the week that you work, your start time, end time, and your time zone. These settings are kept synchronized with the same settings in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). That is, if you change them in one place, they'll be updated everywhere that they appear. 
+| Briefing |  Set up what time of day you receive the Briefing email in your inbox, which items you want to see more often in your Briefing email, or  unsubscribe. For more information about these settings, refer to [Briefing settings](../Briefing/be-settings.md).
+| Teamwork habits| Choose whether you want a 1:1 plan meeting reminder before your next scheduled 1:1.
+| Virtual commute | Choose whether you want a reminder to wrap up your day and when you want to see that reminder. 
+| Protect time | Use the **Protect time** section to update: <ul> <li>**Quiet time**. Mute mobile notifications after certain hours and all day on the days you pick. </li><li>**Schedule send suggestions**. Choose whether you want a notification in Outlook to send emails that align with recipients' working hours. For more information about schedule send suggestions and in-line suggestions, refer to [Schedule send suggestions](../use/delay-delivery.md). </li><li>**Productivity inline suggestions**. Turn on this feature to see suggestions when you're composing emails or meeting invites in Outlook. These suggestions help book focus time, manage tasks, and more. Read more about inline suggestions, refer to [Schedule send suggestions](../use/delay-delivery.md).</li><li>**Lunch hours**. Set your lunch hours and choose whether you want a recurring calendar event to protect that time. Viva Insights uses this setting to improve recommendations for booking focus time and meetings.</li><li>**No-meeting day plan settings**. To clear conflicts before a planned no-meeting day, Viva Insights sends you a reminder. Select **No** if you'd rather not get this reminder.</li><li>**Focus plan**. Set your Focus plan preferences, like how much time you want to spend focusing, when you prefer to focus, and more. For more information about using this setting and about focus plans, refer to [Protect time with Viva Insights](viva-insights-protect-time.md#book-focus-time-or-a-plan).</li><li>**Breaks, learning, and message catch-up plans**. Configure settings for other protect-time plans. For more information about updating these plans, refer to [Protect time with Viva Insights](viva-insights-protect-time.md#create-other-plans).
+| Reflection| To get in the habit of regular check-ins, you can set up a reminder to reflect. Learn more about the **Reflect** feature in [Reflect in Viva Insights](viva-insights-reflect.md).
+| Praise | Like **Reflection**, you can set up regular reminders to send praise to your colleagues. Learn more about the **Praise** feature in [Praise in Viva Insights](viva-insights-praise.md).
+| Effective meetings| Use these settings to have Viva Insights automatically add a Teams link to your meeting invite or shorten your meeting durations. You can also turn on and off meeting effectiveness survey requests. For more information about meeting effectiveness, refer to [Effective-meetings in Viva Insights](./effective-meetings.md).
+| Privacy| Use this section to opt in or out of the following features: <ul><li>**Viva Insights**. If you want Viva Insights to stop using your collaboration data to display personal insights, toggle the switch from **On** to **Off**. If you opt out, you'll lose access to a number of features. For information about opting out of Viva Insights, refer to [Opt out of Viva Insights](../use/opt-out-of-mya.md).</li><li>**Insights Outlook add-in**. If you don't want to see insights in Outlook, toggle this switch from **On** to **Off**. Learn more about the Outlook add-in here: [Viva Insights Outlook add-in](../use/add-in.md).</li><li>**Viva Digest email**. If you want to stop getting the twice-monthly Digest email, toggle this switch from **On** to **Off**. Learn more about the Digest email here: [Viva digest emails](../use/email-digests-3.md).
 
 ## About reminders
 

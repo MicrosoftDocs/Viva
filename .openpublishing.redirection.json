@@ -379,6 +379,12 @@
         "source_path": "viva/insights/personal/use/home-web.md",
         "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
         "redirect_document_id": false
-      }
+      },
+      
+      {"source_path": "viva/insights/tutorials/power-bi-myorg.md",
+      "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
+      "redirect_document_id": false
+    }
+
     ]
 }
