@@ -29,25 +29,25 @@ Measured employees include those who are assigned a Viva Insights license and ar
 
 The number of measured employees might be different because:
 
-* One or more of the employees on your team are not assigned a Viva Insights license.
-* Or the latest available HR data uploaded into the advanced insights app did not include the latest hierarchy or employee data.
+* One or more of the employees on your team isn't assigned a Viva Insights license.
+* Or the latest available HR data uploaded into the advanced insights app didn't include the latest hierarchy or employee data.
 
 ##### Q4 Can I configure the time period or thresholds for the insights?
 
-Currently, you cannot configure settings for these insights. The current time period is the past six months.
+Currently, you can't configure settings for these insights. The current time period is the past six months.
 
 ##### Q5 Do the "Teams like yours" metrics account for organizational averages and minimum group size settings?
 
-Teams like yours metrics use other teams in the same hierarchy that report to the manager's manager. If the team structure does not meet the minimum group size, the team's average is not used or shown in the metrics.
+Teams like yours metrics use other teams in the same hierarchy that report to the manager's manager. If the team structure doesn't meet the minimum group size, the team's average isn't used or shown in the metrics.
 
 ##### Q6 Can I see insights for both direct and indirect reports?
 
-While this capability is currently unavailable, it is planned for a future release.
+While this capability is currently unavailable, it's planned for a future release.
 
 ##### Q7 Why are some employees in my team not eligible to enroll in plans?
 
 Employees might not be eligible for a plan if:
 
-* They do not have Viva Insights enabled.
+* They don't have Viva Insights enabled.
 * Are already enrolled in an existing plan.
-* The team does not meet the minimum group size limit.
+* The team doesn't meet the minimum group size limit.
