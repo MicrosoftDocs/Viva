@@ -34,6 +34,8 @@ Viva Learning is enabled by default for all Microsoft Teams users in your organi
 
 The teams and people in your organization can discover, share, recommend, and learn from content provided by both your organization and partners.
 
+You can also create and deploy custom learning for your organization by adding SharePoint as a learning source for Viva Learning. You can create and add your own organization’s training materials to Viva Learning. The knowledge admin (or global administrator) provides a site URL to where the Learning Service can create a centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. See the [step-by-step](/learning/configure-sharepoint-content-source) guide on how to do this.
+
 [Learn how to manage content sources](/viva/learning/content-sources-365-admin-center)
 
 For more information, see [Set up Viva Learning](/viva/learning/set-up-viva-learning).
