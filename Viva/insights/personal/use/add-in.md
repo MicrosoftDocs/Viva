@@ -130,19 +130,7 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 
 ## To opt out
 
->[!IMPORTANT]
->The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
->![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
-> [Read more about this change](../reference/mya-retirement.md).
-
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon at top right.
-
-    ![Dashboard settings.](../../Images/mya/use/mya-gear-settings.png)
-
-3. Under **Viva Insights**, select **Settings**.
-4. For **Insights Outlook add-in**, set the control to **Off**.  
-5. Select **Save** to save your changes.
+You can opt [opt in through your Viva Insights app in Teams or on the web](../use/home-web.md#opt-in-or-out-of-features).
 
 >[!NOTE]
 >It might take up to 24 hours for your saved changes to take effect.
@@ -165,19 +153,7 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 
 ## To opt in
 
->[!IMPORTANT]
->The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
->![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
-> [Read more about this change](../reference/mya-retirement.md).
-
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon at top right.
-
-    ![Feature settings.](../../Images/mya/use/mya-gear-settings.png)
-
-3. Under **Viva Insights**, select **Settings**.
-4. For **Viva Insights Outlook add-in**, set the control to **On**.  
-5. Select **Save** to save your changes.
+You can [opt in through your Viva Insights app in Teams or on the web](../use/home-web.md#opt-in-or-out-of-features).
 
 >[!NOTE]
 >It might take up to 24 hours for your saved changes to take effect.
