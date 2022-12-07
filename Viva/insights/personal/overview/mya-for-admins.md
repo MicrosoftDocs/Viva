@@ -35,7 +35,7 @@ Viva Insights can help participants strengthen their work relationships, have mo
 * Users can opt in or out from the start. See [Opt out](../use/opt-out-of-mya.md) for details.
 * Users can opt out of the personal dashboard. See [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-dashboard) for details. 
 * Users can opt out of digest emails. See [Opt out of digests](../use/email-digests-3.md#opt-out-of-digests) for details.
-* Users can opt out of the Insights Outlook add-in. See [Opt out of the Insights Outlook add-in](../use/add-in.md#to-opt-out) for details.
+* Users can opt out of the Insights Outlook add-in. See [Opt out of the Insights Outlook add-in](../use/add-in.md#to-opt-in-and-opt-out) for details.
 * Users can opt out of inline suggestions. See [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) for details.
 
 ## Data privacy
