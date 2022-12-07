@@ -16,34 +16,34 @@ audience: user
 
 Organization insights help leaders and managers of large teams understand how their organizations—the people who report to them directly or indirectly—are succeeding at work. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
-## Getting access
+## Licenses, roles, and access
 
-To grant access to organization insights, the Insights administrator can either:
+To view organization insights:
 
-* Assign a person to the **Insights business leader** role.
-* Enable a person as a Group Manager under Viva Insights 
+* You need to have a premium Viva Insights license.
+* Your Insights admin needs to assign you the [**Insights business leader** role](../../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
+* You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
 
-Manager Settings
+People in your organization also need to have a premium Viva Insights license so they can be measured in organizational insights. If you want to see an insight that reflects your entire company, everyone in the company needs to have a premium Viva Insights license.
 
-To be eligible to view organization insights, a person must have a premium Viva Insights license. Additionally, people in that person’s organization must also have a premium Viva Insights license for those people to be measured in an organizational insight. That means that for an Insights Business Leader to see an insight for their entire company, every person in their company must have a premium license.
-People with the Insights Business Leader role can see organization insights that include every person in their tenant. People with the Group Manager role can see organization insights that only include people who report to them directly or indirectly. This reporting hierarchy is uploaded and maintained by the Insights Administrator. People with both the Insights Business Leader role and Group Manager role will be able to toggle between the two organization insights views.
+### Insights by role
 
-Data and privacy
+People with the **Insights business leader** role assigned to them can see organization insights that include every person in their tenant. 
+
+People enabled as group managers can see organization insights that only include people who report to them directly or indirectly. Your Insights admin uploads and maintains this reporting hierarchy. If your admin assigned you the Insights business leader role and also enabled you as a group manager, you can toggle between the two organization insights views.
+
+<!--screenshot--where?-->
+
+## Data and privacy
 
 Viva Insights commits that no user will discover information about another identified individual that they didn’t already know. This principle applies to every feature in Viva Insights, including organization insights.
 
-Organization insights are fundamentally different from the other features in Viva Insights: 
+For further detail about privacy and organization insights, refer to our [privacy information](../../advanced/privacy/privacy.md#about-organization-insights).
 
-•	Organization insights give a person access to insights about other people based on information that they wouldn’t already have
-•	All other insights only give a person access to insights about themselves or about how they interact with others based on data they already have available 
-Because organization insights give a person new information about other people, the insights have protections in place to ensure that information cannot be tied to an identified individual. Organization insights apply three strategies to protect individual identity:
-•	Minimum group size. Because it’s easier to guess information about an individual based on results about a smaller group, leaders and managers won’t see results for groups with fewer than 10 people. The Insights Administrator may choose to increase this threshold even further for additional protection.
-•	Differential privacy. For simple averages and totals, there is a small amount of noise introduced into each calculation. The aggregated amount stays accurate, but this makes it impossible to add or subtract different values to figure out results for a single person.
-•	Distribution tails. Some insights measure how many people have a certain profile, like what percentage of an organization gets enough focus time. Leaders and managers won’t see results that would otherwise reveal that “almost all” or “almost none” of the group fit the profile, because that would effectively give you information about every individual in the group.
 
-Using organization insights
+## Using organization insights
 
-Organization insights are more than just a dashboard – they also provide helpful features to share insights and actions with your organization.
+Organization insights are more than just a dashboard – they also provide helpful features to share insights and actions with your organization. Here's how you can use organization insights:
 
 Insight scope selector. At the top of any page or section with organization insights, you will see an indicator showing how many people are being measured. If you have the group manager role, this is your reporting organization. If you have the Insights Business Leader role, this is the entire company. If you have both roles, you will be able to choose between the two views.
 
