@@ -30,7 +30,7 @@ You can create, configure, or end your focus plan at will. For more information,
 
 ## To create your focus plan
 
-You can create your focus plan in two places:
+You can create your focus plan in three places:
 
 * [Viva Insights app](#in-the-app)
 * [Dashboard](#in-the-dashboard)
