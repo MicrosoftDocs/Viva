@@ -135,7 +135,7 @@ See the following for details:
 
  * [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-dashboard)
  * [Opt out of digest emails](../use/email-digests-3.md#opt-out-of-digests)
- * [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-out)
+ * [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-in-and-opt-out)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
 ##### Opt in to Viva Insights
@@ -146,7 +146,7 @@ See the following for details:
 
 Yes, you can. But first, what's the difference between "opt out" and "remove"?
 
-* **Opt out**: If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-out) but in step 4, set the control to **On**.)
+* **Opt out**: If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-in-and-opt-out) but in step 4, set the control to **On**.)
 * **Remove**: If you remove the add-in, not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Viva Insights Outlook add-in](#add-the-viva-insights-outlook-add-in)).  
 
 ##### Remove the Viva Insights Outlook add-in
