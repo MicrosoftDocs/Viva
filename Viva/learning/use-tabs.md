@@ -22,7 +22,7 @@ description: Learn how to configure and view content in the Admin and My Learnin
 
 You can manage some of your Viva Learning content from within the app in Teams. Use the **Admin** tab to control Viva Learning configurations and different features. This requires knowledge manager access.  
 
->[!NOTE]
+> [!NOTE]
 > Features in the Admin tab require a Viva Suite or Viva Learning license.
 
 Review this article to [Learn how to assign roles](/exchange/permissions/role-group-members).
