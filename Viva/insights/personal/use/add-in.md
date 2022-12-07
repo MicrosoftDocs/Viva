@@ -128,21 +128,18 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 5. In the right pane, in the **Toolbar** area, select **Viva Insights**.
 6. Save your new settings.
 
-## To opt out
+## To opt in and opt out
 
->[!IMPORTANT]
->The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
->![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
-> [Read more about this change](../reference/mya-retirement.md).
+1. Open your Viva Insights app in Teams or on the web.
+1. Select the ellipses (**...**) at top right.
+1. Select **Privacy** from the left pane.
+1. To :
+    * Opt ***out***, toggle the switch for **Insights Outlook Add-in** from **On** to **Off**.
+    * Opt ***in***,toggle the switch for **Insights Outlook Add-in** from **Off** to **On**
 
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon at top right.
+1. Select **Save changes**.
 
-    ![Dashboard settings.](../../Images/mya/use/mya-gear-settings.png)
-
-3. Under **Viva Insights**, select **Settings**.
-4. For **Insights Outlook add-in**, set the control to **Off**.  
-5. Select **Save** to save your changes.
+    ![Outlook add-in opt out setting](../../Images/mya/use/opt-out-add-in.png)
 
 >[!NOTE]
 >It might take up to 24 hours for your saved changes to take effect.
@@ -162,25 +159,6 @@ If you opt out of the Viva Insights Outlook add-in, you might also want to remov
 ### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Viva Insights Outlook add-in.
-
-## To opt in
-
->[!IMPORTANT]
->The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
->![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
-> [Read more about this change](../reference/mya-retirement.md).
-
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon at top right.
-
-    ![Feature settings.](../../Images/mya/use/mya-gear-settings.png)
-
-3. Under **Viva Insights**, select **Settings**.
-4. For **Viva Insights Outlook add-in**, set the control to **On**.  
-5. Select **Save** to save your changes.
-
->[!NOTE]
->It might take up to 24 hours for your saved changes to take effect.
 
 ## Related topics
 
