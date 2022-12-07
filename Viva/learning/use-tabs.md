@@ -23,7 +23,7 @@ description: Learn how to configure and view content in the Admin and My Learnin
 You can manage some of your Viva Learning content from within the app in Teams. Use the **Admin** tab to control Viva Learning configurations and different features. This requires knowledge manager access.  
 
 >[!NOTE]
-> Some features in the Admin tab require a Viva Suite or Viva Learning license.
+> Features in the Admin tab require a Viva Suite or Viva Learning license.
 
 Review this article to [Learn how to assign roles](/exchange/permissions/role-group-members).
 
@@ -35,6 +35,10 @@ To create a set of featured content that will show up for your users, select the
 
 Navigate to **manage providers** for a detailed view of all configured learning providers and to manage the learning providers and respective offerings. Refer to [Manage learning management systems](../learning/configure-lms.md) and [Add other content providers](../learning/configure-other-content-sources.md) for more information.
 
+The following features are accessible by the listed admin roles: 
+
+**Manage Providers**: global admin, knowledge admin, knowledge manager
+**Admin Tab**: global admin, knowledge admin, knowledge manager 
 
 Once an admin configures a learning source on the M365 Admin center, the configured provider is reflected immediately in the **manage providers** section in the Viva Learning admin tab. 
 
