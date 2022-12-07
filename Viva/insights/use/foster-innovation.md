@@ -28,7 +28,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Enable deep work |Percentage of employees have less than 20 hours for deep work each week |[Total focus hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
+|Enable deep work |Percentage of employees who have less than 20 hours for deep work each week |[Total focus hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
 |Utilize influencers |Percentage of organizations who have few influencers |[Influence](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
 
 The following defines the organizational data shown in the visual behavioral insights.
