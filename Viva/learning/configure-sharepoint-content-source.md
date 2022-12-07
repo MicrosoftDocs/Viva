@@ -138,12 +138,18 @@ Create a folder to store learning content for your organization.
 You can add links to both internal content from SharePoint and external content from sites such as YouTube or Vimeo that will pull through into Viva Learning.
 
 1. In your folder, select **New** and then choose **Link**.
-    ![Screenshot of the documents library with New and Link selected.](../media/learning/sp-new-link.png)
+
+    :::image type="content" alt-text="Screenshot of the documents library with New and Link selected." source="../media/learning/sp-new-link.png" lightbox="../media/learning/sp-new-link.png":::
+
 2. Add the URL and choose a name.
-    ![Screenshot of the new link pane with a URL and name filled in.](../media/learning/sp-linkname.png)
+
+   ![Screenshot of the new link pane with a URL and name filled in.](../media/learning/sp-linkname.png)
+
 3. Select **Create**.
 4. The link will show up in your document library with the name you selected.
-    ![Screenshot of the documents library with a new file called Azure.url.](../media/learning/sp-linkinlibrary.png)
+
+   ![Screenshot of the documents library with a new file called Azure.url.](../media/learning/sp-linkinlibrary.png)
+
 5. The linked object will show up in the Viva Learning app.
 
 When users access the content from Viva Learning, they'll be taken to the URL of the content in their browser.
