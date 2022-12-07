@@ -14,124 +14,89 @@ audience: user
 
 # Organization insights in the Viva Insights app
 
+Organization insights help leaders and managers of large teams understand how their organizations—the people who report to them directly or indirectly—are succeeding at work. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
-## About organization insights
+Getting access
 
-<!---felt like we needed to describe what measurements are and what insights are, and how they're presented/how they help. Should be vetted by Jess/Faisal-->
+There are two ways for the Insights Administrator to grant access to organization insights:
 
-Organization insights within the Microsoft Viva Insights app help you understand how well your group is doing in relation to *key indicators*--for example, focused work and work-life balance. By measuring your group in specific ways, like determining uninterrupted focus hours, Viva Insights can present this data as *insights*. Insights compare and contrast data across time, and encourage you to take specific action to help create a better employee experience.
+•	They can assign a person to the Insights Business Leader role, or
+•	They can enable a person as a Group Manager under Viva Insights 
 
-### Who can access organization insights
+Manager Settings
 
-To access organization insights, your admin needs to either assign you the **Insights Business Leader** role or configure you as a group manager. <!--how do they do this?-->
+To be eligible to view organization insights, a person must have a premium Viva Insights license. Additionally, people in that person’s organization must also have a premium Viva Insights license for those people to be measured in an organizational insight. That means that for an Insights Business Leader to see an insight for their entire company, every person in their company must have a premium license.
+People with the Insights Business Leader role can see organization insights that include every person in their tenant. People with the Group Manager role can see organization insights that only include people who report to them directly or indirectly. This reporting hierarchy is uploaded and maintained by the Insights Administrator. People with both the Insights Business Leader role and Group Manager role will be able to toggle between the two organization insights views.
 
-### How to use organization insights
+Data and privacy
 
-If you're assigned the **Insights Business Leader** role, you can view organization insights that measure all employees in the company. If you're a group manager and have the **Insights Business Leader** role assigned, use the selector next to the section title to switch the scope of the insights you're viewing to your direct reports. <!--Verify that the scope is for direct reports vs whole org. Would be good to have a screenshot, too.-->
+Viva Insights commits that no user will discover information about another identified individual that they didn’t already know. This principle applies to every feature in Viva Insights, including organization insights.
 
->[!Note]
->The list of direct and indirect reports is based on organizational data that your admin manages.
+Organization insights are fundamentally different from the other features in Viva Insights: 
 
-#### Navigation
+•	Organization insights give a person access to insights about other people based on information that they wouldn’t already have
+•	All other insights only give a person access to insights about themselves or about how they interact with others based on data they already have available 
+Because organization insights give a person new information about other people, the insights have protections in place to ensure that information cannot be tied to an identified individual. Organization insights apply three strategies to protect individual identity:
+•	Minimum group size. Because it’s easier to guess information about an individual based on results about a smaller group, leaders and managers won’t see results for groups with fewer than 10 people. The Insights Administrator may choose to increase this threshold even further for additional protection.
+•	Differential privacy. For simple averages and totals, there is a small amount of noise introduced into each calculation. The aggregated amount stays accurate, but this makes it impossible to add or subtract different values to figure out results for a single person.
+•	Distribution tails. Some insights measure how many people have a certain profile, like what percentage of an organization gets enough focus time. Leaders and managers won’t see results that would otherwise reveal that “almost all” or “almost none” of the group fit the profile, because that would effectively give you information about every individual in the group.
 
-Here are some things to remember while you explore organization insights within the Viva Insights app.
+Using organization insights
 
-##### Tooltips and recommended actions
+Organization insights are more than just a dashboard – they also provide helpful features to share insights and actions with your organization.
 
-If you need a detailed definition of an insight, select the tooltip to the right.
+Insight scope selector. At the top of any page or section with organization insights, you will see an indicator showing how many people are being measured. If you have the group manager role, this is your reporting organization. If you have the Insights Business Leader role, this is the entire company. If you have both roles, you will be able to choose between the two views.
 
-<!--image-->
+Insight indicators show you your organization’s average for the most recent period available, and how much it has changed from the period prior. 
 
-Each organization insight card includes a button for a primary recommended action. When you select it, Viva Insights takes you to a related feature that might help address that insight. For example, if your insight indicates that average meeting hours are up, the recommended action card might encourage you to **Set up a no-meeting day**. When you select the button, you'll start the no-meeting day setup right away.
+Insight details can give you additional context for understanding the measured results. These details can include trend lines, peer comparisons, comparisons across groups within your organization, and distributions.
 
-##### Explore more
+Sharing is available for most insight cards, and allow you to send a screenshot to another person, or provide a link to invite them to the same location in Viva Insights. Note that this link won’t give them access to the same data you can see, but if they also have access to organization insights, they will be able to see results for their own group.
 
-Each insight card also contains an **Explore more** button, which takes you to a full-page report that provides more information. The report includes:
+Actions point you to other workflows in Viva Insights that can help support you or your organization to manage the measured behavior.
 
-* Trending changes over time.
-* Comparisons to peer organizations and across internal group breakdowns (if eligible).
-* Distributions to identify whether a significant share of employees have outlying experiences. <!--explanation needed-->
-* Explanatory notes to help you interpret what the insight measures.
-* Links to related insights and **Inspiration library** articles.
+Helpful terms
 
-<!--do we need to keep the below?-->
+Reporting hierarchy. The reporting hierarchy is managed by your Viva Insights administrator. It identifies reporting relationships throughout the company: people who are managers, and the people who report to them. The reporting hierarchy may be sourced from Azure Active Directory or from a manual upload from your company’s HR information system. It is used to identify people in your organization, your peer organization, and any organizations that might report up to you.
 
-These **Explore more** pages only include internal group breakdowns for people who have one or more managers who report directly to them, and when those reporting managers themselves have big enough organizations of direct and indirect reports. You'll see results for those sub-organizations labeled with the name of the manager who reports directly to you-- for example, “Ava Kim’s organization.” 
+Current period. Unless otherwise stated, most insights are showing the result for the most recent period – that usually means the most recent complete week of data. A few insights use a four-week or rolling four-week window instead, to smooth normal variability and make it easier to understand the insight. If an insight uses something other than the most recent week for the current period, you will see it called out on the insight card.
 
-#### To share an insight
+Prior period. The prior period is the period immediately before the most recent period – usually the week before the most recent completed week.
 
-If you want to share an insight with others, select the share icon on that insight's card. Pick whether you want to share the insight through a Teams chat or share a link to the insight card.
+Employees. Organization insights provide measures for groups of employees, and are meant to capture what typical workday activity looks like for those employees. To avoid skewing the averages by including people who are not at work during the week (for example, they are on holiday or out sick), organization insights only measure people who have some activity in Outlook or Teams during the week.
+Your organization. If the insight scope selector says, “Your organization”, your this group includes everyone who reports to you directly or indirectly. It is based on your organization’s reporting hierarchy, which is managed by your Viva Insights administrator. If the insights scope selector says, “[Your company name]”, this group includes everyone who has been set up as part of the premium insights group by your Viva Insights administrator.
 
-![Screenshot that shows the organization insights section of the Home tab, with Uninterrupted focus hours as the featured insight.](../images/org-insights-share-insight.png)
+Peer organization. Peer organization includes groups near your own group in the reporting hierarchy. If available, the peer organization includes people who report directly or indirectly up to your manager, but not up to you. If there are no such groups, or they don’t meet the minimum group size, the peer organization includes people who report directly or indirectly up to your skip-level manager but not up to you. If there’s not enough people who meet that definition either, you will not see peer organization insights. 
 
-Sharing an insight through a Teams chat sends recipients a Teams chat message with a screenshot of the insight. The app gives you a preview so you can edit your message before sending it.
+Insights Business Leaders who are viewing insights for the entire company will also not see peer organization insights.
 
-<!--Do we have a screenshot we can share of this? I couldn't seem to find one on the Figma.-->
+Organization breakdown. The groups displayed in the organization breakdown are based on your reporting hierarchy. Each group includes people who report directly or indirectly to a person who reports to you. The insights represent the activity of the group, not just that person who reports to you, even though their name is used to label the group. 
 
-Sharing an insight through a link sends recipients directly to the insight card on their own **Home**, **Productivity**, **Teamwork**, or **Wellbeing** tab. This method is more suited for people within the same organization who all have permissions to access organization insights.
+Insight Business Leaders who are viewing the insights for the entire company will see the organization breakdown by organizations reporting to top-layer leaders.
 
-<!--could we put this in the FAQ? Seems like a bit too much info in this location/situation.
+Metric definitions
+You can find definitions for any metric used in an organization insight by clicking on the (i) icon next to the organization insight card or organization insight page title. 
+Metric	How it’s calculated
+After-hours collaboration hours	After-hours collaboration measures how much time per week a person spends in meetings, emails, Teams chats, and Teams calls outside of their configured working hours.
 
-Sending a link doesn't grant anyone permissions to view data, so if recipients don't already have access to organization insights, they won't see anything new when they follow the link. -->
+Uninterrupted focus hours	Uninterrupted focus hours measures blocks of time longer than an hour where the person is not in a meeting or Teams call or sending email or Teams chats. 
 
-### Privacy
+Daily active hours	Daily active hours measures time in 30-minute blocks in a day where the person had any activity where they took a meeting or Teams call or sent an email or Teams chat.
+Collaboration hours	Collaboration hours measures the total time per week a person spends in meetings, emails, Teams chats, and Teams calls. 
 
-<!--How much of this information should we provide for users? Should we move this to our privacy doc?-->
+Meeting hours	Meeting hours measures the total time per week a person spends in meetings based on accepted meetings on their Outlook calendar and excluding calendar items that are likely non-meetings, such as appointments.
 
- Organization insights protect individual privacy by enforcing minimum group size, applying differential privacy to averages, and suppressing results for distribution tails. Here's a few more details about each of these topics:
+Join on time rate	Join on time rate measures the percentage of Teams meetings where the person joined early or within five minutes of the meeting’s scheduled start time.
 
-* Minimum group size: Because it’s easier to guess information about an individual based on results about a smaller group, you  won’t see results for groups with fewer than 10 people. Your admin can increase this minimum.
-* Differential privacy: For simple averages and totals, Viva Insights introduces a small amount of noise into each calculation. The aggregated amount stays accurate, but you can't add or subtract different values to figure out results for a single person.
-* Distribution tails: Where an insight counts how many people have a certain profile, like what percentage of your organization gets enough focus time, you won’t see results that would otherwise tell you that “almost all” or “almost none” of the group fit the profile, because that would effectively give the you information about every individual in the group.
+Recurring meeting hours	Recurring meeting hours measures the total time per week a person spends in recurring meetings based on accepted meetings on their Outlook calendar and excluding calendar items that are likely non-meetings, such as appointments.
 
-## Organization insights by tab
+Large and long meeting hours	Large and long meeting hours measures the total time per week a person spends in meetings that are longer than an hour or have more than 8 attendees.
 
-### Home
+Multitasking hours	Multitasking hours measures how much time per week a person spends in emails and chats that overlap with their meetings and Teams calls.
 
-Insights on the **Home** tab pull from different focus areas to help you stay informed about trends within the company.
+Manager 1:1 meeting hours	Manager 1:1 meeting hours measures how much time a person spends in meetings with just themselves and their direct manager. This is calculated over a rolling four-week period. 
 
-#### Featured insights
+Internal network size	Internal network size measures the number of colleagues connected to the person. Connections are based on at least two interactions in the prior four-week period, excluding very large and long interactions. 
 
-Each day, you'll find a different featured insight on the **Home** tab, which draws from this list:
-
-* Uninterrupted focus hours
-* Manager 1:1 meeting hours
-* Meeting hours
-* After-hours collaboration
-* No-meeting day impact
-* Daily connected hours
-* Focus time participation
-* Join on time rate
-* Focus time impact
-* No-meeting day participation
-* Multitasking hours
-* Internal network size
-
-
-![Screenshot that shows the organization insights section of the Home tab, with Uninterrupted focus hours as the featured insight.](../images/org-insights-home.png)
-
-Every insight shows the current week's average, and also shows the difference from the last week's average. Some show a trend graph, too. <!--added-->
-
-To access other organization insight cards, select the **Show more** option beneath the visible insight cards.
-
-### Teamwork, Productivity, and Wellbeing
-
-The **Teamwork**, **Productivity**, and **Wellbeing** tabs present insight cards similarly. On each insight card within each tab, you'll find:
-
-* This week's average measure (for example, minutes per person), along with the difference from last week's average measure.
-* A trend graph for the most recent 12 weeks.
-
-Here's an example from the **Teamwork** tab:
-
-![Screenshot that shows the organization insights section of the Home tab, with Uninterrupted focus hours as the featured insight.](../images/org-insights-teamwork.png)
-
-If you're an eligible user, insights compare this week's average measure to that of a peer organization.
-
-Here are the insights you'll find on each tab, and which key indicator they address:
-
-|Tab|Key indicator(s)|Insights|
-|----|---|----| 
-|**Teamwork**|<ul><li>Manager coaching <li>Networks</ul>| <ul><li>Manager 1:1 meeting hours <li>Internal network size</ul>
-|**Wellbeing**| <ul><li>Focused work <li>Work-life balance</ul>|<ul> <li>Uninterrupted focus hours <li>After-hours collaboration<li>No meeting day impact<li>Daily connected hours<li>Focus time participation<li>Focus time impact
-|**Productivity**| <ul><li>Meeting effectiveness</ul>|<ul><li>Meeting hours<li>Join on time rate<li>Multitasking hours </ul>
+Manager co-attendance rate	Manager co-attendance rate measures what percentage of meeting hours are attended by both the person and the person’s direct manager.
 
