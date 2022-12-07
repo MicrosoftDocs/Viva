@@ -19,6 +19,9 @@ audience: Admin
 
 # Privacy guide for admins
 
+>[!IMPORTANT]
+> This article discusses the dashboard, which will be retired soon. Users will still find personal insights content in their Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
+
 By using data generated from everyday work in Microsoft 365, personal insights in Microsoft Viva Insights help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 This guide answers key questions on how Viva Insights processes information in a manner that protects employee privacy and supports compliance with local regulations, such as [General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx).
@@ -32,7 +35,7 @@ Viva Insights provides personal insights to individuals through a personalized d
 Viva Insights converts data into personal insights by doing calculations on information that people generate just by going about their workday. Most of the personal insights data that employees see in Viva Insights is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.
 
 * **Personal insights in Viva Insights data is processed and stored in the employee’s Exchange Online mailbox**.
-Viva Insights processes data from these sources for personal insights: Exchange Online email and calendar data, chat, and call signals from Skype for Business and from Teams, and&mdash;if both the organization's IT administrator and an individual opt in&mdash;Windows 10 application activity history. Viva Insights stores and processes this personal insights data inside each employee’s Exchange Online mailbox.
+Viva Insights processes data from these sources for personal insights: Exchange Online email and calendar data, chat, and call signals from Skype for Business and from Teams. Viva Insights stores and processes this personal insights data inside each employee’s Exchange Online mailbox.
 
 * **Personal insights in Viva Insights supports General Data Protection Regulation (GDPR) compliance**.
 Microsoft has designed Personal insights in Viva Insights to support customers’ needs by following [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).
@@ -57,7 +60,6 @@ Personal insights in Viva Insights are shown in the following ways:
 Personal insights in Viva Insights uses the following types of data.
 
 * **Mailbox data** - Email, calendar, chat, and call activity that people generate by using Microsoft 365, such as time spent in meetings or emails sent to a specific person or group.
-* **Windows 10 activity history data** - Data on people's usage of apps and services on their device: whether they worked on a document and whether they browsed the web.
 * **Incremental data** - Data that would otherwise be unavailable to the employee but is presented in an aggregated form designed to protect individual privacy.
 
 ## Mailbox data
@@ -77,14 +79,6 @@ These insights are derived from data that is *already available* to people in th
 Viva Insights simply applies some basic calculations and rules to make the personal insights more actionable. Mailbox data is stored directly in each employee's Exchange Online mailbox.
 
 For example, if people want to determine which colleagues sent them the most email over the past week, they could technically do so without Viva Insights by manually counting emails from coworkers in their inbox. Similarly, people could determine their coworkers’ average response time to the emails that they send by using timestamp information readily available in their mailbox. Viva Insights saves people the trouble of having to perform these tedious calculations.
-
-## Windows 10 activity history data
-
-Windows 10 activity history data refers to the things people do on their device, such as the apps and services they used, whether they worked on a document, and whether they browsed the web. The activity history is stored locally on the device, and if the employee is signed in to the device with a Microsoft account and gives permission, Windows sends the activity history to Microsoft.
-
-Viva Insights uses Windows 10 activity history data to compute personal insights (for example, time spent in apps, multi-tasking in meetings) about the person's work habits. These insights are private and stored in the person's Exchange Online mailbox.
-
-Also note that, if the person chooses to send Windows 10 activity history to Viva Insights, activity data is saved even if they use a non-work or non-school account (for example, a personal live.com or facebook.com account) to connect to the app or service. However, activity data is not saved when they browse with InPrivate tabs or windows in the Microsoft Edge web browser.
 
 ## Incremental data
 
@@ -120,11 +114,6 @@ Personal insights in Viva Insights provides flexible and configurable controls t
 
 * **Determine default opt-in settings** &ndash; Admins can configure Personal insights in Viva Insights to be "default off," which means that licensed employees must individually opt in to Viva Insights to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, Viva Insights can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the **Settings** menu. To learn more, see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level).
 
-* **Determine whether employees can opt-in to receive insights on Windows 10 application usage** &ndash; Admins must consent before Viva Insights users can opt in to receive personal insights derived from Windows 10 activity history data.
-
-<!-- DELETE PER MATHEW 1 JUNE 2021: 
-* **Determine which employees in sensitive roles should be excluded from incremental data** &ndash; Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, Viva Insights provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the Viva Insights experience will still be available to these users provided that they are licensed. -->
-
 Note that if default settings are used, the following applies:
 
 * All employees in your organization contribute to [incremental data](../Overview/privacy-guide-users.md#incremental-data) whether or not they have been issued licenses with the Viva Insights service.
@@ -140,9 +129,9 @@ The processing of an employee's personal data ceases when they are opted out, wh
 
 ### How employees opt in or out
 
-End users can opt in or out of Viva Insights via the **Feature settings** menu in Microsoft 365, as shown in this example:
+End users can [opt out through their Viva Insights app in Teams or on the web](../use/home-web.md#opt-in-or-out-of-features).
 
-:::image type="content" source="../../images/mya/use/dashboard-settings.png" alt-text="Screenshot that shows opening the Settings window" lightbox="../../images/mya/use/dashboard-settings-expanded.png":::
+
 
 ## Microsoft Graph
 

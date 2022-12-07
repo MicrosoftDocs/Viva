@@ -7,7 +7,7 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 localization_priority: none 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 

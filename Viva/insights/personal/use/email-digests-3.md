@@ -23,9 +23,6 @@ If you're a subscriber of Microsoft Viva Insights, you will receive informative 
 * Up to four weeks after being assigned a license, you'll receive a [welcome message](#welcome-message) that introduces the service.
 * Twice a month, you'll receive a [digest email](#digest-email) that summarizes data about your work patterns and ways to improve them.
 
->[!Note]
->Starting in March 2022, your digest email frequency is changing to biweekly. You should expect to start seeing digests in your inbox twice a month by the end of May.
-
 ## Welcome message
 
 Up to four weeks after the admin assigns you a license, you'll receive a Welcome message from Microsoft Viva in your Outlook inbox.

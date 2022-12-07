@@ -8,7 +8,7 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.service: workplace-analytics
 ---
 
 > [!Note] 

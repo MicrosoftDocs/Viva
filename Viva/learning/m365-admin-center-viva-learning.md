@@ -15,7 +15,7 @@ ms.collection:
     - m365initiative-viva-learning
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
-description: Learn how to configure and view content in the Admin and My Learning tabs in Viva Learning.
+description: View the new Microsoft 365 Admin Experience for Viva Learning.
 ---
 
 # The new Microsoft Viva admin experience in Learning

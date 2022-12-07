@@ -300,5 +300,49 @@
         "redirect_url": "/viva/goals/slack-collaborate-with-viva-goals",
         "redirect_document_id": false
       },
+      {
+        "source_path": "viva/connections/troubleshoot/cant-find-app-in-teams-mobile.md",
+        "redirect_url": "/viva/troubleshoot/connections/cant-find-app-in-teams-mobile",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/connections/troubleshoot/cant-find-app-in-teams-admin-center.md",
+        "redirect_url": "/viva/troubleshoot/connections/cant-find-app-in-teams-admin-center",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/connections/troubleshoot/cant-update-app-details.md",
+        "redirect_url": "/viva/troubleshoot/connections/cant-update-app-details",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/connections/troubleshoot/cant-upload-package.md",
+        "redirect_url": "/viva/troubleshoot/connections/cant-upload-package",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/connections/troubleshoot/error-accessing-app-from-teams-desktop.md",
+        "redirect_url": "/viva/troubleshoot/connections/error-accessing-app-from-teams-desktop",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/learning/lms-content-ingestion-errors.md",
+        "redirect_url": "/viva/troubleshoot/learning/lms-content-ingestion-errors",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/learning/provider-content-ingestion-errors.md",
+        "redirect_url": "/viva/troubleshoot/learning/provider-content-ingestion-errors",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/executive.md",
+        "redirect_url": "/viva/insights/personal/teams/effective-meetings",
+        "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/tutorials/power-bi-myorg.md",
+      "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
+      "redirect_document_id": false
+    }
     ]
 }

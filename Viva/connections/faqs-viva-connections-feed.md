@@ -53,6 +53,9 @@ In addition to All Company Yammer posts, you will also see the following activit
 - Yammer Followed Community Featured Posts
 - Yammer Followed Community Announcements
 - Yammer Followed Community Posts
+- Yammer Followed Community Q&A posts
+- Yammer Followed Community Praise posts
+- Yammer Storyline posts
     
 3. **Videos in SharePoint hosted by Stream**
 
