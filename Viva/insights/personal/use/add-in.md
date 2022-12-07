@@ -18,7 +18,7 @@ audience: user
 ---
 # Viva Insights Outlook add-in
 
-_**Applies to**: Microsoft Viva Insights elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
+_**Applies to**: Microsoft Viva Insights elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is)_
 
 Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
 
@@ -128,9 +128,18 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 5. In the right pane, in the **Toolbar** area, select **Viva Insights**.
 6. Save your new settings.
 
-## To opt out
+## To opt in and opt out
 
-You can opt [opt in through your Viva Insights app in Teams or on the web](../use/home-web.md#opt-in-or-out-of-features).
+1. Open your Viva Insights app in Teams or on the web.
+1. Select the ellipses (**...**) at top right.
+1. Select **Privacy** from the left pane.
+1. To :
+    * Opt ***out***, toggle the switch for **Insights Outlook Add-in** from **On** to **Off**.
+    * Opt ***in***,toggle the switch for **Insights Outlook Add-in** from **Off** to **On**
+
+1. Select **Save changes**.
+
+    ![Outlook add-in opt out setting](../../Images/mya/use/opt-out-add-in.png)
 
 >[!NOTE]
 >It might take up to 24 hours for your saved changes to take effect.
@@ -150,13 +159,6 @@ If you opt out of the Viva Insights Outlook add-in, you might also want to remov
 ### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Viva Insights Outlook add-in.
-
-## To opt in
-
-You can [opt in through your Viva Insights app in Teams or on the web](../use/home-web.md#opt-in-or-out-of-features).
-
->[!NOTE]
->It might take up to 24 hours for your saved changes to take effect.
 
 ## Related topics
 
