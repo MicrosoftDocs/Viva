@@ -27,6 +27,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 > The admin tab is only available for admins with a Viva Suite or Viva Learning license.
 
   </br>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bHnt]  
 
 
