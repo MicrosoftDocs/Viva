@@ -37,7 +37,7 @@ The campaign dashboard provides a list of active, ended, and in-progress (draft)
 
 ## Creating a campaign 
 
-1. Select **Create campaign** from the top right corner. 
+1. Select **Create campaign** from the top right corner of the campaign dashboard. 
 2. Fill in the fields according to your campaign goals. 
 3. Select **Confirm** when you are ready to enter the draft state. 
 
@@ -62,11 +62,11 @@ Corporate communicators can manage campaigns via:
     - Pinning posts
     - Pinning resources and links
     - Updating theme colors
-    - View campaign analytics
+- View campaign analytics
 
 ## Publishing or ending a campaign
 
-1. To publish a campaign, select the more menu (…) from the campaign management dashboard or from the campaign landing page.  
+1. To publish a campaign, select the more menu (…) from the campaign management dashboard or directly from the campaign landing page.
 2. Select **Publish campaign** to make the campaign **Active**.
 
 ![View of the UI dropdown for publishing and deleting a campaign](/Viva/media/engage/campaigns/publish-from-dashboard.png)
@@ -87,21 +87,19 @@ Users can access and discover campaigns through various methods.
 - **Verified Campaign Hashtag**
     - By selecting a post or comment that has the verified campaign hashtag, users will be routed to the campaign landing page where they can follow the campaign. Once a user follows a campaign, they will see **Followed campaigns** in the right rail of their profile page.  
 
-> [!NOTE]
-> To build campaign awareness, campaign managers should share as many posts as possible with the campaign hashtag to their storyline and in communities. The campaign link can also be shared through posts, emails, and Microsoft Teams chats for users to easily access the campaign landing page. 
+Note: To build campaign awareness, campaign managers should share as many posts as possible with the campaign hashtag to their storyline and in communities. The campaign link can also be shared through posts, emails, and Microsoft Teams chats for users to easily access the campaign landing page. 
 
 - **Active campaigns module**
     - On the home page, users will see an **Active campaigns** module on the right navigation. This will inform users of existing campaigns to follow.  
-    - 
-> [!NOTE]
->  Users can participate in any campaign from the Home feed, in a community, on a storyline, or from the campaign landing page by creating or commenting on a post using the campaign hashtag.
+
+Note: Users can participate in any campaign from the Home feed, in a community, on a storyline, or from the campaign landing page by creating or commenting on a post using the campaign hashtag.
 
 ## Managing campaign analytics and engagement 
 
 Engage admins and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed from the campaign management dashboard and the campaign landing page.  
 
-![View of the campaign management dashboard](/Viva/media/viva-setup-page.png)
-![View of campaigns under the campaign management dashboard ](/Viva/media/viva-setup-page.png)
+![View of the campaign management dashboard](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
+![View of campaigns under the campaign management dashboard ](/Viva/media/engage/campaigns/campaigns-analytics.png)
 ![View of campaign analytics page](/Viva/media/viva-setup-page.png)
 
  
