@@ -98,13 +98,15 @@ Note: Users can participate in any campaign from the Home feed, in a community, 
 
 Engage admins and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed from the campaign management dashboard and the campaign landing page.  
 
+From the campaign management dashboard, select the graph icon in the right column under **Actions** to navigate to campaign analytics.
+
 ![View of the campaign analytics from dashboard](/Viva/media/engage/campaigns/manage-campaign-analytics-from-dashboard.png)
 
-From the campaign management dashboard, select the graph icon to navigate to campaign analytics.
+From the campaign landing page, select **View more analytics** from the left navigation module for **Summary analytics** to navigate to campaign analytics.
 
 ![View of campaigns analytics from campaign landing page](/Viva/media/engage/campaigns/manage-campaign-analytics-from-lp.png)
 
-From the campaign landing page, select **View more analytics** from the left navigation module for **Summary analytics** to navigate to campaign analytics.
+Once redirected, you will see the campaign analytics interface containing key data to help you monitor the success of your campaign.
 
 ![View of campaign analytics page](/Viva/media/engage/campaigns/campaign-analytics-updated.png)
 
