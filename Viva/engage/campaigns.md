@@ -46,14 +46,14 @@ The campaign dashboard provides a list of active, ended, and in-progress (draft)
 Campaign hashtags are used as the binding element for all campaign content, meaning any posted content containing the campaign hashtag will populate to the campaign landing page and will be included in campaign analytics.  
 
 > [!NOTE]
-> Campaign name and Campaign hashtag are required to successfully create your campaign. The campaign name will only appear in the campaign management dashboard and the campaign hashtag will appear on the campaign landing page. Default publisher only supports discussion, question, praise, and poll type.
+> **Campaign name** and **Campaign hashtag** are required to successfully create your campaign. The campaign name will only appear in the campaign management dashboard and the campaign hashtag will appear on the campaign landing page. **Default publisher** only supports discussion, question, praise, and poll type.
 
-## Corporate communicator accessibilities
+## Corporate communicator privileges
 
 Corporate communicators can manage campaigns via:
-- Publishing Draft campaigns to be Active and viewable to all users in the network
-- Setting Active campaigns to Ended once a campaign is finished
-- Re-publishing Ended campaigns to be Active again for reoccurring campaigns
+- Publishing Draft campaigns to be **Active** and viewable to all users in the network
+- Setting **Active** campaigns to **Ended** once a campaign is finished
+- Re-publishing **Ended** campaigns to be **Active** again for reoccurring campaigns
 - Deleting campaigns that are not relevant or were made by mistake
 - Updating certain assets on a campaign page such as the:
     - Goal tracker  
