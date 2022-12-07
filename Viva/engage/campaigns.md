@@ -94,12 +94,12 @@ Note: To build campaign awareness, campaign managers should share as many posts 
 
 Note: Users can participate in any campaign from the Home feed, in a community, on a storyline, or from the campaign landing page by creating or commenting on a post using the campaign hashtag.
 
-## Managing campaign analytics and engagement 
+## Managing campaign analytics and engagement
 
 Engage admins and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed from the campaign management dashboard and the campaign landing page.  
 
-![View of the campaign management dashboard](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
-![View of campaigns under the campaign management dashboard ](/Viva/media/engage/campaigns/campaigns-analytics.png)
+![View of the campaign analytics from dashboard](/Viva/media/engage/campaigns/manage-campaign-analytics-from-dashboard.png)
+![View of campaigns analytics from campaign landing page](/Viva/media/engage/campaigns/manage-campaign-analytics-from-lp.png)
 ![View of campaign analytics page](/Viva/media/viva-setup-page.png)
 
  
@@ -110,11 +110,12 @@ Engage admins and corporate communicators have access to analytics that help mon
 **How often do campaign analytics refresh?** Analytics refresh daily. If you don’t see changes reflected immediately, check analytics the next day.   
 
 ## See also 
-How to participate in campaigns: [Campaigns in Microsoft Viva Engage](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
-
+How to participate in campaigns (Links to come below for relevant documentation): [Campaigns in Microsoft Viva Engage](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
+<!-- 
 [Yammer administration documentation](/yammer/)
 
 [Yammer adoption center](https://adoption.microsoft.com/yammer/)
 
 [Yammer help & learning](https://support.microsoft.com/yammer)
 
+>
