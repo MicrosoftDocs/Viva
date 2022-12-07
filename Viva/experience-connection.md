@@ -21,17 +21,13 @@ description: "Learn how Microsoft Viva supports employee connection in your orga
 
 # Connection: Viva Engage and Viva Connections
 
-Viva Engage and Viva Connections can work together to surface relevant content and to empower employees to contribute, collaborate, work, and share. For example, one way an employee can discover a meaningful conversation is by seeing a conversation surfaced from Viva Engage in the  Viva Connections Feed. The Viva Connections Feed features relevant content from Viva Engage, including announcements, mentions (@ mentions), and storyline posts from people you follow. The Viva Connections feed includes content from other sources as well, including SharePoint news.
-
-![Viva connections feed)](./media/connections-feed.png)
-
-You can also add a card to your Viva Connections dashboard which allows users to go directly to Viva Engage from their desktop or mobile device.
-
-![Viva Connections dashboard](./media/engage-card-dashboard.png)
+Support a more inclusive work culture with spaces for conversations, company news, and shared interests with Viva Connections and Viva Engage. [Using them together](/viva/experience-connection#viva-connections-and-viva-engage-better-together) boosts discoverability and engagement.
 
 ## Viva Connections
 
 Viva Connections operates at a Viva-wide scope, bringing together content, tasks and resources in a tailored, structured and curated experience reflecting the priorities of the organization and the user's job role.
+
+![Viva Connections Dashboard](media/connections-example.png)
 
 Viva connections is:
 
@@ -52,3 +48,13 @@ It features experiences for discovery of conversations, questions, and knowledge
 Viva Engage is the place for conversations that connects people across the company — wherever and whenever they work — so that everyone is included and engaged.
 
 [Learn more about Viva Engage](/viva/engage/overview), including how to set it up and use it in your organization.
+
+## Viva Connections and Viva Engage: Better together
+
+Viva Engage and Viva Connections can work together to surface relevant content and to empower employees to contribute, collaborate, work, and share. For example, one way an employee can discover a meaningful conversation is by seeing a conversation surfaced from Viva Engage in the  Viva Connections Feed. The Viva Connections Feed features relevant content from Viva Engage, including announcements, mentions (@ mentions), and storyline posts from people you follow. The Viva Connections feed includes content from other sources as well, including SharePoint news.
+
+![Viva connections feed)](./media/connections-feed.png)
+
+You can also add a card to your Viva Connections dashboard which allows users to go directly to Viva Engage from their desktop or mobile device.
+
+![Viva Connections dashboard](./media/engage-card-dashboard.png)
