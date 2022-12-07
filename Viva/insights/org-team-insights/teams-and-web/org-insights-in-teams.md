@@ -16,12 +16,12 @@ audience: user
 
 Organization insights help leaders and managers of large teams understand how their organizations—the people who report to them directly or indirectly—are succeeding at work. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
-Getting access
+## Getting access
 
-There are two ways for the Insights Administrator to grant access to organization insights:
+To grant access to organization insights, the Insights administrator can either:
 
-•	They can assign a person to the Insights Business Leader role, or
-•	They can enable a person as a Group Manager under Viva Insights 
+* Assign a person to the **Insights business leader** role.
+* Enable a person as a Group Manager under Viva Insights 
 
 Manager Settings
 
