@@ -20,7 +20,7 @@ description: "Learn how Microsoft Viva supports the employee experience with too
 ---
 ## Role-based experiences in Microsoft Viva
 
-The first role-based experience in Microsoft Viva is Viva Sales. More are coming soon.
+The first role-based experience in Microsoft Viva is Viva Sales. More role-based apps are coming soon.
 
 ### Viva Sales
 
