@@ -73,7 +73,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 
 Because Viva Insights respects user privacy, the Employee experience reports in Power BI display approximated values when necessary to protect privacy. For example, the following shows an approximation about “Protecting personal time.”
 
-![Example KPI approximation about Protecting personal time.](../Images/WpA/Tutorials/kpi-example2.png)
+![Chart that shows an example KPI approximation about Protecting personal time.](../Images/WpA/Tutorials/kpi-example2.png)
 
 The following lists the minimum and maximum percentage ranges for the value thresholds that are used to categorize employees as **Achieved** as compared to **At Risk**, which fall outside of these ranges.
 
