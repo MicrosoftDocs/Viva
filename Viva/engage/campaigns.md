@@ -100,7 +100,7 @@ Engage admins and corporate communicators have access to analytics that help mon
 
 ![View of the campaign analytics from dashboard](/Viva/media/engage/campaigns/manage-campaign-analytics-from-dashboard.png)
 ![View of campaigns analytics from campaign landing page](/Viva/media/engage/campaigns/manage-campaign-analytics-from-lp.png)
-![View of campaign analytics page](/Viva/media/viva-setup-page.png)
+![View of campaign analytics page](/Viva/media/engage/campaigns/campaign-analytics-updated.png)
 
  
 ## Frequently asked questions
