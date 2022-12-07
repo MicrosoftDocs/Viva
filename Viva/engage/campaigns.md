@@ -21,13 +21,11 @@ search.appverid:
 
 # Campaigns in Microsoft Viva Engage 
 
-## Setup and configuration of campaigns 
-
 Campaigns are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging. Campaigns can be created, managed, and deleted by Global admins, Engage admins, and corporate communicators. 
 
-## Accessing the campaign dashboard 
+## Set up a campaign
 
-Within the **Feature management** tab in the Engage admin center, select **Campaigns** to view the campaign dashboard.  
+You can set up a campaign using the Campaign dashboard. To get there, go to the **Feature management** tab in the Engage admin center, and then select **Campaigns**.
 
 ![Viva admin page](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
  
@@ -35,23 +33,20 @@ The campaign dashboard provides a list of active, ended, and in-progress (draft)
 
 ![Viva admin page](/Viva/media/engage/campaigns/create-campaign-button.png)
 
-## Creating a campaign 
+## Create a campaign 
 
 1. Select **Create campaign** from the top right corner of the campaign dashboard. 
-2. Fill in the fields according to your campaign goals. 
-3. Select **Confirm** when you are ready to enter the draft state. 
+2. Fill in the fields according to your campaign goals. **Campaign name** and **Campaign hashtag** are required to successfully create your campaign. The campaign name will only appear in the campaign management dashboard and the campaign hashtag will appear on the campaign landing page. **Default publisher** only supports discussion, question, praise, and poll type.
+3. Select **Confirm** when you are ready to enter the draft state.
 
 ![View of the Campaign creation form](/Viva/media/engage/campaigns/create-campaign-new-campaign-modal.png)
 
 Campaign hashtags are used as the binding element for all campaign content, meaning any posted content containing the campaign hashtag will populate to the campaign landing page and will be included in campaign analytics.  
 
-> [!NOTE]
-> **Campaign name** and **Campaign hashtag** are required to successfully create your campaign. The campaign name will only appear in the campaign management dashboard and the campaign hashtag will appear on the campaign landing page. **Default publisher** only supports discussion, question, praise, and poll type.
-
 ## Corporate communicator privileges
 
-Corporate communicators can manage campaigns via:
-- Publishing Draft campaigns to be **Active** and viewable to all users in the network
+Corporate communicators can manage campaigns by:
+- Publishing campaigns to be **Active** and viewable to all users in the network
 - Setting **Active** campaigns to **Ended** once a campaign is finished
 - Re-publishing **Ended** campaigns to be **Active** again for reoccurring campaigns
 - Deleting campaigns that are not relevant or were made by mistake
@@ -64,9 +59,9 @@ Corporate communicators can manage campaigns via:
     - Updating theme colors
 - View campaign analytics
 
-## Publishing or ending a campaign
+## Publish or end a campaign
 
-1. To publish a campaign, select the more menu (…) from the campaign management dashboard or directly from the campaign landing page.
+1. To publish a campaign, select the ellipses button (…) from the campaign management dashboard or directly from the campaign landing page.
 2. Select **Publish campaign** to make the campaign **Active**.
 
 ![View of the UI dropdown for publishing and deleting a campaign](/Viva/media/engage/campaigns/publish-from-dashboard.png)
@@ -80,7 +75,7 @@ Once a campaign is published, it becomes **Active** in the campaign management d
 
 Once a campaign has ended, the follow button and default publisher on the campaign landing page will be disabled. However, people can still post in communities and storylines using the campaign hashtag and those posts will accumulate in the campaign landing page.
 
-## Building campaign awareness  
+## Build campaign awareness  
 
 Users can access and discover campaigns through various methods.  
 
@@ -94,7 +89,7 @@ Note: To build campaign awareness, campaign managers should share as many posts 
 
 Note: Users can participate in any campaign from the Home feed, in a community, on a storyline, or from the campaign landing page by creating or commenting on a post using the campaign hashtag.
 
-## Managing campaign analytics and engagement
+## Manage campaign analytics and engagement
 
 Engage admins and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed from the campaign management dashboard and the campaign landing page.  
 
