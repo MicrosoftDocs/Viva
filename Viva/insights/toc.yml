@@ -181,6 +181,8 @@ items:
           items:
           - name: Teamwork habits FAQ
             href: org-team-insights/teamwork-habits-faq.md
+          - name: Shared no-meeting day plan
+            href: org-team-insights/shared-no-meeting-day.md  
         - name: Organization trends
           items:
           - name: Introduction   
@@ -257,8 +259,6 @@ items:
               href: advanced/analyst/templates/power-bi-faq-troubleshoot.md  
           - name: Data quality
             href: advanced/analyst/data-quality-analyst-experience.md
-          - name: Metrics
-            href: advanced/analyst/metrics.md
           - name: Metric rules
             href: advanced/analyst/metric-rules.md       
         - name: Reference
@@ -267,3 +267,5 @@ items:
             href: advanced/reference/faq.md
           - name: Glossary
             href: advanced/reference/glossary.md
+          - name: Metrics
+            href: advanced/reference/metrics.md  

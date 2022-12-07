@@ -54,6 +54,11 @@ You can create your focus plan in three places:
 
 ### In the dashboard
 
+>[!IMPORTANT]
+>The dashboard will be retired soon, but you can access focus plan settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
+>![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
+> [Read more about this change](../reference/mya-retirement.md).
+
 1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
 
    ![Screenshot that shows Focus plan setup - Get started.](../../Images/mya/use/focus-dashboard-get-started.png)
@@ -127,13 +132,11 @@ During the number of days shown (in the screenshot, three days) Viva Insights ha
 
 ## To change or leave your focus plan
 
-Through the app or the dashboard, you can change or opt in and opt out of the focus plan as many times as you want.
+You can change or opt in and opt out of the focus plan as many times as you want.
 
-### In the app
+### To make changes
 
-#### To make changes
-
-From the Protect time tab:
+From the **Protect time** tab:
 
 1. Locate the **Focus plan** card beneath **Protect your time**.
 1. Select **View focus plan preferences**.
@@ -158,27 +161,6 @@ Select the **Leave plan** button at top right.
 
 Answer the survey question, then select **Leave plan** again.
 
-### In the dashboard
-
-#### To make changes
-
-1. Select **Plan configuration**.
-
-    ![Screenshot that shows the Plan configuration link.](../../Images/mya/use/dashboard-focus-plan-config.png)
- 
-1. In the **Protect time** tab, configure your settings.
-
-    ![Screenshot that shows focus time settings.](../../Images/mya/use/dashboard-settings-configure-focus.png)
-   
-1. After you indicate your preferences, select **Save changes**.
-
-#### To leave
-
-To have Viva Insights stop helping you book focus time, turn the toggle for **Focus plan enabled** from **On** to **Off**. 
-
- ![Screenshot that shows the toggle next to Focus plan enabled](../../Images/mya/use/dashboard-focus-plan-toggle.png)
-
-Answer the survey question, then select **Submit**.
 
 ## Concepts
 

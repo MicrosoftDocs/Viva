@@ -99,7 +99,7 @@ After you open the Viva Insights add-in, you'll see a number of cards in the rig
 This pane will show you a number of options, such as the following:
 
 * [Prepare for your meetings](use-the-insights.md#prepare-for-your-meetings) - Prepare for your meetings and then drive more effective meetings.
-* [Track email and document open rates](use-the-insights.md#track-email-and-document-open-rates) - Track readership of emails that you've sent sent by viewing the percentage open rate, the percentage attachment click rate, and so on.
+* [Track email and document open rates](use-the-insights.md#track-email-and-document-open-rates) - Track readership of emails that you've sent by viewing the percentage open rate, the percentage attachment click rate, and so on.
 * [View outstanding tasks](use-the-insights.md#view-outstanding-tasks) - Make sure nothing falls through the cracks by seeing reminders of tasks that you've agreed to do.
 * [Follow up on your requests](use-the-insights.md#follow-up-on-your-requests) - Receive reminders to follow up on commitments made by your colleagues or on requests that you have made.  
 * [Book time to focus](use-the-insights.md#book-time-to-focus) - Protect your calendar by reserving focus time before meetings take over.  
@@ -128,16 +128,18 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 5. In the right pane, in the **Toolbar** area, select **Viva Insights**.
 6. Save your new settings.
 
-## To opt out
+## To opt in and opt out
 
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon at top right.
+1. Open your Viva Insights app in Teams or on the web.
+1. Select the ellipses (**...**) at top right.
+1. Select **Privacy** from the left pane.
+1. To :
+    * Opt ***out***, toggle the switch for **Insights Outlook Add-in** from **On** to **Off**.
+    * Opt ***in***,toggle the switch for **Insights Outlook Add-in** from **Off** to **On**
 
-    ![Dashboard settings.](../../Images/mya/use/mya-gear-settings.png)
+1. Select **Save changes**.
 
-3. Under **Viva Insights**, select **Settings**.
-4. For **Insights Outlook add-in**, set the control to **Off**.  
-5. Select **Save** to save your changes.
+    ![Outlook add-in opt out setting](../../Images/mya/use/opt-out-add-in.png)
 
 >[!NOTE]
 >It might take up to 24 hours for your saved changes to take effect.
@@ -157,20 +159,6 @@ If you opt out of the Viva Insights Outlook add-in, you might also want to remov
 ### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Viva Insights Outlook add-in.
-
-## To opt in
-
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon at top right.
-
-    ![Feature settings.](../../Images/mya/use/mya-gear-settings.png)
-
-3. Under **Viva Insights**, select **Settings**.
-4. For **Viva Insights Outlook add-in**, set the control to **On**.  
-5. Select **Save** to save your changes.
-
->[!NOTE]
->It might take up to 24 hours for your saved changes to take effect.
 
 ## Related topics
 

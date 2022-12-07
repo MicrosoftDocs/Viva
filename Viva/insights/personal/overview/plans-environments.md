@@ -21,6 +21,9 @@ audience: Admin, user
 
 Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [Dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
 
+  >[!IMPORTANT]
+  > The dashboard will be retired soon, but you'll still find personal insights content and settings in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
+
 ## Microsoft 365 plans
 
 The following Personal insights service plans are generally available with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
@@ -85,7 +88,8 @@ After users get assigned licenses with an applicable service plan, they get acce
 * The following additional features are included with the [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights):
 
   * [Schedule send suggestions](../use/delay-delivery.md)
-  * The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature
+  * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
+  * [Meeting category insights](../teams/effective-meetings.md#meeting-category-insights)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
   * [Breaks, learning, and message catch-up plans](../teams/viva-insights-protect-time.md#create-other-plans)
 
