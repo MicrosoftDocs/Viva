@@ -72,8 +72,6 @@ Viva Insights doesn't have any tracking software running on your computer.
 
  * OneDrive SharePoint data: Viva Insights shows a count of OneDrive and SharePoint documents that you have worked on. 
 
- * _Used only if you have opted in_: Data derived from activities on your computer, such as applications that you've used and websites that you've visited.
-
 **Viva Insights doesn't use**:
 
 Email and calendar data from people outside of your organization, with the following exception: Viva Insights uses data that is present in your own Microsoft 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
@@ -137,7 +135,7 @@ See the following for details:
 
  * [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-dashboard)
  * [Opt out of digest emails](../use/email-digests-3.md#opt-out-of-digests)
- * [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-out)
+ * [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-in-and-opt-out)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
 ##### Opt in to Viva Insights
@@ -148,7 +146,7 @@ See the following for details:
 
 Yes, you can. But first, what's the difference between "opt out" and "remove"?
 
-* **Opt out**: If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-out) but in step 4, set the control to **On**.)
+* **Opt out**: If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-in-and-opt-out) but in step 4, set the control to **On**.)
 * **Remove**: If you remove the add-in, not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Viva Insights Outlook add-in](#add-the-viva-insights-outlook-add-in)).  
 
 ##### Remove the Viva Insights Outlook add-in
@@ -219,23 +217,11 @@ Personal insights are available in most of the same languages as the Microsoft 3
 
 Viva Insights only uses cookies to authenticate users for the dashboard. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
 
-#### Q8. Which Viva Insights experiences include Windows 10 activity history?
-
-Viva Insights uses Windows 10 or 11 Activity history to power insights related to time spent in documents within working hours and after hours. These show up as Food for thought in the Viva Insights dashboard. The time spent in documents is also added to the total collaboration time and affects metrics, such as “Time available to focus” and “Quiet time.”
-
-#### Q9. How can I check if Window 10 or 11 Activity history is enabled on my device?
-
-1. Open Windows Settings.
-2. Search for “Activity History Privacy Settings.”
-3. The following two settings must be selected for Viva Insights to use the data.
-
-   ![Windows 10 Activity History settings.](../../images/mya/overview/activity-history.png)
-
-#### Q10. Will Viva Insights work for shared mailboxes?
+#### Q8. Will Viva Insights work for shared mailboxes?
 
 No; currently the Viva Insights or MyAnalytics service plans can't be used with shared mailboxes.
 
-#### Q11. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
+#### Q9. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
 
 After activation, Viva Insights processes historical data for four weeks before the date of activation. No data before this four-week date range is shown in the dashboard. For calculating active collaborators, Viva Insights processes historical data for the previous 12 months.
 

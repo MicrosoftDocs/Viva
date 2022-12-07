@@ -89,7 +89,7 @@ Terms can be any combination of letters, numbers and special characters (such as
 
 ## Exclusion setting considerations
 
-Any domains, email addresses, or terms you exclude will not be included in any of the analysis, so it's important to carefully consider the implications of an exclusion and balance them with your privacy and data-analysis goals. If you exclude a domain or term that frequently appears in the collaboration dataset, it could adversely skew your analysis. Exclusion occurs before metadata is processed within Viva Insights. This means that, after you make an exclusion setting, the setting does not affect data that has already been processed.
+Any domains, email addresses, or terms you exclude won't be included in any of the analyses, so it's important to carefully consider the implications of exclusions and balance them with your privacy and data-analysis goals. If you exclude a domain or term that frequently appears in the collaboration dataset, it could adversely skew your analysis. Exclusion occurs before metadata is processed within Viva Insights. This means that, after you make an exclusion setting, the setting does not affect data that has already been processed.
 
 If you exclude the email address of the CEO (ceo@company.com), all meetings and emails in which the CEO is included are removed from analysis. So for all meetings and emails that include the CEO, the metadata for all other recipients and attendees included in those same emails and meetings is also excluded from analysis.
 
