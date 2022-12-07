@@ -130,10 +130,11 @@ additionalContent:
         # Card
         - title: Adoption
           links:
-            - text: Viva Topics resource center
-              url: https://resources.techcommunity.microsoft.com/viva-topics/
-            - text: Viva Engage
-              url: https://aka.ms/VivaEngage/Resources
+            - text: Viva adoption center
+              url: https://adoption.microsoft.com/en-us/viva/
+            - text: Tech community
+              url: https://techcommunity.microsoft.com/t5/microsoft-viva/ct-p/MicrosoftViva
+ 
         # Card
         - title: Extensibility
           links:
