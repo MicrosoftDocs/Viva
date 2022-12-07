@@ -85,7 +85,8 @@ The **Focus plan** card in **Protect your time** shows how many hours of focus t
 
 ## To change or leave your focus plan
 
-Through the Viva Insights app, you can change or opt in and opt out of the focus plan as many times as you want.
+
+You can change or opt in and opt out of the focus plan as many times as you want.
 
 ### To make changes
 
