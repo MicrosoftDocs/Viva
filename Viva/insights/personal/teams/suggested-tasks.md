@@ -19,7 +19,7 @@ Use **Suggested tasks** in the Microsoft Viva Insights app to stay connected wit
 
 <!--need a screenshot that doesn't have unread docs content-->
 
-![Screenshot that shows the Suggested tasks page.](images/suggested-tasks-small.png)
+![Screenshot that shows the Suggested tasks page.](images/suggested-tasks.png)
 
 **Suggested tasks** includes the following insights:
 
@@ -36,11 +36,11 @@ Based on your collaboration patterns, you can pin some of your contacts as impor
 
 To pin a contact, select the **pin** icon on the bottom left below the contact’s name: 
    
-   ![Screenshot that shows pinning a contact.](Images/pin-contact.png)
+   ![Screenshot that shows pinning a contact.](Images/suggested-tasks-pin.png)
 
 To unpin a contact, select the **unpin** icon: 
    
-   ![Screenshot that shows unpinning a contact.](Images/unpin-contact.png)
+   ![Screenshot that shows unpinning a contact.](Images/suggested-tasks-unpin.png)
 
 #### @Mentions for pinned important contacts 
 

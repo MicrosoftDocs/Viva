@@ -89,11 +89,11 @@ Use **Meeting category insights** in **Effective meetings** to help understand h
 In this section, you'll find three types of insights, which are based on meetings  you organized, meetings you accepted, and your appointments:
 
 * **Percentage breakdown**: The percentage of total meeting hours you spend in each meeting category.
-:::image type="content" source="Images/meeting-percentage-breakdown.png" alt-text="Screenshot that shows meeting category insights." lightbox="Images/meeting-percentage-breakdown.png":::
+:::image type="content" source="Images/productivity-category-breakdown.png" alt-text="Screenshot that shows meeting category insights." :::
 * **Meeting trends**: How the time you spend in each meeting category has changed.
-:::image type="content" source="Images/meeting-trends1.png" alt-text="Screenshot that shows meeting trends." lightbox="Images/meeting-trends1.png":::
+:::image type="content" source="Images/productivity-trends.png" alt-text="Screenshot that shows meeting trends.":::
 * **Meeting details**: All your meetings in a list, which includes **Category**, **Total time spent**, **Cadence**, and **Duration**.
-:::image type="content" source="Images/meeting-details.png" alt-text="Screenshot that shows meeting details." lightbox="Images/meeting-details.png":::
+:::image type="content" source="Images/productivity-draft-details.png" alt-text="Screenshot that shows meeting details.":::
 
 You can customize what you see here. If you want to:
 
@@ -104,7 +104,7 @@ You can customize what you see here. If you want to:
 >[!Important]
 >If you haven’t categorized any meetings between the last three months and next four weeks, these insights won’t be available to you. However, you’ll have access to them after you categorize any meeting within this time period, as long as you have a Viva Insights subscription.
 >
-> When you make updates to your meeting categories in Teams or Outlook, it can take up to a day for those changes to appear in the **Effective meetings** tab.
+> When you make updates to your meeting categories in Teams or Outlook, it can take up to a day for those changes to appear in the **Productivity** tab.
 
 ## Meeting effectiveness surveys
 
@@ -134,10 +134,9 @@ Surveys appear at the end of select Teams meetings with five or more participant
 
 ### Insights
 
-As an organizer with a [Viva Insights subscription](https://www.microsoft.com/microsoft-viva/insights), you can see aggregated survey results in the Viva Insights app in Teams and on the web. These results include an aggregated view of star ratings and access to individual, anonymous feedback. The **Effective meetings** page also shows insights into how your meetings succeeded and how they could be improved.
+As an organizer with a [Viva Insights subscription](https://www.microsoft.com/microsoft-viva/insights), you can see aggregated survey results in the Viva Insights app in Teams and on the web. These results include an aggregated view of star ratings and access to individual, anonymous feedback. The **Effective meetings** section also shows insights into how your meetings succeeded and how they could be improved.
 
-
-:::image type ="content" source="images/effective-meetings-landing.png" alt-text="Screenshot that shows the effective meetings page." lightbox="images/effective-meetings-landing.png":::
+![Screenshot that shows insights in the Meeting effectiveness survey section on the Productivity tab.](images/productivity-mes-insights.png)
 
 ### Settings
 
