@@ -25,11 +25,16 @@ Use **Meeting category insights** in the **Productivity** tab to help understand
 In this section, you'll find three types of insights, which are based on meetings  you organized, meetings you accepted, and your appointments:
 
 * **Percentage breakdown**: The percentage of total meeting hours you spend in each meeting category.
-:::image type="content" source="Images/productivity-category-breakdown.png" alt-text="Screenshot that shows meeting category insights." :::
+
+    :::image type="content" source="Images/productivity-category-breakdown.png" alt-text="Screenshot that shows meeting category insights." :::
+
 * **Meeting trends**: How the time you spend in each meeting category has changed.
-:::image type="content" source="Images/productivity-trends.png" alt-text="Screenshot that shows meeting trends.":::
+
+    :::image type="content" source="Images/productivity-trends.png" alt-text="Screenshot that shows meeting trends.":::
+
 * **Meeting details**: All your meetings in a list, which includes **Category**, **Total time spent**, **Cadence**, and **Duration**.
-:::image type="content" source="Images/productivity-draft-details.png" alt-text="Screenshot that shows meeting details.":::
+
+    :::image type="content" source="Images/productivity-draft-details.png" alt-text="Screenshot that shows meeting details.":::
 
 You can customize what you see here. If you want to:
 
