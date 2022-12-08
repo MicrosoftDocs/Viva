@@ -38,7 +38,11 @@ items:
                 - name: Overview
                   href: /teams/wellbeing.md  
                 - name: Shared no-meeting day plan
-                  href: /teams/shared-no-meeting-day.md      
+                  href: /teams/shared-no-meeting-day.md    
+                - name: Focus
+                  href: /teams/wellbeing.md
+                - name: Virtual commute
+                  href: /teams/virtual-commute.md   
           - name: Briefing
             items:
               - name: Overview
