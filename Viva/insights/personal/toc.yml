@@ -13,9 +13,8 @@ items:
               - name: Home
                 href: /teams/home.md
               - name: Productivity
-                items: 
-                - name: Overview
-                  href: /teams/productivity.md
+                href: /teams/productivity.md
+                items:
                 - name: Meeting habits
                   href: /teams/meeting-habits.md
                 - name: Meeting category insights
