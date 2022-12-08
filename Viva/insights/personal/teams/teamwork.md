@@ -65,8 +65,8 @@ If you can’t find a frequent collaborator on your network map, use the Search 
 
 If you manage a team, you’ll find a **Manage time with direct reports** section near the top of your **Teamwork** tab. Use the information here to help you keep up with your direct reports and book time with them. To set up recurring 1:1s with your directs—and to remind you both to add top-of-mind topics and clear any conflicting events beforehand—we built a 1:1 meeting plan. To learn more about the 1:1 plan and to get one started, go to our [1:1 meeting plan documentation](1-1-plan.md).
 
-![teamwork](./Images/teamwork-direct-reports.png)
+![Screenshot that shows Manage time with direct reports section on the Teamwork tab.](./Images/teamwork-direct-reports.png)
 
-If you’re an organization leader—that is, your Insights admin has assigned you the Insights business leader role or enabled you as a group manager—you’ll see a Teamwork insights for your organization section at the top of your Teamwork tab. Each day, you’ll either receive an insight about manager 1:1 meeting hours or internal network size across your organization or company. To learn more about organization insights, refer to [Organization insights in the Viva Insights app](../../org-team-insights/teams-and-web/org-insights-in-teams.md).
+If you’re an organization leader—that is, your Insights admin has assigned you the **Insights business leader** role or enabled you as a group manager—you’ll see a **Teamwork insights for your organization** section at the top of your **Teamwork** tab. Each day, you’ll either receive an insight about manager 1:1 meeting hours or internal network size across your organization or company. To learn more about organization insights, refer to [Organization insights in the Viva Insights app](../../org-team-insights/teams-and-web/org-insights-in-teams.md).
 
-![teamwork](./Images/teamwork-org-insights.png)
+![Screenshot that shows Teamwork insights for your organization section on the Teamwork tab.](./Images/teamwork-org-insights.png)
