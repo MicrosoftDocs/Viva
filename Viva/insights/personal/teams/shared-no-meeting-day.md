@@ -18,7 +18,7 @@ audience: Admin, user
 
 # Shared no-meeting day plan
 
-*To start a no-meeting day plan, users need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../personal/Overview/plans-environments.md). A Viva Insights license isn't required to participate in a no-meeting day plan.*
+*To start a no-meeting day plan, you need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../personal/Overview/plans-environments.md). A Viva Insights license isn't required to participate in a no-meeting day plan.*
 
 No-meeting days are a shared recurring time that everyone in the plan can use to focus without interruptions. Days without scheduled meetings:
 
@@ -39,9 +39,9 @@ When you accept a no-meeting day invitation from a plan organizer, your calendar
 As long as they have a premium Viva Insights license, anyone on your team—managers and teammates alike—can start a no-meeting day plan and invite others to join it. Plan invitees don’t have to have a premium license.
 Starting and inviting others to a plan is quick and easy. Follow these steps to set up a no-meeting day plan for your team:
 
-1. On the Viva Insights app **Home** page, beneath **Teamwork habits**, find the **No-meeting day** card. Select **Get started**.
+1. On the **Wellbeing** tab, find the **No-meeting day** card under **Take action to improve your wellbeing**. Select **Set up no-meeting day**.
 
-    :::image type="content" source="images/nmd-start-card.png" alt-text="Screenshot of the No-meeting day start card. The Get started button is highlighted.":::
+    :::image type="content" source="images/wellbeing-nmd-start.png" alt-text="Screenshot of the No-meeting day start card. The Get started button is highlighted.":::
 
 2. When the setup window appears, fill in:
     1. **Recipients**.
@@ -68,19 +68,16 @@ Starting and inviting others to a plan is quick and easy. Follow these steps to 
 
 1. The setup window then shows you a confirmation message with details about your plan. If you want more information, expand the gray arrow under **What happens next?**. Otherwise, select **Done**.
  
-#### Edit
+#### Edit or end 
 
-After you start a no-meeting day plan, a **No-meeting days** summary card appears on the Viva Insights app **Teamwork habits** and **Home** page. Select **Edit**.
+After you start a no-meeting day plan, a summary card replaces the card you selected to start the plan. To make changes to the plan or to leave it, select **Change settings**.
 
-:::image type="content" source="images/nmd-summary-card.png" alt-text="Screenshot of the No-meeting day summary card. The Edit button is highlighted.":::
+:::image type="content" source="images/wellbeing-nmd-confirmation.png" alt-text="Screenshot of the No-meeting day summary card. The Edit button is highlighted.":::
  
-On the edit window, you can change your plan’s details. If the only change you make is adding new recipients, Viva Insights sends an update to just those people. If you edit other details, like information under **Settings**, all existing and new plan invitees get an update in their inbox. Updates appear as calendar events, like initial invitations do.
+On the edit window, you can change your plan’s details. If the only change you make is adding new recipients, Viva Insights sends an update to just those people. If you edit other details, like information under **Settings**, all existing and new plan invitees get an update in their inbox. Updates appear as calendar events, like initial invitations do. To save your changes, select **Send update**.
+<!--Anji to verify-->
 
-To save your changes, select **Send update**.
-
-#### End
-
-If you want to end your plan, select **End plan** on the **No-meeting days** summary card on the Viva Insights **Home** or **Teamwork habits** page. On the resulting confirmation box, select **Confirm**. The invitation then disappears from all participants’ calendars.
+If you want to end your plan, select **End plan**. On the resulting confirmation box, select **Confirm**. The invitation then disappears from all participants’ calendars.
 
 :::image type="content" source="images/nmd-end-plan.png" alt-text="Screenshot of the End plan confirmation dialog box, which includes a Confirm button.":::
 

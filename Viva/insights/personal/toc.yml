@@ -33,10 +33,12 @@ items:
                   href: /teams/teamwork.md
                 - name: 1:1 meeting plan
                   href: /teams/1-1-plan.md  
-                - name: Shared no meeting day
-                  href: /org-team-insights/shared-no-meeting-day.md  
               - name: Wellbeing
-                href: /teams/wellbeing.md      
+                items:
+                - name: Overview
+                  href: /teams/wellbeing.md  
+                - name: Shared no-meeting day plan
+                  href: /teams/shared-no-meeting-day.md      
           - name: Briefing
             items:
               - name: Overview
