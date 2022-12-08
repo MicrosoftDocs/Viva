@@ -1,6 +1,6 @@
 ---
-title: Productivity tab in Viva Insights
-description: Use the Productivity tab in Microsoft Viva Insights
+title: Teamwork tab in Viva Insights
+description: Use the Teamwork tab in Microsoft Viva Insights
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
