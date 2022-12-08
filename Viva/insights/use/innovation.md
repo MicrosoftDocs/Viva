@@ -71,4 +71,4 @@ The [Measuring your employees’ invisible forms of influence](https://insights.
 * Use [Viva Insights](../personal/use/use-the-insights.md) and the [Stay connected](../personal/teams/viva-insights-stay-connected.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
 * Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
-For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).-->
+For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
