@@ -29,8 +29,10 @@ items:
                     href: /teams/suggested-tasks.md  
               - name: Teamwork
                 items: 
-                - name: Teamwork
+                - name: Overview
                   href: /teams/teamwork.md
+                - name: 1:1 meeting plan
+                  href: /teams/1-1-plan.md  
                 - name: Shared no meeting day
                   href: /org-team-insights/shared-no-meeting-day.md  
               - name: Wellbeing
