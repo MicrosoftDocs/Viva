@@ -15,30 +15,25 @@ audience: user
 
 # Virtual commute
 
-You can use the virtual commute feature in the Microsoft Viva Insights app from either the [Up-next card](#from-the-up-next-card-on-the-home-page) on the Home page or [within Protect time](#within-protect-time).
+Review tomorrow's upcoming meetings, tasks, and commitments, and end today mindfully with virtual commute. 
 
-## From the Up-next card on the Home page
+When a card at the top of your **Wellbeing** tab prompts you to "wrap up," select **Let's go** to start your virtual commute right away.
 
-When the Up-next card prompts you to "wrap up," you can select **Let's go** to start your virtual commute right away.
+![Screenshot that shows the Home page with virtual commute card.](images/wellbeing-start-vc.png)
 
-![Screenshot that shows the Home page with virtual commute card.](images/vc-lets-go-home1.png)
+<!--Anji to verify-->
 
 This message appears at the following times:
 
 * If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about changing this and other settings, refer to [Insights app settings](viva-teams-app-settings.md).
 * If you haven't configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
-## Within Protect time
-
-In **Protect time**, when prompted with, "Ready to wrap up?", select **Let's go**.
-
-![Screenshot that shows the Virtual commute card with Let's go highlighted.](Images/vc-lets-go-pt1.png)  
-
-When you select this button, your virtual commute starts immediately. For details about the virtual commute experience, refer to [virtual commute sections](#virtual-commute-sections). Starting a virtual commute this way doesn't affect the scheduled days and time of day that you set in [Set up virtual commutes](#set-up-virtual-commutes).
 
 ## Set up virtual commutes
 
-The first time you open **Protect time**, you're prompted to schedule your virtual commute reminders.
+The first time you open **Wellbeing**, you're prompted to schedule your virtual commute reminders.
+
+<!--Anji to verify-->
 
 ![Screenshot that shows option to schedule virtual commute.](Images/virtual-commute-reminders.png)  
 
@@ -51,6 +46,8 @@ You can use this prompt to turn on the **Reminder** toggle, then select the days
 >* The reminder might not arrive at exactly the scheduled time, but most reminders appear within five minutes before their scheduled time. For example, if your reminder is scheduled for 5:00, the reminder could appear between 4:55 and 5:00.
 
 If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md).
+
+<!--Anji to verify: This has a different color scheme and doesn't start with the "it's a wrap" screen in PPE. Will this persist in the release environment?-->
 
 ### Virtual commute sections
 
