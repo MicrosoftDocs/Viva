@@ -13,16 +13,18 @@ items:
               - name: Home
                 href: /teams/home.md
               - name: Productivity
-                href: /teams/productivity.md
                 items:
-                - name: Meeting habits
-                  href: /viva/insights/personal/teams/meeting-habits.md
-                - name: Meeting category insights
-                  href: /teams/meeting-category-insights.md
-                - name: Meeting effectiveness surveys
-                  href: /teams/meeting-effectiveness-surveys.md       
-                - name: Shared meeting plan  
-                  href: /teams/shared-meeting-plan.md
+                - name: Overview
+                  href: /teams/productivity.md
+                  items:
+                  - name: Meeting habits
+                    href: /viva/insights/personal/teams/meeting-habits.md
+                  - name: Meeting category insights
+                    href: /teams/meeting-category-insights.md
+                  - name: Meeting effectiveness surveys
+                    href: /teams/meeting-effectiveness-surveys.md       
+                  - name: Shared meeting plan  
+                    href: /teams/shared-meeting-plan.md
               - name: Teamwork
                 items: 
                 - name: Teamwork
