@@ -22,11 +22,17 @@ On the **Productivity** tab, you'll find centralized insights and actions that h
 
 The tab provides these features:
 
-* **Effective meetings**: Understand and decrease non-productive meeting time through meeting effectiveness surveys, meeting category insights, and meeting habits. Read more about how you can use Viva Insights to craft better meetings in [Effective meetings](effective-meetings.md).
+* [**Meeting habits**](meeting-habits.md): Learn about habits or practices in meetings you organized and accepted.
 
     :::image type="content" source="./images/productivity-meetings.png" alt-text="Screenshot that shows meeting category insights in Productivity.":::
 
-* **Suggested tasks**: Stay on top of your work with tasks that Viva Insights surfaces through unread shared documents, meetings you haven't responded to, and Teams chats. Learn more about how this feature works in [Suggested tasks](suggested-tasks.md).
+* [**Meeting category insights**](meeting-category-insights.md): Understand which kinds of meetings you spend the most time in.
+    :::image type="content" source="Images/productivity-trends.png" alt-text="Screenshot that shows meeting trends.":::
+
+* [**Meeting effectiveness surveys**](meeting-effectiveness-surveys.md): Help make your meetings more effective by surveying participants about what went well and what you could improve next time.
+    :::image type="content" source="images/productivity-mes-insights.png" alt-text="Screenshot that shows Effective meeting settings." lightbox="images/meeting-effectiveness-settings.png":::
+
+* [**Suggested tasks**](suggested-tasks.md): Stay on top of your work with tasks that Viva Insights surfaces through unread shared documents, meetings you haven't responded to, and Teams chats. 
 
     <!--need updated image that doesn't contain unread docs content-->
 

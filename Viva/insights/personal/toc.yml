@@ -14,10 +14,14 @@ items:
                 href: /teams/home.md
               - name: Productivity
                 items: 
-                - name: Productivity
+                - name: Overview
                   href: /teams/productivity.md
-                - name: Effective meetings
-                  href: /teams/effective-meetings.md  
+                - name: Meeting habits
+                  href: /teams/meeting-habits.md
+                - name: Meeting category insights
+                  href: /teams/meeting-category-insights.md
+                - name: Meeting effectiveness surveys
+                  href: /teams/meeting-effectiveness-surveys.md       
                 - name: Shared meeting plan  
                   href: /teams/shared-meeting-plan.md
               - name: Teamwork
