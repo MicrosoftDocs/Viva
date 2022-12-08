@@ -32,11 +32,11 @@ Viva Goals uses the ORK framework. OKRs align your entire organization to strate
 
 **Key results** describe how you'll measure your success in accomplishing these goals.
 
-For best results, teams and individuals should be aligned in a hierarchy. Key results at one level become objectives of the next level.
+For best results, teams and individuals should be aligned in a hierarchy.
 
-**Projects** are focused efforts that help you achieve your key results.
+**Initiatives/Projects** are focused efforts that help you achieve your key results.
 
-Incorporating projects in your OKR program ensures alignment between company-wide OKRs and the work prioritized by every department in your organization.
+Incorporating initiatives/projects in your OKR program ensures alignment between company-wide OKRs and the work prioritized by every department in your organization.
 
 **Check-ins** are updates you make to share progress on your OKRs. When you update progress on a key result, it automatically updates the status of the parent objectives as appropriate.
 
@@ -59,9 +59,9 @@ Additionally, you can integrate with popular platforms and tools that you alread
 [Learn more about integrations](/viva/goals/integrations-overview)
 
 ### More information
+
 [Use the admin dashboard to configure settings for Viva Goals](/viva/goals/navigate-admin-dashboard)
 
 [Introduction to Viva Goals](/viva/goals/intro-to-ms-viva-goals)
 
-[Viva Goals information for end users](https://support.microsoft.com/en-us/office/introducing-microsoft-viva-goals-bd651be7-472a-4f40-8fdd-6fcead79f3ad)
-
+[Viva Goals information for end users](https://support.microsoft.com/office/introducing-microsoft-viva-goals-bd651be7-472a-4f40-8fdd-6fcead79f3ad)

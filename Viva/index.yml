@@ -131,7 +131,9 @@ additionalContent:
         - title: Adoption
           links:
             - text: Viva adoption center
-              url: https://adoption.microsoft.com/en-us/viva/
+              url: https://adoption.microsoft.com/viva/
+            - text: End user resources
+              url: https://support.microsoft.com/viva
             - text: Tech community
               url: https://techcommunity.microsoft.com/t5/microsoft-viva/ct-p/MicrosoftViva
  
