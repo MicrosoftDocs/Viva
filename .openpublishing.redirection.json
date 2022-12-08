@@ -344,10 +344,16 @@
       "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
       "redirect_document_id": false
     },
-    {"source_path": "viva/insights/personal/teams/effective-meetings.md",
+    {
+      "source_path": "viva/insights/personal/teams/effective-meetings.md",
     "redirect_url": "/viva/insights/personal/teams/productivity",
     "redirect_document_id": false
 
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/shared-no-meeting-day.md",
+    "redirect_url": "viva/insights/personal/teams/shared-no-meeting-day.",
+    "redirect_document_id": false
     }
     ]
 }
