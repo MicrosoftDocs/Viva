@@ -42,16 +42,20 @@ items:
                   href: personal/teams/teamwork.md
                 - name: 1:1 meeting plan
                   href: personal/teams/1-1-plan.md  
-                - name: Wellbeing
-                  items:
-                  - name: Overview
-                    href: personal/teams/wellbeing.md  
-                  - name: Shared no-meeting day plan
-                    href: personal/teams/shared-no-meeting-day.md    
-                  - name: Focus
-                    href: personal/teams/wellbeing.md
-                  - name: Virtual commute
-                    href: personal/teams/virtual-commute.md       
+              - name: Wellbeing
+                items:
+                - name: Overview
+                  href: personal/teams/wellbeing.md  
+                - name: Headspace  
+                  href: personal/teams/headspace.md
+                - name: Focus
+                  href: personal/teams/focus.md
+                - name: Shared no-meeting day plan
+                  href: personal/teams/shared-no-meeting-day.md                     
+                - name: Virtual commute
+                  href: personal/teams/virtual-commute.md    
+                - name: Wellbeing plans
+                  href: personal/teams/wellbeing-plans.md    
           - name: Briefing
             items:
               - name: Overview
