@@ -66,3 +66,4 @@ Viva Topics welcomes human contribution to improve the quality of your topics. W
 
 Even with human edits, AI will continually look for more information about topics, and will look for human verification. For example, if AI thinks you are a person that should be listed as an expert on a topic, it will ask you to confirm this. 
 
+## Identifying topic types
