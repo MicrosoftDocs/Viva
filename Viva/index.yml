@@ -104,6 +104,8 @@ additionalContent:
         # Card
         - title: End user training
           links:
+          - text: Microsoft Viva help and learning
+            url: https://support.microsoft.com/viva
           - text: Viva Topics
             url: https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332
           - text: Viva Connections
@@ -119,10 +121,16 @@ additionalContent:
         # Card
         - title: Learning paths
           links:
+            - text: Get started with Microsoft Viva Connections
+              url: /training/paths/viva-connections-get-started/
             - text: Get started with Microsoft Viva Topics
               url: /training/paths/m365-viva-topics/
-            - text: Extend Microsoft Viva Connections
-              url: /training/paths/m365-extend-viva-connections
+            - text: Introduction to Viva Learning
+              url: /training/modules/viva-learning-introduction/
+            - text: Introduction to Viva Insights
+              url: /training/paths/m365-workplace-analytics-start/
+            - text: Introduction to Viva Sales
+              url: /training/modules/viva-sales-introduction/
             - text: Get started with Viva Goals
               url: /training/paths/viva-goals-get-started
             - text: OKR leadership program
