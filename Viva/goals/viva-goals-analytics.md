@@ -25,7 +25,7 @@ As an organization administrator, you'll be able to see analytics for the OKR pr
 
 To see analytics, navigate to ‘Analytics’ tab on the entity page for organization. The metrics are displayed for the selected time range. You can also see the metric breakdown by teams. 
 
-:::image type="content" source="../media/goals/analytics-images/1-vivagoals-analytics-navigation.png" alt-text="How to navigate to the analytics tab in Viva Goals":::
+:::image type="content" source="../media/goals/analytics-images/1-vivagoals-analytics-navigation.png" alt-text="How to navigate to the analytics tab in Viva Goals" lightbox="../media/goals/analytics-images/1-vivagoals-analytics-navigation.png":::
 
 The metrics are divided into three sections: 
 
@@ -41,20 +41,20 @@ This section contains a bird's eye view of how well the adoption of OKR program 
 
 **Users**
 
-- Total users - Count of users in Viva Goals during the selected time range. 
+- Total users – Count of users in Viva Goals during the selected time range. 
 - Active users – Count (and %) of users who visited Viva Goals in the selected time range. 
 - Users with OKRs – Count (and %) of users who owned an active OKR on any day in the selected time range. 
 - Users with check-ins – Count (and %) of users who made a checkin on an OKR on any day in the selected time range. 
 
 **Teams**
 
-- Total teams - Count of teams that existed on any day in the selected time range. 
+- Total teams – Count of teams that existed on any day in the selected time range. 
 - Teams with OKRs – Count (and %) of teams that had an active OKR on any day in the selected time range. 
-- Teams with check-ins - Count (and %) of teams that had a checkin on any team OKR in the selected time range. 
+- Teams with check-ins – Count (and %) of teams that had a checkin on any team OKR in the selected time range. 
 
 **OKRs**
 
-- Total OKRs - Count of OKRs whose time range overlaps with the selected time range. 
+- Total OKRs – Count of OKRs whose time range overlaps with the selected time range. 
 - OKRs with check-ins – Count (and %) of OKRs which had a checkin during the selected time range. 
 
 In the breakdown view, you'll see breakdown of the metrics by the top-level teams: 
