@@ -70,7 +70,7 @@ Optional fields are commonly encountered system fields that the app suggests for
 
 To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Optional” label.
 
-![Viva attributes](../images/admin-attributes1.png)
+![Screenshot that shows Viva attributes and the mapped and unmapped fields.](../images/admin-attributes1.png)
 
 ### Custom
 
