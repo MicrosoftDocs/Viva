@@ -133,8 +133,7 @@ additionalContent:
               url: /training/modules/viva-sales-introduction/
             - text: Get started with Viva Goals
               url: /training/paths/viva-goals-get-started
-            - text: OKR leadership program
-              url: /training/paths/okr-leadership
+
         # Card
         - title: Adoption
           links:
