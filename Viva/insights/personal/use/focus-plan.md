@@ -44,7 +44,7 @@ To start a focus plan:
 1. Go to the **Take action to improve your wellbeing** section of your **Wellbeing** tab.
 1. Find the **Start a daily focus plan** card, then select **Set daily focus plan**.
 
-    ![start focus plan](images/wellbeing-start-focus-plan.png)
+    ![start focus plan](../teams/Images/wellbeing-start-focus-plan.png)
 
 1. If you're prompted, configure your plan settings:
     * How much focus time you want to schedule each day
@@ -56,7 +56,7 @@ To start a focus plan:
 
 After your plan is set up, a confirmation card appears in your **Take action to improve your wellbeing** section. 
 
-![](images/wellbeing-focus-plan-confirmation.png)
+![Screenshot that shows the confirmation card for focus plan.](../teams/images/wellbeing-focus-plan-confirmation.png)
 
 If you want to change your settings right away, select **Change settings**. Otherwise, you can make edits as we describe in [To make changes](#to-make-changes).
 
@@ -65,15 +65,15 @@ If you want to change your settings right away, select **Change settings**. Othe
 
 1. Select the **Want focus time every day?** insight.
 
-   ![Screenshot that shows Want focus time every day? insight](../../Images/mya/use/outlook-focus-plan-start.png)
+   ![Screenshot that shows Want focus time every day? insight in the Outlook add-in.](../../Images/mya/use/outlook-insight.png)
 
 2. Select **Book time now**.
 
-   ![Screenshot that shows the Create your focus plan window with Book time now option.](../../Images/mya/use/book-time-now.png)
+   ![Screenshot that shows the Create your focus plan window with Book time now and Cancel buttons.](../../Images/mya/use/outlook-insight-enroll.png)
 
    The Insights pane now notifies you that your focus plan has begun, and your calendar now contains focus-time blocks:
 
-   ![Screenshot that shows the Outlook add-in's focus plan confirmation window.](../../Images/mya/use/outlook-focus-plan-confirmation.png)
+   ![Screenshot that shows the Outlook add-in's focus plan confirmation window and a Got it button.](../../Images/mya/use/outlook-insight-all-set.png)
 
 Now that your focus plan is underway, you can do the following: 
 
@@ -83,16 +83,12 @@ Now that your focus plan is underway, you can do the following:
 
 ## To check the progress of your focus plan
 
-After your plan has started, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report.
+After you've started your plan, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report.
 
-In the app, go to your Wellbeing tab's **Track your progress** section:
+In the app, go to your **Wellbeing** tab's **Track your progress** section. The **Focus plan** card shows how many hours of focus time you kept--that is, you didn't delete from your calendar--over the current and last month. The card also lets you know how many hours of focus time you have booked for the upcoming week, and on which days.
 
-   ![Dashboard report.](../../Images/mya/use/track-progress.png)
+![Screenshot that shows the Focus plan card in the Track your progress section. It displays total hours of kept focus time over November - December and total hours of focus time reserved for the following week, on Friday, Monday, Tuesday, and Wednesday.](../teams/Images/wellbeing-focus-track-progress.png)
   
-An important metric shows under **Last week** about how many days last week that you had time to focus.
-
-The **Plan ahead** area helps you plan focus time for the upcoming days with the following sections.
-
 
 ## To change or leave your focus plan
 
@@ -104,12 +100,12 @@ To edit your focus plan settings:
 
 1. Select the ellipses (**...**) at the top-right of any Viva Insights tab, then select **Settings**.
 
-    ![Screenshot that shows selecting the ellipses > Settings in Viva Insights.](images/ellipses-settings.png)
+    ![Screenshot that shows selecting the ellipses > Settings in Viva Insights.](../teams/images/ellipses-settings.png)
 
 1. Select **Protect time** from the left pane.
 1. Edit your scheduled focus hours per day, morning or afternoon preferences, and reminder and notification preferences.
 
- ![Screenshot that shows selecting the ellipses > Settings in Viva Insights.](images/wellbeing-focus-plan-settings.png)
+ ![Screenshot that shows the Protect time > Configure your recurring plan for focus settings in Viva Insights.](../teams/images/wellbeing-focus-plan-settings.png)
 
 #### To leave
 
@@ -157,6 +153,8 @@ During focus time, your status in Teams and Skype for Business will automaticall
 For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d).
 
 ### Digest emails and Viva Insights Outlook add-in
+
+<!--Anji to confirm whether this functionality still exists-->
 
 #### Focus plan digest
 
