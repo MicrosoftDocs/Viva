@@ -63,17 +63,19 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
 4. In the **Types** section, select a type that best describes the topic being edited by using the types search bar.
 
-    ![Screenshot showing the topic types search bar.](../media/knowledge-management/alt-names.png)
+    ![Screenshot showing the topic types search bar.](../media/knowledge-management/types-search-name.png)
 
-You can confirm a suggested type by selecting the chekc mark next to th type listed in the **suggested** row. To remove a confirmed type, select the X mark on the type to be removed.
+    You can confirm a suggested type by selecting the chekc mark next to th type listed in the **suggested** row. To remove a confirmed type, select the X mark on the type to be removed.
 
+    ![Screenshot showing how topic types you can confirm or remove.](../media/knowledge-management/types-confirm.png)
 
+    You can also choose to display a type badge on the topic's page and card based on the type first listed in the **confirmed**.
 
-You can also choose to display a type badge on the topic's page and card based on the type first listed in the **confirmed**.
+    ![Screenshot showing the topic type badge.](../media/knowledge-management/types-display-badge.png)
 
+    To change the type badge , drag and drop the type you'd like to see displayed to the first position in the section. Only one topic type badge is available per topic.
 
-
-To change the type badge , drag and drop the type you'd like to see displayed to the first position in the section. Only one topic type badge is available per topic.
+    ![Screenshot showing the topic type with drag tooltip.](../media/knowledge-management/types-drag-badge.png)
 
 5. In the **Pinned people** section, you can "pin" a person to show them as having a connection the topic (for example, an owner of a connected resource). Begin by typing their name or email address in the **Add a new user** box, and then selecting the user you want to add from the search results. You can also "unpin" them by selecting the **Remove from list** icon on the user card.
  
