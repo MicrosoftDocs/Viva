@@ -102,7 +102,7 @@ additionalContent:
     - title: Key resources  # < 60 chars (optional)
       items:
         # Card
-        - title: End user training
+        - title: End user help and learning
           links:
           - text: Microsoft Viva help and learning
             url: https://support.microsoft.com/viva
