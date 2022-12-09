@@ -334,6 +334,15 @@
         "source_path": "viva/learning/provider-content-ingestion-errors.md",
         "redirect_url": "/viva/troubleshoot/learning/provider-content-ingestion-errors",
         "redirect_document_id": false
-      }
+      },
+      {
+        "source_path": "viva/insights/personal/use/executive.md",
+        "redirect_url": "/viva/insights/personal/teams/effective-meetings",
+        "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/tutorials/power-bi-myorg.md",
+      "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
+      "redirect_document_id": false
+    }
     ]
 }
