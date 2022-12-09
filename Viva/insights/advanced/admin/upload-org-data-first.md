@@ -68,7 +68,7 @@ System default fields can be either *required*—which are **PersonId**, **Manag
 
 Optional fields are commonly encountered system fields that the app suggests for use. You don’t need to map optional fields if your organization doesn’t have data for them.
 
-To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Reserved optional” label.
+To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Optional” label.
 
 ![Viva attributes](../images/admin-attributes1.png)
 
