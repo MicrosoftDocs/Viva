@@ -50,30 +50,23 @@ You can configure access to Viva Insights elements for all users in your organiz
 
 ### To enable access to Viva digest emails, meeting effectiveness surveys, Viva Insights Outlook add-in, and schedule send suggestions
 
-1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
-1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
-    ![Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.](../../images/mya/setup/manage-settings-insights.png)
-1. In the resulting pane:
-    1. Select **Viva Insights web experience** to keep all Viva Insights users in your organization opted _in_ for access to the Viva Insights app on the web. Clear the selection for **Viva Insights web experience** to opt users _out_.  
-    1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
-    1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
-    1. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt users _out_. If you opt users out, they won't see an option for meeting effectiveness surveys in their settings.
-    1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt users out. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and app settings page. It may take up to 24 hours for all changes to take effect.
+>[!Note]
+> If you're a targeted release customer, you might see a new admin experience. To learn how to enable access to these features through the new experience, refer to [Using the new admin experience](../../advanced/setup-maint/new-admin-experience.md#personal-insights). 
+
+1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
+1. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
+1. In the left pane, expand **Settings**, and then select **Org settings**.
+1. Under **Services**, select **Microsoft Viva Insights (formerly MyAnalytics)** to see settings for the different options.
+1. Select **Viva Insights web experience** to keep all Viva Insights users in your organization opted _in_ for access to the web app. Deselect **Insights dashboard** to opt users _out_.
+1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
+1. Select **Insights Outlook add-in** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
+1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt users out. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and dashboard settings page. It may take up to 24 hours for all changes to take effect.
 
     >[!Note]
     >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
 
+9. Select **Save**.
 
-    ![Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled.](../../Images/MyA/setup/insights-settings-pane.png)
-1. Select **Save**.
-
-
-
-
-You can also get to these settings in from the main [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal):
-
-1. In the left pane, expand **Settings** and then select **Org settings**.
-1. On the **Services** tab, select **Microsoft Viva Insights (formerly MyAnalytics)**.
 
 ## Configure access at the user level
 
