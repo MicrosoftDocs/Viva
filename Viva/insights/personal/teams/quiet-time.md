@@ -1,6 +1,6 @@
 ---
-title: Wellbeing tab in Viva Insights
-description: Use the Wellbeing tab in Microsoft Viva Insights
+title: Quiet time in Viva Insights
+description: Set up quiet time in Microsoft Viva Insights
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -14,12 +14,30 @@ audience: user
 
 # Quiet time
 
-Research shows that long hours and the pressure to always be available can lead to employee burnout. The amount of time you spend collaborating outside of business hours can be an indicator that you are at risk of burnout, even as you and your team embrace flexibility.
+Research shows that long hours and the pressure to always be available can lead to employee burnout. The amount of time you spend collaborating outside of business hours can be an indicator for your risk of burnout, even as you and your team embrace flexibility.
 
-This feature can help protect your quiet time, which is the hours each day when you want to disconnect from work and recharge. To minimize work related interruptions, you can schedule when you want mobile notifications from Outlook and Teams to automatically be muted.
+To protect your non-working hours, and to help you disconnect and recharge from work, use quiet time in Microsoft Viva Insights. When you set up quiet time, we'll silence mobile notifications from Outlook and Teams, depending on the preferences you set.
 
-In the **Quiet time** section on the **Protect time** page, if you haven't scheduled quiet time and are prompted to, select **Let's go**. You are then prompted to select a start and end time for when to mute mobile notifications from Outlook and Teams. In **Mute mobile notifications all day**, you can also select which days to mute notifications for the full 24 hours.
+## Set up quiet time
 
-After the initial setup, you'll see the following options in **Configure your quiet time**. You can get here by selecting the ellipses (**...**) at the top right of the Viva Insights app, selecting **Settings**, then selecting **Protect time** from the left pane. You can confirm or change any of the quiet-time options or turn quiet time off at any time.
+Here's how you get your quiet time set up:
 
-![Screenshot that shows the Quiet time settings.](Images/protect-time-quiet-time-settings.png)
+1. Go to the **Wellbeing** tab in your Viva Insights app.
+1. In the **Take action to improve your wellbeing** section, find the **Disconnect with quiet time** card, then select **Set quiet time**.
+
+    ![Screenshot that shows the Quiet time settings.](Images/wellbeing-set-qt.png)
+
+1. On the resulting page, select when you want Viva Insights to start and stop silencing Outlook and Teams notifications. In **Mute mobile notifications all day**, pick days you want Viva Insights to mute notifications for a full 24 hours.
+    
+    ![Screenshot that shows the Quiet time settings.](Images/wellbeing-qt-settings.png)
+
+1. Select **Save changes**.
+
+You can change your quiet time settings whenever you need to:
+
+1. Select the ellipses (**...**) at the top-right of your Viva Insights app, then select **Settings**.
+    
+    ![Screenshot that shows the Quiet time settings.](Images/ellipses-settings.png)
+
+1. Select the **Protect time** tab from the left pane.
+1. Make changes and save.
