@@ -21,13 +21,13 @@ description: "Learn about analytics and the health of your OKRs with Viva Goals.
 
 # OKR Program Analytics
 
-As an organization administrator, you will be able to see analytics for the OKR program and usage of Viva Goals. 
+As an organization administrator, you'll be able to see analytics for the OKR program and usage of Viva Goals. 
 
 To see analytics, navigate to ‘Analytics’ tab on the entity page for organization. The metrics are displayed for the selected time range. You can also see the metric breakdown by teams. 
 
 :::image type="content" source="../media/goals/analytics-images/1-vivagoals-analytics-navigation.png" alt-text="How to navigate to the analytics tab in Viva Goals":::
 
-The metrics are divided into 3 sections: 
+The metrics are divided into three sections: 
 
 1. [Adoption](#adoption) 
 1. [Engagement ](#engagement)
@@ -57,13 +57,13 @@ This section contains a bird's eye view of how well the adoption of OKR program 
 - Total OKRs - Count of OKRs whose time range overlaps with the selected time range. 
 - OKRs with check-ins – Count (and %) of OKRs which had a checkin during the selected time range. 
 
-In the breakdown view, you will see breakdown of the metrics by the top-level teams: 
+In the breakdown view, you'll see breakdown of the metrics by the top-level teams: 
 
 :::image type="content" source="../media/goals/analytics-images/3-vivagoals-analytics-adoption-breakdown.png" alt-text="View of the analytics breakdown in Viva Goals.":::
    
 ## Engagement
 
-:::image type="content" source="../media/goals/analytics-images/4-vivagoals-analytics-engagement.png" alt-text="View of engament metrics in the analytics view in Viva Goals.":::
+:::image type="content" source="../media/goals/analytics-images/4-vivagoals-analytics-engagement.png" alt-text="View of engagement metrics in the analytics view in Viva Goals.":::
 
 **Monthly active users plot** – A daily plot of monthly active users (users who visited Viva Goals in last 28 days from the date). Breakdown will show the current MAU as the percentage of users. 
 
@@ -81,21 +81,21 @@ In the breakdown view, you will see breakdown of the metrics by the top-level te
 
 - **OKRs aligned up:** Percentage (and count) of team OKRs aligned to an org or team OKR, as on the last date of selected time range.  
 
-- **OKRs cascaded down:**Percentage (and count) of organization or team OKRs which are cascaded down to another team objective, as of the last date of selected time range (OKRs of teams which don’t have sub-teams, are not considered). 
+- **OKRs cascaded down:**Percentage (and count) of organization or team OKRs which are cascaded down to another team objective, as of the last date of selected time range (OKRs of teams which don’t have subteams, aren't considered). 
 
 - **Shared OKRs:** Percentage (and count) of team OKRs which are shared by more than one team, as on the last date of selected time range. 
 
 **Efficiency**
 
-- **Automated OKRs:** Percentage (and count) of OKRs which are updated automatically - via rollup from children or via integration with a data source (individual OKRs are not considered). 
+- **Automated OKRs:** Percentage (and count) of OKRs which are updated automatically - via rollup from children or via integration with a data source (individual OKRs aren't considered). 
 
 **Focus**
 
-- **Teams with more than 5 objectives:** Percentage (and count) of teams with more than 5 objectives, as on the last date of selected time range. 
+- **Teams with more than 5 objectives:** Percentage (and count) of teams with more than five objectives, as on the last date of selected time range. 
 
-- **Objectives with more than 5 KRs:** Percentage (and count) of organization and team objectives with more than 5 KRs, as on the last date of selected time range. 
+- **Objectives with more than 5 KRs:** Percentage (and count) of organization and team objectives with more than five KRs, as on the last date of selected time range. 
 
-- **Average OKRs per OKR owner:** Calculated as total OKRs divided by total OKR owners, as on the last date of selected time range (individual OKRs are not considered). 
+- **Average OKRs per OKR owner:** Calculated as total OKRs divided by total OKR owners, as on the last date of selected time range (individual OKRs aren't considered). 
 
 **Average of peer teams and outliers**
 :::image type="content" source="../media/goals/analytics-images/6-vivagoals-analytics-outliers.png" alt-text="View of average of peer teams and outliers in the analytics view of Viva Goals.":::
