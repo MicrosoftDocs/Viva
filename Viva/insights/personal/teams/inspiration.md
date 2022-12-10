@@ -18,9 +18,6 @@ You can use the Inspiration library in Microsoft Viva Insights to learn more abo
 
 You can use the library to help transform your personal, manager, and leader insights into actions. The articles are shown on the page within specific themes, such as wellbeing, culture, impact, and resilience. The article sources include Microsoft, Harvard Business Review, and Thrive.
 
->[!Note]
->This new preview feature is available in a rolling release starting now through April 2022.
-
 ![Inspiration library page.](Images/inspire.png)
 
 ## View an article
