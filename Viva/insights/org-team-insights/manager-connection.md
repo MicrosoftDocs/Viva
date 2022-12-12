@@ -126,7 +126,7 @@ The [Measuring your employees’ invisible forms of influence](https://insights.
 
 Here are a couple of ways to leverage influencers:
 
-* Use [Insights](../personal/use/use-insights.md) and the [Network](../personal/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
+* Use [Insights](../personal/use/use-insights.md) and the [Stay connected](../personal/teams/viva-insights-stay-connected.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
 * Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
 <!--Best practices-->
@@ -160,7 +160,7 @@ In the [Empowering your employees to empower themselves](https://insights.office
 Here are some ways to foster connectivity:
 
 * Create cross-team communities for people with similar interests to share ideas, knowledge, and resources. This can also be done using [Teams channels](/microsoftteams/teams-channels-overview).
-* Enable and use the [Viva Insights Outlook add-in](../personal/use/use-insights.md) and [personal network insights](../personal/use/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.
+* Enable and use the [Viva Insights Outlook add-in](../personal/use/use-insights.md) and [Stay connected](../personal/teams/viva-insights-stay-connected.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.
 * Create a shared [Teams channel](/microsoftteams/teams-channels-overview) to strengthen connectivity through channel interactions about projects, strategic topics, and goals to enable information sharing, brainstorming, and team building.
 
 <!--Best practices-->

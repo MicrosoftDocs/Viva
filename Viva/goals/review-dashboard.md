@@ -1,9 +1,9 @@
 ---
 title: "Review Dashboard"
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: <TBD>
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,9 +20,6 @@ description: "Learn about review dashboard and how you can customize it to strea
 ---
 
 # Review dashboards
-
-> [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. Viva Goals is only being released to WW tenants. It isn't being released to GCC, GCC High, or DoD environments. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## Review dashboards for every business review rhythm
 

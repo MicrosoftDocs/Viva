@@ -20,9 +20,6 @@ audience: Admin
 
 # Admin guide for personal insights
 
->[!IMPORTANT]
-> This article mentions the dashboard, which will be retired soon. Users will still find personal insights content and settings in their Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
-
 As an administrator, you benefit from knowing what Microsoft Viva Insights provides to its participants and what you can do to enable and enhance their experience.
 
 ## Benefits of use
@@ -31,11 +28,10 @@ Viva Insights can help participants strengthen their work relationships, have mo
 
 ## You and your users are in charge
 
-* As the admin, you control the configuration of how your users start using Viva Insights. See [Configure the dashboard](../setup/configure.md) for details.
+* As the admin, you control the configuration of how your users start using Viva Insights. See [Configure personal insights](../setup/configure.md) for details.
 * Users can opt in or out from the start. See [Opt out](../use/opt-out-of-mya.md) for details.
-* Users can opt out of the personal dashboard. See [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-dashboard) for details. 
 * Users can opt out of digest emails. See [Opt out of digests](../use/email-digests-3.md#opt-out-of-digests) for details.
-* Users can opt out of the Insights Outlook add-in. See [Opt out of the Insights Outlook add-in](../use/add-in.md#to-opt-out) for details.
+* Users can opt out of the Insights Outlook add-in. See [Opt out of the Insights Outlook add-in](../use/add-in.md#to-opt-in-and-opt-out) for details.
 * Users can opt out of inline suggestions. See [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) for details.
 
 ## Data privacy
@@ -44,7 +40,7 @@ None of a user's personal information is shared with their co-workers or manager
 
 ## Granting access
 
-Soon after you assign licenses with a Microsoft Viva Insights service plan to users, they'll get access to personal insights elements, such as [Viva Insights in Teams](../teams/viva-teams-app.md), [Viva Insights Home page](../use/home-web.md), the [Dashboard](../use/dashboard-2.md), [digest emails](../use/email-digests-3.md), [inline suggestions in Outlook](../use/mya-notifications.md), the [Viva Insights Outlook add-in](../use/add-in.md), and a [Viva Insights welcome message](../use/mya-welcome-email.md).
+Soon after you assign licenses with a Microsoft Viva Insights service plan to users, they'll get access to personal insights elements, such as [Viva Insights in Teams and on the web](../teams/viva-teams-app.md), [digest emails](../use/email-digests-3.md), [inline suggestions in Outlook](../use/mya-notifications.md), the [Viva Insights Outlook add-in](../use/add-in.md), and a [Viva Insights welcome message](../use/mya-welcome-email.md).
 
 Access to these elements depends on the plan in place at your organization. For details, see [Access to Viva Insights elements](plans-environments.md#access-to-viva-insights-elements).
 
