@@ -58,4 +58,3 @@ When replying to email, reduce the use of reply all and remove participants who 
 ## Related topics
 
 * [Viva Insights best practices](best-practices.md)
-* [Collaboration](../personal/use/collaboration.md)

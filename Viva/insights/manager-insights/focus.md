@@ -62,4 +62,3 @@ Encourage employees to use a [Focus plan](../personal/use/focus-plan.md) to auto
 ## Related topics
 
 * [Viva Insights best practices](best-practices.md)
-* [Focus](../personal/use/focus.md)
