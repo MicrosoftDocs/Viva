@@ -340,6 +340,7 @@
         "redirect_url": "/viva/insights/personal/teams/effective-meetings",
         "redirect_document_id": false
       },
+
       {  
         "source_path": "viva/insights/advanced/setup-maint/new-admin-experience.md",
       "redirect_url": "/viva/insights/advanced/setup-maint/assign-user-roles",
@@ -352,6 +353,7 @@
 
       },
       {"source_path": "viva/insights/tutorials/power-bi-myorg.md",
+
       "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
       "redirect_document_id": false
     }
