@@ -80,18 +80,15 @@ The following graphic shows a scheduled message in Outlook for Windows.
 
 You can opt in or opt out of schedule send suggestions as many times as you want. When you turn *on* schedule send suggestions, Viva Insights aligns email delivery with your coworker's working hours.
 
-To make changes, use either your Viva Insights dashboard, your Viva Insights app in Teams or on the web, or your Viva Insights Outlook add-in.
+To make changes, use your Viva Insights app in Teams or on the web or your Viva Insights Outlook add-in.
 
-### With the Viva Insights dashboard
+### With the Viva Insights app in Teams or on the web
 
->[!IMPORTANT]
->The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
->![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
-> [Read more about this change](../reference/mya-retirement.md).
+1. In the upper-right of any page, select the ellipses (**...**), then select **Settings**.
+1. Select **Protect time** on the left pane.
+1. Under **Schedule send suggestions**, toggle the switch to turn the feature on or off.
 
-In **Settings > Protect time**, switch the toggle for **Schedule send suggestions** to **On** or **Off**.
-
-![Screenshot that shows the On/Off toggle in the Viva Insights dashboard settings.](../../Images/MyA/Use/schedule-send-dashboard.png)
+Read more about settings in the app in [Configure Viva Insights](../teams/viva-teams-app-settings.md).
 
 ### With the Viva Insights Outlook add-in
 
@@ -102,10 +99,5 @@ In **Settings > Protect time**, switch the toggle for **Schedule send su
 
 ## Admin controls
 
-To configure schedule send suggestions for your organization at the tenant level, refer to [Admin setup](../Setup/configure.md#to-enable-access-to-viva-digest-emails-the-dashboard-viva-insights-outlook-add-in-and-schedule-send-suggestions).
+To configure schedule send suggestions for your organization at the tenant level, refer to [Admin setup](../Setup/configure.md#to-enable-access-to-viva-digest-emails-meeting-effectiveness-surveys-viva-insights-outlook-add-in-and-schedule-send-suggestions).
 
-<!--## Video walk-through
-
-Watch this video to take a closer look at schedule send experiences in Outlook.
-
-<br><iframe src="https://player.vimeo.com/video/725822960?h=59923f2d8d" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> -->
