@@ -94,6 +94,8 @@ items:
                 href: personal/Briefing/be-languages.md
               - name: FAQ
                 href: personal/Briefing/be-faqs.yml
+          - name: Focus plan
+            href: /use/focus-plan.md
           - name: Outlook add-in
             items:
               - name: Introduction
@@ -122,38 +124,6 @@ items:
                 href: personal/overview/privacy-guide-admins.md
               - name: Activity report
                 href: personal/overview/activity-report.md
-          - name: Adoption
-            items:
-              - name: Introduction 
-                href: personal/Use/mya-adoption/Adopt-myanalytics.md
-              - name: Individual adoption
-                items: 
-                  - name: Get started
-                    href: personal/Use/mya-adoption/Indiv-adopt-get-started.md
-                  - name: Diagnose your issue
-                    href: personal/Use/mya-adoption/Indiv-adopt-diagnose.md
-                  - name: Set your goal
-                    href: personal/Use/mya-adoption/Indiv-adopt-set-goals.md
-                  - name: Develop new habits
-                    href: personal/Use/mya-adoption/Indiv-adopt-develop-habits.md
-                  - name: Sustain change
-                    href: personal/Use/mya-adoption/Indiv-adopt-sustain-change.md
-                  - name: Resources
-                    href: personal/Use/mya-adoption/Indiv-adopt-resources.md
-              - name: Team adoption
-                items: 
-                  - name: Get started
-                    href: personal/Use/mya-adoption/Team-adopt-intro.md
-                  - name: Plan
-                    href: personal/Use/mya-adoption/Team-adopt-plan.md
-                  - name: Implement
-                    href: personal/Use/mya-adoption/Team-adopt-implement.md
-                  - name: Measure
-                    href: personal/Use/mya-adoption/Team-adopt-measure.md
-                  - name: Reinforce
-                    href: personal/Use/mya-adoption/Team-adopt-reinforce.md
-                  - name: Resources
-                    href: personal/Use/mya-adoption/Indiv-adopt-resources.md
       - name: Team and organization insights
         items:
         - name: Setup
