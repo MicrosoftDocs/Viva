@@ -43,7 +43,7 @@ Use the **Wellbeing** tab in Microsoft Viva Insights to understand your work hab
 
     ![inspiration library](images/wellbeing-il.png)
 
-If you're a leader, you'll find wellbeing organizational insights for your teams, recommended actions to boost productivity and wellbeing, and impact insights that show you how actions you've taken are helping your organization.
+If you're a leader, you'll find wellbeing organizational insights for your teams, recommended actions to boost productivity and wellbeing, and impact insights that show you how actions you've taken are helping your organization. [Read more about organizational insights for leaders](../../org-team-insights/teams-and-web/org-insights-in-teams.md).
 
 
 ![org insights](images/wellbeing-org-insights.png)
