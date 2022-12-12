@@ -19,7 +19,7 @@ Review tomorrow's upcoming meetings, tasks, and commitments, and end today mindf
 
 When a card at the top of your **Wellbeing** tab prompts you to "wrap up," select **Let's go** to start your virtual commute right away.
 
-![Screenshot that shows the Home page with virtual commute card.](images/wellbeing-start-vc.png)
+![Screenshot that shows the Home page with virtual commute card.](images/wellbeing-vc.png)
 
 <!--Anji to verify-->
 
