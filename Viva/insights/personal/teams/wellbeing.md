@@ -31,11 +31,11 @@ Use the **Wellbeing** tab in Microsoft Viva Insights to understand your work hab
 
     ![reflect](images/wellbeing-reflect.png)
 
-* Set up after-hours quiet time and keep track of how well you're keeping that time work-free.
+* Set up after-hours [quiet time](quiet-time.md) and keep track of how well you're keeping that time work-free.
 
     ![quiet time](images/wellbeing-qt.png)
 
-* Start a guided meditation.
+* Start a [guided meditation with Headspace](headspace.md).
 
     ![guided meditation](images/wellbeing-gm.png)
 
@@ -46,7 +46,7 @@ Use the **Wellbeing** tab in Microsoft Viva Insights to understand your work hab
 If you're a leader, you'll find wellbeing organizational insights for your teams, recommended actions to boost productivity and wellbeing, and impact insights that show you how actions you've taken are helping your organization.
 
 
-![inspiration library](images/wellbeing-org-insights.png)
+![org insights](images/wellbeing-org-insights.png)
 
 ## Related topics
 
