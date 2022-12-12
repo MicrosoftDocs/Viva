@@ -100,7 +100,7 @@ Learn more: [Delegate Managers in Microsoft Viva Engage](https://support.microso
 
 **Announcements**
 
-Learn more about announcements, which enable leaders to reach their audience with need-to-know information across Outlook, Teams and Microsoft Viva. 
+Learn more about announcements, which enable leaders to reach their audience with need-to-know information across Outlook, Teams, and Microsoft Viva. 
 
 **Analytics**
 
@@ -114,7 +114,7 @@ After a leader has been identified, the leader’s most recent activity on their
 
 ## Frequently asked questions
 
-**Why is leader identification and audience management important?** Leader identification and audience management is required for other premium features to work successfully. Leader identification and audience management enables storyline announcements, leadership corner, campaigns, AMAs and analytics. 
+**Why is leader identification and audience management important?** Leader identification and audience management is required for other premium features to work successfully. Leader identification and audience management enables storyline announcements, leadership corner, campaigns, and analytics. 
 
 **Who can identify and set leaders?** Only Verified Admins, Network Admins, Yammer Admins, and corporate communications managers can identify and set leaders. 
 
