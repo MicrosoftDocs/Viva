@@ -28,7 +28,7 @@ You can choose your own frequency for self-reflection. Once daily might work wel
 
    ![Screenshot that shows Reflect icons.](images/reflect-card.png)
 
-2. Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice. <!--determine whether this is the final look of the feedback card-->
+2. Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice. 
 
    ![Screenshot that shows the Feedback page.](images/reflect-nice.png)
 
