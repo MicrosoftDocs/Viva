@@ -72,4 +72,4 @@ When introducing a new tool, help team members get comfortable and adopt quickly
 ## Related topics
 
 * [Viva Insights best practices](best-practices.md)
-* [Collaboration](../personal/use/collaboration.md)
+
