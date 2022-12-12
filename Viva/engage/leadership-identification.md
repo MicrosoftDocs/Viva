@@ -60,7 +60,7 @@ From the **Manage leaders** list, find the leader’s row and then select **Edit
 
 On the **Manage audiences** page, configure the leader’s audiences. A leader can have up to two audiences:  
 
-- **Entire organization**. The leader’s posts and announcements reach all users in the Viva Engage/Yammer network, excluding guests. To enable a leader to share and reach the entire organization, enable Entire organization toggle.  
+- **Entire organization**. The leader’s posts and announcements reach all users in the Viva Engage/Yammer network, excluding guests. To enable a leader to share and reach the entire organization, enable **Entire organization** toggle.  
 
 > [!NOTE]
 > Only Engage admins, Yammer verified admins, Yammer network admins and corporate communicators can allow leaders to reach the entire organization. Leaders and delegate managers cannot enable this toggle.  
@@ -75,7 +75,7 @@ Many customers have existing distribution lists used to communicate with an audi
 
 A leader’s communications (posts, stories and announcements) in Viva Engage can be created and managed by delegates. A *delegate* has permission to create posts and replies on behalf of another user. A *delegate manager* has the same ability to create content, and has additional capabilities—a delegate manager can configure the audience for a leader, and can assign additional delegates. 
 
-A leader can configure delegates with the following steps: 
+A leader can configure delegates through the following steps: 
 
 1. In Yammer, open the **Settings** menu (gear icon) in the top-right corner. 
 2. Select **Manage delegate settings**. 
