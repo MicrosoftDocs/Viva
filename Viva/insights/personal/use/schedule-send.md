@@ -99,7 +99,7 @@ Read more about settings in the app in [Configure Viva Insights](../teams/viva-t
 
 ## Admin controls
 
-To configure schedule send suggestions for your organization at the tenant level, refer to [Admin setup](../Setup/configure.md#to-enable-access-to-viva-digest-emails- meeting-effectiveness-surveys-viva-insights-outlook-add-in-and-schedule-send-suggestions).
+To configure schedule send suggestions for your organization at the tenant level, refer to [Admin setup](../Setup/configure.md).
 
 <!--## Video walk-through
 
