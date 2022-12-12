@@ -23,7 +23,7 @@ Meetings, emails, and chats are necessary to get work done, but they often leave
 
 The focus plan in Microsoft Viva Insights helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. 
 
-When you enroll in a focus plan, Viva Insights books time on your calendar every day to focus. The first time you use a focus plan, we prompt you to set up your preferences, which we talk about later.
+When you enroll in a focus plan, Viva Insights books time on your calendar every day to focus. The first time you use a focus plan, we prompt you to set up your preferences, which we talk about later.  
 
 >[!Note]
 >If you leave your focus plan and enroll in one later, we'll use your preferences from last time. You can edit or leave your focus plan whenever you want.
