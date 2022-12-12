@@ -164,14 +164,6 @@ items:
                     href: personal/Use/mya-adoption/Team-adopt-reinforce.md
                   - name: Resources
                     href: personal/Use/mya-adoption/Indiv-adopt-resources.md
-              - name: Habit resources
-                items: 
-                  - name: Learning modules
-                    href: personal/Use/mya-adoption/adopt-learning-modules.md
-                  - name: Habit-building method
-                    href: personal/Use/mya-adoption/adopt-habit-building.md
-                  - name: Habit playbooks
-                    href: personal/Use/mya-adoption/adopt-habit-playbooks.md
       - name: Team and organization insights
         items:
         - name: Setup

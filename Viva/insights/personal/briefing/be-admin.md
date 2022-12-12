@@ -2,8 +2,8 @@
 
 title: Configure Briefing email
 description: Steps for admins to configure Briefing email for their organization
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
@@ -13,7 +13,7 @@ ms.subservice: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights-personal
-manager: helayne
+manager: anirudhbajaj
 audience: Admin
 ---
 
@@ -51,10 +51,10 @@ Set-UserBriefingConfig -Identity joe@contoso.com [-Enabled [<$true | $false>]
 ```
 
 * If you set the **Enabled** parameter to **$false**, the Briefing email will be **Off** for that user. The user will not be able to override this setting or opt-in to the Briefing email.
-* If you set the **Enabled** parameter to **$true**, the Briefing email will be **On** for that user. Users can then opt-out from [cortana.office.com](https://cortana.office.com). If no action occurs, this setting applies by default.
+* If you set the **Enabled** parameter to **$true**, the Briefing email will be **On** for that user. Users can then opt-out from their Viva Insights app in Teams or on the web. If no action occurs, this setting applies by default.
 
 >[!Note]
->When **Enabled** is set as **$true**, people who had previously unsubscribed will continue to be opted out and will not receive any Briefings until they opt back in at [cortana.office.com](https://cortana.office.com).
+>When **Enabled** is set as **$true**, people who had previously unsubscribed will continue to be opted out and will not receive any Briefings until they opt back in from their Viva Insights app in Teams or on the web.
 
 For example, to get the current state of the Briefing email flag for "joe@contoso.com," you'd use:
 
@@ -101,7 +101,7 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
 ## Tenant-level configuration
 
 >[!Note]
->Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com). After you change the Briefing setting in the admin center, it will take 24 hours for the new setting change to take effect.
+>Users can choose to opt out or back in at any time through their Viva Insights app in Teams or on the web. After you change the Briefing setting in the admin center, it will take 24 hours for the new setting change to take effect.
 
 As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Microsoft 365 is set to a [supported language](be-languages.md) will receive the Briefing email.
 
@@ -109,8 +109,8 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 
 ### To configure access for a tenant
 
->[!Note] 
-> If you're a targeted release customer, you might see a new admin experience. To learn how to configure access for a tenant through this new experience, refer to [Using the new admin experience](../../advanced/setup-maint/new-admin-experience.md#manage-the-briefing-email).
+>[!Note]
+>If you're a targeted release customer, you might see a new admin experience. To learn how to configure access for a tenant through this new experience, refer to [Using the new admin experience](../../advanced/setup-maint/new-admin-experience.md).
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
@@ -119,7 +119,7 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 
 3. In the left pane, expand **Settings**, and then select **Org Settings**.
 4. Under **Org Settings**, select **Briefing email (Preview)**.
-5. Select or deselect the checkbox for **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive Briefing email, including all those who were receiving Briefing email. However, individuals can explicitly subscribe again at [cortana.office.com](https://cortana.office.com).
+5. Select or deselect the checkbox for **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive Briefing email, including all those who were receiving Briefing email. However, individuals can explicitly subscribe again from their Viva Insights app in Teams or on the web.
 
    ![Briefing email access.](./images/be-admin.png)
 
