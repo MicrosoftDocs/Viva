@@ -81,8 +81,6 @@ After your plan has started, you can check your progress in the Viva Insights ap
 
 The **Focus plan** card in **Protect your time** shows how many hours of focus time you've kept over the last couple of months, the total hours you have booked for next week, and which days those hours fall on next week.
 
-   ![Screenshot that shows the Focus plan card in the Protect your time section in the Viva Insights app.](../../Images/mya/use/focus-plan-time-booked.png)
-
 ## To change or leave your focus plan
 
 
