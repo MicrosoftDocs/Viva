@@ -88,9 +88,7 @@ In the app, go to your **Wellbeing** tab's **Track your progress** section. The 
 
 ![Screenshot that shows the Focus plan card in the Track your progress section. It displays total hours of kept focus time over November - December and total hours of focus time reserved for the following week, on Friday, Monday, Tuesday, and Wednesday.](../teams/Images/wellbeing-focus-track-progress.png)
   
-
 ## To change or leave your focus plan
-
 
 You can change or opt in and opt out of the focus plan as many times as you want.
 
