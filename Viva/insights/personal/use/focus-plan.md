@@ -2,7 +2,7 @@
 
 title: Focus plan for Viva Insights
 description: Viva Insights focus plan
-author: madehmer
+author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium
@@ -13,7 +13,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
@@ -22,7 +22,6 @@ audience: user
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the workday for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
 The focus plan in Microsoft Viva Insights helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. 
-
 
 When you enroll in a focus plan, Viva Insights books time on your calendar every day to focus. The first time you use a focus plan, we prompt you to set up your preferences, which we talk about later.
 
@@ -60,7 +59,6 @@ After your plan is set up, a confirmation card appears in your **Take action to 
 
 If you want to change your settings right away, select **Change settings**. Otherwise, you can make edits as we describe in [To make changes](#to-make-changes).
 
-
 ### In the Insights Outlook add-in
 
 1. Select the **Want focus time every day?** insight.
@@ -74,6 +72,7 @@ If you want to change your settings right away, select **Change settings**. Othe
    The Insights pane now notifies you that your focus plan has begun, and your calendar now contains focus-time blocks:
 
    ![Screenshot that shows the Outlook add-in's focus plan confirmation window and a Got it button.](../../Images/mya/use/outlook-insight-all-set.png)
+
 
 Now that your focus plan is underway, you can do the following: 
 
@@ -91,6 +90,7 @@ In the app, go to your **Wellbeing** tab's **Track your progress** section. The 
   
 
 ## To change or leave your focus plan
+
 
 You can change or opt in and opt out of the focus plan as many times as you want.
 
@@ -114,7 +114,6 @@ Select the **Leave plan** button at top right.
    ![Screenshot that shows the Leave plan button.](../../Images/mya/use/focus-plan-app-leave-plan.png)
 
 Answer the survey question, then select **Leave plan** again.
-
 
 ## Concepts
 
@@ -152,7 +151,9 @@ During focus time, your status in Teams and Skype for Business will automaticall
 
 For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d).
 
-### Digest emails and Viva Insights Outlook add-in
+<!--### Digest emails and Viva Insights Outlook add-in
+
+Confirm with Yvonne whether this still exists in the add-in)
 
 <!--Anji to confirm whether this functionality still exists-->
 
@@ -161,6 +162,7 @@ For more information, see [Manage notifications in Teams](https://support.office
 After you enroll in a focus plan, the content in your digest email will be tailored based on your participation in the plan. It might, for example, remind you to schedule focus time for days on which none is set aside.
 
 #### Viva Insights add-in
+
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
