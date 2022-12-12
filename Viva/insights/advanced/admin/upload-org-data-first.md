@@ -70,7 +70,7 @@ Optional fields are commonly encountered system fields that the app suggests for
 
 To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Optional” label.
 
-![Viva attributes](../images/admin-vi-attributes.png)
+![Screenshot that shows Viva attributes and the mapped and unmapped fields.](../images/admin-attributes1.png)
 
 ### Custom
 
@@ -84,10 +84,7 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
 >All .csv header fields, which appear under **Source column name**, need to be mapped before you can move on to the next part of the upload process.
 
 1. For each required Viva Insights field:
-    1. Find the corresponding column header under **Source column name**.
-    >[!Important]
-    >To prevent a validation error later, make sure this column is the right data type.
-
+    1. Find the corresponding column header under **Source column name**. To prevent a validation error later, make sure this column is the right data type.
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a. 
      ![Screenshot that shows mapping Viva attributes.](../images/admin-map.png)
 
@@ -96,10 +93,9 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     > ![Screenshot that shows hovering over an attribute.](../images/admin-hover-attribute.png)
 
 2. Repeat steps 1a and 1b for custom and optional fields.
-    * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it.
-
-    >[!Note]
-    >For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
+    * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it. For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
+        >[!Important]
+        >Don't upload **TimeZone** as a column. You'll get an error.
 
 1. After you’ve completed mapping your attributes, select the **Next** button in the bottom left of the screen.
 

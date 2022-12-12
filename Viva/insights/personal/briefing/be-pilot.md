@@ -41,7 +41,7 @@ A great place to start is to ask your stakeholders and department managers which
 
 You can control who receives the Briefing email in your pilot in one of the following ways:
 
-* Use the admin center to set the default state for all people in your organization as opted out. Then advise your pilot participants to opt in to receive the Briefing email at [cortana.office.com](https://cortana.office.com).
+* Use the admin center to set the default state for all people in your organization as opted out. Then advise your pilot participants to [opt in](be-settings.md#change-your-settings) to receive the Briefing email in their Viva Insights app in Teams or on the web.
 * Use PowerShell to disable Briefing for non-pilot users and leave pilot users enabled. In the admin center, have all users opted-in by default.
 
   * Users who are enabled and opted-in will receive the Briefing email.

@@ -61,7 +61,23 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
     ![Screenshot showing the Description section.](../media/knowledge-management/description.png)</br>
 
-4. In the **Pinned people** section, you can "pin" a person to show them as having a connection the topic (for example, an owner of a connected resource). Begin by typing their name or email address in the **Add a new user** box, and then selecting the user you want to add from the search results. You can also "unpin" them by selecting the **Remove from list** icon on the user card.
+4. In the **Types** section, select a type that best describes the topic being edited by using the types search bar.
+
+    ![Screenshot showing the topic types search bar.](../media/knowledge-management/types-search-bar.png)
+
+    You can confirm a suggested type by selecting the chekc mark next to th type listed in the **suggested** row. To remove a confirmed type, select the X mark on the type to be removed.
+
+    ![Screenshot showing how topic types you can confirm or remove.](../media/knowledge-management/types-confirm.png)
+
+    You can also choose to display a type badge on the topic's page and card based on the type first listed in the **confirmed**.
+
+    ![Screenshot showing the topic type badge.](../media/knowledge-management/types-display-badge.png)
+
+    To change the type badge , drag and drop the type you'd like to see displayed to the first position in the section. Only one topic type badge is available per topic.
+
+    ![Screenshot showing the topic type with drag tooltip.](../media/knowledge-management/types-drag-badge.png)
+
+5. In the **Pinned people** section, you can "pin" a person to show them as having a connection the topic (for example, an owner of a connected resource). Begin by typing their name or email address in the **Add a new user** box, and then selecting the user you want to add from the search results. You can also "unpin" them by selecting the **Remove from list** icon on the user card.
  
     ![Screenshot showing the Add pinned people section.](../media/knowledge-management/pinned-people.png)</br>
 
@@ -69,7 +85,7 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
    ![Screenshot showing pinning suggested people.](../media/knowledge-management/suggested-people.png)
 
-5. In the **Pinned files and pages** section, you can add or "pin" a file, SharePoint site page, or external resource associated to the topic.
+6. In the **Pinned files and pages** section, you can add or "pin" a file, SharePoint site page, or external resource associated to the topic.
 
    ![Screenshot showing the Pinned files and pages section.](../media/knowledge-management/pinned-files-and-pages.png)
  
@@ -81,13 +97,13 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
     You can also use the **From a link** option to add a file, page, or external resource by providing the URL. 
 
-6. The **Suggested files and pages** section shows files and pages that AI suggests to be associated to the topic.
+7. The **Suggested files and pages** section shows files and pages that AI suggests to be associated to the topic.
 
    ![Screenshot showing the Suggested files and pages section.](../media/knowledge-management/suggested-files-and-pages.png)
 
     You can change a suggested file or page to a pinned file or page by selecting the pinned icon.
 
-7.  In the **Pinned sites** section, you can add or “pin” a site that is associated to the topic. 
+8.  In the **Pinned sites** section, you can add or “pin” a site that is associated to the topic. 
 
     ![Screenshot showing the Pinned sites section.](../media/knowledge-management/pinned-sites-section.png)
 
@@ -95,17 +111,17 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
     
     ![Screenshot showing Add or remove a pinned site section.](../media/knowledge-management/add-or-remove-pinned-sites.png)
 
-8. The **Suggested sites** section shows the sites that AI suggests to be associated to the topic. 
+9. The **Suggested sites** section shows the sites that AI suggests to be associated to the topic. 
 
    ![Screenshot of Suggested sites section.](../media/knowledge-management/suggested-sites-section.png)  
 
     You can change a suggested site to a pinned site by selecting the pinned icon.
 
-9. You can also add static items to the page — such as text, images, or links — by selecting the canvas icon, which you can find below the short description. Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.
+10. You can also add static items to the page — such as text, images, or links — by selecting the canvas icon, which you can find below the short description. Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.
 
    ![Screenshot showing the Canvas icon.](../media/knowledge-management/webpart-library.png)
 
-10. Select **Publish** or **Republish** to save your changes. **Republish** will be your available option if the topic has been published previously.
+11. Select **Publish** or **Republish** to save your changes. **Republish** will be your available option if the topic has been published previously.
 
 
 
