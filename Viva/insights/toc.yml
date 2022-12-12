@@ -95,7 +95,7 @@ items:
               - name: FAQ
                 href: personal/Briefing/be-faqs.yml
           - name: Focus plan
-            href: /use/focus-plan.md
+            href: personal/use/focus-plan.md
           - name: Outlook add-in
             items:
               - name: Introduction
