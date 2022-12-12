@@ -267,11 +267,11 @@ To programmatically generate RSA Keys, refer to the [Create Key REST API](/rest/
 
 ##### Deploy
 
-To programmatically deploy the pipeline, here’s what you need to do. For more information, refer to [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).
+To programmatically deploy the pipeline, here’s what you need to do. For more detailed steps, refer to the [deployment API documentation](/rest/api/resources/deployments/create-or-update).
 
 1.	Make sure you have a resource group to be used for the deployment. This group can be the same resource group you created in [Prerequisites](#prerequisites), step 2a.
 
-2.	Create a **PUT** request to this endpoint:  `https://management.azure.com/subscriptions/<YourSubscriptionId>/resourcegroups/<YourResourceGroupName>?api-version=2020-06-01`
+2.	Create a **PUT** request to this endpoint:  `https://management.azure.com/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}?api-version=2021-04-01`
 
 3.	Include the pipeline in the Request Body as shown in [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).  
 

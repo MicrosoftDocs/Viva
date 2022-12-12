@@ -94,24 +94,10 @@ items:
               href: Use/mya-notifications.md
             - name: Schedule send suggestions
               href: use/delay-delivery.md
-        - name: Home
-          href: Use/home-web.md
-        - name: Dashboard
-          href: Use/dashboard-2.md
         - name: Digest emails
           href: use/email-digests-3.md
         - name: Focus plan
           href: use/focus-plan.md
-        - name: Work patterns
-          items:
-            - name: Focus
-              href: use/focus.md
-            - name: Wellbeing
-              href: use/wellbeing.md
-            - name: Network
-              href: use/network.md
-            - name: Collaboration
-              href: use/collaboration.md
         - name: Personal insights FAQ
           href: overview/mya-faq.md
         - name: Admin guide
@@ -160,12 +146,4 @@ items:
                   href: Use/mya-adoption/Team-adopt-reinforce.md
                 - name: Resources
                   href: Use/mya-adoption/Indiv-adopt-resources.md
-            - name: Habit resources
-              items: 
-                - name: Learning modules
-                  href: Use/mya-adoption/adopt-learning-modules.md
-                - name: Habit-building method
-                  href: Use/mya-adoption/adopt-habit-building.md
-                - name: Habit playbooks
-                  href: Use/mya-adoption/adopt-habit-playbooks.md
                   
