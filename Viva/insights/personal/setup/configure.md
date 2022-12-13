@@ -55,6 +55,7 @@ You can configure access to Viva Insights elements for all users in your organiz
 
 1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage availability in the Teams admin center**. This option takes you directly to the Teams admin center, where you can configure the appropriate settings.
+
     ![Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.](../../images/mya/setup/mac-teams-admin1.png)
     
 Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for more information about setting up the Viva Insights app in Teams.    
@@ -74,8 +75,8 @@ Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for mo
     >[!Note]
     >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
 
+    :::image type="content" source="../../Images/MyA/setup/insights-settings-pane.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled." lightbox="../../Images/MyA/setup/insights-settings-pane.png":::
 
-    ![Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled.](../../Images/MyA/setup/insights-settings-pane.png)
 1. Select **Save**.
 
 

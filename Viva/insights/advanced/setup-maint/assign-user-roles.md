@@ -33,12 +33,12 @@ To assign users to a Viva Insights role, including **Insights administrator**, *
 
 1. Go to the Viva [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva) and select **Viva Insights**. You'll need to enter your credentials if you're not already signed in.
 1. Under **Add-on Plan**, select the role you want to assign: **Insights admin, Insights business leader, or Insights analyst**.
-![Screenshot that shows the Viva Insights admin page with options in the Add-on Plan section highlighted.](../images/assign-admin-leader-analyst.png)
+:::image type="content" source="../images/assign-admin-leader-analyst.png" alt-text="Screenshot that shows the Viva Insights admin page with options in the Add-on Plan section highlighted." lightbox="../images/assign-admin-leader-analyst.png":::
 1. Select **Add users** or **Add groups**. We discuss group role assignment in [Assign roles to groups](#assign-roles-to-groups).
 1. Select users(s) or groups(s), then select **Add**.
-![Screenshot that shows the Add users option with three names.](../images/assign-users1.png)
+:::image type="content" source="../images/assign-users1.png" alt-text="Screenshot that shows the Add users option with three names.":::
 
-You can also add users from the **Role assignments** page:
+Alternatively, instead of following steps 1-4 above, you can add users from the **Role assignments** page:
 
 1. Go to the [Role assignments page](https://go.microsoft.com/fwlink/p/?linkid=2097861) in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home). You'll need to enter your credentials if you're not already signed in.
 1. Search for **Insights**, and then select the applicable Insights role to assign a user.
@@ -51,8 +51,6 @@ Within a few days of being assigned a Viva Insights role, the **Insights adminis
 ## Assign roles to groups
 
 You can also assign roles to groups, which means you're assigning access permissions associated with that role to the group. Any people assigned to that group automatically receive the same permissions.
-
-### Viva Insights groups
 
 To assign Viva Insights roles to a group, the steps are similar to those for assigning roles to individuals, as described in [Assign Viva Insights roles](#assign-viva-insights-roles). In that process, when prompted to select a name, select a group name instead. Then, assign a role to the selected group. For more details, refer to [Manage a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/manage-groups).
 
