@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Viva Insights Individual Adoption - Sustain change
 description: How to sustain change after collaboration goals are met by using Viva Insights
 author: madehmer
