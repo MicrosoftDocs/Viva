@@ -37,7 +37,7 @@ The following matrix shows which roles can access which features.
 |---|-----|---|---|---|---|---|
 | Viva Insights app |  |   |   |   |   |   | 
 |   |  **Organization trends** | Depending on your role<sup>2</sup>, view group insights about your team or highlights about your company in **Organization trends**.  |   |   |  X | X |
-| Viva Insights advanced insights app |  |   |   |   |   |     |   |
+| Viva Insights advanced insights app |  |   |   |   |   |     | 
 |   |  **Analysis** | Landing page for analysts. View recent queries, Power BI templates, and build custom queries.  |   | X |   |   |
 |   |  **Query results** | View query results |   | X |   |   |
 |   |  **Organizational data** | Verify whether organizational data quality is high enough for analysis and upload custom organizational data files | X | X<sup>3</sup>|   |   |
