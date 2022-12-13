@@ -20,7 +20,7 @@ description: "Learn how Microsoft Viva supports growth with knowledge and learni
 ---
 # Growth: Viva Learning and Viva Topics
 
-If you've ever been a new employee, or an employee changing roles, or even a long-time employee in a large organization, you know that learning is paramount to success. Viva Learning and Viva Topics can provide training and information needed to help employees grow skills and gain knowledge about your organization. Used together, employees won't have to disrupt their everyday flow of work to find the information they need.
+If you've ever been a new employee, or an employee changing roles, or even a long-time employee in a large organization, you know that learning is paramount to success. Viva Learning and Viva Topics can provide training and information needed to help employees grow skills and gain knowledge about the organization. Used together, employees won't have to disrupt their everyday flow of work to find the information they need.
 
 For example, a new employee might need to learn how to apply policies in your organization. Your customized training can be assigned to the employee who can complete the training right in Teams. The same employee may be reading a news post that includes organization acronyms they don't know the meaning of. With Viva Topics, all they have to do is select the highlighted acronym in the news post and see details like what the term means, who in the organization is a subject matter expert, and even sites and documents that are related to the term.
 
