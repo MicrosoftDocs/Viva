@@ -101,3 +101,6 @@ Read more about settings in the app in [Configure Viva Insights](../teams/viva-t
 
 To configure schedule send suggestions for your organization at the tenant level, refer to [Admin setup](../Setup/configure.md).
 
+<!--## Video walk-through
+
+Watch this video to take a closer look at schedule send experiences in Outlook.
