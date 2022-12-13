@@ -76,7 +76,7 @@ Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for mo
     >[!Note]
     >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
 
-    :::image type="content" source="../../Images/MyA/setup/insights-settings-pane.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled." lightbox="../../Images/MyA/setup/insights-settings-pane.png":::
+    :::image type="content" source="../../Images/MyA/setup/insights-settings-pane1.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled.":::
 
 1. Select **Save**.
 

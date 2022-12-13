@@ -100,7 +100,7 @@ In this scenario, all surfaces of Viva Insights are turned on by default for all
    :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
 1. In the resulting pane, select all elements to enable them.
 
-    :::image type="content" source="../../Images/MyA/setup/insights-settings-pane.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled." lightbox="../../Images/MyA/setup/insights-settings-pane.png":::
+    :::image type="content" source="../../Images/MyA/setup/insights-settings-pane1.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled." lightbox="../../Images/MyA/setup/insights-settings-pane.png":::
 1. Select **Save changes**.
 
 You can also get to these settings in from the main [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal):
