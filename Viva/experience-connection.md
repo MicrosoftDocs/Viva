@@ -41,7 +41,7 @@ Viva connections is:
 
 Viva Engage is integrated into Teams as an app and surfaces existing and new employee experiences powered by Yammer services. Viva Engage provides the right environment for community building, leadership engagement, knowledge sharing, and self-expression.
 
-It features experiences for discovery of conversations, questions, and knowledge sharing happening across the organization, all within Teams Viva Engage app. Additionally, these conversations can be surfaced in the Viva Connections Feed, as shown above.
+It features experiences for discovery of conversations, questions, and knowledge sharing happening across the organization, all within Teams Viva Engage app. Additionally, these conversations can be surfaced in the Viva Connections Feed.
 
 ![Viva Engage home)](./media/engage-home.png)
 
@@ -55,7 +55,7 @@ Viva Engage and Viva Connections can work together to surface relevant content a
 
 ![Viva connections feed)](./media/connections-feed.png)
 
-You can also add a card to your Viva Connections dashboard] which allows users to go directly to Viva Engage from their desktop or mobile device. To do this, you would add a Teams app card to your dashboard, and then find and add the Viva Engage app.
+You can also add a card to your Viva Connections dashboard which allows users to go directly to Viva Engage from their desktop or mobile device. To do this, you would add a Teams app card to your dashboard, and then find and add the Viva Engage app.
 
 ![Viva Connections dashboard](./media/engage-card-dashboard.png)
 
