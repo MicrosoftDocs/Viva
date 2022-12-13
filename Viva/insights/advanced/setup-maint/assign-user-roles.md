@@ -29,10 +29,10 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 
 *Applies to: [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles)*
 
-To assign users to a Viva Insights role, including **Insights administrator**, **Insights analyst**, and **Insights business leader**:
+To assign users to a Viva Insights role, including **Insights Administrator**, **Insights Analyst**, and **Insights Business Leader**:
 
 1. Go to the Viva [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva) and select **Viva Insights**. You'll need to enter your credentials if you're not already signed in.
-1. Under **Add-on Plan**, select the role you want to assign: **Insights admin, Insights business leader, or Insights analyst**.
+1. Under **Add-on Plan**, select the role you want to assign: **Insights Admin**, **Insights Business Leader**, or **Insights Analyst**.
 :::image type="content" source="../images/assign-admin-leader-analyst.png" alt-text="Screenshot that shows the Viva Insights admin page with options in the Add-on Plan section highlighted." lightbox="../images/assign-admin-leader-analyst.png":::
 1. Select **Add users** or **Add groups**. We discuss group role assignment in [Assign roles to groups](#assign-roles-to-groups).
 1. Select users(s) or groups(s), then select **Add**.
@@ -46,7 +46,7 @@ Alternatively, instead of following steps 1-4 above, you can add users from the 
 1. Enter the username, and then select the user from the list of suggestions. Optionally, add multiple users until you're done.
 1. Select **Save**.
 
-Within a few days of being assigned a Viva Insights role, the **Insights administrator** and **Insights business leader** users get an email about available product features based on their role and service plan.
+Within a few days of being assigned a Viva Insights role, the **Insights Administrator** and **Insights Business Leader** users get an email about available product features based on their role and service plan.
 
 ## Assign roles to groups
 
