@@ -390,7 +390,14 @@
 
       "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
       "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
+
+      "redirect_url": "/viva/insights/personal/setup/configure",
+      "redirect_document_id": false
       }
+
 
     ]
 }
