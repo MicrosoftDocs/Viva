@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Viva Insights Team Adoption --Measure
 description: Viva Insights Team Adoption by Kate Nowak --Measure section
 author: madehmer
