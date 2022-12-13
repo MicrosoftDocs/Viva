@@ -35,7 +35,7 @@ The following matrix shows which roles can access which features.
 
 | Feature |  Page  | Description | Insights Administrator | Insights Analyst | Insights Business Leader | People Manager<sup>1</sup>|
 |---|-----|---|---|---|---|---|
-| Viva Insights app |  |   |   |   |   |   |   |
+| Viva Insights app |  |   |   |   |   |   | 
 |   |  **Organization trends** | Depending on your role<sup>2</sup>, view group insights about your team or highlights about your company in **Organization trends**.  |   |   |  X | X |
 | Viva Insights advanced insights app |  |   |   |   |   |     |   |
 |   |  **Analysis** | Landing page for analysts. View recent queries, Power BI templates, and build custom queries.  |   | X |   |   |
