@@ -42,18 +42,6 @@ By using Viva Insights, you and your team can accomplish great things.
 * **Get more focus time** – Find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities.
 * **Improve your work-life balance** – Improve your work patterns and reduce the time you spend working for better work-life balance and overall wellbeing.
 
-<!--### Case studies
-
-* Discover how a large Fortune 500 customer used MyAnalytics to foster wellbeing and productivity: [How Fannie Mae uses MyAnalytics](https://customers.microsoft.com/story/809849-fannie-mae-case-study-banking-microsoft-365)
-   
-   For employees who are new to remote work during the COVID-19 pandemic, having access to colleagues and information through Microsoft 365 tools at any time of day has been critical to staying productive, while MyAnalytics helps them use work hours more effectively. "Using the Focus scheduling feature is helping people block off time on their calendars each day to knock out priority projects, which is especially helpful for our employees who are juggling family needs along with work." _- Dawn Damico: Vice President of Digital Workplace, Fannie Mae_
-
-* Hear how the world's largest brewer used MyAnalytics in conjunction with Workplace Analytics to change its workplace collaboration habits for the better: [ABInBev](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics) 
-   
-  [![ABInBev.](../../images/mya/setup/ab-in-bev-video.png)](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics)
-
-  _The use of MyAnalytics and Workplace Analytics at ABInBev_ 
--->
 ## Roll out Viva Insights 
 
 You can deploy Viva Insights in your organization all at once or in phases. In either case, before you roll out the product broadly, we recommend that you obtain additional buy-in, an optional step that is described in the following [preparatory steps](#preparatory-steps) section.
@@ -102,8 +90,7 @@ Select and complete one of the following scenarios:
 
 #### Default on
 
-In this scenario, all surfaces of Viva Insights are turned on by default for all users. They will receive the welcome email and subsequent Viva digest emails and have access to the Viva Insights in Teams app, the Dashboard, the Viva Insights Outlook add-in, and inline suggestions in Outlook.
-
+In this scenario, all surfaces of Viva Insights are turned on by default for all users. They will receive the welcome email and subsequent Viva digest emails and have access to the Viva Insights app on the web, the Viva Insights Outlook add-in, and inline suggestions in Outlook.
 
 ##### Confirm the configuration
 
@@ -126,7 +113,7 @@ You can also get to these settings in from the main [Microsoft 365 admin center]
  
 #### Default off
 
-In this scenario, Viva Insights is off by default but users can turn it on for themselves &mdash; either all features at once or individual features. Users do not receive Viva digest emails but they can [opt in to each surface individually](../use/opt-out-of-mya.md).
+In this scenario, Viva Insights is off by default but users can turn it on for themselves &mdash; either all features at once or individual features. Users do not receive Viva digest emails but they can opt in to each surface individually through their Viva Insights app in Teams or on the web.
 
 ##### Set Viva Insights off by default
 
@@ -144,12 +131,11 @@ You can also get to these settings in from the main [Microsoft 365 admin center]
 1. In the resulting pane, de-select all elements to disable them.
 1. Select **Save changes**.
 
-
-After these settings are complete, users can [turn on Viva Insights features by themselves](../use/opt-out-of-mya.md).
+After these settings are complete, users can open the Viva Insights app and [turn on Viva Insights features by themselves](../use/opt-out-of-mya.md).
 
 #### Mixed deployment
 
-In this scenario, some users are opted in and some users are opted out of all Viva Insights surfaces. Those who are opted-in receive the digest emails, can open Viva Insights in Teams and the dashboard, and see the Viva Insights add-in in Outlook. Those who start out as opted out see the default “off” page shown here, where they can use Settings to opt in to any of the Viva Insights surfaces.
+In this scenario, some users are opted in and some users are opted out of all Viva Insights surfaces. Those who are opted-in receive the digest emails, can open Viva Insights in Teams and the web, and see the Viva Insights add-in in Outlook. Those who start out as opted out see the default “off” page shown here, where they can use Settings to opt in to any of the Viva Insights surfaces.
 
 ##### Set up mixed deployment
 
@@ -197,7 +183,7 @@ This PowerShell script does the following:
 
 In this scenario, some users have Viva Insights off by default and can opt themselves in; for some others, the service plan has been removed so they cannot opt in.
 
-While Viva Insights is not available to these users, their data contributes to the email-read statistics for other users. For example, when they receive a qualifying email and read it, Viva Insights includes that statistic in the read percentage that's shown to the sender. A user can choose to not contribute data by turning the Viva Insights toggle off in the **Feature settings** pane of the Viva Insights dashboard.
+While Viva Insights is not available to these users, their data contributes to the email-read statistics for other users. For example, when they receive a qualifying email and read it, Viva Insights includes that statistic in the read percentage that's shown to the sender. A user can choose to not contribute data by turning the Viva Insights toggle off in **Settings > Privacy** in the Viva Insights app.
 
 ##### To set up optional opt-in
 
@@ -229,7 +215,7 @@ This procedure is identical to [Set up mixed deployment](#set-up-mixed-deploymen
    * Sets the specified privacy mode for each user.
    * Creates a .csv file with all the users that were processed and shows their status. 
 
-   After you complete these steps, users can later use the dashboard to [opt themselves in](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in) if they so choose.
+   After you complete these steps, users can later use their Viva Insights app to [opt themselves in](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in) if they so choose.
 
 2. To ensure that particular users are not able to opt themselves into Viva Insights, remove the Viva Insights service plan from those users.  
 
@@ -329,24 +315,9 @@ If users have questions about using Viva Insights, point them to the published [
 
   * [Viva Insights app in Teams](../teams/viva-insights-home.md)
   * [Viva Insights Home page](./../use/home-web.md)
-  * [Personal dashboard](./../use/dashboard-2.md)
   * [Viva Insights Outlook add-in](./../use/add-in.md)
   * [Briefing emails](../Briefing/be-overview.md)
   * [Digest emails](./../use/email-digests-3.md)
   * [Inline suggestions in Outlook](./../use/mya-notifications.md)
 
-<!--#### Training videos for Viva Insights
-These training Videos can be a great resource for people who will run a workshop to explain how to use Viva Insights.
 
-##### Video: Viva Insights overview
-
-<iframe width="580" height="512" src="https://player.vimeo.com/video/440502351" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
-##### Video: Viva Insights dashboard
-
-<iframe width="580" height="512" src="https://player.vimeo.com/video/440502493" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
-##### Video: Outlook insights and inline suggestions
-
-<iframe width="580" height="512" src="https://player.vimeo.com/video/440502800" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
--->

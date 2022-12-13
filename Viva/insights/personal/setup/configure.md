@@ -56,8 +56,8 @@ You can configure access to Viva Insights elements for all users in your organiz
 1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage availability in the Teams admin center**. This option takes you directly to the Teams admin center, where you can configure the appropriate settings.
     ![Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.](../../images/mya/setup/mac-teams-admin1.png)
-
-Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for more information about setting up the Viva Insights app in Teams.
+    
+Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for more information about setting up the Viva Insights app in Teams.    
 
 ### To enable access to Viva digest emails, meeting effectiveness surveys, Viva Insights Outlook add-in, and schedule send suggestions
 
@@ -101,6 +101,7 @@ PrivacyMode parameter  | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
 Opt-in (default setting)        | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Viva Insights app on the web is available</li><li>User can opt out</li></ul>  | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Admins can opt out unlicensed users through the admin PowerShell </li></ul>  
 Opt-out    | <ul><li>Microsoft 365 data is not used for aggregated information shown to licensed users</li><li> Viva Insights app on the web is not available</li><li>User can opt in through the settings menu in the Viva Insights app in Teams or on the web</li></ul>   |  <ul><li> Microsoft 365 data is not used for aggregated information shown to licensed users.</li></ul> |
+
 
 ### Command sequence
 
@@ -155,10 +156,6 @@ Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AD)   |   --
 PrivacyMode   |   Yes   | <ul><li>**Opt-out**: Viva Insights won't use the user's data to compute derived statistics for other users. The user won't see statistics in Viva Insights, but can choose to opt in from the Feature settings menu.</li><li>**Opt-in**: Viva Insights uses the user's data to compute derived statistics for other users. The user can see statistics in Viva Insights, but can choose to opt out from the Feature settings menu.</li></ul>|  Opt-in
-
-<!-- REMOVED MARCH 5 PER VIKRAM: 
-> [!Important]
-> The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out. -->
 
 Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's Viva Insights features were turned on except the digest email:
 
