@@ -59,10 +59,10 @@ You can also add a card to your Viva Connections dashboard which allows users to
 
 ![Viva Connections dashboard](./media/engage-card-dashboard.png)
 
-### Get started
+### Get started using Viva Engage and Viva Connections together
 To use this solution, start by [setting up Viva Connections](/viva/connections/viva-connections-setup-overview) if you haven't already.
 
 Content from Viva Engage will automatically show in the [Viva Connections Feed](/viva/connections/faqs-viva-connections-feed).
 
-To make Viva Engage quickly available to your employees on the go, add the [Teams app card with the Viva Engage app selected]((/viva/connections/create-dashboard#add-a-teams-app-card)) to your [Viva Connections dashboard](/viva/connections/create-dashboard).
+To make Viva Engage quickly available to your employees on the go, add the [Teams app card with the Viva Engage app selected](/viva/connections/create-dashboard#add-a-teams-app-card) to your [Viva Connections dashboard](/viva/connections/create-dashboard).
 
