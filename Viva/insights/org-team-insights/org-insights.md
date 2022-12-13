@@ -71,7 +71,8 @@ Let's take a look at how to use these features:
 
     Sharing is available for most insight cards. You can share an insight in one of two ways:
     * **In a Teams chat** – When you share through a chat, you'll send a screenshot of the insight to another person. You can add a message if you want. The chat contains a link so the recipient can go to their own insights.
-        ![Screenshot that shows sharing an insight by chat.](images/org-insights-share-chat.png)
+        
+    ![Screenshot that shows sharing an insight by chat.](images/org-insights-share-chat.png)
     * **Through a link** – When you share through a link, that link takes the recipient to the same location in Viva Insights. Linking someone doesn't give them access to the same data you can see, but if they also have access to organization insights, they'll see results for their own group.
 
         ![Screenshot that shows sharing an insight by chat.](images/org-insights-share-link.png)
