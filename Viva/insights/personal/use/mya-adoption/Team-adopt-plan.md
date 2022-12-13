@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Viva Insights Team Adoption plan
 description: Team Adoption plan for Viva Insights users
 author: madehmer
@@ -198,7 +198,7 @@ This email can include:
 * Preferred method to provide feedback and ask questions throughout the program
 * Links to more information on Viva Insights and privacy
   * [Privacy guide](../../overview/privacy-guide-users.md)
-  * [Resources for individual adoption](Indiv-adopt-get-started.md)
+  <!--* [Resources for individual adoption](Indiv-adopt-get-started.md)-->
   * Descriptions of [Viva Insights elements](../mya-elements.md)
 
 ## Gain support from other teams

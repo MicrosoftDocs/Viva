@@ -27,10 +27,7 @@ Viva Insights processes information in a manner that protects employee privacy. 
 
 Viva Insights consists of the following elements.
 
-* Viva Insights in [Microsoft Teams](../teams/viva-insights-home.md) and [on the web](../Use/home-web.md) – Provides you personalized recommendations within your Microsoft Teams app and on the web that can help you build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
-* [Dashboard](../use/dashboard-2.md) – Helps you reflect on your work patterns such as time that you have available to focus, your meeting and email practices, and your network.
-    >[!IMPORTANT]
-    > The dashboard will be retired soon, but you'll still find personal insights content and settings in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
+* Viva Insights in [Microsoft Teams and on the web](../teams/viva-insights-home.md) – Provides you personalized recommendations within your Microsoft Teams app and on the web that can help you build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 * [Viva Insights Outlook add-in](../use/add-in.md) – Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
 * [Briefing emails](../Briefing/be-overview.md) – Within two hours of your workday, you'll get an email about any relevant items to help you stay in control of your calendar and better prepare for the day ahead.
 * [Digest emails](../use/email-digests-3.md) – Gives you key highlights about your work patterns in a digest email in your Outlook inbox.

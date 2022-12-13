@@ -28,7 +28,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Enable deep work |Percentage of employees have less than 20 hours for deep work each week |[Total focus hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
+|Enable deep work |Percentage of employees who have less than 20 hours for deep work each week |[Total focus hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
 |Utilize influencers |Percentage of organizations who have few influencers |[Influence](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
 
 The following defines the organizational data shown in the visual behavioral insights.
@@ -90,7 +90,7 @@ Influencers are people within an organization who are well connected and can dri
 
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
-* Use [Insights](../personal/use/use-the-insights.md) and the [Network](../personal/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
+* Use [Insights](../personal/use/use-the-insights.md) and the [Stay connected](../personal/teams/viva-insights-stay-connected.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
 * Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
 For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).

@@ -100,22 +100,10 @@ items:
                 href: personal/use/delay-delivery.md
           - name: Home
             href: personal/use/home-web.md
-          - name: Dashboard
-            href: personal/use/dashboard-2.md
           - name: Digests
             href: personal/use/email-digests-3.md            
           - name: Focus plan
             href: personal/use/focus-plan.md     
-          - name: Work patterns
-            items:
-              - name: Focus
-                href: personal/use/focus.md
-              - name: Wellbeing
-                href: personal/use/wellbeing.md
-              - name: Network
-                href: personal/use/network.md
-              - name: Collaboration
-                href: personal/use/collaboration.md
           - name: Personal insights FAQ
             href: personal/overview/mya-faq.md 
           - name: Admin guide
@@ -132,46 +120,6 @@ items:
                 href: personal/overview/privacy-guide-admins.md
               - name: Activity report
                 href: personal/overview/activity-report.md
-          - name: Adoption
-            items:
-              - name: Introduction 
-                href: personal/Use/mya-adoption/Adopt-myanalytics.md
-              - name: Individual adoption
-                items: 
-                  - name: Get started
-                    href: personal/Use/mya-adoption/Indiv-adopt-get-started.md
-                  - name: Diagnose your issue
-                    href: personal/Use/mya-adoption/Indiv-adopt-diagnose.md
-                  - name: Set your goal
-                    href: personal/Use/mya-adoption/Indiv-adopt-set-goals.md
-                  - name: Develop new habits
-                    href: personal/Use/mya-adoption/Indiv-adopt-develop-habits.md
-                  - name: Sustain change
-                    href: personal/Use/mya-adoption/Indiv-adopt-sustain-change.md
-                  - name: Resources
-                    href: personal/Use/mya-adoption/Indiv-adopt-resources.md
-              - name: Team adoption
-                items: 
-                  - name: Get started
-                    href: personal/Use/mya-adoption/Team-adopt-intro.md
-                  - name: Plan
-                    href: personal/Use/mya-adoption/Team-adopt-plan.md
-                  - name: Implement
-                    href: personal/Use/mya-adoption/Team-adopt-implement.md
-                  - name: Measure
-                    href: personal/Use/mya-adoption/Team-adopt-measure.md
-                  - name: Reinforce
-                    href: personal/Use/mya-adoption/Team-adopt-reinforce.md
-                  - name: Resources
-                    href: personal/Use/mya-adoption/Indiv-adopt-resources.md
-              - name: Habit resources
-                items: 
-                  - name: Learning modules
-                    href: personal/Use/mya-adoption/adopt-learning-modules.md
-                  - name: Habit-building method
-                    href: personal/Use/mya-adoption/adopt-habit-building.md
-                  - name: Habit playbooks
-                    href: personal/Use/mya-adoption/adopt-habit-playbooks.md
       - name: Team and organization insights
         items:
         - name: Setup
