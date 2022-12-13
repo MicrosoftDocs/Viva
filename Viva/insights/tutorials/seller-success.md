@@ -148,35 +148,13 @@ The _Depth of engagement_ card shows the number of distinct people in the accoun
 
 ![Depth of engagement.](../images/wpa/tutorials/depth-of-engagement-ss.png)
 
-<!-- 
-On this card, selecting **Explore** opens the **Network** page of the Viva Insights personal dashboard, which shows more details about how (with whom) sellers spent their time. 
--->
-
-<!-- REMOVE FOR NOW
-### Leverage internal networks
-
-Being connected with the right individuals and organizations within the company can help overall performance. The _Leverage internal networks_ card displays the number of hours a seller collaborated with particular internal groups. It calls their attention to these figures so that they can improve their depth of customer engagement by strengthening their internal networks.
-
-![Leverage internal networks.](../images/wpa/tutorials/leverage-internal-networks_60.png)
- 
-On this card, selecting **Explore** opens the **Network** page of the Viva Insights personal dashboard, which shows more details about how (with whom) sellers spent their time. 
--->
-
 ### Manager interactions
 
 Spending time with and getting attention from your manager is important for the success of salespeople. The chart on the _Manager interactions_ card displays the time the salesperson spent with their manager in meetings with particular customers.  
 
 ![Manager interactions.](../images/wpa/tutorials/manager-interactions-ss.png)
 
-<!--### Explore
-
-The final card in the digest is the Explore card. On this card, select **Explore** to open the Network page, which shows how many people you actively connected with in the last month.
-
-![Explore card.](../images/wpa/tutorials/explore-card-ss.png)-->
-
 ## Seller success Q & A
-
-<!-- For Madhura, get FWLink to here for use in the product UI --> 
 
 **Q1.** As a participant in a Seller success plan, what guidance will I receive to help me during my participation in the plan?  
 
