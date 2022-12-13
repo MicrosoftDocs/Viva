@@ -22,19 +22,17 @@ Because a focus on *coaching* and *empowering* employees sets your team up to de
 
 You can find the **Manager connection** page in the Viva Insights app, within the **Organization trends** tab.
 
-<!-- placeholder image-->
-
 ![Screenshot that shows the Manager connection page.](../Images/WpA/Use/org-manager-connection1.png)
 
 ## Coaching
 
-### Increase frequency of coaching
+### Engage with directs through regular 1 on 1 meetings
 
 #### Insights
 
 For **Coaching**, the **Manager connection** page provides a percentage insight that shows how many employees meet with their manager for less than one hour a month and a visual insight that shows the distribution of monthly 1:1 time with managers.
 
-:::image type="content" alt-text="Screenshot of the app that shows the Coaching insight." source="../Images/WpA/Use/org-trends-manager-coaching.png":::
+:::image type="content" alt-text="Screenshot of the app that shows the 'Engage with directs through regular 1 on 1 meetings' insight, with a percentage insight, a distribution of monthly 1:1 time with managers, and a 'Take action' section." source="../Images/WpA/Use/org-trends-connection-coaching.png":::
 
 Here's some information about how those metrics are calculated:
 
@@ -61,9 +59,9 @@ For more best practices and how to develop a 1:1 conversation series, see [Best 
 
 ## Empowerment
 
-### Cultivate autonomy
+### Promote autonomy through guidance and support
 
-:::image type="content" alt-text="Screenshot that shows the Autonomy insight." source="../Images/WpA/Use/org-trends-manager-empowerment.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Promote autonomy through guidance and support' insight,  with a percentage insight, a distribution of manager-employee coaching relationships, and a 'Take action' section" source="../Images/WpA/Use/org-trends-connection-empowerment.png":::
 
 #### Insights
 

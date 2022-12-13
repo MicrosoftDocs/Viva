@@ -28,7 +28,7 @@ You can find the **Employee wellbeing** page in the Viva Insights app, within th
 
 ### Help employees disconnect
 
-:::image type="content" alt-text="Screenshot that shows the Help employees disconnect insights."source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Help employees disconnect' insight with a percentage insight, a distribution of average weekly time spent collaborating after hours, and a 'Take action' section"source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
 
 #### Insights
 
@@ -60,9 +60,9 @@ For more best practices and ways to protect employees after hours, see [Best pra
 
 ## Capacity
 
-### Focus without interruptions
+### Help teams find time to finish their work
 
-:::image type="content" alt-text="Screenshot that shows the Focus without interruptions insights." source="../Images/WpA/Use/org-trends-wellbeing-capacity.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Help teams find time to finish their work' insight with a percentage insight, a distribution of uninterrupted weekly time, and a 'Take action' section." source="../Images/WpA/Use/org-trends-wellbeing-capacity1.png":::
 
 #### Insights
 
@@ -92,9 +92,9 @@ Here are ways to support focus time:
 
 For more best practices and ways to establish a "no meeting" period, see [Best practices for focus time](../tutorials/gm-focus.md).
 
-### Reduce meeting hours
+### Keep a pulse on collaboration overload
 
-:::image type="content" alt-text="Screenshot that shows the Reduce meeting hours insights" source="../Images/WpA/Use/org-trends-wellbeing-capacity-2.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Keep a pulse on collaboration overload' insight with a percentage insight, a distribution of collaboration hours per week, and a 'Take action' section" source="../Images/WpA/Use/org-trends-wellbeing-capacity2.png":::
 
 ### Insights
 
