@@ -95,7 +95,7 @@ In this scenario, all surfaces of Viva Insights are turned on by default for all
 
 **Role** – Microsoft 365 admin
 
-1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
+1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
    :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
 1. In the resulting pane, select all elements to enable them.
@@ -118,7 +118,7 @@ In this scenario, Viva Insights is off by default but users can turn it on for t
 
 **Role** – Microsoft 365 admin
 
-1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
+1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
 1. In the resulting pane, de-select all elements to disable them.
 1. Select **Save changes**.

@@ -53,7 +53,7 @@ You can configure access to Viva Insights elements for all users in your organiz
 
 ### To manage availability for the Viva Insights app in Teams
 
-1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
+1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage availability in the Teams admin center**. This option takes you directly to the Teams admin center, where you can configure the appropriate settings.
 
     :::image type="content" source="../../images/mya/setup/mac-teams-admin1.png" alt-text="Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.":::
@@ -62,7 +62,7 @@ Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for mo
 
 ### To enable access to Viva digest emails, meeting effectiveness surveys, Viva Insights Outlook add-in, and schedule send suggestions
 
-1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
+1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
 
     :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
