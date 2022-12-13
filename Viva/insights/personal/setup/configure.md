@@ -56,7 +56,7 @@ You can configure access to Viva Insights elements for all users in your organiz
 1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage availability in the Teams admin center**. This option takes you directly to the Teams admin center, where you can configure the appropriate settings.
 
-    ![Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.](../../images/mya/setup/mac-teams-admin1.png)
+    :::image type="content" source="../../images/mya/setup/mac-teams-admin1.png" alt-text="Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.":::
     
 Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for more information about setting up the Viva Insights app in Teams.    
 
@@ -64,7 +64,8 @@ Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for mo
 
 1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
-    ![Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.](../../images/mya/setup/manage-settings-insights.png)
+
+    :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
 1. In the resulting pane:
     1. Select **Viva Insights web experience** to keep all Viva Insights users in your organization opted _in_ for access to the Viva Insights app on the web. Clear the selection for **Viva Insights web experience** to opt users _out_.  
     1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  

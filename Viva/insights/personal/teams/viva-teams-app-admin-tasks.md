@@ -36,7 +36,9 @@ Complete the steps in the following playbooks to get the Viva Insights app up an
 1. Confirm they have a [Viva Insights service plan](../overview/plans-environments.md).
 1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage availability in the Teams admin center**.
-   ![Screenshot that shows the Manage availability in Teams admin center option in the Insights admin collection.](../../Images/MyA/setup/mac-teams-admin1.png)
+
+    :::image type="content" source="../../images/mya/setup/mac-teams-admin1.png" alt-text="Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.":::
+
 1. In the Teams admin center, add the Viva Insights app to the list of allowed apps within the organization, as follows:
 [Release the Viva Insights app within your organization](https://download.microsoft.com/download/1/b/9/1b980a29-f166-4b72-8d8e-d1126f4028c7/Release-the-Insights-app.pdf).
 
@@ -80,10 +82,11 @@ As the admin, use the following steps to change the setting for meeting effectiv
 
 1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
-   ![Screenshot that shows the Manage settings for Viva Insights option in the Viva Insights admin collection.](../../Images/MyA/setup/manage-settings-insights.png)
+   :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
 1. In the resulting pane, select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, *no user in your organization will receive the surveys*, including those who previously were receiving them. However, individuals can explicitly opt in again within their Viva Insights app.
 
-   ![Screenshot that shows the Viva Insights elements pane in the Viva Insights admin collection.](images/meeting-effectiveness-surveys-admin.png)
+   :::image type="content" source="images/meeting-effectiveness-surveys-admin.png" alt-text="Screenshot that shows the Viva Insights elements pane in the Viva Insights admin collection.":::
+
 
 >[!Note]
 >After you change the survey setting in the admin center, it will take up to 24 hours for the new setting change to take effect.
@@ -107,11 +110,11 @@ To enable or disable meeting effectiveness surveys for a specific user, use the 
 Set-VivaInsightsSettings -Identity roy@contoso.onmicrosoft.com -Enabled $false -Feature MeetingEffectivenessSurvey
 ```
 
-* If you set the Enabled parameter to **$false**, the meeting effectiveness surveys will be **Off** for that user. The user won't be able to override this setting or opt in to the meeting effectiveness surveys. In other words, you're completely disabling the feature.
-* If you set the Enabled parameter to **$true**, the meeting effectiveness surveys will be **On** for that user. Users can then opt out from meeting effectiveness surveys. If no action occurs, this setting applies by default.
+* If you set the Enabled parameter to `$false`, the meeting effectiveness surveys will be **Off** for that user. The user won't be able to override this setting or opt in to the meeting effectiveness surveys. In other words, you're completely disabling the feature.
+* If you set the Enabled parameter to `$true`, the meeting effectiveness surveys will be **On** for that user. Users can then opt out from meeting effectiveness surveys. If no action occurs, this setting applies by default.
 
 >[!Note]
->When Enabled is set as $true, people who had previously opted out will continue to be opted out and will not receive any surveys until they opt back in through their Viva Insights app.
+>When Enabled is set as `$true`, people who had previously opted out will continue to be opted out and will not receive any surveys until they opt back in through their Viva Insights app.
 >
 >**Suggestions for you cards** (How your meetings succeeded and How your meetings can improve) derived from meeting metrics data (outside of surveys)  appear regardless of tenant- and user-level disablements.
 

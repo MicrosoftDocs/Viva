@@ -65,7 +65,6 @@ It is easy to turn on Viva Insights for all users in your organization as it com
 ### Include stakeholders
 
 Identifying and notifying your key stakeholders before the welcome email is sent to users can be an important preliminary step in your rollout process. These stakeholders should understand the value, timelines, and expected experiences that come with the rollout of the Welcome email. When managed proactively, these stakeholders can become valuable advocates for moving the rollout process forward. 
-<!-- need a new welcome email template - ([Download Welcome email template](/workplace-analytics/personal/setup/myanalytics-announcement-2020-template.docx)) -->
 
 Here are some roles you might consider as part of the rollout project:
 
@@ -98,7 +97,7 @@ In this scenario, all surfaces of Viva Insights are turned on by default for all
 
 1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
-    ![Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.](../../images/mya/setup/manage-settings-insights.png)
+   :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
 1. In the resulting pane, select all elements to enable them.
 
     :::image type="content" source="../../Images/MyA/setup/insights-settings-pane.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled." lightbox="../../Images/MyA/setup/insights-settings-pane.png":::
@@ -238,7 +237,7 @@ Before you start the pilot, have these in place:
 
 We recommend that you follow these steps to conduct the pilot:
 
-1. **Send a welcome email** – <!--(download [template](myanalytics-announcement-2020-template.docx))--> Send an email introducing Viva Insights to all the pilot users and invite them to training.
+1. **Send a welcome email** – Send an email introducing Viva Insights to all the pilot users and invite them to training.
 2. [Train the pilot participants](#train-pilot-participants) in how to use Viva Insights.
 3. **Assign the service plan** – Before rolling out Viva Insights to the pilot users, ensure that all users have been assigned to a [Viva Insights service plan](../overview/plans-environments.md) in the Microsoft 365 admin center.
 4. **Kick off the pilot** – Begin the pilot. Announce to the pilot participants that the pilot is starting and remind them of its duration and their tasks, as described in the [test plan](#design-a-test-plan). See [Conduct the pilot](#conduct-the-pilot) for more details.
@@ -306,8 +305,6 @@ After the pilot is complete, gather all feedback surveys, support tickets, and o
 If users have questions about using Viva Insights, point them to the published [Viva Insights FAQs](./../overview/mya-faq.md) for answers.
 
 ### Resources for stakeholders
-
-<!--* Download the [Welcome Email template](/workplace-analytics/personal/setup/myanalytics-announcement-2020-template.docx). Edit and use this to communicate the availability of MyAnalytics as a productivity tool.-->
 
 * [Privacy guide for Viva Insights admins](./../overview/privacy-guide-users.md). Use the Privacy guide to find answer to key questions about how Viva Insights processes information in a manner that protects employee privacy and supports compliance with local regulations.
 
