@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: Habit playbooks for Viva Insights
 description: Learn how to use Viva Insights to build better work habits
 author: madehmer

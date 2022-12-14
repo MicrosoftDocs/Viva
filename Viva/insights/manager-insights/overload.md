@@ -6,7 +6,7 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 ---
@@ -58,4 +58,3 @@ When replying to email, reduce the use of reply all and remove participants who 
 ## Related topics
 
 * [Viva Insights best practices](best-practices.md)
-* [Collaboration](../personal/use/collaboration.md)
