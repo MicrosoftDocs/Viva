@@ -20,7 +20,7 @@ description: "Learn how Microsoft Viva supports improved productivity and wellbe
 ---
 # Insight: Viva Insights
 
-Viva Insights includes a Microsoft Teams and web app, along with web features and tools, that help people and businesses use data-driven, privacy-protected insights. The app in Microsoft Teams and on the web shows personalized recommendations that help employees, teams, managers, and business leaders do their best work - for themselves and for their teams. Get insights for building better work habits such as following through on commitments made to collaborators, meeting insights and suggestions, and protecting focus time in the day for uninterrupted, individual work.
+Viva Insights includes a Microsoft Teams and web app, along with web features and tools that help people and businesses use data-driven, privacy-protected insights. The app in Microsoft Teams and on the web shows personalized recommendations that help employees, teams, managers, and business leaders do their best work for themselves and for their teams. Get insights for building better work habits such as following through on commitments, meeting insights and suggestions, and protecting focus time in the day for uninterrupted work.
 
 ![Viva Insights page](media/viva-insights-screen.png)
 
