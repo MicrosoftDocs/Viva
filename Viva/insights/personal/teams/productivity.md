@@ -57,7 +57,7 @@ If you want more information about the insight, including a comparison to peer o
 
 :::image type="content" source="./images/productivity-org-insight-peer.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
 
-To help your team improve their meeting effectiveness, Viva Insights shows you a recommended action--for example, starting a no-meeting day. Select the action button, like **Set up plan**, either on the insight card on the **Productivity** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.
+To help your team improve their meeting effectiveness, Viva Insights shows you a recommended action--for example, starting a [no-meeting day](shared-no-meeting-day.md). Select the action button, like **Set up plan**, either on the insight card on the **Productivity** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.
 
 To learn more about organization insights, refer to our [Organization insights](../../org-team-insights/org-insights.md) article.
 
