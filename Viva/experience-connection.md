@@ -25,11 +25,11 @@ Support a more inclusive work culture with spaces for conversations, company new
 
 ## Viva Connections
 
-Viva Connections is an employee experience app in Microsoft Teams that connects employees with tools, news, and resources. Content in the experience is tailored to the individual based on their role, region, and interests. Viva Connections is comprised of three main parts - the dashboard, feed, and resources. Viva Connections integrates with other Viva experiences by surfacing content in the feed as well as through cards on the dashboard. For example, conversations from Viva Engage will surface in the Viva Connections feed. Additionally, in the example below, a dashboard card surfaces an entry point into the Viva Engage app.
+Viva Connections is an employee experience app in Microsoft Teams that connects employees with tools, news, and resources. Content in the experience is tailored to the individual based on their role, region, and interests. Viva Connections is composed of three main parts: the dashboard, feed, and resources. Viva Connections integrates with other Viva experiences by surfacing content in the feed and through cards on the dashboard. For example, conversations from Viva Engage will surface in the Viva Connections feed. Additionally, in the example below, a dashboard card surfaces an entry point into the Viva Engage app.
 
 ![Viva Connections Dashboard](media/connections-example.png)
 
-Viva connections is:
+Viva Connections is:
 
 * A branded app experience in Microsoft Teams that is optimized to enable experiences for information workers and frontline workers.
 * A gateway to employee experiences, with the ability for you to curate the content and tools you want to deliver through quick access to data and tasks, relevant news, communications, people, and resources.
@@ -55,7 +55,7 @@ Viva Engage and Viva Connections can work together to surface relevant content a
 
 ![Viva connections feed)](./media/connections-feed.png)
 
-You can also add a card to your Viva Connections dashboard which allows users to go directly to Viva Engage from their desktop or mobile device. To do this, you would add a Teams app card to your dashboard, and then find and add the Viva Engage app.
+You can also add a card to your Viva Connections dashboard, which allows users to go directly to Viva Engage from their desktop or mobile device. To do this, you would add a Teams app card to your dashboard, and then find and add the Viva Engage app.
 
 ![Viva Connections dashboard](./media/engage-card-dashboard.png)
 
