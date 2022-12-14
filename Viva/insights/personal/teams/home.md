@@ -15,8 +15,7 @@ audience: user
 
 # Viva Insights Home
 
-
-Use Viva Insights **Home** to discover key wellbeing, productivity, and teamwork insights and actions. On **Home**, we highlight insights and actions that give you the most value in the flow of work. You'll find these sections on your **Home** tab:
+Use Viva Insights **Home** to discover key wellbeing, productivity, and teamwork insights and actions. Here, we highlight insights and actions that give you the most value in the flow of work. You'll find these sections on your **Home** tab:
 
 * Recommended for you
 * Your progress
@@ -26,49 +25,57 @@ If you're an organizational leader, meaning you're assigned the Insights Busines
 
 ## Recommended for you
 
-This section curates content from across the Viva Insights app to highlight actions and insights for individuals. From here, you can:
+**Recommended for you** curates content from across the Viva Insights app to highlight actions and insights for individuals. From here, you can:
 
-* Send praise to colleagues.
-* Set up a 1:1 plan with your direct report.
-* Promote healthy meeting norms.
-* Schedule a team no-meeting day.
-* Start a shared focus plan.
-* Schedule emails for later.
-* Relax with quiet time.
-* Set virtual commute reminders.
-* Make time for messages.
-* Mediate or do a breathing exercise.
-* Reflect on the day.
+* Send [praise](praise.md) to colleagues.
+* Set up a [1:1 plan](1-1-plan.md) with your direct report.
+* Promote [healthy meeting norms](shared-meeting-plan.md).
+* Schedule a team [no-meeting day](shared-no-meeting-day.md).
+* Start a shared focus plan. <!--to create a doc-->
+* Schedule [emails for later](../use/schedule-send.md).
+* Relax with [quiet time](quiet-time.md).
+* Set [virtual commute](virtual-commute.md) reminders.
+* Make [time for messages](wellbeing-plans.md).
+* [Mediate](headspace.md) or do a breathing exercise.
+* [Reflect](reflect.md) on the day.
 
-
-![home](./Images/home-recommended.png)
+![Screenshot that shows the Viva Insights Home tab's Recommended for you section.](./Images/home-recommended.png)
 
 ## Your progress
 
-Use **Your progress** to find out how well your meetings are going, how well you're keeping quiet time work-free, how many hours of focus time you have booked, and more. 
+Use **Your progress** to find out how well your meetings are going, how well you're keeping quiet time work-free, how many hours of focus time you've booked, and more. If you want to change your settings for, you can do that by selecting **Change settings**.
 
 ![progress](./images/home-progress.png)
 
-reflect on your actions and find out how well your focus plan is going. Some examples include being able to track  their average meeting ratings, or monitoring how many days they were able to keep their quiet time last month, etc.. ,  Users also have options to update their existing preferences for Focus plan, Quiet time, Emails scheduled later, etc..
 
 
+## Inspiration library
 
-
-
-
-
-## Praise in Viva Insights
-
-Use praise in the Microsoft Viva Insights app to recognize the contributions of you
-
-## Related topics
-
-[Viva Insights introduction](viva-teams-app.md)
-
-
+The Inspiration library is your hub for curated wellbeing- and productivity-related content from industry experts. [Learn more about the Inspiration library](inspiration.md).
 
 
 
 ## Related topics
 
-[Viva Insights introduction](viva-teams-app.md)
+[1:1 meeting plan](1-1-plan.md)
+
+[Headspace](headspace.md)
+
+[Inspiration library](inspiration.md)
+
+[Praise](praise.md)
+
+[Quiet time](quiet-time.md)
+
+[Reflect](reflect.md)
+
+[Schedule send](../use/schedule-send.md)
+
+[Shared meeting plan](shared-meeting-plan.md)
+
+[Shared no-meeting day](shared-no-meeting-day.md)
+
+[Virtual commute](virtual-commute.md)
+
+[Wellbeing plans](wellbeing-plans.md)
+

@@ -22,6 +22,11 @@ items:
                 href: personal/teams/viva-teams-app.md
               - name: Home
                 href: personal/teams/home.md
+                items:
+                - name: Praise
+                  href: personal/teams/praise.md
+                - name: Inspiration library
+                  href: personal/teams/inspiration.md  
               - name: Productivity
                 items: 
                   - name: Overview
