@@ -39,6 +39,29 @@ The tab provides these features:
     :::image type="content" source="./images/suggested-tasks-small.png" alt-text="Screenshot that shows Suggested tasks on the Productivity tab." lightbox="./images/suggested-tasks.png":::
 
 
+## For managers and leaders
+
+On the **Productivity** tab, you'll find key indicators of your organization’s meeting effectiveness, along with features and tools to help support your teams. 
+
+Each day, an insight related to one of the following topics appears at the top of your **Productivity** tab:
+
+* Meeting hours 
+* Join on time rate 
+* Multitasking hours 
+
+On the insight card, view the current week's average measure, the difference from the prior period's average, and the measure's 12-week trend. 
+
+:::image type="content" source="./images/productivity-org-insight-trend.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
+
+If you want more information about the insight, including a comparison to peer organizations (for eligible users), a breakdown by team, a percentage distribution, and calculation methods, select **Show details** on the insight card.
+
+:::image type="content" source="./images/productivity-org-insight-peer.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
+
+To help your team improve their meeting effectiveness, Viva Insights shows you a recommended action--for example, starting a no-meeting day. Select the action button, like **Set up plan**, either on the insight card on the **Productivity** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.
+
+To learn more about organization insights, refer to our [Organization insights](../../org-team-insights/org-insights.md) article.
+
+
 ## Related topics
 
 [Effective meetings](effective-meetings.md)
