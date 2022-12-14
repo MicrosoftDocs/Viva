@@ -53,6 +53,34 @@ Use **Your progress** to find out how well your meetings are going, how well you
 
 The Inspiration library is your hub for curated wellbeing- and productivity-related content from industry experts. [Learn more about the Inspiration library](inspiration.md).
 
+## For managers and leaders
+
+*Applies to: people who have a premium Viva Insights license **and** are assigned the **Insights Business Leader** role or have group manager access enabled*
+
+Organization insights help you understand how your organizations—the people who report to you directly or indirectly—are succeeding at work. On the **Home** tab, you'll find key indicators of your organization’s wellbeing, productivity, and team culture, along with features and tools to help support your teams. 
+
+Specifically, you'll find an insight related to one of the following topics each day:
+
+* Uninterrupted focus hours
+* Manager 1:1 meeting hours
+* Meeting hours
+* After hours collaboration
+* No meeting day impact
+* Daily connected hours
+* Focus time participation
+* Join on time rate
+* Focus time impact
+* No meeting day participation
+* Multitasking hours
+* Internal network size
+
+
+All insight cards show the current week's average measure, and also provide the difference from the prior period. Here's an example:
+
+![Org insight example](./Images/home-org-insight-example.png)
+
+To learn more about organization insights, refer to our [organization insights documentation](../../org-team-insights/org-insights.md).
+
 
 
 ## Related topics
