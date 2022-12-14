@@ -18,7 +18,7 @@ search.appverid:
 
 description: "Learn how Microsoft Viva supports the employee experience with tools for specific roles, like Sales, Marketing, and Customer Service."
 ---
-## Role-based experiences in Microsoft Viva
+# Role-based experiences in Microsoft Viva
 
 The first role-based experience in Microsoft Viva is Viva Sales. More role-based apps are coming soon.
 
