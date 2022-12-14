@@ -18,11 +18,14 @@ audience: Admin
 
 # Configure personal insights
 
-**Role** - Global admin, Exchange Online admin, or Viva Insights admin
+>[!Important]
+> This article discusses the dashboard, which will be retired soon. Users will still be able to access their personal insights settings through their Viva Insights app in Teams or on the web. [Learn more about this change](../reference/mya-retirement.md).
 
-* **Prerequisite** - Users have access to Microsoft Viva Insights only if they have licenses that include a Viva Insights service plan, as described in [plans and environments](../Overview/plans-environments.md).
+**Role**  Global admin, Exchange Online admin, or Viva Insights admin
 
-* **Data privacy** - See the [Privacy guide](../Overview/privacy-guide-users.md) to understand how privacy is built into Viva Insights and to learn what you can configure to address specific privacy requirements.
+* **Prerequisite** – Users have access to Microsoft Viva Insights only if they have licenses that include a Viva Insights service plan, as described in [plans and environments](../Overview/plans-environments.md).
+
+* **Data privacy** – See the [Privacy guide](../Overview/privacy-guide-users.md) to understand how privacy is built into Viva Insights and to learn what you can configure to address specific privacy requirements.
 
 **To configure Viva Insights**
 
@@ -48,25 +51,42 @@ You can configure access to Viva Insights elements for all users in your organiz
 >[!Important]
 >You need to have a Global admin or an Exchange Online admin role to configure tenant-level settings in the admin center. Make sure you're signed in to the Microsoft admin center as a Global or Exchange Online admin before configuring settings.
 
+### To manage availability for the Viva Insights app in Teams
+
+1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
+1. Under **Viva Insights in Microsoft 365**, select **Manage availability in the Teams admin center**. This option takes you directly to the Teams admin center, where you can configure the appropriate settings.
+
+    :::image type="content" source="../../images/mya/setup/mac-teams-admin1.png" alt-text="Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.":::
+    
+Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for more information about setting up the Viva Insights app in Teams.    
+
 ### To enable access to Viva digest emails, meeting effectiveness surveys, Viva Insights Outlook add-in, and schedule send suggestions
 
->[!Note]
-> If you're a targeted release customer, you might see a new admin experience. To learn how to enable access to these features through the new experience, refer to [Using the new admin experience](../../advanced/setup-maint/new-admin-experience.md#personal-insights). 
+1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
+1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
 
-1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
-1. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
-1. In the left pane, expand **Settings**, and then select **Org settings**.
-1. Under **Services**, select **Microsoft Viva Insights (formerly MyAnalytics)** to see settings for the different options.
-1. Select **Viva Insights web experience** to keep all Viva Insights users in your organization opted _in_ for access to the web app. Deselect **Viva Insights web experience** to opt users _out_.
-1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
-1. Select **Insights Outlook add-in** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
-1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt users out. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and app settings page. It may take up to 24 hours for all changes to take effect.
+    :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
+1. In the resulting pane:
+    1. Select **Viva Insights web experience** to keep all Viva Insights users in your organization opted _in_ for access to the Viva Insights app on the web. Clear the selection for **Viva Insights web experience** to opt users _out_.  
+    1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
+    1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
+    1. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt users _out_. If you opt users out, they won't see an option for meeting effectiveness surveys in their settings.
+    1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt users out. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and dashboard settings page. It may take up to 24 hours for all changes to take effect.
 
     >[!Note]
     >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
 
-9. Select **Save**.
+    :::image type="content" source="../../Images/MyA/setup/insights-settings-pane1.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled.":::
 
+1. Select **Save**.
+
+
+
+
+You can also get to these settings in from the main [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal):
+
+1. In the left pane, expand **Settings** and then select **Org settings**.
+1. On the **Services** tab, select **Microsoft Viva Insights (formerly MyAnalytics)**.
 
 ## Configure access at the user level
 
@@ -81,8 +101,9 @@ You configure Viva Insights by setting the *PrivacyMode* parameter. For informat
 
 PrivacyMode parameter  | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
-Opt-in (default setting)        | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Viva Insights on the web is available</li><li>User can opt out</li></ul>  | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Admins can opt out unlicensed users through the admin PowerShell </li></ul>  
-Opt-out    | <ul><li>Microsoft 365 data is not used for aggregated information shown to licensed users</li><li> Viva Insights on the web is not available</li><li>User can opt in through the Feature settings menu</li></ul>   |  <ul><li> Microsoft 365 data is not used for aggregated information shown to licensed users.</li></ul> |
+Opt-in (default setting)        | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Viva Insights app on the web is available</li><li>User can opt out</li></ul>  | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Admins can opt out unlicensed users through the admin PowerShell </li></ul>  
+Opt-out    | <ul><li>Microsoft 365 data is not used for aggregated information shown to licensed users</li><li> Viva Insights app on the web is not available</li><li>User can opt in through the settings menu in the Viva Insights app in Teams or on the web</li></ul>   |  <ul><li> Microsoft 365 data is not used for aggregated information shown to licensed users.</li></ul> |
+
 
 ### Command sequence
 
