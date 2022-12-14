@@ -27,14 +27,14 @@ You can also set reminders to send acclaim on a regular basis to your coworkers 
 
 To send praise, open the praise feature in one of the following ways:
 
-* The Viva Insights [Home](#send-praise-from-the-viva-insights-home-page) page
+* The Viva Insights [Home](#send-praise-from-the-viva-insights-home-page) tab
 * The [content pane](#send-praise-from-the-teams-content-pane-using-the-praise-messaging-extension) of Teams
 
-### Send praise from the Viva Insights Home page
+### Send praise from the Viva Insights Home tab
 
-1. On the **Home** page, select **Send praise** button on the **Send praise to your colleagues** card, which is located on the **Home** page at center left.
+1. Go to the **Recommended for you** section, find the **Send praise to colleagues** card, and select the **Send praise** button.
 
-   :::image type="content" source="images/send-praise-from-home.png" alt-text="Screenshot that shows Praise on Home page.":::
+   :::image type="content" source="images/praise-send.png" alt-text="Screenshot that shows Praise on Home page.":::
 
 1. When the praise page opens, the **Title** defaults to **Awesome**. If you want to send a different title with your praise message, select a new choice.
 
@@ -111,17 +111,20 @@ Remind yourself to send praise to coworkers. Praise reminders are always recurri
 >* The time you select will apply to every day on which you'll see reminders. You can't set different times for different days of the week.
 >* The reminder might not arrive at exactly the scheduled time, but most reminders appear within five minutes before their scheduled time. For example, if your reminder is scheduled for 5:00, the reminder could appear between 4:55 and 5:00.
 
-You can set praise reminders either from the **Home** page or the **Settings** page:
+You can set praise reminders either from the Viva Insights **Home** tab or **Settings** page:
 
-From the **Home** page:
+From the **Home** tab:
 
-1. On the **Send praise to your colleagues** card, select the **Send praise** button.
-1. On the **Praise** page, configure your reminder through the card on the right.
+1. On the **Send praise to colleagues** card, select the **All praises** link, which is to the right of the **Send praise** button.
+   :::image type="content" source="images/praise-all-praises2.png" alt-text="Screenshot that shows the All praises link to the right of the Send praise button.":::
+1. On the **Praise** page, configure your reminder through the card on the right, beneath **Recommendations** and **Trends**.
    :::image type="content" source="images/praise-reminder4.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
 
 From the **Settings** page:
 
-1. Select the ellipses (**...**) at the top of any page, then select **Settings**.
+>[!Note]
+> Access the settings page by selecting the ellipses (**...**) at the top of any screen in the Viva Insights app, then selecting **Settings**.
+
 1. Select **Praise** from the left pane.
 1. In the praise reminder settings, move the **Reminder** toggle to **On**, then select the time of day and day of the week you want to be reminded.
 
