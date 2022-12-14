@@ -402,12 +402,6 @@
     "redirect_url": "viva/insights/personal/teams/shared-no-meeting-day",
     "redirect_document_id": false
     },
-
-    {
-      "source_path": "viva/insights/personal/use/focus-plan.md",
-    "redirect_url": "viva/insights/personal/teams/focus-plan",
-    "redirect_document_id": false
-    },
       
     {
         "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
