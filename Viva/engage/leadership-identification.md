@@ -33,6 +33,9 @@ Engage admins, corporate communicators, existing Yammer verified admins, and Yam
 1. From Viva Engage, open the … menu in the upper left corner, then select **Admin**.
 ![View of setting drop down menu](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
 2. Select **Feature management**, then select **Leadership identification and audiences**.  
+
+![View of Engage Admin Center](/Viva/media/engage/IMG/VE-admin-center-leadership-id.png)
+
 The **Manage leaders** page allows you to identify leaders by searching for users and groups.
 3. Select **Add leaders**. 
 
@@ -40,15 +43,19 @@ The **Manage leaders** page allows you to identify leaders by searching for user
 
 You can search for individual users, security groups, email enabled security groups, or distribution lists. 
 
+![View of Search leaders interface](/Viva/media/engage/IMG/search-leaders.png)
+
 5. Select the user or group. 
 
-6. If you are importing a group, select **Continue** to confirm your choice.  
+6. If you are importing a group, select **Continue** to confirm your choice.
 
 The group members will be added as leaders. Note: subsequent changes to group memberships will not automatically update who is identified as a leader in Viva Engage. You can add the group again to add new members, or add and remove individual leaders. 
 
+![View of group import as leaders in Vive Engage](/Viva/media/engage/IMG/group-addition.png)
+
 7. The user or group members will appear in the **Manage leaders** list 
 
-![Need more imagery here for instructions above](/Viva/media/engage/campaigns/create-campaign-button.png)
+![View of Manage leaders interface](/Viva/media/engage/IMG/manage-leaders-interface.png)
 
 ## Configure a leader's audience
 
@@ -56,7 +63,7 @@ After a leader has been identified, the next step is to identify the leader’s 
 
 From the **Manage leaders** list, find the leader’s row and then select **Edit**. 
 
-![View of Manage audiences page](/Viva/media/engage/campaigns/create-campaign-button.png)
+![View of Manage audiences page](/Viva/media/engage/IMG/manage-audiences-toggle.png)
 
 On the **Manage audiences** page, configure the leader’s audiences. A leader can have up to two audiences:  
 

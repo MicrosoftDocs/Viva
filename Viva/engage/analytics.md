@@ -31,9 +31,9 @@ Premium analytic capabilities help licensed users monitor their own engagement m
 
 Global admins and Engage admins can configure, enable, and disable analytics features via the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Engage admin center and select **Manage analytics**.   
 
-![Multiple views of Analytics UI](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
+![Need image of Engage Admin Center for Anaytics ](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
 
-![NEEDS update](/Viva/media/engage/campaigns/create-campaign-button.png)
+![NEED image of Setup & Config > Manage analytics interface](/Viva/media/engage/campaigns/create-campaign-button.png)
 
 ## Manage Audience Analytics  
 
@@ -49,10 +49,15 @@ Engage admins can manage metrics for **Answers** within their organization once 
 
 ## Access Personal Analytics  
 
-All licensed users have access to analytics that help monitor the engagement on any of their posts in Viva Engage. Personal analytics can be accessed from the home feed and the storyline page of Engage.   
+All licensed users have access to analytics that help monitor the engagement on any of their posts in Viva Engage. Personal analytics can be accessed directly from the home feed and the storyline page of Engage.
 
-![NEEDS update](/Viva/media/engage/campaigns/create-campaign-button.png)
- 
+![View of right navigation module for Personal Analytics](/Viva/media/engage/IMG/see-full-personal-analytics.png)
+
+![View of Personal Analytics access from Home](/Viva/media/engage/IMG/analytics-from-home.png)
+
+![View of Personal Analytics access from Storyline](/Viva/media/engage/IMG/analytics-from-profile.png)
+
+![View of dashboard for Personal Analytics](/Viva/media/engage/IMG/personal-analytics-view.png)
 
 ## Access Audience Analytics  
 
