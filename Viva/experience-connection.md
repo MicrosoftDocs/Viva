@@ -47,7 +47,7 @@ It features experiences for discovery of conversations, questions, and knowledge
 
 Viva Engage is the place for conversations that connects people across the company — wherever and whenever they work — so that everyone is included and engaged.
 
-[Learn more about Viva Engage](/viva/engage/overview), including how to set it up and use it in your organization.
+[Learn more about Viva Engage](/viva/engage/overview) including how to set it up and use it in your organization.
 
 ## Viva Connections and Viva Engage: Better together
 
@@ -60,9 +60,8 @@ You can also add a card to your Viva Connections dashboard which allows users to
 ![Viva Connections dashboard](./media/engage-card-dashboard.png)
 
 ### Get started using Viva Engage and Viva Connections together
-To use this solution, start by [setting up Viva Connections](/viva/connections/viva-connections-setup-overview) if you haven't already.
 
-Content from Viva Engage will automatically show in the [Viva Connections Feed](/viva/connections/faqs-viva-connections-feed).
+- To use this solution, start by [setting up Viva Connections](/viva/connections/viva-connections-setup-overview) if you haven't already. Content from Viva Engage will automatically show in the [Viva Connections Feed](/viva/connections/faqs-viva-connections-feed).
 
-To make Viva Engage quickly available to your employees on the go, add the [Teams app card with the Viva Engage app selected](/viva/connections/create-dashboard#add-a-teams-app-card) to your [Viva Connections dashboard](/viva/connections/create-dashboard).
+- To make Viva Engage quickly available to your employees on the go, add the [Teams app card with the Viva Engage app selected](/viva/connections/create-dashboard#add-a-teams-app-card) to your [Viva Connections dashboard](/viva/connections/create-dashboard).
 
