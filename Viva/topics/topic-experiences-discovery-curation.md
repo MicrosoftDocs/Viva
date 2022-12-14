@@ -67,3 +67,59 @@ Viva Topics welcomes human contribution to improve the quality of your topics. W
 Even with human edits, AI will continually look for more information about topics, and will look for human verification. For example, if AI thinks you are a person that should be listed as an expert on a topic, it will ask you to confirm this. 
 
 ## Identifying topic types
+
+Identifying topic types in Viva Topics allows your organization to organize topics by their types. In suggested topics, AI identifies types relevant to your topics. While editing or curating topics, you can also add these topic types to improve a topic's information and accessibility. There are over 150 topic types recognized in Viva Topics.
+
+|&nbsp;  | &nbsp; |&nbsp; |
+|---|---|---|
+Academy|Thai|Lithuanian
+Account (user account)|Danish|Estonian
+Acquisition|Hungarian|Latvian
+Act|Finnish|Malay (Latin)
+Affiliate|Indonesian|Serbian (Latin)
+Agency|Greek|Hindi
+Agreement (Deal)|Romanian|Bosnian (Latin)
+API (Application programming interface, Programing interface)|Ukrainian|Kazakh
+App (Application)|Catalan|Basque
+Asset|Norwegian Bokmål|Galician
+Association|Arabic|Irish
+Authority (State authority)|Vietnamese|Macedonian
+Award|Slovak|Azerbaijani (Cyrillic)
+Bank|Hebrew|Azerbaijani (Latin)
+Board|Bulgarian|Dari
+Borough|Croatian|Welsh
+Branch|Slovenian |Other
+Building |Catalan|Basque
+Bureau|Norwegian Bokmål|Galician
+Business model|Arabic|Irish
+Business unit|Vietnamese|Macedonian
+Campaign|Slovak|Azerbaijani (Cyrillic)
+Campus|Hebrew|Azerbaijani (Latin)
+Center (centre)|Bulgarian|Dari
+City |Croatian|Welsh
+Client (client app, client application, web client)|Slovenian |
+Clinic|Catalan|Basque
+Coalition|Norwegian Bokmål|Galician
+Committee|Arabic|Irish
+Company (firm, corporation, LLC)|Vietnamese|Macedonian
+Complex (building complex)|Slovak|Azerbaijani (Cyrillic)
+Component (software)|Hebrew|Azerbaijani (Latin)
+Compound|Bulgarian|Dari
+Conference|Croatian|Welsh
+Contract|Slovenian |
+Contractor|Catalan|Basque
+Convention|Norwegian Bokmål|Galician
+Council|Arabic|Irish
+County|Vietnamese|Macedonian
+Customer (client)|Slovak|Azerbaijani (Cyrillic)
+Data model|Hebrew|Azerbaijani (Latin)
+Data store|Bulgarian|Dari
+Data warehouse|Croatian|Welsh
+Department|Slovenian |
+Desk|Catalan|Basque
+Device (appliance)|Norwegian Bokmål|Galician
+Division|Arabic|Irish
+DLL (Dynamic link library)|Vietnamese|Macedonian
+Enclave|Slovak|Azerbaijani (Cyrillic)
+Engine (software)|Hebrew|Azerbaijani (Latin)
+Event|Bulgarian|Dari
