@@ -101,7 +101,7 @@ From the campaign landing page, select **View more analytics** from the left nav
 
 ![View of campaigns analytics from campaign landing page](/Viva/media/engage/campaigns/manage-campaign-analytics-from-lp.png)
 
-Once redirected, you will see the campaign analytics interface containing key data to help you monitor the success of your campaign.
+Once redirected, you will see the campaign analytics dashboard containing key data to help you monitor the success of your campaign.
 
 ![View of campaign analytics page](/Viva/media/engage/campaigns/campaign-analytics-updated.png)
 
