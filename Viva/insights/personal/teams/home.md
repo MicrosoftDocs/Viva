@@ -21,7 +21,7 @@ Use Viva Insights **Home** to discover key wellbeing, productivity, and teamwork
 * Your progress
 * Inspiration library
 
-If you're an organizational leader, meaning you're assigned the Insights Business Leader role or your admin has enabled group manager access for you, you'll also find an **Insights for your organization** section at the top of your **Home** tab.
+If you're an organizational leader, meaning you're assigned the Insights Business Leader role or your admin has enabled group manager access for you, you'll also find an **Insights for your organization** section at the top of your **Home** tab. We talk about organization insights later on, in [For managers and leaders](#for-managers-and-leaders).
 
 ## Recommended for you
 
@@ -47,11 +47,11 @@ Use **Your progress** to find out how well your meetings are going, how well you
 
 ![progress](./images/home-progress.png)
 
-
-
 ## Inspiration library
 
 The Inspiration library is your hub for curated wellbeing- and productivity-related content from industry experts. [Learn more about the Inspiration library](inspiration.md).
+
+![Org insight example](./Images/home-inspiration-library.png)
 
 ## For managers and leaders
 
