@@ -36,7 +36,7 @@ AI identifies people and content connected to the topic, and if enough is discov
 - People who might be knowledgeable about the topic.
 - Files, pages, and sites that are related to the topic.
 
-The properties are identified from the files and pages that are part of the evidence for identifying the topic. Alternate names and acronyms are sourced from these files and pages. The short description is sourced from these files and pages, or from the internet through Wikipedia. The source file, page, or Wikipedia article is referenced alongside the suggested properties. People are suggested based on their active contributions (for example, edits) to the files and pages. A reference to the amount of contributions from a particular person provides a hint as to why the person has been identified. Files, pages, and sites are ranked based on whether they are central to the topic, or whether they can give an overview or introduction to the topic. 
+The properties are identified from the files and pages that are part of the evidence for identifying the topic. Alternate names and acronyms are sourced from these files and pages. The short description is sourced from these files and pages, or from the internet through Wikipedia. The source file, page, or Wikipedia article is referenced alongside the suggested properties. People are suggested based on their active contributions (for example, edits) to the files and pages. A reference to the amount of contributions from a particular person provides a hint as to why the person has been identified. Files, pages, and sites are ranked based on whether they're central to the topic, or whether they can give an overview or introduction to the topic. 
 
 Not every identified topic will be useful to your organization. It might not have identified any of the correct alternate names, descriptions, the appropriate people, or content. So the ability to add topics that aren't identified, keep suggested topics, and curate topics is critical to improving the quality of the topics that are discoverable in your organization.
 
@@ -52,7 +52,7 @@ Viva Topics welcomes human contribution to improve the quality of your topics. W
 
 - Topics can be reviewed by **knowledge managers** in your organization. The knowledge manager can review topics that they have permissions to see. On the **Manage topics** page in the topic center, they can choose to confirm AI-generated topics ("suggested topics") as valid, reject topics to prevent the content from being viewed as a topic, create topics that were not discovered by AI, or identify topics that could benefit from a few edits by subject matter experts to be more helpful or accurate. For more information, see [Manage topics in the topic center](manage-topics.md).
 
-- You can assign *Create and edit topics* permissions to any of your licensed users so that they can make changes to existing topics or create new topics. This allows users that are knowledgeable about the topic to update the topic page directly to make corrections or add additional information. They can also add new topics that AI wasn't able to identify. If there is enough information on these manually added topics, and AI is able to identify this type of topic, additional suggestions from AI might enhance these manually added topics. Together, humans and AI can keep knowledge accurate over time and not have this rest on a single person. For more information, see [Create a new topic](./create-a-topic.md) and [Edit a topic](./edit-a-topic.md).
+- You can assign *Create and edit topics* permissions to any of your licensed users so that they can make changes to existing topics or create new topics. This allows users that are knowledgeable about the topic to update the topic page directly to make corrections or add additional information. They can also add new topics that AI wasn't able to identify. If there is enough information on these manually added topics, and AI is able to identify this type of topic, other suggestions from AI might enhance these manually added topics. Together, humans and AI can keep knowledge accurate over time and not have this rest on a single person. For more information, see [Create a new topic](./create-a-topic.md) and [Edit a topic](./edit-a-topic.md).
 
 - Even users who only have read access to topic (topic viewers) will be asked to verify the usefulness of specific topics. Feedback questions are asked on the **Topic summary** card to improve the value of the topic and its information. Questions about the quality and usefulness of the AI suggestions are presented to users one at a time. Questions include:
 
@@ -64,5 +64,62 @@ Viva Topics welcomes human contribution to improve the quality of your topics. W
 
     4. On the topic center home page, you can see the topics in your organization to which you have a connection. You can choose to remain listed on the topic or remove yourself. This feedback is reflected to everyone who discovers this topic. For more information about the topic center home page, see [Topic center overview](./topic-center-overview.md).
 
-Even with human edits, AI will continually look for more information about topics, and will look for human verification. For example, if AI thinks you are a person that should be listed as an expert on a topic, it will ask you to confirm this. 
+Even with human edits, AI will continually look for more information about topics, and will look for human verification. For example, if AI thinks you're a person that should be listed as an expert on a topic, it will ask you to confirm this. 
 
+## Identifying topic types
+
+Identifying topic types in Viva Topics allows your organization to organize topics by their types. In suggested topics, AI identifies types relevant to your topics. While editing or curating topics, you can also add these topic types to improve a topic's information and accessibility. There are over 150 topic types recognized in Viva Topics.
+
+|&nbsp;  | &nbsp; |&nbsp; |
+|---|---|---|
+Academy|Experience (UX)|Pharmacy (chemist, drugstore)
+Account (user account)|Expo (exposition)|Pipeline
+Acquisition|Factory|Platform
+Act|Feature (software)|Policy
+Affiliate|Federation|Portal (web, internet)
+Agency|Festival|Portfolio
+Agreement (Deal)|Form|Process (procedure)
+API (Application programming interface)|Foundation|Product
+App (Application)|Framework|Program (programme)
+Asset|Fund|Programming language
+Association|Gateway|Project (development)
+Authority (State)|Government|Protocol
+Award|Graphical user interface (GUI)|Province
+Bank|Group|Region
+Board|Hardware|Registry (register)
+Borough|Health network (health care)|Regulation
+Branch|Health system (health service)|Repository (repo)
+Building |Holdings|Software development kit (SDK)
+Bureau|Hospice|Sector (economic)
+Business model|Hospital|Seminary
+Business unit|Hub|Server
+Campaign|Industry|Service
+Campus|Initiative|Site
+Center (centre)|Institute|Society
+City |Investment|Solution
+Client (client app, client application, web client)|Journal|Standard
+Clinic|Jurisdiction|Steering committee
+Coalition|Laboratory (lab, research)|Store (shop)
+Committee|Language|Strategy
+Company (firm, corporation, LLC)|League|Subdivision
+Complex (building complex)|Lease|Submarket
+Component (software)|Library(software)|Subsidiary
+Compound|Location|Survey
+Conference|Market|Symposium
+Contract|Market area|System
+Contractor|Memorandum (memo)|Task force
+Convention|Methodology|Team
+Council|Microservice|Technology (tech)
+County|Middleware|Territory
+Customer (client)|Ministry|Tool (software tool, utility)
+Data model|Mobile app|Toolkit (software, toolbox)
+Data store|Model|Treatment
+Data warehouse|Module|Treatment
+Department|Museum|University
+Desk|Nation (country, republic)|User interface (UI)
+Device (appliance)|Office|Value model
+Division|Operating system|Warehouse (Depot)
+DLL (Dynamic link library)|Opportunity|Web app
+Enclave|Organization (organisation, org)|Web service
+Engine (software)|Package (software)|Website (site)
+Event|Partner (business)|Workshop
