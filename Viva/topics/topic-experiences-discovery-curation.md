@@ -72,54 +72,54 @@ Identifying topic types in Viva Topics allows your organization to organize topi
 
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
-Academy|Thai|Lithuanian
-Account (user account)|Danish|Estonian
-Acquisition|Hungarian|Latvian
-Act|Finnish|Malay (Latin)
-Affiliate|Indonesian|Serbian (Latin)
-Agency|Greek|Hindi
-Agreement (Deal)|Romanian|Bosnian (Latin)
-API (Application programming interface, Programing interface)|Ukrainian|Kazakh
-App (Application)|Catalan|Basque
-Asset|Norwegian Bokmål|Galician
-Association|Arabic|Irish
-Authority (State authority)|Vietnamese|Macedonian
-Award|Slovak|Azerbaijani (Cyrillic)
-Bank|Hebrew|Azerbaijani (Latin)
-Board|Bulgarian|Dari
-Borough|Croatian|Welsh
-Branch|Slovenian |Other
-Building |Catalan|Basque
-Bureau|Norwegian Bokmål|Galician
-Business model|Arabic|Irish
-Business unit|Vietnamese|Macedonian
-Campaign|Slovak|Azerbaijani (Cyrillic)
-Campus|Hebrew|Azerbaijani (Latin)
-Center (centre)|Bulgarian|Dari
-City |Croatian|Welsh
-Client (client app, client application, web client)|Slovenian |
-Clinic|Catalan|Basque
-Coalition|Norwegian Bokmål|Galician
-Committee|Arabic|Irish
-Company (firm, corporation, LLC)|Vietnamese|Macedonian
-Complex (building complex)|Slovak|Azerbaijani (Cyrillic)
-Component (software)|Hebrew|Azerbaijani (Latin)
-Compound|Bulgarian|Dari
-Conference|Croatian|Welsh
-Contract|Slovenian |
-Contractor|Catalan|Basque
-Convention|Norwegian Bokmål|Galician
-Council|Arabic|Irish
-County|Vietnamese|Macedonian
-Customer (client)|Slovak|Azerbaijani (Cyrillic)
-Data model|Hebrew|Azerbaijani (Latin)
-Data store|Bulgarian|Dari
-Data warehouse|Croatian|Welsh
-Department|Slovenian |
-Desk|Catalan|Basque
-Device (appliance)|Norwegian Bokmål|Galician
-Division|Arabic|Irish
-DLL (Dynamic link library)|Vietnamese|Macedonian
-Enclave|Slovak|Azerbaijani (Cyrillic)
-Engine (software)|Hebrew|Azerbaijani (Latin)
-Event|Bulgarian|Dari
+Academy|Experience (UX)|Pharmacy (chemist, drugstore)
+Account (user account)|Expo (exposition)|Pipeline
+Acquisition|Factory|Platform
+Act|Feature (software)|Policy
+Affiliate|Federation|Portal (web, internet)
+Agency|Festival|Portfolio
+Agreement (Deal)|Form|Process (procedure)
+API (Application programming interface)|Foundation|Product
+App (Application)|Framework|Program (programme)
+Asset|Fund|Programming language
+Association|Gateway|Project (development)
+Authority (State)|Government|Protocol
+Award|Graphical user interface (GUI)|Province
+Bank|Group|Region
+Board|Hardware|Registry (register)
+Borough|Health network (health care)|Regulation
+Branch|Health system (health service)|Repository (repo)
+Building |Holdings|Software development kit (SDK)
+Bureau|Hospice|Sector (economic)
+Business model|Hospital|Seminary
+Business unit|Hub|Server
+Campaign|Industry|Service
+Campus|Initiative|Site
+Center (centre)|Institute|Society
+City |Investment|Solution
+Client (client app, client application, web client)|Journal|Standard
+Clinic|Jurisdiction|Steering committee
+Coalition|Laboratory (lab, research)|Store (shop)
+Committee|Language|Strategy
+Company (firm, corporation, LLC)|League|Subdivision
+Complex (building complex)|Lease|Submarket
+Component (software)|Library(software)|Subsidiary
+Compound|Location|Survey
+Conference|Market|Symposium
+Contract|Market area|System
+Contractor|Memorandum (memo)|Task force
+Convention|Methodology|Team
+Council|Microservice|Technology (tech)
+County|Middleware|Territory
+Customer (client)|Ministry|Tool (software tool, utility)
+Data model|Mobile app|Toolkit (software, toolbox)
+Data store|Model|Treatment
+Data warehouse|Module|Treatment
+Department|Museum|University
+Desk|Nation (country, republic)|User interface (UI)
+Device (appliance)|Office|Value model
+Division|Operating system|Warehouse (Depot)
+DLL (Dynamic link library)|Opportunity|Web app
+Enclave|Organization (organisation, org)|Web service
+Engine (software)|Package (software)|Website (site)
+Event|Partner (business)|Workshop
