@@ -52,7 +52,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 Here are ways to support employee wellbeing:
 
-* Schedule [quiet time](../personal/use/wellbeing.md) to mute notifications after hours. Consistently working outside of your regularly scheduled hours can increase the chance of burnout. To help unplug from the work day, use Viva Insights quiet time to mute mobile notifications from Outlook and Teams between the hours you choose.
+* Schedule [quiet time](../personal/teams/viva-insights-protect-time.md#configure-quiet-time) to mute notifications after hours. Consistently working outside of your regularly scheduled hours can increase the chance of burnout. To help unplug from the work day, use Viva Insights quiet time to mute mobile notifications from Outlook and Teams between the hours you choose.
 * Schedule delivery of emails using the [Outlook Insights add-in](../personal/use/schedule-send.md). Scheduled delivery helps to minimize disruptions to recipients outside their working hours or when they’re away from work. It helps to maintain the flexibility of work hours, while being considerate of others.
 * Wrap up the day with [virtual commute](../personal/teams/viva-insights-virtual-commute.md) from Viva Insights.
 
