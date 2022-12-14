@@ -17,7 +17,6 @@ ms.collection:
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
 description: View the new Microsoft 365 Admin Experience for Viva Learning.
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # The new Microsoft Viva admin experience in Learning
