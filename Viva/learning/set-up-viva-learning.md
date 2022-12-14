@@ -53,7 +53,7 @@ The functionalities of the Microsoft 365 admin center include:
 - Manage availability in Teams admin center
 - Manage additional settings in Viva Learning through the Teams app
 
-![Viva learn page](/viva/media/learn-admin.png)
+![Screenshot of the Viva learn page.](/viva/media/learn-admin.png)
 
 In the above example you can:
 
