@@ -26,16 +26,16 @@ Your admin needs to set up Viva Insights for personal insights before you can st
 
 **Teamwork habits** and its features are available to users with a Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments).
 
-You can access **Teamwork habits** through the Viva Insights app on the web or in Teams. To access through Teams, you'll need to set up the Viva Insights app in Teams. For details, refer to  [Install, pin, and configure the app](../../org-team-insights/org-trends.md#install-pin-and-configure-the-app).
+You can access **Teamwork habits** through the Viva Insights app on the web or in Teams. To access through Teams, you'll need to set up the Viva Insights app in Teams. For details, refer to  [Install, pin, and configure the app](../../org-team-insights/org-trends#install-pin-and-configure-the-app).
 
 ## Organization trends
 
 **Organization trends** offers additional features to group managers who've been assigned the manager role. Before you can start using Organization trends, your admin needs to:
 
-* Assign you the manager role, which they can do through the **advanced insights app > [Manager settings](./manager-settings.md)**.
+* Assign you the manager role, which they can do through the **advanced insights app > [Manager settings](./manager-settings)**.
 
-* Get the Viva Insights app set up in Teams so you can view insights there. For details, refer to  [Install, pin, and configure the app](/viva/insights/use/viva-insights-my-org.md#install-pin-and-configure-the-app). In addition to in Teams, you can also see the Viva Insights app on the web.
+* Get the Viva Insights app set up in Teams so you can view insights there. For details, refer to  [Install, pin, and configure the app](/viva/insights/use/viva-insights-my-org#install-pin-and-configure-the-app). In addition to in Teams, you can also see the Viva Insights app on the web.
 
 ## Advanced insights
 
-Before you can use the advanced analysis tools that are available in Viva Insights, your admin needs to complete the required steps in [Set up advanced insights](./setup.md), which includes assigning licenses.
+Before you can use the advanced analysis tools that are available in Viva Insights, your admin needs to complete the required steps in [Set up advanced insights](./setup), which includes assigning licenses.
