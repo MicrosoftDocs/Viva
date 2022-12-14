@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: Use Viva Insights to build good work habits
 description: Building good habits with Viva Insights
 author: madehmer

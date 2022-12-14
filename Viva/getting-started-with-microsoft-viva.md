@@ -4,6 +4,7 @@ ms.reviewer: loreenl
 ms.author:  hokavian
 author: Holland-ODSP
 manager: pamgreen
+ms.date: 12/13/2022
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -104,7 +105,7 @@ Review how each Viva module will impact the day-to-day work of the rest of your 
 |**Viva Insights**     | Viva Insights includes personal, manager, leader, and advanced insights with custom analysis options for evaluating your specific organization’s work patterns with research-based recommendations about where to focus change management efforts.        | [Introducing Viva Insights](/viva/insights/introduction) |
 |**Viva Learning**  | Viva Learning allows employees to discover, share, and track formal and informal learning in the flow of work.  Users can engage in social learning with colleagues and set and track personal learning goals. Personalized learning helps users get relevant learning content based on their own interests or recommendations from colleagues.       |[Viva Learning](https://support.microsoft.com/office/viva-learning-01bfed12-c327-41e0-a68f-7fa527dcc98a) <br> [Social learning](https://support.microsoft.com/office/social-learning-6badc784-0948-4922-94cc-85cd987def0a) <br> [Personal learning](https://support.microsoft.com/office/personal-learning-ca774f08-6bed-441b-a74b-3aac15cd9019) <br>   [Learning content](https://support.microsoft.com/office/learning-content-b1ef9cb6-c2b1-4c64-aaf9-72f598e42688) |
 |**Viva Topics**     | Viva Topics compiles information on topics such as a short description and related people, sites, files, and pages. All of this occurs within the flow of your work in Microsoft 365 and Office sites and apps.        | [Understanding Viva Topics](https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332)       |
-|**Viva Engage** | Viva Engage is a place to connect and engage with leaders, colleagues, and communities. Viva Engage creates opportunities for asking questions, sharing knowledge, attending virtual events, building social capital, and extending employee networks. |[Learn how to use Yammer communities for Microsoft Teams.](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) |
+|**Viva Engage** | Viva Engage is a place to connect and engage with leaders, colleagues, and communities. Viva Engage creates opportunities for asking questions, sharing knowledge, attending virtual events, building social capital, and extending employee networks. |[Getting started with Microsoft Viva Engage](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) |
 |**Viva Goals** | Viva Goals makes it easy for employees to view OKRs that are relevant to both them and your broader organization. Employees can also add their own OKRs and submit them to managers for review. Employees who own OKRs can conduct check-ins to update progress. |[Learn how to use Viva Goals with Microsoft Teams.](/viva/goals/use-ms-teams-integration) |
 |**Viva Sales** |Viva Sales automates data entry into your CRM system so your salespeople can focus on sales instead of spending their time on data entry. |[End user introduction to Viva Sales](https://support.microsoft.com/topic/introduction-to-microsoft-viva-sales-e1b89ece-e97f-4a9d-9cdc-9018fde0a6a5) |
 
