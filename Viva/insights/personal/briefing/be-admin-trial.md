@@ -21,7 +21,8 @@ audience: Admin
 # Admin preview
 
 >[!Important]
->The Briefing email is paused. Users can still access Viva Insights features in the Viva Insights app in Teams or on the web and in your Outlook add-in.
+>We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+
 
 As an admin for your organization, you are eligible to receive the Briefing email before people in your organization start receiving it.
 

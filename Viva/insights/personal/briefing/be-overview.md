@@ -18,6 +18,9 @@ manager: helayne
 
 # Briefing email overview
 
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+
 The Briefing email helps you stay in control of your calendar and be intentional about your day. Within two hours of your workday (as set up in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance)), you'll get an email about any relevant items to help you better prepare for the day ahead, including:
 
 * Outstanding commitments, requests, and follow-ups to and from other collaborators in email that might have fallen through the cracks.

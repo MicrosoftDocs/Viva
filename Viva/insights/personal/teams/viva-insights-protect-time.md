@@ -166,6 +166,9 @@ To create a plan through the Viva Insights app, follow these steps:
 
 #### Through the Briefing email
 
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still create plans through the Viva Insights app, as we discussed in the previous section.
+
 To create a plan through the Briefing email, follow these steps:
 
 1. Select **Book** to reserve time next week to catch up on certain kinds of activities—focus, messages, breaks, or learning.
