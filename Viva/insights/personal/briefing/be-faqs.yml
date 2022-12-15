@@ -13,6 +13,10 @@ title: Briefing email from Microsoft Viva FAQ
 summary: |
 
 sections:
+  - name: Pause
+    questions:
+    - question: Pause
+      answer: The Briefing email is paused. Users can still access Viva Insights features in the Viva Insights app in Teams or on the web and in your Outlook add-in.
   - name: For IT admins
     questions:
       - question: Who will get the email?
