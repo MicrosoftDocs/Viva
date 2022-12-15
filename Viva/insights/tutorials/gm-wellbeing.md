@@ -29,7 +29,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ## Best practices
 
-* Use [personal wellbeing data](../personal/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to recharge and disconnect.
+* Use [Protect time](../personal/teams/protect-time.md) to learn about your after-hours work habits and to encourage you to recharge and disconnect.
 * Utilize [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with coworkers' configured working hours.
 * Use [Teams Together mode](https://www.microsoft.com/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
 * Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.

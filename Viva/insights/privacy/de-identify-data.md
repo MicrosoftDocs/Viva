@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: De-identification of personal data in Viva Insights 
 description: De-identification of personal data in Microsoft Viva Insights
 author: madehmer

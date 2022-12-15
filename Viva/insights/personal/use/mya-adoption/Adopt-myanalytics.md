@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Learning collateral for Viva Insights adoption
 description: Learning materials that help you understand how to best adopt and use Viva Insights
 author: madehmer
