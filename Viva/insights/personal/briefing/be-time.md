@@ -30,18 +30,17 @@ To create a plan through the Briefing email, follow these steps:
 
 1. Select **Book** to reserve time next week to catch up on certain kinds of activities—focus, messages, breaks, or learning.
 
-    ![Screenshot that shows booking time through the Briefing email.](../teams/Images/briefing-email-book.png)
+    :::image type="content" alt-text="Screenshot that shows booking time through the Briefing email." source="../teams/Images/briefing-email-book.png":::
 
 2. When the email asks whether you want Viva Insights to automatically schedule this time for you, select **Yes**.
 
-    ![Screenshot that shows selecting automatic scheduling.](../teams/Images/briefing-email-schedule.png)
+    :::image type="content" alt-text="Screenshot that shows selecting automatic scheduling." source="../teams/Images/briefing-email-schedule.png":::
 
 3. Select **Edit settings** to configure your plan to match your needs.
 
-    ![Screenshot that shows selecting Edit settings.](../teams/Images/briefing-email-edit-settings.png)
+    image type="content" alt-text="Screenshot that shows selecting Edit settings." source="../teams/Images/briefing-email-edit-settings.png":::
 
 
-## Edit your plans in the Viva Insights app
 
 
 
