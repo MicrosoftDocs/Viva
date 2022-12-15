@@ -12,7 +12,8 @@ metadata:
 title: Briefing email from Microsoft Viva FAQ
 summary: |
 
-  Important: We've paused sending Briefing emails to make some improvements. You can still access the Viva Insights Outlook add-in or Viva Insights app in Teams for key functionality until this service resumes
+  >[!Important]
+  > We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
 
 sections:
   - name: For IT admins
