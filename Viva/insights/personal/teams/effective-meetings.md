@@ -63,7 +63,7 @@ Viva Insights calculates your meeting habits once a week. We evaluate four full 
 
 For example, let's say you go to your **Meeting habits** section on Wednesday, December 14th. You'd find meeting habits based on meeting data that started on Sunday, November 13th—this day *is* included in the calculation—and ended on Sunday, December 11th—this day *isn't* included in the calculation.
 
-![Screenshot that shows a calendar with labels "Calculation starts" on the 13th, "Calculation ends" on the next month's 10th, and "View date" four days later, on the 14th. ](./Images/effective-meetings-calculation-time.png)
+![Screenshot that shows a calendar with labels "Calculation starts" on the 13th, "Calculation ends" on the next month's 10th, and "View date" four days later, on the 14th. ](./Images/effective-meetings-calculation-time1.png)
 
 ### Meeting exclusions
 
