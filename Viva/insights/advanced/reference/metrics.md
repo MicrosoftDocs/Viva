@@ -17,7 +17,7 @@ search.appverid:
 
 # Advanced insights metrics
 
-The following metrics are available when creating analysis in the Advanced insights app with Microsoft Viva Insights, such as for custom Person queries and Power BI templates. The descriptions are listed alphabetically within each category.
+When you create queries in the Microsoft Viva Insights advanced insights app, you can add these metrics from the **Metrics** pane. We've listed the descriptions alphabetically within each category.
 
 | Category | Name | Description | Data type |
 |---|---|---|---|
@@ -78,6 +78,14 @@ The following metrics are available when creating analysis in the Advanced insig
 | <a name="focus-define"></a> **Focus**|  <a name="available-to-focus-hours-define"></a>  Available-to-focus hours | Hours remaining during working hours after excluding meetings and scheduled Teams calls for focused work. This metric helps organizations understand how meetings and scheduled Teams calls can impact what time is available for self-directed work. | Hour |
 | | <a name="uninterrupted-hours-define"></a> Uninterrupted hours | Sum of blocks one hour or longer where a person didn’t attend a meeting, read or send emails, read or send Teams chats, or initiate or receive Teams calls. In other words, Uninterrupted hours is the sum of blocks of time one hour or longer for deep thinking with no communication. This metric helps organizations understand whether employees have long blocks of uninterrupted time for deep thinking to solve new problems creatively and to fuel innovation. | Hour |
 | | <a name="interrupted-hours-define"></a> Interrupted hours | Available-to-focus hours interrupted by emails, Teams chats, or unscheduled Teams calls. Interrupted hours excludes one-hour or longer blocks of Uninterrupted hours for deep work. This metric helps organizations understand whether employees are choosing to use the blocks of time between meetings or scheduled Teams calls for emails, unscheduled calls, or Teams chats. | Hour |
+|<a name="meeting-hours-on-time-and-advanced-notice-define"></a> **Meetings on time and with advanced notice**| <a name="meeting-hours-with-12-to-24-hours-of-advanced-notice-define"></a> Meeting hours with 12 to 24 hours of advanced notice | Number of meeting hours that were scheduled more than 12 and less than 24 hours before the meeting start time. | Hour
+||<a name="meeting-hours-with-24-or-more-hours-of-advanced-notice-define"></a> Meeting hours with 24 or more hours of advanced notice |Number of meeting hours that were scheduled 24 hours or more before the meeting start time. | Hour|
+||<a name="meeting-hours-with-six-or-fewer-hours-of-advanced-notice-define"></a>Meeting hours with six or fewer hours of advanced notice | Number of meeting hours that were scheduled six hours or before the meeting start time. | Hour
+||<a name="meeting-hours-with-six-to-12-hours-of-advanced-notice-define"></a>Meeting hours with six to 12 hours of advanced notice | Number of meeting hours that were scheduled more than six and less than or equal to 12 hours before the meeting start time. | Hour|
+||<a name="meeting-hours-joined-on-time-define"></a>Meeting hours joined on time| Number of Teams meeting hours that were joined early or within five minutes after the scheduled start time. | Hour
+||<a name="meeting-hours-ended-on-time-define"></a> Meeting hours ended on time |Number of Teams meeting hours that were ended early or within one minute after the scheduled end time. | Hour|
+||<a name="meeting-hours-not-ended-on-time-define"></a>Meeting hours not ended on time |Number of Teams meetings hours that were ended after one minute past the scheduled end time. |Hour
+||<a name="meeting-hours-not-joined-on-time-define"></a>Meeting hours not joined on time |Number of Teams meetings hours that were joined after five minutes past the scheduled start time. | Hour
 |<a name="meeting-types-define"></a> **Meeting types** | <a name="conflicting-meeting-hours-define"></a> Conflicting meeting hours | Number of meeting hours where a person had overlapping meetings in their calendar. The count includes just the amount of time that overlaps. | Hour |
 | |  <a name="small-and-short-meeting-hours-define"></a>  Small and short meeting hours | Meeting hours with a duration of one hour or less that have at least two and up to eight invitees, including the organizer. | Hour |
 | |  <a name="small-and-short-recurring-meeting-hours-define"></a> Small and short recurring meeting hours | Recurring meeting hours with a duration of one hour or less that have at least two and up to eight invitees, including the organizer. | Hour |
@@ -93,3 +101,14 @@ The following metrics are available when creating analysis in the Advanced insig
 | | <a name="working-hours-call-hours-define"></a> Working-hours call hours | Number of hours a person spent in scheduled and unscheduled Teams calls, during working hours. | Hour |
 | | <a name="working-hours-chat-hours-define"></a> Working-hours chat hours | Number of hours a person spent in Teams chats during working hours. | Hour |
 | | <a name="working-hours-meeting-hours-define"></a> Working-hours meeting hours | Number of hours a person spent in meetings with at least one other person, during working hours. | Hour |
+
+
+## Exported metrics
+
+These metrics aren't selectable within the **Metrics** pane when you build queries, but they're included in query output.
+
+Applies to|Name| Description|
+|---|-------|------------|
+|Person queries |IsActive | Boolean value of "true" or "false" for each employee. Active employees send at least one email or Teams chat during the unit of time—day, week, or month<sup>1</sup>—defined by the query’s **Group by** setting. 
+
+<sup>1. You might notice differences when comparing metrics summarized by day with metrics summarized by week; a person can be active in a week, but not necessarily active seven days of the week.</sup>

@@ -47,13 +47,15 @@
 
 ## [Troubleshoot]()
 
-### [Can't find app in Teams mobile](troubleshoot/cant-find-app-in-teams-mobile.md)
+### [Can't find app in Teams mobile](/viva/troubleshoot/connections/cant-find-app-in-teams-mobile)
 
-### [Can't update app details](troubleshoot/cant-update-app-details.md)
+### [Can't find the app in the Teams admin center](/viva/troubleshoot/connections/cant-find-app-in-teams-admin-center)
 
-### [Can't upload package](troubleshoot/cant-upload-package.md)
+### [Can't update app details](/viva/troubleshoot/connections/cant-update-app-details)
 
-### [Error accessing app from Teams desktop](troubleshoot/error-accessing-app-from-teams-desktop.md)
+### [Can't upload package](/viva/troubleshoot/connections/cant-upload-package)
+
+### [Error accessing app from Teams desktop](/viva/troubleshoot/connections/error-accessing-app-from-teams-desktop)
 
 ## [Web parts]()
 

@@ -34,12 +34,33 @@ Your Microsoft 365 or Office 365 Enterprise subscription includes Viva Learning 
 To set up learning content sources in Viva Learning and manage individual licensing, you'll need these permissions:
 
 - [Microsoft Teams admin](/microsoftteams/using-admin-roles)
-- [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role)
+- [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role) (to configure SharePoint as a learning content source).
 - [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
 
 The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](overview-viva-learning.md).
 
 ## Set up Viva Learning
+
+Use the Microsoft 365 admin center to set up and manage settings for Viva Learning.
+
+
+
+The functionalities of the Microsoft 365 admin center include:
+
+- Manage settings for learning content sources
+- Assign knowledge administrator
+- Pin Learning in Teams
+- Manage availability in Teams admin center
+- Manage additional settings in Viva Learning through the Teams app
+
+![Screenshot of the Viva learn page.](/viva/media/learn-admin.png)
+
+In the above example you can:
+
+- See at a glance which settings are required or optional in the Priority column.
+- Select a setting in the list, and get a panel where you can set the options without leaving the page. In this example, you see the panel to assign knowledge managers.
+
+For more information, see [The Microsoft Viva admin experience](/viva/new-microsoft-viva-admin-experience).
 
 Viva Learning is enabled by default for all Microsoft Teams users in your organization. You can turn off or turn on Viva Learning at the organization level on the **Manage apps** page in the Microsoft Teams admin center. For more information, see [Manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps).
 

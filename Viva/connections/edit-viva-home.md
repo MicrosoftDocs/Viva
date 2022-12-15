@@ -33,7 +33,7 @@ Elements of the new Viva Connections home experience can be customized to fit yo
 > - The new Viva Connections home experience will be available for [Targeted release](/microsoft-365/admin/manage/release-options-in-office-365) customers in the near future and will become generally available to all customers in 2023.
 > - If you already have Viva Connections set up, the new home design uses current content and settings (like audience targeting) from your Dashboard and Resources and there will not be any impact to the mobile experience. 
 > - If your organization has a home site, you can choose to use it as the default home experience. The ability to choose the default experience will become available when the feature rolls out in November. More details will be shared soon.
-> - If you haven’t set up Viva Connections yet, the default experience includes cards on the Dashboard but otherwise doesn’t impact [the mobile experience](/viva-connections-overview.md#the-viva-connections-mobile-experience).
+> - If you haven’t set up Viva Connections yet, the default experience includes cards on the Dashboard but otherwise doesn’t impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new home experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams. 
 > - You must have member level permissions or higher to edit the new desktop experience.
 
@@ -43,13 +43,14 @@ The home experience focuses on the top tasks, tools, and resources that help peo
 
 ![Image of the full page home experience.](../media/connections/vc-full.png) 
 
-**Dashboard:** [The Dashboard](/viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
 
-**Feed:** [The Feed](/viva-connections-overview.md#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
+**Dashboard:** [The Dashboard](viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
 
-**Resources:** [The Resources](/viva-connections-overview.md#viva-connections-resources) experience enables navigation across portals and destinations.
+**Feed:** [The Feed](viva-connections-overview.md#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
 
- **Navigational elements:** Located in the top-right and top-left corners, [navigational elements](https://go.microsoft.com/fwlink/?linkid=2208247) help viewers easily get to-and-from other landing pages and [other Viva experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0).
+**Resources:** [The Resources](viva-connections-overview.md#viva-connections-resources) experience enables navigation across portals and destinations.
+
+**Navigational elements:** Located in the top-right and top-left corners, navigational elements help viewers easily get to-and-from other landing pages and [other Viva experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0).
 
 ### Summary of customizable elements 
 
@@ -115,7 +116,7 @@ Change the banner image in the header and set the focal point for the image. The
 
 ## Customize the Dashboard
 
-The [Viva Connections Dashboard](/create-dashboard.md#overview-of-how-to-create-a-dashboard-and-add-cards) provides fast and easy access to information and job-related tasks. Add and edit cards that help users quickly access the tools and resources they use in their day-to-day role. Cards on the Dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the Dashboard will also automatically be applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](/viva-connections-overview.md#the-viva-connections-mobile-experience). 
+The [Viva Connections Dashboard](create-dashboard.md#overview-of-how-to-create-a-dashboard-and-add-cards) provides fast and easy access to information and job-related tasks. Add and edit cards that help users quickly access the tools and resources they use in their day-to-day role. Cards on the Dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the Dashboard will also automatically be applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience). 
 
 >[!NOTE]
 > - If your organization already has Viva Connections set up, you’ll see your existing cards and settings displayed in the new home experience. 
@@ -132,10 +133,10 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 | Dashboard cards | How to use the card | Default card by license type | 
 | :------------------------| :-------------------| :----------------------|
 | [Approvals](create-dashboard.md#add-the-approvals-card) | Request time off, approve expense reports, and sign-off on documents.  | Frontline worker SKU        |
-| [Assigned tasks](/create-dashboard.md#add-the-assigned-tasks-card)  | Review and complete daily tasks assigned by your manager or team. | Frontline worker and Enterprise SKU        |
-| [Shifts](/create-dashboard.md#add-a-shifts-card) | Clock-in and clock-out of shifts and view upcoming shifts and breaktimes. | Frontline worker SKU        |
-| [Top news](/create-dashboard.md#add-the-top-news-card) | View the most important news from inside your organization. Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) get news posts from organizational news sites to display in this card.  | Frontline worker and Enterprise SKU           | 
-| [Viva Learning](/create-dashboard.md#add-a-viva-learning-card) | View recommended and required training courses. | Enterprise SKU           | 
+| [Assigned tasks](create-dashboard.md#add-the-assigned-tasks-card)  | Review and complete daily tasks assigned by your manager or team. | Frontline worker and Enterprise SKU        |
+| [Shifts](create-dashboard.md#add-a-shifts-card) | Clock-in and clock-out of shifts and view upcoming shifts and breaktimes. | Frontline worker SKU        |
+| [Top news](create-dashboard.md#add-the-top-news-card) | View the most important news from inside your organization. Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to get news posts from organizational news sites to display in this card.  | Frontline worker and Enterprise SKU           | 
+| [Viva Learning](create-dashboard.md#add-a-viva-learning-card) | View recommended and required training courses. | Enterprise SKU           | 
 | Viva Topics    | Share and contribute to your organization’s knowledge base. | Enterprise SKU           | 
 
 ### Preview the Dashboard before sharing with others
@@ -204,6 +205,40 @@ If you have owner permissions or higher, you can give access to new people and c
 > For customers who already have Viva Connections setup, your end users will be automatically routed to the new home experience in Teams if your organization decides to use the new design as the default experience. If your organization has a home site, you can choose to keep it as the default home experience when the new experience is available. More details will be shared soon. 
 
 When end users in your organization view the Viva Connections landing experience for the first time, they will have the option to see a basic walkthrough tutorial that shows them how to engage with content and navigational elements. Help end user [see what else they can do in the home experience](https://go.microsoft.com/fwlink/?linkid=2208247). 
+
+
+
+## Choose the default landing experience for Viva Connections desktop
+If your organization already has a SharePoint home site and you want to keep it as the landing experience for Viva Connections desktop, use the PowerShell command listed below. If you decide to change the default experience from a home site back to the Viva Connections home experience, you'll need to run this command again using the `$false` parameter. To run this cmdlet, you must be a tenant admin.
+
+1.	[Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+>[!NOTE]
+> - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell."
+
+
+2.	Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
+3.	Run `Set-SPOHomeSite -HomeSiteUrl <homesiteURL> -VivaConnectionsDefaultStart <$true/$false>`
+
+      - The parameter should be set to **$false** to use the new home experience as the default landing experience. 
+      - The parameter should be set to **$true** to use a home site as the default landing experience. 
+
+**Example:**
+<br>
+Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in this example.
+
+**To set the default landing to the home site:**
+
+Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true
+
+**To set the default landing to the new Viva Connections home experience:**
+
+Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false
+
+
+>[!NOTE]
+> It may take up to 15 minutes to see the updated default landing experience.
 
 ## Learn more
 

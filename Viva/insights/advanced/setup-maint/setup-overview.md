@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
 title: Viva Insights setup overview
 description: Get an overview of setup required for Viva Insights
 author: lilyolason
@@ -21,11 +20,11 @@ Depending on the insights you want to see and which features they require, the s
 
 ## Personal insights
 
-Your admin needs to set up Viva Insights for personal insights before you can start using the different personal insights apps that are available. For details, refer to the [Admin guide for personal insights](/viva/insights/personal/overview/mya-for-admins.md).
+Your admin needs to set up Viva Insights for personal insights before you can start using the different personal insights apps that are available. For details, refer to the [Admin guide for personal insights](/viva/insights/personal/overview/mya-for-admins).
 
 ## Teamwork habits
 
-**Teamwork habits** and its features are available to users with a Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments.md).
+**Teamwork habits** and its features are available to users with a Microsoft Viva Insights license with an applicable [service plan](/viva/insights/personal/overview/plans-environments).
 
 You can access **Teamwork habits** through the Viva Insights app on the web or in Teams. To access through Teams, you'll need to set up the Viva Insights app in Teams. For details, refer to  [Install, pin, and configure the app](../../org-team-insights/org-trends.md#install-pin-and-configure-the-app).
 
