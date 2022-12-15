@@ -38,7 +38,7 @@ To create a plan through the Briefing email, follow these steps:
 
 3. Select **Edit settings** to configure your plan to match your needs.
 
-    image type="content" alt-text="Screenshot that shows selecting Edit settings." source="../teams/Images/briefing-email-edit-settings.png":::
+    :::image type="content" alt-text="Screenshot that shows selecting Edit settings." source="../teams/Images/briefing-email-edit-settings.png":::
 
 
 
