@@ -12,6 +12,8 @@ metadata:
 title: Briefing email from Microsoft Viva FAQ
 summary: |
 
+# -> [!Important]
+# We've paused sending Briefing emails to make some improvements. You can still access the Viva Insights Outlook add-in or Viva Insights app in Teams for key functionality until this service resumes
 
 sections:
   - name: For IT admins
@@ -23,9 +25,7 @@ sections:
       - question: How can I manage who receives the email?  
         answer: |
           The Briefing email is on by default. You can use [PowerShell](be-admin.md) to enable/disable the Briefing email for individual users. You can set the default opt-in or opt-out option at the tenant level in the Microsoft 365 admin center. Users can also individually opt out by selecting the *Unsubscribe* link at the end of the Briefing email.
-          - >[!Important]
-          - We've paused sending Briefing emails to make some improvements. You can still access the Viva Insights Outlook add-in or Viva Insights app in Teams for key functionality until this service resumes
-
+         
       - question: Does the Briefing email comply with GDPR?
         answer: |
           Yes, Microsoft complies with GDPR requirements when providing the Briefing email.
