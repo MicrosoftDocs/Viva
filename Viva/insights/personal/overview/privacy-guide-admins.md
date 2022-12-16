@@ -19,9 +19,6 @@ audience: Admin
 
 # Privacy guide for admins
 
->[!IMPORTANT]
-> This article discusses the dashboard, which will be retired soon. Users will still find personal insights content in their Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md).
-
 By using data generated from everyday work in Microsoft 365, personal insights in Microsoft Viva Insights help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 This guide answers key questions on how Viva Insights processes information in a manner that protects employee privacy and supports compliance with local regulations, such as [General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx).
@@ -29,7 +26,7 @@ This guide answers key questions on how Viva Insights processes information in a
 ## Summary of key points
 
 * **Personal insights in Viva Insights is not designed to enable employee evaluation, tracking, automated decision making, profiling, or monitoring**.
-Viva Insights provides personal insights to individuals through a personalized dashboard, Briefing and Viva digest emails, Viva Insights Outlook add-in, and inline suggestions in Outlook. Viva Insights has no mechanism or option that allows anyone but the user to access the personalized information that is shown through these surfaces, unless that person purposefully and independently shares that information. Personal insights provided by Viva Insights cannot be used for automated decision making or for profiling.
+Viva Insights provides personal insights to individuals through an app in Teams and on the web, Briefing and Viva digest emails, Viva Insights Outlook add-in, and inline suggestions in Outlook. Viva Insights has no mechanism or option that allows anyone but the user to access the personalized information that is shown through these surfaces, unless that person purposefully and independently shares that information. Personal insights provided by Viva Insights cannot be used for automated decision making or for profiling.
 
 * **Personal insights in Viva Insights does not give employees access to new personally identifiable information on other coworkers**.
 Viva Insights converts data into personal insights by doing calculations on information that people generate just by going about their workday. Most of the personal insights data that employees see in Viva Insights is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.
@@ -44,14 +41,13 @@ Microsoft has designed Personal insights in Viva Insights to support customers�
 By default, any time a license with the Viva Insights service is assigned to a person, that person is automatically opted in. However, admins can configure Viva Insights to be "default off," so that people can choose for themselves whether to opt in after being assigned a license.
 
 * **Personal insights in Viva Insights reminds people that their data is private and secure**.
-A few days after a license with the Viva Insights service is assigned to a person, that person receives a welcome email that clearly lays out how Viva Insights works, with a reminder that all of their data is private. The other Viva Insights surfaces, such as digest emails and Briefing emails, and the personal dashboard, reinforce this message.
+A few days after a license with the Viva Insights service is assigned to a person, that person receives a welcome email that clearly lays out how Viva Insights works, with a reminder that all of their data is private. The other Viva Insights surfaces, such as digest emails and Briefing emails, and Viva Insights app in Teams and on the web, reinforce this message.
 
 ## How Personal insights in Viva Insights works
 
 Personal insights in Viva Insights are shown in the following ways:
 
-* [Viva Insights in Teams](../teams/viva-insights-home.md)
-* [Personal dashboard](../use/dashboard-2.md)
+* [Viva Insights in Teams and on the web](../teams/viva-insights-home.md)
 * [Briefing emails](../Briefing/be-overview.md)
 * [Viva Insights in Outlook](../use/add-in.md)
 * [Digest emails in Outlook](../use/email-digests-3.md)
@@ -112,7 +108,7 @@ Personal insights in Viva Insights provides flexible and configurable controls t
 
 * **Determine which people have access to Viva Insights** &ndash; Admins can determine which people can access and use Viva Insights by issuing licenses to only those people who should have access.
 
-* **Determine default opt-in settings** &ndash; Admins can configure Personal insights in Viva Insights to be "default off," which means that licensed employees must individually opt in to Viva Insights to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, Viva Insights can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the **Settings** menu. To learn more, see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level).
+* **Determine default opt-in settings** &ndash; Admins can configure Personal insights in Viva Insights to be "default off," which means that licensed employees must individually opt in to Viva Insights to gain access to their Viva Insights app and Outlook add-in and to contribute to incremental data. Alternatively, Viva Insights can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their app and to the Outlook add-in, but can subsequently opt out through the **Settings** menu. To learn more, see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level).
 
 Note that if default settings are used, the following applies:
 
@@ -129,9 +125,9 @@ The processing of an employee's personal data ceases when they are opted out, wh
 
 ### How employees opt in or out
 
-End users can [opt out through their Viva Insights app in Teams or on the web](../use/home-web.md#opt-in-or-out-of-features).
+End users can opt in or out of Viva Insights via the **Settings > Privacy** menu in the Viva Insights app in Teams or on the web, as shown in this example:
 
-
+![Opt out](../teams/images/opt-out.png)
 
 ## Microsoft Graph
 
@@ -141,13 +137,13 @@ The Microsoft Graph cannot be turned on or off globally through the Microsoft 36
 
 ## Employee experience with Viva Insights
 
-### Dashboard and Outlook add-in
+### App and Outlook add-in
 
-Within a few days of the assignment of a license with the Viva Insights service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-in license&mdash;the user’s Viva Insights [dashboard](../use/dashboard-2.md) and [Outlook Add-in](../use/add-in.md) become available.
+Within a few days of the assignment of a license with the Viva Insights service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-in license&mdash;the user’s Viva Insights [app in Teams and on the web](../teams/viva-teams-app.md) and [Outlook Add-in](../use/add-in.md) become available.
 
 ### Welcome email
 
-To notify employees that their dashboard and Outlook add-in have been enabled, Viva Insights delivers a welcome email within a few days of license assignment. The email introduces people to the application and has a reminder that Viva Insights is private and personal.
+To notify employees that their app and Outlook add-in have been enabled, Viva Insights delivers a welcome email within a few days of license assignment. The email introduces people to the application and has a reminder that Viva Insights is private and personal.
 
 ### Digest emails
 
@@ -170,7 +166,7 @@ As is the case with the full Microsoft 365 suite, Personal insights in Viva Insi
 3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**.
     Microsoft supports your need to honor user requests in the following ways.
 
-    * **Data export request**: Users can go to the Viva Insights dashboard while signed in to their Microsoft 365 account to view the insights that are generated about how they spend their time at work. They can take screenshots of Viva Insights insights if they want to have permanent copies of their information.
+    * **Data export request**: Users can go to the Viva Insights app while signed in to their Microsoft 365 account to view the insights that are generated about how they spend their time at work. They can take screenshots of Viva Insights insights if they want to have permanent copies of their information.
     * **Request to restrict processing**:
 
       * Use PowerShell to opt employees out of Viva Insights.

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Viva Insights Individual Adoption --Get started
 description: Viva Insights Individual Adoption by Kate Nowak --Get started section
 author: madehmer
