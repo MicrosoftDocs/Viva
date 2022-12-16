@@ -29,7 +29,7 @@ description: "Learn how to use Viva Connections experience by using Viva Connect
 
 Understand how and when users engage with components of the Viva Connections experience by using Viva Connections analytics. Review the number of people who have viewed and engaged with Viva Connections experiences, the content types users engage with, and the platforms used to access Viva Connections.
 
-People with site owner (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear   and then click **Manage Viva Connections**.
+People with site owner (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text=""::: and then click **Manage Viva Connections**.
 
 > [!NOTE]
 
@@ -44,11 +44,13 @@ People with site owner (or higher) permissions to your organization’s [home si
 
 | Component | Description |
 | :------------------- | :------------------- |
-
+| :::image type="content" source="../media/manage-vc-panel.png" alt-text=""::: | 1. Navigate to your organization’s home site.<br><br> 2. Select the **Settings** :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text=""::: icon.<br><br> 3. Then, select **Manage Viva Connections**.<br><br> 4. Next, go to the **Analytics** section and select **Download report**. |
 
 ## What’s in the usage report
 
 The usage report contains three separate tabs and sheets of data. Learn more about the data on each sheet and metric definitions.
+
+:::image type="content" source="../media/vc-analytics-spreadsheet.png" alt-text="":::
 
 **Sheet 1: Overall traffic**
 
@@ -80,9 +82,13 @@ You may see an error in the Analytics section. Review common errors to learn mor
 
 ### Not enough data to generate a report
 
+:::image type="content" source="../media/vc-analytics-error-data.png" alt-text="":::
+
 This message will display if your organization has not finished setting up Viva Connections or if there is not enough usage data to generate a report. Finish setting up Viva Connections and try to download the report again. [Learn more about how to set up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections).
 
 ### General error
+
+:::image type="content" source="../media/vc-analytics-error-setup.png" alt-text="":::
 
 Sometimes due to connectivity issues or other technical problems, the analytics report may not be available. Check your network connection, refresh the page, and try downloading the report again.
 
