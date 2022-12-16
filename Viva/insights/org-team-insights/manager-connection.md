@@ -61,7 +61,7 @@ For more best practices and how to develop a 1:1 conversation series, see [Best 
 
 ### Promote autonomy through guidance and support
 
-:::image type="content" alt-text="Screenshot that shows the 'Promote autonomy through guidance and support' insight,  with a percentage insight, a distribution of manager-employee coaching relationships, and a 'Take action' section" source="../Images/WpA/Use/org-trends-connection-empowerment.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Promote autonomy through guidance and support' insight,  with a percentage insight, a distribution of manager-employee coaching relationships, and a 'Take action' section." source="../Images/WpA/Use/org-trends-connection-empowerment.png":::
 
 #### Insights
 

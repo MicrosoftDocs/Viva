@@ -28,7 +28,7 @@ You can find the **Employee wellbeing** page in the Viva Insights app, within th
 
 ### Help employees disconnect
 
-:::image type="content" alt-text="Screenshot that shows the 'Help employees disconnect' insight with a percentage insight, a distribution of average weekly time spent collaborating after hours, and a 'Take action' section"source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Help employees disconnect' insight with a percentage insight, a distribution of average weekly time spent collaborating after hours, and a 'Take action' section."source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
 
 #### Insights
 
@@ -94,7 +94,7 @@ For more best practices and ways to establish a "no meeting" period, see [Best p
 
 ### Keep a pulse on collaboration overload
 
-:::image type="content" alt-text="Screenshot that shows the 'Keep a pulse on collaboration overload' insight with a percentage insight, a distribution of collaboration hours per week, and a 'Take action' section" source="../Images/WpA/Use/org-trends-wellbeing-capacity2.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Keep a pulse on collaboration overload' insight with a percentage insight, a distribution of collaboration hours per week, and a 'Take action' section." source="../Images/WpA/Use/org-trends-wellbeing-capacity2.png":::
 
 ### Insights
 
