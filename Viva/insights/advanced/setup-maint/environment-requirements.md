@@ -21,7 +21,7 @@ Environment requirements vary depending on the type of insights you view in Micr
 
 ## Personal insights
 
-The requirements for personal insights in Microsoft Viva Insights are described in [Plans and environments for personal insights](/viva/insights/personal/Overview/plans-environments.md).
+The requirements for personal insights in Microsoft Viva Insights are described in [Plans and environments for personal insights](/viva/insights/personal/Overview/plans-environments).
 
 ## Manager, leader, and advanced insights
 

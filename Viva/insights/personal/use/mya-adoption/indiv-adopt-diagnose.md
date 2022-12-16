@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Viva Insights Individual Adoption --Diagnose 
 description: Diagnose an issue to improve with Viva Insights
 author: lilyolason
