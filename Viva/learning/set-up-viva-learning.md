@@ -41,6 +41,27 @@ The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsof
 
 ## Set up Viva Learning
 
+Use the Microsoft 365 admin center to set up and manage settings for Viva Learning.
+
+
+
+The functionalities of the Microsoft 365 admin center include:
+
+- Manage settings for learning content sources
+- Assign knowledge administrator
+- Pin Learning in Teams
+- Manage availability in Teams admin center
+- Manage additional settings in Viva Learning through the Teams app
+
+![Screenshot of the Viva learn page.](/viva/media/learn-admin.png)
+
+In the above example you can:
+
+- See at a glance which settings are required or optional in the Priority column.
+- Select a setting in the list, and get a panel where you can set the options without leaving the page. In this example, you see the panel to assign knowledge managers.
+
+For more information, see [The Microsoft Viva admin experience](/viva/new-microsoft-viva-admin-experience).
+
 Viva Learning is enabled by default for all Microsoft Teams users in your organization. You can turn off or turn on Viva Learning at the organization level on the **Manage apps** page in the Microsoft Teams admin center. For more information, see [Manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps).
 
 To allow or block specific users in your organization from using Viva Learning, make sure Viva Learning is turned on for your organization on the **Manage apps** page in the Microsoft Teams admin center. Then create a custom app permission policy and assign it to those users. For more information, see [Manage app permission policies in Teams](/microsoftteams/teams-app-permission-policies).
