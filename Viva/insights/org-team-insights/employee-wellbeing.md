@@ -28,7 +28,7 @@ You can find the **Employee wellbeing** page in the Viva Insights app, within th
 
 ### Help employees disconnect
 
-:::image type="content" alt-text="Screenshot that shows the Help employees disconnect insights."source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Help employees disconnect' insight with a percentage insight, a distribution of average weekly time spent collaborating after hours, and a 'Take action' section."source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
 
 #### Insights
 
@@ -60,13 +60,13 @@ For more best practices and ways to protect employees after hours, see [Best pra
 
 ## Capacity
 
-### Focus without interruptions
+### Help teams find time to finish their work
 
-:::image type="content" alt-text="Screenshot that shows the Focus without interruptions insights." source="../Images/WpA/Use/org-trends-wellbeing-capacity.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Help teams find time to finish their work' insight with a percentage insight, a distribution of uninterrupted weekly time, and a 'Take action' section." source="../Images/WpA/Use/org-trends-wellbeing-capacity1.png":::
 
 #### Insights
 
-For **Focus without interruptions**, the **Employee wellbeing** page provides a percentage insight that shows how many employees have less than 10 hours of uninterrupted focus time per week and a visual insight that shows the distribution of uninterrupted weekly time.
+For **Help teams find time to finish their work**, the **Employee wellbeing** page provides a percentage insight that shows how many employees have less than 10 hours of uninterrupted focus time per week and a visual insight that shows the distribution of uninterrupted weekly time.
 
 Here's some information about how those metrics are calculated:
 
@@ -92,13 +92,13 @@ Here are ways to support focus time:
 
 For more best practices and ways to establish a "no meeting" period, see [Best practices for focus time](../tutorials/gm-focus.md).
 
-### Reduce meeting hours
+### Keep a pulse on collaboration overload
 
-:::image type="content" alt-text="Screenshot that shows the Reduce meeting hours insights" source="../Images/WpA/Use/org-trends-wellbeing-capacity-2.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Keep a pulse on collaboration overload' insight with a percentage insight, a distribution of collaboration hours per week, and a 'Take action' section." source="../Images/WpA/Use/org-trends-wellbeing-capacity2.png":::
 
 ### Insights
 
-For **Reduce meeting hours**, the **Employee wellbeing** page provides a percentage insight that shows how many employees spend most of their workweek collaborating and a visual insight that shows the distribution of collaboration hours per week.
+For **Keep a pulse on collaboration overload**, the **Employee wellbeing** page provides a percentage insight that shows how many employees spend most of their workweek collaborating and a visual insight that shows the distribution of collaboration hours per week.
 
 Here's some information about how those metrics are calculated:
 
@@ -128,13 +128,13 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find an additional insight on the **Employee wellbeing** tab. 
 
-#### Improve team cohesion
+### Drive team cohesion
 
 ![Screenshot that shows the team cohesion insight.](../Images/WpA/Use/org-leader-community.png)
 
-##### Insight
+#### Insight
 
-For **Improve team cohesion**, the **Employee wellbeing** page provides a percentage insight that shows the share of teams that are composed of tightly connected individuals and a visual insight that shows how these teams are connected across the larger organizational network.
+For **Drive team cohesion and alignment through shared activities and projects**, the **Employee wellbeing** page provides a percentage insight that shows the share of teams that are composed of tightly connected individuals and a visual insight that shows how these teams are connected across the larger organizational network.
 
 Here's some information about how those metrics are calculated:
 
@@ -148,7 +148,7 @@ Here's some information about how those metrics are calculated:
 
 <sup>\* Strong ties indicate how strong and tight a person's engagements are, based on both direct collaboration between two people and on the common network they share. (Collaboration activities consist of emails, meetings, Teams calls, and Teams chats.) For example, a "strong tie" between a manager and a direct report reflects both the amount of direct collaboration they have with each other and the time they both invest in connections that are common to both of them. Typically, a person has only a few strong ties because such ties take more effort to maintain. Type: Count.</sup>
 
-##### Best practices
+### Best practices
 
 Changes in work environments can leave employees feeling isolated from their colleagues. Feeling part of community is important for engagement and goal alignment as employees navigate change.
 
