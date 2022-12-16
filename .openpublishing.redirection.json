@@ -343,6 +343,11 @@
       {"source_path": "viva/insights/tutorials/power-bi-myorg.md",
       "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
       "redirect_document_id": false
-    }
+    },
+    {"source_path": "viva/insights/advanced/reference/supported-langugages.md",
+    "redirect_url": "/viva/insights/advanced/reference/supported-languages",
+    "redirect_document_id": false
+  }
+
     ]
 }
