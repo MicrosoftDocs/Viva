@@ -411,10 +411,6 @@
       "redirect_url": "https://support.microsoft.com/topic/review-dashboard-in-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4",
       "redirect_document_id": false
       },
-      {"source_path": "viva/insights/advanced/reference/supported-langugages.md",
-      "redirect_url": "/viva/insights/advanced/reference/supported-languages",
-      "redirect_document_id": false
-      },
     {
       "source_path": "viva/insights/personal/teams/effective-meetings.md",
     "redirect_url": "/viva/insights/personal/teams/productivity",
