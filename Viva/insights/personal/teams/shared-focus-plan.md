@@ -81,13 +81,7 @@ To leave a shared focus plan:
 >[!Note]
 >When you leave a shared focus plan, you don't remove anyone else from it. Other plan participants stay in the focus plan until they leave it.
 
-If you have a personal focus plan, you'll still be enrolled in it even after you leave the shared focus plan. To leave the personal focus plan or change its settings:
-
-1. Select the **ellipsis** (…) in the upper right corner of Viva Insights, and then select **Settings**.
-1. In **Settings**, select **Protect time**.
-1. In the **Configure your recurring plan for focus** section, either:
-    * Select **Leave plan** to leave the plan.
-    * Edit settings and select **Save changes**.
+If you have a personal focus plan, you'll still be enrolled in it even after you leave the shared focus plan. To leave the personal focus plan or change its settings, refer to our [Focus plan documentation](../use/focus-plan.md#to-change-or-leave-your-focus-plan).
 
 ### Check the details of your shared focus plan
 
