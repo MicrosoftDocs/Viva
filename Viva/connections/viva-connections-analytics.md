@@ -32,7 +32,6 @@ Understand how and when users engage with components of the Viva Connections exp
 People with site owner (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text=""::: and then click **Manage Viva Connections**.
 
 > [!NOTE]
-
 > - This analytics experience is only available to private preview customers. It is expected that this will become generally available in the first quarter of 2023.
 > - Currently, up to 28 days of usage data (if available) can be downloaded in an Excel (.xlxs) format.
 > - Site member permissions (or higher) to your organization’s [home site](/sharepoint/home-site) are required to download and view usage analytics for Viva Connections. 
