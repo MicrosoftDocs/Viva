@@ -390,10 +390,10 @@
 
       "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
       "redirect_document_id": false
-    },
-    {"source_path": "viva/insights/advanced/reference/supported-langugages.md",
-    "redirect_url": "/viva/insights/advanced/reference/supported-languages",
-    "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/advanced/reference/supported-langugages.md",
+      "redirect_url": "/viva/insights/advanced/reference/supported-languages",
+      "redirect_document_id": false
       },
       {"source_path": "viva/goals/creating-okrs.md",
       "redirect_url": "https://support.microsoft.com/topic/create-objectives-key-results-and-projects-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c",
