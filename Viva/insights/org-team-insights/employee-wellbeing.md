@@ -26,9 +26,9 @@ You can find the **Employee wellbeing** page in the Viva Insights app, within th
 
 ## Balance
 
-### Help employees disconnect
+### Protect time outside of working hours
 
-:::image type="content" alt-text="Screenshot that shows the 'Help employees disconnect' insight with a percentage insight, a distribution of average weekly time spent collaborating after hours, and a 'Take action' section."source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Protect time outside of working hours' insight with a percentage insight, a distribution of average weekly time spent collaborating after hours, and a 'Take action' section."source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
 
 #### Insights
 
