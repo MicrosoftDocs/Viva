@@ -31,7 +31,7 @@ The metrics are divided into three sections:
 
 1. [Adoption](#adoption) 
 1. [Engagement ](#engagement)
-1. [OKR best practices ](#okr-best-practices)
+1. [OKR practices ](#okr-practices)
 
 ## Adoption
 
@@ -69,7 +69,7 @@ In the breakdown view, you'll see breakdown of the metrics by the top-level team
 
 **Activities** – A daily plot of key activities like check-ins, OKRs created, OKRs closed, comments & reactions. Breakdown view will show the sum of activities over the selected time range. 
 
-## OKR Best Practices
+## OKR Practices
 
 :::image type="content" source="../media/goals/analytics-images/5-vivagoals-analytics-okr-practice.png" alt-text="VIew of the OKR practice panel in Viva Goals analytics.":::
 
