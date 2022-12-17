@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Organizational network analysis
 description: Explains how to use Organizational network analysis in concert with Viva Insights queries
 author: lilyolason
