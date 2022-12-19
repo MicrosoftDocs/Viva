@@ -43,13 +43,13 @@ Viva Goals allows bulk importing of Objectives, Key Results and Projects using a
 1. Read the instructions for using the template and click on the link to Download the excel template.
     1. The Excel template also includes all necessary instructions in the **Read Me** sheet.  
     1. Refer to **Basic Fields and Advanced Fields** sheet in excel to learn more about each field in detail.  
-1. Fill in the OKRs and Project details in the OKRs and Project tab and save the file with .xlsx 
+1. Fill in the OKRs and Project details in the OKRs and Project tab and save the file with the .xlsx extension.
 1. Drag and drop the filled-in Excel workbook in the file upload section (to the right) or click on the hyperlink to select the file from your local storage.
-1. You'll see a preview of few records from the file to ensure you have selected the right one 
+1. You'll see a preview of a few records from the file to ensure you have selected the right one.
 1. If the file is correct, click **Import**.
 
 > [!IMPORTANT]
-> The system may take some time to import the records from the file 
+> The system may take some time to import the records from the file.
 
 To view the details of import status and details for imports initiated in the past 28 days, select **View Status** from the banner that appears on top or click on your Profile photo and choose **Account Settings > My Import summary**.
 
@@ -60,11 +60,11 @@ For records that have not been imported, refer to the "reason" column in the Imp
  ## FAQ (Frequently Asked Questions)
 
 1. What are the File Formats supported? 
-    1. Only .xlsx
+    1. Only .xlsx files.
 
 1. Any limitations that users need to be aware of? 
     1. The number of rows in Excel should not be greater than 1000. 
-    1. File size limit of 5 MB. 
+    1. The file size limit is 5 MB. 
     1. File should not be protected. 
     1. Avoid changing the name of the sheet (for quick detection), renaming column headers, and removing columns. 
 
@@ -78,13 +78,13 @@ For records that have not been imported, refer to the "reason" column in the Imp
     1. The parent and the child OKR should exist in the Excel sheet.  
     1. Copy the OKR Reference value of the parent to the Parent OKR field of the Child.
 
-1. How can users get to know the status of their import progress? 
+1. How can users find the status of their import progress? 
     1. Once the import is complete, an email will be sent to the user with a summary. A link to the import summary page will be included where users can download the import status excel file. This file provides status information for each OKR in the uploaded Excel file. 
 
 1. How long should it take to complete the import once the user submits the file? 
     1. Depending on the file size and number of rows, it can take up to 30 minutes. 
 
-1. Which users are allowed to import OKRs from an excel file? 
+1. Which users are allowed to import OKRs from an Excel file? 
     1. The user needs to have one of these roles to be eligible to see the option of OKR import: 
         1. Org administrator 
         1. Team administrator 
