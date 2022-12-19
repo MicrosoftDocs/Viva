@@ -65,7 +65,7 @@ For records that have not been imported, refer to the "reason" column in the Imp
 1. Any limitations that users need to be aware of? 
     1. The number of rows in Excel should not be greater than 1000. 
     1. The file size limit is 5 MB. 
-    1. File should not be protected. 
+    1. The file should not be protected. 
     1. Avoid changing the name of the sheet (for quick detection), renaming column headers, and removing columns. 
 
 1. Where can users learn what columns are needed, what should be filled in, and other details? 
