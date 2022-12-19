@@ -1,9 +1,9 @@
 ---
 title: Inviting and removing a user
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasnaders
+author: rasnaders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
