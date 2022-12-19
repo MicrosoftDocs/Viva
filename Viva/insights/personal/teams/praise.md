@@ -36,17 +36,19 @@ To send praise, open the praise feature in one of the following ways:
 
    :::image type="content" source="images/praise-send.png" alt-text="Screenshot that shows Praise on Home page.":::
 
-1. When the praise page opens, the **Title** defaults to **Awesome**. If you want to send a different title with your praise message, select a new choice.
+1. When the praise page opens, add the name of the person you want to praise.
 
-    :::image type="content" source="images/send-praise3.png" alt-text="Screenshot that shows selecting a praise badge.":::
+<!--Per Rachel, sharing will go out in January; LPC will go out in Feb-->
 
-1. Add the name of the person you want to praise.
+3. (Optional) Send a copy of this praise to someone else in your organization.
 
 1. Choose the visibility of your praise—either just between you and the recipient, or to everyone in a Teams channel: 
 
    * To make the praise message appear privately in a 1:1 chat between you and the recipient, select **1:1 chat**. This option is available only if you and the recipient have already participated in a Teams chat together. 
 
    * To let all the members of a Teams channel or subchannel see the praise message, select **Teams channel**. This option is available only if all of the praise recipients are participants in the Teams channel or subchannel that you choose.
+
+1. Pick a **Title**, or leave it at the default choice: **Awesome**.
 
 1. (Optional) In the **Note** field, add a personalized note.
 
@@ -56,6 +58,8 @@ To send praise, open the praise feature in one of the following ways:
    On the left panel, review what your praise message will look like. If you need to make any edits, select **Edit**. Change the title choice, the recipients list, or the personalized note.
 
 1. When it's ready to go, select **Send**.
+
+    :::image type="content" source="images/home-praise-editor.png" alt-text="Screenshot that shows selecting a praise badge.":::
 
 ### Send praise from the Teams content pane using the praise messaging extension
 
