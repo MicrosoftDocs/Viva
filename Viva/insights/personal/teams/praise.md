@@ -87,9 +87,9 @@ To use the Teams messaging extension:
 
 ### Praise feed
 
-The praise feed shows your six most recent praise messages. To only see praise you've **Received** or praise you've **Sent**, use the dropdown menu.
+The praise feed shows your six most recent praise messages. To only see praise you've **Received**, praise you've **Sent**, or praise messages that other people have **Shared with you**, use the dropdown menu.
 
-   :::image type="content" source="images/praise-feed.png" alt-text="Screenshot that shows the praise feed and the All praises, Received, and Sent dropdown options.":::
+   :::image type="content" source="images/home-praise-all-praises.png" alt-text="Screenshot that shows the praise feed and the All praises, Received, and Sent dropdown options.":::
 
 ### Find the praise feature
 
@@ -159,6 +159,30 @@ On the right section of the praise page, you'll see praise recommendations for y
 Praise trends is available to you if you have a Viva Insights subscription. Use this section to see analytics about your praise messages, like praise sent and received counts, your biggest fans, and top praises received. Only you can see this information.
 
 :::image type="content" source="images/praise-trends-list.png" alt-text="Screenshot that shows Praise trends.":::
+
+
+## Praise highlights in the profile card
+
+When you receive praise, the title and note will be visible on your profile card in Teams. People in your organization can view your praise details.
+
+:::image type="content" source="images/praise-profile-card1.png" alt-text="Screenshot that shows praise highlights in the Teams profile card, above 'Send a quick message'":::
+
+
+### To turn off praise highlights
+
+To prevent praise information from showing on your profile card:
+
+1.	Select the ellipses (**...**) at the top of any page, then select **Settings**.
+2.	Select **Praise** from the left pane.
+3.	In the **Praise visibility** settings, turn off **Show praise in profile card**.
+
+:::image type="content" source="images/praise-profile-settings.png" alt-text="Screenshot that shows the Praise visibility settings card, which contains a toggle beneath the header, 'Show praise in profile card'":::
+
+## Related topics
+
+[Viva Insights introduction](viva-teams-app.md)
+
+
 
 ## Related topics
 
