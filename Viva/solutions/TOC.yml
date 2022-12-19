@@ -43,12 +43,6 @@
         href: slack-integration.md
       - name: Multitenant solution
         href: complex-organization-insights.md
-    - name: Organizational network analysis
-      items:
-      - name: Organizational network analysis
-        href: ./organizational-network-analysis/organizational-network-analysis.md
-      - name: Organizational network analysis - Gephi
-        href: ./organizational-network-analysis/gephi-for-ona.md
     - name: Engage and Retain Employees
       items:
       - name: Yume
