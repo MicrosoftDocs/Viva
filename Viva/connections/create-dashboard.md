@@ -232,11 +232,29 @@ To create custom experiences on Viva Connections Dashboard and Viva Connections 
 
 
 ### Add a 3rd party card
-There are two ways to acquire third-party developers and partners solution package and add them on the Viva Connections dashboard.
+There are three ways to get third-party apps and solutions integrated with the Viva Connections dashboard. Below is an example of a third-party card.
 
 ![Example of a third-party card.](../media/connections/third-party-card-example.png)
 
-#### Option 1: Acquire the app from a Microsoft AppSource or the SharePoint store
+#### Option 1: Discover and request apps from the Viva Connections card toolbox
+Third-party cards and an entry point to browse more cards in the app store will automatically display in the card toolbox. Depending on your level of permissions, you may need to request the app before it can be used on the dashboard. [Learn more about managing third-party apps](/sharepoint/use-app-catalog).
+
+ >[!NOTE]
+> - This feature will become available to all customers by the end of January 2023.
+> - Site owners managing the Viva Connections dashboard will need to request third-party apps before they are available in the card toolbox.
+> - Some third-party apps require a service plan agreement with your organization.
+
+   ![Screenshot of the card toolbox section that displays third party cards.](../media/connections/third-party-card-toolbox.png)
+
+
+1.	While in edit-mode, select **+ Add** card from the dashboard. 
+2.	You’ll see third-party options in the **Suggested cards** section. Select one of the cards that’s displayed or browse more cards by selecting **Add more cards**.
+3.	Request the cards you’d like to add to the toolbox and the requests will be sent to the App Catalog Admin for their approval.
+4.	You will receive an email to confirm if your request has been approved or denied.
+5.	Once your request has been approved, refresh the page  and you’ll see the new card display in the toolbox.
+
+
+#### Option 2: Acquire the app from a Microsoft AppSource or the SharePoint store
 You can acquire apps from third- party developers by browsing the [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=sharepoint) or [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) (recommended).
 
 - If you are building a dashboard, you can [request the app directly](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289), but you will need approval from an admin of the tenant-level app catalog to continue with the installation
