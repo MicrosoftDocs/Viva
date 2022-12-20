@@ -57,7 +57,7 @@ You can create your focus plan in two places:
 
    ![Screenshot that shows Want focus time every day? insight](../../Images/mya/use/focus-outlook-insight.png)
 
-2. Select **Book time now**.
+2. Select **Book now**.
 
    ![Screenshot that shows the Create your focus plan window with Book time now option.](../../Images/mya/use/focus-outlook-insight-enroll.png)
 
@@ -65,7 +65,7 @@ You can create your focus plan in two places:
 
    ![Screenshot that shows the Outlook add-in's focus plan confirmation window.](../../Images/mya/use/focus-outlook-insight-all-set.png)
 
-Now that your focus plan is underway, you can do the following: 
+Now that your focus plan is underway, you can: 
 
 * [Check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan).
 * [Change or leave your focus plan](#to-change-or-leave-your-focus-plan).
@@ -159,11 +159,13 @@ After you enroll in a focus plan, the content in your digest email will be tailo
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
-![Add-in feed card.](../../Images/mya/use/add-in-feed-card.png)
+:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus1.png" alt-text="Add-in feed card.":::
+
 
 Selecting this card shows the following options, with which you can book focus time on individual days or for several days at once:  
 
-![Book focus time inline.](../../Images/mya/use/book-focus-time-nudge.png)
+:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus-pane.png" alt-text="Book focus time pane.":::
+
 
 ## Calendar color settings
 
