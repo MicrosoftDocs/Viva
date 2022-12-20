@@ -159,12 +159,12 @@ After you enroll in a focus plan, the content in your digest email will be tailo
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
-:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus1.png" alt-text="Add-in feed card.":::
+:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus1.png" alt-text="Screenshot that shows the add-in feed card.":::
 
 
 Selecting this card shows the following options, with which you can book focus time on individual days or for several days at once:  
 
-:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus-pane.png" alt-text="Book focus time pane.":::
+:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus-pane.png" alt-text="Screenshot that shows the book focus time pane.":::
 
 
 ## Calendar color settings
