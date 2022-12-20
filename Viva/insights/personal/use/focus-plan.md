@@ -119,7 +119,7 @@ The following sections provide information that can help you as you create or mo
 
 ### Automatic booking of focus time
 
-After you set automatic booking as your preference, Viva Insights starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as a different color and is labeled "Focus time."
+After you set automatic booking as your preference, Viva Insights starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as "Focus time."
 
 Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day meetings, booked personal time, or appointments.
 
