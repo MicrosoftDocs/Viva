@@ -20,7 +20,8 @@ This article talks about the third option: importing data.
 
 ## Workflow
 
-1. You and the Microsoft 365 IT admin create and set up the import application. 
+1. The Microsoft 365 IT admin registers a new app in Azure.
+1. The Insights admin sets up the automated import.
 1. The data source admin pushes data to Viva Insights.
 1. The app validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
 1. The app processes your data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).)
@@ -29,53 +30,66 @@ After the data successfully validates and processes, the overall data-import tas
 
 ## App setup
 
-### Register the app in Azure Active Directory
 
 *Applies to: Microsoft 365 admin*
 
+>[!Note]
+>For more information about registering an app in Azure, refer to [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app#register-an-application).
+
 1. From the Microsoft admin center's left rail, select **All admin centers**. This option appears as the last one on the list.
 
-    ![all admin centers](../images/admin-di-all-admin-centers.png)
+    :::image type="content" source="../images/admin-di-all-admin-centers.png" alt-text="all admin centers":::
 
 1. Select **Azure Active Directory**.
 
 1. Create a new app registration:
     1. In the top toolbar, select **Add > App registration**.
 
-        ![add new app registration](../images/admin-di-add-new-registration.png)
+        :::image type="content" source="../images/admin-di-add-new-registration1.png" alt-text="add new app registration":::
 
     2. Give your app a name. 
     1. Under **Supported account types**, leave the first radio button, **Accounts in this organizational directory only ([Your organization] only - Single tenant)**, selected. Select **Register**.
 
-        ![name app](../images/admin-di-registration.png)
+        :::image type="content" source="../images/admin-di-registration1.png" alt-text="name app":::
+    1. On the resulting screen, copy down the **Application (client) ID**. 
+    >[!Important]
+    >Keep this app ID handy. You'll need to send it to the Insights admin later.
+1. Add a certificate:
+    1.  Select **Add a certificate or secret**.
 
-1. On the resulting screen, copy down the **Application (client) ID**. You'll need to give this to the Insights admin later. 
-
-1. Upload a certificate:
-    1. To the right of **Client credentials**, select **Add a certificate or secret**.
-
-    ![ID and certificate/secret](../images/admin-di-id-secret.png)
+        :::image type="content" source="../images/admin-di-secret.png" alt-text="Application (client) ID":::
 
     2. Select **Upload certificate**.
+    
+        :::image type="content" source="../images/admin-di-upload-cert.png" alt-text="ID and certificate/secret":::
 
-    ![ID and certificate/secret](../images/admin-di-upload-cert.png)
 
     3. Upload the certificate from your files and add a **Description**. Select the **Add** button.
 
-    ![ID and certificate/secret pane](../images/admin-di-upload-cert-pane.png)
+        :::image type="content" source="../images/admin-di-upload-cert-pane1.png" alt-text="ID and certificate/secret pane":::
 
-1. Remove Microsoft Graph permissions:
+<!--do they already have this ready? Should we mention that they'll need it at the beginning?-->
+5. Remove Microsoft Graph permissions:
     1. Select **API permissions** from the left rail.
     2. Select the ellipses (***...***) to the right of **Microsoft Graph**. 
     3. Select **Remove permission**.
 
-        ![ID and certificate/secret pane](../images/admin-di-upload-remove-perms.png)
+        ![ID and certificate/secret pane](../images/admin-di-upload-remove-perms1.png)
 
     1. Confirm removal.
-    
+    <!--Should we explain why we're removing it?-->
 1. Give the Insights admin the app ID you generated in step 4.
 
+## Import setup
 
+*Applies to: Insights admin*
+
+1. Go to the Organizational data tab in the Viva Insights admin portal.
+1. Start the import from one of two places: the **Data hub** tab or the **Data connections** tab. 
+    1. From **Data hub**:
+        1. Under Automated organizational data import, select the Start button.
+    1. From **Data connections**:
+        1. Next to **Current source**, select the **Manage** button.
 
 
 ## Validation
