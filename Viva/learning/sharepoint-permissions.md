@@ -26,7 +26,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
  > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bHnt]  
 
 >[!NOTE]
-> While only **Microsoft 365** and **Mail-enabled security** group types are supported, it's recommended that you use a **Microsoft 365 Group.** Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
+> Only the **Microsoft 365** group type is supported. Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
 
 1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
 
