@@ -149,16 +149,13 @@ During focus time, your status in Teams and Skype for Business will automaticall
 
 For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d).
 
-<!--### Digest emails and Viva Insights Outlook add-in
-
-Confirm with Yvonne whether this still exists in the add-in)
+### Digest emails and Viva Insights Outlook add-in
 
 #### Focus plan digest
 
 After you enroll in a focus plan, the content in your digest email will be tailored based on your participation in the plan. It might, for example, remind you to schedule focus time for days on which none is set aside.
 
 #### Viva Insights add-in
-
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
