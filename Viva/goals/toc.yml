@@ -31,12 +31,18 @@ items:
       href: configure-okr-model.md
     - name: Configure your OKR creation permissions in Viva Goals
       href: configure-okr-create-permissions.md
+    - name: Import OKRs and Initiatives/Projects with Viva Goals
+      href: import-okrs-projects.md
     - name: Manage OKR Time Periods
       href: managing-okr-time-periods.md
     - name: Configure check-in reminders and notifications
       href: check-in-reminders.md
+    - name: OKR Program Analytics
+      href: viva-goals-analytics.md
     - name: Roles and Permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
+    - name: Viva Goals language support
+      href: viva-goals-language-support.md
 - name: MS Teams
   items:
         - name: Collaborate with Viva Goals in MS Teams
