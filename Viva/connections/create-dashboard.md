@@ -272,7 +272,7 @@ You can request apps directly from the Viva Connections third-party developers a
 
 ### Add a Microsoft app as a card on the Dashboard
 
-A Microsoft app card allows you to create a card that links to Microsoft apps e.g., Shifts, Approvals, Task. Microsoft apps cards will be available Out of the Box when Viva Connections is enabled.
+A Microsoft app card allows you to create a card that links to Microsoft apps e.g., Shifts, Approvals, Task. Microsoft apps cards will be available out of the box when Viva Connections is enabled.
 
 1. While in edit mode, select **+ Add a card** from the Dashboard.
 
@@ -395,8 +395,6 @@ Add a web link card when you want your users to go to an internal or external li
 4. When a card is successfully audience targeted, you’ll see a **people** icon in the lower-left corner of the card.
 
    ![Audience targeting confirmation icon.](../media/connections/audience-targeting-icon.png)
-
-
 
 ### Preview your dashboard to see how it will display for different audiences
 
