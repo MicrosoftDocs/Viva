@@ -119,7 +119,7 @@ The following sections provide information that can help you as you create or mo
 
 ### Automatic booking of focus time
 
-After you set automatic booking as your preference, Viva Insights starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as a different color and is labeled "Focus time."
+After you set automatic booking as your preference, Viva Insights starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as "Focus time."
 
 Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day meetings, booked personal time, or appointments.
 
@@ -149,16 +149,13 @@ During focus time, your status in Teams and Skype for Business will automaticall
 
 For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d).
 
-<!--### Digest emails and Viva Insights Outlook add-in
-
-Confirm with Yvonne whether this still exists in the add-in)
+### Digest emails and Viva Insights Outlook add-in
 
 #### Focus plan digest
 
 After you enroll in a focus plan, the content in your digest email will be tailored based on your participation in the plan. It might, for example, remind you to schedule focus time for days on which none is set aside.
 
 #### Viva Insights add-in
-
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
