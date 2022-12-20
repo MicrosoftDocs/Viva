@@ -246,7 +246,6 @@ Third-party cards and an entry point to browse more cards in the app store will 
 
    ![Screenshot of the card toolbox section that displays third party cards.](../media/connections/third-party-card-toolbox.png)
 
-
 1.	While in edit-mode, select **+ Add** card from the dashboard. 
 2.	You’ll see third-party options in the **Suggested cards** section. Select one of the cards that’s displayed or browse more cards by selecting **Add more cards**.
 3.	Request the cards you’d like to add to the toolbox and the requests will be sent to the App Catalog Admin for their approval.
