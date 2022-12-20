@@ -1,6 +1,6 @@
 ---
-title: Upload organizational data (first upload)
-description: Learn how to first upload your data to the Viva Insights advanced insights app. 
+title: Import organizational data
+description: Learn how to import your data to the Viva Insights advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -12,96 +12,75 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Upload organizational data (first upload)
+# Import organizational data
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through a .csv file that you as an admin upload; or through an automated data import that you set up.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through a .csv file that you as an Insights admin upload; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
 
-This article talks about the second option: uploading a .csv file.
-
+This article talks about the third option: importing data.
 
 ## Workflow
 
-After you prepare the source data, the uploading process follows these steps, which are described in the following sections:
-
-1. You upload the .csv file.
-1. You map fields.
+1. You and the Microsoft 365 IT admin create and set up the import application. 
+1. The data source admin pushes data to Viva Insights.
 1. The app validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
 1. The app processes your data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).)
 
-After the data successfully validates and processes, the overall data-upload task is complete.
+After the data successfully validates and processes, the overall data-import task is complete.
 
-## File upload
+## App setup
 
-To upload your .csv file, follow these steps:
+### Register the app in Azure Active Directory
 
-1. In the **Organizational data** page, select **.csv upload**.
-    ![Organizational data page hub.](../images/admin-data-hub.png)
-1. Enter an **Upload name**.
-1. Under **Upload file**, select the .csv file you want to upload. 
+*Applies to: Microsoft 365 admin*
+
+1. From the Microsoft admin center's left rail, select **All admin centers**. This option appears as the last one on the list.
+
+    ![all admin centers](../images/admin-di-all-admin-centers.png)
+
+1. Select **Azure Active Directory**.
+
+1. Create a new app registration:
+    1. In the top toolbar, select **Add > App registration**.
+
+        ![add new app registration](../images/admin-di-add-new-registration.png)
+
+    2. Give your app a name. 
+    1. Under **Supported account types**, leave the first radio button, **Accounts in this organizational directory only ([Your organization] only - Single tenant)**, selected. Select **Register**.
+
+        ![name app](../images/admin-di-registration.png)
+
+1. On the resulting screen, copy down the **Application (client) ID**. You'll need to give this to the Insights admin later. 
+
+1. Upload a certificate:
+    1. To the right of **Client credentials**, select **Add a certificate or secret**.
+
+    ![ID and certificate/secret](../images/admin-di-id-secret.png)
+
+    2. Select **Upload certificate**.
+
+    ![ID and certificate/secret](../images/admin-di-upload-cert.png)
+
+    3. Upload the certificate from your files and add a **Description**. Select the **Add** button.
+
+    ![ID and certificate/secret pane](../images/admin-di-upload-cert-pane.png)
+
+1. Remove Microsoft Graph permissions:
+    1. Select **API permissions** from the left rail.
+    2. Select the ellipses (***...***) to the right of **Microsoft Graph**. 
+    3. Select **Remove permission**.
+
+        ![ID and certificate/secret pane](../images/admin-di-upload-remove-perms.png)
+
+    1. Confirm removal.
     
-    Make sure that the .csv file is:
+1. Give the Insights admin the app ID you generated in step 4.
 
-    * UTF-8 encoded
-    * Not open in a different program when you begin the upload process
-    * Not larger than 1 GB
-![Screenshot that shows Prepare and upload data option.](../images/admin-prepare-upload.png)
 
->[!Note]
-> To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv template** link.
 
-4. To upload, select **Next**. To cancel the upload, select **Cancel**. 
-
-## Field mapping
-
-After you upload your file, you’ll see the field mapping page. To view insights from your data, you need to map fields (columns) from your .csv file to field names that the app recognizes.
-
-There are two types of fields: *System default* and *Custom*.
-
-### System default (required or optional)
-
-System default fields can be either *required*—which are **PersonId**, **ManagerId**, and **Organization**—or *optional*. These fields represent attributes that Viva Insights knows and uses in specific calculations beyond grouping and filtering.
-
->[!Important]
-> Every required field needs to have a valid, non-null value in every row. You need to map all required Viva Insights values, even if the column headers in your .csv files don’t exactly match the Viva Insights value name.
-
-Optional fields are commonly encountered system fields that the app suggests for use. You don’t need to map optional fields if your organization doesn’t have data for them.
-
-To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Optional” label.
-
-![Screenshot that shows Viva attributes and the mapped and unmapped fields.](../images/admin-attributes1.png)
-
-### Custom
-
-Custom fields are optional attributes you can create. The following section, step 2a, explains mapping and naming a custom attribute.
-
-#### To map fields
-
-Follow the steps below to map your .csv data to Viva Insights attributes. 
-
->[!Important]
->All .csv header fields, which appear under **Source column name**, need to be mapped before you can move on to the next part of the upload process.
-
-1. For each required Viva Insights field:
-    1. Find the corresponding column header under **Source column name**. To prevent a validation error later, make sure this column is the right data type.
-    2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a. 
-     ![Screenshot that shows mapping Viva attributes.](../images/admin-map.png)
-
-    >[!Tip]
-    > Hover over an attribute name to read its description.
-    > ![Screenshot that shows hovering over an attribute.](../images/admin-hover-attribute.png)
-
-2. Repeat steps 1a and 1b for custom and optional fields.
-    * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it. For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
-        >[!Important]
-        >Don't upload **TimeZone** as a column. You'll get an error.
-
-1. After you’ve completed mapping your attributes, select the **Next** button in the bottom left of the screen.
-
-After you map fields, the app validates and processes your data as described in the following sections. If validation and processing are successful, your input to the upload process is complete.
 
 ## Validation
 
-After you’ve mapped attributes, the app starts validating your data.  
+After  
 
 ![Screenshot that shows validation in progress.](../images/admin-validate.png)
 
