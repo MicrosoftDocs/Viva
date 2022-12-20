@@ -23,14 +23,16 @@ description: Learn how to add SharePoint as a learning content source for Micros
 
 You can configure SharePoint as a learning content source to make your organization's own content available in Viva Learning.
 
->[!NOTE]
+> [!NOTE]
 > Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Any content you add to Viva Learning, such as SharePoint-hosted content, is subject to the privacy and service terms associated with that content.
+
 
  > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58RgE]  
 
 ## Overview
 
 The knowledge admin (or global administrator) provides a site URL to where the [Learning Service](configure-sharepoint-content-source.md#learning-service) can create an empty centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in Viva Learning.
+
 
 ![Diagram that shows the process of getting content from folders to a SharePoint list into Viva Learning, as described in the paragraph above.](../media/learning/sp-dataflow-infographic.png)
 
@@ -52,7 +54,12 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 
 ## Configure SharePoint as a source
 
-You must be a Microsoft 365 global administrator or knowledge admin to perform these tasks.
+>[!NOTE]
+> You must be a Microsoft 365 global administrator or knowledge admin to perform these tasks.
+
+>[!NOTE]
+> The admin tab is only available for admins with a Viva Suite or Viva Learning license.
+
 
 To configure SharePoint as a learning content sources in for Viva Learning, follow these steps:
 
@@ -133,12 +140,18 @@ Create a folder to store learning content for your organization.
 You can add links to both internal content from SharePoint and external content from sites such as YouTube or Vimeo that will pull through into Viva Learning.
 
 1. In your folder, select **New** and then choose **Link**.
-    ![Screenshot of the documents library with New and Link selected.](../media/learning/sp-new-link.png)
+
+    :::image type="content" alt-text="Screenshot of the documents library with New and Link selected." source="../media/learning/sp-new-link.png" lightbox="../media/learning/sp-new-link.png":::
+
 2. Add the URL and choose a name.
-    ![Screenshot of the new link pane with a URL and name filled in.](../media/learning/sp-linkname.png)
+
+   ![Screenshot of the new link pane with a URL and name filled in.](../media/learning/sp-linkname.png)
+
 3. Select **Create**.
 4. The link will show up in your document library with the name you selected.
-    ![Screenshot of the documents library with a new file called Azure.url.](../media/learning/sp-linkinlibrary.png)
+
+   ![Screenshot of the documents library with a new file called Azure.url.](../media/learning/sp-linkinlibrary.png)
+
 5. The linked object will show up in the Viva Learning app.
 
 When users access the content from Viva Learning, they'll be taken to the URL of the content in their browser.

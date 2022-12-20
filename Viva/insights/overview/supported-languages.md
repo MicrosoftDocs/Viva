@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Language support and guidelines for Advanced insights in Viva Insights
 description: Describes the languages supported by Advanced insights within Microsoft Viva Insights
 author: madehmer
