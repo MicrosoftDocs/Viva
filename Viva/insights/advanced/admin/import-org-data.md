@@ -47,11 +47,14 @@ After the data successfully validates and processes, the overall data-import tas
 
         :::image type="content" source="../images/admin-di-add-new-registration1.png" alt-text="add new app registration":::
 
-    2. Give your app a name. 
-    1. Under **Supported account types**, leave the first radio button, **Accounts in this organizational directory only ([Your organization] only - Single tenant)**, selected. Select **Register**.
+    2. On the resulting screen:
+        1. Give your app a name. 
+        1. Under **Supported account types**, leave the first option, **Accounts in this organizational directory only ([Your organization] only - Single tenant)**, selected. 
+        1. Select the **Register** button at the bottom of the screen.
 
-        :::image type="content" source="../images/admin-di-registration1.png" alt-text="name app":::
-    1. On the resulting screen, copy down the **Application (client) ID**. 
+        :::image type="content" source="../images/admin-di-registration3.png" alt-text="name app":::
+
+    1. When you arrive back at the **Overview** screen, copy down the **Application (client) ID**. 
     >[!Important]
     >Keep this app ID handy. You'll need to send it to the Insights admin later.
 1. Add a certificate:
@@ -61,9 +64,6 @@ After the data successfully validates and processes, the overall data-import tas
 
     2. Select **Upload certificate**.
     
-        :::image type="content" source="../images/admin-di-upload-cert.png" alt-text="ID and certificate/secret":::
-
-
     3. Upload the certificate from your files and add a **Description**. Select the **Add** button.
 
         :::image type="content" source="../images/admin-di-upload-cert-pane1.png" alt-text="ID and certificate/secret pane":::
@@ -84,10 +84,10 @@ After the data successfully validates and processes, the overall data-import tas
 
 *Applies to: Insights admin*
 
-1. Go to the Organizational data tab in the Viva Insights admin portal.
+1. Go to the **Organizational data** tab in the Viva Insights admin portal.
 1. Start the import from one of two places: the **Data hub** tab or the **Data connections** tab. 
     1. From **Data hub**:
-        1. Under Automated organizational data import, select the Start button.
+        1. Under **Automated organizational data import**, select the **Start** button.
     1. From **Data connections**:
         1. Next to **Current source**, select the **Manage** button.
 
@@ -151,9 +151,11 @@ Before you make changes in the source file and try the upload again, you can sel
 
 #### Guidelines for correcting errors in data
 
+*Applies to: data source admin*
+
 This section contains help for correcting data in an uploaded source file that is causing validation errors.
 
-When any data row or column has an invalid value for any attribute, the entire upload will fail until you fix the source file (or you fix the attribute mapping).
+When any data row or column has an invalid value for any attribute, the entire upload will fail until you fix the source file.
 
 ##### Rules for field headers
 
