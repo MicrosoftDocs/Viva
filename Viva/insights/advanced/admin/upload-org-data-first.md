@@ -18,7 +18,6 @@ Your organizational data can appear in the Microsoft Viva Insights’ advanced i
 
 This article talks about the second option: uploading a .csv file.
 
-
 ## Workflow
 
 After you prepare the source data, the uploading process follows these steps, which are described in the following sections:
