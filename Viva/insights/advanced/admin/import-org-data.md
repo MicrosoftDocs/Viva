@@ -16,7 +16,7 @@ audience: Admin
 
 Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through a .csv file that you as an Insights admin upload; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
 
-This article talks about the third option: importing data.
+This article talks about the third option: importing data. To import data from a source system, you'll first need to set up an application within Azure, then have your source system admin send data through that application. Refer to the next section, [Workflow](#workflow), for an overview of required steps.
 
 ## Workflow
 
@@ -29,7 +29,6 @@ This article talks about the third option: importing data.
 After the data successfully validates and processes, the overall data-import task is complete.
 
 ## App setup
-
 
 *Applies to: Microsoft 365 admin*
 
@@ -54,7 +53,11 @@ After the data successfully validates and processes, the overall data-import tas
 
         :::image type="content" source="../images/admin-di-registration3.png" alt-text="name app":::
 
-    1. When you arrive back at the **Overview** screen, copy down the **Application (client) ID**. 
+    1. When you arrive back at the **Overview** screen, copy down the **Application (client) ID**.
+    
+         :::image type="content" source="../images/admin-di-app-id.png" alt-text="ID and certificate/secret pane":::
+
+
     >[!Important]
     >Keep this app ID handy. You'll need to send it to the Insights admin later.
 1. Add a certificate:
