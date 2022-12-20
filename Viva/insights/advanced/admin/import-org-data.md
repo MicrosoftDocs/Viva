@@ -192,8 +192,6 @@ If processing fails, you’ll see a failed status in the **Import history** tabl
 
 ![Screenshot that shows Processing failed.](../images/admin-status-process-failed.png)
 
-Select **Edit or start new upload**. This button lets you begin the upload process again.
-
 >[!Note]
 >Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your imported file, log a support ticket with us.
 
