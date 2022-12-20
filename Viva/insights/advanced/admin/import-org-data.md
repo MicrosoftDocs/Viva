@@ -67,9 +67,12 @@ After the data successfully validates and processes, the overall data-import tas
 
     2. Select **Upload certificate**.
     
+        :::image type="content" source="../images/admin-di-upload-cert.png" alt-text="ID and certificate/secret pane":::
+
+
     3. Upload the certificate from your files and add a **Description**. Select the **Add** button.
 
-        :::image type="content" source="../images/admin-di-upload-cert-pane1.png" alt-text="ID and certificate/secret pane":::
+        :::image type="content" source="../images/admin-di-upload-cert-pane3.png" alt-text="ID and certificate/secret pane":::
 
 <!--do they already have this ready? Should we mention that they'll need it at the beginning?-->
 5. Remove Microsoft Graph permissions:
@@ -81,6 +84,7 @@ After the data successfully validates and processes, the overall data-import tas
 
     1. Confirm removal.
     <!--Should we explain why we're removing it?-->
+
 1. Give the Insights admin the app ID you generated in step 4.
 
 ## Import setup
@@ -91,6 +95,8 @@ After the data successfully validates and processes, the overall data-import tas
 1. Start the import from one of two places: the **Data hub** tab or the **Data connections** tab. 
     1. From **Data hub**:
         1. Under **Automated organizational data import**, select the **Start** button.
+        :::image type="content" source="../images/admin-di-DRAFT-data-hub-start.png" alt-text="ID and certificate/secret pane":::
+
     1. From **Data connections**:
         1. Next to **Current source**, select the **Manage** button.
 
