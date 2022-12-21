@@ -1,7 +1,7 @@
 ---
 title: "Overview: Viva Connections"
 ms.reviewer: 
-ROBOTS: NoIndex, NoFollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
