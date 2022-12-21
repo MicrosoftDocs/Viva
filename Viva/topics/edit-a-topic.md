@@ -65,7 +65,7 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
     ![Screenshot showing the topic types search bar.](../media/knowledge-management/types-search-bar.png)
 
-    You can confirm a suggested type by selecting the chekc mark next to the type listed in the **suggested** row. To remove a confirmed type, select the X mark on the type to be removed.
+    You can confirm a suggested type by selecting the check mark next to the type listed in the **suggested** row. To remove a confirmed type, select the X mark on the type to be removed.
 
     ![Screenshot showing how topic types you can confirm or remove.](../media/knowledge-management/types-confirm.png)
 
