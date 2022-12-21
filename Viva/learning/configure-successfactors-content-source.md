@@ -229,7 +229,7 @@ Note the following considerations:
 
     - The ingestion of both catalogs and the permissions are triggered. The initial package from the specified SFTP folder path as mentioned earlier will be used for ingestion. It may take up to 24 hours to complete the ingestion.  
 
-    - The Viva Learning application will generate M365 groups on behalf of the tenants for internal consumption. These groups are named as VL-<GUID>. These groups are system generated and shouldn’t be modified by users. 
+    - The Viva Learning application will generate M365 groups on behalf of the tenants for internal consumption. These groups are named as VL-GUID. These groups are system generated and shouldn’t be modified by users. 
 
 - Once the catalog permissions toggle button is disabled,  
 
