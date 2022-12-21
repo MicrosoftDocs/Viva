@@ -73,7 +73,7 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
     ![Screenshot showing the topic type badge.](../media/knowledge-management/types-display-badge.png)
 
-    To change the type badge , drag and drop the type you'd like to see displayed to the first position in the section. Only one topic type badge is available per topic.
+    To change the type badge, drag and drop the type you'd like to see displayed to the first position in the section. Only one topic type badge is available per topic.
 
     ![Screenshot showing the topic type with drag tooltip.](../media/knowledge-management/types-drag-badge.png)
 
