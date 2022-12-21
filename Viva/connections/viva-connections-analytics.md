@@ -29,7 +29,7 @@ description: "Learn how to use Viva Connections experience by using Viva Connect
 
 Understand how and when users engage with components of the Viva Connections experience by using Viva Connections analytics. Review the number of people who have viewed and engaged with Viva Connections experiences, the content types users engage with, and the platforms used to access Viva Connections.
 
-People with site owner (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text="Icon that shows the settings"::: and then click **Manage Viva Connections**.
+People with site owner (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text="Icon that shows the settings."::: and then click **Manage Viva Connections**.
 
 > [!NOTE]
 > - This analytics experience is only available to private preview customers. It is expected that this will become generally available in the first quarter of 2023.
