@@ -9,7 +9,7 @@ metadata:
  title: Microsoft Viva Insights
  description: Unleash your most powerful dataset by using insights from everyday work in Microsoft 365.
  ms.localizationpriority: null
- ms.prod: wpa
+ ms.service: workplace-analytics
  author: madehmer
  ms.author: helayne
 

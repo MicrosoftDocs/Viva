@@ -22,16 +22,13 @@ Workplaces that balance fluid collaboration patterns alongside capacity for indi
 
 You can find the **Employee wellbeing** page in the Viva Insights app, within the **Organization trends** tab.
 
-<!-- placeholder image-->
-
 ![Screenshot that shows the Employee wellbeing page.](../Images/WpA/Use/employee-wellbeing1.png)
 
 ## Balance
 
-### Help employees disconnect
+### Protect time outside of working hours
 
-<!-- placeholder image-->
-![Screenshot that shows the Help employees disconnect insights.](../Images/WpA/Use/org-help-employees-disconnect.png)
+:::image type="content" alt-text="Screenshot that shows the 'Protect time outside of working hours' insight with a percentage insight, a distribution of average weekly time spent collaborating after hours, and a 'Take action' section."source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
 
 #### Insights
 
@@ -55,7 +52,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 Here are ways to support employee wellbeing:
 
-* Schedule [quiet time](../personal/use/wellbeing.md) to mute notifications after hours. Consistently working outside of your regularly scheduled hours can increase the chance of burnout. To help unplug from the work day, use Viva Insights quiet time to mute mobile notifications from Outlook and Teams between the hours you choose.
+* Schedule [quiet time](../personal/teams/viva-insights-protect-time.md#configure-quiet-time) to mute notifications after hours. Consistently working outside of your regularly scheduled hours can increase the chance of burnout. To help unplug from the work day, use Viva Insights quiet time to mute mobile notifications from Outlook and Teams between the hours you choose.
 * Schedule delivery of emails using the [Outlook Insights add-in](../personal/use/schedule-send.md). Scheduled delivery helps to minimize disruptions to recipients outside their working hours or when they’re away from work. It helps to maintain the flexibility of work hours, while being considerate of others.
 * Wrap up the day with [virtual commute](../personal/teams/viva-insights-virtual-commute.md) from Viva Insights.
 
@@ -63,14 +60,13 @@ For more best practices and ways to protect employees after hours, see [Best pra
 
 ## Capacity
 
-### Focus without interruptions
+### Help teams find time to finish their work
 
-<!--placeholder image-->
-![Screenshot that shows the Focus without interruptions insights.](../Images/WpA/Use/org-focus-without-interruptions.png)
+:::image type="content" alt-text="Screenshot that shows the 'Help teams find time to finish their work' insight with a percentage insight, a distribution of uninterrupted weekly time, and a 'Take action' section." source="../Images/WpA/Use/org-trends-wellbeing-capacity1.png":::
 
 #### Insights
 
-For **Focus without interruptions**, the **Employee wellbeing** page provides a percentage insight that shows how many employees have less than 10 hours of uninterrupted focus time per week and a visual insight that shows the distribution of uninterrupted weekly time.
+For **Help teams find time to finish their work**, the **Employee wellbeing** page provides a percentage insight that shows how many employees have less than 10 hours of uninterrupted focus time per week and a visual insight that shows the distribution of uninterrupted weekly time.
 
 Here's some information about how those metrics are calculated:
 
@@ -96,15 +92,13 @@ Here are ways to support focus time:
 
 For more best practices and ways to establish a "no meeting" period, see [Best practices for focus time](../tutorials/gm-focus.md).
 
-### Reduce meeting hours
+### Keep a pulse on collaboration overload
 
-<!-- placeholder image-->
-
-![Screenshot that shows the Reduce meeting hours insights](../Images/WpA/Use/org-reduce-meeting-hours.png)
+:::image type="content" alt-text="Screenshot that shows the 'Keep a pulse on collaboration overload' insight with a percentage insight, a distribution of collaboration hours per week, and a 'Take action' section." source="../Images/WpA/Use/org-trends-wellbeing-capacity2.png":::
 
 ### Insights
 
-For **Reduce meeting hours**, the **Employee wellbeing** page provides a percentage insight that shows how many employees spend most of their workweek collaborating and a visual insight that shows the distribution of collaboration hours per week.
+For **Keep a pulse on collaboration overload**, the **Employee wellbeing** page provides a percentage insight that shows how many employees spend most of their workweek collaborating and a visual insight that shows the distribution of collaboration hours per week.
 
 Here's some information about how those metrics are calculated:
 
@@ -134,13 +128,13 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 If you're assigned the **Insights Business Leader** role in Microsoft Viva Insights, you'll find an additional insight on the **Employee wellbeing** tab. 
 
-#### Improve team cohesion
+### Drive team cohesion
 
 ![Screenshot that shows the team cohesion insight.](../Images/WpA/Use/org-leader-community.png)
 
-##### Insight
+#### Insight
 
-For **Improve team cohesion**, the **Employee wellbeing** page provides a percentage insight that shows the share of teams that are composed of tightly connected individuals and a visual insight that shows how these teams are connected across the larger organizational network.
+For **Drive team cohesion and alignment through shared activities and projects**, the **Employee wellbeing** page provides a percentage insight that shows the share of teams that are composed of tightly connected individuals and a visual insight that shows how these teams are connected across the larger organizational network.
 
 Here's some information about how those metrics are calculated:
 
@@ -154,8 +148,7 @@ Here's some information about how those metrics are calculated:
 
 <sup>\* Strong ties indicate how strong and tight a person's engagements are, based on both direct collaboration between two people and on the common network they share. (Collaboration activities consist of emails, meetings, Teams calls, and Teams chats.) For example, a "strong tie" between a manager and a direct report reflects both the amount of direct collaboration they have with each other and the time they both invest in connections that are common to both of them. Typically, a person has only a few strong ties because such ties take more effort to maintain. Type: Count.</sup>
 
-
-##### Best practices
+### Best practices
 
 Changes in work environments can leave employees feeling isolated from their colleagues. Feeling part of community is important for engagement and goal alignment as employees navigate change.
 
@@ -165,5 +158,3 @@ Here are a couple of ways to improve team cohesion:
 
 * Add colleagues to your [important people list](../personal/use/use-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
-
-<!--Best practices-->
