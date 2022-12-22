@@ -59,7 +59,7 @@ This section contains a bird's eye view of how well the adoption of OKR program 
 
 In the breakdown view, you'll see breakdown of the metrics by the top-level teams: 
 
-:::image type="content" source="../media/goals/analytics-images/7-vivagoals-adoption-dreakdown.png" alt-text="View of the analytics breakdown in Viva Goals.":::
+:::image type="content" source="../media/goals/analytics-images/7-vivagoals-adoption-dreakdown.png" alt-text="Graph that shows the view of the analytics breakdown in Viva Goals.":::
    
 ## Engagement
 
