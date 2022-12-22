@@ -26,15 +26,13 @@ You can find the **Meeting effectiveness** page in the Viva Insights app, within
 
 ## Before the meeting
 
-### Try shorter meetings
+### Structure the meeting for active participation
+
+:::image type="content" alt-text="Screenshot that shows the 'Structure the meeting for active participation' insight with a percentage insight, a distribution grid of how teams spend their meeting time, and a 'Take action' section." source="../Images/WpA/Use/org-trends-effectiveness-before.png":::
 
 #### Insights
 
-<!-- placeholder image-->
-
-![Screenshot that shows the Try shorter meetings insight.](../Images/WpA/Use/org-meeting-effectiveness-shorter-meetings.png)
-
-For **Try shorter meetings**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings, and a visual insight that shows the percentage meetings attended, divided into four categories.
+For **Structure the meeting for active participation**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings, and a visual insight that shows the percentage meetings attended, divided into four categories.
 
 Here's some information about how those metrics are calculated:
 
@@ -56,15 +54,14 @@ For more best practices and change strategies, see [Best practices for meetings]
 
 ## During the meeting
 
-### Improve meeting practices
+### Avoid habits that normalize distractions
+
+:::image type="content" alt-text="Screenshot that shows the 'Avoid habits that normalize distractions' insight, with a percentage insight, a bar-graph distribution of weekly time spent multitasking, and a 'Take action' section." source="../Images/WpA/Use/org-trends-effectiveness-during.png":::
 
 #### Insights
 
-<!-- placeholder image-->
 
-!['Improve meeting practices' insight](../Images/WpA/Use/org-meeting-effectiveness-improve.png)
-
-For **Improve meeting practices**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings and a visual insight that shows the percentage of meetings attended, divided into four categories.
+For **Avoid habits that normalize distractions**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend most of their meeting time in long or large meetings and a visual insight that shows the percentage of meetings attended, divided into four categories.
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
@@ -90,15 +87,14 @@ For more best practices and change strategies, see [Best practices for meetings]
 
 ## After the meeting
 
-### Reinvent the recurring meeting
+### Examine recurring meetings for opportunities to win back time
+
+:::image type="content" alt-text="Screenshot that shows the 'Examine recurring meetings for opportunities to win back time' insight, with a percentage insight, a bar-graph distribution of team meeting hours, and a 'Take action' section." source="../Images/WpA/Use/org-trends-effectiveness-after.png":::
+
 
 #### Insights
 
-<!-- placeholder image-->
-
-![Screenshot that shows the Reinvent the recurring meeting insight.](../Images/WpA/Use/org-meeting-reinvent-recurring.png)
-
-For **Reinvent the recurring meeting**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend a majority of their time in recurring meetings and a visual insight that shows the percentage of recurring vs. non-recurring meeting hours.
+For **Examine recurring meetings for opportunities to win back time**, the **Meeting effectiveness** page provides a percentage insight that shows how many employees spend a majority of their time in recurring meetings and a visual insight that shows the percentage of recurring vs. non-recurring meeting hours.
 
 Here's some information about how those metrics are calculated:
 

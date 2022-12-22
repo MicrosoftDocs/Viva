@@ -8,7 +8,7 @@ ms.topic: article
 ms.localizationpriority: null 
 search.appverid:
 - MET150
-ms.prod: wpa
+ms.service: workplace-analytics
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin

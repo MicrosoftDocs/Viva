@@ -65,7 +65,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 >[!Note]
 > For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
 
-1. In the Viva Insights Analyst experience, select **Analysis**.
+1. In the Viva Insights analyst experience, select **Analysis**.
 
 2. Under **Power BI templates**, navigate to **Ways of working** and select **Start analysis**. To get more information about the Ways of working template before running your analysis, select **Learn more**.
 
@@ -130,7 +130,7 @@ After the **Ways of working** report is set up and populated with Viva Insights 
 
 * **Select the time period for the report** – Select the time period for which you want to view data in the report.  
 * **Select an attribute to group data by** – Select the primary group-by attribute shown in all the reports. You can change this attribute at any time and all report pages will show group values by the new attribute.
-* **Select optional report filter** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who’ve sent at least one email or Teams chat during a work week included in the current time period.
+* **Select optional report filter** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who’ve sent at least one email or Teams chat during a work week included in the current time period.
 * **Exclusions** – Use the check boxes to:
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.
@@ -193,7 +193,7 @@ This page shows the distribution of employees by collaboration hours and workwee
 
 #### Double-booking
 
-This page shows the distribution of managers by meeting hours and the percentage of double-booked manager time in meetings. This highlights how double-booked meetings have downstream impacts that hinder organizational agility.
+This page shows the distribution of managers by meeting hours and the percentage of double-booked manager time in meetings. This information highlights how double-booked meetings have downstream impacts that hinder organizational agility.
 
 >[!Important]
 >To filter for manager data only, you need to select all manager groups in the **SupervisorIndicator** field in the upper-right of the page.
