@@ -36,6 +36,7 @@ People with site owner (or higher) permissions to your organization’s [home si
 > - Currently, up to 28 days of usage data (if available) can be downloaded in an Excel (.xlxs) format.
 > - Site member permissions (or higher) to your organization’s [home site](/sharepoint/home-site) are required to download and view usage analytics for Viva Connections. 
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. See below for details.
+> - Usage analytics data is aggregated and cannot be tracked to an individual user. 
 
 ## How to access the report
 
@@ -101,6 +102,6 @@ You may get the following message: "Viva Connections usage data has been disable
 
 ## Learn more
 
-[Overview: Viva Connections | Microsoft Docs](/viva/connections/viva-connections-overview)
+[Overview: Viva Connections](/viva/connections/viva-connections-overview)
 
-[Getting started with Microsoft Viva | Microsoft Docs](/viva/getting-started-with-microsoft-viva)
+[Getting started with Microsoft Viva](/viva/getting-started-with-microsoft-viva)
