@@ -65,7 +65,7 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
     ![Screenshot showing the topic types search bar.](../media/knowledge-management/types-search-bar.png)
 
-    You can confirm a suggested type by selecting the chekc mark next to th type listed in the **suggested** row. To remove a confirmed type, select the X mark on the type to be removed.
+    You can confirm a suggested type by selecting the check mark next to the type listed in the **suggested** row. To remove a confirmed type, select the X mark on the type to be removed.
 
     ![Screenshot showing how topic types you can confirm or remove.](../media/knowledge-management/types-confirm.png)
 
@@ -73,7 +73,7 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
     ![Screenshot showing the topic type badge.](../media/knowledge-management/types-display-badge.png)
 
-    To change the type badge , drag and drop the type you'd like to see displayed to the first position in the section. Only one topic type badge is available per topic.
+    To change the type badge, drag and drop the type you'd like to see displayed to the first position in the section. Only one topic type badge is available per topic.
 
     ![Screenshot showing the topic type with drag tooltip.](../media/knowledge-management/types-drag-badge.png)
 
