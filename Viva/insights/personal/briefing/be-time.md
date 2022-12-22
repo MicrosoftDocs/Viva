@@ -13,32 +13,36 @@ ms.collection:
 manager: helayne
 
 ---
-# Plan your week
+# Create plans
 
-If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you'll see a **What do you want to set aside time for** section in a Briefing email about next week. This helps you plan the week ahead for important activities that improve long term productivity and wellbeing.
+If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you'll see a **What do you want to set aside time for** section the Briefing email you get on Fridays. This feature helps you enroll in plans that help you improve long-term productivity and wellbeing.
 
-Select **Book** next one or more of the following to schedule it for each day during your work week:
+You might see options to book time for the following activities:
 
-* **Focus time** - Schedules up to two-hour blocks of available time on your calendar for uninterrupted focused work. When scheduled, your status shows as "focusing" and notifications are silenced.
-* **Catch up on messages** - Schedules a 30-minute block of time to catch up on email and chats. When scheduled, your status shows as "busy" during this time each day.
+* **Focus time** - Schedules up to two-hour blocks of available time on your calendar for uninterrupted focused work. When scheduled, your status shows as "Focusing" and notifications are silenced.
+* **Catch up on messages** - Schedules a 30-minute block of time to catch up on email and chats. When scheduled, your status shows as "Busy" during this time each day.
 * **Take a break** - Schedules a 15-minute block of time twice a day to disconnect and recharge.
 * **Learning** - Schedules up to a two-hour block of time to learn a new skill or for career development.
 
-This section will also reference and list any already scheduled time in your calendar for these activities.
+If you already have time scheduled for one or more of these activities, this section shows a "Booked" status and reports the number of days you have scheduled.
 
-For example, as shown in the following, you’d select **Book** next to **Catch up on messages** to schedule that time on your calendar for each day during your work week.
+To create a plan through the Briefing email, follow these steps:
 
-   ![Plan your week options.](./images/be-time.png)
+1. Select **Book** to reserve time next week to catch up on certain kinds of activities—focus, messages, breaks, or learning.
 
-## To enroll in focus time
+    :::image type="content" alt-text="Screenshot that shows booking time through the Briefing email." source="../teams/Images/briefing-email-book.png":::
 
-_**Applies to:** Enrollment in focus plan through the briefing email is currently available only to users who have a Viva Insights service plan enabled._
+2. When the email asks whether you want Viva Insights to automatically schedule this time for you, select **Yes**.
 
-In the **What do you want to set aside time for?** section of the Briefing email, you can easily sign up to have focus time automatically added to your Outlook calendar.
+    :::image type="content" alt-text="Screenshot that shows selecting automatic scheduling." source="../teams/Images/briefing-email-schedule.png":::
 
-* On the **Focus time** row, select **Book** and then select **Enroll**.
+3. Select **Edit settings** to configure your plan to match your needs.
 
-![Enroll in focus time](./images/be-time-focus-enroll.png)
+    :::image type="content" alt-text="Screenshot that shows selecting Edit settings." source="../teams/Images/briefing-email-edit-settings.png":::
+
+
+
+
 
 ## Related topics
 

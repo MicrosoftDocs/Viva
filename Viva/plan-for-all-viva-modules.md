@@ -4,6 +4,7 @@ ms.reviewer: loreenl
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
+ms.date: 12/16/2022
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -90,10 +91,17 @@ Review the different roles in each phase before you get started planning. Each m
 |**Stakeholders, knowledge managers, communications leads, champions**, and **topic contributors** make up your core knowledge team. <p> - **Core team** selects a rollout approach, identifies, and prioritizes scenarios, ensures technical and business readiness, and develops a communications plan.|- **Microsoft 365 global admin** or **SharePoint admin** sets up Viva Topics and configures settings in the Microsoft 365 admin center. <p> - **Knowledge managers** manage topics in the topic center, including reviewing AI-suggested topics, confirming topics are valid, removing topics that you don’t want visible to users, and editing existing topics or creating new topics. <p> - **Topic contributors** edit existing topics or create new topics.|- **Corporate communications leads** use various communication channels to announce Viva Topics. <p> - **Champions and core team** can help spread awareness through engagements and training events.|
 
 ### Get guidance on Viva Engage
+**If your organization is already using Yammer**
 
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
-|If your organization is already using Yammer, work with **stakeholders and your IT team** to identify how you can leverage your existing Yammer strategy in Viva Engage. If you’re not already using Yammer, work with your corporate communications specialists and leadership teams to determine how you can best use Viva Engage to support communities in your organization. | - If your organization already uses Yammer, you can [set up Viva Engage](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) in Microsoft Teams. - If you're not already using Yammer, your **admin** will [set up Yammer for your organization](/yammer/get-started-with-yammer/admin-key-concepts) and assign admin roles for Yammer. <p> - **Verified admins** are in charge of security-related tasks, and can configure and customize Yammer for your organization, and can manage users and groups. <p> - **Network admins** can configure and customize Yammer, and can manage users and groups. <p> - **Group admins** can configure and customize their groups, and can manage day-to-day operations for their groups. | - If your organization has already been using Yammer, work with community leaders and active users to promote Viva Engage. <p> - If your organization is new to Yammer, work with leadership teams, employee resource groups, and employee social groups to develop active and vibrant communities on Viva Engage. <p> - Consult the [Yammer adoption resources](https://adoption.microsoft.com/yammer/) to help integrate Yammer communities on Viva Engage into your organization. |
+|Work with **stakeholders and your IT team** to identify how you can leverage your existing Yammer strategy in Viva Engage. | [Set up Viva Engage](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) in Microsoft Teams. | Work with community leaders and active users to promote Viva Engage.  <p> Consult the [Yammer adoption resources](https://adoption.microsoft.com/yammer/) to help integrate Yammer communities on Viva Engage into your organization. |
+
+**If your organization is not using Yammer**
+
+|Coordinate and plan |Build and set up |Deploy and launch |
+|--------------------|-----------------|------------------|
+|Work with your **corporate communications specialists and leadership teams** to determine how you can best use Viva Engage to support communities in your organization. | Your **admin** will [set up Yammer for your organization](/yammer/get-started-with-yammer/admin-key-concepts) and assign admin roles for Yammer: <p> - **Verified admins** are in charge of security-related tasks, and can configure and customize Yammer for your organization, and can manage users and groups. <p> - **Network admins** can configure and customize Yammer, and can manage users and groups. <p> - **Group admins** can configure and customize their groups, and can manage day-to-day operations for their groups. | Work with leadership teams, employee resource groups, and employee social groups to develop active and vibrant communities on Viva Engage. <p> Consult the [Yammer adoption resources](https://adoption.microsoft.com/yammer/) to help integrate Yammer communities on Viva Engage into your organization. |
 
 ### Get guidance on Viva Goals
 
@@ -158,7 +166,7 @@ Technically, the Viva apps don't need to be installed in a specific order. Each 
 
 ## Step 5: Prepare to launch and scale adoption with end users
 
-All Viva apps don't need to be launched at the same time to be useful to your organization. Consider a phased approach based on the modules that are available, the most valuable to your organization, and which modules will be the most useful and appealing to specific audiences.
+Viva apps can be launched at the same time or in a phased approach, depending on what is best suited to your organization. Consider a phased approach based on the modules that are available, the most valuable to your organization, and which modules will be the most useful and appealing to specific audiences.
 
 ![Image of a workplace champion influencing others.](./media/viva-champion.png)
 
@@ -173,7 +181,7 @@ Learn more about [how to build a champion program at your organization.](https:/
 Consider where and how different audiences currently get news and announcements. For example, frontline workers might get the most important news in team meetings and from posters in break rooms, and hybrid workers might be used to getting SharePoint news in Outlook. Consider using the following methods to reach your audience:
 
 - **Announce your organization’s instance of Microsoft Viva at an event**: Kick off the announcement about the availability of the modules at an all-hands (or sometimes called a Town Hall) meeting where everyone in the organization will attend or can view a recording later.
-- **Use communication tools like SharePoint news and Yammer communities**: Share details about the launch along with any change management guidance or end-user training in an [organizational news post](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7#:%7E:text=In%20SharePoint%20Online%2C%20you%20can%20add%20news%20posts,instructions%20Create%20the%20news%20post%20.%20See%20More), [Yammer communities](https://support.microsoft.com/office/start-a-conversation-in-yammer-da65b1c3-6651-4141-8dbd-d50d61b98a6e), and [Microsoft Teams channels.](https://support.microsoft.com/office/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885)
+- **Use communication tools like SharePoint news and Viva Engage communities**: Share details about the launch along with any change management guidance or end-user training in an [organizational news post](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7#:%7E:text=In%20SharePoint%20Online%2C%20you%20can%20add%20news%20posts,instructions%20Create%20the%20news%20post%20.%20See%20More), [Viva Engage communities](https://support.microsoft.com/office/start-a-conversation-in-yammer-da65b1c3-6651-4141-8dbd-d50d61b98a6e), and [Microsoft Teams channels.](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
 - **Consider hosting training events or offering office hours**: Make sure end-users get the most from Viva by offering ongoing support the first 30 days after launching.
 - **Use the Viva email and poster templates**: Get a jump start on creating [communication materials for the Viva Connections launch.](https://adoption.microsoft.com/viva/)
 

@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: De-identified data and Viva Insights
 description: De-identified data in Microsoft Viva Insights
 author: madehmer
