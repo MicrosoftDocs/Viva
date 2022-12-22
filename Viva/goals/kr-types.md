@@ -49,7 +49,7 @@ Viva Goals has 2 control metrics:
 
 Users can now optionally add a “Risk threshold” value to the control metrics they are creating. If a control metric has a threshold added, then it manifests in the following ways: 
 
-1. Behind Status: Any check-ins that falls between the risk threshold value and the final target value will be marked as “Behind.” 
+1. Behind Status: Any check-ins that fall between the risk threshold value and the final target value will be marked as “Behind.” 
 1. Accepted risk threshold value: For stay above key results, the risk threshold must always be lesser than the final target value of the key result. For stay below key results, the risk threshold must always be greater than the final target value of the key result.
 
 ### Baseline Key Results 
