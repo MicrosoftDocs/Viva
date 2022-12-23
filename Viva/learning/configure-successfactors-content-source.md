@@ -223,6 +223,10 @@ Users from your organization can view, search, and consume only the courses assi
 
 By enabling catalog permissions, you allow Viva Learning to fetch user information, user assignment profiles mappings and catalog assignment profile mappings. The user information from the learning management system is only used for user mapping and is not stored.
 
+
+![Screenshot shows the catalog permissions sync options displayed on the admin tab](../media/learning/sfsf-catalog-permissions-config.png)
+
+
 Note the following considerations:
 
 - Once the catalog permissions toggle button is enabled/re-enabled,  
