@@ -15,7 +15,7 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Learn how to check-in on your OKRs in Viva Goals with Slack"
+description: "Learn how to check in on your OKRs in Viva Goals with Slack"
 ---
 
 # Check-in reminders for your team and organization
