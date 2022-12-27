@@ -1,6 +1,6 @@
 ---
-title: Import organizational data
-description: Learn how to import your data to the Viva Insights advanced insights app
+title: Import organizational data (first import)
+description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -12,11 +12,14 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Import organizational data
+# Import organizational data (first import)
 
 Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through a .csv file that you as an Insights admin upload; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
 
 This article talks about the third option: importing data. To import data from a source system, you'll need to coordinate a few tasks between your Microsoft 365 IT admin and your data source admin, including registering a new app and getting a security certificate. Refer to the next section, [Workflow](#workflow), for an overview of required steps.
+
+>[!Important]
+>Only use the following steps if this is the first time you’re importing organizational data. If this isn’t your first import, refer to [Import organizational data (subsequent imports)](import-org-data-subsequent.md) to refresh previously imported data.
 
 ## Workflow
 
@@ -85,15 +88,16 @@ After the data successfully validates and processes, the overall data-import tas
 
         :::image type="content" source="../images/admin-di-upload-cert-pane3.png" alt-text="ID and certificate/secret pane":::
 
-5. Remove Microsoft Graph permissions:
+5. Remove API permissions:
     1. Select **API permissions** from the left rail.
-    2. Select the ellipses (***...***) to the right of **Microsoft Graph**. 
+    2. For each listed **API / Permissions** name, select the ellipses (**...**) to the right of the API—for example, **Microsoft Graph**.
     3. Select **Remove permission**.
 
         ![ID and certificate/secret pane](../images/admin-di-upload-remove-perms1.png)
 
     1. Confirm removal.
-    <!--Should we explain why we're removing it?-->
+
+    When you remove permissions for these items, you’re making sure app only has permissions for what it needs.
 
 1. Share the IDs you noted down in step 3c:
     1. Give the Insights admin the app ID.
@@ -132,7 +136,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 *Applies to: data source admin*
 
-<!--are we still referring to this as the workday plugin? Will there be a generic one?-->
+<!--PENDING DOC FOR CONNECTOR-->
 
 1. Download the [] plugin and configure it in your environment.
 
@@ -143,7 +147,7 @@ After the data successfully validates and processes, the overall data-import tas
 1. When the Insights admin requests you to send data:
     1. Connect the plugin to Viva.
     1. Select the fields that should be included in the .csv export.
-    1. Check the .csv file to make sure it's properly formatted.
+    1. Check the .csv file to make sure it's [properly formatted](#guidelines-for-correcting-errors-in-data).
     1. Enter how frequently you want to send data to Viva Insights.
     1. Select **Submit**. You're now sending data to Viva Insights.
 
@@ -152,11 +156,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 After the data source admin sends data, the app starts validating.
 
-![Screenshot that shows validation in progress.](../images/admin-validate.png)
-
-In most cases, file validation should complete quickly. If your organizational data file is large, validation could take up to one or two minutes.
-
-After this phase completes, validation has either succeeded or failed. Depending on the outcome, you’ll either receive a success notification or a failure notification in the top-right corner of the **Data connections** screen.
+In most cases, file validation should complete quickly. If your organizational data file is large, validation could take up to one or two minutes. After this phase completes, validation has either succeeded or failed. Depending on the outcome, you’ll either receive a success notification or a failure notification in the top-right corner of the **Data connections** screen.
 
 For information about what happens next, go to the appropriate section:
 
@@ -168,11 +168,11 @@ For information about what happens next, go to the appropriate section:
 
 After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, you’ll see a “Processing” status on the **Import history** table.
 
-After processing completes, it's either succeeded or failed. Depending on the outcome, you’ll either receive a success notification or a failure notification in the top-right corner of the **Data connections** screen. 
+After processing completes, it's either succeeded or failed. Depending on the outcome, you’ll either find a “Success” or “Failed” status in the **Import history** table.
 
 #### Processing succeeds
 
-When processing succeeds, you’ll see a “Success” status in the **Upload or delete history** table. At this point, the upload process is complete.
+When you find the “Success” status in the **Import history** table, the upload process is complete.
 
 ![Screenshot that shows successful processing.](../images/admin-status-success.png)
 
@@ -188,12 +188,11 @@ After you receive the “Success” status, you can:
 
 #### Processing fails
 
-If processing fails, you’ll see a failed status in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the data source admin so they know what to correct before sending the data again. 
+If processing fails, you’ll see a failed status in the **Import history** table. <!--PENDING NEW VERBIAGE: For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the data source admin so they know what to correct before sending the data again.-->
 
 ![Screenshot that shows Processing failed.](../images/admin-status-process-failed.png)
 
->[!Note]
->Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your imported file, log a support ticket with us.
+Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your imported file, log a support ticket with us.
 
 ### Validation fails
 
@@ -205,29 +204,52 @@ The data source admin might find the following section helpful to fix data error
 
 *Applies to: data source admin*
 
-This section contains help for correcting data in an uploaded source file that is causing validation errors.
+This section contains help for correcting data in source file that’s causing validation errors.
 
-When any data row or column has an invalid value for any attribute, the entire upload will fail until you fix the source file.
+When any data row or column has an invalid value for any attribute, the entire import will fail until the source admin fixes the source data.
+
+##### Rules for the file
+
+The data file needs to:
+
+* Be smaller than 1 GB.
+* Be in the .csv format.
 
 ##### Rules for field headers
 
 All field header or column names need to:
 
+* Contain a value.
+* Be unique—that is, two column names can’t be the same.
 * Begin with a letter (not a number).
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**).
-* Have no leading or trailing blank spaces or special characters (those that are non-alphanumeric, like *@*, *#*, *%*, *&*).
+* Only contain alphanumeric characters (letters and numbers, for example, **Date1**). 
+* Have no leading or trailing blank spaces or special characters (those that are non-alphanumeric, like *@*, *#*, *%*, *&*). You’ll get an error if your column name contains a formula.
 
 ##### Rules for field values
 
-The field values in data rows need to comply with the following formatting rules:
+All rows need to contain the following fields:
 
-* The  **EffectiveDate** and **HireDate** field values need to be in the MM/DD/YYYY format.
-* The required **PersonId** and **ManagerId** field values need to be a valid email address (for example, `gc@contoso.com`).
-* The  **Layer** field values need to contain numbers only.
-* The  **HourlyRate** field values need to contain numbers only, which the app assumes is in US dollars for calculations and data analysis.
+* **PersonId**
+* **ManagerId** (unless the import is an update for existing employees only) 
+* **Organization** (unless the import is an update for existing employees only)
+* **EffectiveDate** 
 
->[!Note]
->The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
+    >[!Note]
+    >If you don’t enter a value here, Viva Insights will assign the date of upload as the **EffectiveDate**.
+
+Some field values need to follow specific formatting, as described in this table:
+
+|Field | Format |Example
+|------|--------|------|
+|**EffectiveDate** | MM/DD/YYYY | `01/15/2023`
+|**HireDate** | MM/DD/YYYY | `01/15/2023`
+|**PersonId** | Valid email address| `gc@contoso.com`
+|**ManagerId** | Valid email address |`gc@contoso.com`
+|**Layer** | Numbers only | `5`
+| **HourlyRate** <sup>1</sup> | <ul><li>Numbers only <li>Double| `23.75`
+
+<sup> 1. The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
+
 
 ##### Rules for characters in field values
 

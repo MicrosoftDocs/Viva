@@ -18,6 +18,9 @@ Your organizational data can appear in the Microsoft Viva Insights’ advanced i
 
 This article talks about the second option: uploading a .csv file.
 
+>[!Important]
+>Only use the following steps if this is the first time you’re uploading organizational data. If this isn’t your first upload, refer to [Upload organizational data (subsequent uploads)](upload-org-data-subsequent.md) to update previously uploaded data.
+
 ## Workflow
 
 After you prepare the source data, the uploading process follows these steps, which are described in the following sections:
