@@ -92,7 +92,7 @@ The table below shows which type of integrations are supported, their category, 
 |GitLab      |Third-party |Data |https://about.gitlab.com/terms/ |
 |Google Sheets       |Third-party |Data |https://cloud.google.com/product-terms/ |
 |HubSpot      |Third-party |Data |https://legal.hubspot.com/terms-of-service |
-|Jira Cloud       |Third-party |Data |https://www.atlassian.com/legal/cloud-terms-of-service |
+|Jira Cloud, Jira Server and Data Center       |Third-party |Data |https://www.atlassian.com/legal/cloud-terms-of-service |
 |Looker      |Third-party |Data |https://cloud.google.com/product-terms/ |
 |Mode      |Third-party |Data |https://mode.com/tos/ |
 |Monday.com      |Third-party |Data |https://monday.com/l/ |
