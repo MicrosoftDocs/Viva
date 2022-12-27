@@ -29,13 +29,14 @@ description: "Learn how to use Viva Connections experience by using Viva Connect
 
 Understand how and when users engage with components of the Viva Connections experience by using Viva Connections analytics. Review the number of people who have viewed and engaged with Viva Connections experiences, the content types users engage with, and the platforms used to access Viva Connections.
 
-People with site owner (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text=""::: and then click **Manage Viva Connections**.
+People with site owner (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text="Icon that shows the settings."::: and then click **Manage Viva Connections**.
 
 > [!NOTE]
 > - This analytics experience is only available to private preview customers. It is expected that this will become generally available in the first quarter of 2023.
 > - Currently, up to 28 days of usage data (if available) can be downloaded in an Excel (.xlxs) format.
 > - Site member permissions (or higher) to your organization’s [home site](/sharepoint/home-site) are required to download and view usage analytics for Viva Connections. 
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. See below for details.
+> - Usage analytics data is aggregated and cannot be tracked to an individual user. 
 
 ## How to access the report
 
@@ -43,13 +44,13 @@ People with site owner (or higher) permissions to your organization’s [home si
 
 | Component | Description |
 | :------------------- | :------------------- |
-| :::image type="content" source="../media/manage-vc-panel.png" alt-text="image of setting"::: | 1. Navigate to your organization’s home site.<br><br> 2. Select the **Settings** :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text=""::: icon.<br><br> 3. Then, select **Manage Viva Connections**.<br><br> 4. Next, go to the **Analytics** section and select **Download report**. |
+| :::image type="content" source="../media/manage-vc-panel.png" alt-text="Screenshot that shows the Manage Viva Connections."::: | 1. Navigate to your organization’s home site.<br><br> 2. Select the **Settings** :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text="Icon that shows the settings."::: icon.<br><br> 3. Then, select **Manage Viva Connections**.<br><br> 4. Next, go to the **Analytics** section and select **Download report**. |
 
 ## What’s in the usage report
 
 The usage report contains three separate tabs and sheets of data. Learn more about the data on each sheet and metric definitions.
 
-:::image type="content" source="../media/vc-analytics-spreadsheet.png" alt-text="image of analytics spreadsheet":::
+:::image type="content" source="../media/vc-analytics-spreadsheet.png" alt-text="Screenshot that shows the analytics spreadsheet.":::
 
 **Sheet 1: Overall traffic**
 
@@ -81,13 +82,13 @@ You may see an error in the Analytics section. Review common errors to learn mor
 
 ### Not enough data to generate a report
 
-:::image type="content" source="../media/vc-analytics-error-data.png" alt-text="image of error data":::
+:::image type="content" source="../media/vc-analytics-error-data.png" alt-text="Screenshot that shows the error data.":::
 
 This message will display if your organization has not finished setting up Viva Connections or if there is not enough usage data to generate a report. Finish setting up Viva Connections and try to download the report again. [Learn more about how to set up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections).
 
 ### General error
 
-:::image type="content" source="../media/vc-analytics-error-setup.png" alt-text="image of error setup":::
+:::image type="content" source="../media/vc-analytics-error-setup.png" alt-text="Screenshot that shows error setup.":::
 
 Sometimes due to connectivity issues or other technical problems, the analytics report may not be available. Check your network connection, refresh the page, and try downloading the report again.
 
@@ -101,6 +102,6 @@ You may get the following message: "Viva Connections usage data has been disable
 
 ## Learn more
 
-[Overview: Viva Connections | Microsoft Docs](/viva/connections/viva-connections-overview)
+[Overview: Viva Connections](/viva/connections/viva-connections-overview)
 
-[Getting started with Microsoft Viva | Microsoft Docs](/viva/getting-started-with-microsoft-viva)
+[Getting started with Microsoft Viva](/viva/getting-started-with-microsoft-viva)
