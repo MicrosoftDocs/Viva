@@ -117,6 +117,54 @@ Select **See other available times** to open the Insights add-in pane and displa
 Select **Move your focus block** to open the Insights add-in and display all the available focus-time blocks in the coming week. By selecting a time block you can move the focus block that is "in conflict" to a new time, ensuring you have some time for deep work.
 
 ![Move focus block](../../Images/mya/use/move-focus-block-50.png)
+## Book time to prepare for meetings
+
+*Applies to: users with a premium Viva Insights license*
+
+When you get a meeting invitation, you might notice a suggestion to book meeting prep time. 
+
+:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-insight5.png" alt-text="Screenshot of the Book meeting prep time insight.":::
+     Screenshot that shows an insight above the Outlook meeting invitation composer that says, 'Book prep time before this meeting to work on related documents and tasks?'. There are two links: 'Book time' and 'Dismiss this message.'
+:::image-end:::
+
+
+Viva Insights suggests booking time to prepare for meetings—like reviewing documents and completing related tasks—when these conditions are met:
+
+* The meeting:
+    * Has 11 or fewer invitees.
+    * Is scheduled to last between 30 and 60 minutes.
+    * Doesn't recur.
+    * Hasn't been canceled.
+    * Requires attendee response.
+    * Isn't private.
+    * Doesn't have a "Free," "Working elsewhere," or "Away" status. 
+* You:
+    * Open the meeting invite at least 15 minutes before the meeting starts.
+    * Have at least 15 minutes available for prep time during your working hours.
+    * Didn't dislike any attendee meeting prep nudge in the past seven days.
+    * Haven't booked any prep time for this meeting yet.
+    * Are a required meeting attendee.
+    * Haven't declined the meeting.
+
+When you select **Book time** in the suggestion, Viva Insights accepts the invite, opens the Outlook add-in pane, and prompts you to schedule your prep time. You'll pick from these options:
+
+:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-pane3.png" alt-text="Screenshot of the Book meeting prep time option in the Viva Insights Outlook add-in pane":::
+   Screenshot that shows the Viva Insights Outlook add-in pane with a summary of the meeting time and location. Three options, described in the article, appear under a button that says, 'Book 30 min one day before.' The cursor is hovering over 'End of the week, before the meeting' > '30 min.
+:::image-end:::
+
+* Time:
+    * Right before the meeting
+    * One day before the meeting
+    * The last working day of the week before the meeting
+* Duration:
+    * 15 minutes
+    * 30 minutes
+    * 1 hour
+
+Based on the options you picked, Viva Insights searches for an empty spot on your calendar and schedules an appointment named "Preparation time for [Meeting name]." 
+
+:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-calendar.png" alt-text="Screenshot of the Book meeting prep time insight.":::
+You can also use the [Prepare for your meetings Outlook add-in card](use-insights.md#prepare-for-your-meetings) to learn more about the meeting, including people invited, acceptance rate, attachments, and related documents.
 
 ## Shorten a meeting
 
