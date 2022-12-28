@@ -1,13 +1,13 @@
 ---
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work 
-author: madehmer
-ms.author: loreenl
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-personal
 ms.service: viva
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ms.subservice: viva-insights
 
@@ -117,11 +117,16 @@ Select **See other available times** to open the Insights add-in pane and displa
 Select **Move your focus block** to open the Insights add-in and display all the available focus-time blocks in the coming week. By selecting a time block you can move the focus block that is "in conflict" to a new time, ensuring you have some time for deep work.
 
 ![Move focus block](../../Images/mya/use/move-focus-block-50.png)
+
 ## Book time to prepare for meetings
 
 *Applies to: users with a premium Viva Insights license*
 
 When you get a meeting invitation, you might notice a suggestion to book meeting prep time. 
+
+:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-insight" alt-text="Screenshot of the Book meeting prep time insight.":::
+   Screenshot that shows an insight above the Outlook meeting invitation composer that says, 'Book prep time before this meeting to work on related documents and tasks?'. There are two links: 'Book time' and 'Dismiss this message.'
+:::image-end:::
 
 Viva Insights suggests booking time to prepare for meetings—like reviewing documents and completing related tasks—when these conditions are met:
 
