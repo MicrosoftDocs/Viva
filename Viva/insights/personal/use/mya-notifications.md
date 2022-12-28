@@ -164,7 +164,7 @@ When you select **Book time** in the suggestion, Viva Insights accepts the invit
 Based on the options you picked, Viva Insights searches for an empty spot on your calendar and schedules an appointment named "Preparation time for [Meeting name]." 
 
 :::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-calendar.png" alt-text="Screenshot of the Book meeting prep time insight.":::
-You can also use the [Prepare for your meetings Outlook add-in card](use-insights.md#prepare-for-your-meetings) to learn more about the meeting, including people invited, acceptance rate, attachments, and related documents.
+
 
 ## Shorten a meeting
 
