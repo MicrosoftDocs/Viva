@@ -123,11 +123,6 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 When you get a meeting invitation, you might notice a suggestion to book meeting prep time. 
 
-:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-insight5.png" alt-text="Screenshot of the Book meeting prep time insight.":::
-     Screenshot that shows an insight above the Outlook meeting invitation composer that says, 'Book prep time before this meeting to work on related documents and tasks?'. There are two links: 'Book time' and 'Dismiss this message.'
-:::image-end:::
-
-
 Viva Insights suggests booking time to prepare for meetings—like reviewing documents and completing related tasks—when these conditions are met:
 
 * The meeting:
@@ -148,9 +143,6 @@ Viva Insights suggests booking time to prepare for meetings—like reviewing doc
 
 When you select **Book time** in the suggestion, Viva Insights accepts the invite, opens the Outlook add-in pane, and prompts you to schedule your prep time. You'll pick from these options:
 
-:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-pane3.png" alt-text="Screenshot of the Book meeting prep time option in the Viva Insights Outlook add-in pane":::
-   Screenshot that shows the Viva Insights Outlook add-in pane with a summary of the meeting time and location. Three options, described in the article, appear under a button that says, 'Book 30 min one day before.' The cursor is hovering over 'End of the week, before the meeting' > '30 min.
-:::image-end:::
 
 * Time:
     * Right before the meeting
@@ -162,8 +154,6 @@ When you select **Book time** in the suggestion, Viva Insights accepts the invit
     * 1 hour
 
 Based on the options you picked, Viva Insights searches for an empty spot on your calendar and schedules an appointment named "Preparation time for [Meeting name]." 
-
-:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-calendar.png" alt-text="Screenshot of the Book meeting prep time insight.":::
 
 
 ## Shorten a meeting
