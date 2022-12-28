@@ -124,7 +124,7 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 When you get a meeting invitation, you might notice a suggestion to book meeting prep time. 
 
-:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-insight" alt-text="Screenshot of the Book meeting prep time insight.":::
+:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-insight.png" alt-text="Screenshot of the Book meeting prep time insight.":::
    Screenshot that shows an insight above the Outlook meeting invitation composer that says, 'Book prep time before this meeting to work on related documents and tasks?'. There are two links: 'Book time' and 'Dismiss this message.'
 :::image-end:::
 
