@@ -39,18 +39,18 @@ In Viva Learning, you can curate a learning path using learning content from dif
 
 ![Image of create new Learning path description fields.](../media/learning/learning-path-step-4-title-description.png)
 
-1. Click **Add content** to add your content.
+5. Click **Add content** to add your content.
 
 ![Image of add content view with section title, description, and search view for finding courses.](../media/learning/learning-path-add-content.png)
 
-1. You can take the following actions.
+6. You can take the following actions.
     1. Add a section title and descriptions.
     1. Search for relevant learning content from learning providers within Viva Learning. 
     1. Select the content of your choice and click **Add**.
     1. Reorder the content by dragging the added courses. 
-1. Click **Add Section** if you want to add another section to your learning path.
-1. Reorder sections using the arrows if needed.
-1. Click **Save**.
+7. Click **Add Section** if you want to add another section to your learning path.
+8. Reorder sections using the arrows if needed.
+9. Click **Save**.
 
 ![Image of a completed section of a learning path with additional sections added](../media/learning/learning-path-final-view.png)
 
