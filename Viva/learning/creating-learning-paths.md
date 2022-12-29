@@ -1,5 +1,5 @@
 ---
-title: Creating Learning Paths in Viva Learning
+title: Creating Learning paths in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
@@ -17,7 +17,7 @@ localization_priority: medium
 description: Learn how to create and configure learning paths for Microsoft Viva Learning.
 ---
 
-# Create Learning Paths for Viva Learning
+# Learning paths in Viva Learning
 
 A learning path is a collection of learning objects or a sequence of learning activities relevant to the learning goals of employees, such as skill improvements or onboarding.
 
@@ -25,12 +25,12 @@ In Viva Learning, you can curate a learning path using learning content from dif
 
 
 >[!NOTE]
->You need admin or knowledge manager permissions to creating a learning path in Viva Learning. 
+>You need admin or knowledge manager permissions to create a learning path in Viva Learning.
 
-## Create a Learning Path
+## Create a Learning path
 
-1. Go to the **Admin** tab in Viva Learning and click on **Learning paths** on the left menu.
-2. Click **Create New**.
+1. Go to the **Admin** tab in Viva Learning and click on **Learning path** on the left menu.
+2. Click **Create new**.
 
 ![Image of the Learning Path navigation on the admin tab.](../media/learning/learning-path-step1-add-new.png)
 
@@ -54,27 +54,27 @@ In Viva Learning, you can curate a learning path using learning content from dif
 
 ![Image of a completed section of a learning path with additional sections added](../media/learning/learning-path-final-view.png)
 
-Your Learning path is saved in drafts. You can edit, preview or publish the learning path now to make it available to employees in your organizations. 
+Your learning path is saved in drafts. You can edit, preview or publish the learning path now to make it available to employees in your organizations. 
 
 >[!NOTE]
 >You can't add or remove content from a learning path once it's published. You can only edit the title, description and thumbnail of a published learning path. 
  
-### View and Manage Learning Path Options
+### View and manage Learning path options
 
-You can always view and manage your existing learning paths under the **Learning paths** section in the **Admin** tab.
+You can always view and manage your existing learning paths under the **Learning path** section in the **Admin** tab.
 
 
 ![Image of options used to edit learning paths in Viva Learning.](../media/learning/learning-path-edit-options.png)
 
-- Click **Edit** to update the learning path details. You can also edit the content for a draft Learning Path.
+-  Click **Publish** to publish the learning path and make it available for the organization employees. You can't add or remove content from a learning path once it's published. You can only edit the title, description, and thumbnail of a published learning path.
+- Click **Edit** to update the learning path details. You can also edit the content for a draft learning path.
 - Click **Preview** to display a preview of how the learning path will appear to the learner once published. 
 - Click **Duplicate** to create a copy of an existing learning path, which you can further modify and publish. 
 - Click **Delete** to delete the learning path. Once deleted, the learning path is no longer discoverable to employees in your organization.
 
 
-
 Once a learning path is published, it shows up on the **Home page** in the **Browse courses** by the provider section under your tenant name carousel.
 
-Employees can discover and play the course by clicking on the** Learning path** card, navigating to the **details** page, and selecting the course thumbnail.
+Employees can discover and play the course by clicking on the learning path card, navigating to the **details** page, and selecting the course thumbnail.
 
 
