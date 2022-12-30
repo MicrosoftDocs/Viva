@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 2/9/2022
+ms.date: 12/30/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -41,13 +41,17 @@ In Viva Learning, you can curate a learning path using learning content from dif
 
 5. Click **Add content** to add your content.
 
-![Image of add content view with section title, description, and search view for finding courses.](../media/learning/learning-path-add-content.png)
+![Image of the add content button option within the Edit Learning Path navigation](../media/learning/learning-path-edit-learning-path.png)
+
 
 6. You can take the following actions.
     1. Add a section title and descriptions.
     1. Search for relevant learning content from learning providers within Viva Learning. 
     1. Select the content of your choice and click **Add**.
     1. Reorder the content by dragging the added courses. 
+
+![Image of add content view with section title, description, and search view for finding courses.](../media/learning/learning-path-add-content.png)
+
 7. Click **Add Section** if you want to add another section to your learning path.
 8. Reorder sections using the arrows if needed.
 9. Click **Save**.
@@ -66,15 +70,12 @@ You can always view and manage your existing learning paths under the **Learning
 
 ![Image of options used to edit learning paths in Viva Learning.](../media/learning/learning-path-edit-options.png)
 
--  Click **Publish** to publish the learning path and make it available for the organization employees. You can't add or remove content from a learning path once it's published. You can only edit the title, description, and thumbnail of a published learning path.
-- Click **Edit** to update the learning path details. You can also edit the content for a draft learning path.
-- Click **Preview** to display a preview of how the learning path will appear to the learner once published. 
-- Click **Duplicate** to create a copy of an existing learning path, which you can further modify and publish. 
-- Click **Delete** to delete the learning path. Once deleted, the learning path is no longer discoverable to employees in your organization.
-
+- Click **Publish** to publish the learning path and make it available for the organization employees. You can't add or remove content from a learning path once it's published. You can only edit the title, description, and thumbnail of a published learning path.
+- Click **Edit** to update the learning path details. You can also edit the content for a draft learning path. Editing the learning path will not change its copy URL.
+- Click **Preview** to display a preview of how the learning path will appear to the learner once published.
+- Click **Duplicate** to create a copy of an existing learning path, which you can further modify and publish.
+- Click **Delete** to delete the learning path. Once deleted, the learning path is no longer discoverable to employees in your organization. Deleting the learning path would remove any references like bookmarks or recommendation for that learning path.
 
 Once a learning path is published, it shows up on the **Home page** in the **Browse courses** by the provider section under your tenant name carousel.
 
 Employees can discover and play the course by clicking on the learning path card, navigating to the **details** page, and selecting the course thumbnail.
-
-
