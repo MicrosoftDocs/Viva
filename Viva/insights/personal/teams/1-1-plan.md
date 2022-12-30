@@ -33,7 +33,7 @@ As a people manager with a busy schedule, you know how hard it can be to keep up
 
 On the **Teamwork** tab within the Viva Insights app, you’ll find a card prompting you to start a 1:1 meeting plan. Select **Set up 1:1 plan** to get started.
 
-![start](images/1-1-plan-start1.png)
+![start](Images/1-1-plan-start1.png)
 
 
 
@@ -53,13 +53,13 @@ Review the information in the table to make sure you have all the right particip
 
 When you’re ready to get your 1:1s started, select checkmark next to each participant, and then select **Invite**. Team members get an invitation in Outlook for a recurring meeting. After participants accept the invite, they’re enrolled in the 1:1 plan.
 
-![list](images/1-1-plan-invite.png)
+![list](Images/1-1-plan-invite.png)
 
 If a recurring 1:1 meeting series already exists for any direct report, the plan will include that series as part of the experience.
  
 After you send your invitations, the **Status** column shows “Invitation sent.” When invitees accept the invitation, the status changes to "Invited."
  
-![invited](images/1-1-plan-invited.png)
+![invited](Images/1-1-plan-invited.png)
 
 ### To edit or end a 1:1 meeting plan
 
@@ -67,17 +67,17 @@ After you send your invitations, the **Status** column shows “Invitation sent.
 
 To edit the time you meet with a participant, select the ellipses (**...**) under **Actions**, and then select **Edit meeting series**. The plan automatically suggests times that work for both you and your team member. You can also specify a custom day and time for your 1:1 series.
 
-![edit](images/1-1-plan-edit-mtg.png)
+![edit](Images/1-1-plan-edit-mtg.png)
 
 The plan automatically suggests times that work for both you and your team member. Use the dropdown menu beneath the meeting title to pick available times. When you're ready to send the invitation, select **Invite**.
 
-![edit pane](images/1-1-plan-edit-pane.png)
+![edit pane](Images/1-1-plan-edit-pane.png)
 
 #### End a plan
 
 To end a 1:1 plan with a specific team member, select the ellipses (**...**) under **Actions**, and then select **Remove person**. After you confirm that you want to remove them, the plan automatically removes this person from the setup table and cancels the active 1:1 series.
 
-![remove person](images/1-1-plan-remove-and-confirm.png)
+![remove person](Images/1-1-plan-remove-and-confirm.png)
 
  To end all your 1:1s, you'll need to remove each person separately.
 
@@ -91,15 +91,15 @@ When your manager invites you to a 1:1 plan, you'll receive an Outlook meeting s
 
 The day before your 1:1, Viva Insights sends the organizer and the invitee a Teams notification. Select **Next** on this notification.
 
-![teams notification](images/1-1-plan-teams-notification.png)
+![teams notification](Images/1-1-plan-teams-notification.png)
 
 The app then shows you a list of your calendar events that conflict with the 1:1. Cancel or reschedule those events here, then select **Next**.
 
-![cancel or reschedule](images/1-1-plan-conflict1.png)
+![cancel or reschedule](Images/1-1-plan-conflict1.png)
 
 Lastly, the app encourages you to add talking points to the meeting chat. When you start your 1:1, you’ll find what you entered here in the meeting’s chat window.
 
-![topics](images/1-1-plan-topics1.png)
+![topics](Images/1-1-plan-topics1.png)
 
 ## To edit your notification settings
 
