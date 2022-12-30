@@ -33,8 +33,7 @@ As a people manager with a busy schedule, you know how hard it can be to keep up
 
 On the **Teamwork** tab within the Viva Insights app, you’ll find a card prompting you to start a 1:1 meeting plan. Select **Set up 1:1 plan** to get started.
 
-![start](./Images/1-1-plan-start1.png)
-
+![start](./Images/1-1-plan-invite.png)
 
 
 The app then shows you table with a:
