@@ -21,7 +21,7 @@ Use Viva Insights **Home** to discover key wellbeing, productivity, and teamwork
 * Your progress
 * Inspiration library
 
-If you're an organizational leader, meaning you're assigned the Insights Business Leader role or your admin has enabled group manager access for you, you'll also find an **Insights for your organization** section at the top of your **Home** tab. We talk about organization insights later on, in [For managers and leaders](#for-managers-and-leaders).
+If you're an organizational leader, meaning you're assigned the **Insights Business Leader** role or your admin has enabled group manager access for you, you'll also find an **Insights for your organization** section at the top of your **Home** tab. We talk about organization insights later on, in [For managers and leaders](#for-managers-and-leaders).
 
 ## Recommended for you
 

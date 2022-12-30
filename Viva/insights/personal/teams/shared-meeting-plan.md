@@ -52,7 +52,7 @@ First, you'll set some meeting norms that affect how your meetings appear on cal
 
 * **Automatically include a Microsoft Teams meeting link** – Select whether every meeting invite includes a link for an online meeting in Microsoft Teams. Adding Teams links promotes hybrid meetings by including both remote and in-person attendees.
 
-* **Get feedback from your meeting participants** – Activate meeting effectiveness surveys for plan participants who have a Viva Insights subscription. Meeting effectiveness surveys promote a healthy meeting culture by providing aggregated feedback to meeting organizers on what’s going well with and what you could improve in future meetings.
+* **Get feedback from your meeting participants** – Activate meeting effectiveness surveys for plan participants who have a Viva Insights subscription. Meeting effectiveness surveys promote a healthy meeting culture by providing aggregated feedback to meeting organizers on what’s going well with your meetings and what you could improve in the future.
 
 ![Screenshot that shows creating team norms (step 1/2).](./Images/productivity-mep-step-1.png)
 
@@ -73,7 +73,7 @@ After they get your invitation, recipients can accept or decline it.
 
 ## For plan recipients
 
-Anyone can join and participate in a shared meeting plan. If you don't have a premium Viva Insights subscription, Viva Insights won't display any settings to request meeting feedback. 
+Anyone with access to the Viva Insights app can join and participate in a shared meeting plan. If you don't have a premium Viva Insights subscription, Viva Insights won't display any settings to request meeting feedback. 
 
 ### To join a shared meeting plan
 

@@ -16,7 +16,7 @@ audience: user
 
 # Productivity
 
-On the **Productivity** tab, you'll find centralized insights and actions that help you as an information worker get your work done more effectively. 
+On the **Productivity** tab, you'll find centralized insights and actions that help you get your work done more effectively. 
 
 :::image type="content" source="./images/productivity-small.png" alt-text="Screenshot that shows the Productivity tab." lightbox="./images/productivity.png":::
 
@@ -49,7 +49,7 @@ Each day, an insight related to one of the following topics appears at the top o
 * Join on time rate 
 * Multitasking hours 
 
->[!Note]
+>[!Tip]
 >To find other insights, use the arrows to the right of the **Your organization/Your company** dropdown.
 
 
