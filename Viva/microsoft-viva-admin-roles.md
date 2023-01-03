@@ -91,11 +91,10 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 
 | Role         | What this role does in Viva
 |--------------|-----------|
-|**Knowledge admin** <br> Assigned by Microsoft 365 admin|Manages the organization's learning content sources through the Microsoft 365 admin center.<br><br>Users in this role have full access to all knowledge, learning and intelligent features settings in the Microsoft 365 admin center. <br><br>Knowledge admins can create and manage content, like topics, acronyms and learning resources. Additionally, these users can create content centers, monitor service health, and create service requests.
+|**Knowledge admin** <br> Assigned by Microsoft 365 admin|Manages the organization's learning content sources through the Microsoft 365 admin center.<br><br>Users in this role have full access to all knowledge, learning and intelligent features settings in the Microsoft 365 admin center. <br><br>Knowledge admins can create and manage content, like topics, acronyms and learning resources. Additionally, these users can create content centers, monitor service health, and create service requests.|
+|**SharePoint admin** <br> Manages all aspects of SharePoint<br><br> Assigned by Microsoft 365 admin | Manages and stores custom learning content for your organization|
+|**Teams admin** <br> Manage all aspects of Microsoft Teams<br><br>Assigned by Microsoft 365 admin|Can turn on or off the Viva Learning app at the organization level. Learn how to manage your apps in the Microsoft Teams admin center.<br><br> Can create custom app permission policies to allow or block specific users from using Viva Learning.
 
-
-|**SharePoint admin** <br> Manages all aspects of SharePoint<br><br> Assigned by Microsoft 365 admin | <ul><li>Sets up the home site</li><li>Enables global navigation and creates a Dashboard |
-|**Teams admin** <br> Manage all aspects of Microsoft Teams<br><br>Assigned by Microsoft 365 admin|Creates and selects settings for customized app
 
 - [Microsoft Teams admin](/microsoftteams/using-admin-roles)
 - [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role)
