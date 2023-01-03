@@ -77,7 +77,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes.
 
-   >[Important!]
+   >[!Important]
    >While **Organization** is a required attribute, **LevelDesignation** is *suggested*. If you don't include this **LevelDesignation**, you might get an error when you run the query. If you do get an error message, select **Clean Query** to remove the empty **LevelDesignation** attribute. By removing this attribute, you'll impact the **Chats with peers** visuals on the **Stay connected** page, so we don't recommend using them for further analysis.  
 
 6. Select any additional attributes (columns) that you want to include in the reports.
