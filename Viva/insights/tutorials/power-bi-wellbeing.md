@@ -19,7 +19,7 @@ audience: Admin
 
 The **Wellbeing &ndash; balance and flexibility** dashboard uses a template that's populated by Microsoft Viva Insights data to help you get insights into employee wellbeing across your company. This analysis can help you uncover opportunities to improve focus, work-life balance, flexibility at work, and employee's sense of community.
 
-The dashboard includes the following reports.
+The dashboard includes the following reports. 
 
 * **Improve focus** &ndash; Do you have time to focus on your core priorities?
 * **Balance work and life** &ndash; Are you able to protect personal time?
