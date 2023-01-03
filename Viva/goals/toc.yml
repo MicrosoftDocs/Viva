@@ -90,6 +90,8 @@ items:
           href: jira-integration.md
         - name: Looker Integration
           href: looker-integration.md
+        - name: Microsoft Planner Integration
+          href: microsoft-planner-integration.md
         - name: Mode Integration
           href: mode-integration.md
         - name: monday.com Integration

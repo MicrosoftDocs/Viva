@@ -90,7 +90,8 @@ For records that have not been imported, refer to the "reason" column in the Imp
         1. Team administrator 
         1. Team owner 
         1. Org owner 
-        Note that team owners and admins can only import OKRs to teams where they are the team admin/owner and not to the Org level. 
+        > [!NOTE]
+        > Note that team owners and admins can only import OKRs to teams where they are the team admin/owner and not to the Org level. 
 
 1. How can users know OKRs didn’t import successfully and how they can reupload? 
     1. The import status Excel sheet has a dedicated column that details the issue for each OKR that failed in the import operation. 
