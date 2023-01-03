@@ -19,40 +19,83 @@ search.appverid:
 description: "Learn about the admin roles for Viva Connections, Viva Learning, Viva Topics, and Viva Insights in Microsoft Viva"
 ---
 # Admin roles and tasks in Microsoft Viva
-Each Microsoft Viva module has its own individual options for setup, permissions, management, and governance. Admin options and permissions rely on the environment the module is built in. For example, Viva Connections relies heavily on the SharePoint admin and permissions model, and in some cases Teams admin management. In this article, we bring together information on the admin roles and management for each module.
+Setup and management of the Microsoft Viva suite starts with the Microsoft 365 admin. The Microsoft 365 admin can then assign additional roles for the management, tasks and maintenance of each Viva app. 
+Admin options and permissions for each app rely heavily on the environments the apps are available in. For example, most Viva apps are accessed through Microsoft Teams and rely on the Microsoft Teams permissions structure.
 
-#### Setup in the Microsoft 365 admin  center
-While each module has its own setup process, you can find all of the setup pages in one location in the Microsoft 365 admin center. For more information see [Set up Microsoft Viva](/viva/setup-microsoft-viva).
+In this article, we bring together information on the types and levels of admin roles for each Viva app.
 
+## Admin roles in Microsoft Viva
 
-### Viva Topics
-You must be a [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role) to set up and manage Topics in the Microsoft 365 admin center. During setup, admins can configure Viva Topics to:
-- Select which SharePoint sites will be crawled for topics.
-- Select which licensed users who can view topics (topic viewers).
-- Select which topics will be excluded from being identified.
-- Select which licensed users who can create and edit topics (topic contributors).
-- Select which licensed users who can manage topics.
-- Name the topic center.
+![Image of the Viva admin roles.](./media/TO COME)
 
-Admins need to be able to coordinate with all Viva Topics stakeholders in their organization to know how to configure it. For example, if a new project has sensitive information, the admin needs to be informed so that they can make sure that the SharePoint site is not crawled for topics, or specific topic names need to be excluded.
+## Roles spanning Microsoft Viva apps
 
+#### Microsoft 365 admin
+
+The Microsoft 365 admin spans the Viva suite. A Microsoft 365 admin sets up Viva, manages licenses and settings, and can assign the following Azure AD roles, which may be required for some modules and tasks:
+
+- Viva Topics [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-manager)
+- Viva Learning [Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
+- Viva Insights [Business Leader](/azure/active-directory/roles/permissions-reference#insights-business-leader), [Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator), and [Analyst](/azure/active-directory/roles/permissions-reference#insights-analyst)
+- [SharePoint admin](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
+- [Teams admin](/azure/active-directory/roles/permissions-reference#teams-administrator)
+
+Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
+
+Learn about [Azure AD roles](/azure/active-directory/roles)
+
+#### Microsoft Teams admin
+
+The Teams admin manages the Teams service and creates and manages Microsoft 365 Groups. Teams admins can access everything in the Microsoft Teams admin center and associated PowerShell controls.
+
+For Viva, the Teams admin manages the [deployment of Viva apps](/microsoftteams/manage-apps) and some settings for the apps.
+
+For more information, see [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles)
+
+## Admin and management roles for each app
+
+Deciding who should be assigned roles will partly depend on how much access you want a person to have.
+
+For example, you might want to give someone site owner permissions so they can create and manage your Viva Connections dashboard. This person would also be able to manage permissions for that site, edit the home page and other pages, delete pages and other site contents, and more.
+
+To help you decide who should be assigned which roles, here are overviews of roles for each app and what they do in Viva.
+
+#### Viva Topics
+
+You must be a [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role) to set up and manage Topics in the Microsoft 365 admin center. 
+
+| Role         | What this role does in Viva
+|--------------|-----------|
+|**Viva Topics admin** <br> Must be a Microsoft 365 global administrator, or a SharePoint administrator and Groups administrator| <ul><li>Name the topic center</li><li>Select which SharePoint sites will be crawled for topics</li><li>Assign knowledge manager role</li><li>Select which licensed users can view and access topics (topic viewers)</li><li>Select which licensed users can create and edit topics (topic contributors)</li><li>Select which topics will be excluded from being identified</ul>|
+|**Knowledge manager**<br> Knowledge managers are users who manage topics in your organization.<br><br>Assigned by Topics admin| On the Manage topics page, knowledge managers can do the following tasks: <ul><li>View AI-suggested topics</li><li>Review topics to confirm that they're valid</li><li>Remove topics that you don’t want visible to users.</li><br>|
 
 For more information on all the roles in Microsoft Viva Topics, see [Roles in Viva Topics](/viva/topics/topic-experiences-roles).
 
 Learn more about planning and administration for Topics in: [Plan for Microsoft Viva Topics](/viva/topics/plan-topic-experiences).
 
-### Viva Connections
+#### Viva Connections
 
-Depending on the task, Viva Connections administration and permissions are managed through SharePoint Online and Microsoft Teams admin centers. The following are the basic requirements and minimum permission level:
+Depending on the task, Viva Connections administration and permissions are managed through SharePoint Online and Microsoft Teams admin centers. The following are the basic requirements and minimum permission levels.
 
-- **Set a home site**:  [SharePoint admin](/sharepoint/sharepoint-admin-role)
-- **Enable global navigation and create a Dashboard**: [SharePoint site admin](/sharepoint/manage-site-collection-administrators)
-- **Create and select setting for the customized app**: [Teams admin](/microsoftteams/using-admin-roles)
+| Role         | What this role does in Viva
+|--------------|-----------|
+|**SharePoint admin** <br> Manages all aspects of SharePoint<br><br> Assigned by Microsoft 365 admin | <ul><li>Sets up the home site</li><li>Enables global navigation and creates a Dashboard |
+|**Teams admin** <br> Manage all aspects of Microsoft Teams<br><br>Assigned by Microsoft 365 admin|Creates and selects settings for customized app
+|**Site owner**<br>Manages one or more SharePoint sites<br><br>Assigned by SharePoint admin	| Creates a SharePoint home site to meet technical requirements for Viva Connections
+|**Site member**<br>Assigned by site owner|Can author and edit dashboards, news, and other pages|
 
 To learn about setup and administration for Connections, see [Guide to setting up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections), in which required permissions are noted for each step. To learn about SharePoint Online roles and tasks see [Introduction to roles, tasks, and timelines in SharePoint Online](/sharepoint/intranet-roles-tasks). To learn about Teams administration, see [Manage teams in the Microsoft Teams admin center](/microsoftteams/manage-teams-in-modern-portal).
 
-### Viva Learning
+#### Viva Learning
 Viva Learning is by default available in Microsoft Teams with some content already available. To set up learning content sources in Viva Learning and manage individual licensing, you'll need these permissions:
+
+| Role         | What this role does in Viva
+|--------------|-----------|
+|**Knowledge admin** <br> Assigned by Microsoft 365 admin|Manages the organization's learning content sources through the Microsoft 365 admin center.<br><br>Users in this role have full access to all knowledge, learning and intelligent features settings in the Microsoft 365 admin center. <br><br>Knowledge admins can create and manage content, like topics, acronyms and learning resources. Additionally, these users can create content centers, monitor service health, and create service requests.
+
+
+|**SharePoint admin** <br> Manages all aspects of SharePoint<br><br> Assigned by Microsoft 365 admin | <ul><li>Sets up the home site</li><li>Enables global navigation and creates a Dashboard |
+|**Teams admin** <br> Manage all aspects of Microsoft Teams<br><br>Assigned by Microsoft 365 admin|Creates and selects settings for customized app
 
 - [Microsoft Teams admin](/microsoftteams/using-admin-roles)
 - [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role)
