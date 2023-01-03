@@ -75,10 +75,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-person-query).
 
-5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires.
+5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes.
 
-   >[!Important]
-   >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+   While **Organization** is a required attribute, **LevelDesignation** is *suggested*. If you don't include this **LevelDesignation**, you might get an error when you run the query. If you do get an error message, select **Clean Query** to remove the empty **LevelDesignation** attribute. By removing this attribute, you'll impact the **Chats with peers** visuals on the **Stay connected** page, so we don't recommend using them for further analysis.  
 
 6. Select any additional attributes (columns) that you want to include in the reports.
 7. Select **Run** to run the query, which might take a few minutes to complete.
