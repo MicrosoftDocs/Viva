@@ -56,7 +56,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 >[!Note]
 >This dashboard is currently only available in English and will only work with data generated from the English version of the app. Before running the required queries, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/...
 
-1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
+>[!Important]
+>If you remove predefined organizational data attributes, you'll turn off visualizations that rely on those attributes. Refer to step 5 for specific information about **LevelDesignation**.
+
+1. In [the app](https://workplaceanalytics.office.com/) (if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 
 2. In **Create** > **Other templates**, select **Wellbeing - balance and flexibility** to see the required setup steps, and then in step 2, select **Set up**.
 
@@ -68,24 +71,18 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    * **Group by** &ndash; Week
    * **Time period** &ndash; Select the time period you want to analyze
    * **Auto-refresh** &ndash; Keep this setting disabled by default. Turn it on only if you plan to track indicators on a weekly basis.
-   * **Meeting exclusions** &ndash; Select the preferred rule for your tenant
-
-   >[!Important]
-   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize employee wellbeing patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+   * **Meeting exclusions** &ndash; Select the preferred rule for your tenant.
 
 4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-person-query).
 
-5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes.
+5. In **Organizational data**, keep the preselected **Organization** attribute. We also recommend keeping the preselected **LevelDesignation** attribute.
 
    >[!Important]
-   >While **Organization** is a required attribute, **LevelDesignation** is *suggested*. If you don't include this **LevelDesignation**, you might get an error when you run the query. If you do get an error message, select **Clean Query** to remove the empty **LevelDesignation** attribute. By removing this attribute, you'll impact the **Chats with peers** visuals on the **Stay connected** page, so we don't recommend using them for further analysis.  
+   >If you remove **LevelDesignation**, you'll get an error. To run the query without **LevelDesignation**, select **Clean Query** on the error message. As mentioned earlier, removing preselected attribute impacts PowerBI visuals. In this case, you'll disable the **Chats with peers** visuals on the **Stay connected** page, so we don't recommend using those visuals for further analysis.  
 
 6. Select any additional attributes (columns) that you want to include in the reports.
 7. Select **Run** to run the query, which might take a few minutes to complete.
 8. When prompted, return to Query designer, and then repeat  **Steps 3-7** for the **Hourly collaboration** query, which requires the same selections as for the Wellbeing query.
-
-   >[!Important]
-   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize employee wellbeing patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 9. When prompted, continue to **Results**. After both queries successfully run, select the **Download** icon for the **Wellbeing - balance and flexibility** query results, select **PBI template**, and then select **OK** to download the template.
 10. Open the downloaded **Wellbeing - balance and flexibility** template.
