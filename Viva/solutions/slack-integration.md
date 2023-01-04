@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Integrate Slack data with Viva Insights
 description: Learn how to join Viva Insights query data with collaboration data from a third-party tool
 author: lilyolason
