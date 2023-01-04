@@ -58,7 +58,15 @@ Deciding who should be assigned roles will partly depend on how much access you 
 
 For example, you might want to give someone site owner permissions so they can create and manage your Viva Connections dashboard. This person would also be able to manage permissions for that site, edit the home page and other pages, delete pages and other site contents, and more.
 
-To help you decide who should be assigned which roles, here are overviews of roles for each app and what they do in Viva.
+To help you decide who should be assigned which roles, here are overviews of roles for each app and what they do in Viva.<br><br>
+[Viva Topics](/viva/microsoft-viva-admin-roles#viva-topics)<br>
+[Viva Connections](/viva/microsoft-viva-admin-roles#viva-connections)<br>
+[Learning](/viva/microsoft-viva-admin-roles#viva-learning)<br>
+[Insights](/viva/microsoft-viva-admin-roles#viva-insights)<br>
+[Goals](/viva/microsoft-viva-admin-roles#viva-goals)<br>
+[Engage](/viva/microsoft-viva-admin-roles#viva-engage)<br>
+[Sales](/viva/microsoft-viva-admin-roles#viva-sales)
+
 
 #### Viva Topics
 
