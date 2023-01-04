@@ -80,7 +80,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 5. In **Organizational data**, keep the preselected **Organization** attribute. We also recommend keeping the preselected **LevelDesignation** attribute.
 
    >[!Important]
-   >If you don't have **LevelDesignation** in your organizational data file, or you remove it when building your query, you'll get an error. To run the query without **LevelDesignation**, select **Clean Query** on the error message. As mentioned earlier, removing preselected attribute impacts PowerBI visuals. In this case, you'll disable the **Chats with peers** visuals on the **Stay connected** page, so we don't recommend using those visuals for further analysis.  
+   >If you don't have **LevelDesignation** in your organizational data file, or you remove it when building your query, you'll get an error. To run the query without **LevelDesignation**, select **Clean Query** on the error message. As mentioned earlier, removing preselected attributes impacts PowerBI visuals. In this case, you'll disable the **Chats with peers** visuals on the **Stay connected** page, so we don't recommend using those visuals for further analysis.  
 
 6. Select any additional attributes (columns) that you want to include in the reports.
 7. Select **Run** to run the query, which might take a few minutes to complete.
