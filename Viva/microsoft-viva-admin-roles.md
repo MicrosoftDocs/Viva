@@ -95,7 +95,6 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 |**SharePoint admin** <br> Manages all aspects of SharePoint<br><br> Assigned by Microsoft 365 admin | Manages and stores custom learning content for your organization|
 |**Teams admin** <br> Manage all aspects of Microsoft Teams<br><br>Assigned by Microsoft 365 admin|Can turn on or off the Viva Learning app at the organization level. Learn how to manage your apps in the Microsoft Teams admin center.<br><br> Can create custom app permission policies to allow or block specific users from using Viva Learning.
 
-
 - [Microsoft Teams admin](/microsoftteams/using-admin-roles)
 - [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role)
 - [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
@@ -112,13 +111,37 @@ The Insights admin role  must be assigned by a Microsoft 365 admin as described 
 For more information on all the roles in Viva Insights see [Roles in Viva Insights](/viva/insights/advanced/setup-maint/user-roles).
 
 ### Viva Goals
-Organization Admins have a special role within their organization’s OKR program. Organization Admins will help set up the organization, time periods, users and teams in the Viva Goals instance. To complete these actions, please visit the Admin Dashboard in your solution instance. 
+Viva Goals has several different roles. Included here are roles that require specific permissions:
 
-To access the Viva Goals Admin Dashboard, navigate toward the bottom of the left side panel and select “Admin” next to the gear icon.
+| Role         | What this role does in Viva
+|--------------|-----------|
+|**Organization admin** <br> Assigned by Microsoft 365 admin|Manages the setup of the organization and can manage users and teams. An organization can have more than one organization administrator.
+|**Organization owner** <br> Assigned by Organization admin<br><br>| Manages members, teams, setup, and billing for the account. By default, they own organization-level OKRs, but organizational objectives can be owned by other members also.|
+|**Team admin** <br>Assigned by Organization owner|Manages team members
+|**Team owner** <br>Assigned by Team admin|Manages team-level OKRs
+|**Managers**|Own their own OKRs and the OKRs of employees who report to them.
 
-Inside the Admin Dashboard, you will see different tabs where you can make adjustments, including Settings, Users, Teams, Time Periods, Notifications, Integrations, OKR Model Configuration, and OKRs & Projects.
+For more detailed information see [Roles and permissions in Viva Goals](/viva/goals/roles-permissions-in-viva-goals).
 
 For more information about admin settings in the admin dashboard, see [Navigate the admin dashboard](/viva/goals/navigate-admin-dashboard)
 
 ### Viva Engage
-See: [Manager Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins)
+| Role         | What this role does in Viva
+|--------------|-----------|
+|**Viva Engage admin** <br> |Sets up the Yammer network and performs tasks such as configuring security settings, monitoring keywords for appropriate use, managing data retention, and exporting  data. Also can view reports showing overall usage. This role maps to the Yammer admin Azure AD role.
+|**Yammer community admin** <br> |Manages day-to-day activity within a community to keep the community engaged and productive, including monitoring usage activity. Any Yammer user who creates a community is assigned the Community Admin role.|
+|**Teams admin** <br>Assigned by Microsoft 365 admin|Assigned by Microsoft 365 admin	Uses the Teams admin center to create setup policies to install the app and assign users.
+
+For more information, see: [Manager Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins)
+
+#### Viva Sales
+You need to be a Microsoft 365 administrator to deploy and install the Viva Sales add-in for Outlook. You need to be a Teams administrator to deploy and install Viva Sales for Teams.
+
+| Role         | What this role does in Viva
+|--------------|-----------|
+|**Microsoft 365 admin** |Deploys and installs the Viva Sales add-in for Outlook.
+|**Teams admin** <br>Assigned by Microsoft 365 admin|Uses the Teams admin center to create setup policies to install the app and assign users.
+|**CRM security role**|Viva Sales applies your organization's existing CRM access controls and user permissions. Users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales. Required roles depend on the system you are using.
+
+For more information on these and other roles, see [Install Viva Sales](/Viva/sales/install-viva-sales)
+
