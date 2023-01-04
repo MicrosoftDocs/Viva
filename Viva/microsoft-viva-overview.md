@@ -25,7 +25,7 @@ With the growth in hybrid work, it is more important than ever to connect employ
 
 Viva is easily customizable and extensible, accessible from anywhere you work, and integrates with tools you already use. It also supports several partner integrations to give you access to industry-leading apps in the natural flow of work.
 
-Viva is an open and extensible platform. Soon, partners and developers will be able to use toolkits and APIs for each of the four modules. The [Viva Connections toolkit](/sharepoint/dev/spfx/viva/overview-viva-connections) is available now, and coming soon are APIs for Viva Insights and Viva Learning as well as content support for Viva Topics. To find out more, see the [Microsoft Viva Developer Page](https://developer.microsoft.com/en-us/viva).
+Viva is an open and extensible platform. Soon, partners and developers will be able to use toolkits and APIs for supported Viva modules. The [Viva Connections toolkit](/sharepoint/dev/spfx/viva/overview-viva-connections) is available now, and coming soon are APIs for Viva Insights and Viva Learning as well as content support for Viva Topics. To find out more, see the [Microsoft Viva Developer Page](https://developer.microsoft.com/en-us/viva).
 
 As an integrated experience, administrators can use the centralized Microsoft 365 admin center experience to access guided setups for deploying Viva. [Learn how to set up Microsoft Viva](/viva/setup-microsoft-viva).
 
