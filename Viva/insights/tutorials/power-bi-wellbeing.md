@@ -57,7 +57,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 >This dashboard is currently only available in English and will only work with data generated from the English version of the app. Before running the required queries, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/...
 
 >[!Important]
->If you remove predefined organizational data attributes, you'll turn off visualizations that rely on those attributes. Refer to step 5 for specific information about **LevelDesignation**.
+>Removing predefined organizational data attributes turns off visualizations that rely on those attributes. Refer to step 5 for specific information about **LevelDesignation**.
+>
+>Similarly, deleting predefined metrics turns off parts of the Power BI dashboard, reduces your query results, and limits your ability to visualize wellbeing patterns. Depending on the metric, deletion might turn off a single Power BI chart, several charts, or all the charts. Before you delete a predefined metric, you'll get a warning message. Select **Cancel** on the message to keep the metric.
 
 1. In [the app](https://workplaceanalytics.office.com/) (if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 
@@ -78,7 +80,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 5. In **Organizational data**, keep the preselected **Organization** attribute. We also recommend keeping the preselected **LevelDesignation** attribute.
 
    >[!Important]
-   >If you remove **LevelDesignation**, you'll get an error. To run the query without **LevelDesignation**, select **Clean Query** on the error message. As mentioned earlier, removing preselected attribute impacts PowerBI visuals. In this case, you'll disable the **Chats with peers** visuals on the **Stay connected** page, so we don't recommend using those visuals for further analysis.  
+   >If you don't have **LevelDesignation** in your organizational data file, or you remove it when building your query, you'll get an error. To run the query without **LevelDesignation**, select **Clean Query** on the error message. As mentioned earlier, removing preselected attribute impacts PowerBI visuals. In this case, you'll disable the **Chats with peers** visuals on the **Stay connected** page, so we don't recommend using those visuals for further analysis.  
 
 6. Select any additional attributes (columns) that you want to include in the reports.
 7. Select **Run** to run the query, which might take a few minutes to complete.
