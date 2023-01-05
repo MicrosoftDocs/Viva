@@ -142,7 +142,7 @@ Each app offers special features, customization opportunities, and ways to integ
 
 Each app has its own technical requirements before it can be customized and shared with others. Review the requirements and other considerations like change management and the impact on end-users to help you determine a team and timeline for planning, building, and launching.
 
-- Viva Connections
+### Viva Connections
 
     - **Technical requirements**:
         - Microsoft 365 E3 or E5 license
@@ -165,11 +165,11 @@ Each app has its own technical requirements before it can be customized and shar
         - Where to view the latest news and announcements
         - Specialized guidance for different audiences like frontline workers or hybrid workers
 
-- Viva Insights
+### Viva Insights
 
     - **Technical requirements**:
-    - Microsoft 365 or Office 365 E1/A1/G1/E3/A3/G3/E5/A5/G5, Microsoft 365 Business Basic, Business Standard, Business Premium, or Exchange Online Plan 1 or Plan 2 license
-    - [Discover and pin the app](https://www.microsoft.com/microsoft-viva/buy-insights?rtc=1&activetab=pivot%3aoverviewtab) or [Viva Suite subscription](https://www.microsoft.com/microsoft-viva/pricing?rtc=1) is required for some features.  
+        - Microsoft 365 or Office 365 E1/A1/G1/E3/A3/G3/E5/A5/G5, Microsoft 365 Business Basic, Business Standard, Business Premium, or Exchange Online Plan 1 or Plan 2 license
+        - [Discover and pin the app](https://www.microsoft.com/microsoft-viva/buy-insights?rtc=1&activetab=pivot%3aoverviewtab) or [Viva Suite subscription](https://www.microsoft.com/microsoft-viva/pricing?rtc=1) is required for some features.  
     - **Impact on end-users**:
         - No need to leave Microsoft Teams or Outlook to get help with everyday tasks and improve your work patterns and wellbeing.
         - See [Discover and pin the app](insights/personal/teams/viva-teams-app-install.md) in Teams and [Pin the add-in](insights/personal/Use/add-in.md) in Outlook for how to get started.
@@ -185,7 +185,7 @@ Each app has its own technical requirements before it can be customized and shar
     - **Change management considerations**:
         - Your Microsoft 365 enterprise or global admin assigns the other roles required for setting up and using Viva Insights in your organization. See [Assign admin roles](insights/Setup/Assign-roles-to-wpa-admins.md) for details.
 
-- Viva Learning
+### Viva Learning
 
     - **Technical requirements**:
         - Microsoft 365 E3 or E5 License
@@ -203,7 +203,7 @@ Each app has its own technical requirements before it can be customized and shar
         - Integrate Viva Learning with your SharePoint.
         - Integrate Viva Learning with your third-party content providers or learning management systems.
 
-- Viva Topics
+### Viva Topics
 
     - **Technical requirements**:
         - Microsoft 365 E3 or E5 license
@@ -222,20 +222,57 @@ Each app has its own technical requirements before it can be customized and shar
         - Secure content appropriately to ensure topic resources are security-trimmed based on user permissions.
         - Identify knowledge admins, knowledge managers, and topic contributors.
 
-|Viva Engage |Change management |
-|---------|---------|
-|**Technical requirements**: <br> - Microsoft 365 E3 or E5 license <br> - Viva Suite or Viva Engage license <br> - Yammer |**Impact on end users**: <br> Connect and engage with leaders, colleagues, and communities. Viva Engage creates opportunities for asking questions and sharing knowledge, attending virtual events, building social capital, and extending employee networks. |
-|**Admins and roles**: <br> - Yammer Verified admin <br> - Microsoft Teams admin <br> - Community leaders and stakeholders from employee resource groups |**Change management considerations**: <br> - Microsoft Teams adoption (if you aren't already using Teams) <br> - Yammer adoption if your organization is new to Yammer |
+### Viva Engage 
+    - **Technical requirements:** 
+        - Microsoft 365 E3 or E5 license 
+        - Viva Suite or Viva Engage license  
+        - Yammer 
+    - **Impact on end users:** 
+        - Connect and engage with leaders, colleagues, and communities.
+        - Viva Engage creates opportunities for asking questions and sharing knowledge, attending virtual events, building social capital, and extending employee networks.
+    - **Admins and roles:** 
+        - Yammer Verified admin 
+        - Microsoft Teams admin 
+        - Community leaders and stakeholders from employee resource groups 
+    - **Change management considerations:** 
+        - Microsoft Teams adoption (if you aren't already using Teams) 
+        - Yammer adoption if your organization is new to Yammer 
 
-|Viva Goals |Change management |
-|---------|---------|
-|**Technical requirements**: <br> - Microsoft 365 E3 or E5 license <br> - Viva Suite or Viva Goals license |**Impact on end users**: <br> - Users can view team and organizational OKRs in Teams. <br> - Managers can update OKRs for their team in Viva Goals. |
-|**Admins and roles**: <br> - Organization owners manage members, teams, setup, and billing. <br> - Organization admins are members who manage the setup of the organization and can manage users and teams. <br> - Team admins are members who can manage team members. <br> - Team owners are members who own their team members' OKRs. <br> - Managers are members who own their own OKRs and the OKRs of employees who report to them. <br> - Members can set up and manage their individual OKRs and view all OKRs within the organization. <br> - [Learn more about roles and permissions in Viva Goals](/viva/goals/roles-permissions-in-viva-goals). |**Change management considerations**: <br> - Adoption of the OKR format to track goals and priorities <br> - Microsoft Teams adoption if you plan to use Viva Goals in Teams. |
+### Viva Goals 
 
-|Viva Sales |Change management |
-|---------|---------|
-|**Technical requirements**: <br> - Microsoft 365 E3 or E5 license, or Microsoft 365 Business Basic, Standard, or Premium license <br> - Viva Sales license <br> - Dynamics 365 Sales or Salesforce |**Impact on end users**: <br> - Viva Sales automates data entry for your sales teams so your salespeople have more time to focus on their priorities. |
-|**Admins and roles**: <br> - Microsoft 365 admin installs the app from the Microsoft 365 admin center or the Microsoft commercial marketplace. <br> - Microsoft Teams admin creates an app setup policy and pins the app for your sales teams. |**Change management considerations**: <br> - Microsoft Outlook adoption in you're not already using Outlook <br> - Microsoft Teams adoption if you're not already using Teams. |
+- **Technical requirements:** 
+    - Microsoft 365 E3 or E5 license
+    - Viva Suite or Viva Goals license 
+- **Impact on end users:** 
+    - Users can view team and organizational OKRs in Teams. 
+    - Managers can update OKRs for their team in Viva Goals. 
+- **Admins and roles*:* 
+    - Organization owners manage members, teams, setup, and billing. 
+    - Organization admins are members who manage the setup of the organization and can manage users and teams.
+    - Team admins are members who can manage team members.
+    - Team owners are members who own their team members' OKRs. 
+    - Managers are members who own their own OKRs and the OKRs of employees who report to them. 
+    - Members can set up and manage their individual OKRs and view all OKRs within the organization. 
+    - [Learn more about roles and permissions in Viva Goals](/viva/goals/roles-permissions-in-viva-goals). 
+- **Change management considerations:**
+    - Adoption of the OKR format to track goals and priorities 
+    - Microsoft Teams adoption if you plan to use Viva Goals in Teams. 
+
+### Viva Sales 
+
+- **Technical requirements:** 
+    - Microsoft 365 E3 or E5 license, or Microsoft 365 Business Basic, Standard, or Premium license 
+    - Viva Sales license 
+    - Dynamics 365 Sales or Salesforce 
+- **Impact on end users:**: 
+    - Viva Sales automates data entry for your sales teams so your salespeople have more time to focus on their priorities. 
+- **Admins and roles:** 
+    - Microsoft 365 admin installs the app from the Microsoft 365 admin center or the Microsoft commercial marketplace. 
+    - Microsoft Teams admin creates an app setup policy and pins the app for your sales teams. 
+- **Change management considerations:**
+    - Microsoft Outlook adoption in you're not already using Outlook 
+    - Microsoft Teams adoption if you're not already using Teams. 
+
 
 ## Get started planning for your Viva app
 
