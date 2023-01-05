@@ -101,7 +101,7 @@ Anyone who's part of a plan can make changes to their personal settings. Select 
 
 <!--confirm final design-->
 
-:::image type="complex" source="./images/smp-edit-card.png" alt-text="Screenshot that shows the Shared meeting plan card on the Productivity tab.":::
+:::image type="complex" source="./images/productivity-smp-card.png" alt-text="Screenshot that shows the Shared meeting plan card on the Productivity tab.":::
    Screenshot of the "Your shared meeting plan" card. The card shows participants' profile images and the subtitle says, "You're leading the way with effective meeting habits." There's an "Edit" button at the bottom of the card.
 :::image-end:::
 
