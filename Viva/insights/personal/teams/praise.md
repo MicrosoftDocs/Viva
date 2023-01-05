@@ -34,7 +34,7 @@ To send praise, open the praise feature in one of the following ways:
 
 1. Go to the **Recommended for you** section, find the **Send praise to colleagues** card, and select the **Send praise** button.
 
-   :::image type="content" source="images/praise-send.png" alt-text="Screenshot that shows Praise on Home page.":::
+   :::image type="content" source="images/praise-send2.png" alt-text="Screenshot that shows Praise on Home page.":::
 
 1. When the praise page opens, add the name of the person you want to praise.
 
@@ -69,7 +69,7 @@ To use the Teams messaging extension:
 
 1. Below the **Type a new message** field, select **Praise**.
 
-   :::image type="content" source="images/content-pane-select-praise1.png" alt-text="Screenshot that shows selecting the Praise icon.":::
+   :::image type="content" source="images/content-pane-select-praise2.png" alt-text="Screenshot that shows selecting the Praise icon.":::
 
    (If the praise feature doesn't appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).)
 
@@ -95,7 +95,7 @@ The praise feed shows your six most recent praise messages. To only see praise y
 
 1. Below the **Type a new message** field, select more options (the ellipsis):
 
-   :::image type="content" source="images/type-new-msg1.png" alt-text="Screenshot that shows selecting the ellipsis.":::
+   :::image type="content" source="images/type-new-msg2.png" alt-text="Screenshot that shows selecting the ellipsis.":::
 
 2. In the **Find an app** field, start typing "praise" and then select  **Praise** to open the feature.  
 
@@ -120,7 +120,7 @@ You can set praise reminders either from the Viva Insights **Home** tab or **Set
 From the **Home** tab:
 
 1. On the **Send praise to colleagues** card, select the **All praises** link, which is to the right of the **Send praise** button.
-   :::image type="content" source="images/praise-all-praises2.png" alt-text="Screenshot that shows the All praises link to the right of the Send praise button.":::
+   :::image type="content" source="images/praise-all-praises3.png" alt-text="Screenshot that shows the All praises link to the right of the Send praise button.":::
 1. On the **Praise** page, configure your reminder through the card on the right, beneath **Recommendations** and **Trends**.
    :::image type="content" source="images/praise-reminder4.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
 
@@ -143,7 +143,7 @@ From the **Settings** page:
 
 To find a history of all the praise messages you've sent and received over the last six months, select **View history** at the bottom of your praise feed.
 
-:::image type="content" source="images/praise-view-history3.png" alt-text="Screenshot that shows Praise history.":::
+:::image type="content" source="images/praise-view-history4.png" alt-text="Screenshot that shows Praise history.":::
 
 This history includes the message's title and text, sender and receiver, and date sent. View the original praise in the Teams chat by selecting **Go to message**.
 
