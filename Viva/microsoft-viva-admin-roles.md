@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn about the admin roles for Viva Connections, Viva Learning, Viva Topics, and Viva Insights in Microsoft Viva"
 ---
 # Admin roles and tasks in Microsoft Viva
-Setup and management of the Microsoft Viva suite starts with the Microsoft 365 admin. The Microsoft 365 admin can then assign additional roles for the management, tasks and maintenance of each Viva app. 
+Setup and management of the Microsoft Viva suite starts with the Microsoft 365 admin. The Microsoft 365 admin can then assign additional roles for the management, tasks and maintenance of each Viva app.
 Admin options and permissions for each app rely heavily on the environments the apps are available in. For example, most Viva apps are accessed through Microsoft Teams and rely on the Microsoft Teams permissions structure.
 
 In this article, we bring together information on the types and levels of admin roles for each Viva app.
@@ -32,7 +32,7 @@ In this article, we bring together information on the types and levels of admin 
 
 #### Microsoft 365 admin
 
-The Microsoft 365 admin spans the Viva suite. A Microsoft 365 admin sets up Viva, manages licenses and settings, and can assign the following Azure AD roles, which may be required for some modules and tasks:
+The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 admin sets up Viva, manages licenses and settings, and can assign the following Azure AD roles, which may be required for some apps and tasks:
 
 - Viva Topics [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-manager)
 - Viva Learning [Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
@@ -59,8 +59,8 @@ Deciding who should be assigned roles will partly depend on how much access you 
 For example, you might want to give someone site owner permissions so they can create and manage your Viva Connections dashboard. This person would also be able to manage permissions for that site, edit the home page and other pages, delete pages and other site contents, and more.
 
 To help you decide who should be assigned which roles, here are overviews of roles for each app and what they do in Viva.<br><br>
-[Viva Topics](/viva/microsoft-viva-admin-roles#viva-topics)<br>
-[Viva Connections](/viva/microsoft-viva-admin-roles#viva-connections)<br>
+[Topics](/viva/microsoft-viva-admin-roles#viva-topics)<br>
+[Connections](/viva/microsoft-viva-admin-roles#viva-connections)<br>
 [Learning](/viva/microsoft-viva-admin-roles#viva-learning)<br>
 [Insights](/viva/microsoft-viva-admin-roles#viva-insights)<br>
 [Goals](/viva/microsoft-viva-admin-roles#viva-goals)<br>
@@ -74,7 +74,7 @@ You must be a [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-
 
 | Role         | What this role does in Viva
 |--------------|-----------|
-|**Viva Topics admin** <br> Must be a Microsoft 365 global administrator, or a SharePoint administrator and Groups administrator| <ul><li>Name the topic center</li><li>Select which SharePoint sites will be crawled for topics</li><li>Assign knowledge manager role</li><li>Select which licensed users can view and access topics (topic viewers)</li><li>Select which licensed users can create and edit topics (topic contributors)</li><li>Select which topics will be excluded from being identified</ul>|
+|**Viva Topics admin** <br> Must be a Microsoft 365 global administrator or a SharePoint administrator and Groups administrator| <ul><li>Name the topic center</li><li>Select which SharePoint sites will be crawled for topics</li><li>Assign knowledge manager role</li><li>Select which licensed users can view and access topics (topic viewers)</li><li>Select which licensed users can create and edit topics (topic contributors)</li><li>Select which topics will be excluded from being identified</ul>|
 |**Knowledge manager**<br> Knowledge managers are users who manage topics in your organization.<br><br>Assigned by Topics admin| On the Manage topics page, knowledge managers can do the following tasks: <ul><li>View AI-suggested topics</li><li>Review topics to confirm that they're valid</li><li>Remove topics that you don’t want visible to users.</li><br>|
 
 For more information on all the roles in Microsoft Viva Topics, see [Roles in Viva Topics](/viva/topics/topic-experiences-roles).
@@ -128,6 +128,7 @@ Viva Goals has several different roles. Included here are roles that require spe
 |**Team admin** <br>Assigned by Organization owner|Manages team members
 |**Team owner** <br>Assigned by Team admin|Manages team-level OKRs
 |**Managers**|Own their own OKRs and the OKRs of employees who report to them.
+|**Teams admin** <br>Manages all aspects of Microsoft Teams<br><br>Assigned by Microsoft 365 admin|Uses the Teams admin center to create setup policies to install the app and assign users.
 
 For more detailed information see [Roles and permissions in Viva Goals](/viva/goals/roles-permissions-in-viva-goals).
 
@@ -138,7 +139,7 @@ For more information about admin settings in the admin dashboard, see [Navigate 
 |--------------|-----------|
 |**Viva Engage admin** <br> |Sets up the Yammer network and performs tasks such as configuring security settings, monitoring keywords for appropriate use, managing data retention, and exporting  data. Also can view reports showing overall usage. This role maps to the Yammer admin Azure AD role.
 |**Yammer community admin** <br> |Manages day-to-day activity within a community to keep the community engaged and productive, including monitoring usage activity. Any Yammer user who creates a community is assigned the Community Admin role.|
-|**Teams admin** <br>Assigned by Microsoft 365 admin|Assigned by Microsoft 365 admin	Uses the Teams admin center to create setup policies to install the app and assign users.
+|**Teams admin** <br>Assigned by Microsoft 365 admin|Uses the Teams admin center to create setup policies to install the app and assign users.
 
 For more information, see: [Manager Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins)
 
