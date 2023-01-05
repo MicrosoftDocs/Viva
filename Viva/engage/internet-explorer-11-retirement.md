@@ -1,5 +1,5 @@
 ---
-title: "Yammer update on Internet Explorer 11 changes coming in August 2021"
+title: "Viva Engage update on Internet Explorer 11 changes coming in August 2021"
 f1.keywords:
 - NOCSH
 ms.author: pamgreen
@@ -20,19 +20,19 @@ search.appverid:
 ms.assetid: 4ece0ee2-c268-4636-bf2a-16e454befe57
 description: "Learn about the projected retirement of Internet Explorer coming in August 2021."
 ---
-# Yammer update on Internet Explorer 11 changes coming in August 2021
+# Viva Engage update on Internet Explorer 11 changes coming in August 2021
 
-Yammer, along with other Microsoft 365 apps and services, will be retiring support for Internet Explorer 11 in August 2021. With the advances in web technology over the years, Internet Explorer 11 no longer provides the best experience to our customers.
+Viva Engage, along with other Microsoft 365 apps and services, will be retiring support for Internet Explorer 11 in August 2021. With the advances in web technology over the years, Internet Explorer 11 no longer provides the best experience to our customers.
 
-We recommend transitioning to the new Microsoft Edge to take advantage of all that Yammer and Microsoft 365 apps and services have to offer. Internet Explorer 11 will continue to be supported by Microsoft as part of the OS lifecycle policy.
+We recommend transitioning to the new Microsoft Edge to take advantage of all that Viva Engage and Microsoft 365 apps and services have to offer. Internet Explorer 11 will continue to be supported by Microsoft as part of the OS lifecycle policy.
 
-## What to expect from Yammer?
+## What to expect from Viva Engage?
 
-Leading up to August 2021, we will provide multiple in-product messages to help users transition over to a new modern browser. In August 2021, users will no longer be able to access Yammer and all its integrations from Internet Explorer 11.
+Leading up to August 2021, we will provide multiple in-product messages to help users transition over to a new modern browser. In August 2021, users will no longer be able to access Viva Engage and all its integrations from Internet Explorer 11.
 
-For customers using the embedded Yammer experience (Yammer Embed) on custom-built sites, we are working on updating Embed with the new Yammer experience, but this will only be available on Internet Explorer leading up to August 2021. To get the new Yammer Embed experience in August 2021, you will need to access the site from Microsoft Edge or another modern browser.
+For customers using the embedded Viva Engage experience (Viva Engage Embed) on custom-built sites, we are working on updating Embed with the new Viva Engage experience, but this will only be available on Internet Explorer leading up to August 2021. To get the new Viva Engage Embed experience in August 2021, you will need to access the site from Microsoft Edge or another modern browser.
 
-Additionally, integrations that use Yammer APIs are best experienced in supported browsers. 
+Additionally, integrations that use Viva Engage APIs are best experienced in supported browsers. 
 
 ## How to prepare?
 

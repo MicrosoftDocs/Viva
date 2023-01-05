@@ -1,5 +1,5 @@
 ---
-title: "Yammer Native Mode: step-by-step guide"
+title: "Viva Engage Native Mode: step-by-step guide"
 f1.keywords:
 - NOCSH
 ms.author: pamgreen
@@ -17,32 +17,32 @@ search.appverid:
 - MET150
 description: "Learn more about the process of migrating to Native Mode with this in-depth step-by-step guide."
 ---
-# Yammer Native Mode: step-by-step guide
+# Viva Engage Native Mode: step-by-step guide
 
-Networks that want to take advantage of the new compliance features available in Yammer will need to make sure their network is aligned to Native Mode. Native Mode also provides other benefits, such as the ability to host Live Events in every Yammer community, simplify file administration through SharePoint, and also apply Microsoft 365 Group management policies.
+Networks that want to take advantage of the new compliance features available in Viva Engage will need to make sure their network is aligned to Native Mode. Native Mode also provides other benefits, such as the ability to host Live Events in every Viva Engage community, simplify file administration through SharePoint, and also apply Microsoft 365 Group management policies.
 
 Any network that was created after January 16, 2020 is already in Native Mode and can make use of these features right out of the box! Networks created prior to this date will need to use the Native Mode Alignment Tool to ensure their network is fully backed by Microsoft 365 prior to accessing these new features.
 
  > [!NOTE]
 > Native Mode is strongly recommended for reasons of security, compliance, and M365 integration.
 
-The following steps show you what actions to take before and during a transition to Native Mode. For more information on what Native Mode means for your Yammer Network, see [Overview of Native Mode](../configure-your-yammer-network/native-mode.md).
+The following steps show you what actions to take before and during a transition to Native Mode. For more information on what Native Mode means for your Viva Engage Network, see [Overview of Native Mode](../configure-your-yammer-network/native-mode.md).
 
 ## 1. Initial Steps to access the Native Mode Alignment Tool
 
-Once you are ready to align your network to Native Mode, you’ll need to make sure that your Microsoft tenant has just one Yammer Network associated with it.  If you have more than one Yammer Network on your Microsoft tenant, you’ll first need to complete the steps listed in [Consolidate multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md).
+Once you are ready to align your network to Native Mode, you’ll need to make sure that your Microsoft tenant has just one Viva Engage Network associated with it.  If you have more than one Yammer Network on your Microsoft tenant, you’ll first need to complete the steps listed in [Consolidate multiple Viva Engage networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md).
 
-After you have ensured that there is just one Yammer Network in your Microsoft tenant, you will need to ensure that that network enforces Microsoft 365 Identity. Additional information on enforcing Identity can be found in [Enforce Microsoft 365 Identity](./enforce-office-365-identity.md).
+After you have ensured that there is just one Viva Engage Network in your Microsoft tenant, you will need to ensure that that network enforces Microsoft 365 Identity. Additional information on enforcing Identity can be found in [Enforce Microsoft 365 Identity](./enforce-office-365-identity.md).
 
 ## 2. Accessing the Native Mode Alignment Tool
 
-The Native Mode Alignment Tool can only be accessed by tenant-level Global Admins. It’s important to know that during times of high network traffic it can take up to a few hours for Global Admin privileges to be reflected in Yammer. If your account is only granted these privileges on a temporary basis, it may not be visible immediately after your account is elevated. Once Yammer recognizes that your account has Global Admin capabilities, you can access the Native Mode Alignment Tool by logging in to Yammer, navigating to the Network Admin section, and then accessing the menu item for Native Mode for Microsoft 365.
+The Native Mode Alignment Tool can only be accessed by tenant-level Global Admins. It’s important to know that during times of high network traffic it can take up to a few hours for Global Admin privileges to be reflected in Viva Engage. If your account is only granted these privileges on a temporary basis, it may not be visible immediately after your account is elevated. Once Viva Engage recognizes that your account has Global Admin capabilities, you can access the Native Mode Alignment Tool by logging in to Viva Engage, navigating to the Network Admin section, and then accessing the menu item for Native Mode for Microsoft 365.
 
 > [!IMPORTANT] 
 > The alignment tool can take a long time to process. Most customers are able to complete the tool in one to two weeks, but it can take up to 90 days in some extreme circumstances. The account used to initiate the alignment tool must maintain global admin privileges for the duration of the alignment process.
 
 ## 3. Preparing to run the Native Mode Alignment Tool
-Prior to running the Native Mode Alignment Tool, you should generate and review the Alignment Report. This report can be generated for your network directly from within the tool by clicking the **Generate Report** button in the middle of the screen. Clicking on the **Generate Report** button will not make any changes in your network and will not begin the alignment process. The process of generating a report begins, and will output a list of all Users and Communities in your Yammer Network.
+Prior to running the Native Mode Alignment Tool, you should generate and review the Alignment Report. This report can be generated for your network directly from within the tool by clicking the **Generate Report** button in the middle of the screen. Clicking on the **Generate Report** button will not make any changes in your network and will not begin the alignment process. The process of generating a report begins, and will output a list of all Users and Communities in your Viva Engage Network.
 
 This report will initially be in a .yml format. If you would prefer to review the file as a .csv, we provide a tool available via GitHub, which will convert this file to a .csv enabling you to open the file in various other formats for further analysis.
 
@@ -57,32 +57,32 @@ When run, the Alignment Tool will attempt to map all unmapped users to an existi
 
 - **Which communities in your network are Private and Unlisted?**
 
-   Unlisted communities will become standard private communities when the alignment available through the Azure B2B Guest framework. The Native Mode Alignment Tool will convert all your external groups to internal groups. If you have enabled Azure B2B Guests in your Yammer network, you will be able to reinvite your guests as Azure B2B guests as part of the migration.
+   Unlisted communities will become standard private communities when the alignment available through the Azure B2B Guest framework. The Native Mode Alignment Tool will convert all your external groups to internal groups. If you have enabled Azure B2B Guests in your Viva Engage network, you will be able to reinvite your guests as Azure B2B guests as part of the migration.
 
 - **Which communities in your network allow external guests?**
 
-  External groups are not permitted in Native Mode. Guest access in Native Mode is only available through the Azure B2B Guest framework. The Native Mode Alignment Tool will convert all your external groups to internal groups. If you have enabled Azure B2B Guests in your Yammer network, you will be able to reinvite your guests as Azure B2B guests as part of the migration.
+  External groups are not permitted in Native Mode. Guest access in Native Mode is only available through the Azure B2B Guest framework. The Native Mode Alignment Tool will convert all your external groups to internal groups. If you have enabled Azure B2B Guests in your Viva Engage network, you will be able to reinvite your guests as Azure B2B guests as part of the migration.
 
 - **Which communities in your network do not have any owners or have owners without Microsoft 365 Group Creation Rights?**
 
-  The Native Mode Alignment Tool will create a new Microsoft 365 Group, which is authorized using the credentials of the existing owners of the Yammer community. If the Yammer community does not have any owners, or if none of those owners are authorized to create Microsoft 365 Groups, the tool will create the group using the credentials of the Global Admin who has initiated the Alignment Tool. For this reason, it is important that your Global Admin maintains their privileges during the Alignment process.
+  The Native Mode Alignment Tool will create a new Microsoft 365 Group, which is authorized using the credentials of the existing owners of the Viva Engage community. If the Viva Engage community does not have any owners, or if none of those owners are authorized to create Microsoft 365 Groups, the tool will create the group using the credentials of the Global Admin who has initiated the Alignment Tool. For this reason, it is important that your Global Admin maintains their privileges during the Alignment process.
 
   We recommend sending out advanced communications to all users who have files stored in private messages, owners of any groups that are marked as unlisted, and owners of any groups that are currently external.
 
-## 4. Exporting the content in your Yammer Network
+## 4. Exporting the content in your Viva Engage Network
 
-  Immediately before running the Alignment Tool, you should export any content from your Yammer Network that is not already backed up. The best practice is to export this content regularly. We encourage you to set up automated backups every month or so. Once these regular backups are in place, it will be much easier to export any other data as needed for processes like this one. 
+  Immediately before running the Alignment Tool, you should export any content from your Viva Engage Network that is not already backed up. The best practice is to export this content regularly. We encourage you to set up automated backups every month or so. Once these regular backups are in place, it will be much easier to export any other data as needed for processes like this one. 
 
   If you do not take regular backups of your data, you will need to export all the data in your home network  that you want to have a copy of. External networks can be ignored, as they are not impacted by the Native Mode Alignment Tool. You have the option to export data going as far back as the beginning of your network, but you may decide you only need to back up data going back a certain amount of time. Keep in mind that the Native Mode Alignment tool will delete certain data such as the files attached to private messages and any messages posted in previously deleted groups from your network, so any data that is not backed up may be entirely non-recoverable after the tool has run.
 
   Exporting a large volume of content from your network is a multi-step process:
 
   1.	**Export message data** 
-          - We suggest exporting the message data using the [Network Data Export feature](../manage-security-and-compliance/export-yammer-enterprise-data.md#ExportNetworkData) within the Yammer Admin panel.
+          - We suggest exporting the message data using the [Network Data Export feature](../manage-security-and-compliance/export-yammer-enterprise-data.md#ExportNetworkData) within the Viva Engage Admin panel.
           - We suggest limiting your export to a maximum date range of two months at a time and excluding attachments. If you choose to include attachments, you may need to limit your date range significantly further (often just one week at a time) to prevent the system from encountering timeout errors.
 
   2. **Export files**
-        - We suggest exporting files separately from messages using the [Yammer file export API](../manage-security-and-compliance/export-yammer-enterprise-data.md#export-yammer-files-via-api).
+        - We suggest exporting files separately from messages using the [Viva Engage file export API](../manage-security-and-compliance/export-yammer-enterprise-data.md#export-yammer-files-via-api).
         - Using this API you can export all the files from a specified date range. This API supports concurrent requests (up to 6) and each request should be limited to a two-month date range. This will allow you to simultaneously export a full year of files in one API call.
 
 ## 5. Running the Alignment Tool for the first time

@@ -1,5 +1,5 @@
 ---
-title: "Yammer file storage overview"
+title: "Viva Engage file storage overview"
 f1.keywords:
 - NOCSH
 ms.author: pamgreen
@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 - MOE150
 - YAE150
-description: "Where files are stored in Yammer depends on whether or not the network is using Microsoft 365 connected groups."
+description: "Where files are stored in Viva Engage depends on whether or not the network is using Microsoft 365 connected groups."
 ---
 
-# Yammer file storage overview
+# Viva Engage file storage overview
 
-As of May 2019, Yammer is rolling out changes to file storage for files uploaded to Yammer in Microsoft 365 connected Yammer groups. Formerly, all files uploaded to Yammer were stored in Yammer cloud storage. Once your organization gets these changes, all new files uploaded through Yammer in Microsoft 365 connected Yammer groups will be stored in the group's default SharePoint document library. These files can still be accessed from within Yammer.
+As of May 2019, Viva Engage is rolling out changes to file storage for files uploaded to Viva Engage in Microsoft 365 connected Viva Engage groups. Formerly, all files uploaded to Viva Engage were stored in Viva Engage cloud storage. Once your organization gets these changes, all new files uploaded through Viva Engage in Microsoft 365 connected Viva Engage groups will be stored in the group's default SharePoint document library. These files can still be accessed from within Viva Engage.
 
-For information about using Yammer files stored in SharePoint, see the following topics:
+For information about using Viva Engage files stored in SharePoint, see the following topics:
 
 - [Where are my Yammer files stored?](https://support.office.com/article/how-do-i-tell-where-my-yammer-files-are-being-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443)
 
@@ -36,7 +36,7 @@ For information about using Yammer files stored in SharePoint, see the following
 
 For network and tenant administrators:
 
-- SharePoint has a rich set of security and compliance features that will now apply to files uploaded in Yammer for Office 365 connected Yammer groups, including eDiscovery, data loss protection, and in-geo residence for files at rest.  
+- SharePoint has a rich set of security and compliance features that will now apply to files uploaded in Viva Engage for Office 365 connected Viva Engage groups, including eDiscovery, data loss protection, and in-geo residence for files at rest.  
 
 For end users:
   
@@ -44,22 +44,22 @@ For end users:
 
 - Greater discoverability and easier access via Microsoft search.
 
-    Users with appropriate permissions can find and access the files through Yammer, and can also access the files through SharePoint and other Microsoft 365 and Office 365 resources by using browse or search in SharePoint and Delve.  
+    Users with appropriate permissions can find and access the files through Viva Engage, and can also access the files through SharePoint and other Microsoft 365 and Office 365 resources by using browse or search in SharePoint and Delve.  
 
 - Offline access to files by syncing a SharePoint folders to a folder on their computer.  
 
 ## What determines where a file is stored
 
-Files are stored in SharePoint when they are uploaded to a Microsoft 365 connected Yammer group. This includes:  
+Files are stored in SharePoint when they are uploaded to a Microsoft 365 connected Viva Engage group. This includes:  
   
-- Files that are attached to a message in a Microsoft 365 connected Yammer group.  
+- Files that are attached to a message in a Microsoft 365 connected Viva Engage group.  
 
-- Files that are uploaded to a group from the **Files** page of an Microsoft 365 connected Yammer group.
+- Files that are uploaded to a group from the **Files** page of an Microsoft 365 connected Viva Engage group.
 
-- Files that are attached to an email that is sent to a Microsoft 365 connected Yammer group.
+- Files that are attached to an email that is sent to a Microsoft 365 connected Viva Engage group.
 
  > [!NOTE]
- > Any policies applied on the SharePoint document library take precedent over the Yammer upload admin configuration when a user tries to upload a file in a connected Yammer community.
+ > Any policies applied on the SharePoint document library take precedent over the Viva Engage upload admin configuration when a user tries to upload a file in a connected Viva Engage community.
   
 Files will continue to be stored in Yammer cloud storage in the following instances:
 
@@ -75,7 +75,7 @@ Files will continue to be stored in Yammer cloud storage in the following instan
 
     - Groups that are not Microsoft 365 connected groups, including All Company, external groups, and secret groups
   
-    - Yammer private messages
+    - Viva Engage private messages
  
         >[!NOTE]
         > Existing files stored in Yammer legacy storage will not be moved to SharePoint.  
