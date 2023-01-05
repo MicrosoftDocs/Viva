@@ -51,11 +51,11 @@ Each app offers special features, customization opportunities, and ways to integ
 |Feature  |Description |
 |:---------:|---------|
 |Company Branding |Customize your employee app with your organization’s name, logo, and colors for seamless integration. |
-|Feed |Simplify communications sharing into a single, personalized view so employees can explore news and join conversations, keeping people connected and building relationships with people from across the organization.  |
-|Boost |Ensure visibility of high priority content by boosting to the top of employees’ feeds based on various conditions such as until read, set number of impressions, or date.      |
-|Third party integration |Customize and extend Viva Connections with a rich set of 1st and 3rd party integrations from our partner ecosystem.      |
-|Dashboard |Provide useful company resources and actionable tasks in a central, personalized destination, designed to keep your employees in the flow of work.  |
-|Audience targeting |Provide the most relevant content to the right audiences by departments, regions, job roles, and more.    |
+|[Feed](/viva/connections/faqs-viva-connections-feed) |Simplify communications sharing into a single, personalized view so employees can explore news and join conversations, keeping people connected and building relationships with people from across the organization.  |
+|[Boost](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) |Ensure visibility of high priority content by boosting to the top of employees’ feeds based on various conditions such as until read, set number of impressions, or date.      |
+|[Third party integration](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-mobile-and-new-partner-integrations-are-now/ba-p/2932217) |Customize and extend Viva Connections with a rich set of 1st and 3rd party integrations from our partner ecosystem.      |
+|[Dashboard](/viva/connections/create-dashboard) |Provide useful company resources and actionable tasks in a central, personalized destination, designed to keep your employees in the flow of work.  |
+|[Audience targeting](/viva/connections/use-audience-targeting-in-viva-connections) |Provide the most relevant content to the right audiences by departments, regions, job roles, and more.    |
 |Built on Microsoft 365 |Quickly deploy and manage Viva Connections through the Microsoft Teams admin console, no need to push additional apps to your employees’ devices.     |
 
 ## Viva Insights: Productivity and wellbeing
