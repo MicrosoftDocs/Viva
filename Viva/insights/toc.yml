@@ -141,7 +141,7 @@ items:
         - name: Organization insights
           items:
           - name: Organization insights   
-            href: org-team-insights/teams-and-web/org-insights-in-teams-all.md
+            href: org-team-insights/org-insights.md
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
