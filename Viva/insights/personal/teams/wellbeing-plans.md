@@ -15,7 +15,7 @@ audience: user
 
 # Wellbeing plans
 
-*Applies to: users with Viva Insights premium licenses*
+*Applies to: users with Viva Insights subscriptions*
 
 In addition to focus plans, Viva Insights can also help you protect time on your calendar for scheduled breaks, learning, and message catch-up time. Configure these plans to match your needs by setting a target amount of blocked time, and personalize your booking preferences.  
 
