@@ -19,35 +19,68 @@ description: Learn how to manage catalog access in Microsoft Viva Learning.
 
 # Manage Catalog Access in Viva Learning
 
-All content available in Viva learning is discoverable by all users in the organization by default.  
-Catalog access management allows you to restrict the ability of select users to view and discover courses. Organizations can control of a learning object is visible to a learning in Viva Learning. 
+All content available in Viva Learning is discoverable by all users in the organization by default.  
+Catalog access management allows you to restrict the ability of select users to view and discover courses. This lets your organization control whether a learning object is visible to a learner in Viva Learning.
 
-Depending on your integration with Viva Learning, there are two methods by which the organization can control the access permissions:
+Depending on your integration with Viva Learning, there are two methods by which your organization can control the access permissions:
 
-### Create and manage permissions within Viva Learning
+## Control permissions within the LMS
 
-Using the SAP SuccessFactors Learning Management System (LMS), organizations can set access permissions using assignment profiles. During the SuccessFactors  integration with Viva Learning, organizations can choose to enable a sync of permissions in SuccessFactors with Viva Learning 
-Refer to the [Catalog permissions sync](https://learn.microsoft.com/en-us/viva/learning/configure-successfactors-content-source#catalog-permissions-sync) for detailed steps and requirements.
+Using the SAP SuccessFactors Learning Management System (LMS), organizations can set access permissions using assignment profiles. During the SuccessFactors  integration with Viva Learning, you can choose to enable a sync of permissions in SuccessFactors with Viva Learning.
+Refer to the [Catalog permissions sync](https://learn.microsoft.com/en-us/viva/learning/configure-successfactors-content-source#catalog-permissions-sync) topic for detailed steps and requirements.
 
-Once the sync is complete, Learning admins can view the courses for which permissions are applied within the Admin tab, by clicking **Manage Permissions** and then the **See View permissions** section below for further details.
+Once the sync is complete, admins can view the courses for which permissions are applied within the **Admin** tab, by clicking **Manage Permissions**. 
+Refer to the **View** permissions section below for more details.
 
-## Configure in your EdCast portal
+## Create and manage permissions within Viva Learning
 
->[!NOTE]
->Your organization must have an active subscription to EdCast as well as a premium license for Microsoft Viva Learning.
+Use the Viva Learning permissions to restrict access to one or more learning objects to a select group of users 
 
-You'll need Your EdCast API key, Secret, Client Host URL and User Email for Viva Learning to surface content from your EdCast instance.
+>[!Note] 
+>If you choose to control permissions using the LMS, then permissions can't be set within Viva Learning for courses coming from that LMS)
 
-1. Your organization's EdCast administrator can obtain your EdCast API key and Secret by reaching out to your dedicated EdCast Customer Success Manager.
+### Navigate Permissions
 
-2. Your Client host URL will be the same as your EdCast instance URL. It should look like "[subdomain].edcast.com".
+![Image of the catalog permissions navigation screen under the admin tab.](../media/learning/catalog-access-permissions-1-landing-page.png)
 
-## Configure in your Microsoft 365 admin center
+When viewing permissions, you will see the **title** of a learning object, the **provider** or source, and the associated **access** type and **permission source**.
 
->[!NOTE]
->You'll need to have admin permissions in Microsoft 365 to complete these steps.
+There are two types of access: 
 
-1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
-2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable EdCast in the panel.
-3. Fill in the configuration details that you got from your EdCast Customer Success Manager.
-4. Select **Save** to activate EdCast content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
+- **Private** access indicates that the access to a learning object is restricted.
+- **Public** access indicates that there are no permissions associated with a learning object and that it is accessible within Viva Learning to everyone in the organization.
+
+There are two types of permission sources:
+
+- **Catalog provider** indicates that the permissions are coming from the LMS and the user needs to go to the LMS to views details of the permission.
+- **Viva Learning** indicates that the permissions are set in Viva Learning. Users can view, edit, or delete the permission by clicking the ellipses (**...**) next to it.
+
+
+
+#### Add Permissions
+Users can click **Add permission** to create a new permission.
+
+![Image of the highlighted Add permissions button.](../media/learning/catalog-access-permissions-2-add-permissions.png)
+
+Users can search and choose a maximum of 10 courses on which to apply permissions.
+
+![Image of a popup window that lists options for adding new permissions.](../media/learning/catalog-access-permissions-3-add-new-permissions.png)
+
+Users then need to choose which user groups can access the course. Refer to the support documentation to learn more about [Microsoft 365 Groups](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+
+#### Permission Actions
+
+![Image displaying the various actions users can perform with permissions, including view, edit, and delete.](../media/learning/catalog-access-permissions-4-permissions-actions.png)
+
+Users can perform the following actions:
+
+- **View** the user groups that have access to the learning object. This option is available only for learning objects with permissions created in Viva Learning.
+
+- **Search** for specific learning objects by its title. The results will display relevant learning objects and the permission status
+
+- **Edit** to add or remove user groups that can access the learning object. This option is available only for learning objects with permissions created in Viva Learning.
+
+- **Delete** to delete permissions created in Viva Learning. Once a permission is deleted, that learning object is accessible in Viva Learning by all users in the organization.
+
+>[!Note]
+> Permissions that originate from a catalog provider can't be deleted.
