@@ -187,35 +187,35 @@ Each app has its own technical requirements before it can be customized and shar
 
 ### Viva Learning
 
-    - **Technical requirements**:
-        - Microsoft 365 E3 or E5 License
-        - Viva Learning Premium subscription or [Viva Suite subscription](https://www.microsoft.com/microsoft-viva/pricing) is required for some features.
-        - A Microsoft Teams team (if you're creating a learning tab in Teams)
-    - **Impact on end-users**:
-        - No need to leave Microsoft Teams to access and share content from Microsoft, third-party providers, or learning management systems.
-        - Centralized place to recommend and view recommended learning content
-    - **Admins and roles**:
-        - Microsoft Teams admin
-        - Microsoft 365 global admin or SharePoint admin
-        - Knowledge admin
-    - **Change management considerations**:
-        - Microsoft Teams adoption (if you aren’t already working in Teams)
-        - Integrate Viva Learning with your SharePoint.
-        - Integrate Viva Learning with your third-party content providers or learning management systems.
+- **Technical requirements**:
+    - Microsoft 365 E3 or E5 License
+    - Viva Learning Premium subscription or [Viva Suite subscription](https://www.microsoft.com/microsoft-viva/pricing) is required for some features.
+    - A Microsoft Teams team (if you're creating a learning tab in Teams)
+- **Impact on end-users**:
+    - No need to leave Microsoft Teams to access and share content from Microsoft, third-party providers, or learning management systems.
+    - Centralized place to recommend and view recommended learning content
+- **Admins and roles**:
+    - Microsoft Teams admin
+    - Microsoft 365 global admin or SharePoint admin
+    - Knowledge admin
+- **Change management considerations**:
+    - Microsoft Teams adoption (if you aren’t already working in Teams)
+    - Integrate Viva Learning with your SharePoint.
+    - Integrate Viva Learning with your third-party content providers or learning management systems.
 
 ### Viva Topics
 
-    - **Technical requirements**:
-        - Microsoft 365 E3 or E5 license
-        - Viva Topics or Viva suite subscription
-    - **Impact on end-users**:
-        - No separate application or search needed—users find topics in the apps they already use.
-    - **Admins and roles**:
-        - Microsoft 365 global admin or SharePoint admin + Groups admin (setup)
-        - Knowledge manager
-        - Contributor
-        - Topic viewer
-    - **Change management considerations**: <br> 
+- **Technical requirements**:
+    - Microsoft 365 E3 or E5 license
+    - Viva Topics or Viva suite subscription
+- **Impact on end-users**:
+    - No separate application or search needed—users find topics in the apps they already use.
+- **Admins and roles**:
+    - Microsoft 365 global admin or SharePoint admin + Groups admin (setup)
+    - Knowledge manager
+    - Contributor
+    - Topic viewer
+- **Change management considerations**: <br> 
         - Migrate content to SharePoint because topic indexing includes only content on SharePoint sites.
         - Modernize SharePoint pages because topic cards can only be surfaced on modern pages
         - Connect information to Microsoft Graph so that external content can be brought in and made available
@@ -223,20 +223,20 @@ Each app has its own technical requirements before it can be customized and shar
         - Identify knowledge admins, knowledge managers, and topic contributors.
 
 ### Viva Engage 
-    - **Technical requirements:** 
-        - Microsoft 365 E3 or E5 license 
-        - Viva Suite or Viva Engage license  
-        - Yammer 
-    - **Impact on end users:** 
-        - Connect and engage with leaders, colleagues, and communities.
-        - Viva Engage creates opportunities for asking questions and sharing knowledge, attending virtual events, building social capital, and extending employee networks.
-    - **Admins and roles:** 
-        - Yammer Verified admin 
-        - Microsoft Teams admin 
-        - Community leaders and stakeholders from employee resource groups 
-    - **Change management considerations:** 
-        - Microsoft Teams adoption (if you aren't already using Teams) 
-        - Yammer adoption if your organization is new to Yammer 
+- **Technical requirements:** 
+    - Microsoft 365 E3 or E5 license 
+    - Viva Suite or Viva Engage license  
+    - Yammer 
+- **Impact on end users:** 
+     - Connect and engage with leaders, colleagues, and communities.
+    - Viva Engage creates opportunities for asking questions and sharing knowledge, attending virtual events, building social capital, and extending employee networks.
+- **Admins and roles:** 
+    - Yammer Verified admin 
+    - Microsoft Teams admin 
+    - Community leaders and stakeholders from employee resource groups 
+- **Change management considerations:** 
+    - Microsoft Teams adoption (if you aren't already using Teams) 
+    - Yammer adoption if your organization is new to Yammer 
 
 ### Viva Goals 
 
