@@ -1,5 +1,5 @@
 ---
-title: "Learn more about Microsoft Viva modules"
+title: "Learn more about Microsoft Viva apps"
 ms.reviewer: loreenl
 ms.author:  hokavian
 author: Holland-ODSP
@@ -18,21 +18,21 @@ ms.collection:
 - highpri
 search.appverid:
 - MET150
-description: "Learn about each Viva module in detail"
+description: "Learn about each Viva app in detail"
 ---
 
-# Learn more about Microsoft Viva modules
+# Learn more about Microsoft Viva apps
 
-Microsoft Viva is designed to solve modern workplace problems for hybrid workers, information workers, and frontline workers alike. Discover how Viva modules can support popular business scenarios. Then, learn more about technical details and planning considerations. Next, get specific guidance on how to get started planning, building, and launching.  
+Microsoft Viva is designed to solve modern workplace problems for hybrid workers, information workers, and frontline workers alike. Discover how Viva apps can support popular business scenarios. Then, learn more about technical details and planning considerations. Next, get specific guidance on how to get started planning, building, and launching.  
 
 >[!NOTE] 
 > New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
 
 ## Discover popular business scenarios that are supported by Viva
 
-Not sure which Viva module will have the most impact on your organization? Review popular needs and wants of large organizations. Then, identify which Viva module can help you reach the goals of both end users and the organization.
+Not sure which Viva app will have the most impact on your organization? Review popular needs and wants of large organizations. Then, identify which Viva app can help you reach the goals of both end users and the organization.
 
-|If your scenario sounds like this:  |Consider this module:  |
+|If your scenario sounds like this:  |Consider this app:  |
 |---------|:---------:|
 |- We get most of our work done in Microsoft Teams and want to streamline where news and popular resources can be found.<br>  - We need to support and engage our frontline workforce. <br> - We want to streamline organizational communications into one place. <br> - We want to connect employees to popular tools and third-party resources to improve operational efficiencies.  | :::image type="content" source="media/logos/connections-launch-c-64.svg" alt-text="Logo of Viva Connection "::: <br>  [Viva Connections](https://www.microsoft.com/microsoft-viva/connections)      |
 |- We want to be more aware of work patterns and how we get work done as individuals, as teams, and as an organization. <br> - We want to surface opportunities for how to improve our business outcomes and take steps to protect employee wellbeing. <br> - We need to help business leaders address critical questions about organizational resiliency and work culture.    | :::image type="content" source="media/logos/insights-launch-c-64.svg" alt-text="Logo of Viva Insight":::  <br>    [Viva Insights](https://www.microsoft.com/microsoft-viva/insights)   |
@@ -40,11 +40,11 @@ Not sure which Viva module will have the most impact on your organization? Revie
 |- We want employees to have a better understanding of projects and popular subjects across the organization. <br> - We need to surface contextual information when employees need it to create efficiencies and improve the employee experience. <br> - We want to create a central repository of terms, project names, and subject-matter experts that can be managed.   | :::image type="content" source="media/logos/topics-launch-c-64.svg" alt-text="Logo of Viva topics"::: <br>  [Viva Topics](https://www.microsoft.com/microsoft-viva/topics)|
 |- We want to increase engagement and social connections with employees working remotely, in different locations, and across work groups. <br> - We want to increase the visibility of our Viva Engage communities and encourage more participation. <br> - We want to boost participation in employee resource groups and social groups. <br> - We want to create space for employees to ask questions and crowdsource answers from outside their teams. |![Viva Engage logo.](media/logos/engage-launch-c-64.svg) <br> [Viva Engage](https://www.microsoft.com/microsoft-viva/engage) |
 |- We want to establish a transparent view of our organization's priorities and goals <br> - We want to energize teams by giving them a clear view into how their work aligns with greater business needs. <br> - We want to empower individuals to increase their accountability for reaching broader organizational goals. |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](https://www.microsoft.com/microsoft-viva/goals) |
-|- We want to automate data entry to give our sales teams more time to focus on their priorities. <br> - We want to increase the power of our CRM by incorporating customer interactions in Microsoft 365 to the data set. <br> - We want AI-generated insights to help our sales teams increase sales. |[Viva Sales](https://www.microsoft.com/microsoft-viva/sales) |
+|- We want to automate data entry to give our sales teams more time to focus on their priorities. <br> - We want to increase the power of our CRM by incorporating customer interactions in Microsoft 365 to the data set. <br> - We want AI-generated insights to help our sales teams increase sales. |![Viva Sales logo](media/logos/viva-sales-logo-1.png) <br> [Viva Sales](https://www.microsoft.com/microsoft-viva/sales) |
 
-## Get more details about each Viva module
+## Get more details about each Viva app
 
-Each module offers special features, customization opportunities, and ways to integrate with other Microsoft 365 apps and services.
+Each app offers special features, customization opportunities, and ways to integrate with other Microsoft 365 apps and services.
 
 ## Viva Connections: Culture and communication
 
@@ -140,7 +140,7 @@ Each module offers special features, customization opportunities, and ways to in
 
 ## Review minimum requirements and planning considerations
 
-Each module has its own technical requirements before it can be customized and shared with others. Review the requirements and other considerations like change management and the impact on end-users to help you determine a team and timeline for planning, building, and launching.
+Each app has its own technical requirements before it can be customized and shared with others. Review the requirements and other considerations like change management and the impact on end-users to help you determine a team and timeline for planning, building, and launching.
 
 - Viva Connections
 
@@ -265,6 +265,6 @@ Get more information about each app and how to get started.
 
 ### Learn more
 
-[Get all Microsoft Viva modules](plan-for-all-viva-modules.md)
+[Get all Microsoft Viva apps](plan-for-all-viva-modules.md)
 
-[Combine Microsoft Viva modules for a more powerful experience](learn-how-to-combine-modules.md)
+[Combine Microsoft Viva apps for a more powerful experience](learn-how-to-combine-modules.md)

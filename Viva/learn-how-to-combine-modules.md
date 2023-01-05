@@ -1,5 +1,5 @@
 ---
-title: "Combine Microsoft Viva modules to support popular business scenarios"
+title: "Combine Microsoft Viva apps to support popular business scenarios"
 ms.reviewer: loreenl
 ms.author: hokavian
 author: Holland-ODSP
@@ -17,11 +17,11 @@ ms.collection:
 - highpri
 search.appverid:
 - MET150
-description: "Learn how to combine Microsoft Viva modules to support popular experiences"
+description: "Learn how to combine Microsoft Viva apps to support popular experiences"
 ---
-# Combine Microsoft Viva modules to support popular business scenarios
+# Combine Microsoft Viva apps to support popular business scenarios
 
-Microsoft Viva modules can be combined to create powerful employee experiences for common business scenarios. Use this guidance to get inspired about how your organization can use combinations of Viva modules to meet specific needs. Each scenario can be supported by two Viva modules. Optionally, you can combine a third Viva module to create an even more effective experience. Then, get specific guidance on how to get started planning and deploying your solution.
+Microsoft Viva apps can be combined to create powerful employee experiences for common business scenarios. Use this guidance to get inspired about how your organization can use combinations of Viva apps to meet specific needs. Each scenario can be supported by two Viva apps. Optionally, you can combine a third Viva app to create an even more effective experience. Then, get specific guidance on how to get started planning and deploying your solution.
 
 **Scenarios in this article**:
 
@@ -38,7 +38,7 @@ Microsoft Viva modules can be combined to create powerful employee experiences f
 
 Onboard new employees or volunteers and encourage upskilling with the combination of Viva Learning and Viva Connections. Create a training experience that can be accessed on desktop and mobile devices and can be targeted to specific audiences. Consider adding Viva Topics to help your organization manage internal projects, subject matter experts, and terminology.
 
-### Module 1: Viva Learning
+### App 1: Viva Learning
 
 Create and store custom training and onboarding content that your employees can access in Microsoft Teams.
 
@@ -47,7 +47,7 @@ Create and store custom training and onboarding content that your employees can 
 3. [Configure SharePoint as a content source](learning/configure-sharepoint-content-source.md) for Viva Learning to allow users in your organization to access and share your custom content from Viva Learning in Teams.
 4. Managers can [recommend](https://support.microsoft.com/office/recommend-and-manage-content-in-viva-learning-77f9dcbf-41a8-4b19-b4d1-b99c406f37b8) this content to users in your organization.
 
-### Module 2: Viva Connections
+### App 2: Viva Connections
 
 Make it easy for your employees to access content in Viva Learning through their dashboard.
 
@@ -56,7 +56,7 @@ Make it easy for your employees to access content in Viva Learning through their
 3. Add a Viva Learning [teams app card](connections/create-dashboard.md) to the dashboard.
 4. If you only want your Viva Learning card to show up to users going through the training and onboarding process, you can use [audience targeting](connections/create-dashboard.md).
 
-### Module 3: Viva Topics
+### App 3: Viva Topics
 
 Enhance your training and onboarding process by helping your employees learn more about important topics in your organization.
 
@@ -71,7 +71,7 @@ Enhance your training and onboarding process by helping your employees learn mor
 
 Help your employees manage their time effectively and create a healthy workplace culture with Viva Insights, Viva Learning, and Viva Connections. First, use Viva Insights to gain an understanding of your team’s work habits. Then, create or source learning content to encourage healthy workplace practices. Finally, add Viva Connections to share communications and resources about wellness and workplace practices.
 
-### Module 1: Viva Insights
+### App 1: Viva Insights
 
 Understand your organization’s workplace habits and how your team spends their time.
 
@@ -80,7 +80,7 @@ Understand your organization’s workplace habits and how your team spends their
 3. Enable [Teamwork habits](insights/org-team-insights/teamwork-habits.md) for employees to learn more about their teams’ unique habits and understand how their habits can set a good example.
 4. Enable [personal insights](insights/personal/introduction.md) for employees to learn how to make the most of their time at work. Viva Insights helps employees be more proactive in protecting their schedule by setting up a [focus plan](insights/personal/Use/focus-plan.md) and a [virtual commute](insights/personal/teams/viva-insights-virtual-commute.md). Employees can also access mindfulness content from [Headspace](insights/personal/teams/viva-insights-headspace.md) to help them reduce stress and burnout.
 
-### Module 2: Viva Connections
+### App 2: Viva Connections
 
 Share resources and communications about wellbeing, work-life balance, and workplace culture.
 
@@ -88,7 +88,7 @@ Share resources and communications about wellbeing, work-life balance, and workp
 2. [Create a dashboard](connections/create-dashboard.md)  and add cards so your users can quickly and easily access communications and resources. Use what you learned from Viva Insights to determine what content can help your workforce.
 3. [Tailor content to specific teams and people](connections/viva-connections-overview.md). For example, if you learn from Viva Insights that one team is often working very late, you can target a presentation about work-life balance to appear on the dashboards and feeds of team members.
 
-### Module 3: Viva Learning
+### App 3: Viva Learning
 
 Create, source, and share content to educate your organization about healthy work habits.
 
@@ -102,7 +102,7 @@ Create, source, and share content to educate your organization about healthy wor
 
 ![Image of Viva Connections and Viva Topics combined together.](./media/knowledge-combo.png)
 
-### Module 1: Viva Topics
+### App 1: Viva Topics
 
 Empower employees to find the information and contacts that they need to do their best work.
 
@@ -111,7 +111,7 @@ Empower employees to find the information and contacts that they need to do thei
 3. [Get started driving Viva Topics adoption](topics/topics-adoption-getstarted.md) in your organization.
 4. Once you’ve set up Viva Topics and assigned roles, your employees will be able to easily find resources and experts related to a topic. Viva Topics is available in SharePoint, Word, Excel, and PowerPoint, and integrates with Microsoft Search. When an employee sees a term that they want to know more about, they can highlight a word or phrase within the tool, right-click and choose the option to search the highlighted word. If there’s a topic associated, a topic card surfaces as the first result. In addition, anyone can edit topics, so employees can easily share their expertise and knowledge.
 
-### Module 2: Viva Connections
+### App 2: Viva Connections
 
 1. Get Viva Connections.
 2. [Create a dashboard](connections/create-dashboard.md) and add cards so your users can quickly and easily access communications and resources. You can [share news](/sharepoint/distribute-corporate-news-to-your-organization), [add web link dashboard cards](connections/create-dashboard.md), and [share videos](connections/video-news-links.md) to your users’ feeds.
@@ -119,7 +119,7 @@ Empower employees to find the information and contacts that they need to do thei
 
 ## Learn more
 
-[Get all Microsoft Viva modules](plan-for-all-viva-modules.md)
+[Get all Microsoft Viva apps](plan-for-all-viva-modules.md)
 
 [Introduction to Viva Connections](connections/viva-connections-overview.md)
 

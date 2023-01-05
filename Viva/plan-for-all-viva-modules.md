@@ -50,9 +50,9 @@ Then, you need to purchase the [Microsoft Viva suite](https://www.microsoft.com/
 
 ## Step 2: Meet technical requirements
 
-After you’ve got the right licensing in place, review additional requirements to get the Viva module up and running. For more details, [review minimum requirements and planning considerations](discover-more-about-each-viva-module.md).
+After you’ve got the right licensing in place, review additional requirements to get the Viva app up and running. For more details, [review minimum requirements and planning considerations](discover-more-about-each-viva-module.md).
 
-|Module |Requirements |
+|app |Requirements |
 |-------|-------------|
 |![Viva Connections logo.](media/logos/connections-launch-c-64.svg) <br> **Viva Connections** | - SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites |
 |![Viva Insights logo.](media/logos/insights-launch-c-64.svg) <br> **Viva Insights** | No technical requirements besides licensing for personal and team insights |
@@ -64,7 +64,7 @@ After you’ve got the right licensing in place, review additional requirements 
 
 ## Step 3: Get guidance on roles for each phase
 
-Review the different roles in each phase before you get started planning. Each module needs a few key roles that will help ensure success throughout the planning, building, and launching phases.
+Review the different roles in each phase before you get started planning. Each app needs a few key roles that will help ensure success throughout the planning, building, and launching phases.
 
 ### Get guidance on Viva Connections
 
