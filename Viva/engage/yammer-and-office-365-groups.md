@@ -23,17 +23,17 @@ description: "If your network is eligible, groups in Viva Engage can have access
 
 # Viva Engage and Microsoft 365 Groups
 
-If your Yammer network is eligible, you can use Microsoft 365 connected groups in Yammer.
+If your Viva Engage network is eligible, you can use Microsoft 365 connected groups in Viva Engage.
 
-You can tell if a group in Yammer is a Microsoft 365 connected group when you see the **Microsoft 365 Resources** section in the right navigation of the Yammer group:
+You can tell if a group in Viva Engage is a Microsoft 365 connected group when you see the **Microsoft 365 Resources** section in the right navigation of the Viva Engage group:
   
 ![Screenshot showing Microsoft 365 Resources.](../media/195dd76c-6007-469e-9242-7889a3b217a9.png)
 
 ## Advantages of using Microsoft 365-connected groups
 
-Microsoft 365 connected groups have many advantages over non-connected Yammer groups:
+Microsoft 365 connected groups have many advantages over non-connected Viva Engage groups:
 
-- Access Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner, from within Yammer. Also includes integration with Power BI and Stream.
+- Access Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner, from within Viva Engage. Also includes integration with Power BI and Stream.
 - Create and host live events ([Live events in Yammer](../manage-yammer-groups/yammer-live-events.md))
 - Use Office 365 connectors to add apps to classic Yammer ([Add apps to Yammer](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
 - Manage who can create Microsoft 365 groups ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
@@ -46,23 +46,23 @@ Microsoft 365 connected groups have many advantages over non-connected Yammer gr
 - Use the optional group expiration policy to help clean up unused groups. See [Microsoft 365 Group Expiration Policy](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)
 - Use planned additional features that will only be available with connected groups. This includes getting local data center residency for newly uploaded files that are stored in SharePoint. ([Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?LinkId=509914))
   
-## Yammer configuration required to use Microsoft 365 connected groups
+## Viva Engage configuration required to use Microsoft 365 connected groups
 
-To use Microsoft 365 connected groups in Yammer, make sure your Yammer network meets the following requirements:
+To use Microsoft 365 connected groups in Viva Engage, make sure your Viva Engage network meets the following requirements:
 
 - You must [enforce Office 365 identity](../configure-your-yammer-network/enforce-office-365-identity.md) for Yammer users. When you first enforce Office 365 identity there is a seven-day trial period, after which the **Status** of your  **Office 365 Identity Enforcement** changes to **Committed**.
 
 - Since October 16, 2018, all Yammer networks must be in a 1:1 network configuration. This means you have one Yammer network that is associated with one Office 365 tenant. This is required as of October 16, 2018. For more information, see [FAQ: Consolidating multiple Yammer networks](../configure-your-yammer-network/faq-consolidate-multiple-yammer-networks.md).
 
 >[!NOTE]
-> If you want to ensure that all of your groups are connected, align your network to Native Mode.  To learn more about Yammer in Native Mode, see [Overview of Native Mode](../configure-your-yammer-network/overview-native-mode.md).
+> If you want to ensure that all of your groups are connected, align your network to Native Mode.  To learn more about Viva Engage in Native Mode, see [Overview of Native Mode](../configure-your-yammer-network/overview-native-mode.md).
 
 Here's how the process works after your network becomes eligible for connected groups:
 
 - About 24 hours after the **Status** in **Office 365 Identity Enforcement** changes to **Committed**:
-    - In the **Microsoft 365 (previously known as Office 365) Connected Yammer Groups** section, the **Status** for your network will change to **Enabled**.
+    - In the **Microsoft 365 (previously known as Office 365) Connected Viva Engage Groups** section, the **Status** for your network will change to **Enabled**.
 
-    - Any new groups created in Yammer that are eligible will automatically be created as Microsoft 365 connected groups.  
+    - Any new groups created in Viva Engage that are eligible will automatically be created as Microsoft 365 connected groups.  
 
 - After about one week, existing eligible groups will be converted to Microsoft 365 groups.
 
