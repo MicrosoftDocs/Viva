@@ -79,27 +79,27 @@ Learn more about [Microsoft Viva licensing](https://www.microsoft.com/microsoft-
 |Step 1 |Step 2  |Step 3  |Step 4 |
 |:---------:|:---------:|:---------:|:---------:|
 |:::image type="icon" source="media/viva-discover1.png" border="false"::: <br>  **Discover**   | :::image type="icon" source="media/viva-learn2.png" border="false"::: <br>  **Learn** |:::image type="icon" source="media/viva-prepare3.png" border="false"::: <br>  **Prepare** |:::image type="icon" source="media/viva-get-started4.png" border="false"::: <br>  **Get started** |
-|Overview of modules and key concepts.     | Learn more about requirements and roles.        | Get guidance on change management considerations and end-user training resources.         |   Get started planning for your organization.      |
+|Overview of apps and key concepts.     | Learn more about requirements and roles.        | Get guidance on change management considerations and end-user training resources.         |   Get started planning for your organization.      |
 
 ## Steps to set up
 
-1. **Discover what module to use and when** <br>
-Get familiar with how each Viva module can help your organization achieve certain outcomes. Review features and functionality for each Viva module.
+1. **Discover what app to use and when** <br>
+Get familiar with how each Viva app can help your organization achieve certain outcomes. Review features and functionality for each Viva app.
 
 2. **Learn more about requirements and roles** <br>
 Get guidance on technical requirements, roles, and other considerations that will be a part of the planning process.
 
 3. **Prepare your organization for your instance of Viva** <br>
-Start organizing, auditing, and scoping how your organization will use Viva modules to reach certain audiences and outcomes.
+Start organizing, auditing, and scoping how your organization will use Viva apps to reach certain audiences and outcomes.
 
 4. **Get started deploying** <br>
-Get specific guidance on how to get each Viva module, considerations for adoption, and best practices for launching new tools.
+Get specific guidance on how to get each Viva app, considerations for adoption, and best practices for launching new tools.
 
 ## End user impact and change management guidance
 
-Review how each Viva module will impact the day-to-day work of the rest of your organization and consider how to approach.
+Review how each Viva app will impact the day-to-day work of the rest of your organization and consider how to approach.
 
-|Viva module  |Change management considerations   |Guidance  |
+|Viva app  |Change management considerations   |Guidance  |
 |:---------:|---------|---------|
 |**Viva Connections**     | Helps end-users understand how to access popular common tasks and resources from the Viva Connections app in Microsoft Teams.        | [Viva Connections on your desktop](https://support.microsoft.com/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52) <p> [Viva Connections on the go](https://support.microsoft.com/office/viva-connections-on-the-go-753e0607-0bfd-4712-ad7e-18490dd565a2)|
 |**Viva Insights**     | Viva Insights includes personal, manager, leader, and advanced insights with custom analysis options for evaluating your specific organization’s work patterns with research-based recommendations about where to focus change management efforts.        | [Introducing Viva Insights](/viva/insights/introduction) |
@@ -113,7 +113,7 @@ Review how each Viva module will impact the day-to-day work of the rest of your 
 
 New Microsoft Viva experiences have been released or are coming soon. New Viva experiences will be incorporated into this solution soon. Learn more about how each Viva experience can be incorporated into your organization's employee experience.
 
-| Module              | Features and capabilities | Overview          |
+| app              | Features and capabilities | Overview          |
 | :------------------- | :------------------- |:----------------|
 | **Viva Engage**  | Viva Engage brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.| [Learn more about Viva Engage](/viva/engage/overview) |
 | **Viva Goals** | Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. | [Learn more about Viva Goals](/viva/goals/intro-to-ms-viva-goals)|
@@ -121,12 +121,12 @@ New Microsoft Viva experiences have been released or are coming soon. New Viva e
 
 ## Learn more
 
-Learn more about which Viva module, or combination of modules, is the right fit for your business scenario. Then, get guidance on how to prepare, plan, and deploy the Viva solution for your organization.
+Learn more about which Viva app, or combination of apps, is the right fit for your business scenario. Then, get guidance on how to prepare, plan, and deploy the Viva solution for your organization.
 
 [Microsoft Viva Overview](microsoft-viva-overview.md)
 
-[Get all Microsoft Viva modules](plan-for-all-viva-modules.md)
+[Get all Microsoft Viva apps](plan-for-all-viva-modules.md)
 
-[Combine Microsoft Viva modules for popular business scenarios](learn-how-to-combine-modules.md)
+[Combine Microsoft Viva apps for popular business scenarios](learn-how-to-combine-modules.md)
 
-[Learn more about Microsoft Viva modules](discover-more-about-each-viva-module.md)
+[Learn more about Microsoft Viva apps](discover-more-about-each-viva-module.md)
