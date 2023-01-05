@@ -107,7 +107,7 @@ Potential influencers are often difficult to discover within an organization. Em
 
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
-* Use personal network insights to cultivate influence and the [Stay connected](../personal/teams/viva-insights-stay-connected.md) page to see connections, top collaborators, and suggestions on how to improve connections.
+* Use personal network insights to cultivate influence and the [Stay connected](../personal/teams/teamwork.md) page to see connections, top collaborators, and suggestions on how to improve connections.
 * Move cross-functional team collaboration to Microsoft Teams and ask influencers to create [Channels in Teams](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
 * Consider employees with high potential, not just top performers. Attributes that have contributed to past success may not predict future success. Broaden measures used to identify leaders to include those that assess potential, such as influence ranking.
 
@@ -139,7 +139,7 @@ Managers who have diverse ties across an organization are typically considered m
 In the [Empowering your employees to empower themselves](https://insights.office.com/management-strategy/empowering-your-employees-to-empower-themselves/) article: "Your employees understand their jobs. They know their tasks, roles, and functions within the organization, and it’s time for you to let them do what they need to do to get the job done." Ways to foster connectivity:
 
 * Create cross-team communities for people with similar interests to share ideas, knowledge, and resources. This can also be done using [Teams channels](/microsoftteams/teams-channels-overview).
-* Enable and use the [Viva Insights Outlook add-in](../personal/use/use-the-insights.md) and [Stay connected](../personal/teams/viva-insights-stay-connected.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.
+* Enable and use the [Viva Insights Outlook add-in](../personal/use/use-the-insights.md) and [Stay connected](../personal/teams/teamwork.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.
 * Create a shared [Teams channel](/microsoftteams/teams-channels-overview) to strengthen connectivity through channel interactions about projects, strategic topics, and goals to enable information sharing, brainstorming, and team building.
 
 For more best practices and ways to open your network to your team, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).

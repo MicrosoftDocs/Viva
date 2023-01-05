@@ -31,7 +31,7 @@ Microsoft Viva Insights is an extension of your Microsoft 365 client experience 
 
 By using Viva Insights, you and your team can accomplish great things.
 
-* **Improve your relationships** - Increase your collaboration time, improve your team meetings, and grow your [connections](../teams/viva-insights-stay-connected.md).
+* **Improve your relationships** - Increase your collaboration time, improve your team meetings, and grow your [connections](../teams/teamwork.md).
 * **Get more focus time** - Find more time to eliminate distractions, stop multi-tasking, and [focus](../teams/viva-insights-protect-time.md#schedule-focus-time) on your core priorities.
 * **Improve your work-life balance** - Improve your [quiet days](../teams/viva-insights-protect-time.md#configure-quiet-time) and reduce the time you spend working for better work-life balance and overall wellbeing.
 
