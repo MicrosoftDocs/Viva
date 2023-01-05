@@ -144,45 +144,45 @@ Each app has its own technical requirements before it can be customized and shar
 
 ### Viva Connections
 
-    - **Technical requirements**:
-        - Microsoft 365 E3 or E5 license
-        - SharePoint home site
-        - Global navigation enabled and customized
-        - Modern SharePoint sites
-    - **Impact on end-users**: 
-        - New options to get news, complete tasks, and connect with others
-        - Increased value of the Microsoft Teams desktop and mobile apps
-        - Improved processes and streamlined tasks
-    - **Admins and roles**:
-        - SharePoint admin
-        - Microsoft Teams admin
-        - Your organization’s stakeholders and business partners from groups like HR, communications specialists, and technology advocates
-        - Site owners and authors for the home site
-    - **Change management considerations**:
-        - Microsoft Teams adoption (if you aren’t already working in Teams)
-        - How to use Viva Connections on desktop and mobile apps
-        - How to engage with the Dashboard, the Feed, and Resources
-        - Where to view the latest news and announcements
-        - Specialized guidance for different audiences like frontline workers or hybrid workers
+- **Technical requirements**:
+     - Microsoft 365 E3 or E5 license
+    - SharePoint home site
+    - Global navigation enabled and customized
+- Modern SharePoint sites
+- **Impact on end-users**: 
+    - New options to get news, complete tasks, and connect with others
+    - Increased value of the Microsoft Teams desktop and mobile apps
+    - Improved processes and streamlined tasks
+- **Admins and roles**:
+    - SharePoint admin
+    - Microsoft Teams admin
+    - Your organization’s stakeholders and business partners from groups like HR, communications specialists, and technology advocates
+    - Site owners and authors for the home site
+- **Change management considerations**:
+    - Microsoft Teams adoption (if you aren’t already working in Teams)
+    - How to use Viva Connections on desktop and mobile apps
+    - How to engage with the Dashboard, the Feed, and Resources
+    - Where to view the latest news and announcements
+    - Specialized guidance for different audiences like frontline workers or hybrid workers
 
 ### Viva Insights
 
-    - **Technical requirements**:
-        - Microsoft 365 or Office 365 E1/A1/G1/E3/A3/G3/E5/A5/G5, Microsoft 365 Business Basic, Business Standard, Business Premium, or Exchange Online Plan 1 or Plan 2 license
-        - [Discover and pin the app](https://www.microsoft.com/microsoft-viva/buy-insights?rtc=1&activetab=pivot%3aoverviewtab) or [Viva Suite subscription](https://www.microsoft.com/microsoft-viva/pricing?rtc=1) is required for some features.  
-    - **Impact on end-users**:
-        - No need to leave Microsoft Teams or Outlook to get help with everyday tasks and improve your work patterns and wellbeing.
-        - See [Discover and pin the app](insights/personal/teams/viva-teams-app-install.md) in Teams and [Pin the add-in](insights/personal/Use/add-in.md) in Outlook for how to get started.
-    - **Admins and roles**: 
-        - Insights Administrator
-        - Microsoft Teams admin
-        - Microsoft 365 enterprise or global admin
-        - Exchange admin
-        - Insights Business leader
-        - HR information system admin
-        - Analyst or Analyst (Limited Access)
-        - People manager <p> See [Roles in Viva Insights](insights/Use/User-Roles.md) for details.
-    - **Change management considerations**:
+- **Technical requirements**:
+    - Microsoft 365 or Office 365 E1/A1/G1/E3/A3/G3/E5/A5/G5, Microsoft 365 Business Basic, Business Standard, Business Premium, or Exchange Online Plan 1 or Plan 2 license
+    - [Discover and pin the app](https://www.microsoft.com/microsoft-viva/buy-insights?rtc=1&activetab=pivot%3aoverviewtab) or [Viva Suite subscription](https://www.microsoft.com/microsoft-viva/pricing?rtc=1) is required for some features.  
+- **Impact on end-users**:
+    - No need to leave Microsoft Teams or Outlook to get help with everyday tasks and improve your work patterns and wellbeing.
+    - See [Discover and pin the app](insights/personal/teams/viva-teams-app-install.md) in Teams and [Pin the add-in](insights/personal/Use/add-in.md) in Outlook for how to get started.
+- **Admins and roles**: 
+    - Insights Administrator
+    - Microsoft Teams admin
+    - Microsoft 365 enterprise or global admin
+    - Exchange admin
+    - Insights Business leader
+    - HR information system admin
+    - Analyst or Analyst (Limited Access)
+    - People manager <p> See [Roles in Viva Insights](insights/Use/User-Roles.md) for details.
+- **Change management considerations**:
         - Your Microsoft 365 enterprise or global admin assigns the other roles required for setting up and using Viva Insights in your organization. See [Assign admin roles](insights/Setup/Assign-roles-to-wpa-admins.md) for details.
 
 ### Viva Learning
