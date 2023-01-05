@@ -111,7 +111,7 @@ To start or stop automatically shortening meetings, toggle the switch under **Sh
 
 To add or stop adding Teams links to meetings, toggle the switch under **Add Teams meeting**.
 
-:::image type="complex" source="./images/meeting-effectiveness-settings1.png" alt-text="Screenshot that shows the Effective meetings settings in the Teams settings page for Viva Insights.":::
+:::image type="complex" source="./images/meeting-effectiveness-settings2.png" alt-text="Screenshot that shows the Effective meetings settings in the Teams settings page for Viva Insights.":::
    Screenshot of "Effecive meetings" settings in the Viva Insights Settings page in Teams. There are three sections. The first is titled, "Your shared meeting plan," with a button to leave the plan. The subtitle says, "You're leading the way with effective meeting habits" and has a "Learn more" link. The second section is titled, "Get feedback on your meetings" with a "Meeting effectiveness surveys" toggle. The subtitle for the toggle says, "Want to get feedback about how effective your meetings are? Insights can send a survey to meeting participants to help you understand how effective your meetings are" and contains a "Learn more" link. The third section is titled, "Personalize your meetings." It contains a "Shorten meetings" toggle and a set of dropdown menus to set preferences, along with an "Add Teams meeting" toggle. The subtitle for the "Add Teams meeting" toggle says, "Automatically include a Microsoft Teams meeting link to all your meetings to promote inclusion of in-person and remote attendees."
 :::image-end:::
 
