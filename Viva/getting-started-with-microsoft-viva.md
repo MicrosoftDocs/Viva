@@ -107,7 +107,7 @@ Review how each Viva app will impact the day-to-day work of the rest of your org
 |**Viva Topics**     | Viva Topics compiles information on topics such as a short description and related people, sites, files, and pages. All of this occurs within the flow of your work in Microsoft 365 and Office sites and apps.        | [Understanding Viva Topics](https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332)       |
 |**Viva Engage** | Viva Engage is a place to connect and engage with leaders, colleagues, and communities. Viva Engage creates opportunities for asking questions, sharing knowledge, attending virtual events, building social capital, and extending employee networks. |[Getting started with Microsoft Viva Engage](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) |
 |**Viva Goals** | Viva Goals makes it easy for employees to view OKRs that are relevant to both them and your broader organization. Employees can also add their own OKRs and submit them to managers for review. Employees who own OKRs can conduct check-ins to update progress. |[Learn how to use Viva Goals with Microsoft Teams.](/viva/goals/use-ms-teams-integration) |
-|**Viva Sales** |Viva Sales automates data entry into your CRM system so your salespeople can focus on sales instead of spending their time on data entry. |[End user introduction to Viva Sales](https://support.microsoft.com/topic/introduction-to-microsoft-viva-sales-e1b89ece-e97f-4a9d-9cdc-9018fde0a6a5) |
+|**Viva Sales** |Viva Sales automates data entry into your CRM system so your sales people can focus on sales instead of spending their time on data entry. |[End user introduction to Viva Sales](https://support.microsoft.com/topic/introduction-to-microsoft-viva-sales-e1b89ece-e97f-4a9d-9cdc-9018fde0a6a5) |
 
 ## Learn more about new Viva experiences
 
@@ -115,9 +115,8 @@ New Microsoft Viva experiences have been released or are coming soon. New Viva e
 
 | app              | Features and capabilities | Overview          |
 | :------------------- | :------------------- |:----------------|
-| **Viva Engage**  | Viva Engage brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.| [Learn more about Viva Engage](/viva/engage/overview) |
-| **Viva Goals** | Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. | [Learn more about Viva Goals](/viva/goals/intro-to-ms-viva-goals)|
-| **Viva Sales** | Viva Sales is available for select preview customers but will become generally available in the Fall. Viva Sales is an experience for sales representatives and uses Microsoft 365 and Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. | [Learn more about Viva Sales](/viva/sales/introduction) |
+| **Viva Amplify**  | Viva Amplify is a new app that empowers employee communication teams and leaders to elevate their messaging using a centralized communication processes that offers writing guidance to help reach every part of the organization.| [Learn more about Viva Amplify](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/) |
+
 
 ## Learn more
 
