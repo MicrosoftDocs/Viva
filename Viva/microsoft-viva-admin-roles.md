@@ -110,11 +110,13 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator)  and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
 
 ### Viva Insights
- The [Insights admin](/azure/active-directory/roles/permissions-reference#insights-administrator) is responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data for Viva Insights.
 
-The admin has access to data sources, the ability to upload pages within data sources, and has access to analyst settings. While the admin has access to organizational data, they do not have access to Microsoft 365 data. 
-
-The Insights admin role  must be assigned by a Microsoft 365 admin as described in [Assign user roles](/viva/insights/advanced/setup-maint/assign-user-roles). The Insights admin and the legacy Workplace Analytics admin are interchangeable roles. 
+| Role         | What this role does in Viva
+|--------------|-----------|
+|**Insights administrator** <br>Assigned by Microsoft 365 admin|Has access to the administrator experience in the advanced insights app, which consists of these pages: Organizational data, Privacy settings, and Manager settings.<br> Responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data for Viva Insights.<br> While the Insights admin has access to organizational data, they do not have access to Microsoft 365 data.<br> Note: if you are already a Microsoft 365 admin, you automatically have the Insights administrator role.|
+|**Insights Business Leader** <br>Assigned by Microsoft 365 admin|Insights Business Leaders can see organizational insights on the Organization trends page within the Viva Insights app.<br>Note: if you already have the Microsoft 365 Global reader role, you automatically have the Insights Business Leader role|
+|**Insights Analyst**<br>Assigned by Microsoft 365 admin|Has access to the analyst experience in the advanced insights app, which includes the ability to run custom and Power BI queries, view query results, and view the quality of organizational data.
+|**People Manager**<br> Access enabled by Insights administrator|Can view organization trends in the Viva Insights app in Teams and on the web.<br>
 
 For more information on all the roles in Viva Insights see [Roles in Viva Insights](/viva/insights/advanced/setup-maint/user-roles).
 
