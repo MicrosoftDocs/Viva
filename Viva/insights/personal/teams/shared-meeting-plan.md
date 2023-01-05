@@ -35,7 +35,7 @@ To create a shared meeting plan:
 1. Go to the **Productivity** tab in the Viva Insights app in Teams or on the web.
 1. In the **Recommended for you** section, find the **Promote healthy meeting norms** card and select **Get started**.
 
-:::image type="complex" source="./images/productivity-mep-start2.png" alt-text="Screenshot that shows the Shared meeting plan card on the Productivity tab.":::
+:::image type="complex" source="./images/productivity-mep-start2.png" alt-text="Screenshot that shows the Recommended for you section.":::
    Screenshot of the Recommended for you section in the Viva Insights app Productivity tab. Next to the title, there's an information icon. The subtitle reads, "Get insights, actions, and plans to help you and your peers adopt best practices." Beneath the subtitle, there are three sections: one larger section on the left and two smaller sections on the right. One section on the right is titled, "How your meetings succeeded," and the subtitle says, "Your participants appreciate how you end meetings with clear next steps." The second section on the right is titled, "How your meetings can improve," and the subtitle says, "Some of your recent online meetings may not have started on time due to back-to-back meetings." The section on the left is titled, "Promote healthy meeting norms," and the subtitle says, "Share a customized meeting plan to encourage best practices for meetings." The button below, called "Get started," is highlighted.
 :::image-end:::
 
