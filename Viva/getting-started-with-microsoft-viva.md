@@ -111,11 +111,13 @@ Review how each Viva app will impact the day-to-day work of the rest of your org
 
 ## Learn more about new Viva experiences
 
-New Microsoft Viva experiences have been released or are coming soon. New Viva experiences will be incorporated into this solution soon. Learn more about how each Viva experience can be incorporated into your organization's employee experience.
+The following new Microsoft Viva experiences are coming soon. New Viva experiences will be incorporated into this solution when they become generally available. Learn more about how each Viva experience can be incorporated into your organization's employee experience.
 
-| app              | Features and capabilities | Overview          |
+| App name         | Features and capabilities | More information         |
 | :------------------- | :------------------- |:----------------|
 | **Viva Amplify**  | Viva Amplify is a new app that empowers employee communication teams and leaders to elevate their messaging using a centralized communication processes that offers writing guidance to help reach every part of the organization.| [Learn more about Viva Amplify](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/) |
+| **Viva Answers**  | Viva Answers matches employee questions to the right answers and experts across their organization to help address open questions and put collective knowledge to work for all employees. Answers in Viva leverages AI to surface similar questions that have been answered, recommends topics and experts, and highlights the top solutions.| [Learn more about Viva Answers](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/) |
+| **Viva Pulse**  | Viva Pulse empowers managers and team leads to seek regular and confidential feedback on their team’s experience. Using People-Science backed templates and analytics, Viva Pulse enables teams to use their voice so they can help managers pinpoint what's working well and which areas to focus on over time. Viva Pulse also provides suggested learning and actions on relevant topics, making it easy for managers to address their team’s needs.| [Learn more about Viva Amplify](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/) |
 
 
 ## Learn more
