@@ -21,6 +21,8 @@ audience: Admin, user
 
 # Team insights
 
+*Applies to: people with a premium Viva Insights subscription and one or more people directly reporting to them*
+
 Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find in the following places:
 
 * 1:1 information on the [Teamwork](../personal/teams/teamwork.md) tab
@@ -29,22 +31,26 @@ Find insights and suggested actions based on your personal habits as a manager t
 
 Throughout this document, we'll link you to where you can find more detailed information.
 
-## Data privacy
+## About team data and data privacy
 
-Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, see Privacy guide.
+Team insights features use collaboration data from Microsoft 365 and—depending on your setup—uses organizational data that your admin has uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. Refer to [Data-protection considerations](../advanced/privacy/privacy.md) for more details. 
+
+Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR), the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, refer to the [Privacy guide](../personal/teams/viva-teams-app-privacy.md).
+
+Team insights features are generated using each user's own data, which is computed from their email, meetings, calls, and chats. Individual employee data is stored and protected in the same way as the user's Microsoft 365 data. So, with team insights, you can't identify specific team members and see their personal collaboration habits. <!--right phrasing?-->
 
 ## Permissions and app setup
 
 ### Admin tasks
 
-Team insights and its features (as described on this page) are available users who have a premium Microsoft Viva Insights license with an applicable service plan. Ask your admin about licensing and to install and set up the Viva Insights app for the organization. Refer to Admin tasks for details.
+Team insights and its features (as described on this page) are available users who have a [Viva Insights subscription with an applicable service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app for the organization. Refer to [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ### Install, pin, and configure the app
 
 Refer to these articles to install, pin, and configure the app in Teams:
 
-* Install and pin the app
-* Configure the app
+* [Install and pin the app](../personal/teams/viva-teams-app-install.md)
+* [Configure the app](../personal/teams/viva-teams-app-settings.md)
 
 ## About teams
 
@@ -55,9 +61,10 @@ Viva Insights automatically builds teams based on organizational data uploaded o
 Your team only includes people reporting directly to you as presented in Azure Active Directory or the file your admin uploads. This structure means three things:
 
 To keep teams accurate, your organization needs to regularly update Azure Active Directory or upload new HR files.
+
 If you don’t have at least one person reporting directly to you, as presented in the organizational data file, you won’t have access to Team insights.
 
-Because teams come directly from organizational data, you’re not able to edit members.
+Because teams come directly from organizational data, you’re not able to edit members. People who don't have direct reports won't be able to access team insights.
 
 >[!Note]
 >When your direct-reports list changes, your team meeting habits will reflect these changes in next week’s data.
@@ -76,7 +83,7 @@ To turn on or off team insights:
 
 1. Select Save changes.
 
-## Team insights
+## Available insights
 
 ### 1:1 time
 
@@ -94,7 +101,7 @@ If you directly call a team member over Teams outside of a scheduled 1:1 meeting
 
 As a manager, you're a role model when it comes to collaboration habits, especially in meetings. Team members tend to mimic their manager's behavior. One study by Microsoft found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
 
-You'll find insights about your team meeting habits on the Productivity tab. Refer to [Meeting habits](../personal/teams/meeting-habits.md) to learn which habits we calculate and how we calculate them.
+You'll find insights about your team meeting habits on the **Productivity** tab. Refer to [Meeting habits](../personal/teams/meeting-habits.md) to learn which habits we calculate and how we calculate them.
 
 ### Quiet hours impact
 
