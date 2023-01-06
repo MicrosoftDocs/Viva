@@ -9,11 +9,11 @@ items:
     - name: Getting started with Microsoft Viva 
       href: getting-started-with-microsoft-viva.md
       items:
-      - name: Plan for all Viva modules  
+      - name: Plan for all Viva apps 
         href: plan-for-all-viva-modules.md 
-      - name: Learn how to combine modules   
+      - name: Learn how to combine apps  
         href: learn-how-to-combine-modules.md  
-      - name: Discover more about each Viva module    
+      - name: Discover more about each Viva app    
         href: discover-more-about-each-viva-module.md   
     - name: Set up Microsoft Viva
       href: setup-microsoft-viva.md
