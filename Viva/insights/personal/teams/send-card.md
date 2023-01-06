@@ -23,7 +23,7 @@ Use the **Send a card** feature to maintain positive relationships and connect w
 
 ![Card options.](images/card-options.png)
 
-You'll see recommendations on cards you can send to these colleagues who you closely collaborate with or have pinned as [important](viva-insights-stay-connected.md#identify-and-pin-important-collaborators). Viva Insights uses your collaboration activity (email, meetings, calls, and chats) to identify the people you closely collaborate with.
+You'll see recommendations on cards you can send to these colleagues who you closely collaborate with or have pinned as [important](teamwork.md). Viva Insights uses your collaboration activity (email, meetings, calls, and chats) to identify the people you closely collaborate with.
 
 You can also share your birthday with Viva Insights, so your colleagues will know when to send you a birthday card. You can also customize the card with a personal message and select how it is sent.
 
