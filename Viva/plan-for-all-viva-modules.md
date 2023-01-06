@@ -29,7 +29,7 @@ description: "Get all Microsoft Viva apps"
 
 Follow the guidance in this article if you know your organization wants all four Viva apps.
 
-|:::image type="icon" source="media/viva-confirm-licensing.png" border="false"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png"::: <br> Step 4|
+|:::image type="icon" source="media/viva-confirm-licensing.png"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png"::: <br> Step 4|
 |:---------:|:---------:|:---------:|:---------:|
 |Confirm you’ve got the right licensing in place. |Meet technical requirements.|Learn more about the roles in each phase.|Prepare to launch and scale adoption with end-users.|
 
