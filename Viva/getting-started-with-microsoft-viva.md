@@ -47,7 +47,7 @@ Get guidance on how to prepare, plan, and [deploy all Viva apps.](plan-for-all-v
 
 ### Discover how you can combine Viva apps
 
-Viva apps become more powerful if used together. Viva can help your organization meet popular business scenarios like onboarding and helping employees with wellness in the workplace. [Learn how.](learn-how-to-combine-modules.md)
+Viva apps become more powerful if used together. Viva can help your organization meet popular business scenarios like onboarding and helping employees with wellness in the workplace. [Learn how to combine Viva apps.](learn-how-to-combine-modules.md)
 
 ![Image of the Viva logos and descriptions.](./media/viva-individual.png)
 
