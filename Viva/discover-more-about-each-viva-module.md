@@ -25,8 +25,8 @@ description: "Learn about each Viva app in detail"
 
 Microsoft Viva is designed to solve modern workplace problems for hybrid workers, information workers, and frontline workers alike. Discover how Viva apps can support popular business scenarios. Then, learn more about technical details and planning considerations. Next, get specific guidance on how to get started planning, building, and launching.  
 
->[!NOTE] 
-> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
+>[!NOTE]
+> New Microsoft Viva experiences are coming soon. New Viva experiences will be incorporated into this content set for [Viva Amplify, Viva Answers, and Viva Pulse](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
 
 ## Discover popular business scenarios that are supported by Viva
 

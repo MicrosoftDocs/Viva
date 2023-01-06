@@ -25,7 +25,7 @@ description: "Get all Microsoft Viva apps"
 [Microsoft Viva](https://www.microsoft.com/microsoft-viva) currently offers several apps that can make an impact on their own and become even more powerful when used together. Learn more about [individual Viva apps](discover-more-about-each-viva-module.md) and how you can use [two or more apps together](learn-how-to-combine-modules.md) to create personalized employee experiences for your organization.
 
 >[!NOTE]
-> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
+> New Microsoft Viva experiences are coming soon. New Viva experiences will be incorporated into this content set for [Viva Amplify, Viva Answers, and Viva Pulse](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
 
 Follow the guidance in this article if you know your organization wants all four Viva apps.
 

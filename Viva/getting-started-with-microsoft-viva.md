@@ -53,11 +53,10 @@ Viva apps become more powerful if used together. Viva can help your organization
 
 ### Learn more about individual Viva apps
 
-Get detailed descriptions of each Viva module and learn more about how they can be used to meet specific objectives. Then, review requirements and considerations for planning and deploying. [Learn how.](discover-more-about-each-viva-module.md)
+Get [detailed descriptions of each Viva app](discover-more-about-each-viva-module.md) and learn more about how they can be used to meet specific objectives. Then, review requirements and considerations for planning and deploying. 
+## Summary of each Viva app
 
-## Summary of each Viva module
-
-|Module  |Features and capabilities  |Microsoft 365 integration  |
+|app  |Features and capabilities  |Microsoft 365 integration  |
 |:---------:|---------|---------|
 |:::image type="content" source="media/logos/connections-launch-c-64.svg" alt-text="Logo of Viva Connections"::: <br> **Viva Connections** |- Build a modern employee experience on your existing infrastructure.<br> - Create a centralized destination that’s personalized for employees. <br> - Deliver a customized mobile and web application that includes your company branding. <br> - Provide a unified communications channel to aggregate and share essential information. <br> - Target communications and dashboard cards to individuals or groups based on job type, geo, or other targeting criteria. <br> - Boost critical news and announcements to maximize exposure. <br> - Integrate with third-party providers and human resources systems to leverage your current investments and systems.     | SharePoint <br> Microsoft Teams <br> Yammer <br> Stream <br>Microsoft Graph |
 |:::image type="content" source="media/logos/learning-launch-c-64.svg" alt-text="Logo for Viva Learning"::: <br> **Viva Learning**   | - Enable social learning by using Teams chat and tabs- Aggregate learning from connected content providers, learning management systems, and your own company resources. <br> - Recommend learning content and track reported completion progress. <br> - Add learning to the calendar to prioritize personal growth and development. <br> - Get personalized learning suggestions based on your interests and trending content. <br> - Surface learning content in Microsoft Search across Bing.com, Office.com, and SharePoint.com. <br>  | Microsoft Teams <br> SharePoint |
