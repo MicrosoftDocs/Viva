@@ -27,7 +27,7 @@ Depending on your integration with Viva Learning, there are two methods by which
 ## Control permissions within the LMS
 
 Using the SAP SuccessFactors Learning Management System (LMS), organizations can set access permissions using assignment profiles. During the SuccessFactors  integration with Viva Learning, you can choose to enable a sync of permissions in SuccessFactors with Viva Learning.
-Refer to the [Catalog permissions sync](https://learn.microsoft.com/en-us/viva/learning/configure-successfactors-content-source#catalog-permissions-sync) topic for detailed steps and requirements.
+Refer to the [Catalog permissions sync](https://learn.microsoft.com/viva/learning/configure-successfactors-content-source#catalog-permissions-sync) topic for detailed steps and requirements.
 
 Once the sync is complete, admins can view the courses for which permissions are applied within the **Admin** tab, by clicking **Manage Permissions**. 
 Refer to the **View** permissions section below for more details.
@@ -37,9 +37,9 @@ Refer to the **View** permissions section below for more details.
 Use the Viva Learning permissions to restrict access to one or more learning objects to a select group of users 
 
 >[!Note] 
->If you choose to control permissions using the LMS, then permissions can't be set within Viva Learning for courses coming from that LMS)
+>If you choose to control permissions using the LMS, then permissions can't be set within Viva Learning for courses coming from that LMS.
 
-### Navigate Permissions
+### Permissions Overview
 
 ![Image of the catalog permissions navigation screen under the admin tab.](../media/learning/catalog-access-permissions-1-landing-page.png)
 
@@ -52,33 +52,31 @@ There are two types of access:
 
 There are two types of permission sources:
 
-- **Catalog provider** indicates that the permissions are coming from the LMS and the user needs to go to the LMS to views details of the permission.
-- **Viva Learning** indicates that the permissions are set in Viva Learning. Users can view, edit, or delete the permission by clicking the ellipses (**...**) next to it.
+- **Catalog provider** indicates that the permissions are coming from the LMS and you need to go to the LMS to views details of the permission.
+- **Viva Learning** indicates that the permissions are set in Viva Learning. You can view, edit, or delete the permission by clicking the ellipses (**...**) next to it.
 
 
 
 #### Add Permissions
-Users can click **Add permission** to create a new permission.
+You can click **Add permission** to create a new permission.
 
 ![Image of the highlighted Add permissions button.](../media/learning/catalog-access-permissions-2-add-permissions.png)
 
-Users can search and choose a maximum of 10 courses on which to apply permissions.
+You can search and choose a maximum of 10 courses on which to apply permissions.
 
 ![Image of a popup window that lists options for adding new permissions.](../media/learning/catalog-access-permissions-3-add-new-permissions.png)
 
-Users then need to choose which user groups can access the course. Refer to the support documentation to learn more about [Microsoft 365 Groups](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+You then need to choose which user groups can access the course. Refer to the support documentation to learn more about [Microsoft 365 Groups](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 #### Permission Actions
 
 ![Image displaying the various actions users can perform with permissions, including view, edit, and delete.](../media/learning/catalog-access-permissions-4-permissions-actions.png)
 
-Users can perform the following actions:
+For learning objects with permissions created in Viva Learning, you have the following options.
 
-- **View** the user groups that have access to the learning object. This option is available only for learning objects with permissions created in Viva Learning.
+- **View** the user groups that have access to the learning object.
 
-- **Search** for specific learning objects by its title. The results will display relevant learning objects and the permission status
-
-- **Edit** to add or remove user groups that can access the learning object. This option is available only for learning objects with permissions created in Viva Learning.
+- **Edit** to add or remove user groups that can access the learning object. 
 
 - **Delete** to delete permissions created in Viva Learning. Once a permission is deleted, that learning object is accessible in Viva Learning by all users in the organization.
 
