@@ -12,8 +12,6 @@ manager: anirudhbajaj
 audience: user
 ---
 
-[WORKING DRAFT] <br><br>
-
 # Productivity
 
 On the **Productivity** tab, you'll find centralized insights and actions that help you get your work done more effectively. 
