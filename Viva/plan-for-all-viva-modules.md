@@ -52,15 +52,15 @@ Then, you need to purchase the [Microsoft Viva suite](https://www.microsoft.com/
 
 After you’ve got the right licensing in place, review additional requirements to get the Viva app up and running. For more details, [review minimum requirements and planning considerations](discover-more-about-each-viva-module.md).
 
-|app |Requirements |
-|-------|-------------|
+|App name |Requirements |
+|:-------:|-------------|
 |![Viva Connections logo.](media/logos/connections-launch-c-64.svg) <br> **Viva Connections** | - SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites |
 |![Viva Insights logo.](media/logos/insights-launch-c-64.svg) <br> **Viva Insights** | No technical requirements besides licensing for personal and team insights |
 |![Viva Learning logo.](media/logos/learning-launch-c-64.svg) <br> **Viva Learning** | - A Microsoft Teams team (if you're creating a learning tab in Teams) <br> - SharePoint site to connect internal resources to Viva Learning |
 |![Viva Topics logo.](media/logos/topics-launch-c-64.svg) <br> **Viva Topics** | No technical requirements besides licensing |
 |![Viva Engage logo.](media/logos/engage-launch-c-64.svg) <br> **Viva Engage** | No technical requirements besides licensing |
 |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals** | No technical requirements besides licensing |
-|![Viva Sales logo](media/logos/viva-sales-logo-1.png) <br> **Viva Sales** | No technical requirements besides licensing. |
+|![Viva Sales logo](media/logos/viva-sales-logo-1.png) <br> **Viva Sales** | No technical requirements besides licensing |
 
 ## Step 3: Get guidance on roles for each phase
 
