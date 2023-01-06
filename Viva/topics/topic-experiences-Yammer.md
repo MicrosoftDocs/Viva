@@ -1,5 +1,5 @@
 ---
-title: Viva Topics in Yammer migration
+title: Viva Topics in Yammer
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
@@ -14,13 +14,11 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150   
 ms.localizationpriority:  medium
-description: Learn more about the Viva Topics in Yammer migration.
+description: Learn more about Viva Topics in Yammer.
 
 ---
 
-#  Viva Topics in Yammer Migration
-
- 
+#  Viva Topics in Yammer
 
 ## Why are Yammer topics being migrated to Viva Topics? 
 Microsoft is aligning to leverage the advantages of the capabilities of Viva Topics across all M365 apps and services. To ensure that Yammer customers can utilize the benefits of Viva Topics, we are integrating Viva Topics into Yammer experiences. To deliver this integration we are migrating Yammer topics to Viva Topics. There is no additional work needed by an organization to enable this migration. 
