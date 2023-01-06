@@ -25,9 +25,6 @@ description: "Learn everything about Microsoft Viva and Microsoft Viva experienc
 
 With the growth in hybrid work, it's more important than ever to connect employees with an experience that brings together a wide range of productivity tools all in Microsoft Teams.
 
->[!NOTE]
-> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](#learn-more-about-new-viva-experiences).
-
 Microsoft Viva is an employee experience platform made up of different apps that can be used individually or combined to meet your organization’s needs. Microsoft Viva is customizable and extensible, accessible from anywhere you work, and integrates with tools you already use. It also supports various partner integrations to give you access to industry-leading apps in the natural flow of work.
 
 ## In this solution
@@ -38,23 +35,23 @@ Microsoft Viva is an employee experience platform made up of different apps that
 
 ## Identify your business scenario
 
-Viva modules can be used on their own or used together for a more cohesive employee experience. This document will help you understand which solutions are right for your organization.
+Viva apps can be used on their own or used together for a more cohesive employee experience. This document will help you understand which solutions are right for your organization.
 
 ![Image of all the Viva logos being added together.](./media/all-viva-modules.png)
 
-### Use all Viva modules
+### Use all Viva apps
 
-Get guidance on how to prepare, plan, and [deploy all Viva modules.](plan-for-all-viva-modules.md)
+Get guidance on how to prepare, plan, and [deploy all Viva apps.](plan-for-all-viva-modules.md)
 
 ![Image of the Viva logos stacked on top of eachother.](./media/combine-modules-2.png)
 
-### Discover how you can combine Viva modules
+### Discover how you can combine Viva apps
 
-Viva modules become more powerful if used together. Viva can help your organization meet popular business scenarios like onboarding and helping employees with wellness in the workplace. [Learn how.](learn-how-to-combine-modules.md)
+Viva apps become more powerful if used together. Viva can help your organization meet popular business scenarios like onboarding and helping employees with wellness in the workplace. [Learn how.](learn-how-to-combine-modules.md)
 
 ![Image of the Viva logos and descriptions.](./media/viva-individual.png)
 
-### Learn more about individual Viva modules
+### Learn more about individual Viva apps
 
 Get detailed descriptions of each Viva module and learn more about how they can be used to meet specific objectives. Then, review requirements and considerations for planning and deploying. [Learn how.](discover-more-about-each-viva-module.md)
 
@@ -124,7 +121,7 @@ The following new Microsoft Viva experiences are coming soon. New Viva experienc
 
 Learn more about which Viva app, or combination of apps, is the right fit for your business scenario. Then, get guidance on how to prepare, plan, and deploy the Viva solution for your organization.
 
-[Microsoft Viva Overview](microsoft-viva-overview.md)
+[Microsoft Viva overview](microsoft-viva-overview.md)
 
 [Get all Microsoft Viva apps](plan-for-all-viva-modules.md)
 
