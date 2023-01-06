@@ -23,7 +23,7 @@ As a people manager with a busy schedule, you know how hard it can be to keep up
 1:1 meeting plans find time that work for both you and your team member, then book recurring meetings during that time at the frequency you pick. The day before your scheduled 1:1, both you and your team member get a notification from Viva Insights. This notification prompts you to cancel or reschedule any meetings that conflict with your 1:1 time, and it also invites you to add top-of-mind topics to the 1:1 meeting chat. During your 1:1, you'll be able to access those topics through the chat window.
 
 >[!Note]
->This feature is premium, but because it’s in a preview state, participants don’t require a premium subscription join the plan. This requirement is subject to change.
+>This feature is premium, but because it’s in a preview state, participants don’t require a premium subscription to join the plan. This requirement is subject to change.
 
 ## For plan organizers
 
