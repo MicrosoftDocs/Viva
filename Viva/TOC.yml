@@ -11,7 +11,7 @@ items:
       items:
       - name: Plan for all Viva apps 
         href: plan-for-all-viva-modules.md 
-      - name: Learn how to combine apps  
+      - name: Learn how to combine Viva apps  
         href: learn-how-to-combine-modules.md  
       - name: Discover more about each Viva app    
         href: discover-more-about-each-viva-module.md   
