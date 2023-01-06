@@ -41,7 +41,7 @@ Viva apps can be used on their own or used together for a more cohesive employee
 
 ### Use all Viva apps
 
-Get guidance on how to prepare, plan, and [deploy all Viva apps.](plan-for-all-viva-modules.md)
+Get guidance on how to prepare, plan, and [deploy all Viva apps](plan-for-all-viva-modules.md).
 
 ![Image of the Viva logos stacked on top of eachother.](./media/combine-modules-2.png)
 
