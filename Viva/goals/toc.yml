@@ -31,6 +31,8 @@ items:
       href: configure-okr-model.md
     - name: Configure your OKR creation permissions in Viva Goals
       href: configure-okr-create-permissions.md
+    - name: Import OKRs and Initiatives/Projects with Viva Goals
+      href: import-okrs-projects.md
     - name: Manage OKR Time Periods
       href: managing-okr-time-periods.md
     - name: Configure check-in reminders and notifications
@@ -88,6 +90,8 @@ items:
           href: jira-integration.md
         - name: Looker Integration
           href: looker-integration.md
+        - name: Microsoft Planner Integration
+          href: microsoft-planner-integration.md
         - name: Mode Integration
           href: mode-integration.md
         - name: monday.com Integration

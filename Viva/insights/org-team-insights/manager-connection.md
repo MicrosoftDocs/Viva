@@ -22,19 +22,17 @@ Because a focus on *coaching* and *empowering* employees sets your team up to de
 
 You can find the **Manager connection** page in the Viva Insights app, within the **Organization trends** tab.
 
-<!-- placeholder image-->
-
 ![Screenshot that shows the Manager connection page.](../Images/WpA/Use/org-manager-connection1.png)
 
 ## Coaching
 
-### Increase frequency of coaching
+### Engage with directs through regular 1 on 1 meetings
+
+:::image type="content" alt-text="Screenshot of the app that shows the 'Engage with directs through regular 1 on 1 meetings' insight, with a percentage insight, a distribution of monthly 1:1 time with managers, and a 'Take action' section." source="../Images/WpA/Use/org-trends-connection-coaching.png":::
 
 #### Insights
 
-For **Coaching**, the **Manager connection** page provides a percentage insight that shows how many employees meet with their manager for less than one hour a month and a visual insight that shows the distribution of monthly 1:1 time with managers.
-
-:::image type="content" alt-text="Screenshot of the app that shows the Coaching insight." source="../Images/WpA/Use/org-trends-manager-coaching.png":::
+For **Engage with directs through regular 1 on 1 meetings**, the **Manager connection** page provides a percentage insight that shows how many employees meet with their manager for less than one hour a month and a visual insight that shows the distribution of monthly 1:1 time with managers.
 
 Here's some information about how those metrics are calculated:
 
@@ -61,13 +59,13 @@ For more best practices and how to develop a 1:1 conversation series, see [Best 
 
 ## Empowerment
 
-### Cultivate autonomy
+### Promote autonomy through guidance and support
 
-:::image type="content" alt-text="Screenshot that shows the Autonomy insight." source="../Images/WpA/Use/org-trends-manager-empowerment.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Promote autonomy through guidance and support' insight,  with a percentage insight, a distribution of manager-employee coaching relationships, and a 'Take action' section." source="../Images/WpA/Use/org-trends-connection-empowerment.png":::
 
 #### Insights
 
-For **Empowerment**, the **Manager connection** page provides a percentage insight that shows how many employees have their managers attend a majority of their meetings and a visual insight that shows the distribution of manager-coaching relationships.
+For **Promote autonomy through guidance and support**, the **Manager connection** page provides a percentage insight that shows how many employees have their managers attend a majority of their meetings and a visual insight that shows the distribution of manager-coaching relationships.
 
 Here’s some information about how those metrics are calculated:
 
@@ -98,13 +96,13 @@ If you're assigned the **Insights Business Leader** role in Microsoft Viva Insig
 
 ### Empowerment
 
-#### Utilize influencers
+#### Empower teams by emphasizing the role of managers as connectors
 
 ![Screenshot that shows the influencers insight.](../Images/WpA/Use/org-leader-empowerment1.png)
 
 ##### Insights
 
-For **Utilize influencers**, the **Manager connection** page provides a percentage insight that shows the share of employees that can be reached via the most influential employees and a visual insight that shows how these influencers are connected across the larger organizational network. 
+For **Empower teams by emphasizing the role of managers as connectors**, the **Manager connection** page provides a percentage insight that shows the share of employees that can be reached via the most influential employees and a visual insight that shows how these influencers are connected across the larger organizational network. 
 
 Here's some information about how those metrics are calculated:
 
@@ -129,15 +127,13 @@ Here are a couple of ways to leverage influencers:
 * Use [Insights](../personal/use/use-insights.md) and the [Stay connected](../personal/teams/viva-insights-stay-connected.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
 * Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
-<!--Best practices-->
-
-#### Foster connectivity
+#### Incorporate fresh ideas and perspectives through broad manager networks
 
 ![Screenshot that shows the team cohesion insight.](../Images/WpA/Use/org-leader-empowerment2.png)
 
 ##### Insights
 
-For **Foster connectivity**, the **Manager connection** page provides a percentage insight that shows the share of managers that have many unique ties and a visual insight that shows how these managers are connected across the larger organizational network.
+For **Incorporate fresh ideas and perspectives through broad manager networks**, the **Manager connection** page provides a percentage insight that shows the share of managers that have many unique ties and a visual insight that shows how these managers are connected across the larger organizational network.
 
 Here's some information about how those metrics are calculated:
 

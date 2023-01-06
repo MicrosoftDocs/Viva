@@ -57,7 +57,7 @@ You can create your focus plan in two places:
 
    ![Screenshot that shows Want focus time every day? insight](../../Images/mya/use/focus-outlook-insight.png)
 
-2. Select **Book time now**.
+2. Select **Book now**.
 
    ![Screenshot that shows the Create your focus plan window with Book time now option.](../../Images/mya/use/focus-outlook-insight-enroll.png)
 
@@ -65,7 +65,7 @@ You can create your focus plan in two places:
 
    ![Screenshot that shows the Outlook add-in's focus plan confirmation window.](../../Images/mya/use/focus-outlook-insight-all-set.png)
 
-Now that your focus plan is underway, you can do the following: 
+Now that your focus plan is underway, you can: 
 
 * [Check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan).
 * [Change or leave your focus plan](#to-change-or-leave-your-focus-plan).
@@ -119,7 +119,7 @@ The following sections provide information that can help you as you create or mo
 
 ### Automatic booking of focus time
 
-After you set automatic booking as your preference, Viva Insights starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as a different color and is labeled "Focus time."
+After you set automatic booking as your preference, Viva Insights starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as "Focus time."
 
 Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day meetings, booked personal time, or appointments.
 
@@ -149,9 +149,7 @@ During focus time, your status in Teams and Skype for Business will automaticall
 
 For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d).
 
-<!--### Digest emails and Viva Insights Outlook add-in
-
-Confirm with Yvonne whether this still exists in the add-in)
+### Digest emails and Viva Insights Outlook add-in
 
 #### Focus plan digest
 
@@ -159,14 +157,15 @@ After you enroll in a focus plan, the content in your digest email will be tailo
 
 #### Viva Insights add-in
 
-
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
-![Add-in feed card.](../../Images/mya/use/add-in-feed-card.png)
+:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus1.png" alt-text="Screenshot that shows the add-in feed card.":::
+
 
 Selecting this card shows the following options, with which you can book focus time on individual days or for several days at once:  
 
-![Book focus time inline.](../../Images/mya/use/book-focus-time-nudge.png)
+:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus-pane.png" alt-text="Screenshot that shows the book focus time pane.":::
+
 
 ## Calendar color settings
 
