@@ -27,7 +27,7 @@ Depending on your integration with Viva Learning, there are two methods by which
 ## Control permissions within the LMS
 
 Using the SAP SuccessFactors Learning Management System (LMS), organizations can set access permissions using assignment profiles. During the SuccessFactors  integration with Viva Learning, you can choose to enable a sync of permissions in SuccessFactors with Viva Learning.
-Refer to the [Catalog permissions sync](https://learn.microsoft.com/viva/learning/configure-successfactors-content-source#catalog-permissions-sync) topic for detailed steps and requirements.
+Refer to the [Catalog permissions sync](https://learn.microsoft.com/viva/learning/configure-successfactors-content-source#catalog-permissions-sync) article for detailed steps and requirements.
 
 Once the sync is complete, admins can view the courses for which permissions are applied within the **Admin** tab, by clicking **Manage Permissions**. 
 Refer to the **View** permissions section below for more details.
@@ -43,12 +43,12 @@ Use the Viva Learning permissions to restrict access to one or more learning obj
 
 ![Image of the catalog permissions navigation screen under the admin tab.](../media/learning/catalog-access-permissions-1-landing-page.png)
 
-When viewing permissions, you will see the **title** of a learning object, the **provider** or source, and the associated **access** type and **permission source**.
+When viewing permissions, you'll see the **title** of a learning object, the **provider** or source, and the associated **access** type and **permission source**.
 
 There are two types of access: 
 
 - **Private** access indicates that the access to a learning object is restricted.
-- **Public** access indicates that there are no permissions associated with a learning object and that it is accessible within Viva Learning to everyone in the organization.
+- **Public** access indicates that there are no permissions associated with a learning object and that it's accessible within Viva Learning to everyone in the organization.
 
 There are two types of permission sources:
 
@@ -58,7 +58,7 @@ There are two types of permission sources:
 
 
 #### Add Permissions
-You can click **Add permission** to create a new permission.
+You can select **Add permission** to create a new permission.
 
 ![Image of the highlighted Add permissions button.](../media/learning/catalog-access-permissions-2-add-permissions.png)
 
