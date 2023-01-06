@@ -128,7 +128,7 @@ Each app offers special features, customization opportunities, and ways to integ
 |[Objective delegation](/viva/goals/objective-delegation) |Delegate another individual to manage OKRs on your behalf. |
 |[KPI summary](/viva/goals/kpi-summary) |View one or more key performance indicators in a single view. |
 
-## Viva Sales: Supercharge your CRM
+## Viva Sales: Supercharge your Cusotmer Relationship Management (CRM)
 
 |Feature |Description |
 |--------|------------|
