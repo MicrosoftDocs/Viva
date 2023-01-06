@@ -60,7 +60,7 @@ After you’ve got the right licensing in place, review additional requirements 
 |:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> **Viva Topics** | No technical requirements besides licensing |
 |:::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br> **Viva Engage** | No technical requirements besides licensing |
 |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals** | No technical requirements besides licensing |
-|![Viva Sales logo](media/logos/viva-sales-logo-1.png) <br> **Viva Sales** | No technical requirements besides licensing |
+|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> **Viva Sales** | No technical requirements besides licensing |
 
 ## Step 3: Get guidance on roles for each phase
 
