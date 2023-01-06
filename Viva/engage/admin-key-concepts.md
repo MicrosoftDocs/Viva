@@ -1,5 +1,5 @@
 ---
-title: "Yammer admin key concepts"
+title: "Viva Engage admin key concepts"
 f1.keywords:
 - NOCSH
 ms.author: pamgreen
@@ -21,7 +21,7 @@ ms.assetid: a9c206d4-fb18-4250-bec6-e783b926e4f6
 description: "Key concepts for planning how you'll administer  your new Yammer network. "
 ---
 
-# Yammer admin key concepts
+# Viva Engage admin key concepts
 
 Welcome to your Yammer network! We're super glad you're here. Using Yammer is going to change the way your company gets work done (if it hasn't already!), and you, as an admin, will be a huge part of helping your coworkers become comfortable with the way Yammer works.
   

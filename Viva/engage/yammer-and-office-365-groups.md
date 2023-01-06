@@ -74,18 +74,18 @@ Here's how the process works after your network becomes eligible for connected g
 
 - The group must have an owner, and it must have members.
 
-## What happens when you create a new Microsoft 365 connected Yammer group
+## What happens when you create a new Microsoft 365 connected Viva Engage group
 
-When you create a Microsoft 365 connected group from Yammer, in addition to your regular Yammer group features, the new Microsoft 365 group is created, and a new SharePoint site and document library, OneNote notebook, and Planner are created for the group. These resources can be accessed from the Yammer group page in Yammer.
+When you create a Microsoft 365 connected group from Viva Engage, in addition to your regular Viva Engage group features, the new Microsoft 365 group is created, and a new SharePoint site and document library, OneNote notebook, and Planner are created for the group. These resources can be accessed from the Viva Engage group page in Viva Engage.
 
 If your network has the Yammer files stored in SharePoint feature that began rollout in December 2018, new files added to the group are stored in SharePoint. To see where Yammer files are stored for your network, go to [How do I tell where my Yammer files are stored?](https://support.office.com/article/7a647cb4-6005-4350-a258-68f00a5f7b29)
 
 >[!IMPORTANT]
-> If you create a Microsoft 365 group from any other app such as Outlook, it won't include Yammer. To have the connected group include Yammer, you must create the group in Yammer.
+> If you create a Microsoft 365 group from any other app such as Outlook, it won't include Viva Engage. To have the connected group include Viva Engage, you must create the group in Viva Engage.
 
-## Yammer networks in Native Mode
+## Viva Engage networks in Native Mode
 
-When your group is a Microsoft 365 connected group, you can manage many aspects of your group through the Microsoft 365 admin center, in addition to managing them through Yammer as discussed above. All groups from Yammer networks that are in Native Mode will be manageable through these admin centers. Some of the management capabilities that can be done through the Microsoft 365 admin center include:
+When your group is a Microsoft 365 connected group, you can manage many aspects of your group through the Microsoft 365 admin center, in addition to managing them through Viva Engage as discussed above. All groups from Viva Engage networks that are in Native Mode will be manageable through these admin centers. Some of the management capabilities that can be done through the Microsoft 365 admin center include:
 
 - Add or remove group members
 - Manage group ownership
@@ -97,11 +97,11 @@ When your group is a Microsoft 365 connected group, you can manage many aspects 
 
 ## Email and Microsoft 365 connected groups
 
-In a connected group set up from Yammer, you can have group conversations in Yammer or in Outlook. You can send an email to a group in Yammer and it will appear in the group's Yammer messages, or use the group's name from the Outlook global address list (GAL) to send email to the group that goes directly to Outlook.
+In a connected group set up from Viva Engage, you can have group conversations in Viva Engage or in Outlook. You can send an email to a group in Viva Engage and it will appear in the group's Viva Engage messages, or use the group's name from the Outlook global address list (GAL) to send email to the group that goes directly to Outlook.
 
-Your company can continue to use groups in Yammer and groups in Outlook based on which group type better fits the scenario for a team.
+Your company can continue to use groups in Viva Engage and groups in Outlook based on which group type better fits the scenario for a team.
   
-Email notifications for Yammer messages may be sent to users depending on the preferences that they have set in their Yammer notification settings. This applies both to connected and non-connected groups.
+Email notifications for Viva Engage messages may be sent to users depending on the preferences that they have set in their Viva Engage notification settings. This applies both to connected and non-connected groups.
   
 ## Plans for additional integration with Microsoft 365 groups
 
@@ -109,21 +109,21 @@ Yammer's integration with Microsoft 365 Groups started in 2017. Subsequent pha
   
 ## FAQ - Network eligibility
 
-### Q: I'm an admin, how do I know if my Yammer network is configured correctly and eligible for Microsoft 365 connected Yammer groups?
+### Q: I'm an admin, how do I know if my Viva Engage network is configured correctly and eligible for Microsoft 365 connected Viva Engage groups?
   
-A: In the Yammer admin center, go to **Network Admin** > **Security Settings**. In the **Microsoft 365 (previously known as Office 365) Connected Yammer Groups** section, the status for your network will show as **Enabled**.
+A: In the Viva Engage admin center, go to **Network Admin** > **Security Settings**. In the **Microsoft 365 (previously known as Office 365) Connected Viva Engage Groups** section, the status for your network will show as **Enabled**.
   
-### Q: Can I disable Microsoft 365 Yammer connected groups?
+### Q: Can I disable Microsoft 365 Viva Engage connected groups?
   
 A: No, but you can [Manage who can create Groups](/office365/admin/create-groups/manage-creation-of-groups). These restrictions don't apply to tenant admins.
 
-### Q: If I restrict who can create Microsoft 365 groups for my tenant, will the groups that restricted users create in Yammer be Microsoft 365 connected?
+### Q: If I restrict who can create Microsoft 365 groups for my tenant, will the groups that restricted users create in Viva Engage be Microsoft 365 connected?
   
 A: No. Groups created by people who you have restricted from creating Microsoft 365 groups won't be Microsoft 365 connected.
   
-### Q: If I have multiple Yammer networks that are mapped to Microsoft 365, will the Microsoft 365 connected Yammer groups work?
+### Q: If I have multiple Viva Engage networks that are mapped to Microsoft 365, will the Microsoft 365 connected Viva Engage groups work?
   
-A: No. The Microsoft 365 connected Yammer groups experience will work only for Office 365 tenant that is associated with a single Yammer network. See [Network migration: Consolidate multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md) for information on how to consolidate your Yammer networks. This  is required for all Yammer networks as of October 16, 2018.
+A: No. The Microsoft 365 connected Viva Engage groups experience will work only for Office 365 tenant that is associated with a single Viva Engage network. See [Network migration: Consolidate multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md) for information on how to consolidate your Yammer networks. This  is required for all Yammer networks as of October 16, 2018.
   
 ### Q: I don't want my existing groups to get connected to Microsoft 365. Can I turn this off?
   
@@ -137,17 +137,17 @@ A: When your network first becomes eligible for connected groups, all groups tha
 
 ## FAQ - General
 
-### Q: What kinds of Yammer groups can be Microsoft 365 connected Yammer groups?
+### Q: What kinds of Viva Engage groups can be Microsoft 365 connected Viva Engage groups?
   
 A: Currently, only private and public internal groups can be connected groups. External groups and private-unlisted groups will be included in a later wave.
   
-### Q: Can I make my Microsoft 365 connected Yammer group private and not list it in the Group Directory (secret)?
+### Q: Can I make my Microsoft 365 connected Viva Engage group private and not list it in the Group Directory (secret)?
   
-A: No. That setting isn't available for Microsoft 365 connected Yammer groups.
+A: No. That setting isn't available for Microsoft 365 connected Viva Engage groups.
 
-### Q: Can I use an existing group or SharePoint site for a Microsoft 365 connected Yammer group?
+### Q: Can I use an existing group or SharePoint site for a Microsoft 365 connected Viva Engage group?
 
-A: No, a new group and resources specific to that new group are created when you create a Microsoft 365 connected group in Yammer. You can't connect a new Yammer group to an existing Microsoft 365 group, an existing SharePoint site or SharePoint document library, or an existing OneNote notebook.
+A: No, a new group and resources specific to that new group are created when you create a Microsoft 365 connected group in Viva Engage. You can't connect a new Viva Engage group to an existing Microsoft 365 group, an existing SharePoint site or SharePoint document library, or an existing OneNote notebook.
   
 ### Q: Can I hide a Microsoft 365 connected group from the Global Address Book?
 
@@ -157,15 +157,15 @@ A: Yes. This requires using PowerShell. Use the following cmdlet:
 
 For more information about Set-UnifiedGroup, see [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup).
 
-### Q: Where can I create Microsoft 365 connected Yammer groups?
+### Q: Where can I create Microsoft 365 connected Viva Engage groups?
   
-A: Microsoft 365 connected Yammer groups can only be created in Yammer. Microsoft 365 groups created in other locations don't include a Yammer group.
+A: Microsoft 365 connected Viva Engage groups can only be created in Viva Engage. Microsoft 365 groups created in other locations don't include a Viva Engage group.
   
-### Q: Can I create a Microsoft 365 connected Yammer group from the Microsoft 365 admin center?
+### Q: Can I create a Microsoft 365 connected Viva Engage group from the Microsoft 365 admin center?
   
-A: No, this will be added in later waves. However, for Microsoft 365 connected Yammer groups, you can manage members and delete groups from the Microsoft 365 admin center. Metadata updates can also be applied to groups from the admin center.
+A: No, this will be added in later waves. However, for Microsoft 365 connected Viva Engage groups, you can manage members and delete groups from the Microsoft 365 admin center. Metadata updates can also be applied to groups from the admin center.
   
-### Q: Can I add external users to Microsoft 365 connected Yammer groups?
+### Q: Can I add external users to Microsoft 365 connected Viva Engage groups?
   
 A: No. This will cause a sync failure because external users aren't managed by Azure AD.
   
@@ -173,19 +173,19 @@ A: No. This will cause a sync failure because external users aren't managed by A
   
 A: More than 1,000.
   
-### Q: What happens if I delete a Microsoft 365 connected Yammer group?
+### Q: What happens if I delete a Microsoft 365 connected Viva Engage group?
   
 A: All the associated Microsoft 365 content associated with the group is deleted. This includes the document library, OneNote notebook and Planner plans. These resources are soft-deleted, and can be restored by your administrator for up to 30 days.
 
 For more information about deleting a community or group, see [Delete a community or group in Yammer](https://support.office.com/article/2a70a1f9-d081-488e-9fc7-0f7684e5a58b).
 
-### Q: Does the Microsoft 365 group expiration policy apply to Microsoft 365 connected Yammer groups?
+### Q: Does the Microsoft 365 group expiration policy apply to Microsoft 365 connected Viva Engage groups?
 
-A: Yes. When a Microsoft 365 group is deleted because it expired, the Yammer group is deleted.
+A: Yes. When a Microsoft 365 group is deleted because it expired, the Viva Engage group is deleted.
 
-### Q: Can I have a Microsoft 365 connected Yammer group with dynamic membership
+### Q: Can I have a Microsoft 365 connected Viva Engage group with dynamic membership
 
-A: Yes. Any Microsoft 365 connected Yammer group can be converted to dynamic membership. See [Create a dynamic group](create-a-dynamic-group.md) for requirements and limitations.
+A: Yes. Any Microsoft 365 connected Viva Engage group can be converted to dynamic membership. See [Create a dynamic group](create-a-dynamic-group.md) for requirements and limitations.
   
 ### Q: In a connected group, I see there are Yammer Files and a SharePoint Online Doc Library, are these the same thing?
   
@@ -196,15 +196,15 @@ We recommend storing content that needs the structure and management capabilitie
 >[!NOTE]
 > As of December 2018, we are in process of rolling out Yammer files stored in SharePoint. When your network gets this new feature, new files uploaded to Yammer are stored in the group's SharePoint document library in the Apps/Yammer folder. Any files uploaded before your network gets this new feature remain in Yammer cloud storage. To see where Yammer files are stored for your network, go to [How do I tell where my Yammer files are stored?](https://support.office.com/article/7a647cb4-6005-4350-a258-68f00a5f7b29)
   
-### Q: Do my Microsoft 365 connected Yammer groups follow my Microsoft 365 group naming policy?
+### Q: Do my Microsoft 365 connected Viva Engage groups follow my Microsoft 365 group naming policy?
   
-A: Yes. Any new group created in Yammer will add the prefix and suffix from the group naming policy, and won't allow blocked words in the group name. For more information, see [Microsoft 365 Groups naming policy](https://support.office.com/article/6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+A: Yes. Any new group created in Viva Engage will add the prefix and suffix from the group naming policy, and won't allow blocked words in the group name. For more information, see [Microsoft 365 Groups naming policy](https://support.office.com/article/6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
-Note that Yammer group names can't contain the following characters: @, #, [, ], <, or >. If the naming policy includes any of these characters, regular Yammer users won't be able to create groups in Yammer. Microsoft 365 admins can still create groups in Yammer.
+Note that Viva Engage group names can't contain the following characters: @, #, [, ], <, or >. If the naming policy includes any of these characters, regular Viva Engage users won't be able to create groups in Viva Engage. Microsoft 365 admins can still create groups in Viva Engage.
 
-### Q: Can I use my Microsoft 365 connected Yammer group with Group-Based Licensing in Azure AD?
+### Q: Can I use my Microsoft 365 connected Viva Engage group with Group-Based Licensing in Azure AD?
 
-A: By default, Microsoft 365 connected Yammer groups aren't compatible with Azure AD Group Based Licensing since the groups aren't security enabled.
+A: By default, Microsoft 365 connected Viva Engage groups aren't compatible with Azure AD Group Based Licensing since the groups aren't security enabled.
 
 ## FAQ - Troubleshooting
 
@@ -222,7 +222,7 @@ Before opening the support ticket:
 
 To find this information, you can do a data export and look in the groups.csv file. You'll need to cross-reference the owner list with the list of people who have Microsoft 365 group creation privileges.
 
-### Q: How long before changes to a connected Microsoft 365 group take effect in Yammer?
+### Q: How long before changes to a connected Microsoft 365 group take effect in Viva Engage?
 
 Changes to connected groups can take up to 24 hours to take effect throughout your network. This includes changes to group membership, permissions, name, and other settings.
 
