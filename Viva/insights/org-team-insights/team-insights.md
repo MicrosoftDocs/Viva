@@ -60,8 +60,7 @@ If you don’t have at least one person reporting directly to you, as presented 
 Because teams come directly from organizational data, you’re not able to edit members.
 
 >[!Note]
-
-When your direct-reports list changes, your team meeting habits will reflect these changes in next week’s data.
+>When your direct-reports list changes, your team meeting habits will reflect these changes in next week’s data.
 
 ### How to turn on or turn off team insights
 
@@ -95,10 +94,7 @@ If you directly call a team member over Teams outside of a scheduled 1:1 meeting
 
 As a manager, you're a role model when it comes to collaboration habits, especially in meetings. Team members tend to mimic their manager's behavior. One study by Microsoft found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
 
-You'll find insights about your team meeting habits on the Productivity tab. Refer to Meeting habits to learn which habits we calculate and how we calculate them.
-
->[!Note]
-> When your direct-reports list changes, your team meeting habits will reflect these changes in next week’s data.
+You'll find insights about your team meeting habits on the Productivity tab. Refer to [Meeting habits](../personal/teams/meeting-habits.md) to learn which habits we calculate and how we calculate them.
 
 ### Quiet hours impact
 
@@ -106,8 +102,8 @@ Some team members may prefer to do some of their work outside traditional 9-5 wo
 
 Research by Microsoft has shown that when managers work after hours, team members take that as a signal that they need to be "on" too; in one study, every hour that people managers spent after hours translated to 20 minutes of additional direct report time spent after hours.
 
-You'll find insights about quiet time impact on the Wellbeing tab. Learn how we calculate quiet hours impact in Quiet time.
+You'll find insights about quiet time impact on the **Wellbeing** tab. Learn how we calculate quiet hours impact in [Quiet time](../personal/teams/quiet-time.md).
 
 ### Shared plans
 
-To create healthy team norms, you and your team might consider using shared plans. You can find and start shared no-meeting day and focus plans on the Wellbeing tab. To start a shared meeting plan, visit the Productivity tab.
+To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and [focus](../personal/teams/shared-focus-plan.md) plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab.
