@@ -29,7 +29,7 @@ description: "Get all Microsoft Viva apps"
 
 Follow the guidance in this article if you know your organization wants all four Viva apps.
 
-|:::image type="icon" source="media/viva-confirm-licensing.png" border="false"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png" border="false"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png" border="false"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png" border="false"::: <br> Step 4|
+|:::image type="icon" source="media/viva-confirm-licensing.png" border="false"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png"::: <br> Step 4|
 |:---------:|:---------:|:---------:|:---------:|
 |Confirm you’ve got the right licensing in place. |Meet technical requirements.|Learn more about the roles in each phase.|Prepare to launch and scale adoption with end-users.|
 
@@ -54,11 +54,11 @@ After you’ve got the right licensing in place, review additional requirements 
 
 |App name |Requirements |
 |:-------:|-------------|
-|![Viva Connections logo.](media/logos/connections-launch-c-64.svg) <br> **Viva Connections** | - SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites |
-|![Viva Insights logo.](media/logos/insights-launch-c-64.svg) <br> **Viva Insights** | No technical requirements besides licensing for personal and team insights |
-|![Viva Learning logo.](media/logos/learning-launch-c-64.svg) <br> **Viva Learning** | - A Microsoft Teams team (if you're creating a learning tab in Teams) <br> - SharePoint site to connect internal resources to Viva Learning |
-|![Viva Topics logo.](media/logos/topics-launch-c-64.svg) <br> **Viva Topics** | No technical requirements besides licensing |
-|![Viva Engage logo.](media/logos/engage-launch-c-64.svg) <br> **Viva Engage** | No technical requirements besides licensing |
+|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> **Viva Connections** | - SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites |
+|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> **Viva Insights** | No technical requirements besides licensing for personal and team insights |
+|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br> **Viva Learning** | - A Microsoft Teams team (if you're creating a learning tab in Teams) <br> - SharePoint site to connect internal resources to Viva Learning |
+|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> **Viva Topics** | No technical requirements besides licensing |
+|:::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br> **Viva Engage** | No technical requirements besides licensing |
 |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals** | No technical requirements besides licensing |
 |![Viva Sales logo](media/logos/viva-sales-logo-1.png) <br> **Viva Sales** | No technical requirements besides licensing |
 
