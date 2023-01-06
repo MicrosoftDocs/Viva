@@ -148,7 +148,7 @@ Each app has its own technical requirements before it can be customized and shar
      - Microsoft 365 E3 or E5 license
     - SharePoint home site
     - Global navigation enabled and customized
-- Modern SharePoint sites
+    - Modern SharePoint sites
 - **Impact on end-users**: 
     - New options to get news, complete tasks, and connect with others
     - Increased value of the Microsoft Teams desktop and mobile apps
@@ -181,9 +181,9 @@ Each app has its own technical requirements before it can be customized and shar
     - Insights Business leader
     - HR information system admin
     - Analyst or Analyst (Limited Access)
-    - People manager <p> See [Roles in Viva Insights](insights/Use/User-Roles.md) for details
+    - People manager - [learn more about roles in Viva Insights](insights/Use/User-Roles.md) 
 - **Change management considerations**:
-        - Your Microsoft 365 enterprise or global admin assigns the other roles required for setting up and using Viva Insights in your organization. See [Assign admin roles](insights/Setup/Assign-roles-to-wpa-admins.md) for details
+    - Your Microsoft 365 enterprise or global admin assigns the other roles required for setting up and using Viva Insights in your organization. See [Assign admin roles](insights/Setup/Assign-roles-to-wpa-admins.md) for details
 
 ### Viva Learning
 
