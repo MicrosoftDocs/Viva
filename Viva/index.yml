@@ -82,23 +82,21 @@ additionalContent:
         # Card
         - title: Connection
           summary: Keep everyone informed, included, and inspired with Viva Connections and Viva Engage. 
-          url: https://review.learn.microsoft.com/en-us/viva/experience-connection?branch=loreenl-working
-        # Card
+          url: /viva/experience-connection
         - title: Insight
           summary: Improve productivity and wellbeing with actionable insights using Viva Insights.
-          url: https://review.learn.microsoft.com/en-us/viva/experience-insight?branch=loreenl-working
+          url: /viva/experience-insight
         # Card
         - title: Purpose
           summary: Align people's work to team and organization goals with Viva Goals.
-          url: https://review.learn.microsoft.com/en-us/viva/experience-purpose?branch=loreenl-working
+          url: /viva/experience-purpose
         # Card
         - title: Growth
           summary: Help employees learn, grow, and succeed with Viva Learning and Viva Topics.
-          url: https://review.learn.microsoft.com/en-us/viva/experience-growth?branch=loreenl-working
-        # Card
+          url: /viva/experience-growth
         - title: Sales
           summary: Find role-specific guidance for your Sales team.
-          url: https://review.learn.microsoft.com/en-us/viva/experience-role?branch=loreenl-working
+          url: /viva/experience-role
     - title: Key resources  # < 60 chars (optional)
       items:
         # Card
