@@ -7,7 +7,6 @@ ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
-- m365initiative-viva-insights 
 - viva-insights-manager
 - viva-insights-leader
 ms.service: viva 
