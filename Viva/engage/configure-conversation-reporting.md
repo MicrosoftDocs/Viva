@@ -1,5 +1,5 @@
 ---
-title: "Report a Yammer conversation overview"
+title: "Report a Viva Engage conversation overview"
 f1.keywords:
 - NOCSH
 ms.author: pamgreen
@@ -16,20 +16,20 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: f886e916-fe64-41de-be52-38d458250fa5
-description: "Configure conversation reporting in Yammer to enable people to report conversation starter posts and comments that do not follow guidelines or policies."
+description: "Configure conversation reporting in Viva Engage to enable people to report conversation starter posts and comments that do not follow guidelines or policies."
 ---
 
-# Report a Yammer conversation overview
+# Report a Viva Engage conversation overview
 
- Yammer Networks that are in the New Yammer Preview now have access to a new report conversations capability that enables users within the network to report conversations, comments, and replies in Yammer.
+ Viva Engage Networks that are in the Viva Engage Preview now have access to a new report conversations capability that enables users within the network to report conversations, comments, and replies in Viva Engage.
 
-If your network is eligible, you can enable the feature in the Yammer admin center. On the **Network Admin panel**, under **Settings**, you will see a new Report Conversations option under **Content and Security**. This feature is not yet available on the mobile app.
+If your network is eligible, you can enable the feature in the Viva Engage admin center. On the **Network Admin panel**, under **Settings**, you will see a new Report Conversations option under **Content and Security**. This feature is not yet available on the mobile app.
 
 ![screenshot showing yammer reporting settings.](../media/yammer-conversations-admin-reportconversations.png)
 
 ## Setting up the report a conversation feature
 
-A network admin must enable **Report Conversations** in the Yammer network admin panel.
+A network admin must enable **Report Conversations** in the Viva Engage network admin panel.
 
 ![screenshot showing yammer reporting admin panel.](../media/yammer-conversations-fulladmin-panel.png)
 
@@ -45,7 +45,7 @@ There’s also an optional **Post-submission instructions to user setting**. The
 An organization email must be provided for where the report will be sent.
 
 > [!NOTE]
-> Yammer does not verify that the email address entered here is an organization email address. Please ensure you enter only a valid organization email address.
+> Viva Engage does not verify that the email address entered here is an organization email address. Please ensure you enter only a valid organization email address.
 
 ## Pre-submission details or instructions for user
 
@@ -75,7 +75,7 @@ The text entered in this field will be shown to your end users underneath a defa
 
 ## End user experience for reporting conversations
 
-When enabled, users accessing Yammer on a web browser will see the **Report Conversation** option on conversation starters and **Report Comment** on comments and replies.
+When enabled, users accessing Viva Engage on a web browser will see the **Report Conversation** option on conversation starters and **Report Comment** on comments and replies.
 
 ![Screenshot showing user reporting for conversation starter.](../media/yammer-conversations-report-dropdown.png)
 
@@ -110,42 +110,42 @@ The organization email set for Report Conversations in admin settings will recei
 - any comments entered by the reporting user.
 
 > [!NOTE]
-> Yammer does not support deep links to comments today. In the report emails for both conversation starters as well as comments, the link included in the report is always the conversation starter link. Reports do not contain deep links to a reported comment. The report reviewer can use the conversation starter link together with the reported comment timestamp to find the actual reported comment in the conversation.
+> Viva Engage does not support deep links to comments today. In the report emails for both conversation starters as well as comments, the link included in the report is always the conversation starter link. Reports do not contain deep links to a reported comment. The report reviewer can use the conversation starter link together with the reported comment timestamp to find the actual reported comment in the conversation.
 
 ![screenshot showing reported conversation notification.](../media/yammer-conversaton-reportcomments-email.png)
 
-A copy of this same email is also sent to the Yammer user who submitted the report.
+A copy of this same email is also sent to the Viva Engage user who submitted the report.
 
 ## FAQ
 
-**Q:** I’m an admin, and how do I know if my Yammer network is eligible for reporting conversations and comments?
+**Q:** I’m an admin, and how do I know if my Viva Engage network is eligible for reporting conversations and comments?
 
-**A:** Only networks that are in the New Yammer Preview are eligible for the reporting conversations experience. In the Yammer network admin center, if your network is eligible, you should see Report Conversations under Content and Security.
+**A:** Only networks that are in the Viva Engage Preview are eligible for the reporting conversations experience. In the Viva Engage network admin center, if your network is eligible, you should see Report Conversations under Content and Security.
 
 **Q:** Can I add multiple emails for the reports to be sent to?
 
 **A:** Currently only one email can be used. We suggest you create and use a group email or distribution list alias if you would like the reports to go to multiple people.
 
-**Q:** If my Yammer network is eligible for this, is it already on?
+**Q:** If my Viva Engage network is eligible for this, is it already on?
 
 **A:** No, the feature is off by default. A network admin must turn on the feature for network users so they can see the option to report conversations and comments.
 
 **Q:** Can users report conversations from external networks?
 
-**A:** No, The report conversations end user experience and actions are only available in the New Yammer Preview. Networks that are in the New Yammer Preview do not have the new Yammer experience on external networks, and as a result, conversations in external networks cannot be reported.
+**A:** No, The report conversations end user experience and actions are only available in the Viva Engage Preview. Networks that are in the Viva Engage Preview do not have the Viva Engage experience on external networks, and as a result, conversations in external networks cannot be reported.
 
 **Q:** Can users report conversations from the Yammer mobile app?
 
 **A:** No, not yet. At this time, conversation reporting is only available from the New Yammer Web experience.
 
-**Q:** Can users report private messages or messages in the Yammer Inbox?
+**Q:** Can users report private messages or messages in the Viva Engage Inbox?
 
 **A:** No, The report conversations end user experience and actions are only available on conversations within communities and the discovery feed.
 
 **Q:** Can users report messages from private and secret communities?
 
-**A:** Yes, conversations can be reported from all communities within Yammer – public, private, and secret. The email report that is sent includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports does not have access to the private or secret community, they can work with the network admin to either get access to that community to review the message or with the community administrator to get access to the reported message.
+**A:** Yes, conversations can be reported from all communities within Viva Engage – public, private, and secret. The email report that is sent includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports does not have access to the private or secret community, they can work with the network admin to either get access to that community to review the message or with the community administrator to get access to the reported message.
 
-**Q:** Can users report messages from Yammer integrations with Teams, Outlook, and SharePoint?
+**Q:** Can users report messages from Viva Engage integrations with Teams, Outlook, and SharePoint?
 
-**A:** No, not yet. At this time, conversation reporting is only available from the New Yammer Web experience.
+**A:** At this time, conversation reporting is only available from the Viva Engage Teams integration.
