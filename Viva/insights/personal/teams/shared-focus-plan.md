@@ -14,7 +14,7 @@ audience: Admin
 
 # Shared focus plan
 
-*To start a shared focus plan, you need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../personal/Overview/plans-environments.md). A Viva Insights license isn't required to participate in a shared focus plan.*
+*To start a shared focus plan, you need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../overview/plans-environments.md). A Viva Insights license isn't required to participate in a shared focus plan.*
 
 >[!Note]
 >This article talks about a focus plan shared between a group. If you just want to block out time on your calendar to focus, refer to our [Focus plan documentation](../use/focus-plan.md).
@@ -87,13 +87,13 @@ If you have a personal focus plan, you'll still be enrolled in it even after you
 
 To check the details of your new plan, open the **Home** page of Viva Insights. The **Shared focus plan** details will be included in the **Plans** section:
 
-   ![Shared-focus-plan card](../Images/mya/use/shared-focus-plan-card.png)
+   ![Shared-focus-plan card](../../Images/MyA/Use/shared-focus-plan-card.png)
 
-If you have a Microsoft Viva Insights license with an applicable [service plan](../personal/overview/plans-environments.md), you'll also see the plan details on the **My team** page.
+If you have a Microsoft Viva Insights license with an applicable [service plan](../overview/plans-environments.md), you'll also see the plan details on the **My team** page.
 
 If you are the creator of a shared focus plan, you'll also see details in the **Plans** section of the Viva Insights **Home** page:
 
-   ![Shared-focus-plan card](../Images/mya/use/your-shared-focus-plan.png)
+   ![Shared-focus-plan card](../../Images/mya/use/your-shared-focus-plan.png)
 
 
 ### Concepts
