@@ -22,6 +22,8 @@ audience: user
 
 The Microsoft Viva Insights app in Microsoft Teams and on the web shows you personalized recommendations that help you do your best work. Get insights for building better work habits, like following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
+![Screenshot that shows the Viva Insights Home tab's Recommended for you section.](./Images/home-recommended.png)
+
 Viva Insights derives these insights by summarizing your Microsoft 365 data&mdash;data that you already have access to&mdash;about emails, meetings, calls, and chats.
 
 By using the Viva Insights app, you can increase your:
