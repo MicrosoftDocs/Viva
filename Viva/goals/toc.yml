@@ -104,6 +104,8 @@ items:
           href: planview-projectplace-integration.md
         - name: PostgreSQL Integration
           href: postgresql-integration.md
+        - name: Power BI Integration
+          href: power-bi-integration.md
         - name: Salesforce Integration
           href: salesforce-integration.md
         - name: Slack
