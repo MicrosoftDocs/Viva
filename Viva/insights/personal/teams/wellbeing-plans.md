@@ -28,7 +28,7 @@ To create a plan through the Viva Insights app:
 
 1. Go to the **Take action to improve your wellbeing** section of your **Wellbeing** tab.
 1. Pick a plan that suits your goals, then select the action button at the bottom of the card. For example, if you want to reserve some time each day to learn a new skill, you'd select the **Set aside time** button on the **Make time for learning** plan card.
-![wellbeing plans](./images/wellbeing-plans1.png)
+![wellbeing plans](./images/wellbeing-plans2.png)
 1. The app takes you to the plan's settings. Configure your preferences here, and then save.
 
 <!--ppe environment isn't letting me do this right now; will need screenshots.-->
