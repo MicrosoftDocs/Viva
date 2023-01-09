@@ -16,19 +16,19 @@ audience: user
 
 Organization insights help leaders and managers of large teams understand how their organizations—the people who report to them directly or indirectly—are succeeding at work. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
-## Licenses, roles, and access
+## Subscriptions, roles, and access
 
 To view organization insights:
 
-* You need to have a premium Viva Insights license.
+* You need to have a premium Viva Insights subscription.
 * Your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
 * You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
 
-People in your organization also need to have a premium Viva Insights license so they can be measured in organizational insights. If you want to see an insight that reflects your entire company, everyone in the company needs to have a premium Viva Insights license.
+People in your organization also need to have a premium Viva Insights subscription so they can be measured in organizational insights. If you want to see an insight that reflects your entire company, everyone in the company needs to have a premium Viva Insights subscription.
 
 ### Insights by role
 
-People with the **Insights Business Leader** role assigned to them can see organization insights that include every person in their tenant who has a premium Viva Insights license. 
+People with the **Insights Business Leader** role assigned to them can see organization insights that include every person in their tenant who has a premium Viva Insights subscription. 
 
 People enabled as group managers can see organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the **Insights Business Leader** role and also enabled you as a group manager, you can toggle between the two organization insights views.
 
@@ -55,7 +55,7 @@ Let's take a look at how to use these features:
 
      At the top-right of any page or section with organization insights, an indicator shows how many people the insight is measuring. If you're enabled as a group manager *and* you have the **Insights Business Leader** role assigned, you can toggle between your reporting organization and the entire company.
 
-    The measured group count reflects the number of people who report to you directly or indirectly, according to the reporting hierarchy maintained by your Insights admin, who also have Viva Insights premium licenses.  
+    The measured group count reflects the number of people who report to you directly or indirectly, according to the reporting hierarchy maintained by your Insights admin, who also have Viva Insights premium subscriptions.  
 
 1. **Indicators**
 
