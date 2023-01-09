@@ -29,7 +29,7 @@ A shared focus plan in Microsoft Viva Insights helps your group book daily, unin
 1. In the **Wellbeing** tab, go to the **Take action to improve your wellbeing** section.
 2. Find the **Start a shared focus plan** card and select the **Set up plan** button.
 
-   ![Start a shared focus plan](./Images/wellbeing-sfp-from-take-action.png)
+   ![Start a shared focus plan](./Images/wellbeing-start-sfp.png)
 
 3. When prompted, select **Next**.
 1. In **Who would you like to invite?**, add people you want to invite. You can start typing names in the search box. When you’re done, select **Next**.
