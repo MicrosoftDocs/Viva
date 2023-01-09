@@ -27,7 +27,7 @@ Depending on your integration with Viva Learning, there are two methods by which
 ## Control permissions within the LMS
 
 Using the SAP SuccessFactors Learning Management System (LMS), organizations can set access permissions using assignment profiles. During the SuccessFactors  integration with Viva Learning, you can choose to enable a sync of permissions in SuccessFactors with Viva Learning.
-Refer to the [Catalog permissions sync](https://learn.microsoft.com/viva/learning/configure-successfactors-content-source#catalog-permissions-sync) article for detailed steps and requirements.
+Refer to the [Catalog permissions sync](configure-successfactors-content-source.md#catalog-permissions-sync) article for detailed steps and requirements.
 
 Once the sync is complete, admins can view the courses for which permissions are applied within the **Admin** tab, by clicking **Manage Permissions**. 
 Refer to the **View** permissions section below for more details.
