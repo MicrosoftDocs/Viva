@@ -387,84 +387,79 @@
       },
       {
         "source_path": "viva/insights/tutorials/power-bi-myorg.md",
-
-      "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
-      "redirect_document_id": false
+        "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
+        "redirect_document_id": false
       },
-      {"source_path": "viva/insights/advanced/reference/supported-langugages.md",
+      {
+      "source_path": "viva/insights/advanced/reference/supported-langugages.md",
       "redirect_url": "/viva/insights/advanced/reference/supported-languages",
       "redirect_document_id": false
       },
-      {"source_path": "viva/goals/creating-okrs.md",
+      {
+      "source_path": "viva/goals/creating-okrs.md",
       "redirect_url": "https://support.microsoft.com/topic/create-objectives-key-results-and-projects-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c",
       "redirect_document_id": false
       },
-      {"source_path": "viva/goals/okr-check-ins.md",
+      {
+      "source_path": "viva/goals/okr-check-ins.md",
       "redirect_url": "https://support.microsoft.com/topic/check-in-with-viva-goals-c0244789-4388-4d2d-9d20-3678900d9b98",
       "redirect_document_id": false
       },
-      {"source_path": "viva/goals/closing-and-scoring.md",
+      {
+      "source_path": "viva/goals/closing-and-scoring.md",
       "redirect_url": "https://support.microsoft.com/topic/close-okrs-in-viva-goals-c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8",
       "redirect_document_id": false
       },
-      {"source_path": "viva/goals/review-dashboard.md",
+      {
+      "source_path": "viva/goals/review-dashboard.md",
       "redirect_url": "https://support.microsoft.com/topic/review-dashboard-in-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4",
       "redirect_document_id": false
       },
       {
-        "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
-
+      "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
       "redirect_url": "/viva/insights/personal/setup/configure",
       "redirect_document_id": false
-    },
-    {
+      },
+      {
       "source_path": "viva/insights/use/solutions-scan.md",
-
-    "redirect_url": "/viva/insights/overview/get-started",
-    "redirect_document_id": false
-    },
-    {
+      "redirect_url": "/viva/insights/overview/get-started",
+      "redirect_document_id": false
+      },
+      {
       "source_path": "viva/insights/tutorials/solutionsv2-intro.md",
-
-    "redirect_url": "/viva/insights/overview/get-started",
-    "redirect_document_id": false
-    },
-    {
+      "redirect_url": "/viva/insights/overview/get-started",
+      "redirect_document_id": false
+      },
+      {
       "source_path": "viva/insights/tutorials/solutionsv2-conceptual.md",
-
-    "redirect_url": "/viva/insights/overview/get-started",
-    "redirect_document_id": false
-    },
-    {
+      "redirect_url": "/viva/insights/overview/get-started",
+      "redirect_document_id": false
+      },
+      {
       "source_path": "viva/insights/tutorials/solutionsv2-participants.md",
-
-    "redirect_url": "/viva/insights/overview/get-started",
-    "redirect_document_id": false
-    },
-    {
+      "redirect_url": "/viva/insights/overview/get-started",
+      "redirect_document_id": false
+      },
+      {
       "source_path": "viva/insights/tutorials/solutionsv2-task.md",
-
-    "redirect_url": "/viva/insights/overview/get-started",
-    "redirect_document_id": false
-    },
-    {
+      "redirect_url": "/viva/insights/overview/get-started",
+      "redirect_document_id": false
+      },
+      {
       "source_path": "viva/insights/tutorials/teamwork-solution.md",
-
-    "redirect_url": "/viva/insights/overview/get-started",
-    "redirect_document_id": false
-    },
-    {
+      "redirect_url": "/viva/insights/overview/get-started",
+      "redirect_document_id": false
+      },
+      {
       "source_path": "viva/insights/tutorials/seller-success.md",
-
-    "redirect_url": "/viva/insights/overview/get-started",
-    "redirect_document_id": false
-    },
-    {
+      "redirect_url": "/viva/insights/overview/get-started",
+      "redirect_document_id": false
+      },
+      {
       "source_path": "viva/insights/manager-insights/plans.md",
-
-    "redirect_url": "/viva/insights/overview/get-started",
-    "redirect_document_id": false
-    }
+      "redirect_url": "/viva/insights/overview/get-started",
+      "redirect_document_id": false
+      }
 
     ]
 }
