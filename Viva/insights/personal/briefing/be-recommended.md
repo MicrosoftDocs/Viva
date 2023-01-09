@@ -27,7 +27,7 @@ Enrolling in praise reminders can help you establish a habit of recognizing othe
 
 If you want reminders on another day or at another time, select **Customize settings**. This option takes you to the Viva Insights app, where you can pick when you want your reminder.
 
-Learn more about the praise feature in [Praise in Viva Insights](../teams/viva-insights-praise.md).
+Learn more about the praise feature in [Praise in Viva Insights](../teams/praise.md).
 
 ## Virtual commute
 
@@ -37,7 +37,7 @@ Virtual commute helps you mindfully disconnect from work and transition to the r
 
 If you want to pick a different time, or set different days, instead, select **Edit settings**. This option takes you to the Viva Insights app, where you can pick when you want your reminder.
 
-Learn more about virtual commute in [Virtual commute](../teams/viva-insights-virtual-commute.md).
+Learn more about virtual commute in [Virtual commute](../teams/virtual-commute.md).
 
 ## Schedule send suggestions
 
@@ -50,6 +50,6 @@ Learn more about schedule send suggestions in [Schedule send suggestions](../use
 ## Related topics
 
 * [Briefing email overview](be-overview.md)
-* [Praise in Viva Insights](../teams/viva-insights-praise.md)
-* [Virtual commute](../teams/viva-insights-virtual-commute.md)
+* [Praise in Viva Insights](../teams/praise.md)
+* [Virtual commute](../teams/virtual-commute.md)
 * [Schedule send suggestions](../Use/delay-delivery.md)
