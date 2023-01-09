@@ -21,8 +21,8 @@ Organization insights help leaders and managers of large teams understand how th
 To view organization insights:
 
 * You need to have a premium Viva Insights license.
-* Your Insights admin needs to assign you the [**Insights Business Leader** role](../../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
-* You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
+* Your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
+* You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
 
 People in your organization also need to have a premium Viva Insights license so they can be measured in organizational insights. If you want to see an insight that reflects your entire company, everyone in the company needs to have a premium Viva Insights license.
 
@@ -36,7 +36,7 @@ People enabled as group managers can see organization insights that include peop
 
 Viva Insights commits that no user will discover information about another identified individual that they couldn't already know. This principle applies to every feature in Viva Insights, including organization insights.
 
-For further detail about privacy and organization insights, refer to our [privacy information](../../advanced/privacy/privacy.md#about-organization-insights).
+For further detail about privacy and organization insights, refer to our [privacy information](../advanced/privacy/privacy.md#about-organization-insights).
 
 
 ## Using organization insights
