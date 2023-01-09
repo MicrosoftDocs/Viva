@@ -65,7 +65,7 @@ Let's take a look at how to use these features:
 
     Insight details give you additional context for understanding the measured results. These details can include trend lines, peer comparisons, comparisons across groups within your organization, and distributions. When you select the **Show details** link, Viva Insights brings you to a separate page. Expand the following image for a sample view of a detail page.
 
-    :::image type="content" source="images/org-insights-detail-page-reg.png" alt-text="Screenshot that shows the insight detail page for Uninterrupted focus hours." lightbox="../images/org-insights-detail-page-large.png":::
+    :::image type="content" source="images/org-insights-detail-page-reg.png" alt-text="Screenshot that shows the insight detail page for Uninterrupted focus hours." lightbox="images/org-insights-detail-page-large.png":::
 
 1. **Sharing** 
 
@@ -75,14 +75,14 @@ Let's take a look at how to use these features:
     ![Screenshot that shows sharing an insight by chat.](images/org-insights-share-chat.png)
     * **Through a link** – When you share through a link, that link takes the recipient to the same location in Viva Insights. Linking someone doesn't give them access to the same data you can see, but if they also have access to organization insights, they'll see results for their own group.
 
-        ![Screenshot that shows sharing an insight by chat.](images/org-insights-share-link.png)
+        ![Screenshot that shows sharing an insight by link.](images/org-insights-share-link.png)
 1. **Actions**
 
     Actions point you to other workflows in Viva Insights that can help support you or your organization to manage a measured behavior. 
 
     Here's an example:
 
-    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
+    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
 
 ## Related information
 
