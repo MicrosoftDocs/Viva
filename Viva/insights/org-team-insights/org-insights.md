@@ -91,7 +91,7 @@ Let's take a look at how to use these features:
 
     Here's an example:
 
-    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
+    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
 
 ## Related information
 
