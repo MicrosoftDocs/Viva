@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Manager insights FAQ
 description: Most commonly asked questions and their answers about My team insights in Viva Insights and Manager insights
 author: madehmer
