@@ -97,7 +97,7 @@ After you’re done reviewing and managing your tasks, select **Next** to move t
 
 * A breather break
 * If you have access to Headspace, a few guided meditation videos
-* The opportunity to reflect, just like you would using the [Reflect](viva-insights-reflect.md) feature on the **Home** page
+* The opportunity to reflect, just like you would using the [Reflect](reflect.md) feature on the **Home** page
 
 ![Screenshot that shows the Wind down section.](Images/vc-wind-down1.png)
 

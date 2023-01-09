@@ -47,7 +47,7 @@ A few days after a license with the Viva Insights service is assigned to a perso
 
 Personal insights in Viva Insights are shown in the following ways:
 
-* [Viva Insights in Teams and on the web](../teams/viva-insights-home.md)
+* [Viva Insights in Teams and on the web](../teams/home.md)
 * [Briefing emails](../Briefing/be-overview.md)
 * [Viva Insights in Outlook](../use/add-in.md)
 * [Digest emails in Outlook](../use/email-digests-3.md)

@@ -2,7 +2,7 @@
 
 title: Mindfulness content from Headspace in Viva Insights
 description: Learn how to start a guided Headspace meditation in the Viva Insights app
-author: v-lilyolason
+author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.collection: viva-insights-personal
@@ -30,7 +30,7 @@ You can start a guided meditation whenever you want. To find and complete a medi
 1. Start an exercise by selecting its **Play** button.
 1. If you want to do another exercise, select **More exercises**. Otherwise, close the window to complete your meditation.
 
-   ![Screenshot that shows the Act with intention > Guided meditations section with the Guided meditations option highlighted.](images/wellbeing-headspace-more-exercises.png)
+   ![Screenshot that shows selecting the More exercises link.](images/wellbeing-headspace-more-exercises.png)
 
 <!--verify with Anji whether there's any other way to get to these other exercises-->
 

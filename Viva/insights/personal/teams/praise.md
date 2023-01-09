@@ -27,7 +27,7 @@ You can also set reminders to send acclaim on a regular basis to your coworkers 
 
 To send praise, open the praise feature in one of the following ways:
 
-* The Viva Insights [Home](#send-praise-from-the-viva-insights-home-page) tab
+* The Viva Insights [Home](#send-praise-from-the-viva-insights-home-tab) tab
 * The [content pane](#send-praise-from-the-teams-content-pane-using-the-praise-messaging-extension) of Teams
 
 ### Send praise from the Viva Insights Home tab
@@ -63,7 +63,7 @@ To send praise, open the praise feature in one of the following ways:
 
 ### Send praise from the Teams content pane using the praise messaging extension
 
-In Viva Insights, you can always send praise directly from the [**Home** page](#send-praise-from-the-viva-insights-home-page), which doesn't require installing the praise messaging extension.
+In Viva Insights, you can always send praise directly from the [**Home** page](#send-praise-from-the-viva-insights-home-tab), which doesn't require installing the praise messaging extension.
 
 To use the Teams messaging extension:
 
@@ -134,7 +134,7 @@ From the **Settings** page:
 
    :::image type="content" source="images/praise-set-reminder-in-settings.png" alt-text="Screenshot that shows Praise reminder settings on the Settings page.":::
 
-   On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send praise from the Viva Insights Home page](#send-praise-from-the-viva-insights-home-page).
+   On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send praise from the Viva Insights Home tab](#send-praise-from-the-viva-insights-home-tab).
 
 ## Praise history
 
@@ -182,8 +182,3 @@ To prevent praise information from showing on your profile card:
 
 [Viva Insights introduction](viva-teams-app.md)
 
-
-
-## Related topics
-
-[Viva Insights introduction](viva-teams-app.md)
