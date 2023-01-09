@@ -36,7 +36,7 @@ Team insights features use collaboration data from Microsoft 365 and—depending
 
 Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR), the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, refer to the [Privacy guide](../personal/teams/viva-teams-app-privacy.md).
 
-Team insights features are generated using each user's own data, which is computed from their email, meetings, calls, and chats. Individual employee data is stored and protected in the same way as the user's Microsoft 365 data. So, with team insights, you can't identify specific team members and see their personal collaboration habits. <!--right phrasing?-->
+Team insights features are generated using each user's own data, which is computed from their email, meetings, calls, and chats. Individual employee data is stored and protected in the same way as the user's Microsoft 365 data. So, with team insights, you can't see individual team members' personal collaboration habits. 
 
 ## Permissions and app setup
 
@@ -112,4 +112,4 @@ You'll find insights about quiet time impact on the **Wellbeing** tab. Learn how
 
 ### Shared plans
 
-To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and [focus](../personal/teams/shared-focus-plan.md) plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab.
+To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and [focus](../personal/teams/shared-focus-plan.md) plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab. To set up regularly scheduled 1:1 meetings with your direct reports, check out [1:1 plans](../personal/teams/1-1-plan.md) on the **Teamwork** tab.
