@@ -59,11 +59,9 @@ Viva Insights automatically builds teams based on organizational data uploaded o
 
 Your team only includes people reporting directly to you as presented in Azure Active Directory or the file your admin uploads. This structure means three things:
 
-To keep teams accurate, your organization needs to regularly update Azure Active Directory or upload new HR files.
-
-If you don’t have at least one person reporting directly to you, as presented in the organizational data file, you won’t have access to Team insights.
-
-Because teams come directly from organizational data, you’re not able to edit members. People who don't have direct reports won't be able to access team insights.
+* To keep teams accurate, your organization needs to regularly update Azure Active Directory or upload new HR files.
+* If you don’t have at least one person reporting directly to you, as presented in the organizational data file, you won’t have access to Team insights.
+* Because teams come directly from organizational data, you’re not able to edit members. People who don't have direct reports won't be able to access team insights.
 
 >[!Note]
 >When your direct-reports list changes, your team meeting habits will reflect these changes in next week’s data.
@@ -80,13 +78,11 @@ To turn on or off team insights:
     * Turn off team insights, select **Opt out**.
     * To turn on team insights, select **Opt in**.
 
-1. Select Save changes.
+1. Select **Save changes**.
 
 ## Available insights
 
 ### 1:1 time
-
-As a team member, you often collaborate with other team members to get work done. However, with your own tasks and busy schedules, you might not feel you’re really staying in touch with each of your teammates. Dedicated 1:1 time can help.
 
 As a people manager, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their role. One of the simplest coaching tools you have at your disposal is 1:1 time. Research by Microsoft has shown that people who get consistent 1:1 time with their manager are more engaged and view the manager's leadership more favorably.
 
