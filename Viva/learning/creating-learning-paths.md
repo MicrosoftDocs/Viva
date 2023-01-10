@@ -70,7 +70,6 @@ Your learning path is saved in drafts. You can edit, preview or publish the lear
 
 You can always view and manage your existing learning paths under the **Learning path** section in the **Admin** tab. You can perform the following options by selecting:
 
-
 ![Image of options used to edit learning paths in Viva Learning.](../media/learning/learning-path-edit-options.png)
 
 - **Publish** to publish the learning path and make it available for the organization employees. You can't add or remove content from a learning path once it's published. You can only edit the title, description, and thumbnail of a published learning path.
