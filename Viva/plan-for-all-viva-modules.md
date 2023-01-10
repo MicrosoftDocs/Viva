@@ -1,5 +1,5 @@
 ---
-title: "Get all Microsoft Viva modules"
+title: "Get all Microsoft Viva apps"
 ms.reviewer: loreenl
 ms.author: hokavian
 author: Holland-ODSP
@@ -18,24 +18,24 @@ ms.collection:
 - highpri
 search.appverid:
 - MET150
-description: "Get all Microsoft Viva modules"
+description: "Get all Microsoft Viva apps"
 ---
-# Get all Microsoft Viva modules
+# Get all Microsoft Viva apps
 
-[Microsoft Viva](https://www.microsoft.com/microsoft-viva) currently offers several apps that can make an impact on their own and become even more powerful when used together. Learn more about [individual Viva modules](discover-more-about-each-viva-module.md) and how you can use [two or more modules together](learn-how-to-combine-modules.md) to create personalized employee experiences for your organization.
+[Microsoft Viva](https://www.microsoft.com/microsoft-viva) currently offers several apps that can make an impact on their own and become even more powerful when used together. Learn more about [individual Viva apps](discover-more-about-each-viva-module.md) and how you can use [two or more apps together](learn-how-to-combine-modules.md) to create personalized employee experiences for your organization.
 
 >[!NOTE]
-> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
+> New Microsoft Viva experiences are coming soon. New Viva experiences will be incorporated into this content set for [Viva Amplify, Viva Answers, and Viva Pulse](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
 
-Follow the guidance in this article if you know your organization wants all four Viva modules.
+Follow the guidance in this article if you know your organization wants all four Viva apps.
 
-|:::image type="icon" source="media/viva-confirm-licensing.png" border="false"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png" border="false"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png" border="false"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png" border="false"::: <br> Step 4|
+|:::image type="icon" source="media/viva-confirm-licensing.png"::: <br> Step 1  |:::image type="icon" source="media/viva-requirements.png"::: <br> Step 2 |:::image type="icon" source="media/viva-learn.png"::: <br> Step 3 | :::image type="icon" source="media/viva-prepare.png"::: <br> Step 4|
 |:---------:|:---------:|:---------:|:---------:|
 |Confirm you’ve got the right licensing in place. |Meet technical requirements.|Learn more about the roles in each phase.|Prepare to launch and scale adoption with end-users.|
 
 ## Step 1: Confirm the right licensing is in place
 
-To get all four Viva modules, you'll need a license for Microsoft 365 or Office 365 (E1, A1, G1, E3, A3, G3, E5, A5, G5), Microsoft 365 Business Basic, Business Standard, Business Premium, or Exchange Online Plan 1 or Plan 2 to be eligible for Microsoft Viva.
+To get all four Viva apps, you'll need a license for Microsoft 365 or Office 365 (E1, A1, G1, E3, A3, G3, E5, A5, G5), Microsoft 365 Business Basic, Business Standard, Business Premium, or Exchange Online Plan 1 or Plan 2 to be eligible for Microsoft Viva.
 
 Then, you need to purchase the [Microsoft Viva suite](https://www.microsoft.com/microsoft-viva/pricing?rtc=1) that includes:
 
@@ -50,21 +50,21 @@ Then, you need to purchase the [Microsoft Viva suite](https://www.microsoft.com/
 
 ## Step 2: Meet technical requirements
 
-After you’ve got the right licensing in place, review additional requirements to get the Viva module up and running. For more details, [review minimum requirements and planning considerations](discover-more-about-each-viva-module.md).
+After you’ve got the right licensing in place, review additional requirements to get the Viva app up and running. For more details, [review minimum requirements and planning considerations](discover-more-about-each-viva-module.md).
 
-|Module |Requirements |
-|-------|-------------|
-|![Viva Connections logo.](media/logos/connections-launch-c-64.svg) <br> **Viva Connections** | - SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites |
-|![Viva Insights logo.](media/logos/insights-launch-c-64.svg) <br> **Viva Insights** | No technical requirements besides licensing for personal and team insights |
-|![Viva Learning logo.](media/logos/learning-launch-c-64.svg) <br> **Viva Learning** | - A Microsoft Teams team (if you're creating a learning tab in Teams) <br> - SharePoint site to connect internal resources to Viva Learning |
-|![Viva Topics logo.](media/logos/topics-launch-c-64.svg) <br> **Viva Topics** | No technical requirements besides licensing |
-|![Viva Engage logo.](media/logos/engage-launch-c-64.svg) <br> **Viva Engage** | No technical requirements besides licensing |
+|App name |Requirements |
+|:-------:|-------------|
+|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> **Viva Connections** | - SharePoint home site <br> - Global navigation enabled and customized <br> - Modern SharePoint sites |
+|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> **Viva Insights** | No technical requirements besides licensing for personal and team insights |
+|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br> **Viva Learning** | - A Microsoft Teams team (if you're creating a learning tab in Teams) <br> - SharePoint site to connect internal resources to Viva Learning |
+|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> **Viva Topics** | No technical requirements besides licensing |
+|:::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br> **Viva Engage** | No technical requirements besides licensing |
 |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals** | No technical requirements besides licensing |
-|**Viva Sales** | No technical requirements besides licensing. |
+|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> **Viva Sales** | No technical requirements besides licensing |
 
 ## Step 3: Get guidance on roles for each phase
 
-Review the different roles in each phase before you get started planning. Each module needs a few key roles that will help ensure success throughout the planning, building, and launching phases.
+Review the different roles in each phase before you get started planning. Each app needs a few key roles that will help ensure success throughout the planning, building, and launching phases.
 
 ### Get guidance on Viva Connections
 
@@ -166,7 +166,7 @@ Technically, the Viva apps don't need to be installed in a specific order. Each 
 
 ## Step 5: Prepare to launch and scale adoption with end users
 
-Viva apps can be launched at the same time or in a phased approach, depending on what is best suited to your organization. Consider a phased approach based on the modules that are available, the most valuable to your organization, and which modules will be the most useful and appealing to specific audiences.
+Viva apps can be launched at the same time or in a phased approach, depending on what is best suited to your organization. Consider a phased approach based on the apps that are available, the most valuable to your organization, and which apps will be the most useful and appealing to specific audiences.
 
 ![Image of a workplace champion influencing others.](./media/viva-champion.png)
 
@@ -176,11 +176,11 @@ Learn more about [how to build a champion program at your organization.](https:/
 
 ![Image of a chart that explains different ways to communicate with different audiences.](./media/viva-comms.png)
 
-**Meet your audience where they are**: There are several methods of sharing the availability of the Viva modules like email, SharePoint news, or post in Teams or a Yammer community for example. [Get more information, templates, and resources to help your organization promote and adopt Microsoft Viva.](https://adoption.microsoft.com/viva/)
+**Meet your audience where they are**: There are several methods of sharing the availability of the Viva apps like email, SharePoint news, or post in Teams or a Yammer community for example. [Get more information, templates, and resources to help your organization promote and adopt Microsoft Viva.](https://adoption.microsoft.com/viva/)
 
 Consider where and how different audiences currently get news and announcements. For example, frontline workers might get the most important news in team meetings and from posters in break rooms, and hybrid workers might be used to getting SharePoint news in Outlook. Consider using the following methods to reach your audience:
 
-- **Announce your organization’s instance of Microsoft Viva at an event**: Kick off the announcement about the availability of the modules at an all-hands (or sometimes called a Town Hall) meeting where everyone in the organization will attend or can view a recording later.
+- **Announce your organization’s instance of Microsoft Viva at an event**: Kick off the announcement about the availability of the apps at an all-hands (or sometimes called a Town Hall) meeting where everyone in the organization will attend or can view a recording later.
 - **Use communication tools like SharePoint news and Viva Engage communities**: Share details about the launch along with any change management guidance or end-user training in an [organizational news post](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7#:%7E:text=In%20SharePoint%20Online%2C%20you%20can%20add%20news%20posts,instructions%20Create%20the%20news%20post%20.%20See%20More), [Viva Engage communities](https://support.microsoft.com/office/start-a-conversation-in-yammer-da65b1c3-6651-4141-8dbd-d50d61b98a6e), and [Microsoft Teams channels.](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
 - **Consider hosting training events or offering office hours**: Make sure end-users get the most from Viva by offering ongoing support the first 30 days after launching.
 - **Use the Viva email and poster templates**: Get a jump start on creating [communication materials for the Viva Connections launch.](https://adoption.microsoft.com/viva/)
@@ -191,4 +191,4 @@ Consider where and how different audiences currently get news and announcements.
 
 [Microsoft Viva Overview | Microsoft Docs](microsoft-viva-overview.md)
 
-[Combine Microsoft Viva modules for a more powerful experience](learn-how-to-combine-modules.md)
+[Combine Microsoft Viva apps for a more powerful experience](learn-how-to-combine-modules.md)
