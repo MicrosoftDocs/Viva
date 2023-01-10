@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: MyAnalytics retirement
+title: Briefing email pause
 description: About pausing the Briefing email
 author: lilyolason
 ms.author: v-lilyolason
