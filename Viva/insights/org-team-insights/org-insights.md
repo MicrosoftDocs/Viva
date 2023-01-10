@@ -65,7 +65,6 @@ Let's take a look at how to use these features:
 
     Insight details give you additional context for understanding the measured results. These details can include trend lines, peer comparisons, comparisons across groups within your organization, and distributions. When you select the **Show details** link, Viva Insights brings you to a separate page. Expand the following image for a sample view of a detail page.
     
-
     :::image type="complex" source="images/org-insights-detail-page-reg.png" alt-text="Screenshot that shows the insight detail page for Uninterrupted focus hours.":::
        Screenshot of the Details page for the "Uninterrupted focus hours" insight. The title of the page reads, "Uninterrupted focus hours" with an information icon. The subtitle reads, "Is there time for individual work?". Below the subtitle is a numerical indicator, as described earlier, with text about an increase. A description of the indicator sits below the indicator and contains an information icon. Below the description is a line graph. On the right of the screen is a card titled, "Block time for focus" that allows users to start a shared focus plan. The card contains a "Set up plan" button and "More actions" links. In the top right of the screen, there's a scope selector indicating that data is being shown for the organization.
     :::image-end:::
@@ -81,10 +80,10 @@ Let's take a look at how to use these features:
 
     * **Through a link** – When you share through a link, that link takes the recipient to the same location in Viva Insights. Linking someone doesn't give them access to the same data you can see, but if they also have access to organization insights, they'll see results for their own group.
 
+
         :::image type="complex" source="images/org-insights-share-link.png" alt-text="Screenshot that shows sharing an insight by link.":::
            Screenshot of copying an insight link. The image shows a checkmark and a label with the text, "Link to 'Uninterrupted focus hours' copied." Below the label is a web address field; this address field contains a direct URL to the insight. To the right of the address field, there's a "Copy again" button. In the top right of the window, there's an X button to close the window.
         :::image-end:::
-
 1. **Actions**
 
     Actions point you to other workflows in Viva Insights that can help support you or your organization to manage a measured behavior. 

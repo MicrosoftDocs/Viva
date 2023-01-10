@@ -16,7 +16,7 @@ audience: user
 
 ## Q1 – Can I opt in or opt out of seeing organization insights?
 
-To opt out or back into seeing organizational insights, your Viva Insights administrator needs to unassign or reassign you the group manager role. They can assign you this role by following the directions in [Manager settings](../../advanced/setup-maint/manager-settings.md).
+To opt out or back into seeing organizational insights, your Viva Insights administrator needs to unassign or reassign you the group manager role. They can assign you this role by following the directions in [Manager settings](../advanced/setup-maint/manager-settings.md).
 
 <!--Diego to verify?-->
 
