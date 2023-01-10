@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Best practices for focused work
 description: Get best practices for managers about the importance of scheduled time to focus
 author: madehmer
