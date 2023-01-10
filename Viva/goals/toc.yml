@@ -74,6 +74,8 @@ items:
           href: box-integration.md
         - name: Domo Integration
           href: domo-integration.md
+        - name: Dynamics 365 Integration
+          href: dynamics-365-integration.md
         - name: Excel Online Integration
           href: excel-online-integration.md
         - name: Favro Integration
