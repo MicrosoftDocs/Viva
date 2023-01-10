@@ -35,7 +35,7 @@ In Viva Learning, you can curate a learning path using learning content from dif
 ![Image of the Learning Path navigation on the admin tab.](../media/learning/learning-path-step1-add-new.png)
 
 3. Add a title and description. Upload a thumbnail or choose a default option. 
-4. Click **Save**.
+4. Click **Create**.
 
 ![Image of create new Learning path description fields.](../media/learning/learning-path-step-4-title-description.png)
 
@@ -45,7 +45,7 @@ In Viva Learning, you can curate a learning path using learning content from dif
 
 
 6. You can take the following actions.
-    1. Add a section title and descriptions.
+    1. Add a section title and description.
     1. Search for relevant learning content from learning providers within Viva Learning. 
     1. Select the content of your choice and click **Add**.
     1. Reorder the content by dragging the added courses. 
@@ -53,8 +53,11 @@ In Viva Learning, you can curate a learning path using learning content from dif
 ![Image of add content view with section title, description, and search view for finding courses.](../media/learning/learning-path-add-content.png)
 
 7. Click **Add Section** if you want to add another section to your learning path.
-8. Reorder sections using the arrows if needed.
-9. Click **Save**.
+
+![Image of a set learning path with multiple segments that includes the option of adding another section](../media/learning/learning-path-add-section.png)
+
+1. Reorder sections using the arrows if needed.
+1. Click **Save**.
 
 ![Image of a completed section of a learning path with additional sections added](../media/learning/learning-path-final-view.png)
 
@@ -79,3 +82,6 @@ You can always view and manage your existing learning paths under the **Learning
 Once a learning path is published, it shows up on the **Home page** in the **Browse courses** by the provider section under your tenant name carousel.
 
 Employees can discover and play the course by clicking on the learning path card, navigating to the **details** page, and selecting the course thumbnail.
+
+>[!NOTE]
+>Nested Learning paths are not yet supported.
