@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Microsoft Viva Insights for managers in Microsoft Teams
 description: Introduction and summary of Microsoft Viva Insights in Teams for managers
 author: madehmer

@@ -18,9 +18,6 @@ audience: Admin
 
 # Deploy personal insights
 
->[!Important]
-> This article discusses the dashboard, which will be retired soon. Users will still be able to access their personal insights settings through their Viva Insights app in Teams or on the web. [Learn more about this change](../reference/mya-retirement.md).
-
 Personal insights with Microsoft Viva Insights is an easy-to-deploy, out-of-the-box solution that helps you and your co-workers improve your personal productivity habits. It is available widely &mdash; to Microsoft 365 users with [these Service plans](../overview/plans-environments.md). After licenses are assigned, the Viva Insights is turned **On** by default, although you can customize your deployment by [following the steps in this guide](#roll-out-viva-insights).
 
 ## What is Viva Insights?
