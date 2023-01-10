@@ -28,13 +28,13 @@ Key Results and Projects that use metrics to track completion in Viva Goals can 
 1. Add a new Key Result or open an existing Key Result for Edit
 1. Under the Progress section, select **Automatically from a data source** and then from the list of Integrations, select **Power BI.** 
 
-> [!NOTE]
-> If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See **How to enable Power BI Integration** below.
+   > [!NOTE]
+   > If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See **How to enable Power BI Integration** below.
 
 3. The first time, you will be presented with a screen to sign in to Power BI. Sign in with your Viva Goals credentials. A screen will appear to save a new connection. Name the connection and select **Next.** 
 
-> [!IMPORTANT]
-> Only you will have access to this connection, it will not be shared with anyone else. 
+   > [!IMPORTANT]
+   > Only you will have access to this connection, it will not be shared with anyone else. 
 
 4. Once logged in to Power BI, you can select the report you want to link data from and click **Next.**
 5. Within the report, you can select a particular chart. Power BI will show you the current value of the data being linked as well as the filters being applied. To link the data, click **Connect.**
@@ -50,13 +50,13 @@ Your key result will now regularly synchronize data from Power BI and make check
 1. Expand the Progress section and select **Automatically from a data source.**
 1. From the list of Integrations, select Power BI. 
 
-> [!NOTE]
-> If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See **How to enable Power BI Integration** below.
+   > [!NOTE]
+   > If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See **How to enable Power BI Integration** below.
 
 6. The first time, you will be presented with a screen to sign in to Power BI. Sign in with your Viva Goals credentials. A screen will appear to save a new connection. Name the connection and select **Next.** 
 
-> [!IMPORTANT]
-> Only you will have access to this connection, it will not be shared with anyone else.
+   > [!IMPORTANT]
+   > Only you will have access to this connection, it will not be shared with anyone else.
  
 7. Once logged in to Power BI, you can select the report you want to link data from and select **Next.**
 1. Within the report, you can select a particular chart. Power BI will show you the current value of the data being linked as well as the filters being applied. To link the data, click **Connect.**
