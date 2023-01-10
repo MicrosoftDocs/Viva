@@ -1,5 +1,5 @@
 ---
-title: "Analytics in Microsoft Viva Engage"
+title: "Manage and Access Analytics in Viva Engage"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,14 +20,13 @@ search.appverid:
 ---
 
 
-# Analytics in Microsoft Viva Engage
+# Manage and Access Analytics in Viva Engage
 
 Users with access to premium Viva Engage will be able to access Engage Analytics and manage settings via the Admin Center within the Viva Engage Teams app.   
 
 ## Manage analytics  
 
 Premium analytic capabilities help licensed users monitor their own engagement metrics (personal analytics), leaders monitor their audience’s engagement (audience analytics), manage social campaign engagement (campaign analytics), and monitor engagement in Answers (answer analytics).  
-
 
 Global admins and Engage admins can configure, enable, and disable analytics features via the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Engage admin center and select **Manage analytics**.   
 

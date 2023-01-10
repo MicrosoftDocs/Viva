@@ -1,5 +1,5 @@
 ---
-title: "Leadership Identification in Microsoft Viva Engage"
+title: "Identify leaders and manage audiences in Viva Engage"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,7 +20,7 @@ search.appverid:
 ---
 
 
-# Leadership Identification in Microsoft Viva Engage
+# Leadership Identification in Viva Engage
 
 Leaders naturally want to share vision, updates, and perspectives to build culture, manage change, and drive engagement with the people they lead. Viva Engage empowers leaders to more effectively connect with, communicate to, and listen to their employees. This begins with identifying leaders and the audiences they want to engage. Leadership identification and audience management enables organizations to designate leaders, configure their audience and even to connect leaders with the entire organization. 
 
