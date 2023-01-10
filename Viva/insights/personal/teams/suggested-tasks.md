@@ -44,7 +44,6 @@ To unpin a contact, select the **unpin** icon:
 
 #### @Mentions for pinned important contacts 
 
-<!--confirming with Esther if this is for anyone who @ mentions you, or if it's just for pinned contacts.-->
 
 @Mention is a common way to tag colleagues on important work items. Microsoft Viva Insights can help you quickly triage recent @Mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up. 
    
