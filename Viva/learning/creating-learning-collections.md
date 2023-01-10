@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/23/2021
+ms.date: 01/10/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -24,9 +24,9 @@ A learning collection is a curation of learning objects or a sequence of learnin
 
 In Viva Learning, you can curate your personal Learning collections using learning content from various different learning providers enabled for your organization. 
 
-## Create a Learning path
+## Create a Learning collection
 
-1. Go to the My Learning tab in Viva Learning and select **Collections**. 
+1. Go to the My Learning tab in Viva Learning and select **Collections**.
 2. Click **Create.**
 3. Add the title and description. Upload a thumbnail or choose a default thumbnail for your collection.
 4. Select **Create**.
