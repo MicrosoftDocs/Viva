@@ -49,7 +49,7 @@ An organization admin can follow these steps to enable the Dynamics 365 integrat
 
 Viva Goals allows you to connect with multiple Dynamics 365 accounts. Select **New connection** to continue adding accounts. Each account should have a unique name. Users will be allowed to swap connections when they link their KRs to Dynamics 365.
 
-## How to set up Dynamics 365 integration
+## How to connect Dynamics 365 metrics to a Key Result (KR)
 
 After setup is complete, users within your organization can link their KRs to any Dynamics 365 metric by connecting to a view or report in Dynamics 365.
 
