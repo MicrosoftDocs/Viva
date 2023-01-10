@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn how to integrate your Viva Goals OKRs with Power BI."
 ---
 
-# Power BI Integration integration
+# Power BI Integration
 
 Key Results and Projects that use metrics to track completion in Viva Goals can directly connect to data from reports in Power BI using our simple point and click interface. Viva Goals will sync the data at regular intervals, ensuring your Key Results and Projects always stay up to date with the latest progress. 
 
