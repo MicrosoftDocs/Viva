@@ -78,13 +78,11 @@ To turn on or off team insights:
     * Turn off team insights, select **Opt out**.
     * To turn on team insights, select **Opt in**.
 
-1. Select Save changes.
+1. Select **Save changes**.
 
 ## Available insights
 
 ### 1:1 time
-
-As a team member, you often collaborate with other team members to get work done. However, with your own tasks and busy schedules, you might not feel you’re really staying in touch with each of your teammates. Dedicated 1:1 time can help.
 
 As a people manager, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their role. One of the simplest coaching tools you have at your disposal is 1:1 time. Research by Microsoft has shown that people who get consistent 1:1 time with their manager are more engaged and view the manager's leadership more favorably.
 
