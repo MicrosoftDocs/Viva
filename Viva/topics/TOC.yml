@@ -40,6 +40,8 @@
           href: topic-experiences-administration.md
         - name: Add the Topics app to Teams
           href: add-topics-app.md
+        - name: Viva Topics in Yammer
+          href: topic-experiences-yammer.md
        
     - name: Work with topics
       items:
