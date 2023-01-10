@@ -59,11 +59,9 @@ Viva Insights automatically builds teams based on organizational data uploaded o
 
 Your team only includes people reporting directly to you as presented in Azure Active Directory or the file your admin uploads. This structure means three things:
 
-To keep teams accurate, your organization needs to regularly update Azure Active Directory or upload new HR files.
-
-If you don’t have at least one person reporting directly to you, as presented in the organizational data file, you won’t have access to Team insights.
-
-Because teams come directly from organizational data, you’re not able to edit members. People who don't have direct reports won't be able to access team insights.
+* To keep teams accurate, your organization needs to regularly update Azure Active Directory or upload new HR files.
+* If you don’t have at least one person reporting directly to you, as presented in the organizational data file, you won’t have access to Team insights.
+* Because teams come directly from organizational data, you’re not able to edit members. People who don't have direct reports won't be able to access team insights.
 
 >[!Note]
 >When your direct-reports list changes, your team meeting habits will reflect these changes in next week’s data.
