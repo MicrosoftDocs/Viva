@@ -20,6 +20,8 @@
       items:
         - name: Overview
           href: content-sources-365-admin-center.md
+        - Manage Catalog access in Viva Learning
+          href: manage-catalog-access-md 
         - name: Manage how content shows up in Viva Learning
           href: use-tabs.md
         - name: Creating Learning paths in Viva Learning
