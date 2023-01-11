@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Best practices for manager connectedness
 description: Get best practice recommendations for managers about connecting with their teams and employees
 author: madehmer

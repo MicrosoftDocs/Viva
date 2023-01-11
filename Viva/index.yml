@@ -77,7 +77,7 @@ tools:
 additionalContent:
   # Supports up to 4 subsections
   sections:
-    - title: Bring Microsoft Viva experiences to your organization # < 60 chars (optional)
+    - title: Enhance the employee experience in your organization # < 60 chars (optional)
       items:
         # Card
         - title: Connection
