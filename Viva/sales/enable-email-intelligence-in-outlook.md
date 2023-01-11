@@ -1,12 +1,15 @@
 ﻿---
-title: 
-description: 
-ms.date: 01/11/2023
+title: Allow email insights to be generated in Viva Sales
+description: Learn how to allow email insights to be generated in Viva Sales.
+ms.date: 01/18/2023
 ms.topic: article
-ms.service: dynamics-365-sales
+ms.service: viva
+ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
+ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
 # Enable email intelligence in Outlook

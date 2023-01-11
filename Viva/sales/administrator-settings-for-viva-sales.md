@@ -1,19 +1,22 @@
 ﻿---
-title: 
-description: 
-ms.date: 01/11/2023
+title: Administrator settings for Viva Sales
+description: Learn how to configure administrator settings for Viva Sales.
+ms.date: 01/18/2023
 ms.topic: article
-ms.service: dynamics-365-sales
+ms.service: viva
+ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
+ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
 # Administrator settings for Viva Sales
 
 As a CRM administrator, you can customize Viva Sales as per your business requirements. For example, customizing the CRM information displayed in Viva Sales across Outlook and Teams.
 
-You can access administrator settings from the Viva Sales app for Teams. The customization applies to the CRM environment you log in to Viva Sales from Outlook. If you want to customize Viva Sales in another environment, you must [switch environments in Outlook](#_Switch_environments).
+You can access administrator settings from the Viva Sales app for Teams. The customization applies to the CRM environment you log in to Viva Sales from Outlook. If you want to customize Viva Sales in another environment, you must switch environments in Outlook.
 
 When you open administrator settings, following tabs are available:
 
@@ -23,7 +26,8 @@ When you open administrator settings, following tabs are available:
 
 - **About**: Displays details of the Viva Sales app.
 
-**Note**: Administrator settings are visible only when you log in with your administrator credentials.
+> [!NOTE]
+> Administrator settings are visible only when you log in with your administrator credentials.
 
 **To access administrator settings**
 

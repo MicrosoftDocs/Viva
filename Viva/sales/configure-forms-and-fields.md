@@ -1,12 +1,15 @@
 ﻿---
-title: 
-description: 
-ms.date: 01/11/2023
+title: Configure the CRM information displayed in Viva Sales
+description: Learn how to configure the CRM information displayed in Viva Sales.
+ms.date: 01/18/2023
 ms.topic: article
-ms.service: dynamics-365-sales
+ms.service: viva
+ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
+ms.localizationpriority: medium
+ms.subservice: viva-sales
 ---
 
 # Configure forms and fields
@@ -47,11 +50,11 @@ Field names are displayed as follows:
 
 ![Screenshot showing how to add fields to a CRM record in Viva Sales ](media/viva-sales-add-fields.png "Screenshot showing how to add fields to a CRM record in Viva Sales.")
 
-**\[Notes**:
 
--   You can add out-of-the-box and custom fields to a record's form.
 
--   You can add a maximum of 40 fields.\]
+> [!NOTE]
+> - You can add out-of-the-box and custom fields to a record's form.
+> - You can add a maximum of 40 fields.
 
 4.  In the **Add fields** window, select the fields you want to add to the form, and then select **Add**.
 
