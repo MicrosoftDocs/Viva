@@ -170,7 +170,7 @@ Following fields are not allowed to be added from the admin settings page:
 
 -   Entity Id
 
--   All fields where **IsValidODataAttribute** is set to false. More information: [AttributeMetadata.IsValidODataAttribute Property (Microsoft.Xrm.Sdk.Metadata) \| Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/microsoft.xrm.sdk.metadata.attributemetadata.isvalidodataattribute?view=dataverse-sdk-latest)
+-   All fields where **IsValidODataAttribute** is set to false. More information: [AttributeMetadata.IsValidODataAttribute Property (Microsoft.Xrm.Sdk.Metadata) | Microsoft Learn](/dotnet/api/microsoft.xrm.sdk.metadata.attributemetadata.isvalidodataattribute?view=dataverse-sdk-latest)
 
 **Salesforce**
 
