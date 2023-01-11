@@ -1,6 +1,6 @@
 ---
 title: Person query
-description: Learn how to run a custom Person query in the Microsoft Viva Insights advanced insights app
+description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -14,7 +14,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Create a custom Person query
+# Create a custom person query
 
 >[!Tip]
 > You can find a demo video, download sample results, and go through a **Show me how** explanation while you’re building your query. Select these options just above **Query setup**.
@@ -25,6 +25,7 @@ Set up, select data for, and run your query by following the steps and guidance 
 ### Query setup
 
 In **Query setup**, you define some basic information about your query, like its name, the time period it will analyze, and whether it will refresh on its own.
+
 
 #### To set up your query
 
@@ -152,9 +153,9 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
 After your query runs, access its results in the **Query results** page. On the **Query results** page, you can also edit and clone your query. For further information, refer to [Access query results and modify existing queries](./query-results.md).
 
-## Example Person query for after-hours communication
+## Example person query for after-hours communication
 
-Let’s say you wanted to run a Custom Person query to find out how often managers are emailing and sending Teams chats after their working hours. You want to:
+Let’s say you wanted to run a custom person query to find out how often managers are emailing and sending Teams chats after their working hours. You want to:
 
 * Analyze your company’s “West” organization only, which is provided in your employee data.
 * See data for the last six months, grouped by month.
