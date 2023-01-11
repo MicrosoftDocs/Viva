@@ -152,9 +152,9 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 
 After your query runs, access its results in the **Query results** page. On the **Query results** page, you can also edit and clone your query. For further information, refer to [Access query results and modify existing queries](./query-results.md).
 
-## Example Person query for after-hours communication
+## Example person query for after-hours communication
 
-Let’s say you wanted to run a Custom Person query to find out how often managers are emailing and sending Teams chats after their working hours. You want to:
+Let’s say you wanted to run a custom person query to find out how often managers are emailing and sending Teams chats after their working hours. You want to:
 
 * Analyze your company’s “West” organization only, which is provided in your employee data.
 * See data for the last six months, grouped by month.
