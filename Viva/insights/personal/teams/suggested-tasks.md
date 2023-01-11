@@ -17,7 +17,7 @@ audience: user
 
 In the **Productivity** tab, use the **Suggested tasks** section to stay connected with your collaborators and improve your productivity.
 
-:::image type="content" source="images/productivity-suggested-tasks2.png" alt-text="Screenshot that shows the Suggested tasks page." :::
+:::image type="content" source="images/productivity-suggested-tasks3.png" alt-text="Screenshot that shows the Suggested tasks page." :::
 
 In **Suggested tasks**, you can:
 
@@ -43,11 +43,12 @@ To unpin a contact, select the **unpin** icon:
 :::image type="content" source="images/productivity-suggested-tasks-unpin.png" alt-text="Screenshot that shows an unpin icon highlighted beneath a user's name and profile image.":::
 
 ## Stay on top of commitments, requests, and follow-ups
-It's easy to lose track of commitments you've made to your colleagues over email. This insight helps you make sure that nothing falls through the cracks by reminding you of tasks you've agreed to do. It is based on emails that you've sent and requests from your colleagues during the last 14 days of email communication, and includes:
 
-* Commitments – Things you promised or committed to do for someone else over email
-* Requests – Things that other people asked you to do over email
-* Follow-ups – Things that you asked for from other over email
+It's easy to lose track of commitments made over email. To help make sure nothing falls through the cracks, this insight reminds you of tasks you've agreed to do, and others have agreed to do for you, over the last 14 days of email communication. You might find reminders for:
+
+* **Commitments**, which are things you promised or committed to do for someone else over email.
+* **Requests**, which are things that other people asked you to do over email.
+* **Follow-ups**, which are things that you asked for from others over email.
 
 Here's an example of a commitment. After it's complete, you can mark it as **Done**.
 
@@ -61,14 +62,13 @@ Searching for that document you planned to read but just can't find it? With so 
 
 When Viva Insights suggests catching up on an unread document, select **Open** to read it.
 
-:::image type="content" source="images/productivity-suggested-tasks-unread-doc1.png" alt-text="Screenshot that shows an unpin icon highlighted beneath a user's name and profile image.":::
-
+:::image type="content" source="images/productivity-suggested-tasks-unread-doc2.png" alt-text="Screenshot that shows an unread document notification.":::
 
 ## Get @mentions from pinned important contacts 
 
 @mention is a common way to tag colleagues on important work items. Viva Insights can help you quickly triage recent @mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up.
 
-:::image type="content" source="images/suggested-tasks-@mention.png" alt-text="Screenshot that shows an @mention for a pinned important contact, which the message text and title.":::
+:::image type="content" source="images/productivity-suggested-tasks-@mention1.png" alt-text="Screenshot that shows an @mention for a pinned important contact, which the message text and title.":::
 
 ## RSVP to upcoming meetings 
 
@@ -76,7 +76,7 @@ Letting your colleagues know if you can join their meeting helps them run more e
 
 Select the **RSVP** button to **Accept** or **Decline** the meeting invitation. You can also select the meeting name for more information about the event.
 
-:::image type="content" source="images/suggested-tasks-rsvp.png" alt-text="Screenshot that shows a notification that the user hasn't RSVP'd for a meeting, which includes a RSVP button.":::
+:::image type="content" source="images/productivity-suggested-tasks-rsvp1.png" alt-text="Screenshot that shows a notification that the user hasn't RSVP'd for a meeting, which includes a RSVP button.":::
 
 ## Related topics
 
