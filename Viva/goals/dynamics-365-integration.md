@@ -23,7 +23,7 @@ description: "Learn how to integrate Dynamics 365 with Viva Goals."
 
 Dynamics 365 is an Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) solution provider that includes many intelligent business applications such as Sales, Customer Service, Marketing, Project Service, Field Service, Social Engagement, HR, and more.
 
-The Viva Goals integration with Dynamics 365 enables you to automatically update your Key results and Projects with metrics from any of the Dynamics 365 apps, allowing leaders and managers to obtain an holistic view of business operations within Viva Goals. 
+The Viva Goals integration with Dynamics 365 enables you to automatically update your Key results and Projects with metrics from any of the Dynamics 365 apps, allowing leaders and managers to obtain a holistic view of business operations within Viva Goals. 
   
 ## How to set up Dynamics 365 integration 
 
@@ -43,7 +43,7 @@ Once the tenant admin enables the integration, the Dynamics 365 integration will
 
 An organization admin can follow these steps to enable the Dynamics 365 integration within a specific Viva Goals organization.
 
-1. Login to Viva Goals as an organization admin.
+1. Log in to Viva Goals as an organization admin.
 2. Select **Admin** from the navigation side bar, followed by **integrations**.
 
 :::image type="content" source="../media/goals/dynmaics-365-integration/admin-integrations.png" alt-text="Screenshot of the integration page in the admin area of Viva Goals." lightbox="../media/goals/dynmaics-365-integration/admin-integrations.png":::
@@ -56,7 +56,7 @@ An organization admin can follow these steps to enable the Dynamics 365 integrat
 
 :::image type="content" source="../media/goals/dynmaics-365-integration/admin-detail-page.png" alt-text="Screenshot showing the admin detail page when setting up the Dynamics 365 integration." lightbox="../media/goals/dynmaics-365-integration/admin-detail-page.png":::
 
-:::image type="content" source="../media/goals/dynmaics-365-integration/admin-connection-form.png" alt-text="Screenshot of how to login." lightbox="../media/goals/dynmaics-365-integration/admin-connection-form.png":::
+:::image type="content" source="../media/goals/dynmaics-365-integration/admin-connection-form.png" alt-text="Screenshot of how to log in." lightbox="../media/goals/dynmaics-365-integration/admin-connection-form.png":::
 
 5. Select **next** to complete setup.
 
