@@ -14,7 +14,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Create a custom Person query
+# Create a custom person query
 
 >[!Tip]
 > You can find a demo video, download sample results, and go through a **Show me how** explanation while you’re building your query. Select these options just above **Query setup**.
