@@ -133,15 +133,10 @@ items:
                 href: personal/overview/activity-report.md
       - name: Team and organization insights
         items:
-        - name: Setup
-          href: org-team-insights/setup.md
-          items:
-          - name: Team insights FAQ
-            href: org-team-insights/teamwork-habits-faq.md
         - name: Organization insights
-          items:
-          - name: Organization insights   
-            href: org-team-insights/org-insights.md
+          href: org-team-insights/org-insights.md
+        - name: Team insights 
+          href: org-team-insights/team-insights.md
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
