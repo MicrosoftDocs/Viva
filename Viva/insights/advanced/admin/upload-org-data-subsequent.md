@@ -146,6 +146,7 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     >[!Tip]
     > Hover over an attribute name to read its description. 
     > :::image type="content" source="../images/admin-hover-attribute.png" alt-text="Screenshot that shows hovering over an attribute.":::
+    >
     >If you’re *updating* data, you can choose to only see the new columns you’ve added or column headers you’ve changed. To do so, select the **Show invalid fields only** toggle.
 2. Repeat steps 4a and 4b for custom and optional fields.
     * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it. For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
