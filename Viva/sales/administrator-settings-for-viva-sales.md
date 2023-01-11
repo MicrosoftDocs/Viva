@@ -35,18 +35,18 @@ When you open administrator settings, following tabs are available:
 
 2.  In the app bar on the left, select **Viva Sales**.
 
-If **Viva Sales** is not visible, select **More added apps** (**…**), and then select **Viva Sales**.
-
-&lt;&lt;image&gt;&gt;
-
-The **Viva Sales** app is opened with the **Home** tab selected.
-
-![Screenshot showing Viva Sales Home tab ](media/viva-sales-home.png "Screenshot showing Viva Sales Home tab.")
+    If **Viva Sales** is not visible, select **More added apps** (**…**), and then select **Viva Sales**.
+    
+    &lt;&lt;image&gt;&gt;
+    
+    The **Viva Sales** app is opened with the **Home** tab selected.
+    
+    ![Screenshot showing Viva Sales Home tab ](media/viva-sales-home.png "Screenshot showing Viva Sales Home tab.")
 
 3.  On the **Settings** tab, select the required option, and update the settings.
 
-- **Forms**: Allows you to specify what information should be displayed in Viva Sales across Outlook and Teams. You can also choose to restrict editing to a CRM record type or specific fields in a record type. More information: [Configure forms and fields](configure-forms-and-fields.md)
-
-- **Email**: Allows you to select if email insights should be visible to sellers. More information: [Enable email intelligence in Outlook](enable-email-intelligence-in-outlook.md)
+    - **Forms**: Allows you to specify what information should be displayed in Viva Sales across Outlook and Teams. You can also choose to restrict editing to a CRM record type or specific fields in a record type. More information: [Configure forms and fields](configure-forms-and-fields.md)
+    
+    - **Email**: Allows you to select if email insights should be visible to sellers. More information: [Enable email intelligence in Outlook](enable-email-intelligence-in-outlook.md)
 
 

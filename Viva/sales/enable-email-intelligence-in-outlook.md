@@ -20,5 +20,5 @@ As an administrator, you can allow Viva Sales to analyze the text of emails in O
 
 2.  Turn on the **Show insights** toggle.
 
-![Screenshot showing how to get enable email insights ](media/viva-sales-enable-insights.png "Screenshot showing how to get enable email insights.")
+    ![Screenshot showing how to get enable email insights ](media/viva-sales-enable-insights.png "Screenshot showing how to get enable email insights.")
 
