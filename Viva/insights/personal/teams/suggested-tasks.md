@@ -15,22 +15,23 @@ audience: user
 
 # Suggested tasks
 
-Use **Suggested tasks** in the Microsoft Viva Insights app to stay connected with your collaborators and improve your productivity.
+In the **Productivity** tab, use the **Suggested tasks** section to stay connected with your collaborators and improve your productivity.
 
-:::image type="content" source="images/productivity-suggested-tasks.png" alt-text="Screenshot that shows the Suggested tasks page." :::
+:::image type="content" source="images/productivity-suggested-tasks2.png" alt-text="Screenshot that shows the Suggested tasks page." :::
 
-**Suggested tasks** includes the following insights:
+In **Suggested tasks**, you can:
 
-* [Identify and pin important collaborators](#identify-and-pin-important-collaborators)  
-* [Stay on top of outstanding task suggestions](#stay-on-top-of-outstanding-task-suggestions) 
-* [@Mentions for pinned important contacts](#-for-pinned-important-contacts)
-* [Upcoming meetings that need your RSVP](#upcoming-meetings-that-need-your-rsvp)
+* [Identify and pin important collaborators](#identify-and-pin-important-collaborators).  
+* [Stay on top of commitments, requests, and follow-ups](#stay-on-top-of-commitments-requests-and-follow-ups). 
+* [Catch up on unread documents shared with you](#catch-up-on-unread-documents-shared-with-you).
+* [Get @mentions from pinned important contacts](#get-mentions-from-pinned-important-contacts).
+* [RSVP to upcoming meetings](#rsvp-to-upcoming-meetings).
  
 ## Identify and pin important collaborators  
 
-You might receive insights from various people but some items might deserve more attention than others. For example, an outstanding task suggestion from your manager or a message from a key customer would likely be of higher priority.  
+While you might get insights from various people, some items might deserve more attention than others. For example, an outstanding task suggestion from your manager or a message from a key customer would probably be of higher priority.  
 
-Based on your collaboration patterns, you can pin some of your contacts as important. All insights from pinned important contacts are shown with higher priority at the top of the page.  
+Based on your collaboration patterns, you can pin some of your contacts as important. All insights from pinned important contacts are shown with higher priority at the top of the **Suggested tasks** section.  
 
 To pin a contact, select the **pin** icon on the bottom left below the contact’s name:
 
@@ -41,18 +42,18 @@ To unpin a contact, select the **unpin** icon:
 
 :::image type="content" source="images/productivity-suggested-tasks-unpin.png" alt-text="Screenshot that shows an unpin icon highlighted beneath a user's name and profile image.":::
 
-## Stay on top of outstanding task suggestions
-
+## Stay on top of commitments, requests, and follow-ups
 It's easy to lose track of commitments you've made to your colleagues over email. This insight helps you make sure that nothing falls through the cracks by reminding you of tasks you've agreed to do. It is based on emails that you've sent and requests from your colleagues during the last 14 days of email communication, and includes:
 
-Commitments – Something that you promised or committed to do for someone else in an email
-Requests – Something that another person asked you to do in an email
-Follow-ups – Something that you asked for from someone else in an email
-In the following example, you can select Re: Sync up on Regression Tests to open the email in which you can follow up or select Done to confirm that you’ve already followed up.
+* Commitments – Things you promised or committed to do for someone else over email
+* Requests – Things that other people asked you to do over email
+* Follow-ups – Things that you asked for from other over email
 
-Screenshot that shows task about a meeting called Sync on regression tests email.
+Here's an example of a commitment. After it's complete, you can mark it as **Done**.
 
-This insight is available in the languages listed in Briefing languages.
+:::image type="content" source="images/productivity-suggested-tasks-commitment.png" alt-text="Screenshot that shows a commitment task notification.":::
+
+This insight is available in the languages listed in [Briefing languages](../briefing/be-languages.md).
 
 ## Catch up on unread documents shared with you
 
@@ -63,13 +64,13 @@ When Viva Insights suggests catching up on an unread document, select **Open** t
 :::image type="content" source="images/productivity-suggested-tasks-unread-doc1.png" alt-text="Screenshot that shows an unpin icon highlighted beneath a user's name and profile image.":::
 
 
-## @Mentions for pinned important contacts 
+## Get @mentions from pinned important contacts 
 
-@Mention is a common way to tag colleagues on important work items. Microsoft Viva Insights can help you quickly triage recent @Mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up.
+@mention is a common way to tag colleagues on important work items. Viva Insights can help you quickly triage recent @mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up.
 
-:::image type="content" source="images/suggested-tasks-@mention.png" alt-text="Screenshot that shows an @ mention for a pinned important contact, which the message text and title.":::
+:::image type="content" source="images/suggested-tasks-@mention.png" alt-text="Screenshot that shows an @mention for a pinned important contact, which the message text and title.":::
 
-## Upcoming meetings that need your RSVP 
+## RSVP to upcoming meetings 
 
 Letting your colleagues know if you can join their meeting helps them run more effective meetings. When they have meeting attendance information, meeting organizers can better plan and prepare for meetings, and reschedule them if they need to. 
 
