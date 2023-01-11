@@ -20,11 +20,13 @@ audience: Admin
 > You can find a demo video, download sample results, and go through a **Show me how** explanation while you’re building your query. Select these options just above **Query setup**.
 :::image type="content" source="../images/person-query-setup-help.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
 
-Set up, select data for, and run your query by following the steps and guidance in this section.
+## Getting the query ready
+
+In this section, we'll talk about setting up the query and selecting data for it. 
 
 ### Query setup
 
-In **Query setup**, you define some basic information about your query, like its name, the time period it will analyze, and whether it will refresh on its own.
+In the **Analysis** page's **Query setup** section, you define some basic information about your query, like its name, the time period it will analyze, and whether it will refresh on its own.
 
 #### To set up your query
 
@@ -187,7 +189,7 @@ Here’s how you might do that:
     1. Under **Select which employee attributes you want to include in the query**, select the **Select attributes** button.
     1. From the right pane, select **PopulationType**.
     1. Select the **Add to query** button.
-5. Run the query. On the upper right of the screen, select the **Run button**.
+5. Run the query. On the upper right of the screen, select the **Run** button.
 6. After the query successfully runs, find its results in the **Query results** page. To:
     1. Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
     1. **Edit**, **Edit query name**, **Clone**, **Favorite**, or **Delete** the query: Select the ellipses to the right of the **Downloads** column, then select the appropriate choice. 
