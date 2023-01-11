@@ -1,5 +1,5 @@
 ---
-title: "Work with external groups in Yammer networks not aligned to native mode"
+title: "Work with external groups in Viva Engage networks not aligned to native mode"
 f1.keywords:
 - NOCSH
 ms.author: v-jebizie
@@ -15,25 +15,25 @@ search.appverid:
 - MET150
 - YAE150
 ms.assetid: 9ccd15ce-0efc-4dc1-81bc-4a424ab6f92a
-description: "Learn about external groups in Yammer and how to opt out if you don't want external groups."
+description: "Learn about external groups in Viva Engage and how to opt out if you don't want external groups."
 ---
 
-# Work with external groups in Yammer networks not aligned to native mode
+# Work with external groups in Viva Engage networks not aligned to native mode
 
-You can work with guests in Yammer if your network isn’t aligned to native mode by creating an external group. You can also limit and turn off collaboration in external groups.
+You can work with guests in Viva Engage if your network isn’t aligned to native mode by creating an external group. You can also limit and turn off collaboration in external groups.
 
-This experience differs from working with the Yammer guest experience, which is powered by Azure Active Directory B2B and requires native mode. For a comparison of experiences, see [Collaborate with guests in a Yammer community](../work-with-external-users/collaborate-guests-external-yammer-community.md).
+This experience differs from working with the Viva Engage guest experience, which is powered by Azure Active Directory B2B and requires native mode. For a comparison of experiences, see [Collaborate with guests in a Yammer community](../work-with-external-users/collaborate-guests-external-yammer-community.md).
 
 >[!NOTE]
 >Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. For more information, see [Overview of Native Mode](../configure-your-yammer-network/overview-native-mode.md).
 
-## Create and manage external groups in Yammer
+## Create and manage external groups in Viva Engage
 
 You can create a group that includes guests, which is called an external group. You must create the group as an external group - you can't change an existing internal group to be an external group.
   
 The group admin can add guests to the group. In public external groups, others in the group can suggest adding a guest, but the group admin has control over whether that user is added, and has to approve the addition. In private external groups, only the admin can add external members.
   
-External groups look different than internal Yammer groups, so you can easily distinguish which groups have external participants. The group header for an external group shows that other networks are participating in the group.
+External groups look different than internal Viva Engage groups, so you can easily distinguish which groups have external participants. The group header for an external group shows that other networks are participating in the group.
   
 ![Screenshot of a Yammer group header, with a globe icon that shows that it is an external group.](../media/99bb31d5-4557-4abe-bfc3-74d9d377ac69.png)
   
@@ -44,13 +44,13 @@ External groups are marked with a globe icon in the left navigation.
 Users invited to participate in an external group hosted on a different network are required to accept the invitation before being able to view any content in the group.
 
 >[!NOTE] 
->This feature isn't available for Yammer Enterprise networks in Native Mode or the [EU Geo](../manage-security-and-compliance/data-residency.md).
+>This feature isn't available for Viva Engage Enterprise networks in Native Mode or the [EU Geo](../manage-security-and-compliance/data-residency.md).
   
 ## Create an external group
 
 When you create a group, you can decide if it is an internal or external group. You can't change this setting after you create the group.
   
-1. In Yammer, under the list of groups, select **Create Group**.
+1. In Viva Engage, under the list of groups, select **Create Group**.
     
     The **Create A New Group** dialog box opens. If your network allows external groups, you'll see options to create an Internal Group or External Group: 
     
@@ -72,16 +72,16 @@ When you create a group, you can decide if it is an internal or external group. 
     
 You can find external groups in your network the same way you find external users. For more information, see [Find external messaging participants in a Yammer network](find-external-participants.md).
 
-## Find external messaging participants in a Yammer network
+## Find external messaging participants in a Viva Engage network
 
-When you communicate with outside partners, suppliers, or customers, you want to make sure only authorized personnel have access to the information on your Yammer network. Verified admins can use data export to find the names of [external participants](add-external-participants.md) to see which conversations and files in their network are visible to external participants.
+When you communicate with outside partners, suppliers, or customers, you want to make sure only authorized personnel have access to the information on your Viva Engage network. Verified admins can use data export to find the names of [external participants](add-external-participants.md) to see which conversations and files in their network are visible to external participants.
 
 >[!NOTE] 
->Yammer Enterprise networks in the [EU Geo](../manage-security-and-compliance/data-residency.md) do not have external participants.
+>Viva Engage Enterprise networks in the [EU Geo](../manage-security-and-compliance/data-residency.md) do not have external participants.
 
-1. In the Yammer admin center, go to **Content and Security** \> **Export data**.
+1. In the Viva Engage admin center, go to **Content and Security** \> **Export data**.
 
-    You'll only see this option if you are a verified admin in the Yammer network.
+    You'll only see this option if you are a verified admin in the Viva Engage network.
 
     For more information, see [Export Yammer Enterprise data](../manage-security-and-compliance/export-yammer-enterprise-data.md).
 
@@ -93,15 +93,15 @@ When you communicate with outside partners, suppliers, or customers, you want to
     > [!div class="mx-imgBorder"]
     > ![Screenshot of an example data export file.](../media/90261f3d-0629-4fb6-bb42-33ed7eb3e99a.png)
   
-    Column **D** (external_participants) lists the users in other networks that participate in threads in your network, along with their name, email address, and the network ID of the Yammer network they belong to.
+    Column **D** (external_participants) lists the users in other networks that participate in threads in your network, along with their name, email address, and the network ID of the Viva Engage network they belong to.
 
 If you want to remove an external participant, you can use the information from the list to go to the conversation they're included in and remove them from the conversation. 
 
-## Disable external messaging in a Yammer network
+## Disable external messaging in a Viva Engage network
 
-By default for Yammer Enterprise networks in the US Geo, users can add external participants to their Yammer conversations and Yammer communities and groups, and members of your Yammer network can participate in another company's Yammer network if invited. If needed, you can turn off this external collaboration.
+By default for Viva Engage Enterprise networks in the US Geo, users can add external participants to their Viva Engage conversations and Viva Engage communities and groups, and members of your Viva Engage network can participate in another company's Viva Engage network if invited. If needed, you can turn off this external collaboration.
 
-1. In the Yammer admin center, go to **Content and Security** \> **Security Settings**.
+1. In the Viva Engage admin center, go to **Content and Security** \> **Security Settings**.
     
 2. In the **External Messaging** section, select the option that makes sense for your organization: 
 
@@ -121,11 +121,11 @@ By default for Yammer Enterprise networks in the US Geo, users can add external 
 
 1. When you prevent users from being able to participate in other networks:
 
-    - Users are blocked from receiving invitations from Yammer networks on other domains.
+    - Users are blocked from receiving invitations from Viva Engage networks on other domains.
 
 2. When you disable external access to your groups and conversations:
 
-    - When a user tries to add an external participant in Yammer, the user receives an error message stating that they are unable to add external participants because it violates their company's policy. The user won't be allowed to post the message. 
+    - When a user tries to add an external participant in Viva Engage, the user receives an error message stating that they are unable to add external participants because it violates their company's policy. The user won't be allowed to post the message. 
 
     - Any current external participants are blocked from using external conversations or threads that they may have been participating in.
 
