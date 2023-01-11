@@ -1,6 +1,6 @@
 ---
 title: Person query
-description: Learn how to run a custom Person query in the Microsoft Viva Insights advanced insights app
+description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -34,18 +34,18 @@ In **Query setup**, you define some basic information about your query, like its
 
 2. Under **Query setup**:
 
-    1. Optional: Name your query. Queries are assigned a default name, which follows this format: Query type, user ID, date, and time. Make sure the name is unique.
-    1. Optional: Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
+    1. Optional – Name your query. Queries are assigned a default name, which follows this format: Query type, user ID, date, and time. Make sure the name is unique.
+    1. Optional – Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
     :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Time period dropdown.":::
     :::image type="content" source="../images/person-query-timeperiod-datepicker.png" alt-text="Time period with date pickers highlighted.":::
-    1. Optional: Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
+    1. Optional – Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every Viva Insights gets updated collaboration data for licensed people. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
         :::image type="content" source="../images/person-query-auto-refresh1.png" alt-text="Time period with Auto-Refresh highlighted.":::
     >[!Note]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
 
-    4. Optional: Type a **Description**.
+    4. Optional – Type a **Description**.
 
-    1. Optional: Set how the query is grouped. By default, custom Person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
+    1. Optional – Set how the query is grouped. By default, custom Person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
         :::image type="content" source="../images/more-settings.png" alt-text="Description box with More Settings button highlighted.":::
         Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
     >[!Note]
