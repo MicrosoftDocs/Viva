@@ -1,6 +1,6 @@
 ---
 title: Access query results and modify existing queries
-description: Learn how to run a custom Person query in the Microsoft Viva Insights advanced insights app
+description: Learn how to access query results in the advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -58,8 +58,6 @@ When a query successfully runs, you’ll see a green checkmark within a green ci
 
 ![Screenshot that shows a query's Success status.](../images/query-results-status-success.png)
 
-
-
 #### Failed
 
 If an error occurs while a query is running, you’ll see a **Failed** status. 
@@ -68,17 +66,33 @@ If an error occurs while a query is running, you’ll see a **Failed** status.
 
 ### Results filters
 
+#### Predefined filters
+
 There are some predefined views on the **Query results** page:
 
 * **My results** – Queries only you’ve run
 * **All results** – Queries all analysts in your organization have run
 * **Favorites** – Queries you’ve marked as **Favorite**
 * **Power BI templates** – Predefined queries all analysts in your organization have run for Power BI templates (for example, Ways of working)
-* **Custom queries** – Custom Person queries all analysts in your organization have run
+* **Custom queries** – Custom person queries all analysts in your organization have run
+
+#### Content filters
+
+In addition to predefined results filters, you can also add a custom content filter. With a content filter, narrow results by who ran the query, which Power BI template it's for, whether auto-refresh is on, and query type.
+
+To access content filters, select the **+** icon to the right of the **Custom queries** filter button. 
+
+![Custom content filter](../images/query-results-add-content-filter.png)
+
+Then, use the dropdown menus to select your filter.
+
+![Custom content filter](../images/query-results-select-content-filter.png)
+
+You can only have one content filter active at a time.
 
 ### Setting the query to auto-refresh
 
-If you ran a query and want it to recur on a certain schedule, you can set the **Auto-Refresh** toggle key to **On**. Analysts who didn’t run a query can’t set it to auto-refresh.
+If you ran a query and want it to recur on a certain schedule, you can set the **Auto-Refresh** toggle key to **On**. Analysts who didn’t run a query can’t turn on auto-refresh for it.
 
 ### More options
 
@@ -152,6 +166,8 @@ When you define a query, you select metrics and employee attributes. After the q
 1.	In **Query results**, next to the results you want, select the CSV icon.
 2.	Select to open and right-click the zip file, which contains a .csv version of the data, and then select **Extract All** and extract the .csv to a local folder.
 3. Open the extracted .csv file using Excel.
+
+Here's an example of a results file:
 
 ![Query recurrence toggle with tooltip](../images/query-csv-output.png)
 
