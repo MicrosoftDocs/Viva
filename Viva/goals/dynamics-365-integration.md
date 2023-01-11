@@ -31,7 +31,7 @@ The Viva Goals integration with Dynamics 365 enables you to automatically update
 
 The tenant administrator can enable Dynamics 365 integration for all Viva Goals organizations with their tenant by following the steps below:  
 
-1. Login to Viva Goals as Tenant admin and go to [https://goals.microsoft.com/organizations](https://goals.microsoft.com/organizations).
+1. Log in to Viva Goals as Tenant admin and go to [https://goals.microsoft.com/organizations](https://goals.microsoft.com/organizations).
 1. Click **settings.**
 1. Under the Integrations section, enable the Dynamics 365 integration by toggling the status. 
  :::image type="content" source="../media/goals/dynmaics-365-integration/tenant-admin-settings.png" alt-text="Screenshot of tenant admin settings page." lightbox="../media/goals/dynmaics-365-integration/tenant-admin-settings.png":::
