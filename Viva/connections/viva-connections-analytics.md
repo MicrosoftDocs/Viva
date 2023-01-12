@@ -125,16 +125,6 @@ Your organization might not want to see analytics data due to local data and com
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## Learn more
 
 [Overview: Viva Connections](/viva/connections/viva-connections-overview)
