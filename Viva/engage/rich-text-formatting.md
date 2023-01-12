@@ -1,5 +1,5 @@
 ---
-title: "Rich text formatting for Yammer messages"
+title: "Rich text formatting for Viva Engage messages"
 f1.keywords:
 - NOCSH
 ms.author: pamgreen
@@ -15,18 +15,16 @@ search.appverid:
 - MET150
 - MOE150
 - YAE150
-description: "Users can now format Yammer posts using bold, italic, bullets, numbered lists, and links. "
+description: "Users can now format Viva Engage posts using bold, italic, bullets, numbered lists, and links. "
 ---
 
-# Rich text formatting Yammer messages
+# Rich text formatting Viva Engage messages
  
-Beginning March 15, 2019, we are rolling out rich text formatting for Yammer posts. This includes bold, italic, links, bullets, and numbered lists.
+Beginning March 15, 2019, we are rolling out rich text formatting for Viva Engage posts. This includes bold, italic, links, bullets, and numbered lists.
 
-Composing messages with rich text formatting is only available on the web client and Yammer desktop.
+Composing messages with rich text formatting is only available on the web client and Viva Engage app. 
 
-- Mobile Yammer apps will display formatted messages, but users can't edit those messages or format new messages from the mobile device.
-
-- Composing and viewing formatted messages won't be available immediately on the Yammer SharePoint web part or Yammer tab in Teams. This functionality will be added later in 2019.
+- Composing and viewing formatted messages won't be available immediately on the Viva Engage SharePoint web part or Viva Engage tab in Teams. This functionality will be added later in 2019.
 
 ## How do I know if we have rich text available?
 
