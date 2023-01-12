@@ -25,13 +25,13 @@ While you’ll stop receiving the Briefing email for a while, you’ll still hav
 
 In your daily Briefing, you might have found the day's first three meetings that had at least one suggested action, like reviewing a related document. 
 
-**Where you'll find a similar feature:** *Viva Insights Outlook add-in*, *Reminders and calendar peek in Outlook*, and *the My Day panel in Outlook on the web*
+**Where you'll find a similar feature:** *Viva Insights Outlook add-in*, *Reminders, calendar peek, and the My Day panel in Outlook*
 
 The Viva Insights Outlook add-in includes a [Prepare for your meetings](../use/use-insights.md#prepare-for-your-meetings) section, which shows you a list of upcoming meetings that you've organized or that you've been invited to for the next seven days. Select this card for key insights per meeting, like percentage of invitees who have accepted. 
 
 :::image type="content" source="../../Images/MyA/reference/oai-prepare-meetings-card.png" alt-text="Screenshot of the Prepare for your meetings card in the Viva Insights Outlook add-in.":::
 
-While you're in Outlook, you might also use the reminders and calendar peek features, described in [Use intelligent technology in Outlook on the web and Outlook.com](https://support.microsoft.com/en-us/office/use-intelligent-technology-in-outlook-on-the-web-and-outlook-com-24b30683-8340-4b69-b8ac-4193ec528a70). If you're in Outlook on the web, the **My Day** panel shows you the day's meetings, along with a count of who's coming and suggested pre-read documents. 
+You might also use the reminders, calendar peek, and **My Day** panel features, described in [Use intelligent technology in Outlook on the web and Outlook.com](https://support.microsoft.com/en-us/office/use-intelligent-technology-in-outlook-on-the-web-and-outlook-com-24b30683-8340-4b69-b8ac-4193ec528a70). 
 
 ## Follow up on outstanding tasks 
 
