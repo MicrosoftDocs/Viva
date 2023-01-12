@@ -27,4 +27,35 @@
     - name: Viva Sales
       tocHref: /viva/sales/
       topicHref: /viva/sales/introduction
-      
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Learning
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/learning/index
+      items:
+      - name: Viva Learning troubleshooting
+        tocHref: /viva/troubleshoot/learning/
+        topicHref: /viva/learning/index
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Connections
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/connections/viva-connections-overview
+      items:
+      - name: Viva Connections troubleshooting
+        tocHref: /viva/troubleshoot/connections/
+        topicHref: /viva/connections/viva-connections-overview
