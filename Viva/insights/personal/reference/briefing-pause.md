@@ -35,15 +35,15 @@ You might also use the reminders, calendar peek, and **My Day** panel features:
 
 * **Reminders** typically show up in Outlook 15 minutes before a scheduled event on your calendar. If there's related pre-read information, like a shared document, the reminder will show that as well.
 
-    :::image type="content" source="../../Images/MyA/reference/reminder.png" alt-text="Screenshot of a meeting reminder.":::
+    :::image type="content" source="../../Images/MyA/reference/reminder2.png" alt-text="Screenshot of a meeting reminder.":::
 
 * **Calendar peek** appears in Outlook's right panel when you select a meeting in the calendar view. This feature provides information about the meeting itself, the organizer and count of attendees, text from the invite, attached documents, and your RSVP status.
 
-    :::image type="content" source="../../Images/MyA/reference/outlook-event1.png" alt-text="Screenshot of the calendar peek meeting insight.":::
+    :::image type="content" source="../../Images/MyA/reference/outlook-event.png" alt-text="Screenshot of the calendar peek meeting insight.":::
 
 * The **My Day** panel shows what's on your schedule for the current day, including your meetings and their related information. When you're in Outlook in your browser, select the **My Day** icon in the top-right of your window.
 
-    :::image type="content" source="../../Images/MyA/reference/my-day.png" alt-text="Screenshot of the My Day tab in Outlook.":::
+    :::image type="content" source="../../Images/MyA/reference/my-day1.png" alt-text="Screenshot of the My Day tab in Outlook.":::
 
 These features are detailed in [Use intelligent technology in Outlook on the web and Outlook.com](https://support.microsoft.com/en-us/office/use-intelligent-technology-in-outlook-on-the-web-and-outlook-com-24b30683-8340-4b69-b8ac-4193ec528a70), under the **Meeting Insights** section.
 
