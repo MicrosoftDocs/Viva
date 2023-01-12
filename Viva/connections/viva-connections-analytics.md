@@ -87,12 +87,12 @@ Your organization might not want to see analytics data due to local data and com
 
 2.	Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-3.	Connect to tenant's SharePoint service by running below command: 
+3.	Connect to tenant's SharePoint service by running the following command: 
 
     Run `Connect-SPOService -Url <sharepoint admin URL> -Credential <credentials>`
 
 4.	Enter the password in the password prompt.
-5.	Run `Get-SPOTenant` to view the Tenant admin Settings.
+5.	Run `Get-SPOTenant` to view the tenant admin Settings.
 6.	Locate the "DisableVivaConnectionsAnalytics" setting.
 7.	Enable or disable the setting by running the following command:
 
