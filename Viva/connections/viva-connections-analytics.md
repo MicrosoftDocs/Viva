@@ -76,6 +76,31 @@ Learn more about the platforms used to access Viva Connections.
 - **Microsoft Teams mobile:** Usage in the Teams app for mobile.
 - **SharePoint:** Usage with the Dashboard, Feed, and Resources in the SharePoint app for desktop, web, and mobile.
 
+
+## How to to disable analytics features
+Your organization might not want to see analytics data due to local data and compliance regulations or other reasons. The following steps can be followed to disable the Viva Connections analytics feature using PowerShell:
+
+1.	[Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+>[!NOTE]
+> - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell."
+
+2.	Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
+3.	Connect to tenant's SharePoint service by running below command: 
+
+    Run `Connect-SPOService -Url <sharepoint admin URL> -Credential <credentials>`
+
+4.	Enter the password in the password prompt.
+5.	Run `Get-SPOTenant to view the Tenant admin Settings`
+6.	Locate the "DisableVivaConnectionsAnalytics" setting.
+7.	Enable or disable the setting by running the following command:
+
+    Run `Set-SPOTenant -DisableVivaConnectionsAnalytics $True`
+8.	Run `Get-SPOTenant to confirm the setting is updated`
+
+
+
 ## Explanations for common report errors
 
 You may see an error in the Analytics section. Review common errors to learn more about how to resolve them so you can download reports to view usage data for Viva Connections. 
@@ -100,28 +125,6 @@ Once the report is downloaded, you may notice that the report, or certain sectio
 
 You may get the following message: "Viva Connections usage data has been disabled for your organization by your administrator." This means you will not be able to access usage reports unless your admin enables the feature for your organization.
 
-
-## How to to disable analytics features
-Your organization might not want to see analytics data due to local data and compliance regulations or other reasons. The following steps can be followed to disable the Viva Connections analytics feature using PowerShell:
-
-1.	[Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
->[!NOTE]
-> - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell."
-
-2.	Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-
-3.	Connect to tenant's SharePoint service by running below command: 
-
-    Run `Connect-SPOService -Url <sharepoint admin URL> -Credential <credentials>`
-
-4.	Enter the password in the password prompt.
-5.	Run `Get-SPOTenant to view the Tenant admin Settings`
-6.	Locate the "DisableVivaConnectionsAnalytics" setting.
-7.	Enable or disable the setting by running the following command:
-
-    Run `Set-SPOTenant -DisableVivaConnectionsAnalytics $True`
-8.	Run `Get-SPOTenant to confirm the setting is updated`
 
 
 
