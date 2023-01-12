@@ -39,7 +39,7 @@ You might also use the reminders, calendar peek, and **My Day** panel features:
 
 * **Calendar peek** appears in Outlook's right panel when you select a meeting in the calendar view. This feature provides information about the meeting itself, the organizer and count of attendees, text from the invite, attached documents, and your RSVP status.
 
-    :::image type="content" source="../../Images/MyA/reference/outlook-event.png" alt-text="Screenshot of the calendar peek meeting insight.":::
+    :::image type="content" source="../../Images/MyA/reference/outlook-event1.png" alt-text="Screenshot of the calendar peek meeting insight.":::
 
 * The **My Day** panel shows what's on your schedule for the current day, including your meetings and their related information. When you're in Outlook in your browser, select the **My Day** icon in the top-right of your window.
 
