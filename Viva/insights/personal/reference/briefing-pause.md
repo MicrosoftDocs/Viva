@@ -31,13 +31,27 @@ The Viva Insights Outlook add-in includes a [Prepare for your meetings](../use/u
 
 :::image type="content" source="../../Images/MyA/reference/oai-prepare-meetings-card.png" alt-text="Screenshot of the Prepare for your meetings card in the Viva Insights Outlook add-in.":::
 
-You might also use the reminders, calendar peek, and **My Day** panel features, described in [Use intelligent technology in Outlook on the web and Outlook.com](https://support.microsoft.com/en-us/office/use-intelligent-technology-in-outlook-on-the-web-and-outlook-com-24b30683-8340-4b69-b8ac-4193ec528a70). 
+You might also use the reminders, calendar peek, and **My Day** panel features:
+
+* **Reminders** typically show up in Outlook 15 minutes before a scheduled event on your calendar. If there's related pre-read information, like a shared document, the reminder will show that as well.
+:::image type="content" source="../../Images/MyA/reference/reminder.png" alt-text="Screenshot of the calendar peek meeting insight.":::
+
+
+
+* **Calendar peek** appears in Outlook's right panel when you select a meeting in the calendar view. This feature provides information about the meeting itself, the organizer and count of attendees, text from the invite, attached documents, and your RSVP status.
+:::image type="content" source="../../Images/MyA/reference/outlook-event.png" alt-text="Screenshot of the calendar peek meeting insight.":::
+
+* The **My Day** panel shows what's on your schedule for the current day, including your meetings and their related information. When you're in Outlook in your browser, select the **My Day** icon in the top ribbon.
+:::image type="content" source="../../Images/MyA/reference/my-day.png" alt-text="Screenshot of the My Day tab in Outlook.":::
+
+These features are detailed in [Use intelligent technology in Outlook on the web and Outlook.com](https://support.microsoft.com/en-us/office/use-intelligent-technology-in-outlook-on-the-web-and-outlook-com-24b30683-8340-4b69-b8ac-4193ec528a70), under the **Meeting Insights** section.
+
 
 ## Follow up on outstanding tasks 
 
 Based on your email activity, your Briefing might have shown you follow-up reminders for tasks.
 
-**Where you'll find a similar feature:** *Viva Insights Outlook add-in* and *Viva Insights app in Teams and on the web*
+**Where you'll find a similar feature:** *Viva Insights Outlook add-in*, *Viva Insights app in Teams and on the web*, and *To Do in Outlook*
 
 The Viva Insights Outlook add-in includes a [View outstanding tasks](../use/use-insights.md#view-outstanding-tasks) section with task reminders. These reminders are based on emails you've sent and requests your colleagues have emailed you over the last 14 days. The add-in also includes a [Follow up on your requests](../use/use-insights.md#follow-up-on-your-requests) section to help you check in on requests you've made to your colleagues. 
 
@@ -46,6 +60,10 @@ The Viva Insights Outlook add-in includes a [View outstanding tasks](../use/use-
 The **Stay connected** tab in the Viva Insights app in Teams and on the web also has a **Suggested tasks** section. If you've pinned people as important, you'll notice their tasks show up first, under **Pinned**.
 
 :::image type="content" source="../../Images/MyA/reference/suggested-tasks-teams.png" alt-text="Screenshot of the Suggested tasks section of the Viva Insights app's Stay connected tab, which shows all pinned-contacts tasks complete and one other task outstanding.":::
+
+When you're in Outlook in your browser, select the **My Day** icon **>** **To Do**. To Do shows you a list of tasks you've already added, and those that it's surfaced through email. Check off tasks you've done and add more here. Learn more about tasks in Outlook in the following article, under the **Manage all tasks** section: [Use tasks in Outlook.com](https://support.microsoft.com/en-us/office/use-tasks-in-outlook-com-6e8a991b-ea62-4009-a7f7-62b70a57ec18#bkmk_beta).
+
+:::image type="content" source="../../Images/MyA/reference/tasks.png" alt-text="Screenshot of the To Do tab of the My Day pane in Outlook.":::
 
 ## Protect time for focused work 
 
