@@ -37,7 +37,7 @@ After the data successfully validates and processes, the overall data-upload tas
 To upload your .csv file, follow these steps:
 
 1. In the **Organizational data** page, select **.csv upload**.
-     :::image type="content" source="../images/admin-data-hub.png" alt-text="Screenshot that shows the Organizational data page hub.":::
+     :::image type="content" source="../images/admin-data-hub.png" alt-text="Screenshot that shows the Organizational data page hub." lightbox="../images/admin-data-hub.png":::
 
 1. Enter an **Upload name**.
 1. Under **Upload file**, select the .csv file you want to upload. 
@@ -82,14 +82,14 @@ Custom fields are optional attributes you can create. The following section, ste
 
 Follow the steps below to map your .csv data to Viva Insights attributes. 
 
->[!Important]
->All .csv header fields, which appear under **Source column name**, need to be mapped before you can move on to the next part of the upload process.
+> [!Important]
+> All .csv header fields, which appear under **Source column name**, need to be mapped before you can move on to the next part of the upload process.
 
 1. For each required Viva Insights field:
     1. Find the corresponding column header under **Source column name**. To prevent a validation error later, make sure this column is the right data type.
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a. 
      
-    :::image type="content" source="../images/admin-map.png" alt-text="Screenshot that shows mapping Viva attributes.":::
+    :::image type="content" source="../images/admin-map.png" alt-text="Screenshot that shows mapping Viva attributes." lightbox="../images/admin-map.png":::
 
     >[!Tip]
     > Hover over an attribute name to read its description.
@@ -135,12 +135,12 @@ When processing succeeds, you’ll see a “Success” status in the **Upload or
 After you receive the “Success” status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
-:::image type="content" source="../images/admin-upload-results.png" alt-text="Screenshot that shows validation results.":::
+:::image type="content" source="../images/admin-upload-results.png" alt-text="Screenshot that shows validation results." lightbox="../images/admin-upload-results.png":::
 * Select the mapping icon to see the mapping settings for the workflow.
-:::image type="content" source="../images/admin-map-results.png" alt-text="Screenshot that shows mapping settings.":::
+:::image type="content" source="../images/admin-map-results.png" alt-text="Screenshot that shows mapping settings." lightbox="../images/admin-map-results.png":::
 
->[!Note]
->Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
+> [!Note]
+> Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
 
 #### Processing fails
 
