@@ -22,8 +22,8 @@ If organizational data has already been uploaded into the advanced insights app,
 
 Complete these steps after preparing the data as described in [Prepare organizational data](./prepare-org-data.md).
 
->[!Important]
->Only follow these steps if this is not the first time you’ve uploaded organizational data. If this is your first upload, follow the steps in [Upload organizational data (first upload)](upload-org-data-first.md).
+> [!Important]
+> Only follow these steps if this is not the first time you’ve uploaded organizational data. If this is your first upload, follow the steps in [Upload organizational data (first upload)](upload-org-data-first.md).
 
 ## Workflow
 
@@ -41,14 +41,15 @@ After the data successfully validates and processes, the overall data-upload tas
 All three actions share the same two first steps:
 
 1.	Select either the **Start** button on the **Data hub** tab or the **Edit or start new upload** button on the **Data connections** tab.
+
 :::image type="content" source="../images/admin-upload2-start-process.png" alt-text="Screenshot that shows Edit or start new upload option.":::
 
 2.	The resulting page lists three options:
     * **Update existing organizational data**
     * **Delete fields**
-    * **Upload a new file to replace existing organizational data** !
+    * **Upload a new file to replace existing organizational data**.
 
-    :::image type="content" source="../images/admin-upload2-options.png" alt-text="Screenshot that shows starting data-upload process.":::
+    :::image type="content" source="../images/admin-upload2-options.png" alt-text="Screenshot that shows starting data-upload process." lightbox="../images/admin-upload2-options.png":::
 
     Make your selection based on what you want to do, then navigate to the corresponding section below for step 3.
 
@@ -141,9 +142,10 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
 4. For each required Viva Insights field:
     1. Find the corresponding column header under **Source column name**. To prevent a validation error later, make sure this column is the right data type.
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a.
-     :::image type="content" source="../images/admin-map.png" alt-text="Screenshot that shows mapping Viva attributes.":::
+    
+     :::image type="content" source="../images/admin-map.png" alt-text="Screenshot that shows mapping Viva attributes." lightbox="../images/admin-map.png":::
 
-    >[!Tip]
+    > [!Tip]
     > Hover over an attribute name to read its description. 
     > :::image type="content" source="../images/admin-hover-attribute.png" alt-text="Screenshot that shows hovering over an attribute.":::
     >
@@ -195,13 +197,15 @@ When processing succeeds, you’ll see a “Success” status in the **Upload or
 After you receive the “Success” status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
-:::image type="content" source="../images/admin-upload-results.png" alt-text="Screenshot that shows validation results.":::
+
+:::image type="content" source="../images/admin-upload-results.png" alt-text="Screenshot that shows validation results." lightbox="../images/admin-upload-results.png":::
 
 * Select the mapping icon to see the mapping settings for the workflow.
-:::image type="content" source="../images/admin-map-results.png" alt-text="Screenshot that shows mapping settings.":::
 
->[!Note]
->Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
+:::image type="content" source="../images/admin-map-results.png" alt-text="Screenshot that shows mapping settings." lightbox="../images/admin-map-results.png":::
+
+> [!Note]
+> Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
 
 #### Processing fails
 
@@ -215,8 +219,8 @@ Select **Edit or start new upload**. This button lets you do the following thing
 * Delete attributes.
 * Replace existing file with a new file.
 
->[!Note]
->Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your uploaded file, log a support ticket with us.
+> [!Note]
+> Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your uploaded file, log a support ticket with us.
 
 ### Validation fails
 
@@ -247,8 +251,8 @@ The field values in data rows need to comply with the following formatting rules
 * The  **Layer** field values need to contain numbers only.
 * The  **HourlyRate** field values need to numbers only, which the app assumes is in US dollars for calculations and data analysis.
 
->[!Note]
->The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
+> [!Note]
+> The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
 
 ##### Rules for characters in field values
 
