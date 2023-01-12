@@ -92,12 +92,12 @@ Your organization might not want to see analytics data due to local data and com
     Run `Connect-SPOService -Url <sharepoint admin URL> -Credential <credentials>`
 
 4.	Enter the password in the password prompt.
-5.	Run `Get-SPOTenant to view the Tenant admin Settings`
+5.	Run `Get-SPOTenant` to view the Tenant admin Settings.
 6.	Locate the "DisableVivaConnectionsAnalytics" setting.
 7.	Enable or disable the setting by running the following command:
 
     Run `Set-SPOTenant -DisableVivaConnectionsAnalytics $True`
-8.	Run `Get-SPOTenant to confirm the setting is updated`
+8.	Run `Get-SPOTenant` to confirm the setting is updated.
 
 
 
