@@ -142,9 +142,9 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
         :::image type="content" source="../images/person-query-select-attributes.png" alt-text="Select employee attributes section, with 'Select attributes' button highlighted":::
     Attributes appear as tags in the box about the **Select attributes** button.
 
-    >[!Note]
+    > [!Note]
     >
-    >If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly.
+    > If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly.
 
 ## Running the query
 
