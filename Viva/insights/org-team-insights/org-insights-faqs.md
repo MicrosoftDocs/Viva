@@ -20,7 +20,16 @@ To opt out or back into seeing organizational insights, your Viva Insights admin
 
 ## Q2 – I see my organization insights cards, but the current week values are just “—“. What’s happening?
 
-Viva Insights only reports on activity for employees who are “active” in a week – that is, they sent at least one message in Outlook or Teams, or joined at least one meeting. This improves accuracy by leaving out people who are away from work for an extended period, like on vacation or on a leave of absence. However, to protect individual privacy, you will only see organization insights for groups where is “active count” meets the minimum group size. For some users, their total group may be close to the minimum group size. This means that some weeks, they will see organization insights because enough people in their group are active to meet the minimum privacy threshold, but for other weeks, organization insights will be hidden as the active group size falls below the minimum. You can still refer to trend charts to see results for previous weeks where your active group met the minimum privacy threshold. You can find trend charts on the Wellbeing, Productivity, and Teamwork pages.
+Viva Insights only reports on activity for employees who are “active” in a week – that is, people who sent at least one message in Outlook or Teams or joined at least one meeting. This method improves accuracy by leaving out people who are away from work for an extended period, like when they're on vacation or taking a leave of absence.
+
+To protect individual privacy, you'll only see organization insights for groups where the "is active" count meets the minimum group size. For some users, the total number of people in their group might be close to the minimum group size. 
+
+
+Users in these smaller groups might not see organization insights every week, because on some weeks, the active-user count could fall below the minimum threshold. On these weeks, 
+
+
+
+will see organization insights because enough people in their group are active to meet the minimum privacy threshold. On other weeks, however, they won't see organization insights, because the active group size falls below the minimum group size. On weeks were you don't see organization insights, you can still refer to trend charts to see results for previous weeks where your active group met the minimum privacy threshold. Trend charts are on the **Wellbeing**, **Productivity**, and **Teamwork** tabs.
 
 ## Q3 – How do organization insights handle holiday weeks?
 
