@@ -164,9 +164,6 @@ To use this integration, here’s what you’ll need to do.
 >[!Note] 
 >To deploy the template programmatically, follow the directions in [Programmatic configuration](#programmatic-configuration).
 
-
-<!--replace image-->
-
 ### Access customer data from the data drop
 
 4. Viva Insights generates an encryption key. Refer to [Encryption and compression](#encryption-and-compression) for details.
@@ -185,6 +182,9 @@ To use this integration, here’s what you’ll need to do.
     1. Decrypt the encryption key with the partner-customer private key, which is provided in the Azure Key Vault.
 
     1. Decrypt the entire file with the file encryption key. (Here's a [C# sample](/dotnet/api/system.security.cryptography.aes).)
+    
+    >[!Note]
+    >Refer to [About encoding](#about-encoding) for details about encoding constraints during decryption.
     
     1. Decompress the entire file to get the extracted data. (Here's a [C# sample](/dotnet/api/system.io.compression.gzipstream).)
 
@@ -250,6 +250,25 @@ Here are a couple of best practices for storing customer data:
 
 * Don’t permanently store decrypted files in Azure or on-premises storage. Your application should decrypt the behavioral analytics data in real-time as it’s being processed. The decrypted contents shouldn’t be written to the disk.
 * Make sure that your Azure Data Factory pipeline includes a step to clean up analytics data on the customer’s storage account after it’s has been transferred to your application’s storage. Our sample Azure Data Factory pipeline on GitHub includes this step.
+
+
+#### About encoding
+
+There are a few encoding differences to be aware of during the decryption process. The following data contains these encoding types: 
+
+|Data|Encoding type
+|----|---|
+|Decryption key | UTF-16LE |
+|Decryption key IV | UTF-8 |
+|Encrypted file (GZIP data) | UTF-8 |
+Padding for AES | CBC / PKCS5 <sup>1
+
+<sup> 1. PKCS7 in C# is the same as PKCS5 in Java. 
+
+
+Also, the output of the Azure Key Vault [decrypt REST API](/rest/api/keyvault/keys/decrypt/decrypt) is Base-64 URL encoded. You’ll need to decode the value from Base-64 URL to bytes, and then encode the result to Base-64.  
+
+Make sure you take these encoding differences into account when you decrypt the data. If encoded data is incorrectly decrypted, you might get an error like this: `Invalid AES key length: 88 bytes`. 
 
 ### Pipeline
 
@@ -427,7 +446,7 @@ Coefficient| QI
 
 5. Convert each of the parameters to use Base-64 encoding. Either use a Base-64 encoder directly, or convert the hex bytes to a byte array and then to Base-64. For more information, refer to [Convert.ToBase64String Method](/dotnet/api/system.convert.tobase64string).
 
-1. Run the [Import Key API](/rest/api/keyvault/keys/decrypt/decrypt).
+1. Run the [Import Key API](/rest/api/keyvault/keys/import-key/import-key).
 
 
 ### Information for customers
