@@ -105,7 +105,7 @@ Your project will now regularly synchronize data from Power BI and make check-in
 
 ## How to enable Power BI integration
 
-Admins follow these steps to enable Power BI integration in Viva Goals: 
+Global admins must first enable the Power BI Integration for Viva Goals at the tenant level. Look for the Power BI Integration and enable it by following the instructions in [Enable Integrations in Viva Goals > How to manage integrations](vg-integrations-administration-overview.md).
 
 1. Go the Viva Goals Integrations page: **Admin > Integrations**
 1. Enable Power BI integration under the Data Integrations category.
