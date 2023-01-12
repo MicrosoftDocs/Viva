@@ -16,9 +16,18 @@ audience: user
 
 ## Q1 – Can I opt in or opt out of seeing organization insights?
 
-To opt out or back into seeing organizational insights, your Viva Insights administrator needs to unassign or reassign you the group manager role. They can assign you this role by following the directions in [Manager settings](../advanced/setup-maint/manager-settings.md).
+To opt out or back into seeing organizational insights, your Viva Insights administrator needs to enable or disable group manager permissions for you. They can enable these permissions by following the directions in [Manager settings](../advanced/setup-maint/manager-settings.md).
 
-<!--Diego to verify?-->
+## Q2 – I see my organization insights cards, but the current week values are just “—“. What’s happening?
+
+Viva Insights only reports on activity for employees who are “active” in a week – that is, they sent at least one message in Outlook or Teams, or joined at least one meeting. This improves accuracy by leaving out people who are away from work for an extended period, like on vacation or on a leave of absence. However, to protect individual privacy, you will only see organization insights for groups where is “active count” meets the minimum group size. For some users, their total group may be close to the minimum group size. This means that some weeks, they will see organization insights because enough people in their group are active to meet the minimum privacy threshold, but for other weeks, organization insights will be hidden as the active group size falls below the minimum. You can still refer to trend charts to see results for previous weeks where your active group met the minimum privacy threshold. You can find trend charts on the Wellbeing, Productivity, and Teamwork pages.
+
+## Q3 – How do organization insights handle holiday weeks?
+
+Generally, organization insights will show lower activity during weeks with holidays, as the measured results are not adjusted to make up for the holiday. If an employee takes the entire week off from work during the holiday week, they will be excluded from the measured result, but for other employees, organization insights simply measure the activity that did occur over the course of the week. 
+
+Some users may not see results during holiday weeks if enough of their group takes the week off from work that their active group size falls below the minimum privacy threshold.
+
 
 ## Q2 – Why don’t I see cards showing peer comparison in my organization insights?
 
