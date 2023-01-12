@@ -25,7 +25,7 @@ While you’ll stop receiving the Briefing email for a while, you’ll still hav
 
 In your daily Briefing, you might have found the day's first three meetings that had at least one suggested action, like reviewing a related document. 
 
-**Where you'll find a similar feature:** *Viva Insights Outlook add-in*, *Reminders, calendar peek, and the My Day panel in Outlook*
+**Where you'll find a similar feature:** *Viva Insights Outlook add-in* and *Reminders, calendar peek, and the My Day panel in Outlook*
 
 The Viva Insights Outlook add-in includes a [Prepare for your meetings](../use/use-insights.md#prepare-for-your-meetings) section, which shows you a list of upcoming meetings that you've organized or that you've been invited to for the next seven days. Select this card for key insights per meeting, like percentage of invitees who have accepted. 
 
