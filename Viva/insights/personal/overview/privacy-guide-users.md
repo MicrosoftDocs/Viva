@@ -1,5 +1,5 @@
 ---
-title: Privacy guide 
+title: Privacy guide for personal insights
 description: Overview of privacy features for personal insights, including info about data de-identification and privacy, minimum group size for reporting, admin settings, and users in sensitive roles
 author: madehmer
 ms.author: helayne
@@ -22,14 +22,11 @@ Personal insights in Microsoft Viva Insights help you find opportunities to buil
 
 ## Summary of key points
 
-* **Personal insights in Viva Insights is not designed to enable evaluation, tracking, automated decision making, profiling, or monitoring**. Viva Insights provides you with personal insights through the Viva Insights app in Microsoft Teams and on the web, the Insights Outlook add-in, a cloud-based dashboard, Viva digest emails, Briefing emails, and inline suggestions in Outlook. Personal insights in Viva Insights has no mechanism or option that allows anyone but you to access the personalized information that is displayed through these surfaces, unless you purposefully and independently share it. Personal insights data provided by Viva Insights cannot be used for automated decision making or for profiling.
+* **Personal insights in Viva Insights is not designed to enable evaluation, tracking, automated decision making, profiling, or monitoring**. Viva Insights provides you with personal insights through the Viva Insights app in Microsoft Teams and on the web, the Insights Outlook add-in, Viva digest emails, Briefing emails, and inline suggestions in Outlook. Personal insights in Viva Insights has no mechanism or option that allows anyone but you to access the personalized information that is displayed through these surfaces, unless you purposefully and independently share it. Personal insights data provided by Viva Insights cannot be used for automated decision making or for profiling.
+
 * **Personal insights in Viva Insights does not give employees access to new personally identifiable information on other coworkers**. Viva Insights converts data into personal insights by doing calculations on information that you generate just by going about your workday. Most of the data that you see in personal insights from Viva Insights is simply an aggregation of information to which you already have access, but that you wouldn’t be able to quickly perform calculations on without some support.
-* **Personal insights in Viva Insights data is processed and stored in the employee’s Exchange Online mailbox**. Viva Insights processes data from these sources for personal insights: Exchange Online email and calendar data, chat and call signals from Skype for Business and from Teams, and—if both you and your organization's IT administrator opt you in—Windows 10 application activity history. Viva Insights stores and processes this data inside each employee’s Exchange Online mailbox.
+* **Personal insights in Viva Insights data is processed and stored in the employee’s Exchange Online mailbox**. Viva Insights processes data from these sources for personal insights: Exchange Online email and calendar data, chat and call signals from Skype for Business and from Teams. Viva Insights stores and processes this data inside each employee’s Exchange Online mailbox.
 * **Personal insights in Viva Insights supports General Data Protection Regulation (GDPR) compliance**. Microsoft has designed Personal insights in Viva Insights to support your organization’s needs to follow [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).
-
-<!--## Architecture
-
-In the following architecture illustration, note the relationship of Personal insights in Viva Insights to Exchange Online. This placement underscores the fact that any personal insights data that you can view in Viva Insights is the same data that's visible in your Exchange mailbox, as described in the following principles about data privacy.-->
 
 ## Key principles
 
@@ -42,9 +39,8 @@ In the following architecture illustration, note the relationship of Personal in
 
 Personal insights in Viva Insights are available as follows:
 
-* [Viva Insights in Teams](../teams/viva-insights-home.md)
+* [Viva Insights in Teams and on the web](../teams/viva-insights-home.md)
 * [Viva Insights in Outlook](../use/add-in.md)
-* [Viva Insights dashboard](../Use/dashboard-2.md)
 * [Briefing emails in Outlook](../Briefing/be-overview.md)
 * [Digest emails in Outlook](../use/email-digests-3.md)
 * [Inline suggestions in Outlook](../use/mya-notifications.md)
@@ -54,7 +50,6 @@ Personal insights in Viva Insights are available as follows:
 Viva Insights provides personal insights with the following types of data.
 
 * [Mailbox data](#mailbox-data) - Email, calendar, chat, and call activity that you generate by using Microsoft 365, such as time that you spend in meetings or emails that you send to a specific person or group.
-* [Windows 10 activity history data](#windows-10-activity-history-data) - Data on your usage of apps and services on your device: whether you worked on a document and whether you browsed the web.
 * [Incremental data](#incremental-data) - Data that would otherwise be unavailable to you but is presented in an aggregated form designed to protect individual privacy.
 
 ### Mailbox data
@@ -74,14 +69,6 @@ Personal insights are derived from data that is already available to you in the 
 Viva Insights simply applies some basic calculations and rules to make this data more actionable. Mailbox data is stored directly in your Exchange Online mailbox.
 
 For example, if you want to determine which colleagues sent you the most email over the past week, you could technically do so without Viva Insights by manually counting emails from coworkers in your inbox. Similarly, you could determine your coworkers’ average response time to the emails that you sent them by using the timestamp information readily available in your mailbox. Viva Insights saves you the trouble of having to perform these tedious calculations.
-
-### Windows 10 activity history data
-
-Windows 10 activity history data refers to the things you do on your device, such as the apps and services you used, whether you worked on a document, and whether you browsed the web. The activity history is stored locally on the device, and if you're signed in to the device with a Microsoft account and you give permission, Windows sends the activity history to Microsoft.
-
-Viva Insights uses Windows 10 activity history data to compute the personal insights (for example, time spent in apps, multi-tasking in meetings) about your work habits. These personal insights are private and stored in your Exchange Online mailbox.
-
-Also note that, if you choose to send Windows 10 activity history to Viva Insights, activity data is saved even if you use a non-work or non-school account (for example, a personal live.com or facebook.com account) to connect to the app or service. However, activity data is not saved when you browse with InPrivate tabs or windows in the Microsoft Edge web browser.
 
 ### Incremental data
 
