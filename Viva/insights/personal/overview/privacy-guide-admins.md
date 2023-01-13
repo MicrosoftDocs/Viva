@@ -94,11 +94,9 @@ Similarly, Viva Insights tracks the percentage of recipients who opened a docume
 
 People managers often have hectic schedules and it can be tough to stay in close contact with each team member. Viva Insights brings together all the information managers need to stay caught up and respond quickly to important requests.
 
-<!--For example, the [Catch up with your team](../use/use-the-insights.md#catch-up-with-your-team) feature in the [Insights add-in](../use/add-in.md) helps managers schedule regular 1:1 time, respond quickly to unread emails, close out important tasks, and more.
--->
 All assistance for managers in Viva Insights relies exclusively on information from the manager's own mailbox; managers do not receive any incremental information from team members' mailboxes that could be used for performance management. For example: managers can use this feature to review important unread emails in their inbox _from_ team members, but they cannot see whether team members have read emails that the manager has sent.
 
-Managers are identified by using Azure Active Directory<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or Workplace Analytics-->. The feature is only available to users who have direct reports listed in Azure AD.<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.)-->
+Managers are identified by using Azure Active Directory. The feature is only available to users who have direct reports listed in Azure AD.
 
 Managers have the option to [edit their team list](../use/use-the-insights.md#to-edit-your-team-list) if they notice any inaccuracies. Any changes the manager makes are used only in their Viva Insights experience, and are not synchronized back to Azure AD.
 

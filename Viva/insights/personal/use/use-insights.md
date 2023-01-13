@@ -364,16 +364,8 @@ People managers often have hectic schedules, and it can be tough to stay in clos
 
 As a manager, you can:
 
-* Schedule 1:1 time with a team member (or reschedule if a conflict comes up).
 * Act on tasks you promised to get done or that team members asked you to complete.
 * Review important emails and documents from team members that you haven't read yet.
-
-<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS THIS ENTIRE PARAGRAPH IN JANUARY 2021.
-
-This feature is only available for Viva Insights users who have direct reports listed in Azure Active Directory or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Viva Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.) If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
--->
-
-<!-- USING THE FOLLOWING COMPLETE PARAGRAPH FOR NOW. REINSTATE THE ENTIRE PRECEDING PARAGRAPH IN 2021.  -->
 
 This feature is only available for Viva Insights users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
 
@@ -384,21 +376,6 @@ In the **Viva Insights** pane, select **Catch up with your team** to see the tea
 ### To edit your team list
 
 If your team member list is inaccurate, select **Edit team** to add or remove team members. Any changes you make apply only to your Viva Insights experience and do not synchronize back to Azure Active Directory.
-
-## Meeting suggestions
-
-While staying in touch with top collaborators can be difficult, a quick 1:1 meeting with key contacts can help you nurture your professional network. The **Meeting suggestions** insight can keep track of your collaboration pattern and provide meeting recommendations if you are falling out of touch. For example, if you have not had a 1:1 meeting with your manager in a while, this insight can suggest setting up a 1:1 and it can assist with scheduling the meeting.
-
-In the **Viva Insights** pane, select the **Meet with &lt;name of contact&gt;** insight to use it:
-
-  ![Meet with person for 1:1.](../../images/mya/use/meet-with-person-54.png)
-
-### Insight option details
-
-| Card section | Notes |
-| ------ | ------ |
-| **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; | A person you collaborate with regularly but with whom you haven't had a 1:1 meeting in a while. |
-| **Schedule meeting** | Select this to open a meeting form that you can quickly complete to set up a meeting. |
 
 ## Related topics
 

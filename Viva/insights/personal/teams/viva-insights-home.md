@@ -44,7 +44,7 @@ You use the following features on the Home page with the on-screen instructions.
 
 For the next three cards, you can take a quick action while remaining on the Home page. Alternatively, you can open the full feature (and leave the Home page) by selecting another option on the card &ndash; such as **More insights**.
 
-* [Stay connected](viva-insights-stay-connected.md) – Follow up on an action shown in **Stay connected**, such as to book a 1:1 with a specific person.
+* [Stay connected](viva-insights-stay-connected.md) – Follow up on an action shown in **Stay connected**, such as to complete a task.
 * [Protect time](viva-insights-protect-time.md) – Take action on what's shown in **Protect time**, such as to book focus time for tomorrow.
 * [Inspiration library](inspiration.md) – See inspirational articles within specific themes, such as wellbeing, culture, impact, and resilience.
 * [Microsoft To Do](#microsoft-to-do) – Take action on what's shown in your **To Do** list, such as to book a meeting.
