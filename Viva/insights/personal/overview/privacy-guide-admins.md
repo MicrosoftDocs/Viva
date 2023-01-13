@@ -86,7 +86,7 @@ Personal insights in Viva Insights tracks the percentage of recipients who opene
 
 To preserve privacy, Viva Insights does not track read rates for messages sent to fewer than five people. Viva Insights also doesn't show read rates of "0 percent" or "100 percent," as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate in these cases is displayed as a range that encompasses a threshold value that depends on the number of recipients of the email.
 
-This metric is calculated based on a person's Outlook setting for when an [email is marked as read](https://support.office.com/article/mark-a-message-as-read-or-unread-59b44298-08c2-4eb7-8128-ea0fb7f52720). When Outlook marks an email as "read," that information is saved within the person’s mailbox. This is then delivered to the sender's mailbox if that person has opted in to using Viva Insights.
+This metric is calculated based on a person's Outlook setting for when an [email is marked as read](https://support.office.com/article/mark-a-message-as-read-or-unread-59b44298-08c2-4eb7-8128-ea0fb7f52720). When Outlook marks an email as "read," that information is saved within the person’s mailbox, then delivered to the sender's mailbox if that person has opted in to using Viva Insights.
 
 Similarly, Viva Insights tracks the percentage of recipients who opened a document that was shared as a link or as an attachment in an email that a person sends to five or more people. This metric calculation is based on whether recipients have opened shared documents that are stored in SharePoint or in OneDrive for Business.
 
@@ -115,7 +115,7 @@ Note that if default settings are used, the following applies:
 
 ## Opt in or out
 
-Employees can opt themselves out of Viva Insights. This causes them to lose access to the Viva Insights [elements](../use/mya-elements.md) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../setup/configure.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, as described in [How employees can opt in or out](#how-employees-opt-in-or-out).
+Employees can opt themselves out of Viva Insights. Opting out causes them to lose access to the Viva Insights [elements](../use/mya-elements.md) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../setup/configure.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, as described in [How employees can opt in or out](#how-employees-opt-in-or-out).
 
 ### Data processing consequences
 
