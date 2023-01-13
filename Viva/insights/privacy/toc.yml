@@ -32,12 +32,12 @@ items:
         href: /viva/insights/use/Assigning-licenses-with-powershell
     - name: Assign roles
       items:
-    - name: Assign admin roles
-      href: /viva/insights/setup/assign-roles-to-wpa-admins
-    - name: Role access
-      href: /viva/insights/Use/User-Roles
-    - name: Assign user roles
-      href: /viva/insights/setup/assign-user-roles 
+      - name: Assign admin roles
+        href: /viva/insights/setup/assign-roles-to-wpa-admins
+      - name: Role access
+        href: /viva/insights/Use/User-Roles
+      - name: Assign user roles
+        href: /viva/insights/setup/assign-user-roles 
     - name: Controls
       items:
     - name: Introduction

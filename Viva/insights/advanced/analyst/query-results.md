@@ -1,6 +1,6 @@
 ---
 title: Access query results and modify existing queries
-description: Learn how to run a custom Person query in the Microsoft Viva Insights advanced insights app
+description: Learn how to access query results in the advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -47,7 +47,7 @@ A blue square within a blue circle means that the query is running. The analyst 
 
 Selecting this blue circle (**Stop** when hovered over) freezes the query. While stopping is in progress, the query status shows **Stopping**; after the query is fully stopped, the status shows **Stopped**. If the analyst who ran the query wants to run this query again later, they can select **Rerun** from the **More options** menu.
 
-![Screenshot that shows query statuses "Stop," "Stopping...", and "Stopped".](../images/query-results-stop-statuses.png)
+:::image type="content" source="../images/query-results-stop.png" alt-text="Screenshot that shows query statuses 'Stop,' 'Stopping...', and 'Stopped.'":::
 
 >[!Note]
 >Other analysts in the organization can see a query is running, but they aren't able to stop it.
@@ -56,15 +56,13 @@ Selecting this blue circle (**Stop** when hovered over) freezes the query. While
 
 When a query successfully runs, you’ll see a green checkmark within a green circle labeled **Success**. If you ran the query, you can now edit, delete, or rename it. All other analysts can now clone or favorite it.
 
-![Screenshot that shows a query's Success status.](../images/query-results-status-success.png)
-
-
+:::image type="content" source="../images/query-results-status-success.png" alt-text="Screenshot that shows a query's Success status.":::
 
 #### Failed
 
 If an error occurs while a query is running, you’ll see a **Failed** status. 
 
-![Screenshot that shows a query's Failed status.](../images/query-results-failed.png)
+:::image type="content" source="../images/query-results-status-failed2.png" alt-text="Screenshot that shows a query's Failed status.":::
 
 ### Results filters
 
@@ -84,7 +82,7 @@ If you ran a query and want it to recur on a certain schedule, you can set the *
 
 When you select the **More options** ellipses—located in the far-right column of the **Query results** page—you’ll see a few different options based on whether you ran the query or are another analyst in the organization: **Edit query name**, **Edit query**, **Clone query**, **Favorite**, and **Delete query**.
 
-![Screenshot that shows the More options contextual menu.](../images/query-results-contextual-menu.png)
+:::image type="content" source="../images/query-results-contextual-menu.png" alt-text="Screenshot that shows the More options contextual menu.":::
 
 Let’s explore these options in more detail.
 
@@ -151,9 +149,11 @@ When you define a query, you select metrics and employee attributes. After the q
 
 1.	In **Query results**, next to the results you want, select the CSV icon.
 2.	Select to open and right-click the zip file, which contains a .csv version of the data, and then select **Extract All** and extract the .csv to a local folder.
-3. Open the extracted .csv file using Excel.
+3. Open the extracted .csv file using Excel. 
 
-![Query recurrence toggle with tooltip](../images/query-csv-output.png)
+    Here's an example of a results file:
+
+    :::image type="content" source="../images/query-csv-output.png" alt-text="Screenshot that an example .csv results file.":::
 
 ##### Connect through the Power BI Connector
 
