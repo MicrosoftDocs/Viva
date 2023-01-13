@@ -19,7 +19,7 @@ manager: anirudhbajaj
 
 We’re taking some time to improve the Briefing email and give you more personalized content in your daily messages. As a result, we’ll take a break from sending you your daily Briefing starting on January 15th, 2023.
 
-While you’ll stop receiving the Briefing email for a while, you’ll still have access to Viva Insights features. If you rely on different features within Briefing—like preparing for meetings, reviewing outstanding tasks, or booking focus time—read this article to learn how you can find them in your [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams and web](../teams/viva-insights-home.md). You'll continue to receive semi-monthly digest emails with insights and recommendations to build healthy work habits.
+While you’ll stop receiving the Briefing email for a while, you’ll still have access to Viva Insights features. If you rely on different features within Briefing—like preparing for meetings, reviewing outstanding tasks, or booking focus time—read this article to learn how you can find them in your [Viva Insights Outlook add-in](../use/add-in.md), [other Outlook features](https://support.microsoft.com/en-us/office/use-intelligent-technology-in-outlook-on-the-web-and-outlook-com-24b30683-8340-4b69-b8ac-4193ec528a70), and [Viva Insights app in Teams and web](../teams/viva-insights-home.md). You'll continue to receive semi-monthly digest emails with insights and recommendations to build healthy work habits.
 
 ## Prepare for upcoming meetings 
 
@@ -31,7 +31,7 @@ The Viva Insights Outlook add-in includes a [Prepare for your meetings](../use/u
 
 :::image type="content" source="../../Images/MyA/reference/oai-prepare-meetings-card.png" alt-text="Screenshot of the Prepare for your meetings card in the Viva Insights Outlook add-in.":::
 
-You might also use the reminders, calendar peek, and **My Day** panel features:
+You might also use the reminders, calendar peek, and **My Day** panel features in Outlook:
 
 * **Reminders** typically show up in Outlook 15 minutes before a scheduled event on your calendar. If there's related pre-read information, like a shared document, the reminder will show that as well.
 
