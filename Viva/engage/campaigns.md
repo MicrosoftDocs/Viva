@@ -113,7 +113,7 @@ Once redirected, you will see the campaign analytics dashboard containing key da
 **How often do campaign analytics refresh?** Analytics refresh daily. If you don’t see changes reflected immediately, check analytics the next day.   
 
 ## See also 
-How to participate in campaigns (Links to come below for relevant documentation): [Campaigns in Microsoft Viva Engage](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
+[Manage campaigns in Microsoft Viva Engage](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
 <!-- 
 [Yammer administration documentation](/yammer/)
 

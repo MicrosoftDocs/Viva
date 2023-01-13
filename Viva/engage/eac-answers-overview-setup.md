@@ -1,4 +1,4 @@
-title: "Vive Engage Admin Center Overview"
+title: "Viva Engage Admin Center Overview"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -18,9 +18,9 @@ search.appverid:
 - MET150
 ---
 
-# Overview of the Viva Engage Admin Center
+# Overview of the Engage admin center
 
-As an admin, the Engage Admin Center (found within the Viva Engage app on Teams) is where you can find everything you need to plan your rollout, set up and customize Viva Engage for your tenant, manage security and compliance, and build engagement within your organization. 
+As an admin, the Engage admin center (found within the Viva Engage app on Teams) is where you can find everything you need to plan your rollout, set up and customize Viva Engage for your tenant, manage security and compliance, and build engagement within your organization. 
 
 Through this experience you can:  
 
@@ -32,4 +32,5 @@ Through this experience you can:
 
 - Explore the options for managing various seeded and premium features within Viva Engage  
 
- 
+## See also 
+[Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
