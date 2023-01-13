@@ -1,5 +1,5 @@
 ---
-title: "Produce Yammer live events from your device"
+title: "Produce Viva Engage live events from your device"
 f1.keywords:
 - NOCSH
 ms.author: pamgreen
@@ -8,7 +8,7 @@ manager: pamgreen
 ms.date: 02/05/2020
 audience: Admin
 ms.topic: overview
-ms.service: yammer
+ms.service: viva
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid:
@@ -18,10 +18,10 @@ search.appverid:
 - MEW150
 - MED150
 ms.assetid: 4ece0ee2-c268-4636-bf2a-16e454befe57
-description: "Learn what's needed for Yammer users to  schedule AND view a live event produced using Teams IN Yammer."
+description: "Learn what's needed for Viva Engage users to  schedule AND view a live event produced using Teams IN Viva Engage."
 ---
 
-# Produce Yammer live events from your device [available now]
+# Produce Viva Engage live events from your device [available now]
 
 > [!IMPORTANT]
 > **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2023, including:**
@@ -32,28 +32,28 @@ description: "Learn what's needed for Yammer users to  schedule AND view a live 
 > Additionally, live events for up to 100,000 attendees can be requested through the [Microsoft 365 live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/). The team will assess each request and work with you to determine options that may be available. [Learn more.](https://aka.ms/Stream/Blog/LiveEventOptions)
 
 
-## What is new about Yammer live events?
+## What is new about Viva Engage live events?
 
-Live events produced using Teams can now be scheduled and viewed in Yammer! This is one of the largest customer asks we have and we're excited to release this new functionality.
+Live events produced using Teams can now be scheduled and viewed in Viva Engage! This is one of the largest customer asks we have and we're excited to release this new functionality.
 
 ## Benefits
 
-- Schedule live events directly within Yammer (takes less than 30 seconds end-to-end).
-- Attendees can view a Teams produced event in Yammer (for all events scheduled from Yammer).
+- Schedule live events directly within Viva Engage (takes less than 30 seconds end-to-end).
+- Attendees can view a Teams produced event in Viva Engage (for all events scheduled from Viva Engage).
 - Use Teams to produce your live event—without an external app or device!
 - Get access to all the analytics available from Microsoft Stream.
-- Question and Answer + regular Yammer events feed is available.
+- Question and Answer + regular Viva Engage events feed is available.
 - All events are stored in Stream (and are searchable there, like any other live event).
 
 For the full list of features, see [Overview of live events](yammer-live-events.md).
 
 ## FAQ
 
-### How can I use Teams to produce an event in Yammer?
+### How can I use Teams to produce an event in Viva Engage?
 
 1. Schedule the event.
 
-2. Share the event from Yammer.
+2. Share the event from Viva Engage.
 
    ![Screenshot showing shareing the event.](../media/yam-live-event-share-screen.png)
 
@@ -63,13 +63,13 @@ For the full list of features, see [Overview of live events](yammer-live-events.
    ![screnshot showing joining a Yammer live event.](../media/yam-teams-join.png)
    ![screenshot showing previewing a live event.](../media/yam-pre-live.png)
 
-4. See the event LIVE in Yammer! All attendees can view this event directly from Yammer.
+4. See the event LIVE in Viva Engage! All attendees can view this event directly from Yammer.
 
    ![Screenshot showing viewing a live event in Yammer.](../media/yam-attendee-experience.png)
 
 ### What is the difference between this feature and what is available in GA today?
 
-The main benefit of this feature is that all attendees can view a Teams-produced event in Yammer. We've worked with Teams and Stream to make this available for our Yammer customers. Now, event organizers can schedule their event in Yammer, produce it using Teams, but view it in Yammer.
+The main benefit of this feature is that all attendees can view a Teams-produced event in Viva Engage. We've worked with Teams and Stream to make this available for our Viva Engage customers. Now, event organizers can schedule their event in Viva Engage, produce it using Teams, but view it in Viva Engage.
 
 A few things to note:
 
@@ -83,7 +83,7 @@ A few things to note:
 
 ### Who can use this feature?
 
-Only Yammer admins in connected communities.
+Only Viva Engage admins in connected communities.
 
 ### What kind of analytics do I get with this feature?
 
@@ -97,7 +97,7 @@ Event producers can see the total number of watchers when the event is live. Whe
 
 Yes, both are required.
 
-Yammer has partnered with both Teams and Stream to provide the best technology for running your live event. Because of this, creation and production of webinar style live events require Stream and Teams licenses and specific permissions. These permissions are not controlled in Yammer settings and a network admin will have to enable these permissions and they will have to be enabled for both Stream and Teams.
+Viva Engage has partnered with both Teams and Stream to provide the best technology for running your live event. Because of this, creation and production of webinar style live events require Stream and Teams licenses and specific permissions. These permissions are not controlled in Viva Engage settings and a network admin will have to enable these permissions and they will have to be enabled for both Stream and Teams.
 
 - **Stream**: For steps to grant or remove permissions in Stream, see [Administration controls for live events in Stream](/stream/live-event-administration).
 
@@ -119,12 +119,12 @@ Four (4) hours.
 | Feature | Produced using Teams | Produced using Encoder | More info |
 |----------|----------|----------|----------|
 |Analytics|Yes|Yes|See [Analytics about your live event in Microsoft Stream](/stream/live-event-overview). See [Monitor your event](../manage-security-and-compliance/track-yammer-events.md) for more information|
-|Schedule in Yammer|Yes|Yes|N/A|
-|Produce in Yammer|No|Yes|N/A|
-|Attendees view event in Yammer|Yes|Yes|N/A|
+|Schedule in Viva Engage|Yes|Yes|N/A|
+|Produce in Viva Engage|No|Yes|N/A|
+|Attendees view event in Viva Engage|Yes|Yes|N/A|
 |Attendees view event in Stream|Yes|Yes|N/A|
-|Attendees view event in Teams|No|No|At this time, events scheduled from Yammer cannot be viewed in Teams. If you're looking to produce and view your Live Event in Teams only, then we recommend you use Teams Live events to fulfill this scenario! For more information on events produced and viewed exclusively in Teams, see [What are Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events).|
-|Yammer event feed|Yes|Yes|N/A|
+|Attendees view event in Teams|No|No|At this time, events scheduled from Viva Engage cannot be viewed in Teams. If you're looking to produce and view your Live Event in Teams only, then we recommend you use Teams Live events to fulfill this scenario! For more information on events produced and viewed exclusively in Teams, see [What are Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events).|
+|Viva Engage event feed|Yes|Yes|N/A|
 |Q&A support|Yes|Yes|N/A|
 |Share event using attendee link|Yes|Yes|N/A|
 |Event is automatically added to calendar for producers/presenters|No|No|At this time, events are not automatically added to producers/presenters calendars. We are evaluating adding this feature to our roadmap for the future.|
@@ -139,7 +139,7 @@ Four (4) hours.
 ||||
 
 > [!NOTE]
-> Live events in Microsoft 365 is a highly available service and you can expect good performance at scale. In the very unlikely scenario that results in failover being required, live events scheduled from Yammer will not have redundancy and are not be recoverable.
+> Live events in Microsoft 365 is a highly available service and you can expect good performance at scale. In the very unlikely scenario that results in failover being required, live events scheduled from Viva Engage will not have redundancy and are not be recoverable.
 
 ## Related topics
 
