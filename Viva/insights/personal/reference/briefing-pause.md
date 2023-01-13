@@ -23,7 +23,7 @@ While you’ll stop receiving the Briefing email for a while, you’ll still hav
 
 ## Prepare for upcoming meetings 
 
-In your daily Briefing, you might have found the day's first three meetings that had at least one suggested action, like reviewing a related document. 
+In your daily Briefing, you might have found the day's first three meetings that had at least one suggested action, like reviewing a related document.
 
 **Where you'll find a similar feature:** *Viva Insights Outlook add-in* and *Reminders, calendar peek, and the My Day panel in Outlook*
 
