@@ -239,10 +239,6 @@ This opens a panel that displays insights for each document shared with you in t
 
 ![Unread shared documents.](../../images/mya/use/unread-shared-documents-54.png)
 
-<!-- Don't know why Vivek had this here 
-   ![Choose an open time slot.](../../images/mya/use/choose-open-time.png)   
--->
-
 #### Insight option details
 
 | Card section | Notes |
