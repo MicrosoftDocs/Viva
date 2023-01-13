@@ -22,6 +22,8 @@
           href: content-sources-365-admin-center.md
         - name: Manage how content shows up in Viva Learning
           href: use-tabs.md
+        - name: Creating Learning paths in Viva Learning
+          href: creating-learning-paths.md
         - name: Add SharePoint
           href: configure-sharepoint-content-source.md
           items:
@@ -60,8 +62,8 @@
         - name: Learning management systems
           items:
             - name: Content ingestion errors when adding an LMS
-              href: /viva/troubleshoot/learning/lms-content-ingestion-errors
+              href: /viva/troubleshoot/learning/lms-content-ingestion-errors?toc=/viva/learning/toc.json&bc=/viva/breadcrumb/toc.json
         - name: Content providers
           items:
             - name: Content ingestion errors when adding a content provider
-              href: /viva/troubleshoot/learning/provider-content-ingestion-errors
+              href: /viva/troubleshoot/learning/provider-content-ingestion-errors?toc=/viva/learning/toc.json&bc=/viva/breadcrumb/toc.json
