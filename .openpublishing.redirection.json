@@ -469,7 +469,52 @@
         "source_path": "viva/insights/manager-insights/plans.md",
         "redirect_url": "/viva/insights/overview/get-started",
         "redirect_document_id": false
-      }
+      },
+      {
+        "source_path": "viva/insights/org-team-insights/employee-experience-pbi.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
+        "redirect_document_id": false
+      },  
+      {
+        "source_path": "viva/insights/org-team-insights/employee-wellbeing.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/org-team-insights/manager-connection.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
+        "redirect_document_id": false
+      },  
+      {
+        "source_path": "viva/insights/org-team-insights/meeting-effectiveness.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
+        "redirect_document_id": false
+      },  
+      {
+        "source_path": "viva/insights/org-team-insights/org-trends.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
+        "redirect_document_id": false
+      },  
+      {
+        "source_path": "viva/insights/org-team-insights/org-trends-faq.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
+        "redirect_document_id": false
+      }, 
+      {
+        "source_path": "viva/insights/org-team-insights/setup.md",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
+        "redirect_document_id": false
+      },  
+      {
+        "source_path": "viva/insights/org-team-insights/teamwork-habits.md",
+        "redirect_url": "/viva/insights/org-team-insights/team-insights",
+        "redirect_document_id": false
+      },  
+      {
+        "source_path": "viva/insights/org-team-insights/teamwork-habits-faq.md",
+        "redirect_url": "/viva/insights/org-team-insights/team-insights",
+        "redirect_document_id": false
+      },  
     ]
 }
 
