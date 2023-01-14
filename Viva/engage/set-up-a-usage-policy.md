@@ -20,7 +20,7 @@ description: "Create a usage policy that users must accept before using Viva Eng
 
 # Set up a Viva Engage usage policy
 
-Creating a usage policy and requiring users to accept it can help make sure conversations on Viva Engage Enterprise are positive, constructive, and in line with your company policies and culture. 
+Creating a usage policy and requiring users to accept it can help ensure conversations on Viva Engage Enterprise are positive, constructive, and in line with your company policies and culture. 
   
 You can choose to have the usage policy appear as a link in the side bar in each user's Viva Engage home screen and to display the policy as a pop-up that users must accept before entering the network. 
   
