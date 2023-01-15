@@ -1,5 +1,5 @@
 ---
-title: "Viva Engage Admin Center Overview"
+title: "Viva Engage Admin center overview"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
