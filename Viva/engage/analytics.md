@@ -1,5 +1,5 @@
 ---
-title: "Manage and Access Analytics in Viva Engage"
+title: "Manage and access analytics in Viva Engage"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,7 +20,7 @@ search.appverid:
 ---
 
 
-# Manage and Access Analytics in Viva Engage
+# Manage and access analytics in Viva Engage
 
 Users with access to premium Viva Engage will be able to access Engage Analytics and manage settings via the Admin Center within the Viva Engage Teams app.   
 
