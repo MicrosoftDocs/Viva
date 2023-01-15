@@ -29,7 +29,11 @@ The table below shows the range of actions available to an unlicensed user, Viva
 
 < Table of admin permissions >
 
-## Feature topics in Answers
+## Admin actions in Answers
+
+### Topics
+
+**Feature topics in Answers**
 
 As an Answers admin, you can feature a topic or create a topic from the topic browse page. Featuring a topic allows you to curate Viva Topics to be promoted for use within Answers.  
 
@@ -46,7 +50,7 @@ The **Feature a topic** button will only be visible to Answers admins or global 
 
 < image >
  
-## Review pending topics suggested by employees 
+### Review pending topics suggested by employees 
 
 To ensure the topics suggested by employees are relevant and appropriate, there is a review process for Answers admin to follow. As an Answers admin, you have access to a fourth tab on the discover topics page labeled **Needs Review** on the topic browse page. The **Needs Review** tab is only visible to Answers admins and will display topics that have been user created or suggested. Any non-featured topic that is added on a question or created by the user will show up in this tab for a knowledge manager to review. You can select **Review** on a topic to check and edit the summary.  
 
@@ -57,7 +61,7 @@ If the topic is relevant and appropriate, then you can choose to feature the top
 
 < image > 
 
-## Remove topics in Answers 
+### Remove topics in Answers 
 
 To remove a topic in Answers, Answers admin (Knowledge Managers) should complete the following steps:  
 
