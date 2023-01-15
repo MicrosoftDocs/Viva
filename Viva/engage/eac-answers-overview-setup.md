@@ -1,5 +1,5 @@
 ---
-title: "Viva Engage Admin Center Overview"
+title: "Overview and setup of Answers in Viva Engage"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -19,19 +19,83 @@ search.appverid:
 - MET150
 ---
 
-# Overview of the Engage admin center
+# Overview and setup of Answers in Viva Engage
 
-As an admin, the Engage admin center (found within the Viva Engage app on Teams) is where you can find everything you need to plan your rollout, set up and customize Viva Engage for your tenant, manage security and compliance, and build engagement within your organization. 
+Accessible through the Answers tab in the Viva Engage Teams app, **Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Answers is a conversational experience for asking questions and connecting employees to crowdsourced answers. Natural language processing helps match questions with any existing answers, and the experience rewards people who contribute back to Answers. 
 
-Through this experience you can:  
+Answers works to connect employees based on their subject matter expertise captured in Viva Topics, to get their questions answered, connect with subject matter experts, and increase their learning.
 
-- Plan who will help administer Engage for your organization by managing the various admin roles 
+## Licensing
+If Answers is enabled in the Viva Engage Admin Center, users assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app or in the Yammer web experience, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the Microsoft Viva Suite or Viva Topics SKUs. 
 
-- Setup your Engage tenant by customizing your network, set up usage policy, and manage user permissions 
+The users who have not been assigned the Viva Engage Knowledge service plan will receive notifications to questions or answers they have been mentioned in and can visit those threads but are not able to navigate to the rest of the Answers experience.   
 
-- Manage your organizations data retention and export plans 
+> [!NOTE]
+> As a prerequisite, the tenant must have Yammer enabled and the user must have access to Yammer services. 
 
-- Explore the options for managing various seeded and premium features within Viva Engage  
+## Technical requirements
+
+Answers will be enabled by default for customers that meet the following technical requirements:   
+
+1) **Migrate the Yammer network to Native Mode**
+ Native Mode is a state of a Yammer network where all users are in Azure AD, all communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This ensures that we can appropriately apply topic permissions and management. Access [Guide to migrate the network to Native Mode](https://learn.microsoft.com/en-us/yammer/configure-your-yammer-network/native-mode-step-by-step-guide).  
+
+2) **Migrate Yammer Topics to Viva Topics**
+
+Yammer topics have begun to migrate to the Viva Topics over the next months, all existing Yammer networks will have migrated. Answers uses Viva Topics to organize question posts and identify the people associated with certain Topics to help route the questions posted. Since Viva Topics work across services in Microsoft 365, we require that your Yammer network is using Viva Topics to ensure the best experience with Answers. 
+
+All Yammers tenants in Native mode will be migrated to use Viva Topics and there are no additional licensing requirements for this migration. 
+
+To learn more about the Viva Topics experience in Yammer post the migration, you may find the following links helpful:  
+
+- [Viva Topics in Yammer](https://learn.microsoft.com/en-us/viva/topics/topic-experiences-yammer)
+- [Viva Topics experience in Yammer](https://support.microsoft.com/en-us/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)
+
+Microsoft will: 
+
+- Inform existing Yammer customers with purchased Viva Topics or Viva Suite SKUs when Yammer Topics have been migrated to Viva Topics. Users will be contacted directly through email.
+- Allow interested tenants who do not see Answers experience enabled to request priority for Yammer Topics migration and / or Native mode support.
+ 
+To learn about Yammer Topics migration to Viva Topics:
+
+- [Viva Topics in Yammer](https://learn.microsoft.com/viva/topics/topic-experiences-yammer)
+- [Viva Topics experience in Yammer](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)
+
+3. **Set up the Viva Engage app**
+
+Installing the Viva Engage app in Teams will provide the best experience for Answers. We recommend all organizations that would like to use Answers install the Viva Engage app. Follow these [steps to setup Viva Engage app](https://learn.microsoft.com/viva/engage/setup).
+
+## Data storage, export, and compliance
+
+Answers is backed by an Office 365 group and will follow the default data retention policies set by your organization, unless a unique policy is set for Answers. The Answers backing group will be auto-provisioned when the first question is posted or first question attachment is created. At the time of creation all tenant admins will be assigned as owners of the backing group, titled **Group for Answers in Viva Engage – DO NOT DELETE.**  
+
+Owners of the backing group should ensure Answers maintains compliance with your network policies and does not get accidentally deleted. Data can be exported by admins if deleting the backing Office 365 group is desired. If the backing group is deleted, Answers will not be functional. Please note that a soft delete would be recoverable if remediated within 30 days, and that a hard delete would result in permanent loss of data. 
+
+Answers data will be available in [eDiscovery](https://learn.microsoft.com/yammer/manage-security-and-compliance/overview-of-ediscovery) for identifying and delivering electronic information that can be used as evidence in legal cases.  
+
+**GDPR information**
+
+For GDPR user data export, verified Yammer admins and Engage admins can follow the [Yammer GDPR export guidance](https://learn.microsoft.com/yammer/manage-security-and-compliance/export-yammer-enterprise-data). Answers data will be bundled together with Yammer data. Erase all information about a Yammer user to comply with GDPR data subject requests. Learn [how to manage GDPR data subject requests in Yammer Enterprise](https://learn.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise).
+
+## Enable Answers  
+
+Answers will be enabled by default and visible to all users that have the Viva Engage Knowledge service plan assigned. Answers can be disabled and hidden from both the Viva Engage Teams app and Yammer’s web experience. When disabled, Answers content can still be accessed through existing links, but users will not be able to contribute to the thread or navigate the Answers experience.  
+
+Only an Office 365 tenant admin (Global admin) can change Answers state of enablement:  
+
+1. As a tenant admin, navigate to the Viva Engage Teams app.  
+2. In the top right menu, select the ellipses button (...) to expose admin options.  
+3. Select **Admin** to navigate to the Engage admin center.  
+4. Select the **Answers** button within the **Feature management** tab to open Answers configuration options. 
+
+< image >
+
+5. In Answers feature management, you can enable or disable Answers for your organization. Answers will be on by default for all Viva suite and Viva Topics licensed users.  
+
+>[!NOTE]
+> If Answers is disabled, the backing group will respect the default data retention policies set by your organization, unless a unique policy is set for Answers.
+
+< image >
 
 ## See also 
 [Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)

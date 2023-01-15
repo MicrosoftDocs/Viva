@@ -118,7 +118,7 @@ Learn more about analytics for leaders, which empower leaders to measure and imp
 
 **Leadership Corner**
 
-After a leader has been identified, the leader’s most recent activity on their storyline and in communities will become visible in Leadership Corner to people in the leader’s audience, or who follow the leader. Leadership Corner can be disabled using the toggle in the Viva Engage admin center by an Office 365 (global) admin or Engage admin. 
+After a leader has been identified, the leader’s most recent activity on their storyline and in communities will become visible in Leadership Corner to people in the leader’s audience, or who follow the leader. Leadership Corner can be disabled using the toggle in the Viva Engage admin center by an Office 365 (global) admin or Engage admin.
 
 ![View of the Leadership Corner toggle](/Viva/media/engage/campaigns/create-campaign-new-campaign-modal.png)
 
