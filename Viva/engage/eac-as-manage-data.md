@@ -1,5 +1,5 @@
 ---
-title: "Viva Engage Admin Center Overview"
+title: "Manage data in the Engage admin center"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -19,19 +19,29 @@ search.appverid:
 - MET150
 ---
 
-# Overview of the Engage admin center
+# Manage data in the Engage admin center
 
-As an admin, the Engage admin center (found within the Viva Engage app on Teams) is where you can find everything you need to plan your rollout, set up and customize Viva Engage for your tenant, manage security and compliance, and build engagement within your organization. 
+## Manage Data 
+As an Office 365 (Global) admin or Engage admin, you are encouraged to use Yammer administrative tools to protect your Viva Engage data and comply with evolving legal and regulatory standards, including GDPR. An Engage admin can navigate to the **Governance and compliance** tab within the Engage admin center and select **Data**. 
 
-Through this experience you can:  
+< Image of Data tab in EAC >
 
-- Plan who will help administer Engage for your organization by managing the various admin roles 
+They are then routed to the Yammer admin center to perform the following actions:
 
-- Setup your Engage tenant by customizing your network, set up usage policy, and manage user permissions 
+- Manage GDPR data subject requests 
+    - Erase a user from the network 
+    - Reactivate a deactivated account after erasing the user 
 
-- Manage your organizations data retention and export plans 
+>[!NOTE]
+> Since Viva Engage is powered by Yammer’s technology, removing a user from the network will delete the user in Yammer and Viva Engage. 
 
-- Explore the options for managing various seeded and premium features within Viva Engage  
+- Export data to review compliance issues 
+    - Export data for one user 
+    - Export data for network 
+    - Export users and admin list 
+
+>[!NOTE]
+> Since Viva Engage is powered by Yammer’s technology, any data generated as part of Viva Engage and Viva Answers feature will be included in the existing Yammer exports.
 
 ## See also 
 [Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
