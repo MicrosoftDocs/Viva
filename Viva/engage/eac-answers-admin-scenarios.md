@@ -29,9 +29,7 @@ The table below shows the range of actions available to an unlicensed user, Viva
 
 < Table of admin permissions >
 
-## Admin actions in Answers
-
-### Topics
+## Manage topics in Answers
 
 **Feature topics in Answers**
 
@@ -50,7 +48,7 @@ The **Feature a topic** button will only be visible to Answers admins or global 
 
 < image >
  
-### Review pending topics suggested by employees 
+**Review pending topics suggested by employees**
 
 To ensure the topics suggested by employees are relevant and appropriate, there is a review process for Answers admin to follow. As an Answers admin, you have access to a fourth tab on the discover topics page labeled **Needs Review** on the topic browse page. The **Needs Review** tab is only visible to Answers admins and will display topics that have been user created or suggested. Any non-featured topic that is added on a question or created by the user will show up in this tab for a knowledge manager to review. You can select **Review** on a topic to check and edit the summary.  
 
@@ -61,7 +59,7 @@ If the topic is relevant and appropriate, then you can choose to feature the top
 
 < image > 
 
-### Remove topics in Answers 
+**Remove topics in Answers**
 
 To remove a topic in Answers, Answers admin (Knowledge Managers) should complete the following steps:  
 
@@ -73,6 +71,47 @@ To remove a topic in Answers, Answers admin (Knowledge Managers) should complete
 > Once a topic is removed in Answers, you will still be able to see the topic in the topic center. If you wish to remove the topic entirely, you can delete it directly in the topic center. 
 
 < image > 
+
+## View Global Answers analytics 
+
+As an Answers admin, you can access Global answers analytics by navigating to the Global Answers analytics tab from the analytics homepage. This report provides an overview and relevant insights on knowledge sharing activity across Answers.  
+
+The following analytics are available:  
+
+- **Total time saved for your organization**: Total time the organization has saved based on question-and-answer usage. 
+- **Total questions**: Total number of questions asked by users. 
+- **Question views**: Total views across all questions 
+- **Total answers**: Total number of answers provided by users. 
+- **Total best answers**: Total answers marked as best answer. 
+- **Answer rate**: The ratio of questions that have answers to total questions. 
+- **Best answer rate**: The ratio of questions with best answers to total questions. 
+- **Median time to first answer**: The median time it takes for a question to receive its first answer. 
+- **Median time to best answer**: The median time it takes for a question to receive its first best answer. 
+- **Median questions asked per user**: The median number of questions asked by each user. 
+- **Median questions viewed per user**: The median number of questions viewed by each user. 
+- **Median answers per user**: The median number of answers provided by each user. 
+- **Median best answers per user**: The median number of best answers provided by each user. 
+- **Top questions across your organization**: A table with the top questions with the most views, votes, reactions, and answers across your org. 
+- **User engagement distribution**: A distribution of all users split by active engagements (ask, answer, vote, reactions, comments) and passive engagements (question views). 
+
+Global time saved shows the collective time saved across the organization. This is based on Yammer research that shows each question-and-answer pair can save people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time. 
+
+>[!NOTE]
+> Analytics are not live but are updated every 24 hours. 
+
+## Rewards and recognition (R&R) admin controls  
+
+Once assigned the Viva Engage Knowledge service plan, O365 (Global) admin and Engage admin will be able to configure Rewards and Recognition Answers badges through the Viva Engage Admin Center.  
+
+< Image of the EAC tab for Badges >
+
+The Global and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**. 
+
+- **Disabled**: data that was being collected for all users will be deleted and no further data will be collected for any users. The badges will be deleted as well.  
+- **On**: users can start earning and collecting badges. The badges are visible to anyone who has a Viva Engage Knowledge service plan and who are part of the organization. 
+- **User preference**: end users will have the option to turn off badges for themselves. When the user opts out, data that was being collected will be deleted and no further data will be collected. The user’s badges will be deleted but they will still be able to see others’ badges.  
+
+< Image of User Preferences toggle in EAC >
 
 ## See also 
 [Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
