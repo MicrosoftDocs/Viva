@@ -20,6 +20,8 @@ items:
             items:
               - name: Introduction
                 href: personal/teams/viva-teams-app.md
+              - name: Set up the app
+                href: personal/teams/viva-teams-app-settings.md
               - name: Home
                 href: personal/teams/home.md
                 items:
