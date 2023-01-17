@@ -1,4 +1,4 @@
-﻿---
+---
 title: Allow email insights to be generated in Viva Sales
 description: Learn how to allow email insights to be generated in Viva Sales.
 ms.date: 01/18/2023
