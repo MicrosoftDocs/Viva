@@ -175,7 +175,7 @@ items:
             items:
             - name: Person query overview
               href: advanced/analyst/person-query-overview.md
-            - name: Create a Person query
+            - name: Create a person query
               href: advanced/analyst/person-query.md
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md  
