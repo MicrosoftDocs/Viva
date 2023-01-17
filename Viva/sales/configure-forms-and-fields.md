@@ -30,7 +30,7 @@ You can configure the following for CRM records:
 
 ## Customize detailed view of CRM records
 
-You can control the detailed views for CRM records in Viva Sales by selecting the fields that should be displayed and the order in which they should be displayed. The changes to the detailed view are reflected in the Viva Sales pane and adaptive cards shares in Teams chat.
+You can control the detailed views for CRM records in Viva Sales by selecting the fields that should be displayed and the order in which they should be displayed. The changes to the detailed view are reflected in the Viva Sales pane in Outlook and adaptive cards shares in Teams chat.
 
 ![Screenshot showing detailed view of CRM records in Viva Sales ](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in Viva Sales.")
 
@@ -91,7 +91,7 @@ Each record type has a mini view that displays limited information under record 
 
 > [!NOTE]
 > - The available fields for the mini view are the ones that are available in the detailed view.
-> - Mini view settings impact the results when searching for connected records. In Dynamics 365, the search behavior for connected records depends on the quick find view. You must ensure that the fields set for the mini view in Dynamics 365 exist in the quick find view, otherwise, the search list will not show the additional fields. In Salesforce, the search is performed on name and the additional fields selected in mini view.\]
+> - Mini view settings impact the results when searching for connected records. In Dynamics 365, the search behavior for connected records depends on the quick find view. You must ensure that the fields set for the mini view in Dynamics 365 exist in the quick find view, otherwise, the search list will not show the additional fields. In Salesforce, the search is performed on name and the additional fields selected in mini view.
 
 ### Select fields for mini view
 
@@ -163,7 +163,7 @@ Following fields are not allowed to be added from the admin settings page:
 
 **Dynamics 365**
 
--   Fields whose data type is File, Image, or Rich text.
+-   Fields whose data type is File, Image, Rich text, or MultiSelect Option Set.
 
 -   Entity Id
 
@@ -171,7 +171,7 @@ Following fields are not allowed to be added from the admin settings page:
 
 **Salesforce**
 
--   Fields whose data type is Geolocation, Text area (rich), Text area (encrypted), or External Lookup Relationship.
+-   Fields whose data type is Geolocation, Text area (rich), Text area (encrypted), External Lookup Relationship, or Picklist (Multi-Select).
 
 -   Entity Id
 
