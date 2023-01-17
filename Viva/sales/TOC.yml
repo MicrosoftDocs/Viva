@@ -24,8 +24,6 @@
     href: administrator-settings-for-viva-sales.md
   - name: Configure forms and fields
     href: configure-forms-and-fields.md
-  - name: Enable email intelligence in Outlook
-    href: enable-email-intelligence-in-outlook.md
 
 - name: Remove Viva Sales from the admin center
   href: disable-viva-sales.md
