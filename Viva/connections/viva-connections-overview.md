@@ -58,6 +58,7 @@ Viva Connections is designed to meet people where they usually get their work do
 
 
 ### Viva Connections Dashboard
+
 > [!IMPORTANT]
 > A new desktop experience is coming soon for Viva Connections. The new experience is rolling out to [Target Release](/microsoft-365/admin/manage/release-options-in-office-365) customers now and will become generally available to all customers by the end of the first half of 2023. The new desktop home experience will automatically update for customers currently using Viva Connections. The experience doesn't have any requirements besides a [Viva license](https://www.microsoft.com/en-us/microsoft-viva) and can be setup more easily than the first release. [Learn more about the new experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](connections/edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6). Content in this article will be updated when the new experience becomes generally available.
 
@@ -116,19 +117,6 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 
 ![Image showing display of cards on Dashboard.](../media/connections/vc-card-toolbox-new.png) 
 
-
-**Current set of available cards:**
-
-|Card Name  |Description  |
-|---------|---------|
-|Approvals     |    Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign off on documents, and approve expense reports     |
-|Assigned Tasks     |    Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
-|Card designer    |     Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)    |
-|Shifts     | Display information about the next or current shift from the Shifts app in Teams          |
-|Teams app card     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
-|Third-party cards     |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
-|Top news card    |    Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
-|Web link    |  Access a site without leaving the Viva Connections app       |
 
 #### Dashboard resources
 
