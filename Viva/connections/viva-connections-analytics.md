@@ -29,7 +29,7 @@ description: "Learn how to use Viva Connections experience by using Viva Connect
 
 Understand how and when users engage with components of the Viva Connections experience by using Viva Connections analytics. Review the number of people who have viewed and engaged with Viva Connections experiences, the content types users engage with, and the platforms used to access Viva Connections.
 
-People with site member (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text="Icon that shows the settings."::: and then click **Manage Viva Connections**.
+People with site member (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png"::: and then click **Manage Viva Connections**.
 
 > [!NOTE]
 > - This analytics experience will start rolling out to all customers in February and will become available to all customers by the end of March 2023.
@@ -44,13 +44,13 @@ People with site member (or higher) permissions to your organization’s [home s
 
 | Component | Description |
 | :------------------- | :------------------- |
-| :::image type="content" source="../media/manage-vc-panel.png" alt-text="Screenshot that shows the Manage Viva Connections."::: | 1. Navigate to your organization’s home site.<br><br> 2. Select the **Settings** :::image type="icon" source="../media/vc-analytics-error-setting.png" alt-text="Icon that shows the settings."::: icon.<br><br> 3. Then, select **Manage Viva Connections**.<br><br> 4. Next, go to the **Analytics** section and select **Download report**. |
+| :::image type="content" source="../media/manage-vc-panel.png" alt-text="Screenshot that shows the Manage Viva Connections."::: | 1. Navigate to your organization’s home site.<br><br> 2. Select the **Settings** :::image type="icon" source="../media/vc-analytics-error-setting.png"::: icon.<br><br> 3. Then, select **Manage Viva Connections**.<br><br> 4. Next, go to the **Analytics** section and select **Download report**. |
 
 ## What’s in the usage report
 
 The usage report contains three separate tabs and sheets of data. Learn more about the data on each sheet and metric definitions.
 
-:::image type="content" source="../media/vc-analytics-spreadsheet.png" alt-text="Screenshot that shows the analytics spreadsheet.":::
+:::image type="content" source="../media/vc-analytics-spreadsheet.png" alt-text="Screenshot that shows the analytics spreadsheet." lightbox="../media/vc-analytics-spreadsheet.png":::
 
 ### Sheet 1: Overall traffic
 
