@@ -132,10 +132,10 @@ Viva Goals has several different roles. Included here are roles that require spe
 |--------------|-----------|
 |**Organization admin** <br> Assigned by Microsoft 365 global admin|Manages the setup of the organization and can manage users and teams. An organization can have more than one organization administrator.
 |**Organization owner** <br> Assigned by Organization admin<br><br>| Manages members, teams, setup, and billing for the account. By default, they own organization-level OKRs, but organizational objectives can be owned by other members also.|
-|**Team admin** <br>Assigned by Organization owner|Manages team members
-|**Team owner** <br>Assigned by Team admin|Manages team-level OKRs
-|**Managers**|Own their own OKRs and the OKRs of employees who report to them.
-|**Teams admin** <br>Manages all aspects of Microsoft Teams<br><br>Assigned by Microsoft 365 admin|Uses the Teams admin center to create setup policies to install the app and assign users.
+|**Team owner** <br>Assigned by Organization admin|Manages team-level OKRs
+|**Team admin** <br>Assigned by Team owner|Manages team members
+|**Managers** <br>Assigned by Organization admin|Own their own OKRs and the OKRs of employees who report to them.
+|**Teams admin** <br>Assigned by Microsoft 365 admin|Manages all aspects of Microsoft Teams<br>Uses the Teams admin center to create setup policies to install the app and assign users.
 
 For more detailed information see [Roles and permissions in Viva Goals](/viva/goals/roles-permissions-in-viva-goals).
 
