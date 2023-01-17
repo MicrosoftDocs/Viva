@@ -58,6 +58,10 @@ Viva Connections is designed to meet people where they usually get their work do
 
 
 ### Viva Connections Dashboard
+> [!IMPORTANT]
+> A new desktop experience is coming soon for Viva Connections. The new experience is rolling out to [Target Release](/microsoft-365/admin/manage/release-options-in-office-365) customers now and will become generally available to all customers by the end of the first half of 2023. The new desktop home experience will automatically update for customers currently using Viva Connections. The experience doesn't have any requirements besides a [Viva license](https://www.microsoft.com/en-us/microsoft-viva) and can be setup more easily than the first release. [Learn more about the new experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](connections/edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6). Content in this article will be updated when the new experience becomes generally available.
+
+
 The Viva Connections Dashboard enables you to create a curated experience using Dashboard cards that give your employee's access to their most critical content and tools. These cards are designed to enable quick task completion either by interacting with a card directly or by opening a quick view in the Dashboard. Think of the Viva Connections Dashboard as a digital toolset for your employees.
 
 ![Image of the viva connections Dashboard on mobile and desktop.](../media/connections/dashboard-desktop-mobile.png)
