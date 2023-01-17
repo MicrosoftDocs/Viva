@@ -1,4 +1,4 @@
-﻿---
+---
 title: Administrator settings for Viva Sales
 description: Learn how to configure administrator settings for Viva Sales.
 ms.date: 01/23/2023
