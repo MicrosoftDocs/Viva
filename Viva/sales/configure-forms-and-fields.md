@@ -23,6 +23,11 @@ CRM forms and fields customization is environment-specific—each environment ha
 - **Detailed view**: The main interface for viewing and interacting with CRM data
 - **Mini view**: A lightweight view that displays only two fields from a CRM record
 
+Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
+
+> [!NOTE]
+> If you change a record's name in CRM, they are not updated in Adaptive Card or messaging extensions in Teams. For example, if you change Account to Customer, the name in Adaptive Card and messaging extensions will show as Account.
+
 ## Configure editing of records and fields
 
 You can control which records and fields sellers can edit directly in Viva Sales. If a record isn't allowed to be edited in Viva Sales, sellers must update the record in the CRM.
