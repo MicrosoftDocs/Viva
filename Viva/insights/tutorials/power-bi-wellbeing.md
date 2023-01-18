@@ -74,11 +74,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 5. In **Organizational data**:
     * Keep the preselected **Organization** attribute (required). 
-        >[!Caution] 
-        >If you remove the predefined **Organization** attribute, the report won't show any visuals. Before you delete a predefined metric, you'll get a warning message. Select **Cancel** on the message to keep the metric. 
+        >[!Important] 
+        >If you remove the predefined **Organization** attribute, the report won't show any visuals.
 
-    * Keep the preselected **LevelDesignation** attribute (recommended). If you don't plan to include **LevelDesignation** in your organizational data file, you'll need to adjust your report. Refer to [About LevelDesignation](#about-leveldesignation).
-
+    * Keep the preselected **LevelDesignation** attribute (recommended). If  **LevelDesignation** isn't available, you'll need to adjust your report. Refer to [About LevelDesignation](#about-leveldesignation).
 
 6. Select any additional attributes (columns) that you want to include in the reports.
 7. Select **Run** to run the query, which might take a few minutes to complete.
@@ -110,11 +109,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ### About LevelDesignation
 
-Like **Organization**, **LevelDesignation** is a predefined organizational attribute. These attributes help your report work properly. While removing **LevelDesignation** won't keep the report from showing visuals, here are a few things to keep in mind:
+Like **Organization**, **LevelDesignation** is a predefined organizational attribute. These attributes help your report work properly. If your organizational data file is missing the **LevelDesignation** attribute, your report will still show visuals. However, here are two things to know:
 
-* If you don't include the **LevelDesignation** attribute in your organizational data file, you'll get an error message. To run the query without **LevelDesignation**, select **Clean Query** on the error message.
-* The calculation of certain metrics uses **LevelDesignation**, so removing it means that those calculations are inaccurate. In your report, you'll want to remove filters associated with **LevelDesignation** (for example, "Manager").
-* Without **LevelDesignation**, the **Chats with peers** visual will show you the wrong data. We don't recommend using this visual for further analysis.
+* You'll get an error message about the missing attribute during query setup. To run the query *without* **LevelDesignation**, select **Clean Query** on the error message.
+* The calculation of certain metrics uses **LevelDesignation**, so using the **Clean Query** button means that those calculations are inaccurate. Without **LevelDesignation**, the **Chats with peers** visual will show you the wrong data. We don't recommend using this visual for further analysis.
 
 ## Report settings
 
