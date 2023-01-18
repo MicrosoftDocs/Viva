@@ -53,7 +53,7 @@ Learn more about focusing with Viva Insights in [Focus](focus.md).
 
 ### Track your progress
 
-After you set up an action, Viva Insights tells you how that action is going in **Track your progress**. For the focus plan you set up earlier, Viva Insights shows you stats about how much time you kept on your calendar for focusing in the last couple of months, and also reports how much time you have reserved for the coming week.
+After you set up an action, Viva Insights tells you how well it's going in **Track your progress**. For the focus plan you set up in our earlier example, Viva Insights provides stats about how much time you kept on your calendar for focusing in the last couple of months, and also reports how much time you have reserved for the coming week.
 
 :::image type="content" source="./images/wellbeing-track-progress.png" alt-text="Screenshot that shows four action cards within the Take action to improve your wellbeing section.":::
 
