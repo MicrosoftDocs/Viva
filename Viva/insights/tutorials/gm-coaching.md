@@ -36,7 +36,7 @@ According to [How to make your one-on-ones with employees more productive](https
 
 ## Best practices
 
-* Schedule recurring 1:1 meetings with your direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. Consistent one-on-one manager time with employees leads to more positive employee engagement. See [Catch up with your team](../personal/use/use-the-insights.md#catch-up-with-your-team) for help with scheduling and managing your 1:1s.
+* Schedule recurring 1:1 meetings with your direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. Consistent one-on-one manager time with employees leads to more positive employee engagement. 
 * Prepare and remain flexible on discussion points in 1:1s. 1:1s are best with structure but not too much to allow for co-creation. Agree on discussion points at the start and allocate adequate time to the most important topics.
 * Lead by example. People are more engaged if they work for a manager who is working at least as much as they are.
 * Evenly distribute work. Highly utilized employees often work longer hours than their peers, which can lead to disengagement.
