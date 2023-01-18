@@ -25,7 +25,7 @@ In the **Wellbeing** tab, you'll notice a header with the option to enter [focus
 > If you're a leader or manager, you'll see an additional section at the top of your Wellbeing tab. Make sure to check out the [For leaders and managers](#for-leaders-and-managers) section later in this article.
 
 
-Scroll down, and you'll find three main sections (plus more if you're a manager or leader): **Take action to improve your wellbeing**, **Track your progress**, and **Act with intention**. 
+Scroll down, and you'll find three main sections: **Take action to improve your wellbeing**, **Track your progress**, and **Act with intention**. 
 
 ### Take action to improve your wellbeing
 
@@ -47,7 +47,7 @@ The **Take action to improve your wellbeing** section helps you change habits, s
 >[!Tip]
 >To find all available actions, use the arrows in the top-right of the section.
 
-Let's say your calendar is filling up with meetings and you're finding it hard to carve out time to focus. You think that some dedicated focus time on your calendar might help. On the **Start a daily focus plan** card, select **Set daily focus plan**. Viva Insights guides you through a quick setup process to find out which times work best, then schedules that time on your calendar each day.
+Let's say your weeks are filling up with meetings and you're finding it hard to carve out time to focus. You think that some dedicated focus time on your calendar might help. On the **Start a daily focus plan** card, select **Set daily focus plan**. Viva Insights guides you through a quick setup process to find out which times work best, then schedules that time on your calendar each day.
 
 Learn more about focusing with Viva Insights in [Focus](focus.md).
 
