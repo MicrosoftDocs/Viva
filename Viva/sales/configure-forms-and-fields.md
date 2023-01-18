@@ -26,7 +26,7 @@ CRM forms and fields customization is environment-specific—each environment ha
 Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
 
 > [!NOTE]
-> If you change a record's name in CRM, they are not updated in Adaptive Card or messaging extensions in Teams. For example, if you change Account to Customer, the name in Adaptive Card and messaging extensions will show as Account.
+> If you change the name of a record type in CRM, they are not updated in Adaptive Card or messaging extensions in Teams. For example, if you rename Account to Customer, the name in Adaptive Card and messaging extensions will show as Account.
 
 ## Configure editing of records and fields
 
