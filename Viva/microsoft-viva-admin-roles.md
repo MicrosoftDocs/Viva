@@ -27,7 +27,7 @@ In this article, we bring together information on the types and levels of admin 
 
 ## Admin roles in Microsoft Viva
 
-![Image showing admin roles](./media/admin-roles)
+![Image showing admin roles](/Viva/media/admin-roles.png)
 
 ## Roles spanning Microsoft Viva apps
 
