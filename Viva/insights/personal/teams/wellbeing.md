@@ -13,32 +13,19 @@ audience: user
 ---
 # Wellbeing
 	
-Use the **Wellbeing** tab in Microsoft Viva Insights to understand your work habits, manage your team better, and promote a healthy balance between life and work. 
+Use the **Wellbeing** tab in Microsoft Viva Insights to understand your work habits, manage your team better, and promote a healthy balance between life and work. Start booking time to focus, do a guided meditation with Headspace, read up on wellbeing topics, and more. In this article, we'll explain where and how to access these resources.
 
-:::image type="content" source="../../Images/MyA/reference/redesign-wellbeing-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../Images/MyA/reference/redesign-wellbeing.png":::
+## About the tab
+
+In the **Wellbeing** tab, you'll notice a header with the option to enter [focus mode](focus.md#start-a-focus-session) or complete a [virtual commute](virtual-commute.md). 
+
+:::image type="content" source="./images/wellbeing-header.png" alt-text="Screenshot that shows the Wellbeing tab header with a button to 'Enter focus mode'.":::
 
 >[!Note]
 > If you're a leader or manager, you'll see an additional section at the top of your Wellbeing tab. Make sure to check out the [For leaders and managers](#for-leaders-and-managers) section later in this article.
 
-Here's what you can do in **Wellbeing**:
 
-* Start plans to [focus](../use/focus-plan.md), [learn, take breaks, and catch up on messages](wellbeing-plans.md).
-
-* [Book impromptu focus sessions and enter a distraction-free focus mode](focus.md).
-
-* Prep for tomorrow and end your day mindfully with a [virtual commute](virtual-commute.md).
-
-* [Reflect](reflect.md) on how you're feeling.
-
-* Set up after-hours [quiet time](quiet-time.md) and keep track of how well you're keeping that time work-free.
-
-* Start a [guided meditation with Headspace](headspace.md).
-
-* Read wellbeing-related articles.
-
-## About the tab
-
-In the **Wellbeing** tab, you'll notice three main sections (plus more if you're a manager or leader): **Take action to improve your wellbeing**, **Track your progress**, and **Act with intention**. 
+Scroll down, and you'll find three main sections (plus more if you're a manager or leader): **Take action to improve your wellbeing**, **Track your progress**, and **Act with intention**. 
 
 ### Take action to improve your wellbeing
 
@@ -55,17 +42,29 @@ The **Take action to improve your wellbeing** section helps you change habits, s
 * Make time for lunch
 * Plan your time away
 
-Let's say your calendar is filling up with meetings and you're finding it hard to carve out time to focus. You think that some dedicated focus time on your calendar might help. On the **Start a daily focus plan** card, you select **Set daily focus plan**. Viva Insights guides you through a quick setup process to find out which times work best, then schedules that time on your calendar each day.
+:::image type="content" source="./images/wellbeing-take-action.png" alt-text="Screenshot that shows four action cards within the Take action to improve your wellbeing section.":::
+
+>[!Tip]
+>To find all available actions, use the arrows in the top-right of the section.
+
+Let's say your calendar is filling up with meetings and you're finding it hard to carve out time to focus. You think that some dedicated focus time on your calendar might help. On the **Start a daily focus plan** card, select **Set daily focus plan**. Viva Insights guides you through a quick setup process to find out which times work best, then schedules that time on your calendar each day.
+
+Learn more about focusing with Viva Insights in [Focus](focus.md).
 
 ### Track your progress
 
 After you set up an action, Viva Insights tells you how that action is going in **Track your progress**. For the focus plan you set up earlier, Viva Insights shows you stats about how much time you kept on your calendar for focusing in the last couple of months, and also reports how much time you have reserved for the coming week.
 
-If you need to make changes to your focus plan or another action you've taken, use the **Change settings** link.
+:::image type="content" source="./images/wellbeing-track-progress.png" alt-text="Screenshot that shows four action cards within the Take action to improve your wellbeing section.":::
+
+>[!Tip]
+>If you need to make changes to your focus plan or another action you've taken, use the **Change settings** link.
 
 ### Act with intention
 
-The **Act with intention** section is your home base for wellbeing content. Switch between themes using the **Focus**, **Meditation**, and **Articles** buttons. 
+The **Act with intention** section is your home base for wellbeing content. Switch between topics using the **Focus**, **Meditation**, and **Articles** buttons. 
+
+:::image type="content" source="./images/wellbeing-act-intention.png" alt-text="Screenshot that shows the Act with intention, Meditation section with four guided meditation videos users can play.":::
 
 Under:
 
@@ -86,7 +85,6 @@ Each day, an insight related to one of the following topics appears at the top o
 * Focus time participation 
 * Focus time impact 
 * No meeting day participation
-
 
 On the insight card, view the current week's average measure, the difference from the prior period's average, and the measure's 12-week trend. 
 
