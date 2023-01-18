@@ -40,14 +40,12 @@ The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin 
 - Viva Insights [Business Leader](/azure/active-directory/roles/permissions-reference#insights-business-leader), [Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator), and [Analyst](/azure/active-directory/roles/permissions-reference#insights-analyst)
 - [SharePoint admin](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
 - [Teams admin](/azure/active-directory/roles/permissions-reference#teams-administrator)
-- Viva Engage Engage admin (Yammer administrator)
+- Viva Engage admin (Yammer administrator)
 - Answers in Viva Engage [Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-administrator) (required to be Viva Engage Answers admin)
 
+Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
 
-
-Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
-
-Learn about [Azure AD roles](/azure/active-directory/roles)
+Learn about [Azure AD roles](/azure/active-directory/roles).
 
 #### Microsoft Teams admin
 
@@ -55,7 +53,7 @@ The Teams admin manages the Teams service and creates and manages Microsoft 365 
 
 For Viva, the Teams admin manages the [deployment of Viva apps](/microsoftteams/manage-apps) and some settings for the apps.
 
-For more information, see [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles)
+For more information, see [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
 
 ## Admin and management roles for each app
 
@@ -75,11 +73,11 @@ To help you decide who should be assigned which roles, here are overviews of rol
 
 #### Viva Topics
 
-You must be a [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role) to set up and manage Topics in the Microsoft 365 admin center. 
+Viva Topics includes the Topics admin and Knowledge manager roles. You must be a [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role) to set up and manage Topics in the Microsoft 365 admin center. 
 
 | Role         | What this role does in Viva
 |--------------|-----------|
-|**Viva Topics admin** <br> Must be a Microsoft 365 global admin or a SharePoint administrator and Groups administrator| <ul><li>Name the topic center</li><li>Select which SharePoint sites will be crawled for topics</li><li>Assign knowledge manager role</li><li>Select which licensed users can view and access topics (topic viewers)</li><li>Select which licensed users can create and edit topics (topic contributors)</li><li>Select which topics will be excluded from being identified</ul>|
+|**SharePoint admin/Groups admin** <br> A SharePoint admin manages all aspects of SharePoint. A Groups admin creates and manages groups in the Microsoft 365 admin center.<br><br> Assigned by Microsoft 365 global admin | A person who is both a SharePoint admin and a Groups admin can set up and manage the Topic center.|**Viva Topics admin** <br> Must be a Microsoft 365 global admin or a SharePoint administrator and Groups administrator| <ul><li>Name the topic center</li><li>Select which SharePoint sites will be crawled for topics</li><li>Assign knowledge manager role</li><li>Select which licensed users can view and access topics (topic viewers)</li><li>Select which licensed users can create and edit topics (topic contributors)</li><li>Select which topics will be excluded from being identified</ul>|
 |**Knowledge manager**<br> Knowledge managers are users who manage topics in your organization.<br><br>Assigned by Topics admin| On the Manage topics page, knowledge managers can do the following tasks: <ul><li>View AI-suggested topics</li><li>Review topics to confirm that they're valid</li><li>Remove topics that you don’t want visible to users.</li><br>|
 
 For more information on all the roles in Microsoft Viva Topics, see [Roles in Viva Topics](/viva/topics/topic-experiences-roles).
@@ -108,9 +106,7 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 |**SharePoint admin** <br> Manages all aspects of SharePoint<br><br> Assigned by Microsoft 365 global admin | Manages and stores custom learning content for your organization|
 |**Teams admin** <br> Manage all aspects of Microsoft Teams<br><br>Assigned by Microsoft 365 global admin|Can turn on or off the Viva Learning app at the organization level. Learn how to manage your apps in the Microsoft Teams admin center.<br><br> Can create custom app permission policies to allow or block specific users from using Viva Learning.
 
-- [Microsoft Teams admin](/microsoftteams/using-admin-roles)
-- [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role)
-- [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
+For more information on the roles in Viva Learning, see [Admin roles and permissions in Set up Viva Learning](/viva/learning/set-up-viva-learning#admin-roles-and-permissions).
 
 The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator)  and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
 
@@ -149,7 +145,7 @@ For more information about admin settings in the admin dashboard, see [Navigate 
 |**Corporate communicator**<br>Assigned by the Engage admin or a fellow corporate communicator.  |Can create or manage campaigns and define leaders in an organization.
 |**Teams admin** <br>Assigned by Microsoft 365 global admin|Uses the Teams admin center to create setup policies to install the app and assign users.
 
-For more information, see: [Manager Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins)
+For more information, see: [Manager Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins).
 
 #### Viva Sales
 You need to be a Microsoft 365 administrator to deploy and install the Viva Sales add-in for Outlook. You need to be a Teams administrator to deploy and install Viva Sales for Teams.
@@ -161,5 +157,5 @@ You need to be a Microsoft 365 administrator to deploy and install the Viva Sale
 |**CRM admin**<br>Assigned by Microsoft 365 global admin|Manages settings to customize information displayed for Viva Sales in Outlook and Teams.
 |**CRM security role**|Viva Sales applies your organization's existing CRM access controls and user permissions. Users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales. Required roles depend on the system you are using.
 
-For more information on these and other roles, see [Install Viva Sales](/Viva/sales/install-viva-sales)
+For more information on these and other roles, see [Install Viva Sales](/Viva/sales/install-viva-sales).
 
