@@ -32,11 +32,11 @@ Throughout this document, we'll link you to where you can find more detailed inf
 
 ## About team data and data privacy
 
-Team insights features use collaboration data from Microsoft 365 and—depending on your setup—uses organizational data that your admin has uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. Refer to [Data-protection considerations](../advanced/privacy/privacy.md) for more details. 
+Team insights use collaboration data from Microsoft 365. Depending on your setup, team insights might also use organizational data that your admin has uploaded in the advanced insights app, or that's available from Azure Active Directory, to determine who should be included in your "team."  
+
+With team insights, you can't see individual team members' personal collaboration habits. Team insights are generated entirely from activity data from only a user’s own account, and computed from their email, meetings, chats, and calls. All of the same privacy protections and considerations apply to team insights as to other personal insights. 
 
 Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR), the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, refer to the [Privacy guide](../personal/teams/viva-teams-app-privacy.md).
-
-Team insights features are generated using each user's own data, which is computed from their email, meetings, calls, and chats. Individual employee data is stored and protected in the same way as the user's Microsoft 365 data. So, with team insights, you can't see individual team members' personal collaboration habits. 
 
 ## Permissions and app setup
 
