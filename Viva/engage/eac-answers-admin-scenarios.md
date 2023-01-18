@@ -29,6 +29,14 @@ The table below shows the range of actions available to an unlicensed user, Viva
 
 < Table of admin permissions >
 
+> [!div class="mx-tdBreakAll"]
+> |Name|Syntax|Mandatory for silent installation?|Description|
+> |-------------|----------|---------|---------|
+> |Quiet|/quiet|Yes|Runs the installer, displaying no UI and no prompts.|
+> |NoRestart|/norestart|No|Suppresses any attempts to restart. By default, the UI will prompt before restart.|
+> |Help|/help|No|Provides help and quick reference. Displays the correct use of the setup command, including a list of all options and behaviors.|
+
+
 ## Manage topics in Answers
 
 **Feature topics in Answers**
@@ -98,20 +106,6 @@ Global time saved shows the collective time saved across the organization. This 
 
 >[!NOTE]
 > Analytics are not live but are updated every 24 hours. 
-
-## Rewards and recognition (R&R) admin controls  
-
-Once assigned the Viva Engage Knowledge service plan, O365 (Global) admin and Engage admin will be able to configure Rewards and Recognition Answers badges through the Viva Engage Admin Center.  
-
-< Image of the EAC tab for Badges >
-
-The Global and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**. 
-
-- **Disabled**: data that was being collected for all users will be deleted and no further data will be collected for any users. The badges will be deleted as well.  
-- **On**: users can start earning and collecting badges. The badges are visible to anyone who has a Viva Engage Knowledge service plan and who are part of the organization. 
-- **User preference**: end users will have the option to turn off badges for themselves. When the user opts out, data that was being collected will be deleted and no further data will be collected. The user’s badges will be deleted but they will still be able to see others’ badges.  
-
-< Image of User Preferences toggle in EAC >
 
 ## See also 
 [Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
