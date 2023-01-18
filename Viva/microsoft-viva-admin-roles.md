@@ -30,6 +30,7 @@ In this article, we bring together information on the types and levels of admin 
 ![Image showing admin roles](/Viva/media/admin-roles.png)
 
 ## Roles spanning Microsoft Viva apps
+The two roles that span Microsoft Viva apps are the Microsoft 365 global admin and the Microsoft Teams admin.
 
 #### Microsoft 365 global admin
 
