@@ -14,9 +14,38 @@ ms.subservice: viva-sales
 
 # Administrator settings for Viva Sales
 
-As a CRM administrator, you can customize Viva Sales as per your business requirements. For example, customizing the CRM information displayed in Viva Sales across Outlook and Teams.
+As a CRM administrator, you can customize Viva Sales as per your business requirements. For example, you can control the CRM information displayed in Viva Sales across Outlook and Teams.
 
-You can access administrator settings from the Viva Sales app for Teams. The customization applies to the CRM environment you log in to Viva Sales from Outlook. If you want to customize Viva Sales in another environment, you must switch environments in Outlook.
+## Prerequisites
+
+- Administrators and sellers must have the latest version of the Viva Sales app in Teams. App updates require new permissions and need manual acceptance of updates. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
+- Administrator must sign in to Viva Sales in Outlook.
+    1. [Launch Viva Sales from Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081).
+    2. On the **Welcome to Viva Sales!** screen, select **Sign in to get started**, and then select your CRM and environment to use. 
+
+> [!NOTE]
+> Administrator settings are visible only when you sign in to your CRM from Viva Sales in Outlook with your administrator credentials. More information: [Who can access administrator settings?](#who-can-access-administrator-settings)
+
+## Who can access administrator settings?
+
+### Dynamics 365
+
+|Requirement type  |You must have  |
+|---------|---------|
+|Security role     |  System Administrator, System Customizer, or Viva Sales Administrator<br>More information: [Privileges required to use Viva Sales](install-viva-sales.md#privileges-required-to-use-viva-sales)  |
+
+### Salesforce
+
+|Requirement type  |You must have  |
+|---------|---------|
+|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission  |
+
+> [!NOTE]
+> Changes in user permissions or security roles in  CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
+
+## Access administrator settings
+
+You can access administrator settings from the Viva Sales app for Teams. The customization applies to the CRM environment you sign in to Viva Sales from Outlook. If you want to customize Viva Sales in another environment, you must switch environments in Outlook.
 
 When you open administrator settings, following tabs are available:
 
@@ -26,8 +55,6 @@ When you open administrator settings, following tabs are available:
 
 - **About**: Displays details of the Viva Sales app.
 
-> [!NOTE]
-> Administrator settings are visible only when you log in with your administrator credentials.
 
 **To access administrator settings**
 
@@ -45,36 +72,32 @@ When you open administrator settings, following tabs are available:
 
 3.  On the **Settings** tab, select the required option, and update the settings.
 
-    - **Forms**: Allows you to specify what information should be displayed in Viva Sales across Outlook and Teams. More information: [Configure forms and fields](configure-forms-and-fields.md)
+    - **Forms**: Allows you to specify what information should be displayed in Viva Sales across Outlook and Teams. You can also control which records and fields sellers can edit directly in Viva Sales. More information: [Configure forms and fields](configure-forms-and-fields.md)
 
     ![Screenshot showing Viva Sales Settings tab](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
 
-## Who can access administrator settings?
 
-### Dynamics 365
-
-|Requirement type  |You must have  |
-|---------|---------|
-|Security role     |  System Administrator, System Customizer, or Viva Sales Administrator<br>More information: [Predefined security roles for Sales](/dynamics365/sales/security-roles-for-sales)  |
-
-### Salesforce
-
-|Requirement type  |You must have  |
-|---------|---------|
-|Permission    |  User profile needs to have Modify All Data or Manage Data Integrations permission  |
-
-> [!NOTE]
-> Changes in user permissions or security roles in  CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
 
 ## FAQ
 
-### Can I access administrator settings if my organization does not have Microsoft Teams?
+### Can I access administrator settings if I do not have Microsoft Teams?
 
 No. Administrator settings are currently accessible only through the Viva Sales app for Teams. 
 
 ### Which CRM environment do administrator settings apply to?
 
-The settings apply to the environment signed in to from Viva Sales in Outlook. If you want to customize Viva Sales in another environment, you must switch environments in Outlook. Come back to Viva Sales in Teams and refresh the **Settings** tab.
+The settings apply to the environment signed in to from Viva Sales in Outlook. If you want to customize Viva Sales in another environment, you must switch environments in Outlook.
+
+### How can I switch CRM environments?
+
+Switching environments helps you to reduce the risk of making unintended changes to your production environment. For example, you can test new features or customizations in a staging or development environment before deploying them to your production environment. This can help ensure your changes do not disrupt your business operations or your customers' experience.
+
+You will need to switch CRM environments from Viva Sales in Outlook and come back to Viva Sales app in Teams:
+
+1. [Sign out of Viva Sales in Outlook](https://support.microsoft.com/topic/sign-out-of-viva-sales-7c62164a-ee27-48c7-93a0-c18bb1055cd6).
+2. On the **Welcome to Viva Sales!** screen, select **Sign in to get started**, and then select your CRM and environment to use.
+3. Come back to Viva Sales app in Teams and refresh the **Settings** tab to see the new environment
+
 
 ### Why do I see the message "Sign in to Viva Sales in Outlook first"?
 

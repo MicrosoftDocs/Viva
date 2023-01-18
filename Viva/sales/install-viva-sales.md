@@ -27,11 +27,29 @@ The add-in is enabled in Teams but not installed. You need to go to the Microsof
 
 ## Privileges required to use Viva Sales
 
-Viva Sales applies your organization's existing CRM access controls and user permissions. Users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales.
+Viva Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales.
+
+### Permissions required for Salesforce administrators
+
+Salesforce administrators who need to customize Viva Sales must have the following permissions.
+
+|Requirement type  |You must have  |
+|---------|---------|
+|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission  |
 
 ### Additional privileges required for Dynamics 365 customers
 
-If you're using the out-of-the-box Salesperson and Sales Manager security roles, Viva sales privileges are added automatically. If you're using custom security roles, you must assign the following privileges to the custom security role to use Viva Sales.
+#### Dynamics 365 administrators
+
+If you are using out-of-the-box System Administrator or System Customizer security roles, Viva Sales administration privileges are added automatically. If you are using custom security roles, you must assign the following security role to Dynamics 365 administrators who need to customize Viva Sales. 
+
+|Requirement type  |You must have  |
+|---------|---------|
+|Security role     | Viva Sales Administrator |
+
+#### Dynamics 365 sellers
+
+If you're using the out-of-the-box Salesperson or Sales Manager security roles, Viva sales privileges are added automatically. If you're using custom security roles, you must assign the following privileges to the custom security role to use Viva Sales.
 
 |Table  |Functionality  |Privileges  |
 |---------|---------|---------|
