@@ -37,7 +37,7 @@
       },
       {
         "source_path": "teams-insights/new/viva-insights-stay-connected.md",
-        "redirect_url": "viva/insights/personal/teams/suggested-tasks.md",
+        "redirect_url": "/viva/insights/personal/teams/suggested-tasks",
         "redirect_document_id": true
       },
       {
