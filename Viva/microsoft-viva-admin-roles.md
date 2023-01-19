@@ -46,7 +46,7 @@ The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin 
 
 Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
 
-Learn about [Azure AD roles](/azure/active-directory/roles).
+Learn about [Built-in Azure AD roles](/azure/active-directory/roles/permissions-reference).
 
 #### Microsoft Teams admin
 
