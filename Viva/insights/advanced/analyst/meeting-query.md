@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Meeting query
 description: Learn how to run a custom meeting query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
