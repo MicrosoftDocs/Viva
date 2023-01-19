@@ -20,19 +20,51 @@ search.appverid:
 ---
 # Rewards and recognition admin controls in Viva Engage
 
-## Rewards and recognition (R&R) admin controls  
+The Viva Engage **Rewards and recognition** feature builds and reinforces positive behaviors amongst employees by motivating them to engage with their organization. Once the user meets certain criteria for assisting their peers in Viva Answers, they will earn a variety of achievement badges, which can be configured by Office 365 admin and Engage admin.  
 
-Once assigned the Viva Engage Knowledge service plan, O365 (Global) admin and Engage admin will be able to configure Rewards and Recognition Answers badges through the Viva Engage Admin Center.  
+## Criteria for Answers badges 
 
-< Image of the EAC tab for Badges >
+Users can earn five distinct types of badges:  
 
-The Global and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**. 
+- **Best Answer**: your answer is marked as the Best Answer 
+- **Seeker level 1**: your question receives 3 upvotes 
+- **Seeker level 2**: your question receives 10 upvotes 
+- **Scholar level 1**: your answer receives 3 upvotes 
+- **Scholar level 2**: your answer receives 10 upvotes 
+
+## Rewards and recognition admin controls 
+
+Once assigned the Viva Engage Knowledge service plan, O365 (Global) admin and Engage admin will be able to configure Answers badges through the Engage Admin center.  
+
+To set up Rewards and recognition for your organization, navigate to the **Feature management** tab in the Engage admin center, then select **Rewards and recognition**.
+ 
+< Image needed of the Engage admin center tab for R&R > 
+
+Once redirected, the O365 (Global) and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**.
 
 - **Disabled**: data that was being collected for all users will be deleted and no further data will be collected for any users. The badges will be deleted as well.  
-- **On**: users can start earning and collecting badges. The badges are visible to anyone who has a Viva Engage Knowledge service plan and who are part of the organization. 
-- **User preference**: end users will have the option to turn off badges for themselves. When the user opts out, data that was being collected will be deleted and no further data will be collected. The user’s badges will be deleted but they will still be able to see others’ badges.  
+- **On**: users can start earning and collecting badges. The badges are visible to anyone who has a Viva Engage Knowledge service plan and who are part of the organization.
+- **User preference**: end users will have the option to turn off badges for themselves. When the user opts out, any data that was being collected will be deleted and no further data will be collected. The user’s badges will be deleted but they will still be able to see others’ badges.  
+    - To opt out of Answers badges, the user will see an ellipses button on the right of their Achievements and awards page, which will allow them to turn off badges.
 
-< Image of User Preferences toggle in EAC >
+< Image needed of UI for Badges admin settings >
+
+< Image needed of UI for Achievements and awards  >
+ 
+>[!NOTE]
+> Answers badges will be default off only for customers who are based out of Finland and organizations who use the education license. The feature is default on for everyone else.
+
+## Frequently asked questions
+
+**What license is required to earn Answers badges?**
+A license to the Viva Engage Knowledge service plan is required to start earning Answers badges and must be assigned by an admin. This service plan will be available by purchasing either the Viva Suite or Viva Topics SKUs.
+ 
+**What happens to users badges if the admin control is turned from on to disabled?**
+All the badges earned by users will be deleted and no data will be processed when the control of rewards and recognition is disabled. This means that the badges earned by users will be lost and they will not be able to get them back, unless they start earning them back again. 
+
 
 ## See also 
-[Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
+
+[Answers in Viva Engage overview](/viva/engage/eac-answers-overview-setup.md)
+
+[Access the Engage admin center](/Viva/engage/eac-as-access-eac.md)
