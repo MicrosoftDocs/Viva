@@ -1,5 +1,5 @@
 ---
-title: "Rewards and recognition admin controls in Viva Engage"
+title: "Rewards and recognition in Viva Engage"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -33,7 +33,7 @@ Users can earn five distinct types of badges:
 - **Scholar level 1**: your answer receives 3 upvotes 
 - **Scholar level 2**: your answer receives 10 upvotes 
 
-## Rewards and recognition admin controls 
+## Rewards and recognition in Viva Engage
 
 Once assigned the Viva Engage Knowledge service plan, O365 (Global) admin and Engage admin will be able to configure Answers badges through the Engage Admin center.  
 
