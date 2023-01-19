@@ -71,9 +71,9 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 
 ## Achieved or At Risk KPIs
 
-Because Viva Insights respects user privacy, the Employee experience reports in Power BI do not show information about individual recipients and when necessary to protect privacy, it reports approximated values only. For example, the following shows an approximation about “Hosting targeted meetings.” Groups with less than 10 employees are not shown in the reports. See [De-identification of personal data in Viva Insights](../advanced/privacy/privacy.md#de-identification-of-personal-data) for details.
+Because Viva Insights respects user privacy, the Employee experience reports in Power BI display approximated values when necessary to protect privacy. For example, the following shows an approximation about “Protecting personal time.”
 
-![Example KPI approximation about Hosting targeted meetings.](../Images/WpA/Tutorials/kpi-example.png)
+![Chart that shows an example KPI approximation about Protecting personal time.](../Images/WpA/Tutorials/kpi-example2.png)
 
 The following lists the minimum and maximum percentage ranges for the value thresholds that are used to categorize employees as **Achieved** as compared to **At Risk**, which fall outside of these ranges.
 
@@ -87,7 +87,7 @@ For more information, see [Differential privacy in Viva Insights](../advanced/pr
 
 ## Organizational data
 
-After the dashboard is set up and populated with data in Power BI, as a first step, confirm the date range and number of measured employees that's shown at the top of each page is what you expected for this analysis.
+After the dashboard is set up and populated with data in Power BI, make sure the date range and number of measured employees shown at the top of each page is what you expected for this analysis. **Measured employees** counts the number of employees who were active during the last week, meaning they sent at least one email or Teams chat.
 
 >[!Important]
 >As new data is processed on a weekly basis, select **On** for **Keep your data up to date** in the **Scheduled refresh** section in Power BI if you want the report data to refresh in Power BI each week. For details, see [Configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh#scheduled-refresh).

@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: Viva Insights Individual Adoption resources
 description: Individual Adoption resources section for using personal insights with Microsoft Viva Insights
 author: madehmer

@@ -20,6 +20,8 @@ audience: Admin
 
 As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can deploy and pin the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
 
+
+
 ## Prerequisites
 
 Before people in your organization can use the Viva Insights app, they must have the following:
@@ -32,7 +34,12 @@ Before people in your organization can use the Viva Insights app, they must have
 Complete the steps in the following playbooks to get the Viva Insights app up and running for people in your organization.
 
 1. Confirm they have a [Viva Insights service plan](../overview/plans-environments.md).
-2. In the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), add the Viva Insights app to the list of allowed apps within the organization, as follows:
+1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
+1. Under **Viva Insights in Microsoft 365**, select **Manage availability in the Teams admin center**.
+
+    :::image type="content" source="../../images/mya/setup/mac-teams-admin1.png" alt-text="Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.":::
+
+1. In the Teams admin center, add the Viva Insights app to the list of allowed apps within the organization, as follows:
 [Release the Viva Insights app within your organization](https://download.microsoft.com/download/1/b/9/1b980a29-f166-4b72-8d8e-d1126f4028c7/Release-the-Insights-app.pdf).
 
    >[!Note]
@@ -73,14 +80,13 @@ As the admin, use the following steps to change the setting for meeting effectiv
 
 #### To configure the default state for a tenant
 
->[!Note] 
-> If you're a targeted release customer, you might see a new admin experience. To learn how configure access through this new experience, refer to [Using the new admin experience](../../advanced/setup-maint/new-admin-experience.md#personal-insights). 
+1. On the Viva Insights [admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/viva), select **Viva Insights**.
+1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
+   :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
+1. In the resulting pane, select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, *no user in your organization will receive the surveys*, including those who previously were receiving them. However, individuals can explicitly opt in again within their Viva Insights app.
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
-2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
-3. In the left pane, expand **Settings**, and then select **Org Settings**.
-4. Under **Org Settings**, select **Viva Insights**.
-5. Select or deselect the checkbox for **Meeting effectiveness surveys**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive the surveys, including all those who were receiving the surveys. However, individuals can explicitly opt in again within their Viva Insights app.
+   :::image type="content" source="images/meeting-effectiveness-surveys-admin.png" alt-text="Screenshot that shows the Viva Insights elements pane in the Viva Insights admin collection.":::
+
 
 >[!Note]
 >After you change the survey setting in the admin center, it will take up to 24 hours for the new setting change to take effect.
@@ -104,11 +110,11 @@ To enable or disable meeting effectiveness surveys for a specific user, use the 
 Set-VivaInsightsSettings -Identity roy@contoso.onmicrosoft.com -Enabled $false -Feature MeetingEffectivenessSurvey
 ```
 
-* If you set the Enabled parameter to **$false**, the meeting effectiveness surveys will be **Off** for that user. The user won't be able to override this setting or opt in to the meeting effectiveness surveys. In other words, you're completely disabling the feature.
-* If you set the Enabled parameter to **$true**, the meeting effectiveness surveys will be **On** for that user. Users can then opt out from meeting effectiveness surveys. If no action occurs, this setting applies by default.
+* If you set the Enabled parameter to `$false`, the meeting effectiveness surveys will be **Off** for that user. The user won't be able to override this setting or opt in to the meeting effectiveness surveys. In other words, you're completely disabling the feature.
+* If you set the Enabled parameter to `$true`, the meeting effectiveness surveys will be **On** for that user. Users can then opt out from meeting effectiveness surveys. If no action occurs, this setting applies by default.
 
 >[!Note]
->When Enabled is set as $true, people who had previously opted out will continue to be opted out and will not receive any surveys until they opt back in through their Viva Insights app.
+>When Enabled is set as `$true`, people who had previously opted out will continue to be opted out and will not receive any surveys until they opt back in through their Viva Insights app.
 >
 >**Suggestions for you cards** (How your meetings succeeded and How your meetings can improve) derived from meeting metrics data (outside of surveys)  appear regardless of tenant- and user-level disablements.
 
@@ -158,22 +164,21 @@ People see different notifications and settings in their Viva Insights app in Te
 
 The first time people in your organization use the Viva Insights app, they get a notification about meeting effectiveness surveys. On their **Settings > Effective meetings** page, the toggle for **Meeting effectiveness surveys** is switched on. If people want to opt out of the survey, they can switch the toggle off.
 
-   ![Screenshot that shows the notification for users who have the feature default-on.](./images/meeting-effectiveness-notification-on.png)
+   :::image type="content" source="./images/meeting-effectiveness-notification-on.png" alt-text="Screenshot that shows the notification for users who have the feature default-on.":::
 
-   ![SCreenshot that shows the Effective meetings tab in Settings with the Meeting effectiveness surveys toggle switched on.](./images/meeting-effectiveness-setting-toggle.png)
-
+   :::image type="content" source="./images/meeting-effectiveness-setting-toggle.png" alt-text="Screenshot that shows the Effective meetings tab in Settings with the Meeting effectiveness surveys toggle switched on.":::
 
 **Scenario 2: In the Microsoft admin center, you set the meeting effectiveness survey feature to default-off.**
 
 The first time people in your organization use the Viva Insights app, they get a notification asking whether they want to start using meeting effectiveness surveys. On their **Settings > Effective meetings** page, the toggle for **Meeting effectiveness surveys** is switched off. If people want to start using the surveys, they can switch the settings toggle on, or select **Get started** on the first-use notification.
 
-   ![Screenshot that shows the opt-in notification for users who have the feature default-off.](./images/meeting-effectiveness-notification-opt-in.png)
+   :::image type="content" source="./images/meeting-effectiveness-notification-opt-in.png" alt-text="Screenshot that shows the opt-in notification for users who have the feature default-off.":::
 
 **Scenario 3: You used a PowerShell cmdlet to disable access to the meeting effectiveness survey feature.**
 
 People in your organization don't receive *any* notifications about meeting effectiveness surveys. When they go to their **Settings > Effective meetings** page in the Viva Insights app in Teams or on the web, they don't see a toggle to turn on or off the feature.
 
-   ![Screenshot that shows the Effective meetings tab in Settings with no Meeting effectiveness surveys toggle present.](./images/meeting-effectiveness-notification-cmdlet-off.png)
+   :::image type="content" source="./images/meeting-effectiveness-notification-cmdlet-off.png" alt-text="Screenshot that shows the Effective meetings tab in Settings with no Meeting effectiveness surveys toggle present.":::
 
 ## Premium access for licenses assigned before July 2021
 
@@ -200,7 +205,7 @@ To confirm, enable, or disable access to premium features for users with license
    * **Microsoft Viva Insights** – Enables access to premium features that were released starting in November 2021.
    * **Microsoft Viva Insights (WpA transition)** – Only applicable to users who were assigned licenses **before July 2021**.
 
-    ![Azure AD license app options for Viva Insights](./images/wpa-transition-app-option.png)
+    :::image type="content" source="./images/wpa-transition-app-option.png" alt-text="Azure AD license app options for Viva Insights.":::
 
 8. Select **Review + assign**, and then near the bottom, select **Assign** to apply the changes.
 

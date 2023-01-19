@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Viva Insights team adoption introduction
 description: Viva Insights team adoption introduction
 author: madehmer

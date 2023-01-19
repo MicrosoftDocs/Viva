@@ -34,7 +34,7 @@ When you select a feature on the top menu, you'll leave the Home page.
 You use the following features on the Home page with the on-screen instructions.  
 
 * [Up-next card](#up-next-card) – View the card and its message.
-* [Reflect](viva-insights-reflect.md) – In **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->
+* [Reflect](viva-insights-reflect.md) – In **How are you feeling?**, select a representative image.
 * Send [Praise](viva-insights-praise.md) – In **Send praise to your colleagues**, select **Send praise**.
 * [Guided meditations from Headspace](#take-a-break) – In the **Headspace** card, select the **Play** button. (Alternatively, you can select from among **More mindfulness exercises**.)
 * [Take a break](#take-a-break) – In **Take a break**, select **Start**.
@@ -44,7 +44,7 @@ You use the following features on the Home page with the on-screen instructions.
 
 For the next three cards, you can take a quick action while remaining on the Home page. Alternatively, you can open the full feature (and leave the Home page) by selecting another option on the card &ndash; such as **More insights**.
 
-* [Stay connected](viva-insights-stay-connected.md) – Follow up on an action shown in **Stay connected**, such as to book a 1:1 with a specific person.
+* [Stay connected](viva-insights-stay-connected.md) – Follow up on an action shown in **Stay connected**, such as pinning a collaborator.
 * [Protect time](viva-insights-protect-time.md) – Take action on what's shown in **Protect time**, such as to book focus time for tomorrow.
 * [Inspiration library](inspiration.md) – See inspirational articles within specific themes, such as wellbeing, culture, impact, and resilience.
 * [Microsoft To Do](#microsoft-to-do) – Take action on what's shown in your **To Do** list, such as to book a meeting.

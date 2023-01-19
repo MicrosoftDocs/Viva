@@ -19,7 +19,7 @@ audience: Admin
 
 The **Wellbeing &ndash; balance and flexibility** dashboard uses a template that's populated by Microsoft Viva Insights data to help you get insights into employee wellbeing across your company. This analysis can help you uncover opportunities to improve focus, work-life balance, flexibility at work, and employee's sense of community.
 
-The dashboard includes the following reports.
+The dashboard includes the following reports. 
 
 * **Improve focus** &ndash; Do you have time to focus on your core priorities?
 * **Balance work and life** &ndash; Are you able to protect personal time?
@@ -56,7 +56,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 >[!Note]
 >This dashboard is currently only available in English and will only work with data generated from the English version of the app. Before running the required queries, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/...
 
-1. In [the app](https://workplaceanalytics.office.com/)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/) (if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 
 2. In **Create** > **Other templates**, select **Wellbeing - balance and flexibility** to see the required setup steps, and then in step 2, select **Set up**.
 
@@ -68,24 +68,20 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    * **Group by** &ndash; Week
    * **Time period** &ndash; Select the time period you want to analyze
    * **Auto-refresh** &ndash; Keep this setting disabled by default. Turn it on only if you plan to track indicators on a weekly basis.
-   * **Meeting exclusions** &ndash; Select the preferred rule for your tenant
-
-   >[!Important]
-   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize employee wellbeing patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+   * **Meeting exclusions** &ndash; Select the preferred rule for your tenant.
 
 4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-person-query).
 
-5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires.
+5. In **Organizational data**:
+    * Keep the preselected **Organization** attribute (required). 
+        >[!Important] 
+        >If you remove the predefined **Organization** attribute, the report won't show any visuals.
 
-   >[!Important]
-   >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+    * Keep the preselected **LevelDesignation** attribute (recommended). If  **LevelDesignation** isn't available, you'll need to adjust your report. Refer to [About LevelDesignation](#about-leveldesignation).
 
 6. Select any additional attributes (columns) that you want to include in the reports.
 7. Select **Run** to run the query, which might take a few minutes to complete.
 8. When prompted, return to Query designer, and then repeat  **Steps 3-7** for the **Hourly collaboration** query, which requires the same selections as for the Wellbeing query.
-
-   >[!Important]
-   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize employee wellbeing patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 9. When prompted, continue to **Results**. After both queries successfully run, select the **Download** icon for the **Wellbeing - balance and flexibility** query results, select **PBI template**, and then select **OK** to download the template.
 10. Open the downloaded **Wellbeing - balance and flexibility** template.
@@ -110,6 +106,13 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     >You must sign in to Power BI with the same account you use to access Viva Insights.
 
 16. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
+
+### About LevelDesignation
+
+Like **Organization**, **LevelDesignation** is a predefined organizational attribute. These attributes help your report work properly. If your organizational data file is missing the **LevelDesignation** attribute, your report will still show visuals. However, here are two things to know:
+
+* You'll get an error message about the missing attribute during query setup. To run the query *without* **LevelDesignation**, select **Clean Query** on the error message.
+* The calculation of certain metrics uses **LevelDesignation**, so using the **Clean Query** button means that those calculations are inaccurate. Without **LevelDesignation**, the **Chats with peers** visual will show you the wrong data. We don't recommend using this visual for further analysis.
 
 ## Report settings
 
@@ -137,7 +140,7 @@ The Wellbeing - balance and flexibility report includes the following report pag
 
 * **Improve focus** &ndash; Shows the average daily collaboration hours for each employee by organization as compared to focus hours. This highlights how an employee's collaboration load is impacting their focus time.
 * **Balance work and life** &ndash; Shows the average daily after-hours collaboration for each employee, the distribution of employees by their after-hours collaboration, and percentage of employees that were active during the weekends at least once every four weeks. Understanding employees' after-hours and weekend work behaviors can uncover opportunities to improve their work-life balance.
-* **Handle urgency** &ndash; Shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by the following keywords in the email subject lines or meeting invitation titles: "urgent," "immediately," "ASAP," "fire drill," "immediate action." This list of keywords is also provided in the report. Keywords are by default in English in the query template. Users that are assigned the role of analyst can add or edit keywords in the template. This highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
+* **Handle urgency** &ndash; Shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by the following keywords in the email subject lines or meeting invitation titles: "urgent," "immediately," "ASAP," "fire drill," "immediate action." This list of keywords is also provided in the report. Keywords are by default in English in the query template. Users who are assigned the role of analyst can add or edit keywords in the template. This highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
 * **Embrace flexibility** &ndash; Highlights three key aspects that help you identify employees' flexibility at work:
    * **Flexible start times** &ndash; Shows the percentage of weeks in which the employees have at least one day of flexible start time in a week.
    * **Recurring time to disconnect** &ndash; Shows the percentage of weeks in which the employees take at least one hour of recurring break each day over the week.

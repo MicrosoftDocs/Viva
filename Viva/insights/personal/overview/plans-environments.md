@@ -19,7 +19,7 @@ audience: Admin, user
 
 # Personal insights plans and environments
 
-Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [Dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
+Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](../teams/viva-teams-app.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
 
 ## Microsoft 365 plans
 
@@ -61,7 +61,7 @@ The following Personal insights service plans are generally available with a sub
 
 >[!Note]
 >
->* To determine what your plan and service plan are, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
+>* To determine what your plan and service plan are, see [How do I find my plan?](../overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is).
 >* For more information about the plans that offer these user experiences, see [Microsoft 365 business plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans).
 
 ## Access to Viva Insights elements
@@ -72,7 +72,7 @@ After users get assigned licenses with an applicable service plan, they get acce
 | ------- | ------------------|
 | [Welcome email](../use/mya-welcome-email.md) | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment |
 | [Insights Outlook add-in](../use/add-in.md) and [Inline suggestions](../use/mya-notifications.md) | Available about one day after license assignment |
-| The [Dashboard](../use/dashboard-2.md), [Viva Insights Home page](../use/home-web.md), and [Viva Insights in Teams](../teams/viva-teams-app.md) | Available a few days after license assignment |
+|[Viva Insights in Teams and on the web](../teams/viva-teams-app.md) | Available a few days after license assignment |
 | [Digest emails](../use/email-digests-3.md) | Sent two to three weeks after the welcome email |
 
 >[!Note]  
@@ -85,7 +85,8 @@ After users get assigned licenses with an applicable service plan, they get acce
 * The following additional features are included with the [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights):
 
   * [Schedule send suggestions](../use/delay-delivery.md)
-  * The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature
+  * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
+  * [Meeting category insights](../teams/effective-meetings.md#meeting-category-insights)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
   * [Breaks, learning, and message catch-up plans](../teams/viva-insights-protect-time.md#create-other-plans)
 

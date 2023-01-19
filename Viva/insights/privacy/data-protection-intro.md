@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 title: Data protection and Viva Insights
 description: Summarizes how your data is kept private and protected within Microsoft Viva Insights
 author: madehmer
