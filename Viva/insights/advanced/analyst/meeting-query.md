@@ -117,7 +117,7 @@ When you use filters in a meeting query, you're creating individual condition st
 
 A *condition* is a statement about one [attribute](#about-meeting-and-organizer-attributes) you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, "Recurring = true,” the query would only extract rows that equal "true" under the **Recurring** column. 
 
-:::image type="content" source="../images/meeting-query-sample-condition.png" alt-text="Screenshot that shows a condition filter where the Meeting attribute is Recurring, the Operator is "=", and the Value is "true".":::
+:::image type="content" source="../images/meeting-query-sample-condition.png" alt-text="Screenshot that shows a condition filter where the Meeting attribute is Recurring, the Operator is =, and the Value is true.":::
 
 A *condition group* is a combination of conditions connected with a conjunction ("and" or "or"). Condition groups contain multiple conditions, and all of them are true. Instead of considering conditions hierarchically (condition 1, condition 2), Viva Insights considers condition groups altogether when it runs queries.
 
