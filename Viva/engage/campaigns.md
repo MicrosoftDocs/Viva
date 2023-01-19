@@ -25,7 +25,7 @@ Campaigns are an interactive way to drive employee engagement, with the power to
 
 ## Set up a campaign
 
-You can set up a campaign using the Campaign dashboard. To get there, go to the **Feature management** tab in the Engage admin center, and then select **Campaigns**.
+To set up a campaign, navigate to the Campaign dashboard by selecting the **Feature management** tab in the Engage admin center, then select **Campaigns**. 
 
 ![Viva admin page](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
  
