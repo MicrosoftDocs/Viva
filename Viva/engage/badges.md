@@ -39,18 +39,18 @@ Once assigned the Viva Engage Knowledge service plan, O365 (Global) admin and En
 
 To set up Rewards and recognition for your organization, navigate to the **Feature management** tab in the Engage admin center, then select **Rewards and recognition**.
  
-< Image needed of the Engage admin center tab for R&R > 
+![Image of the interface for Rewards and recognition in the Engage admin center](/Viva/media/engage/IMG/badges-eac.jpg)
 
 Once redirected, the O365 (Global) and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**.
+ 
+![Image of the interface for Answers badges setting in the Engage admin center](/Viva/media/engage/IMG/badges-settings.jpg)
 
 - **Disabled**: data that was being collected for all users will be deleted and no further data will be collected for any users. The badges will be deleted as well.  
 - **On**: users can start earning and collecting badges. The badges are visible to anyone who has a Viva Engage Knowledge service plan and who are part of the organization.
 - **User preference**: end users will have the option to turn off badges for themselves. When the user opts out, any data that was being collected will be deleted and no further data will be collected. The user’s badges will be deleted but they will still be able to see others’ badges.  
     - To opt out of Answers badges, the user will see an ellipses button on the right of their Achievements and awards page, which will allow them to turn off badges.
-
-< Image needed of UI for Badges admin settings >
-
-< Image needed of UI for Achievements and awards  >
+ 
+![Image of the interface for users to turn off Answers badges](/Viva/media/engage/IMG/badges-turn-off.jpg)
  
 >[!NOTE]
 > Answers badges will be default off only for customers who are based out of Finland and organizations who use the education license. The feature is default on for everyone else.
