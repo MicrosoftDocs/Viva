@@ -143,14 +143,14 @@ If you pick a person attribute, you create a filter based on organizational data
    * **Meeting attribute**\
    * **Organizational data attribute**\
    * **Operator** \
-   * **Value**\
+   * **Value**
    :::column-end:::
    :::column:::
     *All*, *AtLeastOne*, or *None*\
     The attribute you picked from the initial dropdown list\
     An attribute from your company's organizational data\
     *=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked\
-    One of a list of predefined choices, based on what your company's organizational data contains\
+    One of a list of predefined choices, based on what your company's organizational data contains
        :::column-end:::
     :::row-end:::
      
