@@ -80,20 +80,20 @@ You can pick from seven meeting-related metrics, which we've broken into two cat
 
 
 |Category|Name|Definition|
-|---|----|----
-|**Meeting impact metrics**| Attendee meeting hours| Sum of hours each attendee spent in a meeting
-||Number of attendees| Number of people who attended a meeting
-|**Meeting quality metrics**| Number of attendees multitasking|Number of attendees who sent or read emails or Teams chats during a meeting
-|| Number of chats send during the meeting| Number of Teams chats attendees sent during a meeting
-|| Number of emails send during the meeting|Number of emails attendees sent during a meeting
-|| Number of participants with conflicting meetings|Number of intended participants or meeting organizer who have non-declined meetings that overlap
-||Number of redundant attendees| Number of attendees who are redundant in a meeting, meaning that their manager and their manager's manager also attended
+|---|----|---- |
+|**Meeting impact metrics**| Attendee meeting hours| Sum of hours each attendee spent in a meeting |
+||Number of attendees| Number of people who attended a meeting |
+|**Meeting quality metrics**| Number of attendees multitasking|Number of attendees who sent or read emails or Teams chats during a meeting |
+|| Number of chats send during the meeting| Number of Teams chats attendees sent during a meeting |
+|| Number of emails send during the meeting|Number of emails attendees sent during a meeting |
+|| Number of participants with conflicting meetings|Number of intended participants or meeting organizer who have non-declined meetings that overlap |
+||Number of redundant attendees| Number of attendees who are redundant in a meeting, meaning that their manager and their manager's manager also attended |
 
 #### About the Select metrics pane
 
 In the **Select metrics** pane, metrics are grouped by the metric categories we just described. Expand the categories to see which metrics they contain. Let’s say you were looking for how many hours attendees spent in meetings.  You'd find the **Attendee meeting hours** metric under the **Meeting impact metrics** category. 
 
-While you're adding meeting query metrics metrics, you can use the search bar at the top of the pane. Enter keywords or related Power BI templates to find the metrics you're looking for.
+While you're adding meeting query metrics, you can use the search bar at the top of the pane. Enter keywords or related Power BI templates to find the metrics you're looking for.
 
 To learn more about a metric, hover over its information icon.
 
@@ -117,14 +117,14 @@ When you use filters in a meeting query, you're creating individual condition st
 
 A *condition* is a statement about one [attribute](#about-meeting-and-organizer-attributes) you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, "Recurring = true,” the query would only extract rows that equal "true" under the **Recurring** column. 
 
-:::image type="content" source="../images/meeting-query-sample-condition.png" alt-text="Screenshot that shows a condition filter where the Meeting attribute is Recurring, the Operator is =, and the Value is true.":::
+:::image type="content" source="../images/meeting-query-sample-condition.png" alt-text="Screenshot that shows a condition filter where the Meeting attribute is Recurring, the Operator is "=", and the Value is "true".":::
 
 A *condition group* is a combination of conditions connected with a conjunction ("and" or "or"). Condition groups contain multiple conditions, and all of them are true. Instead of considering conditions hierarchically (condition 1, condition 2), Viva Insights considers condition groups altogether when it runs queries.
 
 Here's an example. Let's say that in addition to analyzing whether certain meetings recur, you only want to look at meetings that contain at least one person from the New York timezone *and* contain "Design" in their subject line. You'd add a condition group. The first statement in the group would cover the "at least one person from New York" part. The second statement, with an "and" conjunction, would cover the "'Design in the subject line" part.
 
 :::image type="complex" source="../images/meeting-query-sample-condition-group.png" alt-text="Screenshot that shows a condition and a condition group.":::
-   Screenshot of a condition, where Recurring = true. Below the condition, there's a condition group with two conditions.The first condition is where the Aggregation type of Attendees in Timezone = 1 selected (this is America/New_York, which appears as a tag below the condition). The second condition is connected by an "and" statement. The condition is where the Subject contains Design. Beneath the condition group, there is an "Add condition" and "Add condition group" button.
+   Screenshot of a condition, where Recurring = true. Below the condition, there's a condition group with two conditions. The first condition is where the Aggregation type of Attendees in Timezone = 1 selected (this is America/New_York, which appears as a tag below the condition). The second condition is connected by an "and" statement. The condition is where the Subject contains Design. Beneath the condition group, there is an "Add condition" and "Add condition group" button.
 :::image-end:::
 
 When Viva Insights runs your query, it will first check for whether meetings recur (your earlier condition statement). After that, instead of checking for at least one person from New York *then* the "Design" in the subject line, it will only check for meetings where *both* of those conditions are true.
@@ -137,14 +137,31 @@ If you pick a meeting attribute, an operator (like "=")  appears. Then you fill 
 
 If you pick a person attribute, you create a filter based on organizational data with the following components:
 
+:::row:::
+   :::column:::
+   * **Aggregation type**
+   * **Meeting attribute**
+   * **Organizational data attribute**
+   * **Operator** 
+   * **Value**
+   :::column-end:::
+   :::column:::
+    *All*, *AtLeastOne*, or *None*
+    The attribute you picked from the initial dropdown list
+    An attribute from your company's organizational data
+    *=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked
+    One of a list of predefined choices, based on what your company's organizational data contains
+       :::column-end:::
+    :::row-end:::
+     
 * **Aggregation type** – *All*, *AtLeastOne*, or *None*
 * **Meeting attribute** – The attribute you picked from the initial dropdown list
 * **Organizational data attribute** – An attribute from your company's organizational data
 * **Operator** – *=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked
 * **Value** – One of a list of predefined choices, based on what your company's organizational data contains
 
->[!Note] 
->Organizational data available for you to use in filters depends on what your organization sends to Viva Insights.
+> [!Note] 
+> Organizational data available for you to use in filters depends on what your organization sends to Viva Insights.
 
 Here's a list of all predefined filters, their type, input format, and an example condition statement that uses that filter.
 
