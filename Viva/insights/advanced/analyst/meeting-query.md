@@ -39,17 +39,15 @@ In this article, we talk about how to complete each of these steps, and also giv
 
 *Section: **Query setup***
 
-:::image type="content" source="../images/meeting-query-setup-section.png" alt-text="Setup help with link to video, sample, and walk-through above Query setup":::
-
-<!--In the **Query setup** section, you define some basic information about your query, like its name, the time period it will analyze, and whether it will refresh on its own.-->
+:::image type="content" source="../images/meeting-query-setup-section.png" alt-text="Screenshot showing the Query setup section, including name, Time period, Description, and Date fields and an Auto-Refresh box.":::
 
 1. Under **Query setup**:
 
     1. Optional: Name your query. Queries are assigned a default name, which follows this format: "Activity," user ID, date, and time. Make sure the name is unique.
     1. Optional: Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
-    :::image type="content" source="../images/custom-date-picker.png" alt-text="Time period with date pickers highlighted.":::
+    :::image type="content" source="../images/custom-date-picker.png" alt-text="Screenshot that shows the Time period field with date-picker button highlighted and selectable calendar expanded.":::
     1. Optional: Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every day. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
-        :::image type="content" source="../images/hover-auto-refresh.png" alt-text="Time period with Auto-Refresh highlighted.":::
+        :::image type="content" source="../images/hover-auto-refresh.png" alt-text="Screenshot that shows the Time period field with Auto-Refresh box.":::
 
     1. Optional: Type a **Description**.
 
@@ -63,15 +61,15 @@ In this article, we talk about how to complete each of these steps, and also giv
 
 *Section: **Select metrics for what you want to know about your meetings***
 
-:::image type="content" source="../images/meeting-query-section-1.png" alt-text="Add metrics pane":::
+:::image type="content" source="../images/meeting-query-section-1.png" alt-text="Screenshot that shows the Select metrics field, with an Add metrics button.":::
 
 2. Select the **Add metrics** button, then pick metrics from the resulting **Select metrics** pane. When you're done picking metrics, select **Add to query**.
 
-    :::image type="content" source="../images/meeting-query-metric-pane2.png" alt-text="Add metrics pane":::
+    :::image type="content" source="../images/meeting-query-metric-pane2.png" alt-text="Screenshot of the Select metrics pane, with metric categories expanded to show available metrics, and an Add to query button.":::
 
     The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
 
-    :::image type="content" source="../images/meeting-query-metric-tags.png" alt-text="Screenshot that shows selected metrics in the box beneath Select metrics for what you want to know about your meetings.":::
+    :::image type="content" source="../images/meeting-query-metric-tags.png" alt-text="Screenshot that shows selected metrics as tags in the Select metrics field.":::
 
 ### About metrics
 
@@ -79,7 +77,6 @@ Metrics are criteria used to measure the productivity and wellbeing of employees
 
 You can pick from seven meeting-related metrics, which we've broken into two categories: meeting impact metrics and meeting quality metrics. Here are their names and definitions:
 
-<!--address "the" vs. "a" w/ Gayathri and Lucas. Also if we do this here, should we do it in the Person query? Part of me feels like it would be more consistent to just link people out to the Metrics article.-->
 
 |Category|Name|Definition|
 |---|----|----
@@ -99,7 +96,7 @@ While you're adding meeting query metrics metrics, you can use the search bar at
 
 To learn more about a metric, hover over its information icon.
 
-:::image type="content" source="../images/meeting-query-metric-information.png" alt-text="Screenshot that shows hovering over a metric's information icon. The popup shows the metric definition and information.":::
+:::image type="content" source="../images/meeting-query-metric-information.png" alt-text="Screenshot that shows hovering over a metric's information icon with pop-up metric definition and information.":::
 
 ## Add conditions and condition groups
 
@@ -145,8 +142,6 @@ If you pick a person attribute, you create a filter based on organizational data
 * **Operator** – *=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked
 * **Value** – One of a list of predefined choices, based on what your company's organizational data contains
 
- <!--is there a way to change Meeting attribute in the UI? It's confusing that the box says "Meeting attribute"-->
-
 >[!Note] 
 >Organizational data available for you to use in filters depends on what your organization sends to Viva Insights.
 
@@ -178,8 +173,6 @@ To move a condition or condition group, select the six-dot icon to the right, th
 
 *Section: **Select which meeting and employee attributes of the meeting organizer you want to include in the query***
 
-<!--I think this is too long of a section title. Is there any way to decrease verbiage here? Maybe "Select which meeting attributes and organizer attributes you want to include in the query"?-->
-
 4.	Select the **Select attributes** button, then:
     1. On the right pane, use the checklist to make selections.
     1. When you're done picking attributes, select the **Add to query** button.
@@ -187,7 +180,7 @@ To move a condition or condition group, select the six-dot icon to the right, th
     
     Attributes appear as tags in the box above the **Select attributes** button.
 
-    :::image type="content" source="../images/meeting-query-attribute-tags.png" alt-text="Screenshot that shows the Select which meeting and employee attributes of the meeting organizer you want to include in the query section, with tags of selected attributes below.":::
+    :::image type="content" source="../images/meeting-query-attribute-tags.png" alt-text="Screenshot of the attribute section of query building, with tags of selected attributes in a box below.":::
 
 ### About meeting and organizer attributes
 
@@ -217,7 +210,7 @@ After your query runs, access its results in the **Query results** page. On the 
 
 Here's a sample of what a .csv meeting query output looks like:
 
-:::image type="content" source="../images/meeting-query-output.png" alt-text="Screenshot that shows the Run button.":::
+:::image type="content" source="../images/meeting-query-output1-small.png" alt-text="Screenshot that shows a sample meeting query output .csv file." lightbox="../images/meeting-query-output1.png":::
 
 ## Example meeting query
 
@@ -230,24 +223,24 @@ Here’s how you might do that:
     1. **Time period**: Select **Last 6 months**.
     1. **Auto-Refresh**: You just want to have this run once, so leave the **Auto-Refresh** box deselected.
     1. **Description**: Other analysts in your organization might want to know more about this query, so give it a brief description.
-            :::image type="content" source="../images/meeting-query-sample-setup.png" alt-text="Select meeting and employee attributes pane, with 'Add to query' button highlighted":::
+            :::image type="content" source="../images/meeting-query-sample-setup.png" alt-text="Screenshot of the Query setup section filled out with sample information.":::
 1. Add metrics.
     1. Under **Select metrics for what you want to know about your meetings**, select the **Add metrics** button.
     1. You want to know how many hours attendees spend in these meetings, so you select **Attendee meeting hours** from the **Meeting impact metrics** category. 
     1. You want to know how many attendees are multitasking and whether this might be because they have conflicting meetings. You select **Number of attendees multitasking** and **Number of attendees with conflicting meeting** from the **Meeting quality metrics** category.
     1. When you're done picking metrics, you select the **Add to query** button.
-     :::image type="content" source="../images/meeting-query-sample-metrics.png" alt-text="Select meeting and employee attributes pane, with 'Add to query' button highlighted":::
+     :::image type="content" source="../images/meeting-query-sample-metrics.png" alt-text="Screenshot of the select metrics section of the query building process, with selected metrics as tags in a box below the section header and subtitle.":::
 1. Specify the meetings and employees you want to analyze.
     1. Under **Select which meetings employees you want to include in the query**,  select the **Add condition group** button, then **Add condition group**.
     1. Because you want this query to analyze large meetings (which your company defines as having 20 or more participants), you select **Participant count** from the **Meeting attribute** dropdown menu, set the **Operator** to **>=**, and enter **20** for the **Value**.
     1. Because you want to analyze recurring meetings, add a new condition, then set **Meeting attribute** to **Recurring**, leave the **Operator** at **=**, and leave the **Value** at **true**.
-     :::image type="content" source="../images/meeting-query-sample-filter.png" alt-text="Select meeting and employee attributes pane, with 'Add to query' button highlighted":::
+     :::image type="content" source="../images/meeting-query-sample-filter.png" alt-text="Screenshot that shows adding a condition group to the sample query with two conditions.":::
 1. Choose the meeting and employee attributes you want to include in your output file.
     1. Under **Select which meeting and employee attributes you want to include in the query**, select the **Select attributes** button.
     1. Because you want to know how big each meeting is, select **Participant count** from the right pane, under the **Meetings** category.
     1. You also want to know how many multitaskers are supervisors. In the organizational data you upload to Viva Insights, you include an indicator of whether someone is a supervisor. Select that attribute under the **Organizational data** button.
     1. Select the **Add to query** button.
-         :::image type="content" source="../images/meeting-query-sample-attributes.png" alt-text="Select meeting and employee attributes pane, with 'Add to query' button highlighted":::
+         :::image type="content" source="../images/meeting-query-sample-attributes.png" alt-text="Screenshot that shows selected attributes as tags in the box below the attributes section of the query builder.":::
 1. Run the query. On the upper right of the screen, select the **Run button**.
 1. After the query successfully runs, find its results in the **Query results** page. To:
     1. Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
