@@ -46,7 +46,7 @@ Once redirected, the O365 (Global) and Engage admins will see three different op
 ![Image of the interface for Answers badges settings in the Engage admin center](/Viva/media/engage/IMG/badges-settings.png)
 
 - **Disabled**: data that was being collected for all users will be deleted and no further data will be collected for any users. The badges will be deleted as well.  
-- **On**: users can start earning and collecting badges. The badges are visible to anyone who has a Viva Engage Knowledge service plan and who are part of the organization.
+- **On**: users can start earning and collecting badges. The badges are visible to anyone who has a Viva Engage Knowledge service plan and who is part of the organization.
 - **User preference**: end users will have the option to turn off badges for themselves. When the user opts out, any data that was being collected will be deleted and no further data will be collected. The user’s badges will be deleted but they will still be able to see others’ badges.  
     - To opt out of Answers badges, the user will see an ellipses button on the right of their Achievements and awards page, which will allow them to turn off badges.
  
