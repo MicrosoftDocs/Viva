@@ -14,17 +14,17 @@ ms.subservice: viva-sales
 
 # Administrator settings for Viva Sales
 
-As a CRM administrator, you can customize Viva Sales as per your business requirements. For example, you can control the CRM information displayed in Viva Sales across Outlook and Teams.
+Viva Sales can be customized to an organization's business needs. As a CRM administrator, you can manage environment-specific settings for Viva Sales from a central location and control Viva Sales experiences across Outlook and Teams. For example, you can customize the CRM information displayed in Viva Sales across Outlook and Teams to give sellers quick access to the fields most relevant to their flow of work.
 
 ## Prerequisites
 
-- Administrators and sellers must have the latest version of the Viva Sales app in Teams. App updates require new permissions and need manual acceptance of updates. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
+- Administrators and sellers must have the latest version of the Viva Sales app in Teams. Most app updates happen automatically in Teams, but administrator settings requires new permissions and needs manual acceptance of the update. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 - Administrator must sign in to Viva Sales in Outlook.
     1. [Launch Viva Sales from Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081).
     2. On the **Welcome to Viva Sales!** screen, select **Sign in to get started**, and then select your CRM and environment to use. 
 
-> [!NOTE]
-> Administrator settings are visible only when you sign in to your CRM from Viva Sales in Outlook with your administrator credentials. More information: [Who can access administrator settings?](#who-can-access-administrator-settings)
+> [!IMPORTANT]
+> Administrator settings are visible only when you sign in to Viva Sales in Outlook with your administrator credentials. More information: [Who can access administrator settings?](#who-can-access-administrator-settings)
 
 ## Who can access administrator settings?
 
@@ -41,11 +41,11 @@ As a CRM administrator, you can customize Viva Sales as per your business requir
 |Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission  |
 
 > [!NOTE]
-> Changes in user permissions or security roles in  CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
+> Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
 
 ## Access administrator settings
 
-You can access administrator settings from the Viva Sales app for Teams. The customization applies to the CRM environment you sign in to Viva Sales from Outlook. If you want to customize Viva Sales in another environment, you must switch environments in Outlook.
+You can access administrator settings from the Viva Sales app in Teams. Administrator settings are specific to the CRM environment you sign in to from Viva Sales in Outlook. Each environment will have its own set of configurations for Viva Sales. If you want to configure Viva Sales for another environment, you must [switch environments in Outlook](#how-can-i-switch-crm-environments). 
 
 When you open administrator settings, following tabs are available:
 
@@ -84,9 +84,9 @@ When you open administrator settings, following tabs are available:
 
 No. Administrator settings are currently accessible only through the Viva Sales app for Teams. 
 
-### Which CRM environment do administrator settings apply to?
+### Which CRM environment do administrator settings belong to?
 
-The settings apply to the environment signed in to from Viva Sales in Outlook. If you want to customize Viva Sales in another environment, you must switch environments in Outlook.
+The settings belong to the environment signed in to from Viva Sales in Outlook. If you want to customize Viva Sales for another environment, you must [switch environments in Outlook](#how-can-i-switch-crm-environments).
 
 ### How can I switch CRM environments?
 
