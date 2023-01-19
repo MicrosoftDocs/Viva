@@ -112,8 +112,6 @@ To learn more about a metric, hover over its information icon.
 
 ### About conditions and condition groups
 
-<!--Gayahtri to vet-->
-
 When you use filters in a meeting query, you're creating individual condition statements or condition groups to narrow down your query's analysis. We describe which filters are available for meeting queries in the [next section](#predefined-filters).
 
 A *condition* is a statement about one [attribute](#about-meeting-and-organizer-attributes) you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, "Recurring = true,” the query would only extract rows that equal "true" under the **Recurring** column. 
@@ -124,7 +122,9 @@ A *condition group* is a combination of conditions connected with a conjunction 
 
 Here's an example. Let's say that in addition to analyzing whether certain meetings recur, you only want to look at meetings that contain at least one person from the New York timezone *and* contain "Design" in their subject line. You'd add a condition group. The first statement in the group would cover the "at least one person from New York" part. The second statement, with an "and" conjunction, would cover the "'Design in the subject line" part.
 
-:::image type="content" source="../images/meeting-query-sample-condition-group.png" alt-text="Screenshot that shows a condition filter where the Meeting attribute is Recurring, the Operator is =, and the Value is true.":::
+:::image type="complex" source="../images/meeting-query-sample-condition-group.png" alt-text="Screenshot that shows a condition and a condition group.":::
+   Screenshot of a condition, where Recurring = true. Below the condition, there's a condition group with two conditions.The first condition is where the Aggregation type of Attendees in Timezone = 1 selected (this is America/New_York, which appears as a tag below the condition). The second condition is connected by an "and" statement. The condition is where the Subject contains Design. Beneath the condition group, there is an "Add condition" and "Add condition group" button.
+:::image-end:::
 
 When Viva Insights runs your query, it will first check for whether meetings recur (your earlier condition statement). After that, instead of checking for at least one person from New York *then* the "Design" in the subject line, it will only check for meetings where *both* of those conditions are true.
 
