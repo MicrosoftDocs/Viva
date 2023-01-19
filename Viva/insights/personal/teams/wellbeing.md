@@ -12,8 +12,8 @@ manager: anirudhbajaj
 audience: user
 ---
 # Wellbeing
-	
-Use the **Wellbeing** tab in Microsoft Viva Insights to understand your work habits, manage your team better, and promote a healthy balance between life and work. Start booking time to focus, do a guided meditation with Headspace, read up on wellbeing topics, and more. In this article, we'll explain where and how to access these resources.
+
+The **Wellbeing** tab in Microsoft Viva Insights helps you understand your work habits, manage your time, and promote a healthy balance between life and work. Start booking time to focus, do a guided meditation with Headspace, read up on wellbeing topics, and more. In this article, we'll explain where and how to access these resources.
 
 ## About the tab
 
@@ -24,19 +24,17 @@ In the **Wellbeing** tab, you'll notice a header with the option to enter [focus
 >[!Note]
 > If you're a leader or manager, you'll see an additional section at the top of your Wellbeing tab. Make sure to check out the [For leaders and managers](#for-leaders-and-managers) section later in this article.
 
-
-Scroll down, and you'll find three main sections: **Take action to improve your wellbeing**, **Track your progress**, and **Act with intention**. 
+When you scroll down, you'll find three main sections: **Take action to improve your wellbeing**, **Track your progress**, and **Act with intention**. 
 
 ### Take action to improve your wellbeing
 
-The **Take action to improve your wellbeing** section helps you change habits, schedule your time, and disconnect from work when the day's over. Here, you can pick from the following options:
+The **Take action to improve your wellbeing** section helps you change habits, schedule your time, and disconnect from work when the day's over. Pick from these wellbeing-oriented actions:
 
-* Start a daily focus plan
-* Start a shared focus plan
+* Start a daily [focus plan](../use/focus-plan.md)
 * Make time for messages
-* Schedule virtual commute reminders
+* Schedule [virtual commute](virtual-commute.md) reminders
 * Schedule emails for later
-* Disconnect with quiet time
+* Disconnect with [quiet time](quiet-time.md)
 * Take a break or two
 * Make time for learning
 * Make time for lunch
@@ -47,13 +45,16 @@ The **Take action to improve your wellbeing** section helps you change habits, s
 >[!Tip]
 >To find all available actions, use the arrows in the top-right of the section.
 
-Let's say your weeks are filling up with meetings and you're finding it hard to carve out time to focus. You think that some dedicated focus time on your calendar might help. On the **Start a daily focus plan** card, select **Set daily focus plan**. Viva Insights guides you through a quick setup process to find out which times work best, then schedules that time on your calendar each day.
-
-Learn more about focusing with Viva Insights in [Focus](focus.md).
+For example, let's say your weeks are filling up with meetings and you're finding it hard to carve out time to focus. You think that some dedicated [focus time](focus.md) on your calendar might help. To take action for focus, you'd select **Set daily focus plan** on the **Start a daily focus plan** card. Viva Insights would guide you through a quick setup process to find out which times work best, then schedule that time on your calendar each day.
 
 ### Track your progress
 
-After you set up an action, Viva Insights tells you how well it's going in **Track your progress**. For the focus plan you set up in our earlier example, Viva Insights provides stats about how much time you kept on your calendar for focusing in the last couple of months, and also reports how much time you have reserved for the coming week.
+After you set up an action, Viva Insights tells you how well it's going in **Track your progress**. 
+
+Let's keep with our focus plan example. When you visit **Track your progress** later on, you'd find stats about your focus time over the last couple of months, and you'd also get an overview of how much upcoming focus time you have over the next seven days.
+
+Your progress section might be your reminder to stick with your wellbeing goals. Or, it might be a way to congratulate yourself on putting your wellbeing first!
+
 
 :::image type="content" source="./images/wellbeing-track-progress.png" alt-text="Screenshot that shows four action cards within the Take action to improve your wellbeing section.":::
 
@@ -94,9 +95,9 @@ If you want more information about the insight, including a comparison to peer o
 
 :::image type="content" source="./images/wellbeing-org-insights-detail.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
 
-To help your team improve their meeting effectiveness, Viva Insights shows you a recommended action—for example, starting a shared focus plan. Select the action button, like **Set up plan**, either on the insight card on the **Wellbeing** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.
+To help your team improve their wellbeing, Viva Insights shows you a recommended action—for example, starting a [shared focus plan](shared-focus-plan.md). Select the action button, like **Set up plan**, either on the insight card on the **Wellbeing** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.
 
-You can also access shared actions in your **Take action to improve your wellbeing** section. Start a [shared focus plan](shared-focus-plan.md) or a [shared no-meeting day](shared-no-meeting-day.md).
+You can also access shared actions in your **Take action to improve your wellbeing** section. Start a shared focus plan or a [shared no-meeting day](shared-no-meeting-day.md).
 
 To learn more about organization insights, refer to our [Organization insights](../../org-team-insights/org-insights.md) article.
 
