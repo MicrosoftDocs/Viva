@@ -72,7 +72,7 @@ A home site is a SharePoint communication site that acts as the front door to yo
 
 > [!IMPORTANT]
 > - A SharePoint home site is required to set up Viva Connections.
-> - Home sites are generally high-traffic sites that should be [optimized for performance](/sharepoint/portal-health)
+> - Home sites are generally high-traffic sites that should be [optimized for performance](/sharepoint/portal-health).
 > - Only modern SharePoint sites will open within the context of Microsoft Teams, classic sites, for example, will open in a separate browser window. 
 
 ### Get started
