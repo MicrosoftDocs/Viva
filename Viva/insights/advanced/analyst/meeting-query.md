@@ -139,11 +139,11 @@ If you pick a person attribute, you create a filter based on organizational data
 
 :::row:::
    :::column:::
-   * **Aggregation type**\
-   * **Meeting attribute**\
-   * **Organizational data attribute**\
-   * **Operator** \
-   * **Value**
+   - **Aggregation type**\
+   - **Meeting attribute**\
+   - **Organizational data attribute**\
+   - **Operator**\
+   - **Value**
    :::column-end:::
    :::column:::
     *All*, *AtLeastOne*, or *None*\
