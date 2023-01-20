@@ -139,26 +139,28 @@ If you pick a person attribute, you create a filter based on organizational data
 
 :::row:::
    :::column:::
-- **Aggregation type**\
-- **Meeting attribute**\
-- **Organizational data attribute**\
-- **Operator**\
-- **Value**
+- **Aggregation type**
+- **Meeting attribute** 
+- **Organizational data attribute** 
+- **Operator** 
+- **Value** 
    :::column-end:::
-   :::column:::
-*All*, *AtLeastOne*, or *None*\
-The attribute you picked from the initial dropdown list\
-An attribute from your company's organizational data\
-*=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked\
+   :::column span="2":::
+*All*, *AtLeastOne*, or *None*
+The attribute you picked from the initial dropdown list
+An attribute from your company's organizational data
+*=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked
 One of a list of predefined choices, based on what your company's organizational data contains
-       :::column-end:::
-    :::row-end:::
-     
-* **Aggregation type** – *All*, *AtLeastOne*, or *None*
-* **Meeting attribute** – The attribute you picked from the initial dropdown list
-* **Organizational data attribute** – An attribute from your company's organizational data
-* **Operator** – *=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked
-* **Value** – One of a list of predefined choices, based on what your company's organizational data contains
+   :::column-end:::
+:::row-end:::
+
+| Component | Description |
+| ----- | ------- |
+| - **Aggregation type** | *All*, *AtLeastOne*, or *None* |
+| - **Meeting attribute** | The attribute you picked from the initial dropdown list|
+| - **Organizational data attribute** | An attribute from your company's organizational data |
+| - **Operator** | *=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked |
+| - **Value** | One of a list of predefined choices, based on what your company's organizational data contains |
 
 > [!Note] 
 > Organizational data available for you to use in filters depends on what your organization sends to Viva Insights.
