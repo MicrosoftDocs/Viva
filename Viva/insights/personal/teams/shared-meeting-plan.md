@@ -41,7 +41,7 @@ To create a shared meeting plan:
 
 Learn a bit more about how a shared meeting plan can help. Then select **Get started**.
 
-:::image type="complex" source="./images/productivity-mep-intro.png" alt-text="Screenshot that shows the intro to the Create a meeting plan process.":::
+:::image type="complex" source="./images/productivity-smp-start-test.png" alt-text="Screenshot that shows the intro to the Create a meeting plan process.":::
    Screenshot of the intro to the "Create a shared meeting plan" process. The title says, "Create a shared meeting plan for your team," and the subtitle says, "You're leading the way with effective meeting habits for hybrid work. Set up a customized meeting plan to encourage best practices for meetings." There's a "Learn more" link immediately to the right of the subtitle. Beneath the subtitle, there are three options: "Automatically shorten duration for all meetings," with a subtitle of "Give a breather between bac0k-to-back meetings to promote team wellbeing"; "Automatically include a Teams meeting link," with a subtitle of "Promote team inclusion of both in-person and remote attendees"; and "Get feedback from your meeting attendees," with a subtitle of "Understand how effective your meetings are to encourage feedback." There are two buttons in the bottom right of the weindow: "Cancel" and "Get started."
 :::image-end:::
 
