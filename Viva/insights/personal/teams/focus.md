@@ -26,7 +26,6 @@ You can schedule focus time in two ways: through a focus plan, which automatical
 
 To start a focus plan, check out our [Focus plan](../use/focus-plan.md) document.
 
-
 ### Book single, non-recurring focus sessions
 
 Let's say you have some free time in your schedule you want to dedicate to independent work. You can book a one-time, non-recurring focus session during a block of time you choose. Because this block isn't part of a recurring focus plan, it just shows up on your calendar once.

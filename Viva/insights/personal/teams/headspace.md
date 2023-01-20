@@ -15,7 +15,7 @@ audience: user
 
 # Mindfulness content from Headspace
 
-*Applies to: users with a premium Viva Insights license whose language in Teams is set to English, French, German, Portuguese, or Spanish*
+*Applies to: users whose language in Teams is set to English, French, German, Portuguese, or Spanish*
 
 In your Microsoft Viva Insights app, you'll find a curated set of guided meditations and focus music from Headspace. Start your day grounded, relax your mind before a big presentation, find focus before starting an important project, or close out your day with a mindfulness exercise during your virtual commute. In just a few minutes a day, meditation and mindfulness with Headspace can help you decrease stress and increase focus.
 
