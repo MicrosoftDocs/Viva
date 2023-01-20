@@ -27,10 +27,10 @@ In Viva Learning, you can curate your personal Learning collections using learni
 ## Create a Learning collection
 
 1. Go to the My Learning tab in Viva Learning and select **Collections**.
-2. Click **Create.**
+2. Select **Create**.
 3. Add the title and description. Upload a thumbnail or choose a default thumbnail for your collection.
 4. Select **Create**.
-5. Click **Add content** to start adding content.
+5. Select **Add content** to start adding content.
 6. Add a section title and description to create sections in your collection.
     1. Search for relevant learning content from learning providers within Viva Learning.
     1. Choose the content and select **Add**.
@@ -44,3 +44,12 @@ View and manage your collections under the **Collections** section in the **My L
 - **Delete** to delete the collection. Once deleted, the collection is no longer visible or discoverable.
 
 - **Edit** the collection's details and content by selecting the **Edit** icon in the Collections details page. 
+
+## Access Your Collections
+
+1. Navigate to the **My Learning** tab and select the **Collections** section.
+2. Select the Learning collection card.
+3. Navigate to the **Details** page
+4. Select the course thumbnail to play the course.
+
+You can also share and recommend your curated collections with peers through the **Share** and **Recommend** options. 
