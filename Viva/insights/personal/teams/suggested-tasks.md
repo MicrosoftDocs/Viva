@@ -64,7 +64,7 @@ When Viva Insights suggests catching up on an unread document, select **Open** t
 
 :::image type="content" source="images/productivity-suggested-tasks-unread-doc2.png" alt-text="Screenshot that shows an unread document notification.":::
 
-## Get @mentions from pinned important contacts 
+## Get mentions from pinned important contacts
 
 @mention is a common way to tag colleagues on important work items. Viva Insights can help you quickly triage recent @mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up.
 

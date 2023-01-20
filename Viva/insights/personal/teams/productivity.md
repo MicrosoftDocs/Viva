@@ -34,7 +34,7 @@ The tab provides these features:
 
 * [**Suggested tasks**](suggested-tasks.md): Stay on top of your work with tasks that Viva Insights surfaces through unread shared documents, meetings you haven't responded to, and Teams chats. 
 
-    :::image type="content" source="./images/productivity-suggested-tasks-no-menu.png" alt-text="Screenshot that shows Suggested tasks on the Productivity tab." lightbox="./images/suggested-tasks.png":::
+    :::image type="content" source="./images/productivity-suggested-tasks-no-menu.png" alt-text="Screenshot that shows Suggested tasks on the Productivity tab.":::
 
 
 ## For managers and leaders

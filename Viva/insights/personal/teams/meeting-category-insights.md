@@ -12,8 +12,7 @@ manager: anirudhbajaj
 audience: user
 
 ---
-
-## Meeting category insights
+# Meeting category insights
 
 *Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../Overview/plans-environments.md) for more information.*
 
