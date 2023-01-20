@@ -139,18 +139,18 @@ If you pick a person attribute, you create a filter based on organizational data
 
 :::row:::
    :::column:::
-   - **Aggregation type**\
-   - **Meeting attribute**\
-   - **Organizational data attribute**\
-   - **Operator**\
-   - **Value**
+- **Aggregation type**\
+- **Meeting attribute**\
+- **Organizational data attribute**\
+- **Operator**\
+- **Value**
    :::column-end:::
    :::column:::
-    *All*, *AtLeastOne*, or *None*\
-    The attribute you picked from the initial dropdown list\
-    An attribute from your company's organizational data\
-    *=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked\
-    One of a list of predefined choices, based on what your company's organizational data contains
+*All*, *AtLeastOne*, or *None*\
+The attribute you picked from the initial dropdown list\
+An attribute from your company's organizational data\
+*=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked\
+One of a list of predefined choices, based on what your company's organizational data contains
        :::column-end:::
     :::row-end:::
      
