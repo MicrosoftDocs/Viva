@@ -16,6 +16,10 @@ ms.subservice: viva-sales
 
 Viva Sales can be customized to an organization's business needs. As a CRM administrator, you can manage environment-specific settings for Viva Sales from a central location and control Viva Sales experience across Outlook and Teams. For example, you can customize the CRM information displayed in Viva Sales across Outlook and Teams to give sellers quick access to the fields most relevant to their flow of work.
 
+The following administrator settings are available:
+
+- **Customize forms and fields**: Allows you to specify what information should be displayed in Viva Sales across Outlook and Teams. You can also control which records and fields sellers can edit directly in Viva Sales. More information: [Customize forms and fields](customize-forms-and-fields.md)
+
 ## Prerequisites
 
 - Administrators and sellers must have the latest version of the Viva Sales app in Teams. Most app updates happen automatically in Teams, but administrator settings requires new permissions and needs manual acceptance of the update. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
@@ -72,7 +76,7 @@ When you open administrator settings, following tabs are available:
 
 3.  On the **Settings** tab, select the required option, and update the settings.
 
-    - **Forms**: Allows you to specify what information should be displayed in Viva Sales across Outlook and Teams. You can also control which records and fields sellers can edit directly in Viva Sales. More information: [Configure forms and fields](configure-forms-and-fields.md)
+    - **Forms**: Allows you to [customize forms and fields](customize-forms-and-fields.md).
 
     ![Screenshot showing Viva Sales Settings tab](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
 
@@ -84,9 +88,9 @@ When you open administrator settings, following tabs are available:
 
 No. Administrator settings are currently accessible only through the Viva Sales app for Teams. 
 
-### Which CRM environment do administrator settings belong to?
+### Which CRM environment are administrator settings for?
 
-The settings belong to the environment signed in to from Viva Sales in Outlook. If you want to customize Viva Sales for another environment, you must [switch environments in Outlook](#how-can-i-switch-crm-environments).
+The settings are specific to the environment signed in to from Viva Sales in Outlook. If you want to customize Viva Sales for another environment, you must [switch environments in Outlook](#how-can-i-switch-crm-environments).
 
 ### How can I switch CRM environments?
 
@@ -110,4 +114,12 @@ Come back to the Viva Sales app in Teams and refresh the **Settings** tab.
 ### Why do I see the message "Settings are coming soon"?
 
 Personal settings for Viva Sales will also be accessible through the **Settings** tab, and will be launching soon. If you are a CRM administrator, you should already see administrator settings in the **Settings** tab, and you should not see this message – check that you have the right permissions or security roles. More information: [Who can access administrator settings?](#who-can-access-administrator-settings)
+
+### Can I work with administrator settings from my mobile device?
+
+Mobile device is currently not supported. Please work with administrator settings from a desktop.
+
+### Are the Dark and High Contrast themes from Teams supported?
+
+The Dark and High Contrast themes from Teams are currently not supported. 
 

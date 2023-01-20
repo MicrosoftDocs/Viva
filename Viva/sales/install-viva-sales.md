@@ -49,14 +49,12 @@ If you are using out-of-the-box System Administrator or System Customizer securi
 
 #### Dynamics 365 sellers
 
-If you're using the out-of-the-box Salesperson or Sales Manager security roles, Viva sales privileges are added automatically. If you're using custom security roles, you must assign the following privileges to the custom security role to use Viva Sales.
+If you're using the out-of-the-box Salesperson or Sales Manager security roles, Viva sales privileges are added automatically. If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 sellers who need to use Viva Sales.
 
-|Table  |Functionality  |Privileges  |
-|---------|---------|---------|
-|Tagged Record     | Match and connect an external contact to a CRM contact automatically.  |  Create, Read, Write, Delete, Append, Append To       |
-|CRM Connection     | Create connection to Dynamics 365 instance.   | Create, Read, Write, Delete, Append, Append To        |
-|Note     | Create, update, and associate notes with the marked customer.  | Create, Read, Write, Delete, Append, Append To        |
-|User     | Create connections in Dynamics 365.       |  Read User       |
+|Requirement type  |You must have  |
+|---------|---------|
+|Security role     | Viva Sales User |
+|Privilege     | **Read** privilege on **User** table     |
 
 ## How to use Viva Sales?
 

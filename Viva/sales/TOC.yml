@@ -22,8 +22,8 @@
   items:
   - name: Overview
     href: administrator-settings-for-viva-sales.md
-  - name: Configure forms and fields
-    href: configure-forms-and-fields.md
+  - name: Customize forms and fields
+    href: customize-forms-and-fields.md
 
 - name: Remove Viva Sales from the admin center
   href: disable-viva-sales.md
