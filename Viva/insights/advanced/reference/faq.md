@@ -58,8 +58,8 @@ A2. Advanced insights are not currently available in data cloud environments tha
 
 A3. Viva Insights stores and processes customer data in a compliant location as required by regional and state regulations. For more information on where data is stored and processed for your location, please refer to the following links:
 
-* [Personal insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights--personal)
-* [Advanced, manager, and leader insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights--advanced-mgr-leader)
+* [Personal insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
+* [Advanced, manager, and leader insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)
 
 ### Language support
 
