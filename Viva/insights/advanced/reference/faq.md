@@ -56,7 +56,7 @@ A2. Advanced insights are not currently available in data cloud environments tha
 
 #### Q3. How does Viva Insights adhere to regional data storage and processing requirements (such as those required by GDPR)?
 
-A3. Viva Insights stores and processes customer data in a compliant location as required by regional and state regulations. For more information on where data is stored and processed for your location, please refer to the following links:
+A3. Viva Insights stores and processes customer data in a compliant location as required by regional and state regulations. For more information on Microsoft’s commitment to data residency please visit  [Microsoft EU Data Boundary Overview](https://www.microsoft.com/en-us/trust-center/privacy/european-data-boundary-eudb). For more information on where data is stored and processed for your location, please refer to the following links:
 
 * [Personal insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
 * [Advanced, manager, and leader insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)
