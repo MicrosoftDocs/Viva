@@ -53,7 +53,7 @@ Once redirected, the O365 (Global) and Engage admins will see three different op
 ![Image of the interface for users to turn off Answers badges](/Viva/media/engage/IMG/badges-turn-off.png)
  
 >[!NOTE]
-> This feature is on by default except customers with Finland billing address and the organizations who use the education license.
+> This feature is on by default except for customers with Finland billing addresses and the organizations who use the education license.
 
 ## Frequently asked questions
 
