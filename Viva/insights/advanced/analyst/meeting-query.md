@@ -137,25 +137,8 @@ If you pick a meeting attribute, an operator (like "=")  appears. Then you fill 
 
 If you pick a person attribute, you create a filter based on organizational data with the following components:
 
-:::row:::
-   :::column:::
-- **Aggregation type**
-- **Meeting attribute** 
-- **Organizational data attribute** 
-- **Operator** 
-- **Value** 
-   :::column-end:::
-   :::column span="2":::
-*All*, *AtLeastOne*, or *None*
-The attribute you picked from the initial dropdown list
-An attribute from your company's organizational data
-*=*, *!=*, *>*, *>=*, *<*, or *<=*, depending on which organizational data attribute you picked
-One of a list of predefined choices, based on what your company's organizational data contains
-   :::column-end:::
-:::row-end:::
-
 | Component | Description |
-| ----- | ------- |
+| :----- | :------- |
 | - **Aggregation type** | *All*, *AtLeastOne*, or *None* |
 | - **Meeting attribute** | The attribute you picked from the initial dropdown list|
 | - **Organizational data attribute** | An attribute from your company's organizational data |
