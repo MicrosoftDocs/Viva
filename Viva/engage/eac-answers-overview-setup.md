@@ -26,9 +26,9 @@ Accessible through the Answers tab in the Viva Engage Teams app, **Answers in Mi
 Answers works to connect employees based on their subject matter expertise captured in Viva Topics, to get their questions answered, connect with subject matter experts, and increase their learning.
 
 ## Licensing
-If Answers is enabled in the Viva Engage Admin Center, users assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app or in the Yammer web experience, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the Microsoft Viva Suite or Viva Topics SKUs. 
+If Answers is enabled in the Viva Engage Admin Center, users assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app or in the Yammer web experience, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the Microsoft Viva Suite or Viva Topics SKUs.
 
-The users who have not been assigned the Viva Engage Knowledge service plan will receive notifications to questions or answers they have been mentioned in and can visit those threads but are not able to navigate to the rest of the Answers experience.   
+The users who have not been assigned the Viva Engage Knowledge service plan will receive notifications to questions or answers they have been mentioned in and can visit those threads but are not able to navigate to the rest of the Answers experience.
 
 > [!NOTE]
 > As a prerequisite, the tenant must have Yammer enabled and the user must have access to Yammer services. 
@@ -38,28 +38,22 @@ The users who have not been assigned the Viva Engage Knowledge service plan will
 Answers will be enabled by default for customers that meet the following technical requirements:   
 
 1) **Migrate the Yammer network to Native Mode**
- Native Mode is a state of a Yammer network where all users are in Azure AD, all communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This ensures that we can appropriately apply topic permissions and management. Access [Guide to migrate the network to Native Mode](https://learn.microsoft.com/en-us/yammer/configure-your-yammer-network/native-mode-step-by-step-guide).  
+[Native Mode](https://learn.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) is a state of a Yammer network where all users are in Azure AD, all communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This ensures that we can appropriately apply topic permissions and management. Access [Guide to migrate](https://learn.microsoft.com/yammer/configure-your-yammer-network/native-mode-step-by-step-guide)the network to Native Mode.  
 
 2) **Migrate Yammer Topics to Viva Topics**
 
-Yammer topics have begun to migrate to the Viva Topics over the next months, all existing Yammer networks will have migrated. Answers uses Viva Topics to organize question posts and identify the people associated with certain Topics to help route the questions posted. Since Viva Topics work across services in Microsoft 365, we require that your Yammer network is using Viva Topics to ensure the best experience with Answers. 
+Yammer topics have begun to migrate to Viva Topics. Over the next months, all existing Yammer networks will have migrated. Answers uses Viva Topics to organize question posts and identify the people associated with certain Topics to help route the questions posted. Since Viva Topics work across services in Microsoft 365, we require that your Yammer network is using Viva Topics to ensure the best experience with Answers.
 
-All Yammers tenants in Native mode will be migrated to use Viva Topics and there are no additional licensing requirements for this migration. 
+All Yammers tenants in Native mode will be migrated to use Viva Topics and there are no additional licensing requirements for this migration.
 
-To learn more about the Viva Topics experience in Yammer post the migration, you may find the following links helpful:  
+For customers awaiting topics migration:  
 
-- [Viva Topics in Yammer](https://learn.microsoft.com/en-us/viva/topics/topic-experiences-yammer)
-- [Viva Topics experience in Yammer](https://support.microsoft.com/en-us/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)
+- Microsoft will inform existing Yammer customers with purchased Viva Topics or Viva Suite SKUs when Yammer Topics have been migrated to Viva Topics. Customers will be notified through email when the migration is complete. 
+- Interested tenants can request prioritizing Answers enablement (may include Native Mode Support or Yammer Topics Migration to Viva Topics) by working with their customer account managers / Microsoft support staff for Yammer and filing a support ticket. Microsoft will review these requests and accordingly prioritize the Answers enablement for the tenants requesting them.
 
-Microsoft will: 
-
-- Inform existing Yammer customers with purchased Viva Topics or Viva Suite SKUs when Yammer Topics have been migrated to Viva Topics. Users will be contacted directly through email.
-- Allow interested tenants who do not see Answers experience enabled to request priority for Yammer Topics migration and / or Native mode support.
- 
 To learn about Yammer Topics migration to Viva Topics:
-
-- [Viva Topics in Yammer](https://learn.microsoft.com/viva/topics/topic-experiences-yammer)
-- [Viva Topics experience in Yammer](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)
+- [Viva Topics in Yammer](https://learn.microsoft.com/en-us/viva/topics/topic-experiences-yammer)
+- [Viva Topics experience in Yammer](https://support.microsoft.com/en-us/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)9
 
 3. **Set up the Viva Engage app**
 

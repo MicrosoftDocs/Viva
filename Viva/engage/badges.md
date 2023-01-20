@@ -21,17 +21,17 @@ search.appverid:
 
 # Rewards and recognition admin controls in Viva Engage
 
-The Viva Engage **Rewards and recognition** feature builds and reinforces positive behaviors amongst employees by motivating them to engage with their organization. Once the user meets certain criteria for assisting their peers in Viva Answers, they will earn a variety of achievement badges, which can be configured by Office 365 admin and Engage admin.  
+The Viva Engage **Rewards and recognition** feature helps to motivate employees to engage with their organization. Once the user meets certain criteria for assisting their peers in Viva Answers, they will earn a variety of achievement badges, which can be configured by Office 365 admin and Engage admin.  
 
 ## Criteria for Answers badges 
 
-Users can earn five distinct types of badges:  
+Users may earn five types of badges based on votes from their fellow employees: 
 
-- **Best Answer**: your answer is marked as the Best Answer 
-- **Seeker level 1**: your question receives 3 upvotes 
-- **Seeker level 2**: your question receives 10 upvotes 
-- **Scholar level 1**: your answer receives 3 upvotes 
-- **Scholar level 2**: your answer receives 10 upvotes 
+- **Best Answer**: the user's answer is marked as the Best Answer 
+- **Seeker level 1**: the user's question receives 3 upvotes 
+- **Seeker level 2**: the user's question receives 10 upvotes 
+- **Scholar level 1**: the user's answer receives 3 upvotes 
+- **Scholar level 2**: the user's answer receives 10 upvotes 
 
 ## Rewards and recognition in Viva Engage
 
@@ -47,13 +47,13 @@ Once redirected, the O365 (Global) and Engage admins will see three different op
 
 - **Disabled**: data that was being collected for all users will be deleted and no further data will be collected for any users. The badges will be deleted as well.  
 - **On**: users can start earning and collecting badges. The badges are visible to anyone who has a Viva Engage Knowledge service plan and who is part of the organization.
-- **User preference**: end users will have the option to turn off badges for themselves. When the user opts out, any data that was being collected will be deleted and no further data will be collected. The user’s badges will be deleted but they will still be able to see others’ badges.  
-    - To opt out of Answers badges, the user will see an ellipses button on the right of their Achievements and awards page, which will allow them to turn off badges.
+    - **User preference**: If the admin chooses to turn on Answers badges, they will have the option to allow users to turn off badges for themselves. When the user opts out, any data that was being collected will be deleted and no further data will be collected. The user’s badges will be deleted but they will still be able to see others’ badges.
+        - To opt out of Answers badges, the user will see an ellipses button on the right of their Achievements and awards page, which will allow them to turn off badges.
  
 ![Image of the interface for users to turn off Answers badges](/Viva/media/engage/IMG/badges-turn-off.png)
  
 >[!NOTE]
-> This feature is on by default except for customers with Finland billing addresses and the organizations who use the education license.
+> This feature is on by default except for customers with Finland billing addresses and the organizations that use the education license.
 
 ## Frequently asked questions
 
