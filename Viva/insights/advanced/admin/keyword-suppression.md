@@ -24,7 +24,7 @@ In the Microsoft Viva Insights advanced insights app, you can specify sensitive 
 
 When Viva Insights finds one of your keywords in a meeting title or email subject line, it hides that entire title or subject line in query outputs. So, while a query might use the value of a keyword-suppressed meeting or email, you won't see its title or subject line. In the following image of a meeting query result, the **Subject** column omits certain values. These values are meeting titles that contained sensitive keywords set by an admin.
 
-:::image type="content" source="../images/meeting-query-output-keywords-suppressed1.png" alt-text="Screenshot that shows a meeting query .csv output with some missing text in the Subject column.." lightbox="../images/meeting-query-output-keywords-suppressed1.png":::
+:::image type="content" source="../images/meeting-query-output-keywords-suppressed1.png" alt-text="Screenshot that shows a meeting query .csv output with some missing text in the Subject column." lightbox="../images/meeting-query-output-keywords-suppressed1.png":::
 
 In other words, if you set up keywords, there's no way for analysts to associate query data about affected meetings or emails with their title or subject line.
 
