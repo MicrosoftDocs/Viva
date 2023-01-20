@@ -50,13 +50,20 @@ A2.
 
 A1. Initially 13 months' worth of data is collected and processed for Viva Insights. Through weekly refreshes, the system continues to increase this history until 27 months’ worth of data is collected. As a Microsoft customer, you can file a request, such as for security reasons, to provide Viva Insights with less than this default amount; in that case, the minimum amount that can be collected is one month.
 
-#### Q2. Does Viva Insights support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
+#### Q2. Does advanced insights support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
 
-A2. Advanced insights aren't available in data cloud environments that Microsoft maintains for government agencies.
+A2. Advanced insights are not currently available in data cloud environments that Microsoft maintains for government agencies.
+
+#### Q3. How does Viva Insights adhere to regional data storage and processing requirements (such as those required by GDPR)?
+
+A3. Viva Insights stores and processes customer data in a compliant location as required by regional and state regulations. For more information on where data is stored and processed for your location, please refer to the following links:
+
+* [Personal insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
+* [Advanced, manager, and leader insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)
 
 ### Language support
 
-Q1. Can I use the advanced insights app in a language other than English?
+#### Q1. Can I use the advanced insights app in a language other than English?
 
 A1. Yes, you can use the webapp in languages other than English. There are a few features, though, that are available in English only: metric names in custom Person and Power BI queries, system-reserved names for employee attributes, and Power BI templates. We plan to translate these features in the future.
 
