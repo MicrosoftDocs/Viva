@@ -20,17 +20,17 @@ Organization insights help leaders and managers of large teams understand how th
 
 To view organization insights:
 
-* You need to have a premium Viva Insights subscription.
+* You need to have a Viva Insights subscription (that is, a premium license).
 * Your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
 * You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
 
-People in your organization also need to have a premium Viva Insights subscription so they can be measured in organizational insights. If you want to see an insight that reflects your entire company, everyone in the company needs to have a premium Viva Insights subscription.
+People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
 
 ### Insights by role
 
-People with the **Insights Business Leader** role assigned to them can see organization insights that include every person in their tenant who has a premium Viva Insights subscription. 
+People with the **Insights Business Leader** role assigned to them can access organization insights that include every person in their tenant who has a Viva Insights subscription. 
 
-People enabled as group managers can see organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the **Insights Business Leader** role and also enabled you as a group manager, you can toggle between the two organization insights views.
+People enabled as group managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the **Insights Business Leader** role and also enabled you as a group manager, you can toggle between the two organization insights views.
 
 ## Data and privacy
 

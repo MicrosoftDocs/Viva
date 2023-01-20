@@ -20,7 +20,6 @@ Viva Insights can help you protect time for focused work and minimize notificati
 
 ## To schedule focus time
 
-
 You can schedule focus time in two ways: through a focus plan, which automatically books focus time for you every day based on the preferences you set, or through single, non-recurring sessions.
 
 ### Start a focus plan
@@ -39,7 +38,7 @@ To book a one-time focus session:
 1. Viva Insights shows you a few empty spots in your calendar for the next day. Use the arrows to the right of the date to see different days. You can view a week's worth of available focus time.
 1. When you find a time you want to schedule, select **Book time**.
 
-![wellbeing](images/wellbeing-book-focus-time.png)
+![wellbeing](images/wellbeing-book-focus-time2.png)
 
 After you **Book time**, the time you chose adds itself to your calendar. The **Book focus time** section also shows that date and time with a **Focus time booked** status.
 
@@ -58,7 +57,7 @@ To enter focus mode, select this notification. If you don’t select the notific
 >[!Note]
 > If you want to keep using Teams while you’re in focus mode, right-click on the Viva Insights app icon, then select **Pop out app**.
 >
->![Screenshot that shows the using the Pop out app option.](Images/right-click-pop-out.png)
+>![Screenshot that shows the using the Pop out app option.](Images/pop-out-app2.png)
 
 #### Use features during your focus session
 
@@ -105,6 +104,6 @@ During breaks between focus intervals, you can use the guided videos in Mindfuln
 
 After your timer runs out, a **Congratulations** message appears. If you want to extend your focus time, select **Restart interval timer**.
 
-![Screenshot that shows focus mode's end screen.](Images/focus-mode-end1.png)
+![Screenshot that shows focus mode's end screen.](Images/focus-mode-end2.png)
 
 If you’re done focusing, you can move forward with your day and continue using Teams. Your Teams status will stop showing as **Focusing** and, if they were muted, you’ll start receiving Teams notifications again.

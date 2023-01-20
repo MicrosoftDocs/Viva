@@ -32,11 +32,11 @@ Throughout this document, we'll link you to where you can find more detailed inf
 
 ## About team data and data privacy
 
-Team insights features use collaboration data from Microsoft 365 and—depending on your setup—uses organizational data that your admin has uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. Refer to [Data-protection considerations](../advanced/privacy/privacy.md) for more details. 
+Team insights use collaboration data from Microsoft 365. Depending on your setup, team insights might also use organizational data that your admin has uploaded in the advanced insights app, or that's available from Azure Active Directory, to determine who should be included in your "team."  
+
+With team insights, you can't see individual team members' personal collaboration habits. Team insights are generated entirely from activity data from only a user’s own account, and computed from their email, meetings, chats, and calls. All of the same privacy protections and considerations apply to team insights as to other personal insights. 
 
 Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR), the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, refer to the [Privacy guide](../personal/teams/viva-teams-app-privacy.md).
-
-Team insights features are generated using each user's own data, which is computed from their email, meetings, calls, and chats. Individual employee data is stored and protected in the same way as the user's Microsoft 365 data. So, with team insights, you can't see individual team members' personal collaboration habits. 
 
 ## Permissions and app setup
 
@@ -59,11 +59,9 @@ Viva Insights automatically builds teams based on organizational data uploaded o
 
 Your team only includes people reporting directly to you as presented in Azure Active Directory or the file your admin uploads. This structure means three things:
 
-To keep teams accurate, your organization needs to regularly update Azure Active Directory or upload new HR files.
-
-If you don’t have at least one person reporting directly to you, as presented in the organizational data file, you won’t have access to Team insights.
-
-Because teams come directly from organizational data, you’re not able to edit members. People who don't have direct reports won't be able to access team insights.
+* To keep teams accurate, your organization needs to regularly update Azure Active Directory or upload new HR files.
+* If you don’t have at least one person reporting directly to you, as presented in the organizational data file, you won’t have access to Team insights.
+* Because teams come directly from organizational data, you’re not able to edit members. People who don't have direct reports won't be able to access team insights.
 
 >[!Note]
 >When your direct-reports list changes, your team meeting habits will reflect these changes in next week’s data.
@@ -80,13 +78,11 @@ To turn on or off team insights:
     * Turn off team insights, select **Opt out**.
     * To turn on team insights, select **Opt in**.
 
-1. Select Save changes.
+1. Select **Save changes**.
 
 ## Available insights
 
 ### 1:1 time
-
-As a team member, you often collaborate with other team members to get work done. However, with your own tasks and busy schedules, you might not feel you’re really staying in touch with each of your teammates. Dedicated 1:1 time can help.
 
 As a people manager, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their role. One of the simplest coaching tools you have at your disposal is 1:1 time. Research by Microsoft has shown that people who get consistent 1:1 time with their manager are more engaged and view the manager's leadership more favorably.
 
