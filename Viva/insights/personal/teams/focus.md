@@ -37,7 +37,10 @@ To book a one-time focus session:
 1. Viva Insights shows you a few empty spots in your calendar for the next day. Use the arrows to the right of the date to see different days. You can view a week's worth of available focus time.
 1. When you find a time you want to schedule, select **Book time**.
 
-![wellbeing](images/wellbeing-book-focus-time2.png)
+:::image type="complex" source="images/wellbeing-book-focus-time2.png" alt-text="Screenshot that shows the Focus theme of the Act with intention section.":::
+   Screenshot of the Act with intention section of the Wellbeing tab. There are three buttons above the section's content cards: "Focus," "Guided meditations," and "Articles"; "Focus" is selected to show the section's focus content. Be There are three sections on this card; the middle section is titled, "Book focus time." Below the card header, there's a table with four rows titled, "Friday, December 9." The first row shows that focus time has been booked from 2:30-4:30 PM. The other three rows provide open time slots with a "Book time" button. The first "Book time" button is highlighted.
+:::image-end:::
+
 
 After you **Book time**, the time you chose adds itself to your calendar. The **Book focus time** section also shows that date and time with a **Focus time booked** status.
 
@@ -49,14 +52,14 @@ Focus mode intersperses short breaks within your focus time to help you stay on-
 
 If you pre-booked time to focus—either through a plan or by booking earlier—you’ll get a Teams notification.
 
-![Screenshot that shows the focus mode notification card in Protect time.](Images/focus-mode-teams-reminder.png)
+:::image type="content" source="images/focus-mode-teams-reminder.png" alt-text="Screenshot that shows the focus mode Teams desktop notification card.":::
 
 To enter focus mode, select this notification. If you don’t select the notification, your calendar will still show the **Focus time** event, your Teams status will update to **Focusing**, and you won’t get Teams notifications unless they’re from priority contacts you set.
 
 >[!Note]
 > If you want to keep using Teams while you’re in focus mode, right-click on the Viva Insights app icon, then select **Pop out app**.
 >
->![Screenshot that shows the using the Pop out app option.](Images/pop-out-app2.png)
+>:::image type="content" source="images/pop-out-app2.png" alt-text="Screenshot that shows the using the Pop out app option.":::
 
 #### Use features during your focus session
 
