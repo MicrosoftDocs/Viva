@@ -25,12 +25,13 @@ You can start a guided meditation whenever you want. To find and complete a medi
 
 1. In the **Wellbeing** tab in your Viva Insights app, go to the **Act with intention** section, and select **Guided meditations**.
 
-   ![Screenshot that shows the Act with intention > Guided meditations section with the Guided meditations option highlighted.](images/wellbeing-start-meditation.png)
+    :::image type="content" source="images/wellbeing-headspace-meditiation.png" alt-text="Screenshot that shows the Act with intention, Guided meditations section, which contains four guided meditation cards.":::
+
 
 1. Start an exercise by selecting its **Play** button.
 1. If you want to do another exercise, select **More exercises**. Otherwise, close the window to complete your meditation.
 
-   ![Screenshot that shows selecting the More exercises link.](images/wellbeing-headspace-more-exercises.png)
+    :::image type="content" source="images/wellbeing-headspace-more-exercises2.png" alt-text="Screenshot that shows selecting the More exercises link below a playing meditation video.":::
 
 <!--verify with Anji whether there's any other way to get to these other exercises-->
 
@@ -38,14 +39,13 @@ You can start a guided meditation whenever you want. To find and complete a medi
 
 Let's say you wanted to listen to focus music from Headspace while you continued using other features in Teams. Here's how you keep using Teams while also using Headspace features:
 
-
 1. Locate the pinned Viva Insights app on the left navigation pane of Teams.
 
 2. Right-click the Viva Insights icon.
 
 3. Select **Pop out app**.
 
-   ![Screenshot that shows the Headspace app pop-out.](images/pop-out-app.png)
+   ![Screenshot that shows the Headspace app pop-out.](images/pop-out-app2.png)
 
 
 4. In the resulting second window, select **More mindfulness exercises** and then start a Headspace meditation or Focus music as described in [Start a guided meditation](#start-a-guided-meditation).
