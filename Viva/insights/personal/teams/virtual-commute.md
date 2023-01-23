@@ -19,7 +19,7 @@ Review tomorrow's upcoming meetings, tasks, and commitments, and end today mindf
 
 When a card at the top of your **Wellbeing** tab prompts you to "wrap up," select **Let's go** to start your virtual commute right away.
 
-![Screenshot that shows the Home page with virtual commute card.](images/wellbeing-vc.png)
+:::image type="content" source="images/wellbeing-vc.png" alt-text="Screenshot that shows the virtual commute start card with a Let's go button.":::
 
 <!--Anji to verify-->
 
@@ -28,14 +28,15 @@ This message appears at the following times:
 * If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about changing this and other settings, refer to [Insights app settings](viva-teams-app-settings.md).
 * If you haven't configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
-
 ## Set up virtual commutes
 
 The first time you open **Wellbeing**, you're prompted to schedule your virtual commute reminders.
 
 <!--Anji to verify-->
 
-![Screenshot that shows option to schedule virtual commute.](Images/virtual-commute-reminders.png)  
+:::image type="complex" source="images/virtual-commute-reminders.png" alt-text="Screenshot that shows virtual commute reminder settings in the Viva Insights Settings page.":::
+   Screenshot of the Viva Insights Settings page that shows Virtual commute settings. There are four settings options: "Reminder," which has a toggle switch you can turn on and off; "Days of the week," which provides checkboxes for each of the seven days of the week; "Notification time," which prompts you to select a time from a dropdown menu beneath text that says, "Start my virtual commute around"; and "Time zone," which shows a time zone with a link that says, "Change." There's a "Save changes" button in the bottom left of this section. Beneath the section, there's a link to the Privacy guide.
+:::image-end:::
 
 You can use this prompt to turn on the **Reminder** toggle, then select the days and time of day that you want to see the virtual commute reminder. When you're done, select **Save changes**.
 
@@ -47,13 +48,11 @@ You can use this prompt to turn on the **Reminder** toggle, then select the days
 
 If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md).
 
-<!--Anji to verify: This has a different color scheme and doesn't start with the "it's a wrap" screen in PPE. Will this persist in the release environment?-->
-
 ### Virtual commute sections
 
 After you select **Let's go**, your virtual commute starts.
 
-![Screenshot that shows adding a task.](Images/vc-begin.png)
+:::image type="content" source="images/wellbeing-vc-start-screen.png" alt-text="Screenshot that shows the virtual commute start screen with a Begin your commute button.":::
 
 The commute guides you through the following sections. All sections are optional; to skip a section, just select **Next**.
 
@@ -61,13 +60,16 @@ The commute guides you through the following sections. All sections are optional
 
 In **Meetings**, you can review tomorrow’s events—those that last all day, those that you’ve accepted, and those that still need your RSVP. 
 
+:::image type="complex" source="images/wellbeing-vc-meetings1.png" alt-text="Screenshot that shows the Meetings tab of virtual commute.":::
+   Screenshot of the "Meetings" tab within the virtual commute experience. The section header prompts you to review your meetings for the next day. The section subtitle reads, "Review and address meetings that need responses or have conflicts." Beneath the subtitle, there's a section titled, "Events." There are four events listed in vertically arranged rectangles. Each rectangle lists the event time, duration, title, and location. There's a button on the right-hand side of each rectangle. One says, "Needs RSVP." Two say, "Accepted." One says, "Delete." There are two buttons in the bottom right-hand corner of the screen: "Done" and "Next."
+:::image-end:::
+
 If an event needs your RSVP, you can **Accept** or **Decline** it from this screen. 
 
-![Screenshot that shows the option to RSVP to an event.](Images/vc-needs-rsvp3.png) 
+:::image type="content" source="images/wellbeing-vc-rsvp.png" alt-text="Screenshot that shows the dropdown options for the Needs RSVP button: Accept and Decline.":::
 
-If you don’t have any events coming up tomorrow, you’ll see open blocks on your calendar that you can use for focus time, instead. Select **Book time** to add that focus time to your calendar.
-
-![Screenshot that shows the option to book focus time.](Images/vc-no-events1.png) 
+>[!Note]
+>If you don’t have any events coming up tomorrow, you’ll see open blocks on your calendar that you can use for focus time, instead. Select **Book time** to add that focus time to your calendar.
 
 When you’re ready to move to the next section, select **Next** at the bottom-right of the page.
 
@@ -75,19 +77,27 @@ When you’re ready to move to the next section, select **Next** at the bottom-r
 
 In the **Tasks** section, you can review your open tasks. These tasks originate from Microsoft To Do, and they’re are either due today or have a reminder set for today.
 
+:::image type="complex" source="images/wellbeing-vc-tasks.png" alt-text="Screenshot that shows the Tasks tab in the virtual commute experience.":::
+   Screenshot of the "Tasks" tab within the virtual commute experience. The screen shows an expandable rectangle titled, "You have 5 suggested tasks." Beneath suggested tasks, there's a section titled, "Your tasks," which contains four rectangles. The first says, "Add a task" with a plus icon to its left. The rest of the rectangles are tasks on the user's To Do list. Each contains a circle, which users can select to check off a task, along with the task title and an ellipses to access more options. There are two buttons in the bottom right-hand corner of the screen: "Done" and "Next."
+:::image-end:::
+
 In addition to viewing your existing tasks, you can do a few other things in this section:
 
 * **Add a new task**. Below **Your tasks**, select **Add a task**.
 
 * **Add a suggested task surfaced from Outlook or Teams.** If To Do notices a potential task in your chats or emails, a notification appears above **Your tasks**. Select the down arrow to expand the message. If you want to put this task on your To Do list, select the **Add to your tasks** button. 
 
-    ![Screenshot that shows adding a suggested task.](Images/vc-suggested-task.png)
+    :::image type="complex" source="images/wellbeing-vc-suggested-task1.png" alt-text="Screenshot that shows adding a suggested task.":::
+       Screenshot of the suggested task rectangle, which has been expanded. The expanded content shows an email title, a task that the user committed to do over email, the coworker to whom the user committed to help, and where the user made this commitment, which was Microsoft Outlook. There's an ellipses to the right of the task, which the user can select for more options. In the bottom right of the image, there's a button that says, "Add to your tasks."
+    :::image-end:::
 
 * **Cross a completed task off your list.** Select the circle to the left of the task name, which sends the task to your **Tasks completed today** list. If you want to delete the task from To Do, select the trash can icon to the right of the task name.
 
 * **Set a reminder.** Select the ellipses (…) to the right of the task name, then pick a time you want to be reminded. Reminders appear in your Microsoft To Do list and in your Briefing email, if you’re subscribed to receive Briefing emails. You can also **Edit** and **Delete** tasks from this menu.
 
-    ![Screenshot that shows setting a reminder.](Images/vc-set-reminder.png)
+    :::image type="complex" source="images/wellbeing-vc-task-reminder.png" alt-text="Screenshot that shows setting a reminder.":::
+       Screenshot of the "Tasks" tab that shows three tasks. The options menu, which is titled, "Remind me," is expanded. There are two reminder options, one for "Tomorrow" and one for "Next week"; each shows a day of the week and a time. Below the reminder options, the menu gives options to edit the task or delete the task.
+:::image-end:::
 
 After you’re done reviewing and managing your tasks, select **Next** to move to the last section.
 
@@ -99,7 +109,11 @@ After you’re done reviewing and managing your tasks, select **Next** to move t
 * If you have access to Headspace, a few guided meditation videos
 * The opportunity to reflect, just like you would using the [Reflect](reflect.md) feature on the **Home** page
 
-![Screenshot that shows the Wind down section.](Images/vc-wind-down1.png)
+
+:::image type="complex" source="images/wellbeing-vc-wind-down1.png" alt-text="Screenshot that shows the Wind down section.":::
+   Screenshot of the "Wind down" tab of the virtual commute experience. The tab's subtitle says, "Choose an optional closing activity to help you disconnect from work for the day." Below the subtitle, there are four mindfulness activities arranged on individual cards; two are created by Viva Insights and two are created by Headspace. Each activity card has a "Start" button. There's a "Done" button in the bottom-right corner of the screen.
+:::image-end:::
+
 
 **Start** one or more of these activities to help transition to the next part of your day.
 
