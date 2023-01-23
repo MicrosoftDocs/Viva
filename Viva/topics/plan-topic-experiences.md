@@ -75,7 +75,7 @@ We recommend you create a process for users or knowledge managers to request ind
 
 ## Item insights
 
-Viva Topics benefits from the input AI collect from Microsoft Graph signals. Item insights are insights that Microsoft calculates using machine learning techniques and applies them as content recommendations for you and your colleagues in your organization. Microsoft derives insights from analyzing activities (such as modifying, commenting, or sharing), and applies these insights to empower user-centric experiences with recommendations for users of Microsoft 365. Enabling item insights in Microsoft 365 will help your organization have the most accurate results in Viva Topics. 
+Viva Topics benefits from the input AI collects from Microsoft Graph signals. Item insights are insights that Microsoft calculates using machine learning techniques and applies them as content recommendations for you and your colleagues in your organization. Microsoft derives insights from analyzing activities (such as modifying, commenting, or sharing)to empower user-centric experiences with recommendations for users of Microsoft 365. Enabling item insights in Microsoft 365 will help your organization have the most accurate results in Viva Topics. 
 
 ### Multi-geo
 
