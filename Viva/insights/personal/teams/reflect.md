@@ -57,7 +57,7 @@ Want to get in the habit of self-reflecting? Use the **Set reminder** button.
 
 Viva Insights then picks a time for you to reflect. If you want to edit when you get reminders, select **Change settings**.
 
-:::image type="content" source="images/wellbeing-reflect-reminder-confirmation.png" alt-text="Screenshot of the reflection card, showing reflection feedback, with the Set reminder button highlighted.":::
+:::image type="content" source="images/wellbeing-reflect-reminder-confirmation.png" alt-text="Screenshot of the reflection card, confirming that reminders are set, with Change settings highlighted.":::
 
 If you want to change your reminder settings later:
 
