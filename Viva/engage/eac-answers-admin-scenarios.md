@@ -30,12 +30,20 @@ The table below shows the range of actions available to an unlicensed user, Viva
 < Table of admin permissions >
 
 > [!div class="mx-tdBreakAll"]
-> |Name|Syntax|Mandatory for silent installation?|Description|
+> |Answers actions|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Yammer) admin| Answers admin (Knowledge Manager)|O365 (Global) admin|
 > |-------------|----------|---------|---------|
-> |Quiet|/quiet|Yes|Runs the installer, displaying no UI and no prompts.|
-> |NoRestart|/norestart|No|Suppresses any attempts to restart. By default, the UI will prompt before restart.|
-> |Help|/help|No|Provides help and quick reference. Displays the correct use of the setup command, including a list of all options and behaviors.|
-
+> |**Answer, upvote, and react to a question thread**|Questions they are mentioned in |✓|✓|✓|✓|
+> |**Receive notifications in the Viva Engage Teams app**|Questions they are mentioned in |✓|✓|✓|✓|
+> |**Ask a question**| |✓|✓|✓|✓|
+> |**Create a suggested Topic for Answers**| |✓|✓|✓|✓|
+> |**Mark Best answer**| | ✓ (own posts)|✓|✓|✓|
+> |**See global insights**| | |✓|✓|✓|
+> |**Delete and close posts**| | ✓ (own posts)|✓|✓|✓|✓|
+> |**Feature Topics**| | | |✓|✓|
+> |**Remove Topic from Answers**| | | |✓|✓|
+> |**Approve suggested Topics**| | | |✓|✓|
+> |**Enable Answers**| | | | |✓|
+> |**Enable Badges**| | |✓| |✓|
 
 ## Manage topics in Answers
 
