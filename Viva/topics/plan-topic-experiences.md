@@ -132,7 +132,7 @@ The .csv file must contain the following parameters:
 
     ![Exclude topics in CSV template.](../media/exclude-topics-csv.png) 
 
-You can copy the csv template below:
+You can copy the csv template:
 
 ``` csv
 Name (required),Expansion,MatchType- Exact/Partial (required)
