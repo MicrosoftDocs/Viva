@@ -112,7 +112,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 Like **Organization**, **LevelDesignation** is a predefined organizational attribute. These attributes help your report work properly. If your organizational data file is missing the **LevelDesignation** attribute, your report will still show visuals. However, here are two things to know:
 
 * You'll get an error message about the missing attribute during query setup. To run the query *without* **LevelDesignation**, select **Clean Query** on the error message.
-* The calculation of certain metrics uses **LevelDesignation**, so using the **Clean Query** button means that those calculations are inaccurate. Without **LevelDesignation**, the **Chats with peers** visual will show you the wrong data. We don't recommend using this visual for further analysis.
+* The metrics that feed the **Chats with peers** visual rely on **LevelDesignation**. When you use the **Clean Query** button, those metric calculations become inaccurate, and the visual will show you the wrong data. We don't recommend using **Chats with peers** for further analysis
 
 ## Report settings
 
