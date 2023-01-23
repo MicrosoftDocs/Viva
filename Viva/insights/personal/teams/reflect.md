@@ -51,10 +51,13 @@ To see how your feelings have changed over time, review the **Reflection history
 
 ## Set a reminder to self-reflect
 
-Want to get in the habit of self-reflecting? Use the **Set a reminder** button. You'll get a Teams notification at the time you pick.
+Want to get in the habit of self-reflecting? Use the **Set reminder** button. 
 
-:::image type="content" source="images/wellbeing-reflect-history.png" alt-text="Screenshot of the reflection card, showing reflection feedback, with the Set reminder button highlighted.":::
+:::image type="content" source="images/wellbeing-reflect-reminder-button.png" alt-text="Screenshot of the reflection card, showing reflection feedback, with the Set reminder button highlighted.":::
 
+Viva Insights then picks a time for you to reflect. If you want to edit when you get reminders, select **Change settings**.
+
+:::image type="content" source="images/wellbeing-reflect-reminder-confirmation.png" alt-text="Screenshot of the reflection card, showing reflection feedback, with the Set reminder button highlighted.":::
 
 If you want to change your reminder settings later:
 
