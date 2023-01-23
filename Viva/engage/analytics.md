@@ -1,5 +1,5 @@
 ---
-title: "Manage and access analytics in Viva Engage"
+title: "View and manage analytics in Viva Engage"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,7 +20,7 @@ search.appverid:
 ---
 
 
-# Manage and access analytics in Viva Engage
+# View and manage analytics in Viva Engage
 
 Premium analytic capabilities in Viva Engage help licensed users monitor their own engagement metrics (personal analytics), leaders monitor their audience’s engagement (audience analytics), manage social campaign engagement (campaign analytics), and monitor engagement in Answers (Answers analytics).  
 
@@ -28,9 +28,12 @@ Premium analytic capabilities in Viva Engage help licensed users monitor their o
 
 Any user with access to premium Viva Engage will be able to access Engage Analytics and manage settings through the Engage admin center within the Viva Engage Teams app.
 
+>[!NOTE]
+> Any leader’s delegates or delegate managers have visibility into the leader’s audience and personal analytics.
+
 ## Manage analytics
 
-Global admins and Engage admins can configure, enable, and disable analytics features via the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Engage admin center and select **Manage analytics**.   
+Global admins and Engage admins can configure, enable, and disable analytics features via the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Engage admin center and select **Manage analytics**.
 
 ![Need image of Engage Admin Center for Anaytics ](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
 

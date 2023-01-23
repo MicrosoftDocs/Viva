@@ -34,7 +34,12 @@ Anyone who is using Yammer or accesses Yammer in your tenant today will have acc
 
 If you are enforcing Yammer licensing in your tenant, you will need to have a Yammer license or a Viva Engage Core license to access seeded experiences. 
 
-(Insert table here for the service plans available)
+> [!div class="mx-tdBreakAll"]
+> |**Service plan**|**Enables**|**Comes with (SKUs)**|
+> |-------------|----------|---------|---------|
+> |**Viva Engage Core**|Engage seeded experiences, including the Answers seeded experiences Example: Communities, Storyline|M365 / O365|
+> |**Viva Engage Communities and Communications**|Engage premium experiences (Leadership & Comms) Examples: Leadership Corner, AMA, Storyline Announcements |Viva Suite|
+> |**Viva Engage Knowledge**|Answers premium experience |Viva Suite, Viva Topics|
 
 ## Set up Viva Engage
 Use the Microsoft 365 admin center to set up and manage settings for Viva Engage.  
