@@ -21,7 +21,7 @@ search.appverid:
 
 # Rewards and recognition admin controls in Viva Engage
 
-The Viva Engage **Rewards and recognition** feature helps to motivate employees to engage with their organization. Once the user meets certain criteria for assisting their peers in Viva Answers, they will earn a variety of achievement badges, which can be configured by Office 365 admin and Engage admin.  
+The Viva Engage **Rewards and recognition** feature helps to motivate employees to engage with their organization. Once the user meets certain criteria for assisting their peers in Viva Answers, they will earn a variety of achievement badges, which can be configured by Office 365 admin or Engage admin.  
 
 ## Criteria for Answers badges 
 
