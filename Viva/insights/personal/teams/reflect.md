@@ -36,7 +36,7 @@ Then, select the emoji that best represents how you're currently feeling.
    Screenshot that demonstrates reflecting. A cursor is hovering over the far-left, smiling emoji. This emoji is slightly larger than the other four emojis. A tooltip says, "Very good." 
 :::image-end:::
 
-The card gives you feedback to acknowledge your choice.
+The reflection card gives you feedback to acknowledge your choice.
 
 :::image type="complex" source="images/wellbeing-reflect-feedback.png" alt-text="Screenshot that shows feedback after making a selection.":::
    Screenshot of the reflection card. The left section shows the emoji that was selected and a label that says, "Great, keep it up!". A subtitle says, "Consider reflecting on the reason behind the way you are feeling."

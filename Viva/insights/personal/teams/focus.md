@@ -59,7 +59,7 @@ To enter focus mode, select this notification. If you don’t select the notific
 >[!Note]
 > If you want to keep using Teams while you’re in focus mode, right-click on the Viva Insights app icon, then select **Pop out app**.
 >
->:::image type="content" source="images/pop-out-app2.png" alt-text="Screenshot that shows the using the Pop out app option.":::
+>:::image type="content" source="images/pop-out-app2.png" alt-text="Screenshot that shows using the Pop out app option.":::
 
 #### Use features during your focus session
 
@@ -70,23 +70,34 @@ To enter focus mode, select this notification. If you don’t select the notific
 When you launch focus mode, you’ll arrive at the **Timer** section. Here, your focus time is displayed in minutes, which correspond to the time you set through your plan, or when you booked time. If you need to increase or decrease this time, select the arrows. 
 
 If you increase time, the app asks whether you want to extend your scheduled focus time. You can select the **Add 15 minutes** button to add 15 more minutes to your scheduled time, or you can add another amount by selecting the button’s down arrow.
- 
-![Screenshot that shows the "Add 15 minutes" button.](Images/focus-extend.png)
+
+:::image type="complex" source="images/focus-extend.png" alt-text="Screenshot of a warning banner with a button to add time.":::
+   Screenshot of a warning banner in focus mode. The message reads, "Interval timer duration exceeds your scheduled focus time by 4 minutes. Would you like to extend your current focus block?" To the right of the message, there's a button that reads, "Add 15 minutes," with a dropdown icon.
+:::image-end:::
+
 
 To skip automatically scheduled breaks, select the box next to **Skip breaks**. 
 To adjust other settings, like sounds and how long breaks and focus intervals last, open the **Timer settings**.
 
-![Screenshot that shows setting up the timer.](Images/focus-timer2.png)
+:::image type="complex" source="images/focus-timer2.png" alt-text="Screenshot that shows the Timer tab of focus mode.":::
+   Screenshot of the Timer tab of focus mode. The title reads, "Ready, set, focus!" with a subtitle that reads, "Dividing your focus time into short bursts of productivity followed by short breaks can help you stay energized." Underneath the subtitle, there's a window that shows the timer and settings. Text at the top of the window prompts the user to set how much time they have to focus. Underneath the text, there's a timer set to 120 minutes with up and down arrows to its left. Underneath the timer, the window shows how many breaks the user will have and provides a checkbox to skip breaks. Below the breaks information, there's a "Start focus timer" button. The next section is "Timer settings," which is expandable; the image shows the section expanded. Users can set sounds for focus and break tones using a slider switch. They can also set how long their breaks will be and how long their focus intervals will be using dropdown menus for both.
+:::image-end:::
+
 
 When you’re ready to start your timer, select the **Start focus timer** button. You can stop the focus timer whenever you need to.
 
-![Screenshot that shows the focus timer elapsing.](Images/focus-clock2.png)
+:::image type="complex" source="images/focus-clock2.png" alt-text="Screenshot that shows the focus timer elapsing.":::
+   Screenshot of a timer elapsing. It's shaped as a donut: the remaining time is reported in the center as minutes and seconds; the outside ring has white fill to represent remaining time. The header of the timer shows which focus session the reader is on: "Focus 1 of 2." Underneath the timer, there's a checkbox that lets users stop the timer. Underneath the checkbox, there's a label that says, "Next: 5 min break."
+:::image-end:::
+
 
 ##### Tasks
 
 You can use the **Tasks** section to help direct your work during your focus session. **Tasks** displays existing tasks from Microsoft To Do, which are either due today or have a reminder set for today.
 
-![Screenshot that shows Tasks options.](Images/focus-mode-tasks-options.png)
+:::image type="complex" source="images/focus-mode-tasks-options.png" alt-text="Screenshot that shows Tasks options.":::
+   Screenshot of the Tasks tab in focus mode. The image shows two sections. The first section shows suggested tasks; a box that says, "You have 1 suggested task" is expanded to show a task surfaced from Outlook. The options menu is expanded to show reminder two options-- "Tomorrow Mon 9:00 am" and "Next week Wed 9:00 am"--and an option to delete the task. The second section is labeled "Your tasks." It shows an option to "Add a task," and below, shows two open tasks with circles that a user can mark to complete them.
+:::image-end:::
 
 In addition to viewing your existing tasks, you can:
 
@@ -97,15 +108,14 @@ In addition to viewing your existing tasks, you can:
 
 ##### Mindfulness break
 
-During breaks between focus intervals, you can use the guided videos in Mindfulness break to catch your breath and reset. After you select **Start** beneath a video, you’ll complete a three- or five-minute exercise before your next focus interval starts.
+During breaks between focus intervals, you can use the guided videos in **Mindfulness break** to catch your breath and reset. After you select **Start** beneath a video, you’ll complete a three- or five-minute exercise before your next focus interval starts.
 
-![Screenshot that shows Mindfulness break options.](Images/focus-mode-mindfulness-break.png)
-
+:::image type="content" source="images/focus-mode-mindfulness-break.png" alt-text="Screenshot that shows the Mindfulness break tab in focus mode with four available meditations.":::
 
 #### To end a focus session
 
 After your timer runs out, a **Congratulations** message appears. If you want to extend your focus time, select **Restart interval timer**.
 
-![Screenshot that shows focus mode's end screen.](Images/focus-mode-end2.png)
+:::image type="content" source="images/focus-mode-end2.png" alt-text="Screenshot that shows focus mode's end screen.":::
 
 If you’re done focusing, you can move forward with your day and continue using Teams. Your Teams status will stop showing as **Focusing** and, if they were muted, you’ll start receiving Teams notifications again.
