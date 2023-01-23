@@ -49,7 +49,7 @@ This article describes the key concepts you should know, and key decisions you s
     
       - Review the [security and compliance features](../manage-security-and-compliance/security-and-compliance.md) and define your data retention and export plans. 
     
-      - Make sure your domains are set up in Office 365 the way you want them. By default, your Viva Engage internal network can be accessed only by employees whose email addresses match the domains verified in Office 365. 
+      - Make sure your domains are set up in Microsoft 365 the way you want them. By default, your Viva Engage internal network can be accessed only by employees whose email addresses match the domains verified in Microsoft 365. 
     
         If all your domains are verified, you're all set. For more information, see [Manage Yammer domains across their lifecycle](../configure-your-yammer-network/manage-yammer-domains.md). 
     
@@ -57,7 +57,7 @@ This article describes the key concepts you should know, and key decisions you s
     
 4. Explore the options for managing user identity:
     
-      - Learn how [users are managed](../manage-yammer-users/office-365-sign-in.md), including how user profile data is used in Viva Engage. If you have Viva Engage users who aren't in Microsoft 365 or Office 365, you can manage them from within Viva Engage. See [Add, block, or remove Yammer users](../manage-yammer-users/add-block-or-remove-users.md). You can also decide whether to [enforce Office 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md). 
+      - Learn how [users are managed](../manage-yammer-users/office-365-sign-in.md), including how user profile data is used in Viva Engage. If you have Viva Engage users who aren't in Microsoft 365, you can manage them from within Viva Engage. See [Add, block, or remove Yammer users](../manage-yammer-users/add-block-or-remove-users.md). You can also decide whether to [enforce Microsoft 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md). 
     
       - Decide whether you'll use Viva Engage to collaborate with people outside your organization.
     
@@ -79,7 +79,7 @@ This article describes the key concepts you should know, and key decisions you s
     
     Users in Microsoft 365 plans that include Viva Engage automatically get a license to use Viva Engage Enterprise, but they may not be automatically added to your Viva Engage network. For information on how users are added to Viva Engage, see [Manage Yammer users across their lifecycle](../manage-yammer-users/manage-users-across-their-lifecycle.md).
 
-    If your network is not enforcing Office 365 identity, to ensure that all your Office 365 users are on Viva Engage, use the Viva Engage admin center to add them. For more information, see [Add, block, or remove Yammer users](../manage-yammer-users/add-block-or-remove-users.md). 
+    If your network is not enforcing Microsoft 365 identity, to ensure that all your Microsoft 365 users are on Viva Engage, use the Viva Engage admin center to add them. For more information, see [Add, block, or remove Yammer users](../manage-yammer-users/add-block-or-remove-users.md). 
     
 7. Understand mobile device options, and if needed create a policy for mobile Yammer use. For example, you might require that user's have passwords or other locks on their phones in order to use Yammer on their phone. You can monitor device usage through the Yammer admin center, and [manage Yammer devices by using Microsoft Intune](../manage-security-and-compliance/manage-yammer-with-intune.md). 
     
@@ -89,7 +89,7 @@ This article describes the key concepts you should know, and key decisions you s
     
     For admin support options, if you need more help than [Yammer admin help](../index.yml) provides, you can [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
-    Check the [Office 365 Service health dashboard](https://admin.microsoft.com/AdminPortal/Home#/servicehealth) to see real-time status of the Viva Engage service. 
+    Check the [Microsoft 365 Service health dashboard](https://admin.microsoft.com/AdminPortal/Home#/servicehealth) to see real-time status of the Viva Engage service. 
     
 10. Viva Engage is always changing. To stay current on what's happening, regularly review the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?LinkId=509914). 
     
@@ -103,7 +103,7 @@ This article describes the key concepts you should know, and key decisions you s
 ### Q: What are the browser and system requirements for Viva Engage
 <a name="Requirements"> </a>
 
-A: Viva Engage's system requirements are consistent with those of Microsoft 365 or Office 365. See the list of supported browsers in the [Office 365 system requirements](https://support.office.com/article/719254c0-2671-4648-9c84-c6a3d4f3be45).
+A: Viva Engage's system requirements are consistent with those of Microsoft 365. See the list of supported browsers in the [Microsoft 365 system requirements](https://support.office.com/article/719254c0-2671-4648-9c84-c6a3d4f3be45).
   
 > [!IMPORTANT]
 > Internet Explorer 10 support ended on March 1, 2018. For more information, see [Yammer life-cycle support information for Internet Explorer 8, Internet Explorer 9, and Internet Explorer 10](https://go.microsoft.com/fwlink/?LinkId=526880).
@@ -124,14 +124,14 @@ A: Viva Engage's system requirements are consistent with those of Microsoft 365 
 
 For the most up-to-date information, see [Office mobile apps](https://go.microsoft.com/fwlink/?linkid=2119145) 
 
-### Q: Can I have a Viva Engage network where some users have Office 365 licenses and some users don't?
+### Q: Can I have a Viva Engage network where some users have Microsoft 365 licenses and some users don't?
 <a name="Requirements"> </a>
 
-A: It depends on whether you configure your Viva Engage network to enforce Office 365 identity.
+A: It depends on whether you configure your Viva Engage network to enforce Microsoft 365 identity.
   
-- If you select the option to enforce Office 365 identity, all users must have a Viva Engage license through Office 365. For more information, see [Enforce Office 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md).
+- If you select the option to enforce Microsoft 365 identity, all users must have a Viva Engage license through Microsoft 365. For more information, see [Enforce Microsoft 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md).
     
-- If you do not choose to enforce Office 365 identity, users who are on the same email domain as your Viva Engage network but do not have Office 365 licenses can join the network by creating a Viva Engage account at https://www.yammer.com.
+- If you do not choose to enforce Microsoft 365 identity, users who are on the same email domain as your Viva Engage network but do not have Microsoft 365 licenses can join the network by creating a Viva Engage account at https://www.yammer.com.
     
     There are some differences in how you manage these users: their profile won't be automatically filled in, and you can't block them by removing their Viva Engage license. These users can be made admins, create groups, and use all basic Viva Engage features. If they are made admins, they have to get to the Viva Engage admin center by clicking the **Settings** icon in Viva Engage, and selecting **Network Admin**.
 

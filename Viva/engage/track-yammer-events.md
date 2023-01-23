@@ -20,7 +20,7 @@ ms.assetid: ce0a68ef-9731-4891-8c6b-6882988e727d
 description: "You can view Viva Engage events through Office 365 Management API and in the Office 365 Security &amp; Compliance center auditing logs."
 ---
 
-# Track Viva Engage events in the Office 365 audit log and with the Management Activity API
+# Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API
 
 To monitor security and compliance related Viva Engage events for your organization, turn on audit logging and view changes to users, groups, files, admins and network settings. The audit logs are available in the Office 365 Security &amp; Compliance center or by using the Office 365 Management Activity API. 
   
@@ -28,7 +28,7 @@ You must have the Office 365 global admin role or the Audit Logs role in Exchang
   
 - **Users** — including activating, suspending, and deleting a user. 
     
-- **Groups** — including creating and deleting of Microsoft 365 connected Viva Engage groups. This API does not provide data for legacy Viva Engage groups.
+- **Groups** — including creating and deleting of Microsoft 365 connected Yammer groups. This API does not provide data for legacy Yammer groups.
     
 - **Files** — including creating, viewing, and deleting a file. 
     
