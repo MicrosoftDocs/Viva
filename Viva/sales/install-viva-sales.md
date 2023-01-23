@@ -41,11 +41,12 @@ Salesforce administrators who need to customize Viva Sales must have the followi
 
 #### Dynamics 365 administrators
 
-If you are using out-of-the-box System Administrator or System Customizer security roles, Viva Sales administration privileges are added automatically. If you are using custom security roles, you must assign the following security role to Dynamics 365 administrators who need to customize Viva Sales. 
+If you are using out-of-the-box System Administrator or System Customizer security roles, Viva Sales administration privileges are added automatically. If you are using custom security roles, you must assign the following security role and privilege to Dynamics 365 administrators who need to customize Viva Sales. 
 
 |Requirement type  |You must have  |
 |---------|---------|
 |Security role     | Viva Sales Administrator |
+|Privilege     | **Read** privilege on **User** table     |
 
 #### Dynamics 365 sellers
 

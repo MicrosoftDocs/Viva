@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Customize forms and fields
 
-As a CRM administrator or Sales enablement manager, you can customize the CRM information that’s displayed in Viva Sales to give your sellers a more relevant view.
+As an administrator, you can customize the CRM information that's displayed in Viva Sales to give your sellers a more relevant view. To know more about privileges required to access administrator settings, see [Who can access administrator settings?](administrator-settings-for-viva-sales.md#who-can-access-administrator-settings).
 
 CRM forms and fields customization is environment-specific—each environment has its own set of configurations. For out-of-the-box contact, account, and opportunity records, you can configure:
 
@@ -27,6 +27,10 @@ Record names, field names, and mandatory fields are displayed as they're defined
 
 > [!NOTE]
 > If you change the name of a record type in CRM, they are not updated in Adaptive Card or messaging extensions in Teams. For example, if you rename Account to Customer, the name in Adaptive Card and messaging extensions will show as Account.
+
+## Prerequisites
+
+CRM administrators must access administrator settings from the Viva Sales app in Teams. More information: [Administrator settings for Viva Sales](administrator-settings-for-viva-sales.md)
 
 ## Configure editing of records and fields
 
