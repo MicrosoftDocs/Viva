@@ -1,11 +1,12 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Manager insights rollout
 description: Guidance on how to rollout new Viva Insights for managers to your organization's managers
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 ---

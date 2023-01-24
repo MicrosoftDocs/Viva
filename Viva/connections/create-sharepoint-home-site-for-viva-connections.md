@@ -28,7 +28,10 @@ Use this guided walkthrough if you're creating a home site so your organization 
 Don’t have time to create a home site from scratch? Consider using [the Landing site template from the SharePoint look book](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) and then add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and the [Feed web part](use-feed-web-part-for-viva-connections.md).
 
 > [!NOTE]
-> Only SharePoint admins can set sites as a home site.  
+> Only SharePoint admins can set sites as a home site. 
+
+> [!IMPORTANT]
+> A new desktop experience is coming soon for Viva Connections. The new experience is rolling out to [Target Release](/microsoft-365/admin/manage/release-options-in-office-365) customers now and will become generally available to all customers by the end of the first half of 2023. The new desktop home experience will automatically update for customers currently using Viva Connections. The experience doesn't have any requirements besides a [Viva license](https://www.microsoft.com/en-us/microsoft-viva) and can be setup more easily than the first release. [Learn more about the new experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6). Content in this article will be updated when the new experience becomes generally available.
 
 ### How to use this guide
 

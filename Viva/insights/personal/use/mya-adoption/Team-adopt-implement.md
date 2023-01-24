@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Team Adoption implementation
 description: Team Adoption by Kate Nowak --Implement section
 author: madehmer
