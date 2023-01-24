@@ -49,7 +49,7 @@ The following administrator settings are available:
 
 ## Access administrator settings
 
-You can access administrator settings from the Viva Sales app in Teams. Administrator settings are specific to the CRM environment you sign in to from Viva Sales in Outlook. Each environment will have its own set of configurations for Viva Sales. If you want to configure Viva Sales for another environment, you must [switch environments in Outlook](#how-can-i-switch-crm-environments). 
+You can access administrator settings from the Viva Sales app in Teams. Administrator settings are specific to the CRM environment you sign in to from Viva Sales in Outlook. Each environment will have its own set of configurations for Viva Sales. If you want to configure Viva Sales for another environment, you must [switch environments in Outlook](#how-can-i-switch-crm-environments).
 
 When you open administrator settings, following tabs are available:
 
@@ -64,7 +64,7 @@ When you open administrator settings, following tabs are available:
 
 1.  Sign in to Microsoft Teams with your administrator credentials.
 
-2.  In the app bar on the left, select **Viva Sales**.
+2.  In the navigation bar on the left, select **Viva Sales**.
 
     If **Viva Sales** is not visible, select **More added apps** (**…**), and then select **Viva Sales**.
     
@@ -74,7 +74,7 @@ When you open administrator settings, following tabs are available:
     
     ![Screenshot showing Viva Sales Home tab](media/viva-sales-home.png "Screenshot showing Viva Sales Home tab.")
 
-3.  On the **Settings** tab, select the required option, and update the settings.
+3.  On the **Settings** tab, update the settings.
 
     - **Forms**: Allows you to [customize forms and fields](customize-forms-and-fields.md).
 
@@ -94,13 +94,13 @@ The settings are specific to the environment signed in to from Viva Sales in Out
 
 ### How can I switch CRM environments?
 
-Switching environments helps you to reduce the risk of making unintended changes to your production environment. For example, you can test new features or customizations in a staging or development environment before deploying them to your production environment. This can help ensure your changes do not disrupt your business operations or your customers' experience.
+Your organization may have multiple environments for you and your sellers to work in. Environments help to reduce the risk of making unintended changes to a production environment, for example. You can test customizations in a development environment to make sure they don’t disrupt your business operations or your customers' experience before you deploy them to your production environment.
 
 You will need to switch CRM environments from Viva Sales in Outlook and come back to Viva Sales app in Teams:
 
 1. [Sign out of Viva Sales in Outlook](https://support.microsoft.com/topic/sign-out-of-viva-sales-7c62164a-ee27-48c7-93a0-c18bb1055cd6).
-2. On the **Welcome to Viva Sales!** screen, select **Sign in to get started**, and then select your CRM and environment to use.
-3. Come back to Viva Sales app in Teams and refresh the **Settings** tab to see the new environment
+2. In the **Welcome to Viva Sales!** pane, select **Sign in to get started**, and then select your CRM and environment to use.
+3. Come back to Viva Sales app in Teams and refresh the **Settings** tab to see the new environment.
 
 
 ### Why do I see the message "Sign in to Viva Sales in Outlook first"?
