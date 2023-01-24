@@ -36,26 +36,30 @@ To send praise, open the praise feature in one of the following ways:
 
    :::image type="content" source="images/send-praise-from-home.png" alt-text="Screenshot that shows Praise on Home page.":::
 
-1. When the praise page opens, the **Title** defaults to **Awesome**. If you want to send a different title with your praise message, select a new choice.
+1. When the **Praise** window opens, add the name of the person you want to praise in the **To** field. 
 
-    :::image type="content" source="images/send-praise3.png" alt-text="Screenshot that shows selecting a praise badge.":::
+    :::image type="content" source="images/send-praise-copy.png" alt-text="Screenshot that shows selecting a praise badge.":::
 
-1. Add the name of the person you want to praise.
+1. (Optional) If you want to share a copy of this praise with someone else in your organization, expand the arrow to the right of the **To** field. Start typing to select a recipient.
 
-1. Choose the visibility of your praise—either just between you and the recipient, or to everyone in a Teams channel: 
+    >![Tip]
+    > The same person can't receive praise and also receive a copy of that praise. If you're sending praise to a whole team, but want to make sure the team manager sees that praise, we recommend adding the manager as a direct recipient rather than a share recipient.
+
+1. In the **Where** field, pick how you want your praise to appear—either just between you and the recipient, or to everyone in a Teams channel: 
 
    * To make the praise message appear privately in a 1:1 chat between you and the recipient, select **1:1 chat**. This option is available only if you and the recipient have already participated in a Teams chat together. 
 
    * To let all the members of a Teams channel or subchannel see the praise message, select **Teams channel**. This option is available only if all of the praise recipients are participants in the Teams channel or subchannel that you choose.
 
-1. (Optional) In the **Note** field, add a personalized note.
+1. (Optional) In the **Note** field, add a personalized message.
 
 1. (Optional) Select a new **Background** color for your praise message. 
 
-1. (Optional) Select **Preview**.
-   On the left panel, review what your praise message will look like. If you need to make any edits, select **Edit**. Change the title choice, the recipients list, or the personalized note.
+1. (Optional) Select the **Preview** button to view what your message will look like after you send it.
 
-1. When it's ready to go, select **Send**.
+    If you need to make any edits, select **Edit**. Change the title choice, the recipients list, or the personalized note.
+
+1. When it's ready to go, select the **Send** button.
 
 ### Send praise from the Teams content pane using the praise messaging extension
 
