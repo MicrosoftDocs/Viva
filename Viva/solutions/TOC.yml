@@ -35,11 +35,13 @@
     - name: Write OKRs
       items:
       - name: Write OKRs Overview
-        href: Viva\solutions\viva-goals-healthy-okr-program\write-okrs-overview.md
+        href: write-okrs-overview.md
       - name: Write OKRs Recommendations
-        href: Viva\solutions\viva-goals-healthy-okr-program\write-okrs-recommendations.md
+        href: write-okrs-recommendations.md
       - name: OKR Examples
-        href: Viva\solutions\viva-goals-healthy-okr-program\okr-examples.md
+        href: okr-examples.md
+      - name: Apply the OKR Formula
+        href: apply-okr-formula.md
 
 
   - name: Microsoft Viva Accelerators
