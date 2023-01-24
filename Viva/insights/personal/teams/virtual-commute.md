@@ -89,7 +89,7 @@ In addition to viewing your existing tasks, you can do a few other things in thi
 
    :::image type="complex" source="images/wellbeing-vc-suggested-task1.png" alt-text="Screenshot that shows adding a suggested task.":::
        Screenshot of the suggested task rectangle, which has been expanded. The expanded content shows an email title, a task that the user committed to do over email, the coworker to whom the user committed to help, and where the user made this commitment, which was Microsoft Outlook. There's an ellipses to the right of the task, which the user can select for more options. In the bottom right of the image, there's a button that says, "Add to your tasks."
-    :::image-end:::
+:::image-end:::
 
 * **Cross a completed task off your list.** Select the circle to the left of the task name, which sends the task to your **Tasks completed today** list. If you want to delete the task from To Do, select the trash can icon to the right of the task name.
 
