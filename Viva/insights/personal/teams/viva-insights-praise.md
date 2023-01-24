@@ -42,7 +42,7 @@ To send praise, open the praise feature in one of the following ways:
 
 1. (Optional) If you want to share a copy of this praise with someone else in your organization, expand the arrow to the right of the **To** field. Start typing to select a recipient.
 
-    >![Tip]
+    >[!Tip]
     > The same person can't receive praise and also receive a copy of that praise. If you're sending praise to a whole team, but want to make sure the team manager sees that praise, we recommend adding the manager as a direct recipient rather than a share recipient.
 
 1. In the **Where** field, pick how you want your praise to appear—either just between you and the recipient, or to everyone in a Teams channel: 
