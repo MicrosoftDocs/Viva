@@ -36,7 +36,7 @@ To send praise, open the praise feature in one of the following ways:
 
    :::image type="content" source="images/send-praise-from-home.png" alt-text="Screenshot that shows Praise on Home page.":::
 
-1. When the **Praise** window opens, add the name of the person you want to praise in the **To** field. 
+1. When the **Praise** composer opens, add the name of the person you want to praise in the **To** field. 
 
     :::image type="content" source="images/send-praise-copy.png" alt-text="Screenshot that shows selecting a praise badge.":::
 
