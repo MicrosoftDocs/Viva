@@ -43,7 +43,31 @@ The Engage admin can set up and configure Engage for your organization and manag
 
 The table below shows the range of actions available to Engage admin and Global admin based on their license. Admin permissions will be dependent on the users having the right licensing to configure those features.
 
-< Insert table of permissions for Engage admin and global admin >
+> [!div class="mx-tdBreakAll"]
+> |**Permissions - Roles in consideration: Engage admin and Global admin**|**M365/O365 customer with Viva Engage seeded**|**Microsoft Viva suite customer**|
+> |-------------|----------|---------|---------|
+> |**Manage corporate communicators** <br>
+- Assign user(s) as a corporate communicator <br>
+- Remove user(s) as a corporate communicator|✓|✓|
+> |**Manage tenant and user permissions (through Yammer)**|✓|✓|
+> |**Manage data and compliance** <br>
+- Manage network and user data <br>
+- **GDPR** delete|✓|✓|
+> |**Manage leaders and their audiences** <br>
+- Assign leaders in your organization <br>
+- **Identify audiences for the leaders identified**|✓|✓|
+> |**Configure stories and storylines** <br>
+- Enable storylines and stories for your organization <br>
+- Configure advanced settings like default notifications, specify who can create storyline posts, etc. |✓|✓|
+> |**Manage sentiment analysis and other feature specific analytics**<br>
+- Configure level of sentiment to be gathered in the organization <br>
+- Enable or disable campaign analytics <br>
+- Enable or disable answers analytics **| |✓|
+> |**Add, view, and manage campaigns**<br>
+- Create and manage campaigns <br>
+- Access campaign analytics dashboard **| |✓|
+> |**Enable and manage badges**| |✓|
+> |**Enable Answers**| |O365 (Global) admin only|
 
 ## Answers admin  
 
@@ -53,7 +77,18 @@ The Answers admin role can setup and configure Answers within the Viva Engage ap
 
 The table below shows the range of actions available to an unlicensed user, Viva Topics licensed user, Answers admin (knowledge manager), Engage (Yammer) admin, and Global admin.
 
-< Insert table of permissions for Answers admin >
+> [!div class="mx-tdBreakAll"]
+> |**Answers Permissions - Roles in consideration: Answers admin, Engage admin and Global admin**|**M365/O365 customer with Viva Engage seeded**|**Viva Suite and Viva Topics customer**|
+> |-------------|---------|---------|
+> |**Ask, answer, upvote, and react**|Interact with questions they are mentioned in|✓|
+> |**Suggest topics**| |✓|
+> |**Mark Best answer**| |✓|
+> |**Delete and close posts**| |✓|
+> |**See global insights**| |✓|
+> |**Feature topics**| |Answers admin and Global admin only|
+> |**Approve suggested topics**| |Answers admin and Global admin only|
+> |**Enable and manage badges**| |Answers admin and Global admin only|
+> |**Enable Answers**| |Answers admin and Global admin only|
 
 ## Corporate communicator 
 
@@ -63,10 +98,22 @@ Corporate communicators have privileges such as creating or managing campaigns, 
 
 The table below shows the range of actions available to a corporate communicator, Engage (Yammer) admin, and Global (tenant) admin based on their license.  
 
-< Insert table of permissions for Corporate communicators >
+> [!div class="mx-tdBreakAll"]
+> |**Permissions - Roles in consideration: corporate communicator, Engage admin and Global admin**|**M365/O365 customer with Viva Engage seeded**|**Microsoft Viva suite customer**|
+> |-------------|----------|---------|---------|
+> |**Identify leaders** <br>
+- Manage their audience <br>
+- Manage their delegates|✓|✓|
+> |**Create campaigns**| |✓|
+> |**Manage campaigns via:** <br>
+- Publishing active campaigns <br>
+- Ending active campaigns <br>
+- Republishing ended campaigns <br>
+- Deleting campaigns| |✓|
+> |**View campaign analytics**| |✓|
 
 ## See also 
 
 [Access the Engage admin center](/Viva/engage/eac-as-access-eac.md)
 
-[Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
+[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios.md)
