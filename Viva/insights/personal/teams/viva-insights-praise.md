@@ -51,11 +51,13 @@ To send praise, open the praise feature in one of the following ways:
 
    * To let all the members of a Teams channel or subchannel see the praise message, select **Teams channel**. This option is available only if all of the praise recipients are participants in the Teams channel or subchannel that you choose.
 
-1. (Optional) In the **Note** field, add a personalized message.
+1. Pick a **Title**, or leave it at the default choice: **Awesome**.
+ 
+1. (Optional) In the **Note** field, add a personalized message of up to 500 characters.
 
 1. (Optional) Select a new **Background** color for your praise message. 
 
-1. (Optional) Select the **Preview** button to view what your message will look like after you send it.
+1. (Optional) Select **Preview** to view what your message will look like after you send it.
 
     If you need to make any edits, select **Edit**. Change the title choice, the recipients list, or the personalized note.
 
@@ -67,21 +69,27 @@ In Viva Insights, you can always send praise directly from the [**Home** page](#
 
 To use the Teams messaging extension:
 
-1. Below the **Type a new message** field, select **Praise**.
+1. Below the **Type a new message** field, select the **Praise** icon.
 
    :::image type="content" source="images/content-pane-select-praise1.png" alt-text="Screenshot that shows selecting the Praise icon.":::
 
    (If the praise feature doesn't appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).)
 
-1. When the praise composer opens, the **Title** defaults to **Awesome**. If you want to send a different title with your praise message, select a new one.
+1. If you’re in a group chat or channel, add the name of the person you want to praise in the **To** field. In a 1:1 chat, the name defaults to the other person in the chat.
 
-1. If you’re in a group chat or channel, add the name of the person you want to praise. In a 1:1 chat, the name defaults to the other person in the chat.
+    >[!Tip]
+    > The same person can't be in both the **To** field and the **Share a copy with** field. If you can't find someone by typing their name in the **Share a copy with** field, check to make sure they're not already a direct recipient.
+
+
+1. Pick a **Title**, or leave it at the default choice: **Awesome**.
+
+1. (Optional) If you want to share a copy of this praise with someone else in your organization, expand the arrow to the right of the **To** field. Start typing to select a recipient.
+
+1. (Optional) In the **Note** field, add a personalized message of up to 500 characters.
 
 1. (Optional) Select a **Background** color for your praise message.
 
-1. (Optional) In the **Note** field, add a personalized note of up to 500 characters.
-
-1. (Optional) Select **Preview**.
+1. (Optional) Select **Preview** to view what your message will look like after you send it.
 
 1. When it's ready to go, select **Send**.
 
