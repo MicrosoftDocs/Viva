@@ -29,20 +29,20 @@ Let’s start with the first draft of a broad objective:
 
 **Objective: Make more money**
 
-While most businesses do need to make money, I’m sure you recognize that this is a poorly written objective that needs to be edited.
+While most businesses do need to make money, this objective is poorly written that needs to be edited.
 
-It’s not very actionable, aspirational, or meaningful, and it doesn’t follow our formula.
+It’s not actionable, aspirational, or meaningful, and it doesn’t follow our formula.
 
 > [!IMPORTANT]
 > Verb + what you’re going to do + so that / in order to
 
-We can edit this to be:
+We can edit this objective to be:
 
 **Objective: Expand into Latin America in order to increase product market share**
 
 This objective is much more meaningful, follows the formula, and drives the business forward.
 
-Now let’s look at 3 Key Results that span across Sales, Customer Success, and Marketing.
+Now let’s look at three Key Results that span across Sales, Customer Success, and Marketing.
 
 1. Key Result: Increase new product sales (Sales)  
 1. Key Result: Increase social media views (Marketing)  
@@ -53,7 +53,7 @@ These key results aren’t bad, but in order to follow the formula so we can suc
 > [!IMPORTANT]
 > Verb + what you’re going to track / count + from x to y
 
-1. Key Result: Increase new product sales from $100k to $1.5m (Sales)  
+1. Key Result: Increase new product sales from $100k to $ 1.5 m (Sales)  
 1. Key Result: Increase social media views from 5,000 to 15,000 (Marketing)  
 1. Key Result: Increase qualified leads via web form from 50 to 3,000 (Marketing) 
 
@@ -70,9 +70,9 @@ After confirming your objectives and key results follow their respective formula
 > - **Adaptability**: Can we track if we were successful? 
 > - **Growth**: Is it propelling the business forward?
 
-What we realize when comparing these key results to our benefits is that we are lacking in alignment and have not included one of our stakeholders- product. We are going to have difficulty increasing our product market share in Latin America if we don't have a product that appeals to that market. So we add a key result around growing a Spanish language version of the product
+What we realize when comparing these key results to our benefits is that we're lacking in alignment and haven't included one of our stakeholders- product. We're going to have difficulty increasing our product market share in Latin America if we don't have a product that appeals to that market. So we add a key result around growing a Spanish language version of the product
 
-1. Increase new product sales from $100k to $1.5m (Sales)  
+1. Increase new product sales from $100k to $ 1.5 m (Sales)  
 1. Increase social media views from 5,000 to 15,000 (Marketing)  
 1. Increase qualified leads via web form from 50 to 3,000 (Marketing) 
 1. **Increase users of Spanish language app from 0 to 10,000 (Product)**
@@ -86,9 +86,9 @@ To further finalize our OKRs, we’ll apply the Necessary and Sufficient Test by
  
 **"Are all these Key Results *necessary* to achieve my Objective?"**
 
-When we think hard, we realize that increasing our social media views is not absolutely necessary to meeting our Objective, so let’s remove that one. 
+When we think hard, we realize that increasing our social media views isn't absolutely necessary to meeting our Objective, so let’s remove that one. 
 
-1. Increase new product sales from $100k to $1.5m (Sales)
+1. Increase new product sales from $100k to $ 1.5 m (Sales)
 1. ~~1. Increase social media views from 5,000 to 15,000 (Marketing)~~ 
 1. Increase qualified leads via web form from 50 to 3,000 (Marketing) 
 1. Increase users of Spanish language app from 0 to 10,000 (Product) 
@@ -97,7 +97,7 @@ When we think hard, we realize that increasing our social media views is not abs
 
 What you realize is that you won’t be able to sufficiently achieve your goal without adding more spanish-speaking sales reps. So let’s add that final Key Result. 
 
-1. Increase new product sales from $100k to $1.5m (Sales)  
+1. Increase new product sales from $100k to $ 1.5 m (Sales)  
 1. Increase qualified leads via web form from 50 to 3,000 (Marketing) 
 1. Increase users of Spanish language app from 0 to 10,000 (Product) 
 1. **Increase bilingual sales staff from 2 to 5 (People)**
