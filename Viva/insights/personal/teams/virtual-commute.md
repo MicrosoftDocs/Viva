@@ -58,13 +58,13 @@ The commute guides you through the following sections. All sections are optional
 
 #### Meetings
 
-In **Meetings**, you can review tomorrow’s events—those that last all day, those that you’ve accepted, and those that still need your RSVP. 
+In **Meetings**, review tomorrow’s events—those that last all day, those that you’ve accepted, and those that still need your RSVP. 
 
 :::image type="complex" source="images/wellbeing-vc-meetings1.png" alt-text="Screenshot that shows the Meetings tab of virtual commute.":::
    Screenshot of the "Meetings" tab within the virtual commute experience. The section header prompts you to review your meetings for the next day. The section subtitle reads, "Review and address meetings that need responses or have conflicts." Beneath the subtitle, there's a section titled, "Events." There are four events listed in vertically arranged rectangles. Each rectangle lists the event time, duration, title, and location. There's a button on the right-hand side of each rectangle. One says, "Needs RSVP." Two say, "Accepted." One says, "Delete." There are two buttons in the bottom right-hand corner of the screen: "Done" and "Next."
 :::image-end:::
 
-If an event needs your RSVP, you can **Accept** or **Decline** it from this screen. 
+If an event needs your RSVP, **Accept** or **Decline** it from this screen. 
 
 :::image type="content" source="images/wellbeing-vc-rsvp.png" alt-text="Screenshot that shows the dropdown options for the Needs RSVP button: Accept and Decline.":::
 
@@ -75,7 +75,7 @@ When you’re ready to move to the next section, select **Next** at the bottom-r
 
 #### Tasks
 
-In the **Tasks** section, you can review your open tasks. These tasks originate from Microsoft To Do, and they’re are either due today or have a reminder set for today.
+Use the **Tasks** section to review your open tasks. These tasks originate from Microsoft To Do, and they’re are either due today or have a reminder set for today.
 
 :::image type="complex" source="images/wellbeing-vc-tasks.png" alt-text="Screenshot that shows the Tasks tab in the virtual commute experience.":::
    Screenshot of the "Tasks" tab within the virtual commute experience. The screen shows an expandable rectangle titled, "You have 5 suggested tasks." Beneath suggested tasks, there's a section titled, "Your tasks," which contains four rectangles. The first says, "Add a task" with a plus icon to its left. The rest of the rectangles are tasks on the user's To Do list. Each contains a circle, which users can select to check off a task, along with the task title and an ellipses to access more options. There are two buttons in the bottom right-hand corner of the screen: "Done" and "Next."
