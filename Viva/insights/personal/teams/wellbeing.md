@@ -55,8 +55,9 @@ Let's keep with our focus plan example. When you visit **Track your progress** l
 
 Your progress section might be your reminder to stick with your wellbeing goals. Or, it might be a way to congratulate yourself on putting your wellbeing first!
 
-
-:::image type="content" source="./images/wellbeing-track-progress.png" alt-text="Screenshot that shows four action cards within the Take action to improve your wellbeing section.":::
+:::image type="complex" source="images/wellbeing-track-progress.png" alt-text="Screenshot that shows the Track your progress section of the Wellbeing tab.":::
+   Screenshot of the "Track your progress" section of the Wellbeing tab. The subtitle of the section reads, "Check the impact of your actions and achieve your best work." Beneath the subtitle, there are two cards. The first card is labeled, "Focus plan" and contains a tooltip to its right. It contains a text explanation of how many hours of focus time the user has kept in the last two months and how many hours the user has reserved next week. Beneath this text, there's a horizontal list of the days of the week. Monday through Friday contain a blue circle with a white check; Sunday and Saturday contain an empty gray circle. The next card is labeled, "Quiet time" and it contains a textual explanation of how many days the user had uninterrupted quiet time over the last month. Beneath this text, there's a calendar with blue highlights on various days, representing "Quiet time kept." Both cards contain a "Change settings" link in their bottom left corner.
+:::image-end:::
 
 >[!Tip]
 >If you need to make changes to your focus plan or another action you've taken, use the **Change settings** link.
@@ -89,11 +90,16 @@ Each day, an insight related to one of the following topics appears at the top o
 
 On the insight card, view the current week's average measure, the difference from the prior period's average, and the measure's 12-week trend. 
 
-:::image type="content" source="./images/wellbeing-org-insights.png" alt-text="Screenshot that shows an uninterrupted focus hours organization insight at the top of the Wellbeing tab.":::
+:::image type="complex" source="./images/wellbeing-org-insights.png" alt-text="Screenshot that shows an uninterrupted focus hours organization insight at the top of the Wellbeing tab.":::
+   Screenshot of the "uninterrupted focus hours" organizational insight on the Wellbeing tab. The title of the page reads, "Uninterrupted focus hours - is there time for individual work?", with an information icon to the right. Below the title is a numerical indicator of "13.0 hours per person last week" with a text denoting an increase by 1.6 hours. To the right of the indicator is a line graph with months on the X axis and hours, increasing in intervals of 10, on the Y axis. Below the indicator and graph, there's a label with the text, "A shared focus plan invites your team to protect time to get work done." Below the text is a "Set up plan" button and "Show details" link. In the top right of the screen, there's a scope selector indicating that data is being shown for the organization.
+:::image-end:::
 
 If you want more information about the insight, including a comparison to peer organizations (for eligible users), a breakdown by team, a percentage distribution, and calculation methods, select **Show details** on the insight card.
 
-:::image type="content" source="./images/wellbeing-org-insights-detail.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
+:::image type="complex" source="./images/wellbeing-org-insights-detail.png" alt-text="Screenshot that shows the insight detail page for Uninterrupted focus hours.":::
+    Screenshot of the Details page for the "Uninterrupted focus hours" insight. The page shows a numerical indicator for the organization and another numerical indicator for peer organizations. Descriptors sit beneath the organization and peer indicators and both contain tooltips. Below the descriptions is a line graph with months on the X axis and hours, in increments of two, on the Y axis, along with a color key indicating "Your organization" and "Peer organization." Below the line graph, there's a "Snapshot from last week" donut chart, which shows a percentage of employees who could benefit from more focus time. There's also a "Percentage of your organization" bar chart, with hours of focus time on the X axis and percentage on the Y axis. On the right of the screen is a card titled, "Block time for focus" that allows users to start a shared focus plan. The card contains a "Set up plan" button and "More actions" links. In the top right of the screen, there's a scope selector indicating that data is being shown for the organization.
+:::image-end:::
+
 
 To help your team improve their wellbeing, Viva Insights shows you a recommended action—for example, starting a [shared focus plan](shared-focus-plan.md). Select the action button, like **Set up plan**, either on the insight card on the **Wellbeing** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.
 
