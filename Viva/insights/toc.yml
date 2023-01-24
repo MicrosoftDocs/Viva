@@ -60,10 +60,11 @@ items:
                 - name: Focus
                   href: personal/teams/focus.md
                 - name: Headspace  
-                  href: personal/teams/headspace.md                  
+                  href: personal/teams/headspace.md 
+                - name: Reflect    
+                  href: personal/teams/reflect.md                
                 - name: Virtual commute
-                  href: personal/teams/virtual-commute.md    
-                    
+                  href: personal/teams/virtual-commute.md                  
           - name: Briefing
             items:
               - name: Overview
