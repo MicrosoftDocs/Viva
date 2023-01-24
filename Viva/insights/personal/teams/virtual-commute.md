@@ -87,7 +87,7 @@ In addition to viewing your existing tasks, you can do a few other things in thi
 
 * **Add a suggested task surfaced from Outlook or Teams.** If To Do notices a potential task in your chats or emails, a notification appears above **Your tasks**. Select the down arrow to expand the message. If you want to put this task on your To Do list, select the **Add to your tasks** button. 
 
-    :::image type="complex" source="images/wellbeing-vc-suggested-task1.png" alt-text="Screenshot that shows adding a suggested task.":::
+   :::image type="complex" source="images/wellbeing-vc-suggested-task1.png" alt-text="Screenshot that shows adding a suggested task.":::
        Screenshot of the suggested task rectangle, which has been expanded. The expanded content shows an email title, a task that the user committed to do over email, the coworker to whom the user committed to help, and where the user made this commitment, which was Microsoft Outlook. There's an ellipses to the right of the task, which the user can select for more options. In the bottom right of the image, there's a button that says, "Add to your tasks."
     :::image-end:::
 
