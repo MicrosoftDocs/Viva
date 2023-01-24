@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Manager insights rollout
 description: Guidance on how to rollout new Viva Insights for managers to your organization's managers
 author: madehmer

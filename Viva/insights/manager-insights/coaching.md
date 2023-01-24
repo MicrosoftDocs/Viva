@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Best practices for coaching
 description: Get best practice recommendations for managers about coaching their teams
 author: madehmer
