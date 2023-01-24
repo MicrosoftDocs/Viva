@@ -1,6 +1,6 @@
 ---
 title: Effective meetings in Viva Insights  
-description: Effective meetings in Microsoft Viva Insights
+description: Learn how to create effective meetings with Microsoft Viva Insights
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -15,50 +15,18 @@ audience: user
 
 # Effective meetings
 
-*This experience is part of a rolling release set to complete in October 2022. It's available to users with a Viva Insights subscription. Refer to [Plans and environments](../Overview/plans-environments.md) for more information.*
-
-## Meeting category insights
-
-Use **Meeting category insights** in **Effective meetings** to help understand how you’re allocating time across your Outlook meeting categories.
-
->[!Note]
->To set up Outlook meeting categories, refer to [Assign a color category to a calendar appointment, meeting, or event (microsoft.com)](https://support.microsoft.com/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527).
-  
-In this section, you'll find three types of insights, which are based on meetings  you organized, meetings you accepted, and your appointments:
-
-* **Percentage breakdown**: The percentage of total meeting hours you spend in each meeting category.
-![Screenshot that shows meeting category insights.](Images/meeting-percentage-breakdown.png)
-* **Meeting trends**: How the time you spend in each meeting category has changed.
-![Screenshot that shows meeting trends.](Images/meeting-trends1.png)
-* **Meeting details**: All your meetings in a list, which includes **Category**, **Total time spent**, **Cadence**, and **Duration**.
-![Screenshot that shows meeting details.](Images/meeting-details.png)
-
-You can customize what you see here. If you want to:
-
-* Analyze a specific category, select it from the checklist to the left.
-
-* Pick a specific timeframe, use the dropdown menu in the top-right. You can choose from **Last 3 months**, **Last 4 weeks**, or **Next 4 weeks**.
-
->[!Important]
->If you haven’t categorized any meetings between the last three months and next four weeks, these insights won’t be available to you. However, you’ll have access to them after you categorize any meeting within this time period, as long as you have a Viva Insights subscription.
->
-> When you make updates to your meeting categories in Teams or Outlook, it can take up to a day for those changes to appear in the **Effective meetings** tab.
-
 ## Meeting habits
-
->[!Note]
-> We're in the process of rolling out these changes to customers.
 
 The **Meeting habits** section highlights your habits or practices in meetings you organized and accepted. Switch between the **Meeting habits** and **Meeting details** views by selecting the tabs above the graph/table.
 
 * Use percentage data from the **Meeting habits** view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 80% of the meetings you attended ended on time. 
 
-    ![Collaboration Meeting Habits View.](../teams/Images/meeting-effectiveness-habits1.png)
+    :::image type="content" source="../teams/Images/effective-meetings-habits1.png" alt-text="Collaboration Meeting Habits View." lightbox="../teams/Images/effective-meetings-habits1.png" :::
 
 * For details about all your meetings in the past four weeks, use the **Meeting details** view.
     
 
-    ![Collaboration Meeting List View.](../teams/Images/meeting-effectiveness-details.png)
+    :::image type="content" source="../teams/Images/meeting-effectiveness-details.png" alt-text="Collaboration Meeting List View." lightbox="../teams/Images/meeting-effectiveness-details.png":::
 
     The **Meeting details** view classifies meetings by using icons, which we describe in the following table:
 
@@ -89,6 +57,14 @@ Here's how we calculate the habits shown in this section:
 * **RSVP'd to invite** – Meetings you were invited to and either accepted or declined (that is, you didn't leave your status as **Tentative**)
 * **You didn't multitask** – Meetings where you didn't read or send emails or chats
 
+### When meeting habits are calculated
+
+Viva Insights calculates your meeting habits once a week. We evaluate four full weeks of data in that calculation, up to the most recent Sunday. 
+
+For example, let's say you go to your **Meeting habits** section on Wednesday, December 14th. You'd find meeting habits based on meeting data that started on Sunday, November 13th—this day *is* included in the calculation—and ended on Sunday, December 11th—this day *isn't* included in the calculation.
+
+![Screenshot that shows a calendar with labels "Calculation starts" on the 13th, "Calculation ends" on the next month's 10th, and "View date" four days later, on the 14th. ](./Images/effective-meetings-calculation-time1.png)
+
 ### Meeting exclusions
 
 These types of meetings are excluded from meeting metrics—that is, they don't factor into the habits you see in this section.
@@ -105,7 +81,42 @@ These types of meetings are excluded from meeting metrics—that is, they don't 
 >[!Note]
 >Viva Insights counts double-booked meetings only one time for metric calculations. For example, if you have two meetings scheduled for 10:00 AM to 11:00 AM on the same day, Viva Insights counts this as only one hour of meeting time.
 
+## Shared meeting plan
+
+To help you promote healthy meeting norms with your colleagues, consider using a shared meeting plan. [Read more about shared meeting plans and how to start one.](shared-meeting-plan.md)
+
+## Meeting category insights
+
+*Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../Overview/plans-environments.md) for more information.*
+
+Use **Meeting category insights** in **Effective meetings** to help understand how you’re allocating time across your Outlook meeting categories.
+
+>[!Note]
+>To set up Outlook meeting categories, refer to [Assign a color category to a calendar appointment, meeting, or event (microsoft.com)](https://support.microsoft.com/office/assign-a-color-category-to-a-calendar-appointment-meeting-or-event-750596d9-707d-4412-8c0e-7fdc0fc52527).
+  
+In this section, you'll find three types of insights, which are based on meetings  you organized, meetings you accepted, and your appointments:
+
+* **Percentage breakdown**: The percentage of total meeting hours you spend in each meeting category.
+:::image type="content" source="Images/meeting-percentage-breakdown.png" alt-text="Screenshot that shows meeting category insights." lightbox="Images/meeting-percentage-breakdown.png":::
+* **Meeting trends**: How the time you spend in each meeting category has changed.
+:::image type="content" source="Images/meeting-trends1.png" alt-text="Screenshot that shows meeting trends." lightbox="Images/meeting-trends1.png":::
+* **Meeting details**: All your meetings in a list, which includes **Category**, **Total time spent**, **Cadence**, and **Duration**.
+:::image type="content" source="Images/meeting-details.png" alt-text="Screenshot that shows meeting details." lightbox="Images/meeting-details.png":::
+
+You can customize what you see here. If you want to:
+
+* Analyze a specific category, select it from the checklist to the left.
+
+* Pick a specific timeframe, use the dropdown menu in the top-right. You can choose from **Last 3 months**, **Last 4 weeks**, or **Next 4 weeks**.
+
+>[!Important]
+>If you haven’t categorized any meetings between the last three months and next four weeks, these insights won’t be available to you. However, you’ll have access to them after you categorize any meeting within this time period, as long as you have a Viva Insights subscription.
+>
+> When you make updates to your meeting categories in Teams or Outlook, it can take up to a day for those changes to appear in the **Effective meetings** tab.
+
 ## Meeting effectiveness surveys
+
+*Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../Overview/plans-environments.md) for more information.*
 
 With meeting effectiveness surveys, you can view aggregated feedback from attendees on the meetings you organized. These surveys help you gain insight into what’s going well with your meetings, and what you could improve in future meetings, to promote a healthy meeting culture.
 
@@ -147,7 +158,7 @@ To opt in or out of getting feedback about your meetings, follow these steps:
 1. In the Viva Insights app, select **Settings**.
 2. For **Meeting effectiveness surveys**, select to turn the setting **On** or **Off**, and then select **Save**. This setting defaults to **On**.
 
-    ![Screenshot that shows Effective meeting settings.](images/meeting-effectiveness-settings.png)
+    :::image type="content" source="images/meeting-effectiveness-settings.png" alt-text="Screenshot that shows Effective meeting settings." lightbox="images/meeting-effectiveness-settings.png":::
 
 ### Privacy by design
 

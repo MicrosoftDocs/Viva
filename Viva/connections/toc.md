@@ -47,15 +47,15 @@
 
 ## [Troubleshoot]()
 
-### [Can't find app in Teams mobile](troubleshoot/cant-find-app-in-teams-mobile.md)
+### [Can't find app in Teams mobile](/viva/troubleshoot/connections/cant-find-app-in-teams-mobile?toc=/viva/connections/toc.json&bc=/viva/breadcrumb/toc.json)
 
-### [Can't find the app in the Teams admin center](troubleshoot/cant-find-app-in-teams-admin-center.md)
+### [Can't find the app in the Teams admin center](/viva/troubleshoot/connections/cant-find-app-in-teams-admin-center?toc=/viva/connections/toc.json&bc=/viva/breadcrumb/toc.json)
 
-### [Can't update app details](troubleshoot/cant-update-app-details.md)
+### [Can't update app details](/viva/troubleshoot/connections/cant-update-app-details?toc=/viva/connections/toc.json&bc=/viva/breadcrumb/toc.json)
 
-### [Can't upload package](troubleshoot/cant-upload-package.md)
+### [Can't upload package](/viva/troubleshoot/connections/cant-upload-package?toc=/viva/connections/toc.json&bc=/viva/breadcrumb/toc.json)
 
-### [Error accessing app from Teams desktop](troubleshoot/error-accessing-app-from-teams-desktop.md)
+### [Error accessing app from Teams desktop](/viva/troubleshoot/connections/error-accessing-app-from-teams-desktop?toc=/viva/connections/toc.json&bc=/viva/breadcrumb/toc.json)
 
 ## [Web parts]()
 
