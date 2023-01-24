@@ -144,8 +144,6 @@ From the **Settings** page:
 1. Select **Praise** from the left pane.
 1. In the praise reminder settings, move the **Reminder** toggle to **On**, then select the time of day and day of the week you want to be reminded.
 
-   :::image type="content" source="images/praise-set-reminder-in-settings.png" alt-text="Screenshot that shows Praise reminder settings on the Settings page.":::
-
     :::image type="complex" source="images/praise-set-reminder-in-settings.png" alt-text="Screenshot that shows Praise reminder settings on the Settings page.":::
          Screenshot of the Praise section of the Viva Insights app Settings page. There are three subsections. The first subsection is titled, "Reminder," and it contains an on and off toggle. The second section labeled, "Days of the week," and it contains all seven days of the week, arranged horizontally with checkmarks that the user can select. The third section is labeled,"Notification time," and it has a dropdown menu that's prefilled with "4:00 PM." Beneath these subsections, there's a "Save changes" button.
     :::image-end:::
