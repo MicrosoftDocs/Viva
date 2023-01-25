@@ -1,6 +1,6 @@
 ---
 title: "Rewards and recognition in Viva Engage"
-description: "Viva Engage offers rewards and recognition to people who help out their colleis a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
+description: "Viva Engage offers rewards and recognition to people who help out their colleagues by asking and answering questions."
 ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
