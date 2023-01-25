@@ -38,7 +38,7 @@ The users who have not been assigned the Viva Engage Knowledge service plan will
 Answers will be enabled by default for customers that meet the following technical requirements:   
 
 1) **Migrate the Yammer network to Native Mode**
-[Native Mode](https://learn.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) is a state of a Yammer network where all users are in Azure AD, all communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This ensures that we can appropriately apply topic permissions and management. Access [Guide to migrate](https://learn.microsoft.com/yammer/configure-your-yammer-network/native-mode-step-by-step-guide)the network to Native Mode.  
+[Native Mode](https://learn.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) is a state of a Yammer network where all users are in Azure AD, all communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This ensures that we can appropriately apply topic permissions and management. Access the [guide to migrate](https://learn.microsoft.com/yammer/configure-your-yammer-network/native-mode-step-by-step-guide) the network to Native Mode.
 
 2) **Migrate Yammer Topics to Viva Topics**
 
