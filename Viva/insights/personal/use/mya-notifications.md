@@ -122,11 +122,9 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 *Applies to: users with a premium Viva Insights license*
 
-When you get a meeting invitation, you might notice a suggestion to book meeting prep time. 
+When you get a meeting invitation, you might notice a suggestion to book meeting prep time.
 
-:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-time2.png" alt-text="Screenshot of the Book meeting prep time insight.":::
-   Screenshot that shows an insight above the Outlook meeting invitation composer that says, 'Book prep time before this meeting to work on related documents and tasks?'. There are two links: 'Book prep time' and 'Dismiss this message.'
-:::image-end:::
+:::image type="content" source="../../Images/MyA/Use/oai-meeting-prep-time2-small.png" alt-text="Meeting prep time insight within a meeting invitation, with the buttons Accept and book time and Feedback." lightbox="../../Images/MyA/Use/oai-meeting-prep-time2.png":::
 
 Viva Insights suggests booking time to prepare for meetings—like reviewing documents and completing related tasks—when these conditions are met:
 
