@@ -124,7 +124,7 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 When you get a meeting invitation, you might notice a suggestion to book meeting prep time.
 
-:::image type="content" source="../../Images/MyA/Use/oai-meeting-prep-time2-small.png" alt-text="Meeting prep time insight within a meeting invitation, with the buttons Accept and book time and Feedback." lightbox="../../Images/MyA/Use/oai-meeting-prep-time2.png":::
+:::image type="content" source="../../Images/MyA/Use/oai-meeting-prep-time-small.png" alt-text="Meeting prep time insight within a meeting invitation, with the buttons Accept and book time and Feedback." lightbox="../../Images/MyA/Use/oai-meeting-prep-time2.png":::
 
 Viva Insights suggests booking time to prepare for meetings—like reviewing documents and completing related tasks—when these conditions are met:
 
