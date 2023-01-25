@@ -57,6 +57,15 @@ landingContent:
             url: viva-leadership-communications.md
 
   # Card
+  - title: Run a healthy OKR program with Viva Goals
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Write OKRs Overview
+            url: write-okrs-overview.md
+ 
+
+  # Card
   - title: Solve common business problems with accelerators
     linkLists:
       - linkListType: how-to-guide
