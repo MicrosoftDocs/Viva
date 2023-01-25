@@ -32,7 +32,7 @@ In this article, you will learn:
 - A simple framework for crafting OKRs quickly and easily
 
 > [!NOTE]
-> **Mindset:** Before we get started, a quick reminder that writing OKRs is an iterative process ... the more you write, the better you will become. That’s why we strongly urge focusing on progress over perfection.
+> **Mindset:** Before we get started, a quick reminder that writing OKRs is an iterative process—the more you write, the better you will become. That’s why we strongly urge focusing on progress over perfection.
 > 
 > If you already have some basic strategic goals set for your company, it’s far more important to make initial progress, enter those into the system, and build on them, rather than get hung up trying to craft the perfect metric. So for now, keep it simple and have some fun. 
 
@@ -61,9 +61,9 @@ Lastly, Initiatives are actions that help the team achieve outcomes. They are fo
 > [!IMPORTANT]
 > When thinking about Key Results vs. Initiatives:
 > 
-> - Key Results are outcomes -- the level of performance or achievement you're trying to reach -- the outcome you want to happen.  
+> - Key Results are outcomes—the level of performance or achievement you're trying to reach—the outcome you want to happen.  
 > 
-> - Initiatives are outputs -- the list of activities you're performing to get there -- the output to make those things happen.
+> - Initiatives are outputs—the list of activities you're performing to get there—the output to make those things happen.
 
 ## Common pitfalls
 
