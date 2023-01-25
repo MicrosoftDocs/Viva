@@ -1,5 +1,5 @@
 ---
-title: "Turn off Viva Engage access for Office 365 users"
+title: "Turn off Viva Engage access for Microsoft 365 users"
 f1.keywords:
 - NOCSH
 ms.author: v-njeremy
@@ -17,31 +17,31 @@ search.appverid:
 - MED150
 - MBS150
 ms.assetid: 1f79bfad-f713-4143-aa5d-5584985ce53a
-description: "Disable Viva Engage for your Office 365 users"
+description: "Disable Viva Engage for your Microsoft 365 users"
 ---
 
-# Turn off Viva Engage access for Office 365 users
+# Turn off Viva Engage access for Microsoft 365 users
 
-Viva Engage is included in most Office 365 subscriptions. You can disable **Viva Engage** for individual users, or for all users in your tenant. To keep your users from accessing Viva Engage, you have to first turn off their ability to sign in to Viva Engage with Viva Engage credentials, and then disable the Viva Engage service in their license. 
+Viva Engage is included in most Microsoft 365 subscriptions. You can disable **Viva Engage** for individual users, or for all users in your tenant. To keep your users from accessing Viva Engage, you have to first turn off their ability to sign in to Viva Engage with Viva Engage credentials, and then disable the Viva Engage service in their license. 
   
-## Enforce Office 365 Identity in Viva Engage
+## Enforce Microsoft 365 Identity in Viva Engage
 
-For detailed information about enforcing Office 365 identity in Viva Engage and PowerShell steps, see [Start blocking users who don't have Yammer licenses](manage-yammer-licenses-in-office-365.md#StartBlocking).
+For detailed information about enforcing Microsoft 365 identity in Viva Engage and PowerShell steps, see [Start blocking users who don't have Viva Engage licenses](manage-yammer-licenses-in-office-365.md#StartBlocking).
   
-1. In Viva Engage, select Viva Engage settings ![Yammer settings icon.](../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png), click **Network Admin**, and then click **Security Settings**.
+1. In Viva Engage, select Viva Engage settings ![Viva Engage settings icon.](../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png), click **Network Admin**, and then click **Security Settings**.
     
-2. In the Security Settings page, go to the **Enforce Office 365 Identity** section, select the **Enforce Office 365 identity** checkbox and confirm the selection in the dialog that opens, and then choose **Save**. Enforcing Office 365 identity is a prerequisite step to block users without Viva Engage licenses.
+2. In the Security Settings page, go to the **Enforce Microsoft 365 Identity** section, select the **Enforce Microsoft 365 identity** checkbox and confirm the selection in the dialog that opens, and then choose **Save**. Enforcing Microsoft 365 identity is a prerequisite step to block users without Viva Engage licenses.
     
-3. After the **Enforce Office 365 identity** checkbox is selected, the **Block Office 365 users without Viva Engage licenses** checkbox will be available. Select the **Block Office 365 users without VIva Engage licenses** checkbox, confirm the selection by selecting **Yes, I am ready**. You can also optionally log out all users to force them to sign in with Office 365 credentials, and then click **Save**.
+3. After the **Enforce Microsoft 365 identity** checkbox is selected, the **Block Microsoft 365 users without Viva Engage licenses** checkbox will be available. Select the **Block Microsoft 365 users without VIva Engage licenses** checkbox, confirm the selection by selecting **Yes, I am ready**. You can also optionally log out all users to force them to sign in with Microsoft 365 credentials, and then click **Save**.
     
-    ![Screenshot of Block Office 365 users without Yammer licenses checkbox in Yammer Security Settings.](../media/b29af1f2-cc46-42da-88d9-a9c4fc0ab1be.png)
+    ![Screenshot of Block Microsoft 365 users without Viva licenses checkbox in Yammer Security Settings.](../media/b29af1f2-cc46-42da-88d9-a9c4fc0ab1be.png)
   
 > [!IMPORTANT]
-> This step is necessary, because if Office 365 sign-in is not enforced, users can still sign in with their Yammer credentials, if they have them. 
+> This step is necessary, because if Microsoft 365 sign-in is not enforced, users can still sign in with their Yammer credentials, if they have them. 
   
-## Disable Viva Engage in your Office 365 tenant
+## Disable Viva Engage in your Microsoft 365 tenant
 
-1. Sign in to Office 365 with your work or school account. 
+1. Sign in to Microsoft 365 with your work or school account. 
     
 2. Go to the Microsoft 365 admin center.
     
@@ -55,26 +55,26 @@ For detailed information about enforcing Office 365 identity in Viva Engage and 
     
     ![Screenshot showing action of edit product licenses.](../media/db72b175-4ee3-4409-adc0-420b17bc7733.jpg)
   
-6. Expand the product license (Office 365 Business Premium in the following example) and turn the slider for Viva Engage to **Off** position. 
+6. Expand the product license (Microsoft 365 Business Premium in the following example) and turn the slider for Viva Engage to **Off** position. 
     
     ![Screenshot of Yammer license turned to off position.](../media/f38e450f-7aea-4db8-9837-7428615acf09.jpg)
   
 7. Repeat the steps for each user you want to disable Viva Engage for.
     
-## Use PowerShell to disable Viva Engage in your Office 365 tenant
+## Use PowerShell to disable Viva Engage in your Microsoft 365 tenant
 
 You can also automate this task by using PowerShell.
   
-1. Before you start, follow the instructions in [Enforce office 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md) article to make sure your users sign in to Viva Engage with their Office 365 credentials. 
+1. Before you start, follow the instructions in [Enforce Microsoft 365 identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md) article to make sure your users sign in to Viva Engage with their Microsoft 365 credentials. 
     
     > [!IMPORTANT]
-    > This step is necessary, because if Office 365 sign-in is not enforced, users can still sign in with their Viva Engage credentials, if they have them. 
+    > This step is necessary, because if Microsoft 365 sign-in is not enforced, users can still sign in with their Viva Engage credentials, if they have them. 
   
-2. See [View account license and service details with Office 365 PowerShell](/microsoft-365/enterprise/view-account-license-and-service-details-with-microsoft-365-powershell) to list what a user's license includes, and the actual names used for each service within the license. For example, it is YAMMER_ENTERPRISE for Yammer in most Office 365 plans. 
+2. See [View account license and service details with Microsoft 365 PowerShell](/microsoft-365/enterprise/view-account-license-and-service-details-with-microsoft-365-powershell) to list what a user's license includes, and the actual names used for each service within the license. For example, it is YAMMER_ENTERPRISE for Yammer in most Microsoft 365 plans. 
     
     The PowerShell for listing service details for all users in a tenant is also included.
     
-3. See [Disable access to services with Office 365 PowerShell](/microsoft-365/enterprise/disable-access-to-services-with-microsoft-365-powershell) for detailed instructions for how to disable services, including Viva Engage, for one, or many users. 
+3. See [Disable access to services with Microsoft 365 PowerShell](/microsoft-365/enterprise/disable-access-to-services-with-microsoft-365-powershell) for detailed instructions for how to disable services, including Viva Engage, for one, or many users. 
     
 ## Related articles
 

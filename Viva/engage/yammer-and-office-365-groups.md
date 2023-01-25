@@ -35,7 +35,7 @@ Microsoft 365 connected groups have many advantages over non-connected Viva Enga
 
 - Access Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner, from within Viva Engage. Also includes integration with Power BI and Stream.
 - Create and host live events ([Live events in Yammer](../manage-yammer-groups/yammer-live-events.md))
-- Use Office 365 connectors to add apps to classic Yammer ([Add apps to Yammer](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
+- Use Microsoft 365 connectors to add apps to classic Yammer ([Add apps to Yammer](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
 - Manage who can create Microsoft 365 groups ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
 - Use dynamic groups to automatically update group membership from Azure Active Directory ([Create a dynamic group](../manage-yammer-groups/create-a-dynamic-group.md))
 - Edit group membership from various apps. Changes to membership made in one Microsoft 365 app apply to other Microsoft 365 apps.
@@ -50,7 +50,7 @@ Microsoft 365 connected groups have many advantages over non-connected Viva Enga
 
 To use Microsoft 365 connected groups in Viva Engage, make sure your Viva Engage network meets the following requirements:
 
-- You must [enforce Office 365 identity](../configure-your-yammer-network/enforce-office-365-identity.md) for Yammer users. When you first enforce Office 365 identity there is a seven-day trial period, after which the **Status** of your  **Office 365 Identity Enforcement** changes to **Committed**.
+- You must [enforce Microsoft 365 identity](../configure-your-yammer-network/enforce-office-365-identity.md) for Yammer users. When you first enforce Microsoft 365 identity there is a seven-day trial period, after which the **Status** of your  **Microsoft 365 Identity Enforcement** changes to **Committed**.
 
 - Since October 16, 2018, all Yammer networks must be in a 1:1 network configuration. This means you have one Yammer network that is associated with one Office 365 tenant. This is required as of October 16, 2018. For more information, see [FAQ: Consolidating multiple Yammer networks](../configure-your-yammer-network/faq-consolidate-multiple-yammer-networks.md).
 
@@ -59,7 +59,7 @@ To use Microsoft 365 connected groups in Viva Engage, make sure your Viva Engage
 
 Here's how the process works after your network becomes eligible for connected groups:
 
-- About 24 hours after the **Status** in **Office 365 Identity Enforcement** changes to **Committed**:
+- About 24 hours after the **Status** in **Microsoft 365 Identity Enforcement** changes to **Committed**:
     - In the **Microsoft 365 (previously known as Office 365) Connected Viva Engage Groups** section, the **Status** for your network will change to **Enabled**.
 
     - Any new groups created in Viva Engage that are eligible will automatically be created as Microsoft 365 connected groups.  
@@ -123,7 +123,7 @@ A: No. Groups created by people who you have restricted from creating Microsoft 
   
 ### Q: If I have multiple Viva Engage networks that are mapped to Microsoft 365, will the Microsoft 365 connected Viva Engage groups work?
   
-A: No. The Microsoft 365 connected Viva Engage groups experience will work only for Office 365 tenant that is associated with a single Viva Engage network. See [Network migration: Consolidate multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md) for information on how to consolidate your Yammer networks. This  is required for all Yammer networks as of October 16, 2018.
+A: No. The Microsoft 365 connected Viva Engage groups experience will work only for Microsoft 365 tenant that is associated with a single Viva Engage network. See [Network migration: Consolidate multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md) for information on how to consolidate your Yammer networks. This  is required for all Yammer networks as of October 16, 2018.
   
 ### Q: I don't want my existing groups to get connected to Microsoft 365. Can I turn this off?
   

@@ -26,7 +26,7 @@ Existing Viva Engage networks are eligible to migrate to Native Mode, and admins
 In Native Mode, all Viva Engage users are in Azure Active Directory (Azure AD), all groups are Microsoft 365 groups, and all files are stored in SharePoint Online.
 
  > [!NOTE]
-> Native Mode is strongly recommended for reasons of security, compliance, and M365 integration.
+> Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration.
 
 A Viva Engage network must be in one of three modes:
 
@@ -36,9 +36,9 @@ A Viva Engage network must be in one of three modes:
   
   In this mode, users and admins can't add features that would take the network out of Native Mode.
 
-- **Non-Native Mode**. In this mode, the network doesn't meet one or more requirements. For example, the network might not enforce Microsoft 365 identity. All external networks and Viva Engage Basic networks are in this mode because they can't connect to Microsoft 365 or Office 365.
+- **Non-Native Mode**. In this mode, the network doesn't meet one or more requirements. For example, the network might not enforce Microsoft 365 identity. All external networks and Viva Engage Basic networks are in this mode because they can't connect to Microsoft 365.
 
-- **Hybrid Mode**. In this mode, users and groups might not be associated with their counterparts in Azure AD and Microsoft 365 or Office 365, and files might not be stored in SharePoint. The network might be in the process of meeting all requirements for Native Mode, but the admin hasn't committed the network to Native Mode.
+- **Hybrid Mode**. In this mode, users and groups might not be associated with their counterparts in Azure AD and Microsoft 365, and files might not be stored in SharePoint. The network might be in the process of meeting all requirements for Native Mode, but the admin hasn't committed the network to Native Mode.
 
 When you align your Viva Engage network in Native Mode, the [Native Mode Alignment Tool](./native-mode-step-by-step-guide.md) automates the process and guides you through the steps to get there. The Native Mode Alignment Tool prepares your network for Native Mode by:
 
@@ -95,4 +95,4 @@ When you align your Viva Engage network in Native Mode, the [Native Mode Alignme
 
 [Manage Yammer data compliance](../manage-security-and-compliance/manage-data-compliance.md)
 
-[Enforce Office 365 identity for Yammer users](enforce-office-365-identity.md)
+[Enforce Microsoft 365 identity for Yammer users](enforce-office-365-identity.md)

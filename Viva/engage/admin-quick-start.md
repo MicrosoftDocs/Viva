@@ -18,7 +18,7 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 4f924c74-87d2-49d0-a4f6-cba3ce2b0e7c
-description: "Activate Viva Engage Enterprise features to get additional administration, apps, integration, services and support features, and an integrated experience with Office 365."
+description: "Activate Viva Engage Enterprise features to get additional administration, apps, integration, services and support features, and an integrated experience with Microsoft 365."
 ---
 
 # Viva Engage admin quick start
@@ -29,7 +29,7 @@ If you're doing a quick trial of Viva Engage, you can experiment with the Viva E
 
 1. Go to the Viva Engage admin center.
     
-      - In Office 365, go to **Admin** \> **Viva Engage**.
+      - In Microsoft 365, go to **Admin** \> **Viva Engage**.
     
       - Or, in Viva Engage, click the Viva Engage settings icon ![Yammer settings icon.](../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png), and then click **Network Admin**.
     

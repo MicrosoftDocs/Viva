@@ -21,7 +21,7 @@ description: "Learn more about working with Azure Active Directory-B2B guests in
 
 The Viva Engage guests feature allows organizations to call in experts such as vendors, suppliers, or consultants from outside the organization to supercharge collaboration. Viva Engage networks aligned to native mode use the Azure Active Directory Business-Business (Azure AD-B2B) guest framework to power guests. Azure Active Directory (Azure AD)-B2B is a secure, compliant external collaboration framework used by many apps in the Microsoft 365 suite like Microsoft SharePoint, Microsoft Outlook, and Microsoft Teams. 
 
-Any Microsoft 365 user who is not part of your organization can be added as guest to a Viva Engage community by a Community admin.  AzureAD-B2B guests in Viva Engage communities are covered by the same compliance and auditing protection as the rest of Microsoft 365, and can be managed within Azure AD. Guest access is subject to Azure AD and Microsoft 365 or Office 365 service limits.
+Any Microsoft 365 user who is not part of your organization can be added as guest to a Viva Engage community by a Community admin.  AzureAD-B2B guests in Viva Engage communities are covered by the same compliance and auditing protection as the rest of Microsoft 365, and can be managed within Azure AD. Guest access is subject to Azure AD and Microsoft 365 service limits.
 
 
 ## Pre-requisites for adding an external user as AzureAD-B2B guest to a Viva Engage community
