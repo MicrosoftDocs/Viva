@@ -62,15 +62,16 @@ Deciding who should be assigned roles will partly depend on how much access you 
 
 For example, you might want to give someone site owner permissions so they can create and manage your Viva Connections dashboard. This person would also be able to manage permissions for that site, edit the home page and other pages, delete pages and other site contents, and more.
 
-To help you decide who should be assigned which roles, here are overviews of roles for each app and what they do in Viva.<br><br>
-[Topics](/viva/microsoft-viva-admin-roles#viva-topics)<br>
-[Connections](/viva/microsoft-viva-admin-roles#viva-connections)<br>
-[Learning](/viva/microsoft-viva-admin-roles#viva-learning)<br>
-[Insights](/viva/microsoft-viva-admin-roles#viva-insights)<br>
-[Goals](/viva/microsoft-viva-admin-roles#viva-goals)<br>
-[Engage](/viva/microsoft-viva-admin-roles#viva-engage)<br>
-[Sales](/viva/microsoft-viva-admin-roles#viva-sales)
+To help you decide who should be assigned which roles, here are the overviews of roles for each app and what they do in Viva.<br><br>
+Jump to a section:
 
+[Viva Topics](/viva/microsoft-viva-admin-roles#viva-topics)<br>
+[Viva Connections](/viva/microsoft-viva-admin-roles#viva-connections)<br>
+[Viva Learning](/viva/microsoft-viva-admin-roles#viva-learning)<br>
+[Viva Insights](/viva/microsoft-viva-admin-roles#viva-insights)<br>
+[Viva Goals](/viva/microsoft-viva-admin-roles#viva-goals)<br>
+[Viva Engage](/viva/microsoft-viva-admin-roles#viva-engage)<br>
+[Viva Sales](/viva/microsoft-viva-admin-roles#viva-sales)
 
 #### Viva Topics
 
@@ -117,10 +118,10 @@ In Viva Insights, you can assign multiple roles to one person. For example, one 
 
 | Role         | What this role does in Viva
 |--------------|-----------|
-|**Insights administrator** <br>Assigned by Microsoft 365 global admin|Has access to the administrator experience in the advanced insights app, which consists of these pages: Organizational data management, Privacy settings, and Manager settings.<br><br>Responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data for Viva Insights.<br><br>While the Insights admin has access to organizational data, they do not have access to Microsoft 365 data.
+|**Insights Administrator** <br>Assigned by Microsoft 365 global admin|Has access to the administrator experience in the advanced insights app, which consists of these pages: Organizational data management, Privacy settings, and Manager settings.<br><br>Responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data for Viva Insights.<br><br>While the Insights admin has access to organizational data, they do not have access to Microsoft 365 data.
 |**Insights Business Leader** <br>Assigned by Microsoft 365 global admin|Insights Business Leaders can see organizational insights on the Organization trends page within the Viva Insights app.
 |**Insights Analyst**<br>Assigned by Microsoft 365 global admin|Has access to the analyst experience in the advanced insights app, which includes the ability to run custom and Power BI queries, view query results, and view the quality of organizational data.
-|**People Manager**<br> Access enabled by Insights administrator|Can view organization trends in the Viva Insights app in Teams and on the web.<br>
+|**People manager**<br> Access enabled by Insights administrator through the Manager settings page in the advanced insights app|Can view organization trends in the Viva Insights app in Teams and on the web.<br>
 
 For more information on all the roles in Viva Insights see [Roles in Viva Insights](/viva/insights/advanced/setup-maint/user-roles).
 
