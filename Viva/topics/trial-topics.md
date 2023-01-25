@@ -38,7 +38,8 @@ Trials are publicly available from one of the following sources. These trials of
 You must be a Microsoft 365 global administrator or billing administrator to activate a trial.
 
 > [!NOTE]
-> Public trials can only be added once for each Microsoft 365 tenant.
+- Public trials can only be added once for each Microsoft 365 tenant.
+- Trials aren’t available for development or educational licenses. 
 
 ### Who should be involved in a trial
 
