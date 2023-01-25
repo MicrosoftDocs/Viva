@@ -22,7 +22,7 @@ The following administrator settings are available:
 
 ## Prerequisites
 
-- Administrators must have the latest version of the Viva Sales app in Teams. Most app updates happen automatically in Teams, but administrator settings requires new permissions and needs manual acceptance of the update. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
+- Administrators must have the latest version of the Viva Sales app in Teams. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 - Administrator must sign in to Viva Sales in Outlook.
     1. [Launch Viva Sales from Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081).
     2. On the **Welcome to Viva Sales!** screen, select **Sign in to get started**, and then select your CRM and environment to use. 
