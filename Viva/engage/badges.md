@@ -28,9 +28,9 @@ The Viva Engage **Rewards and recognition** feature helps to motivate employees 
 Users may earn five types of badges based on votes from their fellow employees:
 
 - **Best Answer**: the user's answer is marked as the Best Answer
-- **Seeker level 1**: the user's question receives 3 upvotes
+- **Seeker level 1**: the user's question receives three upvotes
 - **Seeker level 2**: the user's question receives 10 upvotes
-- **Scholar level 1**: the user's answer receives 3 upvotes
+- **Scholar level 1**: the user's answer receives three upvotes
 - **Scholar level 2**: the user's answer receives 10 upvotes
 
 ## Rewards and recognition in Viva Engage
@@ -39,19 +39,19 @@ Once assigned the Viva Engage Knowledge service plan, O365 (Global) admin and En
 
 To set up Rewards and recognition for your organization, navigate to the **Feature management** tab in the Engage admin center, then select **Rewards and recognition**.
 
-![Image of the interface for Rewards and recognition in the Engage admin center.](/Viva/media/netnew/badges-eac.png)
+[![Image of the interface for Rewards and recognition in the Engage admin center.](/Viva/media/netnew/badges-eac.png)](/Viva/media/netnew/badges-eac.png#lightbox)
 
 Once redirected, the O365 (Global) and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**.
 
-![Image of the interface for Answers badges settings in the Engage admin center.](/Viva/media/netnew/bagdes-settings.png)
+[![Image of the interface for Answers badges settings in the Engage admin center.](/Viva/media/netnew/bagdes-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
 
 - **Disabled**: Data that was being collected for all users will be deleted and no further data will be collected for any users. The badges will be deleted as well.
     - If the admin doesn't wish to collect any badges data, it's recommended that they disable badges immediately after purchasing the product.
-- **On**: Ssers can start earning and collecting badges. The badges are visible to anyone who has a Viva Engage Knowledge service plan and who is part of the organization.
+- **On**: Users can start earning and collecting badges. The badges are visible to anyone who has a Viva Engage Knowledge service plan and who is part of the organization.
     - **User preference**: If the admin chooses to turn on Answers badges, they'll have the option to allow users to turn off badges for themselves. When the user opts out, any data that was being collected will be deleted and no further data will be collected. The user’s badges will be deleted but they'll still be able to see others’ badges.
         - To opt out of Answers badges, the user will see an ellipses button on the right of their Achievements and awards page, which will allow them to turn off badges.
 
-![Image of the interface for users to turn off Answers badges.](/Viva/media/netnew/badges-turn-off.png)
+[![Image of the interface for users to turn off Answers badges.](/Viva/media/netnew/badges-turn-off.png)](/Viva/media/netnew/badges-turn-off.png#lightbox)
 
 >[!NOTE]
 > This feature is on by default except for customers with Finland billing addresses and the organizations that use the education license.
