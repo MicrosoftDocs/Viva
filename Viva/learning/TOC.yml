@@ -24,6 +24,8 @@
           href: use-tabs.md
         - name: Creating Learning paths in Viva Learning
           href: creating-learning-paths.md
+        - name: Create collections in Viva Learning
+          href: creating-learning-collections.md
         - name: Add SharePoint
           href: configure-sharepoint-content-source.md
           items:
