@@ -43,7 +43,7 @@ To set up Rewards and recognition for your organization, navigate to the **Featu
 
 Once redirected, the O365 (Global) and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**.
 
-[![Image of the interface for Answers badges settings in the Engage admin center.](/Viva/media/netnew/bagdes-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
+[![Image of the interface for Answers badges settings in the Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
 
 - **Disabled**: Data that was being collected for all users will be deleted and no further data will be collected for any users. The badges will be deleted as well.
     - If the admin doesn't wish to collect any badges data, it's recommended that they disable badges immediately after purchasing the product.
