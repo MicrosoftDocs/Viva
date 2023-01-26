@@ -1,6 +1,6 @@
 ---
-title: Effective meetings in Viva Insights  
-description: Learn how to create effective meetings with Microsoft Viva Insights
+title: Schedule send suggestions in Teams chat 
+description: Learn how Viva Insights helps you send messages to your coworkers during their working hours
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
