@@ -137,6 +137,8 @@ items:
         items:
         - name: Organization insights
           href: org-team-insights/org-insights.md
+        - name: Organization insights FAQ
+          href: org-team-insights/org-insights-faqs.md  
         - name: Team insights 
           href: org-team-insights/team-insights.md
       - name: Advanced insights
