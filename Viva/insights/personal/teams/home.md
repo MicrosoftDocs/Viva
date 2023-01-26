@@ -40,7 +40,7 @@ In the Microsoft Viva Insights app, use the **Home** tab to discover key wellbei
 * [Mediate](headspace.md) or do a breathing exercise.
 * [Reflect](reflect.md) on the day.
 
-:::image type="complex" source="./images/home-ic4.png" alt-text="Screenshot that shows the Viva Insights Home tab's Recommended for you section.":::
+:::image type="complex" source="./images/home-ic4.png" alt-text="Screenshot that shows the Viva Insights Home tab's Recommended for you section."lightbox="./images/home-ic4-expanded.png":::
    Screenshot of the Recommended for you section of the Viva Insights Home tab. The section includes various available plans and activities the user can set up by selecting their action button, including scheduling a no meeting day, setting up quiet time, and starting a shared focus plan.
 :::image-end:::
 
