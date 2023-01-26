@@ -59,7 +59,7 @@ You won't get suggestions in the following scenarios:
        Screenshot of a scheduled chat message that hasn't been sent yet. Smaller text above the drafted message, within the text-input field, reports which day and time the message will be sent. There's a window above the text-input box. In the top section of the window, there are two dropdown menus: one has "Thursday, October 13" filled in; the other has "8:00 AM" filled in. Both have arrows users can select to set a new value. Beneath these dropdown menus, there are three buttons: "Send at scheduled time," "Cancel scheduled time," and "Close." The send icon has a small clock icon within it.
     :::image-end:::
 
-1. Select the **Send** icon to send your scheduled message. Viva Insights will automatically deliver your chat message at the scheduled date and time. 
+1. Select either the **Send at scheduled time** button on the confirmation window or the chat's **Send** icon to send your scheduled message. Viva Insights will automatically deliver your chat message at the scheduled date and time. 
 
     :::image type="complex" source="./images/teams-schedule-send-sending.png" alt-text="Screenshot that shows a sent scheduled chat message.":::
        Screenshot of a chat message that's been sent but hasn't been delivered. The message appears beneath other sent messages, but has small text above the message content that says which day and time it's sending.
