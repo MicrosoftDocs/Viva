@@ -46,15 +46,15 @@ The table below shows the range of actions available to Engage admin and Global 
 > [!div class="mx-tdBreakAll"]
 > |**Permissions - Roles in consideration: Engage admin and Global admin**|**M365/O365 customer with Viva Engage seeded**|**Microsoft Viva suite customer**|
 > |-------------|----------|---------|---------|
-> |**Manage corporate communicators** <br>
-- Assign user(s) as a corporate communicator <br>
+> |**Manage corporate communicators**
+- Assign user(s) as a corporate communicator
 - Remove user(s) as a corporate communicator|✓|✓|
 > |**Manage tenant and user permissions (through Yammer)**|✓|✓|
-> |**Manage data and compliance** <br>
-- Manage network and user data <br>
+> |**Manage data and compliance** 
+- Manage network and user data 
 - **GDPR** delete|✓|✓|
-> |**Manage leaders and their audiences** <br>
-- Assign leaders in your organization <br>
+> |**Manage leaders and their audiences** 
+- Assign leaders in your organization 
 - **Identify audiences for the leaders identified**|✓|✓|
 > |**Configure stories and storylines** <br>
 - Enable storylines and stories for your organization <br>
