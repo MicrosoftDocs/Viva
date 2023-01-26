@@ -24,22 +24,23 @@ search.appverid:
 ## Licensing 
 
 **Premium experience**
+
 Admin users with access to Viva Engage through Microsoft Viva in Microsoft 365, Microsoft Viva Suite, Viva Topics licensing, or existing Yammer service plans will see the Admin Center within Viva Engage Teams app.  
 
 To have access to the premium features, the user will need a license to the Viva Engage Communities and Communications service plan.  
 
 **Seeded experiences: Viva Engage and Answers**
 
-Anyone who is using Yammer or accesses Yammer in your tenant today will have access to the Engage seeded experiences, including the Answers seeded experience. 
+Anyone who is using Yammer or currently accesses Yammer in your tenant will have access to the Engage seeded experiences, including the Answers seeded experience.
 
-If you are enforcing Yammer licensing in your tenant, you will need to have a Yammer license or a Viva Engage Core license to access seeded experiences. 
+If you are enforcing Yammer licensing in your tenant, you'll need a Yammer license or a Viva Engage Core license to access seeded experiences.
 
 > [!div class="mx-tdBreakAll"]
 > |**Service plan**|**Enables**|**Comes with (SKUs)**|
 > |-------------|----------|---------|---------|
-> |**Viva Engage Core**|Engage seeded experiences, including the Answers seeded experiences Example: Communities, Storyline|M365 / O365|
-> |**Viva Engage Communities and Communications**|Engage premium experiences (Leadership & Comms) Examples: Leadership Corner, AMA, Storyline Announcements |Viva Suite|
-> |**Viva Engage Knowledge**|Answers premium experience |Viva Suite, Viva Topics|
+> |**Viva Engage Core**|Engage seeded experiences, including the Answers seeded <br> experiences <br> Example: Communities, Storyline|M365 / O365|
+> |**Viva Engage Communities** <br> **and Communications**|Engage premium experiences (Leadership & Comms) <br> Examples: Leadership Corner, AMA, Storyline Announcements |Viva Suite|
+> |**Viva Engage Knowledge**|Answers premium experience |Viva Suite, <br> Viva Topics|
 
 ## Set up Viva Engage
 Use the Microsoft 365 admin center to set up and manage settings for Viva Engage.  
@@ -49,11 +50,12 @@ The configurations include:
 - Pin Engage in Teams  
 - Manage additional settings in Viva Engage (links to the Engage admin center within the Teams app) 
 
-< Image of this experience >
+< Image of the Setup experience in MAC >
 
 Through this experience, the admin can view the optional and required configurations (in the priority column) for setting up Viva Engage.  
 
-For more information, see [the Microsoft Viva admin experience](https://learn.microsoft.com/viva/new-microsoft-viva-admin-experience).
+For more information, see [the Microsoft Viva admin experience](/viva/new-microsoft-viva-admin-experience).
 
 ## See also 
-[Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
+
+[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)
