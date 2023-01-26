@@ -28,26 +28,23 @@ A selection of courses are available from LinkedIn Learning for free. This means
 
 ### Business courses
 
-|Title A-K |Title L-Z |
+|Title A-H |Title I-Z |
 |-----------|-----------|
-|Balancing Work and Life as a Work-from-Home Parent |Leading Remote Projects and Virtual Teams |
-|Bill George on Self Awareness, Authenticity, and Leadership |Managing Projects with Microsoft Teams |
-|Building Relationships While Working from Home |Microsoft Teams Tips and Tricks |
-|Building Self-Confidence | |
-|Communicating Nonverbally |Nir Eyal on Creating Habit-Forming Products |
-|Communicating with Charisma |Online Searching Tips and Tricks |
-|Communication within Teams |Organizing Your Remote Office for Maximum Productivity |
-|Defining and Achieving Professional Goals |PowerPoint: Animating Text and Objects for Beginners |
+|Balancing Work and Life as a Work-from-Home Parent |Inclusive Leadership |
+|Bill George on Self Awareness|iOS 14 and iPadOS: iPhone and iPad Essential Training |
+|Building Relationships While Working from Home |Jodi Glickman on Make 'Em Love You at Work |
+|Building Self-Confidence |Leading Remote Projects and Virtual Teams |
+|Communicating Nonverbally |Microsoft Teams Tips and Tricks |
+|Communicating with Charisma |Nir Eyal on Creating Habit-Forming Products |
+|Communication within Teams |Online Searching Tips and Tricks |
+|Defining and Achieving Professional Goals |Organizing Your Remote Office for Maximum Productivity |
 |Difficult Conversations: Talking About Race at Work |Privacy in the New World of Work |
-|Digital Strategy |Python Code Challenges |
-|Excel Quick Tips |Shane Snow on Dream Teams |
-|Excel: You Can Do This |Skills for Inclusive Conversations |
-|Find a Job in the Hidden Job Market |Team Collaboration in Office 365 (Microsoft 365) |
-|Gretchen Rubin on Creating Great Workplace Habits |Teamwork Foundations |
-|How to be an Adaptable Employee During Change and Uncertainty |Time Management Tips |
-|Inclusive Leadership |Travel Hacks: Staying Productive on the Road |
-|iOS 14 and iPadOS: iPhone and iPad Essential Training |Windows Quick Tips |
-|Jodi Glickman on Make 'Em Love You at Work |Word Quick Tips |
+|Digital Strategy |Skills for Inclusive Conversations |
+|Excel Quick Tips |Team Collaboration in Microsoft 365 |
+|Excel: You Can Do This |Teamwork Foundations |
+|Find a Job in the Hidden Job Market |Time Management Tips |
+|Gretchen Rubin on Creating Great Workplace Habits |Travel Hacks: Staying Productive on the Road |
+|How to be an Adaptable Employee During Change and Uncertainty |Windows Quick Tips |
 
 ### Creative courses
 
