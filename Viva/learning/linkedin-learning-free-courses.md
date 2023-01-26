@@ -34,7 +34,6 @@ A selection of courses are available from LinkedIn Learning for free. This means
 |Bill George on Self Awareness, Authenticity, and Leadership |Managing Projects with Microsoft Teams |
 |Building Relationships While Working from Home |Microsoft Teams Tips and Tricks |
 |Building Self-Confidence | |
-| |Microsoft Viva First Look |
 |Communicating Nonverbally |Nir Eyal on Creating Habit-Forming Products |
 |Communicating with Charisma |Online Searching Tips and Tricks |
 |Communication within Teams |Organizing Your Remote Office for Maximum Productivity |
