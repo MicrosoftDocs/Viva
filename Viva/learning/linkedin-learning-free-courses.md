@@ -34,7 +34,7 @@ A selection of courses are available from LinkedIn Learning for free. This means
 |Bill George on Self Awareness, Authenticity, and Leadership |Managing Projects with Microsoft Teams |
 |Building Relationships While Working from Home |Microsoft Teams Tips and Tricks |
 |Building Self-Confidence |Microsoft Viva Essential Training |
-|Common Meeting Problems |Microsoft Viva First Look |
+| |Microsoft Viva First Look |
 |Communicating Nonverbally |Nir Eyal on Creating Habit-Forming Products |
 |Communicating with Charisma |Online Searching Tips and Tricks |
 |Communication within Teams |Organizing Your Remote Office for Maximum Productivity |
@@ -45,9 +45,9 @@ A selection of courses are available from LinkedIn Learning for free. This means
 |Excel: You Can Do This |Skills for Inclusive Conversations |
 |Find a Job in the Hidden Job Market |Team Collaboration in Office 365 (Microsoft 365) |
 |Gretchen Rubin on Creating Great Workplace Habits |Teamwork Foundations |
-|How to be an Adaptable Employee During Change and Uncertainty] |Time Management Tips |
+|How to be an Adaptable Employee During Change and Uncertainty |Time Management Tips |
 |Inclusive Leadership |Travel Hacks: Staying Productive on the Road |
-|iOS and iPad OS: iPhone and iPad Essential Training |Windows Quick Tips |
+|iOS 14 and iPadOS: iPhone and iPad Essential Training |Windows Quick Tips |
 |Jodi Glickman on Make 'Em Love You at Work |Word Quick Tips |
 
 ### Creative courses
