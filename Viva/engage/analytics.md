@@ -26,16 +26,16 @@ Premium analytic capabilities in Viva Engage help licensed users monitor their o
 
 ## Access analytics
 
-Any user with access to premium Viva Engage will be able to access Engage Analytics and manage settings through the Engage admin center within the Viva Engage Teams app.
+Any user with access to premium Viva Engage will be able to access Engage Analytics through the analytics icon at the top of Viva Engage. Engage admin will be able to manage settings through the Engage admin center within the Viva Engage Teams app.
 
 >[!NOTE]
-> Any leader’s delegates or delegate managers have visibility into the leader’s audience and personal analytics.
+> Any leader’s delegates or delegate managers have visibility into the leader’s audience and personal analytics. A leader's audience must have at least 75% of users licensed in order for audience analytics to be visible.
 
 ## Manage analytics
 
 Global admins and Engage admins can configure, enable, and disable analytics features via the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Engage admin center and select **Manage analytics**.
 
-![Need image of Engage Admin Center for Anaytics ](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
+![Image of Engage Admin Center for managing Analytics.](/Viva/media/engage/manage-analytics.png)
 
 ![NEED image of Setup & Config > Manage analytics interface](/Viva/media/engage/campaigns/create-campaign-button.png)
 
@@ -86,6 +86,8 @@ Engage admins can choose to enable or disable the top content creator feature fo
 **How often are analytics updated?** Analytics refresh daily (every 24 hours). If you don’t see changes reflected right away, check analytics the next day. 
 
 **Where can users access Analytics from?** Analytics can be accessed from the right rail of your storyline page.
+
+**Why can't my leader/delegate see audience analytics?** A leader and their delegate must be licensed users in order to view audience analytics. Additionally, at least 75% of the leader's audience must have a premium license for audience analytics to be visible to the leader or their delegate(s).
 
 ## See also 
 Link to Campaigns admin documentation 
