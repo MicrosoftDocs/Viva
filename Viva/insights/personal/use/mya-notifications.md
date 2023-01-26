@@ -120,7 +120,10 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 ## Book time to prepare for meetings
 
-*Applies to: users with a premium Viva Insights license*
+*Applies to: users with Viva Insights subscription*
+
+>[!Note]
+>We're in the process of rolling out these changes to customers.
 
 When you get a meeting invitation, you might notice a suggestion to book meeting prep time.
 
@@ -146,7 +149,7 @@ Viva Insights suggests booking time to prepare for meetings—like reviewing doc
 
 When you select **Book time** in the suggestion, Viva Insights accepts the invite, opens the Outlook add-in pane, and prompts you to schedule your prep time. You'll pick from these options:
 
-:::image type="complex" source="../../Images/MyA/Use/oai-meeting-prep-pane.png" alt-text="Screenshot of the Book meeting prep time option in the Viva Insights Outlook add-in pane.":::
+:::image type="complex" source="../../Images/MyA/Use/oai-book-time.png" alt-text="Screenshot of the Book meeting prep time option in the Viva Insights Outlook add-in pane.":::
    Screenshot that shows the Viva Insights Outlook add-in pane with a summary of the meeting time and location. Three options, described in the article, appear under a button that says, 'Book 30 min one day before.' The cursor is hovering over 'End of the week, before the meeting' > '30 min.'
 :::image-end:::
 
@@ -161,7 +164,7 @@ When you select **Book time** in the suggestion, Viva Insights accepts the invit
 
 Based on the options you picked, Viva Insights searches for an empty spot on your calendar and schedules an appointment named "Preparation time for [Meeting name]." 
 
-:::image type="content" source="../../Images/MyA/Use/oai-meeting-prep-calendar.png" alt-text="Screenshot of a calendar that has an appointment named, 'Preparation time for Weekly design sync.'":::
+:::image type="content" source="../../Images/MyA/Use/oai-calendar2.png" alt-text="Screenshot of a calendar that has an appointment named, 'Preparation time for Weekly design sync.'":::
 
 ## Shorten a meeting
 

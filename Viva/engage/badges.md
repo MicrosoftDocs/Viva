@@ -62,7 +62,7 @@ Once redirected, the O365 (Global) and Engage admins will see three different op
 A license to the Viva Engage Knowledge service plan is required to start earning Answers badges and must be assigned by an admin. This service plan will be available by purchasing either the Viva Suite or Viva Topics SKUs.
  
 **What happens to users badges if the admin control is turned from on to disabled?**
-All the badges earned by users will be deleted and no data will be processed when the control of rewards and recognition is disabled. This means that the badges earned by users will be lost and they will not be able to get them back, unless they start earning them back again. 
+All badges earned by users will be deleted and no data will be processed when the control of rewards and recognition is disabled. This means that the badges earned by users will be lost and they will not be able to get them back, unless they start earning them back again. 
 
 
 ## See also 
