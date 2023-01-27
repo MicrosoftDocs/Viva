@@ -138,7 +138,6 @@ A selection of courses are available from LinkedIn Learning for free. This means
 |Microsoft Teams：ビデオ会議とライブイベント |Business |
 |Excel すぐに役立つ小ワザ集（365/2019) |Business |
 |PowerPointの便利技（Office 365/PowerPoint 2019) |Business |
-|デッサンの基礎：基本 |Creative |
 |Windows 10：インストール・展開・移行 |Tech |
 |プログラミングの基礎：基本 |Tech |
 
