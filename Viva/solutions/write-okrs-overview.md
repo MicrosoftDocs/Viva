@@ -194,9 +194,7 @@ Next, ask yourself, "Will accomplishing my Key Results be sufficient enough to a
 
 ## Enter OKRs into Viva Goals
 
-Now that you’ve seen the “why” around writing great OKRs, see the step-by-step process “how” to enter your OKRs into the Microsoft Viva Goals software platform: 
-
-[Create Objectives, Key Results, and Initiatives with Viva Goals ](https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-projects-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c)
+Now that you’ve seen the “why” around writing great OKRs, see the step-by-step process “how” to enter your OKRs into the Microsoft Viva Goals software platform: [Create Objectives, Key Results, and Initiatives with Viva Goals ](https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-projects-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c)
 
 ## Summary
 

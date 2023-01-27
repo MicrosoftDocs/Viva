@@ -59,10 +59,12 @@ landingContent:
   # Card
   - title: Run a healthy OKR program with Viva Goals
     linkLists:
-      - linkListType: how-to-guide
+      - linkListType: overview
         links:
           - text: Write OKRs Overview
             url: write-okrs-overview.md
+          - text: Align OKRs Overview
+            url: align-okrs-overview.md
  
 
   # Card
