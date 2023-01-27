@@ -64,7 +64,6 @@ A selection of courses are available from LinkedIn Learning for free. This means
 |Building a Home IT Lab |Office 365 for Administrators: Troubleshooting Issues for Users |
 |Building Your First iOS 13 App |Python: Programming Efficiently |
 |CSS: Advanced Layouts with Grid |Remote Collaboration for Developers with Microsoft Live Share |
-|Data Visualization Best Practices |SQL Code Challenges |
 |Design a Cloud Migration Strategy |Succeeding in Web Development: Full Stack and Front End |
 |DJ Patil: Ask Me Anything |Tech Sense |
 |GitHub Quick Tip |Technology and Design Ethics |
