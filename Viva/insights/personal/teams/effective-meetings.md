@@ -173,3 +173,4 @@ To configure meeting effectiveness surveys for your organization at the user or 
 ## Related topics
 
 [Microsoft Viva Insights overview](viva-teams-app.md)
+[Book preparation time for meetings](../use/mya-notifications.md#book-time-to-prepare-for-meetings)
