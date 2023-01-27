@@ -50,12 +50,11 @@ A selection of courses are available from LinkedIn Learning for free. This means
 
 |Title A-L |Title L-Z |
 |-----------|-----------|
-|Banish Your Inner Critic to Unleash Creativity |Learning Premiere Pro |
-|Getting Started in User Experience |Lightroom: Get Professional Results |
-|Illustrator Quick Start |Marketing to Humans |
-|iMovie 10.1.8 Essential Training |Photographing for Compositing in Photoshop |
-|Learning Audacity |Simple Photo Edits On Your Phone |
-|Learning Graphic Design: Presentations |Social Media Video for Business and Marketing |
+|Banish Your Inner Critic to Unleash Creativity |Lightroom: Get Professional Results |
+|Getting Started in User Experience |Photographing for Compositing in Photoshop |
+|iMovie 10.1.16 Essential Training |Simple Photo Edits On Your Phone |
+|Learning Audacity |Social Media Video for Business and Marketing |
+|Learning Premiere Pro | |
 
 ### Tech courses
 
