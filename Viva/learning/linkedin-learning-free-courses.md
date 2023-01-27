@@ -104,7 +104,6 @@ A selection of courses are available from LinkedIn Learning for free. This means
 |Diriger comme un patron |Business|
 |La transformation digitale pour les décideurs |Business|
 |Rendre ses présentations PowerPoint plus percutantes |Business|
-|La communication interpersonnelle |Business|
 |Les fondements du dessin |Creative |
 |Python pour la data science |Tech |
 |Les fondements de la sécurité informatique et de la cybersécurité |Tech |
