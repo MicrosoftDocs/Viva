@@ -76,7 +76,6 @@ A selection of courses are available from LinkedIn Learning for free. This means
 
 |Title |
 |-----------|
-|Learn LinkedIn Sales Navigator |
 |Learning LinkedIn Recruiter |
 |LinkedIn Quick Tips |
 |Rock Your LinkedIn Profile |
