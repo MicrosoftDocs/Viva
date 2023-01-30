@@ -154,7 +154,7 @@ The mini view includes a fixed title and two configurable subtitle fields. The f
 
 Changes made in the CRM are not reflected automatically in Viva Sales. You must select **Refresh** on the **Customize forms and fields** page to get the latest updates from the CRM.
 
-![Screenshot showing how to get latest changes from CRM.](media/viva-sales-refresh-crm.png "Screenshot showing how to get latest changes from CRM.")
+![Screenshot showing how to get latest changes from CRM.](media/viva-sales-crm-refresh.png "Screenshot showing how to get latest changes from CRM.")
 
 ### Why is delete disabled for some fields in the contact record?
 
