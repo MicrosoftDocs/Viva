@@ -46,13 +46,13 @@ By default, contacts are editable. For other records, you must turn on the optio
 
 2.  Select a record type for which you need to allow editing.
 
-    ![Screenshot showing Viva Sales Settings tab](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
+    ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
 
 3.  Turn on **Allow editing** to allow sellers to edit all relevant fields in that record type.
 
 4.  To restrict editing for specific fields, in the **Manage fields** section, and turn off **Allow editing** for corresponding fields.
 
-    ![Screenshot showing how to enable editing of records and fields in Viva Sales ](media/viva-sales-allow-edit.png "Screenshot showing how to enable editing of records and fields in Viva Sales.")
+    ![Screenshot showing how to enable editing of records and fields in Viva Sales.](media/viva-sales-allow-edit.png "Screenshot showing how to enable editing of records and fields in Viva Sales.")
 
 5.  Select **Publish** to save your changes.
 
@@ -68,7 +68,7 @@ You can control whether sellers can create contacts inline, directly in Viva Sal
 
 3.  Under **Allow editing**, select **Allow new contacts to be created directly from Viva Sales**.
 
-    ![Screenshot showing how to configure contact creation in Viva Sales ](media/viva-sales-inline-contact-create.png "Screenshot showing how to configure contact creation in Viva Sales.")
+    ![Screenshot showing how to configure contact creation in Viva Sales.](media/viva-sales-inline-contact-create.png "Screenshot showing how to configure contact creation in Viva Sales.")
 
 4.  Select **Publish** to save your changes.
 
@@ -78,7 +78,7 @@ To customize the detailed view of CRM records in Viva Sales, select fields to in
 
 You can add up to 40 out-of-the-box and custom fields to a record form.
 
-![Screenshot showing detailed view of CRM records in Viva Sales](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in Viva Sales.")
+![Screenshot showing detailed view of CRM records in Viva Sales.](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in Viva Sales.")
 
 ![Screenshot showing Adaptive card in Teams](media/viva-sales-contact-card.png "Screenshot showing Adaptive card in Teams.")
 
@@ -94,7 +94,7 @@ You can add up to 40 out-of-the-box and custom fields to a record form.
 
 3.  In the **Manage fields** section, select **Add fields**.
 
-    ![Screenshot showing how to add fields to a CRM record in Viva Sales ](media/viva-sales-add-fields.png "Screenshot showing how to add fields to a CRM record in Viva Sales.")
+    ![Screenshot showing how to add fields to a CRM record in Viva Sales.](media/viva-sales-add-fields.png "Screenshot showing how to add fields to a CRM record in Viva Sales.")
 
 4.  In the **Add fields** window, select fields to display in the form, and then select **Add**.
 
@@ -108,7 +108,7 @@ You can add up to 40 out-of-the-box and custom fields to a record form.
 
 2.  Select the record type from which you need to remove fields.
 
-3.  In the **Manage fields** section, hover over the field you want to remove from the form, and then select **Remove field** (![Delete icon](media/delete-icon.png "Delete icon")).
+3.  In the **Manage fields** section, hover over the field you want to remove from the form, and then select **Remove field** (![Delete icon.](media/delete-icon.png "Delete icon")).
 
 4.  Select **Publish** to save your changes.
 
@@ -118,7 +118,7 @@ You can add up to 40 out-of-the-box and custom fields to a record form.
 
 2.  Select the record type in which you need to reorder fields.
 
-3.  In the **Manage fields** section, hover over the field you want to reorder, and then select the **Move up** or **Move down** arrows (![Up arrow icon](media/up-arrow-icon.png "Up arrow icon") ![Down arrow icon](media/down-arrow-icon.png "Down arrow icon")).
+3.  In the **Manage fields** section, hover over the field you want to reorder, and then select the **Move up** or **Move down** arrows (![Up arrow icon.](media/up-arrow-icon.png "Up arrow icon") ![Down arrow icon.](media/down-arrow-icon.png "Down arrow icon")).
 
     You can also drag the field to change its order.
 
@@ -130,7 +130,7 @@ Each record type has a mini view that displays limited information when they're 
 
 The mini view includes a fixed title and two configurable subtitle fields. The fields available in the mini view are the ones that are available in the detailed view.
 
-![Screenshot showing mini view of CRM records in Viva Sales ](media/viva-sales-mini-view.png "Screenshot showing mini view of CRM records in Viva Sales.")
+![Screenshot showing mini view of CRM records in Viva Sales.](media/viva-sales-mini-view.png "Screenshot showing mini view of CRM records in Viva Sales.")
 
 > [!NOTE]
 > Mini view settings affect the results when sellers search for connected records in Dynamics 365. In Dynamics 365, the search behavior for connected records depends on the quick find view. Make sure that the fields you select for the mini view exist in the quick find view, otherwise, the search list won’t show them. In Salesforce, the search is performed on the name and the additional fields selected for the mini view.
@@ -143,7 +143,7 @@ The mini view includes a fixed title and two configurable subtitle fields. The f
 
 3.  In the **Key fields** section, select fields from the list.
 
-    ![Screenshot showing how to select key fields for mini view in Viva Sales ](media/viva-sales-key-fields.png "Screenshot showing how to select key fields for mini view in Viva Sales.")
+    ![Screenshot showing how to select key fields for mini view in Viva Sales.](media/viva-sales-key-fields.png "Screenshot showing how to select key fields for mini view in Viva Sales.")
 
 4.  Select **Publish** to save your changes.
 
@@ -154,7 +154,7 @@ The mini view includes a fixed title and two configurable subtitle fields. The f
 
 Changes made in the CRM are not reflected automatically in Viva Sales. You must select **Refresh** on the **Customize forms and fields** page to get the latest updates from the CRM.
 
-![Screenshot showing how to get latest changes from CRM ](media/viva-sales-refresh-CRM.png "Screenshot showing how to get latest changes from CRM.")
+![Screenshot showing how to get latest changes from CRM.](media/viva-sales-refresh-crm.png "Screenshot showing how to get latest changes from CRM.")
 
 ### Why is delete disabled for some fields in the contact record?
 

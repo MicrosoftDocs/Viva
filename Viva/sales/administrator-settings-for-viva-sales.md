@@ -68,17 +68,17 @@ When you open administrator settings, following tabs are available:
 
     If **Viva Sales** is not visible, select **More added apps** (**…**), and then select **Viva Sales**.
     
-    ![Screenshot showing to select the Viva Sales app](media/viva-sales-app-select.png "Screenshot showing to select the Viva Sales app.")
+    ![Screenshot showing to select the Viva Sales app.](media/viva-sales-app-select.png "Screenshot showing to select the Viva Sales app.")
     
     The **Viva Sales** app is opened with the **Home** tab selected.
     
-    ![Screenshot showing Viva Sales Home tab](media/viva-sales-home.png "Screenshot showing Viva Sales Home tab.")
+    ![Screenshot showing Viva Sales Home tab.](media/viva-sales-home.png "Screenshot showing Viva Sales Home tab.")
 
 3.  On the **Settings** tab, update the settings.
 
     - **Forms**: Allows you to [customize forms and fields](customize-forms-and-fields.md).
 
-    ![Screenshot showing Viva Sales Settings tab](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
+    ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
 
 
 
