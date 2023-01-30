@@ -82,13 +82,14 @@ In addition to predefined results filters, you can also add a custom content fil
 
 To access content filters, select the **+** icon to the right of the **Custom queries** filter button. 
 
-![Custom content filter](../images/query-results-add-content-filter.png)
+:::image type="content" source="../images/query-results-add-content-filter.png" alt-text="Screenshot that shows the five content filters with the add button highlighted.":::
+
 
 Then, use the dropdown menus to select your filter.
 
-![Custom content filter](../images/query-results-select-content-filter.png)
+:::image type="content" source="../images/query-results-select-content-filter.png" alt-text="Screenshot that shows the new content filter button selected and the Power BI templates option expanded below.":::
 
-You can only have one content filter active at a time.
+While you can only use one content filter active at a time, you can have up to five filters available. Filters won’t carry over from one session to the next.
 
 ### Setting the query to auto-refresh
 
