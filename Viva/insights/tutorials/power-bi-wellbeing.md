@@ -56,11 +56,6 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 >[!Note]
 >This dashboard is currently only available in English and will only work with data generated from the English version of the app. Before running the required queries, confirm the browser language in the app's URL includes **en-us**, or change it to include **en-us**: ...office.com/en-us/...
 
->[!Important]
->Removing predefined organizational data attributes turns off visualizations that rely on those attributes. Refer to step 5 for specific information about **LevelDesignation**.
->
->Similarly, deleting predefined metrics turns off parts of the Power BI dashboard, reduces your query results, and limits your ability to visualize wellbeing patterns. Depending on the metric, deletion might turn off a single Power BI chart, several charts, or all the charts. Before you delete a predefined metric, you'll get a warning message. Select **Cancel** on the message to keep the metric.
-
 1. In [the app](https://workplaceanalytics.office.com/) (if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/)), select **Analyze** > **Query designer**.
 
 2. In **Create** > **Other templates**, select **Wellbeing - balance and flexibility** to see the required setup steps, and then in step 2, select **Set up**.
@@ -77,10 +72,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-person-query).
 
-5. In **Organizational data**, keep the preselected **Organization** attribute. We also recommend keeping the preselected **LevelDesignation** attribute.
+5. In **Organizational data**:
+    * Keep the preselected **Organization** attribute (required). 
+        >[!Important] 
+        >If you remove the predefined **Organization** attribute, the report won't show any visuals.
 
-   >[!Important]
-   >If you don't have **LevelDesignation** in your organizational data file, or you remove it when building your query, you'll get an error. To run the query without **LevelDesignation**, select **Clean Query** on the error message. As mentioned earlier, removing preselected attributes impacts PowerBI visuals. In this case, you'll disable the **Chats with peers** visuals on the **Stay connected** page, so we don't recommend using those visuals for further analysis.  
+    * Keep the preselected **LevelDesignation** attribute (recommended). If  **LevelDesignation** isn't available, you'll need to adjust your report. Refer to [About LevelDesignation](#about-leveldesignation).
 
 6. Select any additional attributes (columns) that you want to include in the reports.
 7. Select **Run** to run the query, which might take a few minutes to complete.
@@ -110,6 +107,13 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 16. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
+### About LevelDesignation
+
+Like **Organization**, **LevelDesignation** is a predefined organizational attribute. These attributes help your report work properly. If your organizational data file is missing the **LevelDesignation** attribute, your report will still show visuals. However, here are two things to know:
+
+* You'll get an error message about the missing attribute during query setup. To run the query *without* **LevelDesignation**, select **Clean Query** on the error message.
+* The metrics that feed the **Chats with peers** visual rely on **LevelDesignation**. When you use the **Clean Query** button, those metric calculations become inaccurate, and the visual will show you the wrong data. We don't recommend using **Chats with peers** for further analysis
+
 ## Report settings
 
 After the Wellbeing - balance and flexibility report is set up and populated with Viva Insights data, as a first step to viewing data in the dashboard, view and set the following parameters in **Settings**. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
@@ -136,7 +140,7 @@ The Wellbeing - balance and flexibility report includes the following report pag
 
 * **Improve focus** &ndash; Shows the average daily collaboration hours for each employee by organization as compared to focus hours. This highlights how an employee's collaboration load is impacting their focus time.
 * **Balance work and life** &ndash; Shows the average daily after-hours collaboration for each employee, the distribution of employees by their after-hours collaboration, and percentage of employees that were active during the weekends at least once every four weeks. Understanding employees' after-hours and weekend work behaviors can uncover opportunities to improve their work-life balance.
-* **Handle urgency** &ndash; Shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by the following keywords in the email subject lines or meeting invitation titles: "urgent," "immediately," "ASAP," "fire drill," "immediate action." This list of keywords is also provided in the report. Keywords are by default in English in the query template. Users that are assigned the role of analyst can add or edit keywords in the template. This highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
+* **Handle urgency** &ndash; Shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by the following keywords in the email subject lines or meeting invitation titles: "urgent," "immediately," "ASAP," "fire drill," "immediate action." This list of keywords is also provided in the report. Keywords are by default in English in the query template. Users who are assigned the role of analyst can add or edit keywords in the template. This highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
 * **Embrace flexibility** &ndash; Highlights three key aspects that help you identify employees' flexibility at work:
    * **Flexible start times** &ndash; Shows the percentage of weeks in which the employees have at least one day of flexible start time in a week.
    * **Recurring time to disconnect** &ndash; Shows the percentage of weeks in which the employees take at least one hour of recurring break each day over the week.
