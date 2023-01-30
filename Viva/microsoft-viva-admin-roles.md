@@ -45,7 +45,7 @@ The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin 
 - Viva Engage admin (Yammer administrator)
 - Answers in Viva Engage [Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-administrator) (required to be Viva Engage Answers admin)
 
-Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 Learn about [Built-in Azure AD roles](/azure/active-directory/roles/permissions-reference).
 
