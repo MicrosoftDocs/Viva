@@ -172,7 +172,7 @@ When you define a query, you select metrics and employee attributes. After the q
 
 Here's an example of a results file:
 
-    :::image type="content" source="../images/query-csv-output.png" alt-text="Screenshot that an example .csv results file.":::
+:::image type="content" source="../images/query-csv-output.png" alt-text="Screenshot that an example .csv results file.":::
 
 
 ##### Connect through the Power BI Connector
