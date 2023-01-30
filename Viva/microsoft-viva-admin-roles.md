@@ -82,7 +82,7 @@ Viva Topics includes the Topics admin and Knowledge manager roles. You must be a
 |--------------|-----------|
 |**SharePoint admin/Groups admin** <br> A SharePoint admin manages all aspects of SharePoint. A Groups admin creates and manages groups in the Microsoft 365 admin center.<br><br> Assigned by Microsoft 365 global admin | A person who is both a SharePoint admin and a Groups admin can set up and manage the Topic center.|
 |**Viva Topics admin** <br> Must be a Microsoft 365 global admin or a SharePoint administrator and Groups administrator| <ul><li>Name the topic center</li><li>Select which SharePoint sites will be crawled for topics</li><li>Assign knowledge manager role</li><li>Select which licensed users can view and access topics (topic viewers)</li><li>Select which licensed users can create and edit topics (topic contributors)</li><li>Select which topics will be excluded from being identified</ul>|
-|**Knowledge manager**<br> Knowledge managers are users who manage topics in your organization.<br><br>Assigned by Topics admin| On the Manage topics page, knowledge managers can do the following tasks: <ul><li>View AI-suggested topics</li><li>Review topics to confirm that they're valid</li><li>Remove topics that you don’t want visible to users.</li><br>|
+|**Knowledge manager**<br> Knowledge managers are users who manage topics in your organization.<br><br>Assigned by Topics admin| On the Manage topics page, knowledge managers can do the following tasks: <ul><li>View AI-suggested topics</li><li>Review topics to confirm that they're valid</li><li>Remove topics that you don’t want visible to users</li><br>|
 
 For more information on all the roles in Microsoft Viva Topics, see [Roles in Viva Topics](/viva/topics/topic-experiences-roles).
 
