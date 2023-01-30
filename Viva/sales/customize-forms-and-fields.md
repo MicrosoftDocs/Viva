@@ -40,6 +40,7 @@ By default, contacts are editable. For other records, you must turn on the optio
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fHzM]
 
+**To allow editing of records**
 
 1.  In Viva Sales admin settings, select **Forms**.
 
@@ -84,6 +85,8 @@ You can add up to 40 out-of-the-box and custom fields to a record form.
 ### Add fields
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fC5a]
+
+**To add fields**
 
 1.  In Viva Sales admin settings, select **Forms**.
 
