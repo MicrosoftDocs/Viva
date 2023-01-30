@@ -80,7 +80,7 @@ You can add up to 40 out-of-the-box and custom fields to a record form.
 
 ![Screenshot showing detailed view of CRM records in Viva Sales.](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in Viva Sales.")
 
-![Screenshot showing Adaptive card in Teams](media/viva-sales-contact-card.png "Screenshot showing Adaptive card in Teams.")
+![Screenshot showing Adaptive card in Teams.](media/viva-sales-contact-card.png "Screenshot showing Adaptive card in Teams.")
 
 ### Add fields
 
