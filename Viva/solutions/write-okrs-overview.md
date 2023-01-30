@@ -112,7 +112,7 @@ In this formula, the verb is your action, what you're going to do is your aspira
 
 ### Key result formula
 
-Key results are focused, measureable, and ambitious.
+Key results are focused, measurable, and ambitious.
 
 Step 1: Questions to ask before writing Key Results
 
