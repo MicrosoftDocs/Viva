@@ -155,7 +155,7 @@ To set up Topics
 
 ## Access to EWS Exchange
 
-If your organizarion has controlled access to EWS Exchange, this will impact the Viva Topics product. Add "VivaTopicsApi" as the user agent string in EWSAllowList.
+If your organization has controlled access to EWS Exchange, this will impact the Viva Topics product. Add "VivaTopicsApi" as the user agent string in EWSAllowList.
 
 Control access to EWS for your organization:
 
