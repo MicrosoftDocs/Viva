@@ -170,7 +170,7 @@ The following fields can't be added from the Viva Sales **Admin settings** page:
 
 -   Entity Id
 
--   All fields where [**IsValidODataAttribute**](/dotnet/api/microsoft.xrm.sdk.metadata.attributemetadata.isvalidodataattribute?view=dataverse-sdk-latest) is set to false. 
+-   All fields where [**IsValidODataAttribute**](/dotnet/api/microsoft.xrm.sdk.metadata.attributemetadata.isvalidodataattribute?view=dataverse-sdk-latest&preserve-view=true) is set to false. 
 
 **Salesforce**
 
