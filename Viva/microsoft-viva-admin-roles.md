@@ -112,7 +112,7 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 
 For more information on the roles in Viva Learning, see [Admin roles and permissions in Set up Viva Learning](/viva/learning/set-up-viva-learning#admin-roles-and-permissions).
 
-The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator)  and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
+The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
 
 ### Viva Insights
 In Viva Insights, you can assign multiple roles to one person. For example, one person can be both an Insights Administrator and an Insights Analyst. However, it's a best practice to assign the admin and analyst roles to different people to prevent any misuse of or external linking of organizational data with collaboration metrics.
