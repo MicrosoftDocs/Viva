@@ -28,6 +28,7 @@ In this section, we'll talk about setting up the query and selecting data for it
 
 In the **Analysis** page's **Query setup** section, you define some basic information about your query, like its name, the time period it will analyze, and whether it will refresh on its own.
 
+
 #### To set up your query
 
 1. From the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Analysis** page, navigate to **Custom queries > Person query** and select **Start analysis**.

@@ -32,7 +32,7 @@
 
   - name: Run a healthy OKR program with Viva Goals
     items:
-    - name: Write OKRs
+    - name: Write OKRs and Initiatives
       items:
       - name: Write OKRs Overview
         href: write-okrs-overview.md
@@ -42,6 +42,14 @@
         href: okr-examples.md
       - name: Apply the OKR Formula
         href: apply-okr-formula.md
+      - name: Write annual, organizational OKRs using the 5 Ps
+        href: write-annual-top-level-okrs.md
+    - name: Align OKRs and Initiatives
+      items:
+      - name: Align OKRs Overview
+        href: align-okrs-overview.md
+      - name: Align OKRs Recommendations
+        href: align-okrs-recommendations.md
 
 
   - name: Microsoft Viva Accelerators
