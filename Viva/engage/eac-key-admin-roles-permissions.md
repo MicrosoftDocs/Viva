@@ -45,7 +45,7 @@ The Engage admin can set up and configure Engage for your organization and manag
 The table below shows the range of actions available to Engage admin and Global admin based on their license. Admin permissions will be dependent on the users having the right licensing to configure those features.
 
 |Permissions for Engage admin and Global admin |M365/O365 customer with Viva Engage seeded |Microsoft Viva suite customer|
-|----|----|----|
+|---------|-------|-------|
 |**Manage corporate communicators**
 - Assign user(s) as a corporate communicator 
 - Remove user(s) as a corporate communicator  |✓ |✓ |
@@ -103,6 +103,18 @@ The Answers admin role can setup and configure Answers within the Viva Engage ap
 
 The table below shows the range of actions available to an unlicensed user, Viva Topics licensed user, Answers admin (knowledge manager), Engage (Yammer) admin, and Global admin.
 
+|Answers Permissions for Answers admin, Engage admin, and Global (O365) admin |M365/O365 customer with Viva Engage seeded |Viva Suite and Viva Topics customer|
+|----------------|---------|-------|
+|**Ask, answer, upvote, and react**|Interact with questions they are mentioned in|✓|
+|**Suggest topics**| |✓|
+|**Mark Best answer**| |✓|
+|**Delete and close posts**| |✓|
+|**See global insights**| |✓|
+|**Feature topics**| |Answers admin and Global admin only|
+|**Approve suggested topics**| |Answers admin and Global admin only|
+|**Enable and manage badges**| |Answers admin and Global admin only|
+|**Enable Answers**| |Answers admin and Global admin only|
+
 > [!div class="mx-tdBreakAll"]
 > |**Answers Permissions - Roles in consideration: Answers admin, Engage admin and Global admin**|**M365/O365 customer with Viva Engage seeded**|**Viva Suite and Viva Topics customer**|
 > |-------------|---------|---------|
@@ -123,6 +135,18 @@ Corporate communicators have privileges such as creating or managing campaigns, 
 **Permissions**
 
 The table below shows the range of actions available to a corporate communicator, Engage (Yammer) admin, and Global (tenant) admin based on their license.  
+
+|Permissions for corporate communicators, Engage admin, and Global (O365) admin |M365/O365 customer with Viva Engage seeded |Viva Suite and Viva Topics customer|
+|----------------|---------|-------|
+|**Ask, answer, upvote, and react**|Interact with questions they are mentioned in|✓|
+|**Suggest topics**| |✓|
+|**Mark Best answer**| |✓|
+|**Delete and close posts**| |✓|
+|**See global insights**| |✓|
+|**Feature topics**| |Answers admin and Global admin only|
+|**Approve suggested topics**| |Answers admin and Global admin only|
+|**Enable and manage badges**| |Answers admin and Global admin only|
+|**Enable Answers**| |Answers admin and Global admin only|
 
 > [!div class="mx-tdBreakAll"]
 > |**Permissions - Roles in consideration: corporate communicator, Engage admin and Global admin**|**M365/O365 customer with Viva Engage seeded**|**Microsoft Viva suite customer**|
