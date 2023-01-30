@@ -37,7 +37,7 @@ The two roles that span Microsoft Viva apps are the Microsoft 365 global admin a
 
 The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin sets up Viva, manages licenses and settings, and can assign the following Azure AD roles, which may be required for some apps and tasks:
 
-- Viva Topics [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-manager)
+- Viva Topics [Viva Topics admin](/viva/topics/topic-experiences-roles#viva-topics-admin)
 - Viva Learning [Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
 - Viva Insights [Business Leader](/azure/active-directory/roles/permissions-reference#insights-business-leader), [Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator), and [Analyst](/azure/active-directory/roles/permissions-reference#insights-analyst)
 - [SharePoint admin](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
@@ -162,5 +162,5 @@ You need to be a Microsoft 365 administrator to deploy and install the Viva Sale
 |**CRM admin**<br>Assigned by Microsoft 365 global admin|Manages settings to customize information displayed for Viva Sales in Outlook and Teams.
 |**CRM security role**|Viva Sales applies your organization's existing CRM access controls and user permissions. Users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales. Required roles depend on the system you are using.
 
-For more information on these and other roles, see [Install Viva Sales](/Viva/sales/install-viva-sales).
+For more information on these and other roles, see [Install Viva Sales](/viva/sales/install-viva-sales).
 
