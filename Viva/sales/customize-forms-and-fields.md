@@ -38,6 +38,8 @@ You can control which records and fields sellers can edit directly in Viva Sales
 
 By default, contacts are editable. For other records, you must turn on the option to allow editing.
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fHzM]
+
 
 1.  In Viva Sales admin settings, select **Forms**.
 
@@ -80,6 +82,8 @@ You can add up to 40 out-of-the-box and custom fields to a record form.
 ![Screenshot showing Adaptive card in Teams](media/viva-sales-contact-card.png "Screenshot showing Adaptive card in Teams.")
 
 ### Add fields
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fC5a]
 
 1.  In Viva Sales admin settings, select **Forms**.
 
