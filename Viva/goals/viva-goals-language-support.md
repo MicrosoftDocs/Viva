@@ -27,7 +27,7 @@ Currently, Viva Goals supports the following languages.
 Chinese (Simplified)|Chinese (Traditional)|English
 French|German|Italian
 Japanese|Korean|Portuguese (Brazil)|
-Spanish (Spain)|
+Spanish (Spain)| Estonian |
 
 |Coming Soon | &nbsp; |&nbsp; |
 |---|---|---|
@@ -36,7 +36,9 @@ Dutch|Finnish|Greek
 Hungarian|Indonesian|Norwegian (Bokmal)|
 Polish|Portuguese (Portugal)|Romanian 
 Russian|Swedish|Thai 
-Turkish|Ukrainian 
-
+Turkish|Ukrainian|Latvian |
+Lithuanian| Serbian| Slovak|
+Slovenian |Hebrew |Arabic |
+Bulgarian |Vietnamese
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).
