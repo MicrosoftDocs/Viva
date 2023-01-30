@@ -152,9 +152,19 @@ To set up Topics
 
     ![Settings applied.](../media/ksetup7.png)    
 
+
+## Access to EWS Exchange
+
+If your organizarion has controlled access to EWS Exchange, this will impact the Viva Topics product. Add "VivaTopicsApi" as the user agent string in EWSAllowList.
+
+Control access to EWS for your organization:
+
+- [Learn about control access to EWS in exchange](https://learn.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)
+- [Set-OrganizatonCong](https://learn.microsoft.com/powershell/module/exchange/set-organizationconfig?view=exchange-ps)
+
 ## Manage topic experiences
 
-Once you have set up Topics, you can change the settings that you chose during setup in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement). See the following references:
+Once you have set up Topics, you can change the settings that you chose during setup in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement). Manage other areas in topics:
 
 - [Manage topic discovery in Microsoft Viva Topics](topic-experiences-discovery.md)
 - [Manage topic visibility in Microsoft Viva Topics](topic-experiences-knowledge-rules.md)
@@ -173,3 +183,5 @@ You can also [add Viva Topics as an app in Teams](add-topics-app.md).
 [Topic Experiences Overview](topic-experiences-overview.md)
 
 [Learn about topics in Microsoft Viva Topics](/viva/topics/get-started-with-viva-topics)
+
+
