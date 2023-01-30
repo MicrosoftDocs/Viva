@@ -5,6 +5,7 @@ ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
 manager: dmillerdyson
+ms.date: 2/15/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -43,10 +44,35 @@ The Engage admin can set up and configure Engage for your organization and manag
 
 The table below shows the range of actions available to Engage admin and Global admin based on their license. Admin permissions will be dependent on the users having the right licensing to configure those features.
 
+|Permissions for Engage admin and Global admin |M365/O365 customer with Viva Engage seeded |Microsoft Viva suite customer|
+|----|----|----|
+|**Manage corporate communicators**
+- Assign user(s) as a corporate communicator 
+- Remove user(s) as a corporate communicator  |✓ |✓ |
+|**Manage tenant and user permissions** (through Yammer)|✓ |✓ |
+|**Manage data and compliance**
+- Manage network and user data 
+- **GDPR** delete |✓ |✓ |
+|**Manage leaders and their audiences**
+- Assign leaders in your organization
+- **Identify audiences for the leaders identified** |✓ |✓ |
+|**Configure stories and storylines** <br>
+- Enable storylines and stories for your organization <br>
+- Configure advanced settings like default notifications, specify who can create storyline posts, etc. |✓ |✓ |
+|**Manage sentiment analysis and other feature specific analytics**<br>
+- Configure level of sentiment to be gathered in the organization <br>
+- Enable or disable campaign analytics <br>
+- Enable or disable answers analytics **|  |✓ |
+|**Add, view, and manage campaigns**<br>
+- Create and manage campaigns <br>
+- Access campaign analytics dashboard **|  |✓ |
+|**Enable and manage badges**|  |✓ |
+|**Enable Answers**|  |O365 (Global) admin only |
+
 > [!div class="mx-tdBreakAll"]
 > |**Permissions - Roles in consideration: Engage admin and Global admin**|**M365/O365 customer with Viva Engage seeded**|**Microsoft Viva suite customer**|
 > |-------------|----------|---------|---------|
-> |**Manage corporate communicators**
+> |**Manage corporate communicators** 
 - Assign user(s) as a corporate communicator
 - Remove user(s) as a corporate communicator|✓|✓|
 > |**Manage tenant and user permissions (through Yammer)**|✓|✓|

@@ -5,6 +5,7 @@ ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
 manager: dmillerdyson
+ms.date: 2/15/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -23,15 +24,11 @@ search.appverid:
 
 ## Licensing 
 
-**Premium experience**
-
-Admin users with access to Viva Engage through Microsoft Viva in Microsoft 365, Microsoft Viva Suite, Viva Topics licensing, or existing Yammer service plans will see the Admin Center within Viva Engage Teams app.  
+**Premium experience**: Admin users with access to Viva Engage through Microsoft Viva in Microsoft 365, Microsoft Viva Suite, Viva Topics licensing, or existing Yammer service plans will see the Admin Center within Viva Engage Teams app.  
 
 To have access to the premium features, the user will need a license to the Viva Engage Communities and Communications service plan.  
 
-**Seeded experiences: Viva Engage and Answers**
-
-Anyone who is using Yammer or currently accesses Yammer in your tenant will have access to the Engage seeded experiences, including the Answers seeded experience.
+**Seeded experiences: Viva Engage and Answers**: Anyone who is using Yammer or currently accesses Yammer in your tenant will have access to the Engage seeded experiences, including the Answers seeded experience.
 
 If you are enforcing Yammer licensing in your tenant, you'll need a Yammer license or a Viva Engage Core license to access seeded experiences.
 
