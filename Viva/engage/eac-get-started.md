@@ -24,20 +24,20 @@ search.appverid:
 
 ## Licensing 
 
-**Premium experience**: Admin users with access to Viva Engage through Microsoft Viva in Microsoft 365, Microsoft Viva Suite, Viva Topics licensing, or existing Yammer service plans will see the Admin Center within Viva Engage Teams app.  
+**Premium experience**: AAdmin users with access to Viva Engage (through purchase of M365 and/or Viva Suite) or Answers in Microsoft Viva (through purchase of Viva Suite or Viva Topics) will see the Admin Center within Viva Engage in Teams app.
 
-To have access to the premium features, the user will need a license to the Viva Engage Communities and Communications service plan.  
+To have access to Viva Engage premium features, the user will need a license to Viva Engage Communities and Communications service plan. To have access to Answers in Microsoft Viva, the user will need a license to Viva Engage Knowledge service plan.
 
-**Seeded experiences: Viva Engage and Answers**: Anyone who is using Yammer or currently accesses Yammer in your tenant will have access to the Engage seeded experiences, including the Answers seeded experience.
+**Seeded experiences: Viva Engage and Answers**: If you have skipped enforcing Yammer licensing in your tenant, then all the users in your tenant will have access to Viva Engage seeded experiences as well as Yammer experiences. This also includes Answers seeded experience.  
 
-If you are enforcing Yammer licensing in your tenant, you'll need a Yammer license or a Viva Engage Core license to access seeded experiences.
+If you are enforcing Yammer licensing in your tenant, users will need to have either Yammer license or Viva Engage Core license to access Viva Engage as well as Answers seeded experiences.
 
 > [!div class="mx-tdBreakAll"]
 > |**Service plan**|**Enables**|**Comes with (SKUs)**|
-> |-------------|----------|---------|---------|
+> |------------------|------------|---------|
 > |**Viva Engage Core**|Engage seeded experiences, including the Answers seeded <br> experiences <br> Example: Communities, Storyline|M365 / O365|
 > |**Viva Engage Communities** <br> **and Communications**|Engage premium experiences (Leadership & Comms) <br> Examples: Leadership Corner, AMA, Storyline Announcements |Viva Suite|
-> |**Viva Engage Knowledge**|Answers premium experience |Viva Suite, <br> Viva Topics|
+> |**Viva Engage Knowledge**|Answers in Microsoft Viva premium experience |Viva Suite, <br> Viva Topics|
 
 ## Set up Viva Engage
 Use the Microsoft 365 admin center to set up and manage settings for Viva Engage.  
