@@ -86,9 +86,9 @@ The table below shows the range of actions available to a corporate communicator
 
 |Permissions for corporate communicators, Engage admin, and Global (O365) admin |M365/O365 customer with Viva Engage seeded |Microsoft Viva Suite customer|
 |----------------|---------|-------|
-|**Identify leaders**: Manage their audience; Manage their delegates |✓|✓|
+|**Identify leaders**: <br> Manage their audience; Manage their delegates |✓|✓|
 |**Create campaigns**| |✓|
-|**Manage campaigns via**:Publishing active campaigns; Ending active campaigns; Republishing ended campaigns; Deleting campaigns | |✓|
+|**Manage campaigns via**: <br> Publishing active campaigns; Ending active campaigns; Republishing ended campaigns; Deleting campaigns | |✓|
 |**View campaign analytics**| |✓|
 
 ## See also
