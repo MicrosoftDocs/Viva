@@ -24,7 +24,7 @@ search.appverid:
 
 The admin center can only be accessed by users with the following admin roles: Global admin, Engage admin, Answers admin and corporate communicators. It cannot be accessed by end users (employees) within your organization.
 
-Within the Viva Engage Teams application, select the ellipses button on the top right corner to expose the admin option. Select **Admin** to navigate to the Engage admin center.
+Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to navigate to the Engage admin center.
 
 ![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
 
