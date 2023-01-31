@@ -28,7 +28,7 @@ In [Horizontal collaboration and cross-silo leadership](https://insights.office.
 * “Get people to see the world through others’ eyes”, or in other words encourage workers to think about their colleagues' wants and incentives.”
 * “Bring employees from diverse groups together on initiatives. As a rule, cross-functional teams give people across silos a chance to identify various kinds of expertise within their organization.”
 
-The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article explains how important cross-group collaboration is for getting work done:
+The [How to Make Sure Agile Teams Can Work Together](https://workplaceinsights.microsoft.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article explains how important cross-group collaboration is for getting work done:
 
 * “Work occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes."
 * "Intuitively, we know that the collaborative intensity of work has skyrocketed, and that collaborations are central to agility."
