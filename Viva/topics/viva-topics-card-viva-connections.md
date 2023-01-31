@@ -20,9 +20,6 @@ description: Learn how to add Viva Topics cards to the Viva COnnections Dashboar
 Use Viva Topics cards to encourage knowledge discoverability, engagement, and sharing. Viva Topics has two different cards that can be used on the Viva Connections Dashboard. Viva Connections is a personalized employee experience that surfaces the most important content and tools from across your organization. Learn more about [Viva Connections](/viva/connections/viva-connections-overview) and [how to set up a Dashboard](/viva/connections/create-dashboard). 
 
 
->[!NOTE]
-> Viva Topics cards will be generally available by the end of January 2023.
-
 
 ## Viva Topics cards
 There are two separate Viva Topics cards for two separate intentions. The **Viva Topics Contribute card** can be used to reach people who are known knowledge managers and are already engaged with topics and knowledge areas. Topics and knowledge areas are dynamically displayed in the card based on the viewers interests, current projects, and expertise. The **Viva Topics Discover card** can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic. Topics and knowledge areas are dynamically displayed in the card based on the viewer’s interests, current projects, and expertise. 
@@ -44,7 +41,6 @@ The Discover card can be used to view topics and knowledge areas for people who 
 
 >[!NOTE]
 > - You need site owner permissions or higher to your organization’s [SharePoint home site](/sharepoint/home-site) to edit the Viva Connections Dashboard.
-> - Viva Topics cards will be generally available by the end of January 2023.
 
 Viva Topics cards can be added to the Viva Connections Dashboard. The Dashboard is one part of the Viva Connections experience that surfaces tools and content relevant to the viewer. [Learn more about how to add Viva Topics cards to the Dashboard](/viva/connections/create-dashboard#create-a-dashboard-and-add-cards).
 
