@@ -37,7 +37,7 @@ To view manager insights for employees who report to you:
 
 To view insights generated from *all* measured employees in your organization:
 
-* The members of your organization need to be assigned licenses for Viva Insights, including you as an organizational business leader.
+* A minimum of 10 members of your organization need to be assigned licenses for Viva Insights, including you as an organizational business leader.
 * You need to have the **Insights Business Leader role** assigned to you. Ask your Microsoft 365 admin to assign you the [Insights Business Leader role](/azure/active-directory/roles/permissions-reference#insights-business-leader) in the Microsoft 365 admin center. See [Assign admin roles](/microsoft-365/admin/add-users/assign-admin-roles) for detailed instructions.
 
 ## Discover and pin the app in Teams
