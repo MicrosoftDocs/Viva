@@ -116,9 +116,3 @@ Once redirected, you will see the campaign analytics dashboard containing key da
 ## See also
 
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)
-
-[Yammer adoption center](https://adoption.microsoft.com/yammer/)
-
-[Yammer help & learning](https://support.microsoft.com/yammer)
-
->

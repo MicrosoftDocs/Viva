@@ -72,7 +72,6 @@ Leaders and delegates have access to analytics that help monitor engagement with
 
 ![NEEDS update](/Viva/media/engage/campaigns/create-campaign-button.png)
 
-
 ## Access Campaign Analytics  
 
 Engage admin and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed from the campaign management dashboard and the campaign landing page.
@@ -92,15 +91,10 @@ Engage admins can choose to enable or disable the top content creator feature fo
 
 **Why can't my leader/delegate see audience analytics?** A leader and their delegate must be licensed users in order to view audience analytics. Additionally, at least 75% of the leader's audience must have a premium license for audience analytics to be visible to the leader or their delegate(s).
 
-## See also 
-Link to Campaigns admin documentation 
+## See also
 
-Link to relevant documentation : [Storyline Announcements in Microsoft Viva Engage](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
-<!-- 
-[Yammer administration documentation](/yammer/)
+[Set up and manage campaigns in Viva Engage](/viva/engage/campaigns.md)
 
-[Yammer adoption center](https://adoption.microsoft.com/yammer/)
+[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)
 
-[Yammer help & learning](https://support.microsoft.com/yammer)
-
->
+[Manage and set up Storyline in Microsoft Viva Engage](/Viva/engage/eac-storyline.md)
