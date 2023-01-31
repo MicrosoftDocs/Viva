@@ -462,7 +462,7 @@
       },
       {
         "source_path": "viva/goals/kr-types.md",
-        "redirect_url": "Viva/solutions/kr-types.md",
+        "redirect_url": "/viva/solutions/kr-types",
         "redirect_document_id": false
         }
     ]
