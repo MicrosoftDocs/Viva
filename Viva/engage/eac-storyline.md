@@ -28,9 +28,9 @@ When Storyline is enabled in your organization, you'll see the following changes
 - Internal (non-guest) users who have access to Viva Engage see a new default **Storyline** tab on their user profile page.
 - Users see a new **Storylines** page from which they can access a personalized feed of content posted to Storyline, or toggle to a focused feed that includes only Storyline content from the people the user has followed.
 
-## Set up Storyline
+## Manage Storyline
 
-Global admins and Engage admins can manage Storyline for their organizations in the Engage admin center. Select the ellipses on the right of the top navigation menu, then select **Admin** to enter the Engage admin center. by selecting the Feature management tab within the Engage admin center, then selecting **Manage Storyline**.  
+Global admins and Engage admins can manage Storyline for their organizations in the Engage admin center. Select the ellipses on the right of the top navigation menu, then select **Admin** to enter the Engage admin center. Under the **Feature management** tab within the Engage admin center, select **Storyline**.  
 
 >[!NOTE]
 > Storyline must be enabled before you can enable stories.

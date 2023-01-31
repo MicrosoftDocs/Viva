@@ -21,24 +21,26 @@ search.appverid:
 
 # Access the Engage admin center
 
-The admin center can only be accessed by users with the following admin roles: Global admin, Engage admin, Answers admin and corporate communicator. It cannot be accessed by end users (employees) within your organization.  
+The admin center can only be accessed by users with the following admin roles: Global admin, Engage admin, Answers admin and corporate communicators. It cannot be accessed by end users (employees) within your organization.
 
-Within the Viva Engage Teams application, select the ellipses button on the top right corner to expose the admin option. Select **Admin** to navigate to the Engage admin center.  
+Within the Viva Engage Teams application, select the ellipses button on the top right corner to expose the admin option. Select **Admin** to navigate to the Engage admin center.
 
-< Admin center image >
+![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
 
 ## Manage corporate communicators  
 
 As a Global admin, Engage admin, and corporate communicator, you can identify and remove users as corporate communicators. Under the **Setup and configuration** tab, select **Manage corporate communicators** to open configuration options.  
 
+![Image of the interface for managing corporate communicators](/Viva/media/engage/admin/manage-corpcomms.png)
+
 ### Assigning user as a corporate communicator
 
 Select **Add user** to search for a user by their name or email ID. Once the assignee is identified and selected as a corporate communicator, they will be visible in the list of active corporate communicators within your organization.  
 
+![Image of the interface for adding corporate communicators](/Viva/media/engage/admin/add-corp-comms.png)
+
 >[!NOTE]
 > While assigning a user to this role is a pre-licensed capability, the actions this user can perform will depend on the nature of their license (seeded vs premium).  
-
-< Image of Admin center directions > 
 
 Once assigned, the corporate communicator will be able to: 
 
@@ -72,7 +74,8 @@ Selecting the delete icon on the right side of the corporate communicator list w
 
 As a Global admin or Engage admin, you are encouraged to setup your Viva Engage enterprise experience for all employees before they start using the application. This will help maintain a consistent experience. An Engage admin can navigate to the **Setup and configuration** tab within the Engage admin center and select **Configure tenant**.  
 
-< image >
+
+![Image of the interface for configuring the tenant in Viva Engage.](/Viva/media/engage/admin/config-tenant.png)
 
 They are then routed to the Yammer admin center to perform the following actions:  
 
