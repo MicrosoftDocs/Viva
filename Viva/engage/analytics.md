@@ -44,7 +44,7 @@ Global admins and Engage admins can configure, enable, and disable analytics fea
 
 ## Manage Audience analytics  
 
-Engage admins can adjust the level of sentiment analysis that is available to leaders and their delegates through the **Audience Analytics** dashboard. This allows for unique levels of sentiment collection either at the audience level, theme-level, or conversation level.  
+Engage admins can adjust the level of sentiment analysis that is available to leaders and their delegates through the **Audience Analytics** dashboard. This allows for unique levels of sentiment collection either at the audience level, theme-level, or conversation level.
 
 ## Manage Global Answers analytics
 
