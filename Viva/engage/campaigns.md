@@ -1,6 +1,6 @@
 ---
 title: "Manage and set up campaigns in Microsoft Viva Engage"
-description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
+description: "Campaigns in Viva Engage are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging."
 ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
@@ -20,23 +20,23 @@ search.appverid:
 - MET150
 ---
 
-# Manage and set up campaigns in Viva Engage 
+# Manage and set up campaigns in Viva Engage
 
 Campaigns are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging. Campaigns can be created, managed, and deleted by Global admins, Engage admins, and corporate communicators. 
 
 ## Set up a campaign
 
-To set up a campaign, navigate to the Campaign dashboard by selecting the **Feature management** tab in the Engage admin center, then select **Campaigns**. 
+In the [Engage admin center](/Viva/engage/eac-as-access-eac.md), navigate to the Campaign dashboard by selecting the **Feature management** tab in the Engage admin center, then select **Campaigns**.
 
-![Viva admin page](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
- 
+![Viva admin page.](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
+
 The campaign dashboard provides a list of active, ended, and in-progress (draft) campaigns created for the organization.  
 
-![Viva admin page](/Viva/media/engage/campaigns/create-campaign-button.png)
+![Viva admin page.](/Viva/media/engage/campaigns/create-campaign-button.png)
 
-## Create a campaign 
+## Create a campaign
 
-1. Select **Create campaign** from the top right corner of the campaign dashboard. 
+1. Select **Create campaign** from the top right corner of the campaign dashboard.
 2. Fill in the fields according to your campaign goals. **Campaign name** and **Campaign hashtag** are required to successfully create your campaign. The campaign name will only appear in the campaign management dashboard and the campaign hashtag will appear on the campaign landing page. **Default publisher** only supports discussion, question, praise, and poll type.
 3. Select **Confirm** when you are ready to enter the draft state.
 
