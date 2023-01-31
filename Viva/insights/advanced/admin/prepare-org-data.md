@@ -14,9 +14,16 @@ audience: Admin
 
 # Prepare organizational data
 
-This article describes the value of organizational data for analysts, and also describes the steps you as an admin need to take to identify, gather, and structure data before uploading it. To learn more about the nature and use of organizational data, refer to [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). 
+In this article, we discuss the value of organizational data for analysts. We also describe the steps you as an admin need to take to identify, gather, and structure data before uploading organizational data. To learn more about the nature and use of organizational data, refer to [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis).
 
-When you’re ready to start working with organizational data, the following sections guide you through the data-preparation process.
+
+## About data sources
+
+The advanced insights app can get organizational data in one of two ways: through Azure Active Directory, which is the default setting, or through an organizational data file that you as an admin upload. Azure Active Directory automatically syncs with the advanced insights app and provides data for the **ManagerId** and **Organization** attributes. If you want to include more attributes, for example, those we discuss in [Attribute reference](#attribute-reference), then you'd want to choose a data file as your source.
+
+We focus on .csv file uploads in this article.
+
+When you’re ready to start working with organizational data, the following sections guide you through the data-preparation process:
 
 * [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
 * [Know what data to include](#know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
@@ -28,7 +35,7 @@ When you’re ready to start working with organizational data, the following sec
 
 Organizational data is descriptive information about employees. After you upload organizational data, the advanced insights app combines it with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
 
-Here's an example: After the organizational data is uploaded in the advanced insights app, an analyst might use it to learn how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
+Here's an example: after the organizational data is uploaded in the advanced insights app, an analyst might use it to learn how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
 
 Advanced insights automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; it’s the organizational data that you upload that provides analysis context.
 
@@ -73,7 +80,7 @@ Most of these attributes are also found in HR information systems.
 
 Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data, such as sales-quota attainment or high/low performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
 
-## Know what data to include
+## Know what data to include in a .csv file
 
 To get full functionality from the advanced insights app, you need to supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
 
