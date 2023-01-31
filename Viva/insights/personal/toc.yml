@@ -45,9 +45,7 @@ items:
                 - name: Admin tasks
                   href: teams/viva-teams-app-admin-tasks.md
                 - name: FAQ
-                  href: teams/viva-teams-app-faq.md
-            - name: Schedule send suggestions in chat
-              href: teams/send-suggestions.md      
+                  href: teams/viva-teams-app-faq.md   
         - name: Briefing
           items:
             - name: Overview

@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: Schedule send suggestions in Teams chat 
 description: Learn how Viva Insights helps you send messages to your coworkers during their working hours
 author: lilyolason
@@ -38,7 +39,7 @@ You won't get suggestions in the following scenarios:
 
 * When you're sending a message to yourself
 * When you’re sending a message marked as important or urgent
-* When you’re composing a message during the 30 minutes before the recipients’ or your working hours
+* When you’re composing a message during the 30 minutes before the recipients’ working hours
 
 >[!Tip]
 >Need to schedule a chat but aren't getting a suggestion? You can schedule chats by following the guidance in [Schedule chat messages in Teams](https://support.microsoft.com/en-us/office/schedule-chat-messages-in-teams-2fc5ea77-7bb4-4511-8f59-e62bac1c0f6a#:~:text=Schedule%20chat%20messages%20in%20Teams%201%20Schedule%20your,message%20and%20select%20More%20Options%20%3E%20Edit.%20).
@@ -59,7 +60,7 @@ You won't get suggestions in the following scenarios:
        Screenshot of a scheduled chat message that hasn't been sent yet. Smaller text above the drafted message, within the text-input field, reports which day and time the message will be sent. There's a window above the text-input box. In the top section of the window, there are two dropdown menus: one has "Thursday, October 13" filled in; the other has "8:00 AM" filled in. Both have arrows users can select to set a new value. Beneath these dropdown menus, there are three buttons: "Send at scheduled time," "Cancel scheduled time," and "Close." The send icon has a small clock icon within it.
     :::image-end:::
 
-1. Select either the **Send at scheduled time** button on the confirmation window or the chat's **Send** icon to send your scheduled message. Viva Insights will automatically deliver your chat message at the scheduled date and time. 
+1. Select the chat's **Send** icon to send your scheduled message. Viva Insights will automatically deliver your chat message at the scheduled date and time. 
 
     :::image type="complex" source="./images/teams-schedule-send-sending.png" alt-text="Screenshot that shows a sent scheduled chat message.":::
        Screenshot of a chat message that's been sent but hasn't been delivered. The message appears beneath other sent messages, but has small text above the message content that says which day and time it's sending.
@@ -76,7 +77,7 @@ If you need to *edit* your scheduled chat:
 
 :::image type="content" source="./images/teams-schedule-send-edit-delete2.png" alt-text="Screenshot of the Edit and Delete options menu.":::
 
-Your message will automatically send at the scheduled time.
+Your message will automatically send at the scheduled time. If you need to update the scheduled time your message sends, refer to step 2 in [Schedule your chat delivery](#schedule-your-chat-delivery).
 
 If you need to *delete* your scheduled chat before it sends, select the ellipses (**...**) in the top right corner of the message. Then, select **Delete**. Viva Insights won't send your message.
 
