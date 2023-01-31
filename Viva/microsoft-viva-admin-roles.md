@@ -26,7 +26,7 @@ Admin options and permissions for each app rely heavily on the environments the 
 
 In this article, we bring together information on the types and levels of admin roles for each Viva app.
 
-## Admin roles in Microsoft Viva
+## Admin roles in Microsoft Viva 
 
 ![Image showing admin roles](/Viva/media/admin-roles.png)
 
