@@ -345,7 +345,9 @@ Content in the cards is dynamic and will change according to settings in Viva Le
 
 ## Add a Viva Topics card
 
-Viva Topics has two different cards that can be used on the Viva Connections Dashboard. Viva Connections is a personalized employee experience that surfaces the most important content and tools from across your organization. [Learn more about the two different cards](/topics/viva-topics-card-viva-connections).
+Viva Topics has two different cards. The **Viva Topics Contribute card** can be used to reach people who are known knowledge managers and are already engaged with topics and knowledge areas. Topics and knowledge areas are dynamically displayed in the card based on the viewers interests, current projects, and expertise. The **Viva Topics Discover card** can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic. 
+
+[Learn more about the two different cards](/topics/viva-topics-card-viva-connections).
 
 ![Screenshot Viva Topics Contribute card.](../media/knowledge-management/viva-topics-contribute-card.png) 
 
