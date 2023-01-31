@@ -59,11 +59,16 @@ View and manage your collections under the **Collections** section in the **My L
 
 - **Edit** the collection's details and content by selecting the **Edit** icon in the Collections details page. 
 
+
+![Image of options to duplicate, delete, and edit in Viva Learning collections curation](../media/learning/learning-collections6.png))
+
 ## Access Your Collections
 
 1. Navigate to the **My Learning** tab and select the **Collections** section.
 2. Select the Learning collection card.
 3. Navigate to the **Details** page
 4. Select the course thumbnail to play the course.
+
+![Image of a successfully integrated learning collection with the option to play the course](../media/learning/learning-collections7.png)
 
 You can also share and recommend your curated collections with peers through the **Share** and **Recommend** options. 
