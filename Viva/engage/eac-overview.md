@@ -5,6 +5,7 @@ ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
 manager: dmillerdyson
+ms.date: 2/15/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -21,19 +22,16 @@ search.appverid:
 
 # Overview of the Engage admin center
 
-As an admin, the Engage admin center (found within the Viva Engage app on Teams) is where you can find everything you need to plan your rollout, set up and customize Viva Engage for your tenant, manage security and compliance, and build engagement within your organization. 
+As an admin, the Engage admin center (found within the Viva Engage app on Teams) is where you can find everything you need to plan your rollout, set up and customize Viva Engage for your tenant, manage security and compliance, and build engagement within your organization.
 
 Through this experience you can:  
 
-- Plan who will help administer Engage for your organization by managing the various admin roles 
-
-- Setup your Engage tenant by customizing your network, set up usage policy, and manage user permissions 
-
+- Plan who will help administer Engage for your organization by managing the various admin roles
+- Setup your Engage tenant by customizing your network, set up usage policy, and manage user permissions
 - Manage your organizations data retention and export plans 
-
 - Explore the options for managing various seeded and premium features within Viva Engage  
 
-## See also 
+## See also
 [Start using the Engage admin center](/viva/engage/eac-get-started.md.md)
 
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)

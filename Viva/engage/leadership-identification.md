@@ -5,6 +5,7 @@ ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
 manager: dmillerdyson
+ms.date: 2/15/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -22,17 +23,17 @@ search.appverid:
 
 # Identify leaders and manage audiences in Viva Engage
 
-Leaders naturally want to share vision, updates, and perspectives to build culture, manage change, and drive engagement with the people they lead. Viva Engage empowers leaders to more effectively connect with, communicate to, and listen to their employees. This begins with identifying leaders and the audiences they want to engage. Leadership identification and audience management enables organizations to designate leaders, configure their audience and even to connect leaders with the entire organization. 
+Leaders naturally want to share vision, updates, and perspectives to build culture, manage change, and drive engagement with the people they lead. Viva Engage empowers leaders to more effectively connect with, communicate to, and listen to their employees. This begins with identifying leaders and the audiences they want to engage. Leadership identification and audience management enables organizations to designate leaders, configure their audience and even to connect leaders with the entire organization.
 
-Leadership identification and audience management is a prerequisite for other leadership features of Viva Engage, including leadership announcements, campaigns, audience analytics, and leadership corner. 
+Leadership identification and audience management is a prerequisite for other leadership features of Viva Engage, including leadership announcements, campaigns, audience analytics, and Leadership Corner.
 
 ## Identify leaders
 
-Engage admins, corporate communicators, existing Yammer verified admins, and Yammer network admins can identify leaders in Viva Engage and Yammer. Leaders can be identified individually or by importing groups of leaders. 
+Engage admins, corporate communicators, existing Yammer verified admins, and Yammer network admins can identify leaders in Viva Engage. Leaders can be identified individually or by importing groups of leaders.
 
 1. From Viva Engage, open the … menu in the upper left corner, then select **Admin**.
-![View of setting drop down menu](/Viva/media/engage/campaigns/create-campaign-admin-portal.png)
-2. Select **Feature management**, then select **Leadership identification and audiences**.  
+![Image of settings drop down menu.](/Viva/media/engage/admin/admin-entrypoint.png)
+2. Select **Feature management**, then select **Leadership identification and audiences**.
 
 ![View of Engage Admin Center](/Viva/media/engage/IMG/VE-admin-center-leadership-id.png)
 
