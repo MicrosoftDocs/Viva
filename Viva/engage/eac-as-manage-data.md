@@ -23,26 +23,31 @@ search.appverid:
 # Manage data in the Engage admin center
 
 ## Manage Data 
-As an Office 365 (Global) admin or Engage admin, you are encouraged to use Yammer administrative tools to protect your Viva Engage data and comply with evolving legal and regulatory standards, including GDPR. An Engage admin can navigate to the **Governance and compliance** tab within the Engage admin center and select **Data**. 
+As an Office 365 (Global) admin or Engage admin, you are encouraged to use Yammer administrative tools to protect your Viva Engage data and comply with evolving legal and regulatory standards, including GDPR. An Engage admin can navigate to the **Governance and compliance** tab within the ![Engage admin center](/Viva/engage/eac-as-access-eac.md) and select **Data**.
 
 ![Image of the Data tab for administrative management in Viva Engage.](/Viva/media/engage/admin/manage-data-eac.png)
 
 They are then routed to the Yammer admin center to perform the following actions:
 
-- Manage GDPR data subject requests 
-    - Erase a user from the network 
-    - Reactivate a deactivated account after erasing the user 
+- Manage GDPR data subject requests
+    - Erase a user from the network
+    - Reactivate a deactivated account after erasing the user
 
 >[!NOTE]
 > Since Viva Engage is powered by Yammer’s technology, removing a user from the network will delete the user in Yammer and Viva Engage. 
 
-- Export data to review compliance issues 
-    - Export data for one user 
-    - Export data for network 
-    - Export users and admin list 
+- Export data to review compliance issues
+    - Export data for one user
+    - Export data for network
+    - Export users and admin list
 
 >[!NOTE]
 > Since Viva Engage is powered by Yammer’s technology, any data generated as part of Viva Engage and Viva Answers feature will be included in the existing Yammer exports.
 
 ## See also 
-[Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
+
+![Access the Engage admin center](/Viva/engage/eac-as-access-eac.md)
+
+![Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions.md)
+
+![Set up the Engage admin center](/Viva/engage/eac-get-started.md)
