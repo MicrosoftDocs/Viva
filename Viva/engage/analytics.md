@@ -29,7 +29,7 @@ Premium analytic capabilities in Viva Engage help licensed users monitor their o
 
 Any user with access to premium Viva Engage will be able to access Engage Analytics through the analytics icon at the top of Viva Engage. Engage admin will be able to manage settings through the Engage admin center within the Viva Engage Teams app.
 
-Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to navigate to the Engage admin center.
+Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to navigate to the [Engage admin center](/Viva/engage/eac-as-access-eac.md).
 
 ![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
 
