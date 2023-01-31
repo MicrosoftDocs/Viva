@@ -165,13 +165,13 @@ Let’s see a few more business examples, and paint the before and after picture
 
 > [!IMPORTANT]
 > 
-> **OKR**: Expand into the Latin American market in order to capture 15% market share from competitors 
+> **OKR**: Expand into the Latin American market in order to capture 15% market share from competitors </br>
 > **Desired result**: A stagnant company with lagging US sales boldly enters a brand new market and disrupts their competition 
 > 
-> **OKR**: Migrate our entire financial system to a modern, cloud-based platform to enable real-time data reporting 
+> **OKR**: Migrate our entire financial system to a modern, cloud-based platform to enable real-time data reporting </br>
 > **Desired result**: An old-school manufacturing company with outdated technology updates their IT systems to create efficiencies that will scale output and lead to faster decision-making 
 > 
-> **OKR**: Launch financial planning services in order to diversify away from the core business of tax preparation 
+> **OKR**: Launch financial planning services in order to diversify away from the core business of tax preparation </br>
 > **Desired result**: A medium-sized tax preparation company reliant on seasonal boom-or-bust revenue diversifies to offer high-margin financial planning services that provide recurring revenue 
 
 ## Summary
