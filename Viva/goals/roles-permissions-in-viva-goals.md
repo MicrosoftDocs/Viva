@@ -217,7 +217,7 @@ An observer is entitled to the following privileges:
 
 - **See all OKRs:** This privilege enables an observer to be aware of, and aligned to, organization, teams, and user priorities, progress, and updates. 
 - **Follow progress:** This privilege enables an observer to receive updates for relevant OKRs. 
-- **Like and comment:** This privilege enables an observer to like and comment on OKRs, check in, and offer activity feed updates. 
+- **Like and comment:** This privilege enables an observer to like and comment on OKRs, and offer activity feed updates. 
 
 ### Adding users as an observer
 
