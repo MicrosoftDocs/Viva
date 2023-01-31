@@ -31,6 +31,10 @@ Through this experience you can:
 - Manage your organizations data retention and export plans 
 - Explore the options for managing various seeded and premium features within Viva Engage  
 
+Navigate to the Engage admin center by selecting the ellipses button from the top navigation of Viva Engage. From the dropdown menu, select **Admin** to enter the admin experience.
+
+![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
+
 ## See also
 [Start using the Engage admin center](/viva/engage/eac-get-started.md.md)
 
