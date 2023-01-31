@@ -343,6 +343,14 @@ Content in the cards is dynamic and will change according to settings in Viva Le
 4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
+## Add a Viva Topics card
+
+Viva Topics has two different cards that can be used on the Viva Connections Dashboard. Viva Connections is a personalized employee experience that surfaces the most important content and tools from across your organization. [Learn more about the two different cards](/topics/viva-topics-card-viva-connections).
+
+![Screenshot Viva Topics Contribute card.](../media/knowledge-management/viva-topics-contribute-card.png) 
+
+
+
 ## Add a Web link card
 
 Add a web link card when you want your users to go to an internal or external link on a web site. 
