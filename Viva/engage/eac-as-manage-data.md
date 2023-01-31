@@ -34,7 +34,7 @@ They are then routed to the Yammer admin center to perform the following actions
     - Reactivate a deactivated account after erasing the user
 
 >[!NOTE]
-> Since Viva Engage is powered by Yammer’s technology, removing a user from the network will delete the user in Yammer and Viva Engage. 
+> Since Viva Engage is powered by Yammer’s technology, removing a user from the network will delete the user in Yammer and Viva Engage.
 
 - Export data to review compliance issues
     - Export data for one user
@@ -44,7 +44,7 @@ They are then routed to the Yammer admin center to perform the following actions
 >[!NOTE]
 > Since Viva Engage is powered by Yammer’s technology, any data generated as part of Viva Engage and Viva Answers feature will be included in the existing Yammer exports.
 
-## See also 
+## See also
 
 ![Access the Engage admin center](/Viva/engage/eac-as-access-eac.md)
 
