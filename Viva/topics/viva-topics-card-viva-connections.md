@@ -12,7 +12,6 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-ROBOTS: NOINDEX, NOFOLLOW
 description: Learn how to add Viva Topics cards to the Viva COnnections Dashboard
 ---
 
