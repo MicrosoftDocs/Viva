@@ -145,12 +145,12 @@ For more information about admin settings in the admin dashboard, see [Navigate 
 ### Viva Engage
 | Role         | What this role does in Viva
 |--------------|-----------|
-|**Viva Engage admin** <br> Assigned by Microsoft 365 global admin|Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Yammer administrators in AAD as Viva Engage is powered by Yammer technology. 
-|**Answers admin** <br> Assigned by Microsoft 365 global admin| Sets up Answers within the Viva Engage application. This role designated by adding a Knowledge manager role in AAD. All Knowledge managers have Answers admin privileges. The Answers admin must be a knowledge manager because Answers is best experienced when integrated with Viva Topics.|
+|**Engage admin** <br> Assigned by Microsoft 365 global admin|Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Yammer administrators in AAD as Viva Engage is powered by Yammer technology. 
+|**Answers admin** <br> Assigned by Microsoft 365 global admin| Sets up Answers within the Viva Engage application. This role is designated by adding a Knowledge manager role in AAD. All Knowledge managers have Answers admin privileges. The Answers admin must be a knowledge manager because Answers is best experienced when integrated with Viva Topics.|
 |**Corporate communicator**<br>Assigned by the Engage admin or a fellow corporate communicator.  |Can create or manage campaigns and define leaders in an organization.
 |**Teams admin** <br>Assigned by Microsoft 365 global admin|Uses the Teams admin center to create setup policies to install the app and assign users.
 
-For more information, see [Manager Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins).
+For more information, see [Manage Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins).
 
 #### Viva Sales
 You need to be a Microsoft 365 administrator to deploy and install the Viva Sales add-in for Outlook. You need to be a Teams administrator to deploy and install Viva Sales for Teams.
