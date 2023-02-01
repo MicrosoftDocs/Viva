@@ -16,7 +16,7 @@ audience: Admin
 
 The advanced insights app can get organizational data in one of two ways: through Azure Active Directory, which is the default setting, or through an organizational data file that you as an admin upload. In this article, we discuss the second option, the organizational data file. Read on to find out what you as an admin need to do to identify, gather, and structure data before uploading organizational data.
 
-To learn about about organizational data in general, find out which data Azure Active Directory automatically syncs with Viva Insights, and to get an overview of the **Organizational data** page in the advanced insights admin experience, refer to [Organizational data in Viva Insights](org-data-overview.md).
+To learn about organizational data in general, find out which data Azure Active Directory automatically syncs with Viva Insights, and to get an overview of the **Organizational data** page in the advanced insights admin experience, refer to [Organizational data in Viva Insights](org-data-overview.md).
 
 >[!Important]
 > After you upload a .csv file with organizational data, you won't be able to switch back to using Azure Active Directory. You'll need to regularly upload .csv files to keep your organizational data current.
