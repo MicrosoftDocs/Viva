@@ -18,6 +18,8 @@ Organizational data is information about your company provided to the advanced i
 
 >[!Note]
 >The app can receive data in one of two ways: from the Azure Active Directory—which is the default source—or through a .csv file that an admin uploads. You can view the current active data source on the **Data hub** tab.
+>
+>Azure Active Directory automatically syncs with the advanced insights app and provides data for the **PersonId**, **ManagerId** and **Organization** attributes. If you want to include more attributes, then you'd want to choose a data file as your source. We describe how to change from Azure Active Directory to a .csv file in [Changing the active source](#changing-the-active-data-source).
 
 The **Organizational data** page includes **Data hub**, **Data connections**, and **Data quality** tabs.
 
