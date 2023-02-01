@@ -12,29 +12,16 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Prepare organizational data
+# Prepare an organizational data file upload
 
-In this article, we discuss the value of organizational data for analysts. We also describe the steps you as an admin need to take to identify, gather, and structure data before uploading organizational data in a .csv file. 
+The advanced insights app can get organizational data in one of two ways: through Azure Active Directory, which is the default setting, or through an organizational data file that you as an admin upload. In this article, we discuss the second option, the organizational data file. Read on to find out what you as an admin need to do to identify, gather, and structure data before uploading organizational data.
 
-## About organizational data
-
-Organizational data is descriptive information about employees. The advanced insights app combines organizational data with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. Depending on the organizational data available, an analyst can uncover these trends and use them to make more effective business decisions.
-
-Here's an example: an analyst might use organizational data to learn how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
-
-Advanced insights automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; it’s organizational data that provides analysis context.
-
-## About data sources
-
-The advanced insights app can get organizational data in one of two ways: through Azure Active Directory, which is the default setting, or through an organizational data file that you as an admin upload. Azure Active Directory automatically syncs with the advanced insights app and provides data for the **PersonId**, **ManagerId** and **Organization** attributes. If you want to include more attributes, for example, those we discuss in [Attribute reference](#attribute-reference), then you'd want to choose a data file as your source.
+To learn about about organizational data in general, find out which data Azure Active Directory automatically syncs with Viva Insights, and to get an overview of the **Organizational data** page in the advanced insights admin experience, refer to [Organizational data in Viva Insights](org-data-overview.md)
 
 >[!Important]
 > After you upload a .csv file with organizational data, you won't be able to switch back to using Azure Active Directory. You'll need to regularly upload .csv files to keep your organizational data current.
 
-*Because Azure Active Directory automatically syncs organizational data, we'll focus on the second method, .csv file uploads, for the rest of this article.*
-
-
-## Prepare the organizational data .csv file
+## Prepare organizational data
 
 When you’re ready to start working with an organizational data file, the following sections guide you through the data-preparation process:
 
