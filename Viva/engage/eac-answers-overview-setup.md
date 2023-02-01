@@ -22,7 +22,7 @@ search.appverid:
 
 # Overview and setup of Answers in Viva Engage
 
-Accessible through the Answers tab in the Viva Engage Teams app, **Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Answers is a conversational experience for asking questions and connecting employees to crowdsourced answers. Natural language processing helps match questions with any existing answers, and the experience rewards people who contribute back to Answers. 
+Accessible through the Answers tab in the Viva Engage Teams app, **Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Answers is a conversational experience for asking questions and connecting employees to crowdsourced answers. Natural language processing helps match questions with any existing answers, and the experience rewards people who contribute back to Answers.
 
 Answers works to connect employees based on their subject matter expertise captured in Viva Topics, to get their questions answered, connect with subject matter experts, and increase their learning.
 
@@ -32,11 +32,11 @@ If Answers is enabled in the Viva Engage Admin Center, users assigned the Viva E
 The users who have not been assigned the Viva Engage Knowledge service plan will receive notifications to questions or answers they have been mentioned in and can visit those threads but are not able to navigate to the rest of the Answers experience.
 
 > [!NOTE]
-> As a prerequisite, the tenant must have Yammer enabled and the user must have access to Yammer services. 
+> As a prerequisite, the tenant must have Yammer enabled and the user must have access to Yammer services.
 
 ## Technical requirements
 
-Answers will be enabled by default for customers that meet the following technical requirements:   
+Answers will be enabled by default for customers that meet the following technical requirements:
 
 1) **Migrate the Yammer network to Native Mode**
 [Native Mode](https://learn.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) is a state of a Yammer network where all users are in Azure AD, all communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This ensures that we can appropriately apply topic permissions and management. Access the [guide to migrate](https://learn.microsoft.com/yammer/configure-your-yammer-network/native-mode-step-by-step-guide) the network to Native Mode.
@@ -49,7 +49,7 @@ All Yammers tenants in Native mode will be migrated to use Viva Topics and there
 
 For customers awaiting topics migration:  
 
-- Microsoft will inform existing Yammer customers with purchased Viva Topics or Viva Suite SKUs when Yammer Topics have been migrated to Viva Topics. Customers will be notified through email when the migration is complete. 
+- Microsoft will inform existing Yammer customers with purchased Viva Topics or Viva Suite SKUs when Yammer Topics have been migrated to Viva Topics. Customers will be notified through email when the migration is complete.
 - Interested tenants can request prioritizing Answers enablement (may include Native Mode Support or Yammer Topics Migration to Viva Topics) by working with their customer account managers / Microsoft support staff for Yammer and filing a support ticket. Microsoft will review these requests and accordingly prioritize the Answers enablement for the tenants requesting them.
 
 To learn about Yammer Topics migration to Viva Topics:
@@ -64,7 +64,7 @@ Installing the Viva Engage app in Teams will provide the best experience for Ans
 
 Answers is backed by an Office 365 group and will follow the default data retention policies set by your organization, unless a unique policy is set for Answers. The Answers backing group will be auto-provisioned when the first question is posted or first question attachment is created. At the time of creation all tenant admins will be assigned as owners of the backing group, titled **Group for Answers in Viva Engage – DO NOT DELETE.**  
 
-Owners of the backing group should ensure Answers maintains compliance with your network policies and does not get accidentally deleted. Data can be exported by admins if deleting the backing Office 365 group is desired. If the backing group is deleted, Answers will not be functional. Please note that a soft delete would be recoverable if remediated within 30 days, and that a hard delete would result in permanent loss of data. 
+Owners of the backing group should ensure Answers maintains compliance with your network policies and does not get accidentally deleted. Data can be exported by admins if deleting the backing Office 365 group is desired. If the backing group is deleted, Answers will not be functional. Please note that a soft delete would be recoverable if remediated within 30 days, and that a hard delete would result in permanent loss of data.
 
 Answers data will be available in [eDiscovery](https://learn.microsoft.com/yammer/manage-security-and-compliance/overview-of-ediscovery) for identifying and delivering electronic information that can be used as evidence in legal cases.  
 
@@ -81,7 +81,7 @@ Only an Office 365 tenant admin (Global admin) can change Answers state of enabl
 1. As a tenant admin, navigate to the Viva Engage Teams app.  
 2. In the top right menu, select the ellipses button (...) to expose admin options.  
 3. Select **Admin** to navigate to the Engage admin center.  
-4. Select the **Answers** button within the **Feature management** tab to open Answers configuration options. 
+4. Select the **Answers** button within the **Feature management** tab to open Answers configuration options.
 
 < image >
 

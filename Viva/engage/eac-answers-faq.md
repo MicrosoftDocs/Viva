@@ -23,34 +23,35 @@ search.appverid:
 # Answers in Viva Engage: Frequently asked questions (FAQ)
 
 **What license is required to use Answers?**
-A license to Viva Engage Knowledge service plan is required to use Answers. This service plan will be available as part of purchasing either Viva Suite or Viva Topics SKUs. 
+A license to Viva Engage Knowledge service plan is required to use Answers. This service plan will be available as part of purchasing either Viva Suite or Viva Topics SKUs.
 
-**Can unlicensed users use Answers?** 
-Unlicensed users will receive notifications to questions or answers they have been mentioned in. Unlicensed users can also visit the question they are mentioned in but will not be able to navigate to the rest of the Answers experience.  
+**Can users not assigned the Viva Engage Knowledge service plan use Answers?**
+Users not assigned the Viva Engage Knowledge service plan will receive notifications to questions or answers they have been mentioned in and can visit the question they are
 
 **Where can I access resources for Answers adoption practices?**
-Access the Adoption guide through [this link](https://microsoft.sharepoint.com/:p:/t/xn--yammermarketingninjas-h097i/ERNummXewUdAmVKoibvexrYBuk9AR4vJEpVQ0OTbW4q7BA?e=pzGu8b) and the Adoption FAQ through this link. 
+Navigate [here](https://adoption.microsoft.com/viva/engage/) to learn more about Answers adoption in Viva Engage.
 
 **Will questions posted be visible to everyone in my company?**
-Answers will be open to anyone in your organization with Viva suite or Viva Topics licenses. Answers posts can be routed to anyone in your organization with an Microsoft 365 license, but the employee will only be able to access the individual thread and will not be able to access other parts of Answers.  
+Answers will be open to anyone in your organization with Viva suite or Viva Topics licenses. Answers posts can be routed to anyone in your organization with an Microsoft 365 license, but the employee will only be able to access the individual thread and will not be able to access other parts of Answers.
 
-**Can admins disable the automated emails sent to their organization?**
-Currently, admins are not able to configure or disable the automated emails from Viva Answers. 
+**Can admins disable the Answers Digest sent to their organization?**
+Currently, admins are not able to configure or disable the automated Answers Digest emails from Viva Answers.
 
-**Is guest access permitted for Answers?** 
+**Is guest access permitted for Answers?**
 Answers does not support guest access.
 
 **Can our organization use Answers without Viva Topics?**
-Answers will work without Topics fully rolled out to your organization. But, the best experience for Answers is when it is used alongside Viva Topics. Topics connects the knowledge of an organization with employees and helps with routing of questions to the people that are more likely able to provide an answer. Answers uses Viva Topics to organize question conversations. 
+Answers uses Viva Topics to organize question conversations. Answers will continue to work for users who do not have a Viva Topics license assigned but they will require a license to the Viva Engage Knowledge service plan, which is bundled into Viva Topics or Viva Suite. The best Answers experience is when it is used alongside Viva Topics. Topics connects the knowledge of an organization with employees and helps with routing of questions to the people that are more likely able to provide an answer. When Viva Topics are mined, curated, and managed, the Answers digest routing and questions for you feed are improved as well as other aspects of Answers.
 
 **Why can’t users in my organization access Answers?**
-Please check that your Yammer network meets technical requirements, and your users have the correct license to access Answers. Your Yammer network must be in Native mode and have legacy Yammer topics migrated to Viva Topics.  
+Please check that your Yammer network meets technical requirements, and your users have the correct license to access Answers. Your Yammer network must be in Native mode and have legacy Yammer topics migrated to Viva Topics.
 
-**What license is required to earn Answers badges?**
-A license to the Viva Engage Knowledge service plan is required to start earning Answers badges and must be assigned by an admin. This service plan will be available by purchasing either the Viva Suite or Viva Topics SKUs. 
- 
-**What happens to users badges if the admin control is turned from on to disabled?**
-All the badges earned by users will be deleted and no data will be processed when the control of rewards and recognition is disabled. This means that the badges earned by users will be lost and they will not be able to get them back, unless they start earning them back again.  
+## See also
 
-## See also 
-[Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
+[Overview and setup of Answers in Viva Engage](/Viva/engage/eac-answers-overview-setup.md)
+
+[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios.md)
+
+[Announcing Answers in Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/announcing-answers-in-microsoft-viva/ba-p/3634288)
+
+[Rewards and recognition in Viva Engage](/Viva/engage/badges.md)

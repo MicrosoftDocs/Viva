@@ -23,71 +23,65 @@ search.appverid:
 
 # View and manage analytics in Viva Engage
 
-Premium analytic capabilities in Viva Engage help licensed users monitor their own engagement metrics (personal analytics), leaders monitor their audience’s engagement (audience analytics), manage social campaign engagement (campaign analytics), and monitor engagement in Answers (Answers analytics).  
-
-## Access analytics
-
-While any user with access to premium Viva Engage will be able to access Engage Analytics, only Engage Admins will be able to manage settings through the Engage admin center.
-
-Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to navigate to the [Engage admin center](/Viva/engage/eac-as-access-eac.md).
-
-![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
+Premium analytic capabilities in Viva Engage help licensed users monitor their own engagement metrics (personal analytics), leaders monitor their audience’s engagement (audience analytics), manage social campaign engagement (campaign analytics), and monitor engagement in Answers (Answers analytics). View analytics by selecting the analytics icon on the top navigation bar.
 
 ## Manage analytics
 
-Global admins and Engage admins can configure, enable, and disable analytics features via the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Engage admin center and select **Manage analytics**.
+While any user with access to premium Viva Engage will be able to access Engage Analytics, only *Engage admins* can manage settings through the Engage admin center.
 
-![Image of Engage Admin Center for managing Analytics.](/Viva/media/engage/manage-analytics.png)
+Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to enter the [Engage admin center](/Viva/engage/eac-as-access-eac.md).
+
+![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
+
+Office365 (Global) admin and Engage admin can configure, enable, and disable analytics features through the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Engage admin center and select **Manage analytics**.
+
+![Image of Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)
+
+![Image of settings an admin will see when managing Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)
 
 >[!NOTE]
-> Any leader’s delegates or delegate managers have visibility into the leader’s audience and personal analytics. A leader's audience must have at least 75% of users licensed in order for audience analytics to be visible.
+> Any leader’s delegates or delegate managers have visibility into the leader’s audience and personal analytics. A leader's audience must have at least 75% of users licensed for audience analytics to be visible.
 
-## Manage Audience analytics  
+## Audience analytics  
 
 Engage admins can adjust the level of sentiment analysis that is available to leaders and their delegates through the **Audience Analytics** dashboard. This allows for unique levels of sentiment collection either at the audience level, theme-level, or conversation level.
 
-## Manage Global Answers analytics
+Audience analytics help leaders and delegates monitor engagement within their audience on Viva Engage. Audience analytics can be accessed from the analytics icon on the top navigation bar or through the leader's Storyline page.
 
-Engage admins can manage metrics for **Answers** within their organization once they have the knowledge license. They can choose to enable or disable:
+![View of Audience Analytics landing page.](/Viva/media/engage/admin/audience-analytics.png)
+
+## Global Answers analytics
+
+Engage admins can manage metrics for **Answers** within their organization once they have the knowledge license.
+
+![View of Global Answers Analytics landing page.](/Viva/media/engage/admin/global-answers-analytics.png)
+
+Admin can choose to enable or disable:
 
 - **Top contributors:** This displays top contributors who ask questions, post answers, and earn answer badges
 - **Top badge earners:** This displays users who have earned the most badges across the organization  
 - Advanced metrics like **time saved** and **people helped** to display impact  
 
-## Access Personal analytics  
+## Personal analytics  
 
-All licensed users have access to analytics that help monitor the engagement on any of their posts in Viva Engage. Personal analytics can be accessed directly from the home feed and the storyline page of Engage.
+All licensed users have access to Personal analytics that help monitor the engagement on any of their Storyline or community posts in Viva Engage.
 
-![View of right navigation module for Personal Analytics](/Viva/media/engage/IMG/see-full-personal-analytics.png)
-
-![View of Personal Analytics access from Home](/Viva/media/engage/IMG/analytics-from-home.png)
-
-![View of Personal Analytics access from Storyline](/Viva/media/engage/IMG/analytics-from-profile.png)
-
-![View of dashboard for Personal Analytics](/Viva/media/engage/IMG/personal-analytics-view.png)
-
-## Access Audience analytics
-
-Leaders and delegates have access to analytics that help monitor engagement within a leader’s audience on Viva Engage and Yammer. Audience analytics can be accessed from the top navigation bar and/or their Storyline profile page.  
-
-![NEEDS update](/Viva/media/engage/campaigns/create-campaign-button.png)
+![View of Personal Analytics landing page.](/Viva/media/engage/admin/personal-analytics-admin.png)
 
 ## Access Campaign Analytics  
 
-Engage admin and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed from the campaign management dashboard and the campaign landing page.
+Engage admin and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed from the campaign management dashboard, the campaign landing page, or through the analytics icon on the top navigation menu of Viva Engage.
 
-![NEEDS update](/Viva/media/engage/campaigns/create-campaign-button.png)
-![NEEDS update](/Viva/media/engage/campaigns/create-campaign-button.png)
+![View of Campaign Analytics landing page.](/Viva/media/engage/admin/campaign-analytics.png)
 
-Engage admins can choose to enable or disable the top content creator feature for the organization. Enabling this feature displays employees and leaders who create the most campaign posts.  
+> [!NOTE]
+> Engage admins can also choose to enable or disable the top content creator feature for the organization. Enabling this feature displays employees and leaders who create the most campaign posts.
 
-## Frequently asked questions 
+## Frequently asked questions
 
-**What does the scope of analytics include?** Personal analytics are based only on your posts in Viva Engage. 
+**How often are analytics updated?** Analytics refresh daily (every 24 hours). If you don’t see changes reflected right away, check analytics the next day.
 
-**How often are analytics updated?** Analytics refresh daily (every 24 hours). If you don’t see changes reflected right away, check analytics the next day. 
-
-**Where can users access Analytics from?** Analytics can be accessed from the right rail of your storyline page.
+**Where can users access Analytics from?** Analytics can be accessed from the top navigation bar of Viva Engage by selecting the analytics icon.
 
 **Why can't my leader/delegate see audience analytics?** A leader and their delegate must be licensed users in order to view audience analytics. Additionally, at least 75% of the leader's audience must have a premium license for audience analytics to be visible to the leader or their delegate(s).
 

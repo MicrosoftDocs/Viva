@@ -22,7 +22,7 @@ search.appverid:
 
 # Manage and set up campaigns in Viva Engage
 
-Campaigns are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging. Campaigns can be created, managed, and deleted by Global admins, Engage admins, and corporate communicators. 
+Campaigns are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging. Campaigns can be created, managed, and deleted by Global admins, Engage admins, and corporate communicators.
 
 ## Set up a campaign
 
