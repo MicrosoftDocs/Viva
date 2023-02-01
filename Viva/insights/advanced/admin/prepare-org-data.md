@@ -26,10 +26,10 @@ To learn about about organizational data in general, find out which data Azure A
 When you’re ready to start working with an organizational data file, the following sections guide you through the data-preparation process:
 
 * [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
-* [Know what data to include in a data file](#know-what-data-to-include-in-a-data-file) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
+* [Know what data to include](#know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
 * [Get an export of organizational data](#get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
-* [Structure the organizational data file](#structure-the-organizational-data-file) – For your data to validate successfully, you need to first structure it correctly in the.csv file that you upload.
-* [Upload the data file](#upload-the-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
+* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the.csv file that you upload.
+* [Upload the organizational data file](#upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
 
 ### Identify trends that you want to analyze
 
@@ -172,7 +172,7 @@ PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Ar
 
 For more information about attributes, refer to the [Attribute reference](#attribute-reference) section.
 
-## Upload the organizational data .csv file
+## Upload the organizational data file
 
 After you create a source .csv file, you can upload it to the advanced insights app through the **Organizational data page > Data hub** or **Data connections** tab.
 
