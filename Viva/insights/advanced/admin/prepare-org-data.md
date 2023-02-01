@@ -14,37 +14,37 @@ audience: Admin
 
 # Prepare organizational data
 
-In this article, we discuss the value of organizational data for analysts. We also describe the steps you as an admin need to take to identify, gather, and structure data before uploading organizational data in a .csv file. To learn more about the nature and use of organizational data, refer to [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis).
+In this article, we discuss the value of organizational data for analysts. We also describe the steps you as an admin need to take to identify, gather, and structure data before uploading organizational data in a .csv file. 
+
+## About organizational data
+
+Organizational data is descriptive information about employees. The advanced insights app combines organizational data with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. Depending on the organizational data available, an analyst can uncover these trends and use them to make more effective business decisions.
+
+Here's an example: an analyst might use organizational data to learn how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
+
+Advanced insights automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; it’s organizational data that provides analysis context.
 
 ## About data sources
 
 The advanced insights app can get organizational data in one of two ways: through Azure Active Directory, which is the default setting, or through an organizational data file that you as an admin upload. Azure Active Directory automatically syncs with the advanced insights app and provides data for the **PersonId**, **ManagerId** and **Organization** attributes. If you want to include more attributes, for example, those we discuss in [Attribute reference](#attribute-reference), then you'd want to choose a data file as your source.
 
-We focus on .csv file uploads in this article.
-
 >[!Important]
 > After you upload a .csv file with organizational data, you won't be able to switch back to using Azure Active Directory. You'll need to regularly upload .csv files to keep your organizational data current.
 
+*Because Azure Active Directory automatically syncs organizational data, we'll focus on the second method, .csv file uploads, for the rest of this article.*
 
-## Overview
 
-When you’re ready to start working with organizational data, the following sections guide you through the data-preparation process:
+## Prepare the organizational data .csv file
+
+When you’re ready to start working with an organizational data file, the following sections guide you through the data-preparation process:
 
 * [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
-* [Know what data to include](#know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
+* [Know what data to include in a data file](#know-what-data-to-include-in-a-data-file) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
 * [Get an export of organizational data](#get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
-* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the.csv file that you upload.
-* [Upload the data](#upload-the-data) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
+* [Structure the organizational data file](#structure-the-organizational-data-file) – For your data to validate successfully, you need to first structure it correctly in the.csv file that you upload.
+* [Upload the data file](#upload-the-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
 
-## Use an organizational data file for more effective analysis
-
-Organizational data is descriptive information about employees. After you upload organizational data, the advanced insights app combines it with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
-
-Here's an example: after the organizational data is uploaded in the advanced insights app, an analyst might use it to learn how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
-
-Advanced insights automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; it’s the organizational data that you upload that provides analysis context.
-
-## Identify trends that you want to analyze
+### Identify trends that you want to analyze
 
 To know what organizational data to extract, you first need to decide what workplace trends you want to learn about. For example, in an upcoming analysis, you may want to examine collaboration across different employee segments, or groups. You need to first define these groups, which you can do in various ways:
 
@@ -54,7 +54,7 @@ To know what organizational data to extract, you first need to decide what workp
 
 Defined groups can be used in the following examples of analyses:
 
-### Collaboration between groups
+#### Collaboration between groups
 
 A common analysis scenario is to find patterns of collaboration between different groups of employees. For example, you might want to know how much your product marketing team is talking to your sales team.
 
@@ -67,7 +67,7 @@ Attributes for segmenting populations can be helpful to consider in defining pat
 
 Most of these attributes are available within HR information systems.
 
-### Hierarchical collaboration
+#### Hierarchical collaboration
 
 It’s also common to seek patterns of collaboration behavior in reference to the hierarchy of your organization, as well as to quantify collaboration between managers and individual contributors, and between higher and lower levels and layers in the organization.
 
@@ -81,17 +81,17 @@ The following concepts are helpful in this kind of analysis:
 
 Most of these attributes are also found in HR information systems.
 
-### Collaboration, engagement, and outcome data
+#### Collaboration, engagement, and outcome data
 
 Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data, such as sales-quota attainment or high/low performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
 
-## Know what data to include in a data file
+### Know what data to include
 
 To get full functionality from the advanced insights app, you need to supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
 
 Examples of organizational data include job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to the advanced insights app at the individual level, which means that these attributes provide context to each person in the dataset.
 
-### Employees to include
+#### Employees to include
 
 At a minimum, include the organizational data for all employees who have Viva Insights licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup—that is, a specific target population within the company.
 
@@ -99,17 +99,17 @@ For example, if the people in Marketing communicate frequently with the people i
 
 If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
 
-### Including all licensed employees
+##### Including all licensed employees
 
 It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: data that includes the right people and includes the right attributes for those people.
 
 The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts can't filter by that data when they build a query on the **Analysis** page. So, employees whose data is missing will be excluded from the analyses that analysts perform.
 
-#### Notification of missing data
+##### Notification of missing data
 
 If the app detects that data is missing for one or more licensed employees, it alerts admins through a pop-up notification in the top-right corner of the **Data connections** tab.
 
-##### Upload missing organizational data
+###### Upload missing organizational data
 
 To upload this missing data, the admin can follow these steps:
 
@@ -120,7 +120,7 @@ To upload this missing data, the admin can follow these steps:
 
 In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees, as we explained [earlier](#including-all-licensed-employees).
 
-### Get an export of organizational data
+#### Get an export of organizational data
 
 Before you format and upload organizational data, you need to get it from one or more sources. Your primary source is the team that manages your organization's HR information systems. This team will need to provide you with a data export of HR attributes for individual employees.
 
@@ -133,13 +133,13 @@ In addition, your analysts might need data about business outcomes. If so, you'l
 
 After you get this data, you'll need to structure it for successful processing after uploading it to the app.
 
-## Structure the organizational data file
+### Structure the organizational data
 
 After you’ve identified what data to provide, you need to export it into the correct format for uploading it. To start with, the data needs to be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. 
 
 The file name needs contain only alphanumeric characters (letters and numbers), with no spaces or special characters—for example, FileName2.csv.
 
-### Required attributes
+#### Required attributes
 
 Supply the following attributes as column headers, exactly as written below, in the .csv upload.<!--, of which **PersonId** and **ManagerId** are not case sensitive, but **Organization** is.-->
 
@@ -165,7 +165,7 @@ The following attributes are reserved column headers for attributes that are cur
 >[!Note]
 >Attributes can be in any order in the file. However, the names of these required and reserved attributes can't be used as the names of any new custom attributes.
 
-### Custom attributes
+#### Custom attributes
 
 Custom attributes are any additional attributes you want to define to use in filtering and grouping data. When you upload these attributes, analysts can use them when building queries. To learn how to upload custom attributes, refer to [Upload organizational data (first upload)](upload-org-data-first.md). 
 
@@ -177,7 +177,7 @@ Custom attributes are any additional attributes you want to define to use in fil
 
 For more information, see Attribute descriptions and data-coverage requirements.
 
-### Example .csv export file
+#### Example .csv export file
 
 Here's an example snippet of a valid .csv export file:
 
@@ -185,7 +185,7 @@ PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Ar
 
 For more information about attributes, refer to the [Attribute reference](#attribute-reference) section.
 
-## Upload the data file
+## Upload the organizational data .csv file
 
 After you create a source .csv file, you can upload it to the advanced insights app through the **Organizational data page > Data hub** or **Data connections** tab.
 
@@ -193,7 +193,7 @@ If this is the first time that you'll upload organizational data, refer to [Uplo
 
 After your data has been successfully uploaded, the app performs additional validation and processing to complete provisioning.
 
-## How often to upload an organizational data file
+## How often to upload an organizational data .csv file
 
 It's recommended that you upload employee data at least once a month to keep data fresh and analysis relevant. Soon after an employee data upload has succeeded, the updated data becomes available for users to see as insights in the app.
 
