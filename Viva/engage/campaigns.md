@@ -70,26 +70,30 @@ Corporate communicators can manage campaigns by:
 
 ![View of the UI dropdown for publishing and deleting a campaign](/Viva/media/engage/campaigns/publish-campaign-button.png)
 
-Once a campaign is published, it becomes **Active** in the campaign management dashboard and the campaign landing page will be visible to anyone who selects a post or comment with the verified campaign hashtag.
+Once a campaign is published, it becomes **Active** in the campaign management dashboard and the campaign landing page will be visible to any Viva Engage licensed user who selects a post or comment with the verified campaign hashtag.
 
 > [!NOTE]
 > The three campaigns that populate to the **Active campaigns** module on the right navigation are ordered based on number of followers. Once a campaign is followed, it will no longer be visible in the **Active campaigns** module and will be replaced with a new campaign.  
 
-Once a campaign has ended, the follow button and default publisher on the campaign landing page will be disabled. However, people can still post in communities and storylines using the campaign hashtag and those posts will accumulate in the campaign landing page.
+Once a campaign has ended, the follow button and default publisher on the campaign landing page will be disabled. However, people can still post in communities and Storylines using the campaign hashtag and those posts will accumulate in the campaign landing page.
 
 ## Build campaign awareness  
 
-Users can access and discover campaigns through various methods.  
+Users can discover campaigns through posts containing the verified campaign hashtag or through the campaigns discovery modules throughout Viva Engage.
 
 - **Verified Campaign Hashtag**
-    - By selecting a post or comment that has the verified campaign hashtag, users will be routed to the campaign landing page where they can follow the campaign. Once a user follows a campaign, they will see **Followed campaigns** in the right rail of their profile page.  
+    - By selecting a post or comment that contains the verified campaign hashtag, users will be routed to the campaign landing page where they can follow the campaign.
 
-Note: To build campaign awareness, campaign managers should share as many posts as possible with the campaign hashtag to their storyline and in communities. The campaign link can also be shared through posts, emails, and Microsoft Teams chats for users to easily access the campaign landing page.
+> [!NOTE]
+> To build campaign awareness and reach, campaign managers and leaders across the organization are encouraged to share as many posts as possible with the campaign hashtag to their Storyline and in communities. The campaign link can also be shared through posts, emails, and Microsoft Teams chats for users to easily access the campaign landing page.
 
-- **Active campaigns module**
-    - On the home page, users will see an **Active campaigns** module on the right navigation. This will inform users of existing campaigns to follow.  
+- **Campaigns modules**
+    - **Active campaigns** module: On the right side of the Home feed, users will see an Active campaigns module with current campaigns to participate in and follow.
+    - **Followed campaigns** module: After following a campaign, users will see a Followed campaigns module on the right side of their Storyline.
+    - **Sponsored campaigns** module: On the right side of Leadership Corner, there is a Sponsored campaigns module to help users discover campaigns sponsored by leaders they may be interested in.
 
-Note: Users can participate in any campaign from the Home feed, in a community, on a storyline, or from the campaign landing page by creating or commenting on a post using the campaign hashtag.
+> [!NOTE]
+> Users can participate in any campaign from the Home feed, in a community, on a Storyline, or from the campaign landing page by creating or commenting on a post using the campaign hashtag.
 
 ## Manage campaign analytics and engagement
 
