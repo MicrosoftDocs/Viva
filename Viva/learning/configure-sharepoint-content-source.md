@@ -99,7 +99,7 @@ To configure SharePoint as a learning content sources in for Viva Learning, foll
 
    4. If your organization uses [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) and you try to add a link to a folder that doesn't belong to the central location, you'll get an error message. All folders need to belong to the central location.
     In case you encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers) for a detailed summary of successful and failed content ingestion.
-   1
+   
        ![Error message in the New item panel saying that all uploaded folders need to be in the central location.](../media/learning/learning-sharepoint-configure-geo2.png)
 
     e.  In case you encounter issues with content, refer to the export log file for a detailed summary of successful and failed content ingestions.
@@ -234,14 +234,14 @@ Knowledge admins can access their organization's Learning App Content Repository
 1. Look for the SharePoint provider and select the ellipses (**...**).
 1. Select **Configure Provider**.
 
-![Image of the Configure Provider option that can be accessed through manage providers](../media/learning/sharepoint-display-name1.png)
+![Screenshot of the Configure Provider option that can be accessed through manage providers.](../media/learning/sharepoint-display-name1.png)
 
 The display name is the organization or tenant name by default.
 
 5. Update display name.
 6. Click **Save**.
 
-![Image of a configured SharePoint display name with the option to save](../media/learning/sharepoint-display-name2.png)
+![Screenshot of a configured SharePoint display name with the option to save.](../media/learning/sharepoint-display-name2.png)
 
 
 ### Delete content
