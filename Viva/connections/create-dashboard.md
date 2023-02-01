@@ -422,7 +422,7 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 
    2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you will see a disabled **Audience targeting** label).
 
-      :::image type="content" alt-text="This screenshot shows the audience targeting group label." source-"../media/connections/preview-audiences.png':::
+      :::image type="content" alt-text="This screenshot shows the audience targeting group label." source="../media/connections/preview-audiences.png":::
 
 
    3. Search for and select a group. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
