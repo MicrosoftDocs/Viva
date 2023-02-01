@@ -158,7 +158,7 @@ You can choose the **Card designer** option to design your own card that include
 
 2. Select **Card designer**.
 
-   ![Adding a Card designer card](../media/connections/card-designer-card-icon.png)
+   :::image type="content" alt-text="This screenshot shows the icon to select to add a Card designer card." source="../media/connections/card-designer-card-icon.png":::
 
 3. In the **property** pane, select your card options.
 
@@ -210,8 +210,7 @@ A Teams app card allows you to create a card for an existing Teams app.
 
 2. Select **Teams app** from the web toolbox.
 
-   ![Adding a Teams app card.](../media/connections/teams-app-icon.png)
-
+   :::image type="content" alt-text="This screenshot shows the icon to select to add a Teams app card." source="../media/connections/teams-app-icon.png":::
 
 3. In the **property** pane on the right side of the page, select your options.
 
@@ -223,8 +222,6 @@ A Teams app card allows you to create a card for an existing Teams app.
     - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
     - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
 7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
-
-
 
 ## Add a third party card or Microsoft app
 
@@ -246,7 +243,7 @@ Third-party cards and an entry point to browse more cards in the app store will 
 > - Site owners managing the Viva Connections dashboard will need to request third-party apps before they are available in the card toolbox.
 > - Some third-party apps require a service plan agreement with your organization.
 
-   ![Screenshot of the card toolbox section that displays third party cards.](../media/connections/third-party-card-toolbox.png)
+   :::image type="content" alt-text="This screenshot is of the card toolbox section that displays third party cards." source="../media/connections/third-party-card-toolbox.png":::
 
 1.	While in edit-mode, select **+ Add** card from the dashboard. 
 2.	You’ll see third-party options in the **Suggested cards** section. Select one of the cards that’s displayed or browse more cards by selecting **Add more cards**.
@@ -352,7 +349,6 @@ Viva Topics has two different cards. The **Viva Topics Contribute card** can be 
 ![Screenshot Viva Topics Contribute card.](../media/knowledge-management/viva-topics-contribute-card.png) 
 
 
-
 ## Add a Web link card
 
 Add a web link card when you want your users to go to an internal or external link on a web site. 
@@ -363,7 +359,7 @@ Add a web link card when you want your users to go to an internal or external li
 
 2. Select **Web link** from the web toolbox.
 
-   ![Adding a web link card.](../media/connections/web-link-icon.png)
+   :::image type="content" alt-text="This screenshot shows the icon to select to add a web link card." source="../media/connections/web-link-icon.png":::
 
 3. In the property pane on the right side of the page, select your options.
 
@@ -426,7 +422,7 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 
    2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you will see a disabled **Audience targeting** label).
 
-      ![Audience targeting group label.](../media/connections/preview-audiences.png)
+      :::image type="content" alt-text="This screenshot shows the audience targeting group label." source-"../media/connections/preview-audiences.png':::
 
 
    3. Search for and select a group. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
@@ -451,7 +447,7 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 
 ## Use the Dashboard web part for Viva Connections
 
->[!NOTE] 
+> [!NOTE] 
 > - After editing content on the Dashboard, it may take several minutes until the new content is available in the Dashboard web part.
 > - For best results, we recommend placing the Dashboard web part in a right vertical section.
 
@@ -465,7 +461,7 @@ When added, it will automatically be populated with the cards from the existing 
 ## How URLs and single Sign-on works
 For some cards, you will use links to URLs. Depending on the location of the content, links to URLs may display content in Microsoft Teams or elsewhere and [Single sign-on (SSO)](/azure/active-directory/manage-apps/what-is-single-sign-on) behavior can differ. Get more information about how links to URLs and SSO behave depending on the location of the content you are linking to.
 
->[!NOTE] 
+> [!NOTE] 
 > When SSO is not supported, users will be asked to enter their login credentials.
 
 | Content source | Opens URL to… | Supports SSO          |
@@ -478,8 +474,6 @@ For some cards, you will use links to URLs. Depending on the location of the con
 | Power Portals  | Teams | Yes  |
 | Stream  | Teams | Yes    |
 | External Links  | Teams | No  |
-
-
 
 
 ## More resources
