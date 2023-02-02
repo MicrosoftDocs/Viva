@@ -41,7 +41,7 @@ To set up Rewards and recognition for your organization, navigate to the **Featu
 
 ![Image of the interface for Rewards and recognition in the Engage admin center.](/Viva/media/netnew/badges-eac.png)
 
-Once redirected, the O365 (Global) and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**.
+Once redirected, the Global and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**.
 
 [![Image of the interface for Answers badges settings in the Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
 
