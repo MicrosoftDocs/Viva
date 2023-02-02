@@ -6,7 +6,7 @@ Org Explorer helps you visualize and explore your company’s internal structure
 
 Org Explorer is available in Outlook.
 
-IMAGE
+![Image of Org Explorer in Outlook for Windows desktop.](../media/people-in-viva/org-explorer.jpg)
 
 |#  |Element  |Function
 |----------|-----------|------------|
@@ -22,9 +22,9 @@ IMAGE
 
 The organizational information you see about users in Org Explorer is from Azure Active Directory – AAD. [Learn more about user information](https://learn.microsoft.com/graph/api/resources/users?view=graph-rest-1.0).
 
-## How is Works With data generated?
+## How is the "Works With" data generated?
 
-The data in the Works With section is based on public relationships, like in-common meetings, email, and other collaboration patterns. The insights are returned by the people API.
+The data in the "Works With" section is based on public relationships, like in-common meetings, email, and other collaboration patterns. The insights are returned by the people API.
 
 To turn off Works with section, see [Customizing people insights privacy in Microsoft Graph](https://learn.microsoft.com/graph/insights-customize-people-insights-privacy).
 
@@ -34,7 +34,7 @@ If a user is enabled for Microsoft Viva, they are also enabled to use Org Explor
 
 ## Removing Org Explorer
 
-You can turn off Org Explorer by contacting Microsoft support. To contact support, you can use in-app support in Outlook for desktop or the Microsoft 365 admin center.
+You can turn off Org Explorer by contacting Microsoft support. To contact support, you can use in-app support in Outlook for desktop or the Microsoft 365 admin center (see sections below).
 
 Note: When Org Explorer is disabled users will still see the app icon in Outlook. If a user selects the app in Outlook, a message will indicate that Org Explorer is disabled.
 
@@ -61,8 +61,8 @@ Enter a description of your request, confirm your contact number and email addre
 
 ## Additional resources
 
-[Org Explorer](https://support.microsoft.com/topic/40c65909-b12d-4ab9-8d6c-a1592789dc8e)
+[Org Explorer](https://go.microsoft.com/fwlink/?linkid=2224220)
 
-[Explore your organization](https://support.microsoft.com/topic/view-and-explore-your-organization-760c1739-86c2-4430-aefe-d848dec767b2)
+[Explore your organization](https://go.microsoft.com/fwlink/?linkid=2223751)
 
-[Search for a person](https://support.microsoft.com/topic/search-for-a-person-in-org-explorer-e3f31b58-cac3-4b0c-aeca-c2f7afcec6b2)
+[Search for a person](https://go.microsoft.com/fwlink/?linkid=2224126)
