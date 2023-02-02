@@ -146,8 +146,8 @@ For more information about admin settings in the admin dashboard, see [Navigate 
 | Role         | What this role does in Viva |
 |--------------|-----------|
 |**Engage admin** <br> Assigned by Microsoft 365 global admin|Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Yammer administrators in AAD as Viva Engage is powered by Yammer technology. |
-|**Answers admin** <br> Assigned by Microsoft 365 global admin| Sets up Answers within the Viva Engage application. This role is designated by adding a Knowledge manager role in AAD. All Knowledge managers have Answers admin privileges. The Answers admin must be a knowledge manager because Answers is best experienced when integrated with Viva Topics.|
-|**Corporate communicator**<br>Assigned by the Engage admin or a fellow corporate communicator.  |Can create or manage campaigns and define leaders in an organization. |
+|**Answers admin** <br> Assigned by Microsoft 365 global admin| Sets up Answers within the Viva Engage application. This role is designated by adding a Knowledge manager role in AAD. All Knowledge managers have Answers admin privileges. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. Find more information about assigning an [AAD role to a group](/azure/active-directory/roles/groups-pim-eligible) or how to [create a role-assignable group](/azure/active-directory/roles/groups-create-eligible).|
+|**Corporate communicator**<br>Assigned by the Engage admin or a fellow corporate communicator.  |Can create or manage campaigns and define leaders and audiences in an organization.|
 |**Teams admin** <br>Assigned by Microsoft 365 global admin|Uses the Teams admin center to create setup policies to install the app and assign users. |
 
 For more information, see [Manage Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins).
