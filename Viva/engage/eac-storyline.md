@@ -37,7 +37,7 @@ Office 365 (Global) admins and Engage admins can manage Storyline for their orga
 
 Under the **Feature management** tab within the Engage admin center, select **Storyline** to customize settings.
 
-![Image of the entrypoint into managing Storyline settings.](/Viva/media/engage/admin/storyline-eac.png)
+![Image of the entrypoint into managing Storyline settings.](/Viva/media/engage/admin/storyline-eac-updated.png)
 
 >[!NOTE]
 > Storyline must be enabled before you can enable stories.
@@ -78,16 +78,16 @@ Storyline is built on the same content and conversation platform as community me
 * eDiscovery through the compliance portal for native mode networks  
 * Storyline content is available via network export
 * Files shared through Storyline are stored in OneDrive and are subject to any governance you already have in place
-* Storylines supports the same “[Report a conversation](/yammer/manage-yammer-groups/configure-conversation-reporting)” feature available for community conversations
+* Storylines supports the same [Report a conversation](/yammer/manage-yammer-groups/configure-conversation-reporting) feature available for community conversations
 * Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy
 
-In addition to the capabilities listed above, Storyline also features a feed that includes all Storyline posts sorted by the date the Storyline conversation was started. To access this feed, go to the Storyline landing page. While on the feed, click the filter icon in the upper right corner of the feed to switch the filter to **All**.
+In addition to the capabilities listed above, Storyline also features a feed that includes all Storyline posts sorted by the date the Storyline conversation was started. To access this feed, go to the Storyline landing page. While on the feed, select the filter icon in the upper right corner of the feed to switch the filter to **All**.
 
 #### Security, compliance, and governance for files uploaded to Storyline posts and stories
 
 Storyline posts and stories are backed by Yammer services. Compliance for posts and stories are therefore the same as the rest of Viva Engage. If you are in native mode, posts are ingested into the substrate and support the same compliance and e-Discovery capabilities as posts in communities, including communications compliance and retention. Because files are stored in OneDrive, they inherit security and compliance policies configured for files in OneDrive.
 
-When users are deleted—for example when an individual leaves the company—the system follows the Microsoft 365 user deletion process described in the section called **Delete a user** in the “[Manage Yammer users across their lifecycle from Office 365 – Yammer | Microsoft Docs.](/yammer/manage-yammer-users/manage-users-across-their-lifecycle)”
+When users are deleted—for example when an individual leaves the company—the system follows the Microsoft 365 user deletion process described in the **Delete a user** section in the [Manage Yammer users across their lifecycle from Office 365](/yammer/manage-yammer-users/manage-users-across-their-lifecycle) article.
 
 ## File storage for Storyline
 
