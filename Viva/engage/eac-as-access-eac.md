@@ -43,33 +43,35 @@ Select **Add user** to search for a user by their name or email ID. Once the ass
 >[!NOTE]
 > While assigning a user to this role is a pre-licensed capability, the actions this user can perform will depend on the nature of their license (seeded vs premium).  
 
-Once assigned, the corporate communicator will be able to: 
+Once assigned, the corporate communicator will be able to:
 
-- Create campaigns 
-- Manage campaigns via: 
-    - Publishing Draft campaigns to be **Active** and viewable to all users in the network 
+- Create campaigns
+- Manage campaigns by:
+    - Publishing Draft campaigns to be **Active** and viewable to all users in the network
     - Setting Active campaigns to **Ended** once a campaign is finished
-    - Re-publishing Ended campaigns to be Active again for reoccurring campaigns 
+    - Re-publishing Ended campaigns to be Active again for reoccurring campaigns
     - Deleting campaigns that are not relevant or were made by mistake
-    - Updating certain assets on a campaign page such as the: 
+    - Updating certain assets on a campaign page such as the:
         - Goal tracker
-        - Executive sponsors 
-        - Cover photo 
-        - Pinning posts 
-        - Pinning resources and links
-        - Updating theme colors for the campaign hashtag
-        - View campaign analytics 
+        - Executive sponsors
+        - Cover photo
+        - Pinned posts
+        - Pinned resources and links
+        - Theme colors for the campaign hashtag
+        - View campaign analytics
 
-    - Identify leaders 
-        - Manage their audience 
-        - Manage their delegates 
+    - Identify leaders
+        - Manage their audience
+        - Manage their delegates
 
 > [!NOTE]
 > A corporate communicator with the seeded license can only identify leaders and their audiences. The user will need an Engage premium license to create and manage campaigns.  
 
 ### Remove user as a corporate communicator
 
-Selecting the delete icon on the right side of the corporate communicator list will remove the user from this role and they will no longer be visible as an active corporate communicator in your network.  
+Selecting the delete icon on the right side of the corporate communicator list will remove the user from this role and they will no longer be visible as an active corporate communicator in your network.
+
+![Image of the interface for removing a corporate communicator in Viva Engage.](/Viva/media/engage/admin/remove-corp-comm.png)
 
 ## Configure tenant
 
@@ -96,6 +98,8 @@ They are then routed to the Yammer admin center to perform the following actions
 
 ## See also
 
-![Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions.md)
+[Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions.md)
 
-![Set up the Engage admin center](/Viva/engage/eac-get-started.md)
+[Set up the Engage admin center](/Viva/engage/eac-get-started.md)
+
+[View and manage campaigns in Viva Engage](/Viva/engage/campaigns.md)
