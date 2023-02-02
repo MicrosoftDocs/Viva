@@ -20,24 +20,24 @@ description: "Create a usage policy that users must accept before using Viva Eng
 
 # Set up a Viva Engage usage policy
 
-Creating a usage policy and requiring users to accept it can help ensure conversations on Viva Engage are positive, constructive, and in line with your company policies and culture. 
+Creating a usage policy that users are required to accept can help ensure conversations on Viva Engage are positive, constructive, and in line with your company policies and culture. 
   
-You can choose to have the usage policy appear as a link in the side bar in each user's Viva Engage home screen and to display the policy as a pop-up that users must accept before entering the network. 
+You can choose to have a link to the usage policy in the side bar in each user's Viva Engage home screen, and to display the policy as a pop-up that users must accept before entering the network. 
   
 ![The usage policy is displayed on the right sidebar.](../media/f80d122b-f7dd-4b14-9981-7d3deb04646e.png)
   
 ## Set up or modify a Viva Engage usage policy
 
-1. To create or modify your usage policy and usage policy settings, in the  Engage admin center, select **Configure Tenant** under the **Setup & configuration** tab. This will redirect you to the Yammer admin center, where you can select **Usage Policy**. 
+1. To create or modify your usage policy and its settings, navigate to the  Engage admin center. Select **Configure Tenant** under the **Setup & configuration** tab. This will redirect you to the Yammer admin center, where you can select **Usage Policy**. 
     
 2. Select when users should see the policy, and whether to display the reminder in the sidebar.
     
-3. Enter your usage policy title, and sidebar message. 
+3. Enter your usage policy title and sidebar message. 
     
-4. Enter your usage policy text. You can use HTML code to format your usage policy. Basic HTML tags including links and basic formatting are allowed within the usage policy. (JavaScript is not allowed.) 
+4. Enter your usage policy text. You can use HTML code to format your usage policy. Basic HTML tags including links and basic formatting are allowed within the usage policy. JavaScript is not allowed. 
     
     > [!TIP]
-    > Use the [Sample Yammer usage policy](set-up-a-usage-policy.md#SampleUsePolicy) for ideas of what to include. 
+    > Use the [Sample Viva Engage usage policy](set-up-a-usage-policy.md#SampleUsePolicy) for ideas of what to include. 
   
 ## Tips for creating your usage policy
 
@@ -77,9 +77,4 @@ You can add a custom link to your organization's browser policy. The link will b
     
 2. Specify the URL where your organization's browser policy is defined.
     
-## Related articles
-
-[Manage Yammer security settings](yammer-security-settings.md)
-  
-[Overview of security and compliance in Yammer](security-and-compliance.md)
 
