@@ -45,7 +45,10 @@ The campaign dashboard provides a list of active, ended, and in-progress (draft)
     1. The **Campaign name** and **Campaign hashtag** are required to successfully create your campaign. The campaign name will only appear in the campaign management dashboard and the campaign hashtag will appear on the campaign landing page.
 3. Select **Confirm** when your campaign is ready to enter the draft state.
 
-Since campaign hashtags are used as the binding element for all campaign content, any posted content containing the campaign hashtag will populate to the campaign landing page and will be included in campaign analytics.  
+Since campaign hashtags are used as the binding element for all campaign content, any posted content containing the campaign hashtag will populate to the campaign landing page and will be included in campaign analytics. 
+
+>[!NOTE]
+> The default publisher on the campaign landing page supports discussion, question, praise, and poll type.
 
 ## Corporate communicator privileges
 
@@ -60,7 +63,7 @@ Corporate communicators can manage campaigns by:
     - Cover photo
     - Pinning posts
     - Pinning resources and links
-    - Updating theme colors
+    - Theme color of the campaign hashtag
 - View campaign analytics
 
 ## Publish or end a campaign

@@ -78,19 +78,20 @@ If the topic is relevant and appropriate, then you can choose to feature the top
 
 To remove a topic in Answers, Answers admin (Knowledge Managers) should complete the following steps:  
 
-1. Navigate to the browse topics page and select the **All** tab. 
-2. Select the ellipsis menu on a topic, which will prompt you to remove the topic in Answers. 
-3. Once a topic is removed, it will disappear in Answers and will no longer be associated with any questions where it was previously used.  
+1. Navigate to the browse topics page and select the **All** tab.
+2. Select the ellipsis button on a topic, which will prompt you to remove the topic in Answers.
+3. Once a topic is removed, it will disappear in Answers and will no longer be associated with any questions where it was previously used.
 
 >[!NOTE]
-> Once a topic is removed in Answers, you will still be able to see the topic in the topic center. If you wish to remove the topic entirely, you can delete it directly in the topic center.
-![Image of the editable summary for your topic in Viva Engage.](/viva/media/engage/admin/edit-topic-summary.png)
+> When a topic is removed in Answers, you'll still be able to see the topic in the topic center. If you wish to remove the topic entirely, you can delete it directly in the topic center.
 
 ## View Global Answers analytics
 
-As an Answers admin, you can access Global answers analytics by navigating to the Global Answers analytics tab from the analytics homepage. This report provides an overview and relevant insights on knowledge sharing activity across Answers.  
+As an Answers admin, you can access Global Answers analytics by selecting the analytics icon from the top navigation bar of Viva Engage, then navigating to the Global Answers analytics tab. You will see a dashboard of analytics providing an overview and relevant insights on knowledge sharing activity across Answers in Viva Engage.
 
-The following analytics are available:  
+![Image of the Global Answers analytics dashboard in Viva Engage.](/viva/media/engage/admin/global-answers-analytics.png)
+
+The following metrics are available for Global Answers analytics:
 
 - **Total time saved for your organization**: Total time the organization has saved based on question-and-answer usage.
 - **Total questions**: Total number of questions asked by users.
@@ -120,3 +121,5 @@ Global time saved shows the collective time saved across the organization. This 
 [Rewards and recognition in Viva Engage](/Viva/engage/badges.md)
 
 [Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions.md)
+
+[View and manage analytics in Viva Engage](/Viva/engage/analytics.md)
