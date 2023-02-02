@@ -52,12 +52,12 @@ Once assigned, the corporate communicator will be able to:
     - Re-publishing Ended campaigns to be Active again for reoccurring campaigns 
     - Deleting campaigns that are not relevant or were made by mistake
     - Updating certain assets on a campaign page such as the: 
-        - Goal tracker (to be available for GA) 
+        - Goal tracker
         - Executive sponsors 
         - Cover photo 
         - Pinning posts 
         - Pinning resources and links
-        - Updating theme colors 
+        - Updating theme colors for the campaign hashtag
         - View campaign analytics 
 
     - Identify leaders 
