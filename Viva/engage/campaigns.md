@@ -36,24 +36,25 @@ Navigate to the Campaign dashboard by selecting **Campaigns** from the **Feature
 
 The campaign dashboard provides a list of active, ended, and in-progress (draft) campaigns created for the organization. From this page, you can create and edit campaigns, or access campaign analytics for better understanding of the campaign's performance and engagement.
 
-![Viva admin page.](/Viva/media/engage/admin/campaign-dashboard.png)
+![Image of the Engage admin center entrypoint for managing Campaigns.](/Viva/media/engage/admin/campaign-dashboard.png)
 
 ## Create a campaign
 
 1. Select **Create campaign** from the top right corner of the campaign dashboard.
-2. Fill in the fields according to your campaign goals. 
+2. Fill in the fields according to your campaign goals and customize the theme color of the campaign hashtag.
     1. The **Campaign name** and **Campaign hashtag** are required to successfully create your campaign. The campaign name will only appear in the campaign management dashboard and the campaign hashtag will appear on the campaign landing page.
 3. Select **Confirm** when your campaign is ready to enter the draft state.
 
-Since campaign hashtags are used as the binding element for all campaign content, any posted content containing the campaign hashtag will populate to the campaign landing page and will be included in campaign analytics. 
+Since campaign hashtags are used as the binding element for all campaign content, any posted content containing the campaign hashtag will populate to the campaign landing page and will be included in campaign analytics.
 
+![Image of the campaign creation modal for campaign managers.](/Viva/media/engage/admin/campaign-creation-modal.png)
 >[!NOTE]
-> The default publisher on the campaign landing page supports discussion, question, praise, and poll type.
+> When a user posts on the campaign landing page, they can post in the form of a discussion, question, praise, or poll in the default publisher.
 
 ## Corporate communicator privileges
 
 Corporate communicators can manage campaigns by:
-- Publishing campaigns to be **Active** and viewable to all users in the network
+- Publishing campaigns to be **Active** and visible to all users in the network
 - Setting **Active** campaigns to **Ended** once a campaign is finished
 - Re-publishing **Ended** campaigns to be **Active** again for reoccurring campaigns
 - Deleting campaigns that are not relevant or were made by mistake
@@ -61,17 +62,17 @@ Corporate communicators can manage campaigns by:
     - Goal tracker  
     - Executive sponsors
     - Cover photo
-    - Pinning posts
-    - Pinning resources and links
+    - Pinned posts
+    - Pinned resources and links
     - Theme color of the campaign hashtag
 - View campaign analytics
 
 ## Publish or end a campaign
 
-1. To publish a campaign, select the ellipses button from the campaign management dashboard or directly from the campaign landing page.
+1. To publish a campaign, select the ellipses button from the campaign management dashboard or from the campaign landing page.
 2. Select **Publish campaign** to make the campaign **Active**.
 
-![View of the UI dropdown for publishing and deleting a campaign](/Viva/media/engage/campaigns/publish-campaign-button.png)
+![View of the UI dropdown for publishing and deleting a campaign](/Viva/media/engage/admin/publish-campaign-button.png)
 
 Once a campaign is published, it becomes **Active** in the campaign management dashboard and the campaign landing page will be visible to any Viva Engage licensed user who selects a post or comment with the verified campaign hashtag.
 
@@ -100,26 +101,30 @@ Users can discover campaigns through posts containing the verified campaign hash
 
 ## Manage campaign analytics and engagement
 
-Engage admins and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed from the campaign management dashboard and the campaign landing page.  
+Engage admins and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed directly from the analytics icon on the top navigation menu of Viva Engage, the campaign management dashboard, and the campaign landing page.
 
-From the campaign management dashboard, select the graph icon in the right column under **Actions** to navigate to campaign analytics.
+![View of the analytics entrypoint at the top navigation of Viva Engage.](/Viva/media/engage/admin/analytics-navbar-icon.png)
 
-![View of the campaign analytics from dashboard](/Viva/media/engage/campaigns/manage-campaign-analytics-from-dashboard.png)
+* From the campaign management dashboard, select the graph icon in the right column under **Actions** to navigate to campaign analytics.
 
-From the campaign landing page, select **View more analytics** from the left navigation module for **Summary analytics** to navigate to campaign analytics.
+    ![View of the entrypoint to campaign analytics from the campaign dashboard.](/Viva/media/engage/admin/cmd-analytics.png)
 
-![View of campaigns analytics from campaign landing page](/Viva/media/engage/campaigns/manage-campaign-analytics-from-lp.png)
+* From the campaign landing page, select **View more analytics** from the **Summary analytics** module to navigate to campaign analytics.
 
-Once redirected, you will see the campaign analytics dashboard containing key data to help you monitor the success of your campaign.
+    ![View of campaigns analytics entrypoint from campaign landing page.](/Viva/media/engage/admin/summary-campaigns-analytics.png)
 
-![View of campaign analytics page](/Viva/media/engage/campaigns/campaign-analytics-updated.png)
+Once redirected, you'll see the campaign analytics dashboard containing key data to help you monitor the success of your campaign.
+
+![View of the campaign analytics page for admin in Viva Engage .](/Viva/media/engage/admin/campaign-analytics.png)
 
 ## Frequently asked questions
 
-**Can I create a campaign for a hashtag already in use?** Yes. However, the content created before the Campaign is Active will not be included in views or analytics.  
+**Can I create a campaign for a hashtag already in use?** If the hashtag is being used by another campaign, then it cannot be used again. If, however, the hashtag has not been made into a campaign, then it can be used, but the content created before the Campaign is **Active** will not be included in views or analytics.  
 
 **How often do campaign analytics refresh?** Analytics refresh daily. If you don’t see changes reflected immediately, check analytics the next day.
 
 ## See also
 
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)
+
+[View and manage analytics in Viva Engage](/viva/engage/analytics.md)
