@@ -18,7 +18,7 @@ search.appverid:
 - MEW150
 - MED150
 ms.assetid: d8c239dc-a48b-47ab-b85e-6b4b8191a869
-description: "If your network is eligible, groups in Viva Engage can have access to Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner, and a workspace in Power BI. This is called a Microsoft 365 connected group."
+description: "If your network is eligible, groups in Viva Engage can have access to Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner, and a workspace in Power BI. This is called a Microsoft 365 connected community."
 ---
 
 # Viva Engage and Microsoft 365 Groups

@@ -29,7 +29,7 @@ This experience differs from working with the Viva Engage guest experience, whic
 
 ## Create and manage external groups in Viva Engage
 
-You can create a group that includes guests, which is called an external group. You must create the group as an external group - you can't change an existing internal group to be an external group.
+You can create a community that includes guests, which is called an external group. You must create the group as an external group - you can't change an existing internal group to be an external group.
   
 The group admin can add guests to the group. In public external groups, others in the group can suggest adding a guest, but the group admin has control over whether that user is added, and has to approve the addition. In private external groups, only the admin can add external members.
   
