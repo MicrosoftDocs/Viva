@@ -77,7 +77,7 @@ For GDPR user data export, verified Yammer admins and Engage admins can follow t
 
 Answers will be enabled by default and visible to all users that have the Viva Engage Knowledge service plan assigned. Answers can be disabled and hidden from the Viva Engage Teams app. When disabled, Answers content can still be accessed through existing links, but users will not be able to contribute to the thread or navigate the Answers experience.  
 
-Only an Office 365 tenant admin (Global admin) can change Answers state of enablement:
+Only an Microsoft 365 Global admin can change Answers state of enablement:
 
 1. As a tenant admin, navigate to the Viva Engage Teams app.  
 2. Select the ellipses button from the top right navigation bar to expose admin options.  

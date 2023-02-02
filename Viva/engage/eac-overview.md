@@ -28,8 +28,8 @@ Through this experience you can:
 
 - Plan who will help administer Engage for your organization by managing the various admin roles
 - Setup your Engage tenant by customizing your network, set up usage policy, and manage user permissions
-- Manage your organizations data retention and export plans 
-- Explore the options for managing various seeded and premium features within Viva Engage  
+- Manage your organizations data retention and export plans
+- Explore the options for managing various core and premium features within Viva Engage  
 
 Navigate to the Engage admin center by selecting the ellipses button from the top navigation of Viva Engage. From the dropdown menu, select **Admin** to enter the admin experience.
 

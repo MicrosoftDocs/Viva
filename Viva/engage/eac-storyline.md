@@ -31,7 +31,7 @@ When Storyline is enabled in your organization, you'll see the following changes
 
 ## Set up Storyline
 
-Office 365 (Global) admins and Engage admins can manage Storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac.md). Select the ellipses on the right of the top navigation menu, then select **Admin** to enter the Engage admin center.
+Microsoft 365 Global admin and Engage admin can manage Storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac.md). Select the ellipses on the right of the top navigation menu, then select **Admin** to enter the Engage admin center.
 
 ![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
 

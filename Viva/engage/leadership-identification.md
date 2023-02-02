@@ -100,7 +100,7 @@ A leader can configure delegates through the following steps:
 
 5. If the delegate will create posts, stories, or announcements on the leader’s Storyline, **enable the Storyline toggle**.
 
-Learn more about [Delegate Managers in Microsoft Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-yammer-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285) about assigning delegate managers to users in Yammer.
+Learn more about [Delegate Managers in Microsoft Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-yammer-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285).
 
 ## What next
 
@@ -114,7 +114,7 @@ Learn more about [analytics for leaders](/Viva/engage/analytics.md), which empow
 
 **Leadership Corner**
 
-After a leader has been identified, the leader’s most recent activity on their Storyline and in communities will become visible in Leadership Corner to the leader’s followers and people in the leader’s audience. Leadership Corner can be disabled using the toggle in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac.md) by an Office 365 (Global) admin or Engage admin.
+After a leader has been identified, the leader’s most recent activity on their Storyline and in communities will become visible in Leadership Corner to the leader’s followers and people in the leader’s audience. Leadership Corner can be disabled using the toggle in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac.md) by an Microsoft 365 Global admin or Engage admin.
 
 1. Select **Leadership corner** from the Feature management tab in the Engage admin center.
 
@@ -128,11 +128,11 @@ After a leader has been identified, the leader’s most recent activity on their
 
 **Why is leader identification and audience management important?**  Identifying leaders and audiences will help ensure that your leaders' posts are reaching their intended audiences. Completing this configuration is crucial to making sure you get the audience reach you and your leaders desire. In addition, leader identification and audience management is required for other premium features to work successfully, such as storyline announcements, leadership corner, campaigns, and analytics.
 
-**Who can identify and set leaders?** Only Verified Admins, Network Admins, Yammer Admins, and corporate communications managers can identify and set leaders. 
+**Who can identify and set leaders?** Only Verified Admins, Network Admins, Yammer Admins, and corporate communications managers can identify and set leaders.
 
 **How are leader’s audiences configured?** Identified leaders and their delegate managers can configure leader’s audiences in the **Manage audience** interface. For a leader to reach the Entire Organization, however, Engage Admins (Yammer Admins), Verified Admins, Network Admins and corporate communications managers must configure and enable this audience. Employees are not involved in the audience configuration.  
 
-**Is there a way to disable Leadership Corner?** Yes, Office 365 (global) admin and Engage admin can access a toggle switch in the Engage admin center to disable Leadership Corner for their organization.
+**Is there a way to disable Leadership Corner?** Yes, Global admin and Engage admin can access a toggle switch in the Engage admin center to disable Leadership Corner for their organization.
 
 ## See also
 

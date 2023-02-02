@@ -28,13 +28,13 @@ search.appverid:
 
 To have access to Viva Engage premium features, the user will need a license to Viva Engage Communities and Communications service plan. To have access to Answers in Microsoft Viva, the user will need a license to Viva Engage Knowledge service plan.
 
-**Seeded experiences: Viva Engage and Answers**: If you have skipped enforcing Yammer licensing in your tenant, then all the users in your tenant will have access to Viva Engage seeded experiences as well as Yammer experiences. This also includes Answers seeded experience.  
+**Core experiences: Viva Engage and Answers**: If you have skipped enforcing Yammer licensing in your tenant, then all the users in your tenant will have access to Viva Engage core experiences as well as Yammer experiences. This also includes Answers core experience.  
 
-If you are enforcing Yammer licensing in your tenant, users will need to have either Yammer license or Viva Engage Core license to access Viva Engage as well as Answers seeded experiences.
+If you are enforcing Yammer licensing in your tenant, users will need to have either Yammer license or Viva Engage Core license to access Viva Engage as well as Answers core experiences.
 
 |Service plan |Enables |Comes with (SKUs)|
 |-------------------|---------|-------|
-|**Viva Engage Core**|Engage seeded experiences, including the Answers seeded experiences  <br> *Example:* Communities, Storyline |M365 / O365|
+|**Viva Engage Core**|Engage core experiences, including the Answers core experiences  <br> *Example:* Communities, Storyline |M365 / O365|
 |**Viva Engage Communities and Communications**|Engage premium experiences (Leadership & Communications) <br> *Example:* Leadership Corner, AMA, Storyline Announcements |Viva Suite|
 |**Viva Engage Knowledge**|Answers in Microsoft Viva premium experience |Viva Suite, Viva Topics|
 

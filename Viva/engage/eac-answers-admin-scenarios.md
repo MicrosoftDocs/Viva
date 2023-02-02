@@ -26,9 +26,9 @@ Administration of Answers will involve the Tenant admin, the Engage admin and a 
 
 ## Permissions
 
-The table below shows the range of actions available to an unlicensed user, Viva Engage Knowledge service plan entitled user, Answers admin (AAD Knowledge Manager), Engage admin (Yammer administrator), and Office365 (Global) admin.
+The table below shows the range of actions available to an unlicensed user, Viva Engage Knowledge service plan entitled user, Answers admin (AAD Knowledge Manager), Engage admin (Yammer administrator), and Microsoft 365 Global admin.
 
-|Answers actions|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Yammer) admin|Answers admin (Knowledge Manager)|O365 (Global) admin|
+|Answers actions|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Yammer) admin|Answers admin (Knowledge Manager)|M365 Global admin|
 |----------|-----------------|----------------|----------|------------|-----------|
 |**Answer, upvote, and react to a question thread**|Questions they are mentioned in |✓|✓|✓|✓|
 |**Receive notifications in the Viva Engage Teams app**|Questions they are mentioned in |✓|✓|✓|✓|
@@ -49,7 +49,7 @@ The table below shows the range of actions available to an unlicensed user, Viva
 
 As an Answers admin, you can feature a topic or create a topic from the topic browse page. Featuring a topic allows you to curate Viva Topics to be promoted for use within Answers.  
 
-The **Feature a topic** button will only be visible to Answers admins or global admins.  
+The **Feature a topic** button will only be visible to Answers admins or Global admins.  
 
 ![Image of the Discover more Topics interface in Viva Engage.](/viva/media/engage/admin/feature-a-topic.png)
 
@@ -78,9 +78,14 @@ If the topic is relevant and appropriate, then you can choose to feature the top
 
 To remove a topic in Answers, Answers admin (Knowledge Managers) should complete the following steps:  
 
-1. Navigate to the browse topics page and select the **All** tab.
+1. Navigate to the browse topics page in Answers.
 2. Select the ellipsis button on a topic, which will prompt you to remove the topic in Answers.
+
+![Image of the Remove a topic button admin will see in the topic browse page in Answers in Viva Engage.](/viva/media/engage/admin/remove-topic-hover.png)
+
 3. Once a topic is removed, it will disappear in Answers and will no longer be associated with any questions where it was previously used.
+
+![Image of the interface and confirmation screen for removing a topic in Answers in Viva Engage.](/viva/media/engage/admin/confirm-remove-topic.png)
 
 >[!NOTE]
 > When a topic is removed in Answers, you'll still be able to see the topic in the topic center. If you wish to remove the topic entirely, you can delete it directly in the topic center.

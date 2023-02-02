@@ -41,7 +41,7 @@ Select **Add user** to search for a user by their name or email ID. Once the ass
 ![Image of the interface for adding corporate communicators.](/Viva/media/engage/admin/add-corp-comms.png)
 
 >[!NOTE]
-> While assigning a user to this role is a pre-licensed capability, the actions this user can perform will depend on the nature of their license (seeded vs premium).  
+> While assigning a user to this role is a pre-licensed capability, the actions this user can perform will depend on the nature of their license (core versus premium).  
 
 Once assigned, the corporate communicator will be able to:
 
@@ -62,10 +62,9 @@ Once assigned, the corporate communicator will be able to:
 
     - Identify leaders
         - Manage their audience
-        - Manage their delegates
 
 > [!NOTE]
-> A corporate communicator with the seeded license can only identify leaders and their audiences. The user will need an Engage premium license to create and manage campaigns.  
+> A corporate communicator with the core license can only identify leaders and their audiences. The user will need an Engage premium license to create and manage campaigns.  
 
 ### Remove user as a corporate communicator
 
@@ -75,7 +74,7 @@ Selecting the delete icon on the right side of the corporate communicator list w
 
 ## Configure tenant
 
-As a Global admin or Engage admin, you are encouraged to setup your Viva Engage enterprise experience for all employees before they start using the application. This will help maintain a consistent experience. An Engage admin can navigate to the **Setup and configuration** tab within the Engage admin center and select **Configure tenant**.  
+As a Global admin or Engage admin, you are encouraged to set up your Viva Engage enterprise experience for all employees before they start using the application. This will help maintain a consistent experience. An Engage admin can navigate to the **Setup and configuration** tab within the Engage admin center and select **Configure tenant**.  
 
 ![Image of the interface for configuring the tenant in Viva Engage.](/Viva/media/engage/admin/config-tenant.png)
 
