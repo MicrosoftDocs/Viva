@@ -459,7 +459,11 @@
       "source_path": "viva/insights/manager-insights/plans.md",
       "redirect_url": "/viva/insights/overview/get-started",
       "redirect_document_id": false
-      }
-
+      },
+      {
+        "source_path": "viva/goals/kr-types.md",
+        "redirect_url": "/viva/solutions/kr-types",
+        "redirect_document_id": false
+        }
     ]
 }

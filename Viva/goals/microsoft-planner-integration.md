@@ -45,7 +45,7 @@ By default, Microsoft Planner is available as an integration in Viva Goals. Tena
 1. Optional: select if you want to filter tracking progress based on who the tasks are assigned to. 
 1. Select how you want to track progress from two options: 
     1. **Number of tasks completed:** Use this selection to update progress of the key result when task progress is updated to Completed in Planner.
-    1. **Percentage of tasks completed:** User this selection to update progress of the key result when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result.
+    1. **Percentage of tasks completed:** Use this selection to update progress of the key result when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result.
 1. Select **Next**. 
 1. Select **Create** or **Save** to save your key result. You should now see the Planner icon next to your key result. Viva Goals will now automatically update this Key Result once per hour based on the progress of the tasks in Planner. 
 
@@ -60,8 +60,8 @@ By default, Microsoft Planner is available as an integration in Viva Goals. Tena
 1. Select the name of the plan you want to connect to your project. 
 1. Optional: select if you want to filter tracking progress based on who the tasks are assigned to 
 1. Select how you want to track progress from two options:
-    1. **Number of tasks completed:**Use this selection to update progress of the project when task progress is updated to Completed in Planner.
-    1. **Percentage of tasks completed:** User this selection to update progress of the project when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result. When a task is updated to Complete, Viva Goals will calculate that 100% of that task is complete.
+    1. **Number of tasks completed:** Use this selection to update progress of the project when task progress is updated to Completed in Planner.
+    1. **Percentage of tasks completed:** Use this selection to update progress of the project when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result. When a task is updated to Complete, Viva Goals will calculate that 100% of that task is complete.
 1. Select **Next**. 
 1. Select **Save** to save your project. You should now see the Planner icon next to your project. Viva Goals will now automatically update this project once per hour based on the progress of the tasks in Planner. 
 
@@ -81,6 +81,6 @@ You can view the tasks from Planner in Viva Goals by selecting Tasks or Open det
 1. Optional: select if you want to filter tracking progress based on who the tasks are assigned to 
 1. Select how you want to track progress from two options:
     1. **Number of tasks completed:** Use this selection to update progress of the project when task progress is updated to Completed in Planner.
-    1. **Percentage of tasks completed:** User this selection to update progress of the project when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result. When a task is updated to Complete, Viva Goals will calculate that 100% of that task is complete.
+    1. **Percentage of tasks completed:** Use this selection to update progress of the project when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result. When a task is updated to Complete, Viva Goals will calculate that 100% of that task is complete.
 1. Select **Next**. 
 1. Select **Save** to save your project. You should now see the Planner icon next to your project. Viva Goals will now automatically update this KPI once per hour based on the progress of the tasks in Planner.  

@@ -1,4 +1,4 @@
-{:allowed-branchname-matches ["main"]
+{:allowed-branchname-matches ["main" "lilyolason-teamsapp-tabs"]
  :allowed-filename-matches ["Briefing/" "MyAnalytics/" "WorkplaceAnalytics/" "Viva/"]
  
   :targets 
