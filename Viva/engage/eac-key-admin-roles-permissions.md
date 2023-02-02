@@ -24,35 +24,35 @@ search.appverid:
 
 The following roles will have access to the Engage admin center within the Viva Engage app:  
 
-- Global admin
+- Office 365 (Global) admin
 - Engage admin  
 - Answers admin  
 - Corporate communicator
 
-## Office365 (Global) admin
+## Office 365 (Global) admin
 
 This role has unlimited access to your organization’s settings and most of its data. Naturally, the global admin has permissions to perform all configurations for Viva Engage in your organization. Navigate [here](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide) to learn more about this role and security guidelines for assigning it.
 
 ## Engage admin  
 
-The Engage admin can set up and configure Engage for your organization and manage data, network related settings, and the various seeded or premium features within the application. The new role of Engage admin will be designated by [adding Yammer administrators in AAD](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-yammer-administrator-role-is-now-available-in-azure/ba-p/3592577). Yammer AAD administrators will automatically become Engage admins and they will have elevated permissions over end users. Tying the Engage admin to the Yammer administrator AAD role was intentional, since Viva Engage as an application is powered by Yammer technology.  
+The Engage admin can set up and configure Engage for your organization and manage data, network related settings, and the various seeded or premium features within the application. The new role of Engage admin will be designated by [adding Yammer administrators in AAD](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-yammer-administrator-role-is-now-available-in-azure/ba-p/3592577). Yammer AAD administrators will automatically become Engage admins and they will have elevated permissions over end users. Tying the Engage admin to the Yammer administrator AAD role was intentional, since Viva Engage as an application is powered by Yammer technology.
 
 >[!NOTE]
-> This admin role can be assigned and modified by a global admin through AAD, PIM, group based role assignments, or Azure portal and PowerShell.  
+> This admin role can be assigned and modified by a global admin through AAD, [PIM](/azure/active-directory/privileged-identity-management/pim-configure), [group based role assignments](/azure/active-directory/roles/groups-concept), or [Azure portal and PowerShell](/azure/active-directory/roles/manage-roles-portal).
 
 **Permissions**
 
 The table below shows the range of actions available to Engage admin and Global admin based on their license. Admin permissions will be dependent on the users having the right licensing to configure those features.
 
 |Permissions for Engage admin and Global admin |M365/O365 customer with Viva Engage seeded |Microsoft Viva suite customer|
-|---------|-------|-------|
-|**Manage corporate communicators**: Assign user(s) as a corporate communicator; Remove user(s) as a corporate communicator  |✓ |✓ |
+|------------|-------|-------|
+|**Manage corporate communicators**: <br> Assign user(s) as a corporate communicator; Remove user(s) as a corporate communicator  |✓ |✓ |
 |**Manage tenant and user permissions** (through Yammer)|✓ |✓ |
-|**Manage data and compliance**: Manage network and user data; **GDPR** delete |✓ |✓ |
-|**Manage leaders and their audiences**: Assign leaders in your organization; **Identify audiences for the leaders identified** |✓ |✓ |
-|**Configure stories and storylines**: Enable storylines and stories for your organization; Configure advanced settings like default notifications, specify who can create storyline posts |✓ |✓ |
-|**Manage sentiment analysis and other feature specific analytics**: Configure level of sentiment to be gathered in the organization; Enable or disable campaign analytics; Enable or disable answers analytics|  |✓ |
-|**Add, view, and manage campaigns**: Create and manage campaigns; Access campaign analytics dashboard|  |✓ |
+|**Manage data and compliance**: <br> Manage network and user data; **GDPR** delete |✓ |✓ |
+|**Manage leaders and their audiences**: <br> Assign leaders in your organization; **Identify audiences for the leaders identified** |✓ |✓ |
+|**Configure stories and storylines**: <br> Enable storylines and stories for your organization; Configure advanced settings like default notifications, specify who can create storyline posts |✓ |✓ |
+|**Manage sentiment analysis and other feature specific analytics**: <br> Configure level of sentiment to be gathered in the organization; Enable or disable campaign analytics; Enable or disable answers analytics|  |✓ |
+|**Add, view, and manage campaigns**: <br> Create and manage campaigns; Access campaign analytics dashboard|  |✓ |
 |**Enable and manage badges**|  |✓ |
 |**Enable Answers**|  |O365 (Global) admin only |
 

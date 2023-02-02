@@ -26,7 +26,7 @@ Administration of Answers will involve the Tenant admin, the Engage admin and a 
 
 ## Permissions
 
-The table below shows the range of actions available to an unlicensed user, Viva Engage Knowledge service plan entitled user, Answers admin (AAD Knowledge Manager), Engage admin (Yammer administrator), and Office 365 (Global) admin.
+The table below shows the range of actions available to an unlicensed user, Viva Engage Knowledge service plan entitled user, Answers admin (AAD Knowledge Manager), Engage admin (Yammer administrator), and Office365 (Global) admin.
 
 |Answers actions|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Yammer) admin|Answers admin (Knowledge Manager)|O365 (Global) admin|
 |----------|-----------------|----------------|----------|------------|-----------|

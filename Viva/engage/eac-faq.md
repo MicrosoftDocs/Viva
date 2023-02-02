@@ -1,5 +1,5 @@
 ---
-title: "Viva Engage Admin Center Overview"
+title: "Viva Engage admin center: Frequently asked questions (FAQs)"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,19 +20,27 @@ search.appverid:
 - MET150
 ---
 
-# Overview of the Engage admin center
+# Engage admin center: Frequently asked questions (FAQs)
 
-As an admin, the Engage admin center (found within the Viva Engage app on Teams) is where you can find everything you need to plan your rollout, set up and customize Viva Engage for your tenant, manage security and compliance, and build engagement within your organization. 
+**Who can access the Engage admin center within the Viva Engage Teams application?**
 
-Through this experience you can:  
+The following roles can access the Engage admin center: Global admin, Engage admin, Answers admin, corporate communicator, leader, and leader’s delegate manager.  
 
-- Plan who will help administer Engage for your organization by managing the various admin roles 
+**Can every role that has access to the Engage admin center perform all configurations within it?**
 
-- Setup your Engage tenant by customizing your network, set up usage policy, and manage user permissions 
+No, the configurations visible for each role within the Engage admin center entirely depends on the administrative permissions for that role and the license held by the tenant. For example: a corporate communicator will not have access to governance and compliance related settings. A corporate communicator cannot create or manage campaigns if their tenant does not have the Viva Engage premium license.  
 
-- Manage your organizations data retention and export plans 
+**How are the new Engage admin roles related to existing Yammer and AAD roles?**
 
-- Explore the options for managing various seeded and premium features within Viva Engage  
+The below figure represents the link and hierarchy
+
+**Can I access the Yammer admin center for certain Engage admin configurations, even if my organization doesn’t use Yammer as of today?**
+
+Yes. Even if your organization hasn’t been using Yammer, you can access the Yammer admin center if you hold the following admin roles: Global admin and Engage admin. Since Viva Engage as an application is powered by Yammer technology, you would still be using certain admin configurations in Yammer to setup Viva Engage for your organization. Learn more about Yammer’s admin center.
+
+**When admin changes made in Yammer does it reflect on Viva Engage?**
+
+Yes, since Viva Engage is powered through Yammer technology. Any changes made on the Yammer admin center will reflect on Viva Engage.  
 
 ## See also 
 [Answers in Viva Engage overview](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)

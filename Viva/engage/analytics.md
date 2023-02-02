@@ -33,7 +33,7 @@ Within the Viva Engage Teams application, select the ellipses button from the to
 
 ![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
 
-Office 365 (Global) admin and Engage admin can configure, enable, and disable analytics features through the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Engage admin center and select **Manage analytics**.
+ 365 (Global) admin and Engage admin can configure, enable, and disable analytics features through the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Engage admin center and select **Manage analytics**.
 
 ![Image of Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)
 

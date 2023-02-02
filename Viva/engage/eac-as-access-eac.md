@@ -34,7 +34,7 @@ As a Global admin, Engage admin, and corporate communicator, you can identify an
 
 ![Image of the interface for managing corporate communicators.](/Viva/media/engage/admin/manage-corpcomms.png)
 
-### Assigning user as a corporate communicator
+### Assign a user as a corporate communicator
 
 Select **Add user** to search for a user by their name or email ID. Once the assignee is identified and selected as a corporate communicator, they will be visible in the list of active corporate communicators within your organization.  
 
@@ -45,8 +45,8 @@ Select **Add user** to search for a user by their name or email ID. Once the ass
 
 Once assigned, the corporate communicator will be able to:
 
-- Create campaigns
-- Manage campaigns by:
+- **Create campaigns**
+- **Manage campaigns** by:
     - Publishing Draft campaigns to be **Active** and viewable to all users in the network
     - Setting Active campaigns to **Ended** once a campaign is finished
     - Re-publishing Ended campaigns to be Active again for reoccurring campaigns
@@ -99,6 +99,8 @@ They are then routed to the Yammer admin center to perform the following actions
 ## See also
 
 [Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions.md)
+
+[Manage data in the Engage admin center](/Viva/engage/eac-as-manage-data.md)
 
 [Set up the Engage admin center](/Viva/engage/eac-get-started.md)
 
