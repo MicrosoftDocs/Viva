@@ -20,7 +20,7 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 
 > [!NOTE]
 > - The Teams meeting must be recorded and transcribed for Viva Sales to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
-> - The connection of Viva Sales and your CRM is controlled through Viva Sales add-in in Outlook. More information: [Use Viva Sales in Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081)
+> - The connection between Viva Sales and your CRM is controlled through Viva Sales add-in in Outlook. More information: [Use Viva Sales in Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081)
 
 ## Create a custom Teams app setup policy
 
