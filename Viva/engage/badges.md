@@ -39,7 +39,7 @@ Once assigned the Viva Engage Knowledge service plan, Global admin and Engage ad
 
 To set up Rewards and recognition for your organization, navigate to the **Feature management** tab in the Engage admin center, then select **Rewards and recognition**.
 
-![Image of the interface for Rewards and recognition in the Engage admin center.](/Viva/media/netnew/badges-eac.png)
+![Screenshot of the interface for Rewards and recognition in the Engage admin center.](/Viva/media/netnew/badges-eac.png)
 
 Once redirected, the Global and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**.
 
