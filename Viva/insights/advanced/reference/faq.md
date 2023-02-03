@@ -27,6 +27,7 @@ The most commonly asked questions and answers about the analysis tools for Micro
     * [Data validation, verification, and use](#data-validation-verification-and-use)
     * [Queries](#queries)
 
+
 ## Functionality and features
 
 ### Roles
@@ -97,6 +98,9 @@ Optionally, after you sign in, you can:
 
 For details about setup, refer to [Set up Advanced insights](../setup-maint/setup.md).
 
+>[!Important]
+> For the advanced insights app to run, the Microsoft 365 admin needs to assign at least 10 Viva Insights licenses to users in your organization. The app requires this number because credible analyses need at least 10 employees.
+
 #### Q2. Is the number of analyst role assignments limited?
 
 A2. No limit is imposed for **Insights Analyst** roles.
@@ -104,6 +108,22 @@ A2. No limit is imposed for **Insights Analyst** roles.
 #### Q3. Are people who are not assigned a license ignored?
 
 A3. No, they aren't ignored but they aren't measured and their data isn't processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or chats.  
+
+#### Q4. Our admin assigned the required licenses. Why can't Insights Analysts access the advanced insights app?
+
+A4. It might take a few days for Viva insights to process Microsoft 365 collaboration data and for assigned users to get the right permissions. Most customer are able to access the app four to five days after the Insights admin assigns licenses.
+
+If you're getting an error, you might want to ask the following questions:
+
+* **Do I have the right role assigned?** Before you can access the advanced insights app, you'll need a Viva Insights-specific role assigned to you in the Microsoft 365 admin center. Analysts need the **Insights Analyst** role. You might need to ask your organization Microsoft 365 admin to check if the role was assigned to you in the admin center. Learn more about role assignment in [Assign user roles for Viva Insights](../setup-maint/assign-user-roles.md).
+
+    >[!Note]
+    >Before they can use the app, customers with Privileged Identity Management might need to complete a few additional steps to activate their role. Refer to [Assign Azure AD roles in Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role) for more information.
+
+* **Is the feature accessible for my role?** Some parts of the app are only accessible to certain roles. To learn which features are available for which role, refer to [User roles](../setup-maint/user-roles.md#feature-access).
+
+* **Has the Insights admin assigned licenses to enough people?** To access the advanced insights app, the Insights admin needs to have assigned licenses to at least the number of people as your [minimum group size](../setup-maint/setup.md#minimum-group-size). The advanced insights app requires that a minimum of 10 licenses are assigned before analysts can sign in and start using it.
+
 
 ### Organizational data
 

@@ -31,7 +31,7 @@ There are two ways to enable access to the **Organization trends** page in the V
 
 To view manager insights for employees who report to you:
 
-* You need to meet or exceed the minimum number of direct and indirect reports based on organizational data. The Insights admin sets this number.
+* You need to meet or exceed the minimum number of direct and indirect reports based on organizational data. The Insights admin sets this number. For more information, refer to [Setup](../advanced/setup-maint/setup.md#minimum-group-size).
 * The members of your organization need to be assigned licenses for Viva Insights, including you as a qualifying manager.
 * Your Viva Insights admin needs to give you access to [manager insights](../advanced/setup-maint/manager-settings.md).
 

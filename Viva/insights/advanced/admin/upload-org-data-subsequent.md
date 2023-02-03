@@ -24,6 +24,8 @@ Complete these steps after preparing the data as described in [Prepare organizat
 
 > [!Important]
 > Only follow these steps if this is not the first time you’ve uploaded organizational data. If this is your first upload, follow the steps in [Upload organizational data (first upload)](upload-org-data-first.md).
+>
+>If you're migrating from the legacy advanced insights app, the data you've uploaded to the legacy app will be automatically available in the new app. After you've made your first upload on the new app, continue to use the new app for subsequent organizational data uploads. Continuing to use the new app prevents data inconsistency.
 
 ## Workflow
 
