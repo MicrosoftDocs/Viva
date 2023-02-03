@@ -24,6 +24,9 @@ The add-in is enabled in Teams but not installed. You need to go to the Microsof
 > - If your users are using Salesforce, ensure that Microsoft Power Platform is not blocked. You can check its status on the **Connected Apps OAuth Usage** page in Salesforce.
 > - It can take up to 24 hours for the add-in to show up for your users.
 
+## Licenses
+
+A Microsoft 365 for enterprise or Office 365 for enterprise product license is required to use the Viva Sales app in Outlook, Excel, and Microsoft Teams.
 
 ## Privileges required to use Viva Sales
 
