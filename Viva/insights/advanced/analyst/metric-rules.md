@@ -232,10 +232,11 @@ If you’re ready to add your rule to a query, go to How to add a rule to your q
 
 ## How to add a rule to your query
 
-1. While you’re building your query, select More Settings in the Query setup section.
- 
+1. While you’re building your query, select **More Settings** in the **Query setup** section.
+ ![more settings](../images/analyst-metric-rules-more-settings.png)
 1. A **Metric rules** pane appears. Select the rule you want to apply.
 
+    ![add rule](../images/analyst-metric-rules-add-rule.png)
     >[!Note]
     > You can only apply one rule at a time. If there’s a default rule active in your organization, you’ll notice that the rules pane shows it as selected. When you set a different rule, you’re removing the default rule from your query and replacing it with the one you pick.
     > 
@@ -245,7 +246,7 @@ If you’re ready to add your rule to a query, go to How to add a rule to your q
  
 ## View rule
 
-To get more information about a rule, select the View rule link to the right of the rule title. When you select View rule, you go to a view-only version of the rule builder (unless you were the person who built the rule). Here, you can find out which attributes this rule uses and the organizational data it will exclude.
+To get more information about a rule, select the **View rule** link to the right of the rule title. When you select **View rule**, you go to a view-only version of the rule builder (unless you were the person who built the rule). Here, you can find out which attributes this rule uses and the organizational data it will exclude.
 
 ## About default rules
 
@@ -257,6 +258,8 @@ While default rules create consistency, marking a rule as default has some wide-
 If your organization has a default rule, but you don’t want to use it, you’ll need to go into **More Settings** and de-select it. You can add another rule if you want.
 
 To quickly identify default rules, look for the green **Default** tag.
+
+![default tag](../images/analyst-metric-rules-default-tag.png)
  
 ### The meeting exclusions rule
 
@@ -273,6 +276,8 @@ The meeting exclusions rule works by excluding time and count metrics for meetin
 #### View rule details
 
 When you view the meeting exclusion rule’s details, you’ll find a different layout than other rules created by analysts in your organization.
+
+![meeting exclusions](../images/analyst-metric-rules-meeting-exclusions.png)
 
 To view the rule’s criteria, expand **Which meetings are excluded from collaboration metrics?**. To find out which metrics this rule doesn’t apply to, expand A**re there exceptions to this rule?**. 
 
