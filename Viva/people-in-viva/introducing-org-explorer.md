@@ -67,7 +67,7 @@ On the bottom right side of the page, select  **Help & support**.
 Enter a search term, for example “Org Explorer”.
 Select Contact Support at the bottom of the page.
 
-Enter a description of your request, confirm your contact number and email address, select your preferred contact method, and then select Contact me. The expected wait time is indicated in the Contact support pane. [Learn more about getting support in the admin center](/graph/insights-customize-people-insights-privacy).
+Enter a description of your request, confirm your contact number and email address, select your preferred contact method, and then select Contact me. The expected wait time is indicated in the Contact support pane. [Learn more about getting support in the admin center](/microsoft-365/admin/get-help-support).
 
 ## Additional resources
 
