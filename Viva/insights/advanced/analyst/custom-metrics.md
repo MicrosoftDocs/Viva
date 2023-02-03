@@ -175,5 +175,5 @@ Let's demonstrate how you might customize a metric. For this sample scenario, we
 1. In **Name and publish**, choose a new name for your metric and add to its description.
 ![name and publish for sample](../images/analyst-customize-metric-sample-name-publish.png)
 1. Select **Save**. 
-1. You think other analysts in your organization might use this metric at some point, so you also select **Publish** when Viva Insights asks.
+1. You think other analysts in your organization might use this metric at some point, so select **Publish** when Viva Insights asks.
 1. In your query's **Select metrics** pane, expand the **Defined by me** category, select your new metric, and select **Add to query**.
