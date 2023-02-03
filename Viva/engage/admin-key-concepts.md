@@ -23,95 +23,89 @@ description: "Key concepts for planning how you'll administer  your new Viva Eng
 
 # Viva Engage admin key concepts
 
-Welcome to your Viva Engage network! Using Viva Engage is going to change the way your company gets work done (if it hasn't already!). As an admin, you will be a huge part of helping your coworkers become comfortable with the way Viva Engage works.
+Welcome to your Viva Engage experience! Using Viva Engage is going to change the way your company gets work done (if it hasn't already!). As an admin, you will be a huge part of helping your coworkers become comfortable with the way Viva Engage works.
   
-Your best resource, and the page you should add to your Favorites is [Viva Engage admin help](../TOC.yml). On this page, you'll find links for everything you need to do to plan your rollout, configure and customize Viva Engage, manage users and groups, manage security and compliance, and build community and engagement. 
+Your best resource, and the page you should add to your Favorites is [Viva Engage admin help](../TOC.yml). On this page, you'll find links for everything you need to do to plan your rollout, configure and customize Viva Engage, manage users and groups, manage security and compliance, and build community and engagement.
   
-This article describes the key concepts you should know, and key decisions you should make before you open Viva Engage for business. 
+This article describes the key concepts you should know, and key decisions you should make before you open Viva Engage for business.
   
 ## Create a plan
 
-1. To get started with planning, look at the resources in  [Viva Engage adoption resources](https://resources.techcommunity.microsoft.com/yammer-adoption-resources/). On this page, you'll find guides and templates to help you prepare your strategy for how to use Viva Engage most effectively in your organization, build a Viva Engage vision statement, identify the business outcomes you want, identify key stakeholders, and build a launch plan. 
-    
-2. Determine who will help administer Viva Engage for your organization. There are several types of admins:
-    
-      - **Verified admins** have the most permissions, and are responsible for how to use Viva Engage in your company. They can manage security-related tasks, as well as configure and customize Viva Engage, and manage users and groups. All global admins are automatically Viva Engage verified admins.
-    
-      - **Network admins** can configure and customize Viva Engage, and manage users and groups. 
-    
-      - **Group admins** can configure and customize their groups, and manage day-to-day operations for their groups. 
-    
-    For information on how to make someone an admin and a full list of what each admin can do, see [Manage Viva Engage admins](../manage-yammer-users/manage-yammer-admins.md). 
-    
-3. Set up your Viva Engage network to match your organization's goals: 
-    
-      - [Configure](../configure-your-yammer-network/configure-yammer.md) and [customize](../configure-your-yammer-network/customize-the-look-of-yammer.md) your network. [Set up a usage policy](../manage-security-and-compliance/set-up-a-usage-policy.md) to keep conversations appropriate and useful. 
-    
-      - Review the [security and compliance features](../manage-security-and-compliance/security-and-compliance.md) and define your data retention and export plans. 
-    
-      - Make sure your domains are set up correctly in Microsoft 365. By default, your Viva Engage internal network can be accessed only by employees whose email addresses match the domains verified in Microsoft 365. 
-    
-        If all your domains are verified, you're all set. For more information, see [Manage Yammer domains across their lifecycle](../configure-your-yammer-network/manage-yammer-domains.md). 
-    
-        If your organization has business units with different domains, Viva Engage can help you join these into a consolidated network. You can also create external networks for each business unit, or a singular external network for all employees to access. To view more details on these options, and merge or create networks, see [Combine multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md)
-    
-4. Explore the options for managing user identity:
-    
-      - Learn how [users are managed](../manage-yammer-users/office-365-sign-in.md), including how user profile data is used in Viva Engage. If you have Viva Engage users who aren't in Microsoft 365, you can manage them from within Viva Engage. See [Add, block, or remove Viva Engage users](../manage-yammer-users/add-block-or-remove-users.md). You can also decide whether to [enforce Microsoft 365 identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md). 
-    
-      - Decide whether you'll use Viva Engage to collaborate with people outside your organization.
-    
-        Your internal network, also known as a home network, is a private and secure collaboration space where employees can connect with their coworkers. Only employees with verified corporate email addresses can join the home network and access its content and users. Users from one home network cannot view the content or interact with users from another network unless they are affiliated with both organizations. Messages posted within your home network are owned by your organization and cannot be shared externally without permission. Note that admins can invite external users as guests to the internal network, as described in [External messaging FAQ (Yammer)](../work-with-external-users/external-messaging-faq.md).
-    
-        An external network is a separate extension of your home network, but includes invited users from outside your organization. It is a private and secure collaboration space for your organization to engage with outside partners, such as customers, suppliers, or investors. While external networks can accommodate users with different email domains, access is invitation-only. More information about how to set up and use external networks can be found in [Create and manage an external network](../work-with-external-users/create-and-manage-an-external-network.md).
-    
-5. Explore the options for groups, and set up the groups you need:
-    
-      - To set up public or private groups, see [Create a group in Viva Engage](https://support.office.com/article/b407af4f-9a58-4b12-b43e-afbb1b07c889). Though anyone on Viva Engage can create groups, it is often helpful for the admin to set up groups for each department using a consistent group naming strategy, such as Sales Team, Marketing Team, etc. 
-    
-      - If you want to use groups that can use Microsoft 365 services, such as SharePoint Online, OneNote, and Planner, called [Microsoft 365 connected groups](../manage-yammer-groups/yammer-and-office-365-groups.md), you need to [enforce identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md).
-    
-      - Set up groups that include external users, called [external groups](../work-with-external-users/create-and-manage-external-groups.md).
-    
-      - Decide if you want to use [dynamic groups](../manage-yammer-groups/create-a-dynamic-group.md) to keep membership current as people change roles in your company. 
-    
-6. People are the core of the enterprise social network, so invite your team to get started on Viva Engage via the Viva Engage admin center. 
-    
-    Users in Microsoft 365 plans that include Viva Engage automatically receive a license to use Viva Engage Enterprise, but they may not automatically be added to your Viva Engage network. For information on how users are added to Viva Engage, see [Manage Viva Engage users across their lifecycle](../manage-yammer-users/manage-users-across-their-lifecycle.md).
+1. Plan who will help administer Viva Engage for your organization. There are several types of admins:
 
-    If your network is not enforcing Microsoft 365 identity, to ensure that all your Microsoft 365 users are on Viva Engage, use the Viva Engage admin center to add them. For more information, see [Add, block, or remove Viva Engage users](../manage-yammer-users/add-block-or-remove-users.md). 
-    
-7. Understand mobile device options, and if needed create a policy for mobile Yammer use. For example, you might require that user's have passwords or other locks on their phones in order to use Yammer on their phone. You can monitor device usage through the Yammer admin center, and [manage Yammer devices by using Microsoft Intune](../manage-security-and-compliance/manage-yammer-with-intune.md). 
-    
-8. Consider how you want to integrate Viva Engage with other apps, including SharePoint and Teams. 
-    
-9. Define how your organization will train and support Viva Engage users. End-user support options include online help and training, and the online community. See [Viva Engage help center](https://support.office.com/article/8663922d-8f76-47c2-827a-ee86e8cac00f.aspx). Consider creating a Viva Engage 101 group - your own local self-support community.
-    
-    For admin support options, if you need more help than [Viva Engage admin help](../TOC.yml) provides, you can [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
-    
-    Check the [Microsoft 365 Service health dashboard](https://admin.microsoft.com/AdminPortal/Home#/servicehealth) to see real-time status of the Viva Engage service. 
-    
-10. Viva Engage is always changing. To stay current on what's happening, regularly review the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?LinkId=509914). 
-    
-11. Learn more.
-    
-    To learn about all the admin features of Viva Engage, see [Viva Engage admin help](../TOC.yml).
-     
+- **Engage admin** - have the most permissions and are responsible for the big decisions of how to use Viva Engage in your company. They can manage security-related tasks, as well as configure and customize Viva Engage.
+
+- **Answers admin** - can manage topics and configure Answers within Viva Engage.
+
+- **Coporate communicator** - a role catered towards content management. They can create and manage campaigns, and identify leaders within your company.
+
+- **Group admin** - can configure and customize their groups, and manage day-to-day operations for their groups.
+
+For information on how to make someone an admin and a full list of what each admin can do, see [Manage Viva Engage admins](../manage-yammer-users/manage-yammer-admins.md).
+
+2. Set up your Viva Engage network to match your organization's goals:
+
+- [Configure](../configure-your-yammer-network/configure-yammer.md) and [customize](../configure-your-yammer-network/customize-the-look-of-yammer.md) your network. [Set up a usage policy](../manage-security-and-compliance/set-up-a-usage-policy.md) to keep conversations appropriate and useful.
+
+- Review the [security and compliance features](../manage-security-and-compliance/security-and-compliance.md) and define your data retention and export plans.
+
+- Make sure your domains are set up correctly in Microsoft 365. By default, your Viva Engage internal network can be accessed only by employees whose email addresses match the domains verified in Microsoft 365.
+
+If all your domains are verified, you're all set. For more information, see [Manage Yammer domains across their lifecycle](../configure-your-yammer-network/manage-yammer-domains.md).
+
+If your organization has business units with different domains, Viva Engage can help you join these into a consolidated network. You can also create external networks for each business unit, or a singular external network for all employees to access. To view more details on these options, and merge or create networks, see [Combine multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md)
+
+3. Explore the options for managing user identity:
+
+- Decide whether you'll use Viva Engage to collaborate with people outside your organization.
+
+Your internal network, also known as a home network, is a private and secure collaboration space where employees can connect with their coworkers. Only employees with verified corporate email addresses can join the home network and access its content and users. Users from one home network cannot view the content or interact with users from another network unless they are affiliated with both organizations. Messages posted within your home network are owned by your organization and cannot be shared externally without permission. Note that admins can invite external users as guests to the internal network, as described in [External messaging FAQ (Yammer)](../work-with-external-users/external-messaging-faq.md).
+
+An external network is a separate extension of your home network, but includes invited users from outside your organization. It is a private and secure collaboration space for your organization to engage with outside partners, such as customers, suppliers, or investors. While external networks can accommodate users with different email domains, access is invitation-only. More information about how to set up and use external networks can be found in [Create and manage an external network](../work-with-external-users/create-and-manage-an-external-network.md).
+
+4. Explore the options for groups, and set up the groups you need:
+
+- To set up public or private groups, see [Create a group in Viva Engage](https://support.office.com/article/b407af4f-9a58-4b12-b43e-afbb1b07c889). Though anyone on Viva Engage can create groups, it is often helpful for the admin to set up groups for each department using a consistent group naming strategy, such as Sales Team, Marketing Team, etc.
+
+- If you want to use groups that can use Microsoft 365 services, such as SharePoint Online, OneNote, and Planner, called [Microsoft 365 connected groups](../manage-yammer-groups/yammer-and-office-365-groups.md), you need to ensure users have a Viva Engage license assigned to them.
+
+- Set up groups that include external users, called [external groups](../work-with-external-users/create-and-manage-external-groups.md).
+
+- Decide if you want to use [dynamic groups](../manage-yammer-groups/create-a-dynamic-group.md) to keep membership current as people change roles in your company.
+
+5. People are the core of the enterprise social network, so invite your team to get started on Viva Engage via the  Engage admin center.
+
+6. Understand mobile device options, and if needed create a policy for mobile Viva Engage use. For example, you might require that user's have passwords or other locks on their phones in order to use Yammer on their phone. You can monitor device usage through the Yammer admin center, and [manage Yammer devices by using Microsoft Intune](../manage-security-and-compliance/manage-yammer-with-intune.md).
+
+7. Consider how you want to integrate Viva Engage with other apps, including SharePoint and Teams.
+
+8. Define how your organization will train and support Viva Engage users. End-user support options include online help and training, and the online community. See [Viva Engage help center](https://support.office.com/article/8663922d-8f76-47c2-827a-ee86e8cac00f.aspx). Consider creating a Viva Engage 101 group - your own local self-support community.
+
+For admin support options, if you need more help than [Viva Engage admin help](../TOC.yml) provides, you can [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+
+Check the [Microsoft 365 Service health dashboard](https://admin.microsoft.com/AdminPortal/Home#/servicehealth) to see real-time status of the Viva Engage service. 
+
+9. Viva Engage is always changing. To stay current on what's happening, regularly review the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?LinkId=509914). 
+
+10. Learn more.
+
+To learn about all the admin features of Viva Engage, see [Viva Engage admin help](../TOC.yml).
+
 ## FAQs
+
 <a name="Activation"> </a>
 
 ### Q: What are the browser and system requirements for Viva Engage
+
 <a name="Requirements"> </a>
 
 A: Viva Engage's system requirements are consistent with those of Microsoft 365. See the list of supported browsers in the [Microsoft 365 system requirements](https://support.office.com/article/719254c0-2671-4648-9c84-c6a3d4f3be45).
-  
-> <!--[!IMPORTANT]
-> Internet Explorer 10 support ended on March 1, 2018. For more information, see [Yammer life-cycle support information for Internet Explorer 8, Internet Explorer 9, and Internet Explorer 10](https://go.microsoft.com/fwlink/?LinkId=526880).-->
 
-> <!--[!NOTE]
-> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020.) [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.-->
+> [!NOTE]
+> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020.) [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.
   
 #### Mobile and desktop requirements
+
 <a name="bk_MobileDesktop"> </a>
 
 - iOS support for two most recent versions
@@ -122,36 +116,16 @@ A: Viva Engage's system requirements are consistent with those of Microsoft 365.
 
 - MAC OS 10.10 or later
 
-For the most up-to-date information, see [Office mobile apps](https://go.microsoft.com/fwlink/?linkid=2119145) 
+For the most up-to-date information, see [Office mobile apps](https://go.microsoft.com/fwlink/?linkid=2119145)
 
-### Q: Can I have a Viva Engage network where some users have Microsoft 365 licenses and some users don't?
-<a name="Requirements"> </a>
-
-A: It depends on whether you configure your Viva Engage network to enforce Microsoft 365 identity.
-  
-- If you select the option to enforce Microsoft 365 identity, all users must have a Viva Engage license through Microsoft 365. For more information, see [Enforce Microsoft 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md).
-    
-- If you do not choose to enforce Microsoft 365 identity, users who are on the same email domain as your Viva Engage network but do not have Microsoft 365 licenses can join the network by creating a Viva Engage account at https://www.yammer.com.
-    
-    There are some differences in how you manage these users: their profile won't be automatically filled in, and you can't block them by removing their Viva Engage license. These users can be made admins, create groups, and use all basic Viva Engage features. If they are made admins, they have to get to the Viva Engage admin center by clicking the **Settings** icon in Viva Engage, and selecting **Network Admin**.
-
-    
-### Q: What are the limitations of Viva Engage (number of users, networks, documents, storage, access, and so on)?
-<a name="Requirements"> </a>
-
-A: Viva Engage is designed as a SaaS, multi-tenant environment with scale in mind. The  *only*  limit is file size. An individual file can't be larger than 5 GB in Viva Engage Enterprise or100 MB in Viva Engage Basic.) Both versions support unlimited users, unlimited files, unlimited external networks, and unlimited document types. 
-  
-### Q: What file types can be uploaded to Viva Engage?
-<a name="Requirements"> </a>
-
-A: By default, there are no restrictions on the file types that can be uploaded. A Viva Engage Enterprise network admin can go to **Settings** \> **Network Admin** \> **Configuration** to change this. The Viva Engage network admin can restrict file uploads and allow only photo and video file types to Viva Engage. In the case of a network that allows only photo and video file types, we make our best effort to enforce this restriction by checking the file extension and some of the files' metadata, but do not guarantee that users can't bypass this restriction. 
-  
 ### Q: Why am I seeing different features, colors, or a different layout than my colleagues?
+
 <a name="Requirements"> </a>
 
 A: As part of Viva Engage development methodology, we A/B test all aspects of Viva Engage and use data to select the better design. The tests are performed on a subset of users across all networks, so changes don't occur at the network level until they're tested and launched. 
   
 ### Q: What's the roadmap for Viva Engage?
+
 <a name="Requirements"> </a>
 
 A: Viva Engage rapid release and iterative development methodology means that change is constant. The items currently being developed and their stage of development and testing are available in the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?LinkId=509914).

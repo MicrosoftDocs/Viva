@@ -34,9 +34,9 @@ description: "Configure conversation reporting in Viva Engage to enable people t
 After enabling conversations, enter information for the following two settings:
 
 - **Report recipient (an organization email address)** - This is the email address that reports will be sent to.
-- **Pre-submission details or instructions for user** – The text you enter here is shown to users when they select **Report a Conversation**, before they submit a report.
+- **Pre-submission details or instructions for user** – The text you enter here is shown to users when they select **Report a Conversation**, but before they submit a report.
 
-There’s also an optional **Post-submission instructions to user setting**. These instructions are shown to users once they have finished submitting a report on a conversation or comment.
+There’s also an optional **Post-submission instructions to user** setting. These instructions are shown to users once they have finished submitting a report on a conversation or comment.
 
 ## Report recipient
 
@@ -64,7 +64,7 @@ The text you enter will be displayed under the **Report Conversation** or **Repo
 
 Use this field to explain to your employees what will happen once a report has been successfully submitted.
 
-The text entered in this field will be shown to your end users when they have finished submitting a report. This text is optional. It can help your end users better understand what comes next once the report has been submitted. Some things you may consider including are:
+The text entered in this field will be shown to end users when they have finished submitting a report. This text is optional. It can help your end users better understand what comes next once the report has been submitted. Some things you may consider including are:
 
 - when a user can expect a response.
 - what steps are taken next by the organization, etc.
@@ -73,12 +73,11 @@ The text entered in this field will be shown to your end users underneath a defa
 
 ## End user experience for reporting conversations
 
-When enabled, users accessing Viva Engage on a web browser will see the **Report Conversation** option on conversation starters and **Report Comment** on comments and replies.
+When enabled, users accessing Viva Engage will see the **Report Conversation** option on conversation starters and **Report Comment** on comments and replies.
 
 ![Screenshot showing user reporting for conversation starter.](../media/yammer-conversations-report-dropdown.png)
 
 **Report Conversation option on conversation starter**
-
 
 ![Screenshot showing user reporting for comment.](../media/yammer-conversations-report-comment-dropdown.png)
 
@@ -88,9 +87,9 @@ Users will then see a right panel pop out with the custom message from the Engag
 
 ![screenshot showing reason for reporting.](../media/yammer-conversations-report-comment.png)
 
-The conversation or comment reported, along with who is reporting and the reason for reporting, will then be sent to the email specified in the **Report Conversations** settings.
+The conversation or comment reported, along with who is reporting, and the reason for reporting, will be sent to the email specified in the **Report Conversations** settings.
 
-Upon successful submission, the user will then see the optional custom message configured by the admin. They will also receive a confirmation message with a link to the conversation, comment, or reply reported and the comment included in the report.
+Upon successful submission, the user will see the optional custom message configured by the admin. They will also receive a confirmation message with a link to the conversation, comment, or reply reported and the comment included in the report.
 
 ![screenshot showing successs reporting submission.](../media/yammer-conversations-report-submitted-panel-closeup.png)
 
@@ -98,12 +97,13 @@ Upon successful submission, the user will then see the optional custom message c
 
 Upon successful report submission, the following will occur:
 
-The organization email set for Report Conversations in admin settings will receive an email including: 
+The organization email set for Report Conversations in the admin settings will receive an email including:
+
 - The name of the person who submitted the report.
 - whether a conversation starter or comment is being reported. The title and text of the email indicates whether a conversation starter or comment is being reported.
 - the name of the person who started the conversation or wrote the comment being reported.
 - the community in which the reported conversation or comment was made.
-- the date and time at which the reported conversation or comment was made. 
+- the date and time at which the reported conversation or comment was made.
 - a link to the specific conversation starter.
 - any comments entered by the reporting user.
 
@@ -118,7 +118,7 @@ A copy of this same email is also sent to the Viva Engage user who submitted the
 
 **Q:** I’m an admin, and how do I know if my Viva Engage network is eligible for reporting conversations and comments?
 
-**A:** Only networks that are in the Viva Engage Preview are eligible for the reporting conversations experience. In the Viva Engage network admin center, if your network is eligible, you should see Report Conversations under Content and Security.
+**A:** All tenants that have configured Viva Engage for their organization (either seeded or premium) are eligible for the reporting conversations experience.
 
 **Q:** Can I add multiple emails for the reports to be sent to?
 
@@ -130,11 +130,7 @@ A copy of this same email is also sent to the Viva Engage user who submitted the
 
 **Q:** Can users report conversations from external networks?
 
-**A:** No, The report conversations end user experience and actions are only available in the Viva Engage home network. Networks that are in the Viva Engage Preview do not have the Viva Engage experience on external networks, and as a result, conversations in external networks cannot be reported.
-
-**Q:** Can users report conversations from the Yammer mobile app?
-
-**A:** No, not yet. At this time, conversation reporting is only available from the New Yammer Web experience.
+**A:** No, The report conversations end user experience and actions are only available in the Viva Engage home network. Conversations in external networks cannot be reported.
 
 **Q:** Can users report private messages or messages in the Viva Engage Inbox?
 
@@ -142,7 +138,7 @@ A copy of this same email is also sent to the Viva Engage user who submitted the
 
 **Q:** Can users report messages from private and secret communities?
 
-**A:** Yes, conversations can be reported from all communities within Viva Engage – public, private, and secret. The email report that is sent includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports does not have access to the private or secret community, they can work with the Engage admin to either get access to that community to review the message or with the community administrator to get access to the reported message.
+**A:** Yes, conversations can be reported from all communities within Viva Engage – public, private, and secret. The email report that is sent includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports does not have access to the private or secret community, they can either work with the Engage admin to get access to that community to review the message or with the community administrator to get access to the reported message.
 
 **Q:** Can users report messages from Viva Engage integrations with Teams, Outlook, and SharePoint?
 
