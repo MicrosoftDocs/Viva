@@ -36,7 +36,7 @@ Because you'll create your customized metric from an existing metric, you'll nee
 
 While you’re building a person or Power BI template query, select **Add metrics**, which brings you to the **Select metrics** pane. 
 
-:::image type="content" source="../images/analyst-customize-metric-1.png" alt-text="Screenshot that shows the Add metrics button highlighted in the Select metrics section of a custom query.":::
+:::image type="content" source="../images/analyst-customize-metric-1.png" alt-text="Screenshot that shows the Add metrics button highlighted in the Select metrics section of a custom query." lightbox="../images/analyst-customize-metric-1.png":::
 
 To find the metric you want to customize, either:
 
@@ -75,7 +75,7 @@ In the metric editor, make changes to the following settings:
 * **Chats read**
 * **Calls joined**
 
-:::image type="content" source="../images/analyst-customize-metric-collab-type.png" alt-text="Screenshot that shows the collaboration type dropdown in the second step of the metric editor.":::
+:::image type="content" source="../images/analyst-customize-metric-collab-type.png" alt-text="Screenshot that shows the collaboration type dropdown in the second step of the metric editor." lightbox="../images/analyst-customize-metric-collab-type.png":::
 
 You can set multiple types if you want. 
 
@@ -85,7 +85,7 @@ Filters narrow down your metric’s scope and tell it which data to look for.
 
 After you selected collaboration types, you might have noticed blue containers appear. These containers match each selected collaboration type above. Within each container, you’ll need to set conditions and condition groups (collectively referred to as *filters*) that define the kind of data you want your metric to measure. For each category, you can set as many filters as you want.
 
-:::image type="content" source="../images/analyst-customize-metric-filter.png" alt-text="Screenshot that shows various filters in the metric editor, with one dropdown menu for attributes expanded.":::
+:::image type="content" source="../images/analyst-customize-metric-filter.png" alt-text="Screenshot that shows various filters in the metric editor, with one dropdown menu for attributes expanded." lightbox="../images/analyst-customize-metric-filter.png":::
 
 We customize a sample metric [below](#sample-scenario), where we give an example of how you might use filters.
 
@@ -100,7 +100,7 @@ The time window is the range of hours during the day you want your metric to ana
 
 If you pick a custom time period, you can set the custom value through a time picker, which appears below.
 
-:::image type="content" source="../images/analyst-customize-metric-time-window.png" alt-text="Screenshot that shows the fourth step of the metric editor, time window, with Custom time period selected and From and To input boxes below.":::
+:::image type="content" source="../images/analyst-customize-metric-time-window.png" alt-text="Screenshot that shows the fourth step of the metric editor, time window, with Custom time period selected and From and To input boxes below." lightbox="../images/analyst-customize-metric-time-window.png":::
 
 #### Name and publish
 
@@ -110,7 +110,7 @@ The **Description** field contains the metric definition. You might also conside
 
 This field is the last part of the metric editor. Read on to find out how to publish your metric.
 
-:::image type="content" source="../images/analyst-customize-metric-name-publish.png" alt-text="Screenshot that shows the fifth step of the metric editor, Name and publish, with an edited Name and Description.":::
+:::image type="content" source="../images/analyst-customize-metric-name-publish.png" alt-text="Screenshot that shows the fifth step of the metric editor, Name and publish, with an edited Name and Description." lightbox="../images/analyst-customize-metric-name-publish.png":::
 
 ### Save your metric and choose whether to publish it
 
@@ -156,7 +156,7 @@ Let's demonstrate how you might customize a metric. For this sample scenario, we
     1. The metric has a filter set up to measure Fridays. However, you wanted to know about Friday afternoons specifically. In the **Filter and define collaboration type(s)** section, replace the existing condition with a condition group, which will measure two simultaneous conditions (Friday *and* afternoon).
         1. Select the trashcan icon to delete the existing condition.
         
-            :::image type="content" source="../images/analyst-customize-metric-sample-trashcan.png" alt-text="Screenshot that shows an existing filter with the trashcan icon highlighted to the right.":::
+            :::image type="content" source="../images/analyst-customize-metric-sample-trashcan.png" alt-text="Screenshot that shows an existing filter with the trashcan icon highlighted to the right." lightbox="../images/analyst-customize-metric-sample-trashcan.png":::
 
         1. Select **Add condition group**.
             :::image type="content" source="../images/analyst-customize-metric-sample-add-cg.png" alt-text="Screenshot that shows a blank condition with the Add condition group option highlighted.":::
@@ -175,7 +175,7 @@ Let's demonstrate how you might customize a metric. For this sample scenario, we
 
 1. In **Select a time window**, select **During working hours**. Though you set a filter earlier to analyze meetings that occur after noon, the time window makes sure you're only analyzing meetings that occur during business hours.
 
-    :::image type="content" source="../images/analyst-customize-metric-sample-time-window.png" alt-text="Screenshot that shows setting the time window to During working hours.":::
+    :::image type="content" source="../images/analyst-customize-metric-sample-time-window.png" alt-text="Screenshot that shows setting the time window to During working hours." lightbox="../images/analyst-customize-metric-sample-time-window.png" lightbox="../images/analyst-customize-metric-sample-time-window.png":::
 
 1. In **Name and publish**, choose a new name for your metric and add to its description.
 
