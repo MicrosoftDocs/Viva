@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Metrics in Viva Insights
 description: Learn about using metrics in Microsoft Viva Insights 
 author: lilyolason
@@ -27,7 +28,7 @@ Before we get started, here are a few things to know about custom metrics:
 ## How to customize a metric
 
 >[!Note]
-> You’ll customize metrics while you’re creating a query. Make sure you’re in the Analysis page of the advanced insights app and have selected either a Power BI template query or a person query. Adding custom metrics to a meeting query isn’t supported right now.
+> You’ll customize metrics while you’re creating a query. Make sure you’re in the **Analysis** page of the advanced insights app and have selected either a Power BI template query or a person query. Adding custom metrics to a meeting query isn’t supported right now.
 
 ### Find your base metric
 
@@ -44,8 +45,6 @@ To find the metric you want to customize, either:
 * Use the search bar at the top of the **Select metrics** pane.
 
 To learn more about a metric, including its definition, select the tooltip to the right of the metric name.
-
- ![tooltip hover](../images/analyst-customize-metric-sample-hover.png)
 
 ### Use the Clone function
 
