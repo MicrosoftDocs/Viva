@@ -175,7 +175,7 @@ Let's demonstrate how you might customize a metric. For this sample scenario, we
 
 1. In **Select a time window**, select **During working hours**. Though you set a filter earlier to analyze meetings that occur after noon, the time window makes sure you're only analyzing meetings that occur during business hours.
 
-    :::image type="content" source="../images/analyst-customize-metric-sample-time-window.png" alt-text="Screenshot that shows setting the time window to During working hours." lightbox="../images/analyst-customize-metric-sample-time-window.png" lightbox="../images/analyst-customize-metric-sample-time-window.png":::
+    :::image type="content" source="../images/analyst-customize-metric-sample-time-window.png" alt-text="Screenshot that shows setting the time window to During working hours." lightbox="../images/analyst-customize-metric-sample-time-window.png":::
 
 1. In **Name and publish**, choose a new name for your metric and add to its description.
 
