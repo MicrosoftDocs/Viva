@@ -125,9 +125,13 @@ Viva Insights will ask you if you want to publish your metric to the metric libr
 
 You'll find customized metrics within the **Select metrics** pane. To get to the select metrics pane, select the **Add metrics** button while you're building a query.
 
-If you're looking for a metric you customized, expand the **Defined by me** category. 
+If you're looking for a metric you customized, expand the **Defined by me** category.
+
+![defined by me](../images/analyst-customize-metric-defined-me.png)
 
 If you're looking for a metric that another analyst in your organization customized, expand the **Defined by others** category.
+
+![defined by others](../images/analyst-customize-metric-defined-others.png)
 
 The rest of the process is the same as adding any metrics to a query. You'll select the checkmark next each metric you want to add. After you've selected all the metrics you want, select the **Add to query** button at the bottom of the pane.
 
