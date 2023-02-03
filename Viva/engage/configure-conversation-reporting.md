@@ -23,7 +23,7 @@ description: "Configure conversation reporting in Viva Engage to enable people t
 
  Viva Engage tenants have access to a report conversations capability that enables users within the network to report conversations, comments, and replies in Viva Engage.
 
- Engage admins can enable users to report a conversation on their network from the Engage admin center. Within the Engage admin center, navigate to the "Setup \&amp; Configuration" tab and select "Configure Tenant". You will be redirected to the Yammer admin webpage, where you can access "Report a conversation" under "Content &amp Security" on the left panel.
+ Engage admins can enable users to report a conversation on their network from the Engage admin center. Within the Engage admin center, navigate to the "Setup & Configuration" tab and select "Configure Tenant". You will be redirected to the Yammer admin webpage, where you can access "Report a conversation" under "Content & Security" on the left panel.
 
 ![screenshot showing yammer reporting settings.](../media/yammer-conversations-admin-reportconversations.png)
 
