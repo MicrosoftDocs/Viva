@@ -138,7 +138,7 @@ To find out how we define these categories, expand each category container. If y
 In each category, you’ll notice a few preselected attributes and values, for example, Level designation. These attributes and values determine what kind of information the metric pulls from your data.
 
 >[!Note]
-These values in templates are prefilled. If you want more granular control over attributes and values, consider creating a rule from scratch.
+> These values in templates are prefilled. If you want more granular control over attributes and values, consider creating a rule from scratch.
 
 #### To add a rule from a template
 
@@ -146,9 +146,8 @@ These values in templates are prefilled. If you want more granular control over 
 
     :::image type="content" source="../images/analyst-metric-rules-page-create-template.png" alt-text="Screenshot that shows the Create new rule button with the first option, Create using a template, highlighted.":::
  
-1.	Select the categories you want your rule to apply to. 
+1.	Select the categories you want your rule to apply to.  Repeat this step for each category you want to include.
 
-    Repeat this step for each category you want to include.
 
 1. If you want to go on to naming and publishing your rule, select the **Next** button in the top right of your screen.
  
@@ -287,7 +286,7 @@ The meeting exclusions rule works by excluding time and count metrics for meetin
 
 When you view the meeting exclusion rule’s details, you’ll find a different layout than other rules created by analysts in your organization.
 
-:::image type="content" source="../images/analyst-metric-rules-meeting-exclusions.png" alt-text="Screenshot that shows the Meeting exclusions rule page.":::
+:::image type="content" source="../images/analyst-metric-rules-meeting-exclusions.png" alt-text="Screenshot that shows the Meeting exclusions rule page." lightbox="../images/analyst-metric-rules-meeting-exclusions.png":::
 
 To view the rule’s criteria, expand **Which meetings are excluded from collaboration metrics?**. To find out which metrics this rule doesn’t apply to, expand A**re there exceptions to this rule?**. 
 
