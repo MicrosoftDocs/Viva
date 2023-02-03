@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Best practices for meetings
 description: Get best practices for managers about planning and running meetings
 author: madehmer
@@ -39,7 +39,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 
 * Say no to meetings. See [Polite ways to decline a meeting invitation](https://insights.office.com/time-management/polite-ways-to-decline-a-meeting-invitation/) and [Set team meeting rules and policy](#set-team-meeting-rules-and-policy) for ways to say no and set meeting policy.
 * Support shortening meetings and inviting fewer people.
-* Encourage employees to use personal [meeting insights](../personal/use/collaboration.md#meeting-habits) to understand how they can improve their meeting habits.
+* Encourage employees to use personal [meeting insights](../personal/teams/effective-meetings.md) to understand how they can improve their meeting habits.
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
 * Enable [Manager insights](../manager-insights/introduction.md) to help managers identify ways to improve team behavior.
 * Regularly and openly check in with employees. Frustration, resentment, and even hopelessness are signals that people are falling back into less productive patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention.
@@ -86,4 +86,3 @@ Possible roles for meeting:
 ## Related topics
 
 * [Viva Insights best practices](best-practices.md)
-* [Collaboration](../personal/use/collaboration.md)

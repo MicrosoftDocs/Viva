@@ -23,6 +23,9 @@ description: "Build Viva Connections for your organization"
 
 # Build Viva Connections 
 
+> [!IMPORTANT]
+> A new desktop experience is coming soon for Viva Connections. The new experience is rolling out to [Target Release](/microsoft-365/admin/manage/release-options-in-office-365) customers now and will become generally available to all customers by the end of the first half of 2023. The new desktop home experience will automatically update for customers currently using Viva Connections. The experience doesn't have any requirements besides a [Viva license](https://www.microsoft.com/en-us/microsoft-viva) and can be setup more easily than the first release. [Learn more about the new experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6). Content in this article will be updated when the new experience becomes generally available.
+
 After deciding which tasks, audiences, and resources to promote using Viva Connections in the [planning phase](plan-viva-connections.md), you're ready to move onto the building phase. 
 
 You know you're ready to move onto the building phase if you've met the following requirements and have reviewed best practices:
