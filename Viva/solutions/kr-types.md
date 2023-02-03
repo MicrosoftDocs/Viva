@@ -25,9 +25,9 @@ The Key Result(KR) types enable users to establish goals with defined outcomes. 
 ## What are the different KR types you can create in Viva Goals? 
 Viva Goals allows you to create 5 distinct types of Key Results; we are broadly classifying them into two main categories: 
 
-1. Regular KR types (Quantity KRs)
-1. Control KR types (Quality/Guardrail KRs)
-1. Measure baseline key results 
+1. [Regular KR types](#regular-kr-types-quantity) (Quantity KRs)
+1. [Control KR types](#control-kr-types-quality) (Quality/Guardrail KRs)
+1. [Measure baseline KRs](#baseline-key-results) 
 
 ### Regular KR types (Quantity): 
 1. **Reach:** The 'Reach' metric type is useful when you have a specific target that you want to achieve, for example, "Conduct 5 internal surveys" or "Launch 4 Kitchens".
