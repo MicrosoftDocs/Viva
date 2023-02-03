@@ -35,9 +35,22 @@ Before we get into discussing how to use rules in your queries, let’s discuss 
 
 The **Metric rules** page contains five views, which you can access through tabs near the top of the page. Let’s talk about each of them, and also explain how to use some related features.
 
+![views](../images/analyst-metric-rules-views.png)
+
 #### All rules
 
-The **All rules** view shows all the rules that people in your organization have published and drafted. Want to make a rule similar to someone else’s? Use the **Clone** function and create your own based on their settings. Cloning works on drafts and published rules. 
+The **All rules** view shows all the rules that people in your organization have published and drafted. 
+
+Here’s what you can do in this view:
+
+* **Set as default**, if you originally created the rule
+* **Clone**
+* **Archive**, if you originally created the rule
+* **Delete**, if you originally created the rule
+* **Favorite** 
+
+>[!Note]
+>Want to make a rule similar to someone else’s? Use the **Clone** function and create your own based on their settings. Cloning works on drafts and published rules.
 
 #### Published
 
@@ -45,9 +58,10 @@ The **Published** view shows all rules that people in your organization have pub
 
 Here’s what you can do in this view:
 
+* **Set as default**, if you originally created the rule
 * **Clone**
-* **Archive**, if you originally published the rule
-* **Delete**, if you originally published the rule
+* **Archive**, if you originally created the rule
+* **Delete**, if you originally created the rule
 * **Favorite** 
 
 #### Drafts
@@ -55,7 +69,7 @@ Here’s what you can do in this view:
 In the **Drafts** view, you’ll find rules that people in your organization are working on and haven’t published yet. You can only publish your own drafts, but you can use the **Clone** option on anybody’s draft.
 
 >[!Note]
->We describe how to save a rule as a draft in How to create new rules.
+>We describe how to save a rule as a draft in [How to create new rules](#how-to-create-new-rules).
 
 Here’s what you can do in this view:
 
@@ -70,13 +84,17 @@ Use the **Favorites** view as a place to find frequently accessed rules you’ve
 Here’s what you can do in this view:
 
 * **Clone**
-* **Archive**, if you originally published the rule
-* **Delete**, if you originally published the rule
+* **Archive**, if you originally created the rule
+* **Delete**, if you originally created the rule
 * **Remove as favorite**
 
 ##### How to mark a rule as Favorite
 
-To mark a rule as a favorite while you’re in **All rules** or **Published**, select the ellipses (**...**) under the **Actions** column, and then select the **Favorite** option. When you go to add a rule to a query, you’ll find your favorites beneath the default rule.
+To mark a rule as a favorite while you’re in **All rules** or **Published**, select the ellipses (**...**) under the **Actions** column, and then select the **Favorite** option. 
+
+![favorite](../images/analyst-metric-rules-favorite1.png)
+
+When you go to add a rule to a query, you’ll find your favorites beneath the default rule.
 
 #### Archived
 
@@ -87,6 +105,8 @@ The **Archived** view stores previously published rules that shouldn’t be dele
 To archive a rule, select the ellipses (**...**) under **Actions**, and then select **Archive**. The rule moves to your **Archived** view.
  
 To restore—that is, republish—a rule, select the ellipses under the **Actions** column, and then select **Undo archive**.
+
+![undo archive](../images/analyst-metric-rules-undo-archive.png)
  
 ## How to create new rules
 
@@ -104,11 +124,11 @@ Before we jump in, let’s discuss how we’ve set up our rule templates.
 
 We’ve compiled some categories for each collaboration type you might want your rule to apply to: **Vacation / OOF** (or “out of office”), **Focus time**, **Attended meetings**, **Likely attended meetings**, **Invited meetings**, **No meeting day**, **Appointments**, and **Emails sent to self**. Collaboration types are meetings, emails, chats, and calls.
  
-To find out how we define these categories, expand each category container.
+To find out how we define these categories, expand each category container. If you want to include a category in your rule, select the checkmark next to its title.
 
-If you want to include a category in your rule, select the checkmark next to its title. 
- 
-To select all categories or deselect all categories, use **Select all** or **Clear all**.
+![undo archive](../images/analyst-metric-rules-category-expanded.png)
+
+ To select all categories or deselect all categories, use the **Select all** or **Clear all** options above all categories.
  
 ##### Attributes
 
@@ -120,6 +140,8 @@ These values in templates are prefilled. If you want more granular control over 
 #### To add a rule from a template
 
 1. After you select **Create new rule**, pick the first option from the dropdown menu: **Create using a template**.
+
+    ![from template](../images/analyst-metric-rules-create-new2.png)
  
 1.	Select the categories you want your rule to apply to. 
 
@@ -127,6 +149,8 @@ These values in templates are prefilled. If you want more granular control over 
 
 1. If you want to go on to naming and publishing your rule, select the **Next** button in the top right of your screen.
  
+    ![next](../images/analyst-metric-rules-next.png)
+
     If you’re done for now and want to save your rule as a draft, select the close icon to the right of **Next**, instead.  Select **Save**. If you don’t want to save your draft, select **Cancel**.
  
 1.	Fill out your rule’s publication details:
@@ -140,15 +164,19 @@ These values in templates are prefilled. If you want more granular control over 
  
 1. If you’re done editing your rule and you’re ready to publish it, select the **Publish** button. Select **Previous** to go back.
  
-1.	Your new rule appears in the **Published** and **All rules** views on the Metric rules page, and in your Favorites view if you marked it as a favorite in step 4c. When you go to add a new metric rule to a query, you’ll also find it among the rule options. If you marked a rule as a default in step 4d, that rule will apply to any query that any analyst in your organization runs from this point on.
+    ![publish](../images/analyst-metric-rules-review-publish1.png)
 
-If you’re ready to add your rule to a query, go to How to add a rule to your query.
+1.	Your new rule appears in the **Published** and **All rules** views on the **Metric rules** page, and in your **Favorites** view if you marked it as a favorite in step 4c. When you go to add a new metric rule to a query, you’ll also find it among the rule options. If you marked a rule as a default in step 4d, that rule will apply to any query that any analyst in your organization runs from this point on.
+
+If you’re ready to add your rule to a query, go to [How to add a rule to your query](#how-to-add-a-rule-to-your-query).
 
 ### From scratch
 
 To create a new metric rule from scratch and publish it to your organization, follow these steps:
 
 1. After you select **Create new rule**, pick the second option from the dropdown menu: **Create from scratch**.
+
+    ![from template](../images/analyst-metric-rules-create-new2.png)
 
 1. From the tabs at the top of the **Define exclusions** page, select the first collaboration type you want your rule to apply to. Collaboration types are meetings, emails, chats, and calls. 
 
@@ -157,6 +185,8 @@ To create a new metric rule from scratch and publish it to your organization, fo
     The collective term we use for conditions and condition groups is *filters*. 
 
     When you create a filter, you’re telling Viva Insights to skip certain types of collaboration events when it runs queries. To learn more about filters, go to our custom person query documentation: [Person query](person-query.md).
+
+    ![from template](../images/analyst-metric-rules-filters.png)
 
 1. If you have other collaboration types you want your rule to apply to, select them from the tabs at the top of the **Define exclusions** page. Add filters for each collaboration type.
 
@@ -170,11 +200,16 @@ To create a new metric rule from scratch and publish it to your organization, fo
     Here’s how to add exceptions to your rule:
 
     1. Select **Add exception** to the right of your condition or condition group.
-    1. A pane opens to the right. Type a keyword in the text-input field and press **Enter** on your keyboard. Enter each keyword separately. 
+    ![add exception](../images/analyst-metric-rules-exception2.png)
+    1. A pane opens to the right. Type a keyword in the text-input field and press **Enter** on your keyboard. Enter each term separately.
+    ![add keyword](../images/analyst-metric-rules-exception-keyword.png)
     1. After you’ve entered all your keywords, select the **Save** button at the bottom left of the pane.
     1. You’ll see your exceptions noted in the condition group. If you need to remove a keyword or add more, select the **exceptions** link again.
+    ![exceptions added](../images/analyst-metric-rules-exceptions-added.png)
 
 1. If you want to go on to naming and publishing your rule, select the **Next** button in the top right of your screen.
+
+    ![next-scratch](../images/analyst-metric-rules-next.png)
 
     If you’re done for now and want to save your rule as a draft, select the close icon to the right of **Next**, instead.  Select **Save**. If you don’t want to save your draft, select **Cancel**.
 
@@ -188,7 +223,9 @@ To create a new metric rule from scratch and publish it to your organization, fo
     >When you set a rule as default, that rule applies to all queries that any analyst in your organization runs. Default rules also affect calculations for the Viva Insights app in Teams and web. Use the default option carefully.
  
 1. If you’re done editing your rule and you’re ready to publish it, select the **Publish** button. Select **Previous** to go back.
- 
+
+    ![publish-scratch](../images/analyst-metric-rules-review-publish1.png)
+
 1. Your new rule appears in the **Published** and **All rules** views on the Metric rules page, and in your **Favorites** view if you marked it as a favorite in step 7c. When you go to add a new metric rule to a query, you’ll also find it among the rule options. If you marked a rule as a default in step 7d, that rule will apply to any query that any analyst in your organization runs from this point on.
 
 If you’re ready to add your rule to a query, go to How to add a rule to your query.
