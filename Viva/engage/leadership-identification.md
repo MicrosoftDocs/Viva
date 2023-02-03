@@ -83,24 +83,43 @@ A leader’s communications (posts, stories, and announcements) in Viva Engage c
 
 A leader can configure delegates through the following steps:
 
-1. In Yammer, open the **Settings** menu (gear icon) in the top-right corner.
+1. Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the dropdown list of options (see image at the top of this article for reference).
 2. Select **Manage delegate settings**.
 
 3. Add the name of the person who will be the delegate or delegate manager.
 
+![View of the interface for Delegate Settings in Viva Engage.](/Viva/media/engage/admin/delegate-settings.png)
+
 4. Choose the type of delegate.
 
-- A delegate can create posts on behalf of the user in any public or private Yammer community as long as both the delegate and the user have access to it.
+    - A delegate can create posts on behalf of the user in any public or private Yammer community as long as both the delegate and the user have access to it.
 
-- A delegate manager can similarly create posts. A delegate manager can also configure a leader’s audience, and assign additional delegates or delegate managers.
+    - A delegate manager can similarly create posts. A delegate manager can also configure a leader’s audience, and assign additional delegates or delegate managers.
 
-- As soon as a user gets a new delegate assigned to the delegate team, the user and the whole team of delegates will receive an email notifying them of this action.
+    - As soon as a user gets a new delegate assigned to the delegate team, the user and the whole team of delegates will receive an email notifying them of this action.
 
-- When a delegate is removed, the same audience is notified via email.
+    - When a delegate is removed, the same audience is notified via email.
 
-5. If the delegate will create posts, stories, or announcements on the leader’s Storyline, **enable the Storyline toggle**.
+5. If the delegate will create posts, stories, or announcements on the leader’s [Storyline](/Viva/engage/eac-storyline.md), **enable the Storyline toggle**.
 
 Learn more about [Delegate Managers in Microsoft Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-yammer-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285).
+
+## Leadership Corner
+
+Leadership Corner in Viva Engage is a place for users to get to know their leaders and stay informed on the latest content they post. Users can visit Leadership Corner to catch up on the latest content leaders are posting, join their communities, and attend their AMAs to ask them questions directly. Leadership Corner gives your organization the tools they need to learn about their leaders and build lasting connections with them.
+
+Leadership Corner is ON by default but can be disabled using the toggle in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac.md) by a Microsoft 365 Global admin or Engage admin. Follow the below steps to enable or disable Leadership Corner for your organization:
+
+1. Select **Leadership corner** from the **Feature management tab** in the Engage admin center.
+
+![View of the Leadership Corner toggle for admin.](/Viva/media/engage/admin/lc-admin-eac.png)
+
+2. Use the toggle to enable or disable Leadership Corner for your organization.
+
+![View of the Leadership Corner toggle for admin.](/Viva/media/engage/admin/lc-toggle.png)
+
+> [!NOTE]
+> When you disable Leadership Corner, users will no longer see the **Leaders** entrypoint in the top navigation of Viva Engage.
 
 ## What next
 
@@ -110,29 +129,29 @@ Learn more about [Storyline announcements](https://support.microsoft.com/topic/8
 
 **Analytics**
 
-Learn more about [analytics for leaders](/Viva/engage/analytics.md), which empower leaders to measure and improve the effectiveness of their communication and engagement, and identify opportunities to drive impact.  
-
-**Leadership Corner**
-
-After a leader has been identified, the leader’s most recent activity on their Storyline and in communities will become visible in Leadership Corner to the leader’s followers and people in the leader’s audience. Leadership Corner can be disabled using the toggle in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac.md) by an Microsoft 365 Global admin or Engage admin.
-
-1. Select **Leadership corner** from the Feature management tab in the Engage admin center.
-
-![View of the Leadership Corner toggle for admin.](/Viva/media/engage/admin/lc-admin-eac.png)
-
-2. Use the toggle to enable or disable leadership corner for your organization.
-
-![View of the Leadership Corner toggle for admin.](/Viva/media/engage/admin/lc-toggle.png)
+Learn more about [analytics for leaders](/Viva/engage/analytics.md), which empower leaders to measure and improve the effectiveness of their communication and engagement, and identify opportunities to drive impact in their organization.  
 
 ## Frequently asked questions
 
-**Why is leader identification and audience management important?**  Identifying leaders and audiences will help ensure that your leaders' posts are reaching their intended audiences. Completing this configuration is crucial to making sure you get the audience reach you and your leaders desire. In addition, leader identification and audience management is required for other premium features to work successfully, such as storyline announcements, leadership corner, campaigns, and analytics.
+**Why is leader identification and audience management important?**
 
-**Who can identify and set leaders?** Only Verified Admins, Network Admins, Yammer Admins, and corporate communications managers can identify and set leaders.
+Identifying leaders and audiences will help ensure that your leaders' posts are reaching their intended audiences. Completing this configuration is crucial to making sure you get the audience reach you and your leaders desire. In addition, leader identification and audience management is required for other premium features to work successfully, such as storyline announcements, leadership corner, campaigns, and analytics.
 
-**How are leader’s audiences configured?** Identified leaders and their delegate managers can configure leader’s audiences in the **Manage audience** interface. For a leader to reach the Entire Organization, however, Engage Admins (Yammer Admins), Verified Admins, Network Admins and corporate communications managers must configure and enable this audience. Employees are not involved in the audience configuration.  
+**Who can identify and set leaders?**
 
-**Is there a way to disable Leadership Corner?** Yes, Global admin and Engage admin can access a toggle switch in the Engage admin center to disable Leadership Corner for their organization.
+Only Verified Admins, Network Admins, Engage Admins, and corporate communications managers can identify and set leaders.
+
+**How are leader’s audiences configured?**
+
+Identified leaders and their delegate managers can configure leader’s audiences in the **Manage audience** interface. For a leader to reach the Entire Organization, however, Engage Admins (Yammer Admins), Verified Admins, Network Admins and corporate communications managers must configure and enable this audience. Employees are not involved in the audience configuration.  
+
+**Is there a way to disable Leadership Corner?**
+
+Yes, Global admin and Engage admin can access a toggle switch in the Engage admin center to disable Leadership Corner for their organization.
+
+**How can I customize the company logo in Leadership Corner?**
+
+The company logo can be customized by following the instructions in this [link](/yammer/manage-yammer-groups/customize-your-network).
 
 ## See also
 
