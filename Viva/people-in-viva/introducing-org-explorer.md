@@ -1,15 +1,15 @@
 ---
 title: Introducing Org Explorer
 ms.reviewer: 
-ms.author: 
+ms.author: ponincev
 author: PollyNincevic
 ms.topic: article
 ms.service: viva
 manager: margrets
 audience: Admin
-description: "Introduction to Org Explorer"
+description: "Introducing Org Explorer"
 ---
-# Introduction to Org Explorer
+# Introducing Org Explorer
 Org Explorer helps you visualize and explore your company’s internal structure, its teams, and people. It's available to all enterprise users that have the Microsoft Viva suite or Microsoft Viva suite with Glint.
 
 ## Availability
