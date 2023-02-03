@@ -166,7 +166,7 @@ In each category, you’ll notice a few preselected attributes and values, for e
  
 1. If you’re done editing your rule and you’re ready to publish it, select the **Publish** button. Select **Previous** to go back.
  
-   :::image type="content" source="../images/analyst-metric-rules-review-publish1.png" alt-text="Screenshot that shows Review and publish section of the rule creator, with the Publish button in the top-right corner highlighted.":::
+   :::image type="content" source="../images/analyst-metric-rules-review-publish1.png" alt-text="This screenshot shows the Review and publish section of the rule creator with the Publish button in the top-right corner highlighted." lightbox="../images/analyst-metric-rules-review-publish1.png":::
 
 1.	Your new rule appears in the **Published** and **All rules** views on the **Metric rules** page, and in your **Favorites** view if you marked it as a favorite in step 4c. When you go to add a new metric rule to a query, you’ll also find it among the rule options. If you marked a rule as a default in step 4d, that rule will apply to any query that any analyst in your organization runs from this point on.
 
@@ -231,7 +231,7 @@ To create a new metric rule from scratch and publish it to your organization, fo
  
 1. If you’re done editing your rule and you’re ready to publish it, select the **Publish** button. Select **Previous** to go back.
 
-    ![publish-scratch](../images/analyst-metric-rules-review-publish1.png)
+    :::image type="content" source="../images/analyst-metric-rules-review-publish1.png" alt-text="alt-text="Screenshot that shows Review and publish section of the rule creator with the Publish button in the top-right corner highlighted."."
 
 1. Your new rule appears in the **Published** and **All rules** views on the Metric rules page, and in your **Favorites** view if you marked it as a favorite in step 7c. When you go to add a new metric rule to a query, you’ll also find it among the rule options. If you marked a rule as a default in step 7d, that rule will apply to any query that any analyst in your organization runs from this point on.
 
