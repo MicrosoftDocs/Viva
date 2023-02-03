@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Viva Sales
 description: Learn how to configure administrator settings for Viva Sales.
-ms.date: 01/23/2023
+ms.date: 02/03/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -59,6 +59,7 @@ When you open administrator settings, following tabs are available:
 
 - **About**: Displays details of the Viva Sales app.
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWWVKG]
 
 **To access administrator settings**
 
