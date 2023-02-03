@@ -242,7 +242,7 @@ If you’re ready to add your rule to a query, go to How to add a rule to your q
 
 1. While you’re building your query, select **More Settings** in the **Query setup** section.
  
-    :::image type="content" source="../images/analyst-metric-rules-more-settings.png" alt-text="Screenshot that shows the Query setup section of a query, with More Settings highlighted" lightbox="../images/analyst-metric-rules-,more-settings-large.png":::
+    :::image type="content" source="../images/analyst-metric-rules-more-settings.png" alt-text="Screenshot that shows the Query setup section of a query, with More Settings highlighted" lightbox="../images/analyst-metric-rules-more-settings-large.png":::
 
 1. A **Metric rules** pane appears. Select the rule you want to apply.
 
