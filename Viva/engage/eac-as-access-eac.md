@@ -63,9 +63,6 @@ Once assigned, the corporate communicator will be able to:
     - Identify leaders
         - Manage their audience
 
-> [!NOTE]
-> A corporate communicator with the core license can only identify leaders and their audiences. The user will need an Engage premium license to create and manage campaigns.  
-
 ### Remove user as a corporate communicator
 
 Selecting the delete icon on the right side of the corporate communicator list will remove the user from this role and they will no longer be visible as an active corporate communicator in your network.
