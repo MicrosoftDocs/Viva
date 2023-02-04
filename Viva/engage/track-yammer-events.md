@@ -22,7 +22,7 @@ description: "You can view Viva Engage events through Microsoft 365 Management A
 
 # Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API
 
-To monitor security and compliance related Viva Engage events for your organization, turn on audit logging and view changes to users, groups, files, admins and network settings. The audit logs are available in the Microsoft 365 Security & Compliance center or by using the Microsoft 365 Management Activity API.
+To monitor security and compliance related Viva Engage events for your organization, turn on audit logging and view changes to users, groups, files, admins and network settings. The audit logs are available in the Microsoft 365 Security &amp; Compliance center or by using the Microsoft 365 Management Activity API.
   
 You must have the Microsoft 365 global admin role or the Audit Logs role in Exchange online to audit events. You can view Viva Engage events from your home network, but not from external networks. The events you can search include the following categories:
   
@@ -42,7 +42,7 @@ Before you can view the audit log, you need to [Turn Microsoft 365 audit log sea
   
 To view the audit log:
   
-1. Go to the [Microsoft 365 Security &amp; compliance center](https://protection.office.com/) and sign in using your work or school account.
+1. Go to the [Microsoft purview compliance center](https://sip.compliance.microsoft.com/homepage) and sign in using your work or school account.
 
 2. Go to **Search &amp; investigation** \> **Audit log search**.
 

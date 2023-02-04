@@ -75,19 +75,17 @@ An external network is a separate extension of your home network, but includes i
 
 5. People are the core of the enterprise social network, so invite your team to get started on Viva Engage via the  Engage admin center.
 
-6. Understand mobile device options, and if needed create a policy for mobile Viva Engage use. For example, you might require that user's have passwords or other locks on their phones in order to use Yammer on their phone. You can monitor device usage through the Yammer admin center, and [manage Yammer devices by using Microsoft Intune](../manage-security-and-compliance/manage-yammer-with-intune.md).
+6. Consider how you want to integrate Viva Engage with other apps, including SharePoint and Teams.
 
-7. Consider how you want to integrate Viva Engage with other apps, including SharePoint and Teams.
-
-8. Define how your organization will train and support Viva Engage users. End-user support options include online help and training, and the online community. See [Viva Engage help center](https://support.office.com/article/8663922d-8f76-47c2-827a-ee86e8cac00f.aspx). Consider creating a Viva Engage 101 group - your own local self-support community.
+7. Define how your organization will train and support Viva Engage users. End-user support options include online help and training, and the online community. See [Viva Engage help center](https://support.office.com/article/8663922d-8f76-47c2-827a-ee86e8cac00f.aspx). Consider creating a Viva Engage 101 group - your own local self-support community.
 
 For admin support options, if you need more help than [Viva Engage admin help](../TOC.yml) provides, you can [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 Check the [Microsoft 365 Service health dashboard](https://admin.microsoft.com/AdminPortal/Home#/servicehealth) to see real-time status of the Viva Engage service. 
 
-9. Viva Engage is always changing. To stay current on what's happening, regularly review the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?LinkId=509914). 
+8. Viva Engage is always changing. To stay current on what's happening, regularly review the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?LinkId=509914). 
 
-10. Learn more.
+9. Learn more.
 
 To learn about all the admin features of Viva Engage, see [Viva Engage admin help](../TOC.yml).
 
