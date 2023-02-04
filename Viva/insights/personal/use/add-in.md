@@ -18,9 +18,9 @@ audience: user
 ---
 # Viva Insights Outlook add-in
 
-_**Applies to**: Microsoft Viva Insights elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
+_**Applies to**: Microsoft Viva Insights elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is)_
 
-Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
+Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Would you like to be notified if an upcoming meeting doesn't have a quorum?
 
 If your answer to any of these questions is _yes_, the Microsoft Viva Insights Outlook add-in provides insights that can help you stay on top of your tasks and get more done during your workday.
 
@@ -108,7 +108,7 @@ This pane will show you a number of options, such as the following:
 * [Add important people](use-the-insights.md#add-important-people) - Manage your list of important contacts. You'll see reminders when you have tasks to complete for these people or unread emails from them.
 * [Set lunch hours](use-the-insights.md#set-lunch-hours) - Use this card to protect your lunch hours and personalize your insights.
 * [Plan your time away](use-the-insights.md#plan-your-time-away) - Use this card to plan your time away from work.
-* [Catch up with your team](use-the-insights.md#catch-up-with-your-team) - Stay on top of your team's needs with insights for 1:1 meetings, outstanding tasks, and so on.
+* [Catch up with your team](use-the-insights.md#catch-up-with-your-team) - Stay on top of your team's needs with insights about unread shared documents and tasks you promised to complete.
 * [Meeting suggestions](use-the-insights.md#meeting-suggestions) - Grow and nurture your network by staying connected with important colleagues.
 
 ## Pin the add-in
@@ -128,21 +128,18 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 5. In the right pane, in the **Toolbar** area, select **Viva Insights**.
 6. Save your new settings.
 
-## To opt out
+## To opt in and opt out
 
->[!IMPORTANT]
->The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
->![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
-> [Read more about this change](../reference/mya-retirement.md).
+1. Open your Viva Insights app in Teams or on the web.
+1. Select the ellipses (**...**) at top right.
+1. Select **Privacy** from the left pane.
+1. To :
+    * Opt ***out***, toggle the switch for **Insights Outlook Add-in** from **On** to **Off**.
+    * Opt ***in***,toggle the switch for **Insights Outlook Add-in** from **Off** to **On**
 
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon at top right.
+1. Select **Save changes**.
 
-    ![Dashboard settings.](../../Images/mya/use/mya-gear-settings.png)
-
-3. Under **Viva Insights**, select **Settings**.
-4. For **Insights Outlook add-in**, set the control to **Off**.  
-5. Select **Save** to save your changes.
+    ![Outlook add-in opt out setting](../../Images/mya/use/opt-out-add-in.png)
 
 >[!NOTE]
 >It might take up to 24 hours for your saved changes to take effect.
@@ -162,25 +159,6 @@ If you opt out of the Viva Insights Outlook add-in, you might also want to remov
 ### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the Viva Insights Outlook add-in.
-
-## To opt in
-
->[!IMPORTANT]
->The dashboard will be retired soon, but you can access opt-out settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
->![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
-> [Read more about this change](../reference/mya-retirement.md).
-
-1. Open your [dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon at top right.
-
-    ![Feature settings.](../../Images/mya/use/mya-gear-settings.png)
-
-3. Under **Viva Insights**, select **Settings**.
-4. For **Viva Insights Outlook add-in**, set the control to **On**.  
-5. Select **Save** to save your changes.
-
->[!NOTE]
->It might take up to 24 hours for your saved changes to take effect.
 
 ## Related topics
 

@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Organizational network analysis with Gephi
 description: Explains how to install and use Gephi for custom data visualization from Organizational network analysis 
 author: lilyolason

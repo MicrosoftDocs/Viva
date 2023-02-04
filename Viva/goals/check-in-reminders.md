@@ -1,9 +1,9 @@
 ---
 title: Configure check-in reminders and notifications
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -30,7 +30,7 @@ Notifications remind your team to check in regularly. By default, Viva Goals sen
 
 In the **Notifications** tab of the **Admin** dashboard, you can set:
 
-- Frequency (every one, two, or three weeks, or monthly)
+- Frequency (every one, two, or three weeks, or monthly on the first week, second week, third week, fourth week, or last week)
 
 - Days on which notifications are sent 
 
