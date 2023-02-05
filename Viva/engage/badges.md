@@ -21,7 +21,7 @@ search.appverid:
 
 # Rewards and recognition admin controls in Viva Engage
 
-The Viva Engage **Rewards and recognition** feature helps to motivate employees to engage with their organization. Once the user meets certain criteria for assisting their peers in Viva Answers, they'll earn various achievement badges, which can be configured by Office 365 admin or Engage admin.  
+The Viva Engage **Rewards and recognition** feature helps to motivate employees to engage with their organization. Once the user meets certain criteria for assisting their peers in Answers in Viva Engage, they'll earn various achievement badges, which can be configured by Office 365 (Global) admin or Engage admin.  
 
 ## Criteria for Answers badges
 
@@ -35,13 +35,13 @@ Users may earn five types of badges based on votes from their fellow employees:
 
 ## Rewards and recognition in Viva Engage
 
-Once assigned the Viva Engage Knowledge service plan, O365 (Global) admin and Engage admin will be able to configure Answers badges through the Engage Admin center.  
+Once assigned the Viva Engage Knowledge service plan, Global admin and Engage admin will be able to configure Answers badges through the Engage admin center.
 
 To set up Rewards and recognition for your organization, navigate to the **Feature management** tab in the Engage admin center, then select **Rewards and recognition**.
 
-[![Image of the interface for Rewards and recognition in the Engage admin center.](/Viva/media/netnew/badges-eac.png)](/Viva/media/netnew/badges-eac.png#lightbox)
+![Screenshot of the interface for Rewards and recognition in the Engage admin center.](/Viva/media/netnew/badges-eac.png)
 
-Once redirected, the O365 (Global) and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**.
+Once redirected, the Global and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**.
 
 [![Image of the interface for Answers badges settings in the Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
 
