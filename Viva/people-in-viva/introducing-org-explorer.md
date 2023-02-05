@@ -30,7 +30,7 @@ Org Explorer is available in Outlook.
 
 ## Where is the organization information collected from?
 
-The organizational information you see about users in Org Explorer is from Azure Active Directory – AAD. [Learn more about user information](/graph/api/resources/users?view=graph-rest-1.0).
+The organizational information you see about users in Org Explorer is from Azure Active Directory – AAD. [Learn more about user information](/graph/api/resources/users?).
 
 ## How is the "Works With" data generated?
 
