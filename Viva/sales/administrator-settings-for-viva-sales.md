@@ -22,6 +22,7 @@ The following administrator settings are available:
 
 ## Prerequisites
 
+- Viva Sales app must be added to Teams. More information: [Add the Viva Sales app to Teams](#add-the-viva-sales-app-to-teams)
 - Administrators must have the latest version of the Viva Sales app in Teams. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 - Administrator must sign in to Viva Sales in Outlook.
     1. [Launch Viva Sales from Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081).
@@ -49,8 +50,6 @@ The following administrator settings are available:
 
 ## Access administrator settings
 
-**Prerequisite**: Viva Sales app must be added to Teams. More information: [Add the Viva Sales app to Teams](#add-the-viva-sales-app-to-teams)
-
 You can access administrator settings from the Viva Sales app in Teams. Administrator settings are specific to the CRM environment you sign in to from Viva Sales in Outlook. Each environment will have its own set of configurations for Viva Sales. If you want to configure Viva Sales for another environment, you must [switch environments in Outlook](#how-can-i-switch-crm-environments).
 
 When you open administrator settings, following tabs are available:
@@ -72,6 +71,10 @@ When you open administrator settings, following tabs are available:
     If **Viva Sales** isn't visible, select **More added apps** (**…**), and then select **Viva Sales**.
     
     ![Screenshot showing to select the Viva Sales app.](media/viva-sales-app-select.png "Screenshot showing to select the Viva Sales app.")
+
+    > [!NOTE]
+    > If you see the **Viva Sales** window asking you to either add or open the app, select **Add** or **Open** to get the latest features.
+    > ![Screenshot showing button to open the Viva Sales app.](media/viva-sales-open-app.png "Screenshot showing button to open the Viva Sales app.")
     
     The **Viva Sales** app is opened with the **Home** tab selected.
     
@@ -91,7 +94,7 @@ When you open administrator settings, following tabs are available:
 
 3. Search for **Viva Sales** and select it.
 
-4. Select Add in the **Viva Sales** window.
+4. Select **Add** in the **Viva Sales** window.
     
 
 ## FAQ
