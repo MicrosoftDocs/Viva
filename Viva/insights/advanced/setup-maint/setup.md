@@ -28,7 +28,7 @@ Make sure your Microsoft 365 admin has assigned licenses and roles to people in 
 >
 >After you assign licenses, give Viva Insights five days to process collaboration data. After those five days are up, your organization is ready to start running queries.
 
-After the Microsoft 365 admin assigns licenses and roles—and after the app successfully processes organizational data from Azure Active Directory (AD)—you’ve fulfilled all setup requirements. 
+After licenses and roles are assigned—and after the app successfully processes organizational data from Azure Active Directory (AD)—you’ve fulfilled all setup requirements. 
 
 ## Optional settings
 
