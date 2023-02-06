@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Viva Sales
 description: Learn how to configure administrator settings for Viva Sales.
-ms.date: 02/03/2023
+ms.date: 02/06/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -49,6 +49,8 @@ The following administrator settings are available:
 
 ## Access administrator settings
 
+**Prerequisite**: Viva Sales app must be added to Teams. More information: [Add the Viva Sales app to Teams](#add-the-viva-sales-app-to-teams)
+
 You can access administrator settings from the Viva Sales app in Teams. Administrator settings are specific to the CRM environment you sign in to from Viva Sales in Outlook. Each environment will have its own set of configurations for Viva Sales. If you want to configure Viva Sales for another environment, you must [switch environments in Outlook](#how-can-i-switch-crm-environments).
 
 When you open administrator settings, following tabs are available:
@@ -81,7 +83,16 @@ When you open administrator settings, following tabs are available:
 
     ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
 
+## Add the Viva Sales app to Teams
 
+1.  Sign in to Microsoft Teams with your administrator credentials.
+
+2.  In the navigation bar on the left, select **Apps**.
+
+3. Search for **Viva Sales** and select it.
+
+4. Select Add in the **Viva Sales** window.
+    
 
 ## FAQ
 
@@ -123,4 +134,6 @@ Mobile device is currently not supported. You must work with administrator setti
 ### Are the Dark and High Contrast themes from Teams supported?
 
 The Dark and High Contrast themes from Teams are currently not supported. 
+
+
 
