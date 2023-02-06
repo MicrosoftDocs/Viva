@@ -20,7 +20,7 @@ audience: Admin
 # Setup for Teamwork habits and Organization trends
 
 >[!Important]
->In addition to the requirements below, to access **Organization trends** and **Teamwork habits**, a certain number of licenses need to be assigned to people in your organization. This number needs to be equal to or greater than your [minimum group size](../setup-maint/setup.md#minimum-group-size). The default minimum group size is 10, so at least 10 people in your organization need a license before you can access these pages for the first time.
+>In addition to the requirements below, to access **Organization trends** and **Teamwork habits**, a certain number of licenses need to be assigned to people in your organization. This number needs to be equal to or greater than your [minimum group size](../advanced/setup-maint/setup.md#minimum-group-size). The default minimum group size is 10, so at least 10 people in your organization need a license before you can access these pages for the first time.
 
 
 Confirm the following prerequisites and then ask your Teams Service Admin to deploy the Microsoft Viva Insights app in Microsoft Teams for you and your team. Refer your admin to [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for the required steps.
