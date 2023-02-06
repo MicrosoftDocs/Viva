@@ -74,6 +74,7 @@ When you open administrator settings, following tabs are available:
 
     > [!NOTE]
     > If you see the **Viva Sales** window asking you to either add or open the app, select **Add** or **Open** to get the latest features.
+    >
     > ![Screenshot showing button to open the Viva Sales app.](media/viva-sales-open-app.png "Screenshot showing button to open the Viva Sales app.")
     
     The **Viva Sales** app is opened with the **Home** tab selected.
@@ -95,6 +96,8 @@ When you open administrator settings, following tabs are available:
 3. Search for **Viva Sales** and select it.
 
 4. Select **Add** in the **Viva Sales** window.
+
+    ![Screenshot showing button to add the Viva Sales app.](media/viva-sales-add-app.png "Screenshot showing button to add the Viva Sales app.")
     
 
 ## FAQ
