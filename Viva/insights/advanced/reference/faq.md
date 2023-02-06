@@ -111,7 +111,7 @@ A3. No, they aren't ignored but they aren't measured and their data isn't proces
 
 #### Q4. Our admin assigned the required licenses. Why can't Insights Analysts access the advanced insights app?
 
-A4. It might take a few days for Viva insights to process Microsoft 365 collaboration data and for assigned users to get the right permissions. Most customer are able to access the app four to five days after the Insights admin assigns licenses.
+A4. It might take a few days for Viva Insights to process Microsoft 365 collaboration data and for assigned users to get the right permissions. Most customers are able to access the app four to five days after the Insights admin assigns licenses.
 
 If you're getting an error, you might want to ask the following questions:
 
