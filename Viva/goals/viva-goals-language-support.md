@@ -27,7 +27,7 @@ Tenants aren't provided with a choice for the specific deployment region for dat
 - The tenant must have a default geography in a EUDB country or select a country in EUDB country as their residence during free trial sign-up
 - The tenant must not purchase a Multi-Geo offering 
 
-Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide) page to learn more.
+Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locations) page to learn more.
 
 ## Supported languages in Viva Goals
 
