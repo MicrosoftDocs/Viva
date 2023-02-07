@@ -33,14 +33,14 @@ Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locat
 
 Currently, Viva Goals supports the following languages. 
 
-|Currently Supported  | &nbsp; |&nbsp; |
+|Currently Supported  | | |
 |---|---|---|
 Chinese (Simplified)|Chinese (Traditional)|English
 French|German|Italian
 Japanese|Korean|Portuguese (Brazil)|
 Spanish (Spain)| Estonian |
 
-|Coming Soon | &nbsp; |&nbsp; |
+|Coming Soon | | |
 |---|---|---|
 Croatian|Czech|Danish
 Dutch|Finnish|Greek
