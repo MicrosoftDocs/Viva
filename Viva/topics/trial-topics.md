@@ -23,7 +23,7 @@ This article describes how to set up and run a trial pilot program to deploy Viv
 
 ## Sign up for a trial
 
-Trials are publicly available from one of the following sources. These trials offer 50 users access to Viva Topics for 90 days.
+Trials are publicly available from one of the following sources. These trials offer 50 users access to Viva Topics for 60 days, with an option to extend the trial another 30 days.
 
 - The [Viva Topics product page](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot:overviewtab)
 
