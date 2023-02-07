@@ -77,7 +77,7 @@ There are three ways to edit an integration:
 The following is a list of all the integrations currently available in Viva Goals:
 
 
-| Supported Integrrations | | |
+| Supported Integrations | | |
 |---------|---------|---------|
 |[Azure Data Explorer ](azure-data-explorer-integration.md) |[Azure DevOps (ADO)](azure-devops-integration.md) |[Amazon RedShift](amazon-redshift-integration.md) |
 |[Asana](asana-integration.md) |[BigQuery](bigquery-integration.md) |[Box](box-integration.md) |
