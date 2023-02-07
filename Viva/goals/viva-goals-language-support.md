@@ -1,5 +1,5 @@
 ---
-title: Viva Goals language support
+title: Viva Goals regional support
 ms.reviewer: 
 ms.author: rasanders
 author: rasanders
@@ -15,10 +15,21 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Viva Goals language support"
+description: "Viva Goals data residency and language support"
 ---
 
-# Supported languages in Viva Goals
+# Viva Goals data residency
+
+Viva Goals Data Residency Coverage: Starting December 5, 2022, Viva Goals Customer Data for new tenants in the European Union Data Boundary (EUDB) will be stored in data centers located in the EU. All other tenants will have their Viva Goals Customer Data stored in data centers located in the United States. 
+
+Tenants aren't provided with a choice for the specific deployment region for data storage. To be considered a tenant in the EUDB:
+
+- The tenant must have a default geography in a EUDB country or select a country in EUDB country as their residence during free trial sign-up
+- The tenant must not purchase a Multi-Geo offering 
+
+Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide) page to learn more.
+
+## Supported languages in Viva Goals
 
 Currently, Viva Goals supports the following languages. 
 
