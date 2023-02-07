@@ -123,10 +123,10 @@ Global time saved shows the collective time saved across the organization. This 
 
 ## See also
 
-[Answers in Viva Engage: Frequently asked questions (FAQ)](/Viva/engage/eac-answers-faq.md)
+[Answers in Viva Engage: Frequently asked questions (FAQ)](/Viva/engage/eac-answers-faq)
 
-[Rewards and recognition in Viva Engage](/Viva/engage/badges.md)
+[Rewards and recognition in Viva Engage](/Viva/engage/badges)
 
-[Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions.md)
+[Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions)
 
-[View and manage analytics in Viva Engage](/Viva/engage/analytics.md)
+[View and manage analytics in Viva Engage](/Viva/engage/analytics)
