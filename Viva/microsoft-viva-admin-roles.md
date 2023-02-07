@@ -37,13 +37,13 @@ The two roles that span Microsoft Viva apps are the Microsoft 365 global admin a
 
 The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin sets up Viva, manages licenses and settings, and can assign the following Azure AD roles, which may be required for some apps and tasks:
 
-- Viva Topics [Viva Topics admin](/viva/topics/topic-experiences-roles#viva-topics-admin)
-- Viva Learning [Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
-- Viva Insights [Business Leader](/azure/active-directory/roles/permissions-reference#insights-business-leader), [Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator), and [Analyst](/azure/active-directory/roles/permissions-reference#insights-analyst)
-- [SharePoint admin](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
-- [Teams admin](/azure/active-directory/roles/permissions-reference#teams-administrator)
-- Engage admin ([Yammer administrator](/azure/active-directory/roles/permissions-reference#yammer-administrator))
-- Answers in Viva Engage Answers admin ([Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-administrator)) (required to be Engage Answers admin)
+- Viva Topics - [Viva Topics admin](/viva/topics/topic-experiences-roles#viva-topics-admin)
+- Viva Learning - [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
+- Viva Insights - [Insights Business Leader](/azure/active-directory/roles/permissions-reference#insights-business-leader), [Insights Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator), and [Insights Analyst](/azure/active-directory/roles/permissions-reference#insights-analyst)
+- SharePoint - [SharePoint admin](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
+- Teams - [Teams admin](/azure/active-directory/roles/permissions-reference#teams-administrator)
+- Viva Engage - Engage admin ([Yammer administrator](/azure/active-directory/roles/permissions-reference#yammer-administrator))
+- Answers in Viva Engage - Answers admin ([Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-manager))
 
 Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
