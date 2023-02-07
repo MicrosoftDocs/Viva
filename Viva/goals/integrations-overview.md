@@ -27,6 +27,11 @@ Viva Goals support integration with industry-leading tools and platforms you use
 
 To activate a specific integration, go to **Admin** > **Integrations** and select **Enable** .
 
+> [!IMPORTANT]
+> Integrations must first be enabled by your global administrators before they can be managed by org administrators. Contact your tenant administrator to enable supported integrations you do not see in the integrations dashboard.  
+> 
+> Instructions for global admins to enable integrations are located here: **[Enable Integrations in Viva Goals](vg-integrations-administration-overview.md)**
+
 ## How to view integrations 
 
 At the integrations page, there are two views you can use to see the available integrations: 
@@ -72,7 +77,7 @@ There are three ways to edit an integration:
 The following is a list of all the integrations currently available in Viva Goals:
 
 
-|Column1  |Column2  |Column3  |
+|  |  |  |
 |---------|---------|---------|
 |[Azure Data Explorer ](azure-data-explorer-integration.md) |[Azure DevOps (ADO)](azure-devops-integration.md) |[Amazon RedShift](amazon-redshift-integration.md) |
 |[Asana](asana-integration.md) |[BigQuery](bigquery-integration.md) |[Box](box-integration.md) |
