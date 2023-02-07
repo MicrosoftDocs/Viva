@@ -19,7 +19,7 @@ search.appverid:
 description: "Recommendations for improving your Objectives, Key Results, and Initiatives for a healthy OKR program."
 ---
 
-# Recommendations
+# Writing Recommendations
 
 Looking to improve your healthy OKR program? Here are recommendations you can perform within Viva Goals: 
 

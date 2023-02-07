@@ -89,7 +89,7 @@ To further finalize our OKRs, we’ll apply the Necessary and Sufficient Test by
 When we think hard, we realize that increasing our social media views isn't absolutely necessary to meeting our Objective, so let’s remove that one. 
 
 1. Increase new product sales from $100k to $ 1.5 m (Sales)
-1. ~~1. Increase social media views from 5,000 to 15,000 (Marketing)~~ 
+1. ~~ Increase social media views from 5,000 to 15,000 (Marketing)~~ 
 1. Increase qualified leads via web form from 50 to 3,000 (Marketing) 
 1. Increase users of Spanish language app from 0 to 10,000 (Product) 
 
