@@ -29,7 +29,7 @@ Administration of Answers will involve the Tenant admin, the Engage admin and a 
 The table below shows the range of actions available to an unlicensed user, Viva Engage Knowledge service plan entitled user, Answers admin (AAD Knowledge Manager), Engage admin (Yammer administrator), and Microsoft 365 Global admin.
 
 |Answers actions|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Yammer) admin|Answers admin (Knowledge Manager)|M365 Global admin|
-|----------|-----------------|----------------|----------|------------|-----------|
+|--------------------|-----------------|----------------|----------|------------|-----------|
 |**Answer, upvote, and react to a question thread**|Questions they are mentioned in |✓|✓|✓|✓|
 |**Receive notifications in the Viva Engage Teams app**|Questions they are mentioned in |✓|✓|✓|✓|
 |**Ask a question**| |✓|✓|✓|✓|
@@ -43,17 +43,18 @@ The table below shows the range of actions available to an unlicensed user, Viva
 |**Enable Answers**| | | | |✓|
 |**Enable Badges**| | |✓| |✓|
 
-## Manage topics in Answers
+## Manage Topics in Answers
 
-**Feature topics in Answers**
+### **Feature topics in Answers**
 
-As an Answers admin, you can feature a topic or create a topic from the topic browse page. Featuring a topic allows you to curate Viva Topics to be promoted for use within Answers.  
+As an Answers admin, you can feature a topic or create a topic from the topic browse page. Featuring a topic allows you to curate Viva Topics to be promoted for use within Answers.
 
-The **Feature a topic** button will only be visible to Answers admins or Global admins.  
+> [!NOTE]
+> The **Feature a topic** button will only be visible to Answers admin or Global admin.  
 
 ![Image of the Discover more Topics interface in Viva Engage.](/viva/media/engage/admin/feature-a-topic.png)
 
-1. When you start typing the topic you want to feature, existing Viva Topics will display, and you can choose one to feature.  
+1. When you start typing the topic you want to feature, existing Viva Topics will appear, and you can choose one to feature.  
 ![Image of the editable summary for your topic in Viva Engage.](/viva/media/engage/admin/type-topic.png)
 2. After you select a topic to feature, you can edit the summary field that will be displayed as the short description of that topic in Answers. The summary will help people understand what the topic is about and if it’s the appropriate topic to attach to their questions.
 
@@ -62,15 +63,16 @@ The **Feature a topic** button will only be visible to Answers admins or Global 
 >[!NOTE]
 > All Viva Topics that are featured in Answers will have their title and summary visible to all licensed users with access to use Answers.
 
-**Review pending topics suggested by employees**
+### **Review pending topics suggested by employees**
 
-To ensure the topics suggested by employees are relevant and appropriate, there is a review process for Answers admin to follow. As an Answers admin, you have access to a fourth tab on the discover topics page labeled **Needs Review** on the topic browse page. The **Needs Review** tab is only visible to Answers admins and will display topics that have been user created or suggested. Any non-featured topic that is added on a question or created by the user will show up in this tab for a knowledge manager to review. You can select **Review** on a topic to check and edit the summary.  
+To ensure the topics suggested by employees are relevant and appropriate, there's a review process for Answers admin to follow. As an Answers admin, you have access to a fourth tab labeled **Needs Review** on the topic browse page. The **Needs Review** tab is only visible to Answers admin and will display topics that have been user created or suggested. Any non-featured topic that is added on a question or created by the user will show up in this tab for a Knowledge Manager to review. You can select **Review** on a topic to check and edit the summary.
+
 ![Image of the Topics needing review in Answers in Viva Engage.](/viva/media/engage/admin/needs-review-topic.png)
 
 If the topic is relevant and appropriate, then you can choose to feature the topic or ignore the topic, which will move the topic out of the Review tab.  
 
-- **Ignore**: Ignoring the topic will allow the topic to still remain visible with the questions that it has been used with but it will not become featured - which makes a topic more prominent in the publisher’s topic picker.  
-- **Feature**: When topics are featured, they will no longer appear in the **Needs Review** tab.  
+- **Ignore**: Ignoring the topic will allow the topic to still remain visible with the questions that it has been used with but it won't become featured - which makes a topic more prominent in the publisher’s topic picker.  
+- **Feature**: When topics are featured, they will no longer appear in the **Needs Review** tab.
 
 ![Image of the interface for reviewing a topic in Answers in Viva Engage.](/viva/media/engage/admin/feature-reviewed-topic.png)
 
