@@ -23,7 +23,7 @@ description: "Troubleshoot issues with your Viva Engage network in Native Mode f
 
 ### What benefits are new to Native Mode?
 
-Viva Engage premium functionality is only available to networks in Native Mode. Networks in Native Mode can also [perform eDiscovery](overview-native-mode.md) on their home network through the Security & Compliance Portal, just like they do for other Microsoft 365 products. In addition, administrators and users both benefit by having an experience that is more consistent within Viva Engage and within the Microsoft 365 ecosystem.
+Viva Engage premium functionality is only available to networks in Native Mode. Networks in Native Mode can also [perform eDiscovery](./overview-native-mode.md) on their home network through the Security & Compliance Portal, just like they do for other Microsoft 365 products. In addition, administrators and users both benefit by having an experience that is more consistent within Viva Engage and within the Microsoft 365 ecosystem.
 
  > [!NOTE]
 > Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration.
@@ -34,7 +34,7 @@ While all networks provisioned after January 2020 are in Native Mode by default,
 
 #### Are there more licensing requirements when moving to native mode?
 
-Native Mode doesn't have any other licensing requirements beyond those required for [Microsoft 365 and Microsoft 365 plans that include Groups](/yammer/configure-your-yammer-network/yammer-and-office-365.md).
+Native Mode doesn't have any other licensing requirements beyond those required for [Microsoft 365 and Microsoft 365 plans that include Groups](/yammer/configure-your-yammer-network/yammer-and-office-365).
 
 ### What features aren't supported in Native Mode and why aren't they supported?
 
@@ -271,4 +271,3 @@ Whatever path you choose, we recommend you communicate clearly to the users in y
 [Microsoft 365 Security & Compliance Portal](https://go.microsoft.com/fwlink/?linkid=2111321)
 
 [Manage Yammer data compliance](../../../OfficeDocs-O365ITPro-pr/yammer/manage-security-and-compliance/manage-data-compliance.md)
-

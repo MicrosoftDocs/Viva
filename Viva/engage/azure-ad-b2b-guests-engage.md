@@ -40,8 +40,6 @@ This setting is a Viva Engage tenant-wide setting. Enabling guest access here wi
 
 External collaboration is a key ingredient for the success of any organization. Viva Engage guests allow you to call in experts, such as consultants or vendors, from outside your organization. Users can invite guests to a community and quickly start a rich conversation by sharing access to community resources like files. This ease-of-use makes external collaboration one of the most used features in Viva Engage today.
 
-![Yammer business-to-business guest support.](../media/yammer-b2b-azure-guests.png)
-
 > [!NOTE]
 > If your Viva Engage tenant was provisioned after December 15th, 2020, then AzureAD-B2B guest functionality is already enabled by default for your organization.
 
