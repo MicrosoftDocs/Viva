@@ -92,9 +92,9 @@ A leader can configure delegates through the following steps:
 
 4. Choose the type of delegate.
 
-    - A delegate can create posts on behalf of the user in any public or private Yammer community as long as both the delegate and the user have access to it.
+    - A *delegate* can create posts on behalf of the user in any public or private Yammer community as long as both the delegate and the user have access to it.
 
-    - A delegate manager can similarly create posts. A delegate manager can also configure a leader’s audience, and assign additional delegates or delegate managers.
+    - A *delegate manager* can similarly create posts. A delegate manager can also configure a leader’s audience, and assign additional delegates or delegate managers.
 
     - As soon as a user gets a new delegate assigned to the delegate team, the user and the whole team of delegates will receive an email notifying them of this action.
 
@@ -133,17 +133,21 @@ Learn more about [analytics for leaders](/Viva/engage/analytics.md), which empow
 
 ## Frequently asked questions
 
+**What license is required to be identified as a leader?** 
+
+Any user with a license to Yammer, Viva Engage Core, or the Viva Engage Communities and Communications service plan can be identified as a leader. Identified leaders with a license to the Viva Engage Communities and Communications service plan will have access to storyline announcements, leadership corner, campaigns and AMAs. Identified leaders who don’t have a license to the Viva Engage Communities and Communications service plan will only have access to their storyline and stories.
+
 **Why is leader identification and audience management important?**
 
 Identifying leaders and audiences will help ensure that your leaders' posts are reaching their intended audiences. Completing this configuration is crucial to making sure you get the audience reach you and your leaders desire. In addition, leader identification and audience management is required for other premium features to work successfully, such as storyline announcements, leadership corner, campaigns, and analytics.
 
 **Who can identify and set leaders?**
 
-Only Verified Admins, Network Admins, Engage Admins, and corporate communications managers can identify and set leaders.
+Verified Admins, Network Admins, Engage Admins, and corporate communications managers with a license to the Viva Engage Communities and Communication service plan can identify leaders.
 
 **How are leader’s audiences configured?**
 
-Identified leaders and their delegate managers can configure leader’s audiences in the **Manage audience** interface. For a leader to reach the Entire Organization, however, Engage Admins (Yammer Admins), Verified Admins, Network Admins and corporate communications managers must configure and enable this audience. Employees are not involved in the audience configuration.  
+Identified leaders and their delegate managers can configure leader’s audiences in the **Manage audiences** interface in the Engage admin center. For a leader to reach the Entire Organization, however, Engage Admin, Verified Admin, Network admin, and corporate communications managers must configure and enable this audience. Employees are not involved in audience configuration.  
 
 **Is there a way to disable Leadership Corner?**
 

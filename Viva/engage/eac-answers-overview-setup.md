@@ -27,7 +27,7 @@ Accessible through the **Answers** tab in the Viva Engage Teams app, **Answers i
 Answers works to connect employees based on their subject matter expertise captured in Viva Topics, to get their questions answered, connect with subject matter experts, and increase their learning.
 
 ## Licensing
-If Answers is enabled in the Viva Engage admin center, users assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the Microsoft Viva Suite or Viva Topics SKUs.
+If Answers is enabled in the Viva Engage admin center, users assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite or Viva Topics SKUs.*
 
 Users who haven't been assigned the Viva Engage Knowledge service plan will receive notifications to questions or answers they've been mentioned in and can visit those threads but won't be able to navigate to the rest of the Answers experience.
 
@@ -49,13 +49,12 @@ Answers will be enabled by default for customers that meet the following technic
     All Yammers tenants in Native mode will be migrated to use Viva Topics and there are no additional licensing requirements for this migration.
 
     For customers awaiting topics migration:  
-
     - Microsoft will inform existing Yammer customers with purchased Viva Topics or Viva Suite SKUs when Yammer Topics have been migrated to Viva Topics. Customers will be notified through email when the migration is complete.
     - Interested tenants can request prioritizing Answers enablement (may include Native Mode Support or Yammer Topics Migration to Viva Topics) by working with their customer account managers / Microsoft support staff for Yammer and filing a support ticket. Microsoft will review these requests and accordingly prioritize the Answers enablement for the tenants requesting them.
 
-    Learn more about Yammer Topics migration to Viva Topics: 
+    Learn more about Yammer Topics migration to Viva Topics:
     - [Viva Topics in Yammer](/viva/topics/topic-experiences-yammer)
-    - [Viva Topics experience in Yammer](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)9
+    - [Viva Topics experience in Yammer](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)
 
 3. **Set up the Viva Engage app**
 
@@ -63,15 +62,18 @@ Answers will be enabled by default for customers that meet the following technic
 
 ## Data storage, export, and compliance
 
-Answers is backed by an Office 365 group and will follow the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization, unless a unique policy is set for Answers. The Answers backing group will be auto-provisioned when the first question is posted or first question attachment is created. At the time of creation all tenant admins will be assigned as owners of the backing group, titled "**Group for Answers in Viva Engage – DO NOT DELETE.**"
+Answers is backed by an Office 365 group and will follow the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization, unless a unique policy is set for Answers. The Answers backing group will be auto-provisioned when the first question is posted or first question attachment is created. At the time of creation all tenant admins will be assigned as owners of the backing group, titled **Group for Answers in Viva Engage – DO NOT DELETE.**
 
-Owners of the backing group should ensure Answers maintains compliance with your network policies and does not get accidentally deleted. Data can be exported by admins if deleting the backing Office 365 group is desired. If the backing group is deleted, Answers will not be functional. Please note that a soft delete would be recoverable if remediated within 30 days, and that a hard delete would result in permanent loss of data.
+Owners of the backing group should ensure Answers maintains compliance with your network policies and does not get accidentally deleted. Data can be exported by admins if deleting the backing Office 365 group is desired. If the backing group is deleted, Answers will not be functional.
+
+>[!NOTE]
+> A soft delete can be recoverable if remediated within 30 days but a hard delete will result in *permanent* loss of data.
 
 Answers data will be available in [eDiscovery](/yammer/manage-security-and-compliance/overview-of-ediscovery) for identifying and delivering electronic information that can be used as evidence in legal cases.  
 
 **GDPR information**
 
-For GDPR user data export, verified Yammer admins and Engage admins can follow the [Yammer GDPR export guidance](/yammer/manage-security-and-compliance/export-yammer-enterprise-data). Answers data will be bundled together with Yammer data. Erase all information about a Yammer user to comply with GDPR data subject requests. Learn [how to manage GDPR data subject requests in Yammer Enterprise](yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise).
+For GDPR user data export, verified Yammer admins and Engage admins can follow the [Yammer GDPR export guidance](/yammer/manage-security-and-compliance/export-yammer-enterprise-data). Answers data will be bundled together with Yammer data. Erase all information about a Yammer user to comply with GDPR data subject requests. Learn [how to manage GDPR data subject requests in Yammer Enterprise](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise).
 
 ## Enable Answers  
 
@@ -91,13 +93,15 @@ Only an Microsoft 365 Global admin can change Answers state of enablement:
 
 5. In Answers feature management, you can enable or disable Answers for your organization. Answers will be on by default for all Viva suite and Viva Topics licensed users.  
 
+![Image of the Answers enablement toggle in the Engage admin center.](/Viva/media/engage/admin/enable-answers.png)
+
 >[!NOTE]
 > If Answers is disabled, the backing group will respect the default data [retention policies](microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization, unless a unique policy is set for Answers.
-
-![Image of the Answers enablement toggle in the Engage admin center.](/Viva/media/engage/admin/enable-answers.png)
 
 ## See also
 
 [Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios.md)
 
 [Answers in Viva Engage: Frequently asked questions (FAQ)](/Viva/engage/eac-answers-faq.md)
+
+[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)
