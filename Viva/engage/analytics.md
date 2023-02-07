@@ -27,7 +27,7 @@ Premium analytic capabilities in Viva Engage help licensed users monitor their o
 
 ## Manage analytics
 
-While any user with access to premium Viva Engage will be able to access Engage Analytics, only **Microsoft 365 Global admin** and **Engage admin** can manage settings through the [Engage admin center](/Viva/engage/eac-as-access-eac.md).
+While any user with access to premium Viva Engage will be able to access Engage Analytics, only **Microsoft 365 Global admin** and **Engage admin** can manage settings through the [Engage admin center](/Viva/engage/eac-as-access-eac).
 
 Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to enter the Engage admin center.
 
@@ -86,8 +86,8 @@ In the **Manage analytics** interface, Engage admin can choose to enable or disa
 
 ## See also
 
-[Set up and manage campaigns in Viva Engage](/viva/engage/campaigns.md)
+[Set up and manage campaigns in Viva Engage](/viva/engage/campaigns)
 
-[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)
+[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
-[View and manage analytics in Viva Engage](/Viva/engage/analytics.md)
+[View and manage analytics in Viva Engage](/Viva/engage/analytics)

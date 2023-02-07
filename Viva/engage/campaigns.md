@@ -26,7 +26,7 @@ Campaigns are an interactive way to drive employee engagement, with the power to
 
 ## Set up a campaign
 
-Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to navigate to the [Engage admin center](/Viva/engage/eac-as-access-eac.md).
+Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to navigate to the [Engage admin center](/Viva/engage/eac-as-access-eac).
 
 ![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
 
@@ -125,6 +125,6 @@ Once redirected, you'll see the campaign analytics dashboard containing key data
 
 ## See also
 
-[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)
+[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
-[View and manage analytics in Viva Engage](/viva/engage/analytics.md)
+[View and manage analytics in Viva Engage](/viva/engage/analytics)

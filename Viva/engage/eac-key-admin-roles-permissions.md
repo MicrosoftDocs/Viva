@@ -93,6 +93,6 @@ The table below shows the range of actions available to a corporate communicator
 
 ## See also
 
-[Access the Engage admin center](/Viva/engage/eac-as-access-eac.md)
+[Access the Engage admin center](/Viva/engage/eac-as-access-eac)
 
-[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios.md)
+[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios)

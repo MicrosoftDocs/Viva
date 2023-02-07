@@ -44,14 +44,14 @@ Answers does not support guest access.
 Answers uses Viva Topics to organize question conversations. Answers will continue to work for users who do not have a Viva Topics license assigned but they will require a license to the Viva Engage Knowledge service plan, which is bundled into Viva Topics or Viva Suite. The best Answers experience is when it is used alongside Viva Topics. Topics connects the knowledge of an organization with employees and helps with routing of questions to the people that are more likely able to provide an answer. When Viva Topics are mined, curated, and managed, the Answers digest routing and questions for you feed are improved as well as other aspects of Answers.
 
 **Why can’t users in my organization access Answers?**
-Please check that your Yammer network meets [technical requirements](/viva/engage/eac-answers-overview-setup.md), and your users have the correct license to access Answers. Your Yammer network must be in Native mode and have legacy Yammer topics migrated to Viva Topics.
+Please check that your Yammer network meets [technical requirements](/viva/engage/eac-answers-overview-setup), and your users have the correct license to access Answers. Your Yammer network must be in Native mode and have legacy Yammer topics migrated to Viva Topics.
 
 ### See also
 
-[Overview and setup of Answers in Viva Engage](/Viva/engage/eac-answers-overview-setup.md)
+[Overview and setup of Answers in Viva Engage](/Viva/engage/eac-answers-overview-setup)
 
-[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios.md)
+[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios)
 
 [Announcing Answers in Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/announcing-answers-in-microsoft-viva/ba-p/3634288)
 
-[Rewards and recognition in Viva Engage](/Viva/engage/badges.md)
+[Rewards and recognition in Viva Engage](/Viva/engage/badges)
