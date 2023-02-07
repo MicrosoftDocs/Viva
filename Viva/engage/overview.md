@@ -23,16 +23,7 @@ Viva Engage is a new employee experience that connects people across the company
 
 **Viva Engage brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.**
 
-
-
 <iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-## Availability
-
-Viva Engage will be available as a Microsoft Teams app. This means that you can use Viva Engage through Microsoft Teams from a desktop web browser, in Windows, Mac, iOS, or Android device.
-
-Viva Engage will be replacing the Yammer Communities app for Microsoft Teams in late August. In late August, the app will be automatically updated to the new Viva Engage brand. However, the UX changes that you see here that are different from the Communities will begin roll out at the same time, but only completed by the end of September. There may be users in your organization that receive the new experience earlier than others within this time frame. 
 
 ## What’s the relationship between Viva Engage and Yammer?
 

@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales
 description: Learn what are the various ways to install Viva Sales
-ms.date: 10/28/2022
+ms.date: 02/03/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -41,7 +41,9 @@ Salesforce administrators who need to customize Viva Sales must have the followi
 
 #### Dynamics 365 administrators
 
-If you are using out-of-the-box System Administrator or System Customizer security roles, Viva Sales administration privileges are added automatically. If you are using custom security roles, you must assign the following security role and privilege to Dynamics 365 administrators who need to customize Viva Sales. 
+If you're using out-of-the-box System Administrator or System Customizer security roles, Viva Sales administration privileges are added automatically.
+
+If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 administrators who need to customize Viva Sales. 
 
 |Requirement type  |You must have  |
 |---------|---------|
@@ -50,7 +52,9 @@ If you are using out-of-the-box System Administrator or System Customizer securi
 
 #### Dynamics 365 sellers
 
-If you're using the out-of-the-box Salesperson or Sales Manager security roles, Viva sales privileges are added automatically. If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 sellers who need to use Viva Sales.
+If you're using the out-of-the-box Salesperson or Sales Manager security roles, Viva sales privileges are added automatically. 
+
+If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 sellers who need to use Viva Sales.
 
 |Requirement type  |You must have  |
 |---------|---------|
