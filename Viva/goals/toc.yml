@@ -11,6 +11,8 @@ items:
       href: define-your-team.md
     - name: Determine Your Rollout Plan
       href: determine-your-rollout-plan.md
+    - name: Viva Goals Trials
+      href: viva-goals-trials.md
 - name: Setup and Administration
   items:
     - name: Viva Goals Integrations Administration Overview
