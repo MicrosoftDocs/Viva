@@ -23,66 +23,40 @@ description: "Troubleshoot issues with your Viva Engage network in Native Mode f
 
 ### What benefits are new to Native Mode?
 
-Networks in Native Mode can [perform eDiscovery](../configure-your-yammer-network/overview-native-mode.md) on their home Yammer network through the Security & Compliance Portal, just like they do for other Microsoft 365 products. In addition, administrators and users both benefit by having an experience that is more consistent within Viva Engage and within the Microsoft 365 ecosystem.
+Viva Engage premium functionality is only available to networks in Native Mode. Networks in Native Mode can also [perform eDiscovery](overview-native-mode.md) on their home network through the Security & Compliance Portal, just like they do for other Microsoft 365 products. In addition, administrators and users both benefit by having an experience that is more consistent within Viva Engage and within the Microsoft 365 ecosystem.
 
  > [!NOTE]
 > Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration.
 
-### What are the main requirements for Native Mode?
-
-A network must be able to synchronize all domains with AAD, which means . . .
-
-- There can only be one home network on the Microsoft 365 tenant.
-- All domains on the tenant are associated with the Viva Engage network.
-- All domains on the Viva Engage network are associated with the tenant.
-
-All users must be in AAD, which means . . .
-
-- Microsoft 365 Identity must be enforced in the home network.
-- No Network Level Guests in the network.
-- No Group Level Guests in the network because those users do not currently map to users in AAD.
-- No thread-level Guests.
-- No inactive unmapped users (for example, a user with Viva Engage authentication who was not deleted when they left the organization).
-
-All groups must be connected, which means . . .
-
-- Only users with Microsoft 365 Group creation rights can create groups in Viva Engage.
-- No Viva Engage group can be created until we can ensure the group is connected.
-- No unlisted private groups or external groups, because those groups aren't currently connectable.
-
-> [!NOTE]
-> If you receive an error code during the alignment process for Native Mode, you can refer to the [Error Codes](#error-codes) section below for more information.
-
-
 ### What is required for me to be in Native Mode for Microsoft 365 in Viva Engage?
 
-While new networks will start out in Native Mode beginning in January 2020, existing networks will need to use our Alignment Tool ("Tool") to have their network enter Native Mode. To use the Tool, your network must enforce Microsoft 365 Identity. There must also only be one (primary) home network on the Microsoft 365 tenant. Once a network satisfies those two criteria, the Alignment Tool can be used to address any incompatibilities of your network with a Native Mode network.
+While all networks provisioned after January 2020 are in Native Mode by default, existing networks will need to use our Alignment Tool ("Tool") to have their network enter Native Mode. To use the Tool, your network must enforce Microsoft 365 Identity. There must also only be one (primary) home network on the Microsoft 365 tenant. Once a network satisfies those two criteria, the Alignment Tool can be used to address any incompatibilities of your network with a Native Mode network.
 
 #### Are there more licensing requirements when moving to native mode?
 
-Native Mode doesn't require to have any other licensing requirements beyond those required for [Microsoft 365 and Microsoft 365 plans that include Groups](../configure-your-yammer-network/yammer-and-office-365.md)
+Native Mode doesn't have any other licensing requirements beyond those required for [Microsoft 365 and Microsoft 365 plans that include Groups](/yammer/configure-your-yammer-network/yammer-and-office-365.md).
 
 ### What features aren't supported in Native Mode and why aren't they supported?
 
-- *Native Mode doesn't support private unlisted groups*: As of January 2020, AAD and Microsoft 365 Groups don't support this feature, so it isn't possible for us to offer it in Native Mode networks. The downloadable Alignment Tool report will provide you with information on the quantity and usage of private unlisted groups in your network.
+- *Native Mode doesn't support private unlisted groups*: AAD and Microsoft 365 Groups don't support this feature, so it isn't possible for us to offer it in Native Mode networks. The downloadable Alignment Tool report will provide you with information on the quantity and usage of private unlisted groups in your network.
 
-- *Native Mode doesn't support external groups within its own network*: Viva Engage's current external collaboration capabilities, including external groups, aren't compatible with [Azure B2B](/azure/active-directory/external-identities/). As a result, Native Mode networks can't host an external group. Users from Native Mode networks can, if allowed by your Viva Engage Security Settings, collaborate in external groups in other Viva Engage networks that aren't in Native Mode. In addition, External Networks will continue to be supported for Native Mode Viva Engage networks in the US Geo. We are planning to support in Native Mode for Azure B2B in the future.
+- *Native Mode doesn't support external communities*: Hybrid and non-native mode external collaboration capabilities, including external communities, aren't compatible with [Azure B2B](/azure/active-directory/external-identities/). Native Mode networks can host B2B guests in M365 Groups-backed communities. Users from Native Mode networks can, if allowed by your Viva Engage Security Settings, collaborate in external communities in other Viva Engage networks that aren't in Native Mode. In addition, External Networks will continue to be supported for Native Mode Viva Engage networks in the US Geo.
 
 Azure Active Directory (Azure AD) business-to-business (B2B) collaboration lets you securely share your company's applications and services with guests from any other organization, while maintaining control over your own corporate data.
 
 The downloadable Alignment Report will provide you with information on the quantity and usage of external groups in your network.
 
-- *Native Mode doesn't support (network) guests*: The (network) guests feature isn't compatible with Azure B2B so, guests in Viva Engage can't have their Viva Engage identity mapped to an associated AAD identity. As a result, we are unable to support the guest feature in Native Mode networks. The downloadable Alignment Report will provide you with information on the quantity and activity of guests in your network.
+- *Native Mode doesn't support network-level guests*: For greater network security, guests cannot be given access to an entire Viva Engage network. The downloadable Alignment Report will provide you with information on the quantity and activity of guests in your network.
 
-- *External participants*: Viva Engage currently allows users to add external participants to individual threads. This feature isn't available for Viva Engage Enterprise networks that are in Native Mode or the [EU Geo](../manage-security-and-compliance/manage-data-compliance.md). This feature isn't currently compatible with the Azure B2B guest model, and so won't be supported in Native Mode networks.
+- *External participants*: Viva Engage currently allows users to add external participants to individual threads. This feature isn't available for Viva Engage Enterprise networks that are in Native Mode or the [EU Geo](/yammer/manage-security-and-compliance/manage-data-compliance.md). This feature isn't compatible with the Azure B2B guest model, and so won't be supported in Native Mode networks.
 
 - *File uploads in Viva Engage Private messages*: In order to be in Native Mode, all files uploaded in Viva Engage must be stored in SharePoint. Since Viva Engage private messages don't store files in SharePoint or OneDrive for Business, the Alignment Tool must delete any previously uploaded private message files. Users will no longer be able to upload files in private messages. The downloadable Alignment Report will provide you with information on the quantity of files previously uploaded in private messages.
 
-### What is the main difference between Native Mode and eDiscovery
+### What is the main difference between Native Mode and eDiscovery?
 
 - *Native Mode* - A state where all the users, groups, and content from your network are compatible with (and mapped to) their counterparts in AAD/Microsoft 365 and Microsoft 365.
 
-- *eDiscovery* - A Yammer feature Microsoft now provides to customers through the [Microsoft 365 Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=2111321).  
+- *eDiscovery* - A Yammer feature Microsoft now provides to customers through the [Microsoft Purview compliance portal](https://go.microsoft.com/fwlink/?linkid=2132455).  
 
 Viva Engage can offer eDiscovery to customers once all their Users, Groups, and Content can be discoverable through the Security and Compliance Center. To facilitate this process, Viva Engage must ensure that all Groups are Microsoft 365 connected because eDiscoverable content must be saved in the group mailbox. Similarly, users must have an AAD account.
 
@@ -114,35 +88,35 @@ Below is some content you can use as-is or modify to meet your needs when you're
 
 ### What can end users expect during migration?
 
-We recommend you communicate to your end users your plan to change to Native Mode. Early communication will prevent surprises, from changes such as, users requiring Microsoft 365 Group creation rights to create groups in Viva Engage, not being able to create external groups, and/or file attachments no longer being supported in Viva Engage private messages.
+The majority of end users can expect no change in their Viva Engage experience while the Tool runs. If end users are accustomed to creating communities in Viva Engage, they will need M365 group creation rights to continue doing so during migration. We recommend that you communicate the expected process changes to your end users early in the migration planning process.
 
 ### How do I check the status of my network's migration to Native Mode?
 
-Any Global Admin from your tenant can check the status of your network's alignment to Native Mode by logging in to Viva Engage and going to the Microsoft 365 Native Mode page within the Network Admin pages of Viva Engage.
+Any Global Admin from your tenant can check the status of your network's alignment to Native Mode by accessing the Engage admin center. On the **Setup & configuration** tab, they can access **Configure tenant**, which will then route them to the Yammer admin center. In the Yammer admin center, they can click on **native mode** to see their progress.
 
 ## Networks
 
 ### Should I align my network to be in Native Mode?
 
-The answer to this question depends on the unique needs and situation of your organization. While Native Mode provides many benefits to users and administrators, there are some features that can't currently be supported in Native Mode because the features aren't supported by Microsoft 365 Groups or Azure Active Directory ("AAD"). On one hand, if it is particularly important for your organization to centralize administration and governance as much as possible, then being in Native Mode makes sense. On the other hand, if it is critical for your network to continue using Viva Engage features that aren't supported in Native Mode, you may want to hold off in moving to Native Mode until later.
+Yes. Hybrid and non-native networks will be migrated to Native Mode automatically throughout 2023 and it is strongly recommended that you initiate the process on your own when you are prepared. In addition, all Viva Engage premium functionality requires that your network be in Native mode. 
 
 ### Is it possible for a network that is in Native Mode to get out of Native Mode?
 
-No. Once a network is in Native Mode, it isn't possible for it to get out of Native Mode. We recommend administrators carefully review the documentation we provide on Native Mode before beginning the process because *it is irreversible*.  
+No. Once a network is in Native Mode, it isn't possible for it to get out of Native Mode. We recommend administrators carefully review the documentation we provide on Native Mode before beginning the process because *it is unstoppable and irreversible*.  
 
 ### How does a network enter Native Mode for Microsoft 365?
 
 **New Networks**
-After January 2020, all new networks will begin in Native Mode. This means they will have a different feature set than existing customers as there are features that aren't available through Azure Active Directory (AAD), and so can't be supported in Native Mode.
+All new networks provisioned after January 2020 are in Native Mode by default.
 
 **Existing Networks**
-Existing networks will be able to lock themselves in to Native Mode by using the Microsoft 365 Alignment Tool to mitigate any areas where their network is incompatible with the feature set of Native Mode.
+Existing networks will be able to upgrade to Native Mode by using the Microsoft 365 Alignment Tool.
 
 ## Files
 
 ### How does Viva Engage in Native Mode handle file migration?
 
-Once a Viva Engage group is connected, the Alignment Tool migrates all files previously uploaded to Yammer to SharePoint. When files are moved to the SharePoint document library, only the latest version is moved over, and the version history isn't copied.
+Once a Viva Engage group is connected, the Alignment Tool migrates all files previously uploaded to Viva Engage to SharePoint. When files are moved to the SharePoint document library, only the latest version is moved over, and the version history isn't copied.
 
 ### Why does the Alignment Tool delete messages and files from deleted groups and deleted users?
 
@@ -150,7 +124,7 @@ Deleted groups and deleted users don't typically have a mailbox, which means con
 
 ### How does Viva Engage in Native Mode handle file name conflicts?
 
-It is possible that files previously uploaded to Yammer won't comply with SharePoint filename restrictions. When migration completes, the IT admin gets a report of any file name conflicts. Update the file names and make sure there are no file names with the following invalid characters before running the Tool again:
+It is possible that files previously uploaded to Viva Engage won't comply with SharePoint filename restrictions. When migration completes, the IT admin gets a report of any file name conflicts. Update the file names and make sure there are no file names with the following invalid characters before running the Tool again:
 
 - "
 - \*
@@ -191,32 +165,28 @@ When the Alignment Tool is run, it'll remove the conversations and Viva Engage-h
 
 - *Why aren't network guests supported in Native Mode?*
 
-  Network guests in Viva Engage aren't currently Azure B2B guests, and so their userIDs aren't associated with an account in Azure Active Directory for your Microsoft 365 tenant. Since eDiscovery requires all users to be in AAD, Viva Engage's (network-level) guest feature can't be supported in Native Mode. Viva Engage does expect to add support for group-level Azure B2B guests in Native Mode, but we don't expect to support adding (network-level) guest support into Native Mode networks.
+  Network guests in Viva Engage aren't currently Azure B2B guests, and so their userIDs aren't associated with an account in Azure Active Directory for your Microsoft 365 tenant. Since eDiscovery requires all users to be in AAD, the network-level guest feature can't be supported in Native Mode. B2B guests can be invited to collaborate at the community level in Native Mode networks.
 
 - *What should I do about my existing network guests?*
 
   Most networks have never had any network guests. If your network has had network guests in the past, it's likely most of those guests no longer have access due to your network enforcing Microsoft 365 Identity.
 
-  The downloadable Alignment Report provides information about the network guests in your network and their activity within the network. We recommend you use the information in the report to help you decide whether these users should continue to have access to the network. If you do want these users to have access to the network when your network is in Native Mode, you'll need to provide them with new credentials associated with an AAD account. Viva Engage doesn't currently support Azure B2B, so it must be a member user account that you provide on AAD, not a guest account. This new account won't be associated with their guest account, so the user won't have access to private messages, files, or groups of the previous account, unless the new account is added to that private content.
-
-  If your company makes extensive use of network guests, you may consider delaying your move to Native Mode.
-
-  Whatever path you choose, we recommend you communicate clearly to those guests what changes are coming.
+  The downloadable Alignment Report provides information about the network guests in your network and their activity within the network. We recommend you use the information in the report to help you decide whether these users should continue to have access to the network. If you do want these users to have access to the network when your network is in Native Mode, you'll need to provide them with new credentials associated with an AAD account.
 
 ### What happens to users who don’t have Microsoft 365 Group creation rights?
 
-If your network enforces Microsoft 365 Group creation rights, users without those rights will no longer be able to create groups in Viva Engage. We recommend that all users be able to create Viva Engage groups so that your entire organization can enjoy the benefits of an open, collaborative network.
+If your network enforces Microsoft 365 Group creation rights, users without those rights will no longer be able to create communities in Viva Engage. We recommend that all users be able to create Viva Engage communities so that your entire organization can enjoy the benefits of an open, collaborative network.
 
 ### What about users who aren't in Azure Active Directory ("AAD")?
 
 - *Why would I have users not in AAD in my network if I enforce Microsoft 365 Identity?*
-  Enforcing Microsoft 365 Identity doesn't remove users from your network who left your organization prior to your organization enforcing Microsoft 365 identity. Most customers who do have users in their Viva Engage network that aren't in AAD, will find that these users haven't been active in the network since Microsoft 365 Identity was enforced for the network or, even further back.
+  Enforcing Microsoft 365 Identity doesn't remove users from your network who left your organization prior to your organization enforcing Microsoft 365 identity. Most customers who do have users in their Viva Engage network that aren't in AAD; will find that these users haven't been active in the network since Microsoft 365 Identity was enforced for the network or, earlier.
 
 - *Why would some of these users have recent activity?*
   At the time a network chooses to enforce Microsoft 365 Identity, the administrator can choose whether or not to log out all logged in users to the network. If your network didn't force all users to log out, it's possible that some of these users have remained active enough that they've remained logged in.
 
 - *What should I do about users who aren't in AAD?*
-  The downloadable Alignment Report provides information about which users in your Viva Engage network aren't in (or mapped to an account in) Azure Active Directory. We recommend you use the information in the report to help you decide whether these users should continue to have access to the network. You'll need to create a new AAD account for a user if you want to provide continued Viva Engage access to users who don't currently have an AAD account. In some cases, these accounts may be service accounts or bots, rather than specific end users.
+  The downloadable Alignment Report provides information about which users in your Viva Engage network aren't in (or mapped to an account in) Azure Active Directory. We recommend you use the information in the report to help you decide whether these users should continue to have access to the network. You'll need to create a new AAD account for a user or invite them as a B2B guest if you want to provide continued Viva Engage access to users who don't currently have an AAD account. In some cases, these accounts may be service accounts or bots, rather than specific end users.
 
 - *Why would a user not be in AAD?*
   There are multiple reasons why:
@@ -225,23 +195,23 @@ If your network enforces Microsoft 365 Group creation rights, users without thos
 
   - The user hasn't needed to log in to Viva Engage since the network started enforcing Microsoft 365 identity. That is, they are using Viva Engage regularly enough, and with the same client, that they have remained logged in since the network began enforcing identity.
 
-  - The user could be a (network-level) guest in the network. Network level guests aren't supported in AAD.
+  - The user could be a network-level guest in the network. Network level guests aren't supported in AAD.
 
 - *What does the Tool do for pending users?*
   The Tool will first try to associate the pending user with an account in AAD for your Microsoft 365 tenant. If that association is successful, the user will remain in the network. If we aren't able to associate the pending user with an AAD account on your tenant, then we'll delete the user from Viva Engage.  
 
 ### Why aren't external participants in individual conversations supported in Native Mode?
 
-Viva Engage currently allows users to add external participants to individual threads. This feature isn't currently compatible with the Azure B2B guest model, and so won't be supported in Native Mode networks. This feature isn't available for Viva Engage Enterprise networks that are in Native Mode or the [EU Geo](../manage-security-and-compliance/manage-data-compliance.md).
+ This feature isn't currently compatible with the Azure B2B guest model. This feature isn't available for Viva Engage Enterprise networks that are in Native Mode or the [EU Geo](../manage-security-and-compliance/manage-data-compliance.md).
 
 ## Groups
 
-### What do I need to do to prepare my All Company group to be Microsoft 365 connected?
+### What do I need to do to prepare my All Company community to be Microsoft 365 connected?
 
-There's no preparation required to make your All Company group Microsoft 365-connected. The Tool will connect the group and make the Verified Admins for the network group owners of the All Company group in AAD. As group owners, they'll be able to post announcements in the All Company group as they were able to do before All Company was Microsoft 365-connected.
+There's no preparation required to make your All Company community Microsoft 365-connected. The Tool will connect the community and make the Verified Admins for the network community owners of the All Company community in AAD. As community owners, they'll be able to post announcements in the All Company community as they were able to do before All Company was Microsoft 365-connected.
 
 - *How is All Company different than other Microsoft 365-connected groups?*
-  The All Company group is different than other Viva Engage groups in that all users in the network are treated as members of the group without them needing to actually be a member of the group. Once All Company is connected, it is possible to add members to the group from AAD. However, we don't recommend that users be added as members because it won't change the behavior of the group within Viva Engage for those users.
+  The All Company community is different than other Viva Engage communities in that all users in the network are treated as members of the group without them needing to actually be a member of the group. Once All Company is connected, it is possible to add members to the group from AAD. However, we don't recommend that users be added as members because it won't change the behavior of the community within Viva Engage for those users.
 
 - *Can I delete All Company once it is connected?*
   We don't recommend that you delete All Company, as it is an important way for your users to communicate broadly across your organization. Once All Company is Microsoft 365-connected, it is possible to delete the Microsoft 365 Group from the Microsoft 365 admin center or the Azure Active Directory admin center. If that's done, Viva Engage will honor the deletion and not show All Company in your network.
@@ -251,10 +221,10 @@ There's no preparation required to make your All Company group Microsoft 365-con
 
 ### Why aren't external groups supported in Native Mode?
 
-Because Viva Engage external groups aren't compatible with Azure B2B, guests in external groups in Viva Engage aren't associated with an account in Azure Active Directory for your Microsoft 365 tenant. As a result, Viva Engage's current model of external groups can't be supported in Native Mode. Viva Engage does expect to add support for Azure B2B guests in Native Mode, so we do expect to support adding guests to groups in Viva Engage in the future.
+Because Viva Engage external groups aren't compatible with Azure B2B, guests in external groups in Viva Engage aren't associated with an account in Azure Active Directory for your Microsoft 365 tenant.
 
 - *What should I do about my external groups?*
-  The downloadable Alignment Report provides information about the use of external groups within your enterprise network so that you can determine the best path forward for your organization. Many organizations already block the ability to create external groups in their network—those companies won't be affected by this change. If your company makes extensive use of external groups, you may consider delaying your move to Native Mode.
+  The downloadable Alignment Report provides information about the use of external groups within your enterprise network so that you can determine the best path forward for your organization. Many organizations already block the ability to create external groups in their network—those companies won't be affected by this change.
 
   If your network does have external groups, we recommend you use the downloadable Alignment Report to see whether there are any external guests in the group, whether those guests have had any recent activity, as well as whether the group itself has had any recent activity. You can assess what actions to take on the group. On one hand, if the group has no external members, but has had recent activity by internal members, then you may opt to let the Tool make that group an internal only group. On the other hand, if you find the group has external members, but the group itself hasn't had any activity at all for some time, you may decide to delete the group before running the Tool.
 
@@ -266,7 +236,7 @@ Because Viva Engage external groups aren't compatible with Azure B2B, guests in 
   Azure Active Directory and Microsoft 365 Groups don't currently support having unlisted private groups. If Viva Engage continued to support this feature in a Native Mode network, groups would be unlisted in Viva Engage. However, these groups would be exposed through other Microsoft 365 products. The downloadable Alignment Report will provide you with information on the quantity and usage of private unlisted groups in your network.
 
 - *What should I do about my unlisted private groups?*
-  The downloadable Alignment Report provides information about the usage of private unlisted groups within your enterprise network so that you can determine the best path forward for your organization. If your company makes extensive use of unlisted private groups and you want to continue to offer this feature to your users, you may consider delaying your move to Native Node.
+  The downloadable Alignment Report provides information about the usage of private unlisted groups within your enterprise network so that you can determine the best path forward for your organization.
 
   If your network does have private unlisted groups, we recommend you use the downloadable Alignment Report to see whether there are any users or guests in the group, and whether those users or guests have had any recent activity in the group. You can assess what actions to take on the group. On one hand, if the group has had recent activity, but the group name doesn't contain any confidential or sensitive information, you may opt to let the Tool make that group an internal only group. On the other hand, if you find the group hasn't had any activity for some time, you may decide to delete the group before running the Tool.
 
@@ -294,18 +264,11 @@ Because Viva Engage external groups aren't compatible with Azure B2B, guests in 
 
 Whatever path you choose, we recommend you communicate clearly to the users in your network of the changes that are coming so that they can alert you of any concerns or potential issues.
 
-### Will the features supported by Native Mode change over time?
-
-Viva Engage will continue to improve the Native Mode offering, so you can expect to see new features and capabilities come to Native Mode in the future. For example, we plan to add external group capabilities by supporting Azure AD B2B in Viva Engage.
-
 ## Related articles
 
-[Overview of Native Mode](../configure-your-yammer-network/overview-native-mode.md)
-
-[Configure your Yammer network for Native Mode for Microsoft 365](../configure-your-yammer-network/native-mode.md)
+[Overview of Native Mode](./overview-native-mode.md)
 
 [Microsoft 365 Security & Compliance Portal](https://go.microsoft.com/fwlink/?linkid=2111321)
 
-[Manage Yammer data compliance](../manage-security-and-compliance/manage-data-compliance.md)
+[Manage Yammer data compliance](../../../OfficeDocs-O365ITPro-pr/yammer/manage-security-and-compliance/manage-data-compliance.md)
 
-[Enforce Microsoft 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md)

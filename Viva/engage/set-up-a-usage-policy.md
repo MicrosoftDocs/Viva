@@ -28,29 +28,29 @@ You can choose to have a link to the usage policy in the side bar in each user's
   
 ## Set up or modify a Viva Engage usage policy
 
-1. To create or modify your usage policy and its settings, navigate to the  Engage admin center. Select **Configure Tenant** under the **Setup & configuration** tab. This will redirect you to the Yammer admin center, where you can select **Usage Policy**. 
-    
+1. To create or modify your usage policy and its settings, navigate to the  Engage admin center. Select **Configure Tenant** under the **Setup & configuration** tab. This will redirect you to the Yammer admin center, where you can select **Usage Policy**.
+
 2. Select when users should see the policy, and whether to display the reminder in the sidebar.
-    
-3. Enter your usage policy title and sidebar message. 
-    
-4. Enter your usage policy text. You can use HTML code to format your usage policy. Basic HTML tags including links and basic formatting are allowed within the usage policy. JavaScript is not allowed. 
-    
+
+3. Enter your usage policy title and sidebar message.
+
+4. Enter your usage policy text. You can use HTML code to format your usage policy. Basic HTML tags including links and basic formatting are allowed within the usage policy. JavaScript is not allowed.
+
     > [!TIP]
-    > Use the [Sample Viva Engage usage policy](set-up-a-usage-policy.md#SampleUsePolicy) for ideas of what to include. 
+    > Use the [Sample Viva Engage usage policy](set-up-a-usage-policy.md#SampleUsePolicy) for ideas of what to include.
   
 ## Tips for creating your usage policy
 
 For best results, we recommend that your usage policy:
   
 - Is primarily positive and explanatory (and not just a list of "don'ts").
-    
+
 - Encourages usage by providing positive examples and suggestions.
-    
+
 - Requires that content be office‐appropriate.
-    
+
 - Includes a link for reporting inappropriate content.
-    
+
 You can include HTML links to relevant company policy information and to Viva Engage training resources.
   
 ## Sample Viva Engage usage policy
@@ -71,10 +71,8 @@ You can add a custom link to your organization's browser policy. The link will b
   
 ![Example of custom browser policy URL in obsolete browser notification.](../media/54b99150-36a7-496e-bb27-2bd03786517c.png)
   
- **Add a link to your organization's browser policy**
+## Add a link to your organization's browser policy
   
 1. In the Viva Engage admin center, Engage admin center, select **Configure Tenant** under the **Setup & configuration** tab. This will redirect you to the Yammer admin center, where you can select **Usage Policy**. Then select **Set a custom browser policy URL within your company**. 
     
 2. Specify the URL where your organization's browser policy is defined.
-    
-
