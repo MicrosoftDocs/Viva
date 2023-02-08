@@ -60,7 +60,7 @@ Note: When Org Explorer is disabled users will still see the app icon in Outlook
 1. Go to the [admin center](https://admin.microsoft.com).
 2. On the bottom right side of the page, select  **Help & support**.
 3. Enter a search term, for example “Org Explorer”.
-4. Select Contact Support at the bottom of the page.
+4. Select **Contact Support** at the bottom of the page.
 5. Enter a description of your request, confirm your contact number and email address, select your preferred contact method, and then select **Contact me**. The expected wait time is indicated in the Contact support pane. [Learn more about getting support in the admin center](/microsoft-365/admin/get-help-support).
 
 ## Additional resources
