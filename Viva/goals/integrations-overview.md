@@ -208,6 +208,132 @@ The following is a list of all the integrations currently available in Viva Goal
     :::column-end:::
 :::row-end:::
 
+<!--3-columns end and 4 columns begin. DELETE ME-->
+
+:::row:::
+   :::column span="4":::
+      **Supported Integrations**
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+      [Azure Data Explorer ](azure-data-explorer-integration.md)
+    :::column-end:::
+    :::column:::
+      [Azure DevOps (ADO)](azure-devops-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Amazon RedShift](amazon-redshift-integration.md)
+    :::column-end:::
+    :::column:::
+      [Asana](asana-integration.md)         
+    :::column-end:::
+:::row-end:::   
+
+:::row:::
+    :::column:::
+      [BigQuery](bigquery-integration.md)         
+    :::column-end:::  
+    :::column:::    
+      [Box](box-integration.md)      
+    :::column-end:::    
+    :::column:::
+      [Domo](domo-integration.md)   
+    :::column-end:::
+    :::column:::
+      [Dynamics 365](dynamics-365-integration.md)
+    :::column-end:::  
+:::row-end:::   
+
+:::row:::   
+    :::column:::    
+      [Excel Online](excel-online-integration.md)
+    :::column-end:::    
+   :::column:::
+      [Favro](favro-generating-an-api-token.md)  
+    :::column-end:::
+    :::column:::
+      [GitHub](github-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [GitLab](gitlab-integration.md)
+    :::column-end:::
+
+:::row:::   
+    :::column:::
+      [Google Sheets](gsheets-integration.md)  
+    :::column-end:::
+    :::column:::
+      [Hubspot](hubspot-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Jira](jira-integration.md)
+    :::column-end:::    
+    :::column:::
+      [Looker](looker-integration.md)  
+    :::column-end:::
+:::row-end:::
+ 
+:::row:::   
+    :::column:::
+      [Microsoft Planner](microsoft-planner-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Mode](mode-integration.md)
+    :::column-end:::  
+    :::column:::
+      [monday.com](monday.com-integration.md)
+    :::column-end:::
+    :::column:::
+      [MS SQL Server](ms-sql-server-integration.md)
+    :::column-end:::  
+:::row-end:::
+ 
+:::row:::   
+    :::column:::    
+      [MySQL](mysql-integration.md)
+    :::column-end:::    
+    :::column:::
+      [Planview Projectplace](planview-projectplace-integration.md)  
+    :::column-end:::
+    :::column:::
+      [PostgreSQL](postgresql-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Power BI](power-bi-integration.md)
+    :::column-end:::        
+:::row-end:::
+ 
+:::row:::   
+    :::column:::
+      [Salesforce](salesforce-integration.md)
+    :::column-end:::
+    :::column:::
+      [Slack](slack-collaborate-with-viva-goals.md)
+    :::column-end:::  
+    :::column:::    
+      [Smartsheet](smartsheet-integration.md) 
+    :::column-end:::    
+    :::column:::
+      [Snowflake](snowflake-integration.md)
+    :::column-end:::
+:::row-end:::
+
+:::row:::   
+    :::column:::
+      [Tableau](tableau-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Trello](trello-integration.md)
+    :::column-end:::    
+    :::column:::
+      [Zendesk](zendesk-integration.md) 
+    :::column-end:::
+:::row-end:::
+ 
+ <!--4 columns end. DELETE ME-->
+ 
 ## How to disable an integration
 
 To disable an integration, select **Manage**, and then select **Disable integration** from the **Change** dropdown. 
