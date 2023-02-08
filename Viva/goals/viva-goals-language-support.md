@@ -33,12 +33,167 @@ Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locat
 
 Currently, Viva Goals supports the following languages. 
 
+:::row:::
+   :::column:::
+      Chinese (Simplified)
+   :::column-end:::
+   :::column:::
+      Chinese (Traditional)
+   :::column-end:::
+   :::column:::
+      English
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      French
+   :::column-end:::
+   :::column:::
+      German
+   :::column-end:::
+   :::column:::
+      Italian
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Japanese
+   :::column-end:::
+   :::column:::
+      Korean
+   :::column-end:::
+   :::column:::
+      Portuguese (Brazil)
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Spanish (Spain)
+   :::column-end:::
+   :::column:::
+      Estonia
+   :::column-end:::
+   :::column:::
+      
+   :::column-end:::
+:::row-end:::
+
+<!--Original table begin-->
 |Currently Supported  | | |
 |---|---|---|
 Chinese (Simplified)|Chinese (Traditional)|English
 French|German|Italian
 Japanese|Korean|Portuguese (Brazil)|
 Spanish (Spain)| Estonian |
+
+<!--Original table end-->
+
+:::row:::
+   :::column span="3":::
+      Coming Soon
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+        Arabic
+   :::column-end:::
+   :::column:::
+       Bulgarian
+   :::column-end:::   
+   :::column:::
+      Croatian
+   :::column-end:::
+  :::row-end:::
+
+:::row:::
+ :::column:::
+      Czech
+   :::column-end:::
+   :::column:::
+      Danish
+   :::column-end:::
+      :::column:::
+     Hebrew
+   :::column-end:::
+:::row-end:::
+
+:::row:::  
+   :::column:::
+      Hungarian
+   :::column-end:::
+   :::column:::
+      Indonesian
+   :::column-end:::
+   :::column:::
+      Latvian
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Lithuanian
+   :::column-end:::
+   :::column:::
+      Norwegian (Bokmal)
+   :::column-end:::
+   :::column:::
+      Polish
+   :::column-end:::
+ :::row-end:::
+
+:::row:::
+  :::column:::
+      Portuguese (Portugal)
+   :::column-end:::
+   :::column:::
+      Romanian
+   :::column-end:::
+   :::column:::
+      Russian 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+     Serbian
+   :::column-end:::
+   :::column:::
+     Slovak 
+   :::column-end:::
+   :::column:::
+     Slovenian   
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+     Swedish
+   :::column-end:::
+   :::column:::
+     Thai
+   :::column-end:::   
+   :::column:::
+     Turkish
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Ukrainian
+   :::column-end:::
+   :::column:::
+     Vietnamese
+   :::column-end::: 
+   :::column:::
+     Vietnamese
+   :::column-end:::   
+:::row-end:::
+
+<!--Original table begins-->
 
 |Coming Soon | | |
 |---|---|---|
@@ -51,5 +206,7 @@ Turkish|Ukrainian|Latvian |
 Lithuanian| Serbian| Slovak|
 Slovenian |Hebrew |Arabic |
 Bulgarian |Vietnamese
+
+<!--Original table end-->
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).
