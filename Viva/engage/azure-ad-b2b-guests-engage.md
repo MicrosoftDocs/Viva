@@ -51,7 +51,7 @@ To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Colla
 
 2.	The guest receives a welcome email message. This message includes information about the Viva Engage community to which the user is being invited, and the name of the community admin inviting the guest. The guest must accept the invitation by selecting **Go To Community** in the email message before accessing the Viva Engage community.
 
-    ![Yammer AAD B2B external message.](../media/yammer-aad-b2b-external-message.png)
+    ![Yammer AAD B2B external message.](../media/engage-aad-b2b-external-message.png)
 
 3.	By visiting the **Go to Community** link, the guest accepts the invitation. After accepting the invitation, the guest can participate in the Viva Engage community.
 
@@ -69,7 +69,7 @@ To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Colla
 
 6. Guests can leave the Viva Engage community at any time by hovering over the Joined button in the community header.
 
-     ![Screenshot showing the button to leave an external community.](../media/yammer-aad-b2b-external-community-leave.png)
+     ![Screenshot showing the button to leave an external community.](../media/engage-aad-b2b-external-community-leave.png)
 
     > [!NOTE]
     > Leaving the Viva Engage community doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 global admin or an Azure AD admin.
@@ -139,6 +139,6 @@ If you want to deny external users from being added to Viva Engage communities w
 
 [Yammer admin Help](./admin-key-concepts.md)
 
-[Native Mode for Microsoft 365 for Yammer](../configure-your-yammer-network/overview-native-mode.md)
+[Native Mode for Microsoft 365 for Yammer](./overview-native-mode.md)
 
 [Yammer Help and Support Center for end-users](https://support.office.com/yammer)
