@@ -296,10 +296,10 @@ With `DefaultLookbackWindowDays`, specify the lookback window for cases when the
 
 #### AggregationType
 
-`AggregationType` controls how the requested data is aggregated. Set the value to either **Day**, **Week**, or **Month**.
+`AggregationType` controls how the requested data is aggregated. Set the value to either `Day`, `Week`, or `Month`.
 
 >[!Note]
-> Make sure your `RequestStartDate` and `RequestEndDate` values are at least as far apart as you’ve set your `AggregationType`. For example, when requesting data with an `AggregationType` set to `Week`, you’ll need to set `RequestStartDate` and `RequestEndDate` at least a week apart.
+> Make sure the time between your `RequestStartDate` and `RequestEndDate` is at least what you've set your `AggregationType`. For example, when requesting data with an `AggregationType` set to `Week`, you’ll need to set `RequestStartDate` and `RequestEndDate` at least a week apart.
 
 #### Programmatic configuration
 
