@@ -17,36 +17,10 @@ audience: user
 
 Review tomorrow's upcoming meetings, tasks, and commitments, and end today mindfully with virtual commute. 
 
-When a card at the top of your **Wellbeing** tab prompts you to "wrap up," select **Let's go** to start your virtual commute right away.
+To start a virtual commute, find the virtual commute card in the **Take action to improve your wellbeing** section. Select **Start virtual commute**. 
 
-:::image type="content" source="images/wellbeing-vc.png" alt-text="Screenshot that shows the virtual commute start card with a Let's go button.":::
+:::image type="content" source="images/wellbeing-vc-start-card.png" alt-text="Screenshot that shows the Wrap up with your virtual commute card in the Take action section, with the Start virtual commute button highlighted." lightbox="images/wellbeing-vc-start-card-expanded.png":::
 
-<!--Anji to verify-->
-
-This message appears at the following times:
-
-* If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about changing this and other settings, refer to [Insights app settings](viva-teams-app-settings.md).
-* If you haven't configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance).
-
-## Set up virtual commutes
-
-The first time you open **Wellbeing**, you're prompted to schedule your virtual commute reminders.
-
-<!--Anji to verify-->
-
-:::image type="complex" source="images/virtual-commute-reminders.png" alt-text="Screenshot that shows virtual commute reminder settings in the Viva Insights Settings page.":::
-   Screenshot of the Viva Insights Settings page that shows Virtual commute settings. There are four settings options: "Reminder," which has a toggle switch you can turn on and off; "Days of the week," which provides checkboxes for each of the seven days of the week; "Notification time," which prompts you to select a time from a dropdown menu beneath text that says, "Start my virtual commute around"; and "Time zone," which shows a time zone with a link that says, "Change." There's a "Save changes" button in the bottom left of this section. Beneath the section, there's a link to the Privacy guide.
-:::image-end:::
-
-You can use this prompt to turn on the **Reminder** toggle, then select the days and time of day that you want to see the virtual commute reminder. When you're done, select **Save changes**.
-
->[!Note]
->
->* You can schedule virtual commute reminders for any day of the week, including days not configured as workdays in your Outlook settings.
->* The time you select will apply to every day on which you'll see reminders. You can't set different times for different days of the week.
->* The reminder might not arrive at exactly the scheduled time, but most reminders appear within five minutes before their scheduled time. For example, if your reminder is scheduled for 5:00, the reminder could appear between 4:55 and 5:00.
-
-If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md).
 
 ### Virtual commute sections
 
@@ -118,6 +92,35 @@ After you’re done reviewing and managing your tasks, select **Next** to move t
 **Start** one or more of these activities to help transition to the next part of your day.
 
 When you’re ready to complete your virtual commute, select the **Done** button.
+
+## Set a reminder to complete your virtual commutes
+
+Want to get reminders to wrap up your day and start your virtual commute?  
+
+1. Go to your settings page: select the ellipses (**...**) at the top right corner of your Viva Insights app, and then select **Settings**.  
+
+1. Select the **Virtual commute** tab from the left pane. 
+
+1. Turn on the **Reminder** toggle. 
+
+1. Configure which days and what times you want to get a virtual commute reminder.  
+
+1. Select **Enroll now**. 
+
+:::image type="complex" source="images/virtual-commute-reminders.png" alt-text="Screenshot that shows virtual commute reminder settings in the Viva Insights Settings page.":::
+   Screenshot of the Viva Insights Settings page that shows Virtual commute settings. There are four settings options: "Reminder," which has a toggle switch you can turn on and off; "Days of the week," which provides checkboxes for each of the seven days of the week; "Notification time," which prompts you to select a time from a dropdown menu beneath text that says, "Start my virtual commute around"; and "Time zone," which shows a time zone with a link that says, "Change." There's a "Save changes" button in the bottom left of this section. Beneath the section, there's a link to the Privacy guide.
+:::image-end:::
+
+Near the time you picked, a Teams desktop notification will remind to start your virtual commute. When you select the notification, Viva Insights will guide you through the commute, like we described earlier. 
+
+>[!Note]
+>
+>* You can schedule virtual commute reminders for any day of the week, including days not configured as workdays in your Outlook settings.
+>* The time you select will apply to every day on which you'll see reminders. You can't set different times for different days of the week.
+>* The reminder might not arrive at exactly the scheduled time, but most reminders appear within five minutes before their scheduled time. For example, if your reminder is scheduled for 5:00, the reminder could appear between 4:55 and 5:00.
+
+You can change your virtual commute settings, or turn off your reminders, at any time. 
+
 
 ## Related topics
 
