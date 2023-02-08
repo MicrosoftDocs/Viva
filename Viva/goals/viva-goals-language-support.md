@@ -31,7 +31,7 @@ Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locat
 
 ## Supported languages in Viva Goals
 
-Currently, Viva Goals supports the following languages. 
+Currently, Viva Goals supports the following languages: 
 
 :::row:::
    :::column:::
@@ -76,6 +76,7 @@ Currently, Viva Goals supports the following languages.
    :::column:::
       Estonia
    :::column-end:::
+<!--blank "cell" follows to even out the columns-->   
    :::column:::
       
    :::column-end:::
@@ -93,7 +94,7 @@ Spanish (Spain)| Estonian |
 
 :::row:::
    :::column span="3":::
-      Coming Soon
+      **Coming Soon**
    :::column-end:::
 :::row-end:::
 
@@ -188,9 +189,10 @@ Spanish (Spain)| Estonian |
    :::column:::
      Vietnamese
    :::column-end::: 
+   <!--blank "cell" follows to even out the columns -->   
    :::column:::
-     Vietnamese
-   :::column-end:::   
+      
+   :::column-end::: 
 :::row-end:::
 
 <!--Original table begins-->
