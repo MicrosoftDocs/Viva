@@ -33,6 +33,52 @@ Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locat
 
 Currently, Viva Goals supports the following languages. 
 
+:::row:::
+   :::column:::
+      Chinese (Simplified)
+   :::column-end:::
+   :::column:::
+      Chinese (Traditional)
+   :::column-end:::
+   :::column:::
+      English
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      French
+   :::column-end:::
+   :::column:::
+      German
+   :::column-end:::
+   :::column:::
+      Italian
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Japanese
+   :::column-end:::
+   :::column:::
+      Korean
+   :::column-end:::
+   :::column:::
+      Portuguese (Brazil)
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Spanish (Spain)
+   :::column-end:::
+   :::column:::
+      Estonia
+   :::column-end:::
+:::row-end:::
+
+<!--Original table begin-->
 |Currently Supported  | | |
 |---|---|---|
 Chinese (Simplified)|Chinese (Traditional)|English
@@ -40,6 +86,17 @@ French|German|Italian
 Japanese|Korean|Portuguese (Brazil)|
 Spanish (Spain)| Estonian |
 
+<!--Original table end-->
+
+:::row:::
+   :::column span="":::
+      Content...
+   :::column-end:::
+   :::column span="":::
+      More content...
+   :::column-end:::
+:::row-end:::
+<!--Original table begin-->
 |Coming Soon | | |
 |---|---|---|
 Croatian|Czech|Danish
@@ -51,5 +108,7 @@ Turkish|Ukrainian|Latvian |
 Lithuanian| Serbian| Slovak|
 Slovenian |Hebrew |Arabic |
 Bulgarian |Vietnamese
+
+<!--Original table end-->
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).
