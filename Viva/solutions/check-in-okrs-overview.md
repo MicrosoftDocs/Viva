@@ -25,9 +25,9 @@ An OKR check-in is a regular evaluation of the progress made towards the objecti
 
 While the one time OKR writing process at the beginning of a time period and reflection process at the end of a time period are the “bookends” to create and score your goals, the check-in process is the critical work done regularly throughout the time period to measure progress and make sure you’re on track.  
 
-In this article, you'll learn:
+In this article, you'll do as follows:
 
-- How to define and describe the two types of check-ins within Viva Goals 
+- Learn how to define and describe the two types of check-ins within Viva Goals 
 - See examples of a key result check-in, and which type to use  
 - Detail the benefits of using data integrations for check-ins 
 
@@ -40,7 +40,7 @@ A check-in is the process of updating the progress of your OKRs in Viva Goals, a
 
 ## How often to perform Check-ins 
 
-Because the process of checking in only takes a few minutes – or can be automated completely – we recommend a weekly cadence for most organizations. The benefits of weekly check-ins are that more frequent updates of key metrics provide a clearer picture of progress, ensuring that goals remain on track or can be adjusted more quickly if falling behind. Other organizations may choose to require check-ins on a bi-weekly basis. 
+Because the process of checking in only takes a few minutes—or can be automated completely—we recommend a weekly cadence for most organizations. The benefits of weekly check-ins are that more frequent updates of key metrics provide a clearer picture of progress, ensuring that goals remain on track or can be adjusted more quickly if falling behind. Other organizations may choose to require check-ins on a bi-weekly basis. 
 
 ## Two types of check-ins: manual and integrated 
 
@@ -90,9 +90,9 @@ Viva Goals supports integration with industry-leading tools and platforms you us
 
 Using integrations has several advantages: 
 
-- Check-ins are done automatically, eliminating the need to do so manually 
-- All data is brought in from a single source of truth, eliminating redundancy 
-- Users can stay in the flow of work with tools they're already using, avoiding time switching back and forth 
+- Check-ins are done automatically, eliminating the need to do so manually.
+- All data is brought in from a single source of truth, eliminating redundancy.
+- Users can stay in the flow of work with tools they're already using, avoiding time switching back and forth.
 
 Viva Goals supports a broad range of third-party integrations. See a comprehensive list of supported integrations here: [Viva Goals integrations overview](../goals/integrations-overview.md).
 
