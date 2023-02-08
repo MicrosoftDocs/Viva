@@ -42,7 +42,7 @@ Under the **Feature management** tab within the Engage admin center, select **St
 >[!NOTE]
 > Storyline must be enabled before you can enable stories.
 
-## Enable Storyline
+## Enable storyline
 
 Once you're in the interface for managing storyline, admins will see toggles that control the availability of storyline within the organization. When storyline is enabled in your organization, it's available to all internal users who have access to Viva Engage. All internal users will have their own storyline feed on their profile page and will be able to see, react, and respond to others’ storyline posts.  
 
@@ -139,4 +139,4 @@ If you want to delete a previously uploaded cover photo when the preview toggle 
 
 [Set up the Engage admin center](/Viva/engage/eac-get-started)
 
-[Leadership identification and delegate management in Viva Engage](/Viva/engage/leadership-identification)
+[Identify leaders and manage audiences in Viva Engage](/Viva/engage/leadership-identification)

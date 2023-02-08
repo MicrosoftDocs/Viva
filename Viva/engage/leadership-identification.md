@@ -25,7 +25,7 @@ search.appverid:
 
 Leaders naturally want to share vision, updates, and perspectives to build culture, manage change, and drive engagement with the people they lead. Viva Engage empowers leaders to more effectively connect with, communicate to, and listen to their employees. This begins with identifying leaders and the audiences they want to engage. Leadership identification and audience management enables organizations to designate leaders, configure their audience and even to connect leaders with the entire organization.
 
-Leadership identification and audience management is a prerequisite for other leadership features of Viva Engage, including leadership announcements, campaigns, audience analytics, and Leadership Corner.
+Leadership identification and audience management is a prerequisite for other leadership features of Viva Engage, including leadership announcements, campaigns, audience analytics, and leadership corner.
 
 ## Identify leaders
 
@@ -104,22 +104,22 @@ A leader can configure delegates through the following steps:
 
 Learn more about [Delegate Managers in Microsoft Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-yammer-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285).
 
-## Leadership Corner
+## Leadership corner
 
-Leadership Corner in Viva Engage is a place for users to get to know their leaders and stay informed on the latest content they post. Users can visit Leadership Corner to catch up on the latest content leaders are posting, join their communities, and attend their AMAs to ask them questions directly. Leadership Corner gives your organization the tools they need to learn about their leaders and build lasting connections with them.
+Leadership corner in Viva Engage is a place for users to get to know their leaders and stay informed on the latest content they post. Users can visit leadership corner to catch up on the latest content leaders are posting, join their communities, and attend their AMAs to ask them questions directly. Leadership corner gives your organization the tools they need to learn about their leaders and build lasting connections with them.
 
-Leadership Corner is ON by default but can be disabled using the toggle in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac) by a Microsoft 365 Global admin or Engage admin. Follow the below steps to enable or disable Leadership Corner for your organization:
+Leadership corner is ON by default but can be disabled using the toggle in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac) by a Microsoft 365 Global admin or Engage admin. Follow the below steps to enable or disable leadership corner for your organization:
 
 1. Select **Leadership corner** from the **Feature management tab** in the Engage admin center.
 
-![View of the Leadership Corner toggle for admin.](/Viva/media/engage/admin/lc-admin-eac.png)
+![View of the leadership corner toggle for admin.](/Viva/media/engage/admin/lc-admin-eac.png)
 
-2. Use the toggle to enable or disable Leadership Corner for your organization.
+2. Use the toggle to enable or disable leadership corner for your organization.
 
-![View of the Leadership Corner toggle for admin.](/Viva/media/engage/admin/lc-toggle.png)
+![View of the leadership corner toggle for admin.](/Viva/media/engage/admin/lc-toggle.png)
 
 > [!NOTE]
-> When you disable Leadership Corner, users will no longer see the **Leaders** entrypoint in the top navigation of Viva Engage.
+> When you disable leadership corner, users will no longer see the **Leaders** entrypoint in the top navigation of Viva Engage.
 
 ## What next
 
@@ -149,11 +149,11 @@ Verified Admins, Network Admins, Engage Admins, and corporate communications man
 
 Identified leaders and their delegate managers can configure leader’s audiences in the **Manage audiences** interface in the Engage admin center. For a leader to reach the Entire Organization, however, Engage Admin, Verified Admin, Network admin, and corporate communications managers must configure and enable this audience. Employees are not involved in audience configuration.  
 
-**Is there a way to disable Leadership Corner?**
+**Is there a way to disable leadership corner?**
 
-Yes, Global admin and Engage admin can access a toggle switch in the Engage admin center to disable Leadership Corner for their organization.
+Yes, Global admin and Engage admin can access a toggle switch in the feature management section of the Engage admin center to disable leadership corner for their organization.
 
-**How can I customize the company logo in Leadership Corner?**
+**How can I customize the company logo in leadership corner?**
 
 The company logo can be customized by following the instructions in this [link](/yammer/manage-yammer-groups/customize-your-network).
 
@@ -163,4 +163,4 @@ The company logo can be customized by following the instructions in this [link](
 
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
-[Manage and set up storyline in Microsoft Viva Engage](/Viva/engage/eac-storyline)
+[Manage and set up storyline in Viva Engage](/Viva/engage/eac-storyline)
