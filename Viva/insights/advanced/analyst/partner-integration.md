@@ -471,7 +471,7 @@ Coefficient| QI
 
 ### Q7. How do I programmatically create and store RSA keys?
 
-To programmatically generate RSA keys, refer to the [Create Key REST API](/rest/api/keyvault/keys/create-key/create-key) (or the [C#](/api/azure.security.keyvault.keys.keyclient.creatersakey) or [Java SDK](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-security-keyvault-keys/4.2.3/index.html) methods). This method also stores the RSA into the specified Key Vault.
+To programmatically generate RSA keys, refer to the [Create Key REST API](/rest/api/keyvault/keys/create-key/create-key) (or the [C#](/dotnet/api/azure.security.keyvault.keys.keyclient.creatersakey) or [Java SDK](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-security-keyvault-keys/4.2.3/index.html) methods). This method also stores the RSA into the specified Key Vault.
 
 
 ### Information for customers
