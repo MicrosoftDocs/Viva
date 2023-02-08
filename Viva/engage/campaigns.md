@@ -22,7 +22,7 @@ search.appverid:
 
 # Manage and set up campaigns in Viva Engage
 
-Campaigns are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging. Campaigns can be created, managed, and deleted by Global admins, Engage admins, and corporate communicators.
+Campaigns are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging. Campaigns can be created, managed, and deleted by Global admin, Engage admin, and corporate communicators.
 
 ## Set up a campaign
 
@@ -30,7 +30,7 @@ Within the Viva Engage Teams application, select the ellipses button from the to
 
 ![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
 
-Navigate to the Campaign dashboard by selecting **Campaigns** from the **Feature management** tab.
+Navigate to the campaign dashboard by selecting **Campaigns** from the **Feature management** tab.
 
 ![Image of the interface for managing campaigns in the Engage admin center.](/Viva/media/engage/admin/campaigns-eac.png)
 
@@ -48,6 +48,7 @@ The campaign dashboard provides a list of active, ended, and in-progress (draft)
 Since campaign hashtags are used as the binding element for all campaign content, any posted content containing the campaign hashtag will populate to the campaign landing page and will be included in campaign analytics.
 
 ![Image of the campaign creation modal for campaign managers.](/Viva/media/engage/admin/campaign-creation-modal.png)
+
 >[!NOTE]
 > When a user posts on the campaign landing page, they can post in the form of a discussion, question, praise, or poll in the default publisher.
 
@@ -79,29 +80,29 @@ Once a campaign is published, it becomes **Active** in the campaign management d
 > [!NOTE]
 > The three campaigns that populate to the **Active campaigns** module on the right navigation are ordered based on number of followers. Once a campaign is followed, it will no longer be visible in the **Active campaigns** module and will be replaced with a new campaign.  
 
-Once a campaign has ended, the follow button and default publisher on the campaign landing page will be disabled. However, people can still post in communities and Storylines using the campaign hashtag and those posts will accumulate in the campaign landing page.
+Once a campaign has ended, the follow button and default publisher on the campaign landing page will be disabled. However, people can still post in communities and storylines using the campaign hashtag and those posts will accumulate in the campaign landing page.
 
 ## Build campaign awareness  
 
 Users can discover campaigns through posts containing the verified campaign hashtag or through the campaigns discovery modules throughout Viva Engage.
 
-- **Verified Campaign Hashtag**
+- **Verified campaign hashtag**
     - By selecting a post or comment that contains the verified campaign hashtag, users will be routed to the campaign landing page where they can follow the campaign.
 
 > [!NOTE]
-> To build campaign awareness and reach, campaign managers and leaders across the organization are encouraged to share as many posts as possible with the campaign hashtag to their Storyline and in communities. The campaign link can also be shared through posts, emails, and Microsoft Teams chats for users to easily access the campaign landing page.
+> To build campaign awareness and reach, campaign managers and leaders across the organization are encouraged to share as many posts as possible with the campaign hashtag to their storyline and in communities. The campaign link can also be shared through posts, emails, and Microsoft Teams chats for users to easily access the campaign landing page.
 
 - **Campaigns modules**
     - **Active campaigns** module: On the right side of the Home feed, users will see an Active campaigns module with current campaigns to participate in and follow.
-    - **Followed campaigns** module: After following a campaign, users will see a Followed campaigns module on the right side of their Storyline.
+    - **Followed campaigns** module: After following a campaign, users will see a Followed campaigns module on the right side of their storyline.
     - **Sponsored campaigns** module: On the right side of Leadership Corner, there is a Sponsored campaigns module to help users discover campaigns sponsored by leaders they may be interested in.
 
 > [!NOTE]
-> Users can participate in any campaign from the Home feed, in a community, on a Storyline, or from the campaign landing page by creating or commenting on a post using the campaign hashtag.
+> Users can participate in any campaign from the Home feed, in a community, on a storyline, or from the campaign landing page by creating or commenting on a post using the campaign hashtag.
 
 ## Manage campaign analytics and engagement
 
-Engage admins and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed directly from the analytics icon on the top navigation menu of Viva Engage, the campaign management dashboard, and the campaign landing page.
+Engage admin and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed directly from the analytics icon on the top navigation menu of Viva Engage, the campaign management dashboard, and the campaign landing page.
 
 ![View of the analytics entrypoint at the top navigation of Viva Engage.](/Viva/media/engage/admin/analytics-navbar-icon.png)
 
@@ -119,7 +120,7 @@ Once redirected, you'll see the campaign analytics dashboard containing key data
 
 ## Frequently asked questions
 
-**Can I create a campaign for a hashtag already in use?** If the hashtag is being used by another campaign, then it cannot be used again. If, however, the hashtag has not been made into a campaign, then it can be used, but the content created before the Campaign is **Active** will not be included in views or analytics.  
+**Can I create a campaign for a hashtag already in use?** If the hashtag is being used by another campaign, then it cannot be used again. If, however, the hashtag has not been made into a campaign, then it can be used, but the content created before the Campaign is **Active** will not be included in views or analytics.
 
 **How often do campaign analytics refresh?** Analytics refresh daily. If you don’t see changes reflected immediately, check analytics the next day.
 

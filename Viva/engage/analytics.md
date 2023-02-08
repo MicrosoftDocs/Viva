@@ -44,17 +44,17 @@ Within the Viva Engage Teams application, select the ellipses button from the to
 
 ## Audience analytics  
 
-In the **Manage analytics** interface shown above, Engage admin can adjust the level of sentiment analysis that is available to leaders and their delegates through the **Audience Analytics** dashboard. This allows for unique levels of sentiment collection either at the audience level, theme-level, or conversation level.
+In the **Manage analytics** interface shown above, Engage admin can adjust the level of sentiment analysis that is available to leaders and their delegates through the **Audience analytics** dashboard. This allows for unique levels of sentiment collection either at the audience level, theme-level, or conversation level.
 
-Audience analytics help leaders and delegates monitor engagement within their audience on Viva Engage and can be accessed from the analytics icon on the top navigation bar or through the leader's Storyline page.
+Audience analytics help leaders and delegates monitor engagement within their audience on Viva Engage and can be accessed from the analytics icon on the top navigation bar or through the leader's storyline page.
 
-![View of Audience Analytics landing page.](/Viva/media/engage/admin/audience-analytics.png)
+![View of Audience analytics landing page.](/Viva/media/engage/admin/audience-analytics.png)
 
 ## Global Answers analytics
 
 Engage admin can manage metrics for **Answers** within their organization once they have the knowledge license.
 
-![View of Global Answers Analytics landing page.](/Viva/media/engage/admin/global-answers-analytics.png)
+![View of Global Answers analytics landing page.](/Viva/media/engage/admin/global-answers-analytics.png)
 
 Admin can choose to enable or disable:
 
@@ -62,11 +62,11 @@ Admin can choose to enable or disable:
 
 ## Personal analytics  
 
-All licensed users have access to Personal analytics that help monitor the engagement on any of their Storyline or community posts in Viva Engage.
+All licensed users have access to Personal analytics that help monitor the engagement on any of their storyline or community posts in Viva Engage.
 
 ![View of Personal Analytics landing page.](/Viva/media/engage/admin/personal-analytics-admin.png)
 
-## Campaign Analytics  
+## Campaign analytics  
 
 Engage admin and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. Campaign analytics can be accessed from the campaign management dashboard, the campaign landing page, or through the analytics icon on the top navigation menu of Viva Engage.
 
@@ -78,7 +78,7 @@ In the **Manage analytics** interface, Engage admin can choose to enable or disa
 
 **How often are analytics updated?** Analytics refresh daily (every 24 hours). If you don’t see changes reflected right away, check analytics the next day.
 
-**Where can users access Analytics from?** Analytics can be accessed directly from the top navigation menu of Viva Engage by selecting the analytics icon (see above imagery for reference).
+**Where can users access analytics from?** Analytics can be accessed directly from the top navigation menu of Viva Engage by selecting the analytics icon (see above imagery for reference).
 
 **Why can't my leader/delegate see audience analytics?** A leader and their delegate must be licensed users to view audience analytics. Additionally, at least 75% of the leader's audience must have a premium license for audience analytics to be visible to the leader or their delegate(s).
 

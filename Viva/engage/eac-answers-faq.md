@@ -1,5 +1,5 @@
 ---
-title: "Answers in Viva Engage: Frequently asked questions (FAQ)"
+title: "Answers in Viva: Frequently asked questions (FAQ)"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Answers in Viva Engage: Frequently asked questions (FAQ)
+# Answers in Viva: Frequently asked questions (FAQ)
 
 **What license is required to use Answers?**
 A license to Viva Engage Knowledge service plan is required to use Answers. This service plan will be available as part of purchasing either Viva Suite or Viva Topics SKUs.
@@ -35,7 +35,7 @@ Navigate [to our adoption site](https://adoption.microsoft.com/viva/engage/) to 
 Answers will be open to anyone in your organization with Viva suite or Viva Topics licenses. Answers posts can be routed to anyone in your organization with an Microsoft 365 license, but the employee will only be able to access the individual thread and will not be able to access other parts of Answers.
 
 **Can admins disable the Answers Digest sent to their organization?**
-Currently, admins are not able to configure or disable the automated Answers Digest emails from Viva Answers.
+Currently, admins are not able to configure or disable the automated Answers Digest emails from Answers in Viva.
 
 **Is guest access permitted for Answers?**
 Answers does not support guest access.
@@ -48,10 +48,10 @@ Please check that your Yammer network meets [technical requirements](/viva/engag
 
 ### See also
 
-[Overview and setup of Answers in Viva Engage](/Viva/engage/eac-answers-overview-setup)
+[Overview and setup of Answers in Viva](/Viva/engage/eac-answers-overview-setup)
 
-[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios)
+[Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)
 
-[Announcing Answers in Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/announcing-answers-in-microsoft-viva/ba-p/3634288)
+[Announcing Answers in Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/announcing-answers-in-microsoft-viva/ba-p/3634288)
 
 [Rewards and recognition in Viva Engage](/Viva/engage/badges)

@@ -1,5 +1,5 @@
 ---
-title: "Overview and setup of Answers in Viva Engage"
+title: "Overview and setup of Answers in Viva"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Overview and setup of Answers in Viva Engage
+# Overview and setup of Answers in Viva
 
 Accessible through the **Answers** tab in the Viva Engage Teams app, **Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Answers is a conversational experience for asking questions and connecting employees to crowdsourced answers. Natural language processing helps match questions with any existing answers, and the experience rewards people who contribute back to Answers.
 
@@ -100,8 +100,8 @@ Only an Microsoft 365 Global admin can change Answers state of enablement:
 
 ## See also
 
-[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios)
+[Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)
 
-[Answers in Viva Engage: Frequently asked questions (FAQ)](/Viva/engage/eac-answers-faq)
+[Answers in Viva: Frequently asked questions (FAQ)](/Viva/engage/eac-answers-faq)
 
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)

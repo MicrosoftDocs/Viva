@@ -51,7 +51,7 @@ The table below shows the range of actions available to Engage admin and Global 
 |**Manage data and compliance**: <br> Manage network and user data; **GDPR** delete |✓ |✓ |
 |**Manage leaders and their audiences**: <br> Assign leaders in your organization; **Identify audiences for the leaders identified** |✓ |✓ |
 |**Configure stories and storylines**: <br> Enable storylines and stories for your organization; Configure advanced settings like default notifications, specify who can create storyline posts |✓ |✓ |
-|**Manage sentiment analysis and other feature specific analytics**: <br> Configure level of sentiment to be gathered in the organization; Enable or disable campaign analytics; Enable or disable answers analytics|  |✓ |
+|**Manage sentiment analysis and other feature specific analytics**: <br> Configure level of sentiment to be gathered in the organization; Enable or disable campaign analytics; Enable or disable Answers analytics|  |✓ |
 |**Add, view, and manage campaigns**: <br> Create and manage campaigns; Access campaign analytics dashboard|  |✓ |
 |**Enable and manage badges**|  |✓ |
 |**Enable Answers**|  |Global admin only |
@@ -95,4 +95,4 @@ The table below shows the range of actions available to a corporate communicator
 
 [Access the Engage admin center](/Viva/engage/eac-as-access-eac)
 
-[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios)
+[Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)

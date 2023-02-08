@@ -71,7 +71,7 @@ This will lead you to the **Manage audiences** page, where you can configure the
 ![View of the Manage audience interface in Viva Engage.](/Viva/media/engage/admin/manage-audience.png)
 
 > [!NOTE]
-> Each time a Storyline announcement is posted, the selected audiences will receive an automatic notification.
+> Each time a storyline announcement is posted, the selected audiences will receive an automatic notification.
 
 You can define a leader’s audience by adding individual users or groups (security or distribution groups). When you add a group, **changes to the group’s membership (including nested members) automatically update the audience**, within 24 hours. This makes it easy to apply existing groups that define a leader’s organization to define the leader’s audience in Viva Engage.
 
@@ -100,7 +100,7 @@ A leader can configure delegates through the following steps:
 
     - When a delegate is removed, the same audience is notified via email.
 
-5. If the delegate will create posts, stories, or announcements on the leader’s [Storyline](/Viva/engage/eac-storyline), **enable the Storyline toggle**.
+5. If the delegate will create posts, stories, or announcements on the leader’s [storyline](/Viva/engage/eac-storyline), **enable the storyline toggle**.
 
 Learn more about [Delegate Managers in Microsoft Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-yammer-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285).
 
@@ -125,7 +125,7 @@ Leadership Corner is ON by default but can be disabled using the toggle in the V
 
 **Announcements**
 
-Learn more about [Storyline announcements](https://support.microsoft.com/topic/8db19630-ecd0-4d1e-b735-437aea62e248), which enable leaders to reach their audience with need-to-know information across Outlook, Teams, and Microsoft Viva.
+Learn more about [storyline announcements](https://support.microsoft.com/topic/8db19630-ecd0-4d1e-b735-437aea62e248), which enable leaders to reach their audience with need-to-know information across Outlook, Teams, and Microsoft Viva.
 
 **Analytics**
 
@@ -163,4 +163,4 @@ The company logo can be customized by following the instructions in this [link](
 
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
-[Manage and set up Storyline in Microsoft Viva Engage](/Viva/engage/eac-storyline)
+[Manage and set up storyline in Microsoft Viva Engage](/Viva/engage/eac-storyline)
