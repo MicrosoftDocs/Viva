@@ -331,6 +331,9 @@ The following is a list of all the integrations currently available in Viva Goal
     :::column:::
       [Zendesk](zendesk-integration.md) 
     :::column-end:::
+    :::column:::
+      
+    :::column-end:::
 :::row-end:::
  
  <!--4 columns end. DELETE ME-->
