@@ -259,6 +259,7 @@ The following is a list of all the integrations currently available in Viva Goal
     :::column:::    
       [GitLab](gitlab-integration.md)
     :::column-end:::
+:::row end:::
 
 :::row:::   
     :::column:::
