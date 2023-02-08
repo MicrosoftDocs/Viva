@@ -58,8 +58,6 @@ Engage admin can manage metrics for **Answers** within their organization once t
 
 Admin can choose to enable or disable:
 
-- **Top contributors:** This displays top contributors who ask questions, post answers, and earn answer badges
-- **Top badge earners:** This displays users who have earned the most badges across the organization  
 - Advanced metrics like **time saved** and **people helped** to display impact  
 
 ## Personal analytics  
