@@ -292,7 +292,7 @@ If you don't specify a value for:
 
 ##### DefaultLookbackWindowDays
 
-With `DefaultLookbackWindowDays`, specify the lookback window for cases when the RequestStartDate isn't provided. If you don't set a value here, the lookback window will be 14 days.
+Use `DefaultLookbackWindowDays` to specify the lookback window for cases where there's no `RequestStartDate` value. If you don't set a value here, the lookback window will be 14 days.
 
 #### AggregationType
 
