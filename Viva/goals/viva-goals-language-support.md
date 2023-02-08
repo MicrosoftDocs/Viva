@@ -29,9 +29,9 @@ Tenants aren't provided with a choice for the specific deployment region for dat
 
 Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locations) page to learn more.
 
-## Supported languages in Viva Goals
+## Languages in Viva Goals
 
-Currently, Viva Goals supports the following languages: 
+### Currently supported languages
 
 :::row:::
    :::column:::
@@ -82,21 +82,8 @@ Currently, Viva Goals supports the following languages:
    :::column-end:::
 :::row-end:::
 
-<!--Original table begin-->
-|Currently Supported  | | |
-|---|---|---|
-Chinese (Simplified)|Chinese (Traditional)|English
-French|German|Italian
-Japanese|Korean|Portuguese (Brazil)|
-Spanish (Spain)| Estonian |
 
-<!--Original table end-->
-
-:::row:::
-   :::column span="3":::
-      The languages that follow will be available soon:
-   :::column-end:::
-:::row-end:::
+### Languages coming soon:
 
 :::row:::
    :::column:::
@@ -194,21 +181,5 @@ Spanish (Spain)| Estonian |
       
    :::column-end::: 
 :::row-end:::
-
-<!--Original table begins-->
-
-|Coming Soon | | |
-|---|---|---|
-Croatian|Czech|Danish
-Dutch|Finnish|Greek
-Hungarian|Indonesian|Norwegian (Bokmal)|
-Polish|Portuguese (Portugal)|Romanian 
-Russian|Swedish|Thai 
-Turkish|Ukrainian|Latvian |
-Lithuanian| Serbian| Slovak|
-Slovenian |Hebrew |Arabic |
-Bulgarian |Vietnamese
-
-<!--Original table end-->
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).
