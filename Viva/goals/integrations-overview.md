@@ -76,45 +76,135 @@ There are three ways to edit an integration:
 
 The following is a list of all the integrations currently available in Viva Goals:
 
-**Supported Integrations**
+:::row:::
+   :::column span="3":::
+      **Supported Integrations**
+    :::column-end:::
+:::row-end:::
 
 :::row:::
     :::column:::
-        [Azure Data Explorer ](azure-data-explorer-integration.md)
-        [Asana](asana-integration.md) 
-        [Domo](domo-integration.md) 
-        [Favro](favro-generating-an-api-token.md)
-        [Google Sheets](gsheets-integration.md)
-        [Looker](looker-integration.md) 
-        [monday.com](monday.com-integration.md)
-        [Planview Projectplace](planview-projectplace-integration.md) 
-        [Salesforce](salesforce-integration.md)
-        [Snowflake](snowflake-integration.md)
-        [Zendesk](zendesk-integration.md)
+      [Azure Data Explorer ](azure-data-explorer-integration.md)
     :::column-end:::
     :::column:::
-         [Azure DevOps (ADO)](azure-devops-integration.md)
-         [BigQuery](bigquery-integration.md) 
-         [Dynamics 365](dynamics-365-integration.md)
-         [GitHub](github-integration.md)
-         [Hubspot](hubspot-integration.md)
-         [Microsoft Planner](microsoft-planner-integration.md)
-         [MS SQL Server](ms-sql-server-integration.md)
-         [PostgreSQL](postgresql-integration.md)
-         [Slack](slack-collaborate-with-viva-goals.md)
-         [Tableau](tableau-integration.md)
+      [Azure DevOps (ADO)](azure-devops-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Amazon RedShift](amazon-redshift-integration.md)
+    :::column-end:::
+:::row-end:::   
+
+:::row:::
+    :::column:::
+      [Asana](asana-integration.md)         
     :::column-end:::
     :::column:::
-         [Amazon RedShift](amazon-redshift-integration.md)
-         [Box](box-integration.md)
-         [Excel Online](excel-online-integration.md)
-         [GitLab](gitlab-integration.md)
-         [Jira](jira-integration.md)
-         [Mode](mode-integration.md)
-         [MySQL](mysql-integration.md)
-         [Power BI](power-bi-integration.md)
-         [Smartsheet](smartsheet-integration.md)
-         [Trello](trello-integration.md)
+      [BigQuery](bigquery-integration.md)         
+    :::column-end:::  
+    :::column:::    
+      [Box](box-integration.md)      
+    :::column-end:::    
+:::row-end:::   
+
+:::row:::   
+    :::column:::
+      [Domo](domo-integration.md)   
+    :::column-end:::
+    :::column:::
+      [Dynamics 365](dynamics-365-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Excel Online](excel-online-integration.md)
+    :::column-end:::    
+:::row-end:::
+ 
+:::row:::   
+    :::column:::
+      [Favro](favro-generating-an-api-token.md)  
+    :::column-end:::
+    :::column:::
+      [GitHub](github-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [GitLab](gitlab-integration.md)
+    :::column-end:::    
+:::row-end:::
+ 
+:::row:::   
+    :::column:::
+      [Google Sheets](gsheets-integration.md)  
+    :::column-end:::
+    :::column:::
+      [Hubspot](hubspot-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Jira](jira-integration.md)
+    :::column-end:::    
+:::row-end:::
+ 
+:::row:::   
+    :::column:::
+      [Looker](looker-integration.md)  
+    :::column-end:::
+    :::column:::
+      [Microsoft Planner](microsoft-planner-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Mode](mode-integration.md)
+    :::column-end:::    
+:::row-end:::
+ 
+:::row:::   
+    :::column:::
+      [monday.com](monday.com-integration.md)
+    :::column-end:::
+    :::column:::
+      [MS SQL Server](ms-sql-server-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [MySQL](mysql-integration.md)
+    :::column-end:::    
+:::row-end:::
+ 
+ :::row:::   
+    :::column:::
+      [Planview Projectplace](planview-projectplace-integration.md)  
+    :::column-end:::
+    :::column:::
+      [PostgreSQL](postgresql-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Power BI](power-bi-integration.md)
+    :::column-end:::    
+:::row-end:::
+ 
+:::row:::   
+    :::column:::
+      [Salesforce](salesforce-integration.md)
+    :::column-end:::
+    :::column:::
+      [Slack](slack-collaborate-with-viva-goals.md)
+    :::column-end:::  
+    :::column:::    
+      [Smartsheet](smartsheet-integration.md) 
+    :::column-end:::    
+:::row-end:::
+
+:::row:::   
+    :::column:::
+      [Snowflake](snowflake-integration.md)
+    :::column-end:::
+    :::column:::
+      [Tableau](tableau-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Trello](trello-integration.md)
+    :::column-end:::    
+:::row-end:::
+ 
+:::row:::   
+    :::column:::
+         [Zendesk](zendesk-integration.md) 
     :::column-end:::
 :::row-end:::
 
