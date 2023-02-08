@@ -33,7 +33,7 @@ If your organization is ready to start inviting guests to Viva Engage communitie
 Engage admins can enable guest access on their networks from the Engage admin center. Within the Engage admin center, navigate to the **Compliance & Governance** tab and click on **Manage data**. You will be redirected to the Yammer admin webpage, where you can enable guest access by navigating to **Security settings** and selecting **External Messaging**.
 
 > [!div class="mx-imgBorder"]
-> ![Yammer admin panel external user settings.](../media/yammer-adminpanel-externalusers-allowdeny.png)
+> ![Yammer admin panel external user settings.](../media/azure-ad-b2b-guests-engage-external-messaging.png)
 
 This setting is a Viva Engage tenant-wide setting. Enabling guest access here will allow community admins to add guests to any Viva Engage community in the network. You can control guest access to individual Viva Engage communities [by using sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
@@ -57,15 +57,15 @@ To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Colla
 
 4. The network switcher located in the suite header can be used to switch between the home Viva Engage network, any external Viva Engage communities the user is a guest in and External networks.
 
-    ![Screenshot of globe icon for switching networks.](../media/yammer-aad-b2b-external-globe.png)
+    ![Screenshot of globe icon for switching networks.](../media/azure-ad-b2b-guests-engage-network-switch.png)
 
 5.	Everyone in the Viva Engage community can identify easily who is a guest. An External badge appears next to the guest in Viva Engage community posts, comments, community membership page, and search results. The Viva Engage community with guests will also have a Globe icon next to it. 
 
-    ![Screenshot showing a post from an external user.](../media/yammer-aad-b2b-externaluser-post.png)
+    ![Screenshot showing a post from an external user.](../media/engage-aad-b2b-externaluser-post.png)
 
     The Viva Engage community with guests will also have a Globe icon next to it.
 
-    ![Screenshot showing external community with a globe icon.](../media/yammer-aad-b2b-external-globe.png)
+    ![Screenshot showing external community with a globe icon.](../media/azure-ad-b2b-guests-engage-network-switch.png)
 
 6. Guests can leave the Viva Engage community at any time by hovering over the Joined button in the community header.
 
