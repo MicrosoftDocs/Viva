@@ -46,37 +46,37 @@ Currently, Viva Goals supports the following languages:
 :::row-end:::
 
 :::row:::
+      :::column:::
+      Estonia
+   :::column-end:::
    :::column:::
       French
    :::column-end:::
    :::column:::
       German
    :::column-end:::
-   :::column:::
-      Italian
-   :::column-end:::
 :::row-end:::
 
 :::row:::
+   :::column:::
+      Italian
+   :::column-end:::
    :::column:::
       Japanese
    :::column-end:::
    :::column:::
       Korean
    :::column-end:::
-   :::column:::
-      Portuguese (Brazil)
-   :::column-end:::
 :::row-end:::
 
 :::row:::
    :::column:::
-      Spanish (Spain)
+      Portuguese (Brazil)
    :::column-end:::
    :::column:::
-      Estonia
+      Spanish (Spain)
    :::column-end:::
-<!--blank "cell" follows to even out the columns-->   
+   <!--blank "cell" follows to even out the columns-->   
    :::column:::
       
    :::column-end:::
