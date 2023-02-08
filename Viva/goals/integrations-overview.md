@@ -76,21 +76,47 @@ There are three ways to edit an integration:
 
 The following is a list of all the integrations currently available in Viva Goals:
 
+**Supported Integrations**
 
-| Supported Integrations | | |
-|---------|---------|---------|
-|[Azure Data Explorer ](azure-data-explorer-integration.md) |[Azure DevOps (ADO)](azure-devops-integration.md) |[Amazon RedShift](amazon-redshift-integration.md) |
-|[Asana](asana-integration.md) |[BigQuery](bigquery-integration.md) |[Box](box-integration.md) |
-|[Domo](domo-integration.md) |[Dynamics 365](dynamics-365-integration.md) |[Excel Online](excel-online-integration.md) |
-|[Favro](favro-generating-an-api-token.md) |[GitHub](github-integration.md) |[GitLab](gitlab-integration.md) |
-|[Google Sheets](gsheets-integration.md) |[Hubspot](hubspot-integration.md) |[Jira](jira-integration.md) |
-|[Looker](looker-integration.md) |[Microsoft Planner](microsoft-planner-integration.md) |[Mode](mode-integration.md) |
-|[monday.com](monday.com-integration.md) |[MS SQL Server](ms-sql-server-integration.md) |[MySQL](mysql-integration.md) |
-|[Planview Projectplace](planview-projectplace-integration.md) |[PostgreSQL](postgresql-integration.md) |[Power BI](power-bi-integration.md) |
-|[Salesforce](salesforce-integration.md) |[Slack](slack-collaborate-with-viva-goals.md) |[Smartsheet](smartsheet-integration.md) |
-|[Snowflake](snowflake-integration.md) |[Tableau](tableau-integration.md) |[Trello](trello-integration.md) |
-|[Zendesk](zendesk-integration.md) |   |   |
-
+:::row:::
+    :::column:::
+        [Azure Data Explorer ](azure-data-explorer-integration.md)
+        [Asana](asana-integration.md) 
+        [Domo](domo-integration.md) 
+        [Favro](favro-generating-an-api-token.md)
+        [Google Sheets](gsheets-integration.md)
+        [Looker](looker-integration.md) 
+        [monday.com](monday.com-integration.md)
+        [Planview Projectplace](planview-projectplace-integration.md) 
+        [Salesforce](salesforce-integration.md)
+        [Snowflake](snowflake-integration.md)
+        [Zendesk](zendesk-integration.md)
+    :::column-end:::
+    :::column:::
+         [Azure DevOps (ADO)](azure-devops-integration.md)
+         [BigQuery](bigquery-integration.md) 
+         [Dynamics 365](dynamics-365-integration.md)
+         [GitHub](github-integration.md)
+         [Hubspot](hubspot-integration.md)
+         [Microsoft Planner](microsoft-planner-integration.md)
+         [MS SQL Server](ms-sql-server-integration.md)
+         [PostgreSQL](postgresql-integration.md)
+         [Slack](slack-collaborate-with-viva-goals.md)
+         [Tableau](tableau-integration.md)
+    :::column-end:::
+    :::column:::
+         [Amazon RedShift](amazon-redshift-integration.md)
+         [Box](box-integration.md)
+         [Excel Online](excel-online-integration.md)
+         [GitLab](gitlab-integration.md)
+         [Jira](jira-integration.md)
+         [Mode](mode-integration.md)
+         [MySQL](mysql-integration.md)
+         [Power BI](power-bi-integration.md)
+         [Smartsheet](smartsheet-integration.md)
+         [Trello](trello-integration.md)
+    :::column-end:::
+:::row-end:::
 
 ## How to disable an integration
 
