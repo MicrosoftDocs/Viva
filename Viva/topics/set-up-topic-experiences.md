@@ -159,8 +159,8 @@ If your organization has controlled access to EWS Exchange, this will impact the
 
 Control access to EWS for your organization:
 
-- [Learn about control access to EWS in exchange](https://learn.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)
-- [Reference to Set-OrganizationConfig](https://learn.microsoft.com/powershell/module/exchange/set-organizationconfig?view=exchange-ps)
+- [Learn about control access to EWS in exchange](/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)
+- [Reference to Set-OrganizationConfig](/module/exchange/set-organizationconfig)
 
 ## Manage topic experiences
 
