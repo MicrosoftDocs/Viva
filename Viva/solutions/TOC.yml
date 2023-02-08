@@ -52,6 +52,14 @@
         href: align-okrs-overview.md
       - name: Align OKRs Recommendations
         href: align-okrs-recommendations.md
+      - name: Tight vs Loose Alignment
+        href: align-loose-vs-tight.md
+    - name: Check-in OKRs and Initiatives
+      items:
+      - name: Check-in OKRs Overview
+        href: check-in-okrs-overview.md
+      - name: Check-in OKRs Recommendations
+        href: check-in-recommendations.md
 
 
   - name: Microsoft Viva Accelerators
