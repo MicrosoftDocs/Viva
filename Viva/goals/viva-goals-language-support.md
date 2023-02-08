@@ -94,7 +94,7 @@ Spanish (Spain)| Estonian |
 
 :::row:::
    :::column span="3":::
-      **Coming Soon**
+      The languages that follow will be available soon:
    :::column-end:::
 :::row-end:::
 
