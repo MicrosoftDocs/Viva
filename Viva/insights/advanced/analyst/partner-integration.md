@@ -158,9 +158,11 @@ To use this integration, here’s what you’ll need to do.
         * The **App Secret** is the secret generated in step 2 above.
 
         * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant ID of the customer whose data needs to be extracted.
-![Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)](/viva/insights/advanced/images/custom-deployment.png)
 
-    1. Select **Review + create**.
+    :::image type="content" source="../images/custom-deployment1.png" alt-text="Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)":::
+
+    5. Select **Review + create**.
+
 >[!Note] 
 >To deploy the template programmatically, follow the directions in [Programmatic configuration](#programmatic-configuration).
 
