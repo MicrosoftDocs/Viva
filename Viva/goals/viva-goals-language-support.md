@@ -76,6 +76,9 @@ Currently, Viva Goals supports the following languages.
    :::column:::
       Estonia
    :::column-end:::
+   :::column:::
+      
+   :::column-end:::
 :::row-end:::
 
 <!--Original table begin-->
@@ -89,14 +92,109 @@ Spanish (Spain)| Estonian |
 <!--Original table end-->
 
 :::row:::
-   :::column span="":::
-      Content...
-   :::column-end:::
-   :::column span="":::
-      More content...
+   :::column span="3":::
+      Coming Soon
    :::column-end:::
 :::row-end:::
-<!--Original table begin-->
+
+:::row:::
+   :::column:::
+        Arabic
+   :::column-end:::
+   :::column:::
+       Bulgarian
+   :::column-end:::   
+   :::column:::
+      Croatian
+   :::column-end:::
+  :::row-end:::
+
+:::row:::
+ :::column:::
+      Czech
+   :::column-end:::
+   :::column:::
+      Danish
+   :::column-end:::
+      :::column:::
+     Hebrew
+   :::column-end:::
+:::row-end:::
+
+:::row:::  
+   :::column:::
+      Hungarian
+   :::column-end:::
+   :::column:::
+      Indonesian
+   :::column-end:::
+   :::column:::
+      Latvian
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Lithuanian
+   :::column-end:::
+   :::column:::
+      Norwegian (Bokmal)
+   :::column-end:::
+   :::column:::
+      Polish
+   :::column-end:::
+ :::row-end:::
+
+:::row:::
+  :::column:::
+      Portuguese (Portugal)
+   :::column-end:::
+   :::column:::
+      Romanian
+   :::column-end:::
+   :::column:::
+      Russian 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+     Serbian
+   :::column-end:::
+   :::column:::
+     Slovak 
+   :::column-end:::
+   :::column:::
+     Slovenian   
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+     Swedish
+   :::column-end:::
+   :::column:::
+     Thai
+   :::column-end:::   
+   :::column:::
+     Turkish
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Ukrainian
+   :::column-end:::
+   :::column:::
+     Vietnamese
+   :::column-end::: 
+   :::column:::
+     Vietnamese
+   :::column-end:::   
+:::row-end:::
+
+<!--Original table begins-->
+
 |Coming Soon | | |
 |---|---|---|
 Croatian|Czech|Danish
