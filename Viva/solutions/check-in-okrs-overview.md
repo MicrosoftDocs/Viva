@@ -16,7 +16,7 @@ ms.collection:
 - highpri
 search.appverid:
 - MET150
-description: "Learn how to check-in on Objectives, Key Results, and Initiatives for a healthy OKR program."
+description: "Learn how to check in on Objectives, Key Results, and Initiatives for a healthy OKR program."
 ---
 
 # Check-in OKRs and make updates with Viva Goals
