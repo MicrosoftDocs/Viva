@@ -58,7 +58,7 @@ Answers will be enabled by default for customers that meet the following technic
 
 3. **Set up the Viva Engage app**
 
-    Installing the Viva Engage app in Teams will provide the best experience for Answers. We recommend all organizations that would like to use Answers install the Viva Engage app. Follow these [steps to setup Viva Engage app](/viva/engage/setup.md).
+    Installing the Viva Engage app in Teams will provide the best experience for Answers. We recommend all organizations that would like to use Answers install the Viva Engage app. Follow these [steps to setup Viva Engage app](/viva/engage/setup).
 
 ## Data storage, export, and compliance
 
@@ -100,8 +100,8 @@ Only an Microsoft 365 Global admin can change Answers state of enablement:
 
 ## See also
 
-[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios.md)
+[Answers admin scenarios in Viva Engage](/Viva/engage/eac-answers-admin-scenarios)
 
-[Answers in Viva Engage: Frequently asked questions (FAQ)](/Viva/engage/eac-answers-faq.md)
+[Answers in Viva Engage: Frequently asked questions (FAQ)](/Viva/engage/eac-answers-faq)
 
-[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)
+[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)

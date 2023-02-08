@@ -57,4 +57,4 @@ For more information, see [the Microsoft Viva admin experience](/viva/new-micros
 
 ## See also
 
-[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)
+[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)

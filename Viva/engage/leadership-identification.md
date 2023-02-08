@@ -100,7 +100,7 @@ A leader can configure delegates through the following steps:
 
     - When a delegate is removed, the same audience is notified via email.
 
-5. If the delegate will create posts, stories, or announcements on the leader’s [Storyline](/Viva/engage/eac-storyline.md), **enable the Storyline toggle**.
+5. If the delegate will create posts, stories, or announcements on the leader’s [Storyline](/Viva/engage/eac-storyline), **enable the Storyline toggle**.
 
 Learn more about [Delegate Managers in Microsoft Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-yammer-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285).
 
@@ -108,7 +108,7 @@ Learn more about [Delegate Managers in Microsoft Viva Engage](https://support.mi
 
 Leadership Corner in Viva Engage is a place for users to get to know their leaders and stay informed on the latest content they post. Users can visit Leadership Corner to catch up on the latest content leaders are posting, join their communities, and attend their AMAs to ask them questions directly. Leadership Corner gives your organization the tools they need to learn about their leaders and build lasting connections with them.
 
-Leadership Corner is ON by default but can be disabled using the toggle in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac.md) by a Microsoft 365 Global admin or Engage admin. Follow the below steps to enable or disable Leadership Corner for your organization:
+Leadership Corner is ON by default but can be disabled using the toggle in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac) by a Microsoft 365 Global admin or Engage admin. Follow the below steps to enable or disable Leadership Corner for your organization:
 
 1. Select **Leadership corner** from the **Feature management tab** in the Engage admin center.
 
@@ -129,11 +129,11 @@ Learn more about [Storyline announcements](https://support.microsoft.com/topic/8
 
 **Analytics**
 
-Learn more about [analytics for leaders](/Viva/engage/analytics.md), which empower leaders to measure and improve the effectiveness of their communication and engagement, and identify opportunities to drive impact in their organization.  
+Learn more about [analytics for leaders](/Viva/engage/analytics), which empower leaders to measure and improve the effectiveness of their communication and engagement, and identify opportunities to drive impact in their organization.  
 
 ## Frequently asked questions
 
-**What license is required to be identified as a leader?** 
+**What license is required to be identified as a leader?**
 
 Any user with a license to Yammer, Viva Engage Core, or the Viva Engage Communities and Communications service plan can be identified as a leader. Identified leaders with a license to the Viva Engage Communities and Communications service plan will have access to storyline announcements, leadership corner, campaigns and AMAs. Identified leaders who don’t have a license to the Viva Engage Communities and Communications service plan will only have access to their storyline and stories.
 
@@ -159,8 +159,8 @@ The company logo can be customized by following the instructions in this [link](
 
 ## See also
 
-[Set up and manage campaigns in Viva Engage](/viva/engage/campaigns.md)
+[Set up and manage campaigns in Viva Engage](/viva/engage/campaigns)
 
-[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions.md)
+[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
-[Manage and set up Storyline in Microsoft Viva Engage](/Viva/engage/eac-storyline.md)
+[Manage and set up Storyline in Microsoft Viva Engage](/Viva/engage/eac-storyline)

@@ -23,7 +23,7 @@ search.appverid:
 
 # View and manage analytics in Viva Engage
 
-Premium analytic capabilities in Viva Engage help licensed users monitor their own engagement metrics (personal analytics), leaders monitor their audience’s engagement (audience analytics), manage social campaign engagement (campaign analytics), and monitor engagement in Answers (Answers analytics). View analytics by selecting the analytics icon on the top navigation bar.
+Advanced analytic capabilities in Viva Engage help licensed users monitor their own engagement metrics (personal analytics), leaders monitor their audience’s engagement (audience analytics), manage social campaign engagement (campaign analytics), and monitor engagement in Answers (Answers analytics). View analytics by selecting the analytics icon on the top navigation bar.
 
 ## Manage analytics
 

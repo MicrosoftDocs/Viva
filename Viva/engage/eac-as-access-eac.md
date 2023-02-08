@@ -94,10 +94,10 @@ They are then routed to the Yammer admin center to perform the following actions
 
 ## See also
 
-[Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions.md)
+[Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions)
 
-[Manage data in the Engage admin center](/Viva/engage/eac-as-manage-data.md)
+[Manage data in the Engage admin center](/Viva/engage/eac-as-manage-data)
 
-[Set up the Engage admin center](/Viva/engage/eac-get-started.md)
+[Set up the Engage admin center](/Viva/engage/eac-get-started)
 
-[View and manage campaigns in Viva Engage](/Viva/engage/campaigns.md)
+[View and manage campaigns in Viva Engage](/Viva/engage/campaigns)
