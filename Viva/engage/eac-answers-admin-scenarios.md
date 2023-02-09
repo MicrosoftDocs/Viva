@@ -36,7 +36,7 @@ The table below shows the range of actions available to an unlicensed user, Viva
 |**Create a suggested Topic for Answers**| |✓|✓|✓|✓|
 |**Mark Best answer**| | ✓ (own posts)|✓|✓|✓|
 |**See global insights**| | |✓|✓|✓|
-|**Delete and close posts**| | ✓ (own posts)|✓|✓|✓|✓|
+|**Delete and close posts**| | ✓ (own posts)|✓|✓|✓|
 |**Feature Topics**| | | |✓|✓|
 |**Remove Topic from Answers**| | | |✓|✓|
 |**Approve suggested Topics**| | | |✓|✓|
