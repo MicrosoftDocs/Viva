@@ -15,7 +15,7 @@ audience: user
 
 # Virtual commute
 
-Review tomorrow's upcoming meetings, tasks, and commitments, and end today mindfully with virtual commute. 
+Review tomorrow's upcoming meetings, tasks, and commitments, and end today mindfully with a virtual commute. 
 
 To start a virtual commute, find the virtual commute card in the **Take action to improve your wellbeing** section. Select **Start virtual commute**. 
 
@@ -24,7 +24,7 @@ To start a virtual commute, find the virtual commute card in the **Take action t
 
 ### Virtual commute sections
 
-After you select **Let's go**, your virtual commute starts.
+After you select **Begin your commute**, your virtual commute starts.
 
 :::image type="content" source="images/wellbeing-vc-start-screen.png" alt-text="Screenshot that shows the virtual commute start screen with a Begin your commute button.":::
 
@@ -63,7 +63,7 @@ In addition to viewing your existing tasks, you can do a few other things in thi
 
    :::image type="complex" source="images/wellbeing-vc-suggested-task1.png" alt-text="Screenshot that shows adding a suggested task.":::
        Screenshot of the suggested task rectangle, which has been expanded. The expanded content shows an email title, a task that the user committed to do over email, the coworker to whom the user committed to help, and where the user made this commitment, which was Microsoft Outlook. There's an ellipses to the right of the task, which the user can select for more options. In the bottom right of the image, there's a button that says, "Add to your tasks."
-:::image-end:::
+    :::image-end:::
 
 * **Cross a completed task off your list.** Select the circle to the left of the task name, which sends the task to your **Tasks completed today** list. If you want to delete the task from To Do, select the trash can icon to the right of the task name.
 
@@ -71,7 +71,7 @@ In addition to viewing your existing tasks, you can do a few other things in thi
 
     :::image type="complex" source="images/wellbeing-vc-task-reminder.png" alt-text="Screenshot that shows setting a reminder.":::
        Screenshot of the "Tasks" tab that shows three tasks. The options menu, which is titled, "Remind me," is expanded. There are two reminder options, one for "Tomorrow" and one for "Next week"; each shows a day of the week and a time. Below the reminder options, the menu gives options to edit the task or delete the task.
-:::image-end:::
+    :::image-end:::
 
 After you’re done reviewing and managing your tasks, select **Next** to move to the last section.
 
@@ -107,7 +107,7 @@ Want to get reminders to wrap up your day and start your virtual commute?
 
 1. Select **Enroll now**. 
 
-:::image type="complex" source="images/virtual-commute-reminders.png" alt-text="Screenshot that shows virtual commute reminder settings in the Viva Insights Settings page.":::
+:::image type="complex" source="images/wellbeing-vc-settings.png" alt-text="Screenshot that shows virtual commute reminder settings in the Viva Insights Settings page.":::
    Screenshot of the Viva Insights Settings page that shows Virtual commute settings. There are four settings options: "Reminder," which has a toggle switch you can turn on and off; "Days of the week," which provides checkboxes for each of the seven days of the week; "Notification time," which prompts you to select a time from a dropdown menu beneath text that says, "Start my virtual commute around"; and "Time zone," which shows a time zone with a link that says, "Change." There's a "Save changes" button in the bottom left of this section. Beneath the section, there's a link to the Privacy guide.
 :::image-end:::
 
