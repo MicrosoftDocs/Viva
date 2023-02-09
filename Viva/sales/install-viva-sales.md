@@ -39,7 +39,7 @@ Salesforce administrators who need to customize Viva Sales must have the followi
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission  |
+|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission <br><br> **Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.|
 
 ### Additional privileges required for Dynamics 365 customers
 

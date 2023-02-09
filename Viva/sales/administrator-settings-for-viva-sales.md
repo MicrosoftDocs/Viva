@@ -37,13 +37,13 @@ The following administrator settings are available:
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Security role     |  System Administrator or System Customizer<br>**Note**: If you're using a custom security role, [additional privileges are required to use Viva Sales](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).  |
+|Security role     |  System Administrator or System Customizer<br><br>**Note**: If you're using a custom security role, [additional privileges are required to use Viva Sales](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).  |
 
 ### Salesforce
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission  |
+|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission <br><br> **Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.  |
 
 > [!NOTE]
 > - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Viva Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
