@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales
 description: Learn what are the various ways to install Viva Sales
-ms.date: 02/03/2023
+ms.date: 02/09/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -29,13 +29,17 @@ The add-in is enabled in Teams but not installed. You need to go to the Microsof
 
 Viva Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales.
 
+> [!NOTE]
+> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Viva Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
+> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
+
 ### Permissions required for Salesforce administrators
 
 Salesforce administrators who need to customize Viva Sales must have the following permissions.
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission  |
+|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission <br><br> **Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.|
 
 ### Additional privileges required for Dynamics 365 customers
 
