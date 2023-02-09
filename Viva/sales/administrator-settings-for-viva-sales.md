@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Viva Sales
 description: Learn how to configure administrator settings for Viva Sales.
-ms.date: 02/06/2023
+ms.date: 02/09/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -46,7 +46,8 @@ The following administrator settings are available:
 |Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission  |
 
 > [!NOTE]
-> Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
+> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Viva Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
+> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
 
 ## Access administrator settings
 
