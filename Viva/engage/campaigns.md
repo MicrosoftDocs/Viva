@@ -50,7 +50,7 @@ Since campaign hashtags are used as the binding element for all campaign content
 ![Image of the campaign creation modal for campaign managers.](/Viva/media/engage/admin/campaign-creation-modal.png)
 
 >[!NOTE]
-> As a campaign manager, you can set the default publisher of your campaign to be a certain type of post (discussion, question, poll, or praise). The type you choose will automatically populate the default publisher when users post in the campaign landing page. For example: if you set your default publisher to Question, then a question format will automatically appear when a user posts from the campaign landing page.
+> As a campaign manager, you can set the default publisher of your campaign to be a certain type of post (discussion, question, poll, or praise). The type you choose will automatically populate the default publisher when users post in the campaign landing page. For example: if you set your default publisher to Question, then a question format will automatically appear to the user as they post from the campaign landing page.
 
 ## Corporate communicator privileges
 
