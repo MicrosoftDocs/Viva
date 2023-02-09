@@ -21,8 +21,7 @@ To start a virtual commute, find the virtual commute card in the **Take action t
 
 :::image type="content" source="images/wellbeing-vc-start-card.png" alt-text="Screenshot that shows the Wrap up with your virtual commute card in the Take action section, with the Start virtual commute button highlighted." lightbox="images/wellbeing-vc-start-card-expanded.png":::
 
-
-### Virtual commute sections
+## Virtual commute sections
 
 After you select **Begin your commute**, your virtual commute starts.
 
@@ -30,7 +29,7 @@ After you select **Begin your commute**, your virtual commute starts.
 
 The commute guides you through the following sections. All sections are optional; to skip a section, just select **Next**.
 
-#### Meetings
+### Meetings
 
 In **Meetings**, review tomorrow’s events—those that last all day, those that you’ve accepted, and those that still need your RSVP. 
 
@@ -47,7 +46,7 @@ If an event needs your RSVP, **Accept** or **Decline** it from this screen.
 
 When you’re ready to move to the next section, select **Next** at the bottom-right of the page.
 
-#### Tasks
+### Tasks
 
 Use the **Tasks** section to review your open tasks. These tasks originate from Microsoft To Do, and they’re are either due today or have a reminder set for today.
 
@@ -75,12 +74,12 @@ In addition to viewing your existing tasks, you can do a few other things in thi
 
 After you’re done reviewing and managing your tasks, select **Next** to move to the last section.
 
-##### Wind down
+### Wind down
 
 **Wind down** provides some activities to help you close out your workday mindfully and disconnect from work:
 
 * A breather break
-* If you have access to Headspace, a few guided meditation videos
+* A few guided meditation videos
 * The opportunity to reflect, just like you would using the [Reflect](reflect.md) feature on the **Home** page
 
 
