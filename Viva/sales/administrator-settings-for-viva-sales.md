@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Viva Sales
 description: Learn how to configure administrator settings for Viva Sales.
-ms.date: 02/03/2023
+ms.date: 02/09/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -22,6 +22,7 @@ The following administrator settings are available:
 
 ## Prerequisites
 
+- Viva Sales app must be added to Teams. More information: [Add the Viva Sales app to Teams](#add-the-viva-sales-app-to-teams)
 - Administrators must have the latest version of the Viva Sales app in Teams. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 - Administrator must sign in to Viva Sales in Outlook.
     1. [Launch Viva Sales from Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081).
@@ -36,16 +37,17 @@ The following administrator settings are available:
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Security role     |  System Administrator or System Customizer<br>**Note**: If you're using a custom security role, [additional privileges are required to use Viva Sales](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).  |
+|Security role     |  System Administrator or System Customizer<br><br>**Note**: If you're using a custom security role, [additional privileges are required to use Viva Sales](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).  |
 
 ### Salesforce
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission  |
+|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission <br><br> **Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.  |
 
 > [!NOTE]
-> Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
+> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Viva Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
+> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
 
 ## Access administrator settings
 
@@ -70,6 +72,10 @@ When you open administrator settings, following tabs are available:
     If **Viva Sales** isn't visible, select **More added apps** (**…**), and then select **Viva Sales**.
     
     ![Screenshot showing to select the Viva Sales app.](media/viva-sales-app-select.png "Screenshot showing to select the Viva Sales app.")
+
+    If you see the **Viva Sales** window asking you to either add or open the app, select **Add** or **Open** to get the latest features.
+    
+    ![Screenshot showing button to open the Viva Sales app.](media/viva-sales-open-app.png "Screenshot showing button to open the Viva Sales app.")
     
     The **Viva Sales** app is opened with the **Home** tab selected.
     
@@ -81,7 +87,18 @@ When you open administrator settings, following tabs are available:
 
     ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
 
+## Add the Viva Sales app to Teams
 
+1.  Sign in to Microsoft Teams with your administrator credentials.
+
+2.  In the navigation bar on the left, select **Apps**.
+
+3. Search for **Viva Sales** and select it.
+
+4. Select **Add** in the **Viva Sales** window.
+
+    ![Screenshot showing button to add the Viva Sales app.](media/viva-sales-add-app.png "Screenshot showing button to add the Viva Sales app.")
+    
 
 ## FAQ
 
@@ -123,4 +140,6 @@ Mobile device is currently not supported. You must work with administrator setti
 ### Are the Dark and High Contrast themes from Teams supported?
 
 The Dark and High Contrast themes from Teams are currently not supported. 
+
+
 
