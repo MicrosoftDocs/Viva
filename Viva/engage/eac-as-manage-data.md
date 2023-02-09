@@ -42,7 +42,7 @@ They are then routed to the Yammer admin center to perform the following actions
     - Export users and admin list
 
 >[!NOTE]
-> Since Viva Engage is powered by Yammer’s technology, any data generated as part of Viva Engage and Viva Answers feature will be included in the existing Yammer exports.
+> Since Viva Engage is powered by Yammer’s technology, any data generated as part of Viva Engage or Answers in Viva feature will be included in the existing Yammer exports.
 
 ## See also
 

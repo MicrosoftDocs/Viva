@@ -22,7 +22,7 @@ search.appverid:
 
 # Manage and set up campaigns in Viva Engage
 
-Campaigns are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging. Campaigns can be created, managed, and deleted by Global admin, Engage admin, and corporate communicators.
+Campaigns are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging. Campaigns can be created, managed, and deleted by Microsoft 365 Global admin, Engage admin, and corporate communicators.
 
 ## Set up a campaign
 
@@ -34,7 +34,7 @@ Navigate to the campaign dashboard by selecting **Campaigns** from the **Feature
 
 ![Image of the interface for managing campaigns in the Engage admin center.](/Viva/media/engage/admin/campaigns-eac.png)
 
-The campaign dashboard provides a list of active, ended, and in-progress (draft) campaigns created for the organization. From this page, you can create and edit campaigns, or access campaign analytics for better understanding of the campaign's performance and engagement.
+The campaign dashboard provides a list of active, ended, and draft campaigns created for the organization. From this page, you can create and edit campaigns, or access campaign analytics for better understanding of the campaign's performance and engagement.
 
 ![Image of the Engage admin center entrypoint for managing Campaigns.](/Viva/media/engage/admin/campaign-dashboard.png)
 
@@ -60,8 +60,7 @@ Corporate communicators can manage campaigns by:
 - Re-publishing **Ended** campaigns to be **Active** again for reoccurring campaigns
 - Deleting campaigns that are not relevant or were made by mistake
 - Updating certain assets on a campaign page such as the:
-    - Goal tracker  
-    - Executive sponsors
+    - Goal tracker
     - Cover photo
     - Pinned posts
     - Pinned resources and links
@@ -78,7 +77,7 @@ Corporate communicators can manage campaigns by:
 Once a campaign is published, it becomes **Active** in the campaign management dashboard and the campaign landing page will be visible to any Viva Engage licensed user who selects a post or comment with the verified campaign hashtag.
 
 > [!NOTE]
-> The three campaigns that populate to the **Active campaigns** module on the right navigation are ordered based on number of followers. Once a campaign is followed, it will no longer be visible in the **Active campaigns** module and will be replaced with a new campaign.  
+> The three campaigns that populate to the **Active campaigns** module on the right side of your Home page are ordered based on number of followers. Once a campaign is followed, it will no longer be visible in the **Active campaigns** module and will be replaced with a new campaign.  
 
 Once a campaign has ended, the follow button and default publisher on the campaign landing page will be disabled. However, people can still post in communities and storylines using the campaign hashtag and those posts will accumulate in the campaign landing page.
 
@@ -95,7 +94,7 @@ Users can discover campaigns through posts containing the verified campaign hash
 - **Campaigns modules**
     - **Active campaigns** module: On the right side of the Home feed, users will see an Active campaigns module with current campaigns to participate in and follow.
     - **Followed campaigns** module: After following a campaign, users will see a Followed campaigns module on the right side of their storyline.
-    - **Sponsored campaigns** module: On the right side of Leadership Corner, there is a Sponsored campaigns module to help users discover campaigns sponsored by leaders they may be interested in.
+    - **Sponsored campaigns** module: On the right side of leadership corner, there is a Sponsored campaigns module to help users discover campaigns sponsored by leaders they may be interested in.
 
 > [!NOTE]
 > Users can participate in any campaign from the Home feed, in a community, on a storyline, or from the campaign landing page by creating or commenting on a post using the campaign hashtag.

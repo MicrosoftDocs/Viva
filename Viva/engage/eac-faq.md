@@ -32,7 +32,9 @@ No, the configurations visible for each role within the Engage admin center enti
 
 **How are the new Engage admin roles related to existing Yammer and AAD roles?**
 
-The below figure represents the link and hierarchy
+The below figure represents the link and hierarchy:
+
+![Image of the heirarchy of connections between existing Yammer and AAD roles.](/Viva/media/engage/admin/herarchy-admin.png)
 
 **Can I access the Yammer admin center for certain Engage admin configurations, even if my organization doesn’t use Yammer as of today?**
 

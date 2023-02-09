@@ -121,10 +121,10 @@ Storyline content is visible to any internal user who has access to Viva Engage.
 
 ### Does storyline work for guests? 
 Guests are excluded from storyline access. They won't have their own storyline, and won't be able to see any storyline content posted by other users.
- 
+
 ### Can I control who sees storyline content? 
 It isn't possible to prevent any internal user from seeing storyline content if they have access to Viva Engage. Guests won't be able to see any storyline content.
- 
+
 ### Can I control which users get their own storyline?  
 You can designate which users will have a personal storyline feed appear on their user profile page in Viva Engage through AAD groups. Users to whom you don’t grant a storyline will be able to reply and react to storyline posts from users who do have their own storyline.
 
