@@ -1,7 +1,7 @@
 ---
 title: Introduction to Microsoft Viva Sales
 description: Get to know Viva Sales
-ms.date: 01/05/2023
+ms.date: 02/09/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -31,7 +31,8 @@ If you're using Dynamics 365 Sales as your CRM system:
 If you're using Salesforce as your CRM system, see [Permissions required for Salesforce administrators](install-viva-sales.md#permissions-required-for-salesforce-administrators).
 
 > [!NOTE]
-> If you've assigned a security role to a user, ask the user to sign out of Viva Sales and then sign in again for the security role changes to be reflected appropriately. 
+> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Viva Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
+> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
 
 ## Region availability
 
