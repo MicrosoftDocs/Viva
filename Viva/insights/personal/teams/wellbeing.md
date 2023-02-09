@@ -17,14 +17,10 @@ The **Wellbeing** tab in Microsoft Viva Insights helps you understand your work 
 
 ## About the tab
 
-In the **Wellbeing** tab, you'll notice a header with the option to enter [focus mode](focus.md#start-a-focus-session) or complete a [virtual commute](virtual-commute.md). 
-
-:::image type="content" source="./images/wellbeing-header.png" alt-text="Screenshot that shows the Wellbeing tab header with a button to 'Enter focus mode'.":::
+In the **Wellbeing** tab, you'll find four main sections: **Take action to improve your wellbeing**, **Track your progress**, **Act with intention**, and **Reflect on your emotions**. 
 
 >[!Note]
 > If you're a leader or manager, you'll see an additional section at the top of your Wellbeing tab. Make sure to check out the [For leaders and managers](#for-leaders-and-managers) section later in this article.
-
-When you scroll down, you'll find three main sections: **Take action to improve your wellbeing**, **Track your progress**, and **Act with intention**. 
 
 ### Take action to improve your wellbeing
 
@@ -38,9 +34,8 @@ The **Take action to improve your wellbeing** section helps you change habits, s
 * Take a break or two
 * Make time for learning
 * Make time for lunch
-* Plan your time away
 
-:::image type="content" source="./images/wellbeing-take-action.png" alt-text="Screenshot that shows four action cards within the Take action to improve your wellbeing section.":::
+:::image type="content" source="./images/wellbeing-take-action1.png" alt-text="Screenshot that shows four action cards within the Take action to improve your wellbeing section."lightbox="./images/wellbeing-take-action1-expanded.png":::
 
 >[!Tip]
 >To find all available actions, use the arrows in the top-right of the section.
@@ -73,6 +68,10 @@ Under:
 * **Focus**, start a [focus session](focus.md#start-a-focus-session), [book focus time](focus.md#book-single-non-recurring-focus-sessions), and listen to focus music.
 * **Meditation**, start [guided meditations from Headspace](headspace.md) or do a breathing exercise.
 * **Articles**, access articles about wellbeing from the [Inspiration library](inspiration.md).
+
+### Reflect on your emotions
+
+In Reflect on your emotions, check in with how you're feeling and observe your reflection trends. Learn more about this feature in [Reflect in Viva Insights](reflect.md)
 
 ## For leaders and managers
 

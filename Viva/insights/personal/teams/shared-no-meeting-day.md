@@ -18,7 +18,7 @@ audience: Admin, user
 
 # Shared no-meeting day plan
 
-*To start a no-meeting day plan, you need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../Overview/plans-environments.md). A Viva Insights license isn't required to participate in a no-meeting day plan.*
+*To start a no-meeting day plan, you need to have a Viva Insights subscription. For more information, refer to [Plans and environments](../Overview/plans-environments.md). A Viva Insights license isn't required to participate in a no-meeting day plan.*
 
 No-meeting days are a shared recurring time that everyone in the plan can use to focus without interruptions. Days without scheduled meetings:
 
@@ -41,7 +41,7 @@ Starting and inviting others to a plan is quick and easy. Follow these steps to 
 
 1. On the **Wellbeing** tab, find the **No-meeting day** card under **Take action to improve your wellbeing**. Select **Set up no-meeting day**.
 
-    :::image type="content" source="images/wellbeing-nmd-start.png" alt-text="Screenshot of the No-meeting day start card. The Get started button is highlighted.":::
+    :::image type="content" source="images/wellbeing-nmd-start1.png" alt-text="Screenshot of the take action section of Wellbeing, with the Set up no-meeting day button highlighted on the Set up no-meeting day card." lightbox="images/wellbeing-nmd-start-expanded.png":::
 
 2. When the setup window appears, fill in:
     1. **Recipients**.
@@ -62,9 +62,10 @@ Starting and inviting others to a plan is quick and easy. Follow these steps to 
     1. **Note (Optional)**.
 
         If you want to add a message along with your invitation, type one here. Notes aren’t required.
-1. When you’re ready to send your invitation and get your plan started, select the **Schedule** button. Plan invitees get a calendar event invitation in their inbox.
 
-    :::image type="content" source="images/nmd-schedule.png" alt-text="Screenshot of the No-meeting day schedule window. The Schedule button is highlighted.":::
+    :::image type="content" source="images/wellbeing-nmd-schedule1.png" alt-text="Screenshot of the No-meeting day schedule window. The Schedule button is highlighted.":::
+
+1. When you’re ready to send your invitation and get your plan started, select the **Schedule** button. Plan invitees get a calendar event invitation in their inbox.
 
 1. The setup window then shows you a confirmation message with details about your plan. If you want more information, expand the gray arrow under **What happens next?**. Otherwise, select **Done**.
  

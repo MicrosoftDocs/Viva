@@ -21,6 +21,7 @@ Like with focus, Microsoft Viva Insights can help you protect time on your calen
 * Take scheduled breaks.
 * Learn.
 * Catch up on messages.
+* Take a regular lunch.
 
 >[!Note]
 >You can also find these features in the Briefing email you get on Fridays. [Learn more about time management features in Briefing](../briefing/be-wellbeing-plans.md).
@@ -61,6 +62,7 @@ If you need to change a feature's settings, scroll down to find that feature and
 * For breaks, select how long you want your breaks to last: **5 minutes**, **10 minutes**, **15 minutes**, or **30 minutes**.
 * For learning, pick how much time you want to learn each week (**30 minutes**, **1 hour**, or **2 hours**) and whether you want to learn in the **Morning** or **Afternoon**.
 * For messages, pick how much catch-up time you want each day (**15 minutes**, **30 minutes**, or **1 hour**) and whether you want to catch up in the **Morning** or **Afternoon**.
+* For lunch, set your hours and choose whether you want to **Add a recurring calendar event to protect this time**.
 
 ### Stop using a feature
 
