@@ -50,7 +50,7 @@ Since campaign hashtags are used as the binding element for all campaign content
 ![Image of the campaign creation modal for campaign managers.](/Viva/media/engage/admin/campaign-creation-modal.png)
 
 >[!NOTE]
-> When a user posts on the campaign landing page, they can post in the form of a discussion, question, praise, or poll in the default publisher.
+> As a campaign manager, you can set the default publisher of your campaign to be a certain type of post (discussion, question, poll, or praise). The type you choose will automatically populate the default publisher when users post in the campaign landing page. For example: if you set your default publisher to Question, then a question format will automatically appear when a user posts from the campaign landing page.
 
 ## Corporate communicator privileges
 
@@ -77,7 +77,7 @@ Corporate communicators can manage campaigns by:
 Once a campaign is published, it becomes **Active** in the campaign management dashboard and the campaign landing page will be visible to any Viva Engage licensed user who selects a post or comment with the verified campaign hashtag.
 
 > [!NOTE]
-> The three campaigns that populate to the **Active campaigns** module on the right side of your Home page are ordered based on number of followers. Once a campaign is followed, it will no longer be visible in the **Active campaigns** module and will be replaced with a new campaign.  
+> The three campaigns that populate to the **Top campaigns** module on the right side of your Home page are ordered based on number of followers. Once a campaign is followed, it will no longer be visible in the **Top campaigns** module and will be replaced with a new campaign.  
 
 Once a campaign has ended, the follow button and default publisher on the campaign landing page will be disabled. However, people can still post in communities and storylines using the campaign hashtag and those posts will accumulate in the campaign landing page.
 
@@ -92,9 +92,8 @@ Users can discover campaigns through posts containing the verified campaign hash
 > To build campaign awareness and reach, campaign managers and leaders across the organization are encouraged to share as many posts as possible with the campaign hashtag to their storyline and in communities. The campaign link can also be shared through posts, emails, and Microsoft Teams chats for users to easily access the campaign landing page.
 
 - **Campaigns modules**
-    - **Active campaigns** module: On the right side of the Home feed, users will see an Active campaigns module with current campaigns to participate in and follow.
+    - **Top campaigns** module: On the right side of the Home feed, users will see an Top campaigns module with current campaigns to participate in and follow.
     - **Followed campaigns** module: After following a campaign, users will see a Followed campaigns module on the right side of their storyline.
-    - **Sponsored campaigns** module: On the right side of leadership corner, there is a Sponsored campaigns module to help users discover campaigns sponsored by leaders they may be interested in.
 
 > [!NOTE]
 > Users can participate in any campaign from the Home feed, in a community, on a storyline, or from the campaign landing page by creating or commenting on a post using the campaign hashtag.
