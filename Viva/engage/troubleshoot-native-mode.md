@@ -56,7 +56,7 @@ The downloadable Alignment Report will provide you with information on the quant
 
 - *Native Mode* - A state where all the users, groups, and content from your network are compatible with (and mapped to) their counterparts in AAD/Microsoft 365 and Microsoft 365.
 
-- *eDiscovery* - A Yammer feature Microsoft now provides to customers through the [Microsoft Purview compliance portal](https://go.microsoft.com/fwlink/?linkid=2132455).  
+- *eDiscovery* - A Yammer feature Microsoft now provides to customers through the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/homepage).  
 
 Viva Engage can offer eDiscovery to customers once all their Users, Groups, and Content can be discoverable through the Security and Compliance Center. To facilitate this process, Viva Engage must ensure that all Groups are Microsoft 365 connected because eDiscoverable content must be saved in the group mailbox. Similarly, users must have an AAD account.
 
@@ -210,8 +210,8 @@ If your network enforces Microsoft 365 Group creation rights, users without thos
 
 There's no preparation required to make your All Company community Microsoft 365-connected. The Tool will connect the community and make the Verified Admins for the network community owners of the All Company community in AAD. As community owners, they'll be able to post announcements in the All Company community as they were able to do before All Company was Microsoft 365-connected.
 
-- *How is All Company different than other Microsoft 365-connected groups?*
-  The All Company community is different than other Viva Engage communities in that all users in the network are treated as members of the group without them needing to actually be a member of the group. Once All Company is connected, it is possible to add members to the group from AAD. However, we don't recommend that users be added as members because it won't change the behavior of the community within Viva Engage for those users.
+- *How is All Company different than other Microsoft 365-connected Groups?*
+  The All Company community is different than other Viva Engage communities in that all users in the network are treated as members of the Group without them needing to actually be a member of the Group. Once All Company is connected, it is possible to add members to the Group from AAD. However, we don't recommend that users be added as members because it won't change the behavior of the community within Viva Engage for those users.
 
 - *Can I delete All Company once it is connected?*
   We don't recommend that you delete All Company, as it is an important way for your users to communicate broadly across your organization. Once All Company is Microsoft 365-connected, it is possible to delete the Microsoft 365 Group from the Microsoft 365 admin center or the Azure Active Directory admin center. If that's done, Viva Engage will honor the deletion and not show All Company in your network.
@@ -270,4 +270,4 @@ Whatever path you choose, we recommend you communicate clearly to the users in y
 
 [Microsoft 365 Security & Compliance Portal](https://go.microsoft.com/fwlink/?linkid=2111321)
 
-[Manage Yammer data compliance](../../../OfficeDocs-O365ITPro-pr/yammer/manage-security-and-compliance/manage-data-compliance.md)
+[Manage Yammer data compliance](/OfficeDocs-O365ITPro-pr/yammer/manage-security-and-compliance/manage-data-compliance)

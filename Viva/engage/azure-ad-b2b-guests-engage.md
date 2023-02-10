@@ -43,7 +43,7 @@ External collaboration is a key ingredient for the success of any organization. 
 > [!NOTE]
 > If your Viva Engage tenant was provisioned after December 15th, 2020, then AzureAD-B2B guest functionality is already enabled by default for your organization.
 
-To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) .
+To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 
 ## How to invite an external user as guest to a Viva Engage community
 
@@ -135,10 +135,6 @@ If you want to deny external users from being added to Viva Engage communities w
 
 ## Related articles
 
-[Yammer Blog](https://techcommunity.microsoft.com/t5/yammer-blog/bg-p/YammerBlog)
+[VIva Engage admin Help](./admin-key-concepts.md)
 
-[Yammer admin Help](./admin-key-concepts.md)
-
-[Native Mode for Microsoft 365 for Yammer](./overview-native-mode.md)
-
-[Yammer Help and Support Center for end-users](https://support.office.com/yammer)
+[Native Mode for Viva Engage](./overview-native-mode.md)

@@ -26,13 +26,13 @@ Any network that was created after January 16, 2020 is already in Native Mode an
  > [!NOTE]
 > Native Mode is strongly recommended for reasons of security, compliance, and M365 integration.
 
-The following steps show you what actions to take before and during a transition to Native Mode. For more information on what Native Mode means for your Viva Engage Network, see [Overview of Native Mode](../configure-your-yammer-network/native-mode.md).
+The following steps show you what actions to take before and during a transition to Native Mode. For more information on what Native Mode means for your Viva Engage Network, see [Overview of Native Mode](./overview-native-mode.md).
 
 ## 1. Initial Steps to access the Native Mode Alignment Tool
 
-Once you are ready to align your network to Native Mode, you’ll need to make sure that your Microsoft tenant has just one Viva Engage Network associated with it.  If you have more than one Yammer Network on your Microsoft tenant, you’ll first need to complete the steps listed in [Consolidate multiple Viva Engage networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md).
+Once you are ready to align your network to Native Mode, you’ll need to make sure that your Microsoft tenant has just one Viva Engage Network associated with it.  If you have more than one Yammer Network on your Microsoft tenant, you’ll first need to complete the steps listed in [Consolidate multiple Viva Engage networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks)
 
-After you have ensured that there is just one Viva Engage Network in your Microsoft tenant, you will need to ensure that that network enforces Microsoft 365 Identity. Additional information on enforcing Identity can be found in [Enforce Microsoft 365 Identity](./enforce-office-365-identity.md).
+After you have ensured that there is just one Viva Engage Network in your Microsoft tenant, you will need to ensure that that network enforces Microsoft 365 Identity. Additional information on enforcing Identity can be found in [Enforce Microsoft 365 Identity](/yammer/configure-your-yammer-network/enforce-office-365-identity)
 
 ## 2. Accessing the Native Mode Alignment Tool
 
@@ -78,11 +78,11 @@ When run, the Alignment Tool will attempt to map all unmapped users to an existi
   Exporting a large volume of content from your network is a multi-step process:
 
   1.	**Export message data** 
-          - We suggest exporting the message data using the [Network Data Export feature](../manage-security-and-compliance/export-yammer-enterprise-data.md#ExportNetworkData) within the Viva Engage Admin panel.
+          - We suggest exporting the message data using the [Network Data Export feature](/yammer/manage-security-and-compliance/export-yammer-enterprise-data#ExportNetworkData) within the Viva Engage Admin panel.
           - We suggest limiting your export to a maximum date range of two months at a time and excluding attachments. If you choose to include attachments, you may need to limit your date range significantly further (often just one week at a time) to prevent the system from encountering timeout errors.
 
   2. **Export files**
-        - We suggest exporting files separately from messages using the [Viva Engage file export API](../manage-security-and-compliance/export-yammer-enterprise-data.md#export-yammer-files-via-api).
+        - We suggest exporting files separately from messages using the [Viva Engage file export API](/yammer/manage-security-and-compliance/export-yammer-enterprise-data#export-yammer-files-via-api).
         - Using this API you can export all the files from a specified date range. This API supports concurrent requests (up to 6) and each request should be limited to a two-month date range. This will allow you to simultaneously export a full year of files in one API call.
 
 ## 5. Running the Alignment Tool for the first time
@@ -112,7 +112,7 @@ Once the tool has finished running, the banner at the top of the page will say o
 > The error report can be found at the very bottom of the page. This is a separate report from the Alignment Report that you reviewed earlier. 
 
 The error report will be in .csv format by default and will remain available until the next time the Alignment Tool is run. When the tool is run again, a new error report will be generated.
-The error report will contain a list of files that failed to migrate from Azure to SharePoint, and error codes. For a list of common error codes and the necessary steps to remediate these codes, see the [Error Codes section of the Troubleshoot native mode article](../troubleshoot-problems/troubleshoot-native-mode.md#error-codes). You also have the option of working with our Premier Support Team, who can help with resolving these error reports. If you have a high volume of errors, the support team can provide scripts that will allow you to bulk update the files in your network to allow for faster remediation.
+The error report will contain a list of files that failed to migrate from Azure to SharePoint, and error codes. For a list of common error codes and the necessary steps to remediate these codes, see the [Error Codes section of the Troubleshoot native mode article](/yammer/troubleshoot-problems/troubleshoot-native-mode#error-codes). You also have the option of working with our Premier Support Team, who can help with resolving these error reports. If you have a high volume of errors, the support team can provide scripts that will allow you to bulk update the files in your network to allow for faster remediation.
 
 It is possible that your error report may contain errors that are not found in the documentation above or which do not appear to be actionable. Often these errors are generated as duplicates of other errors, which are actionable. We suggest working through all the errors that you can, and then rerunning the Alignment Tool. Often, we find that most of these errors will resolve themselves when the tool is rerun after resolving the actionable errors.
 
