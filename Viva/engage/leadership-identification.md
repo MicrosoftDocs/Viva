@@ -1,6 +1,6 @@
 ---
 title: "Identify leaders and manage audiences in Viva Engage"
-description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
+description: "Leadership identification and audience management enables organizations to designate leaders, configure their audience and even to connect leaders with the entire organization."
 ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
@@ -112,7 +112,7 @@ Leadership corner is ON by default but can be disabled using the toggle in the V
 
 1. Select **Leadership corner** from the **Feature management tab** in the Engage admin center.
 
-![View of the leadership corner toggle for admin.](/Viva/media/engage/admin/lc-admin-eac.png)
+![View of the leadership corner button for feature management in the Engage admin center.](/Viva/media/engage/admin/lc-admin-eac.png)
 
 2. Use the toggle to enable or disable leadership corner for your organization.
 

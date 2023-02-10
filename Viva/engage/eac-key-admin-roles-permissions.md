@@ -58,7 +58,7 @@ The table below shows the range of actions available to Engage admin and Global 
 
 ## Answers admin  
 
-The Answers admin role can setup and configure Answers within the Viva Engage application. This role can only be assigned or modified by an Global admin and will be designated by [adding Knowledge Managers in AAD](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge Managers will become Answers admins and they will have elevated permissions over end users. Tying the Answers admin to the Knowledge Manager AAD role was intentional, since Answers is best experienced when integrated with Topics.  
+The Answers admin role can set up and configure Answers within the Viva Engage application. This role can only be assigned or modified by a Global admin and will be designated by [adding Knowledge Managers in AAD](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge Managers will become Answers admins and they will have elevated permissions over end users. Tying the Answers admin to the Knowledge Manager AAD role was intentional, since Answers is best experienced when integrated with Topics.  
 
 **Permissions**
 
@@ -78,7 +78,7 @@ The table below shows the range of actions available to an unlicensed user, Viva
 
 ## Corporate communicator
 
-Corporate communicators have privileges such as creating or managing campaigns, defining leaders in an organization, and more to come as we evolve Viva Engage. This role was created so that it addresses the need to have a role catered towards content management in the organization, beyond being attached to a community (Community admin) but not as powerful as the overall Engage admin. Corporate communicators can be assigned, modified, or deleted from users by the following admin roles: Global admin, Engage admin, and fellow corporate communicators.
+Corporate communicators have privileges such as creating and managing campaigns, defining leaders, and more in Viva Engage. This role was created to address the need for a role catered towards content management in the organization, beyond being attached to a community (Community admin) but not as powerful as the overall Engage admin. Corporate communicators can be assigned, modified, or deleted from users by the following admin roles: Global admin, Engage admin, and fellow corporate communicators.
 
 **Permissions**
 

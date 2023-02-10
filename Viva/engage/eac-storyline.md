@@ -1,6 +1,6 @@
 ---
 title: "Manage and set up storyline in Viva Engage"
-description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
+description: "Storyline empowers everyone within your organization to connect and contribute, while enabling your leaders to reach and engage employees."
 ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
