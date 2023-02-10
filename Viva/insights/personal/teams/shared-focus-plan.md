@@ -68,7 +68,7 @@ To view details about your shared focus plan, go to the **Track your progress** 
 
 ### Leave a plan
 
-You can also leave a plan through the **Shared focus plan** card. Select Leave plan, and then confirm you want to leave.
+You can also leave a plan through the **Shared focus plan** card. Select **Leave plan**, and then confirm you want to leave.
 
 
 >[!Note]

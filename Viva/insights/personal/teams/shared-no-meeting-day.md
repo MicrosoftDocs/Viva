@@ -16,9 +16,9 @@ manager: anirudhbajaj
 audience: Admin, user
 ---
 
-# Shared no-meeting day plan
+# Shared no-meeting day
 
-*To start a no-meeting day plan, you need to have a Viva Insights subscription. For more information, refer to [Plans and environments](../Overview/plans-environments.md). A Viva Insights license isn't required to participate in a no-meeting day plan.*
+*To start a shared no-meeting day, you need to have a Viva Insights subscription. For more information, refer to [Plans and environments](../overview/plans-environments.md). A Viva Insights subscription isn't required to participate in a shared no-meeting day.*
 
 No-meeting days are a shared recurring time that everyone in the plan can use to focus without interruptions. Days without scheduled meetings:
 
