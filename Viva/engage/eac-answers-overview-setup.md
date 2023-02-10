@@ -29,7 +29,7 @@ Answers works to connect employees based on their subject matter expertise captu
 ## Licensing
 If Answers is enabled in the Viva Engage admin center, users assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite or Viva Topics SKUs.*
 
-Users who haven't been assigned the Viva Engage Knowledge service plan will receive notifications to questions or answers they've been mentioned in and can visit those threads but won't be able to navigate to the rest of the Answers experience.
+Users who aren't assigned the Viva Engage Knowledge service plan will receive notifications to questions or answers they've been mentioned in and can visit those threads but won't be able to navigate to the rest of the Answers experience.
 
 > [!NOTE]
 > As a prerequisite, the tenant must have Yammer enabled and the user must have access to Yammer services.
@@ -46,7 +46,7 @@ Answers will be enabled by default for customers that meet the following technic
 
     Yammer topics have begun to migrate to Viva Topics. Over the next months, all existing Yammer networks will have migrated. Answers uses Viva Topics to organize question posts and identify the people associated with certain Topics to help route the questions posted. Since Viva Topics work across services in Microsoft 365, we require that your Yammer network is using Viva Topics to ensure the best experience with Answers.
 
-    All Yammers tenants in Native mode will be migrated to use Viva Topics and there are no additional licensing requirements for this migration.
+    All Yammers tenants in Native mode will be migrated to use Viva Topics and there are no other licensing requirements for this migration.
 
     For customers awaiting topics migration:  
     - Microsoft will inform existing Yammer customers with purchased Viva Topics or Viva Suite SKUs when Yammer Topics have been migrated to Viva Topics. Customers will be notified through email when the migration is complete.
@@ -79,7 +79,7 @@ For GDPR user data export, verified Yammer admins and Engage admins can follow t
 
 Answers will be enabled by default and visible to all users that have the Viva Engage Knowledge service plan assigned. Answers can be disabled and hidden from the Viva Engage Teams app. When disabled, Answers content can still be accessed through existing links, but users will not be able to contribute to the thread or navigate the Answers experience.  
 
-Only an Microsoft 365 Global admin can change Answers state of enablement:
+Only a Microsoft 365 Global admin can change Answers state of enablement:
 
 1. As a Global admin, navigate to the Viva Engage Teams app.  
 2. Select the ellipses button from the top right navigation bar to expose admin options.  
