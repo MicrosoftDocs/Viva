@@ -1,21 +1,22 @@
 ---
 title: "Viva Engage Native Mode: step-by-step guide"
+description: "Learn more about the process of migrating to Native Mode with this in-depth step-by-step guide."
+ms.reviewer: ethli
+ms.author: v-whitfieldd
+author: dwhitfield233
+manager: dmillerdyson
+audience: Admin
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
-author: v-jebizie
-manager: pamgreen
-ms.date: 12/28/2021
-audience: Admin
 ms.topic: article
-ms.service: yammer
-ms.subservice:
-ms.localizationpriority: medium
-ms.custom: Adm_Yammer
-search.appverid: 
-- MOE150
+ms.service: viva
+ms.subservice: viva-engage
+localization_priority: Priority
+ms.collection:  
+- M365initiative-viva
+- highpri
+search.appverid:
 - MET150
-description: "Learn more about the process of migrating to Native Mode with this in-depth step-by-step guide."
 ---
 # Viva Engage Native Mode: step-by-step guide
 

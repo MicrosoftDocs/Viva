@@ -1,24 +1,22 @@
 ---
 title: "Viva Engage admin key concepts"
+description: "Key concepts for planning how you'll administer  your new Viva Engage network. "
+ms.reviewer: ethli
+ms.author: v-whitfieldd
+author: dwhitfield233
+manager: dmillerdyson
+audience: Admin
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
-author: ToniSFrench
-manager: pamgreen
-ms.date: 02/28/2020
-audience: Admin
 ms.topic: article
-ms.service: yammer
-ms.localizationpriority: medium
-ms.custom: 
-- Adm_Yammer
-- intro-overview
+ms.service: viva
+ms.subservice: viva-engage
+localization_priority: Priority
+ms.collection:  
+- M365initiative-viva
+- highpri
 search.appverid:
 - MET150
-- MOE150
-- YAE150
-ms.assetid: a9c206d4-fb18-4250-bec6-e783b926e4f6
-description: "Key concepts for planning how you'll administer  your new Viva Engage network. "
 ---
 
 # Viva Engage admin key concepts

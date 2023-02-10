@@ -1,23 +1,22 @@
 ---
 title: "Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API"
+description: "You can view Viva Engage events through Microsoft 365 Management API and in the Microsoft 365 Security &amp; Compliance center auditing logs."
+ms.reviewer: ethli
+ms.author: v-whitfieldd
+author: dwhitfield233
+manager: dmillerdyson
+audience: Admin
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
-author: ToniSFrench
-manager: pamgreen
-ms.date: 9/23/2019
-audience: Admin
-ms.topic: overview
-ms.service: yammer
-ms.localizationpriority: medium
-ms.custom: Adm_Yammer
+ms.topic: article
+ms.service: viva
+ms.subservice: viva-engage
+localization_priority: Priority
+ms.collection:  
+- M365initiative-viva
+- highpri
 search.appverid:
 - MET150
-- MOE150
-- MED150
-- MBS150
-ms.assetid: ce0a68ef-9731-4891-8c6b-6882988e727d
-description: "You can view Viva Engage events through Microsoft 365 Management API and in the Microsoft 365 Security &amp; Compliance center auditing logs."
 ---
 
 # Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API

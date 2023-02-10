@@ -1,21 +1,22 @@
 ---
 title: "Set up a Viva Engage usage policy"
+description: "Create a usage policy that users must accept before using Viva Engage."
+ms.reviewer: ethli
+ms.author: v-whitfieldd
+author: dwhitfield233
+manager: dmillerdyson
+audience: Admin
 f1.keywords:
 - NOCSH
-ms.author: v-njeremy
-author: TeresaFG-writer
-manager: pamgreen
-ms.date: 9/23/2019
-audience: Admin
 ms.topic: article
-ms.service: yammer
-ms.localizationpriority: medium
-ms.custom: Adm_Yammer
-search.appverid: 
+ms.service: viva
+ms.subservice: viva-engage
+localization_priority: Priority
+ms.collection:  
+- M365initiative-viva
+- highpri
+search.appverid:
 - MET150
-- MOE150
-ms.assetid: 13ededd2-4e56-452d-acbd-aab0b2e5d9fc
-description: "Create a usage policy that users must accept before using Viva Engage."
 ---
 
 # Set up a Viva Engage usage policy

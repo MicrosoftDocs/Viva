@@ -1,20 +1,22 @@
 ---
 title: "Overview of Native Mode for Microsoft 365"
+description: "Learn about Native Mode for Microsoft 365."
+ms.reviewer: ethli
+ms.author: v-whitfieldd
+author: dwhitfield233
+manager: dmillerdyson
+audience: Admin
 f1.keywords:
 - NOCSH
-ms.author: v-jebizie
-author: v-jebizie
-manager: pamgreen
-ms.date: 01/23/2020
-audience: Admin
 ms.topic: article
-ms.service: yammer
-ms.localizationpriority: medium
-ms.custom: Adm_Yammer
-search.appverid: 
-- MOE150
+ms.service: viva
+ms.subservice: viva-engage
+localization_priority: Priority
+ms.collection:  
+- M365initiative-viva
+- highpri
+search.appverid:
 - MET150
-description: "Learn about Native Mode for Microsoft 365."
 ---
 
 # Overview of Native Mode

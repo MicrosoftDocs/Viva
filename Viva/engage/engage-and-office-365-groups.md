@@ -1,24 +1,22 @@
 ---
 title: "Viva Engage and Microsoft 365 Groups"
+description: "If your network is eligible, communities in Viva Engage can have access to Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner, and a workspace in Power BI. This is called a community connected to Microsoft 365 Groups."
+ms.reviewer: ethli
+ms.author: v-whitfieldd
+author: dwhitfield233
+manager: dmillerdyson
+audience: Admin
 f1.keywords:
 - NOCSH
-ms.author: v-jebizie
-author: DJayneMSFT
-manager: pamgreen
-ms.date: 09/23/2022
-audience: Admin
-ms.topic: overview
-ms.service: yammer
-ms.localizationpriority: medium
-ms.custom: Adm_Yammer
+ms.topic: article
+ms.service: viva
+ms.subservice: viva-engage
+localization_priority: Priority
+ms.collection:  
+- M365initiative-viva
+- highpri
 search.appverid:
 - MET150
-- MOP150
-- MOE150
-- MEW150
-- MED150
-ms.assetid: d8c239dc-a48b-47ab-b85e-6b4b8191a869
-description: "If your network is eligible, communities in Viva Engage can have access to Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner, and a workspace in Power BI. This is called a community connected to Microsoft 365 Groups."
 ---
 
 # Viva Engage and Microsoft 365 Groups

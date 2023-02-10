@@ -1,20 +1,22 @@
 ---
 title: "Work with AzureAD-B2B guests in Viva Engage communities"
+description: "Learn more about working with Azure Active Directory-B2B guests in Viva Engage communities."
+ms.reviewer: ethli
+ms.author: v-whitfieldd
+author: dwhitfield233
+manager: dmillerdyson
+audience: Admin
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
-author: ToniSFrench
-manager: pamgreen
-ms.date: 05/01/2020
-audience: Admin
 ms.topic: article
-ms.service: yammer
-ms.localizationpriority: medium
-ms.custom: Adm_Yammer
-search.appverid: 
-- MOE150
+ms.service: viva
+ms.subservice: viva-engage
+localization_priority: Priority
+ms.collection:  
+- M365initiative-viva
+- highpri
+search.appverid:
 - MET150
-description: "Learn more about working with Azure Active Directory-B2B guests in Viva Engage communities."
 ---
 
 # Work with Azure Active Directory-B2B guests in Viva Engage communities

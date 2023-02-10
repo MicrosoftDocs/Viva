@@ -1,22 +1,22 @@
 ---
 title: "Report a Viva Engage conversation"
+description: "Configure conversation reporting in Viva Engage to enable people to report conversation starter posts and comments that do not follow guidelines or policies."
+ms.reviewer: ethli
+ms.author: v-whitfieldd
+author: dwhitfield233
+manager: dmillerdyson
+audience: Admin
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
-author: ToniSFrench
-manager: pamgreen
-ms.date: 4/15/2020
-audience: Admin
 ms.topic: article
-ms.localizationpriority: medium
-ms.custom: Adm_Yammer
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
+localization_priority: Priority
+ms.collection:  
+- M365initiative-viva
+- highpri
 search.appverid:
 - MET150
-- MOE150
-- YAE150
-ms.assetid: f886e916-fe64-41de-be52-38d458250fa5
-description: "Configure conversation reporting in Viva Engage to enable people to report conversation starter posts and comments that do not follow guidelines or policies."
 ---
 
 # Report a Viva Engage conversation

@@ -23,7 +23,7 @@ search.appverid:
 
 When you assign user licenses as part of a bundled Microsoft 365 subscription plan such as Microsoft 365 Enterprise E3, the Viva Engage Core license is automatically assigned to the user. You can remove or assign Viva Engage Core licenses for specific users in the Microsoft 365 admin center or by using Windows PowerShell cmdlets for Microsoft 365.
   
-At launch and following the launch of the service plan, the Viva Engage Core service plan will also enable access to Yammer. This is to ensure uninterrupted Yammer experiences for your users. You can block users who don't have Viva Engage Core licenses from accessing Yammer and Viva Engage by turning on the security setting **Block Office 365 users without Yammer licenses** (see [Start blocking users who don't have Yammer licenses](manage-yammer-licenses-in-office-365.md#StartBlocking)).
+At launch and following the launch of the service plan, the Viva Engage Core service plan will also enable access to Yammer. This is to ensure uninterrupted Yammer experiences for your users. You can block users who don't have Viva Engage Core licenses from accessing Yammer and Viva Engage by turning on the security setting **Block Office 365 users without Yammer licenses** (see [Start blocking users who don't have Yammer licenses](manage-engage-licenses-in-microsoft-365.md#StartBlocking)).
   
 You need to be an Microsoft 365 global administrator or user management administrator to do the following operations.
   
