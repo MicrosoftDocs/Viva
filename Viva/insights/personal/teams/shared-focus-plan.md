@@ -31,7 +31,9 @@ A shared focus plan in Microsoft Viva Insights helps your team book daily, unint
    :::image type="content" source="./images/wellbeing-sfp-start.png" alt-text="Image alt text." lightbox="./images/wellbeing-sfp-start-expanded.png":::
 
 1. In **Customize your shared focus plan**, select the number of hours you want your team to focus each day, whether to schedule focus time in the morning or afternoon, and whether to silence Teams notifications during focus time. Then, select **Next**.
+
     :::image type="content" source="./images/wellbeing-sfp-1-settings.png" alt-text="Screenshot that shows the Customize your shared focus plan settings window."::: 
+
 1. In **Who would you like to invite?**, add people you want to invite to join the plan. Use the search bar to find people by name. When you’re done adding invitees, select **Next**.
    
    :::image type="content" source="./images/wellbeing-sfp-2-participants.png" alt-text="Screenshot that shows the Who would you like to invite? window with a few recipients added."::: 
