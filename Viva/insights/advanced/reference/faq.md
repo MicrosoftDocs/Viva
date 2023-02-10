@@ -27,6 +27,7 @@ The most commonly asked questions and answers about the analysis tools for Micro
     * [Data validation, verification, and use](#data-validation-verification-and-use)
     * [Queries](#queries)
 
+
 ## Functionality and features
 
 ### Roles
@@ -50,13 +51,20 @@ A2.
 
 A1. Initially 13 months' worth of data is collected and processed for Viva Insights. Through weekly refreshes, the system continues to increase this history until 27 months’ worth of data is collected. As a Microsoft customer, you can file a request, such as for security reasons, to provide Viva Insights with less than this default amount; in that case, the minimum amount that can be collected is one month.
 
-#### Q2. Does Viva Insights support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
+#### Q2. Does advanced insights support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
 
-A2. Advanced insights aren't available in data cloud environments that Microsoft maintains for government agencies.
+A2. Advanced insights are not currently available in data cloud environments that Microsoft maintains for government agencies.
+
+#### Q3. How does Viva Insights adhere to regional data storage and processing requirements (such as those required by GDPR)?
+
+A3. Viva Insights stores and processes customer data in a compliant location as required by regional and state regulations. For more information on Microsoft’s commitment to data residency, visit  [Microsoft EU Data Boundary Overview](https://www.microsoft.com/en-us/trust-center/privacy/european-data-boundary-eudb). For more information on where data is stored and processed for your location, refer to the following links:
+
+* [Personal insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
+* [Advanced, manager, and leader insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)
 
 ### Language support
 
-Q1. Can I use the advanced insights app in a language other than English?
+#### Q1. Can I use the advanced insights app in a language other than English?
 
 A1. Yes, you can use the webapp in languages other than English. There are a few features, though, that are available in English only: metric names in custom Person and Power BI queries, system-reserved names for employee attributes, and Power BI templates. We plan to translate these features in the future.
 
@@ -90,6 +98,9 @@ Optionally, after you sign in, you can:
 
 For details about setup, refer to [Set up Advanced insights](../setup-maint/setup.md).
 
+>[!Important]
+> For the advanced insights app to run, at least 10 people in your organization need Viva Insights licenses. The app requires this number because credible analyses need at least 10 employees. For more information, refer to [Assign licenses overview](../setup-maint/assign-licenses.md).
+
 #### Q2. Is the number of analyst role assignments limited?
 
 A2. No limit is imposed for **Insights Analyst** roles.
@@ -97,6 +108,21 @@ A2. No limit is imposed for **Insights Analyst** roles.
 #### Q3. Are people who are not assigned a license ignored?
 
 A3. No, they aren't ignored but they aren't measured and their data isn't processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or chats.  
+
+#### Q4. Our admin assigned the required licenses. Why can't Insights Analysts access the advanced insights app?
+
+A4. It might take a few days for Viva Insights to process Microsoft 365 collaboration data and for assigned users to get the right permissions. Most customers are able to access the app four to five days after the Insights admin assigns licenses.
+
+If you're getting an error, you might want to ask the following questions:
+
+* **Do I have the right role assigned?** Before you can access the advanced insights app, you'll need a Viva Insights-specific role assigned to you in the Microsoft 365 admin center. Analysts need the **Insights Analyst** role. You might need to ask your organization Microsoft 365 admin to check if the role was assigned to you in the admin center. Learn more about role assignment in [Assign user roles for Viva Insights](../setup-maint/assign-user-roles.md).
+
+    >[!Note]
+    >Before they can use the app, customers with Privileged Identity Management might need to complete a few additional steps to activate their role. Refer to [Assign Azure AD roles in Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role) for more information.
+
+* **Is the feature accessible for my role?** Some parts of the app are only accessible to certain roles. To learn which features are available for which role, refer to [User roles](../setup-maint/user-roles.md#feature-access).
+
+* **Do enough people have licenses assigned to them?** For analysts to access the advanced insights app, your admin team needs to assign a certain number of licenses to people in your organization. This number needs to be equal to or greater than your [minimum group size](../setup-maint/setup.md#minimum-group-size). The default minimum group size is 10, so at least 10 people in your organization need a license before analysts can sign in and start using advanced insights.
 
 ### Organizational data
 

@@ -57,7 +57,7 @@ The concepts of [data controller](#data-controller), [data processor](#data-proc
 
 The following illustration shows the central position of the data controller (your organization) between the data subject (left) and the data processor, Microsoft (on the right):
 
-<!--insert screenshot-->
+![Roles in data protection.](../../images/data-subject-controller-processor.png)
  
 Before setting up Viva Insights, first consider the respective roles and responsibilities of your organization and of Microsoft to protect personal data and honor the rights of data subjects.
 
@@ -215,9 +215,9 @@ See the [Glossary](../reference/glossary.md) for definitions of the terms relate
 
 With Viva Insights, all metrics that are computed from Microsoft 365 collaboration data and from the organizational data that you choose to include are de-identified and aggregated data. The following example shows one line from a “people” report that Viva Insights created:
 
-|Person Identifier	|After Hours	|Email Hours	|Function	|Title	Org	|Region|
+|Person Identifier|After Hours|Email Hours|Function|Title Org|Region|
 |------|-------|------|--------|---------|-------|
-|T5Y07H4VfKWcCC3	|7	|6	|HR	|Director	|HR – Corp	|Central|
+|T5Y07H4VfKWcCC3|7|6|HR	Director|HR – Corp|Central|
 
 In this example, Viva Insights computes After Hours and Email Hours for some individual, and reports on this information, associating it with the person’s attributes that you choose to include. The computed information is de-identified; that is, you cannot identify the individual from these fields. The Person Identifier is pseudonymized with a cryptographically generated identifier derived from the person’s Microsoft 365 email address. The other attributes (such as function, title, organization, and region) are effectively personal data. While it might not be possible to identify the user with any single attribute, together these attributes might enable you to identify the user whose metrics have been computed. Therefore, this group of attributes is considered personal data.
 

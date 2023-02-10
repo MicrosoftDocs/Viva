@@ -31,7 +31,7 @@ The metrics are divided into three sections:
 
 1. [Adoption](#adoption) 
 1. [Engagement ](#engagement)
-1. [OKR practices ](#okr-practices)
+1. [OKR practice ](#okr-practice)
 
 ## Adoption
 
@@ -59,7 +59,7 @@ This section contains a bird's eye view of how well the adoption of OKR program 
 
 In the breakdown view, you'll see breakdown of the metrics by the top-level teams: 
 
-:::image type="content" source="../media/goals/analytics-images/3-vivagoals-analytics-adoption-breakdown.png" alt-text="View of the analytics breakdown in Viva Goals.":::
+:::image type="content" source="../media/goals/analytics-images/7-vivagoals-adoption-breakdown.png" alt-text="Graph that shows the view of the analytics breakdown in Viva Goals.":::
    
 ## Engagement
 
@@ -69,7 +69,7 @@ In the breakdown view, you'll see breakdown of the metrics by the top-level team
 
 **Activities** – A daily plot of key activities like check-ins, OKRs created, OKRs closed, comments & reactions. Breakdown view will show the sum of activities over the selected time range. 
 
-## OKR Practices
+## OKR Practice
 
 :::image type="content" source="../media/goals/analytics-images/5-vivagoals-analytics-okr-practice.png" alt-text="VIew of the OKR practice panel in Viva Goals analytics.":::
 
@@ -81,7 +81,7 @@ In the breakdown view, you'll see breakdown of the metrics by the top-level team
 
 - **OKRs aligned up:** Percentage (and count) of team OKRs aligned to an org or team OKR, as on the last date of selected time range.  
 
-- **OKRs cascaded down:**Percentage (and count) of organization or team OKRs which are cascaded down to another team objective, as of the last date of selected time range (OKRs of teams which don’t have subteams, aren't considered). 
+- **OKRs cascaded down:** Percentage (and count) of organization or team OKRs which are cascaded down to another team objective, as of the last date of selected time range (OKRs of teams which don’t have subteams, aren't considered). 
 
 - **Shared OKRs:** Percentage (and count) of team OKRs which are shared by more than one team, as on the last date of selected time range. 
 
@@ -97,7 +97,3 @@ In the breakdown view, you'll see breakdown of the metrics by the top-level team
 
 - **Average OKRs per OKR owner:** Calculated as total OKRs divided by total OKR owners, as on the last date of selected time range (individual OKRs aren't considered). 
 
-**Average of peer teams and outliers**
-:::image type="content" source="../media/goals/analytics-images/6-vivagoals-analytics-outliers.png" alt-text="View of average of peer teams and outliers in the analytics view of Viva Goals.":::
-
-In the breakdown view, you can see metric values which are significantly (more than 50%) different from the average of all teams. Such values are highlighted, as outliers. These values are to facilitate analysis and may not be indicative of the performance of a team. With the outliers, a vertical bar is also displayed which indicates the average of peer teams. 

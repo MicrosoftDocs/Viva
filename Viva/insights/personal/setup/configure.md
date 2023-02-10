@@ -18,9 +18,6 @@ audience: Admin
 
 # Configure personal insights
 
->[!Important]
-> This article discusses the dashboard, which will be retired soon. Users will still be able to access their personal insights settings through their Viva Insights app in Teams or on the web. [Learn more about this change](../reference/mya-retirement.md).
-
 **Role**  Global admin, Exchange Online admin, or Viva Insights admin
 
 * **Prerequisite** – Users have access to Microsoft Viva Insights only if they have licenses that include a Viva Insights service plan, as described in [plans and environments](../Overview/plans-environments.md).
@@ -71,7 +68,7 @@ Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for mo
     1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
     1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
     1. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt users _out_. If you opt users out, they won't see an option for meeting effectiveness surveys in their settings.
-    1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt users out. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and dashboard settings page. It may take up to 24 hours for all changes to take effect.
+    1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt users out. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and Viva Insights app settings page. It may take up to 24 hours for all changes to take effect.
 
     >[!Note]
     >After a new tenant is established, it can take up to 48 hours for this functionality to become available.

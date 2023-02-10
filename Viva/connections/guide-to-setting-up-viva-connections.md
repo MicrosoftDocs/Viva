@@ -28,6 +28,9 @@ description: "Learn how to set up and launch Viva Connections for desktop and mo
 
 Microsoft [Viva Connections](viva-connections-overview.md) is a desktop and mobile experience that brings together relevant news, conversations, and resources in one place for your organization. It's built on your current Microsoft 365 ecosystem and powered by SharePoint to help you engage, inform, and empower your hybrid workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
+> [!IMPORTANT]
+> A new desktop experience is coming soon for Viva Connections. The new experience is rolling out to [Target Release](/microsoft-365/admin/manage/release-options-in-office-365) customers now and will become generally available to all customers by the end of the first half of 2023. The new desktop home experience will automatically update for customers currently using Viva Connections. The experience doesn't have any requirements besides a [Viva license](https://www.microsoft.com/en-us/microsoft-viva) and can be setup more easily than the first release. [Learn more about the new experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6). Content in this article will be updated when the new experience becomes generally available.
+
 ![Image of a step-by-step diagram about how to set up Viva Connections.](../media/connections/vc-step-diagram-2.png)
 
 Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices using currently available features to create an engaging user experience. 
@@ -38,7 +41,7 @@ Use these step-by-step instructions to help you set up and launch Viva Connectio
 > - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*.
 > - To complete these step-by-step instructions, ensure that you have the permissions (or privileges) to the SharePoint and Microsoft Teams admin centers. Get more information about [permissions in SharePoint](/sharepoint/customize-sharepoint-site-permissions) and [permissions in Microsoft Teams](/microsoftteams/teams-channels-overview).
 > - Viva Connections is not supported on the Linux operating system.
-> - Viva Connections is not currently supported on tablet devices.
+> - Viva Connections is not currently supported on tablet devices. Continue to check the [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=) for the status of tablet support.
 
 
 ## Step 1: Prepare intranet navigation design and content
@@ -69,7 +72,8 @@ A home site is a SharePoint communication site that acts as the front door to yo
 
 > [!IMPORTANT]
 > - A SharePoint home site is required to set up Viva Connections.
-> - Home sites are generally high-traffic sites that should be [optimized for performance](/sharepoint/portal-health)
+> - Home sites are generally high-traffic sites that should be [optimized for performance](/sharepoint/portal-health).
+> - Only modern SharePoint sites will open within the context of Microsoft Teams, classic sites, for example, will open in a separate browser window. 
 
 ### Get started
 1. If your organization does not already have a home site, learn more about [how to plan a home site](home-site-plan.md) and consider using [this home site design.](create-sharepoint-home-site-for-viva-connections.md) 
