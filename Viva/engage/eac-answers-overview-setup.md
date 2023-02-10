@@ -62,7 +62,7 @@ Answers will be enabled by default for customers that meet the following technic
 
 ## Data storage, export, and compliance
 
-Answers is backed by an Office 365 group and will follow the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization, unless a unique policy is set for Answers. The Answers backing group will be auto-provisioned when the first question is posted or first question attachment is created. At the time of creation all tenant admins will be assigned as owners of the backing group, titled **Group for Answers in Viva Engage – DO NOT DELETE.**
+Answers is backed by an Office 365 group and will follow the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization, unless a unique policy is set for Answers. The Answers backing group will be auto-provisioned when the first question is posted or first question attachment is created. At the time of creation, all Global admins will be assigned as owners of the backing group, titled **Group for Answers in Viva Engage – DO NOT DELETE.**
 
 Owners of the backing group should ensure Answers maintains compliance with your network policies and does not get accidentally deleted. Data can be exported by admins if deleting the backing Office 365 group is desired. If the backing group is deleted, Answers will not be functional.
 
@@ -81,7 +81,7 @@ Answers will be enabled by default and visible to all users that have the Viva E
 
 Only an Microsoft 365 Global admin can change Answers state of enablement:
 
-1. As a tenant admin, navigate to the Viva Engage Teams app.  
+1. As a Global admin, navigate to the Viva Engage Teams app.  
 2. Select the ellipses button from the top right navigation bar to expose admin options.  
 3. Select **Admin** to navigate to the Engage admin center.
 

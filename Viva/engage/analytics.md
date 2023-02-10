@@ -56,9 +56,11 @@ Engage admin can manage metrics for **Answers** within their organization once t
 
 ![View of Global Answers analytics landing page.](/Viva/media/engage/admin/global-answers-analytics.png)
 
-Admin can choose to enable or disable:
+In the **Manage analytics** interface of the Engage admin center, admin can choose to enable or disable:
 
 - Advanced metrics like **time saved** and **people helped** to display impact  
+
+To learn more about the metrics available for Global Answers analytics and Answers-specific actions for admin, see [Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)
 
 ## Personal analytics  
 

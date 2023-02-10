@@ -72,7 +72,7 @@ Corporate communicators can manage campaigns by:
 1. To publish a campaign, select the ellipses button from the campaign management dashboard or from the campaign landing page.
 2. Select **Publish campaign** to make the campaign **Active**.
 
-![View of the UI dropdown for publishing and deleting a campaign](/Viva/media/engage/admin/publish-campaign-button.png)
+![View of the UI dropdown for publishing and deleting a campaign.](/Viva/media/engage/admin/publish-campaign-button.png)
 
 Once a campaign is published, it becomes **Active** in the campaign management dashboard and the campaign landing page will be visible to any Viva Engage licensed user who selects a post or comment with the verified campaign hashtag.
 
@@ -114,7 +114,7 @@ Engage admin and corporate communicators have access to analytics that help moni
 
 Once redirected, you'll see the campaign analytics dashboard containing key data to help you monitor the success of your campaign.
 
-![View of the campaign analytics page for admin in Viva Engage .](/Viva/media/engage/admin/campaign-analytics.png)
+![View of the campaign analytics page for admin in Viva Engage.](/Viva/media/engage/admin/campaign-analytics.png)
 
 ## Frequently asked questions
 

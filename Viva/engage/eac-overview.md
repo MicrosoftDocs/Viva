@@ -1,6 +1,6 @@
 ---
 title: "Viva Engage Admin center overview"
-description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
+description: "Viva Engage recreates the employee experience by connecting people across the company, wherever and whenever they work, ensuring employees are included, engaged, and empowered."
 ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
@@ -37,7 +37,7 @@ Navigate to the Engage admin center by selecting the ellipses button from the to
 
 ![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/eac-entry-view.png)
 
-## See also
+# See also
 
 [Set up the Engage admin center](/viva/engage/eac-get-started)
 

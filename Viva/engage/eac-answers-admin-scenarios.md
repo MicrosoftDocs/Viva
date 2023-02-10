@@ -22,7 +22,7 @@ search.appverid:
 
 # Answers admin scenarios in Viva
 
-Administration of Answers will involve the Tenant admin, the Engage admin, and a new role of the Answers admin. The new role of Answers admin will be designated by [adding Knowledge Managers in AAD](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge Managers will become Answers admins and will have elevated permissions over end users. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. More information about assigning a [AAD role to a group](/azure/active-directory/roles/groups-pim-eligible), or [creating a role-assignable group in Azure AD](/azure/active-directory/roles/groups-create-eligible).  
+Administration of Answers will involve the Microsoft 365 Global admin, the Engage admin, and a new role of the Answers admin. The new role of Answers admin will be designated by [adding Knowledge Managers in AAD](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge Managers will become Answers admins and will have elevated permissions over end users. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. More information about assigning a [AAD role to a group](/azure/active-directory/roles/groups-pim-eligible), or [creating a role-assignable group in Azure AD](/azure/active-directory/roles/groups-create-eligible).  
 
 ## Permissions
 
@@ -94,7 +94,9 @@ To remove a topic in Answers, Answers admin (Knowledge Managers) should complete
 
 ## View Global Answers analytics
 
-As an Answers admin, you can access Global Answers analytics by selecting the analytics icon from the top navigation bar of Viva Engage, then navigating to the Global Answers analytics tab. You will see a dashboard of analytics providing an overview and relevant insights on knowledge sharing activity across Answers in Viva.
+As an Answers admin, you can access Global Answers analytics by selecting the analytics icon from the top navigation bar of Viva Engage, then navigating to the Global Answers analytics tab. You'll see a dashboard of analytics providing an overview and relevant insights on knowledge sharing activity across Answers in Viva.
+
+For more details on how to manage analytics in the [Engage admin center](/Viva/engage/eac-overview), see the comprehensive documentation for [viewing and managing analytics in Viva Engage](/Viva/engage/analytics) .
 
 ![Image of the Global Answers analytics dashboard in Viva Engage.](/viva/media/engage/admin/global-answers-analytics.png)
 

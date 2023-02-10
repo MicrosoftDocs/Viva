@@ -53,7 +53,6 @@ Once assigned, the corporate communicator will be able to:
     - Deleting campaigns that are not relevant or were made by mistake
     - Updating certain assets on a campaign page such as the:
         - Goal tracker
-        - Executive sponsors
         - Cover photo
         - Pinned posts
         - Pinned resources and links

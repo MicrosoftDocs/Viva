@@ -78,11 +78,11 @@ The table below shows the range of actions available to an unlicensed user, Viva
 
 ## Corporate communicator
 
-Corporate communicators have privileges such as creating or managing campaigns, defining leaders in an organization, and more to come as we evolve Viva Engage. This role was created so that it addresses the need to have a role catered towards content management in the organization, beyond being attached to a community (Community admin) but not as powerful as the overall Engage admin. Corporate communicators can be assigned, modified, or deleted from users by the following admin roles: Global admin, Engage admin and fellow corporate communicators.
+Corporate communicators have privileges such as creating or managing campaigns, defining leaders in an organization, and more to come as we evolve Viva Engage. This role was created so that it addresses the need to have a role catered towards content management in the organization, beyond being attached to a community (Community admin) but not as powerful as the overall Engage admin. Corporate communicators can be assigned, modified, or deleted from users by the following admin roles: Global admin, Engage admin, and fellow corporate communicators.
 
 **Permissions**
 
-The table below shows the range of actions available to a corporate communicator, Engage (Yammer) admin, and Global (tenant) admin based on their license.  
+The table below shows the range of actions available to a corporate communicator, Engage (Yammer) admin, and Global admin based on their license.  
 
 |Permissions for corporate communicators, Engage admin, and Global admin |M365/O365 customer with Viva Engage core |Microsoft Viva Suite customer|
 |----------------|---------|-------|
