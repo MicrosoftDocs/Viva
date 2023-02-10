@@ -40,7 +40,7 @@ Answers will be enabled by default for customers that meet the following technic
 
 1) **Migrate the Yammer network to Native Mode**
 
-    [Native Mode](https://learn.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) is a state of a Yammer network where all users are in Azure AD, all communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This ensures that we can appropriately apply topic permissions and management. Access the [guide to migrate](https://learn.microsoft.com/yammer/configure-your-yammer-network/native-mode-step-by-step-guide) the network to Native Mode.
+    [Native Mode](/yammer/configure-your-yammer-network/overview-native-mode) is a state of a Yammer network where all users are in Azure AD, all communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This ensures that we can appropriately apply topic permissions and management. Access the [guide to migrate](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide) the network to Native Mode.
 
 2) **Migrate Yammer Topics to Viva Topics**
 
@@ -89,14 +89,14 @@ Only an Microsoft 365 Global admin can change Answers state of enablement:
 
 4. Select the **Answers** button within the **Feature management** tab to open Answers configuration options.
 
-![Image of the admin entrypoint into the Engage admin center.](/Viva/media/engage/admin/answers-eac.png)
+![Image of the admin entrypoint into Answers feature management in the Engage admin center.](/Viva/media/engage/admin/answers-eac.png)
 
 5. In Answers feature management, you can enable or disable Answers for your organization. Answers will be on by default for all Viva suite and Viva Topics licensed users.  
 
 ![Image of the Answers enablement toggle in the Engage admin center.](/Viva/media/engage/admin/enable-answers.png)
 
 >[!NOTE]
-> If Answers is disabled, the backing group will respect the default data [retention policies](microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization, unless a unique policy is set for Answers.
+> If Answers is disabled, the backing group will respect the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization, unless a unique policy is set for Answers.
 
 ## See also
 
