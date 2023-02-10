@@ -83,7 +83,7 @@ To configure SharePoint as a learning content sources in for Viva Learning, foll
 
      ![SharePoint list showing the Site contents navigation and the Learning App Content Repository section.](../media/learning/learning-sharepoint-configure4.png)
 
-5. On the **Learning App Content Repository** page, populate the SharePoint list with URLs to the learning content folders.
+5. On the **Learning App Content Repository** page, populate the SharePoint list with URLs to the learning content folders. Read [Folder URL document library curation](#folder-url-document-library-curation) on how to create the content folders.
 
    1. Select **New** to view the **New item** panel.
 
