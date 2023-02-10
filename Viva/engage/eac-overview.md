@@ -39,7 +39,7 @@ Navigate to the Engage admin center by selecting the ellipses button from the to
 
 ### See also
 
-[Set up the Engage admin center](/viva/engage/eac-get-started)
+<!-- [Set up the Engage admin center](/viva/engage/eac-get-started)
 
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
@@ -47,4 +47,4 @@ Navigate to the Engage admin center by selecting the ellipses button from the to
 
 [Manage data in the Engage admin center](/viva/engage/eac-as-manage-data)
 
-[Answers in Viva overview](/viva/engage/eac-answers-overview-setup)
+[Answers in Viva overview](/viva/engage/eac-answers-overview-setup) -->
