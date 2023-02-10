@@ -27,7 +27,7 @@ As an admin, the Engage admin center (found within the Viva Engage app on Teams)
 Through this experience you can:  
 
 - Plan who will help administer Engage for your organization by managing the various admin roles
-- Setup your Engage tenant by customizing your network, set up usage policy, and manage user permissions
+- Set up your Engage tenant by customizing your network, set up usage policy, and manage user permissions
 - Manage your organizations data retention and export plans
 - Explore the options for managing various core and premium features within Viva Engage  
 
