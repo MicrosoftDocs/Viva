@@ -1,22 +1,22 @@
 ---
 title: "Manage Viva Engage Core user licenses in Microsoft 365"
+description: "Viva Engage is moving from a licensing model where the entire M365 subscription is licensed as a whole, to a model where you can assign licenses for each user. "
+ms.reviewer: ethli
+ms.author: v-whitfieldd
+author: dwhitfield233
+manager: dmillerdyson
+audience: Admin
 f1.keywords:
 - NOCSH
-ms.author: v-njeremy
-author: TeresaFG-writer
-manager: pamgreen
-ms.date: 9/23/2019
-audience: Admin
 ms.topic: article
-ms.service: yammer
-ms.localizationpriority: medium
-ms.custom: Adm_Yammer
+ms.service: viva
+ms.subservice: viva-engage
+localization_priority: Priority
+ms.collection:  
+- M365initiative-viva
+- highpri
 search.appverid:
 - MET150
-- MOE150
-- YAE150
-ms.assetid: 34a67e3a-3fd8-4e54-bffb-dd5ad0e48590
-description: "Viva Engage is moving from a licensing model where the entire M365 subscription is licensed as a whole, to a model where you can assign licenses for each user. "
 ---
 
 # Manage Viva Engage Core user licenses in Microsoft 365
