@@ -35,9 +35,9 @@ Navigate to the Engage admin center by selecting the ellipses button from the to
 
 ![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
 
-![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/eac-entry-view.png)
+![Image of the Engage admin center experience that admin will see.](/Viva/media/engage/admin/eac-entry-view.png)
 
-# See also
+### See also
 
 [Set up the Engage admin center](/viva/engage/eac-get-started)
 
