@@ -52,21 +52,30 @@ After you send the invitation, Viva Insights sends invitees a notification in Te
 
 ### To join a shared focus plan
 
-When someone invites you to join a shared meeting plan, you get an invitation in Teams. Select the notification to view the plan's settings and choose whether to join it. Your join options differ depending on whether you're already enrolled in a focus plan.
+When someone invites you to join a shared meeting plan, you get an invitation in Teams. Select the notification to view the plan's settings and choose whether to join it. 
 
-*If you're **not** currently enrolled in a focus plan*, either select **Join plan** or **Decline**. If you join, we automatically book time for you based on the preferences the organizer set. You can change these settings by selecting **Change settings** on the confirmation card. If you decline, we won't send you any further communications about this shared meeting plan.
+:::image type="content" source="./images/wellbeing-sfp-invitee-1.png" alt-text="Screenshot that shows the Would you like to include a note? window with a note in the note field."::: 
 
-*If you **are** already enrolled in a focus plan*, you have a few options:
+Your join options differ depending on whether you're already enrolled in a focus plan.
 
-* To switch from your individual plan to the shared plan, select **Join plan**.
-* To switch and join the shared plan, but change some of the settings first, select **Edit settings**. Adjust your focus hours per day, when you focus, and whether you want to silence Teams notification during focus time. Then, select **Join plan**.
-* If you want to stick with the plan you're in now, select **Decline**. We won't send you any further communications about this shared meeting plan, and we won't change your current plan's settings.
+*If you're **not** currently enrolled in a focus plan*, you can select:
+
+* **Join plan**, which automatically books time based on the preferences the organizer set. After you join, you get a confirmation card. If you need to change your settings, select **Change settings** there.
+* **Decline**, which doesn't enroll you in the plan. If you decline, we don't send you any further communications about this plan.
+
+*If you **are** already enrolled in a focus plan*, you can select:
+
+* **Join plan**, which switches you from your individual plan to the shared plan.
+* **Edit settings**, which switches you from your individual plan to the shared plan, but lets you change some of the settings first. Adjust your focus hours per day, when you focus, and whether you want to silence Teams notification during focus time. Then, select **Join plan**.
+* **Decline**, which keeps you enrolled in your individual plan and doesn't enroll you in this new shared one. When you decline, we don't send you any further communications about this shared meeting plan, and we don't change your current plan's settings.
 
 ## For all participants
 
 ### View and edit plan details
 
 To view details about your shared focus plan, go to the **Track your progress** section of the **Wellbeing** tab. Use the arrows to right of the section header to find the **Shared focus plan** card. Here, you get a summary of the plan's settings: how much time your team focuses a day, what time of the day focus time is booked, whether you get a reminder to start focus time, and whether Teams chats are muted during focus time. To change any of these settings, select **Change settings**.
+
+:::image type="content" source="./images/wellbeing-sfp-progress1.png" alt-text="Screenshot that shows the Would you like to include a note? window with a note in the note field."::: 
 
 ### Leave a plan
 
