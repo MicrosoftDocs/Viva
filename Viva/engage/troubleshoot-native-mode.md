@@ -204,7 +204,7 @@ If your network enforces Microsoft 365 Group creation rights, users without thos
 
 ### Why aren't external participants in individual conversations supported in Native Mode?
 
- This feature isn't currently compatible with the Azure B2B guest model. This feature isn't available for Viva Engage Enterprise networks that are in Native Mode or the [EU Geo](../manage-security-and-compliance/manage-data-compliance.md).
+ This feature isn't currently compatible with the Azure B2B guest model. This feature isn't available for Viva Engage Enterprise networks that are in Native Mode or the [EU Geo](/yammer/manage-security-and-compliance/manage-data-compliance).
 
 ## Groups
 
