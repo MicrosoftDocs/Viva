@@ -32,10 +32,10 @@ You can tell if a community in Viva Engage is connected to Microsoft 365 Groups 
 Communities connected to Microsoft 365 have many advantages over communities which are not connected:
 
 - From within Viva Engage, access Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner. Microsoft 365 Groups also includes integration with services like Power BI and Stream.
-- Create and host live events ([Live events in Yammer](../manage-yammer-groups/yammer-live-events.md))
+- Create and host live events ([Live events in Yammer](/yammer/manage-yammer-groups/yammer-live-events.md))
 - Use Microsoft 365 connectors to add apps to classic Yammer ([Add apps to Yammer](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
 - Manage who can create Microsoft 365 Groups ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
-- Use dynamic groups to automatically update group membership from Azure Active Directory ([Create a dynamic group](../manage-yammer-groups/create-a-dynamic-group.md))
+- Use dynamic groups to automatically update group membership from Azure Active Directory ([Create a dynamic group](/yammer/manage-yammer-groups/create-a-dynamic-group.md))
 - Edit group membership from various apps. Changes to membership made in one Microsoft 365 app apply to other Microsoft 365 apps.
 - Use data classification to create your own classifications of Microsoft 365 Groups, such as unclassified, corporate confidential, or top secret. ([Configuring group settings](/azure/active-directory/users-groups-roles/groups-settings-cmdlets))
 - See the group in the Global Address List (GAL) in Outlook.
@@ -48,12 +48,12 @@ Communities connected to Microsoft 365 have many advantages over communities whi
 
 To use communities connected to Microsoft 365 Groups in Viva Engage, make sure your Viva Engage network meets the following requirements:
 
-- You must [enforce Microsoft 365 identity](../configure-your-yammer-network/enforce-office-365-identity.md) for Yammer users. When you first enforce Microsoft 365 identity there is a seven-day trial period, after which the **Status** of your  **Microsoft 365 Identity Enforcement** changes to **Committed**.
+- You must [enforce Microsoft 365 identity](/yammer/configure-your-yammer-network/enforce-office-365-identity.md) for Yammer users. When you first enforce Microsoft 365 identity there is a seven-day trial period, after which the **Status** of your  **Microsoft 365 Identity Enforcement** changes to **Committed**.
 
-- Since October 16, 2018, all Yammer networks must be in a 1:1 network configuration. This means you have one Yammer network that is associated with one Office 365 tenant. For more information, see [FAQ: Consolidating multiple Yammer networks](../configure-your-yammer-network/faq-consolidate-multiple-yammer-networks.md).
+- Since October 16, 2018, all Yammer networks must be in a 1:1 network configuration. This means you have one Yammer network that is associated with one Office 365 tenant. For more information, see [FAQ: Consolidating multiple Yammer networks](/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks.md).
 
 >[!NOTE]
-> If you want to ensure that all of your communities are connected, align your network to Native Mode.  To learn more about Viva Engage in Native Mode, see [Overview of Native Mode](../configure-your-yammer-network/overview-native-mode.md).
+> If you want to ensure that all of your communities are connected, align your network to Native Mode.  To learn more about Viva Engage in Native Mode, see [Overview of Native Mode](/yammer/configure-your-yammer-network/overview-native-mode.md).
 
 Here's how the process works after your network becomes eligible for connected groups:
 
@@ -117,7 +117,7 @@ A: No. Groups created by people who you have restricted from creating Microsoft 
   
 ### Q: If I have multiple Viva Engage networks that are mapped to Microsoft 365, will the Microsoft 365 connected Viva Engage groups work?
   
-A: No. The Microsoft 365 connected Viva Engage groups experience will work only for Microsoft 365 tenant that is associated with a single Viva Engage network. See [Network migration: Consolidate multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md) for information on how to consolidate your Yammer networks. This  is required for all Yammer networks as of October 16, 2018.
+A: No. The Microsoft 365 connected Viva Engage groups experience will work only for Microsoft 365 tenant that is associated with a single Viva Engage network. See [Network migration: Consolidate multiple Yammer networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks.md) for information on how to consolidate your Yammer networks. This  is required for all Yammer networks as of October 16, 2018.
   
 ### Q: I don't want my existing groups to get connected to Microsoft 365. Can I turn this off?
   
@@ -179,7 +179,7 @@ A: Yes. When a Microsoft 365 group is deleted because it expired, the Viva Engag
 
 ### Q: Can I have a Viva Engage community connected to Microsoft 365 Groups that uses  dynamic membership?
 
-A: Yes. Any Microsoft 365 connected Viva Engage community can be converted to dynamic membership. See [Create a dynamic group](create-a-dynamic-group.md) for requirements and limitations.
+A: Yes. Any Microsoft 365 connected Viva Engage community can be converted to dynamic membership. See [Create a dynamic group](/yammer/manage-yammer-groups/create-a-dynamic-group) for requirements and limitations.
   
 ### Q: In a connected group, I see there are Yammer Files and a SharePoint Online Doc Library, are these the same thing?
   
@@ -233,4 +233,4 @@ Changes to connected communities can take up to 24 hours to take effect througho
 
 [Manage who can create Groups](/office365/admin/create-groups/manage-creation-of-groups)
 
-[Export data from Yammer Enterprise](../manage-security-and-compliance/export-yammer-enterprise-data.md)
+[Export data from Yammer Enterprise](/yammer/manage-security-and-compliance/export-yammer-enterprise-data.md)

@@ -43,7 +43,7 @@ For information on how to make someone an admin and a full list of what each adm
 
 2. Set up your Viva Engage network to match your organization's goals:
 
-- [Configure](./setup) and [customize](./setup) your network. [Set up a usage policy](./set-up-a-usage-policy.md) to keep conversations appropriate and useful.
+- [Configure](./setup.md) and [customize](./setup.md) your network. [Set up a usage policy](./set-up-a-usage-policy.md) to keep conversations appropriate and useful.
 
 - Review the [security and compliance features](/yammer/manage-security-and-compliance/security-and-compliance) and define your data retention and export plans.
 
@@ -65,7 +65,7 @@ An external network is a separate extension of your home network, but includes i
 
 - To set up public or private groups, see [Create a group in Viva Engage](https://support.office.com/article/b407af4f-9a58-4b12-b43e-afbb1b07c889). Though anyone on Viva Engage can create groups, it is often helpful for the admin to set up groups for each department using a consistent group naming strategy, such as Sales Team, Marketing Team, etc.
 
-- If you want to use groups that can use Microsoft 365 services, such as SharePoint Online, OneNote, and Planner, called [Microsoft 365 connected groups](../manage-yammer-groups/yammer-and-office-365-groups.md), you need to ensure users have a Viva Engage license assigned to them.
+- If you want to use groups that can use Microsoft 365 services, such as SharePoint Online, OneNote, and Planner, called [Microsoft 365 connected groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups.md), you need to ensure users have a Viva Engage license assigned to them.
 
 - Set up groups that include external users, called [external groups](/yammer/work-with-external-users/create-and-manage-external-groups).
 
