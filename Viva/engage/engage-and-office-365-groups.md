@@ -109,7 +109,7 @@ A: In the Viva Engage admin center, go to **Network Admin** > **Security Setting
   
 ### Q: Can I disable Viva Engage connected to Microsoft 365 Groups?
   
-A: No, but you can [Manage who can create Microsoft 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). These restrictions don't apply to tenant admins.
+A: No, but you can [Manage who can create Microsoft 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). These restrictions don't apply to M365 global admins.
 
 ### Q: If I restrict who can create Microsoft 365 groups for my tenant, will the groups that restricted users create in Viva Engage be Microsoft 365 connected?
   
