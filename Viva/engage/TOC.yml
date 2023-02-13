@@ -15,9 +15,7 @@
      - name: Key admin roles and permissions
        items:
         - name: Key admin roles and permissions in Viva Engage
-          href: eac-key-admin-roles-permissions.md 
-     - name: Manage settings in the Engage admin center 
-       items:
+          href: eac-key-admin-roles-permissions.md
      - name: Feature management
        items:
         - name: Identify leaders and manage audiences in Viva Engage
