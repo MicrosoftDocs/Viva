@@ -76,7 +76,7 @@ As a Global admin or Engage admin, you are encouraged to set up your Viva Engage
 
 They are then routed to the Yammer admin center to perform the following actions:  
 
-- [Configure the network](https://learn.microsoft.com/yammer/configure-your-yammer-network/configure-yammer)
+- [Configure the network](/yammer/configure-your-yammer-network/configure-yammer)
     - Set tenant network name
     - Require users to confirm email messages before posting
     - Restrict who can upload files and limit file formats
@@ -84,9 +84,9 @@ They are then routed to the Yammer admin center to perform the following actions
     - Control how links are displayed
     - Allow message translation
     - Set default system message language and many more
-- [Customize the look](https://learn.microsoft.com/yammer/configure-your-yammer-network/customize-the-look-of-yammer)
+- [Customize the look](/yammer/configure-your-yammer-network/customize-the-look-of-yammer)
 - Manage domains in Office 365  
-- [Migrate network to Native Mode](https://learn.microsoft.com/yammer/configure-your-yammer-network/native-mode-step-by-step-guide) (if not done already)
+- [Migrate network to Native Mode](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide) (if not done already)
 
 >[!NOTE]
 > Since Viva Engage is powered by Yammer’s technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to actively bring these configuration options to the Engage admin center as part of our admin roadmap.
