@@ -64,6 +64,10 @@
     "fileMetadata": {
       "manager": {
         "goals/*.md": "lucyhitz"
+      },
+      "searchScope": {
+        "Viva/**/*.md": ["Microsoft Viva"],
+        "Viva/insights/*.md": ["Microsoft Viva Insights"]
       }
     },
     "template": [],
