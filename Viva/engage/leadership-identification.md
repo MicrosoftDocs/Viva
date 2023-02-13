@@ -100,7 +100,7 @@ A leader can configure delegates through the following steps:
 
     - When a delegate is removed, the same audience is notified via email.
 
-5. If the delegate will create posts, stories, or announcements on the leader’s storyline, **enable the storyline toggle**.
+5. If the delegate will create posts, stories, or announcements on the leader’s [storyline](/Viva/engage/eac-storyline), **enable the storyline toggle**.
 
 Learn more about [Delegate Managers in Microsoft Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-yammer-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285).
 
@@ -108,7 +108,7 @@ Learn more about [Delegate Managers in Microsoft Viva Engage](https://support.mi
 
 Leadership corner in Viva Engage is a place for users to get to know their leaders and stay informed on the latest content they post. Users can visit leadership corner to catch up on the latest content leaders are posting, join their communities, and attend their AMAs to ask them questions directly. Leadership corner gives your organization the tools they need to learn about their leaders and build lasting connections with them.
 
-Leadership corner is ON by default but can be disabled using the toggle in the Viva Engage admin center by a Microsoft 365 Global admin or Engage admin. Follow the below steps to enable or disable leadership corner for your organization:
+Leadership corner is ON by default but can be disabled using the toggle in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac) by a Microsoft 365 Global admin or Engage admin. Follow the below steps to enable or disable leadership corner for your organization:
 
 1. Select **Leadership corner** from the **Feature management tab** in the Engage admin center.
 
@@ -129,7 +129,7 @@ Learn more about [storyline announcements](https://support.microsoft.com/topic/8
 
 **Analytics**
 
-Advanced analytics in Viva Engage empower leaders to measure and improve the effectiveness of their communication and engagement, and identify opportunities to drive impact in their organization.  
+Learn more about [analytics for leaders](/Viva/engage/analytics), which empower leaders to measure and improve the effectiveness of their communication and engagement, and identify opportunities to drive impact in their organization.  
 
 ## Frequently asked questions
 
@@ -157,10 +157,10 @@ Yes, Global admin and Engage admin can access a toggle switch in the feature man
 
 The company logo can be customized by following the instructions in this [link](/yammer/manage-yammer-groups/customize-your-network).
 
-<!-- ## See also
+## See also
 
- [Set up and manage campaigns in Viva Engage](/viva/engage/campaigns)
+[Set up and manage campaigns in Viva Engage](/viva/engage/campaigns)
 
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
-[Manage and set up storyline in Viva Engage](/Viva/engage/eac-storyline) -->
+[Manage and set up storyline in Viva Engage](/Viva/engage/eac-storyline)

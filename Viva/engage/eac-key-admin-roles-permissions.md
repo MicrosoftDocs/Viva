@@ -91,8 +91,8 @@ The table below shows the range of actions available to a corporate communicator
 |**Manage campaigns via**: <br> Publishing active campaigns; Ending active campaigns; Republishing ended campaigns; Deleting campaigns | |✓|
 |**View campaign analytics**| |✓|
 
-<!-- ## See also
+## See also
 
- [Access the Engage admin center](/Viva/engage/eac-as-access-eac)
+[Access the Engage admin center](/Viva/engage/eac-as-access-eac)
 
-[Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios) -->
+[Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)
