@@ -8,5 +8,39 @@
        href: overview.md 
      - name: Setup
        href: setup.md
-   - name: Rewards and recognition in Viva Engage
-     href: badges.md
+   - name: Setup and administration
+     items:
+     - name: Viva Engage Admin center overview 
+       href: eac-overview.md 
+     - name: Key admin roles and permissions
+       items:
+        - name: Key admin roles and permissions in Viva Engage
+          href: eac-key-admin-roles-permissions.md 
+     - name: Manage settings in the Engage admin center 
+       items:
+        - name: Set up the Engage admin center
+          href: eac-get-started.md 
+        - name: Access the Engage admin center
+          href: eac-as-access-eac.md 
+        - name: Manage data in the Engage admin center
+          href: eac-as-manage-data.md 
+     - name: Feature management
+       items:
+        - name: Identify leaders and manage audiences in Viva Engage
+          href: leadership-identification.md
+        - name: View and manage analytics in Viva Engage
+          href: analytics.md
+        - name: Manage and set up campaigns in Microsoft Viva Engage
+          href: campaigns.md
+        - name: Rewards and recognition in Viva Engage
+          href: badges.md
+        - name: Manage and set up storyline in Viva Engage
+          href: eac-storyline.md
+     - name: Answers in Viva - Feature management
+       items:   
+        - name: Overview and setup of Answers in Viva Engage
+          href: eac-answers-overview-setup.md
+        - name: Answers admin scenarios in Viva Engage
+          href: eac-answers-admin-scenarios.md
+        - name: Answers in Viva Engage - Frequently asked questions (FAQ)
+          href: eac-answers-faq.md
