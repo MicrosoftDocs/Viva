@@ -43,7 +43,6 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/viva/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-WorkplaceAnalytics",
       "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
@@ -65,6 +64,10 @@
     "fileMetadata": {
       "manager": {
         "goals/*.md": "lucyhitz"
+      },
+      "searchScope": {
+        "Viva/**/*.md": ["Microsoft Viva"],
+        "Viva/insights/*.md": ["Microsoft Viva Insights"]
       }
     },
     "template": [],

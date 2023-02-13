@@ -57,6 +57,14 @@ Here's how we calculate the habits shown in this section:
 * **RSVP'd to invite** – Meetings you were invited to and either accepted or declined (that is, you didn't leave your status as **Tentative**)
 * **You didn't multitask** – Meetings where you didn't read or send emails or chats
 
+### When meeting habits are calculated
+
+Viva Insights calculates your meeting habits once a week. We evaluate four full weeks of data in that calculation, up to the most recent Sunday. 
+
+For example, let's say you go to your **Meeting habits** section on Wednesday, December 14th. You'd find meeting habits based on meeting data that started on Sunday, November 13th—this day *is* included in the calculation—and ended on Sunday, December 11th—this day *isn't* included in the calculation.
+
+![Screenshot that shows a calendar with labels "Calculation starts" on the 13th, "Calculation ends" on the next month's 10th, and "View date" four days later, on the 14th. ](./Images/effective-meetings-calculation-time1.png)
+
 ### Meeting exclusions
 
 These types of meetings are excluded from meeting metrics—that is, they don't factor into the habits you see in this section.
@@ -154,7 +162,7 @@ To opt in or out of getting feedback about your meetings, follow these steps:
 
 ### Privacy by design
 
-The meeting effectiveness surveys are only sent for scheduled meetings that have five or more participants (including the meeting organizer). We also check whether the attendees who get those surveys stay in the meetings for at least five minutes. To help mitigate survey fatigue in survey participants, 10% of qualified meetings get the surveys. Providing meeting feedback is optional for all participants.
+The meeting effectiveness surveys are only sent for scheduled meetings that have five or more participants (including the meeting organizer). We also check whether the attendees who get those surveys stay in the meetings for at least five minutes. To help mitigate survey fatigue in survey participants, 15% of qualified meetings get the surveys. Providing meeting feedback is optional for all participants.
 
 As the meeting organizer, you’ll only see aggregated results in Viva Insights. You won't see who sent what suggestions within the aggregated feedback.
 
@@ -165,3 +173,4 @@ To configure meeting effectiveness surveys for your organization at the user or 
 ## Related topics
 
 [Microsoft Viva Insights overview](viva-teams-app.md)
+[Book preparation time for meetings](../use/mya-notifications.md#book-time-to-prepare-for-meetings)

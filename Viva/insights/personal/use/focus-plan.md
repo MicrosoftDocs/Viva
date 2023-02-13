@@ -2,7 +2,7 @@
 
 title: Focus plan for Viva Insights
 description: Viva Insights focus plan
-author: madehmer
+author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium
@@ -13,7 +13,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
@@ -30,10 +30,9 @@ You can create, configure, or end your focus plan at will. For more information,
 
 ## To create your focus plan
 
-You can create your focus plan in three places:
+You can create your focus plan in two places:
 
 * [Viva Insights app](#in-the-app)
-* [Dashboard](#in-the-dashboard)
 * [Insights Outlook add-in](#in-the-insights-outlook-add-in)
 
 ### In the app
@@ -52,52 +51,21 @@ You can create your focus plan in three places:
    
         ![Screenshot that shows the Focus plan card and the View settings link.](../../Images/mya/use/focus-plan-view-settings.png)
 
-### In the dashboard
-
->[!IMPORTANT]
->The dashboard will be retired soon, but you can access focus plan settings on the Viva Insights app in Teams or on the web. To view settings in the app, select **Try it now** on the banner message.
->![Screenshot that shows the new settings banner message.](../../Images/mya/use/settings-banner.png)
-> [Read more about this change](../reference/mya-retirement.md).
-
-1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
-
-   ![Screenshot that shows Focus plan setup - Get started.](../../Images/mya/use/focus-dashboard-get-started.png)
-
-2. Select the number of hours of focus time you would like Viva Insights to book for you every day, and then select **Next**.
-
-   ![Screenshot that shows Focus plan setup - Choose hours.](../../Images/mya/use/dashboard-focus-plan-1.png)
-
-3. Select the time of day for your focus time, and then select **Next**.
-
-   ![Screenshot that shows Focus plan setup - Choose AM or PM.](../../Images/mya/use/dashboard-focus-plan-2.png)
-
-4. Select whether you want a Teams reminder to begin focus mode.
-   
-    ![Screenshot that shows Focus plan - Want or don't want notification.](../../Images/mya/use/dashboard-focus-plan-3.png)
-
-4. Select whether to have Teams chat notifications muted during focus time, and select **Looks good**.
-
-     ![Focus plan - Choose to mute chat notifications.](../../Images/mya/use/dashboard-focus-plan-4.png)
-
-     Viva Insights now looks for time in your Outlook calendar to set aside for focusing, based on your preferences. The amount and placement of focus time depends on the time your calendar has open.
-
-     See [Automatic booking of focus time](#automatic-booking-of-focus-time) for details.
-
 ### In the Insights Outlook add-in
 
 1. Select the **Want focus time every day?** insight.
 
-   ![Screenshot that shows Want focus time every day? insight](../../Images/mya/use/outlook-focus-plan-start.png)
+   ![Screenshot that shows Want focus time every day? insight](../../Images/mya/use/focus-outlook-insight.png)
 
-2. Select **Book time now**.
+2. Select **Book now**.
 
-   ![Screenshot that shows the Create your focus plan window with Book time now option.](../../Images/mya/use/book-time-now.png)
+   ![Screenshot that shows the Create your focus plan window with Book time now option.](../../Images/mya/use/focus-outlook-insight-enroll.png)
 
    The Insights pane now notifies you that your focus plan has begun, and your calendar now contains focus-time blocks:
 
-   ![Screenshot that shows the Outlook add-in's focus plan confirmation window.](../../Images/mya/use/outlook-focus-plan-confirmation.png)
+   ![Screenshot that shows the Outlook add-in's focus plan confirmation window.](../../Images/mya/use/focus-outlook-insight-all-set.png)
 
-Now that your focus plan is underway, you can do the following: 
+Now that your focus plan is underway, you can: 
 
 * [Check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan).
 * [Change or leave your focus plan](#to-change-or-leave-your-focus-plan).
@@ -105,32 +73,16 @@ Now that your focus plan is underway, you can do the following:
 
 ## To check the progress of your focus plan
 
-After your plan has started, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report.
+After your plan has started, you can check your progress in the Viva Insights app and make sure that you have focus time booked every day over the upcoming week. If the plan has run for at least few days, it will have numbers to report.
 
-In the dashboard, select **Focus** on the left pane to see statistics about your focus time:
+**Book focus time** shows you which days already have focus time booked over the next week, and also presents open time slots that you can use to book different focus blocks.
 
-   ![Dashboard report.](../../Images/mya/use/track-progress.png)
-  
-An important metric shows under **Last week** about how many days last week that you had time to focus.
+   ![Screenshot that shows the Book focus time section of Protect time in the Viva Insights app.](../../Images/mya/use/focus-plan-time-booked-available.png)
 
-The **Plan ahead** area helps you plan focus time for the upcoming days with the following sections.
-
-### Focus time booked
-
-For the current week and the following week, this area shows how many days and which days have had focus time booked. In the preceding example screenshot of the dashboard, the three days with focus time booked are shown in green.
-
-### Needs focus time
-
-This section shows upcoming days that have no focus time booked but still have open time available. Select **Book now** to have Viva Insights select and book this time.
-
-### Needs review
-
-During the number of days shown (in the screenshot, three days) Viva Insights has either found no time to book or it has found booked focus time that has a meeting conflict. Select **Review** to open your calendar in Outlook on the web to resolve the issue.
-
->[!Note]
->If you make changes to your Outlook calendar, they will be reflected on your dashboard within five minutes.
+The **Focus plan** card in **Protect your time** shows how many hours of focus time you've kept over the last couple of months, the total hours you have booked for next week, and which days those hours fall on next week.
 
 ## To change or leave your focus plan
+
 
 You can change or opt in and opt out of the focus plan as many times as you want.
 
@@ -161,14 +113,13 @@ Select the **Leave plan** button at top right.
 
 Answer the survey question, then select **Leave plan** again.
 
-
 ## Concepts
 
 The following sections provide information that can help you as you create or monitor focus plans.  
 
 ### Automatic booking of focus time
 
-After you set automatic booking as your preference, Viva Insights starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as a different color and is labeled "Focus time."
+After you set automatic booking as your preference, Viva Insights starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as "Focus time."
 
 Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day meetings, booked personal time, or appointments.
 
@@ -208,11 +159,13 @@ After you enroll in a focus plan, the content in your digest email will be tailo
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
-![Add-in feed card.](../../Images/mya/use/add-in-feed-card.png)
+:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus1.png" alt-text="Screenshot that shows the add-in feed card.":::
+
 
 Selecting this card shows the following options, with which you can book focus time on individual days or for several days at once:  
 
-![Book focus time inline.](../../Images/mya/use/book-focus-time-nudge.png)
+:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus-pane.png" alt-text="Screenshot that shows the book focus time pane.":::
+
 
 ## Calendar color settings
 

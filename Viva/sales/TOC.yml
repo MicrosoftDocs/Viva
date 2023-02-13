@@ -18,6 +18,13 @@
   - name: Data handling in Viva Sales 
     href: data-handling.md
 
+- name: Administrator settings for Viva Sales
+  items:
+  - name: Overview
+    href: administrator-settings-for-viva-sales.md
+  - name: Customize forms and fields
+    href: customize-forms-and-fields.md
+
 - name: Remove Viva Sales from the admin center
   href: disable-viva-sales.md
 

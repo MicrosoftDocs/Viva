@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: Viva Insights Individual Adoption - Develop new habits
 description: Viva Insights Individual Adoption by Kate Nowak - Develop new habits section
 author: madehmer

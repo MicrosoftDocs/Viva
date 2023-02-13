@@ -1,30 +1,17 @@
-- name: Docs
+- name: Learn
   tocHref: /
   topicHref: /
   items:
   - name: Workplace Analytics
-    tocHref: /workplace-analytics/index
+    tocHref: /workplace-analytics/
     topicHref: /workplace-analytics/index
   - name: Microsoft Viva
-    tocHref: /viva/index
+    tocHref: /viva/
     topicHref: /viva/index
     items:
     - name: Viva Insights
       tocHref: /viva/insights
-      topicHref: /viva/insights/index
-      items:
-        - name: Personal insights
-          tocHref: /viva/insights/personal
-          topicHref: /viva/insights/personal/index
-        - name: My team
-          tocHref: /viva/insights/use/myteam
-          topicHref: /viva/insights/use/myteam   
-        - name: Setup
-          tocHref: /viva/insights/setup/environment-requirements
-          topicHref: /viva/insights/setup/environment-requirements
-        - name: My Org
-          tocHref: /viva/insights/setup/environment-requirements
-          topicHref: /viva/insights/setup/environment-requirements    
+      topicHref: /viva/insights/index 
     - name: Viva Connections
       tocHref: /viva/connections/
       topicHref: /viva/connections/viva-connections-overview
@@ -37,10 +24,38 @@
     - name: Viva Goals
       tocHref: /viva/goals/
       topicHref: /viva/goals/intro-to-ms-viva-goals
-    - name: Viva Solutions
-      tocHref: /viva/solutions/
-      topicHref: /viva/solutions/introduction
     - name: Viva Sales
       tocHref: /viva/sales/
       topicHref: /viva/sales/introduction
-      
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Learning
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/learning/index
+      items:
+      - name: Viva Learning troubleshooting
+        tocHref: /viva/troubleshoot/learning/
+        topicHref: /viva/learning/index
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Connections
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/connections/viva-connections-overview
+      items:
+      - name: Viva Connections troubleshooting
+        tocHref: /viva/troubleshoot/connections/
+        topicHref: /viva/connections/viva-connections-overview
