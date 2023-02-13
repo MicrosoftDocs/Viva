@@ -8,6 +8,21 @@
        href: overview.md 
      - name: Setup
        href: setup.md
-   - name: Rewards and recognition in Viva Engage
-     href: badges.md
-    
+   - name: Setup and administration
+     items:
+     - name: Viva Engage Admin center overview 
+       href: eac-overview.md 
+     - name: Key admin roles and permissions
+       items:
+        - name: Key admin roles and permissions in Viva Engage
+          href: eac-key-admin-roles-permissions.md
+     - name: Feature management
+       items:
+        - name: Identify leaders and manage audiences in Viva Engage
+          href: leadership-identification.md
+        - name: Rewards and recognition in Viva Engage
+          href: badges.md
+     - name: Answers in Viva - Feature management
+       items:   
+        - name: Overview and setup of Answers in Viva Engage
+          href: eac-answers-overview-setup.md
