@@ -92,7 +92,7 @@ Users can discover campaigns through posts containing the verified campaign hash
 > To build campaign awareness and reach, campaign managers and leaders across the organization are encouraged to share as many posts as possible with the campaign hashtag to their storyline and in communities. The campaign link can also be shared through posts, emails, and Microsoft Teams chats for users to easily access the campaign landing page.
 
 - **Campaigns modules**
-    - **Top campaigns** module: On the right side of the Home feed, users will see an Top campaigns module with current campaigns to participate in and follow.
+    - **Top campaigns** module: On the right side of the Home feed, users will see a Top campaigns module with current campaigns to participate in and follow.
     - **Followed campaigns** module: After following a campaign, users will see a Followed campaigns module on the right side of their storyline.
 
 > [!NOTE]

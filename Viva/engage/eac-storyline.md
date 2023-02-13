@@ -85,7 +85,7 @@ In addition to the capabilities listed above, storyline also features a feed tha
 
 #### Security, compliance, and governance for files uploaded to storyline posts and stories
 
-Storyline posts and stories are backed by Yammer services. Compliance for posts and stories are therefore the same as the rest of Viva Engage. If you are in native mode, posts are ingested into the substrate and support the same compliance and e-Discovery capabilities as posts in communities, including communications compliance and retention. Because files are stored in OneDrive, they inherit security and compliance policies configured for files in OneDrive.
+Storyline posts and stories are backed by Yammer services. Compliance for posts and stories is therefore the same as the rest of Viva Engage. If you are in native mode, posts are ingested into the substrate and support the same compliance and e-Discovery capabilities as posts in communities, including communications compliance and retention. Because files are stored in OneDrive, they inherit security and compliance policies configured for files in OneDrive.
 
 When users are deleted—for example when an individual leaves the company—the system follows the Microsoft 365 user deletion process described in the **Delete a user** section in the [Manage Yammer users across their lifecycle from Office 365](/yammer/manage-yammer-users/manage-users-across-their-lifecycle) article.
 
