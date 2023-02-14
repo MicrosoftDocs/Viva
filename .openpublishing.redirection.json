@@ -558,7 +558,6 @@
       {
         "source_path": "viva/insights/personal/teams/viva-insights-virtual-commute.md",
         "redirect_url": "/viva/insights/personal/teams/virtual-commute",
-        "redirect_document_id": false
-      }
-}
-
+        "redirect_document_id": false 
+      } ]
+}      
