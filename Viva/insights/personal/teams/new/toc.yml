@@ -1,0 +1,135 @@
+items:
+- name: Personal insights
+  items:
+    - name: Introducing Microsoft Viva Insights
+      href: introduction.md
+      items:
+      - name: Privacy and data protection
+        href: advanced/privacy/privacy.md
+      - name: Environment requirements    
+        href: advanced/setup-maint/environment-requirements.md
+      - name: Setup introduction
+        href: advanced/setup-maint/setup-overview.md
+      - name: Personal insights
+        items:
+          - name: Introduction
+            href: personal/introduction.md     
+          - name: Privacy guide
+            href: personal/Overview/privacy-guide-users.md
+          - name: In Teams
+            items:
+              - name: Introduction
+                href: personal/teams/viva-teams-app.md
+              - name: Set up the app
+                href: personal/teams/viva-teams-app-settings.md
+              - name: Home
+                href: personal/teams/home.md
+                items:
+                - name: Praise
+                  href: personal/teams/praise.md
+                - name: Inspiration library
+                  href: personal/teams/inspiration.md  
+              - name: Productivity
+                items: 
+                  - name: Overview
+                    href: personal/teams/productivity.md
+                  - name: Meeting habits
+                    href: personal/teams/meeting-habits.md
+                  - name: Meeting category insights
+                    href: personal/teams/meeting-category-insights.md
+                  - name: Meeting effectiveness surveys
+                    href: personal/teams/meeting-effectiveness-surveys.md       
+                  - name: Shared meeting plan  
+                    href: personal/teams/shared-meeting-plan.md
+                  - name: Suggested tasks
+                    href: personal/teams/suggested-tasks.md   
+              - name: Teamwork
+                items: 
+                - name: Overview
+                  href: personal/teams/teamwork.md
+                - name: 1:1 meeting plan
+                  href: personal/teams/1-1-plan.md  
+              - name: Wellbeing
+                items:
+                - name: Overview
+                  href: personal/teams/wellbeing.md  
+                - name: Headspace  
+                  href: personal/teams/headspace.md
+                - name: Focus
+                  href: personal/teams/focus.md
+                - name: Shared no-meeting day plan
+                  href: personal/teams/shared-no-meeting-day.md                     
+                - name: Virtual commute
+                  href: personal/teams/virtual-commute.md    
+                - name: Wellbeing plans
+                  href: personal/teams/wellbeing-plans.md    
+          - name: Briefing
+            items:
+              - name: Overview
+                href: personal/Briefing/be-overview.md
+              - name: Privacy guide
+                href: personal/Briefing/be-privacy.md
+              - name: Configure Briefing
+                href: personal/Briefing/be-admin.md
+              - name: Briefing rollout
+                items:
+                  - name: Conduct a user pilot
+                    href: personal/Briefing/be-pilot.md
+                  - name: Admin trial
+                    href: personal/Briefing/be-admin-trial.md
+                  - name: Downloadable resources
+                    href: personal/Briefing/be-resources.md
+              - name: Use Briefing
+                items: 
+                  - name: Prepare for meetings
+                    href: personal/Briefing/be-meetings.md
+                  - name: Follow up on tasks
+                    href: personal/Briefing/be-tasks.md
+                  - name: Book focus time
+                    href: personal/Briefing/be-focus.md
+                  - name: Headspace meditation
+                    href: personal/Briefing/be-headspace.md
+                  - name: Plan your week
+                    href: personal/Briefing/be-time.md
+                  - name: Catch up with your team
+                    href: personal/Briefing/be-manager.md
+                  - name: Use recommendations
+                    href: personal/Briefing/be-recommended.md  
+              - name: Settings
+                href: personal/Briefing/be-settings.md
+              - name: Languages
+                href: personal/Briefing/be-languages.md
+              - name: FAQ
+                href: personal/Briefing/be-faqs.yml
+          - name: Focus plan
+            href: personal/use/focus-plan.md
+          - name: Outlook add-in
+            items:
+              - name: Introduction
+                href: personal/use/add-in.md
+              - name: Use Insights
+                href: personal/use/use-the-insights.md
+              - name: Inline suggestions
+                href: personal/use/mya-notifications.md
+              - name: Schedule send suggestions
+                href: personal/use/delay-delivery.md
+          - name: Digests
+            href: personal/use/email-digests-3.md            
+          - name: Focus plan
+            href: personal/use/focus-plan.md     
+          - name: Personal insights FAQ
+            href: personal/overview/mya-faq.md 
+          - name: Admin guide
+            items: 
+              - name: Introduction
+                href: personal/overview/mya-for-admins.md
+              - name: Deployment guide
+                href: personal/setup/deployment-guide.md
+              - name: Setup
+                href: personal/setup/configure.md
+              - name: Plans and environments
+                href: personal/overview/plans-environments.md
+              - name: Privacy guide for admins
+                href: personal/overview/privacy-guide-admins.md
+              - name: Activity report
+                href: personal/overview/activity-report.md
