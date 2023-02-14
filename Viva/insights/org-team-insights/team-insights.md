@@ -108,4 +108,4 @@ You'll find insights about quiet time impact on the **Wellbeing** tab. Learn how
 
 ### Shared plans
 
-To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and [focus](../personal/teams/shared-focus-plan.md) plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab. To set up regularly scheduled 1:1 meetings with your direct reports, check out [1:1 plans](../personal/teams/1-1-plan.md) on the **Teamwork** tab.
+To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab. To set up regularly scheduled 1:1 meetings with your direct reports, check out [1:1 plans](../personal/teams/1-1-plan.md) on the **Teamwork** tab.

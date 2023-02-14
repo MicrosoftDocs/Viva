@@ -53,16 +53,20 @@ items:
                 items:
                 - name: Overview
                   href: personal/teams/wellbeing.md  
-                - name: Headspace  
-                  href: personal/teams/headspace.md
+                - name: Time management features
+                  href: personal/teams/time-management.md  
+                - name: Shared no-meeting day plan
+                  href: personal/teams/shared-no-meeting-day.md
                 - name: Focus
                   href: personal/teams/focus.md
-                - name: Shared no-meeting day plan
-                  href: personal/teams/shared-no-meeting-day.md                     
+                - name: Headspace  
+                  href: personal/teams/headspace.md 
+                - name: Quiet time
+                  href: personal/teams/quiet-time.md  
+                - name: Reflect    
+                  href: personal/teams/reflect.md                
                 - name: Virtual commute
-                  href: personal/teams/virtual-commute.md    
-                - name: Wellbeing plans
-                  href: personal/teams/wellbeing-plans.md    
+                  href: personal/teams/virtual-commute.md                  
           - name: Briefing
             items:
               - name: Overview
