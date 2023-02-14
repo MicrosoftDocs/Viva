@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Team insights
 description: Learn about team insights and where to find them in Viva Insights in Teams and on the web
 author: lilyolason

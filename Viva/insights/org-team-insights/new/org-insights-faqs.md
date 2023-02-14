@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Organization insights FAQs
 description: Get answers to frequently asked questions about organization insights in Microsoft Viva Insights 
 author: lilyolason
