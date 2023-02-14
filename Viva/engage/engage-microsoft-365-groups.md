@@ -117,7 +117,7 @@ A: No. Groups created by people who you have restricted from creating Microsoft 
   
 ### Q: If I have multiple Viva Engage networks that are mapped to Microsoft 365, will the Microsoft 365 connected Viva Engage groups work?
   
-A: No. The Microsoft 365 connected Viva Engage groups experience will work only for Microsoft 365 tenant that is associated with a single Viva Engage network. See [Network migration: Consolidate multiple Yammer networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks) for information on how to consolidate your Yammer networks. This  is required for all Yammer networks as of October 16, 2018.
+A: No. The Microsoft 365 connected Viva Engage groups experience will work only for Microsoft 365 tenant that is associated with a single Viva Engage network. See [Network migration: Consolidate multiple Yammer networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks) for information on how to consolidate your Yammer networks. This is required for all Yammer networks as of October 16, 2018.
   
 ### Q: I don't want my existing groups to get connected to Microsoft 365. Can I turn this off?
   

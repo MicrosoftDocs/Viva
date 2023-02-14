@@ -36,9 +36,9 @@ Engage admins can enable guest access on their networks from the Engage admin ce
 > [!div class="mx-imgBorder"]
 > :::image type="content" source="../media/azure-ad-b2b-guests-engage-external-messaging.png" alt-text="Yammer admin panel external user settings.":::
 
-This setting is a Viva Engage tenant-wide setting. Enabling guest access here will allow community admins to add guests to any Viva Engage community in the network. You can control guest access to individual Viva Engage communities [by using sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+This setting is a Viva Engage tenant-wide setting. Enabling guest access here will allow community admins to add guests to any Viva Engage community in the network. You can control guest access to individual Viva Engage communities [by using sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
-External collaboration is a key ingredient for the success of any organization. Viva Engage guests allow you to call in experts, such as consultants or vendors, from outside your organization. Users can invite guests to a community and quickly start a rich conversation by sharing access to community resources like files. This ease-of-use makes external collaboration one of the most used features in Viva Engage today.
+External collaboration is a key ingredient for the success of any organization. Viva Engage guests allow you to call in experts, such as consultants or vendors, from outside your organization. Users can invite guests to a community and quickly start a rich conversation by sharing access to community resources like files. This ease of use makes external collaboration one of the most used features in Viva Engage today.
 
 > [!NOTE]
 > If your Viva Engage tenant was provisioned after December 15th, 2020, then AzureAD-B2B guest functionality is already enabled by default for your organization.

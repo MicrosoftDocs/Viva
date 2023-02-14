@@ -53,9 +53,7 @@ If all your domains are verified, you're all set. For more information, see [Man
 
 If your organization has business units with different domains, Viva Engage can help you join these into a consolidated network. You can also create external networks for each business unit, or a singular external network for all employees to access. To view more details on these options, and merge or create networks, see [Combine multiple Yammer networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks)
 
-3. Explore the options for managing user identity:
-
-    - Decide whether you'll use Viva Engage to collaborate with people outside your organization.
+3. Decide whether you'll use Viva Engage to collaborate with people outside your organization.
 
     Your internal network, also known as a home network, is a private and secure collaboration space where employees can connect with their coworkers. Only employees with verified corporate email addresses can join the home network and access its content and users. Users from one home network cannot view the content or interact with users from another network unless they are affiliated with both organizations. Messages posted within your home network are owned by your organization and cannot be shared externally without permission. Note that admins can invite external users as guests to the internal network, as described in [External messaging FAQ (Yammer)](/yammer/work-with-external-users/external-messaging-faq).
 
@@ -92,7 +90,7 @@ To learn about all the admin features of Viva Engage, see [Viva Engage admin cen
 A: Viva Engage's system requirements are consistent with those of Microsoft 365. See the list of supported browsers in the [Microsoft 365 system requirements](https://support.office.com/article/719254c0-2671-4648-9c84-c6a3d4f3be45).
 
 > [!NOTE]
-> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020.) [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.
+> Microsoft 365 apps and services no longer support Internet Explorer 11 as of August 17, 2021 (Microsoft Teams ended support for Internet Explorer 11 earlier, starting November 30, 2020.) [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 remains a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.
   
 #### Mobile and desktop requirements
 
@@ -104,7 +102,7 @@ A: Viva Engage's system requirements are consistent with those of Microsoft 365.
 
 - MAC OS 10.10 or later
 
-For the most up-to-date information, see [Office mobile apps](https://go.microsoft.com/fwlink/?linkid=2119145)
+For the most up-to-date information, see [Office mobile apps](https://go.microsoft.com/fwlink/?linkid=2119145).
 
 ### Q: Why am I seeing different features, colors, or a different layout than my colleagues?
 
