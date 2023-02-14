@@ -83,7 +83,7 @@ To configure SharePoint as a learning content sources in for Viva Learning, foll
 
      ![SharePoint list showing the Site contents navigation and the Learning App Content Repository section.](../media/learning/learning-sharepoint-configure4.png)
 
-5. On the **Learning App Content Repository** page, populate the SharePoint list with URLs to the learning content folders.
+5. On the **Learning App Content Repository** page, populate the SharePoint list with URLs to the learning content folders. Read [Folder URL document library curation](#folder-url-document-library-curation) for details about how to create the content folders.
 
    1. Select **New** to view the **New item** panel.
 
@@ -99,7 +99,7 @@ To configure SharePoint as a learning content sources in for Viva Learning, foll
 
    4. If your organization uses [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) and you try to add a link to a folder that doesn't belong to the central location, you'll get an error message. All folders need to belong to the central location.
     In case you encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers) for a detailed summary of successful and failed content ingestion.
-   1. 
+   
        ![Error message in the New item panel saying that all uploaded folders need to be in the central location.](../media/learning/learning-sharepoint-configure-geo2.png)
 
     e.  In case you encounter issues with content, refer to the export log file for a detailed summary of successful and failed content ingestions.
@@ -154,7 +154,8 @@ You can add links to both internal content from SharePoint and external content 
 
 5. The linked object will show up in the Viva Learning app.
 
-When users access the content from Viva Learning, they'll be taken to the URL of the content in their browser.
+> [!NOTE]
+>When users access the content from Viva Learning, they'll be taken to the URL of the content in their browser.
 Users within an organization can discover courses if they have permission, but they will only be able to consume the course if they have a Viva Suite or Viva Learning license. 
 
 ### Metadata
@@ -166,7 +167,7 @@ To improve overall discovery and search relevance of the content, we recommend a
 To add a metadata field, follow these steps first.
 
 > [!IMPORTANT]
-> You'll need to use the column names exactly as they're provided here for the metadata to pull through.
+> You'll need to use the column names exactly as they're provided here for the metadata to pull through. Adding metadata is optional, but if it's not configured correctly, the learning objects and any changes to those objects will also not pull through.
 
 1. Select the folder from your learning content repository.
 2. From the **Documents** page, select **Add column**.
@@ -225,6 +226,23 @@ Knowledge admins can access their organization's Learning App Content Repository
     ![Settings option page in SharePoint showing the Permissions and Check access options.](../media/learning/learning-sharepoint-library-2.png)
 
 3. Select **Check access** to connect to your organization's centralized library.
+
+### Add a display name
+
+1. In the Viva Learning app, select the **Admin** tab. 
+1. Navigate to **Manage providers**.
+1. Look for the SharePoint provider and select the ellipses (**...**).
+1. Select **Configure Provider**.
+
+![Screenshot of the Configure Provider option that can be accessed through manage providers.](../media/learning/sharepoint-display-name1.png)
+
+The display name is the organization or tenant name by default.
+
+5. Update display name.
+6. Click **Save**.
+
+![Screenshot of a configured SharePoint display name with the option to save.](../media/learning/sharepoint-display-name2.png)
+
 
 ### Delete content
 
