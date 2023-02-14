@@ -25,7 +25,7 @@ search.appverid:
 
  Engage admins can enable users to report a conversation on their network from the Engage admin center. Within the Engage admin center, navigate to the "Setup & Configuration" tab and select "Configure Tenant". You will be redirected to the Yammer admin webpage, where you can access "Report a conversation" under "Content & Security" on the left panel.
 
-![screenshot showing yammer reporting settings.](../media/yammer-conversations-admin-reportconversations.png)
+![screenshot showing yammer reporting settings.](../media/yammer-conversations-admin-report-conversations.png)
 
 ## Setting up the report a conversation feature
 
@@ -110,7 +110,7 @@ The organization email set for Report Conversations in the admin settings will r
 > [!NOTE]
 > Viva Engage does not support deep links to comments today. In the report emails for both conversation starters as well as comments, the link included in the report is always the conversation starter link. Reports do not contain deep links to a reported comment. The report reviewer can use the conversation starter link together with the reported comment timestamp to find the actual reported comment in the conversation.
 
-![screenshot showing reported conversation notification.](../media/yammer-conversaton-reportcomments-email.png)
+![screenshot showing reported conversation notification.](../media/yammer-conversaton-report-comments-email.png)
 
 A copy of this same email is also sent to the Viva Engage user who submitted the report.
 

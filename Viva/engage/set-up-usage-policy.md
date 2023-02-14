@@ -23,9 +23,9 @@ search.appverid:
 
 Creating a usage policy that users are required to accept can help ensure conversations on Viva Engage are positive, constructive, and in line with your company policies and culture. 
   
-You can choose to have a link to the usage policy in the side bar in each user's Viva Engage home screen, and to display the policy as a pop-up that users must accept before entering the network. 
+You can choose to have a link to the usage policy in the side bar in each user's Viva Engage home screen, and to display the policy as a pop-up that users must accept before entering the network.
   
-![The usage policy is displayed on the right sidebar.](../media/set-up-a-usage-policy-message.png)
+![The usage policy is displayed on the right sidebar.](../media/set-up-usage-policy-message.png)
   
 ## Set up or modify a Viva Engage usage policy
 
@@ -38,7 +38,7 @@ You can choose to have a link to the usage policy in the side bar in each user's
 4. Enter your usage policy text. You can use HTML code to format your usage policy. Basic HTML tags including links and basic formatting are allowed within the usage policy. JavaScript is not allowed.
 
     > [!TIP]
-    > Use the [Sample Viva Engage usage policy](set-up-a-usage-policy.md#SampleUsePolicy) for ideas of what to include.
+    > Use the [Sample Viva Engage usage policy](set-up-usage-policy.md#SampleUsePolicy) for ideas of what to include.
   
 ## Tips for creating your usage policy
 
@@ -70,12 +70,12 @@ You can add a custom link to your organization's browser policy. The link will b
   
  For example, if the admin specifies the URL for the browser policy as http&#58;//www&#46;contoso&#46;com/IT/browserpolicy&#46;htm, this is what the user will see at the top of the page when they use an old browser: 
   
-![Example of custom browser policy URL in obsolete browser notification.](../media/set-up-a-usage-policy-browser-warning.png)
+![Example of custom browser policy URL in obsolete browser notification.](../media/set-up-usage-policy-browser-warning.png)
   
 ## Add a link to your organization's browser policy
   
-1. In the Viva Engage admin center, Engage admin center, select **Configure Tenant** under the **Setup & configuration** tab. This will redirect you to the Yammer admin center, where you can select **Usage Policy**. Then select **Set a custom browser policy URL within your company**. 
+1. In the Viva Engage admin center, Engage admin center, select **Configure Tenant** under the **Setup & configuration** tab. This will redirect you to the Yammer admin center, where you can select **Usage Policy**. Then select **Set a custom browser policy URL within your company**.
 
-![Set a custom browser policy in the admin center](../media/set-up-a-usage-policy-browser-policy.png)
+![Set a custom browser policy in the admin center](../media/set-up-usage-policy-browser-policy.png)
 
 2. Specify the URL where your organization's browser policy is defined.

@@ -52,13 +52,11 @@ To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Colla
 
 2. The guest receives a welcome email message. This message includes information about the Viva Engage community to which the user is being invited, and the name of the community admin inviting the guest. The guest must accept the invitation by selecting **Go To Community** in the email message before accessing the Viva Engage community.
 
-    ![Yammer AAD B2B external message.](../media/engage-aad-b2b-external-message.png)
-
 3. By visiting the **Go to Community** link, the guest accepts the invitation. After accepting the invitation, the guest can participate in the Viva Engage community.
 
 4. The network switcher located in the suite header can be used to switch between the home Viva Engage network, any external Viva Engage communities the user is a guest in and External networks.
 
-    ![Screenshot of globe icon for switching networks.](../media/azure-ad-b2b-guests-engage-network-switch.png)
+    :::image type="content" source="../media/azure-ad-b2b-guests-engage-network-switch.png" alt-text="Screenshot of globe icon for switching networks.":::
 
 5. Everyone in the Viva Engage community can identify easily who is a guest. An External badge appears next to the guest in Viva Engage community posts, comments, community membership page, and search results. The Viva Engage community with guests will also have a Globe icon next to it.
 

@@ -23,13 +23,13 @@ search.appverid:
 
 When you assign user licenses as part of a bundled Microsoft 365 subscription plan such as Microsoft 365 Enterprise, the Viva Engage Core license is automatically assigned to the user. You can remove or assign Viva Engage Core licenses for specific users in the Microsoft 365 admin center or by using Windows PowerShell cmdlets for Microsoft 365.
   
-At launch and following the launch of the service plan, the Viva Engage Core service plan will also enable access to Yammer. This is to ensure uninterrupted Yammer experiences for your users. You can block users who don't have Viva Engage Core licenses from accessing Yammer and Viva Engage by turning on the security setting **Block Office 365 users without Yammer licenses** (see [Start blocking users who don't have Yammer licenses](manage-engage-licenses-in-microsoft-365.md#StartBlocking)).
+At launch and following the launch of the service plan, the Viva Engage Core service plan will also enable access to Yammer. This is to ensure uninterrupted Yammer experiences for your users. You can block users who don't have Viva Engage Core licenses from accessing Yammer and Viva Engage by turning on the security setting **Block Office 365 users without Yammer licenses** (see [Start blocking users who don't have Yammer licenses](manage-engage-licenses-microsoft-365.md#StartBlocking)).
   
 You need to be a Microsoft 365 global administrator or user management administrator to do the following operations.
   
 For now, users with either a Yammer license or a Viva Engage Core license will see Viva Engage in Teams application (if it's been added and installed through the Teams admin center). Learn more about [installing](/viva/engage/setup) Viva Engage for your organization.
   
-![Assign licenses section of Microsoft 365 admin center with Yammer Enterprise license available to assign.](../media/engage-assign-licenses-to-users.png)
+![Assign licenses section of Microsoft 365 admin center with Yammer Enterprise license available to assign.](../media/engage-assign-licenses-users.png)
   
 ## Manage Viva Engage Core licenses in the Microsoft 365 admin center
 
