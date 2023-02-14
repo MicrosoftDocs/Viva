@@ -36,7 +36,7 @@ In the Microsoft Viva Insights app, use the **Home** tab to discover key wellbei
 * Schedule [emails for later](../../use/schedule-send.md).
 * Relax with [quiet time](quiet-time.md).
 * Set [virtual commute](virtual-commute.md) reminders.
-* Make [time for messages](wellbeing-plans.md).
+* Make [time for messages](time-management.md).
 * [Mediate](headspace.md) or do a breathing exercise.
 * [Reflect](reflect.md) on the day.
 
@@ -112,5 +112,5 @@ To learn more about organization insights, refer to our [organization insights d
 
 [Virtual commute](virtual-commute.md)
 
-[Wellbeing plans](wellbeing-plans.md)
+[Time management features](time-management.md)
 
