@@ -34,7 +34,7 @@ If your organization is ready to start inviting guests to Viva Engage communitie
 Engage admins can enable guest access on their networks from the Engage admin center. Within the Engage admin center, navigate to the **Compliance & Governance** tab and click on **Manage data**. You will be redirected to the Yammer admin webpage, where you can enable guest access by navigating to **Security settings** and selecting **External Messaging**.
 
 > [!div class="mx-imgBorder"]
-> ![Yammer admin panel external user settings.](../media/azure-ad-b2b-guests-engage-external-messaging.png)
+> :::image type="content" source="../media/azure-ad-b2b-guests-engage-external-messaging.png" alt-text="Yammer admin panel external user settings.":::
 
 This setting is a Viva Engage tenant-wide setting. Enabling guest access here will allow community admins to add guests to any Viva Engage community in the network. You can control guest access to individual Viva Engage communities [by using sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
@@ -59,7 +59,7 @@ To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Colla
 
 5. Everyone in the Viva Engage community can identify easily who is a guest. An External badge appears next to the guest in Viva Engage community posts, comments, community membership page, and search results. The Viva Engage community with guests will also have a Globe icon next to it.
 
-    ![Screenshot showing a post from an external user.](../media/engage-aad-b2b-externaluser-post.png)
+    :::image type="content" source="../media/engage-aad-b2b-externaluser-post.png" alt-text="Screenshot showing a post from an external user.":::
 
     The Viva Engage community with guests will also have a Globe icon next to it.
 
@@ -67,7 +67,7 @@ To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Colla
 
 6. Guests can leave the Viva Engage community at any time by hovering over the Joined button in the community header.
 
-     ![Screenshot showing the button to leave an external community.](../media/engage-aad-b2b-external-community-leave.png)
+    :::image type="content" source="../media/engage-aad-b2b-external-community-leave.png" alt-text="Screenshot showing the button to leave an external community.":::
 
     > [!NOTE]
     > Leaving the Viva Engage community doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 global admin or an Azure AD admin.

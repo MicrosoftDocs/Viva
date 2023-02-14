@@ -25,11 +25,11 @@ search.appverid:
 
  Engage admins can enable users to report a conversation on their network from the Engage admin center. Within the Engage admin center, navigate to the "Setup & Configuration" tab and select "Configure Tenant". You will be redirected to the Yammer admin webpage, where you can access "Report a conversation" under "Content & Security" on the left panel.
 
-![screenshot showing yammer reporting settings.](../media/yammer-conversations-admin-report-conversations.png)
+:::image type="content" source="../media/yammer-conversations-admin-report-conversations.png" alt-text="screenshot showing yammer reporting settings.":::
 
 ## Setting up the report a conversation feature
 
-![screenshot showing yammer reporting admin panel.](../media/yammer-conversations-fulladmin-panel.png)
+:::image type="content" source="../media/yammer-conversations-full-admin-panel.png" alt-text="screenshot showing yammer reporting admin panel.":::
 
 After enabling conversations, enter information for the following two settings:
 
@@ -58,7 +58,7 @@ Some things you may consider including are:
 
 The text you enter will be displayed under the **Report Conversation** or **Report Comment** header when a user reports a conversation or comment. You can enter a maximum of 1500 characters.
 
-![screenshot showing reporting a conversation.](../media/yammer-conversations-report-comment.png)
+:::image type="content" source="../media/yammer-conversations-report-comment.png" alt-text="screenshot showing reporting a conversation.":::
 
 ## Post-submission instructions to user
 
@@ -75,23 +75,23 @@ The text entered in this field will be shown to your end users underneath a defa
 
 When enabled, users accessing Viva Engage will see the **Report Conversation** option on conversation starters and **Report Comment** on comments and replies.
 
-![Screenshot showing user reporting for conversation starter.](../media/yammer-conversations-report-dropdown.png)
+:::image type="content" source="../media/yammer-conversations-report-dropdown.png" alt-text="Screenshot showing user reporting for conversation starter.":::
 
 **Report Conversation option on conversation starter**
 
-![Screenshot showing user reporting for comment.](../media/yammer-conversations-report-comment-dropdown.png)
+:::image type="content" source="../media/yammer-conversations-report-comment-dropdown.png" alt-text="Screenshot showing user reporting for comment.":::
 
 **Report Conversation option on conversation comment**
 
 Users will then see a right panel pop out with the custom message from the Engage admin and a required **Reason for Reporting box.**
 
-![screenshot showing reason for reporting.](../media/yammer-conversations-report-comment.png)
+:::image type="content" source="../media/yammer-conversations-report-comment.png" alt-text="screenshot showing reason for reporting.":::
 
 The conversation or comment reported, along with who is reporting, and the reason for reporting, will be sent to the email specified in the **Report Conversations** settings.
 
 Upon successful submission, the user will see the optional custom message configured by the admin. They will also receive a confirmation message with a link to the conversation, comment, or reply reported and the comment included in the report.
 
-![screenshot showing successs reporting submission.](../media/yammer-conversations-report-submitted-panel-closeup.png)
+:::image type="content" source="../media/yammer-conversations-report-submitted-panel-closeup.png" alt-text="screenshot showing success reporting submission.":::
 
 ## Report Emails
 

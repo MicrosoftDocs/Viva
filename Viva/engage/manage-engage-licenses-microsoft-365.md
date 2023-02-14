@@ -28,8 +28,8 @@ At launch and following the launch of the service plan, the Viva Engage Core ser
 You need to be a Microsoft 365 global administrator or user management administrator to do the following operations.
   
 For now, users with either a Yammer license or a Viva Engage Core license will see Viva Engage in Teams application (if it's been added and installed through the Teams admin center). Learn more about [installing](/viva/engage/setup) Viva Engage for your organization.
-  
-![Assign licenses section of Microsoft 365 admin center with Yammer Enterprise license available to assign.](../media/engage-assign-licenses-users.png)
+
+:::image type="content" source="../media/engage-assign-licenses-users.png" alt-text="Assign licenses section of Microsoft 365 admin center with Yammer Enterprise license available to assign.":::
   
 ## Manage Viva Engage Core licenses in the Microsoft 365 admin center
 
