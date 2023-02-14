@@ -43,7 +43,7 @@ For information on how to make someone an admin and a full list of what each adm
 
 2. Set up your Viva Engage network to match your organization's goals:
 
-- [Configure](./setup.md) and [customize](./setup.md) your network. [Set up a usage policy](./set-up-a-usage-policy.md) to keep conversations appropriate and useful.
+- [Configure](./setup.md) and [customize](./setup.md) your network. [Set up a usage policy](./set-up-usage-policy.md) to keep conversations appropriate and useful.
 
 - Review the [security and compliance features](/yammer/manage-security-and-compliance/security-and-compliance) and define your data retention and export plans.
 

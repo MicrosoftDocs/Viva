@@ -119,7 +119,6 @@ If you're ready to block users who don't have Yammer and Viva Engage Core licens
     If you don't choose **Save** but instead navigate away from the page, your settings won't take effect.
 
 ## FAQ
-<a name="StartBlocking"> </a>
 
 ### Q: Why are Viva Engage Core licenses per-user?
 
@@ -131,7 +130,7 @@ A: Licenses are enforced only for users who sign-in with Office 365 identity.
   
 ### Q: What if I don't want anyone in my company to use a legacy Yammer identity?
 
-A: You can [Enforce Office 365 identity](/yammer/configure-your-yammer-network/enforce-office-365-identity.md) for all your Yammer users.
+A: You can [Enforce Office 365 identity](/yammer/configure-your-yammer-network/enforce-office-365-identity) for all your Yammer users.
   
 ### Q: How can I tell if all of my Yammer users have accounts in Office 365?
 

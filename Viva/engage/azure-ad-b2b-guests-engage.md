@@ -25,7 +25,6 @@ The Viva Engage guests feature allows organizations to call in experts such as v
 
 Any Microsoft 365 user who is not part of your organization can be added as guest to a Viva Engage community by a Community admin.  AzureAD-B2B guests in Viva Engage communities are covered by the same compliance and auditing protection as the rest of Microsoft 365, and can be managed within Azure AD. Guest access is subject to Azure AD and Microsoft 365 service limits.
 
-
 ## Pre-requisites for adding an AzureAD-B2B guest to a Viva Engage community
 
 A Viva Engage tenant should be aligned to native mode before inviting a guest as an AzureAD-B2B guest to a Viva Engage community. Inviting a guest requires configuring settings in Viva Engage and other Microsoft 365 services, including settings in Azure AD, Microsoft 365 Groups, and SharePoint.

@@ -50,7 +50,7 @@ The downloadable Alignment Report will provide you with information on the quant
 
 - *Native Mode doesn't support network-level guests*: For greater network security, guests cannot be given access to an entire Viva Engage network. The downloadable Alignment Report will provide you with information on the quantity and activity of guests in your network.
 
-- *External participants*: Viva Engage currently allows users to add external participants to individual threads. This feature isn't available for Viva Engage Enterprise networks that are in Native Mode or the [EU Geo](/yammer/manage-security-and-compliance/manage-data-compliance.md). This feature isn't compatible with the Azure B2B guest model, and so won't be supported in Native Mode networks.
+- *External participants*: Viva Engage currently allows users to add external participants to individual threads. This feature isn't available for Viva Engage Enterprise networks that are in Native Mode or the [EU Geo](/yammer/manage-security-and-compliance/manage-data-compliance). This feature isn't compatible with the Azure B2B guest model, and so won't be supported in Native Mode networks.
 
 - *File uploads in Viva Engage Private messages*: In order to be in Native Mode, all files uploaded in Viva Engage must be stored in SharePoint. Since Viva Engage private messages don't store files in SharePoint or OneDrive for Business, the Alignment Tool must delete any previously uploaded private message files. Users will no longer be able to upload files in private messages. The downloadable Alignment Report will provide you with information on the quantity of files previously uploaded in private messages.
 
@@ -272,4 +272,4 @@ Whatever path you choose, we recommend you communicate clearly to the users in y
 
 [Microsoft 365 Security & Compliance Portal](https://go.microsoft.com/fwlink/?linkid=2111321)
 
-[Manage Yammer data compliance](/OfficeDocs-O365ITPro-pr/yammer/manage-security-and-compliance/manage-data-compliance)
+[Manage Yammer data compliance](/yammer/manage-security-and-compliance/manage-data-compliance)

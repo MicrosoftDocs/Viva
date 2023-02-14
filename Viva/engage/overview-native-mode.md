@@ -46,7 +46,7 @@ A tenant must be in one of three modes:
 > Non-Native and Hybrid modes are being deprecated in 2023.
 
 
-When you align your network in Native Mode, the [Native Mode Alignment Tool](./native-mode-step-by-step-guide.md) automates the process and guides you through the steps to get there.
+When you align your network in Native Mode, the [Native Mode Alignment Tool](./native-mode-guide.md) automates the process and guides you through the steps to get there.
 
  > [!NOTE]
 > All Company now works like any other community in Native Mode. Admins can customize All Company and use advanced management features like restricting posts and promoting others as admins. See [All Company now works like other Yammer communities](/yammer/manage-yammer-groups/yammer-all-company-yammer-community) for more information.
