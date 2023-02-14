@@ -20,19 +20,21 @@ description: "Viva Goals language support"
 
 # Supported languages in Viva Goals
 
-Currently, Viva Goals supports the following languages. 
+Currently, Viva Goals supports the following languages: 
 
 |Currently Supported  | &nbsp; |&nbsp; |
 |---|---|---|
 Chinese (Simplified)|Chinese (Traditional)| Croatian|
 Czech|Danish|Dutch
-English (US), English (UK)|Estonian|Finnish|
-French (France), French (Canada)|German|Greek|
-Hungarian|Indonesian|Italian|
-Japanese|Korean|Norwegian (Bokmal)
-Portuguese (Brazil), Portuguese (Portugal)|Romanian|Russian
-Spanish (Spain), Spanish (Mexico)|Polish|Swedish|
-Thai|Turkish|Ukrainian|
+English (US)|English (UK)|Estonian|
+Finnish|French (France)|French (Canada)|
+German|Greek|Hungarian|
+Indonesian|Italian|Japanese|
+Korean|Norwegian (Bokmal)|Portuguese (Brazil)
+Portuguese (Portugal)|Romanian|Russian
+Spanish (Spain)|Spanish (Mexico)|Polish|
+Swedish|Thai|Turkish|
+Ukrainian|
 
 
 |Coming Soon | &nbsp; |&nbsp; |
