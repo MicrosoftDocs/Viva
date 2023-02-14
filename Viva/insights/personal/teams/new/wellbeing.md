@@ -15,14 +15,14 @@ audience: user
 	
 Use the **Wellbeing** tab in Microsoft Viva Insights to understand your work habits, manage your team better, and promote a healthy balance between life and work. 
 
-:::image type="content" source="../../Images/MyA/reference/redesign-wellbeing-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../Images/MyA/reference/redesign-wellbeing.png":::
+:::image type="content" source="../../../../Imag../../M../../referen../../redesign-wellbeing-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../../../Imag../../M../../referen../../redesign-wellbeing.png":::
 
 >[!Note]
 > If you're a leader or manager, you'll see an additional section at the top of your Wellbeing tab. Make sure to check out the [For leaders and managers](#for-leaders-and-managers) section later in this article.
 
 Here's what you can do in **Wellbeing**:
 
-* Start plans to [focus](../use/focus-plan.md), [learn, take breaks, and catch up on messages](wellbeing-plans.md).
+* Start plans to [focus](../../u../../focus-plan.md), [learn, take breaks, and catch up on messages](wellbeing-plans.md).
 
 * [Book impromptu focus sessions and enter a distraction-free focus mode](focus.md).
 
@@ -59,15 +59,15 @@ Each day, an insight related to one of the following topics appears at the top o
 
 On the insight card, view the current week's average measure, the difference from the prior period's average, and the measure's 12-week trend. 
 
-:::image type="content" source="./images/wellbeing-org-insights.png" alt-text="Screenshot that shows an uninterrupted focus hours organization insight at the top of the Wellbeing tab.":::
+:::image type="content" source=../../imag../../wellbeing-org-insights.png" alt-text="Screenshot that shows an uninterrupted focus hours organization insight at the top of the Wellbeing tab.":::
 
 If you want more information about the insight, including a comparison to peer organizations (for eligible users), a breakdown by team, a percentage distribution, and calculation methods, select **Show details** on the insight card.
 
-:::image type="content" source="./images/wellbeing-org-insights-detail.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
+:::image type="content" source=../../imag../../wellbeing-org-insights-detail.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
 
 To help your team improve their meeting effectiveness, Viva Insights shows you a recommended action—for example, starting a shared focus plan. Select the action button, like **Set up plan**, either on the insight card on the **Wellbeing** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.
 
-To learn more about organization insights, refer to our [Organization insights](../../org-team-insights/org-insights.md) article.
+To learn more about organization insights, refer to our [Organization insights](../../../../org-team-insigh../../org-insights.md) article.
 
 
 

@@ -19,14 +19,14 @@ Review tomorrow's upcoming meetings, tasks, and commitments, and end today mindf
 
 When a card at the top of your **Wellbeing** tab prompts you to "wrap up," select **Let's go** to start your virtual commute right away.
 
-![Screenshot that shows the Home page with virtual commute card.](images/wellbeing-vc.png)
+![Screenshot that shows the Home page with virtual commute card.](imag../../wellbeing-vc.png)
 
 <!--Anji to verify-->
 
 This message appears at the following times:
 
 * If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about changing this and other settings, refer to [Insights app settings](viva-teams-app-settings.md).
-* If you haven't configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance).
+* If you haven't configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](http../..//outlook.office.c../../calend../../optio../../calend../../vi../../appearance).
 
 
 ## Set up virtual commutes
@@ -35,7 +35,7 @@ The first time you open **Wellbeing**, you're prompted to schedule your virtual 
 
 <!--Anji to verify-->
 
-![Screenshot that shows option to schedule virtual commute.](Images/virtual-commute-reminders.png)  
+![Screenshot that shows option to schedule virtual commute.](Imag../../virtual-commute-reminders.png)  
 
 You can use this prompt to turn on the **Reminder** toggle, then select the days and time of day that you want to see the virtual commute reminder. When you're done, select **Save changes**.
 
@@ -53,7 +53,7 @@ If you need to adjust these settings at any time, you can do so on the **Setting
 
 After you select **Let's go**, your virtual commute starts.
 
-![Screenshot that shows adding a task.](Images/vc-begin.png)
+![Screenshot that shows adding a task.](Imag../../vc-begin.png)
 
 The commute guides you through the following sections. All sections are optional; to skip a section, just select **Next**.
 
@@ -63,11 +63,11 @@ In **Meetings**, you can review tomorrow’s events—those that last all day, t
 
 If an event needs your RSVP, you can **Accept** or **Decline** it from this screen. 
 
-![Screenshot that shows the option to RSVP to an event.](Images/vc-needs-rsvp3.png) 
+![Screenshot that shows the option to RSVP to an event.](Imag../../vc-needs-rsvp3.png) 
 
 If you don’t have any events coming up tomorrow, you’ll see open blocks on your calendar that you can use for focus time, instead. Select **Book time** to add that focus time to your calendar.
 
-![Screenshot that shows the option to book focus time.](Images/vc-no-events1.png) 
+![Screenshot that shows the option to book focus time.](Imag../../vc-no-events1.png) 
 
 When you’re ready to move to the next section, select **Next** at the bottom-right of the page.
 
@@ -81,13 +81,13 @@ In addition to viewing your existing tasks, you can do a few other things in thi
 
 * **Add a suggested task surfaced from Outlook or Teams.** If To Do notices a potential task in your chats or emails, a notification appears above **Your tasks**. Select the down arrow to expand the message. If you want to put this task on your To Do list, select the **Add to your tasks** button. 
 
-    ![Screenshot that shows adding a suggested task.](Images/vc-suggested-task.png)
+    ![Screenshot that shows adding a suggested task.](Imag../../vc-suggested-task.png)
 
 * **Cross a completed task off your list.** Select the circle to the left of the task name, which sends the task to your **Tasks completed today** list. If you want to delete the task from To Do, select the trash can icon to the right of the task name.
 
 * **Set a reminder.** Select the ellipses (…) to the right of the task name, then pick a time you want to be reminded. Reminders appear in your Microsoft To Do list and in your Briefing email, if you’re subscribed to receive Briefing emails. You can also **Edit** and **Delete** tasks from this menu.
 
-    ![Screenshot that shows setting a reminder.](Images/vc-set-reminder.png)
+    ![Screenshot that shows setting a reminder.](Imag../../vc-set-reminder.png)
 
 After you’re done reviewing and managing your tasks, select **Next** to move to the last section.
 
@@ -99,7 +99,7 @@ After you’re done reviewing and managing your tasks, select **Next** to move t
 * If you have access to Headspace, a few guided meditation videos
 * The opportunity to reflect, just like you would using the [Reflect](reflect.md) feature on the **Home** page
 
-![Screenshot that shows the Wind down section.](Images/vc-wind-down1.png)
+![Screenshot that shows the Wind down section.](Imag../../vc-wind-down1.png)
 
 **Start** one or more of these activities to help transition to the next part of your day.
 

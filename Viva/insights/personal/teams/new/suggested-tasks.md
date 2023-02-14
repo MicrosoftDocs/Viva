@@ -17,7 +17,7 @@ audience: user
 
 In the **Productivity** tab, use the **Suggested tasks** section to stay connected with your collaborators and improve your productivity.
 
-:::image type="content" source="../images/productivity-suggested-tasks3.png" alt-text="Screenshot that shows the Suggested tasks page." :::
+:::image type="content" source="../../images/productivity-suggested-tasks3.png" alt-text="Screenshot that shows the Suggested tasks page." :::
 
 In **Suggested tasks**, you can:
 
@@ -35,12 +35,12 @@ Based on your collaboration patterns, you can pin some of your contacts as impor
 
 To pin a contact, select the **pin** icon on the bottom left below the contact’s name:
 
-:::image type="content" source="../images/productivity-suggested-tasks-pin.png" alt-text="Screenshot that shows a pin icon highlighted beneath a user's name and profile image." :::
+:::image type="content" source="../../images/productivity-suggested-tasks-pin.png" alt-text="Screenshot that shows a pin icon highlighted beneath a user's name and profile image." :::
 
 
 To unpin a contact, select the **unpin** icon:
 
-:::image type="content" source="../images/productivity-suggested-tasks-unpin.png" alt-text="Screenshot that shows an unpin icon highlighted beneath a user's name and profile image.":::
+:::image type="content" source="../../images/productivity-suggested-tasks-unpin.png" alt-text="Screenshot that shows an unpin icon highlighted beneath a user's name and profile image.":::
 
 ## Stay on top of commitments, requests, and follow-ups
 
@@ -52,9 +52,9 @@ It's easy to lose track of commitments made over email. To help make sure nothin
 
 Here's an example of a commitment. After it's complete, you can mark it as **Done**.
 
-:::image type="content" source="../images/productivity-suggested-tasks-commitment.png" alt-text="Screenshot that shows a commitment task notification.":::
+:::image type="content" source="../../images/productivity-suggested-tasks-commitment.png" alt-text="Screenshot that shows a commitment task notification.":::
 
-This insight is available in the languages listed in [Briefing languages](../briefing/be-languages.md).
+This insight is available in the languages listed in [Briefing languages](../../briefing/be-languages.md).
 
 ## Catch up on unread documents shared with you
 
@@ -62,13 +62,13 @@ Searching for that document you planned to read but just can't find it? With so 
 
 When Viva Insights suggests catching up on an unread document, select **Open** to read it.
 
-:::image type="content" source="../images/productivity-suggested-tasks-unread-doc2.png" alt-text="Screenshot that shows an unread document notification.":::
+:::image type="content" source="../../images/productivity-suggested-tasks-unread-doc2.png" alt-text="Screenshot that shows an unread document notification.":::
 
 ## Get mentions from pinned important contacts
 
 @mention is a common way to tag colleagues on important work items. Viva Insights can help you quickly triage recent @mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up.
 
-:::image type="content" source="../images/productivity-suggested-tasks-mention.png" alt-text="Screenshot that shows an @mention for a pinned important contact, which the message text and title.":::
+:::image type="content" source="../../images/productivity-suggested-tasks-mention.png" alt-text="Screenshot that shows an @mention for a pinned important contact, which the message text and title.":::
 
 ## RSVP to upcoming meetings 
 
@@ -76,7 +76,7 @@ Letting your colleagues know if you can join their meeting helps them run more e
 
 Select the **RSVP** button to **Accept** or **Decline** the meeting invitation. You can also select the meeting name for more information about the event.
 
-:::image type="content" source="../images/productivity-suggested-tasks-rsvp1.png" alt-text="Screenshot that shows a notification that the user hasn't RSVP'd for a meeting, which includes a RSVP button.":::
+:::image type="content" source="../../images/productivity-suggested-tasks-rsvp1.png" alt-text="Screenshot that shows a notification that the user hasn't RSVP'd for a meeting, which includes a RSVP button.":::
 
 ## Related topics
 

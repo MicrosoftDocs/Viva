@@ -19,7 +19,7 @@ If you manage direct reports or are an organization leader, check out this artic
 
 ## Build better relationships
 
-:::image type="complex" source="../images/teamwork-ic1.png" alt-text="Screenshot that shows Build better relationships section on the Teamwork tab.":::
+:::image type="complex" source="../../images/teamwork-ic1.png" alt-text="Screenshot that shows Build better relationships section on the Teamwork tab.":::
    Screenshot of the "Build better relationships" section of the Teamwork tab. The subtitle says, "Grow your network and foster healthy work relationships with your collaborators." Below the subtitle, there are three cards. The first card is named, "Time spent collaborating with others," and the subtitle says, "Who did you actively connect with in the last month and when?". The card then shows a numerical insight, "10", with profile images of collaborators, labeled, "Number of collaborators." To the right, there are two numerical insights: "27 h," labeled "Collaboration time within working hours," and "12 h," labeled, "Collaboration time outside working hours." The button in the bottom left of the card is labeled, "About your network." The next card reads, "Your communication habits," labeled, "How much of your time was spent collaboration with peers?". The card shows a donut graph of collaboration time and time available to focus, and show statistics about how much collaboration time went to each surface: email, chat, and meetings. The button in the bottom left of the card reads, "Show details."The third card is "Suggested important contact," which shows a collaborator's name and their profile image, and provides a numerical insight about "Time collaborating in the past 4 weeks." Users can select the "Pin" button and/or move to "Next person."
 :::image-end:::
 
@@ -32,7 +32,7 @@ You’ll find three cards on your **Teamwork** tab, under the Build better relat
  
 ## Network
 
-:::image type="complex" source="../images/teamwork-network1.png" alt-text="Screenshot that shows Network section on the Teamwork tab.":::
+:::image type="complex" source="../../images/teamwork-network1.png" alt-text="Screenshot that shows Network section on the Teamwork tab.":::
    Screenshot of the "Network" section of the Teamwork tab. The subtitle reads, "Stay on top of important tasks and get suggestions on how to work together effectively." There are three cards below the subtitle. The first card is "Suggested important contact," with the same content as in the earlier "Build better relationships" section. The next card is "Quiet hours collaborators." The card is labeled, "The people you spend the most time working with after working hours are:" and the card then shows profile images of collaborators. Beneath the profile images is a numerical insight, "12 h," representing how much time the user spent collaborating during their quiet hours. The button at the bottom left of the card reads, "Show suggestions." The third card is "Your new collaborators," and shows colleague profile images. Beneath the profile images, there's a subtitle listing which collaborators the user recently added to their network. The button at the bottom left of the card reads, "Show suggestions."
 :::image-end:::
 
@@ -47,7 +47,7 @@ When you select **About your network** on the **Time spent collaborating with ot
 
 ### Collaborators
 
-:::image type="complex" source="../images/teamwork-network-TEMP-collaborators.png" alt-text="Screenshot that shows Collaborators section on the Teamwork tab.":::
+:::image type="complex" source="../../images/teamwork-network-TEMP-collaborators.png" alt-text="Screenshot that shows Collaborators section on the Teamwork tab.":::
    Screenshot of the "Collaborators" section of the Teamwork tab. The subtitle reads, "Who did you work closely with in the last 4 weeks?". The image is arranged as a map, with the user's profile picture on the far left of the image, and collaborators they've recently worked with in three semi-rings, arranged from "Most frequent" closest to the user's image to "Least frequent" on the right side of the image. The image shows hovering over a collaborator in the "Most frequent" ring. A card beneath this collaborator's profile image shows their name, position, contact and praise links, and how much total time the user has spent collaborating with them. Below the total collaboration time, the card shows a "Collaboration breakdown," listing how much time this collaborator has worked with the user over email, over chat, and in meetings. At the bottom of the card, there are are two numbers: a total of events they need an RSVP for from the user, and the number of tasks the user still needs to complete for them.
 :::image-end:::
 
@@ -57,7 +57,7 @@ If you can’t find a frequent collaborator on your network map, use the Search 
  
 ### Communication habits
 
-:::image type="complex" source="../images/teamwork-communication-habits.png" alt-text="Screenshot that shows Communication habits section on the Teamwork tab.":::
+:::image type="complex" source="../../images/teamwork-communication-habits.png" alt-text="Screenshot that shows Communication habits section on the Teamwork tab.":::
    Screenshot of the "Communication habits" section of the Teamwork tab. The subtitle reads, "How connected are you with people in your network?" and contains a "Learn more" link. Below the subtitle, there's a section that contains a bar graph. To the left of the graph, there's a sub-section titled, ""Your habits in the last 4 weeks," which contains three numbers arranged vertically: the first is labeled, "Emails sent," the second is labeled, "Emails read," and the last is labeled, "Chats and calls." The graph's Y axis goes from 0 - 300 in increments of 100. The X axis goes from 8:00 AM to 8:00 PM in increments of 2 hours. The graph's key corresponds to the section to the left: "Emails sent," "Emails read," and "Chats and calls." Each hour on the graph contains one stacked bar representing these three categories. The image shows a hover tooltip over 10:00 AM, which reports the exact number for each category in that hour. There's an "Is this helpful?" link in the bottom right corner, with "Yes" and "No" options.
 :::image-end:::
 
@@ -69,10 +69,10 @@ If you can’t find a frequent collaborator on your network map, use the Search 
 
 If you manage a team, you’ll find a **Manage time with direct reports** section near the top of your **Teamwork** tab. Use the information here to help you keep up with your direct reports and book time with them. To set up recurring 1:1s with your directs—and to remind you both to add top-of-mind topics and clear any conflicting events beforehand—we built a 1:1 meeting plan. To learn more about the 1:1 plan and to get one started, go to our [1:1 meeting plan documentation](1-1-plan.md).
 
-:::image type="complex" source="../images/1-1-plan-start2.png" alt-text="Screenshot that shows starting a 1:1 plan on the Teamwork tab.":::
+:::image type="complex" source="../../images/1-1-plan-start2.png" alt-text="Screenshot that shows starting a 1:1 plan on the Teamwork tab.":::
    Screenshot of the "Manage time with your team" section in the Teamwork tab. On the left, there's a "Set up a 1:1 plan with your direct reports" window with three descriptions: "Get reminders to prepare for 1:1s," "Share meeting topics to stay productive," and "Resolve any meeting conflicts." A button is highlighted which reads, "Set up 1:1 plan." On the right, there's a window of a table with four rows and four columns. Each row is for one employee. Column one is "Name (8)" with each employees' name. Column two and three are "Last 1:1" and "Next 1:1" with a date, time, duration, and recurring icon, except for row 1, which shows "Not scheduled." Column 4 is "Schedule," which has a calendar-icon button on each row. Beneath the "Name" column, there's a "Show more" link, and beneath the "Schedule" column, there's an "Is this helpful?" label with "Yes" and "No" links.
 :::image-end:::
 
-If you’re an organization leader—that is, your Insights admin has assigned you the **Insights Business Leader** role or enabled you as a group manager—you’ll see a **Teamwork insights for your organization** section at the top of your **Teamwork** tab. Each day, you’ll either receive an insight about manager 1:1 meeting hours or internal network size across your organization or company. To learn more about organization insights, refer to [Organization insights in the Viva Insights app](../../org-team-insights/org-insights.md).
+If you’re an organization leader—that is, your Insights admin has assigned you the **Insights Business Leader** role or enabled you as a group manager—you’ll see a **Teamwork insights for your organization** section at the top of your **Teamwork** tab. Each day, you’ll either receive an insight about manager 1:1 meeting hours or internal network size across your organization or company. To learn more about organization insights, refer to [Organization insights in the Viva Insights app](../../../../org-team-insights/org-insights.md).
 
-![Screenshot that shows Teamwork insights for your organization section on the Teamwork tab.](../images/teamwork-org-insights.png)
+![Screenshot that shows Teamwork insights for your organization section on the Teamwork tab.](../../images/teamwork-org-insights.png)

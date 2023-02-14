@@ -25,12 +25,12 @@ You can start a guided meditation whenever you want. To find and complete a medi
 
 1. In the **Wellbeing** tab in your Viva Insights app, go to the **Act with intention** section, and select **Guided meditations**.
 
-   ![Screenshot that shows the Act with intention > Guided meditations section with the Guided meditations option highlighted.](../images/wellbeing-start-meditation.png)
+   ![Screenshot that shows the Act with intention > Guided meditations section with the Guided meditations option highlighted.](../../images/wellbeing-start-meditation.png)
 
 1. Start an exercise by selecting its **Play** button.
 1. If you want to do another exercise, select **More exercises**. Otherwise, close the window to complete your meditation.
 
-   ![Screenshot that shows selecting the More exercises link.](../images/wellbeing-headspace-more-exercises.png)
+   ![Screenshot that shows selecting the More exercises link.](../../images/wellbeing-headspace-more-exercises.png)
 
 <!--verify with Anji whether there's any other way to get to these other exercises-->
 
@@ -45,7 +45,7 @@ Let's say you wanted to listen to focus music from Headspace while you continued
 
 3. Select **Pop out app**.
 
-   ![Screenshot that shows the Headspace app pop-out.](../images/pop-out-app.png)
+   ![Screenshot that shows the Headspace app pop-out.](../../images/pop-out-app.png)
 
 
 4. In the resulting second window, select **More mindfulness exercises** and then start a Headspace meditation or Focus music as described in [Start a guided meditation](#start-a-guided-meditation).

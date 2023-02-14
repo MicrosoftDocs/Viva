@@ -17,7 +17,7 @@ audience: user
 
 ## Q1. Can I opt in or opt out of seeing organization insights?
 
-To opt out or back into seeing organizational insights, your Viva Insights administrator needs to enable or disable group manager permissions for you. They can enable these permissions by following the directions in [Manager settings](../advanced/setup-maint/manager-settings.md).
+To opt out or back into seeing organizational insights, your Viva Insights administrator needs to enable or disable group manager permissions for you. They can enable these permissions by following the directions in [Manager settings](../../advanced/setup-maint/manager-settings.md).
 
 ## Q2. I see my organization insights cards, but the current week values are just “—“. What’s happening?
 

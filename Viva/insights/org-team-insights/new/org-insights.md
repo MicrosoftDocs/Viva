@@ -22,8 +22,8 @@ Organization insights help leaders and managers of large teams understand how th
 To view organization insights:
 
 * You need to have a Viva Insights subscription (that is, a premium license).
-* Your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
-* You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
+* Your Insights admin needs to assign you the [**Insights Business Leader** role](../../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
+* You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
 
 People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
 
@@ -37,7 +37,7 @@ People enabled as group managers can access organization insights that include p
 
 Viva Insights commits that no user will discover information about another identified individual that they couldn't already know. This principle applies to every feature in Viva Insights, including organization insights.
 
-For further detail about privacy and organization insights, refer to our [privacy information](../advanced/privacy/privacy.md#about-organization-insights).
+For further detail about privacy and organization insights, refer to our [privacy information](../../advanced/privacy/privacy.md#about-organization-insights).
 
 
 ## Using organization insights
@@ -113,7 +113,7 @@ Let's take a look at how to use these features:
 
 The following table lists metrics related to organization insights. You can also access metric definitions while you're using Viva Insights—just select the (i) icon next to the organization insight card or organization insight page title.
 
-Refer to [Metric definitions](../advanced/reference/metrics.md) for all Viva Insights metric definitions.
+Refer to [Metric definitions](../../advanced/reference/metrics.md) for all Viva Insights metric definitions.
  
 |Metric	| How it’s calculated|
 |--------|--------------------|

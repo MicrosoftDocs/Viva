@@ -14,10 +14,10 @@ audience: Admin
 
 # Shared focus plan
 
-*To start a shared focus plan, you need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../overview/plans-environments.md). A Viva Insights license isn't required to participate in a shared focus plan.*
+*To start a shared focus plan, you need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../../overvi../../plans-environments.md). A Viva Insights license isn't required to participate in a shared focus plan.*
 
 >[!Note]
->This article talks about a focus plan shared between a group. If you just want to block out time on your calendar to focus, refer to our [Focus plan documentation](../use/focus-plan.md).
+>This article talks about a focus plan shared between a group. If you just want to block out time on your calendar to focus, refer to our [Focus plan documentation](../../u../../focus-plan.md).
 
 
 A shared focus plan in Microsoft Viva Insights helps your group book daily, uninterrupted time to get work done. This plan also helps build shared productivity habits with your coworkers.
@@ -29,20 +29,20 @@ A shared focus plan in Microsoft Viva Insights helps your group book daily, unin
 1. In the **Wellbeing** tab, go to the **Take action to improve your wellbeing** section.
 2. Find the **Start a shared focus plan** card and select the **Set up plan** button.
 
-   ![Start a shared focus plan](./Images/wellbeing-start-sfp.png)
+   ![Start a shared focus plan]../../Imag../../wellbeing-start-sfp.png)
 
 3. When prompted, select **Next**.
 1. In **Who would you like to invite?**, add people you want to invite. You can start typing names in the search box. When you’re done, select **Next**.
    
-    ![Screenshot that shows adding plan recipients.](./Images/wellbeing-sfp-step2.png)
+    ![Screenshot that shows adding plan recipients.]../../Imag../../wellbeing-sfp-step2.png)
 
 1. In **Customize your shared focus plan**, select the number of hours per day, the general time of day, and whether to silence notifications, and then select **Next**.
 
-    ![Screenshot that shows customizing plan settings.](./Images/wellbeing-sfp-step3.png)
+    ![Screenshot that shows customizing plan settings.]../../Imag../../wellbeing-sfp-step3.png)
 
 6. When prompted, you can either accept or edit the draft note or delete it, and then select **Send invitation**.
 
-    ![Screenshot that shows adding an optional note.](./Images/wellbeing-sfp-step4.png)
+    ![Screenshot that shows adding an optional note.]../../Imag../../wellbeing-sfp-step4.png)
 <!--this doesn't have an action button-->
 After you send the invitation, Viva Insights sends notifications to the recipients. These notifications remain available to your recipients for eight weeks or until you cancel the shared focus plan. <!--verify the 8 weeks info-->
 
@@ -81,21 +81,21 @@ To leave a shared focus plan:
 >[!Note]
 >When you leave a shared focus plan, you don't remove anyone else from it. Other plan participants stay in the focus plan until they leave it.
 
-If you have a personal focus plan, you'll still be enrolled in it even after you leave the shared focus plan. To leave the personal focus plan or change its settings, refer to our [Focus plan documentation](../use/focus-plan.md#to-change-or-leave-your-focus-plan).
+If you have a personal focus plan, you'll still be enrolled in it even after you leave the shared focus plan. To leave the personal focus plan or change its settings, refer to our [Focus plan documentation](../../u../../focus-plan.md#to-change-or-leave-your-focus-plan).
 
 ### Check the details of your shared focus plan
 
 To check the details of your new plan, open the **Home** page of Viva Insights. The **Shared focus plan** details will be included in the **Plans** section:
 
-   ![Shared-focus-plan card](../../Images/MyA/Use/shared-focus-plan-card.png)
+   ![Shared-focus-plan card](../../../../Imag../../M../../U../../shared-focus-plan-card.png)
 
-If you have a Microsoft Viva Insights license with an applicable [service plan](../overview/plans-environments.md), you'll also see the plan details on the **My team** page.
+If you have a Microsoft Viva Insights license with an applicable [service plan](../../overvi../../plans-environments.md), you'll also see the plan details on the **My team** page.
 
 If you are the creator of a shared focus plan, you'll also see details in the **Plans** section of the Viva Insights **Home** page:
 
-   ![Shared-focus-plan creator view card](../../Images/mya/use/your-shared-focus-plan.png)
+   ![Shared-focus-plan creator view card](../../../../Imag../../m../../u../../your-shared-focus-plan.png)
 
 
 ### Concepts
 
-To learn about how focus time is scheduled, refer to [Focus plan](../use/focus-plan.md#concepts)
+To learn about how focus time is scheduled, refer to [Focus plan](../../u../../focus-plan.md#concepts)
