@@ -38,7 +38,7 @@ To book a one-time focus session:
 1. Viva Insights shows you a few empty spots in your calendar for the next day. Use the arrows to the right of the date to see different days. You can view a week's worth of available focus time.
 1. When you find a time you want to schedule, select **Book time**.
 
-![wellbeing](images/wellbeing-book-focus-time2.png)
+![wellbeing](../images/wellbeing-book-focus-time2.png)
 
 After you **Book time**, the time you chose adds itself to your calendar. The **Book focus time** section also shows that date and time with a **Focus time booked** status.
 
@@ -50,14 +50,14 @@ Focus mode intersperses short breaks within your focus time to help you stay on-
 
 If you pre-booked time to focus—either through a plan or by booking earlier—you’ll get a Teams notification.
 
-![Screenshot that shows the focus mode notification card in Protect time.](Images/focus-mode-teams-reminder.png)
+![Screenshot that shows the focus mode notification card in Protect time.](../Images/focus-mode-teams-reminder.png)
 
 To enter focus mode, select this notification. If you don’t select the notification, your calendar will still show the **Focus time** event, your Teams status will update to **Focusing**, and you won’t get Teams notifications unless they’re from priority contacts you set.
 
 >[!Note]
 > If you want to keep using Teams while you’re in focus mode, right-click on the Viva Insights app icon, then select **Pop out app**.
 >
->![Screenshot that shows the using the Pop out app option.](Images/pop-out-app2.png)
+>![Screenshot that shows the using the Pop out app option.](../Images/pop-out-app2.png)
 
 #### Use features during your focus session
 
@@ -69,22 +69,22 @@ When you launch focus mode, you’ll arrive at the **Timer** section. Here, your
 
 If you increase time, the app asks whether you want to extend your scheduled focus time. You can select the **Add 15 minutes** button to add 15 more minutes to your scheduled time, or you can add another amount by selecting the button’s down arrow.
  
-![Screenshot that shows the "Add 15 minutes" button.](Images/focus-extend.png)
+![Screenshot that shows the "Add 15 minutes" button.](../Images/focus-extend.png)
 
 To skip automatically scheduled breaks, select the box next to **Skip breaks**. 
 To adjust other settings, like sounds and how long breaks and focus intervals last, open the **Timer settings**.
 
-![Screenshot that shows setting up the timer.](Images/focus-timer2.png)
+![Screenshot that shows setting up the timer.](../Images/focus-timer2.png)
 
 When you’re ready to start your timer, select the **Start focus timer** button. You can stop the focus timer whenever you need to.
 
-![Screenshot that shows the focus timer elapsing.](Images/focus-clock2.png)
+![Screenshot that shows the focus timer elapsing.](../Images/focus-clock2.png)
 
 ##### Tasks
 
 You can use the **Tasks** section to help direct your work during your focus session. **Tasks** displays existing tasks from Microsoft To Do, which are either due today or have a reminder set for today.
 
-![Screenshot that shows Tasks options.](Images/focus-mode-tasks-options.png)
+![Screenshot that shows Tasks options.](../Images/focus-mode-tasks-options.png)
 
 In addition to viewing your existing tasks, you can:
 
@@ -97,13 +97,13 @@ In addition to viewing your existing tasks, you can:
 
 During breaks between focus intervals, you can use the guided videos in Mindfulness break to catch your breath and reset. After you select **Start** beneath a video, you’ll complete a three- or five-minute exercise before your next focus interval starts.
 
-![Screenshot that shows Mindfulness break options.](Images/focus-mode-mindfulness-break.png)
+![Screenshot that shows Mindfulness break options.](../Images/focus-mode-mindfulness-break.png)
 
 
 #### To end a focus session
 
 After your timer runs out, a **Congratulations** message appears. If you want to extend your focus time, select **Restart interval timer**.
 
-![Screenshot that shows focus mode's end screen.](Images/focus-mode-end2.png)
+![Screenshot that shows focus mode's end screen.](../Images/focus-mode-end2.png)
 
 If you’re done focusing, you can move forward with your day and continue using Teams. Your Teams status will stop showing as **Focusing** and, if they were muted, you’ll start receiving Teams notifications again.

@@ -25,11 +25,11 @@ Here's how you get your quiet time set up:
 1. Go to the **Wellbeing** tab in your Viva Insights app.
 1. In the **Take action to improve your wellbeing** section, find the **Disconnect with quiet time** card, then select **Set quiet time**.
 
-    ![Screenshot that shows the Quiet time settings.](Images/wellbeing-set-qt.png)
+    ![Screenshot that shows the Quiet time settings.](../images/wellbeing-set-qt.png)
 
 1. On the resulting page, select when you want Viva Insights to start and stop silencing Outlook and Teams notifications. In **Mute mobile notifications all day**, pick days you want Viva Insights to mute notifications for a full 24 hours.
     
-    ![Screenshot that shows the Quiet time settings.](Images/wellbeing-qt-settings.png)
+    ![Screenshot that shows the Quiet time settings.](../images/wellbeing-qt-settings.png)
 
 1. Select **Save changes**.
 
@@ -37,7 +37,7 @@ You can change your quiet time settings whenever you need to:
 
 1. Select the ellipses (**...**) at the top-right of your Viva Insights app, then select **Settings**.
     
-    ![Screenshot that shows the Quiet time settings.](Images/ellipses-settings.png)
+    ![Screenshot that shows the Quiet time settings.](../images/ellipses-settings.png)
 
 1. Select the **Protect time** tab from the left pane.
 1. Make changes and save.
