@@ -100,7 +100,7 @@ If you want more information about the insight, including a comparison to peer o
 :::image-end:::
 
 
-To help your team improve their wellbeing, Viva Insights shows you a recommended action—for example, starting a [shared focus plan](shared-focus-plan.md). Select the action button, like **Set up plan**, either on the insight card on the **Wellbeing** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.
+To help your team improve their wellbeing, Viva Insights shows you a recommended action—for example, starting a shared focus planshared-focus-plan.md. Select the action button, like **Set up plan**, either on the insight card on the **Wellbeing** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.
 
 You can also access shared actions in your **Take action to improve your wellbeing** section. Start a shared focus plan or a [shared no-meeting day](shared-no-meeting-day.md).
 
