@@ -22,11 +22,7 @@ audience: Admin, user
 
 *Applies to: people with a premium Viva Insights subscription and one or more people directly reporting to them*
 
-Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find in the following places:
-
-* 1:1 information on the [Teamwork](../../personal/teams/new/teamwork.md) tab
-* Quiet hours impact on the [Wellbeing](../../personal/teams/new/wellbeing.md) tab 
-* Team meeting habits on the [Productivity](../../personal/teams/new/productivity.md) tab
+Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find team meeting habits on the [Productivity](../../personal/teams/new/productivity.md) tab
 
 Throughout this document, we'll link you to where you can find more detailed information.
 
@@ -82,16 +78,6 @@ To turn on or off team insights:
 
 ## Available insights
 
-### 1:1 time
-
-As a people manager, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their role. One of the simplest coaching tools you have at your disposal is 1:1 time. Research by Microsoft has shown that people who get consistent 1:1 time with their manager are more engaged and view the manager's leadership more favorably.
-
-#### How 1:1 time is calculated
-
-Any meeting on your calendar that includes only you and a team member counts as a 1:1. If the calendar invitation also has a meeting room assigned, it still counts as a 1:1.
-
-If you directly call a team member over Teams outside of a scheduled 1:1 meeting, it doesn't count as 1:1 time.
-
 ### Team meeting habits
 
 As a manager, you're a role model when it comes to collaboration habits, especially in meetings. Team members tend to mimic their manager's behavior. One study by Microsoft found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
@@ -100,4 +86,4 @@ You'll find insights about your team meeting habits on the **Productivity** tab.
 
 ### Shared plans
 
-To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../../personal/teams/new/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../../personal/teams/new/shared-meeting-plan.md), visit the **Productivity** tab. To set up regularly scheduled 1:1 meetings with your direct reports, check out [1:1 meetings](../../personal/teams/new/1-1-plan.md) on the **Teamwork** tab.
+To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../../personal/teams/new/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../../personal/teams/new/shared-meeting-plan.md), visit the **Productivity** tab. 

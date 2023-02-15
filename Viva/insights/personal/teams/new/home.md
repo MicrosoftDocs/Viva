@@ -29,7 +29,6 @@ In the Microsoft Viva Insights app, use the **Home** tab to discover key wellbei
 **Recommended for you** curates content from across the Viva Insights app to highlight actions and insights for individuals. From here, you can:
 
 * Send [praise](praise.md) to colleagues.
-* Set up a [1:1 plan](1-1-plan.md) with your direct report.
 * Promote [healthy meeting norms](shared-meeting-plan.md).
 * Schedule a team [no-meeting day](shared-no-meeting-day.md).
 * Start a shared focus plan. 
@@ -91,8 +90,6 @@ To learn more about organization insights, refer to our [organization insights d
 
 
 ## Related topics
-
-[1:1 meeting plan](1-1-plan.md)
 
 [Headspace](headspace.md)
 
