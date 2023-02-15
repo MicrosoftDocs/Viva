@@ -59,6 +59,9 @@
     },
     "fileMetadata": {},
     "template": [],
+    "searchScope": {
+      "workplace-analytics-insights/**/*.md": ["Microsoft Viva Insights"]
+      },
     "dest": "Workplace-Analytics-Insights",
     "markdownEngineName": "markdig"
   }
