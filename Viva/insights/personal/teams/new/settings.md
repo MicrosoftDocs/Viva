@@ -17,7 +17,7 @@ audience: user
 
 ---
 
-# Configure the app
+# Configure your app settings
 
 Use the **Settings** page to configure the features for the Microsoft Viva Insights app. For example, you can turn reminders on or off, change the day and hour settings for features like [Praise](praise.md) and [Reflection](reflect.md), and set your lunch hours.
 
