@@ -53,8 +53,8 @@ items:
       - name: Team and organization insights
         items:
           - name: Team insights 
-            href: /viva/insights/org-team-insights/new/team-insights
+            href: /org-team-insights/new/team-insights
           - name: Organization insights
-            href: /viva/insights/org-team-insights/new/org-insights-faqs
+            href: /org-team-insights/new/org-insights-faqs
           - name: Organization insights FAQ
-            href: /viva/insights/org-team-insights/new/org-insights-faqs  
+            href: /org-team-insights/new/org-insights-faqs  
