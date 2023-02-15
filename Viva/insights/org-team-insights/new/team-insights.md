@@ -24,9 +24,9 @@ audience: Admin, user
 
 Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find in the following places:
 
-* 1:1 information on the [Teamwork](../personal/teams/teamwork.md) tab
-* Quiet hours impact on the [Wellbeing](../personal/teams/wellbeing.md) tab 
-* Team meeting habits on the [Productivity](../personal/teams/productivity.md) tab
+* 1:1 information on the [Teamwork](../../personal/teams/new/teamwork.md) tab
+* Quiet hours impact on the [Wellbeing](../../personal/teams/new/wellbeing.md) tab 
+* Team meeting habits on the [Productivity](../../personal/teams/new/productivity.md) tab
 
 Throughout this document, we'll link you to where you can find more detailed information.
 
@@ -36,20 +36,20 @@ Team insights use collaboration data from Microsoft 365. Depending on your setup
 
 With team insights, you can't see individual team members' personal collaboration habits. Team insights are generated entirely from activity data from only a user’s own account, and computed from their email, meetings, chats, and calls. All of the same privacy protections and considerations apply to team insights as to other personal insights. 
 
-Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR), the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, refer to the [Privacy guide](../personal/teams/viva-teams-app-privacy.md).
+Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR), the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, refer to the [Privacy guide](../../personal/teams/viva-teams-app-privacy.md).
 
 ## Permissions and app setup
 
 ### Admin tasks
 
-Team insights and its features (as described on this page) are available users who have a [Viva Insights subscription with an applicable service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app for the organization. Refer to [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+Team insights and its features (as described on this page) are available users who have a [Viva Insights subscription with an applicable service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app for the organization. Refer to [Admin tasks](../../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ### Install, pin, and configure the app
 
 Refer to these articles to install, pin, and configure the app in Teams:
 
-* [Install and pin the app](../personal/teams/viva-teams-app-install.md)
-* [Configure the app](../personal/teams/viva-teams-app-settings.md)
+* [Install and pin the app](../../personal/teams/viva-teams-app-install.md)
+* [Configure the app](../../personal/teams/viva-teams-app-settings.md)
 
 ## About teams
 
@@ -98,14 +98,6 @@ As a manager, you're a role model when it comes to collaboration habits, especia
 
 You'll find insights about your team meeting habits on the **Productivity** tab. Refer to [Meeting habits](../personal/teams/meeting-habits.md) to learn which habits we calculate and how we calculate them.
 
-### Quiet hours impact
-
-Some team members may prefer to do some of their work outside traditional 9-5 working hours, but others may struggle to mentally disconnect and recharge for the next day if they receive a late-night message from work.
-
-Research by Microsoft has shown that when managers work after hours, team members take that as a signal that they need to be "on" too; in one study, every hour that people managers spent after hours translated to 20 minutes of additional direct report time spent after hours.
-
-You'll find insights about quiet time impact on the **Wellbeing** tab. Learn how we calculate quiet hours impact in [Quiet time](../personal/teams/quiet-time.md).
-
 ### Shared plans
 
-To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab. To set up regularly scheduled 1:1 meetings with your direct reports, check out [1:1 plans](../personal/teams/1-1-plan.md) on the **Teamwork** tab.
+To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab. To set up regularly scheduled 1:1 meetings with your direct reports, check out [1:1 meetings](../personal/teams/1-1-plan.md) on the **Teamwork** tab.
