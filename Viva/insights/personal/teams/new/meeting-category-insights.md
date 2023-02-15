@@ -15,7 +15,7 @@ audience: user
 ---
 # Meeting category insights
 
-*Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../Overview/plans-environments.md) for more information.*
+*Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../../overview/plans-environments.md) for more information.*
 
 Use **Meeting category insights** in the **Productivity** tab to help understand how you’re allocating time across your Outlook meeting categories.
 

@@ -31,7 +31,7 @@ The tab provides these features:
     :::image type="content" source="../images/productivity-mci-meeting-breakdown.png" alt-text="Screenshot that shows meeting trends.":::
 
 * [**Meeting effectiveness surveys**](meeting-effectiveness-surveys.md): Help make your meetings more effective by surveying participants about what went well and what you could improve next time.
-    :::image type="content" source="../images/productivity-mes-insights.png" alt-text="Screenshot that shows Effective meeting settings." lightbox="images/meeting-effectiveness-settings.png":::
+    :::image type="content" source="../images/productivity-mes-insights.png" alt-text="Screenshot that shows Effective meeting settings." lightbox="../images/meeting-effectiveness-settings.png":::
 
 * [**Suggested tasks**](suggested-tasks.md): Stay on top of your work with tasks that Viva Insights surfaces through unread shared documents, meetings you haven't responded to, and Teams chats. 
 
@@ -59,12 +59,16 @@ Some insight cards also provide recommended actions. For example, to help your t
 :::image type="content" source="../images/productivity-org-insight-trend.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
 
 
-To learn more about organization insights, refer to our [Organization insights](.../.../org-team-insights/org-insights.md) article.
+To learn more about organization insights, refer to our [Organization insights](../../org-team-insights/org-insights.md) article.
 
 
 ## Related topics
 
-[Effective meetings](effective-meetings.md)
+[Meeting habits](meeting-habits.md)
+
+[Meeting category insights](meeting-category-insights.md)
+
+[Meeting effectiveness surveys](meeting-effectiveness-surveys.md)
 
 [Suggested tasks](suggested-tasks.md)
 

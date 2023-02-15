@@ -35,7 +35,7 @@ The **Take action to improve your wellbeing** section helps you change habits, s
 * Make time for learning
 * Make time for lunch
 
-:::image type="content" source="../images/wellbeing-take-action1.png" alt-text="Screenshot that shows four action cards within the Take action to improve your wellbeing section."lightbox="./images/wellbeing-take-action1-expanded.png":::
+:::image type="content" source="../images/wellbeing-take-action1.png" alt-text="Screenshot that shows four action cards within the Take action to improve your wellbeing section."lightbox="../images/wellbeing-take-action1-expanded.png":::
 
 >[!Tip]
 >To find all available actions, use the arrows in the top-right of the section.
@@ -104,7 +104,7 @@ To help your team improve their wellbeing, Viva Insights shows you a recommended
 
 You can also access shared actions in your **Take action to improve your wellbeing** section. Start a shared focus plan or a [shared no-meeting day](shared-no-meeting-day.md).
 
-To learn more about organization insights, refer to our [Organization insights](../../org-team-insights/org-insights.md) article.
+To learn more about organization insights, refer to our [Organization insights](../../org-team-insights/new/org-insights.md) article.
 
 ## Related topics
 

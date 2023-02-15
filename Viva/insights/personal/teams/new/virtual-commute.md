@@ -19,7 +19,7 @@ Review tomorrow's upcoming meetings, tasks, and commitments, and end today mindf
 
 To start a virtual commute, find the virtual commute card in the **Take action to improve your wellbeing** section. Select **Start virtual commute**. 
 
-:::image type="content" source="../images/wellbeing-vc-start-card.png" alt-text="Screenshot that shows the Wrap up with your virtual commute card in the Take action section, with the Start virtual commute button highlighted." lightbox="images/wellbeing-vc-start-card-expanded.png":::
+:::image type="content" source="../images/wellbeing-vc-start-card.png" alt-text="Screenshot that shows the Wrap up with your virtual commute card in the Take action section, with the Start virtual commute button highlighted." lightbox="../images/wellbeing-vc-start-card-expanded.png":::
 
 ## Virtual commute sections
 
