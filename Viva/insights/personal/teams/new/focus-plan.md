@@ -86,7 +86,7 @@ After you've started your plan, you can check your progress and make sure that y
 
 In the app, go to your **Wellbeing** tab's **Track your progress** section. The **Focus plan** card shows how many hours of focus time you kept--that is, you didn't delete from your calendar--over the current and last month. The card also lets you know how many hours of focus time you have booked for the upcoming week, and on which days.
 
-:::image type="complex" source="../teams/Images/wellbeing-focus-track-progress.png" alt-text="Screenshot that shows the Track your progress section of the Wellbeing tab.":::
+:::image type="complex" source="../../teams/Images/wellbeing-focus-track-progress.png" alt-text="Screenshot that shows the Track your progress section of the Wellbeing tab.":::
    Screenshot that shows the Focus plan card in the Track your progress section. It displays total hours of kept focus time over November - December and total hours of focus time reserved for the following week, on Friday, Monday, Tuesday, and Wednesday.
 :::image-end:::
 
