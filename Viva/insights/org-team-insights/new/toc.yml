@@ -2,54 +2,54 @@ items:
   - name: In Teams
     items:
     - name: Introduction
-      href: /viva/insights/personal/teams/viva-teams-app.md
+      href: /viva/insights/personal/teams/viva-teams-app
     - name: Set up the app
-      href: /viva/insights/personal/teams/viva-teams-app-settings.md
+      href: /viva/insights/personal/teams/viva-teams-app-settings
     - name: Home
-      href: /viva/insights/personal/teams/new/home.md
+      href: /viva/insights/personal/teams/new/home
       items:
       - name: Praise
-        href: /viva/insights/personal/teams/new/praise.md
+        href: /viva/insights/personal/teams/new/praise
       - name: Inspiration library
-        href: /viva/insights/personal/teams/new/inspiration.md  
+        href: /viva/insights/personal/teams/new/inspiration  
       - name: Productivity
         items: 
         - name: Overview
-          href: /viva/insights/personal/teams/new/productivity.md
+          href: /viva/insights/personal/teams/new/productivity
         - name: Meeting habits
-          href: /viva/insights/personal/teams/new/meeting-habits.md
+          href: /viva/insights/personal/teams/new/meeting-habits
         - name: Meeting category insights
-          href: /viva/insights/personal/teams/new/meeting-category-insights.md
+          href: /viva/insights/personal/teams/new/meeting-category-insights
         - name: Meeting effectiveness surveys
-          href: /viva/insights/personal/teams/new/meeting-effectiveness-surveys.md       
+          href: /viva/insights/personal/teams/new/meeting-effectiveness-surveys   
         - name: Shared meeting plan  
-          href: /viva/insights/personal/teams/new/shared-meeting-plan.md
+          href: /viva/insights/personal/teams/new/shared-meeting-plan
         - name: Suggested tasks
-          href: /viva/insights/personal/teams/new/suggested-tasks.md   
+          href: /viva/insights/personal/teams/new/suggested-tasks  
       - name: Teamwork
         items: 
         - name: Overview
-          href: /viva/insights/personal/teams/new/teamwork.md
+          href: /viva/insights/personal/teams/new/teamwork
       - name: Wellbeing
         items:
         - name: Overview
-          href: /viva/insights/personal/teams/new/wellbeing.md  
+          href: /viva/insights/personal/teams/new/wellbeing
         - name: Time management features
-          href: /viva/insights/personal/teams/new/time-management.md  
+          href: /viva/insights/personal/teams/new/time-management 
         - name: Shared no-meeting day plan
-          href: /viva/insights/personal/teams/new/shared-no-meeting-day.md
+          href: /viva/insights/personal/teams/new/shared-no-meeting-day
         - name: Focus
-          href: /viva/insights/personal/teams/new/focus.md
+          href: /viva/insights/personal/teams/new/focus
         - name: Focus plan  
-          href: /viva/insights/personal/teams/new/focus-plan.md
+          href: /viva/insights/personal/teams/new/focus-plan
         - name: Headspace  
-          href: /viva/insights/personal/teams/new/headspace.md 
+          href: /viva/insights/personal/teams/new/headspace
         - name: Quiet time
-          href: /viva/insights/personal/teams/new/quiet-time.md  
+          href: /viva/insights/personal/teams/new/quiet-time
         - name: Reflect    
-          href: /viva/insights/personal/teams/new/reflect.md                
+          href: /viva/insights/personal/teams/new/reflect                
         - name: Virtual commute
-          href: /viva/insights/personal/teams/new/virtual-commute.md                  
+          href: /viva/insights/personal/teams/new/virtual-commute                 
       - name: Team and organization insights
         items:
           - name: Team insights 
