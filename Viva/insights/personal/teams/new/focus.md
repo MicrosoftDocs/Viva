@@ -25,7 +25,7 @@ You can schedule focus time in two ways: through a focus plan, which automatical
 
 ### Start a focus plan
 
-To start a focus plan, check out our [Focus plan](../use/focus-plan.md) document.
+To start a focus plan, check out our [Focus plan](../new/focus-plan.md) document.
 
 ### Book single, non-recurring focus sessions
 

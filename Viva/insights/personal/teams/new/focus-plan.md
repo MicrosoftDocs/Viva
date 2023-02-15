@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Focus plan for Viva Insights
 description: Viva Insights focus plan
 author: lilyolason
@@ -21,12 +21,12 @@ audience: user
 
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the workday for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
-The focus plan in Microsoft Viva Insights helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs:
+The focus plan in Microsoft Viva Insights helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. 
 
-* You can silence or allow chats in Teams.
-* You can mute or unmute team notifications.
+When you enroll in a focus plan, Viva Insights books time on your calendar every day to focus. The first time you use a focus plan, we prompt you to set up your preferences, which we talk about later.  
 
-You can create, configure, or end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To change or leave your focus plan](#to-change-or-leave-your-focus-plan). 
+>[!Note]
+>If you leave your focus plan and enroll in one later, we'll use your preferences from last time. You can edit or leave your focus plan whenever you want.
 
 ## To create your focus plan
 
@@ -37,33 +37,42 @@ You can create your focus plan in two places:
 
 ### In the app
 
-1.	Select the **Protect time** tab.
-    
-    ![Screenshot that shows the Protect time tab.](../../Images/mya/use/protect-time-tab.png)
-1. Locate the **Focus plan** card.
-1. Select **Get started**.
-   
-    ![Screenshot that shows the Focus plan card and the Get started button.](../../Images/mya/use/focus-plan-get-started.png)
 
-2.	If this is:
-    * Your first time using a focus plan, you'll be prompted to confirm settings in **Focus plan preferences** after you select **Get started**. These settings are described further in the next section.
-    * *Not* your first time using a focus plan, Viva Insights automatically starts booking focus time for you. You can change your settings later in **Focus plan preferences** or by selecting **View settings** on the card.
-   
-        ![Screenshot that shows the Focus plan card and the View settings link.](../../Images/mya/use/focus-plan-view-settings.png)
+To start a focus plan:
+
+1. Go to the **Take action to improve your wellbeing** section of your **Wellbeing** tab.
+1. Find the **Start a daily focus plan** card, then select **Set daily focus plan**.
+
+    :::image type="content" source="../../images/MyA/Use/wellbeing-focus-plan-start.png" alt-text="Screenshot that shows the Start a daily focus plan card on the Wellbeing tab with the Start daily focus plan button highlighted." lightbox="../../images/MyA/Use/wellbeing-focus-plan-start.png":::
+
+1. If you're prompted, configure your plan settings:
+    * How much focus time you want to schedule each day
+    * Whether you prefer to focus in the morning or afternoon
+    * Whether you want a Teams reminder to begin focus mode
+    * Whether you want Teams to silence notifications during your scheduled focus time
+
+    As mentioned earlier, we won't prompt you to configure your settings if you've used a focus plan before. We'll apply the same settings as last time. You can edit these settings whenever you want.
+
+After your plan is set up, a confirmation card appears in your **Take action to improve your wellbeing** section.
+
+:::image type="content" source="../../Images/MyA/Use/wellbeing-focus-plan-confirm.png" alt-text="Screenshot that shows the confirmation card for focus plan.":::
+
+
+If you want to change your settings right away, select **Change settings**. Otherwise, you can make edits as we describe in [To make changes](#to-make-changes).
 
 ### In the Insights Outlook add-in
 
 1. Select the **Want focus time every day?** insight.
 
-   ![Screenshot that shows Want focus time every day? insight](../../Images/mya/use/focus-outlook-insight.png)
+   :::image type="content" source="../../Images/MyA/Use/wellbeing-focus-plan-oai-start.png" alt-text="Screenshot that shows Want focus time every day? insight in the Outlook add-in.":::
 
 2. Select **Book now**.
 
-   ![Screenshot that shows the Create your focus plan window with Book time now option.](../../Images/mya/use/focus-outlook-insight-enroll.png)
+      :::image type="content" source="../../Images/MyA/Use/wellbeing-focus-plan-oai-book.png" alt-text="Screenshot that shows the Create your focus plan window with Book time now and Cancel buttons.":::
 
    The Insights pane now notifies you that your focus plan has begun, and your calendar now contains focus-time blocks:
 
-   ![Screenshot that shows the Outlook add-in's focus plan confirmation window.](../../Images/mya/use/focus-outlook-insight-all-set.png)
+    :::image type="content" source="../../Images/MyA/Use/wellbeing-focus-plan-oai-confirm1.png" alt-text="Screenshot that shows the Outlook add-in's focus plan confirmation window and a Got it button.":::
 
 Now that your focus plan is underway, you can: 
 
@@ -73,43 +82,38 @@ Now that your focus plan is underway, you can:
 
 ## To check the progress of your focus plan
 
-After your plan has started, you can check your progress in the Viva Insights app and make sure that you have focus time booked every day over the upcoming week. If the plan has run for at least few days, it will have numbers to report.
+After you've started your plan, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report.
 
-**Book focus time** shows you which days already have focus time booked over the next week, and also presents open time slots that you can use to book different focus blocks.
+In the app, go to your **Wellbeing** tab's **Track your progress** section. The **Focus plan** card shows how many hours of focus time you kept--that is, you didn't delete from your calendar--over the current and last month. The card also lets you know how many hours of focus time you have booked for the upcoming week, and on which days.
 
-   ![Screenshot that shows the Book focus time section of Protect time in the Viva Insights app.](../../Images/mya/use/focus-plan-time-booked-available.png)
+:::image type="complex" source="../teams/Images/wellbeing-focus-track-progress.png" alt-text="Screenshot that shows the Track your progress section of the Wellbeing tab.":::
+   Screenshot that shows the Focus plan card in the Track your progress section. It displays total hours of kept focus time over November - December and total hours of focus time reserved for the following week, on Friday, Monday, Tuesday, and Wednesday.
+:::image-end:::
 
-The **Focus plan** card in **Protect your time** shows how many hours of focus time you've kept over the last couple of months, the total hours you have booked for next week, and which days those hours fall on next week.
-
+  
 ## To change or leave your focus plan
-
 
 You can change or opt in and opt out of the focus plan as many times as you want.
 
 ### To make changes
 
-From the **Protect time** tab:
+To edit your focus plan settings:
 
-1. Locate the **Focus plan** card beneath **Protect your time**.
-1. Select **View focus plan preferences**.
+1. Select the ellipses (**...**) at the top-right of any Viva Insights tab, then select **Settings**.
 
-     ![Screenshot that shows the Focus plan card with the View plan preferences option](../../Images/mya/use/focus-protect-time-card.png)
+    :::image type="content" source="../teams/images/ellipses.png" alt-text="Screenshot that shows selecting the ellipses > Settings in Viva Insights.":::
 
-3. On the preferences page, you can pick:
-   * How many hours you want to spend focusing each day.
-   * Whether you want to focus in the morning or afternoon.
-   * The earliest you’d want Viva Insights to schedule focus time.
-   * Whether you want reminders or to mute Teams notifications during your focus time.
+1. Select **Protect time** from the left pane.
+1. Edit your scheduled focus hours per day, morning or afternoon preferences, and reminder and notification preferences.
 
-       ![Screenshot that shows Focus plan preferences.](../../Images/mya/use/focus-plan-preferences-app.png)
+    :::image type="content" source="../teams/images/wellbeing-focus-plan-settings1.png" alt-text="Screenshot that shows the Protect time > Configure your recurring plan for focus settings in Viva Insights." lightbox="../teams/images/wellbeing-focus-plan-settings-expanded.png":::
 
-4. After you're done making edits, select **Save changes**.
 
 #### To leave
 
 Select the **Leave plan** button at top right. 
 
-   ![Screenshot that shows the Leave plan button.](../../Images/mya/use/focus-plan-app-leave-plan.png)
+:::image type="content" source="../teams/images/wellbeing-focus-plan-settings-leave.png" alt-text="Screenshot that shows the top of the Focus plan settings section with the Leave plan button highlighted.":::
 
 Answer the survey question, then select **Leave plan** again.
 
@@ -159,42 +163,39 @@ After you enroll in a focus plan, the content in your digest email will be tailo
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
-:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus1.png" alt-text="Screenshot that shows the add-in feed card.":::
-
+:::image type="content" source="../../Images/mya/use/wellbeing-focus-oai-book.png" alt-text="Screenshot that shows the Book time to focus card in the Outlook add-in.":::
 
 Selecting this card shows the following options, with which you can book focus time on individual days or for several days at once:  
 
-:::image type="content" source="../../Images/mya/use/outlook-add-in-book-focus-pane.png" alt-text="Screenshot that shows the book focus time pane.":::
-
+:::image type="complex" source="../../Images/mya/use/wellbeing-focus-oai-times.png" alt-text="Screenshot that shows the Book time to focus add-in pane.":::
+   Screenshot of the "Book time to focus" pane in the Viva Insights Outlook add-in. The pane shows three days with two available focus times each. Each focus time has an edit option and an option to add it to your calendar. The bottom of the pane contains a "Book all" and "Done" button.
+:::image-end:::
 
 ## Calendar color settings
-
->[!Note]
->Outlook no longer automatically shows focus time as green, or any other color, on the calendar.
 
 If you want to personalize your focus time to show as a specific color, you can do that by using conditional formatting in the Outlook desktop app on Windows. Follow the steps below to create a new conditional formatting rule.
 
 1. From the calendar view, select the **View** tab **> Current View > View Settings**.
 
-    ![Screenshot that shows navigating the View Settings option.](../../Images/mya/use/focus-plan-view-settings-rule.png)
+    :::image type="content" source="../../Images/mya/use/wellbeing-focus-calendar2.png" alt-text="Screenshot that shows navigating the View Settings option.":::
 
 1. Select the **Conditional formatting** button.
 
-    ![Screenshot that shows the Conditional Formatting button highlighted in the Advanced View Settings dialog box.](../../Images/mya/use/focus-plan-conditional-formatting.png)
+    :::image type="content" source="../../Images/mya/use/wellbeing-focus-calendar1.png" alt-text="Screenshot that shows the Conditional Formatting button highlighted in the Advanced View Settings dialog box.":::
 
 1. Select the **Add** button to create a new rule.
 
-    ![Screenshot that shows the Add button highlighted in the Conditional Formatting dialog box.](../../Images/mya/use/focus-plan-add-rule.png)
+    :::image type="content" source="../../Images/mya/use/wellbeing-focus-calendar3.png" alt-text="Screenshot that shows the Add button highlighted in the Conditional Formatting dialog box.":::
 
 1. In the **Conditional Formatting** dialog box:
     1. Give your rule a name.
     1. Select the color you want focus time blocks to appear as.
     1. Select the **Condition** button.
 
-    ![Screenshot that shows Name, Color, and Condition highlighted in the Conditional Formatting dialog box.](../../Images/mya/use/focus-plan-assign-name.png)
+        :::image type="content" source="../../Images/mya/use/wellbeing-focus-calendar4.png" alt-text="Screenshot that shows Name, Color, and Condition highlighted in the Conditional Formatting dialog box.":::
 
 1. In the **Filter** dialog box, add "Focus time" as your search term. Leave the **In:** field set to "subject field only."
 
-    ![Screenshot that shows the search term field highlighted in the Filter dialog box.](../../Images/mya/use/focus-plan-set-term.png) 
+    :::image type="content" source="../../Images/mya/use/wellbeing-focus-calendar5.png" alt-text="Screenshot that shows the search term field highlighted in the Filter dialog box.":::
 
 1. Select the **OK** button on each of the three dialog boxes. Your focus time blocks should now appear as the color you set in step 4.
