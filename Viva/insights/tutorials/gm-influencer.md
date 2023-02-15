@@ -32,7 +32,7 @@ Influencers are well-connected employees in your organization who help facilitat
 
 ## Best practices
 
-* Use [Insights](../personal/use/use-the-insights.md) and the [Stay connected](../personal/teams/teamwork.md) page to see connections, top collaborators, and suggestions on how to improve connections.
+* Use [Insights](../personal/use/use-the-insights.md) and the [Stay connected](../personal/teams/viva-insights-stay-connected.md) page to see connections, top collaborators, and suggestions on how to improve connections.
 * Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 * Broaden measures used to identify leaders to include those that assess potential, such as influence ranking.
 * Use influencer groups or teams to help spread important information related to strategic or cultural change initiatives.

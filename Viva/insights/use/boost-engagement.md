@@ -116,7 +116,7 @@ According to this article about [High-performing teams need psychological safety
 
 Ways to support team cohesion:
 
-* Ask employees to use the [Stay connected](../personal/teams/teamwork.md) page to add people to their "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
+* Ask employees to use the [Stay connected](../personal/teams/viva-insights-stay-connected.md) page to add people to their "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
 

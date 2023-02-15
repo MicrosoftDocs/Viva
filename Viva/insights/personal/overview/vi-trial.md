@@ -48,7 +48,7 @@ After you enroll in the trial, you can experience the following subset of featur
 
 Features | Microsoft 365 (out of the box) | Viva Insights trial | Viva Insights premium value
 -----------|------------|-------|--------
-[Home page](../teams/home.md) | X | X | X
+[Home page](../teams/viva-insights-home.md) | X | X | X
 [My team trial features](#my-team-trial-features)| X | X | X
 [My organization page](../../org-team-insights/org-trends.md) |&nbsp; |&nbsp; | X
 [Advanced analysis tools and templates](../../index-orig.md) | &nbsp;| &nbsp; | X
