@@ -37,7 +37,7 @@ Virtual commute helps you mindfully disconnect from work and transition to the r
 
 If you want to pick a different time, or set different days, instead, select **Edit settings**. This option takes you to the Viva Insights app, where you can pick when you want your reminder.
 
-Learn more about virtual commute in [Virtual commute](../teams/virtual-commute.md).
+Learn more about virtual commute in [Virtual commute](../teams/viva-insights-virtual-commute.md).
 
 ## Schedule send suggestions
 

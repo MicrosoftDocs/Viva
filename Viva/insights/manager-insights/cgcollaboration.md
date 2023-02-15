@@ -66,4 +66,4 @@ Create a space for people with similar interests to share ideas, knowledge, and 
 
 #### Enable personal network insights
 
-Empower individuals to take advantage suggestions on how to improve their connections by using [Stay connected](../personal/teams/viva-insights-stay-connected).
+Empower individuals to take advantage suggestions on how to improve their connections by using [Stay connected](../personal/teams/viva-insights-stay-connected.md).
