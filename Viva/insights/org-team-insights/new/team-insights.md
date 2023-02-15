@@ -42,7 +42,7 @@ Microsoft protects employee privacy and fully complies with local regulations, s
 
 ### Admin tasks
 
-Team insights and its features (as described on this page) are available users who have a [Viva Insights subscription with an applicable service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app for the organization. Refer to [Admin tasks](../../personal/teams/viva-teams-app-admin-tasks.md) for details.
+Team insights and its features (as described on this page) are available users who have a [Viva Insights subscription with an applicable service plan](../../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app for the organization. Refer to [Admin tasks](../../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ### Install, pin, and configure the app
 
@@ -96,8 +96,8 @@ If you directly call a team member over Teams outside of a scheduled 1:1 meeting
 
 As a manager, you're a role model when it comes to collaboration habits, especially in meetings. Team members tend to mimic their manager's behavior. One study by Microsoft found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
 
-You'll find insights about your team meeting habits on the **Productivity** tab. Refer to [Meeting habits](../personal/teams/meeting-habits.md) to learn which habits we calculate and how we calculate them.
+You'll find insights about your team meeting habits on the **Productivity** tab. Refer to [Meeting habits](../../personal/teams/meeting-habits.md) to learn which habits we calculate and how we calculate them.
 
 ### Shared plans
 
-To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab. To set up regularly scheduled 1:1 meetings with your direct reports, check out [1:1 meetings](../personal/teams/1-1-plan.md) on the **Teamwork** tab.
+To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../../personal/teams/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab. To set up regularly scheduled 1:1 meetings with your direct reports, check out [1:1 meetings](../../personal/teams/1-1-plan.md) on the **Teamwork** tab.
