@@ -30,8 +30,6 @@ items:
         items: 
         - name: Overview
           href: teamwork.md
-        - name: 1:1 meeting plan
-          href: 1-1-plan.md  
       - name: Wellbeing
         items:
         - name: Overview
@@ -55,8 +53,8 @@ items:
       - name: Team and organization insights
         items:
           - name: Team insights 
-            href: /viva/insights/org-team-insights/team-insights.md
+            href: /viva/insights/org-team-insights/new/team-insights.md
           - name: Organization insights
-            href: /viva/insights/org-team-insights/org-insights.md
+            href: /viva/insights/org-team-insights/new/org-insights.md
           - name: Organization insights FAQ
-            href: /viva/insights/org-team-insights/org-insights-faqs.md  
+            href: /viva/insights/org-team-insights/new/org-insights-faqs.md  
