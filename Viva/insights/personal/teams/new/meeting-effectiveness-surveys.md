@@ -62,7 +62,7 @@ To opt in or out of getting feedback about your meetings, follow these steps:
 1. In the Viva Insights app, select **Settings**.
 2. For **Meeting effectiveness surveys**, select to turn the setting **On** or **Off**, and then select **Save**. This setting defaults to **On**.
 
-    :::image type="content" source="../images/meeting-effectiveness-settings2.png" alt-text="Screenshot that shows Effective meeting settings toggle in the Viva Insights app Settings page." lightbox="images/meeting-effectiveness-settings1.png":::
+    :::image type="content" source="../images/meeting-effectiveness-settings2.png" alt-text="Screenshot that shows Effective meeting settings toggle in the Viva Insights app Settings page." lightbox="../images/meeting-effectiveness-settings1.png":::
 
 ## Privacy by design
 

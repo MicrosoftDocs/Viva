@@ -24,9 +24,6 @@ Like with focus, Microsoft Viva Insights can help you protect time on your calen
 * Catch up on messages.
 * Take a regular lunch.
 
->[!Note]
->You can also find these features in the Briefing email you get on Fridays. [Learn more about time management features in Briefing](../briefing/be-wellbeing-plans.md).
-
 ## To start using time management features
 
 To start using time management features through the Viva Insights app:

@@ -104,9 +104,9 @@ To help your team improve their wellbeing, Viva Insights shows you a recommended
 
 You can also access shared actions in your **Take action to improve your wellbeing** section. Start a shared focus plan or a [shared no-meeting day](shared-no-meeting-day.md).
 
-To learn more about organization insights, refer to our [Organization insights](../../org-team-insights/new/org-insights.md) article.
+To learn more about organization insights, refer to our [Organization insights](../../../org-team-insights/new/org-insights.md) article.
 
 ## Related topics
 
-* [Viva Insights introduction](viva-teams-app.md)
+* [Viva Insights introduction](../viva-teams-app.md)
 * [Virtual commute](virtual-commute.md)

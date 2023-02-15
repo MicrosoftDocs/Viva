@@ -43,7 +43,7 @@ To start a focus plan:
 1. Go to the **Take action to improve your wellbeing** section of your **Wellbeing** tab.
 1. Find the **Start a daily focus plan** card, then select **Set daily focus plan**.
 
-    :::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-start.png" alt-text="Screenshot that shows the Start a daily focus plan card on the Wellbeing tab with the Start daily focus plan button highlighted." lightbox="../../images/MyA/Use/wellbeing-focus-plan-start.png":::
+    :::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-start.png" alt-text="Screenshot that shows the Start a daily focus plan card on the Wellbeing tab with the Start daily focus plan button highlighted." lightbox="../../../images/MyA/Use/wellbeing-focus-plan-start.png":::
 
 1. If you're prompted, configure your plan settings:
     * How much focus time you want to schedule each day
@@ -68,7 +68,7 @@ If you want to change your settings right away, select **Change settings**. Othe
 
 2. Select **Book now**.
 
-      :::image type="content" source="../../Images/MyA/Use/wellbeing-focus-plan-oai-book.png" alt-text="Screenshot that shows the Create your focus plan window with Book time now and Cancel buttons.":::
+      :::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-oai-book.png" alt-text="Screenshot that shows the Create your focus plan window with Book time now and Cancel buttons.":::
 
    The Insights pane now notifies you that your focus plan has begun, and your calendar now contains focus-time blocks:
 
@@ -106,7 +106,7 @@ To edit your focus plan settings:
 1. Select **Protect time** from the left pane.
 1. Edit your scheduled focus hours per day, morning or afternoon preferences, and reminder and notification preferences.
 
-    :::image type="content" source="../../teams/images/wellbeing-focus-plan-settings1.png" alt-text="Screenshot that shows the Protect time > Configure your recurring plan for focus settings in Viva Insights." lightbox="../teams/images/wellbeing-focus-plan-settings-expanded.png":::
+    :::image type="content" source="../../teams/images/wellbeing-focus-plan-settings1.png" alt-text="Screenshot that shows the Protect time > Configure your recurring plan for focus settings in Viva Insights." lightbox="../../teams/images/wellbeing-focus-plan-settings-expanded.png":::
 
 
 #### To leave
