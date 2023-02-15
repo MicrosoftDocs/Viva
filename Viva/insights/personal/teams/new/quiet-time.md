@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: Quiet time in Viva Insights
 description: Set up quiet time in Microsoft Viva Insights
 author: lilyolason

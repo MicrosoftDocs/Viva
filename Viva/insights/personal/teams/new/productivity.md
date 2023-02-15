@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: Productivity tab in Viva Insights
 description: Use the Productivity tab in Microsoft Viva Insights
 author: lilyolason

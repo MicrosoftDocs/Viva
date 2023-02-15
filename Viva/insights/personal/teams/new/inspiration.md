@@ -1,6 +1,7 @@
 ---
-title: Inspiration library in Viva Insights 
-description: Use the Inspiration library feature in Microsoft Viva Insights
+ROBOTS: NOINDEX, NOFOLLOW
+title: Inspiration library in the Viva Insights app
+description: Use the Inspiration library in Microsoft Viva Insights
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -20,7 +21,6 @@ You can use the library to help transform your personal, manager, and leader ins
 
 :::image type="content" source="../images/home-inspiration-library.png" alt-text="Screenshot of the Inspiration library section on the Home tab, where each article card includes an image, title, and Read link."lightbox="../images/home-inspiration-library-expanded.png":::
 
-
 ## View an article
 
 The library shows you articles that you haven’t read yet first. You can view these articles within your Teams app on your computer or mobile device, or within the Viva Insights app on the web. Select the article title to open and read it. For example, the following image shows what you might see from Microsoft. To view all the articles available to read within a specific theme, select **View more** in that section.
@@ -31,4 +31,4 @@ You can also provide feedback on the articles you have read by selecting the **t
 
 ## Related topics
 
-[Viva Insights introduction](viva-teams-app.md)
+[Viva Insights introduction](../viva-teams-app.md)

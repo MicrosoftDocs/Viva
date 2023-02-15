@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Reflect with Viva Insights 
 description: Use the Reflect feature in Microsoft Viva Insights
 author: lilyolason
@@ -26,19 +26,19 @@ How often you reflect is up to you. Once daily might work well for you&mdash;or 
 
 To use the reflection feature, go to the **Wellbeing** tab and find the  **Reflect on your emotions** section. 
 
-:::image type="complex" source="images/wellbeing-reflect-1b.png" alt-text="Screenshot that shows the Reflect on your emotions section of the Wellbeing tab.":::
+:::image type="complex" source="../images/wellbeing-reflect-1b.png" alt-text="Screenshot that shows the Reflect on your emotions section of the Wellbeing tab.":::
    Screenshot of the Wellbeing tab's Reflect on your emotions section. The subtitle reads, "Take a moment to reflect and better understand your emotions." Below the subtitle, there's a card with two sections. The first section is labeled, "Private to you" and asks, "How are you feeling?" Below the question, there are five emojis ranging from a big smile to a distressed expression. Beneath the emojis, there's a "Set reminder" button. To the right of the emojis is the Reflection history section, which is a line graph. The Y axis is made up of the emojis from the previous section; the X axis is made up of dates. The line shows a user's reflection pattern and the data points correspond to dates. The key shows a symbol for "Multiple selection in a day." The last date on the X axis is highlighted. There are two buttons in the upper right-hand corner: "7 days" and "30 days." "7 days" is selected. Next to the buttons, there is a forward and back arrow. A hover action is shown over one of the data points; the tooltip shows two emojis, arranged vertically, and their corresponding times of day.
 :::image-end:::
 
 Then, select the emoji that best represents how you're currently feeling.
 
-:::image type="complex" source="images/wellbeing-reflect-select.png" alt-text="Screenshot that shows selecting an emoji.":::
+:::image type="complex" source="../images/wellbeing-reflect-select.png" alt-text="Screenshot that shows selecting an emoji.":::
    Screenshot that demonstrates reflecting. A cursor is hovering over the far-left, smiling emoji. This emoji is slightly larger than the other four emojis. A tooltip says, "Very good." 
 :::image-end:::
 
 The reflection card gives you feedback to acknowledge your choice.
 
-:::image type="complex" source="images/wellbeing-reflect-feedback.png" alt-text="Screenshot that shows feedback after making a selection.":::
+:::image type="complex" source="../images/wellbeing-reflect-feedback.png" alt-text="Screenshot that shows feedback after making a selection.":::
    Screenshot of the reflection card. The left section shows the emoji that was selected and a label that says, "Great, keep it up!". A subtitle says, "Consider reflecting on the reason behind the way you are feeling."
 :::image-end:::
 
@@ -47,17 +47,17 @@ The reflection card gives you feedback to acknowledge your choice.
 
 To see how your feelings have changed over time, review the **Reflection history** panel to the right of the emoji selection. **Reflection history** shows you a line graph of the emojis you've chosen either over the last week or the last month; use the buttons in the top right corner to change the view. To see what time you reflected on a particular day, hover over the data point for that date.
 
-:::image type="content" source="images/wellbeing-reflect-history.png" alt-text="Screenshot of the Reflection history section on the reflection card, with the time period selector highlighted.":::
+:::image type="content" source="../images/wellbeing-reflect-history.png" alt-text="Screenshot of the Reflection history section on the reflection card, with the time period selector highlighted.":::
 
 ## Set a reminder to self-reflect
 
 Want to get in the habit of self-reflecting? Use the **Set reminder** button. 
 
-:::image type="content" source="images/wellbeing-reflect-reminder-button.png" alt-text="Screenshot of the reflection card, showing reflection feedback, with the Set reminder button highlighted.":::
+:::image type="content" source="../images/wellbeing-reflect-reminder-button.png" alt-text="Screenshot of the reflection card, showing reflection feedback, with the Set reminder button highlighted.":::
 
 Viva Insights then picks a time for you to reflect. If you want to edit when you get reminders, select **Change settings**.
 
-:::image type="content" source="images/wellbeing-reflect-reminder-confirmation.png" alt-text="Screenshot of the reflection card, confirming that reminders are set, with Change settings highlighted.":::
+:::image type="content" source="../images/wellbeing-reflect-reminder-confirmation.png" alt-text="Screenshot of the reflection card, confirming that reminders are set, with Change settings highlighted.":::
 
 If you want to change your reminder settings later:
 
@@ -76,4 +76,4 @@ If you want to change your reminder settings later:
 
 ## Related topics
 
-[Viva Insights  introduction](viva-teams-app.md)
+[Viva Insights  introduction](../viva-teams-app.md)

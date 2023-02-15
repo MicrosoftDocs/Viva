@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: 1:1 meeting plan in Viva Insights
 description: Use the 1:1 meeting plan in Microsoft Viva Insights to help you connect with your direct reports
 author: lilyolason

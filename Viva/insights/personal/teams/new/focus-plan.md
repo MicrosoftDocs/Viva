@@ -43,7 +43,7 @@ To start a focus plan:
 1. Go to the **Take action to improve your wellbeing** section of your **Wellbeing** tab.
 1. Find the **Start a daily focus plan** card, then select **Set daily focus plan**.
 
-    :::image type="content" source="../../../images/MyA/Use/wellbeing-focus-plan-start.png" alt-text="Screenshot that shows the Start a daily focus plan card on the Wellbeing tab with the Start daily focus plan button highlighted." lightbox="../../images/MyA/Use/wellbeing-focus-plan-start.png":::
+    :::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-start.png" alt-text="Screenshot that shows the Start a daily focus plan card on the Wellbeing tab with the Start daily focus plan button highlighted." lightbox="../../images/MyA/Use/wellbeing-focus-plan-start.png":::
 
 1. If you're prompted, configure your plan settings:
     * How much focus time you want to schedule each day

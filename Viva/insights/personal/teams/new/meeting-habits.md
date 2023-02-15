@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: Meeting habits in Viva Insights  
 description: Learn about your meeting habits with Microsoft Viva Insights
 author: lilyolason

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Mindfulness content in Viva Insights
 description: Learn how to use mindfulness content in the Viva Insights app
 author: lilyolason

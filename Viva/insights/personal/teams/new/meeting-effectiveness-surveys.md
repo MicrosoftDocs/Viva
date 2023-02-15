@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: Meeting effectiveness surveys in Viva Insights  
 description: Learn how to use surveys to make your meetings more effective  with Microsoft Viva Insights
 author: lilyolason
@@ -15,7 +16,7 @@ audience: user
 
 # Meeting effectiveness surveys
 
-*Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../Overview/plans-environments.md) for more information.*
+*Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../../overview/plans-environments.md) for more information.*
 
 With meeting effectiveness surveys, you can view aggregated feedback from attendees on the meetings you organized. These surveys help you gain insight into what’s going well with your meetings, and what you could improve in future meetings, to promote a healthy meeting culture.
 
@@ -71,8 +72,8 @@ As the meeting organizer, you’ll only see aggregated results in Viva Insights.
 
 ## Admin controls
 
-To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](./viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys).
+To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](../viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys).
 
 ## Related topics
 
-[Microsoft Viva Insights overview](viva-teams-app.md)
+[Microsoft Viva Insights overview](../viva-teams-app.md)

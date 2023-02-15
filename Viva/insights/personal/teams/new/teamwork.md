@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Teamwork tab in Viva Insights
 description: Use the Teamwork tab in Microsoft Viva Insights
 author: lilyolason

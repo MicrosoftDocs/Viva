@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Viva Insights Home tab in Teams and on the web
 description: About the Home tab in the Microsoft Viva Insights app
 author: lilyolason

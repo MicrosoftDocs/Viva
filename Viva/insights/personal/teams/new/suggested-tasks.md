@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Suggested tasks in Viva Insights
 description: Use the Suggested tasks feature in Microsoft Viva Insights
 author: lilyolason

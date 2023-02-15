@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Time management features in Viva Insights
 description: Use time managment features in Viva Insights to improve wellbeing
 author: lilyolason

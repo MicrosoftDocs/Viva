@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Praise with Viva Insights
 description: Use the Praise feature in the Microsoft Viva Insights app
 author: madehmer
@@ -135,9 +135,12 @@ You can set praise reminders either from the Viva Insights **Home** tab or **Set
 From the **Home** tab:
 
 1. On the **Send praise to colleagues** card, select the **All praises** link, which is to the right of the **Send praise** button.
-   :::image type="content" source="../images/praise-all-praises3.png" alt-text="Screenshot that shows the All praises link to the right of the Send praise button.":::
+   
+    :::image type="content" source="../images/praise-all-praises3.png" alt-text="Screenshot that shows the All praises link to the right of the Send praise button.":::
+
 1. On the **Praise** page, configure your reminder through the card on the right, beneath **Recommendations** and **Trends**.
-   :::image type="content" source="../images/praise-reminder4.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
+   
+    :::image type="content" source="../images/praise-reminder4.png" alt-text="Screenshot that shows Praise reminder on the Praise page.":::
 
 
 From the **Settings** page:
@@ -179,9 +182,6 @@ Praise trends is available to you if you have a Viva Insights subscription. Use 
 :::image type="complex" source="../images/praise-trends-list.png" alt-text="Screenshot that shows the Praise trends section of the Praise page.":::
    Screenshot of the Praise trends sidebar. There are two tabs at the top of the sidebar: "Recommendations" and "Trends"; "Trends" is selected. Below the tab names, there are three selector buttons: This month, Past 3 months, and Past 6 months. Below these time selectors, there are four sections, all of which are arranged vertically. The first section is labeled, "Total praises," and it shows the number of praises sent and the number of praises received. The second section is labeled, "Your biggest fans," and it shows three users with the total number of praises the user has received from them. The third section is labeled, "Most praises sent to," and it shows three users with the total number of praises the user has sent to them. The fourth section is labeled, "Top praises received," and it shows the top three titles the user has received--Awesome, Creative, and Courage--and the number of colleagues who sent them, along with the name of one sender (for example, "from Daniela Mandera and 5 others") At the bottom of the card, there's an "Is this helpful?" feedback prompt with the options, "Yes" and "No."
 :::image-end:::
-
-:::image type="content" source="../images/praise-trends-list.png" alt-text="Screenshot that shows Praise trends.":::
-
 
 ## Praise highlights in the profile card
 
