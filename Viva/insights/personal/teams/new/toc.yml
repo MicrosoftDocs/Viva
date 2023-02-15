@@ -4,54 +4,54 @@ items:
     - name: Introduction
       href: /viva-teams-app.md
     - name: Set up the app
-      href: /viva-teams-app-settings.md
+      href: ../viva-teams-app-settings.md
     - name: Home
-      href: /home.md
+      href: home.md
       items:
       - name: Praise
-        href: /praise.md
+        href: praise.md
       - name: Inspiration library
-        href: /inspiration.md  
+        href: inspiration.md  
       - name: Productivity
         items: 
         - name: Overview
-          href: /productivity.md
+          href: productivity.md
         - name: Meeting habits
-          href: /meeting-habits.md
+          href: meeting-habits.md
         - name: Meeting category insights
-          href: /meeting-category-insights.md
+          href: meeting-category-insights.md
         - name: Meeting effectiveness surveys
-          href: /meeting-effectiveness-surveys.md       
+          href: meeting-effectiveness-surveys.md       
         - name: Shared meeting plan  
-          href: /shared-meeting-plan.md
+          href: shared-meeting-plan.md
         - name: Suggested tasks
-          href: /suggested-tasks.md   
+          href: suggested-tasks.md   
       - name: Teamwork
         items: 
         - name: Overview
-          href: /teamwork.md
+          href: teamwork.md
         - name: 1:1 meeting plan
-          href: /1-1-plan.md  
+          href: 1-1-plan.md  
       - name: Wellbeing
         items:
         - name: Overview
-          href: /wellbeing.md  
+          href: wellbeing.md  
         - name: Time management features
-          href: /time-management.md  
+          href: time-management.md  
         - name: Shared no-meeting day plan
-          href: /shared-no-meeting-day.md
+          href: shared-no-meeting-day.md
         - name: Focus
-          href: /focus.md
+          href: focus.md
         - name: Focus plan  
-          href: /focus-plan.md
+          href: focus-plan.md
         - name: Headspace  
-          href: /headspace.md 
+          href: headspace.md 
         - name: Quiet time
-          href: /quiet-time.md  
+          href: quiet-time.md  
         - name: Reflect    
-          href: /reflect.md                
+          href: reflect.md                
         - name: Virtual commute
-          href: /virtual-commute.md                  
+          href: virtual-commute.md                  
       - name: Team and organization insights
         items:
           - name: Team insights 
