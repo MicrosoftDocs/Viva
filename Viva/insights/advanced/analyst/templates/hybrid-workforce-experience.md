@@ -102,8 +102,6 @@ You can add new attributes to your organizational data at any time. For more det
 
 1. When your query results are ready, go to the **Query results** page and select the **Power BI** icon to download the Power BI template and copy the query identifier. You'll need the query identifier later.
 
-1. Select **Run** on the upper right side of the screen, which can take a few minutes to complete.
-
 ### Link report to query
 
 9. Open the downloaded Hybrid workforce experience template.
