@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+ROBOTS: NOINDEX, NOFOLLOW
 title: Focus plan for Viva Insights
 description: Viva Insights focus plan
 author: lilyolason
