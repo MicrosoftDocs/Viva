@@ -56,10 +56,14 @@ To modify which integrations are available in your organization, select the enab
 Only Global admins have permission to manage which integrations are available for the tenant. 
 
 1. Log in to your Viva Goals account. 
-1. Select the organization drop down from the navigation panel on the left. 
+1. Select the organization drop down from the navigation panel on the left.
+    :::image type="content" source="../media/goals/admin-controls/navigation-pane.png" alt-text="Screenshot showing the navigation side bar and how to select the organization drop down."::: 
 1. Select Create or Join organization 
+    :::image type="content" source="../media/goals/admin-controls/select-create-join-org.png" alt-text="Screenshot showing how to select Create or join organization from the dropdown.":::  
 1. From the Create or Join organizations page, select Settings in the top right corner 
+    :::image type="content" source="../media/goals/admin-controls/select-setting.png" alt-text="Screenshot showing where to select the settings option from the organization page.":::
 1. Select the integrations settings for your tenant and select save. If you choose the option for Selected integrations are available, select the integrations you want to manage and select save.  
+    :::image type="content" source="../media/goals/admin-controls/integrations-selections.png" alt-text="Screenshot showing the list of integration available for your tenant.":::
 
 > [!NOTE]
 > Selecting None available or deselecting integrations that were previously available will disable any existing connections in your tenant.
@@ -92,7 +96,7 @@ The table below shows which type of integrations are supported, their category, 
 |GitLab      |Third-party |Data |https://about.gitlab.com/terms/ |
 |Google Sheets       |Third-party |Data |https://cloud.google.com/product-terms/ |
 |HubSpot      |Third-party |Data |https://legal.hubspot.com/terms-of-service |
-|Jira Cloud       |Third-party |Data |https://www.atlassian.com/legal/cloud-terms-of-service |
+|Jira Cloud, Jira Server and Data Center       |Third-party |Data |https://www.atlassian.com/legal/cloud-terms-of-service |
 |Looker      |Third-party |Data |https://cloud.google.com/product-terms/ |
 |Mode      |Third-party |Data |https://mode.com/tos/ |
 |Monday.com      |Third-party |Data |https://monday.com/l/ |

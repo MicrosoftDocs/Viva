@@ -31,6 +31,8 @@ items:
       href: configure-okr-model.md
     - name: Configure your OKR creation permissions in Viva Goals
       href: configure-okr-create-permissions.md
+    - name: Import OKRs and Initiatives/Projects with Viva Goals
+      href: import-okrs-projects.md
     - name: Manage OKR Time Periods
       href: managing-okr-time-periods.md
     - name: Configure check-in reminders and notifications
@@ -72,6 +74,8 @@ items:
           href: box-integration.md
         - name: Domo Integration
           href: domo-integration.md
+        - name: Dynamics 365 Integration
+          href: dynamics-365-integration.md
         - name: Excel Online Integration
           href: excel-online-integration.md
         - name: Favro Integration
@@ -88,6 +92,8 @@ items:
           href: jira-integration.md
         - name: Looker Integration
           href: looker-integration.md
+        - name: Microsoft Planner Integration
+          href: microsoft-planner-integration.md
         - name: Mode Integration
           href: mode-integration.md
         - name: monday.com Integration
@@ -100,6 +106,8 @@ items:
           href: planview-projectplace-integration.md
         - name: PostgreSQL Integration
           href: postgresql-integration.md
+        - name: Power BI Integration
+          href: power-bi-integration.md
         - name: Salesforce Integration
           href: salesforce-integration.md
         - name: Slack

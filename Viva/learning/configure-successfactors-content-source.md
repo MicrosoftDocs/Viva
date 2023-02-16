@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 11/16/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -215,6 +215,32 @@ You can synchronize permissions applied using assignment profile on courses in S
 
 4. SAP SuccessFactors & Azure Active Directory user sync should be enabled. Enable inbound user provisioning with SAP SuccessFactors to ensure that all users in Azure Active Directory have the right employee ID configured. [Prerequisite for learner record sync](/viva/learning/configure-successfactors-content-source#prerequisite-for-learner-record-sync).
 
+### Catalog Permissions Sync 
+
+Use the toggle button to enable or disable the catalog permissions sync from the learning management system to Viva Learning.  
+
+Users from your organization can view, search, and consume only the courses assigned to them through assignment profiles in SAP SuccessFactors.  
+
+By enabling catalog permissions, you allow Viva Learning to fetch user information, user assignment profiles mappings and catalog assignment profile mappings. The user information from the learning management system is only used for user mapping and is not stored.
+
+
+![Screenshot shows the catalog permissions sync options displayed on the admin tab](../media/learning/sfsf-catalog-permissions-config.png)
+
+
+Note the following considerations:
+
+- Once the catalog permissions toggle button is enabled/re-enabled,  
+
+    - The ingestion of both catalogs and the permissions are triggered. The initial package from the specified SFTP folder path as mentioned earlier will be used for ingestion. It may take up to 24 hours to complete the ingestion.  
+
+    - The Viva Learning application will generate M365 groups on behalf of the tenants for internal consumption. These groups are named as VL-GUID. These groups are system generated and shouldn’t be modified by users. 
+
+- Once the catalog permissions toggle button is disabled,  
+
+    - The permissions data from SF  is deleted in Viva Learning. All the users will now be able to search and view all ingested courses from SAP SuccessFactors in Viva Learning.  
+
+    - Re-enabling the catalog permissions would require admins to ensure that all pre-requisites are fulfilled as mentioned in the section above.
+    
 ## Programs and learning paths
 
 You can bring programs or learning paths from SAP SuccessFactors into Viva Learning. The programs are ingested along with the other content catalog items.
@@ -256,6 +282,9 @@ Viva Learning receives this EmployeeID in a zip package in an encrypted form, 
 ## Play SAP SuccessFactors courses inline in Viva Learning
 
 Viva Learning and SAP SuccessFactors integration allows seamless authentication (SSO) and in-app playback. Users can access SAP SuccessFactors content inline within Viva Learning instead of launching content in a browser.  
+
+>[!IMPORTANT]
+> The ability to play SAP SuccessFactors courses inline in Viva Learning is supported for SuccessFactors version 2205 (May 2022) and earlier. Changes introduced within the SuccessFactors 2211 (November 2022) release breaks the in-app play of content. We are currently working with SAP SuccessFactors to resolve this issue and will provide updates as soon as they are available.
 
 ![Screenshot that shows the Azure Active Directory SSO integration with SAP SuccessFactors.](../media/learning/viva-learning-sfsf-sso-content-details-page.png)
 

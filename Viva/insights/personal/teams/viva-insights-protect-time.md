@@ -202,7 +202,6 @@ To leave a plan after joining it:
 
     ![Screenshot that shows selecting Leave plan.](Images/leave-plan.png)
 
-    ![Screenshot that shows confirming leaving plan.](Images/leave-plan-confirm.png)
 
 ### Learn more about booking time for plans
 
