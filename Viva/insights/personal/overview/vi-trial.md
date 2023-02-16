@@ -38,7 +38,7 @@ After you enroll in the trial, you can experience the following subset of featur
 
 * **Send praise**: You can use this feature to recognize the contributions of your employees and coworkers. Praise messages show up as notifications in Microsoft Teams. You can have a praise message delivered in a private chat or for wider recognition, in a Teams channel conversation. See [Praise in Viva Insights](../teams/viva-insights-praise.md) for details.
 
-* **Stay on top of outstanding task suggestions**: It is easy to lose track of commitments made to your colleagues in email. This insight helps make sure nothing gets missed by reminding you. It's based on emails that you sent and requests you've made during the last 14 days of email communication, including the following. See [Stay on top of outstanding task suggestions](../teams/viva-insights-stay-connected.md#stay-on-top-of-outstanding-task-suggestions) for details.
+* **Stay on top of outstanding task suggestions**: It is easy to lose track of commitments made to your colleagues in email. This insight helps make sure nothing gets missed by reminding you. It's based on emails that you sent and requests you've made during the last 14 days of email communication, including the following. See [Stay on top of outstanding task suggestions](../teams/viva-insights-stay-connected.md) for details.
 
   * **Commitments** – Something you promised or committed to do for someone else in an email.
   * **Requests** – Something another person asked you to do in an email.
