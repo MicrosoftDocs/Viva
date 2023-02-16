@@ -104,4 +104,4 @@ Viva Insights admins can use **Privacy settings** to determine what data your or
 
 ## Related topics
 
-[!INCLUDE [Viva Insights community](../personal/includes/insights-community.md)]
+* [!INCLUDE [Viva Insights community](../personal/includes/insights-community.md)]

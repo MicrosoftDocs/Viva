@@ -12,4 +12,4 @@ audience: Admin
 ms.subservice: viva-insights
 ---
 
-**Viva Insights community** – To connect with other Viva Insights users and share your experiences, contribute and receive support for common questions, and stay up to date on the latest features and tools, visit our [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog).
+**[Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog)** – Visit our community to connect with other Viva Insights users and share your experiences, contribute and receive support for common questions, and stay up to date on the latest features and tools.

@@ -67,4 +67,4 @@ After you opt out from digest emails, you can opt back in at any time. In your V
 
 ## Related topics
 
-[!INCLUDE [Viva Insights community](../includes/insights-community.md)]
+* [!INCLUDE [Viva Insights community](../includes/insights-community.md)]

@@ -201,7 +201,5 @@ If you want to personalize your focus time to show as a specific color, you can 
 
 ## Related topics
 
-[Focus](../teams/viva-insights-protect-time.md#book-focus-time-or-a-plan)
-
-
-[!INCLUDE [Viva Insights community](../includes/insights-community.md)]
+* [Focus](../teams/viva-insights-protect-time.md#book-focus-time-or-a-plan)
+* [!INCLUDE [Viva Insights community](../includes/insights-community.md)]
