@@ -72,3 +72,12 @@ For the "Is this helpful" question near the end of every insight and every page,
 ##### Q9 How do I opt back in to Teamwork habits?
 
 You can opt back in at any time to Teamwork habits within Viva Insights Settings. Refer to [Teamwork habits documentation](teamwork-habits.md#disable-or-enable-teamwork-habits) for detailed steps.
+
+##### Q10 How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?
+
+We encourage all Viva insights users to visit and register on the [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog). The community has:
+
+* Forums to connect with peers and discuss shared experiences.
+* Forums to contribute and receive support on common issues which are routinely reviewed by our team of experts.
+* Monthly blog posts to learn about new features and tools.
+* Spaces to share ideas and engage with the product development team.

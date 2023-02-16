@@ -164,3 +164,5 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 
 * [Use Viva Insights](use-the-insights.md)
 * [Viva Insights elements](MyA-elements.md)
+
+[!INCLUDE [Viva Insights community](../includes/insights-community.md)]

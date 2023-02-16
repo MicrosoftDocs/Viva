@@ -101,3 +101,7 @@ On the **[Manager settings](./setup-maint/manager-settings.md)** page, you can e
 #### Privacy settings
 
 Viva Insights admins can use **Privacy settings** to determine what data your organization wants to exclude from analysis and what data can be visible for advanced insights. To learn more about how Viva Insights keeps personal data private, refer to [Privacy](./privacy/privacy.md).
+
+## Related topics
+
+[!INCLUDE [Viva Insights community](../personal/includes/insights-community.md)]

@@ -47,3 +47,6 @@ Access to these elements depends on the plan in place at your organization. For 
 ## Introduction to Viva Insights
 
 See [Introduction to Microsoft Viva Insights](/training/modules/workplace-analytics-ways-working-action/) to learn about Microsoft Viva Insights.
+
+
+[!INCLUDE [Viva Insights community](../includes/insights-community.md)]

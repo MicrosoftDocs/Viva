@@ -80,3 +80,5 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 
 * [Configure Briefing email](be-admin.md)
 * [Briefing email from Microsoft Viva FAQ](be-faqs.yml)
+
+[!INCLUDE [Viva Insights community](../includes/insights-community.md)]
