@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+ROBOTS: NOINDEX, NOFOLLOW
 title: Focus mode in Viva Insights 
 description: Use the Protect time feature in Microsoft Viva Insights
 author: lilyolason
