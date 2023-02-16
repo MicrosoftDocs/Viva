@@ -29,13 +29,13 @@ Teamwork habits is designed for employees on working teams. Insights in Teamwork
 
 Teamwork habits is based on information you already have access to in Outlook and Teams. Viva Insights applies intelligence to this information to make it easier for you to reflect on your work patterns and take action to improve team productivity and wellbeing.
 
-##### Q2 What data is used in these insights and how is it protected?
+##### Q2 What data does Viva Insights use for these insights? How does it protect that data?
 
 Teamwork habits uses collaboration data from Microsoft 365 and—depending on your setup—uses organizational data that your admin has uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../advanced/privacy/privacy.md#data-protection-considerations) for more details.
 
 ##### Q3 Can you identify specific team members and see their personal collaboration habits in Teamwork habits?
 
-No. Teamwork habits insights are generated using each user's own data, which is computed from their email, meetings, calls, and chats. Individual employee data is stored and protected in the same way as the user's Microsoft 365 data. Specifying team members only sets the group of collaborators that are taken into account when computing the user's team habits.
+No. Viva Insights generates Teamwork habits insights using each person's own data, which it computes from their email, meetings, calls, and chats. Individual employee data is stored and protected in the same way as the user's Microsoft 365 data. Specifying team members only sets the group of collaborators that Viva Insights takes into account when it computes your team habits.
 
 ##### Q4 Does the Microsoft Viva Insights app comply with GDPR?
 
@@ -50,11 +50,11 @@ The first time you open Teamwork habits, you’re prompted to select your team a
 3. Select **Teamwork habits** to make changes to your team, and then select **Save**.
 
 >[!Note]
->If you're a manger, team members are suggested to you by Azure Active Directory. After you make changes, the automatic sync from your organization’s directory will stop and you'll be responsible for keeping the list up to date.
+>If you're a manger, Azure Active Directory suggests team members to you. After you make changes, the automatic sync from your organization’s directory will stop and you'll be responsible for keeping the list up to date.
 
 ##### Q6 Can I use Teamwork habits as an individual contributor?
 
-Yes. As an individual contributor, you can follow the steps described in the previous question to set up your team. After you set up your team, you’ll see **Teamwork habits** within the Viva Insights app. The team insights will filter to match up to your currently selected team. 
+Yes. As an individual contributor, you can follow the steps described in the previous question to set up your team. After you set up your team, you’ll find **Teamwork habits** within the Viva Insights app. The team insights will filter to match up to your currently selected team. 
 
 ##### Q7 While trying to access Teamwork habits, why am I prompted to allow Viva insights to process my M365 collaboration data?
 
@@ -67,7 +67,7 @@ You can always undo this change later in **Settings** in the Viva Insights app.
 
 ##### Q8 How can I send Microsoft feedback?
 
-For the "Is this helpful" question near the end of every insight and every page, select **Yes** or **No** to provide feedback. You can also select the **Allow Microsoft to contact** checkbox if you’d like Microsoft to contact you about the feedback.
+For the "Is this helpful" question in the bottom-right corner of every page, select **Yes** or **No** to provide feedback. 
 
 ##### Q9 How do I opt back in to Teamwork habits?
 
