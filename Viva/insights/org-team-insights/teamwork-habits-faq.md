@@ -25,13 +25,16 @@ Get answers to the most frequently asked questions about what you see in the **T
 
 ##### Q1 Who benefits from Teamwork habits in Viva Insights?
 
-Teamwork habits is designed for employees on working teams. Insights in Teamwork habits are derived from your personal Exchange Online mailbox.
+Teamwork habits is designed for employees on working teams, and it derives insights from your personal Exchange Online mailbox.
 
-Teamwork habits is based on information you already have access to in Outlook and Teams. Viva Insights applies intelligence to this information to make it easier for you to reflect on your work patterns and take action to improve team productivity and wellbeing.
+Based on information you already have access to in Outlook and Teams, Viva Insights applies intelligence to this information to make it easier to:
+ 
+* Reflect on your work patterns.
+* Take action to improve team wellbeing and productivity.
 
 ##### Q2 What data does Viva Insights use for these insights? How does it protect that data?
 
-Teamwork habits uses collaboration data from Microsoft 365 and—depending on your setup—uses organizational data that your admin has uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../advanced/privacy/privacy.md#data-protection-considerations) for more details.
+Teamwork habits uses collaboration data from Microsoft 365 and—depending on your setup—uses organizational data that your admin has uploaded in the advanced insights app or that's in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../advanced/privacy/privacy.md#data-protection-considerations) for more details.
 
 ##### Q3 Can you identify specific team members and see their personal collaboration habits in Teamwork habits?
 
@@ -43,7 +46,7 @@ Yes. The Viva Insights app complies with GDPR requirements.
 
 ##### Q5 How is my team defined and how can I change it?
 
-The first time you open Teamwork habits, you’re prompted to select your team and other settings. After the initial setup, you can make changes to your team any time within **Settings**:
+The first time you open Teamwork habits, the app prompts you to select your team and other settings. After the initial setup, you can make changes to your team any time within **Settings**:
 
 1. Select the **ellipsis** (...) in the upper-right of the Viva Insights app.
 2. Select **Settings**.
