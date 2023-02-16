@@ -33,7 +33,7 @@ Employees that collaborate across silos are more aware of other perspectives and
 
 * Improve internal connectivity. Create inclusive and trusting environments to make agile collaboration easier. Employees who maintain large, stable, and diversified internal networks are often better positioned to use their connections for quickly responding to customer needs and driving customer satisfaction.
 * Create cross-functional [Teams channels](/microsoftteams/teams-channels-overview) that focus on customer needs.
-* Use [Stay connected](../personal/teams/teamwork.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
+* Use [Stay connected](../personal/teams/viva-insights-stay-connected.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
 * Motivate team members to reach across silos. Break down silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
 * Map the interdependencies between different teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.  
 * Pair newcomers and network inﬂuencers through staffing or mentoring. This simple practice triples newcomer connectivity compared to employees who don't get this experience.  
@@ -66,4 +66,4 @@ Create a space for people with similar interests to share ideas, knowledge, and 
 
 #### Enable personal network insights
 
-Empower individuals to take advantage suggestions on how to improve their connections by using [Stay connected](../personal/teams/teamwork.md).
+Empower individuals to take advantage suggestions on how to improve their connections by using [Stay connected](../personal/teams/viva-insights-stay-connected.md).

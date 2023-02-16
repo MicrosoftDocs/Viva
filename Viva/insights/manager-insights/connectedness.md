@@ -34,7 +34,7 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 ## Best practices
 
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
-* Use ([Stay connected](../personal/teams/teamwork.md)) in the Viva Insights app to add people to your "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
+* Use ([Stay connected](../personal/teams/viva-insights-stay-connected.md)) in the Viva Insights app to add people to your "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Get people to see things through others’ eyes by organizing carefully structured, face-to-face, cross-silo dialogues.
 * Create inclusive and trusting environments to facilitate agile collaboration. A culture of fear exists when employees do not feel safe to come forward with ideas, and those on the fringe may be less conﬁdent about contributing.
@@ -48,7 +48,7 @@ Use [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/grou
 
 #### Enable personal network insights
 
-Build connections with your network through the [Stay connected](../personal/teams/teamwork.md).
+Build connections with your network through the [Stay connected](../personal/teams/viva-insights-stay-connected.md).
 
 ## Related topics
 

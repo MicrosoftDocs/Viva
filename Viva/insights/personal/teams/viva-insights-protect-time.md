@@ -19,7 +19,7 @@ You can use this feature in the Microsoft Viva Insights app to protect your time
 
 * [Schedule focus time](#schedule-focus-time) for future workdays.
 * [Configure quiet time](#configure-quiet-time) to disconnect from work and recharge.
-* [Start a virtual commute](virtual-commute.md) to end your day.
+* [Start a virtual commute](viva-insights-virtual-commute.md) to end your day.
 
 :::image type="content" source="images/protect-time-small.png" alt-text="Screenshot that shows the Protect time page." lightbox="images/protect-time1.png":::
 
@@ -183,7 +183,6 @@ To leave a plan after joining it:
 
     ![Screenshot that shows selecting Leave plan.](Images/leave-plan.png)
 
-    ![Screenshot that shows confirming leaving plan.](Images/leave-plan-confirm.png)
 
 ### Learn more about booking time for plans
 
@@ -192,4 +191,4 @@ To learn more about the concepts behind these plans, refer to [Focus plan](../Us
 ## Related topics
 
 * [Viva Insights introduction](viva-teams-app.md)
-* [Virtual commute](virtual-commute.md)
+* [Virtual commute](viva-insights-virtual-commute.md)
