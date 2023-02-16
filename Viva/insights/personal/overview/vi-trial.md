@@ -36,9 +36,9 @@ After you enroll in the trial, you can experience the following subset of featur
 
 * **Team meeting habits**: You’ll see your current behavior and suggestions on how to improve, such as if you RSVP’d, joined on time, and didn’t multitask during team meetings. When it comes to collaboration habits, you are a role model, and your team members tend to mimic your behaviors. Studies found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. See [Team meeting habits](../../org-team-insights/teamwork-habits.md#team-meeting-habits) for details.
 
-* **Send praise**: You can use this feature to recognize the contributions of your employees and coworkers. Praise messages show up as notifications in Microsoft Teams. You can have a praise message delivered in a private chat or for wider recognition, in a Teams channel conversation. See [Praise in Viva Insights](../teams/praise.md) for details.
+* **Send praise**: You can use this feature to recognize the contributions of your employees and coworkers. Praise messages show up as notifications in Microsoft Teams. You can have a praise message delivered in a private chat or for wider recognition, in a Teams channel conversation. See [Praise in Viva Insights](../teams/viva-insights-praise.md) for details.
 
-* **Stay on top of outstanding task suggestions**: It is easy to lose track of commitments made to your colleagues in email. This insight helps make sure nothing gets missed by reminding you. It's based on emails that you sent and requests you've made during the last 14 days of email communication, including the following. See [Stay on top of outstanding task suggestions](../teams/suggested-tasks.md) for details.
+* **Stay on top of outstanding task suggestions**: It is easy to lose track of commitments made to your colleagues in email. This insight helps make sure nothing gets missed by reminding you. It's based on emails that you sent and requests you've made during the last 14 days of email communication, including the following. See [Stay on top of outstanding task suggestions](../teams/viva-insights-stay-connected.md) for details.
 
   * **Commitments** – Something you promised or committed to do for someone else in an email.
   * **Requests** – Something another person asked you to do in an email.
@@ -48,7 +48,7 @@ After you enroll in the trial, you can experience the following subset of featur
 
 Features | Microsoft 365 (out of the box) | Viva Insights trial | Viva Insights premium value
 -----------|------------|-------|--------
-[Home page](../teams/home.md) | X | X | X
+[Home page](../teams/viva-insights-home.md) | X | X | X
 [My team trial features](#my-team-trial-features)| X | X | X
 [My organization page](../../org-team-insights/org-trends.md) |&nbsp; |&nbsp; | X
 [Advanced analysis tools and templates](../../index-orig.md) | &nbsp;| &nbsp; | X

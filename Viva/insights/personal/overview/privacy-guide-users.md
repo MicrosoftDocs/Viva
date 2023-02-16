@@ -39,7 +39,7 @@ Personal insights in Microsoft Viva Insights help you find opportunities to buil
 
 Personal insights in Viva Insights are available as follows:
 
-* [Viva Insights in Teams and on the web](../teams/home.md)
+* [Viva Insights in Teams and on the web](../teams/viva-insights-home.md)
 * [Viva Insights in Outlook](../use/add-in.md)
 * [Briefing emails in Outlook](../Briefing/be-overview.md)
 * [Digest emails in Outlook](../use/email-digests-3.md)
