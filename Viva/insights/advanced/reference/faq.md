@@ -195,7 +195,7 @@ A5. It depends on the type of mailbox and which permissions are set for the Exch
     * **Send on Behalf** permission – This permission isn't available for shared mailboxes in Exchange Admin Center. However, if it is set with PowerShell (GrantSendonBehalf parameter), the person who sends the message gets credit for it in Viva Insights calculations.
 * An individual mailbox (or a linked mailbox) with a primary mailbox owner can link or give delegate access and one of the following permissions to another person to send messages or meeting invites for the primary mailbox owner. For example, an assistant with delegate access can send a message or meeting invite from their manager's mailbox. A delegate can have one of the following permissions. For details, see [Give mailbox permissions to another user](/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user).
     * **Send As** permission – The primary owner of the mailbox gets credit for sending the message or invite in Viva Insights calculations.
-    * **Send on Behalf** permission  – The person who sends the message on behalf of the mailbox owner gets the credit in Viva Insights calculations.
+    * **Send on Behalf** permission – The person who sends the message on behalf of the mailbox owner gets the credit in Viva Insights calculations.
     * Both **Send As** and **Send on Behalf** permissions – If the delegate person has both permissions set, the Send As permissions are used and that person does not get credit for sending the message or invite in Exchange and therefore Viva Insights credits the owner of the mailbox in calculations.
 
 ##### Q6. Why don't I see data from this week in my analyses?
