@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: FAQ for the Viva Insights app
 description: Personal insights FAQ for Microsoft Viva Insights app
 author: lilyolason

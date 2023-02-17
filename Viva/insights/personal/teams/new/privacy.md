@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
 title: Privacy guide for personal insights in the Viva Insights app
 description: Learn how Microsoft keeps your data private when using personal insights in the Microsoft Viva Insights app
 author: lilyolason

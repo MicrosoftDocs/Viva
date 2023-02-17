@@ -1,6 +1,6 @@
 ---
-
-title: Viva Insights app
+ROBOTS: NOINDEX, NOFOLLOW
+title: Viva Insights app introduction
 description: Learn about the Microsoft Viva Insights app 
 author: lilyolason
 ms.author: v-lilyolason
@@ -47,4 +47,4 @@ The personal insights and actions in the Viva Insights app are based on your Exc
 * [Privacy guide](privacy.md)
 * [Discover and pin the Viva Insights app](settings.md)
 * [FAQ](faq.md)
-* [Admin tasks](viva-teams-app-admin-tasks.md?toc=/viva/insights/personal/teams/new/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+* [Admin tasks](../viva-teams-app-admin-tasks.md?toc=/viva/insights/personal/teams/new/toc.json&bc=/viva/insights/breadcrumb/toc.json)
