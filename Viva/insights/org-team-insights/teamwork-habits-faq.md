@@ -59,7 +59,7 @@ The first time you open Teamwork habits, the app prompts you to select your team
 
 Yes. As an individual contributor, you can follow the steps described in the previous question to set up your team. After you set up your team, you’ll find **Teamwork habits** within the Viva Insights app. The team insights will filter to match up to your currently selected team. 
 
-##### Q7 While trying to access Teamwork habits, why am I prompted to allow Viva insights to process my M365 collaboration data?
+##### Q7 While trying to access Teamwork habits, why am I prompted to allow Viva Insights to process my M365 collaboration data?
 
 >[!Note]
 >Viva Insights processes this data as described in the [Privacy Guide](/viva/insights/personal/overview/privacy-guide-users).
@@ -78,7 +78,7 @@ You can opt back in at any time to Teamwork habits within Viva Insights Settings
 
 ##### Q10 How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?
 
-We encourage all Viva insights users to visit and register on the [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog). The community has:
+We encourage all Viva Insights users to visit and register on the [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog). The community has:
 
 * Forums to connect with peers and discuss shared experiences.
 * Forums to contribute and receive support on common issues which are routinely reviewed by our team of experts.
