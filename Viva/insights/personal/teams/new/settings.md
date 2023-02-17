@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Configure Viva Insights settings
 description: Learn how to configure Viva Insights settings in the Microsoft Viva Insights app
 author: lilyolason
