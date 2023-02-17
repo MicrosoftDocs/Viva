@@ -16,7 +16,7 @@ manager: anirudhbajaj
 audience: Admin, user
 ---
 
-# Personal insights in Teams FAQ
+# Personal insights app FAQ
 
 The following are the most frequently asked questions about personal insights within the Microsoft Viva Insights app in Microsoft Teams.
 
@@ -78,4 +78,4 @@ Email and calendar data from people outside your organization, with the followin
 
 ## Related topics
 
-[Viva Insights introduction](viva-teams-app.md)
+[Viva Insights introduction](introduction.md)
