@@ -30,7 +30,7 @@ Important people are teammates and colleagues you mark as important in Viva Insi
 
 You can add someone to your important people list in a couple of ways:
 
-* At the top of your **Network** page, you might notice they're a suggested contact. To add them to your important list, just select the **Pin** icon, which looks like a star.
+* At the top of your **Network** page, you might notice they're a suggested contact. To add them to your important list, just select the **Pin** button.
 * If the person you want to pin isn't suggested, use the search bar just above your collaborator map. Type in their name, and then select **Pin**.
 
 To remove someone from your important people list, do the reverse: select the **Pin** icon, which looks like a star. To quickly find a contact, use the search bar.
