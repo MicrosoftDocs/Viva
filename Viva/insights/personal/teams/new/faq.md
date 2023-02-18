@@ -59,9 +59,9 @@ After you select **Yes** or **No**, a dialog box shows up. Use this share more f
   * Attendees
 * OneDrive SharePoint data: Viva Insights shows a count of OneDrive and SharePoint documents that you have worked on.
 
-Insights does not use:  
+   Insights does not use:  
 
-Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting are in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history.
+   Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting are in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history.
 
 ##### Q6. Why don't I see the insights and suggestions I've read about in documentation?
 
