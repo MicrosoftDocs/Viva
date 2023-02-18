@@ -17,7 +17,7 @@ audience: user
 
 ## Overview
 
-On the **Productivity** tab, you'll find centralized insights and actions that help you get your work done more effectively. 
+On the **Productivity** tab, you'll find centralized insights and actions that help you get your work done more effectively.
 
 :::image type="content" source="../images/productivity-with-menu.png" alt-text="Screenshot that shows the Productivity tab.":::
 
