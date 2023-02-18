@@ -97,8 +97,8 @@ For each email you *send*, Viva Insights assigns five minutes of sending time. F
 
 However, in the following situations, Viva Insights assigns shorter times:  
 
-* Within five minutes, you send one email and then open or send another one. In this case, Viva Insights assigns the time between the two actions to the *first* email (that is, the sent email).
-* Within two and a half minutes, you open one email and then open or send another one. In this case, Viva Insights also assigns the time between the two actions to the first email (that is, the opened email).  
+* You send one email and then open or send another one within five minutes. In this case, Viva Insights assigns the time between the two actions to the *first* email (that is, the sent email).
+* You open one email and then open or send another one within two and a half minutes. In this case, Viva Insights also assigns the time between the two actions to the first email (that is, the opened email).  
 
 >[!Note]
 >The time you spend sending or reading email outside your Outlook-defined working hours affects some insights you get on the **Wellbeing** tab.  
@@ -118,4 +118,17 @@ Viva Insights counts all chats you send within a 15-minute window as one chat.
 
 ##### Calls
 
-For each call that isn't scheduled as a meeting on your calendar, Viva Insights uses the actual duration of the call. Viva Insights doesn't assign any time for calls scheduled as meetings in your calendar, because it's already counting those calls as meeting time.  
+For each call that isn't scheduled as a meeting on your calendar, Viva Insights uses the actual duration of the call. Viva Insights doesn't assign any time for calls scheduled as meetings in your calendar, because it's already counting those calls as meeting time. 
+
+Learn more about how Viva Insights derives meeting insights in [Meeting habits](meeting-habits.md)
+
+#### Insight calculation reference
+
+|Insight | Time assigned|
+|----|----|
+|Emails sent| 5 minutes
+|Emails read| 2.5 minutes
+|Chats sent| 30 seconds
+|Chats read| 0 seconds
+|Unscheduled calls| Call duration
+|Scheduled calls| 0 seconds
