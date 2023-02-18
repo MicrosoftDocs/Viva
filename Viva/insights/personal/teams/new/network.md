@@ -43,7 +43,7 @@ The **Collaborators** section arranges your active collaborators in a three-ring
 If you want more information about how much time you’re spending with a contact, select their profile image. The tooltip shows you your total collaboration time with that contact, and then breaks down collaboration time by each communication channel—emails, meetings, and chats and calls.
 
 :::image type="complex" source="../images/teamwork-network-small.png" alt-text="Screenshot that shows Collaborators section on the Teamwork tab." lightbox="../images/teamwork-network-expanded.png":::
-   Screenshot of the "Collaborators" section of the Network page. The subtitle reads, "Who did you work closely with in the last 4 weeks?". The image is arranged as a map, with the user's profile picture on the far left of the image, and collaborators they've recently worked with in three semi-rings, arranged from "Most frequent" closest to the user's image to "Least frequent" on the right side of the image. The image shows hovering over a collaborator in the "Most frequent" ring. A card beneath this collaborator's profile image shows their name, position, contact and praise links, and how much total time the user has spent collaborating with them. Below the total collaboration time, the card lists how much time this collaborator has worked with the user total, and then breaks down the amount of time in each channel: over email, in meetings, and in chats and calls.
+   Screenshot of the "Collaborators" section of the Network page. The subtitle reads, "Who did you work closely with in the last 4 weeks?". The image is arranged as a map, with the user's profile picture on the far left of the image, and collaborators they've recently worked with in three semi-rings. These rings go from "Most frequent" closest to the user's image to "Least frequent" on the right side of the image. The image shows hovering over a collaborator in the "Most frequent" ring. A card beneath this collaborator's profile image shows their name, a star to indicate they're an important contact, and how much total time the user has spent collaborating with them. Below the total collaboration time, the card lists how much time this collaborator has worked with the user by communication each channel: over email, in meetings, and in chats and calls.
 :::image-end:::
 
 ### To edit your important people list
@@ -77,7 +77,7 @@ To remove someone from your important people list, select the **Unpin** icon, wh
 **Communication habits** shows how you communicate with people in your network. We break up your total communication over the last four weeks by communication type: emails sent, emails read, and chats and calls. On a graph, you'll find a distribution of communication throughout your day—for example, your graph might show that you send a majority of your emails around 8am, but chat and call with colleagues around 3pm. Hover on each bar for a breakdown of collaboration activity by hour.
 
 :::image type="complex" source="../images/teamwork-communication-habits1.png" alt-text="Screenshot that shows Communication habits section on the Teamwork tab.":::
-   Screenshot of the "Communication habits" section of the Teamwork tab. The subtitle reads, "How connected are you with people in your network?" and contains a "Learn more" link. Below the subtitle, there's a section that contains a bar graph. To the left of the graph, there's a sub-section titled, ""Your habits in the last 4 weeks," which contains three numbers arranged vertically: the first is labeled, "Emails sent," the second is labeled, "Emails read," and the last is labeled, "Chats and calls." The graph's Y axis goes from 0 - 75 in increments of 25. The X axis goes from 8:00 AM to 6:00 PM in increments of 2 hours. The graph's key corresponds to the section to the left: "Emails sent," "Emails read," and "Chats and calls." Each hour on the graph contains one stacked bar representing these three categories. The image shows a hover tooltip over 3:00 PM, which reports the exact number for each category in that hour. There's an "Is this helpful?" link in the bottom left corner, with "Yes" and "No" options.
+   Screenshot of the "Communication habits" section of the Teamwork tab. The subtitle reads, "How connected are you with people in your network?" and contains a "Learn more" link. Below the subtitle, there's a section that contains a bar graph. To the left of the graph, there's a subsection titled, ""Your habits in the last 4 weeks," which contains three numbers arranged vertically. The first number's label reads, "Emails sent." The second number's label reads, "Emails read." The last number's label reads, "Chats and calls." The graph's Y axis goes from 0 - 75 in increments of 25. The X axis goes from 8:00 AM to 6:00 PM in increments of 2 hours. The graph's key corresponds to the section to the left: "Emails sent," "Emails read," and "Chats and calls." Each hour on the graph contains one stacked bar representing these three categories. The image shows a hover tooltip over 3:00 PM, which reports the exact number for each category in that hour. There's an "Is this helpful?" link in the bottom left corner, with "Yes" and "No" options.
 :::image-end:::
 
 
@@ -113,8 +113,8 @@ For each chat you *send*, Viva Insights assigns 30 seconds of sending time. Viva
 
 Viva Insights counts all chats you send within a 15-minute window as one chat.
 
->[!Note]  
->Viva Insights doesn't use chats from Teams channels in its calculations. 
+>[!Note]
+>Viva Insights doesn't use chats from Teams channels in its calculations.
 
 ##### Calls
 
