@@ -27,7 +27,7 @@ The tab provides these features:
 
 * [**Meeting category insights**](meeting-category-insights.md) – Understand which kinds of meetings you spend the most time in.
 
-    :::image type="content" source="../images/productivity-mci-meeting-breakdown.png" alt-text="Screenshot that shows meeting trends."lightbox="../images/productivity-mci-meeting-insights-expanded.png":::
+    :::image type="content" source="../images/productivity-mci-meeting-breakdown.png" alt-text="Screenshot that shows meeting trends."lightbox="../images/productivity-mci-insights-expanded.png":::
 
 * [**Meeting effectiveness surveys**](meeting-effectiveness-surveys.md) – Help make your meetings more effective by surveying participants about what went well and what you could improve next time.
 
@@ -35,7 +35,7 @@ The tab provides these features:
 
 * [**Suggested tasks**](suggested-tasks.md) – Stay on top of your work with tasks that Viva Insights surfaces through unread shared documents, meetings you haven't responded to, and Teams chats. 
 
-    :::image type="content" source="../images/productivity-suggested-tasks-no-menu.png" alt-text="Screenshot that shows Suggested tasks on the Productivity tab."lightbox="../images/productivity-suggested-tasks-expanded.png":::
+    :::image type="content" source="../images/productivity-suggested-tasks-2.png" alt-text="Screenshot that shows Suggested tasks on the Productivity tab."lightbox="../images/productivity-suggested-tasks-expanded1.png":::
 
 ## For managers and leaders
 
