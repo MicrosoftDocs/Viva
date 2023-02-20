@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/15/2021 7/11/2022
+ms.date: 07/11/2022
 audience: admin
 ms.topic: article
 ms.service: viva
