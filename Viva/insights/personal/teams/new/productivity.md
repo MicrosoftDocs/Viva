@@ -17,7 +17,7 @@ audience: user
 
 On the **Productivity** tab, you'll find centralized insights and actions that help you get your work done more effectively.
 
-:::image type="content" source="../images/productivity-with-menu.png" alt-text="Screenshot that shows the Productivity tab.":::
+:::image type="content" source="../images/productivity-tab.png" alt-text="Screenshot that shows the Productivity tab."lightbox="../images/productivity-expanded.png":::
 
 The tab provides these features:
 
