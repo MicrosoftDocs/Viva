@@ -120,7 +120,7 @@ Viva Insights counts all chats you send within a 15-minute window as one chat.
 
 For each call that isn't scheduled as a meeting on your calendar, Viva Insights uses the actual duration of the call. Viva Insights doesn't assign any time for calls scheduled as meetings in your calendar, because it's already counting those calls as meeting time. 
 
-Learn more about how Viva Insights derives meeting insights in [Meeting habits](meeting-habits.md)
+Learn more about how Viva Insights derives meeting insights in [Meeting habits](meeting-habits.md).
 
 #### Insight calculation reference
 
