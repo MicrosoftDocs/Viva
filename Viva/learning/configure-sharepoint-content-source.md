@@ -102,8 +102,6 @@ To configure SharePoint as a learning content sources in for Viva Learning, foll
    
        ![Error message in the New item panel saying that all uploaded folders need to be in the central location.](../media/learning/learning-sharepoint-configure-geo2.png)
 
-    e.  In case you encounter issues with content, refer to the export log file for a detailed summary of successful and failed content ingestions.
-
   > [!NOTE]
   > To allow for broader access to the Learning App Content Repository, a link to the list soon will be available in the Viva Learning interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored. For more information, see [Provide your own organization's content](#provide-your-own-organizations-content) later in this article.
 
@@ -184,7 +182,7 @@ Next, provide a thumbnail image.
 
 1. Follow the initial steps to create a column.
 2. Choose **Hyperlink**.
-3. Name the column ThumbnailWebURL.
+3. Name the column ThumbnailWebUrl.
 4. Add the URLs for each item.
 
 Next, add the duration of the content.
@@ -226,22 +224,6 @@ Knowledge admins can access their organization's Learning App Content Repository
     ![Settings option page in SharePoint showing the Permissions and Check access options.](../media/learning/learning-sharepoint-library-2.png)
 
 3. Select **Check access** to connect to your organization's centralized library.
-
-### Add a display name
-
-1. In the Viva Learning app, select the **Admin** tab. 
-1. Navigate to **Manage providers**.
-1. Look for the SharePoint provider and select the ellipses (**...**).
-1. Select **Configure Provider**.
-
-![Screenshot of the Configure Provider option that can be accessed through manage providers.](../media/learning/sharepoint-display-name1.png)
-
-The display name is the organization or tenant name by default.
-
-5. Update display name.
-6. Click **Save**.
-
-![Screenshot of a configured SharePoint display name with the option to save.](../media/learning/sharepoint-display-name2.png)
 
 
 ### Delete content
