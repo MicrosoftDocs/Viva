@@ -50,7 +50,7 @@ In most cases, charts appear in pairs. The charts in a pair present related info
 >[!Note]
 >Within a chart pair, you can [switch](#switch-between-chart-types) the left chart to show either a column graph or box plot.
 
-The column graph shows metric data for groups and the related line graph shows trends, namely values of this metric over time for the selected groups. For example, here is the **Meeting hours by duration** pair of charts in [Meetings overview](Explore-metrics-meetings-overview.md):
+The column graph shows metric data for groups and the related line graph shows trends, namely values of this metric over time for the selected groups. For example, here is the **Meeting hours by duration** pair of charts in [Meetings overview](explore-metrics-meetings-overview.md):
 
 ![Meeting hours by duration.](../images/wpa/use/08-meeting-hours-by-duration.png)
 

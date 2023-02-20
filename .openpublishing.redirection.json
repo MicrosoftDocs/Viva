@@ -464,6 +464,11 @@
         "source_path": "viva/goals/kr-types.md",
         "redirect_url": "/viva/solutions/kr-types",
         "redirect_document_id": false
+        },
+      {
+        "source_path": "viva/insights/personal/teams/send-card.md",
+        "redirect_url": "/viva/insights/personal/introduction",
+        "redirect_document_id": false
         }
     ]
 }
