@@ -1,4 +1,5 @@
 ---
+ms.date: 10/31/2022
 title: Slack troubleshooting and support
 ms.reviewer: 
 ms.author: rasanders
@@ -25,3 +26,4 @@ description: "Learn how to get support with the Viva Goals Slack Integration"
 If you face any issues with the Microsoft Viva Goals app for Slack, you can raise a support ticket by sending an email to vgintegrations@microsoft.com.
 
 Please refer to our [Privacy Statement](https://privacy.microsoft.com/en-US/privacystatement#mainnoticetoendusersmodule) and [Terms of use](https://www.microsoft.com/licensing/terms/welcome/WelcomePage?programMoniker=EAEAS) to know more about our data handling policies. You can write us at vgintegrations@microsoft.com for any data handling requirements 
+

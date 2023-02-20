@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Improve your work patterns
 description: How to use Viva Insights to improve your work patterns
 author: madehmer
@@ -38,3 +39,4 @@ By using Viva Insights, you and your team can accomplish great things.
 ## Privacy
 
 Viva Insights is completely personal and private. Only you (not your manager and not the system administrator) can see your insights. For more information, see the [Privacy guide](../overview/privacy-guide-users.md).
+

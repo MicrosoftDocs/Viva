@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/08/2022
 title: Focus with Viva Insights
 description: Use the focus features in Microsoft Viva Insights to help you complete individual work
 author: lilyolason
@@ -120,3 +121,4 @@ After your timer runs out, a **Congratulations** message appears. If you want to
 :::image type="content" source="../images/focus-mode-end2.png" alt-text="Screenshot that shows focus mode's end screen.":::
 
 If you’re done focusing, you can move forward with your day and continue using Teams. Your Teams status will stop showing as **Focusing** and, if they were muted, you’ll start receiving Teams notifications again.
+

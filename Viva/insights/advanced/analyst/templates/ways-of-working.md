@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Ways of working report
 description: Learn how the Ways of working PowerBI template from Microsoft Viva Insights helps you explore collaboration, meeting, wellbeing, and coaching patterns.
 author: lilyolason
@@ -224,3 +225,4 @@ For details about how to share the report and other Power BI tips, troubleshoot 
 ## Related topic
 
 [Access query results and modify existing queries](/viva/insights/advanced/analyst/query-results.md)
+

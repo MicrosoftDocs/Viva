@@ -1,4 +1,5 @@
 ---
+ms.date: 09/16/2021
 title: Manager and leader insights in Viva Insights
 description: Learn about manager and leader insights in Viva Insights in Teams and how to use it 
 author: lilyolason
@@ -30,3 +31,4 @@ Viva Insights helps people and businesses thrive with data-driven, privacy-prote
 
 * [Setup for teamwork habits and organization trends](../org-team-insights/setup.md)
 * [Personal insights](../personal/introduction.md)
+

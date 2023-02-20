@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 1/06/2022
+ms.date: 11/15/2021 1/06/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -172,3 +172,4 @@ A selection of courses are available from LinkedIn Learning for free. This means
 |Office 365 中的团队合作 (Microsoft 365) |Business |
 |学习数据科学：用数据说话 |Tech|
 |学习数据科学：基础知识理解 |Tech|
+

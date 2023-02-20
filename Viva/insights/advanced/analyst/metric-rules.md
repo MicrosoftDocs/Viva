@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Metric rules in Viva Insights
 description: Learn about metric rules in Microsoft Viva Insights 
 author: lilyolason
@@ -55,3 +56,4 @@ The app's metric rules:
 * **Available-to-focus hours**
 * **Conflicting meeting hours**
 * **Working-hours meeting hours**
+

@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 2/9/2022
+ms.date: 11/15/2021 2/9/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -44,3 +44,4 @@ You'll need Your EdCast API key, Secret, Client Host URL and User Email for Viva
 2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable EdCast in the panel.
 3. Fill in the configuration details that you got from your EdCast Customer Success Manager.
 4. Select **Save** to activate EdCast content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
+

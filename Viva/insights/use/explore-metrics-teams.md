@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 04/01/2019
 title: Explore Teams data in Viva Insights
 description: Overview of Teams collaboration data in the advanced insights app with Viva Insights
 author: madehmer
@@ -79,3 +80,4 @@ The following table provides details about Teams metrics in Person queries.
 * [Meeting queries](../tutorials/Meeting-queries.md)
 * [Advanced insights charts](/viva/insights/use/chart-types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Advanced insights metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

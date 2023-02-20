@@ -1,4 +1,5 @@
 ---
+ms.date: 04/07/2022
 title: Manage OKRs in Viva Goals
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -149,3 +150,4 @@ You can as easily drag a key result out from under an objective to make it becom
 
 > [!NOTE]
 > Drag-and-drop functionality is available at the organizational, team, and individual levels. 
+

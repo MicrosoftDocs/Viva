@@ -1,4 +1,5 @@
 ---
+ms.date: 04/05/2022
 title: "Roles and permissions in Viva Goals"
 ms.reviewer: 
 ms.author: rasanders
@@ -251,3 +252,4 @@ Alternatively, an observer can be changed into a regular user type when a regula
 ### Invite other users as observers
 
 An observer can invite others as observers if the Invite Policy in **Admin** > **Settings** is set to **Anyone in the organization**.
+

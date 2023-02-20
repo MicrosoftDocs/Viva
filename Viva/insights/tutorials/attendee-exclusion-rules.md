@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/15/2020
 title: Attendee exclusion rules 
 description: Attendee exclusion rules -- Introduction and walkthrough   
 author: madehmer
@@ -88,3 +89,4 @@ Sometimes, meeting invitees don't respond to meeting invitations. Using the "did
 ## Related topics
 
 * [Meeting exclusions](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

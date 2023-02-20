@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/06/2020
 title: Enhance operational effectiveness with Advanced insights
 description: Learn how to use Viva Insights data to analyze and maximize operational effectiveness in your organization 
 author: madehmer
@@ -121,3 +122,4 @@ For more best practices and ways to protect the time of yourself and others, see
 
 * [Business outcomes overview](/viva/insights/use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Metric descriptions for Advanced insights](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json.md)
+

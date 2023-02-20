@@ -1,4 +1,5 @@
 ---
+ms.date: 04/17/2022
 title: "Domo integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -80,3 +81,4 @@ After the connection is configurated, users can **Edit** their Viva Goals OKRs t
     Or, apply any available dataset fields as **Filters**. For example, filter a particular AE name.
 
     Viva Goals displays the final KPI value for your reference before saving the data link setup.
+

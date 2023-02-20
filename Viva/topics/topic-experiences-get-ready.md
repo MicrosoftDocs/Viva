@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Get your environment ready for Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls

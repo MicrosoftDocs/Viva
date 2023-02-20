@@ -2,6 +2,7 @@
 # Metadata Sample
 # required metadata
 
+ms.date: 05/02/2019
 title: Inline suggestions to promote focus time
 description: Table of inline suggestions to promote focus time  
 author: madehmer
@@ -18,3 +19,4 @@ search.appverid:
 | Where it shows up  | What it says | How it helps |
 |------|-------|---------|
 |Scheduling a meeting | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting** |Suggests that you shorten hour-long meetings to 45 minutes. |
+

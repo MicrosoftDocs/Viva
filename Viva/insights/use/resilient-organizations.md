@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/06/2020
 title: Enhance organizational resiliency with Viva Insights
 description: Learn how to use Viva Insights data to analyze and enhance organizational resiliency
 author: madehmer
@@ -139,3 +140,4 @@ For more best practices, see [Best practices for community connectivity](../tuto
 
 * [Business outcomes overview](/viva/insights/use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

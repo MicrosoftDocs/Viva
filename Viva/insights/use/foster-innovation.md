@@ -1,4 +1,5 @@
 ---
+ms.date: 10/06/2020
 title: Foster innovation
 description: Learn how to use Microsoft Viva Insights data to analyze and foster innovation in your organization
 author: madehmer
@@ -99,3 +100,4 @@ For more best practices and how to identify and utilize influencers, see [Best p
 
 * [Business outcomes overview](/viva/insights/use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Advanced insights metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

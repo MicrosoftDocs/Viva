@@ -1,4 +1,5 @@
 ---
+ms.date: 04/17/2022
 title: "Zendesk Integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -65,3 +66,4 @@ Now that the integration is enabled, your team can link a Zendesk metric with an
     :::image type="content" source="../media/goals/7/zendesk-new-connection-details.png" alt-text="Screenshot shows where you specify progress tracking details in Zendesk." lightbox="../media/goals/7/zendesk-new-connection-details.png":::
 
 3. Select **Next** to finish and save your OKR. You should now see a Zendesk icon next to the OKR. Viva Goals will now automatically track the percent of satisfied response. The OKR syncs automatically every hour. To refresh it manually, select **refresh**.
+

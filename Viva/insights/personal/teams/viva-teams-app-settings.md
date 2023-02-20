@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/26/2021
 title: Configure Viva Insights
 description: Learn how to configure the settings for the Microsoft Viva Insights app
 author: lilyolason
@@ -51,3 +52,4 @@ When you set reminders:
 ## Related topics
 
 [Viva Insights introduction](viva-teams-app.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 10/20/2022
 title: Collaborate with Viva Goals in Slack 
 ms.reviewer: 
 ms.author: rasanders
@@ -47,4 +48,5 @@ With the help of the Microsoft Viva Goals app for Slack, users can access better
 :::image type="content" source="../media/goals/slack-images/preview-1.png" alt-text="Screenshot of a preview of a sample Viva Goals OKR shared on a Slack conversation." lightbox="../media/goals/slack-images/preview-1.png":::
 
 :::image type="content" source="../media/goals/slack-images/preview-2.png" alt-text="Screenshot of a preview of a sample Viva Goals Project shared on a Slack conversation." lightbox="../media/goals/slack-images/preview-2.png":::
+
 

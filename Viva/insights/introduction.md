@@ -1,4 +1,5 @@
 ---
+ms.date: 09/16/2021
 title: Introduction to Viva Insights
 description: Learn about Microsoft Viva Insights
 ms.localizationpriority: medium 
@@ -37,3 +38,4 @@ Viva Insights includes a Microsoft Teams and web app, along with web features an
 * [**Microsoft Viva Insights Community**](https://community.vivainsights.microsoft.com/) - An online community where you can connect, learn, and discuss with Viva Insights experts and peers.
 * [**Microsoft Viva Blog**](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog/label-name/Viva%20Insights) - Latest news about Microsoft Viva Insights features and functionality.
 * [**Discover Microsoft Viva Insights**](/training/modules/workplace-analytics-discover/) - Take this e-learning course on how to use Viva Insights for organizational and team insights and other advanced analytics features.
+

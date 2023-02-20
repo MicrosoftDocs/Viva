@@ -1,4 +1,5 @@
 ---
+ms.date: 11/11/2022
 title: "Support growth at work with Viva Learning and Viva Topics"
 ms.reviewer: 
 ms.author: loreenl

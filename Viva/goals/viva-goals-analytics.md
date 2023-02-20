@@ -1,4 +1,5 @@
 ---
+ms.date: 12/09/2022
 title: "OKR Program Analytics"
 ms.reviewer: 
 ms.author: rasanders
@@ -96,4 +97,5 @@ In the breakdown view, you'll see breakdown of the metrics by the top-level team
 - **Objectives with more than 5 KRs:** Percentage (and count) of organization and team objectives with more than five KRs, as on the last date of selected time range. 
 
 - **Average OKRs per OKR owner:** Calculated as total OKRs divided by total OKR owners, as on the last date of selected time range (individual OKRs aren't considered). 
+
 

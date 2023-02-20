@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/10/2020
 title: Assign licenses for Microsoft Viva Insights in Teams
 description: Learn how to assign licenses through the Microsoft 365 admin center or Azure AD to people who want to use Microsoft Viva Insights in Teams
 author: madehmer
@@ -76,3 +77,4 @@ Alternatively, you can assign licenses as follows:
 
 * [Assign roles](assign-roles.md)
 * [Setup overview](./setup.md)
+

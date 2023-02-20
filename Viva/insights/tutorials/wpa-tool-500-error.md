@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 06/27/2018
 title: Viva Insights 500 error
 description: This explains why users receive a 500 error when using the advanced insights app 
 author: madehmer
@@ -35,3 +36,4 @@ You'll see this error message for one of the following issues:
 **Escalation process** 
 
 To escalate this issue, contact [Microsoft support](https://support.microsoft.com/contactus/).
+

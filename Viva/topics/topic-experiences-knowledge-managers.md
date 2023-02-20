@@ -1,4 +1,5 @@
 ---
+ms.date: 05/10/2022
 title: Knowledge managers—Build and manage a knowledge base in Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -178,6 +179,7 @@ There will be topics that the knowledge manager has the capability and expertise
 
 > [!Note] 
 > While information in a topic that's gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
+
 
 
 

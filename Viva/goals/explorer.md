@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Explorer"
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -190,3 +191,4 @@ Use the **Type** filter to refine the OKRs list by teams or individuals.
 :::image type="content" source="../media/goals/4/46/n.jpg" alt-text="Screenshot shows where you filter OKRs by team or individual." lightbox="../media/goals/4/46/n.jpg":::
 
 Apply the changes and save the view for future reference.
+

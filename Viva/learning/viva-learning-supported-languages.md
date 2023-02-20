@@ -1,7 +1,7 @@
 ---
 title: "Supported languages in Viva Learning"
 ms.reviewer:
-ms.date: 2/17/2022
+ms.date: 02/16/2022 2/17/2022
 ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
@@ -44,3 +44,4 @@ Filipino (Pilipinas)|Lietuvių (Lietuva)|Українська (Україна)
 Suomi (Suomi)|മലയാളം (ഇന്ത്യ)|Tiếng Việt (Việt Nam)
 Français (Canada)|मराठी (भारत)|Cymraeg (Y Deyrnas Unedig)
 Français (France)|Norsk, Bokmål (Norge)	
+

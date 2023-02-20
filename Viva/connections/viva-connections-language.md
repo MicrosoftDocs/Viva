@@ -1,4 +1,5 @@
 ---
+ms.date: 01/12/2022
 title: "Set up the Viva Connections experience in a specific language"
 ms.reviewer: 
 ms.author: hokavian
@@ -130,3 +131,4 @@ If a user has a device set to the French language the Teams mobile app “system
 
 
 [Set up a Dashboard in more than one language](create-multilingual-dashboard.md)
+

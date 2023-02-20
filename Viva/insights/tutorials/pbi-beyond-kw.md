@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/09/2021
 title: Beyond knowledge workers dashboard
 description: Use the Beyond knowledge workers reports to visualize predefined data from Viva Insights in Power BI
 author: madehmer
@@ -156,3 +157,4 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 ## Related topic
 
 [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

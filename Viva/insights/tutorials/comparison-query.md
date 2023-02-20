@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/17/2019
 title: Peer comparison queries
 description: Learn what peer comparison queries are and how to use them in Microsoft Viva Insights
 author: madehmer
@@ -143,3 +144,4 @@ For more information, see [View, download, and export query results](/viva/insig
 * [Understand and interpret query output](/viva/insights/use/csv-query-output-file?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Peer-comparison metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#peer-comparison-metrics)
 * [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

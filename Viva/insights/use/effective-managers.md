@@ -1,4 +1,5 @@
 ---
+ms.date: 10/06/2020
 title: Develop effective managers with Viva insights
 description: Learn how to use Microsoft Viva Insights data to analyze and develop effective managers in your organization
 author: madehmer
@@ -126,3 +127,4 @@ In the [Empowering your employees to empower themselves](https://insights.office
 * Create a shared [Teams channel](/microsoftteams/teams-channels-overview) to strengthen connectivity through channel interactions about projects, strategic topics, and goals to enable information sharing, brainstorming, and team building.
 
 For more best practices and ways to open your network to your team, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
+

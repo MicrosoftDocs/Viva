@@ -1,4 +1,5 @@
 ---
+ms.date: 02/10/2022
 title: Add the Viva Topics app in the Teams Admin Center
 ms.author: ruthhollands
 author: ruthholls
@@ -61,3 +62,4 @@ We highly recommend that you [pin this app by default for users in your organiza
 [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences)
 
 [Apps, bots, & connectors in Microsoft Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page)
+

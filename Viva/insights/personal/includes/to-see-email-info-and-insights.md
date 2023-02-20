@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/26/2018
 title: To see email information and insights
 description: How to see email information and general insights in Viva Insights 
 author: madehmer

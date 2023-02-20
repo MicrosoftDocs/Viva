@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 6/14/2022
+ms.date: 11/15/2021 6/14/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -174,3 +174,4 @@ You can find the required Workday Web Service endpoint on the **Workday Data Cen
     4. **Password:** This is the password that you chose when you created the integration system user.
 
 4. Select **Save** to save the configuration details and complete the setup process.
+

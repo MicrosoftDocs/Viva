@@ -1,4 +1,5 @@
 ---
+ms.date: 02/08/2023
 title: "Manage Viva Engage Core user licenses in Microsoft 365"
 description: "Viva Engage is moving from a licensing model where the entire Microsoft 365 subscription is licensed as a whole, to a model where you can assign licenses for each user. "
 ms.reviewer: ethli
@@ -135,3 +136,4 @@ A: You can [Enforce Office 365 identity](/yammer/configure-your-yammer-network/e
 ### Q: How can I tell if all of my Yammer users have accounts in Office 365?
 
 A: You can export your list of users from Yammer and check for users who aren't in Office 365. For more information, see [Audit Yammer users in networks connected to Office 365](/yammer/manage-yammer-users/audit-users-connected-to-office-365).
+

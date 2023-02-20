@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/30/2021
 title: Wellbeing dashboard
 description: Use the Wellbeing dashboard in Power BI to visualize insights into employee wellbeing across the company that's based on Viva Insights data
 author: madehmer
@@ -163,3 +164,4 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 ## Related topic
 
 [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

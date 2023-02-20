@@ -1,4 +1,5 @@
 ---
+ms.date: 07/11/2018
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work 
 author: lilyolason
@@ -204,3 +205,4 @@ _**Applies to**: This suggestion is currently available only to people who are e
 When composing an email to more than five recipients, you might see a suggestion that reads "Insights can track the email."
 
 Select **Track this email** to see the email open rate and more statistics about this email. This information becomes available 15 minutes after you sent the email. You can see this information by opening the sent email or by opening the Insights add-in and selecting **Track email open rates**.
+

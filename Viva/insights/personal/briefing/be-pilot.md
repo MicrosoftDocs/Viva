@@ -1,5 +1,6 @@
 ---
 
+ms.date: 05/13/2020
 title: Conduct a user pilot
 description: Helps you conduct a pilot rollout for the Briefing email
 author: madehmer
@@ -102,3 +103,4 @@ When the results indicate:
 
  > [!Tip]
  > Enlist your pilot participants as peer champions to help evangelize and onboard new users to Briefing. Peer champions can easily relate to other users, sharing their own experiences and learnings, and offering support and guidance to their colleagues. <!-- See the [Early Adoption Program Guide](https://go.microsoft.com/fwlink/?linkid=859068) to learn more about champions and how you can use them in your rollout.-->
+
