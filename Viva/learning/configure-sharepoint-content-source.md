@@ -137,6 +137,11 @@ Create a folder to store learning content for your organization.
 
 You can add links to both internal content from SharePoint and external content from sites such as YouTube or Vimeo that will pull through into Viva Learning.
 
+> [!NOTE]
+>When users access the content from Viva Learning, they'll be taken to the URL of the content in their browser.
+> [!NOTE]
+Note 2: You need a Viva Suite or Viva Learning license to access linked objects in Viva Learning. Without a license, you can discover  linked objects in Viva Learning, but cannot consume them.
+
 1. In your folder, select **New** and then choose **Link**.
 
     :::image type="content" alt-text="Screenshot of the documents library with New and Link selected." source="../media/learning/sp-new-link.png" lightbox="../media/learning/sp-new-link.png":::
@@ -152,9 +157,6 @@ You can add links to both internal content from SharePoint and external content 
 
 5. The linked object will show up in the Viva Learning app.
 
-> [!NOTE]
->When users access the content from Viva Learning, they'll be taken to the URL of the content in their browser.
-Users within an organization can discover courses if they have permission, but they will only be able to consume the course if they have a Viva Suite or Viva Learning license. 
 
 ### Metadata
 
