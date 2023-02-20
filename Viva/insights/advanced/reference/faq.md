@@ -1,4 +1,5 @@
 ---
+ms.date: 07/15/2022
 title: Advanced insights FAQ
 description: Get answers to frequently asked questions about Microsoft Viva Insights' advanced insights app
 author: lilyolason

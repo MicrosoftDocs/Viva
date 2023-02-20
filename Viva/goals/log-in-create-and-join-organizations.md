@@ -1,4 +1,5 @@
 ---
+ms.date: 04/05/2022
 title: Log in, create, and join organizations in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -111,3 +112,4 @@ An organization in Viva Goals can mean different things to different users. You 
 *Public* allows anyone in your company to join your organization without approval.
 
 *Restricted* lets you choose which users get to join your organization. Use this option when you want to keep a tight-knit group of users to maintain information boundaries.
+

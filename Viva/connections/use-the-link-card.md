@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: "Use the Web link card to integrate content into Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
@@ -159,6 +160,7 @@ The best experiences will be achieved if the service does not require authentica
 [Create the Viva Connections Dashboard](/viva/connections/create-dashboard)
 
 [Use audience targeting in Viva Connections to personalize the experience](/viva/connections/use-audience-targeting-in-viva-connections)
+
 
 
 

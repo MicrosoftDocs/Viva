@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/10/2020
 title: Manager insights rollout
 description: Guidance on how to rollout new Viva Insights for managers to your organization's managers
 author: madehmer
@@ -32,3 +33,4 @@ You can use the following sample content to introduce My team or Manager insight
 
 * [Introductory email to your managers](https://download.microsoft.com/download/5/7/7/57742c87-230c-4a62-8001-6753ebbdc5c6/manager-insights-intro.docx)
 * [Teamwork habits Viva Insights](../org-team-insights/teamwork-habits.md)
+

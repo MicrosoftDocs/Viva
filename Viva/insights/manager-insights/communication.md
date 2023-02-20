@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/16/2020
 title: Best practices about efficient communication
 description: Get best practice recommendations for managers about communication with their teams
 author: madehmer
@@ -72,4 +73,5 @@ When introducing a new tool, help team members get comfortable and adopt quickly
 ## Related topics
 
 * [Viva Insights best practices](best-practices.md)
+
 

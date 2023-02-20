@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 02/03/2023
 title: Metric rules in Viva Insights
 description: Learn about metric rules in Microsoft Viva Insights 
 author: lilyolason
@@ -295,3 +296,4 @@ To get an example .xlsx file that shows what's included and excluded from existi
 #### Replace meeting exclusions as default
 
 You or another analyst can replace meeting exclusions as the default rule whenever you want. Just keep in mind that you’re applying that default rule to all future queries, and also changing calculations for the Viva Insights app in Teams and web.
+

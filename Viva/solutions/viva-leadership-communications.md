@@ -1,4 +1,5 @@
 ---
+ms.date: 04/07/2022
 title: "Microsoft Viva for the hybrid workplace: Leadership communications"
 ms.reviewer: 
 ms.author: loreenl
@@ -61,5 +62,6 @@ Learn more
 [Hold a town hall in Yammer and keep the conversation going](/sharepoint/hold-town-hall-using-yammer)
 
 [Set up and launch Viva Connections](/viva/connections/guide-to-setting-up-viva-connections)
+
 
 

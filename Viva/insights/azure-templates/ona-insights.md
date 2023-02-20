@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/06/2021
 title: Insights in the Organizational Network Analysis Azure Template
 description: Learn how to create and use insights in the Organizational Network Analysis Azure Template for Workplace Analytics
 author: madehmer
@@ -141,3 +142,4 @@ To see more details about the collaboration metrics or the interaction matrix th
 * [Organizational Network Analysis Azure Template](./organization-network-analysis.md)
 * [ONA metric calculations](./ona-metric-calculations.md)
 * [Workplace Analytics Azure Templates overview](./overview.md)
+

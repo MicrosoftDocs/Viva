@@ -1,4 +1,5 @@
 ---
+ms.date: 01/12/2022
 title: "Frequently asked questions about the Feed for Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
@@ -152,3 +153,4 @@ In the [Feed for Viva Connections web part](/viva/connections/use-feed-web-part-
 [Use the Viva Connections Feed web part](https://support.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330)
 
 [Create an organizational news site in SharePoint](/SharePoint/organization-news-site)
+

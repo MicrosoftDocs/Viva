@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Get support for Viva Insights
 description: What support options are available for help with Microsoft Viva Insights 
 author: madehmer
@@ -38,3 +39,4 @@ Support varies depending on what type of Microsoft Viva Insights you are using.
 
 * [Microsoft Viva community](https://community.vivainsights.microsoft.com/)
 * [Microsoft Workplace Insights](https://insights.office.com/)
+

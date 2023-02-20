@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Objective Delegation"
 ms.reviewer: 
 ms.author: rasanders
@@ -60,3 +61,4 @@ If you want another user to check in and update the progress of an OKR, you can 
 3. After you assign owners, use the **Who is responsible for making check-ins?** dropdown to select the user who will be responsible for making check-ins. That user will start receiving check-in reminders.
 
 By default, the owner, or the first owner if there are multiple owners, is set as the person responsible for check-in, unless you change this setting.
+

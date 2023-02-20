@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/06/2022
 title: Organization insights FAQs
 description: Get answers to frequently asked questions about organization insights in Microsoft Viva Insights 
 author: lilyolason

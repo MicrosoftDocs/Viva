@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Add the Viva Connections app in the Teams admin center
 ms.reviewer: 
 ms.author: hokavian
@@ -96,3 +97,4 @@ Optionally (but highly recommended) set app permissions policies to determine wh
 <br>
 
 [Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
+

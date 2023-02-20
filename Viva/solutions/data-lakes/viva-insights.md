@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 02/07/2022
 title: Microsoft Viva Insights data lake solution
 description: Learn how to set up and use the Viva Insights data lake solution
 author: madehmer
@@ -320,3 +321,4 @@ You can use Synapse activities and capabilities to load the additional data sour
 
 >[!Note]
 >PersonId in Viva Insights data is, by default, a hashed and de-identified employee identifier which cannot be reverse mapped and so cannot be used as the join key.
+

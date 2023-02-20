@@ -1,4 +1,5 @@
 ---
+ms.date: 04/28/2022
 title: Understanding views in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -162,3 +163,4 @@ To view the objective in more detail, select the **See Details** option.
 To enable Chart View for the organization’s OKRs or for a team or an individual, select the **View chart** option from the **View Options** dropdown:
 
 :::image type="content" source="../media/goals/2/28/c.jpg" alt-text="Screenshot shows where you select chart view in the OKRs window." lightbox="../media/goals/2/28/c.jpg":::
+

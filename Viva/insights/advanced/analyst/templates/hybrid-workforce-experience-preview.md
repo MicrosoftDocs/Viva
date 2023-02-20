@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/14/2022
 title: Hybrid Workforce Experience Power BI report (preview)
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: lilyolason
@@ -246,3 +247,4 @@ For details about how to share the report and other Power BI tips, troubleshoot 
 ## Related topic
 
 [Access query results and modify existing queries](/viva/insights/advanced/analyst/query-results.md)
+

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/20/2018
 title: Time zones for Viva Insights
 description: This article introduces the time-zone formats required in Microsoft Viva Insights
 author: madehmer
@@ -69,3 +70,4 @@ When you prepare organizational data for upload to Viva Insights, use the follow
 |Eastern Standard Time| Omsk Standard Time| West Pacific Standard Time|
 |Eastern Standard Time (Mexico)|Pacific SA Standard Time|Yakutsk Standard Time|
 |Egypt Standard Time|Pacific Standard Time||
+

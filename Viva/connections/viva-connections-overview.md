@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: "Overview: Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
@@ -244,3 +245,4 @@ There are several options to learn more about how to get Viva Connections for yo
 [Viva Connections adoption resources](https://adoption.microsoft.com/viva/)
 
 [Viva Connections guidance for end users](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 01/06/2023
 title: "Power BI Integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -115,3 +116,4 @@ Global admins must first enable the Power BI Integration for Viva Goals at the t
 
 1. What permissions do I need to connect to a Power BI report?  
     1. You will need [build permissions](/power-bi/connect-data/service-datasets-build-permissions) on the dataset underlying the report.
+

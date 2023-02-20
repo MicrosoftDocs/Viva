@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/05/2022
 title: Schedule send with Viva Insights
 description: Learn how to opt in and use Schedule send with Viva Insights for suggestions on when to send email during your coworker's working hours
 author: lilyolason
@@ -104,3 +105,4 @@ To configure schedule send suggestions for your organization at the tenant level
 <!--## Video walk-through
 
 Watch this video to take a closer look at schedule send experiences in Outlook.
+

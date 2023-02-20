@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: "Overview of how to set up Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
@@ -79,3 +80,4 @@ After you have reviewed the phases, tasks, and roles needed to get Viva Connecti
 [Overview of security and compliance in Microsoft Viva](/viva/microsoft-viva-security)
 
 [Combine Viva modules for a more powerful experience](/viva/learn-how-to-combine-modules)
+

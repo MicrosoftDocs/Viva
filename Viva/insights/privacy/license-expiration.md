@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Data retention policy
 description: Accessing your organization's data after expiration of Microsoft Viva Insights subscriptions or removal of licenses
 author: madehmer
@@ -56,3 +57,4 @@ After this period has passed, you will no longer have access to Viva Insights in
 ## Related topic
 
 [Get support](../overview/getting-support.md)
+

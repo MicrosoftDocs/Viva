@@ -1,4 +1,5 @@
 ---
+ms.date: 03/16/2022
 title: "Create a SharePoint home site for Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
@@ -124,3 +125,4 @@ Once you’ve set a communication site as a home site, you'll be able to [enable
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
 
 [Plan, build, and launch Microsoft Viva Connections for your organization](plan-viva-connections.md)
+

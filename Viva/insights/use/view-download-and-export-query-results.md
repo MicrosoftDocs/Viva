@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 03/05/2018
 title: View, download, and export query results with Viva Insights
 description: Describes how to view, download, and export Microsoft Viva Insights query data to Power BI and other data analysis tools
 author: madehmer
@@ -197,4 +198,5 @@ After you have finished creating visuals, you can publish your reports to Power 
 * [User roles in Viva Insights](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Auto-refresh option for queries](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Supported languages and guidelines](../overview/supported-languages.md)
+
 

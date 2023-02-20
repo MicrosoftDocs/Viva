@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/11/2021
 title: Viva Insights Zoom integration
 description: Learn how to use the Viva Insights Zoom integration for including Zoom data in collaboration analysis
 author: madehmer
@@ -172,3 +173,4 @@ This integration uses the following Zoom metrics for collaboration analysis.
 
 * [wpa R package](/viva/insights/tutorials/wpa-r-package?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Ways of working assessment](/viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

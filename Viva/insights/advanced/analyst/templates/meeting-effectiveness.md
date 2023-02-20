@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
+ms.date: 07/14/2022
 title: Meeting effectiveness report
 description: Learn how to use the Microsoft Viva Insights Power BI template to identify whether employees practice habits that lead to more effective meetings
 author: lilyolason
@@ -214,3 +215,4 @@ For details about how to share the report and other Power BI tips, troubleshoot 
 ## Related topic
 
 [Access query results and modify existing queries](../query-results.md)
+

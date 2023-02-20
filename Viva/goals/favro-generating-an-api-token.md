@@ -1,4 +1,5 @@
 ---
+ms.date: 04/17/2022
 title: "Favro - generate an application programming interface (API) token"
 ms.reviewer: 
 ms.author: rasanders
@@ -35,3 +36,4 @@ Here's how to add a personal API token from the **My profile** section in Favro.
   
     :::image type="content" source="../media/goals/12/favro-create-token-button.png" alt-text="Screenshot shows where you choose Create token in Favro." lightbox="../media/goals/12/favro-create-token-button.png":::
   
+

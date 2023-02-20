@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 06/17/2019
 title: Explore the stats page settings
 description: Describes the page settings for Explore the stats in Viva Insights
 author: madehmer
@@ -98,3 +99,4 @@ This section is only available for applicable Explore the stats, such as Externa
 
 >[!Note]
 >Currently, you cannot apply the Collaborators filter for the External network size, External network breadth, and bubble charts in the Network section. However, it does apply to all the other charts on the page.
+
