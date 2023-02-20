@@ -37,7 +37,6 @@ When you select **View my network** on the **Time spent collaborating with other
 
 *Applies to: users with a premium subscription*
 
-
 If you’re an organization leader—that is, your Insights admin has assigned you the **Insights Business Leader** role or enabled you as a group manager—you’ll see a **Teamwork insights for your organization** section at the top of your **Teamwork** tab. Each day, you’ll receive an insight about internal network size across your organization or company. To learn more about organization insights, refer to [Organization insights in the Viva Insights app](../../../org-team-insights/new/org-insights.md).
 
-![Screenshot that shows Teamwork insights for your organization section on the Teamwork tab.](../images/teamwork-org-insights.png)
+:::image type="content" source="../images/teamwork-org-insights.png" alt-text="Screenshot that shows Teamwork insights for your organization section on the Teamwork tab.":::
