@@ -52,7 +52,7 @@ If you want more information about how much time you’re spending with a contac
 
 You can add someone to your important people list in a couple of ways:
 
-* At the top of your **Network** page, you might notice they're a suggested contact. To add them to your important list, just select the **Pin** button.
+* At the top of your **Network** page, you might notice they're a suggested contact. To add them to your important list, select the **Pin** button.
 
      :::image type="content" source="../images/teamwork-suggested-important-contact.png" alt-text="Screenshot that shows a Suggested important contact card with a profile image and name at the top and Pin button and Next person link at the bottom.":::
 
@@ -74,7 +74,7 @@ To remove someone from your important people list, select the **Unpin** icon, wh
  
 ## Communication habits
 
-**Communication habits** shows how you communicate with people in your network. We break up your total communication over the last four weeks by communication type: emails sent, emails read, and chats and calls. On a graph, you'll find a distribution of communication throughout your day—for example, your graph might show that you send a majority of your emails around 8am, but chat and call with colleagues around 3pm. Hover on each bar for a breakdown of collaboration activity by hour.
+**Communication habits** shows how you communicate with people in your network. We break up your total communication over the last four weeks by communication type: emails sent, emails read, and chats and calls. On a graph, you'll find a distribution of communication throughout your day—for example, your graph might show that you send most of your emails around 8am, but chat and call with colleagues around 3pm. Hover on each bar for a breakdown of collaboration activity by hour.
 
 :::image type="complex" source="../images/teamwork-communication-habits1.png" alt-text="Screenshot that shows Communication habits section on the Teamwork tab.":::
    Screenshot of the "Communication habits" section of the Teamwork tab. The subtitle reads, "How connected are you with people in your network?" and contains a "Learn more" link. Below the subtitle, there's a section that contains a bar graph. To the left of the graph, there's a subsection titled, ""Your habits in the last 4 weeks," which contains three numbers arranged vertically. The first number's label reads, "Emails sent." The second number's label reads, "Emails read." The last number's label reads, "Chats and calls." The graph's Y axis goes from 0 - 75 in increments of 25. The X axis goes from 8:00 AM to 6:00 PM in increments of 2 hours. The graph's key corresponds to the section to the left: "Emails sent," "Emails read," and "Chats and calls." Each hour on the graph contains one stacked bar representing these three categories. The image shows a hover tooltip over 3:00 PM, which reports the exact number for each category in that hour. There's an "Is this helpful?" link in the bottom left corner, with "Yes" and "No" options.
