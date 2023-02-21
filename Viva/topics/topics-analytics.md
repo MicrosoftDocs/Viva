@@ -47,6 +47,18 @@ The **File processing for topic discovery** section shows the number of files th
 
 ![Screenshot of analytics for unique files processed.](../media/topics-analytics-unique-files.png) 
 
+
+## Sites processed for topic discovery
+
+The **Sites processed for topic discovery** section shows the number of sites that AI is indexing for content to create topics.
+
+|Measure|Value|
+|:------|:----|
+|Sites processed|The number of sites that have been indexed by AI for topic discovery and updates in your organization. The site count might not update immediately in the event of deleted sites.|
+
+![Screenshot of analytics for unique files processed.](../media/topics-analytics-unique-files.png) 
+
+
 ## See also
 
 [Plan topic experiences](plan-topic-experiences.md)
