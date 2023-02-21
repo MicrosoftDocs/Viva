@@ -1,4 +1,5 @@
 ---
+ms.date: 10/06/2020
 title: Organizational resiliency in Viva Insights
 description: Learn about how to enhance organizational resiliency with recommendations in Microsoft Viva Insights
 author: madehmer
@@ -117,3 +118,4 @@ According to the [Rebuilding companies as communities](https://insights.office.c
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
 
 For more best practices, see [Best practices for community connectivity](../tutorials/gm-connectivity.md).
+

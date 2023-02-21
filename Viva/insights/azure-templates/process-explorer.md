@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 04/18/2019
 title: Process Explorer Azure Template for Workplace Analytics 
 description: Learn about the Process Explorer Azure Template for Workplace Analytics and how to use it
 author: madehmer
@@ -188,3 +189,4 @@ If you selected to include an organizational network graph when adding new analy
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [What's new in Workplace Analytics Azure Templates](./release-notes.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Wellbeing - balance and flexibility report
 description: Learn how the Wellbeing - balance and flexibility PowerBI template from Microsoft Viva Insights helps you discover whether your employees maintain work-life balance and flexibility at work
 author: lilyolason
@@ -181,3 +182,4 @@ For details about how to share the report and other Power BI tips, troubleshoot 
 ## Related topic
 
 [Access query results and modify existing queries](/viva/insights/advanced/analyst/query-results.md)
+

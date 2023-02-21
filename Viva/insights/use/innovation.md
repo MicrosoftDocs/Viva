@@ -1,4 +1,5 @@
 ---
+ms.date: 10/06/2020
 title: Foster innovation in Viva Insights
 description: Learn how to use Viva Insights data to analyze and foster innovation in your organization 
 author: madehmer
@@ -72,3 +73,4 @@ The [Measuring your employees’ invisible forms of influence](https://insights.
 * Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
 For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
+

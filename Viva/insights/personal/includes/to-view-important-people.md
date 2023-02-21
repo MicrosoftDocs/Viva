@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/26/2018
 title: View your important people list 
 description: How to view your list of Important people in Viva Insights 
 author: madehmer
@@ -21,3 +22,4 @@ audience: user
 2. Select **Explore**.
 3. In the **Your Network** > **Important collaborators** section, select **Show all**.
 4. In the **Top Collaborators** section, select **Important**.
+

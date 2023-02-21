@@ -1,4 +1,5 @@
 ---
+ms.date: 08/10/2022
 title: Define KR Types in Viva Goals
 ms.reviewer: 
 ms.author: rasanders

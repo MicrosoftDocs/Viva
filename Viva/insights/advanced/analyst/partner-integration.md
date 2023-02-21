@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 04/01/2022
 title: Viva Insights partner integration
 description: Learn how to integrate Microsoft Viva Insights and partner application data for more advanced analysis
 author: madehmer
@@ -158,9 +159,11 @@ To use this integration, here’s what you’ll need to do.
         * The **App Secret** is the secret generated in step 2 above.
 
         * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant ID of the customer whose data needs to be extracted.
-![Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)](/viva/insights/advanced/images/custom-deployment.png)
 
-    1. Select **Review + create**.
+    :::image type="content" source="../images/custom-deployment1.png" alt-text="Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)":::
+
+    5. Select **Review + create**.
+
 >[!Note] 
 >To deploy the template programmatically, follow the directions in [Programmatic configuration](#programmatic-configuration).
 
@@ -278,11 +281,30 @@ Viva Insights processes behavioral analytics data once a week. You can run your 
 
 The sample Azure Data Factory pipeline we provide on GitHub includes a [trigger](/azure/data-factory/concepts-pipeline-execution-triggers) that executes the pipeline once every seven days, which is the recommended frequency.
 
+#### Parameters
+
+You can set the following pipeline parameters either in the ARM template or in Azure Data Factory.
+
+##### RequestStartDate and RequestEndDate
+
+Use `RequestStartDate` to specify the pipeline extraction's start date and `RequestEndDate` to specify the pipeline extraction's end date. Use the ISO 8601 format for your entry—for example, `2022-09-30T00:00:00Z`.
+
+If you don't specify a value for:
+* `RequestStartDate`, this parameter will use the values of `RequestEndDate` and `DefaultLookbackWindowDays`.
+* `RequestEndDate`, this parameter will the pipeline trigger time as its value.
+
+##### DefaultLookbackWindowDays
+
+Use `DefaultLookbackWindowDays` to specify the lookback window for cases where there's no `RequestStartDate` value. If you don't set a value here, the lookback window will be 14 days.
+
+#### AggregationType
+
+`AggregationType` controls how the requested data is aggregated. Set the value to either `Day`, `Week`, or `Month`.
+
+>[!Note]
+> Make sure the time between your `RequestStartDate` and `RequestEndDate` is at least what you've set for your `AggregationType`. For example, when requesting data with an `AggregationType` set to `Week`, you’ll need to set `RequestStartDate` and `RequestEndDate` at least a week apart.
+
 #### Programmatic configuration
-
-##### Generate and store RSA keys
-
-To programmatically generate RSA Keys, refer to the [Create Key REST API](/rest/api/keyvault/keys/create-key/create-key) (or the [C#](/api/azure.security.keyvault.keys.keyclient.creatersakey) or [Java SDK](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-security-keyvault-keys/4.2.3/index.html) methods). This method also stores the RSA into the specified Key Vault.
 
 ##### Deploy
 
@@ -448,6 +470,10 @@ Coefficient| QI
 
 1. Run the [Import Key API](/rest/api/keyvault/keys/import-key/import-key).
 
+### Q7. How do I programmatically create and store RSA keys?
+
+To programmatically generate RSA keys, refer to the [Create Key REST API](/rest/api/keyvault/keys/create-key/create-key) (or the [C#](/dotnet/api/azure.security.keyvault.keys.keyclient.creatersakey) or [Java SDK](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-security-keyvault-keys/4.2.3/index.html) methods). This method also stores the RSA into the specified Key Vault.
+
 
 ### Information for customers
 
@@ -518,5 +544,6 @@ To approve a partner’s request:
 [Advanced insights metrics](../reference/metrics.md)
 
 [Sample Azure Data Factory template](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction)
+
 
 

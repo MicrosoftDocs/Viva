@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Hybrid Workforce Experience Power BI report
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: lilyolason
@@ -101,8 +102,6 @@ You can add new attributes to your organizational data at any time. For more det
 1. Select **Run** on the upper right side of the screen, which can take a few minutes to complete.
 
 1. When your query results are ready, go to the **Query results** page and select the **Power BI** icon to download the Power BI template and copy the query identifier. You'll need the query identifier later.
-
-1. Select **Run** on the upper right side of the screen, which can take a few minutes to complete.
 
 ### Link report to query
 
@@ -228,3 +227,4 @@ For details about how to share the report and other Power BI tips, troubleshoot 
 ## Related topic
 
 [Access query results and modify existing queries](/viva/insights/advanced/analyst/query-results.md)
+

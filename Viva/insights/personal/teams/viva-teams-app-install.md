@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/13/2020
 title: Discover and pin the Viva Insights app
 description: Discover and pin the Microsoft Viva Insights (personal insights) app 
 author: madehmer
@@ -59,3 +60,4 @@ This section describes how to uninstall the Microsoft Viva Insights app from Tea
 ## Related topics
 
 [Viva Insights introduction](viva-teams-app.md)
+

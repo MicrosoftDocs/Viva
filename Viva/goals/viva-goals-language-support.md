@@ -1,4 +1,5 @@
 ---
+ms.date: 09/27/2022
 title: Viva Goals language support
 ms.reviewer: 
 ms.author: rasanders
@@ -20,25 +21,27 @@ description: "Viva Goals language support"
 
 # Supported languages in Viva Goals
 
-Currently, Viva Goals supports the following languages. 
+Currently, Viva Goals supports the following languages: 
 
 |Currently Supported  | &nbsp; |&nbsp; |
 |---|---|---|
-Chinese (Simplified)|Chinese (Traditional)|English
-French|German|Italian
-Japanese|Korean|Portuguese (Brazil)|
-Spanish (Spain)| Estonian |
+Chinese (Simplified)|Chinese (Traditional)| Croatian|
+Czech|Danish|Dutch
+English (US)|English (UK)|Estonian|
+Finnish|French (France)|French (Canada)|
+German|Greek|Hungarian|
+Indonesian|Italian|Japanese|
+Korean|Norwegian (Bokmal)|Portuguese (Brazil)
+Portuguese (Portugal)|Romanian|Russian
+Spanish (Spain)|Spanish (Mexico)|Polish|
+Swedish|Thai|Turkish|
+Ukrainian|
+
 
 |Coming Soon | &nbsp; |&nbsp; |
 |---|---|---|
-Croatian|Czech|Danish
-Dutch|Finnish|Greek
-Hungarian|Indonesian|Norwegian (Bokmal)|
-Polish|Portuguese (Portugal)|Romanian 
-Russian|Swedish|Thai 
-Turkish|Ukrainian|Latvian |
-Lithuanian| Serbian| Slovak|
-Slovenian |Hebrew |Arabic |
-Bulgarian |Vietnamese
+Arabic|Bulgarian|Hebrew 
+Latvian|Lithuanian|Serbian|
+Slovak|Slovenian|Vietnamese
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).

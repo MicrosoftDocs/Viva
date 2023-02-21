@@ -27,6 +27,9 @@ In Viva Learning, you can curate a learning path using learning content from dif
 >[!NOTE]
 >You need admin or knowledge manager permissions to create a learning path in Viva Learning.
 
+>[!NOTE]
+>Learning paths are not supported on mobile. 
+
 ## Create a Learning path
 
 1. Go to the **Admin** tab in Viva Learning and click on **Learning path** on the left menu.

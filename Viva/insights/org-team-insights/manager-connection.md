@@ -1,4 +1,5 @@
 ---
+ms.date: 02/14/2023
 title: Manager connection in Viva Insights
 description: Learn about how to enhance manager connection with recommendations in Microsoft Viva Insights
 author: lilyolason

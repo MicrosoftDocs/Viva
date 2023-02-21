@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/15/2021
 title: Discover and try Viva Insights
 description: Discover and try the Viva Insights app in Teams 
 author: madehmer
@@ -38,7 +39,7 @@ After you enroll in the trial, you can experience the following subset of featur
 
 * **Send praise**: You can use this feature to recognize the contributions of your employees and coworkers. Praise messages show up as notifications in Microsoft Teams. You can have a praise message delivered in a private chat or for wider recognition, in a Teams channel conversation. See [Praise in Viva Insights](../teams/viva-insights-praise.md) for details.
 
-* **Stay on top of outstanding task suggestions**: It is easy to lose track of commitments made to your colleagues in email. This insight helps make sure nothing gets missed by reminding you. It's based on emails that you sent and requests you've made during the last 14 days of email communication, including the following. See [Stay on top of outstanding task suggestions](../teams/viva-insights-stay-connected.md#stay-on-top-of-outstanding-task-suggestions) for details.
+* **Stay on top of outstanding task suggestions**: It is easy to lose track of commitments made to your colleagues in email. This insight helps make sure nothing gets missed by reminding you. It's based on emails that you sent and requests you've made during the last 14 days of email communication, including the following. See [Stay on top of outstanding task suggestions](../teams/viva-insights-stay-connected.md) for details.
 
   * **Commitments** – Something you promised or committed to do for someone else in an email.
   * **Requests** – Something another person asked you to do in an email.
@@ -124,3 +125,4 @@ Throughout the trial and up to 10 days after the trial ends, you are prompted to
 ## Related topics
 
 [Viva Insights overview](../teams/viva-teams-app.md)
+

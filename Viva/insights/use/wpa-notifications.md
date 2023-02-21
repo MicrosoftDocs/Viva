@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/13/2018
 title:  Notifications in Advanced insights
 description: The advanced insights app with Microsoft Viva Insights shows notifications about system changes, user actions, and product updates
 author: madehmer
@@ -66,3 +67,4 @@ It also describes upcoming features when the changes they bring will affect your
 Each _What's new_ item provides a short description of the feature. It also offers a **Read more** link. This link lets you drill deeper, either by opening the documentation for that feature or by presenting informative examples and a **Show me** link that takes you to the feature's page in Viva Insights.
 
 The “new notification” icon (the number) on the bullhorn shows how many unread notifications you have. Select the **Read more** link on a card to lower this number by one. After you have selected **Read more** on all the _What’s new_ cards, the number disappears.  
+

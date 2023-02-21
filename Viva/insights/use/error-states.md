@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/15/2020
 title: Error states in Advanced insights
 description: Describes the different error states that might be encountered when viewing Advanced insights
 author: madehmer
@@ -39,3 +40,4 @@ Access, connectivity, or other issues can cause pages to not appear or to appear
 * [Assign licenses](/viva/insights/setup/assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [User roles in Viva Insights](/viva/insight/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Assign Viva Insights roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 01/19/2023
 title: Keyword suppression in Viva Insights
 description: Learn how to suppress sensitive keywords in email subject lines and meeting titles with Viva Insights. 
 author: lilyolason

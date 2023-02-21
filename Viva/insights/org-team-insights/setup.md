@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/14/2023
 title: Setup for manager and leader insights
 description: Setup steps for teamwork habits and organizational trends the Microsoft Viva Insights app.
 author: lilyolason
@@ -50,3 +51,4 @@ To discover and pin the Viva Insights app within Teams, see [Discover and pin th
 
 >[!Note]
 >You can also locate the Viva Insights app at [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
+

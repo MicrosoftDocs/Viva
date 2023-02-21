@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Security and privacy in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -94,3 +95,4 @@ While you can change the permissions on individual topic pages to narrow access 
 [Plan topic experiences](plan-topic-experiences.md)
 
 [Set up topic experiences](set-up-topic-experiences.md)
+

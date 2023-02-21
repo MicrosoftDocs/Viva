@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Plans and environments for personal insights
 description: Supported plans and environment requirements for personal insights in Microsoft Viva Insights
 author: madehmer
@@ -124,3 +125,4 @@ See [Briefing languages](../briefing/be-languages.md) to see what's supported fo
 
 * See [Why I don't see the add-in](../use/add-in.md#how-to-see-the-add-in) for what's required.
 * See [Why I don't see inline suggestions](../use/mya-notifications.md#how-to-see-inline-suggestions) for what's required.
+

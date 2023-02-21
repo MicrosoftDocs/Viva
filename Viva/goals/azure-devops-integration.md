@@ -1,4 +1,5 @@
 ---
+ms.date: 04/12/2022
 title: Azure DevOps integration
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -136,3 +137,4 @@ Now that the Key Result is linked to a query in Azure DevOps, you can track the 
 >Viva Goals will update the KRs and/or Projects hourly from their Azure DevOps sources  
 
 :::image type="content" source="../media/goals/6/azure-devops-oauth.png" alt-text="Screenshot shows where you can enable oauth access for Azure DevOps." lightbox="../media/goals/6/azure-devops-oauth.png":::
+

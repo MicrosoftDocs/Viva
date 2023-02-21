@@ -38,3 +38,4 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 12/17/2021 | [Assign licenses for Microsoft Viva Insights in Teams](/workplace-analytics-insights/assign-licenses) | modified |
+

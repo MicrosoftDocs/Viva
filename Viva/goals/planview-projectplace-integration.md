@@ -1,4 +1,5 @@
 ---
+ms.date: 04/13/2022
 title: Planview Projectplace integration
 ms.reviewer: 
 ms.author: rasanders
@@ -75,4 +76,5 @@ After your integration is set up, you can connect your new or existing OKRs with
 You can disable the integration at any time from the **Change** dropdown in the Projectplace integration view.
 
 :::image type="content" source="../media/goals/11/planview-disable-button.png" alt-text="Screenshot shows how to disable Planview Projectplace in Viva Goals." lightbox="../media/goals/11/planview-disable-button.png":::
+
 

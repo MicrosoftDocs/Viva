@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Personal insights FAQ
 description: Frequently asked questions about Personal insights with Microsoft Viva Insights
 author: madehmer
@@ -327,3 +328,4 @@ Administrators can also [Assign licenses to users](/microsoft-365/admin/add-user
 #### Q8. Can I see who in my organization is using Viva Insights?
 
 Yes. Microsoft 365 admins can see the Viva Insights activity report in the admin center. For details, see [Viva Insights activity](activity-report.md).
+

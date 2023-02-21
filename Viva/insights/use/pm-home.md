@@ -1,4 +1,5 @@
 ---
+ms.date: 12/06/2019
 title: Viva Insights insights for managers
 description: Learn how the Viva Insights Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
@@ -80,3 +81,4 @@ As a people manager, you'll also see an option to **View recommended plan** for 
 ## Related topic
 
 [Manager insights FAQ](insight-faqs.md)
+
