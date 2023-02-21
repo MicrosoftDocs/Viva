@@ -56,7 +56,7 @@ The **Sites processed for topic discovery** section shows the number of sites th
 |:------|:----|
 |Sites processed|The number of sites that have been indexed by AI for topic discovery and updates in your organization. The site count might not update immediately in the event of deleted sites.|
 
-![Screenshot of analytics for sites processed processed.](../media/topics-sites-processed.png)
+![Screenshot of analytics for sites processed processed.](../media/knowledge-management/topics-sites-processed.png)
 
 
 ## See also
