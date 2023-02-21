@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 02/14/2023
 title: Focus mode in Viva Insights 
 description: Use the Protect time feature in Microsoft Viva Insights
 author: lilyolason
@@ -33,3 +34,4 @@ You can open **Focus mode** in a separate pop-out window in Teams, which allows 
 
 1. In the left navigation in Teams, right-click **Viva Insights**.
 2. Select **Pop out app**.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/15/2022
 title: Viva Insights setup overview
 description: Get an overview of setup required for Viva Insights
 author: lilyolason
@@ -39,3 +40,4 @@ You can access **Teamwork habits** through the Viva Insights app on the web or i
 ## Advanced insights
 
 Before you can use Viva Insights' advanced analysis tools, your admin needs to complete the required steps in [Set up advanced insights](./setup.md). These steps include assigning licenses.
+

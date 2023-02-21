@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/15/2021
 title: Discover and try Viva Insights
 description: Discover and try the Viva Insights app in Teams 
 author: madehmer
@@ -124,3 +125,4 @@ Throughout the trial and up to 10 days after the trial ends, you are prompted to
 ## Related topics
 
 [Viva Insights overview](../teams/viva-teams-app.md)
+

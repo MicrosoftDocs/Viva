@@ -1,4 +1,5 @@
 ---
+ms.date: 02/23/2022
 title: Incorporate learning into your organization with Viva Learning
 description: Learn how to use Viva Learning to integrate learning and skilling opportunities into your operations.
 author: daisyfell
@@ -152,3 +153,4 @@ Use Viva Connections with Viva Learning to increase awareness of learning opport
 [Learn more about Viva Connections](../connections/viva-connections-overview.md)
 
 Learn how to [plan](../connections/plan-viva-connections.md), [build](../connections/build-viva-connections.md), and [launch](../connections/launch-viva-connections.md) Viva Connections for your organization.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Security trimming in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -61,6 +62,7 @@ The following table describes what users - topic viewers, contributors, and know
 |Files|Files are only visible to users who have permissions to the source content.|
 |Pages|Pages are only visible to users who have permissions to the source content.|
 |Sites|Sites are only visible to users who have permissions to the source content.|
+
 
 
 

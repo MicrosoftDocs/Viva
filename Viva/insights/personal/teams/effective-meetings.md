@@ -1,4 +1,5 @@
 ---
+ms.date: 02/14/2023
 title: Effective meetings in Viva Insights  
 description: Learn how to create effective meetings with Microsoft Viva Insights
 author: lilyolason
@@ -174,3 +175,4 @@ To configure meeting effectiveness surveys for your organization at the user or 
 
 [Microsoft Viva Insights overview](viva-teams-app.md)
 [Book preparation time for meetings](../use/mya-notifications.md#book-time-to-prepare-for-meetings)
+

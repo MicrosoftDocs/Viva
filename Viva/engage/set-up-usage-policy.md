@@ -1,4 +1,5 @@
 ---
+ms.date: 12/14/2022
 title: "Set up a Viva Engage usage policy"
 description: "Create a usage policy that users must accept before using Viva Engage."
 ms.reviewer: ethli
@@ -99,3 +100,4 @@ You can add a custom link to your organization's browser policy. The link will b
     :::image type="content" source="../media/set-up-usage-policy-browser-policy.png" alt-text="Set a custom browser policy in the admin center.":::
 
 2. Specify the URL where your organization's browser policy is defined.
+

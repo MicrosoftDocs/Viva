@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/14/2020
 title: Use a script to prepare organizational data
 description: How to use a script to prepare data from your organization to upload for Viva Insights 
 author: madehmer
@@ -169,3 +170,4 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 * [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Upload organizational data (first upload)](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Upload organizational data (subsequent uploads)](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

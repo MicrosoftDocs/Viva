@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 03/24/2022
 title: Organizational network analysis
 description: Explains how to use Organizational network analysis in concert with Viva Insights queries
 author: lilyolason
@@ -318,3 +319,4 @@ Then:
 
 1. Configure the parameters in **Step 1: read the input file**.
 1. Complete **Step 2: Add isInfluencer flag**, **Step 3: Training a DecisionTree model**, and **Step 4: DecisionTree text representation**.
+

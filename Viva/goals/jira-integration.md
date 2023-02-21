@@ -1,4 +1,5 @@
 ---
+ms.date: 04/17/2022
 title: "Jira Integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -229,3 +230,4 @@ Yes, you can track the progress of key results and projects in Viva Goals by the
 **What's the difference between story points and story point estimates?** 
 
 Jira has two types of service projects: classic and next-gen. The estimation on classic projects is story points, and the estimation on next-gen projects is story point estimates.
+

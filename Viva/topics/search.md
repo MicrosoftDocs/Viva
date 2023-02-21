@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Use Microsoft Search to find topics in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -62,3 +63,4 @@ Bookmarks and topics typically have high engagement due to them being premium fe
 ## See also
 
 [Viva Topics overview](topic-experiences-overview.md)
+

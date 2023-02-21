@@ -1,4 +1,5 @@
 ---
+ms.date: 01/17/2018
 title: Use Microsoft Viva Insights in Outlook
 description: Learn how to use the options in the Viva Insights Outlook add-in
 author: madehmer
@@ -376,3 +377,4 @@ If your team member list is inaccurate, select **Edit team** to add or remove te
 ## Related topics
 
 [Viva Insights Outlook add-in](add-in.md)
+

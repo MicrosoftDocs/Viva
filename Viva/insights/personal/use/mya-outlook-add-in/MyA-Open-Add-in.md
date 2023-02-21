@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 03/20/2018
 title: Open the Viva Insights Outlook add-in
 description: Open the Microsoft Viva Insights Outlook add-in
 author: madehmer

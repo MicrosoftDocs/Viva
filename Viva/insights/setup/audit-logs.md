@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/28/2019
 title: Audit logs for Viva Insights
 description: Learn how to monitor Microsoft Viva Insights activity with audit logs
 author: madehmer

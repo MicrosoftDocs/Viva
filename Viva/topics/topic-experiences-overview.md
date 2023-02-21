@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Microsoft Viva Topics overview
 ms.author: ruthhollands
 author: ruthholls
@@ -165,3 +166,4 @@ Thank you for taking the time to share your thoughts with us. Your perspective h
 ## See also
 
 [Use Microsoft Search to find topics in Viva Topics](./search.md)
+

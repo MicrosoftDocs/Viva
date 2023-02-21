@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/26/2018
 title: Add a person to your Important people list in Viva Insights
 description: How to add a person to your Important people list in Viva Insights 
 author: madehmer

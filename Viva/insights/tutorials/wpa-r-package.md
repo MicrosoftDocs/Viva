@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/02/2020
 title: wpa R package
 description: Describes the wpa R package, an open-source package of 100+ functions in the R data-analysis language for use with Viva Insights 
 author: madehmer
@@ -48,4 +49,5 @@ The _wpa R package_, its documentation, and other related resources are availabl
 * [_wpa R package_ documentation](https://microsoft.github.io/wpa/), which includes a quick-start guide, code examples, and other information like the structure of the package.   
 * [Submit an issue or a feature request](https://github.com/microsoft/wpa/issues)
 * [Full list of functions](https://microsoft.github.io/wpa/reference)
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 12/14/2022
 title: "Overview: Viva Connections"
 ms.reviewer: 
 ROBOTS: NOINDEX, NOFOLLOW
@@ -133,3 +134,4 @@ You may get the following message: "Viva Connections usage data has been disable
 [Overview: Viva Connections](/viva/connections/viva-connections-overview)
 
 [Getting started with Microsoft Viva](/viva/getting-started-with-microsoft-viva)
+

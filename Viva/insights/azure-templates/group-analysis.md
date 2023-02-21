@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 06/19/2019
 title: Group Analysis Azure Template for Workplace Analytics 
 description: Learn about the Group Analysis Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
@@ -89,3 +90,4 @@ The analysis results are in bar graphs with a **Cohen Rank Color Legend** that d
 
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
+

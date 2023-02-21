@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 06/12/2020
 title: Business resilience report in the Productivity Score report
 description: Use the Business resilience report that's within the Productivity Score report to analyze organizational collaboration data
 author: madehmer
@@ -64,3 +65,4 @@ You can use Microsoft Viva Insights to get more detailed analysis and additional
 #### Q4 Who is eligible to see this report?
 
 Organizations who have at least 100 active Exchange Online users with active [Viva Insights licenses](../personal/overview/plans-environments.md) can see this report when they register for the Adoption Score.
+

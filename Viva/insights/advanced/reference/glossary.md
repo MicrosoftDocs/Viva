@@ -1,4 +1,5 @@
 ---
+ms.date: 07/15/2022
 title: Viva Insights advanced insights glossary 
 description: This article provides a glossary of terms for the Microsoft Viva Insights advanced insights app. 
 author: lilyolason

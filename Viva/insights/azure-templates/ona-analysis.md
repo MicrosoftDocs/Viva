@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/14/2018
 title: Analysis in the Organizational Network Analysis Azure Template
 description: Learn how to create and use analysis in the Organizational Network Analysis Azure Template for Workplace Analytics
 author: madehmer
@@ -236,3 +237,4 @@ Represents the ability to access or share information across the organization wh
 
 * [Organizational Network Analysis Azure Template introduction](./organization-network-analysis.md)
 * [Workplace Analytics Azure Templates overview](./overview.md)
+

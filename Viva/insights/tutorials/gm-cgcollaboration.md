@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/16/2020
 title: Best practices for cross-group collaboration
 description: Microsoft Viva Insights shares best practices with managers about the importance of cross-group collaboration
 author: madehmer

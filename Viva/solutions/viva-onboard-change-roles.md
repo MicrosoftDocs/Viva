@@ -1,4 +1,5 @@
 ---
+ms.date: 04/07/2022
 title: "Microsoft Viva for the hybrid workplace: Onboarding employees who are new or changing roles"
 ms.reviewer: 
 ms.author: loreenl

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/14/2023
 title: Stay connected with Viva Insights
 description: Use the Stay connected feature in Microsoft Viva Insights
 author: lilyolason

@@ -3,7 +3,7 @@ title: Get started driving adoption of Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
-ms.date: 
+ms.date: 11/15/2021 
 audience: admin
 ms.topic: article
 ms.custom: Adopt
@@ -187,3 +187,4 @@ When you're ready to roll out Viva Topics, you'll need to get people involved.
 - Drive the community and think about how you're going to engage them.
 - Then complete preparation steps. Some may be technical readiness, and some business readiness.
 - Finally, socialize and promote.
+

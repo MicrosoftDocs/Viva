@@ -1,4 +1,5 @@
 ---
+ms.date: 02/14/2023
 title: Meeting effectiveness in Viva Insights
 description: Learn about how to enhance meeting effectiveness with recommendations in Microsoft Viva Insights
 author: lilyolason
@@ -118,3 +119,4 @@ Here are some ways to optimize recurring meetings:
 * Experiment with shorter meetings. Fifteen-minute meetings with focused agendas are useful in fast-moving workplaces for quick team planning, updates, and recounting of work events.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
+

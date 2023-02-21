@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Step 4-Import data into Dataverse tables
 description: Learn how to import data into the Dataverse tables
 author: v-smandalika

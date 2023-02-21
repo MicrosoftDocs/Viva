@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/23/2019
 title: Partitions for Viva Insights
 description: Describes how to use and set up partitions for advanced insights 
 author: madehmer
@@ -235,3 +236,4 @@ In the case of an error such as this, the admin cannot proceed with the current 
 
    >[!Note]
    >Schema errors can occur only in user-created partitions. Uploading organizational data does not affect the definition of the Global partition.
+

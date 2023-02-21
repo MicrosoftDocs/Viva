@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 05/22/2019
 title: Focus plan for Viva Insights
 description: Viva Insights focus plan
 author: lilyolason
@@ -199,3 +200,4 @@ If you want to personalize your focus time to show as a specific color, you can 
     :::image type="content" source="../../../Images/mya/use/wellbeing-focus-calendar5.png" alt-text="Screenshot that shows the search term field highlighted in the Filter dialog box.":::
 
 1. Select the **OK** button on each of the three dialog boxes. Your focus time blocks should now appear as the color you set in step 4.
+

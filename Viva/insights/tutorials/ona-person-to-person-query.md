@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 04/21/2020
 title: Network person-to-person queries 
 description: Describes how to use Network person-to-person queries in Viva Insights to determine the metrics that measure ties between individuals in your organization
 author: madehmer
@@ -160,3 +161,4 @@ Attribute (column header) | Description |
 * [Network person queries](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Network metric definitions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics)
 * [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/19/2018
 title: Explore internal network metrics in Viva Insights
 description: An overview of the internal network collaboration data available in advanced insights with Microsoft Viva Insights
 author: madehmer
@@ -75,3 +76,4 @@ Network breadth can indicate:
 
 * [Page settings](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Advanced insights charts](/viva/insights/use/chart-types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

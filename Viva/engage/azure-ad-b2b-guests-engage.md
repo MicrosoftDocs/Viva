@@ -1,4 +1,5 @@
 ---
+ms.date: 12/14/2022
 title: "Work with AzureAD-B2B guests in Viva Engage communities"
 description: "Learn more about working with Azure Active Directory-B2B guests in Viva Engage communities."
 ms.reviewer: ethli
@@ -137,3 +138,4 @@ If you want to deny guests from being added to Viva Engage communities while all
 [Viva Engage admin Help](./admin-key-concepts.md)
 
 [Native Mode for Viva Engage](./overview-native-mode.md)
+

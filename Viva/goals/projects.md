@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Projects"
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -168,3 +169,4 @@ Most key results that aren't KPI metric-based are projects. The main questions t
 - Can I follow the parent objective with "as measured by" and complete it with this key result in a convincing manner?
 
 One good indicator that a key result may really be a project is if it's percentage-completion based and doesn't have any children. Another indicator is if the language is delivery-oriented: Look for words like *Ship ...*, *Deliver ...*, *Implement...*.
+

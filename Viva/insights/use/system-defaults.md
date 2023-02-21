@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/07/2021
 title: System defaults for Advanced insights
 description: Describes the system default settings in the advanced insights app for Viva Insights that admins configure and edit for your organization
 author: madehmer
@@ -98,3 +99,4 @@ After you add a domain and save the change for this setting, it'll change all of
 
 * [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Privacy settings](/viva/insights/use/privacy-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

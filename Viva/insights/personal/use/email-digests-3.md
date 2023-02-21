@@ -1,4 +1,5 @@
 ---
+ms.date: 09/07/2021
 title: Viva Insights digest emails
 description: Viva Insights users receive a welcome email and biweekly digest emails with key insights and suggestions
 author: madehmer

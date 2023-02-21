@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Team experience in Viva Insights
 description: Learn about a team's experience in the Microsoft Viva Insights
 author: madehmer
@@ -38,3 +39,4 @@ You can see more details about the insights by selecting the **Information** (i)
 |Coaching and development |One-on-one time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |The average number of hours that managers spend in one-on-one meetings with *all* of their direct reports. |
 |Email overload |Employees that spend over 10 hours in email each week. Email workload is the number of hours employees spend sending and receiving email. |Average number of hours spent sending and receiving email. |
 |After-hours work |After-hours work is the number of hours employees spend in meetings and on email outside of working hours. This uses the working hours set in the employee's Outlook calendar settings. |Average number of total hours a team spent in meetings and on email outside of working hours. |
+

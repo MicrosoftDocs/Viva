@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 04/26/2018
 title: Download a query Report in UTF-8 format
 description: If your query reports cannot be opened properly in Excel because they contain multi-byte characters, follow these steps to work around the problem   
 author: madehmer

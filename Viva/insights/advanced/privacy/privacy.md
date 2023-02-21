@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
+ms.date: 07/15/2022
 title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: lilyolason
@@ -335,3 +336,4 @@ After this period has passed, you will no longer have access to Viva Insights.
 1.	Open the advanced insights app. If prompted, sign in with your work account.
 2.	Select **Analyst > Query results**.
 3.	In the row for the query results, select **Download** to download the results as a .csv file, which is archived as a .zip file.
+

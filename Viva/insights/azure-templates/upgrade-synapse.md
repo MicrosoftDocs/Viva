@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 03/23/2022
 title: Upgrade Workplace Analytics Azure Templates to use Synapse Analytics
 description: Learn how to upgrade your current Azure Templates to use Azure Synapse Analytics instead of Databricks
 author: madehmer
@@ -237,3 +238,4 @@ Run the following in Cloud Shell, which uses Zip Deploy to install the build for
 ```
 
 After completing this upgrade process, the API will now facilitate calls only to Azure Synapse pipelines, which is consistent with the current Synapse solution.
+

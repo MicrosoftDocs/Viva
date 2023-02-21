@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: lilyolason
