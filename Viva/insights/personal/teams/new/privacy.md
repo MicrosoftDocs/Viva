@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 01/22/2021
 title: Privacy guide for personal insights in the Viva Insights app
 description: Learn how Microsoft keeps your data private when using personal insights in the Microsoft Viva Insights app
 author: lilyolason
@@ -50,3 +51,4 @@ To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/priva
 ## Related topics
 
 [Viva Insights introduction](introduction.md)
+

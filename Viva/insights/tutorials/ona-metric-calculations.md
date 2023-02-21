@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/04/2021
 title: Network query metric calculations 
 description: Describes how the metrics are calculated for Viva Insights Network queries
 author: madehmer
@@ -129,3 +130,4 @@ These computations compute the strong tie and diverse tie scores for every pair 
 * [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Network metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)
+

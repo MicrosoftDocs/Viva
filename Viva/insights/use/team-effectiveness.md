@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Team effectiveness in Viva Insights
 description: Learn about your team's effectiveness in Microsoft Viva Insights
 author: madehmer
@@ -40,3 +41,4 @@ You can see more details about the insights by selecting the **Information** (i)
 |Collaboration across silos |Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department. This insight highlights the organizations that spend more than 50 percent of their overall collaboration within their group. |Average number of hours the team spent collaborating with people outside their department. |
 |Instant message use |One-on-one communication is the combination of email and instant messages (IMs) sent between two employees. This insight highlights the employees that spend less than 20 percent of their one-on-one communication over Teams IM. This is calculated as the percentage of one-on-one IMs sent, divided by the total number of one-on-one IMs and emails sent. |Average number of emails sent between only two employees. |
 |Cross-team manager connections |Manager cross-team connections are the number of departments outside your own that you had meaningful interactions with in the last 28 days. A meaningful interaction is defined as an email or meeting that includes two to five people. |An average number of meaningful connections the managers have outside their team. |
+

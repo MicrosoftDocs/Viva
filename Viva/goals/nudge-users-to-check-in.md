@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Nudge users to check in"
 ms.reviewer: 
 ms.author: rasanders
@@ -26,3 +27,4 @@ In Viva Goals, you can "nudge" a user to check in or update an OKR. Access this 
 The nudge option is visible to all users who aren't the primary check-in owner of the OKR.
 
 The nudge goes out to the user's email.
+

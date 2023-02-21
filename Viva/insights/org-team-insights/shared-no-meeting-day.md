@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2022
 title: Shared no-meeting day plan
 description: Learn how to start a shared no-meeting day plan in the Viva Insights app
 author: lilyolason

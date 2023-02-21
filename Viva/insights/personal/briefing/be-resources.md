@@ -1,5 +1,6 @@
 ---
 
+ms.date: 05/13/2020
 title: Downloadable resources
 description: Downloadable resources available for admins who are rolling out the Briefing email to new users
 author: madehmer
@@ -32,3 +33,4 @@ You can use the following to help explain what the Briefing email is, when they 
 
 * [Briefing email overview](be-overview.md)
 * [Conduct a pilot](be-pilot.md)
+

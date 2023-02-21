@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/22/2021
 title: FAQ for Viva Insights in Teams
 description: Personal insights FAQ for Microsoft Viva Insights in Teams
 author: madehmer
@@ -79,3 +80,4 @@ Email and calendar data from people outside your organization, with the followin
 ## Related topics
 
 [Viva Insights introduction](viva-teams-app.md)
+

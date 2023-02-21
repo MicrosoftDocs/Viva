@@ -1,4 +1,5 @@
 ---
+ms.date: 04/18/2022
 title: "Looker Integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -77,3 +78,4 @@ The following colors of the progress bar indicate the status of the objective:
 - If the progress is 0 to 25 percent less than expected progress at any time, the status is *behind* (orange).
 
 - If the progress is more than 25 percent less than expected at any time, the status is *at-risk* (red).
+

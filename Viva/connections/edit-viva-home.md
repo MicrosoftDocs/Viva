@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: "Customize and edit the Viva Connections home experience"
 ms.reviewer: 
 ms.author: hokavian
@@ -250,3 +251,4 @@ Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -Vi
 [Use audience targeting in Viva Connections to personalize the experience](use-audience-targeting-in-viva-connections.md)
 
 [Watch: How to add and edit cards in the Dashboard](create-dashboard.md#overview-of-how-to-create-a-dashboard-and-add-cards)
+

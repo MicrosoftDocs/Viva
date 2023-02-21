@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/07/2021
 title: Shared focus plan
 description: Learn about the Shared focus plan option in Microsoft Viva Insights in Teams
 author: madehmer
@@ -137,3 +138,4 @@ For more information, see [Manage notifications in Teams](https://support.office
 ### Focus plan digest
 
 After you enroll in a focus plan, your digest email will be tailored to your participation in the plan. It might, for example, remind you to book focus time for days on which none is set aside.
+

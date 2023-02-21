@@ -1,4 +1,5 @@
 ---
+ms.date: 10/20/2022
 title: OKR Digest
 ms.reviewer: 
 ms.author: rasanders
@@ -75,3 +76,4 @@ You can also unfollow a company, team or individual user from the OKR dashboard 
 Digest updates will appear in a Slack if the organization has configured the Microsoft Viva Goals app for Slack. Here is how a digest update will appear on a Slack channel or a DM. 
 
 :::image type="content" source="../media/goals/slack-images/digest-update.png" alt-text="Screenshot of digest update in Slack." lightbox="../media/goals/slack-images/digest-update.png":::
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 10/20/2022
 title: Check-in reminders and OKR updates
 ms.reviewer: 
 ms.author: rasanders
@@ -57,3 +58,4 @@ In the popup, you can also see how the check-in owner will be notified. The nudg
 For Microsoft Viva Goals app for Slack enabled users, the nudge is received by the Viva Goals app in the following format.
 
  :::image type="content" source="../media/goals/slack-images/nudge-3.jpg" alt-text="Screenshot of a nudge being delivered by the Slackbot." lightbox="../media/goals/slack-images/nudge-3.jpg":::
+

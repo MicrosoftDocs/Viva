@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 02/20/2018
 title: Group-based licensing for Advanced insights
 description: Assign group-based licensing for the advanced insights app with Microsoft Viva Insights
 author: madehmer
@@ -62,3 +63,4 @@ The resulting assignment is valid and applied to the group. And thereafter, any 
 
 * [Environment requirements for Advanced insights](../setup/environment-requirements.md)
 * [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign)
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/10/2023
 title: Briefing email pause
 description: About pausing the Briefing email
 author: lilyolason
@@ -88,3 +89,4 @@ In the **Headspace** section of the Briefing email, you were able to launch a gu
 Discover a curated set of guided meditations through the Viva Insights app in Teams and on the web. Just select the **Play** button on the [Headspace](../teams/viva-insights-headspace.md) card in the **Home** tab. 
 
 :::image type="content" source="../teams/images/headspace-card2.png" alt-text="Screenshot of a meditation card in the Viva Insights app, including a Play button.":::
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/06/2020
 title: Develop effective managers with Advanced insights
 description: Learn how to use Viva Insights data to analyze and develop effective managers in your organization
 author: madehmer
@@ -148,3 +149,4 @@ For more best practices and ways to open your network to your team, see [Best pr
 
 * [Business outcomes overview](/viva/insights/use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Metric descriptions for Advanced insights](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

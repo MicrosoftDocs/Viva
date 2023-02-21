@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/07/2018
 title: Walkthroughs for meeting exclusion rules
 description: Introduction and walkthrough of meeting exclusion rules in Viva Insights
 author: madehmer
@@ -263,3 +264,4 @@ You might have built and used a rule in a past project that you no longer use. H
 * [Meeting exclusion rules: Large-meeting limitation](/viva/insights/tutorials/meeting-exclusion-250?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Meeting exclusion rules: Tools and concepts](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Attendee exclusions](/viva/insights/tutorials/attendee-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

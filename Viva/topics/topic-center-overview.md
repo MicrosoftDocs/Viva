@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Topic center overview in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -84,3 +85,4 @@ If you have Create and edit topics permissions, you can:
 ## See also
 
 [Manage topics in the topic center](manage-topics.md)
+

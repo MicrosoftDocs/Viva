@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Meeting exclusion rules introduction
 description: Introduction to meeting exclusion rules in Microsoft Viva Insights  
 author: madehmer
@@ -47,3 +48,4 @@ To learn how to create and use meeting exclusion rules, see the following:
 ## Related topics
 
 [Meeting exclusion rule limitation for large meetings](/viva/insights/tutorials/meeting-exclusion-250?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

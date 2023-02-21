@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/20/2018
 title: Viva Insights partner solution setup
 description: How to set up an on-premises Exchange server to work with Advanced insights from Microsoft Viva Insights
 author: madehmer
@@ -80,3 +81,4 @@ Storage mailboxes are Microsoft 365-based mailboxes that contain synchronized da
 
 * For personal guidance with partner solutions or help with the advanced insights app setup and data analysis, email the FastTrack team at <wpaft@Microsoft.com>.
 * For general help with Microsoft 365, Exchange, Azure Active Directory, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/contactus/).
+

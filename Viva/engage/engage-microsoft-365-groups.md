@@ -1,4 +1,5 @@
 ---
+ms.date: 12/14/2022
 title: "Viva Engage and Microsoft 365 Groups"
 description: "If your network is eligible, communities in Viva Engage can have access to Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner, and a workspace in Power BI. This is called a community connected to Microsoft 365 Groups."
 ms.reviewer: ethli
@@ -234,3 +235,4 @@ Changes to connected communities can take up to 24 hours to take effect througho
 [Manage who can create Groups](/office365/admin/create-groups/manage-creation-of-groups)
 
 [Export data from Yammer Enterprise](/yammer/manage-security-and-compliance/export-yammer-enterprise-data)
+

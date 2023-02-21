@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: "Create a Viva Connections Dashboard and add cards"
 ms.reviewer: 
 ms.author: hokavian
@@ -481,3 +482,4 @@ For some cards, you will use links to URLs. Depending on the location of the con
 [Step-by-step guide to setting up Viva Connections](guide-to-setting-up-viva-connections.md)
 
 [Learn more about how to plan a Dashboard](plan-viva-connections.md#step-2-plan-for-viva-connections)
+

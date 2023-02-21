@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Restrict access to topics in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -46,6 +47,7 @@ Removed topics can later be added back as viewable topics if needed.
 ## See also
 
 [Security trimming in Viva Topics](topic-experiences-security-trimming.md)
+
 
 
 

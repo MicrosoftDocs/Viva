@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/19/2018
 title: Assign licenses for personal insights
 description: Assign licenses for personal insights with Microsoft Viva Insights
 author: madehmer
@@ -31,3 +32,4 @@ After you assign a user license with the Viva Insights service plan, the new par
 * **Insights Outlook add-in** - Users can see the [Insights Outlook add-in](../Use/add-in.md) in a day or so after their license with the Viva Insights service plan is granted.
 * **Digest emails** - Users will begin to receive the [Microsoft Viva digest](../Use/email-digests-3.md) within two to three weeks after they receive the welcome email.
 * **Inline suggestions** - Users can see the [inline suggestions](../use/mya-notifications.md) in a day or so after their license with the Viva Insights service plan is granted.
+

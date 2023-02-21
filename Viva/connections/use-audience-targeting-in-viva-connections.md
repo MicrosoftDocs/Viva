@@ -1,4 +1,5 @@
 ---
+ms.date: 04/25/2022
 title: "Use audience targeting in Viva Connections to personalize the experience"
 ms.reviewer: 
 ms.author: hokavian
@@ -119,3 +120,4 @@ Resources are the navigation links that display in the Resources tab in the mobi
 [Frequently asked questions about the Feed for Viva Connections](faqs-viva-connections-feed.md)
 
 [Set up global navigation in the SharePoint app bar](sharepoint-app-bar.md)  
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/16/2021
 title: Viva Insights personal insights introduction
 description: Personal insights introduction for Microsoft Viva Insights 
 author: madehmer
@@ -33,3 +34,4 @@ Microsoft Viva Insights provides personal insights into two of the key factors i
 
   * [Individual adoption](../personal/use/MyA-Adoption/Indiv-adopt-get-started.md) &ndash; Individuals learn how to use personal insights to build and sustain healthier work patterns.
   * [Team adoption](../personal/use/MyA-Adoption/Team-adopt-intro.md) &ndash; Team members learn how to set and track goals and build new habits to change the way the team collaborates.
+
