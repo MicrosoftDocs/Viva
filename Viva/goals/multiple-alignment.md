@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Multiple Alignments"
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -53,3 +54,4 @@ You can enable both the Multiple Alignment and [Private Objectives](https://help
 - A Multiple Alignment public OKR can be made private, but all of the alignment will first be automatically removed.
 
 - No key result of a private objective can use Multiple Alignment.
+

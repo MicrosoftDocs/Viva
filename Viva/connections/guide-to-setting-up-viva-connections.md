@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Guide to setting up Viva Connections 
 ms.reviewer: 
 ms.author: hokavian
@@ -222,3 +223,4 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 ## Resources
 
 [Overview of Viva Connections](viva-connections-overview.md)
+

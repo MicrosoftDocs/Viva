@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
+ms.date: 05/11/2022
 title: Microsoft Viva Insights API
 description: Learn how to use the Microsoft Viva Insights API to secure moving data for more advanced analysis
 author: madehmer
@@ -252,3 +253,4 @@ Information about the RSA key.
 
 * [Viva Insights integration](partner-integration.md)
 * [Advanced insights metrics](../reference/metrics.md)
+

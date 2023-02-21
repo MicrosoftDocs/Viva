@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 08/06/2018
 title: Explore external collaboration data in Viva Insights
 description: An overview of external collaboration data available in Viva Insights
 author: madehmer
@@ -100,3 +101,4 @@ In the graph, if the bubble for your group is found at the top right, then your 
 
 * [Settings and filters for Explore the stats](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Advanced insights charts](/viva/insights/use/chart-types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

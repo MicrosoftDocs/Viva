@@ -1,4 +1,5 @@
 ---
+ms.date: 01/05/2023
 title: Viva Topics in Yammer
 ms.author: ruthhollands
 author: ruthholls
@@ -42,6 +43,7 @@ With Viva Topics in Yammer, you'll be able to share knowledge and explore more t
 ![Image showing topic picker when drafting a Yammer post.](../media/knowledge-management/Yammer-topic-picker.png)
 
 Attaching Yammer threads with Viva Topics will have the advantage of ensuring that Yammer content shows up across the Microsoft 365 suite wherever the Viva Topics knowledge experiences surface. 
+
 
 
 

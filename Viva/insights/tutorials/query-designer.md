@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 04/01/2021
 title: Query designer in Viva Insights
 description: The Query designer in Viva Insights offers predefined Templates and other custom query options for more in-depth data analysis
 author: madehmer
@@ -117,3 +118,4 @@ However, historical query results that have already been run remain available, e
 * [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Glossary](../Use/Glossary.md)
 * [Metric descriptions](../Use/Metric-definitions.md)
+

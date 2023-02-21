@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/26/2018
 title: To remove a person from your Important people list
 description: How to remove a person from your Important people list in Viva Insights
 author: madehmer

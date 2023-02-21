@@ -1,4 +1,5 @@
 ---
+ms.date: 04/13/2022
 title: Amazon RedShift integration
 ms.reviewer: 
 ms.author: rasanders
@@ -74,4 +75,5 @@ The admin can disable Amazon Redshift integration:
 2. On the configurations page, select the **Change** dropdown, select **Disable**, and then confirm.
 
     :::image type="content" source="../media/goals/12/amazonredshift-disable-button.png" alt-text="Screenshot of the dialog box where you disable Amazon RedShift in Viva Goals." lightbox="../media/goals/12/amazonredshift-disable-button.png":::
+
 

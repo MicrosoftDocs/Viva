@@ -1,4 +1,5 @@
 ---
+ms.date: 11/02/2022
 title: "Support an inclusive work culture with conversations, company news, and shared interests."
 ms.reviewer: 
 ms.author: loreenl
@@ -64,4 +65,5 @@ You can also add a card to your Viva Connections dashboard, which allows users t
 - To use this solution, start by [setting up Viva Connections](/viva/connections/viva-connections-setup-overview) if you haven't already. Content from Viva Engage will automatically show in the [Viva Connections Feed](/viva/connections/faqs-viva-connections-feed).
 
 - To make Viva Engage quickly available to your employees on the go, add the [Teams app card with the Viva Engage app selected](/viva/connections/create-dashboard#add-a-teams-app-card) to your [Viva Connections dashboard](/viva/connections/create-dashboard).
+
 

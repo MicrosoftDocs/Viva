@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/06/2020
 title: Accelerate change with Viva Insights
 description: Learn how to use Viva Insights data to analyze and accelerate organizational change
 author: madehmer
@@ -88,3 +89,4 @@ For more best practices and how to host informal gatherings with Teams, see [Bes
 
 * [Business outcomes overview](/viva/insights/use/insights?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Metric descriptions for Viva Insights](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

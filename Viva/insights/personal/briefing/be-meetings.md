@@ -1,5 +1,6 @@
 ---
 
+ms.date: 11/07/2019
 title: Prepare for meetings with the Briefing email
 description: Learn how to use the Briefing email to prepare for upcoming meetings
 author: madehmer
@@ -86,3 +87,4 @@ You will see the following actions for a meeting depending on the type of confli
 ## Related topic
 
 [Briefing email overview](be-overview.md)
+

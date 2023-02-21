@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 02/18/2021
 title: Praise with Viva Insights
 description: Use the Praise feature in the Microsoft Viva Insights app
 author: madehmer
@@ -185,4 +186,5 @@ Praise trends is available to you if you have a Viva Insights subscription. Use 
 ## Related topics
 
 [Viva Insights introduction](../viva-teams-app.md)
+
 

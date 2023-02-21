@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 08/19/2022
 title: Hybrid workforce experience solution
 description: Learn how to create an OnsiteDays attribute to use in the Hybrid workforce experience Power BI template.
 author: lilyolason

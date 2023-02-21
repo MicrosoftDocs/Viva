@@ -1,4 +1,5 @@
 ---
+ms.date: 10/12/2022
 title: "New Microsoft Viva admin experience"
 ms.reviewer: 
 ms.author: loreenl
@@ -57,3 +58,4 @@ In this example you can:
 - See at a glance which settings are required in the **Priority** column.
 - Select a setting in the list, and get a panel where you can set the options without leaving the page. In this example, you see the panel to assign knowledge managers.
 - Select the **More information** tab to get detailed guidance on setting up the app.
+

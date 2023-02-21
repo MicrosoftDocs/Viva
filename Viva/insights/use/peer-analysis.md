@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 06/07/2019
 title: Peer analysis 
 description: Describes the peer analysis functionality in the advanced insights app with Microsoft Viva Insights
 author: madehmer
@@ -217,3 +218,4 @@ Viva Insights will then make sure that every user in both of the groups that you
 ![Use filters error message.](../images/wpa/use/conditions-error-msg.png)
 
 For privacy reasons, Viva Insights cannot inform you which user or users do not match the conditions. At this point, you'll need to select **Back** to return to the preceding steps and check the content of your groups, and make the necessary changes to eliminate this error.  
+

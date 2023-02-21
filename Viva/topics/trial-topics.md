@@ -4,7 +4,7 @@ ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
 ms.reviewer: lauris; jaeccles
-ms.date:
+ms.date: 11/15/2021
 audience: admin
 ms.topic: article
 ms.custom:
@@ -137,3 +137,4 @@ If you don't purchase licenses following the trial:
 ## See also
 
 [Get started driving adoption of Microsoft Viva Topics](topics-adoption-getstarted.md)
+

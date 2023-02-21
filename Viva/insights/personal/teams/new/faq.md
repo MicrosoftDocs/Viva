@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 01/22/2021
 title: FAQ for the Viva Insights app
 description: Personal insights FAQ for Microsoft Viva Insights app
 author: lilyolason
@@ -79,3 +80,4 @@ After you select **Yes** or **No**, a dialog box shows up. Use this share more f
 ## Related topics
 
 [Viva Insights introduction](introduction.md)
+

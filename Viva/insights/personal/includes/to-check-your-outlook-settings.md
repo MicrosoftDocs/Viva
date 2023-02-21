@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/26/2018
 title: To check your Outlook settings for Viva Insights
 description: How to check your Outlook settings for Viva Insights 
 author: madehmer

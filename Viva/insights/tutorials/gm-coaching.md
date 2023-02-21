@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/16/2020
 title: Best practices for manager coaching
 description: Get manager best practices for coaching employees
 author: madehmer
@@ -77,3 +78,4 @@ Utilize Viva Insights to identify influencer groups or teams and leverage their 
 ## Related topic
 
 [Viva Insights best practices](gm-best-practices.md)
+

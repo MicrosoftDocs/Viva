@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/24/2020
 title: Increase customer focus with Advanced insights
 description: Learn how to use Viva Insights data to analyze and increase customer focus
 author: madehmer
@@ -105,3 +106,4 @@ For more best practices and how to provide managers with go-to contacts list, se
 
 * [Business outcomes overview](insights.md)
 * [Metric descriptions for Advanced insights](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

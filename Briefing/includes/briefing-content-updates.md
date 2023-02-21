@@ -41,3 +41,4 @@
 | 9/21/2021 | [Follow up on tasks with the Briefing email](/Briefing/be-tasks) | modified |
 | 9/21/2021 | [Plan your week with the Briefing email](/Briefing/be-time) | modified |
 | 9/22/2021 | [Downloadable resources](/Briefing/be-resources) | modified |
+

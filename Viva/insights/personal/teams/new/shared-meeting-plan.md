@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/05/2023
 title: Shared meeting plan in Viva Insights  
 description: Learn how to start a shared meeting plan in Viva Insights with your coworkers
 author: lilyolason

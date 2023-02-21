@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Create a new topic in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -112,6 +113,7 @@ You can create a new topic from two locations:
 9. Select **Publish** to save your changes. 
 
 After you publish the page, the topic name, alternate name, description, and pinned people will display to all licensed users who view the topic. Specific files, pages, and sites will only appear on the topic page if the viewer has Mirosoft 365 permissions to the item. 
+
 
 
 

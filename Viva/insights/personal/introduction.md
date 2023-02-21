@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Personal insights introduction
 description: Personal insights introduction
 author: lilyolason

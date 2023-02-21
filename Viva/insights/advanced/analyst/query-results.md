@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Access query results and modify existing queries
 description: Learn how to access query results in the advanced insights app
 author: lilyolason

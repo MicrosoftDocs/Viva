@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Viva Insights service description
 description: Microsoft Viva Insights features, distributions, privacy, and prerequisites
 author: madehmer
@@ -53,3 +54,4 @@ For more information, see [Viva Insights privacy guide](./privacy-guide-users.md
 ## Prerequisite
 
 [Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)
+

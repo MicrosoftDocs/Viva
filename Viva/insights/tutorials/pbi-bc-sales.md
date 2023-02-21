@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/16/2020
 title: Sales business continuity dashboard
 description: Use the Sales business continuity dashboard to visualize predefined query data from Viva Insights in Power BI
 author: madehmer
@@ -135,3 +136,4 @@ The following describes each report with specific nuances to consider for each.
 ## Power BI tips, troubleshooting, and FAQs
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](/viva/insights/tutorials/power-bi-templates?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
+

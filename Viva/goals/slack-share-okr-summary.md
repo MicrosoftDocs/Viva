@@ -1,4 +1,5 @@
 ---
+ms.date: 10/20/2022
 title: Share OKR summary via Slack
 ms.reviewer: 
 ms.author: rasanders
@@ -52,3 +53,4 @@ You can share any OKR by clicking on the "Share” button available on the OKR o
 :::image type="content" source="../media/goals/slack-images/share-slack.png" alt-text="Screenshot of a shared Objective from Viva Goals within Slack." lightbox="../media/goals/slack-images/share-slack.png":::
 
 *Note that the recipient will receive the OKR summary in email if the Microsoft Viva Goals app for Slack is not enabled for an organization.*
+
