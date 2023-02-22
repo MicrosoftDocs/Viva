@@ -14,7 +14,7 @@ audience: Admin
 
 # Shared focus plan
 
-*To start a shared focus plan, you need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../../overview/plans-environments.md&toc=/viva/insights/personal/teams/new/toc.json&bc=/viva/insights/breadcrumb/toc.json). A Viva Insights license isn't required to participate in a shared focus plan.*
+*To start a shared focus plan, you need to have a Viva Insights premium license. For more information, refer to [Plans and environments](../../overview/plans-environments.md?toc=/viva/insights/personal/teams/new/toc.json&bc=/viva/insights/breadcrumb/toc.json). A Viva Insights license isn't required to participate in a shared focus plan.*
 
 >[!Note]
 >This article talks about a focus plan shared between a group. If you just want to block out time on your calendar to focus, refer to our [Focus plan documentation](focus-plan.md).
