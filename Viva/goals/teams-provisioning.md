@@ -1,0 +1,96 @@
+---
+ms.date: 02/21/2023
+title: Teams provisioning using groups 
+ms.reviewer: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
+audience: Admin
+f1.keywords:
+- NOCSH
+ms.topic: article
+ms.service: viva
+ms.subservice: viva-goals
+ms.localizationpriority: medium
+ms.collection:  
+- Strat_SP_modern
+- M365-collaboration
+- m365initiative-viva-goals  
+search.appverid:
+- MET150
+description: "Add members to their respective teams using Azure Active Directory Group with Viva Goals"
+---
+
+# Teams provisioning overview
+
+Viva Goals allows team owners and team admins to add members to their respective teams using Azure Active Directory Groups. This feature allows you to add a large number of members to your teams quickly and with ease.  
+
+To sign in to Viva Goals, visit: https://goals.microsoft.com/
+
+## Prerequisites and things to note 
+
+**Max number of groups: You can add up to 5 groups to a team as members.** 
+
+Group types: You can add mail enabled security groups, mail enabled nested groups, distribution lists and dynamic Azure AD groups to your teams as members. Microsoft 365 Groups aren't supported for this feature at this time. 
+
+**Role and Permission:** 
+
+- Team owners, team admins and team members can add team members using groups 
+- If the user adding groups to a team doesn't have permission to add members to an org, they can only add those groups that have already been added to the Org. 
+
+## How to Add Groups to Viva Goals teams
+
+**During Team Creation:**
+
+1. Go to Teams page by clicking on ‘Teams’ in the left navigation bar. 
+1. Select on ‘Create Team’ on the top right corner of the page 
+1. In the create team pop-up: 
+    1. Enter team name 
+    1. Search and select a user from Azure AD to be the team owner.  
+    1. If necessary, select the parent team from the drop-down. 
+    1. If necessary, add a description for the team. 
+    1. Select on Create. 
+1. You'll see a ‘Team created successfully’ page. On clicking next, you'll be taken to the add members’ page. 
+1. In the team members’ field, search for the groups or individual members you want to add to the team. 
+
+> [!NOTE]
+> You can select up to 20 entries to add to the team in a single session. This can be a combination of groups and individuals. However, you can only add up to 5 groups to a team.
+
+6. Select on ‘Add’ to add these groups or individual members to the team. 
+
+**From Team Members page:**
+
+1. Go to Team Members’ page. Select on Add Members on the top right corner of the page. 
+1. In the team members’ field, search for the groups or individual members you want to add to the team. 
+
+> [!NOTE]
+> You can select up to 20 entries to add to the team in a single session. This can be a combination of groups and individuals. However, you can only add up to 5 groups to a team. 
+
+3. Select on ‘Add’ to add these groups or individual members to the team.
+
+## FAQs (Frequently Asked Questions)
+
+1. **What types of groups can be added as members to teams?**
+    1. You can add mail enabled security groups, mail enabled nested groups, distribution lists and dynamic Azure AD groups to your teams as members.  
+    1. Microsoft 365 Groups aren't supported for this feature at this time. 
+
+2. **Who can add groups to a team?**
+    1. Organization Owners 
+    1. Organization Admins 
+    1. Team Owners 
+    1. Team Admins 
+    1. Team Members 
+
+3. **Any limitations that users need to be aware of?**
+    1. If you don't have the permission to add new members to the organization, you'll only be able to add members and groups to a team that are already part of the organization. If you choose individuals or groups that aren't part of the organization, you'll see a message stating that these individuals or groups haven't been added. 
+    1. You can add up to five groups to any team. If you try adding more than five groups, the system gives you an error message informing you that the groups limit has been reached.  
+    1. Any groups that are added to a team will also get added to the organization. 
+
+4. **What happens when I add groups with users who do not have a license to access Viva Goals?**
+    1. If you add a group that contains a subset of members who don't have a license to access Viva Goals, those users won't be able to sign in to Viva Goals and hence won't be able to gain access to the teams.
+
+5. **What happens when I remove a group from a team?**
+    1. When you remove a group from a team, all members of the group lose access to the team. However, this group continues to be a part of the organization. Thus, the members of the group continue to have access to the organization.
+
+6. **What happens when I remove a group, that has been added to a team, from the organization?**
+    1. When you remove a group that has been added to a team from the organization, the members of that group lose access to this team, any other teams where this group was added, and the organization itself. 
