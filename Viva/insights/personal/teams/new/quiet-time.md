@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 12/09/2022
+ms.date: 02/01/2023
 title: Quiet time in Viva Insights
 description: Set up quiet time in Microsoft Viva Insights
 author: lilyolason

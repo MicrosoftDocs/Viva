@@ -1,16 +1,16 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 02/18/2021
+ms.date: 02/01/2023
 title: Praise with Viva Insights
 description: Use the Praise feature in the Microsoft Viva Insights app
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ---
 
