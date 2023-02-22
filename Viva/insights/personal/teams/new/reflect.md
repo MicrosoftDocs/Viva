@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 02/18/2021
+ms.date: 02/01/2023
 title: Reflect with Viva Insights 
 description: Use the Reflect feature in Microsoft Viva Insights
 author: lilyolason
@@ -16,9 +16,9 @@ audience: user
 
 # Reflect in Viva Insights
 
-Use this feature in the Microsoft Viva Insights app to become more aware of how you're feeling. This awareness can benefit both your productivity and your wellbeing. In fact, research has shown that even the act of taking a moment to reflect has positive benefits for wellbeing.
+To help you become more aware of how you're feeling, use this feature in the Microsoft Viva Insights app. This awareness can benefit both your productivity and your wellbeing. In fact, research has shown even the act of taking a moment to reflect has positive benefits for wellbeing.
 
-How often you reflect is up to you. Once daily might work well for you&mdash;or more often than that, or less often.
+How often you reflect is up to you. Once daily might work well for you&mdash;or you might want to reflect more or less more often than that.
 
 >[!Important]
 >Performing self-reflection by selecting the available emojis is an entirely private action. No one else can see what you chose.
@@ -28,7 +28,7 @@ How often you reflect is up to you. Once daily might work well for you&mdash;or 
 To use the reflection feature, go to the **Wellbeing** tab and find the  **Reflect on your emotions** section. 
 
 :::image type="complex" source="../images/wellbeing-reflect-1b.png" alt-text="Screenshot that shows the Reflect on your emotions section of the Wellbeing tab.":::
-   Screenshot of the Wellbeing tab's Reflect on your emotions section. The subtitle reads, "Take a moment to reflect and better understand your emotions." Below the subtitle, there's a card with two sections. The first section is labeled, "Private to you" and asks, "How are you feeling?" Below the question, there are five emojis ranging from a big smile to a distressed expression. Beneath the emojis, there's a "Set reminder" button. To the right of the emojis is the Reflection history section, which is a line graph. The Y axis is made up of the emojis from the previous section; the X axis is made up of dates. The line shows a user's reflection pattern and the data points correspond to dates. The key shows a symbol for "Multiple selection in a day." The last date on the X axis is highlighted. There are two buttons in the upper right-hand corner: "7 days" and "30 days." "7 days" is selected. Next to the buttons, there is a forward and back arrow. A hover action is shown over one of the data points; the tooltip shows two emojis, arranged vertically, and their corresponding times of day.
+   Screenshot of the Wellbeing tab's Reflect on your emotions section. The subtitle reads, "Take a moment to reflect and better understand your emotions." Below the subtitle, there's a card with two sections. The first section reads, "Private to you" and asks, "How are you feeling?" Below the question, there are five emojis ranging from a big smile to a distressed expression. Beneath the emojis, there's a "Set reminder" button. To the right of the emojis is the Reflection history section, which is a line graph. The Y axis contains the emojis from the previous section; the X axis contains dates. The line shows a user's reflection pattern and the data points correspond to dates. The key shows a symbol for "Multiple selection in a day." The last date on the X axis is highlighted. There are two buttons in the upper right-hand corner: "7 days" and "30 days." "7 days" is selected. Next to the buttons, there's a forward and back arrow. A hover action is shown over one of the data points; the tooltip shows two emojis, arranged vertically, and their corresponding times of day.
 :::image-end:::
 
 Then, select the emoji that best represents how you're currently feeling.
