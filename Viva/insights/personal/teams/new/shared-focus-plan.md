@@ -75,22 +75,18 @@ If you are already enrolled in a focus plan, you can select:
 
 To view details about your shared focus plan, go to the **Track your progress** section of the **Wellbeing** tab. Use the arrows to right of the section header to find the **Shared focus plan** card. Here, you get a summary of the plan's settings: how much time your team focuses a day, what time of the day focus time is booked, whether you get a reminder to start focus time, and whether Teams chats are muted during focus time. To change any of these settings, select **Change settings**.
 
+:::image type="complex" source="../images/wellbeing-sfp-plan-progress.png" alt-text="Screenshot that shows the Shared focus plan card on the Wellbeing tab."lightbox="../images/wellbeing-sfp-plan-progress.png":::
+    Screenshot of the Shared focus plan card on the Wellbeing tab. Beneath the card header, "Shared focus plan," there's a summary of the plan's settings: "2 hours per day," "Afternoon," "Reminder to begin focus," and "Teams chat notifications muted." Beneath the plan summary are the profile pictures of participants. At the card's bottom left, there's a Leave plan button. In the card's bottom center, there's a "Change settings" link. In the card's bottom right, there's an ellipses to access more settings.
+:::image-end:::
+
 ### Leave a plan
 
-You can also leave a plan through the **Shared focus plan** card. Select Leave plan, and then confirm you want to leave.
+You can also leave a plan through the **Shared focus plan** card. Select **Leave plan**, and then confirm you want to leave.
 
 >[!Note]
 >When you leave a shared focus plan as a *participant*, you don't remove anyone else from it. Other plan participants stay in the focus plan until they leave it. When you leave a shared focus plan as an *organizer*, you end the plan for all participants.
 
 If you have a personal focus plan, you'll still be enrolled in it even after you leave the shared focus plan. To leave the personal focus plan or change its settings, refer to our [Focus plan documentation](focus-plan.md).
-
-### Check the details of your shared focus plan
-
-To check the details of your new plan, open the **Home** page of Viva Insights. The **Shared focus plan** details will be included in the **Plans** section:
-
-:::image type="complex" source="../images/wellbeing-sfp-plan-progress.png" alt-text="Screenshot that shows the Shared focus plan card on the Wellbeing tab."lightbox="../images/wellbeing-sfp-plan-progress.png":::
-    Screenshot of the Shared focus plan card on the Wellbeing tab. Beneath the card header, "Shared focus plan," there's a summary of the plan's settings: "2 hours per day," "Afternoon," "Reminder to begin focus," and "Teams chat notifications muted." Beneath the plan summary are the profile pictures of participants. At the card's bottom left, there's a Leave plan button. In the card's bottom center, there's a "Change settings" link. In the card's bottom right, there's an ellipses to access more settings.
-:::image-end:::
 
 ### Concepts
 
