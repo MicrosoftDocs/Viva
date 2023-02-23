@@ -25,28 +25,25 @@ description: "Add members to their respective teams using Azure Active Directory
 
 Viva Goals allows team owners and team admins to add members to their respective teams using Azure Active Directory Groups. This feature provides the ability to add many members to a team quickly and easily.
 
-Admins and owners can add up to five groups to a team as members. For example, admins and owners can add mail enabled security groups, mail enabled nested groups, distribution lists and dynamic AAD groups to teams as members. Currently, M365 Groups are not supported for this feature.   For more information, see the [FAQ section](/viva/goals/teams-provisioning#faqs-frequently-asked-questions)  
+Admins and owners can add up to five groups to a team as members. For example, admins and owners can add mail enabled security groups, mail enabled nested groups, distribution lists and dynamic AAD groups to teams as members. Currently, M365 Groups are not supported for this feature.   For more information, see the [FAQ section](/viva/goals/teams-provisioning#faqs-frequently-asked-questions).
 
 ## How to Add Groups to Viva Goals teams
 You can add members to teams as you're creating the team or after you create the team by adding additional members.
 
 **Team creation:**
 
-1. Go to the Teams page by clicking on ‘Teams’ in the left navigation bar. 
-1. Select ‘Create Team’ on the top right corner of the page 
+1. Go to the Teams page by clicking on ‘Teams’ in the left navigation bar.
+1. Select ‘Create Team’ on the top right corner of the page.
 1. In the create team pop-up:
     1. Enter team name.
     1. Search and select a user from Azure AD to be the team owner.  
     1. If required, select the parent team from the drop-down.
     1. If required, add a description for the team.
     1. Select Create.
-1. The user will see a ‘Team created successfully’ page. By clicking next, the user will see be taken to the add members’ page.
+1. The user will see a ‘Team created successfully’ page. By clicking next, the user will be taken to the add members’ page.
 1. In the team members’ field, search for the groups or individual members you want to add to the team.
+6. Select ‘Add’ to add these groups or individual members to the team. 
 
-> [!NOTE]
-> You can select up to 20 entries to add to the team in a single session. This can be a combination of groups and individuals. However, you can only add up to 5 groups to a team.
-
-6. Select on ‘Add’ to add these groups or individual members to the team. 
 
 **Team Members page**
 
@@ -56,10 +53,6 @@ You can add members to teams as you're creating the team or after you create the
 
 > [!NOTE]
 > Admins and owners can select up to 20 entries to add to the team in a single session. This can be a combination of groups and individuals. However, only up to five groups can be added to a team.
-
-  
-
-3. 
 
 ## FAQs (Frequently Asked Questions)
 
@@ -80,7 +73,7 @@ You can add members to teams as you're creating the team or after you create the
     1. Any groups that are added to a team will also get added to the organization. 
 
 4. **What happens when I add groups with users who do not have a license to access Viva Goals?**
-    1. If you add a group that contains a subset of members who don't have a license to access Viva Goals, those users won't be able to sign in to Viva Goals and hence won't be able to gain access to the teams.
+    1. If a user adds a group that contains a subset of members who do not have a license to access Viva Goals, those users will not be able to log in to Viva Goals and will not be able to gain access to the teams.
 
 5. **What happens when I remove a group from a team?**
     1. If a user adds a group that contains a subset of members who do not have a license to access Viva Goals, those users will not be able to log in to Viva Goals and will not be able to gain access to the teams.  
