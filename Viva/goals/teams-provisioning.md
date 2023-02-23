@@ -34,7 +34,7 @@ You can add members to teams as you're creating the team or after you create the
 
 1. Go to the Teams page by clicking ‘Teams’ in the left navigation bar.
 1. Select ‘Create Team’ on the top right corner of the page.
-1. In the create team pop-up:
+1. In the Create team pop-up:
     1. Enter team name.
     1. Search and select a user from Azure AD to be the team owner.  
     1. If required, select the parent team from the drop-down.
@@ -42,12 +42,12 @@ You can add members to teams as you're creating the team or after you create the
     1. Select Create.
 1. The user will see a ‘Team created successfully’ page. By clicking next, the user will be taken to the add members’ page.
 1. In the team members’ field, search for the groups or individual members you want to add to the team.
-6. Select ‘Add’ to add these groups or individual members to the team. 
+6. Select ‘Add’ to add these groups or individual members to the team.
 
 
 **Team Members page**
 
-1. Go to Team Members’ page. Select on Add Members on the top right corner of the page.
+1. Go to Team Members’ page. Select Add Members on the top right corner of the page.
 1. In the team members’ field, search for the groups or individual members to add to the team.
 1. Select ‘Add’ to add these groups or individual members to the team.
 
