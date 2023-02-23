@@ -76,7 +76,7 @@ You can add members to teams as you're creating the team or after you create the
     1. If a user adds a group that contains a subset of members who do not have a license to access Viva Goals, those users will not be able to log in to Viva Goals and will not be able to gain access to the teams.
 
 5. **What happens when I remove a group from a team?**
-    1. If a user adds a group that contains a subset of members who do not have a license to access Viva Goals, those users will not be able to log in to Viva Goals and will not be able to gain access to the teams.  
+    1. When a group is removed from a team, all members of the group will lose access to the team. However, this group will continue to be a part of the organization and members of the group will continue to have access to the organization. 
 
 6. **What happens when I remove a group, that has been added to a team, from the organization?**
     1. When you remove a group that has been added to a team from the organization, the members of that group lose access to this team, any other teams where this group was added, and the organization itself.
