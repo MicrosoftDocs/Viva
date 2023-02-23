@@ -30,9 +30,9 @@ Admins and owners can add up to five groups to a team as members. For example, a
 ## How to Add Groups to Viva Goals teams
 You can add members to teams as you're creating the team or after you create the team by adding additional members.
 
-**Team creation:**
+**Team creation**
 
-1. Go to the Teams page by clicking on ‘Teams’ in the left navigation bar.
+1. Go to the Teams page by clicking ‘Teams’ in the left navigation bar.
 1. Select ‘Create Team’ on the top right corner of the page.
 1. In the create team pop-up:
     1. Enter team name.
