@@ -45,7 +45,7 @@ The **File processing for topic discovery** section shows the number of files th
 |:------|:----|
 |Unique files processed|The number of files that have been processed for topic discovery. This is a cumulative total since Viva Topics was set up. This number does not decrease if topics are deleted or excluded.|
 
-![Screenshot of analytics for unique files processed.](../media/topics-analytics-unique-files.png) 
+![Screenshot of analytics for unique files processed.](../media/topics-files processed.png) 
 
 
 ## Sites processed for topic discovery
