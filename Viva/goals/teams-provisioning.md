@@ -28,7 +28,7 @@ Viva Goals allows team owners and team admins to add members to their respective
 Admins and owners can add up to five groups to a team as members. For example, admins and owners can add mail enabled security groups, mail enabled nested groups, distribution lists and dynamic AAD groups to teams as members. Currently, M365 Groups are not supported for this feature.   For more information, see the [FAQ section](/viva/goals/teams-provisioning#faqs-frequently-asked-questions).
 
 ## How to Add Groups to Viva Goals teams
-You can add members to teams as you're creating the team or after you create the team by adding additional members.
+Members can be added to teams as the team is created or after the team is created by adding additional members.
 
 **Team creation**
 
@@ -57,7 +57,7 @@ You can add members to teams as you're creating the team or after you create the
 ## FAQs (Frequently Asked Questions)
 
 1. **What types of groups can be added as members to teams?**
-    1. You can add mail enabled security groups, mail enabled nested groups, distribution lists and dynamic Azure AD groups to your teams as members.  
+    1. Mail enabled security groups, mail enabled nested groups, distribution lists and dynamic Azure AD groups can be added as members.  
     1. Microsoft 365 Groups aren't supported for this feature at this time. 
 
 2. **Who can add groups to a team?**
