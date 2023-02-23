@@ -79,4 +79,4 @@ Members can be added to teams as the team is created or after the team is create
     1. When a group is removed from a team, all members of the group will lose access to the team. However, this group will continue to be a part of the organization and members of the group will continue to have access to the organization. 
 
 6. **What happens when I remove a group, that has been added to a team, from the organization?**
-    1. When you remove a group that has been added to a team from the organization, the members of that group lose access to this team, any other teams where this group was added, and the organization itself.
+    1. When a group that has been added to a team is removed from the organization, the members of that group lose access to this team, any other teams where this group was added, and the organization itself.
