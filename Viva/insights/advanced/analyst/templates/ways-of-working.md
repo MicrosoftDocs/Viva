@@ -20,17 +20,17 @@ audience: Admin
 The **Ways of working** report uses a template populated by Viva Insights data to conduct a broad diagnostic of a company’s collaboration patterns, meeting effectiveness, wellbeing, and coaching to uncover areas for improvement. The categories and pages in the report help you answer these business questions: 
 
 * **Understand collaboration patterns**
-    * How much time are employees spending using digital collaboration tools? 
-    * How much time are people spending in different collaboration modes? 
+    * How much time do employees spend using digital collaboration tools?
+    * How much time do people spend in different collaboration modes?
 * **Make meetings effective** 
-    * How is the organization spending its meeting time? 
-    * How much time is the organization spending in recurring meetings? 
-    * Does habit or necessity drive multitasking? 
+    * How does the organization spend its meeting time?
+    * How much time is going towards recurring meetings?
+    * Is multitasking driven by habit or necessity?
 * **Improve wellbeing** 
     * Are employees getting enough time to work on their core priorities? 
 
 * **Encourage coaching and development** 
-    * Are employees getting enough 1:1 coaching time with their managers?
+    * Are employees receiving sufficient manager 1:1 coaching time??
     * Are managers balancing oversight with employee autonomy? 
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Ways of working** query in Viva Insights. 
