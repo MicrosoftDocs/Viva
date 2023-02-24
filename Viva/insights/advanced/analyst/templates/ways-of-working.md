@@ -226,7 +226,7 @@ Find opportunity areas for your organization. This page includes best practices,
 
 ### Glossary
 
-View all report metrics.
+View this report's metrics.
 
 ## Power BI tips, FAQs, and troubleshooting
 
