@@ -74,7 +74,7 @@ You've now successfully generated and saved your public and private key pair.
 >[!NOTE]
 >You'll need to have admin permissions in SuccessFactors to complete these steps.
 
-1. Search Learning Administration in the search bar on the SAP SuccessFactors portal.
+1. Enter "Learning Administration" in the search bar on the SAP SuccessFactors portal, and then select the enter key.
 
    ![Image of SAP SuccessFactors Portal where you search for Learning Administration](../media/learning/SFSF-admin-center-page.png)
 
