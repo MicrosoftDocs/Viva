@@ -41,7 +41,7 @@ We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](http
 
    ![Image of login window in Kleopatra prompting name and email credentials.](../media/learning/sfsf-kleopatra-2.png)
 
-1. In **Advanced Settings**, change **Key Material** to **RSA**
+1. In **Advanced Settings**, change **Key Material** to **RSA**.
 
    ![Image of Advanced Settings with Key Material selected as RSA in Kleopatra tool](../media/learning/sfsf-kleopatra-3.png)
 
