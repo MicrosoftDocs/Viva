@@ -78,7 +78,7 @@ You've now successfully generated and saved your public and private key pair.
 
    ![Image of SAP SuccessFactors Portal where you search for Learning Administration](../media/learning/SFSF-admin-center-page.png)
 
-1. Obtain the required workflows to edit the PARTNER_EXTRACT configuration, which you can get to by going to **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
+1. Get the required workflows to edit the PARTNER_EXTRACT configuration located at **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
 
    ![Image of System Configuration meny with option section in PARTNER_EXTRACT](../media/learning/sfsf-system-config-partner-extract.png)
 
