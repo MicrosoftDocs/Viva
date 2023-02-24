@@ -17,7 +17,7 @@ audience: Admin
 
 # Ways of working report
 
-The **Ways of working** report uses a template populated by Viva Insights data to conduct a broad diagnostic of a company’s collaboration patterns, meeting effectiveness, wellbeing, and coaching to uncover areas for improvement. The pages in the report help you answer these business questions: 
+The **Ways of working** report uses a template populated by Viva Insights data to conduct a broad diagnostic of a company’s collaboration patterns, meeting effectiveness, wellbeing, and coaching to uncover areas for improvement. The categories and pages in the report help you answer these business questions: 
 
 * **Understand collaboration patterns**
     * How much time are employees spending using digital collaboration tools? 
@@ -152,13 +152,13 @@ Let's discuss in more detail.
 
 **How much time do employees spend using digital collaboration tools?**
 
-This page compares the average weekly collaboration hours for each person by group to after-hours collaboration. This information highlights how collaboration load is impacting after-hours work.
+Compare the average weekly collaboration hours for each person, by group, to after-hours collaboration. This information highlights how collaboration load is impacting after-hours work.
 
 #### Collaboration modes
 
 **How much time do people spend in different collaboration modes?** 
 
-Use this page to discover, by group, the average number of hours per week that people are spending in:
+Explore, by group, the average number of hours per week that people are spending in:
 
 * Meetings.
 * Email.
@@ -173,7 +173,7 @@ Toggle between total collaboration or after-hours collaboration. Understanding d
 
 **How does the organization spend its meeting time?** 
 
-This page highlights how your organization spends its meeting time. View the percentage of time spent in the different meeting types by the number of invitees, including the meeting organizer, and duration. 
+Discover how your organization spends its meeting time. On this page, view the percentage of time spent in the different meeting types by the number of invitees, including the meeting organizer, and duration. 
 
 Analyzing meeting practices at the organizational level can help pinpoint sources of meeting overload, which you can then work to streamline. You might also identify groups with successful meeting practices the rest of the company could adopt.
 
@@ -187,15 +187,18 @@ Understand the time your organization spends in recurring meetings. We've broken
 
 **Is multitasking driven by habit or necessity?** 
 
-This page shows the distribution of employees by their average collaboration hours and average multitasking rate—the percentage of meetings and Teams calls hours where they’ve multitasked. This analysis helps determine whether multitasking rates during meetings are a function of habit or a consequence of lacking enough free time during the workday to catch up on email outside of meetings. 
+View the distribution of employees by their average collaboration hours and average multitasking rate—that is, the percentage of meetings and Teams calls hours where they’ve multitasked. This analysis helps determine whether multitasking during meetings is because of habit or because people don't have enough free time during the workday to catch up on email outside of meetings. 
 
 ### Improve wellbeing 
 
 #### Uninterrupted focus hours 
 
-**Are employees getting enough time to work on their core priorities?** 
+**Are employees getting enough time to work on their core priorities?**
 
-This page shows the average available-to-focus hours—time without any scheduled meetings during working hours—and uninterrupted hours—time without any scheduled meetings during working hours not interrupted by email or Teams chat or calls.
+Find out how much time people have to work independently by viewing:
+
+* Average available-to-focus hours—that is, time without any scheduled meetings during working hours.
+* Uninterrupted hours—that is, time without any scheduled meetings during working hours not interrupted by email, Teams chats, or Teams calls.
 
 ### Encourage coaching and development
 
@@ -203,25 +206,27 @@ This page shows the average available-to-focus hours—time without any schedule
 
 **Are employees receiving sufficient manager 1:1 coaching time?** 
 
-This page shows the distribution of employees by how much weekly 1:1 time they get with their managers. This information highlights whether employees are getting enough 1:1 manager coaching.
+Learn whether employees are getting enough 1:1 manager coaching. This page shows the distribution of employees by how much weekly 1:1 time they get with their managers. 
 
 #### Empower your workforce
 
 **Are managers balancing oversight with employee autonomy?** 
 
-This page shows the distribution of employees attending the same meetings as their managers and their average weekly 1:1 meeting time with their managers, which is compared across the company. It also analyzes different segments of manager behaviors based on their rates of attending the same meeting as their reports and their 1:1 meeting time.
+View the distribution of employees attending the same meetings as their managers, along with their average weekly 1:1 meeting time with their managers. This information is compared across the company. 
+
+Use this page to analyze different segments of manager behaviors (**Co-attending**, **Highly managed**, **Under-coached**, and **Coaching**) based on their rates of attending the same meeting as their reports and their 1:1 meeting time.
 
 ### Behavioral trends
 
-This page shows the trends for key leading indicator metrics.
+Understand trends for key leading indicator metrics.
 
 ### Take action
 
-This page lists opportunity areas with related best practices and recommendations and links to related articles about ways to help your managers improve in each area. 
+Find opportunity areas for your organization. This page includes best practices, recommendations, and links to related articles about ways to help your managers improve in each area.
 
 ### Glossary
 
-The report also includes a **Glossary** page that describes all the report metrics.
+View all report metrics.
 
 ## Power BI tips, FAQs, and troubleshooting
 
