@@ -40,7 +40,7 @@ A shared focus plan in Microsoft Viva Insights helps your team book daily, unint
     1. Whether you want to add a custom message. If you do, add your message in the text box provided. 
     1. **Share** when you're ready to send out your invite.
 
-   :::image type="complex" source="../images/wellbeing-sfp-step2-1.png" alt-text="Screenshot that shows the Set up a shared focus plan window."lightbox="../Images/wellbeing-sfp-step2-1.png":::
+   :::image type="complex" source="../images/wellbeing-sfp-step2-1.png" alt-text="Screenshot that shows the Set up a shared focus plan window.":::
     Screenshot of the "Set up a shared focus plan" window. The subtitle reads, "Get started by selecting recipients, choosing plan settings, and customizing your invitation. If anything changes, you can always update the team's plan later." The subtitle also includes a "Learn more" link. The setup window contains three main sections. The first section is "Recipients," which contains the profile image and name of one recipient. Next to "Recipients," near the right edge of the window, there's a "Clear all" link. The next section is "Focus time preferences," which has five options: "Duration," "Time of day," "No earlier than," "Focus mode reminder," and "Teams chat notifications." All options have dropdown menus to select options. The last section is "Custom message." Beneath the section header, there's a checked box with the label, "I want to include a custom message." Beneath the label, there's a textbox that contains a typed message. There are two buttons at the bottom right of the window: "Cancel" and "Save." In the bottom left of the window, there's an "Is this helpful?" label with a "Yes" link and a "No" link.
    :::image-end:::
 
@@ -65,7 +65,7 @@ If you are already enrolled in a focus plan, you can select:
 * **Edit settings**, which switches you from your individual plan to the shared plan, but lets you change some of the settings first. Adjust your focus hours per day, when you focus, and whether you want to silence Teams notification during focus time. Then, select **Join plan**.
 * **Decline**, which keeps you enrolled in your individual plan and doesn't enroll you in this new shared one. When you decline, we don't send you any further communications about this shared meeting plan, and we don't change your current plan's settings.
 
-   :::image type="complex" source="../images/wellbeing-sfp-recipient.png" alt-text="Screenshot that shows a recipient's invitation."lightbox="../images/wellbeing-sfp-recipient.png":::
+   :::image type="complex" source="../images/wellbeing-sfp-recipient.png" alt-text="Screenshot that shows a recipient's invitation.":::
     Screenshot of a plan recipient's invitation. The title reads, "You are already enrolled in a focus plan." The subtitle reads, "To get the benefits of having the same focus hours as the rest of your team, you can join a shared focus plan." Beneath the subtitle, there's a profile image of the inviter. To the right of the image, there's a header that says, "Emily Braun's shared focus plan," and beneath that header, there's the message that the inviter included with their invitation. Beneath the message, there's a summary of the plan settings, which are listed as bullets: "2 hours per day," "Afternoons," "Notifications silenced." Beneath the list of settings there are two buttons: "Edit settings" and "Join plan."
    :::image-end:::
 
@@ -75,7 +75,7 @@ If you are already enrolled in a focus plan, you can select:
 
 To view details about your shared focus plan, go to the **Track your progress** section of the **Wellbeing** tab. Use the arrows to right of the section header to find the **Shared focus plan** card. Here, you get a summary of the plan's settings: how much time your team focuses a day, what time of the day focus time occurs, whether you get a reminder to start focus time, and whether Viva Insights mutes Teams chats during focus time. To change any of these settings, select **Change settings**.
 
-:::image type="complex" source="../images/wellbeing-sfp-plan-progress.png" alt-text="Screenshot that shows the Shared focus plan card on the Wellbeing tab."lightbox="../images/wellbeing-sfp-plan-progress.png":::
+:::image type="complex" source="../images/wellbeing-sfp-plan-progress.png" alt-text="Screenshot that shows the Shared focus plan card on the Wellbeing tab.":::
     Screenshot of the Shared focus plan card on the Wellbeing tab. Beneath the card header, "Shared focus plan," there's a summary of the plan's settings: "2 hours per day," "Afternoon," "Reminder to begin focus," and "Teams chat notifications muted." Beneath the plan summary are the profile pictures of participants. At the card's bottom left, there's a Leave plan button. In the card's bottom center, there's a "Change settings" link. In the card's bottom right, there's an ellipses to access more settings.
 :::image-end:::
 
