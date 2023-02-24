@@ -37,7 +37,7 @@ We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](http
 
    ![Image of the Kleopatra tool home screen.](../media/learning/sfsf-kleopatra-1.png)
 
-1. Enter your name and email, then select “Protect the generated key with a passphrase.”
+1. Enter your name and email, and then select “Protect the generated key with a passphrase.”
 
    ![Image of login window in Kleopatra prompting name and email credentials.](../media/learning/sfsf-kleopatra-2.png)
 
