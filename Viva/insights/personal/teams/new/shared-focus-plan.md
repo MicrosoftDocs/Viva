@@ -65,7 +65,7 @@ If you *are* already enrolled in a focus plan, you can select:
 
 If you don't want to join, select the X in the notification's top-right corner. You stay enrolled in your individual plan, but don't join this new shared one. The invite remains on your **Wellbeing** tab, so if you change your mind, you can join later. 
 
-   :::image type="complex" source="../images/wellbeing-sfp-recipient.png" alt-text="Screenshot that shows a recipient's invitation.":::
+   :::image type="complex" source="../images/wellbeing-sfp-recipient-small.png" alt-text="Screenshot that shows a recipient's invitation.":::
     Screenshot of a plan recipient's invitation. The title reads, "You are already enrolled in a focus plan." The subtitle reads, "To get the benefits of having the same focus hours as the rest of your team, you can join a shared focus plan." Beneath the subtitle, there's a profile image of the inviter. To the right of the image, there's a header that says, "Emily Braun's shared focus plan," and beneath that header, there's the message that the inviter included with their invitation. Beneath the message, there's a summary of the plan settings, which are listed as bullets: "2 hours per day," "Afternoons," "Notifications silenced." Beneath the list of settings there are two buttons: "Edit settings" and "Join plan."
    :::image-end:::
 
