@@ -30,7 +30,7 @@ The **Ways of working** report uses a template populated by Viva Insights da
     * Are employees getting enough time to work on their core priorities? 
 
 * **Encourage coaching and development** 
-    * Are employees receiving sufficient manager 1:1 coaching time??
+    * Are employees receiving sufficient manager 1:1 coaching time?
     * Are managers balancing oversight with employee autonomy? 
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Ways of working** query in Viva Insights. 
