@@ -87,7 +87,6 @@ You've now successfully generated and saved your public and private key pair.
 - You'll need to edit the following fields: 
    - **#customer notification email for all job status** </br></br>
              **defaultJob.email=**
-       - defaultJob.email=
        Enter the email address in the following format: 
         `defaultJob.email=johndoe@contoso.com` 
      -  For Microsoft Viva Learning, enter the value **MVL**.
