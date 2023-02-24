@@ -20,17 +20,17 @@ audience: Admin
 The **Ways of working** report uses a template populated by Viva Insights data to conduct a broad diagnostic of a company’s collaboration patterns, meeting effectiveness, wellbeing, and coaching to uncover areas for improvement. The categories and pages in the report help you answer these business questions: 
 
 * **Understand collaboration patterns**
-    * How much time are employees spending using digital collaboration tools? 
-    * How much time are people spending in different collaboration modes? 
+    * How much time do employees spend using digital collaboration tools?
+    * How much time do people spend in different collaboration modes?
 * **Make meetings effective** 
-    * How is the organization spending its meeting time? 
-    * How much time is the organization spending in recurring meetings? 
-    * Does habit or necessity drive multitasking? 
+    * How does the organization spend its meeting time?
+    * How much time is going towards recurring meetings?
+    * Is multitasking driven by habit or necessity?
 * **Improve wellbeing** 
     * Are employees getting enough time to work on their core priorities? 
 
 * **Encourage coaching and development** 
-    * Are employees getting enough 1:1 coaching time with their managers?
+    * Are employees receiving sufficient manager 1:1 coaching time?
     * Are managers balancing oversight with employee autonomy? 
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Ways of working** query in Viva Insights. 
@@ -59,7 +59,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 2. Under **Power BI templates**, navigate to **Ways of working** and select **Start analysis**. To get more information about the Ways of working template before running your analysis, select **Learn more**.
 
-    ![Screenshot that shows the Ways of working icon.](/viva/insights/advanced/images/wow-pbi-start.png)
+    ![Screenshot that shows the Ways of working icon.](/viva/insights/advanced/images/wow-pbi-start1.png)
 
 3. Under **Query setup**:
     1. Type a **Query name**.
@@ -206,13 +206,13 @@ Find out how much time people have to work independently by viewing:
 
 **Are employees receiving sufficient manager 1:1 coaching time?** 
 
-Learn whether employees are getting enough 1:1 manager coaching. This page shows the distribution of employees by how much weekly 1:1 time they get with their managers. 
+Learn whether employees are getting enough 1:1 manager coaching. This page shows the distribution of employees by how much monthly 1:1 time they get with their managers. 
 
 #### Empower your workforce
 
 **Are managers balancing oversight with employee autonomy?** 
 
-View the distribution of employees attending the same meetings as their managers, along with their average weekly 1:1 meeting time with their managers. This information is compared across the company. 
+View the distribution of employees attending the same meetings as their managers, along with their average monthly 1:1 meeting time with their managers. This information is compared across the company. 
 
 Use this page to analyze different segments of manager behaviors (**Co-attending**, **Highly managed**, **Under-coached**, and **Coaching**) based on their rates of attending the same meeting as their reports and their 1:1 meeting time.
 
@@ -226,7 +226,7 @@ Find opportunity areas for your organization. This page includes best practices,
 
 ### Glossary
 
-View all report metrics.
+View this report's metrics.
 
 ## Power BI tips, FAQs, and troubleshooting
 
