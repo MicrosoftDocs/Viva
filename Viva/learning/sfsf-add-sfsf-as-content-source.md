@@ -200,7 +200,7 @@ SAP SuccessFactors deletes the Full Sync package from SFTP location automaticall
 All users within an organization will be able to discover all the tenant-specific courses, but they'll only be able to access and consume courses that they have access to. User specific content discovery is planned for future releases. In Viva Learning, we show the courses, which are part of an active library in SAP SuccessFactors. 
 
 >[!Note]
-> You will see error messages in MAC if the inputs are entered incorrectly. To see the error messages, close out the Viva Learning window in MAC and reopen to refresh validation.
+> If the inputs are incorrect, MAC will generate error messages. To see the error messages, close the Viva Learning window in MAC and then reopen the window to refresh the validation.
 
 - [Enable learner record sync](/viva/learning/sfsf-enable-learning-record-sync.md)
 - [Manage SuccessFactors permissions](/viva/learning/sfsf-manage-sfsf-permissions.md)
