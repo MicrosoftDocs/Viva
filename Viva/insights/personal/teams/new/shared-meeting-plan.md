@@ -44,7 +44,7 @@ To create a shared meeting plan:
 Learn a bit more about how a shared meeting plan can help. Then select **Get started**.
 
 :::image type="complex" source="../images/productivity-smp-setup-1.png" alt-text="Screenshot that shows the intro to the Create a meeting plan process.":::
-   Screenshot of the intro to the "Create a shared meeting plan" process. The title says, "Create a shared meeting plan for your team," and the subtitle says, "You're leading the way with effective meeting habits for hybrid work. Set up a customized meeting plan to encourage best practices for meetings." There's a "Learn more" link immediately to the right of the subtitle. Beneath the subtitle, there are three options: "Automatically shorten duration for all meetings," with a subtitle of "Give a breather between bac0k-to-back meetings to promote team wellbeing"; "Automatically include a Teams meeting link," with a subtitle of "Promote team inclusion of both in-person and remote attendees"; and "Get feedback from your meeting attendees," with a subtitle of "Understand how effective your meetings are to encourage feedback." There are two buttons in the bottom right of the window: "Cancel" and "Get started."
+   Screenshot of the intro to the "Create a shared meeting plan" process. The title says, "Create a shared meeting plan for your team," and the subtitle says, "You're leading the way with effective meeting habits for hybrid work. Set up a customized meeting plan to encourage best practices for meetings." There's a "Learn more" link immediately to the right of the subtitle. Beneath the subtitle, there are three options: "Automatically shorten duration for all meetings," with a subtitle of "Give a breather between back-to-back meetings to promote team wellbeing"; "Automatically include a Teams meeting link," with a subtitle of "Promote team inclusion of both in-person and remote attendees"; and "Get feedback from your meeting attendees," with a subtitle of "Understand how effective your meetings are to encourage feedback." There are two buttons in the bottom right of the window: "Cancel" and "Get started."
 :::image-end:::
 
 First, you'll set some meeting norms that affect how your meetings appear on calendars and in Teams. Then, you'll invite participants to join your plan.
@@ -101,8 +101,6 @@ After you're part of a shared meeting plan, either as an organizer or a particip
 
 Anyone who's part of a plan can make changes to their personal settings. Select **Edit** on the **Your shared meeting plan** card, which takes you to your **Settings** page.
 
-<!--confirm final design-->
-
 :::image type="complex" source="../images/productivity-smp-card.png" alt-text="Screenshot that shows the Shared meeting plan card on the Productivity tab.":::
    Screenshot of the "Your shared meeting plan" card. The card shows participants' profile images and the subtitle says, "You're leading the way with effective meeting habits." There's an "Edit" button at the bottom of the card.
 :::image-end:::
@@ -113,7 +111,7 @@ To start or stop automatically shortening meetings, toggle the switch under **Sh
 
 To add or stop adding Teams links to meetings, toggle the switch under **Add Teams meeting**.
 
-:::image type="complex" source="../images/meeting-effectiveness-settings1.png" alt-text="Screenshot that shows the Effective meetings settings in the Teams settings page for Viva Insights.":::
+:::image type="complex" source="../images/productivity-smp-settings.png" alt-text="Screenshot that shows the Effective meetings settings in the Teams settings page for Viva Insights."lightbox="../images/productivity-smp-settings-expanded.png":::
    Screenshot of "Effective meetings" settings in the Viva Insights Settings page in Teams. There are three sections. The first is titled, "Your shared meeting plan," with a button to leave the plan. The subtitle says, "You're leading the way with effective meeting habits" and has a "Learn more" link. The second section is titled, "Get feedback on your meetings" with a "Meeting effectiveness surveys" toggle. The subtitle for the toggle says, "Want to get feedback about how effective your meetings are? Insights can send a survey to meeting participants to help you understand how effective your meetings are" and contains a "Learn more" link. The third section is titled, "Personalize your meetings." It contains a "Shorten meetings" toggle and a set of dropdown menus to set preferences, along with an "Add Teams meeting" toggle. The subtitle for the "Add Teams meeting" toggle says, "Automatically include a Microsoft Teams meeting link to all your meetings to promote inclusion of in-person and remote attendees."
 :::image-end:::
 
