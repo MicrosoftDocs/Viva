@@ -54,16 +54,16 @@ When someone invites you to join a shared meeting plan, you get an invitation in
 
 Your join options differ depending on whether you're already enrolled in a focus plan.
 
-If you're *not* currently enrolled in a focus plan, you can select:
+If you're *not* currently enrolled in a focus plan, you can select **Join plan**, which automatically books time based on the preferences the organizer set. After you join, you get a confirmation card. If you need to change your settings, select Change settings there.
 
-* **Join plan**, which automatically books time based on the preferences the organizer set. After you join, you get a confirmation card. If you need to change your settings, select Change settings there.
-* **Decline**, which doesn't enroll you in the plan. If you decline, we don't send you any further communications about this plan.
+If you don't want to join, select the X in the notification's top-right corner. The invite remains on your **Wellbeing** tab, so if you change your mind, you can join later. 
 
-If you are already enrolled in a focus plan, you can select:
+If you *are* already enrolled in a focus plan, you can select:
 
 * **Join plan**, which switches you from your individual plan to the shared plan.
 * **Edit settings**, which switches you from your individual plan to the shared plan, but lets you change some of the settings first. Adjust your focus hours per day, when you focus, and whether you want to silence Teams notification during focus time. Then, select **Join plan**.
-* **Decline**, which keeps you enrolled in your individual plan and doesn't enroll you in this new shared one. When you decline, we don't send you any further communications about this shared meeting plan, and we don't change your current plan's settings.
+
+If you don't want to join, select the X in the notification's top-right corner. You stay enrolled in your individual plan, but don't join this new shared one. The invite remains on your **Wellbeing** tab, so if you change your mind, you can join later. 
 
    :::image type="complex" source="../images/wellbeing-sfp-recipient.png" alt-text="Screenshot that shows a recipient's invitation.":::
     Screenshot of a plan recipient's invitation. The title reads, "You are already enrolled in a focus plan." The subtitle reads, "To get the benefits of having the same focus hours as the rest of your team, you can join a shared focus plan." Beneath the subtitle, there's a profile image of the inviter. To the right of the image, there's a header that says, "Emily Braun's shared focus plan," and beneath that header, there's the message that the inviter included with their invitation. Beneath the message, there's a summary of the plan settings, which are listed as bullets: "2 hours per day," "Afternoons," "Notifications silenced." Beneath the list of settings there are two buttons: "Edit settings" and "Join plan."
