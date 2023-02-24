@@ -21,11 +21,11 @@
         - name: Overview of SAP SuccessFactors
           href: sfsf-introduction.md
         - name: Add SAP SuccessFactors as a content source 
-          href: sfsf-add-sfsf-as-content-source.md
+          href: sfsf-add-as-content-source.md
         - name: Enable learner record sync
           href: sfsf-enable-learning-record-sync.md
         - name: Manage SAP SuccessFactors permissions
-          href: sfsf-manage-sfsf-permissions.md
+          href: sfsf-manage-permissions.md
         - name: Enable inline playback
           href: sfsf-enable-inline-playback.md
           

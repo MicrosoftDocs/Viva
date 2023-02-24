@@ -201,6 +201,3 @@ All users within an organization will be able to discover all the tenant-specifi
 
 >[!Note]
 > If the inputs are incorrect, MAC will generate error messages. To see the error messages, close the Viva Learning window in MAC and then reopen the window to refresh the validation.
-
-- [Enable learner record sync](/viva/learning/sfsf-enable-learning-record-sync.md)
-- [Manage SuccessFactors permissions](/viva/learning/sfsf-manage-sfsf-permissions.md)
