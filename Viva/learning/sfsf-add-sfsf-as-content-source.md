@@ -76,7 +76,7 @@ You've now successfully generated and saved your public and private key pair.
 
 1. Enter "Learning Administration" in the search bar on the SAP SuccessFactors portal, and then select the enter key.
 
-   ![Image of SAP SuccessFactors Portal where you search for Learning Administration](../media/learning/SFSF-admin-center-page.png)
+   ![Image of SAP SuccessFactors Portal where you search for Learning Administration.](../media/learning/SFSF-admin-center-page.png)
 
 1. Get the required workflows to edit the PARTNER_EXTRACT configuration located at **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
 
