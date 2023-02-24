@@ -469,6 +469,11 @@
         "source_path": "viva/insights/personal/teams/send-card.md",
         "redirect_url": "/viva/insights/personal/introduction",
         "redirect_document_id": false
+        },
+      {
+        "source_path": "viva/insights/Tutorials/bcrps.md",
+        "redirect_url": "/microsoft-365/admin/adoption/adoption-score",
+        "redirect_document_id": false
         }
     ]
 }
