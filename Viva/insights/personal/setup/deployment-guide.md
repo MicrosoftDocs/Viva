@@ -1,5 +1,6 @@
 ---
 
+ms.date: 07/21/2020
 title: Personal insights deployment guide
 description: Guide for admins on deploying personal insights with Microsoft Viva Insights
 author: madehmer
@@ -17,9 +18,6 @@ audience: Admin
 ---
 
 # Deploy personal insights
-
->[!Important]
-> This article discusses the dashboard, which will be retired soon. Users will still be able to access their personal insights settings through their Viva Insights app in Teams or on the web. [Learn more about this change](../reference/mya-retirement.md).
 
 Personal insights with Microsoft Viva Insights is an easy-to-deploy, out-of-the-box solution that helps you and your co-workers improve your personal productivity habits. It is available widely &mdash; to Microsoft 365 users with [these Service plans](../overview/plans-environments.md). After licenses are assigned, the Viva Insights is turned **On** by default, although you can customize your deployment by [following the steps in this guide](#roll-out-viva-insights).
 
@@ -152,7 +150,7 @@ In this scenario, some users are opted in and some users are opted out of all Vi
     ```
 
 4. Specify the location of the input .csv file, the output .csv file, and the value of PrivacyMode that you want to set for each user.
-Note: The output.csv file will contain the results of running this PowerShell script. For more information about possible values for PrivacyMode, see Set-UserAnalyticsConfig / Parameters.
+Note: The output.csv file will contain the results of running this PowerShell script. For more information about possible values for PrivacyMode, see MyAnalyticsFeatureConfig / Parameters.
 
     ```powershell
     $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
@@ -165,8 +163,8 @@ Note: The output.csv file will contain the results of running this PowerShell sc
     $user.Userprincipalname
     $upn=$user.UserPrincipalName
     
-    Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
-    Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName 
+    Set-MyAnalyticsFeatureConfig –Identity $upn -PrivacyMode $privacyMode
+    Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName 
     }
     ```
 
@@ -203,8 +201,8 @@ This procedure is identical to [Set up mixed deployment](#set-up-mixed-deploymen
     $user.Userprincipalname
     $upn=$user.UserPrincipalName
     
-    Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
-    Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName 
+    Set-MyAnalyticsFeatureConfig –Identity $upn -PrivacyMode $privacyMode
+    Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName 
     }
     ```
 
@@ -316,5 +314,6 @@ If users have questions about using Viva Insights, point them to the published [
   * [Briefing emails](../Briefing/be-overview.md)
   * [Digest emails](./../use/email-digests-3.md)
   * [Inline suggestions in Outlook](./../use/mya-notifications.md)
+
 
 

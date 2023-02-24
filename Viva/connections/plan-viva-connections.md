@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: "Plan Viva Connections for your organization"
 ms.reviewer: 
 ms.author: hokavian
@@ -24,7 +25,8 @@ description: "Plan Microsoft Viva Connections for your organization"
 # Plan Microsoft Viva Connections for your organization
 In this phase, build a team of stakeholders to align on the goals and primary use cases for your organization's deployment of Viva Connections. Start by meeting requirements, and then planning for each component of the experience. In the planning phase, consider success metrics and adoption tactics to ensure Viva Connections meets the need of your organization and users.
 
-
+> [!IMPORTANT]
+> A new desktop experience is coming soon for Viva Connections. The new experience is rolling out to [Target Release](/microsoft-365/admin/manage/release-options-in-office-365) customers now and will become generally available to all customers by the end of the first half of 2023. The new desktop home experience will automatically update for customers currently using Viva Connections. The experience doesn't have any requirements besides a [Viva license](https://www.microsoft.com/en-us/microsoft-viva) and can be setup more easily than the first release. [Learn more about the new experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6). Content in this article will be updated when the new experience becomes generally available.
 
 ## Step 1: Meet requirements
 Viva Connections requires a SharePoint home site, customized global navigation in the SharePoint app bar, and (optionally) modern SharePoint sites. 
@@ -245,4 +247,5 @@ As your business grows and evolves, you'll likely identify new scenarios that ca
 
 ## Next, build and customize Viva Connections for your organization
 After you meet requirements, have a plan for the Dashboard, and are prepared to help users adopt Viva Connections, its time to [move on to the build phase](build-viva-connections.md). 
+
 

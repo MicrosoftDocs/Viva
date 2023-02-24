@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/24/2020
 title: Increase customer focus with Viva Insights
 description: Learn how to use Microsoft Viva Insights data to analyze and increase customer focus
 author: madehmer
@@ -91,3 +92,4 @@ Ways to foster cross-group collaboration:
 
 For more best practices and how to provide managers with go-to contacts list, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
 -->
+

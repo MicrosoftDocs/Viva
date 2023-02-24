@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
+ms.date: 07/15/2022
 title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: lilyolason
@@ -33,6 +34,16 @@ Based on your role, the following information explains how Microsoft protects em
 * For leaders, admins, program managers, group or people managers, and analysts: [Data-protection considerations](#data-protection-considerations)
 * For leaders, admins, and analysts: [Data access after license expiration](#data-retention-and-access-after-all-subscriptions-expire)
 * For admins and analysts: [Privacy and data access](#privacy-and-data-access)
+
+## About organization insights
+
+Organization insights are fundamentally different from the other features in Viva Insights. Organization insights give a person access to insights about other people based on information that they wouldn’t already have. All other insights only give a person access to insights about themselves or about how they interact with others based on data they already have available. 
+
+Because organization insights give a person new information about other people, the insights have protections in place to make sure that information cannot be tied to an identified individual. Organization insights apply three strategies to protect individual identity:
+
+* Minimum group size. Because it’s easier to guess information about an individual based on results about a smaller group, leaders and managers won’t see results for groups with fewer than 10 people. The Insights Administrator may choose to increase this threshold even further for additional protection.
+* Differential privacy. For simple averages and totals, there is a small amount of noise introduced into each calculation. The aggregated amount stays accurate, but this makes it impossible to add or subtract different values to figure out results for a single person.
+* Distribution tails. Some insights measure how many people have a certain profile, like what percentage of an organization gets enough focus time. Leaders and managers won’t see results that would otherwise reveal that “almost all” or “almost none” of the group fit the profile, because that would effectively give you information about every individual in the group.
 
 ## More about advanced insights
 
@@ -215,9 +226,9 @@ See the [Glossary](../reference/glossary.md) for definitions of the terms relate
 
 With Viva Insights, all metrics that are computed from Microsoft 365 collaboration data and from the organizational data that you choose to include are de-identified and aggregated data. The following example shows one line from a “people” report that Viva Insights created:
 
-|Person Identifier	|After Hours	|Email Hours	|Function	|Title	Org	|Region|
+|Person Identifier|After Hours|Email Hours|Function|Title Org|Region|
 |------|-------|------|--------|---------|-------|
-|T5Y07H4VfKWcCC3	|7	|6	|HR	Director	|HR – Corp	|Central|
+|T5Y07H4VfKWcCC3|7|6|HR	Director|HR – Corp|Central|
 
 In this example, Viva Insights computes After Hours and Email Hours for some individual, and reports on this information, associating it with the person’s attributes that you choose to include. The computed information is de-identified; that is, you cannot identify the individual from these fields. The Person Identifier is pseudonymized with a cryptographically generated identifier derived from the person’s Microsoft 365 email address. The other attributes (such as function, title, organization, and region) are effectively personal data. While it might not be possible to identify the user with any single attribute, together these attributes might enable you to identify the user whose metrics have been computed. Therefore, this group of attributes is considered personal data.
 
@@ -325,3 +336,4 @@ After this period has passed, you will no longer have access to Viva Insights.
 1.	Open the advanced insights app. If prompted, sign in with your work account.
 2.	Select **Analyst > Query results**.
 3.	In the row for the query results, select **Download** to download the results as a .csv file, which is archived as a .zip file.
+

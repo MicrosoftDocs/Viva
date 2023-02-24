@@ -1,5 +1,6 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/16/2020
 title: Best practices for manager connectedness
 description: Get best practice recommendations for managers about connecting with their teams and employees
 author: madehmer
@@ -54,3 +55,4 @@ Build connections with your network through the [Stay connected](../personal/tea
 
 * [Viva Insights best practices](best-practices.md)
 * [Microsoft FastTrack resources](https://www.microsoft.com/fasttrack/resources)
+

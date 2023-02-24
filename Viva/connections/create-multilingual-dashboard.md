@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: "Create a Viva Connections Dashboard in more than one language"
 ms.reviewer: 
 ms.author: hokavian
@@ -147,3 +148,4 @@ Note:
 [Create the Viva Connections Dashboard](/viva/connections/create-dashboard)
 
 [Create multilingual communication sites, pages, and news](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c)
+

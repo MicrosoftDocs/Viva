@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/14/2023
 title: Setup for manager and leader insights
 description: Setup steps for teamwork habits and organizational trends the Microsoft Viva Insights app.
 author: lilyolason
@@ -19,11 +20,15 @@ audience: Admin
 
 # Setup for Teamwork habits and Organization trends
 
+>[!Important]
+>In addition to the requirements below, to access **Organization trends** and **Teamwork habits**, a certain number of licenses need to be assigned to people in your organization. This number needs to be equal to or greater than your [minimum group size](../advanced/setup-maint/setup.md#minimum-group-size). The default minimum group size is 10, so at least 10 people in your organization need a license before you can access these pages for the first time.
+
+
 Confirm the following prerequisites and then ask your Teams Service Admin to deploy the Microsoft Viva Insights app in Microsoft Teams for you and your team. Refer your admin to [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for the required steps.
 
 ## Prerequisites for Teamwork habits
 
-For access to the **Teamwork habits** page in the Viva Insights app, you need to have a premium Microsoft Viva Insights license with an [applicable service plan](../personal/overview/plans-environments.md).
+For access to the **Teamwork habits** page in the Viva Insights app, you need to have a Viva Insights license with an [applicable service plan](../personal/overview/plans-environments.md).
 
 ## Prerequisites for Organization trends
 
@@ -31,7 +36,7 @@ There are two ways to enable access to the **Organization trends** page in the V
 
 To view manager insights for employees who report to you:
 
-* You need to meet or exceed the minimum number of direct and indirect reports based on organizational data. The Insights admin sets this number.
+* You need to meet or exceed the minimum number of direct and indirect reports based on organizational data. The Insights admin sets this number. For more information, refer to [Setup](../advanced/setup-maint/setup.md#minimum-group-size).
 * The members of your organization need to be assigned licenses for Viva Insights, including you as a qualifying manager.
 * Your Viva Insights admin needs to give you access to [manager insights](../advanced/setup-maint/manager-settings.md).
 
@@ -46,3 +51,4 @@ To discover and pin the Viva Insights app within Teams, see [Discover and pin th
 
 >[!Note]
 >You can also locate the Viva Insights app at [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
+

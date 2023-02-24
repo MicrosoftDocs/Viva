@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 03/20/2018
 title: Capacity model for Viva Insights
 description: Learn about the capacity model for using the Query designer for advanced analysis of Viva Insights
 author: madehmer
@@ -210,3 +211,4 @@ Analysts of tenants with the Workplace Analytics SKU won't see any query usage o
 * [Templates](../Tutorials/Power-bi-templates.md)
 * [Glossary](../Use/Glossary.md)
 * [Metric descriptions](../Use/Metric-definitions.md)
+

@@ -30,6 +30,38 @@
   - name: Incorporate learning into your organization
     href: incorporate-learning.md
 
+  - name: Run a healthy OKR program with Viva Goals
+    items:
+    - name: Write OKRs and Initiatives
+      items:
+      - name: Write OKRs Overview
+        href: write-okrs-overview.md
+      - name: Write OKRs Recommendations
+        href: write-okrs-recommendations.md
+      - name: OKR Examples
+        href: okr-examples.md
+      - name: Apply the OKR Formula
+        href: apply-okr-formula.md
+      - name: Write annual, organizational OKRs using the 5 Ps
+        href: write-annual-top-level-okrs.md
+      - name: Define KR Types
+        href: kr-types.md
+    - name: Align OKRs and Initiatives
+      items:
+      - name: Align OKRs Overview
+        href: align-okrs-overview.md
+      - name: Align OKRs Recommendations
+        href: align-okrs-recommendations.md
+      - name: Tight vs Loose Alignment
+        href: align-loose-vs-tight.md
+    - name: Check-in OKRs and Initiatives
+      items:
+      - name: Check-in OKRs Overview
+        href: check-in-okrs-overview.md
+      - name: Check-in OKRs Recommendations
+        href: check-in-recommendations.md
+
+
   - name: Microsoft Viva Accelerators
     href: introduction.md
     items:         

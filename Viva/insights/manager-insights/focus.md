@@ -1,5 +1,6 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/16/2020
 title: Best practices for focused work
 description: Get best practices for managers about the importance of scheduled time to focus
 author: madehmer
@@ -62,3 +63,4 @@ Encourage employees to use a [Focus plan](../personal/use/focus-plan.md) to auto
 ## Related topics
 
 * [Viva Insights best practices](best-practices.md)
+

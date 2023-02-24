@@ -1,4 +1,6 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/06/2019
 title: Get started with manager insights
 description: Learn how to sign in and use Manager insights
 author: madehmer
@@ -61,3 +63,4 @@ The following describes how your team metrics are calculated to support the beha
 ## Tell us what you think
 
 After using one or more of the manager insights, use the thumbs up and down icons on the dashboard to send us your feedback.
+

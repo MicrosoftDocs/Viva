@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Data quality in the analyst experience
 description: Learn about organizational data in the Analyst experience of the Microsoft Viva Insights advanced insights app.
 author: lilyolason
@@ -68,3 +69,4 @@ To address data-quality errors and warnings, you might need to have your admin r
 
 The **Contact admin** page, which is under construction right now, will provide a list of your organization’s admins and their contact information, and also provide a button to directly send them an email.
  
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/10/2020
 title: Introducing Viva insights
 description: About Viva Insights in Microsoft Teams to learn how your organization gets work done
 author: madehmer
@@ -43,3 +44,4 @@ These insights make it easy for managers to understand current team norms and ta
 Organizational insights help business leaders to address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business.
 
 These help leaders take steps to protect employee wellbeing and see opportunities where a change in process could improve business outcomes. For details, see [My organization in Viva Insights](myorg.md).
+

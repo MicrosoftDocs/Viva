@@ -1,5 +1,6 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/16/2020
 title: Best practices for collaboration across groups
 description: Get best practice recommendations for managers about the importance of cross-group collaboration
 author: madehmer
@@ -67,3 +68,4 @@ Create a space for people with similar interests to share ideas, knowledge, and 
 #### Enable personal network insights
 
 Empower individuals to take advantage suggestions on how to improve their connections by using [Stay connected](../personal/teams/viva-insights-stay-connected.md).
+

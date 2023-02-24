@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/13/2020
 title: Viva Insights app
 description: Learn about personal insights with the Microsoft Viva Insights app 
 author: madehmer
@@ -53,3 +54,4 @@ The personal insights and actions in the Viva Insights app are based on your Exc
 * [Discover and pin the Viva Insights app](viva-teams-app-install.md)
 * [FAQ](viva-teams-app-faq.md)
 * [Admin tasks](viva-teams-app-admin-tasks.md)
+

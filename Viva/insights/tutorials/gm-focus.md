@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/16/2020
 title: Best practices for focus time
 description: Viva Insights shares best practices with managers about the importance of scheduled focus time
 author: madehmer
@@ -60,3 +61,4 @@ Use a [personal focus plan](../personal/use/focus-plan.md) to automatically bloc
 ## Related topic
 
 [Viva Insights best practices](gm-best-practices.md)
+

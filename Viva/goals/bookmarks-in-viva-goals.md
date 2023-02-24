@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Bookmarks in Viva Goals"
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -33,3 +34,4 @@ To access any bookmarked user or team, select **bookmarks** from the left naviga
 
 > [!NOTE]
 > The **Bookmarks** option only appears in the menu if you have items bookmarked.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 12/16/2022
 title: Import OKRs and Initiatives/Projects into Viva Goals with Excel
 ms.reviewer: 
 ms.author: rasanders
@@ -102,3 +103,4 @@ For records that have not been imported, refer to the "reason" column in the Imp
 
 1. Should OKR owners, time periods, and teams exist before importing OKRs? 
     1. Yes, OKR owners, time periods, and teams cannot be created or invited as part of the OKR import process. Attempting to add these via import will result in an error.
+

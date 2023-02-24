@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Edit an existing topic in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -122,6 +123,7 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
    ![Screenshot showing the Canvas icon.](../media/knowledge-management/webpart-library.png)
 
 11. Select **Publish** or **Republish** to save your changes. **Republish** will be your available option if the topic has been published previously.
+
 
 
 

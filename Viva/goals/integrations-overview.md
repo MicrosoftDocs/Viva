@@ -1,9 +1,10 @@
 ---
+ms.date: 04/12/2022
 title: Integrations overview
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -71,29 +72,21 @@ There are three ways to edit an integration:
 
 The following is a list of all the integrations currently available in Viva Goals:
 
-• [Amazon RedShift](/viva/goals/amazon-redshift-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Mode](/viva/goals/mode-integration)
 
-• [Asana](/viva/goals/asana-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Monday.com](/viva/goals/monday.com-integration)
+|Column1  |Column2  |Column3  |
+|---------|---------|---------|
+|[Azure Data Explorer ](azure-data-explorer-integration.md) |[Azure DevOps (ADO)](azure-devops-integration.md) |[Amazon RedShift](amazon-redshift-integration.md) |
+|[Asana](asana-integration.md) |[BigQuery](bigquery-integration.md) |[Box](box-integration.md) |
+|[Domo](domo-integration.md) |[Dynamics 365](dynamics-365-integration.md) |[Excel Online](excel-online-integration.md) |
+|[Favro](favro-generating-an-api-token.md) |[GitHub](github-integration.md) |[GitLab](gitlab-integration.md) |
+|[Google Sheets](gsheets-integration.md) |[Hubspot](hubspot-integration.md) |[Jira](jira-integration.md) |
+|[Looker](looker-integration.md) |[Microsoft Planner](microsoft-planner-integration.md) |[Mode](mode-integration.md) |
+|[monday.com](monday.com-integration.md) |[MS SQL Server](ms-sql-server-integration.md) |[MySQL](mysql-integration.md) |
+|[Planview Projectplace](planview-projectplace-integration.md) |[PostgreSQL](postgresql-integration.md) |[Power BI](power-bi-integration.md) |
+|[Salesforce](salesforce-integration.md) |[Slack](slack-collaborate-with-viva-goals.md) |[Smartsheet](smartsheet-integration.md) |
+|[Snowflake](snowflake-integration.md) |[Tableau](tableau-integration.md) |[Trello](trello-integration.md) |
+|[Zendesk](zendesk-integration.md) |   |   |
 
-• [Azure DevOps](/viva/goals/azure-devops-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [MS SQL Server](/viva/goals/ms-sql-server-integration)
-
-• [BigQuery](/viva/goals/bigquery-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [MySQL](/viva/goals/mysql-integration)
-
-• [Box](/viva/goals/box-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [MS Teams](/viva/goals/ms-teams-integration)
-
-• [Domo](/viva/goals/domo-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Planview Projectplace](/viva/goals/planview-projectplace-integration)
-
-• [Excel Online](/viva/goals/excel-online-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [PostgreSQL](/viva/goals/postgresql-integration)
-
-• [Favro](/viva/goals/favro-generating-an-api-token)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Salesforce](/viva/goals/salesforce-integration)
-
-• [GitHub](/viva/goals/github-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Smartsheet](/viva/goals/smartsheet-integration)
-
-• [GitLab](/viva/goals/gitlab-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Snowflake](/viva/goals/snowflake-integration)
-
-• [Hubspot](/viva/goals/hubspot-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Tableau](/viva/goals/tableau-integration)
-
-• [Jira](/viva/goals/jira-integration)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Trello](/viva/goals/trello-integration)
 
 ## How to disable an integration
 
@@ -101,3 +94,4 @@ To disable an integration, select **Manage**, and then select **Disable integrat
 
 > [!NOTE]
 > OKRs that currently use the connection will no longer be able to sync.
+

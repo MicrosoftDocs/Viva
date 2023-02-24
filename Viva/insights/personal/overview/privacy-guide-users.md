@@ -1,4 +1,5 @@
 ---
+ms.date: 09/16/2021
 title: Privacy guide for personal insights
 description: Overview of privacy features for personal insights, including info about data de-identification and privacy, minimum group size for reporting, admin settings, and users in sensitive roles
 author: madehmer
@@ -92,3 +93,4 @@ As is the case with the full Microsoft 365 suite, Viva Insights helps support co
 * **Requests to export, delete, or restrict processing personal data**. Microsoft supports user requests, such as requests for export of or deletion of data.
 
 For more information, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
+

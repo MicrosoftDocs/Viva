@@ -1,4 +1,5 @@
 ---
+ms.date: 02/14/2023
 title: Effective meetings in Viva Insights  
 description: Learn how to create effective meetings with Microsoft Viva Insights
 author: lilyolason
@@ -162,7 +163,7 @@ To opt in or out of getting feedback about your meetings, follow these steps:
 
 ### Privacy by design
 
-The meeting effectiveness surveys are only sent for scheduled meetings that have five or more participants (including the meeting organizer). We also check whether the attendees who get those surveys stay in the meetings for at least five minutes. To help mitigate survey fatigue in survey participants, 10% of qualified meetings get the surveys. Providing meeting feedback is optional for all participants.
+The meeting effectiveness surveys are only sent for scheduled meetings that have five or more participants (including the meeting organizer). We also check whether the attendees who get those surveys stay in the meetings for at least five minutes. To help mitigate survey fatigue in survey participants, 15% of qualified meetings get the surveys. Providing meeting feedback is optional for all participants.
 
 As the meeting organizer, you’ll only see aggregated results in Viva Insights. You won't see who sent what suggestions within the aggregated feedback.
 
@@ -173,3 +174,5 @@ To configure meeting effectiveness surveys for your organization at the user or 
 ## Related topics
 
 [Microsoft Viva Insights overview](viva-teams-app.md)
+[Book preparation time for meetings](../use/mya-notifications.md#book-time-to-prepare-for-meetings)
+

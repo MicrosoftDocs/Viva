@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Manage topic discovery in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -130,3 +131,4 @@ To exclude people from being suggested for topics by AI
 [Manage topic permissions in Microsoft 365](topic-experiences-user-permissions.md)
 
 [Change the name of the topic center in Microsoft 365](topic-experiences-administration.md)
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/22/2019
 title: CRM queries in Viva Insights 
 description: Describes how to use Query designer to analyze CRM data in Microsoft Viva Insights 
 author: madehmer
@@ -131,3 +132,4 @@ To do this, you can create a query as shown in the following graphic to analyze 
 * [CRM data sources](../Use/crm-data.md)
 * [Metric descriptions](../Use/Metric-definitions.md)
 * [View, download, and export query results](../Use/View-download-and-export-query-results.md)
+

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/22/2021
 title: FAQ for Viva Insights in Teams
 description: Personal insights FAQ for Microsoft Viva Insights in Teams
 author: madehmer
@@ -34,27 +35,21 @@ The following are the most frequently asked questions about personal insights wi
 
 ##### Q4. How can I send feedback to Microsoft about the Viva Insights app?
 
-**A4.** There are two ways to provide feedback through the Insights app:
+**A4.** In the bottom-right corner of each page, the Insights app asks, "Is this helpful?". Select **Yes** or **No** to provide feedback.  
 
-* At the bottom of every Insight is the question: "Is this helpful?" Select **Yes** or **No** to provide feedback.  
+:::image type="content" source="images/feedback.png" alt-text="Screenshot that shows the Protect your time section with the Is this helpful? question, with Yes and No links, highlighted in the bottom-right corner.":::
 
-   ![Is this helpful? Yes No.](Images/is-helpful.png)
+After you select **Yes** or **No**, a dialog box shows up. Use this share more feedback, and then select the **Submit** button. 
 
-* Every page in the Insights app has the question, "Is this helpful?" at the bottom-right corner. Select **Yes** or **No** to provide feedback.  
-
-   After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact** box if you'd like Microsoft to contact you to follow up on your feedback.
-
-   ![Thanks for the feedback.](Images/thanks-for-feedback-70-80.png)
+:::image type="content" source="images/feedback-more-info.png" alt-text="Screenshot that shows a text-input box for users to provide more feedback.":::
 
 ##### Q5. What data does the Viva Insights app use?
 
 **A5.** Viva Insights uses:
 
 * Information from email items:
-  * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status.
-  * Task statements. Statements that people have made in the body text of the email. These statements are used to create task cards for your use only.
-
-<!-- THIS 'TASK CARDS' LINK NEEDS TO GO HERE: [task cards](../WorkplaceAnalytics/personal/Use/MyA-Outlook-add-in/MyA-Add-in-To-do.md)  WHICH REPLACED [task cards](https://learn.microsoft.com/workplace-analytics/personal/use/mya-outlook-add-in/mya-add-in-to-do) -->
+  * Metadata, including the email's timestamp, names of sender and recipients, and "read" status.
+  * Task statements. Statements that people have made in the body text of the email. Viva Insights uses these statements to create task cards for your use only.
 
 * Information from calendar items:
   * Type (meeting or appointment)
@@ -67,12 +62,22 @@ The following are the most frequently asked questions about personal insights wi
 
 Insights does not use:  
 
-Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history.
+Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting are in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history.
 
-##### Q6. Why do I not see the insights and suggestions that are described in the documentation?
+##### Q6. Why don't I see the insights and suggestions I've read about in documentation?
 
-**A6.** To have access to the Viva Insights app, you will need an Exchange Online license.
+**A6.** To have access to the Viva Insights app, you'll need an Exchange Online license.
+
+##### Q7. How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?
+
+**A7.** We encourage all Viva Insights users to visit and register on the [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog). The community has:
+
+* Forums to connect with peers and discuss shared experiences.
+* Forums to contribute and receive support on common issues which are routinely reviewed by our team of experts.
+* Monthly blog posts to learn about new features and tools.
+* Spaces to share ideas and engage with the product development team.
 
 ## Related topics
 
 [Viva Insights introduction](viva-teams-app.md)
+

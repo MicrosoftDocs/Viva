@@ -1,5 +1,6 @@
 ---
 
+ms.date: 05/04/2018
 title: To create an auto-refresh query
 description: How to create an auto-refresh query in advanced insights
 author: madehmer
@@ -27,3 +28,4 @@ search.appverid:
 
 5. Select **Auto-refresh**.
 6. Select **Run**.
+

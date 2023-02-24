@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/06/2021
 title: Privacy settings and exclusions for Viva Insights
 description: Describes the privacy settings and exclusions in Viva Insights that administrators can set up and edit for your organization
 author: madehmer
@@ -137,3 +138,4 @@ Learn more about [Viva Insights privacy and data access](/viva/insights/privacy/
 
 * [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [System defaults](/viva/insights/use/system-defaults?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

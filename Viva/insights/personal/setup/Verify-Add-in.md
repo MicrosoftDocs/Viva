@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/19/2018
 title: Confirm the installation of the Viva Insights Outlook add-in
 description: Confirm that the Microsoft Viva Insights add-in for Outlook is installed
 author: madehmer
@@ -34,3 +35,4 @@ You can confirm that the Viva Insights Outlook add-in is installed by looking in
 
 3. In the Admin center preview, select **Menu** > **Settings**, and then select **Services & add-ins**.
 4. Confirm that **Microsoft Viva Insights** is listed.
+

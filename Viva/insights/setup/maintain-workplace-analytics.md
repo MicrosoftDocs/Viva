@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/16/2018
 title: Viva Insights maintenance
 description: Admin tasks for maintaining Microsoft Viva Insights data
 author: madehmer
@@ -85,3 +86,4 @@ After you have installed and set up Microsoft Viva Insights, it will require mai
 ## Related topics
 
 [Settings](/viva/insights/use/settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

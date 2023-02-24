@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/26/2018
 title: Viva Insights Individual Adoption --Diagnose 
 description: Diagnose an issue to improve with Viva Insights
 author: lilyolason
@@ -113,3 +114,4 @@ After you analyze your collaboration issue both qualitatively and quantitatively
 * Spend more time with the people in my network who are aligned with my top priorities.
 
 After you have your objective, it's time to convert it into a measurable goal using a Viva Insights metric. See [Set your goal](../MyA-Adoption/Indiv-adopt-set-goals.md).
+

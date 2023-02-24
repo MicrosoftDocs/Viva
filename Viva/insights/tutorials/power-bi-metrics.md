@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 03/22/2021
 title: Power BI Connector base metrics 
 description: Describes the metrics for Viva Insights that you can import into Power BI through the Power BI Connector 
 author: madehmer
@@ -118,3 +119,4 @@ The following base metrics are imported from the advanced insights app for Viva 
 |WorkingHoursCollaborationEmails |Working hours email hours |Number of hours the person spent sending email during working hours. |Hour |
 |WorkingHoursCollaborationInstantMessages |Working hours instant messages |Total number of hours a person spent time in instant messages through Teams, during working hours. |Hour |
 |WorkingHoursCollaborationMeetings |Meeting hours during working hours |Number of hours the person spent in meetings, during working hours, with at least one other person. |Hour |
+

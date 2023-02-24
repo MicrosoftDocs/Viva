@@ -1,9 +1,10 @@
 ---
+ms.date: 04/05/2022
 title: "Roles and permissions in Viva Goals"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -217,17 +218,17 @@ An observer is entitled to the following privileges:
 
 - **See all OKRs:** This privilege enables an observer to be aware of, and aligned to, organization, teams, and user priorities, progress, and updates. 
 - **Follow progress:** This privilege enables an observer to receive updates for relevant OKRs. 
-- **Like and comment:** This privilege enables an observer to like and comment on OKRs, check in, and offer activity feed updates. 
+- **Like and comment:** This privilege enables an observer to like and comment on OKRs, and offer activity feed updates. 
 
 ### Adding users as an observer
 
 You can set a default user type for new users from **Admin Dashboard** > **Settings**.
 
-![image showing how to add new users as observers](../media/goals/2/26/d.jpg)
+:::image type="content" alt-text="This image shows how to add new users as observers." source="../media/goals/2/26/d.jpg" lightbox="../media/goals/2/26/d.jpg":::
 
 If the value is set to **Observer**, users will be set as user type as **Observer** when they're added to an organization. Team members can choose between observer and regular user privileges when they invite a new user. 
 
-![Screenshot of dialog box where you add users.](../media/goals/2/26/e.jpg)
+:::image type="content" alt-text="This screenshot shows the dialog box where team members add users." source="../media/goals/2/26/e.jpg" lightbox="../media/goals/2/26/e.jpg":::
 
 ### Identifying an observer
 
@@ -235,13 +236,13 @@ If the users have an **Observer** tag next to their name, they're an observer.
 
 If you're an administrator, you can also look at user type from **Admin Dashboard** > **Users** > **User Type** column, as depicted in the following image:
 
-![Screenshot of identifying observers to invite in the users list.](../media/goals/2/26/f.jpg)
+:::image type="content" alt-text="This screenshot shows identified observers to invite to the users list." source="../media/goals/2/26/f.jpg" lightbox="../media/goals/2/26/f.jpg":::
 
 ### Changing account type of users
 
 Administrators can change the user type from **Observer** to **Regular** and from **Regular** to **Observer** through **Admin Dashboard** > **Users** tab > user listing > three-dot menu, as shown in the following image:
 
-![Screenshot showing where to change user account types from the action menu.](../media/goals/2/26/g.jpg)
+:::image type="content" alt-text="This screenshot shows where to change user account types from the action menu." source="../media/goals/2/26/g.jpg":::
 
 Alternatively, an observer can be changed into a regular user type when a regular user who owns an OKR assigns that OKR to an observer. During this process, the regular user will get an option to change the observer into a regular user.
 
@@ -251,3 +252,4 @@ Alternatively, an observer can be changed into a regular user type when a regula
 ### Invite other users as observers
 
 An observer can invite others as observers if the Invite Policy in **Admin** > **Settings** is set to **Anyone in the organization**.
+

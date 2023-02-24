@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Metric rules in Viva Insights
 description: Learn about metric rules in Microsoft Viva Insights 
 author: lilyolason
@@ -43,10 +44,10 @@ The app's metric rules:
     * If the duration of the meeting is 24 hours or more.
     * If the meeting is canceled.
     * If the user is not the meeting organizer, and if their response to a meeting invite is anything other than "Accept."
-    * If there are less than two participants.
+    * If there are fewer than two participants.
     * If the event is set to show as anything other than "Busy" on participant's calendars.
 
-![Meeting exclusions rule](/viva/insights/advanced/images/meeting-exclusions-rule1.png)
+:::image type="content" source="../images/meeting-exclusions-rule1.png" alt-text="Screenshot that shows the Metric rules page with Meeting exclusions listed." lightbox="../images/meeting-exclusions-rule1.png":::
 
 ### Rule exceptions
 
@@ -55,3 +56,4 @@ The app's metric rules:
 * **Available-to-focus hours**
 * **Conflicting meeting hours**
 * **Working-hours meeting hours**
+

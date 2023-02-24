@@ -1,4 +1,5 @@
 ---
+ms.date: 07/04/2022
 title: Share OKR updates in chats
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -50,3 +51,4 @@ Follow these steps to insert an OKR/project in your textbox:
 7. Add/edit any text you'd like to share for more context, along with the OKR/project’s progress, and then select **Send**.
 
    :::image type="content" source="../media/goals/5/okrp-card-with-text-message.png" alt-text="Screenshot that shows the OKR/Project card with a text message." lightbox="../media/goals/5/okrp-card-with-text-message.png":::
+
