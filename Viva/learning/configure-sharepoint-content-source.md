@@ -141,7 +141,7 @@ You can add links to both internal content from SharePoint and external content 
 >When users access the content from Viva Learning, they'll be taken to the URL of the content in their browser.
 
 > [!NOTE]
-> You need a Viva Suite or Viva Learning license to access linked objects in Viva Learning. Without a license, you can discover  linked objects in Viva Learning, but cannot consume them.
+> You need a Viva Suite or Viva Learning license to access linked objects in Viva Learning. Without a license, you can discover  linked objects in Viva Learning, but can't consume them.
 
 1. In your folder, select **New** and then choose **Link**.
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 02/20/2023
 title: Ways of working report
 description: Learn how the Ways of working PowerBI template from Microsoft Viva Insights helps you explore collaboration, meeting, wellbeing, and coaching patterns.
 author: lilyolason
@@ -17,34 +17,23 @@ audience: Admin
 
 # Ways of working report
 
-The **Ways of working report** uses a template populated by Viva Insights data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. It’s designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvement.
-The different pages in the report help you answer the following related business questions:
+The **Ways of working** report uses a template populated by Viva Insights data to conduct a broad diagnostic of a company’s collaboration patterns, meeting effectiveness, wellbeing, and coaching to uncover areas for improvement. The categories and pages in the report help you answer these business questions: 
 
-* Collaboration culture:
-    * How does collaboration load impact after-hours?
-    * How much time do people spend in different collaboration channels?
+* **Understand collaboration patterns**
+    * How much time do employees spend using digital collaboration tools?
+    * How much time do people spend in different collaboration modes?
+* **Make meetings effective** 
     * How does the organization spend its meeting time?
-    * How much time is going toward long or large meetings?
-    * Who in the organization generates the most workload by organizing meetings?
-    * Can employees reclaim focus time through “compact” scheduling practices?
-    * Is multitasking during meetings driven by habit or by necessity?
-    * Which recurring meetings might present streamlining opportunities?
-    * Are there opportunities to drive greater agility in emailing practices?
+    * How much time is going towards recurring meetings?
+    * Is multitasking driven by habit or necessity?
+* **Improve wellbeing** 
+    * Are employees getting enough time to work on their core priorities? 
 
-* Employee experience:
-    * When does collaboration start impacting after-hours workload?
-    * Who in the organization is at highest risk of burnout?
-    * Is manager double-booking creating potential ripple effects across the company?
-    * Are employees receiving sufficient 1:1 coaching time?
-    * Are managers balancing oversight with employee empowerment and autonomy?
-    * What managerial behaviors predominate across the company and by organization?
+* **Encourage coaching and development** 
+    * Are employees receiving sufficient manager 1:1 coaching time??
+    * Are managers balancing oversight with employee autonomy? 
 
-Each report includes **What to examine** and **Why it matters** interpretations. These interpretations explain how to: 
-
-* Analyze the report’s data to answer the business questions listed earlier.
-* Use best practices to maintain or improve company collaboration patterns and employee experience.
-
-To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Ways of working** query in Viva Insights.
+To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Ways of working** query in Viva Insights. 
 
 ## Demonstration
 
@@ -123,14 +112,14 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 12. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data, which can take a few minutes to complete for large files.
 
 >[!Important]
-> You must sign in to Power BI with the same account you use to access Viva Insights.
+> You need to sign in to Power BI with the same account you use to access Viva Insights.
 
 ## Report settings
 
-After the **Ways of working** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. Then, view and set the following parameters on the **Settings** page.
+After the **Ways of working** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. Then, view and set the following parameters on the **Settings** page:
 
 * **Select the time period for the report** – Select the time period for which you want to view data in the report.  
-* **Select an attribute to group data by** – Select the primary group-by attribute shown in all the reports. You can change this attribute at any time and all report pages will show group values by the new attribute.
+* **Select an attribute to group data by** – Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all report pages will show group values by the new attribute.
 * **Select optional report filter** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who’ve sent at least one email or Teams chat during a work week included in the current time period.
 * **Exclusions** – Use the check boxes to:
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
@@ -142,81 +131,102 @@ After confirming the settings, check the number of measured employees to confirm
 
 ## About this report
 
-The **Ways of working** report includes the following report pages that help you assess your company's collaboration culture and employee experience.
+To help you assess your company's collaboration culture and employee experience, the **Ways of working** report includes the following categories and  report pages:
 
-### Collaboration culture
+|Category| Page|
+|-----|-----|
+|**Understand collaboration patterns**|[Collaboration baseline and after-hours collaboration](#collaboration-baseline-and-after-hours-collaboration)|
+| | [Collaboration modes](#collaboration-modes)
+|**Make meetings effective** | [Long or large meetings](#long-or-large-meetings)
+| |[Recurring meeting hours](#recurring-meeting-hours)
+||[Multitasking prevalence](#multitasking-prevalence)
+|**Improve wellbeing** | [Uninterrupted focus hours](#uninterrupted-focus-hours) 
+|**Encourage coaching and development**|[Manager coaching time](#manager-coaching-time)
+||[Empower your workforce](#empower-your-workforce)
 
-#### Collaboration and after-hours
+Let's discuss in more detail.
 
-This page shows the average weekly collaboration hours for each person by organization as compared to after-hours collaboration and the percentage of a standard 40-hour workweek spent in collaboration. This information highlights how collaboration load is impacting after-hours work.
+### Understand collaboration patterns 
+
+#### Collaboration baseline and after-hours collaboration
+
+**How much time do employees spend using digital collaboration tools?**
+
+Compare the average weekly collaboration hours for each person, by group, to after-hours collaboration. This information highlights how collaboration load is impacting after-hours work.
 
 #### Collaboration modes
 
-This page shows the average weekly hours spent in meetings, email, chats, and unscheduled calls for each person by organization as compared to after-hours activity. Understanding differences between how teams get work done can uncover both replicable best practices and areas of opportunity.
+**How much time do people spend in different collaboration modes?** 
 
-#### Meeting culture
+Explore, by group, the average number of hours per week that people are spending in:
 
-This page shows the percentage of time spent in the different meeting types by attendees and duration, highlighting how the organization spends its meeting time. Large or long recurring meetings are easy candidates to streamline by reducing the number of attendees or the meeting frequency or duration.
+* Meetings.
+* Email.
+* Teams chats.
+* Teams unscheduled calls.
+
+Toggle between total collaboration or after-hours collaboration. Understanding differences between how teams get work done can uncover both replicable best practices and areas of opportunity.
+
+### Make meetings effective
 
 #### Long or large meetings
 
-This page shows the percentage of meeting time spent in large or long meetings by organization. Analyzing meeting practices at the organizational level can help pinpoint sources of meeting overload to streamline or those organizations with successful meeting best practices that could be replicated across the company.
+**How does the organization spend its meeting time?** 
 
-#### Generated workload
+Discover how your organization spends its meeting time. On this page, view the percentage of time spent in the different meeting types by the number of invitees, including the meeting organizer, and duration. 
 
-This page shows the distribution of employees by the number of meeting hours each employee generated by organizing meetings. This information highlights who in the organization is generating the most workload by organizing meetings.
+Analyzing meeting practices at the organizational level can help pinpoint sources of meeting overload, which you can then work to streamline. You might also identify groups with successful meeting practices the rest of the company could adopt.
 
-#### Fragmentation
+#### Recurring meeting hours
 
-This page shows fragmented hours as compared to the number of meetings that employees attend weekly. This information can help you guide employees to reclaim important focus time through compact meeting scheduling practices.
+**How much time is going towards recurring meetings?** 
 
-#### Multitasking
+Understand the time your organization spends in recurring meetings. We've broken out average time by meeting categories, like **Large and short meetings** and **Small and long meetings**. Large or long recurring meetings are easy candidates to streamline by reducing the number of invitees or the meeting frequency or duration.
 
-This page shows the distribution of employees by their average collaboration hours and average multitasking rate. This analysis helps determine whether multitasking rates during meetings are a function of habit or a consequence of lacking enough free time during the workday to catch up on email outside of meetings.
+#### Multitasking prevalence
 
-#### Meeting engagement
+**Is multitasking driven by habit or necessity?** 
 
-This page shows recurring meetings by meeting impact and meeting engagement and lists the top 20 low-engagement recurring meetings. This information highlights which recurring meetings are good candidates to streamline by reducing the number of attendees or the meeting cadence or duration.
+View the distribution of employees by their average collaboration hours and average multitasking rate—that is, the percentage of meetings and Teams calls hours where they’ve multitasked. This analysis helps determine whether multitasking during meetings is because of habit or because people don't have enough free time during the workday to catch up on email outside of meetings. 
 
-#### Email load
+### Improve wellbeing 
 
-This page shows the distribution of emails sent based on the number of recipients of each email; it also shows the percentages of these email categories sent by employees in each organization. This information can help your organization drive greater agility in emailing practices.
+#### Uninterrupted focus hours 
 
-### Employee experience
+**Are employees getting enough time to work on their core priorities?**
 
-#### After-hours pressure
+Find out how much time people have to work independently by viewing:
 
-This page shows the average number of after-hours collaboration hours per week as a function of total time spent on collaboration and highlights if and when weekly collaboration starts impacting after-hours workload.
+* Average available-to-focus hours—that is, time without any scheduled meetings during working hours.
+* Uninterrupted hours—that is, time without any scheduled meetings during working hours not interrupted by email, Teams chats, or Teams calls.
 
-#### Burnout risk
+### Encourage coaching and development
 
-This page shows the distribution of employees by collaboration hours and workweek span, which helps you identify who in the organization is at highest risk of burnout.
+#### Manager coaching time
 
-#### Double-booking
+**Are employees receiving sufficient manager 1:1 coaching time?** 
 
-This page shows the distribution of managers by meeting hours and the percentage of double-booked manager time in meetings. This information highlights how double-booked meetings have downstream impacts that hinder organizational agility.
+Learn whether employees are getting enough 1:1 manager coaching. This page shows the distribution of employees by how much weekly 1:1 time they get with their managers. 
 
->[!Important]
->To filter for manager data only, you need to select all manager groups in the **SupervisorIndicator** field in the upper-right of the page.
+#### Empower your workforce
 
-#### Manager 1:1 time & frequency
+**Are managers balancing oversight with employee autonomy?** 
 
-This page shows the distribution of employees by how much weekly 1:1 time they get with their managers and the frequency of these meetings. This information highlights whether employees are getting enough 1:1 manager coaching.
+View the distribution of employees attending the same meetings as their managers, along with their average weekly 1:1 meeting time with their managers. This information is compared across the company. 
 
-#### Co-attendance
+Use this page to analyze different segments of manager behaviors (**Co-attending**, **Highly managed**, **Under-coached**, and **Coaching**) based on their rates of attending the same meeting as their reports and their 1:1 meeting time.
 
-This page shows the percentage of employees who spend more than 30 percent of their meeting time in meetings where their manager is also present. This information highlights whether managers are balancing oversight with employee empowerment and autonomy. However, it’s important to account for any expectations and norms unique to your company when analyzing the data across the different groups.
+### Behavioral trends
 
->[!Important]
->To filter for manager data only, you need select all manager groups in the **SupervisorIndicator** field in the upper-right of the page.
+Understand trends for key leading indicator metrics.
 
-#### Manager relationship
+### Take action
 
-This page shows the distribution of employees attending the same meetings as their managers and their average weekly 1:1 meeting time with their managers, which is compared across the company. It also analyzes different segments of manager behaviors based on their rates of attending the same meeting as their employees and their 1:1 meeting time.
+Find opportunity areas for your organization. This page includes best practices, recommendations, and links to related articles about ways to help your managers improve in each area.
 
-#### Glossary
+### Glossary
 
-The report also includes a **Glossary** page that describes all the report metrics.
+View all report metrics.
 
 ## Power BI tips, FAQs, and troubleshooting
 
