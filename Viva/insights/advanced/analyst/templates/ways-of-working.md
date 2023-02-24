@@ -119,7 +119,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 After the **Ways of working** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. Then, view and set the following parameters on the **Settings** page:
 
 * **Select the time period for the report** – Select the time period for which you want to view data in the report.  
-* **Select an attribute to group data by** – Select the primary group-by attribute shown in all the reports. You can change this attribute at any time and all report pages will show group values by the new attribute.
+* **Select an attribute to group data by** – Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all report pages will show group values by the new attribute.
 * **Select optional report filter** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who’ve sent at least one email or Teams chat during a work week included in the current time period.
 * **Exclusions** – Use the check boxes to:
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
@@ -131,27 +131,34 @@ After confirming the settings, check the number of measured employees to confirm
 
 ## About this report
 
-The **Ways of working** report includes the following report pages that help you assess your company's collaboration culture and employee experience. 
+To help you assess your company's collaboration culture and employee experience, the **Ways of working** report includes the following categories and  report pages:
+
+|Category| Page|
+|-----|-----|
+|**Understand collaboration patterns**|[Collaboration baseline and after-hours collaboration](#collaboration-baseline-and-after-hours-collaboration)|
+| | [Collaboration modes](#collaboration-modes)
+|**Make meetings effective** | [Long or large meetings](#long-or-large-meetings)
+| |[Recurring meeting hours](#recurring-meeting-hours)
+||[Multitasking prevalence](#multitasking-prevalence)
+|**Improve wellbeing** | [Uninterrupted focus hours](#uninterrupted-focus-hours) 
+|**Encourage coaching and development**|[Manager coaching time](#manager-coaching-time)
+||[Empower your workforce](#empower-your-workforce)
+
+Let's discuss in more detail.
 
 ### Understand collaboration patterns 
 
-<!--#### Collaboration baseline and after-hours collaboration
+#### Collaboration baseline and after-hours collaboration
 
-*How much time are employees spending using digital collaboration tools?* 
+**How much time do employees spend using digital collaboration tools?**
 
-This page compares the average weekly collaboration hours for each person by group to after-hours collaboration. This information highlights how collaboration load is impacting after-hours work.-->
-
-|Page name|Business question| Page function|
-|----|----------|---------------|
-|Collaboration baseline and after-hours collaboration |*How much time are employees spending using digital collaboration tools?*| Compares the average weekly collaboration hours for each person by group to after-hours collaboration. This information highlights how collaboration load is impacting after-hours work.
-|Collaboration modes |How much time are people spending in different collaboration modes? |This page displays, by group, the average number of hours per week that people are spending in:<ul><li>Meetings.<li>Email.<li>Teams chats.<li>Teams unscheduled calls.
-
+This page compares the average weekly collaboration hours for each person by group to after-hours collaboration. This information highlights how collaboration load is impacting after-hours work.
 
 #### Collaboration modes
 
-**How much time are people spending in different collaboration modes?** 
+**How much time do people spend in different collaboration modes?** 
 
-This page displays, by group, the average number of hours per week that people are spending in:
+Use this page to discover, by group, the average number of hours per week that people are spending in:
 
 * Meetings.
 * Email.
@@ -164,19 +171,21 @@ Toggle between total collaboration or after-hours collaboration. Understanding d
 
 #### Long or large meetings
 
-**How is the organization spending its meeting time?** 
+**How does the organization spend its meeting time?** 
 
-This page shows the percentage of time spent in the different meeting types by the number of invitees, including the meeting organizer, and duration, highlighting how the organization spends its meeting time. Analyzing meeting practices at the organizational level can help pinpoint sources of meeting overload to streamline or those groups with successful meeting best practices that could be replicated across the company.
+This page highlights how your organization spends its meeting time. View the percentage of time spent in the different meeting types by the number of invitees, including the meeting organizer, and duration. 
+
+Analyzing meeting practices at the organizational level can help pinpoint sources of meeting overload, which you can then work to streamline. You might also identify groups with successful meeting practices the rest of the company could adopt.
 
 #### Recurring meeting hours
 
-**How much time is the organization spending in recurring meetings?** 
+**How much time is going towards recurring meetings?** 
 
-This page shows the time spent in recurring meetings, by meeting categories. Large or long recurring meetings are easy candidates to streamline by reducing the number of invitees or the meeting frequency or duration.
+Understand the time your organization spends in recurring meetings. We've broken out average time by meeting categories, like **Large and short meetings** and **Small and long meetings**. Large or long recurring meetings are easy candidates to streamline by reducing the number of invitees or the meeting frequency or duration.
 
-#### Multitasking
+#### Multitasking prevalence
 
-**Does habit or necessity drive multitasking?** 
+**Is multitasking driven by habit or necessity?** 
 
 This page shows the distribution of employees by their average collaboration hours and average multitasking rate—the percentage of meetings and Teams calls hours where they’ve multitasked. This analysis helps determine whether multitasking rates during meetings are a function of habit or a consequence of lacking enough free time during the workday to catch up on email outside of meetings. 
 
@@ -190,13 +199,13 @@ This page shows the average available-to-focus hours—time without any schedule
 
 ### Encourage coaching and development
 
-#### Manager 1:1 time & frequency
+#### Manager coaching time
 
-**Are employees getting enough 1:1 coaching time with their managers?** 
+**Are employees receiving sufficient manager 1:1 coaching time?** 
 
 This page shows the distribution of employees by how much weekly 1:1 time they get with their managers. This information highlights whether employees are getting enough 1:1 manager coaching.
 
-### Empower your workforce
+#### Empower your workforce
 
 **Are managers balancing oversight with employee autonomy?** 
 
