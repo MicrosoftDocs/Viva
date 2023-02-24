@@ -43,7 +43,7 @@ We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](http
 
 1. In **Advanced Settings**, change **Key Material** to **RSA**.
 
-   ![Image of Advanced Settings with Key Material selected as RSA in Kleopatra tool](../media/learning/sfsf-kleopatra-3.png)
+   ![Image of Advanced Settings with Key Material selected as RSA in Kleopatra tool.](../media/learning/sfsf-kleopatra-3.png)
 
 1. Select OK to generate your key pair.
 
