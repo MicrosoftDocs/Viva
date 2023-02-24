@@ -45,7 +45,7 @@ We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](http
 
    ![Image of Advanced Settings with Key Material selected as RSA in Kleopatra tool.](../media/learning/sfsf-kleopatra-3.png)
 
-1. Select OK to generate your key pair.
+1. Select **OK** to generate your key pair.
 
 1. Enter a passphrase for your key pair and note this for future reference in the Microsoft 365 admin center.
 
