@@ -31,7 +31,7 @@ We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](http
 
 ### PGP key generation instructions for Windows
 
-1. Download the Kleopatra tool from [Gpg4win](https://gpg4win.org)
+1. Download the Kleopatra tool from [Gpg4win](https://gpg4win.org).
 
 1. Open Kleopatra. Navigate to **Certificates** > **New Key Pair**.
 
