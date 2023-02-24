@@ -83,7 +83,7 @@ You've now successfully generated and saved your public and private key pair.
    ![Image of System Configuration meny with option section in PARTNER_EXTRACT.](../media/learning/sfsf-system-config-partner-extract.png)
 
 1. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you'll need **Edit System Configuration** workflow permission in SuccessFactors.
-![Image of SAP SuccessFactors Learning System Configuration screen with partner extract field highlighted](../media/learning/SFSF-system-config-highlighted-1.png)   
+![Image of SAP SuccessFactors Learning System Configuration screen with partner extract field highlighted.](../media/learning/SFSF-system-config-highlighted-1.png)   
 - You'll need to edit the following fields: 
    - **#customer notification email for all job status** </br></br>
              **defaultJob.email=**
