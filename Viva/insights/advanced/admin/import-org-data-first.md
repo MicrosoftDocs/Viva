@@ -34,6 +34,8 @@ This article talks about the third option: importing data. To import data from a
 
 After the data successfully validates and processes, the overall data-import task is complete.
 
+:::image type="content" source="../images/org-data-import.png" alt-text="org data import flowchart" lightbox="../images/org-data-import.png":::
+
 ## Setup
 
 ### Generate the security certificate
