@@ -53,7 +53,7 @@ We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](http
 
 1. Navigate to **File** > **Backup Secret Key**. Save your secret key locally for future reference.
 
-   ![Image of file menu with Backup Secret Keys option selected](../media/learning/sfsf-kleopatra-5.png)
+   ![Image of file menu with Backup Secret Keys option selected.](../media/learning/sfsf-kleopatra-5.png)
 
 1. Navigate to **File** > **Export**. Save your public key file locally for future reference.
 
