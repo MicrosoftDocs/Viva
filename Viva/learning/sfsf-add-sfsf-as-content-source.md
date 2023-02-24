@@ -26,7 +26,7 @@ This article shows you how to configure SAP SuccessFactors as a third-party cont
 
 ## Create your PGP pair key to enable integration
 
-Use a PGP tool to generate a PGP key (public key, private key, private key passphrase) in order to enable this integration. 
+Use a PGP tool to generate a PGP key (public key, private key, private key passphrase) to enable this integration. 
 We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](https://www.gpg4win.org/). Ensure you're following the guidelines on [GNU Privacy Guard](https://gnupg.org/)
 
 ### PGP key generation instructions for Windows
