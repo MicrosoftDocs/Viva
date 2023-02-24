@@ -49,7 +49,7 @@ We recommend using the Kleopatra tool, which can be downloaded at [Gpg4win](http
 
 1. Enter a passphrase for your key pair and note this for future reference in the Microsoft 365 admin center.
 
-   ![Image of prompt to enter passphrase to protect your new key in Kleopatra](../media/learning/sfsf-kleopatra-4.png)
+   ![Image of prompt to enter passphrase to protect your new key in Kleopatra.](../media/learning/sfsf-kleopatra-4.png)
 
 1. Navigate to **File** > **Backup Secret Key**. Save your secret key locally for future reference.
 
