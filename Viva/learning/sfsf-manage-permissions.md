@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/16/2022
+ms.date: 02/26/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -14,7 +14,7 @@ ms.collection:
     - enabler-strategic
     - m365initiative-viva-learning
 localization_priority: medium
-description: Configure SAP SuccessFactors permissions.
+description: Configure SAP SuccessFactors permissions for Viva Learning integration.
 ---
 
 # Manage permissions for SAP SuccessFactors
