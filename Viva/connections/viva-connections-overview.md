@@ -124,62 +124,64 @@ Discover [more card options from third-party services](https://cloudpartners.tra
 
 ### Viva Connections feed
 
-![Image showing content in the Feed.](../media/connections/viva-connections-feed-webpart.png) 
+In the Viva Connections app, users will see a personalized feed with relevant information from across their organization. 
 
-In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s News boost and Yammer’s "Featured" options. The Feed requires usage of modern SharePoint or Yammer communities, but the best experience is delivered when both are used together.
+![Screenshot of the feed in desktop and mobile.](../media/connections/feed-desktop-mobile.png) 
+
+The feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using [SharePoint’s news boost feature](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) and Viva Engage's (formerly called Yammer) "Featured" options. The feed requires usage of modern SharePoint or Yammer communities, but the best experience is delivered when both are used together.
 
 #### Feed content sources
 Individual content items in the Feed will display for a 30-day period. Users will see content aggregated from the following sources, provided they have permissions to access the content from that source:
 - **SharePoint news**
-    - News posts on the home site
-    - News posts on organization news sites
-    - News posts on communication and teams sites
-- **Yammer Community Posts** 
-    - Posts to the organization community
+    - News posts from the home site
+    - News posts from organization news sites
+    - News posts from communication and teams sites
+- **Viva Engage Community Posts** 
+    - Posts to the organization's community
     - Featured posts
     - Posts to communities that the user follows
 - **Stream (built on SharePoint)**
-    - [Video news links](/sharepoint/video-news-links) on organization news sites
-    - Video in a news post
+    - [Video news links](video-news-links.md) on organization news sites
+    - Video in a SharePoint news post
 
 #### Feed resources
 
-[Frequently asked questions about the Feed](/viva/connections/faqs-viva-connections-feed)
+[Frequently asked questions about the feed](faqs-viva-connections-feed.md)
 
-Prioritize SharePoint news posts in the Feed by [using News Boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)
+Prioritize SharePoint news posts in the Feed by [using SharePoint news boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)
 
-Use the [Feed web part for Viva Connections](/viva/connections/use-feed-web-part-for-viva-connections)
+Use the [Feed web part for Viva Connections on SharePoint sites](use-feed-web-part-for-viva-connections.md)
 
 
-### Viva Connections Resources
+### Viva Connections resources
 
-![Image of the resources on a desktop device.](../media/connections/vc-resources.png)
+Resources are the navigational links that are set up and customized from the Teams app, or in the [SharePoint global navigation](sharepoint-app-bar.md) for organizations with a [SharePoint home site]home-site-plan.md). These resources will be displayed on both the desktop and mobile instances of Viva Connections. Resources include customized navigational links and dynamically generated links to frequent and followed SharePoint sites.
 
-Resources are the navigational links that are set up and customized in the [SharePoint app bar](sharepoint-app-bar.md) from the home site. These resources will get displayed on both the desktop and mobile instances of Viva Connections. 
+![Screenshot of the resources section on desktop and mobile devices.](../media/connections/resources-desktop-mobile.png)
 
 In the mobile app, users can view resources by selecting the **Resources** tab. This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more—right from their mobile devices.
 
 
 
-
 ## Viva Connections mobile and desktop experiences
-On desktop, Viva Connections surfaces your own [home site](/viva/connections/home-site-plan) as a branded app in Teams, combining the power of your intelligent SharePoint intranet with chat and collaboration tools that Teams provides.
+Both desktop and mobile experiences are centered around the three main components – the dashboard, feed, and resources. The desktop app features all three components at-a-glance, and the mobile view uses tabs to make it easier to scroll through content.
 <br>
 <br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4THB8]
+![Screenshot of the Viva Connections desktop experience.](../media/connections/vc-full.png)
 
 **Key capabilities of the desktop experience:**
-- **Global navigation and way finding**: The desktop experience provides employees the ability to navigate to important resources using the global navigation curated by your organization, the important sites your organization frequently engages with, and with organizational news. This navigation panel appears when users select the branded app icon in Teams, and surfaces elements shared with the [SharePoint app bar](sharepoint-app-bar.md).
-- **Navigate intranet resources within Teams**: Users can consume your organization’s intranet experiences without leaving Teams.
-- **Search for intranet content**: On the home page, users can search for intranet content directly from the Teams search bar.
-- **Share intranet content**: Intranet content consumed within Teams can be easily shared into chats or channels, making collaboration on content easier.
-- **Dashboard**: The Dashboard that appears in the mobile app can also be added to your home site as a web part, so that users have the same tools available on the home site in Teams.
-- **Feed**: The Feed that is available in the mobile app is also available as a web part for your home site; thus, users can stay up to date with news, conversations, and videos while they’re on the desktop.
+- **Home for the Viva suite:** The new desktop experience of the connections app plays the role of the home for the suite. It offers easy discovery and navigation to all the Viva modules that the employee is licensed for, bringing together the connection, insight, growth, and purpose pillars of Microsoft Viva.
+- Navigation between other Viva experiences: Navigational elements located in the top-right and top-left corners, navigational elements help viewers easily get to-and-from other landing pages and [other Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0). 
+- **Global navigation and way finding:** The desktop experience provides employees the ability to navigate to important resources using the global navigation curated by your organization, the important sites your organization frequently engages with, and with organizational news. This navigation panel appears when users select the branded app icon in Teams, and surfaces elements shared with the [SharePoint global navigation](sharepoint-app-bar.md).
+- **Access specific tools based on roles:** Throughout the Viva Connections experience, [content can be targeted to specific audiences](use-audience-targeting-in-viva-connections.md) to ensure they have the right tools at the right time.
+- **Stay updated on news personalized to the viewer:** Users can stay up to date with news, conversations, and videos in a curated news stream based on the sites and communities that they follow.
+- **Easily share content:** Content consumed within Teams can be easily shared into chats or channels, making collaboration easier.
+
 
 
 #### The Viva Connections mobile experience
-The experience in the Viva Connections mobile app is anchored around three key concepts: the Dashboard, the Feed, and Resources.
+The experience in the Viva Connections mobile app is anchored around three key concepts: the dashboard, the feed, and resources.
 <br>
 <br>
 
@@ -187,13 +189,15 @@ The experience in the Viva Connections mobile app is anchored around three key c
 
 
 ## Curated and tailored experiences
-Viva Connections gives you and your content creators the tools for both curated and tailored experiences.
-A curated experience is one in which the user sees content chosen by a site owner or author. For example, a site owner controls the content used on the site and whether the content is audience targeted audience targeting is accomplished using Azure Active Directory (AAD) groups for card-level targeting in the Dashboard and menu-item targeting in the global navigation.
-A tailored experience is one in which content is automatically displayed according to what is most relevant to the users. This content might include content from the sites they follow, their Yammer group memberships, popular content, and more. An example of tailored content is the Feed.
-- **Home site (curated)**: A site owner controls the layout of the home site, the elements used on that site, and targeting of content to specific audiences.
-- **Dashboard (curated)**: A Dashboard author controls the curation of the Dashboard and can target each card on the Dashboard to specific audiences using existing AAD groups. These provisions allow Dashboard authors to create different experiences for each group. And because Viva Connection uses AAD groups, authors benefit from dynamic group memberships to reduce administrative overhead. Authors can easily preview what the Dashboard will look like across devices and audiences.
-- **Feed (tailored)**: The Viva Connections Feed uses its own heuristics to tailor the Feed for an employee by bringing in the most relevant content for that employee. It utilizes signals in the content created across the organization. Some of the signals used are Yammer group memberships, sites where news is posted, content popularity, and the intended audiences for a post. The Feed also supports promotional capabilities such as [news boosting](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
-- **Resources (curated)**: The list of sites on the Resources experience in mobile includes the global navigation defined at the organization level. The global navigation supports AAD groups for targeting so that employees in different groups will see relevant navigation items. 
+Viva Connections gives you and your content creators the tools for both curated and tailored experiences. A curated experience is one in which the user sees content chosen by a site owner or author. For example, a site owner controls the content used on the site and whether the content is audience targeted. [Audience targeting](use-audience-targeting-in-viva-connections.md) is accomplished using Azure Active Directory (AAD) groups for card-level targeting in the dashboard and menu-item targeting in the global navigation. 
+
+A tailored experience is one in which content is automatically displayed according to what is most relevant to the users. This content might include content from the sites they follow, their Yammer group memberships, popular content, and more. An example of tailored content is the feed.
+
+
+- **Home site (optional, curated)**: A home site is not required for Viva Connections, but can be used as a secondary landing destination for organizational content and news. A site owner controls the layout of the home site, the elements used on that site, and targeting of content to specific audiences.
+- **Dashboard (curated)**: A dashboard author controls the curation of the dashboard and can target each card on the dashboard to specific audiences using existing AAD groups. These provisions allow dashboard authors to create different experiences for each group. And because Viva Connection uses AAD groups, authors benefit from dynamic group memberships to reduce administrative overhead. Authors can easily preview what the dashboard will look like across devices and audiences.
+- **Feed (tailored)**: The Viva Connections feed uses its own heuristics to tailor the feed for an employee by bringing in the most relevant content for that employee. It utilizes signals in the content created across the organization. Some of the signals used are Yammer group memberships, sites where news is posted, content popularity, and the intended audiences for a post. The feed also supports promotional capabilities such as using [SharePoint news boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
+- **Resources (curated)**: The list of sites on the resources experience in mobile includes the global navigation defined at the organization level. The global navigation supports AAD groups for targeting so that employees in different groups will see relevant navigation items.
 
 
 
