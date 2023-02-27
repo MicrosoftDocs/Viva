@@ -1,5 +1,5 @@
 ---
-ms.date: 04/05/2022
+ms.date: 02/27/2023
 title: "Roles and permissions in Viva Goals"
 ms.reviewer: 
 ms.author: rasanders
@@ -24,232 +24,25 @@ description: "Learn about the various roles and permissions in Viva Goals"
 
 ## Role types in Viva Goals
 
-Let's begin with the basics: 
+|Role  |Description  |Common Activities  |
+|---------|---------|---------|
+|Viva Goals Administrators      | Viva Goals Administrators are assigned by Global admins or user admins from the Microsoft 365 Admin center or Azure Active Directory. These are users typically from the IT team (IT admins) and manage the policy settings for Viva Goals for the entire company. <br> </br> This role is optional. In the absence of a Viva Goals Admin, the Global admin can manage these Viva Goals policy settings for the company. <br> </br> For more information on assigning roles in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), see [Assign admin roles](/microsoft-365/admin/add-users/assign-admin-roles?). <br> </br> Related content: [Azure AD roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/azure-ad-roles-in-the-mac?)         |Some of the aspects managed by Viva Goals Admins are:<br> </br> - [Configure who can create organizations](restrict-organization-creation-permissions.md) within Viva Goals.  <br> </br> - [Configure integrations](vg-integrations-administration-overview.md) are available for all Viva Goals organizations in the tenant. <br> </br> - Control the URLs can be embedded in Viva Goals Dashboards.         |
+|Organization admins      |  In case you want to understand more about Organizations, refer here: [What is Organization](understand-orgs-and-teams.md). <br> </br> Organizational administrators are members who manage the OKR process rollout for the org. In an organization, they're generally the OKR champions. They configure  OKR process properties (Time periods, etc.) and can add/remove users to the org. They can create teams within an organization. An organization can have more than one organization administrator.        | Some of the aspects managed by Organization Admins are: <br> </br> -  Organization admins can create OKRs for any team   <br> </br> - Organization admins have access to the [admin settings](navigate-admin-dashboard.md) at the org level. They can set up policy on who can add members to the org, who can create teams in the org, who can create new tags, who can export OKRs from their org.  <br> </br> -  Organization admins can also change time period and notification setting options.    |
+|Organization owner      | Organization owners are generally the executive leader of a department/business unit/company for which the organization got created. <br> </br> At the time of organization creation in a tenant, the global admin or any user who has permissions to create an organization would become the organization owner of the newly created organization. This ownership can be transferred to another user in that organization in the admin section of the organization. An org can have only one org owner. <br> </br>  Organizational owners manage members, team. By default, they own organization-level OKRs, but organizational objectives can be owned by other members also.       | Some of the aspects managed by Organization Owners are: <br> </br> -  Organization owners can create OKRs for any team.  <br> </br> -  Organization owners have access to the admin settings at the org level. They can set up policy on who can add members to the org, who can create teams in the org, who can create new tags, who can export OKRs from their org.  <br> </br> - Organization owners can also change time period and notification setting options.     |
+|Team admins      |Team admins are generally OKR champions at a team level, who manage the set-up of a team that includes addition of members to the team, permission settings, notification settings, etc. A Team can have multiple team admins.           |Some of the aspects managed by Team Admins are: <br> </br> - Team admins can add members to the team.  <br> </br> - Team admins can modify the notification schedule settings of the team. <br> </br> - Team admins can modify the OKR and Initiative [creation permission](configure-okr-create-permissions.md) for their team. <br> </br> - Team admins can create OKRs for their team. By default, they can edit OKRs of their team. <br> </br> - If the team creation policy is set up appropriately at the org level admin console, team admins can create teams.  |
+|Team owners      |Teams are functional units within a Viva Goals Organization. <br> </br> Team owners are typically managers of a team. A team owner can be a people manager or a manager who coordinates a cross functional team. A team can have only one team owner.          |Some of the aspects managed by Team Owners are: <br> </br> - Team owners can add members to the team. <br> </br> - Team owners can modify the notification schedule settings of the team. <br> </br> - Team owners can modify the OKR and Initiative creation permission settings for their respective team. <br> </br> - Team owners can edit or make check-in for all OKRs of their team.         |
+|Regular Members      |Regular Members (the default role for everyone) are typically users within an organization who want to actively participate in the OKR process. Viva Goals recommends all users to be added as regular users.         |Some of the aspects managed by Regular Members are: <br> </br> - Regular Members can create team level or org level OKRs and initiatives in teams or orgs provided they have creation access to the orgs and teams. <br> </br> - Regular members can edit, align, make a check-in on their respective OKRs or the OKRs that they've created.        |
+|Observers     | Observers, as opposed to Regular members, can't create, edit, or own OKRs. They have only read-only access to the entire organization. Viva Goals recommends all users to be added as regular users instead of observers.        | Some of the aspects managed by Observers are: <br> </br> - Observers can't create, edit or align OKRs. <br> </br> - Observers can like comments on an OKR, share summary of an entity page with other users, and comment on OKRs or Initiatives.           |
 
-- In Viva Goals, a *creator* is a member who has created an objective. 
-- An *owner* is a member who has been assigned an objective.
-- *Organization administrators* and *organization owners* have all OKR permissions and can create, edit, and delete any objectives or check-ins. 
-- *Observers* can't create, edit, or own OKRs but can view OKRs. 
+## Permissions
 
-Viva Goals supports the following full roster of roles within an organization.
 
-|Role  |Description  |
+|Action  |Access  |
 |---------|---------|
-|Members    |    Members (the default role for everyone) can set up and manage their individual OKRs and view all OKRs within the organization.     |
-|Observers     |   Observers, as opposed to members, can't create, edit, or own OKRs. They can view all OKRs just like members.      |
-|Managers     |    Managers are members who own their OKRs and the OKRs of employees who report to them.     |
-|Team owners     |    Team owners are members who own their team members' OKRs.     |
-|Team admins     |   Team administrators are members who can manage team members.      |
-|Organization admins     |   Organizational administrators are members who manage the setup of the organization and can manage users and teams. An organization can have more than one organization administrator.      |
-|Organization owner  |    Organizational owners manage members, teams, setup, and billing for the account. By default, they own organization-level OKRs, but organizational objectives can be owned by other members also.     |
-
-## Permission levels on individual OKRs
-
-The permission levels on individual OKRs are outlined here:
-
-|Activity |Team member |Team admin |Org admin/owner |OKR owners manager |Owner of the parent OKR |Shared owner |Observer |
-|----|----|----|----|----|----|----|----|
-|Add objective |Yes |Yes |Yes |Yes |Yes |Yes |No |
-|Check-in |No |No |Yes |Yes |Yes |Yes |No |
-|Edit |No |No |Yes |Yes |Yes |Yes |No |
-|Delete |No |No |Yes |Yes |Yes |Yes |No |
-|Modify weights and Rollup |No |No |Yes |Yes |Yes |Yes |No |
-|Close |No |No |Yes |Yes |Yes |Yes |No |
-|Reopen |No |No |Yes |Yes |Yes |Yes |No |
-|Add KR |Yes |Yes |Yes |Yes |Yes |Yes |No |
-|Add Project |Yes |Yes |Yes |Yes |Yes |Yes |No |
-|Clone |Yes |Yes |Yes |Yes |Yes |Yes |No |
-|Comment |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-|Share |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-|Like |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-|Follow |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-
-## Permission levels on team OKRs
-
-The permission levels on team OKRs are outlined here:
-
-|Activity |Team member but not OKR owner |Manager of team member who is currently not part of the team |Team admin |Org admin/owner |OKR owners manager |Owner of the parent OKR |Observer |
-|----|----|----|----|----|----|----|----|
-|Add objective |Yes |Yes |Yes |Yes |Yes |Yes |No |
-|Check-in |No |No |Yes |Yes |Yes |Yes |No |
-|Edit |No |No |Yes |Yes |Yes |Yes |No |
-|Delete |No |No |Yes |Yes |Yes |Yes |No |
-|Modify weights and Rollup |No |No |Yes |Yes |Yes |Yes |No |
-|Close |No |No |Yes |Yes |Yes |Yes |No |
-|Reopen |No |No |Yes |Yes |Yes |Yes |No |
-|Add KR |Yes |Yes |Yes |Yes |Yes |Yes |No |
-|Add Project |Yes |Yes |Yes |Yes |Yes |Yes |No |
-|Clone |Yes |Yes |Yes |Yes |Yes |Yes |No |
-|Comment |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-|Share |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-|Like |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-|Follow |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-
-|Administrative privileges |Org owner |Org admin |Team owner |Member/regular user |Observer |
-|----|----|----|----|----|----|
-|Invite members |yes |yes |yes |yes |no |
-|Bulk add members |yes |yes |no |no |no |
-|Suspend members |yes |yes |no |no |no |
-|Create team |yes |yes |yes |yes |no |
-|Add/remove team |yes |yes |no |no |no |
-|Update team settings |yes |yes |yes |no |no |
-|Add or remove team members |yes |yes |no |no |no |
-|Update team admin |yes |yes |no |no |no |
-|Remove admin access |yes |yes |no |no |no |
-|Add/remove time period |yes |yes |no |no |no |
-|Enable integration |yes |yes |no |no |no |
-
-## Create OKRs
-
-By default, all members in the organization can create OKRs for themselves, other members, teams, or the organization. This privilege reduces the friction in setting up OKRs and facilitates alignment.
-
-For example, a team member can propose a team-level objective by adding an objective of type **Team** and assign it to the team manager. The manager can respond by:
-
-- Doing nothing
-- Changing it to an individual's objective
-- Deleting it
-
-## Manage OKRs
-
-### Who can edit and delete objectives?
-
-**Individual objectives** 
-
-- Creator
-- Owner
-- Team manager
-- Parent objective owner
-
-**Team objectives**
-
-- Creator
-- Owner
-- Team manager
-- Parent objective owner
-- Team owner
-
-**Organization objectives**
-
-- Creator
-- Owner
-- Team manager
-- Parent objective owner
-
-By default, creators can edit and delete objectives that they created. These permissions allow them to correct any errors during creation, like an incorrect assignment.
-
-### Who can check in, close, and reopen objectives?
-
-**Individual objectives** 
-
-- Owner
-- Team manager
-- Parent objective owner
-
-**Team objectives**
-
-- Owner
-- Team manager
-- Parent objective owner
-- Team owner
-
-**Organization objectives**
-
-- Owner
-- Team manager
-- Parent objective owner
-
-While the check-in process is largely restricted to members involved in the objective, Viva Goals encourages cross-team collaboration by letting anyone in the organization engage with check-ins, including viewing and liking check-ins, and adding and viewing comments.
-
-## Administrative privileges
-
-By default, all administrative privileges are restricted to members in an organization administrator or organization owner role.
-
-### User management
-
-Organization owners and organization administrators can:
-
-- Invite members
-- Bulk-add members
-- Suspend members
-- Update team member profiles (name, email, profile picture, manager)
-
-Members can also update their own profiles.
-
-### Team management
-
-Organization owners and organization administrators can:
-
-- Create teams
-- Update team settings (name, description, team hierarchy)
-- Add and remove team members
-
-The team owner can add and remove team members.
-
-### Administrator management
-
-Organization owners and organization administrators can:
-
-- Promote a team member to an administrator
-- Revoke administrator access
-
-### Other permissions
-
-Organization owners and organization administrators can:
-
-- Work on the behalf of another team member
-- Add and remove time periods
-- Enable integrations
-
-Only the organization owner can:
-
-- Manage billing and subscription
-
-## User types in Viva Goals
-
-Viva Goals supports two kinds of accounts:
-
-- **Regular user**: Regular team members/users can access all Viva Goals functionality. They can create, update, and own OKRs. They can take on another responsibilities in Viva Goals, like administrator or manager.
-
-- **Observers**: Observers can't create, edit, or own OKRs, but they can view all OKRs.
-
-### Privileges of an observer
-
-An observer is entitled to the following privileges:
-
-- **See all OKRs:** This privilege enables an observer to be aware of, and aligned to, organization, teams, and user priorities, progress, and updates. 
-- **Follow progress:** This privilege enables an observer to receive updates for relevant OKRs. 
-- **Like and comment:** This privilege enables an observer to like and comment on OKRs, and offer activity feed updates. 
-
-### Adding users as an observer
-
-You can set a default user type for new users from **Admin Dashboard** > **Settings**.
-
-:::image type="content" alt-text="This image shows how to add new users as observers." source="../media/goals/2/26/d.jpg" lightbox="../media/goals/2/26/d.jpg":::
-
-If the value is set to **Observer**, users will be set as user type as **Observer** when they're added to an organization. Team members can choose between observer and regular user privileges when they invite a new user. 
-
-:::image type="content" alt-text="This screenshot shows the dialog box where team members add users." source="../media/goals/2/26/e.jpg" lightbox="../media/goals/2/26/e.jpg":::
-
-### Identifying an observer
-
-If the users have an **Observer** tag next to their name, they're an observer.
-
-If you're an administrator, you can also look at user type from **Admin Dashboard** > **Users** > **User Type** column, as depicted in the following image:
-
-:::image type="content" alt-text="This screenshot shows identified observers to invite to the users list." source="../media/goals/2/26/f.jpg" lightbox="../media/goals/2/26/f.jpg":::
-
-### Changing account type of users
-
-Administrators can change the user type from **Observer** to **Regular** and from **Regular** to **Observer** through **Admin Dashboard** > **Users** tab > user listing > three-dot menu, as shown in the following image:
-
-:::image type="content" alt-text="This screenshot shows where to change user account types from the action menu." source="../media/goals/2/26/g.jpg":::
-
-Alternatively, an observer can be changed into a regular user type when a regular user who owns an OKR assigns that OKR to an observer. During this process, the regular user will get an option to change the observer into a regular user.
-
-> [!NOTE]
-> Users can be changed from regular user to observer only if the user doesn't have any OKRs assigned to them.
-
-### Invite other users as observers
-
-An observer can invite others as observers if the Invite Policy in **Admin** > **Settings** is set to **Anyone in the organization**.
+|Create OKRs or Initiatives      |By default, every regular user would be able to create team-level or organization OKRs or Initiatives in all levels unless there are explicit permissions for an organization or a team. <br> </br> In case, org admins or team admins want to control OKR or initiative [creation access](configure-okr-create-permissions.md) to specific users, they can configure the same within org/team settings. <br> </br> These are the following roles that would always have create OKRs or Initiatives at all levels: <br> </br> **For Organization level OKRs:** <br> </br> 1. Organization Administrators. <br> </br> 2. Organization Owner. <br> </br> **For Team level OKRs:** <br> </br> 1. Organization Administrators <br> </br> 2. Organization Owner <br> </br> 3. Team Administrators <br> </br> 4. Team Owner <br> </br>  Except for observers everyone in an organization can create individual OKRs or Initiatives (OKRs that don't have a team assigned to them).        |
+|Check-in      |The following users get default check-in access for OKRs:<br> </br> 1. OKR owner(s)  <br> </br> 2. Creator of the OKR  <br> </br> 3. Team Admin/Team Owner  <br> </br> 4. Org Admin/Org Owner  <br> </br> 5. Manager of the OKR owner  <br> </br> 6. Owner of the parent O/KR (the OKR to which this OKR is aligned with)  <br> </br> In addition to this, OKR owners can grant extra users with [check-in access](https://prod.support.services.microsoft.com/en-us/topic/check-in-with-viva-goals-c0244789-4388-4d2d-9d20-3678900d9b98) by making them check-in owners.         |
+|Alignment     |By default, all regular users in an organization can align to any OKR. In addition to this, OKR owners can grant extra users with [alignment access](https://prod.support.services.microsoft.com/en-us/topic/collaborate-43673d1c-0dd7-42ba-97aa-6e712db171d1) using permissions at an OKR level.         |
+|Edit     |Users with edit access to an OKR can also perform the following functions on an OKR: <br> </br> 1. Delete  <br> </br> 2. Modify weights and rollups <br> </br> 3. Close <br> </br> 4. Reopen <br> </br> The following users get default edit access for OKRs: <br> </br> 1. OKR owner(s) <br> </br> 2. Creator of the OKR  <br> </br> 3. Team Admin/Team Owner  <br> </br> 4. Org Admin/Org Owner  <br> </br> 5. Manager of the OKR owner:  <br> </br> 6. Owner of the parent O/KR (the OKR with which this OKR is aligned to)  <br> </br> In addition to this, OKR owners can grant extra users with edit access using permissions at an OKR level. <br> </br> **Note:** A delegate is a user who can perform all the functions of a user with edit access except change the owner for an OKR or Initiative.         |
+|Clone     |Users can clone OKR into a team in which they have access to create OKRs. In case, the users don't have creation permission access, the OKR is cloned as an individual OKR(OKRs that don't have teams associated).          |
+|Comment/Share/Like/Follow      |These actions can be performed by any user who is a part of an organization.          |
 
