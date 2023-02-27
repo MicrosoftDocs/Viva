@@ -233,7 +233,7 @@ Use Viva Connections as the primary destination where employees access job-speci
 
 ### Shared functionality 
 
-![Graphic of a Venn diagram that displays the similarities and differences between Viva Connections and home sites.](../media/connections/vc-full.png)
+![Graphic of a Venn diagram that displays the similarities and differences between Viva Connections and home sites.](../media/connections/vc-vs-home-site-venn.png)
 
 Both share many common capabilities like news roll ups, navigation, and third-party extensibility to ensure these solutions work together. Both types of experiences share basic functionality, like the ability to use audience targeting, distribute organizational news, and [share the same permissions model](edit-viva-home.md) to make it easy for editors to access and manage. 
 
