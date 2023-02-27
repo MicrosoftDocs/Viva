@@ -46,7 +46,7 @@ Use the [quick guide to set up Viva Connections](guide-to-setting-up-viva-connec
 
 > [!NOTE]
 > - The information in this article relates to the latest release of the Viva Connections app that includes both the desktop and mobile experiences.
-> -	A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharePoint-home-sites-and-viva-connections-work-together). 
+> -	A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharepoint-home-sites-and-viva-connections-work-together). 
 > - Viva Connections is not currently supported on tablet devices. Check the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) for the status of tablet support.
 
 
@@ -214,7 +214,7 @@ Matching your organizational brand is integral to your employees’ connection w
 
 
 ## Localization
-Viva Connections is available in most major languages used in Microsoft 365. Learn more about [how to set up the Viva Connections mobile experience in a specific language](viva-connections-language) and [how to create a dashboard in more than one language](create-multilingual-dashboard.md).
+Viva Connections is available in most major languages used in Microsoft 365. Learn more about [how to set up the Viva Connections mobile experience in a specific language](viva-connections-language.md) and [how to create a dashboard in more than one language](create-multilingual-dashboard.md).
 
    - **Dashboard:** Content can be set by dashboard authors to support multiple languages.
    - **Feed:** The content will be available in the format in which it was authored, and SharePoint news posts will display author-translated posts in the user’s preferred language.
@@ -226,7 +226,7 @@ Many components to the Viva Connections experience can be customized. The [Share
 
 
 ## How SharePoint home sites and Viva Connections work together
-Viva Connections and home sites are two complementary methods to creating powerful employee experiences that can be viewed on the web and in Teams. A [SharePoint home site](hhome-site-plan.md) is an employee experience that serves as a landing destination, news hub, and the main entry-point to your organization’s intranet. Both Viva Connections and home site experiences are designed to unite and empower your organization and automatically integrate with each other to form a cohesive and branded experience. 
+Viva Connections and home sites are two complementary methods to creating powerful employee experiences that can be viewed on the web and in Teams. A [SharePoint home site](home-site-plan.md) is an employee experience that serves as a landing destination, news hub, and the main entry-point to your organization’s intranet. Both Viva Connections and home site experiences are designed to unite and empower your organization and automatically integrate with each other to form a cohesive and branded experience. 
 
 Use Viva Connections as the primary destination where employees access job-specific tools and news and home sites as a secondary source of organizational news, events, and resources. Viva Connections is where individuals get access to curated content based on their role, and the home site is where they can find more organizational-focused resources. 
 
