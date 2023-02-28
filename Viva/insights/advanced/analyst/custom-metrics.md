@@ -7,7 +7,7 @@ ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 manager: anirudhbajaj
-audience: Admin
+audience: Analyst
 ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
