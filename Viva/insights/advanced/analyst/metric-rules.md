@@ -128,7 +128,8 @@ To delete a rule, select the ellipses (**...**) under **Actions**, and then sele
 
 You can create a new rule through the **Metric rules** page, or by duplicating and editing ("cloning") an existing rule. To create or clone a metric rule and publish it to your organization, follow these steps:
 
->[!Important] After you publish a rule, you won't be able to edit it. If need to work on a rule later, you can save it as a draft, but you can't use draft rules in queries. Refer to step 6.
+>[!Important] 
+>After you publish a rule, you won't be able to edit it. If need to work on a rule later, you can save it as a draft, but you can't use draft rules in queries. Refer to step 6.
 
 1. On the **Metric rules** page, either:
     1. Select **Create new rule**.
@@ -139,7 +140,8 @@ You can create a new rule through the **Metric rules** page, or by duplicating a
 
 1. From the tabs at the top of the **Define exclusions** page, select the *first* collaboration type you want your rule to apply to. 
 
-    >[!Note] Collaboration types are meetings, emails, chats, or calls. You can set rules for any of these types. Refer to step 4.
+    >[!Note] 
+    >Collaboration types are meetings, emails, chats, or calls. You can set rules for any of these types. Refer to step 4.
     
     :::image type="content" source="../images/analyst-metric-rules-tabs.png" alt-text="Screenshot that shows the Step 1, Define exclusions, with tab names highlighted.":::
 
