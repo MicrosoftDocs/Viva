@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 02/02/2023
 title: Metrics in Viva Insights
 description: Learn about using metrics in Microsoft Viva Insights 
@@ -7,7 +6,7 @@ author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
-manager: anirudh-bajaj
+manager: anirudhbajaj
 audience: Admin
 ms.collection: viva-insights-advanced 
 ms.service: viva 
@@ -117,6 +116,7 @@ When you're finished editing your metric, select the button at the bottom of the
 
 :::image type="content" source="../images/analyst-customize-metric-save-and-publish.png" alt-text="Screenshot of the Publication step with checkbox selected and Save and publish button."lightbox="../images/analyst-customize-metric-save-and-publish.png":::
 
+If you choose to just save your metric and not publish it, it only applies to this one query. You won't be able to use this metric in future queries you create.
 
 ## How to add a customized metric to a query
 
@@ -127,6 +127,8 @@ If you're looking for a metric you customized, expand the **Defined by me** cate
 :::image type="content" source="../images/analyst-customize-metric-defined-me.png" alt-text="Screenshot that shows the expanded Defined by me category with two metrics in it.":::
 
 If you're looking for a metric that another analyst in your organization customized, expand the **Defined by others** category.
+
+If you saved your metric and didn't publish it, expand the **Unpublished metrics** category. Your new metric will be automatically selected. As we discussed earlier, this metric is only available for this query.
 
 The rest of the process is the same as adding any metrics to a query. You'll select the checkmark next each metric you want to add. After you've selected all the metrics you want, select the **Add to query** button at the bottom of the pane.
 
