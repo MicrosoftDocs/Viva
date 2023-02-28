@@ -1,7 +1,7 @@
 ---
 ms.date: 02/28/2023
-title: Metrics in Viva Insights
-description: Learn about using metrics in Microsoft Viva Insights 
+title: Custom metrics in Viva Insights
+description: Learn about building and using custom metrics in Microsoft Viva Insights 
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -166,7 +166,7 @@ Let's demonstrate how you might customize a metric. For this sample scenario, we
         1. Set "Engineering" as the **Value**.
 
 
-            :::image type="content" source="../images/analyst-customize-metric-filter2.png" alt-text="Screenshot that shows setting attributes, org data, operator, and value for Meeting Attendee.":::
+            :::image type="content" source="../images/analyst-customize-metric-filter2.png" alt-text="Screenshot that shows setting attributes, org data, operator, and value for Meeting Attendee."lightbox="../images/analyst-customize-metric-filter2.png":::
 
         These are all the filters you'll need to set for this metric, so let's move on to the next section. 
 
@@ -177,7 +177,7 @@ Let's demonstrate how you might customize a metric. For this sample scenario, we
     :::image type="content" source="../images/analyst-customize-metric-name-and-publish.png" alt-text="Screenshot that shows Name and Publish step with an edited Name and Description.":::
 1. You think other analysts in your organization might use this metric at some point, so select the checkmark underneath **Publication**.
 
-    :::image type="content" source="../images/analyst-customize-metric-save-and-publish.png" alt-text="Screenshot that shows Publication step with checkbox selected and Save and publish button."lightbox="../images/analyst-customize-metric-save-and-publish.png":::
+    :::image type="content" source="../images/analyst-customize-metric-save-and-publish.png" alt-text="Screenshot that shows Publication step with checkbox selected and Save and publish button.":::
 1. Select **Save and publish**.
 1. In your query's **Select metrics** pane, expand the **Defined by me** category, select your new metric, and select **Add to query**.
 
