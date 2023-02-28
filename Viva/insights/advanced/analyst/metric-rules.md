@@ -147,7 +147,7 @@ You can create a new rule through the **Metric rules** page, or by duplicating a
 
 1. Define what you want to analyze by adding filters. 
 
-    To learn more about filters, refer to our Filters documentation
+    To learn more about filters, refer to our Filters documentation.
 
     :::image type="content" source="../images/analyst-metric-rules-filters.png" alt-text="Screenshot that shows various filters for the Meetings collaboration type in the metric rule builder." lightbox="../images/analyst-metric-rules-filters-large.png":::
 
@@ -240,7 +240,7 @@ To quickly identify default rules, look for the green **Default** tag.
 
 When your organization first uses the analyst experience, you’ll notice we’ve already set a default rule: meeting exclusions.  
 
-If the meeting isn't joined on Teams, and it matches any criteria of the criteria below, that meeting's time and count metrics is excluded:
+If the meeting isn't joined on Teams, and it matches any criteria of the criteria below, that meeting's time and count metrics are excluded:
 
 * The duration of the meeting is 24 hours or more.
 * The meeting is canceled.
