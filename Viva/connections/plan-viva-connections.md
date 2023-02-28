@@ -81,7 +81,7 @@ Viva Connections is designed to help users complete high-priority tasks and acce
 
 Viva Connections is composed of three main parts – the dashboard, the feed, and resources. These parts will display differently on desktop and mobile devices. [Learn more about the differences between the desktop and mobile experience](/viva/connections/viva-connections-overview#viva-connections-mobile-and-desktop-experiences). 
 
-- **Dashboard:** The Dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
+- **Dashboard:** The dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
 - **Feed:** The Feed delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
 - **Resources:** The Resources experience enables way finding across platforms. It uses navigation elements from the SharePoint app bar, which can be [audience targeted](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
 
@@ -98,7 +98,7 @@ Start by identifying the key scenarios that Viva Connections needs to support an
 
 | Dashboard animation  | Description                 | 
 | :------------------- |: ------------------- |
-| ![Interaction between the Dashboard and cards.](../media/connections/new-vc-dashboard-interaction.GIF) | In this example, a card on the Dashboard is linked to a SharePoint page where users can take a daily health check easily from a mobile device.| 
+| ![Interaction between the Dashboard and cards.](../media/connections/new-vc-dashboard-interaction.GIF) | In this example, a card on the dashboard is linked to a SharePoint page where users can take a daily health check easily from a mobile device.| 
 
 
 Common scenarios include view paystubs and vacation hours, submit help tickets, catch up on news, check daily lunch menus, find people in a directory, and shift management. Collaborate and align with business groups that manage these experiences to determine the best design. Review the [Adoption center's best practices from successful Viva Connections customers](https://adoption.microsoft.com/files/viva/connections/Adoption-Recommended-Practices-for-Viva-Connections.pdf) for more information on common scenarios and how to identify employee experiences that result in lasting adoption.
@@ -111,7 +111,7 @@ Common scenarios include view paystubs and vacation hours, submit help tickets, 
 | - View pay and benefits <br> - Submit a ticket to the help desk <br> - Access lunch and café options <br> - Catch up on news and announcements | - Find people and team information <br> - Complete required training <br> - View company holidays | - View and manage shifts <br> - Access time sheets and popular forms <br> - View workplace policies and resources | 
 
 #### Types of dashboard cards:
-As you plan, consider the different types of cards available. There are three different types of cards that can be used on the Viva Connections Dashboard. Some cards may take longer than other to implement or may require work on the backend to set up.
+As you plan, consider the different types of cards available. There are three different types of cards that can be used on the Viva Connections dashboard. Some cards may take longer than other to implement or may require work on the backend to set up.
 - **Out of the box cards:** These cards require little configuring and include the [Link, Shifts, Teams, and Assigned tasks cards](/viva/connections/create-dashboard).
 - **Adaptive extension cards:** Also known as ACEs, are [cards that can be extended and customized](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension) using the SharePoint Framework (SPFx).  
 - **Third-party cards:** These cards come from [third parties like Qualtrics, ServiceNow, and Workday](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-welcomes-new-partners-and-opens-developer/ba-p/2540643).
@@ -137,7 +137,7 @@ Not *every* task should be turned into a card on the Dashboard. Focus on the mos
 #### Design with your audience in mind
 As a best practice, it's important to make decisions that are rooted in specific tasks for certain audiences. Consider using a common framework for scenario planning that starts by selecting a certain role or audience *"As an..."*. Then, narrow down the objective in *"I need to..."*. Next, consider the ideal tool or process to meet the objective in *"So that I..."*. Lastly, script out what success looks like in *"I know this is successful when..."*.
 
-For example, create a table like the following to list business scenarios that you want to address with cards in the Dashboard:
+For example, create a table like the following to list business scenarios that you want to address with cards in the dashboard:
 
 |**As an...**|**I need to...**|**So that...**|**I know this is successful when...**|
 |:-------------------|:---------------|:-----------|:------------------------------------|
@@ -225,7 +225,7 @@ Planning for change and helping users adopt new resources will be different for 
 
 ### Training considerations:
 - Use training to help raise awareness about where resources [can be accessed in Teams on desktop or mobile devices](https://support.microsoft.com/topic/3da30f39-684a-4bde-bb81-2e1407d59b52).  
-- Showcase different ways to connect and engage with cards on the Dashboard and content in the Feed. Consider providing different training guidance for different audiences. 
+- Showcase different ways to connect and engage with cards on the dashboard and content in the Feed. Consider providing different training guidance for different audiences. 
 - Highlight popular portals in SharePoint that can be found in the Resource tab when on a mobile device.
 
 
