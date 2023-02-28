@@ -104,17 +104,17 @@ If you pick a custom time period, you can set the custom value through a time pi
 
 #### Name and publish
 
-The **Name** field differentiates your customized metric from existing ones, so you’ll need to either add to the prepopulated name or give it a new one. 
+Name and publish contains the following sections:
 
-The **Description** field contains the metric definition. You might also consider adding information to the description about what you changed, so other analysts in your organization understand what your customized metric does.
-
-The **Publication** section determines whether other analysts in your organization can find and use this metric in their queries. Select the checkbox if you want to make your metric available to others.
+* The **Name** field differentiates your customized metric from existing ones, so you’ll need to either add to the prepopulated name or give it a new one. 
+* The **Description** field contains the metric definition. You might also consider adding information to the description about what you changed, so other analysts in your organization understand what your customized metric does.
+* The **Publication** section determines whether other analysts in your organization can find and use this metric in their queries. Select the checkbox if you want to make your metric available to others.
 
 #### Save
 
 When you're finished editing your metric, select the button at the bottom of the editor pane. If you chose to publish your metric, this button will say **Save and publish**. If you chose not to publish your metric, this button will say **Save**.
 
-:::image type="content" source="../images/analyst-customize-metric-save-and-publish.png" alt-text="Screenshot of the Publication step with checkbox selected and Save and publish button."lightbox="../images/analyst-customize-metric-save-and-publish.png":::
+:::image type="content" source="../images/analyst-customize-metric-save-and-publish.png" alt-text="Screenshot of the Publication step with checkbox selected and Save and publish button.":::
 
 If you choose to just save your metric and not publish it, it only applies to this one query. You won't be able to use this metric in future queries you create.
 
@@ -126,9 +126,7 @@ If you're looking for a metric you customized, expand the **Defined by me** cate
 
 :::image type="content" source="../images/analyst-customize-metric-defined-me.png" alt-text="Screenshot that shows the expanded Defined by me category with two metrics in it.":::
 
-If you're looking for a metric that another analyst in your organization customized, expand the **Defined by others** category.
-
-If you saved your metric and didn't publish it, expand the **Unpublished metrics** category. Your new metric will be automatically selected. As we discussed earlier, this metric is only available for this query.
+If you're looking for a metric that another analyst in your organization customized, expand the **Defined by others** category. If you saved your metric and didn't publish it, expand the **Unpublished metrics** category. Your new metric will be automatically selected. As we discussed earlier, this metric is only available for this query.
 
 The rest of the process is the same as adding any metrics to a query. You'll select the checkmark next each metric you want to add. After you've selected all the metrics you want, select the **Add to query** button at the bottom of the pane.
 
@@ -154,11 +152,11 @@ Let's demonstrate how you might customize a metric. For this sample scenario, we
     1. The collaboration type, meetings attended, will stay the same, so leave the **Select which collaboration type(s) you want to measure** section as-is.
     1. You notice there aren't any filters set up. You want this metric to apply to Tuesdays, Wednesdays, and Thursdays. Add a filter to capture these days by selecting **Add condition**.
 
-        1. Set **Day Of Week** as the **Meeting activity attribute**.
-        1. Set  **=** as the **Operator**.
-        1. Select **Tuesday**, **Wednesday**, and **Thursday** as the **Value**.
+        1. Set "Day Of Week" as the **Meeting activity attribute**.
+        1. Set  "=" as the **Operator**.
+        1. Select "Tuesday," "Wednesday," and "Thursday" as the **Value**.
              
-            :::image type="content" source="../images/analyst-customize-metric-filter1.png" alt-text="Screenshot that shows setting attribute, operator, and value for Day Of Week.":::
+            :::image type="content" source="../images/analyst-customize-metric-filter1.png" alt-text="Screenshot that shows setting attribute, operator, and value for Day Of Week."lightbox="../images/analyst-customize-metric-filter1.png":::
 
     1. Because you wanted to know about engineers specifically, you'll need another condition. Select **Add condition** again.
         1. Set "Meeting" as the **Meeting activity attribute**. By selecting "Meeting", you'll add another attribute box called **Meeting attribute**. 
