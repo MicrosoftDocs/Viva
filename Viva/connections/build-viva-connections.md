@@ -36,7 +36,7 @@ You know you're ready to move onto the building phase if you've met the followin
 - Considerations have been made for specific audiences.
 - You have an adoption and launch plan along with success metrics.
 
-Start by creating the Viva Connections dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site and linked to cards on the Dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization.  
+Start by creating the Viva Connections dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site and linked to cards on the dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization.  
 
 
 ## Step 1: Enable the Viva Connections app in the Microsoft Teams admin center and choose settings
@@ -63,7 +63,7 @@ For a smooth launch, you'll want to make sure information can be easily accessed
 
 1. As a first step, [test the performance of the home site](/sharepoint/portal-health) (for organizations that have one or add one later) to ensure an optimal viewing experience. 
 2. Then, check the performance for SharePoint sites that will receive a high amount of traffic. For example, sites that relate to human resources, organizational news, and popular services like transportation or café menus. 
-3. Then, [share the home site with the entire organization](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) (for organizations that have one or add one later) before launching. Next, make sure that the target audiences for the cards in the Viva Connections Dashboard are shared with the right audiences. 
+3. Then, [share the home site with the entire organization](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) (for organizations that have one or add one later) before launching. Next, make sure that the target audiences for the cards in the Viva Connections dashboard are shared with the right audiences. 
 4. Consider using the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to monitor performance for high-traffic sites that are being shared for the first time.
 
 
@@ -74,7 +74,7 @@ Before sharing Viva Connections with the rest of your organization, recruit a sm
 - Use the approved web browser for your organization
 - Test Viva Connections on a desktop device and mobile device
 - Make sure all the links are active and there aren’t any dead ends
-- Pay attention to labels on Dashboard cards and buttons – will they make sense to the rest of the organization?
+- Pay attention to labels on dashboard cards and buttons – will they make sense to the rest of the organization?
 - Evaluate the quality and effectiveness of icons and images
 - Check for performance issues like slow loading times or missing images
 - Ask testers about the [navigation experience](/sharepoint/information-architecture-modern-experience)
