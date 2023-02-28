@@ -93,8 +93,8 @@ We customize a sample metric [below](#sample-scenario), where we give an example
 
 The time window is the range of hours during the day you want your metric to analyze. Pick from the following choices:
 
-* **During after hours**, which is determined by Outlook working-hours settings
-* **During working hours**, which is also determined by Outlook working-hours settings
+* **During after hours**, which are determined by Outlook working-hours settings
+* **During working hours**, which are also determined by Outlook working-hours settings
 * **Throughout the day**, which is a 24-hour time period
 * **Custom time period**
 
