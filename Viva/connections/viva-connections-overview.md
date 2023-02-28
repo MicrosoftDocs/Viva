@@ -77,7 +77,7 @@ A dashboard is made of medium-sized and large-sized cards which users can intera
 - Displaying a quick view with more information or an input form
 - Navigating to a SharePoint page
 - Accessing a Teams app
-- •	Integrate with third party apps and services, including other Viva apps
+- Integrate with third party apps and services, including other Viva apps
 
 Some cards can also reflect dynamic content that refreshes based on a user action or other event. For example, users can see new tasks assigned or required training courses when they open the dashboard. As the users mark the tasks as complete, the card updates to reflect their new number of tasks.
 
