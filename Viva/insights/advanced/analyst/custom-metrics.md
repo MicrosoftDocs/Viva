@@ -114,7 +114,7 @@ Name and publish contains the following sections:
 
 When you're finished editing your metric, select the button at the bottom of the editor pane. If you chose to publish your metric, this button will say **Save and publish**. If you chose not to publish your metric, this button will say **Save**.
 
-:::image type="content" source="../images/analyst-customize-metric-save-and-publish.png" alt-text="Screenshot of the Publication step with checkbox selected and Save and publish button.":::
+:::image type="content" source="../images/analyst-customize-metric-save-publish.png" alt-text="Screenshot of the Publication step with checkbox selected and Save and publish button.":::
 
 If you choose to just save your metric and not publish it, it only applies to this one query. You won't be able to use this metric in future queries you create.
 
@@ -174,7 +174,7 @@ Let's demonstrate how you might customize a metric. For this sample scenario, we
 
 1. In **Name and publish**, choose a new name for your metric and add to its description. 
 
-    :::image type="content" source="../images/analyst-customize-metric-name-and-publish.png" alt-text="Screenshot that shows Name and Publish step with an edited Name and Description.":::
+    :::image type="content" source="../images/analyst-customize-metric-name-publish1.png" alt-text="Screenshot that shows Name and Publish step with an edited Name and Description.":::
 1. You think other analysts in your organization might use this metric at some point, so select the checkmark underneath **Publication**.
 
     :::image type="content" source="../images/analyst-customize-metric-save-and-publish.png" alt-text="Screenshot that shows Publication step with checkbox selected and Save and publish button.":::
