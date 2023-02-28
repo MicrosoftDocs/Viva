@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 01/19/2023
+ms.date: 02/28/2023
 title: Keyword suppression in Viva Insights
 description: Learn how to suppress sensitive keywords in email subject lines and meeting titles with Viva Insights. 
 author: lilyolason
@@ -23,9 +22,9 @@ In the Microsoft Viva Insights advanced insights app, you can specify sensitive 
 
 ## How it works
 
-When Viva Insights finds one of your keywords in a meeting title or email subject line, it hides that entire title or subject line in query outputs. So, while a query might use the value of a keyword-suppressed meeting or email, you won't see its title or subject line. In the following image of a meeting query result, the **Subject** column omits certain values. These values are meeting titles that contained sensitive keywords set by an admin.
+When Viva Insights finds one of the sensitive keywords your admin set in a meeting title or email subject line, it suppresses that entire title or subject line in query outputs. So, if a meeting or subject Viva Insights might use the meeting or email in aggregated insights, analysts won't see the title or subject line in their query results. In the following image of a meeting query result, the **Subject** column omits certain values. These values are meeting titles that contained sensitive keywords set by an admin.
 
-:::image type="content" source="../images/meeting-query-output-keywords-suppressed1.png" alt-text="Screenshot that shows a meeting query .csv output with some missing text in the Subject column." lightbox="../images/meeting-query-output-keywords-suppressed1.png":::
+:::image type="content" source="../images/meeting-query-output-keywords-suppressed2.png" alt-text="Screenshot that shows a meeting query .csv output with some missing text in the Subject column." lightbox="../images/meeting-query-output-keywords-suppressed1.png":::
 
 In other words, if you set up keywords, there's no way for analysts to associate query data about affected meetings or emails with their title or subject line.
 
@@ -62,7 +61,7 @@ When you **Don't suppress any email subject lines or meeting titles**, you turn 
 
 When you **Only suppress email subject lines and meeting titles that have these keywords**, you suppress titles and subject lines with specific keywords, but not all titles and subject lines. Viva Insights only suppresses titles and subject lines with the keywords you set.
 
-To set keywords, enter them in the text box provided. Enter each word separately, even if they're part of a phrase. For example, if you want to suppress a meeting title or subject line that contains the phrase, "Fire drill," you'd enter "fire" and "drill" as separate words. After you're done adding keywords, select the **Save changes** button at the bottom of the screen.
+To set keywords, enter them in the text box provided. Enter each word separately, even if they're part of a phrase. For example, if you want to suppress a meeting title or subject line that contains the phrase, "Fire drill," you'd enter "fire" and "drill" as separate words. Keywords need to have at least three letters, and they're case insensitive. After you're done adding keywords, select the **Save changes** button at the bottom of the screen. 
 
 :::image type="complex" source="../images/admin-add-keywords1.png" alt-text="Screenshot that shows adding keywords.":::
    Screenshot showing the last radio button selected on the keyword suppression section, "Only suppress email subject lines and meeting titles that have these keywords:", with an information icon to the right of the button label. Below the button, there's a text-input field, which shows a word being typed in; the field contains a "+" label at its far-right edge. Beneath the text-input field, various other entered keywords appear as tags in a box. Under the box, there is a label to the left that shows how many keywords are selected. A link to the left reads, "Clear all."
