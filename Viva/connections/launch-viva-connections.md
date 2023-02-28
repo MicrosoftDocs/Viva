@@ -1,5 +1,5 @@
 ---
-ms.date: 02/22/2022
+ms.date: 3/1/2023
 title: "Launch Viva Connections for your organization"
 ms.reviewer: 
 ms.author: hokavian
