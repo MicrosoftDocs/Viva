@@ -191,7 +191,7 @@ In **Select which meeting and employee attributes of the meeting organizer you w
 
 If an attribute appears as a *red* tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run, or contact your admin to add these attributes back into the organizational data.
 
-:::image type="content" source="../images/meeting-query-red-tag3.png" alt-text="Screenshot of  a yellow warning on a filter, where the Meeting attribute is Subject.":::
+:::image type="content" source="../images/meeting-query-red-tag3.png" alt-text="Screenshot of a red error on an attribute tag.":::
 
 If an attribute appears as a *yellow* tag with a warning icon, that means the attribute isn't available. If you find a yellow tag on an attribute like "Subject" or "Title," email subject lines and meeting titles might be suppressed in your organization. Your admin can turn on keywords if your organization wants to use them.
 
@@ -223,7 +223,7 @@ Here’s how you might do that:
     1. **Time period**: Select "Last 6 months".
     1. **Auto-Refresh**: You just want to have this run once, so leave the **Auto-Refresh** box deselected.
     1. **Description**: Other analysts in your organization might want to know more about this query, so give it a brief description.
-            :::image type="content" source="../images/meeting-query-sample-setup.png" alt-text="Screenshot of the Query setup section filled out with sample information."lightbox="./images/meeting-query-sample-setup.png":::
+            :::image type="content" source="../images/meeting-query-sample-setup.png" alt-text="Screenshot of the Query setup section filled out with sample information."lightbox="../images/meeting-query-sample-setup.png":::
 1. Add metrics.
     1. Under **Select metrics for what you want to know about your meetings**, select the **Add metrics** button.
     1. You want to know how many hours attendees spend in these meetings, so select "Attendee meeting hours" from the **Meeting impact metrics** category. 
