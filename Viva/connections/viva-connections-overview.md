@@ -29,7 +29,7 @@ description: "Learn how to use Viva Connections to engage and unite your organiz
 
 Microsoft Viva Connections is your gateway to a modern employee experience and is designed to keep everyone engaged and informed. Viva Connections is a customizable app in Microsoft Teams that gives different audiences in your organization a personalized destination to discover other Viva apps your organization is licensed for, relevant news, conversations, and the tools they need to succeed.
 
-![Screenshot of the Viva Connections app on desktop and mobile.](../media/connections/vc-desktop-mobile.png)
+:::image type="content" source="../media/connections/vc-desktop-mobile.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/vc-desktop-mobile.png":::
 
 Use the [quick guide to set up Viva Connections](guide-to-setting-up-viva-connections.md) or get [more detailed guidance on how to plan, build, and launch](plan-viva-connections.md).
 <br>
@@ -64,7 +64,7 @@ Viva Connections is comprised of three primary components - the dashboard, the f
 
 The Viva Connections dashboard enables you to create a curated experience using dashboard cards that give your employees access to their most critical content and tools. These cards are designed to enable quick task completion either by interacting with a card directly or by opening a quick view in the dashboard. Think of the Viva Connections dashboard as a digital toolset for your employees.
 
-![Image of the Viva Connections dashboard on desktop.](../media/connections/vc-dashboard- new.png)
+:::image type="content" source="../media/connections/vc-dashboard- new.png" alt-text="Image of the Viva Connections dashboard on desktop." lightbox="../media/connections/vc-dashboard- new.png":::
 
 The Viva Connections dashboard is available on desktop, mobile platforms (iOS, Android), and [as a web part on SharePoint sites](use-dashboard-web-part-on-home-site.md). This web part can be integrated into a SharePoint home site, which then is exposed as part of the Viva Connections for desktop experience in Teams.
 
@@ -99,14 +99,14 @@ The Dashboard experience has been designed to be consistent across mobile platfo
 #### Dashboard authoring
 The dashboard can be authored directly in the Viva Connections app in Teams desktop. If you are using a home site, the dashboard can also be authored from the SharePoint home site.
 
-![Image showing how to edit a Viva Connections Dashboard.](../media/connections/dashboard-creation.png)
+:::image type="content" source="../media/connections/dashboard-creation.png" alt-text="Image showing how to edit a Viva Connections Dashboard." lightbox="../media/connections/dashboard-creation.png":::
 
 The layout of the dashboard, including the size of the cards (which can be individually set as medium or large) can be customized. The layout of the cards may look different depending on whether the dashboard is being viewed on mobile, desktop, or in the dashboard web part.
 
 #### Dashboard cards
 The Viva Connections dashboard comes with a set of built-in cards, but is also designed to enable SaaS providers, system integrators, and in-house development teams create their own cards to meet their business needs.
 
-![Image showing Dashboard cards.](../media/connections/dashboard-cards.png)
+:::image type="content" source="../media/connections/dashboard-cards.png" alt-text="Image showing Dashboard cards." lightbox="../media/connections/dashboard-cards.png":::
 
 Cards in the Viva Connections Dashboard are based on adaptive cards and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension). They provide a low-code solution to bring your line-of-business apps into the Dashboard.
 
@@ -125,7 +125,7 @@ Discover [more card options from third-party services](https://cloudpartners.tra
 
 In the Viva Connections app, users will see a personalized feed with relevant information from across their organization. 
 
-![Screenshot of the feed in desktop.](../media/connections/vc-feed-new.png) 
+:::image type="content" source="../media/connections/vc-feed-new.png" alt-text="Screenshot of the feed in desktop." lightbox="../media/connections/vc-feed-new.png":::
 
 The feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using [SharePoint’s news boost feature](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) and Viva Engage's (formerly called Yammer) "Featured" options. The feed requires usage of modern SharePoint or Yammer communities, but the best experience is delivered when both are used together.
 
