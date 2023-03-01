@@ -33,7 +33,7 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 
 **This article includes:**
 
-- [Create a dashboard and add cards](#create-a-dashboard-and-add-cards)
+- [Edit the dashboard and add cards](#edit-the-dashboard)
 - [Add the Approvals card](#add-the-approvals-card)
 - [Add an Assigned tasks card](#add-the-assigned-tasks-card)
 - [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view)
