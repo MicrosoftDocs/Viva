@@ -105,7 +105,7 @@ Below your condition statements and condition groups, you'll notice a counter th
 * **Total employees** – The number of employees in the whole company who are assigned Viva Insights licenses and *could* be analyzed by a query
 * **Measured employees** – Based on the conditions you set, the total number of employees that your query *will* analyze
 
-:::image type="content" source="../images/analyst-filter-total-measured-employees.png" alt-text="Screenshot that shows a condition and a condition group.":::
+:::image type="content" source="../images/analyst-filter-total-measured-employees.png" alt-text="Screenshot that shows the Total employees and Measured employees counter.":::
 
 Use **Measured employees** to find out whether your conditions are narrowing down your query like you want them to. If the **Measured employees** count is larger or smaller than expected, you might need to adjust a condition statement or condition group to reflect the right data.
 
@@ -122,7 +122,7 @@ If you're *only* adding "and" statements, there isn't a big distinction between 
 |2     |and|*Organization = Engineering*| 429
 |3     |and|*TimeZone = Europe/Berlin*|26
 
-:::image type="content" source="../images/analyst-filter-andconditions2.png" alt-text="Screenshot that shows a condition and a condition group.":::
+:::image type="content" source="../images/analyst-filter-andconditions2.png" alt-text="Screenshot that shows three separate and statements.":::
 
 ##### Scenario 2 – condition and condition group with "and"
 
@@ -131,7 +131,7 @@ If you're *only* adding "and" statements, there isn't a big distinction between 
 |1     |-|*Layer = 4*|5015
 |2 & 3    |and|*Organization = Engineering* **and** *TimeZone = Europe/Berlin*| 26
 
-:::image type="content" source="../images/analyst-filter-andconditiongroup1.png" alt-text="Screenshot that shows a condition and a condition group."lightbox="../images/analyst-filter-andconditiongroup1.png":::
+:::image type="content" source="../images/analyst-filter-andconditiongroup1.png" alt-text="Screenshot that shows an and condition and an and condition group."lightbox="../images/analyst-filter-andconditiongroup1.png":::
 
 #### Using the "or" conjunction
 
@@ -155,7 +155,7 @@ Here's how that would look in a query. Notice how large the number of **Measured
 |2| or|*TimeZone = Europe/Berlin*|13673
 |3    |or|*Organization = Engineering*| 26925
 
-:::image type="content" source="../images/analyst-filter-orstatements.png" alt-text="Screenshot that shows a condition and a condition group.":::
+:::image type="content" source="../images/analyst-filter-orstatements.png" alt-text="Screenshot that shows three individual or statments.":::
 
 When you use "or" in an *individual* condition statement (that is, not a condition group) any other individual condition statements you add also need to be "or" statements. In other words, you can't add an "or" statement and then add an "and" statement as another separate condition statement. 
 
@@ -193,7 +193,7 @@ Notice how the number of **Measured employees** changes when we turn our "and" c
 |1     |-|*Layer = 4*|5015
 |2 & 3    |and|*Organization = Engineering* **or** *TimeZone = Europe/Berlin*| 523
 
-:::image type="content" source="../images/analyst-filter-orconditiongroup.png" alt-text="Screenshot that shows a condition and a condition group."lightbox="../images/analyst-filter-orconditiongroup.png":::
+:::image type="content" source="../images/analyst-filter-orconditiongroup.png" alt-text="Screenshot that shows an and condition statement and a condition group with an or conjunction."lightbox="../images/analyst-filter-orconditiongroup.png":::
 
 This filter first checks whether employees are Layer 4s. Then, it checks whether employees are in the engineering department ***or*** in the Europe/Berlin timezone.
 
@@ -224,7 +224,7 @@ Here's how that would look in a query:
 |1     |-|*Layer = 4*|5015
 |2 & 3    |or|*Organization = Engineering* **and** *TimeZone = Europe/Berlin*| 6069
 
-:::image type="content" source="../images/analyst-filter-orstatement-andcondition.png" alt-text="Screenshot that shows a condition and a condition group."lightbox="../images/analyst-filter-orstatement-andcondition.png":::
+:::image type="content" source="../images/analyst-filter-orstatement-andcondition.png" alt-text="Screenshot that shows an or statement and a condition group with an and conjunction."lightbox="../images/analyst-filter-orstatement-andcondition.png":::
 
 This filter first checks whether employees are Layer 4s. Then, it checks whether employees are in the engineering department ***and*** in the Europe/Berlin timezone. 
 
@@ -241,4 +241,4 @@ Here's how you'd set up the filters:
     1. Add a condition, which is *Organizer Organization = Marketing*.
     1. Add another condition, which is *Organizer Organization = Design*.
 
-:::image type="content" source="../images/analyst-filter-meeting.png" alt-text="Screenshot that shows a condition and a condition group."lightbox="../images/analyst-filter-meeting.png":::
+:::image type="content" source="../images/analyst-filter-meeting.png" alt-text="Screenshot that shows an and statement and a condition group with an or conjunction for meeting queries."lightbox="../images/analyst-filter-meeting.png":::
