@@ -67,11 +67,11 @@ View and set the following parameters on the **Settings** page. You can find **S
 |**Exclude weeks marked with a holiday indicator**|Select this control to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
 |**Exclude non-knowledge workers**|Select this control to exclude employees who spend a weekly average of no more than five hours in meetings, emails, instant messages, and calls.  These employees are unlikely to be knowledge workers or they don’t use Outlook or Teams.
 
-### Embrace flexibility and Take a break pages
+### Embrace flexibility and Take breaks pages
 
 #### Customize working hours
 
-For **Embrace flexibility** and **Take break** pages, you can customize the standard working hours for your organization as a baseline. Select **Customize working hours** at the top right of the report page, and then select the standard start time and end time. The report will then compare employees’ collaboration patterns with these time settings.
+For **Embrace flexibility** and **Take breaks** pages, you can customize the standard working hours for your organization as a baseline. Select **Customize working hours** at the top right of the report page, and then select the standard start time and end time. The report will then compare employees’ collaboration patterns with these time settings.
 
 ![Screenshot that shows the Wellbeing report customize standard working hours page.](/viva/insights/advanced/images/wellbeing-pbi-workinghours1.png)
 
