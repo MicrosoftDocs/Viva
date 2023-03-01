@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 07/14/2022
+ms.date: 02/28/2023
 title: Meeting query
 description: Learn how to run a custom meeting query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
@@ -40,7 +39,7 @@ In this article, we talk about how to complete each of these steps, and also giv
 
 *Section: **Query setup***
 
-:::image type="content" source="../images/meeting-query-setup-section.png" alt-text="Screenshot showing the Query setup section, including name, Time period, Description, and Date fields and an Auto-Refresh box.":::
+:::image type="content" source="../images/meeting-query-setup-section.png" alt-text="Screenshot showing the Query setup section, including name, Time period, Description, and Date fields and an Auto-Refresh box."lightbox="../images/meeting-query-setup-section.png":::
 
 1. Under **Query setup**:
 
@@ -62,15 +61,15 @@ In this article, we talk about how to complete each of these steps, and also giv
 
 *Section: **Select metrics for what you want to know about your meetings***
 
-:::image type="content" source="../images/meeting-query-section-1.png" alt-text="Screenshot that shows the Select metrics field, with an Add metrics button.":::
+:::image type="content" source="../images/meeting-query-section-1.png" alt-text="Screenshot that shows the Select metrics field, with an Add metrics button."lightbox="../images/meeting-query-section-1.png":::
 
 2. Select the **Add metrics** button, then pick metrics from the resulting **Select metrics** pane. When you're done picking metrics, select **Add to query**.
 
-    :::image type="content" source="../images/meeting-query-metric-pane-small.png" alt-text="Screenshot of the Select metrics pane, with metric categories expanded to show available metrics, and an Add to query button."lightbox="../images/meeting-query-metric-pane-expanded.png":::
+    :::image type="content" source="../images/meeting-query-metric-pane-small.png" alt-text="Screenshot of the Select metrics pane, with metric categories expanded to show available metrics, and an Add to query button." lightbox="../images/meeting-query-metric-pane-expanded.png":::
 
     The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
 
-    :::image type="content" source="../images/meeting-query-sample-metrics1.png" alt-text="Screenshot of the select metrics section of the query building process, with selected metrics as tags in a box below the section header and subtitle.":::
+    :::image type="content" source="../images/meeting-query-sample-metrics1.png" alt-text="Screenshot of the select metrics section of the query building process, with selected metrics as tags in a box below the section header and subtitle."lightbox="../images/meeting-query-sample-metrics1.png":::
 
 ### About metrics
 
@@ -93,7 +92,7 @@ You can pick from seven meeting-related metrics, which we've broken into two cat
 || Number of emails send during the meeting|Number of emails attendees sent during a meeting |
 **ONA metrics**|Strong ties| Strong ties represent connections with people that are part of a person’s inner working group who work together regularly. It measures the number of colleagues who are connected to the person and who are also connected to many of the person’s other colleagues. (Interactions are based on emails, meetings, and Teams calls, and Teams chats.) 
 ||Diverse ties|Diverse ties represent people with whom a person interacts less frequently, such as acquaintances. It measures the number of colleagues who are connected to the person but not connected to many of the person’s other colleagues. Diverse ties offer good sources of new and varied information from across the company. (Interactions are based on emails, meetings, and Teams calls and chats.) 
-||Internal network size|The number of people within the organization with whom the person has had a reciprocal interaction in the a 4-week span. A reciprocal interaction occurs between A & B when both A has reached out to B and B has reached out to A.
+||Internal network size|The number of people within the organization with whom the person has had a reciprocal interaction in a 4-week span. A reciprocal interaction occurs between A & B when both A has reached out to B and B has reached out to A.
 
 #### About the Select metrics pane
 
@@ -109,7 +108,7 @@ To learn more about a metric, hover over its information icon.
 
 *Section: **Select which meetings and employees you want to include in the query***
 
-:::image type="content" source="../images/meeting-query-conditions.png" alt-text="Screenshot that shows hovering over a metric's information icon. The popup shows the metric definition and information.":::
+:::image type="content" source="../images/meeting-query-conditions.png" alt-text="Screenshot that shows hovering over a metric's information icon. The popup shows the metric definition and information."lightbox="../images/meeting-query-conditions.png":::
 
 3. Select the **Add condition** or **Add condition group** button. Using conditions and condition groups, add one or multiple filters to narrow down your analysis of meetings and employees.
 
@@ -154,8 +153,7 @@ Duration| Meeting| Numerical value in the 00:00 format | Duration > 30:00
 |Intended participant count | Meeting| Numerical value| Intended participant count > 100
 
 >[!Note]
->*Attendees* are all the actual participants (anyone who joined on Teams) of a meeting, plus the organizer.
-*Intended participants* are all of the meeting's invitees, plus the organizer.
+>*Attendees* are all the actual participants (anyone who joined on Teams) of a meeting, plus the organizer. *Intended participants* are all of the meeting's invitees, plus the organizer.
 
 ### To move and delete conditions and condition groups
 
@@ -177,7 +175,7 @@ To move a condition or condition group, select the six-dot icon to the right, th
     
     Attributes appear as tags in the box above the **Select attributes** button.
 
-    :::image type="content" source="../images/meeting-query-attribute-tags.png" alt-text="Screenshot of the attribute section of query building, with tags of selected attributes in a box below.":::
+    :::image type="content" source="../images/meeting-query-attribute-tags.png" alt-text="Screenshot of the attribute section of query building, with tags of selected attributes in a box below."lightbox="../images/meeting-query-attribute-tags.png":::
 
 ### About meeting and organizer attributes
 
@@ -225,16 +223,16 @@ Here’s how you might do that:
     1. **Time period**: Select "Last 6 months".
     1. **Auto-Refresh**: You just want to have this run once, so leave the **Auto-Refresh** box deselected.
     1. **Description**: Other analysts in your organization might want to know more about this query, so give it a brief description.
-            :::image type="content" source="../images/meeting-query-sample-setup.png" alt-text="Screenshot of the Query setup section filled out with sample information.":::
+            :::image type="content" source="../images/meeting-query-sample-setup.png" alt-text="Screenshot of the Query setup section filled out with sample information."lightbox="./images/meeting-query-sample-setup.png":::
 1. Add metrics.
     1. Under **Select metrics for what you want to know about your meetings**, select the **Add metrics** button.
     1. You want to know how many hours attendees spend in these meetings, so select "Attendee meeting hours" from the **Meeting impact metrics** category. 
     1. You want to know how many attendees are multitasking, so select "Number of attendees multitasking" from the **Meeting quality metrics** category.
     1. When you're done picking metrics, select the **Add to query** button. Your metrics appear as tags back in the query editor.
-     :::image type="content" source="../images/meeting-query-sample-metrics1.png" alt-text="Screenshot of the select metrics section of the query building process, with selected metrics as tags in a box below the section header and subtitle.":::
+     :::image type="content" source="../images/meeting-query-sample-metrics1.png" alt-text="Screenshot of the select metrics section of the query building process, with selected metrics as tags in a box below the section header and subtitle."lightbox="../images/meeting-query-sample-metrics1.png":::
 1. Specify the meetings and employees you want to analyze.
     1. Under **Select which meetings employees you want to include in the query**,  select **Add condition**.
-    1. Because you want this query to analyze large meetings (which your company defines as having 20 or more participants), you select **Intedned participant count** from the **Meeting attribute** dropdown menu, set the **Operator** to ">=", and enter "20" for the **Value**.
+    1. Because you want this query to analyze large meetings (which your company defines as having 20 or more participants), you select **Intended participant count** from the **Meeting attribute** dropdown menu, set the **Operator** to ">=", and enter "20" for the **Value**.
     1. Because you want to analyze recurring meetings, add a new condition, then set **Meeting attribute** to "Recurring", leave the **Operator** at "=", and leave the **Value** at "true".
      :::image type="content" source="../images/meeting-query-add-condition1.png" alt-text="Screenshot that shows adding a condition group to the sample query with two conditions."lightbox="../images/meeting-query-add-condition1.png":::
 1. Choose the meeting and employee attributes you want to include in your output file.
