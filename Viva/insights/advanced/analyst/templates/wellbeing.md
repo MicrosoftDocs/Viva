@@ -37,6 +37,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
 <iframe title="Wellbeing - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiNTcwNGQwMTctYWUwYy00MjAwLThlM2YtYTIwMWI4ZGEwZTg0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
 ## Report setup
@@ -82,7 +83,6 @@ This topic contains three pages, which each focus on a different theme: overview
 
 Get a baseline view of how much time employees have to focus and how much time they kept as focus time using Viva Insights. This page helps you understand whether employees are actively protecting non-meeting time for focused work. You can also access adoption and impact pages from this page.
 
-
 #### Adoption
 
 **Are employees using Viva Insights to set aside time for individual work?**
@@ -117,7 +117,7 @@ When you understand employees' after-hours and weekend work behaviors, you might
 
 ### Handle urgency
 
-**Can employees manage unexpected demands and shift some to planned work?**
+**Can employees manage unexpected demands and proactively shift some to planned work?**
 
 To uncover how unexpected demands are managed in your company, and to unlock opportunities to shift some of these demands to planned work, view:
 
@@ -163,6 +163,8 @@ Also view a distribution of this information by organization.
 >You can customize work hours in the upper right of this page, next to **Settings**.
 
 ### Stay connected
+
+**Are employees part of a community at work?**
 
 Discover how employees connect with colleagues through small group meetings and informal communication. On this page, you'll find the:
 
