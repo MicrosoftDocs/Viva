@@ -1,5 +1,5 @@
 
-5. Filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, refer to [Filters](../../filters.md).
+5. In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, refer to [Filters](../../filters.md).
 
     ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
@@ -30,4 +30,4 @@
 >[!Important]
 > You need to sign in to Power BI with the same account you use to access Viva Insights.
 
-After the **Wellbeing - balance and flexibility** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. 
+After the report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. 
