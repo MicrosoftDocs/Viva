@@ -1,5 +1,5 @@
 ---
-ms.date: 3/1/23
+ms.date: 3/1/2023
 title: "Add, edit, and remove cards from the Viva Connections dashboard "
 ms.reviewer: 
 ms.author: hokavian
