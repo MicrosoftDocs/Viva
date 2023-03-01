@@ -1,6 +1,6 @@
 ---
 ms.date: 03/01/23
-title: "Create a Viva Connections dashboard and add cards"
+title: "Add, edit, and remove cards from the Viva Connections dashboard "
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -20,7 +20,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to create the Viva Connections dashboard"
+description: "Learn how to edit the Viva Connections dashboard"
 ---
 
 # Create a Viva Connections dashboard and add cards
@@ -28,18 +28,12 @@ description: "Learn how to create the Viva Connections dashboard"
 The Viva Connections dashboard provides fast and easy access to information and job-related tasks. Content on the dashboard can be targeted to users in specific roles, markets, and job functions.
 The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx)framework, internal links, and external links. 
 
-
-![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard.png)
-
-Once [certain requirements are met](guide-to-setting-up-viva-connections.md), the Dashboard can be created and edited from your [home site.](home-site-plan.md) As you are building the Dashboard, you can see a preview of how it will display for targeted audiences and different devices. Then publish your Dashboard to make it available to users who have access to your home site. When you are done, you can add it to Microsoft Teams so that it's easily accessible from a mobile device and desktop. You can also add it to your home page using the [Dashboard web part.](/sharepoint/use-dashboard-web-part-on-home-site)
-
->[!NOTE]
->Images are an important aspect to making your cards rich and inviting. If you're a SharePoint admin, we recommend enabling a Content Delivery Network (CDN) to improve performance for getting images. Consider when storing images that /siteassets is by default a CDN source when Private CDN is enabled while /style library is the default source when the Public CDN is enabled. [Learn more about CDNs](/office365/enterprise/content-delivery-networks).  
+![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-new.png)
 
 
 **This article includes:**
 
-- [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
+- [Create a dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add the Approvals card](#add-the-approvals-card)
 - [Add an Assigned tasks card](#add-the-assigned-tasks-card)
 - [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view)
@@ -56,40 +50,50 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Get more information about how links and Single sign-on works](#how-urls-and-single-sign-on-works)
 
 
-## Overview of how to create a Dashboard and add cards
+
+## Edit the dashboard 
+The Viva Connections dashboard can be edited right from Microsoft Teams. You’ll need member or owner level permissions to get started.
+
+![Diagram of how to create a Viva Connections Dashboard.](../media/connections/viva-dashboard-step.png)
+
+>[!NOTE]
+- When setting up Viva Connections for the first time, you’ll be asked to choose a set of default cards based on the intended audience. 
+- You can choose mobile and desktop views interchangeably as you’re authoring.
+- Image recommendations for cards in the dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio to prevent stretching in the mobile app.
+- Image URLS in card properties must be an absolute URL for the link to work in the mobile app.
+- It's recommended to limit the number of cards to about 20 on the dashboard for the best viewing experience.
+
+1.	Navigate to the Viva Connections app in Teams.
+2.	Next, select **Edit** in the dashboard section.
+3.	Select **+ Add a card**.
+4.	Select **Edit** (pencil icon) for each card to edit properties like the label, icon, image, and audience targeting settings where applicable. 
+5.	Select **Delete** (trash can icon) to remove cards.
+6.	Preview the experience on all devices to ensure usability before publishing or republishing. 
+7.	**Publish** or **Republish** when you are done to share the edits with others.
+
+
+## How to edit the dashboard from SharePoint when you have a home site
+
+If your organization has a [SharePoint home site](home-site-plan.md), you have the option to setup and edit the dashboard from the home site or in Microsoft Teams. You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the home site.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE53Joj]
 
 <br>
 <br>
 
+>[!NOTE]
+>Images are an important aspect to making your cards rich and inviting. If you're a SharePoint admin, we recommend enabling a Content Delivery Network (CDN) to improve performance for getting images. Consider when storing images that /siteassets is by default a CDN source when Private CDN is enabled while /style library is the default source when the Public CDN is enabled. [Learn more about CDNs](/office365/enterprise/content-delivery-networks).  
 
-## Create a Dashboard and add cards
-
-![Diagram of how to create a Viva Connections Dashboard.](../media/connections/viva-dashboard-step.png)
-
-
-You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the home site.
-
-1. From the [home site,](home-site-plan.md) select the **Settings** gear at the top-right of the page.
+1. From the home site, select the **Settings** gear at the top-right of the page.
 2. Select **Manage Viva Connections**.
-3. Select the **+ Create Dashboard** button.
-
-   >[!NOTE]
-   > - The Dashboard page opens in mobile view by default.
-   > - You can choose Mobile and Desktop views interchangeably as you’re authoring.
-   > - Image recommendations for cards in the Dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio in order to prevent stretching in the mobile app.
-   > - Image URLS in card properties must be an absolute URL in order for the link to work in the mobile app.
-   > - It's recommended to limit the number of cards to about 20 card on the Dashboard for the best viewing experience.
-
+3. Select the **+ Create dashboard** or **View dashboard** button.
 4. Select **+ Add a card**.
+5. Select the type of card you want to add from the dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the dashboard, you can preview its appearance in mobile and desktop for different audiences.
+6. When you're done adding cards and [applying targeting to specific audiences](use-audience-targeting-in-viva-connections.md), **Preview** the experience to ensure an ideal viewing experience.
+7. Once you’re satisfied with how the dashboard looks in preview, select **Publish** or **Republish** at the top-right of your dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. 
 
-   ![Image of adding a dashboard card.](../media/connections/add-card-dashboard.png)
 
-
-5. Select the type of card you want to add from the Dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the Dashboard, you can preview its appearance in mobile and desktop for different audiences.
-
-   **Available cards:**
+## Available dashboard cards
 
    |Card Name    |Toolbox icon   | Description  |
    |:------------|:-------------:|:--------------|
@@ -104,10 +108,6 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
    |[Viva Topics](#add-a-viva-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Viva Topics cards to encourage knowledge discoverability, engagement, and sharing. |
    |[Web link](#add-a-web-link-card)    | ![Image of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
  
-6. When you're done adding cards and targeting audiences, preview the experience to ensure an ideal viewing experience.
-
-7. Once you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
-
 
 
 ## Add the Approvals card
