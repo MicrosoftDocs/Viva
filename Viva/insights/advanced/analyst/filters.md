@@ -105,7 +105,7 @@ Below your condition statements and condition groups, you'll notice a counter th
 * **Total employees** - The number of employees in the whole company who are assigned Viva Insights licenses and *could* be analyzed by a query
 * **Measured employees** - Based on the conditions you set, the total number of employees that your query *will* analyze
 
-:::image type="content" source="../images/analyst-filter-total-measured-employees.png" alt-text="Screenshot that shows a condition and a condition group."lightbox="../images/analyst-filter-total-measured-employees.png":::
+:::image type="content" source="../images/analyst-filter-total-measured-employees.png" alt-text="Screenshot that shows a condition and a condition group.":::
 
 Use **Measured employees** to find out whether your conditions are narrowing down your query like you want them to. If the **Measured employees** count is larger or smaller than expected, you might need to adjust a condition statement or condition group to reflect the right data.
 
@@ -122,7 +122,7 @@ If you're *only* adding "and" statements, there isn't a big distinction between 
 |2     |and|*Organization = Engineering*| 429
 |3     |and|*TimeZone = Europe/Berlin*|26
 
-:::image type="content" source="../images/analyst-filter-andconditions2.png" alt-text="Screenshot that shows a condition and a condition group."lightbox="../images/analyst-filter-andconditions2.png":::
+:::image type="content" source="../images/analyst-filter-andconditions2.png" alt-text="Screenshot that shows a condition and a condition group.":::
 
 ##### Scenario 2 - condition and condition group with "and"
 
@@ -155,7 +155,7 @@ Here's how that would look in a query. Notice how large the number of **Measured
 |2| or|*TimeZone = Europe/Berlin*|13673
 |3    |or|*Organization = Engineering*| 26925
 
-:::image type="content" source="../images/analyst-filter-orstatements.png" alt-text="Screenshot that shows a condition and a condition group."lightbox="../images/analyst-filter-orstatements.png":::
+:::image type="content" source="../images/analyst-filter-orstatements.png" alt-text="Screenshot that shows a condition and a condition group.":::
 
 When you use "or" in an *individual* condition statement (that is, not a condition group) any other individual condition statements you add also need to be "or" statements. In other words, you can't add an "or" statement and then add an "and" statement as another separate condition statement. 
 
