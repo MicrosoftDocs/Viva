@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/18/2022
 title: MyAnalytics retirement
 description: About retiring MyAnalytics
 author: lilyolason

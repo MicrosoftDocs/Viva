@@ -1,4 +1,5 @@
 ---
+ms.date: 09/27/2022
 title: Viva Goals language support
 ms.reviewer: 
 ms.author: rasanders

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/22/2021
 title: Admin tasks for the Viva Insights app
 description: Admin tasks for the Microsoft Viva Insights app available for Microsoft Teams
 author: madehmer
@@ -212,3 +213,4 @@ To confirm, enable, or disable access to premium features for users with license
 ## Related topics
 
 [Viva Insights introduction](viva-teams-app.md)
+

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 07/15/2022
 title: Assign licenses overview
 description: Get an overview about assigning licenses to Microsoft Viva Insights users 
 author: lilyolason
@@ -70,3 +71,4 @@ Azure AD is the single source of truth for licensing statuses. After a user lice
 ## Related topics
 
 [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
+

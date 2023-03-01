@@ -1,5 +1,6 @@
 ---
 
+ms.date: 11/07/2019
 title: Privacy guide for Briefing emails
 description: Learn about how Briefing emails keep your data private and secure
 author: madehmer

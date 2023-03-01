@@ -1,4 +1,5 @@
 ---
+ms.date: 02/02/2022
 title: "Use the Feed web part for Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
@@ -93,3 +94,4 @@ The feed will automatically populate with SharePoint news, Yammer community cont
 
 
  
+

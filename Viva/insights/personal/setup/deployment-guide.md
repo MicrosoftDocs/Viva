@@ -1,5 +1,6 @@
 ---
 
+ms.date: 07/21/2020
 title: Personal insights deployment guide
 description: Guide for admins on deploying personal insights with Microsoft Viva Insights
 author: madehmer
@@ -313,5 +314,6 @@ If users have questions about using Viva Insights, point them to the published [
   * [Briefing emails](../Briefing/be-overview.md) **(paused)**
   * [Digest emails](./../use/email-digests-3.md)
   * [Inline suggestions in Outlook](./../use/mya-notifications.md)
+
 
 

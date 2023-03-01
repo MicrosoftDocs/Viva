@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/26/2018
 title: Viva Insights Individual Adoption --Define your why
 description: Viva Insights Individual Adoption by Kate Nowak --Define your why
 author: madehmer
@@ -23,3 +24,4 @@ People aim to align their actions with their beliefs. If you don’t fully belie
 * How exactly will things be better for me if I change?
 * How will this change make me a better teammate and/or manager?
 * What are the risks of not changing?
+

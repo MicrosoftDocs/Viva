@@ -2,9 +2,9 @@ items:
   - name: In Teams
     items:
     - name: Introduction
-      href: /viva-teams-app.md
+      href: introduction.md
     - name: Set up the app
-      href: ../viva-teams-app-settings.md
+      href: settings.md
     - name: Home
       href: home.md
       items:
@@ -49,7 +49,9 @@ items:
         - name: Reflect    
           href: reflect.md                
         - name: Virtual commute
-          href: virtual-commute.md                  
+          href: virtual-commute.md   
+      - name: FAQ
+        href: faq.md                   
       - name: Team and organization insights
         items:
           - name: Team insights 

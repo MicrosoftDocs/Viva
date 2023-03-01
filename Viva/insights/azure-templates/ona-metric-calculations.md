@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/16/2019
 title: Measure calculations for Organizational Network Analysis Azure Template
 description: Learn how the metrics are calculated for the Organizational Network Analysis Azure Template for Workplace Analytics
 author: madehmer
@@ -293,3 +294,4 @@ For more information, see [Closeness Centrality](https://wikipedia.org/wiki/Clos
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [What's new in Workplace Analytics Azure Templates](./release-notes.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
+

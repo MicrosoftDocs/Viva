@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/16/2018
 title: Explore the stats introduction
 description: Describes the analytical Explore the stats data in Viva Insights
 author: madehmer
@@ -50,3 +51,4 @@ The user interface and navigation in recent releases of Viva Insights are differ
 ## Data time limit
 
 The historical data that populates **Explore the stats** is time limited; the charts reflect data that is no older than six months. This six-month period is a _rolling window_ that's based on when the [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) refreshes. After a data refresh, the six-month extent of data reflected in **Explore the stats** advances by one week.
+

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Personal insights in Viva Insights privacy guide for admins
 description: Overview of Personal insights in Viva Insights privacy features for admins, including info about data de-identification and privacy, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: madehmer
@@ -178,3 +179,4 @@ As is the case with the full Microsoft 365 suite, Personal insights in Viva Insi
       * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
+

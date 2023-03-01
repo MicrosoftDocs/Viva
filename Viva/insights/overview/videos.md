@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/19/2018
 title: Videos for Viva Insights
 description: Videos about how the advanced insights app with Microsoft Viva Insights works
 author: madehmer
@@ -125,3 +126,4 @@ This video can also be found here:
 [Introduction for admins](
 https://review.learn.microsoft.com/Workplace-Analytics/personal/overview/mya-for-admins?branch=PAS-AddMyAVideo)
 -->
+

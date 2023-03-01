@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/01/2020
 title: Viva Insights Power BI dashboard demos
 description: See demonstrations of the Power BI dashboards available in Viva Insights 
 ms.localizationpriority: medium 
@@ -31,3 +32,4 @@ The following are interactive demonstrations of the Power BI dashboards availabl
 |![Ways of working tracker icon.](../images/wpa/playbooks/efficient-communications-32x32.svg) |[**Ways of working tracker demo**](/viva/insights/tutorials/power-bi-collab-track?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#demonstration) <br>Shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness. |
 |![Wellbeing icon.](../images/wpa/playbooks/wellbeing-64x64.svg) |[**Wellbeing demo**](/viva/insights/tutorials/power-bi-wellbeing?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#demonstration) <br>Shows insights into employee wellbeing across your company and uncovers opportunities to improve focus, work-life balance, flexibility, and a sense of community at work.|
 |![Behavior patterns icon.](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Behavior patterns demo**](/viva/insights/tutorials/power-bi-glint-2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#demonstration) <br>Combines behavioral data from Viva Insights and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|
+

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/27/2021
 title: Viva Insights FAQ
 description: Frequently asked questions about Microsoft Viva Insights
 author: madehmer
@@ -33,4 +34,5 @@ Microsoft Viva Insights includes Personal insights, Manager and team insights, L
 * [**Teamwork insights FAQ**](../org-team-insights/teamwork-habits-faq.md) - Viva Insights helps people managers and team leads thrive with data-driven, privacy-protected insights, and recommendations to improve their team's productivity and wellbeing.
 * [**Organization trends FAQ**](../org-team-insights/org-trends-faq.md) - Viva Insights helps business leaders see data-driven, privacy-protected insights, and recommendations about the overall organization that they can use to improve company-wide business outcomes.
 * [**Advanced insights FAQ**](/viva/insights/use/faq?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) - Viva Insights has advanced insights and analysis tools for deep diving into data that's shown both within Microsoft Teams and in the advanced insights app. The app includes advanced analysis tools, such as different ways of analyzing and reporting custom analysis to your company’s business leaders.
+
 

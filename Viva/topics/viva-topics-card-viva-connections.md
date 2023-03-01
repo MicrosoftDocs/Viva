@@ -1,4 +1,5 @@
 ---
+ms.date: 08/29/2022
 title: Use Viva Topics cards in the Viva Connections Dashboard
 ms.author: ruthhollands
 author: ruthholls
@@ -63,6 +64,7 @@ Viva Topics cards can be added to the Viva Connections Dashboard. The Dashboard 
 ## More resources
 
 [Add cards to the Viva Connections Dashboard](/viva/connections/create-dashboard) 
+
 
 
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 10/15/2020
 title: Plan your week with the Briefing email
 description: Learn how to use the Briefing email to schedule time to focus, catch up on email, and more
 author: madehmer
@@ -51,3 +52,4 @@ To create a plan through the Briefing email, follow these steps:
 ## Related topics
 
 [Briefing email overview](be-overview.md)
+

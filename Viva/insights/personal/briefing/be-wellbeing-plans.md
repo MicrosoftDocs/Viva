@@ -1,5 +1,6 @@
 ---
 
+ms.date: 12/12/2022
 title: Start wellbeing plans through the Briefing email
 description: Learn how to use the Briefing email to join a wellbeing plan
 author: lilyolason

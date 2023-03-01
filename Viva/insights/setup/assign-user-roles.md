@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 06/11/2020
 title: Assign roles for Microsoft Viva Insights
 description: How to assign user roles for Microsoft Viva Insights
 author: madehmer
@@ -151,3 +152,4 @@ People manager isn't technically a role that can be assigned. Assuming these man
 * [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
+

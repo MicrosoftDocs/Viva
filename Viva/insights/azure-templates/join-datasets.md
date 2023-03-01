@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 02/10/2020
 title: Join Datasets Azure Template for Workplace Analytics 
 description: Learn about the Join Datasets Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
@@ -201,3 +202,4 @@ Your template admin sets the number of days to retain data created and saved as 
 
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 04/18/2022
 title: Introduction to Microsoft Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -77,3 +78,4 @@ The resources in this section help your users learn how to use and manage Viva G
 |Learn how to use review dashboards     |[Review dashboard](/viva/goals/review-dashboard)         |
 |Learn how to use projects|[Projects](/viva/goals/projects)         |
 |Learn how to integrate your other tools| [Viva Goals integrations overview](/viva/goals/integrations-overview)        |
+

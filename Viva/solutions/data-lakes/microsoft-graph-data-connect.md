@@ -1,5 +1,6 @@
 ---
 
+ms.date: 03/02/2022
 title: Microsoft Graph Data Connect data lake solution
 description: Learn how to set up and use the Microsoft Graph Data Connect data lake solution
 author: lilyolason
@@ -274,3 +275,4 @@ At this point, the pipeline should resemble the following image:
 
 > [!NOTE]
 > Each approved data consent request is valid for six months unless there is a change in the pipeline (for example, a *Copy Data* activity name change or a  pipeline name change).
+

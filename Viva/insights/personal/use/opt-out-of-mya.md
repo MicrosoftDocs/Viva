@@ -1,5 +1,6 @@
 ---
 
+ms.date: 07/13/2019
 title: Opt out of personal insights
 description: How to opt out of Microsoft Viva Insights
 author: lilyolason
@@ -111,3 +112,4 @@ Use the procedures in this section to configure your own access to Viva Insights
 Use the procedures in this section to configure access to Viva Insights for the people in your organization.
 
 * [Configure access at the tenant level](../setup/configure.md#configure-access-at-the-tenant-level)
+

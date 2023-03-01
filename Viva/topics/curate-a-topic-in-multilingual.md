@@ -1,4 +1,5 @@
 ---
+ms.date: 06/24/2022
 title: Curate Multilingual topics in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -78,3 +79,4 @@ The topic user's preferred language in their tenant will determine the language 
 Languages can be changed or updated through settings in the apps.
 
 ![Screenshot showing Spanish language settings in SharePoint.](../media/knowledge-management/sp-language-settings.png)
+

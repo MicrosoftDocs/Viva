@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/16/2019
 title: Viva Insights Microsoft 365 data
 description: What's available on the Microsoft 365 data sources page in the advanced insights app with Microsoft Viva Insights
 author: madehmer
@@ -72,3 +73,4 @@ The following are examples of where you might encounter instances of inconsisten
 * [Organizational data](/viva/insights/use/organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [CRM data](/viva/insights/use/crm-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/26/2018
 title: Viva Insights Individual Adoption resources
 description: Individual Adoption resources section for using personal insights with Microsoft Viva Insights
 author: madehmer
@@ -79,3 +80,4 @@ The following is a list of helpful resources that can help get you and your team
 * [Work-Life balance: Help your team achieve work-life balance—even when you can’t](https://workplaceinsights.microsoft.com/employee-experience/help-your-team-achieve-work-life-balance-even-when-you-cant/)
 * [Work-life balance: How to boost your team’s productivity](https://workplaceinsights.microsoft.com/productivity/how-to-boost-your-teams-productivity/)
 * [Work-life balance: Polite ways to decline a meeting invitation](https://workplaceinsights.microsoft.com/time-management/polite-ways-to-decline-a-meeting-invitation/)
+

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 11/07/2019
 title: Follow up on tasks with the Briefing email
 description: Learn how to use the Briefing email to get today's tasks done
 author: madehmer
