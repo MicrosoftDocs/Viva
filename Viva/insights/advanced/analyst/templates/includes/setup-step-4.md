@@ -1,1 +1,1 @@
-4. In **Predefined template metrics**, leave prepopulated metrics as they appear.
+4. In **Predefined template metrics**, leave prepopulated metrics as they appear. If you want to add additional metrics, select the **Add metrics** button. To change default settings for your metrics, select **Edit metric settings**. 
