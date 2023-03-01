@@ -1,6 +1,6 @@
 ---
-ms.date: 11/15/2021
-title: "Create a Viva Connections Dashboard and add cards"
+ms.date: 03/01/23
+title: "Create a Viva Connections dashboard and add cards"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -20,14 +20,14 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to create the Viva Connections Dashboard"
+description: "Learn how to create the Viva Connections dashboard"
 ---
 
-# Create a Viva Connections Dashboard and add cards
+# Create a Viva Connections dashboard and add cards
 
-The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. 
+The Viva Connections dashboard provides fast and easy access to information and job-related tasks. Content on the dashboard can be targeted to users in specific roles, markets, and job functions.
+The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx)framework, internal links, and external links. 
 
-The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. The Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization. 
 
 ![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard.png)
 
