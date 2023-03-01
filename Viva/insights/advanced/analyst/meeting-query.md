@@ -162,7 +162,7 @@ To move a condition or condition group, select the six-dot icon to the right, th
 :::image type="content" source="../images/meeting-query-move-condition.png" alt-text="Screenshot that shows selected metrics in the box beneath Select metrics for what you want to know about your meetings.":::
 
 >[!Tip] 
-> Learn more about conditions, condition groups, and filters in our Filters documentation.
+> Learn more about conditions, condition groups, and filters in our [filters documentation](filters.md)
 
 ## Add meeting and organizer attributes
 
