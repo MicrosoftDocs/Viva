@@ -54,7 +54,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 ## Report settings
 
-After the Business resilience report is set up and populated with Viva Insights data in Power BI, ----
+After the --- report is set up and populated with Viva Insights data in Power BI, ----
 
 <!--insert report-specific content-->
 

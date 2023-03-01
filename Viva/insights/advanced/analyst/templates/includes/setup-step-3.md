@@ -12,4 +12,4 @@
         Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
 
         * Power BI queries are set to **Group by Week**. You can't edit this field.
-        * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
+        * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../../metric-rules.md).
