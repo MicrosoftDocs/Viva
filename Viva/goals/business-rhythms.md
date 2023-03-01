@@ -1,4 +1,5 @@
 ---
+ms.date: 04/08/2022
 title: Business rhythms
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -158,3 +159,4 @@ This is the time to start scheduling regular check-ins and plan for reviews, fol
 - Draft team-wide OKRs and determine cross-team dependencies 
 - Schedule regular OKR check-ins or include them in the agenda of already existing rhythms like team meetings and one-on-ones 
 - Make sure relevant training materials are available to all employees
+

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 11/07/2019
 title: Configure Briefing email
 description: Steps for admins to configure Briefing email for their organization
 author: lilyolason
@@ -131,3 +132,4 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 * [Briefing email overview](be-overview.md)
 * [Briefing settings](be-settings.md)
 * [Use the Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2)
+

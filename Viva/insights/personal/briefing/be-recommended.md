@@ -1,4 +1,5 @@
 ---
+ms.date: 09/20/2022
 title: Recommended actions in the Briefing email
 description: Use actions that the Briefing email suggests as Recommended for you
 author: lilyolason
@@ -56,3 +57,4 @@ Learn more about schedule send suggestions in [Schedule send suggestions](../use
 * [Praise in Viva Insights](../teams/viva-insights-praise.md)
 * [Virtual commute](../teams/viva-insights-virtual-commute.md)
 * [Schedule send suggestions](../Use/delay-delivery.md)
+

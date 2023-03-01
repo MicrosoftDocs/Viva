@@ -1,4 +1,5 @@
 ---
+ms.date: 12/16/2021
 title: Analytics for Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -51,3 +52,4 @@ The **File processing for topic discovery** section shows the number of files th
 [Plan topic experiences](plan-topic-experiences.md)
 
 [Set up topic experiences](set-up-topic-experiences.md)
+

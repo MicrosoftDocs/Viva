@@ -1,5 +1,6 @@
 ---
 
+ms.date: 04/10/2018
 title: Key personal insights elements
 description: Information about the Viva Insights personal dashboard, Outlook add-in, digests, and inline suggestions in Outlook
 author: madehmer
@@ -31,3 +32,4 @@ Viva Insights presents you with insights and how you can use these insights to i
 
 >[!Note]
 >Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
+

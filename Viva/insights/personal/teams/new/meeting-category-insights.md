@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 12/08/2022
 title: Meeting category insights in Viva Insights  
 description: Learn about which meetings you spend the most time in with Microsoft Viva Insights
 author: lilyolason

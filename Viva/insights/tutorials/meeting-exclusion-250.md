@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/16/2018
 title: The meeting exclusion rule limitation for large meetings
 description: Meeting exclusion rule limitation for large meetings in Microsoft Viva Insights
 author: madehmer
@@ -57,3 +58,4 @@ The impacted metrics are:
 <List of metrics here> FOR THIS, PUT "PARTICULAR QUERIES IN MEETING QUERIES"
 -->
  * Any meeting query metric that has a participant filter applied to it will fail. 
+

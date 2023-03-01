@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Share objectives"
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -43,3 +44,4 @@ When you work in Viva Goals, you may want to share an objective or a list of obj
    > To send yourself a preview of the message that will be shared, select **Send Preview**.
 
 4. Select **Share**, and the objectives will be sent to the specified recipients.
+

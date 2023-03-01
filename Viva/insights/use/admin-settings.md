@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/06/2021
 title: Leader and manager settings for Viva Insights
 description: Learn about Leader & manager settings that only administrators can configure and edit in the advanced insights app for Microsoft Viva Insights
 author: madehmer
@@ -34,3 +35,4 @@ As the Microsoft Viva Insights Administrator, you can use **Leader & manager set
 ## Related topic
 
 [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

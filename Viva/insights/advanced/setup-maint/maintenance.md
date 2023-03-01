@@ -1,4 +1,5 @@
 ---
+ms.date: 07/15/2022
 title: Microsoft Viva Insights maintenance
 description: Learn what's required to maintain Microsoft Viva Insights after you've installed and set it up
 author: lilyolason
@@ -49,3 +50,4 @@ After you've installed and set up Microsoft Viva Insights, it requires maintenan
 
 * Task – Use the **Data quality** tab to verify that the organizational data is loaded and ready for use.
 * Frequency – As needed, particularly after uploading organizational data.
+

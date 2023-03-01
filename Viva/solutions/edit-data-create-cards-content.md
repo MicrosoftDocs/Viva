@@ -1,4 +1,5 @@
 ---
+ms.date: 07/17/2022
 title: Edit Dataverse tables or create/add Yume cards content
 description: Learn how to edit dataverse tables or create/add Yume cards content
 author: v-smandalika
@@ -77,3 +78,4 @@ In the following screenshot:
 - The following screenshot describes Example D, that is, the process of adding the Content for the new main card category.
 
   :::image type="content" source="../media/example-d.png" alt-text="The example that illustrates how to add content for the new main card category" lightbox="../media/example-d.png":::
+

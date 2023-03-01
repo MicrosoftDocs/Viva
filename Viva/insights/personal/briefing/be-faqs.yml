@@ -1,5 +1,6 @@
 ### YamlMime:FAQ
 metadata:
+  ms.date: 12/15/2020
   title: Briefing email from Microsoft Viva FAQ
   description: Get answers to the most frequently asked questions about the Briefing email from Microsoft Viva Insights
   author: madehmer
@@ -77,4 +78,13 @@ sections:
       - question: How can I send Microsoft product feedback or ask a question about the Briefing email?
         answer: |
           At the end of the email, select the **Send feedback** button.
-          
+
+      - question: How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?
+
+        answer: |
+          We encourage all Viva insights users to visit and register on the [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog). The community has:
+          * Forums to connect with peers and discuss shared experiences.
+          * Forums to contribute and receive support on common issues which are routinely reviewed by our team of experts.
+          * Monthly blog posts to learn about new features and tools.
+          * Spaces to share ideas and engage with the product development team.    
+

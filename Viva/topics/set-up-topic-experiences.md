@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Set up Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -183,5 +184,6 @@ You can also [add Viva Topics as an app in Teams](add-topics-app.md).
 [Topic Experiences Overview](topic-experiences-overview.md)
 
 [Learn about topics in Microsoft Viva Topics](/viva/topics/get-started-with-viva-topics)
+
 
 

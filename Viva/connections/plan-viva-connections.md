@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: "Plan Viva Connections for your organization"
 ms.reviewer: 
 ms.author: hokavian
@@ -246,4 +247,5 @@ As your business grows and evolves, you'll likely identify new scenarios that ca
 
 ## Next, build and customize Viva Connections for your organization
 After you meet requirements, have a plan for the Dashboard, and are prepared to help users adopt Viva Connections, its time to [move on to the build phase](build-viva-connections.md). 
+
 

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
+ms.date: 07/15/2022
 title: Manager settings
 description: Set manager settings in the advanced insights app
 author: lilyolason

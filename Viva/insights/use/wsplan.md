@@ -1,4 +1,5 @@
 ---
+ms.date: 04/22/2021
 title: Workspace Collaboration Optimizer 
 description: Learn about the Workspace Collaboration Optimizer and how to use it to create seating plans
 author: madehmer
@@ -219,3 +220,4 @@ A4. Check the following, which might be causing the error.
 
 * [Workspace Collaboration Optimizer Readme](https://github.com/microsoft/workspace-optimizer/blob/main/README.md)
 * [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

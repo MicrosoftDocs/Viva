@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/26/2018
 title: Viva Insights Individual Adoption --Get started
 description: Viva Insights Individual Adoption by Kate Nowak --Get started section
 author: madehmer
@@ -32,3 +33,4 @@ Specifically, we will lead you through the following phases:
 [Build your habit](Indiv-adopt-develop-habits.md): Helps you select a behavior to achieve your goal, provides a framework for turning behaviors into habits, and deepens your knowledge of how to use Viva Insights in the habit-building process. The key documents you will use in this step are [Learning modules](Adopt-Learning-modules.md) and [Habit-building method](adopt-habit-building.md).
 
 [Sustain your change](Indiv-adopt-sustain-change.md): Provides additional strategies to help you successfully turn your best behaviors into long-term habits.
+

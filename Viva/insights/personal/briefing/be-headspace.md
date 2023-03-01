@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/19/2021
 title: Headspace meditation with the Briefing email
 description: Learn how to access the Headspace feature from the Briefing email
 author: madehmer
@@ -85,3 +86,4 @@ You can open and run Viva Insights in a new window. This lets you play Headspace
 ## Related topic
 
 [Briefing email overview](be-overview.md)
+

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/26/2021
 title: Settings for the Briefing email
 description: Learn how to change your personal settings for the Briefing email from Microsoft Viva
 author: lilyolason
@@ -50,3 +51,4 @@ Once you arrive at the settings page in the Viva Insights app in Teams or on the
 
 * [Briefing email overview](be-overview.md)
 * [Configure Briefing email](be-admin.md)
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/07/2018
 title: Advanced insights Controls
 description: Learn about the settings in the Controls section of the advanced insights app with Microsoft Viva Insights, such as data sources, data uploads, system defaults, privacy rules, and other data analyst settings
 author: madehmer
@@ -59,3 +60,4 @@ In **Analyst settings**, Admins can configure [system defaults](system-defaults.
 
 * [Set up Advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Plans in Advanced insights](/viva/insights/tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

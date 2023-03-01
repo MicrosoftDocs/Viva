@@ -1,5 +1,6 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 01/06/2023
 title: Team insights
 description: Learn about team insights and where to find them in Viva Insights in Teams and on the web
 author: lilyolason
@@ -87,3 +88,4 @@ You'll find insights about your team meeting habits on the **Productivity** tab.
 ### Shared plans
 
 To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../../personal/teams/new/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../../personal/teams/new/shared-meeting-plan.md), visit the **Productivity** tab. 
+

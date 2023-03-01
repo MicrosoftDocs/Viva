@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 12/08/2022
 title: Meeting habits in Viva Insights  
 description: Learn about your meeting habits with Microsoft Viva Insights
 author: lilyolason
@@ -71,6 +72,7 @@ These types of meetings are excluded from meeting metrics—that is, they don't 
 
 >[!Note]
 >Viva Insights counts double-booked meetings only one time for metric calculations. For example, if you have two meetings scheduled for 10:00 AM to 11:00 AM on the same day, Viva Insights counts this as only one hour of meeting time.
+
 
 
 

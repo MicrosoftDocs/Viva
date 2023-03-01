@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/26/2018
 title: Personal insights configuration for Microsoft 365 administrators
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: madehmer
@@ -278,3 +279,4 @@ Running the following command opts the user in (by setting PrivacyMode to 'opt-i
    ```powershell
 Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in -Feature digest-email -isEnabled $false 
    ```
+

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/15/2020
 title: Catch up with your team through the Briefing email
 description: Learn how to use the Briefing email to catch up with your team
 author: madehmer
@@ -39,3 +40,4 @@ If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version)
 ## Related topic
 
 [Briefing email overview](be-overview.md)
+
