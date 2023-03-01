@@ -17,6 +17,10 @@ manager: helayne
 ---
 # Prepare for upcoming meetings
 
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+
+
 In this section of your Briefing email, you’ll see today's first three meetings chronologically that have at least one suggested action. You can select the meeting heading to open the meeting details or select a document that’s related to the upcoming meeting to open and view it.
 
 With the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following to help prepare for today's meetings:
