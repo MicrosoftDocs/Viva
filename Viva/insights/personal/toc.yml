@@ -46,38 +46,6 @@ items:
                   href: teams/viva-teams-app-admin-tasks.md
                 - name: FAQ
                   href: teams/viva-teams-app-faq.md   
-        - name: Briefing
-          items:
-            - name: Overview
-              href: Briefing/be-overview.md
-            - name: Privacy guide
-              href: Briefing/be-privacy.md
-            - name: Configure Briefing
-              href: Briefing/be-admin.md
-            - name: Briefing rollout
-              items:
-                - name: Conduct a user pilot
-                  href: Briefing/be-pilot.md
-                - name: Admin trial
-                  href: Briefing/be-admin-trial.md
-                - name: Downloadable resources
-                  href: Briefing/be-resources.md
-            - name: Use Briefing
-              items: 
-                - name: Prepare for meetings
-                  href: Briefing/be-meetings.md
-                - name: Follow up on tasks
-                  href: Briefing/be-tasks.md
-                - name: Book focus time
-                  href: Briefing/be-focus.md
-                - name: Headspace meditation
-                  href: Briefing/be-headspace.md
-                - name: Plan your week
-                  href: Briefing/be-time.md 
-                - name: Catch up with your team
-                  href: Briefing/be-manager.md
-                - name: Use recommendations
-                  href: Briefing/be-recommended.md  
             - name: Settings
               href: Briefing/be-settings.md
             - name: Languages
