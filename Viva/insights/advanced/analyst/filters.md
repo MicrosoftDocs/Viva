@@ -26,7 +26,7 @@ You'll encounter filters across the advanced insights app: while you're building
 
 ### Accessing filters
 
-In each process we described above--queries, metric customization, and metric rules--you'll notice an option to **Add condition** or **Add condition group**. Select these options to start setting up a filter. We describe the difference between conditions and condition groups a little later in this article.
+In each process we described above—queries, metric customization, and metric rules—you'll notice an option to **Add condition** or **Add condition group**. Select these options to start setting up a filter. We describe the difference between conditions and condition groups a little later in this article.
 
 ### Filter data
 
@@ -102,8 +102,8 @@ A *condition group* is a combination of conditions connected with a conjunction 
 
 Below your condition statements and condition groups, you'll notice a counter that shows two numbers:
 
-* **Total employees** - The number of employees in the whole company who are assigned Viva Insights licenses and *could* be analyzed by a query
-* **Measured employees** - Based on the conditions you set, the total number of employees that your query *will* analyze
+* **Total employees** – The number of employees in the whole company who are assigned Viva Insights licenses and *could* be analyzed by a query
+* **Measured employees** – Based on the conditions you set, the total number of employees that your query *will* analyze
 
 :::image type="content" source="../images/analyst-filter-total-measured-employees.png" alt-text="Screenshot that shows a condition and a condition group.":::
 
@@ -114,7 +114,7 @@ Use **Measured employees** to find out whether your conditions are narrowing dow
 
 If you're *only* adding "and" statements, there isn't a big distinction between individual condition statements and condition groups. For example, the number of people a query analyzes will be the same in both of these scenarios:
 
-##### Scenario 1 - separate conditions with "and"
+##### Scenario 1 – separate conditions with "and"
 
 |Condition #|Conjunction|Statement|Measured employees|
 |---------|----|-----|------------------|
@@ -124,7 +124,7 @@ If you're *only* adding "and" statements, there isn't a big distinction between 
 
 :::image type="content" source="../images/analyst-filter-andconditions2.png" alt-text="Screenshot that shows a condition and a condition group.":::
 
-##### Scenario 2 - condition and condition group with "and"
+##### Scenario 2 – condition and condition group with "and"
 
 |Condition #|Conjunction|Statement|Measured employees|
 |---------|---------|---|---------------|
@@ -137,7 +137,7 @@ If you're *only* adding "and" statements, there isn't a big distinction between 
 
 Things get a little more complex when you start adding "or." Let's discuss a few scenarios where you might use "or" statements.
 
-##### Scenario 1 - separate conditions with "or"
+##### Scenario 1 – separate conditions with "or"
 
 "Or" statements are helpful when you want your query to apply to *any* one of several conditions. For example, let's say you want to capture *all* of these kinds of employees in one query. They don't have to meet multiple conditions for your query to count them:
 
@@ -159,7 +159,7 @@ Here's how that would look in a query. Notice how large the number of **Measured
 
 When you use "or" in an *individual* condition statement (that is, not a condition group) any other individual condition statements you add also need to be "or" statements. In other words, you can't add an "or" statement and then add an "and" statement as another separate condition statement. 
 
-##### Scenario 2 - creating an "or" group after an "and" statement
+##### Scenario 2 – creating an "or" group after an "and" statement
 
 You can, however do this:
 
@@ -195,10 +195,9 @@ Notice how the number of **Measured employees** changes when we turn our "and" c
 
 :::image type="content" source="../images/analyst-filter-orconditiongroup.png" alt-text="Screenshot that shows a condition and a condition group."lightbox="../images/analyst-filter-orconditiongroup.png":::
 
-
 This filter first checks whether employees are Layer 4s. Then, it checks whether employees are in the engineering department ***or*** in the Europe/Berlin timezone.
 
-##### Scenario 3 - creating an "and" group after an "or" statement
+##### Scenario 3 – creating an "and" group after an "or" statement
 
 Now let's say you want to measure:
 
