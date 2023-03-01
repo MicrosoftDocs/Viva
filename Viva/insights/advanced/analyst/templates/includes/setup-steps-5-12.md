@@ -8,7 +8,7 @@
     >[!Important]
     >Some employee attributes are required to set up this Power BI template, and we've preselected them for you in the query. *Don't remove any preselected attributes.*
     >
-    >If you see attributes marked in red and the query’s **Run** button disabled, it means that these required attributes are missing from your organizational data. Contact your admin to upload them.
+    >If you notice attributes marked in red and the query’s **Run** button disabled, it means that these attributes are required and they're missing from your organizational data. Contact your admin to upload them.
 
 7. Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
 
@@ -29,3 +29,5 @@
 
 >[!Important]
 > You need to sign in to Power BI with the same account you use to access Viva Insights.
+
+After the **Wellbeing - balance and flexibility** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. 

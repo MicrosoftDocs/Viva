@@ -56,7 +56,8 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 After the --- report is set up and populated with Viva Insights data in Power BI, ----
 
-<!--insert report-specific content-->
+|Setting|Description|
+|-------|-----------|
 
 ## About the report
 

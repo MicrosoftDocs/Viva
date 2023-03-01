@@ -53,19 +53,25 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 ## Report settings
 
-After the **Wellbeing - balance and flexibility** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. Then, view and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
+### Settings page
+
+View and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
 
 ![Screenshot that shows the Wellbeing report summary page.](/viva/insights/advanced/images/wellbeing-pbi-summary1.png)
 
-* **Select the time period to measure** – This is the time period that you want to analyze. Note that the four-week trend information on the summary page won’t show if the selected time period is less than eight weeks.
-* **Select an organizational attribute to view the report by** – This is the primary "group-by" attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will group values by the new attribute.
-* **Select optional filters to exclude employee groups** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will show a reduced number. Measured employees are the number of employees in the filtered population who were active during the specified time period. Active employees are those who send at least one email or Teams chat during a work week that's included in the current time period.
-* **Exclude weeks marked with a holiday indicator** – Select this control to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
-* **Exclude non-knowledge workers** – Select to exclude employees who spend a weekly average of no more than five hours in meetings, emails, instant messages, and calls because they’re unlikely to be knowledge workers or they don’t use Outlook or Teams.
+|Setting|Description|
+|-------|-----------|
+|**Select the time period to measure**|Set the time period that you want to analyze. Note that the four-week trend information on the summary page won’t show if the selected time period is less than eight weeks.
+|**Select an organizational attribute to view the report by**|Set the primary "group-by" attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will group values by the new attribute.
+|**Select optional filters to exclude employee groups**|To filter the measured employee population, filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will show a reduced number. Measured employees are the number of employees in the filtered population who were active during the specified time period. Active employees are those who send at least one email or Teams chat during a work week that's included in the current time period.
+|**Exclude weeks marked with a holiday indicator**|Select this control to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
+|**Exclude non-knowledge workers**|Select this control to exclude employees who spend a weekly average of no more than five hours in meetings, emails, instant messages, and calls.  These employees are unlikely to be knowledge workers or they don’t use Outlook or Teams.
 
-### Customize working hours
+### Embrace flexibility and Take a break pages
 
-For **Embrace flexibility** and **Take break** pages, you can customize the standard working hours for your organization as a baseline. Select **Customize working hours**, and then select the standard start time and end time. Employees’ collaboration patterns will then be compared with these time settings.
+#### Customize working hours
+
+For **Embrace flexibility** and **Take break** pages, you can customize the standard working hours for your organization as a baseline. Select **Customize working hours** at the top right of the report page, and then select the standard start time and end time. The report will then compare employees’ collaboration patterns with these time settings.
 
 ![Screenshot that shows the Wellbeing report customize standard working hours page.](/viva/insights/advanced/images/wellbeing-pbi-workinghours1.png)
 
