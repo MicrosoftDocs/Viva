@@ -1,1 +1,0 @@
-4. Under **Predefined template metrics**, you’ll find a list of preselected metrics. These metrics are required to set up the Power BI report and you can’t remove them. You can add other metrics by selecting **Add metrics**. To change default settings for your metrics, select **Edit metric settings**. 

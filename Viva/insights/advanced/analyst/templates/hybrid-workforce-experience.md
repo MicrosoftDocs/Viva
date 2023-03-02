@@ -59,13 +59,7 @@ You can add new attributes to your organizational data at any time. For more det
 
 1. Under **Power BI templates**, navigate to **Hybrid workforce experience** and select **Start analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 
-[!INCLUDE [Setup step 3](includes/setup-step-3.md)]
-    ![Hybrid workforce experience query setup](/viva/insights/advanced/images/hwfe-ga-pbi-setup.png)
-
-[!INCLUDE [Setup step 4](includes/setup-step-4.md)]
-    ![Hybrid workforce experience query predefined metrics](/viva/insights/advanced/images/hwfe-ga-pbi-predefined-metrics.png)
-
-[!INCLUDE [Setup steps 5-12](includes/setup-steps-5-12.md)]
+[!INCLUDE [Setup steps](includes/setup-steps.md)]
 
 ## Report settings
 

@@ -39,13 +39,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
     ![Query start](/viva/insights/advanced/images/me-pbi-start.png)
 
-[!INCLUDE [Setup step 3](includes/setup-step-3.md)]
-    ![Query setup](/viva/insights/advanced/images/me-pbi-setup.png)
-
-[!INCLUDE [Setup step 4](includes/setup-step-4.md)]
-    ![Predefined metrics](/viva/insights/advanced/images/me-pbi-predefined-metrics.png)
-
-[!INCLUDE [Setup steps 5-12](includes/setup-steps-5-12.md)]
+[!INCLUDE [Setup steps](includes/setup-steps.md)]
 
 ## Report settings
 
