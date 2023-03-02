@@ -91,7 +91,7 @@ Once in **edit** mode, perform the following steps:
 [Overview of Viva Connections](viva-connections-overview.md)
 <br>
 
-[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
+[Set up and launch Viva Connections](viva-connections-setup-guide.md)
 
 
 
