@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 03/02/2023
 title: Hybrid Workforce Experience Power BI report
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: lilyolason
@@ -29,18 +29,11 @@ The report has six sections, which each address different facets of the employee
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Hybrid workforce experience** query  in Viva Insights.
 
-## Demonstration
-
-The following demonstration uses sample data that’s only representative of this report and might not be exactly what you see in a live report specific to your organization's unique data.
+[!INCLUDE [Demonstration](includes/demonstration.md)]
 
 <iframe title="Hybrid workforce experience - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiMTI3OTdkZDQtYTllYy00MDUwLTk4NzEtYTljM2I1YjIyZjEyIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
-## Prerequisites
-
-Before you can run the queries and populate the report in Power BI, you’ll need to:
-
-* Be assigned the role of **Insights Analyst** in Viva Insights.
-* Have the June 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/).
+[!INCLUDE [Prerequisites](includes/prerequisites.md)]
 * Have the following attributes uploaded as part of your organizational data:
   * **OnsiteDays**, an attribute identifying the number of days someone works onsite. This could be based on behavioral data such as badge data or Wi-Fi data, or other sources such as a tag in the HR system identifying the number of days an employee intends to work onsite. You might get this data in one of two ways—through a weekly update of onsite days or by using a monthly update of onsite days to calculate the weekly number:
     * If an employee’s number of onsite days is available on a weekly basis (that is, values are between 0 and 5), make sure to include a row with an **EffectiveDate** and **OnsiteDays** value per person per week in your organizational data. You can choose the frequency with which you like to update this data—weekly or monthly.
@@ -53,68 +46,23 @@ For more details on organizational data preparation and upload, download our [st
 
 You can add new attributes to your organizational data at any time. For more details on how to add new data for existing employees, review the documentation on [subsequent uploads](../../admin/upload-org-data-subsequent.md).
 
-## Report setup
-
-### Run query
-
->[!Note]
-> For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
+[!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
 1. In the analyst experience in Viva Insights, select **Analysis**.
 
 2. Under **Power BI templates**, navigate to **Hybrid workforce experience** and select **Start analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 
-3. Under **Query setup**:
-    1. Type a **Query name**.
-    1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
-    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
-
-    >[!NOTE]
-    >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
-
-    4. Optional: Type a **Description**.
-
-         Selecting **More settings** brings you to a pane, but there’s nothing you need to change there.
-
-        In this pane:
-    
-        * Power BI queries are set to **Group by Week**. You can't edit this field.
-        * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
+[!INCLUDE [Setup step 3](includes/setup-step-3.md)]
 ![Hybrid workforce experience query setup](/viva/insights/advanced/images/hwfe-ga-pbi-setup.png)
 
 1. Under **Predefined template metrics**, leave prepopulated metrics as they appear.  
 
     ![Hybrid workforce experience query predefined metrics](/viva/insights/advanced/images/hwfe-ga-pbi-predefined-metrics.png)
 
-1. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a custom Person query](../person-query.md).
+[!INCLUDE [Setup step 4](includes/setup-step-4.md)]
 ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
-1. Under **Select which employee attributes you want to include in the query**, select the **HireDate** attribute if available. Then, add other organizational attributes. You can add up to seven organizational attributes, including **HireDate**. After the query runs, you can use these attributes to group and filter the reports.
-
-    >[!IMPORTANT]
-    >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Do not remove any preselected attributes.*
-    >
-    >If you see attributes marked in red and the query’s **Run** button disabled, it means that these required attributes are missing from your organizational data. Contact your admin to upload them.
-
-1. Select **Run** on the upper right side of the screen, which can take a few minutes to complete.
-
-1. When your query results are ready, go to the **Query results** page and select the **Power BI** icon to download the Power BI template and copy the query identifier. You'll need the query identifier later.
-
-### Link report to query
-
-9. Open the downloaded Hybrid workforce experience template.
-
-10. If prompted to select a program, select **Power BI**.
-
-11. When prompted by Power BI:
-    1. Paste in the query identifier.
-    1. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
-    1. Select **Load** to import the query results into Power BI.
-
-12. If prompted by Power BI, sign in using your organizational account. Power BI will load and prepare the data, which can take some time to complete for large files.
-
->[!Important]
-> You need to sign in to Power BI with the same account you use to access Viva Insights.
+[!INCLUDE [Setup steps 5-12](includes/setup-steps-5-12.md)]
 
 ## Report settings
 
@@ -218,11 +166,5 @@ The report also includes the following features:
     * Use exclusion options.
 * **Glossary** that describes the metrics used in the different reports.
 
-## Power BI tips, FAQs, and troubleshooting
-
-For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](./power-bi-faq-troubleshoot.md).
-
-## Related topic
-
-[Access query results and modify existing queries](/viva/insights/advanced/analyst/query-results.md)
+[!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
 

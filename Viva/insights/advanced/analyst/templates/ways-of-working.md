@@ -35,25 +35,13 @@ The **Ways of working** report uses a template populated by Viva Insights da
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Ways of working** query in Viva Insights. 
 
-## Demonstration
-
-The following demonstration uses sample data that’s only representative of this report and might not be exactly what you see in a live report specific to your organization's unique data.
+[!INCLUDE [Demonstration](includes/demonstration.md)]
 
 <iframe title="Ways of Working - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiYWE0MGExNGEtMmIwNC00ZDg4LWI4MmYtYWM2Yjc0NzAzMmI2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
-## Prerequisites
+[!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
-Before you can run the queries and populate the report in Power BI, you’ll need to:
-
-* Be assigned the role of **Insights Analyst** in Viva Insights.
-* Have the June 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/) to download and install the latest version.
-
-## Report setup
-
-### Run query
-
->[!Note]
-> For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
+[!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
 1. In the Viva Insights analyst experience, select **Analysis**.
 
@@ -61,55 +49,13 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
     ![Screenshot that shows the Ways of working icon.](/viva/insights/advanced/images/wow-pbi-start1.png)
 
-3. Under **Query setup**:
-    1. Type a **Query name**.
-    1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
-    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
-
-    >[!Note]
-    >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
-
-    4. Optional: Type a **Description**.
-    
-        Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
-
-        * Power BI queries are set to **Group by Week**. You can't edit this field.
-        * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
+[!INCLUDE [Setup step 3](includes/setup-step-3.md)]
 ![Screenshot that shows the Query setup section.](/viva/insights/advanced/images/wow-pbi-setup.png)
 
-4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
+[!INCLUDE [Setup step 4](includes/setup-step-4.md)] 
 ![Screenshot that shows predefined query metrics.](/viva/insights/advanced/images/wow-pbi-predefined-metrics1.png)
 
-5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
-
-    ![Screenshot that shows the Is active filter.](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
-
-6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
-
-    >[!Important]
-    >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Don't remove any preselected attributes.*
-    >
-    >If you see attributes marked in red and the query’s **Run** button disabled, it means that these required attributes are missing from your organizational data. Contact your admin to upload them.
-
-7. Select **Run** on the upper right side of the screen, which can take a few minutes to complete.
-
-8. When your query results are ready, go to the **Query results** page and select the **Power BI** icon to download the Power BI template and copy the query identifier. You'll need the query identifier later.
-
-### Link report to query
-
-9. Open the downloaded **Ways of working** template.
-
-10. If prompted to select a program, select **Power BI**.
-
-11. When prompted by Power BI:
-    1. Paste in the query identifier.
-    1. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
-    1. Select **Load** to import the query results into Power BI.
-
-12. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data, which can take a few minutes to complete for large files.
-
->[!Important]
-> You need to sign in to Power BI with the same account you use to access Viva Insights.
+[!INCLUDE [Setup steps 5-12](includes/setup-steps-5-12.md)]
 
 ## Report settings
 
@@ -226,11 +172,4 @@ Find opportunity areas for your organization. This page includes best practices,
 
 View this report's metrics.
 
-## Power BI tips, FAQs, and troubleshooting
-
-For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](./power-bi-faq-troubleshoot.md).
-
-## Related topic
-
-[Access query results and modify existing queries](/viva/insights/advanced/analyst/query-results.md)
-
+[!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
