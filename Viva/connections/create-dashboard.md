@@ -479,7 +479,7 @@ For some cards, you will use links to URLs. Depending on the location of the con
 
 ## More resources
 
-[Step-by-step guide to setting up Viva Connections](guide-to-setting-up-viva-connections.md)
+[Step-by-step guide to setting up Viva Connections](viva-connections-setup-guide.md)
 
 [Learn more about how to plan a dashboard](plan-viva-connections.md#step-2-plan-for-viva-connections)
 
