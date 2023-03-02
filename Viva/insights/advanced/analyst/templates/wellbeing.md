@@ -58,8 +58,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 [!INCLUDE [Setup step 3](includes/setup-step-3.md)]
     ![Wellbeing query setup](/viva/insights/advanced/images/wellbeing-pbi-setup.png)
 
-[!INCLUDE [Setup step 4](includes/setup-step-4.md)]
-    ![Wellbeing query predefined metrics](/viva/insights/advanced/images/wellbeing-pbi-predefined-metrics.png)
+[!INCLUDE [Setup step 4](includes/setup-step-4.md)]![Wellbeing query predefined metrics](/viva/insights/advanced/images/wellbeing-pbi-predefined-metrics.png)
 
 [!INCLUDE [Setup steps 5-12](includes/setup-steps-5-12.md)]
 
