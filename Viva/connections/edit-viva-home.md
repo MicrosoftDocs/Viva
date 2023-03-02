@@ -97,9 +97,9 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 | Dashboard cards | How to use the card | Default card by audience| 
 | :------------------------| :-------------------| :----------------------|
-| [Approvals](create-dashboard.md#add-the-approvals-card) | Request time off, approve expense reports, and sign-off on documents.  | Frontline worker        |
+| [Approvals](create-dashboard.md#add-the-approvals-card) | Request time off, approve expense reports, and sign off on documents.  | Frontline worker        |
 | [Assigned tasks](create-dashboard.md#add-the-assigned-tasks-card)  | Review and complete daily tasks assigned by your manager or team. | Frontline worker and Information worker    |
-| [Shifts](create-dashboard.md#add-a-shifts-card) | Clock-in and clock-out of shifts and view upcoming shifts and breaktimes. | Frontline worker       |
+| [Shifts](create-dashboard.md#add-a-shifts-card) | Clock-in and clock-out of shifts and view upcoming shifts and break times. | Frontline worker       |
 | [Top news](create-dashboard.md#add-the-top-news-card) | View the most important news from inside your organization. Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to get news posts from organizational news sites to display in this card.  | Frontline worker and Information worker         | 
 | [Viva Learning](create-dashboard.md#add-a-viva-learning-card) | View recommended and required training courses. | Information worker            | 
 | Viva Topics    | Share and contribute to your organization’s knowledge base. | Information worker          | 
