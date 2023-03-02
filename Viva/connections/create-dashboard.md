@@ -26,7 +26,7 @@ description: "Learn how to edit the Viva Connections dashboard"
 # Create a Viva Connections dashboard and add cards
 
 The Viva Connections dashboard provides fast and easy access to information and job-related tasks. Content on the dashboard can be targeted to users in specific roles, markets, and job functions.
-The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx)framework, internal links, and external links. 
+The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links. 
 
 ![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-new.png)
 
@@ -74,7 +74,7 @@ The Viva Connections dashboard can be edited right from Microsoft Teams. You’l
 
 ## How to edit the dashboard from SharePoint when you have a home site
 
-If your organization has a [SharePoint home site](home-site-plan.md), you have the option to setup and edit the dashboard from the home site or in Microsoft Teams. You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the home site.
+If your organization has a [SharePoint home site](home-site-plan.md), you have the option to set up and edit the dashboard from the home site or in Microsoft Teams. You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the home site.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE53Joj]
 
