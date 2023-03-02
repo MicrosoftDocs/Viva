@@ -47,7 +47,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
     ![Screenshot that shows the Business resilience icon.](/viva/insights/advanced/images/br-pbi-start.png)
 
-3. [!INCLUDE [Setup step 3](includes/setup-step-3.md)]
+[!INCLUDE [Setup step 3](includes/setup-step-3.md)]
 
 ![Screenshot that shows the Query setup section.](/viva/insights/advanced/images/br-pbi-query-setup.png)
 
