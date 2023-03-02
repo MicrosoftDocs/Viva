@@ -1,4 +1,4 @@
-3. Under **Query setup**:
+ Under **Query setup**:
     1. Type a **Query name**.
 
     1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
