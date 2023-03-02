@@ -480,7 +480,7 @@
         "redirect_document_id": false
         },
         {"source_path": "viva/connections/guide-to-setting-up-viva-connections.md",
-          "redirect_url": "viva/connections/viva-connections-setup-guide",
+          "redirect_url": "/viva/connections/viva-connections-setup-guide",
           "redirect_document_id": false
           }
     ]
