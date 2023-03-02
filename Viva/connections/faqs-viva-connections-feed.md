@@ -148,7 +148,7 @@ In the [Feed for Viva Connections web part](/viva/connections/use-feed-web-part-
 
 [Overview of Viva Connections](viva-connections-overview.md)
 
-[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
+[Set up and launch Viva Connections](viva-connections-setup-guide.md)
 
 [Use the Viva Connections Feed web part](https://support.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330)
 
