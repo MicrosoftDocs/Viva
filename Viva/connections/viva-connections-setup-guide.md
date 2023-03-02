@@ -31,7 +31,7 @@ Microsoft [Viva Connections](viva-connections-overview.md) is an employee experi
 
 Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices to create an engaging user experience.
 
-**In this guide, you’ll learn how to:**
+**In this guide, you’ll learn how to**
 
 - Set up Viva Connections 
 - Set up Viva Connections and a SharePoint home site
@@ -63,8 +63,6 @@ Viva Connections does not have any requirements to get started. Start by adding 
 **Permissions**
 - Teams administrator (or higher) permissions are required to add the Viva Connections app to the Teams Admin Center (TAC).
 
-
-
 ### Step 2: Choose app settings  
 The Viva Connections app creates a custom app in Microsoft Teams. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams experience. Users won’t see the app by default if you don’t pre-install and pre-pin.
 
@@ -74,7 +72,6 @@ The Viva Connections app creates a custom app in Microsoft Teams. Your organizat
 
 **Permissions**
 - Teams administrator (or higher) permissions are required.
-
 
 ### Step 3: Assign owners and members 
 Decide who should get access to editing elements of the landing experience. Assign at least 2 owners and a few members. If you are setting Viva Connections up for the first time, only owners of the SharePoint root site will be able to edit. When the home experience is edited for the first time, a SharePoint site on the backend will get created. You’ll want to assign (at least two) owners and members from this site to give permissions to others so they can edit the experience for the rest of the organization. [Learn more about what each role can do](edit-viva-home.md#manage-permissions).
@@ -95,21 +92,17 @@ Decide who should get access to editing elements of the landing experience. Assi
 After getting the app in Teams, choose the primary audience for this experience between employees who are generally frontline workers or information workers to select a set of default dashboard cards that can be edited or removed later. Add a custom banner image, add more cards to the dashboard (if desired), and set up navigational links to popular destinations in the navigation section. 
 
 **Get started**
-1. Learn more about [what content can be customized](edit-viva-home.md)
+1. Learn more about [what content can be customized](edit-viva-home.md).
 2. Upload a banner image, add more dashboard cards (if desired), and customize the navigation section. 
-
 
 **Permissions**
 - Member or owner permissions are required to change banner image, edit the dashboard, and edit navigational content.
-
 
 ### Step 5: Let your users know how to access and use Viva Connections
 
 | Viva Connections dashboard interaction                 |End-user guidance                 | 
 | :------------------- | :------------------- |
 | ![Automated GIF of the Dashboard on a mobile device.](../media/connections/new-vc-dashboard-interaction.gif)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop and mobile experiences](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). <br> [Learn more about how to help your organization adopt Viva Connections](https://adoption.microsoft.com/viva/). | 
-
-
 
 
 ## Set up a SharePoint home site and Viva Connections
