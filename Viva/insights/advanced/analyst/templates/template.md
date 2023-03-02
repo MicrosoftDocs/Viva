@@ -42,6 +42,11 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 ## Report setup
 
+### Run query
+
+>[!Note]
+>The report is available in these languages: English, Japanese, German, Chinese (Simplified), Spanish, French, Portuguese (Brazil), Russian, Italian, Chinese (Traditional), Korean.
+
 1.	In the Viva Insights analyst experience, select **Analysis**.
 2.	Under Power BI templates, navigate to **---** and select **Start analysis**. 
 [!INCLUDE [Setup step 3](includes/setup-step-3.md)]

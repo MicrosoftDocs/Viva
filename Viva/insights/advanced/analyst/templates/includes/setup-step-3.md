@@ -1,3 +1,4 @@
+
 3. Under **Query setup**:
     1. Type a **Query name**.
     1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
@@ -9,7 +10,7 @@
 
     4. Type a **Description** (optional).
     
-        Selecting **More settings** brings you the **More settings** pane. This pane contains:
+    5. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. For more information about metric rules, refer to [Metric rules](../../metric-rules.md) brings you the **More settings** pane.
 
-        * **Group by** settings. Power BI queries are set to **Group by Week**. You can't edit this field.
-        * **Metric rules**. To set a new metric rule, select one from the list. For more information about metric rules, refer to [Metric rules](../../metric-rules.md).
+    >[!Note]
+    >The **More settings** pane also contains **Group by** settings. Power BI queries are set to **Group by Week**, and you're not able to edit this field.
