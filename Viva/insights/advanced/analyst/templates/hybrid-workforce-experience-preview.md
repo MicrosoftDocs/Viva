@@ -54,14 +54,13 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 1. In the analyst experience in Viva Insights, select **Analysis**.
 
 2. Under **Power BI templates**, navigate to **Hybrid workforce experience (preview)** and select **Start analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
-![Start query](/viva/insights/advanced/images/hwfe-preview-pbi-start.png)
+
+    ![Start query](/viva/insights/advanced/images/hwfe-preview-pbi-start.png)
 
 [!INCLUDE [Setup step 3](includes/setup-step-3.md)]
-
-![Start query](/viva/insights/advanced/images/hwfe-preview-pbi-setup1.png)
+    ![Start query](/viva/insights/advanced/images/hwfe-preview-pbi-setup1.png)
 
 [!INCLUDE [Setup step 4](includes/setup-step-4.md)]
-
     ![Start query](/viva/insights/advanced/images/hwfe-preview-pbi-predefined-metrics.png)
 
 [!INCLUDE [Setup steps 5-12](includes/setup-steps-5-12.md)]

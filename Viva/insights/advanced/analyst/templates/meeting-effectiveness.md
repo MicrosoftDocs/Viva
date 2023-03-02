@@ -46,10 +46,10 @@ To populate the report in Power BI, you’ll need to set up and successfully run
     ![Screenshot that shows the Meeting effectiveness icon in Viva Insights.](/viva/insights/advanced/images/me-pbi-icon2.png)
 
 [!INCLUDE [Setup step 3](includes/setup-step-3.md)]
-![Screenshot that shows the Query setup screen.](/viva/insights/advanced/images/me-pbi-query-setup.png)
+    ![Screenshot that shows the Query setup screen.](/viva/insights/advanced/images/me-pbi-query-setup.png)
 
 [!INCLUDE [Setup step 4](includes/setup-step-4.md)]
-![Screenshot that shows predefined metrics.](/viva/insights/advanced/images/me-pbi-query-metrics.png)
+    ![Screenshot that shows predefined metrics.](/viva/insights/advanced/images/me-pbi-query-metrics.png)
 
 [!INCLUDE [Setup steps 5-12](includes/setup-steps-5-12.md)]
 
