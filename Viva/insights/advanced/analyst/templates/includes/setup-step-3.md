@@ -1,4 +1,3 @@
-
 3. Under **Query setup**:
     1. Type a **Query name**.
 

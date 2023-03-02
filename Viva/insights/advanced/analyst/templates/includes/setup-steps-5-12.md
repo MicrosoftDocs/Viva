@@ -1,4 +1,3 @@
-
 5. In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, refer to [Filters](../../filters.md).
 
     ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
@@ -21,6 +20,7 @@
 10. If you're prompted to select a program, select **Power BI**.
 
 11. When you're prompted by Power BI:
+
     1. Paste in the partition and query identifiers.
     
     1. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
@@ -32,6 +32,5 @@
 >[!Important]
 > You need to sign in to Power BI with the same account you use to access Viva Insights. If available, select **Organizational account** from the left. You might have to sign in more than once.
 >:::image type="content" source="../../../images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab." :::
-
 
 After the report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. 

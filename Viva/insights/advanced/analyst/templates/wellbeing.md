@@ -22,10 +22,16 @@ The **Wellbeing – balance and flexibility report** uses a template populated b
 The report includes the following pages:
 
 * **Improve focus** – Do employees have time to focus on their core priorities?
+
 * **Balance work and life** – Are employees able to protect personal time?
+
 * **Handle urgency** – Can employees manage unexpected demands and proactively shift some to planned work?
+
 * **Embrace flexibility** – Are employees adopting a flexible working schedule?
+
+
 * **Take breaks** – Are employees able to mindfully disconnect?
+
 * **Stay connected** – Are employees part of a community at work?
 
 ![Screenshot that shows the Wellbeing report, Report settings.](/viva/insights/advanced/images/wellbeing-PBI-summary1.png)
@@ -64,10 +70,15 @@ After the **Wellbeing - balance and flexibility** report is set up and populated
 ![Screenshot that shows the Wellbeing report summary page.](/viva/insights/advanced/images/wellbeing-pbi-summary1.png)
 
 * **Select the time period to measure** – This is the time period that you want to analyze. Note that the four-week trend information on the summary page won’t show if the selected time period is less than eight weeks.
+
 * **Select an organizational attribute to view the report by** – This is the primary "group-by" attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will group values by the new attribute.
+
 * **Select optional filters to exclude employee groups** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will show a reduced number. Measured employees are the number of employees in the filtered population who were active during the specified time period. Active employees are those who send at least one email or Teams chat during a work week that's included in the current time period.
+
 * **Exclude weeks marked with a holiday indicator** – Select this control to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
+
 * **Exclude non-knowledge workers** – Select to exclude employees who spend a weekly average of no more than five hours in meetings, emails, instant messages, and calls because they’re unlikely to be knowledge workers or they don’t use Outlook or Teams.
+
 * **Select the preferred language for your report** – Change the language for your report. 
 
 ### Customize working hours
@@ -97,7 +108,9 @@ This page shows the percentage of employees and work weeks involved in urgent co
 This page highlights three key aspects that help you identify employees' flexibility at work:
 
 * **Flexible start times** – Shows the percentage of weeks in which the employees have at least one day of flexible start time in a week.
+
 * **Recurring time to disconnect** – Shows the percentage of weeks in which the employees take at least one hour of recurring break each day over the week.
+
 * **Control active hours** – Shows the percentage of weeks in which the employees limit their work activities to their expected working hours over the week. If the employees have a standard work schedule from 9:00 AM to 5:00 PM, their expected working hours for each day are eight hours. This analysis provides insights into how employees are adopting flexible working schedules.
 
 >[!Tip]
@@ -121,8 +134,11 @@ This page highlights how employees connect with colleagues through small group m
 The report also includes:
 
 * A **Behavioral trends** page that tracks key metrics over time
+
 * A **Take action** page that provides actionable recommendations to improve behaviors
+
 * An **Explore further** page that highlights the research and studies in each topic
+
 * A **Glossary page** that describes all the metrics in the report
 
 [!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]

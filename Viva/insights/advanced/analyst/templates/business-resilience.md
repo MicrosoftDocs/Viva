@@ -22,8 +22,11 @@ The **Business resilience report** uses a template populated by Viva Insights da
 With this report, you can visualize and explore the following top-level business questions asked by leaders:
 
 * How are collaboration activities changing?
+
 * How has manager coaching changed over time?
+
 * How have internal relationships changed over time?
+
 * Are external relationships being maintained?
 
 Each report page includes a **Why this matters** interpretation, **recommended actions**, and **metric definitions**.
@@ -70,11 +73,17 @@ Then, view and set the following parameters on the **Settings** page.
     > Make sure the **Baseline** time period precedes and doesn’t overlap with the **Current** time period. If the two time frames overlap, you'll receive a warning.
 
 * **Current** – This is the time period you want to compare with the **Baseline**.
+
 * **Select an organizational attribute to view the report by** – This is the primary group-by attribute shown in all subsequent pages. You can change this attribute at any time; all subsequent report pages will show values grouped by the new attribute.
+
 * **Select optional filters to exclude employee groups** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number.
+
 * **Exclusions** – Use the check boxes to:
+
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
+
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
+
 * **Select the preferred language for your report** – Change the language for your report. 
 
 

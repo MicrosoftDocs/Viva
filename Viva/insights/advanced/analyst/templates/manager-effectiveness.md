@@ -59,16 +59,22 @@ After the **Manager effectiveness report** is set up and populated with Viva Ins
 ![Screenshot that shows the Manager effectiveness report IC and Mgr questions.](/viva/insights/advanced/images/manager-effectiveness-pbi-questions.png)
 
 After this initial prompt, you can then select **Settings** at top right of any page to view and change the following parameters:
-* **Select the time period for the report** – Select the time period for which you want to view data in the report.  
+
+* **Select the time period for the report** – Select the time period for which you want to view data in the report. 
+
 * **Select an attribute to group data by** – Select the primary group-by attribute shown in all the reports. You can change this attribute at any time and all report pages will show group values by the new attribute.
+
 * **Select optional report filter** – Select the organizational attribute and values you want to filter the employees in the report.
+
 * **Exclusions** – Use the check boxes to:
+
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
+
     * Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.
+
 * **Select the preferred language for your report** – Change the language for your report. 
 
 ![Screenshot that shows the Manager effectiveness report, customize report.](/viva/insights/advanced/images/manager-effectiveness-pbi-customize-report.png)
-
 
 
 ## About this report
@@ -76,6 +82,7 @@ After this initial prompt, you can then select **Settings** at top right of any 
 The report contains one report page per theme, and each report page asks a related business question. The following section:
 
 * Lists the report pages that fall under each theme and describes which data they contain.
+
 * Describes the report’s **Behavioral trends** and **Take action** pages. 
 
 ### Manager capacity

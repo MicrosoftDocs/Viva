@@ -58,13 +58,21 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 After the Meeting effectiveness report is set up and populated with Viva Insights data in Power BI:
 
 1. Select the report's time period. This setting primarily alters the data displayed in the trend charts. Reducing the time period to less than eight weeks isn't recommended because some insights, like the month-over-month indicators, won’t have enough data to calculate.
+
 1. Select the report's aggregation period. The aggregation period defines the span of time the report uses to calculate all aggregated insights. For example, if you select **Last 4 weeks**, insights will be aggregated over the four-week period leading up to the end date. Alternatively, if you select **Last 1 week**, insights be aggregated over the last week leading up to the end date.
+
 1. Select the average cost of an employee meeting hour. Change this value to calculate a more accurate value for meeting hours across the report.
+
 1. Select an organizational attribute to view the report by. This attribute is the primary group-by attribute shown in all subsequent pages. You can change this attribute at any time; all subsequent report pages will show values grouped by the new attribute.
+
 1. Select optional filters to exclude employee groups. To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use these optional filters, the measured employees count will reflect a reduced number.
+
 1. Set exclusions. Use the check boxes to:
+
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
+
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
+
 1. Select the preferred language for your report. Change the language for your report. 
 
 ![Screenshot that shows Report settings page in PowerBI.](/viva/insights/advanced/images/me-pbi-report-settings.png)
@@ -99,7 +107,9 @@ This page shows similar insights to the overview page, but it displays them base
 When organizing meetings and trying to make sure time is spent effectively, it can help to think about the meeting in these three phases:
 
 * **Before** the meeting, think about who the right attendees are, how much time you’ll need, who your required stakeholders are and whether they’re available, and more.
+
 * **During** the meeting, make sure you get started on time, get through your agenda, and enable people to participate.
+
 * **After** the meeting, evaluate it, ask for feedback, and send out notes and action items.
 
 ### Meeting hours
