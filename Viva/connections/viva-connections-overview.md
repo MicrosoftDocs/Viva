@@ -31,7 +31,7 @@ Microsoft Viva Connections is your gateway to a modern employee experience and i
 
 :::image type="content" source="../media/connections/vc-desktop-mobile.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/vc-desktop-mobile.png":::
 
-Use the [quick guide to set up Viva Connections](guide-to-setting-up-viva-connections.md) or get [more detailed guidance on how to plan, build, and launch](plan-viva-connections.md).
+Use the [quick guide to set up Viva Connections](viva-connections-setup-guide.md) or get [more detailed guidance on how to plan, build, and launch](plan-viva-connections.md).
 <br>
 <br>
 
