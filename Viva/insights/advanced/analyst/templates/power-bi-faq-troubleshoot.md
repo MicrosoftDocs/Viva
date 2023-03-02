@@ -17,11 +17,17 @@ audience: Admin
 
 # Power BI tips, FAQ, and troubleshooting
 
-This article gives you a few guidelines to consider when setting up the Power BI templates, answers to some of the most frequently asked questions, and troubleshooting for the most common issues about setting up and using the templates in the the advanced insights app with Viva Insights.
+In this article, we'll provide some more information about Power BI templates in Microsoft Viva Insights, including:
+
+* Guidelines to consider when setting up template queries.
+* How you might share your reports.
+* A few notes about customizing templates.
+* Answers to some frequently asked questions.
+* Troubleshooting tips to resolve issues you might encounter in Power BI.
 
 ## Setting up the Power BI template
 
-These templates are designed to help Viva Insights users with the most common setups and business scenarios. For best results, use the following guidelines for selecting the parameters while setting up the templates for Power BI:
+We designed these templates to help Viva Insights users with the most common setups and business scenarios. For best results, follow these guidelines while setting up your Power BI template queries:
 
 * Limit the number of employees included in your query results to 50,000 or fewer.
 * Select the last six months or fewer for the time period.
@@ -74,17 +80,53 @@ To maintain data privacy, only employees assigned the role of **Insights Analyst
 
 See [Power BI documentation](/powerbi) for details on how to use Power BI.
 
-### Q6 What languages are the dashboards available in?
+### Q6 What languages are the reports available in?
 
-For this release of Viva Insights, the reports are currently only available in English.
+Power BI report templates are available in these languages: 
+
+* English
+* Chinese (Simplified)
+* Chinese (Traditional)
+* French
+* German
+* Italian
+* Japanese
+* Korean
+* Portuguese (Brazil)
+* Russian
+* Spanish
+
+However, there are a few template elements that aren't localized:
+
+* Report name pages. Page names are always in English.
+* Chart legends in Power BI Desktop. Chart legends *are* localized in the [Power BI service](/power-bi/fundamentals/power-bi-service-overview).
+* Values for certain slicers and drop downs.
+* Column names, including metric names. When you set up the query for your Power BI report, the advanced insights app displays metric names based on your location settings. However, when query results load into the Power BI template, metric names are translated back into English.
+* Currency symbols. Currency only uses the “$” symbol.
+
 
 ## Troubleshooting
 
+Here are a few errors you might encounter, and what might be causing them.
+
 ### The import VivaInsight.Data matches no exports. Did you miss a module reference?
 
-If you get the following error, you aren't using the June 2022 version of Power BI Desktop or newer.
+If you get this error, you aren't using the June 2022 version of Power BI Desktop or newer:
 
 ![Matches no exports error](/viva/insights/advanced/images/pbi-error.png)
+
+### We found extra characters at the end of the JSON input.
+
+You might get this error if you used the wrong credentials while setting up the Power BI template.
+
+
+Here's what you can do to resolve it:
+
+1.	In Power BI, open the **Transform data** menu and select **Data source settings**.
+2.	Select **Global permissions**, select `https://api.orginsights.viva.office.com`, and then select **Clear permissions**.
+3.	Select **Delete**.
+4.	Close Power BI and follow the setup instructions for the [applicable Power BI template](introduction-to-templates.md).
+
 
 ## Support
 
