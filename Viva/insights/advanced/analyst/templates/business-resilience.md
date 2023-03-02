@@ -22,11 +22,8 @@ The **Business resilience report** uses a template populated by Viva Insights da
 With this report, you can visualize and explore the following top-level business questions asked by leaders:
 
 * How are collaboration activities changing?
-
 * How has manager coaching changed over time?
-
 * How have internal relationships changed over time?
-
 * Are external relationships being maintained?
 
 Each report page includes a **Why this matters** interpretation, **recommended actions**, and **metric definitions**.
@@ -39,10 +36,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
-[!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
-
 1. In the Viva Insights analyst experience, select **Analysis**.
-
 2. Under **Power BI templates**, navigate to **Business resilience** and select **Start analysis**. For more information about the Business resilience template before running your analysis, select **Learn more**.
 
 [!INCLUDE [Setup steps](includes/setup-steps.md)]
@@ -54,26 +48,16 @@ After the Business resilience report is set up and populated with Viva Insights 
 Select **Next** after you’ve made your selections. If you change your mind later, you’ll be able to change the **Baseline** and **Current** time periods in the **Settings** page.
 
 Then, view and set the following parameters on the **Settings** page.
-
 * **Baseline** – This is the baseline for your analysis; all changes will be compared with this time period.
-
     >[!Important]
     > Make sure the **Baseline** time period precedes and doesn’t overlap with the **Current** time period. If the two time frames overlap, you'll receive a warning.
-
 * **Current** – This is the time period you want to compare with the **Baseline**.
-
 * **Select an organizational attribute to view the report by** – This is the primary group-by attribute shown in all subsequent pages. You can change this attribute at any time; all subsequent report pages will show values grouped by the new attribute.
-
 * **Select optional filters to exclude employee groups** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number.
-
 * **Exclusions** – Use the check boxes to:
-
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
-
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
-
 * **Select the preferred language for your report** – Change the language for your report. 
-
 
 ## About the report
 

@@ -24,9 +24,7 @@ audience: Admin
 As leaders figure out their organization’s new working models, the **Hybrid workforce experience** Power BI report in Microsoft Viva Insights helps organizations understand how hybrid work affects employees in various work modes differently. The report identifies opportunities to improve the experience of employees working in the following ways:
 
 * Mostly onsite
-
 * Mostly remote
-
 * Onsite some days of the week and remote on others (hybrid)
 
 The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (that is, from the company’s corporate network). The detection of an employee's onsite days is based on Azure Active Directory (AD) log-in information. Note that the algorithm only uses three out of four octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
@@ -42,15 +40,12 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
 * Have the following attributes uploaded as part of your organizational data:
-
   * **SupervisorIndicator**, an attribute indicating whether someone is a manager.
-
   * **HireDate**, an attribute indicating the person’s hire date is required to be able to load the New hire onboarding insights. Without this attribute, however, the rest of the report will still load.
 
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
 1. In the analyst experience in Viva Insights, select **Analysis**.
-
 2. Under **Power BI templates**, navigate to **Hybrid workforce experience (preview)** and select **Start analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 
 [!INCLUDE [Setup steps](includes/setup-steps.md)]
@@ -68,16 +63,11 @@ After the **Hybrid workforce experience report (preview)** is set up and populat
 |Managers| Select the attribute values that identify managers who manage people within your organization, such as **Mgr** and **Mgr+**.|
 
 After this initial prompt, you can then select **Settings** at top right of any page to view and change the following parameters:
-
-* **Select the time period for the report** – Select the time period for which you want to view data in the report. 
- 
+* **Select the time period for the report** – Select the time period for which you want to view data in the report.  
 * **Select an attribute to group data by** – Select the primary group-by attribute shown in all the reports. You can change this attribute at any time and all report pages will show group values by the new attribute.
-
 * **Select optional report filter** – Select the organizational attribute and values you want to filter the employees in the report.
-
 * **Exclusions** – Use the check boxes to:
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
-
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
 
 * **Select the preferred language for your report** – Change the language for your report. 
@@ -135,11 +125,8 @@ This page shows the average internal employee network size, split by work mode, 
 This page shows, by work mode, the percent of employees collaborating outside of their working hours as set in Outlook for more than five hours per week. The chart on the right takes into account both the number of distinct daily hours employees participate in meetings, emails, and Teams chats or calls, as well as the average weekly hours employees spend collaborating outside of their set working hours. By combining both metrics, the page shows the following working patterns:
 
 * Long non-standard hours: employees with more than nine distinct active hours a day and spending more than five hours a week in collaboration outside of set working hours.
-
 * Long hours: employees with more than nine active hours a day but fewer than five hours a week in collaboration outside of set working hours.
-
 * Flexible hours: employees with nine or fewer active hours a day, but who spend more than five hours a week outside of typical or set working hours.
-
 * Low-collaboration & standard hours: employees with nine or fewer active hours a day and fewer than five hours per week spent in collaboration outside of set working hours. These employees are either successfully keeping their hours in check or depend less on collaboration to get their jobs done.
 
 #### New hire onboarding
@@ -149,7 +136,6 @@ This page shows, by work mode, the percent of employees collaborating outside of
 This page shows the average weekly time new hires get with their manager, broken out by work mode. New hires are defined as employees with tenure of less than one year. The toggle key allows you to review all time spent in meetings or calls where both the employee and their manager are present. This information can help a manager:
 
 * Provide support and mentoring.
-
 * Focus on the time spent in 1:1s with the employee, which presents a great opportunity for new-hire coaching and providing direction.
 
 The chart on the right shows the average internal new-hire network size in an employee’s first couple of months, broken out by work mode. This chart indicates the pace at which new hires in different work modes are building their networks and integrating in the organization.
@@ -171,17 +157,11 @@ This page shows the trends for key leading indicator metrics that were introduce
 The report also includes the following features:
 
 * **Break out by group** panes, which allow you to do further drill-throughs on the report pages and group data by different organizational attributes.
-
 * **Take action** panes, which list opportunity areas and recommended actions for each section in the report.
-
 * **Settings**, where you can:
-
     * Select the time period and organizational attribute by which to view the reports.
-
     * Select which employees to include in the reports.
-
     * Use exclusion options.
-
 * **Glossary** that describes the metrics used in the different reports.
 
 [!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
