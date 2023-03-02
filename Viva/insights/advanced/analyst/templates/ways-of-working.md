@@ -57,8 +57,6 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 2. Under **Power BI templates**, navigate to **Ways of working** and select **Start analysis**. To get more information about the Ways of working template before running your analysis, select **Learn more**.
 
-    ![Screenshot that shows the Ways of working icon.](/viva/insights/advanced/images/wow-pbi-start1.png)
-
 [!INCLUDE [Setup steps](includes/setup-steps.md)]
 
 ## Report settings
@@ -80,8 +78,6 @@ After the **Ways of working** report is set up and populated with Viva Insights 
 * **Select the preferred language for your report** – Change the language for your report. 
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
-
-![Screenshot that shows the Report settings page in Power BI.](/viva/insights/advanced/images/wow-pbi-report-settings.png)
 
 ## About this report
 

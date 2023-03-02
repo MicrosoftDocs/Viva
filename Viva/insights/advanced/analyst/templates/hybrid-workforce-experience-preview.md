@@ -33,8 +33,6 @@ The classification of employees in these different groups is customizable and is
 
 The report has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.
 
-![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-preview-PBI-summary.png)
-
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Hybrid workforce experience (preview)** query in Viva Insights.
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
@@ -55,8 +53,6 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 2. Under **Power BI templates**, navigate to **Hybrid workforce experience (preview)** and select **Start analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 
-    ![Start query](/viva/insights/advanced/images/hwfe-preview-pbi-start.png)
-
 [!INCLUDE [Setup steps](includes/setup-steps.md)]
 
 ## Report settings
@@ -70,8 +66,6 @@ After the **Hybrid workforce experience report (preview)** is set up and populat
 |Mostly remote| Select the  average % of onsite work days that best describe the work mode of employees that work mostly remote (that is, from home or some other location outside the company’s main worksite).|
 |Individual contributors| Select the attribute values that identify employees as individual contributors who do not manage people within your organization.|
 |Managers| Select the attribute values that identify managers who manage people within your organization, such as **Mgr** and **Mgr+**.|
-
-![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-preview-PBI-questions.png)
 
 After this initial prompt, you can then select **Settings** at top right of any page to view and change the following parameters:
 
@@ -87,8 +81,6 @@ After this initial prompt, you can then select **Settings** at top right of any 
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
 
 * **Select the preferred language for your report** – Change the language for your report. 
-
-    ![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-preview-pbi1.png)
  
 ## About this report
 

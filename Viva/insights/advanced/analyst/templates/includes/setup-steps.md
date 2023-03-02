@@ -12,19 +12,14 @@
 
     4. Type a **Description** (optional).
     
-    5. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. For more information about metric rules, refer to [Metric rules](../../metric-rules.md) brings you the **More settings** pane.
+    5. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. For more information about metric rules, refer to [Metric rules](../../metric-rules.md).
 
     >[!Note]
     >The **More settings** pane also contains **Group by** settings. Power BI queries are set to **Group by Week**, and you're not able to edit this field.
 
-    :::image type="content" source="../../../images/analyst-pbi-report-setup.png" alt-text="Screenshot that shows the Query setup section of the query."lightbox="../../../images/analyst-pbi-report-setup-expanded.png":::
+4. Under **Predefined template metrics**, you’ll find a list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. You can add other metrics by selecting **Add metrics**. 
 
-4. Under **Predefined template metrics**, you’ll find a list of preselected metrics. These metrics are required to set up the Power BI report and you can’t remove them. You can add other metrics by selecting **Add metrics**. Here's an example of a predefined metric, which appears as a gray tag:
-    
-    :::image type="content" source="../../../images/analyst-pbi-gray-metric2.png" alt-text="Screenshot of an example predefined metric, which is text within a gray tag.":::
 5. In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, refer to [Filters](../../filters.md).
-
-    ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
 
 6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
 

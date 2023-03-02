@@ -45,15 +45,11 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 2. Under **Power BI templates**, navigate to **Business resilience** and select **Start analysis**. For more information about the Business resilience template before running your analysis, select **Learn more**.
 
-    ![Screenshot that shows the Business resilience icon.](/viva/insights/advanced/images/br-pbi-start.png)
-
 [!INCLUDE [Setup steps](includes/setup-steps.md)]
 
 ## Report settings
 
 After the Business resilience report is set up and populated with Viva Insights data in Power BI, you’ll be prompted to select **Baseline** and **Current** time periods, which can’t overlap.
-
-![Screenshot that shows the Set up the report page in Power BI.](/viva/insights/advanced/images/br-set-up-report.png)
 
 Select **Next** after you’ve made your selections. If you change your mind later, you’ll be able to change the **Baseline** and **Current** time periods in the **Settings** page.
 

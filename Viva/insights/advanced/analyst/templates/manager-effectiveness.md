@@ -21,8 +21,6 @@ The **Manager effectiveness report** uses a template populated by Microsoft Viva
 
 Each theme includes insights about manager effectiveness and ways to help maintain or increase preferred leadership behaviors. Key metrics are used to deep-dive into each theme, along with a **Why this matters** interpretation and best practices recommended by industry experts.
 
-![Screenshot that shows the Manager effectiveness report, Summary.](/viva/insights/advanced/images/manager-effectiveness-pbi-summary.png)
-
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Manager effectiveness** query in Viva Insights.
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
