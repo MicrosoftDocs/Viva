@@ -22,7 +22,9 @@
 
 11. When you're prompted by Power BI:
     1. Paste in the partition and query identifiers.
+    
     1. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
+    
     1. Select **Load** to import the query results into Power BI.
 
 12. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data. For large files, this process might take a few minutes.

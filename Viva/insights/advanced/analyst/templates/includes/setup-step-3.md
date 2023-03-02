@@ -1,7 +1,9 @@
 
 3. Under **Query setup**:
     1. Type a **Query name**.
+
     1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
+    
     1. Set **Auto-refresh** (optional). You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
 
     >[!Note]
