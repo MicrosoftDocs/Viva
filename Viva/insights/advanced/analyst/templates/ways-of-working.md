@@ -80,9 +80,6 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
 ![Screenshot that shows predefined query metrics.](/viva/insights/advanced/images/wow-pbi-predefined-metrics1.png)
 
-    >[!Note]
-    > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
-
 5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
 
     ![Screenshot that shows the Is active filter.](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
@@ -124,6 +121,7 @@ After the **Ways of working** report is set up and populated with Viva Insights 
 * **Exclusions** – Use the check boxes to:
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.
+* **Select the preferred language for your report** – Change the language for your report. 
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 

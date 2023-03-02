@@ -79,9 +79,6 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
 ![Screenshot that shows predefined metrics.](/viva/insights/advanced/images/me-pbi-query-metrics.png)
 
-    >[!Note]
-    > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
-
 5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a custom Person query](../person-query.md).
 
     ![Screenshot that shows the Is active filter.](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
@@ -126,19 +123,10 @@ After the Meeting effectiveness report is set up and populated with Viva Insight
 1. Set exclusions. Use the check boxes to:
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
-
+1. Select the preferred language for your report. Change the language for your report. 
 
 ![Screenshot that shows Report settings page in PowerBI.](/viva/insights/advanced/images/me-pbi-report-settings.png)
 
-<!--
-
-### Employees with low collaboration
-
-By default, this report excludes employees who spend a weekly average of less than five hours in meetings, email, instant messages, and calls because they're likely non-knowledge workers or they don't use Outlook or Teams.
-
-The report also excludes unusually low collaboration weeks based on individual collaboration patterns. These low-collaboration weeks usually occur when employees are taking time off from work.
-
-If you want to include employees with low collaboration in your analysis, select the **Clear filter** (eraser) icon to clear the **IsLikelyKnowledgeWorker** and **IsLikelyHoliday** filters in the Power BI Filters pane.-->
 
 ## About the report
 

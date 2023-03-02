@@ -88,9 +88,6 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
     ![Start query](/viva/insights/advanced/images/hwfe-preview-pbi-predefined-metrics.png)
 
->[!NOTE]
-> Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
-
 5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter.  For more details about filter and metric options, see [Create a custom Person query](../person-query.md).
 
     ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
@@ -145,9 +142,10 @@ After this initial prompt, you can then select **Settings** at top right of any 
 * **Exclusions** – Use the check boxes to:
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
+* **Select the preferred language for your report** – Change the language for your report. 
 
     ![Hybrid workforce experience Power BI report, Report settings](/viva/insights/advanced/images/hwfe-preview-pbi1.png)
-
+ 
 ## About this report
 
 This section:
