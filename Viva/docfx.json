@@ -46,7 +46,7 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-WorkplaceAnalytics",
       "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
-      "searchScope": "Microsoft Viva",
+      "searchScope": ["Microsoft Viva Insights", "Microsoft Viva"],
       "uhfHeaderId": "MSDocsHeader-MSViva",
       "contributors_to_exclude": [
         "rjagiewich",
@@ -68,7 +68,8 @@
       },
       "searchScope": {
         "Viva/insights/*.md": ["Microsoft Viva Insights"],
-        "Viva/insights/*.yml": ["Microsoft Viva Insights"]
+        "Viva/insights/*.yml": ["Microsoft Viva Insights"],
+        "Viva/**/*.md": ["Microsoft Viva"]
       }
     },
     "template": [],
