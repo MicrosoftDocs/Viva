@@ -85,8 +85,6 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 ||Booked focus hours kept with plan |Number of hours a person booked in Viva Insights, using a focus plan, that didn’t overlap with meetings. | Hour
 ||Booked focus hours kept without plan | Number of days a person booked as no-meeting days in Viva Insights.  |Hour
 ||Booked no-meeting days | Number of days a person booked as [no-meeting days](../../org-team-insights/shared-no-meeting-day.md) in Viva Insights.  | Hour
-
-
 |<a name="meeting-hours-on-time-and-advanced-notice-define"></a> **Meetings on time and with advanced notice**| <a name="meeting-hours-with-12-to-24-hours-of-advanced-notice-define"></a> Meeting hours with 12 to 24 hours of advanced notice | Number of meeting hours that were scheduled more than 12 and less than 24 hours before the meeting start time. | Hour
 ||<a name="meeting-hours-with-24-or-more-hours-of-advanced-notice-define"></a> Meeting hours with 24 or more hours of advanced notice |Number of meeting hours that were scheduled 24 hours or more before the meeting start time. | Hour|
 ||<a name="meeting-hours-with-six-or-fewer-hours-of-advanced-notice-define"></a>Meeting hours with six or fewer hours of advanced notice | Number of meeting hours that were scheduled six hours or before the meeting start time. | Hour
