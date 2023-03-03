@@ -62,10 +62,10 @@ These are communication types that you might already have in your existing rhyth
 The dashboard for an “All Hands” or “Town Hall” meeting might have the following elements, or widgets, within Viva Goals. 
 
 |Widget type   |Widget name   |Use  |Benefit  |
-|---------|---------|---------|---------|
-|Text block      |Agenda         |Communicate the agenda for the meeting.          |Helps set the context for everyone for the meeting.          |
-|Text block      |Updates from last time period          |Used to communicate wins, key learnings, current blockers, and upcoming steps.          |Enables all team members to get a holistic snapshot of recent progress.          |
-|OKR list      |View current objectives          |List top level OKRs to demonstrate progress against goals.          |Enables all team members to have transparency into how the organization is tracking against their metrics.          |
+| :--------- | :--------- | :--------- | :--------- |
+| Text block   | Agenda   | Communicate the agenda for the meeting.    | Helps set the context for everyone for the meeting.   |
+| Text block      | Updates from last time period          | Used to communicate wins, key learnings, current blockers, and upcoming steps.     | Enables all team members to get a holistic snapshot of recent progress.     |
+| OKR list   | View current objectives    | List top-level OKRs to demonstrate progress against goals.   | Enables all team members to have transparency into how the organization is tracking against their metrics.    |
 
 ## How to run an Organizational Visibility meeting
 
