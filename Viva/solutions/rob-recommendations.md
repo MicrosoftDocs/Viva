@@ -26,8 +26,8 @@ Looking to improve your healthy OKR program? Here are recommendations you can pe
 
 1. First, understand that every company already has some form of business rhythm, the ebb and flow of strategic planning, “all hands” meetings, and weekly updates. Organizations are most successful when incorporating OKRs into existing processes that are already in place and working, so rather than forcing something new, look for areas to infuse OKRs so they can be additive, not constraining. 
 
-2. Next, understand the four parts of the OKR cadence, known as the “4 Cs”: Collaborate, Create, Check-in, and Close. At each stage, take steps to reduce friction. 
-    1. Block calendar time for strategic planning, monthly OKR reviews, and end-of-quarter reflection in advance so that it is embedded into team workflow. 
+2. Next, understand the four parts of the OKR cadence, known as the “four Cs”: Collaborate, Create, Check-in, and Close. At each stage, take steps to reduce friction. 
+    1. Block calendar time for strategic planning, monthly OKR reviews, and end-of-quarter reflection in advance so that it's embedded into team workflow. 
     1. Use data integrations wherever possible to automate check-ins from a single source of truth. 
     1. Set reminder notifications to nudge users to perform check-ins to build good habits and avoid a “set it and forget it” mentality. 
 
@@ -37,7 +37,7 @@ Looking to improve your healthy OKR program? Here are recommendations you can pe
     1. Departmental Alignment 
     1. Team Execution 
 
-To get more clarity on how to move forward, ask your team these 3 questions: 
+To get more clarity on how to move forward, ask your team these three questions: 
 
 1. What business rituals does your organization use today that could be evolved to leverage OKRs? 
 1. Where are there manual data collection and reporting processes that could be automated? 
