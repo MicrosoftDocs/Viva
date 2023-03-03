@@ -63,7 +63,7 @@ A review dashboard for annual planning is a great way to visually organize your 
 
 
 |Widget type   |Widget name   |Use  |Benefit  |
-|---------|---------|---------|---------|
+| :--------- | :--------- | :---------| :--------- |
 |Text block      |Mission & Vision          |Communicate the vision, mission, and values of the company.          |Allows organizations to reiterate the purpose and get everyone excited about the upcoming year.          |
 |Text block      |Agenda         |Communicate the agenda for the meeting.          |Helps set the context for everyone for the meeting.          |
 |Custom Embed      |Revenue and Financial Metrics          |If needed, share financial metrics from previous time periods using an embedded report from Excel or other source.          |Allows senior leaders to quickly communicate financial status without having to jump back and forth to pull data from other tools.          |
@@ -76,7 +76,7 @@ A review dashboard for quarterly and monthly Strategy and Alignment meetings is 
 The dashboard might have the following elements, or widgets, within Viva Goals. 
 
 |Widget type  |Widget name  |Use  |Benefit  |
-|---------|---------|---------|---------|
+| :--------- | :--------- | :---------| :--------- |
 |Text block      |Agenda         |Communicate the agenda for the meeting.          |Helps set the context for everyone for the meeting.          |
 |Custom Embed      |Revenue and Financial Metrics          |If needed, share financial metrics from previous time periods using an embedded report from Excel or other source.          |Allows senior leaders to quickly communicate financial status without having to jump back and forth to pull data from other tools.          |
 |Text block      |Major initiatives          |Highlight major initiatives to be achieved in the coming year. Use “The 5 Ps” as a starting point if needed.          |Allows everyone to review the “big rocks” the organization focuses on during the year.          |
