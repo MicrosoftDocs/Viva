@@ -30,7 +30,10 @@ description: "Learn about how to plan, build, and launch the main landing site f
 
 # Plan, build, and launch a home site for your organization
   
-A SharePoint home site provides a customized landing experience that reflects the organization’s brand, voice, and priorities. A home site also serves as the gateway to other portals in your organization’s intranet. Your organization needs a home site not only to provide the best intranet experience for viewers but also to take advantage of features like SharePoint global navigation and the many ways to integrate your intranet with Microsoft Teams by using [Viva Connections](https://www.microsoft.com/microsoft-viva).
+A SharePoint home site provides a customized landing experience that reflects the organization’s brand, voice, and priorities. A home site also serves as the gateway to other portals in your organization’s intranet. [Learn more about how Viva Connections and home sites work together to create employee experiences.](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together) 
+
+> [!NOTE]
+> A home site is not required for the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071).
 
 If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [Set a site as your home site](/sharepoint/home-site).
 
@@ -90,6 +93,7 @@ Before you get started planning and building your home site, review best practic
 
 
 #### Considerations:
+
 -	Align the branding on the home site to the overall intranet brand where possible
 -	For organizations with many portals and resources, consider [making your home site a hub site](/sharepoint/planning-hub-sites) to expand navigational options and easily sync permissions and branding across many sites
 - If the site you want to be your home site isn't currently the root site and you want it to be, first [swap the home site with the root site location](/sharepoint/modern-root-site), and then set the site as your home site. If you set up a home site first, and then swap it with the root site, you may lose home site settings and need to reapply them.  
