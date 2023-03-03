@@ -53,6 +53,7 @@ Follow the instructions that are relevant for your organization. If you are unsu
 ## Set up Viva Connections without a home site
 Follow these instructions when your organization only wants to set up Viva Connections. 
 
+:::image type="content" source="../media/connections/step-vc.png" alt-text="Step diagram of how to add the Viva Connections app." lightbox="../media/connections/step-vc.png":::
 
 ### Step 1: Enable the Viva Connections app in the Microsoft Teams admin center  
 Viva Connections does not have any requirements to get started. Start by adding the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users.
@@ -108,8 +109,11 @@ After getting the app in Teams, choose the primary audience for this experience 
 
 
 ## Set up a SharePoint home site and Viva Connections
-Follow these instructions when your organization plans to use a SharePoint home site in combination with Viva Connections to create a complementary employee experience.
+Follow these instructions when your organization plans to [use a SharePoint home site in combination with Viva Connections](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together) to create a complementary employee experience.
 
+:::image type="content" source="../media/connections/step-vc-home-site.png" alt-text="Step diagram of how to add a home site and setup Viva Connections." lightbox="../media/connections/step-vc-home-site.png":::
+
+<br>
 <br>
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE53Exu]
@@ -207,6 +211,8 @@ After getting the app in Teams, finish setting up the experience by selecting a 
 
 ## Add a SharePoint home site after setting up Viva Connections
 Follow these instructions if your organization has already set up Viva Connections and now you want to add a home site. [Learn more about how Viva Connections and home sites work together to create employee experiences.](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together) 
+
+:::image type="content" source="../media/connections/step-add-home-site.png" alt-text="Step diagram of how to add a home site after setting up Viva Connections." lightbox="../media/connections/step-add-home-site.png":::
 
 
 ### Step 1: Set a home site in SharePoint
