@@ -50,38 +50,6 @@ items:
                     href: personal/teams/viva-teams-app-admin-tasks.md
                   - name: FAQ
                     href: personal/teams/viva-teams-app-faq.md
-          - name: Briefing
-            items:
-              - name: Overview
-                href: personal/Briefing/be-overview.md
-              - name: Privacy guide
-                href: personal/Briefing/be-privacy.md
-              - name: Configure Briefing
-                href: personal/Briefing/be-admin.md
-              - name: Briefing rollout
-                items:
-                  - name: Conduct a user pilot
-                    href: personal/Briefing/be-pilot.md
-                  - name: Admin trial
-                    href: personal/Briefing/be-admin-trial.md
-                  - name: Downloadable resources
-                    href: personal/Briefing/be-resources.md
-              - name: Use Briefing
-                items: 
-                  - name: Prepare for meetings
-                    href: personal/Briefing/be-meetings.md
-                  - name: Follow up on tasks
-                    href: personal/Briefing/be-tasks.md
-                  - name: Book focus time
-                    href: personal/Briefing/be-focus.md
-                  - name: Headspace meditation
-                    href: personal/Briefing/be-headspace.md
-                  - name: Plan your week
-                    href: personal/Briefing/be-time.md
-                  - name: Catch up with your team
-                    href: personal/Briefing/be-manager.md
-                  - name: Use recommendations
-                    href: personal/Briefing/be-recommended.md  
               - name: Settings
                 href: personal/Briefing/be-settings.md
               - name: Languages
@@ -185,8 +153,12 @@ items:
               href: advanced/analyst/person-query-overview.md
             - name: Create a person query
               href: advanced/analyst/person-query.md
+            - name: Create a meeting query
+              href: advanced/analyst/meeting-query.md  
             - name: Access query results and modify existing queries
-              href: advanced/analyst/query-results.md  
+              href: advanced/analyst/query-results.md 
+            - name: Query results FAQs
+              href: advanced/analyst/query-results-faq.md   
           - name: Templates
             items:
             - name: Introduction to templates
@@ -207,6 +179,10 @@ items:
               href: advanced/analyst/templates/power-bi-faq-troubleshoot.md  
           - name: Data quality
             href: advanced/analyst/data-quality-analyst-experience.md
+          - name: Filters
+            href: advanced/analyst/filters.md
+          - name: Metric customization
+            href: advanced/analyst/custom-metrics.md
           - name: Metric rules
             href: advanced/analyst/metric-rules.md       
         - name: Reference
@@ -215,5 +191,8 @@ items:
             href: advanced/reference/faq.md
           - name: Glossary
             href: advanced/reference/glossary.md
-          - name: Metrics
-            href: advanced/reference/metrics.md  
+          - name: Metric definitions
+            href: advanced/reference/metrics.md
+
+
+ 

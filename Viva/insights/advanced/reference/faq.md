@@ -67,7 +67,7 @@ A3. Viva Insights stores and processes customer data in a compliant location as 
 
 #### Q1. Can I use the advanced insights app in a language other than English?
 
-A1. Yes, you can use the webapp in languages other than English. There are a few features, though, that are available in English only: metric names in custom Person and Power BI queries, system-reserved names for employee attributes, and Power BI templates. We plan to translate these features in the future.
+A1. Yes, you can use the webapp in languages other than English. There are a few features, though, that are available in English only: system-reserved names for employee attributes and meeting attributes. We plan to translate these features in the future.
 
 #### Q2. Can I upload an organizational data file that has non-English words or letters?
 
