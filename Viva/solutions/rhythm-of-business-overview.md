@@ -33,7 +33,7 @@ A common question when adopting OKRs is around the marriage of these two topics:
 In this article, you'll 
 
 - Define rhythm of business and why it's important to successful OKR adoption.
-- Outline the overall OKR cadence, known as the “four Cs” 
+- Outline the overall OKR cadence, known as the “four Cs.” 
 - Show the types of meetings and activities that tie into the OKR framework.
 - Describe in-app tools such as dashboards that integrate OKRs into your ROB.
 
