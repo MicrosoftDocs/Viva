@@ -60,6 +60,12 @@
         href: check-in-okrs-overview.md
       - name: Check-in OKRs Recommendations
         href: check-in-recommendations.md
+    - name: Rhythm of Business
+      items:
+      - name: Rhythm of Business Overview
+        href: rhythm-of-business-overview.md
+      - name: Rhythm of Business Recommendations
+        href: rob-recommendations.md
 
 
   - name: Microsoft Viva Accelerators
