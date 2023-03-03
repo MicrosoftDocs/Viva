@@ -45,9 +45,10 @@ Like other products that work with sensitive data, such as HR systems, advanced 
 
 Anyone you share the Power BI Desktop file with can access the underlying dataset at the same level of granularity as the analyst role. For this reason, consider the following alternatives that don't provide access to the underlying data:
 
-* **Publish the report to Power BI Service and share insights in an app** – This option allows other users to navigate the report without access to the underlying data. Refer to [Distribute insights in an app for details](/power-bi/service-how-to-collaborate-distribute-dashboards-reports#distribute-insights-in-an-app) for more information.
+* **Distribute or share reports in PowerBI.com** – There are multiple ways to share Power BI reports. Refer to [Ways to collaborate and share in Power BI](/power-bi/collaborate-share/service-how-to-collaborate-distribute-dashboards-reports) to compare your options.
 
-* **Share as a PDF or other static file** – This option generates a report that's not interactive. Refer to [Export reports from Power BI to PDF](/power-bi/consumer/end-user-pdf) for more information.
+* **Share as a PDF or other static file** – This option generates a report that isn't interactive. Refer to [Export reports from Power BI to PDF](/power-bi/consumer/end-user-pdf) for more information.
+
 
 ## Customizing a template
 
