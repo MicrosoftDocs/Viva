@@ -21,9 +21,9 @@ description: "An overview of the Microsoft Viva suite"
 ---
 # Microsoft Viva overview
 
-With the growth in hybrid work, it is more important than ever to connect employees with an integrated employee experience that brings together communications, knowledge, learning, resources, and insights into the flow of work.
+Microsoft Viva is an integrated employee experience platform built within Microsoft 365 and Microsoft Teams that gives you the ability to support connection, insight, purpose, and growth in your organization using your existing infrastructure.
 
-Viva is easily customizable and extensible, accessible from anywhere you work, and integrates with tools you already use. It also supports several partner integrations to give you access to industry-leading apps in the natural flow of work.
+Viva is easily customizable and extensible, accessible from anywhere you work, and supports several partner integrations to give you access to industry-leading apps in the natural flow of work.
 
 Viva is an open and extensible platform. Soon, partners and developers will be able to use toolkits and APIs for supported Viva modules. The [Viva Connections toolkit](/sharepoint/dev/spfx/viva/overview-viva-connections) is available now, and coming soon are APIs for Viva Insights and Viva Learning as well as content support for Viva Topics. To find out more, see the [Microsoft Viva Developer Page](https://developer.microsoft.com/en-us/viva).
 
