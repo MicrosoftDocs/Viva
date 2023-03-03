@@ -108,6 +108,12 @@ After getting the app in Teams, choose the primary audience for this experience 
 ## Set up a SharePoint home site and Viva Connections
 Follow these instructions when your organization plans to use a SharePoint home site in combination with Viva Connections to create a complementary employee experience.
 
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE53Exu]
+
+<br>
+
 
 ### Step 1: Set a home site in SharePoint
 A home site is a SharePoint communication site that acts as the front door to your organization’s intranet and has special capabilities such as the ability to prioritize news posted from the home site across the rest of the intranet. When you deploy Viva Connections, the SharePoint home site is automatically detected and a prominent link to the home site will display in the top-right corner of the Viva Connections experience. Alternatively, you can [choose to use the home site as the default landing experience](edit-viva-home.md#choose-the-default-landing-experience-for-viva-connections-desktop) if desired. 
