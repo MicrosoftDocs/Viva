@@ -49,7 +49,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 ## Report settings
 
-After the **Ways of working** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. Then, view and set the following parameters on the **Settings** page:
+After the **Ways of working** report is set up and populated with Viva Insights data in Power BI, view and set the following parameters on the **Settings** page:
 
 * **Select the time period for the report** – Select the time period for which you want to view data in the report.  
 * **Select an attribute to group data by** – Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all report pages will show group values by the new attribute.
@@ -63,7 +63,7 @@ After confirming the settings, check the number of measured employees to confirm
 
 ## About this report
 
-To help you assess your company's collaboration culture and employee experience, the **Ways of working** report includes the following categories and  report pages:
+To help you assess your company's collaboration culture and employee experience, the **Ways of working** report includes the following categories and report pages:
 
 |Category| Page|
 |-----|-----|
