@@ -29,6 +29,8 @@ description: "Learn how to set up and launch Viva Connections for desktop and mo
 
 Microsoft [Viva Connections](viva-connections-overview.md) is an employee experience app in Microsoft Teams that brings together relevant news, conversations, and resources in one place for your organization. It's built on your current Microsoft 365 ecosystem to help you engage, inform, and empower your hybrid workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
+![Image of the Viva Connections desktop experience.](../media/connections/vc-full.png)
+
 Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices to create an engaging user experience.
 
 **In this guide, you’ll learn how to**
@@ -37,7 +39,7 @@ Use these step-by-step instructions to help you set up and launch Viva Connectio
 - Set up Viva Connections and a SharePoint home site
 - Add a home site after setting up Viva Connections 
 
-Follow the instructions that are relevant for your organization. If you are unsure if your organization has a [SharePoint home site](home-site-plan.md), ask your SharePoint admin. Home sites can be added after you’ve set up Viva Connections, but it’s recommended that you do it before to reduce the risk of needing to manually copy content in some cases. Learn more about how Viva Connections and home sites work together to create employee experiences. 
+Follow the instructions that are relevant for your organization. If you are unsure if your organization has a [SharePoint home site](home-site-plan.md), ask your SharePoint admin. Home sites can be added after you’ve set up Viva Connections, but it’s recommended that you do it before to reduce the risk of needing to manually copy content in some cases. [Learn more about how Viva Connections and home sites work together to create employee experiences.](viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together) 
 
 [Get more detailed guidance](viva-connections-setup-overview.md) that focus on tasks in the plan, build, and launch phases. Or, review the [Viva Connections learning path](/training/paths/viva-connections-get-started/) get more in-depth guidance that includes fictitious business stories, examples, and knowledge checks.
 
@@ -102,7 +104,7 @@ After getting the app in Teams, choose the primary audience for this experience 
 
 | Viva Connections dashboard interaction                 |End-user guidance                 | 
 | :------------------- | :------------------- |
-| ![Automated GIF of the Dashboard on a mobile device.](../media/connections/new-vc-dashboard-interaction.gif)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop and mobile experiences](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). <br> [Learn more about how to help your organization adopt Viva Connections](https://adoption.microsoft.com/viva/). | 
+| ![Automated GIF of the Dashboard on a mobile device.](../media/connections/new-vc-dashboard-interaction.gif)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop and mobile experiences](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). <br><br> [Learn more about how to help your organization adopt Viva Connections](https://adoption.microsoft.com/viva/). | 
 
 
 ## Set up a SharePoint home site and Viva Connections
@@ -200,11 +202,11 @@ After getting the app in Teams, finish setting up the experience by selecting a 
 
 | Viva Connections dashboard interaction                 |End-user guidance                 | 
 | :------------------- | :------------------- |
-| ![Automated GIF of the Dashboard on a mobile device.](../media/connections/new-vc-dashboard-interaction.gif)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop and mobile experiences](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). <br> [Learn more about how to help your organization adopt Viva Connections](https://adoption.microsoft.com/viva/). | 
+| ![Automated GIF of the Dashboard on a mobile device.](../media/connections/new-vc-dashboard-interaction.gif)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop and mobile experiences](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). <br><br> [Learn more about how to help your organization adopt Viva Connections](https://adoption.microsoft.com/viva/). | 
 
 
 ## Add a SharePoint home site after setting up Viva Connections
-Follow these instructions if your organization has already set up Viva Connections and now you want to add a home site. 
+Follow these instructions if your organization has already set up Viva Connections and now you want to add a home site. [Learn more about how Viva Connections and home sites work together to create employee experiences.](viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together) 
 
 
 ### Step 1: Set a home site in SharePoint
