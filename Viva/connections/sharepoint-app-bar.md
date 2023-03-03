@@ -1,5 +1,5 @@
 ---
-ms.date: 11/15/2021
+ms.date: 3/3/2023
 title: Set up global navigation in the SharePoint app bar
 ms.reviewer: 
 ms.author: matteva

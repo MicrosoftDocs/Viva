@@ -30,6 +30,8 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 
 ![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-new.png)
 
+> [!NOTE]
+> Content in this article reflects the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071) that will become available to all customers by the end of March 2023. 
 
 **This article includes:**
 
