@@ -19,13 +19,13 @@
 
 ## [Set up and administration]()
 
-### [Add the Viva Connections app in Teams](add-viva-connections-app.md)
+### [Add the Viva Connections app](add-viva-connections-app.md)
 
 ### [Use audience targeting](use-audience-targeting-in-viva-connections.md)
 
-### [Viva Connections for specific languages](viva-connections-language.md)
+### [Specific languages](viva-connections-language.md)
 
-### [Viva Connections analytics](viva-connections-analytics.md)
+### [Analytics](viva-connections-analytics.md)
 
 
 ### [Dashboard]()
@@ -44,7 +44,7 @@
 #### [Frequently asked questions about the feed](faqs-viva-connections-feed.md)
 
 
-## [Viva Connections and SharePoint home sites]()
+## [Viva Connections and home sites]()
 
 ### [Plan, build, and launch a home site](home-site-plan.md)
 
