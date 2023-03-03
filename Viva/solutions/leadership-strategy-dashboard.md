@@ -119,7 +119,7 @@ While annual planning sets the north star for the year, monthly or quarterly str
 
 The dashboard for this meeting should have two elements: 
 
-1. Text boxes with qualitative information: 
+1. Text boxes with qualitative information 
     - Meeting agenda 
     - List of major initiatives or “big rocks” 
     - What went well / completed items 
