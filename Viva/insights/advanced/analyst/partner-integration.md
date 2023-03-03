@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 04/01/2022
 title: Viva Insights partner integration
 description: Learn how to integrate Microsoft Viva Insights and partner application data for more advanced analysis
 author: madehmer
@@ -543,5 +544,6 @@ To approve a partner’s request:
 [Advanced insights metrics](../reference/metrics.md)
 
 [Sample Azure Data Factory template](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction)
+
 
 

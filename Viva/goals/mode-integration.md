@@ -1,4 +1,5 @@
 ---
+ms.date: 04/13/2022
 title: Mode integration
 ms.reviewer: 
 ms.author: rasanders
@@ -89,3 +90,4 @@ An admin can disable Mode integration at any time:
 2. On the Mode Configurations page, select the **Change** dropdown, select **Disable**, and then confirm the action.
 
     :::image type="content" source="../media/goals/11/mode-disable-button.png" alt-text="Screenshot shows how to disable Mode in Viva Goals." lightbox="../media/goals/11/mode-disable-button.png":::
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/10/2020
 title: Set up Advanced insights
 description: Steps to set up Advanced insights with Microsoft Viva Insights
 author: madehmer
@@ -66,3 +67,4 @@ See [Deploy the app](deploy.md) for steps on how to deploy.
 ## Access to Viva Insights
 
 After assigning licenses and deploying the app, the data for Viva Insights might take up to a week to process and become available. After completing the required setup tasks and allowing for data processing, refer your organization's leaders to [Install and pin the app](install.md) to open and use them. Also, refer them to [Viva Insights introduction](./intro.md) to learn more about how to use them.
+

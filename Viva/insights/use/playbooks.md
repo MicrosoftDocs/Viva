@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 08/06/2019
 title: Microsoft Viva Insights playbooks
 description: Learn more about how to use Viva Insights with the available playbooks
 ms.localizationpriority: medium 
@@ -28,3 +29,4 @@ Maximize the power of the advanced insights app with Microsoft Viva Insights to 
 |![Return to work icon.](../images/wpa/playbooks/manager-effectiveness-32x32.svg) |[**Viva Insights Return to Worksites Playbook**](https://download.microsoft.com/download/f/0/b/f0ba439e-efc2-432a-adca-718f313cc9ac/Return-to-worksites-playbook.pdf)<br>Learn how to use Viva Insights and the Return to worksites dashboard in Power BI to plan when, who, where, and how employees can return to work. |
 |![Diversity and Inclusion icon.](../images/wpa/playbooks/improve-agility-32x32.svg) |[**Viva Insights Diversity and Inclusion Playbook**](https://download.microsoft.com/download/0/1/e/01e22a82-5a20-49bc-bfbe-12199c8d3a74/Diversity-and-inclusion-playbook.pdf)<br>Learn how to use Viva Insights to measure and inform inclusiveness of leadership, practices, and processes in your organization. |
 |![Microsoft Teams insights icon.](../images/wpa/playbooks/change-management-32x32.svg) |[**Viva Insights Teamwork Plan Playbook**](https://download.microsoft.com/download/4/7/6/476e0a52-07c3-43db-964f-0cfdf8557ada/Teamwork-plan-playbook.pdf) <br>Learn how to use a Teamwork plan to transform insights from Viva Insights into targeted change programs across your organization. |
+

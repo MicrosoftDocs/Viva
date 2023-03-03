@@ -1,5 +1,6 @@
 ---
 
+ms.date: 05/13/2020
 title: Conduct a user pilot
 description: Helps you conduct a pilot rollout for the Briefing email
 author: madehmer
@@ -16,6 +17,9 @@ manager: helayne
 ---
 
 # Conduct a user pilot
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
 
 If you choose to disable the Briefing email for your organization, you can run a pilot with a subset of users first. Especially for large organizations, a small-scale pilot is a natural first step to validate user readiness, identify and mitigate issues, and help ensure a successful, organization-wide rollout.
 
@@ -102,3 +106,4 @@ When the results indicate:
 
  > [!Tip]
  > Enlist your pilot participants as peer champions to help evangelize and onboard new users to Briefing. Peer champions can easily relate to other users, sharing their own experiences and learnings, and offering support and guidance to their colleagues. <!-- See the [Early Adoption Program Guide](https://go.microsoft.com/fwlink/?linkid=859068) to learn more about champions and how you can use them in your rollout.-->
+

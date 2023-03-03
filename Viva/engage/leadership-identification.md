@@ -5,7 +5,7 @@ ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
 manager: dmillerdyson
-ms.date: 2/13/2023
+ms.date: 02/13/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -164,3 +164,4 @@ The company logo can be customized by following the instructions in this [link](
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
 [Manage and set up storyline in Viva Engage](/Viva/engage/eac-storyline)
+

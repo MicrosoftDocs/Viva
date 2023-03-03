@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Plans and environments for personal insights
 description: Supported plans and environment requirements for personal insights in Microsoft Viva Insights
 author: madehmer
@@ -20,6 +21,9 @@ audience: Admin, user
 # Personal insights plans and environments
 
 Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](../teams/viva-teams-app.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
+
+  >[!Important]
+  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
 
 ## Microsoft 365 plans
 
@@ -124,3 +128,4 @@ See [Briefing languages](../briefing/be-languages.md) to see what's supported fo
 
 * See [Why I don't see the add-in](../use/add-in.md#how-to-see-the-add-in) for what's required.
 * See [Why I don't see inline suggestions](../use/mya-notifications.md#how-to-see-inline-suggestions) for what's required.
+

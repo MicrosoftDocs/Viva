@@ -22,7 +22,10 @@ description: Learn how to create collections in Viva Learning.
 
 A learning collection is a curation of learning objects or a sequence of learning activities that are relevant to the personal or social learning goals for employees of an organization.
 
-In Viva Learning, you can curate your personal Learning collections using learning content from various different learning providers enabled for your organization. 
+In Viva Learning, you can curate your personal Learning collections using learning content from various different learning providers enabled for your organization.
+
+>[!NOTE]
+>Learning collections are not supported on mobile. 
 
 ## Create a Learning collection
 

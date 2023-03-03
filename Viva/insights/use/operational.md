@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/06/2020
 title: Enhance operational effectiveness with Viva Insights
 description: Learn how to use Microsoft Viva Insights data to analyze and maximize operational effectiveness in your organization
 author: madehmer
@@ -103,3 +104,4 @@ Time without meetings, emails, and chats gives employees the opportunity to get 
 * Create a new team norm that respects the Microsoft Teams focus status of others by not sending chats to teammates whose status is "focusing."
 
 For more best practices and ways to protect the time of yourself and others, see [Best practices for focus time](../tutorials/gm-focus.md).
+

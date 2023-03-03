@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/18/2020
 title: In-depth insights in Power BI
 description: Learn how to use Power BI to deep dive into insights about your organization
 author: madehmer
@@ -131,3 +132,4 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 
 * [Templates](/viva/insights/tutorials/power-bi-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Teamwork plans](/viva/insights/tutorials/teamwork-solution?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

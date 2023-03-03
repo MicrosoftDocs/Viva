@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/30/2021
 title: Requirements for analysts
 description: Licensing requirements for analysts for using queries and templates  
 author: madehmer
@@ -24,3 +25,4 @@ Before analysts can get to work, they must have the proper role. Each analyst mu
 
 * To use the analyst features, you must have the [Analyst role](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#role-descriptions-and-access-levels) assigned.
 * The predefined templates available in Query designer require the use of the Power BI desktop. You do not need a license for Power BI desktop; you can download it for free at [Getting started with Power BI](https://powerbi.microsoft.com/getting-started-with-power-bi/).
+

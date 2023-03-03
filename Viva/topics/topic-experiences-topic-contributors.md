@@ -1,4 +1,5 @@
 ---
+ms.date: 05/10/2022
 title: Topic Contributors—Share knowledge and expertise in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -166,4 +167,5 @@ Help colleagues curate topics effectively by:
 - Helping them learn how to [edit](edit-a-topic.md) and [create](create-a-topic.md) new topics, and how to [save a topic as a draft](save-topic-as-draft.md)  
 
 Users need the **Who can create or edit topics permissions** link to be able to edit and create new topics. If colleagues are unable to edit or create topics, they can reach out to the admin to have the appropriate [permissions assigned](topic-experiences-user-permissions.md).   
+
 

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/26/2018
 title: Viva Insights Team Adoption plan
 description: Team Adoption plan for Viva Insights users
 author: madehmer
@@ -256,3 +257,4 @@ To help you make sure you’ve taken all the proper planning steps and are ready
 ![checkbox 7.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Collaboration channel established
 
 ![checkbox 8.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG)Pre-program survey created
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 01/26/2022
 title: Supported languages in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -55,3 +56,4 @@ English|Spanish |French
 German |
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).
+

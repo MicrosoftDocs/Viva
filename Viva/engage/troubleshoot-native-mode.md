@@ -1,4 +1,5 @@
 ---
+ms.date: 12/14/2022
 title: "Troubleshoot your Viva Engage network for Native Mode for Microsoft 365"
 description: "Troubleshoot issues with your Viva Engage network in Native Mode for Microsoft 365."
 ms.reviewer: ethli
@@ -273,3 +274,4 @@ Whatever path you choose, we recommend you communicate clearly to the users in y
 [Microsoft 365 Security & Compliance Portal](https://go.microsoft.com/fwlink/?linkid=2111321)
 
 [Manage Yammer data compliance](/yammer/manage-security-and-compliance/manage-data-compliance)
+

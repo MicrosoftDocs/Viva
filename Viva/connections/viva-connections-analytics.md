@@ -1,7 +1,7 @@
 ---
-title: "Overview: Viva Connections"
+ms.date: 3/2/2023
+title: Viva Connections analytics
 ms.reviewer: 
-ROBOTS: NOINDEX, NOFOLLOW
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
@@ -32,10 +32,11 @@ Understand how and when users engage with components of the Viva Connections exp
 People with site member (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png"::: and then click **Manage Viva Connections**.
 
 > [!NOTE]
-> - This analytics experience will start rolling out to all customers in February and will become available to all customers by the end of March 2023.
-> - Currently, up to 28 days of usage data (if available) can be downloaded in an Excel (.xlxs) format.
+> - This first release of Viva Connections analytics is only available to customers who have a SharePoint home site.
 > - Site member permissions (or higher) to your organization’s [home site](/sharepoint/home-site) are required to download and view usage analytics for Viva Connections. 
+> - Currently, up to 28 days of usage data (if available) can be downloaded in an Excel (.xlxs) format.
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. See below for details.
+> - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
 > - Usage analytics data is aggregated and cannot be tracked to an individual user. 
 
 ## How to access the report
@@ -84,6 +85,7 @@ Your organization might not want to see analytics data due to local data and com
 
 >[!NOTE]
 > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell."
+> - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
 
 2.	Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -133,3 +135,4 @@ You may get the following message: "Viva Connections usage data has been disable
 [Overview: Viva Connections](/viva/connections/viva-connections-overview)
 
 [Getting started with Microsoft Viva](/viva/getting-started-with-microsoft-viva)
+

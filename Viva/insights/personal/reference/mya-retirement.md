@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/18/2022
 title: MyAnalytics retirement
 description: About retiring MyAnalytics
 author: lilyolason
@@ -77,6 +78,9 @@ On the **Setting** page’s **Privacy** tab, you can opt out of the Digest email
 ![Screenshot that shows Digest insights.](/viva/insights/images/mya/reference/mya-retire-digest.png)
 
 ##### Briefing
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
 
 Select the **Setting** page’s **Briefing** tab to find your Briefing email settings. At the top of the page, toggle the switch off to opt out of the Briefing email. You can opt in again later by toggling the switch on.
 

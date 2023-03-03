@@ -1,5 +1,6 @@
 ### YamlMime:FAQ
 metadata:
+  ms.date: 12/15/2020
   title: Briefing email from Microsoft Viva FAQ
   description: Get answers to the most frequently asked questions about the Briefing email from Microsoft Viva Insights
   author: madehmer
@@ -12,6 +13,9 @@ metadata:
 title: Briefing email from Microsoft Viva FAQ
 summary: |
 
+  >[!Important]
+  > We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+
 sections:
   - name: For IT admins
     questions:
@@ -22,7 +26,7 @@ sections:
       - question: How can I manage who receives the email?  
         answer: |
           The Briefing email is on by default. You can use [PowerShell](be-admin.md) to enable/disable the Briefing email for individual users. You can set the default opt-in or opt-out option at the tenant level in the Microsoft 365 admin center. Users can also individually opt out by selecting the *Unsubscribe* link at the end of the Briefing email.
-          
+         
       - question: Does the Briefing email comply with GDPR?
         answer: |
           Yes, Microsoft complies with GDPR requirements when providing the Briefing email.
@@ -74,4 +78,13 @@ sections:
       - question: How can I send Microsoft product feedback or ask a question about the Briefing email?
         answer: |
           At the end of the email, select the **Send feedback** button.
-          
+
+      - question: How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?
+
+        answer: |
+          We encourage all Viva insights users to visit and register on the [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog). The community has:
+          * Forums to connect with peers and discuss shared experiences.
+          * Forums to contribute and receive support on common issues which are routinely reviewed by our team of experts.
+          * Monthly blog posts to learn about new features and tools.
+          * Spaces to share ideas and engage with the product development team.    
+

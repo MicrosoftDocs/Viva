@@ -1,4 +1,5 @@
 ---
+ms.date: 11/17/2021
 title: Briefing languages
 description: List of supported languages for Briefings
 author: madehmer
@@ -16,6 +17,10 @@ manager: helayne
 audience: user
 ---
 # Briefing languages
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+
 
 If you have an Exchange Online license and your Microsoft 365 is set to one of the following supported languages, you will receive the Briefing email in that language.
 
@@ -47,3 +52,4 @@ If you have an Exchange Online license and your Microsoft 365 is set to one of t
 |Hebrew |
 
 See [Change your display language and time zone in Microsoft 365 for Business](https://support.microsoft.com/topic/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b) to learn how to change your Microsoft 365 language setting.
+

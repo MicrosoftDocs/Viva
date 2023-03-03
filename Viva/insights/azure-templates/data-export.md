@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 06/13/2018
 title: Data export
 description: Learn how to use Data export in Workplace Analytics for advanced data analysis
 author: madehmer
@@ -225,3 +226,4 @@ This file includes one row for each participant in an instant message with the f
 ## Related topics
 
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
+

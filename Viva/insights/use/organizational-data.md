@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/16/2019
 title: Viva Insights Organizational data
 description: What's available on the Organizational data sources page in the advanced insights app with Microsoft Viva Insights
 author: madehmer
@@ -60,3 +61,4 @@ For more details about what data is needed for metric calculations, see:
 
 * [Office 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [CRM data](/viva/insights/use/crm-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

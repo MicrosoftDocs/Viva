@@ -1,4 +1,5 @@
 ---
+ms.date: 11/29/2021
 title: Save a topic as a draft in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -83,5 +84,6 @@ If one person has a page open for editing, and another person tries to edit the 
    ![Screenshot showing a message that the topic is being edited by someone else.](../media/knowledge-management/draft-one-edit-page.png)
  
 You can ask the person who has the page open for editing to "release" the page by saving and closing, discarding changes, or publishing. However, if the page has no activity for 5 minutes, the editing session will automatically time out and the page will be "unlocked," unless someone closes the browser within 5 minutes.
+
 
 

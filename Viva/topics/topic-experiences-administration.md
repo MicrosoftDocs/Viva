@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Change the name of the topic center in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -47,3 +48,4 @@ To change the name of the topic center
 [Manage topic visibility in Microsoft Viva Topics](topic-experiences-knowledge-rules.md)
 
 [Manage topic permissions in Microsoft Viva Topics](topic-experiences-user-permissions.md)
+

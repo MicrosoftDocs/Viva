@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/17/2018
 title: Charts in the advanced insights app
 description: Describes the different chart types and how to use the chart features in the advanced insights app with Microsoft Viva Insights
 author: madehmer
@@ -244,3 +245,4 @@ The next time you view Explore the stats data in Viva Insights, it shows the cha
 
 > [!Note]
 > The **Max groups** slider moves in increments of 5 (groups). The minimum number of groups that you can show is 10 and the maximum is 100. When you add or remove groups, the scroll bar under the chart adjusts accordingly.
+

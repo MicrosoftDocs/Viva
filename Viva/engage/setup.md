@@ -1,4 +1,5 @@
 ---
+ms.date: 08/12/2022
 title: "Set up Viva Engage"
 description: "Setting up Viva Engage"
 ms.reviewer: ethli
@@ -68,3 +69,4 @@ Customizing the Viva Engage app is perfect for companies that have given their n
 Review the contents in the Yammer & Viva Engage Adoption site to help you get started, train and engage your organization, build champions, and secure your enviornment.
 
 _Learn more: [Yammer & Viva Engage Adoption](https://aka.ms/VivaEngage/Resources)_
+

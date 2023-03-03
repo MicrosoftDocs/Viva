@@ -1,4 +1,5 @@
 ---
+ms.date: 10/15/2020
 title: Plan your week with the Briefing email
 description: Learn how to use the Briefing email to schedule time to focus, catch up on email, and more
 author: madehmer
@@ -14,6 +15,10 @@ manager: helayne
 
 ---
 # Create plans
+
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
 
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you'll see a **What do you want to set aside time for** section the Briefing email you get on Fridays. This feature helps you enroll in plans that help you improve long-term productivity and wellbeing.
 
@@ -47,3 +52,4 @@ To create a plan through the Briefing email, follow these steps:
 ## Related topics
 
 [Briefing email overview](be-overview.md)
+

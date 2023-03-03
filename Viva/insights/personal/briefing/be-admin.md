@@ -1,5 +1,6 @@
 ---
 
+ms.date: 11/07/2019
 title: Configure Briefing email
 description: Steps for admins to configure Briefing email for their organization
 author: lilyolason
@@ -18,6 +19,9 @@ audience: Admin
 ---
 
 # Configure Briefing email
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
 
 As the admin, you can configure Briefing email for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center, or you can enable or disable the Briefing email for a specific user or multiple users with PowerShell.
 
@@ -128,3 +132,4 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 * [Briefing email overview](be-overview.md)
 * [Briefing settings](be-settings.md)
 * [Use the Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2)
+

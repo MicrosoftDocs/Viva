@@ -1,4 +1,5 @@
 ---
+ms.date: 01/28/2022
 title: Inspiration library with Viva Insights 
 description: Use the Inspiration library feature in Microsoft Viva Insights
 author: madehmer
@@ -31,3 +32,4 @@ You can also provide feedback on the articles you have read by selecting the **t
 ## Related topics
 
 [Viva Insights introduction](viva-teams-app.md)
+

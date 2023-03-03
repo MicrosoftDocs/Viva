@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 03/01/2018
 title: Viva Insights privacy considerations
 description: Privacy considerations when using Advanced insights in Microsoft Viva Insights to analyze your organizational data 
 author: madehmer
@@ -127,3 +128,4 @@ Term from subject line to exclude | Actual subject line | Excluded
 ## Related topics
 
 * [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

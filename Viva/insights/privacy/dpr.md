@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: De-identified data and Viva Insights
 description: De-identified data in Microsoft Viva Insights
 author: madehmer
@@ -18,3 +19,4 @@ audience: Admin
 # De-identified data and Viva Insights
 
 To improve performance, Microsoft Viva Insights computes and stores de-identified data derived from Microsoft 365 data. If you decide to make this information available to a user and need assistance, contact [Microsoft Support](https://support.microsoft.com/contactus/). 
+
