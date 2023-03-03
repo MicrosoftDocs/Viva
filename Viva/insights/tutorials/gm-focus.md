@@ -52,7 +52,7 @@ Select a day, cadence, or time period that your team can block to focus on work,
 
 #### Cancel recurring meetings
 
-Reassess the need quarterly for recurring meetings that take up the most time. Try cancelling one or two, you can always add them back if they're missed. See [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/) for more about this.
+Reassess the need quarterly for recurring meetings that take up the most time. Try cancelling one or two, you can always add them back if they're missed. See [How to finally kill the useless, recurring meeting](https://workplaceinsights.microsoft.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/) for more about this.
 
 #### Try out a personal focus plan
 
