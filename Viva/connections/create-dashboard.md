@@ -59,11 +59,11 @@ The Viva Connections dashboard can be edited right from Microsoft Teams. You’l
 ![Diagram of how to create a Viva Connections Dashboard.](../media/connections/viva-dashboard-step.png)
 
 >[!NOTE]
-- When setting up Viva Connections for the first time, you’ll be asked to choose a set of default cards based on the intended audience. 
-- You can choose mobile and desktop views interchangeably as you’re authoring.
-- Image recommendations for cards in the dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio to prevent stretching in the mobile app.
-- Image URLS in card properties must be an absolute URL for the link to work in the mobile app.
-- It's recommended to limit the number of cards to about 20 on the dashboard for the best viewing experience.
+> - When setting up Viva Connections for the first time, you’ll be asked to choose a set of default cards based on the intended audience. 
+> - You can choose mobile and desktop views interchangeably as you’re authoring.
+> - Image recommendations for cards in the dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio to prevent stretching in the mobile app.
+> - Image URLS in card properties must be an absolute URL for the link to work in the mobile app.
+> - It's recommended to limit the number of cards to about 20 on the dashboard for the best viewing experience.
 
 1.	Navigate to the Viva Connections app in Teams.
 2.	Next, select **Edit** in the dashboard section.
