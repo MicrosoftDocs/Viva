@@ -22,7 +22,7 @@ description: "Learn how to incorporate OKRs into your business rhythms for a hea
 
 # Incorporate OKRs into your business rhythm
 
-We know that every company has its own unique “rhythm of business” ... the ebb and flow of everything from strategic planning by senior leaders to the way team managers hold weekly update meetings or one-on-one sessions with their direct reports. 
+We know that every company has its own unique “rhythm of business”—the ebb and flow of everything from strategic planning by senior leaders to the way team managers hold weekly update meetings or one-on-one sessions with their direct reports. 
 
 We also know that the OKR framework is an effective way to align teams to strategic priorities, drive results, and create a culture of engaged employees focused on achieving common goals. 
 
@@ -30,15 +30,15 @@ A common question when adopting OKRs is around the marriage of these two topics:
  
 *“How do I incorporate OKRs and dashboards into my existing rhythm of business?”*
 
-In this article, you'll learn:
+In this article, you'll 
 
-- Define rhythm of business and why it's important to successful OKR adoption 
+- Define rhythm of business and why it's important to successful OKR adoption.
 - Outline the overall OKR cadence, known as the “four Cs” 
-- Show the types of meetings and activities that tie into the OKR framework 
-- Describe in-app tools such as dashboards that integrate OKRs into your ROB 
+- Show the types of meetings and activities that tie into the OKR framework.
+- Describe in-app tools such as dashboards that integrate OKRs into your ROB.
 
 > [!NOTE]
-> **Mindset:** Before we get started, a quick reminder that incorporating OKRs into your organization’s rhythm of business is an iterative process. The more you work to see opportunities to use OKRs in your day-to-day processes, the more streamlined your workflow will become. That’s why we strongly urge focusing on progress over perfection. 
+> **Mindset:** Before we get started, a quick reminder that incorporating OKRs into your organization’s rhythm of business is an iterative process. The more you work to see opportunities to use OKRs in your day-to-day processes, the more streamlined your workflow becomes. That’s why we strongly urge focusing on progress over perfection. 
 > 
 > It’s far more important to make initial progress and start finding individual areas to integrate OKRs than get hung up trying to craft the perfect workflow for every single team. So for now, keep it simple and have some fun. 
 
@@ -59,7 +59,7 @@ While it’s true that both of these organizations approach their ROB differentl
 With these rhythms in place, organizations can ensure that their OKR adoption process is successful and that their objectives are being achieved. 
 
 > [!TIP]
-> Find your “center of gravity”
+> Find your “center of gravity.”
 
 One of the biggest initial hurdles to incorporating OKRs into the rhythm of business is simply getting started. New users want to know: Where should I begin? How does it tie into planning? What kind of meetings will I need?   
 
@@ -81,13 +81,13 @@ An easy way to illustrate and remember these four steps is the “four Cs”: Co
 
 1. **Collaborate** - Team members collaborate with each other to align on strategy, develop shared OKRs, and understand how overall objectives from senior leadership cascade to the team level. 
 1. **Create** - OKRs are planned, written, and added into Viva Goals. Collaboration continues among team members to finalize OKRs. 
-1. **Check-in**- Throughout the quarter, users make check-ins to track their progress. This can be done manually or automatically through data integrations. 
+1. **Check-in** - Throughout the quarter, users make check-ins to track their progress. This can be done manually or automatically through data integrations. 
 1. **Close** - At the end of the period, users reflect on progress, close and score their OKRs, share key learnings, and prepare for the upcoming time period. 
 
 It’s important to note that the time and effort spent on the four Cs varies. 
 
 - **Collaborate/Create** - The OKR planning and writing process is started during the last 1-2 weeks of a quarter, and is ideally completed within the first week of the next quarter. Thus, the time spent can be relatively intensive (meeting and aligning with colleagues for several hours over multiple weeks, crafting OKRs, and entering them into the software), but the frequency is low (happens once at the beginning of the quarter). 
-- **Check-in**- Once OKRs are loaded into Viva Goals, the check-in process throughout the quarter begins. The time spent doing actual check-ins is low (just a few minutes to update metrics, or no time at all if check-ins are automated), but the frequency is high (generally every week for 12 weeks). 
+- **Check-in** - Once OKRs are loaded into Viva Goals, the check-in process throughout the quarter begins. The time spent doing actual check-ins is low (just a few minutes to update metrics, or no time at all if check-ins are automated), but the frequency is high (generally every week for 12 weeks). 
 - **Close** - Teams reflect on their progress at the end of the quarter. The time spent closing and reviewing OKRs is moderate (1-2 hours), and frequency is low (once per quarter). 
 
 Once a cycle of the four Cs is completed, teams repeat the process in the next time period. 
@@ -107,7 +107,7 @@ There are four key meeting categories and activities to focus on. Each one has i
 
 ## How to create and customize dashboards within Viva Goals 
 
-Now that you’ve seen the “why” around using OKR dashboards in your business rhythms, see the step-by-step process “how” to create a dashboard, add panels, customize widgets, and present your data in the Microsoft Viva Goals software platform: [Create and customize dashboards within Viva Goals ](https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4)
+Now that you’ve seen the “why” around using OKR dashboards in your business rhythms, see the step-by-step process “how” to create a dashboard, add panels, customize widgets, and present your data in the Microsoft Viva Goals software platform: [Create and customize dashboards within Viva Goals](https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4).
 
 ## Summary
 
