@@ -44,7 +44,7 @@ Learn more about how to [add the Viva Connections app in the Microsoft Teams Adm
 ## Step 2: Customize the Viva Connections dashboard (if needed)
 The dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks.   
 
-   ![Image of the Viva Connections Dashboard in edit mode.](../media/connections/new-dashboard-creation.png)
+   :::image type="content" alt-text="Screenshot of the Viva Connections Dashboard in edit mode."source:"../media/connections/new-dashboard-creation.png" lightbox="../media/connections/new-dashboard-creation.png":::
 
 1. Start by [customizing the dashboard](create-dashboard.md). 
 2. Next, [apply audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards) to dashboard cards to give your users an experience tailored to their role and interests. 
