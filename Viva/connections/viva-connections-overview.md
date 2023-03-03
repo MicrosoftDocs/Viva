@@ -29,6 +29,9 @@ description: "Learn how to use Viva Connections to engage and unite your organiz
 
 Microsoft Viva Connections is your gateway to a modern employee experience and is designed to keep everyone engaged and informed. Viva Connections is a customizable app in Microsoft Teams that gives different audiences in your organization a personalized destination to discover other Viva apps your organization is licensed for, relevant news, conversations, and the tools they need to succeed.
 
+> [!NOTE]
+> Content in this article reflects the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071) that will become available to all customers by the end of March 2023. 
+
 :::image type="content" source="../media/connections/vc-desktop-mobile.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/vc-desktop-mobile.png":::
 
 Use the [quick guide to set up Viva Connections](viva-connections-setup-guide.md) or get [more detailed guidance on how to plan, build, and launch](plan-viva-connections.md).
