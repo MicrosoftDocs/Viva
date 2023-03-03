@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 03/03/2023
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: madehmer
@@ -80,6 +80,13 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | <a name="focus-define"></a> **Focus**|  <a name="available-to-focus-hours-define"></a>  Available-to-focus hours | Hours remaining during working hours after excluding meetings and scheduled Teams calls for focused work. This metric helps organizations understand how meetings and scheduled Teams calls can impact what time is available for self-directed work. | Hour |
 | | <a name="uninterrupted-hours-define"></a> Uninterrupted hours | Sum of blocks one hour or longer where a person didn’t attend a meeting, read or send emails, read or send Teams chats, or initiate or receive Teams calls. In other words, Uninterrupted hours is the sum of blocks of time one hour or longer for deep thinking with no communication. This metric helps organizations understand whether employees have long blocks of uninterrupted time for deep thinking to solve new problems creatively and to fuel innovation. | Hour |
 | | <a name="interrupted-hours-define"></a> Interrupted hours | Available-to-focus hours interrupted by emails, Teams chats, or unscheduled Teams calls. Interrupted hours excludes one-hour or longer blocks of Uninterrupted hours for deep work. This metric helps organizations understand whether employees are choosing to use the blocks of time between meetings or scheduled Teams calls for emails, unscheduled calls, or Teams chats. | Hour |
+|**Impact**|Booked focus hours | Number of hours a person booked as [focus time](../../personal/teams/viva-insights-protect-time.md#book-focus-time-or-a-plan) in Viva Insights. Other appointments or meetings that employees added to their Outlook calendar without using Viva Insights aren’t counted. | Hour
+||Booked focus hours kept |Number of hours a person booked as focus time in Viva Insights that didn’t overlap with meetings, including time booked with and without a focus plan. | Hour
+||Booked focus hours kept with plan |Number of hours a person booked in Viva Insights, using a focus plan, that didn’t overlap with meetings. | Hour
+||Booked focus hours kept without plan | Number of days a person booked as no-meeting days in Viva Insights.  |Hour
+||Booked no-meeting days | Number of days a person booked as [no-meeting days](../../org-team-insights/shared-no-meeting-day.md) in Viva Insights.  | Hour
+
+
 |<a name="meeting-hours-on-time-and-advanced-notice-define"></a> **Meetings on time and with advanced notice**| <a name="meeting-hours-with-12-to-24-hours-of-advanced-notice-define"></a> Meeting hours with 12 to 24 hours of advanced notice | Number of meeting hours that were scheduled more than 12 and less than 24 hours before the meeting start time. | Hour
 ||<a name="meeting-hours-with-24-or-more-hours-of-advanced-notice-define"></a> Meeting hours with 24 or more hours of advanced notice |Number of meeting hours that were scheduled 24 hours or more before the meeting start time. | Hour|
 ||<a name="meeting-hours-with-six-or-fewer-hours-of-advanced-notice-define"></a>Meeting hours with six or fewer hours of advanced notice | Number of meeting hours that were scheduled six hours or before the meeting start time. | Hour
