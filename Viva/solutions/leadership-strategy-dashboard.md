@@ -64,10 +64,10 @@ A review dashboard for annual planning is a great way to visually organize your 
 
 |Widget type   |Widget name   |Use  |Benefit  |
 | :--------- | :--------- | :---------| :--------- |
-|Text block      |Mission & Vision          |Communicate the vision, mission, and values of the company.          |Allows organizations to reiterate the purpose and get everyone excited about the upcoming year.          |
-|Text block      |Agenda         |Communicate the agenda for the meeting.          |Helps set the context for everyone for the meeting.          |
-|Custom Embed      |Revenue and Financial Metrics          |If needed, share financial metrics from previous time periods using an embedded report from Excel or other source.          |Allows senior leaders to quickly communicate financial status without having to jump back and forth to pull data from other tools.          |
-|Text block      |Major initiatives          |Highlight major initiatives to be achieved in the coming year. Use “The 5 Ps” as a starting point if needed.          |Allows everyone to review the “big rocks” the organization focuses on during the year.          |
+| Text block | Mission & Vision  | Communicate the vision, mission, and values of the company.| Allows organizations to reiterate the purpose and get everyone excited about the upcoming year. |
+| Text block | Agenda  | Communicate the agenda for the meeting. | Helps set the context for everyone for the meeting. |
+| Custom Embed | Revenue and Financial Metrics  | If needed, share financial metrics from previous time periods using an embedded report from Excel or other source.  | Allows senior leaders to quickly communicate financial status without having to jump back and forth to pull data from other tools. |
+| Text block | Major initiatives | Highlight major initiatives to be achieved in the coming year. Use “The 5 Ps” as a starting point if needed. | Allows everyone to review the “big rocks” the organization focuses on during the year. |
 
 ## Leadership Strategy Dashboard (Monthly or Quarterly)
 
@@ -75,13 +75,13 @@ A review dashboard for quarterly and monthly Strategy and Alignment meetings is 
 
 The dashboard might have the following elements, or widgets, within Viva Goals. 
 
-|Widget type  |Widget name  |Use  |Benefit  |
+| Widget type  | Widget name  | Use  | Benefit  |
 | :--------- | :--------- | :---------| :--------- |
-|Text block      |Agenda         |Communicate the agenda for the meeting.          |Helps set the context for everyone for the meeting.          |
-|Custom Embed      |Revenue and Financial Metrics          |If needed, share financial metrics from previous time periods using an embedded report from Excel or other source.          |Allows senior leaders to quickly communicate financial status without having to jump back and forth to pull data from other tools.          |
-|Text block      |Major initiatives          |Highlight major initiatives to be achieved in the coming year. Use “The 5 Ps” as a starting point if needed.          |Allows everyone to review the “big rocks” the organization focuses on during the year.          |
-|Text block      |Updates from last month          |Used to communicate what happened last month, plan for the upcoming month, identify current blockers and dependencies.          |Enables the manager to quickly communicate the plan for the coming month and discuss how the team can tackle problems they’re facing.          |
-|OKR list      |View current objectives          |List objectives by filtering them based on the active time period being reviewed.          |Enables managers to briefly summarize the progress made since the beginning of the current cycle.          |
+| Text block | Agenda  | Communicate the agenda for the meeting. | Helps set the context for everyone for the meeting. |
+| Custom Embed      | Revenue and Financial Metrics   | If needed, share financial metrics from previous time periods using an embedded report from Excel or other source.  | Allows senior leaders to quickly communicate financial status without having to jump back and forth to pull data from other tools. |
+| Text block  | Major initiatives  | Highlight major initiatives to be achieved in the coming year. Use “The 5 Ps” as a starting point if needed. | Allows everyone to review the “big rocks” the organization focuses on during the year. |
+| Text block  | Updates from last month  | Used to communicate what happened last month, plan for the upcoming month, identify current blockers and dependencies. | Enables the manager to quickly communicate the plan for the coming month and discuss how the team can tackle problems they’re facing. |
+| OKR list | View current objectives  | List objectives by filtering them based on the active time period being reviewed. | Enables managers to briefly summarize the progress made since the beginning of the current cycle. |
 
 ## How to run your Leadership Strategy meetings
 
