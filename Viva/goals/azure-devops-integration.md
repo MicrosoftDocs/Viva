@@ -138,3 +138,10 @@ Now that the Key Result is linked to a query in Azure DevOps, you can track the 
 
 :::image type="content" source="../media/goals/6/azure-devops-oauth.png" alt-text="Screenshot shows where you can enable oauth access for Azure DevOps." lightbox="../media/goals/6/azure-devops-oauth.png":::
 
+## How to edit or delete your Azure DevOps Connection 
+
+1. Select your account name at the bottom left corner of the screen. 
+1. Select **Preferences** 
+1. Select **My Integrations** 
+1. Select **Manage**
+1. Select **edit or delete** to modify your connection. 
