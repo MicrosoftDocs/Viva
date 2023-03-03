@@ -89,7 +89,7 @@ Viva Connections is composed of three main parts – the dashboard, the feed, an
 
 | Desktop              | Mobile              | 
 | :------------------- |:------------------- |
-| ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/vc-full-small.png.png)|![Image of the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard-small.png)| 
+| ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/vc-full-small.png)|![Image of the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard-small.png)| 
 |- Your organization’s instance of Viva Connections [will appear as an icon](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) in the Teams app bar. <br> - When the icon is selected, users will see the default landing experience. <br> - When the icon is selected twice, the global navigation panel will display. <br> - Add the [Feed web part](use-feed-web-part-for-viva-connections.md) to highlight personalized news. <br> - Add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) to make it easy to complete tasks | - Your organization’s instance of Viva Connections will appear as an icon in the Teams mobile app bar. <br> - Once selected, users can pivot from the dashboard to the feed to resources.|
 
 
