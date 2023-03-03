@@ -47,8 +47,8 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add a Viva Topics cards](#add-a-viva-topics-card)
 - [Add a Web link card](#add-a-web-link-card)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
-- [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
-- [Add the Dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
+- [Preview your dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
+- [Add the dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
 - [Get more information about how links and Single sign-on works](#how-urls-and-single-sign-on-works)
 
 
