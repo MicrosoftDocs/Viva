@@ -25,7 +25,7 @@ Use advanced search options in Viva Learning to narrow down and refine search re
 
 Find an exact learning content by using double quotes (“ “). 
 
-Viva Learning matches the query with its exact match across fields like Title, Description and metadata like tags and additional keywords.
+Viva Learning matches the query with its exact match across fields like Title, Description and metadata like tags and keywords.
 Only the exact matches are returned. Searching without quotes broadens the search with relevant search results. 
 
 ## Search using a query
@@ -49,15 +49,15 @@ The following learning content attributes can be used by both admins and learner
 |Provider| The name of the learning content provider. For example: LinkedIn Learning|
 |Type| The type of learning content. For example: course, learning path, module|
 |Duration| The Duration of the learning content in seconds|
-|Source| The sub-source of the learning content in a provider|
+|Source| The subsource of the learning content in a provider|
 |Premium| A true/false field indicating whether to include free or premium content|
 |||
 
-Searching for language attributes is not currently supported.
+Searching for language attributes isn't currently supported.
 
 #### Metadata attributes 
 
-The following attributes are available to Viva Learning knowledge admins. These are not visible to learners. 
+The following attributes are available to Viva Learning knowledge admins. These aren't visible to learners. 
 
 |Attributes | Description|
 |-----------|-----------|
@@ -65,7 +65,7 @@ The following attributes are available to Viva Learning knowledge admins. These 
 |LOId | The unique ID of a learning content in Viva Learning|
 |ProviderId | The unique ID of a provider when registered with Viva Learning|
 |Keywords | Set of keywords associated with a content |
-|Skills | Skill tags asociated with content in Viva Learning |
+|Skills | Skill tags associated with content in Viva Learning |
 |||
 
 ### Operators
@@ -104,9 +104,9 @@ Using quotes in these fields will result in exact match in that field:
 Note the following considerations: 
 
 - Parentheses or round brackets are needed to understand that there are multiple queries for a single attribute.
-- Nested parentheses (parentheses inside parentheses) are not supported currently. Using this construction may give unexpected results.
+- Nested parentheses (parentheses inside parentheses) aren't supported currently. Using this construction may give unexpected results.
 - Using **AND** in some attributes may give empty results as the field may not support multiple values.
-- There is no limit to the number of stacking queries. The only limit applied is the size of text box.
+- There's no limit to the number of stacking queries. The only limit applied is the size of text box.
 
 
 ##### Single attribute queries
@@ -133,4 +133,4 @@ Multiple attribute - multiple value| `<attribute>`:`(<value> OR <value2>...)` AN
 
 #### Intuitive UI for advanced search options
 
-We are working on improving our advanced search capabilities through an intuitive user interface and experience.
+We're working on improving our advanced search capabilities through an intuitive user interface and experience.
