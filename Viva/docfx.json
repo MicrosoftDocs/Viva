@@ -69,7 +69,13 @@
       "searchScope": {
         "Viva/insights/*.md": ["Microsoft Viva Insights"],
         "Viva/insights/*.yml": ["Microsoft Viva Insights"],
-        "Viva/**/*.md": ["Microsoft Viva"]
+        "Viva/connections/*.md": ["Microsoft Viva"],
+        "Viva/engage/*.md": ["Microsoft Viva"],
+        "Viva/goals/*.md": ["Microsoft Viva"],
+        "Viva/learning/*.md": ["Microsoft Viva"],
+        "Viva/people-in-viva/*.md": ["Microsoft Viva"],
+        "Viva/solutions/*.md": ["Microsoft Viva"],
+        "Viva/topics/*.md": ["Microsoft Viva"]
       }
     },
     "template": [],
