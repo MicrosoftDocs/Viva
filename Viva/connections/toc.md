@@ -5,7 +5,7 @@
 
 ## [Get Viva Connections]()
 
-### [Viva Connections quick guide](guide-to-setting-up-viva-connections.md)
+### [Viva Connections quick guide](viva-connections-setup-guide.md)
 
 ### [Overview of how to set up Viva Connections](viva-connections-setup-overview.md)
 
