@@ -55,7 +55,7 @@ These are meeting types that you might already have in your existing rhythm of b
 
 **Key milestone**
 
-- Dashboard report for senior leadership to provide transparency and highlight opportunity and risk 
+Dashboard report for senior leadership to provide transparency and highlight opportunity and risk 
 
 ## Leadership Strategy Dashboard (Annual)
 
