@@ -87,7 +87,7 @@ Some cards can also reflect dynamic content that refreshes based on a user actio
 
 ![Animated GIF displaying how to interact with the dashboard.](../media/connections/new-vc-dashboard-interaction.gif)
 
-The Dashboard experience has been designed to be consistent across mobile platform and desktop, but there are some differences:
+The dashboard experience has been designed to be consistent across mobile platform and desktop, but there are some differences:
 
 
 |Element  |Mobile  |Desktop  |
@@ -203,7 +203,7 @@ A tailored experience is one in which content is automatically displayed accordi
 
 
 
-|Capability Name |Curated vs. Tailored  |Details  |
+|Capability name |Curated vs. tailored  |Details  |
 |---------|---------|---------|
 |**Home site**     | Curated, optional        |   Organization’s with SharePoint home sites (optional) can control the layout, web parts, and audience targeting of content.     |
 |**Dashboard**     | Curated         |   Author selects cards to show and uses AAD groups to [target content to specific audiences](use-audience-targeting-in-viva-connections.md).   |
@@ -245,7 +245,7 @@ For organizations that already have a home site, or know they want one in the fu
 
 ![Graphic of the banner image in the header with the home site link highlighted.](../media/connections/home-site-link-focus.png)home-site-link-focus
 
-### You can choose the default landing  experience 
+### You can choose the default landing experience 
 Unless specified, Viva Connections is the default experience for the desktop app in Teams. When Viva Connections is the default, a link to the home site will display in the top-right corner to ensure easy navigation between the two experiences. We recognize that some organizations with a home site want the home site to be the default experience. When the home site is the default experience, a link to Viva Connections will display in the top-right corner. [Learn more about choosing the default experience](edit-viva-home.md#choose-the-default-landing-experience-for-viva-connections-desktop). 
 
 
