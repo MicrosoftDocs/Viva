@@ -110,6 +110,7 @@ Annual planning is the most critical piece in setting up your company for succes
     - Train team leaders on OKR best practices and Viva Goals
 
 3. **First week of the new year**  
+    
     Senior leadership shares the organizational OKRs with the entire company, and schedules regular check-ins, monthly, and quarterly reviews. 
 
 ### Monthly or Quarterly Strategic Meetings 
