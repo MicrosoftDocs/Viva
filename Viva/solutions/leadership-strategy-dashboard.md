@@ -94,13 +94,15 @@ As you incorporate OKRs into your business rhythms, you would still keep your an
 Annual planning is the most critical piece in setting up your company for success. With a concrete plan, you'll gain a clear idea of where your organization is headed, how you'll define success, and how you'll achieve your organization's biggest priorities. Annual planning consists of three phases. 
 
 1. **One to three months before the new year** 
+     
      Senior-level leadership meets and discusses annual company goals. In this phase, you should ask the following questions: 
     - Which goals do we want to roll over for the new year? 
     - What did we learn from the goals we reached this year, and from those we didn't reach? 
     - What are our current gaps and problem areas? This should include market and industry, cross-functionality, team ability, and resourcing. 
 
 2. **One month before the new year**
-    <br>Senior leadership should communicate with team leaders about annual company-level goals and how those align with the team's quarterly goals. Discussion with team leaders ensures that every team understands the priorities for the upcoming year.
+    
+    Senior leadership should communicate with team leaders about annual company-level goals and how those align with the team's quarterly goals. Discussion with team leaders ensures that every team understands the priorities for the upcoming year.
 
     In this phase, you should accomplish the following things: 
     -  Make sure team leaders understand the company mission, and vision and how those tie to the company-wide OKRs 
@@ -124,8 +126,9 @@ The dashboard for this meeting should have two elements:
     - Risks, mitigation, and where help is needed 
 
 2. OKR widgets with quantitative information 
-    - Objectives and key results for this time period showing exact progress against goals 
+    
+    Objectives and key results for this time period showing exact progress against goals 
 
 ## How to create and customize dashboards within Viva Goals 
 
-Now that you’ve seen the “why” around using OKR dashboards in your business rhythms, see the step-by-step process “how” to create a dashboard, add panels, customize widgets, and present your data in the Microsoft Viva Goals software platform: [Create and customize dashboards within Viva Goals ](https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4)
+Now that you’ve seen the “why” around using OKR dashboards in your business rhythms, see the step-by-step process “how” to create a dashboard, add panels, customize widgets, and present your data in the Microsoft Viva Goals software platform: [Create and customize dashboards within Viva Goals](https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4).
