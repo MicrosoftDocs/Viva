@@ -1,5 +1,5 @@
 ---
-ms.date: 02/08/2023
+ms.date: 03/03/2023
 title: "Rhythm of Business Overview"
 ms.reviewer: 
 ms.author: rasanders
@@ -107,9 +107,7 @@ There are four key meeting categories and activities to focus on. Each one has i
 
 ## How to create and customize dashboards within Viva Goals 
 
-Now that you’ve seen the “why” around using OKR dashboards in your business rhythms, see the step-by-step process “how” to create a dashboard, add panels, customize widgets, and present your data in the Microsoft Viva Goals software platform: 
-
-[Create and customize dashboards within Viva Goals ](https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4)
+Now that you’ve seen the “why” around using OKR dashboards in your business rhythms, see the step-by-step process “how” to create a dashboard, add panels, customize widgets, and present your data in the Microsoft Viva Goals software platform: [Create and customize dashboards within Viva Goals ](https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4)
 
 ## Summary
 
