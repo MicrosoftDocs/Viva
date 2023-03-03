@@ -141,10 +141,10 @@ Now that the Key Result is linked to a query in Azure DevOps, you can track the 
 ## How to edit or delete your Azure DevOps Connection 
 
 1. Select your account name at the bottom left corner of the screen.
-    :::image type="content" source="../media/goals/ado-images/ado-screenshot-1.png" alt-text="Screentshot highlighting name selection in the left corner of the screen."::: 
+    :::image type="content" source="../media/goals/ado-images/ado-screenshot-1.png" alt-text="Screenshot highlighting name selection in the left corner of the screen."::: 
 1. Select **Preferences** 
-    :::image type="content" source="../media/goals/ado-images/ado-screenshot-2.png" alt-text="Screenshot highlighting selecting the "preferences" option from the pop out menu.":::
+    :::image type="content" source="../media/goals/ado-images/ado-screenshot-2.png" alt-text="Screenshot highlighting selecting the preferences option from the pop out menu.":::
 1. Select **My Integrations** followed by **Manage**
-    :::image type="content" source="../media/goals/ado-images/ado-screenshot-3.png" alt-text="Screenshot highlighting the "my integrations" tab and the "manage" button.":::
+    :::image type="content" source="../media/goals/ado-images/ado-screenshot-3.png" alt-text="Screenshot highlighting the my integrations tab and the manage button.":::
 1. Select **edit or delete** to modify your connection.
     :::image type="content" source="../media/goals/ado-images/ado-screenshot-4.png" alt-text="Screenshot highlighting of how to modify an ADO connection.":::
