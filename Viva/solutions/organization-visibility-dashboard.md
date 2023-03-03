@@ -28,7 +28,7 @@ Organizations can incorporate OKRs into their rhythm of business (ROB) by using 
 
 **Objective of this meeting:** The purpose of this activity is to drive visibility of organizational goals by broadly sharing OKRs to every member of the team so that they understand the company direction.  
 
-f you’ve ever had team members raise their hands and ask “What is the big picture vision of the company?” or “Can we see a roadmap for the rest of the year?” or “What is the status of our top three initiatives?” then this is the place to answer those questions.  
+If you’ve ever had team members raise their hands and ask, “What is the big picture vision of the company?” or “Can we see a roadmap for the rest of the year?” or “What is the status of our top three initiatives?” then this is the place to answer those questions.  
 
 While communicating a common vision is always important, this is often used in the Modeling phase of an OKR rollout to encourage opt-in experimentation with Viva Goals, and the OKR methodology and help build a community of OKR champions and enthusiasts. 
 
