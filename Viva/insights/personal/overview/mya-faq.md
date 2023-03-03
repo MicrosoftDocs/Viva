@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Personal insights FAQ
 description: Frequently asked questions about Personal insights with Microsoft Viva Insights
 author: madehmer
@@ -92,7 +93,10 @@ If you block out your calendar for personal work by using an appointment (see [C
 
 ##### Q1. What does "focus time kept" mean?
 
-Focus time counts as kept when you don't delete it and you don't have a meeting conflict. You can book focus time automatically by enrolling in a focus plan, or schedule non-recurring, single sessions through the briefing email or the Viva Insights app. 
+Focus time counts as kept when you don't delete it and you don't have a meeting conflict. You can book focus time automatically by enrolling in a focus plan, or schedule non-recurring, single sessions through the Briefing email or the Viva Insights app. 
+
+  >[!Important]
+  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
 
 ##### Q2. Why does my focus time seem incorrect or inaccurate?
 
@@ -327,3 +331,4 @@ Administrators can also [Assign licenses to users](/microsoft-365/admin/add-user
 #### Q8. Can I see who in my organization is using Viva Insights?
 
 Yes. Microsoft 365 admins can see the Viva Insights activity report in the admin center. For details, see [Viva Insights activity](activity-report.md).
+

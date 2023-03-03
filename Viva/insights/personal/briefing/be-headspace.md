@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/19/2021
 title: Headspace meditation with the Briefing email
 description: Learn how to access the Headspace feature from the Briefing email
 author: madehmer
@@ -17,6 +18,10 @@ audience: user
 ---
 
 # Start a guided meditation with Headspace
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+
 
 In the Headspace section of the Briefing email, you can launch a guided meditation to start your day grounded and focused.
 
@@ -81,3 +86,4 @@ You can open and run Viva Insights in a new window. This lets you play Headspace
 ## Related topic
 
 [Briefing email overview](be-overview.md)
+

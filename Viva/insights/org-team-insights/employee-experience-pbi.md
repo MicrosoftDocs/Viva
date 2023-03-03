@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/14/2023
 title: Employee experience Power BI template from Organization trends
 description: Use the Employee experience Power BI template to learn more about focus time, manager coaching, and other key experience indicators for your organization
 author: lilyolason
@@ -95,4 +96,5 @@ After the dashboard is set up and populated with data in Power BI, make sure the
 ## Power BI tips, troubleshooting, and FAQs
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../advanced/analyst/templates/power-bi-faq-troubleshoot.md).
+
 

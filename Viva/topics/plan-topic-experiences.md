@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Plan for Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -165,3 +166,4 @@ When you set up topic experiences, you'll need the following items as you go thr
 [Manage topic permissions in Microsoft 365](topic-experiences-user-permissions.md)
 
 [Change the name of the topic center in Microsoft 365](topic-experiences-administration.md)
+

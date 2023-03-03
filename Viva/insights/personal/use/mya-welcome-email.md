@@ -1,5 +1,6 @@
 ---
 
+ms.date: 04/09/2018
 title: Viva Insights welcome email
 description: Viva Insights users receive a welcome email after licenses are assigned to them 
 author: madehmer
@@ -25,3 +26,4 @@ The following is an example of a Viva Insights welcome message.
 
  ![Viva Insights welcome message top section.](../../Images/mya/use/welcome-email-1.png)
  ![Viva Insights welcome message end section.](../../Images/mya/use/welcome-email-2.png)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 12/14/2022
 title: "Viva Engage Native Mode: step-by-step guide"
 description: "Learn more about the process of migrating to Native Mode with this in-depth step-by-step guide."
 ms.reviewer: ethli
@@ -119,6 +120,7 @@ It is possible that your error report may contain errors that are not found in t
 
 > [!IMPORTANT]
 > Once a network is successfully aligned to Native Mode, the system will automatically prevent any action that would break this alignment. You will not need to go through this process again once it has run successfully. 
+
 
 
 

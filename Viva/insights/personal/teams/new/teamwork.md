@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/11/2022
 title: Teamwork tab in Viva Insights
 description: Use the Teamwork tab in Microsoft Viva Insights
 author: lilyolason
@@ -26,6 +27,7 @@ If you manage direct reports or are an organization leader, check out this artic
 
 You’ll find three cards on your **Teamwork** tab, under the **Build better relationships** section:
 
+
 * Time spent collaborating with others shows how many people you’ve collaborated with over the last month. It also shows how much time you’ve spent collaborating during and after working hours. For more information about who you’re collaborating with, select **View my network**. We talk about this section more in Network.
 * **Your communication habits** shows what percentage of your time is available to focus and what percentage of your time is spent collaborating with others. The card also breaks down how much collaboration time you spend per communication channel—meetings, chats and calls, and email. For more information about your [communication habits](network.md#communication-habits), select **Show details**. 
 * Suggested important contact is a contact you’ve worked with and who you might want to consider pinning as a favorite. When you pin someone as a favorite, using the **Pin** button, Viva Insights prioritizes tasks from them in the [Productivity](productivity.md) tab’s **Tasks** feed.
@@ -38,5 +40,6 @@ When you select **View my network** on the **Time spent collaborating with other
 *Applies to: users with a premium subscription*
 
 If you’re an organization leader—that is, your Insights admin has assigned you the **Insights Business Leader** role or enabled you as a group manager—you’ll see a **Teamwork insights for your organization** section at the top of your **Teamwork** tab. Each day, you’ll receive an insight about internal network size across your organization or company. To learn more about organization insights, refer to [Organization insights in the Viva Insights app](../../../org-team-insights/new/org-insights.md).
+
 
 :::image type="content" source="../images/teamwork-org-insights.png" alt-text="Screenshot that shows Teamwork insights for your organization section on the Teamwork tab.":::

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/06/2020
 title: Accelerate change in Viva Insights
 description: Learn how to use Microsoft Viva Insights data to analyze and accelerate organizational change
 author: madehmer
@@ -78,3 +79,4 @@ Ways to support connectivity with Teams:
 
 For more best practices and how to host informal gatherings with Teams, see [Best practices for community connectivity](../tutorials/gm-connectivity.md).
 -->
+

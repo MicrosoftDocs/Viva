@@ -1,5 +1,6 @@
 ---
 
+ms.date: 03/26/2018
 title: Additional resources for Personal insights
 description: Additional resources to help you get started on reaching their personal work-life balance goals
 author: madehmer
@@ -99,3 +100,4 @@ The following is a list of helpful resources that can help get you and your team
 * [Work-life balance: How Being a Workaholic Differs from Working Long Hours - and Why That Matters for Your Health](https://hbr.org/2018/03/how-being-a-workaholic-differs-from-working-long-hours-and-why-that-matters-for-your-health#)
 * [Work-life balance: Understanding Speed and Velocity: Saying “NO” to the Non-Essential](https://www.fs.blog/2018/03/speed-velocity/#)
 * [Work-life balance: Eight Ways to Say No with Grace and Style](https://www.fs.blog/2014/11/eight-ways-to-say-no/#)
+

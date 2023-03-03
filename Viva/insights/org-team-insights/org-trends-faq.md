@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/14/2023
 title: FAQ for My organization insights
 description: FAQ for My organization insights in Microsoft Viva Insights
 author: madehmer

@@ -2,9 +2,9 @@ items:
   - name: In Teams
     items:
     - name: Introduction
-      href: /viva/insights/personal/teams/viva-teams-app
+      href: /viva/insights/personal/teams/new/introduction
     - name: Set up the app
-      href: /viva/insights/personal/teams/viva-teams-app-settings
+      href: /viva/insights/personal/teams/new/settings
     - name: Home
       href: /viva/insights/personal/teams/new/home
       items:
@@ -50,6 +50,8 @@ items:
           href: /viva/insights/personal/teams/new/reflect                
         - name: Virtual commute
           href: /viva/insights/personal/teams/new/virtual-commute                 
+      - name: FAQ
+        href: /viva/insights/personal/teams/new/faq
       - name: Team and organization insights
         items:
           - name: Team insights 

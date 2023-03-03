@@ -1,4 +1,5 @@
 ---
+ms.date: 11/14/2022
 title: Enable Integrations in Viva Goals
 ms.reviewer: 
 ms.author: rasanders

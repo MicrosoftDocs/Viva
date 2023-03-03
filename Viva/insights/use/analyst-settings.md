@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/06/2021
 title: Analyst settings for Viva Insights
 description: Learn about Analyst settings that admins can configure and edit for Microsoft Viva Insights
 author: madehmer
@@ -26,3 +27,4 @@ As an admin for Microsoft Viva Insights, you can use **Analyst settings** to con
 **Owner** – Only Viva Insights admins have full access to Analyst settings. For details about roles, see [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ![Analyst settings that admins configure](../images/wpa/use/analyst-admin-settings.png)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 04/17/2022
 title: "Smartsheet integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -66,3 +67,4 @@ Now that the integration is enabled, your team can link a Smartsheet cell with a
     :::image type="content" source="../media/goals/9/smartsheet-connection-details.png" alt-text="Screenshot shows where you identify the worksheet, column, and row to link your metric with." lightbox="../media/goals/9/smartsheet-connection-details.png":::
 
 3. Select **Next** to finish and save your OKR. You should now see an icon next to the OKR. The OKR will sync automatically every hour. To refresh it manually, select **refresh**.
+

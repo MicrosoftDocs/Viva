@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 3/15/2022
+ms.date: 03/15/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -47,3 +47,4 @@ You can [contact OpenSesame Support](mailto:support@opensesame.com) for help wit
 2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable OpenSesame in the panel.
 3. Fill in the OpenSesame Customer Integration ID you got from your OpenSesame Customer Success Manager or Implementation Specialist.
 4. Select **Save** to activate OpenSesame content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
+

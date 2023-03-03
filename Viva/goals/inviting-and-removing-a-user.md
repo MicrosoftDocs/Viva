@@ -1,4 +1,5 @@
 ---
+ms.date: 04/05/2022
 title: Inviting and removing a user
 ms.reviewer: 
 ms.author: rasanders
@@ -126,3 +127,4 @@ Admins can’t delete users who currently own any objective. To delete those use
 
 1. **How can I view a deactivated or deleted user?**
     1. Go to **Admin**->**Settings** and under **Users** tab, select the **Status** dropdown and select **Deactivated**.
+
