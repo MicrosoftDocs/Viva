@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 03/03/2023
 title: Wellbeing - balance and flexibility report
 description: Learn how the Wellbeing - balance and flexibility PowerBI template from Microsoft Viva Insights helps you discover whether your employees maintain work-life balance and flexibility at work
 author: lilyolason
@@ -47,12 +47,8 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 1.	In the Viva Insights analyst experience, select **Analysis**.
 2.	Under Power BI templates, navigate to **Wellbeing – balance and flexibility report** and select **Start analysis**. 
-[!INCLUDE [Setup steps](includes/setup-step-3.md)]
-<!--image-->
-[!INCLUDE [Setup step 4](includes/setup-step-4.md)]
-<!--image-->
+[!INCLUDE [Setup steps](includes/setup-steps.md)]
 
-[!INCLUDE [Setup steps 5-12](includes/setup-steps-5-12.md)]
 
 ## Report settings
 
@@ -74,8 +70,6 @@ View and set the following parameters on the **Settings** page. You can find **S
 #### Customize working hours
 
 For **Embrace flexibility** and **Take breaks** pages, you can customize the standard working hours for your organization as a baseline. Select **Customize working hours** at the top right of the report page, and then select the standard start time and end time. The report will then compare employees’ collaboration patterns with these time settings.
-
-![Screenshot that shows the Wellbeing report customize standard working hours page.](/viva/insights/advanced/images/wellbeing-pbi-workinghours1.png)
 
 ## About the report
 
@@ -165,7 +159,6 @@ Find out how well employees are able to disconnect from work, and identify group
 
 Also view a distribution of this information by organization.
 
-
 >[!Tip]
 >
 >You can customize work hours in the upper right of this page, next to **Settings**.
@@ -191,5 +184,3 @@ The report also includes:
 * A **Glossary page** that describes all the metrics in the report.
 
 [!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
-
-
