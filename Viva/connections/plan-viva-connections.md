@@ -97,7 +97,7 @@ Viva Connections is composed of three main parts – the dashboard, the feed, an
 ## Step 3: Plan the dashboard
 Start by identifying the key scenarios that Viva Connections needs to support and identify owners of those employee experiences. Tasks and scenarios will be primarily supported by cards in the Viva Connections dashboard that can be targeted to specific audiences using Microsoft 365 groups. Consider which groups of employees will need access to specific resources.
 
-| Dashboard animation  | Description                 | 
+| Dashboard on mobile  | Description                 | 
 | :------------------- |: ------------------- |
 | ![Interaction between the Dashboard and cards.](../media/connections/new-vc-dashboard-interaction.GIF) | In this example, a card on the dashboard is linked to a SharePoint page where users can take a daily health check easily from a mobile device.| 
 
@@ -193,7 +193,7 @@ Resources are the navigational links to portals and other popular destination. r
 
 | Desktop             | Mobile                 | 
 | :------------------: |: ------------------: |
-| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
+| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-new-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
 
 
 For organizations with home sites, consider how links in the global navigation will complement resources highlighted on the home site. Depending on the content you want to make available in the global navigation, you can [design your home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
