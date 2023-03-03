@@ -94,7 +94,7 @@ As you incorporate OKRs into your business rhythms, you would still keep your an
 Annual planning is the most critical piece in setting up your company for success. With a concrete plan, you'll gain a clear idea of where your organization is headed, how you'll define success, and how you'll achieve your organization's biggest priorities. Annual planning consists of three phases. 
 
 1. **One to three months before the new year** 
-     <br> Senior-level leadership meets and discusses annual company goals. In this phase, you should ask the following questions: 
+     Senior-level leadership meets and discusses annual company goals. In this phase, you should ask the following questions: 
     - Which goals do we want to roll over for the new year? 
     - What did we learn from the goals we reached this year, and from those we didn't reach? 
     - What are our current gaps and problem areas? This should include market and industry, cross-functionality, team ability, and resourcing. 
