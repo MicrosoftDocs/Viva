@@ -35,15 +35,15 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 
 **This article includes:**
 
-- [Edit the dashboard and add cards](#edit-the-dashboard)
-- [Add the Approvals card](#add-the-approvals-card)
-- [Add an Assigned tasks card](#add-the-assigned-tasks-card)
-- [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view)
-- [Add a Teams app card](#add-a-teams-app-card)
-- [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app)
-- [Add the Top news cards](#add-the-top-news-card)
-- [Add a Shifts card](#add-a-shifts-card)
-- [Add a Viva Learning card](#add-a-viva-learning-card)
+- [Edit the dashboard and add cards](#edit-the-dashboard).
+- [Add the Approvals card](#add-the-approvals-card).
+- [Add an Assigned tasks card](#add-the-assigned-tasks-card).
+- [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view).
+- [Add a Teams app card](#add-a-teams-app-card).
+- [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app).
+- [Add the Top news cards](#add-the-top-news-card).
+- [Add a Shifts card](#add-a-shifts-card).
+- [Add a Viva Learning card](#add-a-viva-learning-card).
 - [Add a Viva Topics card](#add-a-viva-topics-card).
 - [Add a Web link card](#add-a-web-link-card).
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards).
