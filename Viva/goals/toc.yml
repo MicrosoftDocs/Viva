@@ -31,6 +31,8 @@ items:
       href: configure-okr-model.md
     - name: Configure your OKR creation permissions in Viva Goals
       href: configure-okr-create-permissions.md
+    - name: Configure your OKR edit permissions in Viva Goals
+      href: edit-permissions.md
     - name: Import OKRs and Initiatives/Projects with Viva Goals
       href: import-okrs-projects.md
     - name: Manage OKR Time Periods
