@@ -153,8 +153,12 @@ items:
               href: advanced/analyst/person-query-overview.md
             - name: Create a person query
               href: advanced/analyst/person-query.md
+            - name: Create a meeting query
+              href: advanced/analyst/meeting-query.md  
             - name: Access query results and modify existing queries
-              href: advanced/analyst/query-results.md  
+              href: advanced/analyst/query-results.md 
+            - name: Query results FAQs
+              href: advanced/analyst/query-results-faq.md   
           - name: Templates
             items:
             - name: Introduction to templates
@@ -175,6 +179,10 @@ items:
               href: advanced/analyst/templates/power-bi-faq-troubleshoot.md  
           - name: Data quality
             href: advanced/analyst/data-quality-analyst-experience.md
+          - name: Filters
+            href: advanced/analyst/filters.md
+          - name: Metric customization
+            href: advanced/analyst/custom-metrics.md
           - name: Metric rules
             href: advanced/analyst/metric-rules.md       
         - name: Reference
@@ -183,5 +191,8 @@ items:
             href: advanced/reference/faq.md
           - name: Glossary
             href: advanced/reference/glossary.md
-          - name: Metrics
-            href: advanced/reference/metrics.md  
+          - name: Metric definitions
+            href: advanced/reference/metrics.md
+
+
+ 
