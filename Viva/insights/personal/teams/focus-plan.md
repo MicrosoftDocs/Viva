@@ -44,7 +44,7 @@ To start a focus plan:
 1. Go to the **Take action to improve your wellbeing** section of your **Wellbeing** tab.
 1. Find the **Start a daily focus plan** card, then select **Set daily focus plan**.
 
-    :::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-start.png" alt-text="Screenshot that shows the Start a daily focus plan card on the Wellbeing tab with the Start daily focus plan button highlighted." lightbox="../../../images/MyA/Use/wellbeing-focus-plan-start.png":::
+    :::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-start.png" alt-text="Screenshot that shows the Start a daily focus plan card on the Wellbeing tab with the Start daily focus plan button highlighted." lightbox="../../images/MyA/Use/wellbeing-focus-plan-start.png":::
 
 1. If you're prompted, configure your plan settings:
     * How much focus time you want to schedule each day
@@ -102,19 +102,19 @@ To edit your focus plan settings:
 
 1. Select the ellipses (**...**) at the top-right of any Viva Insights tab, then select **Settings**.
 
-    :::image type="content" source="../../teams/images/ellipses.png" alt-text="Screenshot that shows selecting the ellipses > Settings in Viva Insights.":::
+    :::image type="content" source="../../teaimages/ellipses.png" alt-text="Screenshot that shows selecting the ellipses > Settings in Viva Insights.":::
 
 1. Select **Protect time** from the left pane.
 1. Edit your scheduled focus hours per day, morning or afternoon preferences, and reminder and notification preferences.
 
-    :::image type="content" source="../../teams/images/wellbeing-focus-plan-settings1.png" alt-text="Screenshot that shows the Protect time > Configure your recurring plan for focus settings in Viva Insights." lightbox="../../teams/images/wellbeing-focus-plan-settings-expanded.png":::
+    :::image type="content" source="../../teaimages/wellbeing-focus-plan-settings1.png" alt-text="Screenshot that shows the Protect time > Configure your recurring plan for focus settings in Viva Insights." lightbox="../../teaimages/wellbeing-focus-plan-settings-expanded.png":::
 
 
 #### To leave
 
 Select the **Leave plan** button at top right. 
 
-:::image type="content" source="../../teams/images/wellbeing-focus-plan-settings-leave.png" alt-text="Screenshot that shows the top of the Focus plan settings section with the Leave plan button highlighted.":::
+:::image type="content" source="../../teaimages/wellbeing-focus-plan-settings-leave.png" alt-text="Screenshot that shows the top of the Focus plan settings section with the Leave plan button highlighted.":::
 
 Answer the survey question, then select **Leave plan** again.
 

@@ -34,11 +34,11 @@ To start using time management features through the Viva Insights app:
     >[!Tip]
     > To find all your options, use the arrows above the rightmost card.
 
-    :::image type="content" source="../images/wellbeing-tm-start.png" alt-text="Screenshot that shows the Take action section in Wellbeing with highlighted action buttons for three time management features." lightbox="../images/wellbeing-tm-start-expanded.png":::
+    :::image type="content" source="images/wellbeing-tm-start.png" alt-text="Screenshot that shows the Take action section in Wellbeing with highlighted action buttons for three time management features." lightbox="images/wellbeing-tm-start-expanded.png":::
 
 1. A confirmation message lets you know that Viva Insights has booked time on your calendar. To change which days and times you set aside, select the **Change settings** link.
 
-    :::image type="content" source="../images/wellbeing-tm-confirmation-learning.png" alt-text="Screenshot that shows a confirmation card for learning with the Change settings link highlighted.":::
+    :::image type="content" source="images/wellbeing-tm-confirmation-learning.png" alt-text="Screenshot that shows a confirmation card for learning with the Change settings link highlighted.":::
 
 ## To change settings or stop using time management features
 

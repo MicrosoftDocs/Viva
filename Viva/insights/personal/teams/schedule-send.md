@@ -51,19 +51,19 @@ You won't get suggestions in the following scenarios:
 
 1. Select the suggestion above the text input box.
 
-    :::image type="complex" source="./images/teams-schedule-send-suggestion.png" alt-text="Screenshot that shows the schedule send suggestion above a the text-input box in Teams chat.":::
+    :::image type="complex" source=images/teams-schedule-send-suggestion.png" alt-text="Screenshot that shows the schedule send suggestion above a the text-input box in Teams chat.":::
        Screenshot of a schedule send suggestion above a chat message that a user is typing in Teams. The suggestion appears beneath previously sent messages and reads, "Send a message when their work hours start Thursday, Oct 13 at 8:30 AM?".
     :::image-end:::
 
 1. You'll get a confirmation about when Viva Insights will send your chat, which you can select to make changes. To update when the message sends, use the dropdown menus on the confirmation to select a new day or time. If you're not ready to send your message or need to make some edits, select **Close**. If you don't want to schedule sending the message after all, select **Cancel scheduled time**. 
 
-    :::image type="complex" source="./images/teams-schedule-send-confirmation2.png" alt-text="Screenshot that shows the send-time confirmation of a scheduled message.":::
+    :::image type="complex" source=images/teams-schedule-send-confirmation2.png" alt-text="Screenshot that shows the send-time confirmation of a scheduled message.":::
        Screenshot of a scheduled chat message that hasn't been sent yet. Smaller text above the drafted message, within the text-input field, reports which day and time the message will be sent. There's a window above the text-input box. In the top section of the window, there are two dropdown menus: one has "Thursday, October 13" filled in; the other has "8:00 AM" filled in. Both have arrows users can select to set a new value. Beneath these dropdown menus, there are three buttons: "Send at scheduled time," "Cancel scheduled time," and "Close." The send icon has a small clock icon within it.
     :::image-end:::
 
 1. Select the chat's **Send** icon to send your scheduled message. Viva Insights will automatically deliver your chat message at the scheduled date and time. 
 
-    :::image type="complex" source="./images/teams-schedule-send-sending.png" alt-text="Screenshot that shows a sent scheduled chat message.":::
+    :::image type="complex" source=images/teams-schedule-send-sending.png" alt-text="Screenshot that shows a sent scheduled chat message.":::
        Screenshot of a chat message that's been sent but hasn't been delivered. The message appears beneath other sent messages, but has small text above the message content that says which day and time it's sending.
     :::image-end:::
 
@@ -76,7 +76,7 @@ If you need to *edit* your scheduled chat:
 1. Edit your message.
 1. Press **Enter** on your keyboard, or select the checkmark beneath the text input box, to save your changes.
 
-:::image type="content" source="./images/teams-schedule-send-edit-delete2.png" alt-text="Screenshot of the Edit and Delete options menu.":::
+:::image type="content" source=images/teams-schedule-send-edit-delete2.png" alt-text="Screenshot of the Edit and Delete options menu.":::
 
 Your message will automatically send at the scheduled time. If you need to update the scheduled time your message sends, refer to step 2 in [Schedule your chat delivery](#schedule-your-chat-delivery).
 
@@ -92,7 +92,7 @@ If you qualify to use the feature, your schedule send suggestions are turned on 
 1. Select **Settings**.
 1. Under **General**, select or deselect the box for **Schedule message send**.
 
-:::image type="complex" source="./images/teams-schedule-send-settings.png" alt-text="Screenshot that shows Schedule message send options within the Teams Settings menu.":::
+:::image type="complex" source=images/teams-schedule-send-settings.png" alt-text="Screenshot that shows Schedule message send options within the Teams Settings menu.":::
    Screenshot of the Teams Settings menu. The first tab on the left rail, "General," is selected. The last section of this page, "Schedule message send," is highlighted. A box is selected next to the label, "Show scheduling suggestions for message delivery in chat."
 :::image-end:::
 

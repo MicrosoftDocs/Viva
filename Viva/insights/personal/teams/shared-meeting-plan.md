@@ -37,13 +37,13 @@ To create a shared meeting plan:
 1. Go to the **Productivity** tab in the Viva Insights app in Teams or on the web.
 1. In the **Recommended for you** section, find the **Promote healthy meeting norms** card and select **Get started**.
 
-:::image type="complex" source="../images/productivity-mep-start2.png" alt-text="Screenshot that shows the Recommended for you section.":::
+:::image type="complex" source="images/productivity-mep-start2.png" alt-text="Screenshot that shows the Recommended for you section.":::
    Screenshot of the Recommended for you section in the Viva Insights app Productivity tab. Next to the title, there's an information icon. The subtitle reads, "Get insights, actions, and plans to help you and your peers adopt best practices." Beneath the subtitle, there are three sections: one larger section on the left and two smaller sections on the right. One section on the right is titled, "How your meetings succeeded," and the subtitle says, "Your participants appreciate how you end meetings with clear next steps." The second section on the right is titled, "How your meetings can improve," and the subtitle says, "Some of your recent online meetings may not have started on time due to back-to-back meetings." The section on the left is titled, "Promote healthy meeting norms," and the subtitle says, "Share a customized meeting plan to encourage best practices for meetings." The button below, called "Get started," is highlighted.
 :::image-end:::
 
 Learn a bit more about how a shared meeting plan can help. Then select **Get started**.
 
-:::image type="complex" source="../images/productivity-smp-setup-1.png" alt-text="Screenshot that shows the intro to the Create a meeting plan process.":::
+:::image type="complex" source="images/productivity-smp-setup-1.png" alt-text="Screenshot that shows the intro to the Create a meeting plan process.":::
    Screenshot of the intro to the "Create a shared meeting plan" process. The title says, "Create a shared meeting plan for your team," and the subtitle says, "You're leading the way with effective meeting habits for hybrid work. Set up a customized meeting plan to encourage best practices for meetings." There's a "Learn more" link immediately to the right of the subtitle. Beneath the subtitle, there are three options: "Automatically shorten duration for all meetings," with a subtitle of "Give a breather between back-to-back meetings to promote team wellbeing"; "Automatically include a Teams meeting link," with a subtitle of "Promote team inclusion of both in-person and remote attendees"; and "Get feedback from your meeting attendees," with a subtitle of "Understand how effective your meetings are to encourage feedback." There are two buttons in the bottom right of the window: "Cancel" and "Get started."
 :::image-end:::
 
@@ -57,7 +57,7 @@ First, you'll set some meeting norms that affect how your meetings appear on cal
 
 * **Get feedback from your meeting participants** – Activate meeting effectiveness surveys for plan participants who have a Viva Insights subscription. Meeting effectiveness surveys promote a healthy meeting culture by providing aggregated feedback to meeting organizers on what’s going well with your meetings and what you could improve in the future.
 
-:::image type="complex" source="../images/productivity-smp-setup-2.png" alt-text="Screenshot that shows creating team norms (step 1/2).":::
+:::image type="complex" source="images/productivity-smp-setup-2.png" alt-text="Screenshot that shows creating team norms (step 1/2).":::
    Screenshot of the first step of the "Create a shared meeting plan" process. The title is, "Customize your meeting norms." Below the title, there are three options, which correspond to the options described in the preceding bulleted list: "Automatically shorten duration for all meetings," "Automatically include a teams link," and "Get feedback on your meetings." Each option has a check box to its left, which are each selected. Each option also has an information icon to its right. Under "Automatically shorten duration for all meetings," there are three dropdown menus. The first shows "End events early." The second, below the first, has a title of "Less than one hour," and the dropdown menu field shows "5 minutes." the third dropdown, also below the first, has a title of "One hour or longer," and shows "10 minutes." There's a "Back" link on the bottom left of the window. On the bottom right of the window, there are two buttons: "Cancel" and "Next."
 :::image-end:::
 
@@ -72,7 +72,7 @@ Type in names to the **Recipients** field. When you're done adding recipients, y
 
 If you have one or more people reporting to you, we'll automatically fill in your team members. You can then add or remove people as you need to.
 
-:::image type="complex" source="../images/productivity-smp-setup-3.png" alt-text="Screenshot that shows typing to add participants (step 2/2).":::
+:::image type="complex" source="images/productivity-smp-setup-3.png" alt-text="Screenshot that shows typing to add participants (step 2/2).":::
    Screenshot of the second step of the "Create a shared meeting plan" process. The window's title is, "Who would you like to invite?" and the subtitle reads, "Invite your team to participate in the plan with you. Start typing a name to invite more people." Beneath the subtitle is a window showing tags for various invited participants, which includes their profile image and name. There's a search function to the right. A dropdown menu shows suggested participants. There's a "Back" link on the bottom left of the window. On the bottom right of the window, there are two buttons: "Cancel" and "Confirm."
 :::image-end:::
 
@@ -86,7 +86,7 @@ Anyone with access to the Viva Insights app can join and participate in a shared
 
 If someone invites you to join a shared meeting plan, you'll get an invitation in Teams. If you want to join the plan and like the settings the organizer has configured, select **Join**. If you want to edit settings for your meetings before joining, select **Edit**.
 
-:::image type="complex" source="../images/productivity-smp-invite1.png" alt-text="Screenshot that show's a recipient's Teams invitation to join a shared meeting plan.":::
+:::image type="complex" source="images/productivity-smp-invite1.png" alt-text="Screenshot that show's a recipient's Teams invitation to join a shared meeting plan.":::
    Screenshot of the notification a plan invitee gets. The top shows the organizer's profile image and a title that reads, "Allan Deyoung invited you to join a shared meeting plan." A subtitle reads, "Join Allan Deyoung and their team in adoption healthy meeting norms. This meeting plan helps you automatically follow research backed meeting best practices." Beneath the subtitle is a "Learn more" link. The section below is titled, "Plan details" and includes details about the three selections the organizer made when they set up the plan. The first reads, "Automatically shorten meetings by ending events early by 5 mins for events less than an hour and by 10 mins for events that are one hour or longer." The second reads, "Automatically add a Teams meeting link to all your meetings." The third reads, "Automatically send a survey to your meeting participants to get feedback on your meetings." On the bottom right of the notification window, there are two buttons: "Edit" and "Join."
 :::image-end:::
 
@@ -101,7 +101,7 @@ After you're part of a shared meeting plan, either as an organizer or a particip
 
 Anyone who's part of a plan can make changes to their personal settings. Select **Edit** on the **Your shared meeting plan** card, which takes you to your **Settings** page.
 
-:::image type="complex" source="../images/productivity-smp-card.png" alt-text="Screenshot that shows the Shared meeting plan card on the Productivity tab.":::
+:::image type="complex" source="images/productivity-smp-card.png" alt-text="Screenshot that shows the Shared meeting plan card on the Productivity tab.":::
    Screenshot of the "Your shared meeting plan" card. The card shows participants' profile images and the subtitle says, "You're leading the way with effective meeting habits." There's an "Edit" button at the bottom of the card.
 :::image-end:::
 
@@ -111,7 +111,7 @@ To start or stop automatically shortening meetings, toggle the switch under **Sh
 
 To add or stop adding Teams links to meetings, toggle the switch under **Add Teams meeting**.
 
-:::image type="complex" source="../images/productivity-smp-settings.png" alt-text="Screenshot that shows the Effective meetings settings in the Teams settings page for Viva Insights."lightbox="../images/productivity-smp-settings-expanded.png":::
+:::image type="complex" source="images/productivity-smp-settings.png" alt-text="Screenshot that shows the Effective meetings settings in the Teams settings page for Viva Insights."lightbox="images/productivity-smp-settings-expanded.png":::
    Screenshot of "Effective meetings" settings in the Viva Insights Settings page in Teams. There are three sections. The first is titled, "Your shared meeting plan," with a button to leave the plan. The subtitle says, "You're leading the way with effective meeting habits" and has a "Learn more" link. The second section is titled, "Get feedback on your meetings" with a "Meeting effectiveness surveys" toggle. The subtitle for the toggle says, "Want to get feedback about how effective your meetings are? Insights can send a survey to meeting participants to help you understand how effective your meetings are" and contains a "Learn more" link. The third section is titled, "Personalize your meetings." It contains a "Shorten meetings" toggle and a set of dropdown menus to set preferences, along with an "Add Teams meeting" toggle. The subtitle for the "Add Teams meeting" toggle says, "Automatically include a Microsoft Teams meeting link to all your meetings to promote inclusion of in-person and remote attendees."
 :::image-end:::
 
@@ -124,7 +124,7 @@ If you want to leave a plan, either [**Edit** the plan](#to-edit-a-shared-meetin
 
 Within **Your shared meeting plan**, select **Leave plan**.
 
-:::image type="content" source="../images/productivity-smp-leave.png" alt-text="Screenshot that shows the Shared meeting plan setting and the Leave plan button highlighted in the Effective meetings section of the Viva Insights settings page.":::
+:::image type="content" source="images/productivity-smp-leave.png" alt-text="Screenshot that shows the Shared meeting plan setting and the Leave plan button highlighted in the Effective meetings section of the Viva Insights settings page.":::
 
 After you select **Leave plan**, pick whether you want to keep any of these meeting-related settings from your plan:
 
@@ -132,7 +132,7 @@ After you select **Leave plan**, pick whether you want to keep any of these meet
 * Automatically include a Microsoft Teams meeting link
 * Get feedback from your meeting participants
 
-:::image type="complex" source="../images/productivity-smp-leave-confirmation.png" alt-text="Screenshot that shows the confirmation window to end the shared meeting plan.":::
+:::image type="complex" source="images/productivity-smp-leave-confirmation.png" alt-text="Screenshot that shows the confirmation window to end the shared meeting plan.":::
    Screenshot of the confirmation window to end the shared meeting plan. The title reads, "Are you sure you want to end this plan?" and the subtitle reads, "You will be opted out of the following settings if you leave the plan. Select the settings you want to keep." The section title is "Plan details" and contains three options, each with a selection checkbox. The first option is "Shorten duration for all meetings," and contains an information icon. There are three dropdown menus: the first menu shows "End events early." The second dropdown menu, below the first, has a title of "Less than one hour," and the dropdown menu field shows "5 minutes." The third dropdown menu, also below the first, has a title of "One hour or longer," and shows "10 minutes. The section option reads, "Automatically add Teams online meeting link to all meetings" with an information icon. The third option is "Get feedback on your meetings" with an information icon. On the bottom right of the confirmation window, there are two buttons: "Close" and "Confirm."
 :::image-end:::
 

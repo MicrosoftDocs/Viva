@@ -27,12 +27,12 @@ You can start a guided meditation whenever you want. To find and complete a medi
 1. In the **Wellbeing** tab in your Viva Insights app, go to the **Act with intention** section, and select **Guided meditations**.
 
 
-    :::image type="content" source="../images/wellbeing-start-meditation1.png" alt-text="Screenshot that shows the Act with intention, Guided meditations section, which contains four guided meditation cards." lightbox="../images/wellbeing-start-meditation1-expanded.png":::
+    :::image type="content" source="images/wellbeing-start-meditation1.png" alt-text="Screenshot that shows the Act with intention, Guided meditations section, which contains four guided meditation cards." lightbox="images/wellbeing-start-meditation1-expanded.png":::
 
 1. Start an exercise by selecting its **Play** button.
 1. If you want to do another exercise, select **More exercises**. Otherwise, close the window to complete your meditation.
 
-    :::image type="content" source="../images/wellbeing-headspace-more-exercises2.png" alt-text="Screenshot that shows selecting the More exercises link below a playing meditation video.":::
+    :::image type="content" source="images/wellbeing-headspace-more-exercises2.png" alt-text="Screenshot that shows selecting the More exercises link below a playing meditation video.":::
 
 ### Run meditations or music in the background 
 
@@ -44,7 +44,7 @@ Let's say you wanted to listen to focus music while you continued using other fe
 
 3. Select **Pop out app**.
 
-    :::image type="content" source="../images/pop-out-app2.png" alt-text="Screenshot that shows selecting the Viva Insights right-click Pop out app option from the Teams side panel.":::
+    :::image type="content" source="images/pop-out-app2.png" alt-text="Screenshot that shows selecting the Viva Insights right-click Pop out app option from the Teams side panel.":::
 
 4. In the resulting second window, select **More mindfulness exercises** and then start a Headspace meditation or Focus music as described in [Start a guided meditation](#start-a-guided-meditation).
 

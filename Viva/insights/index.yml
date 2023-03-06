@@ -34,7 +34,7 @@ highlightedContent:
       url: ./org-team-insights/teamwork-habits.md
     - title: Organization trends
       itemType: tutorial
-      url: ./org-team-insights/org-trends.md
+      url: ./org-team-insights/org-insights.md
     - title: Advanced insights
       itemType: deploy
       url: advanced/introduction-to-advanced-insights.md

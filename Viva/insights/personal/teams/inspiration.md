@@ -20,7 +20,7 @@ Use the Inspiration library in Microsoft Viva Insights to learn more about the t
 
 You can use the library to help transform your personal, manager, and leader insights into actions. The articles are shown on the page within specific themes, such as wellbeing, culture, impact, and resilience. The article sources include Microsoft, Harvard Business Review, and Thrive.
 
-:::image type="content" source="../images/home-inspiration-library.png" alt-text="Screenshot of the Inspiration library section on the Home tab, where each article card includes an image, title, and Read link."lightbox="../images/home-inspiration-library-expanded.png":::
+:::image type="content" source="images/home-inspiration-library.png" alt-text="Screenshot of the Inspiration library section on the Home tab, where each article card includes an image, title, and Read link."lightbox="images/home-inspiration-library-expanded.png":::
 
 ## View an article
 
@@ -28,7 +28,7 @@ The library shows you articles that you haven’t read yet first. You can view t
 
 You can also provide feedback on the articles you have read by selecting the **thumbs up** and **thumbs down** icons at the end of the article. 
 
-:::image type="content" source="../images/inspire-2.png" alt-text="Screenshot of a selected article within the Inspiration library.":::
+:::image type="content" source="images/inspire-2.png" alt-text="Screenshot of a selected article within the Inspiration library.":::
 
 ## Related topics
 

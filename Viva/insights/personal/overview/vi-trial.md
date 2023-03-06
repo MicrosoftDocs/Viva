@@ -51,7 +51,7 @@ Features | Microsoft 365 (out of the box) | Viva Insights trial | Viva Insights 
 -----------|------------|-------|--------
 [Home page](../teams/viva-insights-home.md) | X | X | X
 [My team trial features](#my-team-trial-features)| X | X | X
-[My organization page](../../org-team-insights/org-trends.md) |&nbsp; |&nbsp; | X
+[My organization page](../../org-team-insights/org-insights.md) |&nbsp; |&nbsp; | X
 [Advanced analysis tools and templates](../../index-orig.md) | &nbsp;| &nbsp; | X
 
 ## Privacy

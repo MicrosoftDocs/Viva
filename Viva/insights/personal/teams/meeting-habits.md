@@ -35,10 +35,10 @@ The **Meeting habits** section of the **Productivity** tab highlights your habit
    |![recur icon.](../Images/me-icon-recurring-invited.png) |  This meeting is recurring |
    |![recur, organized by you icon.](../Images/me-icon-recurring-by-you.png)|This meeting is recurring and you organized it
    |![Invited icon.](../Images/me-icon-invited.png)|You were invited to this meeting
-    |![Organized icon](../images/me-icon-organized-you.png)| You organized this meeting
-   | ![check mark icon.](../images/me-icon-yes.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
-   |![X icon.](../images/me-icon-no.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
-   |![dash icon.](../images/me-icon-na.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
+    |![Organized icon](images/me-icon-organized-you.png)| You organized this meeting
+   | ![check mark icon.](images/me-icon-yes.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
+   |![X icon.](images/me-icon-no.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
+   |![dash icon.](images/me-icon-na.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
 
 You can sort this table by selecting the column header.
 

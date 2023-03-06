@@ -37,11 +37,11 @@ The following are the most frequently asked questions about personal insights wi
 
 **A4.** In the bottom-right corner of each page, the Insights app asks, "Is this helpful?". Select **Yes** or **No** to provide feedback.  
 
-:::image type="content" source="../images/feedback1.png" alt-text="Screenshot that shows the Reflect on your emotions section with the Is this helpful? question, with Yes and No links, highlighted in the bottom-right corner.":::
+:::image type="content" source="images/feedback1.png" alt-text="Screenshot that shows the Reflect on your emotions section with the Is this helpful? question, with Yes and No links, highlighted in the bottom-right corner.":::
 
 After you select **Yes** or **No**, a dialog box shows up. Use this share more feedback. If you want to allow Microsoft to follow up with you about your feedback, select the **You can contact me about this feedback** box. Then, select the **Submit** button. 
 
-:::image type="content" source="../images/feedback-more-info1.png" alt-text="Screenshot that shows a text-input box for users to provide more feedback.":::
+:::image type="content" source="images/feedback-more-info1.png" alt-text="Screenshot that shows a text-input box for users to provide more feedback.":::
 
 ##### Q5. What data does the Viva Insights app use?
 
