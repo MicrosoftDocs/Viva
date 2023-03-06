@@ -1,5 +1,5 @@
 ---
-ms.date: 11/15/2021
+ms.date: 3/3/2023
 title: "Plan, build, and launch a home site for your organization"
 ms.reviewer: 
 ms.author: hokavian
@@ -18,7 +18,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-scenario
 - m365solution-spintranet
-- m365initiative-viva-connections  
+- m365initiative-viva-connections  F
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -30,7 +30,11 @@ description: "Learn about how to plan, build, and launch the main landing site f
 
 # Plan, build, and launch a home site for your organization
   
-A SharePoint home site provides a customized landing experience that reflects the organization’s brand, voice, and priorities. A home site also serves as the gateway to other portals in your organization’s intranet. Your organization needs a home site not only to provide the best intranet experience for viewers but also to take advantage of features like SharePoint global navigation and the many ways to integrate your intranet with Microsoft Teams by using [Viva Connections](https://www.microsoft.com/microsoft-viva).
+A SharePoint home site provides a customized landing experience that reflects the organization’s brand, voice, and priorities. A home site also serves as the gateway to other portals in your organization’s intranet. [Learn more about how Viva Connections and home sites work together to create employee experiences.](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together) 
+
+> [!NOTE]
+> A home site is not required for the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071).
+> [Learn more about the new experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6).
 
 If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [Set a site as your home site](/sharepoint/home-site).
 
@@ -42,10 +46,9 @@ If you’ve already created the communication site and are ready to specify it a
 - Showcase targeted news and content
 - Take advantage of the new people engagement tool, [Viva Connections](create-sharepoint-home-site-for-viva-connections.md) 
 
-|  **Example of a home site:**              | **View in the SharePoint mobile app:**      | 
+| Example of a home site:              | View in the SharePoint mobile app:      | 
 | :------------------- | :------------------- |:----------------|
-|  ![image of a home site](../media/connections/home-site-example-3.png)   |  ![image of  the SharePoint app viewing a home site](../media/connections/home-site-fre-3.png)  | 
-
+|  :::image type="content" alt-text="Screenshot of a home site as an example." source="../media/connections/home-site-example-3.png":::   |  :::image type="content" alt-text="Screenshot of a SharePoint app viewing a home site." source="../media/connections/home-site-fre-3.png":::  | 
 
 
 ## What is a SharePoint home site?
@@ -72,28 +75,25 @@ The SharePoint app bar features a global navigation option that displays intrane
 #### Use Viva Connections to integrate your intranet into Microsoft Teams
 Viva Connections is designed to drive engagement, build community, and enable your organization to stay connected. To take advantage of this solution, you’ll need a home site. Then, you can integrate the home site into Microsoft Teams. [Learn more about Viva Connections](/SharePoint/viva-connections-overview).
 
-
-
-
-
 ### Before getting started
 
 Before you get started planning and building your home site, review best practices and considerations. 
 
 #### Best practices for creating home sites:
--	Because a home site is used by the entire organization, the site needs to be [inclusive and easily accessible on all devices](https://support.microsoft.com/topic/get-ready-build-an-accessible-sharepoint-site-3a1df3ad-f093-450c-85a6-b3bf70fd6abb)
--	For the same reason above, [consider other languages that might be needed](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c)
-- The home site will be viewed by high volume of users. Make sure you [manage site performance](/sharepoint/portal-health) through the planning and building phases
--	Links in the home site's navigation can direct users to content in addition to [global navigation](/sharepoint/sharepoint-app-bar) which can be used to lead users to universally used resources and portals
--	Make sure the home site is discoverable by [adding an entry point to the Microsoft 365 app launcher](/microsoft-365/admin/manage/customize-the-app-launcher) and a [featured link on the SharePoint start page](/sharepoint/change-links-list-on-sharepoint-home-page)
--	[News published from the home site](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) should be relevant to the entire organization
+-	Because a home site is used by the entire organization, the site needs to be [inclusive and easily accessible on all devices](https://support.microsoft.com/topic/get-ready-build-an-accessible-sharepoint-site-3a1df3ad-f093-450c-85a6-b3bf70fd6abb).
+-	Because the site needs to be inclusive and easily accessible on all devices, [consider other languages that might be needed](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
+- The home site will be viewed by high volume of users. Make sure you [manage site performance](/sharepoint/portal-health) through the planning and building phases.
+-	Links in the home site's navigation can direct users to content in addition to [global navigation](/sharepoint/sharepoint-app-bar) which can be used to lead users to universally used resources and portals.
+-	Make sure the home site is discoverable by [adding an entry point to the Microsoft 365 app launcher](/microsoft-365/admin/manage/customize-the-app-launcher) and a [featured link on the SharePoint start page](/sharepoint/change-links-list-on-sharepoint-home-page).
+-	[News published from the home site](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) should be relevant to the entire organization.
 
 
 #### Considerations:
--	Align the branding on the home site to the overall intranet brand where possible
--	For organizations with many portals and resources, consider [making your home site a hub site](/sharepoint/planning-hub-sites) to expand navigational options and easily sync permissions and branding across many sites
+
+-	Align the branding on the home site to the overall intranet brand where possible.
+-	For organizations with many portals and resources, consider [making your home site a hub site](/sharepoint/planning-hub-sites) to expand navigational options and easily sync permissions and branding across many sites.
 - If the site you want to be your home site isn't currently the root site and you want it to be, first [swap the home site with the root site location](/sharepoint/modern-root-site), and then set the site as your home site. If you set up a home site first, and then swap it with the root site, you may lose home site settings and need to reapply them.  
--	Use a home site template from the SharePoint look book called [The Landing](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) to jump-start the design process
+-	Use a home site template from the SharePoint look book called [The Landing](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) to jump-start the design process.
 
 
 ## Summary of how to get a home site for your organization
@@ -117,10 +117,6 @@ A great home site starts with a plan. Because your home site is essentially the 
 | ![image of a user](../media/connections/icon-plan-gather.png)                | **Personalize content**                 | Next, think about the difference audiences that your organization serves. Consider how elements on your home site like navigational links and certain web parts could benefit from audience targeting to specific audiences. Learn more about [audience targeting](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818?ui=en-us&rs=en-us&ad=us). |
 | ![image of a file](../media/connections/icon-plan-organize.png)                   | **Gather branding assets**                   | Finally, start gathering assets needed to apply custom branding and other details to your home site, like logo files, color themes, and any custom solutions. Learn more about how to [change the look of your site](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818?ui=en-us&rs=en-us&ad=us). |
 | ![image of a chart](../media/connections/icon-plan-perf.png)                   | **Consider site performance**                   | Even before you build your site, understand the main elements that will make sure your home site is healthy. A healthy home site optimizes performance to ensure the best possible viewing experience. Use the Page diagnostics for SharePoint tool to make sure the home page is healthy before sharing with end users.Learn more about [healthy portals](/sharepoint/portal-health) and using the [Page diagnostics tool for SharePoint](/microsoft-365/enterprise/page-diagnostics-for-spo). |
-
-
-
-
 
 ## Build your home site
 
