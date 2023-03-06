@@ -2,9 +2,9 @@
 ms.date: 04/12/2022
 title: Azure DevOps integration
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -138,3 +138,13 @@ Now that the Key Result is linked to a query in Azure DevOps, you can track the 
 
 :::image type="content" source="../media/goals/6/azure-devops-oauth.png" alt-text="Screenshot shows where you can enable oauth access for Azure DevOps." lightbox="../media/goals/6/azure-devops-oauth.png":::
 
+## How to edit or delete your Azure DevOps Connection 
+
+1. Select your account name at the bottom left corner of the screen.
+    :::image type="content" source="../media/goals/ado-images/ado-screenshot-1.png" alt-text="Screenshot highlighting name selection in the left corner of the screen."::: 
+1. Select **Preferences** 
+    :::image type="content" source="../media/goals/ado-images/ado-screenshot-2.png" alt-text="Screenshot highlighting selecting the preferences option from the pop out menu.":::
+1. Select **My Integrations** followed by **Manage**
+    :::image type="content" source="../media/goals/ado-images/ado-screenshot-3.png" alt-text="Screenshot highlighting the my integrations tab and the manage button.":::
+1. Select **edit or delete** to modify your connection.
+    :::image type="content" source="../media/goals/ado-images/ado-screenshot-4.png" alt-text="Screenshot highlighting of how to modify an ADO connection.":::
