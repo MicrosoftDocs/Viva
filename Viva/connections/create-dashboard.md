@@ -28,26 +28,28 @@ description: "Learn how to edit the Viva Connections dashboard"
 The Viva Connections dashboard provides fast and easy access to information and job-related tasks. Content on the dashboard can be targeted to users in specific roles, markets, and job functions.
 The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links. 
 
-![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-new.png)
+![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-flw.png)
 
+> [!NOTE]
+> Content in this article reflects the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071) that will become available to all customers by the end of March 2023. Some users in your organization may see the new experience before others.  
 
 **This article includes:**
 
-- [Edit the dashboard and add cards](#edit-the-dashboard)
-- [Add the Approvals card](#add-the-approvals-card)
-- [Add an Assigned tasks card](#add-the-assigned-tasks-card)
-- [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view)
-- [Add a Teams app card](#add-a-teams-app-card)
-- [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app)
-- [Add the Top news cards](#add-the-top-news-card)
-- [Add a Shifts card](#add-a-shifts-card)
-- [Add a Viva Learning card](#add-a-viva-learning-card)
-- [Add a Viva Topics cards](#add-a-viva-topics-card)
-- [Add a Web link card](#add-a-web-link-card)
-- [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
-- [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
-- [Add the Dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
-- [Get more information about how links and Single sign-on works](#how-urls-and-single-sign-on-works)
+- [Edit the dashboard and add cards](#edit-the-dashboard).
+- [Add the Approvals card](#add-the-approvals-card).
+- [Add an Assigned tasks card](#add-the-assigned-tasks-card).
+- [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view).
+- [Add a Teams app card](#add-a-teams-app-card).
+- [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app).
+- [Add the Top news cards](#add-the-top-news-card).
+- [Add a Shifts card](#add-a-shifts-card).
+- [Add a Viva Learning card](#add-a-viva-learning-card).
+- [Add a Viva Topics card](#add-a-viva-topics-card).
+- [Add a Web link card](#add-a-web-link-card).
+- [Apply audience targeting to cards](#apply-audience-targeting-to-cards).
+- [Preview your dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences).
+- [Add the dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections).
+- [Get more information about how links and Single sign-on works](#how-urls-and-single-sign-on-works).
 
 
 
@@ -57,11 +59,11 @@ The Viva Connections dashboard can be edited right from Microsoft Teams. You’l
 ![Diagram of how to create a Viva Connections Dashboard.](../media/connections/viva-dashboard-step.png)
 
 >[!NOTE]
-- When setting up Viva Connections for the first time, you’ll be asked to choose a set of default cards based on the intended audience. 
-- You can choose mobile and desktop views interchangeably as you’re authoring.
-- Image recommendations for cards in the dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio to prevent stretching in the mobile app.
-- Image URLS in card properties must be an absolute URL for the link to work in the mobile app.
-- It's recommended to limit the number of cards to about 20 on the dashboard for the best viewing experience.
+> - When setting up Viva Connections for the first time, you’ll be asked to choose a set of default cards based on the intended audience. 
+> - You can choose mobile and desktop views interchangeably as you’re authoring.
+> - Image recommendations for cards in the dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio to prevent stretching in the mobile app.
+> - Image URLS in card properties must be an absolute URL for the link to work in the mobile app.
+> - It's recommended to limit the number of cards to about 20 on the dashboard for the best viewing experience.
 
 1.	Navigate to the Viva Connections app in Teams.
 2.	Next, select **Edit** in the dashboard section.
@@ -345,7 +347,7 @@ Content in the cards is dynamic and will change according to settings in Viva Le
 
 Viva Topics has two different cards. The **Viva Topics Contribute card** can be used to reach people who are known knowledge managers and are already engaged with topics and knowledge areas. Topics and knowledge areas are dynamically displayed in the card based on the viewers interests, current projects, and expertise. The **Viva Topics Discover card** can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic. 
 
-[Learn more about the two different cards](/topics/viva-topics-card-viva-connections).
+[Learn more about the two different cards](/viva/topics/viva-topics-card-viva-connections).
 
 ![Screenshot Viva Topics Contribute card.](../media/knowledge-management/viva-topics-contribute-card.png) 
 
