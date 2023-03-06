@@ -33,9 +33,9 @@ Through this experience you can:
 
 Navigate to the Engage admin center by selecting the ellipses button from the top navigation of Viva Engage. From the dropdown menu, select **Admin** to enter the admin experience.
 
-![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
+[![Image of the entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
-![Image of the Engage admin center experience that admin will see.](/Viva/media/engage/admin/eac-entry-view.png)
+[![Image of the Engage admin center experience that admin will see.](/viva/media/engage/admin/eac-entry-view.png)](/viva/media/engage/admin/eac-entry-view.png#lightbox)
 
 ### See also
 
