@@ -26,7 +26,7 @@ Create a usage policy that users are required to accept to help ensure conversat
   
 You can choose to have a link to the usage policy in the side bar in each user's Viva Engage home screen. You can display the policy as a pop-up message that users must accept before entering the network.
 
-:::image type="content" source="../media/set-up-usage-policy-message.png" alt-text="The usage policy is displayed on the right sidebar.":::
+:::image type="content" source="../media/set-up-usage-policy-message.png" alt-text="Screen shot of the usage policy that's displayed on the right sidebar.":::
   
 ## Set up or modify a Viva Engage usage policy
 
@@ -97,6 +97,6 @@ For example, if the admin specifies the URL for the browser policy as http&#58;/
   
 1. In the Viva Engage admin center, select **Configure Tenant** on the **Setup & configuration** tab. You'll be redacted to the Yammer admin center, where you select **Usage Policy**. Then, select **Set a custom browser policy URL within your company**.
 
-   :::image type="content" source="../media/set-up-usage-policy-browser-policy.png" alt-text="Set a custom browser policy in the admin center.":::
+   :::image type="content" source="../media/set-up-usage-policy-browser-policy.png" alt-text="Screen shot of the message that prompts you to enter a URL to your organization's custom browser policy.":::
 
 2. Specify the URL where your organization's browser policy is defined.
