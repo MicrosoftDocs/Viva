@@ -23,7 +23,7 @@ audience: Admin, user
 
 *Applies to: people with a premium Viva Insights subscription and one or more people directly reporting to them*
 
-Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find team meeting habits on the [Productivity](../../personal/teams/new/productivity.md) tab
+Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find team meeting habits on the [Productivity](../../personal/teams/productivity.md) tab
 
 Throughout this document, we'll link you to where you can find more detailed information.
 
@@ -83,9 +83,9 @@ To turn on or off team insights:
 
 As a manager, you're a role model when it comes to collaboration habits, especially in meetings. Team members tend to mimic their manager's behavior. One study by Microsoft found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
 
-You'll find insights about your team meeting habits on the **Productivity** tab. Refer to [Meeting habits](../../personal/teams/new/meeting-habits.md) to learn which habits we calculate and how we calculate them.
+You'll find insights about your team meeting habits on the **Productivity** tab. Refer to [Meeting habits](../../personal/teams/meeting-habits.md) to learn which habits we calculate and how we calculate them.
 
 ### Shared plans
 
-To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../../personal/teams/new/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../../personal/teams/new/shared-meeting-plan.md), visit the **Productivity** tab. 
+To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../../personal/teams/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab. 
 

@@ -40,7 +40,6 @@ Viva Insights commits that no user will discover information about another ident
 
 For further detail about privacy and organization insights, refer to our [privacy information](../../advanced/privacy/privacy.md#about-organization-insights).
 
-
 ## Using organization insights
 
 Organization insights are more than just a dashboard—they also provide helpful features to share insights and actions with your organization. Here's what you might see when you open your Viva Insights app:
@@ -92,7 +91,7 @@ Let's take a look at how to use these features:
 
     Here's an example:
 
-    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../../personal/teams/new/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
+    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
 
 ## Related information
 
