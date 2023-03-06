@@ -48,7 +48,7 @@ If you’ve already created the communication site and are ready to specify it a
 
 | Example of a home site:              | View in the SharePoint mobile app:      | 
 | :------------------- | :------------------- |:----------------|
-|  :::image type="content" alt-text="Screenshot of a home site as an example." source="../media/connections/home-site-example-3.png" lightbox="../media/connections/home-site-example-3.png":::   |  :::image type="content" alt-text="Screenshot of a SharePoint app viewing a home site. source="../media/connections/home-site-fre-3.png" lightbox="../media/connections/home-site-fre-3.png":::  | 
+|  :::image type="content" alt-text="Screenshot of a home site as an example." source="../media/connections/home-site-example-3.png" lightbox="../media/connections/home-site-example-3.png":::   |  :::image type="content" alt-text="Screenshot of a SharePoint app viewing a home site." source="../media/connections/home-site-fre-3.png" lightbox="../media/connections/home-site-fre-3.png":::  | 
 
 
 ## What is a SharePoint home site?
