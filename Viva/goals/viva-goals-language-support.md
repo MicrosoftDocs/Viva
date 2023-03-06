@@ -1,6 +1,7 @@
 ---
-ms.date: 09/27/2022
-title: Viva Goals language support
+
+ms.date: 03/06/2023
+title: Viva Goals regional support
 ms.reviewer: 
 ms.author: rasanders
 author: rasanders
@@ -16,32 +17,171 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Viva Goals language support"
+description: "Viva Goals data residency and language support"
 ---
 
-# Supported languages in Viva Goals
+# Viva Goals data residency
 
-Currently, Viva Goals supports the following languages: 
+Viva Goals Data Residency Coverage: Starting December 5, 2022, Viva Goals Customer Data for new tenants in the European Union Data Boundary (EUDB) will be stored in data centers located in the EU. All other tenants will have their Viva Goals Customer Data stored in data centers located in the United States. 
 
-|Currently Supported  | &nbsp; |&nbsp; |
-|---|---|---|
-Chinese (Simplified)|Chinese (Traditional)| Croatian|
-Czech|Danish|Dutch
-English (US)|English (UK)|Estonian|
-Finnish|French (France)|French (Canada)|
-German|Greek|Hungarian|
-Indonesian|Italian|Japanese|
-Korean|Norwegian (Bokmal)|Portuguese (Brazil)
-Portuguese (Portugal)|Romanian|Russian
-Spanish (Spain)|Spanish (Mexico)|Polish|
-Swedish|Thai|Turkish|
-Ukrainian|
+Tenants aren't provided with a choice for the specific deployment region for data storage. To be considered a tenant in the EUDB:
+
+- The tenant must have a default geography in a EUDB country or select a country in EUDB country as their residence during free trial sign-up
+- The tenant must not purchase a Multi-Geo offering 
+
+Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locations) page to learn more.
+
+## Languages in Viva Goals
+
+### Currently supported languages
+
+:::row:::
+   :::column:::
+      Chinese (Simplified)
+   :::column-end:::
+   :::column:::
+      Chinese (Traditional)
+   :::column-end:::
+   :::column:::
+      English
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      French
+   :::column-end:::
+   :::column:::
+      German
+   :::column-end:::
+   :::column:::
+      Italian
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Japanese
+   :::column-end:::
+   :::column:::
+      Korean
+   :::column-end:::
+   :::column:::
+      Portuguese (Brazil)
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Spanish (Spain)
+   :::column-end:::
+   :::column:::
+      Estonia
+   :::column-end:::
+<!--blank "cell" follows to even out the columns-->   
+   :::column:::
+      
+   :::column-end:::
+:::row-end:::
 
 
-|Coming Soon | &nbsp; |&nbsp; |
-|---|---|---|
-Arabic|Bulgarian|Hebrew 
-Latvian|Lithuanian|Serbian|
-Slovak|Slovenian|Vietnamese
+### Languages coming soon:
+
+:::row:::
+   :::column:::
+        Arabic
+   :::column-end:::
+   :::column:::
+       Bulgarian
+   :::column-end:::   
+   :::column:::
+      Croatian
+   :::column-end:::
+  :::row-end:::
+
+:::row:::
+ :::column:::
+      Czech
+   :::column-end:::
+   :::column:::
+      Danish
+   :::column-end:::
+      :::column:::
+     Hebrew
+   :::column-end:::
+:::row-end:::
+
+:::row:::  
+   :::column:::
+      Hungarian
+   :::column-end:::
+   :::column:::
+      Indonesian
+   :::column-end:::
+   :::column:::
+      Latvian
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Lithuanian
+   :::column-end:::
+   :::column:::
+      Norwegian (Bokmal)
+   :::column-end:::
+   :::column:::
+      Polish
+   :::column-end:::
+ :::row-end:::
+
+:::row:::
+  :::column:::
+      Portuguese (Portugal)
+   :::column-end:::
+   :::column:::
+      Romanian
+   :::column-end:::
+   :::column:::
+      Russian 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+     Serbian
+   :::column-end:::
+   :::column:::
+     Slovak 
+   :::column-end:::
+   :::column:::
+     Slovenian   
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+     Swedish
+   :::column-end:::
+   :::column:::
+     Thai
+   :::column-end:::   
+   :::column:::
+     Turkish
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Ukrainian
+   :::column-end:::
+   :::column:::
+     Vietnamese
+   :::column-end::: 
+   <!--blank "cell" follows to even out the columns -->   
+   :::column:::
+      
+   :::column-end::: 
+:::row-end:::
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).
