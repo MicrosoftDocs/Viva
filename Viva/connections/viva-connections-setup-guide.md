@@ -33,6 +33,9 @@ Microsoft [Viva Connections](viva-connections-overview.md) is an employee experi
 
 Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices to create an engaging user experience.
 
+> [!NOTE]
+> Content in this article reflects the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071) that will become available to all customers by the end of March 2023. Some users in your organization may see the new experience before others. 
+
 **In this guide, you’ll learn how to**
 
 - Set up Viva Connections 

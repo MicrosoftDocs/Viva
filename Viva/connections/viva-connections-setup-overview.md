@@ -32,7 +32,7 @@ Use [Viva Connections](viva-connections-overview.md) to engage and empower diffe
 - Get guidance for change management, adoption, and end-user training.
 
 > [!NOTE]
-> Content in this article reflects the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071) that will become available to all customers by the end of March 2023. 
+> Content in this article reflects the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071) that will become available to all customers by the end of March 2023. Some users in your organization may see the new experience before others. 
 
 ## Step-by-step guidance to provision Viva Connections
 There are three options that provide in-depth information about how to get Viva Connections for your organization.
