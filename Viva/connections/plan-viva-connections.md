@@ -140,7 +140,7 @@ As a best practice, it's important to make decisions that are rooted in specific
 
 For example, create a table like the following to list business scenarios that you want to address with cards in the dashboard:
 
-|**As an...**|**I need to...**|**So that...**|**I know this is successful when...**|
+|In my role as...|I need to...|So that...|I know this is successful when...|
 |:-------------------|:---------------|:-----------|:------------------------------------|
 |Full time employee |Easy access to benefit and payroll information |I can quickly check important information without needing |Requests for help with benefits and payroll to the HR team are reduced  |
 |Frontline worker |Clock in and out from a mobile device |I can create efficiencies in my workflow |Schedules and breaks are managed from Viva Connections |
