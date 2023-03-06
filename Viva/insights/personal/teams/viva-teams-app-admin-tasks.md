@@ -165,21 +165,21 @@ People see different notifications and settings in their Viva Insights app in Te
 
 The first time people in your organization use the Viva Insights app, they get a notification about meeting effectiveness surveys. On their **Settings > Effective meetings** page, the toggle for **Meeting effectiveness surveys** is switched on. If people want to opt out of the survey, they can switch the toggle off.
 
-   :::image type="content" source=images/meeting-effectiveness-notification-on.png" alt-text="Screenshot that shows the notification for users who have the feature default-on.":::
+   :::image type="content" source="images/meeting-effectiveness-notification-on.png" alt-text="Screenshot that shows the notification for users who have the feature default-on.":::
 
-   :::image type="content" source=images/meeting-effectiveness-setting-toggle.png" alt-text="Screenshot that shows the Effective meetings tab in Settings with the Meeting effectiveness surveys toggle switched on.":::
+   :::image type="content" source="images/meeting-effectiveness-setting-toggle.png" alt-text="Screenshot that shows the Effective meetings tab in Settings with the Meeting effectiveness surveys toggle switched on.":::
 
 **Scenario 2: In the Microsoft admin center, you set the meeting effectiveness survey feature to default-off.**
 
 The first time people in your organization use the Viva Insights app, they get a notification asking whether they want to start using meeting effectiveness surveys. On their **Settings > Effective meetings** page, the toggle for **Meeting effectiveness surveys** is switched off. If people want to start using the surveys, they can switch the settings toggle on, or select **Get started** on the first-use notification.
 
-   :::image type="content" source=images/meeting-effectiveness-notification-opt-in.png" alt-text="Screenshot that shows the opt-in notification for users who have the feature default-off.":::
+   :::image type="content" source="images/meeting-effectiveness-notification-opt-in.png" alt-text="Screenshot that shows the opt-in notification for users who have the feature default-off.":::
 
 **Scenario 3: You used a PowerShell cmdlet to disable access to the meeting effectiveness survey feature.**
 
 People in your organization don't receive *any* notifications about meeting effectiveness surveys. When they go to their **Settings > Effective meetings** page in the Viva Insights app in Teams or on the web, they don't see a toggle to turn on or off the feature.
 
-   :::image type="content" source=images/meeting-effectiveness-notification-cmdlet-off.png" alt-text="Screenshot that shows the Effective meetings tab in Settings with no Meeting effectiveness surveys toggle present.":::
+   :::image type="content" source="images/meeting-effectiveness-notification-cmdlet-off.png" alt-text="Screenshot that shows the Effective meetings tab in Settings with no Meeting effectiveness surveys toggle present.":::
 
 ## Related topics
 
