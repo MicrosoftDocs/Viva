@@ -181,35 +181,6 @@ People in your organization don't receive *any* notifications about meeting effe
 
    :::image type="content" source="./images/meeting-effectiveness-notification-cmdlet-off.png" alt-text="Screenshot that shows the Effective meetings tab in Settings with no Meeting effectiveness surveys toggle present.":::
 
-## Premium access for licenses assigned before July 2021
-
-The following steps are only applicable to organizations who assigned licenses prior to July 2021. You need to confirm the following assignment options in Azure Active Directory for the Microsoft Viva Insights SKU:
-
-* **Microsoft Viva Insights** - Enables access to premium personal and manager features released starting in November 2021, including the updated [Teamwork habits](../../org-team-insights/teamwork-habits.md) page in the Viva Insights app.
-* **Microsoft Viva Insights (WpA transition)** – This option is only applicable for organizations who assigned licenses before July 2021 and want to keep their access to the advanced analyst features. If this is the only option enabled, then their access to advanced insights will continue unchanged. However, you must enable the first app option for access to the premium features released starting in November 2021.
-
->[!Important]
->If your organization assigned Viva Insights licenses starting in July 2021, the Microsoft Viva Insights assignment option controls access to all premium personal, manager, and advanced analyst features. Enabling or disabling the Microsoft Viva Insights (WpA transition) option in Azure Active Directory will not affect their access to these features.
-
-### Access to premium features
-
-To confirm, enable, or disable access to premium features for users with licenses assigned before July 2021, complete the following steps.
-
-1. Go to [Azure portal](https://portal.azure.com/) > **Azure Active Directory**.
-2. In the left navigation, select **Licenses** > **All products**.
-3. Search for and select **Microsoft Viva Insights**.
-4. In the left navigation, for groups, select **Licensed groups** or for individual users, select **Licensed users**.
-5. At the top, select **+Assign**.
-6. In **Users and groups**, select the group or individual to add, which will then show up under **Name**.
-7. Select **Assignment options**, and then select **On** to enable or **Off** to disable the following:
-
-   * **Microsoft Viva Insights** – Enables access to premium features that were released starting in November 2021.
-   * **Microsoft Viva Insights (WpA transition)** – Only applicable to users who were assigned licenses **before July 2021**.
-
-    :::image type="content" source="./images/wpa-transition-app-option.png" alt-text="Azure AD license app options for Viva Insights.":::
-
-8. Select **Review + assign**, and then near the bottom, select **Assign** to apply the changes.
-
 ## Related topics
 
 [Viva Insights introduction](viva-teams-app.md)
