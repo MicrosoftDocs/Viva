@@ -103,7 +103,7 @@ Focus time counts as kept when you don't delete it and you don't have a meeting 
 Try the following to troubleshoot your focus-time totals:
 
 1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).)
-2. For more details about focus time, see [Focus](../teams/viva-insights-protect-time.md#book-focus-time-or-a-plan).  
+2. For more details about focus time, see [Focus](../teams/focus.md).  
 
 ### Calendar
 

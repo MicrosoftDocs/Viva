@@ -58,7 +58,7 @@ The Viva Insights Outlook add-in includes a [View outstanding tasks](../use/use-
 
 :::image type="content" source="../../Images/MyA/reference/oai-outstanding-tasks-card.png" alt-text="Screenshot of the View outstanding tasks card in the Viva Insights Outlook add-in.":::
 
-The **Stay connected** tab in the Viva Insights app in Teams and on the web also has a **Suggested tasks** section. If you've pinned people as important, you'll notice their tasks show up first, under **Pinned**.
+The **Productivity** tab in the Viva Insights app in Teams and on the web also has a **Suggested tasks** section. If you've pinned people as important, you'll notice their tasks show up first, under **Pinned**.
 
 :::image type="content" source="../../Images/MyA/reference/suggested-tasks-teams.png" alt-text="Screenshot of the Suggested tasks section of the Viva Insights app's Stay connected tab, which shows all pinned-contacts tasks complete and one other task outstanding.":::
 
@@ -76,9 +76,11 @@ The Viva Insights Outlook add-in includes a [Book time to focus](../use/use-insi
 
 :::image type="content" source="../../Images/MyA/reference/oai-focus-card.png" alt-text="Screenshot of the Book time to focus card in the Viva Insights Outlook add-in.":::
 
-You can also book focus time through the [Protect time](../teams/viva-insights-protect-time.md) tab in the Viva Insights app in Teams and on the web.  
+You can also book [focus time](../teams/focus.md) through the [Wellbeing](../teams/wellbeing.md) tab in the Viva Insights app in Teams and on the web.  
 
-:::image type="content" source="../../Images/MyA/reference/book-focus-time-app.png" alt-text="Screenshot of the Book time to focus card in the Viva Insights Outlook add-in.":::
+:::image type="complex" source="../teams/images/wellbeing-book-focus-time2.png" alt-text="Screenshot that shows the Focus theme of the Act with intention section.":::
+   Screenshot of the Act with intention section of the Wellbeing tab. There are three buttons above the section's content cards: "Focus," "Guided meditations," and "Articles"; "Focus" is selected to show the section's focus content. Be There are three sections on this card; the middle section is titled, "Book focus time." Below the card header, there's a table with four rows titled, "Friday, December 9." The first row shows that focus time has been booked from 2:30-4:30 PM. The other three rows provide open time slots with a "Book time" button. The first "Book time" button is highlighted.
+:::image-end:::
 
 ## Start your day with a guided meditation 
 
@@ -86,7 +88,6 @@ In the **Headspace** section of the Briefing email, you were able to launch a gu
 
 **Where you'll find a similar feature:** *Viva Insights app in Teams and on the web*
 
-Discover a curated set of guided meditations through the Viva Insights app in Teams and on the web. Just select the **Play** button on the [Headspace](../teams/viva-insights-headspace.md) card in the **Home** tab. 
+Discover a curated set of guided meditations through the Viva Insights app in Teams and on the web. Go to the **Wellbeing tab > Act with intention** section **> Meditation** category, and select the **Play** button on a [Headspace](../teams/headspace.md) card. 
 
-:::image type="content" source="../teams/images/headspace-card2.png" alt-text="Screenshot of a meditation card in the Viva Insights app, including a Play button.":::
-
+:::image type="content" source="../teams/images/wellbeing-start-meditation1.png" alt-text="Screenshot that shows the Act with intention, Guided meditations section, which contains four guided meditation cards." lightbox="images/wellbeing-start-meditation1-expanded.png":::
