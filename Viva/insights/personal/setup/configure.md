@@ -56,7 +56,7 @@ You can configure access to Viva Insights elements for all users in your organiz
 
     :::image type="content" source="../../images/mya/setup/mac-teams-admin1.png" alt-text="Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.":::
     
-Go to our [Teams admin tasks](../teams/viva-teams-app-admin-tasks.md) doc for more information about setting up the Viva Insights app in Teams.    
+Go to our [Teams admin tasks](../teams/introduction-admin-tasks.md) doc for more information about setting up the Viva Insights app in Teams.    
 
 ### To enable access to Viva digest emails, meeting effectiveness surveys, Viva Insights Outlook add-in, and schedule send suggestions
 

@@ -18,19 +18,19 @@ highlightedContent:
   items:
     - title: Introduction
       itemType: overview # controls the icon image and super-title text
-      url: viva-teams-app.md
+      url: introduction.md
     - title: Keeping data private
       itemType: learn
-      url: viva-teams-app-privacy.md
+      url: introduction-privacy.md
     - title: Configuration
       itemType: deploy
-      url: viva-teams-app-install.md
+      url: introduction-install.md
     - title: Admin tasks
       itemType: deploy
-      url: viva-teams-app-admin-tasks.md
+      url: introduction-admin-tasks.md
     - title: Using the Viva Insights
       itemType: how-to-guide
-      url: viva-insights-home.md
+      url: home.md
     - title: FAQ
       itemType: reference
-      url: viva-teams-app-faq.md
+      url: introduction-faq.md

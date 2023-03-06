@@ -81,5 +81,5 @@ Select the **RSVP** button to **Accept** or **Decline** the meeting invitation. 
 
 ## Related topics
 
-[Viva Insights introduction](../viva-teams-app.md)
+[Viva Insights introduction](../introduction.md)
  

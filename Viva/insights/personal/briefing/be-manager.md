@@ -19,7 +19,7 @@ manager: helayne
 # Catch up with your team
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes.
 
 
 People managers often have hectic schedules, and it can be tough to stay in close contact with your team members. The Briefing can help you maintain a strong relationship with your team and stay caught up and respond quickly to important requests from your team.

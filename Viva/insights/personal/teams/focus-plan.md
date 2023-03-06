@@ -164,11 +164,11 @@ After you enroll in a focus plan, the content in your digest email will be tailo
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
-:::image type="content" source="../../../Images/mya/use/wellbeing-focus-oai-book.png" alt-text="Screenshot that shows the Book time to focus card in the Outlook add-in.":::
+:::image type="content" source="../../Images/mya/use/wellbeing-focus-oai-book.png" alt-text="Screenshot that shows the Book time to focus card in the Outlook add-in.":::
 
 Selecting this card shows the following options, with which you can book focus time on individual days or for several days at once:  
 
-:::image type="complex" source="../../../Images/mya/use/wellbeing-focus-oai-times.png" alt-text="Screenshot that shows the Book time to focus add-in pane.":::
+:::image type="complex" source="../../Images/mya/use/wellbeing-focus-oai-times.png" alt-text="Screenshot that shows the Book time to focus add-in pane.":::
    Screenshot of the "Book time to focus" pane in the Viva Insights Outlook add-in. The pane shows three days with two available focus times each. Each focus time has an edit option and an option to add it to your calendar. The bottom of the pane contains a "Book all" and "Done" button.
 :::image-end:::
 
@@ -178,26 +178,26 @@ If you want to personalize your focus time to show as a specific color, you can 
 
 1. From the calendar view, select the **View** tab **> Current View > View Settings**.
 
-    :::image type="content" source="../../../Images/mya/use/wellbeing-focus-calendar2.png" alt-text="Screenshot that shows navigating the View Settings option.":::
+    :::image type="content" source="../../Images/mya/use/wellbeing-focus-calendar2.png" alt-text="Screenshot that shows navigating the View Settings option.":::
 
 1. Select the **Conditional formatting** button.
 
-    :::image type="content" source="../../../Images/mya/use/wellbeing-focus-calendar1.png" alt-text="Screenshot that shows the Conditional Formatting button highlighted in the Advanced View Settings dialog box.":::
+    :::image type="content" source="../../Images/mya/use/wellbeing-focus-calendar1.png" alt-text="Screenshot that shows the Conditional Formatting button highlighted in the Advanced View Settings dialog box.":::
 
 1. Select the **Add** button to create a new rule.
 
-    :::image type="content" source="../../../Images/mya/use/wellbeing-focus-calendar3.png" alt-text="Screenshot that shows the Add button highlighted in the Conditional Formatting dialog box.":::
+    :::image type="content" source="../../Images/mya/use/wellbeing-focus-calendar3.png" alt-text="Screenshot that shows the Add button highlighted in the Conditional Formatting dialog box.":::
 
 1. In the **Conditional Formatting** dialog box:
     1. Give your rule a name.
     1. Select the color you want focus time blocks to appear as.
     1. Select the **Condition** button.
 
-        :::image type="content" source="../../../Images/mya/use/wellbeing-focus-calendar4.png" alt-text="Screenshot that shows Name, Color, and Condition highlighted in the Conditional Formatting dialog box.":::
+        :::image type="content" source="../../Images/mya/use/wellbeing-focus-calendar4.png" alt-text="Screenshot that shows Name, Color, and Condition highlighted in the Conditional Formatting dialog box.":::
 
 1. In the **Filter** dialog box, add "Focus time" as your search term. Leave the **In:** field set to "subject field only."
 
-    :::image type="content" source="../../../Images/mya/use/wellbeing-focus-calendar5.png" alt-text="Screenshot that shows the search term field highlighted in the Filter dialog box.":::
+    :::image type="content" source="../../Images/mya/use/wellbeing-focus-calendar5.png" alt-text="Screenshot that shows the search term field highlighted in the Filter dialog box.":::
 
 1. Select the **OK** button on each of the three dialog boxes. Your focus time blocks should now appear as the color you set in step 4.
 

@@ -27,7 +27,7 @@ You can also set reminders to send acclaim on a regular basis to your coworkers 
 
 To send praise, open the praise feature in one of the following ways:
 
-* The Viva Insights [Home](#send-praise-from-the-viva-insights-home-tab) tab
+* The Viva Insights [Home](#send-praise-from-the-home-tab) tab
 * The [content pane](#send-praise-from-the-teams-content-pane-using-the-praise-messaging-extension) of Teams
 
 ### Send praise from the Viva Insights Home tab
@@ -69,7 +69,7 @@ To send praise, open the praise feature in one of the following ways:
 
 ### Send praise from the Teams content pane using the praise messaging extension
 
-In Viva Insights, you can always send praise directly from the [**Home** tab](#send-praise-from-the-viva-insights-home-tab), which doesn't require installing the praise messaging extension.
+In Viva Insights, you can always send praise directly from the [**Home** tab](#send-praise-from-the-home-tab), which doesn't require installing the praise messaging extension.
 
 To use the Teams messaging extension:
 
@@ -151,7 +151,7 @@ From the **Settings** page:
 1. Select **Praise** from the left pane.
 1. In the praise reminder settings, move the **Reminder** toggle to **On**, then select the time of day and day of the week you want to be reminded.
 
-On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send praise from the Viva Insights Home tab](#send-praise-from-the-viva-insights-home-tab).
+On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send praise from the Viva Insights Home tab](#send-praise-from-the-home-tab).
 
 :::image type="complex" source="images/praise-set-reminder-in-settings.png" alt-text="Screenshot that shows Praise reminder settings on the Settings page.":::
    Screenshot of the Praise section of the Viva Insights app Settings page. There are three subsections. The first subsection is titled, "Reminder," and it contains an on and off toggle. The second section labeled, "Days of the week," and it contains all seven days of the week, arranged horizontally with checkmarks that the user can select. The third section is labeled,"Notification time," and it has a dropdown menu that's prefilled with "4:00 PM." Beneath these subsections, there's a "Save changes" button.
@@ -185,6 +185,6 @@ Praise trends is available to you if you have a Viva Insights subscription. Use 
 
 ## Related topics
 
-[Viva Insights introduction](../viva-teams-app.md)
+[Viva Insights introduction](../introduction.md)
 
 

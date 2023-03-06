@@ -33,7 +33,7 @@ In the Microsoft Viva Insights app, use the **Home** tab to discover key wellbei
 * Promote [healthy meeting norms](shared-meeting-plan.md).
 * Schedule a team [no-meeting day](shared-no-meeting-day.md).
 * Start a shared focus plan. 
-* Schedule [emails for later](../../use/schedule-send.md).
+* Schedule [emails for later](/schedule-send.md).
 * Relax with [quiet time](quiet-time.md).
 * Set [virtual commute](virtual-commute.md) reminders.
 * Make [time for messages](time-management.md).
@@ -102,7 +102,7 @@ To learn more about organization insights, refer to our [organization insights d
 
 [Reflect](reflect.md)
 
-[Schedule send](../../use/schedule-send.md)
+[Schedule send](/schedule-send.md)
 
 [Shared meeting plan](shared-meeting-plan.md)
 

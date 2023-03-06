@@ -20,7 +20,7 @@ manager: anirudhbajaj
 
 We’re taking some time to improve the Briefing email and give you more personalized content in your daily messages. As a result, we’ll take a break from sending you your daily Briefing starting on January 15th, 2023.
 
-While you’ll stop receiving the Briefing email for a while, you’ll still have access to Viva Insights features. If you rely on different features within Briefing—like preparing for meetings, reviewing outstanding tasks, or booking focus time—read this article to learn how you can find them in your [Viva Insights Outlook add-in](../use/add-in.md), [other Outlook features](https://support.microsoft.com/en-us/office/use-intelligent-technology-in-outlook-on-the-web-and-outlook-com-24b30683-8340-4b69-b8ac-4193ec528a70), and [Viva Insights app in Teams and web](../teams/viva-insights-home.md). You'll continue to receive semi-monthly digest emails with insights and recommendations to build healthy work habits.
+While you’ll stop receiving the Briefing email for a while, you’ll still have access to Viva Insights features. If you rely on different features within Briefing—like preparing for meetings, reviewing outstanding tasks, or booking focus time—read this article to learn how you can find them in your [Viva Insights Outlook add-in](../use/add-in.md), [other Outlook features](https://support.microsoft.com/en-us/office/use-intelligent-technology-in-outlook-on-the-web-and-outlook-com-24b30683-8340-4b69-b8ac-4193ec528a70), and [Viva Insights app in Teams and web](../teams/home.md). You'll continue to receive semi-monthly digest emails with insights and recommendations to build healthy work habits.
 
 ## Prepare for upcoming meetings 
 

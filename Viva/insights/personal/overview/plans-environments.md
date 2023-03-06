@@ -20,10 +20,10 @@ audience: Admin, user
 
 # Personal insights plans and environments
 
-Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](../teams/viva-teams-app.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
+Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](../teams/introduction.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
 
   >[!Important]
-  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes.
 
 ## Microsoft 365 plans
 
@@ -76,7 +76,7 @@ After users get assigned licenses with an applicable service plan, they get acce
 | ------- | ------------------|
 | [Welcome email](../use/mya-welcome-email.md) | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment |
 | [Insights Outlook add-in](../use/add-in.md) and [Inline suggestions](../use/mya-notifications.md) | Available about one day after license assignment |
-|[Viva Insights in Teams and on the web](../teams/viva-teams-app.md) | Available a few days after license assignment |
+|[Viva Insights in Teams and on the web](../teams/introduction.md) | Available a few days after license assignment |
 | [Digest emails](../use/email-digests-3.md) | Sent two to three weeks after the welcome email |
 
 >[!Note]  

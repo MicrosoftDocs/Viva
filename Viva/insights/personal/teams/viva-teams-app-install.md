@@ -59,5 +59,5 @@ This section describes how to uninstall the Microsoft Viva Insights app from Tea
 
 ## Related topics
 
-[Viva Insights introduction](viva-teams-app.md)
+[Viva Insights introduction](introduction.md)
 

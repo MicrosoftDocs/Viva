@@ -32,5 +32,5 @@ You can also provide feedback on the articles you have read by selecting the **t
 
 ## Related topics
 
-[Viva Insights introduction](../viva-teams-app.md)
+[Viva Insights introduction](../introduction.md)
 

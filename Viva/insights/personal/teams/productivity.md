@@ -71,7 +71,7 @@ To learn more about organization insights, refer to our [Organization insights](
 
 [Suggested tasks](suggested-tasks.md)
 
-[Viva Insights introduction](../viva-teams-app.md)
+[Viva Insights introduction](../introduction.md)
 
-[Microsoft Viva Insights overview](../viva-teams-app.md)
+[Microsoft Viva Insights overview](../introduction.md)
 

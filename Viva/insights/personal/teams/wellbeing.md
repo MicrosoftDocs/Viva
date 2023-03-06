@@ -109,5 +109,5 @@ To learn more about organization insights, refer to our [Organization insights](
 
 ## Related topics
 
-* [Viva Insights introduction](../viva-teams-app.md)
+* [Viva Insights introduction](../introduction.md)
 * [Virtual commute](virtual-commute.md)

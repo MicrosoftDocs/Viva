@@ -13,9 +13,9 @@ metadata:
   search.appverid: 
   - MET150 
   ms.topic: hub-page # Required
-  author: madehmer #Required; your GitHub user alias, with correct capitalization.
-  ms.author: helayne #Required; microsoft alias of author; optional team alias.
-  ms.date: 12/14/2021 #Required; mm/dd/yyyy format.
+  author: lilyolason #Required; your GitHub user alias, with correct capitalization.
+  ms.author: v-lilyolason #Required; microsoft alias of author; optional team alias.
+  ms.date: 03/06/2023 #Required; mm/dd/yyyy format.
 
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
@@ -29,10 +29,10 @@ highlightedContent:
     - title: Personal insights
       itemType: quickstart
       url: ./personal/introduction.md
-    - title: Teamwork habits
+    - title: Team insights
       itemType: overview
-      url: ./org-team-insights/teamwork-habits.md
-    - title: Organization trends
+      url: ./org-team-insights/team-insights.md
+    - title: Organization insights
       itemType: tutorial
       url: ./org-team-insights/org-insights.md
     - title: Advanced insights

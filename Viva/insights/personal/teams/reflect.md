@@ -77,5 +77,5 @@ If you want to change your reminder settings later:
 
 ## Related topics
 
-[Viva Insights  introduction](../viva-teams-app.md)
+[Viva Insights  introduction](../introduction.md)
 

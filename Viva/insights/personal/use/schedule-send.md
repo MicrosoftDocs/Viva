@@ -89,7 +89,7 @@ To make changes, use your Viva Insights app in Teams or on the web or your Viva 
 1. Select **Protect time** on the left pane.
 1. Under **Schedule send suggestions**, toggle the switch to turn the feature on or off.
 
-Read more about settings in the app in [Configure Viva Insights](../teams/viva-teams-app-settings.md).
+Read more about settings in the app in [Configure Viva Insights](../teams/introduction-settings.md).
 
 ### With the Viva Insights Outlook add-in
 

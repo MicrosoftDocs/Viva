@@ -124,6 +124,6 @@ You can change your virtual commute settings, or turn off your reminders, at any
 
 ## Related topics
 
-* [Viva Insights introduction](../viva-teams-app.md)
+* [Viva Insights introduction](../introduction.md)
 * [Productivity](productivity.md)
 
