@@ -24,7 +24,7 @@ description: "Learn how to add the Viva Connections app in Microsoft Teams"
 
 # Add the Viva Connections app in the Teams Admin Center
 
-After you have [prepared your intranet for Viva Connections](guide-to-setting-up-viva-connections.md) in SharePoint, you are ready to add the Viva Connections app in the Microsoft Teams Admin Center. Add the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users. 
+After you have [prepared your intranet for Viva Connections](viva-connections-setup-guide.md) in SharePoint, you are ready to add the Viva Connections app in the Microsoft Teams Admin Center. Add the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users. 
 
 > [!IMPORTANT] 
 > - Teams administrator (or higher) permissions are required to add the Viva Connections app to the Teams Admin Center.
@@ -90,11 +90,10 @@ Optionally (but highly recommended) set app permissions policies to determine wh
 
 
 
-
 ## More resources
 
 [Overview of Viva Connections](viva-connections-overview.md)
 <br>
 
-[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
+[Set up and launch Viva Connections](viva-connections-setup-guide.md)
 

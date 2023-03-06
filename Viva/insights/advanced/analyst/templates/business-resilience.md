@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 03/02/2023
 title: Business resilience report
 description: Learn how to use the Microsoft Viva Insights Power BI template to compare employee behavior before and after a business transition
 author: lilyolason
@@ -30,107 +30,34 @@ Each report page includes a **Why this matters** interpretation, **recommended a
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Business resilience** query in Viva Insights.
 
-## Demonstration
+[!INCLUDE [Demonstration](includes/demonstration.md)]
 
-The following demonstration uses sample data that’s only representative of this report and might not be exactly what you see in a live report specific to your organization's unique data.
+<iframe title="Business resilience - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiY2RmYWY4YmYtMTdhZC00MTZkLWEwZmMtMDA5ZTczNTIyODI5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="1" allowFullScreen="true"></iframe>
 
-<iframe title="Business resilience - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiY2RmYWY4YmYtMTdhZC00MTZkLWEwZmMtMDA5ZTczNTIyODI5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-## Prerequisites
-
-Before you can run the queries and populate the report in Power BI, you’ll need to:
-
-* Be assigned the role of **Insights Analyst** in Viva Insights.
-* Have the June 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/) to download and install the latest version.
-
-## Report setup
-
-### Run query
-
->[!Note]
-> For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
+[!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
 1. In the Viva Insights analyst experience, select **Analysis**.
-
 2. Under **Power BI templates**, navigate to **Business resilience** and select **Start analysis**. For more information about the Business resilience template before running your analysis, select **Learn more**.
 
-    ![Screenshot that shows the Business resilience icon.](/viva/insights/advanced/images/br-pbi-start.png)
-
-3. Under **Query setup**:
-    1. Type a **Query name**.
-    1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
-    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
-
-    >[!Note]
-    >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
-
-    4. Optional: Type a **Description**.
-    
-        Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
-
-        * Power BI queries are set to **Group by Week**. You can't edit this field.
-        * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
-![Screenshot that shows the Query setup section.](/viva/insights/advanced/images/br-pbi-query-setup.png)
-
-
-4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
-![Screenshot that shows predefined metrics.](/viva/insights/advanced/images/br-pbi-predefined-metrics.png)
-
-    >[!Note]
-    > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
-
-5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a Custom Person query](../person-query.md).
-
-    ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
-
-6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
-
-    >[!Important]
-    >Some employee attributes are required to set up this Power BI template, which are preselected for you in the query. *Don't remove any preselected attributes.*
-    >
-    >If you see attributes marked in red and the query’s **Run** button disabled, it means that these required attributes are missing from your organizational data. Contact your admin to upload them.
-
-7. Select **Run** on the upper right side of the screen, which can take a few minutes to complete.
-
-8. When your query results are ready, go to the **Query results** page and select the **Power BI** icon to download the Power BI template and copy the query identifier. You'll need the query identifier later.
-
-### Link report to query
-
-9. Open the downloaded **Business resilience** template.
-
-10. If prompted to select a program, select **Power BI**.
-
-11. When prompted by Power BI:
-    1. Paste in the query identifier.
-    1. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
-    1. Select **Load** to import the query results into Power BI.
-
-12. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data, which can take a few minutes to complete for large files.
-
->[!Important]
-> You need to sign in to Power BI with the same account you use to access Viva Insights.
+[!INCLUDE [Setup steps](includes/setup-steps.md)]
 
 ## Report settings
 
 After the Business resilience report is set up and populated with Viva Insights data in Power BI, you’ll be prompted to select **Baseline** and **Current** time periods, which can’t overlap.
 
-![Screenshot that shows the Set up the report page in Power BI.](/viva/insights/advanced/images/br-set-up-report.png)
-
 Select **Next** after you’ve made your selections. If you change your mind later, you’ll be able to change the **Baseline** and **Current** time periods in the **Settings** page.
 
 Then, view and set the following parameters on the **Settings** page.
-
 * **Baseline** – This is the baseline for your analysis; all changes will be compared with this time period.
-
     >[!Important]
     > Make sure the **Baseline** time period precedes and doesn’t overlap with the **Current** time period. If the two time frames overlap, you'll receive a warning.
-
 * **Current** – This is the time period you want to compare with the **Baseline**.
 * **Select an organizational attribute to view the report by** – This is the primary group-by attribute shown in all subsequent pages. You can change this attribute at any time; all subsequent report pages will show values grouped by the new attribute.
 * **Select optional filters to exclude employee groups** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number.
 * **Exclusions** – Use the check boxes to:
     * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
     * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
+* **Select the preferred language for your report** – Change the language for your report. 
 
 ## About the report
 
@@ -184,11 +111,4 @@ This page lists opportunity areas with related best practices and recommendation
 
 The **Glossary** describes metrics used in the report pages.
 
-## Power BI tips, FAQs, and troubleshooting
-
-For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](./power-bi-faq-troubleshoot.md).
-
-## Related topic
-
-[Access query results and modify existing queries](../query-results.md)
-
+[!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
