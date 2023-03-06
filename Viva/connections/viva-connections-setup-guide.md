@@ -42,7 +42,7 @@ Use these step-by-step instructions to help you set up and launch Viva Connectio
 - Set up Viva Connections and a SharePoint home site
 - Add a home site after setting up Viva Connections 
 
-Follow the instructions that are relevant for your organization. If you are unsure if your organization has a [SharePoint home site](home-site-plan.md), ask your SharePoint admin. Home sites can be added after you’ve set up Viva Connections, but it’s recommended that you do it before to reduce the risk of needing to manually copy content in some cases. [Learn more about how Viva Connections and home sites work together to create employee experiences.](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together) 
+Follow the instructions that are relevant for your organization. If you are unsure if your organization has a [SharePoint home site](home-site-plan.md), ask your SharePoint admin. Home sites can be added after you’ve set up Viva Connections, but it’s recommended that you do it before to reduce the risk of needing to manually copy content in some cases. Learn more about how [Viva Connections and home sites work together to create employee experiences](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together).
 
 [Get more detailed guidance](viva-connections-setup-overview.md) that focus on tasks in the plan, build, and launch phases. Or, review the [Viva Connections learning path](/training/paths/viva-connections-get-started/) get more in-depth guidance that includes fictitious business stories, examples, and knowledge checks.
 
