@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Admin tasks for personal insights
 description: Admin guide for personal insights in Microsoft Viva Insights
 author: madehmer
@@ -44,6 +45,9 @@ Soon after you assign licenses with a Microsoft Viva Insights service plan to us
 
 Access to these elements depends on the plan in place at your organization. For details, see [Access to Viva Insights elements](plans-environments.md#access-to-viva-insights-elements).
 
-## Introduction to Viva Insights
+## Introduction to Viva Insights and the Viva Insights community
 
 See [Introduction to Microsoft Viva Insights](/training/modules/workplace-analytics-ways-working-action/) to learn about Microsoft Viva Insights.
+
+To connect with other Viva Insights users and share your experiences, contribute and receive support for common questions, and stay up to date on the latest features and tools, visit our [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog)
+

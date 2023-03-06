@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 01/25/2023
 title: Schedule send suggestions in Teams chat 
 description: Learn how Viva Insights helps you send messages to your coworkers during their working hours
 author: lilyolason
@@ -98,5 +99,6 @@ If you qualify to use the feature, your schedule send suggestions are turned on 
 ### Licenses
 
 A Global admin, an Exchange Online admin, or a user admin role can assign and remove the Viva Insights subscription in the Microsoft 365 admin center. For information on how to assign a license, refer to [Assign licenses to users in Microsoft 365 for business](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
+
 
 

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 02/20/2018
 title: Advanced insights glossary
 description: This glossary defines concepts and other terms important for working with the advanced insights app for Microsoft Viva Insights
 author: madehmer
@@ -78,3 +79,4 @@ The following are terms and concepts used in the advanced insights app as part o
 ### Related topic
 
 [Metric descriptions for Advanced insights](../use/Metric-definitions.md)
+

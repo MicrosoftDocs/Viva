@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: "Plan, build, and launch a home site for your organization"
 ms.reviewer: 
 ms.author: hokavian
@@ -188,3 +189,4 @@ At this time, each organization can have only one home site.
 Use and customize the [The Landing template](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) from the SharePoint look book 
 
 [Design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
+

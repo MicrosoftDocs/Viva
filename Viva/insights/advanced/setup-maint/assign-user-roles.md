@@ -1,4 +1,5 @@
 ---
+ms.date: 07/15/2022
 title: Assign user roles for Viva Insights
 description: Learn how to assign user roles for Viva Insights 
 author: lilyolason
@@ -77,3 +78,4 @@ People manager isn't technically a role that can be assigned. The Insights admin
 * [Roles in Viva Insights](../../use/user-roles.md)
 * [Manager settings](./manager-settings.md)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
+

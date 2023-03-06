@@ -1,4 +1,5 @@
 ---
+ms.date: 11/11/2022
 title: Configure your OKR creation permissions in Viva Goals
 ms.reviewer: 
 ms.author: rasanders

@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/14/2018
 title: Organizational Network Analysis Azure Template for Workplace Analytics 
 description: Learn about the Organizational Network Analysis Azure Template for Workplace Analytics and how to use it for advanced analysis
 author: madehmer
@@ -43,3 +44,4 @@ The **Dark mode** feature is available for all of ONA. You can use it to change 
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [What's new in Workplace Analytics Azure Templates](./release-notes.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
+

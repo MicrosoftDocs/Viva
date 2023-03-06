@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 06/03/2020
 title: Power BI Ways of working tracker
 description: Use the Ways of working tracker dashboard to visualize predefined collaboration data from Viva Insights in Power BI
 author: madehmer
@@ -159,3 +160,4 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 ## Related topic
 
 [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

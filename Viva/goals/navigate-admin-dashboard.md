@@ -1,4 +1,5 @@
 ---
+ms.date: 05/09/2022
 title: Navigate the admin dashboard
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -142,3 +143,4 @@ To learn more, see [Configure your OKR model in Viva Goals](/viva/goals/configur
 Admins can determine whether to allow multiple teams and OKR owners to collaborate on key objectives and projects. Admins can also establish [OKR approval settings](approval-workflows.md).  
 
 To learn more about Projects, see [Projects](projects.md).
+

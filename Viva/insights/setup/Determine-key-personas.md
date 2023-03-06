@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Key personas and roles
 description: Determine key personas and roles for setting up Microsoft Viva Insights
 author: madehmer
@@ -33,3 +34,4 @@ Use these personas to help identify who will gather data, make decisions, and pe
 * Exchange admin
 * Human resources (HR) information system admin
 * Line of business (LOB) system admins or data analysts
+

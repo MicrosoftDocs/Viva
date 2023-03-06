@@ -125,7 +125,7 @@ Technically, the Viva apps don't need to be installed in a specific order. Each 
 - Target cards to specific audiences.
 - Prepare content for the Feed and Resources.
 - Upload the app to the Teams admin center.
-- [Review the getting started guide for Viva Connections.](connections/guide-to-setting-up-viva-connections.md)
+- [Review the getting started guide for Viva Connections.](connections/viva-connections-setup-guide.md)
 
 ### Get started with Viva Insights
 

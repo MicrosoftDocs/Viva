@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/27/2020
 title: Relationship Intelligence report 
 description: Learn about the Relationship Intelligence Power BI report included in Workplace Analytics Azure Templates and how to use it
 author: madehmer
@@ -189,3 +190,4 @@ For details about how to share the dashboard and other Power BI tips, to trouble
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [What's new in Workplace Analytics Azure Templates](./release-notes.md)
 * [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
+

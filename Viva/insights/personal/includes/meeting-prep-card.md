@@ -1,4 +1,5 @@
 ---
+ms.date: 07/23/2019
 title: Meeting preparation card in Viva Insights
 description: Describes how the Meeting prep card looks and works 
 author: madehmer

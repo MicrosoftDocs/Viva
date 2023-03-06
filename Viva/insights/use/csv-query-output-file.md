@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/08/2018
 title: How to interpret query output in Viva Insights
 description: Understand and interpret query output is the advanced insights app with Microsoft Viva Insights
 author: madehmer
@@ -200,3 +201,4 @@ The query output for group-to-group queries, like person-to-group queries, also 
 |**Collaboration hours** | The sum of meeting hours and email hours spent between the time investor and collaborator groups. |  
 
 For a complete list of and more details about group query metrics, see [Advanced insights metrics](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#group-to-group-metrics).
+

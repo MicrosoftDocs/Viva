@@ -1,4 +1,5 @@
 ---
+ms.date: 01/18/2023
 title: Introducing Org Explorer
 ms.reviewer: 
 ms.author: ponincev
@@ -70,3 +71,4 @@ Note: When Org Explorer is disabled users will still see the app icon in Outlook
 [Explore your organization](https://go.microsoft.com/fwlink/?linkid=2223751)
 
 [Search for a person](https://go.microsoft.com/fwlink/?linkid=2224126)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Organizational data overview
 description: This article gives an overview of the Organizational data page in the Microsoft Viva Insights advanced insights app. 
 author: lilyolason

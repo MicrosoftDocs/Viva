@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Assigning admin roles
 description: Learn how to assign admin roles for Microsoft Viva Insights
 author: madehmer
@@ -45,3 +46,4 @@ See [Assign user or group roles](/viva/insights/setup/assign-user-roles?toc=/viv
 
 * [Assign user or group roles](/viva/insights/setup/assign-user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
+

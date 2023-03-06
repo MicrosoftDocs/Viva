@@ -1,5 +1,6 @@
 ---
 
+ms.date: 07/21/2020
 title: Personal insights deployment guide
 description: Guide for admins on deploying personal insights with Microsoft Viva Insights
 author: madehmer
@@ -310,8 +311,9 @@ If users have questions about using Viva Insights, point them to the published [
   * [Viva Insights app in Teams](../teams/viva-insights-home.md)
   * [Viva Insights Home page](./../use/home-web.md)
   * [Viva Insights Outlook add-in](./../use/add-in.md)
-  * [Briefing emails](../Briefing/be-overview.md)
+  * [Briefing emails](../Briefing/be-overview.md) **(paused)**
   * [Digest emails](./../use/email-digests-3.md)
   * [Inline suggestions in Outlook](./../use/mya-notifications.md)
+
 
 

@@ -1,5 +1,6 @@
 ---
 
+ms.date: 11/07/2019
 title: Briefing email overview
 description: About the Briefing email and how to use it to help with your workday
 author: madehmer
@@ -19,7 +20,8 @@ manager: helayne
 # Briefing email overview
 
 >[!Important]
->We're pausing sending Briefing emails starting January 15, 2023, to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+>We're pausing sending Briefing emails starting January 15, 2023, to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+
 
 The Briefing email helps you stay in control of your calendar and be intentional about your day. Within two hours of your workday (as set up in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance)), you'll get an email about any relevant items to help you better prepare for the day ahead, including:
 
@@ -80,3 +82,4 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 
 * [Configure Briefing email](be-admin.md)
 * [Briefing email from Microsoft Viva FAQ](be-faqs.yml)
+* [!INCLUDE [Viva Insights community](../includes/insights-community.md)]

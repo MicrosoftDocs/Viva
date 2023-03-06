@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/06/2018
 title: Assigning licenses with PowerShell
 description: Learn how to assign Microsoft Viva Insights licenses in Azure Active Directory by using PowerShell
 author: madehmer
@@ -383,3 +384,4 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 * [Assign licenses to the population](/viva/insights/setup/Assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Assign licenses with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
 * [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

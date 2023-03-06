@@ -1,5 +1,6 @@
 ---
 layout: LandingPage
+ms.date: 02/18/2020
 title: Best practices for managers
 description: Learn what more about the best practices for managers that can help you improve how you and your team get work done
 ms.localizationpriority: medium 
@@ -169,3 +170,4 @@ author: madehmer
         </a>
     </li>
 </ul>
+

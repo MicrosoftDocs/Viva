@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Step 2-Create Dataverse tables
 description: Learn how to create dataverse tables
 author: v-smandalika

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/14/2022
 title: Introduction to Power BI templates in Microsoft Viva Insights
 description: Learn about Microsoft Viva Insights Power BI templates
 author: lilyolason
@@ -52,3 +53,4 @@ The **Analysis** page has templates for the following Power BI reports for visua
 * [Wellbeing - balance and flexibility](wellbeing.md)
 
     Analyze employee work balance and flexibility at your company, uncover opportunities for improvement, and track trends over time.
+

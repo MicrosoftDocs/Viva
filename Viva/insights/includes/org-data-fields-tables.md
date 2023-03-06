@@ -1,5 +1,6 @@
 ---
 
+ms.date: 11/16/2018
 title: Descriptions of the custom fields table and columns in all of the fields tables
 description: Information to help you map fields by using the fields tables.   
 author: madehmer
@@ -47,3 +48,4 @@ The drop-down menu under **Include in report** offers the following options for 
    * **Exclude from report:** Prevent the data value from appearing in the report. For data-privacy reasons, some attributes (such as ManagerID) are automatically assigned the value "Exclude from report" and this value cannot be changed. 
 
    * **Hash in report** de-identifies sensitive data. This option includes the data in the report that it generates about the import operation, but instead of displaying the actual value that was taken from the source file, it shows a hashed version of the value – a format that cannot be read.
+
