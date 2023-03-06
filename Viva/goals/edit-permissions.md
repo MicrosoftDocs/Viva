@@ -51,7 +51,7 @@ Users with edit access for an OKR or an initiative can now grant multiple users 
     1. Direct access refers to users who have access to an OKR or Initiative by the permissions designated by their role.  For example, organization and team admins have access to edit all  OKRs that can be viewed by organization members. 
 
 1. By selecting ‘only selected people can view and align’ would organization or team admins be able to edit this OKR?  
-     1. No, when this option is selected, only the users who are added explicitly would be able to edit that OKR/Initiative. 
+    1. No, when this option is selected, only the users who are added explicitly would be able to edit that OKR/Initiative. 
     > [!NOTE]
     > For an OKR or initiative that has permission to be set as ‘only selected people can view and align’, OKR owners and delegates would be able to edit that OKR initiative.  Check-in owners for the OKR or initiative would be able to only view the OKR or initiative.
 
