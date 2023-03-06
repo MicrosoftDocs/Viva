@@ -76,7 +76,7 @@ If you opt out, you:
     * Personal insights, like those found in the Viva Insights app in Teams and on the web 
     * Flexible query output that relates to you as an individual, like a Person query 
 * Continue to be included in aggregated insights and collaboration events. Here are a few examples: 
-    * Aggregated insights, like the ones on the Organization trends page 
+    * Aggregated insights, like organization insights
     * Flexible query results that draw from the collaboration events, like a Meeting query
 * May not see all changes reflected immediately. Some changes, like the Digest email and add-in changes, might take up to a week to take effect.
 
