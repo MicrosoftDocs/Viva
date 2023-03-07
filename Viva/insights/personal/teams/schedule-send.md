@@ -53,7 +53,7 @@ You won't get suggestions in the following scenarios:
 
 1. Select the suggestion above the text input box.
 
-    :::image type="complex" source="./images/teams-schedule-send-suggestion.png" alt-text="Screenshot that shows the schedule send suggestion above a the text-input box in Teams chat.":::
+    :::image type="complex" source="./images/teams-schedule-send-suggestion.png" alt-text="Screenshot that shows the schedule send suggestion above the text-input box in Teams chat.":::
        Screenshot of a schedule send suggestion above a chat message that a user is typing in Teams. The suggestion appears beneath previously sent messages and reads, "Send a message when their work hours start Thursday, Oct 13 at 8:30 AM?".
     :::image-end:::
 
