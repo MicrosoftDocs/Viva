@@ -26,7 +26,7 @@ When the Up-next card prompts you to "wrap up," you can select **Let's go** to s
 
 This message appears at the following times:
 
-* If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about changing this and other settings, refer to [Insights app settings](introduction-settings.md).
+* If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about changing this and other settings, refer to [Insights app settings](viva-teams-app-settings.md).
 * If you haven't configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
 ## Within Protect time
@@ -51,7 +51,7 @@ You can use this prompt to turn on the **Reminder** toggle, then select the days
 >* The time you select will apply to every day on which you'll see reminders. You can't set different times for different days of the week.
 >* The reminder might not arrive at exactly the scheduled time, but most reminders appear within five minutes before their scheduled time. For example, if your reminder is scheduled for 5:00, the reminder could appear between 4:55 and 5:00.
 
-If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](introduction-settings.md).
+If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md).
 
 ### Virtual commute sections
 
@@ -94,7 +94,7 @@ In addition to viewing your existing tasks, you can do a few other things in thi
     ![Screenshot that shows setting a reminder.](Images/vc-set-reminder.png)
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 After you’re done reviewing and managing your tasks, select **Next** to move to the last section.
 
@@ -114,6 +114,6 @@ When you’re ready to complete your virtual commute, select the **Done** button
 
 ## Related topics
 
-* [Viva Insights introduction](introduction.md)
+* [Viva Insights introduction](viva-teams-app.md)
 * [Protect time](viva-insights-protect-time.md)
 

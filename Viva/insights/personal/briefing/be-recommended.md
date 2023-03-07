@@ -17,7 +17,7 @@ manager: anirudhbajaj
 # Recommendations in the Briefing email
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes.
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 To help you connect with teammates, wrap up the workday, or minimize email disruption, you might notice some recommendations in your daily Briefing email. When a **Recommended for you** card appears in your Briefing email, you can use it to request regular reminders to send praise or start your virtual commute. You can also use **Recommended for you** to enroll in schedule send suggestions.  
 

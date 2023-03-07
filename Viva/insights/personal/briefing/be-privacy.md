@@ -18,7 +18,7 @@ manager: helayne
 # Privacy guide for Briefing emails
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes.
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 When data is processed for Briefing emails, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR). The Briefing protects privacy in the following ways:
 
