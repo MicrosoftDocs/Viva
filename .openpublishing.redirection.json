@@ -665,8 +665,18 @@
       {"source_path": "viva/insights/personal/teams/new/wellbeing.md",
       "redirect_url": "viva/insights/personal/teams/wellbeing",
       "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/viva-teams-app-faq.md",
+      "redirect_url": "viva/insights/personal/teams/faq",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/use/focus-plan.md",
+      "redirect_url": "viva/insights/personal/teams/focus-plan",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/home.md",
+      "redirect_url": "viva/insights/personal/teams/home",
+      "redirect_document_id": false
       }
-
-
     ]
 }
