@@ -50,7 +50,7 @@ Complete the steps in the following playbooks to get the Viva Insights app up an
    >2. Create a custom app permission policy and assign it to those users. For details, see [Manage app permission](/microsoftteams/manage-apps) policies in Teams.
 
 3. In Teams, pin the Viva Insights app in the left app bar for all users in your organization: [Pin the Viva Insights app](https://download.microsoft.com/download/5/d/f/5df6c702-58f2-4768-b8e5-26ffd2c78b80/Pin-the-Insights-app.pdf).
-4. Now that Viva Insights is available, all users can follow these steps to [Discover and pin the Viva Insights app](introduction-install.md).
+4. Now that Viva Insights is available, all users can follow these steps to [Discover and pin the Viva Insights app](viva-teams-app-install.md).
 
 >[!Important]
 >If your organization assigned licenses before July 2021 (under the Workplace Analytics SKU), follow [these steps](#access-to-premium-features) to enable or disable access to the Viva Insights premium features released starting in November 2021.
@@ -70,7 +70,7 @@ As the admin, you can configure the meeting effectiveness surveys for your organ
 Confirm the following before configuring access:
 
 * **Admin role** - You need to have a Global admin or an Exchange Online admin role to configure users for meeting effectiveness surveys in the Microsoft 365 admin center. To configure individual users through PowerShell, you need to have an Exchange Online admin, a Global admin, or an Insights admin role.
-* **Understand data privacy** - See the [Privacy guide](./introduction-privacy.md) to understand how privacy is built into meeting effectiveness surveys and to learn what you can configure to address your organization's specific privacy requirements.
+* **Understand data privacy** - See the [Privacy guide](./privacy.md) to understand how privacy is built into meeting effectiveness surveys and to learn what you can configure to address your organization's specific privacy requirements.
 
 ### Tenant-level configuration
 

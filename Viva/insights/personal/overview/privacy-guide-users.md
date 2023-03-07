@@ -20,7 +20,7 @@ audience: user
 # Privacy guide for personal insights
 
 >[!Important]
->This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+>This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 Personal insights in Microsoft Viva Insights help you find opportunities to build better habits and get back in control of your time. This article describes how Viva Insights uses personal data for personal insights, where it stores that data, and the ways in which it was designed to keep that data safe. It also describes how Viva Insights complies with GDPR regulations.
 

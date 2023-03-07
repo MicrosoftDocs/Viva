@@ -33,19 +33,19 @@ Team insights use collaboration data from Microsoft 365. Depending on your setup
 
 With team insights, you can't see individual team members' personal collaboration habits. Team insights are generated entirely from activity data from only a user’s own account, and computed from their email, meetings, chats, and calls. All of the same privacy protections and considerations apply to team insights as to other personal insights. 
 
-Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR), the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, refer to the [Privacy guide](../personal/teams/introduction-privacy.md).
+Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR), the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, refer to the [Privacy guide](../personal/teams/privacy.md).
 
 ## Permissions and app setup
 
 ### Admin tasks
 
-Team insights and its features (as described on this page) are available users who have a [Viva Insights subscription with an applicable service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app for the organization. Refer to [Admin tasks](../personal/teams/introduction-admin-tasks.md) for details.
+Team insights and its features (as described on this page) are available users who have a [Viva Insights subscription with an applicable service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app for the organization. Refer to [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ### Install, pin, and configure the app
 
 Refer to these articles to install, pin, and configure the app in Teams:
 
-* [Install and pin the app](../personal/teams/introduction-install.md)
+* [Install and pin the app](../personal/teams/viva-teams-app-install.md)
 * [Configure the app](../personal/teams/settings.md)
 
 ## About teams

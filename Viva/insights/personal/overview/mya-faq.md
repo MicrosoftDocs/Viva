@@ -96,7 +96,7 @@ If you block out your calendar for personal work by using an appointment (see [C
 Focus time counts as kept when you don't delete it and you don't have a meeting conflict. You can book focus time automatically by enrolling in a focus plan, or schedule non-recurring, single sessions through the Briefing email or the Viva Insights app. 
 
   >[!Important]
-  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 ##### Q2. Why does my focus time seem incorrect or inaccurate?
 

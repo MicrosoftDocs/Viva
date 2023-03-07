@@ -24,10 +24,10 @@ highlightedContent:
       url: introduction-privacy.md
     - title: Configuration
       itemType: deploy
-      url: introduction-install.md
+      url: viva-teams-app-install.md
     - title: Admin tasks
       itemType: deploy
-      url: introduction-admin-tasks.md
+      url: viva-teams-app-admin-tasks.md
     - title: Using the Viva Insights
       itemType: how-to-guide
       url: home.md

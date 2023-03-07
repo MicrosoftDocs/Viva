@@ -52,7 +52,7 @@ If you choose to opt out, you lose access to the following items:
     * Briefing email
         * If you’re subscribed to the daily Briefing email, you’ll continue to receive it without the Viva Insights personal insights content. 
         >[!Important]
-        >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+        >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
     * Semi-monthly Digest email
 * Outlook
     * Outlook add-in

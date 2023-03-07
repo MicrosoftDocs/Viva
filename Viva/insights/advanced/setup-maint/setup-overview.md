@@ -27,7 +27,7 @@ Your admin needs to set up Viva Insights for personal insights before you can st
 
 Team insights are available to people with a premium Viva Insights subscription and one or more people directly reporting to them.
 
-You can access team insights throughout the Viva Insights app on the web or in Teams. To access through Teams, you'll need to set up the Viva Insights app in Teams. For details about setting up the app, refer to  [Install, pin, and configure the app](../../personal/teams/introduction-install.md). For more information about team insights, refer to [Team insights](../../org-team-insights/team-insights.md).
+You can access team insights throughout the Viva Insights app on the web or in Teams. To access through Teams, you'll need to set up the Viva Insights app in Teams. For details about setting up the app, refer to  [Install, pin, and configure the app](../../personal/teams/viva-teams-app-install.md). For more information about team insights, refer to [Team insights](../../org-team-insights/team-insights.md).
 
 ## Organization insights
 
@@ -35,7 +35,7 @@ Organization insights throughout the Viva Insights app in Teams and web offer mo
 
 * Enable you as a manager, which they can do through the **advanced insights app > [Manager settings](./manager-settings.md)**.
 
-* Get the Viva Insights app set up in Teams so you can view insights there. For details, refer to  [Install, pin, and configure the app](../../personal/teams/introduction-install.md). In addition to in Teams, you can also see the Viva Insights app on the web. For more information about organization insights, refer to [Organization insights](../../org-team-insights/org-insights.md).
+* Get the Viva Insights app set up in Teams so you can view insights there. For details, refer to  [Install, pin, and configure the app](../../personal/teams/viva-teams-app-install.md). In addition to in Teams, you can also see the Viva Insights app on the web. For more information about organization insights, refer to [Organization insights](../../org-team-insights/org-insights.md).
 
 ## Advanced insights
 
