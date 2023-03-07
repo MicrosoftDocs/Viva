@@ -33,13 +33,16 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 
 ## Enhance the employee experience in your organization
 
-| Experience | App |
-|:-------:|-------------|
-|<h3>[Connection](#connection) |:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> **Viva Connections**  <br><br>:::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br> **Viva Engage**| 
-|<h3>[Insight](#insight)|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> **Viva Insights**| 
-|<h3>[Growth](#growth)|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> **Viva Topics** <br><br>:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br> **Viva Learning**| 
-|<h3>[Purpose](#purpose)|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals**| 
-|<h3>[Role-based](#role-based)|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> **Viva Sales**| 
+Choose the experience for your employees
+
+| Experience | App ||
+|:-------:|-------------|------|
+|<h3>[Connection](#connection) |:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> **Viva Connections**  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> **Viva Engage**| 
+|<h3>[Insight](#insight)|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> **Viva Insights**|| 
+|<h3>[Growth](#growth)|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> **Viva Topics** |:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>**Viva Learning**| 
+|<h3>[Purpose](#purpose)|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals**|| 
+|<h3>[Role-based](#role-based)|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> **Viva Sales**|| 
+
 
 ### Connection
 
