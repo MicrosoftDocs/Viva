@@ -60,7 +60,7 @@ The Viva Insights Outlook add-in includes a [View outstanding tasks](../use/use-
 
 The **Productivity** tab in the Viva Insights app in Teams and on the web also has a **Suggested tasks** section. If you've pinned people as important, you'll notice their tasks show up first, under **Pinned**.
 
-:::image type="content" source="../../Images/MyA/reference/suggested-tasks-teams.png" alt-text="Screenshot of the Suggested tasks section of the Viva Insights app's Stay connected tab, which shows all pinned-contacts tasks complete and one other task outstanding.":::
+:::image type="content" source="../../Images/MyA/reference/suggested-tasks-teams.png" alt-text="Screenshot of the Suggested tasks section of the Viva Insights app's Productivity tab, which shows all pinned-contacts tasks complete and one other task outstanding.":::
 
 When you're in Outlook in your browser, select the **My Day** icon **>** **To Do**. To Do shows you a list of tasks you've already added, and those that it's surfaced through email. Check off tasks you've done and add more here. Learn more about tasks in Outlook in the following article, under the **Manage all tasks** section: [Use tasks in Outlook.com](https://support.microsoft.com/en-us/office/use-tasks-in-outlook-com-6e8a991b-ea62-4009-a7f7-62b70a57ec18#bkmk_beta).
 

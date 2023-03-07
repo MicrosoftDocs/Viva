@@ -82,7 +82,8 @@ The **Wellbeing** tab is designed to help you understand your work habits, act w
 #### Productivity
 
 Effective meetings and clear tasks are key to increasing productivity. 
-That's why we built the **Productivity** tab—to help you identify ways to identify and decrease non-productive meeting time, and also stay on top of your work with suggested tasks. Content you used to find in **Effective meetings** (meeting surveys, meeting categories insights, shared meeting plans, and meeting habits) and **Stay connected** (suggested tasks) will soon live in **Productivity**.
+
+That's why we built the **Productivity** tab—to help you identify ways to identify and decrease non-productive meeting time, and also stay on top of your work with suggested tasks. Content you used to find in **Effective meetings** (meeting surveys, meeting categories insights, shared meeting plans, and meeting habits) and **Suggested tasks** (suggested tasks) will soon live in **Productivity**.
 
 :::image type="content" source="../../Images/MyA/reference/redesign-productivity-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../Images/MyA/reference/redesign-productivity.png":::
 

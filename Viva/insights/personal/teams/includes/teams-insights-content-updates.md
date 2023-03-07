@@ -12,7 +12,7 @@
 | 5/13/2021 | [Viva Insights - Praise](/insights/viva-insights-praise) | renamed |
 | 5/13/2021 | [Viva Insights - Protect time](/insights/viva-insights-protect-time) | renamed |
 | 5/13/2021 | [Viva Insights - Reflect](/insights/viva-inteamwork
-| 5/13/2021 | [Viva Insights - Stay connected](/insights/viva-insights-stay-connected) | renamed |
+| 5/13/2021 | [Viva Insights - Stay connected](/insights/suggested-tasks) | renamed |
 | 5/13/2021 | [Viva Insights - virtual commute](/insights/viva-insights-virtual-commute) | renamed |
 | 5/13/2021 | [Viva Insights app - Admin tasks](/insights/introduction-admin-tasks) | renamed |
 | 5/13/2021 | [Viva Insights app - FAQ](/insights/introduction-faq) | renamed |
