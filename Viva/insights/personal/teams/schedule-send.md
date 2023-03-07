@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 01/25/2023
+ms.date: 03/07/2023
 title: Schedule send suggestions in Teams chat 
 description: Learn how Viva Insights helps you send messages to your coworkers during their working hours
 author: lilyolason
@@ -18,6 +17,9 @@ audience: user
 # Schedule send suggestions in Teams chat
 
 *Applies to: users with a Viva Insights subscription*
+
+>[!Note]
+>We're in the process of rolling this feature out to customers.
 
 To help you communicate with coworkers during their working hours, Viva Insights suggests times to send chats that might otherwise arrive after hours.
 

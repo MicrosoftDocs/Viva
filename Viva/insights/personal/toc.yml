@@ -52,6 +52,8 @@ items:
               href: Briefing/be-languages.md
             - name: FAQ
               href: Briefing/be-faqs.yml
+            - name: Schedule send in chat
+              href: teams/schedule-send.md  
         - name: Outlook add-in
           items:
             - name: Introduction
