@@ -113,7 +113,7 @@ Time without meetings, emails and chats provides employees with the opportunity 
 
 [How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking, such as writing, strategic thinking, analysis, coding, designing, or a project with a lot of complexity." Ways to protect time:
 
-* Use a [personal focus plan](../personal/use/focus-plan.md) to automatically book focus time and protect this time by silencing chats, and allows you to track your progress weekly.
+* Use a [personal focus plan](../personal/teams/focus-plan.md) to automatically book focus time and protect this time by silencing chats, and allows you to track your progress weekly.
 * Create a new team norm that respects the Microsoft Teams focus status of others by not sending chats to teammates whose status is "focusing."
 
 For more best practices and ways to protect the time of yourself and others, see [Best practices for focus time](../tutorials/gm-focus.md).

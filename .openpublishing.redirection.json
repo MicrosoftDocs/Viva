@@ -222,32 +222,32 @@
       },
       {
         "source_path": "viva/insights/use/viva-insights-my-org.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/myteam.md",
-        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
+        "redirect_url": "/viva/insights/org-team-insights/team-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/team-insights.md",
-        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
+        "redirect_url": "/viva/insights/org-team-insights/team-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/my-team-faq.md",
-        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits-faq",
+        "redirect_url": "/viva/insights/org-team-insights/team-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/my-org-meeting-effectiveness.md",
-        "redirect_url": "/viva/insights/org-team-insights/meeting-effectiveness",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/my-org-manager-connection.md",
-        "redirect_url": "/viva/insights/org-team-insights/manager-connection",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
@@ -257,27 +257,27 @@
       },
       {
         "source_path": "viva/insights/setup/ml-insights-setup.md",
-        "redirect_url": "/viva/insights/org-team-insights/setup",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/myteam-explore.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/group-insights.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/viva-insights-my-team.md",
-        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
+        "redirect_url": "/viva/insights/org-team-insights/team-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/viva-insights-myorg.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
@@ -487,11 +487,15 @@
       "redirect_url": "viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false
       },
-      {"source_path": "viva/insights/org-team-insights/employee-wellbeing.md.md",
+      {"source_path": "viva/insights/org-team-insights/employee-wellbeing.md",
       "redirect_url": "viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false
       },
       {"source_path": "viva/insights/org-team-insights/manager-connection.md",
+      "redirect_url": "viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/meeting-effectiveness.md",
       "redirect_url": "viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false
       },
@@ -581,7 +585,11 @@
       {"source_path": "viva/insights/personal/teams/viva-teams-app.md",
       "redirect_url": "viva/insights/personal/teams/introduction",
       "redirect_document_id": false
-      },      
+      },  
+      {"source_path": "viva/insights/personal/teams/new/introduction.md",
+      "redirect_url": "viva/insights/personal/teams/introduction",
+      "redirect_document_id": false
+      },       
       {"source_path": "viva/insights/personal/teams/new/faq.md",
       "redirect_url": "viva/insights/personal/teams/faq",
       "redirect_document_id": false
