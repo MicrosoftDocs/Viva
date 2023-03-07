@@ -88,7 +88,7 @@ items:
                 href: personal/overview/privacy-guide-admins.md
               - name: Activity report
                 href: personal/overview/activity-report.md
-          - name: Schedule send in chat
+          - name: Schedule send suggestions in chat
             href: personal/teams/schedule-send.md        
       - name: Team and organization insights
         items:
