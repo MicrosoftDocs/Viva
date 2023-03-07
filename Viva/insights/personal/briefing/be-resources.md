@@ -18,7 +18,7 @@ manager: helayne
 # Briefing email resources
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+>We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 When you're ready to roll out the Briefing email to your organization or to a new group of employees who just joined your organization, it's important that you educate them on how the Briefing email can help them get their work done and plan for the day ahead.
 
