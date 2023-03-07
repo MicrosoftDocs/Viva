@@ -39,7 +39,8 @@ Viva Connections doesn’t require a [SharePoint home site](home-site-plan.md), 
 | Set up global navigation* (only for customers with a home site) |Once your home site is set up, you can enable and customize global navigation in the SharePoint app bar. In the Viva Connections desktop app, resources in the global navigation panel will display when the Viva Connections icon is selected in Teams and in the resources section. In the Viva Connections mobile app, resources in the global navigation will display in the “Resources” tab. <br><br> Learn more about how to [enable and customize global navigation](/sharepoint/sharepoint-app-bar). | 
 | Audit, prioritize, and modernize sites (optional) | After you've identified the key scenarios for Viva Connections, you’ll need to identify content or sites that should be modernized if you're still using classic sites and pages. Not all content or classic SharePoint sites need to be modernized to take advantage of Viva Connections. Focus on the priority use cases that will need to be included in your organization’s instance of Viva Connections. <br><br> Learn more about [how to modernize content](/sharepoint/dev/transform/modernize-classic-sites#:~:text=Modernize%20your%20classic%20SharePoint%20sites%201%20Enable%20your,site%20transformation%20is%20transforming%20your%20site%20pages.%20) and [healthy portal guidance for high-traffic sites](/sharepoint/portal-health)| 
 
-* Tasks marked with an asterisk are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
+> [!NOTE]
+> Tasks marked with an asterisk (*) are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
 
 #### Create a home site for your organization (optional)*
 Viva Connections requires a [SharePoint home site](/viva/connections/home-site-plan) which is a communication site that has special capabilities. A home site is the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. Your home site will also be the landing experience for Viva Connections in the Microsoft Teams desktop app. 
@@ -50,7 +51,8 @@ Start small by identifying a handful of resources and functions that the home si
 
 Learn more about [how to plan your home site](/sharepoint/home-site-plan) and [how to launch healthy SharePoint sites](/sharepoint/portal-health). 
 
-* Tasks marked with an asterisk are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
+> [!NOTE]
+> Tasks marked with an asterisk (*) are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
 
 #### Set up global navigation in the SharePoint app bar (optional)*
 Next, from the home site Settings icon, select [Set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
@@ -60,7 +62,8 @@ Next, from the home site Settings icon, select [Set up global navigation](/Share
 
 Navigational links that appear in the global navigation pane in the SharePoint app bar will also display in the Viva Connections app in Microsoft Teams for desktop and mobile apps. 
 
-* Tasks marked with an asterisk are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
+> [!NOTE]
+> Tasks marked with an asterisk (*) are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
 
 #### Audit, prioritize, and modernize content to align with key scenarios and tasks (optional)
 After defining the key scenarios and tasks in the planning phase, prepare for Viva Connections by ensuring priority content is located on modern SharePoint communication sites and team sites. Only modern sites will appear in the Microsoft Teams app. Classic sites will open in a separate browser window.
