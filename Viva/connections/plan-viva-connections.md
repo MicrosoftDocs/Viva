@@ -50,7 +50,7 @@ Start small by identifying a handful of resources and functions that the home si
 
 Learn more about [how to plan your home site](/sharepoint/home-site-plan) and [how to launch healthy SharePoint sites](/sharepoint/portal-health). 
 
-
+* Tasks marked with an asterisk are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
 
 #### Set up global navigation in the SharePoint app bar (optional)*
 Next, from the home site Settings icon, select [Set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
@@ -60,6 +60,7 @@ Next, from the home site Settings icon, select [Set up global navigation](/Share
 
 Navigational links that appear in the global navigation pane in the SharePoint app bar will also display in the Viva Connections app in Microsoft Teams for desktop and mobile apps. 
 
+* Tasks marked with an asterisk are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
 
 #### Audit, prioritize, and modernize content to align with key scenarios and tasks (optional)
 After defining the key scenarios and tasks in the planning phase, prepare for Viva Connections by ensuring priority content is located on modern SharePoint communication sites and team sites. Only modern sites will appear in the Microsoft Teams app. Classic sites will open in a separate browser window.
