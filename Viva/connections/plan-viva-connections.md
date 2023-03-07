@@ -101,7 +101,7 @@ Start by identifying the key scenarios that Viva Connections needs to support an
 
 | Dashboard on mobile  | Description                 | 
 | :------------------- |: ------------------- |
-| ![Interaction between the Dashboard and cards.](../media/connections/new-vc-dashboard-interaction.GIF) | In this example, a card on the dashboard is linked to a SharePoint page where users can take a daily health check easily from a mobile device.| 
+| ![Interaction between the Dashboard and cards.](../media/connections/new-vc-dashboard-interaction.gif) | In this example, a card on the dashboard is linked to a SharePoint page where users can take a daily health check easily from a mobile device.| 
 
 
 Common scenarios include view paystubs and vacation hours, submit help tickets, catch up on news, check daily lunch menus, find people in a directory, and shift management. Collaborate and align with business groups that manage these experiences to determine the best design. Review the [Adoption center's best practices from successful Viva Connections customers](https://adoption.microsoft.com/files/viva/connections/Adoption-Recommended-Practices-for-Viva-Connections.pdf) for more information on common scenarios and how to identify employee experiences that result in lasting adoption.
