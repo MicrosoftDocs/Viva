@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 11/11/2022
 title: Viva Insights Home tab in Teams and on the web
 description: About the Home tab in the Microsoft Viva Insights app
@@ -86,8 +85,7 @@ All insight cards show the current week's average measure, and also provide the 
    Screenshot that shows an organization insight card on the Home tab. The insight includes a title, subtitle, numerical indicator, increase/decrease indicator, a line graph, and a recommended action with a button to begin that action, which is to set up a no-meeting day. There's also a "Show details" link and a share icon.
 :::image-end:::
 
-To learn more about organization insights, refer to our [organization insights documentation](../../org-team-insights/new/org-insights.md).
-
+To learn more about organization insights, refer to our [organization insights documentation](../../org-team-insights/org-insights.md).
 
 
 ## Related topics

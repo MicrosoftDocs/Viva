@@ -48,7 +48,7 @@ Focus time Insights are available on the **Wellbeing** page on Viva Insights app
 
 #### Quiet time insights 
 
-[Quiet time insights](../teams/viva-insights-protect-time.md#configure-quiet-time) are available in the Viva Insights app in Teams and on the web, on the **Wellbeing** page. These insights show the number of days when quiet time was kept without quiet time interruptions in addition to displaying a calendar view of quiet time days in a four-week duration. 
+[Quiet time insights](../teams/quiet-time) are available in the Viva Insights app in Teams and on the web, on the **Wellbeing** page. These insights show the number of days when quiet time was kept without quiet time interruptions in addition to displaying a calendar view of quiet time days in a four-week duration. 
 
 This feature also lets you configure your quiet time settings to match your needs during the initial setup or after setup. 
 

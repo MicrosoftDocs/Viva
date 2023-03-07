@@ -26,7 +26,7 @@ Microsoft Viva Insights includes Personal insights, Manager and team insights, L
 
 * **Personal insights** - Depending on what you're using for your personal insights, see the applicable FAQ:
 
-  * [**Personal insights in Teams FAQ**](../personal/teams/introduction-faq.md) - Shows your personal insights within your Microsoft Teams flow of work, including how to stay connected, protect time, use Headspace for guided meditation, and start a virtual commute.
+  * [**Personal insights in Teams FAQ**](../personal/teams/faq.md) - Shows your personal insights within your Microsoft Teams flow of work, including how to stay connected, protect time, use Headspace for guided meditation, and start a virtual commute.
   * [**Briefing email FAQ**](../personal/briefing/be-faqs.yml) - Briefing emails show you relevant items that can help you stay in control of your calendar and be intentional about your day, including outstanding commitments or requests, preparing for upcoming meetings, and suggested times to schedule for focusing or catching up on messages.
     >[!Important]
     >We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../personal/use/add-in.md) or [Viva Insights app in Teams](../personal/teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../personal/reference/briefing-pause.md).

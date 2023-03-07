@@ -21,7 +21,7 @@ highlightedContent:
       url: introduction.md
     - title: Keeping data private
       itemType: learn
-      url: introduction-privacy.md
+      url: privacy.md
     - title: Configuration
       itemType: deploy
       url: viva-teams-app-install.md
@@ -33,4 +33,4 @@ highlightedContent:
       url: home.md
     - title: FAQ
       itemType: reference
-      url: introduction-faq.md
+      url: faq.md

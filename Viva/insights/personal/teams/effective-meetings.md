@@ -27,19 +27,19 @@ The **Meeting habits** section highlights your habits or practices in meetings y
 * For details about all your meetings in the past four weeks, use the **Meeting details** view.
     
 
-    :::image type="content" source="../teams/Images/meeting-effectiveness-details.png" alt-text="Collaboration Meeting List View." lightbox="../teams/Images/meeting-effectiveness-details.png":::
+    :::image type="content" source="../teaimages/meeting-effectiveness-details.png" alt-text="Collaboration Meeting List View." lightbox="../teaimages/meeting-effectiveness-details.png":::
 
     The **Meeting details** view classifies meetings by using icons, which we describe in the following table:
 
    |Icon|Description |
    |--|---|
-   |![recur icon.](../teams/Images/me-icon-recurring-invited.png) |  This meeting is recurring |
-   |![recur, organized by you icon.](../teams/Images/me-icon-recurring-by-you.png)|This meeting is recurring and you organized it
-   |![Invited icon.](../teams/Images/me-icon-invited.png)|You were invited to this meeting
-    |![Organized icon](../teams/images/me-icon-organized-you.png)| You organized this meeting
-   | ![check mark icon.](../teams/images/me-icon-yes.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
-   |![X icon.](../teams/images/me-icon-no.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
-   |![dash icon.](../teams/images/me-icon-na.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
+   |![recur icon.](../teaimages/me-icon-recurring-invited.png) |  This meeting is recurring |
+   |![recur, organized by you icon.](../teaimages/me-icon-recurring-by-you.png)|This meeting is recurring and you organized it
+   |![Invited icon.](../teaimages/me-icon-invited.png)|You were invited to this meeting
+    |![Organized icon](../teaimages/me-icon-organized-you.png)| You organized this meeting
+   | ![check mark icon.](../teaimages/me-icon-yes.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
+   |![X icon.](../teaimages/me-icon-no.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
+   |![dash icon.](../teaimages/me-icon-na.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
 
 You can sort this table by selecting the column header.
 
@@ -64,7 +64,7 @@ Viva Insights calculates your meeting habits once a week. We evaluate four full 
 
 For example, let's say you go to your **Meeting habits** section on Wednesday, December 14th. You'd find meeting habits based on meeting data that started on Sunday, November 13th—this day *is* included in the calculation—and ended on Sunday, December 11th—this day *isn't* included in the calculation.
 
-![Screenshot that shows a calendar with labels "Calculation starts" on the 13th, "Calculation ends" on the next month's 10th, and "View date" four days later, on the 14th. ](./Images/effective-meetings-calculation-time1.png)
+![Screenshot that shows a calendar with labels "Calculation starts" on the 13th, "Calculation ends" on the next month's 10th, and "View date" four days later, on the 14th. ]images/effective-meetings-calculation-time1.png)
 
 ### Meeting exclusions
 

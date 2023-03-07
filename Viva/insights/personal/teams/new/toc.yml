@@ -55,8 +55,8 @@ items:
       - name: Team and organization insights
         items:
           - name: Team insights 
-            href: /viva/insights/org-team-insights/new/team-insights
+            href: /viva/insights/org-team-insights/team-insights
           - name: Organization insights
-            href: /viva/insights/org-team-insights/new/org-insights
+            href: /viva/insights/org-team-insights/org-insights
           - name: Organization insights FAQ
-            href: /viva/insights/org-team-insights/new/org-insights-faqs
+            href: /viva/insights/org-team-insights/org-insights-faqs

@@ -21,12 +21,12 @@ The **Meeting habits** section of the **Productivity** tab highlights your habit
 
 * Use percentage data from the **Meeting habits** view to understand how often you organize or attend meetings that apply certain habits. For example, you might notice that 80% of the meetings you attended ended on time. 
 
-    :::image type="content" source="images/effective-meetings-habits1.png" alt-text="Collaboration Meeting Habits View." lightbox="../Images/effective-meetings-habits1.png" :::
+    :::image type="content" source="images/effective-meetings-habits1.png" alt-text="Collaboration Meeting Habits View." lightbox="images/effective-meetings-habits1.png" :::
 
 * For details about all your meetings in the past four weeks, use the **Meeting details** view.
     
 
-    :::image type="content" source="images/meeting-effectiveness-details.png" alt-text="Collaboration Meeting List View." lightbox="../Images/meeting-effectiveness-details.png":::
+    :::image type="content" source="images/meeting-effectiveness-details.png" alt-text="Collaboration Meeting List View." lightbox="images/meeting-effectiveness-details.png":::
 
     The **Meeting details** view classifies meetings by using icons, which we describe in the following table:
 

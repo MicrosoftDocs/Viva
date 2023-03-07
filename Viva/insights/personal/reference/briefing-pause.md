@@ -90,4 +90,4 @@ In the **Headspace** section of the Briefing email, you were able to launch a gu
 
 Discover a curated set of guided meditations through the Viva Insights app in Teams and on the web. Go to the **Wellbeing tab > Act with intention** section **> Meditation** category, and select the **Play** button on a [Headspace](../teams/headspace.md) card. 
 
-:::image type="content" source="../teams/images/wellbeing-start-meditation1.png" alt-text="Screenshot that shows the Act with intention, Guided meditations section, which contains four guided meditation cards." lightbox="..images/wellbeing-start-meditation1-expanded.png":::
+:::image type="content" source="../teams/images/wellbeing-start-meditation1.png" alt-text="Screenshot that shows the Act with intention, Guided meditations section, which contains four guided meditation cards." lightbox="../teams/images/wellbeing-start-meditation1-expanded.png":::
