@@ -18,7 +18,7 @@ manager: anirudhbajaj
 # Settings for the Briefing email
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 Use Briefing settings to pick what time of day you receive the Briefing email in your inbox, which items you want to prioritize in your Briefing email, or to unsubscribe from the email. What you set here  overrides or takes precedence over what your admin sets up for your Briefing email.
 
