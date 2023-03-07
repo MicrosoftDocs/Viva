@@ -148,7 +148,7 @@ For example, create a table like the following to list business scenarios that y
 
 |In my role as...|I need to...|So that...|I know this is successful when...|
 |:-------------------|:---------------|:-----------|:------------------------------------|
-|Full time employee |Easy access to benefit and payroll information |I can quickly check important information without needing |Requests for help with benefits and payroll to the HR team are reduced  |
+|Full time employee |Easy access to benefit and payroll information |I can quickly check important information without needing help from HR |Requests for help with benefits and payroll to the HR team are reduced  |
 |Frontline worker |Clock in and out from a mobile device |I can create efficiencies in my workflow |Schedules and breaks are managed from Viva Connections |
 |People manager |Welcome and onboard new team members |I can grow and develop talent |I spend less time managing standard onboarding functions |
 |Sales representative| Access specific product training materials while on a mobile device |Can quickly resolve customer issues|Most customer issues get resolved in real-time|
