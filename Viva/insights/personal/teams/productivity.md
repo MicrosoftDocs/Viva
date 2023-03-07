@@ -58,7 +58,7 @@ Some insight cards also provide recommended actions. For example, to help your t
 :::image type="content" source="images/productivity-org-insight-trend.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
 
 
-To learn more about organization insights, refer to our [Organization insights](../../../org-team-insights/new/org-insights.md) article.
+To learn more about organization insights, refer to our [Organization insights](../../org-team-insights/new/org-insights.md) article.
 
 
 ## Related topics

@@ -23,8 +23,8 @@ Organization insights help leaders and managers of large teams understand how th
 To view organization insights:
 
 * You need to have a Viva Insights subscription (that is, a premium license).
-* Your Insights admin needs to assign you the [**Insights Business Leader** role](../../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
-* You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
+* Your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
+* You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
 
 People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
 
@@ -38,13 +38,13 @@ People enabled as group managers can access organization insights that include p
 
 Viva Insights commits that no user will discover information about another identified individual that they couldn't already know. This principle applies to every feature in Viva Insights, including organization insights.
 
-For further detail about privacy and organization insights, refer to our [privacy information](../../advanced/privacy/privacy.md#about-organization-insights).
+For further detail about privacy and organization insights, refer to our [privacy information](../advanced/privacy/privacy.md#about-organization-insights).
 
 ## Using organization insights
 
 Organization insights are more than just a dashboard—they also provide helpful features to share insights and actions with your organization. Here's what you might see when you open your Viva Insights app:
 
-:::image type="complex" source="../images/org-insights-all1.png" alt-text="Screenshot that shows the organization insights section.]":::
+:::image type="complex" source="images/org-insights-all1.png" alt-text="Screenshot that shows the organization insights section.]":::
    Screenshot of the "Your organization insights" section in the Viva Insights app. The image shows three insight cards. From left to right: "Uninterrupted focus hours," which is the largest, "Manager 1:1 meeting hours," and "Meeting hours." Elements of the organization insights section are labeled with numbers 1-5, which correspond to feature description labels below. 1 is the scope selector, currently labeled "Your organization," in the top right corner. The rest of the labels are on the "Uninterrupted focus hours" insight card. 2 is the indicators, placed next to the text, "14.1 hours per person last week." 3 is the "Show details" link next to the "Set up plan" button at the bottom left of the card. 4 is the share button at the bottom right of the card. 5 is the "Set up plan" button.
 :::image-end:::
 
@@ -66,7 +66,7 @@ Let's take a look at how to use these features:
 
     Insight details give you additional context for understanding the measured results. These details can include trend lines, peer comparisons, comparisons across groups within your organization, and distributions. When you select the **Show details** link, Viva Insights brings you to a separate page. Expand the following image for a sample view of a detail page.
     
-    :::image type="complex" source="../images/org-insights-detail-page-reg.png" alt-text="Screenshot that shows the insight detail page for Uninterrupted focus hours.":::
+    :::image type="complex" source="/org-insights-detail-page-reg.png" alt-text="Screenshot that shows the insight detail page for Uninterrupted focus hours.":::
        Screenshot of the Details page for the "Uninterrupted focus hours" insight. The title of the page reads, "Uninterrupted focus hours" with an information icon. The subtitle reads, "Is there time for individual work?". Below the subtitle is a numerical indicator, as described earlier, with text about an increase. A description of the indicator sits below the indicator and contains an information icon. Below the description is a line graph. On the right of the screen is a card titled, "Block time for focus" that allows users to start a shared focus plan. The card contains a "Set up plan" button and "More actions" links. In the top right of the screen, there's a scope selector indicating that data is being shown for the organization.
     :::image-end:::
 
@@ -75,14 +75,14 @@ Let's take a look at how to use these features:
     Sharing is available for most insight cards. You can share an insight in one of two ways:
     * **In a Teams chat** – When you share through a chat, you'll send a screenshot of the insight to another person. You can add a message if you want. The chat contains a link so the recipient can go to their own insights.
     
-        :::image type="complex" source="../images/org-insights-share-chat1.png" alt-text="Screenshot that shows sharing an insight by chat.":::
+        :::image type="complex" source="/org-insights-share-chat1.png" alt-text="Screenshot that shows sharing an insight by chat.":::
            Screenshot of the "Share via chat" window. The title reads, "Start adding people to share." Beneath the title is a "Send to" field where users can add recipients. This field currently contains a recipient, showing their profile image and name, with an X button to cancel. Beneath "Send to" is a "Leave a note" field which includes user-entered text. Beneath "Leave a note," a box next to the text, "Include a preview of my own insight" is checked. In the bottom portion of the window, there's a "Preview" section that shows what the recipient will see. The message title reads, "Elvia Atkins shared insights with you." Below the message title, there's the note the sender wrote above. Part of the insight is visible in the preview. In the bottom right of the window, there's a "Done" button.
         :::image-end:::
 
     * **Through a link** – When you share through a link, that link takes the recipient to the same location in Viva Insights. Linking someone doesn't give them access to the same data you can see, but if they also have access to organization insights, they'll see results for their own group.
 
 
-        :::image type="complex" source="../images/org-insights-share-link.png" alt-text="Screenshot that shows sharing an insight by link.":::
+        :::image type="complex" source="/org-insights-share-link.png" alt-text="Screenshot that shows sharing an insight by link.":::
            Screenshot of copying an insight link. The image shows a checkmark and a label with the text, "Link to 'Uninterrupted focus hours' copied." Below the label is a web address field; this address field contains a direct URL to the insight. To the right of the address field, there's a "Copy again" button. In the top right of the window, there's an X button to close the window.
         :::image-end:::
 1. **Actions**
@@ -91,7 +91,7 @@ Let's take a look at how to use these features:
 
     Here's an example:
 
-    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
+    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
 
 ## Related information
 
@@ -113,7 +113,7 @@ Let's take a look at how to use these features:
 
 The following table lists metrics related to organization insights. You can also access metric definitions while you're using Viva Insights—just select the (i) icon next to the organization insight card or organization insight page title.
 
-Refer to [Metric definitions](../../advanced/reference/metrics.md) for all Viva Insights metric definitions.
+Refer to [Metric definitions](../advanced/reference/metrics.md) for all Viva Insights metric definitions.
  
 |Metric	| How it’s calculated|
 |--------|--------------------|

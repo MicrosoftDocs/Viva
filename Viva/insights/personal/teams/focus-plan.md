@@ -44,7 +44,7 @@ To start a focus plan:
 1. Go to the **Take action to improve your wellbeing** section of your **Wellbeing** tab.
 1. Find the **Start a daily focus plan** card, then select **Set daily focus plan**.
 
-    :::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-start.png" alt-text="Screenshot that shows the Start a daily focus plan card on the Wellbeing tab with the Start daily focus plan button highlighted." lightbox="../../images/MyA/Use/wellbeing-focus-plan-start.png":::
+    :::image type="content" source="../../Images/MyA/Use/wellbeing-focus-plan-start.png" alt-text="Screenshot that shows the Start a daily focus plan card on the Wellbeing tab with the Start daily focus plan button highlighted." lightbox="../../images/MyA/Use/wellbeing-focus-plan-start.png":::
 
 1. If you're prompted, configure your plan settings:
     * How much focus time you want to schedule each day
@@ -56,7 +56,7 @@ To start a focus plan:
 
 After your plan is set up, a confirmation card appears in your **Take action to improve your wellbeing** section.
 
-:::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-confirm.png" alt-text="Screenshot that shows the confirmation card for focus plan.":::
+:::image type="content" source="../../Images/MyA/Use/wellbeing-focus-plan-confirm.png" alt-text="Screenshot that shows the confirmation card for focus plan.":::
 
 
 If you want to change your settings right away, select **Change settings**. Otherwise, you can make edits as we describe in [To make changes](#to-make-changes).
@@ -65,15 +65,15 @@ If you want to change your settings right away, select **Change settings**. Othe
 
 1. Select the **Want focus time every day?** insight.
 
-   :::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-oai-start.png" alt-text="Screenshot that shows Want focus time every day? insight in the Outlook add-in.":::
+   :::image type="content" source="../../Images/MyA/Use/wellbeing-focus-plan-oai-start.png" alt-text="Screenshot that shows Want focus time every day? insight in the Outlook add-in.":::
 
 2. Select **Book now**.
 
-      :::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-oai-book.png" alt-text="Screenshot that shows the Create your focus plan window with Book time now and Cancel buttons.":::
+      :::image type="content" source="../../Images/MyA/Use/wellbeing-focus-plan-oai-book.png" alt-text="Screenshot that shows the Create your focus plan window with Book time now and Cancel buttons.":::
 
    The Insights pane now notifies you that your focus plan has begun, and your calendar now contains focus-time blocks:
 
-    :::image type="content" source="../../../Images/MyA/Use/wellbeing-focus-plan-oai-confirm1.png" alt-text="Screenshot that shows the Outlook add-in's focus plan confirmation window and a Got it button.":::
+    :::image type="content" source="../../Images/MyA/Use/wellbeing-focus-plan-oai-confirm1.png" alt-text="Screenshot that shows the Outlook add-in's focus plan confirmation window and a Got it button.":::
 
 Now that your focus plan is underway, you can: 
 
@@ -87,7 +87,7 @@ After you've started your plan, you can check your progress and make sure that y
 
 In the app, go to your **Wellbeing** tab's **Track your progress** section. The **Focus plan** card shows how many hours of focus time you kept--that is, you didn't delete from your calendar--over the current and last month. The card also lets you know how many hours of focus time you have booked for the upcoming week, and on which days.
 
-:::image type="complex" source="../../teams/Images/wellbeing-focus-track-progress.png" alt-text="Screenshot that shows the Track your progress section of the Wellbeing tab.":::
+:::image type="complex" source="../teams/Images/wellbeing-focus-track-progress.png" alt-text="Screenshot that shows the Track your progress section of the Wellbeing tab.":::
    Screenshot that shows the Focus plan card in the Track your progress section. It displays total hours of kept focus time over November - December and total hours of focus time reserved for the following week, on Friday, Monday, Tuesday, and Wednesday.
 :::image-end:::
 
@@ -102,19 +102,19 @@ To edit your focus plan settings:
 
 1. Select the ellipses (**...**) at the top-right of any Viva Insights tab, then select **Settings**.
 
-    :::image type="content" source="../../teaimages/ellipses.png" alt-text="Screenshot that shows selecting the ellipses > Settings in Viva Insights.":::
+    :::image type="content" source="../teams/images/ellipses.png" alt-text="Screenshot that shows selecting the ellipses > Settings in Viva Insights.":::
 
 1. Select **Protect time** from the left pane.
 1. Edit your scheduled focus hours per day, morning or afternoon preferences, and reminder and notification preferences.
 
-    :::image type="content" source="../../teaimages/wellbeing-focus-plan-settings1.png" alt-text="Screenshot that shows the Protect time > Configure your recurring plan for focus settings in Viva Insights." lightbox="../../teaimages/wellbeing-focus-plan-settings-expanded.png":::
+    :::image type="content" source="../teams/images/wellbeing-focus-plan-settings1.png" alt-text="Screenshot that shows the Protect time > Configure your recurring plan for focus settings in Viva Insights." lightbox="../teams/images/wellbeing-focus-plan-settings-expanded.png":::
 
 
 #### To leave
 
 Select the **Leave plan** button at top right. 
 
-:::image type="content" source="../../teaimages/wellbeing-focus-plan-settings-leave.png" alt-text="Screenshot that shows the top of the Focus plan settings section with the Leave plan button highlighted.":::
+:::image type="content" source="../teams/images/wellbeing-focus-plan-settings-leave.png" alt-text="Screenshot that shows the top of the Focus plan settings section with the Leave plan button highlighted.":::
 
 Answer the survey question, then select **Leave plan** again.
 

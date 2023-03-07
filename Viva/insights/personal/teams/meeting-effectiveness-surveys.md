@@ -17,7 +17,7 @@ audience: user
 
 # Meeting effectiveness surveys
 
-*Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../../overview/plans-environments.md) for more information.*
+*Applies to: users with a Viva Insights subscription. Refer to [Plans and environments](../overview/plans-environments.md) for more information.*
 
 With meeting effectiveness surveys, you can view aggregated feedback from attendees on the meetings you organized. These surveys help you understand what’s going well with your meetings, and what you could improve in future meetings, to promote a healthy meeting culture.
 
@@ -54,7 +54,7 @@ As an organizer with a [Viva Insights subscription](https://www.microsoft.com/mi
 
 ## Settings
 
-All users have meeting effectiveness surveys turned on by default. Admins can turn off surveys for their entire organization or [enable them](../viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys) for a specific set of users. You also can opt out of receiving feedback.
+All users have meeting effectiveness surveys turned on by default. Admins can turn off surveys for their entire organization or [enable them](viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys) for a specific set of users. You also can opt out of receiving feedback.
 
 ### Opt in or out of surveys
 
@@ -73,7 +73,7 @@ As the meeting organizer, you’ll only see aggregated results in Viva Insights.
 
 ## Admin controls
 
-To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](../viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys).
+To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys).
 
 ## Related topics
 

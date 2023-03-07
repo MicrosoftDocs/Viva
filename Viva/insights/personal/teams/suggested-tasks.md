@@ -55,7 +55,7 @@ Here's an example of a commitment. After it's complete, you can mark it as **Don
 
 :::image type="content" source="images/productivity-suggested-tasks-commitment.png" alt-text="Screenshot that shows a commitment task notification.":::
 
-This insight is available in the languages listed in [Briefing languages](../../briefing/be-languages.md).
+This insight is available in the languages listed in [Briefing languages](../briefing/be-languages.md).
 
 ## Catch up on unread documents shared with you
 
