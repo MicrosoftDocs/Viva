@@ -64,7 +64,14 @@ The **Settings** tab lets you control general settings, such as settings related
 
 - **Invite Policy** controls who can add users to your Viva Goals instance.  
 
-- **Team Creation** is a feature that allows you to segment your organization into different workgroups and then add employees to those groups in Viva Goals. These groups will own team-level OKRs, and this setting controls who can create teams.  
+- **Team Creation** is a feature that allows you to segment your organization into different workgroups and then add employees to those groups in Viva Goals. These groups will own team-level OKRs, and this setting controls who can create teams. Using this permission setting, admins can control the users who can create teams within their organization. There are three options that can be used: 
+    1. Any regular user
+    1. Admins
+    1. Team admins 
+    1. Customized (Choose users and grant them access) 
+    
+    > [!NOTE]
+    > By default for all the newly created organizations, the default permission setting for who can teams would be set to 'Admins' and 'Team Admins'. This option can be changed if needed. 
 
 - **Tag Creation** is a feature that allows you to categorize OKRs in buckets that you can later filter in a report.  
  
