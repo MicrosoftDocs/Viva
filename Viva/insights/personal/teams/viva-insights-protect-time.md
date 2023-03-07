@@ -165,7 +165,7 @@ You can create breaks, learning, or message catch-up plans in your Viva Insights
 #### Through the Briefing email
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still create plans through the Viva Insights app, as we discussed in the previous section.
+>We've paused sending Briefing emails to make some improvements. You can still create plans through the Viva Insights app, as we discussed in the previous section. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 To create a plan through the Briefing email, follow these steps:
 
