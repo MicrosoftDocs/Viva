@@ -52,7 +52,7 @@ To get to time management feature settings, including the option to stop using a
 
 1. Select **Protect time** on the left pane. 
 
-    :::image type="content" source="images-tm-settings-pt.png" alt-text="Screenshot that shows the left pane of Settings with Protect time selected.":::
+    :::image type="content" source="images/wellbeing-tm-settings-pt.png" alt-text="Screenshot that shows the left pane of Settings with Protect time selected.":::
 
 ### Change settings
 
@@ -67,11 +67,11 @@ If you need to change a feature's settings, scroll down to find that feature and
 
 If you want to stop using a time management feature, select the **Leave plan** button, located to the right of to the feature you want to stop using.
 
-:::image type="content" source="images-tm-leave-plan1.png" alt-text="Screenshot that shows selecting the Leave plan button.":::
+:::image type="content" source="images/wellbeing-tm-leave-plan1.png" alt-text="Screenshot that shows selecting the Leave plan button.":::
 
 You'll get a confirmation message. Select **Leave plan**.
 
-:::image type="content" source="images-tm-leave-plan-confirm.png" alt-text="Screenshot that shows the leave plan confirmation window with the Leave plan button highlighted.":::
+:::image type="content" source="images/wellbeing-tm-leave-plan-confirm.png" alt-text="Screenshot that shows the leave plan confirmation window with the Leave plan button highlighted.":::
 
 ## About automatic booking
 
