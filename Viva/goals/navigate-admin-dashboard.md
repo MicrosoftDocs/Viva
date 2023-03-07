@@ -1,10 +1,10 @@
 ---
-ms.date: 05/09/2022
+ms.date: 03/07/2023
 title: Navigate the admin dashboard
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
