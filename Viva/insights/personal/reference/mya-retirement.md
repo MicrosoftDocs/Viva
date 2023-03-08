@@ -79,6 +79,9 @@ On the **Setting** page’s **Privacy** tab, you can opt out of the Digest email
 
 ##### Briefing
 
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+
 Select the **Setting** page’s **Briefing** tab to find your Briefing email settings. At the top of the page, toggle the switch off to opt out of the Briefing email. You can opt in again later by toggling the switch on.
 
 You’ll also be able to use a new Briefing email setting to personalize your favorite and snooze preferences. Selecting **Favorite** allows you to prioritize a particular card in your future Briefing emails; selecting **Snooze** allows you to de-prioritize a particular card in your future Briefing emails.

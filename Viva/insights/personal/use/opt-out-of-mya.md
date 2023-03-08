@@ -51,6 +51,8 @@ If you choose to opt out, you lose access to the following items:
 * Emails
     * Briefing email
         * If you’re subscribed to the daily Briefing email, you’ll continue to receive it without the Viva Insights personal insights content. 
+        >[!Important]
+        >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
     * Semi-monthly Digest email
 * Outlook
     * Outlook add-in
@@ -66,7 +68,7 @@ If you choose to opt out, you lose access to the following items:
 If you opt out, you:
 
 * Don’t lose any previously saved settings. If you turn Viva Insights back on later, your current settings reactivate. 
-* Continue to have access to Briefing email and privacy settings. 
+* Continue to have access to Briefing email **(paused; refer to note above)** and privacy settings.  
 * Continue to see currently scheduled individual and shared plan events on your calendar unless you delete them.  
 * Continue to receive shared plan invites. 
 * See a new Home screen on Viva Insights Teams and web app. This Home screen provides the option to opt-in anytime. 

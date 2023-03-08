@@ -1,14 +1,13 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 02/02/2023
-title: Metrics in Viva Insights
-description: Learn about using metrics in Microsoft Viva Insights 
+ms.date: 02/28/2023
+title: Custom metrics in Viva Insights
+description: Learn about building and using custom metrics in Microsoft Viva Insights 
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
-manager: anirudh-bajaj
-audience: Admin
+manager: anirudhbajaj
+audience: Analyst
 ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
@@ -78,7 +77,7 @@ In the metric editor, make changes to the following settings:
 
 :::image type="content" source="../images/analyst-customize-metric-collab-type.png" alt-text="Screenshot that shows the collaboration type dropdown in the second step of the metric editor." lightbox="../images/analyst-customize-metric-collab-type.png":::
 
-You can set multiple types if you want. 
+You can set multiple types if you want. If you set multiple collaboration types, the query will return the combined time of all those collaboration types, for example, the collaboration time of emails and calls.
 
 #### Filter and define collaboration type(s)
 
@@ -94,8 +93,8 @@ We customize a sample metric [below](#sample-scenario), where we give an example
 
 The time window is the range of hours during the day you want your metric to analyze. Pick from the following choices:
 
-* **During after hours**, which is determined by Outlook working-hours settings
-* **During working hours**, which is also determined by Outlook working-hours settings
+* **During after hours**, which are determined by Outlook working-hours settings
+* **During working hours**, which are also determined by Outlook working-hours settings
 * **Throughout the day**, which is a 24-hour time period
 * **Custom time period**
 
@@ -105,21 +104,19 @@ If you pick a custom time period, you can set the custom value through a time pi
 
 #### Name and publish
 
-The **Name** field differentiates your customized metric from existing ones, so you’ll need to either add to the prepopulated name or give it a new one. 
+Name and publish contains the following sections:
 
-The **Description** field contains the metric definition. You might also consider adding information to the description about what you changed, so other analysts in your organization understand what your customized metric does.
+* The **Name** field differentiates your customized metric from existing ones, so you’ll need to either add to the prepopulated name or give it a new one. 
+* The **Description** field contains the metric definition. You might also consider adding information to the description about what you changed, so other analysts in your organization understand what your customized metric does.
+* The **Publication** section determines whether other analysts in your organization can find and use this metric in their queries. Select the checkbox if you want to make your metric available to others.
 
-This field is the last part of the metric editor. Read on to find out how to publish your metric.
+#### Save
 
-:::image type="content" source="../images/analyst-customize-metric-name-publish.png" alt-text="Screenshot that shows the fifth step of the metric editor, Name and publish, with an edited Name and Description." lightbox="../images/analyst-customize-metric-name-publish.png":::
+When you're finished editing your metric, select the button at the bottom of the editor pane. If you chose to publish your metric, this button will say **Save and publish**. If you chose not to publish your metric, this button will say **Save**.
 
-### Save your metric and choose whether to publish it
+:::image type="content" source="../images/analyst-customize-metric-save-publish.png" alt-text="Screenshot of the Publication step with checkbox selected and Save and publish button.":::
 
-When you’re ready to save your metric and start using it in your query, select the **Save** button. 
-
-Viva Insights will ask you if you want to publish your metric to the metric library. If you select **Publish**, you’re making that metric available to other analysts in your organization, so they can use it in their queries. If you don’t want to make your metric available to other analysts, select **Cancel**. You can still use this metric in your query.
-
-:::image type="content" source="../images/analyst-customize-metric-publish-confirm.png" alt-text="Screenshot that shows the window asking you to confirm metric publication.":::
+If you choose to just save your metric and not publish it, it only applies to this one query. You won't be able to use this metric in future queries you create.
 
 ## How to add a customized metric to a query
 
@@ -129,7 +126,7 @@ If you're looking for a metric you customized, expand the **Defined by me** cate
 
 :::image type="content" source="../images/analyst-customize-metric-defined-me.png" alt-text="Screenshot that shows the expanded Defined by me category with two metrics in it.":::
 
-If you're looking for a metric that another analyst in your organization customized, expand the **Defined by others** category.
+If you're looking for a metric that another analyst in your organization customized, expand the **Defined by others** category. If you saved your metric and didn't publish it, expand the **Unpublished metrics** category. Your new metric will be automatically selected. As we discussed earlier, this metric is only available for this query.
 
 The rest of the process is the same as adding any metrics to a query. You'll select the checkmark next each metric you want to add. After you've selected all the metrics you want, select the **Add to query** button at the bottom of the pane.
 
@@ -137,52 +134,50 @@ Your metric appears in your query in progress, in the metrics box.
 
 ## Sample scenario
 
-Let's demonstrate how you might customize a metric. For this sample scenario, we'll say that you already have a query started. You want to add a metric that captures how much time people spend in meetings on Friday afternoons.
+Let's demonstrate how you might customize a metric. For this sample scenario, we'll say that you already have a query started. You want to add a metric that captures how many hours engineers are spending in after-hours meetings on Tuesdays, Wednesdays, and Thursdays.
 
 1. Find a metric to customize:
     1. Select **Add metrics**.
     
-    1. Look for a category that might contain a good starting metric. Maybe **Collaboration by day of the week** will have something. Expand this category.
-    
-    :::image type="content" source="../images/analyst-customize-metric-sample-category1.png" alt-text="Screenshot that shows an expanded Collaboration by day of the week category, with several metrics.":::
+    1. Look for a category that might contain a good starting metric. Maybe **After hours collaboration** will have something. Expand this category.
 
-    1. **Meeting hours on Friday** sounds like a good place to start. Select the tooltip to view this metric's definition and related information.
+    1. **After-hours meeting hours** sounds like a good place to start. Select the tooltip to view this metric's definition and related information.
 
-1. You decide that **Meetings hours on Friday** is the metric you want to customize. Select the ellipses (**...**) to the right of the metric name, and then select **Clone**.
+1. You decide that **After-hours meeting hours** is the metric you want to customize. Select the ellipses (**...**) to the right of the metric name, and then select **Clone**.
 
-    :::image type="content" source="../images/analyst-customize-metric-sample-clone.png" alt-text="Screenshot that shows the contextual menu for Meeting hours on Friday, which includes options to View and Clone.":::
+
+    :::image type="content" source="../images/analyst-customize-metric-clone1.png" alt-text="Screenshot that shows After-hours meeting hours option to View and Clone.":::
 
 1. Make changes to the metric settings:
     1. The collaboration type, meetings attended, will stay the same, so leave the **Select which collaboration type(s) you want to measure** section as-is.
-    1. The metric has a filter set up to measure Fridays. However, you wanted to know about Friday afternoons specifically. In the **Filter and define collaboration type(s)** section, replace the existing condition with a condition group, which will measure two simultaneous conditions (Friday *and* afternoon).
-        1. Select the trashcan icon to delete the existing condition.
-        
-            :::image type="content" source="../images/analyst-customize-metric-sample-trashcan.png" alt-text="Screenshot that shows an existing filter with the trashcan icon highlighted to the right." lightbox="../images/analyst-customize-metric-sample-trashcan.png":::
+    1. You notice there aren't any filters set up. You want this metric to apply to Tuesdays, Wednesdays, and Thursdays. Add a filter to capture these days by selecting **Add condition**.
 
-        1. Select **Add condition group**.
-            :::image type="content" source="../images/analyst-customize-metric-sample-add-cg.png" alt-text="Screenshot that shows a blank condition with the Add condition group option highlighted.":::
-
-        1. When your condition group appears, select **Add new condition** to add the "Friday" part of your condition group.
-            :::image type="content" source="../images/analyst-customize-metric-sample-add-c1.png" alt-text="Screenshot that shows a blank condition group with the Add condition group option highlighted.":::
-
-            1. Set **Day of the Week** as the **Attribute**, **=** as the **Operator**, and **Friday** as the **Value**.
+        1. Set "Day Of Week" as the **Meeting activity attribute**.
+        1. Set  "=" as the **Operator**.
+        1. Select "Tuesday," "Wednesday," and "Thursday" as the **Value**.
              
-                :::image type="content" source="../images/analyst-customize-metric-sample-c1.png" alt-text="Screenshot that shows setting a new condition with in the condition group, with Day of the Week equal to Friday.":::
-        1. Select **Add condition** again to add the "afternoon" part of your condition group.
-            1. Set **Time of Day** as the **Attribute**, **> =** as the **Operator**, and **12:00:00** as the **Value**.
-             :::image type="content" source="../images/analyst-customize-metric-sample-c2.png" alt-text="Screenshot that shows setting a second condition within the condition group, with Time of Day equal to or greater than 12:00:00.":::
+            :::image type="content" source="../images/analyst-customize-metric-filter1.png" alt-text="Screenshot that shows setting attribute, operator, and value for Day Of Week."lightbox="../images/analyst-customize-metric-filter1.png":::
+
+    1. Because you wanted to know about engineers specifically, you'll need another condition. Select **Add condition** again.
+        1. Set "Meeting" as the **Meeting activity attribute**. By selecting "Meeting", you'll add another attribute box called **Meeting attribute**. 
+        1. Set "Attendee" as the **Meeting attribute**. By selecting "Attendee", you'll add another attribute box called **Organizational data attribute**. 
+        1. Set "Engineering" as the **FunctionType**
+        1. Set "=" as the **Operator**.
+        1. Set "Engineering" as the **Value**.
+
+
+            :::image type="content" source="../images/analyst-customize-metric-filter2.png" alt-text="Screenshot that shows setting attributes, org data, operator, and value for Meeting Attendee."lightbox="../images/analyst-customize-metric-filter2.png":::
 
         These are all the filters you'll need to set for this metric, so let's move on to the next section. 
 
-1. In **Select a time window**, select **During working hours**. Though you set a filter earlier to analyze meetings that occur after noon, the time window makes sure you're only analyzing meetings that occur during business hours.
+1. **Select a time window** is already set to "During after hours," so you can leave that selection as-is.
 
-    :::image type="content" source="../images/analyst-customize-metric-sample-time-window.png" alt-text="Screenshot that shows setting the time window to During working hours." lightbox="../images/analyst-customize-metric-sample-time-window.png":::
+1. In **Name and publish**, choose a new name for your metric and add to its description. 
 
-1. In **Name and publish**, choose a new name for your metric and add to its description.
+    :::image type="content" source="../images/analyst-customize-metric-name-publish1.png" alt-text="Screenshot that shows Name and Publish step with an edited Name and Description.":::
+1. You think other analysts in your organization might use this metric at some point, so select the checkmark underneath **Publication**.
 
-    :::image type="content" source="../images/analyst-customize-metric-sample-name-publish.png" alt-text="Screenshot that shows the publishing step with an edited Name and Description.":::
-
-1. Select **Save**. 
-1. You think other analysts in your organization might use this metric at some point, so select **Publish** when Viva Insights asks.
+    :::image type="content" source="../images/analyst-customize-metric-save-publish.png" alt-text="Screenshot that shows Publication step with checkbox selected and Save and publish button.":::
+1. Select **Save and publish**.
 1. In your query's **Select metrics** pane, expand the **Defined by me** category, select your new metric, and select **Add to query**.
 
