@@ -20,7 +20,7 @@ manager: helayne
 # Book focus time
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can use this section to schedule focus time for today’s top-priority work. Select **Book** next a suggested time to block it on your calendar as "focusing," which silences notifications for uninterrupted focused work.
 
