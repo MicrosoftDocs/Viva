@@ -28,11 +28,11 @@ Organizations can incorporate OKRs into their rhythm of business (ROB) by using 
 
 **Objective of this meeting:** The purpose of this activity is to gather a cross section of departments, divisions, or teams to share progress and ensure alignment and awareness of dependencies to help drive successful completion of their respective work.
 
-Organizations can be complex, and bringing together cross functional groups on a regular basis to share their OKRs helps drive clarity, surface dependencies, and allow for real time adjustments.  
+Organizations can be complex, and bringing together cross functional groups regularly to share their OKRs helps drive clarity, surface dependencies, and allow for real time adjustments.  
 
-In the real world, likely outcomes could be: two groups working on very similar projects (which could be combined), marketing getting ready to announce key features (but product isn’t ready to release them), delays to key projects being surfaced (with others jumping in to help), or team members simply saying “Wow, that’s the first I’ve heard of that new feature/topic/win” (how cool!).  
+In the real world, likely outcomes could be: two groups working on similar projects (which could be combined), marketing getting ready to announce key features (but product isn’t ready to release them), delays to key projects being surfaced (with others jumping in to help), or team members simply saying “Wow, that’s the first I’ve heard of that new feature/topic/win” (how cool!).  
 
-Surfacing these issues in a cross-department meeting involving OKRs will save time, energy, and money, and prevents teams planning in a silo and either not sharing outcomes at all or only sharing at the end when it's too late to course correct. 
+Surfacing these issues in a cross-department meeting involving OKRs save time, energy, and money, and prevents teams planning in a silo and either not sharing outcomes at all or only sharing at the end when it's too late to course correct. 
 
 While communicating across teams is always key, this is often most important as you roll out OKRs more broadly in your organization and are driving cascaded / multi-tier OKR programs as additional teams are added and begin adopting Viva Goals. 
 
@@ -76,7 +76,7 @@ Running a series of departmental check-in meetings can require some logistics, b
 
 Smaller companies might be able to have a single 1-hour meeting where department leads “go around the room” and give a quick update of their OKRs. 
 
-Larger enterprises, however, may opt to have a series of back-to-back meetings which focus on each department, with plenty of time for questions and answers. It helps to have a highly organized, well-respected point person to coordinate this activity. This could be a Chief of Staff, Senior Program Manager, or the OKR Program Lead. 
+Larger enterprises, however, may opt to have a series of back-to-back meetings that focus on each department, with plenty of time for questions and answers. It helps to have a highly organized, well-respected point person to coordinate this activity. This could be a Chief of Staff, Senior Program Manager, or the OKR Program Lead. 
 
 Planning and execution of the meeting’s rhythm of business might look like this: 
 
@@ -114,7 +114,7 @@ Planning and execution of the meeting’s rhythm of business might look like thi
 
 ### Step 2: Agenda set and pre-read dashboards shared
 
-**Communication sent:** 3 days before the meeting 
+**Communication sent:** Three days before the meeting 
 
 **Purpose:** Provide strict time constraints for dashboard walkthroughs, and send out department-level dashboards as a pre-read so that meeting time can be used for discussion, not reading
 
@@ -142,7 +142,7 @@ Planning and execution of the meeting’s rhythm of business might look like thi
 
 ### Step 3: Solicit questions from attendees 
 
-**Communication sent:** 2 days before the meeting 
+**Communication sent:** Two days before the meeting 
 
 **Purpose:** With dashboards now available for all to read, attendees can seed a few high level questions about areas they’d like to explore or get more information. This allows time for presenters to add any additional elements to their dashboard, and prepare for questions in advance instead of being put on the spot. 
 
@@ -159,7 +159,7 @@ Planning and execution of the meeting’s rhythm of business might look like thi
 
 ### Step 4: Provide questions to presenters 
 
-**Communication sent:** 1 day before the meeting 
+**Communication sent:** One day before the meeting 
 
 **Purpose:** Provide presenters with questions they may be asked.
 
@@ -189,7 +189,7 @@ The day of the meeting(s) is finally here! It's the role of the Chief of Staff /
     - What went well 
     - Key learnings and opportunities 
     - Risks and help needed 
-- Since each department generally owns 3-5 OKRs, the team member most responsible for each Objective gives a 5 minute update on each goal. This helps drive accountability, involves team members, and builds a culture of OKRs. (15-25 minutes) 
+- Since each department generally owns 3-5 OKRs, the team member most responsible for each Objective gives a 5-minute update on each goal. This helps drive accountability, involves team members, and builds a culture of OKRs. (15-25 minutes) 
     - Progress review of the 3-5 Key Result metrics 
     - Updates on any Projects and Initiatives
     - What went well / wins
@@ -202,9 +202,9 @@ During the meeting, someone is designated to take notes and record follow-up act
 
 ### Step 6: Meeting follow-up 
 
-**Communication sent:** 1 day after the meeting 
+**Communication sent:** One day after the meeting 
 
-**Purpose:** Distribute meeting summary and action items for attendees, and links to recordings for those that could not attend.
+**Purpose:** Distribute meeting summary and action items for attendees, and links to recordings for those that couldn't attend.
 
 > [!TIP]
 > Hello, 
