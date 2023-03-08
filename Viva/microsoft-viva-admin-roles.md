@@ -37,7 +37,7 @@ The two roles that span Microsoft Viva apps are the Microsoft 365 global admin a
 
 The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin sets up Viva, manages licenses and settings, and can assign the following roles, which may be required for some apps and tasks:
 
-- Viva Topics - [Topics admin (must be SharePoint admin/Groups admin)]
+- Viva Topics - administrator for Topics (must be SharePoint admin/Groups admin)
 - Viva Learning - [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
 - Viva Insights - [Insights Business Leader](/azure/active-directory/roles/permissions-reference#insights-business-leader), [Insights Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator), and [Insights Analyst](/azure/active-directory/roles/permissions-reference#insights-analyst)
 - SharePoint - [SharePoint admin](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
