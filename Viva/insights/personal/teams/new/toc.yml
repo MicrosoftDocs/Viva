@@ -42,6 +42,8 @@ items:
           href: focus.md
         - name: Focus plan  
           href: focus-plan.md
+        - name: Shared focus plan
+          href: shared-focus-plan.md  
         - name: Headspace  
           href: headspace.md 
         - name: Quiet time
