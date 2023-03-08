@@ -125,7 +125,7 @@ Every day, you'll find a different featured insight on each tab. Each tab (excep
 
 * **Teamwork** – Manager coaching and networks
 
-    :::image type="content" source="../teams/images/teamwork-org-insights2-small.png" alt-text="Screenshot that shows Teamwork insights for your organization section on the Teamwork tab."lightbox="../images/teamwork-org-insights2.png":::
+    :::image type="content" source="../teams/images/teamwork-org-insights2-small.png" alt-text="Screenshot that shows Teamwork insights for your organization section on the Teamwork tab."lightbox="../teams/images/teamwork-org-insights2.png":::
 
 * **Productivity** – Meeting effectiveness
 
