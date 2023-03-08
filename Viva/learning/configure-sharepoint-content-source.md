@@ -187,6 +187,8 @@ Next, provide a thumbnail image.
 2. Choose **Hyperlink**.
 3. Name the column ThumbnailWebUrl.
 4. Add the URLs for each item.
+>[!NOTE]
+> Only public URLs work for this process. 
 
 Next, add the duration of the content.
 

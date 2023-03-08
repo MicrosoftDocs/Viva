@@ -107,7 +107,7 @@ Admins can’t delete users who currently own any objective. To delete those use
     1. Any group in Azure Active Directory, Security Groups, Distribution groups, and Microsoft 365 groups can be invited to Viva Goals. 
 
 1. **How many groups can be invited?** 
-    1. Currently, only one group from Azure Active Directory can be invited to Viva Goals. 
+    1. There is no limit on the number of groups that can be added into Viva Goals. 
 
 1. **If only one group can be added, how can administrators invite an entire organization to Viva Goals?**
     1. To invite an entire organization, we recommend users nest all existing groups or include all members as part of a single group.  
