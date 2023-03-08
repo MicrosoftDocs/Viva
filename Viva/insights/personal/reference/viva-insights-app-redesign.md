@@ -75,7 +75,9 @@ Learn more about the redesigned app's leader experience in [Content for leaders]
 
 We built the **Home** tab as your jumping-off point to explore and use Viva Insights features, and also to summarize important benchmarks.
 
-:::image type="content" source="../../Images/MyA/reference/redesign-homepage-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../Images/MyA/reference/redesign-homepage.png":::
+:::image type="complex" source="../teams/images/home-ic4.png" alt-text="Screenshot that shows the Viva Insights Home tab's Recommended for you section."lightbox="../teams/images/home-ic4-expanded.png":::
+   Screenshot of the Recommended for you section of the Viva Insights Home tab. The section includes various available plans and activities the user can set up by selecting their action button, including scheduling a no meeting day, setting up quiet time, and starting a shared focus plan.
+:::image-end:::
 
 From **Home**, you'll be able to:
 
@@ -123,7 +125,7 @@ Every day, you'll find a different featured insight on each tab. Each tab (excep
 
 * **Teamwork** – Manager coaching and networks
 
-    :::image type="content" source="../../Images/MyA/reference/redesign-teamwork-org-insights.png" alt-text="Screenshot that shows org trends on the Teamwork tab." lightbox="../../Images/MyA/reference/redesign-teamwork-org-insights.png":::
+    :::image type="content" source="../teams/images/teamwork-org-insights2-small.png" alt-text="Screenshot that shows Teamwork insights for your organization section on the Teamwork tab."lightbox="../images/teamwork-org-insights2.png":::
 
 * **Productivity** – Meeting effectiveness
 
@@ -131,7 +133,7 @@ Every day, you'll find a different featured insight on each tab. Each tab (excep
 
 **Home** works a little differently. Insights on the **Home** tab draw from insights on the **Productivity**, **Wellbeing**, and **Teamwork** tabs. Each insight shows the current week's average measure, along with the difference from the last week. 
 
-:::image type="content" source="../../Images/MyA/reference/redesign-home-org-insights.png" alt-text="Screenshot that shows org trends on the Home tab." lightbox="../../Images/MyA/reference/redesign-home-org-insights.png":::
+:::image type="content" source="../teams/images/home-org2.png" alt-text="Screenshot that shows org insights on the Home tab." lightbox="../teams/images/home-org2.png":::
 
 You'll notice several new insights throughout each tab, including **Meeting hours**, **No-meeting day impact**, **Join on time rate**, and **Focus time impact**. You can share insights with others through a Teams chat or direct link. Additionally, you can view insight trend lines, peer comparisons, comparisons across groups within your organization, and distributions. 
 
