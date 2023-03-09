@@ -38,7 +38,7 @@ People enabled as group managers can access organization insights that include p
 
 Viva Insights commits that no user will discover information about another identified individual that they couldn't already know. This principle applies to every feature in Viva Insights, including organization insights.
 
-For further detail about privacy and organization insights, refer to our [privacy information](../advanced/privacy/privacy.md#about-organization-insights).
+For further detail about privacy and organization insights, refer to our [privacy information](../advanced/privacy/privacy.md).
 
 ## Using organization insights
 
