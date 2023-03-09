@@ -21,5 +21,5 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > This article applies to a preview version of Microsoft Viva Pulse. You must be in the Private Preview program to access it. Features are subject to change.
 
-1. From the Viva Pulse homepage **My pulses** section, under the **Requested from me** tab, you can see the feedback requests you had provided feedback for indicated as completed, as well as the expired and cancelled Pulse requests. Expired indicates you did not provide feedback before the Pulse deadline and cancelled indicates the feedback author cancelled the request.
+1. From the Viva Pulse homepage **My pulses** section, under the **Requested from me** tab, you can see the feedback requests you had provided feedback for indicated as completed, and the expired and canceled Pulse requests. Expired indicates you did not provide feedback before the Pulse deadline and canceled indicates the feedback author canceled the request.
 <br><br> **Note:** The feedback requests in the **Requested from me** tab will be sorted in descending order by default, with the latest requests first and earliest requests last. You can change the sorting order to ascending by selecting the Sent on column header.

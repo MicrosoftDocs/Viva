@@ -22,6 +22,6 @@ ROBOTS: NOINDEX, NOFOLLOW
 > This article applies to a preview version of Microsoft Viva Pulse. You must be in the Private Preview program to access it. Features are subject to change.
 
 1. From the Viva Pulse homepage **My pulses** section, under the Pulses sent tab, when the Pulse request is still open, select the **…** on the card to open the overflow menu and extend the deadline, add more feedback providers, copy link to the Pulse request, or cancel the feedback request.
-<br><br> **Note:** You can only extend the deadline of your Pulse request up to a maximum of 6 times. <br><br>
+<br><br> **Note:** You can only extend the deadline of your Pulse request up to a maximum of six times. <br><br>
 2. When the Pulse request is closed and you have met the minimum confidentiality threshold, select the **…** on the card to open the overflow menu and resend the request or view the feedback providers invited. Select the share button on the card to share the feedback results.
-3. When you cancelled the Pulse request  or you have not met the minimum confidentiality threshold, select the **…** on the card to open the overflow menu and resend the request or view the feedback providers invited.
+3. When you canceled the Pulse request  or you have not met the minimum confidentiality threshold, select the **…** on the card to open the overflow menu and resend the request or view the feedback providers invited.

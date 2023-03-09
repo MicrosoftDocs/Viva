@@ -24,6 +24,6 @@ ROBOTS: NOINDEX, NOFOLLOW
 The feedback providers can respond to the Pulse requests that their feedback author sent them.
 
 1. From the Teams Activity Feed notification that the feedback author has sent a Pulse, select Get started to provide feedback. Alternatively, from the Viva Pulse homepage Expiring soon section, you can select Get started to provide feedback. You can also provide feedback by opening the link received from the feedback author through a personal email or Teams message.
-2. Select 1-5 for rating questions, up to 2 options for multiple choice questions, and enter in text for open-ended questions. Answer at least 1 question to submit your feedback.
+2. Select 1-5 for rating questions, up to two options for multiple choice questions, and enter in text for open-ended questions. Answer at least one question to submit your feedback.
 3. Submit feedback by selecting **Submit answers**.
-4. Feedback providers who do not respond to the feedback request and it is 3 days prior to the Pulse deadline will receive a Teams Activity Feed notification reminding them to provide feedback.
+4. Feedback providers who do not respond to the feedback request and it is three days prior to the Pulse deadline will receive a Teams Activity Feed notification reminding them to provide feedback.
