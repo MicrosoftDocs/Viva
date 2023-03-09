@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Feedback authors with Viva Pulse licenses can request pulses from their teams by using research-backed templates.
 
-1. From the Viva Pulse homepage, select one of the research-backed templates in the **Get started by asking for feedback on…** section to request feedback from your team. Alternatively , from the Viva Pulse homepage, you can select **Send a pulse** in the **Welcome** section or navigate to the **My pulses** section, under the **Pulses sent tab**, select **Start a new pulse** to request feedback from your team.
+1. From the Viva Pulse homepage, select one of the research-backed templates in the **Get started by asking for feedback on…** section to request feedback from your team. Alternatively, from the Viva Pulse homepage, you can select **Send a pulse** in the **Welcome** section or navigate to the **My pulses** section, under the **Pulses sent tab**, select **Start a new pulse** to request feedback from your team.
 2. Preview the questions in the template you selected and review the types of questions that are asked: rating, multiple choice, and open-ended.
 3. If customization is enabled for your organization, you can add your own questions to the end of any of the templates and update the template name to personalize the Pulse request to your team’s needs:
     1. Choose from rating, multiple choice, or open-ended questions.
