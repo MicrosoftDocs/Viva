@@ -34,7 +34,7 @@ This section discusses concepts that provide a framework for understanding how V
 
 European privacy law outlines fundamental roles and responsibilities for thinking about data protection. These concepts help illustrate the respective responsibilities of the customer, Microsoft, and employees when it comes to processing and managing sensitive data.
 
-The concepts of [data controller](#data-controller),[data processor](#data-processor), and [data subject](#data-subject) originate in European privacy law. Regardless of where your organization is located or whether any personal data of European Union citizens is involved, these concepts provide a useful framework for thinking about data protection when using Viva Insights.
+The concepts of [data controller](#data-controller), [data processor](#data-processor), and [data subject](#data-subject) originate in European privacy law. Regardless of where your organization is located or whether any personal data of European Union citizens is involved, these concepts provide a useful framework for thinking about data protection when using Viva Insights.
 
 The following illustration shows the central position of the data controller (your organization) between the data subject (left) and the data processor, Microsoft (on the right):
 
