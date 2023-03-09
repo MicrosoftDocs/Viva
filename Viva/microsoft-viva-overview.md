@@ -33,7 +33,7 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 
 ## Microsoft Viva apps
 
-Choose the experiences you want for your employees
+Choose the experiences you want for your employees.
 
 | Experience | App ||
 |:-------:|-------------|------|
