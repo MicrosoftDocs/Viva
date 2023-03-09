@@ -29,54 +29,140 @@ Tenants aren't provided with a choice for the specific deployment region for dat
 - The tenant must have a default geography in a EUDB country or select a country in EUDB country as their residence during free trial sign-up
 - The tenant must not purchase a Multi-Geo offering 
 
-Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locations) page to learn more.
+Visit our [Microsoft 365 Data Residency](/microsoft-365/enterprise/o365-data-locations) page to learn more.
 
 ## Languages in Viva Goals
+
+Currently, Viva Goals supports the following languages and locales. Note: locales are the combination of the location and the language. For a language to be available, the user can only select the following locales within Microsoft 365 Language Settings.  
 
 ### Currently supported languages
 
 :::row:::
    :::column:::
-      Chinese (Simplified)
+      Estonian – *et EE* 
    :::column-end:::
    :::column:::
-      Chinese (Traditional)
+      English (United States) – *en*
    :::column-end:::
    :::column:::
-      English
-   :::column-end:::
-:::row-end:::
-
-:::row:::
-   :::column:::
-      French
-   :::column-end:::
-   :::column:::
-      German
-   :::column-end:::
-   :::column:::
-      Italian
+      English (United Kingdom) – *en GB* 
    :::column-end:::
 :::row-end:::
 
 :::row:::
    :::column:::
-      Japanese
+      French (France) – *fr FR* 
    :::column-end:::
    :::column:::
-      Korean
+      French (Canada) – *fr CA* 
    :::column-end:::
    :::column:::
-      Portuguese (Brazil)
+      German – *de DE* 
    :::column-end:::
 :::row-end:::
 
 :::row:::
    :::column:::
-      Spanish (Spain)
+      Italian – *it IT* 
    :::column-end:::
    :::column:::
-      Estonia
+      Spanish (Spain) - *es ES*  
+   :::column-end:::
+   :::column:::
+      Spanish (Mexico) – *es MX* 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Chinese (Simplified) – *zh CN* 
+   :::column-end:::
+   :::column:::
+      Chinese (Traditional) – *zh TW*  
+   :::column-end:::
+   :::column:::
+      Japanese – *ja JP*  
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Korean – *ko KR* 
+   :::column-end:::
+   :::column:::
+      Thai – *th TH*   
+   :::column-end:::
+   :::column:::
+      Turkish – *tr TR*   
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Ukrainian – *uk UA* 
+   :::column-end:::
+   :::column:::
+      Croatian – *hr HR* 
+   :::column-end:::
+   :::column:::
+      Czech – *cs CZ*  
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Danish – *da DK* 
+   :::column-end:::
+   :::column:::
+      Dutch – *nl NL* 
+   :::column-end:::
+   :::column:::
+      Finnish – *fi FI* 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Greek – *el GR* 
+   :::column-end:::
+   :::column:::
+      Hungarian – *hu HU* 
+   :::column-end:::
+   :::column:::
+      Indonesian – *id ID* 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Norwegian (Bokmal) – *nb NO* 
+   :::column-end:::
+   :::column:::
+      Polish – *pl PL* 
+   :::column-end:::
+   :::column:::
+      Portuguese (Portugal) – *pt PT* 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Portuguese (Brazil) – *pt BR*  
+   :::column-end:::
+   :::column:::
+      Romanian – *ro RO* 
+   :::column-end:::
+   :::column:::
+      Russian – *ru RU* 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Swedish – *sv SE* 
+   :::column-end:::
+   :::column:::
+      <!--blank "cell" follows to even out the columns--> 
    :::column-end:::
 <!--blank "cell" follows to even out the columns-->   
    :::column:::
@@ -95,93 +181,33 @@ Please visit our [M365 Data Residency](/microsoft-365/enterprise/o365-data-locat
        Bulgarian
    :::column-end:::   
    :::column:::
-      Croatian
+      Hebrew
    :::column-end:::
   :::row-end:::
 
 :::row:::
  :::column:::
-      Czech
+      Latvian
    :::column-end:::
    :::column:::
-      Danish
+      Lithuanian
    :::column-end:::
       :::column:::
-     Hebrew
+     Serbian (Latin) 
    :::column-end:::
 :::row-end:::
 
 :::row:::  
    :::column:::
-      Hungarian
+      Slovak
    :::column-end:::
    :::column:::
-      Indonesian
+      Slovenian
    :::column-end:::
    :::column:::
-      Latvian
-   :::column-end:::
-:::row-end:::
-
-:::row:::
-   :::column:::
-      Lithuanian
-   :::column-end:::
-   :::column:::
-      Norwegian (Bokmal)
-   :::column-end:::
-   :::column:::
-      Polish
-   :::column-end:::
- :::row-end:::
-
-:::row:::
-  :::column:::
-      Portuguese (Portugal)
-   :::column-end:::
-   :::column:::
-      Romanian
-   :::column-end:::
-   :::column:::
-      Russian 
+      Vietnamese
    :::column-end:::
 :::row-end:::
-
-:::row:::
-   :::column:::
-     Serbian
-   :::column-end:::
-   :::column:::
-     Slovak 
-   :::column-end:::
-   :::column:::
-     Slovenian   
-   :::column-end:::
-:::row-end:::
-
-:::row:::
-   :::column:::
-     Swedish
-   :::column-end:::
-   :::column:::
-     Thai
-   :::column-end:::   
-   :::column:::
-     Turkish
-   :::column-end:::
-:::row-end:::
-
-:::row:::
-   :::column:::
-      Ukrainian
-   :::column-end:::
-   :::column:::
-     Vietnamese
-   :::column-end::: 
-   <!--blank "cell" follows to even out the columns -->   
-   :::column:::
       
-   :::column-end::: 
-:::row-end:::
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).

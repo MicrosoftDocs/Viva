@@ -43,7 +43,7 @@ items:
       href: viva-goals-analytics.md
     - name: Roles and Permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
-    - name: Viva Goals language support
+    - name: Viva Goals language and region support
       href: viva-goals-language-support.md
 - name: MS Teams
   items:
