@@ -22,7 +22,6 @@ manager: anirudhbajaj
 To make it easier to navigate and find new features in the Viva Insights app, we're making a few changes this March. After these changes roll out, you'll continue to access Microsoft Viva Insights in your Teams app and on the web at https://insights.viva.office.com/ (https://gcc.insights.viva.office.com/ for Government Community Cloud customers). However, things will look a bit different when you get there.
 
 
-
 ## What's changing?
 
 ### Tabs and navigation
@@ -33,7 +32,7 @@ After we roll out these changes, you'll notice four main tabs arranged verticall
 
 Even though we're changing our tab organization, the content should feel familiar. We’re bringing over content from **Stay connected**, **Effective meetings**, **Inspiration library**, **Protect time**, **Organization trends**, and **Teamwork habits**. You'll even notice some new features, and find them easier to get to and use.
 
-We give a quick tour of our new tabs below.
+We give a quick tour of our new tabs [below](#what-will-the-new-app-look-like).
 
 ### Consolidated content from MyAnalytics
 
@@ -91,7 +90,7 @@ From **Home**, you'll be able to:
 
 #### Wellbeing
 
-The **Wellbeing** tab is designed to help you understand your work habits, act with intention, and achieve a sustainable work-life balance. Features you used to find on the **Protect time** tab—focus time and focus plan, virtual commute, and quiet time progress—will appear in **Wellbeing**. Looking for the reflect or Headspace meditation features? Those will be here too, along with wellbeing-related articles from Harvard Business Review, Thrive, and Microsoft WorkLab.
+We designed the **Wellbeing** to help you understand your work habits, act with intention, and achieve a sustainable work-life balance. Features you used to find on the **Protect time** tab—focus time and focus plan, virtual commute, and quiet time progress—will appear in **Wellbeing**. Looking for the reflect or Headspace meditation features? Those will be here too, along with wellbeing-related articles from Harvard Business Review, Thrive, and Microsoft WorkLab.
 
 :::image type="content" source="../../Images/MyA/reference/redesign-wellbeing-small.png" alt-text="Screenshot of the Viva Insights Home tab." lightbox="../../Images/MyA/reference/redesign-wellbeing.png":::
 
