@@ -26,8 +26,6 @@ This document is specific to advanced insights and organization insights and pro
 * [Personal insights user privacy guide](/viva/insights/personal/overview/privacy-guide-users)
 * [Personal insights technical privacy guide](/viva/insights/personal/overview/privacy-guide-admins) 
 
-<!--If you are an organization insights user, you will find the organization insights user privacy guide helpful.-->
-
 ## Privacy fundamentals
 
 This section discusses concepts that provide a framework for understanding how Viva Insights approaches data protection.
