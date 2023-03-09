@@ -37,14 +37,11 @@ Choose the experience for your employees
 
 | Experience | App ||
 |:-------:|-------------|------|
-|<h3>[Connection](#connection) |:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> **Viva Connections**  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> **Viva Engage**| 
-|<h3>[Insight](#insight)|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> **Viva Insights**|| 
-|<h3>[Growth](#growth)|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> **Viva Topics** |:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>**Viva Learning**| 
-|<h3>[Purpose](#purpose)|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals**|| 
-|<h3>[Role-based](#role-based)|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> **Viva Sales**|| 
-
-
-### Connection
+|<h3>Connection|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> **Viva Connections**  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> **Viva Engage**| 
+|<h3>Insight|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> **Viva Insights**|| 
+|<h3>Growth|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> **Viva Topics** |:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>**Viva Learning**| 
+|<h3>Purpose|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals**|| 
+|<h3>Role-based|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> **Viva Sales**|| 
 
 :::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br>
 
@@ -58,15 +55,11 @@ Choose the experience for your employees
 
 [Get more information on Viva Engage](/viva/engage/overview)
 
-### Insight
-
 :::image type="icon" source="media/logos/insights-launch-c-64.svg":::
 
 **Viva Insights** helps improve productivity and wellbeing through data-driven, privacy-protected insights and recommendations. It combines communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps employees use every day, such as Microsoft Teams.
 
 [Get more information on Viva Insights](/viva/insights/index)
-
-### Growth
 
 :::image type="icon" source="media/logos/topics-launch-c-64.svg" alt-text="Logo of Viva Topics":::
 
@@ -80,15 +73,11 @@ Choose the experience for your employees
  
 [Get more information on Viva Learning](/viva/learning/overview-viva-learning)
 
-### Purpose
-
 :::image type="icon" source="media/logos/goals-launch-c-64.svg":::
 
 **Viva Goals** is a goal-setting and management solution that aligns teams to your organization’s strategic priorities, driving results and a thriving business. With Viva Goals, you can connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
 
 [Get more information about Viva Goals](/viva/goals/intro-to-ms-viva-goals)
-
-### Role-based
 
 :::image type="icon" source="media/logos/viva-sales-logo-1.png":::
 
