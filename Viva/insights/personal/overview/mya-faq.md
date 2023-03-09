@@ -18,7 +18,7 @@ ms.subservice: viva-insights
 # Personal insights FAQ
 
 
-This article answers frequently asked questions about Microsoft Viva Insights' personal insights options—like the [Viva Insights app](../teams/viva-teams-app.md), [Digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
+This article answers frequently asked questions about Microsoft Viva Insights' personal insights options—like the [Viva Insights app](../teams/introduction.md), [Digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
 
 Questions and answers are organized into three sections:
 
@@ -96,14 +96,14 @@ If you block out your calendar for personal work by using an appointment (see [C
 Focus time counts as kept when you don't delete it and you don't have a meeting conflict. You can book focus time automatically by enrolling in a focus plan, or schedule non-recurring, single sessions through the Briefing email or the Viva Insights app. 
 
   >[!Important]
-  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 ##### Q2. Why does my focus time seem incorrect or inaccurate?
 
 Try the following to troubleshoot your focus-time totals:
 
 1. Verify that your work time and time zone settings are correct. (See  [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).)
-2. For more details about focus time, see [Focus](../teams/viva-insights-protect-time.md#book-focus-time-or-a-plan).  
+2. For more details about focus time, see [Focus](../teams/focus.md).  
 
 ### Calendar
 

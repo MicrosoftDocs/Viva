@@ -24,11 +24,10 @@ The [Microsoft Viva Insights](https://insights.office.com/VivaInsights/) app is 
 
 Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing.
 
-* [**Teamwork habits**](../org-team-insights/teamwork-habits.md) - Provides much-needed visibility into work patterns that might lead to burnout and stress, such as regular after-hours work, meeting overload, or too little focus time. You can use these insights to help your teams strike a balance between productivity and wellbeing.
-* [**Organization trends**](../org-team-insights/org-trends.md) - Help business leaders to address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business. These help leaders take steps to protect employee wellbeing and see opportunities where a change in process could improve business outcomes.
+* [**Team insights**](../org-team-insights/team-insights.md) - Provides much-needed visibility into work patterns that might lead to burnout and stress, such as regular after-hours work, meeting overload, or too little focus time. You can use these insights to help your teams strike a balance between productivity and wellbeing.
+* [**Organization insights**](../org-team-insights/org-insights.md) - Help business leaders to address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business. These help leaders take steps to protect employee wellbeing and see opportunities where a change in process could improve business outcomes.
 
 ## Related topics
 
-* [Setup for teamwork habits and organization trends](../org-team-insights/setup.md)
-* [Personal insights](../personal/introduction.md)
+[Personal insights](../personal/introduction.md)
 
