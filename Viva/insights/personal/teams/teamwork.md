@@ -21,7 +21,7 @@ If you manage direct reports or are an organization leader, check out this artic
 
 ## Build better relationships
 
-:::image type="complex" source="../images/teamwork-ic2.png" alt-text="Screenshot that shows Build better relationships section on the Teamwork tab.":::
+:::image type="complex" source="images/teamwork-ic2.png" alt-text="Screenshot that shows Build better relationships section on the Teamwork tab.":::
    Screenshot of the "Build better relationships" section of the Teamwork tab. The subtitle says, "Grow your network and foster healthy work relationships with your collaborators." Below the subtitle, there are three cards. The first card is named, "Time spent collaborating with others," and the subtitle says, "Who did you actively connect with in the last month and when?". The card then shows a numerical insight, "10", with profile images of collaborators, labeled, "Number of collaborators." To the right, there are two numerical insights: "27 h," labeled "Collaboration time within working hours," and "12 h," labeled, "Collaboration time outside working hours." The button in the bottom left of the card is labeled, "View my network." The next card reads, "Your communication habits," labeled, "How much of your time was spent collaboration with peers?". The card shows a donut graph of collaboration time and time available to focus, and show statistics about how much collaboration time went to each surface: email, chat, and meetings. The button in the bottom left of the card reads, "Show details."The third card is "Suggested important contact," which shows a collaborator's name and their profile image, and provides a numerical insight about "Time collaborating in the past 4 weeks." Users can select the "Pin" button and/or move to "Next person."
 :::image-end:::
 
@@ -41,4 +41,4 @@ When you select **View my network** on the **Time spent collaborating with other
 
 If you’re an organization leader—that is, your Insights admin has assigned you the **Insights Business Leader** role or enabled you as a group manager—you’ll see a **Teamwork insights for your organization** section at the top of your **Teamwork** tab. Each day, you’ll receive an insight about internal network size across your organization or company. To learn more about organization insights, refer to [Organization insights in the Viva Insights app](../../../org-team-insights/new/org-insights.md).
 
-:::image type="content" source="../images/teamwork-org-insights2-small.png" alt-text="Screenshot that shows Teamwork insights for your organization section on the Teamwork tab."lightbox="../images/teamwork-org-insights2.png"::: 
+:::image type="content" source="images/teamwork-org-insights2-small.png" alt-text="Screenshot that shows Teamwork insights for your organization section on the Teamwork tab."lightbox="images/teamwork-org-insights2.png"::: 
