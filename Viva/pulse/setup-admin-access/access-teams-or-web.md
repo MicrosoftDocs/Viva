@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Viva Pulse can be accessed by users in your organization as a Microsoft Teams app or as a web app by using any of the recommended web browsers.
 
-### Access Viva Pulse via Microsoft Teams
+## Access Viva Pulse via Microsoft Teams
 
 Users who have Microsoft Teams licenses assigned to them can access Viva Pulse via Microsoft Teams.
 
@@ -32,11 +32,11 @@ Users who have Microsoft Teams licenses assigned to them can access Viva Pulse v
 3. Select the **Viva Pulse (Preview)** app, and then select **Add**. This will add the app to all your Teams clients, including mobile.
 4. Right click the **Viva Pulse icon** and select **Pin** to pin the Viva Pulse app to your Teams menu.
 
-### Access Viva Pulse via Web
+## Access Viva Pulse via Web
 
 Users can also access Viva Pulse via the web browser by navigating to [https://Pulse.Viva.Cloud.Microsoft/](https://Pulse.Viva.Cloud.Microsoft/).
 
-### Recommended Web browsers for accessing Viva Pulse
+## Recommended Web browsers for accessing Viva Pulse
 
 The following browsers are recommended for accessing Viva Pulse via the Web.
 

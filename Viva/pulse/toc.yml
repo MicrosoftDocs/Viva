@@ -1,8 +1,8 @@
 items:
+- name: Introduction to Microsoft Viva Pulse
+  href: introduction-to-viva-pulse.md
 - name: Get started with Viva Pulse
   items:
-    - name: Introduction to Microsoft Viva Pulse
-      href: get-started/intro-to-viva-pulse.md
     - name: Roles in Microsoft Viva Pulse
       href: get-started/roles-in-viva-pulse.md
     - name: Privacy and data protection
