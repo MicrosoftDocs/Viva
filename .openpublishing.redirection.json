@@ -2,7 +2,7 @@
     "redirections": [
       {
         "source_path": "viva/pulse/get-started/intro-to-viva-pulse.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
         "redirect_document_id": true
       },
       {
