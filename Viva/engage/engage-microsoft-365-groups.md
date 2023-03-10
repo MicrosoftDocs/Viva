@@ -33,10 +33,10 @@ You can tell that a community in Viva Engage is connected to Microsoft 365 Group
 Communities that are connected to Microsoft 365 have many advantages over communities that aren't connected:
 
 - From within Viva Engage, you can access Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, and a plan in Planner. Microsoft 365 Groups also includes integration with services like Power BI and Stream.
-- Create and host live events ([Live events in Yammer](/yammer/manage-yammer-groups/yammer-live-events))
-- Use Microsoft 365 connectors to add apps to classic Yammer ([Add apps to Yammer](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
-- Manage who can create Microsoft 365 Groups ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
-- Use dynamic groups to automatically update group membership from Azure Active Directory ([Create a dynamic group](/yammer/manage-yammer-groups/create-a-dynamic-group))
+- Create and host live events. ([Live events in Yammer](/yammer/manage-yammer-groups/yammer-live-events))
+- Use Microsoft 365 connectors to add apps to classic Yammer. ([Add apps to Yammer](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
+- Manage who can create Microsoft 365 Groups. ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
+- Use dynamic groups to automatically update group membership from Azure Active Directory. ([Create a dynamic group](/yammer/manage-yammer-groups/create-a-dynamic-group))
 - Edit group membership from various apps. Changes to membership made in one Microsoft 365 app apply to other Microsoft 365 apps.
 - Use data classification to create your own classifications of Microsoft 365 Groups, such as *unclassified*, *corporate confidential*, or *top secret*. ([Configuring group settings](/azure/active-directory/users-groups-roles/groups-settings-cmdlets))
 - See the group in the Global Address List in Outlook.
@@ -61,7 +61,7 @@ Here's how the process works after your network becomes eligible for connected g
 - About 24 hours after the **Status** in **Microsoft 365 Identity Enforcement** changes to **Committed**:
     - In the **Microsoft 365 (previously known as Office 365) Connected Viva Engage Groups** section, the **Status** for your network will change to **Enabled**.
 
-    - Any new communities created in Viva Engage that's eligible are automatically connected to Microsoft 365 Groups.  
+    - Any new communities created in Viva Engage that are eligible are automatically connected to Microsoft 365 Groups.  
 
 - After about one week, existing eligible communities are converted to communities connected to Microsoft 365 Groups.
 
@@ -106,7 +106,7 @@ Email notifications for Viva Engage messages may be sent to users depending on t
 
 ### Q: I'm an admin. How do I know if my Viva Engage network is configured correctly and eligible for Viva Engage communities connected to Microsoft 365 Groups?
   
-A: In the Viva Engage admin center, go to **Network Admin** > **Security Settings**. In the **Microsoft 365 (previously known as Office 365) Connected Viva Engage Groups** section, the status for your network will show as **Enabled**.
+A: In the Viva Engage admin center, go to **Network Admin** > **Security Settings**. In the **Microsoft 365 (previously known as Office 365) Connected Viva Engage Groups** section, the status for your network will show as ***Enabled***.
   
 ### Q: Can I disable Viva Engage connected to Microsoft 365 Groups?
   
@@ -186,18 +186,18 @@ A: Yes. Any Microsoft 365-connected Viva Engage community can be converted to dy
   
 A: No, these things are separate locations to store files. Members of the group have access to both locations. Files that are attached to Yammer messages or uploaded in a Yammer **Files** page are stored in Yammer cloud storage. Files that are uploaded directly to the group's SharePoint document library are stored in SharePoint.
 
-We recommend that you store content that needs the structure and management capabilities of SharePoint in the group document library. For easy, quick sharing of images and documents or to stream videos in Yammer, we recommend that you continue to use the default Yammer cloud storage.
+We recommend that you store content that needs the structure and management capabilities of SharePoint in the group document library. For easy sharing of images and documents or to stream videos in Yammer, we recommend that you continue to use the default Yammer cloud storage.
 
 >[!NOTE]
 > As of December 2018, we are in process of rolling out Yammer files stored in SharePoint. When your network gets this new feature, new files uploaded to Yammer are stored in the group's SharePoint document library in the Apps/Yammer folder. Any files that were uploaded before your network gets this new feature remain in Yammer cloud storage. To find out where Yammer files are stored for your network, see [How do I tell where my Yammer files are stored?](https://support.office.com/article/7a647cb4-6005-4350-a258-68f00a5f7b29)
   
 ### Q: Do my Viva Engage communities connected to Microsoft 365 Groups follow my Microsoft 365 Groups naming policy?
   
-A: Yes. Any new community created in Viva Engage gets the added prefix and suffix from the group naming policy, and blocked words aren't allowed in the group name. For more information, see [Microsoft 365 Groups naming policy](https://support.office.com/article/6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+A: Yes. Any new community created in Viva Engage gets the added prefix and suffix from the group naming policy. Blocked words aren't allowed in the group name. For more information, see [Microsoft 365 Groups naming policy](https://support.office.com/article/6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 Note that Viva Engage community names can't contain the following characters: @, #, [, ], <, or >. If the naming policy includes any of these characters, regular Viva Engage users won't be able to create communities in Viva Engage. Microsoft 365 admins can still create communities in Viva Engage.
 
-### Q: Can I use my Viva Engage communities connected to Microsoft 365 Groups with Group-Based Licensing in Azure AD?
+### Q: Can I use my Viva Engage communities connected to Microsoft 365 Groups with group-based licensing in Azure AD?
 
 A: By default, Viva Engage communities connected to Microsoft 365 Groups aren't compatible with Azure AD Group Based Licensing because the groups aren't security enabled.
 

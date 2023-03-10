@@ -32,7 +32,7 @@ Your Viva Engage tenant should be aligned to native mode before you invite guest
 
 If your organization is ready to start inviting guests to Viva Engage communities, configure the following settings.
 
-To enable guest access on their networks, Engage admins select **Manage data**. You'll be redirected to the Yammer admin webpage, where you enable guest access by going to **Security settings** and selecting **External Messaging**.
+To enable guest access on their networks, Engage admins select **Manage data**. You'll be redirected to the Yammer admin webpage. Go to **Security settings** and select **External Messaging**.
 
 > [!div class="mx-imgBorder"]
 > :::image type="content" source="../media/azure-ad-b2b-guests-engage-external-messaging.png" alt-text="Screen shot shows the Yammer admin panel external user settings.":::
@@ -52,11 +52,11 @@ To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Colla
 
 2. The guest receives a welcome email message. This message includes information about the Viva Engage community to which the user is being invited and the name of the community admin who invited the guest. To accept the invitation and access the Viva Engage community, the guest must select **Go To Community** in the email.
 
-4. The network switcher located in the suite header can be used to switch between the home Viva Engage network, any external Viva Engage communities the user is a guest in, and external networks.
+4. Use the network switcher in the suite header to switch between the home Viva Engage network, any external Viva Engage communities where the user is a guest, and external networks.
 
     :::image type="content" source="../media/azure-ad-b2b-guests-engage-network-switch.png" alt-text="Screenshot of globe icon for switching networks.":::
 
-5. Everyone in the Viva Engage community can identify easily who is a guest. An "external" badge appears next to the guest in Viva Engage community posts, comments, the community membership page, and search results. A Viva Engage community with guests also has a globe icon next to it.
+5. Everyone in the Viva Engage community can easily identify who is a guest. An "external" badge appears next to the guest in Viva Engage community posts, comments, the community membership page, and search results. A Viva Engage community with guests also has a globe icon next to it.
 
     :::image type="content" source="../media/engage-aad-b2b-externaluser-post.png" alt-text="Screenshot showing a post from an external user.":::
 
@@ -79,7 +79,9 @@ Following is a list of limitations that apply to Azure AD-B2B guests in Viva Eng
 
 - Guests can't create new communities.
 
-- Guests can't be a community admin and can't change community settings. Settings that guests can't change include:
+- Guests can't be a community admin and can't change community settings.
+
+   Settings that guests can't change include:
   - Add new members to the community and removing membership
   - Promote and demote the owners
   - Edit community info
@@ -124,7 +126,7 @@ A: Yes. Admins can create dynamic membership rules for guests in a Viva Engage c
 
 **Q: I don’t want to allow guests in the Viva Engage communities of our network. How do I disable guests from participating in our communities?**
 
-A: Viva Engage relies on and builds on the [external collaboration settings](/azure/active-directory/external-identities/delegate-invitations) of Azure AD. We recommend that you use Azure AD controls to configure external collaboration settings.
+A: Viva Engage relies on and is based on the [external collaboration settings](/azure/active-directory/external-identities/delegate-invitations) of Azure AD. We recommend that you use Azure AD controls to configure external collaboration settings.
 
 To prevent guests from being added to Viva Engage communities but allow them to access the rest of Microsoft 365 apps, access the external messaging security settings described earlier in this article to deny community admins from adding guests.
 

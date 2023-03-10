@@ -22,9 +22,9 @@ search.appverid:
 
 # Viva Engage admin key concepts
 
-Welcome to your Viva Engage experience! Using Viva Engage is going to change the way your company gets work done (if it hasn't already). As an admin, you have a huge role to play in helping your coworkers become comfortable with Viva Engage.
+Welcome to your Viva Engage experience! Using Viva Engage is going to change the way your company gets work done, if it hasn't already. As an admin, you have a huge role to play in helping your coworkers get comfortable with Viva Engage.
   
-Your best resource and the page you should add to your Favorites is [Viva Engage admin center overview](./eac-overview.md). Here, find links for everything you need to set up and configure Viva Engage.
+Your best resource and the page you should add to your Favorites is [Viva Engage admin center overview](./eac-overview.md). THis page has links for everything you need to set up and configure Viva Engage.
   
 This article describes the key concepts you should know and key decisions you should make before you open Viva Engage for business.
   
@@ -48,7 +48,7 @@ This article describes the key concepts you should know and key decisions you sh
 
    - Review the [security and compliance features](/yammer/manage-security-and-compliance/security-and-compliance) and define your data retention and export plans.
 
-   - Make sure your domains are set up correctly in Microsoft 365. By default, your Viva Engage internal network can be accessed only by employees whose email addresses match the domains verified in Microsoft 365.
+   - Make sure your domains are set up correctly in Microsoft 365. By default, your Viva Engage internal network is only available to employees whose email addresses match the domains verified in Microsoft 365.
 
    If all your domains are verified, you're all set. For more information, see [Manage Yammer domains across their lifecycle](/yammer/configure-your-yammer-network/manage-yammer-domains).
 
@@ -62,11 +62,11 @@ This article describes the key concepts you should know and key decisions you sh
 
 4. Explore the options for groups, and set up the groups you need:
 
-   - To set up public or private groups, see [Create a group in Viva Engage](https://support.office.com/article/b407af4f-9a58-4b12-b43e-afbb1b07c889). Although anyone on Viva Engage can create groups, it's often helpful for the admin to set up groups for each department by using a consistent group naming strategy, such as Sales Team, Marketing Team, and so on.
+   - To set up public or private groups, see [Create a group in Viva Engage](https://support.office.com/article/b407af4f-9a58-4b12-b43e-afbb1b07c889). Although anyone on Viva Engage can create groups, it's often helpful for the admin to set up groups for each department by using a consistent group naming strategy, such as *Sales Team*, *Marketing Team*, and so on.
 
-   - If you want to use groups that can use Microsoft 365 services, such as SharePoint Online, OneNote, and Planner, called [Microsoft 365 connected groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups), you need to ensure that users have a Viva Engage license assigned to them.
+   - If you want to use groups that can use Microsoft 365 services, such as SharePoint Online, OneNote, and Planner, you need to ensure that users have a Viva Engage license assigned to them. Such groups are called [Microsoft 365 connected groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups).
 
-   - Set up groups that include external users, called [external groups](/yammer/work-with-external-users/create-and-manage-external-groups).
+   - Set up groups that include external users. These are called [external groups](/yammer/work-with-external-users/create-and-manage-external-groups).
 
    - Decide if you want to use [dynamic groups](/yammer/manage-yammer-groups/create-a-dynamic-group) to keep membership current as people change roles in your company.
 
@@ -76,7 +76,7 @@ This article describes the key concepts you should know and key decisions you sh
 
 7. Define how your organization will train and support Viva Engage users. End-user support options include online help and training and the online community. See [Viva Engage help center](https://support.office.com/article/8663922d-8f76-47c2-827a-ee86e8cac00f.aspx). Consider creating a Viva Engage 101 group–your own local self-support community.
 
-    For admin support options, if you need more help than [Viva Engage admin help](../TOC.yml) provides, you can [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+    If you need more help than [Viva Engage admin help](../TOC.yml) provides, [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
     To check the real-time status of the Viva Engage service, see [Microsoft 365 Service health dashboard](https://admin.microsoft.com/AdminPortal/Home#/servicehealth).
 
