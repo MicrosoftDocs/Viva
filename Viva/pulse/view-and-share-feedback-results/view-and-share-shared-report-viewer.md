@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Shared report viewers can view the team’s feedback results if the feedback author shared the results with them.
 
-### View feedback results as shared report viewer in Viva Pulse
+## View feedback results as shared report viewer in Viva Pulse
 
 1. From the Teams Activity Feed notification that the feedback report has been shared by the feedback author, you can select **Review results** to review the feedback report. Alternatively, from the Viva Pulse homepage **My pulses** section, under the **Shared with me** tab, review the feedback report by selecting the corresponding feedback request card. You can also open a report using a link received from the feedback author through an email or Teams message.
 2. The report summary page will have the following sections/actions:
