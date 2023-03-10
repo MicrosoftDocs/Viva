@@ -22,35 +22,35 @@ search.appverid:
 
 # Report a Viva Engage conversation
 
-Viva Engage tenants have access to a feature that enables users in the network to report conversations, comments, and replies in Viva Engage.
+Viva Engage tenants have access to a feature that enables users in the network to report conversations, comments, and replies in Viva Engage that doesn't follow guidelines or policies.
 
-Engage admins can enable users to report a conversation on their network from the Engage admin center. Within the Engage admin center, navigate to the "Setup & Configuration" tab and select "Configure Tenant". You'll be redirected to the Yammer admin webpage, where you can access "Report a conversation" under "Content & Security" on the left panel.
+Engage admins can enable users to report a conversation on their network from the Engage admin center. Within the Engage admin center, navigate to the **Setup & Configuration** tab and select **Configure Tenant**. You're redirected to the Yammer admin webpage, where you can access **Report a conversation** under **Content & Security** in the left panel.
 
 :::image type="content" source="../media/yammer-conversations-admin-report-conversations.png" alt-text="Screenshot showing Jammer reporting settings.":::
 
 ## Setting up the report a conversation feature
 
-:::image type="content" source="../media/yammer-conversations-full-admin-panel.png" alt-text="Screenshot showing yammer reporting admin panel.":::
+:::image type="content" source="../media/yammer-conversations-full-admin-panel.png" alt-text="Screenshot showing Hammer reporting admin panel.":::
 
 After you enable conversations, enter information for the following two settings:
 
-- **Report recipient (an organization email address)** - The email address that reports will be sent to.
-- **Pre-submission details or instructions for user** – The text you enter here is shown to users when they select **Report a Conversation** but before they submit a report.
+- **Report recipient (an organization email address)** - The email address that where reports will be sent.
+- **Pre-submission details or instructions for user** – This text is shown to users when they select **Report a Conversation**.
 
-There’s also an optional **Post-submission instructions to user** setting. These instructions are shown to users after they finish submitting a report on a conversation or comment.
+There’s also an optional **Post-submission instructions to user** setting. These instructions are shown to users after they submit a report on a conversation or comment.
 
 ## Report recipient
 
-You need to provide an organization email address where the report will be sent.
+You need to provide an organization email address where the reports will be sent.
 
 > [!NOTE]
-> Viva Engage doesn't verify that the email address entered here is an organization email address. Make sure you enter a valid organization email address.
+> Viva Engage doesn't verify that the email address you enter is an organization email address. Make sure you enter a valid organization email address.
 
 ## Pre-submission details or instructions for user
 
 The text entered in this field is shown to end users when they start to submit a report so they understand the process. You can enter a maximum of 1,500 characters.
 
-Some things you may want to include are:
+Some things you may want to include:
 
 - Details you want users to submit when reporting conversations or replies
 - Who in your organization the report goes to
@@ -63,10 +63,10 @@ The text you enter is displayed under the **Report Conversation** or **Report Co
 
 ## Post-submission instructions to user
 
-Use this field to explain to your employees what will happen after they submit a report. This text is optional. It's shown to your end users underneath a default *You’ve successfully reported a conversation* message. You can enter a maximum of 1500 characters. Some things you may consider including are:
+Use this field to explain to your employees what will happen after they submit a report. This text is optional. Your users will see it under a *You’ve successfully reported a conversation* message. You can enter a maximum of 1,500 characters. Some things you may consider want to include:
 
 - When the user can expect a response
-- Next steps to be taken next by the organization
+- Next steps for the organization 
 
 ## End user experience for reporting conversations
 
@@ -84,7 +84,7 @@ Users will then see a right-panel pop-out with the custom message from the Engag
 
 :::image type="content" source="../media/yammer-conversations-report-comment.png" alt-text="Screenshot showing reason for reporting box.":::
 
-The conversation or comment reported, along with who is reporting and the reason for reporting, is sent to the email address specified in the **Report Conversations** settings.
+The conversation or comment reported, along with who is reporting and the reason for reporting, is sent to the email address that's specified in the **Report Conversations** settings.
 
 Upon successful submission, the user sees the optional custom message configured by the admin. They also receive a confirmation message with a link to the conversation, comment, or reply reported and the comment included in the report.
 
@@ -103,7 +103,7 @@ When a report is submitted, email is sent to the organization email set for Repo
 - Any comments entered by the reporting user.
 
 > [!NOTE]
-> Viva Engage doesn't currently support deep links to comments. In the report emails for both conversation starters and comments, the link reported is always the conversation starter link. Reports don't contain deep links to a reported comment. The report reviewer can use the conversation starter link together with the reported comment timestamp to find the actual reported comment in the conversation.
+> Viva Engage doesn't currently support deep links to comments. In the report emails for both conversation starters and comments, the link that's reported is always the conversation starter link. Reports don't contain deep links to a reported comment. The report reviewer can use the conversation starter link together with the reported comment timestamp to find the actual reported comment in the conversation.
 
 A copy of this email is also sent to the Viva Engage user who submitted the report.
 
@@ -111,11 +111,11 @@ A copy of this email is also sent to the Viva Engage user who submitted the repo
 
 **Q:** I’m an admin. How do I know if my Viva Engage network is eligible for reporting conversations and comments?
 
-**A:** All tenants that have configured Viva Engage for their organization, either seeded or premium, are eligible for the reporting conversations experience.
+**A:** All tenants that have Viva Engage configured for their organization, either seeded or premium, are eligible for the reporting conversations experience.
 
-**Q:** Can I add multiple emails for the reports to be sent to?
+**Q:** Can I add multiple email addresses for the reports to go to?
 
-**A:** Currently only one email can be used. We suggest you create and use a group email or distribution list alias if you want the reports to go to multiple people.
+**A:** Currently only one email can be used. We suggest you use a group email or distribution list alias if you want the reports to go to multiple people.
 
 **Q:** If my Viva Engage network is eligible for this functionality, is it already on?
 
@@ -123,15 +123,15 @@ A copy of this email is also sent to the Viva Engage user who submitted the repo
 
 **Q:** Can users report conversations from external networks?
 
-**A:** No. The report conversations end user experience and actions are only available in the Viva Engage home network. Conversations in external networks can't be reported.
+**A:** No. The report conversations functionality available in the Viva Engage home network. Conversations in external networks can't be reported.
 
 **Q:** Can users report private messages or messages in the Viva Engage Inbox?
 
-**A:** No, The report conversations end user experience and actions are only available on conversations within communities and the discovery feed.
+**A:** No, The report conversations functionality is only available on conversations within communities and the discovery feed.
 
 **Q:** Can users report messages from private and secret communities?
 
-**A:** Yes, conversations can be reported from all communities within Viva Engage – public, private, and secret. The email report that's sent includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports doesn't have access to the private or secret community, they can either work with the Engage admin to get access to that community to review the message or with the community administrator to get access to the reported message.
+**A:** Yes, conversations can be reported from all communities in Viva Engage—public, private, and secret. The email report that's sent includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports doesn't have access to the private or secret community, they can either work with the Engage admin to get access to that community to review the message or with the community administrator to get access to the reported message.
 
 **Q:** Can users report messages from Viva Engage integrations with Teams, Outlook, and SharePoint?
 

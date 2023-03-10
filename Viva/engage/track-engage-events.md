@@ -22,7 +22,7 @@ search.appverid:
 
 # Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API
 
-To monitor security and compliance-related Viva Engage events for your organization, turn on audit logging and view changes to users, groups, files, admins and network settings. The audit logs are available in the Microsoft 365 Security &amp; compliance portal or by using the Microsoft 365 Management Activity API.
+To monitor security and compliance-related Viva Engage events for your organization, turn on audit logging. You can view changes to users, groups, files, admins, and network settings. The audit logs are available in the Microsoft 365 Security &amp; compliance portal or by using the Microsoft 365 Management Activity API.
   
 You must have the Microsoft 365 global admin role or the Audit Logs role in Exchange online to audit events. You can view Viva Engage events from your home network but not from external networks. You can track the following event categories:
   
@@ -34,11 +34,11 @@ You must have the Microsoft 365 global admin role or the Audit Logs role in Exch
 
 - **Admins**—includes export data, trigger private content mode, and force all users to sign out.
 
-- **Network settings**—including changing network usage policy and changing data retention policy.
+- **Network settings**—includes changes to network usage policy and data retention policy.
 
 ## View the audit sign-in the Microsoft 365 Security &amp; compliance portal
 
-Before you can view the audit log, you need to [turn Microsoft 365 audit log search on or off](https://support.office.com/article/e893b19a-660c-41f2-9074-d3631c95a014). You only have to do this step once. It takes a few hours after you turn it on before you can search the logs.
+Before you can view the audit log, you need to turn on [Microsoft 365 audit log search](https://support.office.com/article/e893b19a-660c-41f2-9074-d3631c95a014). You only have to do this step once. It takes a few hours after you turn it on before you can search the logs.
   
 To view the audit log:
   

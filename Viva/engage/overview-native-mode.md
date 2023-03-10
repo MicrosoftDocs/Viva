@@ -24,7 +24,7 @@ search.appverid:
 
 As of January 2020, all new Viva Engage tenants start in Native Mode.
 
-Existing Viva Engage tenants are eligible to migrate to Native Mode. The deprecation of hybrid and non-native networks was announced in 2022. 
+Existing Viva Engage tenants are eligible to migrate to Native Mode. The deprecation of hybrid and non-native networks was announced in 2022.
 
 In Native Mode, all Viva Engage users are in Azure Active Directory (Azure AD), all groups are Microsoft 365 groups, and all files are stored in SharePoint Online.
 
@@ -66,14 +66,14 @@ When you align your network in Native Mode, the [Native Mode Alignment Tool](./n
 - Files can't be uploaded to Viva Engage private messages.
 - Engage admins (Yammer administrators) are required to have  Global admin privileges or Group admin privileges from Microsoft 365 to administer changes to groups in which they aren't a group owner.
 
-### Non-Native (not connected)
+### Non-Native Mode (not connected)
 
 - All Viva Engage users can create communities.
 - Files aren't stored in SharePoint.
 - Files can be attached to Viva Engage private messages.
 - Engage admins (Yammer administrators) aren't required to have any more admin privileges from Microsoft 365 to administer changes to groups.
 
-### Hybrid
+### Hybrid Mode
 
 - This step on the way to Native Mode lets you learn how Native Mode will work.
 - All Viva Engage users can create communities.
@@ -86,4 +86,3 @@ When you align your network in Native Mode, the [Native Mode Alignment Tool](./n
 [Troubleshoot problems with Native Mode for Microsoft 365](./troubleshoot-native-mode.md)
 
 [Microsoft Purview compliance portal](https://go.microsoft.com/fwlink/?linkid=2132455)
-
