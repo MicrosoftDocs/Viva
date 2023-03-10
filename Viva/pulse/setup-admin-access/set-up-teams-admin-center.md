@@ -21,11 +21,11 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > This article applies to a preview version of Microsoft Viva Pulse. You must be in the Private Preview program to access it. Features are subject to change.
 
-### Prerequisites
+## Prerequisites
 
 You will need to have Microsoft Teams deployed for your organization to use Viva Pulse in Microsoft Teams. Viva Pulse will also be available as a Web experience for which users will not need a Microsoft Teams license.
 
-### Admin roles and permissions
+## Admin roles and permissions
 
 To set up Viva Pulse, you’ll need the following permissions:
 
@@ -40,7 +40,7 @@ The Viva Pulse Admin is an Azure Active Directory (Azure AD) role that can be as
 
 The Microsoft Teams Admin can pin and install the Viva Pulse Admin in Teams for a customer tenant.
 
-### Set up Viva Pulse in Microsoft Teams
+## Set up Viva Pulse in Microsoft Teams
 
 The following settings are optional and are not required to be completed before users in the organization can start using Viva Pulse.
 
@@ -48,6 +48,6 @@ Viva Pulse is enabled by default for all Microsoft Teams users in your organizat
 
 To allow or block specific users in your organization from using Viva Pulse, make sure Viva Pulse is turned on for your organization on the Manage apps page in the Microsoft Teams admin center and create a custom app permission policy and assign it to those users. For more information, see [Manage app permission policies in Teams](/microsoftteams/teams-app-permission-policies).
 
-### Deploy Viva Pulse to your users
+## Deploy Viva Pulse to your users
 
 Viva Pulse is available to users from the Microsoft Teams app store. For more information, see [Learn how to add apps to Teams](https://support.microsoft.com/en-us/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).

@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Feedback authors can view the feedback results from their team if they obtained the minimum number of responses needed to meet the confidentiality threshold.
 
-### View feedback results as feedback author in Viva Pulse
+## View feedback results as feedback author in Viva Pulse
 
 1. From the Teams Activity Feed notification that the feedback request is closed, review the feedback report if you meet the minimum confidentiality threshold. If you did not meet the minimum confidentiality threshold, you will see your feedback report received insufficient responses. Alternatively, from the Viva Pulse homepage **My pulses** section, under the **Pulses sent** tab, you can review the feedback report by selecting the corresponding feedback request card.
 2. The report summary page will have the following sections/actions:
@@ -49,7 +49,7 @@ Feedback authors can view the feedback results from their team if they obtained 
     6. View any recommended learning content for the selected question. The learning course will open in Viva Learning when selected.
     <br><br> **Note:** Recommended Viva Learning links will only show for reports generated after March 21, 2023.
 
-### Share feedback results as a feedback author in Viva Pulse
+## Share feedback results as a feedback author in Viva Pulse
 
 1. From the feedback report, select **Share results** to share the feedback results with your team if you meet the minimum confidentiality threshold. Alternatively, from the Viva Pulse homepage **My pulses** section, under the **Pulses sent** tab, select the share button on the corresponding feedback request card to share the feedback results.
 2. Select shared report viewers from individuals and groups.
