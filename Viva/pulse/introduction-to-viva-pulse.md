@@ -41,7 +41,7 @@ The resources in this section will help the administrator in your organization s
 
 | If you're looking for this information | Go to this resource |
 | ----------- | ----------- |
-| Learn how to set up Viva Pulse in the Teams admin center | [Set up Viva Pulse in the Teams admin center](./setup-admin-access/set-up-teams-admin-center.md) |
-| Learn how to set up Viva Pulse for your organization | [Set up Viva Pulse for your organization](./setup-admin-access/set-up-org.md) |
-| Learn how to set up the in-app Viva Pulse experience | [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-experience.md) |
-| Learn how to access Viva Pulse via Microsoft Teams or web | [Access Viva Pulse via Microsoft Teams or web](./setup-admin-access/access-teams-or-web.md) |
+| Learn how to set up Viva Pulse in the Teams admin center | [Set up Viva Pulse in the Teams admin center](./setup-admin-access/set-up-pulse-in-teams-admin-center.md.md) |
+| Learn how to set up Viva Pulse for your organization | [Set up Viva Pulse for your organization](./setup-admin-access/set-up-pulse-for-your-organization.md) |
+| Learn how to set up the in-app Viva Pulse experience | [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience.md) |
+| Learn how to access Viva Pulse via Microsoft Teams or web | [Access Viva Pulse via Microsoft Teams or web](./setup-admin-access/access-pulse-via-teams-or-web.md) |
