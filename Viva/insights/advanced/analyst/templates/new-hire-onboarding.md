@@ -39,9 +39,10 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 <iframe title="Ways of Working - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiYWE0MGExNGEtMmIwNC00ZDg4LWI4MmYtYWM2Yjc0NzAzMmI2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
+* Have the **HireDate** attribute, which indicates when a person was hired, uploaded as part of your organizational data.
 
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
-* Have the **HireDate** attribute, which indicates when a person was hired, uploaded as part of your organizational data.
+
 
 >[!Note]
 >If you want your report to include new hires and existing employees who've transferred to a new role, you'll also need to include the **RoleStartDate** attribute, which indicates when a person started in a new role or function. Without **RoleStartDate**, however, the rest of the report will still load. 
