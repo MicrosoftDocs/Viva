@@ -42,7 +42,7 @@ The **Collaborators** section arranges your active collaborators in a three-ring
 
 If you want more information about how much time you’re spending with a contact, select their profile image. The tooltip shows you your total collaboration time with that contact, and then breaks down collaboration time by each communication channel—emails, meetings, and chats and calls.
 
-:::image type="complex" source="images/teamwork-network-expanded.png" alt-text="Screenshot that shows Collaborators section on the Teamwork tab." lightbox="images/teamwork-network-small.png":::
+:::image type="complex" source="images/teamwork-network-small" alt-text="Screenshot that shows Collaborators section on the Teamwork tab." lightbox="images/teamwork-network-expanded.png":::
    Screenshot of the "Collaborators" section of the Network page. The subtitle reads, "Who did you work closely with in the last 4 weeks?". The image is arranged as a map, with the user's profile picture on the far left of the image, and collaborators they've recently worked with in three semi-rings. These rings go from "Most frequent" closest to the user's image to "Least frequent" on the right side of the image. The image shows hovering over a collaborator in the "Most frequent" ring. A card beneath this collaborator's profile image shows their name, a star to indicate they're an important contact, and how much total time the user has spent collaborating with them. Below the total collaboration time, the card lists how much time this collaborator has worked with the user by communication each channel: over email, in meetings, and in chats and calls.
 :::image-end:::
 
