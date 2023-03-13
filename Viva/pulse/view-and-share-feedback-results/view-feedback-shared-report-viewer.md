@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Shared report viewers can view the team’s feedback results if the feedback author shared the results with them.
 
-## View feedback results as shared report viewer in Viva Pulse
+## View feedback results with shared report viewer in Viva Pulse
 
 1. From the Teams Activity Feed notification that the feedback report has been shared by the feedback author, you can select **Review results** to review the feedback report. Alternatively, from the Viva Pulse homepage **My pulses** section, under the **Shared with me** tab, review the feedback report by selecting the corresponding feedback request card. You can also open a report using a link received from the feedback author through an email or Teams message.
 1. The report summary page will have the following sections/actions:
@@ -36,16 +36,16 @@ Shared report viewers can view the team’s feedback results if the feedback aut
     1. View how the score for that Pulse request has been trending over time.
     1. View how the score for a question has been trending over time by hovering over a specific point in the trend graph.
        
-       > [!Note] 
+       > [!NOTE] 
        > To view trends for a question response, the same Pulse request must be resent. If the feedback author chooses to send a new Pulse request from the Viva Pulse homepage instead of resending the same Pulse request, the score trend view will not be generated.
        
     1. View the favorability scores for the selected question.
-        1. Responses with a score of 4 or 5 are considered positive responses.
-        2. Responses with a score of 3 are considered neutral responses.
-        3. Responses with a score of 1 or 2 are considered negative responses.
+        - Responses with a score of 4 or 5 are considered positive responses.
+        - Responses with a score of 3 are considered neutral responses.
+        - Responses with a score of 1 or 2 are considered negative responses.
     1. View the corresponding multiple-choice responses for each follow-up question, by seeing which options were most selected by feedback providers, shown in decreasing order of popularity.
     1. View any recommended learning content for the selected question. The learning course will open in Viva Learning when selected.
   
-       > [!Note] 
+       > [!NOTE] 
        > Recommended Viva Learning links will only show for reports generated after March 21, 2023.
        
