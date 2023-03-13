@@ -24,7 +24,7 @@ search.appverid:
 
 Welcome to your Viva Engage experience! Using Viva Engage is going to change the way your company gets work done, if it hasn't already. As an admin, you have a huge role to play in helping your coworkers get comfortable with Viva Engage.
   
-Your best resource and the page you should add to your Favorites is [Viva Engage admin center overview](./eac-overview.md). THis page has links for everything you need to set up and configure Viva Engage.
+Your best resource and the page you should add to your Favorites is [Viva Engage admin center overview](./eac-overview.md). This page has links for everything you need to set up and configure Viva Engage.
   
 This article describes the key concepts you should know and key decisions you should make before you open Viva Engage for business.
   
