@@ -228,7 +228,7 @@ If the Viva Insights license is removed from a user, Viva Insights retains that 
 
 To permanently remove data from users after licenses are removed, you can contact Microsoft customer support to request a collaboration data reset. 
 
-For information about data deletion requests as handled under the GDPR, see Support for handling data subject requests: 
+For information about data deletion requests as handled under the GDPR, refer to [Managing data subject requests](#managing-data-subject-requests). 
 
 Under the GDPR, data subjects may have rights to request exclusion from processing, access, correction, or deletion of their personal data. It is your organization’s role as data controller to evaluate whether a particular data subject request is valid and, if appropriate, to take action to fulfill the request. As a data processor, Microsoft provides mechanisms for your organization as the data controller to honor data subject rights through controls that are built into Viva Insights. 
 
