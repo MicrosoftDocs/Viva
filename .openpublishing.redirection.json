@@ -1,6 +1,36 @@
 {
     "redirections": [
       {
+        "source_path": "viva/pulse/get-started/intro-to-viva-pulse.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/setup-admin-access/access-teams-or-web.md",
+        "redirect_url": "/viva/pulse/setup-admin-access/access-pulse-via-teams-or-web",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/setup-admin-access/set-up-in-app-experience.md",
+        "redirect_url": "/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/setup-admin-access/set-up-org.md",
+        "redirect_url": "/viva/pulse/setup-admin-access/set-up-pulse-for-your-organization",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/setup-admin-access/set-up-teams-admin-center.md",
+        "redirect_url": "/viva/pulse/setup-admin-access/set-up-pulse-in-teams-admin-center",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-shared-report-viewer.md",
+        "redirect_url": "/viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer",
+        "redirect_document_id": true
+      },            
+      {
         "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",
         "redirect_url": "/insights/viva-teams-app",
         "redirect_document_id": false
@@ -474,6 +504,14 @@
         "source_path": "viva/insights/Tutorials/bcrps.md",
         "redirect_url": "/microsoft-365/admin/adoption/adoption-score",
         "redirect_document_id": false
-        }
+        },
+      {"source_path": "viva/insights/advanced/analyst/metric-rules-2.md",
+        "redirect_url": "viva/insights/advanced/analyst/metric-rules-2",
+        "redirect_document_id": false
+        },
+        {"source_path": "viva/connections/guide-to-setting-up-viva-connections.md",
+          "redirect_url": "/viva/connections/viva-connections-setup-guide",
+          "redirect_document_id": false
+          }
     ]
 }
