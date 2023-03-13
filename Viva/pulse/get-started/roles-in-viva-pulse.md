@@ -38,4 +38,4 @@ Feedback providers are the users in an organization who receive a Pulse request.
 
 ## Viva Pulse Admin
 
-Users with Viva Pulse Admin role can configure the Viva Pulse experience for their end users at the tenant level through the in-app admin experience. This role is assigned to users from the Microsoft Admin Center. For more information, see [Set up the in-app Viva Pulse experience](../setup-admin-access/set-up-in-app-experience.md).
+Users with Viva Pulse Admin role can configure the Viva Pulse experience for their end users at the tenant level through the in-app admin experience. This role is assigned to users from the Microsoft Admin Center. For more information, see [Set up the in-app Viva Pulse experience](../setup-admin-access/set-up-in-app-pulse-experience.md).
