@@ -26,7 +26,7 @@ If your Viva Engage network is eligible, you can use communities connected to Mi
 
 You can tell if a community in Viva Engage is connected to Microsoft 365 Groups when you see the **Microsoft 365 Resources** section in the right navigation of the Viva Engage community:
   
-![Screenshot showing Microsoft 365 Resources.](../media/195dd76c-6007-469e-9242-7889a3b217a9.png)
+[![Screenshot showing Microsoft 365 Resources.](../media/195dd76c-6007-469e-9242-7889a3b217a9.png)](../media/195dd76c-6007-469e-9242-7889a3b217a9.png#lightbox)
 
 ## Advantages of using communities connected to Microsoft 365 Groups
 

@@ -1,6 +1,6 @@
 ---
 
-ms.date: 09/16/2021
+ms.date: 02/28/2023
 title: Plans and environments for personal insights
 description: Supported plans and environment requirements for personal insights in Microsoft Viva Insights
 author: madehmer
@@ -22,6 +22,9 @@ audience: Admin, user
 
 Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](../teams/viva-teams-app.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
 
+  >[!Important]
+  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+
 ## Microsoft 365 plans
 
 The following Personal insights service plans are generally available with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
@@ -29,7 +32,7 @@ The following Personal insights service plans are generally available with a sub
 * With the following Microsoft 365 plans, a [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights) is available for purchase:
 
   * Microsoft 365 E3, A3, E5, A5, Business Basic, Business Standard, or Business Premium
-  * Office 365 E1, E3, A3, E5, A5, G3, G5, or GCC
+  * Office 365 E1, E3, A3, E5, A5
   * Exchange Online Plan 1 or 2
 
 * **MyAnalytics (Full)** and **Insights by MyAnalytics** service plans are included with:
@@ -45,7 +48,7 @@ The following Personal insights service plans are generally available with a sub
 * **Insights by MyAnalytics** service plan is included with:
 
   * Microsoft 365 E3, Business, or A3 for faculty and students
-  * Office 365 E1, E3, A3 for faculty and students, E3 Developer, G3, Business Premium, or Business Essentials
+  * Office 365 E1, E3, A3 for faculty and students, E3 Developer, G1, G3, Business Premium, or Business Essentials
 
 ### Supported Microsoft 365 environments
 

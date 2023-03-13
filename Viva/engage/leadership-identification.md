@@ -33,15 +33,15 @@ Engage admins, corporate communicators, existing Yammer verified admins, and Yam
 
 1. Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to navigate to the Engage admin center.
 
-![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
+[![Image of the entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
 2. Under the **Feature management** tab, select **Leadership identification and audiences** to navigate to the **Manage leaders** page, where you can identify leaders by searching for users and groups.
 
-![View of the Engage admin center interface for managing Leader identification.](/Viva/media/engage/admin/leader-id-eac.png)
+[![View of the Engage admin center interface for managing Leader identification.](/viva/media/engage/admin/leader-id-eac.png)](/viva/media/engage/admin/leader-id-eac.png#lightbox)
 
 3. Select **Add leaders** and enter the name of the user or group you would like to identify as leaders.
 
-![View of the Engage admin center interface for adding leaders.](/Viva/media/engage/admin/add-leaders.png)
+[![View of the Engage admin center interface for adding leaders.](/viva/media/engage/admin/add-leaders.png)](/viva/media/engage/admin/add-leaders.png#lightbox)
 
 5. Select the user or group from the search results.
 6. If you are importing a group, select **Continue** to confirm your choice.
@@ -57,7 +57,7 @@ After a leader has been identified, the next step is to manage the leader’s au
 
 From the **Manage leaders** list, find the leader’s row and select the pencil icon on the right to edit.
 
-![View of the interface for managing a leader's audience in Viva Engage.](/Viva/media/engage/admin/edit-audience.png)
+[![View of the interface for managing a leader's audience in Viva Engage.](/viva/media/engage/admin/edit-audience.png)](/viva/media/engage/admin/edit-audience.png#lightbox)
 
 This will lead you to the **Manage audiences** page, where you can configure the leader’s audience. A leader can have up to two audiences:
 
@@ -68,7 +68,7 @@ This will lead you to the **Manage audiences** page, where you can configure the
 
 - **Audience**: The audience represents people the leader wants to connect, communicate, and engage with most directly. This often means people in the leader’s immediate organization. To define an audience, use the search box to add users or groups.
 
-![View of the Manage audience interface in Viva Engage.](/Viva/media/engage/admin/manage-audience.png)
+[![View of the Manage audience interface in Viva Engage.](/viva/media/engage/admin/manage-audience.png)](/viva/media/engage/admin/manage-audience.png#lightbox)
 
 > [!NOTE]
 > Each time a storyline announcement is posted, the selected audiences will receive an automatic notification.
@@ -88,7 +88,7 @@ A leader can configure delegates through the following steps:
 
 3. Add the name of the person who will be the delegate or delegate manager.
 
-![View of the interface for Delegate Settings in Viva Engage.](/Viva/media/engage/admin/delegate-settings.png)
+[![View of the interface for Delegate Settings in Viva Engage.](/viva/media/engage/admin/delegate-settings.png)](/viva/media/engage/admin/delegate-settings.png#lightbox)
 
 4. Choose the type of delegate.
 
@@ -112,11 +112,11 @@ Leadership corner is ON by default but can be disabled using the toggle in the V
 
 1. Select **Leadership corner** from the **Feature management tab** in the Engage admin center.
 
-![View of the leadership corner button for feature management in the Engage admin center.](/Viva/media/engage/admin/lc-admin-eac.png)
+[![View of the leadership corner button for feature management in the Engage admin center.](/viva/media/engage/admin/lc-admin-eac.png)](/viva/media/engage/admin/lc-admin-eac.png#lightbox)
 
 2. Use the toggle to enable or disable leadership corner for your organization.
 
-![View of the leadership corner toggle for admin.](/Viva/media/engage/admin/lc-toggle.png)
+[![View of the leadership corner toggle for admin.](/viva/media/engage/admin/lc-toggle.png)](/viva/media/engage/admin/lc-toggle.png#lightbox)
 
 > [!NOTE]
 > When you disable leadership corner, users will no longer see the **Leaders** entrypoint in the top navigation of Viva Engage.
@@ -164,4 +164,3 @@ The company logo can be customized by following the instructions in this [link](
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
 [Manage and set up storyline in Viva Engage](/Viva/engage/eac-storyline)
-

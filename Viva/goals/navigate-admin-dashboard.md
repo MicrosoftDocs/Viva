@@ -1,10 +1,10 @@
 ---
-ms.date: 05/09/2022
+ms.date: 03/07/2023
 title: Navigate the admin dashboard
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -21,7 +21,7 @@ description: "Learn how to navigate the admin dashboard"
 ---
 # Navigate the admin Dashboard
 
-To login to Viva Goals, visit: https://goals.microsoft.com/
+To log in to Viva Goals, visit: https://goals.microsoft.com/
 
 Organization admins have direct access to the Microsoft Viva Goals admin dashboard. The dashboard offers settings that you can customize for your organization, which creates efficiency and confidence in Microsoft Viva Goals.
 
@@ -64,7 +64,14 @@ The **Settings** tab lets you control general settings, such as settings related
 
 - **Invite Policy** controls who can add users to your Viva Goals instance.  
 
-- **Team Creation** is a feature that allows you to segment your organization into different workgroups and then add employees to those groups in Viva Goals. These groups will own team-level OKRs, and this setting controls who can create teams.  
+- **Team Creation** is a feature that allows you to segment your organization into different workgroups and then add employees to those groups in Viva Goals. These groups will own team-level OKRs, and this setting controls who can create teams. Using this permission setting, admins can control the users who can create teams within their organization. There are three options that can be used: 
+    1. Any regular user
+    1. Admins
+    1. Team admins 
+    1. Customized (Choose users and grant them access) 
+    
+    > [!NOTE]
+    > By default for all the newly created organizations, the default permission setting for who can teams would be set to 'Admins' and 'Team Admins'. This option can be changed if needed. 
 
 - **Tag Creation** is a feature that allows you to categorize OKRs in buckets that you can later filter in a report.  
  
