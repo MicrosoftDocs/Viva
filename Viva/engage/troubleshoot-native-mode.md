@@ -47,7 +47,7 @@ Native Mode doesn't have any licensing requirements beyond the requirements for 
 
 Azure AD business-to-business (B2B) collaboration lets you securely share your company's applications and services with guests from any other organization while you maintain control over your own corporate data.
 
-The downloadable Alignment Report provides information about the quantity and usage of external groups in your network.
+The downloadable Alignment Report provides information about the quantity and use of external groups in your network.
 
 - *Native Mode doesn't support network-level guests*: For greater network security, guests can't be given access to an entire Viva Engage network. The downloadable Alignment Report provides information about the quantity and activity of guests in your network.
 
@@ -57,9 +57,9 @@ The downloadable Alignment Report provides information about the quantity and us
 
 ### What's the main difference between Native Mode and eDiscovery?
 
-- *Native Mode* is state where all the users, groups, and content from your network are compatible with (and mapped to) their counterparts in Azure AD/Microsoft 365 and Microsoft 365.
+- *Native Mode* is a state in which all the users, groups, and content from your network are compatible with, and mapped to, their counterparts in Azure AD/Microsoft 365 and Microsoft 365.
 
-- *eDiscovery* is a Yammer feature Microsoft now provides to customers through the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/homepage).  
+- *eDiscovery* is a Yammer feature Microsoft provides to customers through the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/homepage).  
 
 Viva Engage can offer eDiscovery to customers when all their users, groups, and content are discoverable through the Security and Microsoft Purview compliance portal. To facilitate this process, Viva Engage must ensure that all Groups are Microsoft 365-connected because eDiscoverable content must be saved in the group mailbox. Similarly, users must have an Azure AD account.
 
@@ -95,7 +95,7 @@ Most end users won't see any change in their Viva Engage experience while the to
 
 ### How do I check the status of my network's migration to Native Mode?
 
-Any Global Admin from your tenant can check the status of your network's alignment to Native Mode through the Engage admin center: On the **Setup & configuration** tab, access **Configure tenant**, which will direct you to the Yammer admin center. In the Yammer admin center, select **native mode** to see the progress.
+Any Global Admin from your tenant can check the status of your network's alignment to Native Mode through the Engage admin center: On the **Setup & configuration** tab, select **Configure tenant**, which will direct you to the Yammer admin center. In the Yammer admin center, select **native mode** to see the progress.
 
 ## Networks
 
@@ -109,10 +109,10 @@ No. Once a network is in Native Mode, it can't get out of Native Mode. We recomm
 
 ### How does a network enter Native Mode for Microsoft 365?
 
-**New Networks**
+**New Networks: **
 All new networks provisioned after January 2020 are in Native Mode by default.
 
-**Existing Networks**
+**Existing Networks:** 
 Existing networks can upgrade to Native Mode by using the Microsoft 365 Alignment Tool.
 
 ## Files
@@ -205,7 +205,7 @@ If your network enforces Microsoft 365 Group creation rights, users who lack tho
   - The user could be a network-level guest in the network. Network-level guests aren't supported in Azure AD.
 
 - *What does the tool do for pending users?*
-  The tool first tries to associate the pending user with an account in Azure AD for your Microsoft 365 tenant. If that work, the user remains in the network. If the tool can't associate the pending user with an Azure AD account on your tenant, the user is deleted from Viva Engage.  
+  The tool first tries to associate the pending user with an account in Azure AD for your Microsoft 365 tenant. If that works, the user remains in the network. If the tool can't associate the pending user with an Azure AD account on your tenant, the user is deleted from Viva Engage.  
 
 ### Why aren't external participants in individual conversations supported in Native Mode?
 
@@ -219,15 +219,15 @@ There's no preparation required to make your All Company community Microsoft 365
 
 - *How is All Company different than other Microsoft 365-connected Groups?*
 
-  The All Company community is different than other Viva Engage communities in that all users in the network are treated as members of the group without them needing to actually be a member of the group. Once All Company is connected, you can add members to the group from Azure AD. However, we don't recommend that you add users as members because it won't change the behavior of the community in Viva Engage for those users.
+  The All Company community is different than other Viva Engage communities in that all users in the network are treated as members of the group whether or not they are actually a member of the group. Once All Company is connected, you can add members to the group from Azure AD. However, we don't recommend that you add users as members because it won't change the behavior of the community in Viva Engage for those users.
 
 - *Can I delete All Company once it's connected?*
 
-  We don't recommend that you delete All Company, as it's an important way for your users to communicate broadly across your organization. Once All Company is Microsoft 365 connected, you can delete the Microsoft 365 Group from the Microsoft 365 admin center or the Azure Active Directory admin center. In that case Viva Engage will honor the deletion and not show All Company in your network.
+  We don't recommend that you delete All Company, as it's an important channel for your users to communicate broadly across your organization. But after All Company is Microsoft 365 connected, you can delete the Microsoft 365 Group from the Microsoft 365 admin center or the Azure Active Directory admin center. In that case, Viva Engage will honor the deletion and not show All Company in your network.
 
 - *Can I make All Company private once it's connected?*
   
-   A private All Company is an unsupported state in Viva Engage. Also, we don't recommend that you make All Company private because it's an important channel for your users to communicate broadly across your organization. After All Company is Microsoft 365 connected, you can make it private through the Microsoft 365 admin center or the Azure Active Directory admin center. In that case, Viva Engage won't show All Company in your network to anyone regardless of group membership.
+   A private All Company is an unsupported state in Viva Engage. Also, we don't recommend that you make All Company private because it's an important channel for your users to communicate across your organization. After All Company is Microsoft 365 connected, you can make it private through the Microsoft 365 admin center or the Azure Active Directory admin center. In that case, Viva Engage won't show All Company in your network to anyone regardless of group membership.
 
 ### Why aren't external groups supported in Native Mode?
 
@@ -235,11 +235,11 @@ Because Viva Engage external groups aren't compatible with Azure B2B, guests in 
 
 - *What should I do about my external groups?*
 
-  The downloadable Alignment Report provides information about the use of external groups in your enterprise network so you can determine the best path forward for your organization. Many organizations already block the ability to create external groups in their network. Those companies won't be affected by this change.
+  The downloadable Alignment Report provides information about the use of external groups in your enterprise network so you can determine the best path forward for your organization. Many organizations already block creation of external groups in their network. Those companies won't be affected by this change.
 
-  If your network has external groups, we recommend that you use the downloadable Alignment Report to see whether there are any external guests in the group, whether those guests have had any recent activity, and whether the group itself has had any recent activity. You can then assess what actions to take on the group. If the group has no external members but has had recent activity by internal members, you might decide to let the tool make that group an internal only group. If the group has external members but hasn't had any activity for some time, you might decide to delete the group before you run the tool.
+  If your network has external groups, we recommend that you use the downloadable Alignment Report to see whether there are any external guests in the group, whether those guests had any recent activity, and whether the group itself had any recent activity. You can then assess what actions to take on the group. If the group has no external members but has had recent activity by internal members, you might decide to let the tool make that group an internal only group. If the group has external members but hasn't had any activity for some time, you might decide to delete the group before you run the tool.
 
-  Whichever path you choose, we recommend that you communicate clearly to the owners of these groups what changes are coming so that they can alert you. In some cases, these groups might be owned by senior leaders within your organization so, be sure to choose the appropriate communication channel when reaching out to group owners.
+  Whichever path you choose, we recommend that you communicate clearly to the owners of these groups what changes are coming so that they can alert you of possible problems. In some cases, these groups might be owned by senior leaders within your organization, so be sure to choose the appropriate communication channel when reaching out to group owners.
 
 ### How do unlisted private groups work?
 
@@ -251,15 +251,15 @@ Because Viva Engage external groups aren't compatible with Azure B2B, guests in 
   
    The downloadable Alignment Report provides information about the use of private unlisted groups in your enterprise network so you can determine the best path forward for your organization.
 
-  If your network has private unlisted groups, we recommend that you use the Alignment Report to see whether there are any users or guests in the group and whether those users, or guests have had any recent activity in the group. You can then assess what actions to take on the group. If the group has had recent activity but the group name doesn't contain any confidential or sensitive information, you might decide to let the tool make that group an internal-only group. If the group hasn't had any activity for some time, you might decide to delete the group before you run the tool.
+  If your network has private unlisted groups, we recommend that you use the Alignment Report to see whether there are any users or guests in the group and whether those users or guests had any recent activity in the group. You can then assess what actions to take on the group. If the group has had recent activity but the group name doesn't contain any confidential or sensitive information, you might decide to let the tool make that group internal only. If the group hasn't had any activity for some time, you might decide to delete the group before you run the tool.
 
-  Whichever path you choose, we recommend that you communicate clearly to the owners of these groups what changes are coming so that they can alert you. In some cases, these groups may be owned by senior leaders within your organization, so be sure to choose the appropriate communication channel when reaching out to group owners.  
+  Whichever path you choose, we recommend that you communicate clearly to the owners of these groups what changes are coming so that they can alert you of any problems. In some cases, these groups may be owned by senior leaders within your organization, so be sure to choose the appropriate communication channel when reaching out to group owners.  
 
 ### What happens to groups without owners who have Microsoft 365 group creation rights?
 
 - *Why do you need to add the global admin who runs the Alignment Tool as a group owner in groups that have no owner with Microsoft 365 group creation rights?*
 
-  This change is done for groups without any owners or groups withal have but none of them have Microsoft 365 Group creation rights. To make a Yammer community or group a Microsoft 365-connected group, at least one group owner must have Microsoft 365 Group creation rights. Because global admins have Microsoft 365 Group creation rights, adding the global admin as a group owner helps ensure that the group can become Microsoft 365 connected.
+  This change is done for groups without any owners or groups with owners but none of whom have Microsoft 365 Group creation rights. To make a Yammer community or group a Microsoft 365-connected group, at least one group owner must have Microsoft 365 Group creation rights. Because global admins have Microsoft 365 Group creation rights, adding the global admin as a group owner helps ensure that the group can become Microsoft 365 connected.
 
 - *What do I do about my groups without owners who have Microsoft 365 group creation rights?*
 
@@ -270,7 +270,7 @@ Because Viva Engage external groups aren't compatible with Azure B2B, guests in 
 
   If your network has many of these groups, you have a few options available to you.
 
-  - You can allow the tool to add the global admin who runs the tool to each group as an owner so that the group can become Microsoft 365-connected. After a group is connected, you can remove the global admin from ownership of the group.
+  - You can allow the tool to add the global admin who runs the tool to each group as an owner so that the group can become Microsoft 365 connected. After a group is connected, you can remove the global admin from ownership of the group.
   
   - You can also review the impacted groups from the downloadable Alignment Report and see if they have any recent activity or active group members. If they don't, you might decide to delete those groups before you run the tool. After those groups have been deleted, you can run the tool. If you delete inactive groups before you run the tool, you reduce the number of groups to which you as a global admin need to be added to in order to achieve Native Mode.  
 
