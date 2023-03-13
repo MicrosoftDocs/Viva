@@ -196,7 +196,7 @@ If your network enforces Microsoft 365 Group creation rights, users who lack tho
 
 - *Why would a user not be in Azure AD?*
   
-  There are sveral possible reasons:
+  There are several possible reasons:
 
   - In some cases, the user was invited to the network but has never logged into Viva Engage. These users are "pending" users.
 

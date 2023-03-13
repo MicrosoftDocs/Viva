@@ -105,7 +105,7 @@ A: Viva Engage's system requirements are consistent with those of Microsoft 365.
 
 For the most up-to-date information, see [Office mobile apps](https://go.microsoft.com/fwlink/?linkid=2119145).
 
-### Q: Why am I seeing different features, colors, or layout than my colleagues?
+### Q: Why am I seeing different features, colors, or layouts than my colleagues?
 
 A: As part of Viva Engage development methodology, we "A/B test" all aspects of Viva Engage and use data to select the better design. The tests are performed on a subset of users across all networks, so changes don't occur at the network level until they're tested and launched.
   

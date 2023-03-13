@@ -47,7 +47,7 @@ Only Microsoft 365 global Admins can access the Native Mode Alignment Tool. Itâ€
 > The Alignment Tool can take a long time for processing. Most customers are able to run the tool in one to two weeks, but it can take up to 90 days in extreme circumstances. The account that's used to initiate the tool must maintain global admin privileges for the duration of the alignment process.
 
 ## 3. Prepare to run the Native Mode Alignment Tool
-Before you run the Native Mode Alignment Tool, you should generate and review the Alignment Report for your network. To run the report from within the tool, select the **Generate Report** button in the middle of the screen. This step doesn't make any changes to your network and does't start the alignment process. It just outputs a list of all users and communities in your Viva Engage Network.
+Before you run the Native Mode Alignment Tool, you should generate and review the Alignment Report for your network. To run the report from within the tool, select the **Generate Report** button in the middle of the screen. This step doesn't make any changes to your network and doesn't start the alignment process. It just outputs a list of all users and communities in your Viva Engage Network.
 
 This report comes in .yml format. If you prefer to review the file as a .csv file, we provide a tool available via GitHub that converts the file.
 
