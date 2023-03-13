@@ -23,7 +23,7 @@ Use the **Network** page in Microsoft Viva Insights to understand who you collab
 
 You can get to the **Network** page from your **Teamwork** tab in the Viva Insights app in Teams and web. Under the **Build better relationships** section, in the **Time spent collaborating with others** card, select **View my network**.
 
-:::image type="content" source="images/teamwork-ic3.png" alt-text="Screenshot that shows a Suggested important contact card with a profile image and name at the top and Pin button and Next person link at the bottom.":::
+:::image type="content" source="images/teamwork-ic3.png" alt-text="Screenshot that shows a Suggested important contact card with a profile image and name at the top and Pin button and Next person link at the bottom." lightbox="images/teamwork-ic3.png":::
 
 Now, let's discuss the **Network** page's two sections: **Collaborators** and **Communication habits**.
 
