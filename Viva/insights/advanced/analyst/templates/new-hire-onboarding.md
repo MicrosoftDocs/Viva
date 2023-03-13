@@ -41,13 +41,12 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 * Have the **HireDate** attribute, which indicates when a person was hired, uploaded as part of your organizational data.
 
-[!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
-
-
 >[!Note]
 >If you want your report to include new hires and existing employees who've transferred to a new role, you'll also need to include the **RoleStartDate** attribute, which indicates when a person started in a new role or function. Without **RoleStartDate**, however, the rest of the report will still load. 
 >
 >You can add new attributes to your organizational data at any time. For more details on how to add new data for existing employees, refer to [subsequent uploads](../../admin/upload-org-data-subsequent.md) 
+
+[!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
 
 1. In the Viva Insights analyst experience, select **Analysis**.
