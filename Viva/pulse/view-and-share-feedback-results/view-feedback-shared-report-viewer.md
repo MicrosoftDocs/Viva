@@ -25,27 +25,32 @@ Shared report viewers can view the team’s feedback results if the feedback aut
 
 ## View feedback results with shared report viewer in Viva Pulse
 
-1. From the Teams Activity Feed notification that the feedback report has been shared by the feedback author, you can select **Review results** to review the feedback report. Alternatively, from the Viva Pulse homepage **My pulses** section, under the **Shared with me** tab, review the feedback report by selecting the corresponding feedback request card. You can also open a report using a link received from the feedback author through an email or Teams message.
-1. The report summary page will have the following sections/actions:
-    - View who shared the report with them.
-    - View how many users responded to the Pulse request, both as a percentage as well as a count.
-    - Select **View all** under **Who you invited** to view the list of feedback providers for the Pulse request.
-1. View the average score for each rating question, along with the trend change from the last time the Pulse request was sent.
-1. View top suggestions for all multiple-choice questions or number of responses received for any questions with open-ended responses. You are unable to view any open-ended responses from feedback providers.  
-1. For any rating question which has a follow-up multiple-choice question, you can select the question row and dive into a detailed page for that question:
-    1. View how the score for that Pulse request has been trending over time.
-    1. View how the score for a question has been trending over time by hovering over a specific point in the trend graph.
+Three methods exist to view the feedback report.
+- From the Teams Activity Feed notification that the feedback report has been shared by the feedback author, you can select **Review results**. 
+- From the Viva Pulse homepage > **My pulses** section > **Shared with me** tab > select the corresponding feedback request card, and review the feedback report.
+- From the link provided by the feedback author through an email or Teams message.
+ 
+On the report summary page, you can view the following information:
+- Who shared the report with you
+- How many users responded to the Pulse request, both as a percentage as well as a count
+- The list of feedback providers for the Pulse request under **Who you invited** > **View all**
+- The average score for each rating question, along with the trend change from the last time the Pulse request was sent
+- Top suggestions for all multiple-choice questions
+- The number of responses received for any questions with open-ended responses. You are unable to view any open-ended responses from feedback providers
+- How the score has been trending over time for any rating question that has a follow-up multiple-choice question for that Pulse request by selecting the question row to see a page of details for that question
+- How the score for a question has been trending over time by hovering over a specific point in the trend graph
        
-       > [!NOTE] 
-       > To view trends for a question response, the same Pulse request must be resent. If the feedback author chooses to send a new Pulse request from the Viva Pulse homepage instead of resending the same Pulse request, the score trend view will not be generated.
+   > [!NOTE] 
+   > To view trends for a question response, the feedback author must **resend the same Pulse request**. If the feedback author chooses to send a new Pulse request from the Viva Pulse homepage instead of resending the same Pulse request, the score trend view won't generate.
        
-    1. View the favorability scores for the selected question.
-        - Responses with a score of 4 or 5 are considered positive responses.
-        - Responses with a score of 3 are considered neutral responses.
-        - Responses with a score of 1 or 2 are considered negative responses.
-    1. View the corresponding multiple-choice responses for each follow-up question, by seeing which options were most selected by feedback providers, shown in decreasing order of popularity.
-    1. View any recommended learning content for the selected question. The learning course will open in Viva Learning when selected.
-  
-       > [!NOTE] 
-       > Recommended Viva Learning links will only show for reports generated after March 21, 2023.
+- The favorability scores for the selected question.
+   - Responses with a score of 4 or 5 are considered positive responses.
+   - Responses with a score of 3 are considered neutral responses.
+   - Responses with a score of 1 or 2 are considered negative responses.
+
+- The corresponding multiple-choice responses for each follow-up question, by seeing which options were most selected by feedback providers, shown in decreasing order of popularity.
+- Any recommended learning content for the selected question. The learning course will open in Viva Learning when selected.
+
+  > [!NOTE] 
+  > Recommended Viva Learning links will only show for reports generated after March 21, 2023.
        
