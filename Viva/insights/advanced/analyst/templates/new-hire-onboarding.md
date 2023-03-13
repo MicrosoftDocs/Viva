@@ -15,9 +15,9 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# New hire onboarding and development report
+# Onboarding and development report
 
-The **New hire onboarding and development** report  helps leaders understand the onboarding experience of new hires and/or employees who've started out in a new role within the company. The report also identifies opportunities to improve the onboarding experience and structure development. 
+The **Onboarding and development** report helps leaders understand the onboarding experience of new hires and/or employees who've started out in a new role within the company. The report also identifies opportunities to improve the onboarding experience and structure development. 
 
 Because research shows it typically takes new employees 12 months to reach their full performance potential, this report focuses on the entire period a new hire is learning, connecting, and developing in their new role. Additionally, you can customize the definition of new hire to best fit your organization: whether it includes employees who recently joined the company or also employees who recently started out in a new role. You can also customize the number of months the new hire should be in the new role.
 
