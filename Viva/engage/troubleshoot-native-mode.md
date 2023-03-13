@@ -109,7 +109,7 @@ No. Once a network is in Native Mode, it can't get out of Native Mode. We recomm
 
 ### How does a network enter Native Mode for Microsoft 365?
 
-**New Networks: **
+**New Networks:**
 All new networks provisioned after January 2020 are in Native Mode by default.
 
 **Existing Networks:** 
