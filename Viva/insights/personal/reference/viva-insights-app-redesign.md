@@ -106,10 +106,9 @@ That's why we built the **Productivity** tab—to help you identify ways to iden
 
 With its insights on network and collaboration, **Teamwork** will become your hub for building and strengthening connections with your team. We're moving some familiar content from your MyAnalytics dashboard here—like network and collaboration habits—so you can get a quantitative picture of who you collaborate with and how.
 
-:::image type="content" source="../../Images/MyA/reference/redesign-teamwork.png" alt-text="Screenshot of the Teamwork page.":::
+:::image type="content" source="../../Images/MyA/reference/redesign-teamwork.png" alt-text="Screenshot of the Teamwork page." lightbox="../../Images/MyA/reference/redesign-teamwork.png":::
 
 :::image type="content" source="../teams/images/teamwork-network-small.png" alt-text="Screenshot of the Network page's connection map." lightbox="../teams/images/teamwork-network-expanded.png":::
-
 
 
 ### Content for leaders
