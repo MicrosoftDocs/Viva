@@ -54,7 +54,7 @@ To embed a Power BI Dashboard, follow the same steps above and add the Power BI 
 ## FAQ (Frequently Asked Questions)
 
 1. What URLs are supported?  
-    1. URLs from most Microsoft products are supported. There are 183 domains are currently available in total. 
+    1. URLs from most Microsoft products are supported. There are 183 domains currently available in total. 
     1. ADO embeds are currently not supported. 
 
 2. How do I allowlist a domain that isn't supported? 
