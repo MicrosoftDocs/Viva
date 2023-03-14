@@ -88,7 +88,7 @@ After users get assigned licenses with an applicable service plan, they get acce
 
 * The following additional features are included with the [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights):
 
-  * Schedule send suggestions in [email](../use/delay-delivery.md) and [chat](../teams/new/schedule-send.md)
+  * Schedule send suggestions in [email](../use/delay-delivery.md) and [chat](../teams/schedule-send.md)
   * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
   * [Meeting category insights](../teams/effective-meetings.md#meeting-category-insights)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
