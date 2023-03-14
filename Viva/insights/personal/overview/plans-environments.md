@@ -88,7 +88,7 @@ After users get assigned licenses with an applicable service plan, they get acce
 
 * The following additional features are included with the [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights):
 
-  * [Schedule send suggestions](../use/delay-delivery.md)
+  * Schedule send suggestions in [email](../use/delay-delivery.md) and [chat](../teams/schedule-send.md)
   * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
   * [Access meeting category insights](../teams/meeting-category-insights.md)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
@@ -97,7 +97,7 @@ After users get assigned licenses with an applicable service plan, they get acce
 * The following additional features are included with the **MyAnalytics (Full) service plan**:
 
   * The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature
-  * [Schedule send suggestions](../use/delay-delivery.md)
+  * [Schedule send suggestions in email](../use/delay-delivery.md)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
 
 ## Browser support

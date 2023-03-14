@@ -12,13 +12,13 @@ items:
 - name: Setup, Administration & Access
   items:
     - name: Set up Viva Pulse in the Teams admin center
-      href: setup-admin-access/set-up-teams-admin-center.md
+      href: setup-admin-access/set-up-pulse-in-teams-admin-center.md
     - name: Set up Viva Pulse for your organization
-      href: setup-admin-access/set-up-org.md
+      href: setup-admin-access/set-up-pulse-for-your-organization.md
     - name: Set up the in-app Viva Pulse experience
-      href: setup-admin-access/set-up-in-app-experience.md
+      href: setup-admin-access/set-up-in-app-pulse-experience.md
     - name: Access Viva Pulse via Microsoft Teams or Web
-      href: setup-admin-access/access-teams-or-web.md
+      href: setup-admin-access/access-pulse-via-teams-or-web.md
 - name: Request feedback in Viva Pulse
   items:
     - name: Create a pulse
@@ -36,4 +36,5 @@ items:
         - name: View and share feedback results as a feedback author
           href: view-and-share-feedback-results/view-and-share-feedback-author.md
         - name: View feedback results as a shared report viewer
-          href: view-and-share-feedback-results/view-and-share-shared-report-viewer.md
+          href: view-and-share-feedback-results/view-feedback-shared-report-viewer.md
+          
