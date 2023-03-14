@@ -29,7 +29,7 @@ You can change the name of your topic center in the [Microsoft 365 admin center]
 
 3. Select the **Topic center** tab. See the following sections for information about each setting.
 
-    ![knowledge-network-settings.](../media/knowledge-network-settings-topic-center.png)
+    :::image type="content" alt-text=" Screenshot of the Knowledge network settings that include the following Topic  experience sections: Topic discovery, Topic visibility, Topic permissions, and Topic Center." source="../media/knowledge-network-settings-topic-center.png" lightbox="../media/knowledge-network-settings-topic-center.png":::
 
 ## Update your topic center name
 
