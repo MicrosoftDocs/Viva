@@ -233,20 +233,12 @@ To permanently remove data from users after licenses are removed, you can contac
 
 For information about data deletion requests as handled under the GDPR, refer to [Managing data subject requests](#managing-data-subject-requests). 
 
-Under the GDPR, data subjects may have rights to request exclusion from processing, access, correction, or deletion of their personal data. It's your organization’s role as data controller to evaluate whether a particular data subject request is valid and, if appropriate, to take action to fulfill the request. As a data processor, Microsoft provides mechanisms for your organization as the data controller to honor data subject rights through controls that are built into Viva Insights. 
-
-* **Exclusion from processing** – Data subjects have the right to have their personal information excluded from processing. In Viva Insights, you can exclude an employee’s personal information from being processed simply by not assigning a Viva Insights license to that employee. 
-* **Access** – Data subjects have the right to demand what personal information is being processed, and Viva Insights gives you the ability to export the raw data, which might contain personal data. The scope of such information is restricted to what is personally associable and does not contain aggregate metrics from which no personal information can be gleaned. 
-* **Correction** – Data subjects have the right to rectify their personal data. Viva Insights only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Microsoft 365 or the organizational data that you upload. This data is not corrected through Viva Insights. 
-* **Deletion** – Microsoft supports the GDPR [Right to erasure](/compliance/regulatory/gdpr-dsr-Office365#deleting-personal-data). Additionally, if necessary, customers themselves can also delete reports that identify the data subject. Customers can also delete the data subject from any other data (such as organizational data or CRM data) that they may have provided to Viva Insights. 
-* Transparency regarding processing – See [Metric descriptions](../reference/metrics.md) for detailed information about the metrics calculated by Viva Insights, and what they mean. 
-
 >[!Note] 
 >Microsoft 365 users can determine whether they have a Viva Insights license and, consequently, whether their data is being processed. For more information, refer to [Subscription status](../setup-maint/assign-licenses.md#subscription-status). 
 
 ### Data retention and access after all subscriptions expire 
 
-If all of your subscriptions expire, you have until the end of your grace period to download data in the form of results. Refer to [To access query results](../analyst/query-results.md#to-access-query-results) for details. The duration of the grace period varies between countries and plans. Typically, it's either 90 days for volume-licensing purchases or 30 days for other purchase types. All backend data will be deleted in accordance with the Microsoft 365 Data Handling Standard. 
+If all of your subscriptions expire, you have until the end of your grace period to download data in the form of results. Refer to [To access query results](../analyst/query-results.md#to-access-query-results) for details. The duration of the grace period varies between countries and plans. Typically, it's either 90 days for volume-licensing purchases or 30 days for other purchase types. All backend data will be deleted in accordance with the [Microsoft 365 Data Handling Standard](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). 
 
 After this period has passed, you no longer will have access to Viva Insights. 
 
