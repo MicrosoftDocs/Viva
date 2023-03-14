@@ -40,7 +40,7 @@ The **Meeting habits** section of the **Productivity** tab highlights your habit
    |![X icon.](images/me-icon-no.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
    |![dash icon.](images/me-icon-na.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
 
-You can sort this table by selecting the column header.
+You can sort the **Meeting details** table by selecting the column header.
 
 ## How meeting habits are calculated
 
