@@ -30,15 +30,15 @@ Shared report viewers can view the team’s feedback results if the feedback aut
     - Select the corresponding **feedback request card** from the Viva Pulse homepage **My pulses** section, under the **Shared with me** tab.
     - Select the **link** to the feedback report from the email or Teams message the feedback author sent.
 2. The report summary page will have the following sections/actions:
-    - View who shared the report with them. 
+    - View who shared the report with you. 
     - View how many users responded to the Pulse request, both as a percentage and a count. 
     - Select **View all** under **Who you invited** to view the list of feedback providers for the Pulse request.
 3. View the average score for each rating question, along with the trend change from the last time the Pulse request was sent.
 4. View top suggestions for each multiple-choice question and the number of responses received for questions with open-ended responses. You are **unable** to view any open-ended responses from feedback providers.
 5. For any rating question that has a follow-up multiple-choice question, you can select the question row and dive into a detailed page for that question:
-    1. View how the score for that Pulse request has been trending over time.
-    2. View how the score for a question has been trending over time by hovering over a specific point in the trend graph. Note that to view trends for a question response, the feedback author **must resend the same Pulse request**. If the feedback author chooses to send a new Pulse request from the Viva Pulse homepage instead of resending the same Pulse request, the score trend view will not be generated.
-    3. View the favorability scores for the selected question.
+    1. View how the score for the Pulse request has been trending over time.
+    2. View how the score for the question has been trending over time by hovering over a specific point in the trend graph. Note that to view trends for a question, the feedback author **must resend the same Pulse request**. If the feedback author chooses to send a new Pulse request from the Viva Pulse homepage instead of resending the same Pulse request, the score trend view will not be generated.
+    3. View the favorability scores for the question.
         - Responses with a score of 4 or 5 are considered positive responses.
         - Responses with a score of 3 are considered neutral responses.
         - Responses with a score of 1 or 2 are considered negative responses.
