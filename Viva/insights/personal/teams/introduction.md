@@ -21,7 +21,7 @@ audience: user
 # Viva Insights app in Teams and on the web
 
 >[!Note]
->The Viva Insights app is being redesigned over the coming weeks. Here's an overview of what's changing: [Viva Insights app redesign](../personal/reference/viva-insights-app-redesign.md). 
+>The Viva Insights app is being redesigned over the coming weeks. Here's an overview of what's changing: [Viva Insights app redesign](../reference/viva-insights-app-redesign.md). 
 >
 >If you don't yet see the new app experience, find previous documentation at this link: [Viva Insights Home](./reference/viva-insights-home.md).
 
