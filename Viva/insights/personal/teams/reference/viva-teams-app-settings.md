@@ -24,7 +24,7 @@ Use the **Settings** page to configure the features for the Microsoft Viva Insig
 
 To reach the **Settings** page, select the **ellipsis** (...) in the upper-right corner of any page, and then select **Settings**.
 
-   ![Screenshot that shows selecting settings.](Images/vi-settings-ellipses.png)
+   ![Screenshot that shows selecting settings.](../images/vi-settings-ellipses.png)
 
 You can configure settings for the following features:
 

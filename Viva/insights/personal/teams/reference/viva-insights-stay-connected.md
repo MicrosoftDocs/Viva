@@ -18,7 +18,7 @@ audience: user
 
 You can use **Stay connected** in the Microsoft Viva Insights app to stay connected with your collaborators and improve your productivity.
 
-![Screenshot that shows the Stay connected page.](images/stay-connected2.png)
+![Screenshot that shows the Stay connected page.](../images/stay-connected2.png)
 
 **Stay connected** includes the following insights:
 

@@ -18,7 +18,7 @@ audience: user
 
 In Microsoft Teams, select **Insights** (left app bar) to open the **Home** page for the Microsoft Viva Insights app. You can also open a web-based Viva Insights at [insights.viva.office.com](https://insights.viva.office.com), or through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
 
-![Screenshot that shows the Viva Insights Home page.](images/app-home-ic2.png)
+![Screenshot that shows the Viva Insights Home page.](../images/app-home-ic2.png)
 
 The Home page makes it easy to start the other Viva Insights features. You can reach some features on the top menu and others within the Home page.
 
@@ -54,11 +54,11 @@ For the next three cards, you can take a quick action while remaining on the Hom
 
 On the Home page, the top card shown in the upper left alerts you in various ways based on the time of day and the events in your calendar. For example, if your lunch time (as configured in [the Outlook add-in](../use/use-the-insights.md#set-lunch-hours)) is approaching, the **Up-next** card will let you know how soon:
 
-![Lunch approaching.](images/lunch-break.png)
+![Lunch approaching.](../images/lunch-break.png)
 
 The card's color changes to alert you of other events, such as scheduled focus time, meetings, the switch from morning to afternoon, and for the end of your scheduled workday or [Virtual commute](viva-insights-virtual-commute.md):
 
-![Virtual commute.](images/virtual-commute.png)
+![Virtual commute.](../images/virtual-commute.png)
 
 ## Mindfulness content from Headspace
 

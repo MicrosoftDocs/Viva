@@ -22,7 +22,7 @@ You can use the virtual commute feature in the Microsoft Viva Insights app from 
 
 When the Up-next card prompts you to "wrap up," you can select **Let's go** to start your virtual commute right away.
 
-![Screenshot that shows the Home page with virtual commute card.](images/vc-lets-go-home1.png)
+![Screenshot that shows the Home page with virtual commute card.](../images/vc-lets-go-home1.png)
 
 This message appears at the following times:
 

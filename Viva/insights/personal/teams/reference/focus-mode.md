@@ -22,11 +22,11 @@ You can also start focus mode through **Home** > **Launch focus mode**. Or if yo
 
 * If Headspace for Viva Insights is enabled by your organization, you'll see options to play music and a **Focus timer** that tracks your time within the **Focus mode** page.
 
-  ![Focus mode with Headspace.](Images/pt-focus-mode.png)
+  ![Focus mode with Headspace.](../images/pt-focus-mode.png)
 
 * If Headspace is disabled, you'll be prompted to play a short one-minute **Deep breathing** exercise within the **Focus mode** page. You'll also see a **Focus timer** that tracks your time.
 
-  ![Focus mode without Headspace.](Images/pt-focus-mode-2.png)
+  ![Focus mode without Headspace.](../images/pt-focus-mode-2.png)
 
 ### Pop out Focus mode
 
