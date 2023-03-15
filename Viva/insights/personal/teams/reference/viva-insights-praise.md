@@ -177,8 +177,6 @@ Praise trends is available to you if you have a Viva Insights subscription. Use 
    Screenshot of the Praise trends sidebar. There are two tabs at the top of the sidebar: "Recommendations" and "Trends"; "Trends" is selected. Below the tab names, there are three selector buttons: This month, Past 3 months, and Past 6 months. Below these time selectors, there are four sections, all of which are arranged vertically. The first section is labeled, "Total praises," and it shows the number of praises sent and the number of praises received. The second section is labeled, "Your biggest fans," and it shows three users with the total number of praises the user has received from them. The third section is labeled, "Most praises sent to," and it shows three users with the total number of praises the user has sent to them. The fourth section is labeled, "Top praises received," and it shows the top three titles the user has received--Awesome, Creative, and Courage--and the number of colleagues who sent them, along with the name of one sender (for example, "from Daniela Mandera and 5 others") At the bottom of the card, there's an "Is this helpful?" feedback prompt with the options, "Yes" and "No."
 :::image-end:::
 
-:::image type="content" source="../images/praise-trends-list.png" alt-text="Screenshot that shows Praise trends.":::
-
 ## Related topics
 
 [Viva Insights introduction](viva-teams-app.md)
