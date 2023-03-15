@@ -32,7 +32,7 @@ You can start a guided meditation whenever you want. To find and complete a medi
 1. Start an exercise by selecting its **Play** button.
 1. If you want to do another exercise, select **More exercises**. Otherwise, close the window to complete your meditation.
 
-    :::image type="content" source="images/wellbeing-headspace-more-exercises2.png" alt-text="Screenshot that shows selecting the More exercises link below a playing meditation video.":::
+    :::image type="content" source="images/wellbeing-headspace-more-exercises2.png" alt-text="Screenshot that shows selecting the More exercises link below a playing meditation video."lightbox="images/wellbeing-headspace-more-exercises2.png":::
 
 ### Run meditations or music in the background 
 
