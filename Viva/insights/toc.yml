@@ -147,6 +147,8 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Keyword suppression
+            href: advanced/admin/keyword-suppression.md
         - name: Analyst
           items:
           - name: Queries
