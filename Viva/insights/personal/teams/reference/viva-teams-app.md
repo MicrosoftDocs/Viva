@@ -38,7 +38,7 @@ By using the Viva Insights app, you can:
 
 ## Privacy
 
-The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](viva-teams-app-privacy.md).
+The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](../privacy.md).
 
 ## How it works
 
