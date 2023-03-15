@@ -114,7 +114,7 @@ To edit your focus plan settings:
 
 Select the **Leave plan** button at top right. 
 
-:::image type="content" source="../teams/images/wellbeing-focus-plan-settings-leave.png" alt-text="Screenshot that shows the top of the Focus plan settings section with the Leave plan button highlighted."lightbox=""../teams/images/wellbeing-focus-plan-settings-leave.png":::
+:::image type="content" source="../teams/images/wellbeing-focus-plan-settings-leave.png" alt-text="Screenshot that shows the top of the Focus plan settings section with the Leave plan button highlighted." lightbox="../teams/images/wellbeing-focus-plan-settings-leave.png":::
 
 Answer the survey question, then select **Leave plan** again.
 
