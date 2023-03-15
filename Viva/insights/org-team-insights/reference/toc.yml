@@ -34,7 +34,7 @@ items:
         - name: Admin tasks
           href: ../../personal/teams/viva-teams-app-admin-tasks.md?toc=/viva/insights/org-team-insights/reference/toc.json&bc=/viva/insights/breadcrumb/toc.json
         - name: FAQ
-          href: ../../personal/teams/faq.md?toc=/viva/insights/org-team-insights/reference/toc.json&bc=/viva/insights/breadcrumb/toc.json       
+          href: ../../personal/teams/reference/viva-teams-app-faq.md       
   - name: Team and organization insights
     items:
         - name: Setup
