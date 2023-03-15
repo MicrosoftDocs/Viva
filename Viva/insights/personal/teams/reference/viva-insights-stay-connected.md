@@ -36,11 +36,11 @@ Based on your collaboration patterns, you can pin some of your contacts as impor
 
 To pin a contact, select the **pin** icon on the bottom left below the contact’s name: 
    
-   ![Screenshot that shows pinning a contact.](Images/pin-contact.png)
+   ![Screenshot that shows pinning a contact.](../images/pin-contact.png)
 
 To unpin a contact, select the **unpin** icon: 
    
-   ![Screenshot that shows unpinning a contact.](Images/unpin-contact.png)
+   ![Screenshot that shows unpinning a contact.](../images/unpin-contact.png)
 
 #### Stay on top of outstanding task suggestions 
 
@@ -52,7 +52,7 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 
 In the following example, you can select **Re: Sync up on Regression Tests** to open the email in which you can follow up or select **Done** to confirm that you’ve already followed up.  
    
-   ![Screenshot that shows task about a meeting called Sync on regression tests email.](Images/sync-up.png)
+   ![Screenshot that shows task about a meeting called Sync on regression tests email.](../images/sync-up.png)
 
 This insight is available in the languages listed in [Briefing languages](../briefing/be-languages.md).
 
@@ -62,13 +62,13 @@ Have you searched for that document that you planned to read but you just cannot
 
 In the following example, to open the document, select **Open**. To open the email through which the document was shared, select **Re: Sync on Regression Test**. 
    
-   ![Screenshot that shows task about unread document from a meeting.](Images/unread-doc.png)
+   ![Screenshot that shows task about unread document from a meeting.](../images/unread-doc.png)
 
 #### @Mentions for pinned important contacts 
 
 @Mention is a common way to tag colleagues on important work items. Microsoft Viva Insights can help you quickly triage recent @Mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up. 
    
-   ![Screenshot that shows task about Sync on virtual commute research.](Images/sync-virtual.png)
+   ![Screenshot that shows task about Sync on virtual commute research.](../images/sync-virtual.png)
 
 #### Upcoming meetings that need your RSVP 
 
@@ -76,7 +76,7 @@ Let your colleagues know if you can join their meeting so that they can run effe
 
 In the following example, select **Sync on Proposal** to open the meeting invitation for more context on the meeting and then select **Accept** to accept (or **Decline** to decline) the meeting invitation. 
    
-   ![Screenshot that shows notification that you haven't RSVP'd.](Images/havent-rsvpd.png)
+   ![Screenshot that shows notification that you haven't RSVP'd.](../images/havent-rsvpd.png)
 
 ## Related topics
 

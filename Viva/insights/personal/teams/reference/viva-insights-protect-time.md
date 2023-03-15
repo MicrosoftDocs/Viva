@@ -53,7 +53,7 @@ You can schedule focus time on the **Protect time** page, as follows:
 
 At any time after the initial setup, you can confirm or change any of the options or leave the plan by selecting the ellipses (**...**) at the top right of the Viva Insights app, selecting **Settings**, then selecting **Protect time** from the left pane.
 
-![Screenshot that shows Focus plan preferences.](Images/protect-time-focus-plan-preferences.png)
+![Screenshot that shows Focus plan preferences.](../images/protect-time-focus-plan-preferences.png)
 
 ### To use focus mode
 
@@ -65,14 +65,14 @@ Focus mode intersperses short breaks within your focus time to help you stay on-
 
 If you pre-booked time to focus—either through a plan or by booking earlier—you’ll get a Teams notification.
 
-![Screenshot that shows the focus mode notification card in Protect time.](Images/focus-mode-teams-reminder.png)
+![Screenshot that shows the focus mode notification card in Protect time.](../images/focus-mode-teams-reminder.png)
 
 To enter focus mode, select this notification. If you don’t select the notification, your calendar will still show the **Focus time** event, your Teams status will update to **Focusing**, and you won’t get Teams notifications unless they’re from priority contacts you set.
 
 >[!Note]
 > If you want to keep using Teams while you’re in focus mode, right-click on the Viva Insights app icon, then select **Pop out app**.
 >
->![Screenshot that shows the using the Pop out app option.](Images/right-click-pop-out.png)
+>![Screenshot that shows the using the Pop out app option.](../images/right-click-pop-out.png)
 
 #### Use features during your focus session
 
@@ -84,22 +84,22 @@ When you launch focus mode, you’ll arrive at the **Timer** section. Here, your
 
 If you increase time, the app asks whether you want to extend your scheduled focus time. You can select the **Add 15 minutes** button to add 15 more minutes to your scheduled time, or you can add another amount by selecting the button’s down arrow.
  
-![Screenshot that shows the "Add 15 minutes" button.](Images/focus-extend.png)
+![Screenshot that shows the "Add 15 minutes" button.](../images/focus-extend.png)
 
 To skip automatically scheduled breaks, select the box next to **Skip breaks**. 
 To adjust other settings, like sounds and how long breaks and focus intervals last, open the **Timer settings**.
 
-![Screenshot that shows setting up the timer.](Images/focus-timer2.png)
+![Screenshot that shows setting up the timer.](../images/focus-timer2.png)
 
 When you’re ready to start your timer, select the **Start focus timer** button. You can stop the focus timer whenever you need to.
 
-![Screenshot that shows the focus timer elapsing.](Images/focus-clock2.png)
+![Screenshot that shows the focus timer elapsing.](../images/focus-clock2.png)
 
 ##### Tasks
 
 You can use the **Tasks** section to help direct your work during your focus session. **Tasks** displays existing tasks from Microsoft To Do, which are either due today or have a reminder set for today.
 
-![Screenshot that shows Tasks options.](Images/focus-mode-tasks-options.png)
+![Screenshot that shows Tasks options.](../images/focus-mode-tasks-options.png)
 
 In addition to viewing your existing tasks, you can:
 
@@ -112,14 +112,14 @@ In addition to viewing your existing tasks, you can:
 
 During breaks between focus intervals, you can use the guided videos in Mindfulness break to catch your breath and reset. After you select **Start** beneath a video, you’ll complete a three- or five-minute exercise before your next focus interval starts.
 
-![Screenshot that shows Mindfulness break options.](Images/focus-mode-mindfulness-break.png)
+![Screenshot that shows Mindfulness break options.](../images/focus-mode-mindfulness-break.png)
 
 
 #### To end a focus session
 
 After your timer runs out, a **Congratulations** message appears. If you want to extend your focus time, select **Restart interval timer**.
 
-![Screenshot that shows focus mode's end screen.](Images/focus-mode-end1.png)
+![Screenshot that shows focus mode's end screen.](../images/focus-mode-end1.png)
 
 If you’re done focusing, you can move forward with your day and continue using Teams. Your Teams status will stop showing as **Focusing** and, if they were muted, you’ll start receiving Teams notifications again.
 
@@ -133,7 +133,7 @@ In the **Quiet time** section on the **Protect time** page, if you haven't sched
 
 After the initial setup, you'll see the following options in **Configure your quiet time**. You can get here by selecting the ellipses (**...**) at the top right of the Viva Insights app, selecting **Settings**, then selecting **Protect time** from the left pane. You can confirm or change any of the quiet-time options or turn quiet time off at any time.
 
-![Screenshot that shows the Quiet time settings.](Images/protect-time-quiet-time-settings.png)
+![Screenshot that shows the Quiet time settings.](../images/protect-time-quiet-time-settings.png)
 
 ## Create other plans
 
@@ -147,19 +147,19 @@ You can create breaks, learning, or message catch-up plans in your Viva Insights
 
 1. Open the Viva Insights app, select the ellipses in the top-right corner of your screen, then select **Settings**.
 
-    ![Screenshot that shows selecting Settings.](Images/settings.png)
+    ![Screenshot that shows selecting Settings.](../images/settings.png)
 
 2. In the **Settings** tab, choose **Protect time** from the left-side menu.
 
-    ![Screenshot that shows the Protect time tab.](Images/protect-time-tab.png)
+    ![Screenshot that shows the Protect time tab.](../images/protect-time-tab.png)
 
 3. Review the different plans, then select **Get started** to join the plan or plans that align with your goals.
 
-    ![Screenshot that shows selecting Get started.](Images/plans-get-started.png)
+    ![Screenshot that shows selecting Get started.](../images/plans-get-started.png)
 
 4. Configure the plan(s) to match your needs. For example, in the **Breaks** plan, select how long you want your breaks to be.
 
-    ![Screenshot that shows Breaks plan preferences.](Images/breaks-plan-preferences.png)
+    ![Screenshot that shows Breaks plan preferences.](../images/breaks-plan-preferences.png)
 
 
 #### Through the Briefing email
@@ -171,15 +171,15 @@ To create a plan through the Briefing email, follow these steps:
 
 1. Select **Book** to reserve time next week to catch up on certain kinds of activities—focus, messages, breaks, or learning.
 
-    ![Screenshot that shows booking time through the Briefing email.](Images/briefing-email-book.png)
+    ![Screenshot that shows booking time through the Briefing email.](../images/briefing-email-book.png)
 
 2. When the email asks whether you want Viva Insights to automatically schedule this time for you, select **Yes**.
 
-    ![Screenshot that shows selecting automatic scheduling.](Images/briefing-email-schedule.png)
+    ![Screenshot that shows selecting automatic scheduling.](../images/briefing-email-schedule.png)
 
 3. Select **Edit settings** to configure your plan to match your needs.
 
-    ![Screenshot that shows selecting Edit settings.](Images/briefing-email-edit-settings.png)
+    ![Screenshot that shows selecting Edit settings.](../images/briefing-email-edit-settings.png)
 
 ### To change or leave a plan
 
@@ -191,7 +191,7 @@ To update your settings:
 2. Make updates.
 3. Select **Save changes**.
 
-    ![Screenshot that shows Breaks plan preferences and selecting Save changes.](Images/breaks-plan-preferences.png)
+    ![Screenshot that shows Breaks plan preferences and selecting Save changes.](../images/breaks-plan-preferences.png)
 
 >[!Note]
 > It might take up to 24 hours for your changes to take effect.
@@ -201,7 +201,7 @@ To leave a plan after joining it:
 1. Select **Settings** in the **Protect time** tab.
 2. Select the **Leave plan** button, located to the right of to the plan you want to leave.
 
-    ![Screenshot that shows selecting Leave plan.](Images/leave-plan.png)
+    ![Screenshot that shows selecting Leave plan.](../images/leave-plan.png)
 
 
 ### Learn more about booking time for plans

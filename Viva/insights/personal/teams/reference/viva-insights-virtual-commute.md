@@ -33,7 +33,7 @@ This message appears at the following times:
 
 In **Protect time**, when prompted with, "Ready to wrap up?", select **Let's go**.
 
-![Screenshot that shows the Virtual commute card with Let's go highlighted.](Images/vc-lets-go-pt1.png)  
+![Screenshot that shows the Virtual commute card with Let's go highlighted.](../images/vc-lets-go-pt1.png)  
 
 When you select this button, your virtual commute starts immediately. For details about the virtual commute experience, refer to [virtual commute sections](#virtual-commute-sections). Starting a virtual commute this way doesn't affect the scheduled days and time of day that you set in [Set up virtual commutes](#set-up-virtual-commutes).
 
@@ -41,7 +41,7 @@ When you select this button, your virtual commute starts immediately. For detail
 
 The first time you open **Protect time**, you're prompted to schedule your virtual commute reminders.
 
-![Screenshot that shows option to schedule virtual commute.](Images/virtual-commute-reminders.png)  
+![Screenshot that shows option to schedule virtual commute.](../images/virtual-commute-reminders.png)  
 
 You can use this prompt to turn on the **Reminder** toggle, then select the days and time of day that you want to see the virtual commute reminder. When you're done, select **Save changes**.
 
@@ -57,7 +57,7 @@ If you need to adjust these settings at any time, you can do so on the **Setting
 
 After you select **Let's go**, your virtual commute starts.
 
-![Screenshot that shows adding a task.](Images/vc-begin.png)
+![Screenshot that shows adding a task.](../images/vc-begin.png)
 
 The commute guides you through the following sections. All sections are optional; to skip a section, just select **Next**.
 
@@ -67,11 +67,11 @@ In **Meetings**, you can review tomorrow’s events—those that last all day, t
 
 If an event needs your RSVP, you can **Accept** or **Decline** it from this screen. 
 
-![Screenshot that shows the option to RSVP to an event.](Images/vc-needs-rsvp3.png) 
+![Screenshot that shows the option to RSVP to an event.](../images/vc-needs-rsvp3.png) 
 
 If you don’t have any events coming up tomorrow, you’ll see open blocks on your calendar that you can use for focus time, instead. Select **Book time** to add that focus time to your calendar.
 
-![Screenshot that shows the option to book focus time.](Images/vc-no-events1.png) 
+![Screenshot that shows the option to book focus time.](../images/vc-no-events1.png) 
 
 When you’re ready to move to the next section, select **Next** at the bottom-right of the page.
 
@@ -85,13 +85,13 @@ In addition to viewing your existing tasks, you can do a few other things in thi
 
 * **Add a suggested task surfaced from Outlook or Teams.** If To Do notices a potential task in your chats or emails, a notification appears above **Your tasks**. Select the down arrow to expand the message. If you want to put this task on your To Do list, select the **Add to your tasks** button. 
 
-    ![Screenshot that shows adding a suggested task.](Images/vc-suggested-task.png)
+    ![Screenshot that shows adding a suggested task.](../images/vc-suggested-task.png)
 
 * **Cross a completed task off your list.** Select the circle to the left of the task name, which sends the task to your **Tasks completed today** list. If you want to delete the task from To Do, select the trash can icon to the right of the task name.
 
 * **Set a reminder.** Select the ellipses (…) to the right of the task name, then pick a time you want to be reminded. Reminders appear in your Microsoft To Do list and in your Briefing email, if you’re subscribed to receive Briefing emails. You can also **Edit** and **Delete** tasks from this menu.
 
-    ![Screenshot that shows setting a reminder.](Images/vc-set-reminder.png)
+    ![Screenshot that shows setting a reminder.](../images/vc-set-reminder.png)
 
 >[!Important]
 >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
@@ -106,7 +106,7 @@ After you’re done reviewing and managing your tasks, select **Next** to move t
 * If you have access to Headspace, a few guided meditation videos
 * The opportunity to reflect, just like you would using the [Reflect](viva-insights-reflect.md) feature on the **Home** page
 
-![Screenshot that shows the Wind down section.](Images/vc-wind-down1.png)
+![Screenshot that shows the Wind down section.](../images/vc-wind-down1.png)
 
 **Start** one or more of these activities to help transition to the next part of your day.
 

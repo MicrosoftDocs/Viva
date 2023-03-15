@@ -33,13 +33,13 @@ The **Meeting habits** section highlights your habits or practices in meetings y
 
    |Icon|Description |
    |--|---|
-   |![recur icon.](../../teams/Images/me-icon-recurring-invited.png) |  This meeting is recurring |
-   |![recur, organized by you icon.](../../teams/Images/me-icon-recurring-by-you.png)|This meeting is recurring and you organized it
-   |![Invited icon.](../../teams/Images/me-icon-invited.png)|You were invited to this meeting
-    |![Organized icon](../../teams/images/me-icon-organized-you.png)| You organized this meeting
-   | ![check mark icon.](../../teams/images/me-icon-yes.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
-   |![X icon.](../../teams/images/me-icon-no.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
-   |![dash icon.](../../teams/images/me-icon-na.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
+   |![recur icon.](../Images/me-icon-recurring-invited.png) |  This meeting is recurring |
+   |![recur, organized by you icon.](../Images/Images/me-icon-recurring-by-you.png)|This meeting is recurring and you organized it
+   |![Invited icon.](../Images/me-icon-invited.png)|You were invited to this meeting
+    |![Organized icon](../images/me-icon-organized-you.png)| You organized this meeting
+   | ![check mark icon.](../Images/me-icon-yes.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
+   |![X icon.](../Images/me-icon-no.png) |This meeting doesn't meet the requirement of the habit in the column header. For example, if the meeting didn't start on time, you'd see an **X** under **On time**. |
+   |![dash icon.](../Images/me-icon-na.png) |Not applicable. The  habit in the column header doesn't apply to this meeting. For example, **On time** doesn't apply to a canceled meeting, so you'd see a dash instead of a check or an **X**. |
 
 You can sort this table by selecting the column header.
 
