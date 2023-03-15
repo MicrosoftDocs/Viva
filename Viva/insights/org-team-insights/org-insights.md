@@ -16,6 +16,9 @@ audience: user
 
 # Organization insights in Viva Insights
 
+>[!Note]
+>The Viva Insights app is being redesigned over the coming weeks. Here's an overview of what's changing: [Viva Insights app redesign](../personal/reference/viva-insights-app-redesign.md). 
+
 Organization insights help leaders and managers of large teams understand how their organizations—the people who report to them directly or indirectly—are succeeding at work. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
 ## Subscriptions, roles, and access
