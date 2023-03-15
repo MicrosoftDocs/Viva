@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 02/17/2023
 title: Viva Insights app introduction
 description: Learn about the Microsoft Viva Insights app 
@@ -20,6 +19,11 @@ audience: user
 ---
 
 # Viva Insights app in Teams and on the web
+
+>[!Note]
+>The Viva Insights app is being redesigned over the coming weeks. Here's an overview of what's changing: [Viva Insights app redesign](../personal/reference/viva-insights-app-redesign.md). 
+>
+>If you don't yet see the new app experience, find previous documentation at this link: [Viva Insights Home](./reference/viva-insights-home.md).
 
 The Microsoft Viva Insights app in Microsoft Teams and on the web shows you personalized recommendations that help you do your best work. Get insights for building better work habits, like following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 

@@ -23,6 +23,12 @@ audience: Admin, user
 
 *Applies to: people with a premium Viva Insights subscription and one or more people directly reporting to them*
 
+>[!Note]
+>The Viva Insights app is being redesigned over the coming weeks. Here's an overview of what's changing: [Viva Insights app redesign](../personal/reference/viva-insights-app-redesign.md). 
+>
+>If you don't yet see the new app experience, find previous documentation at this link: [Teamwork habits](./reference/teamwork-habits.md).
+
+
 Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find team meeting habits on the [Productivity](../personal/teams/productivity.md) tab
 
 Throughout this document, we'll link you to where you can find more detailed information.
