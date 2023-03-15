@@ -22,13 +22,13 @@ Workplaces that balance fluid collaboration patterns alongside capacity for indi
 
 You can find the **Employee wellbeing** page in the Viva Insights app, within the **Organization trends** tab.
 
-![Screenshot that shows the Employee wellbeing page.](../Images/WpA/Use/employee-wellbeing1.png)
+![Screenshot that shows the Employee wellbeing page.](../../images/WpA/Use/employee-wellbeing1.png)
 
 ## Balance
 
 ### Protect time outside of working hours
 
-:::image type="content" alt-text="Screenshot that shows the 'Protect time outside of working hours' insight with a percentage insight, a distribution of average weekly time spent collaborating after hours, and a 'Take action' section."source="../Images/WpA/Use/org-trends-wellbeing-balance.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Protect time outside of working hours' insight with a percentage insight, a distribution of average weekly time spent collaborating after hours, and a 'Take action' section."source="../../images/WpA/Use/org-trends-wellbeing-balance.png":::
 
 #### Insights
 
@@ -38,7 +38,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who are working after hours for more than three hours each week | [After-hours collaboration](../advanced/reference/metrics.md#after-hours-collaboration-define)| Percentage of employees who spend more than one hour collaborating through emails, calls, chats, and meetings after hours. This percentage is calculated weekly and averaged over the entire time period.|
+|Percentage of employees who are working after hours for more than three hours each week | [After-hours collaboration](../../advanced/reference/metrics.md#after-hours-collaboration-define)| Percentage of employees who spend more than one hour collaborating through emails, calls, chats, and meetings after hours. This percentage is calculated weekly and averaged over the entire time period.|
 
 |Visual insight  | Definition  
 |----------|-----------|
@@ -52,17 +52,17 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 Here are ways to support employee wellbeing:
 
-* Schedule [quiet time](../personal/teams/viva-insights-protect-time.md#configure-quiet-time) to mute notifications after hours. Consistently working outside of your regularly scheduled hours can increase the chance of burnout. To help unplug from the work day, use Viva Insights quiet time to mute mobile notifications from Outlook and Teams between the hours you choose.
-* Schedule delivery of emails using the [Outlook Insights add-in](../personal/use/schedule-send.md). Scheduled delivery helps to minimize disruptions to recipients outside their working hours or when they’re away from work. It helps to maintain the flexibility of work hours, while being considerate of others.
-* Wrap up the day with [virtual commute](../personal/teams/viva-insights-virtual-commute.md) from Viva Insights.
+* Schedule [quiet time](../../personal/teams/reference/viva-insights-protect-time.md#configure-quiet-time) to mute notifications after hours. Consistently working outside of your regularly scheduled hours can increase the chance of burnout. To help unplug from the work day, use Viva Insights quiet time to mute mobile notifications from Outlook and Teams between the hours you choose.
+* Schedule delivery of emails using the [Outlook Insights add-in](../../personal/use/schedule-send.md). Scheduled delivery helps to minimize disruptions to recipients outside their working hours or when they’re away from work. It helps to maintain the flexibility of work hours, while being considerate of others.
+* Wrap up the day with [virtual commute](../../personal/teams/viva-insights-virtual-commute.md) from Viva Insights.
 
-For more best practices and ways to protect employees after hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
+For more best practices and ways to protect employees after hours, see [Best practices for wellbeing](../../tutorials/gm-wellbeing.md).
 
 ## Capacity
 
 ### Help teams find time to finish their work
 
-:::image type="content" alt-text="Screenshot that shows the 'Help teams find time to finish their work' insight with a percentage insight, a distribution of uninterrupted weekly time, and a 'Take action' section." source="../Images/WpA/Use/org-trends-wellbeing-capacity1.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Help teams find time to finish their work' insight with a percentage insight, a distribution of uninterrupted weekly time, and a 'Take action' section." source="../../images/WpA/Use/org-trends-wellbeing-capacity1.png":::
 
 #### Insights
 
@@ -72,7 +72,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who get less than 10 hours of weekly uninterrupted time for work | [Available-to-focus hours](../advanced/reference/metrics.md#available-to-focus-hours-define)| This calculation is based on the percentage of employees who have less than 10 hours available to focus each week. It's calculated weekly and averaged over the time period.
+|Percentage of employees who get less than 10 hours of weekly uninterrupted time for work | [Available-to-focus hours](../../advanced/reference/metrics.md#available-to-focus-hours-define)| This calculation is based on the percentage of employees who have less than 10 hours available to focus each week. It's calculated weekly and averaged over the time period.
 
 |Visual insight  | Definition |
 |----------------|------------|
@@ -94,7 +94,7 @@ For more best practices and ways to establish a "no meeting" period, see [Best p
 
 ### Keep a pulse on collaboration overload
 
-:::image type="content" alt-text="Screenshot that shows the 'Keep a pulse on collaboration overload' insight with a percentage insight, a distribution of collaboration hours per week, and a 'Take action' section." source="../Images/WpA/Use/org-trends-wellbeing-capacity2.png":::
+:::image type="content" alt-text="Screenshot that shows the 'Keep a pulse on collaboration overload' insight with a percentage insight, a distribution of collaboration hours per week, and a 'Take action' section." source="../../images/WpA/Use/org-trends-wellbeing-capacity2.png":::
 
 ### Insights
 
@@ -104,7 +104,7 @@ Here's some information about how those metrics are calculated:
 
 |Percentage insight  |Metric| Calculation  
 |----------|-----------|-----------------|
-|Percentage of employees who spend 20+ hours in collaboration every week| [Collaboration hours](../advanced/reference/metrics.md#collaboration-hours-define)| Percentage of employees who spend more than 20 hours each week collaborating through Microsoft Outlook and Teams. This insight is calculated weekly and averaged for the entire time period.
+|Percentage of employees who spend 20+ hours in collaboration every week| [Collaboration hours](../../advanced/reference/metrics.md#collaboration-hours-define)| Percentage of employees who spend more than 20 hours each week collaborating through Microsoft Outlook and Teams. This insight is calculated weekly and averaged for the entire time period.
 
 |Visual insight  |Definition|
 |----------|-----------|
@@ -122,7 +122,7 @@ Here are ways to reduce meeting time:
 * Consider declining meetings that aren’t a priority. Encourage employees to politely say no to meetings that lack an agenda or are misaligned with priorities.
 * Use Teams channels as an alternative to meetings. Channels provide team members with a new way to get questions answered and provide updates without the need for a meeting.
 
-For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
+For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../../tutorials/gm-meetings.md).
 
 ## Insights for leaders
 
@@ -130,7 +130,7 @@ If you're assigned the **Insights Business Leader** role in Microsoft Viva Insig
 
 ### Drive team cohesion
 
-![Screenshot that shows the team cohesion insight.](../Images/WpA/Use/org-leader-community.png)
+![Screenshot that shows the team cohesion insight.](../../images/WpA/Use/org-leader-community.png)
 
 #### Insight
 
@@ -156,5 +156,5 @@ According to the [Rebuilding companies as communities](https://insights.office.c
 
 Here are a couple of ways to improve team cohesion:
 
-* Add colleagues to your [important people list](../personal/use/use-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
+* Add colleagues to your [important people list](../../personal/use/use-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
