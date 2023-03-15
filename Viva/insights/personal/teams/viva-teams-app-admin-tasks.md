@@ -67,7 +67,7 @@ As the admin, you can configure the meeting effectiveness surveys for your organ
 Confirm the following before configuring access:
 
 * **Admin role** - You need to have a Global admin or an Exchange Online admin role to configure users for meeting effectiveness surveys in the Microsoft 365 admin center. To configure individual users through PowerShell, you need to have an Exchange Online admin, a Global admin, or an Insights admin role.
-* **Understand data privacy** - See the [Privacy guide](./privacy.md) to understand how privacy is built into meeting effectiveness surveys and to learn what you can configure to address your organization's specific privacy requirements.
+* **Understand data privacy** - See the [Privacy guide](privacy.md) to understand how privacy is built into meeting effectiveness surveys and to learn what you can configure to address your organization's specific privacy requirements.
 
 ### Tenant-level configuration
 
