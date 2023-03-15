@@ -23,7 +23,7 @@ The following are the most frequently asked questions about personal insights wi
 
 ##### Q1. Does the Microsoft Viva Insights app comply with GDPR? 
 
-**A1.** Yes. The Viva Insights app complies with GDPR requirements. (See [GDPR compliance](viva-teams-app-privacy.md#gdpr-compliance).)
+**A1.** Yes. The Viva Insights app complies with GDPR requirements. (See [GDPR compliance](../privacy.md#gdpr-compliance).)
 
 ##### Q2. Can users see information about other users in the Viva Insights app?
 
@@ -37,11 +37,11 @@ The following are the most frequently asked questions about personal insights wi
 
 **A4.** In the bottom-right corner of each page, the Insights app asks, "Is this helpful?". Select **Yes** or **No** to provide feedback.  
 
-:::image type="content" source="images/feedback.png" alt-text="Screenshot that shows the Protect your time section with the Is this helpful? question, with Yes and No links, highlighted in the bottom-right corner.":::
+:::image type="content" source="../images/feedback.png" alt-text="Screenshot that shows the Protect your time section with the Is this helpful? question, with Yes and No links, highlighted in the bottom-right corner.":::
 
 After you select **Yes** or **No**, a dialog box shows up. Use this share more feedback, and then select the **Submit** button. 
 
-:::image type="content" source="images/feedback-more-info.png" alt-text="Screenshot that shows a text-input box for users to provide more feedback.":::
+:::image type="content" source="../images/feedback-more-info.png" alt-text="Screenshot that shows a text-input box for users to provide more feedback.":::
 
 ##### Q5. What data does the Viva Insights app use?
 
