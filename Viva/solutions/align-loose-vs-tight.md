@@ -89,7 +89,7 @@ In his book *OKRs for All*, Viva Goals CVP Vetri Vellore states, “Tight alignm
 
 Here are some reasons why:
 
-- Using tight alignment, the key result of one level becomes the objective of the next level. The challenge with this approach is that that the very definition of OKRs quickly gets muddled. In other words, key results are focused, measurable, metrics based on outcomes. When that KR becomes the Objective below it, it still contains those measurable metrics, instead of being aspirational goals. 
+- Using tight alignment, the key result of one level becomes the objective of the next level. The challenge with this approach is that the very definition of OKRs quickly gets muddled. In other words, key results are focused, measurable, metrics based on outcomes. When that KR becomes the Objective below it, it still contains those measurable metrics, instead of being aspirational goals. 
 
 - With tight alignment, the first draft of the company’s key result, which becomes the objective for the department/team below it, was written by the CEO. Then it's edited by the department’s objective owner. With loose alignment, the department objective is drafted by the department that will own it, and agreed upon by the CEO. It’s a subtle shift, but loose alignment helps drive more bottom up alignment and sense of ownership. 
 
