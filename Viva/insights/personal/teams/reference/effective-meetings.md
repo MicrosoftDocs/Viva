@@ -169,7 +169,7 @@ As the meeting organizer, you’ll only see aggregated results in Viva Insights.
 
 ### Admin controls
 
-To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](../../viva-teams-app-admin-tasks.md?toc=/viva/insights/org-team-insights/reference/toc.json&bc=/viva/insights/breadcrumb/toc.json#configure-meeting-effectiveness-surveys).
+To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](../viva-teams-app-admin-tasks.md?toc=/viva/insights/org-team-insights/reference/toc.json&bc=/viva/insights/breadcrumb/toc.json#configure-meeting-effectiveness-surveys).
 
 ## Related topics
 
