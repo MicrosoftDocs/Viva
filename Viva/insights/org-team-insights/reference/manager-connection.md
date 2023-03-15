@@ -39,7 +39,7 @@ Here's some information about how those metrics are calculated:
 
 Percentage insight |Metric | Calculation| 
 |----------|-----------|----------------|
-|Percentage of employees who have less than one hour of 1:1 time with their managers each month| [Meeting hours with manager 1:1](../advanced/reference/metrics.md#meeting-hours-with-manager-1-1-define)| The percentage of employees who spend less than one hour of coaching time with their managers each month. This percentage is calculated monthly and averaged over the entire time period.|
+|Percentage of employees who have less than one hour of 1:1 time with their managers each month| [Meeting hours with manager 1:1](../../advanced/reference/metrics.md#meeting-hours-with-manager-1-1-define)| The percentage of employees who spend less than one hour of coaching time with their managers each month. This percentage is calculated monthly and averaged over the entire time period.|
 
 |Visual insight| Definition|
 |--------------|-----------|
@@ -159,5 +159,3 @@ Here are some ways to foster connectivity:
 * Create cross-team communities for people with similar interests to share ideas, knowledge, and resources. This can also be done using [Teams channels](/microsoftteams/teams-channels-overview).
 * Enable and use the [Viva Insights Outlook add-in](../personal/use/use-insights.md) and [Stay connected](../personal/teams/reference/viva-insights-stay-connected.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.
 * Create a shared [Teams channel](/microsoftteams/teams-channels-overview) to strengthen connectivity through channel interactions about projects, strategic topics, and goals to enable information sharing, brainstorming, and team building.
-
-<!--Best practices-->
