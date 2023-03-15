@@ -54,7 +54,7 @@ In the following example, you can select **Re: Sync up on Regression Tests** to 
    
    ![Screenshot that shows task about a meeting called Sync on regression tests email.](../images/sync-up.png)
 
-This insight is available in the languages listed in [Briefing languages](../briefing/be-languages.md).
+This insight is available in the languages listed in [Briefing languages](../../briefing/be-languages.md).
 
 #### Catch up on unread documents shared with you 
 

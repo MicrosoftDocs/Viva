@@ -52,7 +52,7 @@ For the next three cards, you can take a quick action while remaining on the Hom
 
 ## Up-next card
 
-On the Home page, the top card shown in the upper left alerts you in various ways based on the time of day and the events in your calendar. For example, if your lunch time (as configured in [the Outlook add-in](../use/use-the-insights.md#set-lunch-hours)) is approaching, the **Up-next** card will let you know how soon:
+On the Home page, the top card shown in the upper left alerts you in various ways based on the time of day and the events in your calendar. For example, if your lunch time (as configured in [the Outlook add-in](../../use/use-the-insights.md#set-lunch-hours)) is approaching, the **Up-next** card will let you know how soon:
 
 ![Lunch approaching.](../images/lunch-break.png)
 

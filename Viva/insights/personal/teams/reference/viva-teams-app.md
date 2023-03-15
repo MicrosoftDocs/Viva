@@ -50,8 +50,8 @@ The personal insights and actions in the Viva Insights app are based on your Exc
 ## Related topics
 
 * [Viva Insights Home](viva-insights-home.md)
-* [Privacy guide](viva-teams-app-privacy.md)
-* [Discover and pin the Viva Insights app](viva-teams-app-install.md)
-* [FAQ](viva-teams-app-faq.md)
-* [Admin tasks](viva-teams-app-admin-tasks.md)
+* [Privacy guide](../privacy.md)
+* [Discover and pin the Viva Insights app](../viva-teams-app-install.md)
+* [FAQ](../faq.md)
+* [Admin tasks](../viva-teams-app-admin-tasks.md)
 

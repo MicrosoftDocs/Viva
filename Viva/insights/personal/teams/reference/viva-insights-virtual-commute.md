@@ -94,7 +94,7 @@ In addition to viewing your existing tasks, you can do a few other things in thi
     ![Screenshot that shows setting a reminder.](../images/vc-set-reminder.png)
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../../use/add-in.md) or [Viva Insights app in Teams](viva-teams-app.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](briefing-pause.md).
 
 After you’re done reviewing and managing your tasks, select **Next** to move to the last section.
 

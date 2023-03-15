@@ -143,7 +143,7 @@ In addition to focus plans, Viva Insights can also help you protect time on your
 
 ### To create a breaks, learning, or message catch-up plan
 
-You can create breaks, learning, or message catch-up plans in your Viva Insights app or in the Briefing email you get on Fridays. To create a plan through Briefing, refer to our [Briefing documentation](../briefing/be-time.md). To create a plan through the app, follow these steps:
+You can create breaks, learning, or message catch-up plans in your Viva Insights app or in the Briefing email you get on Fridays. To create a plan through Briefing, refer to our [Briefing documentation](../../briefing/be-time.md). To create a plan through the app, follow these steps:
 
 1. Open the Viva Insights app, select the ellipses in the top-right corner of your screen, then select **Settings**.
 
@@ -165,7 +165,7 @@ You can create breaks, learning, or message catch-up plans in your Viva Insights
 #### Through the Briefing email
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still create plans through the Viva Insights app, as we discussed in the previous section. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+>We've paused sending Briefing emails to make some improvements. You can still create plans through the Viva Insights app, as we discussed in the previous section. For more information about this change, refer to [Briefing pause](../../reference/briefing-pause.md).
 
 To create a plan through the Briefing email, follow these steps:
 
@@ -206,7 +206,7 @@ To leave a plan after joining it:
 
 ### Learn more about booking time for plans
 
-To learn more about the concepts behind these plans, refer to [Focus plan](../Use/focus-plan.md#concepts).
+To learn more about the concepts behind these plans, refer to [Focus plan](../../Use/focus-plan.md#concepts).
 
 ## Related topics
 

@@ -154,7 +154,7 @@ From the **Settings** page:
 ## Praise history
 
 >[!Note]
->Praise history is only available for users with Exchange Online mailboxes. Mailboxes hosted on-premises aren't supported. For more details about plans, refer to our [FAQ](../overview/Mya-faq.md#q1-how-can-i-find-out-what-my-plan-is).
+>Praise history is only available for users with Exchange Online mailboxes. Mailboxes hosted on-premises aren't supported. For more details about plans, refer to our [FAQ](../../overview/Mya-faq.md#q1-how-can-i-find-out-what-my-plan-is).
 
 To find a history of all the praise messages you've sent and received over the last six months, select **View history** at the bottom of your praise feed.
 

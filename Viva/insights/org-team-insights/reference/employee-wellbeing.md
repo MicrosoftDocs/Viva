@@ -90,7 +90,7 @@ Here are ways to support focus time:
 * Create a team norm to not send chats to team members who are in focus mode and displaying the focus status symbol in Microsoft Teams.
 * Schedule focus time in Viva Insights. When you schedule regular focus-time sessions into your calendar, Viva Insights helps protect your time by silencing chats and setting your Teams status to focusing.
 
-For more best practices and ways to establish a "no meeting" period, see [Best practices for focus time](../tutorials/gm-focus.md).
+For more best practices and ways to establish a "no meeting" period, see [Best practices for focus time](../../tutorials/gm-focus.md).
 
 ### Keep a pulse on collaboration overload
 

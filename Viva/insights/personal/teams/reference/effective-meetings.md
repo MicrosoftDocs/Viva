@@ -34,7 +34,7 @@ The **Meeting habits** section highlights your habits or practices in meetings y
    |Icon|Description |
    |--|---|
    |![recur icon.](../Images/me-icon-recurring-invited.png) |  This meeting is recurring |
-   |![recur, organized by you icon.](../Images/Images/me-icon-recurring-by-you.png)|This meeting is recurring and you organized it
+   |![recur, organized by you icon.](../Images/me-icon-recurring-by-you.png)|This meeting is recurring and you organized it
    |![Invited icon.](../Images/me-icon-invited.png)|You were invited to this meeting
     |![Organized icon](../images/me-icon-organized-you.png)| You organized this meeting
    | ![check mark icon.](../Images/me-icon-yes.png)| This meeting meets the requirement of the habit in the column header. For example, if the meeting started on time, you'd see a check under **On time**. |
@@ -169,7 +169,7 @@ As the meeting organizer, you’ll only see aggregated results in Viva Insights.
 
 ### Admin controls
 
-To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](./viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys).
+To configure meeting effectiveness surveys for your organization at the user or tenant level, refer to [Admin tasks](../viva-teams-app-admin-tasks.md#configure-meeting-effectiveness-surveys).
 
 ## Related topics
 
