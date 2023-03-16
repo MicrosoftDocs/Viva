@@ -57,7 +57,7 @@ Let's take a look at how to use these features:
 
 1. **Scope information** 
 
-     At the top-right of any page or section with organization insights, an indicator shows how many people the insight(s) is measuring. If you're enabled as a group manager *and* you have the **Insights Business Leader** role assigned, you can use this toggle to view insights for either your reporting organization or for the entire company.
+     At the top-right of any page or section with organization insights, an indicator shows how many people the insights are measuring. If you're enabled as a group manager *and* you have the **Insights Business Leader** role assigned, you can use this toggle to view insights for either your reporting organization or for the entire company.
 
     The measured group reflects people who:
 
@@ -76,12 +76,7 @@ Let's take a look at how to use these features:
    **Insight details** is your jumping-off point to explore context about your measured results. When you select **Show details**, Viva Insights brings you to the insight drill-down page. This page contains information like trend lines, peer comparisons, comparisons across groups within your organization, and distributions.
 
     >[!Note] 
-    >Comparisons across groups are only available if you have teams that report into you that each meet the minimum group size threshold set by your Insights admin. If any of the teams that report into you do not meet the minimum group size, then granular data for that team will not be available.
-
-    
-    :::image type="complex" source="images/org-insights-detail-page-reg.png" alt-text="Screenshot that shows the insight detail page for Uninterrupted focus hours." lightbox="images/org-insights-detail-page-reg.png":::
-       Screenshot of the Details page for the "Uninterrupted focus hours" insight. The title of the page reads, "Uninterrupted focus hours" with an information icon. The subtitle reads, "Is there time for individual work?". Below the subtitle is a numerical indicator, as described earlier, with text about an increase. A description of the indicator sits below the indicator and contains an information icon. Below the description is a line graph. On the right of the screen is a card titled, "Block time for focus" that allows users to start a shared focus plan. The card contains a "Set up plan" button and "More actions" links. In the top right of the screen, there's a scope selector indicating that data is being shown for the organization.
-    :::image-end:::
+    >About comparisons across groups: if a team that reports into you doesn't meet the minimum group size set by your Insights admin, then granular data for that team won't be available.
 
 1. **Sharing** 
 
