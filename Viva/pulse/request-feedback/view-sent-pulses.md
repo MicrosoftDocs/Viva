@@ -27,8 +27,8 @@ Feedback authors can view the pulses they requested from their teams.
 
 1. When the Pulse request is open, from the Viva Pulse homepage **My pulses** section, under the **Pulses sent** tab, select the **…** on the card to open the overflow menu and complete any of the following actions:
     1. Extend the deadline. Note that you can only extend the deadline of your Pulse request up to a maximum of six times.
-    1. Add more feedback providers
-    1. Copy the link to the Pulse request
+    1. Add more feedback providers.
+    1. Copy the link to the Pulse request.
     1. Cancel the feedback request. 
 1. When the Pulse request is closed and you have met the minimum confidentiality threshold, select the **…** on the card to open the overflow menu and complete any of the following actions:
     1. Resend the request.
