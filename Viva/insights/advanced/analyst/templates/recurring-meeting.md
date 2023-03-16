@@ -100,3 +100,4 @@ To find the **Settings** page, select the **Settings** link in the top-right cor
 |**Search meeting series name**| Filter which meetings appear in your report based on a keyword in their titles. For example, if you only want to include meetings that have “monthly” in the title, you’d add “monthly” as a keyword in the search bar here. <br><br>If the meeting organizer modifies the title, the report uses the most recent title for the meeting series name. The report allows one keyword at a time.|
 |**Don’t include in the report**|Select the check box to leave out meetings that are probably blocks on people’s calendars. These blocks might be no-meeting days or similar events where people accept the invitation, but no one joined the meeting on Teams for the entire series. Deselect this box to include all meetings.
 
+[!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
