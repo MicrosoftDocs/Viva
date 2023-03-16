@@ -124,7 +124,7 @@ Create a folder to store learning content for your organization.
 
     ![Screenshot of a folder called Training Materials in the document library.](../media/learning/spfolder-8.png)
 
-4. Upload files that you want to publish as learning content in this folder. Apply M365 permissions to the folders that contain learning objects and to any items within the folders that have unique permissions. [Learn how to use permissions for learning content](sharepoint-permissions.md).
+4. Upload files that you want to publish as learning content in this folder. Apply Microsoft 365 permissions to the folders that contain learning objects and to any items within the folders that have unique permissions. [Learn how to use permissions for learning content](sharepoint-permissions.md).
 ​
 5. To get the folder url, choose this folder and select **Copy link**.
 
@@ -163,9 +163,11 @@ You can add links to both internal content from SharePoint and external content 
 
 Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning by the Microsoft Graph API.
 
-To improve overall discovery and search relevance of the content, we recommend adding columns for description, a thumbnail URL, content duration, content author, and tags. If there's already a description column present, you can delete it and add a new one by following the steps below.
+Improve overall discovery and search relevance of the content by adding columns for description, thumbnail URL, duration, author, and tags.
 
-To add a metadata field, follow these steps first.
+If there's already a description column present, you can delete it and add a new one by following the steps below.
+
+To add a metadata field, follow these steps first:
 
 > [!IMPORTANT]
 > You'll need to use the column names exactly as they're provided here for the metadata to pull through. Adding metadata is optional, but if it's not configured correctly, the learning objects and any changes to those objects will also not pull through.
@@ -241,10 +243,17 @@ Knowledge admins can access their organization's Learning App Content Repository
 
 ## Multi-geo
 
-If you're using [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo), the site URL provided by the knowledge admin (where the Learning App Content Repository will be located) needs to belong to the central location where your Microsoft 365 subscription was originally provisioned. Folders linked to in the repository should also belong to the central location. Viva Learning has added this restriction to conform to data residency requirements. 
-In case you encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers) for a detailed summary of successful and failed content ingestions. 
+[Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) is designed to meet data residency requirements. 
 
-[Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) is designed to meet data residency requirements. For more information, see [Multi-geo capabilities in SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
+
+The site URL provided by the knowledge admin where the Learning App Content Repository resides needs to belong to the central location where your Microsoft 365 subscription was originally provisioned. 
+
+Folders linked to in the repository should also belong to the central location. Viva Learning has added this restriction to conform to data residency requirements. 
+
+In case you encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers) for a detailed summary of successful and failed content ingestions.
+
+For more information, see [Multi-geo capabilities in SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
+
 
 ## Next steps
 
