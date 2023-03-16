@@ -31,11 +31,11 @@ To view organization insights:
 * Your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
 * You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
 
-People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
+People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. These employees are referred to as "measured employees." If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
 
 ### Insights by role
 
-People with the **Insights Business Leader** role assigned to them can access organization insights that include every person in their tenant who has a Viva Insights subscription. 
+People with the **Insights Business Leader** role assigned to them can access organization insights that include every measured employee in their tenant. 
 
 People enabled as group managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the **Insights Business Leader** role and also enabled you as a group manager, you can toggle between the two organization insights views.
 
@@ -55,13 +55,17 @@ Organization insights are more than just a dashboard—they also provide helpful
 
 Let's take a look at how to use these features:
 
-1. **Scope selector** 
-    
-    *Applies to: people who are enabled as a group manager **and** are assigned the **Insights Business Leader** role*
+1. **Scope information** 
 
-     At the top-right of any page or section with organization insights, an indicator shows how many people the insight is measuring. If you're enabled as a group manager *and* you have the **Insights Business Leader** role assigned, you can toggle between your reporting organization and the entire company.
+     At the top-right of any page or section with organization insights, an indicator shows how many people the insights are measuring. If you're enabled as a group manager *and* you have the **Insights Business Leader** role assigned, you can use this toggle to view insights for either your reporting organization or for the entire company.
 
-    The measured group count reflects the number of people who report to you directly or indirectly, according to the reporting hierarchy your Insights admin maintains, who also have Viva Insights premium subscriptions.  
+    The measured group reflects people who:
+
+    * Are in your reporting hierarchy, based on the organizational structure that your Insights admin maintains.
+    * Have a Viva Insights subscription (that is, a premium license) applied to their account.
+    * During the week that the insight is generated for, were active in Outlook or Teams.
+
+    People need to meet *all* of these criteria to be part of the measured group reflected here—that is, your scope. Select the tooltip on the toggle to view this criteria while you're viewing insights.
 
 1. **Indicators**
 
@@ -69,16 +73,15 @@ Let's take a look at how to use these features:
 
 1. **Details**
 
-    Insight details give you additional context for understanding the measured results. These details can include trend lines, peer comparisons, comparisons across groups within your organization, and distributions. When you select the **Show details** link, Viva Insights brings you to a separate page. Expand the following image for a sample view of a detail page.
-    
-    :::image type="complex" source="images/org-insights-detail-page-reg.png" alt-text="Screenshot that shows the insight detail page for Uninterrupted focus hours." lightbox="images/org-insights-detail-page-reg.png":::
-       Screenshot of the Details page for the "Uninterrupted focus hours" insight. The title of the page reads, "Uninterrupted focus hours" with an information icon. The subtitle reads, "Is there time for individual work?". Below the subtitle is a numerical indicator, as described earlier, with text about an increase. A description of the indicator sits below the indicator and contains an information icon. Below the description is a line graph. On the right of the screen is a card titled, "Block time for focus" that allows users to start a shared focus plan. The card contains a "Set up plan" button and "More actions" links. In the top right of the screen, there's a scope selector indicating that data is being shown for the organization.
-    :::image-end:::
+   **Insight details** is your jumping-off point to explore context about your measured results. When you select **Show details**, Viva Insights brings you to the insight drill-down page. This page contains information like trend lines, peer comparisons, comparisons across groups within your organization, and distributions.
+
+    >[!Note] 
+    >About comparisons across groups: if a team that reports into you doesn't meet the minimum group size set by your Insights admin, then granular data for that team won't be available.
 
 1. **Sharing** 
 
     Sharing is available for most insight cards. You can share an insight in one of two ways:
-    * **In a Teams chat** – When you share through a chat, you'll send a screenshot of the insight to another person. You can add a message if you want. The chat contains a link so the recipient can go to their own insights.
+    * **In a Teams chat** – When you share through a chat, you'll have the option to send a screenshot of the insight to another person and add a custom message. The chat contains a link, so the recipient can view how the insight looks for their own team. Recipients need to qualify for organization insights to be able to view what you share with them here.
     
         :::image type="complex" source="images/org-insights-share-chat1.png" alt-text="Screenshot that shows sharing an insight by chat.":::
            Screenshot of the "Share via chat" window. The title reads, "Start adding people to share." Beneath the title is a "Send to" field where users can add recipients. This field currently contains a recipient, showing their profile image and name, with an X button to cancel. Beneath "Send to" is a "Leave a note" field which includes user-entered text. Beneath "Leave a note," a box next to the text, "Include a preview of my own insight" is checked. In the bottom portion of the window, there's a "Preview" section that shows what the recipient will see. The message title reads, "Elvia Atkins shared insights with you." Below the message title, there's the note the sender wrote above. Part of the insight is visible in the preview. In the bottom right of the window, there's a "Done" button.
@@ -104,7 +107,7 @@ Let's take a look at how to use these features:
 
 * <a name="current-period-define"></a> **Current period** – Unless otherwise stated, most insights are showing the result for the most recent period—that usually means the most recent complete week of data. A few insights use a four-week or rolling four-week window instead, to smooth normal variability and make it easier to understand the insight. If an insight uses something other than the most recent week for the current period, you will see it called out on the insight card. 
 * <a name="employees-define"></a> **Employees** – Organization insights provide measures for groups of employees, and are meant to capture what typical workday activity looks like for those employees. To avoid skewing the averages by including people who are not at work during the week (for example, they are on holiday or out sick), organization insights only measure people who have some activity in Outlook or Teams during the week.
-* <a name="organization-breakdown-define"></a> **Organization breakdown** – The groups displayed in the organization breakdown are based on your reporting hierarchy. Each group includes people who report directly or indirectly to a person who reports to you. The insights represent the activity of the group, not just that person who reports to you, even though their name is used to label the group. 
+* <a name="organization-breakdown-define"></a> **Organization breakdown** – The groups displayed in the organization breakdown are based on your reporting hierarchy, which your Insights admin [maintains](../advanced/setup-maint/setup.md#prepare-and-upload-organizational-data). Each group includes people who report directly or indirectly to a person who reports to you. The insights represent the activity of the group, not just that person who reports to you, even though their name is used to label the group. 
 
     Insight Business Leaders who are viewing the insights for the entire company will see the organization breakdown by organizations reporting to top-layer leaders.
 * <a name="peer-organization-define"></a>**Peer organization** – Peer organization includes groups near your own group in the reporting hierarchy. If available, the peer organization includes people who report directly or indirectly up to your manager, but not up to you. If there aren't any groups like this, or they don’t meet the minimum group size, the peer organization includes people who report directly or indirectly up to your skip-level manager but not up to you. If there’s not enough people who meet that definition either, you won't see peer organization insights. 
