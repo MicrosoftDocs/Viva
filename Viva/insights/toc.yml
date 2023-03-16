@@ -37,12 +37,12 @@ items:
               href: personal/teams/shared-meeting-plan.md
             - name: Suggested tasks
               href: personal/teams/suggested-tasks.md   
-          - name: Teamwork
-            items: 
+        - name: Teamwork
+          items: 
             - name: Overview
               href: personal/teams/teamwork.md
-          - name: Wellbeing
-            items:
+        - name: Wellbeing
+          items:
             - name: Overview
               href: personal/teams/wellbeing.md  
             - name: Time management features
@@ -63,8 +63,8 @@ items:
               href: personal/teams/reflect.md                
             - name: Virtual commute
               href: personal/teams/virtual-commute.md   
-          - name: FAQ
-            href: /teams/faq.md                   
+        - name: FAQ
+          href: /teams/faq.md                   
         - name: Outlook add-in
           items:
             - name: Introduction
