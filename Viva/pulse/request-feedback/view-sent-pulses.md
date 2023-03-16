@@ -26,14 +26,13 @@ Feedback authors can view the pulses they requested from their teams.
 ## View sent pulses as a feedback author in Viva Pulse
 
 1. When the Pulse request is open, from the Viva Pulse homepage **My pulses** section, under the **Pulses sent** tab, select the **…** on the card to open the overflow menu and complete any of the following actions:
-    1. Extend the deadline. Note that you can only extend the deadline of your Pulse request up to a maximum of six times.
-    1. Add more feedback providers.
-    1. Copy the link to the Pulse request.
-    1. Cancel the feedback request. 
+    - Select **Extend deadline** to extend the deadline of your Pulse request. Note that you can only extend the deadline of your Pulse request up to a maximum of six times.
+    - Select **Add more people or share survey link** to add more feedback providers to your Pulse request or copy the link to share your Pulse request with the feedback providers in a personal email or Teams message.
+    - Select **Cancel request** to cancel your Pulse request.
 1. When the Pulse request is closed and you have met the minimum confidentiality threshold, select the **…** on the card to open the overflow menu and complete any of the following actions:
-    1. Resend the request.
-    1. View the feedback providers invited. 
-    1. Share the feedback results.
+    - Select **Resend request** to resend your Pulse request.
+    - Select **View feedback providers** to view the feedback providers you invited to respond to your Pulse request.
+    - Select **Share results** to share your feedback results with your team.
 1. When you canceled the Pulse request or you have not met the minimum confidentiality threshold, select the **…** on the card to open the overflow menu and complete any of the following actions:
-    1. Resend the request.
-    1. View the feedback providers invited.
+    - Select **Resend request** to resend your Pulse request.
+    - Select **View feedback providers** to view the feedback providers you invited to respond to your Pulse request.
