@@ -77,9 +77,9 @@ Help your employees manage their time effectively and create a healthy workplace
 Understand your organization’s workplace habits and how your team spends their time.
 
 1. Set up [Viva Insights](insights/introduction.md).
-2. Enable [Organization trends](insights/org-team-insights/org-trends.md) to help business leaders understand the work habits of their organization as a whole.
-3. Enable [Teamwork habits](insights/org-team-insights/teamwork-habits.md) for employees to learn more about their teams’ unique habits and understand how their habits can set a good example.
-4. Enable [personal insights](insights/personal/introduction.md) for employees to learn how to make the most of their time at work. Viva Insights helps employees be more proactive in protecting their schedule by setting up a [focus plan](insights/personal/Use/focus-plan.md) and a [virtual commute](insights/personal/teams/viva-insights-virtual-commute.md). Employees can also access mindfulness content from [Headspace](insights/personal/teams/viva-insights-headspace.md) to help them reduce stress and burnout.
+2. Enable [organization insights](insights/org-team-insights/org-insights.md) to help business leaders understand the work habits of their organization as a whole.
+3. Enable [team insights](insights/org-team-insights/team-insights.md) for employees to learn more about their teams’ unique habits and understand how their habits can set a good example.
+4. Enable [personal insights](insights/personal/introduction.md) for employees to learn how to make the most of their time at work. Viva Insights helps employees be more proactive in protecting their schedule by setting up a [focus plan](insights/personal/teams/focus-plan.md) and a [virtual commute](insights/personal/teams/virtual-commute.md). Employees can also access mindfulness content from [Headspace](insights/personal/teams/headspace.md) to help them reduce stress and burnout.
 
 ### App 2: Viva Connections
 
