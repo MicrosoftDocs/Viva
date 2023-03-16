@@ -30,8 +30,8 @@ Shared report viewers can view the team’s feedback results if the feedback aut
     - Select the corresponding **feedback request card** from the Viva Pulse homepage **My pulses** section, under the **Shared with me** tab.
     - Select the **link** to the feedback report from the email or Teams message the feedback author sent.
 1. The report summary page will have the following sections/actions:
-    - View who shared the report with you. 
-    - View how many users responded to the Pulse request, both as a percentage and a count. 
+    - View who shared the report with you.
+    - View how many users responded to the Pulse request, both as a percentage and a count.
     - Select **View all** under **Who you invited** to view the list of feedback providers for the Pulse request.
 1. View the average score for each rating question, along with the trend change from the last time the Pulse request was sent.
 1. View top suggestions for each multiple-choice question and the number of responses received for questions with open-ended responses. You are **unable** to view any open-ended responses from feedback providers.
