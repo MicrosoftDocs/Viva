@@ -21,7 +21,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > This article applies to a preview version of Microsoft Viva Pulse. You must be in the Private Preview program to access it. Features are subject to change.
 
-Feedback providers can view the Pulse requests they had provided feedback for.
+Feedback providers can view the Pulse requests for which they provided feedback.
 
 ## View feedback provided as a feedback provider in Viva Pulse
 
