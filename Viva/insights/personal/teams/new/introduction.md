@@ -29,7 +29,7 @@ By using the Viva Insights app, you can increase your:
 
 * [Wellbeing](wellbeing.md) &ndash; Block out time to focus, catch up on messages, learn, and take breaks; mindfully close out your workday; silence messages and emails during your off-hours; do a guided meditation; reflect on how you're feeling; and more.
 * [Productivity](productivity.md) &ndash; Make your meetings more effective and keep up on your tasks.
-* [Teamwork](teamwork.md) &ndash; Connect with your network; evaluate your communication habits; praise colleagues; and if you manage people, set up personalized 1:1 plans with your direct reports.
+* [Teamwork](teamwork.md) &ndash; Connect with your network; evaluate your communication habits; and praise colleagues.
 
 ## Privacy
 
