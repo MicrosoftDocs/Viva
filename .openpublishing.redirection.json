@@ -707,6 +707,10 @@
       {"source_path": "viva/insights/personal/teams/new/home.md",
       "redirect_url": "/viva/insights/personal/teams/home",
       "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/focus-mode.md",
+      "redirect_url": "/viva/insights/personal/teams/focus",
+      "redirect_document_id": false
       }
     ]
 }
