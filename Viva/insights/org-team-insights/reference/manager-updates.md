@@ -36,7 +36,7 @@ While end-users can modify the teams that result from Azure AD data, they can't 
 
 ## What's changing?
 
-Rather than using a data source for organization insights and another for team insights, Viva Insights will only use one: ***Azure Active Directory***. Also, the product will no longer support end-user modifications to team members. Ending support for end-user-modified teams helps make sure there's only one organizational structure.
+Rather than using a data source for organization insights and another for team insights, Viva Insights will only use one. This could be Azure Active Directory, or a HR upload file outlining your company management hierarchy. Also, the product will no longer support end-user modifications to team members. Ending support for end-user-modified teams helps make sure there's only one organizational structure.
 
 ## Why are we making these changes?
 
@@ -55,6 +55,6 @@ You'll see different changes depending on whether you're a manager or non-manage
 
 ## When are these changes taking place?
 
-We're expecting these updates to take effect in late December 2022/early January 2023.
+We're expecting these updates to take effect in late March 2023/early April 2023.
 
  
