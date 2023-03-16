@@ -31,7 +31,7 @@ Feedback authors can view the feedback results from their team if they obtained 
 1. The report summary page will have the following sections/actions:
     - View how many users responded to the Pulse request, both as a percentage and a count.
     - Select **View all** under **Who you invited** to view the list of feedback providers for the Pulse request.
-    - Resend the Pulse request.
+    - Select **Resend pulse** to resend the Pulse request.
 1. If you did not obtain the minimum number of responses to meet the confidentiality threshold, you cannot view scores or responses for any question. You can still view the number of feedback providers invited and resend the Pulse request.
 1. If you obtained the minimum number of responses to meet the confidentiality threshold, you will have the following sections/actions:
     - View the average score for each rating question, along with the trend change from the last time the Pulse request was sent.
