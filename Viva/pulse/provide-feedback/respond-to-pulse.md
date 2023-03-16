@@ -31,4 +31,4 @@ Feedback providers can respond to the Pulse requests that the feedback authors s
     - Open the **link** received from the feedback author through a personal email or Teams message.
 1. Select 1-5 for rating questions, up to two options for multiple choice questions, and enter in text for open-ended questions. Answer at least one question to submit your feedback.
 1. Submit feedback by selecting **Submit answers**.
-1. Feedback providers who do not respond to the feedback request and it is 3 days prior to the Pulse deadline will receive a Teams Activity Feed notification reminding them to provide feedback.
+1. Feedback providers who do not respond to the feedback request and it is three days prior to the Pulse deadline will receive a Teams Activity Feed notification reminding them to provide feedback.
