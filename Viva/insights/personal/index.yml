@@ -32,7 +32,7 @@ highlightedContent:
       url: ./setup/configure.md
     - title: Using Viva Insights in Teams
       itemType: how-to-guide
-      url: ./teams/viva-teams-app.md
+      url: ./teams/introduction.md
     - title: Using the Briefing
       itemType: tutorial
       url: ./Briefing/be-overview.md
