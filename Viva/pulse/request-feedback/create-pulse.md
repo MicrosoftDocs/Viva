@@ -37,4 +37,4 @@ Feedback authors can request pulses from their teams by using research-backed te
 1. Add a personal note if applicable and select **Send request**.
 1. Sending the request will trigger a Teams Activity Feed notification to the selected feedback providers for them to provide their feedback.
 1. Select **Copy link** to copy a link to your Pulse request that you can share with the selected feedback providers in a personal email or Teams message after you send your request, or later from the homepage.
-1. If you have not obtained enough responses to meet the minimum confidentiality threshold needed to review the feedback results 3 days prior to the Pulse request deadline, you will receive a Teams Activity Feed notification to either extend the deadline or add feedback providers.
+1. If you have not obtained enough responses to meet the minimum confidentiality threshold needed to review the feedback results three days prior to the Pulse request deadline, you will receive a Teams Activity Feed notification to either extend the deadline or add feedback providers.
