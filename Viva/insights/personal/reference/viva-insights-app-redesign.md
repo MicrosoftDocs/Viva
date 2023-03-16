@@ -48,13 +48,9 @@ Because Viva Insights will only rely on official organizational data to create t
 
 ### Distributed team insights
 
-*Applies to: managers with fewer than three reporting layers*
-
 The **Teamwork habits** tab, which provides a consolidated view of team insights and capabilities, will no longer be available. Instead, you'll find insights about your team distributed across all four new tabs. We talk more about these insights in [Content for leaders](#content-for-leaders).
 
 ### Distributed leader insights
-
-*Applies to: managers with nine or more reports and fewer than three reporting layers*
 
 The **Organization trends** tab, which provides a consolidated view of leader insights, will no longer be available. Instead, you'll find insights about your organization distributed across all four new tabs. We talk more about these insights in [Content for leaders](#content-for-leaders)
 
