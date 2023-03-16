@@ -37,9 +37,9 @@ To create a shared meeting plan:
 1. Go to the **Productivity** tab in the Viva Insights app in Teams or on the web.
 1. In the **Recommended for you** section, find the **Promote healthy meeting norms** card and select **Get started**.
 
-:::image type="complex" source="images/productivity-mep-start2.png" alt-text="Screenshot that shows the Recommended for you section.":::
+    :::image type="complex" source="images/productivity-mep-start2.png" alt-text="Screenshot that shows the Recommended for you section.":::
    Screenshot of the Recommended for you section in the Viva Insights app Productivity tab. Next to the title, there's an information icon. The subtitle reads, "Get insights, actions, and plans to help you and your peers adopt best practices." Beneath the subtitle, there are three sections: one larger section on the left and two smaller sections on the right. One section on the right is titled, "How your meetings succeeded," and the subtitle says, "Your participants appreciate how you end meetings with clear next steps." The second section on the right is titled, "How your meetings can improve," and the subtitle says, "Some of your recent online meetings may not have started on time due to back-to-back meetings." The section on the left is titled, "Promote healthy meeting norms," and the subtitle says, "Share a customized meeting plan to encourage best practices for meetings." The button below, called "Get started," is highlighted.
-:::image-end:::
+    :::image-end:::
 
 Learn a bit more about how a shared meeting plan can help. Then select **Get started**.
 
@@ -57,9 +57,9 @@ First, you'll set some meeting norms that affect how your meetings appear on cal
 
 * **Get feedback from your meeting participants** – Activate meeting effectiveness surveys for plan participants who have a Viva Insights subscription. Meeting effectiveness surveys promote a healthy meeting culture by providing aggregated feedback to meeting organizers on what’s going well with your meetings and what you could improve in the future.
 
-:::image type="complex" source="images/productivity-smp-setup-2.png" alt-text="Screenshot that shows creating team norms (step 1/2).":::
-   Screenshot of the first step of the "Create a shared meeting plan" process. The title is, "Customize your meeting norms." Below the title, there are three options, which correspond to the options described in the preceding bulleted list: "Automatically shorten duration for all meetings," "Automatically include a teams link," and "Get feedback on your meetings." Each option has a check box to its left, which are each selected. Each option also has an information icon to its right. Under "Automatically shorten duration for all meetings," there are three dropdown menus. The first shows "End events early." The second, below the first, has a title of "Less than one hour," and the dropdown menu field shows "5 minutes." the third dropdown, also below the first, has a title of "One hour or longer," and shows "10 minutes." There's a "Back" link on the bottom left of the window. On the bottom right of the window, there are two buttons: "Cancel" and "Next."
-:::image-end:::
+    :::image type="complex" source="images/productivity-smp-setup-2.png" alt-text="Screenshot that shows creating team norms (step 1/2).":::
+       Screenshot of the first step of the "Create a shared meeting plan" process. The title is, "Customize your meeting norms." Below the title, there are three options, which correspond to the options described in the preceding bulleted list: "Automatically shorten duration for all meetings," "Automatically include a teams link," and "Get feedback on your meetings." Each option has a check box to its left, which are each selected. Each option also has an information icon to its right. Under "Automatically shorten duration for all meetings," there are three dropdown menus. The first shows "End events early." The second, below the first, has a title of "Less than one hour," and the dropdown menu field shows "5 minutes." the third dropdown, also below the first, has a title of "One hour or longer," and shows "10 minutes." There's a "Back" link on the bottom left of the window. On the bottom right of the window, there are two buttons: "Cancel" and "Next."
+    :::image-end:::
 
 When you're done setting your meeting norms, select **Next**.
 
