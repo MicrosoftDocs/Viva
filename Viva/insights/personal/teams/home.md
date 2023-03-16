@@ -17,6 +17,8 @@ audience: user
 
 >[!Note]
 >The Viva Insights app is being redesigned over the coming weeks. Here's an overview of what's changing: [Viva Insights app redesign](../reference/viva-insights-app-redesign.md). 
+>
+>If you don't yet see the new app experience, find previous documentation at this link: [Viva Insights Home](./reference/viva-insights-home.md).
 
 In the Microsoft Viva Insights app, use the **Home** tab to discover key wellbeing, productivity, and teamwork insights and actions. Here, we highlight insights and actions that give you the most value in the flow of work. You'll find these sections on your **Home** tab:
 
