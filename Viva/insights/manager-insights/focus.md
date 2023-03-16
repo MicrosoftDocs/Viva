@@ -1,5 +1,6 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/16/2020
 title: Best practices for focused work
 description: Get best practices for managers about the importance of scheduled time to focus
 author: madehmer
@@ -32,7 +33,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 
 ## Best practices
 
-* Ask your team to use the [MyAnalytics Focus plan](../personal/use/focus-plan.md) to automatically book focus time, protect this time by silencing chats, and track weekly progress.
+* Ask your team to use the [MyAnalytics Focus plan](../personal/teams/focus-plan.md) to automatically book focus time, protect this time by silencing chats, and track weekly progress.
 * Create a new team norm to not send chats to team members who have scheduled focus time and use the [Do not disturb status in Microsoft Teams](https://support.microsoft.com/office/change-your-status-in-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e).
 * Take an employee survey to gather data and impressions about the organization's meeting frequency and its impact on how much work is or isn't getting done during the day.
 * Come together as a team to share everyone's feedback. It's important to process all contributions and analysis from all team members to begin the process of change.
@@ -57,9 +58,9 @@ Each quarter, reassess the need for recurring meetings that take up the most tim
 
 #### Try out a focus plan
 
-Encourage employees to use a [Focus plan](../personal/use/focus-plan.md) to automatically block focus time on their calendars to ensure that they have enough time to get work done.
+Encourage employees to use a [Focus plan](../personal/teams/focus-plan.md) to automatically block focus time on their calendars to ensure that they have enough time to get work done.
 
 ## Related topics
 
 * [Viva Insights best practices](best-practices.md)
-* [Focus](../personal/use/focus.md)
+

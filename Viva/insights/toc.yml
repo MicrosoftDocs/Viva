@@ -10,193 +10,97 @@ items:
         href: advanced/setup-maint/environment-requirements.md
       - name: Setup introduction
         href: advanced/setup-maint/setup-overview.md
-      - name: Personal insights
+      - name: In Teams
         items:
-          - name: Introduction
-            href: personal/introduction.md     
-          - name: Privacy guide
-            href: personal/Overview/privacy-guide-users.md
-          - name: In Teams
-            items:
-              - name: Introduction
-                href: personal/teams/viva-teams-app.md
-              - name: Home
-                items:
-                  - name: Overview
-                    href: personal/teams/viva-insights-home.md
-                  - name: Headspace
-                    href: personal/teams/viva-insights-headspace.md                        
-                  - name: Reflect
-                    href: personal/teams/viva-insights-reflect.md
-                  - name: Send praise
-                    href: personal/teams/viva-insights-praise.md
-                  - name: Virtual commute
-                    href: personal/teams/viva-insights-virtual-commute.md           
-              - name: Stay connected
-                href: personal/teams/viva-insights-stay-connected.md
-              - name: Protect time
-                href: personal/teams/viva-insights-protect-time.md
-              - name: Effective meetings
-                href: personal/teams/effective-meetings.md
-              - name: Inspiration library
-                href: personal/teams/inspiration.md  
-              - name: Setup
-                items: 
-                  - name: Discover the app
-                    href: personal/teams/viva-teams-app-install.md
-                  - name: Configure the app
-                    href: personal/teams/viva-teams-app-settings.md
-                  - name: Admin tasks
-                    href: personal/teams/viva-teams-app-admin-tasks.md
-                  - name: FAQ
-                    href: personal/teams/viva-teams-app-faq.md
-          - name: Briefing
-            items:
-              - name: Overview
-                href: personal/Briefing/be-overview.md
-              - name: Privacy guide
-                href: personal/Briefing/be-privacy.md
-              - name: Configure Briefing
-                href: personal/Briefing/be-admin.md
-              - name: Briefing rollout
-                items:
-                  - name: Conduct a user pilot
-                    href: personal/Briefing/be-pilot.md
-                  - name: Admin trial
-                    href: personal/Briefing/be-admin-trial.md
-                  - name: Downloadable resources
-                    href: personal/Briefing/be-resources.md
-              - name: Use Briefing
-                items: 
-                  - name: Prepare for meetings
-                    href: personal/Briefing/be-meetings.md
-                  - name: Follow up on tasks
-                    href: personal/Briefing/be-tasks.md
-                  - name: Book focus time
-                    href: personal/Briefing/be-focus.md
-                  - name: Headspace meditation
-                    href: personal/Briefing/be-headspace.md
-                  - name: Plan your week
-                    href: personal/Briefing/be-time.md
-                  - name: Catch up with your team
-                    href: personal/Briefing/be-manager.md
-                  - name: Use recommendations
-                    href: personal/Briefing/be-recommended.md  
-              - name: Settings
-                href: personal/Briefing/be-settings.md
-              - name: Languages
-                href: personal/Briefing/be-languages.md
-              - name: FAQ
-                href: personal/Briefing/be-faqs.yml
-          - name: Outlook add-in
-            items:
-              - name: Introduction
-                href: personal/use/add-in.md
-              - name: Use Insights
-                href: personal/use/use-the-insights.md
-              - name: Inline suggestions
-                href: personal/use/mya-notifications.md
-              - name: Schedule send suggestions
-                href: personal/use/delay-delivery.md
-          - name: Home
-            href: personal/use/home-web.md
-          - name: Dashboard
-            href: personal/use/dashboard-2.md
-          - name: Digests
-            href: personal/use/email-digests-3.md            
-          - name: Focus plan
-            href: personal/use/focus-plan.md     
-          - name: Work patterns
-            items:
-              - name: Focus
-                href: personal/use/focus.md
-              - name: Wellbeing
-                href: personal/use/wellbeing.md
-              - name: Network
-                href: personal/use/network.md
-              - name: Collaboration
-                href: personal/use/collaboration.md
-          - name: Personal insights FAQ
-            href: personal/overview/mya-faq.md 
-          - name: Admin guide
+        - name: Introduction
+          href: introduction.md
+        - name: Set up the app
+          href: personal/teams/settings.md
+        - name: Home
+          href: personal/teams/home.md
+          items:
+          - name: Praise
+            href: personal/teams/praise.md
+          - name: Inspiration library
+            href: personal/teams/inspiration.md  
+          - name: Productivity
             items: 
-              - name: Introduction
-                href: personal/overview/mya-for-admins.md
-              - name: Deployment guide
-                href: personal/setup/deployment-guide.md
-              - name: Setup
-                href: personal/setup/configure.md
-              - name: Plans and environments
-                href: personal/overview/plans-environments.md
-              - name: Privacy guide for admins
-                href: personal/overview/privacy-guide-admins.md
-              - name: Activity report
-                href: personal/overview/activity-report.md
-          - name: Adoption
-            items:
-              - name: Introduction 
-                href: personal/Use/mya-adoption/Adopt-myanalytics.md
-              - name: Individual adoption
-                items: 
-                  - name: Get started
-                    href: personal/Use/mya-adoption/Indiv-adopt-get-started.md
-                  - name: Diagnose your issue
-                    href: personal/Use/mya-adoption/Indiv-adopt-diagnose.md
-                  - name: Set your goal
-                    href: personal/Use/mya-adoption/Indiv-adopt-set-goals.md
-                  - name: Develop new habits
-                    href: personal/Use/mya-adoption/Indiv-adopt-develop-habits.md
-                  - name: Sustain change
-                    href: personal/Use/mya-adoption/Indiv-adopt-sustain-change.md
-                  - name: Resources
-                    href: personal/Use/mya-adoption/Indiv-adopt-resources.md
-              - name: Team adoption
-                items: 
-                  - name: Get started
-                    href: personal/Use/mya-adoption/Team-adopt-intro.md
-                  - name: Plan
-                    href: personal/Use/mya-adoption/Team-adopt-plan.md
-                  - name: Implement
-                    href: personal/Use/mya-adoption/Team-adopt-implement.md
-                  - name: Measure
-                    href: personal/Use/mya-adoption/Team-adopt-measure.md
-                  - name: Reinforce
-                    href: personal/Use/mya-adoption/Team-adopt-reinforce.md
-                  - name: Resources
-                    href: personal/Use/mya-adoption/Indiv-adopt-resources.md
-              - name: Habit resources
-                items: 
-                  - name: Learning modules
-                    href: personal/Use/mya-adoption/adopt-learning-modules.md
-                  - name: Habit-building method
-                    href: personal/Use/mya-adoption/adopt-habit-building.md
-                  - name: Habit playbooks
-                    href: personal/Use/mya-adoption/adopt-habit-playbooks.md
+            - name: Overview
+              href: personal/teams/productivity.md
+            - name: Meeting habits
+              href: personal/teams/meeting-habits.md
+            - name: Meeting category insights
+              href: personal/teams/meeting-category-insights.md
+            - name: Meeting effectiveness surveys
+              href: personal/teams/meeting-effectiveness-surveys.md       
+            - name: Shared meeting plan  
+              href: personal/teams/shared-meeting-plan.md
+            - name: Suggested tasks
+              href: personal/teams/suggested-tasks.md   
+        - name: Teamwork
+          items: 
+            - name: Overview
+              href: personal/teams/teamwork.md
+        - name: Wellbeing
+          items:
+            - name: Overview
+              href: personal/teams/wellbeing.md  
+            - name: Time management features
+              href: personal/teams/time-management.md  
+            - name: Shared no-meeting day plan
+              href: personal/teams/shared-no-meeting-day.md
+            - name: Focus
+              href: personal/teams/focus.md
+            - name: Focus plan  
+              href: personal/teams/focus-plan.md
+            - name: Shared focus plan
+              href: personal/teams/shared-focus-plan.md  
+            - name: Headspace  
+              href: personal/teams/headspace.md 
+            - name: Quiet time
+              href: personal/teams/quiet-time.md  
+            - name: Reflect    
+              href: personal/teams/reflect.md                
+            - name: Virtual commute
+              href: personal/teams/virtual-commute.md   
+        - name: FAQ
+          href: personal/teams/faq.md                   
+        - name: Outlook add-in
+          items:
+            - name: Introduction
+              href: personal/use/add-in.md
+            - name: Use Insights
+              href: personal/use/use-the-insights.md
+            - name: Inline suggestions
+              href: personal/Use/mya-notifications.md
+            - name: Schedule send suggestions
+              href: personal/use/delay-delivery.md
+        - name: Digest emails
+          href: personal/use/email-digests-3.md
+        - name: Personal insights FAQ
+          href: personal/overview/mya-faq.md
+        - name: Admin guide
+          items: 
+          - name: Introduction
+            href: personal/overview/mya-for-admins.md
+          - name: Deployment guide
+            href: personal/setup/deployment-guide.md
+          - name: Setup
+            href: personal/setup/configure.md
+          - name: Plans and environments
+            href: personal/overview/plans-environments.md
+          - name: Privacy guide for admins
+            href: personal/overview/privacy-guide-admins.md
+          - name: Activity report
+            href: personal/overview/activity-report.md
       - name: Team and organization insights
         items:
-        - name: Setup
-          href: org-team-insights/setup.md
-        - name: Teamwork habits       
-          href: org-team-insights/teamwork-habits.md
-          items:
-          - name: Teamwork habits FAQ
-            href: org-team-insights/teamwork-habits-faq.md
-          - name: Shared no-meeting day plan
-            href: org-team-insights/shared-no-meeting-day.md  
-        - name: Organization trends
-          items:
-          - name: Introduction   
-            href: org-team-insights/org-trends.md
-          - name: Employee wellbeing
-            href: org-team-insights/employee-wellbeing.md
-          - name: Meeting effectiveness
-            href: org-team-insights/meeting-effectiveness.md
-          - name: Manager connection
-            href: org-team-insights/manager-connection.md
-          - name: Employee experience Power BI report
-            href: org-team-insights/employee-experience-pbi.md  
-          - name: Organization trends FAQ
-            href: org-team-insights/org-trends-faq.md
+          - name: Team insights 
+            href: org-team-insights/team-insights.md
+          - name: Organization insights
+            href: org-team-insights/org-insights.md
+          - name: Organization insights FAQ
+            href: org-team-insights/org-insights-faqs.md   
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
@@ -229,16 +133,22 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Keyword suppression
+            href: advanced/admin/keyword-suppression.md
         - name: Analyst
           items:
           - name: Queries
             items:
             - name: Person query overview
               href: advanced/analyst/person-query-overview.md
-            - name: Create a Person query
+            - name: Create a person query
               href: advanced/analyst/person-query.md
+            - name: Create a meeting query
+              href: advanced/analyst/meeting-query.md  
             - name: Access query results and modify existing queries
-              href: advanced/analyst/query-results.md  
+              href: advanced/analyst/query-results.md 
+            - name: Query results FAQs
+              href: advanced/analyst/query-results-faq.md   
           - name: Templates
             items:
             - name: Introduction to templates
@@ -259,6 +169,10 @@ items:
               href: advanced/analyst/templates/power-bi-faq-troubleshoot.md  
           - name: Data quality
             href: advanced/analyst/data-quality-analyst-experience.md
+          - name: Filters
+            href: advanced/analyst/filters.md
+          - name: Metric customization
+            href: advanced/analyst/custom-metrics.md
           - name: Metric rules
             href: advanced/analyst/metric-rules.md       
         - name: Reference
@@ -267,5 +181,8 @@ items:
             href: advanced/reference/faq.md
           - name: Glossary
             href: advanced/reference/glossary.md
-          - name: Metrics
-            href: advanced/reference/metrics.md  
+          - name: Metric definitions
+            href: advanced/reference/metrics.md
+
+
+ 

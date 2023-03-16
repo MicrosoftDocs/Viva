@@ -1,5 +1,6 @@
 ---
-title: Viva Goals Integrations Administration Overview
+ms.date: 11/14/2022
+title: Enable Integrations in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
 author: rasanders
@@ -19,14 +20,56 @@ search.appverid:
 description: "Learn about integration administration with Viva Goals."
 ---
 
-# Viva Goals Integrations Administration Overview 
+# Enable integrations in Viva Goals 
 
-Viva Goals supports integrations with Microsoft and third-party apps and platforms so that the OKR implementation process is as simple, effective, and seamless as possible.   
+Viva Goals supports integrations with Microsoft and third-party apps and platforms so that the OKR implementation process is as simple, effective, and seamless as possible.
 
-**Organization owners and organization administrators in Viva Goals can enable and configure integrations for their organization. As a Global Admin, you can control who has permission to create and manage organizations in Viva Goals and thereby control who can enable Viva Goals integrations.** 
+As a Global admin, you can control which integrations are available for all Viva Goals organizations in the tenant.  
 
-- Read more about organization creation permissions: [Restrict organization creation permissions | Microsoft Learn ](restrict-organization-creation-permissions.md)
-- Read more about Roles and Permissions in Viva Goals: [Roles and permissions in Viva Goals | Microsoft Learn](roles-permissions-in-viva-goals.md) 
+- Read more about the types of integrations in Viva Goals: [Integrations overview](#integrations-overview)
+- Read more about Roles and Permissions in Viva Goals: [Roles and permissions in Viva Goals](roles-permissions-in-viva-goals.md)
+
+There are three options for global admins to control which integrations are available in your tenant.  
+
+- All available 
+- None available 
+- Select integrations are available 
+
+**All available**
+When you select this option, all integrations will be available to all Viva Goals organizations in your tenant. Integrations that are available in the tenant can be further managed by org owners and org administrators. 
+
+**None available**
+When you select this option, no integrations will be available in your tenant. 
+
+> [!IMPORTANT]
+> Existing connections will not continue to work when this option is selected.
+
+**Select integrations are available**
+Selecting this option enables global admins to select which integrations are available in the tenant. By default, O365 core service integrations, such as Excel and Planner are available.
+
+To modify which integrations are available in your organization, select the enable status for each integration you want to manage.  
+
+> [!IMPORTANT]
+>  If you deselect an enabled integration, existing connections supported by that integrations will not continue to work.
+
+## How to manage integrations
+
+Only Global admins have permission to manage which integrations are available for the tenant. 
+
+1. Log in to your Viva Goals account. 
+1. Select the organization drop down from the navigation panel on the left.
+    :::image type="content" source="../media/goals/admin-controls/navigation-pane.png" alt-text="Screenshot showing the navigation side bar and how to select the organization drop down."::: 
+1. Select Create or Join organization 
+    :::image type="content" source="../media/goals/admin-controls/select-create-join-org.png" alt-text="Screenshot showing how to select Create or join organization from the dropdown.":::  
+1. From the Create or Join organizations page, select Settings in the top right corner 
+    :::image type="content" source="../media/goals/admin-controls/select-setting.png" alt-text="Screenshot showing where to select the settings option from the organization page.":::
+1. Select the integrations settings for your tenant and select save. If you choose the option for Selected integrations are available, select the integrations you want to manage and select save.  
+    :::image type="content" source="../media/goals/admin-controls/integrations-selections.png" alt-text="Screenshot showing the list of integration available for your tenant.":::
+
+> [!NOTE]
+> Selecting None available or deselecting integrations that were previously available will disable any existing connections in your tenant.
+
+## Integrations Overview
 
 Viva Goals supports two types of integrations, which are discussed in further detail below: data integrations and collaboration integrations. Additionally, integrations can be grouped into three different categories: 
 
@@ -54,7 +97,7 @@ The table below shows which type of integrations are supported, their category, 
 |GitLab      |Third-party |Data |https://about.gitlab.com/terms/ |
 |Google Sheets       |Third-party |Data |https://cloud.google.com/product-terms/ |
 |HubSpot      |Third-party |Data |https://legal.hubspot.com/terms-of-service |
-|Jira Cloud       |Third-party |Data |https://www.atlassian.com/legal/cloud-terms-of-service |
+|Jira Cloud, Jira Server and Data Center       |Third-party |Data |https://www.atlassian.com/legal/cloud-terms-of-service |
 |Looker      |Third-party |Data |https://cloud.google.com/product-terms/ |
 |Mode      |Third-party |Data |https://mode.com/tos/ |
 |Monday.com      |Third-party |Data |https://monday.com/l/ |

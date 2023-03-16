@@ -1,4 +1,5 @@
 ---
+ms.date: 05/11/2022
 title: Align OKRs
 ms.reviewer: 
 ms.author: rasanders
@@ -93,3 +94,4 @@ Progress mode indicates how the progress of an OKR is updated. There are three m
 ### How to set check-in reminders
 
 If you switch an OKR or a project into the manual override progress mode, you'll get check-in reminders for as long as the OKR or project stays in manual mode. Once you revert it to the automated progress mode, whether by rollup or integration, you'll no longer get  reminders to check in.
+

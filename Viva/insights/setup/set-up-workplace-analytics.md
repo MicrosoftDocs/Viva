@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Viva Insights setup
 description: How to set up and configure Viva Insights
 author: madehmer
@@ -90,3 +91,4 @@ As soon as Viva Insights is ready, people who are assigned an [applicable  role]
 ## Related topics
 
 [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

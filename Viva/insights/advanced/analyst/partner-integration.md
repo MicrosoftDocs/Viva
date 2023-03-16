@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 04/01/2022
 title: Viva Insights partner integration
 description: Learn how to integrate Microsoft Viva Insights and partner application data for more advanced analysis
 author: madehmer
@@ -158,14 +159,13 @@ To use this integration, here’s what you’ll need to do.
         * The **App Secret** is the secret generated in step 2 above.
 
         * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant ID of the customer whose data needs to be extracted.
-![Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)](/viva/insights/advanced/images/custom-deployment.png)
 
-    1. Select **Review + create**.
+    :::image type="content" source="../images/custom-deployment1.png" alt-text="Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)":::
+
+    5. Select **Review + create**.
+
 >[!Note] 
 >To deploy the template programmatically, follow the directions in [Programmatic configuration](#programmatic-configuration).
-
-
-<!--replace image-->
 
 ### Access customer data from the data drop
 
@@ -185,6 +185,9 @@ To use this integration, here’s what you’ll need to do.
     1. Decrypt the encryption key with the partner-customer private key, which is provided in the Azure Key Vault.
 
     1. Decrypt the entire file with the file encryption key. (Here's a [C# sample](/dotnet/api/system.security.cryptography.aes).)
+    
+    >[!Note]
+    >Refer to [About encoding](#about-encoding) for details about encoding constraints during decryption.
     
     1. Decompress the entire file to get the extracted data. (Here's a [C# sample](/dotnet/api/system.io.compression.gzipstream).)
 
@@ -251,6 +254,25 @@ Here are a couple of best practices for storing customer data:
 * Don’t permanently store decrypted files in Azure or on-premises storage. Your application should decrypt the behavioral analytics data in real-time as it’s being processed. The decrypted contents shouldn’t be written to the disk.
 * Make sure that your Azure Data Factory pipeline includes a step to clean up analytics data on the customer’s storage account after it’s has been transferred to your application’s storage. Our sample Azure Data Factory pipeline on GitHub includes this step.
 
+
+#### About encoding
+
+There are a few encoding differences to be aware of during the decryption process. The following data contains these encoding types: 
+
+|Data|Encoding type
+|----|---|
+|Decryption key | UTF-16LE |
+|Decryption key IV | UTF-8 |
+|Encrypted file (GZIP data) | UTF-8 |
+Padding for AES | CBC / PKCS5 <sup>1
+
+<sup> 1. PKCS7 in C# is the same as PKCS5 in Java. 
+
+
+Also, the output of the Azure Key Vault [decrypt REST API](/rest/api/keyvault/keys/decrypt/decrypt) is Base-64 URL encoded. You’ll need to decode the value from Base-64 URL to bytes, and then encode the result to Base-64.  
+
+Make sure you take these encoding differences into account when you decrypt the data. If encoded data is incorrectly decrypted, you might get an error like this: `Invalid AES key length: 88 bytes`. 
+
 ### Pipeline
 
 #### Cadence 
@@ -259,19 +281,38 @@ Viva Insights processes behavioral analytics data once a week. You can run your 
 
 The sample Azure Data Factory pipeline we provide on GitHub includes a [trigger](/azure/data-factory/concepts-pipeline-execution-triggers) that executes the pipeline once every seven days, which is the recommended frequency.
 
+#### Parameters
+
+You can set the following pipeline parameters either in the ARM template or in Azure Data Factory.
+
+##### RequestStartDate and RequestEndDate
+
+Use `RequestStartDate` to specify the pipeline extraction's start date and `RequestEndDate` to specify the pipeline extraction's end date. Use the ISO 8601 format for your entry—for example, `2022-09-30T00:00:00Z`.
+
+If you don't specify a value for:
+* `RequestStartDate`, this parameter will use the values of `RequestEndDate` and `DefaultLookbackWindowDays`.
+* `RequestEndDate`, this parameter will the pipeline trigger time as its value.
+
+##### DefaultLookbackWindowDays
+
+Use `DefaultLookbackWindowDays` to specify the lookback window for cases where there's no `RequestStartDate` value. If you don't set a value here, the lookback window will be 14 days.
+
+#### AggregationType
+
+`AggregationType` controls how the requested data is aggregated. Set the value to either `Day`, `Week`, or `Month`.
+
+>[!Note]
+> Make sure the time between your `RequestStartDate` and `RequestEndDate` is at least what you've set for your `AggregationType`. For example, when requesting data with an `AggregationType` set to `Week`, you’ll need to set `RequestStartDate` and `RequestEndDate` at least a week apart.
+
 #### Programmatic configuration
-
-##### Generate and store RSA keys
-
-To programmatically generate RSA Keys, refer to the [Create Key REST API](/rest/api/keyvault/keys/create-key/create-key) (or the [C#](/api/azure.security.keyvault.keys.keyclient.creatersakey) or [Java SDK](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-security-keyvault-keys/4.2.3/index.html) methods). This method also stores the RSA into the specified Key Vault.
 
 ##### Deploy
 
-To programmatically deploy the pipeline, here’s what you need to do. For more information, refer to [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).
+To programmatically deploy the pipeline, here’s what you need to do. For more detailed steps, refer to the [deployment API documentation](/rest/api/resources/deployments/create-or-update).
 
 1.	Make sure you have a resource group to be used for the deployment. This group can be the same resource group you created in [Prerequisites](#prerequisites), step 2a.
 
-2.	Create a **PUT** request to this endpoint:  `https://management.azure.com/subscriptions/<YourSubscriptionId>/resourcegroups/<YourResourceGroupName>?api-version=2020-06-01`
+2.	Create a **PUT** request to this endpoint:  `https://management.azure.com/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}?api-version=2021-04-01`
 
 3.	Include the pipeline in the Request Body as shown in [Deploy with the REST API](/azure/azure-resource-manager/templates/deploy-rest#deploy-with-the-rest-api).  
 
@@ -427,7 +468,11 @@ Coefficient| QI
 
 5. Convert each of the parameters to use Base-64 encoding. Either use a Base-64 encoder directly, or convert the hex bytes to a byte array and then to Base-64. For more information, refer to [Convert.ToBase64String Method](/dotnet/api/system.convert.tobase64string).
 
-1. Run the [Import Key API](/rest/api/keyvault/keys/decrypt/decrypt).
+1. Run the [Import Key API](/rest/api/keyvault/keys/import-key/import-key).
+
+### Q7. How do I programmatically create and store RSA keys?
+
+To programmatically generate RSA keys, refer to the [Create Key REST API](/rest/api/keyvault/keys/create-key/create-key) (or the [C#](/dotnet/api/azure.security.keyvault.keys.keyclient.creatersakey) or [Java SDK](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-security-keyvault-keys/4.2.3/index.html) methods). This method also stores the RSA into the specified Key Vault.
 
 
 ### Information for customers
@@ -499,5 +544,6 @@ To approve a partner’s request:
 [Advanced insights metrics](../reference/metrics.md)
 
 [Sample Azure Data Factory template](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction)
+
 
 

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/07/2021
 title: Manager settings for Viva Insights
 description: Learn about the manager settings for Viva Insights in Teams and in Advanced insights and how administrators can set up and edit them for your organization 
 author: madehmer
@@ -18,15 +19,15 @@ audience: Admin
 # Manager settings
 
 >[!Important]
->Manager settings only control **Group insights** within **My team** in the Viva Insights app in Teams. To set up or disable the **My team** page, see [Admin tasks](../org-team-insights/teamwork-habits.md#admin-tasks).
+>Manager settings only control **Group insights** within **My team** in the Viva Insights app in Teams. To set up or disable the **My team** page, see [Admin tasks](../org-team-insights/team-insights.md#admin-tasks).
 
 As an admin for Microsoft Viva Insights, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team.
 
-Only managers whose team meets or exceeds the **Minimum team size** setting can access [Group insights](../org-team-insights/org-trends.md) within **My team** in Viva Insights in Teams. The other admin tasks required for Group insights access are the same as for access to My team. See [Admin tasks](../org-team-insights/teamwork-habits.md#admin-tasks) for details.
+Only managers whose team meets or exceeds the **Minimum team size** setting can access [Group insights](../org-team-insights/org-insights.md) within **My team** in Viva Insights in Teams. The other admin tasks required for Group insights access are the same as for access to My team. See [Admin tasks](../org-team-insights/team-insights.md#admin-tasks) for details.
 
 The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. The following are based on the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
 
-* **Measured managers** - Managers who are assigned licenses can see their team's insights through [Group insights](../org-team-insights/org-trends.md) within **My team** in Viva Insights in Teams.
+* **Measured managers** - Managers who are assigned licenses can see their team's insights through [Group insights](../org-team-insights/org-insights.md) within **My team** in Viva Insights in Teams.
 * **Managers enabled** - Only managers who meet the minimum team size can view their team's insights.
 
 ![Manager settings.](../images/wpa/use/manager-settings.png)
@@ -58,3 +59,4 @@ Viva Insights admins can access **Manager settings**. Also, before managers can 
 
 * [Plans](/viva/insights/Tutorials/solutionsv2-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Controls](/viva/insights/use/settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

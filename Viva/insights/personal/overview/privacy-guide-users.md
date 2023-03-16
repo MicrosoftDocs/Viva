@@ -1,4 +1,5 @@
 ---
+ms.date: 09/16/2021
 title: Privacy guide for personal insights
 description: Overview of privacy features for personal insights, including info about data de-identification and privacy, minimum group size for reporting, admin settings, and users in sensitive roles
 author: madehmer
@@ -18,24 +19,18 @@ audience: user
 
 # Privacy guide for personal insights
 
+>[!Important]
+>This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+
 Personal insights in Microsoft Viva Insights help you find opportunities to build better habits and get back in control of your time. This article describes how Viva Insights uses personal data for personal insights, where it stores that data, and the ways in which it was designed to keep that data safe. It also describes how Viva Insights complies with GDPR regulations.
-
-
 
 ## Summary of key points
 
-* **Personal insights in Viva Insights is not designed to enable evaluation, tracking, automated decision making, profiling, or monitoring**. Viva Insights provides you with personal insights through the Viva Insights app in Microsoft Teams and on the web, the Insights Outlook add-in, a cloud-based dashboard, Viva digest emails, Briefing emails, and inline suggestions in Outlook. Personal insights in Viva Insights has no mechanism or option that allows anyone but you to access the personalized information that is displayed through these surfaces, unless you purposefully and independently share it. Personal insights data provided by Viva Insights cannot be used for automated decision making or for profiling.
-
-    >[!IMPORTANT]
-    > The dashboard will be retired soon, but you'll still find personal insights content and settings in your Viva Insights app in Teams or on the web. [Read more about this change](../reference/mya-retirement.md). 
+* **Personal insights in Viva Insights is not designed to enable evaluation, tracking, automated decision making, profiling, or monitoring**. Viva Insights provides you with personal insights through the Viva Insights app in Microsoft Teams and on the web, the Insights Outlook add-in, Viva digest emails, Briefing emails, and inline suggestions in Outlook. Personal insights in Viva Insights has no mechanism or option that allows anyone but you to access the personalized information that is displayed through these surfaces, unless you purposefully and independently share it. Personal insights data provided by Viva Insights cannot be used for automated decision making or for profiling.
 
 * **Personal insights in Viva Insights does not give employees access to new personally identifiable information on other coworkers**. Viva Insights converts data into personal insights by doing calculations on information that you generate just by going about your workday. Most of the data that you see in personal insights from Viva Insights is simply an aggregation of information to which you already have access, but that you wouldn’t be able to quickly perform calculations on without some support.
 * **Personal insights in Viva Insights data is processed and stored in the employee’s Exchange Online mailbox**. Viva Insights processes data from these sources for personal insights: Exchange Online email and calendar data, chat and call signals from Skype for Business and from Teams. Viva Insights stores and processes this data inside each employee’s Exchange Online mailbox.
 * **Personal insights in Viva Insights supports General Data Protection Regulation (GDPR) compliance**. Microsoft has designed Personal insights in Viva Insights to support your organization’s needs to follow [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).
-
-<!--## Architecture
-
-In the following architecture illustration, note the relationship of Personal insights in Viva Insights to Exchange Online. This placement underscores the fact that any personal insights data that you can view in Viva Insights is the same data that's visible in your Exchange mailbox, as described in the following principles about data privacy.-->
 
 ## Key principles
 
@@ -48,9 +43,8 @@ In the following architecture illustration, note the relationship of Personal in
 
 Personal insights in Viva Insights are available as follows:
 
-* [Viva Insights in Teams](../teams/viva-insights-home.md)
+* [Viva Insights in Teams and on the web](../teams/home.md)
 * [Viva Insights in Outlook](../use/add-in.md)
-* [Viva Insights dashboard](../Use/dashboard-2.md)
 * [Briefing emails in Outlook](../Briefing/be-overview.md)
 * [Digest emails in Outlook](../use/email-digests-3.md)
 * [Inline suggestions in Outlook](../use/mya-notifications.md)
@@ -102,3 +96,4 @@ As is the case with the full Microsoft 365 suite, Viva Insights helps support co
 * **Requests to export, delete, or restrict processing personal data**. Microsoft supports user requests, such as requests for export of or deletion of data.
 
 For more information, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
+

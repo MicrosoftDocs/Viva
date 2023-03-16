@@ -6,8 +6,10 @@ items:
     href: /viva/insights/index-orig?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json
   - name: Data privacy and protection
     items:
-    - name: Data-protection considerations
+    - name: Data-protection intro
       href: /viva/insights/privacy/data-protection-intro
+    - name: Data-protection considerations
+      href: /viva/insights/privacy/data-protection-considerations
     - name: Data de-identification
       href: /viva/insights//Privacy/de-identify-data
     - name: Differential privacy
@@ -30,12 +32,12 @@ items:
         href: /viva/insights/use/Assigning-licenses-with-powershell
     - name: Assign roles
       items:
-    - name: Assign admin roles
-      href: /viva/insights/setup/assign-roles-to-wpa-admins
-    - name: Role access
-      href: /viva/insights/Use/User-Roles
-    - name: Assign user roles
-      href: /viva/insights/setup/assign-user-roles 
+      - name: Assign admin roles
+        href: /viva/insights/setup/assign-roles-to-wpa-admins
+      - name: Role access
+        href: /viva/insights/Use/User-Roles
+      - name: Assign user roles
+        href: /viva/insights/setup/assign-user-roles 
     - name: Controls
       items:
     - name: Introduction
@@ -214,24 +216,6 @@ items:
         href: /viva/insights/Use/qualtrics
       - name: Workspace Collaboration Optimizer
         href: /viva/insights/Use/wsplan
-    - name: Plans
-      items:
-      - name: Introduction
-        href: /viva/insights/tutorials/solutionsv2-intro
-    - name: Plan types
-      items:
-      - name: Teamwork plans
-        href: /viva/insights/tutorials/teamwork-solution
-      - name: Seller success plan
-        href: /viva/insights/tutorials/seller-success
-    - name: Use plans
-      items: 
-      - name: Walkthrough
-        href: /viva/insights/tutorials/solutionsv2-task
-      - name: Participants
-        href: /viva/insights/tutorials/solutionsv2-participants
-      - name: Concepts
-        href: /viva/insights/tutorials/solutionsv2-conceptual
     - name: Notifications 
       href: /viva/insights/use/wpa-notifications
     - name: In Power BI

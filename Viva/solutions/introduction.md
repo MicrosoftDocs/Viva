@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/16/2022
 title: Microsoft Viva Accelerators introduction
 description: Introduces Microsoft Viva Accelerators and what solutions are available to use
 author: madehmer
@@ -37,3 +38,4 @@ Microsoft Viva Accelerators can help you create foundation applications and work
 ## Help and feedback
 
 To give feedback about or get support for setting up and using these solutions, email the Microsoft Viva Solutions team at [vivasolutionsext@microsoft.com](mailto:vivasolutionsext@microsoft.com).
+

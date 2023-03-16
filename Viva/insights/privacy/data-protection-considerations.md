@@ -1,5 +1,6 @@
 ---
-ROBOTS: NOINDEX
+ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 09/16/2021
 title: Data-protection considerations for manager, leader, and advanced insights 
 description: Data-protection considerations when using Microsoft Viva Insights
 author: lilyolason
@@ -187,3 +188,4 @@ Under the GDPR, data subjects may have rights to request exclusion from processi
 * [Privacy and data access](/viva/insights/privacy/privacy-and-data-access?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * Article 29 Data Protection Working Party [Opinion 2/2017 on data processing at work](http://ec.europa.eu/newsroom/document.cfm?doc_id=45631)
 * EU [General Data Protection Regulation](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG&toc=OJ:L:2016:119:TOC)
+

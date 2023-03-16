@@ -1,5 +1,6 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 02/03/2021
 title: Microsoft Viva Insights for managers in Microsoft Teams
 description: Introduction and summary of Microsoft Viva Insights in Teams for managers
 author: madehmer
@@ -21,7 +22,7 @@ Microsoft Viva Insights provides personalized recommendations to help you and yo
 
 Along with information about your team, the Insights app also shows you [personal insights](/insights/teams-app) about your own daily work as an employee:
 
-* **Stay connected** – Helps you stay on top of your collaboration with colleagues with AI-based task suggestions and meeting assistance. For details, see [Stay connected](/insights/teams-app-use-insights#stay-connected).
+* **Suggested tasks** – Helps you stay on top of your collaboration with colleagues with AI-based task suggestions and meeting assistance. For details, see [Suggested tasks](../personal/teams/suggested-tasks.md).
 
 * **Protect time** – Helps you reduce distractions, stop multi-tasking, and find time to focus on your core priorities. For details, see [Protect time](/insights/teams-app-use-insights#protect-time).
 

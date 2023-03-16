@@ -1,4 +1,5 @@
 ---
+ms.date: 04/18/2022
 title: "Box Integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -126,3 +127,4 @@ Also, name ranges are permanent. So, if you make any changes in your sheet such 
     :::image type="content" source="../media/goals/9/google-named-range-dialog.png" alt-text="Screenshot shows the Named Ranges option highlighted on the Data menu." lightbox="../media/goals/9/google-named-range-dialog.png":::
 
 5. Select **Done**.
+

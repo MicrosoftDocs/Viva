@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/17/2021
 title: Network metrics 
 description: Describes the metrics that are used in network queries
 author: madehmer
@@ -170,3 +171,4 @@ A6. Diverse ties is internal only: It does not consider connections that a perso
 * [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Network metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)
+

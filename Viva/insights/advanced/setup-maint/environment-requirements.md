@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Environment requirements for Viva Insights
 description: Describes the system requirements for using Microsoft Viva Insights
 author: lilyolason
@@ -21,7 +22,7 @@ Environment requirements vary depending on the type of insights you view in Micr
 
 ## Personal insights
 
-The requirements for personal insights in Microsoft Viva Insights are described in [Plans and environments for personal insights](/viva/insights/personal/Overview/plans-environments.md).
+The requirements for personal insights in Microsoft Viva Insights are described in [Plans and environments for personal insights](/viva/insights/personal/Overview/plans-environments).
 
 ## Manager, leader, and advanced insights
 
@@ -63,3 +64,4 @@ Apple Safari and Mozilla Firefox are not preferred browsers for the advanced ins
 
 * Under [Powerful tools to support your enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans), see **Looking for more** for more details about the available plans
 * To provide feedback, go to [Microsoft Office 365 UserVoice forum](https://feedbackportal.microsoft.com/feedback/)
+

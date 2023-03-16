@@ -1,4 +1,5 @@
 ---
+ms.date: 10/20/2022
 title: OKR Digest
 ms.reviewer: 
 ms.author: rasanders
@@ -28,11 +29,11 @@ To start receiving digest updates, users must follow either a team or an individ
 
 :::image type="content" source="../media/goals/slack-images/follow-1.png" alt-text="Screenshot of how to follow in Viva Goals." lightbox="../media/goals/slack-images/follow-1.png":::
 
-You can also add other users or slack channels as followers to ensure they receive digest updates for the company, team, or individuals. Select the Followers button and click on the **Add follower** button or **Add** link. 
+You can also add other users or [Slack](https://slack.com/) channels as followers to ensure they receive digest updates for the company, team, or individuals. Select the Followers button and click on the **Add follower** button or **Add** link. 
 
 :::image type="content" source="../media/goals/slack-images/follow-2.png" alt-text="Screenshot of how to add a follower in Viva Goals." lightbox="../media/goals/slack-images/follow-2.png":::
 
-Search users or slack channels and select the + sign next to the search result to add them as a follower. 
+Search users or [Slack](https://slack.com/) channels and select the + sign next to the search result to add them as a follower. 
 
 :::image type="content" source="../media/goals/slack-images/follow-3.png" alt-text="Screenshot of selecting the + sign to add a follower in Viva Goals." lightbox="../media/goals/slack-images/follow-3.png":::
 
@@ -72,6 +73,7 @@ You can also unfollow a company, team or individual user from the OKR dashboard 
 
 **Digest updates notifications**
 
-Digest updates will appear in a Slack if the organization has configured the Slack integration. Here is how a digest update will appear on a Slack channel or a DM. 
+Digest updates will appear in a Slack if the organization has configured the Microsoft Viva Goals app for Slack. Here is how a digest update will appear on a Slack channel or a DM. 
 
 :::image type="content" source="../media/goals/slack-images/digest-update.png" alt-text="Screenshot of digest update in Slack." lightbox="../media/goals/slack-images/digest-update.png":::
+

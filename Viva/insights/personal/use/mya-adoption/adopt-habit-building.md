@@ -1,4 +1,6 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 09/18/2020
 title: Use Viva Insights to build good work habits
 description: Building good habits with Viva Insights
 author: madehmer
@@ -24,3 +26,4 @@ You can turn a selected behavior into a habit by using Viva Insights and the hab
 For additional tailored behavior change tips, take the [Collaborative Overload Personal Assessment](https://www.networkassessments.org/).
 
 To learn more about _The Power of Habit_, see the [The Power of Habit Resources](http://charlesduhigg.com/resources/).
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/18/2019
 title: Visualize person queries with Viva insights
 description: View query results in charts without leaving the advanced insights app with Viva Insights
 author: madehmer
@@ -107,3 +108,4 @@ For more information about plans, see [Plans](/viva/insights/tutorials/solutions
 
 * [Person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Plan walkthrough](/viva/insights/tutorials/solutionsv2-task?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

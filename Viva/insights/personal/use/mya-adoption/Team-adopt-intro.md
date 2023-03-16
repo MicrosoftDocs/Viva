@@ -1,5 +1,6 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/26/2018
 title: Viva Insights team adoption introduction
 description: Viva Insights team adoption introduction
 author: madehmer
@@ -92,3 +93,4 @@ Key stakeholders are people who’ve been chosen by the program manager to help 
 [Measure](Team-adopt-measure.md): The program manager collects and analyzes feedback and data from Viva Insights, surveys, and any additional sources to measure the program results and create the program debrief.
 
 [Reinforce](Team-adopt-reinforce.md): The executive sponsor and program manager establish appropriate rewards and recognition to encourage sustained change. They also determine next steps for the program.
+

@@ -1,5 +1,6 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Privacy and data access
 description: About the privacy and data access controls available in Microsoft Viva Insights 
 author: madehmer
@@ -67,3 +68,4 @@ Microsoft 365 email, calendar, call, and instant message metadata provide the fo
 
 >[!Important]
 >Attachments and text in the body of email and meetings are never used by Viva Insights. Furthermore, rights-managed, confidential, and private email and meetings are excluded altogether.
+

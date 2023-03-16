@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/18/2020
 title: In-depth insights in Power BI
 description: Learn how to use Power BI to deep dive into insights about your organization
 author: madehmer
@@ -119,7 +120,7 @@ With the knowledge gained from these visualizations, you can now take action:
 
 * Learn more about current behavior and trends by running [queries](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). You can also create a dashboard for yourself by importing data through the Query designer (especially [auto-refresh queries](/viva/insights/tutorials/query-auto-refresh?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)) into [Power BI](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
-* Help employees help themselves by pointing them to a pertinent [playbook](../personal/use/mya-adoption/adopt-learning-modules.md).
+<!--* Help employees help themselves by pointing them to a pertinent [playbook](../personal/use/mya-adoption/adopt-learning-modules.md).-->
 
 * If you've decided that one or more groups need help recovering focus time, consider starting a [Teamwork plan](/viva/insights/tutorials/teamwork-solution?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
@@ -131,3 +132,4 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 
 * [Templates](/viva/insights/tutorials/power-bi-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Teamwork plans](/viva/insights/tutorials/teamwork-solution?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

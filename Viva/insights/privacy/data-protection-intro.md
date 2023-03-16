@@ -1,5 +1,6 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Data protection and Viva Insights
 description: Summarizes how your data is kept private and protected within Microsoft Viva Insights
 author: madehmer
@@ -50,3 +51,4 @@ If your organization uses advanced insights and analysis in Viva Insights, the f
 * [Differential privacy](/viva/insights/privacy/differential-privacy?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) - Describes what differential privacy is and how is it used in Viva Insights to keep individual data private.
 * [Data-privacy recommendations](/viva/insights/privacy/data-protection-considerations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#data-privacy-recommendations) &ndash; Guidelines that are based on Microsoft's experience working with customers, worker councils, and legal and privacy teams.
 * [Decide what data is used and who gets to see it](/viva/insights/privacy/data-protection-considerations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#decide-what-data-is-used-and-who-gets-to-see-it) &ndash; Describes what adjustments you can make, such as how to change the data your organization provides or how to keep sensitive data (like confidential email or meetings with specific subject lines) from becoming available for analysis.  
+

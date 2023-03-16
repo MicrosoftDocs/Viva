@@ -5,6 +5,7 @@ summary: Unleash your most powerful dataset by using insights from everyday work
 brand: workplace-analytics
 
 metadata:
+ ms.date: 07/10/2020
  ROBOTS: NOINDEX,NOFOLLOW
  title: Microsoft Viva Insights
  description: Unleash your most powerful dataset by using insights from everyday work in Microsoft 365.
@@ -47,3 +48,4 @@ productDirectory:
         - url: faqs.md
           text: Answers to the most frequently asked questions about these insights.
       
+

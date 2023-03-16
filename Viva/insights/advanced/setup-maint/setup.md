@@ -1,4 +1,5 @@
 ---
+ms.date: 07/15/2022
 title: Microsoft Viva Insights setup
 description: Learn what's required to set up Microsoft Viva Insights 
 author: lilyolason
@@ -23,10 +24,12 @@ audience: Admin
 
 Make sure your Microsoft 365 admin has assigned licenses and roles to people in your organization. For more information about this process, refer to [Assign licenses](assign-licenses.md) and [Assign roles](assign-user-roles.md). To learn about Viva Insights licenses and other related requirements, refer to [Environment requirements](environment-requirements.md).
 
-After the Microsoft 365 admin assigns licenses and roles—and after the app successfully processes organizational data from Azure Active Directory (AD)—you’ve fulfilled all setup requirements. 
-
 >[!Important]
+>At least 10 people in your organization need to have Viva Insights licenses assigned to them before analysts can start using the advanced insights app. You can only assign Viva Insights licenses to current Microsoft 365 license holders.
+>
 >After you assign licenses, give Viva Insights five days to process collaboration data. After those five days are up, your organization is ready to start running queries.
+
+After licenses and roles are assigned—and after the app successfully processes organizational data from Azure Active Directory (AD)—you’ve fulfilled all setup requirements. 
 
 ## Optional settings
 
@@ -39,11 +42,11 @@ To get the most out of the Viva Insights experience, you might want to set up a 
 
 #### Minimum group size
 
-Set the minimum group size, which is the minimum aggregation threshold for insights. In other words, this is the smallest number of people that Viva Insights considers a “group.” Viva Insights shows insights about groups in the app in Teams and on the web, on the **Organization trends** page. You should set this number to at least 10.
+Set the minimum group size, which is the minimum aggregation threshold for insights. In other words, this is the smallest number of people that Viva Insights considers a “group.” Viva Insights shows insights about groups in the app in Teams and on the web, in organization insights throughout the app. You should set this number to at least 10.
 
 #### End-user opt-out
 
-The **End-user opt-out** control lets users choose whether their metrics—which are always de-identified—appear in [person query](..//analyst/person-query-overview.md) results. Analysts run person queries through the advanced insights app. When users opt out, future person queries and those that refresh each week are affected. Opt-out doesn’t apply to aggregated insights (like those on the **Organization trends** page) and query results from collaboration events (like meetings). 
+The **End-user opt-out** control lets users choose whether their metrics—which are always de-identified—appear in [person query](..//analyst/person-query-overview.md) results. Analysts run person queries through the advanced insights app. When users opt out, future person queries and those that refresh each week are affected. Opt-out doesn’t apply to aggregated insights (like organization insights) and query results from collaboration events (like meetings). 
 
 Users can find opt-out settings in their Viva Insights app in Teams or on the web under **Settings > Privacy**. After you turn on the **End-user opt-out** control, users who already opted out of Viva Insights through their app in Teams or on the web are automatically opted out of person query data. Settings take effect after one day. Users can opt back in to Viva Insights whenever they want and they’ll see their previously saved settings. 
 
@@ -55,7 +58,7 @@ After you’re done making changes to group size and/or opt-out settings, select
 
 ## Customize manager settings 
 
-Use the **Manager settings** page to allow managers to see aggregated collaboration insights. These insights appear in the Viva Insights app in Teams or on the web, under **Organization trends**. Learn more about manager settings in [Manager settings](manager-settings.md). 
+Use the **Manager settings** page to allow managers to see aggregated collaboration insights. These insights appear in the Viva Insights app in Teams or on the web. Learn more about manager settings in [Manager settings](manager-settings.md). 
 
 ### Prepare and upload organizational data 
 

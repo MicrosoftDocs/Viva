@@ -31,6 +31,8 @@ This article shows you how to configure Udemy as a third-party learning content 
 
 Follow these steps to enable the APIs in your Udemy Business environment and generate client credentials for your LMS/LXP application to access them.
 
+Please submit a support ticket to [Udemy Business Support](https://business-support.udemy.com/hc/en-us/requests/new?type=user) to request that the Course Collection Sync API be enabled for {organization}.udemy.com. Replace {organization} with your own Udemy subdomain. 
+
 1. Navigate to **Manage**, then **Settings**, then **API**. Check the status of your APIs. If they're disabled, you can contact support to have them enabled or follow the steps below to enable them.
 
     ![Image of the API settings page.](../media/learning/udemy-1.png)

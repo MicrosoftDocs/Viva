@@ -1,9 +1,10 @@
 ---
+ms.date: 07/04/2022
 title: Add the Viva Goals app to Microsoft Teams
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -22,10 +23,11 @@ description: "Learn how to add Viva Goals to Microsoft Teams to easily view, man
 
 This article describes how to install, pin, and interact with Viva Goals directly inside Microsoft Teams. The Viva Goals personal app brings the ability to create objectives and key results (OKRs), check in on them, track progress, and close OKRs within Microsoft Teams.
 
-:::image type="content" source="../media/goals/5/organization-okrs-tab.png" alt-text="Screenshot shows a sample view of Viva Goals organization OKRs in Microsoft Teams." lightbox="../media/goals/5/organization-okrs-tab.png":::
+:::image type="content" source="../media/goals/msteams-integration/opening-screenshot.png" alt-text="Screenshot shows a view of Viva Goals in Microsoft Teams." lightbox="../media/goals/msteams-integration/opening-screenshot.png":::
 
 - [Configure Microsoft Teams integration: For regular users](#regular-user-setup)
 - [Configure Microsoft Teams integration: For admins](#admin-setup)
+- [Complete the setup to use Viva Goals app in Teams](#complete-setup)
 
 <h2 id="regular-user-setup">Configure Microsoft Teams integration: For regular users</h2>
 
@@ -129,4 +131,17 @@ We'll show you how to preinstall the app for a specific group of users. If you w
      When Abigail logs into Teams, she can see that both the Viva Goals app and the message extension are preinstalled and pinned on the top left and at the bottom, respectively, in the Teams client.
 
       :::image type="content" source="../media/goals/5/pinned-viva-goals-with-message-extension.png" alt-text="Screenshot shows the pinned Viva Goals app and Viva Goals message extension." lightbox="../media/goals/5/pinned-viva-goals-with-message-extension.png":::
-      
+   
+<h2 id="complete-setup">Complete the setup to use Viva Goals app in Teams</h2>
+
+If the initial Viva Goals setup is not complete, you may receive the following message when trying to use Viva Goals app in Teams: We're sorry, but something went wrong. If you are the application owner check the logs for more information. Ensure that you have completed the following Setup and Administration steps:
+
+1. Log on to Viva Goals portal i.e. https://goals.microsoft.com
+
+1. [Create an organization](log-in-create-and-join-organizations.md) in the Goals portal  
+
+1. [Invite Users](inviting-and-removing-a-user.md) to the Viva Goals. 
+
+1. Create teams and assign users to them. 
+
+1. [Create Organization's OKR ](creating-okrs.md)

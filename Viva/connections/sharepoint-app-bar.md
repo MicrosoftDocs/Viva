@@ -1,4 +1,5 @@
 ---
+ms.date: 3/3/2023
 title: Set up global navigation in the SharePoint app bar
 ms.reviewer: 
 ms.author: matteva
@@ -24,6 +25,9 @@ description: "Use the SharePoint app bar to enhance intranet way finding, and di
 # Introduction to the SharePoint app bar
 
 Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar improves the global way-finding and creation experiences while dynamically displaying personalized sites, news, files, and lists. The app bar is on the left-hand side anywhere in modern sites.
+
+> [!NOTE]
+> Only Viva Connections customers who are using SharePoint home sites need to enable and customize SharePoint global navigation. Learn more about [How Viva Connections and home sites work together to create employee experiences](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together).
 
 ![Aninimated GIF of the tabs in the SharePoint app bar.](../media/connections/app-bar-gif.gif)
 
@@ -273,3 +277,4 @@ Temporarily disable the SharePoint app bar:
 - Learn more about [planning](/sharepoint/planning-hub-sites) and [creating hub sites](/sharepoint/create-hub-site)
 - Learn more about [navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience)
 - Learn more about [sharing and permissions in SharePoint](/sharepoint/modern-experience-sharing-permissions)
+

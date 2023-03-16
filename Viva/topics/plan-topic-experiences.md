@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Plan for Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -17,7 +18,7 @@ description: Learn how to plan for Microsoft Viva Topics.
 
 # Plan for Microsoft Viva Topics
 
-You're in control of how topics are experienced in your organization. Your planning decisions for Topics ensures that high quality topics are shown to your users and they have the right permissions to consume and contribute knowledge.
+You're in control of how topics are experienced in your organization. Your planning decisions for Topics ensure that high quality topics are shown to your users and they have the right permissions to consume and contribute knowledge.
 
 In this article we'll examine these planning decisions:
 
@@ -39,7 +40,7 @@ Keep in mind that Viva Topics needs access to the sites and files that your user
 
 ## Requirements
 
-You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva/topics) and be a global administrator or SharePoint administrator to access the Microsoft 365 admin center and set up Topics.
+You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva/topics) and be either a global administrator or both SharePoint and Groups administrator to access the Microsoft 365 admin center and set up Topics.
 
 All users who are going to use Topics require a **Topic Experiences** license. Assigning licenses is covered in [Set up Microsoft Viva Topics](set-up-topic-experiences.md). If you plan to assign licenses programmatically, be sure the users already have licenses for Microsoft 365 (for example, E3 or E5) before assigning the Topic Experiences license. 
 
@@ -48,7 +49,7 @@ All users who are going to use Topics require a **Topic Experiences** license. A
 
 ## Topic discovery
 
-The topic discovery settings specify which SharePoint sites are used as sources for topics. This includes both classic and modern sites, as well as sites associated with Microsoft Teams and Microsoft 365 Groups. OneDrive sites are not included. Topics crawls all Office files, text files, and the SharePoint site pages themselves in the sites you specify.
+The topic discovery settings specify which SharePoint sites are used as sources for topics. This includes both classic and modern sites, as well as sites associated with Microsoft Teams and Microsoft 365 Groups. OneDrive sites aren't included. Topics crawls all Office files, text files, and the SharePoint site pages themselves in the sites you specify.
 
 You can choose to include all SharePoint sites, a specific list of sites, or no sites. We recommend that you choose all sites so that topic experiences can discover a large number of good topics for your users.
 
@@ -56,8 +57,8 @@ When you set up Topics, you can choose from the following options:
 
 - **All sites**: All SharePoint sites in your organization. This includes current and future sites.
 - **All, except selected sites**: All sites except for the ones you specify. Sites created in future will be included as sources for topic discovery. 
-- **Only selected sites**: Only the sites that you specify. Sites created in the future will not be included as sources for topic discovery.
-- **No sites**: Do not include any SharePoint sites.
+- **Only selected sites**: Only the sites that you specify. Sites created in the future won't be included as sources for topic discovery.
+- **No sites**: Don't include any SharePoint sites.
 
 We recommend selecting enough sites to include at least 20,000 documents to get the best results from Viva Topics.
 
@@ -72,6 +73,10 @@ Site name,URL
 We don't recommend choosing **No sites** because it prevents topics from being automatically created or updated. However, you can choose this option if you want to set up Topics and then add sites later.
 
 We recommend you create a process for users or knowledge managers to request individual sites be removed from topic discovery if needed in your organization.
+
+## Item insights
+
+Viva Topics benefits from the input AI collects from Microsoft Graph signals. Item insights are insights that Microsoft calculates using machine learning techniques and applies them as content recommendations for you and your colleagues in your organization. Microsoft derives insights from analyzing activities (such as modifying, commenting, or sharing) to empower user-centric experiences with recommendations for users of Microsoft 365. Enabling item insights in Microsoft 365 will help your organization have the most accurate results in Viva Topics. 
 
 ### Multi-geo
 
@@ -128,7 +133,7 @@ The .csv file must contain the following parameters:
 
     ![Exclude topics in CSV template.](../media/exclude-topics-csv.png) 
 
-You can copy the csv template below:
+You can copy the csv template:
 
 ``` csv
 Name (required),Expansion,MatchType- Exact/Partial (required)
@@ -161,3 +166,4 @@ When you set up topic experiences, you'll need the following items as you go thr
 [Manage topic permissions in Microsoft 365](topic-experiences-user-permissions.md)
 
 [Change the name of the topic center in Microsoft 365](topic-experiences-administration.md)
+

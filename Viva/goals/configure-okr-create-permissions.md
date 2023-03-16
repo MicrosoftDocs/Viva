@@ -1,4 +1,5 @@
 ---
+ms.date: 11/11/2022
 title: Configure your OKR creation permissions in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -29,7 +30,7 @@ You can set **Create permissions** to provide access for creating OKRs and Proje
 2.	**Specific people (along with organization admins & organization owners):** This option is valuable when you want to have a structured OKR planning & creation workflow and assign to specific people to take ownership of it. 
 
 > [!NOTE]
-> Organization/team admins and organization/team owners will have access to create OKRs irrespective of the option. In organization level settings, only org_owners and org_admins would be able to create OKRs for the org by default. 
+> Organization/team admins and organization/team owners will have access to create OKRs irrespective of the option.
 
 ### Establish create permission for an Organization
 
