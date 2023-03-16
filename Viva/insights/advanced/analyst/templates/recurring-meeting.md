@@ -40,7 +40,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 ## About report settings
 
-After the **Recurring meeting audit** report is set up and populated with Viva Insights data in Power BI, you can view and set certain parameters within each page. We talk about specific settings in [About the report](#about-the-report) below. For a full list of settings and what they do, jump to the Reference section.
+After the **Recurring meeting audit** report is set up and populated with Viva Insights data in Power BI, you can view and set certain parameters within each page. We talk about specific settings in [About the report](#about-the-report) below. For a full list of settings and what they do, jump to the [Reference](#reference) section.
 
 ## About the report
 
