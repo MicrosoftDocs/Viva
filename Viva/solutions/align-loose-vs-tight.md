@@ -77,7 +77,7 @@ From here, Jane has the freedom to write her own OKRs, which loosely support the
 >     - **Jane (VP, Customer Success) Result:** Reduce customer response time to <24 hours. 
 >     - **Jane (VP, Customer Success) Result:** Resolve 90% of open cases. 
 >         - **Jane (VP, Customer Success) Initiative:** Develop customer advisory board. 
->         - **Jane (VP, Customer Success) Initiative:** Identify top three drivers causing s/b Identify top three drivers causing friction and implement corrective action. 
+>         - **Jane (VP, Customer Success) Initiative:** Identify top three drivers causing friction and implement corrective action. 
 
 In the same way that Jane has created her OKRs in support of the larger mission, Nick can collaborate and align with Jane to write his own OKRs in support of her objectives. 
 
