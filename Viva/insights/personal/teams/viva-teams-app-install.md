@@ -20,7 +20,7 @@ audience: Admin
 
 The Viva Insights app is pre-installed in Teams by your admin. After your admin installs it, you can discover and pin Viva Insights to your Teams app for easy access.
 
-After adding the app, you'll have access to all of its features, including [Praise](viva-insights-praise.md), [Protect time](viva-insights-protect-time.md), [Reflect](viva-insights-reflect.md), [Stay connected](viva-insights-stay-connected.md), and [Virtual commute](viva-insights-virtual-commute.md).
+After adding the app, you'll have access to its features, including [Praise](praise.md), [Headspace](headspace.md), [Reflect](reflect.md), [Suggested tasks](suggested-tasks.md), and [Virtual commute](virtual-commute.md).
 
 ## Discover and pin the app
 
@@ -59,5 +59,5 @@ This section describes how to uninstall the Microsoft Viva Insights app from Tea
 
 ## Related topics
 
-[Viva Insights introduction](viva-teams-app.md)
+[Viva Insights introduction](introduction.md)
 
