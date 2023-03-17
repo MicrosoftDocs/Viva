@@ -218,27 +218,13 @@ Finally, add the author.
 3. Name the column ContentAuthor.
 4. Add the author or authors of the content.
 
-### Provide your own organization's content
-
-Knowledge admins can access their organization's Learning App Content Repository in SharePoint, where they can provide references to cross-organization document libraries. Content within these libraries will be then surfaced as learning content in Viva Learning.
-
-1. In Viva Learning, select the ellipses (**...**), and then select **Settings**.
-
-    ![SharePoint library page showing the More options and Settings option.](../media/learning/sharepoint-3.png)
-  
-2. Under **Settings**, select **Permissions**.
-
-    ![Settings option page in SharePoint showing the Permissions and Check access options.](../media/learning/learning-sharepoint-library-2.png)
-
-3. Select **Check access** to connect to your organization's centralized library.
-
 ### Add a display name
 
 >[!NOTE]
 > The owner of the added site URL can only update the display name
 
 >[!NOTE]
-> Display names for already ingested learning object are updated after 24 hours.
+> Display names for already ingested learning objects are updated after 24 hours.
 
 
 1. In the Viva Learning app, select the **Admin** tab. 
@@ -254,6 +240,21 @@ The display name is the organization or tenant name by default.
 6. Click **Save**.
 
 ![Image of a configured SharePoint display name with the option to save](../media/learning/sharepoint-display-name2.png)
+
+
+### Provide your own organization's content
+
+Knowledge admins can access their organization's Learning App Content Repository in SharePoint, where they can provide references to cross-organization document libraries. Content within these libraries will be then surfaced as learning content in Viva Learning.
+
+1. In Viva Learning, select the ellipses (**...**), and then select **Settings**.
+
+    ![SharePoint library page showing the More options and Settings option.](../media/learning/sharepoint-3.png)
+  
+2. Under **Settings**, select **Permissions**.
+
+    ![Settings option page in SharePoint showing the Permissions and Check access options.](../media/learning/learning-sharepoint-library-2.png)
+
+3. Select **Check access** to connect to your organization's centralized library.
 
 
 ### Delete content
