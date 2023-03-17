@@ -39,7 +39,7 @@ The knowledge admin (or global administrator) provides a site URL to where the [
 Viva Learning supports the following document types:
 
 - Word, PowerPoint, Excel, PDF
-- Audio (.m4a)
+- Audio (.m4a, .mp3)
 - Video (.mov, .mp4, .avi)
 - [Linked objects](#add-linked-objects)
 
@@ -47,6 +47,10 @@ For more information, see [SharePoint limits](/office365/servicedescriptions/sha
 
 >[!NOTE]
 > You can use either a Modern or Classic SharePoint site. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
+
+>[!NOTE]
+> Ensure that the SharePoint site is a communication site. This functionality isn't compatible with team sites.
+
 
 ## Learning Service
 
