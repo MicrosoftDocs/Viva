@@ -29,15 +29,15 @@ Individuals can sign up for self-service trials of Viva Goals on their organizat
 
 To sign up for a self-service trial:
 
-- Visit the Viva Goals launch page at http://goals.microsoft.com/ and click “Start Trial”.
+- Visit the Viva Goals launch page at https://goals.microsoft.com/ and click “Start Trial”.
 
 If users or teams run into any issues signing up for trial licenses, then it is recommended that they contact their IT department. There will be no requirement to input payment information when signing up for a trial. IT admins will maintain full control of paid subscriptions. IT Admins cannot sign up for self-service trials and should refer to the guidance for IT Admin trials.  
 
-In order for users or individuals to request self-service trials, IT Admins must select “AllowSelfServicePurchase” to control if users are allowed to make self-service purchases. To see more, visit [AllowSelfServicePurchase for the MSCommerce PowerShell ](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide)
+In order for users or individuals to request self-service trials, IT Admins must select “AllowSelfServicePurchase” to control if users are allowed to make self-service purchases. To see more, visit [AllowSelfServicePurchase for the MSCommerce PowerShell ](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?)
 
 These self-service trials are available worldwide. They are not available for Government & EDU customers.
 
-Individuals can sign up for the trial from the [Goals product page](http://goals.microsoft.com/) or from the Viva Goals app within Microsoft Teams. Self-service trial users can join existing paid or trial organizations in Viva Goals.    
+Individuals can sign up for the trial from the [Goals product page](https://goals.microsoft.com/) or from the Viva Goals app within Microsoft Teams. Self-service trial users can join existing paid or trial organizations in Viva Goals.    
 
 No payment information is required to start the trial. Info about the trial expiration will appear on the Viva Goals webpage.
 
@@ -45,7 +45,7 @@ No payment information is required to start the trial. Info about the trial expi
 
 The self-service trials for Viva Goals doesn’t compromise IT oversight or control.  If you are an Admin, you can use subscription management capabilities to oversee and manage trial licenses on the Licensing page in the Microsoft 365 Admin Center. 
 
-IT Admins have an option to disable self-service trials for Viva Goals in your organization. Learn more about this here - Use [AllowSelfServicePurchase for the MSCommerce PowerShell module | Microsoft Learn. ](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide)
+IT Admins have an option to disable self-service trials for Viva Goals in your organization. Learn more about this here - Use [AllowSelfServicePurchase for the MSCommerce PowerShell module | Microsoft Learn. ](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?)
 
 ## Who should be involved in a trial 
 

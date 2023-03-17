@@ -55,7 +55,7 @@ The expiration date appears in the trial subscription details page within the Mi
 When you initiate a trial, you need to: 
 
 - Assign licenses to the relevant users. 
-- Inform the trial users to access Viva Goals by visiting http://goals.microsoft.com from their browser or by adding and opening the Viva Goals app on Microsoft Teams
+- Inform the trial users to access Viva Goals by visiting https://goals.microsoft.com from their browser or by adding and opening the Viva Goals app on Microsoft Teams
 
 ## During a Trial
 
