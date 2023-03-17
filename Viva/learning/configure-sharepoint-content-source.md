@@ -218,6 +218,30 @@ Finally, add the author.
 3. Name the column ContentAuthor.
 4. Add the author or authors of the content.
 
+### Add a display name
+
+>[!NOTE]
+> The owner of the added site URL can only update the display name
+
+>[!NOTE]
+> Display names for already ingested learning objects are updated after 24 hours.
+
+
+1. In the Viva Learning app, select the **Admin** tab. 
+1. Navigate to **Manage providers**.
+1. Look for the SharePoint provider and select the ellipses (**...**).
+1. Select **Configure Provider**.
+
+![Image of the Configure Provider option that can be accessed through manage providers](../media/learning/sharepoint-display-name1.png)
+
+The display name is the organization or tenant name by default.
+
+5. Update display name.
+6. Click **Save**.
+
+![Image of a configured SharePoint display name with the option to save](../media/learning/sharepoint-display-name2.png)
+
+
 ### Provide your own organization's content
 
 Knowledge admins can access their organization's Learning App Content Repository in SharePoint, where they can provide references to cross-organization document libraries. Content within these libraries will be then surfaced as learning content in Viva Learning.
@@ -243,7 +267,7 @@ Knowledge admins can access their organization's Learning App Content Repository
 
 ## Multi-geo
 
-[Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) is designed to meet data residency requirements. 
+[Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) is designed to meet data residency requirements.
 
 
 The site URL provided by the knowledge admin where the Learning App Content Repository resides needs to belong to the central location where your Microsoft 365 subscription was originally provisioned. 
