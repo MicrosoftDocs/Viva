@@ -23,8 +23,8 @@ items:
             href: personal/teams/praise.md
           - name: Inspiration library
             href: personal/teams/inspiration.md  
-          - name: Productivity
-            items: 
+        - name: Productivity
+          items: 
             - name: Overview
               href: personal/teams/productivity.md
             - name: Meeting habits
