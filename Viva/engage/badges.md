@@ -1,4 +1,5 @@
 ---
+ms.date: 02/13/2023
 title: "Rewards and recognition in Viva Engage"
 description: "Viva Engage offers rewards and recognition to people who help out their colleagues by asking and answering questions."
 ms.reviewer: ethli
@@ -63,3 +64,4 @@ A license to the Viva Engage Knowledge service plan is required to start earning
 
 **What happens to users badges if the admin control is turned from on to disabled?**
 All the badges earned by users will be deleted and no data will be processed when the control of rewards and recognition is disabled. This means that the badges earned by users will be lost and they'll not be able to get them back, unless they start earning them back again.
+

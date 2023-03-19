@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 08/27/2019
 title: Data sources for Viva Insights
 description: An overview of data sources for Microsoft Viva Insights
 author: madehmer
@@ -42,3 +43,4 @@ WE USE THE FOLLOWING ONES IN OTHER PLACES:
 
 1. Open [the advanced insights app](https://workplaceanalytics.office.com). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/).) If prompted, enter your work credentials.
 2. In the left navigation pane, select **Data sources**.
+

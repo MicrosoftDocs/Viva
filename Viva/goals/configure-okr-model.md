@@ -1,4 +1,5 @@
 ---
+ms.date: 05/04/2022
 title: Configure your OKR rules in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -99,3 +100,4 @@ The default progress ranges within Viva Goals are:
 - If the difference between expected progress and aggregate progress is less than or equal to 0 percent, the status is mapped as **On Track**.
 
 However, admins don't have to stick to these progress ranges. You can customize them based on the guidelines and policies in your organization.
+

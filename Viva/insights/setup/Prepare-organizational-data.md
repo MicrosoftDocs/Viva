@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/07/2018
 title: Prepare organizational data for Viva Insights
 description: How to prepare data from your organization to upload and use in the advanced insights app 
 author: madehmer
@@ -311,3 +312,4 @@ For example, suppose you want to compare collaboration patterns between employee
 When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid).
 
 [!INCLUDE [Valid values and formats](../includes/org-data-upload-tips.md)]
+

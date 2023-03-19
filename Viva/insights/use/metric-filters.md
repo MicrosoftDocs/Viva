@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/05/2021
 title: Advanced insights metric filters 
 description: Describes the filters that analysts can use to refine metrics in queries in the advanced insights app with Microsoft Viva Insights
 author: madehmer
@@ -180,3 +181,4 @@ In this example procedure, you apply a filter to a metric in a person query. Spe
 ## Related topic
 
 * [Metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

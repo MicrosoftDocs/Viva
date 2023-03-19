@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Learn about topics in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -53,4 +54,5 @@ Topic pages provide the full detail on a topic and can be curated by anyone desi
 [Manage topics](manage-topics.md)</br>
 [Use Microsoft Search to find topic](search.md)</br>
 [Security Trimming](topic-experiences-security-trimming.md)
+
 

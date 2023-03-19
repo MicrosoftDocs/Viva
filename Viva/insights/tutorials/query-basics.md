@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 03/20/2018
 title: Query overview
 description: Advanced insights with Viva Insights offers a number of queries for custom data analysis
 author: madehmer
@@ -164,3 +165,4 @@ The _Expensive meetings_ video demonstrates how to work with a [Meeting query](m
 * [Templates](../Tutorials/Power-bi-templates.md)
 * [Glossary](../Use/Glossary.md)
 * [Metric descriptions](../Use/Metric-definitions.md)
+

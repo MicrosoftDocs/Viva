@@ -1,4 +1,5 @@
 ---
+ms.date: 03/13/2023
 title: "Set up Microsoft Viva"
 ms.reviewer: 
 ms.author: loreenl
@@ -34,10 +35,9 @@ Microsoft Viva consists of several apps including Viva Topics, Viva Insights, Vi
 
 Alternatively, you can go to the Microsoft 365 admin center, select **Setup** on the left navigation, and then select the **Microsoft Viva** tile.
 
-
 This brings you to the [Microsoft Viva admin page](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/collections/VivaExperiences).
 
-![Viva admin page](media/viva-new-admin.png)
+[![Screenshot of the Viva admin page.](media/viva-new-admin.png)](media/viva-new-admin.png#lightbox)
 
 Things you can do on this page:
 
@@ -120,3 +120,4 @@ The Viva Engage app is installed in Teams, but not yet available to set up from 
 [Learn how to set it up](/viva/engage/setup)
 
 [More information about Viva Engage](/viva/engage/overview)
+

@@ -52,6 +52,28 @@
         href: align-okrs-overview.md
       - name: Align OKRs Recommendations
         href: align-okrs-recommendations.md
+      - name: Tight vs Loose Alignment
+        href: align-loose-vs-tight.md
+    - name: Check-in OKRs and Initiatives
+      items:
+      - name: Check-in OKRs Overview
+        href: check-in-okrs-overview.md
+      - name: Check-in OKRs Recommendations
+        href: check-in-recommendations.md
+    - name: Rhythm of Business
+      items:
+      - name: Rhythm of Business Overview
+        href: rhythm-of-business-overview.md
+      - name: Rhythm of Business Recommendations
+        href: rob-recommendations.md
+      - name: Leadership Strategy Dashboard
+        href: leadership-strategy-dashboard.md
+      - name: Organization Visibility Dashboard
+        href: organization-visibility-dashboard.md
+      - name: Departmental Alignment Dashboard
+        href: department-alignment-dashboard.md
+      - name: Team Execution Dashboard
+        href: team-execution-dashboard.md
 
 
   - name: Microsoft Viva Accelerators

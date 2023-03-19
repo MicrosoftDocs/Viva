@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/01/2020
 title: Query designer templates
 description: Learn about the Query designer templates available in Viva Insights that you can use to run a query, export its results, and visualize them in Power BI
 ms.topic: article
@@ -42,3 +43,4 @@ The Query designer has templates for the following Power BI dashboards for visua
 |![Manager effectiveness icon.](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Manager effectiveness**](/viva/insights/tutorials/power-bi-manager?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) <br>Shows analysis that measures behaviors and trends about people managers across four key themes within your organization, including coaching, empowerment, connection, and modeling. |
 |![Behavior patterns icon.](../images/wpa/playbooks/influencer-32x32.svg) |[**Behavior patterns for Glint**](/viva/insights/tutorials/power-bi-glint-2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) <br>Combines behavioral data from Viva Insights and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes. |
 |![Sales business continuity icon.](../images/wpa/playbooks/manage-connectedness-32x32.svg) |[**Sales business continuity**](/viva/insights/tutorials/pbi-bc-sales?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) <br>Shows insights into how shifting to remote work has impacted your sales organization. |
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/07/2018
 title: Meeting exclusion rule concepts
 description: Describes concepts and tools for meeting exclusion rules, including a word cloud and a list of supported languages
 author: madehmer
@@ -238,3 +239,4 @@ The following languages are supported for keywords and phrases in meeting exclus
 ## Related topic
 
 [Meeting exclusion rule limitation for large meetings](/viva/insights/tutorials/meeting-exclusion-250?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

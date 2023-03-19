@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/05/2022
 title: Schedule send with Viva Insights
 description: Learn how to opt in and use Schedule send with Viva Insights for suggestions on when to send email during your coworker's working hours
 author: lilyolason
@@ -88,7 +89,7 @@ To make changes, use your Viva Insights app in Teams or on the web or your Viva 
 1. Select **Protect time** on the left pane.
 1. Under **Schedule send suggestions**, toggle the switch to turn the feature on or off.
 
-Read more about settings in the app in [Configure Viva Insights](../teams/viva-teams-app-settings.md).
+Read more about settings in the app in [Configure Viva Insights](../teams/settings.md).
 
 ### With the Viva Insights Outlook add-in
 
@@ -104,3 +105,4 @@ To configure schedule send suggestions for your organization at the tenant level
 <!--## Video walk-through
 
 Watch this video to take a closer look at schedule send experiences in Outlook.
+

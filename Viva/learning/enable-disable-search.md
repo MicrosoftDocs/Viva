@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 3/17/2022
+ms.date: 03/17/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -34,3 +34,4 @@ Users in your organization can search for learning opportunities from the search
 It can take a few hours for this change to reflect in the Search apps.
 
 [Learn more about Search verticals](/microsoftsearch/manage-verticals#manage-organization-level-verticals)
+

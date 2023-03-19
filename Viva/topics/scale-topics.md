@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Manage topics at scale in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -170,3 +171,4 @@ If your organization has invested in knowledge bases or wiki sites, these can pr
 [Manage topics in the topic center](manage-topics.md)
 
 [Topic center overview](topic-center-overview.md)
+

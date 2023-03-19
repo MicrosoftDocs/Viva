@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Topic discovery and curation in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -123,3 +124,4 @@ DLL (Dynamic link library)|Opportunity|Web app
 Enclave|Organization (organisation, org)|Web service
 Engine (software)|Package (software)|Website (site)
 Event|Partner (business)|Workshop
+

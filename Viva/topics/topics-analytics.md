@@ -1,4 +1,5 @@
 ---
+ms.date: 12/16/2021
 title: Analytics for Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -44,10 +45,22 @@ The **File processing for topic discovery** section shows the number of files th
 |:------|:----|
 |Unique files processed|The number of files that have been processed for topic discovery. This is a cumulative total since Viva Topics was set up. This number does not decrease if topics are deleted or excluded.|
 
-![Screenshot of analytics for unique files processed.](../media/topics-analytics-unique-files.png) 
+![Screenshot of analytics for files processed.](../media/topics-files-processed.png)
+
+## Sites processed for topic discovery
+
+The **Sites processed for topic discovery** section shows the number of sites that AI is indexing for content to create topics.
+
+|Measure|Value|
+|:------|:----|
+|Sites processed|The number of sites that have been indexed by AI for topic discovery and updates in your organization. The site count might not update immediately in the event of deleted sites.|
+
+![Screenshot of analytics for sites processed.](../media/topics-sites-processed.png)
+
 
 ## See also
 
 [Plan topic experiences](plan-topic-experiences.md)
 
 [Set up topic experiences](set-up-topic-experiences.md)
+
