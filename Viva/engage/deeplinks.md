@@ -37,6 +37,15 @@ The following links directly open Viva Engage in Microsoft Teams. If the app isn
 - https://aka.ms/VivaEngage/Launch
 - https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage
 
+## Deep link to Answers in Viva
+The following link directly opens Viva Engage into Answers in Viva page.
+- https://aka.ms/AnswersInViva
+- https://aka.ms/VivaEngage/Answers
+
+## Deep link to Leadership corner
+- In the browser (Yammer.com) https://aka.ms/LeadershipCorner
+- In Teams: https://aka.ms/VivaEngage/LeadershipCorner
+ 
 
 ## Deep link to a Viva Engage entity
 Links in these formats will open the entity in Viva Engage in Teams. 
@@ -52,7 +61,7 @@ However, you will need to:
    | Post      | `thread`  |
    | Community | `group`  |
    | Storyline | `user`  |
-   <!-- | Campaign  | `campaign`  |
-   | Leadership corner | `leadershipcorner`  | -->
+   | Campaign  | `campaign`  |
+   <!-- | Leadership corner | `leadershipcorner`  | -->
 
 2. Fill in the  _`<EntityId>`_. The easiest way is by going to the corresponding page on Yammer.com, and then pasting the last part of the URL. For example, for the storyline of `https://web.yammer.com/main/users/eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`, replace _`<EntityId>`_  with `eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`.
