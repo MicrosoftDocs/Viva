@@ -26,11 +26,6 @@ Viva Engage is a new employee experience that connects people across the company
 
 <iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Availability
-
-Viva Engage is available as a Microsoft Teams app. This means that you can use Viva Engage through Microsoft Teams from a desktop web browser, in Windows, Mac, iOS, or Android device.
-
-
 ## What’s the relationship between Viva Engage and Yammer?
 
 Viva Engage is a new app, integrated in Teams, that surfaces existing and new employee experiences powered by Yammer services. Viva Engage delivers high-value employee experiences including community building, leadership engagement, knowledge sharing, and self-expression. The Viva Engage app integrates these experiences into Teams, and introduces new features including storyline and stories. These new Viva Engage features will also appear in Yammer web, desktop and mobile apps. So whether a user visits to Yammer.com, uses one of the popular Yammer mobile apps for iOS or Android, or experiences the Viva Engage app in Teams, they will see the same content and generally access effectively the same feature set.
