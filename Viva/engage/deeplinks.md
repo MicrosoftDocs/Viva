@@ -37,15 +37,24 @@ The following links directly open Viva Engage in Microsoft Teams. If the app isn
 - https://aka.ms/VivaEngage/Launch
 - https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage
 
+The following link directly opens Viva Engage in Outlook, if available:
+- https://aka.ms/VivaEngage/Outlook
+
 ## Deep link to Answers in Viva
 The following link directly opens Viva Engage into Answers in Viva page.
 - https://aka.ms/AnswersInViva
 - https://aka.ms/VivaEngage/Answers
+- https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage?context=%7B%22subEntityId%22%3A%22type%3Dcustom%2Cdata%3Dquestionspage%3A_%22%7D
+
 
 ## Deep link to Leadership corner
-- In the browser (Yammer.com) https://aka.ms/LeadershipCorner
-- In Teams: https://aka.ms/VivaEngage/LeadershipCorner
- 
+In the browser (Yammer.com): 
+- https://aka.ms/LeadershipCorner
+- https://web.yammer.com/main/leadership-corner
+
+In Teams:
+- https://aka.ms/VivaEngage/LeadershipCorner
+- https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage?context=%7B%22subEntityId%22:%22type=custom,data=leadershipcorner:null%22%7D 
 
 ## Deep link to a Viva Engage entity
 Links in these formats will open the entity in Viva Engage in Teams. 
