@@ -36,7 +36,7 @@ Attributes with less than 30% coverage are considered low-quality. Similar to mi
 
 In the image below, the attribute on the left has high coverage and the attribute on the right has low coverage. Viva Insights would consider the attribute on the right to be a low-quality attribute.
 
-:::image type="complex" source="../images/analyst-quality-attributes2.png" alt-text="Screenshot that shows a full-coverage attribute and a low-coverage attribute.":::
+:::image type="complex" source="../images/analyst-quality-attributes-smaller.png" alt-text="Screenshot that shows a full-coverage attribute and a low-coverage attribute."lightbox="../images/analyst-quality-attributes2.png":::
    Screenshot of an upload file that shows two attributes: Organization and TimeZone. Organization has values for all 19 displayed rows. TimeZone only has values for 6 displayed rows.
 :::image-end:::
 
