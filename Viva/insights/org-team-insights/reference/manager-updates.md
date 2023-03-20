@@ -26,17 +26,17 @@ Viva Insights uses organizational data to determine the management hierarchy—a
 
 Today, Viva Insights gets organizational data from two sources: 
 
-* **HR files uploaded by admins**. These files power organizational insights.
-* **Azure Active Directory (AD)**. This data powers team insights, like:
+* **Organizational data files uploaded by admins**. These files power organizational insights.
+* **Azure Active Directory**. This data powers team insights, like:
     * Teamwork habits
     * Briefing email cards for managers
     * Digest email for managers
 
-While end-users can modify the teams that result from Azure AD data, they can't modify the teams that result from HR files.
+While end-users can modify the teams that result from Azure Active Directory data, they can't modify the teams that result from organizational data files.
 
 ## What's changing?
 
-Rather than using a data source for organization insights and another for team insights, Viva Insights will only use one. This could be Azure Active Directory, or a HR upload file outlining your company management hierarchy. Also, the product will no longer support end-user modifications to team members. Ending support for end-user-modified teams helps make sure there's only one organizational structure.
+Rather than using a data source for organization insights and another for team insights, Viva Insights will only use one. This source could be Azure Active Directory, or an organizational data upload file outlining your company management hierarchy. Also, the product will no longer support end-user modifications to team members. Ending support for end-user-modified teams helps make sure there's only one organizational structure.
 
 ## Why are we making these changes?
 
@@ -52,6 +52,8 @@ You'll see different changes depending on whether you're a manager or non-manage
 * **If you're a non-manager** (that is, you don't have anyone reporting directly to you in the company directory): 
     * Team member list: because we no longer support end-user modifications to the team member list, you'll lose access to team insights features. 
     * Briefing and Digest emails: team insights won't appear in your Digest email anymore, and you'll stop seeing the **Catch up with your Team** card in your daily Briefing email.
+    >[!Important]
+    >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../../personal/use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../../personal/reference/briefing-pause.md).
 
 ## When are these changes taking place?
 
