@@ -131,15 +131,12 @@ These filters can be used to customize the following Teams channel metrics:
 
 
 > [!IMPORTANT]
-> Avoid applying the following filters, as doing so will result in *null* metrics:
-> Channel messages sent where Interaction type = "Channel visit"
-> 
-> Channel visits where Interaction type = "Post sent" or "Reply sent"
-> 
-> Channel reactions where Interaction type = "Post sent," "Reply sent," or "Reply sent"
-> 
-> Channel message hours, After hours channel message hours, or Working hours channel message hours where Interaction type = "Reaction"
-> 
+> Avoid applying the following filters, because they result in *null* metrics:
+>
+> * Channel messages sent where Interaction type = "Channel visit"
+> * Channel visits where Interaction type = "Post sent" or "Reply sent"
+> * Channel reactions where Interaction type = "Post sent," "Reply sent," or "Reply sent"
+> * Channel message hours, After hours channel message hours, or Working hours channel message hours where Interaction type = "Reaction"
 
 ### Filters for channel activity
 
