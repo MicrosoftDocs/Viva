@@ -45,6 +45,8 @@ No payment information is required to start the trial. Info about the trial expi
 
 The self-service trials for Viva Goals doesn’t compromise IT oversight or control.  If you are an Admin, you can use subscription management capabilities to oversee and manage trial licenses on the Licensing page in the Microsoft 365 Admin Center. 
 
+:::image type="content" source="../media/goals/vg-trials/vg-trial-license.png" alt-text="Screenshot of managing the Viva Goals subscription from the licensing page in the admin center.":::
+
 IT Admins have an option to disable self-service trials for Viva Goals in your organization. Learn more about this here - Use [AllowSelfServicePurchase for the MSCommerce PowerShell module | Microsoft Learn. ](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?)
 
 ## Who should be involved in a trial 
@@ -70,6 +72,8 @@ For Best practices and guidance on running a successful trial, check out our [Tr
 ## After a Trial
 
 Users can find out their Trial license expiration date from the **Trial** icon.  
+
+:::image type="content" source="../media/goals/vg-trials/vg-trial.png" alt-text="Screenshot of the trials icon at the top of the Viva Goals navigation bar.":::
 
 At the end of the trial period, users who would like to convert to a paid license should work with their IT admin directly to purchase licenses for themselves and/or their business groups. Purchases can be made as part of your Microsoft agreement or visiting the [Microsoft Viva Goals](https://www.microsoft.com/en-us/microsoft-viva/goals) product page. 
 
