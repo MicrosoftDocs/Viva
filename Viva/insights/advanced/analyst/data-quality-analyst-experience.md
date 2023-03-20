@@ -34,6 +34,12 @@ In organizational data files, each column header contains attribute names, and e
 
 Attributes with less than 30% coverage are considered low-quality. Similar to missing insights, when data is of low quality, related insights are of low quality, too.
 
+In the image below, the attribute on the left has high coverage and the attribute on the right has low coverage. Viva Insights would consider the attribute on the right to be a low-quality attribute.
+
+:::image type="complex" source="../images/analyst-quality-attributes2.png" alt-text="Screenshot that shows a full-coverage attribute and a low-coverage attribute.":::
+   Screenshot of an upload file that shows two attributes: Organization and TimeZone. Organization has values for all 19 displayed rows. TimeZone only has values for 6 displayed rows.
+:::image-end:::
+
 To view the quality of uploaded data, select **Organizational data** on the app’s left pane. If there’s a problem with data used in a query you’ve run or are about to run, warning messages in your query might also take you to the **Organizational data** page, as we explain below.
 
 
