@@ -53,7 +53,7 @@ You'll see different changes depending on whether you're a manager or non-manage
     * Team member list: because we no longer support end-user modifications to the team member list, you'll lose access to team insights features. 
     * Briefing and Digest emails: team insights won't appear in your Digest email anymore, and you'll stop seeing the **Catch up with your Team** card in your daily Briefing email.
     >[!Important]
-    >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../../personal/use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../../personal/reference/briefing-pause.md).
+    >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../../personal/use/add-in.md) or [Viva Insights app in Teams](../../personal/teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../../personal/reference/briefing-pause.md).
 
 ## When are these changes taking place?
 
