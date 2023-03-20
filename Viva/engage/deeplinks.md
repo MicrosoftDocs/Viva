@@ -33,6 +33,10 @@ The following links open the Viva Engage store page in Microsoft Teams:
 - https://teams.microsoft.com/l/app/db5e5970-212f-477f-a3fc-2227dc7782bf
 
 ## Deep link to Viva Engage directly
+The following links currently open Yammer.com and will open Viva Engage in the browser [when the rebrand occurs](https://techcommunity.microsoft.com/t5/yammer-blog/yammer-is-evolving-to-viva-engage/ba-p/3738825). 
+- https://aka.ms/VivaEngage/Web
+- https://aka.ms/VivaEngage/Yammer
+
 The following links directly open Viva Engage in Microsoft Teams. If the app isn't installed, the user will be prompted to do so.
 - https://aka.ms/VivaEngage/Launch
 - https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage
