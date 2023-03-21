@@ -149,11 +149,11 @@ Because of the improvements we made to calculation logics, your numbers might lo
 |Conflicting meeting hours	| Decrease | Reduced overcounting by: <ul><li>Excluding meetings that invitees don’t respond to or respond as “Tentative” to.</li> <li>Only including meetings that show up as “Busy” on invitees’ calendars. </ul><br>Some people might not respond to invitations for meetings that conflict with other meetings. </br>|
 |Recurring meeting hours| Decrease | Reduced overcounting by: <ul><li>Excluding meetings that invitees don’t respond to or respond as “Tentative” to.</li><li> Only including meetings that show up as “Busy” on invitees’ calendars.</ul><br>Some people might not respond to invitations for recurring meetings.</br>|
 |Multitasking meetings hours |Increase| Improved accuracy by only counting the actual time taken for multitasking activities (like reading an email during a meeting), instead of an entire meeting period.|
-|Decision-making meeting count	| Increase	| Reduced overcounting of large meetings by: <ul><li>Excluding meetings that invitees don’t respond to or respond as “Tentative” to. (Some people don’t attend/respond to large meetings like all hands.)<li>Only including meetings that show up as “Busy” on invitees’ calendars. (Some large events don't show as “Busy,” like happy hours or out-of-office time.)</li></ul> <br>These two factors have resulted in a decrease in large meetings, and as a result, an increase in decision-making meetings.</br>|
-|Long and large meeting count	| Decrease | Same as above.|
-|Large, not long meeting count	| Decrease | Same as above.|
-|Long, not large meeting count	| Slight adjustment | Same as above.|
-|Long or large meeting hours |	Decrease |	Same as above.|
+|Decision-making meeting count| Increase| Reduced overcounting of large meetings by: <ul><li>Excluding meetings that invitees don’t respond to or respond as “Tentative” to. (Some people don’t attend/respond to large meetings like all hands.)<li>Only including meetings that show up as “Busy” on invitees’ calendars. (Some large events don't show as “Busy,” like happy hours or out-of-office time.)</li></ul> <br>These two factors have resulted in a decrease in large meetings, and as a result, an increase in decision-making meetings.</br>|
+|Long and large meeting count| Decrease | Same as above.|
+|Large, not long meeting count| Decrease | Same as above.|
+|Long, not large meeting count| Slight adjustment | Same as above.|
+|Long or large meeting hours |Decrease |Same as above.|
 
 ### Does this mean previous insights were wrong?
 
