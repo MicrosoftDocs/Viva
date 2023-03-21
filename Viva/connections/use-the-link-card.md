@@ -151,6 +151,8 @@ The best experiences will be achieved if the service does not require authentica
 | Power Portals  | Power portals opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.  | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings.  |
 | Stream   | Stream opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.   | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings. |
 | External Links  | Web view opens within Teams and the user might need to authenticate again (depending on the site.)  | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings.  |
+| Sway  | Sway opens within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. | Sway opens within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in.            |
+
 
 
 
