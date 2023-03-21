@@ -27,10 +27,10 @@ This article talks about the third option: importing data. To import data from a
 1. Setup:
     1. The data source admin [generates a security certificate](#generate-the-security-certificate) and provides it to the Microsoft 365 IT admin.
     1. The Microsoft 365 IT admin [registers a new app in Azure](#register-a-new-app-in-azure).
-    1. The Insights admin [sets up the automated import](#set-up-the-import-in-viva-insights).
+    1. The Insights Administrator [sets up the automated import](#set-up-the-import-in-viva-insights).
     1. The data source admin pushes data to Viva Insights.
-1. Validation: the app validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
-1. Processing: the app processes your data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).)
+1. Validation: Viva Insights validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
+1. Processing: Viva Insights processes your data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).)
 
 After the data successfully validates and processes, the overall data-import task is complete.
 
@@ -42,10 +42,20 @@ After the data successfully validates and processes, the overall data-import tas
 
 *Applies to: data source admin*
 
+To start getting data from the source system into Viva Insights, the Microsoft 365 admin needs to create and register an app in Azure. As the data source admin, you’ll need to help the Microsoft 365 admin register their app by giving them a security certificate.
+
+Here’s what to do:
+
+1.	Create a certificate by following the instructions in this article: [Create a self-signed public certificate to authenticate your application](/azure/active-directory/develop/howto-create-self-signed-certificate)
+2.	Send the generated certificate to the Microsoft 365 admin.
+
+That’s it for now. If you want to get a head start on your next steps, follow steps 1-3 in [Set up the connection to Viva Insights](#set-up-the-connection-to-viva-insights).  
+
+
 
 ### Register a new app in Azure
 
-*Applies to: Microsoft 365 IT admin*
+*Applies to: Microsoft 365 admin*
 
 >[!Note]
 >For more information about registering an app in Azure, refer to [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app#register-an-application).
@@ -115,9 +125,7 @@ After the data successfully validates and processes, the overall data-import tas
 
     1. From **Data hub**:
     
-        1. In the **Data source** section, find the **Automated organizational data import** option. Select the **Start** button.
-        
-        :::image type="content" source="../images/admin-di-DRAFT-data-hub-start.png" alt-text="selecting Automated organizational data import's Start button":::
+        1. In the **Data source** section, find the **Automated import** option. Select the **Start** button.
 
     1. From **Data connections**:
     
@@ -128,7 +136,7 @@ After the data successfully validates and processes, the overall data-import tas
 1. On the **Automated organizational data import** page:
     1. Give your connection a name.
     
-    1. Enter the app ID that your Microsoft 365 IT admin gave you.
+    1. Enter the app ID that your Microsoft 365 admin gave you.
     
     1. Save.
 1. Select the connection you named in step 3a as the new data source. 
@@ -190,15 +198,13 @@ After you receive the “Success” status, you can:
 
 #### Processing fails
 
-If processing fails, you’ll see a failed status in the **Import history** table. <!--PENDING NEW VERBIAGE: For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the data source admin so they know what to correct before sending the data again.-->
+If processing fails, you’ll find a “Processing failed” status in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. If you’ve corrected all errors and are still getting a “Processing failed” status, file a support ticket with us.
 
 ![Screenshot that shows Processing failed.](../images/admin-status-process-failed.png)
 
-Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your imported file, log a support ticket with us.
-
 ### Validation fails
 
-If data validation fails, you'll see a "Failed" status in the **Import history** table. For validation to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the data source admin so they know what to correct before sending the data again. 
+If data validation fails, you'll see a "Validation failed" status in the **Import history** table. For validation to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the data source admin so they know what to correct before sending the data again. 
 
 The data source admin might find the following section helpful to fix data errors in their export file.
 
@@ -206,16 +212,11 @@ The data source admin might find the following section helpful to fix data error
 
 *Applies to: data source admin*
 
-This section contains help for correcting data in source file that’s causing validation errors.
-
-When any data row or column has an invalid value for any attribute, the entire import will fail until the source admin fixes the source data.
+When any data row or column has an invalid value for any attribute, the entire import will fail until the data source admin fixes the source data. In this section, we go over some rules about the source file that might help resolve errors. For more information about preparing data, refer to [Prepare organizational data](prepare-org-data.md).
 
 ##### Rules for the file
 
-The data file needs to:
-
-* Be smaller than 1 GB.
-* Be in the .csv format.
+The data file needs to be in the .csv format, and it can't be empty.
 
 ##### Rules for field headers
 
