@@ -69,6 +69,19 @@ When you use Search in Office apps such as Word, PowerPoint, Outlook, or Excel â
 
 Users can see topics in their organization to which they have a connection on the [topic center home page](topic-center-overview.md#home-page).
 
+## Engage with Viva Topics in Microsoft apps
+
+Viva Topics are integrated in apps throughout Microsft 365 and other Viva apps. 
+
+|  App  | Viva Topics features |
+|:-----|:-----|
+|[Microsoft 365 admin center](plan-topic-experiences.md)| Viva Topics settings for your organization. Viva Topics analytics and metrics.|
+|[SharePoint](https://learn.microsoft.com/viva/topics/search )|Topics center, highlighted topics (automatic and user added), topic cards, topic pages, Topics web part can be used anywhere on a SharePoint Modern Site|
+|[Teams](https://support.microsoft.com/en-us/topic/how-to-find-viva-topics-4c6881d6-e73f-408d-91df-a3e2b93272f3 )|#Topics, Topic picker, Topic cards, highlighted topics|
+
+
+
+
 ## Knowledge indexing
 
 Viva Topics uses Microsoft AI technology to identify *topics* in your Microsoft 365 environment.
