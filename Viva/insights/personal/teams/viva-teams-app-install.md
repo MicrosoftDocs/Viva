@@ -62,7 +62,7 @@ This section describes how to uninstall the Microsoft Viva Insights app from Tea
 
 ## Installing Viva Insights in GCC, GCC-High, and DoD
 
-If you're in one of these Microsoft 365 environments, the Viva Insights app isn't pre-installed in Teams: Government Community Cloud (GCC), GCC-High, and Department of Defense (DoD). Unless your admin has disabled the app, you can add Viva Insights to Teams on your own:
+If you're in one of these Microsoft 365 environments, the Viva Insights app isn't pre-installed in Teams: Government Community Cloud (GCC), GCC-High, and Department of Defense (DoD). Unless your admin has [disabled](../setup/configure.md#to-manage-availability-for-the-viva-insights-app-in-teams) the app, you can add Viva Insights to Teams on your own:
 
 1. Select the **ellipsis** on the left bar in Teams.
 2. In the search field, enter **Microsoft Viva Insights**.
