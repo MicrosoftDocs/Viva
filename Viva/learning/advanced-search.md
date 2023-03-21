@@ -50,8 +50,8 @@ The following learning content attributes can be used by both admins and learner
 |Type| Type of learning content. For example: course, learning path, module|
 |Duration| Duration of the learning content in seconds|
 |Source| Subsource of the learning content in a provider|
-|Premium| True/false field indicating whether to include free or premium content|
-|Language| Language of the learning content|
+|Premium| Field indicating whether to include free or premium content designated by "True" or "False"|  
+|Language| Language of the learning content in ISO format. For example: en-US|
 
 ### Admin accessible attributes 
 
@@ -70,36 +70,41 @@ The following attributes are available to Viva Learning knowledge admins. These 
 You can combine field attributes and values using operators. Viva Learning supports the **OR** and **AND** operator. 
 Operators are identified only if written in capital letters
 
-- The **OR** operator broadens searches through an either/or relation across fields or items.
-- The **AND** operator narrows to include only the attributes that are common across all fields and items.
+- The **OR** operator broadens searches through an either/or relation across attributes or values.
+- The **AND** operator narrows to include only the attributes that are common across all attributes or values.
 
 
 >[!NOTE]
 > The **NOT** operator is currently not supported. We are working on this capability for future releases.
 
-### Creating Queries 
+## Creating Queries 
 
->[!NOTE]
->Some attributes require exact match of all characters, upper-case, lower-case for the query to work correctly.
+When creating queries, some attributes require precise values while others support approximate values.
 
-These attributes are:
+>[!IMPORTANT]
+> 
+
+The following attributes requires you to input precise values matching all characters, letter case, and spaces with the content in Viva Learning.
 
 - Author
 - Type
+- Language
 - Id
 - LOId
 - Provider
-- ProviderID
+- ProviderId
 - Premium
 - Source
 
-Some fields support approximate matching of queries. The [exact match](#find-an-exact-match) feature mentioned above can be used with these fields using double quotes. 
+Some fields support approximate matching of queries. The [exact match](#find-an-exact-match) feature mentioned above can be used with these fields using double quotes.
 Using quotes in these fields will result in exact match in that field:
 
-- Description
-- Keywords
-- Skills
 - Title
+- Description
+- Skills
+- Keywords
+
+
 
 ### Single attribute queries
 
@@ -118,7 +123,18 @@ Note the following considerations:
 - Using **AND** in some attributes may give empty results as the field may not support multiple values.
 - There's no limit to the number of stacking queries. The only limit applied is the size of text box.
 
-#### Multiple attribute queries
+#### Single attribute query examples
+
+
+|Case| Sample Query |
+|------|-----|
+|Find content by a particular author | `Author: Lori Mullen`|
+|Find content part of a learning path or module | `Type (Learning Paths OR Modules)`|
+|Find content that is 10 minutes long| `Duration: 600`|
+|Find content using IDs| `Id:(learn-bizapps.power-bi-admin-automate OR urn:li:lyndaCourse:3007803)` |
+
+
+### Multiple attribute queries
 
 You can combine multiple attributes and multiple values across attributes using **OR** and **AND** operators: 
 
@@ -132,6 +148,30 @@ Use the following format to search using attributes for advanced filtering:
 |------|-----|------|
 Multiple attribute - multiple value| `<attribute>`:`(<value> OR <value2>...)` AND/OR `<attribute>`:`(<value> OR <value2>...)`| `Title`: `(React)` AND `Type`:`(Module)`|
 
-#### Intuitive UI for advanced search options
+#### Multiple attribute query examples:
+
+
+|Case| Sample Query |
+|------|-----|
+|Find specific content by a particular provider | `Provider: (Microsoft Learn) AND Title: (“React”)` |
+|Find non-premium content in LinkedIn Learning| `Premium:(False) AND Provider:(LinkedIn Learning)`|
+|Find modules that are either 10 or 15 minutes long| `Duration: (600 OR 900) AND Type: (Module)`|
+|Find content by a specific author within a particular provider| `Author:(Lori Mullen) AND Provider:(LinkedIn Learning)` |
+
+## Supported spaces
+
+The advanced search capabilities are available to all learners and admins within Viva Learning application. The supported search spaces are: 
+
+- Home tab 
+- My Learning tab 
+- Search results tab 
+- Academy tab 
+- Admin tab 
+- Feature Set 
+- Learning Paths 
+- Manage Permissions 
+- Manage Academy 
+
+## Intuitive UI for advanced search options
 
 We're working on improving our advanced search capabilities through an intuitive user interface and experience.
