@@ -126,7 +126,7 @@ In the old platform, the only way to get employee attributes and organizational 
 
 In the new platform, we use Azure Active Directory to simplify the admin experience. By default, employee attributes and organizational hierarchy are pulled from Azure Active Directory, but you can still manually upload HR data separately. If your organization doesn't keep Azure Active Directory updated regularly, you'll still need to upload data manually.
 
-|  Method   |Old platform  | New platform|
+|  |Old platform  | New platform|
 |-----|--------------|-------------|
 |HR data upload |	Supported	| Supported|
 |Auto-extraction from Azure Active Directory	| Not supported	| Supported|
