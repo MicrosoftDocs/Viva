@@ -1,0 +1,64 @@
+items:
+- name: Legacy documentation
+  items:
+  - name: Personal insights in Teams and on the web
+    items:
+    - name: Introduction
+      href: ../viva-teams-app.md
+    - name: Home
+      items:
+      - name: Overview
+        href: viva-insights-home.md
+      - name: Headspace
+        href: viva-insights-headspace.md       
+      - name: Reflect
+        href: viva-insights-reflect.md
+      - name: Send praise
+        href: viva-insights-praise.md
+      - name: Virtual commute
+        href: viva-insights-virtual-commute.md      
+      - name: Stay connected
+        href: viva-insights-stay-connected.md
+      - name: Protect time
+        href: viva-insights-protect-time.md
+      - name: Effective meetings
+        href: effective-meetings.md
+      - name: Inspiration library
+        href: inspiration.md  
+    - name: Setup
+      items: 
+        - name: Discover the app
+          href: ../viva-teams-app-install.md?toc=/viva/insights/org-team-insights/reference/toc.json&bc=/viva/insights/breadcrumb/toc.json
+        - name: Configure the app
+          href: ../viva-teams-app-settings.md?toc=/viva/insights/org-team-insights/reference/toc.json&bc=/viva/insights/breadcrumb/toc.json
+        - name: Admin tasks
+          href: ../viva-teams-app-admin-tasks.md?toc=/viva/insights/org-team-insights/reference/toc.json&bc=/viva/insights/breadcrumb/toc.json
+        - name: FAQ
+          href: viva-teams-app-faq.md
+  - name: Team and organization insights
+    items:
+        - name: Setup
+          href: ../../../org-team-insights/reference/setup.md
+        - name: Teamwork habits       
+          href: ../../../org-team-insights/reference/teamwork-habits.md
+          items:
+          - name: Teamwork habits FAQ
+            href: ../../../org-team-insights/reference/teamwork-habits-faq.md
+          - name: Shared no-meeting day plan
+            href: ../../../org-team-insights/reference/shared-no-meeting-day.md  
+        - name: Organization trends
+          items:
+          - name: Introduction   
+            href: ../../../org-team-insights/reference/org-trends.md
+          - name: Employee wellbeing
+            href: ../../../org-team-insights/reference/employee-wellbeing.md
+          - name: Meeting effectiveness
+            href: ../../../org-team-insights/reference/meeting-effectiveness.md
+          - name: Manager connection
+            href: ../../../org-team-insights/reference/manager-connection.md
+          - name: Employee experience Power BI report
+            href: ../../../org-team-insights/reference/employee-experience-pbi.md  
+          - name: Organization trends FAQ
+            href: ../../../org-team-insights/reference/org-trends-faq.md
+ 
+ 
