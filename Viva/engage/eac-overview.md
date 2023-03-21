@@ -22,20 +22,20 @@ search.appverid:
 
 # Overview of the Engage admin center
 
-As an admin, the Engage admin center (found within the Viva Engage app on Teams) is where you can find everything you need to plan your rollout, set up and customize Viva Engage for your tenant, manage security and compliance, and build engagement within your organization.
+Use the Engage admin center to set up and customize your tenant, manage security and compliance, and build engagement within your organization. The Engage admin center is located in the Viva Engage app on Teams.
 
-Through this experience you can:  
+In the Admin center you can:  
 
-- Plan who will help administer Engage for your organization by managing the various admin roles
-- Set up your Engage tenant by customizing your network, set up usage policy, and manage user permissions
-- Manage your organizations data retention and export plans
-- Explore the options for managing various core and premium features within Viva Engage  
+- Manage admin roles to determine who will administer Engage for your organization.
+- Set up your Engage tenant--Customize your network, set up usage policy, and manage user permissions.
+- Manage your organizations data retention and export plans.
+- Explore options for managing various core and premium features within Viva Engage  
 
-Navigate to the Engage admin center by selecting the ellipses button from the top navigation of Viva Engage. From the dropdown menu, select **Admin** to enter the admin experience.
+To go to the Engage admin center, select the ellipses button from the top navigation menu in of Viva Engage. From the drop-down menu, select **Amine.
 
 [![Image of the entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
-[![Image of the Engage admin center experience that admin will see.](/viva/media/engage/admin/eac-entry-view.png)](/viva/media/engage/admin/eac-entry-view.png#lightbox)
+[![Screenshot of the Engage admin center experience for admins.](/viva/media/engage/admin/eac-entry-view.png)](/viva/media/engage/admin/eac-entry-view.png#lightbox)
 
 ### See also
 
@@ -48,4 +48,3 @@ Navigate to the Engage admin center by selecting the ellipses button from the to
 [Manage data in the Engage admin center](/viva/engage/eac-as-manage-data)
 
 [Answers in Viva overview](/viva/engage/eac-answers-overview-setup)
-

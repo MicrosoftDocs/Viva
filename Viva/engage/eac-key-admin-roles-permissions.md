@@ -1,6 +1,6 @@
 ---
 title: "Key admin roles and permissions in Viva Engage"
-description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
+description: "Describes roles and permissions for admins in Viva Engage."
 ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
@@ -22,7 +22,7 @@ search.appverid:
 
 # Key admin roles and permissions in Viva Engage
 
-The following roles will have access to the Engage admin center within the Viva Engage app:  
+The following roles have access to the Engage admin center in the Viva Engage app:  
 
 - Microsoft 365 Global admin
 - Engage admin  
@@ -31,18 +31,18 @@ The following roles will have access to the Engage admin center within the Viva 
 
 ## Microsoft 365 Global admin
 
-The Microsoft 365 Global admin has unlimited access to your organization’s settings and most of its data. Naturally, the Global admin has permissions to perform all configurations for Viva Engage in your organization. Navigate [here](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide) to learn more about this role and security guidelines for assigning it.
+The Microsoft 365 Global admin has unlimited access to your organization’s settings and most of its data. Naturally, the Global admin has permissions to perform all configurations for Viva Engage in your organization. To learn more about this role and security guidelines for assigning it, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
 
 ## Engage admin  
 
-The Engage admin can set up and configure Engage for your organization and manage data, network related settings, and the various core or premium features within the application. The new role of Engage admin will be designated by [adding Yammer administrators in AAD](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-yammer-administrator-role-is-now-available-in-azure/ba-p/3592577). Yammer AAD administrators will automatically become Engage admins and they will have elevated permissions over end users. Tying the Engage admin to the Yammer administrator AAD role was intentional, since Viva Engage as an application is powered by Yammer technology.
+The Engage admins can set up and configure Engage for your organization. They also manage data, network related settings, and the various core or premium features within the application. This role is assigned when you [add Yammer administrators in Azure Active Directory](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-yammer-administrator-role-is-now-available-in-azure/ba-p/3592577). Yammer Azure Active Directory administrators automatically become Engage admins and have elevated permissions over end users. This connection exists because Viva Engage is powered by Yammer technology.
 
 >[!NOTE]
-> This admin role can be assigned and modified by a Global admin through AAD, [PIM](/azure/active-directory/privileged-identity-management/pim-configure), [group based role assignments](/azure/active-directory/roles/groups-concept), or [Azure portal and PowerShell](/azure/active-directory/roles/manage-roles-portal).
+> This admin role is assigned and modified by a Global admin through Azure AD, [PIM](/azure/active-directory/privileged-identity-management/pim-configure), [group based role assignments](/azure/active-directory/roles/groups-concept), or [Azure portal and PowerShell](/azure/active-directory/roles/manage-roles-portal).
 
 **Permissions**
 
-The table below shows the range of actions available to Engage admin and Global admin based on their license. Admin permissions will be dependent on the users having the right licensing to configure those features.
+The following table shows the range of actions available to Engage admin and Global admin based on their license. Admin permissions depend on those users having the right licensing to configure the features.
 
 |Permissions for Engage admin and Global admin |M365/O365 customer with Viva Engage core |Microsoft Viva suite customer|
 |------------|-------|-------|
@@ -58,15 +58,15 @@ The table below shows the range of actions available to Engage admin and Global 
 
 ## Answers admin  
 
-The Answers admin role can set up and configure Answers within the Viva Engage application. This role can only be assigned or modified by a Global admin and will be designated by [adding Knowledge Managers in AAD](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge Managers will become Answers admins and they will have elevated permissions over end users. Tying the Answers admin to the Knowledge Manager AAD role was intentional, since Answers is best experienced when integrated with Topics.  
+The Answers admin role can set up and configure Answers in Viva Engage. Only a Global admin can assign or modify this role. It's assigned when you [add Knowledge Managers in Azure AD](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge Managers become Answers admins. They have elevated permissions over end users. The link between the Answers admin and the Knowledge Manager Azure AD role fits because Answers are best experienced when integrated with Topics.  
 
 **Permissions**
 
-The table below shows the range of actions available to an unlicensed user, Viva Topics licensed user, Answers admin (knowledge manager), Engage (Yammer) admin, and Global admin.
+The following table shows the range of actions available to an unlicensed user, Viva Topics licensed user, Answers admin (knowledge manager), Engage (Yammer) admin, and Global admin.
 
 |Answers Permissions for Answers admin, Engage admin, and Global admin |M365/O365 customer with Viva Engage core |Viva Suite and Viva Topics customer|
 |----------------|---------|-------|
-|**Ask, answer, upvote, and react**|Interact with questions they are mentioned in|✓|
+|**Ask, answer, upvote, and react**|Interact with questions that they're mentioned in|✓|
 |**Suggest topics**| |✓|
 |**Mark Best answer**| |✓|
 |**Delete and close posts**| |✓|
@@ -78,11 +78,11 @@ The table below shows the range of actions available to an unlicensed user, Viva
 
 ## Corporate communicator
 
-Corporate communicators have privileges such as creating and managing campaigns, defining leaders, and more in Viva Engage. This role was created to address the need for a role catered towards content management in the organization, beyond being attached to a community (Community admin) but not as powerful as the overall Engage admin. Corporate communicators can be assigned, modified, or deleted from users by the following admin roles: Global admin, Engage admin, and fellow corporate communicators.
+Corporate communicators can create and manage campaigns, define leaders, and more in Viva Engage. This role was created to address the need for content management in the organization, beyond being attached to a community, as a Community admin, but not as powerful as the overall Engage admin. Only the following roles can assign, modify, or deleted Corporate communicators privileges for users: Global admin, Engage admin, and fellow corporate communicators.
 
 **Permissions**
 
-The table below shows the range of actions available to a corporate communicator, Engage (Yammer) admin, and Global admin based on their license.  
+The following table shows the range of actions available to a corporate communicator, Engage (Yammer) admin, and Global admin based on their license.  
 
 |Permissions for corporate communicators, Engage admin, and Global admin |M365/O365 customer with Viva Engage core |Microsoft Viva Suite customer|
 |----------------|---------|-------|
@@ -96,4 +96,3 @@ The table below shows the range of actions available to a corporate communicator
 [Access the Engage admin center](/Viva/engage/eac-as-access-eac)
 
 [Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)
-

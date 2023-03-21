@@ -1,6 +1,6 @@
 ---
 title: "Access the Engage admin center"
-description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
+description: "Describes settings in the Viva Engage admin center."
 ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
@@ -22,36 +22,36 @@ search.appverid:
 
 # Access the Engage admin center
 
-The admin center can only be accessed by users with the following admin roles: Global admin, Engage admin, Answers admin and corporate communicators. It cannot be accessed by end users (employees) within your organization.
+Only users in the following admin roles can access the Viva Engage admin center: Global admin, Engage admin, Answers admin, and corporate communicator. End users (employees) in your organization can't access it.
 
-Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to navigate to the Engage admin center.
+In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Engage admin center.
 
-[![Image of the entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+[![Screenshot of the entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
 ## Manage corporate communicators  
 
-As a Global admin, Engage admin, and corporate communicator, you can identify and remove users as corporate communicators. Under the **Setup and configuration** tab, select **Manage corporate communicators** to open configuration options.  
+As a Global admin, Engage admin, or corporate communicator, you can identify and remove users as corporate communicators. On the **Setup and configuration** tab, select **Manage corporate communicators** to open the configuration options.  
 
-[![Image of the interface for managing corporate communicators.](/viva/media/engage/admin/manage-corpcomms.png)](/viva/media/engage/admin/manage-corpcomms.png#lightbox)
+[![Screenshot of the interface for managing corporate communicators.](/viva/media/engage/admin/manage-corpcomms.png)](/viva/media/engage/admin/manage-corpcomms.png#lightbox)
 
 ### Assign a user as a corporate communicator
 
-Select **Add user** to search for a user by their name or email ID. Once the assignee is identified and selected as a corporate communicator, they will be visible in the list of active corporate communicators within your organization.  
+Select **Add user** to search for a user by their name or email ID. After the assignee is identified and selected as a corporate communicator, they're visible in the list of active corporate communicators in your organization.  
 
-[![Image of the interface for adding corporate communicators.](/viva/media/engage/admin/add-corp-comms.png)](/viva/media/engage/admin/add-corp-comms.png#lightbox)
+[![Screenshot of the interface for adding corporate communicators.](/viva/media/engage/admin/add-corp-comms.png)](/viva/media/engage/admin/add-corp-comms.png#lightbox)
 
 >[!NOTE]
-> While assigning a user to this role is a pre-licensed capability, the actions this user can perform will depend on the nature of their license (core versus premium).  
+> While assigning a user to this role is a pre-licensed capability, the actions this user can perform depend on the nature of their license, core versus premium.  
 
-Once assigned, the corporate communicator will be able to:
+Corporate communicators can do the following functions:
 
 - **Create campaigns**
-- **Manage campaigns** by:
-    - Publishing Draft campaigns to be **Active** and viewable to all users in the network
-    - Setting Active campaigns to **Ended** once a campaign is finished
-    - Re-publishing Ended campaigns to be Active again for reoccurring campaigns
-    - Deleting campaigns that are not relevant or were made by mistake
-    - Updating certain assets on a campaign page such as the:
+- **Manage campaigns**
+    - Publish draft campaigns to be **Active** and viewable to all users in the network.
+    - Set Active campaigns to **Ended** when a campaign is finished.
+    - Republishing "Ended" campaigns as "Active" again for reoccurring campaigns.
+    - Delete campaigns that aren't relevant or were created by mistake.
+    - Update certain assets on a campaign page such as:
         - Goal tracker
         - Cover photo
         - Pinned posts
@@ -64,32 +64,32 @@ Once assigned, the corporate communicator will be able to:
 
 ### Remove user as a corporate communicator
 
-Selecting the delete icon on the right side of the corporate communicator list will remove the user from this role and they will no longer be visible as an active corporate communicator in your network.
+To remove a user from this role, select the delete icon on the right side of the corporate communicator list. They'll no longer be listed as an active corporate communicator in your network.
 
-[![Image of the interface for removing a corporate communicator in Viva Engage.](/viva/media/engage/admin/remove-corp-comm.png)](/viva/media/engage/admin/remove-corp-comm.png#lightbox)
+[![Screenshot of the interface for removing a corporate communicator in Viva Engage.](/viva/media/engage/admin/remove-corp-comm.png)](/viva/media/engage/admin/remove-corp-comm.png#lightbox)
 
-## Configure tenant
+## Configure your tenant
 
-As a Global admin or Engage admin, you are encouraged to set up your Viva Engage enterprise experience for all employees before they start using the application. This will help maintain a consistent experience. An Engage admin can navigate to the **Setup and configuration** tab within the Engage admin center and select **Configure tenant**.  
+As a Global admin or Engage admin, you're encouraged to set up your Viva Engage enterprise experience for all employees before they start to use the application. This practice helps maintain a consistent experience. Engage admins can navigate to the **Setup and configuration** tab in the Engage admin center and select **Configure tenant**.  
 
-[![Image of the interface for configuring the tenant in Viva Engage.](/viva/media/engage/admin/config-tenant.png)](/viva/media/engage/admin/config-tenant.png#lightbox)
+[![Screenshot of the interface for configuring the tenant in Viva Engage.](/viva/media/engage/admin/config-tenant.png)](/viva/media/engage/admin/config-tenant.png#lightbox)
 
-They are then routed to the Yammer admin center to perform the following actions:  
+They're then routed to the Yammer admin center, where they can perform the following actions:  
 
 - [Configure the network](/yammer/configure-your-yammer-network/configure-yammer)
-    - Set tenant network name
+    - Set the tenant network name
     - Require users to confirm email messages before posting
-    - Restrict who can upload files and limit file formats
+    - Restrict who can upload files, and limit file formats
     - Allow Tenor GIFs in messages
     - Control how links are displayed
     - Allow message translation
-    - Set default system message language and many more
+    - Set the default system message language and many more
 - [Customize the look](/yammer/configure-your-yammer-network/customize-the-look-of-yammer)
 - Manage domains in Office 365  
-- [Migrate network to Native Mode](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide) (if not done already)
+- [Migrate a network to Native Mode](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide), if this isn't already done
 
 >[!NOTE]
-> Since Viva Engage is powered by Yammer’s technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to actively bring these configuration options to the Engage admin center as part of our admin roadmap.
+> Because Viva Engage is powered by Yammer technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Engage admin center as part of our admin roadmap.
 
 ## See also
 
