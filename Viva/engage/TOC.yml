@@ -8,6 +8,8 @@
        href: overview.md 
      - name: Setup
        href: setup.md
+     - name: Deep linking into Viva Engage
+       href: deeplinks.md
    - name: Setup and administration
      items:
      - name: Viva Engage Admin center overview 
