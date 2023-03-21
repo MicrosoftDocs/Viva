@@ -126,11 +126,11 @@ In the old platform, the only way to get employee attributes and organizational 
 
 In the new platform, we use Azure Active Directory to simplify the admin experience. By default, employee attributes and organizational hierarchy are pulled from Azure Active Directory, but you can still manually upload HR data separately. If your organization doesn't keep Azure Active Directory updated regularly, you'll still need to upload data manually.
 
-|  Method   |Old platform  | New platform
+|  Method   |Old platform  | New platform|
 |-----|--------------|-------------|
-|HR data upload |	Supported	| Supported
-|Auto-extraction from Azure Active Directory	| Not supported	| Supported
-|Third-party connectors| Not supported| Will be supported in the future
+|HR data upload |	Supported	| Supported|
+|Auto-extraction from Azure Active Directory	| Not supported	| Supported|
+|Third-party connectors| Not supported| Will be supported in the future|
 
 ### Why do the numbers for my metrics look different?
 
@@ -144,8 +144,8 @@ Because of the improvements we made to calculation logics, your numbers might lo
 |Collaboration hours| Decrease	| Reduced overcounting by improving Meeting hours, email hours, and chat hours as indicated earlier. Collaboration hours is an aggregation of the three.|
 | After-hours collaboration hours| Decrease (reduced overcounting)| This metric is largely proportional to collaboration hours, which have reduced due to changes in meeting hours, email hours, and chat hours (indicated earlier).|
 | External collaboration hours|	Decrease (reduced overcounting)| This metric is largely proportional to collaboration hours, which have reduced due to changes in meeting hours, email hours, and chat hours (indicated earlier).|
-|Focus hours	| Decrease (when compared to **Uninterrupted hours**) | Reduced overcounting by excluding time blocks that are interrupted by email and chat activities.|
-|Focus hours	| Increase (when compared to **Available-to-focus** hours) |	Improved comprehensiveness and accuracy by: <ul><li>Improving collaboration hours metric as indicated earlier. </li> <li>Adjusting the minimum focus-hour time block from two hours to one hour.</li><li>Including fragmented hours, which are blocks of time that are less than one hour and are interrupted with emails or Teams chats.|
+|Focus hours| Decrease (when compared to **Uninterrupted hours**) | Reduced overcounting by excluding time blocks that are interrupted by email and chat activities.|
+|Focus hours| Increase (when compared to **Available-to-focus** hours) |	Improved comprehensiveness and accuracy by: <ul><li>Improving collaboration hours metric as indicated earlier. </li> <li>Adjusting the minimum focus-hour time block from two hours to one hour.</li><li>Including fragmented hours, which are blocks of time that are less than one hour and are interrupted with emails or Teams chats.|
 |Conflicting meeting hours	| Decrease | Reduced overcounting by: <ul><li>Excluding meetings that invitees don’t respond to or respond as “Tentative” to.</li> <li>Only including meetings that show up as “Busy” on invitees’ calendars. </ul><br>Some people might not respond to invitations for meetings that conflict with other meetings. </br>|
 |Recurring meeting hours| Decrease | Reduced overcounting by: <ul><li>Excluding meetings that invitees don’t respond to or respond as “Tentative” to.</li><li> Only including meetings that show up as “Busy” on invitees’ calendars.</ul><br>Some people might not respond to invitations for recurring meetings.</br>|
 |Multitasking meetings hours |Increase| Improved accuracy by only counting the actual time taken for multitasking activities (like reading an email during a meeting), instead of an entire meeting period.|
