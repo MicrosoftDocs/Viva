@@ -76,14 +76,14 @@ Viva Topics are integrated in apps throughout Microsoft 365 and other Viva apps.
 |  App  | Viva Topics features |
 |:-----|:-----|
 |[Microsoft 365 admin center](plan-topic-experiences.md)| Viva Topics settings for your organization. Viva Topics analytics and metrics.|
-|[SharePoint](https://learn.microsoft.com/viva/topics/search )|Topics center, highlighted topics (automatic and user added), topic cards, topic pages, Topics web part can be used anywhere on a SharePoint Modern Site|
+|[SharePoint](search.md)|Topics center, highlighted topics (automatic and user added), topic cards, topic pages, Topics web part can be used anywhere on a SharePoint Modern Site|
 |[Teams](https://support.microsoft.com/topic/how-to-find-viva-topics-4c6881d6-e73f-408d-91df-a3e2b93272f3 )|#Topics, Topic picker, Topic cards, highlighted topics|
 |Outlook web |#Topics (web only), highlighted topics (web only), topic cards, Live person card (LPC), profile cards |
 |Bing Search |#Topics, Topic pages, Topic answer |
 |Yammer and Viva Engage |#Topics, Topic picker, Topic card |
-|[Office.com SharePoint search](https://learn.microsoft.com/viva/topics/search) |Topic answer |
+|[Office.com SharePoint search](search.md) |Topic answer |
 |Word, Excel, and PowerPoint |Search Topic answer |
-|[Viva Connections](https://learn.microsoft.com/viva/topics/viva-topics-card-viva-connections) |Dashboard cards |
+|[Viva Connections](viva-topics-card-viva-connections.md) |Dashboard cards |
 |[Viva Engage](https://support.microsoft.com/topic/answers-in-viva-view-and-follow-topics-fd3cf456-28e1-4621-b683-b0d21348a935) |Answers in Viva Engage: Topic picker, Q&A routing |
 
 ## Knowledge indexing
