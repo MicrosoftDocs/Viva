@@ -43,10 +43,10 @@ To find and pin the app in Teams, refer to Discover and pin the Viva Insights ap
 
 ### On the web
 
-To access Viva Insights on the web, go to https://www.insights.viva.office.com or use the Microsoft 365 app launcher at https://www.office.com. 
+To access Viva Insights on the web, go to https://insights.viva.office.com or use the Microsoft 365 app launcher at https://office.com. 
 
 
-If your organization is in the Government Community Cloud (GCC)-High Microsoft 365 environment, go to https://www.insights.viva.office365.us. If your organization is in the Department of Defense (DoD) Microsoft 365 environment, go to https://www.dod.insights.viva.office365.us. 
+If your organization is in the Government Community Cloud (GCC)-High Microsoft 365 environment, go to https://insights.viva.office365.us. If your organization is in the Department of Defense (DoD) Microsoft 365 environment, go to https://dod.insights.viva.office365.us. 
 
 ## How it works
 
