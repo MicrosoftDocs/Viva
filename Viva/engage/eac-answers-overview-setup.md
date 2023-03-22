@@ -64,7 +64,7 @@ Answers is enabled by default for customers that meet the following technical re
 
 ## Data storage, export, and compliance
 
-Answers is backed by an Office 365 group and follows the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization, unless a unique policy is set for Answers. The Answers backing group will be auto-provisioned when the first question is posted or first question attachment is created. At the time of creation, all Global admins are assigned as owners of the backing group, which is titled **Group for Answers in Viva Engage – DO NOT DELETE.**
+Answers is backed by an Office 365 group and follows the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers. The Answers backing group will be auto-provisioned when the first question is posted or first question attachment is created. At the time of creation, all Global admins are assigned as owners of the backing group, which is titled **Group for Answers in Viva Engage – DO NOT DELETE.**
 
 Owners of the backing group should ensure Answers maintains compliance with your network policies and doesn't get accidentally deleted. Admins can export date if deleting the backing Office 365 group is desired. If the backing group is deleted, Answers won't be functional.
 
@@ -98,7 +98,7 @@ Only a Microsoft 365 Global admin can change Answers state of enablement:
 [![Screenshot of the Answers enablement toggle in the Engage admin center.](/viva/media/engage/admin/enable-answers.png)](/viva/media/engage/admin/enable-answers.png#lightbox)
 
 >[!NOTE]
-> If Answers is disabled, the backing group will respect the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization, unless a unique policy is set for Answers.
+> If Answers is disabled, the backing group will respect the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers.
 
 ## See also
 

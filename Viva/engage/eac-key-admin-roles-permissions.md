@@ -31,7 +31,7 @@ The following roles have access to the Engage admin center in the Viva Engage ap
 
 ## Microsoft 365 Global admin
 
-The Microsoft 365 Global admin has unlimited access to your organization’s settings and most of its data. Naturally, the Global admin has permissions to perform all configurations for Viva Engage in your organization. To learn more about this role and security guidelines for assigning it, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+The Microsoft 365 Global admin has unlimited access to your organization’s settings and most of its data. Naturally, the Global admin has permissions to perform all configurations for Viva Engage in your organization. To learn more about this role and security guidelines for assigning it, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Engage admin  
 
