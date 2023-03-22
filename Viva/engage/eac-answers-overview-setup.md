@@ -87,15 +87,15 @@ Only a Microsoft 365 Global admin can change Answers state of enablement:
 2. Select the ellipses button from the top right navigation bar to expose admin options.  
 3. Select **Admin** to navigate to the Engage admin center.
 
-[![Screenshot of the admin entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+   [![Screenshot of the admin entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
 4. Select the **Answers** button on the **Feature management** tab to open the Answers configuration options.
 
-[![Screenshot of the admin entrypoint into Answers feature management in the Engage admin center.](/viva/media/engage/admin/answers-eac.png)](/viva/media/engage/admin/answers-eac.png#lightbox)
+   [![Screenshot of the admin entrypoint into Answers feature management in the Engage admin center.](/viva/media/engage/admin/answers-eac.png)](/viva/media/engage/admin/answers-eac.png#lightbox)
 
 5. In Answers feature management, you can enable or disable Answers for your organization. Answers is on by default for all Viva suite and Viva Topics licensed users.  
 
-[![Screenshot of the Answers enablement toggle in the Engage admin center.](/viva/media/engage/admin/enable-answers.png)](/viva/media/engage/admin/enable-answers.png#lightbox)
+   [![Screenshot of the Answers enablement toggle in the Engage admin center.](/viva/media/engage/admin/enable-answers.png)](/viva/media/engage/admin/enable-answers.png#lightbox)
 
 >[!NOTE]
 > If Answers is disabled, the backing group will respect the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers.

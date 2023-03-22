@@ -85,11 +85,11 @@ To remove a topic in Answers, Answers admins (knowledge managers) follow these s
 1. Go to the browse topics page in Answers.
 2. Select the ellipsis button on a topic, which prompts you to remove the topic in Answers.
 
-[![Screenshot of the Remove a topic button that admins see in the topic browse page in Answers in Viva.](/viva/media/engage/admin/remove-topic-hover.png)](/viva/media/engage/admin/remove-topic-hover.png#lightbox)
+   [![Screenshot of the Remove a topic button that admins see in the topic browse page in Answers in Viva.](/viva/media/engage/admin/remove-topic-hover.png)](/viva/media/engage/admin/remove-topic-hover.png#lightbox)
 
 3. Once a topic is removed, it disappears from Answers and will no longer be associated with any questions where it was previously used.
 
-[![Screenshot of the interface and confirmation screen for removing a topic in Answers in Viva.](/viva/media/engage/admin/confirm-remove-topic.png)](/viva/media/engage/admin/confirm-remove-topic.png#lightbox)
+   [![Screenshot of the interface and confirmation screen for removing a topic in Answers in Viva.](/viva/media/engage/admin/confirm-remove-topic.png)](/viva/media/engage/admin/confirm-remove-topic.png#lightbox)
 
 >[!NOTE]
 > When a topic is removed in Answers, you'll still be able to see the topic in the topic center. To remove the topic entirely, you can delete it directly in the topic center.
