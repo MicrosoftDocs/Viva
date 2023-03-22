@@ -100,7 +100,7 @@ You can create a new topic from two locations:
 
    The related topic you added will display as a connected topic.
    
-   When a connection between Topic A and Topic B is manually created on Topic Page A, the connection between these topics is represented as a suggested connection (dotted line) on Topic Page B. This is because representing this as a manual connection on Topic Page B would be equivalent to making a direct change to Topic Page B from Topic Page A, which we do not allow.
+   When a connection between Topic A and Topic B is manually created on Topic Page A, the connection between these topics is represented as a suggested connection (dotted line) on Topic Page B, because representing this as a manual connection on Topic Page B would be equivalent to making a direct change to Topic Page B from Topic Page A, which we do not allow.
 
    To remove a related topic, select the line segment corresponding to the topic you want to remove, then select the **Remove relationship** icon.
  
