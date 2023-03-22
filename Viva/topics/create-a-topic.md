@@ -106,7 +106,7 @@ You can create a new topic from two locations:
  
    ![image](https://user-images.githubusercontent.com/82847165/226719961-1e4c0151-d491-48ee-aff9-155ba8016f9c.png)
    
-   Dotted lines represent connections that have been suggested by the AI. Users can optionally confirm/remove these connections by clicking on the line segment between two nodes.
+   Dotted lines represent connections that have been suggested by the AI. Users can optionally confirm or remove these connections by selecting the line segment between two nodes.
    
    ![image](https://user-images.githubusercontent.com/82847165/226720033-fce74a8f-6ba0-4982-bb45-d44c6d54652f.png)
 
