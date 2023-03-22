@@ -90,7 +90,7 @@ You can create a new topic from two locations:
 
     With the topic page in edit mode, you can add, edit, or remove connections in the Related Topics web part. Note that you can only add or modify first-degree connections because modifying a second-degree connection would be tantamount to directly editing a different topic page, which we do not allow.
 
-    You can add a connection to a different topic by selecting the **Connect to a related topic** button, and then typing the name of the related topic, and selecting it from the search results. 
+    You can add a connection to a different topic by selecting the **Connect to a related topic** button, typing the name of the related topic, and selecting it from the search results. 
 
     ![image](https://user-images.githubusercontent.com/82847165/226719556-8dea74f5-26c4-41fd-8155-6dd2e7c377b4.png)
 
