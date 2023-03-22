@@ -79,7 +79,7 @@ Reducing the amount of time wasted on low-quality collaboration is a way to crea
 As explained in [How to finally kill the useless, recurring meeting](https://workplaceinsights.microsoft.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done." Ways to reduce meeting time:
 
 * Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try canceling some, and then add them back if they’re missed.
-* Use [Protect time](../personal/teams/viva-insights-protect-time.md) to  learn about your after-hours work habits and use [Inline suggestions in Outlook](../personal/use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with configured working hours for coworkers.
+* Use [Quiet time](../personal/teams/quiet-time.md)  to learn about your after-hours work habits and use [Inline suggestions in Outlook](../personal/use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with configured working hours for coworkers.
 * Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
 For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
@@ -113,7 +113,7 @@ Time without meetings, emails and chats provides employees with the opportunity 
 
 [How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking, such as writing, strategic thinking, analysis, coding, designing, or a project with a lot of complexity." Ways to protect time:
 
-* Use a [personal focus plan](../personal/use/focus-plan.md) to automatically book focus time and protect this time by silencing chats, and allows you to track your progress weekly.
+* Use a [personal focus plan](../personal/teams/focus-plan.md) to automatically book focus time and protect this time by silencing chats, and allows you to track your progress weekly.
 * Create a new team norm that respects the Microsoft Teams focus status of others by not sending chats to teammates whose status is "focusing."
 
 For more best practices and ways to protect the time of yourself and others, see [Best practices for focus time](../tutorials/gm-focus.md).

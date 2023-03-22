@@ -13,8 +13,7 @@ ms.collection: viva-insights-advanced
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
-- MET150 
-
+- MET150
 ---
 
 # Advanced insights metric filters
@@ -130,6 +129,15 @@ These filters can be used to customize the following Teams channel metrics:
 | Time of day | The time of day the activity occurred using the time zone of the person.  |
 | Total participants | If the selected Participant count > "X", return metric with total number participants >"X". |
 
+
+> [!IMPORTANT]
+> Avoid applying the following filters, because they result in *null* metrics:
+>
+> * Channel messages sent where Interaction type = "Channel visit"
+> * Channel visits where Interaction type = "Post sent" or "Reply sent"
+> * Channel reactions where Interaction type = "Post sent," "Reply sent," or "Reply sent"
+> * Channel message hours, After hours channel message hours, or Working hours channel message hours where Interaction type = "Reaction"
+
 ### Filters for channel activity
 
 These filters can be used to customize the following Teams channel metrics:
@@ -181,4 +189,5 @@ In this example procedure, you apply a filter to a metric in a person query. Spe
 ## Related topic
 
 * [Metric descriptions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+
 
