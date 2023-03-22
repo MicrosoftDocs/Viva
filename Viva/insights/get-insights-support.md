@@ -49,7 +49,7 @@ If you find a bug, error, or other issue in Viva Insights, file a support ticket
 
 ## Stay up to date and connect with other users
 
-Visit and register on our Viva Insights community to learn more about upcoming releases, participate in rich discussions with other users, and sign up for events hosted by Viva experts.
+Visit and register on our [Viva Insights community](https://community.vivainsights.microsoft.com/) to learn more about upcoming releases, participate in rich discussions with other users, and sign up for events hosted by Viva experts.
 
 ## Additional resources
 
