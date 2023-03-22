@@ -55,11 +55,14 @@ The following Personal insights service plans are generally available with a sub
 * Worldwide Multi-tenant
 * Dedicated Multi-tenant
 * Government Community Cloud (GCC)
+* GCC-High
+* Department of Defense (DoD)
+
+>[!Note]
+>For more information about the features available and unavailable in GCC-High and DoD environments, refer to the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
 ### Not supported Microsoft 365 environments
 
-* GCC-High
-* DoD
 * Microsoft 365 Germany
 * Microsoft 365 Operated by 21Vianet
 
