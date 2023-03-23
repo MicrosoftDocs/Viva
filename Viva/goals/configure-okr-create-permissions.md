@@ -28,7 +28,7 @@ An administrator can set Create permissions to so the following user types, list
 Administrators can set permissions so the following users within an organization can create OKRs and initiative. See the FAQ for specific admin types. 
 
 1. **Anyone in the organization:** This is a good option for smaller organizations with evolving OKR needs.
-1. **Organization admins and organization owners:** Default setting. Restricting OKR creation permissions to only the organization administrators and owners is a safe option as you are able to maintain a structured OKR planning & creation workflow.
+1. **Organization admins and organization owners:** Default setting. Restricting OKR creation permissions to only the organization administrators and owners is a safe option as you're able to maintain a structured OKR planning and creation workflow.
 1.	**Specific people (along with organization admins & organization owners):** This option is valuable when you want to have a structured OKR planning & creation workflow and assign to specific people to take ownership of it. 
 
 > [!NOTE]
