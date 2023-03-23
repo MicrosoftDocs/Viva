@@ -35,13 +35,27 @@ By using the Viva Insights app, you can increase your:
 * [Productivity](productivity.md) &ndash; Make your meetings more effective and keep up on your tasks.
 * [Teamwork](teamwork.md) &ndash; Connect with your network; evaluate your communication habits; and praise colleagues.
 
-## Privacy
+## To find the app
 
-The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](privacy.md).
+### On Teams
+
+To find and pin the app in Teams, refer to Discover and pin the Viva Insights app.
+
+### On the web
+
+To access Viva Insights on the web, go to https://insights.viva.office.com or use the Microsoft 365 app launcher at https://office.com. 
+
+
+If your organization is in the Government Community Cloud (GCC)-High Microsoft 365 environment, go to https://insights.viva.office365.us. If your organization is in the Department of Defense (DoD) Microsoft 365 environment, go to https://dod.insights.viva.office365.us. 
 
 ## How it works
 
 The personal insights and actions in the Viva Insights app are based on your Exchange Online mailbox, like email and calendar data. The insights are derived from data that's already available to you in your Exchange Online mailbox. For example, if you want to determine what commitments you made to others, you could manually review each email in your mailbox. The Insights app just saves you from this tedious process.
+
+## Privacy
+
+The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](privacy.md).
+
 
 >[!Note]
 >To access the Viva Insights app, you need to have an Exchange Online license and access to Teams. To access certain features, you'll need a premium Viva Insights subscription.
