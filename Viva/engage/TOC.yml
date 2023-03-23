@@ -42,6 +42,8 @@
           href: troubleshoot-native-mode.md
         - name: Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API 
           href: track-engage-events.md
+        - name: Manage Viva Engage Core user licenses in Microsoft 365
+          href: manage-engage-licenses-microsoft-365.md
      - name: Feature management
        items:
         - name: Identify leaders and manage audiences in Viva Engage
