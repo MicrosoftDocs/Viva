@@ -131,6 +131,32 @@ You can create a new rule through the **Metric rules** page, or by duplicating a
 >[!Important] 
 >After you publish a rule, you won't be able to edit it. If need to work on a rule later, you can save it as a draft, but you can't use draft rules in queries. Refer to step 6.
 
+### From a template
+
+#### About template categories
+
+Before we jump in, let’s discuss how we’ve set up our rule templates.
+
+We’ve compiled some categories for each collaboration type you might want your rule to apply to: Vacation / Out of Office, Focus time, Attended meetings, Likely attended meetings, Invited meetings, No meeting day, Appointments, and Emails sent to self. Collaboration types are meetings, emails, chats, and calls.
+
+To find out how we built these categories, expand each category container. When you expand the container, you’ll notice a few preselected attributes and values, for example, **Level designation**. These attributes and values determine what kind of information the metric pulls from your data.
+
+>[!Note] 
+>These values in templates are prefilled. If you want more granular control over attributes and values, consider creating a rule from scratch.
+
+If you want to include a category in your rule, select the checkmark next to its title.
+
+To select all categories or deselect all categories, use the Select all or Clear all options above all categories.
+
+#### To add a rule from a template
+
+1. After you select **Create new rule**, pick the first option from the dropdown menu: **Create using a template**.
+    :::image type="content" source="../images/analyst-metric-rules-page-create-template.png" alt-text="Screenshot that shows the Create new rule button with the first option, Create using a template, highlighted.":::
+2. Select the categories you want your rule to apply to. Repeat this step for each category you want to include.
+1. Skip to [step 6] below.
+
+### From scratch
+
 1. On the **Metric rules** page, either:
     1. Select **Create new rule**.
 
@@ -177,7 +203,7 @@ You can create a new rule through the **Metric rules** page, or by duplicating a
     1. You’ll see your exceptions noted in the condition group. If you need to remove a keyword or add more, select the **exceptions** link again.
         :::image type="content" source="../images/analyst-metric-rules-exception-added.png" alt-text="Screenshot that shows a filter with the 1 exceptions link highlighted.":::
 
-1. If you want to go on to naming and publishing your rule, select the **Next** button in the top right of your screen.
+1. <a name="step-6-define"></a>If you want to go on to naming and publishing your rule, select the **Next** button in the top right of your screen.
 
     :::image type="content" source="../images/analyst-metric-rules-page-next.png" alt-text="Screenshot that shows the Next button in the top-right corner of the page highlighted.":::
 
