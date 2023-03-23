@@ -126,7 +126,7 @@ If required attributes are missing from your organizational data, the app will f
 
 ##### Supplemental attributes
 
-We also preselect a few supplemental attributes in your query, which help create filter-based insights in your Power BI template. You can remove these attributes from your query if you want, but keep in mind that doing so might affect certain filters in Power BI.
+We also preselect a few supplemental attributes in your query, which help create filter-based insights in your Power BI template. You can remove these attributes from your query if you want, but keep in mind that doing so might affect certain insights in Power BI.
 
 If your query has low-quality supplemental attributes, or if supplemental employee attributes are missing from your organizational data, the app will flag these attributes with a warning. You can still run your query and load results into Power BI. However, missing or low-quality supplemental attributes will result in missing or low-quality insights in your template.
 
