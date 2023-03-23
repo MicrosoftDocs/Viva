@@ -21,7 +21,9 @@ Use praise in the Microsoft Viva Insights app to recognize the contributions of 
 You can also set reminders to send acclaim on a regular basis to your coworkers and view your praise history. See [Set a praise reminder](#set-praise-reminders) and [Praise history](#praise-history) for details.
 
 >[!Note]
->The praise app is a messaging extension of Microsoft Teams that you can access in the Viva Insights app. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+>The praise app is a messaging extension of Microsoft Teams that you can access in the Viva Insights app. For more information, refer to [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions). 
+>
+>Praise isn't available in the Department of Defense (DoD) Microsoft 365 environment.
 
 ## Send praise
 
