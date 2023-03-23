@@ -73,6 +73,8 @@ You might notice warnings about attribute quality while you're building custom o
 
 In addition to warnings on specific metrics and attributes, you'll also find a banner at the top of the page.
 
+Quality of employee attributes can change over time due to updates to organizational data made by your Admin. While setting up a query, the quality of employee attributes is calculated for the selected time period.
+
 ### In custom queries
 
 #### Warnings on metrics
