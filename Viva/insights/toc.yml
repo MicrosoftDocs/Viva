@@ -63,8 +63,8 @@ items:
               href: personal/teams/reflect.md                
             - name: Virtual commute
               href: personal/teams/virtual-commute.md
-          - name: FAQ
-            href: personal/teams/faq.md                      
+        - name: FAQ
+          href: personal/teams/faq.md                      
       - name: Outlook add-in
         items:
             - name: Introduction
