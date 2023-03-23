@@ -153,7 +153,7 @@ To select all categories or deselect all categories, use the Select all or Clear
 1. After you select **Create new rule**, pick the first option from the dropdown menu: **Create using a template**.
     :::image type="content" source="../images/analyst-metric-rules-page-create-template.png" alt-text="Screenshot that shows the Create new rule button with the first option, Create using a template, highlighted.":::
 2. Select the categories you want your rule to apply to. Repeat this step for each category you want to include.
-1. Skip to [step 6] below.
+1. Skip to [step 6](#step-6) below.
 
 ### From scratch
 
@@ -203,7 +203,7 @@ To select all categories or deselect all categories, use the Select all or Clear
     1. You’ll see your exceptions noted in the condition group. If you need to remove a keyword or add more, select the **exceptions** link again.
         :::image type="content" source="../images/analyst-metric-rules-exception-added.png" alt-text="Screenshot that shows a filter with the 1 exceptions link highlighted.":::
 
-1. <a name="step-6-define"></a>If you want to go on to naming and publishing your rule, select the **Next** button in the top right of your screen.
+1. <a name="step-6"></a>If you want to go on to naming and publishing your rule, select the **Next** button in the top right of your screen.
 
     :::image type="content" source="../images/analyst-metric-rules-page-next.png" alt-text="Screenshot that shows the Next button in the top-right corner of the page highlighted.":::
 
