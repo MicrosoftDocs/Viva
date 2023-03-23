@@ -95,7 +95,7 @@ The majority of end users can expect no change in their Viva Engage experience w
 
 ### How do I check the status of my network's migration to Native Mode?
 
-Any Global Admin from your tenant can check the status of your network's alignment to Native Mode by accessing the Engage admin center. On the **Setup & configuration** tab, they can access **Configure tenant**, which will then route them to the Yammer admin center. In the Yammer admin center, they can click on **native mode** to see their progress.
+Any Global Admin from your tenant can check the status of your network's alignment to Native Mode by accessing the Viva Engage admin center. On the **Setup & configuration** tab, they can access **Configure tenant**, which will then route them to the Yammer admin center. In the Yammer admin center, they can click on **native mode** to see their progress.
 
 ## Networks
 

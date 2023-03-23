@@ -28,17 +28,17 @@ Creating and viewing the campaign landing page, and analytics from the campaign 
 
 ## Set up a campaign
 
-Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to navigate to the [Engage admin center](/viva/engage/eac-as-access-eac).
+Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to navigate to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 
-[![Image of the entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+[![Image of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
 Navigate to the campaign dashboard by selecting **Campaigns** from the **Feature management** tab.
 
-[![Image of the interface for managing campaigns in the Engage admin center.](/viva/media/engage/admin/campaigns-eac.png)](/viva/media/engage/admin/campaigns-eac.png#lightbox)
+[![Image of the interface for managing campaigns in the Viva Engage admin center.](/viva/media/engage/admin/campaigns-eac.png)](/viva/media/engage/admin/campaigns-eac.png#lightbox)
 
 The campaign dashboard provides a list of active, ended, and draft campaigns created for the organization. From this page, you can create and edit campaigns, or access campaign analytics for better understanding of the campaign's performance and engagement.
 
-[![Image of the Engage admin center entrypoint for managing Campaigns.](/viva/media/engage/admin/campaign-dashboard.png)](/viva/media/engage/admin/campaign-dashboard.png#lightbox)
+[![Image of the Viva Engage admin center entrypoint for managing Campaigns.](/viva/media/engage/admin/campaign-dashboard.png)](/viva/media/engage/admin/campaign-dashboard.png#lightbox)
 
 ## Create a campaign
 
