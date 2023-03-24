@@ -31,7 +31,7 @@ Need to send feedback, ask a question, file a support ticket, or learn more abou
 
 ## Get your questions answered
 
-If you have questions about Viva Insights, we have a few FAQ articles that might answer them: 
+If you have questions about Viva Insights, we have a few FAQ articles that might help: 
 
 * [Personal insights FAQs](./personal/overview/mya-faq.md)
 * [Teams app FAQs](./personal/teams/faq.md)
