@@ -16,10 +16,9 @@ ms.subservice: viva-insights
 manager: anirudhbajaj
 ---
 
-# Get support
+# Get support for Viva Insights
 
 Need to send feedback, ask a question, file a support ticket, or learn more about Viva Insights? Explore our help and support resources.
-
 
 ## Provide feedback, feature requests, and suggestions  
 
@@ -32,7 +31,7 @@ Need to send feedback, ask a question, file a support ticket, or learn more abou
 
 ## Get your questions answered
 
-We have a few FAQ articles that might answer your questions about Viva Insights: 
+If you have questions about Viva Insights, we have a few FAQ articles that might answer them: 
 
 * [Personal insights FAQs](./personal/overview/mya-faq.md)
 * [Teams app FAQs](./personal/teams/faq.md)
