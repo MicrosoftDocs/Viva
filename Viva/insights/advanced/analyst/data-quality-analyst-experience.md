@@ -78,7 +78,7 @@ You might notice warnings about attribute quality while you're building custom o
 
 In addition to warnings on specific metrics and attributes, you'll also find a banner at the top of the page.
 
-Quality of employee attributes can change over time due to updates to organizational data made by your Admin. While setting up a query, the quality of employee attributes is calculated for the selected time period.
+Because your admin makes updates to your organizational data, attribute quality can change over time. While setting up a query, Viva Insights calculates the quality of attributes for the time period you select.
 
 ### In custom queries
 
