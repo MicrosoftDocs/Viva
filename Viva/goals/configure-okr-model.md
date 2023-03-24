@@ -3,8 +3,8 @@ ms.date: 05/04/2022
 title: Configure your OKR rules in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
-author: RaSanders-MSFT
-manager: 
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH

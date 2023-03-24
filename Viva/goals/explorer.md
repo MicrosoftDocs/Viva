@@ -2,8 +2,8 @@
 ms.date: 04/11/2022
 title: "Explorer"
 ms.reviewer: 
-ms.author: rasnaders
-author: rasandrs
+ms.author: rasanders
+author: rasanders
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

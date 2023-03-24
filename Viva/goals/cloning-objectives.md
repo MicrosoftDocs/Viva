@@ -2,9 +2,9 @@
 ms.date: 04/13/2022
 title: Cloning OKRs
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz/Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
