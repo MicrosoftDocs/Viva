@@ -711,6 +711,16 @@
       {"source_path": "viva/insights/personal/teams/focus-mode.md",
       "redirect_url": "/viva/insights/personal/teams/focus",
       "redirect_document_id": false
-      }
+      },
+      {
+        "source_path": "viva/goals/projects.md",
+        "redirect_url": "https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c",
+        "redirect_document_id": false
+        },
+        {
+          "source_path": "viva/goals/review-dashboard-templates.md",
+          "redirect_url": "https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4",
+          "redirect_document_id": false
+          }
     ]
 }
