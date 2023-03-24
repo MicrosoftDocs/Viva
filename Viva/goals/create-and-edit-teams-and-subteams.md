@@ -140,9 +140,9 @@ Archiving a team isn't permanent. You can restore an archived team. To restore a
     
 ### What happens when I archive a team?
 
-Once a team is archived, you can no longer create OKRs and projects under that team, and no users will be a part of the team. Additionally, any subteams become independent teams in Viva Goals. All OKRs that were previously assigned to the archived teams will still be accessible for actions to be performed on them, such as check-ins.
+Once a team is archived, you can no longer create OKRs and initiatives under that team, and no users will be a part of the team. Additionally, any subteams become independent teams in Viva Goals. All OKRs that were previously assigned to the archived teams will still be accessible for actions to be performed on them, such as check-ins.
 
-Even though you won't be able to see the archived team under **All Teams** now, you can see the assigned OKRs by expanding the parent OKRs that they're aligned to. You can also view those OKRs/projects in the Explorer by applying the type filter and selecting the archived team name.
+Even though you won't be able to see the archived team under **All Teams** now, you can see the assigned OKRs by expanding the parent OKRs that they're aligned to. You can also view those OKRs/initiatives in the Explorer by applying the type filter and selecting the archived team name.
 
 Activities related to the archived team are halted, including assigning team members and team-level notifications. To resume these activities, you would unarchive the team. 
 

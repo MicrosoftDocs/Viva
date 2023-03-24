@@ -1,6 +1,6 @@
 ---
 ms.date: 12/16/2022
-title: Import OKRs and Initiatives/Projects into Viva Goals with Excel
+title: Import OKRs and Initiatives into Viva Goals with Excel
 ms.reviewer: 
 ms.author: rasanders
 author: rasanders
@@ -17,16 +17,16 @@ ms.collection:
 - highpri  
 search.appverid:
 - MET150
-description: "Learn how to import OKRs and initiative/projects into Viva goals through a standard Excel Template"
+description: "Learn how to import OKRs and initiative into Viva goals through a standard Excel Template"
 ---
 
 # Overview 
 
-Viva Goals allows bulk importing of Objectives, Key Results and Projects using a standard Excel template. Bulk import allows you to take pre-existing lists of OKRs and Projects and quickly add them to Viva Goals. 
+Viva Goals allows bulk importing of Objectives, Key Results and Initiatives using a standard Excel template. Bulk import allows you to take pre-existing lists of OKRs and Initiatives and quickly add them to Viva Goals. 
 
 ## Prerequisites and things to note 
 
-**Max OKRs and initiatives/projects:** Only 1000 records can be imported at once. Split the files if there are more than 1000 OKRs to be imported.
+**Max OKRs and initiatives:** Only 1000 records can be imported at once. Split the files if there are more than 1000 OKRs to be imported.
 
 **File format:** Files should be saved only as .xlsx (Template will be provided in .xlsx)
 
@@ -35,16 +35,16 @@ Viva Goals allows bulk importing of Objectives, Key Results and Projects using a
 **Role and Permission:**
 
 - Only organization administrators, organization owners, team owner and team administrators have this option enabled.
-    - **Org administrator, Org Owner** – Allowed to import OKRs and Projects into any team and to the organization.
-    - **Team Owner, Team Admin** – Allowed to only import OKRs and Projects to teams in which the user is a team administrator or team owner. 
+    - **Org administrator, Org Owner** – Allowed to import OKRs and Initiatives into any team and to the organization.
+    - **Team Owner, Team Admin** – Allowed to only import OKRs and Initiatives to teams in which the user is a team administrator or team owner. 
 
-## How to Import OKRs and Initiatives/Projects
+## How to Import OKRs and Initiatives
 
-1. Go to the Team or the Organization where you want to import OKRs and Projects and click  the drop-down next to the **Add Objective** button and select **Import OKRs.**
+1. Go to the Team or the Organization where you want to import OKRs and Initiatives and click  the drop-down next to the **Add Objective** button and select **Import OKRs.**
 1. Read the instructions for using the template and click on the link to Download the excel template.
     1. The Excel template also includes all necessary instructions in the **Read Me** sheet.  
     1. Refer to **Basic Fields and Advanced Fields** sheet in excel to learn more about each field in detail.  
-1. Fill in the OKRs and Project details in the OKRs and Project tab and save the file with the .xlsx extension.
+1. Fill in the OKRs and Initiative details in the OKRs and Initiative tab and save the file with the .xlsx extension.
 1. Drag and drop the filled-in Excel workbook in the file upload section (to the right) or click on the hyperlink to select the file from your local storage.
 1. You'll see a preview of a few records from the file to ensure you have selected the right one.
 1. If the file is correct, click **Import**.
@@ -54,9 +54,9 @@ Viva Goals allows bulk importing of Objectives, Key Results and Projects using a
 
 To view the details of import status and details for imports initiated in the past 28 days, select **View Status** from the banner that appears on top or click on your Profile photo and choose **Account Settings > My Import summary**.
 
-Once the import completes, you can download the import status report from the My Import summary page to view what OKRs and Projects were imported successfully and what did not.
+Once the import completes, you can download the import status report from the My Import summary page to view what OKRs and Initiatives were imported successfully and what did not.
 
-For records that have not been imported, refer to the "reason" column in the Import status report. Rectify the errors and reupload in the same file. Note that the system does not create duplicate records if the attributes of the OKRs and Projects such as Owner, Title, Time period, and Team/Organization to which it belongs are unchanged.
+For records that have not been imported, refer to the "reason" column in the Import status report. Rectify the errors and reupload in the same file. Note that the system does not create duplicate records if the attributes of the OKRs and Initiatives such as Owner, Title, Time period, and Team/Organization to which it belongs are unchanged.
 
  ## FAQ (Frequently Asked Questions)
 
@@ -72,8 +72,8 @@ For records that have not been imported, refer to the "reason" column in the Imp
 1. Where can users learn what columns are needed, what should be filled in, and other details? 
     1. The Instructions tab in the Excel template explains what’s needed in detail.
 
-1. Does this feature only add new OKRs and Projects? 
-    1. The feature also modifies existing OKRs and/or Projects if an exact match is found in the Viva Goals system. Matches are identified based on the Title, Owner of the OKR or Project, Type (Organization, Team name, Individual), and Time period, which avoids creating duplicate OKRs and Projects.
+1. Does this feature only add new OKRs and Initiatives? 
+    1. The feature also modifies existing OKRs and/or Initiatives if an exact match is found in the Viva Goals system. Matches are identified based on the Title, Owner of the OKR or Initiative, Type (Organization, Team name, Individual), and Time period, which avoids creating duplicate OKRs and Initiatives.
 
 1. How can users align a child OKR to a parent OKR? 
     1. The parent and the child OKR should exist in the Excel sheet.  

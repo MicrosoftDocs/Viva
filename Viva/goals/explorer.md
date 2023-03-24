@@ -2,9 +2,9 @@
 ms.date: 04/11/2022
 title: "Explorer"
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager:
+ms.author: rasnaders
+author: rasandrs
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -22,11 +22,11 @@ description: "Learn about Explorer, a powerful navigation and reporting tool for
 
 # Explorer
 
-Explorer can generate preset views and create custom views. Use Explorer to filter out objectives and key results (OKRs) and projects of interest. Save commonly viewed filters to quickly access them again in the future.
+Explorer can generate preset views and create custom views. Use Explorer to filter out objectives and key results (OKRs) and initiatives of interest. Save commonly viewed filters to quickly access them again in the future.
 
 ## Default views in Explorer
 
-The Explorer default views provide a strategic glimpse into your organization's OKRs and projects and their progress. You can choose from one of these handy preset views:
+The Explorer default views provide a strategic glimpse into your organization's OKRs and initiatives and their progress. You can choose from one of these handy preset views:
 
 | View  | What it shows |
 |---------|---------|
@@ -53,27 +53,27 @@ The following filters are available:
 | Filters | Filters by |
 |---------|---------|
 | Aligned | Aligned to any or a specific objective. This filter can also identify unaligned objectives. |
-| Check-in Date | Check-in date of the OKR/Project. Filters by the exact check-in date, after or before a specific date, or more or less than *x* number of days. |
-| Created Date | Created-on date of the OKR/project. Filters by the exact created date, after or before a specific date, or more or less than *x* number of days. |
-| Due | Due date of the OKR/project. Find overdue OKRs/projects or view all OKRs/projects due within a particular time. Filters by overdue, after or before a specific date, or more or less than *x* number of days. |
-| Integration | The integration connected with the OKR/project. |
-| Keyword | Keywords in the OKR/project title. Filter based on the product name, campaign name, or other keywords unique to your organization. |
-| Last Updated | Last time the OKR/project received an update. Find OKRs/projects that are falling behind on check-ins, or get a snapshot of activity during a specific timeframe. |
-| Time period | The time period the OKR/project belongs to. |
-| Manager | Manager of the OKR/project owner. |
-| Object type | Filters by objective or key result or project. |
-| Owner | Owner of the OKR/project. This filter can also locate unassigned OKRs/projects. |
+| Check-in Date | Check-in date of the OKR/initiative. Filters by the exact check-in date, after or before a specific date, or more or less than *x* number of days. |
+| Created Date | Created-on date of the OKR/initiatives. Filters by the exact created date, after or before a specific date, or more or less than *x* number of days. |
+| Due | Due date of the OKR/initiatives. Find overdue OKRs/initiatives or view all OKRs/initiatives due within a particular time. Filters by overdue, after or before a specific date, or more or less than *x* number of days. |
+| Integration | The integration connected with the OKR/initiative. |
+| Keyword | Keywords in the OKR/initiative title. Filter based on the product name, campaign name, or other keywords unique to your organization. |
+| Last Updated | Last time the OKR/initiative received an update. Find OKRs/initiatives that are falling behind on check-ins, or get a snapshot of activity during a specific timeframe. |
+| Time period | The time period the OKR/initiative belongs to. |
+| Manager | Manager of the OKR/initiative owner. |
+| Object type | Filters by objective or key result or initiative. |
+| Owner | Owner of the OKR/initiative. This filter can also locate unassigned OKRs/initiatives. |
 | Progress | Percentage of completion. This filter is handy in combination with the due date filter. |
-| Start date | The start date of the OKR/project. |
-| Status | The objective/project's current status. Select from Not Started, On Track, Behind, At Risk, Closed, Postponed, or Reopened. |
-| Tag |  Search by tags added to OKRs/projects. |
-| Team type | The team type of the OKR/project. Team type is specified when you create a team in the admin dashboard. |
-| Time period | The time period the OKR/project belongs to. |
-| Type | Organization-level, team-level, or individual-level OKR/projects |
+| Start date | The start date of the OKR/initiative. |
+| Status | The objective/initiative's current status. Select from Not Started, On Track, Behind, At Risk, Closed, Postponed, or Reopened. |
+| Tag |  Search by tags added to OKRs/initiatives. |
+| Team type | The team type of the OKR/initiative. Team type is specified when you create a team in the admin dashboard. |
+| Time period | The time period the OKR/initiative belongs to. |
+| Type | Organization-level, team-level, or individual-level OKR/initiatives |
 
 Filters are best when used in combination. To create meaningful and relevant views, combine several filters.
 
-By default, views list objectives, key results, and projects. To view only top-level objectives, select the checkbox in the upper-right corner.
+By default, views list objectives, key results, and initiatives. To view only top-level objectives, select the checkbox in the upper-right corner.
 
 ## Save and export
 
@@ -94,7 +94,7 @@ Here are for settings for the **Export** feature:
 
 - Select the fields to include in the export file.
 
-- Include key results/projects along with the objectives exported. In this case, first level key results/children will be exported along with each objective.
+- Include key results/initiatives along with the objectives exported. In this case, first level key results/children will be exported along with each objective.
 
 - Choose to export tags in separate columns in the file.
 
@@ -132,15 +132,15 @@ In Explorer, select the **All Objectives** preset view.
 
 :::image type="content" source="../media/goals/4/46/g.jpg" alt-text="Screenshot shows the Explorer All Objectives view." lightbox="../media/goals/4/46/g.jpg":::
 
-**How do I view all projects?**
+**How do I view all initiatives?**
 
-In Explorer, apply the filter for **Object Type** as **Project** to view all projects.
+In Explorer, apply the filter for **Object Type** as **initiative** to view all initiatives.
 
-:::image type="content" source="../media/goals/4/46/h.jpg" alt-text="Screenshot shows how to choose to filter for all projects." lightbox="../media/goals/4/46/h.jpg":::
+:::image type="content" source="../media/goals/4/46/h.jpg" alt-text="Screenshot shows how to choose to filter for all initiatives." lightbox="../media/goals/4/46/h.jpg":::
 
 **How do I export my data?**
 
-Use filters to access the data you want, and then go to **Actions** -> **Export**. You'll receive an email with a link to download your OKRs and projects as a .csv/Excel file. Remember to clear the **Show only top-level objectives** checkbox if you need the KRs too.
+Use filters to access the data you want, and then go to **Actions** -> **Export**. You'll receive an email with a link to download your OKRs and initiatives as a .csv/Excel file. Remember to clear the **Show only top-level objectives** checkbox if you need the KRs too.
 
 :::image type="content" source="../media/goals/4/46/i.jpg" alt-text="Screenshot shows how to choose to export data." lightbox="../media/goals/4/46/i.jpg":::
 
@@ -169,14 +169,14 @@ To change this setting, select **Save view**, change the setting, and save it ag
 
 **What does exporting tags as a separate field mean?**
 
-If an objective, key result, or project has more than one tag, the field can be exported as separate columns instead of comma-separated values in the .csv/Excel file.
+If an objective, key result, or initiative has more than one tag, the field can be exported as separate columns instead of comma-separated values in the .csv/Excel file.
 
-**How do I export my OKRs and projects?**
+**How do I export my OKRs and initiatives?**
 
-You can use Explorer to export OKRs and projects. Go to Explorer from the main menu. You can use the **All objectives** view if you want to export all your OKRs or apply any desired filters, like time period or owner.
+You can use Explorer to export OKRs and initiatives. Go to Explorer from the main menu. You can use the **All objectives** view if you want to export all your OKRs or apply any desired filters, like time period or owner.
 
 > [!NOTE]
-> By default, Explorer only displays top-level objectives. If you want to include the KRs/projects, you can use the flat-list view or choose to include the child key results/child projects when you export.
+> By default, Explorer only displays top-level objectives. If you want to include the KRs/initiatives, you can use the flat-list view or choose to include the child key results/child initiatives when you export.
 
 **Flat-list view:**
 

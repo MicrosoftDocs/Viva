@@ -41,7 +41,7 @@ You can set or edit your OKRs' contributions from the **More actions** dropdown 
 
    The **Manage contributions** dialog box is displayed.
 
-2. Add or edit the contributions of the children (objectives, key results, or projects).
+2. Add or edit the contributions of the children (objectives, key results, or initiatives).
 
    > [!NOTE]
    > You can enable or disable the **Newly aligned key results should start contributing by default** toggle. By enabling this toggle (which is enabled by default), you'll allow a newly created child to contribute to the parent. This enablement will readjust the contributions you’d have assigned to each child.
@@ -59,9 +59,9 @@ You can set or edit your OKRs' contributions from the **More actions** dropdown 
 
 ## How to share OKRs with multiple teams and owners 
 
-The Shared OKRs/projects feature in Viva Goals is a great method for multiple teams and owners to collaborate on their key initiatives with equal ownership and ensure alignment.
+The Shared OKRs/initiatives feature in Viva Goals is a great method for multiple teams and owners to collaborate on their key initiatives with equal ownership and ensure alignment.
 
-### When to create shared OKRs/projects 
+### When to create shared OKRs/initiatives 
 
 - When an OKR is a key priority for two or more functional teams and the team leads need to have shared accountability as the exact contribution can't be proportioned or separately broken down between them
 
@@ -99,7 +99,7 @@ The Viva Goals flexible shared OKR models ensure that you don't have to create d
 
 ### How to enable the Shared OKRs feature for your organization
 
-OKR administrators can turn on the "Shared OKRs" feature from the **OKR & Projects** tab in the admin settings.
+OKR administrators can turn on the "Shared OKRs" feature from the **OKR & Initiatives** tab in the admin settings.
 
 ### How to create shared OKRs for multiple teams
 
@@ -108,7 +108,7 @@ OKR administrators can turn on the "Shared OKRs" feature from the **OKR & Projec
 2. Scroll down or search via the search bar for the team of choice.
 3. Select the team and save the objective/key result. You'll start sharing the OKR with that team.
 
-Users can also assign multiple teams to projects by implementing this procedure.
+Users can also assign multiple teams to initiatives by implementing this procedure.
 
 ### How to create shared OKRs with multiple users as owners
 

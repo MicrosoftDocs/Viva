@@ -61,7 +61,7 @@ You can edit the cloned objective to reflect the leftover portion of the goal in
    :::image type="content" source="../media/goals/3/33/b.jpg" alt-text="Screenshot of the dialog box where you clone an objective." lightbox="../media/goals/3/33/b.jpg":::
 
    >[!NOTE]
-   >Select **Keep original objective owner** if you want to retain the original owners for the objectives, key results, and projects in the hierarchy. If you want to change the OKR owner, you can assign it to yourself or anyone on your team. All the OKRs and projects in the hierarchy will be assigned to the new owner.
+   >Select **Keep original objective owner** if you want to retain the original owners for the objectives, key results, and initiatives in the hierarchy. If you want to change the OKR owner, you can assign it to yourself or anyone on your team. All the OKRs and initiatives in the hierarchy will be assigned to the new owner.
 
 3. If necessary, edit the newly cloned objective. For example, you might change key results or KPIs to reflect the remaining work in the new time period.
 
