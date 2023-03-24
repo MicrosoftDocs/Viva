@@ -236,7 +236,7 @@ Finally, add the author.
 1. Look for the SharePoint provider and select the ellipses (**...**).
 1. Select **Edit**.
 
-![Image of the edit option that can be accessed through manage providers](../media/learning/sharepoint-display-name1.png)
+![Screenshot of the edit option that can be accessed through manage providers.](../media/learning/sharepoint-display-name1.png)
 
 The display name is the organization or tenant name by default.
 
