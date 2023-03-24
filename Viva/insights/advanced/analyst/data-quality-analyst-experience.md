@@ -24,7 +24,7 @@ Admins are responsible for uploading organizational data. However, you as an ana
 
 ### Missing data
 
-Missing data means that certain employee attributes--that is, columns--weren't in the organizational data your admin uploaded. Because employee attributes are tied to insights, missing attributes lead to missing insights.
+Missing data means that certain employee attributes—that is, columns—weren't in the organizational data your admin uploaded. Because employee attributes are tied to insights, missing attributes lead to missing insights.
 
 ### Low-quality data and coverage
 
