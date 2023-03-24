@@ -38,30 +38,35 @@ In the image below, the attribute on the left, **Organization**, has high covera
    Screenshot of an upload file that shows two attributes: Organization and TimeZone. Organization has values for all 19 displayed rows. TimeZone only has values for 6 displayed rows.
 :::image-end:::
 
-### To view data quality on the Organizational data page
+### To view data quality
 
-To view the quality of uploaded data in the advanced insights app, select **Organizational data** on the app’s left pane. The **Organizational data** page contains two tabs: **Data hub** and **Data quality**.
+Two pages in the advanced insights app inform you about your data quality: **Data hub** and **Organizational data**. You can get to these pages by selecting them from the app's left pane.
 
-#### Data hub
+#### On the Data hub
 
-The **Data hub** tab shows the number of:
+Use the **Data hub** page to view the number of:
 
 * Missing or low-quality insights
 * Available insights
 * Missing or low-quality data fields
-* Days since the data was last refreshed
+* Days since the data last refreshed
 
-It also shows, as a donut chart, the percentage of insights displayed based on the total number of possible insights. When more organizational data is added, more insights become available and this percentage increases.
+You can also view the percentage of insights displayed in Viva Insights based on the total number of possible insights. When your admin adds more organizational data, more insights become available and this percentage increases.
 
-Beneath the summary is a list of missing insights and missing data fields. You can select a missing insight to see its related data fields, and vice versa.
+If fields are missing from your uploaded data, you'll find them in a list beneath the **Missing or low-quality insights and data fields** header. Select a missing insight to see its related data fields, and vice versa. To remove an insight from this list, your admin will need to upload the related data field(s) to the advanced insights app.
 
-A blurb describes how to improve data quality.
+#### On the Organizational data page
 
-The **Data quality** tab provides attribute-specific information, including **Quality score**.
+Use this page to view attribute-specific information, including:
 
-### Contacting your admin 
+* **Quality score**, which represents the attribute's [coverage](#low-quality-data-and-coverage).
+* **Last updated**, which lists when your admin last uploaded this attribute Viva Insights.
+* **Employees with this field**, which shows how many employees in your organizational data have a value for this attribute.
+* **Unique values**, which shows how many values for the attribute are unique.
 
-To address the data-quality errors and warnings we explain below, you might need to have your admin re-upload organizational data. The **Contact admin** page provides a list of your organization’s admins and their contact information, and also provides a button to directly send them an email. Reach the **Contact admin** page on the app's left pane.
+### To contact your admin 
+
+To address the data-quality errors and warnings we explain below—or to address missing insights on the **Data hub**—you might need to have your admin re-upload organizational data. The **Contact admin** page provides a list of your organization’s admins and their contact information, and also provides a button to directly send them an email. Reach the **Contact admin** page on the app's left pane.
 
 ## Attribute-quality notifications in queries
 
@@ -117,12 +122,12 @@ Warnings on filters appear the same as they do in [custom queries](#warnings-on-
 
 Power BI templates require certain basic attributes to work properly. These attributes appear in gray, and you can’t remove them.
 
-If required attributes are of low quality, the app will flag them with a warning. If your query has low-quality required attributes, you can still run it and load results into Power BI.
+If basic attributes are of low quality, the app will flag them with a warning. If your query has low-quality basic attributes, you can still run it and load results into Power BI.
 
 >[!Note]
 >Right now, Power BI reports don't show which insights use flagged metrics.
 
-If required attributes are missing from your organizational data, the app will flag them with an error, and you won't be able to run the query or load results into Power BI. You'll need to contact your admin to get the right data uploaded.
+If basic attributes are missing from your organizational data, the app will flag them with an error, and you won't be able to run the query or load results into Power BI. You'll need to contact your admin to get the right data uploaded.
 
 ##### Supplemental attributes
 
