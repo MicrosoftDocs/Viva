@@ -137,16 +137,32 @@ You can create a new rule through the **Metric rules** page, or by duplicating a
 
 Before we jump in, let’s discuss how we’ve set up our rule templates.
 
-We’ve compiled some categories for each collaboration type you might want your rule to apply to: Vacation / Out of Office, Focus time, Attended meetings, Likely attended meetings, Invited meetings, No meeting day, Appointments, and Emails sent to self. Collaboration types are meetings, emails, chats, and calls.
+We’ve compiled some categories for each collaboration type you might want your rule to apply to: **Vacation / Out of Office**, **Focus time**, **Attended meetings**, **Likely attended meetings**, **Invited meetings**, **No meeting day**, **Appointments**, and **Emails sent to self**. Collaboration types are meetings, emails, chats, and calls.
 
-To find out how we built these categories, expand each category container. When you expand the container, you’ll notice a few preselected attributes and values, for example, **Level designation**. These attributes and values determine what kind of information the metric pulls from your data.
+To find out how we built these categories, expand each category container. When you expand the container, you’ll notice a few preselected attributes and values, for example, **Level designation**. These attributes and values determine what kind of information the metric pulls from your data. We've listed out all categories in [Category reference](#category-reference), along with their attribute criteria.
 
->[!Note] 
+:::image type="content" source="../images/analyst-metric-rules-containers2.png" alt-text="<alt text>" lightbox="../images/analyst-metric-rules-containers2.png":::
+
+>[!Note]
 >These values in templates are prefilled. If you want more granular control over attributes and values, consider creating a rule from scratch.
 
 If you want to include a category in your rule, select the checkmark next to its title.
 
-To select all categories or deselect all categories, use the Select all or Clear all options above all categories.
+To select all categories or deselect all categories, use the **Select all** or **Clear all** options above all categories.
+
+##### Category reference
+
+Here's how we define each meeting category. For a meeting to be included in one of these categories, it has to meet *all* of the conditions in **Meeting criteria**.
+
+|Category|Meeting criteria|
+|--------|----------|
+|Attended meeting| <ul><li>Joined on Teams <li>More than two people  accepted the meeting invitation
+|Likely attended meeting| <!--the second condition is blank-->
+|Invited to meeting| <ul><li>Is shorter than 24 hours long<li>Isn't canceled<li>Has more than two invitees<li> Doesn't show as "Out of Office" and doesn't contain "No meeting day" in the title
+|Vacation or Out of Office| <ul><li>Has "Organizer" for the response<li>Isn't joined on Teams<li>Is 24 hours or longer<li>Isn't canceled<li>Doesn't recur<li>Contains one of several keywords in the title, including "vacation," "Out of office," "OOF," "medical leave."
+|No meeting day| <ul><li>Is 24 hours long<li>Isn't canceled<li>Has more than two intended participants<li> Doesn't show as "Out of Office" and doesn't contain "No meeting day" in the subject line
+|Focus time| <ul><li>Isn't joined on Teams<li>Is shorter than 24 hours<li>Isn't canceled<li>Has "Organizer" for the response<li>Has fewer than two intended participants<li>Set to show as "Busy" or has "Focus time" in the subject line
+|Appointment|Meetings that meet all of the following conditions:<ul><li>Not joined on Teams<li>Shorter than 24 hours<li>Not canceled<li>Meeting response is "Organizer"<li>Fewer than 2 intended participants<li>Show as is set to "Busy"
 
 #### To add a rule from a template
 
@@ -173,7 +189,7 @@ To select all categories or deselect all categories, use the Select all or Clear
 
 1. Define what you want to analyze by adding filters. 
 
-    To learn more about filters, refer to our Filters documentation.
+    To learn more about filters, refer to our [Filters](filters.md) article.
 
     :::image type="content" source="../images/analyst-metric-rules-filters.png" alt-text="Screenshot that shows various filters for the Meetings collaboration type in the metric rule builder." lightbox="../images/analyst-metric-rules-filters-large.png":::
 
