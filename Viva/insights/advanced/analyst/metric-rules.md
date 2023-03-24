@@ -18,13 +18,13 @@ search.appverid:
 # Advanced insights metric rules
 
 
-To reveal collaboration trends, Microsoft Viva Insights uses email, calendar, and Teams activities, like chats and calls. While people use these tools to collaborate on work, they might also use them to keep track of personal appointments and other non-collaboration activities. If queries included these non-collaboration activities, they’d produce skewed results.
+To reveal collaboration trends, Microsoft Viva Insights uses email, calendar, and Teams activities, like chats and calls. While people use these tools to collaborate on work, they might also use them to keep track of personal appointments and other non-collaboration activities. If queries included these non-collaboration activities, those queries would produce skewed results.
 
-So, how can you exclude non-collaboration activities from your queries and get more accurate results? Add a *metric rule*. When you use rules in your queries, Viva Insights leaves out meetings, emails, chats, and calls you don’t want to analyze.
+So, how can you exclude non-collaboration activities from your queries and get more accurate results? Add a *metric rule*. When you use metric rules in your queries, Viva Insights leaves out meetings, emails, chats, and calls you don’t want to analyze.
 
-Let’s use an example. People in your company might book focus time on their calendars, but focus time isn’t something you’d want to analyze like a meeting. To prevent focus time from sneaking into queries, you might consider using a rule that excludes meetings where *Category = Focus time*. Similarly, to exclude company-wide meetings, you might set up a rule that excludes meetings where *Participants > 100*. Not only can you create rules for meetings—you can also create them for chats, emails, and calls.
+Let’s use an example. People in your company might book focus time on their calendars, but focus time isn’t something you’d want to analyze like a meeting. To prevent this non-collaborative focus time from sneaking into queries, you might consider using a rule that excludes meetings where *Category = Focus time*. Similarly, to exclude company-wide meetings, you might set up a rule that excludes meetings where *Participants > 100*. Not only can you create rules for meetings—you can also create them for chats, emails, and calls.
 
-Here are a few things to keep in mind: 
+Here are a few things to keep in mind about metric rules: 
 
 * Metric rules apply to your query's metric calculations and also to data shown within the Viva Insights app in Teams and web.
 * When you set a rule as default, it applies to all future queries and the Viva Insights app in Teams and web. Refer to [About default rules](#about-default-rules) for more information.
@@ -64,7 +64,7 @@ Here’s what you can do in this view:
 * **Archive**, if you originally created the rule
 * **Favorite** 
 
->![Important!]
+>[!Important]
 >After you publish a rule, you won't be able to edit it.
 
 #### Drafts
@@ -95,6 +95,9 @@ To mark a rule as a favorite while you’re in **All rules** or **Published**, s
 
 :::image type="content" source="../images/analyst-metric-rules-contextual-menu.png" alt-text="Screenshot that shows the Actions contextual menu, including default, Clone, Favorite, Archive, and Delete":::
 
+>[!Note]
+>You can only have 10 favorite rules at a time.
+
 ##### What happens when you mark a rule as Favorite
 
 Marking a rule as **Favorite** helps you find it faster when you're in the **Metric rules** page or when you're adding a rule to a query. When you view the list of available rules, here's the order you'll see them in:
@@ -108,7 +111,7 @@ Only you can view your favorite rules. Other analysts in your organization won't
 
 #### Archived
 
-When you select a rule's **Archive** option, Viva Insights archives that rule and sends it to the **Archived** view, as we describe later. After you archive a rule, you can delete it if you want. You can't use archived rules in a query. 
+When you select a rule's **Archive** option, Viva Insights archives that rule and sends it to the **Archived** view, as we describe in the next section. After you archive a rule, you can delete it if you want. You can't use archived rules in a query. 
 
 Generally, if you think you might want to restore a rule later, or want to have a record of it, leaving a rule in the **Archived** view is a better option than deleting it. Only the person who originally created a rule can archive or restore it.
 
@@ -129,15 +132,17 @@ To delete a rule, select the ellipses (**...**) under **Actions**, and then sele
 You can create a new rule through the **Metric rules** page, or by duplicating and editing ("cloning") an existing rule. To create or clone a metric rule and publish it to your organization, follow these steps:
 
 >[!Important] 
->After you publish a rule, you won't be able to edit it. If need to work on a rule later, you can save it as a draft, but you can't use draft rules in queries. Refer to step 6.
+>After you publish a rule, you won't be able to edit it. If need to work on a rule later, you can save it as a draft, but you can't use draft rules in queries. We explain how to save a rule as a draft in [step 6](#step-6) below.
 
 ### From a template
 
 #### About template categories
 
-Before we jump in, let’s discuss how we’ve set up our rule templates.
+Before we jump in to how to use the rule template, let’s discuss how we’ve set that template up. 
 
-We’ve compiled some categories for each collaboration type you might want your rule to apply to: **Vacation / Out of Office**, **Focus time**, **Attended meetings**, **Likely attended meetings**, **Invited meetings**, **No meeting day**, **Appointments**, and **Emails sent to self**. Collaboration types are meetings, emails, chats, and calls.
+When you use our template, you'll notice several categories. Within these categories, we've set up filters to exclude common scenarios from collaboration data—for example, **Appointments** to prevent appointments on people's calendars from appearing in queries.
+
+These categories are available for each collaboration type—meetings, emails, chats, and calls. For example, you could add a category for meetings and a category for calls.
 
 To find out how we built these categories, expand each category container. When you expand the container, you’ll notice a few preselected attributes and values, for example, **Level designation**. These attributes and values determine what kind of information the metric pulls from your data. We've listed out all categories in [Category reference](#category-reference), along with their attribute criteria.
 
