@@ -31,11 +31,11 @@ When storyline is enabled in your organization, you'll see the following changes
 
 ## Set up storyline
 
-Microsoft 365 Global admin and Engage admin can manage storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac). Select the ellipses on the right of the top navigation menu, then select **Admin** to enter the Engage admin center.
+Microsoft 365 Global admin and Engage admin can manage storyline for their organizations in the [Viva Engage admin center](/Viva/engage/eac-as-access-eac). Select the ellipses on the right of the top navigation menu, then select **Admin** to enter the Viva Engage admin center.
 
-[![Image of the entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+[![Image of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
-Under the **Feature management** tab within the Engage admin center, select **Storyline** to customize settings.
+Under the **Feature management** tab within the Viva Engage admin center, select **Storyline** to customize settings.
 
 [![Image of the entrypoint into managing storyline settings.](/viva/media/engage/admin/storyline-eac-updated.png)](/viva/media/engage/admin/storyline-eac-updated.png#lightbox)
 
@@ -128,8 +128,8 @@ If you want to delete a previously uploaded cover photo when the preview toggle 
 
 ## See also
 
-[Access the Engage admin center](/Viva/engage/eac-as-access-eac)
+[Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
 
-[Set up the Engage admin center](/Viva/engage/eac-get-started)
+[Set up the Viva Engage admin center](/Viva/engage/eac-get-started)
 
 [Identify leaders and manage audiences in Viva Engage](/Viva/engage/leadership-identification)

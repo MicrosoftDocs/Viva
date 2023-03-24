@@ -32,7 +32,7 @@ A Viva Engage tenant should be aligned to native mode before inviting a guest as
 
 If your organization is ready to start inviting guests to Viva Engage communities, then configure the following settings.
 
-Engage admins can enable guest access on their networks from the Engage admin center. Within the Engage admin center, navigate to the **Compliance & Governance** tab and click on **Manage data**. You will be redirected to the Yammer admin webpage, where you can enable guest access by navigating to **Security settings** and selecting **External Messaging**.
+Engage admins can enable guest access on their networks from the Viva Engage admin center. Within the Viva Engage admin center, navigate to the **Compliance & Governance** tab and click on **Manage data**. You will be redirected to the Yammer admin webpage, where you can enable guest access by navigating to **Security settings** and selecting **External Messaging**.
 
 > [!div class="mx-imgBorder"]
 > :::image type="content" source="../media/azure-ad-b2b-guests-engage-external-messaging.png" alt-text="Yammer admin panel external user settings.":::
