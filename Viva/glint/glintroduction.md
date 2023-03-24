@@ -2,7 +2,7 @@
 title: Viva Glint 
 description: Learn about Viva Glint and how it helps to increase your organization's employee engagement. 
 ms.author: SarahBerg
-author: SarahAnnBerg
+author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
@@ -25,7 +25,7 @@ This article helps you to understand how Glint makes people in your organization
 
 Viva Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. The world's leading brands use Glint to increase employee engagement, develop their people, and improve business results.
 
-Great companies are fueled by great cultures, and great cultures are built by great teams.
+Great teams build great cultures, and great cultures fuel great companies. 
 
 ## Objectives
 
