@@ -21,7 +21,7 @@ ms.date: 03/24/2023
 
 This article helps you to understand how Glint makes people in your organization happier and more successful at work.
 
-## About Glint
+## About Viva Glint
 
 Viva Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. The world's leading brands use Glint to increase employee engagement, develop their people, and improve business results.
 
