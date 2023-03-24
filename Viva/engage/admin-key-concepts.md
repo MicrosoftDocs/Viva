@@ -70,7 +70,7 @@ If your organization has business units with different domains, Viva Engage can 
 
 - Decide if you want to use [dynamic groups](/yammer/manage-yammer-groups/create-a-dynamic-group) to keep membership current as people change roles in your company.
 
-5. People are the core of the enterprise social network, so invite your team to get started on Viva Engage via the  Engage admin center.
+5. People are the core of the enterprise social network, so invite your team to get started on Viva Engage via the Viva Engage admin center.
 
 6. Consider how you want to integrate Viva Engage with other apps, including SharePoint and Teams.
 
