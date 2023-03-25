@@ -37,14 +37,14 @@ Choose the experiences you want for your employees.
 
 | Experience | App ||
 |:-------:|-------------|------|
-|<h3>Connection|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage)|
+|<h3> Connection|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage)|
 |<h3>Insight|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) ||
 |<h3>Growth|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> [Viva Topics](#viva-topics) |:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning)|
 |<h3>Purpose|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals)||
 |<h3>Role-based|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> [Viva Sales](#viva-sales)||
 
 #### Viva Connections
-This employee experience app in Microsoft Teams  connects employees with tools, news, and resources. Content is displayed on a dashboard and tailored to each individual based on their role, region, and interests.
+This employee experience app in Microsoft Teams connects employees with tools, news, and resources. Content is displayed on a dashboard and tailored to each individual based on their role, region, and interests.
 
 [Get more information on Viva Connections](/viva/connections/viva-connections-overview)
 
