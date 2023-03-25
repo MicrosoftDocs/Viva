@@ -49,7 +49,7 @@ This employee experience app in Microsoft Teams  connects employees with tools, 
 [Get more information on Viva Connections](/viva/connections/viva-connections-overview)
 
 #### Viva Engage
-This employee experience app brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work. The Viva Engage app integrates these experiences into Microsoft Teams and introduces new features including storyline and stories. These new features will also appear in the Yammer web, desktop and mobile apps, so no matter where an employee visits, they’ll see the same content and feature set.
+This employee experience app brings people together across the organization to connect with leaders, coworkers, and communities. It can also help people  crowdsource answers and ideas, share their work and experience, and find belonging at work. The Viva Engage app integrates these experiences into Microsoft Teams and introduces new features including storyline and stories. These new features will also appear in the Yammer web, desktop and mobile apps, so no matter where an employee visits, they’ll see the same content and feature set.
 
 [Get more information on Viva Engage](/viva/engage/overview)
 
@@ -59,7 +59,7 @@ This employee experience app helps improve productivity and wellbeing through da
 [Get more information on Viva Insights](/viva/insights/index)
 
 #### Viva Topics
-This employee experience app applies AI to automatically organize content and expertise across your systems and teams into related topics, projects, products, processes, and customers. That content appears as topic pages and topic centers—created and updated by AI—that enable experts to cultivate and share knowledge with wiki-like simplicity. It also pops up as topic cards that deliver knowledge across Outlook, SharePoint, and Office.
+This employee experience app applies AI to automatically organize content and expertise across your systems and teams into related topics, projects, products, processes, and customers. That content appears as topic pages and topic centers—created and updated by AI—that enables experts to cultivate and share knowledge with wiki-like simplicity. It also pops up as topic cards that deliver knowledge across Outlook, SharePoint, and Office.
 
 [Get more information on Viva Topics](/viva/topics/topic-experiences-overview)
 
@@ -74,7 +74,7 @@ This goal-setting and management solution aligns teams to your organization’s 
 [Get more information about Viva Goals](/viva/goals/intro-to-ms-viva-goals)
 
 #### Viva Sales
-This seller experience app uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. It's designed to help sellers work the way they want to without unnecessary context switching and manual data entry. It brings together the applications you work with daily—your CRM, Microsoft 365, and Microsoft Teams—to provide a more streamlined and AI-powered selling experience.
+This seller experience app uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. The app is designed to help sellers work the way they want to without unnecessary context switching and manual data entry. Viva Sales brings together the apps you work with daily—your CRM, Microsoft 365, and Microsoft Teams—to provide a more streamlined and AI-powered selling experience.
 
 [Get more information on Viva Sales](/viva/sales/introduction)
 
@@ -92,6 +92,6 @@ Microsoft Viva supports several partner integrations to give you access to indus
 [Find out more about partner integrations](https://www.microsoft.com/en-us/microsoft-viva/integrations)
 
 ## Viva Solutions
-The Viva solution center provides guidance to help understand, plan, and implement integrated Viva solutions. Here you will find summaries of each Viva app, license requirements, how to plan and combine apps for greater impact, and more.
+The Viva solution center provides guidance to help understand, plan, and implement integrated Viva solutions. Here you'll find summaries of each Viva app, license requirements, how to plan and combine apps for greater impact, and more.
 
 [Access the Microsoft Viva solution center](/viva/solutions/solutions)
