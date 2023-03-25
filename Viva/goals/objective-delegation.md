@@ -58,7 +58,7 @@ If you want another user to check in and update the progress of an OKR, you can 
 
 2. Identify the objective/key result you want to share with another individual. Then select the new owners via the **Owner** option under **Details** section. You can assign multiple owners for the OKR.
 
-3. After you assign owners, use the **Check-in owner** dropdown under **Progress** section to select the user who will be responsible for making check-ins. That user will start receiving check-in reminders.
+3. After you assign owners, use the **Check-in owner** dropdown in the **Progress** section to select the user who will be responsible for making check-ins. That user will start receiving check-in reminders.
 
 By default, the owner, or the first owner if there are multiple owners, is set as the person responsible for check-in, unless you change this setting.
 
