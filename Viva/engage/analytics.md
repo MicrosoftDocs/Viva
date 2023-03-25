@@ -27,15 +27,15 @@ Advanced analytic capabilities in Viva Engage help licensed users monitor their 
 
 ## Manage analytics
 
-While any user with access to premium Viva Engage will be able to access Engage Analytics, only **Microsoft 365 Global admin** and **Engage admin** can manage settings through the [Engage admin center](/Viva/engage/eac-as-access-eac).
+While any user with access to premium Viva Engage will be able to access Engage Analytics, only **Microsoft 365 Global admin** and **Engage admin** can manage settings through the [Viva Engage admin center](/Viva/engage/eac-as-access-eac).
 
-Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to enter the Engage admin center.
+Within the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to enter the Viva Engage admin center.
 
-[![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)](/Viva/media/engage/admin/admin-entrypoint.png#lightbox)
+[![Image of the entrypoint into the Viva Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)](/Viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
- Global admin and Engage admin can configure, enable, and disable analytics features through the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Engage admin center and select **Manage analytics**.
+ Global admin and Engage admin can configure, enable, and disable analytics features through the admin portal to tailor the experience for their organization. To do this, navigate to the **Setup and configuration** tab within the Viva Engage admin center and select **Manage analytics**.
 
-[![Image of Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
+[![Image of Viva Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
 
 [![Image of settings an admin will see when managing Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
 
@@ -56,7 +56,7 @@ Engage admin can manage metrics for **Answers** within their organization once t
 
 [![View of Global Answers analytics landing page.](/Viva/media/engage/admin/global-answers-analytics.png)](/Viva/media/engage/admin/global-answers-analytics.png#lightbox)
 
-In the **Manage analytics** interface of the Engage admin center, admin can choose to enable or disable:
+In the **Manage analytics** interface of the Viva Engage admin center, admin can choose to enable or disable:
 
 - Advanced metrics like **time saved** and **people helped** to display impact  
 
