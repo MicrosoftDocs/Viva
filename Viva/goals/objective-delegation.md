@@ -54,7 +54,7 @@ If you want another user to check in and update the progress of an OKR, you can 
 
 ### How to assign responsibility for check-ins
 
-1. Log in to Viva Goals and select the **Add Objective** button to create a new OKR. If you want to modify an existing one, you can select it, click **More** and then **Edit**.
+1. Log in to Viva Goals and select the **Add Objective** button to create a new OKR. If you want to modify an existing OKR, you can select it, then select **More** and **Edit**.
 
 2. Identify the objective/key result you want to share with another individual. Then select the new owners via the **Owner** option under **Details** section. You can assign multiple owners for the OKR.
 
