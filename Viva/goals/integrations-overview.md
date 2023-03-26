@@ -29,9 +29,7 @@ Viva Goals support integration with industry-leading tools and platforms you use
 To activate a specific integration, go to **Admin** > **Integrations** and select **Enable**.
 
 > [!IMPORTANT]
-> Integrations must first be enabled by your global administrators before they can be managed by org administrators. Contact your tenant administrator to enable supported integrations you do not see in the integrations dashboard.  
-> 
-> Instructions for global admins to enable integrations are located here: **[Enable Integrations in Viva Goals](vg-integrations-administration-overview.md)**.
+> Integrations must be enabled by Microsoft Global Administrator before they can be enabled by Viva Goals Org Admins using the steps below. Contact your Global Administrator to enable new integrations by following the steps in [Enable Integrations in Viva Goals | Microsoft Learn](vg-integrations-administration-overview.md).  
 
 ## How to view integrations 
 
