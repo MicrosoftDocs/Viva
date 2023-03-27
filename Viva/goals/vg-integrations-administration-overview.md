@@ -106,6 +106,7 @@ The table below shows which type of integrations are supported, their category, 
 |Planner      |In-boundary Microsoft 365 |Data |https://www.microsoft.com/licensing/terms |
 |PostgresSQL      |Third-party |Data |https://www.postgresql.org/about/policies/ |
 |Power BI      |Cross-boundary Microsoft |Data |https://www.microsoft.com/licensing/terms |
+|Project for the Web |Cross-boundary Microsoft |Data | https://www.microsoft.com/licensing/terms|
 |ProjectPlace      |Third-party |Data |https://www.planview.com/legal/legal-terms/ |
 |Salesforce      |Third-party |Data |https://www.salesforce.com/company/legal/ |
 |Smartsheet      |Third-party |Data |https://www.smartsheet.com/legal |
