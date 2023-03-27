@@ -36,13 +36,13 @@ To view analytics, select the analytics icon on the top navigation bar.
 
 Any user with access to premium Viva Engage can access Engage Analytics. But only the *Microsoft 365 Global admin* and *Engage admin* roles can manage settings through the [Viva Engage admin center](/Viva/engage/eac-as-access-eac).
 
-In the Viva Engage Teams application, select the ellipses button from the top navigation menu, and then select **Admin** to enter the Engage admin center.
+In the Viva Engage Teams application, select the ellipses button from the top navigation menu, and then select **Admin** to enter the Viva Engage admin center.
 
-[![Screenshot of the entry point into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)](/Viva/media/engage/admin/admin-entrypoint.png#lightbox)
+[![Screenshot of the entry point into the Viva Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)](/Viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
- The Global admin and Engage admin can configure, enable, and disable analytics features through the admin portal to tailor the experience for their organization: Go to the **Setup and configuration** tab in the Engage admin center and select **Manage analytics**.
+ The Global admin and Viva Engage admin can configure, enable, and disable analytics features through the admin portal to tailor the experience for their organization: Go to the **Setup and configuration** tab in the Viva Engage admin center and select **Manage analytics**.
 
-[![Screenshot of the Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
+[![Screenshot of the Viva Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
 
 [![Screenshot of settings to manage Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
 
@@ -51,7 +51,7 @@ In the Viva Engage Teams application, select the ellipses button from the top na
 
 ## Audience analytics  
 
-In the **Manage analytics** interface shown earlier, the Engage admin can adjust the level of sentiment analysis that's available to leaders and their delegates through the **Audience analytics** dashboard. This functionality enables unique levels of sentiment collection at the audience, theme, or conversation level.
+In the **Manage analytics** interface shown earlier, the Viva Engage admin can adjust the level of sentiment analysis that's available to leaders and their delegates through the **Audience analytics** dashboard. This functionality enables unique levels of sentiment collection at the audience, theme, or conversation level.
 
 Audience analytics help leaders and delegates monitor engagement of their audience on Viva Engage. Access is via the analytics icon on the top navigation bar or through the leader's storyline page.
 
