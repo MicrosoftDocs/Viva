@@ -1,4 +1,5 @@
 ---
+ms.date: 07/15/2022
 title: Advanced insights FAQ
 description: Get answers to frequently asked questions about Microsoft Viva Insights' advanced insights app
 author: lilyolason
@@ -14,7 +15,7 @@ audience: Admin
 
 # Advanced insights FAQ
 
-The most commonly asked questions and answers about the analysis tools for Microsoft Viva Insights in the advanced insights app are grouped into the following sections:
+In this article, we address the most commonly asked questions about the analysis tools in Microsoft Viva Insights' advanced insights app. We've grouped these questions into the following sections:
 
 * [Functionality and features](#functionality-and-features)
     * [Roles](#roles)
@@ -27,6 +28,7 @@ The most commonly asked questions and answers about the analysis tools for Micro
     * [Data validation, verification, and use](#data-validation-verification-and-use)
     * [Queries](#queries)
 
+
 ## Functionality and features
 
 ### Roles
@@ -37,7 +39,7 @@ A1. No. Viva Insights is a collaboration analysis tool for analyzing behavior an
 
 #### Q2. How do personal, manager, leader, and advanced insights differ?
 
-A2. 
+A2.
 
 * Personal and private insights are for individual use only.
 * Manager insights are for people managers or team leads.
@@ -50,15 +52,22 @@ A2.
 
 A1. Initially 13 months' worth of data is collected and processed for Viva Insights. Through weekly refreshes, the system continues to increase this history until 27 months’ worth of data is collected. As a Microsoft customer, you can file a request, such as for security reasons, to provide Viva Insights with less than this default amount; in that case, the minimum amount that can be collected is one month.
 
-#### Q2. Does Viva Insights support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
+#### Q2. Does advanced insights support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
 
-A2. Advanced insights aren't available in data cloud environments that Microsoft maintains for government agencies.
+A2. Advanced insights are not currently available in data cloud environments that Microsoft maintains for government agencies.
+
+#### Q3. How does Viva Insights adhere to regional data storage and processing requirements (such as those required by GDPR)?
+
+A3. Viva Insights stores and processes customer data in a compliant location as required by regional and state regulations. For more information on Microsoft’s commitment to data residency, visit  [Microsoft EU Data Boundary Overview](https://www.microsoft.com/en-us/trust-center/privacy/european-data-boundary-eudb). For more information on where data is stored and processed for your location, refer to the following links:
+
+* [Personal insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
+* [Advanced, manager, and leader insights – Data Residency for Other Microsoft 365 Services](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)
 
 ### Language support
 
-Q1. Can I use the advanced insights app in a language other than English?
+#### Q1. Can I use the advanced insights app in a language other than English?
 
-A1. Yes, you can use the webapp in languages other than English. There are a few features, though, that are available in English only: metric names in custom Person and Power BI queries, system-reserved names for employee attributes, and Power BI templates. We plan to translate these features in the future.
+A1. Yes, you can use the webapp in languages other than English. There are a few features, though, that are available in English only: system-reserved names for employee attributes and meeting attributes. We plan to translate these features in the future.
 
 #### Q2. Can I upload an organizational data file that has non-English words or letters?
 
@@ -69,16 +78,16 @@ A2. Yes. The organizational data file can have non-English words or letters. How
 
 #### Q3. Can I create a query with filters or meeting subject lines that contain non-English words or letters?
 
-A3. Yes. You can use filters in queries that include the following:
+A3. Yes. You can use filters in queries that include:
 
 * Attributes or values from your organizational data that include non-English words or characters.
 * Meeting subject lines (which can include non-English words or characters) as specific filter criteria.
 
 ### Setup and configuration
 
-#### Q1. What's required to enable advanced insights?
+#### Q1. What do I need to do to enable advanced insights?
 
-A1. The main tasks required to enable advanced insights for your organization are:
+A1. To enable advanced insights for your organization, you'll need to:
 
 * Assign licenses. 
 * Assign roles.
@@ -90,13 +99,31 @@ Optionally, after you sign in, you can:
 
 For details about setup, refer to [Set up Advanced insights](../setup-maint/setup.md).
 
+>[!Important]
+> For the advanced insights app to run, at least 10 people in your organization need Viva Insights licenses. The app requires this number because credible analyses need at least 10 employees. For more information, refer to [Assign licenses overview](../setup-maint/assign-licenses.md).
+
 #### Q2. Is the number of analyst role assignments limited?
 
 A2. No limit is imposed for **Insights Analyst** roles.
 
-#### Q3. Are people who are not assigned a license ignored?
+#### Q3. Does Viva Insights ignore people who aren't assigned a license?
 
-A3. No, they aren't ignored but they aren't measured and their data isn't processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or chats.  
+A3. Viva Insights doesn't ignore people without licenses, but it doesn't measure them or process their data. However, because these people are internal collaborators of measured employees, Viva Insights uses their collaboration data for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or chats.  
+
+#### Q4. Our admin assigned the required licenses. Why can't Insights Analysts access the advanced insights app?
+
+A4. It might take a few days for Viva Insights to process Microsoft 365 collaboration data and for assigned users to get the right permissions. Most customers are able to access the app four to five days after the Insights admin assigns licenses.
+
+If you're getting an error, you might want to ask the following questions:
+
+* **Do I have the right role assigned?** Before you can access the advanced insights app, you'll need a Viva Insights-specific role assigned to you in the Microsoft 365 admin center. Analysts need the **Insights Analyst** role. You might need to ask your organization Microsoft 365 admin to check if the role was assigned to you in the admin center. Learn more about role assignment in [Assign user roles for Viva Insights](../setup-maint/assign-user-roles.md).
+
+    >[!Note]
+    >Before they can use the app, customers with Privileged Identity Management might need to complete a few additional steps to activate their role. Refer to [Assign Azure AD roles in Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role) for more information.
+
+* **With my role, can I access this feature?** Only certain roles can access some parts of the app. To learn which features are available for which role, refer to [User roles](../setup-maint/user-roles.md#feature-access).
+
+* **Do enough people have licenses assigned to them?** For analysts to access the advanced insights app, your admin team needs to assign a certain number of licenses to people in your organization. This number needs to be equal to or greater than your [minimum group size](../setup-maint/setup.md#minimum-group-size). The default minimum group size is 10, so at least 10 people in your organization need a license before analysts can sign in and start using advanced insights.
 
 ### Organizational data
 
@@ -110,19 +137,19 @@ A1. An upload can fail if the data has invalid values, if it is missing required
 
 #### Q2. For the required fields, what percentage is required for the validity threshold?
 
-A2. **PersonId** and **EffectiveDate** fields need to meet 100 percent of the validity threshold, because each row of data needs to have a **PersonId** for each person in your organization. The other required fields (such as **ManagerId**) need to exceed 95 percent of the validity threshold. Note that the calculations for validity threshold consider only two kinds of data values: valid values and blank values. For the 95-percent validity threshold, the column will pass validation if fewer than five percent of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.
+A2. **PersonId** and **EffectiveDate** fields need to meet 100 percent of the validity threshold, because each row of data needs to have a **PersonId** for each person in your organization. The other required fields (such as **ManagerId**) need to exceed 95 percent of the validity threshold. The calculations for validity threshold consider only two kinds of data values: valid values and blank values. For the 95-percent validity threshold, the column will pass validation if fewer than five percent of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.
 
-#### Q3. What happens if an employee (who is represented by a PersonId) has more than one manager (represented by ManagerIds)?
+#### Q3. What happens if an employee (represented by a PersonId) has more than one manager (represented by ManagerIds)?
 
-A3. Viva Insights doesn’t fail an upload if a person doesn’t have one single, primary manager. However, one manager per employee is recommended. This manager is represented by the **ManagerId** for that **PersonId** on a given **EffectiveDate**. Note that the **Insights Admin**("admin" in this article) can use the **EffectiveDate** field in the organizational data to indicate that an employee’s primary manager has changed from one month to the next.
+A3. Viva Insights doesn’t fail an upload if a person doesn’t have one single, primary manager. However, one manager per employee is recommended. This manager is represented by the **ManagerId** for that **PersonId** on a given **EffectiveDate**. Note that the **Insights Admin** ("admin" in this article) can use the **EffectiveDate** field in the organizational data to indicate that an employee’s primary manager has changed from one month to the next.
 
 #### Q4. Who gets the organizational data to upload?
 
 A4. While Azure Active Directory is the default data source, a manual file upload is preferred. Usually, HR gives this data to the admin, who then prepares and uploads it.
 
-#### Q5. Who can access organizational data after it has been uploaded?
+#### Q5. Who can access organizational data after it's uploaded?
 
-A5. For privacy reasons, no one can download the raw data that was uploaded. Viva Insights admins and analysts can view metadata about the organizational data on the Data quality page, but they can’t see how the attribute values map to individual people.
+A5. For privacy reasons, no one can download the raw data that was uploaded. Viva Insights admins and analysts can view metadata about the organizational data on the **Data quality** page, but they can’t see how the attribute values map to individual people.
 
 ### Use advanced insights
 
@@ -136,15 +163,25 @@ A1. Admins set up the privacy settings for how data is extracted, such as pr
 
 ##### Q1. Why is my measured population less than the number of employees with assigned licenses?
 
-A1. This can occur if you selected only a subset of the population for the analysis, or if your admin excluded a subset of the population from the organizational data that's uploaded. Refer to [Assign licenses](../setup-maint/assign-licenses.md).
+A1. This scenario can occur if:
+
+* You selected only a subset of the population for the analysis.
+* Your admin excluded a subset of the population from the organizational data that's uploaded. 
+
+For more information, refer to [Assign licenses](../setup-maint/assign-licenses.md).
 
 ##### Q2. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the selected custom time period)?
 
-A2. Business policies can affect the historical data that is processed for Viva Insights. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions don't affect weekly data that was previously collected.  
+A2. Business policies can affect the historical data processed for Viva Insights. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be because:
 
-##### Q3. How does data for meetings and emails sent to distribution lists get processed?
+* An email was archived.
+* Recurring meetings were deleted before the data was extracted. 
 
-A3. Email and meetings data for a distribution list is processed as a single entity or person. It does not expand the distribution list and assign meeting and email hours to its members. For more accurate data, upload the organizational data attributes for these lists by adding attributes of the distribution-list members or whatever best describes the list population. 
+However, these actions only impact initial baseline data. Future deletions don't affect weekly data that was previously collected.  
+
+##### Q3. How does Viva Insights process data for meetings and emails sent to distribution lists?
+
+A3. Viva Insights processes email and meetings data for a distribution list as a single entity or person. It doesn't expand the distribution list and assign meeting and email hours to the list's members. For more accurate data, upload the organizational data attributes for these lists by adding attributes of the distribution-list members or whatever best describes the list population. 
 
 ##### Q4. What collaboration information is processed from Microsoft Teams?
 
@@ -159,7 +196,7 @@ A5. It depends on the type of mailbox and which permissions are set for the Exch
     * **Send on Behalf** permission – This permission isn't available for shared mailboxes in Exchange Admin Center. However, if it is set with PowerShell (GrantSendonBehalf parameter), the person who sends the message gets credit for it in Viva Insights calculations.
 * An individual mailbox (or a linked mailbox) with a primary mailbox owner can link or give delegate access and one of the following permissions to another person to send messages or meeting invites for the primary mailbox owner. For example, an assistant with delegate access can send a message or meeting invite from their manager's mailbox. A delegate can have one of the following permissions. For details, see [Give mailbox permissions to another user](/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user).
     * **Send As** permission – The primary owner of the mailbox gets credit for sending the message or invite in Viva Insights calculations.
-    * **Send on Behalf** permission - The person who sends the message on behalf of the mailbox owner gets the credit in Viva Insights calculations.
+    * **Send on Behalf** permission – The person who sends the message on behalf of the mailbox owner gets the credit in Viva Insights calculations.
     * Both **Send As** and **Send on Behalf** permissions – If the delegate person has both permissions set, the Send As permissions are used and that person does not get credit for sending the message or invite in Exchange and therefore Viva Insights credits the owner of the mailbox in calculations.
 
 ##### Q6. Why don't I see data from this week in my analyses?
@@ -183,3 +220,14 @@ A2. You probably opened the .csv file as-is. For Excel to show the data correctl
 ##### Q3. Why don’t a person’s low-quality meeting hours equal the sum of their redundant, conflicting, and multitasking meeting hours in my query?
 
 A3. You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated.
+
+## Community and learning
+
+##### Q1. How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?
+
+A1. We encourage all Viva insights users to visit and register on the [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog). The community has:
+
+* Forums to connect with peers and discuss shared experiences.
+* Forums to contribute and receive support on common issues which are routinely reviewed by our team of experts.
+* Monthly blog posts to learn about new features and tools.
+* Spaces to share ideas and engage with the product development team.

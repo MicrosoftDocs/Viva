@@ -1,4 +1,5 @@
 ---
+ms.date: 10/12/2022
 title: Azure Data Explorer Integration
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -125,3 +126,4 @@ If the desired Azure Data Explorer Integration connection is not already establi
 3. After providing the URL, sign-in with your Azure Active Directory (AAD) user credentials. 
 
 4. Upon successful authentication, you'll be returned to the integration setup dialog, where you'll provide your database and KQL query as outlined above. 
+

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/18/2018
 title: Query auto-refresh in Viva Insights
 description: Describes the query auto-refresh option in Viva Insights
 author: madehmer
@@ -154,3 +155,4 @@ After you do this, Power BI maintains a connection to this query in the advanced
 ### Related topics
 
 [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

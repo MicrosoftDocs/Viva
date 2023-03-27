@@ -1,4 +1,5 @@
 ---
+ms.date: 01/11/2023
 title: Access query results and modify existing queries
 description: Learn how to access query results in the advanced insights app
 author: lilyolason
@@ -33,7 +34,7 @@ To view, download, rename, edit, delete, favorite, or clone query results, you n
 >[!Important]
 >Only the analyst who originally ran the query can edit, rename, or delete its results. Other analysts in the organization can view, favorite, and clone results.
 
-## Query results page
+## To use the query results page
 
 ### Results statuses
 
@@ -66,17 +67,34 @@ If an error occurs while a query is running, you’ll see a **Failed** status.
 
 ### Results filters
 
+#### Predefined filters
+
 There are some predefined views on the **Query results** page:
 
 * **My results** – Queries only you’ve run
 * **All results** – Queries all analysts in your organization have run
 * **Favorites** – Queries you’ve marked as **Favorite**
 * **Power BI templates** – Predefined queries all analysts in your organization have run for Power BI templates (for example, Ways of working)
-* **Custom queries** – Custom Person queries all analysts in your organization have run
+* **Custom queries** – Custom person queries all analysts in your organization have run
+
+#### Content filters
+
+In addition to predefined results filters, you can also add a custom content filter. With a content filter, narrow results by who ran the query, which Power BI template it's for, whether auto-refresh is on, and query type.
+
+To access content filters, select the **+** icon to the right of the **Custom queries** filter button. 
+
+:::image type="content" source="../images/query-results-add-content-filter.png" alt-text="Screenshot that shows the five content filters with the add button highlighted.":::
+
+
+Then, use the dropdown menus to select your filter.
+
+:::image type="content" source="../images/query-results-select-content-filter.png" alt-text="Screenshot that shows the new content filter button selected and the Power BI templates option expanded below.":::
+
+While you can only use one content filter active at a time, you can have up to five filters available. Filters won’t carry over from one session to the next.
 
 ### Setting the query to auto-refresh
 
-If you ran a query and want it to recur on a certain schedule, you can set the **Auto-Refresh** toggle key to **On**. Analysts who didn’t run a query can’t set it to auto-refresh.
+If you ran a query and want it to recur on a certain schedule, you can set the **Auto-Refresh** toggle key to **On**. Analysts who didn’t run a query can’t turn on auto-refresh for it.
 
 ### More options
 
@@ -137,11 +155,11 @@ Deleting a query removes it from the results list for everyone in the organizati
 
 
 
-## Query results
+## To access query results
 
 ### About query results
 
-When you define a query, you select metrics and employee attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. You can download these results as described later in this article.
+When you define a query, you select metrics and employee attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. To learn how to download these results, read on.
 
 #### Downloading and connecting to results
 
@@ -153,7 +171,10 @@ When you define a query, you select metrics and employee attributes. After the q
 
     Here's an example of a results file:
 
-    :::image type="content" source="../images/query-csv-output.png" alt-text="Screenshot that an example .csv results file.":::
+Here's an example of a results file:
+
+:::image type="content" source="../images/query-csv-output.png" alt-text="Screenshot that an example .csv results file.":::
+
 
 ##### Connect through the Power BI Connector
 
@@ -173,8 +194,12 @@ When you define a query, you select metrics and employee attributes. After the q
 7.	If you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
 8.	In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI.
 
+>[!Note]
+>Have a question about your query results? Our [Query results FAQ](query-results-faq.md) article might have the answer you're looking for.
 
 ## Related topics
+
+[Query results FAQ](query-results-faq.md)
 
 [Power BI tips, FAQ, and troubleshooting](./templates/power-bi-faq-troubleshoot.md)
 

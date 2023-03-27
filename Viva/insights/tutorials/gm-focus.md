@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/16/2020
 title: Best practices for focus time
 description: Viva Insights shares best practices with managers about the importance of scheduled focus time
 author: madehmer
@@ -29,7 +30,7 @@ Focus hours are uninterrupted stretches of time in your day to get your most imp
 
 ## Best practices
 
-* Use a [personal focus plan](../personal/use/focus-plan.md) to automatically book focus time, and then protect this time by silencing chats and tracking your weekly progress.
+* Use a [personal focus plan](../personal/teams/focus-plan.md) to automatically book focus time, and then protect this time by silencing chats and tracking your weekly progress.
 * Create a new team norm to not send chats to team members who have scheduled focus time and use the [Do not disturb status in Microsoft Teams](https://support.microsoft.com/office/change-your-status-in-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e).
 * Proactively schedule blocks of time on your calendar to focus, particularly during times when you perform at your peak.
 * Schedule focus time with intention by dedicating the time to specific tasks.
@@ -55,8 +56,9 @@ Reassess the need quarterly for recurring meetings that take up the most time. T
 
 #### Try out a personal focus plan
 
-Use a [personal focus plan](../personal/use/focus-plan.md) to automatically block focus time on your calendar to ensure that you have enough time to get work done.
+Use a [personal focus plan](../personal/teams/focus-plan.md) to automatically block focus time on your calendar to ensure that you have enough time to get work done.
 
 ## Related topic
 
 [Viva Insights best practices](gm-best-practices.md)
+

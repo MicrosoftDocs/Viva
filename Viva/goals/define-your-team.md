@@ -1,4 +1,5 @@
 ---
+ms.date: 04/05/2022
 title: Define your team
 ms.reviewer: 
 ms.author: rasanders
@@ -29,3 +30,4 @@ To adopt new technology and methodology, you need buy-in and support from across
 Here are the responsibilities for each role.
 
 ![Picture of a table showing O K R stakeholder role responsibilities.](../media/goals/1/12/b.png)
+

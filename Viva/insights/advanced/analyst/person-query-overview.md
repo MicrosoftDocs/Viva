@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Person query overview
 description: Learn about custom person queries in the Microsoft Viva Insights advanced insights app
 author: lilyolason
@@ -89,4 +90,5 @@ For a video walk-through on setting up your query, select the **Watch demo video
 [Query results](./query-results.md)
 
 [Metric descriptions](../reference/metrics.md)
+
 

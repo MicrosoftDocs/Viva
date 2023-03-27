@@ -1,5 +1,6 @@
 ---
 
+ms.date: 05/13/2020
 title: Downloadable resources
 description: Downloadable resources available for admins who are rolling out the Briefing email to new users
 author: madehmer
@@ -15,6 +16,9 @@ manager: helayne
 
 ---
 # Briefing email resources
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 When you're ready to roll out the Briefing email to your organization or to a new group of employees who just joined your organization, it's important that you educate them on how the Briefing email can help them get their work done and plan for the day ahead.
 
@@ -32,3 +36,4 @@ You can use the following to help explain what the Briefing email is, when they 
 
 * [Briefing email overview](be-overview.md)
 * [Conduct a pilot](be-pilot.md)
+

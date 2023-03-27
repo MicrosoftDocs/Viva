@@ -1,5 +1,6 @@
 ---
 
+ms.date: 02/25/2022
 title: Microsoft Viva Insights activity report
 description: Learn what the Microsoft Viva Insights activity report is and how to access it
 author: madehmer
@@ -35,3 +36,4 @@ Your users’ Viva Insights activity is shown in the **Active users’** chart
 ## Deploy Viva Insights
 
 You can select **Boost adoption of Viva Insights** to learn how to [Deploy Viva Insights](../setup/deployment-guide.md).
+

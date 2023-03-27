@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Quick search and hot key support"
 ms.reviewer: 
 ms.author: rasanders
@@ -56,3 +57,4 @@ CTRL + Shift + O - Create a new objective
 CTRL + Shift + P - Create a new project
 
 CTRL + Shift + K - Open search
+

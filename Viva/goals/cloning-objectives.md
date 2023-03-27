@@ -1,4 +1,5 @@
 ---
+ms.date: 04/13/2022
 title: Cloning OKRs
 ms.reviewer: 
 ms.author: rasanders
@@ -76,3 +77,4 @@ You can edit the cloned objective to reflect the leftover portion of the goal in
 
 >[!NOTE]
 >The cloning operation happens asynchronously without blocking you from performing other actions in Viva Goals. The time to complete cloning depends on the number of OKRs you're cloning. If you try to to clone multiple times during the process, you'll end up with multiple clones. 
+

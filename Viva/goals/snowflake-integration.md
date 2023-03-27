@@ -1,4 +1,5 @@
 ---
+ms.date: 04/18/2022
 title: Snowflake integration
 ms.reviewer: 
 ms.author: rasanders
@@ -64,3 +65,4 @@ The colors of the progress bars indicate the status of the objective.
 
  - If the progress is 0 to 25 percent less than expected at any point in time, the status is *behind*, and the status bar will be orange).
  - If the progress is more than 25 less than expected at any point in time, the status is *at risk*, and the status bar will be red.
+

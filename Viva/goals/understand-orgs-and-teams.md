@@ -1,4 +1,5 @@
 ---
+ms.date: 06/14/2022
 title: Understand Organizations and Teams
 ms.reviewer: 
 ms.author: rasanders
@@ -98,3 +99,4 @@ It is crucial to have a clear understanding of how you wish to structure your or
 For example, let us assume you choose to follow the single organization approach and populated your OKRs into your Viva Goals account. And at a later point decide to switch to the multiple orgs approach. Now, a lot of changes would need to be made on the product front such as replanning your OKRs in Viva Goals, reassigning them, realigning them, and so on. You would also have to go through the pain of communicating these changes to all the individuals across your enterprise.  
 
 Another reason for carefully choosing where to pivot and create orgs in Viva Goals is that you can't view the other organizations OKRs unless you're added as a member. 
+

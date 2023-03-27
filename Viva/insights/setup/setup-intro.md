@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Setup overview for Viva Insights
 description: Setup overview for Microsoft Viva Insights features
 author: madehmer
@@ -30,12 +31,13 @@ Your admin needs to set up Viva Insights for personal insights before you can st
 
 ## Manager insights
 
-Your admin needs to set up the Viva Insights app in Microsoft Teams before you can start using what's available in Viva Insights for managers and team leads. For details, see [Install, pin, and configure the app](../org-team-insights/org-trends.md#install-pin-and-configure-the-app).
+Your admin needs to set up the Viva Insights app in Microsoft Teams before you can start using what's available in Viva Insights for managers and team leads. For details, see [Install, pin, and configure the app](../personal/teams/viva-teams-app-install.md).
 
 ## Leader insights
 
-Your admin needs to set up the Viva Insights app in Microsoft Teams before you can start using what's available in Viva Insights for business leaders. For details, see [Install, pin, and configure the app](../org-team-insights/teamwork-habits.md#install-pin-and-configure-the-app).
+Your admin needs to set up the Viva Insights app in Microsoft Teams before you can start using what's available in Viva Insights for business leaders. For details, see [Install, pin, and configure the app](../org-team-insights/team-insights.md#install-pin-and-configure-the-app).
 
 ## Advanced insights
 
 Before you can use the advanced analysis tools that are available in Viva Insights, your admin must complete the steps in [Set up advanced insights](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), including assigning licenses and roles and preparing and uploading your organizational data into Viva Insights.
+

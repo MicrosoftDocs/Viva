@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/16/2020
 title: Best practices for manager connectedness
 description: Get best practice recommendations for managers about connecting with their teams and employees
 author: madehmer
@@ -34,10 +35,10 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 ## Best practices
 
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
-* Use ([Stay connected](../personal/teams/viva-insights-stay-connected.md)) in the Viva Insights app to add people to your "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
+* Use ([Suggested tasks](../personal/teams/suggested-tasks.md)) in the Viva Insights app to add people to your "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Get people to see things through others’ eyes by organizing carefully structured, face-to-face, cross-silo dialogues.
-* Create inclusive and trusting environments to facilitate agile collaboration. A culture of fear exists when employees do not feel safe to come forward with ideas, and those on the fringe may be less conﬁdent about contributing.
+* Create inclusive and trusting environments to facilitate agile collaboration. A culture of fear exists when employees do not feel safe to come forward with ideas, and those on the fringe may be less confident about contributing.
 * Set up “communities of practice” or business development initiatives to help share expertise or resources.
 
 ## Change strategies
@@ -48,9 +49,10 @@ Use [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/grou
 
 #### Enable personal network insights
 
-Build connections with your network through the [Stay connected](../personal/teams/viva-insights-stay-connected.md).
+Build connections with your network through the [Suggested tasks](../personal/teams/suggested-tasks.md).
 
 ## Related topics
 
 * [Viva Insights best practices](best-practices.md)
 * [Microsoft FastTrack resources](https://www.microsoft.com/fasttrack/resources)
+

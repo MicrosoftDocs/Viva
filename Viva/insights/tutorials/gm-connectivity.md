@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/08/2020
 title: Best practices for community connectivity
 description: Get best practices about supporting community connectivity
 author: madehmer

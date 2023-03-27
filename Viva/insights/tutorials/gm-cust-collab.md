@@ -1,5 +1,6 @@
 ---
 
+ms.date: 07/14/2020
 title: Best practices for collaborating with customers
 description: Get best practices for customer collaboration
 author: madehmer

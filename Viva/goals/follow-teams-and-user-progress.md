@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Follow team and user progress"
 ms.reviewer: 
 ms.author: rasanders
@@ -58,3 +59,4 @@ To view or unfollow an organizations, team, or user:
 3. Select the **Following**.
 
 4. Select the **Unfollow** button. You can then adjust which organizations, teams, and users you receive get updates about.
+

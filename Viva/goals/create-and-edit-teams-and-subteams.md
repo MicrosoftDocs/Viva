@@ -1,4 +1,5 @@
 ---
+ms.date: 04/05/2022
 title: Create and edit teams and subteams
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -144,3 +145,4 @@ Once a team is archived, you can no longer create OKRs and projects under that t
 Even though you won't be able to see the archived team under **All Teams** now, you can see the assigned OKRs by expanding the parent OKRs that they're aligned to. You can also view those OKRs/projects in the Explorer by applying the type filter and selecting the archived team name.
 
 Activities related to the archived team are halted, including assigning team members and team-level notifications. To resume these activities, you would unarchive the team. 
+

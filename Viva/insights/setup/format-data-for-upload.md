@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 08/29/2019
 title: Format data for uploading in Viva Insights 
 description: How to format .xlsx files and .csv files for uploading in Microsoft Viva Insights  
 author: madehmer
@@ -327,3 +328,4 @@ Specific instructions to create, debug & fix (in case of validation errors) shou
 ## Related topic
 
 [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

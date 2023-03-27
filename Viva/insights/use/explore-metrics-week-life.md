@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/19/2018
 title: Week in the life metrics in Viva Insights
 description: Overview of the data available for a Week in the life in Viva Insights
 author: madehmer
@@ -112,3 +113,4 @@ Workweek span captures the span of time an employee spends in work-related activ
 
 * [Page settings](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Advanced insights charts](/viva/insights/use/chart-types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

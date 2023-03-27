@@ -1,4 +1,5 @@
 ---
+ms.date: 04/18/2022
 title: "GitLab Integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -104,3 +105,4 @@ Admins can disable GitLab integration at any time: Go to **GitLab** in the **Int
 
 > [!NOTE]
 > If a project in Gitlab is closed without all sub-tasks marked as **complete**, Viva Goals will consider the project completed since it was closed.
+

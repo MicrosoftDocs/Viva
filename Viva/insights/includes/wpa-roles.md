@@ -1,5 +1,6 @@
 ---
 
+ms.date: 05/08/2018
 title: Viva Insights roles
 description: (include file) Viva Insights roles 
 author: madehmer
@@ -20,9 +21,9 @@ The following roles are assigned by your admin as described in [Assign user role
   >[!NOTE]
   >Insights Administrators are not Microsoft 365 admins. Unless they are *also* assigned the role of Microsoft 365 admin, they only have access to organizational data, not to Microsoft 365 data.
 
-* **Insights Business Leader**- [Insights Business leaders](/azure/active-directory/roles/permissions-reference#insights-business-leader) can see organizational insights on the [My organization](../org-team-insights/org-trends.md) page within the Viva Insights app.
+* **Insights Business Leader**- [Insights Business leaders](/azure/active-directory/roles/permissions-reference#insights-business-leader) can see organizational insights on the [My organization](../org-team-insights/org-insights.md) page within the Viva Insights app.
 
-* **People Manager** &ndash; People managers are assigned access by the Viva Insights admin. Managers can see their team's [organization trends](../org-team-insights/org-trends.md) within the Viva Insights app.
+* **People Manager** &ndash; People managers are assigned access by the Viva Insights admin. Managers can see their team's [organization trends](../org-team-insights/org-insights.md) within the Viva Insights app.
 
 * **Analyst** &ndash; Has full access to all service features except **Upload** and some **Analyst settings** that are only available to admins. An Analyst has the most complete access to data, including the ability to launch, manage, and track **Plans** in the advanced insights app.
 
@@ -32,3 +33,4 @@ The following roles are assigned by your admin as described in [Assign user role
   * _Read-only_ access to **Analyst settings** where the [meeting and attendee exclusion rules](/viva/insights/tutorials/exclusions-introduction?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) are defined.
 
 * **Program Manager** &ndash; Has access to organizational data for Viva Insights within the advanced insights app. A Program Manager can also open, manage, and track **Plans** in the advanced insights app.
+

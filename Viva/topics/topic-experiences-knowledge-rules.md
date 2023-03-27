@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Manage topic visibility in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -67,4 +68,5 @@ To hide suggested topics from topic viewers
 [Manage topic permissions in Microsoft Viva Topics](topic-experiences-user-permissions.md)
 
 [Change the name of the topic center in Microsoft Viva Topics](topic-experiences-administration.md)
+
 
