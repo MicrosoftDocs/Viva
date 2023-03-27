@@ -52,4 +52,4 @@ Each checklist has a slightly different purpose, and is designed to be used toge
 
 By using these checklists, organizations can make the most of their trial period, reduce time spent on the validation process, and make an informed decision to move forward. 
 
-Download the Microsoft Viva Goals Trial Validation Checklist 
+Download the Microsoft Viva Goals [Trial Validation Checklist](https://adoption.microsoft.com/files/viva/goals/Microsoft-Viva-Goals-Trial-Checklist.pdf)
