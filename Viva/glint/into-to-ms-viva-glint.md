@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 
+title: Introduction to Microsoft Viva Glint 
 description: Learn about Viva Glint and how it helps to increase your organization's employee engagement. 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,15 +17,15 @@ localization_priority: high pri
 ms.date: 03/24/2023
 ---
 
-# Microsoft Viva Glint
+# Introduction to Microsoft Viva Glint
 
 This article helps you to understand how Glint makes people in your organization happier and more successful at work.
 
-## About Viva Glint
+## Get started with Viva Glint
 
 Viva Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. The world's leading brands use Glint to increase employee engagement, develop their people, and improve business results.
 
-Great teams build great cultures, and great cultures fuel great companies. 
+Great teams build great cultures, and great cultures fuel great companies.
 
 ## Objectives
 
