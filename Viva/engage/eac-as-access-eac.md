@@ -22,7 +22,7 @@ search.appverid:
 
 # Access the Viva Engage admin center
 
-Only users in the following admin roles can access the Viva Engage admin center: Global admin, Engage admin, Answers admin, and corporate communicator. End users (employees) in your organization can't access it.
+Only users in the following admin roles can access the Viva Engage admin center: Global admin, Engage admin, Answers admin, and corporate communicator. Other employees in your organization can't access it.
 
 In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Viva Engage admin center.
 
@@ -36,20 +36,20 @@ As a Global admin, Engage admin, or corporate communicator, you can identify and
 
 ### Assign a user as a corporate communicator
 
-Select **Add user** to search for a user by their name or email ID. After the assignee is identified and selected as a corporate communicator, they're visible in the list of active corporate communicators in your organization.  
+Select **Add user** to search for a user by name or email ID. After the assignee is identified and selected as a corporate communicator, they're visible in the list of active corporate communicators in your organization.  
 
 [![Screenshot of the interface for adding corporate communicators.](/viva/media/engage/admin/add-corp-comms.png)](/viva/media/engage/admin/add-corp-comms.png#lightbox)
 
 >[!NOTE]
 > While assigning a user to this role is a pre-licensed capability, the actions this user can perform depend on the nature of their license, core versus premium.  
 
-Corporate communicators can do the following functions:
+Corporate communicators can do the following things:
 
 - **Create campaigns**
 - **Manage campaigns**
     - Publish draft campaigns to be **Active** and viewable to all users in the network.
     - Set Active campaigns to **Ended** when a campaign is finished.
-    - Republishing "Ended" campaigns as "Active" again for reoccurring campaigns.
+    - Republish "Ended" campaigns as "Active" again for reoccurring campaigns.
     - Delete campaigns that aren't relevant or were created by mistake.
     - Update certain assets on a campaign page such as:
         - Goal tracker
@@ -83,7 +83,7 @@ They're then routed to the Yammer admin center, where they can perform the follo
     - Allow Tenor GIFs in messages
     - Control how links are displayed
     - Allow message translation
-    - Set the default system message language and many more
+    - Set the default system message language and more
 - [Customize the look](/yammer/configure-your-yammer-network/customize-the-look-of-yammer)
 - Manage domains in Office 365  
 - [Migrate a network to Native Mode](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide), if this isn't already done
