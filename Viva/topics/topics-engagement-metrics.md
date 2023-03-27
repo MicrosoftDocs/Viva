@@ -14,3 +14,21 @@ description: Learn about usage and engagement trends in Microsoft Viva Topics.
 ---
 
 # Usage and engagement metrics in Viva Topics
+
+Usage and engagement metrics demonstrate how users are engaging with Viva Topics in your organization. 
+
+To access usage and engagement metrics:
+1. In the Topic center, select the **Analytics** tab.
+2. In the **Analytics** tab, select **Usage & engagement**.
+
+## Topic engagement
+
+
+## Topic interaction
+
+
+## Topic consumption
+
+
+
+## Topic contribution 
