@@ -29,7 +29,7 @@ If your organization has the KPI summary option enabled, it will be found on all
 
 The KPI summary contains all top-level objectives that are set as KPIs. It displays the alignment (if there's any), the status given at last check-in, and the current value. The summary also shows the progress from the start value in small gray text.
 
-:::image type="content" source="../media/goals/4/416/a.jpg" alt-text="Screenshot of a KPI summary." lightbox="../media/goals/4/416/a.jpg":::
+:::image type="content" source="../media/goals/navigation-sidebar/kpi-summary-widget.png" alt-text="Screenshot of the KPI Summary widget.":::
 
 ## Who can manage KPI summaries? 
 
