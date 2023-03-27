@@ -32,6 +32,8 @@
 
   - name: Run a healthy OKR program with Viva Goals
     items:
+    - name: Healthy OKR Program Overview
+      href: healthy-okr-program-overview.md
     - name: Write OKRs and Initiatives
       items:
       - name: Write OKRs Overview
