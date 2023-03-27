@@ -23,7 +23,7 @@ search.appverid:
 # Manage data in the Viva Engage admin center
 
 ## Manage Data
-As an Office 365 Global admin or Engage admin, you're encouraged to use Yammer administrative tools to protect your Viva Engage data and comply with legal and regulatory standards, including the General Data Protection Regulation (GDPR). For access, an Engage admin goes to the **Governance and compliance** tab in the [Engage admin center](/Viva/engage/eac-as-access-eac) and selects **Data**.
+As an Office 365 Global admin or Engage admin, you're encouraged to use Yammer administrative tools to protect your Viva Engage data and comply with legal and regulatory standards, including the General Data Protection Regulation (GDPR). For access, an Engage admin goes to the **Governance and compliance** tab in the [Viva Engage admin center](/Viva/engage/eac-as-access-eac) and selects **Data**.
 
 [![Screenshot of the Data tab for administrative management in Viva Engage.](/viva/media/engage/admin/manage-data-eac.png)
 ](/viva/media/engage/admin/manage-data-eac.png#lightbox)
