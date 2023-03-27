@@ -51,7 +51,7 @@ Of course, these two areas go hand-in-hand, with the methodology supporting the 
 
 **Select the core focus area you want to improve**
 
-We’ve identified a select number of core topics that are key to running a great program, such as:  
+We’ve identified a select number of core topics that are key to running a great program, such as
 
 - Writing great OKRs 
 - OKR alignment 
