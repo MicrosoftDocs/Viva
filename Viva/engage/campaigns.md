@@ -1,5 +1,4 @@
 ---
-title: "Manage and set up campaigns in Microsoft Viva Engage"
 description: "Campaigns in Viva Engage are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -27,17 +26,17 @@ Campaigns are an interactive way to drive employee engagement. They provide powe
 Creating and viewing the campaign landing page, and analytics from the campaign management dashboard is only available to licensed admin users. Unlicensed network, global and engage admins are only able to access the campaign management dashboard and delete campaigns that have been created by licensed admins or corporate communicators.
 
 ## Set up a campaign
-In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Engage admin center](/viva/engage/eac-as-access-eac).
+In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 
 [![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
 Select **Campaigns** on the **Feature management** tab to access the campaign dashboard.
 
-[![Screenshot of the interface to manage campaigns in the Engage admin center.](/viva/media/engage/admin/campaigns-eac.png)](/viva/media/engage/admin/campaigns-eac.png#lightbox)
+[![Screenshot of the interface to manage campaigns in the Viva Engage admin center.](/viva/media/engage/admin/campaigns-eac.png)](/viva/media/engage/admin/campaigns-eac.png#lightbox)
 
 The campaign dashboard provides a list of active, ended, and draft campaigns created for the organization. From this page, you can create and edit campaigns, or access campaign analytics for better understanding of the campaign's performance and engagement.
 
-[![Screenshot of the Engage admin center entrypoint for managing Campaigns.](/viva/media/engage/admin/campaign-dashboard.png)](/viva/media/engage/admin/campaign-dashboard.png#lightbox)
+[![Screenshot of the Viva Engage admin center entrypoint for managing Campaigns.](/viva/media/engage/admin/campaign-dashboard.png)](/viva/media/engage/admin/campaign-dashboard.png#lightbox)
 
 ## Create a campaign
 
