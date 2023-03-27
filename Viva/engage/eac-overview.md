@@ -20,9 +20,9 @@ search.appverid:
 - MET150
 ---
 
-# Overview of the Engage admin center
+# Overview of the Viva Engage admin center
 
-As an admin, the Engage admin center (found within the Viva Engage app on Teams) is where you can find everything you need to plan your rollout, set up and customize Viva Engage for your tenant, manage security and compliance, and build engagement within your organization.
+As an admin, the Viva Engage admin center (found within the Viva Engage app on Teams) is where you can find everything you need to plan your rollout, set up and customize Viva Engage for your tenant, manage security and compliance, and build engagement within your organization.
 
 Through this experience you can:  
 
@@ -31,21 +31,21 @@ Through this experience you can:
 - Manage your organizations data retention and export plans
 - Explore the options for managing various core and premium features within Viva Engage  
 
-Navigate to the Engage admin center by selecting the ellipses button from the top navigation of Viva Engage. From the dropdown menu, select **Admin** to enter the admin experience.
+Navigate to the Viva Engage admin center by selecting the ellipses button from the top navigation of Viva Engage. From the dropdown menu, select **Admin** to enter the admin experience.
 
-[![Image of the entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+[![Image of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
-[![Image of the Engage admin center experience that admin will see.](/viva/media/engage/admin/eac-entry-view.png)](/viva/media/engage/admin/eac-entry-view.png#lightbox)
+[![Image of the Viva Engage admin center experience that admin will see.](/viva/media/engage/admin/eac-entry-view.png)](/viva/media/engage/admin/eac-entry-view.png#lightbox)
 
 ### See also
 
-[Set up the Engage admin center](/viva/engage/eac-get-started)
+[Set up the Viva Engage admin center](/viva/engage/eac-get-started)
 
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
-[Access the Engage admin center](/viva/engage/eac-as-access-eac)
+[Access the Viva Engage admin center](/viva/engage/eac-as-access-eac)
 
-[Manage data in the Engage admin center](/viva/engage/eac-as-manage-data)
+[Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data)
 
 [Answers in Viva overview](/viva/engage/eac-answers-overview-setup)
 

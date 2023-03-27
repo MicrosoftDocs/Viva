@@ -2,6 +2,31 @@
 
 
 
+## Week of March 20, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/20/2023 | [Changes to Viva Insights manager features](/viva/insights/org-team-insights/reference/manager-updates) | added |
+| 3/20/2023 | [Deep linking into Viva Engage](/viva/engage/deeplinks) | added |
+| 3/20/2023 | [Advanced insights metric filters](/viva/insights/use/metric-filters) | modified |
+| 3/21/2023 | [Microsoft Viva Topics overview](/viva/topics/topic-experiences-overview) | modified |
+| 3/22/2023 | [Viva Insights app introduction](/viva/insights/personal/teams/introduction) | modified |
+| 3/22/2023 | [Discover and pin the Viva Insights app](/viva/insights/personal/teams/viva-teams-app-install) | modified |
+| 3/24/2023 | [Configure your OKR creation permissions in Viva Goals](/viva/goals/configure-okr-create-permissions) | modified |
+| 3/24/2023 | Projects | removed |
+| 3/24/2023 | Review dashboard templates | removed |
+| 3/24/2023 | [View and manage analytics in Viva Engage](/viva/engage/analytics) | modified |
+| 3/24/2023 | [Access the Viva Engage admin center](/viva/engage/eac-as-access-eac) | modified |
+| 3/24/2023 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
+| 3/24/2023 | [Viva Engage admin center: Frequently asked questions (FAQs)](/viva/engage/eac-faq) | modified |
+| 3/24/2023 | [Viva Engage Admin center overview](/viva/engage/eac-overview) | modified |
+| 3/24/2023 | [Manage and set up storyline in Viva Engage](/viva/engage/eac-storyline) | modified |
+| 3/24/2023 | [Identify leaders and manage audiences in Viva Engage](/viva/engage/leadership-identification) | modified |
+| 3/24/2023 | [Get support for Viva Insights](/viva/insights/get-insights-support) | modified |
+| 3/24/2023 | [Configure Saba as a content source for Microsoft Viva Learning](/viva/learning/configure-saba-content-source) | modified |
+
+
 ## Week of March 13, 2023
 
 
