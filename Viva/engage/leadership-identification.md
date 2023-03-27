@@ -29,19 +29,19 @@ Leadership identification and audience management are a prerequisite for other l
 
 ## Identify leaders
 
-Engage admins, corporate communicators, existing Yammer verified admins, and Yammer network admins can identify leaders in Viva Engage. Leaders can be identified individually or by importing groups of leaders.
+Engage admins, corporate communicators, Yammer verified admins, and Yammer network admins can identify leaders in Viva Engage. Leaders can be identified individually or by importing groups of leaders.
 
-1. In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Engage admin center.
+1. In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Viva Engage admin center.
 
-   [![Screenshot of the entry point into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+   [![Screenshot of the entry point into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
 2. On the **Feature management** tab, select **Leadership identification and audiences** to go to the **Manage leaders** page, where you can search for users and groups to identify leaders.
 
-   [![Screenshot of the Engage admin center interface to manage leader identification.](/viva/media/engage/admin/leader-id-eac.png)](/viva/media/engage/admin/leader-id-eac.png#lightbox)
+   [![Screenshot of the Viva Engage admin center interface to manage leader identification.](/viva/media/engage/admin/leader-id-eac.png)](/viva/media/engage/admin/leader-id-eac.png#lightbox)
 
 3. Select **Add leaders** and enter the name of the user or group you want to identify as leaders.
 
-   [![Screenshot of the Engage admin center interface for adding leaders.](/viva/media/engage/admin/add-leaders.png)](/viva/media/engage/admin/add-leaders.png#lightbox)
+   [![Screenshot of the Viva Engage admin center interface for adding leaders.](/viva/media/engage/admin/add-leaders.png)](/viva/media/engage/admin/add-leaders.png#lightbox)
 
 5. Select the user or group from the search results.
 6. If you're importing a group, select **Continue** to confirm your choice.
@@ -53,20 +53,20 @@ Once confirmed, the group members and individuals you selected are added as lead
 
 ## Manage a leader's audience
 
-After a leader is identified, the next step is to manage the leader’s audience. This is a task for the Engage admin, Yammer verified admin, Yammer network admin, corporate communicator, and the leader or the leader's delegate managers.  
+After a leader is identified, the next step is to manage the leader’s audience. This task is for the Engage admin, Yammer verified admin, Yammer network admin, corporate communicator, and leader or leader's delegate managers.  
 
-From the **Manage leaders** list, find the leader’s row and select the pencil icon next to it to edit.
+On the **Manage leaders** list, find the leader’s row and select the pencil icon next to it to edit.
 
 [![Screenshot of the interface to manage a leader's audience in Viva Engage.](/viva/media/engage/admin/edit-audience.png)](/viva/media/engage/admin/edit-audience.png#lightbox)
 
 The **Manage audiences** page appears, and you can configure the leader’s audience. A leader can have up to two audiences:
 
-- **Entire organization**: The leader’s posts and announcements reach all users in the Viva Engage/Yammer network, excluding guests. To enable a leader to share and reach the entire organization, enable the **Entire organization** toggle. 
+- **Entire organization:** The leader’s posts and announcements reach all users in the Viva Engage/Yammer network, excluding guests. To enable a leader to share and reach the entire organization, enable the **Entire organization** toggle. 
 
    > [!NOTE]
    > Only Engage admins, Yammer verified admins, Yammer network admins, and corporate communicators can allow leaders to reach the entire organization. Leaders and delegate managers can't enable this option.  
 
-- **Audience**: The audience represents people that the leader wants to connect with most directly. This often means people in the leader’s immediate organization. To define an audience, use the search box to add users or groups.
+- **Audience:** The audience represents people that the leader wants to connect with most directly. This often means people in the leader’s immediate organization. To define an audience, use the search box to add users or groups.
 
    [![Screenshot of the Manage audience interface in Viva Engage.](/viva/media/engage/admin/manage-audience.png)](/viva/media/engage/admin/manage-audience.png#lightbox)
 
@@ -88,7 +88,7 @@ A leader follows these steps to configure delegates:
 
 3. Add the name of the person that you want to assign as delegate or delegate manager.
 
-   [![Screenshot of the interface for Delegate Settings in Viva Engage.](/viva/media/engage/admin/delegate-settings.png)](/viva/media/engage/admin/delegate-settings.png#lightbox)
+   [![Screenshot of the delegate settings interface in Viva Engage.](/viva/media/engage/admin/delegate-settings.png)](/viva/media/engage/admin/delegate-settings.png#lightbox)
 
 4. Choose the type of delegate.
 
@@ -102,17 +102,17 @@ A leader follows these steps to configure delegates:
 
 5. If the delegate will create posts, stories, or announcements on the leader’s [storyline](/Viva/engage/eac-storyline), **enable the storyline toggle**.
 
-Learn more about [Delegate Managers in Microsoft Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-yammer-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285).
+Learn more about [delegate managers in Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-yammer-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285).
 
 ## Leadership corner
 
 Leadership corner in Viva Engage is a place for users to get to know their leaders. Users can visit leadership corner to catch up on the latest content leaders posts, join their communities, and attend their AMAs to ask them questions directly. Leadership corner gives your organization the tools it needs for employees to learn about their leaders and build connections with them.
 
-By default, Leadership corner is turned on. But a Microsoft 365 Global admin or Engage admin can disable it in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac). Follow these steps to enable or disable leadership corner:
+By default, Leadership corner is turned on. But a Microsoft 365 Global admin or Engage admin can disable it in the [Viva Engage admin center](/Viva/engage/eac-as-access-eac). Follow these steps to enable or disable leadership corner:
 
 1. Select **Leadership corner** from the **Feature management tab** in the Viva Engage admin center.
 
-   [![Screenshot of the leadership corner button for feature management in the Engage admin center.](/viva/media/engage/admin/lc-admin-eac.png)](/viva/media/engage/admin/lc-admin-eac.png#lightbox)
+   [![Screenshot of the leadership corner button for feature management in the Viva Engage admin center.](/viva/media/engage/admin/lc-admin-eac.png)](/viva/media/engage/admin/lc-admin-eac.png#lightbox)
 
 2. Use the toggle to enable or disable leadership corner for your organization.
 
@@ -143,15 +143,15 @@ Identifying leaders and audiences helps ensure that your leaders' posts reach th
 
 **Who can identify and set leaders?**
 
-Verified admins, Network admins, Engage admins, and corporate communications managers with a license to the Viva Engage Communities and Communication service plan can determine leaders.
+Verified admins, Network admins, Engage admins, and corporate communications managers with a license to the Viva Engage Communities and Communication service plan can identify leaders.
 
 **How are leader’s audiences configured?**
 
-Identified leaders and their delegate managers can configure leader’s audiences in the **Manage audiences** interface in the Engage admin center. For a leader to reach the entire organization, however, the Engage admin, Verified admin, Network admin, and corporate communications managers must configure and enable this audience. Other users aren't involved in audience configuration.  
+Identified leaders and their delegate managers can configure leader’s audiences in the **Manage audiences** interface in the Viva Engage admin center. But for a leader to reach the entire organization, the Engage admin, Verified admin, Network admin, and corporate communications managers must configure and enable this audience. Other users aren't involved in audience configuration.  
 
 **Is there a way to disable leadership corner?**
 
-Yes, Global admin and Engage admin can turn off leadership corner in the feature management section of the Engage admin center.
+Yes, the Global admin and Engage admin can turn off leadership corner in the feature management section of the Viva Engage admin center.
 
 **How can I customize the company logo in leadership corner?**
 
