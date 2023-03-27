@@ -130,8 +130,8 @@ To delete a previously uploaded cover photo when the preview toggle is turned *o
 
 ## See also
 
-[Access the Engage admin center](/Viva/engage/eac-as-access-eac)
+[Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
 
-[Set up the Engage admin center](/Viva/engage/eac-get-started)
+[Set up the Viva Engage admin center](/Viva/engage/eac-get-started)
 
 [Identify leaders and manage audiences in Viva Engage](/Viva/engage/leadership-identification)

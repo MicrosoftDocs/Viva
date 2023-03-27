@@ -110,7 +110,7 @@ Leadership corner in Viva Engage is a place for users to get to know their leade
 
 By default, Leadership corner is turned on. But a Microsoft 365 Global admin or Engage admin can be disabled it in the Viva [Engage admin center](/Viva/engage/eac-as-access-eac). Follow these steps to enable or disable leadership corner:
 
-1. Select **Leadership corner** from the **Feature management tab** in the Engage admin center.
+1. Select **Leadership corner** from the **Feature management tab** in the Viva Engage admin center.
 
    [![Screenshot of the leadership corner button for feature management in the Engage admin center.](/viva/media/engage/admin/lc-admin-eac.png)](/viva/media/engage/admin/lc-admin-eac.png#lightbox)
 

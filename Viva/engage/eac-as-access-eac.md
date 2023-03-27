@@ -1,5 +1,5 @@
 ---
-title: "Access the Engage admin center"
+title: "Access the Viva Engage admin center"
 description: "Describes settings in the Viva Engage admin center."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 ---
 
-# Access the Engage admin center
+# Access the Viva Engage admin center
 
 Only users in the following admin roles can access the Viva Engage admin center: Global admin, Engage admin, Answers admin, and corporate communicator. End users (employees) in your organization can't access it.
 
-In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Engage admin center.
+In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Viva Engage admin center.
 
 [![Screenshot of the entrypoint into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
@@ -70,7 +70,7 @@ To remove a user from this role, select the delete icon on the right side of the
 
 ## Configure your tenant
 
-As a Global admin or Engage admin, you're encouraged to set up your Viva Engage enterprise experience for all employees before they start to use the application. This practice helps maintain a consistent experience. Engage admins can navigate to the **Setup and configuration** tab in the Engage admin center and select **Configure tenant**.  
+As a Global admin or Engage admin, you're encouraged to set up your Viva Engage enterprise experience for all employees before they start to use the application. This practice helps maintain a consistent experience. Engage admins can navigate to the **Setup and configuration** tab in the Viva Engage admin center and select **Configure tenant**.  
 
 [![Screenshot of the interface for configuring the tenant in Viva Engage.](/viva/media/engage/admin/config-tenant.png)](/viva/media/engage/admin/config-tenant.png#lightbox)
 
@@ -89,14 +89,14 @@ They're then routed to the Yammer admin center, where they can perform the follo
 - [Migrate a network to Native Mode](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide), if this isn't already done
 
 >[!NOTE]
-> Because Viva Engage is powered by Yammer technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Engage admin center as part of our admin roadmap.
+> Because Viva Engage is powered by Yammer technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Viva Engage admin center as part of our admin roadmap.
 
 ## See also
 
 [Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions)
 
-[Manage data in the Engage admin center](/Viva/engage/eac-as-manage-data)
+[Manage data in the Viva Engage admin center](/Viva/engage/eac-as-manage-data)
 
-[Set up the Engage admin center](/Viva/engage/eac-get-started)
+[Set up the Viva Engage admin center](/Viva/engage/eac-get-started)
 
 [View and manage campaigns in Viva Engage](/Viva/engage/campaigns)

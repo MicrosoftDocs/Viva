@@ -100,7 +100,7 @@ As an Answers admin, you can access Global Answers analytics:
 1. Selecting the analytics icon from the top navigation bar of Viva Engage.
 1. Go to the Global Answers analytics tab.  You'll see a dashboard of analytics that provide an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
-For more details about how to manage analytics in the [Engage admin center](/Viva/engage/eac-overview), see the comprehensive documentation for [viewing and managing analytics in Viva Engage](/Viva/engage/analytics) .
+For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see the comprehensive documentation for [viewing and managing analytics in Viva Engage](/Viva/engage/analytics) .
 
 [![Screenshot of the Global Answers analytics dashboard in Viva Engage.](/viva/media/engage/admin/global-answers-analytics.png)](/viva/media/engage/admin/global-answers-analytics.png#lightbox)
 

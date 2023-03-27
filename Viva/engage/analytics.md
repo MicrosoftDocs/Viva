@@ -27,7 +27,7 @@ Advanced analytic capabilities in Viva Engage help licensed users monitor their 
 
 ## Manage analytics
 
-Any user with access to premium Viva Engage can access Engage Analytics. But only the *Microsoft 365 Global admin* and *Engage admin* roles can manage settings through the [Engage admin center](/Viva/engage/eac-as-access-eac).
+Any user with access to premium Viva Engage can access Engage Analytics. But only the *Microsoft 365 Global admin* and *Engage admin* roles can manage settings through the [ Viva Engage admin center](/Viva/engage/eac-as-access-eac).
 
 In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to enter the Engage admin center.
 
@@ -56,7 +56,7 @@ Engage admins who have the knowledge license can manage metrics for **Answers** 
 
 [![Screenshot of Global Answers analytics landing page.](/Viva/media/engage/admin/global-answers-analytics.png)](/Viva/media/engage/admin/global-answers-analytics.png#lightbox)
 
-In the **Manage analytics** interface of the Engage admin center, admin can choose to enable or disable of advanced metrics such as **time saved** and **people helped**.  
+In the **Manage analytics** interface of the Viva Engage admin center, admin can choose to enable or disable of advanced metrics such as **time saved** and **people helped**.  
 
 To learn more about the metrics available for Global Answers analytics and Answers-specific actions for admin, see [Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)
 

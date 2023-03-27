@@ -93,6 +93,6 @@ The following table shows the range of actions available to a corporate communic
 
 ## See also
 
-[Access the Engage admin center](/Viva/engage/eac-as-access-eac)
+[Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
 
 [Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)
