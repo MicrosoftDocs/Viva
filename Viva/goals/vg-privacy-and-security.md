@@ -30,11 +30,11 @@ This document is not intended to provide legal advice and should not be relied u
 
 The Viva Goals service is governed by the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms), and the [Microsoft Privacy Statement](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). For the obligations related to processing and security of Customer Data and Personal Data, see the [Data Protection Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA). For compliance information, the [Microsoft Trust Center](https://www.microsoft.com/trustcenter) is the primary resource for Viva Goals.
 
-The Microsoft Product Terms outline a shared responsibility model between Microsoft and its customers. Microsoft works to ensure that we are compliant with industry and international standards, and customers are responsible for ensuring their data within the [Microsoft Cloud](https://www.microsoft.com/en-us/microsoft-cloud#What-is-the-Microsoft-Cloud) is protected in a manner that is compliant with the standards and regulations imposed on the customer. Microsoft is responsible for maintaining the implementation and test information associated with Microsoft Managed Controls. Customers are responsible for maintaining the implementation and test information associated with Customer Managed Controls. The Microsoft Product Terms binds us and our joint responsibilities. 
+The Microsoft Product Terms outline a shared responsibility model between Microsoft and its customers. Microsoft works to ensure that we are compliant with industry and international standards, and customers are responsible for ensuring their data within the [Microsoft Cloud](https://www.microsoft.com/microsoft-cloud#What-is-the-Microsoft-Cloud) is protected in a manner that is compliant with the standards and regulations imposed on the customer. Microsoft is responsible for maintaining the implementation and test information associated with Microsoft Managed Controls. Customers are responsible for maintaining the implementation and test information associated with Customer Managed Controls. The Microsoft Product Terms binds us and our joint responsibilities. 
 
 :::image type="content" source="../media/goals/security-privacy/prod_preamble_online_service_terms_dpa.png" alt-text="Infographic showing Microsoft's online service terms and data protection agreement. ":::
 
-For information about policies, tools, and best practices for all of Office 365, see [Overview of security and compliance in Office 365](https://support.office.com/article/dcb83b2c-ac66-4ced-925d-50eb9698a0b2). Viva Goals documentation can be found at https://learn.microsoft.com/en-us/viva/goals/intro-to-ms-viva-goals
+For information about policies, tools, and best practices for all of Office 365, see [Overview of security and compliance in Office 365](https://support.office.com/article/dcb83b2c-ac66-4ced-925d-50eb9698a0b2). Viva Goals documentation can be found at https://learn.microsoft.com/viva/goals/intro-to-ms-viva-goals
 
 ## Introduction
 
@@ -103,30 +103,30 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
     1. Viva Goals follows Office 365 practices and leverages yearly penetration tests, security testing (red team), assessments, security validation, and automated vulnerability scans. Auditing and logging are enabled and captured on systems and network devices with centralized logging solutions that correlate events and alerts for potential security incidents 24/7. 
 
 10. **Can we get the security event logs? Can we audit all activities in Viva Goals?**
-    1. Viva Goals does not send security event logs to a third-party Security Information and Event Management (SIEM) service. However, the Global admin can audit activities on Viva Goals by searching for Viva Goals activities in the audit section of the [Microsoft compliance portal](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcompliance.microsoft.com%2F&data=05%7C01%7Csusbhatia%40microsoft.com%7Cfe608d17064441d9162308db152377d1%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638127014381975186%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3sf6iXmnIV1JUmfwymJOQkjWW%2BAUFBVxj58GX6e5w9k%3D&reserved=0). To learn more about how to search the audit log, see https://learn.microsoft.com/en-us/microsoft-365/compliance/audit-log-search?. The list of user and admin activities in Viva Goals that are logged for auditing can be seen at https://learn.microsoft.com/en-us/microsoft-365/compliance/audit-log-activities?view=o365-worldwide#viva-goals-activities.  
+    1. Viva Goals does not send security event logs to a third-party Security Information and Event Management (SIEM) service. However, the Global admin can audit activities on Viva Goals by searching for Viva Goals activities in the audit section of the [Microsoft compliance portal](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcompliance.microsoft.com%2F&data=05%7C01%7Csusbhatia%40microsoft.com%7Cfe608d17064441d9162308db152377d1%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638127014381975186%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3sf6iXmnIV1JUmfwymJOQkjWW%2BAUFBVxj58GX6e5w9k%3D&reserved=0). To learn more about how to search the audit log, see https://learn.microsoft.com/microsoft-365/compliance/audit-log-search?. The list of user and admin activities in Viva Goals that are logged for auditing can be seen at https://learn.microsoft.com/microsoft-365/compliance/audit-log-activities?view=o365-worldwide#viva-goals-activities.  
 
 11. **How can Security incidents be reported?**
-    1. Security incidents can be reported at https://www.microsoft.com/en-us/msrc.  
+    1. Security incidents can be reported at https://www.microsoft.com/msrc.  
 
 12. **Is there an information security policy?**
-    1. Yes. Please see https://learn.microsoft.com/en-us/viva/microsoft-viva-security.  
+    1. Yes. Please see https://learn.microsoft.com/viva/microsoft-viva-security.  
 
 13. **Where can I learn more about the Viva Goals settings?**
     1. Please see the following:
-        1. For Admin content: https://learn.microsoft.com/en-us/viva/goals/intro-to-ms-viva-goals
-        1. For User content: https://support.microsoft.com/en-us/office/introducing-microsoft-viva-goals-bd651be7-472a-4f40-8fdd-6fcead79f3ad
+        1. For Admin content: https://learn.microsoft.com/viva/goals/intro-to-ms-viva-goals
+        1. For User content: https://support.microsoft.com/office/introducing-microsoft-viva-goals-bd651be7-472a-4f40-8fdd-6fcead79f3ad
 
 14. **How does Viva Goals protect the service from the internet?**
     1. Viva Goals uses Azure Front Door to provide necessary Firewall controls and WAF (Web Application Firewall) capabilities. Viva Goals also uses Endpoint protection services managed by Azure Active Directory. [A conditional access policy](/azure/active-directory/conditional-access/overview) with Just-In-Time elevated access is used to manage write access to Azure portal which manages the production subscription(s). 
 
 15. **What Authentication/Authorization mechanism is used by Viva Goals?**
-    1. Viva Goals uses Role Based Access Control (RBAC) through Azure Active Directory and application specific roles. Each role has specific read, write, and administrative access. To learn more about Roles and Permissions, see https://learn.microsoft.com/en-us/viva/goals/roles-permissions-in-viva-goals.
+    1. Viva Goals uses Role Based Access Control (RBAC) through Azure Active Directory and application specific roles. Each role has specific read, write, and administrative access. To learn more about Roles and Permissions, see https://learn.microsoft.com/viva/goals/roles-permissions-in-viva-goals.
 
 16. **What Authentication/Authorization mechanism is used for data integrations with Viva Goals?**
-    1. Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and projects, enabling you to have a single source of truth for progress. Viva Goals uses oAuth 2.0-based authentication when available, otherwise user’s API token or username/password is used to connect to the data integration service. Credentials provided such as username/password or OAuth tokens are encrypted and stored in the database. The keys to encrypt (unique to an organization) are in turn encrypted and stored in the database using Key Encryption Key (KEK) that resides in Azure managed HSM Key vault. Viva Goals utilizes public APIs to retrieve data from third-party integrations. Viva Goals does not share data from your tenant with third parties to support data integrations by default. To learn more about setting up integrations, see https://learn.microsoft.com/en-us/viva/goals/vg-integrations-administration-overview.
+    1. Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and projects, enabling you to have a single source of truth for progress. Viva Goals uses oAuth 2.0-based authentication when available, otherwise user’s API token or username/password is used to connect to the data integration service. Credentials provided such as username/password or OAuth tokens are encrypted and stored in the database. The keys to encrypt (unique to an organization) are in turn encrypted and stored in the database using Key Encryption Key (KEK) that resides in Azure managed HSM Key vault. Viva Goals utilizes public APIs to retrieve data from third-party integrations. Viva Goals does not share data from your tenant with third parties to support data integrations by default. To learn more about setting up integrations, see https://learn.microsoft.com/viva/goals/vg-integrations-administration-overview.
 
 17. **Can I configure Multi-factor Authentication (MFA) with Viva Goals?**
-    1. Yes. MFA can be configured using Azure Active Directory. To learn more about MFA with AAD, see https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks. 
+    1. Yes. MFA can be configured using Azure Active Directory. To learn more about MFA with AAD, see https://learn.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks. 
 
 #### Viva Goals Data Handling
 
@@ -143,7 +143,7 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
     1. See the [Subprocessors and Data Privacy Whitepaper](https://go.microsoft.com/fwlink/p/?LinkID=2162834&clcid=0x409&culture=en-us&country=us) for how Microsoft handles your data. 
 
 5. **Do you have a Data Protection Officer?**
-    1. Yes. DPO can be reached via https://www.microsoft.com/en-us/concern/privacy.  
+    1. Yes. DPO can be reached via https://www.microsoft.com/concern/privacy.  
 
 6. **Can we perform an on‐site visit or audit of your facilities?**
     1. Viva Goals doesn't permit customers to perform on‐site audits as they pose a risk to the security of the service. We will answer any security questions openly and transparently. 
@@ -173,13 +173,13 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
     1. Viva Goals abides by the Microsoft Trust policies and procedures to minimize the use of personal data for any processing activity. Viva Goals only consumes personal data from Azure Active Directory. Additionally, customer content related to 3P integrations will be captured and processed (all such data is encrypted and stored in our database). The following are examples of personal information required by Viva Goals for application-specific purposes: Name, Addresses, Job Title, Department, City Country, User Type, Preferred Language, Profile Photo, Manager. In addition to this, some third-party integrations may push fields (e.g., Employee cost center, Department/Team/Organization) with the consent of customers. 
 
 15. **Who has access to personal data?**
-    1. Microsoft personnel have no standing access to customer data. Access to such data is safeguarded by controls including approval workflows only when required to support the customer. IT admin can reach out to Microsoft support through Admin centers to raise queries for their personal data. Please refer to “how to contact us” section in Privacy statement [here](https://privacy.microsoft.com/en-us/privacystatement#mainnoticetoendusersmodule). 
+    1. Microsoft personnel have no standing access to customer data. Access to such data is safeguarded by controls including approval workflows only when required to support the customer. IT admin can reach out to Microsoft support through Admin centers to raise queries for their personal data. Please refer to “how to contact us” section in Privacy statement [here](https://privacy.microsoft.com/privacystatement#mainnoticetoendusersmodule). 
 
 16. **How long will personal data be retained before being erased?**
     1. When a tenant subscription to Viva Goals is cancelled, the personal data along with other data is retained for a minimum of 90 days and purged within180 days from the date of cancellation. 
 
 17. **Does Viva Goals use web cookies? If so, how long is the data stored?**
-    1. Yes. See [Microsoft Privacy Statement](https://privacy.microsoft.com/en-US/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
+    1. Yes. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
 
 #### Viva Goals Data Residency 
 
@@ -203,21 +203,21 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
 #### Viva Goals GDPR Requests
 
 1. **Does Microsoft make commitments to its customers with regards to the General Data Protection Regulation (GDPR)?**
-    1. Yes. The GDPR requires controllers (such as organizations using Microsoft's enterprise online services) only use processors (such as Microsoft) that provide sufficient guarantees to meet key requirements of the GDPR. Microsoft has taken the proactive step of providing these commitments to all Volume Licensing customers as part of their agreements. <br></br> Microsoft provides tools and documentation to support your GDPR accountability. This includes support for Data Subject Rights (DSRs), performing your own Data Protection Impact Assessments, and working together to resolve personal data breaches. <br></br> Viva Goals supports the GDPR-compliancy data deletion/retention and DSR practices (subjects’ right to access, delete, edit, export, restrict, or object to processing of the Personal Data of that Data Subject). To learn more about GDPR compliance at Microsoft, see https://learn.microsoft.com/en-us/compliance/regulatory/gdpr. 
+    1. Yes. The GDPR requires controllers (such as organizations using Microsoft's enterprise online services) only use processors (such as Microsoft) that provide sufficient guarantees to meet key requirements of the GDPR. Microsoft has taken the proactive step of providing these commitments to all Volume Licensing customers as part of their agreements. <br></br> Microsoft provides tools and documentation to support your GDPR accountability. This includes support for Data Subject Rights (DSRs), performing your own Data Protection Impact Assessments, and working together to resolve personal data breaches. <br></br> Viva Goals supports the GDPR-compliancy data deletion/retention and DSR practices (subjects’ right to access, delete, edit, export, restrict, or object to processing of the Personal Data of that Data Subject). To learn more about GDPR compliance at Microsoft, see https://learn.microsoft.com/compliance/regulatory/gdpr. 
 
 2. **Does Microsoft have a Chief Privacy Officer?**
-    1. Yes. The office of the privacy officer is involved in the impact assessment for all Microsoft products. To meet GDPR requirements, Microsoft also has designated a European Union Data Protection Officer (DPO) to be an independent advisor for Microsoft's engineering and business groups and to help ensure that all proposed processing of personal data meets EU legal requirements and Microsoft's corporate standards. The role was designed to meet the GDPR criteria set out in Articles 37-39. To learn more, see https://docs.microsoft.com/en-us/compliance/regulatory/gdpr-data-protection-officer.  
+    1. Yes. The office of the privacy officer is involved in the impact assessment for all Microsoft products. To meet GDPR requirements, Microsoft also has designated a European Union Data Protection Officer (DPO) to be an independent advisor for Microsoft's engineering and business groups and to help ensure that all proposed processing of personal data meets EU legal requirements and Microsoft's corporate standards. The role was designed to meet the GDPR criteria set out in Articles 37-39. To learn more, see https://docs.microsoft.com/compliance/regulatory/gdpr-data-protection-officer.  
 
 3. **How does Microsoft handle security breaches?**
-    1. As a data processor, Microsoft will ensure that our customers can meet the GDPR's breach notification requirements as data controllers. To learn more, see https://learn.microsoft.com/en-us/compliance/regulatory/gdpr-breach-notification.
+    1. As a data processor, Microsoft will ensure that our customers can meet the GDPR's breach notification requirements as data controllers. To learn more, see https://learn.microsoft.com/compliance/regulatory/gdpr-breach-notification.
 
 4. **Can Viva Goals help me be compliant with the California Customer Privacy Act (CCPA)?**
-    1. Microsoft has implemented GDPR-related DSR capabilities globally. Microsoft has also reviewed our third-party data sharing agreements and taken steps to establish that the necessary contractual terms are in place to ensure that we do not “sell” personal information. To learn more, see https://learn.microsoft.com/en-us/compliance/regulatory/ccpa-faq.
+    1. Microsoft has implemented GDPR-related DSR capabilities globally. Microsoft has also reviewed our third-party data sharing agreements and taken steps to establish that the necessary contractual terms are in place to ensure that we do not “sell” personal information. To learn more, see https://learn.microsoft.com/compliance/regulatory/ccpa-faq.
 
 ## Further Reading
 
 - [Introduction to Microsoft Viva Goals ](intro-to-ms-viva-goals.md)
 - [Overview of security and compliance in Microsoft Viva ](../microsoft-viva-security.md)
-- [Employee Privacy and Data Protection ](https://www.microsoft.com/en-us/microsoft-viva/privacy)
+- [Employee Privacy and Data Protection ](https://www.microsoft.com/microsoft-viva/privacy)
 - [Microsoft Compliance ](/compliance/)
 - [Microsoft 365 roadmap ](http://aka.ms/m365roadmap)
