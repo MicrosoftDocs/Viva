@@ -22,7 +22,7 @@ search.appverid:
 
 # Key admin roles and permissions in Viva Engage
 
-The following roles have access to the Engage admin center in the Viva Engage app:  
+The following roles have access to the Viva Engage admin center in the Viva Engage app:  
 
 - Microsoft 365 Global admin
 - Engage admin  
