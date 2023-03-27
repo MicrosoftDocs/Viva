@@ -1,9 +1,10 @@
 ---
 
+ms.date: 03/21/2023
 title: Discover and pin the Viva Insights app
 description: Discover and pin the Microsoft Viva Insights (personal insights) app 
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
@@ -11,15 +12,18 @@ ms.collection:
 - viva-insights-leader
 ms.service: viva
 ms.subservice: viva-insights
-manager: helayne
+manager: anirudhbajaj
 audience: Admin
 ---
 
 # Discover and pin the Viva Insights app
 
-The Viva Insights app is pre-installed in Teams by your admin. After your admin installs it, you can discover and pin Viva Insights to your Teams app for easy access.
+The Viva Insights app is pre-installed in Teams by your admin. After your admin installs Viva Insights, you can discover and pin the Viva Insights app in Teams for easy access.
 
-After adding the app, you'll have access to all of its features, including [Praise](viva-insights-praise.md), [Protect time](viva-insights-protect-time.md), [Reflect](viva-insights-reflect.md), [Stay connected](viva-insights-stay-connected.md), and [Virtual commute](viva-insights-virtual-commute.md).
+>[!Note]
+>If you're in the GCC-High or DoD Microsoft 365 environments, your admin doesn't pre-install Viva Insights. Refer to [Installing Viva Insights in GCC, GCC-High, and DoD](#installing-viva-insights-in-gcc-gcc-high-and-dod).
+
+After adding the app, you'll have access to its features, including [Praise](praise.md), [Headspace](headspace.md), [Reflect](reflect.md), [Suggested tasks](suggested-tasks.md), and [Virtual commute](virtual-commute.md).
 
 ## Discover and pin the app
 
@@ -56,6 +60,17 @@ This section describes how to uninstall the Microsoft Viva Insights app from Tea
 3. Right-click **Viva Insights**, and then select **Uninstall**.
 4. When prompted, select **Uninstall** again.
 
+## Installing Viva Insights in GCC, GCC-High, and DoD
+
+If you're in one of these Microsoft 365 environments, the Viva Insights app isn't pre-installed in Teams: Government Community Cloud (GCC), GCC-High, and Department of Defense (DoD). Unless your admin has [disabled](../setup/configure.md#to-manage-availability-for-the-viva-insights-app-in-teams) the app, you can add Viva Insights to Teams on your own:
+
+1. Select the **ellipsis** on the left bar in Teams.
+2. In the search field, enter **Microsoft Viva Insights**.
+1. Select the **Add** button.
+1. To pin the app, right-click the app icon shown in the left bar in Teams, and then select **Pin** (![Pin an app.](Images/pin.png)) to make and keep it visible in the left bar in Teams.
+
+
 ## Related topics
 
-[Viva Insights introduction](viva-teams-app.md)
+[Viva Insights introduction](introduction.md)
+

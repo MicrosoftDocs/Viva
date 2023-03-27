@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/24/2020
 title: Increase customer focus with Viva Insights
 description: Learn how to use Microsoft Viva Insights data to analyze and increase customer focus
 author: madehmer
@@ -87,7 +88,8 @@ Ways to foster cross-group collaboration:
 
 * Improve internal connectivity. Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
 * Create cross-functional [Teams channels](/microsoftteams/teams-channels-overview) that focus on customer needs.
-* Use [Viva Insights to manage important people](../personal/teams/viva-insights-stay-connected.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
+* Use [Viva Insights to manage important people](../personal/teams/suggested-tasks.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
 
 For more best practices and how to provide managers with go-to contacts list, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
 -->
+

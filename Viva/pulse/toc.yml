@@ -1,0 +1,40 @@
+items:
+- name: Introduction to Microsoft Viva Pulse
+  href: introduction-to-viva-pulse.md
+- name: Get started with Viva Pulse
+  items:
+    - name: Roles in Microsoft Viva Pulse
+      href: get-started/roles-in-viva-pulse.md
+    - name: Privacy and data protection
+      href: get-started/privacy-and-data-protection.md
+    - name: Supported languages
+      href: get-started/supported-languages.md
+- name: Setup, Administration & Access
+  items:
+    - name: Set up Viva Pulse in the Teams admin center
+      href: setup-admin-access/set-up-pulse-in-teams-admin-center.md
+    - name: Set up Viva Pulse for your organization
+      href: setup-admin-access/set-up-pulse-for-your-organization.md
+    - name: Set up the in-app Viva Pulse experience
+      href: setup-admin-access/set-up-in-app-pulse-experience.md
+    - name: Access Viva Pulse via Microsoft Teams or Web
+      href: setup-admin-access/access-pulse-via-teams-or-web.md
+- name: Request feedback in Viva Pulse
+  items:
+    - name: Create a pulse
+      href: request-feedback/create-pulse.md
+    - name: View sent pulses
+      href: request-feedback/view-sent-pulses.md
+- name: Provide feedback in Viva Pulse
+  items:
+    - name: Respond to a pulse
+      href: provide-feedback/respond-to-pulse.md
+    - name: View feedback provided
+      href: provide-feedback/view-feedback-provided.md
+- name: View and share feedback results in Viva Pulse
+  items:
+        - name: View and share feedback results as a feedback author
+          href: view-and-share-feedback-results/view-and-share-feedback-author.md
+        - name: View feedback results as a shared report viewer
+          href: view-and-share-feedback-results/view-feedback-shared-report-viewer.md
+          

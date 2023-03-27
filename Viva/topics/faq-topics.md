@@ -1,4 +1,5 @@
 ---
+ms.date: 11/29/2021
 title: Frequently asked questions about Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -103,3 +104,4 @@ For more information about the user experience, see the following help articles:
 
 - [Get started with Microsoft Viva Topics](get-started-with-viva-topics.md)
 - [Manage topics in the topic center in Microsoft Viva Topics](manage-topics.md)
+

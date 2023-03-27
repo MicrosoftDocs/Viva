@@ -16,6 +16,19 @@
         - name: Get help
           href: help-support.md
         
+    - name: SAP SuccessFactors
+      items:
+        - name: Overview of SAP SuccessFactors
+          href: sfsf-introduction.md
+        - name: Add SAP SuccessFactors as a content source 
+          href: sfsf-add-as-content-source.md
+        - name: Enable learner record sync
+          href: sfsf-enable-learning-record-sync.md
+        - name: Manage SAP SuccessFactors permissions
+          href: sfsf-manage-permissions.md
+        - name: Enable inline playback
+          href: sfsf-enable-inline-playback.md
+          
     - name: Manage learning content sources
       items:
         - name: Overview
@@ -24,6 +37,8 @@
           href: use-tabs.md
         - name: Creating Learning paths in Viva Learning
           href: creating-learning-paths.md
+        - name: Create collections in Viva Learning
+          href: creating-learning-collections.md
         - name: Add SharePoint
           href: configure-sharepoint-content-source.md
           items:
@@ -36,8 +51,8 @@
               href: configure-cornerstone-content-source.md
             - name: Saba
               href: configure-saba-content-source.md
-            - name: SAP SuccessFactors
-              href: configure-successfactors-content-source.md
+            - name: Manage Catalog Access in Viva Learning
+              href: manage-catalog-access.md
             - name: Workday
               href: configure-workday-content-source.md
         - name: Add other content providers

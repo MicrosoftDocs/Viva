@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/06/2018
 title: Assign user or group roles
 description: How to assign roles for Advanced insights with Microsoft Viva Insights
 author: madehmer
@@ -99,3 +100,4 @@ However, in a larger company where the number of users required for the same rol
 * [User roles](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Environment requirements for advanced insights](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [People manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 10/06/2020
 title: Organizational resiliency in Viva Insights
 description: Learn about how to enhance organizational resiliency with recommendations in Microsoft Viva Insights
 author: madehmer
@@ -66,7 +67,7 @@ Rapid shifts in ways employees work can blur the line between work and home. The
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support employee wellbeing:
 
-* Use [Protect time](../personal/teams/viva-insights-protect-time.md) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
+* Use [Quiet time](../personal/teams/quiet-time.md) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
 * Utilize [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with configured working hours of coworkers.
 * Use [Teams Together mode](https://www.microsoft.com/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
 
@@ -90,7 +91,7 @@ Resilient organizations respond to changing demands and new opportunities by nim
 As explained in [How to finally kill the useless, recurring meeting](https://workplaceinsights.microsoft.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done." Ways to reduce meeting time:
 
 * Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
-* Use [Protect time](../personal/teams/viva-insights-protect-time.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../personal/use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with configured working hours for coworkers.
+* Use [Quiet time](../personal/teams/quiet-time.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../personal/use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with configured working hours for coworkers.
 * Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
 For more best practices and ways to establish 'meeting-free' periods, see [Best practices for meetings](../tutorials/gm-meetings.md).-->
@@ -117,3 +118,4 @@ According to the [Rebuilding companies as communities](https://insights.office.c
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
 
 For more best practices, see [Best practices for community connectivity](../tutorials/gm-connectivity.md).
+

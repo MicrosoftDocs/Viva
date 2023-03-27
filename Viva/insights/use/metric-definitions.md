@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 02/20/2018
 title: Metric definitions for Advanced insights
 description: Describes the metrics for queries that are available in Microsoft Viva Insights, including Person, Meeting, Group-to-group, Person-to-group, and Network query metrics 
 author: madehmer
@@ -166,3 +167,4 @@ The following network metrics are based on the collaboration activities, includi
 | <a name="strong-tie-score-define"></a> Strong tie score | A numeric score that indicates how strong and tight a person’s engagements are. It is based on both direct collaboration between two people and on the common network they share. (Collaboration activities consist of emails, [meetings](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meeting-define), Teams [calls](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#call-define), and Teams chats.) <br>For example, a "strong tie" between a manager and a direct report reflects both the amount of direct collaboration they have with each other and the time they both invest in connections that are common to both of them. Typically, a person has only a few strong ties because such ties take more effort to maintain. | ONA | Score | No |
 | <a name="strong-tie-type-define"></a> Strong tie type | A value that indicates the relative strength of the person's strong ties. 0 means that the tie is not strong; 1 means that the tie is strong; 2 is an intermediate value that means stronger than 0 but weaker than 1. (The Strong tie type metric is derived from the [Strong tie score](#strong-tie-score-define) metric, which in turn is based on the thresholds that are described in [The last columns give the results](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#the-last-columns-give-the-results).) | ONA | Score | No |
 | <a name="strong-ties-define"></a> Strong ties | The number of strong ties that the person has; that is, the number of ties whose [Strong tie type](#strong-tie-type-define) is 1. | ONA | Count | No |
+

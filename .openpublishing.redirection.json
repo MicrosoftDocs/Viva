@@ -1,6 +1,36 @@
 {
     "redirections": [
       {
+        "source_path": "viva/pulse/get-started/intro-to-viva-pulse.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/setup-admin-access/access-teams-or-web.md",
+        "redirect_url": "/viva/pulse/setup-admin-access/access-pulse-via-teams-or-web",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/setup-admin-access/set-up-in-app-experience.md",
+        "redirect_url": "/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/setup-admin-access/set-up-org.md",
+        "redirect_url": "/viva/pulse/setup-admin-access/set-up-pulse-for-your-organization",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/setup-admin-access/set-up-teams-admin-center.md",
+        "redirect_url": "/viva/pulse/setup-admin-access/set-up-pulse-in-teams-admin-center",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-shared-report-viewer.md",
+        "redirect_url": "/viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer",
+        "redirect_document_id": true
+      },            
+      {
         "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",
         "redirect_url": "/insights/viva-teams-app",
         "redirect_document_id": false
@@ -222,32 +252,32 @@
       },
       {
         "source_path": "viva/insights/use/viva-insights-my-org.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/myteam.md",
-        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
+        "redirect_url": "/viva/insights/org-team-insights/team-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/team-insights.md",
-        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
+        "redirect_url": "/viva/insights/org-team-insights/team-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/my-team-faq.md",
-        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits-faq",
+        "redirect_url": "/viva/insights/org-team-insights/team-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/my-org-meeting-effectiveness.md",
-        "redirect_url": "/viva/insights/org-team-insights/meeting-effectiveness",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/my-org-manager-connection.md",
-        "redirect_url": "/viva/insights/org-team-insights/manager-connection",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
@@ -257,27 +287,27 @@
       },
       {
         "source_path": "viva/insights/setup/ml-insights-setup.md",
-        "redirect_url": "/viva/insights/org-team-insights/setup",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/myteam-explore.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/group-insights.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/viva-insights-my-team.md",
-        "redirect_url": "/viva/insights/org-team-insights/teamwork-habits",
+        "redirect_url": "/viva/insights/org-team-insights/team-insights",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/use/viva-insights-myorg.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-trends",
+        "redirect_url": "/viva/insights/org-team-insights/org-insights",
         "redirect_document_id": false
       },
       {
@@ -459,7 +489,238 @@
       "source_path": "viva/insights/manager-insights/plans.md",
       "redirect_url": "/viva/insights/overview/get-started",
       "redirect_document_id": false
-      }
-
+      },
+      {
+        "source_path": "viva/goals/kr-types.md",
+        "redirect_url": "/viva/solutions/kr-types",
+        "redirect_document_id": false
+        },
+      {
+        "source_path": "viva/insights/personal/teams/send-card.md",
+        "redirect_url": "/viva/insights/personal/introduction",
+        "redirect_document_id": false
+        },
+      {
+        "source_path": "viva/insights/Tutorials/bcrps.md",
+        "redirect_url": "/microsoft-365/admin/adoption/adoption-score",
+        "redirect_document_id": false
+        },
+      {"source_path": "viva/insights/advanced/analyst/metric-rules-2.md",
+        "redirect_url": "viva/insights/advanced/analyst/metric-rules",
+        "redirect_document_id": false
+        },
+      {"source_path": "viva/connections/guide-to-setting-up-viva-connections.md",
+          "redirect_url": "/viva/connections/viva-connections-setup-guide",
+          "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/employee-experience-pbi.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/employee-wellbeing.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/manager-connection.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/meeting-effectiveness.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/org-trends-faq.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights-faqs",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/org-trends.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/setup.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/shared-no-meeting-day.md",
+      "redirect_url": "/viva/insights/personal/teams/shared-no-meeting-day",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/teamwork-habits-faq.md",
+      "redirect_url": "/viva/insights/org-team-insights/team-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/teamwork-habits.md",
+      "redirect_url": "/viva/insights/org-team-insights/team-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/new/team-insights.md",
+      "redirect_url": "/viva/insights/org-team-insights/team-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/new/org-insights.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/org-team-insights/new/org-insights-faqs.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights-faqs",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/effective-meetings.md",
+      "redirect_url": "/viva/insights/personal/teams/productivity",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/inspiration.md",
+      "redirect_url": "/viva/insights/personal/teams/inspiration",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/shared-meeting-plan.md",
+      "redirect_url": "/viva/insights/personal/teams/shared-meeting-plan",
+      "redirect_document_id": false
+      },      
+      {"source_path": "viva/insights/personal/teams/viva-insights-headspace.md",
+      "redirect_url": "/viva/insights/personal/teams/headspace",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/viva-insights-home.md",
+      "redirect_url": "/viva/insights/personal/teams/home",
+      "redirect_document_id": false
+      },      
+      {"source_path": "viva/insights/personal/teams/viva-insights-praise.md",
+      "redirect_url": "/viva/insights/personal/teams/praise",
+      "redirect_document_id": false
+      },      
+      {"source_path": "viva/insights/personal/teams/viva-insights-protect-time.md",
+      "redirect_url": "/viva/insights/personal/teams/wellbeing",
+      "redirect_document_id": false
+      },     
+      {"source_path": "viva/insights/personal/teams/viva-insights-reflect.md",
+      "redirect_url": "/viva/insights/personal/teams/reflect",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/viva-insights-stay-connected.md",
+      "redirect_url": "/viva/insights/personal/teams/teamwork",
+      "redirect_document_id": false
+      },      {"source_path": "viva/insights/personal/teams/viva-insights-virtual-commute.md",
+      "redirect_url": "/viva/insights/personal/teams/virtual-commute",
+      "redirect_document_id": false
+      },      
+      {"source_path": "viva/insights/personal/teams/viva-teams-app-privacy.md",
+      "redirect_url": "/viva/insights/personal/teams/privacy",
+      "redirect_document_id": false
+      },      
+      {"source_path": "viva/insights/personal/teams/viva-teams-app-settings.md",
+      "redirect_url": "/viva/insights/personal/teams/settings",
+      "redirect_document_id": false
+      },      
+      {"source_path": "viva/insights/personal/teams/viva-teams-app.md",
+      "redirect_url": "/viva/insights/personal/teams/introduction",
+      "redirect_document_id": false
+      },  
+      {"source_path": "viva/insights/personal/teams/new/introduction.md",
+      "redirect_url": "/viva/insights/personal/teams/introduction",
+      "redirect_document_id": false
+      },       
+      {"source_path": "viva/insights/personal/teams/new/faq.md",
+      "redirect_url": "/viva/insights/personal/teams/faq",
+      "redirect_document_id": false
+      },      
+      {"source_path": "viva/insights/personal/teams/new/focus-plan.md",
+      "redirect_url": "/viva/insights/personal/teams/focus-plan",
+      "redirect_document_id": false
+      },      
+      {"source_path": "viva/insights/personal/teams/new/focus.md",
+      "redirect_url": "/viva/insights/personal/teams/focus",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/headspace.md",
+      "redirect_url": "/viva/insights/personal/teams/headspace",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/meeting-category-insights.md",
+      "redirect_url": "/viva/insights/personal/teams/meeting-category-insights",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/meeting-effectiveness-surveys.md",
+      "redirect_url": "/viva/insights/personal/teams/meeting-effectiveness-surveys",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/meeting-habits.md",
+      "redirect_url": "/viva/insights/personal/teams/meeting-habits",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/praise.md",
+      "redirect_url": "/viva/insights/personal/teams/praise",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/privacy.md",
+      "redirect_url": "/viva/insights/personal/teams/privacy",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/productivity.md",
+      "redirect_url": "/viva/insights/personal/teams/productivity",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/quiet-time.md",
+      "redirect_url": "/viva/insights/personal/teams/quiet-time",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/reflect.md",
+      "redirect_url": "/viva/insights/personal/teams/reflect",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/settings.md",
+      "redirect_url": "/viva/insights/personal/teams/settings",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/shared-no-meeting-day.md",
+      "redirect_url": "/viva/insights/personal/teams/shared-no-meeting-day",
+      "redirect_document_id": false
+      },      
+      {"source_path": "viva/insights/personal/teams/new/suggested-tasks.md",
+      "redirect_url": "/viva/insights/personal/teams/suggested-tasks",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/teamwork.md",
+      "redirect_url": "/viva/insights/personal/teams/teamwork",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/time-management.md",
+      "redirect_url": "/viva/insights/personal/teams/time-management",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/virtual-commute.md",
+      "redirect_url": "/viva/insights/personal/teams/virtual-commute",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/wellbeing.md",
+      "redirect_url": "/viva/insights/personal/teams/wellbeing",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/viva-teams-app-faq.md",
+      "redirect_url": "/viva/insights/personal/teams/faq",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/use/focus-plan.md",
+      "redirect_url": "/viva/insights/personal/teams/focus-plan",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/new/home.md",
+      "redirect_url": "/viva/insights/personal/teams/home",
+      "redirect_document_id": false
+      },
+      {"source_path": "viva/insights/personal/teams/focus-mode.md",
+      "redirect_url": "/viva/insights/personal/teams/focus",
+      "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/goals/projects.md",
+        "redirect_url": "https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c",
+        "redirect_document_id": false
+        },
+        {
+          "source_path": "viva/goals/review-dashboard-templates.md",
+          "redirect_url": "https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4",
+          "redirect_document_id": false
+          }
     ]
 }

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/12/2021
 title: Insights data access and analysis
 description: More details about what data is accessed and analyzed in Microsoft Viva Insights
 author: madehmer
@@ -43,3 +44,4 @@ This Microsoft 365 metadata provides the foundation for the analysis in Insights
  | **meeting** | organizer | invitees | subject line | scheduled time | attendee status | scheduled location |
  | **call** | organizer | invitees |  | scheduled time, <br>call joined time, <br>call duration | call/join status |  |
  | **chat** | sender of <br>initial IM | recipient |  | IM sent time |  |  |
+

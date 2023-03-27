@@ -1,5 +1,6 @@
 ---
 
+ms.date: 09/16/2021
 title: Personal insights in Viva Insights privacy guide for admins
 description: Overview of Personal insights in Viva Insights privacy features for admins, including info about data de-identification and privacy, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: madehmer
@@ -18,6 +19,9 @@ audience: Admin
 ---
 
 # Privacy guide for admins
+
+>[!Important]
+>This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 By using data generated from everyday work in Microsoft 365, personal insights in Microsoft Viva Insights help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
@@ -47,7 +51,7 @@ A few days after a license with the Viva Insights service is assigned to a perso
 
 Personal insights in Viva Insights are shown in the following ways:
 
-* [Viva Insights in Teams and on the web](../teams/viva-insights-home.md)
+* [Viva Insights in Teams and on the web](../teams/home.md)
 * [Briefing emails](../Briefing/be-overview.md)
 * [Viva Insights in Outlook](../use/add-in.md)
 * [Digest emails in Outlook](../use/email-digests-3.md)
@@ -86,7 +90,7 @@ Personal insights in Viva Insights tracks the percentage of recipients who opene
 
 To preserve privacy, Viva Insights does not track read rates for messages sent to fewer than five people. Viva Insights also doesn't show read rates of "0 percent" or "100 percent," as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate in these cases is displayed as a range that encompasses a threshold value that depends on the number of recipients of the email.
 
-This metric is calculated based on a person's Outlook setting for when an [email is marked as read](https://support.office.com/article/mark-a-message-as-read-or-unread-59b44298-08c2-4eb7-8128-ea0fb7f52720). When Outlook marks an email as "read," that information is saved within the person’s mailbox. This is then delivered to the sender's mailbox if that person has opted in to using Viva Insights.
+This metric is calculated based on a person's Outlook setting for when an [email is marked as read](https://support.office.com/article/mark-a-message-as-read-or-unread-59b44298-08c2-4eb7-8128-ea0fb7f52720). When Outlook marks an email as "read," that information is saved within the person’s mailbox, then delivered to the sender's mailbox if that person has opted in to using Viva Insights.
 
 Similarly, Viva Insights tracks the percentage of recipients who opened a document that was shared as a link or as an attachment in an email that a person sends to five or more people. This metric calculation is based on whether recipients have opened shared documents that are stored in SharePoint or in OneDrive for Business.
 
@@ -94,11 +98,9 @@ Similarly, Viva Insights tracks the percentage of recipients who opened a docume
 
 People managers often have hectic schedules and it can be tough to stay in close contact with each team member. Viva Insights brings together all the information managers need to stay caught up and respond quickly to important requests.
 
-<!--For example, the [Catch up with your team](../use/use-the-insights.md#catch-up-with-your-team) feature in the [Insights add-in](../use/add-in.md) helps managers schedule regular 1:1 time, respond quickly to unread emails, close out important tasks, and more.
--->
 All assistance for managers in Viva Insights relies exclusively on information from the manager's own mailbox; managers do not receive any incremental information from team members' mailboxes that could be used for performance management. For example: managers can use this feature to review important unread emails in their inbox _from_ team members, but they cannot see whether team members have read emails that the manager has sent.
 
-Managers are identified by using Azure Active Directory<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or Workplace Analytics-->. The feature is only available to users who have direct reports listed in Azure AD.<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.)-->
+Managers are identified by using Azure Active Directory. The feature is only available to users who have direct reports listed in Azure AD.
 
 Managers have the option to [edit their team list](../use/use-the-insights.md#to-edit-your-team-list) if they notice any inaccuracies. Any changes the manager makes are used only in their Viva Insights experience, and are not synchronized back to Azure AD.
 
@@ -117,7 +119,7 @@ Note that if default settings are used, the following applies:
 
 ## Opt in or out
 
-Employees can opt themselves out of Viva Insights. This causes them to lose access to the Viva Insights [elements](../use/mya-elements.md) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../setup/configure.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, as described in [How employees can opt in or out](#how-employees-opt-in-or-out).
+Employees can opt themselves out of Viva Insights. Opting out causes them to lose access to the Viva Insights [elements](../use/mya-elements.md) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../setup/configure.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, as described in [How employees can opt in or out](#how-employees-opt-in-or-out).
 
 ### Data processing consequences
 
@@ -139,7 +141,7 @@ The Microsoft Graph cannot be turned on or off globally through the Microsoft 36
 
 ### App and Outlook add-in
 
-Within a few days of the assignment of a license with the Viva Insights service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-in license&mdash;the user’s Viva Insights [app in Teams and on the web](../teams/viva-teams-app.md) and [Outlook Add-in](../use/add-in.md) become available.
+Within a few days of the assignment of a license with the Viva Insights service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-in license&mdash;the user’s Viva Insights [app in Teams and on the web](../teams/introduction.md) and [Outlook Add-in](../use/add-in.md) become available.
 
 ### Welcome email
 
@@ -177,3 +179,4 @@ As is the case with the full Microsoft 365 suite, Personal insights in Viva Insi
       * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
+

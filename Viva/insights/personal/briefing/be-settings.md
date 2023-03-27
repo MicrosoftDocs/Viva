@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/26/2021
 title: Settings for the Briefing email
 description: Learn how to change your personal settings for the Briefing email from Microsoft Viva
 author: lilyolason
@@ -15,6 +16,9 @@ manager: anirudhbajaj
 
 ---
 # Settings for the Briefing email
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 Use Briefing settings to pick what time of day you receive the Briefing email in your inbox, which items you want to prioritize in your Briefing email, or to unsubscribe from the email. What you set here  overrides or takes precedence over what your admin sets up for your Briefing email.
 
@@ -47,3 +51,4 @@ Once you arrive at the settings page in the Viva Insights app in Teams or on the
 
 * [Briefing email overview](be-overview.md)
 * [Configure Briefing email](be-admin.md)
+

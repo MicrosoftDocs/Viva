@@ -1,4 +1,5 @@
 ---
+ms.date: 01/17/2018
 title: About Viva Insights Outlook add-in
 description: Learn about the Outlook add-in for Microsoft Viva Insights
 author: madehmer
@@ -20,7 +21,7 @@ audience: user
 
 _**Applies to**: Microsoft Viva Insights elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is)_
 
-Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
+Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Would you like to be notified if an upcoming meeting doesn't have a quorum?
 
 If your answer to any of these questions is _yes_, the Microsoft Viva Insights Outlook add-in provides insights that can help you stay on top of your tasks and get more done during your workday.
 
@@ -108,7 +109,7 @@ This pane will show you a number of options, such as the following:
 * [Add important people](use-the-insights.md#add-important-people) - Manage your list of important contacts. You'll see reminders when you have tasks to complete for these people or unread emails from them.
 * [Set lunch hours](use-the-insights.md#set-lunch-hours) - Use this card to protect your lunch hours and personalize your insights.
 * [Plan your time away](use-the-insights.md#plan-your-time-away) - Use this card to plan your time away from work.
-* [Catch up with your team](use-the-insights.md#catch-up-with-your-team) - Stay on top of your team's needs with insights for 1:1 meetings, outstanding tasks, and so on.
+* [Catch up with your team](use-the-insights.md#catch-up-with-your-team) - Stay on top of your team's needs with insights about unread shared documents and tasks you promised to complete.
 * [Meeting suggestions](use-the-insights.md#meeting-suggestions) - Grow and nurture your network by staying connected with important colleagues.
 
 ## Pin the add-in
@@ -164,3 +165,4 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 
 * [Use Viva Insights](use-the-insights.md)
 * [Viva Insights elements](MyA-elements.md)
+* [!INCLUDE [Viva Insights community](../includes/insights-community.md)]

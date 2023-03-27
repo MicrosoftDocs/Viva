@@ -1,5 +1,6 @@
 ---
 
+ms.date: 07/21/2020
 title: Personal insights deployment guide
 description: Guide for admins on deploying personal insights with Microsoft Viva Insights
 author: madehmer
@@ -149,7 +150,7 @@ In this scenario, some users are opted in and some users are opted out of all Vi
     ```
 
 4. Specify the location of the input .csv file, the output .csv file, and the value of PrivacyMode that you want to set for each user.
-Note: The output.csv file will contain the results of running this PowerShell script. For more information about possible values for PrivacyMode, see Set-UserAnalyticsConfig / Parameters.
+Note: The output.csv file will contain the results of running this PowerShell script. For more information about possible values for PrivacyMode, see MyAnalyticsFeatureConfig / Parameters.
 
     ```powershell
     $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
@@ -162,8 +163,8 @@ Note: The output.csv file will contain the results of running this PowerShell sc
     $user.Userprincipalname
     $upn=$user.UserPrincipalName
     
-    Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
-    Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName 
+    Set-MyAnalyticsFeatureConfig –Identity $upn -PrivacyMode $privacyMode
+    Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName 
     }
     ```
 
@@ -200,8 +201,8 @@ This procedure is identical to [Set up mixed deployment](#set-up-mixed-deploymen
     $user.Userprincipalname
     $upn=$user.UserPrincipalName
     
-    Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
-    Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName 
+    Set-MyAnalyticsFeatureConfig –Identity $upn -PrivacyMode $privacyMode
+    Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName 
     }
     ```
 
@@ -307,11 +308,12 @@ If users have questions about using Viva Insights, point them to the published [
 
 * See these descriptions of the Viva Insights surfaces:
 
-  * [Viva Insights app in Teams](../teams/viva-insights-home.md)
+  * [Viva Insights app in Teams](../teams/home.md)
   * [Viva Insights Home page](./../use/home-web.md)
   * [Viva Insights Outlook add-in](./../use/add-in.md)
-  * [Briefing emails](../Briefing/be-overview.md)
+  * [Briefing emails](../Briefing/be-overview.md) **(paused)**
   * [Digest emails](./../use/email-digests-3.md)
   * [Inline suggestions in Outlook](./../use/mya-notifications.md)
+
 
 

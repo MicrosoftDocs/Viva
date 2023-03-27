@@ -1,4 +1,5 @@
 ---
+ms.date: 04/20/2022
 title: "Key performance indicator (KPI) summary"
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -58,3 +59,4 @@ To remove a KPI from the KPI summary, select **Remove from KPI Summary** from th
 ## Rearrange KPIs in your KPI summary
 
 To move a KPI tile, drag and drop it into the new position. The previous KPIs will move up to fill the space.
+

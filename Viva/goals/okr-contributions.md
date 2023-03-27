@@ -1,4 +1,5 @@
 ---
+ms.date: 04/29/2022
 title: "OKR contributions"
 ms.reviewer: 
 ms.author: rasanders
@@ -52,3 +53,4 @@ Users can define and control contribution at the parent level. All the contribut
 3. As soon as a child’s contribution is edited, the contribution is considered "fixed." If a new child is added or an existing child is removed, the contributions marked as fixed won't be adjusted. For example, if an objective has three key results (children) and the contribution of the first key result is edited to be 50 percent, the contributions of the second and third key result will be automatically adjusted to 25 percent each. In the future, if a fourth key result is added, only the contribution of the second and third key result will be adjusted.
 
 To reset all the custom contributions to the defaults, select the **Reset to default** option. 
+

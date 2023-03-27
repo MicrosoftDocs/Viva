@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/10/2023
 title: Briefing email pause
 description: About pausing the Briefing email
 author: lilyolason
@@ -19,7 +20,7 @@ manager: anirudhbajaj
 
 We’re taking some time to improve the Briefing email and give you more personalized content in your daily messages. As a result, we’ll take a break from sending you your daily Briefing starting on January 15th, 2023.
 
-While you’ll stop receiving the Briefing email for a while, you’ll still have access to Viva Insights features. If you rely on different features within Briefing—like preparing for meetings, reviewing outstanding tasks, or booking focus time—read this article to learn how you can find them in your [Viva Insights Outlook add-in](../use/add-in.md), [other Outlook features](https://support.microsoft.com/en-us/office/use-intelligent-technology-in-outlook-on-the-web-and-outlook-com-24b30683-8340-4b69-b8ac-4193ec528a70), and [Viva Insights app in Teams and web](../teams/viva-insights-home.md). You'll continue to receive semi-monthly digest emails with insights and recommendations to build healthy work habits.
+While you’ll stop receiving the Briefing email for a while, you’ll still have access to Viva Insights features. If you rely on different features within Briefing—like preparing for meetings, reviewing outstanding tasks, or booking focus time—read this article to learn how you can find them in your [Viva Insights Outlook add-in](../use/add-in.md), [other Outlook features](https://support.microsoft.com/en-us/office/use-intelligent-technology-in-outlook-on-the-web-and-outlook-com-24b30683-8340-4b69-b8ac-4193ec528a70), and [Viva Insights app in Teams and web](../teams/home.md). You'll continue to receive semi-monthly digest emails with insights and recommendations to build healthy work habits.
 
 ## Prepare for upcoming meetings 
 
@@ -57,9 +58,9 @@ The Viva Insights Outlook add-in includes a [View outstanding tasks](../use/use-
 
 :::image type="content" source="../../Images/MyA/reference/oai-outstanding-tasks-card.png" alt-text="Screenshot of the View outstanding tasks card in the Viva Insights Outlook add-in.":::
 
-The **Stay connected** tab in the Viva Insights app in Teams and on the web also has a **Suggested tasks** section. If you've pinned people as important, you'll notice their tasks show up first, under **Pinned**.
+The **Productivity** tab in the Viva Insights app in Teams and on the web also has a **Suggested tasks** section. If you've pinned people as important, you'll notice their tasks show up first, under **Pinned**.
 
-:::image type="content" source="../../Images/MyA/reference/suggested-tasks-teams.png" alt-text="Screenshot of the Suggested tasks section of the Viva Insights app's Stay connected tab, which shows all pinned-contacts tasks complete and one other task outstanding.":::
+:::image type="content" source="../../Images/MyA/reference/suggested-tasks-teams.png" alt-text="Screenshot of the Suggested tasks section of the Viva Insights app's Productivity tab, which shows all pinned-contacts tasks complete and one other task outstanding.":::
 
 When you're in Outlook in your browser, select the **My Day** icon **>** **To Do**. To Do shows you a list of tasks you've already added, and those that it's surfaced through email. Check off tasks you've done and add more here. Learn more about tasks in Outlook in the following article, under the **Manage all tasks** section: [Use tasks in Outlook.com](https://support.microsoft.com/en-us/office/use-tasks-in-outlook-com-6e8a991b-ea62-4009-a7f7-62b70a57ec18#bkmk_beta).
 
@@ -75,9 +76,11 @@ The Viva Insights Outlook add-in includes a [Book time to focus](../use/use-insi
 
 :::image type="content" source="../../Images/MyA/reference/oai-focus-card.png" alt-text="Screenshot of the Book time to focus card in the Viva Insights Outlook add-in.":::
 
-You can also book focus time through the [Protect time](../teams/viva-insights-protect-time.md) tab in the Viva Insights app in Teams and on the web.  
+You can also book [focus time](../teams/focus.md) through the [Wellbeing](../teams/wellbeing.md) tab in the Viva Insights app in Teams and on the web.  
 
-:::image type="content" source="../../Images/MyA/reference/book-focus-time-app.png" alt-text="Screenshot of the Book time to focus card in the Viva Insights Outlook add-in.":::
+:::image type="complex" source="../teams/images/wellbeing-book-focus-time2.png" alt-text="Screenshot that shows the Focus theme of the Act with intention section.":::
+   Screenshot of the Act with intention section of the Wellbeing tab. There are three buttons above the section's content cards: "Focus," "Guided meditations," and "Articles"; "Focus" is selected to show the section's focus content. Be There are three sections on this card; the middle section is titled, "Book focus time." Below the card header, there's a table with four rows titled, "Friday, December 9." The first row shows that focus time has been booked from 2:30-4:30 PM. The other three rows provide open time slots with a "Book time" button. The first "Book time" button is highlighted.
+:::image-end:::
 
 ## Start your day with a guided meditation 
 
@@ -85,6 +88,6 @@ In the **Headspace** section of the Briefing email, you were able to launch a gu
 
 **Where you'll find a similar feature:** *Viva Insights app in Teams and on the web*
 
-Discover a curated set of guided meditations through the Viva Insights app in Teams and on the web. Just select the **Play** button on the [Headspace](../teams/viva-insights-headspace.md) card in the **Home** tab. 
+Discover a curated set of guided meditations through the Viva Insights app in Teams and on the web. Go to the **Wellbeing tab > Act with intention** section **> Meditation** category, and select the **Play** button on a [Headspace](../teams/headspace.md) card. 
 
-:::image type="content" source="../teams/images/headspace-card2.png" alt-text="Screenshot of a meditation card in the Viva Insights app, including a Play button.":::
+:::image type="content" source="../teams/images/wellbeing-start-meditation1.png" alt-text="Screenshot that shows the Act with intention, Guided meditations section, which contains four guided meditation cards." lightbox="../teams/images/wellbeing-start-meditation1-expanded.png":::

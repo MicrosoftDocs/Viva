@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 03/20/2018
 title: Meeting queries in Viva Insights
 description: When to use a meeting query and the type of data available for analysis in Viva Insights.  
 author: madehmer
@@ -144,3 +145,4 @@ Each row of data represents a single meeting. You can select which of the follow
 
 * [Metric descriptions](../Use/Metric-definitions.md)
 * [View, download, and export query results](../Use/View-download-and-export-query-results.md)
+

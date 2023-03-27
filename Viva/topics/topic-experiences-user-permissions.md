@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Manage topic permissions in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -67,3 +68,4 @@ To update who has permissions to manage topics:
 [Manage topic visibility in Microsoft Viva Topics](topic-experiences-knowledge-rules.md)
 
 [Change the name of the topic center in Microsoft Viva Topics](topic-experiences-administration.md)
+

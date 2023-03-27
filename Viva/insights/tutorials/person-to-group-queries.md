@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/24/2018
 title: Person-to-group queries in Query designer
 description: Person-to-group queries uncover how an individual invested their time across the rest of the organization and beyond
 author: madehmer
@@ -80,3 +81,4 @@ While setting up a person-to-group query differs from setting up meeting or grou
 * [Understand and interpret query output](/viva/insights/Use/csv-query-output-file?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [View, download, and export query results](../Use/View-download-and-export-query-results.md)
 * [Queries with CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

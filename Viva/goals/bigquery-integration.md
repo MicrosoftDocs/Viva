@@ -1,4 +1,5 @@
 ---
+ms.date: 04/18/2022
 title: "BigQuery Integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -114,3 +115,4 @@ After setup is complete, users in your organization can link the success of thei
     :::image type="content" source="../media/goals/8/bigquery-connection-details.png" alt-text="Screenshot shows where you add a new BigQuery connection to OKRs in Viva goals." lightbox="../media/goals/8/bigquery-connection-details.png":::
   
 5. Select **Next** to finish and save your OKR. You should now see a BigQuery icon next to the OKR. The OKR will sync automatically every hour, but you can also select **refresh**  to refresh it manually.
+

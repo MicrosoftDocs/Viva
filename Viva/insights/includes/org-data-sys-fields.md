@@ -1,5 +1,6 @@
 ---
 
+ms.date: 11/16/2018
 title: System fields table
 description: Tables that are used for mapping the system fields.   
 author: madehmer

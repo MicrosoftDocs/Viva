@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/17/2018
 title: Charts in the advanced insights app
 description: Describes the different chart types and how to use the chart features in the advanced insights app with Microsoft Viva Insights
 author: madehmer
@@ -50,7 +51,7 @@ In most cases, charts appear in pairs. The charts in a pair present related info
 >[!Note]
 >Within a chart pair, you can [switch](#switch-between-chart-types) the left chart to show either a column graph or box plot.
 
-The column graph shows metric data for groups and the related line graph shows trends, namely values of this metric over time for the selected groups. For example, here is the **Meeting hours by duration** pair of charts in [Meetings overview](Explore-metrics-meetings-overview.md):
+The column graph shows metric data for groups and the related line graph shows trends, namely values of this metric over time for the selected groups. For example, here is the **Meeting hours by duration** pair of charts in [Meetings overview](explore-metrics-meetings-overview.md):
 
 ![Meeting hours by duration.](../images/wpa/use/08-meeting-hours-by-duration.png)
 
@@ -244,3 +245,4 @@ The next time you view Explore the stats data in Viva Insights, it shows the cha
 
 > [!Note]
 > The **Max groups** slider moves in increments of 5 (groups). The minimum number of groups that you can show is 10 and the maximum is 100. When you add or remove groups, the scroll bar under the chart adjusts accordingly.
+

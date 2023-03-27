@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/22/2021
 title: Viva Insights and Qualtrics integration
 description: Learn how to integrate Microsoft Viva Insights and Qualtrics Prism Analytics data for more advanced analysis
 author: madehmer
@@ -178,3 +179,4 @@ As the Qualtrics data manager, do the following to import the Viva Insights quer
 5. You can include the metrics as filters at the top of the dashboard and filter the entire page, as shown in the previous graphic in [Example use cases](#example-use-cases). Or configure the widgets on your dashboard to include Viva Insights metrics as breakouts. For more details about using the dashboard and widgets, see [Dashboard Basic Overview (EX)](https://www.qualtrics.com/support/employee-experience/creating-ee-project/dashboards-tab/dashboard-management/dashboard-overview-ee/?parent=p001339) and [Widgets Basic Overview (EX)](https://www.qualtrics.com/support/employee-experience/creating-ee-project/dashboards-tab/widgets-ee/widgets-overview-ee/?parent=p001355).
 
 ![Qualtrics example data.](../images/wpa/use/qualtrics-example.png)
+

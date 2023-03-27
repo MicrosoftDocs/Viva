@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 06/11/2020
 title: Assign roles for Microsoft Viva Insights
 description: How to assign user roles for Microsoft Viva Insights
 author: madehmer
@@ -26,7 +27,7 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 * [Role assignment FAQ](#role-assignment-faq)
 
 >[!Note]
->The Insights admin enables people managers access to [Group insights](../org-team-insights/org-trends.md) through [Manager settings](../use/manager-settings.md).
+>The Insights admin enables people managers access to [Group insights](../org-team-insights/org-insights.md) through [Manager settings](../use/manager-settings.md).
 
 ## Assign Viva Insights roles
 
@@ -99,7 +100,7 @@ Do the following to assign users to an Advanced insights role, including the **A
 
 To check the current role assignments for a person, see [Verify role assignments](#verify-role-assignments). After people are assigned an advanced insights role, they will not receive an email notification from Viva Insights. As their admin, you'll need to notify them of what's available to them based on their role. To learn more about feature access for the different roles, see [Roles in Viva Insights](../use/User-Roles.md).
 
-If you assigned the Microsoft Viva Insights (WpA transition) license to one or more people, they will also not receive an email notification. So you'll need to notify them as well. For details about this license option, see [Premium access for licenses assigned before July 2021](../personal/teams/viva-teams-app-admin-tasks.md#premium-access-for-licenses-assigned-before-july-2021).
+If you assigned the Microsoft Viva Insights (WpA transition) license to one or more people, they will also not receive an email notification. So you'll need to notify them as well. 
 
 ## Assign roles to groups
 
@@ -142,7 +143,7 @@ However, in a larger company where the number of people required for the same ro
 
 **How is the people manager role assigned**
 
-People manager isn't technically a role that can be assigned. Assuming these managers also meet the prerequisites described in [Admin tasks](../org-team-insights/org-trends.md#admin-tasks), the Insights admin can enable them access to their [Group insights](../org-team-insights/org-trends.md#admin-tasks) through [Manager settings](../use/manager-settings.md) within the Advanced insights app.
+People manager isn't technically a role that can be assigned. Assuming these managers also meet the prerequisites described in [Organization insights](../org-team-insights/org-insights.md), the Insights admin can enable them access to their [Group insights](../org-team-insights/org-insights.md) through [Manager settings](../use/manager-settings.md) within the Advanced insights app.
 
 ## Related topics
 
@@ -151,3 +152,4 @@ People manager isn't technically a role that can be assigned. Assuming these man
 * [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
+

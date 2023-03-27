@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Set up Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -23,7 +24,7 @@ You can use the Microsoft 365 admin center to set up and configure [Topics](topi
 
 It is important to plan the best way to set up and configure topics in your environment. Be sure to read [Plan for Microsoft Viva Topics](plan-topic-experiences.md) before you begin the procedures in this article.
 
-You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva/topics) and be either a global administrator, or both SharePoint and Groups administrator to access the Microsoft 365 admin center and set up Topics.
+You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva/topics) and be a global administrator, or SharePoint administrator to access the Microsoft 365 admin center and set up Topics.
 
 > [!IMPORTANT]
 > If you have configured SharePoint to [require managed devices](/sharepoint/control-access-from-unmanaged-devices), you must set up Topics from a managed device.
@@ -152,9 +153,19 @@ To set up Topics
 
     ![Settings applied.](../media/ksetup7.png)    
 
+
+## Access to EWS Exchange
+
+If your organization has controlled access to EWS Exchange, this will impact the Viva Topics product. Add "VivaTopicsApi" as the user agent string in EWSAllowList.
+
+Control access to EWS for your organization:
+
+- [Learn about control access to EWS in exchange](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)
+- [Reference to Set-OrganizationConfig](/powershell/module/exchange/set-organizationconfig)
+
 ## Manage topic experiences
 
-Once you have set up Topics, you can change the settings that you chose during setup in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement). See the following references:
+Once you have set up Topics, you can change the settings that you chose during setup in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement). Manage other areas in topics:
 
 - [Manage topic discovery in Microsoft Viva Topics](topic-experiences-discovery.md)
 - [Manage topic visibility in Microsoft Viva Topics](topic-experiences-knowledge-rules.md)
@@ -173,3 +184,6 @@ You can also [add Viva Topics as an app in Teams](add-topics-app.md).
 [Topic Experiences Overview](topic-experiences-overview.md)
 
 [Learn about topics in Microsoft Viva Topics](/viva/topics/get-started-with-viva-topics)
+
+
+
