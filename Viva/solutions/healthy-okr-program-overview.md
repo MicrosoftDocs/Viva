@@ -24,7 +24,7 @@ description: "Lear how to run a healthy OKR program with Viva Goals."
 
 Microsoft Viva Goals is a goal-setting solution that aligns teams to your organization’s strategic priorities to drive results and create a culture of engaged employees focused on achieving common goals. 
 
-The following articles are designed to help support you as you build a healthy OKR program for your company, which can deliver incredible benefits, including stronger alignment, increased focus, goal transparency, team adaptibility, and strategic growth. 
+The following articles are designed to help support you as you build a healthy OKR program for your company, which can deliver incredible benefits, including stronger alignment, increased focus, goal transparency, team adaptability, and strategic growth. 
 
 ## What are these “Solutions” articles and when are they most helpful?
 
