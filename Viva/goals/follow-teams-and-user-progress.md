@@ -1,9 +1,9 @@
 ---
 title: "Follow team and user progress"
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: <TBD>
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH

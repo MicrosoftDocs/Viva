@@ -2,8 +2,8 @@
 title: Understand Organizations and Teams
 ms.reviewer: 
 ms.author: rasanders
-author: RaSanders-MSFT
-manager: 
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
