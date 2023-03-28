@@ -209,10 +209,10 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
     1. Yes. The office of the privacy officer is involved in the impact assessment for all Microsoft products. To meet GDPR requirements, Microsoft also has designated a European Union Data Protection Officer (DPO) to be an independent advisor for Microsoft's engineering and business groups and to help ensure that all proposed processing of personal data meets EU legal requirements and Microsoft's corporate standards. The role was designed to meet the GDPR criteria set out in Articles 37-39. To learn more, see [Microsoft's data protection officer](/compliance/regulatory/gdpr-data-protection-officer).  
 
 3. **How does Microsoft handle security breaches?**
-    1. As a data processor, Microsoft will ensure that our customers can meet the GDPR's breach notification requirements as data controllers. To learn more, see https://learn.microsoft.com/compliance/regulatory/gdpr-breach-notification.
+    1. As a data processor, Microsoft will ensure that our customers can meet the GDPR's breach notification requirements as data controllers. To learn more, see [GDPR Breach Notification](/compliance/regulatory/ccpa-faq).
 
 4. **Can Viva Goals help me be compliant with the California Customer Privacy Act (CCPA)?**
-    1. Microsoft has implemented GDPR-related DSR capabilities globally. Microsoft has also reviewed our third-party data sharing agreements and taken steps to establish that the necessary contractual terms are in place to ensure that we do not “sell” personal information. To learn more, see [GDPR Breach Notification](/compliance/regulatory/ccpa-faq).
+    1. Microsoft has implemented GDPR-related DSR capabilities globally. Microsoft has also reviewed our third-party data sharing agreements and taken steps to establish that the necessary contractual terms are in place to ensure that we do not “sell” personal information. To learn more, see [California Consumer Privacy Act (CCPA) Frequently Asked Questions](/compliance/regulatory/ccpa-faq).
 
 ## Further Reading
 
