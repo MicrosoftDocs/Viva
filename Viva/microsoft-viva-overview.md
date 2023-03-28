@@ -36,109 +36,109 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 Choose the experiences you want for your employees.
 
 :::row:::
-   :::column:::
+   :::column span="":::
       **Experience**
    :::column-end:::
-   :::column span"2":::
+   :::column span="2":::
       **App**
    :::column-end:::
 :::row-end:::
 :::row:::
-   :::column:::
-      ###Connection
+   :::column span="":::
+      **Connection**
    :::column-end:::
-   :::column:::
+   :::column span="":::
       :::image type="icon" source="media/logos/connections-launch-c-64.svg":::
    :::column-end:::
-   :::column:::
+   :::column span="":::
       :::image type="icon" source="media/logos/engage-launch-c-64.svg":::
    :::column-end:::
 :::row-end:::
 :::row:::
-   :::column:::
+   :::column span="":::
       
    :::column-end:::
-   :::column:::
+   :::column span="":::
       [Viva Connections](#viva-connections)
    :::column-end:::
-   :::column:::
+   :::column span="":::
       [Viva Engage](#viva-engage)
    :::column-end:::   
 :::row-end:::
 :::row:::
-   :::column:::
-      ###Insight
+   :::column span="":::
+      **Insight**
    :::column-end:::
-   :::column::
+   :::column span="":::
       :::image type="icon" source="media/logos/insights-launch-c-64.svg":::
    :::column-end:::
-   :::column::
+   :::column span="":::
       [Viva Insights](#viva-insights)
    :::column-end:::   
 :::row-end:::
 :::row:::
-   :::column:::
-      ###Growth
+   :::column span="":::
+      **Growth**
    :::column-end:::
-   :::column:::
+   :::column span="":::
       :::image type="icon" source="media/logos/topics-launch-c-64.svg":::
    :::column-end:::
-   :::column:::
+   :::column span="":::
       :::image type="icon" source="media/logos/learning-launch-c-64.svg":::
    :::column-end:::
 :::row-end:::
 :::row:::
-   :::column:::
+   :::column span="":::
       
    :::column-end:::
-   :::column:::
+   :::column span="":::
       [Viva Topics](#viva-topics)
    :::column-end:::
-   :::column:::
+   :::column span="":::
       [Viva Learning](#viva-learning)
    :::column-end:::   
 :::row-end:::
 :::row:::
-   :::column:::
-      ###Purpose
+   :::column span="":::
+      **Purpose**
    :::column-end:::
-   :::column:::
+   :::column span="":::
       :::image type="icon" source="media/logos/goals-launch-c-64.svg":::
    :::column-end:::
-   :::column:::
+   :::column span="":::
       
     :::column-end:::
 :::row-end:::
 :::row:::
-   :::column:::
+   :::column span="":::
       
    :::column-end:::
-   :::column:::
+   :::column span="":::
       [Viva Goals](#viva-goals)
    :::column-end:::
-   :::column:::
+   :::column span="":::
       
    :::column-end:::
 :::row-end:::
 :::row:::
-   :::column:::
+   :::column span="":::
       ###Role-based
    :::column-end:::
-   :::column:::
+   :::column span="":::
       :::image type="icon" source="media/logos/viva-sales-logo-1.png":::
    :::column-end:::
-   :::column:::
+   :::column span="":::
       
    :::column-end:::
 :::row-end:::
 :::row:::
-   :::column:::
+   :::column span="":::
      
    :::column-end:::
-   :::column:::
+   :::column span="":::
       [Viva Sales](#viva-sales)
    :::column-end:::
-   :::column:::
+   :::column span="":::
      
    :::column-end:::
 :::row-end:::
