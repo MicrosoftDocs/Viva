@@ -84,7 +84,7 @@ When users are deleted, for example when an individual leaves the company, the s
 
 ## File storage for storyline
 
-All files attached to storyline posts are stored in a hidden library in the author’s OneDrive. There's no entry point to this location in the Microsoft 365 user experience, but you can access it trough a URL resembling the following example: 
+All files attached to storyline posts are stored in a hidden library in the author’s OneDrive. There's no entry point to this location in the Microsoft 365 user experience, but you can access it through a URL resembling the following example: 
 
    `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage/Attachments/Storyline`
 
