@@ -1,5 +1,5 @@
 ---
-title: "Set up the Engage admin center"
+title: "Set up the Viva Engage admin center"
 description: "Use the Microsoft 365 admin center to set up and manage settings for your organization and employees in Viva Engage."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Set up the Engage admin center
+# Set up the Viva Engage admin center
 
 ## Licensing
 
@@ -50,7 +50,7 @@ The configurations include:
 - Pin Engage in Teams  
 - Manage additional settings in Viva Engage (links to the Engage admin center within the Teams app)
 
-![Image of the Microsoft 365 admin center.](/viva/media/engage/admin/m365-ac-ve.jpg)
+[![Image of the Microsoft 365 admin center.](/viva/media/engage/admin/m365-ac-ve.jpg)](/viva/media/engage/admin/m365-ac-ve.jpg#lightbox)
 
 Through this experience, the admin can view the optional and required configurations (in the priority column) for setting up Viva Engage.  
 

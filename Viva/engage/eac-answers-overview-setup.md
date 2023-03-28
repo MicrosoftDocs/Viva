@@ -83,26 +83,26 @@ Only a Microsoft 365 Global admin can change Answers state of enablement:
 
 1. As a Global admin, navigate to the Viva Engage Teams app.  
 2. Select the ellipses button from the top right navigation bar to expose admin options.  
-3. Select **Admin** to navigate to the Engage admin center.
+3. Select **Admin** to navigate to the Viva Engage admin center.
 
-![Image of the admin entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
+[![Image of the admin entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
 4. Select the **Answers** button within the **Feature management** tab to open Answers configuration options.
 
-![Image of the admin entrypoint into Answers feature management in the Engage admin center.](/Viva/media/engage/admin/answers-eac.png)
+[![Image of the admin entrypoint into Answers feature management in the Viva Engage admin center.](/viva/media/engage/admin/answers-eac.png)](/viva/media/engage/admin/answers-eac.png#lightbox)
 
 5. In Answers feature management, you can enable or disable Answers for your organization. Answers will be on by default for all Viva suite and Viva Topics licensed users.  
 
-![Image of the Answers enablement toggle in the Engage admin center.](/Viva/media/engage/admin/enable-answers.png)
+[![Image of the Answers enablement toggle in the Viva Engage admin center.](/viva/media/engage/admin/enable-answers.png)](/viva/media/engage/admin/enable-answers.png#lightbox)
 
 >[!NOTE]
 > If Answers is disabled, the backing group will respect the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization, unless a unique policy is set for Answers.
 
 ## See also
 
-[Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)
+[Answers admin scenarios in Viva](/viva/engage/eac-answers-admin-scenarios)
 
-[Answers in Viva: Frequently asked questions (FAQ)](/Viva/engage/eac-answers-faq)
+[Answers in Viva: Frequently asked questions (FAQ)](/viva/engage/eac-answers-faq)
 
 [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 

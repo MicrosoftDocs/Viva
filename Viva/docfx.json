@@ -46,7 +46,7 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-WorkplaceAnalytics",
       "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
-      "searchScope": "Microsoft Viva",
+      "searchScope": ["Microsoft Viva Insights", "Microsoft Viva"],
       "uhfHeaderId": "MSDocsHeader-MSViva",
       "contributors_to_exclude": [
         "rjagiewich",
@@ -67,8 +67,22 @@
         "goals/*.md": "lucyhitz"
       },
       "searchScope": {
-        "Viva/insights/*.md": ["Microsoft Viva Insights"],
-        "Viva/insights/*.yml": ["Microsoft Viva Insights"]
+        "Viva/insights/**/*.md": ["Microsoft Viva Insights"],
+        "Viva/insights/**/*.yml": ["Microsoft Viva Insights"],
+        "Viva/connections/**/*.md": ["Microsoft Viva"],
+        "Viva/connections/**/*.yml": ["Microsoft Viva"],
+        "Viva/engage/**/*.md": ["Microsoft Viva"],
+        "Viva/engage/**/*.yml": ["Microsoft Viva"],
+        "Viva/goals/**/*.md": ["Microsoft Viva"],
+        "Viva/goals/**/*.yml": ["Microsoft Viva"],
+        "Viva/learning/**/*.md": ["Microsoft Viva"],
+        "Viva/learning/**/*.yml": ["Microsoft Viva"],
+        "Viva/people-in-viva/**/*.md": ["Microsoft Viva"],
+        "Viva/people-in-viva/**/*.yml": ["Microsoft Viva"],
+        "Viva/solutions/**/*.md": ["Microsoft Viva"],
+        "Viva/solutions/**/*.yml": ["Microsoft Viva"],
+        "Viva/topics/**/*.md": ["Microsoft Viva"],
+        "Viva/topics/**/*.yml": ["Microsoft Viva"]
       }
     },
     "template": [],

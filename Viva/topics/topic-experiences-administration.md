@@ -1,5 +1,5 @@
 ---
-ms.date: 11/15/2021
+ms.date: 03/14/2023
 title: Change the name of the topic center in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -23,15 +23,15 @@ You can change the name of your topic center in the [Microsoft 365 admin center]
 ## To access topics management settings:
 
 1. In the Microsoft 365 admin center, click **Settings**, then **Org settings**.
-2. On the **Services** tab, click **Topic experiences**.
+2. On the **Services** tab, select **Viva Topics**.
 
-    ![Connect people to knowledge.](../media/admin-org-knowledge-options-completed.png) 
+    :::image type="content" alt-text="Screenshot of the Services tab with Viva Topics selected." source="../media/org-settings-viva-topics.png" lightbox="../media/org-settings-viva-topics.png":::
 
 3. Select the **Topic center** tab. See the following sections for information about each setting.
 
-    ![knowledge-network-settings.](../media/knowledge-network-settings-topic-center.png) 
+    :::image type="content" alt-text=" Screenshot of the Knowledge network settings that include the following Topic  experience sections: Topic discovery, Topic visibility, Topic permissions, and Topic Center." source="../media/knowledge-network-settings-topic-center.png" lightbox="../media/knowledge-network-settings-topic-center.png":::
 
-##  Update your topic center name
+## Update your topic center name
 
 To change the name of the topic center
 

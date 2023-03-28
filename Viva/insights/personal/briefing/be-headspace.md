@@ -20,8 +20,7 @@ audience: user
 # Start a guided meditation with Headspace
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
-
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 In the Headspace section of the Briefing email, you can launch a guided meditation to start your day grounded and focused.
 
@@ -42,36 +41,7 @@ Before you can use Headspace, you need access to Viva Insights in Microsoft Team
 
 2. To start the meditation, select the **Play** button for **Headspace** to open it.
 
-To learn more about other guided meditation resources in the Viva Insights Teams app, see [Mindfulness content from Headspace](../teams/viva-insights-headspace.md).
-
-<!-- REMOVED PER KARYL ON 30 JULY 2021:
-
-## Start a guided meditation
-
-1. (Optional) In Headspace, browse through a curated set of meditations that are designed to fit different scenarios within the flow of your day. To see your options, open the **Practice mindfulness** page by selecting **More mindfulness exercises**.
-
-2. Under **Practice mindfulness**, select a meditation option in the **Guided meditations** area or a musical option in the **Focus music** area:
-
-   ![Mindfulness option is running](images/mindful-options.png)
-
-## Run Headspace in the background
-
-You can open and run Viva Insights in a new window. This lets you play Headspace meditations and Focus music while continuing your collaboration in Teams.
-
-1. Locate the pinned Insights app on the left navigation pane of Teams.
-
-2. Right-click the Insights icon.
-
-3. Select **Pop out app**.
-
-   ![Pop-out Headspace app](images/to-pop-out-2.png)
-
-   This opens a new window in which the Insights app is running.
-
-4. In this second window, select **More mindfulness exercises** and then start a Headspace meditation or Focus music as described in [Start a guided meditation](#start-a-guided-meditation).
-
-5. Optionally, minimize the Insights window that you just opened. You can continue working in Teams in the original Teams window.
- -->
+To learn more about other guided meditation resources in the Viva Insights Teams app, see [Mindfulness content from Headspace](../teams/headspace.md).
 
 ## Frequently asked questions
 
