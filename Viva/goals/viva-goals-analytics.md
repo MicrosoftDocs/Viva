@@ -36,7 +36,7 @@ The metrics are divided into three sections:
 
 ## Adoption
 
-:::image type="content" source="../media/goals/analytics-images/2-vivagoals-analytics-adoption.png" alt-text="View of the adoption section from Viva Goals analytics":::
+:::image type="content" source="../media/goals/analytics-images/2-vivagoals-analytics-adoption.png" alt-text="View of the adoption section from Viva Goals analytics" lightbox="../media/goals/analytics-images/2-vivagoals-analytics-adoption.png":::
 
 This section contains a bird's eye view of how well the adoption of OKR program is going.  
 
@@ -59,11 +59,11 @@ This section contains a bird's eye view of how well the adoption of OKR program 
 
 In the drilldown view, you see the metrics for subteams. You can select on a team's name to navigate to analytics of the particular team. 
 
-:::image type="content" source="../media/goals/analytics-images/7-vivagoals-adoption-breakdown.png" alt-text="Graph that shows the view of the analytics breakdown in Viva Goals.":::
+:::image type="content" source="../media/goals/analytics-images/3-vivagoals-analytics-adoption-drilldown.png" alt-text="Graph that shows the view of the analytics breakdown in Viva Goals.":::
    
 ## Engagement
 
-:::image type="content" source="../media/goals/analytics-images/4-vivagoals-analytics-engagement.png" alt-text="View of engagement metrics in the analytics view in Viva Goals.":::
+:::image type="content" source="../media/goals/analytics-images/4-vivagoals-analytics-engagement.png" alt-text="View of engagement metrics in the analytics view in Viva Goals" lightbox="../media/goals/analytics-images/4-vivagoals-analytics-engagement.png":::
 
 This section shows user engagement and key activities. 
 
@@ -73,7 +73,7 @@ This section shows user engagement and key activities.
 
 ## OKR Practice
 
-:::image type="content" source="../media/goals/analytics-images/5-vivagoals-analytics-okr-practice.png" alt-text="VIew of the OKR practice panel in Viva Goals analytics.":::
+:::image type="content" source="../media/goals/analytics-images/5-vivagoals-analytics-okr-practice.png" alt-text="View of the OKR practice panel in Viva Goals analytics" lightbox="../media/goals/analytics-images/5-vivagoals-analytics-okr-practice.png":::
 
 This section depicts how well OKRs are set up. 
 
