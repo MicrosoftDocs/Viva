@@ -76,4 +76,4 @@ Answer these questions:
 
 The following image shows the four phases of the Glint program:
 
-:::image type="content" source="images/fours-stages-of-glint.png" alt-text="Image of the four phases of Viva Glint program":::
+:::image type="content" source="../media/glint/fours-stages-of-glint.png" alt-text="Image of the four phases of Viva Glint program":::
