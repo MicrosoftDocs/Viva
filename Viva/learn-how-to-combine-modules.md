@@ -65,7 +65,7 @@ Enhance your training and onboarding process by helping your employees learn mor
 
 ### App 4: Viva Insights
 
-Help new team members understand how to spend time productively and help managers provide better guidance on time management. [Learn more about Viva Insights](insights/introduction) and how it helps protect and organize time in [supporting work/life balance.](solutions/viva-work-life-balance)
+Help new team members understand how to spend time productively and help managers provide better guidance on time management. [Learn more about Viva Insights](viva/insights/introduction) and how it helps protect and organize time in [supporting work/life balance.](viva/viva-work-life-balance)
 
 1. Get Viva Insights.
 2. Make Viva Insights easily discoverable from the Viva Connections Dashboard by adding the Insights app card.
@@ -126,7 +126,7 @@ Empower employees to find the information and contacts that they need to do thei
 ### App 3: Viva Engage
 
 1. Get Viva Engage.
-2. Use Viva Engage storylines to connect people across the company, strengthen professional relationships, and build social capital. [Set up storylines](engage/eac-storyline)
+2. Use Viva Engage storylines to connect people across the company, strengthen professional relationships, and build social capital. [Set up storylines](viva/engage/eac-storyline)
 3. Build communities in Viva Engage where employees can share knowledge, and discuss shared interests and business initiatives. [Join and create a community in Viva Engage](https://support.microsoft.com/en-us/topic/join-and-create-a-community-in-viva-engage-1ee29da1-5250-4c1e-b773-e7a78cfaf5d4)
 4. Connect employees across different working groups and business silos to help them exchange knowledge, find answers, and crowdsource ideas. [Manage Viva Engage community members](https://support.microsoft.com/en-us/topic/manage-viva-engage-community-members-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a)
 
