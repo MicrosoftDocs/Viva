@@ -53,7 +53,7 @@ This **Specific users or groups** option is useful when you wish to add specific
 1. Log in to your Viva Goals account. 
 2. If you've directly landed in the **Create or join organizations** page, jump to step 3. If you land in an organization’s landing page (My OKR page), select the organization selection dropdown from the navigation panel on the left.  
 
-   :::image type="content" source="../media/goals/navigation-sidebar/set-org-create-permissions.png" alt-text="Screenshot shwoing where to select the correct organization in Viva Goals.":::
+   :::image type="content" source="../media/goals/navigation-sidebar/set-org-create-permissions.png" alt-text="Screenshot showing where to select the correct organization in Viva Goals." lightbox="../media/goals/navigation-sidebar/set-org-create-permissions.png":::
 
 3. Select **Create or join organization**.
 

@@ -45,7 +45,7 @@ You can edit the cloned objective to reflect the leftover portion of the goal in
 
 1. Hover over the objective and select **Clone** from the dropdown on the far right. You can also do this from the Objective page: Select **Actions** -> **Clone**. 
 
-    :::image type="content" source="../media/goals/navigation-sidebar/clone.png" alt-text="Screenshot of where to find clone in the dropdown menu.":::
+    :::image type="content" source="../media/goals/navigation-sidebar/clone.png" alt-text="Screenshot of where to find clone in the dropdown menu." lightbox="../media/goals/navigation-sidebar/clone.png":::
 
 2. Choose options from the dialogue box:
 

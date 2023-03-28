@@ -2,9 +2,9 @@
 ms.date: 04/20/2022
 title: "Key performance indicator (KPI) summary"
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager:
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -30,7 +30,7 @@ If your organization has the KPI summary option enabled, it will be found on all
 
 The KPI summary contains all top-level objectives that are set as KPIs. It displays the alignment (if there's any), the status given at last check-in, and the current value. The summary also shows the progress from the start value in small gray text.
 
-:::image type="content" source="../media/goals/navigation-sidebar/kpi-summary-widget.png" alt-text="Screenshot of the KPI Summary widget.":::
+:::image type="content" source="../media/goals/navigation-sidebar/kpi-summary-widget.png" alt-text="Screenshot of the KPI Summary widget." lightbox="../media/goals/navigation-sidebar/kpi-summary-widget.png":::
 
 ## Who can manage KPI summaries? 
 

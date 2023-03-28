@@ -30,7 +30,7 @@ To follow organizations, teams, and users that are important to you, select the 
 
 For example, you can follow East Coast Sales to receive updates from that team. The icon will turn green to indicate you're **Following** it.
 
-:::image type="content" source="../media/goals/navigation-sidebar/follow-a-user (2).png" alt-text="Screenshot of where to select the follow user button in Viva Goals.":::
+:::image type="content" source="../media/goals/navigation-sidebar/follow-a-user (2).png" alt-text="Screenshot of where to select the follow user button in Viva Goals." lightbox="../media/goals/navigation-sidebar/follow-a-user (2).png":::
 
 By default, Viva Goals will have you follow:
 
@@ -59,4 +59,3 @@ To view or unfollow an organizations, team, or user:
 3. Select the **Following**.
 
 4. Select the **Unfollow** button. You can then adjust which organizations, teams, and users you receive get updates about.
-
