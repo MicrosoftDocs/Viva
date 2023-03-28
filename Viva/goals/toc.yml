@@ -47,6 +47,8 @@ items:
       href: custom-url-widget.md
     - name: Roles and Permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
+    - name: Viva Goals security, privacy, and compliance
+      href: vg-privacy-and-security.md  
     - name: Viva Goals language and region support
       href: viva-goals-language-support.md
 - name: MS Teams
