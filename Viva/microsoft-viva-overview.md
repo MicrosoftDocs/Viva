@@ -40,7 +40,7 @@ Choose the experiences you want for your employees.
       **Experience**</br>***
    :::column-end:::
    :::column span="2":::
-      **App**
+      **App**</br >***
    :::column-end:::
 :::row-end:::
 :::row:::
