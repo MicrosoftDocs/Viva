@@ -52,7 +52,7 @@ Jira Server and Jira Data Center enables automatic tracking of OKR and Initiativ
 1. Enter the Account UUID and Access Token copied from Viva Goals along with the Jira service account details and click Connect. Entering Jira service account is required so that the Microsoft Viva Goals for JIRA app can access Jira project details on behalf of Viva Goals. Here are the following details to be added: 
     - **Jira username** = Add an existing Jira username.  
     - **Jira password** = Give the respective password for the account.
-    :::image type="content" source="../media/goals/jira-integration/jira-app-filled-details.png" alt-text="Screenshot of the jira app filled out." lightbox="../media/goals/jira-integration/jira-app-filled-details.png"::: :::image type="content" source="../media/goals/jira-integration/connected.png" alt-text="Screenshot of the Jira app successfully connected." lightbox="../media/goals/jira-integration/connected.png":::
+    :::image type="content" source="../media/goals/jira-integration/jira-app-filled-details.png" alt-text="Screenshot of the Jira app filled out." lightbox="../media/goals/jira-integration/jira-app-filled-details.png"::: :::image type="content" source="../media/goals/jira-integration/connected.png" alt-text="Screenshot of the Jira app successfully connected." lightbox="../media/goals/jira-integration/connected.png":::
 
 > [!IMPORTANT]
 > Please note Jira service account user should have access to the Jira projects which you want to connect with Viva Goals so that the Microsoft Viva Goals for JIRA app has access to the Jira Server or Data Center project details.
