@@ -37,7 +37,7 @@ Choose the experiences you want for your employees.
 
 :::row:::
    :::column span="":::
-      **Experience**</br>***
+         **Experience**</br>***
    :::column-end:::
    :::column span="2":::
       **App**</br >***
@@ -45,7 +45,7 @@ Choose the experiences you want for your employees.
 :::row-end:::
 :::row:::
    :::column span="":::
-      **Connection**
+         **Connection**
    :::column-end:::
    :::column span="":::
       :::image type="icon" source="media/logos/connections-launch-c-64.svg":::</br>[Viva Connections](#viva-connections)
@@ -56,7 +56,7 @@ Choose the experiences you want for your employees.
 :::row-end:::
 :::row:::
    :::column span="":::
-      **Insight**
+         **Insight**
    :::column-end:::
    :::column span="":::
       :::image type="icon" source="media/logos/insights-launch-c-64.svg":::</br>[Viva Insights](#viva-insights)
@@ -67,7 +67,7 @@ Choose the experiences you want for your employees.
 :::row-end:::
 :::row:::
    :::column span="":::
-      **Growth**
+         **Growth**
    :::column-end:::
    :::column span="":::
       :::image type="icon" source="media/logos/topics-launch-c-64.svg":::</br>[Viva Topics](#viva-topics)
@@ -78,7 +78,7 @@ Choose the experiences you want for your employees.
 :::row-end:::
 :::row:::
    :::column span="":::
-      **Purpose**
+         **Purpose**
    :::column-end:::
    :::column span="":::
       :::image type="icon" source="media/logos/goals-launch-c-64.svg":::</br>[Viva Goals](#viva-goals)
@@ -89,7 +89,7 @@ Choose the experiences you want for your employees.
 :::row-end:::
 :::row:::
    :::column span="":::
-      **Role-based**
+         **Role-based**
    :::column-end:::
    :::column span="":::
       :::image type="icon" source="media/logos/viva-sales-logo-1.png":::</br>[Viva Sales](#viva-sales)
