@@ -73,7 +73,18 @@ Choose the experiences you want for your employees.
       :::image type="icon" source="media/logos/insights-launch-c-64.svg":::
    :::column-end:::
    :::column span="":::
+      
+   :::column-end:::   
+:::row-end:::
+:::row:::
+   :::column span="":::
+   
+   :::column-end:::
+   :::column span="":::
       [Viva Insights](#viva-insights)
+   :::column-end:::
+   :::column span="":::
+   
    :::column-end:::   
 :::row-end:::
 :::row:::
@@ -122,7 +133,7 @@ Choose the experiences you want for your employees.
 :::row-end:::
 :::row:::
    :::column span="":::
-      ###Role-based
+      **Role-based**
    :::column-end:::
    :::column span="":::
       :::image type="icon" source="media/logos/viva-sales-logo-1.png":::
