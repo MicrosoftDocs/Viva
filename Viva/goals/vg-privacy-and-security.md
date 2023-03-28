@@ -32,7 +32,7 @@ The Viva Goals service is governed by the [Microsoft Product Terms](https://ww
 
 The Microsoft Product Terms outline a shared responsibility model between Microsoft and its customers. Microsoft works to ensure that we are compliant with industry and international standards, and customers are responsible for ensuring their data within the [Microsoft Cloud](https://www.microsoft.com/microsoft-cloud#What-is-the-Microsoft-Cloud) is protected in a manner that is compliant with the standards and regulations imposed on the customer. Microsoft is responsible for maintaining the implementation and test information associated with Microsoft Managed Controls. Customers are responsible for maintaining the implementation and test information associated with Customer Managed Controls. The Microsoft Product Terms binds us and our joint responsibilities. 
 
-:::image type="content" source="../media/goals/security-privacy/prod_preamble_online_service_terms_dpa.png" alt-text="Infographic showing Microsoft's online service terms and data protection agreement.":::
+:::image type="content" source="../media/goals/security-privacy/prod-preamble-online-service-terms-dpa.png" alt-text="Infographic showing Microsoft's online service terms and data protection agreement." lightbox="../media/goals/security-privacy/prod-preamble-online-service-terms-dpa.png":::
 
 For information about policies, tools, and best practices for all of Office 365, see [Overview of security and compliance in Office 365](https://support.office.com/article/dcb83b2c-ac66-4ced-925d-50eb9698a0b2). Viva Goals documentation can be found at [Intro to Viva Goals](intro-to-ms-viva-goals.md)
 
@@ -40,7 +40,7 @@ For information about policies, tools, and best practices for all of Office 365,
 
 Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. Because Viva Goals is a part of Microsoft Viva, it integrates into the employee experience, empowering teams to be their best from anywhere. Viva Goals supports integration with industry-leading tools and platforms you use every day, so you can automatically update OKRs when your work gets done and foster ongoing feedback on your goals.
 
-:::image type="content" source="../media/goals/security-privacy/prod_introduction_viva.png" alt-text="Infographic of Viva Goals in the hierarchy of Viva.":::
+:::image type="content" source="../media/goals/security-privacy/prod-introduction-viva.png" alt-text="Infographic of Viva Goals in the hierarchy of Viva." lightbox="../media/goals/security-privacy/prod-introduction-viva.png":::
 
 ## Viva Goals Security and Compliance 
 
@@ -54,7 +54,7 @@ Viva Goals ensures high availability of dependent services through a fault-toler
 
 Viva Goals is constantly modernizing the technical architecture to innovate and meet the growing needs of customers. However, we also strive to ensure that none of these changes impact new or existing customers. Changes will not require our customers to upgrade software/hardware. 
 
-:::image type="content" source="../media/goals/security-privacy/prod_architecture.png" alt-text="Infographic showing how data moves from the client to different data bases.":::
+:::image type="content" source="../media/goals/security-privacy/prod-architecture.png" alt-text="Infographic showing how data moves from the client to different data bases." lightbox="../media/goals/security-privacy/prod-architecture.png":::
 
 Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTPS requests go through Azure Front Door, which acts as the single point of entry for all web requests to the Viva Goals application. Azure Front Door is used for its Web Application Firewall (WAF) as well as Content Delivery Network (CDN) capabilities for Viva Goals. The CDN is used to deliver static assets such as images, icons, JavaScript files, style sheets, etc. The requests received by Azure Front Door are routed to the API Management service and a load balancer. This service acts as the proxy between Azure Front Door and the Web Application layer, which resides within a private virtual network. Viva Goals also uses session-based rate limiting configured on the API management service to protect the service. The secrets required during the application lifecycle are stored in our service’s Azure Key Vault and are retrieved at runtime. Viva Goal’s primary data store is Azure PostgreSQL, but other compliant Azure data stores are also leveraged where necessary (see table below): 
 
