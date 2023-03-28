@@ -33,6 +33,8 @@ items:
       href: configure-okr-create-permissions.md
     - name: Configure your OKR edit permissions in Viva Goals
       href: edit-permissions.md
+    - name: Renaming Initiatives
+      href: renaming-initiatives.md
     - name: Import OKRs and Initiatives/Projects with Viva Goals
       href: import-okrs-projects.md
     - name: Manage OKR Time Periods
@@ -45,6 +47,8 @@ items:
       href: custom-url-widget.md
     - name: Roles and Permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
+    - name: Viva Goals security, privacy, and compliance
+      href: vg-privacy-and-security.md  
     - name: Viva Goals language and region support
       href: viva-goals-language-support.md
 - name: MS Teams
@@ -92,8 +96,10 @@ items:
           href: gsheets-integration.md
         - name: Hubspot Integration
           href: hubspot-integration.md
-        - name: Jira Integration
+        - name: Jira Cloud Integration
           href: jira-integration.md
+        - name: Jira Server and Data Center Integration
+          href: jira-on-prem-integration.md
         - name: Looker Integration
           href: looker-integration.md
         - name: Microsoft Planner Integration
@@ -133,7 +139,9 @@ items:
         - name: Tableau Integration
           href: tableau-integration.md
         - name: Trello Integration
-          href: trello-integration.md  
+          href: trello-integration.md 
+        - name: Zapier Integration
+          href: zapier-integration.md 
         - name: Zendesk Integration
           href: zendesk-integration.md
        
