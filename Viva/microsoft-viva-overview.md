@@ -34,8 +34,9 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 ## Microsoft Viva apps
 
 Choose the experiences you want for your employees.
+[Option A]
 
-###Experience
+### Experience
 :::row:::
    :::column span="":::
          **Connection**
@@ -92,8 +93,10 @@ Choose the experiences you want for your employees.
    :::column-end:::
 :::row-end:::
 
-###Experience
-####Connection
+[Option B]
+
+### Experience
+#### Connection
    :::row:::
    :::column span="":::
       :::image type="icon" source="media/logos/connections-launch-c-64.svg":::</br>[Viva Connections](#viva-connections)
@@ -102,13 +105,13 @@ Choose the experiences you want for your employees.
       :::image type="icon" source="media/logos/engage-launch-c-64.svg":::</br>[Viva Engage](#viva-engage)
    :::column-end:::
 :::row-end:::
-####Insight
+#### Insight
 :::row:::
    :::column span="":::
       :::image type="icon" source="media/logos/insights-launch-c-64.svg":::</br>[Viva Insights](#viva-insights)
    :::column-end:::
 :::row-end:::
-####Growth
+#### Growth
 :::row:::
    :::column span="":::
       :::image type="icon" source="media/logos/topics-launch-c-64.svg":::</br>[Viva Topics](#viva-topics)
@@ -117,13 +120,13 @@ Choose the experiences you want for your employees.
       :::image type="icon" source="media/logos/learning-launch-c-64.svg":::</br>[Viva Learning](#viva-learning)
    :::column-end:::
 :::row-end:::
-####Purpose
+#### Purpose
 :::row:::
    :::column span="":::
       :::image type="icon" source="media/logos/goals-launch-c-64.svg":::</br>[Viva Goals](#viva-goals)
    :::column-end:::
 :::row-end:::
-####Role-based
+#### Role-based
 :::row:::
    :::column span="":::
       :::image type="icon" source="media/logos/viva-sales-logo-1.png":::</br>[Viva Sales](#viva-sales)
