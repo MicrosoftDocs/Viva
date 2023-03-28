@@ -1,5 +1,5 @@
 ---
-title: "Manage data in the Engage admin center"
+title: "Manage data in the Viva Engage admin center"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,10 +20,10 @@ search.appverid:
 - MET150
 ---
 
-# Manage data in the Engage admin center
+# Manage data in the Viva Engage admin center
 
 ## Manage Data
-As an Office 365 (Global) admin or Engage admin, you are encouraged to use Yammer administrative tools to protect your Viva Engage data and comply with evolving legal and regulatory standards, including GDPR. An Engage admin can navigate to the **Governance and compliance** tab within the [Engage admin center](/Viva/engage/eac-as-access-eac) and select **Data**.
+As an Office 365 (Global) admin or Engage admin, you are encouraged to use Yammer administrative tools to protect your Viva Engage data and comply with evolving legal and regulatory standards, including GDPR. An Engage admin can navigate to the **Governance and compliance** tab within the [Viva Engage admin center](/Viva/engage/eac-as-access-eac) and select **Data**.
 
 [![Image of the Data tab for administrative management in Viva Engage.](/viva/media/engage/admin/manage-data-eac.png)
 ](/viva/media/engage/admin/manage-data-eac.png#lightbox)
@@ -47,8 +47,8 @@ They are then routed to the Yammer admin center to perform the following actions
 
 ## See also
 
-[Access the Engage admin center](/Viva/engage/eac-as-access-eac)
+[Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
 
 [Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions)
 
-[Set up the Engage admin center](/Viva/engage/eac-get-started)
+[Set up the Viva Engage admin center](/Viva/engage/eac-get-started)
