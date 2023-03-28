@@ -48,43 +48,21 @@ Choose the experiences you want for your employees.
       **Connection**
    :::column-end:::
    :::column span="":::
-      :::image type="icon" source="media/logos/connections-launch-c-64.svg":::
-   :::column-end:::
+      :::image type="icon" source="media/logos/connections-launch-c-64.svg":::</br>[Viva Connections](#viva-connections)
+      :::column-end:::
    :::column span="":::
-      :::image type="icon" source="media/logos/engage-launch-c-64.svg":::
+      :::image type="icon" source="media/logos/engage-launch-c-64.svg":::</br>[Viva Engage](#viva-engage)
    :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      
-   :::column-end:::
-   :::column span="":::
-      [Viva Connections](#viva-connections)
-   :::column-end:::
-   :::column span="":::
-      [Viva Engage](#viva-engage)
-   :::column-end:::   
 :::row-end:::
 :::row:::
    :::column span="":::
       **Insight**
    :::column-end:::
    :::column span="":::
-      :::image type="icon" source="media/logos/insights-launch-c-64.svg":::
+      :::image type="icon" source="media/logos/insights-launch-c-64.svg":::</br>[Viva Insights](#viva-insights)
    :::column-end:::
    :::column span="":::
       
-   :::column-end:::   
-:::row-end:::
-:::row:::
-   :::column span="":::
-   
-   :::column-end:::
-   :::column span="":::
-      [Viva Insights](#viva-insights)
-   :::column-end:::
-   :::column span="":::
-   
    :::column-end:::   
 :::row-end:::
 :::row:::
@@ -92,44 +70,22 @@ Choose the experiences you want for your employees.
       **Growth**
    :::column-end:::
    :::column span="":::
-      :::image type="icon" source="media/logos/topics-launch-c-64.svg":::
+      :::image type="icon" source="media/logos/topics-launch-c-64.svg":::</br>[Viva Topics](#viva-topics)
    :::column-end:::
    :::column span="":::
-      :::image type="icon" source="media/logos/learning-launch-c-64.svg":::
+      :::image type="icon" source="media/logos/learning-launch-c-64.svg":::</br>[Viva Learning](#viva-learning)
    :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      
-   :::column-end:::
-   :::column span="":::
-      [Viva Topics](#viva-topics)
-   :::column-end:::
-   :::column span="":::
-      [Viva Learning](#viva-learning)
-   :::column-end:::   
 :::row-end:::
 :::row:::
    :::column span="":::
       **Purpose**
    :::column-end:::
    :::column span="":::
-      :::image type="icon" source="media/logos/goals-launch-c-64.svg":::
+      :::image type="icon" source="media/logos/goals-launch-c-64.svg":::</br>[Viva Goals](#viva-goals)
    :::column-end:::
    :::column span="":::
       
     :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      
-   :::column-end:::
-   :::column span="":::
-      [Viva Goals](#viva-goals)
-   :::column-end:::
-   :::column span="":::
-      
-   :::column-end:::
 :::row-end:::
 :::row:::
    :::column span="":::
@@ -140,17 +96,6 @@ Choose the experiences you want for your employees.
    :::column-end:::
    :::column span="":::
       
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-     
-   :::column-end:::
-   :::column span="":::
-      [Viva Sales](#viva-sales)
-   :::column-end:::
-   :::column span="":::
-     
    :::column-end:::
 :::row-end:::
 
