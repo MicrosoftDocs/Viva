@@ -136,7 +136,7 @@ Choose the experiences you want for your employees.
       **Role-based**
    :::column-end:::
    :::column span="":::
-      :::image type="icon" source="media/logos/viva-sales-logo-1.png":::
+      :::image type="icon" source="media/logos/viva-sales-logo-1.png":::</br>[Viva Sales](#viva-sales)
    :::column-end:::
    :::column span="":::
       
