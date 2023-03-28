@@ -133,7 +133,9 @@ items:
         - name: Tableau Integration
           href: tableau-integration.md
         - name: Trello Integration
-          href: trello-integration.md  
+          href: trello-integration.md 
+        - name: Zapier Integration
+          href: zapier-integration.md 
         - name: Zendesk Integration
           href: zendesk-integration.md
        
