@@ -1,6 +1,6 @@
 ---
 ms.date: 04/17/2022
-title: "Jira Integration"
+title: "Jira Cloud Integration"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -22,6 +22,9 @@ description: "Learn how to integrate your OKRs in Viva Goals with Jira Views."
 
 # Jira integration
 
+> [!NOTE]
+> Tenant administrator must enable Jira Server integration from [Viva Goals tenant settings](vg-integrations-administration-overview.md) before it is visible on Viva Goals integration section on your Viva Goals organization.
+
 When you integrate Jira with Viva Goals, all updates on linked Jira user stories or epics are automatically tracked as progress on your objectives and key results (OKRs) in Viva Goals. This powerful functionality ensures that your OKR process isn't waiting for manual check-ins, as progress is updated in real time in Viva Goals.
 
 Here are two scenarios where teams see the benefit of Viva Goals integration with Jira:
@@ -30,7 +33,7 @@ Here are two scenarios where teams see the benefit of Viva Goals integration wit
 
 - An engineering team resolves to fix 20 bugs in a quarter. They link their objective to an epic under which all bugs are filed, and they set the target of their key performance indicator (KPI) success metric to 20. Viva Goals records that objective has hit its goal when 20 bugs are closed.
 
-## How to enable Jira integration
+## How to enable Jira cloud integration
 
 Admins follow these steps to enable integration:
 
