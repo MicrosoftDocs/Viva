@@ -2,9 +2,9 @@
 ms.date: 07/13/2022
 title: Restrict organization creation permissions
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -53,7 +53,7 @@ This **Specific users or groups** option is useful when you wish to add specific
 1. Log in to your Viva Goals account. 
 2. If you've directly landed in the **Create or join organizations** page, jump to step 3. If you land in an organization’s landing page (My OKR page), select the organization selection dropdown from the navigation panel on the left.  
 
-    :::image type="content" source="../media/goals/organization-picker-dropdown.png" alt-text="Screenshot that shows the select organization picker dropdown." lightbox="../media/goals/organization-picker-dropdown.png"::: 
+   :::image type="content" source="../media/goals/navigation-sidebar/set-org-create-permissions.png" alt-text="Screenshot showing where to select the correct organization in Viva Goals." lightbox="../media/goals/navigation-sidebar/set-org-create-permissions.png":::
 
 3. Select **Create or join organization**.
 

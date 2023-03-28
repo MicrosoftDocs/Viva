@@ -3,8 +3,8 @@ ms.date: 06/14/2022
 title: Understand Organizations and Teams
 ms.reviewer: 
 ms.author: rasanders
-author: RaSanders-MSFT
-manager: 
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -38,7 +38,7 @@ Creating a single organization for an enterprise is the recommended best approac
 
 Let us take the example of the enterprise named Relecloud. This enterprise will have only one organization called Relecloud in Viva Goals.  
 
-:::image type="content" source="../media/goals/org-okrs-tab.png" alt-text="Example showing a single organization's OKRs." lightbox="../media/goals/org-okrs-tab.png":::
+:::image type="content" source="../media/goals/navigation-sidebar/one-org-one-ent.png" alt-text="Screnshot of the Relecloud organization in Viva Goals." lightbox="../media/goals/navigation-sidebar/one-org-one-ent.png":::
 
 You can have as many teams and subteams as you wish under this org. That is, you can have teams such as Product & Engineering and have subteams such as R&D (research and development), QA (quality assurance), UX (user experience), Biz Ops, etc. 
 
