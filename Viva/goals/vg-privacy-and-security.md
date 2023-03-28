@@ -56,7 +56,7 @@ Viva Goals is constantly modernizing the technical architecture to innovate and 
 
 :::image type="content" source="../media/goals/security-privacy/prod_architecture.png" alt-text="Infographic showing how data moves from the client to different data bases.":::
 
-Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTPS requests go through Azure Front Door, which acts as the single point of entry for all web requests to the Viva Goals application. Azure Front Door is used for its Web Application Firewall (WAF ) as well as Content Delivery Network (CDN) capabilities for Viva Goals. The CDN is used to deliver static assets such as images, icons, JavaScript files, style sheets, etc. The requests received by Azure Front Door are routed to the API Management service and a load balancer. This service acts as the proxy between Azure Front Door and the Web Application layer, which resides within a private virtual network. Viva Goals also uses session-based rate limiting configured on the API management service to protect the service. The secrets required during the application lifecycle are stored in our service’s Azure Key Vault and are retrieved at runtime. Viva Goal’s primary data store is Azure PostgreSQL, but other compliant Azure data stores are also leveraged where necessary (see table below): 
+Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTPS requests go through Azure Front Door, which acts as the single point of entry for all web requests to the Viva Goals application. Azure Front Door is used for its Web Application Firewall (WAF) as well as Content Delivery Network (CDN) capabilities for Viva Goals. The CDN is used to deliver static assets such as images, icons, JavaScript files, style sheets, etc. The requests received by Azure Front Door are routed to the API Management service and a load balancer. This service acts as the proxy between Azure Front Door and the Web Application layer, which resides within a private virtual network. Viva Goals also uses session-based rate limiting configured on the API management service to protect the service. The secrets required during the application lifecycle are stored in our service’s Azure Key Vault and are retrieved at runtime. Viva Goal’s primary data store is Azure PostgreSQL, but other compliant Azure data stores are also leveraged where necessary (see table below): 
 
 
 |Storage Service   |Usage  |
@@ -176,7 +176,7 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
     1. Microsoft personnel have no standing access to customer data. Access to such data is safeguarded by controls including approval workflows only when required to support the customer. IT admin can reach out to Microsoft support through Admin centers to raise queries for their personal data. Please refer to “how to contact us” section in Privacy statement [here](https://privacy.microsoft.com/privacystatement#mainnoticetoendusersmodule). 
 
 16. **How long will personal data be retained before being erased?**
-    1. When a tenant subscription to Viva Goals is cancelled, the personal data along with other data is retained for a minimum of 90 days and purged within180 days from the date of cancellation. 
+    1. When a tenant subscription to Viva Goals is canceled, the personal data along with other data is retained for a minimum of 90 days and purged within180 days from the date of cancellation. 
 
 17. **Does Viva Goals use web cookies? If so, how long is the data stored?**
     1. Yes. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
@@ -202,7 +202,7 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
 
 #### Viva Goals GDPR Requests
 
-1. **Does Microsoft make commitments to its customers with regards to the General Data Protection Regulation (GDPR)?**
+1. **Does Microsoft make commitments to its customers with regard to the General Data Protection Regulation (GDPR)?**
     1. Yes. The GDPR requires controllers (such as organizations using Microsoft's enterprise online services) only use processors (such as Microsoft) that provide sufficient guarantees to meet key requirements of the GDPR. Microsoft has taken the proactive step of providing these commitments to all Volume Licensing customers as part of their agreements. <br></br> Microsoft provides tools and documentation to support your GDPR accountability. This includes support for Data Subject Rights (DSRs), performing your own Data Protection Impact Assessments, and working together to resolve personal data breaches. <br></br> Viva Goals supports the GDPR-compliancy data deletion/retention and DSR practices (subjects’ right to access, delete, edit, export, restrict, or object to processing of the Personal Data of that Data Subject). To learn more about GDPR compliance at Microsoft, see [General Data Protection Regulation Summary](/compliance/regulatory/gdpr). 
 
 2. **Does Microsoft have a Chief Privacy Officer?**
