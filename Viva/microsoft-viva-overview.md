@@ -37,10 +37,10 @@ Choose the experiences you want for your employees.
 
 :::row:::
    :::column span="":::
-         **Experience**</br>    ***
+         **Experience**</br>    __________
    :::column-end:::
    :::column span="2":::
-      **App**</br >***
+      **App**</br >___
    :::column-end:::
 :::row-end:::
 :::row:::
