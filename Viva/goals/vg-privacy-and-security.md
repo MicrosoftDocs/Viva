@@ -139,46 +139,43 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
 3. **Who has access to the data?**
     1. Only employees with a legitimate business need can access customer data, and all access is on an approval‐only basis. All access is logged and regularly audited. 
 
-4. **How do you ensure that sub-processors meet data handling standards?**
-    1. See the [Subprocessors and Data Privacy Whitepaper](https://go.microsoft.com/fwlink/p/?LinkID=2162834&clcid=0x409&culture=en-us&country=us) for how Microsoft handles your data. 
-
-5. **Do you have a Data Protection Officer?**
+4. **Do you have a Data Protection Officer?**
     1. Yes. DPO can be reached via https://www.microsoft.com/concern/privacy.  
 
-6. **Can we perform an on‐site visit or audit of your facilities?**
+5. **Can we perform an on‐site visit or audit of your facilities?**
     1. Viva Goals doesn't permit customers to perform on‐site audits as they pose a risk to the security of the service. We will answer any security questions openly and transparently. 
 
-7. **Do you conduct third‐party penetration testing?**
+6. **Do you conduct third‐party penetration testing?**
     1. Penetration tests of the Viva Goals infrastructure are conducted yearly as part of Office 365 practices.
 
-8. **Do you comply with the data protection act in my country?**
+7. **Do you comply with the data protection act in my country?**
     1. As the data controller, it is your responsibility to ensure you comply with the data protection regulation that applies to you. However, Viva Goals has controls in place to help you meet your regulatory obligations. You must independently assess your regulatory obligations and ensure your use and configuration of Viva Goals meets them. 
 
-9. **How is data separated from other tenants?**
+8. **How is data separated from other tenants?**
     1. Viva Goals implements a multi-tenant model. As such, customers' data is logically separated with strict controls to ensure separation of tenant data. The web application servers of Viva Goals are physically and logically separated from servers that store customer data. 
 
-10. **Does Viva Goals sell our data?**
+9. **Does Viva Goals sell our data?**
     1. No. Viva Goals does not mine or sell any customer data. All data belongs to the customer. 
 
-11. **Can I export all my data?**
+10. **Can I export all my data?**
     1. In Viva Goals, Organization Admins can designate Admins, Team Admins, or a set of specific users who are allowed to export OKR related data, along with their metadata.
 
-12. **What are Viva Goals’ business continuity features / data recovery?**
+11. **What are Viva Goals’ business continuity features / data recovery?**
     1. Your data is backed up multiple times a day, stored in Azure storage, and protected with strong encryption at rest. Additionally, data is continually replicated in Azure regions separate to the primary region to withstand region outages. Viva Goals runs periodic disaster recovery drills to test recoverability of data and dependent services upon failure. 
 
-13. **How is data managed through Viva Goals’ integrations?**
+12. **How is data managed through Viva Goals’ integrations?**
     1. There is over forty-five different 1P and 3P integrations, most of which focus on pulling data from external services into Viva Goals. Data integrations (that automatically update OKRs when your work gets done) pull data from external systems into Viva Goals (one-way sync). Integration such as Slack/Teams use a bi-directional sync and enable Viva Goals to be in the flow of work of the user (two-way sync). <br></br> The Integration authentication mechanism is oAuth2-based when available; otherwise, a user’s API token or username/password is utilized to connect to other services. Credentials provided, such as username/password or OAuth tokens, are encrypted and stored in the database. The keys to encrypt are unique to an org and are in turn encrypted and stored in the database using Key Encryption Key (KEK) that resides in Azure managed HSM Key vault. 
 
-14. **What kind of personal data do you process?**
+13. **What kind of personal data do you process?**
     1. Viva Goals abides by the Microsoft Trust policies and procedures to minimize the use of personal data for any processing activity. Viva Goals only consumes personal data from Azure Active Directory. Additionally, customer content related to 3P integrations will be captured and processed (all such data is encrypted and stored in our database). The following are examples of personal information required by Viva Goals for application-specific purposes: Name, Addresses, Job Title, Department, City Country, User Type, Preferred Language, Profile Photo, Manager. In addition to this, some third-party integrations may push fields (e.g., Employee cost center, Department/Team/Organization) with the consent of customers. 
 
-15. **Who has access to personal data?**
+14. **Who has access to personal data?**
     1. Microsoft personnel have no standing access to customer data. Access to such data is safeguarded by controls including approval workflows only when required to support the customer. IT admin can reach out to Microsoft support through Admin centers to raise queries for their personal data. Please refer to “how to contact us” section in Privacy statement [here](https://privacy.microsoft.com/privacystatement#mainnoticetoendusersmodule). 
 
-16. **How long will personal data be retained before being erased?**
+15. **How long will personal data be retained before being erased?**
     1. When a tenant subscription to Viva Goals is canceled, the personal data along with other data is retained for a minimum of 90 days and purged within180 days from the date of cancellation. 
 
-17. **Does Viva Goals use web cookies? If so, how long is the data stored?**
+16. **Does Viva Goals use web cookies? If so, how long is the data stored?**
     1. Yes. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
 
 #### Viva Goals Data Residency 
