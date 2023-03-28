@@ -65,7 +65,7 @@ Enhance your training and onboarding process by helping your employees learn mor
 
 ### App 4: Viva Insights
 
-Help new team members understand how to spend time productively and help managers provide better guidance on time management. [Learn more about Viva Insights](insights/introduction) and how it helps protect and organize time in [supporting work/life balance.](solutions/viva-work-life-balance) 
+Help new team members understand how to spend time productively and help managers provide better guidance on time management. [Learn more about Viva Insights](insights/introduction) and how it helps protect and organize time in [supporting work/life balance.](solutions/viva-work-life-balance)
 
 1. Get Viva Insights.
 2. Make Viva Insights easily discoverable from the Viva Connections Dashboard by adding the Insights app card.
