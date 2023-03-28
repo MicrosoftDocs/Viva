@@ -54,9 +54,9 @@ Jira Server and Jira Data Center enables automatic tracking of OKR and Initiativ
     - **Jira password** = Give the respective password for the account.
     :::image type="content" source="../media/goals/jira-integration/jira-app-filled-details.png" alt-text="Screenshot of the Jira app filled out." lightbox="../media/goals/jira-integration/jira-app-filled-details.png"::: :::image type="content" source="../media/goals/jira-integration/connected.png" alt-text="Screenshot of the Jira app successfully connected." lightbox="../media/goals/jira-integration/connected.png":::
 
-> [!IMPORTANT]
-> Please note Jira service account user should have access to the Jira projects which you want to connect with Viva Goals so that the Microsoft Viva Goals for JIRA app has access to the Jira Server or Data Center project details.
->:::image type="content" source="../media/goals/jira-integration/verfied.png" alt-text="Screenshot of a verified Jira to Viva Goals integration." lightbox="../media/goals/jira-integration/verfied.png"::: 
+   > [!IMPORTANT]
+   > Please note Jira service account user should have access to the Jira projects which you want to connect with Viva Goals so that the Microsoft Viva Goals for JIRA app has access to the Jira Server or Data Center project details.
+   >:::image type="content" source="../media/goals/jira-integration/verfied.png" alt-text="Screenshot of a verified Jira to Viva Goals integration." lightbox="../media/goals/jira-integration/verfied.png"::: 
 
 ## Current limitations of Jira Server and Data Center integration
 
