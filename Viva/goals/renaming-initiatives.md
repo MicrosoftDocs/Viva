@@ -26,8 +26,8 @@ Organization administrators in Viva goals can choose to customize the term “in
 
 To customize the term:  
 
-1. Visit the **admin** tab inside Viva Goals 
-1. Select the **OKR Model Configuration** tab
+1. Visit the **admin** tab inside Viva Goals.
+1. Select the **OKR Model Configuration** tab.
     :::image type="content" source="../media/goals/initiative-rename/okr-model-config.png" alt-text="Screenshot of the OKR model configuration tab." lightbox="../media/goals/initiative-rename/okr-model-config.png":::
 1. In the initiatives section, choose the new term from the dropdown menu and hit save.
     :::image type="content" source="../media/goals/initiative-rename/rename-settings.png" alt-text="Screenshot of renaming an initiative." lightbox="../media/goals/initiative-rename/rename-settings.png":::
