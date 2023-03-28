@@ -35,9 +35,9 @@ Jira Server and Jira Data Center enables automatic tracking of OKR and Initiativ
     1. **Connection name:** Give your connection name.  
     1. **Server:** Add your Jira Server URL.  
     1. **How is this Jira instance hosted?:** select 'Jira Server' option.
-    :::image type="content" source="../media/goals/jira-integration/jira-server-with-details.png" alt-text="Screnshot of how to fill in the settings for a Jira server integration" lightbox="../media/goals/jira-integration/jira-server-with-details.png":::
+    :::image type="content" source="../media/goals/jira-integration/jira-server-with-details.png" alt-text="Screenshot of how to fill in the settings for a Jira server integration." lightbox="../media/goals/jira-integration/jira-server-with-details.png":::
     1. Save the connection by selecting **Next**
-    :::image type="content" source="../media/goals/jira-integration/connection-added.png" alt-text="Screenshot of a successfully connected Jira integration" lightbox="../media/goals/jira-integration/connection-added.png":::
+    :::image type="content" source="../media/goals/jira-integration/connection-added.png" alt-text="Screenshot of a successfully connected Jira integration." lightbox="../media/goals/jira-integration/connection-added.png":::
     1. Open the connection by clicking the **Edit** button.
     :::image type="content" source="../media/goals/jira-integration/edit-connection.png" alt-text="Screenshot of how to edit a Jira integration once created." lightbox="../media/goals/jira-integration/edit-connection.png":::
     1. You will need to use the **Account UUID** and **Access token** in the Jira configuration after you install the **Microsoft Viva Goals for JIRA** app from the Atlassian Marketplace. 
