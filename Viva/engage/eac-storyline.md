@@ -95,12 +95,12 @@ To determine the precise URL for a user's storyline, follow these steps:
 3. Locate the **user identifier**, which is the part of the URL immediately that follows *my.sharepoint.com/personal/*.
 4. Replace everything after the profile identifier and the backslash plus **VivaEngage**, without a space, case insensitive. The resulting URL will resemble this example: 
 
-   'https\://tenantname-my.sharepoint.com/personal/\<useridentifier>/VivaEngage'
+   'https\://<tenantname>-my.sharepoint.com/personal/\<useridentifier>/VivaEngage'
 1. Press Enter. The library will appear.  
 1. Open the Attachments folder, and then open the storyline folder. The resulting URL to the folder where storyline files are saved will resemble this example:
 
 
-   `https://tenantname-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
+   `https://<tenantname>-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
 
 ### Managing files uploaded to storyline posts
 
