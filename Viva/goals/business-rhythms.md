@@ -2,9 +2,9 @@
 ms.date: 04/08/2022
 title: Business rhythms
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -57,11 +57,11 @@ It takes frequent reminders and updates to keep goals front and center for your 
 
 To get summary updates, follow the company, team, or individual. You can follow as many teams or individuals as you want. To do this, visit the relevant OKR dashboard page from the navigation menu.
 
-:::image type="content" source="../media/goals/3/37/a.jpg" alt-text="Screenshot shows where you request summary updates." lightbox="../media/goals/3/37/a.jpg":::
+:::image type="content" source="../media/goals/summary-digest-images/summary-digest-1.png" alt-text="Screenshot of following to enable a summary digest." lightbox="../media/goals/summary-digest-images/summary-digest-1.png":::
 
 You can also add other users as followers to make sure that they get summary updates for the company, team or individual. Select the **Followers** button and then select **Add**. 
 
-:::image type="content" source="../media/goals/3/37/b.jpg" alt-text="Screenshot shows where you add other users as followers." lightbox="../media/goals/3/37/b.jpg":::
+:::image type="content" source="../media/goals/summary-digest-images/summary-digest-2.png" alt-text="Screenshot of adding more followers." lightbox="../media/goals/summary-digest-images/summary-digest-2.png":::
 
 ### Customize summary update cadence and frequency
 
