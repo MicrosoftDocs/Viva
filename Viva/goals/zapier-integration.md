@@ -71,4 +71,4 @@ Now when viewing the connected key results in Viva Goals, you'll see an icon nex
 7. **How can I remove the Zapier integration from Viva Goals?**
     1. Select on the **Edit** objective and head over to the **Progress** section.  
     1. Select the **Connected to Zapier** dropdown and select on **Remove** from the popup that appears.
-         :::image type="content" source="../media/goals/zapier-integration/remove.png" alt-text="Screenshot of removing the Zapier integration from a key result" lightbox="../media/goals/zapier-integration/remove.png":::
+         :::image type="content" source="../media/goals/zapier-integration/remove.png" alt-text="Screenshot of removing the Zapier integration from a key result." lightbox="../media/goals/zapier-integration/remove.png":::
