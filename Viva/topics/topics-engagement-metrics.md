@@ -40,11 +40,12 @@ The **Topic interaction** section provides a look into how users are interacting
 
 ## Topic consumption
 
-The **Topic consumption** section provides a look into how users are consuming topics. Topic consumption includes accessibility to topic cards, topic pages, topics in search results, and topic cards in the Topic center.
+The **Topic consumption** section provides a look into how users are consuming topics through topic views and clicks. Topic consumption includes accessibility to topic cards, topic pages, topics in search results, and topic cards in the Topic center.
 
-
-
+![Screenshot of total topic interactions metrics.](../media/knowledge-management/topic-consumption-metrics.png)
 
 ## Topic contribution 
 
-The **Topic contribution** section provides a look into how users contribute to topics. Topic contributions include editing and publishing topics, and providing topic feedback.
+The **Topic contribution** section provides a look into how users contribute to content on topics. Topic contributions include editing and publishing topics, and providing topic feedback.
+
+![Screenshot of total topic interactions metrics.](../media/knowledge-management/topic-contribution-metrics.png)
