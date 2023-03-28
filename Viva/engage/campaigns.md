@@ -1,4 +1,5 @@
 ---
+title: "Manage and set up campaigns in Microsoft Viva Engage"
 description: "Campaigns in Viva Engage are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging."
 ms.reviewer: ethli
 ms.author: mamiejohnson
