@@ -26,7 +26,7 @@ search.appverid:
 
 **Premium experience**:
 
-Admin users who have access to Viva Engage through Microsoft 365 or Viva Suite or Answers in Viva Suite or Viva Topics can access the Admin Center in Viva Engage in the Teams app.
+Admin users who have access to Viva Engage through purchase of M365 and/or Viva Suite or who have access to Answers in Viva through purchase of Viva Suite or Viva Topics can see the Admin Center in Viva Engage in the Teams app.
 
 To access Viva Engage premium features, the user needs a license to the Viva Engage Communities and Communications service plan. To access Answers in Viva, the user needs a license to the Viva Engage Knowledge service plan.
 
