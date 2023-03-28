@@ -32,7 +32,7 @@ The Viva Goals service is governed by the [Microsoft Product Terms](https://ww
 
 The Microsoft Product Terms outline a shared responsibility model between Microsoft and its customers. Microsoft works to ensure that we are compliant with industry and international standards, and customers are responsible for ensuring their data within the [Microsoft Cloud](https://www.microsoft.com/microsoft-cloud#What-is-the-Microsoft-Cloud) is protected in a manner that is compliant with the standards and regulations imposed on the customer. Microsoft is responsible for maintaining the implementation and test information associated with Microsoft Managed Controls. Customers are responsible for maintaining the implementation and test information associated with Customer Managed Controls. The Microsoft Product Terms binds us and our joint responsibilities. 
 
-:::image type="content" source="../media/goals/security-privacy/prod_preamble_online_service_terms_dpa.png" alt-text="Infographic showing Microsoft's online service terms and data protection agreement. ":::
+:::image type="content" source="../media/goals/security-privacy/prod_preamble_online_service_terms_dpa.png" alt-text="Infographic showing Microsoft's online service terms and data protection agreement.":::
 
 For information about policies, tools, and best practices for all of Office 365, see [Overview of security and compliance in Office 365](https://support.office.com/article/dcb83b2c-ac66-4ced-925d-50eb9698a0b2). Viva Goals documentation can be found at [Intro to Viva Goals](intro-to-ms-viva-goals.md)
 
