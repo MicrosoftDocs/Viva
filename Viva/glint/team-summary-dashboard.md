@@ -1,10 +1,10 @@
 ---
-ms.date: 04/29/2023
+ms.date: 03/29/2023
 title: The Team Summary dashboard
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: 
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
