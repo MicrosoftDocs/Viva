@@ -28,13 +28,13 @@ Let’s say your organization is launching a new product. Announcement of the pr
 
 You can use Yammer Live, Stream, Viva Connections, and Viva Engage to bring everyone together, make an event available live or after it happens, and start follow-up conversations.
 
-|Yammer Live | Microsoft Stream | |  
-|---|---|---|
-|Bring your organization together around an event. Yammer group admins can host a live video event including Yammer conversations before, during, and after the event. | Record a live event and embed the Stream video in your news feed, or provide a link to it from the Viva Connections dashboard. Share videos and exchange feedback easily with your employees using comments and @mentions. |  |
+|Yammer Live | Microsoft Stream | 
+|---|---|
+|Bring your organization together around an event. Yammer group admins can host a live video event including Yammer conversations before, during, and after the event. | Record a live event and embed the Stream video in your news feed, or provide a link to it from the Viva Connections dashboard. Share videos and exchange feedback easily with your employees using comments and @mentions. | 
 
-|Viva Connections | Viva Engage | |
-|---|---|---|
- |Keep all your people in the flow of work and connected from wherever they are, even when they can't attend an event. Promote and provide resources to the event, including Yammer conversations, news posts, and Stream recordings. | Create posts and announcements about an event that appear across Microsoft Viva and Microsoft 365, join employee communities, and host sessions to answer questions directly. Viva Engage helps leaders communicate effectively by reaching and engaging employees in the apps they use every day. | |
+|Viva Connections | Viva Engage | 
+|---|---|
+ |Keep all your people in the flow of work and connected from wherever they are, even when they can't attend an event. Promote and provide resources to the event, including Yammer conversations, news posts, and Stream recordings. | Create posts and announcements about an event that appear across Microsoft Viva and Microsoft 365, join employee communities, and host sessions to answer questions directly. Viva Engage helps leaders communicate effectively by reaching and engaging employees in the apps they use every day. | 
 
 **Roles for this scenario**: Executive leadership, corporate communications specialists, SharePoint site owners and page authors, Yammer group admins.
 
