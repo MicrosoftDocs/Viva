@@ -28,7 +28,7 @@ Here's how to add a personal API token from the **My profile** section in Favro.
   
 2. From the drop-down menu, select **My profile**.
   
-    :::image type="content" source="../media/goals/12/favro-profile-tab.png" alt-text="Screenshot shows where select My profile." lightbox="../media/goals/12/favro-profile-tab.png":::
+   :::image type="content" source="../media/goals/12/favro-profile-tab.png" alt-text="Screenshot shows where to select My profile." lightbox="../media/goals/12/favro-profile-tab.png":::
   
 3. On your **My profile** page, select the **API Tokens** tab.
   
