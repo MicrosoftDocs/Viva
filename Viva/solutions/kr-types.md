@@ -1,5 +1,5 @@
 ---
-ms.date: 08/10/2022
+ms.date: 03/29/2023
 title: Define KR Types in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -21,43 +21,47 @@ description: "Learn how to set KR types while creating your Key Results"
 
 # Define KR Types in Viva Goals
 
-The Key Result(KR) types enable users to establish goals with defined outcomes. These KR types can be simple quantity-type key results that measure progress from one point to another. Or, they can be guardrail (quality-type) key results that help monitor consistency and efficiency of businesses or to establish baseline for a key result.  
+Key Result types enable users to establish goals with defined outcomes. These KR types can be quantity-type key results that measure progress from one point to another, quality-type key results that act as guardrails and help monitor consistency and efficiency, or a KR type that establishes a baseline. 
 
 ## What are the different KR types you can create in Viva Goals? 
-Viva Goals allows you to create 5 distinct types of Key Results; we are broadly classifying them into two main categories: 
+Viva Goals allows you to create 6 distinct types of Key Results, which we classify into three categories:
 
 1. [Regular KR types](#regular-kr-types-quantity) (Quantity KRs)
 1. [Control KR types](#control-kr-types-quality) (Quality/Guardrail KRs)
-1. [Measure baseline KRs](#baseline-key-results) 
+1. [Baseline KR types](#baseline-kr-types) 
 
 ### Regular KR types (Quantity): 
-1. **Reach:** The 'Reach' metric type is useful when you have a specific target that you want to achieve, for example, "Conduct 5 internal surveys" or "Launch 4 Kitchens".
 
-1. **Increase from:** When the OKR is required to track a metric which is already at a certain number and must increase to a higher number, you can choose the 'Increase from' metric. For example, “Increase revenue from $20Mn to $40mn this year”. Here, the ‘from’ indicates the starting value of $20Mn and the ‘to’ indicates the target value of $40Mn.  
+Regular KR types are used when trying to achieve a specific metric.
+
+1. **Reach:** The 'Reach' metric type is useful when you are starting at zero and have a specific target that you want to achieve. For example, "Conduct 5 internal surveys" or "Gain 500 users for new community site".
+
+1. **Increase from:** When the OKR is required to track a metric which is already at a certain number and must increase to a higher number, you can choose the 'Increase from' metric. For example, “Increase revenue from $20mn to $40mn this year”. Here, the ‘from’ indicates the starting value of $20Mn and the ‘to’ indicates the target value of $40Mn.  
 
 1. **Decrease from:** Similarly, when the OKR is required to track a metric which is already at a certain number and must decrease further to a lower number, you can select the ‘Decrease from’ metric type. For example, “Reduce P0 bugs from 50 to 10 this quarter”. Here, the start value is the higher value of 50 and the target value is the lower value 10.  
 
 ### Control KR types (Quality) 
-Control KR types are useful when you must keep your key results above or below a certain threshold value. For instance, “Keep CSAT score above 9”.  
+
+Control KR types are used when you must keep key results above or below a certain threshold value. This is done to maintain the quality of a metric and set guardrails for accepted results.
 
 Viva Goals has 2 control metrics:  
 
-1. **Stay below:** When teams are setting up their quarterly/annual OKRs, along with the quantity metrics such as revenue, they would also like to set up guardrail metrics. These metrics help in maintaining quality. For example, “Keep churn less than $100k”. Here, the input is only the target value which acts as a threshold and the metric is always tracked to stay below this threshold.
+1. **Stay below:** The 'Stay Below' KR type is useful when a metric must remain below a certain threshold. For example, “Keep customer churn below $100k”. The only input is the target value, which acts as a threshold for success.
 
-1. **Stay above:** Similarly, when the OKR is required to track a metric to help maintain quality such as “Keep NPS above 9” the stay above KR type can be used. Here, the input is only the target value which acts as a threshold.  
+1. **Stay above:** The 'Stay Above' KR type is useful when a metric must remain above a certain threshold. For example, “Keep customer NPS score above 9”. The only input is the target value, which acts as a threshold for success.
 
 **Adding risk threshold to control metrics:**
 
-Users can now optionally add a “Risk threshold” value to the control metrics they are creating. If a control metric has a threshold added, then it manifests in the following ways: 
+**Optional:** Users can add a “Risk threshold” value to the control metrics they are creating. If a control metric has a threshold added, then it manifests in the following ways: 
 
 1. Behind Status: Any check-ins that fall between the risk threshold value and the final target value will be marked as “Behind.” 
 1. Accepted risk threshold value: For stay above key results, the risk threshold must always be lesser than the final target value of the key result. For stay below key results, the risk threshold must always be greater than the final target value of the key result.
 
-### Baseline Key Results 
+### Baseline KR types 
   
-Baseline key results can be used when the target value is not yet known, and the organization is trying to measure a goal which is important enough to be tracked alongside other type of key results. 
+**Find a baseline:** The 'Find a baseline' KR type is useful when an organization is trying to measure a goal which is important enough to be tracked alongside other key results, but the target value is not yet known.
 
-Ex. Find customer retention rate, while the metric for Retention rate needs to be tracked there is no clear target that can be set as this as a metric has not been tracked by the organization previously and therefore target cannot be set with any degree of confidence. In such cases a baseline key result can be created where there is no need to set a target value.
+For example, "Measure baseline customer retention rate", can be tracked during a time period, even though the starting or target metric is not yet known because the metric has not been tracked by the organization previously, or cannot be set with any degree of confidence. In such cases a baseline key result can be created where there is no need to set a target value.
 
 ## How can you set KR types for a Key Result?
 
@@ -163,5 +167,5 @@ The statuses for baseline key results will be: **Not started, In-progress, Close
 
 ## FAQ (Frequently Asked Questions)
 
-1. After adding risk threshold to an existing control metric the status will automatically change to **Behind**? 
+1. **After adding risk threshold to an existing control metric the status will automatically change to Behind?**
     1. No, only the next time when you make a check-in or edit the values, will the status get updated to **Behind** till then it will continue to stay **At-risk** or **On-track** only whatever the status was before the risk threshold was added.  
