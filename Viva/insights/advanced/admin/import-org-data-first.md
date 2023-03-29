@@ -14,7 +14,7 @@ audience: Admin
 
 # Import organizational data (first import)
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through a .csv file that you as an Insights admin upload; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of four ways: through Azure Active Directory, which is the default source; through a .csv file that you as an Insights Administrator upload; through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up; or through a connection between Workday and Viva Insights.
 
 This article talks about the third option: importing data. To import data from a source system, you'll need to coordinate a few tasks between your Microsoft 365 IT admin and your data source admin, including registering a new app and getting a security certificate. Refer to the next section, [Workflow](#workflow), for an overview of required steps.
 
