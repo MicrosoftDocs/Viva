@@ -1,5 +1,5 @@
 ---
-title: Managers using the Team Summary dashboard 
+title: Managers using the Team Summary dashboard 
 description: "Managers using the Team Summary dashboard". 
 ms.author: SarahBerg
 author: SarahAnneBerg
