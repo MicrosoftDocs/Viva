@@ -34,70 +34,74 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 ## Microsoft Viva apps
 
 Choose the experiences you want for your employees.
+
 [Option A]
 
 ### Experience
 :::row:::
-   :::column span="":::
+:::column span="":::
          **Connection**
-   :::column-end:::
-   :::column span="":::
-      :::image type="icon" source="media/logos/connections-launch-c-64.svg":::</br>[Viva Connections](#viva-connections)
-      :::column-end:::
-   :::column span="":::
-      :::image type="icon" source="media/logos/engage-launch-c-64.svg":::</br>[Viva Engage](#viva-engage)
-   :::column-end:::
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/connections-launch-c-64.svg":::</br>[Viva Connections](#viva-connections)
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/engage-launch-c-64.svg":::</br>[Viva Engage](#viva-engage)
+:::column-end:::
 :::row-end:::
 :::row:::
-   :::column span="":::
+:::column span="":::
          **Insight**
-   :::column-end:::
-   :::column span="":::
-      :::image type="icon" source="media/logos/insights-launch-c-64.svg":::</br>[Viva Insights](#viva-insights)
-   :::column-end:::
-   :::column span="":::
-      
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/insights-launch-c-64.svg":::</br>[Viva Insights](#viva-insights)
+:::column-end:::
+:::column span="":::
+   
    :::column-end:::   
 :::row-end:::
 :::row:::
-   :::column span="":::
+:::column span="":::
          **Growth**
-   :::column-end:::
-   :::column span="":::
-      :::image type="icon" source="media/logos/topics-launch-c-64.svg":::</br>[Viva Topics](#viva-topics)
-   :::column-end:::
-   :::column span="":::
-      :::image type="icon" source="media/logos/learning-launch-c-64.svg":::</br>[Viva Learning](#viva-learning)
-   :::column-end:::
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/topics-launch-c-64.svg":::</br>[Viva Topics](#viva-topics)
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/learning-launch-c-64.svg":::</br>[Viva Learning](#viva-learning)
+:::column-end:::
 :::row-end:::
 :::row:::
-   :::column span="":::
+:::column span="":::
          **Purpose**
-   :::column-end:::
-   :::column span="":::
-      :::image type="icon" source="media/logos/goals-launch-c-64.svg":::</br>[Viva Goals](#viva-goals)
-   :::column-end:::
-   :::column span="":::
-      
-    :::column-end:::
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/goals-launch-c-64.svg":::</br>[Viva Goals](#viva-goals)
+:::column-end:::
+:::column span="":::
+   
+:::column-end:::
 :::row-end:::
 :::row:::
-   :::column span="":::
+:::column span="":::
          **Role-based**
-   :::column-end:::
-   :::column span="":::
-      :::image type="icon" source="media/logos/viva-sales-logo-1.png":::</br>[Viva Sales](#viva-sales)
-   :::column-end:::
-   :::column span="":::
-      
-   :::column-end:::
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/viva-sales-logo-1.png":::</br>[Viva Sales](#viva-sales)
+:::column-end:::
+:::column span="":::
+   
+:::column-end:::
 :::row-end:::
+
 
 [Option B]
 
 ### Experience
+
 #### Connection
-   :::row:::
+
+:::row:::
    :::column span="":::
       :::image type="icon" source="media/logos/connections-launch-c-64.svg":::</br>[Viva Connections](#viva-connections)
       :::column-end:::
@@ -132,6 +136,8 @@ Choose the experiences you want for your employees.
       :::image type="icon" source="media/logos/viva-sales-logo-1.png":::</br>[Viva Sales](#viva-sales)
    :::column-end:::
 :::row-end:::
+
+[Option C - The original matrix with "App 2" in the third column for accessibility/screen readers]
 
 | Experience | App 1 | App 2|
 |:-------:|-------------|------|
