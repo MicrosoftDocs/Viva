@@ -60,7 +60,7 @@ Team owners and administrators can set up their team by adding team members.
 
 - To add people who aren't currently in Viva Goals, you can use the same dialog box. Make sure that the **Send invitations to users who are not in Viva Goals** checkbox is selected.
 
-    :::image type="content" source="../media/goals/2/22/d.jpg" alt-text="Screenshot showing the dialog box where you add new memembers." lightbox="../media/goals/2/22/d.jpg":::
+    :::image type="content" source="../media/goals/2/22/d.jpg" alt-text="Screenshot showing the dialog box where you add new members." lightbox="../media/goals/2/22/d.jpg":::
 
 When you set up a team, it's useful to add a second team administrator to make sure that the team-setup process isn't dependent on one person.
 
