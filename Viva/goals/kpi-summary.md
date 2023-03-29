@@ -30,7 +30,7 @@ If your organization has the KPI summary option enabled, it will be found on all
 
 The KPI summary contains all top-level objectives that are set as KPIs. It displays the alignment (if there's any), the status given at last check-in, and the current value. The summary also shows the progress from the start value in small gray text.
 
-:::image type="content" source="../media/goals/4/416/a.jpg" alt-text="Screenshot of a KPI summary." lightbox="../media/goals/4/416/a.jpg":::
+:::image type="content" source="../media/goals/navigation-sidebar/kpi-summary-widget.png" alt-text="Screenshot of the KPI Summary widget." lightbox="../media/goals/navigation-sidebar/kpi-summary-widget.png":::
 
 ## Who can manage KPI summaries? 
 
@@ -54,7 +54,7 @@ There is no limit on the number of KPIs you can include, but we suggest that onl
   
 To remove a KPI from the KPI summary, select **Remove from KPI Summary** from the action dropdown.
 
-:::image type="content" source="../media/goals/4/416/c.jpg" alt-text="Screenshot shows the the option to remove a key result from the KPI summary." lightbox="../media/goals/4/416/c.jpg":::
+:::image type="content" source="../media/goals/4/416/c.jpg" alt-text="Screenshot shows the option to remove a key result from the KPI summary." lightbox="../media/goals/4/416/c.jpg":::
 
 ## Rearrange KPIs in your KPI summary
 

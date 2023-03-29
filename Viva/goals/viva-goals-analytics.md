@@ -22,7 +22,7 @@ description: "Learn about analytics and the health of your OKRs with Viva Goals.
 
 # OKR program analytics
 
-As an organization administrator, you'll be able to see analytics for the OKR program and usage of Viva Goals. 
+As an organization administrator, or as a Viva Goals user, you're able to see OKR program analytics for your organization and/or teams in your organization.  
 
 To see analytics, navigate to ‘Analytics’ tab on the entity page for organization. The metrics are displayed for the selected time range. You can also see the metric breakdown by teams. 
 
@@ -36,66 +36,69 @@ The metrics are divided into three sections:
 
 ## Adoption
 
-:::image type="content" source="../media/goals/analytics-images/2-vivagoals-analytics-adoption.png" alt-text="View of the adoption section from Viva Goals analytics":::
+:::image type="content" source="../media/goals/analytics-images/2-vivagoals-analytics-adoption.png" alt-text="View of the adoption section from Viva Goals analytics" lightbox="../media/goals/analytics-images/2-vivagoals-analytics-adoption.png":::
 
 This section contains a bird's eye view of how well the adoption of OKR program is going.  
 
 **Users**
 
-- Total users – Count of users in Viva Goals during the selected time range. 
-- Active users – Count (and %) of users who visited Viva Goals in the selected time range. 
-- Users with OKRs – Count (and %) of users who owned an active OKR on any day in the selected time range. 
-- Users with check-ins – Count (and %) of users who made a checkin on an OKR on any day in the selected time range. 
+- Total users – Count of team members who have logged in to Viva Goals app at least once. 
+- Users with OKRs – Count (and %) of team members who owned an active OKR on any day in the selected time range. 
+- Users with check-ins – Count (and %) of team members who made a check-in on an active OKR on any day in the selected time range. 
 
 **Teams**
 
-- Total teams – Count of teams that existed on any day in the selected time range. 
+- Total teams – Count of teams that existed on any day in the selected time range.  
 - Teams with OKRs – Count (and %) of teams that had an active OKR on any day in the selected time range. 
-- Teams with check-ins – Count (and %) of teams that had a checkin on any team OKR in the selected time range. 
+- Teams with check-ins – Count (and %) of teams that had a check-in on any team OKR in the selected time range. 
 
 **OKRs**
 
-- Total OKRs – Count of OKRs whose time range overlaps with the selected time range. 
-- OKRs with check-ins – Count (and %) of OKRs which had a checkin during the selected time range. 
+- Total OKRs – Count of active OKRs (whose time range overlaps with the selected time range). 
+- OKRs with check-ins – Count (and %) of active OKRs, which had a check-in during the selected time range. 
 
-In the breakdown view, you'll see breakdown of the metrics by the top-level teams: 
+In the drilldown view, you see the metrics for subteams. You can select on a team's name to navigate to analytics of the particular team. 
 
-:::image type="content" source="../media/goals/analytics-images/7-vivagoals-adoption-breakdown.png" alt-text="Graph that shows the view of the analytics breakdown in Viva Goals.":::
+:::image type="content" source="../media/goals/analytics-images/3-vivagoals-analytics-adoption-drilldown.png" alt-text="Graph that shows the view of the analytics breakdown in Viva Goals.":::
    
 ## Engagement
 
-:::image type="content" source="../media/goals/analytics-images/4-vivagoals-analytics-engagement.png" alt-text="View of engagement metrics in the analytics view in Viva Goals.":::
+:::image type="content" source="../media/goals/analytics-images/4-vivagoals-analytics-engagement.png" alt-text="View of engagement metrics in the analytics view in Viva Goals" lightbox="../media/goals/analytics-images/4-vivagoals-analytics-engagement.png":::
 
-**Monthly active users plot** – A daily plot of monthly active users (users who visited Viva Goals in last 28 days from the date). Breakdown will show the current MAU as the percentage of users. 
+This section shows user engagement and key activities. 
 
-**Activities** – A daily plot of key activities like check-ins, OKRs created, OKRs closed, comments & reactions. Breakdown view will show the sum of activities over the selected time range. 
+**Users** - A daily plot of monthly active users (members who visited Viva Goals in the last 28 days from the date). Drilldown will show the current MAU as the percentage of users. 
+
+**Activities** – A daily plot of key activities like check-ins, OKRs created, OKRs closed, comments, and reactions. Drilldown view shows the sum of activities over the selected time range for subteams. 
 
 ## OKR Practice
 
-:::image type="content" source="../media/goals/analytics-images/5-vivagoals-analytics-okr-practice.png" alt-text="VIew of the OKR practice panel in Viva Goals analytics.":::
+:::image type="content" source="../media/goals/analytics-images/5-vivagoals-analytics-okr-practice.png" alt-text="View of the OKR practice panel in Viva Goals analytics" lightbox="../media/goals/analytics-images/5-vivagoals-analytics-okr-practice.png":::
+
+This section depicts how well OKRs are set up. 
 
 **Transparency**
 
-- **Public OKRs:** Percentage (and count) of organization and team OKRs which are public, as on the last date of selected time range. 
+- **Public OKRs:** Percentage (and count) of OKRs that are public, as of the last date of selected time range. OKRs without any associated team aren't considered.
 
 **Alignment**
 
-- **OKRs aligned up:** Percentage (and count) of team OKRs aligned to an org or team OKR, as on the last date of selected time range.  
+- **OKRs aligned up:** Percentage (and count) of team OKRs aligned to a team OKR, as of the last date of selected time range. 
 
-- **OKRs cascaded down:** Percentage (and count) of organization or team OKRs which are cascaded down to another team objective, as of the last date of selected time range (OKRs of teams which don’t have subteams, aren't considered). 
+- **OKRs cascaded down:** Percentage (and count) of team OKRs that are cascaded down to another team OKR, as of the last date of selected time range. (OKRs of teams that don't have subteams, aren't considered).
 
-- **Shared OKRs:** Percentage (and count) of team OKRs which are shared by more than one team, as on the last date of selected time range. 
+- **Shared OKRs:** Percentage (and count) of team OKRs that are shared by more than one team, as of the last date of selected time range.
 
 **Efficiency**
 
-- **Automated OKRs:** Percentage (and count) of OKRs which are updated automatically - via rollup from children or via integration with a data source (individual OKRs aren't considered). 
+- **Automated OKRs:** Percentage (and count) of OKRs that are updated automatically - via rollup from children or via integration with a data source. OKRs without any associated team aren't considered.
 
 **Focus**
 
-- **Teams with more than 5 objectives:** Percentage (and count) of teams with more than five objectives, as on the last date of selected time range. 
+- **Teams with more than 5 objectives:** Percentage (and count) of teams with more than five objectives, as of the last date of selected time range.
 
-- **Objectives with more than 5 KRs:** Percentage (and count) of organization and team objectives with more than five KRs, as on the last date of selected time range. 
+- **Objectives with more than 5 KRs:** Percentage (and count) of objectives with more than five key results as of the last date of selected time range. Objectives without any associated team aren't considered.
 
-- **Average OKRs per OKR owner:** Calculated as total OKRs divided by total OKR owners, as on the last date of selected time range (individual OKRs aren't considered). 
+- **Average OKRs per OKR owner:** Average number of OKRs owned by team members who are OKR owners, as of the last date of selected time range. OKRs owned can include OKRs outside the team hierarchy. However, OKRs without any associated team aren't considered.
 
-
+In the drilldown view, you see the metrics for subteams. 
