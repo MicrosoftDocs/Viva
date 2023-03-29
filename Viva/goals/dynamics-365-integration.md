@@ -4,7 +4,7 @@ title: "Dynamics 365 Integration"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: Liz/Pierce
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH

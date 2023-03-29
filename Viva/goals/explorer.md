@@ -126,69 +126,49 @@ This information refers to the order in which the OKRs are arranged in the Entit
 
 ## Frequently asked questions 
 
-**How do I view all OKRs in Explorer?**
+1. **How do I view all OKRs in Explorer?**
+    1. In Explorer, select the **All Objectives** preset view.
+        :::image type="content" source="../media/goals/4/46/g.jpg" alt-text="Screenshot shows the Explorer All Objectives view." lightbox="../media/goals/4/46/g.jpg":::
 
-In Explorer, select the **All Objectives** preset view.
+1. **How do I view all initiatives?**
+    1. In Explorer, apply the filter for **Object Type** as **initiative** to view all initiatives.
+        :::image type="content" source="../media/goals/4/46/h.jpg" alt-text="Screenshot shows how to choose to filter for all initiatives." lightbox="../media/goals/4/46/h.jpg":::
 
-:::image type="content" source="../media/goals/4/46/g.jpg" alt-text="Screenshot shows the Explorer All Objectives view." lightbox="../media/goals/4/46/g.jpg":::
+1. **How do I export my data?**
+    1. Use filters to access the data you want, and then go to **Actions** -> **Export**. You'll receive an email with a link to download your OKRs and initiatives as a .csv/Excel file. Remember to clear the **Show only top-level objectives** checkbox if you need the KRs too.
+         :::image type="content" source="../media/goals/4/46/i.jpg" alt-text="Screenshot shows how to choose to export data." lightbox="../media/goals/4/46/i.jpg":::
 
-**How do I view all initiatives?**
+1. **How do I save a view?**
+    1. To save a view for easy access, select **Save view** in the upper-right corner. Enter a name for the new view and select a visibility option. After it's saved, you can access the view from the Explorer menu.
+        :::image type="content" source="../media/goals/4/46/j.jpg" alt-text="Screenshot shows how to save a view." lightbox="../media/goals/4/46/j.jpg":::
 
-In Explorer, apply the filter for **Object Type** as **initiative** to view all initiatives.
+1. **How do I delete a view?**
+    1. To delete a saved view go to **Actions -> Remove view**.
+        :::image type="content" source="../media/goals/4/46/k.jpg" alt-text="Screenshot shows how to delete a view." lightbox="../media/goals/4/46/k.jpg":::
 
-:::image type="content" source="../media/goals/4/46/h.jpg" alt-text="Screenshot shows how to choose to filter for all initiatives." lightbox="../media/goals/4/46/h.jpg":::
+1. **Who can access my view?**
+    1. That depends on the availability configuration you choose when you save the view. There are two options:
+        - Private: Only you can access the view.
+        - Public: Everyone in the organization can access the view.
+    
+    To change this setting, select **Save view**, change the setting, and save it again.
+        :::image type="content" source="../media/goals/4/46/l.jpg" alt-text="Screenshot shows where you make a view public or private." lightbox="../media/goals/4/46/l.jpg":::
 
-**How do I export my data?**
+1. **What does exporting tags as a separate field mean?**
+    1. If an objective, key result, or initiative has more than one tag, the field can be exported as separate columns instead of comma-separated values in the .csv/Excel file.
 
-Use filters to access the data you want, and then go to **Actions** -> **Export**. You'll receive an email with a link to download your OKRs and initiatives as a .csv/Excel file. Remember to clear the **Show only top-level objectives** checkbox if you need the KRs too.
-
-:::image type="content" source="../media/goals/4/46/i.jpg" alt-text="Screenshot shows how to choose to export data." lightbox="../media/goals/4/46/i.jpg":::
-
-**How do I save a view?**
-
-To save a view for easy access, select **Save view** in the upper-right corner. Enter a name for the new view and select a visibility option. After it's saved, you can access the view from the Explorer menu.
-
-:::image type="content" source="../media/goals/4/46/j.jpg" alt-text="Screenshot shows how to save a view." lightbox="../media/goals/4/46/j.jpg":::
-
-**How do I delete a view?**
-
-To delete a saved view go to **Actions -> Remove view**.
-
-:::image type="content" source="../media/goals/4/46/k.jpg" alt-text="Screenshot shows how to delete a view." lightbox="../media/goals/4/46/k.jpg":::
-
-**Who can access my view?**
-
-That depends on the availability configuration you choose when you save the view. There are two options:
-
-- Private: Only you can access the view.
-- Public: Everyone in the organization can access the view.
-
-To change this setting, select **Save view**, change the setting, and save it again.
-
-:::image type="content" source="../media/goals/4/46/l.jpg" alt-text="Screenshot shows where you make a view public or private." lightbox="../media/goals/4/46/l.jpg":::
-
-**What does exporting tags as a separate field mean?**
-
-If an objective, key result, or initiative has more than one tag, the field can be exported as separate columns instead of comma-separated values in the .csv/Excel file.
-
-**How do I export my OKRs and initiatives?**
-
-You can use Explorer to export OKRs and initiatives. Go to Explorer from the main menu. You can use the **All objectives** view if you want to export all your OKRs or apply any desired filters, like time period or owner.
+1. **How do I export my OKRs and initiatives?**
+    1. You can use Explorer to export OKRs and initiatives. Go to Explorer from the main menu. You can use the **All objectives** view if you want to export all your OKRs or apply any desired filters, like time period or owner.
 
 > [!NOTE]
 > By default, Explorer only displays top-level objectives. If you want to include the KRs/initiatives, you can use the flat-list view or choose to include the child key results/child initiatives when you export.
 
-**Flat-list view:**
+1. **Flat-list view:**
+    1. After you modify your view as desired, go to **Actions** -> **Export** to export it. You'll soon receive an email with your download. To learn more, see our [Explorer article](https://help.ally.io/en/articles/5845706-explorer).
+        :::image type="content" source="../media/goals/4/46/m.jpg" alt-text="Screenshot shows how you choose flat-list view." lightbox="../media/goals/4/46/m.jpg":::
 
-:::image type="content" source="../media/goals/4/46/m.jpg" alt-text="Screenshot shows how you choose flat-list view." lightbox="../media/goals/4/46/m.jpg":::
-
-After you modify your view as desired, go to **Actions** -> **Export** to export it. You'll soon receive an email with your download. To learn more, see our [Explorer article](https://help.ally.io/en/articles/5845706-explorer).
-
-**How do I filter OKRs by team in Explorer?**
-
-Use the **Type** filter to refine the OKRs list by teams or individuals.
-
-:::image type="content" source="../media/goals/4/46/n.jpg" alt-text="Screenshot shows where you filter OKRs by team or individual." lightbox="../media/goals/4/46/n.jpg":::
-
-Apply the changes and save the view for future reference.
+1. **How do I filter OKRs by team in Explorer?**
+    1. Use the **Type** filter to refine the OKRs list by teams or individuals.
+        :::image type="content" source="../media/goals/4/46/n.jpg" alt-text="Screenshot shows where you filter OKRs by team or individual." lightbox="../media/goals/4/46/n.jpg":::
+    Apply the changes and save the view for future reference.
 

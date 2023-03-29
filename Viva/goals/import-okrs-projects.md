@@ -38,7 +38,7 @@ Viva Goals allows bulk importing of Objectives, Key Results and Initiatives usin
     - **Org administrator, Org Owner** – Allowed to import OKRs and Initiatives into any team and to the organization.
     - **Team Owner, Team Admin** – Allowed to only import OKRs and Initiatives to teams in which the user is a team administrator or team owner. 
 
-## How to Import OKRs and Initiatives
+## How to import OKRs and Initiatives
 
 1. Go to the Team or the Organization where you want to import OKRs and Initiatives and click  the drop-down next to the **Add Objective** button and select **Import OKRs.**
 1. Read the instructions for using the template and click on the link to Download the excel template.
@@ -60,32 +60,32 @@ For records that have not been imported, refer to the "reason" column in the Imp
 
  ## FAQ (Frequently Asked Questions)
 
-1. What are the File Formats supported? 
+1. **What are the File Formats supported?**
     1. Only .xlsx files.
 
-1. Any limitations that users need to be aware of? 
+1. **Any limitations that users need to be aware of?**
     1. The number of rows in Excel should not be greater than 1000. 
     1. The file size limit is 5 MB. 
     1. The file should not be protected. 
     1. Avoid changing the name of the sheet (for quick detection), renaming column headers, and removing columns. 
 
-1. Where can users learn what columns are needed, what should be filled in, and other details? 
+1. **Where can users learn what columns are needed, what should be filled in, and other details?** 
     1. The Instructions tab in the Excel template explains what’s needed in detail.
 
-1. Does this feature only add new OKRs and Initiatives? 
+1. **Does this feature only add new OKRs and Initiatives?**
     1. The feature also modifies existing OKRs and/or Initiatives if an exact match is found in the Viva Goals system. Matches are identified based on the Title, Owner of the OKR or Initiative, Type (Organization, Team name, Individual), and Time period, which avoids creating duplicate OKRs and Initiatives.
 
-1. How can users align a child OKR to a parent OKR? 
+1. **How can users align a child OKR to a parent OKR?**
     1. The parent and the child OKR should exist in the Excel sheet.  
     1. Copy the OKR Reference value of the parent to the Parent OKR field of the Child.
 
-1. How can users find the status of their import progress? 
+1. **How can users find the status of their import progress?** 
     1. Once the import is complete, an email will be sent to the user with a summary. A link to the import summary page will be included where users can download the import status excel file. This file provides status information for each OKR in the uploaded Excel file. 
 
-1. How long should it take to complete the import once the user submits the file? 
+1. **How long should it take to complete the import once the user submits the file?**
     1. Depending on the file size and number of rows, it can take up to 30 minutes. 
 
-1. Which users are allowed to import OKRs from an Excel file? 
+1. **Which users are allowed to import OKRs from an Excel file?**
     1. The user needs to have one of these roles to be eligible to see the option of OKR import: 
         1. Org administrator 
         1. Team administrator 
@@ -94,13 +94,13 @@ For records that have not been imported, refer to the "reason" column in the Imp
         > [!NOTE]
         > Note that team owners and admins can only import OKRs to teams where they are the team admin/owner and not to the Org level. 
 
-1. How can users know OKRs didn’t import successfully and how they can reupload? 
+1. **How can users know OKRs didn’t import successfully and how they can reupload?**
     1. The import status Excel sheet has a dedicated column that details the issue for each OKR that failed in the import operation. 
     1. Users can read the details, do the necessary changes on the same sheet and/or on the Viva Goals system and restart the import process using the same sheet. 
 
-1. If the OKR owners are not part of the Viva Goals organization, can a user get import permissions? 
+1. **If the OKR owners are not part of the Viva Goals organization, can a user get import permissions?**
     1. No. The users must exist in the Viva Goals Organization during the time of import. 
 
-1. Should OKR owners, time periods, and teams exist before importing OKRs? 
+1. **Should OKR owners, time periods, and teams exist before importing OKRs?**
     1. Yes, OKR owners, time periods, and teams cannot be created or invited as part of the OKR import process. Attempting to add these via import will result in an error.
 

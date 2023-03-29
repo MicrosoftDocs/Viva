@@ -2,9 +2,9 @@
 ms.date: 04/07/2022
 title: Manage OKRs in Viva Goals
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -89,7 +89,7 @@ OWNER(S): VP of engineering and all engineering managers
 
 The Viva Goals flexible shared OKR models ensure that you don't have to create duplicate and redundant OKRs for every team or individual when they're going to be commonly owned, worded, and measured.
 
-### What different types of Shared OKRs are possible in Viva Goals?
+### What different types of shared OKRs are possible in Viva Goals?
 
 |Shared OKRs |Description  |
 |---------|---------|
@@ -97,7 +97,7 @@ The Viva Goals flexible shared OKR models ensure that you don't have to create d
 |OKRs at team level     |    These OKRs can have multiple teams tagged and respective team administrators/members tagged as owners.     |
 |OKRs at individual level    |    These OKRs can have multiple users assigned as owners.     |
 
-### How to enable the Shared OKRs feature for your organization
+### How to enable the shared OKRs feature for your organization
 
 OKR administrators can turn on the "Shared OKRs" feature from the **OKR & Initiatives** tab in the admin settings.
 

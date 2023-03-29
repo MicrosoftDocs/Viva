@@ -2,9 +2,9 @@
 ms.date: 04/20/2022
 title: "Key performance indicator (KPI) summary"
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager:
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -26,7 +26,7 @@ The Viva Goals KPI summary lets users view one or many KPIs in a single view.
 
 If your organization has the KPI summary option enabled, it will be found on all dashboards in Viva Goals, and it can be configured differently for each team.
 
-## KPI Summary
+## KPI summary
 
 The KPI summary contains all top-level objectives that are set as KPIs. It displays the alignment (if there's any), the status given at last check-in, and the current value. The summary also shows the progress from the start value in small gray text.
 
