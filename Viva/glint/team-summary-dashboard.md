@@ -1,6 +1,7 @@
 ---
+
 title: The Team Summary dashboard 
-description: "Team Summary is an enhanced survey results dashboard for managers which captures employee feedback as an easy-to-use and insightful experience for sharing with their teams". 
+description: "Team Summary is an enhanced survey results dashboard for managers which captures employee feedback as an easy-to-use and insightful experience for sharing with their teams" 
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
