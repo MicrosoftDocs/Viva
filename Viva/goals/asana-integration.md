@@ -92,7 +92,7 @@ To set up the initiative in Viva Goals, you just connect to Asana, pick the proj
 
 Some customers like to use a specific task in Asana as their initiative, with the subtasks as the task list. We support this option as well, and you can set your initiative name in Viva Goals to the name of your Asana task.
 
-1. To start, add a initiative, and select **Add tasks** under **Outcome**.
+1. To start, add an initiative, and select **Add tasks** under **Outcome**.
     
     :::image type="content" source="../media/goals/8/asana-add-tasks-button.png" alt-text="Screenshot shows the add tasks button under Progress in Viva goals." lightbox="../media/goals/8/asana-add-tasks-button.png":::
 
@@ -108,7 +108,7 @@ Some customers like to use a specific task in Asana as their initiative, with th
 
 6. If you chose to track progress by percent of subtasks completed, select the **Use this task name as the initiative name in Viva Goals** checkbox, and save your initiative.
     
-    :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Screenshot of the final dialog when you add an Asana task as a initiative in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
+    :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Screenshot of the final dialog when you add an Asana task as an initiative in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
 
 This option will create the specific Asana task or subtasks as the initiative and pull in the subtasks as the task list in Viva Goals.
 
