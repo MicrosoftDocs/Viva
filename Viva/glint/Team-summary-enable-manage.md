@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/29/2023
 ---	
 
-# Enable Team Summary as the default dashboard
+# Enable and manage the Team Summary dashboard 
 
 ## Enable Team Summary as the default dashboard
 
