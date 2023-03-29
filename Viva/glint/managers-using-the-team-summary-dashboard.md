@@ -1,21 +1,24 @@
 ---
-title: Managers using the Team Summary dashboard 
-description: "Managers using the Team Summary dashboard". 
+ms.date: 03/29/2023
+title: Managers using the Team Summary dashboard
+ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: admin
-f1.keywords: NOCSH
-keywords: 
-ms.collection:
- - M365initiative-viva
- - selfserve
-search-appverid: MET150
+audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: high pri
-ms.date: 04/29/2023
+ms.subservice: viva-goals
+ms.localizationpriority: high
+ms.collection:  
+- m365initiative-viva-goals  
+search.appverid:
+- MET150
+description: "The Viva Glint Team Summary manager dashboard experience provides feedback visibility into key insights, strengths, and opportunities."
 ---	
+
 
 # Managers using the Team Summary dashboard 
 

@@ -18,6 +18,7 @@ search.appverid:
 - MET150
 description: "Team Summary is an enhanced survey results dashboard for managers which captures employee feedback as an easy-to-use and insightful experience for sharing with their teams"
 ---
+
 # The Team Summary dashboard
 
 ## Overview
