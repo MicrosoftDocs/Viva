@@ -35,13 +35,94 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 
 Choose the experiences you want for your employees.
 
-| Experience | App ||
-|:-------:|-------------|------|
-|**Connection**|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage)|
-|<h3>Insight|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) ||
-|<h3>Growth|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> [Viva Topics](#viva-topics) |:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning)|
-|<h3>Purpose|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals)||
-|<h3>Role-based|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> [Viva Sales](#viva-sales)||
+### Experience
+
+#### Connection
+:::row:::
+:::column span="3":::
+
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="":::
+:::image type="icon" source="media/logos/connections-launch-c-64.svg":::</br>[Viva Connections](#viva-connections)
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/engage-launch-c-64.svg":::</br>[Viva Engage](#viva-engage)
+:::column-end:::
+:::column span="":::
+
+:::column-end:::
+:::row-end:::
+
+#### Insight
+:::row:::
+:::column span="3":::
+   
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="":::
+:::image type="icon" source="media/logos/insights-launch-c-64.svg":::</br>[Viva Insights](#viva-insights)
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::column span="":::
+
+:::column-end:::
+:::row-end:::
+
+#### Growth
+:::row:::
+:::column span="3":::
+ 
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="":::
+:::image type="icon" source="media/logos/topics-launch-c-64.svg":::</br>[Viva Topics](#viva-topics)
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/learning-launch-c-64.svg":::</br>[Viva Learning](#viva-learning)
+:::column-end:::
+:::column span="":::
+
+:::column-end:::
+:::row-end:::
+
+#### Purpose
+:::row:::
+:::column span="3":::
+   
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="":::
+:::image type="icon" source="media/logos/goals-launch-c-64.svg":::</br>[Viva Goals](#viva-goals)
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::column span="":::
+
+:::column-end:::
+:::row-end:::
+
+#### Role-based
+:::row:::
+:::column span="3":::
+
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="":::
+:::image type="icon" source="media/logos/viva-sales-logo-1.png":::</br>[Viva Sales](#viva-sales)
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::column span="":::
+
+:::column-end:::
+:::row-end:::
 
 #### Viva Connections
 This employee experience app in Microsoft Teams connects employees with tools, news, and resources. Content is displayed on a dashboard and tailored to each individual based on their role, region, and interests.
@@ -81,13 +162,13 @@ This seller experience app uses Microsoft 365 and Microsoft Teams to automatical
 ## Partner integrations
 Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. Here are the current partner integrations. New partners are being added on an ongoing basis, so check back for more.
 
-**Viva Learning**: SAP SuccessFactors, Cornerstone OnDemand, Saba, Coursera, Skillsoft, Pluralsight, edX, Udemy, Go1, Infosec, Josh Bersin Academy and more.
+**Viva Learning**: SAP SuccessFactors, Cornerstone OnDemand, Saba, Coursera, Skillsoft, Pluralsight, edX, Udemy, Go1, Infosec, Josh Bersin Academy and more
 
 **Viva Connections**: Qualtrics, ServiceNow, UKG, Talentsoft, StandOut by ADP, Adobe Sign, Moveworks, Lifeworks, Limeade, Tribute, Blue Yonder, Zebra-Reflexis
 
-**Viva Insights**: Qualtrics, Glint, and Headspace.
+**Viva Insights**: Qualtrics, Glint, and Headspace
 
-**Viva Goals**: This app has dozens of partner integrations. [Find the latest list here](/viva/goals/integrations-overview)
+**Viva Goals**: This app has dozens of partner integrations. [Find the latest list here](/viva/goals/integrations-overview).
 
 [Find out more about partner integrations](https://www.microsoft.com/en-us/microsoft-viva/integrations)
 
