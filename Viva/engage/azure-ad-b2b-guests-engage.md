@@ -104,7 +104,7 @@ We are working hard to bring all Viva Engage functionality to the new B2B guests
 - **Private messages** – Private messages are disabled for B2B guests in Viva Engage.
 - **Live events** – Currently guests will not be able to participate in live events because guests are not yet supported by Microsoft Stream. To learn more about when these features will be available, see the [Microsoft 365 roadmap](https://go.microsoft.com/fwlink/?linkid=2132131).
 - **Adding guests during community creation** – Community owners can invite guests by using edit membership flow for any community. In the current release, community owners will not be able to add guest emails at the time of community creation.
-- **Interactive Viva Engage email notifications in Outlook** – Interactive email notifications for B2B guests will not be available in this preview. B2B Guests will continue to receive the legacy email notifications from the communities that they are added to as guests, instead of the new interactive email notifications. In the communities where these users are not guests, the interactive email notifications will work as expected.
+- **Interactive Viva Engage email notifications in Outlook** – B2B Guests will continue to receive the legacy email notifications from the communities that they are added to as guests, instead of the new interactive email notifications. In the communities where these users are not guests, the interactive email notifications will work as expected.
 - **Addition of Guests to the All Company community** – Guests cannot be added to the All Company community.
 
 ## FAQ
