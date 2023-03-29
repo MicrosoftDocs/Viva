@@ -63,9 +63,9 @@ The Shared OKRs/initiatives feature in Viva Goals is a great method for multiple
 
 ### When to create shared OKRs/initiatives 
 
-- When an OKR is a key priority for two or more functional teams and the team leads need to have shared accountability as the exact contribution can't be proportioned or separately broken down between them
+- When an OKR is a key priority for two or more functional teams and the team leads need to have shared accountability as the exact contribution can't be proportioned or separately broken down between them.
 
-When both the teams are supposed to commonly own and work toward the outcomes, it's good to tag multiple stakeholders and not just a single team/owner as accountable.
+- When both the teams are supposed to commonly own and work toward the outcomes, it's good to tag multiple stakeholders and not just a single team/owner as accountable.
 
  **Example #1:**
 
@@ -105,8 +105,8 @@ OKR administrators can turn on the "Shared OKRs" feature from the **OKR & Initia
 
 1. Log in to Viva Goals and create a new OKR.
 1. After you enter the objective/key result and are ready to share it with another team, select **Team** from the dropdown list under **Type**. 
-2. Scroll down or search via the search bar for the team of choice.
-3. Select the team and save the objective/key result. You'll start sharing the OKR with that team.
+1. Scroll down or search via the search bar for the team of choice.
+1. Select the team and save the objective/key result. You'll start sharing the OKR with that team.
 
 Users can also assign multiple teams to initiatives by implementing this procedure.
 
@@ -128,7 +128,7 @@ This user will get the check-in reminders. If there are multiple owners, only th
 
 1. Log in to Viva Goals and select the **+** button on the top panel to create a new OKR.
 1. After you enter the objective/key result and are ready to share it with another individual, select **Owners** from the dropdown. Here, you can assign multiple owners for the OKR.
-2. Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** dropdown. Once you make the selection, the user will start receiving the check-in reminders.
+1. Once you assign an owner, select the user who will be responsible for making check-ins from the **Who is responsible for making check-ins?** dropdown. Once you make the selection, the user will start receiving the check-in reminders.
 
 By default, the owner, or the first owner if there are multiple owners, is set as the person responsible for check-ins.
 
@@ -138,11 +138,11 @@ By default, the owner, or the first owner if there are multiple owners, is set a
 
 1. Hover your mouse left of the objective name until you see the icon depicted in the following image:
 
-      :::image type="content" source="../media/goals/3/32/a.jpg" alt-text="Screenshot shows a sample list of an employee's objectives." lightbox="../media/goals/3/32/a.jpg":::
+   :::image type="content" source="../media/goals/3/32/a.jpg" alt-text="Screenshot shows a sample list of an employee's objectives." lightbox="../media/goals/3/32/a.jpg":::
 
-2. Select and hold to grab the objective.
+1. Select and hold to grab the objective.
 
-3. Drag it to the desired location and alignment.
+1. Drag it to the desired location and alignment.
 
 To make an objective become a key result, drag the cursor to the **+ Add key result** icon under the objective.
 
