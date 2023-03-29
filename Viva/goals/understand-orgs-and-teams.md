@@ -4,7 +4,7 @@ title: Understand Organizations and Teams
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ search.appverid:
 description: "Learn about Organizations and Teams in Viva Goals and how to structure them. "
 ---
 
-# Understand Organizations and Teams in Viva Goals 
+# Understand organizations and teams in Viva Goals 
 
 Organizations and Teams can mean different things to different enterprises. Let’s discuss a few ways, with examples, of how Organizations and Teams can be set up flexibly in Viva Goals to help you identify the best structure for your organization. 
 
@@ -32,7 +32,7 @@ Typically, an organization in Viva Goals represents the company or business unit
 
 You can create more than one organization in your Viva Goals account. 
 
-### One Organization for one Enterprise 
+### One organization for one enterprise 
 
 Creating a single organization for an enterprise is the recommended best approach unless your enterprise’s needs are different. You can structure this organization to represent the structure of your enterprise. 
 
@@ -46,7 +46,7 @@ You can have as many teams and subteams as you wish under this org. That is, you
 
 When you have a single organization for your enterprise, it promotes transparency and alignment where everyone is aware of the other’s work and progress made. 
 
-### Multiple Organizations for one Enterprise 
+### Multiple organizations for one enterprise 
 
 A single enterprise can have multiple organizations under it in Viva Goals. The following are some scenarios where enterprises may opt for this structure: 
 
@@ -86,13 +86,13 @@ For example, Relecloud can create a team called Customer experience with members
 
 :::image type="content" source="../media/goals/virtual-team.png" alt-text="Viewing a virtual team in Viva Goals." lightbox="../media/goals/virtual-team.png":::
 
-## Structuring your Organizations and Teams in Viva Goals 
+## Structuring your organizations and teams in Viva Goals 
 
 The structure of each organization varies in real-time. Viva Goals is flexible and enables you to decide the structure of each of your organizations so that they resemble the structure you follow within your enterprise. 
 
 For example, VanArsdel may consist of only two levels of OKRs—org-level and team-level OKRs. Whereas Relecloud may allow org-level, team-level, and individual OKRs. Similarly, the team structure in VanArsdel may be hierarchical while Relecloud may have a flat structure.  
 
-## Limitations of Organizations and Teams in Viva Goals 
+## Limitations of organizations and teams in Viva Goals 
 
 It is crucial to have a clear understanding of how you wish to structure your organization(s) and team(s) in Viva Goals. Because once setup, the structure cannot be reversed. And the change management involved in the Viva Goals product and within your organization will be a painful process. Also, currently, org migration or org merging is not supported in Viva Goals. 
 

@@ -20,7 +20,7 @@ search.appverid:
 description: "Learn about analytics and the health of your OKRs with Viva Goals."
 ---
 
-# OKR Program Analytics
+# OKR program analytics
 
 As an organization administrator, you'll be able to see analytics for the OKR program and usage of Viva Goals. 
 

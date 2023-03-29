@@ -4,7 +4,7 @@ title: Track OKR progress status
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -32,7 +32,7 @@ Each OKR in Viva Goals contains a progress bar that displays the last identified
 
 - **Expected Progress**: Indicated by the grey vertical line on the progress bar.
 
-### How Actual Progress is calculated
+### How actual progress is calculated
 
 Actual Progress is determined when the user makes a check-in to the OKR either automatically via a data integration or via the roll-up of Key Results to an objective. 
 
@@ -100,7 +100,7 @@ Viva Goals lets you validate and indicate the progress of your OKRs with a statu
 
 When the status is manually set by a user, say, for example, a user checks in and marks status as ‘On Track’, the progress bar will show status as ‘On Track’.
 
-### Status derived based on 'Progress'
+### Status derived based on 'progress'
 
 Status will be calculated based on the progress updates of that particular objective or key result.
 
@@ -112,11 +112,11 @@ In cases where all the key results of an objective have 'Postponed' or 'Closed' 
 
 - If (Expected Progress - Aggregate Progress <= 0%) , then On Track
 
-For example, the objective ‘Successfully launch version 3 of our main product’ has four key results and one project that contribute to its progress. The objective’s status will be derived on the progress %. In the example, the expected progress of the objective is at 82% and the actual progress is at 56%. Since (Expected Progress - Aggregate Progress > 0% & <=25%)  the status is derived as ‘Behind’. 
+For example, the objective ‘Successfully launch version 3 of our main product’ has four key results and one initiative that contribute to its progress. The objective’s status will be derived on the progress %. In the example, the expected progress of the objective is at 82% and the actual progress is at 56%. Since (Expected Progress - Aggregate Progress > 0% & <=25%)  the status is derived as ‘Behind’. 
 
 :::image type="content" source="../media/goals/my-okrs-tab-expected-progress.png" alt-text="Example showing Behind status calculation." lightbox="../media/goals/my-okrs-tab-expected-progress.png":::
 
-### OKR Progress Bar Customization
+### OKR progress bar customization
 
 Viva Goals now supports a progress bar customization setting using which admins can now override the current automatic scoring system.
  
