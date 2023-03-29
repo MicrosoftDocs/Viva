@@ -1,5 +1,5 @@
 ---
-title: Upload employee attributes using Glint
+title: Upload employee attributes
 description: Learn how Glint's user file imports help admins keep users up-to-date with their organization's HRIS system.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 03/23/2023
 ---
 
-# Upload employee attributes using Glint
+# Upload employee attributes
 
 User file imports help admins to keep users current with their organization's HRIS system. During the Platform Setup, you determine which upload method to use when uploading your employee attributes, such as manually or using a Secure File Transfer Protocol (SFTP).
 
