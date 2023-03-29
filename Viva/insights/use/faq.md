@@ -256,3 +256,6 @@ A4. You probably opened the .csv file as is. For Excel to show the data correctl
 
 You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated. For more details, see [Low-quality meeting hours](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#low-quality-meeting-hours), [Conflicting meeting hours](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#conflicting-meeting-hours), and [Calculation variables](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#calculation-variables).
 
+##### Q6. Why am I getting a null value for the Teams channel metric?
+
+Refer to [Null values after filtering Teams channel metrics](../tutorials/null-value-interaction-type.md).
