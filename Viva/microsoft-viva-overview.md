@@ -197,7 +197,6 @@ Choose the experiences you want for your employees.
 ### Experience
 
 #### Connection
-
 :::row:::
 :::column span="3":::
 
@@ -210,10 +209,12 @@ Choose the experiences you want for your employees.
 :::column span="":::
 :::image type="icon" source="media/logos/engage-launch-c-64.svg":::</br>[Viva Engage](#viva-engage)
 :::column-end:::
+:::column span="":::
+
+:::column-end:::
 :::row-end:::
 
 #### Insight
-
 :::row:::
 :::column span="3":::
    
@@ -225,10 +226,12 @@ Choose the experiences you want for your employees.
 :::column-end:::
 :::column span="":::
 :::column-end:::
+:::column span="":::
+
+:::column-end:::
 :::row-end:::
 
 #### Growth
-
 :::row:::
 :::column span="3":::
  
@@ -241,10 +244,12 @@ Choose the experiences you want for your employees.
 :::column span="":::
 :::image type="icon" source="media/logos/learning-launch-c-64.svg":::</br>[Viva Learning](#viva-learning)
 :::column-end:::
+:::column span="":::
+
+:::column-end:::
 :::row-end:::
 
 #### Purpose
-
 :::row:::
 :::column span="3":::
    
@@ -256,10 +261,12 @@ Choose the experiences you want for your employees.
 :::column-end:::
 :::column span="":::
 :::column-end:::
+:::column span="":::
+
+:::column-end:::
 :::row-end:::
 
 #### Role-based
-
 :::row:::
 :::column span="3":::
 
@@ -271,44 +278,158 @@ Choose the experiences you want for your employees.
 :::column-end:::
 :::column span="":::
 :::column-end:::
+:::column span="":::
+
+:::column-end:::
 :::row-end:::
 
+[End Option E]
 
+
+[Option F - Combo of different sections]
+
+### Experience
+
+#### Connection
+:::row:::
+:::column span="":::
+:::image type="icon" source="media/logos/connections-launch-c-64.svg":::
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/engage-launch-c-64.svg":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="":::
+This employee experience app in Microsoft Teams connects employees with tools, news, and resources. Content is displayed on a dashboard and tailored to each individual based on their role, region, and interests.</br></br>[Get more information on Viva Connections](/viva/connections/viva-connections-overview)
+:::column-end:::
+:::column span="":::
+This employee experience app brings people together across the organization to connect with leaders, coworkers, and communities. It can also help people  crowdsource answers and ideas, share their work and experience, and find belonging at work. The Viva Engage app integrates these experiences into Microsoft Teams and introduces new features including storyline and stories. These new features will also appear in the Yammer web, desktop and mobile apps, so no matter where an employee visits, they’ll see the same content and feature set.</br></br>[Get more information on Viva Engage](/viva/engage/overview)
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::row-end:::
+
+#### Insight
+:::row:::
+:::column span="":::
+:::image type="icon" source="media/logos/insights-launch-c-64.svg":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="":::
+This employee experience app helps improve productivity and wellbeing through data-driven, privacy-protected insights and recommendations. It combines communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps employees use every day, such as Microsoft Teams.</br></br>[Get more information on Viva Insights](/viva/insights/index)
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::row-end:::
+
+#### Growth
+:::row:::
+:::column span="":::
+:::image type="icon" source="media/logos/topics-launch-c-64.svg":::
+:::column-end:::
+:::column span="":::
+:::image type="icon" source="media/logos/learning-launch-c-64.svg":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="":::
+This employee experience app applies AI to automatically organize content and expertise across your systems and teams into related topics, projects, products, processes, and customers. That content appears as topic pages and topic centers—created and updated by AI—that enables experts to cultivate and share knowledge with wiki-like simplicity. It also pops up as topic cards that deliver knowledge across Outlook, SharePoint, and Office.</br></br>[Get more information on Viva Topics](/viva/topics/topic-experiences-overview)
+:::column-end:::
+:::column span="":::
+This employee experience app brings enterprise learning into the flow of work by connecting content from your organization, Learning Management Systems, third-party providers, and Microsoft.</br></br>[Get more information on Viva Learning](/viva/learning/overview-viva-learning)
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::row-end:::
+
+#### Purpose
+:::row:::
+:::column span="":::
+:::image type="icon" source="media/logos/goals-launch-c-64.svg":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="":::
+This goal-setting and management solution aligns teams to your organization’s strategic priorities, driving results and a thriving business. With Viva Goals, you can connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.</br></br>[Get more information about Viva Goals](/viva/goals/intro-to-ms-viva-goals)
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::row-end:::
+
+#### Role-based
+:::row:::
+:::column span="":::
+:::image type="icon" source="media/logos/viva-sales-logo-1.png":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="":::
+This seller experience app uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. The app is designed to help sellers work the way they want to without unnecessary context switching and manual data entry. Viva Sales brings together the apps you work with daily—your CRM, Microsoft 365, and Microsoft Teams—to provide a more streamlined and AI-powered selling experience.</br></br>[Get more information on Viva Sales](/viva/sales/introduction)
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::column span="":::
+:::column-end:::
+:::row-end:::
+
+[End option F]
 
 #### Viva Connections
 This employee experience app in Microsoft Teams connects employees with tools, news, and resources. Content is displayed on a dashboard and tailored to each individual based on their role, region, and interests.
 
-[Get more information on Viva Connections](/viva/connections/viva-connections-overview).
+[Get more information on Viva Connections](/viva/connections/viva-connections-overview)
 
 #### Viva Engage
 This employee experience app brings people together across the organization to connect with leaders, coworkers, and communities. It can also help people  crowdsource answers and ideas, share their work and experience, and find belonging at work. The Viva Engage app integrates these experiences into Microsoft Teams and introduces new features including storyline and stories. These new features will also appear in the Yammer web, desktop and mobile apps, so no matter where an employee visits, they’ll see the same content and feature set.
 
-[Get more information on Viva Engage](/viva/engage/overview).
+[Get more information on Viva Engage](/viva/engage/overview)
 
 #### Viva Insights
 This employee experience app helps improve productivity and wellbeing through data-driven, privacy-protected insights and recommendations. It combines communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps employees use every day, such as Microsoft Teams.
 
-[Get more information on Viva Insights](/viva/insights/index).
+[Get more information on Viva Insights](/viva/insights/index)
 
 #### Viva Topics
 This employee experience app applies AI to automatically organize content and expertise across your systems and teams into related topics, projects, products, processes, and customers. That content appears as topic pages and topic centers—created and updated by AI—that enables experts to cultivate and share knowledge with wiki-like simplicity. It also pops up as topic cards that deliver knowledge across Outlook, SharePoint, and Office.
 
-[Get more information on Viva Topics](/viva/topics/topic-experiences-overview).
+[Get more information on Viva Topics](/viva/topics/topic-experiences-overview)
 
 #### Viva Learning
 This employee experience app brings enterprise learning into the flow of work by connecting content from your organization, Learning Management Systems, third-party providers, and Microsoft.
  
-[Get more information on Viva Learning](/viva/learning/overview-viva-learning).
+[Get more information on Viva Learning](/viva/learning/overview-viva-learning)
 
 #### Viva Goals
 This goal-setting and management solution aligns teams to your organization’s strategic priorities, driving results and a thriving business. With Viva Goals, you can connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
 
-[Get more information about Viva Goals](/viva/goals/intro-to-ms-viva-goals).
+[Get more information about Viva Goals](/viva/goals/intro-to-ms-viva-goals)
 
 #### Viva Sales
 This seller experience app uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. The app is designed to help sellers work the way they want to without unnecessary context switching and manual data entry. Viva Sales brings together the apps you work with daily—your CRM, Microsoft 365, and Microsoft Teams—to provide a more streamlined and AI-powered selling experience.
 
-[Get more information on Viva Sales](/viva/sales/introduction).
+[Get more information on Viva Sales](/viva/sales/introduction)
 
 ## Partner integrations
 Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. Here are the current partner integrations. New partners are being added on an ongoing basis, so check back for more.
@@ -321,9 +442,9 @@ Microsoft Viva supports several partner integrations to give you access to indus
 
 **Viva Goals**: This app has dozens of partner integrations. [Find the latest list here](/viva/goals/integrations-overview).
 
-[Find out more about partner integrations](https://www.microsoft.com/en-us/microsoft-viva/integrations).
+[Find out more about partner integrations](https://www.microsoft.com/en-us/microsoft-viva/integrations)
 
 ## Viva Solutions
 The Viva solution center provides guidance to help understand, plan, and implement integrated Viva solutions. Here you'll find summaries of each Viva app, license requirements, how to plan and combine apps for greater impact, and more.
 
-[Access the Microsoft Viva solution center](/viva/solutions/solutions).
+[Access the Microsoft Viva solution center](/viva/solutions/solutions)
