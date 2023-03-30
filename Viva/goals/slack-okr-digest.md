@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn about OKR Digests in Viva Goals"
 ---
 
-# OKR Digest Updates 
+# OKR digest updates 
 
 Get summarized OKR progress and status updates for the company, teams, or individuals delivered to emails or [Slack](https://slack.com/) channels to stay current on what's happening in your company.
 
