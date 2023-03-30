@@ -1,5 +1,5 @@
 ---
-title: Four stages of Viva Glint program
+title: Four stages of Viva Glint programs
 description: Know about the four phases of Viva Glint's feedback program. 
 ms.author: SarahBerg
 author: SarahAnneBerg
