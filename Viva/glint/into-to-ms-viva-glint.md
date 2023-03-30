@@ -27,7 +27,7 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 Great teams build great cultures, and great cultures fuel great companies.
 
-## Objectives
+## How does Viva Glint improve overall health of your organization?
 
 With Viva Glint you can:
 
