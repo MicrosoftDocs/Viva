@@ -21,6 +21,10 @@ description: Enable inline playback to play SAP SuccessFactors courses in Viva L
 
 Viva Learning and SAP SuccessFactors integration allows seamless authentication (SSO) and in-app playback. Users can access SAP SuccessFactors content inline within Viva Learning instead of launching content in a browser.  
 
+Inline playback is optimized for Teams desktop and web. It loads the SuccessFactors embedded player.
+
+SAP SuccessFactors does not provide support for embedded content player in mobile applications. When using the Teams mobile app, inline playback loads the SAP SuccessFactors details page.
+
 >[!IMPORTANT]
 > The ability to play SAP SuccessFactors courses inline in Viva Learning is supported for SuccessFactors version 2205 (May 2022) and earlier. Changes introduced within the SuccessFactors 2211 (November 2022) release breaks the in-app play of content. We are currently working with SAP SuccessFactors to resolve this issue and will provide updates as soon as they are available.
 
