@@ -86,12 +86,12 @@ The following steps guide you through the process of importing the attributes ma
 > [!NOTE]
 > Only the user performing the upload will receive an email, even when other file notification emails go to multiple email addresses.
 
-## Update your Employee Attribute file
+## Update your Employee Attribute File
 
 Your company can send Employee Attribute File updates whenever necessary and based on whatever cadence works best for you. Some companies send daily, weekly, or monthly updates, while others don’t forward updates until they're ready to launch a survey. 
 
 > [!TIP]
-> Update your employee attributes file weekly, or at least at a regular cadence. 
+> Update your Employee Attribute File weekly, or at least at a regular cadence. 
 >
 > If you have fewer than 10,000 employees in your attributes base, a daily feed of the full file should be sufficient, and you won’t have to send an incremental file. If you have a large employee data set with several attributes (50+), sending full files 1-2 times per month with daily incremental files may make more sense for your company’s needs.
 
