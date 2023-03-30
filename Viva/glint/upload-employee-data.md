@@ -68,7 +68,7 @@ The import function allows you to quickly modify employee records in bulk and ad
 - For a quick upload of user attributes
 
 > [!TIP]
-> Update your employee file on a regularly basis. Ensure that your latest employee attributes have been sent and uploaded prior to a survey launch as your attributes can't be changed at the point of survey launch.
+> Update your employee file on a regular basis. Ensure that your latest employee attributes have been sent and uploaded prior to a survey launch as your attributes can't be changed at the point of survey launch.
 
 ### Process for manual import of employee attributes
 
@@ -79,8 +79,9 @@ The following steps guide you through the process of importing the attributes ma
 3. Select **Import**.
 4. Select the checkbox when updating all employee records, both in the file and in the system. 
 5. Drag and drop your file or browse to select it. 
-6. Select **Import File**. A message appears, informing you that an email is sent once the upload is ready for review and confirms your changes.
-7. Then, select **Close**. 
+
+    Select **Import File**. A message appears, informing you that an email is sent once the upload is ready for review and then confirm your changes.
+6. Then, select **Close**.
 
 > [!NOTE]
 > Only the user performing the upload will receive an email, even when other file notification emails go to multiple email addresses.

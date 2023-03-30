@@ -17,9 +17,9 @@ localization_priority: high pri
 ms.date: 03/24/2023
 ---
 
-# Four stages of Viva Glint program
+# Four stages of Viva Glint programs
 
-The article walks you through the four stages of Viva Glint program to help you launch the right feedback program to the people in your organization.
+The article walks you through the four stages of Viva Glint program to help you launch the right feedback program to the right people in your organization.
 
 You can create a strong feedback program by incorporating these four phases:
 
