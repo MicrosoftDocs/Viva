@@ -102,10 +102,10 @@ We are working hard to bring all Viva Engage functionality to the new B2B guests
 - **Cross-Geography guests** – Today we enable organizations to host Viva Engage in two data centers – Europe and North America. With this new guest support, users will be able to add guests from their same geography. Check [the Yammer public roadmap](https://go.microsoft.com/fwlink/?linkid=2132131) to see timelines for Cross-Geography support.
 
 - **Private messages** – Private messages are disabled for B2B guests in Viva Engage.
-- **Live events** – Currently guests will not be able to participate in live events because guests are not yet supported by Microsoft Stream. To learn more about when these features will be available, see the [Microsoft 365 roadmap](https://go.microsoft.com/fwlink/?linkid=2132131).
-- **Adding guests during community creation** – Community owners can invite guests by using edit membership flow for any community. In the current release, community owners will not be able to add guest emails at the time of community creation.
-- **Interactive Viva Engage email notifications in Outlook** – B2B Guests will continue to receive the legacy email notifications from the communities that they are added to as guests, instead of the new interactive email notifications. In the communities where these users are not guests, the interactive email notifications will work as expected.
-- **Addition of Guests to the All Company community** – Guests cannot be added to the All Company community.
+- **Live events** – Currently, guests can't participate in live events because guests aren't yet supported by Microsoft Stream. To learn when these features may become available, see the [Microsoft 365 roadmap](https://go.microsoft.com/fwlink/?linkid=2132131).
+- **Add guests during community creation** – Community owners can invite guests by using the edit membership flow for any community. In the current release, community owners can't add guest email addresses at the time of community creation.
+- **Interactive Viva Engage email notifications in Outlook** – Interactive email notifications for B2B guests isn't available in this preview. B2B guests continue to receive the legacy email notifications from the communities that they're added to as guests instead of the new interactive email notifications. In the communities where these users aren't guests, the interactive email notifications work as expected.
+- **Addition of guests to the All Company community** – Guests can't be added to the All Company community.
 
 ## FAQ
 
