@@ -4,7 +4,7 @@ title: Introduction to Microsoft Viva Goals
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -76,6 +76,6 @@ The resources in this section help your users learn how to use and manage Viva G
 |If you're looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn how to use review dashboards     |[Review dashboard](/viva/goals/review-dashboard)         |
-|Learn how to use projects|[Projects](/viva/goals/projects)         |
+|Learn how to use initiatives|[Initiatives](/viva/goals/projects)         |
 |Learn how to integrate your other tools| [Viva Goals integrations overview](/viva/goals/integrations-overview)        |
 
