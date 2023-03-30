@@ -1,6 +1,6 @@
 ---
 title: Four stages of Viva Glint program
-description: Know about the four phases of Glint's feedback program. 
+description: Know about the four phases of Viva Glint's feedback program. 
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
@@ -19,7 +19,7 @@ ms.date: 03/24/2023
 
 # Four stages of Viva Glint program
 
-The article walks you through the four stages of Glint program to help you launch the right feedback program to the people in your organization.
+The article walks you through the four stages of Viva Glint program to help you launch the right feedback program to the people in your organization.
 
 You can create a strong feedback program by incorporating these four phases:
 
@@ -28,7 +28,7 @@ You can create a strong feedback program by incorporating these four phases:
 3. **INsight** - Gather and analyze feedback using reporting results.
 4. **Transform**- Implement small, meaningful changes across your company.
 
-## Choosing the Viva Glint program
+## Questions to consider for Viva Glint program
 
 The following set of questions in each phase ensure that you're prepared to launch the right survey, to the right people, and that your resulting action-taking is insightful and sustainable. You may connect with your leaders for the most effective insights.
 
@@ -61,7 +61,7 @@ Answer these questions:
 - How are results, next steps, and expectations communicated to leaders and managers?
 - Can you become more agile with your rollout and platform access strategy?
 - How can you continue to bring insights into other key strategic initiatives?
-- How did you onboard leaders and managers to Glint? Employees? HR team members?
+- How did you onboard leaders and managers to Viva Glint? Employees? HR team members?
 
 ### Transform phase
 
@@ -74,6 +74,6 @@ Answer these questions:
 - Do employees feel empowered to participate and influence change?
 - Do HR employees coach leaders and managers to enable change?
 
-The following image shows the four phases of the Glint program:
+The following image shows the four phases of the Viva Glint program:
 
 :::image type="content" source="../media/glint/fours-stages-of-glint.png" alt-text="Image of the four phases of Viva Glint program":::

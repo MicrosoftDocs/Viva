@@ -1,5 +1,5 @@
 ---
-title: Viva Glint Survey
+title: Viva Glint Survey overview
 description: Learn about Glint's employee engagement survey programs, Lifecycle survey programs, and 360 Feedback programs to improve business.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 03/24/2023
 ---
 
-# Viva Glint Survey
+# Viva Glint Survey overview
 
 Viva Glint believes that ongoing, frequent communications to solicit and collect employee feedback is crucial to any organization’s success. Viva Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees, which deliver rich insights that translate into actionable opportunities to improve business.
 
@@ -27,7 +27,7 @@ In addition to **Engagement survey programs**, Viva Glint customers can opt into
 
 Our People Science team regularly updates the survey items and develops templates that provide meaningful insights into the current world of work.
 
-## Types of Surveys
+## Details of the Surveys
 
 Within our survey programs, there are two overarching types to consider:
 
