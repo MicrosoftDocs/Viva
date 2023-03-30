@@ -15,18 +15,17 @@ ms.collection:
 - M365initiative-viva
 search.appverid:
 - MET150
-description: "Learn how you can streamline and engage your employees in a hybrid workplace with Microsoft Viva."
+description: "Learn how you can engage your employees in a hybrid workplace with Microsoft Viva."
 ---
 
 # Onboarding employees who are new or changing roles
 
-Your organization is hiring, and you need to onboard new employees – some of whom are in the office, and some of whom are working remotely. Or, you may have employees who are changing roles within the organization and need to ramp up quickly and learn about their new roles. It is essential to streamline the onboarding process and make it easy for people to find consolidated information and know what actions to take as they onboard to the company or to a new role. Here are ways that you can take advantage of Microsoft Viva to help every employee onboard successfully.
+Your organization is hiring, and you need to onboard new employees – some who work in the office and some who work remotely. You may also have employees who are changing roles within the organization and need to ramp up quickly and learn about their new roles. It's essential to streamline the onboarding process and make it easy for people to find consolidated information and know what actions to take as they onboard to the company or begin a new role. Here are some ways you can use Microsoft Viva to help every employee onboard successfully.
 
 
-
-| Viva Learning | Viva Topics | Microsoft Stream | Viva Insights | Viva Connections |
----|---|---|---|---|
- | Target specific training for new employees. | New team members can learn about popular terms, acronyms, projects, and more. | Use videos for training and onboarding. | Help new team members spend time productively. | Provide easy access to benefits, training materials, and resources. |
+| Viva Learning | Viva Topics | Microsoft Stream | Viva Insights | Viva Connections | Viva Engage |
+|---|---|---|---|---|---|
+ | Target specific training for new employees. | Help new team members learn about popular terms, acronyms, projects, and more. | Use videos for training and onboarding. Stream company events. | Help new team members spend time productively. | Provide new employees with easy access to benefits, training materials, and resources. | Give new employees a place to connect and engage with leaders, colleagues, and communities.|
 
 **Roles for this scenario**: Human Resource specialists, knowledge admins, and SharePoint admins, site owners and page authors
 
@@ -72,4 +71,11 @@ Bring together Learning, Insights, and Stream in Viva Connections by adding card
 
 ![Image of a dashboard](../media/dashboard.png)
 
+### Viva Engage
+
+Help new employees get up to speed quickly by using Viva Engage to connect with people across the company, no matter where they work. They can connect and engage with leaders, colleagues, and employee communities. Engage also helps new employees discover virtual events and conversations where they can ask questions, make new contacts, and start building their network. Learn more in [Introducing Viva Engage](/viva/engage/overview).
+
+<iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Next**: Learn how to support [frontline workers with Microsoft Viva](/Viva/solutions/viva-front-line-workers).
+ 
