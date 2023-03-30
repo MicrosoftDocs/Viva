@@ -23,7 +23,7 @@ description: "Team Summary is easily enabled from the Viva Glint admin dashboard
 
 ## Enable Team Summary as the default dashboard
 
-1. From the Glint dashboard, select **Configure** and then **Pulse Programs**.  
+1. From the Viva Glint dashboard, select **Configure** and then **Pulse Programs**.  
 
 1. Select the survey.  
 
