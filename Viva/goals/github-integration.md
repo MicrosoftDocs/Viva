@@ -38,7 +38,7 @@ Admins can follow these steps to enable the integration:
 
 2. For **GitHub**, you'll have an option to **Enable** the integration. If a connection was previously made or if the integration was already enabled, you'll have the option to **Manage** the enabled integration.
     
-    :::image type="content" source="../media/goals/10/github-enable-button.png" alt-text="Screenshot shows the enable option highlighted on the integrations page.." lightbox="../media/goals/10/github-enable-button.png":::
+    :::image type="content" source="../media/goals/10/github-enable-button.png" alt-text="Screenshot shows the enable option highlighted on the integrations page." lightbox="../media/goals/10/github-enable-button.png":::
 
    You can also disable the integration from the same section: Go to **Change** and select **Disable integration** from the dropdown.
     
