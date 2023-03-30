@@ -73,7 +73,7 @@ In the topic center, a knowledge manager can review topics that have been identi
 
 ## Suggested topics
 
-On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be labled as **Suggested** in the status column. If needed, a knowledge manager can review unconfirmed topics and choose to confirm or remove them.
+On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be labeled as **Suggested** in the status column. If needed, a knowledge manager can review unconfirmed topics and choose to confirm or remove them.
 
    ![Screenshot of suggested topics.](../media/knowledge-management/suggested-topics-filtered-view.png) 
 
@@ -99,7 +99,7 @@ Each topic that appears on the manage topics page has an **Org topic score** and
 
  For example, if a user shows a high topic score for a topic, that user has the most comprehensive access to the resources of that topic and can edit and confirm the topic with full confidence. If an Org topic score is higher than a user’s Topic score, the knowledge manager can find someone who has a high topic score to update and confirm that topic.
 
-Knowledge managers might come across topic scores of 0 for some topics. A 0 topic score may occur when there's not enough resources attached to a particular topic that the user can access. Knowledge managers are encouraged to either augment these low-quality topics with additional information or remove them as needed. Topics that have an Org Topic score of 0 aren't displayed to end users because they aren't deemed to be of sufficient quality. Keep in mind that some topics can have associated information or resources available, and still have a 0 topic score due to the quality and quantity of those resources.
+Knowledge managers might come across topic scores of 0 for some topics. A 0 topic score may occur when there's not enough resources attached to a particular topic that the user can access. Knowledge managers are encouraged to either augment these low-quality topics with additional information or remove them as needed. Topics that have an Org Topic score of 0 aren't displayed to end users because they aren't deemed to be of sufficient quality. Keep in mind that some topics can have associated information or resources available, and still have a zero topic score due to the quality and quantity of those resources.
 
 ### Impressions
 
