@@ -128,7 +128,7 @@ If the epic has 10 stories owned by different designers, engineers, and testers 
 
 Consider an objective to *Improve the overall quality of the product*. In this case, you might want to track the number of bugs generated as opposed to the progress of issues as an indicator of overall quality. You can use the **Count of Tickets** metric in the tracking field to achieve the desired setup. Viva Goals will automatically tally up all the tickets generated.
 
-When an objective or key result is linked to Jira, members can see the Jira icon next to the progress bar that indicate a connection.
+When an objective or key result is linked to Jira, members can see the Jira icon next to the progress bar that indicates a connection.
 
 The following colors of the progress bar indicate the status of the objective:
 
@@ -167,7 +167,7 @@ Viva Goals periodically checks on initiative progress in Jira and updates status
 Initiatives currently have the following limitations:
 
 - You can't create unaligned, top-level initiatives. They must align to an objective or key result.
-- You can't edit the alignment for a initiative when you create it. You can only create it under an existing objective or key result, and it will be aligned to that objective or key result.
+- You can't edit the alignment for an initiative when you create it. You can only create it under an existing objective or key result, and it will be aligned to that objective or key result.
 - Private initiatives aren't supported. Initiatives can be seen by all Viva Goals users.
 - You can't clone initiatives, and you can't perform bulk actions like changing the time period on multiple initiatives at once.
 - Initiatives can have a maximum of 200 tasks.
