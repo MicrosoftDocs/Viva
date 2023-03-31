@@ -12,10 +12,18 @@
 
  1. Under **Predefined template metrics**, view a list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. However, you can add other metrics. 
      1. Customize your keywords (optional). This query uses a set of keywords within the **Calendared learning time** metric to determine training-related events. If you want to customize these keywords, you'll need to create a new metric now. Go to the [To customize your keywords](../new-hire-onboarding.md#to-customize-your-keywords) section for detailed steps on creating a new custom metric. Then, return here to complete the query process.
+ 1. In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, refer to [Filters](../../filters.md).
+1. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
+    >[!Important]
+    >Some employee attributes are required to set up this Power BI template, and we've preselected them for you in the query. You can't remove these preselected attributes.
+    >
+    >If you notice attributes marked in red and the query’s **Run** button disabled, it means that these attributes are required and they're missing from your organizational data. Contact your admin to upload them.
+ 1. Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
+ 1. When your query results are ready, go to the **Query results page** and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
 
 ### Link report to query
 
-10. Open the downloaded template.
+9. Open the downloaded template.
 1. If you're prompted to select a program, select **Power BI**.
 1. When you're prompted by Power BI:
    1. Paste in the partition and query identifiers.
