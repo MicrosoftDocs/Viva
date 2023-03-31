@@ -47,6 +47,8 @@ items:
       href: custom-url-widget.md
     - name: Roles and Permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
+    - name: Viva Goals security, privacy, and compliance
+      href: vg-privacy-and-security.md  
     - name: Viva Goals language and region support
       href: viva-goals-language-support.md
 - name: MS Teams
@@ -137,7 +139,9 @@ items:
         - name: Tableau Integration
           href: tableau-integration.md
         - name: Trello Integration
-          href: trello-integration.md  
+          href: trello-integration.md 
+        - name: Zapier Integration
+          href: zapier-integration.md 
         - name: Zendesk Integration
           href: zendesk-integration.md
        
