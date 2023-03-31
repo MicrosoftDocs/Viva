@@ -14,9 +14,9 @@ audience: Admin
 
 # Import organizational data (first import)
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of four ways: through Azure Active Directory, which is the default source; through a .csv file that you as an Insights Administrator upload; through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up; or through a connection between Workday and Viva Insights.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
 
-This article talks about the third option: importing data. To import data from a source system, you'll need to coordinate a few tasks between your Microsoft 365 IT admin and your data source admin, including registering a new app and getting a security certificate. Refer to the next section, [Workflow](#workflow), for an overview of required steps.
+This article talks about the third option: importing data. When you set up an import, you’ll drop your exported source data into a zip file, along with some metadata for Viva Insights. Viva Insights then pulls that data in to the advanced insights app. To start importing data, you'll need to coordinate a few tasks between your Microsoft 365 IT admin and your data source admin, including registering a new app and getting a security certificate. Refer to the next section, [Workflow](#workflow), for an overview of required steps.
 
 >[!Important]
 >Only use the following steps if this is the first time you’re importing organizational data. If this isn’t your first import, refer to [Import organizational data (subsequent imports)](import-org-data-subsequent.md) to refresh previously imported data.
@@ -25,6 +25,7 @@ This article talks about the third option: importing data. To import data from a
 
 
 1. Setup:
+    1. The data source admin [prepares their data export](#prepare-the-data-export).
     1. The data source admin [generates a security certificate](#generate-the-security-certificate) and provides it to the Microsoft 365 IT admin.
     1. The Microsoft 365 IT admin [registers a new app in Azure](#register-a-new-app-in-azure).
     1. The Insights Administrator [sets up the automated import](#set-up-the-import-in-viva-insights).
@@ -34,15 +35,32 @@ This article talks about the third option: importing data. To import data from a
 
 After the data successfully validates and processes, the overall data-import task is complete.
 
-:::image type="content" source="../images/org-data-import.png" alt-text="org data import flowchart" lightbox="../images/org-data-import.png":::
+:::image type="content" source="../images/admin-import-diagram-small.png" alt-text="org data import flowchart" lightbox="../images/admin-import-diagram.png":::
 
 ## Setup
+
+### Prepare the data export
+
+*Applies to: data source admin*
+
+To make the data-transfer process go smoothly, you’ll need to export and save your source data in the right format.
+
+1. Export organizational data from your source system as a .csv.
+1. Download the zip folder we’ve prepared for you here: 
+1.	Open OrganizationalDataFile.xlsx within the zip folder and save the Template tab as a .csv.
+1.	Enter your data in the **Template** tab and format your data according to our guidelines in [Prepare organizational data](prepare-org-data.md).
+
+>[!Note]
+>Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference.
+
+You’ll enter the path for the zip folder when you set up the connection to Viva Insights.
+
 
 ### Generate the security certificate
 
 *Applies to: data source admin*
 
-To start getting data from the source system into Viva Insights, the Microsoft 365 admin needs to create and register an app in Azure. As the data source admin, you’ll need to help the Microsoft 365 admin register their app by giving them a security certificate.
+To start getting data from your source file into Viva Insights, the Microsoft 365 admin needs to create and register an app in Azure. As the data source admin, you’ll need to help the Microsoft 365 admin register their app by giving them a security certificate.
 
 Here’s what to do:
 
@@ -129,9 +147,9 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
     1. From **Data connections**:
     
-        1. Next to **Current source**, select the **Manage** button.
+        1. Next to **Current source**, select the **data sources** button.
 
-        1. A **Switch to: Automated organizational data import** window appears. Select **Start**.
+        1. A **Switch to: Automated import** window appears. Select **Start**.
 
 1. On the **Automated organizational data import** page:
     1. Give your connection a name.
@@ -146,27 +164,43 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
 *Applies to: data source admin*
 
-<!--PENDING DOC FOR CONNECTOR-->
+To send data to Viva Insights, you’ll need set up the connection between your source data and Viva Insights. To create this connection, we made [an app in GitHub](https://github.com/microsoft/vivainsights_ingressupload/tree/main/DescriptiveDataUploadApp), which you can clone and use.
+ 
+Here’s how to get the app set up:
 
-1. Download the [] plugin and configure it in your environment.
+>[!Note]
+>We wrote these directions specifically for Visual Studio, but you can set up your application through any code editor.
 
-1. Enter the application ID and tenant ID that the Microsoft 365 IT admin gave you.
+#### Set up the application
 
-1. Prepare data.
+1. Clone the app. Open a command prompt and enter the following command: `git clone https://github.com/microsoft/vivainsights_ingressupload.git`.
+1. If Visual Studio was open, close it. Open or re-open Visual Studio as an administrator.
+1. On the right, select **Open a local folder**. Choose the cloned folder (**vivainsights_ingressupload**). 
+    >[!Note]
+    >The cloned folder will live in whichever directory you ran the git clone command from.
+1. On the right, in the **Solution Explorer** tab, double-click **DescriptiveDataUploadApp.sln**.
+    :::image type="content" source="../images/admin-upload-app-sln1.png" alt-text="Screenshot of DescriptiveDataUploadApp.sln in Visual Studio's Solution Explorer.":::
+1. At the top of Visual Studio, you’ll need to select a start-up project. Select **DescriptiveDataUploadApp.csproj**.
+1. Select the play button to run the app or press Ctrl + F5 on your keyboard.
+    :::image type="content" source="../images/admin-upload-app-play1.png" alt-text="Screenshot of the play button for DescriptiveDataUpload app in Visual Studio.":::
 
-1. When the Insights admin requests you to send data:
-    1. Connect the plugin to Viva.
-    1. Select the fields that should be included in the .csv export.
-    1. Check the .csv file to make sure it's [properly formatted](#guidelines-for-correcting-errors-in-data).
-    1. Enter how frequently you want to send data to Viva Insights.
-    1. Select **Submit**. You're now sending data to Viva Insights.
+#### Enter values in the console
 
+>[!Note]
+>None of the values require quotation marks ("") around them.
+
+After you set up the app, a console pops up asking you for the following inputs:
+
+1. App (client) ID. Find this ID in the registered app information on the Azure portal under **Application (client) ID**. If you haven’t created and registered your app yet, follow the instructions in [Register a new app in Azure](#register-a-new-app-in-azure).
+1. Path to the zipped file you downloaded in Prepare organizational data. Format the path like this: `C:\\Users\\JaneDoe\\OneDrive - Microsoft\\Desktop\\info.zip`.
+1. Azure Active Directory tenant ID. Also find this ID on the app's overview page under **Directory (tenant) ID**.
+1. Certificate name. This name is configured in your registered application. If you haven’t created a certificate yet, refer to [How to create a self-signed certificate](/azure/active-directory/develop/howto-create-self-signed-certificate). After you upload the certificate, the certificate name shows up under **Description** in the Azure Portal.
 
 ## Validation
 
 After the data source admin sends data, the app starts validating.
 
-In most cases, file validation should complete quickly. If your organizational data file is large, validation could take up to one or two minutes. After this phase completes, validation has either succeeded or failed. Depending on the outcome, you’ll either receive a success notification or a failure notification in the top-right corner of the **Data connections** screen.
+After this phase completes, validation has either succeeded or failed. Depending on the outcome, you’ll either receive a success notification or a failure notification in the top-right corner of the **Data connections** screen.
 
 For information about what happens next, go to the appropriate section:
 
@@ -208,60 +242,16 @@ If data validation fails, you'll see a "Validation failed" status in the **Impor
 
 The data source admin might find the following section helpful to fix data errors in their export file.
 
-#### Guidelines for correcting errors in data
+#### About errors in data
 
 *Applies to: data source admin*
 
-When any data row or column has an invalid value for any attribute, the entire import will fail until the data source admin fixes the source data. In this section, we go over some rules about the source file that might help resolve errors. For more information about preparing data, refer to [Prepare organizational data](prepare-org-data.md).
+When any data row or column has an invalid value for any attribute, the entire import will fail until the data source admin fixes the source data.
 
-##### Rules for the file
+Refer to [Prepare organizational data](prepare-org-data.md) for specific formatting rules that might help resolve errors you encounter.
 
-The data file needs to be in the .csv format, and it can't be empty.
-
-##### Rules for field headers
-
-All field header or column names need to:
-
-* Contain a value.
-* Be unique—that is, two column names can’t be the same.
-* Begin with a letter (not a number).
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**). 
-* Have no leading or trailing blank spaces or special characters (those that are non-alphanumeric, like *@*, *#*, *%*, *&*). You’ll get an error if your column name contains a formula.
-
-##### Rules for field values
-
-All rows need to contain the following fields:
-
-* **PersonId**
-* **ManagerId** (unless the import is an update for existing employees only) 
-* **Organization** (unless the import is an update for existing employees only)
-* **EffectiveDate** 
-
-    >[!Note]
-    >If you don’t enter a value here, Viva Insights will assign the date of upload as the **EffectiveDate**.
-
-Some field values need to follow specific formatting, as described in this table:
-
-|Field | Format |Example
-|------|--------|------|
-|**EffectiveDate** | MM/DD/YYYY | `01/15/2023`
-|**HireDate** | MM/DD/YYYY | `01/15/2023`
-|**PersonId** | Valid email address| `gc@contoso.com`
-|**ManagerId** | Valid email address |`gc@contoso.com`
-|**Layer** | Numbers only | `5`
-| **HourlyRate** <sup>1</sup> | <ul><li>Numbers only <li>Double| `23.75`
-
-<sup> 1. The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
-
-
-##### Rules for characters in field values
-
-The following field rules apply to characters in field values:
-
-* Double-byte characters, such as Japanese characters, are permitted in the field values.
-* The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line” (\n) characters are not permitted in field values. 
-
-## Related topic
+## Related topics
 
 [Prepare organizational data](prepare-org-data.md)
+
+[Import organizational data (subsequent import)](import-org-data-subsequent.md)
