@@ -62,6 +62,12 @@
         href: check-in-okrs-overview.md
       - name: Check-in OKRs Recommendations
         href: check-in-recommendations.md
+    - name: Close OKRs and Initiatives
+      items:
+      - name: Close OKRs Overview
+        href: close-okrs-overview.md
+      - name: Close OKRs Recommendations
+        href: close-recommendations.md
     - name: Rhythm of Business
       items:
       - name: Rhythm of Business Overview
