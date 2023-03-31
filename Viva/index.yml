@@ -154,6 +154,8 @@ additionalContent:
               url: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
             - text: Use Microsoft Viva in the hybrid workplace
               url: /viva/solutions/viva-for-the-hybrid-workplace
+            - text: Run a healthy OKR program with Viva Goals
+              url: /viva/solutions/healthy-okr-program-overview
             - text: Solve common business problems with accelerators
               url: /viva/solutions/introduction
             - text: Incorporate learning into your organization
