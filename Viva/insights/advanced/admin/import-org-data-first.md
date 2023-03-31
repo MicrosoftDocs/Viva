@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 title: Import organizational data (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: lilyolason
