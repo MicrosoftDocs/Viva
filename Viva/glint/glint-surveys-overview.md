@@ -19,7 +19,7 @@ ms.date: 03/24/2023
 
 # Viva Glint survey types overview
 
-Viva Glint believes that ongoing, frequent communications to solicit and collect employee feedback is crucial to any organization’s success. Viva Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees, which deliver rich insights that translate into actionable opportunities to improve business.
+Microsoft Viva Glint believes that ongoing, frequent communications to solicit and collect employee feedback is crucial to any organization’s success. Viva Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees, which deliver rich insights that translate into actionable opportunities to improve business.
 
 Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition.
 

@@ -26,7 +26,7 @@ User file imports help admins to keep users current with their organization's HR
 
 ## Import attributes using SFTP
 
-Before you begin SFTP attributes transfer, ensure that Viva Glint has already added your public SSH Key and IP addresses for all users that connect to your account and complete the Allowed List steps.
+Before you begin SFTP attributes transfer, ensure that Microsoft Viva Glint has already added your public SSH Key and IP addresses for all users that connect to your account and complete the Allowed List steps.
 
 ### File requirements
 

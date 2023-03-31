@@ -19,7 +19,7 @@ ms.date: 03/24/2023
 
 # Introduction to Microsoft Viva Glint
 
-This article helps you to understand how Viva Glint makes people in your organization happier and more successful at work.
+This article helps you to understand how Microsoft Viva Glint makes people in your organization happier and more successful at work.
 
 ## Get started with Viva Glint
 

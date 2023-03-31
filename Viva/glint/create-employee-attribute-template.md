@@ -19,7 +19,7 @@ ms.date: 03/24/2023
 
 # Create your Employee Attribute Template
 
-The Employee Attribute Template is a guide and planning tool used to document your organization’s file format and attribute selections, before uploading your employee data to the Viva Glint system. This essential step helps our team to know which attributes to expect so your data can be structured and surfaced correctly in reporting and role reporting.
+The Employee Attribute Template is a guide and planning tool used to document your organization’s file format and attribute selections, before uploading your employee data to the Microsoft Viva Glint system. This essential step helps our team to know which attributes to expect so your data can be structured and surfaced correctly in reporting and role reporting.
 
 Use our template as guidance to ensure that data is uploaded in the correct format, incorporating our recommendations and requirements.
 
