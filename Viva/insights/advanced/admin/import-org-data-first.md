@@ -28,7 +28,7 @@ This article talks about the third option: importing data. When you set up an im
     1. The data source admin [prepares their data export](#prepare-the-data-export).
     1. The data source admin [generates a security certificate](#generate-the-security-certificate) and provides it to the Microsoft 365 IT admin.
     1. The Microsoft 365 IT admin [registers a new app in Azure](#register-a-new-app-in-azure).
-    1. The Insights Administrator [sets up the automated import](#set-up-the-import-in-viva-insights).
+    1. The Insights Administrator (Insights admin) [sets up the automated import](#set-up-the-import-in-viva-insights).
     1. The data source admin pushes data to Viva Insights.
 1. Validation: Viva Insights validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
 1. Processing: Viva Insights processes your data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).)
@@ -87,25 +87,25 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
 1. From the Microsoft admin center's left rail, select **All admin centers**. This option appears as the last one on the list.
 
-    :::image type="content" source="../images/admin-di-all-admin-centers.png" alt-text="all admin centers":::
+    :::image type="content" source="../images/admin-di-all-admin-centers.png" alt-text="Screenshot that shows selecting All admin centers from the left rail.":::
 
 1. Select **Azure Active Directory**.
 
 1. Create a new app registration:
     1. In the top toolbar, select **Add > App registration**.
 
-        :::image type="content" source="../images/admin-di-add-new-registration1.png" alt-text="add new app registration":::
+        :::image type="content" source="../images/admin-di-add-new-registration1.png" alt-text="Screenshot that shows the Azure portal add menu expanded with App registration highlighted.":::
 
     2. On the resulting screen:
         1. Give your app a name. 
         1. Under **Supported account types**, leave the first option, **Accounts in this organizational directory only ([Your organization] only - Single tenant)**, selected. 
         1. Select the **Register** button at the bottom of the screen.
 
-        :::image type="content" source="../images/admin-di-registration3.png" alt-text="name app":::
+        :::image type="content" source="../images/admin-di-registration3.png" alt-text="Screenshot that shows Register an application screen with i, ii, and iii that correspond to the steps listed above."lightbox="../images/admin-di-registration3.png":::
 
     1. When you arrive back at the **Overview** screen, copy down the **Application (client) ID** and **Directory (tenant) ID**.
     
-         :::image type="content" source="../images/admin-di-app-id.png" alt-text="ID and certificate/secret pane":::
+         :::image type="content" source="../images/admin-di-app-id.png" alt-text="Screenshot that shows the ID and certificate/secret pane in Azure.":::
 
 
     >[!Important]
@@ -122,15 +122,14 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
     3. Upload the certificate that the data source admin gave you and add a **Description**. Select the **Add** button.
 
-        :::image type="content" source="../images/admin-di-upload-cert-pane3.png" alt-text="ID and certificate/secret pane":::
+        :::image type="content" source="../images/admin-di-upload-cert-pane3.png" alt-text="Screenshot that shows the Upload certificate dialog box in Azure.":::
 
 5. Remove API permissions:
     1. Select **API permissions** from the left rail.
     2. For each listed **API / Permissions** name, select the ellipses (**...**) to the right of the API—for example, **Microsoft Graph**.
     3. Select **Remove permission**.
 
-        ![ID and certificate/secret pane](../images/admin-di-upload-remove-perms1.png)
-
+        :::image type="content" source="../images/admin-di-upload-remove-perms1.png" alt-text="Screenshot that shows selecting Remove permissions in Azure. "lightbox="../images/admin-di-upload-remove-perms1.png":::
     1. Confirm removal.
 
     When you remove permissions for these items, you’re making sure app only has permissions for what it needs.
@@ -224,14 +223,10 @@ After processing completes, it's either succeeded or failed. Depending on the ou
 
 When you find the “Success” status in the **Import history** table, the upload process is complete.
 
-![Screenshot that shows successful processing.](../images/admin-status-success.png)
-
 After you receive the “Success” status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
-![Screenshot that shows validation results.](../images/admin-upload-results.png)
 * Select the mapping icon to see the mapping settings for the workflow.
-![Screenshot that shows mapping settings.](../images/admin-map-results.png)
 
 >[!Note]
 >Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
