@@ -224,7 +224,7 @@ Help end users understand [how the new SharePoint app bar works](https://support
 
 ## Temporarily disable the SharePoint app bar
 
-You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until September 30, 2022. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future Message Center posts.
+You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until March 31, 2023. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future Message Center posts.
 
 Temporarily disable the SharePoint app bar:
 
