@@ -121,7 +121,7 @@ The table below shows which type of integrations are supported, their category, 
 
 ## How Data Integrations Work  
 
-Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and projects, enabling you to have a single source of truth for progress. For example, if you connect a Project to Azure Dev Ops, Viva Goals will be automatically updated according to progress in Azure Dev Ops. 
+Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and initiatives, enabling you to have a single source of truth for progress. For example, if you connect an initiative to Azure Dev Ops, Viva Goals will be automatically updated according to progress in Azure Dev Ops. 
 
 When you connect to a data source in Viva Goals, your authentication tokens are used to establish a secure connection between Viva Goals and the selected application. Once every hour, Viva Goals utilizes that connection to retrieve updates from the connected data source and reflect those updates in Viva Goals. 
 
