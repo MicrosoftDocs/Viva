@@ -22,14 +22,14 @@ You can manage topic discovery settings in the [Microsoft 365 admin center](http
 
 ## To access topics management settings:
 
-1. In the Microsoft 365 admin center, click **Settings**, then **Org settings**.
-2. On the **Services** tab, click **Topic experiences**.
+1. In the Microsoft 365 admin center, select **Settings**, then **Org settings**.
+2. On the **Services** tab, select **Topic experiences**.
 
-    ![Connect people to knowledge.](../media/admin-org-knowledge-options-completed.png) 
+    ![Screenshot of the Services tab with Topic Experiences selected.](../media/admin-org-knowledge-options-completed.png)
 
 3. Select the **Topic discovery** tab. See the following sections for information about each setting.
 
-    ![knowledge-network-settings.](../media/knowledge-network-settings-topic-discovery.png) 
+    ![Screenshot of the topic discovery page.](../media/knowledge-network-settings-topic-discovery.png)
 
 ## Select SharePoint topic sources
 
@@ -49,25 +49,25 @@ To choose sites for topic discovery
 2. On the **Select SharePoint topic sources** page, select which SharePoint sites will be crawled as sources for your topics during discovery. This includes:
     - **All sites**: All SharePoint sites in your tenant. This captures current and future sites.
     - **All, except selected sites**: Type the names of the sites you want to exclude.  You can also upload a list of sites you want to opt out from discovery. Sites created in the future will be included as sources for topic discovery. 
-    - **Only selected sites**: Type the names of the sites you want to include. You can also upload a list of sites. Sites created in the future will not be included as sources for topic discovery.
+    - **Only selected sites**: Type the names of the sites you want to include. You can also upload a list of sites. Sites created in the future won't be included as sources for topic discovery.
     - **No sites**: Topics won't be automatically generated or updated with SharePoint content. Existing topics remain in the topic center.
 
     ![Screenshot of SharePoint topic sources user interface.](../media/k-manage-select-topic-source.png)
    
-3. Click **Save**.
+3. Select **Save**.
 
 ## Exclude topics by name
 
 You can exclude topics from discovery by uploading a list using a .csv file. If you've previously excluded topics, you can download the .csv, make changes, and upload it again.
 
 1. On the **Topic discovery** tab, under **Exclude topics**, select **Edit**.
-2. Click **Exclude topics by name**.
-3. If you need to create a list, download the .csv template and add the topics that you want to exclude (see *Working with the .csv template* below). When the file is ready, click **Browse** and upload the file. If there's an existing list, you can download the .csv containing the list.
-4. Click **Save**.
+2. Select **Exclude topics by name**.
+3. If you need to create a list, download the .csv template and add the topics that you want to exclude (see *Working with the .csv template* below). When the file is ready, select **Browse** and upload the file. If there's an existing list, you can download the .csv containing the list.
+4. Select **Save**.
 
     ![Screenshot of exclude topics user interface.](../media/km-manage-exclude-topics.png)
 
-> [!Note] 
+> [!NOTE]
 > A topic, when excluded, can take up to 24 hours to stop appearing to users in your organization.
 
 ### Working with the .csv template
@@ -86,24 +86,25 @@ In the CSV template, enter the following information about the topics you want t
 - **Stands for (optional)**: If you want to exclude an acronym, type the words the acronym stands for.
 - **MatchType-Exact/Partial**: Type whether the name you entered was an *exact* or *partial* match type.
 
-    ![Exclude topics in CSV template.](../media/exclude-topics-csv.png) 
+    ![Screenshot of the exclude topics in CSV template.](../media/exclude-topics-csv.png) 
 
 ## Exclude resources based on sensitivity labels
 
 If you use sensitivity labels in your organization, you can exclude SharePoint sites and files that have sensitivity labels from topic discovery. This allows you to prevent these files from being listed as suggested files on a topic. Information in labeled files won't be used for AI-extracted topic names and descriptions.
 
-This setting excludes content based on both file and site labels. 
+This setting excludes content based on both file and site labels.
 
-Changing this setting may cause people, alternate names, or descriptions extracted from labeled files and sites to be removed from existing topics if they occur uniquely in those locations. Some already suggested topics may be removed if they are based only on labeled content. This process may take up to two weeks once you save the setting.
+Changing this setting may cause people, alternate names, or descriptions extracted from labeled files and sites to be removed from existing topics if they occur uniquely in those locations. Some already suggested topics may be removed if they're based only on labeled content. This process may take up to two weeks once you save the setting.
 
-This setting applies to content that is suggested by Viva Topics and will not remove any content that has been pinned to a topic page. 
+This setting applies to content that is suggested by Viva Topics and won't remove any content that has been pinned to a topic page.
 
 You must be a Microsoft 365 global admin to configure this setting.
 
-> [!Note] 
+> [!NOTE]
 > This option is only available if you have [created sensitivity labels in the Microsoft 365 compliance center](/microsoft-365/compliance/create-sensitivity-labels).
 
 To exclude resources based on sensitivity labels
+
 1. On the **Topic discovery** tab, select **Advanced settings**.
 1. Under **Exclude resources based on sensitivity labels**, select the labels for the resources you want to exclude.
 1. Select **Save**.
@@ -118,6 +119,7 @@ You can exclude specific people from being suggested for topics by Viva Topics. 
 You can exclude both individual users and security groups.
 
 To exclude people from being suggested for topics by AI
+
 1. On the **Topic discovery** tab, select **Advanced settings**.
 1. Under **Exclude people from being suggested for topics by AIsuggested for topics by AI**, select the **Exclude users or groups from being suggested for topics by AI** option.
 1. Type the users and groups that you want to exclude.

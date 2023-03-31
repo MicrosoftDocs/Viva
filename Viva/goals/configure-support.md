@@ -2,9 +2,9 @@
 ms.date: 07/18/2022
 title: Configure help and support for your organization
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
