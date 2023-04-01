@@ -60,7 +60,7 @@ You’ll enter the path for the zip folder when you set up the connection to Viv
 
 * For new data, include full historical data for all employees. 
 * Import organizational data for all employees in the company, including licensed and non-licensed employees. 
-* Refer to the sample .csv template [LINK PENDING] for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
+* Refer to the sample .csv template for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
 
 
 ### Generate the security certificate
