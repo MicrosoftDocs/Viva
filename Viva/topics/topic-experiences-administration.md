@@ -39,7 +39,7 @@ To change the name of the topic center
 2. On the **Edit topic center name** page, in the **Topic center name** box, type the new name for your topic center.
 3. Select **Save**
 
-    ![Edit topic center name.](../media/manage-topic-center-name.png)  
+    ![Screenshot of the Edit topic center name page.](../media/manage-topic-center-name.png)  
 
 ## See also
 
