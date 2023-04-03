@@ -109,8 +109,8 @@ In PowerBI template queries, you might encounter data-quality errors and/or warn
 
 Power BI templates use metrics to produce insights. To make sure your template shows these insights correctly, we've preselected metrics for you in Power BI template queries. Preselected metrics appear in gray, and you can’t remove them. If a preselected metric uses a low-quality attribute, the app will flag the metric with a warning. Hover over the warning icon to get the name of the low-quality attribute. If your query has warnings, you can still run it and load the results into Power BI.
 
->[!Note]
->Right now, Power BI reports don't show which insights use flagged metrics.
+> [!NOTE]
+> Right now, Power BI reports don't show which insights use flagged metrics.
 
 #### Warnings or errors on filters
 
