@@ -25,6 +25,8 @@ The Team Summary manager dashboard experience displays results from the most rec
 
 The following guide describes each section in the manager dashboard. 
 
+The following guide describes each section in the manager dashboard. 
+
 ## Understand the survey title card 
 
 The title section includes:
@@ -37,7 +39,7 @@ The title section includes:
 
 ## Manager Concierge visibility
 
-The following four steps your manager sees:
+Your manager sees the following four steps: 
 
 1. Step 1 – Give feedback 
 1. Step 2 – Interpret results 
@@ -46,7 +48,7 @@ The following four steps your manager sees:
 
 ## What else will your manager see on their dashboard? 
 
-The manager dashboard defaults to showing the results from the most recent survey program. Switch to another program by using the **Switch Program** drop-down menu.
+The manager dashboard defaults to showing the results from the most recent survey program. Switch to another program by using the **Switch Program** drop down menu.
 
 ### Key driver
 
@@ -97,7 +99,7 @@ Use the right-facing arrow to drill down for more information and suggested acti
 
 ### Overview 
 
-This section shows the top strengths and opportunities that can drive your business.
+This section shows the Top Strengths and Top Opportunities that can drive your business.
 Strengths and opportunities are derived from a manager’s Driver Impact report.
 
 The following colors are used:
@@ -106,18 +108,18 @@ The following colors are used:
 - Red: Opportunity
 - Gray: Excluded; items may be excluded from a Strength & Opportunity calculation because they don't have a benchmark comparison, or they don't have a high impact on engagement.
 
-### Top strengths
+### Top Strengths
 
-The top strengths are as follows:
+The Top Strengths are as follows:
 
 - Up to three high impact strength scores with their correlating driver and survey item 
 - Benchmark comparison
 - Link to comments 
 - A video selected by your admin that will enhance your attention to your team’s strengths. Videos are available in English, French, German, Dutch, Spanish, Japanese, Portuguese (Brazil), Simplified Chinese, Italian, Polish, Turkish, and Russian.
 
-### Top opportunities
+### Top Opportunities
 
-The top opportunities are as follows:
+The Top Opportunities are as follows:
 
 - Up to three high impact opportunity scores with their correlating key driver and question 
 - Benchmark comparison 
