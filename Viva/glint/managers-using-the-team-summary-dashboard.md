@@ -25,8 +25,6 @@ The Team Summary manager dashboard experience displays results from the most rec
 
 The following guide describes each section in the manager dashboard. 
 
-The following guide describes each section in the manager dashboard. 
-
 ## Understand the survey title card 
 
 The title section includes:
