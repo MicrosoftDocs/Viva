@@ -124,8 +124,8 @@ Power BI templates require certain basic attributes to work properly. These attr
 
 If basic attributes are of low quality, the app will flag them with a warning. If your query has low-quality basic attributes, you can still run it and load results into Power BI.
 
->[!Note]
->Right now, Power BI reports don't show which insights use flagged metrics.
+> [!NOTE]
+> Right now, Power BI reports don't show which insights use flagged metrics.
 
 If basic attributes are missing from your organizational data, the app will flag them with an error, and you won't be able to run the query or load results into Power BI. You'll need to contact your admin to get the right data uploaded.
 
