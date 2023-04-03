@@ -47,12 +47,13 @@ After the data successfully validates and processes, the overall data-import tas
 To make the data-transfer process go smoothly, you’ll need to export and save your source data in the right format.
 
 1. Export organizational data from your source system as a .csv.
-1. Download the zip folder we’ve prepared for you here: 
-1.	Open OrganizationalDataFile.xlsx within the zip folder and save the Template tab as a .csv.
-1.	Enter your data in the **Template** tab and format your data according to our guidelines in [Prepare organizational data](prepare-org-data.md).
+1. Download the zip folder we’ve prepared for you [on GitHub](https://go.microsoft.com/fwlink/?linkid=2230444).
+1.	In the downloaded zip file, open **data.csv**.
+1.	Enter your data in **data.csv** and format according to our guidelines in [Prepare organizational data](prepare-org-data.md#structure-the-organizational-data).
+1.	Fill out the metadata.json file. For each Viva Insights field, name the corresponding column header in your source data. Mapping fields makes sure Viva Insights uses your data in the right way. 
 
 >[!Note]
->Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference.
+>Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference. Refer also to the [Automated import template](https://go.microsoft.com/fwlink/?linkid=2230246).
 
 You’ll enter the path for the zip folder when you set up the connection to Viva Insights.
 
