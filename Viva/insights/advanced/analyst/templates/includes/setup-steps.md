@@ -10,13 +10,18 @@
         >[!Note]
         >The **More settings** pane also contains **Group by** settings. Power BI queries are set to **Group by Week**, and you're not able to edit this field.
 
- 1. Under **Predefined template metrics**, you’ll find a list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. You can add other metrics by selecting **Add metrics**. 
- 1. In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, refer to [Filters](../../filters.md).
+ 1. Under **Predefined template metrics**, view the list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. You can add other metrics by selecting **Add metrics**. Including the preselected ones, you can have up to seven metrics in your query.
+    >[!Important]
+    >Low-quality or missing organizational data might affect your metrics and result in warnings or errors. Learn more about data-quality notifications in [Data quality in the analyst experience](../../data-quality-analyst-experience.md).
+
+ 1. In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, refer to [Filters](../../filters.md). If you notice a warning or error here, it's because one of your attributes is missing from your organizational data or is of low quality.
  1. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
     >[!Important]
-    >Some employee attributes are required to set up this Power BI template, and we've preselected them for you in the query. You can't remove these preselected attributes.
+    >This PowerBI query needs some specific attributes to run, and we've preselected them for you. These attributes appear in gray and you can't remove them. We might also include some attributes that help your template, but aren't required for your query to run. These attributes appear in blue and you can remove them.
     >
-    >If you notice attributes marked in red and the query’s **Run** button disabled, it means that these attributes are required and they're missing from your organizational data. Contact your admin to upload them.
+    >If you notice attributes marked with yellow warnings, that attribute's quality is low. If you notice attributes marked in red and the query's **Run** button disabled, then your organizational data is missing that attribute. 
+    >
+    > Learn more about attributes and data quality in [Data quality in the analyst experience](../../data-quality-analyst-experience.md).
  1. Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
  1. When your query results are ready, go to the **Query results page** and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
 
