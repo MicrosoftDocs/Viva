@@ -23,15 +23,15 @@ description: "Learn how to integrate your Azure DevOps work items with OKRs in V
 
 ## Introduction to Azure DevOps integration
 
-The Viva Goals Azure DevOps data integration allows you to automatically update your Key Results or Projects based on the status of work items in Azure DevOps. While the structure and nature of the Azure DevOps data that is synced with Viva Goals is different for Key Results versus Projects, they both leverage the same data connection. 
+The Viva Goals Azure DevOps data integration allows you to automatically update your Key Results or Initiatives based on the status of work items in Azure DevOps. While the structure and nature of the Azure DevOps data that is synced with Viva Goals is different for Key Results versus Initiatives, they both leverage the same data connection. 
 
 The Viva Goals Azure DevOps data integration connects to a shared query in a specific Azure DevOps Organization + Project. The user who sets up the connection must have access to the Azure DevOps Organization, Project, and the shared query that is being accessed. In addition, the Azure DevOps Organization policy must allow for OAuth access (further details are described below).  
 
-## Project vs OKRs 
+## Initiatives vs OKRs 
 
-One of the fundamental tenets of OKRs is distinguishing between outcomes versus outputs.  OKRs, and specifically Key Results, are focused on driving impact (aka outcomes), while Viva Goals [Projects](/viva/goals/projects) are focused on outputs – the initiatives or work that you believe is needed to drive the Key Results.  Both are important to track, but they are measuring different things.  While you can integrate both Viva Goals Key Results and Projects with your Azure DevOps work items, it is important to understand the difference. Azure DevOps primarily focuses on tracking work, so it is more common to integrate Viva Goals Projects with Azure DevOps, though there are certainly examples where Azure DevOps data can be aligned with Outcomes as well.  
+One of the fundamental tenets of OKRs is distinguishing between outcomes versus outputs.  OKRs, and specifically Key Results, are focused on driving impact (aka outcomes), while Viva Goals [Initiatives](/viva/goals/projects) are focused on outputs – the initiatives or work that you believe is needed to drive the Key Results.  Both are important to track, but they are measuring different things.  While you can integrate both Viva Goals Key Results and Initiatives with your Azure DevOps work items, it is important to understand the difference. Azure DevOps primarily focuses on tracking work, so it is more common to integrate Viva Goals Initiatives with Azure DevOps, though there are certainly examples where Azure DevOps data can be aligned with Outcomes as well.  
 
-Viva Goals data integration returns different data for Key Results and Projects. For Key Results, the integration returns a single number, either a percentage or count of completed work items. For Projects, the integration returns the actual work items from Azure DevOps along with percentage complete information. 
+Viva Goals data integration returns different data for Key Results and Initiatives. For Key Results, the integration returns a single number, either a percentage or count of completed work items. For Initiatives, the integration returns the actual work items from Azure DevOps along with percentage complete information. 
 
 ## How to enable Azure DevOps integration
 
@@ -52,7 +52,7 @@ Admins can follow these steps to enable this integration:
 ## How to configure the Azure DevOps connection from the Organization Admin Integrations Tab  
 
 >[!Note] 
->While these instructions are specific to creating new connections via the Viva Goals Organization Admin Integrations menu, end users can set up new connections directly during the create/edit Key Result or Project workflows. See below for more details.
+>While these instructions are specific to creating new connections via the Viva Goals Organization Admin Integrations menu, end users can set up new connections directly during the create/edit Key Result or Initiative workflows. See below for more details.
 
 After you enable the integration, the next step is to configure an Azure DevOps connection: 
 
@@ -68,11 +68,11 @@ After you enable the integration, the next step is to configure an Azure DevOps 
 
 Viva Goals allows you to connect with multiple Azure DevOps projects. Select **New Connection** to get data from another Azure DevOps project. We recommend using the connection name to differentiate these connections (Azure DevOps Organization + Project name).
 
-## How to connect Azure DevOps to a Viva Goals Project 
+## How to connect Azure DevOps to a Viva Goals Initiative 
 
 1. Go to Outcome. 
 
-      :::image type="content" source="../media/goals/6/azure-devops-projects-outcome-button.png" alt-text="Screenshot shows where you create a new Azure DevOps connection to a project in Viva goals." lightbox="../media/goals/6/azure-devops-projects-outcome-button.png":::
+      :::image type="content" source="../media/goals/6/azure-devops-projects-outcome-button.png" alt-text="Screenshot shows where you create a new Azure DevOps connection to an initiative in Viva goals." lightbox="../media/goals/6/azure-devops-projects-outcome-button.png":::
 
 2. Select Show More Options. 
 
@@ -94,7 +94,7 @@ Viva Goals allows you to connect with multiple Azure DevOps projects. Select **N
       
 7. Select **Next** and then **Save**. 
 
-Now that the Viva Goals Project is linked to a shared query in Azure DevOps, the work items in the shared query are automatically synced to Viva Goals.  Viva Goals will show a maximum of 3 levels of your Azure DevOps tree structure query in Viva Goals Project views.  Progress calculations based on the completion of the child work items are shown at each level of the query hierarchy and rolled up the Viva Goals Project progress percentage.  Hyperlinks connect you back to the shared query in Azure DevOps, as well as to the individual work items, enabling you to quickly see in-depth information for the supporting work. 
+Now that the Viva Goals Initiative is linked to a shared query in Azure DevOps, the work items in the shared query are automatically synced to Viva Goals.  Viva Goals will show a maximum of 3 levels of your Azure DevOps tree structure query in Viva Goals Initiative views.  Progress calculations based on the completion of the child work items are shown at each level of the query hierarchy and rolled up the Viva Goals Initiative progress percentage.  Hyperlinks connect you back to the shared query in Azure DevOps, as well as to the individual work items, enabling you to quickly see in-depth information for the supporting work. 
 
 >[!Note] 
 >While creating the Azure DevOps connection, ensure that the Third-party application access via OAuth setting is enabled. 
@@ -134,11 +134,11 @@ Now that the Key Result is linked to a query in Azure DevOps, you can track the 
 >While creating the Azure DevOps connection, ensure that the Third-party application access via OAuth setting is enabled. 
 
 >[!Note] 
->Viva Goals will update the KRs and/or Projects hourly from their Azure DevOps sources  
+>Viva Goals will update the KRs and/or Initiatives hourly from their Azure DevOps sources  
 
 :::image type="content" source="../media/goals/6/azure-devops-oauth.png" alt-text="Screenshot shows where you can enable oauth access for Azure DevOps." lightbox="../media/goals/6/azure-devops-oauth.png":::
 
-## How to edit or delete your Azure DevOps Connection 
+## How to edit or delete your Azure DevOps connection 
 
 1. Select your account name at the bottom left corner of the screen.
     :::image type="content" source="../media/goals/ado-images/ado-screenshot-1.png" alt-text="Screenshot highlighting name selection in the left corner of the screen."::: 
