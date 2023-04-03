@@ -15,6 +15,8 @@ audience: Admin
 
 # Import organizational data (subsequent import)
 
+*Applies to: private preview customers*
+
 In this article, we discuss refreshing data your provided when you set up your connection to Viva Insights. First, we’ll describe the two types of imports you can perform. Then, we’ll give you the steps to perform those imports.
 
 >[!Important]
