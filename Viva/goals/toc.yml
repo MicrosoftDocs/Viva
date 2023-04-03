@@ -15,6 +15,8 @@ items:
   items:
     - name: Viva Goals Integrations Administration Overview
       href: vg-integrations-administration-overview.md
+    - name: Viva Goals Admin Portal
+      href: viva-goals-admin-portal.md
     - name: Navigate the Admin Dashboard
       href: navigate-admin-dashboard.md
     - name: Log in, Create, and Join Organizations in Viva Goals
