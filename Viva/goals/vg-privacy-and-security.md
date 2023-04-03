@@ -26,7 +26,7 @@ Security, Privacy, and Compliance are core tenets of how we serve our customers 
 
 This document is not intended to provide legal advice and should not be relied upon to assess your legal rights, obligations, or risks.
 
-## Preamble
+## Overview
 
 The Viva Goals service is governed by the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms), and the [Microsoft Privacy Statement](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). For the obligations related to processing and security of Customer Data and Personal Data, see the [Data Protection Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA). For compliance information, the [Microsoft Trust Center](https://www.microsoft.com/trustcenter) is the primary resource for Viva Goals.
 
@@ -177,6 +177,9 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
 
 16. **Does Viva Goals use web cookies? If so, how long is the data stored?**
     1. Yes. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
+
+17. **How do you ensure that sub-processors meet data handling standards?**
+    1. See the [Subprocessors and Data Privacy Whitepaper](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Ftrust-center%2Fprivacy%2Fdata-access%23howdoesmicrosofthandleyourdatainthecloud&data=05%7C01%7Crasanders%40microsoft.com%7Cf43d2000d60f44fd36ba08db34619004%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638161365867484615%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=%2FNDeHFZP%2FHJZKslHI%2FluJIn5PzJKWQKghZAv%2BFsFzTI%3D&reserved=0) for how Microsoft handles your data. 
 
 #### Viva Goals Data Residency 
 
