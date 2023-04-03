@@ -19,7 +19,7 @@ ms.collection:
 - highpri
 search.appverid:
 - MET150
-description: "Learn how to manage OKRs"
+description: "Learn how to access the admin portal for Viva Goals"
 ---
 
 # Viva Goals Admin portal for IT admins
@@ -53,7 +53,7 @@ The admin portal has three sections:
 ### General
 
 - [Configure who can create organizations](restrict-organization-creation-permissions.md)
-- Whitelist domains that can be embedded in dashboards
+- Approve domains that can be embedded in dashboards
 
 ### Integrations
 
