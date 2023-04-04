@@ -198,7 +198,7 @@ To integrate with Azure DevOps, the Viva Goals Service needs to be able to acces
 
 ### Forbidden Errors 
 
-If you encounter forbidden error messages when creating an Azure DevOps connection, it's likely that IP address constraints or other Conditional Access Policies are to blame. In this case you need to verify if the Enable Azure AD CAP validation policy is enabled on the Azure DevOps Organization, for more details please reference [Azure DevOps documentation.](/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops) 
+If you encounter forbidden error messages when creating an Azure DevOps connection, it's likely that IP address constraints or other Conditional Access Policies are to blame. In this case you need to verify if the Enable Azure AD CAP validation policy is enabled on the Azure DevOps Organization, for more details please reference [Azure DevOps documentation.](/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops&preserve-view=true) 
 
 ### Solutions
 
