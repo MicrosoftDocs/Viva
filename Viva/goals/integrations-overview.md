@@ -26,7 +26,10 @@ Viva Goals support integration with industry-leading tools and platforms you use
 
 ## How to enable integrations 
 
-To activate a specific integration, go to **Admin** > **Integrations** and select **Enable** .
+To activate a specific integration, go to **Admin** > **Integrations** and select **Enable**.
+
+> [!IMPORTANT]
+> Integrations must be enabled by Microsoft Global Administrator before they can be enabled by Viva Goals Org Admins using the steps below. Contact your Global Administrator to enable new integrations by following the steps in [Enable Integrations in Viva Goals | Microsoft Learn](vg-integrations-administration-overview.md).  
 
 ## How to view integrations 
 
@@ -51,9 +54,9 @@ To make connections public (usable by everyone in the organization) or private, 
 Viva Goals checks for new data about once per hour. You can also trigger a sync manually.
 
    >[!Note]
-   >When you do this, make sure the OKR or project is already integrated with one of the integration tools.
+   >When you trigger a sync manually, make sure the OKR or initiative is already integrated with one of the integration tools.
 
-1. Select the integration icon next to the progress bar of an OKR or project.
+1. Select the integration icon next to the progress bar of an OKR or initiative.
 
 2. Select the refresh symbol.
 
@@ -72,26 +75,136 @@ There are three ways to edit an integration:
 
 The following is a list of all the integrations currently available in Viva Goals:
 
+:::row:::
+   :::column span="4":::
+      **Supported Integrations**
+    :::column-end:::
+:::row-end:::
 
-|Column1  |Column2  |Column3  |
-|---------|---------|---------|
-|[Azure Data Explorer ](azure-data-explorer-integration.md) |[Azure DevOps (ADO)](azure-devops-integration.md) |[Amazon RedShift](amazon-redshift-integration.md) |
-|[Asana](asana-integration.md) |[BigQuery](bigquery-integration.md) |[Box](box-integration.md) |
-|[Domo](domo-integration.md) |[Dynamics 365](dynamics-365-integration.md) |[Excel Online](excel-online-integration.md) |
-|[Favro](favro-generating-an-api-token.md) |[GitHub](github-integration.md) |[GitLab](gitlab-integration.md) |
-|[Google Sheets](gsheets-integration.md) |[Hubspot](hubspot-integration.md) |[Jira](jira-integration.md) |
-|[Looker](looker-integration.md) |[Microsoft Planner](microsoft-planner-integration.md) |[Mode](mode-integration.md) |
-|[monday.com](monday.com-integration.md) |[MS SQL Server](ms-sql-server-integration.md) |[MySQL](mysql-integration.md) |
-|[Planview Projectplace](planview-projectplace-integration.md) |[PostgreSQL](postgresql-integration.md) |[Power BI](power-bi-integration.md) |
-|[Salesforce](salesforce-integration.md) |[Slack](slack-collaborate-with-viva-goals.md) |[Smartsheet](smartsheet-integration.md) |
-|[Snowflake](snowflake-integration.md) |[Tableau](tableau-integration.md) |[Trello](trello-integration.md) |
-|[Zendesk](zendesk-integration.md) |   |   |
+:::row:::
+    :::column:::
+      [Azure Data Explorer ](azure-data-explorer-integration.md)
+    :::column-end:::
+    :::column:::
+      [Azure DevOps (ADO)](azure-devops-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Amazon RedShift](amazon-redshift-integration.md)
+    :::column-end:::
+    :::column:::
+      [Asana](asana-integration.md)         
+    :::column-end:::
+:::row-end:::   
 
+:::row:::
+    :::column:::
+      [BigQuery](bigquery-integration.md)         
+    :::column-end:::  
+    :::column:::    
+      [Box](box-integration.md)      
+    :::column-end:::    
+    :::column:::
+      [Domo](domo-integration.md)   
+    :::column-end:::
+    :::column:::
+      [Dynamics 365](dynamics-365-integration.md)
+    :::column-end:::  
+:::row-end:::   
 
+:::row:::   
+    :::column:::    
+      [Excel Online](excel-online-integration.md)
+    :::column-end:::    
+   :::column:::
+      [Favro](favro-generating-an-api-token.md)  
+    :::column-end:::
+    :::column:::
+      [GitHub](github-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [GitLab](gitlab-integration.md)
+    :::column-end:::
+:::row-end:::
+
+:::row:::   
+    :::column:::
+      [Google Sheets](gsheets-integration.md)  
+    :::column-end:::
+    :::column:::
+      [Hubspot](hubspot-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Jira](jira-integration.md)
+    :::column-end:::    
+    :::column:::
+      [Looker](looker-integration.md)  
+    :::column-end:::
+:::row-end:::
+ 
+:::row:::   
+    :::column:::
+      [Microsoft Planner](microsoft-planner-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Mode](mode-integration.md)
+    :::column-end:::  
+    :::column:::
+      [monday.com](monday.com-integration.md)
+    :::column-end:::
+    :::column:::
+      [MS SQL Server](ms-sql-server-integration.md)
+    :::column-end:::  
+:::row-end:::
+ 
+:::row:::   
+    :::column:::    
+      [MySQL](mysql-integration.md)
+    :::column-end:::    
+    :::column:::
+      [Planview Projectplace](planview-projectplace-integration.md)  
+    :::column-end:::
+    :::column:::
+      [PostgreSQL](postgresql-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Power BI](power-bi-integration.md)
+    :::column-end:::        
+:::row-end:::
+ 
+:::row:::   
+    :::column:::
+      [Salesforce](salesforce-integration.md)
+    :::column-end:::
+    :::column:::
+      [Slack](slack-collaborate-with-viva-goals.md)
+    :::column-end:::  
+    :::column:::    
+      [Smartsheet](smartsheet-integration.md) 
+    :::column-end:::    
+    :::column:::
+      [Snowflake](snowflake-integration.md)
+    :::column-end:::
+:::row-end:::
+
+:::row:::   
+    :::column:::
+      [Tableau](tableau-integration.md)
+    :::column-end:::  
+    :::column:::    
+      [Trello](trello-integration.md)
+    :::column-end:::    
+    :::column:::
+      [Zendesk](zendesk-integration.md) 
+    :::column-end:::
+    :::column:::
+      
+    :::column-end:::
+:::row-end:::
+ 
+ 
 ## How to disable an integration
 
 To disable an integration, select **Manage**, and then select **Disable integration** from the **Change** dropdown. 
 
 > [!NOTE]
-> OKRs that currently use the connection will no longer be able to sync.
-
+> OKRs that currently use the disabled connection will no longer be able to sync.

@@ -1,5 +1,5 @@
 ---
-ms.date: 11/15/2021
+ms.date: 03/21/2023
 title: Microsoft Viva Topics overview
 ms.author: ruthhollands
 author: ruthholls
@@ -22,7 +22,7 @@ ms.localizationpriority:  medium
 description: Learn about how to use Viva Topics in your organization.
 ---
 
-# Microsoft Viva Topics overview 
+# Microsoft Viva Topics overview
 
 Viva Topics uses Microsoft AI technology, Microsoft 365, Microsoft Graph, Search, and other components and services to bring knowledge to your users in the Microsoft 365 apps they use everyday, starting with SharePoint modern pages, Microsoft Search, and Search in Word, PowerPoint, Outlook, and Excel.
 
@@ -53,9 +53,9 @@ When a topic is mentioned in content on SharePoint news and pages, you'll see it
 
 ### Search results
 
-You can see a [topic answer](search.md#topic-answer) in search results when you search from the SharePoint start page, search on Office.com, or search from a SharePoint site after you change the search scope to include the full organization. The topic answer will appear at the topic of the results list and give you a short set of information related to that topic. 
+You can see a [topic answer](search.md#topic-answer) in search results when you search from the SharePoint start page, search on Office.com, or search from a SharePoint site after you change the search scope to include the full organization. The topic answer will appear at the topic of the results list and give you a short set of information related to that topic.
 
-   ![Screenshot showing the search results of a SharePoint site search.](../media/knowledge-management/site-search-results.png) 
+   ![Screenshot showing the search results of a SharePoint site search.](../media/knowledge-management/site-search-results.png)
 
 ### Office application search
 
@@ -68,6 +68,23 @@ When you use Search in Office apps such as Word, PowerPoint, Outlook, or Excel â
 ### Topic center
 
 Users can see topics in their organization to which they have a connection on the [topic center home page](topic-center-overview.md#home-page).
+
+## Engage with Viva Topics in Microsoft apps
+
+Viva Topics are integrated in apps throughout Microsoft 365 and other Viva apps.
+
+|  App  | Viva Topics features |
+|:-----|:-----|
+|[Microsoft 365 admin center](plan-topic-experiences.md)| Viva Topics settings for your organization. Viva Topics analytics and metrics.|
+|[SharePoint](search.md)|Topics center, highlighted topics (automatic and user added), topic cards, topic pages, Topics web part can be used anywhere on a SharePoint Modern Site|
+|[Teams](https://support.microsoft.com/topic/how-to-find-viva-topics-4c6881d6-e73f-408d-91df-a3e2b93272f3 )|#Topics, Topic picker, Topic cards, highlighted topics|
+|Outlook web |#Topics (web only), highlighted topics (web only), topic cards, Live person card (LPC), profile cards |
+|Bing Search |#Topics, Topic pages, Topic answer |
+|Yammer and Viva Engage |#Topics, Topic picker, Topic card |
+|[Office.com SharePoint search](search.md) |Topic answer |
+|Word, Excel, and PowerPoint |Search Topic answer |
+|[Viva Connections](viva-topics-card-viva-connections.md) |Dashboard cards |
+|[Viva Engage](https://support.microsoft.com/topic/answers-in-viva-view-and-follow-topics-fd3cf456-28e1-4621-b683-b0d21348a935) |Answers in Viva Engage: Topic picker, Q&A routing |
 
 ## Knowledge indexing
 
@@ -166,4 +183,3 @@ Thank you for taking the time to share your thoughts with us. Your perspective h
 ## See also
 
 [Use Microsoft Search to find topics in Viva Topics](./search.md)
-

@@ -85,7 +85,7 @@ Deleting a user is a permanent action and can't be undone. It removes all their 
 
 Admins can’t delete users who currently own any objective. To delete those users, reassign their OKRs first, and then delete the user.
 
-:::image type="content" source="../media/goals/2/23/f.jpg" alt-text="Screenshot of the error dialog you get when you try to delete a user who owns objectives or projects." lightbox="../media/goals/2/23/f.jpg"::: 
+:::image type="content" source="../media/goals/2/23/f.jpg" alt-text="Screenshot of the error dialog you get when you try to delete a user who owns objectives or initiatives." lightbox="../media/goals/2/23/f.jpg"::: 
 
 **Example scenario of when to deactivate a user**
 
@@ -107,7 +107,7 @@ Admins can’t delete users who currently own any objective. To delete those use
     1. Any group in Azure Active Directory, Security Groups, Distribution groups, and Microsoft 365 groups can be invited to Viva Goals. 
 
 1. **How many groups can be invited?** 
-    1. Currently, only one group from Azure Active Directory can be invited to Viva Goals. 
+    1. There is no limit on the number of groups that can be added into Viva Goals. 
 
 1. **If only one group can be added, how can administrators invite an entire organization to Viva Goals?**
     1. To invite an entire organization, we recommend users nest all existing groups or include all members as part of a single group.  

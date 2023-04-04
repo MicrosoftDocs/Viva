@@ -64,7 +64,7 @@ Utilize [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#sch
 People often feel overloaded because tasks take more time than expected. Focus time is a block of time without meetings to get work done or decompress at the end of the day. Ways to support it:
 
 * Send team communications about the importance of focus time.
-* Use a [personal focus plan](../personal/use/focus-plan.md) to schedule focus time in your calendar, and then decline meetings and ignore email during that time.
+* Use a [personal focus plan](../personal/teams/focus-plan.md) to schedule focus time in your calendar, and then decline meetings and ignore email during that time.
 * Share anecdotes around when people have successes by utilizing their focus time.
 
 ## Related topics

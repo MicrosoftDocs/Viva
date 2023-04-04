@@ -1,6 +1,6 @@
 ---
 
-ms.date: 09/16/2021
+ms.date: 02/28/2023
 title: Plans and environments for personal insights
 description: Supported plans and environment requirements for personal insights in Microsoft Viva Insights
 author: madehmer
@@ -20,10 +20,10 @@ audience: Admin, user
 
 # Personal insights plans and environments
 
-Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](../teams/viva-teams-app.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
+Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](../teams/introduction.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
 
   >[!Important]
-  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 ## Microsoft 365 plans
 
@@ -32,7 +32,7 @@ The following Personal insights service plans are generally available with a sub
 * With the following Microsoft 365 plans, a [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights) is available for purchase:
 
   * Microsoft 365 E3, A3, E5, A5, Business Basic, Business Standard, or Business Premium
-  * Office 365 E1, E3, A3, E5, A5, G3, G5, or GCC
+  * Office 365 E1, E3, A3, E5, A5
   * Exchange Online Plan 1 or 2
 
 * **MyAnalytics (Full)** and **Insights by MyAnalytics** service plans are included with:
@@ -48,18 +48,21 @@ The following Personal insights service plans are generally available with a sub
 * **Insights by MyAnalytics** service plan is included with:
 
   * Microsoft 365 E3, Business, or A3 for faculty and students
-  * Office 365 E1, E3, A3 for faculty and students, E3 Developer, G3, Business Premium, or Business Essentials
+  * Office 365 E1, E3, A3 for faculty and students, E3 Developer, G1, G3, Business Premium, or Business Essentials
 
 ### Supported Microsoft 365 environments
 
 * Worldwide Multi-tenant
 * Dedicated Multi-tenant
 * Government Community Cloud (GCC)
+* GCC-High
+* Department of Defense (DoD)
+
+>[!Note]
+>For more information about the features available and unavailable in GCC-High and DoD environments, refer to the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
 ### Not supported Microsoft 365 environments
 
-* GCC-High
-* DoD
 * Microsoft 365 Germany
 * Microsoft 365 Operated by 21Vianet
 
@@ -76,7 +79,7 @@ After users get assigned licenses with an applicable service plan, they get acce
 | ------- | ------------------|
 | [Welcome email](../use/mya-welcome-email.md) | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment |
 | [Insights Outlook add-in](../use/add-in.md) and [Inline suggestions](../use/mya-notifications.md) | Available about one day after license assignment |
-|[Viva Insights in Teams and on the web](../teams/viva-teams-app.md) | Available a few days after license assignment |
+|[Viva Insights in Teams and on the web](../teams/introduction.md) | Available a few days after license assignment |
 | [Digest emails](../use/email-digests-3.md) | Sent two to three weeks after the welcome email |
 
 >[!Note]  
@@ -88,16 +91,16 @@ After users get assigned licenses with an applicable service plan, they get acce
 
 * The following additional features are included with the [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights):
 
-  * [Schedule send suggestions](../use/delay-delivery.md)
+  * Schedule send suggestions in [email](../use/delay-delivery.md) and [chat](../teams/schedule-send.md)
   * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
-  * [Meeting category insights](../teams/effective-meetings.md#meeting-category-insights)
+  * [Access meeting category insights](../teams/meeting-category-insights.md)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
-  * [Breaks, learning, and message catch-up plans](../teams/viva-insights-protect-time.md#create-other-plans)
+  * [Schedule Breaks, learning, and message catch-up](../teams/time-management.md)
 
 * The following additional features are included with the **MyAnalytics (Full) service plan**:
 
   * The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature
-  * [Schedule send suggestions](../use/delay-delivery.md)
+  * [Schedule send suggestions in email](../use/delay-delivery.md)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
 
 ## Browser support
