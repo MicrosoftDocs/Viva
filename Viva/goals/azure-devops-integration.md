@@ -23,12 +23,12 @@ description: "Learn how to integrate your Azure DevOps work items with OKRs in V
 
 ## Introduction to Azure DevOps integration
 
-Viva Goals integrates with Microsoft Azure DevOps to automatically update key results and initiatives in Viva Goals. Key result and initiative progress is updated automatically based on the connected Azure DevOps work items. You can use the Azure DevOps integration to:
+Viva Goals integrates with Microsoft Azure DevOps to automatically update key results and projects in Viva Goals. Key Result and Project progress is updated automatically based on the connected Azure DevOps work items. You can leverage the Azure DevOps integration to
 
 - Automatically track progress for a key result  
 - Automatically track progress for an initiative KPI 
 - Automatically track progress and tasks for an initiative.  
-    - This approach updates initiative progress, syncs Azure DevOps work item details with Viva Goals initiative “tasks”, and, when used with the soon to be released Viva Goals Azure DevOps extension, Viva Goals OKR alignment details are surfaced directly in Azure DevOps linked work items. 
+    - This approach updates initiative progress, syncs Azure DevOps work item details with Viva Goals initiative “tasks”, and, when used with the soon to be released Viva Goals Azure DevOps extension, Viva Goals OKR alignment details are surfaced directly in Azure DevOps linked work items. bn 
 
 See below for more details on how the Azure DevOps integration works when connecting to key results, initiatives metrics, and initiative tasks. 
 
@@ -40,31 +40,33 @@ While you can integrate both Viva Goals key results and initiatives with your Az
 
 ## When to use the Azure DevOps Integration 
 
-There are three ways to use the Azure DevOps integration with Viva Goals workflows:
+There are 3 ways to leverage the Azure DevOps integration with Viva Goals workflows. Details on each of these capabilities are described below:
 
-1. Track progress for an initiative with tasks: In addition to tracking initiative progress based on Azure DevOps work items, this approach enables a cross-platform user experience. The Azure DevOps work item details are synced to the Viva Goals initiative views and, when used with the soon to be released Viva Goals Azure DevOps extension, the alignment of Azure DevOps work to Viva Goals OKRs is surfaced directly within the linked Azure DevOps work items.
-1. Track progress for an initiative with KPIs: This approach enables you to track initiative progress based on the Azure DevOps work items status.  A single numeric value is synced with Viva Goals. There's no syncing of the actual work item details within the Viva Goals initiative views nor does this enable the embedded user experience within Azure DevOps. 
-1. Track progress for a Key Result: This approach enables you to track KR progress based on the Azure DevOps work items status.  A single numeric value is synced with Viva Goals. There's no syncing of the actual work item details in the Viva Goals KR views, nor does this enable the embedded user experience within Azure DevOps. 
+1. **Track progress for a initiative with tasks:** In addition to tracking initiative progress based on Azure DevOps work items, this approach enables a cross-platform user experience. The Azure DevOps work item details are synced to the Viva Goals initiative views andthe alignment of Azure DevOps work to Viva Goals OKRs can be viewed directly within the linked Azure DevOps work items via the Azure DevOps Extension (coming soon)
+1. **Track progress for a initiative with KPIs:** This approach enables you to track initiative progress based on the Azure DevOps work items status. A single numeric value is synced with Viva Goals. 
+1. **Track progress for a Key Result:** This approach enables you to track KR progress based on the Azure DevOps work items status. A single numeric value is synced with Viva Goals.
 
 ## How to set up Azure DevOps Integration  
 
-The Azure DevOps integration needs to be enabled by a Viva Goals Tenant and Organization admin.  Tenant/Global Viva Goals admins must first enable the Azure DevOps integration for the organizations in a given tenant ([Enable Integrations in Viva Goals | Microsoft Learn](vg-integrations-administration-overview.md)). Once enabled at the tenant level, a Viva Goals Organization admin must then enable it at the Organization level ([Viva Goals Integrations Administration Overview](vg-integrations-administration-overview.md).)
+The Azure DevOps integration needs to be enabled by a Viva Goals Tenant and Organization admin. Global admins must first enable the Azure DevOps integration for their tenant ([Enable Integrations in Viva Goals | Microsoft Learn](vg-integrations-administration-overview.md)). Once enabled at the tenant level, a Viva Goals Organization admin must then enable it for their org ([Viva Goals Integrations Administration Overview](vg-integrations-administration-overview.md).)
 
 > [!NOTE]
 > Once enabled, any user in the organization who has permissions to create/edit an OKR and/or initiative can set up integration between Viva Goals and Azure DevOps! 
 
 ## How to enable Azure DevOps integration with initiatives
 
-This method is the recommended approach for aligning work, managed in Azure DevOps, to OKRs, managed in Viva Goals. In addition to tracking initiative progress based on Azure DevOps work items, this approach enables a cross-platform user experience. The Azure DevOps work item details are synced to the Viva Goals initiative views and, when used with the Viva Goals Azure DevOps extension, the alignment of Azure DevOps work to Viva Goals OKRs is surfaced directly within the linked Azure DevOps work items.
+This method is the recommended approach for aligning work in Azure DevOps to OKRsin Viva Goals. In addition to tracking initiative progress based on Azure DevOps work items, this approach enables a cross-platform user experience. The Azure DevOps work item details are synced to the Viva Goals initiative views and, when used in conjunction with the Viva Goals Azure DevOps extension, the alignment of Azure
+
+DevOps work to Viva Goals OKRs is surfaced directly within the linked Azure DevOps work items.
 
 1. Select **Add Initiative** in Viva Goals or edit an existing initiative. 
 1. Select **Outcome**. 
 1. Select **Add tasks**. 
 1. Select **Automatically from a data source**. 
 1. Select **Azure DevOps** from the list of available integrations.
-1. Select the appropriate Azure DevOps connection. If you need to create a new Azure DevOps connection, you need to sign into Azure DevOps to create a data connection. A new connection is needed for each Azure DevOps project. After signing in:
+1. Select the appropriate Azure DevOps connection. If you need to create a new Azure DevOps connection, you will need to sign into Azure DevOps to create a data connection. A new connection is needed for each Azure DevOps project. After signing in:
 
-    - Provide a connection name - recommend including the Azure DevOps Organization and initiative in the name for easy future reference. 
+    - Provide a connection name: We recommend including the Azure DevOps Organization and Project in the name for future reference.
     - Select the **Azure DevOps Organization**  
     - Select the **Azure DevOps Project** 
     - Select **Next** 
@@ -115,7 +117,7 @@ Use this method when you want to update the Viva Goals initiative progress with 
 1. Select **Azure DevOps** from the list of available integrations.
 1. Select the appropriate Azure DevOps connection.  If you need to create a new Azure DevOps connection, you'll need to sign into Azure DevOps to create a data connection. A new connection is needed for each Azure DevOps project. After signing in:
 
-    - Provide a Connection Name - recommend including the Azure DevOps Organization and initiatives in the name for easy future reference. 
+    - Provide a Connection Name: recommend including the Azure DevOps Organization and initiatives in the name for easy future reference. 
     - Select the **Azure DevOps Organization** 
     - Select the **Azure DevOps Project**
     - Select **Next** 
@@ -161,7 +163,7 @@ Use this method when you want to update the Viva Goals Key Result progress with 
 1. Select **Azure DevOps** from the list of available integrations.
 1. Select the appropriate Azure DevOps connection. If you need to create a new Azure DevOps connection, you'll need to sign into Azure DevOps to create a data connection. A new connection is needed for each Azure DevOps project. After signing in:
 
-    - Provide a Connection Name –  recommend including the Azure DevOps Organization and initiative in the name for easy future reference.
+    - Provide a Connection Name: recommend including the Azure DevOps Organization and initiative in the name for easy future reference.
     - Select the **Azure DevOps Organization.**  
     - Select the **Azure DevOps Project.**
     - Select **Next.**
