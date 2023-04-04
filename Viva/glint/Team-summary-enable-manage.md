@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Setup and manage the Team Summary dashboard 
+title: Set up and manage the Team Summary dashboard 
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Team Summary is easily enabled from the Viva Glint admin dashboard, allowing program roles permissions to relevant reports."
 ---
 
-# Setup and manage the Team Summary dashboard 
+# Set up and manage the Team Summary dashboard 
 
 ## Enable Team Summary as the default dashboard
 
@@ -82,7 +82,8 @@ Prepare to train your manager to use their Team Summary dashboard results by pre
 1. Select the **User Role** you have enabled Team Summary for. 
 1. In **All Members**, select an active employee with that role only (not multiple roles). 
 1. Select **Login As** on the employee's information page.
-1. Choose the program that is enabled for Team Summary in **Switch Program**.
+1. Choose the program that is enabled for Team Summary in **Switch Prog**.
 
 **Can I generate a new demo data report preview after editing a survey?**
+
 To replace a generated report with newly uploaded employee attributes, use the dialog box indicating that a report preview has previously been generated. To replace the demo report with the updated version, select **Generate Report Preview**. The seven-day report visibility will start over with the generation of the new report.  
