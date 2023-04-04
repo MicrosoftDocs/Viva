@@ -133,6 +133,9 @@ Note the following considerations:
 |Find content that is 10 minutes long| `Duration: 600`|
 |Find content using IDs| `Id:(learn-bizapps.power-bi-admin-automate OR urn:li:lyndaCourse:3007803)` |
 
+Here is how the search results will display for a single attribute query: 
+
+![An example of a single attribute query that refines searches by a provider, Microsoft Learn](../media/learning/advanced-search1.png)
 
 ### Multiple attribute queries
 
@@ -158,6 +161,10 @@ Multiple attribute - multiple value| `<attribute>`:`(<value> OR <value2>...)` AN
 |Find modules that are either 10 or 15 minutes long| `Duration: (600 OR 900) AND Type: (Module)`|
 |Find content by a specific author within a particular provider| `Author:(Lori Mullen) AND Provider:(LinkedIn Learning)` |
 
+Here is how the search results will display for a multiple attribute query: 
+
+![An example of a multiple attribute query that refines searches by content from a provider (Microsoft Learn) with the term "react" in its title.](../media/learning/advanced-search2.png)
+
 ## Supported spaces
 
 The advanced search capabilities are available to all learners and admins within Viva Learning application. The supported search spaces are: 
@@ -167,11 +174,11 @@ The advanced search capabilities are available to all learners and admins within
 - Search results tab 
 - Academy tab 
 - Admin tab 
-- Feature Set 
-- Learning Paths 
-- Manage Permissions 
-- Manage Academy 
-
+    - Feature Set 
+    - Learning Paths 
+    - Manage Permissions 
+    - Manage Academy 
+    
 ## Intuitive UI for advanced search options
 
 We're working on improving our advanced search capabilities through an intuitive user interface and experience.
