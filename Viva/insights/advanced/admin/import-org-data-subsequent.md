@@ -74,4 +74,4 @@ For every full and incremental refresh, follow these steps:
 1.	Fill out the metadata.json file. For each Viva Insights field, name the corresponding column header in your source data. Mapping fields makes sure Viva Insights uses your data in the right way. 
 
 >[!Note]
->Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference. Refer also to the [Automated import template](https://go.microsoft.com/fwlink/?linkid=2230246).
+>Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference. Refer also to the [Automated import template](https://go.microsoft.com/fwlink/?linkid=2224590).

@@ -55,7 +55,7 @@ To make the data-transfer process go smoothly, you’ll need to export and save 
 1.	Fill out the metadata.json file. For each Viva Insights field, name the corresponding column header in your source data. Mapping fields makes sure Viva Insights uses your data in the right way. 
 
 >[!Note]
->Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference. Refer also to the [automated import template](https://go.microsoft.com/fwlink/?linkid=2230246).
+>Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference. Refer also to the [automated import template](https://go.microsoft.com/fwlink/?linkid=2224590).
 
 You’ll enter the path for the zip folder when you set up the connection to Viva Insights.
 
@@ -63,7 +63,7 @@ You’ll enter the path for the zip folder when you set up the connection to Viv
 
 * For new data, include full historical data for all employees. 
 * Import organizational data for all employees in the company, including licensed and non-licensed employees. 
-* Refer to our [automated import template](https://go.microsoft.com/fwlink/?linkid=2230246) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
+* Refer to our [automated import template](https://go.microsoft.com/fwlink/?linkid=2224590) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
 
 
 ### Generate the security certificate
