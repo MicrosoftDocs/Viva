@@ -15,6 +15,8 @@ audience: Admin
 
 # Import organizational data (first import)
 
+*Applies to: private preview customers*
+
 Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
 
 This article talks about the third option: importing data. When you set up an import, you’ll drop your exported source data into a zip file, along with some metadata for Viva Insights. Viva Insights then pulls that data in to the advanced insights app. To start importing data, you'll need to coordinate a few tasks between your Microsoft 365 IT admin and your data source admin, including registering a new app and getting a security certificate. Refer to the next section, [Workflow](#workflow), for an overview of required steps.
@@ -47,12 +49,13 @@ After the data successfully validates and processes, the overall data-import tas
 To make the data-transfer process go smoothly, you’ll need to export and save your source data in the right format.
 
 1. Export organizational data from your source system as a .csv.
-1. Download the zip folder we’ve prepared for you here: 
-1.	Open OrganizationalDataFile.xlsx within the zip folder and save the Template tab as a .csv.
-1.	Enter your data in the **Template** tab and format your data according to our guidelines in [Prepare organizational data](prepare-org-data.md).
+1. Download the [zip folder](https://go.microsoft.com/fwlink/?linkid=2230444) we’ve prepared for you on GitHub.
+1.	In the downloaded zip file, open **data.csv**.
+1.	Enter your data in **data.csv** and format according to our guidelines in [Prepare organizational data](prepare-org-data.md#structure-the-organizational-data).
+1.	Fill out the metadata.json file. For each Viva Insights field, name the corresponding column header in your source data. Mapping fields makes sure Viva Insights uses your data in the right way. 
 
 >[!Note]
->Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference.
+>Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference. Refer also to the [automated import template](https://go.microsoft.com/fwlink/?linkid=2224590).
 
 You’ll enter the path for the zip folder when you set up the connection to Viva Insights.
 
@@ -60,7 +63,7 @@ You’ll enter the path for the zip folder when you set up the connection to Viv
 
 * For new data, include full historical data for all employees. 
 * Import organizational data for all employees in the company, including licensed and non-licensed employees. 
-* Refer to the sample .csv template for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
+* Refer to our [automated import template](https://go.microsoft.com/fwlink/?linkid=2224590) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
 
 
 ### Generate the security certificate
@@ -74,7 +77,7 @@ Here’s what to do:
 1.	Create a certificate by following the instructions in this article: [Create a self-signed public certificate to authenticate your application](/azure/active-directory/develop/howto-create-self-signed-certificate)
 2.	Send the generated certificate to the Microsoft 365 admin.
 
-That’s it for now. If you want to get a head start on your next steps, follow steps 1-3 in [Set up the connection to Viva Insights](#set-up-the-connection-to-viva-insights).  
+That’s it for now. If you want to get a head start on your next steps, follow the steps in [Set up the application](#set-up-the-application).  
 
 
 

@@ -15,6 +15,8 @@ audience: Admin
 
 # Import organizational data (subsequent import)
 
+*Applies to: private preview customers*
+
 In this article, we discuss refreshing data your provided when you set up your connection to Viva Insights. First, we’ll describe the two types of imports you can perform. Then, we’ll give you the steps to perform those imports.
 
 >[!Important]
@@ -53,9 +55,9 @@ Perform an incremental refresh when you only want to add some new information to
  
 Let’s use a couple of examples:
 
-Say you want to add five new hires to your organizational data. During the import, you’d only include those five rows that contain new data. After the import finishes, the only change you’d notice is five new rows and their values.
+Say you want to add five new hires to your organizational data. During the import, you’d only include those five rows that contain new data, plus two required attributes: PersonId and EffectiveDate. After the import finishes, the only change you’d notice is five new rows and their values. 
 
-Or maybe you want to add a new attribute, **Building**, for all existing employees. When you go to import your data, you’d only include the **Building** column, with values for each employee, in your .csv file. After the import finishes, you’d find the same data that was there before, with the exception of a new column for each employee, **Building**.
+Or maybe you want to add an optional reserved attribute that wasn’t in your data before—let’s say **HireDate**—for all existing employees. When you go to import your data, you’d only include the **HireDate** column, with values for each employee, in your .csv file. After the import finishes, you’d find the same data that was there before, with the exception of a new column for each employee, **HireDate**. 
 
 #### Fields to include for your incremental refresh 
 
@@ -65,9 +67,11 @@ If you're performing an incremental refresh for *existing* employees’ data, on
 
 For every full and incremental refresh, follow these steps:
 
-1.	Export organizational data from your source system as a .csv.
-2.	Download the zip folder we’ve prepared for you here: LINK PENDING
-3.	Open **OrganizationalDataFile.xlsx** within the zip folder and save the Template tab as a .csv.
-4.	Enter your data in the **Template** tab and format your data according to our guidelines in [Prepare organizational data](prepare-org-data.md). 
+1. Export organizational data from your source system as a .csv.
+1. Download the [zip folder](https://go.microsoft.com/fwlink/?linkid=2230444) we’ve prepared for you on GitHub.
+1.	In the downloaded zip file, open **data.csv**.
+1.	Enter your data in **data.csv** and format according to our guidelines in [Prepare organizational data](prepare-org-data.md#structure-the-organizational-data).
+1.	Fill out the metadata.json file. For each Viva Insights field, name the corresponding column header in your source data. Mapping fields makes sure Viva Insights uses your data in the right way. 
 
-5.	Fill out the metadata.json file. For each Viva Insights field, name the corresponding column header in your source data. Mapping fields makes sure Viva Insights uses your data in the right way.
+>[!Note]
+>Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference. Refer also to the [Automated import template](https://go.microsoft.com/fwlink/?linkid=2224590).
