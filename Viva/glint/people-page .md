@@ -86,7 +86,7 @@ To log in as another person:
 
 1. Select  **Login As**. 
 
-1. The dashboard will indicate “You are logged in as *<other person name>*. 
+1. The dashboard will indicate “You are logged in as *other person name*. 
 
 To return to your own account, select  **Return to your account**. 
 
