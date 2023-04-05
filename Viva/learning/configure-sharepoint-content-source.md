@@ -176,9 +176,6 @@ To add a metadata field, follow these steps first:
 > [!IMPORTANT]
 > You'll need to use the column names exactly as they're provided here for the metadata to pull through. Adding metadata is optional, but if it's not configured correctly, the learning objects and any changes to those objects will also not pull through.
 
-> [!NOTE]
-> Changes will take 24-48 hours to reflect in Viva Learning.
-
 1. Select the folder from your learning content repository.
 2. From the **Documents** page, select **Add column**.
     [![Screenshot of the Documents page with Add column selected.](../media/learning/sp-new-column.png)](../media/learning/sp-new-column-big.png#lightbox)
