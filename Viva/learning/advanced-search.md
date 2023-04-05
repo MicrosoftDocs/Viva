@@ -84,7 +84,7 @@ When creating queries, some attributes require precise values while others suppo
 >[!IMPORTANT]
 > 
 
-The following attributes requires you to input precise values matching all characters, letter case, and spaces with the content in Viva Learning.
+The following attributes require you to input precise values matching all characters, letter case, and spaces with the content in Viva Learning.
 
 - Author
 - Type
@@ -158,7 +158,7 @@ Multiple attribute - multiple value| `<attribute>`:`(<value> OR <value2>...)` AN
 |------|-----|
 |Find specific content by a particular provider | `Provider: (Microsoft Learn) AND Title: (“React”)` |
 |Find non-premium content in LinkedIn Learning| `Premium:(False) AND Provider:(LinkedIn Learning)`|
-|Find course that are either 10 or 15 minutes long| `Duration: (600 OR 900) AND Type: (Course)`|
+|Find courses that are either 10 or 15 minutes long| `Duration: (600 OR 900) AND Type: (Course)`|
 |Find content by a specific author within a particular provider| `Author:(Lori Mullen) AND Provider:(LinkedIn Learning)` |
 
 Here is how the search results will display for a multiple attribute query: 
