@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Network in Viva Insights
 description: Use the Network page in the Microsoft Viva Insights app to help you understand who you collaborate with most often
 author: lilyolason

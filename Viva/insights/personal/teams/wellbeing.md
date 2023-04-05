@@ -27,16 +27,19 @@ In the **Wellbeing** tab, you'll find four main sections: **Take action to impro
 
 The **Take action to improve your wellbeing** section helps you change habits, schedule your time, and disconnect from work when the day's over. Pick from these wellbeing-oriented actions:
 
-* Start a daily [focus plan](focus-plan.md)
-* Make time for messages
+* Start a daily [focus plan](focus-plan.md)<sup>1</sup>
+* Make time for messages<sup>2</sup>
 * Schedule [virtual commute](virtual-commute.md) reminders
-* Schedule emails for later
+* Schedule emails for later<sup>2</sup>
 * Disconnect with [quiet time](quiet-time.md)
-* Take a break or two
-* Make time for learning
-* Make time for lunch
+* Take a break or two<sup>2</sup>
+* Make time for learning<sup>2</sup>
+* Make time for lunch<sup>2</sup>
 
 :::image type="content" source="images/wellbeing-take-action1.png" alt-text="Screenshot that shows four action cards within the Take action to improve your wellbeing section."lightbox="images/wellbeing-take-action1-expanded.png":::
+
+<sup>1. Viva Insights subscription, MyAnalytics (full) service plan, or Insights by MyAnalytics service plan required
+2. Viva Insights subscription required
 
 >[!Tip]
 >To find all available actions, use the arrows in the top-right of the section.

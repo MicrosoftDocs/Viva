@@ -94,6 +94,7 @@ After users get assigned licenses with an applicable service plan, they get acce
   * Schedule send suggestions in [email](../use/delay-delivery.md) and [chat](../teams/schedule-send.md)
   * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
   * [Access meeting category insights](../teams/meeting-category-insights.md)
+  * [Meeting effectiveness surveys](../teams/meeting-effectiveness-surveys.md)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
   * [Schedule Breaks, learning, and message catch-up](../teams/time-management.md)
 
