@@ -19,10 +19,21 @@ audience: Admin
 
 Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
 
-This article talks about the third option: importing data. When you set up an import, you’ll drop your exported source data into a zip file, along with some metadata for Viva Insights. Viva Insights then pulls that data in to the advanced insights app. To start importing data, you'll need to coordinate a few tasks between your Microsoft 365 IT admin and your data source admin, including registering a new app and getting a security certificate. Refer to the next section, [Workflow](#workflow), for an overview of required steps.
+This article talks about the third option: importing data. When you set up an import, you’ll drop your exported source data into a zip file, along with some metadata for Viva Insights. Viva Insights then pulls that data in to the advanced insights app. To create this connection, you'll need to coordinate a few tasks between your Microsoft 365 IT admin and your data source admin, including registering a new app in Azure and getting a security certificate. Refer to the next section, [Workflow](#workflow), for an overview of required steps.
 
 >[!Important]
 >Only use the following steps if this is the first time you’re importing organizational data. If this isn’t your first import, refer to [Import organizational data (subsequent imports)](import-org-data-subsequent.md) to refresh previously imported data.
+>
+>The steps we provide in this document help you set up a console app called **DescriptiveDataUploadApp**. When you run this app, you’ll pull the data exported from a source system into Viva Insights from a local folder. 
+>
+>
+>To export and import data at a set frequency after you set up this connection, you’ll need to create a *different* app (for example, a PowerShell script) that does two things:
+>
+>1.	Exports your source data at the frequency you set.
+>2.	Runs the **DescriptiveDataUploadApp** described in this document.
+>
+>Viva Insights doesn’t supply this source-side, data-export app. However, we do describe more about what it should contain in [Import data (subsequent import)](import-org-data-subsequent.md) .
+
 
 ## Workflow
 
