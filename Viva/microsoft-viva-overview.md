@@ -31,7 +31,7 @@ As an integrated experience, administrators can use the centralized Microsoft 36
 
 Learn which Microsoft Viva features are available across Microsoft 365 plans in the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
-## Microsoft Viva apps
+## Microsoft Viva experiences
 
 | Experience | App  | App |
 |:-------:|-------------|------|
