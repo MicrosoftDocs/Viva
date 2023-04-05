@@ -200,7 +200,7 @@ Next, add the duration of the content.
 
 1. Follow the initial steps to create a column.
 2. Choose **Number**.
-3. Name the column Duration.
+3. Name the column ContentDuration.
 4. Provide the duration of the content in seconds.
 
 Next, add tags.
