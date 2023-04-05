@@ -136,5 +136,5 @@ From the admin dashboard:
 5. Enter the new name in the **Attribute Name** field and select **Rename**.
 6. On the top right of your dashboard, select **Save Changes**.
 
->[!WARNING]
+>[!CAUTION]
 > Use this method if the underlying data remains the same, but the field name has changed in your system. Do not repurpose attribute name labels, as this can create issues in reporting. Instead, create a new one.

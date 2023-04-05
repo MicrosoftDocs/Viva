@@ -35,9 +35,9 @@ Attribute column headers (name labels) may be customized. For example, you might
 
 ### Attributes by item and survey type
 
-| **Attribute** | **Description/notes** | **Required for Engagement** **surveys** | **Required for Employee Lifecycle** **surveys** |
+| **Attribute** | **Description/Notes** | **Required for Engagement surveys** | **Required for Employee Lifecycle surveys** |
 |---|---|---|---|
-| **Status** **– ACTIVE or INACTIVE** | Must always be fully capitalized.<br>An employee on temporary leave should have their status updated to INACTIVE and then returned to ACTIVE upon return. | Yes | Yes |
+| **Status – ACTIVE or INACTIVE** | Must always be fully capitalized.<br>An employee on temporary leave should have their status updated to INACTIVE and then returned to ACTIVE upon return. | Yes | Yes |
 | **First name** | Appears in email invites and reminders (can be the legal first name, preferred first name, or whichever is in your HRIS). | Yes | Yes |
 | **Last name** | Employee’s legal last name field from your HRIS. | Yes | Yes |
 | **Employee ID** | Each employee has a unique ID. Don't use blanks or spaces. | Yes | Yes |
@@ -57,7 +57,7 @@ Your template may include up to 100 custom, flat attributes. *A flat attribute i
 
 Add custom attributes to the header row on your template, named the way that seems most sensible to you. Choose attributes that can boost the way you do business.
 
-**Best Practices:** 
+**Best practices:**
 
 - The more attributes you provide, the more ways data can be sliced and diced to provide richer insights and alerts. 
 - Attributes that are too specific won't meet the minimum confidentiality threshold of five to appear in reporting, so avoid them.
