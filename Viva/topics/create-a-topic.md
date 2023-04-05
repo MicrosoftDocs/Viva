@@ -85,9 +85,9 @@ You can create a new topic from two locations:
 
     ![Select site.](../media/knowledge-management/sites.png)
 
-8. The **Related topics** section shows connectins that exist between topics.
+8. The **Related topics** section shows connections that exist between topics.
 
-With the topic page in edit mode, you can add, edit, or remove connections in the Related Topics web part. Note that you can only add or modify first-degree connections because modifying a second-degree connection would be tantamount to directly editing a different topic page, which we do not allow.
+With the topic page in edit mode, you can add, edit, or remove connections in the Related Topics web part. You can only add or modify first-degree connections because modifying a second-degree connection would be tantamount to directly editing a different topic page, which we don't allow.
 
 You can add a connection to a different topic by selecting the Connect to a related topic button, typing the name of the related topic, and selecting it from the search results.
 
@@ -97,19 +97,19 @@ You can then give a description of how the topics are related. Select **Update**
 
 [IMAGE]
 
-The related topic you added will display as a connected topic.
+The related topic added will display as a connected topic.
 
-When a connection between Topic A and Topic B is manually created on Topic Page A, the connection between these topics is represented as a suggested connection (dotted line) on Topic Page B, because representing this as a manual connection on Topic Page B would be equivalent to making a direct change to Topic Page B from Topic Page A, which we do not allow.
+When a connection between Topic A and Topic B is manually created on Topic Page A, the connection between these topics is represented as a suggested connection (dotted line) on Topic Page B. Representing this as a manual connection on Topic Page B would be equivalent to making a direct change to Topic Page B from Topic Page A, which is not allowed.
 
 To remove a related topic, select the line segment corresponding to the topic you want to remove, then select the Remove relationship icon.
 
 [IMAGE]
 
-Dotted lines represent connections that have been suggested by the AI. Users can optionally confirm or remove these connections by selecting the line segment between two nodes.
+Dotted lines represent connections suggested by AI. Users can optionally confirm or remove these connections by selecting the line segment between two nodes.
 
 [IMAGE]
 
-9. You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description. Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.
+9. You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description. Selecting it opens the SharePoint toolbox from which you can choose the item you want to add to the page.
 
    ![Screenshot of the available canvas icons.](../media/knowledge-management/webpart-library.png) 
 
