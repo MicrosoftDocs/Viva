@@ -31,98 +31,15 @@ As an integrated experience, administrators can use the centralized Microsoft 36
 
 Learn which Microsoft Viva features are available across Microsoft 365 plans in the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
-## Microsoft Viva apps
+## Microsoft Viva experiences
 
-Choose the experiences you want for your employees.
-
-### Experience
-
-#### Connection
-:::row:::
-:::column span="3":::
-
-:::column-end:::
-:::row-end:::
-:::row:::
-:::column span="":::
-:::image type="icon" source="media/logos/connections-launch-c-64.svg":::</br>[Viva Connections](#viva-connections)
-:::column-end:::
-:::column span="":::
-:::image type="icon" source="media/logos/engage-launch-c-64.svg":::</br>[Viva Engage](#viva-engage)
-:::column-end:::
-:::column span="":::
-
-:::column-end:::
-:::row-end:::
-
-#### Insight
-:::row:::
-:::column span="3":::
-   
-:::column-end:::
-:::row-end:::
-:::row:::
-:::column span="":::
-:::image type="icon" source="media/logos/insights-launch-c-64.svg":::</br>[Viva Insights](#viva-insights)
-:::column-end:::
-:::column span="":::
-:::column-end:::
-:::column span="":::
-
-:::column-end:::
-:::row-end:::
-
-#### Growth
-:::row:::
-:::column span="3":::
- 
-:::column-end:::
-:::row-end:::
-:::row:::
-:::column span="":::
-:::image type="icon" source="media/logos/topics-launch-c-64.svg":::</br>[Viva Topics](#viva-topics)
-:::column-end:::
-:::column span="":::
-:::image type="icon" source="media/logos/learning-launch-c-64.svg":::</br>[Viva Learning](#viva-learning)
-:::column-end:::
-:::column span="":::
-
-:::column-end:::
-:::row-end:::
-
-#### Purpose
-:::row:::
-:::column span="3":::
-   
-:::column-end:::
-:::row-end:::
-:::row:::
-:::column span="":::
-:::image type="icon" source="media/logos/goals-launch-c-64.svg":::</br>[Viva Goals](#viva-goals)
-:::column-end:::
-:::column span="":::
-:::column-end:::
-:::column span="":::
-
-:::column-end:::
-:::row-end:::
-
-#### Role-based
-:::row:::
-:::column span="3":::
-
-:::column-end:::
-:::row-end:::
-:::row:::
-:::column span="":::
-:::image type="icon" source="media/logos/viva-sales-logo-1.png":::</br>[Viva Sales](#viva-sales)
-:::column-end:::
-:::column span="":::
-:::column-end:::
-:::column span="":::
-
-:::column-end:::
-:::row-end:::
+| Experience | App  | App |
+|:-------:|-------------|------|
+|**Connection**|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage) <br> Improve employee productivity and well-being through data-driven insights and recommendations.|
+|**Insight**|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) <br> Improve employee productivity and well-being through data-driven insights and recommendations.||
+|**Growth**|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> [Viva Topics](#viva-topics) <br> Use AI to automatically organize content and expertise across your systems and teams.|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning) <br> Bring enterprise learning into the flow of work by connecting content from your organization with other sources|
+|**Purpose**|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals) <br> Align teams and employees with your organization’s strategic goals and priorities.||
+|**Role-based**|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> [Viva Sales](#viva-sales) <br> Use Microsoft 365 and Teams to automatically capture, access, and register data into any CRM system. ||
 
 #### Viva Connections
 This employee experience app in Microsoft Teams connects employees with tools, news, and resources. Content is displayed on a dashboard and tailored to each individual based on their role, region, and interests.
