@@ -30,7 +30,7 @@ A hierarchy filters down an employee's attributes into levels from highest to lo
 
 Managerial hierarchy is typically used as the primary hierarchy ranking. Managerial hierarchy is the only hierarchical level that Microsoft Viva Glint processes automatically. Every employee in your organization should have a manager. The only person on your Employee Data File who won't* have a manager associated with them is your organization's CEO or top-level person. 
 
-### Example for managerial hierarchy
+### Example of setting up managerial hierarchy
 
 - Harper reports to Tate. Tate reports to Gabriel, and Gabriel to Dana. 
 - In the Employee Attribute File:
@@ -50,7 +50,7 @@ The Viva Glint system automatically configures Harper's hierarchy level within t
 
 The size and proximity of your organization will determine if you choose to use locational hierarchies within your custom attributes. 
 
-### Example for locational hierarchy
+### Example of setting up locational hierarchy
 
 *North America > United States > California > Sunnyvale*
 
@@ -67,7 +67,7 @@ You can customize the locational hierarchies for your organization. This example
 
 Like locational hierarchy, the size of your organization will determine if you choose to use departmental levels within your custom attributes. 
 
-### Example for departmental hierarchies
+### Example of setting up departmental hierarchies
 
 *Company name > Department > Function > Subfunction*
 
