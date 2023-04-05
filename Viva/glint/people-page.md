@@ -33,7 +33,7 @@ The  **People** section is accessed from the  **Employees** section on the admin
 
 ## Use the filter feature   
 
-Employees may be filtered by active/inactive status, login status, and User Role. 
+Employees are filtered by active/inactive status, login status, and User Role. 
 
 ### All People  
 
