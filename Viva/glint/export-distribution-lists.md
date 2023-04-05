@@ -45,9 +45,9 @@ This export includes first and last names, email addresses, and employment statu
 
 ### Export Distribution Lists from the admin dashboard 
 
-Distribution Lists are dynamic; the targeted population may change until the survey is sent. Any list exported after the survey is sent is an actual recipient list.  
+Distribution Lists are dynamic; the targeted population may change until the survey is sent. Any list exported after the survey is sent an actual recipient list.  
 
-Distribution List files will include first and last name, email address, and employment status. 
+Distribution List files include first and last name, email address, and employment status. 
 
 1. From your Glint admin dashboard, select the  **Configuration**  symbol and then  **Distribution Lists**. 
 

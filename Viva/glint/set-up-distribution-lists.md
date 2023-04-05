@@ -23,7 +23,7 @@ description: "Distribution lists define which employees within an organization s
 
 Distribution lists define which employees within your organization should receive a survey. When creating a Distribution List, start with the list of all active employees and then refine this list using employee attributes. This creates a custom list of employees that can be chosen as recipients for any Microsoft Viva Glint program within your organization.
 
-Distribution lists are essential when a survey program is not intended to be sent to all active employees.  
+Distribution lists are essential when a survey program isn't intended to be sent to all active employees.  
 
 ## Create, edit, or delete a Distribution List 
 
@@ -51,10 +51,10 @@ Or, from your survey program:
 
 ### Create a new list  
 
-The first page that appears displays all Distribution Lists that exist for your organization and indicates the number of members in each list. 
+The first page that appears displays all Distribution Lists that exists for your organization and indicates the number of members in each list. 
 
 1. Select  **+ New Distribution List**. 
-1. Enter a title for your list by selecting the pencil symbol next to the Untitled Distribution List box. For example, if you are creating a Distribution List for new employees, you could title your list *New Employees* or *New Hires.* 
+1. Enter a title for your list by selecting the pencil symbol next to the Untitled Distribution List box. For example, if you're creating a Distribution List for new employees, you could title your list *New Employees* or *New Hires.* 
 1. Select  **Add/Edit Employees**.
 
 ### Add attribute rules to create a new list 
@@ -95,7 +95,7 @@ There are two options:
    > [!NOTE]
    >The date range selected for an attribute should always be equal to or greater to the frequency at which you update your Employee Attribute File. For companies that integrate their HRIS files automatically, this will work well. For companies that manually update files, ensure that the window you’ve set is wide enough to include the frequency with which employee data is refreshed. For example, if a window is set to 15 days but employee files are only updated once every 30 days, the survey will likely miss people who should get the survey, since the date range is only set to look at people who started 30-45 days earlier. Instead, set the window for at least 30 days so you are sure to include everyone.
 
-After selecting an attribute, you will see a list of employees that match your criteria. From here, employees can be manually excluded by selecting that employees name in the Included box and then selecting Exclude when it appears.
+After selecting an attribute, you'll see a list of employees that match your criteria. From here, employees can be manually excluded by selecting that employees name in the Included box and then selecting Exclude when it appears.
 
    > [!NOTE]
    >You do not have the option to manually include employees.

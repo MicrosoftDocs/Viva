@@ -46,8 +46,8 @@ A count of present and past employees, listed by:
 
 A count of employees who may be available to participate in a survey, sorted by: 
 
-- Not Invited - Employees who do not have login access; the employee may be inactive or currently suspended.  Suspended employees cannot log in to the dashboard, but they may still take surveys and retain any assigned user roles. All historical data for this user will be preserved. 
-- Pending - Employee has been invited but has not yet set up a password, or the employee has been moved to a new User Role and will not become active until a certain date. 
+- Not Invited - Employees who don't have login access; the employee may be inactive or currently suspended.  Suspended employees can't log in to the dashboard, but they may still take surveys and retain any assigned user roles. All historical data for this user will be preserved. 
+- Pending - Employee has been invited but has not yet set up a password, or the employee has been moved to a new User Role and won't become active until a certain date. 
 - Active - Employee has login access. 
 
 ### User Roles 
@@ -59,9 +59,9 @@ A count of company admins, managers, HRBPs, and HR business partners listed by U
 Use one of the two following methods: 
 
 - Begin to type the name of the employee in the search bar. When the name appears, select the name.   
-- Scroll down the alphabetized list of names, but with hundreds or thousands of employees, that method will not be as efficient! 
+- Scroll down the alphabetized list of names, but with hundreds or thousands of employees, that method won't be as efficient! 
 
-For each employee the following information is visible: 
+For each employee, the following information is visible: 
 
 - Employee Name - Editable by admin by selecting the pencil symbol. 
 - Email Address - Editable by admin by selecting the pencil symbol. 
@@ -86,7 +86,7 @@ To log in as another person:
 
 1. Select  **Login As**. 
 
-1. The dashboard will indicate “You are logged in as *other person name*. 
+1. The dashboard indicates “You're logged in as *other person name*. 
 
 To return to your own account, select  **Return to your account**. 
 
@@ -96,13 +96,13 @@ The Actions button dropdown menu allows you to reset passwords and send surveys.
 
 ### Reset Password 
 
-An email will be sent to the employee’s email address with instructions for password reset.
+An email is sent to the employee’s email address with instructions for password reset.
 
 ### Send Pulse 
 
 You can send a survey to one employee (manually) from the People page. Use the Actions button and then  **Send Pulse**. 
 
-- Enabled and live surveys will be displayed. Select the survey to send.  
+- Enabled and live surveys are displayed. Select the survey to send.  
 
    > [!NOTE]
    >A survey will not appear if it is not enabled or live. Go back into the program to re-enable or change the date of the survey, noting that it will take a few minutes for a survey to become live. 
@@ -121,6 +121,6 @@ Follow the on-screen guidance for uploading the file and then select  **Import F
 
 ## Export an Active Employees report 
 
-To make changes to an employee file, it's often easier to start with what's in the system first, so exporting from within the system, making changes, and then re-importing can occur beginning with the Export feature. 
+To make changes to an employee file, it's often easier to start with what's in the system first, so exporting from within the system, making changes, and then reimporting can occur beginning with the Export feature. 
 
 Follow the on-screen guidance and then select  **Export**. 
