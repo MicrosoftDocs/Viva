@@ -176,6 +176,9 @@ To add a metadata field, follow these steps first:
 > [!IMPORTANT]
 > You'll need to use the column names exactly as they're provided here for the metadata to pull through. Adding metadata is optional, but if it's not configured correctly, the learning objects and any changes to those objects will also not pull through.
 
+> [!NOTE]
+> Changes will take 24-48 hours to reflect in Viva Learning.
+
 1. Select the folder from your learning content repository.
 2. From the **Documents** page, select **Add column**.
     [![Screenshot of the Documents page with Add column selected.](../media/learning/sp-new-column.png)](../media/learning/sp-new-column-big.png#lightbox)
@@ -187,13 +190,20 @@ To add a description column to the document library page, follow these steps:
 3. Name the column ContentDescription.
 4. Add custom descriptions for each item. If no description is supplied, Viva Learning will provide a default message that highlights the content as being from your own SharePoint library.
 
+Next, add a title column.
+
+1. Follow the initial steps to create a column.
+2. Choose **Multiple lines of text**.
+3. Name the column ContentTitle.
+4. Add custom title for each item. If no title is supplied, Viva Learning will pick the file name as the title.
+
 Next, provide a thumbnail image.
 
 1. Follow the initial steps to create a column.
 2. Choose **Hyperlink**.
 3. Name the column ThumbnailWebUrl.
 4. Add the URLs for each item.
->[!NOTE]
+> [!NOTE]
 > Only public URLs work for this process. 
 
 Next, add the duration of the content.
