@@ -47,11 +47,11 @@ The following learning content attributes can be used by both admins and learner
 |Description| Description of the learning content|
 |Author | Creator of the learning content|
 |Provider| Name of the learning content provider. For example: LinkedIn Learning|
-|Type| Type of learning content. For example: course, learning path, module|
+|Type| Type of learning content. For example: course, learning path|
 |Duration| Duration of the learning content in seconds|
 |Source| Subsource of the learning content in a provider|
 |Premium| Field indicating whether to include free or premium content designated by "True" or "False"|  
-|Language| Language of the learning content in ISO format. For example: en-US|
+|Language| Language of the learning content in ISO format. For example: en-us|
 
 ### Admin accessible attributes 
 
@@ -129,7 +129,7 @@ Note the following considerations:
 |Case| Sample Query |
 |------|-----|
 |Find content by a particular author | `Author: Lori Mullen`|
-|Find content part of a learning path or module | `Type (Learning Paths OR Modules)`|
+|Find content part of a learning path or course | `Type: (Learning Path OR Course)`|
 |Find content that is 10 minutes long| `Duration: 600`|
 |Find content using IDs| `Id:(learn-bizapps.power-bi-admin-automate OR urn:li:lyndaCourse:3007803)` |
 
@@ -149,7 +149,7 @@ Use the following format to search using attributes for advanced filtering:
 
 |Query type| Format | Example|
 |------|-----|------|
-Multiple attribute - multiple value| `<attribute>`:`(<value> OR <value2>...)` AND/OR `<attribute>`:`(<value> OR <value2>...)`| `Title`: `(React)` AND `Type`:`(Module)`|
+Multiple attribute - multiple value| `<attribute>`:`(<value> OR <value2>...)` AND/OR `<attribute>`:`(<value> OR <value2>...)`| `Title`: `(React)` AND `Type`:`(Course)`|
 
 #### Multiple attribute query examples:
 
@@ -158,7 +158,7 @@ Multiple attribute - multiple value| `<attribute>`:`(<value> OR <value2>...)` AN
 |------|-----|
 |Find specific content by a particular provider | `Provider: (Microsoft Learn) AND Title: (“React”)` |
 |Find non-premium content in LinkedIn Learning| `Premium:(False) AND Provider:(LinkedIn Learning)`|
-|Find modules that are either 10 or 15 minutes long| `Duration: (600 OR 900) AND Type: (Module)`|
+|Find course that are either 10 or 15 minutes long| `Duration: (600 OR 900) AND Type: (Course)`|
 |Find content by a specific author within a particular provider| `Author:(Lori Mullen) AND Provider:(LinkedIn Learning)` |
 
 Here is how the search results will display for a multiple attribute query: 
