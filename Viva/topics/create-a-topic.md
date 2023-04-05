@@ -91,11 +91,11 @@ With the topic page in edit mode, you can add, edit, or remove connections in th
 
 You can add a connection to a different topic by selecting the Connect to a related topic button, typing the name of the related topic, and selecting it from the search results.
 
-[IMAGE]
+![Screenshot of topic picker in related topics.](../media/knowledge-management/topic-picker-related.png)
 
 You can then give a description of how the topics are related. Select **Update**
 
-[IMAGE]
+![Screenshot of relationship description on related topics.](../media/knowledge-management/topics-relationships-related.png)
 
 The related topic added will display as a connected topic.
 
@@ -103,11 +103,11 @@ When a connection between Topic A and Topic B is manually created on Topic Page 
 
 To remove a related topic, select the line segment corresponding to the topic you want to remove, then select the Remove relationship icon.
 
-[IMAGE]
+![Screenshot of relationship description on related topics with option to remove relationship.](../media/knowledge-management/topics-related-description.png)
 
 Dotted lines represent connections suggested by AI. Users can optionally confirm or remove these connections by selecting the line segment between two nodes.
 
-[IMAGE]
+![Screenshot of pane to confirm topic relationships.](../media/knowledge-management/topics-relationships.png)
 
 9. You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description. Selecting it opens the SharePoint toolbox from which you can choose the item you want to add to the page.
 
