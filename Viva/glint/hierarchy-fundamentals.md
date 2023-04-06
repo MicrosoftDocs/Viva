@@ -32,7 +32,10 @@ Managerial hierarchy is typically used as the primary hierarchy ranking. Manager
 
 ### Example of setting up managerial hierarchy
 
-- Harper reports to Tate. Tate reports to Gabriel, and Gabriel to Dana. 
+- In this scenario:
+  - Harper reports to Tate
+  - Tate reports to Gabriel
+  - Gabriel reports to Dana
 - In the Employee Attribute File:
   - Harper's row would list Tate's Manager ID or email in the Manager ID column 
   - Tate's row would list Gabriel's Manager ID
@@ -71,7 +74,7 @@ Like locational hierarchy, the size of your organization will determine if you c
 
 *Company name > Department > Function > Subfunction*
 
-Four columns are needed to enter this departmental hierarchy on the Employee Attribute File.
+Four columns are needed to enter this departmental hierarchy on the Employee Attribute File:
 
 - Departmental Level 1 – Company (ex: Thrive)
 - Departmental Level 2 – Department (ex: IT)

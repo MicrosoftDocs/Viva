@@ -31,8 +31,8 @@ Our People Science team regularly updates the survey items and develops template
 
 Within our survey programs, there are two overarching types to consider:
 
-- **Organizational survey** – often administered by a global HR (Human Resources) team and sent to all employees on a recurring cadence.
-- **Business unit survey** – often administered by a core business team, HR team, or a local business leader with the goal of obtaining more specific information for a particular business unit.
+- **Organizational survey** – Often administered by a global HR (Human Resources) team and sent to all employees on a recurring cadence.
+- **Business unit survey** – Often administered by a core business team, HR team, or a local business leader with the goal of obtaining more specific information for a particular business unit.
 
 ### Recurring surveys
 

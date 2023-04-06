@@ -30,11 +30,11 @@ When creating your employee attribute file, use one of the following two formats
 >[!TIP]
 > .csv is the cleanest for file formatting as it can handle foreign characters and avoids wingdings, as you may see in Excel.
 
-### Upload an .xlsx file:
+### Upload an .xlsx file
 
 - Make sure you use only a single tab that isn't password-protected. 
 
-### Upload a .csv file:
+### Upload a .csv file
 
 - Make sure it's UTF-8 encoded. If the file isn't UTF-8 encoded, it may fail or cause corrupted characters to appear in your data.
 - Always use a comma as a delimiter. 
@@ -78,7 +78,7 @@ To add employee data attributes *before* your first file import to Viva Glint, a
         - After previewing, select **Continue**.
    3. Step 3: Attributes setup; map your uploaded and confirmed attributes to the Viva Glint fields. This setup is divided into three sections:
        - Required attributes: Select the desired attribute from the dropdown menu for each required attribute.
-       - Hierarchy groups - Select the desired attribute from the dropdown menu for each hierarchy group. 
+       - Hierarchy groups: Select the desired attribute from the dropdown menu for each hierarchy group. 
            - To add more levels to a hierarchy, select **+ Add Level.**
            - To add a new hierarchy group, select **+ Add Hierarchy Group**. 
            - To rename the hierarchy label, select the **pencil** symbol. 
@@ -88,8 +88,8 @@ To add employee data attributes *before* your first file import to Viva Glint, a
            2. Select the desired attribute from the dropdown menu for each derived attribute.
            3. Select **Continue**.
    4. Step 4: Review; choose between the following two options:
-       - Save attributes and import employee data – recommended if the employee data in your file is complete and finalized (doesn't contain test or partial data). Caution: employee data can't be deleted. This option performs a full employee upload, which applies any changes in the file and marks anyone not in the file as an inactive employee.
-       - Save attributes and discard employee data – recommended to configure attributes based on your header row and then import finalized employee data later.
+       - Save attributes and import employee data – Recommended if the employee data in your file is complete and finalized (doesn't contain test or partial data). Caution: employee data can't be deleted. This option performs a full employee upload, which applies any changes in the file and marks anyone not in the file as an inactive employee.
+       - Save attributes and discard employee data – Recommended to configure attributes based on your header row and then import finalized employee data later.
    5. Step 5: Select the desired option. 
          >[!TIP]
          > When setting up attributes for the first time, Viva Glint recommends choosing the *Save attributes and discard employee data* option. This allows you to set up and map your attributes in the system and complete your first data import as a separate task when your IT/HRIS team has completed Employee Data File work.
