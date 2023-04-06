@@ -471,6 +471,31 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "viva/insights/personal/teams/faq.md",
+        "redirect_url": "https://support.microsoft.com/topic/9eac395d-855d-49b8-ae90-9a87287fdb95",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/home.md",
+        "redirect_url": "https://support.microsoft.com/topic/6e7d28b2-6b0e-4367-9b52-1999a86eb391",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/praise.md",
+        "redirect_url": "https://support.microsoft.com/topic/4977c923-f3d1-4134-9d1c-ee29dc01ae27",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/inspiration.md",
+        "redirect_url": "https://support.microsoft.com/topic/45b4f206-b1da-4082-bf5e-5a35232b70b8",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/meeting-habits.md",
+        "redirect_url": "https://support.microsoft.com/topic/f41f7aa9-6d4a-40bb-b00a-36170f9dbbba",
+        "redirect_document_id": false
+      },
+      {
       "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
       "redirect_url": "/viva/insights/personal/setup/configure",
       "redirect_document_id": false
