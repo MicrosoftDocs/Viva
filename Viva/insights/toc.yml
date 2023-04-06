@@ -18,6 +18,8 @@ items:
             href: introduction.md
           - name: Set up the app
             href: personal/teams/settings.md
+          - name: Privacy
+            href: personal/teams/privacy.md  
           - name: Home
             href: personal/teams/home.md
             items:
