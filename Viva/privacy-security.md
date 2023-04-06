@@ -30,7 +30,7 @@ For a more detailed look at security, compliance, and privacy for the Microsoft 
 
 :::row:::
    :::column span="":::
-        ![Privacy icon](/media/viva-privacy.png)
+        ![Privacy icon](media/viva-privacy.png)
     :::column-end:::
 
     :::column span="":::
@@ -42,3 +42,30 @@ For a more detailed look at security, compliance, and privacy for the Microsoft 
    :::column-end:::
 :::row-end:::
 
+:::row:::
+   :::column span="":::
+        ![Security icon](media/viva-privacy.png)
+    :::column-end:::
+
+    :::column span="":::
+    :::column:::
+        Security
+  :::column-end:::  
+  :::column span="":::
+     [Link to security article](https://microsoft.com)
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column span="":::
+        ![Compliance icon](media/viva-privacy.png)
+    :::column-end:::
+
+    :::column span="":::
+    :::column:::
+        Compliance
+  :::column-end:::  
+  :::column span="":::
+     [Link to compliance article](https://microsoft.com)
+   :::column-end:::
+:::row-end:::
