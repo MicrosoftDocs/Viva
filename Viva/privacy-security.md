@@ -35,12 +35,10 @@ For a more detailed look at security, compliance, and privacy for the Microsoft 
 
     :::column span="":::
     :::column:::
-        ### Privacy
+        #### Privacy
+       [Link to privacy article](https://microsoft.com)
   :::column-end:::  
-  :::column span="":::
-     [Link to privacy article](https://microsoft.com)
-   :::column-end:::
-:::row-end:::
+ :::row-end:::
 
 :::row:::
    :::column span="":::
@@ -49,11 +47,10 @@ For a more detailed look at security, compliance, and privacy for the Microsoft 
 
     :::column span="":::
     :::column:::
-        ### Security
+        #### Security
+        [Link to security article](https://microsoft.com)
   :::column-end:::  
-  :::column span="":::
-     [Link to security article](https://microsoft.com)
-   :::column-end:::
+  
 :::row-end:::
 
 :::row:::
@@ -63,9 +60,7 @@ For a more detailed look at security, compliance, and privacy for the Microsoft 
 
     :::column span="":::
     :::column:::
-        ### Compliance
+        #### Compliance
+        [Link to compliance article](https://microsoft.com)
   :::column-end:::  
-  :::column span="":::
-     [Link to compliance article](https://microsoft.com)
-   :::column-end:::
 :::row-end:::
