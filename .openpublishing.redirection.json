@@ -711,6 +711,31 @@
       {"source_path": "viva/insights/personal/teams/focus-mode.md",
       "redirect_url": "/viva/insights/personal/teams/focus",
       "redirect_document_id": false
-      }
+      },
+      {
+        "source_path": "viva/goals/projects.md",
+        "redirect_url": "https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/goals/review-dashboard-templates.md",
+        "redirect_url": "https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/goals/align-okrs.md",
+        "redirect_url": "https://support.microsoft.com/en-us/topic/collaborate-with-viva-goals-43673d1c-0dd7-42ba-97aa-6e712db171d1#bkmk_alignokrs",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/goals/business-rhythms.md",
+        "redirect_url": "https://learn.microsoft.com/en-us/viva/solutions/rhythm-of-business-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/goals/bookmarks-in-viva-goals.md",
+        "redirect_url": "https://support.microsoft.com/en-us/topic/engage-with-viva-goals-365500a4-0599-41cd-bc86-09bef4206284",
+        "redirect_document_id": false
+      }    
     ]
 }

@@ -23,10 +23,7 @@ Each role only gives access to actions, pages, reports, and data that correspond
 
 ## Inherited roles
 
-Two Viva Insights roles can be automatically inherited through a user's Global Azure Active Directory roles:
-
-* Users with the **Global Admin** role automatically inherit Insights Administrator privileges.
-* Users with the **Global Reader** role automatically inherit **Insights Business Leader** privileges.
+Users with the **Global Admin** role in Azure Active Directory automatically inherit Insights Administrator privileges.
 
 ## Role descriptions and access levels
 
