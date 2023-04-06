@@ -1,7 +1,7 @@
 ---
 ms.date: 03/29/2023
-title: How personal insights are calculated
-description: Learn how Viva Insights calculates your personal insights
+title: Meeting and communications in Viva Insights reference
+description: Learn how Viva Insights calculates some meeting- and communications-related insights
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: conceptual
@@ -15,7 +15,7 @@ manager: anirudhbajaj
 
 ---
 
-# How Viva Insights calculates meeting habits, meeting exclusions, and communication habits
+# Meeting and communications reference
 
 ## Meeting habits and meeting exclusions
 
@@ -101,3 +101,26 @@ Learn more about how Viva Insights derives meeting insights in [Meeting habits](
 |Chats read| 0 seconds
 |Unscheduled calls| Call duration
 |Scheduled calls| 0 seconds
+
+## Meeting prep time
+
+Viva Insights suggests booking time to prepare for meetings—like reviewing documents and completing related tasks—when these conditions are met:
+
+The meeting:
+
+* Has 11 or fewer invitees.
+* Is scheduled to last between 30 and 60 minutes.
+* Doesn't recur.
+* Hasn't been canceled.
+* Requires attendee response.
+* Isn't private.
+* Doesn't have a "Free," "Working elsewhere," or "Away" status.
+
+You:
+
+* Open the meeting invite at least 15 minutes before the meeting starts.
+* Have at least 15 minutes available for prep time during your working hours.
+* Didn't dislike any attendee meeting prep nudge in the past seven days.
+* Haven't booked any prep time for this meeting yet.
+* Are a required meeting attendee.
+* Haven't declined the meeting.
