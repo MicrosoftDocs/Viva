@@ -51,7 +51,7 @@ Or, from your survey program:
 
 ### Create a new list  
 
-The first page that appears displays all Distribution Lists that exists for your organization and indicates the number of members in each list. 
+The first page that appears displays all Distribution Lists that exist for your organization and indicates the number of members in each list. 
 
 1. Select  **+ New Distribution List**. 
 1. Enter a title for your list by selecting the pencil symbol next to the Untitled Distribution List box. For example, if you're creating a Distribution List for new employees, you could title your list *New Employees* or *New Hires.* 
