@@ -30,7 +30,7 @@ For a more detailed look at security, compliance, and privacy for the Microsoft 
 
 :::row:::
    :::column span="":::
-        ![Privacy icon](./media/viva-privacy)
+        ![Privacy icon](/media/viva-privacy.png)
     :::column-end:::
 
     :::column span="":::
