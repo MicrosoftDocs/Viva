@@ -1,4 +1,23 @@
+---
+ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 04/06/2023
+title: Viva Insights Outlook add-in prerequisites
+description: Prerequisites for using the Viva Insights Outlook add-in
+author: lilyolason
+ms.author: v-lilyolason
+ms.topic: article
+ms.localizationpriority: medium 
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-personal
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
+manager: anirudhbajaj
+audience: user
 
+---
 
 # Viva Insights Outlook add-in prerequisitres
 
