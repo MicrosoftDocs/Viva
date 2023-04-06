@@ -10,89 +10,93 @@ items:
         href: advanced/setup-maint/environment-requirements.md
       - name: Setup introduction
         href: advanced/setup-maint/setup-overview.md
-      - name: In Teams
+      - name: Personal insights
         items:
-        - name: Introduction
-          href: introduction.md
-        - name: Set up the app
-          href: personal/teams/settings.md
-        - name: Home
-          href: personal/teams/home.md
+        - name: In Teams and on the web
           items:
-          - name: Praise
-            href: personal/teams/praise.md
-          - name: Inspiration library
-            href: personal/teams/inspiration.md  
-        - name: Productivity
-          items: 
-            - name: Overview
-              href: personal/teams/productivity.md
-            - name: Meeting habits
-              href: personal/teams/meeting-habits.md
-            - name: Meeting category insights
-              href: personal/teams/meeting-category-insights.md
-            - name: Meeting effectiveness surveys
-              href: personal/teams/meeting-effectiveness-surveys.md       
-            - name: Shared meeting plan  
-              href: personal/teams/shared-meeting-plan.md
-            - name: Suggested tasks
-              href: personal/teams/suggested-tasks.md   
-        - name: Teamwork
-          items: 
-            - name: Overview
-              href: personal/teams/teamwork.md
-        - name: Wellbeing
-          items:
-            - name: Overview
-              href: personal/teams/wellbeing.md  
-            - name: Time management features
-              href: personal/teams/time-management.md  
-            - name: Shared no-meeting day plan
-              href: personal/teams/shared-no-meeting-day.md
-            - name: Focus
-              href: personal/teams/focus.md
-            - name: Focus plan  
-              href: personal/teams/focus-plan.md
-            - name: Shared focus plan
-              href: personal/teams/shared-focus-plan.md  
-            - name: Headspace  
-              href: personal/teams/headspace.md 
-            - name: Quiet time
-              href: personal/teams/quiet-time.md  
-            - name: Reflect    
-              href: personal/teams/reflect.md                
-            - name: Virtual commute
-              href: personal/teams/virtual-commute.md
-        - name: FAQ
-          href: personal/teams/faq.md                      
-      - name: Outlook add-in
-        items:
-            - name: Introduction
-              href: personal/use/add-in.md
-            - name: Use Insights
-              href: personal/use/use-the-insights.md
-            - name: Inline suggestions
-              href: personal/Use/mya-notifications.md
-            - name: Schedule send suggestions
-              href: personal/use/delay-delivery.md
-      - name: Digest emails
-        href: personal/use/email-digests-3.md
-      - name: Personal insights FAQ
-        href: personal/overview/mya-faq.md
-      - name: Admin guide
-        items: 
           - name: Introduction
-            href: personal/overview/mya-for-admins.md
-          - name: Deployment guide
-            href: personal/setup/deployment-guide.md
-          - name: Setup
-            href: personal/setup/configure.md
-          - name: Plans and environments
-            href: personal/overview/plans-environments.md
-          - name: Privacy guide for admins
-            href: personal/overview/privacy-guide-admins.md
-          - name: Activity report
-            href: personal/overview/activity-report.md
+            href: introduction.md
+          - name: Set up the app
+            href: personal/teams/settings.md
+          - name: Home
+            href: personal/teams/home.md
+            items:
+            - name: Praise
+              href: personal/teams/praise.md
+            - name: Inspiration library
+              href: personal/teams/inspiration.md  
+          - name: Productivity
+            items: 
+              - name: Overview
+                href: personal/teams/productivity.md
+              - name: Meeting habits
+                href: personal/teams/meeting-habits.md
+              - name: Meeting category insights
+                href: personal/teams/meeting-category-insights.md
+              - name: Meeting effectiveness surveys
+                href: personal/teams/meeting-effectiveness-surveys.md       
+              - name: Shared meeting plan  
+                href: personal/teams/shared-meeting-plan.md
+              - name: Suggested tasks
+                href: personal/teams/suggested-tasks.md   
+          - name: Teamwork
+            items: 
+              - name: Overview
+                href: personal/teams/teamwork.md
+              - name: Network
+                href: personal/teams/network.md  
+          - name: Wellbeing
+            items:
+              - name: Overview
+                href: personal/teams/wellbeing.md  
+              - name: Time management features
+                href: personal/teams/time-management.md  
+              - name: Shared no-meeting day plan
+                href: personal/teams/shared-no-meeting-day.md
+              - name: Focus
+                href: personal/teams/focus.md
+              - name: Focus plan  
+                href: personal/teams/focus-plan.md
+              - name: Shared focus plan
+                href: personal/teams/shared-focus-plan.md  
+              - name: Headspace  
+                href: personal/teams/headspace.md 
+              - name: Quiet time
+                href: personal/teams/quiet-time.md  
+              - name: Reflect    
+                href: personal/teams/reflect.md                
+              - name: Virtual commute
+                href: personal/teams/virtual-commute.md
+          - name: FAQ
+            href: personal/teams/faq.md                      
+        - name: Outlook add-in
+          items:
+              - name: Introduction
+                href: personal/use/add-in.md
+              - name: Use Insights
+                href: personal/use/use-the-insights.md
+              - name: Inline suggestions
+                href: personal/Use/mya-notifications.md
+              - name: Schedule send suggestions
+                href: personal/use/delay-delivery.md
+        - name: Digest emails
+          href: personal/use/email-digests-3.md
+        - name: Personal insights FAQ
+          href: personal/overview/mya-faq.md
+        - name: Admin guide
+          items: 
+            - name: Introduction
+              href: personal/overview/mya-for-admins.md
+            - name: Deployment guide
+              href: personal/setup/deployment-guide.md
+            - name: Setup
+              href: personal/setup/configure.md
+            - name: Plans and environments
+              href: personal/overview/plans-environments.md
+            - name: Privacy guide for admins
+              href: personal/overview/privacy-guide-admins.md
+            - name: Activity report
+              href: personal/overview/activity-report.md
       - name: Team and organization insights
         items:
           - name: Team insights 
