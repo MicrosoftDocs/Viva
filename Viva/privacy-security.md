@@ -23,14 +23,30 @@ description: "Find Microsoft Viva privacy, security, compliance and governance i
 ---
 
 # Microsoft Viva: Privacy, Security, and Compliance
+
 Privacy, security, and compliance are essential aspects of your organization. Microsoft Viva takes advantage of Microsoft 365 tools and services which are governed under the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms/welcome/welcomepage) and the [Data Protection Agreement (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA). For more information, see the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
 
 For a more detailed look at security, compliance, and privacy for the Microsoft Viva suite, see the following articles:
 
-|Area|Article|
-|-----------|-----------|
-|![Privacy icon](./media/privacy-icon)|Privacy|Article|
-|Security|Article|
-|Compliance|Article
 
 
+
+
+:::row:::
+   :::column span="3":::
+    :::column:::
+        ![Privacy icon](./media/privacy-icon)
+    :::column-end:::
+
+    :::column span="":::
+:::column:::
+     Privacy
+:::column-end:::  
+:::column span="":::
+:::column:::
+     [Link to privacy article](https://microsoft.com)
+:::column-end:::
+   :::column-end:::
+:::row-end:::
+
+|
