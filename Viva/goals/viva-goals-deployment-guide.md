@@ -139,7 +139,7 @@ As a Global or Viva Goals administrator, you can create Viva Goals Organizations
 1. Select Create Organization, provide a name for and description of the organization. 
 1. The user who is creating the Organization is assigned the role of “Organization Owner” for the created organization. Learn more about [roles in Viva Goals](roles-permissions-in-viva-goals.md).
 1. Choose who can join the organization 
-    1. **Anyone in <tenant>:** Choose this option if there are no restrictions who in the tenant can join the organization and view or manage OKRs and initiatives. 
+    1. **Anyone in tenant:** Choose this option if there are no restrictions who in the tenant can join the organization and view or manage OKRs and initiatives. 
     1. **Restricted:** Choose this option if you want to require users to be manually added to organizations before they can start viewing or managing OKRs and initiatives.
 1. Invite relevant licensed users who will be required to set up this organization and their OKRs. Viva Goals support adding individual members and user groups to the Organization. Learn more about [inviting users](inviting-and-removing-a-user.md).
 
