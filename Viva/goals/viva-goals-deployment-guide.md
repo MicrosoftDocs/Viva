@@ -123,10 +123,10 @@ Once the Viva Goals Administrators have been assigned, a Viva Goals Administrato
 1. As a recommendation, enabling the integrations for all the tools being used in your company (or your company policy allows) can best empower the teams to run a super-efficient OKR program. 
 1. For detailed instructions on enabling integrations, see the following article - [Viva Goals Integrations Administration Overview | Microsoft Learn ](vg-integrations-administration-overview.md)
 
-### Pin Viva Goals in Teams app
+### Install Viva Goals in Teams app
 
-1. **Target role:** Viva Goals Administrator Or Global Administrator
-1. Let users discover Viva Goals app on Microsoft Teams. Viva Goals is available as an app that can be added to MS Teams for users to easily view and manage OKRs right from the Teams app. Refer to this guide to [configure and setup Viva Goals app on MS Teams](configure-ms-teams-integration.md).  
+1. **Target role:** Global Administrator
+1. Let users discover Viva Goals app on Microsoft Teams. Viva Goals is available as an app that can be added to MS Teams for users to easily view and manage OKRs right from the Teams app. Refer to this guide to [configure and setup Viva Goals app on MS Teams](configure-ms-teams-integration.md).
 
 ## Create Viva Goals organization
 
