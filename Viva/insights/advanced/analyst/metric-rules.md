@@ -17,8 +17,7 @@ search.appverid:
 
 # Advanced insights metric rules
 
-
-To reveal collaboration trends, Microsoft Viva Insights uses email, calendar, and Teams activities, like chats and calls. While people use these tools to collaborate on work, they might also use them to keep track of personal appointments and other non-collaboration activities. If queries included these non-collaboration activities, those queries would produce skewed results.
+To reveal collaboration trends, Microsoft Viva Insights uses email, calendar, and Teams activities, like chats and calls. While people use these tools to collaborate on work, they might also use them to keep track of personal appointments and other non-collaboration activities. If metrics included these non-collaboration activities, those queries would produce skewed results.
 
 So, how can you exclude non-collaboration activities from your queries and get more accurate results? Add a *metric rule*. When you use metric rules in your queries, Viva Insights leaves out meetings, emails, chats, and calls you don’t want to analyze.
 
@@ -140,7 +139,7 @@ You can create a new rule in one of two ways: by using our [template](#from-a-te
 
 Before we jump in to how to use the rule template, let’s discuss how we’ve set the template up. 
 
-When you create a rule through a template, you'll notice several categories. Within these categories, we've set up filters to exclude common scenarios from collaboration data—for example, **Appointments**, which prevents non-collaborative calendar blocks on people's calendars from showing up in queries.
+When you create a rule through a template, you'll notice several categories. Within these categories, we've set up filters. When you select these categories and apply them to your new rule, you'll exclude common scenarios from collaboration data—for example, **Appointments**, which prevents non-collaborative calendar blocks on people's calendars from showing up in queries. 
 
 >[!Note]
 >Templates aren't editable. If you want more granular control over attributes and values, consider creating a rule from scratch.
@@ -158,7 +157,7 @@ Here's how we define each meeting category. For a meeting to be included in one 
 |Category|Meeting criteria|
 |--------|----------|
 |Attended meeting| <ul><li>Is joined on Teams <li>Has more than two "Accept" responses
-|Likely attended meeting| <!--the second condition is blank-->
+|Likely attended meeting| <ul><li>Has "Likely attended meeting" as the category
 |Invited to meeting| <ul><li>Is shorter than 24 hours<li>Isn't canceled<li>Has more than two invitees<li> Doesn't show as "Out of Office" and doesn't contain "No meeting day" in the title
 |Vacation or Out of Office| <ul><li>Isn't joined on Teams<li>Is 24 hours or longer<li>Isn't canceled<li>Has "Organizer" for the response<li>Doesn't recur<li>Contains one of several keywords in the title, including "vacation," "Out of office," "OOF," "medical leave."
 |No meeting day| <ul><li>Is 24 hours long<li>Isn't canceled<li>Has more than two intended participants<sup>1</sup><li> Doesn't show as "Out of Office" in Outlook and Teams and contains "No meeting day" in the subject line
