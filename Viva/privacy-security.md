@@ -29,20 +29,16 @@ Privacy, security, and compliance are essential aspects of your organization. Mi
 For a more detailed look at security, compliance, and privacy for the Microsoft Viva suite, see the following articles:
 
 :::row:::
-   :::column span="3":::
-    :::column:::
+   :::column span="":::
         ![Privacy icon](./media/privacy-icon)
     :::column-end:::
 
     :::column span="":::
-:::column:::
-     Privacy
-:::column-end:::  
-:::column span="":::
-:::column:::
+    :::column:::
+        Privacy
+  :::column-end:::  
+  :::column span="":::
      [Link to privacy article](https://microsoft.com)
-:::column-end:::
    :::column-end:::
 :::row-end:::
 
-|
