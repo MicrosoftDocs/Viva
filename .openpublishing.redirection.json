@@ -446,6 +446,31 @@
       "redirect_document_id": false
       },
       {
+        "source_path": "viva/insights/personal/introduction.md",
+        "redirect_url": "https://support.microsoft.com/topic/1d501790-479b-44f4-9876-97538869fc73",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/introduction.md",
+        "redirect_url": "https://support.microsoft.com/topic/f07f80a1-177d-4541-9185-31493b74fc0f",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/overview/privacy-guide-users.md",
+        "redirect_url": "https://support.microsoft.com/topic/8f2c038c-f80c-4512-bf4c-90a0423377f2",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/viva-teams-app-install.md",
+        "redirect_url": "https://support.microsoft.com/topic/3b8db3ff-17b7-4d41-b2eb-f593530abfc7",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/settings.md",
+        "redirect_url": "https://support.microsoft.com/topic/e7d25f88-d102-4740-a7d0-af8610b457c5",
+        "redirect_document_id": false
+      },
+      {
       "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
       "redirect_url": "/viva/insights/personal/setup/configure",
       "redirect_document_id": false
