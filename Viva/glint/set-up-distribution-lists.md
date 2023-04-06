@@ -59,7 +59,8 @@ The first page that appears displays all Distribution Lists that exist for your 
 
 ### Add attribute rules to create a new list 
 
-There are two options: 
+There are two options:
+ 
 - All active employees 
 - Filter all active employees 
 
