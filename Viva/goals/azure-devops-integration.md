@@ -42,7 +42,7 @@ While you can integrate both Viva Goals key results and initiatives with your Az
 
 There are 3 ways to leverage the Azure DevOps integration with Viva Goals workflows. Details on each of these capabilities are described below:
 
-1. **Track progress for a initiative with tasks:** In addition to tracking initiative progress based on Azure DevOps work items, this approach enables a cross-platform user experience. The Azure DevOps work item details are synced to the Viva Goals initiative views andthe alignment of Azure DevOps work to Viva Goals OKRs can be viewed directly within the linked Azure DevOps work items via the Azure DevOps Extension (coming soon)
+1. **Track progress for a initiative with tasks:** In addition to tracking initiative progress based on Azure DevOps work items, this approach enables a cross-platform user experience. The Azure DevOps work item details are synced to the Viva Goals initiative views and the alignment of Azure DevOps work to Viva Goals OKRs can be viewed directly within the linked Azure DevOps work items via the Azure DevOps Extension (coming soon)
 1. **Track progress for a initiative with KPIs:** This approach enables you to track initiative progress based on the Azure DevOps work items status. A single numeric value is synced with Viva Goals. 
 1. **Track progress for a Key Result:** This approach enables you to track KR progress based on the Azure DevOps work items status. A single numeric value is synced with Viva Goals.
 
