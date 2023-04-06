@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 12/08/2022
 title: Meeting effectiveness surveys in Viva Insights  
 description: Learn how to use surveys to make your meetings more effective  with Microsoft Viva Insights

@@ -26,11 +26,11 @@ The tab provides these features:
 
     :::image type="content" source="images/productivity-meeting-habits.png" alt-text="Screenshot that shows meeting category insights in Productivity."lightbox="images/productivity-meeting-habits-expanded.png":::
 
-* [**Meeting category insights**](meeting-category-insights.md) – Understand which kinds of meetings you spend the most time in.
+* [**Meeting category insights**](meeting-category-insights.md) – Understand which kinds of meetings you spend the most time in. Requires Viva Insights subscription.
 
     :::image type="content" source="images/productivity-mci-meeting-breakdown.png" alt-text="Screenshot that shows meeting trends."lightbox="images/productivity-mci-insights-expanded.png":::
 
-* [**Meeting effectiveness surveys**](meeting-effectiveness-surveys.md) – Help make your meetings more effective by surveying participants about what went well and what you could improve next time.
+* [**Meeting effectiveness surveys**](meeting-effectiveness-surveys.md) – Help make your meetings more effective by surveying participants about what went well and what you could improve next time. Requires Viva Insights subscription.
 
     :::image type="content" source="images/productivity-mes-insights.png" alt-text="Screenshot that shows Effective meeting settings." lightbox="images/productivity-surveys-expanded.png":::
 
