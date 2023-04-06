@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 03/29/2023
 title: Meeting and communications in Viva Insights reference
 description: Learn how Viva Insights calculates some meeting- and communications-related insights
@@ -143,3 +144,5 @@ Shorten meeting is triggered when:
 * You're not scheduling a same-day meeting.
 * For recurring meetings, there are at least three attendees, including the organizer. Attendees can be either optional or required.
 * For meetings that don't recur, there are at least four attendees, including the organizer. Attendees can be either optional or required.
+
+
