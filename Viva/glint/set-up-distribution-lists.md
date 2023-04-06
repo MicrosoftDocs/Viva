@@ -21,9 +21,9 @@ description: "Distribution lists define which employees within an organization s
 
 # Set up and use Distribution Lists
 
-Distribution lists define which employees within your organization should receive a survey. When creating a Distribution List, start with the list of all active employees and then refine this list using employee attributes. This creates a custom list of employees that can be chosen as recipients for any Microsoft Viva Glint program within your organization.
+Distribution Lists define which employees within your organization should receive a survey. When creating a Distribution List, start with the list of all active employees and then refine this list using employee attributes. This creates a custom list of employees that can be chosen as recipients for any Microsoft Viva Glint program within your organization.
 
-Distribution lists are essential when a survey program isn't intended to be sent to all active employees.  
+Distribution Lists are essential when a survey program isn't intended to be sent to all active employees.  
 
 ## Create, edit, or delete a Distribution List 
 
