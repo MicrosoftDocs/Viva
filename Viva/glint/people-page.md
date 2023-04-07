@@ -39,20 +39,20 @@ Employees are filtered by active/inactive status, login status, and User Role.
 
 A count of present and past employees, listed by: 
 
-- Active - working within your organization presently 
-- Inactive - no longer work within your organization or are currently on leave 
+- Active: Working within your organization presently 
+- Inactive: No longer work within your organization or are currently on leave 
 
 ### Login Enabled 
 
 A count of employees who may be available to participate in a survey, sorted by: 
 
-- Not Invited - Employees who don't have login access; the employee may be inactive or currently suspended.  Suspended employees can't log in to the dashboard, but they may still take surveys and retain any assigned user roles. All historical data for this user will be preserved. 
-- Pending - Employee has been invited but has not yet set up a password, or the employee has been moved to a new User Role and won't become active until a certain date. 
-- Active - Employee has login access. 
+- Not Invited: Employees who don't have login access; the employee may be inactive or currently suspended. Suspended employees can't log in to the dashboard, but they may still take surveys and retain any assigned user roles. All historical data for this user will be preserved. 
+- Pending: Employee has been invited but has not yet set up a password, or the employee has been moved to a new User Role and won't become active until a certain date. 
+- Active: Employee has login access. 
 
 ### User Roles 
 
-A count of company admins, managers, HRBPs, and HR business partners listed by User Roles. 
+A count of company admins, managers, Human Resources Business Partner (HRBP)s, and HR business partners listed by User Roles. 
 
 ## Find information on a specific person 
 
@@ -63,30 +63,30 @@ Use one of the two following methods:
 
 For each employee, the following information is visible: 
 
-- Employee Name - Editable by admin by selecting the pencil symbol. 
-- Email Address - Editable by admin by selecting the pencil symbol. 
-- Employee ID - Not editable. 
-- Manager Hierarchy - The organization’s highest-ranking employee (generally the CEO) is listed first. The hierarchy progresses downward, following the organizational chart flow, ending with the employee’s immediate manager. Not editable. 
-- Login Access - Determines if a user has login access. Not editable. 
-- User Role(s) - Determines what data and people for whom this user has visibility. Editable by selecting the pencil symbol. 
-- Attributes and hierarchies (aside from the primary hierarchy, usually Manager) - as defined in your organization’s latest Employee Data File. The Attributes section of an individual’s People page will always include required attributes (i.e., Employee ID, birthdate, hire date) and then customized attributes, as defined in Employee Data File. 
+- Employee Name: Editable by admin by selecting the pencil symbol. 
+- Email Address: Editable by admin by selecting the pencil symbol. 
+- Employee ID: Not editable. 
+- Manager Hierarchy: The organization’s highest-ranking employee (generally the CEO) is listed first. The hierarchy progresses downward, following the organizational chart flow, ending with the employee’s immediate manager. Not editable. 
+- Login Access: Determines if a user has login access. Not editable. 
+- User Role(s): Determines what data and people for whom this user has visibility. Editable by selecting the pencil symbol. 
+- Attributes and hierarchies (aside from the primary hierarchy, usually Manager): As defined in your organization’s latest Employee Data File. The Attributes section of an individual’s People page will always include required attributes (i.e., Employee ID, birthdate, hire date) and then customized attributes, as defined in Employee Data File. 
 
 For employees with User Roles in addition to Active Employee, the following editable information will also appear: 
 
-- Focus Area Access - Defines which people's data this user will see in Focus Area reports. Editable by selecting the pencil symbol.  
-- Survey Access - Defines which people's data this user can see in selected survey programs. Editable by selecting the pencil symbol. 
+- Focus Area Access: Defines which people's data this user will see in Focus Area reports. Editable by selecting the pencil symbol.  
+- Survey Access: Defines which people's data this user can see in selected survey programs. Editable by selecting the pencil symbol. 
 
 ## Use the Login As function 
 
-The Login As functionality allows you to open your Glint program as if you were another employee. This functionality is helpful when wanting to view another User Role’s dashboard - typically a manager - and allows you to import their attributes information. 
+The Login As functionality allows you to open your Viva Glint program as if you were another employee. This functionality is helpful when wanting to view another User Role’s dashboard - typically a manager - and allows you to import their attributes information. 
 
-To log in as another person: 
+**To log in as another person**: 
 
 1. Locate the person you want to log in as and open their page by hovering over and selecting the name. 
 
 1. Select  **Login As**. 
 
-1. The dashboard indicates “You're logged in as *other person name*. 
+1. The dashboard indicates “You're logged in as `<other person name>`. 
 
 To return to your own account, select  **Return to your account**. 
 
@@ -98,9 +98,9 @@ The Actions button dropdown menu allows you to reset passwords and send surveys.
 
 An email is sent to the employee’s email address with instructions for password reset.
 
-### Send Pulse 
+### Send Pulse Survey 
 
-You can send a survey to one employee (manually) from the People page. Use the Actions button and then  **Send Pulse**. 
+You can send a survey to one employee (manually) from the People page. Use the Actions button and then  **Send Pulse Survey**. 
 
 - Enabled and live surveys are displayed. Select the survey to send.  
 
@@ -111,7 +111,7 @@ You can send a survey to one employee (manually) from the People page. Use the�
 
 ## Import your Employee Data File 
 
-Use the  **Import** button on the People page to import a CSV (UTF-8) or an XLSX to update employee lists and details - recommended prior to a launch. Customers who manually import employee data can also use this feature. 
+Use the  **Import** button on the People page to import a .csv (UTF-8) or an xl to update employee lists and details - recommended prior to a launch. Customers who manually import employee data can also use this feature. 
 
 Follow the on-screen guidance for uploading the file and then select  **Import File**. 
 
