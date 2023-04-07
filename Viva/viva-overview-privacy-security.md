@@ -30,14 +30,14 @@ For a more detailed look at security, compliance, and privacy for the Microsoft 
 
 :::image type="icon" source="/office/media/icons/lock-protected-blue.png" ::: **Viva Privacy**
 
-[Link to privacy article](https://microsoft.com)
+[Learn about Microsoft Viva privacy](/Viva/viva-privacy.md)
 
 
 
 :::image type="icon" source="/office/media/icons/key-permissions.png" ::: **Viva Security**
 
-[Link to security article](https://microsoft.com)
+[Learn about Microsoft Viva security](/Viva/viva-security.md)
 
 :::image type="icon" source="/office/media/icons/compliance-blue.png" ::: **Viva Compliance**
 
- [Link to compliance article](https://microsoft.com)
+ [Learn about Microsoft Viva compliance](/Viva/viva-compliance)
