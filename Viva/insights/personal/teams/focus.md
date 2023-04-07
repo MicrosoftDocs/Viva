@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 12/08/2022
 title: Focus with Viva Insights
 description: Use the focus features in Microsoft Viva Insights to help you complete individual work
