@@ -17,11 +17,11 @@ manager: anirudhbajaj
 
 # How Viva Insights automatically books your time
 
-After you set automatic booking as your preference for focus, breaks, message catch-up, learning, or lunch, Viva Insights starts searching for time on your Outlook calendar to set aside. Automatically booked time never creates a calendar conflict; that is, Viva Insights won't book over any existing calendar event, like a meeting, personal time, or appointment.
+After you set automatic booking as your preference for focus, breaks, message catch-up, learning, or lunch, Viva Insights starts searching for time on your Outlook calendar to set aside. Automatically booked time never creates a calendar conflict—that is, Viva Insights won't book over any existing calendar event, like a meeting, personal time, or appointment.
 
 ## Booking schedule
 
-Viva Insights automatically books time two weeks in advance. For example, when you open your calendar on a Monday, you should notice your automatically booked time appear all the way through the Friday of the following week. Each weekend, Viva Insights finds time blocks in the next week out and books time accordingly.
+Viva Insights automatically books time two weeks in advance. For example, if you open your calendar on a Monday, you'd notice your automatically booked time appear all the way through the Friday of the following week. Each weekend, Viva Insights finds time blocks in the next week out and books time accordingly.
 
 ## How Viva Insights selects time slots
 
@@ -41,15 +41,11 @@ The time Viva Insights reserves for you depends on the time you have open during
 
 #### Duration and time of day
 
-Viva Insights prioritizes your preferences for length of time slots and part of day (morning or afternoon). For example, if you chose two hours of focus time and afternoon, Viva Insights first scans your calendar to find two-hour open slots in the afternoon. If it finds no two-hour open slots in the afternoon, it continues to scan your calendar to find two-hour open slots in the morning. If only smaller amounts of time are available, it can book focus blocks as short as 30 minutes.
+Viva Insights prioritizes your preferences for length of time slots and part of day (morning or afternoon). For example, if you chose two hours of focus time and afternoon, Viva Insights first scans your calendar to find two-hour open slots in the afternoon. If Viva Insights finds no two-hour open slots in the afternoon, it continues to scan your calendar to find two-hour open slots in the morning. If only smaller amounts of time are available, Viva Insights can book focus blocks as short as 30 minutes.
 
 #### Do not schedule earlier than
 
-Viva Insights also respects the **Do not schedule focus time earlier than** setting for focus time. For example, if you set this to 9:00 AM, Viva Insights won't select any focus-time slots that begin earlier than 9:00 AM.  
-
-
-
-
+Viva Insights also respects the **Do not schedule focus time earlier than** setting for focus time. For example, if you select 9:00 AM here, Viva Insights won't select any focus-time slots that begin earlier than 9:00 AM.  
 
 #### Lunchtime
 
