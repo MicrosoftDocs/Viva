@@ -86,7 +86,7 @@ The Login As functionality allows you to open your Viva Glint program as if yo
 
 1. Select  **Login As**. 
 
-1. The dashboard indicates “You're logged in as `<other person name>`. 
+1. The dashboard indicates “You're logged in as  `<other person name>`. 
 
 To return to your own account, select  **Return to your account**. 
 
