@@ -158,13 +158,14 @@ Here's how we define each meeting category. For a meeting to be included in one 
 |--------|----------|
 |Attended meeting| <ul><li>Is joined on Teams <li>Has more than two "Accept" responses
 |Likely attended meeting| <ul><li>Has "Likely attended meeting" as the category
-|Invited to meeting| <ul><li>Is shorter than 24 hours<li>Isn't canceled<li>Has more than two invitees<li> Doesn't show as "Out of Office" and doesn't contain "No meeting day" in the title
-|Vacation or Out of Office| <ul><li>Isn't joined on Teams<li>Is 24 hours or longer<li>Isn't canceled<li>Has "Organizer" for the response<li>Doesn't recur<li>Contains one of several keywords in the title, including "vacation," "Out of office," "OOF," "medical leave."
-|No meeting day| <ul><li>Is 24 hours long<li>Isn't canceled<li>Has more than two intended participants<sup>1</sup><li> Doesn't show as "Out of Office" in Outlook and Teams and contains "No meeting day" in the subject line
-|Focus time| <ul><li>Isn't joined on Teams<li>Is shorter than 24 hours<li>Isn't canceled<li>Has "Organizer" for the response<li>Has fewer than two intended participants<li>Shows as "Busy" in Outlook and Teams or has "Focus time" in the subject line
-|Appointment|<ul><li>Isn't joined on Teams<li>Is shorter than 24 hours<li>Isn't canceled<li>Has "Organizer" for the response<li>Has fewer than two intended participants<li>Shows as "Busy" in Outlook and Teams
+|Invited meeting| <ul><li>Is shorter than 24 hours<li>Isn't canceled<li>Has more than two invitees<li> Doesn't show as "Out of Office" and doesn't contain "No meeting day" in the title
+|Out of Office| <ul><li>Isn't joined on Teams<li>Is 24 hours or longer<li>Isn't canceled<li>Has "Organizer" for the response<li>Doesn't recur<li>Contains one of several keywords in the title, including "vacation," "Out of office," "OOF," "medical leave."
+|No-meeting day| <ul><li>Is 24 hours long<li>Isn't canceled<li>Has more than two intended participants (refer to note below)<li> Contains "No meeting day" in the title<li>Shows as "Out of Office" or "Busy" in Outlook and Teams 
+|Focus time| <ul><li>Isn't joined on Teams<li>Is shorter than 24 hours<li>Isn't canceled<li>Has "Organizer" for the response<li>Has fewer than two intended participants<li>Shows as "Busy" in Outlook and Teams <li>Has "Focus time" as the meeting title
+|Appointment|<ul><li>Isn't joined on Teams<li>Is shorter than 24 hours<li>Isn't canceled<li>Has "Organizer" for the response<li>Has fewer than two intended participants (refer to note below) <li> Shows as "Busy" in Outlook and Teams <li> Doesn't have "Focus time" as the meeting title
 
-<sup>1. Intended participants are all of the meeting's invitees, plus the organizer.</sup>
+>[!Note]
+>Intended participants are all of the meeting's invitees, plus the organizer.
 
 #### To add a rule from a template
 
