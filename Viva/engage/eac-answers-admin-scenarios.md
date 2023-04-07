@@ -22,15 +22,15 @@ search.appverid:
 
 # Answers admin scenarios in Viva
 
-Administration of Answers is for the Microsoft 365 Global admin, the Engage admin, and a new role of the Answers admin. The new role of Answers admin is designated by [adding Knowledge Managers in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. For more information, see:
+Administration of Answers is for the Microsoft 365 Global admin, the Engage admin, and the new role of *Answers admin*. The new role of Answers admin is designated by [adding Knowledge Managers in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. For more information, see:
 - [Assign a role to a group using Privileged Identity Management](/azure/active-directory/roles/groups-pim-eligible)
-- [creating a role-assignable group in Azure AD](/azure/active-directory/roles/groups-create-eligible)  
+- [Creating a role-assignable group in Azure AD](/azure/active-directory/roles/groups-create-eligible)  
 
 ## Permissions
 
 The following table shows the actions available to users and admins.
 
-|Answers actions|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Yammer) admin|Answers admin (Knowledge manager)|Microsoft 365 Global admin|
+|Answers action|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Yammer) admin|Answers admin (Knowledge manager)|Microsoft 365 Global admin|
 |--------------------|-----------------|----------------|----------|------------|-----------|
 |**Answer, upvote, and react to a question thread**|Questions they're mentioned in |✓|✓|✓|✓|
 |**Receive notifications in the Viva Engage Teams app**|Questions they're mentioned in |✓|✓|✓|✓|
@@ -67,7 +67,7 @@ As an Answers admin, you can feature a topic or create a topic from the topic br
 
 ### **Review pending topics suggested by employees**
 
-To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a  **Needs Review** tab on the topic browse page, which is only visible to them. It displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user shows up in this tab for a knowledge manager to review. Select **Review** on a topic to check and edit the summary.
+To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a  **Needs Review** tab on the topic browse page, which is only visible to them. It displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review. Select **Review** on a topic to check and edit the summary.
 
 [![Screenshot of the topics that need review in Answers in Viva.](/viva/media/engage/admin/needs-review-topic.png)](/viva/media/engage/admin/needs-review-topic.png#lightbox)
 
@@ -98,9 +98,9 @@ To remove a topic in Answers, Answers admins (knowledge managers) follow these s
 
 As an Answers admin, you can access Global Answers analytics:
 1. Select the analytics icon from the top navigation bar of Viva Engage.
-1. Go to the Global Answers analytics tab. You'll see a dashboard of analytics that provide an overview and relevant insights about knowledge sharing activity across Answers in Viva.
+1. Go to the Global Answers analytics tab. You'll see an analytics dashboard that provide an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
-For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see the comprehensive documentation for [viewing and managing analytics in Viva Engage](/Viva/engage/analytics) .
+For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics) .
 
 [![Screenshot of the Global Answers analytics dashboard in Viva Engage.](/viva/media/engage/admin/global-answers-analytics.png)](/viva/media/engage/admin/global-answers-analytics.png#lightbox)
 
