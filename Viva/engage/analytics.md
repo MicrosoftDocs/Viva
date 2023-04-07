@@ -83,11 +83,17 @@ In the **Manage analytics** interface, the Engage admin can enable or disable th
 
 ## Frequently asked questions
 
-**How often are analytics updated?** Analytics get refreshed every 24 hours. If you don’t see changes reflected immediately, check back the next day.
+**How often are analytics updated?** 
 
-**Where can users access analytics?** Select the analytics icon in the main Via Engage navigation menu.
+Analytics get refreshed every 24 hours. If you don’t see changes reflected immediately, check back the next day.
 
-**Why can't my leader/delegate see audience analytics?** To view audience analytics, a leader and their delegate must be licensed users. Additionally, at least 75 percent of the leader's audience must have a premium license for audience analytics to be visible to the leader or their delegate.
+**Where can users access analytics?** 
+
+Select the analytics icon in the main Via Engage navigation menu.
+
+**Why can't my leader/delegate see audience analytics?** 
+
+To view audience analytics, a leader and their delegate must be licensed users. Additionally, at least 75 percent of the leader's audience must have a premium license for audience analytics to be visible to the leader or their delegate.
 
 ## See also
 
