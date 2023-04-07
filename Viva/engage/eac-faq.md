@@ -38,7 +38,7 @@ The following figure represents the link and hierarchy:
 
 **Can I access the Yammer admin center for certain Engage admin configurations even if my organization doesn’t currently use Yammer?**
 
-Yes, if you hold the following admin roles: Global admin and Engage admin. Because Viva Engage is powered by Yammer technology, you still use certain admin configurations in Yammer to set up Viva Engage for your organization. Learn more about Yammer’s admin center.
+Yes, if you hold the following admin roles: Global admin and Engage admin. Because Viva Engage is powered by Yammer technology, you still use certain admin configurations in Yammer to set up Viva Engage for your organization. [Learn more about Yammer’s admin center](/Yammer/).
 
 **When admin changes are made in Yammer, are they reflected in Viva Engage?**
 
