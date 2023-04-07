@@ -64,7 +64,7 @@ Corporate communicators can do the following things:
 
 ### Remove user as a corporate communicator
 
-To remove a user from this role, select the delete icon on the right side of the corporate communicator list. They'll no longer be listed as an active corporate communicator in your network.
+To remove a user from this role, select the **delete** icon on the right side of the corporate communicator list. They'll no longer be listed as an active corporate communicator in your network.
 
 [![Screenshot of the interface for removing a corporate communicator in Viva Engage.](/viva/media/engage/admin/remove-corp-comm.png)](/viva/media/engage/admin/remove-corp-comm.png#lightbox)
 
