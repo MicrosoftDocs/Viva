@@ -48,11 +48,10 @@ Answers is enabled by default for customers that meet the following technical re
 
     Yammer topics have begun to migrate to Viva Topics. Over the next months, all existing Yammer networks will be migrated. Answers uses Viva Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Viva Topics works across services in Microsoft 365, we require that your Yammer network uses Viva Topics to ensure the best experience with Answers.
 
-    All Yammers tenants in Native mode will be migrated to use Viva Topics. There are no other licensing requirements for this migration.
 
     For customers awaiting topics migration:  
     - Microsoft informs existing Yammer customers who purchased Viva Topics or Viva Suite products when the Yammer Topics have migrated to Viva Topics. They're notified by email.
-    - Interested tenants can request to prioritize of Answers enablement, which may include Native Mode Support or Yammer Topics Migration to Viva Topics. To do so, they can contact their customer account manager/Microsoft support staff for Yammer and file a support ticket. Microsoft reviews these requests and prioritizes. Answers enablement for the tenants who make this request.
+    - Interested tenants can request to get Answers enablement prioritized, which may include Native Mode Support or Yammer Topics Migration to Viva Topics. To do so, they can contact their customer account manager/Microsoft support staff for Yammer and file a support ticket. Microsoft reviews and processes these requests.
 
     Learn more about Yammer Topics migration to Viva Topics:
     - [Viva Topics in Yammer](/viva/topics/topic-experiences-yammer)
@@ -64,7 +63,7 @@ Answers is enabled by default for customers that meet the following technical re
 
 ## Data storage, export, and compliance
 
-Answers is backed by an Office 365 group and follows the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers. The Answers backing group is auto-provisioned when the first question is posted or first question attachment is created. At the time of creation, all Global admins are assigned as owners of the backing group, which is titled *Group for Answers in Viva Engage – DO NOT DELETE.*
+Answers is backed by an Office 365 group and follows the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers. The Answers backing group is auto-provisioned when the first question is posted or first the question attachment is created. At the time of creation, all Global admins are assigned as owners of the backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
 
 Owners of the backing group should ensure that Answers is kept compliant with network policies and doesn't get accidentally deleted. Admins can export data if you want to delete the backing Office 365 group. If the backing group is deleted, Answers won't be functional.
 
