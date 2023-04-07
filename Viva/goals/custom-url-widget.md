@@ -19,11 +19,11 @@ search.appverid:
 description: "Learn how to use the custom embed widget in Viva Goals"
 ---
 
-# Embed URL Widget
+# Embed URL widget
 
 During OKR reviews, teams often need to embed external content from documents, slides and images into their review dashboard. Embedding content easily bridges comprehensive data and visualizations from different mediums into Viva Goals so leaders can run effective executive reviews and team meetings.  The custom embed widget allows users to embed URLs so that they can be directly accessed from their Viva Goals dashboard. 
 
-## Using the Embed URL Feature 
+## Using the Embed URL feature 
 
 1. In the dashboards tab, create a new widget. Select “Customized Embed”
  :::image type="content" source="../media/goals/custom-url-widget-images/custom-embed-widget.png" alt-text="Screenshot of highlighted custom ember widget in a review dashboard."::: 
@@ -36,13 +36,13 @@ During OKR reviews, teams often need to embed external content from documents, s
 3. After clicking save, the embedded URL will appear in the dashboard widget.
  :::image type="content" source="../media/goals/custom-url-widget-images/example-custom-url-1.png" alt-text="Screenshot of the custom url widget appearing in the review dashboard.":::
 
-## Embedding an Image using Embed URL
+## Embedding an image using Embed URL
 
 To embed an image in the dashboard using the embed URL feature, upload the image to OneDrive and paste the OneDrive link in the Embed URL widget. 
 
 :::image type="content" source="../media/goals/custom-url-widget-images/example-custom-url-2.png" alt-text="Screenshot of a custom url showing an image rather than a document.":::
 
-## Embedding a Power BI Dashboard in Viva Goals 
+## Embedding a Power BI dashboard in Viva Goals 
 
 To embed a Power BI Dashboard, follow the same steps above and add the Power BI URL to the embed widget. You can obtain the Power BI Dashboard URL from the “embed to a website or portal” option within the file menu on Power BI. 
 

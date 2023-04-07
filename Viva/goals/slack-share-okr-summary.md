@@ -44,9 +44,9 @@ Once you are ready, click **Share** and the objectives will be sent to the inten
 
 :::image type="content" source="../media/goals/slack-images/share-4.png" alt-text="Screenshot of a shared summary from Viva Goals within Slack." lightbox="../media/goals/slack-images/share-4.png":::
 
-### Share a specific OKR or Project 
+### Share a specific OKR or initiative 
 
-You can share any OKR by clicking on the "Share” button available on the OKR or Project menu or on the quick view.
+You can share any OKR by clicking on the "Share” button available on the OKR or initiative menu or on the quick view.
 
 :::image type="content" source="../media/goals/slack-images/share-okr.png" alt-text="Screenshot of a shared Objective from Viva Goals." lightbox="../media/goals/slack-images/share-okr.png":::
 
