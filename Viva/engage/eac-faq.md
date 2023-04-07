@@ -1,5 +1,5 @@
 ---
-title: "Viva Engage admin center: Frequently asked questions (FAQs)"
+title: "Viva Engage admin center: Frequently asked questions (FAQ)"
 description: "Provides answers to frequently asked questions about the Viva Engage admin center."
 ms.reviewer: ethli
 ms.author: mamiejohnson
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Viva Engage admin center: Frequently asked questions (FAQs)
+# Viva Engage admin center: Frequently asked questions
 
 **Who can access the Viva Engage admin center in the Viva Engage Teams application?**
 
