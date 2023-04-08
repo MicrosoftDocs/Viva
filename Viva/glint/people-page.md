@@ -52,7 +52,7 @@ A count of employees who may be available to participate in a survey, sorted by:
 
 ### User Roles 
 
-A count of company admins, managers, Human Resource Business Partners (HRBPs), and HR business partners listed by User Roles.s 
+A count of company admins, managers, Human Resource Business Partners (HRBPs), and HR business partners listed by User Roles. 
 
 ## Find information on a specific person 
 
