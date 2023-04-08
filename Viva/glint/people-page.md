@@ -111,7 +111,7 @@ You can send a survey to one employee (manually) from the People page. Use the�
 
 ## Import your Employee Data File 
 
-Use the  **Import** button on the People page to import a .csv (UTF-8) or an xlxs to update employee lists and details - recommended prior to a launch. Customers who manually import employee data can also use this feature. 
+Use the  **Import**  button on the People page to import a *.csv* (UTF-8) or an *xlxs* to update employee lists and details - recommended prior to a launch. Customers who manually import employee data can also use this feature. 
 
 Follow the on-screen guidance for uploading the file and then select  **Import File**. 
 
