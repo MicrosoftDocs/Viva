@@ -31,11 +31,11 @@ The following roles have access to the Viva Engage admin center in the Viva Enga
 
 ## Microsoft 365 Global admin
 
-The Microsoft 365 Global admin has unlimited access to the organization’s settings and most of its data. Naturally, the Global admin has permissions to perform all configurations for Viva Engage in your organization. To learn more about this role and security guidelines for assigning it, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+The Microsoft 365 Global admin has unlimited access to the organization’s settings and most of its data. Naturally, the Global admin controls configuration for Viva Engage in your organization. To learn more about this role and security guidelines for assigning it, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Engage admin  
 
-The Engage admins can set up and configure Engage for your organization. They also manage data, network related settings, and the various core and premium features in the application. This role is assigned when you [add Yammer administrators in Azure Active Directory](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-yammer-administrator-role-is-now-available-in-azure/ba-p/3592577). Yammer Azure Active Directory (Azure AD) administrators automatically become Engage admins and have elevated permissions over end users. This connection exists because Viva Engage is powered by Yammer technology.
+The Engage admin can set up and configure Engage for your organization. They also manage data, network related settings, and the various core and premium features in the application. This role is assigned when you [add Yammer administrators in Azure Active Directory](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-yammer-administrator-role-is-now-available-in-azure/ba-p/3592577). Yammer Azure Active Directory (Azure AD) administrators automatically become Engage admins and have elevated permissions over end users. This connection exists because Viva Engage is powered by Yammer technology.
 
 >[!NOTE]
 > This admin role is assigned and modified by a Global admin through Azure AD, [PIM](/azure/active-directory/privileged-identity-management/pim-configure), [group based role assignments](/azure/active-directory/roles/groups-concept), or [Azure portal and PowerShell](/azure/active-directory/roles/manage-roles-portal).
@@ -46,13 +46,13 @@ The following table shows the range of actions available to Engage and Global ad
 
 |Permissions for Engage admin and Global admin |M365/O365 customer with Viva Engage core |Microsoft Viva suite customer|
 |------------|-------|-------|
-|**Manage corporate communicators**: <br> Assign user(s) as a corporate communicator; Remove user(s) as a corporate communicator  |✓ |✓ |
-|**Manage tenant and user permissions** (through Yammer)|✓ |✓ |
+|**Manage corporate communicators**: <br> Assign or remove users as a corporate communicator  |✓ |✓ |
+|**Manage tenant and user permissions** through Yammer |✓ |✓ |
 |**Manage data and compliance**: <br> Manage network and user data; **GDPR** delete |✓ |✓ |
-|**Manage leaders and their audiences**: <br> Assign leaders in your organization; **Identify audiences for the leaders identified** |✓ |✓ |
-|**Configure stories and storylines**: <br> Enable storylines and stories for your organization; configure advanced settings like default notifications; specify who can create storyline posts |✓ |✓ |
+|**Manage leaders and their audiences**: <br> Assign leaders in your organization; identify audiences for the leaders identified |✓ |✓ |
+|**Configure stories and storylines**: <br>enable storylines and stories for your organization; configure advanced settings like default notifications; specify who can create storyline posts |✓ |✓ |
 |**Manage sentiment analysis and other feature specific analytics**: <br> Configure level of sentiment to be gathered in the organization; Enable or disable campaign analytics; enable or disable Answers analytics|  |✓ |
-|**Add, view, and manage campaigns**: <br> Create and manage campaigns; access campaign analytics dashboard|  |✓ |
+|**Add, view, and manage campaigns**: <br>create and manage campaigns; access campaign analytics dashboard|  |✓ |
 |**Enable and manage badges**|  |✓ |
 |**Enable Answers**|  |Global admin only |
 
@@ -86,9 +86,9 @@ The following table shows the actions available to a corporate communicator, Eng
 
 |Permissions for corporate communicators, Engage admin, and Global admin |M365/O365 customer with Viva Engage core |Microsoft Viva Suite customer|
 |----------------|---------|-------|
-|**Identify leaders**: <br> Manage their audience; Manage their delegates |✓|✓|
+|**Identify leaders**: <br> manage their audience and delegates |✓|✓|
 |**Create campaigns**| |✓|
-|**Manage campaigns via**: <br> Publish active campaigns; End active campaigns; Republish ended campaigns; Delete campaigns | |✓|
+|**Manage campaigns via**: <br> publish active campaigns; end active campaigns; republish ended campaigns; delete campaigns | |✓|
 |**View campaign analytics**| |✓|
 
 ## See also
