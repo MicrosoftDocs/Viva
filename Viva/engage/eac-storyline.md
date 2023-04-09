@@ -22,16 +22,16 @@ search.appverid:
 
 # Manage and set up storyline in Viva Engage
 
-Storyline empowers everyone in your organization to connect and contribute. It enables your leaders to reach and engage employees. Through storyline, people can share updates, experiences, and perspectives to reach followers and colleagues across the organization. Engage with storylines from the Web and the mobile applications you use every day—Outlook, Microsoft Teams, and Microsoft Viva.
+Storyline empowers everyone in your organization to connect and contribute. It enables your leaders to reach and engage employees. Through storyline, employees can share updates, experiences, and perspectives to reach followers and colleagues across the organization. Engage with storylines from the Web and the mobile applications you use every day—Outlook, Microsoft Teams, and Microsoft Viva.
 
 When storyline is enabled in your organization, you see the following changes in the Viva Engage app:
 
 - Internal (nonguest) users who have access to Viva Engage see a new default **Storyline** tab on their user profile page.
-- Users see a new **Storylines** page. For this page, users can toggle between a personalized feed of posted content or a focused feed that includes only storyline content from the people that the user follows.
+- Users see a new **Storylines** page. Users can toggle between a personalized feed of posted content or a focused feed that includes only storyline content from the people that the user follows.
 
 ## Set up storyline
 
-Microsoft 365 Global admins and Engage admins manage storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac): Select the ellipses on the right of the top navigation menu, and then select **Admin**.
+Microsoft 365 Global admins and Engage admins manage storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac). To access it, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
 
 [![Screenshot of the entry point into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
@@ -60,8 +60,8 @@ In its default configuration, Storyline notifies followers via Teams, email, and
 
 The system default selections for notifications include:
 
-- Microsoft Teams–notifications are delivered in the Teams Activity feed.
-- Email delivered to your inbox includes support for actionable messages, so the conversation can be viewed and replied from Outlook Web Access.
+- Microsoft Teams notifications are delivered in the Teams Activity feed.
+- Email delivered to your inbox includes support for actionable messages, so the conversation can be viewed and replied to from Outlook Web Access.
 - Viva Engage notifications are delivered to the Viva Engage notification bells.
 
 ## Security and compliance
@@ -90,7 +90,7 @@ All files attached to storyline posts are stored in a hidden library in the auth
 
 To determine the precise URL for a user's storyline, follow these steps:
 
-1. Open the user's OneDrive in the browser.
+1. Open the user's OneDrive in a browser.
 2. Note the URL to the user's OneDrive.
 3. Locate the **user identifier**, which is the part of the URL immediately that follows *my.sharepoint.com/personal/*.
 4. Replace everything after the profile identifier and the backslash plus **VivaEngage**, without a space, case insensitive. The resulting URL will resemble this example: 
@@ -129,9 +129,9 @@ You can't prevent any internal user from seeing storyline content if they have a
 We plan to add the capability to limit who gets their own storyline after storyline reaches general availability. This functionality will allow you to use Azure Active Directory groups to designate which users get a personal storyline feed on their user profile page in Yammer. Users that don't get a storyline will be able to reply and react to storyline posts from users who do have their own storyline.
 
 ### How do I delete custom cover photos that were uploaded to a person’s storyline? 
-When the preview features toggle is turned *on*, the user or Network and Verified Admins can delete uploaded cover photos. To do this, go to the user profile page and select **Delete** under **Update cover photo**.
+When the preview features toggle is turned on, the user or Network and Verified admin can delete uploaded cover photos. To do this, go to the user profile page and select **Delete** under **Update cover photo**.
 
-To delete a previously uploaded cover photo when the preview toggle is turned *off*, you need to temporarily opt in to the preview so you can access the delete cover photo option.
+To delete a previously uploaded cover photo when the preview toggle is turned off, you need to temporarily opt in to the preview so you can access the delete cover photo option.
 
 ## See also
 
