@@ -44,9 +44,7 @@ Engage admins, corporate communicators, Yammer verified admins, and Yammer netwo
    [![Screenshot of the Viva Engage admin center interface for adding leaders.](/viva/media/engage/admin/add-leaders.png)](/viva/media/engage/admin/add-leaders.png#lightbox)
 
 5. Select the user or group from the search results.
-6. If you're importing a group, select **Continue** to confirm your choice.
-
-Once confirmed, the group members and individuals you selected are added as leaders in the **Manage leaders** list.
+6. If you're importing a group, select **Continue** to confirm your choice. The group members and individuals you selected are then added as leaders in the **Manage leaders** list.
 
 > [!NOTE]
 > Subsequent changes to group memberships don't automatically update who is identified as a leader in Viva Engage. You can re-add the group to add new members, or you can add and remove individual leaders.
@@ -55,11 +53,11 @@ Once confirmed, the group members and individuals you selected are added as lead
 
 After a leader is identified, the next step is to manage the leader’s audience. This task is for the Engage admin, Yammer verified admin, Yammer network admin, corporate communicator, and leader or leader's delegate managers.  
 
-On the **Manage leaders** list, find the leader’s row and select the pencil icon next to it to edit.
+On the **Manage leaders** list, find the leader’s row and select the pencil icon next in it to edit.
 
 [![Screenshot of the interface to manage a leader's audience in Viva Engage.](/viva/media/engage/admin/edit-audience.png)](/viva/media/engage/admin/edit-audience.png#lightbox)
 
-The **Manage audiences** page appears, and you can configure the leader’s audience. A leader can have up to two audiences:
+The **Manage audiences** page appears, where you configure the leader’s audience. A leader can have up to two audiences:
 
 - **Entire organization:** The leader’s posts and announcements reach all users in the Viva Engage/Yammer network, excluding guests. To enable a leader to share and reach the entire organization, enable the **Entire organization** toggle. 
 
@@ -90,7 +88,7 @@ A leader follows these steps to configure delegates:
 
    [![Screenshot of the delegate settings interface in Viva Engage.](/viva/media/engage/admin/delegate-settings.png)](/viva/media/engage/admin/delegate-settings.png#lightbox)
 
-4. Choose the type of delegate.
+4. Choose the type of delegate:
 
     - A *delegate* can create posts on behalf of the user in any public or private Yammer community as long as both the delegate and the user have access to it.
 
@@ -147,7 +145,7 @@ Verified admins, Network admins, Engage admins, and corporate communications man
 
 **How are leader’s audiences configured?**
 
-Identified leaders and their delegate managers can configure leader’s audiences in the **Manage audiences** interface in the Viva Engage admin center. But for a leader to reach the entire organization, the Engage admin, Verified admin, Network admin, and corporate communications managers must configure and enable this audience. Other users aren't involved in audience configuration.  
+Identified leaders and their delegate managers can configure leaders' audiences in the **Manage audiences** interface in the Viva Engage admin center. But for a leader to reach the entire organization, the Engage admin, Verified admin, Network admin, or corporate communications manager must configure and enable this audience. Other users aren't involved in audience configuration.  
 
 **Is there a way to disable leadership corner?**
 
@@ -155,7 +153,7 @@ Yes, the Global admin and Engage admin can turn off leadership corner in the fea
 
 **How can I customize the company logo in leadership corner?**
 
-Yes. Follow the instructions at this [link](/yammer/manage-yammer-groups/customize-your-network).
+Yes. Follow the instructions at this [Customize your network](/yammer/manage-yammer-groups/customize-your-network).
 
 ## See also
 
