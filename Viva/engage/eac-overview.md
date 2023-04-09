@@ -22,14 +22,14 @@ search.appverid:
 
 # Overview of the Viva Engage admin center
 
-Use the Viva Engage admin center to set up and customize your tenant, manage security and compliance, and build engagement within your organization. The Viva Engage admin center is located in the Viva Engage app on Teams.
+You use the Viva Engage admin center to set up and customize your tenant, manage security and compliance, and build engagement within your organization. The admin center is located in the Viva Engage app on Teams.
 
-In the Admin center you can:  
+In the admin center you can:  
 
 - Manage admin roles to determine who will administer Engage for your organization.
 - Set up your Engage tenant—Customize your network, set up usage policy, and manage user permissions.
-- Manage your organizations data retention and export plans.
-- Explore options to manage various core and premium features within Viva Engage  
+- Manage your organization's data retention and export plans.
+- Explore options to manage various core and premium features in Viva Engage.  
 
 To go to the Viva Engage admin center, select the ellipses button from the top navigation menu in of Viva Engage. From the drop-down menu, select **Admin**.
 
