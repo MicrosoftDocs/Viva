@@ -146,6 +146,6 @@ View Nudge dates, recipient groups, number of targeted emails, and number of ema
 
 ### Export data from the Send History section 
 
-From the *vertical ellipses* next to the group, you can download a .csv of email recipients. To export a full file of all Nudges sent, use the *Export* button.  
+From the *vertical ellipses* next to the group, you can download a *.csv* of email recipients. To export a full file of all Nudges sent, use the *Export* button.  
 
 Additional resources:
