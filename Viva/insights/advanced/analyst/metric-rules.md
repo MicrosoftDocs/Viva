@@ -157,7 +157,7 @@ Here's how we define each meeting category. For a meeting to be included in one 
 |Category|Meeting criteria|
 |--------|----------|
 |Attended meeting| <ul><li>Is joined on Teams <li>Has more than two "Accept" responses
-|Likely attended meeting| <ul><li>Has "Likely attended meeting" as the category
+|Likely attended meeting| <ul><li>Has "Accepted" or "Organizer" as the response
 |Invited meeting| <ul><li>Is shorter than 24 hours<li>Isn't canceled<li>Has more than two invitees<li> Doesn't show as "Out of Office" and doesn't contain "No meeting day" in the title
 |Out of Office| <ul><li>Isn't joined on Teams<li>Is 24 hours or longer<li>Isn't canceled<li>Has "Organizer" for the response<li>Doesn't recur<li>Contains one of several keywords in the title, including "vacation," "Out of office," "OOF," "medical leave."
 |No-meeting day| <ul><li>Is 24 hours long<li>Isn't canceled<li>Has more than two intended participants (refer to note below)<li> Contains "No meeting day" in the title<li>Shows as "Out of Office" or "Busy" in Outlook and Teams 
@@ -254,11 +254,11 @@ If you’re ready to add your rule to a query, go to [How to add a rule to your 
 
 1. A **Metric rules** pane appears. Select the rule you want to apply.
 
-    :::image type="content" source="../images/analyst-metric-rules-add-rule.png" alt-text="Screenshot that shows the Metric rules pane with various rules, and the Meeting exclusions rule highlighted as default.":::
+    :::image type="content" source="../images/analyst-metric-rules-add-rule2.png" alt-text="Screenshot that shows the Metric rules pane with various rules, and the collaboration exclusions rule highlighted as default.":::
     >[!Note]
     > You can only apply one rule at a time. If there’s a default rule active in your organization, you’ll notice that the rules pane shows it as selected. When you set a different rule, you’re choosing to use the one you picked instead of the default rule.
     > 
-    >If your organization is just starting to use the advanced insights app, the default rule here might be **Meeting exclusions**. We talk about this rule in [The meeting exclusions rule](#the-meeting-exclusions-rule).
+    >If your organization is just starting to use the advanced insights app, the default rule here might be **Collaboration exclusions**. We talk about this rule in [The collaboration exclusions rule](#the-collaboration-exclusions-rule).
 
 1. Select the **Save settings** button.
 
@@ -281,23 +281,21 @@ If your organization has a default rule, but you don’t want to use it, you’l
 
 To quickly identify default rules, look for the green **Default** tag. Default rules always appear first in **More settings > Metric rules**.
 
-:::image type="content" source="../images/analyst-metric-rules-default-tag.png" alt-text="Screenshot that shows the Meeting exclusions rule with a green Default tag underneath it.":::
+### The collaboration exclusions rule
 
-### The meeting exclusions rule
+When your organization first uses the analyst experience, you’ll notice we’ve already set a default rule: collaboration exclusions.
 
-When your organization first uses the analyst experience, you’ll notice we’ve already set a default rule: meeting exclusions.  
+This rule applies to meetings, emails, and calls. Here's how the rule determines whether to exclude a meeting, email, or call:
 
-If the meeting isn't joined on Teams, and it matches any criteria of the criteria below, that meeting's time and count metrics are excluded:
+|Collaboration type| Criteria|
+|------------------|---------|
+|Meeting| Isn't joined on Teams and meets at least one of the following conditions: <ul><li>Shows as anything other than "Busy" on participants' calendars <li>Has 1 or fewer people who accepted the invitation <li>Has anything other than "Accepted" or "Organizer" for the invitation response<li>Is canceled<li>Is 24 hours or longer
+|Email|Meets at least one of the following conditions: <ul> <li> Is an email sent to self <li>Is a non-collaboration email (refer to note below)
+|Call| Isn't scheduled and meets at least one of the following conditions: <ul><li>Is a voicemail<li>Is a missed call  
 
-* The duration of the meeting is 24 hours or more.
-* The meeting is canceled.
-* The user isn't the meeting organizer, and if their response to a meeting invite is anything other than "Accept."
-* There are fewer than two participants.
-* The event is set to show as anything other than "Busy" on participant's calendars.
+#### Replace collaboration exclusions as default
 
-#### Replace meeting exclusions as default
-
-You or another analyst can replace meeting exclusions as the default rule at any point. However, keep this important information in mind:
+You or another analyst can replace collaboration exclusions as the default rule at any point. However, keep this important information in mind:
 
 >[!Caution]
 >When you set a rule as default, that rule applies to all queries that any analyst in your organization runs. Default rules also affect calculations for the Viva Insights app in Teams and web. Use the default option carefully.
