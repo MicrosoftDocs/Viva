@@ -16,7 +16,7 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Why surveys are confidential rather than anonymous."
+description: "Confidentiality guidelines allow our customers to provide analytic fundamentals while meeting local, governmental regulatory requirements."
 ---
 
 # Why surveys are confidential rather than anonymous 

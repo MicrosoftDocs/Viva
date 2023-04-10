@@ -40,7 +40,7 @@ If a user is in multiple recipient groups, they may receive emails from either g
 | **Term** | **Definition** | 
 |---|---|
 | **Recipient group** | Defines who receives Nudges and at what frequency |
-| **Teammates** | This term has a different meaning dependent upon the employee role:<br>- Individual contributors: Managers + peers,<br>- First-line manager: Manager + directs,<br>- Manager of Mangers: Manager + direct |
+| **Teammates** | This term has a different meaning dependent upon the employee role:<br>- Individual contributors: Managers + peers <br>- First-line manager: Manager + directs <br>- Manager of Mangers: Manager + direct |
 | **Social proof** | Highlights others in your organization who have taken similar actions. Makes the process of action taking collaborative across teams. |
 
 ## How admins set up Nudges 
