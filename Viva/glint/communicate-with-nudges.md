@@ -45,9 +45,9 @@ If a user is in multiple recipient groups, they may receive emails from either g
 
 ## How admins set up Nudges 
 
-To set up Nudges, recipient groups must be created and enabled recipient. Only one User Role can be selected per recipient group. You may create multiple groups to reach more User Roles or choose to send Nudges at a different frequency for each group.
+To set up Nudges, recipient groups must be created and enabled. Only one User Role can be selected per recipient group. You may create multiple groups to reach more User Roles or choose to send Nudges at a different frequency for each group.
 
-From the Microsoft Viva Glint admin dashboard, select  **Configure**, then  **Nudges**  in the  **Notifications** section. 
+From the Microsoft Viva Glint admin dashboard, select **Configure**, then  **Nudges**  in the  **Notifications** section. 
 
    > [!NOTE]
    >Nudge configuration may also be accessed via the Communications set up page in Program Summary for a specific survey.
@@ -61,8 +61,8 @@ There are several sections to set up.
 1. Select **+ New Recipient Group**.
 1. Choose who will receive the Nudges: 
     1. User Role: Select a role from the dropdown menu. Add only one User Role per group. If you have one User Role that includes all managers, it reduces the number of recipient groups you need to create.
-    1. Exclude: Select individual users or Distribution Lists from the search bar. A Distribution List must already be created for it to be available. 
-    1. Recipient List: Download the list of recipients to a *.csv* file to have it for reference.  
+    2. Exclude: Select individual users or Distribution Lists from the search bar. A Distribution List must already be created for it to be available. 
+    3. Recipient List: Download the list of recipients to a *.csv* file to have it for reference.  
     
 ### Timing
 
@@ -110,13 +110,13 @@ Nudges are enabled at the program level within each specific survey program. You
 
 ## Send an email preview 
 
-Select the **Email Preview** button to view the email a recipient sees    . 
+Select the **Email Preview** button to view the email a recipient sees:    
 
 1. Select **Recipient** from the dropdown menu.
 1. Select **Language** from the dropdown menu.
 1. Select **Options** and choose:
     1. Hide social proof in preview, or 
-    1. Send preview email to yourself (your email address should appear) 
+    2. Send preview email to yourself (your email address should appear) 
 1. Select **Generate Preview**.
 
 ## Edit Nudge details 
@@ -134,9 +134,9 @@ Nudges will send only within 90 days of the survey closing, regardless of the 
 
 ### Include or exclude programs from receiving Nudges
 
-Switch the **Eligible for Nudges** feature to **YES** or **NO** on the **Program Set up** page in **Program Summary**. **Suggested Action Plans** must be switched to **ON**, to enable Nudges.
+Switch the **Eligible for Nudges** feature to **YES** or **NO** on the **Program Setup** page in **Program Summary**. **Suggested Action Plans** must be switched to **ON**, to enable Nudges.
 
-*View a list of programs enabled for roles in Nudges*
+### View a list of programs enabled for roles in Nudges
 
 From the admin dashboard select **Nudges**, then **View Details** (for an enabled User Role within the Configuration section). The Recipient Group Setup page opens for that User Role. The bottom section displays *Enabled Programs*.  
 
@@ -148,4 +148,4 @@ View Nudge dates, recipient groups, number of targeted emails, and number of ema
 
 From the *vertical ellipses* next to the group, you can download a *.csv* of email recipients. To export a full file of all Nudges sent, use the *Export* button.  
 
-Additional resources:
+
