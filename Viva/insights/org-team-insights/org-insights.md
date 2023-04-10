@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 11/15/2022
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 

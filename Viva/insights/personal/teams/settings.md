@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 01/10/2023
 title: Configure Viva Insights settings
 description: Learn how to configure Viva Insights settings in the Microsoft Viva Insights app

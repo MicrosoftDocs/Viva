@@ -2,6 +2,15 @@
 
 
 
+## Week of April 03, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/6/2023 | [Viva Goals Setup and Administration Deployment Guide](/viva/goals/viva-goals-deployment-guide) | added |
+| 4/6/2023 | [Azure DevOps integration](/viva/goals/azure-devops-integration) | modified |
+
+
 ## Week of March 27, 2023
 
 
