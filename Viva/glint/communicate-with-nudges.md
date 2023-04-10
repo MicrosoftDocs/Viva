@@ -128,11 +128,11 @@ For each recipient group for which changes will be made:
 1. Make changes and then select **Save Changes**.  
 1. Now select **Enable** and then **Enable Recipient Group** on the Configuration section of the Nudges landing page to incorporate the changes into your programs.
 
-*How long will Nudges continue to send?*
+### How long will Nudges continue to send?
 
 Nudges will send only within 90 days of the survey closing, regardless of the date Nudges are enabled. For example, if a program is on a quarterly cadence, Nudges will stop when the next cycle starts.
 
-*Include or exclude programs from receiving Nudges*
+### Include or exclude programs from receiving Nudges
 
 Switch the **Eligible for Nudges** feature to **YES** or **NO** on the **Program Set up** page in **Program Summary**. **Suggested Action Plans** must be switched to **ON**, to enable Nudges.
 
