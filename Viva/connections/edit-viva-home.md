@@ -258,6 +258,7 @@ If your organization already has a SharePoint home site and you want to keep it 
 >[!NOTE]
 > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell."
 > - Run the command as a Global Administrator or a SharePoint Administrator.
+> - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
 
 
 2.	Connect to SharePoint as a [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
