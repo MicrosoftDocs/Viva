@@ -31,7 +31,7 @@ For more information, see the [Microsoft Trust Center](https://www.microsoft.com
 
 In this article you can learn about:
 
-- Shared responsibility model
+- [Shared responsibility model](link)
 
 - Inheritance of compliance features and settings
 
