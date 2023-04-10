@@ -26,14 +26,52 @@ description: "Find Microsoft Viva compliance information."
 
 Microsoft offers a [comprehensive set of compliance offerings](https://learn.microsoft.com/compliance) to help your organization comply with national, regional, and industry-specific requirements governing the collection and use and data. 
 Microsoft Viva is also covered under the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms/welcome/welcomepage) and [Data Protection Agreement (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?year=2021#:~:text=Microsoft%20Products%20and%20Services%20Data%20Protection%20Addendum%20%28DPA%29,to%20the%20Product%20Terms%20site%20%28and%20formerly%20OST%29).
-For more information, see the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
-In this article you can learn about:
-•	Shared responsibility model
-•	Inheritance of compliance features and settings
-•	System and Organization Controls (SOC) 2
-•	General Data Protection Regulation (GDPR)
-•	Data residency
-•	Using Microsoft Purview
 
-Shared responsibility model
-Microsoft works to ensure that we are compliant with industry and international standards, and customers are responsible for ensuring their data within the Microsoft Cloud is protected in a manner that is compliant with the standards and regulations imposed on the customer. 
+For more information, see the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
+
+In this article you can learn about:
+
+- Shared responsibility model
+
+- Inheritance of compliance features and settings
+
+- System and Organization Controls (SOC) 2
+
+- General Data Protection Regulation (GDPR)
+
+- Data residency
+
+- Using Microsoft Purview
+
+
+## Shared responsibility model
+Microsoft works to ensure that we are compliant with industry and international standards, and customers are responsible for ensuring their data within the Microsoft Cloud is protected in a manner that is compliant with the standards and regulations imposed on the customer.
+
+![Image depicting shared responsibility model](./media/viva-compliance.png)
+
+## Inheritance of compliance features and settings
+Microsoft Viva apps are built on your existing infrastructure and, depending on the app, inherit compliance features and settings from Microsoft 365, Microsoft Teams, SharePoint, Azure, Yammer and Microsoft Graph.
+
+**<<Image goes here>>**
+
+**Microsoft 365** [Plan for security and compliance]
+
+**Microsoft Teams** [Overview of security and compliance in Microsoft Teams]
+
+**Microsoft SharePoint** [Plan compliance requirements for SharePoint and OneDrive]
+
+**Microsoft Graph** [Use the Microsoft Graph compliance and privacy APIs]
+ 
+**Yammer** [Overview of security and compliance in Yammer]
+
+**Azure AD** [Azure AD security baseline for Azure Active Directory]
+
+## System and Organization Controls (SOC) 2
+
+A SOC 2 report is an independent assessment of a service organization's systems and processes that are relevant to the trust services criteria. The report is conducted by a third-party auditor and evaluates the effectiveness of the controls in place to meet these criteria. 
+Following is the SOC 2 audit report status for each Viva app:
+
+|**Viva app**|**SOC 2 report**|
+|----------|-----------|
+| Viva Connections | --- |
+
