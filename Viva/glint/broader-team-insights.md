@@ -43,15 +43,15 @@ By enabling bottom-up change, you can create more engaged people, align teams, a
 
 When a team’s number of responses fall below the confidentiality threshold, as in the example of Terence’s team of three in the image below, the team manager can't view their own team’s results. With Broader Team Insight, however, the team leader can view the results of their direct leader’s team.
 
- :::image type="content" source="../media/small-team.png" alt-text="This is small team image.":::
+:::image type="content" source="../media/Glint/small-team.png" alt-text="This is small team image.":::
 
 When results are ready, the team manager (Terence, in this example) will receive an email with a link to view results. When selecting this link and landing on their dashboard, a message indicates that while there's no access to their own team’s results (because minimum confidentiality standards weren't met), a summary of broader team’s results are available for reviewing and sharing.
 
-:::image type="content" source="../media/evs-engagement.png" alt-text="This is evs-engagement image.":::
+:::image type="content" source="../media/Glint/evs-engagement.png" alt-text="This is evs engagement image.":::
  
 In this Summary report view, Terrence can see customized guidance on how to have a conversation with their own team about the Broader Team Insight results and an abbreviated view of the Executive Summary report.
 
-:::image type="content" source="../media/large-team.png" alt-text="This is large team image.":::
+:::image type="content" source="../media/Glint/large-team.png" alt-text="This is large team image.":::
 
 ## How large Teams uses Broader Team Insight
 
