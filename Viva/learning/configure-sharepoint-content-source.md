@@ -192,7 +192,7 @@ Next, add a title column.
 1. Follow the initial steps to create a column.
 2. Choose **Multiple lines of text**.
 3. Name the column ContentTitle.
-4. Add custom title for each item. If no title is supplied, Viva Learning will pick the file name as the title.
+4. Add a custom title for each item. If no title is supplied, Viva Learning will pick the file name as the title.
 
 Next, provide a thumbnail image.
 
