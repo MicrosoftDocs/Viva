@@ -57,6 +57,8 @@ There are many reports that you can choose to be part of this dashboard. The fol
 | **Keywords**  | A visual of top keywords from comments|
 | **All Comments** | Read representative, prescriptive, or all comments |
 
+For detailed information, see [Report types](https://go.microsoft.com/fwlink/?linkid=2231010).
+
 ## Edit a report
 
 The settings button opens a window where you can choose the right comparison data to interpret survey results within the context of how others are doing. Viva Glint provides four options for comparison reporting:

@@ -1,12 +1,12 @@
 ---
-title: Feedback Reports overview
+title: Survey reports overview
 description: Learn how Viva Glint admins establish access to a wide array of reports for each specific manager.
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint reports, glint manager, glint feedback program, glint survey
+keywords: viva glint, glint reports, glint manager, glint feedback program, glint survey, live access, phased access
 ms.collection: 
  - M365initiative-viva
  - selfserve
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/10/2023
 ---
 
-# Feedback Reports overview
+# Survey reports overview
 
 Admins establish access to survey reports in the Reporting step of Program Summary for each specific User Role. Defining access status is available for recurring and ad-hoc survey programs.
 
@@ -38,15 +38,15 @@ Admins can assign specific reports for distinct roles.
 | Response Rate Report | Provides a deep dive into survey response rates across hierarchies and key demographics. Displays trends and benchmark comparisons. | All |
 | Team Summary | Captures employee feedback as an easy-to-use, insightful experience, designed to empower managers to approach feedback with a growth mindset, understand the unique strengths and opportunities that drive team engagement, and to encourage the next steps in sharing results and seeking team input on Focus Areas. | All |
 
-## Choosing reporting access
+## Choose reporting access level
 
 There are two levels of reporting access you can choose for your leaders.
 
-- **Live access:** Reporting access is readily available in real time as surveys are completed. Administrators will always have live access and can't be included in phased access rollout.
+- **Live access:** Reporting access is readily available in real time as surveys are completed. Administrators will always have Live access and can't be included in Phased access rollout.
 - **Phased access:** Recommended for managers and HRBPs (HR Business Partners) for action planning, tracking, and reviewing feedback results for *completed* surveys, excluding this role group from real-time, live survey results. Phased access is configured at the program level but occurs at the cycle level.
 
   >[!TIP]
-  > Keep survey results classified while the survey is live, among just a small group of leaders. Incomplete results may lead to unintended and inaccurate conclusions. *Feedback results aren't final until all results have been considered.*
+  > Keep survey results classified while the survey is Live, among just a small group of leaders. Incomplete results may lead to unintended and inaccurate conclusions. *Feedback results aren't final until all results have been considered.*
 
 ## Change from Live access to Phased access
 
@@ -57,4 +57,4 @@ There are two levels of reporting access you can choose for your leaders.
 5. In **Grant Report Access**, check the box of the roles you wish to grant access to. Once access is granted, it can't be revoked.
 6. Select **Provide Access**. The message *Visible to All Reporting Roles and Release Completed* confirms the change.
 
-Once the next program cycle begins, and if the last cycle has phased access, the access will default back to Live.
+Once the next program cycle begins, and if the last cycle has Phased access, the access will default back to Live.

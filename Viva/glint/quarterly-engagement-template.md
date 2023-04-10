@@ -27,7 +27,7 @@ We analyzed over 350 million employee survey responses collected since 2020 to d
 
 ## Details of Quarterly Engagement template
 
-The result of our re-examination of the focus of engagement is a modernized framework (early 2022) called **People Success Elements. These elements are six constructs**. Purpose, Clarity, Growth, Empowerment, Connection, and Wellbeing summarizes the fundamental needs and expectations that are most critical to a person’s holistic life experience (not only their work experience) and that best shape an environment for high engagement.
+The result of our re-examination of the focus of engagement is a modernized framework (early 2022) called **People Success Elements. These elements are six constructs**: Purpose, Clarity, Growth, Empowerment, Connection, and Wellbeing. The constructs summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience (not only their work experience) and that best shape an environment for high engagement.
 
 ### People Success Elements
 
@@ -60,7 +60,7 @@ The two Engagement Outcomes have remained the same:
 | How happy are you working at <COMPANY_NAME>? | eSat |
 | I would recommend <COMPANY_NAME> as a great place to work.| Recommend |
 
-## What has changed in the Quarterly Engagement survey?
+### What has changed in the Quarterly Engagement survey?
 
 Six items were added as new core drivers and five items were dropped from the 2018 core driver list. 
 
@@ -82,13 +82,13 @@ Six items were added as new core drivers and five items were dropped from the 20
 
 You can view the new set of core drivers in the Glint platform when you create a new Quarterly Engagement survey. From the admin dashboard:
 
-1. Select **Pulse Program > + New Program > Quarterly Engagement card > Create Program.**
+1. Select **Pulse Program**, then **+ New Program**, and then the **Quarterly Engagement card** and **Create Program**.
 2. In **Program Summary**, select **Questions** (can't be selected until the pages prior have been configured).
 3. The template items populate.
 
-## Item additions to Glint’s question library
+## Item additions to Viva Glint’s Question Library
 
-Glint’s research found several other items for customers to consider as other important drivers of engagement that can be added to any engagement survey. These can be found by searching the item name in the question library and added to any survey you're setting up:
+Viva Glint’s research found several other items for customers to consider as important drivers of engagement that can be added to any engagement survey. These can be found by searching the item name in the Question Library and added to any survey you're setting up:
 
 | **Item Text** | **Core Driver** |
 |:---|:---|

@@ -26,11 +26,11 @@ The following are the two levels of reporting access in Microsoft Viva Glint:
 - **Live access**: Reporting access is readily available, in real time, as surveys are completed. Admins always have live access and can't be included in phased access rollout.
 - **Phased access**:  Recommended for managers and HRBPs (Human Resources Business Partners) for action planning, tracking, and reviewing feedback results for completed surveys, excluding this role group from real-time, live survey results. Phased access is configured at the program level but occurs at the cycle level.
 
-## Why phased access is recommended for managers?
+## Phased access is recommended for managers
 
 Keeping survey results classified while the survey is live, among just a small group of leaders, is often prudent. Incomplete results may lead to unintended and inaccurate conclusions. Feedback results aren't final until all results have been considered.
 
-## Changing from Live access to Phased access
+## Change from Live access to Phased access
 
 1. Switch to the **Completed** view and hover over the survey cycle.
 2. Select the content in the **Reporting Access** column in that row.
