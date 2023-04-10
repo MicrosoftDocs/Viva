@@ -1,5 +1,4 @@
 ---
-
 ms.date: 03/21/2023
 title: Discover and pin the Viva Insights app
 description: Discover and pin the Microsoft Viva Insights (personal insights) app 
