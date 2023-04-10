@@ -85,27 +85,31 @@ You can create a new topic from two locations:
 
     ![Select site.](../media/knowledge-management/sites.png)
 
-8. The **Related topics** section shows connections that exist between topics. You can add a connection to a different topic by selecting the **Connect to a related topic** button, and then typing the name of the related topic, and selecting it from the search results.
+8. The **Related topics** section shows connections that exist between topics.
 
-   ![Screenshot of a topic with a related topic being entered in the textbox.](../media/knowledge-management/related-topic.png)  
+    With the topic page in edit mode, you can add, edit, or remove connections in the Related Topics web part. You can only add or modify first-degree connections because modifying a second-degree connection would be tantamount to directly editing a different topic page, which we don't allow.
 
-    You can then give a description of how the topics are related, and select **Update**.
+    You can add a connection to a different topic by selecting the Connect to a related topic button, typing the name of the related topic, and selecting it from the search results.
 
-   ![Screenshot of the related topics description.](../media/knowledge-management/related-topics-update.png)
+    ![Screenshot of topic picker in related topics.](../media/knowledge-management/topic-picker-related.png)
 
-   The related topic you added will display as a connected topic.
+    You can then give a description of how the topics are related. Select **Update**
 
-   ![Screenshot showing how related topics display with a line connecting them.](../media/knowledge-management/related-topics-final.png)
+    ![Screenshot of relationship description on related topics.](../media/knowledge-management/topics-relationships-related.png)
 
-   To remove a related topic, select the topic you want to remove, then select the **Remove topic** icon.
+    The related topic added will display as a connected topic.
 
-   ![Screenshot of related topics showing with an X icon to remove them.](../media/knowledge-management/remove-related.png)  
+    When a connection between Topic A and Topic B is manually created on Topic Page A, the connection between these topics is represented as a suggested connection (dotted line) on Topic Page B. Representing this as a manual connection on Topic Page B would be equivalent to making a direct change to Topic Page B from Topic Page A, which is not allowed.
 
-   Then select **Remove**.
+    To remove a related topic, select the line segment corresponding to the topic you want to remove, then select the Remove relationship icon.
 
-   ![Screenshot of the confirm remove button.](../media/knowledge-management/remove-related-confirm.png)
+    ![Screenshot of relationship description on related topics with option to remove relationship.](../media/knowledge-management/topics-related-description.png)
 
-9. You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description. Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.
+    Dotted lines represent connections suggested by AI. Users can optionally confirm or remove these connections by selecting the line segment between two nodes.
+
+    ![Screenshot of pane to confirm topic relationships.](../media/knowledge-management/topics-relationships.png)
+
+9. You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description. Selecting it opens the SharePoint toolbox from which you can choose the item you want to add to the page.
 
    ![Screenshot of the available canvas icons.](../media/knowledge-management/webpart-library.png) 
 
