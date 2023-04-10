@@ -446,6 +446,132 @@
       "redirect_document_id": false
       },
       {
+        "source_path": "viva/insights/personal/teams/introduction.md",
+        "redirect_url": "https://support.microsoft.com/topic/f07f80a1-177d-4541-9185-31493b74fc0f",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/viva-teams-app-install.md",
+        "redirect_url": "https://support.microsoft.com/topic/3b8db3ff-17b7-4d41-b2eb-f593530abfc7",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/settings.md",
+        "redirect_url": "https://support.microsoft.com/topic/e7d25f88-d102-4740-a7d0-af8610b457c5",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/faq.md",
+        "redirect_url": "https://support.microsoft.com/topic/9eac395d-855d-49b8-ae90-9a87287fdb95",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/home.md",
+        "redirect_url": "https://support.microsoft.com/topic/6e7d28b2-6b0e-4367-9b52-1999a86eb391",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/praise.md",
+        "redirect_url": "https://support.microsoft.com/topic/4977c923-f3d1-4134-9d1c-ee29dc01ae27",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/inspiration.md",
+        "redirect_url": "https://support.microsoft.com/topic/45b4f206-b1da-4082-bf5e-5a35232b70b8",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/meeting-habits.md",
+        "redirect_url": "https://support.microsoft.com/topic/f41f7aa9-6d4a-40bb-b00a-36170f9dbbba",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/meeting-category-insights.md",
+        "redirect_url": "https://support.microsoft.com/topic/17962415-0c3a-4931-9aa8-3191a7b6337a",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/meeting-effectiveness-surveys.md",
+        "redirect_url": "https://support.microsoft.com/topic/2eb63cc8-a6a1-4ab8-b643-80da6562aa22",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/shared-meeting-plan.md",
+        "redirect_url": "https://support.microsoft.com/topic/30c3d08b-5761-4ff7-ba7d-32d9f00759a4",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/suggested-tasks.md",
+        "redirect_url": "https://support.microsoft.com/topic/b326af14-e527-43c2-a4d8-92f6700ce18f",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/teamwork.md",
+        "redirect_url": "https://support.microsoft.com/topic/cca98877-be3a-47f3-ad4a-acc88111f0cb",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/network.md",
+        "redirect_url": "https://support.microsoft.com/topic/c8df3951-ade3-4eb2-8339-a8ce5d04c550",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/wellbeing.md",
+        "redirect_url": "https://support.microsoft.com/topic/72458b43-11a3-40b8-8b6f-14f6a0977e4b",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/time-management.md",
+        "redirect_url": "https://support.microsoft.com/topic/da568337-8568-47cd-9f47-213537873571",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/shared-no-meeting-day.md",
+        "redirect_url": "https://support.microsoft.com/topic/72458b43-11a3-40b8-8b6f-14f6a0977e4b",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/focus.md",
+        "redirect_url": "https://support.microsoft.com/topic/41e6274d-a1ac-42a5-8e9e-ac432e0447c9",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/focus-plan.md",
+        "redirect_url": "https://support.microsoft.com/topic/a079a744-010e-4fee-8552-a2799d0c62ea",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/shared-focus-plan.md",
+        "redirect_url": "https://support.microsoft.com/topic/6847226d-e5b1-498a-a7a5-e77d4405bb97",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/headspace.md",
+        "redirect_url": "https://support.microsoft.com/topic/c5c807e1-b10c-4d41-9120-b2ac914dcc72",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/quiet-time.md",
+        "redirect_url": "https://support.microsoft.com/topic/ec70888d-8840-4f20-9819-af6bfc17e143",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reflect.md",
+        "redirect_url": "https://support.microsoft.com/topic/55379cb7-cf2a-408d-b740-2b2082eb3743",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/virtual-commute.md",
+        "redirect_url": "https://support.microsoft.com/topic/8be83785-f5ec-4e84-8cff-f0abb117f876",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/schedule-send.md",
+        "redirect_url": "https://support.microsoft.com/topic/6f9a22b6-b269-4264-93f2-55b5254d3c62",
+        "redirect_document_id": false
+      },
+
+      {
       "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
       "redirect_url": "/viva/insights/personal/setup/configure",
       "redirect_document_id": false
