@@ -52,8 +52,6 @@ Microsoft works to ensure that we are compliant with industry and international 
 ## Inheritance of compliance features and settings
 Microsoft Viva apps are built on your existing infrastructure and, depending on the app, inherit compliance features and settings from Microsoft 365, Microsoft Teams, SharePoint, Azure, Yammer and Microsoft Graph.
 
-**<<Diagram goes here>>**
-
 **Microsoft 365** [Plan for security and compliance](/microsoft-365/compliance/plan-for-security-and-compliance)
 
 **Microsoft Teams** [Overview of security and compliance in Microsoft Teams](/microsoftteams/security-compliance-overview)
