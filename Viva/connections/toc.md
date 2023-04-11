@@ -21,6 +21,8 @@
 
 ### [Add the Viva Connections app](add-viva-connections-app.md)
 
+### [Edit the desktop experience](edit-viva-home.md)
+
 ### [Use audience targeting](use-audience-targeting-in-viva-connections.md)
 
 ### [Specific languages](viva-connections-language.md)
