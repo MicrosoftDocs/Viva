@@ -24,7 +24,7 @@ description: "Find Microsoft Viva compliance information."
 
 # Microsoft Viva Compliance
 
-Microsoft offers a [comprehensive set of compliance offerings](https://learn.microsoft.com/compliance) to help your organization comply with national, regional, and industry-specific requirements governing the collection and use and data. 
+Microsoft offers a [comprehensive set of compliance offerings](/compliance) to help your organization comply with national, regional, and industry-specific requirements governing the collection and use and data. 
 Microsoft Viva is also covered under the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms/welcome/welcomepage) and [Data Protection Agreement (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?year=2021#:~:text=Microsoft%20Products%20and%20Services%20Data%20Protection%20Addendum%20%28DPA%29,to%20the%20Product%20Terms%20site%20%28and%20formerly%20OST%29).
 
 For more information, see the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
