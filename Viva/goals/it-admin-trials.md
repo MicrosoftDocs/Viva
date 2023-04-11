@@ -21,7 +21,7 @@ description: "Learn how to start a trial with Viva Goals as an admin."
 
 # IT admin-led trials
 
-This article describes how to set up and run an IT Admin-led trial pilot program to deploy Viva Goals to your organization.
+This article describes how to set up and run an IT Admin-led trial pilot program to deploy Viva Goals to your organization.  
 
 ## Sign up for a trial
 

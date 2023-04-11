@@ -21,7 +21,7 @@ description: "Step-by-step guidance on how to evaluate Viva Goals during a trial
 
 # Trial Checklist 
 
-Looking for step-by-step guidance on how to evaluate Viva Goals during a trial? We've provided some tips for running a successful trial, and a two-part validation checklist to make your trial experience run smoothly. 
+Looking for step-by-step guidance on how to evaluate Viva Goals during a trial? We've provided some tips for running a successful trial, as well as a two-part validation checklist to make your trial experience run smoothly. 
 
 ## How to run a successful trial
 
@@ -52,4 +52,7 @@ Each checklist has a slightly different purpose, and is designed to be used toge
 
 By using these checklists, organizations can make the most of their trial period, reduce time spent on the validation process, and make an informed decision to move forward. 
 
-Download the Microsoft Viva Goals [Trial Validation Checklist](https://adoption.microsoft.com/files/viva/goals/Microsoft-Viva-Goals-Trial-Checklist.pdf)
+Download the Microsoft Viva Goals Trial Checklists:
+
+- [Trial Validation Checklist](https://adoption.microsoft.com/files/viva/goals/Microsoft-Viva-Goals-Trial-Validation-Checklist.pdf)
+- [Trial Configuration Checklist](https://adoption.microsoft.com/files/viva/goals/Microsoft-Viva-Goals-Trial-Configuration-Checklist.pdf)

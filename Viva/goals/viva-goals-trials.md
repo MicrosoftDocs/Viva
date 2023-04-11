@@ -25,7 +25,7 @@ This article describes how to set up and run a trial pilot program to deploy Viv
 
 ## Start and run a Viva Goals trial
 
-Trials can be a useful way to evaluate if Viva Goals meets your goal management needs. There are two ways to run a trial: through an IT Admin-led trial, or through a self-service trial.  
+Trials can be a useful way to evaluate if Viva Goals meets your goal management needs. There are two ways to run a trial: through an IT Admin-led trial, or through a self-service trial.   
 
 The following pages can help you to get started:
 
