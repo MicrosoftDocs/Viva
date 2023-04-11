@@ -20,9 +20,9 @@ search.appverid:
 description: "Learn about Viva Goals security, privacy, and compliance."
 ---
 
-# Microsoft Viva Goals – Security, Privacy, and Compliance Whitepaper 
+# Microsoft Viva Goals – Security, Privacy, and Compliance article 
 
-Security, Privacy, and Compliance are core tenets of how we serve our customers and how we empower organizations to serve their customers. This white paper presents the Security, Privacy, and Compliance questions customers have shared which relate to how Microsoft Viva Goals handles data that they share and store in the Microsoft Cloud.  
+Security, Privacy, and Compliance are core tenets of how we serve our customers and how we empower organizations to serve their customers. This article presents the Security, Privacy, and Compliance questions customers have shared which relate to how Microsoft Viva Goals handles data that they share and store in the Microsoft Cloud.  
 
 This document is not intended to provide legal advice and should not be relied upon to assess your legal rights, obligations, or risks.
 
@@ -179,7 +179,7 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
     1. Yes. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
 
 17. **How do you ensure that sub-processors meet data handling standards?**
-    1. See the [Subprocessors and Data Privacy Whitepaper](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Ftrust-center%2Fprivacy%2Fdata-access%23howdoesmicrosofthandleyourdatainthecloud&data=05%7C01%7Crasanders%40microsoft.com%7Cf43d2000d60f44fd36ba08db34619004%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638161365867484615%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=%2FNDeHFZP%2FHJZKslHI%2FluJIn5PzJKWQKghZAv%2BFsFzTI%3D&reserved=0) for how Microsoft handles your data. 
+    1. See the [Subprocessors and Data Privacy article](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Ftrust-center%2Fprivacy%2Fdata-access%23howdoesmicrosofthandleyourdatainthecloud&data=05%7C01%7Crasanders%40microsoft.com%7Cf43d2000d60f44fd36ba08db34619004%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638161365867484615%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=%2FNDeHFZP%2FHJZKslHI%2FluJIn5PzJKWQKghZAv%2BFsFzTI%3D&reserved=0) for how Microsoft handles your data. 
 
 #### Viva Goals Data Residency 
 
