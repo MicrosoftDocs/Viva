@@ -165,17 +165,56 @@ To export data from your source system and import it into Viva Insights at a set
 1. Export your source data as a zip folder at the frequency you pick, and store that folder in your C:/ drive or OneDrive.
 1. Automatically run the DescriptiveDataUploadApp we created on the console. The DescriptiveDataUploadApp then brings your locally stored data into Viva Insights.
 
+:::image type="complex" source="../images/admin-custom-app-flow.png" alt-text="Screenshot that shows a diagram of the flow of information from source system to Viva Insights."lightbox="../images/admin-custom-app-flow-expanded1.png":::
+   Flow diagram of the data-import process. The first step shows a data icon labeled, "Source system" with a downward arrow leading to a PowerShell/command icon labeled, "Your custom app." Next to the arrow, there's a clock indicating automated refresh based on frequency. A downward arrow leads from the "Your custom app" icon to a folder icon labeled, "Local folder." A horizontal arrow leads to the right from the folder icon to an app icon in the center of the diagram labeled, "DescriptiveDataUploadApp." From the app icon, a horizontal arrow leads to the right to the Viva Insights icon, labeled, "Viva Insights."
+:::image-end:::
+
 ##### Export and store the zip folder
 
-At the frequency you decide (once a month, once a week, etc.) have your custom app export organizational data from your source system as a zip folder and store it on your C:/ drive or OneDrive. Base this zip folder on the [zip folder we provide on GitHub](https://go.microsoft.com/fwlink/?linkid=2230444), and make sure it’s named `info.zip`. Your zip folder needs to contain the following two files:
+At the frequency you decide (once a month, once a week, etc.) have your custom app export organizational data from your source system as a zip folder and store it in your files. Base this zip folder on the [zip folder we provide on GitHub](https://go.microsoft.com/fwlink/?linkid=2230444). Your zip folder needs to contain a data.csv file and a metadata.json file.
 
-* `data.csv`, which contains all fields you want to import and is formatted according to our guidelines in [Prepare organizational data](prepare-org-data.md).
-    >[!Note] 
-    >Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Find required and reserved optional fields in [attribute reference](prepare-org-data.md#attribute-reference).
-* `metadata.json`, which contains the following information:
-    * `“DatasetType”: “HR”` (line 2)
-    * `“IsBootstrap”:` `“True”` or `“False”` (line 3). `“True”` indicates a full refresh and `“False”` indicates an incremental refresh.
-    * `“Mapping”:` Source-data column name for each Viva Insights field. `“name”` corresponds to the Viva Insights field name. Change the text in the above line if your source system uses a different name (lines 3 and beyond).
+Here are a few more details about these files and what they need to contain:
+
+###### data.csv
+
+Add all fields you want to import in this file. Make sure you format it according to our guidelines in [Prepare organizational data](prepare-org-data.md#structure-the-organizational-data).
+
+###### metadata.json
+
+Indicate the type of refresh you’re performing and how Viva Insights should map your fields:
+
+* `“DatasetType”: “HR”` (line 2). Leave this as-is.
+* `“IsBootstrap”:` (line 3). Use `“true”` to indicate a full refresh and `“false”` to indicate an incremental refresh. If this is your first import, use `“true”`.
+* `“Mapping”:`. If you use names other than what Viva Insights uses, change each column header name to match what you use in your source system.
+
+>[!Important]
+>Remove any fields that aren’t present in your .csv file.
+
+**Mapping example**
+
+The following example represents one field you’ll find in the metadata.json file:
+
+```json
+"PersonId": {
+    "name": "PersonId",
+    "type": "EmailType"
+```
+
+
+* `"PersonId": {` corresponds to the source column name.
+* `“name” : “PersonId”,`  corresponds to the Viva Insights field name.
+* `"type": "EmailType"`  corresponds to the field’s data type.
+
+Let’s say that instead of `PersonId`, your source system uses `Employee` for this field header. To make sure your fields are mapped correctly, you’ll want to edit the first line below, so it looks like this:
+
+```json
+      "Employee": {
+        "name": "PersonId",
+        "type": "EmailType"
+```
+
+When you upload your data, your `Employee` field will become `PersonId` in Viva Insights.
+
  
 ##### Run the DescriptiveDataUploadApp in the console
 
