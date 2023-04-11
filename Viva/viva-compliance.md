@@ -37,11 +37,11 @@ In this article you can learn about:
 
 - [System and Organization Controls (SOC) 2](#system-and-organization-controls-soc-2)
 
-- [General Data Protection Regulation (GDPR)](#)
+- [General Data Protection Regulation (GDPR)](#general-data-protection-regulation-gdpr)
 
-- [Data residency](#)
+- [Data residency](#data-residency)
 
-- [Using Microsoft Purview](#)
+- [Using Microsoft Purview](#microsoft-purview)
 
 
 ## Shared responsibility model
@@ -52,7 +52,7 @@ Microsoft works to ensure that we are compliant with industry and international 
 ## Inheritance of compliance features and settings
 Microsoft Viva apps are built on your existing infrastructure and, depending on the app, inherit compliance features and settings from Microsoft 365, Microsoft Teams, SharePoint, Azure, Yammer and Microsoft Graph.
 
-**<<Image goes here>>**
+**<<Diagram goes here>>**
 
 **Microsoft 365** [Plan for security and compliance](/microsoft-365/compliance/plan-for-security-and-compliance)
 
@@ -80,7 +80,7 @@ Following is the SOC 2 audit report status for each Viva app:
 | Viva Goals | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
 | Insights Personal | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
 | Insights Organizational | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
-| Viva Sales | Covered under Dynamics 365. For more information see: [Azure and other Microsoft cloud services in compliance audit scope](https://learn.microsoft.com/en-us/azure/compliance/offerings/cloud-services-in-audit-scope)
+| Viva Sales | Covered under Dynamics 365. For more information see: [Azure and other Microsoft cloud services in compliance audit scope](/azure/compliance/offerings/cloud-services-in-audit-scope)
 
 ## General Data Protection Regulation (GDPR)
 All Viva apps built on your Microsoft 365 infrastructure support compliance with EU General Data Protection Regulation (GDPR) requirements.
@@ -94,10 +94,12 @@ For information about data residency for Viva apps, see [Microsoft Viva Privacy]
 ## Microsoft Purview 
 [Microsoft Purview](/purview/purview) is a family of data governance, risk, and compliance solutions that can help your organization govern, protect, and manage your entire data estate.
 
-Currently, Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/yammer/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/microsoft-365/compliance/retention-policies-yammer). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](h/yammer/configure-your-yammer-network/overview-native-mode).
+Currently, Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/yammer/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/microsoft-365/compliance/retention-policies-yammer). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](/yammer/configure-your-yammer-network/overview-native-mode).
 
 Viva Connections and Viva Topics inherit eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint?view=o365-worldwide) support from [SharePoint Online](/SharePoint/compliant-environment) for files involved in each service.
 
-More information
+## More resources
+
 [Microsoft Viva Privacy](/Viva/viva-privacy.md)
+
 [Microsoft Viva Security](/Viva/microsoft-viva-security.md)
