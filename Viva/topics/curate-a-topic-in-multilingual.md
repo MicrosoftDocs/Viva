@@ -22,7 +22,7 @@ description: Learn how to curate topics in multiple languages using the Multilin
 The Multilingual feature in Viva Topics allows you to curate and edit a topic page in English, French, German, and Spanish.
 
 > [!Note] 
-> A topic page must be created and curated in the tenant's default language before it can be curated to a different language using the Multilingual feature in Viva Topics. 
+> A topic page must be created and curated in the tenant's default language before it can be curated to a different language using the Multilingual feature in Viva Topics 
 
 ## Curate Multilingual content into a topic page
 
