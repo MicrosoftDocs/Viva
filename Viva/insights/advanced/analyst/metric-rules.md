@@ -17,14 +17,13 @@ search.appverid:
 
 # Advanced insights metric rules
 
+To reveal collaboration trends, Microsoft Viva Insights uses email, calendar, and Teams activities, like chats and calls. While people use these tools to collaborate on work, they might also use them to keep track of personal appointments and other non-collaboration activities. If metrics included these non-collaboration activities, those queries would produce skewed results.
 
-To reveal collaboration trends, Microsoft Viva Insights uses email, calendar, and Teams activities, like chats and calls. While people use these tools to collaborate on work, they might also use them to keep track of personal appointments and other non-collaboration activities. If queries included these non-collaboration activities, they’d produce skewed results.
+So, how can you exclude non-collaboration activities from your queries and get more accurate results? Add a *metric rule*. When you use metric rules in your queries, Viva Insights leaves out meetings, emails, chats, and calls you don’t want to analyze.
 
-So, how can you exclude non-collaboration activities from your queries and get more accurate results? Add a *metric rule*. When you use rules in your queries, Viva Insights leaves out meetings, emails, chats, and calls you don’t want to analyze.
+Let’s use an example. People in your company might book focus time on their calendars, but focus time isn’t something you’d want to analyze like a meeting. To prevent this non-collaborative focus time from sneaking into queries, you might consider using a rule that excludes meetings where *Category = Focus time*. Similarly, to exclude company-wide meetings, you might set up a rule that excludes meetings where *Participants > 100*. Not only can you create rules for meetings—you can also create them for chats, emails, and calls.
 
-Let’s use an example. People in your company might book focus time on their calendars, but focus time isn’t something you’d want to analyze like a meeting. To prevent focus time from sneaking into queries, you might consider using a rule that excludes meetings where *Category = Focus time*. Similarly, to exclude company-wide meetings, you might set up a rule that excludes meetings where *Participants > 100*. Not only can you create rules for meetings—you can also create them for chats, emails, and calls.
-
-Here are a few things to keep in mind: 
+Here are a few things to keep in mind about metric rules: 
 
 * Metric rules apply to your query's metric calculations and also to data shown within the Viva Insights app in Teams and web.
 * When you set a rule as default, it applies to all future queries and the Viva Insights app in Teams and web. Refer to [About default rules](#about-default-rules) for more information.
@@ -64,7 +63,7 @@ Here’s what you can do in this view:
 * **Archive**, if you originally created the rule
 * **Favorite** 
 
->![Important!]
+>[!Important]
 >After you publish a rule, you won't be able to edit it.
 
 #### Drafts
@@ -95,6 +94,9 @@ To mark a rule as a favorite while you’re in **All rules** or **Published**, s
 
 :::image type="content" source="../images/analyst-metric-rules-contextual-menu.png" alt-text="Screenshot that shows the Actions contextual menu, including default, Clone, Favorite, Archive, and Delete":::
 
+>[!Note]
+>You can only have 10 favorite rules at a time.
+
 ##### What happens when you mark a rule as Favorite
 
 Marking a rule as **Favorite** helps you find it faster when you're in the **Metric rules** page or when you're adding a rule to a query. When you view the list of available rules, here's the order you'll see them in:
@@ -108,7 +110,7 @@ Only you can view your favorite rules. Other analysts in your organization won't
 
 #### Archived
 
-When you select a rule's **Archive** option, Viva Insights archives that rule and sends it to the **Archived** view, as we describe later. After you archive a rule, you can delete it if you want. You can't use archived rules in a query. 
+When you select a rule's **Archive** option, Viva Insights archives that rule and sends it to the **Archived** view, as we describe in the next section. After you archive a rule, you can delete it if you want. You can't use archived rules in a query. 
 
 Generally, if you think you might want to restore a rule later, or want to have a record of it, leaving a rule in the **Archived** view is a better option than deleting it. Only the person who originally created a rule can archive or restore it.
 
@@ -126,10 +128,54 @@ To delete a rule, select the ellipses (**...**) under **Actions**, and then sele
  
 ## How to create new rules
 
-You can create a new rule through the **Metric rules** page, or by duplicating and editing ("cloning") an existing rule. To create or clone a metric rule and publish it to your organization, follow these steps:
+You can create a new rule in one of two ways: by using our [template](#from-a-template), or by building one [from scratch](#from-scratch).
 
 >[!Important] 
->After you publish a rule, you won't be able to edit it. If need to work on a rule later, you can save it as a draft, but you can't use draft rules in queries. Refer to step 6.
+>After you publish a rule, you won't be able to edit it. If need to work on a rule later, you can save it as a draft, but you can't use draft rules in queries. We explain how to save a rule as a draft in [step 6](#step-6) below.
+
+### From a template
+
+#### About template categories
+
+Before we jump in to how to use the rule template, let’s discuss how we’ve set the template up. 
+
+When you create a rule through a template, you'll notice several categories. Within these categories, we've set up filters. When you select these categories and apply them to your new rule, you'll exclude common scenarios from collaboration data—for example, **Appointments**, which prevents non-collaborative calendar blocks on people's calendars from showing up in queries. 
+
+>[!Note]
+>Templates aren't editable. If you want more granular control over attributes and values, consider creating a rule from scratch.
+
+These categories are available for each collaboration type—meetings, emails, chats, and calls. Let's say you wanted to create a rule that excluded appointments and emails people send to themselves. In the template, you'd select the **Appointments** category under meetings and the **Emails sent to self** category under **Email**.
+
+Expand each category container to view that category's filters. We've listed out all category criteria in [Category reference](#category-reference).
+
+:::image type="content" source="../images/analyst-metric-rules-containers2.png" alt-text="<alt text>" lightbox="../images/analyst-metric-rules-containers2.png":::
+
+##### Category reference
+
+Here's how we define each meeting category. For a meeting to be included in one of these categories, it has to meet *all* of the conditions in **Meeting criteria**.
+
+|Category|Meeting criteria|
+|--------|----------|
+|Attended meeting| <ul><li>Is joined on Teams <li>Has more than two "Accept" responses
+|Likely attended meeting| <ul><li>Has "Accepted" or "Organizer" as the response
+|Invited meeting| <ul><li>Is shorter than 24 hours<li>Isn't canceled<li>Has more than two invitees<li> Doesn't show as "Out of Office" and doesn't contain "No meeting day" in the title
+|Out of Office| <ul><li>Isn't joined on Teams<li>Is 24 hours or longer<li>Isn't canceled<li>Has "Organizer" for the response<li>Doesn't recur<li>Contains one of several keywords in the title, including "vacation," "Out of office," "OOF," "medical leave."
+|No-meeting day| <ul><li>Is 24 hours long<li>Isn't canceled<li>Has more than two intended participants (refer to note below)<li> Contains "No meeting day" in the title<li>Shows as "Out of Office" or "Busy" in Outlook and Teams 
+|Focus time| <ul><li>Isn't joined on Teams<li>Is shorter than 24 hours<li>Isn't canceled<li>Has "Organizer" for the response<li>Has fewer than two intended participants<li>Shows as "Busy" in Outlook and Teams <li>Has "Focus time" as the meeting title
+|Appointment|<ul><li>Isn't joined on Teams<li>Is shorter than 24 hours<li>Isn't canceled<li>Has "Organizer" for the response<li>Has fewer than two intended participants (refer to note below) <li> Shows as "Busy" in Outlook and Teams <li> Doesn't have "Focus time" as the meeting title
+
+>[!Note]
+>Intended participants are all of the meeting's invitees, plus the organizer.
+
+#### To add a rule from a template
+
+1. After you select **Create new rule**, pick the first option from the dropdown menu: **Create using a template**.
+
+    :::image type="content" source="../images/analyst-metric-rules-page-create-template.png" alt-text="Screenshot that shows the Create new rule button with the first option, Create using a template, highlighted.":::
+1. Select the categories you want your rule to apply to. Repeat this step for each category you want to include.
+1. Skip to [step 6](#step-6) below.
+
+### From scratch
 
 1. On the **Metric rules** page, either:
     1. Select **Create new rule**.
@@ -138,16 +184,16 @@ You can create a new rule through the **Metric rules** page, or by duplicating a
 
     2. Find an existing rule you want to customize. Select the ellipses under **Actions** to access the **More options** menu, and then select **Clone**. 
 
-1. From the tabs at the top of the **Define exclusions** page, select the *first* collaboration type you want your rule to apply to. 
+1. From the tabs at the top of the **Define exclusions** page, select the *first* collaboration type you want your rule to apply to (for example, **Meetings**). 
 
     >[!Note] 
     >Collaboration types are meetings, emails, chats, or calls. You can set rules for any of these types. Refer to step 4.
     
     :::image type="content" source="../images/analyst-metric-rules-tabs.png" alt-text="Screenshot that shows the Step 1, Define exclusions, with tab names highlighted.":::
 
-1. Define what you want to analyze by adding filters. 
+1. Define how you want to exclude certain collaboration activities from your collaboration type by adding filters. Filters are based on organizational data attributes.  
 
-    To learn more about filters, refer to our Filters documentation.
+    To learn more about filters, refer to our [Filters](filters.md) article.
 
     :::image type="content" source="../images/analyst-metric-rules-filters.png" alt-text="Screenshot that shows various filters for the Meetings collaboration type in the metric rule builder." lightbox="../images/analyst-metric-rules-filters-large.png":::
 
@@ -168,7 +214,7 @@ You can create a new rule through the **Metric rules** page, or by duplicating a
 
     1. A pane opens to the right. Type a keyword in the text-input field and press **Enter** on your keyboard. 
         >[!Note]
-        > Enter each term separately, and make sure you press **Enter** for each term. If you just select **Save** without entering, your keyword won't apply.
+        > Enter each term separately, and make sure you press **Enter** for each term. If you just select **Save** without entering, your keyword won't apply to your rule.
     
         :::image type="content" source="../images/analyst-metric-rules-categories-exceptions-keywords.png" alt-text="Screenshot that shows the keyword exception pane in the metric rule builder.":::
 
@@ -177,7 +223,7 @@ You can create a new rule through the **Metric rules** page, or by duplicating a
     1. You’ll see your exceptions noted in the condition group. If you need to remove a keyword or add more, select the **exceptions** link again.
         :::image type="content" source="../images/analyst-metric-rules-exception-added.png" alt-text="Screenshot that shows a filter with the 1 exceptions link highlighted.":::
 
-1. If you want to go on to naming and publishing your rule, select the **Next** button in the top right of your screen.
+1. <a name="step-6"></a>If you want to go on to naming and publishing your rule, select the **Next** button in the top right of your screen.
 
     :::image type="content" source="../images/analyst-metric-rules-page-next.png" alt-text="Screenshot that shows the Next button in the top-right corner of the page highlighted.":::
 
@@ -196,7 +242,7 @@ You can create a new rule through the **Metric rules** page, or by duplicating a
 
    :::image type="content" source="../images/analyst-metric-rules-review-publish1.png" alt-text="Screenshot that shows the Review and publish section of the rule creator with the Publish button in the top-right corner highlighted.":::
 
-1. Your new rule appears in the **Published** and **All rules** views on the **Metric rules** page, and in your **Favorites** view if you marked it as a favorite in step 7c. When you go to add a new metric rule to a query, you’ll also find it among the rule options. If you marked a rule as a default in step 7d, that rule will apply to any query that any analyst in your organization runs from this point on.
+1. Your new rule appears in the **Published** and **All rules** views on the **Metric rules** page, and in your **Favorites** view if you marked it as a favorite in step 7c above. When you go to add a new metric rule to a query, you’ll also find it among the rule options. If you marked a rule as a default in step 7d, that rule will apply to any query that any analyst in your organization runs from this point on.
 
 If you’re ready to add your rule to a query, go to [How to add a rule to your query](#how-to-add-a-rule-to-your-query).
 
@@ -208,11 +254,11 @@ If you’re ready to add your rule to a query, go to [How to add a rule to your 
 
 1. A **Metric rules** pane appears. Select the rule you want to apply.
 
-    :::image type="content" source="../images/analyst-metric-rules-add-rule.png" alt-text="Screenshot that shows the Metric rules pane with various rules, and the Meeting exclusions rule highlighted as default.":::
+    :::image type="content" source="../images/analyst-metric-rules-add-rule2.png" alt-text="Screenshot that shows the Metric rules pane with various rules, and the collaboration exclusions rule highlighted as default.":::
     >[!Note]
     > You can only apply one rule at a time. If there’s a default rule active in your organization, you’ll notice that the rules pane shows it as selected. When you set a different rule, you’re choosing to use the one you picked instead of the default rule.
     > 
-    >If your organization is just starting to use the advanced insights app, the default rule here might be **Meeting exclusions**. We talk about this rule in [The meeting exclusions rule](#the-meeting-exclusions-rule).
+    >If your organization is just starting to use the advanced insights app, the default rule here might be **Collaboration exclusions**. We talk about this rule in [The collaboration exclusions rule](#the-collaboration-exclusions-rule).
 
 1. Select the **Save settings** button.
 
@@ -221,46 +267,35 @@ If you’re ready to add your rule to a query, go to [How to add a rule to your 
 
 ## View rule
 
-To get more information about a rule, select the **View rule** link to the right of the rule title. When you select **View rule**, you go to a view-only version of the rule builder. Here, you can find out what kinds of collaboration the rule excludes from queries, and which attributes it uses to make those exclusions.
+To get more information about a rule, select the **View rule** link to the right of the rule title. When you select **View rule**, you go to a view-only version of the **Create a new rule** page. Here, you can find out what kinds of collaboration the rule excludes from queries, and which attributes it uses to make those exclusions.
 
 ## About default rules
 
 Default rules help analysts run queries consistently, and they also determine how the Viva Insights app in Teams and web calculates data.
+
 While default rules create consistency, marking a rule as default has some wide-reaching effects. When you mark a rule as default, you’ll:
 
 * Apply that rule to any query that any analyst in your organization runs from this point on.
 * Change how Viva Insights calculates the metric(s) involved in the rule, which affects how the Viva Insights app in Teams and web shows data.
 If your organization has a default rule, but you don’t want to use it, you’ll need to go into **More Settings** and de-select it. You can add another rule if you want.
 
-To quickly identify default rules, look for the green **Default** tag.
+To quickly identify default rules, look for the green **Default** tag. Default rules always appear first in **More settings > Metric rules**.
 
-:::image type="content" source="../images/analyst-metric-rules-default-tag.png" alt-text="Screenshot that shows the Meeting exclusions rule with a green Default tag underneath it.":::
+### The collaboration exclusions rule
 
-### The meeting exclusions rule
+When your organization first uses the analyst experience, you’ll notice we’ve already set a default rule: collaboration exclusions.
 
-When your organization first uses the analyst experience, you’ll notice we’ve already set a default rule: meeting exclusions.  
+This rule applies to meetings, emails, and calls. Here's how the rule determines whether to exclude a meeting, email, or call:
 
-If the meeting isn't joined on Teams, and it matches any criteria of the criteria below, that meeting's time and count metrics are excluded:
+|Collaboration type| Criteria|
+|------------------|---------|
+|Meeting| Isn't joined on Teams and meets at least one of the following conditions: <ul><li>Shows as anything other than "Busy" on participants' calendars <li>Has 1 or fewer people who accepted the invitation <li>Has anything other than "Accepted" or "Organizer" for the invitation response<li>Is canceled<li>Is 24 hours or longer
+|Email|Meets at least one of the following conditions: <ul> <li> Is an email sent to self <li>Is a non-collaboration email (refer to note below)
+|Call| Isn't scheduled and meets at least one of the following conditions: <ul><li>Is a voicemail<li>Is a missed call  
 
-* The duration of the meeting is 24 hours or more.
-* The meeting is canceled.
-* The user is not the meeting organizer, and if their response to a meeting invite is anything other than "Accept."
-* There are fewer than two participants.
-* The event is set to show as anything other than "Busy" on participant's calendars.
+#### Replace collaboration exclusions as default
 
-#### View rule details
-
-When you view the meeting exclusion rule’s details, you’ll find a different layout than other rules created by analysts in your organization.
-
-:::image type="content" source="../images/analyst-metric-rules-meeting-exclusions.png" alt-text="Screenshot that shows the Meeting exclusions rule page." lightbox="../images/analyst-metric-rules-meeting-exclusions.png":::
-
-To view the rule’s criteria, expand **Which meetings are excluded from collaboration metrics?**. To find out which metrics this rule doesn’t apply to, expand **Are there exceptions to this rule?**. 
-
-To get an example .xlsx file that shows what's included and excluded from existing collaboration data, select **Download sample results**.
-
-#### Replace meeting exclusions as default
-
-You or another analyst can replace meeting exclusions as the default rule at any point. However, keep this in mind:
+You or another analyst can replace collaboration exclusions as the default rule at any point. However, keep this important information in mind:
 
 >[!Caution]
 >When you set a rule as default, that rule applies to all queries that any analyst in your organization runs. Default rules also affect calculations for the Viva Insights app in Teams and web. Use the default option carefully.

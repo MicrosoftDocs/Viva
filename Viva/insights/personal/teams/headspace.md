@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 12/09/2022
 title: Mindfulness content in Viva Insights
 description: Learn how to use mindfulness content in the Viva Insights app
