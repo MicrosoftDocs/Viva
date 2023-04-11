@@ -39,31 +39,55 @@ Currently, Viva Goals supports the following languages and locales. Note: locale
 
 :::row:::
    :::column:::
+        Arabic
+   :::column-end:::
+   :::column:::
+       Bulgarian
+   :::column-end:::   
+   :::column:::
       Estonian – *et EE* 
    :::column-end:::
+  :::row-end:::
+
+:::row:::
    :::column:::
       English (United States) – *en*
    :::column-end:::
    :::column:::
       English (United Kingdom) – *en GB* 
    :::column-end:::
-:::row-end:::
-
-:::row:::
    :::column:::
       French (France) – *fr FR* 
    :::column-end:::
+:::row-end:::
+
+:::row:::
    :::column:::
       French (Canada) – *fr CA* 
    :::column-end:::
    :::column:::
       German – *de DE* 
    :::column-end:::
+   :::column:::
+      Hebrew - 
+   :::column-end:::
 :::row-end:::
 
 :::row:::
    :::column:::
       Italian – *it IT* 
+   :::column-end:::
+   :::column:::
+      Latvian 
+   :::column-end:::
+   :::column:::
+      Lithuanian 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Serbian (Latin) 
    :::column-end:::
    :::column:::
       Spanish (Spain) - *es ES*  
@@ -157,6 +181,18 @@ Currently, Viva Goals supports the following languages and locales. Note: locale
    :::column-end:::
 :::row-end:::
 
+:::row:::  
+   :::column:::
+      Slovak
+   :::column-end:::
+   :::column:::
+      Slovenian
+   :::column-end:::
+   :::column:::
+      Vietnamese
+   :::column-end:::
+:::row-end:::
+
 :::row:::
    :::column:::
       Swedish – *sv SE* 
@@ -173,41 +209,6 @@ Currently, Viva Goals supports the following languages and locales. Note: locale
 
 ### Languages coming soon:
 
-:::row:::
-   :::column:::
-        Arabic
-   :::column-end:::
-   :::column:::
-       Bulgarian
-   :::column-end:::   
-   :::column:::
-      Hebrew
-   :::column-end:::
-  :::row-end:::
-
-:::row:::
- :::column:::
-      Latvian
-   :::column-end:::
-   :::column:::
-      Lithuanian
-   :::column-end:::
-      :::column:::
-     Serbian (Latin) 
-   :::column-end:::
-:::row-end:::
-
-:::row:::  
-   :::column:::
-      Slovak
-   :::column-end:::
-   :::column:::
-      Slovenian
-   :::column-end:::
-   :::column:::
-      Vietnamese
-   :::column-end:::
-:::row-end:::
-      
+None at this time.
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).
