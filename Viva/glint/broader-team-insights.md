@@ -23,7 +23,7 @@ description: "Broader Team Insights bridges the confidentiality-driven gap for m
 
 Team leaders who use Microsoft Viva Glint’s action taking tools see a significant increase in scores, however, up to 50% of managers’ teams are too small to allow them access results to their own team’s results. By enabling Broader Team Insights, managers are empowered to significantly impact employee engagement.  
 
-Managers of small teams may not have enough team members with in overall size or response rate size - to view their own team’s survey responses. Viva Glint considers this number to be a team of five or five respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights helps to bridge that gap. 
+Managers of small teams may not have enough team members with overall size or response rate size - to view their own team’s survey responses. Viva Glint considers this number to be a team of five or five respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights helps to bridge that gap. 
 
 Broader Team Insights isn't only limited to managers of small teams. Team leaders at all levels who use Broader Team Insights are better able to anchor their team’s feedback in the context of their larger department, have better conversations, and align actions.
 
