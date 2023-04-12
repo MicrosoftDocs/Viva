@@ -59,7 +59,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 After the **Onboarding and development** report is set up and populated with Viva Insights data in Power BI, map values as prompted, which are listed below: 
 
 * **New hire categories** – Select the categories you want to consider as “new hires” in the report. Include “Employees who are new to the company,” “Employees who are new in role,” or both. 
-* **Max/number of months in role to consider** – Select the maximum number of months the new hire needs to be with the company or in the new role to be considered a “new hire.”  
+* **Max. number of months in role to consider** – Select the maximum number of months the new hire needs to be with the company or in the new role to be considered a “new hire.”  
 
 After this initial prompt, you can view and set the following parameters on the **Settings** page:
 
