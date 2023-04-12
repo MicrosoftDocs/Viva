@@ -52,7 +52,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 1. In the Viva Insights analyst experience, select **Analysis**.
 2. Under **Power BI templates**, navigate to **Onboarding and development** and select **Start analysis**. 
 
-[!INCLUDE [Setup steps new hire](includes/setup-steps-onboarding.md)]
+[!INCLUDE [Setup steps](includes/setup-steps.md)]
 
 ## Report settings
 

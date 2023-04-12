@@ -11,7 +11,6 @@
         >The **More settings** pane also contains **Group by** settings. Power BI queries are set to **Group by Week**, and you're not able to edit this field.
 
  1. Under **Predefined template metrics**, view a list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. However, you can add other metrics. 
-     1. Customize your keywords (optional). This query uses a set of keywords within the **Calendared learning time** metric to determine training-related events. If you want to customize these keywords, you'll need to create a new metric now. Go to the [To customize your keywords](../new-hire-onboarding.md#to-customize-your-keywords) section for detailed steps on creating a new custom metric. Then, return here to complete the query process.
  1. In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, refer to [Filters](../../filters.md).
 1. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
     >[!Important]
