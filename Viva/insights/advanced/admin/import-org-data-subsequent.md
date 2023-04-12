@@ -17,17 +17,12 @@ audience: Admin
 
 *Applies to: private preview customers*
 
-In this article, we discuss refreshing the data you provided when you set up your connection to Viva Insights. 
+In this article, we discuss two kind of imports: full and incremental. These imports refresh the data you provided when you set up your connection to Viva Insights. 
 
 >[!Important]
 >Only use the following steps if this is not the first time you’re importing organizational data. If this is your first import, refer to [Import organizational data (first import)](import-org-data-first.md) to set up a connection and import data to Viva Insights.
 >
->To export and import data at a set frequency, you’ll need to create a *different* app than the **DescriptiveDataUploadApp** console app described in [Import organizational data (first import)](import-org-data-first.md) (for example, a PowerShell script). This app needs to do two things:
->
->1. Export your source data at the frequency you set.
->1. Run the **DescriptiveDataUploadApp** console app described in [Import organizational data (first import)](import-org-data-first.md).
->
->Viva Insights doesn’t supply this source-side, data-export app. However, we describe the steps it needs to take in Data refresh process.
+>This article doesn't describe how to use the DescriptiveDataUpload app or automatically export your data. To export and import data at a set frequency, you’ll need to create a *different* app than the **DescriptiveDataUploadApp** console app described in [Import organizational data (first import)](import-org-data-first.md). We describe how to set this app up and use it in [Import organizational data (first import)](import-org-data-first.md#prepare-export-and-import-organizational-data).
 
 ## About subsequent imports
 
@@ -85,15 +80,3 @@ Refresh type | Required field | Required value
 ||Organization | Current and all historical for new employees only
 || EffectiveDate | Current and all historical for new employees only
 || All reserved optional fields (for example, HireDate) that you’ve already imported to Viva Insights | Current and all historical for new employees only
-
-## Regular import app
-
-As mentioned earlier, to export data to Viva Insights at a set frequency, you’ll need to create a different app from the one we described in Import organizational data (first import) [add link]. The app can take any form—for example, a PowerShell script—but this is what it needs to do:
-
-1. Export organizational data from your source system as a zip folder based on the zip folder we provide on GitHub. The zip folder needs to contain the following two files:
-    1. data.csv, which contains all fields you want to import and is formatted according to our guidelines in Prepare organizational data.
-    1. A metadata.json file, which should indicate the following:
-        1. DatasetType: HR
-        1. IsBootstrap: `True` or `False`. `True` indicates a full refresh and `False` indicates an incremental refresh.
-        1. Mapping: include a source-data column name for each Viva Insights field. `“name”` corresponds to the Viva Insights field name. Change the text in the above line if your source system uses a different name for that field.
-1. Run the **DescriptiveDataUploadApp** as described in [Import organizational data (first import)](import-org-data-first.md).
