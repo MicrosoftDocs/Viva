@@ -22,7 +22,7 @@ description: "Viva Goals data residency and language support"
 
 # Viva Goals data residency
 
-Viva Goals Data Residency Coverage: Starting December 5, 2022, Viva Goals Customer Data for new tenants in the European Union Data Boundary (EUDB) will be stored in data centers located in the EU. All other tenants will have their Viva Goals Customer Data stored in data centers located in the United States. 
+Viva Goals Data Residency Coverage: December 5, 2022, Viva Goals Customer Data for new tenants in the European Union Data Boundary (EUDB) will be stored in data centers located in the EU. All other tenants have their Viva Goals Customer Data stored in data centers located in the United States. 
 
 Tenants aren't provided with a choice for the specific deployment region for data storage. To be considered a tenant in the EUDB:
 
@@ -39,31 +39,55 @@ Currently, Viva Goals supports the following languages and locales. Note: locale
 
 :::row:::
    :::column:::
+        Arabic – *ar*
+   :::column-end:::
+   :::column:::
+       Bulgarian – *bg*
+   :::column-end:::   
+   :::column:::
       Estonian – *et EE* 
    :::column-end:::
+  :::row-end:::
+
+:::row:::
    :::column:::
       English (United States) – *en*
    :::column-end:::
    :::column:::
       English (United Kingdom) – *en GB* 
    :::column-end:::
-:::row-end:::
-
-:::row:::
    :::column:::
       French (France) – *fr FR* 
    :::column-end:::
+:::row-end:::
+
+:::row:::
    :::column:::
       French (Canada) – *fr CA* 
    :::column-end:::
    :::column:::
       German – *de DE* 
    :::column-end:::
+   :::column:::
+      Hebrew – *he*
+   :::column-end:::
 :::row-end:::
 
 :::row:::
    :::column:::
       Italian – *it IT* 
+   :::column-end:::
+   :::column:::
+      Latvian – *lv*
+   :::column-end:::
+   :::column:::
+      Lithuanian – *lt* 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Serbian (Latin) – *sr* 
    :::column-end:::
    :::column:::
       Spanish (Spain) - *es ES*  
@@ -157,9 +181,21 @@ Currently, Viva Goals supports the following languages and locales. Note: locale
    :::column-end:::
 :::row-end:::
 
-:::row:::
+:::row:::  
+   :::column:::
+      Slovak – *sk*
+   :::column-end:::
+   :::column:::
+      Slovenian – *sl*
+   :::column-end:::
    :::column:::
       Swedish – *sv SE* 
+   :::column-end:::
+:::row-end:::
+
+:::row:::
+   :::column:::
+      Vietnamese – *vi*
    :::column-end:::
    :::column:::
       <!--blank "cell" follows to even out the columns--> 
@@ -173,41 +209,6 @@ Currently, Viva Goals supports the following languages and locales. Note: locale
 
 ### Languages coming soon:
 
-:::row:::
-   :::column:::
-        Arabic
-   :::column-end:::
-   :::column:::
-       Bulgarian
-   :::column-end:::   
-   :::column:::
-      Hebrew
-   :::column-end:::
-  :::row-end:::
-
-:::row:::
- :::column:::
-      Latvian
-   :::column-end:::
-   :::column:::
-      Lithuanian
-   :::column-end:::
-      :::column:::
-     Serbian (Latin) 
-   :::column-end:::
-:::row-end:::
-
-:::row:::  
-   :::column:::
-      Slovak
-   :::column-end:::
-   :::column:::
-      Slovenian
-   :::column-end:::
-   :::column:::
-      Vietnamese
-   :::column-end:::
-:::row-end:::
-      
+None at this time.
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).
