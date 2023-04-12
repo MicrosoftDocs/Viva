@@ -158,9 +158,9 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 * Import organizational data for all employees in the company, including licensed and non-licensed employees. 
 * Refer to the [sample .csv template](https://go.microsoft.com/fwlink/?linkid=2224590) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
 
-#### Automatically export and import your data
+#### Export and import your data on a set frequency
 
-To export data from your source system and import it into Viva Insights at a set frequency, you’ll need to create a custom app. Your app can take any form—for example, a PowerShell script—but it needs to do two things: 
+To export data from your source system and import it into Viva Insights on a set frequency, you’ll need to create a custom app. Your app can take any form—for example, a PowerShell script—but it needs to do two things: 
 
 1. Export your source data as a zip folder at the frequency you pick, and store that folder in your C:/ drive or OneDrive.
 1. Automatically run the DescriptiveDataUploadApp we created on the console. The DescriptiveDataUploadApp then brings your locally stored data into Viva Insights.
@@ -218,10 +218,10 @@ When you upload your data, your `Employee` field will become `PersonId` in Viva 
  
 ##### Run the DescriptiveDataUploadApp in the console
 
-Whenever it exports the zip folder from your source system, have your custom export app automatically run the DescriptiveDataUploadApp. We created the DescriptiveDataUploadApp on GitHub to transfer your data into Viva Insights. Clone this app to your machine by running the following command: `git clone https://github.com/microsoft/vivainsights_ingressupload.git.` 
+Whenever it exports the zip folder from your source system, have your custom export app automatically run the DescriptiveDataUploadApp. We created the DescriptiveDataUploadApp [on GitHub](https://github.com/microsoft/vivainsights_ingressupload) to transfer your data into Viva Insights. Clone this app to your machine by running the following command: `git clone https://github.com/microsoft/vivainsights_ingressupload.git.` 
 
-1.	For each export, have your custom export app run DescriptiveDataUploadApp.csproj.
-2.	Include the following console values:
+1.	For each export, have your custom export app run the DescriptiveDataUploadApp.
+2.	A console pops up requesting values. Add the following values:
     1. AppID/ClientID. This ID is in the registered app information on the Azure portal under Application (client) ID.
     1. Absolute path to the zipped file. Format the path like this: `C:\\Users\\JaneDoe\\OneDrive - Microsoft\\Desktop\\info.zip`.
     1. Azure Active Directory tenant ID. This ID is also on the app's overview page under Directory (tenant) ID.
