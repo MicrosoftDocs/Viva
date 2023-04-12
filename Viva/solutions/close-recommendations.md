@@ -30,5 +30,5 @@ Looking to improve your healthy OKR program? Here are recommendations you can pe
 2. **Hold an OKR reflection meeting**
     1. Groups should set aside time to reflect on their OKRs, which will allow them to write better and better goals moving forward. 
 
-1. **Review your OKR analytic** 
+1. **Review your OKR analytics** 
     1. Analytics are available at the organization and team level within Viva Goals, and display metrics such as number of OKRs closed, OKR efficiency, and OKR focus. Use these analytics to track the success of your program over time. 
