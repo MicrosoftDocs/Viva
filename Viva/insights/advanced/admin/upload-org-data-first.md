@@ -15,7 +15,7 @@ audience: Admin
 
 # Upload organizational data (first upload)
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of two ways: through Azure Active Directory, which is the default source or through a .csv file that you as an admin upload.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of two ways: through Azure Active Directory, which is the default source, or through a .csv file that you as an admin upload.
 
 This article talks about the second option: uploading a .csv file.
 
