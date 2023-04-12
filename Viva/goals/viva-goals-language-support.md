@@ -39,10 +39,10 @@ Currently, Viva Goals supports the following languages and locales. Note: locale
 
 :::row:::
    :::column:::
-        Arabic
+        Arabic – *ar*
    :::column-end:::
    :::column:::
-       Bulgarian
+       Bulgarian – *bg*
    :::column-end:::   
    :::column:::
       Estonian – *et EE* 
@@ -69,7 +69,7 @@ Currently, Viva Goals supports the following languages and locales. Note: locale
       German – *de DE* 
    :::column-end:::
    :::column:::
-      Hebrew - 
+      Hebrew – *he*
    :::column-end:::
 :::row-end:::
 
@@ -78,16 +78,16 @@ Currently, Viva Goals supports the following languages and locales. Note: locale
       Italian – *it IT* 
    :::column-end:::
    :::column:::
-      Latvian 
+      Latvian – *lv*
    :::column-end:::
    :::column:::
-      Lithuanian 
+      Lithuanian – *lt* 
    :::column-end:::
 :::row-end:::
 
 :::row:::
    :::column:::
-      Serbian (Latin) 
+      Serbian (Latin) – *sr* 
    :::column-end:::
    :::column:::
       Spanish (Spain) - *es ES*  
@@ -183,19 +183,19 @@ Currently, Viva Goals supports the following languages and locales. Note: locale
 
 :::row:::  
    :::column:::
-      Slovak
+      Slovak – *sk*
    :::column-end:::
    :::column:::
-      Slovenian
+      Slovenian – *sl*
    :::column-end:::
    :::column:::
-      Vietnamese
+      Swedish – *sv SE* 
    :::column-end:::
 :::row-end:::
 
 :::row:::
    :::column:::
-      Swedish – *sv SE* 
+      Vietnamese – *vi*
    :::column-end:::
    :::column:::
       <!--blank "cell" follows to even out the columns--> 
