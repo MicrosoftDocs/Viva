@@ -22,7 +22,7 @@ description: "Viva Goals data residency and language support"
 
 # Viva Goals data residency
 
-Viva Goals Data Residency Coverage: Starting December 5, 2022, Viva Goals Customer Data for new tenants in the European Union Data Boundary (EUDB) will be stored in data centers located in the EU. All other tenants will have their Viva Goals Customer Data stored in data centers located in the United States. 
+Viva Goals Data Residency Coverage: December 5, 2022, Viva Goals Customer Data for new tenants in the European Union Data Boundary (EUDB) will be stored in data centers located in the EU. All other tenants have their Viva Goals Customer Data stored in data centers located in the United States. 
 
 Tenants aren't provided with a choice for the specific deployment region for data storage. To be considered a tenant in the EUDB:
 
