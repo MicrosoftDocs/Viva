@@ -43,13 +43,14 @@ Topics are displayed to users through:
 - [Topics highlighted](topic-experiences-overview.md#sharepoint-highlights) on SharePoint pages
 - Topic answers in [search results](topic-experiences-overview.md#search-results)
 - Search in [office applications](topic-experiences-overview.md#office-application-search)
+- [Profile cards](#profile-cards) in Microsoft 365 web apps
 - [Topic center](topic-experiences-overview.md#topic-center) home page
 
 ### SharePoint highlights
 
-When a topic is mentioned in content on SharePoint news and pages, you'll see it highlighted. You can open the topic summary from the highlight. Open the topic details from the title of the summary to view the full topic page. The mentioned topic could be identified automatically or could have been referenced directly by the page author. 
+When a topic is mentioned in content on SharePoint news and pages, you'll see it highlighted. You can open the topic summary from the highlight. Open the topic details from the title of the summary to view the full topic page. The mentioned topic could be identified automatically or could have been referenced directly by the page author.
 
-   ![Screenshot showing topic highlights.](../media/knowledge-management/saturn.png) 
+   ![Screenshot showing topic highlights.](../media/knowledge-management/saturn.png)
 
 ### Search results
 
@@ -64,6 +65,15 @@ When you use Search in Office apps such as Word, PowerPoint, Outlook, or Excel �
    ![Screenshot showing search in Word through the Search box.](../media/knowledge-management/word-search-2.png)
 
    ![Screenshot showing search in Word through the Search context menu.](../media/knowledge-management/word-search-1.png)
+
+### Profile cards
+
+When a user selects someone’s name or picture in Outlook or other Office web apps (not including Microsoft Teams), they’ll be able to see what topics they’re associated with. When the user clicks on the topic pill, it redirects them to the topic page where they can see more information about the topic, including alternate names, description as well as other people associations to the topic. Blue topic pills represent confirmed connections, while gray topic pills represent suggested connections.
+
+   ![Screenshot of a profile card showing associated topics](../media/profile-card-topics.png)
+   [![Screenshot of a profile card showing the option to remove suggested topics](../media/profile-card-suggested.png)](../media/profile-card-suggested-big.png#lightbox)
+
+Users can choose whether to show or hide suggested topics on their profile card by opening their own card and choosing Settings. Suggested topics may still appear elsewhere in Microsoft 365, such as topic pages and search results.
 
 ### Topic center
 
