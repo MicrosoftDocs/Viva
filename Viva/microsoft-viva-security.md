@@ -32,8 +32,6 @@ For a more detailed look at security, compliance, and privacy for the Microsoft 
 
 [Learn about Microsoft Viva privacy](/Viva/viva-privacy)
 
-
-
 :::image type="icon" source="/office/media/icons/key-permissions.png" ::: **Viva Security**
 
 [Learn about Microsoft Viva security](/Viva/viva-security)

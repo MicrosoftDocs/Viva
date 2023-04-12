@@ -98,6 +98,8 @@ Viva Connections and Viva Topics inherit eDiscovery and [Data Retention](/micros
 
 ## More resources
 
-[Microsoft Viva Privacy](/Viva/viva-privacy.md)
+[Microsoft Viva Privacy](/Viva/viva-privacy)
 
-[Microsoft Viva Security](/Viva/microsoft-viva-security.md)
+[Microsoft Viva Security](/Viva/microsoft-viva-security)
+
+[Viva admin roles and tasks](/viva/microsoft-viva-admin-roles)
