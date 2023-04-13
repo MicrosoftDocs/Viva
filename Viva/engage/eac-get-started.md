@@ -31,10 +31,6 @@ The following Admin users can see the Admin Center in Viva Engage in the Teams a
 - Those who have access to Viva Engage through purchase of Microsoft 365 or Viva Suite.
 - Those who have access to Answers in Viva through purchase of Viva Suite or Viva Topics
 
-To access Viva Engage premium features, the user needs a license to the Viva Engage Communities and Communications service plan. 
-
-To access Answers in Viva, the user needs a license to the Viva Engage Knowledge service plan.
-
 ### Core experiences: Viva Engage and Answers
 
 If you don't enforce Yammer licensing in your tenant, all the users in your tenant have access to the Viva Engage core experiences and the Yammer experiences. This access includes the Answers core experience.  
@@ -60,9 +56,6 @@ The configurations include:
 Through this experience, the admin can view optional and required configurations, in the priority column, to set up Viva Engage.  
 
 For more information, see [the Microsoft Viva admin experience](/viva/new-microsoft-viva-admin-experience).
-
->[!NOTE]
-> Admins need the appropriate license to configure the Engage and Answers premium experiences. By the end of Q1CY23, we will be removing the check on the admin's individual license for premium configuration.
 
 ## See also
 
