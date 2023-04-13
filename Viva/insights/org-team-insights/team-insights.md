@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 01/06/2023
 title: Team insights
 description: Learn about team insights and where to find them in Viva Insights in Teams and on the web

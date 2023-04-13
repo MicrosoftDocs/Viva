@@ -252,6 +252,10 @@ For example, suppose you want to compare collaboration patterns between employee
 
 When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid).
 
+### Rules for the file
+
+The data file needs to be in the .csv UTF-8 format, and it can’t be empty.
+
 ### Rules for field headers
 
 All field header or column names need to: 
