@@ -26,7 +26,9 @@ In this article, we discuss two kind of imports: full and incremental. These imp
 
 When you import data to Viva Insights, you’ll either perform a full or an incremental refresh. If you want to delete fields, you can use a full refresh to do so. 
 
-The custom export app you created in [Import organizational data (first import)](import-org-data-first.md#prepare-export-and-import-organizational-data), along with the DescriptiveDataUploadApp we created on GitHub, facilitates the refreshes we talk about below. As a quick recap, when DescriptiveDataUploadApp runs, it pulls data from the zipped folder you downloaded from GitHub. This zipped folder contains the following files:
+The custom export app you created in [Import organizational data (first import)](import-org-data-first.md#prepare-export-and-import-organizational-data), along with the DescriptiveDataUploadApp we created on GitHub, facilitates the refreshes we talk about below. As a quick recap, when DescriptiveDataUploadApp runs, it pulls data from the zipped folder you downloaded from GitHub. (Select [this link](https://go.microsoft.com/fwlink/?linkid=2230444) to download the folder.) 
+
+This zipped folder contains the following files:
 
 * data.csv, which contains the fields you want to import.
 * metadata.json, which maps your source fields to Viva Insights fields. You'll also use metadata.json to tell Viva Insights whether your refresh is full or incremental, as we explain in the next section.
