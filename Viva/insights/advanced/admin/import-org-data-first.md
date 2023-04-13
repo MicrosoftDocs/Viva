@@ -20,7 +20,7 @@ audience: Admin
 Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
 This article talks about the third option, importing data. 
 
-With an import, you create your own app to automatically export your source data and metadata to a zip file. Then, your custom app runs a console app we created, called DescriptiveDataUploadApp. Through DescriptiveDataUploadApp, Viva Insights pulls your data into the advanced insights app. 
+With an import, you create your own app to automatically export your source data and metadata to a zipped folder. Then, your custom app runs a console app we created, called DescriptiveDataUploadApp. Through DescriptiveDataUploadApp, Viva Insights pulls your data into the advanced insights app. 
 
 However, before you can run your app and start transferring data to Viva Insights, you'll need to coordinate a few tasks between your Microsoft 365 admin and Insights Administrator (Insights admin). Refer to [Workflow](#workflow) for an overview of required steps.
 
@@ -35,7 +35,7 @@ However, before you can run your app and start transferring data to Viva Insight
     1. The data source admin [generates a security certificate](#generate-the-security-certificate) and provides it to the Microsoft 365 admin.
     1. Using the security certificate, the Microsoft 365 admin [registers a new app in Azure](#register-a-new-app-in-azure).
     1. Using IDs from the app registration, the Insights admin [sets up the import](#set-up-the-import-in-viva-insights).
-    1. The data source admin prepares their data and exports it using a custom app (for example, a PowerShell script). Their custom app saves data to a zip folder and automatically runs the DescriptiveDataUploadApp on the console.
+    1. The data source admin prepares their data and exports it using a custom app (for example, a PowerShell script). Their custom app saves data to a zipped folder and automatically runs the DescriptiveDataUploadApp on the console.
     1. The DescriptiveDataUploadApp pulls data from the data source admin’s local file to Viva Insights.
 
 1. Validation: Viva Insights validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
@@ -58,9 +58,7 @@ Here’s what to do:
 1.	Create a certificate by following the instructions in this article: [Create a self-signed public certificate to authenticate your application](/azure/active-directory/develop/howto-create-self-signed-certificate)
 2.	Send the generated certificate to the Microsoft 365 admin.
 
-That’s it for now. If you want to get a head start on your next steps, follow the steps in [Set up the application](#set-up-the-application).  
-
-
+That’s it for now. If you want to get a head start on your next steps, follow the steps in [Export and import your data on a set frequency](#export-and-import-your-data-on-a-set-frequency).  
 
 ### Register a new app in Azure
 
@@ -162,16 +160,16 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
 To export data from your source system and import it into Viva Insights on a set frequency, you’ll need to create a custom app. Your app can take any form—for example, a PowerShell script—but it needs to do two things: 
 
-1. Export your source data as a zip folder at the frequency you pick, and store that folder in your C:/ drive or OneDrive.
+1. Export your source data as a zipped folder at the frequency you pick, and store that folder in your local files.
 1. Automatically run the DescriptiveDataUploadApp we created on the console. The DescriptiveDataUploadApp then brings your locally stored data into Viva Insights.
 
 :::image type="complex" source="../images/admin-custom-app-flow.png" alt-text="Screenshot that shows a diagram of the flow of information from source system to Viva Insights."lightbox="../images/admin-custom-app-flow-expanded1.png":::
    Flow diagram of the data-import process. The first step shows a data icon labeled, "Source system" with a downward arrow leading to a PowerShell/command icon labeled, "Your custom app." Next to the arrow, there's a clock indicating automated refresh based on frequency. A downward arrow leads from the "Your custom app" icon to a folder icon labeled, "Local folder." A horizontal arrow leads to the right from the folder icon to an app icon in the center of the diagram labeled, "DescriptiveDataUploadApp." From the app icon, a horizontal arrow leads to the right to the Viva Insights icon, labeled, "Viva Insights."
 :::image-end:::
 
-##### Export and store the zip folder
+##### Export and store the zipped folder
 
-At the frequency you decide (once a month, once a week, etc.) have your custom app export organizational data from your source system as a zip folder and store it in your files. Base this zip folder on the zip folder we provide on GitHub. (Select [this link](https://go.microsoft.com/fwlink/?linkid=2230444) to download the folder.) Your zip folder needs to contain a data.csv file and a metadata.json file.
+At the frequency you decide (once a month, once a week, etc.) have your custom app export organizational data from your source system as a zipped folder and store it in your files. Base this zipped folder on the zipped folder we provide on GitHub. (Select [this link](https://go.microsoft.com/fwlink/?linkid=2230444) to download the folder.) Your zipped folder needs to contain a data.csv file and a metadata.json file.
 
 
 Here are a few more details about these files and what they need to contain:
@@ -219,12 +217,12 @@ When you upload your data, your `Employee` field will become `PersonId` in Viva 
  
 ##### Run the DescriptiveDataUploadApp in the console
 
-Whenever it exports the zip folder from your source system, have your custom export app automatically run the DescriptiveDataUploadApp. We created the DescriptiveDataUploadApp [on GitHub](https://github.com/microsoft/vivainsights_ingressupload) to transfer your data into Viva Insights. Clone this app to your machine by running the following command: `git clone https://github.com/microsoft/vivainsights_ingressupload.git.` 
+Whenever it exports the zipped folder from your source system, have your custom export app automatically run the DescriptiveDataUploadApp. We created the DescriptiveDataUploadApp [on GitHub](https://github.com/microsoft/vivainsights_ingressupload) to transfer your data into Viva Insights. Clone this app to your machine by running the following command: `git clone https://github.com/microsoft/vivainsights_ingressupload.git.` 
 
 1.	For each export, have your custom export app run the DescriptiveDataUploadApp.
 2.	A console pops up requesting values. Add the following values:
     1. AppID/ClientID. This ID is in the registered app information on the Azure portal under Application (client) ID.
-    1. Absolute path to the zipped file. Format the path like this: `C:\\Users\\JaneDoe\\OneDrive - Microsoft\\Desktop\\info.zip`.
+    1. Absolute path to the zipped folder. Format the path like this: `C:\\Users\\JaneDoe\\OneDrive - Microsoft\\Desktop\\info.zip`.
     1. Azure Active Directory tenant ID. This ID is also on the app's overview page under Directory (tenant) ID.
     1. Certificate name. This name is configured in your registered application. If you haven’t created a certificate yet, refer to [How to create a self-signed certificate](/azure/active-directory/develop/howto-create-self-signed-certificate). After you upload the certificate, the certificate name shows up under **Description** in the Azure Portal.
 
