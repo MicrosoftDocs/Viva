@@ -19,11 +19,11 @@ ms.date: 04/10/2023
 
 # Use the Executive Summary dashboard
 
-The Executive Summary is a group of reports useful to admins for presenting high level results to your team, leaders, or the company. This report is like the overall dashboard view.  
+The Executive Summary is a group of reports useful to admins for presenting high level results to your team, leaders, or the company. This report is your overall dashboard view.  
 
 ## Choose reports to share on your Executive Summary dashboard
 
-There are many reports that you can choose to be part of this dashboard. The following descriptor table provides you with instructions on how to add reports or sections to the Executive Summary dashboard. Some items appear separately, and others may group as part of a related section.
+There are many reports that you can choose to be part of this dashboard. The following descriptor table provides you with instructions on how to add reports or sections. Some items appear separately, and others may group as part of a related section.
 
 | Report or section  | Description |
 | -------------- | ----------------- |
@@ -42,14 +42,14 @@ There are many reports that you can choose to be part of this dashboard. The fol
 | **Heat Map by Survey Date**| How all questions/items vary over time, if applicable |
 | **Celebration**  | Highlights improvements from previous pulse|
 | **Driver Impact**| Surfaces key strengths and opportunities across the entire survey|
-| **Strengths** | The top strengths relative to comparator   |
+| **Strengths** | Top strengths relative to comparator   |
 | **Opportunities**| Top opportunities relative to comparator   |
 | **Response Rate History** | How response rates have changed over time, if applicable|
 | **Response Rate by Demographic**| How response rates vary by demographic|
 | **Multiple Choice Questions by Demographic** | How response rates to a multiple-choice question vary by demographic|
 | **Radial by Demographic** | How the key question/item varies by demographic|
 | **Score Benchmarks**   | How my teams score against the entire company |
-| **Non-Rating Questions**  | How people respond to each nonrating item |
+| **Non-Rating Questions**  | How people respond to each non-rating item |
 | **Driver Impact by Demographic**| How a single item score and impact vary by demographic  |
 | **Comments Overview** | Overview of comments including overall sentiment and top topics  |
 | **Comments Questions** | How questions/items vary by volume and sentiment    |
@@ -57,7 +57,7 @@ There are many reports that you can choose to be part of this dashboard. The fol
 | **Keywords**  | A visual of top keywords from comments|
 | **All Comments** | Read representative, prescriptive, or all comments |
 
-For detailed information, see [Report types](https://go.microsoft.com/fwlink/?linkid=2231010).
+To learn about other reports available , see [Report types](https://go.microsoft.com/fwlink/?linkid=2231010).
 
 ## Edit a report
 
@@ -69,7 +69,7 @@ The settings button opens a window where you can choose the right comparison dat
 - **Average Question**: Presents a single, overall score for all questions and respondents within your access. Helpful for users looking for some level of variance in their score.
 
 > [!NOTE]
-> Your company may have substituted custom terms for the Viva Glint terminology explained in our guidance.
+> Your company may have substituted custom terms for the Viva Glint terminology used in our guidance.
 
 ## Filter a report
 
@@ -79,7 +79,7 @@ Most reports are filterable by attribute and hierarchy. Use the **filter** symbo
 
 To add a report, select the **More** dropdown button at the bottom of the page and then **+ Add Section**. 
 
-If you already have some reports displayed but want to add more, the More button won't be available, but you can find the **+Add Section** at the bottom of the page. 
+If you already have some reports displayed but want to add more, the More button won't be available, but you will find the **+Add Section** at the bottom of the page. 
 
 If you choose not to share one of the reports that already appears, choose **Delete** on the vertical ellipses at the right of the report.
 
