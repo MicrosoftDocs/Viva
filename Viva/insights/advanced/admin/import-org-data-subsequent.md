@@ -92,9 +92,9 @@ For the refresh types listed below, include the following fields in your data.cs
 * Remove any fields you're not including from your metadata.json file.
 * Keep both the data.csv and metadata.json files in the zipped folder you downloaded from GitHub. When you run the DescriptiveDataUploadApp, you'll provide the zipped folder path. Viva Insights will then pull your data from this location.
 
-For a | Include these fields in data.csv| With these values|For these employees
+For this kind of refresh | Include these fields in data.csv| With these values|For these employees
 |------------|-----------------|---------|---|
-|**Full refresh** |**PersonId**	|<ul> <li>Current <li> All historical (refer to the note below)  |All
+|**Full** |**PersonId**	|<ul> <li>Current <li> All historical (refer to the note below)  |All
 ||**ManagerId** |<ul> <li>Current <li> All historical |All
 || **Organization**| <ul> <li>Current <li> All historical |All
 || **EffectiveDate**|<ul> <li>Current <li> All historical |All

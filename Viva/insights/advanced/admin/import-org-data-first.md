@@ -35,7 +35,7 @@ However, before you can run your app and start transferring data to Viva Insight
     1. The data source admin [generates a security certificate](#generate-the-security-certificate) and provides it to the Microsoft 365 admin.
     1. Using the security certificate, the Microsoft 365 admin [registers a new app in Azure](#register-a-new-app-in-azure).
     1. Using IDs from the app registration, the Insights admin [sets up the import](#set-up-the-import-in-viva-insights).
-    1. The data source admin prepares their data and exports it using a custom app (for example, a PowerShell script). Their custom app saves data to a zipped folder and automatically runs the DescriptiveDataUploadApp on the console.
+    1. The data source admin [prepares their data and exports it](#prepare-export-and-import-organizational-data) using a custom app (for example, a PowerShell script). Their custom app saves data to a zipped folder and automatically runs the [DescriptiveDataUploadApp](#run-the-descriptivedatauploadapp-in-the-console) on the console.
     1. The DescriptiveDataUploadApp pulls data from the data source admin’s local file to Viva Insights.
 
 1. Validation: Viva Insights validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
