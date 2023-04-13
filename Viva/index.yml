@@ -131,6 +131,8 @@ additionalContent:
               url: /training/modules/viva-sales-introduction/
             - text: Get started with Viva Goals
               url: /training/paths/viva-goals-get-started
+            - text: Become an OKR Champion with Viva Goals
+              url: /training/paths/okr-leadership/
 
         # Card
         - title: Adoption
