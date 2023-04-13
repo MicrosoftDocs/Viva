@@ -1,5 +1,5 @@
 ---
-ms.date: 04/12/2022
+ms.date: 03/30/2023
 title: Azure DevOps integration
 ms.reviewer: 
 ms.author: rasanders
@@ -23,128 +23,190 @@ description: "Learn how to integrate your Azure DevOps work items with OKRs in V
 
 ## Introduction to Azure DevOps integration
 
-The Viva Goals Azure DevOps data integration allows you to automatically update your Key Results or Initiatives based on the status of work items in Azure DevOps. While the structure and nature of the Azure DevOps data that is synced with Viva Goals is different for Key Results versus Initiatives, they both leverage the same data connection. 
+Viva Goals integrates with Microsoft Azure DevOps to automatically update key results and projects in Viva Goals. Key Result and Project progress is updated automatically based on the connected Azure DevOps work items. You can leverage the Azure DevOps integration to
 
-The Viva Goals Azure DevOps data integration connects to a shared query in a specific Azure DevOps Organization + Project. The user who sets up the connection must have access to the Azure DevOps Organization, Project, and the shared query that is being accessed. In addition, the Azure DevOps Organization policy must allow for OAuth access (further details are described below).  
+- Automatically track progress for a key result  
+- Automatically track progress for an initiative KPI 
+- Automatically track progress and tasks for an initiative.  
+    - This approach updates initiative progress, syncs Azure DevOps work item details with Viva Goals initiative “tasks”, and, when used with the soon to be released Viva Goals Azure DevOps extension, Viva Goals OKR alignment details are surfaced directly in Azure DevOps linked work items. bn 
 
-## Initiatives vs OKRs 
+See below for more details on how the Azure DevOps integration works when connecting to key results, initiatives metrics, and initiative tasks. 
 
-One of the fundamental tenets of OKRs is distinguishing between outcomes versus outputs.  OKRs, and specifically Key Results, are focused on driving impact (aka outcomes), while Viva Goals [Initiatives](/viva/goals/projects) are focused on outputs – the initiatives or work that you believe is needed to drive the Key Results.  Both are important to track, but they are measuring different things.  While you can integrate both Viva Goals Key Results and Initiatives with your Azure DevOps work items, it is important to understand the difference. Azure DevOps primarily focuses on tracking work, so it is more common to integrate Viva Goals Initiatives with Azure DevOps, though there are certainly examples where Azure DevOps data can be aligned with Outcomes as well.  
+## Outcomes (OKRs) vs Outputs (Initiatives) 
 
-Viva Goals data integration returns different data for Key Results and Initiatives. For Key Results, the integration returns a single number, either a percentage or count of completed work items. For Initiatives, the integration returns the actual work items from Azure DevOps along with percentage complete information. 
+One of the fundamental tenets of OKRs is distinguishing between outcomes versus outputs. OKRs, and key results, are focused on driving impact (i.e., outcomes), while Viva Goals [initiatives](/viva/goals/projects) are focused on outputs – the work that is planned to achieve the key results. Both are important metrics to track, but they measure different things.
 
-## How to enable Azure DevOps integration
+While you can integrate both Viva Goals key results and initiatives with your Azure DevOps work items, it's important to understand the difference. Azure DevOps primarily focuses on tracking work, so it's more common to integrate Viva Goals initiatives with Azure DevOps. There are certain examples where it may make sense to track key result progress based on Azure DevOps work items.
 
-Admins can follow these steps to enable this integration: 
+## When to use the Azure DevOps Integration 
 
-1. In the sidebar, select **Admin** and then select the **Integrations** tab. 
+There are 3 ways to leverage the Azure DevOps integration with Viva Goals workflows. Details on each of these capabilities are described below:
 
-   :::image type="content" source="../media/goals/6/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/6/viva-goals-integrations-page.png":::
+1. **Track progress for a initiative with tasks:** In addition to tracking initiative progress based on Azure DevOps work items, this approach enables a cross-platform user experience. The Azure DevOps work item details are synced to the Viva Goals initiative views and the alignment of Azure DevOps work to Viva Goals OKRs can be viewed directly within the linked Azure DevOps work items via the Azure DevOps Extension (coming soon)
+1. **Track progress for a initiative with KPIs:** This approach enables you to track initiative progress based on the Azure DevOps work items status. A single numeric value is synced with Viva Goals. 
+1. **Track progress for a Key Result:** This approach enables you to track KR progress based on the Azure DevOps work items status. A single numeric value is synced with Viva Goals.
 
-1.  Under Azure DevOps, choose to **enable** the integration. If a connection was made previously or if the integration was already enabled, you'll instead see the option to **Manage** the integration. 
+## How to set up Azure DevOps Integration  
 
-    :::image type="content" source="../media/goals/6/azure-devops-enable-button.png" alt-text="Screenshot highlights the Enable button for Azure DevOps in Viva Goals." lightbox="../media/goals/6/azure-devops-enable-button.png":::
+The Azure DevOps integration needs to be enabled by a Viva Goals Tenant and Organization admin. Global admins must first enable the Azure DevOps integration for their tenant ([Enable Integrations in Viva Goals | Microsoft Learn](vg-integrations-administration-overview.md)). Once enabled at the tenant level, a Viva Goals Organization admin must then enable it for their org ([Viva Goals Integrations Administration Overview](vg-integrations-administration-overview.md).)
 
-    To disable the integration from the same section, select **Change** and then select **Disable integration** from the dropdown.
+> [!NOTE]
+> Once enabled, any user in the organization who has permissions to create/edit an OKR and/or initiative can set up integration between Viva Goals and Azure DevOps! 
 
-    :::image type="content" source="../media/goals/6/azure-devops-disable-button.png" alt-text="Screenshot highlights the option to disable Azure DevOps in Viva Goals." lightbox="../media/goals/6/azure-devops-disable-button.png":::
+## How to enable Azure DevOps integration with initiatives
 
-## How to configure the Azure DevOps connection from the Organization Admin Integrations Tab  
+This method is the recommended approach for aligning work in Azure DevOps to OKRsin Viva Goals. In addition to tracking initiative progress based on Azure DevOps work items, this approach enables a cross-platform user experience. The Azure DevOps work item details are synced to the Viva Goals initiative views and, when used in conjunction with the Viva Goals Azure DevOps extension, the alignment of Azure
 
->[!Note] 
->While these instructions are specific to creating new connections via the Viva Goals Organization Admin Integrations menu, end users can set up new connections directly during the create/edit Key Result or Initiative workflows. See below for more details.
+DevOps work to Viva Goals OKRs is surfaced directly within the linked Azure DevOps work items.
 
-After you enable the integration, the next step is to configure an Azure DevOps connection: 
+1. Select **Add Initiative** in Viva Goals or edit an existing initiative. 
+1. Select **Outcome**. 
+1. Select **Add tasks**. 
+1. Select **Automatically from a data source**. 
+1. Select **Azure DevOps** from the list of available integrations.
+1. Select the appropriate Azure DevOps connection. If you need to create a new Azure DevOps connection, you will need to sign into Azure DevOps to create a data connection. A new connection is needed for each Azure DevOps project. After signing in:
 
-1. Select **New Connection**, and sign-in to your Azure DevOps organization. 
+    - Provide a connection name: We recommend including the Azure DevOps Organization and Project in the name for future reference.
+    - Select the **Azure DevOps Organization**  
+    - Select the **Azure DevOps Project** 
+    - Select **Next** 
+    
+1. Select the connection method: 
+    - **Shared Query:** enables you to connect to an existing query saved within Azure DevOps. 
+    - **Work items:** enables you to connect to one or more work items of a specific work item type.  This approach allows you to connect directly to the “parent” work items that contain the supporting work;  the child work items are automatically included.
 
-   :::image type="content" source="../media/goals/6/azure-devops-new-connection-button.png" alt-text="Screenshot shows where you create a new Azure DevOps connection in Viva goals" lightbox="../media/goals/6/azure-devops-new-connection-button.png":::
+**If using the connect to ‘Shared Query’ method:** 
 
-2. Enter a name for the new connection, and furnish the **Account Name** and **Project Name**. 
+1. Select the **shared query** method. 
+1. Search for and select the shared query that contains the Azure DevOps work items. 
+1. Select the work item type to track initiative progress. You can choose from any work item type in the query or all work items in the shared query. Viva Goals initiative progress is calculated as the % complete of the chosen work item type.
+1. Select **Next.** 
+1. Select **Save.** 
 
-   :::image type="content" source="../media/goals/ado-images/connect-to-ado.png" alt-text="Screenshot shows where you fill in details for a new Azure DevOps connection in Viva goals." lightbox="../media/goals/ado-images/connect-to-ado.png":::
-   
-3. Select **Next** to get the connection up and running. You can edit the saved connection at any time.
+You should now see the Azure DevOps icon next to your initiative. You should also see the Azure DevOps work item details in your Viva Goals initiative views.  Viva Goals will now automatically sync the work item details and update the initiative progress once per hour based on the completion percentage of the ADO work item types selected within your shared query.
 
-Viva Goals allows you to connect with multiple Azure DevOps projects. Select **New Connection** to get data from another Azure DevOps project. We recommend using the connection name to differentiate these connections (Azure DevOps Organization + Project name).
+**If using the Connect to Work Items method:**
 
-## How to connect Azure DevOps to a Viva Goals Initiative 
+1. Select **work items** method. 
+1. Select the work item type to connect to – we recommend choosing the “parent” work item type in your Azure DevOps hierarchy that contains the work being done. The integration will automatically include the child work items. For example, connect to a feature that is the parent to the tasks versus connecting to each individual task. 
+1. Search for and select the specific work item(s) of the chosen type.
+1. Select the work item type that tracks the Viva Goals initiative progress. You can choose to measure progress by a specific work item type (i.e., the type you directly connect to or any of its children types) or all work items (i.e., connected and children).  
+1. Select **Next**. 
+1. Select **Save**. 
 
-1. Go to Outcome. 
+You should now see the Azure DevOps icon next to your initiative. You should also see the Azure DevOps work item details in your Viva Goals initiative views.  Viva Goals will now automatically sync the work item details and update this initiative progress once per hour based on the completion percentage of the ADO work item type selected.
 
-      :::image type="content" source="../media/goals/6/azure-devops-projects-outcome-button.png" alt-text="Screenshot shows where you create a new Azure DevOps connection to an initiative in Viva goals." lightbox="../media/goals/6/azure-devops-projects-outcome-button.png":::
-
-2. Select Show More Options. 
-
-      :::image type="content" source="../media/goals/6/azure-devops-projects-show-more.png" alt-text="Screenshot shows the Show more options button." lightbox="../media/goals/6/azure-devops-projects-show-more.png":::
-
-3. Select Add Tasks. 
-
-      :::image type="content" source="../media/goals/6/azure-devops-projects-add-tasks.png" alt-text="Screenshot shows the Add tasks button." lightbox="../media/goals/6/azure-devops-projects-add-tasks.png":::
-
-4. Select **Automatically from a data source**, and then select **Azure DevOps** 
-
-5. If you've already created a connection, that connection will be selected automatically. Viva Goals will prompt you to create a new connection if you have no existing connections. You can also create a new Azure DevOps connection by selecting the dropdown carrot and selecting **Add a new connection**. 
-
-      :::image type="content" source="../media/goals/6/azure-devops-projects-connection-dropdown.png" alt-text="Screenshot shows how to create or select connections" lightbox="../media/goals/6/azure-devops-projects-connection-dropdown.png":::
-      
-6. Select a connection and search for the query by query name.  You can search by query name.  When you select a query, the count of matching work items is displayed.
-
-      :::image type="content" source="../media/goals/6/azure-devops-projects-query-details.png" alt-text="Screenshot shows how to search and add query details." lightbox="../media/goals/6/azure-devops-projects-query-details.png":::
-      
-7. Select **Next** and then **Save**. 
-
-Now that the Viva Goals Initiative is linked to a shared query in Azure DevOps, the work items in the shared query are automatically synced to Viva Goals.  Viva Goals will show a maximum of 3 levels of your Azure DevOps tree structure query in Viva Goals Initiative views.  Progress calculations based on the completion of the child work items are shown at each level of the query hierarchy and rolled up the Viva Goals Initiative progress percentage.  Hyperlinks connect you back to the shared query in Azure DevOps, as well as to the individual work items, enabling you to quickly see in-depth information for the supporting work. 
-
->[!Note] 
->While creating the Azure DevOps connection, ensure that the Third-party application access via OAuth setting is enabled. 
-
-:::image type="content" source="../media/goals/6/azure-devops-oauth.png" alt-text="Screenshot shows where you can enable oauth access for Azure DevOps." lightbox="../media/goals/6/azure-devops-oauth.png":::
-
-## How to connect the Azure DevOps connection to a Key Result
-
-1. During the create / edit Key Result flow, you will have the ability to connect your Key Result to Azure DevOps. You have two options on how you measure progress from the data in your Azure DevOps query: 
-
-   1. % of completed work items – this yields a percentage of work items in the underlying query that are completed.  You can also restrict the results to a specific work item type. 
-
-         :::image type="content" source="../media/goals/6/azure-devops-percentage-progress.png" alt-text="Screenshot shows progress measured by percentage of completed work items." lightbox="../media/goals/6/azure-devops-percentage-progress.png":::
-
-   2. Count of work items –this yields a count of the number work items (total or completed) in the underlying query.  This requires setting up a metric.  You can also restrict the results to a specific work item type. 
-   
-   >[!Note] 
-    >It is recommended that your Azure DevOps query return a flat list of work items as opposed to a tree-structure. This is because Viva Goals counts each work item, regardless of where the item happens to sit in the hierarchy.  
-
-      :::image type="content" source="../media/goals/6/azure-devops-work-items-progress.png" alt-text="Screenshot shows progress measured by tracking the number of work items." lightbox="../media/goals/6/azure-devops-work-items-progress.png":::
-
-2. The option to connect to a data source will appear only for Key Results and not for Objectives.  The option can be found under Progress. 
-
-      :::image type="content" source="../media/goals/6/azure-devops-datasource.png" alt-text="Screenshot shows where you select Azure DevOps from the list of data sources in Viva goals." lightbox="../media/goals/6/azure-devops-datasource.png":::
-  
-3. If you've already created a connection, that connection will be selected automatically. Viva Goals will prompt you to create a new connection if you have no existing connections. You can also create a new Azure DevOps connection by selecting the dropdown carrot and selecting **Add a new connection**.
+After completion of the above steps, not only will the Viva Goals initiative progress be automatically updated regularly, but the following capabilities will be enabled:
  
-4. Select a connection and search for the Azure DevOps query by name. When you choose a query, the **count of matching work items** will be displayed. 
+- The Azure DevOps work item details are shown in the Viva Goals initiative views, along with hyperlinks to the Azure DevOps work item details 
+- If you've enabled the Viva Goals Azure DevOps extension, the full alignment between OKRs and the Azure DevOps work items are accessible from a Viva Goals tab within the linked Azure DevOps work items. 
 
-    :::image type="content" source="../media/goals/6/azure-devops-connection-details.png" alt-text="Screenshot shows where you add an Azure DevOps connection to your OKRs in Viva goals." lightbox="../media/goals/6/azure-devops-connection-details.png":::
+## How to use Azure DevOps Integration with initiative KPIs
 
-5. Select **Next > Save**.
+Use this method when you want to update the Viva Goals initiative progress with a single numeric value (percentage of completed work items or a count of completed/total work items). This approach won't surface the Azure DevOps work items within Viva Goals initiative views; nor does this method have the capability to embed Viva Goals within the Azure DevOps work items.
 
-Now that the Key Result is linked to a query in Azure DevOps, you can track the progress of your work items and update the status of the corresponding KR automatically. 
+1. Select **Add Initiative** in Viva Goals or edit an existing initiative. 
+1. Select **Outcome**. 
+1. Select **Add Metric** and fill in on the necessary details (i.e., name, type, units, starting, target values)
 
->[!Note] 
->While creating the Azure DevOps connection, ensure that the Third-party application access via OAuth setting is enabled. 
+    - For percentage-based metrics, the initiative progress is calculated based on the % of completed work items.
+    - For non-percentage-based metrics (numeric, currency), the initiative progress will be a count of completed or, optionally, total work items.
+    
+1. Select **Progress.** 
+1. Select **Automatically from a data source.**
+1. Select **Azure DevOps** from the list of available integrations.
+1. Select the appropriate Azure DevOps connection.  If you need to create a new Azure DevOps connection, you'll need to sign into Azure DevOps to create a data connection. A new connection is needed for each Azure DevOps project. After signing in:
 
->[!Note] 
->Viva Goals will update the KRs and/or Initiatives hourly from their Azure DevOps sources  
+    - Provide a Connection Name: recommend including the Azure DevOps Organization and initiatives in the name for easy future reference. 
+    - Select the **Azure DevOps Organization** 
+    - Select the **Azure DevOps Project**
+    - Select **Next** 
+    
+1. Select the connection method: 
 
-:::image type="content" source="../media/goals/6/azure-devops-oauth.png" alt-text="Screenshot shows where you can enable oauth access for Azure DevOps." lightbox="../media/goals/6/azure-devops-oauth.png":::
+    - **Shared Query:** enables you to connect to an existing query stored within Azure DevOps
+    - **Work items:** enables you to connect to one or more work items of a specific work item type. This approach allows you to connect directly to the “parent” work items that contain the supporting work;  the child work items are automatically considered.
 
-## How to edit or delete your Azure DevOps connection 
+**If using the connect to ‘Shared Query’ method:** 
 
-1. Select your account name at the bottom left corner of the screen.
-    :::image type="content" source="../media/goals/ado-images/ado-screenshot-1.png" alt-text="Screenshot highlighting name selection in the left corner of the screen."::: 
-1. Select **Preferences** 
-    :::image type="content" source="../media/goals/ado-images/ado-screenshot-2.png" alt-text="Screenshot highlighting selecting the preferences option from the pop out menu.":::
-1. Select **My Integrations** followed by **Manage**
-    :::image type="content" source="../media/goals/ado-images/ado-screenshot-3.png" alt-text="Screenshot highlighting the my integrations tab and the manage button.":::
-1. Select **edit or delete** to modify your connection.
-    :::image type="content" source="../media/goals/ado-images/ado-screenshot-4.png" alt-text="Screenshot highlighting of how to modify an ADO connection.":::
+1. Select the **shared query** method. 
+1. Search for and select the shared query that contains the Azure DevOps work items. 
+1. Select the work item type to track initiative progress. You can choose from any work item type in the query or all work items in the query.  
+1. Select **Next.** 
+1. Select **Save.** 
+
+You should now see the Azure DevOps icon next to your initiative. Viva Goals will now automatically update the progress once per hour. 
+
+**If using the Connect to Work Items method:**
+
+1. Select **work items** method. 
+1. Select the ‘work item type’ to connect to – we recommend choosing the “parent” work item type in your Azure DevOps hierarchy that contains the work being done. The integration will automatically include the child work items. For example, connect to a feature that is the parent to the tasks versus connecting to each individual task. 
+1. Search for and select the specific work item(s) of the chosen type.
+1. Select the work item type that tracks the Viva Goals initiative progress. You can choose to measure progress by a specific work item type (i.e., the type you directly connect to or any of its children types) or all work items (i.e., connected and children).  
+1. Select **Next**. 
+1. Select **Save**. 
+
+You should now see the Azure DevOps icon next to your initiative. Viva Goals will now automatically update this initiative once per hour.
+
+## How to use Azure DevOps Integration with a Key Result
+
+Use this method when you want to update the Viva Goals Key Result progress with a single numeric value (percentage of completed work items or a count of completed/total work items). This approach won't surface the Azure DevOps work items within Viva Goals; nor does this method have the capability to embed Viva Goals within the Azure DevOps work items.
+
+1. Select **Add Key Result** in Viva Goals or edit an existing Key Result 
+1. Select **Add Metric** and fill in on the necessary details (i.e., name, type, units, starting, target values)
+
+    - For percentage-based metrics, the initiative progress is calculated based on the % of completed work items.
+    - For non-percentage-based metrics (numeric, currency), the initiative progress will be a count of completed or, optionally, total work items.
+    
+1. Select **Progress.** 
+1. Select **Automatically from a data source.**
+1. Select **Azure DevOps** from the list of available integrations.
+1. Select the appropriate Azure DevOps connection. If you need to create a new Azure DevOps connection, you'll need to sign into Azure DevOps to create a data connection. A new connection is needed for each Azure DevOps project. After signing in:
+
+    - Provide a Connection Name: recommend including the Azure DevOps Organization and initiative in the name for easy future reference.
+    - Select the **Azure DevOps Organization.**  
+    - Select the **Azure DevOps Project.**
+    - Select **Next.**
+    
+1. Select the connection method: 
+
+    - **Shared Query:** enables you to connect to an existing query stored within Azure DevOps
+    - **Work items:** enables you to connect to one or more work items of a specific work item type. This approach allows you to connect directly to the “parent” work items that contain the supporting work; the child work items are automatically considered.
+
+**If using the connect to ‘Shared Query’ method:** 
+
+1. Select the **shared query** method. 
+1. Search for and select the shared query that contains the Azure DevOps work items. 
+1. Select the work item type to track Key Result progress. You can choose from any work item type in the query or all work items in the shared query. 
+1. Select **Next.** 
+1. Select **Save.** 
+
+You should now see the Azure DevOps icon next to your key result. Viva Goals will now automatically update the progress once per hour.
+
+**If using the Connect to Work Items method:**
+
+1. Select **work items** method. 
+1. Select the ‘work item type’ to connect to – we recommend choosing the “parent” work item type in your Azure DevOps hierarchy that contains the work being done. The integration will automatically include the child work items. For example, connect to a feature that is the parent to the tasks versus connecting to each individual task.  
+1. Search for and select the specific work item(s) of the chosen type.
+1. Select the work item type that tracks the Viva Goals initiative progress. You can choose to measure progress by a specific work item type (i.e., the type you directly connect to or any of its children types) or all work items (i.e., connected and children).    
+1. Select **Next**. 
+1. Select **Save**. 
+
+You should now see the Azure DevOps icon next to your Key Result. Viva Goals will now automatically update this initiative once per hour based on the completion percentage of the ADO work item types selected.
+
+## Troubleshooting connection issues
+
+To integrate with Azure DevOps, the Viva Goals Service needs to be able to access the work items in the Azure DevOps Organization and initiative that you configure when creating the connection in Viva Goals. Depending on how your organization manages their Azure Active Directory conditional access policies and Azure DevOps permissions, Viva Goals could be unable to access information. 
+
+### Forbidden Errors 
+
+If you encounter forbidden error messages when creating an Azure DevOps connection, it's likely that IP address constraints or other Conditional Access Policies are to blame. In this case you need to verify if the Enable Azure AD CAP validation policy is enabled on the Azure DevOps Organization, for more details please reference [Azure DevOps documentation.](/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops&preserve-view=true) 
+
+### Solutions
+
+You have two options, you can either turn off the Enable Azure AD CAP validation policy on the Azure DevOps organization. Which would require and Azure DevOps Administrator, or you need to add the Viva Goals Service Outbound IP addresses to the Conditional Access Policies for your tenants Azure Active Directory. 
+
+## FAQs (Frequently Asked Questions)
+
+1. **When connecting my Viva Goals initiative tasks with Azure DevOps, why don’t I see all of the work items in my shared query and/or all of the child work items when using the “connect to work item” method?**
+    1. Whether connecting your Viva Goals initiative to Azure DevOps, Viva Goals doesn't expose all of the work items.   What Viva Goals shows depends on how you choose to calculate the overall Viva Goals initiative progress during the setup process. If you choose to calculate initiative progress by any work item, Viva Goals will indeed expose all of the shared query work items or all of the child items, if you connected directly to work items. <br> <br> However, we believe choosing “any” work item type is the exception, as this approach would expose an excessive amount of work item detail not necessary within Viva Goals UX.  We assume most users choose to calculate progress by a specific work item type within the shared query or a child of the connected work items.   Viva Goals will use that decision to limit what we expose in the Viva Goals UX.  <br> <br> For example, assume you Azure DevOps work is tracking Features, User Stories and Tasks. Further assume, you choose to track Viva Goals initiative progress based on User Story completion.  Viva Goals will only show the Features and User Stories within the Viva Goals initiative views. Users can quickly “double-click” into Azure DevOps for more details as needed.
