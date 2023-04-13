@@ -109,11 +109,11 @@ For this kind of refresh | Include these fields in data.csv| With these values|F
 |**Incremental** (for adding new fields or editing existing fields, but *not* adding new employees)| **PersonId** |<ul><li>Current <li> All since the last upload (refer to note below) |All
 || **EffectiveDate** |<ul><li>Current <li> All since the last upload | All
 || Any reserved optional fields (for example, **HireDate**) you want to add	| <ul><li>Current <li> All since the last upload | All
-|**Incremental** (for adding *new* employees) | **PersonId** | <ul><li>Current <li> All historical  | New employees only
-|| **ManagerId** | <ul><li>Current <li> All historical  | New employees only
-||**Organization** | <ul><li>Current <li> All historical  | New employees only
-|| **EffectiveDate** | <ul><li>Current <li> All historical  | New employees only
-|| All reserved optional fields (for example, **HireDate**) that you’ve already imported to Viva Insights | <ul><li>Current <li> All historical  | New employees only
+|**Incremental** (for adding *new* employees) | **PersonId** | <ul><li>Current <li> All since the last upload (refer to note below)  | New employees only
+|| **ManagerId** | <ul><li>Current <li> All since the last upload  | New employees only
+||**Organization** | <ul><li>Current <li> All since the last upload  | New employees only
+|| **EffectiveDate** | <ul><li>Current <li> All since the last upload  | New employees only
+|| All reserved optional fields (for example, **HireDate**) that you’ve already imported to Viva Insights | <ul><li>Current <li> All since the last upload  | New employees only
 
 >[!Note]
 >
