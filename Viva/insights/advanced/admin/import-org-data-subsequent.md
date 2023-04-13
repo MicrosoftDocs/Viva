@@ -41,7 +41,7 @@ The custom export app you created in [Import organizational data (first import)]
 When DescriptiveDataUploadApp runs, Viva Insights will start to process your data either as a full or incremental refresh, depending on what you specified here in metadata.json.
 
 >[!Important]
->Make sure you delete any fields from metadata.json that you're not including in your data.csv file.
+>Make sure you delete any fields from metadata.json that you're not including in your data.csv file. If you have more fields in your metadata.json file than in your data.csv file—or vice versa—processing for your import will fail.
 >
 >Refer to [Import organizational data (first import)](import-org-data-first.md#metadatajson) to learn more about metadata.json and how to use it to map fields.
 
@@ -49,9 +49,10 @@ When DescriptiveDataUploadApp runs, Viva Insights will start to process your dat
 
 #### Full
 
-When you perform a full refresh, you’re replacing all your organization’s data in Viva Insights. During a full refresh, you send every value for every field to Viva Insights, including all previous values—that is, you’re replacing all the data you’ve already imported to Viva Insights, except any fields you want to delete. We talk about deleting data in the next section.
- 
-When you perform a full refresh, make sure to provide data for all licensed and unlicensed employees (meaning those who have a Viva Insights subscription and those who don’t). 
+When you perform a full refresh, you’re replacing all your organization’s data in Viva Insights—that is, you overwrite what you’ve already imported. When you perform a full refresh, make sure to provide data for all licensed and unlicensed employees (meaning those who have a Viva Insights subscription and those who don’t). We describe what fields to provide [later](#fields-to-include-in-datacsv-for-full-and-incremental-refreshes) in this article.
+
+You can use a full refresh to delete fields, because fields you leave out won’t show up in your data. We talk about deleting data in the next section.
+
 
 ##### Deleting fields with full refreshes
 
@@ -70,11 +71,18 @@ Here are a couple of examples of when you might perform an incremental refresh:
 
 ##### Adding new hires
 
-Say you want to add five new hires to your organizational data. During the import, you’d only include those five rows that contain new data, plus two required attributes: PersonId and EffectiveDate. After the import finishes, the only change you’d notice is five new rows and their values.
+Say you want to add five new hires to your organizational data. During the import, you’d include:
+
+* Five rows that contain new employee data.
+* Required attributes: **PersonId**, **ManagerId**, **Organization**, and **EffectiveDate**.
+* All reserved optional fields (for example, **HireDate**) that you’ve already imported to Viva Insights.
+
+After the import finishes, the only change you’d notice is five new rows and their values.
+
 
 ##### Adding a new attribute
 
-Maybe you want to add an optional reserved attribute that wasn’t in your data before—let’s say **Location**—for all existing employees. When you go to import your data, you’d only include the **Location**, **PersonId**, and **EffectiveDate**, with current and historical values for each employee, in your .csv file. After the import finishes, you’d find the same data that was there before, with the exception of a new column for each employee, **HireDate**.
+Maybe you want to add an optional reserved attribute that wasn’t in your data before—let’s say **Location**—for all existing employees. When you go to import your data, you’d only include the **Location**, **PersonId**, and **EffectiveDate**, with current and historical values for each employee, in your .csv file. After the import finishes, you’d find the same data that was there before, with the exception of a new column for each employee, **Location**.
 
 ## Fields to include in data.csv for full and incremental refreshes
 
@@ -86,26 +94,26 @@ For the refresh types listed below, include the following fields in your data.cs
 
 For a | Include these fields in data.csv| With these values|For these employees
 |------------|-----------------|---------|---|
-|**Full refresh** |PersonId	|<ul> <li>Current <li> All historical |All
-||ManagerId |<ul> <li>Current <li> All historical |All
-|| Organization| <ul> <li>Current <li> All historical |All
-|| EffectiveDate|<ul> <li>Current <li> All historical |All
+|**Full refresh** |**PersonId**	|<ul> <li>Current <li> All historical (refer to the note below)  |All
+||**ManagerId** |<ul> <li>Current <li> All historical |All
+|| **Organization**| <ul> <li>Current <li> All historical |All
+|| **EffectiveDate**|<ul> <li>Current <li> All historical |All
 || All reserved optional fields (for example, **HireDate**) that you’ve already imported to Viva Insights | <ul> <li>Current <li> All historical |All
-|**Full** (for deleting reserved optional fields) | PersonId | <ul> <li>Current <li> All historical |All
-|| ManagerId | <ul> <li>Current <li> All historical |All
-|| Organization | <ul> <li>Current <li> All historical |All
-|| EffectiveDate | <ul> <li>Current <li> All historical |All
-|| All reserved optional fields (for example, HireDate) you’ve already imported to Viva Insights, except the reserved optional fields you want to delete| <ul> <li>Current (except for to-be-deleted fields)<li> All historical (except for to-be-deleted fields)|All
-|**Incremental** (for adding new fields or editing existing fields, but *not* adding new employees)| PersonId |<ul><li>Current <li> All since the last upload (refer to note below) |All
-|| EffectiveDate |<ul><li>Current <li> All since the last upload (refer to note below) | All
-|| Any reserved optional fields (for example, HireDate) you want to add	| <ul><li>Current <li> All since the last upload (refer to note below) | All
-|**Incremental** (for adding *new* employees) | PersonId | <ul><li>Current <li> All historical  | New employees only
-|| ManagerId | <ul><li>Current <li> All historical  | New employees only
-||Organization | <ul><li>Current <li> All historical  | New employees only
-|| EffectiveDate | <ul><li>Current <li> All historical  | New employees only
-|| All reserved optional fields (for example, HireDate) that you’ve already imported to Viva Insights | <ul><li>Current <li> All historical  | New employees only
+|**Full** (for deleting reserved optional fields) | **PersonId** | <ul> <li>Current <li> All historical |All
+|| **ManagerId** | <ul> <li>Current <li> All historical |All
+|| **Organization** | <ul> <li>Current <li> All historical |All
+|| **EffectiveDate** | <ul> <li>Current <li> All historical |All
+|| All reserved optional fields (for example, **HireDate**) you’ve already imported to Viva Insights, except the reserved optional fields you want to delete| <ul> <li>Current (except for to-be-deleted fields)<li> All historical (except for to-be-deleted fields)|All
+|**Incremental** (for adding new fields or editing existing fields, but *not* adding new employees)| **PersonId** |<ul><li>Current <li> All since the last upload (refer to note below) |All
+|| **EffectiveDate** |<ul><li>Current <li> All since the last upload | All
+|| Any reserved optional fields (for example, **HireDate**) you want to add	| <ul><li>Current <li> All since the last upload | All
+|**Incremental** (for adding *new* employees) | **PersonId** | <ul><li>Current <li> All historical  | New employees only
+|| **ManagerId** | <ul><li>Current <li> All historical  | New employees only
+||**Organization** | <ul><li>Current <li> All historical  | New employees only
+|| **EffectiveDate** | <ul><li>Current <li> All historical  | New employees only
+|| All reserved optional fields (for example, **HireDate**) that you’ve already imported to Viva Insights | <ul><li>Current <li> All historical  | New employees only
 
 >[!Note]
 >
->* "All historical": Values for every previous time period. For example, if you include monthly data, then you'd include values for every month leading up to this one.
+>* "All historical": Values for previous time periods. For example, if you include monthly data, then you'd include values for every month leading up to this one. When you’re first starting to use Viva Insights, 13 months’ worth of data is recommended. After that, it’s recommended to update data regularly so it builds into 27 months’ worth of data.
 >* "All values since the last upload": Values for the period between uploads. For example, if the last upload was in March and now it’s July, include values for April, May, and June.
