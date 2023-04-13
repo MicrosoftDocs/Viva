@@ -57,7 +57,7 @@ There are many reports that you can choose to be part of this dashboard. The fol
 | **Keywords**  | A visual of top keywords from comments|
 | **All Comments** | Read representative, prescriptive, or all comments |
 
-To learn about other reports available , see [Report types](https://go.microsoft.com/fwlink/?linkid=2231010).
+To learn about other reports available, see [Report types](https://go.microsoft.com/fwlink/?linkid=2231010).
 
 ## Edit a report
 
