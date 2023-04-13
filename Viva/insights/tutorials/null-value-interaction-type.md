@@ -25,4 +25,4 @@ In the **Teams channels** metric, you can filter by a property called "Interact
 * Channel reactions where Interaction type = "Post sent," "Reply sent," or "Reply sent"
 * Channel message hours, After hours channel message hours, or Working hours channel message hours where Interaction type = "Reaction"
 
-For more information about the **Teams channels** metric, refer to [Advanced insights metric filters](../use/metric-filters#filters-for-channel-messages).
+For more information about the **Teams channels** metric, refer to [Advanced insights metric filters](../use/metric-filters#teams-channel-metric-filters).
