@@ -20,7 +20,7 @@ audience: Admin
 
 In the **Teams channels** metric, you can filter by a property called "Interaction type." Workplace Analytics doesn't restrict which values for "Interaction type" you can pick, but certain values will only result in null values for all employees in the query:
 
-* Channel messages sent where Interaction type = "Channel visit"
+* Channel messages sent where Interaction type = "Reaction" or "Channel visit"
 * Channel visits where Interaction type = "Post sent" or "Reply sent"
 * Channel message hours, After hours channel message hours, or Working hours channel message hours where Interaction type = "Reaction"
 
