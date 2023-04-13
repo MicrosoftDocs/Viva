@@ -184,14 +184,28 @@ To add a description column to the document library page, follow these steps:
 
 1. Follow the initial steps to create a column.
 2. Choose **Multiple lines of text**.
-3. Name the column ContentDescription.
+3. Name the column `ContentDescription`.
 4. Add custom descriptions for each item. If no description is supplied, Viva Learning will provide a default message that highlights the content as being from your own SharePoint library.
+
+Then, add the content title:
+
+1. Follow the initial steps to create a column
+1. Choose **Multiple lines of text**.
+3. Name the column `ContentTitle`.
+4. Add custom title for each item. If no title is supplied, Viva Learning will pick the file name as the title
+
+Then, add the content format: 
+
+1. Follow the initial steps to create a column.
+2. Choose **Multiple lines of text**.
+3. Name the column `ContentFormat`.
+4. Add format for each item. If no format is supplied, Viva Learning will pick the file type as format like Excel, Word etc.
 
 Next, provide a thumbnail image.
 
 1. Follow the initial steps to create a column.
 2. Choose **Hyperlink**.
-3. Name the column ThumbnailWebUrl.
+3. Name the column `ThumbnailWebUrl`.
 4. Add the URLs for each item.
 >[!NOTE]
 > Only public URLs work for this process. 
@@ -200,14 +214,14 @@ Next, add the duration of the content.
 
 1. Follow the initial steps to create a column.
 2. Choose **Number**.
-3. Name the column Duration.
+3. Name the column `Duration`.
 4. Provide the duration of the content in seconds.
 
 Next, add tags.
 
 1. Follow the initial steps to create a column.
 2. Choose **Managed metadata**.
-3. Name the column SkillTags.
+3. Name the column `SkillTags`.
 4. Select **More options**.
 5. Toggle to allow multiple values. <br>
     [![Screenshot of the toggle to allow multiple values](../media/learning/skilltags.png)](../media/learning/skilltags-big.png#lightbox)
@@ -219,7 +233,7 @@ Finally, add the author.
 
 1. Follow the initial steps to create a column.
 2. Choose **Multiple lines of text**.
-3. Name the column ContentAuthor.
+3. Name the column `ContentAuthor.`
 4. Add the author or authors of the content.
 
 ### Add a display name
@@ -234,14 +248,14 @@ Finally, add the author.
 1. In the Viva Learning app, select the **Admin** tab. 
 1. Navigate to **Manage providers**.
 1. Look for the SharePoint provider and select the ellipses (**...**).
-1. Select **Configure Provider**.
+1. Select **Edit**.
 
-![Image of the Configure Provider option that can be accessed through manage providers](../media/learning/sharepoint-display-name1.png)
+![Screenshot of the edit option that can be accessed through manage providers.](../media/learning/sharepoint-display-name1.png)
 
 The display name is the organization or tenant name by default.
 
 5. Update display name.
-6. Click **Save**.
+6. Select **Save**.
 
 ![Image of a configured SharePoint display name with the option to save](../media/learning/sharepoint-display-name2.png)
 
@@ -259,7 +273,6 @@ Knowledge admins can access their organization's Learning App Content Repository
     ![Settings option page in SharePoint showing the Permissions and Check access options.](../media/learning/learning-sharepoint-library-2.png)
 
 3. Select **Check access** to connect to your organization's centralized library.
-
 
 ### Delete content
 
