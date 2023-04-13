@@ -260,8 +260,6 @@ After you receive the “Success” status, you can:
 
 If processing fails, you’ll find a “Processing failed” status in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. If you’ve corrected all errors and are still getting a “Processing failed” status, file a support ticket with us.
 
-![Screenshot that shows Processing failed.](../images/admin-status-process-failed.png)
-
 ### Validation fails
 
 If data validation fails, you'll see a "Validation failed" status in the **Import history** table. For validation to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the data source admin so they know what to correct before sending the data again. 
