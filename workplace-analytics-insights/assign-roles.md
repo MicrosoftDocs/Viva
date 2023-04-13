@@ -1,12 +1,13 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/10/2020
 title: Assign user roles for Microsoft Viva Insights
 description: Learn how to assign roles to people who want to view Microsoft Viva Insights (synonymous with Workplace Analytics insights in Microsoft 365)
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 ---
@@ -43,3 +44,4 @@ After assigning licenses, the data for Insights might take up to a week to proce
 
 * [Set up Viva Insights](setup.md)
 * [Assign admin roles to Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell)
+

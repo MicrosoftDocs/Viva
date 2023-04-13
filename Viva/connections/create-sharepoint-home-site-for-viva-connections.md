@@ -1,4 +1,5 @@
 ---
+ms.date: 03/16/2022
 title: "Create a SharePoint home site for Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
@@ -27,8 +28,12 @@ Use this guided walkthrough if you're creating a home site so your organization 
 
 Don’t have time to create a home site from scratch? Consider using [the Landing site template from the SharePoint look book](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) and then add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and the [Feed web part](use-feed-web-part-for-viva-connections.md).
 
+[Learn more about how Viva Connections and home sites work together to create employee experiences.](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together) 
+
 > [!NOTE]
-> Only SharePoint admins can set sites as a home site.  
+> Only SharePoint admins can set sites as a home site. 
+> A home site is not required for the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071).
+> [Learn more about the new experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6).
 
 ### How to use this guide
 
@@ -121,3 +126,4 @@ Once you’ve set a communication site as a home site, you'll be able to [enable
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
 
 [Plan, build, and launch Microsoft Viva Connections for your organization](plan-viva-connections.md)
+

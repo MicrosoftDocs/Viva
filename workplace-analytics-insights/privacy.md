@@ -1,12 +1,13 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/10/2020
 title: Data privacy with Insights
 description: About how personal data is kept private in Insights
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 ---
@@ -29,3 +30,4 @@ When data is processed for Insights, Microsoft protects privacy and fully compli
 This basic overview about data privacy is not intended as a substitute for addressing your organization’s unique needs by engaging with legal, privacy, human-resources, and other subject matter experts within your organization.
 
 For more details about what data is used in insights, see [Data access and analysis](data-analysis.md).
+

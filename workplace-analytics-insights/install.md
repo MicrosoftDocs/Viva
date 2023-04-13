@@ -1,12 +1,13 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/07/2021
 title: Install and pin the app
 description: Installation and pin steps for Microsoft Viva Insights in Microsoft Teams
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 
@@ -67,3 +68,4 @@ After you pin a Teams app, it shows on the Teams app bar (the left navigation ba
    ![Reorder for iOS or Android.](./images/ios-android.png)
 
 3. Select **Done** to save your changes.
+

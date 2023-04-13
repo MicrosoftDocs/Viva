@@ -1,4 +1,5 @@
 ---
+ms.date: 01/12/2022
 title: "Frequently asked questions about the Feed for Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
@@ -53,6 +54,9 @@ In addition to All Company Yammer posts, you will also see the following activit
 - Yammer Followed Community Featured Posts
 - Yammer Followed Community Announcements
 - Yammer Followed Community Posts
+- Yammer Followed Community Q&A posts
+- Yammer Followed Community Praise posts
+- Yammer Storyline posts
     
 3. **Videos in SharePoint hosted by Stream**
 
@@ -144,8 +148,9 @@ In the [Feed for Viva Connections web part](/viva/connections/use-feed-web-part-
 
 [Overview of Viva Connections](viva-connections-overview.md)
 
-[Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
+[Set up and launch Viva Connections](viva-connections-setup-guide.md)
 
 [Use the Viva Connections Feed web part](https://support.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330)
 
 [Create an organizational news site in SharePoint](/SharePoint/organization-news-site)
+

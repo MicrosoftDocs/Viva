@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Upload organizational data (first upload)
 description: Learn how to first upload your data to the Viva Insights advanced insights app. 
 author: lilyolason
@@ -14,12 +15,16 @@ audience: Admin
 
 # Upload organizational data (first upload)
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of two ways: either through Azure Active Directory—which is the default source—or through a .csv file that you as an admin upload.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of two ways: through Azure Active Directory, which is the default source, or through a .csv file that you as an admin upload.
 
-This article talks about the second option, uploading data through a .csv file. After you’ve prepared data as described in [Prepare organizational data](./prepare-org-data.md), you’ll need to complete the following steps.
+This article talks about the second option: uploading a .csv file.
 
 >[!Important]
 >Only use the following steps if this is the first time you’re uploading organizational data. If this isn’t your first upload, see [Upload organizational data (subsequent uploads)](upload-org-data-subsequent.md) to update previously uploaded data.
+>
+>For customers coming over from our legacy app:
+>
+> If you're migrating from the legacy advanced insights app, and are uploading organizational data to Viva Insights for the first time ever, we recommend *only* using the new app for data uploads. Using the new app prevents data inconsistency.
 
 ## Workflow
 
@@ -37,7 +42,8 @@ After the data successfully validates and processes, the overall data-upload tas
 To upload your .csv file, follow these steps:
 
 1. In the **Organizational data** page, select **.csv upload**.
-    ![Organizational data page hub.](../images/admin-data-hub.png)
+     :::image type="content" source="../images/admin-data-hub.png" alt-text="Screenshot that shows the Organizational data page hub." lightbox="../images/admin-data-hub.png":::
+
 1. Enter an **Upload name**.
 1. Under **Upload file**, select the .csv file you want to upload. 
     
@@ -46,7 +52,8 @@ To upload your .csv file, follow these steps:
     * UTF-8 encoded
     * Not open in a different program when you begin the upload process
     * Not larger than 1 GB
-![Screenshot that shows Prepare and upload data option.](../images/admin-prepare-upload.png)
+
+    :::image type="content" source="../images/admin-prepare-upload.png" alt-text="Screenshot that shows Prepare and upload data option.":::
 
 >[!Note]
 > To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv template** link.
@@ -70,7 +77,7 @@ Optional fields are commonly encountered system fields that the app suggests for
 
 To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Optional” label.
 
-![Viva attributes](../images/admin-vi-attributes.png)
+:::image type="content" source="../images/admin-attributes1.png" alt-text="Screenshot that shows Viva attributes and the mapped and unmapped fields.":::
 
 ### Custom
 
@@ -80,26 +87,23 @@ Custom fields are optional attributes you can create. The following section, ste
 
 Follow the steps below to map your .csv data to Viva Insights attributes. 
 
->[!Important]
->All .csv header fields, which appear under **Source column name**, need to be mapped before you can move on to the next part of the upload process.
+> [!Important]
+> All .csv header fields, which appear under **Source column name**, need to be mapped before you can move on to the next part of the upload process.
 
 1. For each required Viva Insights field:
-    1. Find the corresponding column header under **Source column name**.
-    >[!Important]
-    >To prevent a validation error later, make sure this column is the right data type.
-
+    1. Find the corresponding column header under **Source column name**. To prevent a validation error later, make sure this column is the right data type.
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a. 
-     ![Screenshot that shows mapping Viva attributes.](../images/admin-map.png)
+     
+    :::image type="content" source="../images/admin-map.png" alt-text="Screenshot that shows mapping Viva attributes." lightbox="../images/admin-map.png":::
 
     >[!Tip]
     > Hover over an attribute name to read its description.
-    > ![Screenshot that shows hovering over an attribute.](../images/admin-hover-attribute.png)
+    >  :::image type="content" source="../images/admin-hover-attribute.png" alt-text="Screenshot that shows hovering over an attribute.":::
 
 2. Repeat steps 1a and 1b for custom and optional fields.
-    * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it.
-
-    >[!Note]
-    >For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
+    * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it. For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
+        >[!Important]
+        >Don't upload **TimeZone** as a column. You'll get an error.
 
 1. After you’ve completed mapping your attributes, select the **Next** button in the bottom left of the screen.
 
@@ -109,7 +113,7 @@ After you map fields, the app validates and processes your data as described in 
 
 After you’ve mapped attributes, the app starts validating your data.  
 
-![Screenshot that shows validation in progress.](../images/admin-validate.png)
+:::image type="content" source="../images/admin-validate.png" alt-text="Screenshot that shows validation in progress.":::
 
 In most cases, file validation should complete quickly. If your organizational data file is large, validation could take up to one or two minutes.
 
@@ -131,23 +135,23 @@ After processing completes, it's either succeeded or failed. Depending on the ou
 
 When processing succeeds, you’ll see a “Success” status in the **Upload or delete history** table. At this point, the upload process is complete.
 
-![Screenshot that shows successful processing.](../images/admin-status-success.png)
+:::image type="content" source="../images/admin-status-success.png" alt-text="Screenshot that shows successful processing.":::
 
 After you receive the “Success” status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
-![Screenshot that shows validation results.](../images/admin-upload-results.png)
+:::image type="content" source="../images/admin-upload-results.png" alt-text="Screenshot that shows validation results." lightbox="../images/admin-upload-results.png":::
 * Select the mapping icon to see the mapping settings for the workflow.
-![Screenshot that shows mapping settings.](../images/admin-map-results.png)
+:::image type="content" source="../images/admin-map-results.png" alt-text="Screenshot that shows mapping settings." lightbox="../images/admin-map-results.png":::
 
->[!Note]
->Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
+> [!Note]
+> Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
 
 #### Processing fails
 
 If processing fails, you’ll see a failed status in the **Upload or delete in progress** table. Selecting the link in the status brings you to an explanation of the failure.
 
-![Screenshot that shows Processing failed.](../images/admin-status-process-failed.png)
+:::image type="content" source="../images/admin-status-process-failed.png" alt-text="Screenshot that shows Processing failed.":::
 
 Select **Edit or start new upload**. This button lets you begin the upload process again.
 
@@ -199,3 +203,4 @@ The following field rules apply to characters in field values:
 ## Related topic
 
 [Prepare organizational data](prepare-org-data.md)
+

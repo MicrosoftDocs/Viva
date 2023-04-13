@@ -40,5 +40,10 @@ You can contact [Skillsoft Support](https://support.skillsoft.com/percipio/) for
 2. Navigate to **Settings** > **Org settings**. Search for Viva Learning and enable Skillsoft from the options.
 
 3. Fill in the configuration details you got from your Skillsoft account team.
+4.  Provide your region-specific information in **Data Center End Point URL**
+    1. The US data center end point URL is: `api.percipio.com`
+    1. The European data center end point URL is: `dew1-api.percipio.com`
 
-4. Select **Save** to save the configuration details and complete the setup process.
+![Image of the highlighted field where you enter region-specific data center endpoint url.](../media/learning/skillsoft-data-center-end-point-url.png)
+
+5. Select **Save** to save the configuration details and complete the setup process.

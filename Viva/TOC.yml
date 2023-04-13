@@ -9,16 +9,14 @@ items:
     - name: Getting started with Microsoft Viva 
       href: getting-started-with-microsoft-viva.md
       items:
-      - name: Plan for all Viva modules  
+      - name: Plan for all Viva apps 
         href: plan-for-all-viva-modules.md 
-      - name: Learn how to combine modules   
+      - name: Learn how to combine Viva apps  
         href: learn-how-to-combine-modules.md  
-      - name: Discover more about each Viva module    
+      - name: Discover more about each Viva app    
         href: discover-more-about-each-viva-module.md   
     - name: Set up Microsoft Viva
       href: setup-microsoft-viva.md
-    - name: The new Microsoft Viva admin experience
-      href: new-microsoft-viva-admin-experience.md
     - name: Microsoft Viva admin roles and tasks
       href: microsoft-viva-admin-roles.md
     - name: Overview of Microsoft Viva security and compliance
@@ -38,6 +36,6 @@ items:
   - name: Microsoft Viva Engage
     href: /viva/engage/overview
   - name: Microsoft Viva Solutions
-    href: /viva/solutions/introduction
+    href: /viva/solutions/solutions
   - name: Microsoft Viva Sales
     href: /viva/sales/introduction

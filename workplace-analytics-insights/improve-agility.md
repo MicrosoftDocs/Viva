@@ -1,12 +1,13 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/06/2020
 title: Improve agility with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and improve organizational agility
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 ---
@@ -91,3 +92,4 @@ The level of day-to-day collaboration between managers and their employees can i
 * Promptly decline meetings as soon as possible with a brief explanation for why to reinforce decision rights and role model healthy habits.
 
 For more best practices and change strategies, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
+

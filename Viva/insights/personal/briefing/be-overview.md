@@ -1,5 +1,6 @@
 ---
 
+ms.date: 11/07/2019
 title: Briefing email overview
 description: About the Briefing email and how to use it to help with your workday
 author: madehmer
@@ -18,6 +19,10 @@ manager: helayne
 
 # Briefing email overview
 
+>[!Important]
+>We're pausing sending Briefing emails starting January 15, 2023, to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+
+
 The Briefing email helps you stay in control of your calendar and be intentional about your day. Within two hours of your workday (as set up in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance)), you'll get an email about any relevant items to help you better prepare for the day ahead, including:
 
 * Outstanding commitments, requests, and follow-ups to and from other collaborators in email that might have fallen through the cracks.
@@ -29,9 +34,9 @@ The Briefing email helps you stay in control of your calendar and be intentional
 
 ## Why am I getting this?
 
-You are receiving the Briefing email because it is currently turned on for all of your organization. If you are not receiving the Briefing email, it might be because you previously unsubscribed, or because your admin disabled it for you or your organization.
+You're getting the Briefing email because it's currently turned on for all of your organization.
 
-Contact your admin if you'd like to receive the Briefing email. This email is not controlled with the Cortana app and is unrelated to any Cortana on Windows settings. To opt out, go to [cortana.office.com](https://cortana.office.com).
+If you're *not* getting the Briefing email, it might be because you previously unsubscribed, or because your admin disabled it for you or your organization. To opt in, follow the steps in [Settings for the Briefing email](be-settings.md). If you don't see an option for **Briefing** in your Viva Insights app settings, contact your admin.
 
 ## Adaptive or HTML version
 
@@ -77,3 +82,4 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 
 * [Configure Briefing email](be-admin.md)
 * [Briefing email from Microsoft Viva FAQ](be-faqs.yml)
+* [!INCLUDE [Viva Insights community](../includes/insights-community.md)]

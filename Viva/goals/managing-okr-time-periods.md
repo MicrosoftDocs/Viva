@@ -1,9 +1,10 @@
 ---
+ms.date: 04/06/2022
 title: Managing OKR time periods
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -44,14 +45,12 @@ When you switch to a custom time period cadence, Viva Goals will no longer autom
 
     :::image type="content" source="../media/goals/2/25/b.jpg" alt-text="Screenshot showing dialog box where you set a custom time period." lightbox="../media/goals/2/25/b.jpg":::
 
-## FAQs
+## FAQs (Frequently Asked Questions)
 
-**When are the time periods for my next planning year created?** 
+1. **When are the time periods for my next planning year created?** 
+    1. The time periods for the next planning year (annual and quarterly) will automatically be created in Viva Goals on the first day of the fourth quarter (Q4) of your current planning year.
+    1. If you've already started planning for your next year's OKRs before Q4, you can add the next-year time periods from **Admin** > **Time Periods dashboard** and start adding your OKRs right away.
 
-The time periods for the next planning year (annual and quarterly) will automatically be created in Viva Goals on the first day of the fourth quarter (Q4) of your current planning year.
+1. **Why doesn't my current time period automatically switch over after the last day of the period?**
+    1. When the administrator adds custom time periods, auto switching of the current time period no longer happens. Users have to manually change the current time period every time.
 
-If you've already started planning for your next year's OKRs before Q4, you can add the next-year time periods from **Admin** > **Time Periods dashboard** and start adding your OKRs right away.
-
-**Why doesn't my current time period automatically switch over after the last day of the period?**
-
-When the administrator adds custom time periods, auto switching of the current time period no longer happens. Users have to manually change the current time period every time.

@@ -1,5 +1,6 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: De-identification of personal data in Viva Insights 
 description: De-identification of personal data in Microsoft Viva Insights
 author: madehmer
@@ -39,3 +40,4 @@ With Viva Insights, all metrics that are computed from Microsoft 365 collaborati
 | T5Y07H4VfKWcCC3 | 7 | 6 | HR | Director | HR – Corp | Central |
 
 In this example, Viva Insights computes After Hours and Email Hours for some individual, and reports on this information, associating it with the person’s attributes that you choose to include. The computed information is de-identified; that is, you cannot identify the individual from these fields. The Person Identifier is pseudonymized with a cryptographically generated identifier derived from the person’s Microsoft 365 email address. The other attributes (such as function, title, organization, and region) are effectively personal data. While it might not be possible to identify the user with any single attribute, together these attributes might enable you to identify the user whose metrics have been computed. Therefore, this group of attributes is considered personal data.
+

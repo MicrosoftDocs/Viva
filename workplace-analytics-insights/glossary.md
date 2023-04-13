@@ -1,13 +1,14 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 02/20/2018
 title: Insights glossary
 description: Describes common terms and concepts used in Microsoft 365 Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
 localization_priority: none 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 
@@ -71,3 +72,4 @@ The following are terms and concepts used in Microsoft 365 Insights (synonymous 
 |Time investor |A *measured employee* who interacts with other collaborators in meetings and with email or instant messages. Time investors allocate their time with the other participants or *collaborators* in the interaction in proportion to how many people are in the collaborator group for that interaction. People who do not have a license for Insights can appear as collaborators, but never as time investors.|
 |Time zones |Personal metrics are calculated by using the person’s time zone. Meeting metrics are calculated by using the organizer’s time zone.|
 |Working hours |Hours that represent the typical workweek for the company. The Insights default setting is Monday through Friday from 8:00 AM to 5:00 PM for calculations of working hours. This default is only used for users who have not already set up their working days and hours in Outlook.|
+

@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 11/16/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -94,10 +94,19 @@ You have now successfully generated and saved your public and private key pair.
          - Correctly formatted line should read like this: `partners1.partnerID=MVL`
          -  EncryptionKey is the PGP public encryption key.
    >[!NOTE]
-   > Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”. You’ll need to copy the key exactly as it’s been generated; don’t remove new line characters. Only copy the key block, which should be a Base64 string.
+   > Don't copy over the header “BEGIN PGP PUBLIC KEY BLOCK” or the footer “END PGP PUBLIC KEY BLOCK”.  Only copy the key block, which should be a Base64 string. Then remove the new line characters after every line.
 
   - Correctly entered line should read like this example:   
-         ```partner1.encryptionKey=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cFz0```
+         ```partner1.encryptionKey=mQGNBGNQnd0BDADTFw7G/NmYjT53GlLudCzrk7GPpsoav
+            v3bkJZfqf26Gzb8hYXiT9vj4Q9L/x51LDJPzoqI4Q6gMxjqUM2K/v0Sge+Mw/B1w7zfg
+            O7Sa5+UvFNN8xUHOfeZ+zSR+0f8aeC9j9Lt4QlDFnV8cdVHqmhAfnobOYvjFV7MrhgQ0
+            65+IYrhnWgX9pyHEtsu3SCCFj74Etzv56gs4TGu0g/+5WVDH7Fbb0X5lvpVi+EwAwHHH
+            DGK18BuPRWz1QTTTKdWAEfAlYd74P1p6Cafi5hhQYr9A+XKeh1msXC6wf+qm/drMR8Dh
+            MGqxYwzuTZJbgn3Mac1P3oeTbam+eBxPTylxVB0q8fQdDZEUd5UbRNnbS+KSkhilPS9D
+            RO3AYlCpo4YQrjVg0Smh8p8n3tpv+vSlKXyrTqxJTclnMAWNMHZlgA8AShmqpMKcTglP
+            dbl3YrP4Lhagj65KrlYLKiyBmzBttW+sZA5Fj4XVFZxNPzpJ6XuR5zbiU0JoeI7RdrI2
+            C2als8AEQEAAbQjSm9obiBNaWdoZWxsIDxqb21pZ2hAbWljcm9zb2Z0LmNvbT6JAdcEE```
+
       - Key Owner maps to the User-ID of public key 
          - partners1.keyOwner= 
          - Correctly formatted line should read like: `partners1.keyOwner=John Doe <john.doe@contoso.com`
@@ -206,6 +215,32 @@ You can synchronize permissions applied using assignment profile on courses in S
 
 4. SAP SuccessFactors & Azure Active Directory user sync should be enabled. Enable inbound user provisioning with SAP SuccessFactors to ensure that all users in Azure Active Directory have the right employee ID configured. [Prerequisite for learner record sync](/viva/learning/configure-successfactors-content-source#prerequisite-for-learner-record-sync).
 
+### Catalog Permissions Sync 
+
+Use the toggle button to enable or disable the catalog permissions sync from the learning management system to Viva Learning.  
+
+Users from your organization can view, search, and consume only the courses assigned to them through assignment profiles in SAP SuccessFactors.  
+
+By enabling catalog permissions, you allow Viva Learning to fetch user information, user assignment profiles mappings and catalog assignment profile mappings. The user information from the learning management system is only used for user mapping and is not stored.
+
+
+![Screenshot shows the catalog permissions sync options displayed on the admin tab](../media/learning/sfsf-catalog-permissions-config.png)
+
+
+Note the following considerations:
+
+- Once the catalog permissions toggle button is enabled/re-enabled,  
+
+    - The ingestion of both catalogs and the permissions are triggered. The initial package from the specified SFTP folder path as mentioned earlier will be used for ingestion. It may take up to 24 hours to complete the ingestion.  
+
+    - The Viva Learning application will generate M365 groups on behalf of the tenants for internal consumption. These groups are named as VL-GUID. These groups are system generated and shouldn’t be modified by users. 
+
+- Once the catalog permissions toggle button is disabled,  
+
+    - The permissions data from SF  is deleted in Viva Learning. All the users will now be able to search and view all ingested courses from SAP SuccessFactors in Viva Learning.  
+
+    - Re-enabling the catalog permissions would require admins to ensure that all pre-requisites are fulfilled as mentioned in the section above.
+    
 ## Programs and learning paths
 
 You can bring programs or learning paths from SAP SuccessFactors into Viva Learning. The programs are ingested along with the other content catalog items.
@@ -247,6 +282,9 @@ Viva Learning receives this EmployeeID in a zip package in an encrypted form, 
 ## Play SAP SuccessFactors courses inline in Viva Learning
 
 Viva Learning and SAP SuccessFactors integration allows seamless authentication (SSO) and in-app playback. Users can access SAP SuccessFactors content inline within Viva Learning instead of launching content in a browser.  
+
+>[!IMPORTANT]
+> The ability to play SAP SuccessFactors courses inline in Viva Learning is supported for SuccessFactors version 2205 (May 2022) and earlier. Changes introduced within the SuccessFactors 2211 (November 2022) release breaks the in-app play of content. We are currently working with SAP SuccessFactors to resolve this issue and will provide updates as soon as they are available.
 
 ![Screenshot that shows the Azure Active Directory SSO integration with SAP SuccessFactors.](../media/learning/viva-learning-sfsf-sso-content-details-page.png)
 

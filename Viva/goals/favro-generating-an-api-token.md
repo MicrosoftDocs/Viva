@@ -1,9 +1,10 @@
 ---
+ms.date: 04/17/2022
 title: "Favro - generate an application programming interface (API) token"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager:
+manager: Liz/Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -27,7 +28,7 @@ Here's how to add a personal API token from the **My profile** section in Favro.
   
 2. From the drop-down menu, select **My profile**.
   
-    :::image type="content" source="../media/goals/12/favro-profile-tab.png" alt-text="Screenshot shows where select My profile." lightbox="../media/goals/12/favro-profile-tab.png":::
+   :::image type="content" source="../media/goals/12/favro-profile-tab.png" alt-text="Screenshot shows where to select My profile." lightbox="../media/goals/12/favro-profile-tab.png":::
   
 3. On your **My profile** page, select the **API Tokens** tab.
   
@@ -35,3 +36,4 @@ Here's how to add a personal API token from the **My profile** section in Favro.
   
     :::image type="content" source="../media/goals/12/favro-create-token-button.png" alt-text="Screenshot shows where you choose Create token in Favro." lightbox="../media/goals/12/favro-create-token-button.png":::
   
+

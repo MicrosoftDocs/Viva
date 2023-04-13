@@ -1,5 +1,6 @@
 ---
 
+ms.date: 01/16/2020
 title: Best practices for influencers
 description: Viva Insights shares best practices with managers about influencers
 author: madehmer
@@ -32,7 +33,7 @@ Influencers are well-connected employees in your organization who help facilitat
 
 ## Best practices
 
-* Use [Insights](../personal/use/use-the-insights.md) and the [Network](../personal/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
+* Use [Insights](../personal/use/use-the-insights.md) and the [Suggested tasks](../personal/teams/suggested-tasks.md) page to see connections, top collaborators, and suggestions on how to improve connections.
 * Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 * Broaden measures used to identify leaders to include those that assess potential, such as influence ranking.
 * Use influencer groups or teams to help spread important information related to strategic or cultural change initiatives.

@@ -1,4 +1,5 @@
 ---
+ms.date: 3/1/2023
 title: "Launch Viva Connections for your organization"
 ms.reviewer: 
 ms.author: hokavian
@@ -54,4 +55,5 @@ Emphasize that Viva Connections is a customized and personalized experience that
 
 [Microsoft Viva adoption resources](https://adoption.microsoft.com/viva/)
 
-[Combine Viva modules for a more powerful experience](/viva/learn-how-to-combine-modules)
+[Combine Viva apps for a more powerful experience](/viva/learn-how-to-combine-modules)
+

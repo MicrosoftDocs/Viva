@@ -1,5 +1,6 @@
 ---
 
+ms.date: 07/13/2019
 title: Opt out of personal insights
 description: How to opt out of Microsoft Viva Insights
 author: lilyolason
@@ -50,6 +51,8 @@ If you choose to opt out, you lose access to the following items:
 * Emails
     * Briefing email
         * If you’re subscribed to the daily Briefing email, you’ll continue to receive it without the Viva Insights personal insights content. 
+        >[!Important]
+        >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
     * Semi-monthly Digest email
 * Outlook
     * Outlook add-in
@@ -65,15 +68,15 @@ If you choose to opt out, you lose access to the following items:
 If you opt out, you:
 
 * Don’t lose any previously saved settings. If you turn Viva Insights back on later, your current settings reactivate. 
-* Continue to have access to Briefing email and privacy settings. 
+* Continue to have access to Briefing email **(paused; refer to note above)** and privacy settings.  
 * Continue to see currently scheduled individual and shared plan events on your calendar unless you delete them.  
 * Continue to receive shared plan invites. 
 * See a new Home screen on Viva Insights Teams and web app. This Home screen provides the option to opt-in anytime. 
 * Aren’t included in any insights that relate to you as an individual. Here are a few examples:
-    * Personal insights, like those found in the Viva Insights Dashboard 
+    * Personal insights, like those found in the Viva Insights app in Teams and on the web 
     * Flexible query output that relates to you as an individual, like a Person query 
 * Continue to be included in aggregated insights and collaboration events. Here are a few examples: 
-    * Aggregated insights, like the ones on the Organization trends page 
+    * Aggregated insights, like organization insights
     * Flexible query results that draw from the collaboration events, like a Meeting query
 * May not see all changes reflected immediately. Some changes, like the Digest email and add-in changes, might take up to a week to take effect.
 
@@ -86,50 +89,13 @@ If you have more than one Microsoft 365 account, you might also have more than o
 
 Each email account that has a Viva Insights subscription receives regular emails from Microsoft Viva. To opt out of one or more of these subscriptions, first answer the following question:
 
-* Which of my accounts receive emails from Viva Insights subscriptions that I want to opt out of?
+*Which of my accounts receive emails from Viva Insights subscriptions that I want to opt out of?*
 
-You will use the answer to this question in the following procedure:
-
-#### To opt out of multiple accounts
-
-1. Open a web browser in incognito mode.
-2. In the incognito browser session, open your [dashboard](https://myanalytics.microsoft.com). You'll see a Microsoft **Sign in** dialog box. 
-3. Sign in by using the credentials of an email account whose Viva Insights subscription you want to end.
-4. Select the **Settings** (gear) icon in the top right.
-
-    ![Screenshot that shows Viva Insights settings.](../../Images/mya/use/dashboard-settings-gear.png)
-
-5. Under **Viva Insights**, select **Settings**.
-6. For Viva Insights, change the setting to **Off**.
-
-    ![Screenshot that shows the slider in off position.](../../Images/mya/use/dashboard-settings-toggle-off.png)
-  
-7. Repeat steps 1 - 6 for each account whose Viva Insights subscription you want to opt out of.
-
-## To opt out of Viva Insights in the dashboard
-
-You can opt out of Viva Insights in the dashboard, and also turn off access to the dashboard, the digest email, and the Insights Outlook add-in. To do so, follow these steps:
-
-1. Select the gear icon at the top-right of your screen.
-1. Under **Viva Insights**, select **Settings**.
-
-    ![Screenshot that shows Viva Insights dashboard settings.](../../Images/mya/use/dashboard-settings-vi.png)
-
-1. If you want to opt out of:
-    * Viva Insights: turn the toggle beneath **Microsoft Viva Insights** from **On** to **Off**.
-    
-        ![Screenshot that shows the Viva Insights Feature settings, Viva Insights.](../../Images/mya/use/dashboard-settings-toggles-vi.png)
-    >[!Important]
-    >When you turn this toggle **Off**, you'll lose access to the items described in [Access](#access).
-    * Access to the Dashboard, Digest email, or the Insights Outlook add-in: turn toggle(s) beneath the respective header(s) from **On** to **Off**.
-
-        ![Screenshot that shows the Viva Insights Feature settings, other features.](../../Images/mya/use/dashboard-settings-toggles-features.png)
+Then, for each account you want to opt out of, sign into Viva Insights. You might choose to use in an in-private browser window so you can stay signed in to your primary account. After you're signed in to the account you want to opt out of, follow the instructions in [To opt out of Viva Insights in the app](#if-i-opt-out-can-i-opt-back-in).
 
 ## If I opt out, can I opt back in?
 
-Yes, if you opt yourself out, or if an admin opts you out, you can opt back in any time to regain access to Viva Insights.
-
-To opt in through the app, repeat the steps in [To opt out of Viva Insights in the app](#to-opt-out-of-viva-insights-in-the-app), except in step 3, turn the toggle **On**. To opt in through the dashboard, follow the steps in [To opt out of Viva Insights in the app](#to-opt-out-of-viva-insights-in-the-app), except in step 3, turn the toggle(s) **On**.
+Yes, if you opt yourself out, or if an admin opts you out, you can opt back in any time to regain access to Viva Insights. Follow the steps in [To opt out of Viva Insights in the app](#to-opt-out-of-viva-insights-in-the-app), but in step 3, toggle the switch to **On** instead.
 
 ## Related topics
 
@@ -137,15 +103,13 @@ To opt in through the app, repeat the steps in [To opt out of Viva Insights in t
 
 Use the procedures in this section to configure your own access to Viva Insights.
 
-* [Opt out of the dashboard](dashboard-2.md#opt-out-of-the-dashboard)
 * [Opt out of the digests](email-digests-3.md#opt-out-of-digests)
-* [Opt out of the add-in](../use/add-in.md#to-opt-out)
+* [Opt out of the add-in](../use/add-in.md#to-opt-in-and-opt-out)
 * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
-
-<!--* [Uninstall Viva Insights from Teams](mya-notifications.md#opt-out-of-inline-suggestions) -->
 
 #### For administrators
 
 Use the procedures in this section to configure access to Viva Insights for the people in your organization.
 
 * [Configure access at the tenant level](../setup/configure.md#configure-access-at-the-tenant-level)
+

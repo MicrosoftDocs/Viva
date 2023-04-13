@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Approval workflows"
 ms.reviewer: 
 ms.author: rasanders
@@ -41,7 +42,7 @@ One they're approved, the OKRs are **locked** and can't be changed by the employ
 
 ## How to enable the approval workflow
 
-Go to **Admin Tools -> OKRs & Projects -> OKR Workflow -> Enable Approval Workflow -> Save**.
+Go to **Admin Tools -> OKRs & Initiatives -> OKR Workflow -> Enable Approval Workflow -> Save**.
 
 When this feature is enabled, an extra option becomes available to block changes to OKRs after approval.
    
@@ -82,3 +83,4 @@ Individual OKRs can only be approved by the managers of the individuals.
 This setting allows for more regulation, although it requires more effort from the objective owner and the managers. Admins should consider this factor before they enable the feature.
 
 It's best not to enable this setting while you're in the middle of an OKR period.
+

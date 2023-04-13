@@ -1,12 +1,13 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/06/2020
 title: Develop effective managers with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and develop effective managers in your organization
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 ---
@@ -113,3 +114,4 @@ Cultivating autonomy and development are essential for employee engagement. When
 * Use [My team in Teams](/viva/insights/use/myteam) to identify ways to support team behavior.
 
 For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
+

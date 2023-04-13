@@ -1,9 +1,10 @@
 ---
+ms.date: 04/11/2022
 title: "Follow team and user progress"
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: <TBD>
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -29,7 +30,7 @@ To follow organizations, teams, and users that are important to you, select the 
 
 For example, you can follow East Coast Sales to receive updates from that team. The icon will turn green to indicate you're **Following** it.
 
-:::image type="content" source="../media/goals/4/413/a.jpg" alt-text="Screenshot shows a set of OKRs with the following icon showing a green checkmark." lightbox="../media/goals/4/413/a.jpg":::
+:::image type="content" source="../media/goals/navigation-sidebar/follow-a-user-2.png" alt-text="Screenshot of where to select the follow user button in Viva Goals." lightbox="../media/goals/navigation-sidebar/follow-a-user-2.png":::
 
 By default, Viva Goals will have you follow:
 

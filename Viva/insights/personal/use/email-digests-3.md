@@ -1,4 +1,5 @@
 ---
+ms.date: 09/07/2021
 title: Viva Insights digest emails
 description: Viva Insights users receive a welcome email and biweekly digest emails with key insights and suggestions
 author: madehmer
@@ -23,9 +24,6 @@ If you're a subscriber of Microsoft Viva Insights, you will receive informative 
 * Up to four weeks after being assigned a license, you'll receive a [welcome message](#welcome-message) that introduces the service.
 * Twice a month, you'll receive a [digest email](#digest-email) that summarizes data about your work patterns and ways to improve them.
 
->[!Note]
->Starting in March 2022, your digest email frequency is changing to biweekly. You should expect to start seeing digests in your inbox twice a month by the end of May.
-
 ## Welcome message
 
 Up to four weeks after the admin assigns you a license, you'll receive a Welcome message from Microsoft Viva in your Outlook inbox.
@@ -44,7 +42,7 @@ Digest emails include insights about some of the following work patterns:
 * **Wellbeing** - See if you're getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
 * **Network** - See who's in your network and make sure you're keeping up with important contacts and relationships.
 * **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
-* **Team insights** - If you're a team lead or manager with a Microsoft Viva Insights license, you'll also see insights about your team and suggestions on how to help improve or maintain your team's wellbeing and effectiveness. For more details about team insights, see [Team insights](../../use/team-insights.md). You can add or remove team members in [Settings](dashboard-2.md#settings).
+* **Team insights** - If you're a team lead or manager with a Microsoft Viva Insights license, you'll also see insights about your team and suggestions on how to help improve or maintain your team's wellbeing and effectiveness.
 
 >[!Note]
 >Only you can see your data. See the [Privacy guide](../overview/privacy-guide-users.md) for details.
@@ -52,23 +50,10 @@ Digest emails include insights about some of the following work patterns:
 The following shows an example of what you might see in a digest email:
 
 ![Digest email.](../../Images/mya/use/digest.png)
-<!-- ![Focus digest.](../../Images/mya/use/digest-focus.png)
-
-Here's an example of an insight included in a digest.
-
-![Focus insight.](../../Images/mya/use/focus-digest-insight.png)
-
-Here's an example of a digest insight about quiet hours.
-
-![Quiet hours digest.](../../Images/mya/use/digest-quiet.png)
-
-Here's an example of a digest insight about work relationships.
-
-![Network digest.](../../Images/mya/use/digest-network.png)-->
 
 ## Opt out of digests
 
-If you do not want a digest email from Microsoft Viva, select **Unsubscribe** near the end of the email.
+If you want to stop getting digest emails from Microsoft Viva, select **Unsubscribe** near the end of the email. You can also opt out through your Viva Insights app in Teams on the web. Go to **Settings > Privacy**, toggle the switch for **Viva Digest Email** from **On** to **Off**, then select **Save changes**.
 
 >[!Note]
 >After you select **Unsubscribe**, confirm you are opting out for the correct email address. If the email address is not yours or is incorrect, this will not unsubscribe your correct email.
@@ -77,9 +62,10 @@ If you do not want a digest email from Microsoft Viva, select **Unsubscribe** ne
 
 If you have multiple Microsoft 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the Unsubscribe page.
 
->[!Note]
->Skype for Business data is usually prompt. However, in rare instances, users can experience delays of up to two to four days.
-
 ## Opt back in
 
-After you unsubscribe or an admin opts you out, you can opt back in any time in [Feature settings](home-web.md#opt-in-or-out-of-features) within the [Viva Insights Home page](https://insights.viva.office.com).
+After you opt out from digest emails, you can opt back in at any time. In your Viva Insights app in Teams or on the web, go to **Settings > Privacy**, toggle the switch for **Viva Digest Email** from **On** to **Off**, then select **Save changes**.
+
+## Related topics
+
+* [!INCLUDE [Viva Insights community](../includes/insights-community.md)]

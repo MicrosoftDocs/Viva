@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Assigning licenses overview
 description: Assign Microsoft Viva Insights licenses for population in scope for analysis
 author: madehmer
@@ -87,3 +88,4 @@ Azure AD is the single source of truth for licensing statuses. After a user lice
 * [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
+

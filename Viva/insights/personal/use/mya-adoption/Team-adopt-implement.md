@@ -1,5 +1,6 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/26/2018
 title: Team Adoption implementation
 description: Team Adoption by Kate Nowak --Implement section
 author: madehmer
@@ -158,3 +159,4 @@ When you or a change agent identify a program participant who is resisting chang
 * **Focus on listening:** Make everyone feel understood. Listen more than you speak and try to repeat back what you have heard as much as possible to reveal the root of resistance and develop a solution.
 * **Be open to change yourself:** Have an open attitude and be ready to learn something new and, if necessary, modify the program plan.
 * **Have multiple conversations:** In the first conversation, listen and diagnose the roots of the resistance. In the second conversation, your goal is to make clear that you have reflected on what you heard; to outline what will or will not be different in your approach to the change based on that conversation; and to explain why. Even if you do not change your overall plan, anyone who truly listens to opposition will have their thinking changed in some way.
+

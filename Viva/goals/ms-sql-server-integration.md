@@ -1,9 +1,10 @@
 ---
+ms.date: 04/14/2022
 title: Microsoft SQL Server integration
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -74,3 +75,4 @@ After your integration is set up, you can measure your OKR progress by connectin
 Microsoft SQL Server integrations can be disabled by an admin at any time. To disable the integration, go to **MS SQL** in the **Integrations** section. Select **Manage**. On the configurations page, select the **Change** dropdown, select **Disable**, and then confirm. 
 
 :::image type="content" source="../media/goals/12/sqlserver-disable-button.png" alt-text="Screenshot shows how you disable SQL Server in Viva Goals." lightbox="../media/goals/12/sqlserver-disable-button.png":::
+

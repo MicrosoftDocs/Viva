@@ -1,5 +1,6 @@
 ---
-
+ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 05/01/2018
 title: Language support and guidelines for Advanced insights in Viva Insights
 description: Describes the languages supported by Advanced insights within Microsoft Viva Insights
 author: madehmer
@@ -69,3 +70,4 @@ We appreciate all your feedback. To report any language-related issues, use **Se
 * [Supported languages in meeting exclusion rules](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#supported-languages)
 * [Control settings](/viva/insights/use/settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Privacy settings considerations](/viva/insights/privacy/privacy-considerations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

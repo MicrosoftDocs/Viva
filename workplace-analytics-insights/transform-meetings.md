@@ -1,12 +1,13 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/06/2020
 title: Transform meeting culture with Microsoft Viva Insights
 description: Learn how to use the insights data to analyze and transform your organization's meeting culture
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 ---
@@ -85,3 +86,4 @@ According to [If you multitask during meetings, your team will, too](https://ins
 * When distracted by a thought to send an email during a meeting, add it quickly to your to-do list instead and move on. This provides satisfaction and can help you regain focus.
 
 For more best practices and change strategies, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
+

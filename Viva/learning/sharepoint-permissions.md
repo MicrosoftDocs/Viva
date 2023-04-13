@@ -23,15 +23,26 @@ description: Learn how to control access to SharePoint content in Viva Learning 
 
 Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
 
- > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bHnt]  
+>[!NOTE]
+> The admin tab is only available for admins with a Viva Suite or Viva Learning license.
+
+  </br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bHnt]  
+
+
 
 >[!NOTE]
-> While only **Microsoft 365** and **Mail-enabled security** group types are supported, it's recommended that you use a **Microsoft 365 Group.** Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
+> Only the **Microsoft 365** group type is supported. Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
 
 1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
 
 >[!NOTE]
+>You need to be a site owner or site contributor to add permissions.
+
+>[!NOTE]
 > You'll need to add the owners as members in order for them to have access.
+
 
 2. Go to the folder where you're storing learning content in SharePoint.
 3. Select the vertical ellipses (**...**) on the item you want to control access to. If you want to control access to specific items in a folder, go to that folder.
@@ -52,6 +63,10 @@ Document library folder URLs can be collected from any SharePoint site in the or
     ![Screenshot of the pencil icon showing options for Can edit and Can view.](../media/learning/sharepoint-edit-view.png)
 
 8. Select **Grant access** to give your group access to the learning content.
+
+9. To validate that the right permission has been added, click on advanced options for permissions and check whether the permission you added has "TYPE" as its Domain Group.
+
+![Image of the SharePoint permissions page that displays "domain group" as the property in the "type" column.](../media/learning/sharepoint-permissions.png)
 
 >[!NOTE]
 > It will take approximately 24 hours for these changes to show up in the Viva Learning app.

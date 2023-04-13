@@ -1,4 +1,6 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/26/2018
 title: Viva Insights Individual Adoption - Develop new habits
 description: Viva Insights Individual Adoption by Kate Nowak - Develop new habits section
 author: madehmer
@@ -31,3 +33,4 @@ We recommend that you start by selecting one or two behaviors to keep things sim
 * [Learning modules for Viva Insights](adopt-learning-modules.md)
 * [Habit-building method](adopt-habit-building.md)
 * [Habit playbooks](adopt-habit-playbooks.md)
+

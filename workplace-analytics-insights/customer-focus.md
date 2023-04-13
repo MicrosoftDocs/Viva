@@ -1,12 +1,13 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/24/2020
 title: Increase customer focus with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and increase customer focus
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 ---
@@ -76,3 +77,4 @@ Manager one-on-one (1:1) time can improve engagement and job performance, while 
 * Require managers to schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
 
 For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](/viva/insights/tutorials/gm-coaching).
+

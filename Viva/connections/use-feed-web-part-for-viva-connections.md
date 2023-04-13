@@ -1,4 +1,5 @@
 ---
+ms.date: 02/02/2022
 title: "Use the Feed web part for Viva Connections"
 ms.reviewer: 
 ms.author: hokavian
@@ -30,7 +31,7 @@ The Feed web part is designed to collect and display content from sources across
 > - Individual content items in the Feed will display for a 30-day period.
 > - Boosted news will display for up to 4 days in the feed.
 
-![Screenshot of company feed](../media/company-feed.png)
+![Screenshot of company feed.](../media/company-feed.png)
 
 ## What is Viva Connections?
 
@@ -93,3 +94,4 @@ The feed will automatically populate with SharePoint news, Yammer community cont
 
 
  
+

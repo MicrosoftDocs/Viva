@@ -1,9 +1,10 @@
 ---
-title: "Learn more about Microsoft Viva modules"
+title: "Learn more about Microsoft Viva apps"
 ms.reviewer: loreenl
 ms.author:  hokavian
 author: Holland-ODSP
 manager: pamgreen
+ms.date: 12/16/2022
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -17,44 +18,44 @@ ms.collection:
 - highpri
 search.appverid:
 - MET150
-description: "Learn about each Viva module in detail"
+description: "Learn about each Viva app in detail"
 ---
 
-# Learn more about Microsoft Viva modules
+# Learn more about Microsoft Viva apps
 
-Microsoft Viva is designed to solve modern workplace problems for hybrid workers, information workers, and frontline workers alike. Discover how Viva modules can support popular business scenarios. Then, learn more about technical details and planning considerations. Next, get specific guidance on how to get started planning, building, and launching.  
+Microsoft Viva is designed to solve modern workplace problems for hybrid workers, information workers, and frontline workers alike. Discover how Viva apps can support popular business scenarios. Then, learn more about technical details and planning considerations. Next, get specific guidance on how to get started planning, building, and launching.  
 
->[!NOTE] 
-> New Microsoft Viva experiences have just been released or are coming soon. New Viva experiences will be incorporated into this solution for [Viva Engage](/viva/engage/overview), [Viva Goals](/viva/goals/intro-to-ms-viva-goals), and [Viva Sales](/viva/sales/introduction). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
+>[!NOTE]
+> New Microsoft Viva experiences are coming soon. New Viva experiences will be incorporated into this content set for [Viva Amplify, Viva Answers, and Viva Pulse](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/). Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
 
 ## Discover popular business scenarios that are supported by Viva
 
-Not sure which Viva module will have the most impact on your organization? Review popular needs and wants of large organizations. Then, identify which Viva module can help you reach the goals of both end users and the organization.
+Not sure which Viva app will have the most impact on your organization? Review popular needs and wants of large organizations. Then, identify which Viva app can help you reach the goals of both end users and the organization.
 
-|If your scenario sounds like this:  |Consider this module:  |
+|If your scenario sounds like this:  |Consider this app:  |
 |---------|:---------:|
-|- We get most of our work done in Microsoft Teams and want to streamline where news and popular resources can be found.<br>  - We need to support and engage our frontline workforce. <br> - We want to streamline organizational communications into one place. <br> - We want to connect employees to popular tools and third-party resources to improve operational efficiencies.  | :::image type="content" source="media/logos/connections-launch-c-64.svg" alt-text="Logo of Viva Connection "::: <br>  [Viva Connections](https://www.microsoft.com/microsoft-viva/connections)      |
-|- We want to be more aware of work patterns and how we get work done as individuals, as teams, and as an organization. <br> - We want to surface opportunities for how to improve our business outcomes and take steps to protect employee wellbeing. <br> - We need to help business leaders address critical questions about organizational resiliency and work culture.    | :::image type="content" source="media/logos/insights-launch-c-64.svg" alt-text="Logo of Viva Insight":::  <br>    [Viva Insights](https://www.microsoft.com/microsoft-viva/insights)   |
-|- We need to create a training program that allows employees to discover, share, and recommend training material. <br>- We want to make it easy for frontline workers to access training and skilling opportunities. <br> We need a training solution that can aggregate training content from multiple sources. <br> - We want to engage new employees in training programs that will help them ramp-up into their new roles.   |:::image type="content" source="media/logos/learning-launch-c-64.svg" alt-text="Logo of Viva Learning"::: <br>     [Viva Learning](https://www.microsoft.com/microsoft-viva/learning)    |
-|- We want employees to have a better understanding of projects and popular subjects across the organization. <br> - We need to surface contextual information when employees need it to create efficiencies and improve the employee experience. <br> - We want to create a central repository of terms, project names, and subject-matter experts that can be managed.   | :::image type="content" source="media/logos/topics-launch-c-64.svg" alt-text="Logo of Viva topics"::: <br>  [Viva Topics](https://www.microsoft.com/microsoft-viva/topics)|
-|- We want to increase engagement and social connections with employees working remotely, in different locations, and across work groups. <br> - We want to increase the visibility of our Yammer communities and encourage more participation. <br> - We want to boost participation in employee resource groups and social groups. <br> - We want to create space for employees to ask questions and crowdsource answers from outside their teams. |![Viva Engage logo.](media/logos/engage-launch-c-64.svg) <br> [Viva Engage](https://www.microsoft.com/microsoft-viva/engage) |
-|- We want to establish a transparent view of our organization's priorities and goals <br> - We want to energize teams by giving them a clear view into how their work aligns with greater business needs. <br> - We want to empower individuals to increase their accountability for reaching broader organizational goals. |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](https://www.microsoft.com/microsoft-viva/goals) |
-|- We want to automate data entry to give our sales teams more time to focus on their priorities. <br> - We want to increase the power of our CRM by incorporating customer interactions in Microsoft 365 to the data set. <br> - We want AI-generated insights to help our sales teams increase sales. |[Viva Sales](https://www.microsoft.com/microsoft-viva/sales) |
+|- We get most of our work done in Microsoft Teams and want to streamline where news and popular resources can be found.<br>  - We need to support and engage our frontline workforce. <br> - We want to streamline organizational communications into one place. <br> - We want to connect employees to popular tools and third-party resources to improve operational efficiencies.  | :::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](https://www.microsoft.com/microsoft-viva/connections)      |
+|- We want to be more aware of work patterns and how we get work done as individuals, as teams, and as an organization. <br> - We want to surface opportunities for how to improve our business outcomes and take steps to protect employee wellbeing. <br> - We need to help business leaders address critical questions about organizational resiliency and work culture.    | :::image type="icon" source="media/logos/insights-launch-c-64.svg":::  <br>  [Viva Insights](https://www.microsoft.com/microsoft-viva/insights)   |
+|- We need to create a training program that allows employees to discover, share, and recommend training material. <br>- We want to make it easy for frontline workers to access training and skilling opportunities. <br> We need a training solution that can aggregate training content from multiple sources. <br> - We want to engage new employees in training programs that will help them ramp-up into their new roles.   |:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>     [Viva Learning](https://www.microsoft.com/microsoft-viva/learning)    |
+|- We want employees to have a better understanding of projects and popular subjects across the organization. <br> - We need to surface contextual information when employees need it to create efficiencies and improve the employee experience. <br> - We want to create a central repository of terms, project names, and subject-matter experts that can be managed.   | :::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br>  [Viva Topics](https://www.microsoft.com/microsoft-viva/topics)|
+|- We want to increase engagement and social connections with employees working remotely, in different locations, and across work groups. <br> - We want to increase the visibility of our Viva Engage communities and encourage more participation. <br> - We want to boost participation in employee resource groups and social groups. <br> - We want to create space for employees to ask questions and crowdsource answers from outside their teams. |:::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br> [Viva Engage](https://www.microsoft.com/microsoft-viva/engage) |
+|- We want to establish a transparent view of our organization's priorities and goals <br> - We want to energize teams by giving them a clear view into how their work aligns with greater business needs. <br> - We want to empower individuals to increase their accountability for reaching broader organizational goals. |:::image type="icon" source="media/logos/goals-launch-c-64.svg"::: <br> [Viva Goals](https://www.microsoft.com/microsoft-viva/goals) |
+|- We want to automate data entry to give our sales teams more time to focus on their priorities. <br> - We want to increase the power of our CRM by incorporating customer interactions in Microsoft 365 to the data set. <br> - We want AI-generated insights to help our sales teams increase sales. |:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> [Viva Sales](https://www.microsoft.com/microsoft-viva/sales) |
 
-## Get more details about each Viva module
+## Get more details about each Viva app
 
-Each module offers special features, customization opportunities, and ways to integrate with other Microsoft 365 apps and services.
+Each app offers special features, customization opportunities, and ways to integrate with other Microsoft 365 apps and services.
 
 ## Viva Connections: Culture and communication
 
 |Feature  |Description |
 |:---------:|---------|
 |Company Branding |Customize your employee app with your organization’s name, logo, and colors for seamless integration. |
-|Feed |Simplify communications sharing into a single, personalized view so employees can explore news and join conversations, keeping people connected and building relationships with people from across the organization.  |
-|Boost |Ensure visibility of high priority content by boosting to the top of employees’ feeds based on various conditions such as until read, set number of impressions, or date.      |
-|Third party integration |Customize and extend Viva Connections with a rich set of 1st and 3rd party integrations from our partner ecosystem.      |
-|Dashboard |Provide useful company resources and actionable tasks in a central, personalized destination, designed to keep your employees in the flow of work.  |
-|Audience targeting |Provide the most relevant content to the right audiences by departments, regions, job roles, and more.    |
+|[Feed](/viva/connections/faqs-viva-connections-feed) |Simplify communications sharing into a single, personalized view so employees can explore news and join conversations, keeping people connected and building relationships with people from across the organization.  |
+|[Boost](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) |Ensure visibility of high priority content by boosting to the top of employees’ feeds based on various conditions such as until read, set number of impressions, or date.      |
+|[Third party integration](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-mobile-and-new-partner-integrations-are-now/ba-p/2932217) |Customize and extend Viva Connections with a rich set of 1st and 3rd party integrations from our partner ecosystem.      |
+|[Dashboard](/viva/connections/create-dashboard) |Provide useful company resources and actionable tasks in a central, personalized destination, designed to keep your employees in the flow of work.  |
+|[Audience targeting](/viva/connections/use-audience-targeting-in-viva-connections) |Provide the most relevant content to the right audiences by departments, regions, job roles, and more.    |
 |Built on Microsoft 365 |Quickly deploy and manage Viva Connections through the Microsoft Teams admin console, no need to push additional apps to your employees’ devices.     |
 
 ## Viva Insights: Productivity and wellbeing
@@ -127,7 +128,7 @@ Each module offers special features, customization opportunities, and ways to in
 |[Objective delegation](/viva/goals/objective-delegation) |Delegate another individual to manage OKRs on your behalf. |
 |[KPI summary](/viva/goals/kpi-summary) |View one or more key performance indicators in a single view. |
 
-## Viva Sales: Supercharge your CRM
+## Viva Sales: Supercharge your Customer Relationship Management (CRM)
 
 |Feature |Description |
 |--------|------------|
@@ -139,102 +140,139 @@ Each module offers special features, customization opportunities, and ways to in
 
 ## Review minimum requirements and planning considerations
 
-Each module has its own technical requirements before it can be customized and shared with others. Review the requirements and other considerations like change management and the impact on end-users to help you determine a team and timeline for planning, building, and launching.
+Each app has its own technical requirements before it can be customized and shared with others. Review the requirements and other considerations like change management and the impact on end-users to help you determine a team and timeline for planning, building, and launching.
 
-- Viva Connections
+### Viva Connections
 
-    - **Technical requirements**:
-        - Microsoft 365 E3 or E5 license
-        - SharePoint home site
-        - Global navigation enabled and customized
-        - Modern SharePoint sites
-    - **Impact on end-users**: 
-        - New options to get news, complete tasks, and connect with others
-        - Increased value of the Microsoft Teams desktop and mobile apps
-        - Improved processes and streamlined tasks
-    - **Admins and roles**:
-        - SharePoint admin
-        - Microsoft Teams admin
-        - Your organization’s stakeholders and business partners from groups like HR, communications specialists, and technology advocates
-        - Site owners and authors for the home site
-    - **Change management considerations**:
-        - Microsoft Teams adoption (if you aren’t already working in Teams)
-        - How to use Viva Connections on desktop and mobile apps
-        - How to engage with the Dashboard, the Feed, and Resources
-        - Where to view the latest news and announcements
-        - Specialized guidance for different audiences like frontline workers or hybrid workers
+- **Technical requirements**:
+     - Microsoft 365 E3 or E5 license
+    - SharePoint home site
+    - Global navigation enabled and customized
+    - Modern SharePoint sites
+- **Impact on end-users**: 
+    - New options to get news, complete tasks, and connect with others
+    - Increased value of the Microsoft Teams desktop and mobile apps
+    - Improved processes and streamlined tasks
+- **Admins and roles**:
+    - SharePoint admin
+    - Microsoft Teams admin
+    - Your organization’s stakeholders and business partners from groups like HR, communications specialists, and technology advocates
+    - Site owners and authors for the home site
+- **Change management considerations**:
+    - Microsoft Teams adoption (if you aren’t already working in Teams)
+    - How to use Viva Connections on desktop and mobile apps
+    - How to engage with the Dashboard, the Feed, and Resources
+    - Where to view the latest news and announcements
+    - Specialized guidance for different audiences like frontline workers or hybrid workers
 
-- Viva Insights
+### Viva Insights
 
-    - **Technical requirements**:
+- **Technical requirements**:
     - Microsoft 365 or Office 365 E1/A1/G1/E3/A3/G3/E5/A5/G5, Microsoft 365 Business Basic, Business Standard, Business Premium, or Exchange Online Plan 1 or Plan 2 license
-    - [Discover and pin the app](https://www.microsoft.com/microsoft-viva/buy-insights?rtc=1&activetab=pivot%3aoverviewtab) or [Viva Suite subscription](https://www.microsoft.com/microsoft-viva/pricing?rtc=1) is required for some features.  
-    - **Impact on end-users**:
-        - No need to leave Microsoft Teams or Outlook to get help with everyday tasks and improve your work patterns and wellbeing.
-        - See [Discover and pin the app](insights/personal/teams/viva-teams-app-install.md) in Teams and [Pin the add-in](insights/personal/Use/add-in.md) in Outlook for how to get started.
-    - **Admins and roles**: 
-        - Insights Administrator
-        - Microsoft Teams admin
-        - Microsoft 365 enterprise or global admin
-        - Exchange admin
-        - Insights Business leader
-        - HR information system admin
-        - Analyst or Analyst (Limited Access)
-        - People manager <p> See [Roles in Viva Insights](insights/Use/User-Roles.md) for details.
-    - **Change management considerations**:
-        - Your Microsoft 365 enterprise or global admin assigns the other roles required for setting up and using Viva Insights in your organization. See [Assign admin roles](insights/Setup/Assign-roles-to-wpa-admins.md) for details.
+    - [Discover and pin the app](https://www.microsoft.com/microsoft-viva/buy-insights?rtc=1&activetab=pivot%3aoverviewtab) or [Viva Suite subscription](https://www.microsoft.com/microsoft-viva/pricing?rtc=1) is required for some features
+- **Impact on end-users**:
+    - No need to leave Microsoft Teams or Outlook to get help with everyday tasks and improve your work patterns and wellbeing.
+    - See [Discover and pin the app](insights/personal/teams/viva-teams-app-install.md) in Teams and [Pin the add-in](insights/personal/Use/add-in.md) in Outlook for how to get started
+- **Admins and roles**: 
+    - Insights Administrator
+    - Microsoft Teams admin
+    - Microsoft 365 enterprise or global admin
+    - Exchange admin
+    - Insights Business leader
+    - HR information system admin
+    - Analyst or Analyst (Limited Access)
+    - People manager - [learn more about roles in Viva Insights](insights/Use/User-Roles.md) 
+- **Change management considerations**:
+    - Your Microsoft 365 enterprise or global admin assigns the other roles required for setting up and using Viva Insights in your organization. See [Assign admin roles](insights/Setup/Assign-roles-to-wpa-admins.md) for details
 
-- Viva Learning
+### Viva Learning
 
-    - **Technical requirements**:
-        - Microsoft 365 E3 or E5 License
-        - Viva Learning Premium subscription or [Viva Suite subscription](https://www.microsoft.com/microsoft-viva/pricing) is required for some features.
-        - A Microsoft Teams team (if you're creating a learning tab in Teams)
-    - **Impact on end-users**:
-        - No need to leave Microsoft Teams to access and share content from Microsoft, third-party providers, or learning management systems.
-        - Centralized place to recommend and view recommended learning content
-    - **Admins and roles**:
-        - Microsoft Teams admin
-        - Microsoft 365 global admin or SharePoint admin
-        - Knowledge admin
-    - **Change management considerations**:
-        - Microsoft Teams adoption (if you aren’t already working in Teams)
-        - Integrate Viva Learning with your SharePoint.
-        - Integrate Viva Learning with your third-party content providers or learning management systems.
+- **Technical requirements**:
+    - Microsoft 365 E3 or E5 License
+    - Viva Learning Premium subscription or [Viva Suite subscription](https://www.microsoft.com/microsoft-viva/pricing) is required for some features
+    - A Microsoft Teams team (if you're creating a learning tab in Teams)
+- **Impact on end-users**:
+    - No need to leave Microsoft Teams to access and share content from Microsoft, third-party providers, or learning management systems
+    - Centralized place to recommend and view recommended learning content
+- **Admins and roles**:
+    - Microsoft Teams admin
+    - Microsoft 365 global admin or SharePoint admin
+    - Knowledge admin
+- **Change management considerations**:
+    - Microsoft Teams adoption (if you aren’t already working in Teams)
+    - Integrate Viva Learning with your SharePoint
+    - Integrate Viva Learning with your third-party content providers or learning management systems
 
-- Viva Topics
+### Viva Topics
 
-    - **Technical requirements**:
-        - Microsoft 365 E3 or E5 license
-        - Viva Topics or Viva suite subscription
-    - **Impact on end-users**:
-        - No separate application or search needed—users find topics in the apps they already use.
-    - **Admins and roles**:
-        - Microsoft 365 global admin or SharePoint admin + Groups admin (setup)
-        - Knowledge manager
-        - Contributor
-        - Topic viewer
-    - **Change management considerations**: <br> 
-        - Migrate content to SharePoint because topic indexing includes only content on SharePoint sites.
-        - Modernize SharePoint pages because topic cards can only be surfaced on modern pages
-        - Connect information to Microsoft Graph so that external content can be brought in and made available
-        - Secure content appropriately to ensure topic resources are security-trimmed based on user permissions.
-        - Identify knowledge admins, knowledge managers, and topic contributors.
+- **Technical requirements**:
+    - Microsoft 365 E3 or E5 license
+    - Viva Topics or Viva suite subscription
+- **Impact on end-users**:
+    - No separate application or search needed—users find topics in the apps they already use
+- **Admins and roles**:
+    - Microsoft 365 global admin or SharePoint admin + Groups admin (setup)
+    - Knowledge manager
+    - Contributor
+    - Topic viewer
+- **Change management considerations**: <br> 
+    - Migrate content to SharePoint because topic indexing includes only content on SharePoint sites
+    - Modernize SharePoint pages because topic cards can only be surfaced on modern pages
+    - Connect information to Microsoft Graph so that external content can be brought in and made available
+    - Secure content appropriately to ensure topic resources are security-trimmed based on user permissions
+    - Identify knowledge admins, knowledge managers, and topic contributors
 
-|Viva Engage |Change management |
-|---------|---------|
-|**Technical requirements**: <br> - Microsoft 365 E3 or E5 license <br> - Viva Suite or Viva Engage license <br> - Yammer |**Impact on end users**: <br> Connect and engage with leaders, colleagues, and communities. Viva Engage creates opportunities for asking questions and sharing knowledge, attending virtual events, building social capital, and extending employee networks. |
-|**Admins and roles**: <br> - Yammer Verified admin <br> - Microsoft Teams admin <br> - Community leaders and stakeholders from employee resource groups |**Change management considerations**: <br> - Microsoft Teams adoption (if you aren't already using Teams) <br> - Yammer adoption if your organization is new to Yammer |
+### Viva Engage 
+- **Technical requirements:** 
+    - Microsoft 365 E3 or E5 license 
+    - Viva Suite or Viva Engage license  
+    - Yammer 
+- **Impact on end users:** 
+     - Connect and engage with leaders, colleagues, and communities
+    - Viva Engage creates opportunities for asking questions and sharing knowledge, attending virtual events, building social capital, and extending employee networks
+- **Admins and roles:** 
+    - Yammer Verified admin 
+    - Microsoft Teams admin 
+    - Community leaders and stakeholders from employee resource groups 
+- **Change management considerations:** 
+    - Microsoft Teams adoption (if you aren't already using Teams) 
+    - Yammer adoption if your organization is new to Yammer 
 
-|Viva Goals |Change management |
-|---------|---------|
-|**Technical requirements**: <br> - Microsoft 365 E3 or E5 license <br> - Viva Suite or Viva Goals license |**Impact on end users**: <br> - Users can view team and organizational OKRs in Teams. <br> - Managers can update OKRs for their team in Viva Goals. |
-|**Admins and roles**: <br> - Organization owners manage members, teams, setup, and billing. <br> - Organization admins are members who manage the setup of the organization and can manage users and teams. <br> - Team admins are members who can manage team members. <br> - Team owners are members who own their team members' OKRs. <br> - Managers are members who own their own OKRs and the OKRs of employees who report to them. <br> - Members can set up and manage their individual OKRs and view all OKRs within the organization. <br> - [Learn more about roles and permissions in Viva Goals](/viva/goals/roles-permissions-in-viva-goals). |**Change management considerations**: <br> - Adoption of the OKR format to track goals and priorities <br> - Microsoft Teams adoption if you plan to use Viva Goals in Teams. |
+### Viva Goals 
 
-|Viva Sales |Change management |
-|---------|---------|
-|**Technical requirements**: <br> - Microsoft 365 E3 or E5 license, or Microsoft 365 Business Basic, Standard, or Premium license <br> - Viva Sales license <br> - Dynamics 365 Sales or Salesforce |**Impact on end users**: <br> - Viva Sales automates data entry for your sales teams so your salespeople have more time to focus on their priorities. |
-|**Admins and roles**: <br> - Microsoft 365 admin installs the app from the Microsoft 365 admin center or the Microsoft commercial marketplace. <br> - Microsoft Teams admin creates an app setup policy and pins the app for your sales teams. |**Change management considerations**: <br> - Microsoft Outlook adoption in you're not already using Outlook <br> - Microsoft Teams adoption if you're not already using Teams. |
+- **Technical requirements:** 
+    - Microsoft 365 E3 or E5 license
+    - Viva Suite or Viva Goals license 
+- **Impact on end users:** 
+    - Users can view team and organizational OKRs in Teams 
+    - Managers can update OKRs for their team in Viva Goals 
+- **Admins and roles*:* 
+    - Organization owners manage members, teams, setup, and billing 
+    - Organization admins are members who manage the setup of the organization and can manage users and teams
+    - Team admins are members who can manage team members
+    - Team owners are members who own their team members' OKRs 
+    - Managers are members who own their own OKRs and the OKRs of employees who report to them 
+    - Members can set up and manage their individual OKRs and view all OKRs within the organization 
+    - [Learn more about roles and permissions in Viva Goals](/viva/goals/roles-permissions-in-viva-goals) 
+- **Change management considerations:**
+    - Adoption of the OKR format to track goals and priorities 
+    - Microsoft Teams adoption if you plan to use Viva Goals in Teams 
+
+### Viva Sales 
+
+- **Technical requirements:** 
+    - Microsoft 365 E3 or E5 license, or Microsoft 365 Business Basic, Standard, or Premium license 
+    - Viva Sales license 
+    - Dynamics 365 Sales or Salesforce 
+- **Impact on end users:**: 
+    - Viva Sales automates data entry for your sales teams so your salespeople have more time to focus on their priorities 
+- **Admins and roles:** 
+    - Microsoft 365 admin installs the app from the Microsoft 365 admin center or the Microsoft commercial marketplace 
+    - Microsoft Teams admin creates an app setup policy and pins the app for your sales teams 
+- **Change management considerations:**
+    - Microsoft Outlook adoption in you're not already using Outlook 
+    - Microsoft Teams adoption if you're not already using Teams 
+
 
 ## Get started planning for your Viva app
 
@@ -246,7 +284,7 @@ Get more information about each app and how to get started.
 
 |Viva app  |Description |Getting started resources |
 |:---------:|---------|---------|
-|**Viva Connections**    | Inform, engage, and empower - Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.|[Overview](connections/viva-connections-overview.md) <br> [Learn how to set it up](connections/guide-to-setting-up-viva-connections.md)|
+|**Viva Connections**    | Inform, engage, and empower - Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.|[Overview](connections/viva-connections-overview.md) <br> [Learn how to set it up](connections/viva-connections-setup-guide.md)|
 |**Viva Insights**    |Balance productivity and wellbeing – Provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance.| [Overview](insights/introduction.md) <br> [Learn how to set it up](insights/advanced/setup-maint/setup-overview.md) |
 |**Viva Learning**|Accelerate skilling and growth – Your employees can easily discover and share everything from formal training courses to internal company resources.|   [Overview](learning/index.md) <br> [Learn how to set it up](learning/set-up-viva-learning.md) |
 |**Viva Topics** |Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results. |[Overview](topics/index.md) <br> [Learn how to set it up](topics/set-up-topic-experiences.md) |
@@ -264,6 +302,6 @@ Get more information about each app and how to get started.
 
 ### Learn more
 
-[Get all Microsoft Viva modules](plan-for-all-viva-modules.md)
+[Get all Microsoft Viva apps](plan-for-all-viva-modules.md)
 
-[Combine Microsoft Viva modules for a more powerful experience](learn-how-to-combine-modules.md)
+[Combine Microsoft Viva apps for a more powerful experience](learn-how-to-combine-modules.md)

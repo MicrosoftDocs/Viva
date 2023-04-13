@@ -1,5 +1,6 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/16/2021
 title: Differential privacy in Viva Insights  
 description: Learn about how Microsoft Viva Insights uses Differential Privacy technology for data analysis
 author: madehmer
@@ -29,3 +30,4 @@ The first application of differential privacy in Viva Insights is within [Manage
 No matter how the metrics are presented or used in Viva Insights, no individual activity or metric can ever be discerned. The individual activity can never be established with certainty, and no manager or team-leader can conclude with confidence anything specific about any individual.
 
 See [Differential privacy](https://www.microsoft.com/ai/ai-lab-differential-privacy) to learn more about how Microsoft AI is helping to define and use it.
+

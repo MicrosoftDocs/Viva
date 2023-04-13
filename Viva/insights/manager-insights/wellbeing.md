@@ -1,12 +1,13 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 01/16/2020
 title: Best practices for supporting your team's wellbeing
 description: Best practices for work-life balance that people managers can share with their teams
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 ---
@@ -25,7 +26,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ## Best practices
 
-* Use [Wellbeing data](../personal/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
+* Use data about [after-hours activity](../personal/teams/quiet-time.md) and encourage them to disconnect.
 * Use [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#schedule-send-suggestions) to automatically delay email delivery to align with coworkers' configured working hours.
 * Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
 * Remind employees that the organization's success is based on a marathon, not a sprint.  
@@ -60,4 +61,3 @@ People often feel overloaded because tasks take more time than we expect. "Slack
 ## Related topics
 
 [Viva Insights best practices](best-practices.md)
-[Wellbeing](../personal/use/wellbeing.md)

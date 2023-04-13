@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Organizational data overview
 description: This article gives an overview of the Organizational data page in the Microsoft Viva Insights advanced insights app. 
 author: lilyolason
@@ -14,10 +15,28 @@ audience: Admin
 
 # Organizational data in Viva Insights
 
-Organizational data is information about your company provided to the advanced insights app. As an admin, you can use the **Organizational data** page to both upload data and to understand the quality of previously uploaded or refreshed data.
+In this article, we discuss the value of organizational data for analysts, distinguish the two types of organizational data that the advanced insights app can use, and briefly describe the **Organizational data** page in the app's admin experience.
 
->[!Note]
->The app can receive data in one of two ways: from the Azure Active Directory—which is the default source—or through a .csv file that an admin uploads. You can view the current active data source on the **Data hub** tab.
+## About organizational data
+
+Organizational data is descriptive information about employees. The advanced insights app combines organizational data with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. Depending on the organizational data available, an analyst can uncover these trends and use them to make more effective business decisions.
+
+Here's an example: an analyst might use organizational data to learn how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
+
+Advanced insights automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; it’s organizational data that provides analysis context.
+
+## About data sources
+
+The advanced insights app can get organizational data in one of two ways: through Azure Active Directory, which is the default setting, or through an organizational data file that you as an admin upload. Azure Active Directory automatically syncs with the advanced insights app and provides data for the **PersonId**, **ManagerId** and **Organization** attributes. If you want to include more attributes, for example, those we discuss in [Prepare organizational data](prepare-org-data.md#attribute-reference), then you'd want to choose a data file as your source.
+
+>[!Important]
+> After you upload a .csv file with organizational data, you won't be able to switch back to using Azure Active Directory. You'll need to regularly upload .csv files to keep your organizational data current.
+
+### To prepare a .csv data file
+
+To learn how to set up and structure an organizational data .csv file, refer to [Prepare organizational data](prepare-org-data.md).
+
+## Organizational data in the advanced insights app
 
 The **Organizational data** page includes **Data hub**, **Data connections**, and **Data quality** tabs.
 

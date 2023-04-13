@@ -1,13 +1,14 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/10/2020
 title: Insights FAQ
 description: Answers to the most frequently asked questions about Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 
@@ -35,3 +36,4 @@ Yes. Microsoft complies with GDPR requirements when providing analysis in Insigh
 #### Q5 How can I get more in-depth analysis and action-oriented plans?
 
 Workplace Analytics gives you access to more advanced analysis tools and ways of exploring and reporting analysis about your organization's collaboration. See [Microsoft Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more about purchasing and using Workplace Analytics.
+

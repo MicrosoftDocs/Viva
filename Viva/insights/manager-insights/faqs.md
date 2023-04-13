@@ -1,4 +1,6 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/02/2020
 title: Manager insights FAQ
 description: Most commonly asked questions and their answers about My team insights in Viva Insights and Manager insights
 author: madehmer
@@ -86,3 +88,4 @@ Employees might not be eligible for a plan if:
 * They do not have Viva Insights enabled.
 * Are already enrolled in an existing plan.
 * The team does not meet the minimum group size limit.
+

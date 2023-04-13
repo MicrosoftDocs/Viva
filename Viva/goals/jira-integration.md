@@ -1,9 +1,10 @@
 ---
-title: "Jira Integration"
+ms.date: 04/17/2022
+title: "Jira Cloud Integration"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager:
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -21,6 +22,9 @@ description: "Learn how to integrate your OKRs in Viva Goals with Jira Views."
 
 # Jira integration
 
+> [!NOTE]
+> Tenant administrator must enable Jira Server integration from [Viva Goals tenant settings](vg-integrations-administration-overview.md) before it is visible on Viva Goals integration section on your Viva Goals organization.
+
 When you integrate Jira with Viva Goals, all updates on linked Jira user stories or epics are automatically tracked as progress on your objectives and key results (OKRs) in Viva Goals. This powerful functionality ensures that your OKR process isn't waiting for manual check-ins, as progress is updated in real time in Viva Goals.
 
 Here are two scenarios where teams see the benefit of Viva Goals integration with Jira:
@@ -29,7 +33,7 @@ Here are two scenarios where teams see the benefit of Viva Goals integration wit
 
 - An engineering team resolves to fix 20 bugs in a quarter. They link their objective to an epic under which all bugs are filed, and they set the target of their key performance indicator (KPI) success metric to 20. Viva Goals records that objective has hit its goal when 20 bugs are closed.
 
-## How to enable Jira integration
+## How to enable Jira cloud integration
 
 Admins follow these steps to enable integration:
 
@@ -124,7 +128,7 @@ If the epic has 10 stories owned by different designers, engineers, and testers 
 
 Consider an objective to *Improve the overall quality of the product*. In this case, you might want to track the number of bugs generated as opposed to the progress of issues as an indicator of overall quality. You can use the **Count of Tickets** metric in the tracking field to achieve the desired setup. Viva Goals will automatically tally up all the tickets generated.
 
-When an objective or key result is linked to Jira, members can see the Jira icon next to the progress bar that indicate a connection.
+When an objective or key result is linked to Jira, members can see the Jira icon next to the progress bar that indicates a connection.
 
 The following colors of the progress bar indicate the status of the objective:
 
@@ -134,43 +138,43 @@ The following colors of the progress bar indicate the status of the objective:
 
 Viva Goals pulls in new updates from Jira every 60 minutes. However, you can also manually refresh to pull in any new changes.
 
-## How to use the integration with projects 
+## How to use the integration with initiatives 
 
-While objectives and key results tell you what your goal is and how you'll know when you get there, the projects functionality helps keep teams focused on day-to-day execution to achieve key results.
+While objectives and key results tell you what your goal is and how you'll know when you get there, the initiatives functionality helps keep teams focused on day-to-day execution to achieve key results.
 
-### What are projects? 
+### What are initiatives? 
 
-Projects help you keep track of all the work your organization executes to achieve your OKRs. Like key results, projects can  be created under objectives and under other key results in Viva Goals, depending on which outcome they help to achieve. To create a project, select **Add project** under the objective or key result.
+Initiatives help you keep track of all the work your organization executes to achieve your OKRs. Like key results, initiatives can  be created under objectives and under other key results in Viva Goals, depending on which outcome they help to achieve. To create an initiative, select **Add initiative** under the objective or key result.
 
-**There are two recommended scenarios for using projects:**
+**There are two recommended scenarios for using initiatives:**
 
-- **Objective is tracked by a KPI metric:** If a project must be completed to achieve the KPI metric, we recommend that you create the project as a child of the objective. Progress of the project won't roll up to the parent because it's KPI-metric based.
+- **Objective is tracked by a KPI metric:** If an initiative must be completed to achieve the KPI metric, we recommend that you create the initiative as a child of the objective. Progress of the initiative won't roll up to the parent because it's KPI-metric based.
 
-- **Objective has multiple key results:** Projects can be siblings to key results, so you can see outcomes needed to meet the objective (the key results) and the output needed to achieve those outcomes (the projects).
+- **Objective has multiple key results:** Initiatives can be siblings to key results, so you can see outcomes needed to meet the objective (the key results) and the output needed to achieve those outcomes (the initiatives).
 
-Projects are always placed after objectives and key results at each level of the hierarchy.
+Initiatives are always placed after objectives and key results at each level of the hierarchy.
 
-### How to integrate projects in Viva Goals and Jira 
+### How to integrate initiatives in Viva Goals and Jira 
 
-Projects in Viva Goals currently support Jira, the popular project management system. Like the current Jira integration, you can specify JQL to retrieve the list of tasks from Jira that constitute your project.
+Initiatives in Viva Goals currently support Jira, the popular project management system. Like the current Jira integration, you can specify JQL to retrieve the list of tasks from Jira that constitute your initiative.
 
-While Viva Goals supports Jira integration for OKRs, projects let you see the individual tasks and their completion state. This functionality helps you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last check-in: which tasks were completed and any tasks added or removed.
+While Viva Goals supports Jira integration for OKRs, initiatives let you see the individual tasks and their completion state. This functionality helps you understand your execution at a much deeper level. The updates for an initiative also call out what has changed since the last check-in: which tasks were completed and any tasks added or removed.
 
-Viva Goals periodically checks on project progress in Jira and updates status. Progress and status are calculated for projects just like for key results. As with key results, you can also check in on a project, where you can temporarily override the status. However, this stage will last only as long as Viva Goals doesn't detect a change in the completion status of the project in JiraA, at which point it will overwrite your check-in with an automated update.
+Viva Goals periodically checks on initiative progress in Jira and updates status. Progress and status are calculated for initiatives just like for key results. As with key results, you can also check in on an initiative, where you can temporarily override the status. However, this stage will last only as long as Viva Goals doesn't detect a change in the completion status of the initiative in Jira, at which point it will overwrite your check-in with an automated update.
 
-### Current limitations with projects
+### Current limitations with initiatives
 
-Projects currently have the following limitations:
+Initiatives currently have the following limitations:
 
-- You can't create unaligned, top-level projects. They must align to an objective or key result.
-- You can't edit the alignment for a project when you create it. You can only create it under an existing objective or key result, and it will be aligned to that objective or key result.
-- Private projects aren't supported. Projects can be seen by all Viva Goals users.
-- You can't clone projects, and you can't perform bulk actions like changing the time period on multiple projects at once.
-- Projects can have a maximum of 200 tasks.
+- You can't create unaligned, top-level initiatives. They must align to an objective or key result.
+- You can't edit the alignment for an initiative when you create it. You can only create it under an existing objective or key result, and it will be aligned to that objective or key result.
+- Private initiatives aren't supported. Initiatives can be seen by all Viva Goals users.
+- You can't clone initiatives, and you can't perform bulk actions like changing the time period on multiple initiatives at once.
+- Initiatives can have a maximum of 200 tasks.
 
 ## How to track progress via Jira story points in Viva Goals 
 
-As an organization adds complex projects, and it becomes increasingly challenging for teams to meet realistic deadlines. This is where project estimation comes handy. The estimation process doesn't have to be onerous. When it's done right, estimation catalyzes the accomplishment of multiple projects.
+As an organization adds complex initiatives, and it becomes increasingly challenging for teams to meet realistic deadlines. This is where initiative estimation comes handy. The estimation process doesn't have to be onerous. When it's done right, estimation catalyzes the accomplishment of multiple initiatives.
 
 There are several estimation metrics. One is story points, which is an estimation metric in agile frameworks used for gauging the effort involved in implementing a work item. Story points in Jira help you estimate the backlog of work items during sprint planning.
 
@@ -204,13 +208,13 @@ When you create or edit a key result in Viva Goals, choose the method you want t
 
 1. Select **Next** > **Save**.
 
-### How to track progress of projects in Viva Goals using story points
+### How to track progress of initiatives in Viva Goals using story points
 
-The status of projects will be updated automatically depending on the story points completed in Jira.
+The status of initiatives will be updated automatically depending on the story points completed in Jira.
 
-1. When you create or edit a project in Viva Goals, select **Select an option** to add tasks to the project. From the drop-down menu, select **Jira**.
+1. When you create or edit an initiative in Viva Goals, select **Select an option** to add tasks to the initiative. From the drop-down menu, select **Jira**.
 
-    :::image type="content" source="../media/goals/9/jira-project-connection.png" alt-text="Screen shot shows where you select Jira connection for a project." lightbox="../media/goals/9/jira-project-connection.png":::
+    :::image type="content" source="../media/goals/9/jira-project-connection.png" alt-text="Screen shot shows where you select Jira connection for an initiative." lightbox="../media/goals/9/jira-project-connection.png":::
 
 1. If you already created a connection or if your administrator shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared.
 
@@ -224,8 +228,9 @@ The status of projects will be updated automatically depending on the story poin
 
 **Can I track progress by the custom fields in my Jira instance?** 
 
-Yes, you can track the progress of key results and projects in Viva Goals by the custom field in your Jira instance. In addition to the metrics supported by Viva Goals, you can bring any numeric custom field from Jira to measure the progress.
+Yes, you can track the progress of key results and initiatives in Viva Goals by the custom field in your Jira instance. In addition to the metrics supported by Viva Goals, you can bring any numeric custom field from Jira to measure the progress.
 
 **What's the difference between story points and story point estimates?** 
 
 Jira has two types of service projects: classic and next-gen. The estimation on classic projects is story points, and the estimation on next-gen projects is story point estimates.
+

@@ -1,12 +1,13 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/07/2021
 title: The My organization page in Viva Insights
 description: About Microsoft Viva Insights to learn how your organization gets work done
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 
@@ -71,3 +72,4 @@ To learn about taking action on an outcome, you can view related best practices.
 ## Advanced analysis
 
 Microsoft Viva Insights in the cloud-based Workplace Analytics app give you access to more advanced analysis tools and ways of exploring and reporting analysis about your organization's collaboration data. See [Microsoft Viva Insights in Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more about purchasing and using Viva Insights in Workplace Analytics.
+

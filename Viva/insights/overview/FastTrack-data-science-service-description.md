@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
+ms.date: 03/13/2018
 title: FastTrack Data Science Service
 description: This topic describes the roles and responsibilities for a data science service project. 
 author: madehmer
@@ -59,3 +60,4 @@ Microsoft 365 Tenant configuration and access provisioning.
 * Except as set forth in an agreement between Microsoft and your organization, data provided through the FastTrack services may be transferred to, stored, and processed anywhere that Microsoft maintains facilities, and the FastTrack services aren't designed or intended for data subject to special legal or regulatory requirements.
 * If you provided Microsoft personnel with login credentials to access your online services environment, then Microsoft recommends that you revoke those credentials when the assignment has been completed or terminates.
 * During the term of Microsoft’s provision of the Viva Insights Azure Template Service, Microsoft may provide you with access to a web-based tool. Your use of this tool is subject to the Acceptable Use Policy of the Online Services Terms, and you'll ensure that your users comply with this policy.
+

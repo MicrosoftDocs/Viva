@@ -1,4 +1,5 @@
 ---
+ms.date: 04/17/2022
 title: "Tableau Integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -55,9 +56,6 @@ Select the  information icon (**i**) to learn more about each field in the dialo
 Connections can be shared or made *private*.  
 
 You can edit a saved Tableau connection from the same section at any time.  
-  
-> [!NOTE]
-> If your organization uses an on-premises Tableau Server, such as  `https://tableau.\<org-name\>.com`), restrictions apply to external connections that can access the server. In this scenarios, contact your Viva Goals customer success manager (CSM), to learn which IPs must be permitted to establish the connection.
 
 ## How to set up the Tableau data link
 

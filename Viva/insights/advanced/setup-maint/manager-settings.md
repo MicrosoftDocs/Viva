@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ms.date: 03/06/2023
 title: Manager settings
 description: Set manager settings in the advanced insights app
 author: lilyolason
@@ -18,15 +18,15 @@ audience: Admin
 # Manager settings
 
 >[!Important]
-> Manager settings only control **Organization trends** in the Viva Insights app in Teams and on the web. To set up or disable the **Organization trends** page, refer to [Admin tasks](/viva/insights/personal/teams/viva-teams-app-admin-tasks).
+> Manager settings affect [organization insights](../../org-team-insights/org-insights.md) in the Viva Insights app in Teams and on the web.
 
 As an admin for Microsoft Viva Insights, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team.
 
-Only managers whose team meets or exceeds the **Minimum team size** setting can access **Organization trends** in Viva Insights in Teams and on the web.
+Only managers whose team meets or exceeds the **Minimum team size** setting can access organization insights in Viva Insights in Teams and on the web.
 
 The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. The following are based on Azure Active Directory data by default, or the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
 
-* **Measured managers** – Managers who are assigned licenses can see their team's insights through Group insights within My team in Viva Insights in Teams.
+* **Measured managers** – Managers who are assigned licenses can see their team's insights throughout the Viva Insights in Teams.
 * **Managers enabled** – Only managers who meet the minimum team size can view their team's insights.
 * **Minimum team size** – You can set the minimum size of a team that a manager is allowed to view insights about and start plans for. The minimum size allowed is 10 (including the manager). This section also shows you how many measured managers currently have teams that are equal to or more than the minimum setting.
 
@@ -47,7 +47,7 @@ Insights admins can access **Manager settings**. Before managers can access Vi
 
 3. In **Minimum team size**, you can change the minimum to a number more than 10 (the lowest allowed setting). This setting limits access to only those managers who have teams equal to or more than that number, which includes the manager in the team count.
 
-![Screenshot that shows Set team size option.](../images/manager-settings-set-min-team-size.png)
+    ![Screenshot that shows Set team size option.](../images/manager-settings-set-min-team-size.png)
 
 4. Select **Save**.
 

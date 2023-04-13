@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/06/2018
 title: Assign licenses with PowerShell for Viva Insights
 description: Learn how to assign licenses with PowerShell to people who want to use Microsoft Viva Insights
 author: madehmer
@@ -8,7 +9,7 @@ ms.topic: article
 ms.localizationpriority: null 
 search.appverid:
 - MET150
-ms.prod: wpa
+ms.service: workplace-analytics
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
@@ -396,3 +397,4 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 
 * [Assign roles](assign-roles.md)
 * [Setup overview](./setup.md)
+

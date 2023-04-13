@@ -1,13 +1,14 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 12/23/2020
 title: Insight metrics
 description: Describes the data metrics used in Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
-ms.prod: wpa
+ms.service: workplace-analytics
 manager: scott.ruble
 audience: Admin
 
@@ -51,4 +52,5 @@ The following describes the metrics used in the behavioral percentage and visual
 |Working hours in calls| Total number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. | Hour|
 |Working hours instant messages| Total number of hours a person spent time in instant messages through Teams, during working hours. | Hour|
 | <a name="workweek-span-define"></a> Workweek span | The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Workplace Analytics is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day. If reported for the week, the metric is a sum of the daily values for the week. If reported for the month, the metric is the sum of the daily values for the month. |Hour|
+
 
