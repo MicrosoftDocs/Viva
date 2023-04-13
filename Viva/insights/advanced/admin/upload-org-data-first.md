@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Upload organizational data (first upload)
 description: Learn how to first upload your data to the Viva Insights advanced insights app. 
 author: lilyolason
@@ -14,9 +15,9 @@ audience: Admin
 
 # Upload organizational data (first upload)
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of two ways: either through Azure Active Directory—which is the default source—or through a .csv file that you as an admin upload.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of two ways: through Azure Active Directory, which is the default source, or through a .csv file that you as an admin upload.
 
-This article talks about the second option, uploading data through a .csv file. After you’ve prepared data as described in [Prepare organizational data](./prepare-org-data.md), you’ll need to complete the following steps.
+This article talks about the second option: uploading a .csv file.
 
 >[!Important]
 >Only use the following steps if this is the first time you’re uploading organizational data. If this isn’t your first upload, see [Upload organizational data (subsequent uploads)](upload-org-data-subsequent.md) to update previously uploaded data.
@@ -24,7 +25,6 @@ This article talks about the second option, uploading data through a .csv file. 
 >For customers coming over from our legacy app:
 >
 > If you're migrating from the legacy advanced insights app, and are uploading organizational data to Viva Insights for the first time ever, we recommend *only* using the new app for data uploads. Using the new app prevents data inconsistency.
-
 
 ## Workflow
 
@@ -203,3 +203,4 @@ The following field rules apply to characters in field values:
 ## Related topic
 
 [Prepare organizational data](prepare-org-data.md)
+

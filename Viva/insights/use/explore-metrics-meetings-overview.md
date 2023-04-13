@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 02/15/2018
 title: Explore meetings overview data in Viva Insights
 description: Overview of meetings data in Advanced insights with Microsoft Viva Insights
 author: madehmer
@@ -126,3 +127,4 @@ For example, the following scenarios of conflicting meetings are counted differe
 
 * [Page settings](/viva/insights/use/explore-page-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Advanced insights charts](/viva/insights/use/chart-types?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

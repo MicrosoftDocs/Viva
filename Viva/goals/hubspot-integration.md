@@ -1,9 +1,10 @@
 ---
+ms.date: 04/17/2022
 title: "Hubspot Integration"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager:
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -124,3 +125,4 @@ Now that the integration is enabled, your team can link a Hubspot metric with an
 The admin can disable Hubspot at any time: Go to **HubSpot** in the **Integrations** section and select **Manage**. On the **Hubspot Configurations** page, go to the **Change** dropdown, select **Disable**, and then confirm the action.
     
 :::image type="content" source="../media/goals/7/disabling-hubspot-in-viva-goals.png" alt-text="Screenshot shows where you disable integration for Hubspot." lightbox="../media/goals/7/disabling-hubspot-in-viva-goals.png"::: 
+

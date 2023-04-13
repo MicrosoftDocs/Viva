@@ -1,5 +1,6 @@
 ---
 
+ms.date: 05/04/2018
 title: To create an auto-update query
 description: How to create an auto-update query in advanced insights
 author: madehmer
@@ -33,3 +34,4 @@ search.appverid:
 5. Select **Auto-update**.
 
 6. Select **Run**.
+

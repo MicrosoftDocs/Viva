@@ -1,5 +1,6 @@
 ---
 
+ms.date: 07/13/2019
 title: Opt out of personal insights
 description: How to opt out of Microsoft Viva Insights
 author: lilyolason
@@ -50,6 +51,8 @@ If you choose to opt out, you lose access to the following items:
 * Emails
     * Briefing email
         * If you’re subscribed to the daily Briefing email, you’ll continue to receive it without the Viva Insights personal insights content. 
+        >[!Important]
+        >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
     * Semi-monthly Digest email
 * Outlook
     * Outlook add-in
@@ -65,7 +68,7 @@ If you choose to opt out, you lose access to the following items:
 If you opt out, you:
 
 * Don’t lose any previously saved settings. If you turn Viva Insights back on later, your current settings reactivate. 
-* Continue to have access to Briefing email and privacy settings. 
+* Continue to have access to Briefing email **(paused; refer to note above)** and privacy settings.  
 * Continue to see currently scheduled individual and shared plan events on your calendar unless you delete them.  
 * Continue to receive shared plan invites. 
 * See a new Home screen on Viva Insights Teams and web app. This Home screen provides the option to opt-in anytime. 
@@ -73,7 +76,7 @@ If you opt out, you:
     * Personal insights, like those found in the Viva Insights app in Teams and on the web 
     * Flexible query output that relates to you as an individual, like a Person query 
 * Continue to be included in aggregated insights and collaboration events. Here are a few examples: 
-    * Aggregated insights, like the ones on the Organization trends page 
+    * Aggregated insights, like organization insights
     * Flexible query results that draw from the collaboration events, like a Meeting query
 * May not see all changes reflected immediately. Some changes, like the Digest email and add-in changes, might take up to a week to take effect.
 
@@ -109,3 +112,4 @@ Use the procedures in this section to configure your own access to Viva Insights
 Use the procedures in this section to configure access to Viva Insights for the people in your organization.
 
 * [Configure access at the tenant level](../setup/configure.md#configure-access-at-the-tenant-level)
+

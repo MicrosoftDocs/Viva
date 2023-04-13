@@ -1,9 +1,10 @@
 ---
+ms.date: 04/18/2022
 title: "MySQL integration"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager:
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -90,3 +91,4 @@ The following colors of the progress bar indicate the status of the objective:
 - If the progress is 0 to 25 percent less than the expected progress at any point in time, the OKR status is *behind*, and the progress bar will be orange.
 
 - If the progress is more than 25 percent less than the expected progress at any point, the OKR status is *at risk*, and the progress bar will be red.
+

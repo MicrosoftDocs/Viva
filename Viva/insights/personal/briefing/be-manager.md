@@ -1,5 +1,6 @@
 ---
 
+ms.date: 10/15/2020
 title: Catch up with your team through the Briefing email
 description: Learn how to use the Briefing email to catch up with your team
 author: madehmer
@@ -16,6 +17,10 @@ manager: helayne
 ---
 
 # Catch up with your team
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+
 
 People managers often have hectic schedules, and it can be tough to stay in close contact with your team members. The Briefing can help you maintain a strong relationship with your team and stay caught up and respond quickly to important requests from your team.
 
@@ -35,3 +40,4 @@ If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version)
 ## Related topic
 
 [Briefing email overview](be-overview.md)
+

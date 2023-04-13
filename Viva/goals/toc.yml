@@ -24,8 +24,10 @@ items:
 
 - name: Setup and Administration
   items:
-    - name: Viva Goals Integrations Administration Overview
-      href: vg-integrations-administration-overview.md
+    - name: Viva Goals Setup and Administration Deployment Guide
+      href: viva-goals-deployment-guide.md
+    - name: Viva Goals Admin Portal
+      href: viva-goals-admin-portal.md
     - name: Navigate the Admin Dashboard
       href: navigate-admin-dashboard.md
     - name: Log in, Create, and Join Organizations in Viva Goals
@@ -42,6 +44,10 @@ items:
       href: configure-okr-model.md
     - name: Configure your OKR creation permissions in Viva Goals
       href: configure-okr-create-permissions.md
+    - name: Configure your OKR edit permissions in Viva Goals
+      href: edit-permissions.md
+    - name: Renaming Initiatives
+      href: renaming-initiatives.md
     - name: Import OKRs and Initiatives/Projects with Viva Goals
       href: import-okrs-projects.md
     - name: Manage OKR Time Periods
@@ -50,9 +56,13 @@ items:
       href: check-in-reminders.md
     - name: OKR Program Analytics
       href: viva-goals-analytics.md
+    - name: Custom Embed URL Widget
+      href: custom-url-widget.md
     - name: Roles and Permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
-    - name: Viva Goals language support
+    - name: Viva Goals security, privacy, and compliance
+      href: vg-privacy-and-security.md  
+    - name: Viva Goals language and region support
       href: viva-goals-language-support.md
 - name: MS Teams
   items:
@@ -66,9 +76,10 @@ items:
           href: ms-teams-messaging-extension.md
 - name: Integrations
   items:
+    - name: Viva Goals Integrations Administration Overview
+      href: vg-integrations-administration-overview.md
     - name: Viva Goals integrations overview
       href: integrations-overview.md
-
     - name: Viva Goals Integrations
       items:
         - name: Azure Data Explorer Integration
@@ -99,8 +110,10 @@ items:
           href: gsheets-integration.md
         - name: Hubspot Integration
           href: hubspot-integration.md
-        - name: Jira Integration
+        - name: Jira Cloud Integration
           href: jira-integration.md
+        - name: Jira Server and Data Center Integration
+          href: jira-on-prem-integration.md
         - name: Looker Integration
           href: looker-integration.md
         - name: Microsoft Planner Integration
@@ -140,7 +153,9 @@ items:
         - name: Tableau Integration
           href: tableau-integration.md
         - name: Trello Integration
-          href: trello-integration.md  
+          href: trello-integration.md 
+        - name: Zapier Integration
+          href: zapier-integration.md 
         - name: Zendesk Integration
           href: zendesk-integration.md
        

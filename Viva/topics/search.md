@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Use Microsoft Search to find topics in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -17,7 +18,7 @@ description: Learn how to search for topics in Microsoft Viva Topics.
 
 # Use Microsoft Search to find topics in Microsoft Viva Topics
 
-While Viva Topics users can find topics through topic highlights in their SharePoint sites, they can also find them through Microsoft Search. 
+While Viva Topics users can find topics through topic highlights in their SharePoint sites, they can also find them through Microsoft Search.
 
 ## Topic answer
 
@@ -29,9 +30,9 @@ The topic answer will display:
 - Alternate names: Alternate names or acronyms for the topic.
 - Definition: Description of the topic provided by AI or manually added by a person.
 - Suggested or Pinned people: People suggested by AI or pinned to the topic by a person
-- Suggested or Pinned resources: Files, pages, or sites either suggested by AI or pinned to the topic by a person. 
+- Suggested or Pinned resources: Files, pages, or sites either suggested by AI or pinned to the topic by a person.
 
-   ![Topic in Search.](../media/knowledge-management/search-topic-answer.png) 
+   ![Screenshot of a topic showing up in Search.](../media/knowledge-management/search-topic-answer.png)
 
 The topic page can display in the search results even if the topic answer card doesn't appear.
 
@@ -62,3 +63,4 @@ Bookmarks and topics typically have high engagement due to them being premium fe
 ## See also
 
 [Viva Topics overview](topic-experiences-overview.md)
+

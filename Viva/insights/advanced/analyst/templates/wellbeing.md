@@ -1,4 +1,5 @@
 ---
+ms.date: 03/03/2023
 title: Wellbeing - balance and flexibility report
 description: Learn how the Wellbeing - balance and flexibility PowerBI template from Microsoft Viva Insights helps you discover whether your employees maintain work-life balance and flexibility at work
 author: lilyolason
@@ -16,138 +17,128 @@ audience: Admin
 
 # Wellbeing – balance and flexibility report
 
-The **Wellbeing – balance and flexibility report** uses a template populated by Microsoft Viva Insights data to help you get insights into employee wellbeing across your company. This analysis can help you uncover opportunities to improve focus, work-life balance, flexibility at work, and employees’ sense of community.
+The Wellbeing – balance and flexibility report uses a template populated by Microsoft Viva Insights data to help you get insights into employee wellbeing across your company. This analysis can help you uncover opportunities to improve focus, work-life balance, flexibility at work, and employees’ sense of community.
 
-The report includes the following pages:
+With this report, you can visualize and explore the following top-level business questions asked by leaders:
 
-* **Improve focus** – Do employees have time to focus on their core priorities?
+* **Protect focus** – Do employees have enough time to focus, and are they using Viva Insights to help find that time?
 * **Balance work and life** – Are employees able to protect personal time?
 * **Handle urgency** – Can employees manage unexpected demands and proactively shift some to planned work?
 * **Embrace flexibility** – Are employees adopting a flexible working schedule?
-* **Take breaks** – Are employees able to mindfully disconnect?
+* **Take breaks**  Are employees able to mindfully disconnect?
 * **Stay connected** – Are employees part of a community at work?
 
-![Screenshot that shows the Wellbeing report, Report settings.](/viva/insights/advanced/images/wellbeing-PBI-summary1.png)
+Each report page includes a **Why this matters** interpretation, **recommended actions**, and **metric definitions**.
 
-Each report includes a **Why it matters** section that explains the business implications, best practices, and recommended actions to help maintain or improve employee wellbeing.
+To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Wellbeing – balance and flexibility report** query in Viva Insights.
 
-To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Wellbeing - balance and flexibility** query in Viva Insights.
+>[!Note]
+>We updated this template on March 3, 2023. If you've used the **Wellbeing – balance and flexibility** report before this date, make sure you run a new query as described in [Report setup](#report-setup) so you can enable new insights.
 
-## Demonstration
-
-The following demonstration uses sample data that’s only representative of this report and might not be exactly what you see in a live report specific to your organization's unique data.
+[!INCLUDE [Demonstration](includes/demonstration.md)]
 
 <iframe title="Wellbeing - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiNTcwNGQwMTctYWUwYy00MjAwLThlM2YtYTIwMWI4ZGEwZTg0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
-## Prerequisites
-
-Before you can run the queries and populate the report in Power BI, you’ll need to:
-
-* Be assigned the role of **Insights Analyst** in Viva Insights.
-* Have the June 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/) to download and install the latest version.
+[!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
 ## Report setup
 
 ### Run query
 
->[!Note]
-> For this release of Viva Insights, this report is currently only available in English and will only work with data generated from the English version of Viva Insights.
+1.	In the Viva Insights analyst experience, select **Analysis**.
+2.	Under Power BI templates, navigate to **Wellbeing – balance and flexibility report** and select **Start analysis**. 
+[!INCLUDE [Setup steps](includes/setup-steps.md)]
 
-1. In the Viva Insights analyst experience, select **Analysis**.
-
-2. Under **Power BI templates**, navigate to **Wellbeing - balance and flexibility** and select **Start analysis**. To get more information about the Wellbeing - balance and flexibility template before running your analysis, select **Learn more**.
-
-    ![Wellbeing query start](/viva/insights/advanced/images/wellbeing-pbi-start.png)
-
-3. Under **Query setup**:
-    1. Type a **Query name**.
-    1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
-    1. Optional: You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
-
-    >[!Note]
-    >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
-
-    4. Optional: Type a **Description**.
-    
-        Selecting **More settings** brings you to a pane, but there’s nothing you need to change there. In this pane:
-
-        * Power BI queries are set to **Group by Week**. You can't edit this field.
-        * The **Metric rules** field defaults to **Meeting exclusions rule (preferred rule)**. This field isn’t customizable in this release; for more information, refer to [Metric rules](../metric-rules.md).
-![Wellbeing query setup](/viva/insights/advanced/images/wellbeing-pbi-setup.png)
-
-4. **In Predefined template metrics**, leave prepopulated metrics as they appear.  
-![Wellbeing query predefined metrics](/viva/insights/advanced/images/wellbeing-pbi-predefined-metrics.png)
-
-    >[!Note]
-    > Metrics in Power BI templates can't be edited in this release of Viva Insights. To expand the full list of metrics included in the Power BI template, select the arrow in the box beneath **Metrics, filters, and organizational attributes**.
-
-5. You can filter the employees in scope for the report under **Select which employees you want to include in the query**. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, see [Create a custom Person query](../person-query.md).
-
-    ![Is active filter](/viva/insights/advanced/images/pbi-templates-isactive-filter.png)
-
-6. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
-
-7. Select **Run** on the upper right side of the screen, which can take a few minutes to complete.
-
-8. When your query results are ready, go to the **Query results** page and select the **Power BI** icon to download the Power BI template and copy the query identifier. You'll need the query identifier later.
-
-### Link report to query
-
-9. Open the downloaded **Wellbeing - balance and flexibility** template.
-
-10. If prompted to select a program, select **Power BI**.
-
-11. When prompted by Power BI:
-    1. Paste in the query identifier.
-    1. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
-    1. Select **Load** to import the query results into Power BI.
-
-12. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data, which can take a few minutes to complete for large files.
-
->[!Important]
-> You need to sign in to Power BI with the same account you use to access Viva Insights.
 
 ## Report settings
 
-After the **Wellbeing - balance and flexibility** report is set up and populated with Viva Insights data in Power BI, review information on the **Summary** page. Then, view and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
+### Settings page
 
-![Screenshot that shows the Wellbeing report summary page.](/viva/insights/advanced/images/wellbeing-pbi-summary1.png)
+View and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
 
-* **Select the time period to measure** – This is the time period that you want to analyze. Note that the four-week trend information on the summary page won’t show if the selected time period is less than eight weeks.
-* **Select an organizational attribute to view the report by** – This is the primary "group-by" attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will group values by the new attribute.
-* **Select optional filters to exclude employee groups** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will show a reduced number. Measured employees are the number of employees in the filtered population who were active during the specified time period. Active employees are those who send at least one email or Teams chat during a work week that's included in the current time period.
-* **Exclude weeks marked with a holiday indicator** – Select this control to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
-* **Exclude non-knowledge workers** – Select to exclude employees who spend a weekly average of no more than five hours in meetings, emails, instant messages, and calls because they’re unlikely to be knowledge workers or they don’t use Outlook or Teams.
 
-### Customize working hours
+|Setting|Description|
+|-------|-----------|
+|**Select the time period to measure**|Set the time period that you want to analyze. Note that the four-week trend information on the summary page won’t show if the selected time period is less than eight weeks.
+|**Select an organizational attribute to view the report by**|Set the primary "group-by" attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will group values by the new attribute.
+|**Select optional filters to exclude employee groups**|To filter the measured employee population, filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will show a reduced number. Measured employees are the number of employees in the filtered population who were active during the specified time period. Active employees are those who send at least one email or Teams chat during a work week that's included in the current time period.
+|**Exclude weeks marked with a holiday indicator**|Select this control to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
+|**Exclude non-knowledge workers**|Select this control to exclude employees who spend a weekly average of no more than five hours in meetings, emails, instant messages, and calls.  These employees are unlikely to be knowledge workers or they don’t use Outlook or Teams.
 
-For **Embrace flexibility** and **Take break** pages, you can customize the standard working hours for your organization as a baseline. Select **Customize working hours**, and then select the standard start time and end time. Employees’ collaboration patterns will then be compared with these time settings.
+### Embrace flexibility and Take breaks pages
 
-![Screenshot that shows the Wellbeing report customize standard working hours page.](/viva/insights/advanced/images/wellbeing-pbi-workinghours1.png)
+#### Customize working hours
 
-## About this report
+For **Embrace flexibility** and **Take breaks** pages, you can customize the standard working hours for your organization as a baseline. Select **Customize working hours** at the top right of the report page, and then select the standard start time and end time. The report will then compare employees’ collaboration patterns with these time settings.
+
+## About the report
 
 The **Wellbeing - balance and flexibility** report includes the following report pages that help you identify your employees' wellbeing across the company.
 
-### Improve focus
+### Protect focus
 
-This page shows the average weekly collaboration hours for each employee by organization as compared to focus hours. This view highlights how an employee's collaboration load is impacting their focus time.
+This topic contains three pages, which each focus on a different theme: overview, adoption, and impact.
+
+#### Overview
+
+**Do employees have enough time to focus, and are they using Viva Insights to help find that time?**
+
+Get a baseline view of how much time employees have to focus and how much time they kept as focus time using Viva Insights. This page helps you understand whether employees are actively protecting non-meeting time for focused work. You can also access adoption and impact pages from this page.
+
+#### Adoption
+
+**Are employees using Viva Insights to set aside time for individual work?**
+
+Learn how consistently employees kept focus time over the last four weeks, and whether they’re using a Viva Insights focus plan to book their time. Use this page to:
+
+* Better understand how your company is adopting focus time.
+* Discover groups who haven't enrolled in a focus plan but have a high potential to benefit from one.
+
+#### Impact
+
+**How are employees benefiting from protecting time in Viva Insights?**
+
+Find out how focus time is positively impacting employees. Like the last page, this page shows the number of hours employees kept for focus time over the last four weeks, and how employees booked that time--that is, with or without a focus plan. 
+
+Also, use this page to:
+
+* Explore the impact of focus time on after-hours collaboration.
+* Reduce meeting conflicts during focus hours by starting a shared no-meeting day plan. 
 
 ### Balance work and life
 
-This page shows the average weekly after-hours collaboration for each employee, the distribution of employees by their after-hours collaboration, and percentage of employees that were active during the weekends at least once every four weeks. Understanding employees' after-hours and weekend work behaviors can uncover opportunities to protect the boundary between work and personal life.
+**Are employees able to protect personal time?**
+
+To help understand after-hours working trends, view the:
+
+* Average weekly after-hours collaboration for each employee.
+* Distribution of employees by their after-hours collaboration.
+* Percentage of employees who were active during the weekends at least once every four weeks.
+
+When you understand employees' after-hours and weekend work behaviors, you might uncover opportunities to protect the boundary between work and personal life.
 
 ### Handle urgency
 
-This page shows the percentage of employees and work weeks involved in urgent collaboration and the impact of urgent collaboration on employees' after-hours collaboration patterns. Urgent collaboration is defined by the following keywords in the email subject lines or meeting invitation titles: "urgent," "immediately," "ASAP," "fire drill," "immediate action." This list of keywords is also provided in the report. This report highlights how unexpected demands are managed in your company and unlocks opportunities to shift some of them to planned work.
+**Can employees manage unexpected demands and proactively shift some to planned work?**
+
+To uncover how unexpected demands are managed in your company, and to unlock opportunities to shift some of these demands to planned work, view:
+
+* The percentage of employees and work weeks involved in urgent collaboration.
+* The impact of urgent collaboration on employees' after-hours collaboration patterns. 
+
+This report defines urgent collaboration using the following keywords in the email subject lines or meeting invitation titles: "urgent," "immediately," "ASAP," "fire drill," "immediate action." You can also find this list of keywords in the report.
 
 ### Embrace flexibility
 
-This page highlights three key aspects that help you identify employees' flexibility at work:
+**Are employees adopting a flexible working schedule?**
 
-* **Flexible start times** – Shows the percentage of weeks in which the employees have at least one day of flexible start time in a week.
-* **Recurring time to disconnect** – Shows the percentage of weeks in which the employees take at least one hour of recurring break each day over the week.
-* **Control active hours** – Shows the percentage of weeks in which the employees limit their work activities to their expected working hours over the week. If the employees have a standard work schedule from 9:00 AM to 5:00 PM, their expected working hours for each day are eight hours. This analysis provides insights into how employees are adopting flexible working schedules.
+Identify employees' flexibility at work by exploring these three key percentages:
+
+* **Flexible start times** – Weeks where employees had at least one day of flexible start time.
+* **Recurring time to disconnect** – Weeks where employees took at least one hour of recurring break each day.
+* **Control active hours** – Weeks where employees limited their work activities to their expected working hours. Expected work hours are the hours employees plan to work. For example, if employees have a standard work schedule from 9:00 AM to 5:00 PM, their expected working hours for each day would be eight hours. 
+
+This analysis offers insight into how employees are adopting flexible working schedules.
 
 >[!Tip]
 >
@@ -155,7 +146,18 @@ This page highlights three key aspects that help you identify employees' flexibi
 
 ### Take breaks
 
-This page shows the percentage of weeks in which an average employee falls under each activity pattern by organization. Defined by collaboration hour blocks and whether recurring breaks are taken, the activity patterns indicate how employees arrange their weekly work schedule. This information provides opportunities to identify groups that may experience burnout and struggle to disconnect from work.
+**Are employees able to mindfully disconnect?**
+
+Find out how well employees are able to disconnect from work, and identify groups who might experience burnout. View the percentage weeks employees spent in each of the following categories (arranged here from most to least active online):
+
+* Always on 
+* Long (non-stop) 
+* Long (with breaks)
+* Standard (non stop)
+* Standard (flexible)
+* Low activity
+
+Also view a distribution of this information by organization.
 
 >[!Tip]
 >
@@ -163,21 +165,22 @@ This page shows the percentage of weeks in which an average employee falls under
 
 ### Stay connected
 
-This page highlights how employees connect with colleagues through small group meetings and informal communication. Understanding the average weekly meeting hours an employee spent in small group meetings and the distribution of emails and chats by type of colleagues they interact with can provide insights about whether employees are forming communities and rapport at work.
+**Are employees part of a community at work?**
+
+Discover how employees connect with colleagues through small group meetings and informal communication. On this page, you'll find the:
+
+* Average weekly meeting hours employees spent in small group meetings.
+* Distribution of emails and chats by colleague type. 
+
+This information offers insight into whether employees are forming communities and rapport at work.
 
 ### Other pages
 
 The report also includes:
 
-* A **Behavioral trends** page that tracks key metrics over time
-* A **Take action** page that provides actionable recommendations to improve behaviors
-* An **Explore further** page that highlights the research and studies in each topic
-* A **Glossary page** that describes all the metrics in the report
+* A **Behavioral trends** page that tracks key metrics over time.
+* A **Take action** page that provides actionable recommendations to improve behaviors.
+* An **Explore further** page that highlights the research and studies in each topic.
+* A **Glossary page** that describes all the metrics in the report.
 
-## Power BI tips, FAQs, and troubleshooting
-
-For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](./power-bi-faq-troubleshoot.md).
-
-## Related topic
-
-[Access query results and modify existing queries](/viva/insights/advanced/analyst/query-results.md)
+[!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]

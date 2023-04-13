@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: lilyolason
@@ -250,6 +251,10 @@ For example, suppose you want to compare collaboration patterns between employee
 ## Valid values and formats
 
 When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid).
+
+### Rules for the file
+
+The data file needs to be in the .csv UTF-8 format, and it can’t be empty.
 
 ### Rules for field headers
 

@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/05/2018
 title: Validate and verify data for Viva Insights setup
 description: Setup step to validate and verify data to upload in Microsoft Viva Insights
 author: madehmer
@@ -43,3 +44,4 @@ By using data source metrics, Viva Insights data analysts can:
 ### Related topic
 
 [Data sources in Viva Insights](/viva/insights/Use/data-sourcesv2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

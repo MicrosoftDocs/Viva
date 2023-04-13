@@ -1,9 +1,10 @@
 ---
+ms.date: 07/18/2022
 title: Configure help and support for your organization
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -66,3 +67,4 @@ You can use the toggle to disable help and support resources configured by you. 
 
 > [!Note] 
 > You'll lose the configuration once you disable help and support. 
+

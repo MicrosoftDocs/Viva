@@ -1,9 +1,10 @@
 ---
+ms.date: 04/17/2022
 title: "Asana integration"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: <TBD>
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -71,11 +72,11 @@ The difference between percent completed and KPI is that with the KPI option you
 
 Let's consider this example: You have a project with 100 tasks that spans the entire year. You can choose to use the KPI option and set the target at 25 because each OKR period is only a quarter long. You would want to track the completion of tasks but only against the target of 25, not the entire 100. 
 
-## How to set up Asana projects as projects in Viva Goals
+## How to set up Asana projects as initiatives in Viva Goals
 
-Projects help you keep track of all the work your organization is doing to achieve your objectives and key results. Like key results, projects can also be created under objectives and under other key results in Viva Goals, depending on which outcome they help to achieve. Select **Add project** under the appropriate objective or key result to create a project.
+Initiatives help you keep track of all the work your organization is doing to achieve your objectives and key results. Like key results, initiatives can also be created under objectives and under other key results in Viva Goals, depending on which outcome they help to achieve. Select **Add initiative** under the appropriate objective or key result to create an initiative.
 
-With Viva Goals projects, you can now view your Asana projects inside Viva Goals. Viva Goals will show you the tasks in the project and calculate the progress of the project as a percentage based on completed tasks versus the total.
+With Viva Goals initiatives, you can now view your Asana projects inside Viva Goals. Viva Goals will show you the tasks in the initiative and calculate the progress of the initiative as a percentage based on completed tasks versus the total.
 
 **Viva Goals supports two ways of doing this:**
 
@@ -85,19 +86,19 @@ With Viva Goals projects, you can now view your Asana projects inside Viva Goals
 
 ### See all the tasks from an Asana project
 
-To set up the project in Viva Goals, you just connect to Asana, pick the project, and optionally filter to a subset of tasks on the project that you care about.
+To set up the initiative in Viva Goals, you just connect to Asana, pick the project, and optionally filter to a subset of tasks on the project that you care about.
 
-### Use a specific Asana task as the project, with its subtasks as the task list
+### Use a specific Asana task as the initiative, with its subtasks as the task list
 
-Some customers like to use a specific task in Asana as their project, with the subtasks as the task list. We support this option as well, and you can set your project name in Viva Goals to the name of your Asana task.
+Some customers like to use a specific task in Asana as their initiative, with the subtasks as the task list. We support this option as well, and you can set your initiative name in Viva Goals to the name of your Asana task.
 
-1. To start, add a project, and select **Add tasks** under **Outcome**.
+1. To start, add an initiative, and select **Add tasks** under **Outcome**.
     
     :::image type="content" source="../media/goals/8/asana-add-tasks-button.png" alt-text="Screenshot shows the add tasks button under Progress in Viva goals." lightbox="../media/goals/8/asana-add-tasks-button.png":::
 
 2. In the Tasks field, select **Automatically from a data source** and select **Asana** as your data source.
     
-    :::image type="content" source="../media/goals/8/asana-tasks-connection.png" alt-text="Screenshot of the dialog box where you add Asana from the list of datasources to Projects in Viva goals." lightbox="../media/goals/8/asana-tasks-connection.png":::
+    :::image type="content" source="../media/goals/8/asana-tasks-connection.png" alt-text="Screenshot of the dialog box where you add Asana from the list of datasources to initiatives in Viva goals." lightbox="../media/goals/8/asana-tasks-connection.png":::
 
 3. Select whether you’d like to track progress by percent of tasks completed or by percent of subtasks completed.
 
@@ -105,12 +106,13 @@ Some customers like to use a specific task in Asana as their project, with the s
 
 5. Set the **Task assigned to** field to **Any** or **Unassigned**, and then select **Next** and **Save**.
 
-6. If you chose to track progress by percent of subtasks completed, select the **Use this task name as the project name in Viva Goals** checkbox, and save your project.
+6. If you chose to track progress by percent of subtasks completed, select the **Use this task name as the initiative name in Viva Goals** checkbox, and save your initiative.
     
-    :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Screenshot of the final dialog when you add an Asana task as a Project in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
+    :::image type="content" source="../media/goals/8/asana-task-connection-details.png" alt-text="Screenshot of the final dialog when you add an Asana task as an initiative in Viva goals." lightbox="../media/goals/8/asana-task-connection-details.png":::
 
-This option will create the specific Asana task or subtasks as the project and pull in the subtasks as the task list in Viva Goals.
+This option will create the specific Asana task or subtasks as the initiative and pull in the subtasks as the task list in Viva Goals.
 
-While Viva Goals supports an Asana integration for OKRs, projects let you see the individual tasks and their completion state. This helps you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last check-in⏤which tasks were completed and whether any tasks were added or removed.
+While Viva Goals supports an Asana integration for OKRs, initiatives let you see the individual tasks and their completion state. This helps you understand your execution at a much deeper level. The updates for an initiative also call out what has changed since the last check-in⏤which tasks were completed and whether any tasks were added or removed.
 
-Viva Goals will periodically check on project progress in Asana and update the status. Progress and status are calculated for projects exactly like key results. Similar to key results, you can also check in on a project, and you can temporarily override the status. This override will last only as long as Viva Goals doesn't detect a change in the completion status of the project in Asana. When that occurs, an automated update will overwrite your check-in.
+Viva Goals will periodically check on project progress in Asana and update the status. Progress and status are calculated for initiatives exactly like key results. Similar to key results, you can also check in on an initiative, and you can temporarily override the status. This override will last only as long as Viva Goals doesn't detect a change in the completion status of the project in Asana. When that occurs, an automated update will overwrite your check-in.
+

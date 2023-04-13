@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/07/2023
 title: Schedule send suggestions in Teams chat 
 description: Learn how Viva Insights helps you send messages to your coworkers during their working hours
 author: lilyolason
@@ -17,6 +17,9 @@ audience: user
 # Schedule send suggestions in Teams chat
 
 *Applies to: users with a Viva Insights subscription*
+
+>[!Note]
+>We're in the process of rolling this feature out to customers.
 
 To help you communicate with coworkers during their working hours, Viva Insights suggests times to send chats that might otherwise arrive after hours.
 
@@ -50,7 +53,7 @@ You won't get suggestions in the following scenarios:
 
 1. Select the suggestion above the text input box.
 
-    :::image type="complex" source="./images/teams-schedule-send-suggestion.png" alt-text="Screenshot that shows the schedule send suggestion above a the text-input box in Teams chat.":::
+    :::image type="complex" source="./images/teams-schedule-send-suggestion.png" alt-text="Screenshot that shows the schedule send suggestion above the text-input box in Teams chat.":::
        Screenshot of a schedule send suggestion above a chat message that a user is typing in Teams. The suggestion appears beneath previously sent messages and reads, "Send a message when their work hours start Thursday, Oct 13 at 8:30 AM?".
     :::image-end:::
 
@@ -98,5 +101,6 @@ If you qualify to use the feature, your schedule send suggestions are turned on 
 ### Licenses
 
 A Global admin, an Exchange Online admin, or a user admin role can assign and remove the Viva Insights subscription in the Microsoft 365 admin center. For information on how to assign a license, refer to [Assign licenses to users in Microsoft 365 for business](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
+
 
 

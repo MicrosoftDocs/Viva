@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 07/16/2018
 title: Customize query metrics 
 description: How to customize a base metric in a query
 author: madehmer
@@ -88,3 +89,4 @@ When you customize a base metric, it's saved as a new custom metric for the quer
 Care should be taken when you use the 'NOT' operator in conjunction with other metric filters. For example, suppose that you wanted to add a query filter to exclude all meetings where the subject line contained all the following terms: sales, meetings, and office, by using a ‘NOT’ operator.
 
 Assume that a meeting email had the subject line: “Sales meeting”, but did not also include the term 'office'. In this case, if you were to use the ‘NOT’ operator in conjunction with the 'OR' operator, any meetings that corresponded to the missing term would still be returned. If you want to exclude all the terms, not just any of them, use the 'AND' rather than the 'OR' operator. Otherwise, values will be returned when any one of the filter terms is not satisfied.
+

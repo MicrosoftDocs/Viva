@@ -1,6 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/11/2020
 title: Support for Workplace Analytics Azure Templates 
 description: How to get support for Workplace Analytics Azure Templates
 author: madehmer
@@ -32,3 +33,4 @@ You can get scenario support specifically for Workplace Analytics Azure Template
 
 >[!Note]
 >If an issue occurs because of an underlying service or component that an Azure Template scenario uses, you might be referred to other Microsoft Support channels for escalation, such as a downed service or a failed data export.
+

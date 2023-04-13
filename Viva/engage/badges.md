@@ -1,4 +1,5 @@
 ---
+ms.date: 02/13/2023
 title: "Rewards and recognition in Viva Engage"
 description: "Viva Engage offers rewards and recognition to people who help out their colleagues by asking and answering questions."
 ms.reviewer: ethli
@@ -35,15 +36,15 @@ Users may earn five types of badges based on votes from their fellow employees:
 
 ## Rewards and recognition in Viva Engage
 
-Once assigned the Viva Engage Knowledge service plan, Global admin and Engage admin will be able to configure Answers badges through the Engage admin center.
+Once assigned the Viva Engage Knowledge service plan, Global admin and Engage admin will be able to configure Answers badges through the Viva Engage admin center.
 
-To set up Rewards and recognition for your organization, navigate to the **Feature management** tab in the Engage admin center, then select **Rewards and recognition**.
+To set up Rewards and recognition for your organization, navigate to the **Feature management** tab in the Viva Engage admin center, then select **Rewards and recognition**.
 
-![Screenshot of the interface for Rewards and recognition in the Engage admin center.](/Viva/media/netnew/badges-eac.png)
+![Screenshot of the interface for Rewards and recognition in the Viva Engage admin center.](/Viva/media/netnew/badges-eac.png)
 
 Once redirected, the Global and Engage admins will see three different options to have Answers badges **On**, **Disabled**, or based on **User preference**.
 
-[![Image of the interface for Answers badges settings in the Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
+[![Image of the interface for Answers badges settings in the Viva Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
 
 - **Disabled**: Data that was being collected for all users will be deleted and no further data will be collected for any users. The badges will be deleted as well.
     - If the admin doesn't wish to collect any badges data, it's recommended that they disable badges immediately after purchasing the product.
@@ -63,3 +64,4 @@ A license to the Viva Engage Knowledge service plan is required to start earning
 
 **What happens to users badges if the admin control is turned from on to disabled?**
 All the badges earned by users will be deleted and no data will be processed when the control of rewards and recognition is disabled. This means that the badges earned by users will be lost and they'll not be able to get them back, unless they start earning them back again.
+

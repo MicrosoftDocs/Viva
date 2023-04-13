@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 04/21/2020
 title: Network person queries 
 description: Describes how to use Network person queries in Viva Insights to determine the Influence metric of individuals in your organization
 author: madehmer
@@ -77,3 +78,4 @@ The following columns are included in the query results for Network queries:
 * [Network metric definitions](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#network-metrics)
 * [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Best practices for influencers](../tutorials/gm-influencer.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 01/11/2023
 title: Access query results and modify existing queries
 description: Learn how to access query results in the advanced insights app
 author: lilyolason
@@ -33,7 +34,7 @@ To view, download, rename, edit, delete, favorite, or clone query results, you n
 >[!Important]
 >Only the analyst who originally ran the query can edit, rename, or delete its results. Other analysts in the organization can view, favorite, and clone results.
 
-## Query results page
+## To use the query results page
 
 ### Results statuses
 
@@ -154,11 +155,11 @@ Deleting a query removes it from the results list for everyone in the organizati
 
 
 
-## Query results
+## To access query results
 
 ### About query results
 
-When you define a query, you select metrics and employee attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. You can download these results as described later in this article.
+When you define a query, you select metrics and employee attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. To learn how to download these results, read on.
 
 #### Downloading and connecting to results
 
@@ -193,8 +194,12 @@ Here's an example of a results file:
 7.	If you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
 8.	In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI.
 
+>[!Note]
+>Have a question about your query results? Our [Query results FAQ](query-results-faq.md) article might have the answer you're looking for.
 
 ## Related topics
+
+[Query results FAQ](query-results-faq.md)
 
 [Power BI tips, FAQ, and troubleshooting](./templates/power-bi-faq-troubleshoot.md)
 

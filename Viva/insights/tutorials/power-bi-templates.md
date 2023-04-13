@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/18/2018
 title: Power BI tips, troubleshooting, and FAQ
 description: Learn some tips, troubleshooting, and answers to the FAQ about setting up and using the Viva Insights Templates
 author: lilyolason
@@ -216,3 +217,4 @@ Close Power BI, redo the set up steps in [Set up the dashboard for Return to wor
 
 * [Templates introduction](/viva/insights/tutorials/power-bi-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

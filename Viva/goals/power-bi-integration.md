@@ -1,4 +1,5 @@
 ---
+ms.date: 01/06/2023
 title: "Power BI Integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -21,7 +22,7 @@ description: "Learn how to integrate your Viva Goals OKRs with Power BI."
 
 # Power BI Integration
 
-Key Results and Projects that use metrics to track completion in Viva Goals can directly connect to data from reports in Power BI using our simple point and click interface. Viva Goals will sync the data at regular intervals, ensuring your Key Results and Projects always stay up to date with the latest progress. 
+Key Results and initiatives that use metrics to track completion in Viva Goals can directly connect to data from reports in Power BI using our simple point and click interface. Viva Goals will sync the data at regular intervals, ensuring your Key Results and initiative always stay up to date with the latest progress. 
 
 ## How to connect your Key Result to data from Power BI 
 
@@ -57,11 +58,11 @@ Your key result will now regularly synchronize data from Power BI and make check
 
 :::image type="content" source="../media/goals/powerbi-images/kr-connected.png" alt-text="Screenshot that shows a successfully connected KR." lightbox="../media/goals/powerbi-images/kr-connected.png":::
 
-## How to connect your KPI Project to data from Power BI
+## How to connect your KPI initiative to data from Power BI
 
-1. Add a new Project or edit an existing Project.
+1. Add a new initiative or edit an existing initiative.
 
-   :::image type="content" source="../media/goals/powerbi-images/project-edit.png" alt-text="Screenshot that shows how to edit a project." lightbox="../media/goals/powerbi-images/project-edit.png":::
+   :::image type="content" source="../media/goals/powerbi-images/project-edit.png" alt-text="Screenshot that shows how to edit a initiative." lightbox="../media/goals/powerbi-images/project-edit.png":::
 
 2. Under the Outcome section, select **Add metric.**
 
@@ -99,9 +100,9 @@ Your key result will now regularly synchronize data from Power BI and make check
 
    :::image type="content" source="../media/goals/powerbi-images/project-save.png" alt-text="Screenshot that shows how to save your update." lightbox="../media/goals/powerbi-images/project-save.png":::
 
-Your project will now regularly synchronize data from Power BI and make check-ins on your behalf. If you have any issues, please check the Troubleshooting section below.
+Your initiative will now regularly synchronize data from Power BI and make check-ins on your behalf. If you have any issues, please check the Troubleshooting section below.
 
-:::image type="content" source="../media/goals/powerbi-images/project-connected.png" alt-text="Screenshot of a successful project integration with Dynamics." lightbox="../media/goals/powerbi-images/project-connected.png":::
+:::image type="content" source="../media/goals/powerbi-images/project-connected.png" alt-text="Screenshot of a successful initiative integration with Dynamics." lightbox="../media/goals/powerbi-images/project-connected.png":::
 
 ## How to enable Power BI integration
 
@@ -113,5 +114,6 @@ Global admins must first enable the Power BI Integration for Viva Goals at the t
 
 ## FAQ (Frequently Asked Questions)
 
-1. What permissions do I need to connect to a Power BI report?  
+1. **What permissions do I need to connect to a Power BI report?** 
     1. You will need [build permissions](/power-bi/connect-data/service-datasets-build-permissions) on the dataset underlying the report.
+

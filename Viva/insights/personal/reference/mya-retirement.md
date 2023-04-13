@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/18/2022
 title: MyAnalytics retirement
 description: About retiring MyAnalytics
 author: lilyolason
@@ -37,17 +38,17 @@ The select MyAnalytics functionality we describe below will continue to be avail
 
 #### Focus time booking and insights
 
-[Focus time booking](../teams/viva-insights-protect-time.md#schedule-focus-time) helps you block regular time by scheduling up to four hours every day to focus. You can access the focus time configuration settings by selecting the ellipses (**…**) at the top right of the Viva Insights app, selecting **Settings**, then selecting **Protect time** from the left pane. You can also access these settings by selecting **View focus plan preferences** on the **Focus time insights** card.
+[Focus time booking](../teams/focus.md#book-single-non-recurring-focus-sessions) helps you block regular time by scheduling up to four hours every day to focus. You can access the focus time configuration settings by selecting the ellipses (**…**) at the top right of the Viva Insights app, selecting **Settings**, then selecting **Protect time** from the left pane. You can also access these settings by selecting **View focus plan preferences** on the **Focus time insights** card.
 
 ![Screenshot that shows the settings for focus plan.](/viva/insights/images/mya/reference/mya-retire-protect-time-focus.png)
 
-Focus time Insights are available on the **Protect time** page on Viva Insights app in Teams and on the web. These insights show the amount of focus time kept in the current month and the amount of focus time booked for the following week. 
+Focus time Insights are available on the **Wellbeing** page on Viva Insights app in Teams and on the web. These insights show the amount of focus time kept in the current month and the amount of focus time booked for the following week. 
 
 ![Screenshot that shows the Book focus time options on the Protect time page.](/viva/insights/images/mya/reference/mya-retire-protect-time-page3.png)
 
 #### Quiet time insights 
 
-[Quiet time insights](../teams/viva-insights-protect-time.md#configure-quiet-time) are available in the Viva Insights app in Teams and on the web, on the **Protect time** page. These insights show the number of days when quiet time was kept without quiet time interruptions in addition to displaying a calendar view of quiet time days in a four-week duration. 
+[Quiet time insights](../teams/quiet-time.md) are available in the Viva Insights app in Teams and on the web, on the **Wellbeing** page. These insights show the number of days when quiet time was kept without quiet time interruptions in addition to displaying a calendar view of quiet time days in a four-week duration. 
 
 This feature also lets you configure your quiet time settings to match your needs during the initial setup or after setup. 
 
@@ -56,7 +57,7 @@ This feature also lets you configure your quiet time settings to match your need
 
 #### Meeting habits
 
-Meeting habits highlight your meeting habits or practices. You can switch between the **Habits** view and the **Meetings** view on the **Effective meetings** page of Viva Insights app in Teams and on the web.  The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. The **Meetings** view shows details about all the meetings on your calendar over the past four weeks.
+Meeting habits highlight your meeting habits or practices. You can switch between the **Habits** view and the **Meetings** view on the **Productivity** tab of the Viva Insights app in Teams and on the web. The **Habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. The **Meetings** view shows details about all the meetings on your calendar over the past four weeks.
 
 ![Screenshot that shows Meeting habits insights.](/viva/insights/images/mya/reference/mya-retire-meeting-habits2.png)
 
@@ -77,6 +78,9 @@ On the **Setting** page’s **Privacy** tab, you can opt out of the Digest email
 ![Screenshot that shows Digest insights.](/viva/insights/images/mya/reference/mya-retire-digest.png)
 
 ##### Briefing
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 Select the **Setting** page’s **Briefing** tab to find your Briefing email settings. At the top of the page, toggle the switch off to opt out of the Briefing email. You can opt in again later by toggling the switch on.
 

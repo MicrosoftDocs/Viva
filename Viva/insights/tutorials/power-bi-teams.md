@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/13/2020
 title: Power BI Microsoft Teams dashboard
 description: Use the Power BI Microsoft Teams insights dashboard to visualize predefined data from Viva Insights in Power BI
 author: madehmer
@@ -138,3 +139,4 @@ Learn how to generate useful data using the Teams insights dashboard and analyze
 ## Related topic
 
 [View, download, and export query results](/viva/insights/use/view-download-and-export-query-results?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

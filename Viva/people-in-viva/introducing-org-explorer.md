@@ -1,4 +1,5 @@
 ---
+ms.date: 01/18/2023
 title: Introducing Org Explorer
 ms.reviewer: 
 ms.author: ponincev
@@ -50,24 +51,18 @@ Note: When Org Explorer is disabled users will still see the app icon in Outlook
 
 ### Contact support in Outlook for desktop
 
-Go to Outlook on desktop for Windows.
-
-Select **Help > Contact Support** in the navigation pane.
-
-Select **Yes** to continue.
-
-Describe your request and select **Submit**.  
+1. Go to Outlook on desktop for Windows.
+2. Select **Help > Contact Support** in the navigation pane.
+3. Select **Yes** to continue.
+4. Describe your request and select **Submit**.  
 
 ### Contact support in the Microsoft 365 admin center
 
-Go to the [admin center](https://admin.microsoft.com).
-
-On the bottom right side of the page, select  **Help & support**.
-
-Enter a search term, for example “Org Explorer”.
-Select Contact Support at the bottom of the page.
-
-Enter a description of your request, confirm your contact number and email address, select your preferred contact method, and then select Contact me. The expected wait time is indicated in the Contact support pane. [Learn more about getting support in the admin center](/microsoft-365/admin/get-help-support).
+1. Go to the [admin center](https://admin.microsoft.com).
+2. On the bottom right side of the page, select  **Help & support**.
+3. Enter a search term, for example “Org Explorer”.
+4. Select **Contact Support** at the bottom of the page.
+5. Enter a description of your request, confirm your contact number and email address, select your preferred contact method, and then select **Contact me**. The expected wait time is indicated in the Contact support pane. [Learn more about getting support in the admin center](/microsoft-365/admin/get-help-support).
 
 ## Additional resources
 
@@ -76,3 +71,4 @@ Enter a description of your request, confirm your contact number and email addre
 [Explore your organization](https://go.microsoft.com/fwlink/?linkid=2223751)
 
 [Search for a person](https://go.microsoft.com/fwlink/?linkid=2224126)
+

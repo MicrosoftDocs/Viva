@@ -65,6 +65,12 @@ landingContent:
             url: write-okrs-overview.md
           - text: Align OKRs Overview
             url: align-okrs-overview.md
+          - text: Check-in OKRs Overview
+            url: check-in-okrs-overview.md
+          - text: Close OKRs Overview
+            url: close-okrs-overview.md
+          - text: Rhythm of Business Overview
+            url: rhythm-of-business-overview.md  
  
 
   # Card
