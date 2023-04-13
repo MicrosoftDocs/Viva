@@ -43,7 +43,7 @@ However, before you can run your app and start transferring data to Viva Insight
 
 After the data successfully validates and processes, the overall data-import task is complete.
 
-:::image type="content" source="../images/admin-data-import-flow.png" alt-text="org data import flowchart" lightbox="../images/admin-data-import-flow-expanded.png":::
+:::image type="content" source="../images/admin-data-import-flow.png" alt-text="Flow diagram that shows the Workflow steps above, starting with actions by the Data source admin and ending with actions by the Advanced insights app." lightbox="../images/admin-data-import-flow-expanded.png":::
 
 ## Setup
 
@@ -77,14 +77,14 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 1. Create a new app registration:
     1. In the top toolbar, select **Add > App registration**.
 
-        :::image type="content" source="../images/admin-di-add-new-registration1.png" alt-text="Screenshot that shows the Azure portal add menu expanded with App registration highlighted.":::
+        :::image type="content" source="../images/admin-di-add-new-registration-1.png" alt-text="Screenshot that shows the Azure portal add menu expanded with App registration highlighted.":::
 
     2. On the resulting screen:
         1. Give your app a name. 
         1. Under **Supported account types**, leave the first option, **Accounts in this organizational directory only ([Your organization] only - Single tenant)**, selected. 
         1. Select the **Register** button at the bottom of the screen.
 
-        :::image type="content" source="../images/admin-di-registration3.png" alt-text="Screenshot that shows Register an application screen with i, ii, and iii that correspond to the steps listed above."lightbox="../images/admin-di-registration3.png":::
+        :::image type="content" source="../images/admin-di-registration-3.png" alt-text="Screenshot that shows Register an application screen with i, ii, and iii that correspond to the steps listed above."lightbox="../images/admin-di-registration-3.png":::
 
     1. When you arrive back at the **Overview** screen, copy down the **Application (client) ID** and **Directory (tenant) ID**.
     
@@ -112,7 +112,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
     2. For each listed **API / Permissions** name, select the ellipses (**...**) to the right of the API—for example, **Microsoft Graph**.
     3. Select **Remove permission**.
 
-        :::image type="content" source="../images/admin-di-upload-remove-perms1.png" alt-text="Screenshot that shows selecting Remove permissions in Azure. "lightbox="../images/admin-di-upload-remove-perms1.png":::
+        :::image type="content" source="../images/admin-di-upload-remove-perms-1.png" alt-text="Screenshot that shows selecting Remove permissions in Azure. "lightbox="../images/admin-di-upload-remove-perms-1.png":::
     1. Confirm removal.
 
     When you remove permissions for these items, you’re making sure app only has permissions for what it needs.
