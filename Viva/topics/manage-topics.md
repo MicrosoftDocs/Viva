@@ -30,9 +30,9 @@ In the Viva Topics topic center, a knowledge manager can view the **Manage topic
 
 :::image type="content" alt-text="Screenshot that shows the Topic Center." source="../media/knowledge-management/manage-topics-view.png"::: 
 
-## Topic stages
+## Topic status
 
-Knowledge managers help to guide discovered topics through the various topic lifecycle stages: **Suggested**, **Confirmed**, **Published**, and **Removed**.
+Knowledge managers help to guide discovered topics through the various topic lifecycle statuses: **Suggested**, **Confirmed**, **Published**, and **Removed**.
 
    ![Topic Lifecycle chart.](../media/knowledge-management/topic-lifecycle.png) 
 
@@ -137,8 +137,17 @@ Removed topics can later be added back as viewable topics if needed. If you want
 
 ## Topic count dashboard
 
-This chart in the dashboard view lets you see the number of topics in your Viva Topics topic center. The chart shows the topic counts per topic lifecycle stage and also shows how topic counts have trended over time. Knowledge managers can visually monitor the rate at which new topics are being discovered by AI and the rate at which topics are getting confirmed or published by the knowledge manager or user actions.
+This chart in the dashboard view lets you see the number of topics in your Viva Topics topic center. The chart shows the topic counts per topic lifecycle status and also shows how topic counts have trended over time. Knowledge managers can visually monitor the rate at which new topics are being discovered by AI and the rate at which topics are getting confirmed or published by the knowledge manager or user actions.
 
 Knowledge managers might see a different count of topics represented in the list of topics on the **Manage topics** page than they see in the dashboard. This is because a knowledge manager might not have access to all topics. The count presented in the dashboard view is taken before applying permission-trimming. 
 
 :::image type="content" alt-text="Screenshot of topic count dashboard." source="../media/knowledge-management/trend-of-topics-graph.png":::
+
+## Topic Origin filter
+
+Topic Origin indicates where the topic was sourced from, although this can change if the topic is automatically or manually merged with another topic. Engage and Taxonomy topics are called out specifically because they may lack much of the information that is associated with a typical topic.
+
+1. Viva Topics: These are topics that have been created or augmented by the system at some point in their lifecycle. 
+2. User: These are topics that have been curated by a user at some point in their lifecycle. 
+3. Engage: These include topics that were created in Engage since the Viva Topics integration with Engage was turned on. These also include former legacy Engage topics that have been converted into full Viva Topics. The converted topics will likely lack a definition, so if you want to see the list of topics that have been converted from the legacy Engage topic experience, you should select both the Yammer filter and the Does Not Have Description filter. 
+4. Taxonomy: These are topics that were created from term sets in Managed Metadata Services. They will likely lack much of the information that is associated with a typical topic.
