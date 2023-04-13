@@ -19,7 +19,7 @@ ms.date: 04/10/2023
 
 # Understand GDPR and special categories of data collection
 
-At Microsoft Viva Glint, data privacy and trust are key priorities. Strict adherence to protecting the confidentiality of your people encourages elevated levels of survey participation with honest and useful feedback. Our products are [General Data Protection Regulation (GDPR) compliant.](https://gdpr-info.eu/)
+At Microsoft Viva Glint, data privacy and trust are key priorities. Strict adherence to protecting the confidentiality of your people encourages elevated levels of survey participation with honest and useful feedback. Our products are [General Data Protection Regulation (GDPR) compliant](/compliance/regulatory/gdpr)
 
 ## What is GDPR?
 
