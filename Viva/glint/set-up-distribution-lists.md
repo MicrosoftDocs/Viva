@@ -41,7 +41,7 @@ Or, from your survey program:
 
 1. Select the  **Configure**  symbol at the top right of your Viva Glint dashboard. 
 
-1. Select  **Pulse Programs**  in the * *Pulses** section. 
+1. Select  **Survey Programs**  in the **Survey** section. 
 
 1. Select the survey for which the Distribution List needs to be edited. 
 
@@ -51,7 +51,7 @@ Or, from your survey program:
 
 ### Create a new list  
 
-The first page that appears displays all Distribution Lists that exist for your organization and indicates the number of members in each list. 
+The first page that appears displays all Distribution Lists that exists for your organization and indicates the number of members in each list. 
 
 1. Select  **+ New Distribution List**. 
 1. Enter a title for your list by selecting the pencil symbol next to the Untitled Distribution List box. For example, if you're creating a Distribution List for new employees, you could title your list *New Employees* or *New Hires.* 
@@ -101,7 +101,7 @@ After selecting an attribute, you'll see a list of employees that match your c
    > [!NOTE]
    >You do not have the option to manually include employees.
 
-## Modifying a Distribution List 
+## Modify a Distribution List 
 
 Editing a Distribution List is a global change and will affect any program using that list. To modify: 
 
@@ -112,3 +112,7 @@ Editing a Distribution List is a global change and will affect any program using
 1. Make the necessary changes and select  **Save Changes**. 
 
 After confirming you have the list you want, select  **Save Changes**. 
+
+## Understand why frequency of updating your Employee Attribute File matters 
+
+The date range selected for an attribute should always be equal or greater to the frequency at which you update your employee data files. For companies that integrate their HRIS files automatically, this works well. For companies that manually update employee files, make sure that the window set is wide enough to include the frequency with which employee data is refreshed. For example, if a window is set to 15 days but employee files are only updated once every 30 days, the survey will likely miss people who should get the survey, since the date range is only set to look at people who started 30-45 days earlier. Instead, set the window for at least 30 days so you're sure to include everyone.
