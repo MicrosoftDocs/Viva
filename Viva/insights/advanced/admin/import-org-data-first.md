@@ -15,53 +15,37 @@ audience: Admin
 
 # Import organizational data (first import)
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
+*Applies to: private preview customers*
 
-This article talks about the third option: importing data. When you set up an import, you’ll drop your exported source data into a zip file, along with some metadata for Viva Insights. Viva Insights then pulls that data in to the advanced insights app. To start importing data, you'll need to coordinate a few tasks between your Microsoft 365 IT admin and your data source admin, including registering a new app and getting a security certificate. Refer to the next section, [Workflow](#workflow), for an overview of required steps.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
+This article talks about the third option, importing data. 
+
+With an import, you create your own app to automatically export your source data and metadata to a zipped folder. Then, your custom app runs a console app we created, called DescriptiveDataUploadApp. Through DescriptiveDataUploadApp, Viva Insights pulls your data into the advanced insights app. 
+
+However, before you can run your app and start transferring data to Viva Insights, you'll need to coordinate a few tasks between your Microsoft 365 admin and Insights Administrator (Insights admin). Refer to [Workflow](#workflow) for an overview of required steps.
 
 >[!Important]
 >Only use the following steps if this is the first time you’re importing organizational data. If this isn’t your first import, refer to [Import organizational data (subsequent imports)](import-org-data-subsequent.md) to refresh previously imported data.
+
 
 ## Workflow
 
 
 1. Setup:
-    1. The data source admin [prepares their data export](#prepare-the-data-export).
-    1. The data source admin [generates a security certificate](#generate-the-security-certificate) and provides it to the Microsoft 365 IT admin.
-    1. The Microsoft 365 IT admin [registers a new app in Azure](#register-a-new-app-in-azure).
-    1. The Insights Administrator (Insights admin) [sets up the automated import](#set-up-the-import-in-viva-insights).
-    1. The data source admin pushes data to Viva Insights.
+    1. The data source admin [generates a security certificate](#generate-the-security-certificate) and provides it to the Microsoft 365 admin.
+    1. Using the security certificate, the Microsoft 365 admin [registers a new app in Azure](#register-a-new-app-in-azure).
+    1. Using IDs from the app registration, the Insights admin [sets up the import](#set-up-the-import-in-viva-insights).
+    1. The data source admin [prepares their data and exports it](#prepare-export-and-import-organizational-data) using a custom app (for example, a PowerShell script). Their custom app saves data to a zipped folder and automatically runs the [DescriptiveDataUploadApp](#run-the-descriptivedatauploadapp-in-the-console) on the console.
+    1. The DescriptiveDataUploadApp pulls data from the data source admin’s local file to Viva Insights.
+
 1. Validation: Viva Insights validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
 1. Processing: Viva Insights processes your data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).)
 
 After the data successfully validates and processes, the overall data-import task is complete.
 
-:::image type="content" source="../images/admin-import-diagram-small.png" alt-text="org data import flowchart" lightbox="../images/admin-import-diagram.png":::
+:::image type="content" source="../images/admin-data-import-flow.png" alt-text="Flow diagram that shows the Workflow steps above, starting with actions by the Data source admin and ending with actions by the Advanced insights app." lightbox="../images/admin-data-import-flow-expanded.png":::
 
 ## Setup
-
-### Prepare the data export
-
-*Applies to: data source admin*
-
-To make the data-transfer process go smoothly, you’ll need to export and save your source data in the right format.
-
-1. Export organizational data from your source system as a .csv.
-1. Download the zip folder we’ve prepared for you here: 
-1.	Open OrganizationalDataFile.xlsx within the zip folder and save the Template tab as a .csv.
-1.	Enter your data in the **Template** tab and format your data according to our guidelines in [Prepare organizational data](prepare-org-data.md).
-
->[!Note]
->Viva Insights doesn’t support custom fields for data import, so make sure you’re using required and reserved optional fields only. Our [Prepare organizational data](prepare-org-data.md#attribute-reference) article includes an attribute reference.
-
-You’ll enter the path for the zip folder when you set up the connection to Viva Insights.
-
-### Tips for preparing your data
-
-* For new data, include full historical data for all employees. 
-* Import organizational data for all employees in the company, including licensed and non-licensed employees. 
-* Refer to the sample .csv template for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
-
 
 ### Generate the security certificate
 
@@ -74,9 +58,7 @@ Here’s what to do:
 1.	Create a certificate by following the instructions in this article: [Create a self-signed public certificate to authenticate your application](/azure/active-directory/develop/howto-create-self-signed-certificate)
 2.	Send the generated certificate to the Microsoft 365 admin.
 
-That’s it for now. If you want to get a head start on your next steps, follow steps 1-3 in [Set up the connection to Viva Insights](#set-up-the-connection-to-viva-insights).  
-
-
+That’s it for now. If you want to get a head start on your next steps, follow the steps in [Export and import your data on a set frequency](#export-and-import-your-data-on-a-set-frequency).  
 
 ### Register a new app in Azure
 
@@ -95,14 +77,14 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 1. Create a new app registration:
     1. In the top toolbar, select **Add > App registration**.
 
-        :::image type="content" source="../images/admin-di-add-new-registration1.png" alt-text="Screenshot that shows the Azure portal add menu expanded with App registration highlighted.":::
+        :::image type="content" source="../images/admin-di-add-new-registration-1.png" alt-text="Screenshot that shows the Azure portal add menu expanded with App registration highlighted.":::
 
     2. On the resulting screen:
         1. Give your app a name. 
         1. Under **Supported account types**, leave the first option, **Accounts in this organizational directory only ([Your organization] only - Single tenant)**, selected. 
         1. Select the **Register** button at the bottom of the screen.
 
-        :::image type="content" source="../images/admin-di-registration3.png" alt-text="Screenshot that shows Register an application screen with i, ii, and iii that correspond to the steps listed above."lightbox="../images/admin-di-registration3.png":::
+        :::image type="content" source="../images/admin-di-registration-3.png" alt-text="Screenshot that shows Register an application screen with i, ii, and iii that correspond to the steps listed above."lightbox="../images/admin-di-registration-3.png":::
 
     1. When you arrive back at the **Overview** screen, copy down the **Application (client) ID** and **Directory (tenant) ID**.
     
@@ -130,7 +112,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
     2. For each listed **API / Permissions** name, select the ellipses (**...**) to the right of the API—for example, **Microsoft Graph**.
     3. Select **Remove permission**.
 
-        :::image type="content" source="../images/admin-di-upload-remove-perms1.png" alt-text="Screenshot that shows selecting Remove permissions in Azure. "lightbox="../images/admin-di-upload-remove-perms1.png":::
+        :::image type="content" source="../images/admin-di-upload-remove-perms-1.png" alt-text="Screenshot that shows selecting Remove permissions in Azure. "lightbox="../images/admin-di-upload-remove-perms-1.png":::
     1. Confirm removal.
 
     When you remove permissions for these items, you’re making sure app only has permissions for what it needs.
@@ -166,41 +148,83 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 1. Select the connection you named in step 3a as the new data source. 
 1. Contact the data source admin and request that they send org data to Viva Insights.
 
-### Set up the connection to Viva Insights
+### Prepare, export, and import organizational data
 
-*Applies to: data source admin*
+#### Tips for preparing your data
 
-To send data to Viva Insights, you’ll need set up the connection between your source data and Viva Insights. To create this connection, we made [an app in GitHub](https://github.com/microsoft/vivainsights_ingressupload/tree/main/DescriptiveDataUploadApp), which you can clone and use.
+* For new data, include full historical data for all employees. 
+* Import organizational data for all employees in the company, including licensed and non-licensed employees. 
+* Refer to the [sample .csv template](https://go.microsoft.com/fwlink/?linkid=2224590) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
+
+#### Export and import your data on a set frequency
+
+To export data from your source system and import it into Viva Insights on a set frequency, you’ll need to create a custom app. Your app can take any form—for example, a PowerShell script—but it needs to do two things: 
+
+1. Export your source data as a zipped folder at the frequency you pick, and store that folder in your local files.
+1. Automatically run the DescriptiveDataUploadApp we created on the console. The DescriptiveDataUploadApp then brings your locally stored data into Viva Insights.
+
+:::image type="complex" source="../images/admin-custom-app-flow.png" alt-text="Screenshot that shows a diagram of the flow of information from source system to Viva Insights."lightbox="../images/admin-custom-app-flow-expanded1.png":::
+   Flow diagram of the data-import process. The first step shows a data icon labeled, "Source system" with a downward arrow leading to a PowerShell/command icon labeled, "Your custom app." Next to the arrow, there's a clock indicating automated refresh based on frequency. A downward arrow leads from the "Your custom app" icon to a folder icon labeled, "Local folder." A horizontal arrow leads to the right from the folder icon to an app icon in the center of the diagram labeled, "DescriptiveDataUploadApp." From the app icon, a horizontal arrow leads to the right to the Viva Insights icon, labeled, "Viva Insights."
+:::image-end:::
+
+##### Export and store the zipped folder
+
+At the frequency you decide (once a month, once a week, etc.) have your custom app export organizational data from your source system as a zipped folder and store it in your files. Base this zipped folder on the zipped folder we provide. (Select [this link](https://go.microsoft.com/fwlink/?linkid=2224590) to download the folder.) Your zipped folder needs to contain a data.csv file and a metadata.json file.
+
+
+Here are a few more details about these files and what they need to contain:
+
+###### data.csv
+
+Add all fields you want to import in this file. Make sure you format it according to our guidelines in [Prepare organizational data](prepare-org-data.md#structure-the-organizational-data).
+
+###### metadata.json
+
+Indicate the type of refresh you’re performing and how Viva Insights should map your fields:
+
+* `“DatasetType”: “HR”` (line 2). Leave this as-is.
+* `“IsBootstrap”:` (line 3). Use `“true”` to indicate a full refresh and `“false”` to indicate an incremental refresh. If this is your first import, use `“true”`.
+* `“Mapping”:`. If you use names other than what Viva Insights uses, change each column header name to match what you use in your source system.
+
+>[!Important]
+>Remove any fields that aren’t present in your .csv file.
+
+**Mapping example**
+
+The following example represents one field you’ll find in the metadata.json file:
+
+```json
+"PersonId": {
+    "name": "PersonId",
+    "type": "EmailType"
+```
+
+
+* `"PersonId": {` corresponds to the source column name.
+* `“name” : “PersonId”,`  corresponds to the Viva Insights field name.
+* `"type": "EmailType"`  corresponds to the field’s data type.
+
+Let’s say that instead of `PersonId`, your source system uses `Employee` for this field header. To make sure your fields are mapped correctly, you’ll want to edit the first line below, so it looks like this:
+
+```json
+      "Employee": {
+        "name": "PersonId",
+        "type": "EmailType"
+```
+
+When you upload your data, your `Employee` field will become `PersonId` in Viva Insights.
+
  
-Here’s how to get the app set up:
+##### Run the DescriptiveDataUploadApp in the console
 
->[!Note]
->We wrote these directions specifically for Visual Studio, but you can set up your application through any code editor.
+Whenever it exports the zipped folder from your source system, have your custom export app automatically run the DescriptiveDataUploadApp. We created the DescriptiveDataUploadApp [on GitHub](https://github.com/microsoft/vivainsights_ingressupload) to transfer your data into Viva Insights. Clone this app to your machine by running the following command: `git clone https://github.com/microsoft/vivainsights_ingressupload.git.` 
 
-#### Set up the application
-
-1. Clone the app. Open a command prompt and enter the following command: `git clone https://github.com/microsoft/vivainsights_ingressupload.git`.
-1. If Visual Studio was open, close it. Open or re-open Visual Studio as an administrator.
-1. On the right, select **Open a local folder**. Choose the cloned folder (**vivainsights_ingressupload**). 
-    >[!Note]
-    >The cloned folder will live in whichever directory you ran the git clone command from.
-1. On the right, in the **Solution Explorer** tab, double-click **DescriptiveDataUploadApp.sln**.
-    :::image type="content" source="../images/admin-upload-app-sln1.png" alt-text="Screenshot of DescriptiveDataUploadApp.sln in Visual Studio's Solution Explorer.":::
-1. At the top of Visual Studio, you’ll need to select a start-up project. Select **DescriptiveDataUploadApp.csproj**.
-1. Select the play button to run the app or press Ctrl + F5 on your keyboard.
-    :::image type="content" source="../images/admin-upload-app-play1.png" alt-text="Screenshot of the play button for DescriptiveDataUpload app in Visual Studio.":::
-
-#### Enter values in the console
-
->[!Note]
->None of the values require quotation marks ("") around them.
-
-After you set up the app, a console pops up asking you for the following inputs:
-
-1. App (client) ID. Find this ID in the registered app information on the Azure portal under **Application (client) ID**. If you haven’t created and registered your app yet, follow the instructions in [Register a new app in Azure](#register-a-new-app-in-azure).
-1. Path to the zipped file you downloaded in Prepare organizational data. Format the path like this: `C:\\Users\\JaneDoe\\OneDrive - Microsoft\\Desktop\\info.zip`.
-1. Azure Active Directory tenant ID. Also find this ID on the app's overview page under **Directory (tenant) ID**.
-1. Certificate name. This name is configured in your registered application. If you haven’t created a certificate yet, refer to [How to create a self-signed certificate](/azure/active-directory/develop/howto-create-self-signed-certificate). After you upload the certificate, the certificate name shows up under **Description** in the Azure Portal.
+1.	For each export, have your custom export app run the DescriptiveDataUploadApp.
+2.	A console pops up requesting values. Add the following values:
+    1. AppID/ClientID. This ID is in the registered app information on the Azure portal under Application (client) ID.
+    1. Absolute path to the zipped folder. Format the path like this: `C:\\Users\\JaneDoe\\OneDrive - Microsoft\\Desktop\\info.zip`.
+    1. Azure Active Directory tenant ID. This ID is also on the app's overview page under Directory (tenant) ID.
+    1. Certificate name. This name is configured in your registered application. If you haven’t created a certificate yet, refer to [How to create a self-signed certificate](/azure/active-directory/develop/howto-create-self-signed-certificate). After you upload the certificate, the certificate name shows up under **Description** in the Azure Portal.
 
 ## Validation
 
@@ -235,8 +259,6 @@ After you receive the “Success” status, you can:
 #### Processing fails
 
 If processing fails, you’ll find a “Processing failed” status in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. If you’ve corrected all errors and are still getting a “Processing failed” status, file a support ticket with us.
-
-![Screenshot that shows Processing failed.](../images/admin-status-process-failed.png)
 
 ### Validation fails
 
