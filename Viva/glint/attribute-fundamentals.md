@@ -64,7 +64,7 @@ Add custom attributes to the header row on your template, named the way that see
 
 ### General Data protection Regulation (GDPR) compliance for attributes
 
-Confidentiality around employee data is of the highest priority for Microsoft Viva Glint. Using [EU General Data Protection Regulation (GDPR) guidelines](https://microsoft.sharepoint.com/:w:/r/teams/PSTeam/_layouts/15/Doc.aspx?sourcedoc=%7BDA8D8CB5-F3CB-4433-9798-EC1D052A205D%7D&file=Confidentiality%20in%20Viva%20Glint%20programs.docx&action=default&mobileredirect=true&share=IQG1jI3ay_MzRJeY7B0FKiBdAXkwdmWiW1Pu4SDT7ZUHgAg&cid=ec5d3ef1-8c67-430b-9de2-5d5507db4843), we apply these privacy protection standards globally to ensure that every person’s data is handled with the utmost confidentiality and integrity.
+Confidentiality around employee data is of the highest priority for Microsoft Viva Glint. Using [EU General Data Protection Regulation (GDPR) guidelines](https://www.microsoft.com/professionalservices/gdpr), we apply these privacy protection standards globally to ensure that every person’s data is handled with the utmost confidentiality and integrity.
 
 ## Functional attributes
 
