@@ -98,8 +98,6 @@ Viva Insights counts all chats you send within a 15-minute window as one chat.
 
 For each call that isn't scheduled as a meeting on your calendar, Viva Insights uses the actual duration of the call. Viva Insights doesn't assign any time for calls scheduled as meetings in your calendar, because it's already counting those calls as meeting time. 
 
-Learn more about how Viva Insights derives meeting insights in [Meeting habits](meeting-habits.md).
-
 ##### Insight calculation reference
 
 |Insight | Time assigned|
@@ -110,39 +108,5 @@ Learn more about how Viva Insights derives meeting insights in [Meeting habits](
 |Chats read| 0 seconds
 |Unscheduled calls| Call duration
 |Scheduled calls| 0 seconds
-
-## In Outlook
-
-### Meeting prep time
-
-Viva Insights suggests booking time to prepare for meetings—like reviewing documents and completing related tasks—when these conditions are met:
-
-The meeting:
-
-* Has 11 or fewer invitees.
-* Is scheduled to last between 30 and 60 minutes.
-* Doesn't recur.
-* Hasn't been canceled.
-* Requires attendee response.
-* Isn't private.
-* Doesn't have a "Free," "Working elsewhere," or "Away" status.
-
-You:
-
-* Open the meeting invite at least 15 minutes before the meeting starts.
-* Have at least 15 minutes available for prep time during your working hours.
-* Didn't dislike any attendee meeting prep nudge in the past seven days.
-* Haven't booked any prep time for this meeting yet.
-* Are a required meeting attendee.
-* Haven't declined the meeting.
-
-### Shorten meeting
-
-Shorten meeting is triggered when:
-
-* You're composing a one-hour meeting.
-* You're not scheduling a same-day meeting.
-* For recurring meetings, there are at least three attendees, including the organizer. Attendees can be either optional or required.
-* For meetings that don't recur, there are at least four attendees, including the organizer. Attendees can be either optional or required.
 
 
