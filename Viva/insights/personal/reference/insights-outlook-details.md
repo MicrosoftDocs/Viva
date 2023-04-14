@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 03/29/2023
 title: Viva Insights Outlook add-in reference
 description: Learn more about insights in the Viva Insights Outlook add-in
@@ -16,55 +15,38 @@ manager: anirudhbajaj
 
 ---
 
-# Viva Insights Outlook add-in reference
+# Reporting details in the Viva Insights Outlook add-in
 
-## When insights are triggered
 
-### Meeting prep time
+Viva Insights does not display read information about every email that you send, such as in the following circumstances.
 
-Viva Insights suggests booking time to prepare for meetings—like reviewing documents and completing related tasks—when these conditions are met:
+## Qualifying messages requirement
 
-The meeting:
+Read statistics are shown only for _qualifying messages_. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has a cloud mailbox. Distribution lists are expanded before counting qualifying recipients.
 
-* Has 11 or fewer invitees.
-* Is scheduled to last between 30 and 60 minutes.
-* Doesn't recur.
-* Hasn't been canceled.
-* Requires attendee response.
-* Isn't private.
-* Doesn't have a "Free," "Working elsewhere," or "Away" status.
+## Exceptions to qualifying messages
 
-You:
+Viva Insights does not report about email messages in the following categories:
 
-* Open the meeting invite at least 15 minutes before the meeting starts.
-* Have at least 15 minutes available for prep time during your working hours.
-* Didn't dislike any attendee meeting prep nudge in the past seven days.
-* Haven't booked any prep time for this meeting yet.
-* Are a required meeting attendee.
-* Haven't declined the meeting.
+* Email that was sent from a shared mailbox
+* Email that was sent more than 14 days ago.
+* Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
+* Email sent to modern groups. (If users are following the modern group, they are included in the count.)
 
-### Shorten meeting
+## Open rate
 
-Shorten meeting is triggered when:
+Viva Insights respects user privacy. For this reason, the Viva Insights add-in does not show information about individual recipients, and when necessary to protect privacy, it reports approximated values only.
 
-* You're composing a one-hour meeting.
-* You're not scheduling a same-day meeting.
-* For recurring meetings, there are at least three attendees, including the organizer. Attendees can be either optional or required.
-* For meetings that don't recur, there are at least four attendees, including the organizer. Attendees can be either optional or required.
+Within 30 minutes of when you sent qualifying email, the Viva Insights add-in  reports the actual or an approximated open rate, as described here:
 
-## Insight option details
+* **Below minimum.** For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Viva Insights displays the open rate as "_&lt; 25%_."
+* **Between thresholds.** If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
+* **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 96% of the 25 email recipients open the email, Viva Insights displays the open rate as "_&gt; 95%_."
 
-### Prepare for your meetings
+   | Number of recipients | Open rate reported |
+   | ------- | ------ |
+   | 5 - 10  | Minimum: 25% <br>Maximum: 75% |
+   | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
+   | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
 
-Each meeting card title includes the meeting title, the organizer, the start time, and the location. Some of the following options apply to the meeting organizer, some apply to invitees, and some apply to people in both positions.
-
-| Card section | Notes | Recommendations |
-| --- | --- | --- |
-|**Attendees** | The percentage of invitees who have accepted, and the number of invitees. Select the down arrow to see more information about these attendees. | Make sure that you have a quorum before the meeting. Consider sending a reminder if you haven't heard back from attendees. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|**Conflicts** | This section outlines all other meetings that have a conflict with this meeting. | Take time to resolve conflicts well ahead of each meeting. Doing so helps other participants know whether there will be a quorum for the meeting. |
-|**Respond** (RSVP)  &emsp; &emsp; &emsp;&emsp; | This section is only for invitees, not for the organizer. <p>You can respond **Yes** or **No** to the invitation. If you have already responded, your response is shown here. <p>If a meeting is scheduled outside of your typical meeting hours (when you typically organize and attend meetings during and outside the workday), it will be highlighted with an option to respond accordingly. |Responses help the organizer determine if required participants can attend or not, and then take any necessary steps, such as rescheduling or recording the meeting. |
-|**Attachments** | This section shows the number of attachments, their titles, and their storage location (online or local). You can see more details and you can open the attachment if it is stored online. <!-- <br> If you are the organizer and the invitation contains attached cloud documents, you can see the [open rates](#open-rate) for those documents.--> | |
-|**Related documents** | This section shows documents that you might want to review to prepare for the meeting. |
-|**Related tasks** | This section shows tasks that you might want to complete to prepare for the meeting. |
-|**Online meeting link**  | (This section is only for the organizer, not for the invitees.) <p>**Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online in Skype for business or in Teams. | Be an inclusive meeting organizer. If you have attendees who are working remotely, consider adding an online link to your meeting.  |
-|**Preparation time** | This section gives you the options to book either 15 minutes or 30 minutes of preparation time. This option appears only if there is an available slot in your calendar right before the meeting. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar. | Be prepared. If you need travel time or have other tasks that need to be done right before the meeting to prepare for it, consider booking preparation time. |
+ For more information, refer to "Email read rates and document open rates" in the [Personal insights privacy guide](https://support.microsoft.com/topic/8f2c038c-f80c-4512-bf4c-90a0423377f2). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
