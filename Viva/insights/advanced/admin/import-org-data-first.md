@@ -169,7 +169,7 @@ To export data from your source system and import it into Viva Insights on a set
 
 ##### Export and store the zipped folder
 
-At the frequency you decide (once a month, once a week, etc.) have your custom app export organizational data from your source system as a zipped folder and store it in your files. Base this zipped folder on the zipped folder we provide. (Select [this link](https://go.microsoft.com/fwlink/?linkid=2230444) to download the folder.) Your zipped folder needs to contain a data.csv file and a metadata.json file.
+At the frequency you decide (once a month, once a week, etc.) have your custom app export organizational data from your source system as a zipped folder and store it in your files. Base this zipped folder on the zipped folder we provide. (Select [this link](https://go.microsoft.com/fwlink/?linkid=2224590) to download the folder.) Your zipped folder needs to contain a data.csv file and a metadata.json file.
 
 
 Here are a few more details about these files and what they need to contain:
