@@ -461,11 +461,6 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "viva/insights/personal/teams/faq.md",
-        "redirect_url": "https://support.microsoft.com/topic/9eac395d-855d-49b8-ae90-9a87287fdb95",
-        "redirect_document_id": false
-      },
-      {
         "source_path": "viva/insights/personal/teams/home.md",
         "redirect_url": "https://support.microsoft.com/topic/6e7d28b2-6b0e-4367-9b52-1999a86eb391",
         "redirect_document_id": false
