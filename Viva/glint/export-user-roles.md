@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/14/2023
 ---
 
-# Import and export User Roles in Viva Glint
+# Import and export User Roles
 
 Admins can import and export lists of members associated with specific roles and attributes. This functionality is especially useful for large teams.
 
