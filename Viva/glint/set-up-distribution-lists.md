@@ -107,7 +107,7 @@ Editing a Distribution List is a global change and will affect any program using
 
 1. Select the Distribution List you want to modify. 
 
-1. Select  **Add/Edit Employees**  or  **Edit Attribute Rules**  if there are filters available. 
+1. Select  **Add/Edit Employees**  or  **Edit Attribute Rules** if there are filters available. 
 
 1. Make the necessary changes and select  **Save Changes**. 
 
