@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 03/29/2023
 title: How Viva Insights automatically books your time
 description: Learn how Viva Insights automatically books time on your calendar

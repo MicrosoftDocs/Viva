@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 03/29/2023
 title: Viva Insights Outlook add-in reference
 description: Learn more about insights in the Viva Insights Outlook add-in
