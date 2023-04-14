@@ -481,26 +481,6 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "viva/insights/personal/overview/mya-faq.md",
-        "redirect_url": "https://support.microsoft.com/topic/3f5af2cd-ca6d-41e3-a263-56136b4c6849",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/team-insights.md",
-        "redirect_url": "https://support.microsoft.com/topic/3316274a-8a85-4d79-9ed5-5c271057bfe0",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/org-insights.md",
-        "redirect_url": "https://support.microsoft.com/topic/57fb9654-4129-4dd8-87ce-5ee5251ac826",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/org-insights-faqs.md",
-        "redirect_url": "https://support.microsoft.com/topic/38aff8e1-7fb2-4c65-a93a-9b1df820209b",
-        "redirect_document_id": false
-      },
-      {
       "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
       "redirect_url": "/viva/insights/personal/setup/configure",
       "redirect_document_id": false
