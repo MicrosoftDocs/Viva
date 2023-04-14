@@ -1,5 +1,5 @@
 ---
-title: Attribute fundamentals
+title: Viva Glint Attribute fundamentals
 description: Learn how Viva Glint uses data about the people in your organization to convert survey feedback into insightful and action-oriented information to improve employee engagement.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -23,12 +23,12 @@ ms.date: 04/04/2023
 
 Attributes are data about the people in your organization. Attributes are used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals.
 
-Attribute column headers (name labels) may be customized. For example, you might choose "Employee ID", while another company chooses "Work ID". For this reason, know that the labels in our guidance are for purposes of example only. Choose name labels that make sense to your organization as these labels appear on your reports.
+Attribute column headers (name labels) may be customized. For example, you might choose "Employee ID," while another company chooses "Work ID." For this reason, know that the labels in our guidance are for purposes of example only. Choose name labels that make sense to your organization as these labels appear on your reports.
 
 ## Standard attribute types
 
 - **Required attributes**: When building your Employee Attribute Template, this is the data that is required to be part of your Employee Data File.
-- **Recommended attributes:** Data that can be converted into derivative groups (or buckets). Derivative groups keep attributes from being used to specifically identify an employee.
+- **Recommended attributes**: Data that can be converted into derivative groups (or buckets). Derivative groups keep attributes from being used to specifically identify an employee.
 
 >[!NOTE]
 > Recommended attributes are not required, but if sent initially in your Employee Attribute Template, then they are required for all future uploads.
@@ -57,7 +57,7 @@ Your template may include up to 100 custom, flat attributes. *A flat attribute i
 
 Add custom attributes to the header row on your template, named the way that seems most sensible to you. Choose attributes that can boost the way you do business.
 
-**Best practices:**
+**Best practices**:
 
 - The more attributes you provide, the more ways data can be sliced and diced to provide richer insights and alerts. 
 - Attributes that are too specific won't meet the minimum confidentiality threshold of five to appear in reporting, so avoid them.

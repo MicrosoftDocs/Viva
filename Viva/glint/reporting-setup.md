@@ -1,5 +1,5 @@
 ---
-title: Set up Reporting page 
+title: Set up Reporting page in Viva Glint
 description: On the Reports page admins, customize how dashboards are set up and how specific roles view them. 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -31,17 +31,17 @@ To give extra User Roles access to view this program's survey results:
    >[!NOTE]
    > User Roles need to be created first to appear. Refer to [Set Up User Roles](https://go.microsoft.com/fwlink/?linkid=2230740).
 2. Select the desired **Reporting Access:**
-   1. **Live Access** : Roles have full access to results as they come in, and when surveys are completed.
-   2. **Phased Access** : Roles don't have automatic access to Live or completed surveys until they're granted access by the admin, on a per program case. This access does allow retained access to previous surveys and other data inside Viva Glint programs.
-3. Toggle **Concierge Visibility** to enable or disable Manager Concierge. [Visit Manager Concierge for a deeper dive.](https://go.microsoft.com/fwlink/?linkid=2231115)
+   1. **Live Access**: Roles have full access to results as they come in, and when surveys are completed.
+   2. **Phased Access**: Roles don't have automatic access to Live or completed surveys until they're granted access by the admin, on a per program case. This access does allow retained access to previous surveys and other data inside Viva Glint programs.
+3. Toggle **Concierge Visibility** to enable or disable Manager Concierge. [Visit Manager Concierge for a deeper dive](https://go.microsoft.com/fwlink/?linkid=2231115).
    >[!TIP]
    > Use Manager Concierge for your manager to get the most out of their survey feedback.
 4. Toggle **Broader Team Insights** to enable or disable a roll-up level of survey results that can be visible to managers if they haven't met survey confidentiality thresholds within their team. [Visit Broader Team Insights for a deeper dive](https://go.microsoft.com/fwlink/?linkid=2231012).
 5. Team Conversations is enabled by default. Toggle to **OFF** to disable this feature.
 6. Select the desired **Dashboard Default** from the dropdown menu.
    >[!TIP]
-   > Company Admin roles should have the [Executive Summary Dashboard](https://go.microsoft.com/fwlink/?linkid=2231010) and all others should have [Team Summary](https://go.microsoft.com/fwlink/?linkid=2231210).
-7. Recommended reports will prepopulate. To add extra **Report Template Access** , use the **Search** field. Select the **X** next to the report to remove a Report Template access.
+   > Company Admin roles should have the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010) and all others should have [Team Summary](https://go.microsoft.com/fwlink/?linkid=2231210).
+7. Recommended reports will prepopulate. To add extra **Report Template Access**, use the **Search** field. Select the **X** next to the report to remove a Report Template access.
 8. If you need to delete a role for this survey, select **Delete Role** in that role box.
 9. Repeat the steps for each extra role.
 

@@ -27,7 +27,7 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 Great teams build great cultures, and great cultures fuel great companies.
 
-## How does Viva Glint improve overall health of your organization?
+## How does Viva Glint improve the overall health of your organization?
 
 With Viva Glint you can:
 
@@ -38,7 +38,7 @@ With Viva Glint you can:
 - Review data driven feedback to study employee success drivers
 - Translate insights into action and track the feedback progress
 
-## Related Topics
+## Related topics
 
 - [Four stages of Viva Glint program](four-stages-of-viva-glint.md)
 - [Viva Glint Survey overview](glint-surveys-overview.md)

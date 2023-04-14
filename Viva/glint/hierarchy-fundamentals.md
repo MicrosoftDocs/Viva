@@ -1,5 +1,5 @@
 ---
-title: Hierarchy fundamentals
+title: Hierarchy fundamentals in Viva Glint
 description: Learn how Viva Glint uses managerial hierarchy as the primary hierarchy ranking and processes the levels automatically, with a capacity of up to 10 levels.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -28,7 +28,7 @@ A hierarchy filters down an employee's attributes into levels from highest to lo
 
 ## Establish your managerial hierarchy
 
-Managerial hierarchy is typically used as the primary hierarchy ranking. Managerial hierarchy is the only hierarchical level that Microsoft Viva Glint processes automatically. Every employee in your organization should have a manager. The only person on your Employee Data File who won't* have a manager associated with them is your organization's CEO or top-level person. 
+Managerial hierarchy is typically used as the primary hierarchy ranking. Managerial hierarchy is the only hierarchical level that Microsoft Viva Glint processes automatically. Every employee in your organization should have a manager. The only person on your Employee Data File who won't have a manager associated with them is your organization's CEO or top-level person. 
 
 ### Example of setting up managerial hierarchy
 
@@ -40,7 +40,7 @@ Managerial hierarchy is typically used as the primary hierarchy ranking. Manager
   - Harper's row would list Tate's Manager ID or email in the Manager ID column 
   - Tate's row would list Gabriel's Manager ID
   - Gabriel's row would list Dana's Manager ID
-- The hierarchy ends with Dana, as Dana is the CEO, who doesn't report to anyone. 
+- The hierarchy ends with Dana, as Dana is the CEO, who doesn't report to anyone
 
 The Viva Glint system automatically configures Harper's hierarchy level within their company as:
 

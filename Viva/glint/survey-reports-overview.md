@@ -1,5 +1,5 @@
 ---
-title: Survey reports overview
+title: Survey reports overview in Viva Glint
 description: Learn how Viva Glint admins establish access to a wide array of reports for each specific manager.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -42,8 +42,8 @@ Admins can assign specific reports for distinct roles.
 
 There are two levels of reporting access you can choose for your leaders.
 
-- **Live access:** Reporting access is readily available in real time as surveys are completed. Administrators will always have Live access and can't be included in Phased access rollout.
-- **Phased access:** Recommended for managers and HRBPs (HR Business Partners) for action planning, tracking, and reviewing feedback results for *completed* surveys, excluding this role group from real-time, live survey results. Phased access is configured at the program level but occurs at the cycle level.
+- **Live access**: Reporting access is readily available in real time as surveys are completed. Administrators will always have Live access and can't be included in Phased access rollout.
+- **Phased access**: Recommended for managers and HRBPs (HR Business Partners) for action planning, tracking, and reviewing feedback results for *completed* surveys, excluding this role group from real-time, live survey results. Phased access is configured at the program level but occurs at the cycle level.
 
   >[!TIP]
   > Keep survey results classified while the survey is Live, among just a small group of leaders. Incomplete results may lead to unintended and inaccurate conclusions. *Feedback results aren't final until all results have been considered.*

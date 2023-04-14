@@ -1,5 +1,5 @@
 ---
-title: Create Employee Attribute Template
+title: Create Employee Attribute Template in Viva Glint
 description: Learn how Viva Glint uses the attributes and hierarchies you provide about the people in your organization to surface meaningful and actionable insights. The template is the row of column headers; all the data you will provide.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -63,7 +63,7 @@ The first page of the template contains instructions for building your own templ
 | **Flat Attribute** | A category that can't be broken down further, such as age group or gender. |
 | **Functional Attribute** | A value that indicates how and when communications are sent to an employee, such as language and time zone. |
 | **Hierarchy** | Filtering down of an employee attribute into levels from highest to lowest, largest to smallest, etc. to provide more precise insights into engagement.  <br>Example: Region > Country > State > City |
-| **Derivation** | Other fields configured based on employee attributes. <p>Examples: Age groups can be derived from birth year or tenure can be derived from hire date |
+| **Derivation** | Other fields configured based on employee attributes. <p>Examples: Age groups can be derived from birth year or tenure can be derived from hire date. |
 | **Schema** | The framework in our platform’s backend, which stores a mapping of your organization’s attributes. |
 
 ### Instructions to upload your Employee Attribute Template
@@ -72,6 +72,6 @@ You'll receive an email confirming that Viva Glint is ready to receive your data
 
 Once your header row (Employee Data Template) is complete, move on to Create your Employee Attribute File.
 
-## Related Topics
+## Related topics
 
 - [Upload your employee attributes](upload-employee-data.md)

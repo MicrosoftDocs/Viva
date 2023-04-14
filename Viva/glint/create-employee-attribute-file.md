@@ -1,5 +1,5 @@
 ---
-title: Create the Employee Attribute File
+title: Create the Employee Attribute File in Viva Glint
 description: Learn how Viva Glint uses your continuously updated employee data to surface meaningful and insightful reports used to increase employee happiness at work and ultimately improve business results. 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -22,7 +22,7 @@ Ensuring your data file is configured and named correctly allows an import witho
 
 ## Choose your file upload format
 
-When creating your employee attribute file, use one of the following two formats:
+When creating your Employee Attribute File, use one of the following two formats:
 
 - .xlsx
 - .csv (comma delimited) file 
@@ -48,7 +48,7 @@ When creating your employee attribute file, use one of the following two formats
 
 On your Employee Attribute Template, you have to set up the first row of your file after discussion with your internal stakeholders. All required and custom attributes, and hierarchies, should appear as you would like them to appear on all reports going forward. This first row is your file blueprint. 
 
-Ensure that attribute labels stay consistent over time in your Employee Data File. For example, if an attribute is set up as “Employee ID”, it will not later be recognized as the same column renamed as “Employee Number”.
+Ensure that attribute labels stay consistent over time in your Employee Data File. For example, if an attribute is set up as “Employee ID,” it will not later be recognized as the same column renamed as “Employee Number.”
 To create your attribute header row, follow these steps:
 
 1. Create a new file, which contains only a single tab. 

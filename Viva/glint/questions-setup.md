@@ -1,5 +1,5 @@
 ---
-title: Set up Questions page
+title: Set up Questions page in Viva Glint
 description: On the Questions page admins, add or modify items prepopulated into survey templates.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -41,7 +41,7 @@ Hover over the vertical ellipses next to the question to select one of the follo
 
 ### Edit Targeting
 
-Adding a target to a specific question ensures that only the population targeted sees it within the survey. Using the search boxes, select a User Role to include or exclude. When finished, select **Save Changes.**
+Adding a target to a specific question ensures that only the population targeted sees it within the survey. Using the search boxes, select a User Role to include or exclude. When finished, select **Save Changes**.
 
 ### Edit Question
 
@@ -58,7 +58,7 @@ Changes you make here will instantly propagate to all programs that use this que
 - Make the question (item) optional
 - Map the question to a Suggested Action Template
 
-When finished, select **Save.**
+When finished, select **Save**.
 
 ### Delete
 

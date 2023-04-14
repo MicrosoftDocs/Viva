@@ -1,5 +1,5 @@
 ---
-title: Upload your employee attributes
+title: Upload your employee attributes in Viva Glint
 description: Learn how Viva Glint provides the most relevant results reporting when employee attributes are uploaded on a regular cadence.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -95,6 +95,6 @@ Your company can send Employee Attribute File updates whenever necessary and bas
 >
 > If you have fewer than 10,000 employees in your attributes base, a daily feed of the full file should be sufficient, and you won’t have to send an incremental file. If you have a large employee data set with several attributes (50+), sending full files 1-2 times per month with daily incremental files may make more sense for your company’s needs.
 
-## Related Topics
+## Related topics
 
 - [Create Employee Attribute Template](create-employee-attribute-template.md)

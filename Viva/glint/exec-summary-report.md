@@ -1,5 +1,5 @@
 ---
-title: Use the Executive Summary dashboard
+title: Use the Executive Summary dashboard in Viva Glint
 description: The Executive Summary is a grouping of reports which leaders can display on their dashboard to share high level results to their teams or the entire company.
 ms.author: SarahBerg
 author: SarahAnneBerg
