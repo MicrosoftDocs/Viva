@@ -85,7 +85,7 @@ Deleting a user is a permanent action and can't be undone. It removes all their 
 
 Admins can’t delete users who currently own any objective. To delete those users, reassign their OKRs first, and then delete the user.
 
-:::image type="content" source="../media/goals/2/23/f.jpg" alt-text="Screenshot of the error dialog you get when you try to delete a user who owns objectives or projects." lightbox="../media/goals/2/23/f.jpg"::: 
+:::image type="content" source="../media/goals/2/23/f.jpg" alt-text="Screenshot of the error dialog you get when you try to delete a user who owns objectives or initiatives." lightbox="../media/goals/2/23/f.jpg"::: 
 
 **Example scenario of when to deactivate a user**
 

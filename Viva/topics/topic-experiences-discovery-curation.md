@@ -43,7 +43,7 @@ Not every identified topic will be useful to your organization. It might not hav
 
 Viva Topics then, when the context is appropriate, will suggest these topics to be highlighted on all SharePoint modern site pages in your tenant. The topic can also be directly referenced on the SharePoint modern site page by a page author. When a user is curious to learn more about a topic, they can select the highlighted topic to view a **Topic summary** card that provides a short description. And if they want to learn more, they can select a **Topic details** link in the summary to open the detailed topic page.
 
-![Topic highlights.](../media/knowledge-management/saturn.png) </br>
+![Screenshot of a Topic summary card.](../media/knowledge-management/saturn.png) </br>
 
 Additionally, users will also be able to find topics through Microsoft Search.
 

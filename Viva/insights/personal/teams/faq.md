@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 01/22/2021
 title: FAQ for the Viva Insights app
 description: Personal insights FAQ for Microsoft Viva Insights app
