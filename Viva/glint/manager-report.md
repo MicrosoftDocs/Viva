@@ -21,7 +21,7 @@ description: "The Manager Report displays a Directs or Roll-up Hierarchy view fo
 
 # Use the Manager report in Viva Glint
 
-The Manager Report displays a Directs or Roll-up Hierarchy view of comparisons for two different survey items. These preset items are assigned during the survey setup process and appear by default, however the Manager or Human Resource Business Partners (HRBP) can change which items are displayed by clicking the question label at the top of the column. Similar to other reports, column headers are static and can be used as a sort feature. 
+The Manager Report displays a *Directs* or *Roll-up Hierarchy* view of comparisons for two different survey items. These preset items are assigned during the survey setup process and appear by default, however the Manager or Human Resource Business Partners (HRBP) can change which items are displayed by clicking the question label at the top of the column. Similar to other reports, column headers are static and can be used as a sorting feature. 
 
 ## Understand Manager report terminology 
 
