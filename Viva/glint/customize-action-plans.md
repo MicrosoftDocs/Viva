@@ -50,7 +50,7 @@ All content that exists in Content Resources is considered Viva Glint standard c
 
 ## Adding external links to Content Resources 
 
-1. From the Viva Glint admin dashboard, select Configure and then **Content Resources**. 
+1. From the Viva Glint admin dashboard, select **Configure** and then **Content Resources**. 
 1. Select **+ New**. 
 1. Select **I Understand**, indicating that you understand that adding a new item adds it for all languages. 
 1. Add a title in the Untitled Resource section, select the **Resource Type** from the dropdown box, and add a description. 
@@ -80,7 +80,6 @@ Most standard survey items are automatically linked to a Suggested Action Templa
 1. Insert a name that resonates with you for ease of finding later. 
 1. Select **Done**. *The new Suggested Action Template will now appear as a Custom template*.
 
-Adding a question to a Suggested Action Template and then cloning the template 
 
    > [!NOTE]
    >Suggested Action Templates update in real time. Often standard survey items are shared across multiple survey programs. You may be updating a template currently in use. Be sure that the addition will be useful to any user who has chosen that template as a Focus Area. 
