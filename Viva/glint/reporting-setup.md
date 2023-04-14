@@ -1,5 +1,5 @@
 ---
-title: Set up Reporting page in Viva Glint
+title: Reporting setup in Program Summary of Viva Glint
 description: On the Reports page admins, customize how dashboards are set up and how specific roles view them. 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/13/2023
 ---
 
-# Set up Reporting page
+# Reporting setup in Program Summary
 
 The Reporting page allows admins to customize how dashboards are set up and how specific roles view survey results.
 

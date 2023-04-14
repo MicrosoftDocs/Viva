@@ -1,5 +1,5 @@
 ---
-title: Set up Questions page in Viva Glint
+title: Questions setup in Program Summary of Viva Glint
 description: On the Questions page admins, add or modify items prepopulated into survey templates.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/13/2023
 ---
 
-# Set up Questions page
+# Questions setup in Program Summary
 
 The Questions page allows you to add or modify the items included in a survey. If you selected a default template, Glint recommended items prepopulate. Refer to the "Setting up Survey Items" lesson to add or modify survey items.
 

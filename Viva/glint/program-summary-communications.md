@@ -1,5 +1,5 @@
 ---
-title: Set up Communications
+title: Communications setup in Program Summary of Viva Glint
 description: Learn how to notify employees about upcoming surveys, the window for taking a survey, and providing the survey in their preferred language is key.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/13/2023
 ---
 
-# Set up Communications
+# Communications setup in Program Summary
 
 Setting up notifications and providing translations to your programs happen in this section of Program Summary.
 
