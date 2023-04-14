@@ -10,6 +10,8 @@ items:
         href: advanced/setup-maint/environment-requirements.md
       - name: Setup introduction
         href: advanced/setup-maint/setup-overview.md
+      - name: Support
+        href: get-insights-support.md  
       - name: Personal insights
         items:
         - name: In Teams and on the web
