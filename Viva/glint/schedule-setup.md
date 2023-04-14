@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Set up Schedule page 
+title: Set up Schedule page in Viva Glint
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "On the Schedule page, you indicate when and how often your survey program is sent."
 ---
 
-# Set up Schedule page 
+# Set up Schedule page in Viva Glint
 
 Choose the cadence for your program. This determines your launch date(s) and how often your employees receive this survey.   
 
@@ -30,7 +30,9 @@ Choose the cadence for your program. This determines your launch date(s) and how
    > [!NOTE]
    > Survey dates can be edited on a per survey basis, and surveys will have to be manually approved and enabled to be sent out.
 
-   **Best Practice**: Consider other survey programs already in place and business processes that might influence your ability to act on the outcomes of the survey in a timely, meaningful manner.
+   > [!TIP]
+   > Consider other survey programs already in place and business processes that might influence your ability to act on the outcomes of the survey in a timely, meaningful manner.
+
 
 2. Select your target launch date in the **Send the next survey** on section. Dates are displayed in the time zone that your program admin has preselected.
 3. Once you select the date for your survey to be sent, a tentative schedule, based on the cadence selected, will appear in **Schedule Preview**.

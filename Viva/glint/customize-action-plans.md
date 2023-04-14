@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Customize action plans 
+title: Customize action plans in Viva Glint
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Add personally selected content resources to action plans for your managers to use with their teams."
 ---
 
-# Customize action plans 
+# Customize action plans in Viva Glint    
 
 Suggested Action Templates contain content that Microsoft Viva Glint has included as suggested action items to help managers achieve Focus Areas with their teams. Action Plan templates live in Content Resources within Action Taking on the admin dashboard. 
 
@@ -65,7 +65,7 @@ Edited content must be renamed before it can be saved and published. This step i
 
 Dozens of LinkedIn Learning videos are already linked to Viva Glint templates. If you’re already a LinkedIn Learning customer and want to add different course content to your Viva Glint template, check out [LinkedIn Learning Customer Success: Course Content Corner](https://learning.linkedin.com/customer-success-center/linkedin-learning-course-content-corner?lr=1). To become a LinkedIn Learning customer, use this [link](https://learning.linkedin.com/).  
 
-## Link a new survey item to a Suggested Action Template 
+## Link a new survey item to a Suggested Action Template s
 
 Most standard survey items are automatically linked to a Suggested Action Template by default. You can, however, edit an existing template by linking new items to it. This creates a new template (clone) that you'll rename. 
 

@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Why surveys are confidential rather than anonymous  
+title: Why surveys are confidential rather than anonymous in Viva Glint 
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg

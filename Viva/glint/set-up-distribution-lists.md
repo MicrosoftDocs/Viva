@@ -69,7 +69,7 @@ There are two options:
 1. Select  **I want to include all active employees only**. 
 1. For an Exit survey, consider enabling  **Include Inactive Employees**, located below the selection box. To include inactive employees, contact them via their personal email; ensure you have a personal email when an employee leaves your organization, if possible. 
 
-1. If you need to exclude someone, search for their name and select Exclude. 
+1. If you need to exclude someone, search for their name and select **Exclude**. 
 
 1. Conversely, if you need to remove someone from the Excluded list, search their name and select  **Remove**. 
 
@@ -94,9 +94,9 @@ There are two options:
 1. Confirm list and select  **Save Changes**. 
 
    > [!NOTE]
-   >The date range selected for an attribute should always be equal to or greater to the frequency at which you update your Employee Attribute File. For companies that integrate their HRIS files automatically, this will work well. For companies that manually update files, ensure that the window you’ve set is wide enough to include the frequency with which employee data is refreshed. For example, if a window is set to 15 days but employee files are only updated once every 30 days, the survey will likely miss people who should get the survey, since the date range is only set to look at people who started 30-45 days earlier. Instead, set the window for at least 30 days so you are sure to include everyone.
+   >The date range selected for an attribute should always be equal to or greater to the frequency at which you update your Employee Attribute File. For companies that integrate their Human Resources Information System (HRIS) files automatically, this will work well. For companies that manually update files, ensure that the window you’ve set is wide enough to include the frequency with which employee data is refreshed. For example, if a window is set to 15 days but employee files are only updated once every 30 days, the survey will likely miss people who should get the survey, since the date range is only set to look at people who started 30-45 days earlier. Instead, set the window for at least 30 days so you are sure to include everyone.
 
-After selecting an attribute, you'll see a list of employees that match your criteria. From here, employees can be manually excluded by selecting that employees name in the Included box and then selecting Exclude when it appears.
+After selecting an attribute, you'll see a list of employees that match your criteria. From here, employees can be manually excluded by selecting that employees name in the Included box and then selecting **Exclude** when it appears.
 
    > [!NOTE]
    >You do not have the option to manually include employees.
@@ -107,7 +107,7 @@ Editing a Distribution List is a global change and will affect any program using
 
 1. Select the Distribution List you want to modify. 
 
-1. Select  **Add/Edit Employees**  or  **Edit Attribute Rules**  if there are filters available. 
+1. Select **Add/Edit Employees**  or **Edit Attribute Rules**  if there are filters available. 
 
 1. Make the necessary changes and select  **Save Changes**. 
 

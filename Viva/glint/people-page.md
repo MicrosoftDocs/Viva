@@ -1,6 +1,6 @@
 ---
 ms.date: 04/04/2023
-title: Use the People page to view employee information 
+title: Use the People page to view employee information in Viva Glint
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "The People page on the dashboard allows Viva Glint admins to view employee attributes, manage permissions and roles, and deactivate employees."
 ---	
 
-# Use the People page to view employee information  
+# Use the People page to view employee information in Viva Glint
 
 The People page functionality allows admins to view employee attributes, manage permissions and roles, and deactivate employees. 
 
@@ -86,7 +86,7 @@ The Login As functionality allows you to open your Viva Glint program as if yo
 
 1. Select  **Login As**. 
 
-1. The dashboard indicates “You're logged in as  `<other person name>`. 
+1. The dashboard indicates “You're logged in as  `<other person name>`." 
 
 To return to your own account, select  **Return to your account**. 
 
@@ -98,9 +98,9 @@ The Actions button dropdown menu allows you to reset passwords and send surveys.
 
 An email is sent to the employee’s email address with instructions for password reset.
 
-### Send Pulse Survey 
+### Send Survey 
 
-You can send a survey to one employee (manually) from the People page. Use the Actions button and then  **Send Pulse Survey**. 
+You can send a survey to one employee (manually) from the People page. Use the Actions button and then  **Send Survey**. 
 
 - Enabled and live surveys are displayed. Select the survey to send.  
 

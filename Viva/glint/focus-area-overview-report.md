@@ -33,7 +33,7 @@ From the admin dashboard, follow this procedure:
 
 1. From the top menu bar, select the **Reports** tab. 
 1. In the left-most column of the Reports page, select **Focus Area Overview**.  
-1. Now select the Focus Area Overview card. 
+1. Now select the **Focus Area Overview** card. 
 
 ## How leaders can use this report 
 
@@ -73,7 +73,7 @@ You can export Focus Area data from two different dashboard sections:
 
 ### Exporting Focus Area data from the admin dashboard 
 
-1. In the Action Taking section, select All Action Items Report. 
+1. In the Action Taking section, select **All Action Items Report**.
 1. The report automatically generates as a *.csv* file. 
 
 ### What will the report show? 

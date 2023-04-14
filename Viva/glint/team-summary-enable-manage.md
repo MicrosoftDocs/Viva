@@ -74,7 +74,7 @@ Prepare to train your manager to use their Team Summary dashboard results by pre
 >[!TIP]
 >To navigate to reports for other existing programs, select Switch Program from your demo dashboard. Then select the program and navigate to Reports.
 
-**To see exactly what your manager will see:**
+To see exactly what your manager will see:
    > [!NOTE]
    > This cannot happen until the survey is closed.
 
@@ -84,6 +84,6 @@ Prepare to train your manager to use their Team Summary dashboard results by pre
 1. Select **Login As** on the employee's information page.
 1. Choose the program that is enabled for Team Summary in **Switch Prog**.
 
-**Can I generate a new demo data report preview after editing a survey?**
+Can I generate a new demo data report preview after editing a survey?
 
 To replace a generated report with newly uploaded employee attributes, use the dialog box indicating that a report preview has previously been generated. To replace the demo report with the updated version, select **Generate Report Preview**. The seven-day report visibility will start over with the generation of the new report.  

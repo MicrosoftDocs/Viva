@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Managers using the Team Summary dashboard
+title: Managers using the Team Summary dashboard in Viva Glint
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "The Viva Glint Team Summary manager dashboard experience provides feedback visibility into key insights, strengths, and opportunities."
 ---	
 
-# Managers using the Team Summary dashboard 
+# Managers using the Team Summary dashboard in Viva Glint
 
 The Team Summary manager dashboard experience displays results from the most recently closed program. You can choose to see results from previous programs as well. 
 The following guide describes each section in the manager dashboard. 
@@ -29,19 +29,19 @@ The following guide describes each section in the manager dashboard.
 The title section includes:
 
 - The current survey title that you have chosen 
-- The date the survey closed or is closing on - for Recurring and Ad Hoc surveys 
-- Viewing window - for Employee Lifecycle and Always-On surveys 
-- Settings button – for filtering comparison and outcome items 
-- Switch Program button – for changing to view another completed program
+- The date the survey closed or is closing on: For Recurring and Ad Hoc surveys 
+- Viewing window: For Employee Lifecycle and Always-On surveys 
+- Settings button: For filtering comparison and outcome items 
+- Switch Program button: For changing to view another completed program
 
 ## Manager Concierge visibility
 
 Your manager sees the following four steps: 
 
-1. Step 1 – Give feedback 
-1. Step 2 – Interpret results 
-1. Step 3 – Discuss with your team 
-1. Step 4 – Commit to next steps 
+1. Step 1: Give feedback 
+1. Step 2: Interpret results 
+1. Step 3: Discuss with your team 
+1. Step 4: Commit to next steps 
 
 ## What else will your manager see on their dashboard? 
 
@@ -82,9 +82,9 @@ In this section, you'll also see:
 - Your team score compared to the Company score. To view your team score in comparison to the external comparison score (outside your organization), use the **Settings** button to switch to **Benchmark**. The Benchmark may be global, or it may be industry or location specific. Your administrator made this choice when setting up your survey program. 
 - Favorability breakdown of responses to your key outcome question - on a 5-point scale (recommended), favorability is based on the following response scores:
 
-    - A score of 4-5 indicates favorable - blue 
-    - A 3 indicates the responder was neutral - gray 
-    - A score of 1-2 indicates unfavorable – red    
+    - A score of 4-5 indicates favorable: Blue 
+    - A 3 indicates the responder was neutral: Gray 
+    - A score of 1-2 indicates unfavorable: Red    
 
 Use the right-facing arrow to drill down for more information and suggested actions for each item. 
 

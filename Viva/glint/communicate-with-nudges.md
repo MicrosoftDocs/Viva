@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Communicate with Nudges 
+title: Communicate with Nudges in Viva Glint
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Nudges are personalized email notifications designed to meet managers where they are in their flow of work. Team Summary is easily enabled from the Viva Glint admin dashboard, allowing program roles permissions to relevant reports."
 ---
 
-# Communicate with Nudges
+# Communicate with Nudges in Viva Glint
 
 Microsoft Viva Glint Nudges is a system of intelligent, personalized email notifications designed to meet managers where they are in their flow of work. Nudges encourage managers to take simple steps to drive their team’s engagement and performance. Nudge notifications can include a link to the manager dashboard.
 
@@ -68,12 +68,13 @@ There are several sections to set up.
 
 Defines when and how frequently users receive Nudges. Messages are sent between 8:00 am-12:00 pm in the recipient's time zone.
 
-- Frequency: From the dropdown menu, choose to send Nudges from every one to eight weeks. Frequency can be adjusted after a survey launches.<br>
-  **Best Practice**: Send Nudges every two to four weeks.
-- Send Day: Choose a business day of the week. 
-- Window: Select the number of days Nudge messages will send after a survey closes. Options are 90 or 180 days.<br>
-  **Best Practice**: Align Nudges to your survey cadence, i.e., 90 days for quarterly surveys, 180 days for biannual survey.
-
+- Frequency: From the dropdown menu, choose to send Nudges from every one to eight weeks. Frequency can be adjusted after a survey launches.
+  > [!TIP]
+  >Send Nudges every two to four weeks.
+  >Send Day: Choose a business day of the week.
+  >Window: Select the number of days Nudge messages will send after a survey closes.  
+  >Align Nudges to your survey cadence, i.e., 90 days for quarterly surveys, 180 days for biannual survey.
+      
 ### Content 
 
 Configure the emails that will be sent to your recipient group. 

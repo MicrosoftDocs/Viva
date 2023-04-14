@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Set up Program Setup 
+title: Set up Program Setup page
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 description: "In Program Setup you define the basics of your program, such as its name and what languages will be needed."
 ---
-# Set up Program Setup
+# Set up Program Setup page
 
 The Program Setup page is the first configuration page within Program Summary. It allows you to define the basics of your program.
 

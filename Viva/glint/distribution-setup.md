@@ -1,6 +1,6 @@
 ---
 ms.date: 04/04/2023
-title: Set up Distribution page  
+title: Set up Distribution page in Viva Glint
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "On the Distribution page you indicate which people within your organization will receive a specific program."
 ---	
 
-# Set up Distribution page  
+# Set up Distribution page in Viva Glint
 
 The Distribution page in Program Summary allows you to choose the people in your organization that will receive this program’s survey. User lists are updated when your Employee Data Files are uploaded to ensure that the most current data file is in use before each survey launch.   
 
@@ -33,13 +33,14 @@ In this step, you use existing Distribution Lists or will need to create new one
 
 ## Download survey recipients 
 
-Select **Download Recipients** to generate an *.xlsx* list of current Distribution List members. A dialog box appears where you may optionally add more detail to your spreadsheet.  
+Select **Download Recipients** to generate an *.xlsx* list of current Distribution List members. A dialog box appears where you may optionally add more detail to your spreadsheet.
 
-**Best Practice**: Use the export function to validate the member list after you have added or created a Distribution List.   
+   > [!TIP]
+   > Use the export function to validate the member list after you have added or created a Distribution List. 
 
 ## Modify an existing Distribution List 
 
-Select the pencil symbol to **Modify Distribution Lists**
+Select the pencil symbol to **Modify Distribution Lists**.
 
    > [!CAUTION]
    > Modifying a Distribution List will affect any programs using it.      

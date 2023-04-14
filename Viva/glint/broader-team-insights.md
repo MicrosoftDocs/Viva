@@ -21,7 +21,7 @@ description: "Broader Team Insights bridges the confidentiality-driven gap for m
 
 # Use the Broader Team Insights feature 
 
-Team leaders who use Microsoft Viva Glint’s action taking tools see a significant increase in scores, however, up to 50% of managers’ teams are too small to allow them access results to their own team’s results. By enabling Broader Team Insights, managers are empowered to significantly impact employee engagement.  
+Team leaders who use Microsoft Viva Glint’s action taking tools see a significant increase in scores. However, up to 50% of managers’ teams are too small to allow them access to their own team’s results. By enabling Broader Team Insights, managers are empowered to significantly impact employee engagement.  
 
 Managers of small teams may not have enough team members with overall size or response rate size - to view their own team’s survey responses. Viva Glint considers this number to be a team of five or five respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights helps to bridge that gap. 
 
@@ -38,7 +38,7 @@ The Broader Team Insights dashboard allows managers to review a high-level summa
 
 By enabling bottom-up change, you can create more engaged people, align teams, and promote greater business performance.
 
-## How small teams uses Broader Team Insights
+## How small teams use Broader Team Insights
 
 When a team’s number of responses fall below the confidentiality threshold, as in the example of Terence’s team of three in the image below, the team manager can't view their own team’s results. With Broader Team Insights, however, the team leader can view the results of their direct leader’s team.
 
@@ -46,7 +46,7 @@ When results are ready, the team manager (Terence, in this example) will receive
 
 In this summary report view, Terrence can see customized guidance on how to have a conversation with their own team about the Broader Team Insights results and an abbreviated view of the Executive Summary report.
 
-## How large teams uses Broader Team Insights
+## How large teams use Broader Team Insights
 
 In the following example, Terence’s manager, Kira, does see results for her team. However, with Broader Team Insights, she has an option to view a high-level summary of her own manager’s results, adding her own team’s feedback and scores into the context of her broader team and increasing transparency across the organization. 
 
@@ -63,7 +63,7 @@ From the admin dashboard, Broader Team Insights is enabled following this proced
 The first section in **Reporting** is **Program Roles**. In this section, you customize how your dashboard displays results and when your people can view survey results. This section allows set up by specific roles. 
 
    > [!NOTE]
-   >When a manager is in a role with Broader Team Insights enabled, cascaded results are based on their custom permissions, irrespective of their rollup managerial hierarchy. Decide whether this role’s reports are visible to directs only or are visible to their entire roll-up hierarchy. **ON** enables sharing of report, **OFF** disables the role from sharing reports.
+   >When a manager is in a role with Broader Team Insights enabled, cascaded results are based on their custom permissions, irrespective of their rollup managerial hierarchy. Decide whether this role’s reports are visible to directs only or are visible to their entire roll-up hierarchy. **ON** enables sharing of report. **OFF** disables the role from sharing reports.
 
 - Use the dropdown menu to assign report visibility to direct report or roll-up hierarchy. 
 - The padlock icon symbolizes that this role isn't editable on this page and can only be edited in **Program Setup**.
@@ -78,7 +78,9 @@ Turnover within roles is inevitable. For this reason, as with action taking, we 
 ## Choose Live versus Phased reports access 
 
 Once a survey is completed, it moves to the Completed section of the Program page, and you can view the access it has been assigned by hovering over the **Reporting Access** column. For more information, see [Live vs Phased access](https://go.microsoft.com/fwlink/?linkid=2230747). 
-Best Practice: Set a calendar reminder to grant Phased access to leaders without Live access permissions. 
+
+   > [!TIP]
+   >Set a calendar reminder to grant Phased access to leaders without Live access permissions.
 
 ### How to change access once User Roles are set 
 

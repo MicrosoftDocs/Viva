@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: The Team Summary dashboard
+title: The Team Summary dashboard in Viva Glint
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Team Summary is an enhanced survey results dashboard for managers which captures employee feedback as an easy-to-use and insightful experience for sharing with their teams"
 ---
 
-# The Team Summary dashboard
+# The Team Summary dashboard in Viva Glint
 
 Team Summary is an enhanced survey results dashboard for managers that captures employee feedback in an easy-to-use and insightful way.
 

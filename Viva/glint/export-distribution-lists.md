@@ -1,6 +1,6 @@
 ---
 ms.date: 04/04/2023
-title: Export Distribution Lists 
+title: Export Distribution Lists in Viva Glint
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Viva Glint admins can export Distribution Lists to quickly see the list of employees receiving a survey or members of a group with specific permissions."
 ---	
 
-# Export Distribution Lists   
+# Export Distribution Lists in Viva Glint  
 
 Admins can export Distribution Lists to quickly see the list of employees receiving a survey or the members of a group with specific permissions. This is especially useful for large teams. 
 
