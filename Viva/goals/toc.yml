@@ -11,6 +11,17 @@ items:
       href: define-your-team.md
     - name: Determine Your Rollout Plan
       href: determine-your-rollout-plan.md
+    - name: Start a trial with Viva Goals
+      items:
+      - name: Start a Trial Overview
+        href: viva-goals-trials.md
+      - name: IT Admin-led Trials
+        href: it-admin-trials.md
+      - name: Self-service Trials
+        href: self-service-trials.md
+      - name: Trial Checklist
+        href: trials-checklist.md
+
 - name: Setup and Administration
   items:
     - name: Viva Goals Setup and Administration Deployment Guide
