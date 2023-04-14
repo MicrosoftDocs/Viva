@@ -51,10 +51,10 @@ To give extra User Roles access to view this program's survey results:
 
 If adding an Aggregate Index:
 
-1. Select **+ Add Aggregate Index**. Visit Aggregates for a deeper dive.
+1. Select **+ Add Aggregate Index**.
 2. In the **Create Aggregate** panel, enter a name. For example, <Engagement\> or the name, which makes the most sense for your users.
 3. In the **Search Questions** dropdown menu, search and select **eSat** and **Recommend** items.
-4. Select **Save** and then **Add to Program**
+4. Select **Save** and then **Add to Program**.
 5. Select **X** to close the panel.
 
 >[!TIP]

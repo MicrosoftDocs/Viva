@@ -35,7 +35,7 @@ Customize the introduction message for the survey by hovering over the box with 
 
 When you have finished, select **Save Changes**.
 
-### Edit individual questions (items)
+## Edit individual questions (items)
 
 Hover over the vertical ellipses next to the question to select one of the following:
 
