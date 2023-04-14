@@ -27,7 +27,7 @@ Microsoft Viva is designed to solve modern workplace problems for hybrid workers
 
  Learn more about [new Viva experiences](/viva/getting-started-with-microsoft-viva#learn-more-about-new-viva-experiences).
 
-## Discover popular business scenarios that are supported by Viva
+## Discover popular business scenarios supported by Viva
 
 Not sure which Viva app will have the most impact on your organization? Review popular needs and wants of large organizations. Then, identify which Viva app can help you reach the goals of both end users and the organization.
 
