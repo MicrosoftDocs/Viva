@@ -1,4 +1,5 @@
 ---
+ms.date: 09/16/2021
 title: Privacy guide for personal insights
 description: Overview of privacy features for personal insights, including info about data de-identification and privacy, minimum group size for reporting, admin settings, and users in sensitive roles
 author: madehmer
@@ -17,6 +18,9 @@ audience: user
 ---
 
 # Privacy guide for personal insights
+
+>[!Important]
+>This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 Personal insights in Microsoft Viva Insights help you find opportunities to build better habits and get back in control of your time. This article describes how Viva Insights uses personal data for personal insights, where it stores that data, and the ways in which it was designed to keep that data safe. It also describes how Viva Insights complies with GDPR regulations.
 
@@ -39,7 +43,7 @@ Personal insights in Microsoft Viva Insights help you find opportunities to buil
 
 Personal insights in Viva Insights are available as follows:
 
-* [Viva Insights in Teams and on the web](../teams/viva-insights-home.md)
+* [Viva Insights in Teams and on the web](../teams/home.md)
 * [Viva Insights in Outlook](../use/add-in.md)
 * [Briefing emails in Outlook](../Briefing/be-overview.md)
 * [Digest emails in Outlook](../use/email-digests-3.md)
@@ -92,3 +96,4 @@ As is the case with the full Microsoft 365 suite, Viva Insights helps support co
 * **Requests to export, delete, or restrict processing personal data**. Microsoft supports user requests, such as requests for export of or deletion of data.
 
 For more information, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
+

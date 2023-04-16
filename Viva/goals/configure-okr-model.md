@@ -1,9 +1,10 @@
 ---
+ms.date: 05/04/2022
 title: Configure your OKR rules in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
-author: RaSanders-MSFT
-manager: 
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -27,7 +28,7 @@ Viva Goals understands that every business has its own set of processes and lets
 
 1.	On the left panel in Viva Goals, select **Admin**.
 1. In the **Admin Dashboard** section, select the **OKR Model Configuration** tab. 
-2.	Define your objectives and key results (OKRs) and projects as described in the following sections.
+2.	Define your objectives and key results (OKRs) and initiatives as described in the following sections.
 
 ### Define objectives
 
@@ -52,41 +53,41 @@ Enable the **Block objectives** option if you don't want child objectives in you
 
 Select this option if your organization often breaks down a key result's metrics into parts.
 
-### Define projects
+### Define initiatives
 
-The **Projects** section covers project enablement, alignment, and contribution options.
+The **Initiatives** section covers initiative enablement, alignment, and contribution options.
 
-#### Enable projects
+#### Enable initiatives
 
-Projects are the activities that drive toward your key results (your outcomes). Enable this option if you want projects reflected in your instance of Viva Goals.
+Initiatives are the activities that drive toward your key results (your outcomes). Enable this option if you want initiatives reflected in your instance of Viva Goals.
 
-- **Enable projects for specific users**
+- **Enable initiatives for specific users**
 
-   Select this option if you want a few users in your organization to try out the projects feature before you roll it out more broadly. Only these specific users will be able to add projects. The projects created by these users will be visible to everyone. Search for and select the users that you want to enable projects for and save the list. 
+   Select this option if you want a few users in your organization to try out the initiatives feature before you roll it out more broadly. Only these specific users will be able to add initiatives. The initiatives created by these users will be visible to everyone. Search for and select the users that you want to enable initiatives for and save the list. 
 
-- **Allow projects to be nested under key results**
+- **Allow initiatives to be nested under key results**
 
-   Select this option if you want users to be able to create projects focused on moving a single key result rather than the overall objective.
+   Select this option if you want users to be able to create initiatives focused on moving a single key result rather than the overall objective.
 
-- **Define how projects should contribute**
+- **Define how initiatives should contribute**
 
-   Select how projects should contribute to the progress of their parent:
+   Select how initiatives should contribute to the progress of their parent:
 
-   - Projects contribute to the progress of their parent by default.
-   - Projects don't contribute to the progress of their parent by default.
-   - Block projects from contributing to the progress of their parent.
+   - Initiatives contribute to the progress of their parent by default.
+   - Initiatives don't contribute to the progress of their parent by default.
+   - Block initiatives from contributing to the progress of their parent.
 
 
 ## How to save your OKR model configuration settings
 
-Select **Save** once you've chosen the settings that define your objectives, key results, and projects. The changes will take effect after select **Yes, Switch** in the confirmation pop-up dialog. 
+Select **Save** once you've chosen the settings that define your objectives, key results, and initiatives. The changes will take effect after select **Yes, Switch** in the confirmation pop-up dialog. 
 
 > [!NOTE]
-> Existing OKRs and Projects will remain untouched. Changes will be applied only to OKRs and projects created after the new settings are saved.
+> Existing OKRs and initiatives will remain untouched. Changes will be applied only to OKRs and initiatives created after the new settings are saved.
 
 ## How to customize the Objectives and Key Results progress bar 
 
-Viva Goals offers a progress bar customization setting. This setting lets admins override the automatic scoring system. These setting can be found in the **OKRs & Projects** tab of the **Admin** dashboard. 
+Viva Goals offers a progress bar customization setting. This setting lets admins override the automatic scoring system. These setting can be found in the **OKRs & Initiatives** tab of the **Admin** dashboard. 
 
 Viva Goals assesses progress in two ways: Actual and expected. By default, Viva Goals calculates the expected progress percentage based on the "Start date" and "End date" as specified by the user in the OKR. The actual progress is updated automatically via data integration or the roll-up of key results to an objective for auto-computed OKRs.
 
@@ -99,3 +100,4 @@ The default progress ranges within Viva Goals are:
 - If the difference between expected progress and aggregate progress is less than or equal to 0 percent, the status is mapped as **On Track**.
 
 However, admins don't have to stick to these progress ranges. You can customize them based on the guidelines and policies in your organization.
+

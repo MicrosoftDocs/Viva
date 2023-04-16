@@ -1,13 +1,14 @@
 ---
+ms.date: 07/11/2018
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work 
-author: madehmer
-ms.author: loreenl
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-personal
 ms.service: viva
-manager: helayne
+manager: anirudhbajaj
 audience: user
 ms.subservice: viva-insights
 
@@ -118,6 +119,54 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 ![Move focus block](../../Images/mya/use/move-focus-block-50.png)
 
+## Book time to prepare for meetings
+
+*Applies to: users with Viva Insights subscription*
+
+>[!Note]
+>We're in the process of rolling out these changes to customers.
+
+When you get a meeting invitation, you might notice a suggestion to book meeting prep time.
+
+:::image type="content" source="../../Images/MyA/Use/oai-meeting-prep-time-small.png" alt-text="Meeting prep time insight within a meeting invitation, with the buttons Accept and book time and Feedback." lightbox="../../Images/MyA/Use/oai-meeting-prep-time2.png":::
+
+Viva Insights suggests booking time to prepare for meetings—like reviewing documents and completing related tasks—when these conditions are met:
+
+* The meeting:
+    * Has 11 or fewer invitees.
+    * Is scheduled to last between 30 and 60 minutes.
+    * Doesn't recur.
+    * Hasn't been canceled.
+    * Requires attendee response.
+    * Isn't private.
+    * Doesn't have a "Free," "Working elsewhere," or "Away" status. 
+* You:
+    * Open the meeting invite at least 15 minutes before the meeting starts.
+    * Have at least 15 minutes available for prep time during your working hours.
+    * Didn't dislike any attendee meeting prep nudge in the past seven days.
+    * Haven't booked any prep time for this meeting yet.
+    * Are a required meeting attendee.
+    * Haven't declined the meeting.
+
+When you select **Book time** in the suggestion, Viva Insights accepts the invite, opens the Outlook add-in pane, and prompts you to schedule your prep time. You'll pick from these options:
+
+:::image type="complex" source="../../Images/MyA/Use/oai-book-time.png" alt-text="Screenshot of the Book meeting prep time option in the Viva Insights Outlook add-in pane.":::
+   Screenshot that shows the Viva Insights Outlook add-in pane with a summary of the meeting time and location. Three options, described in the article, appear under a button that says, 'Book 30 min one day before.' The cursor is hovering over 'End of the week, before the meeting' > '30 min.'
+:::image-end:::
+
+* Time:
+    * Right before the meeting
+    * One day before the meeting
+    * The last working day of the week before the meeting
+* Duration:
+    * 15 minutes
+    * 30 minutes
+    * 1 hour
+
+Based on the options you picked, Viva Insights searches for an empty spot on your calendar and schedules an appointment named "Preparation time for [Meeting name]." 
+
+:::image type="content" source="../../Images/MyA/Use/oai-calendar2.png" alt-text="Screenshot of a calendar that has an appointment named, 'Preparation time for Weekly design sync.'":::
+
 ## Shorten a meeting
 
 ***Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md#additional-features).*
@@ -156,3 +205,4 @@ _**Applies to**: This suggestion is currently available only to people who are e
 When composing an email to more than five recipients, you might see a suggestion that reads "Insights can track the email."
 
 Select **Track this email** to see the email open rate and more statistics about this email. This information becomes available 15 minutes after you sent the email. You can see this information by opening the sent email or by opening the Insights add-in and selecting **Track email open rates**.
+

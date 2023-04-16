@@ -1,4 +1,5 @@
 ---
+ms.date: 04/05/2022
 title: Determine your rollout plan
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -125,3 +126,4 @@ For a full rundown on how to successfully drive OKR and Viva Goals adoption in y
 
 > [!NOTE]
 > Your ultimate goal is to find the OKR process that works best for your organization. Viva Goals is designed to be flexible and meet your organization's unique needs. Your strategy and level of buy-in for OKRs will evolve as your team adjusts to the process. Give yourself one to two quarters to get into a good rhythm and watch your employee experience and business outcomes grow stronger.  
+

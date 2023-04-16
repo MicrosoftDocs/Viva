@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 10/06/2020
 title: Enhance organizational resiliency with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and enhance organizational resiliency
 author: madehmer
@@ -104,3 +105,4 @@ According to [Five ways to empower your team to make decisions](https://insights
 * Use [Viva Insights in Outlook](/viva/insights/personal/use/use-the-insights) to manage your calendar and increase your awareness of conflicting meetings and meetings that inform you of decisions. Managers who decline meetings as soon as possible with a brief explanation for why they did so reinforce decision rights and model healthy habits.
 
 For more best practices and ways to remove obstacles, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
+

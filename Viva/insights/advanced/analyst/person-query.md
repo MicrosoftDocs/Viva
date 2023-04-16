@@ -1,4 +1,5 @@
 ---
+ms.date: 07/14/2022
 title: Person query
 description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
@@ -27,6 +28,7 @@ In this section, we'll talk about setting up the query and selecting data for it
 ### Query setup
 
 In the **Analysis** page's **Query setup** section, you define some basic information about your query, like its name, the time period it will analyze, and whether it will refresh on its own.
+
 
 #### To set up your query
 
@@ -205,3 +207,4 @@ Here’s how you might do that:
 [Metric descriptions](./metrics.md)
 
 [Access query results and modify existing queries](./query-results.md)
+

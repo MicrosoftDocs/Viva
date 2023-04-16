@@ -1,4 +1,5 @@
 ---
+ms.date: 04/11/2022
 title: "Private objectives and key results"
 ms.reviewer: 
 ms.author: ranjaliroy
@@ -65,4 +66,5 @@ The owner of the object can modify privacy of that objective.
 - The key results of a private objective can't be multi-aligned to more than one private objective.
 - By default, private OKRs can't be aligned to public OKRs.
 - If your organization wants to be able to have public objectives with private key results, we can enable that functionality.
+
 

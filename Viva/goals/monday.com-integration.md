@@ -1,9 +1,10 @@
 ---
+ms.date: 04/13/2022
 title: monday.com integration
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -15,7 +16,7 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Learn how to connect your projects in monday.com with Viva Goals."
+description: "Learn how to connect your initiatives in monday.com with Viva Goals."
 ---
 
 # monday.com integration
@@ -90,5 +91,6 @@ An admin can disable the monday.com integration at any time:
 2. On the monday.com configurations page, select the **Change** dropdown, select **Disable** and confirm. 
 
     :::image type="content" source="../media/goals/11/monday-disable-button.png" alt-text="Screenshot shows how to disable monday.com in Viva Goals." lightbox="../media/goals/11/monday-disable-button.png":::
+
 
 

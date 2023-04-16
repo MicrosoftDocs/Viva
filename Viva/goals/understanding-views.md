@@ -1,9 +1,10 @@
 ---
+ms.date: 04/28/2022
 title: Understanding views in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -15,7 +16,7 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Learn about the customizable views to easily surface OKRs and projects as you navigate across teams."
+description: "Learn about the customizable views to easily surface OKRs and initiatives as you navigate across teams."
 ---
 
 # Understand views in Viva Goals
@@ -28,17 +29,17 @@ To login to Viva Goals, visit: https://goals.microsoft.com/
 
 There are three views in Viva Goals: 
 
-- **List view** - The list view is the default view in Viva goals. It lets you create, review, and track progress for OKRs and projects across one or more time periods with information like title, type, owner, time period, status, progress, and alignment.
+- **List view** - The list view is the default view in Viva goals. It lets you create, review, and track progress for OKRs and initiatives across one or more time periods with information like title, type, owner, time period, status, progress, and alignment.
 
-- **Quick view** - Quick view is a panel that appears on the right side of the OKRs page when you select the title of an OKR or project. This view provides an overview of progress, details, alignment, children objectives, and activity for an OKR or project.
+- **Quick view** - Quick view is a panel that appears on the right side of the OKRs page when you select the title of an OKR or initiative. This view provides an overview of progress, details, alignment, children objectives, and activity for an OKR or initiative.
 
-- **Chart view** - The chart view displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status at a glance.
+- **Chart view** - The chart view displays all the OKRs and initiatives in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status at a glance.
 
 ## List view 
 
-The OKRs and projects in the list view are displayed in a hierarchical tree structure that you can expand or collapse. When you expand an objective, you can view all the key results, child objectives, and projects under that objective. 
+The OKRs and initiatives in the list view are displayed in a hierarchical tree structure that you can expand or collapse. When you expand an objective, you can view all the key results, child objectives, and initiatives under that objective. 
 
-Child objectives and key results in certain cases can be further expanded so you can view the OKRs and projects that are under them.
+Child objectives and key results in certain cases can be further expanded so you can view the OKRs and initiatives that are under them.
 
 You can also view the parent objective that a particular objective is aligned to. 
 
@@ -46,11 +47,11 @@ You can also view the parent objective that a particular objective is aligned to
 
 **There are three levels of hierarchy in an organization:**
 
-- Organization OKRs and projects 
+- Organization OKRs and initiatives 
 
-- Team-level OKRs and projects 
+- Team-level OKRs and initiatives 
 
-- Individual OKRs and projects  
+- Individual OKRs and initiatives  
 
 **The typical hierarchical structure in Viva Goals is:**
 
@@ -58,7 +59,7 @@ You can also view the parent objective that a particular objective is aligned to
  
 ### Available actions in list view 
 
-- **Time periods** - Time periods are the OKR operating periods or cycles. Every OKR or project is always tagged to a particular time period and has a start and end date. Time periods help you navigate and find OKRs and projects for an organization, team, or  user.
+- **Time periods** - Time periods are the OKR operating periods or cycles. Every OKR or initiative is always tagged to a particular time period and has a start and end date. Time periods help you navigate and find OKRs and initiatives for an organization, team, or  user.
 
 - **Summary panel** - View the progress and status of all your OKRs in that time period, along with the expected-versus-actual progress comparison.
 
@@ -66,34 +67,34 @@ You can also view the parent objective that a particular objective is aligned to
 
 - **Add objective** - Create an objective of type organization/team/individual.
 
--  **Drag and drop** - Reprioritize and change the order of OKRs and projects in the list view.
+-  **Drag and drop** - Reprioritize and change the order of OKRs and initiatives in the list view.
 
-- **Multi-select** - Use the checkbox on the list view row to select more than one OKR or  project to do bulk edit, move, or clone.
+- **Multi-select** - Use the checkbox on the list view row to select more than one OKR or  initiative to do bulk edit, move, or clone.
 
 - **View options** - From this dropdown, you can select to show more information, expand all OKRs by default, show OKRs in a flat view, and compare to a time period. The *expand* view is a time-saving view option under the list view. When it's enabled, all the top-level objectives listed in the OKRs page show one level of children. The *flat-list* view, another view option under the list view, removes the hierarchical structure on the default view on the OKRs page and displays them all as a flat list. That is, all parent and child OKRs are all on the same level and are listed one after another without nesting. 
 
 - **Bulk check-in** - Make check-ins on multiple OKRs that weren't updated since the last check-in reminder in a guided workflow.
 
-- **Group by** - The grouping option lets you streamline your OKR and project view even further. You can group your OKR or project list in the following categories:
+- **Group by** - The grouping option lets you streamline your OKR and initiative view even further. You can group your OKR or initiative list in the following categories:
 
     - Time period
     - Entity
     - Owner
     - Status
 
-### OKR or project actions within list view
+### OKR or initiative actions within list view
 
-1. Select the (`>`) expand icon next to  an objective to view all the key results, child objectives, and projects under it.  
+1. Select the (`>`) expand icon next to  an objective to view all the key results, child objectives, and initiatives under it.  
 
 2. Select the objective to open the quick view and make updates to that objective.  
 
-3. Select the check-in icon or select the progress bar for an OKR/project to initiate and make a check-in. Learn more about check-ins.
+3. Select the check-in icon or select the progress bar for an OKR/initiative to initiate and make a check-in. Learn more about check-ins.
 
-4. Add a key result or a project under an objective from the (`...`) more options menu on the row.
+4. Add a key result or a initiative under an objective from the (`...`) more options menu on the row.
 
-5. As an OKR owner, to make edits to an OKR or a project inline, select the edit icon next to the title, owner, type, and time period information in the list.
+5. As an OKR owner, to make edits to an OKR or a initiative inline, select the edit icon next to the title, owner, type, and time period information in the list.
 
-6. Select the more options (`...`) icon on the list-view row to perform additional actions like close, postpone, edit alignment and more on an OKR or a project.
+6. Select the more options (`...`) icon on the list-view row to perform additional actions like close, postpone, edit alignment and more on an OKR or a initiative.
 
 ## Quick view 
 
@@ -103,7 +104,7 @@ When you open the quick view, you'll see it has five tabs:
 
 - Key Results
 
-- Projects
+- Initiatives
 
 - Child Objectives
 
@@ -131,15 +132,15 @@ The Overview tab gives you a quick snapshot of the most important information ab
 
 - **Add a description** - Allows you to add a quick blurb that states what the objective is about to provide others with more context.
 
-- **Alignment** - This shows you how the current objective or project is aligned to its parent. For example, if you are viewing an objective's quick view, you will see how it is aligned to a parent objective, if any. To edit alignment, select the ‘Edit’ button.
+- **Alignment** - This shows you how the current objective or initiative is aligned to its parent. For example, if you are viewing an objective's quick view, you will see how it is aligned to a parent objective, if any. To edit alignment, select the ‘Edit’ button.
 
 ### Key Results
 
 The Key Results section of the quick view shows you all the key results that have been created for the current objective. You can also see how much progress was made towards these key results, which team owns it, and the individual owner. If you haven't created any key results, you can use the **Add** button to create one.
 
-### Projects
+### Initiatives
 
-Similar to the Key Results section, the Projects section shows you all the projects that support the current objective. You can also see how much progress has been made on the project. If you haven't created any projects, you can use the **Add** button to create one.
+Similar to the Key Results section, the Initiatives section shows you all the initiatives that support the current objective. You can also see how much progress has been made on the initiative. If you haven't created any initiatives, you can use the **Add** button to create one.
 
 ### Child Objectives
 
@@ -149,7 +150,7 @@ All objectives can have a child objective aligned to them. You can view and navi
 
 In the Activity section, you can quickly catch up on everything that's led to the current status of the OKR.
 
-To view all the information about an OKR and project, including progress, details, alignment, children, and activity, select the **open in full view**"** link from the list/quick view or from an objective link inside a notification.
+To view all the information about an OKR and initiative, including progress, details, alignment, children, and activity, select the **open in full view**"** link from the list/quick view or from an objective link inside a notification.
 
 ## Chart View 
 
@@ -162,3 +163,4 @@ To view the objective in more detail, select the **See Details** option.
 To enable Chart View for the organization’s OKRs or for a team or an individual, select the **View chart** option from the **View Options** dropdown:
 
 :::image type="content" source="../media/goals/2/28/c.jpg" alt-text="Screenshot shows where you select chart view in the OKRs window." lightbox="../media/goals/2/28/c.jpg":::
+

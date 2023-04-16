@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 03/20/2018
 title: Person queries in Query designer 
 description: Describes how to use Person queries to analyze the collaboration of individuals in your organization, from the point of view of each individual
 author: madehmer
@@ -190,3 +191,4 @@ The following are the columns included in the query results for the custom query
 * [Metric descriptions](../Use/Metric-definitions.md)
 * [View, download, and export query results](../Use/View-download-and-export-query-results.md)
 * [Queries with CRM data](/viva/insights/tutorials/crm-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

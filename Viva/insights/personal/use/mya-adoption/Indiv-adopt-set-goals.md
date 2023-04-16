@@ -1,5 +1,6 @@
 ---
 
+ms.date: 03/26/2018
 title: Viva Insights Individual Adoption --Set goals
 description: Viva Insights Individual Adoption by Kate Nowak --Set goals section
 author: madehmer
@@ -42,3 +43,4 @@ Reduce collaboration outside working hours to achieve a better work-life balance
 Spend more time with the people in my network who are aligned with my top priorities | "My network" metrics:<li>Meeting time <li>Response rate<li>Read rate<li>1:1 meetings | Spend two more hours per week with select important contacts (that is, move a person from "right to left" in your "My network" map in your dashboard) | 
 
 After you have defined your goal, you are ready to select a behavior to achieve that goal. For more information, see [Build your habit](Indiv-adopt-develop-habits.md).
+

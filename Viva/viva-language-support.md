@@ -1,4 +1,5 @@
 ---
+ms.date: 11/30/2021
 title: "Microsoft Viva language support"
 ms.reviewer: 
 ms.author: loreenl
@@ -66,3 +67,4 @@ Learn more about [language support for Viva Goals](/viva/goals/viva-goals-langua
 
 ## Viva Engage
 Viva Engage supports the same languages as Yammer on the web. See [which languages Yammer is available in](https://support.microsoft.com/office/14dd5886-d48d-4d6d-a583-4273a2538540). Viva Engage will use the language set for Microsoft Teams. If that language is not supported, Viva Engage will fall back to English.
+

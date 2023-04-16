@@ -1,9 +1,10 @@
 ---
+ms.date: 01/10/2023
 title: "Dynamics 365 Integration"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: Liz/Pierce
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -23,7 +24,7 @@ description: "Learn how to integrate Dynamics 365 with Viva Goals."
 
 Dynamics 365 is an Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) solution provider that includes many intelligent business applications such as Sales, Customer Service, Marketing, Project Service, Field Service, Social Engagement, HR, and more.
 
-The Viva Goals integration with Dynamics 365 enables you to automatically update your Key results and Projects with metrics from any of the Dynamics 365 apps, allowing leaders and managers to obtain a holistic view of business operations within Viva Goals. 
+The Viva Goals integration with Dynamics 365 enables you to automatically update your Key results and Initiatives with metrics from any of the Dynamics 365 apps, allowing leaders and managers to obtain a holistic view of business operations within Viva Goals. 
   
 ## How to set up Dynamics 365 integration 
 

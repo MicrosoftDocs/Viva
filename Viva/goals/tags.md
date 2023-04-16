@@ -1,9 +1,10 @@
 ---
+ms.date: 04/11/2022
 title: "Tags"
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: <TBD>
+ms.author: rasanders
+author: rasanders
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.collection:
 search.appverid:
 - MET150
 
-description: "Learn how to add tags to OKRs and projects to simplify navigation and reporting."
+description: "Learn how to add tags to OKRs and initiatives to simplify navigation and reporting."
 ---
 
 # Tags
 
-You  add tags in Viva Goals to group similar OKRs and projects under a common identifier or add an extra level of description. Tags make it easier to search for specific OKRs and projects and to generate targeted reports.
+You  add tags in Viva Goals to group similar OKRs and initiatives under a common identifier or add an extra level of description. Tags make it easier to search for specific OKRs and initiatives and to generate targeted reports.
     
 This article describes how to add tags, search by tag, and use Explorer to make reports with the Tags filter.
 
@@ -59,3 +60,4 @@ You can use Explorer to filter by tag and create meaningful reports and views. T
    :::image type="content" source="../media/goals/4/45/c.jpg" alt-text="Screenshot shows the export report page." lightbox="../media/goals/4/45/c.jpg":::
 
    :::image type="content" source="../media/goals/4/45/d.jpg" alt-text="Screenshot shows the export all objectives window." lightbox="../media/goals/4/45/d.jpg":::
+

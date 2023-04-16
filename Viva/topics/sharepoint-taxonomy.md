@@ -5,7 +5,7 @@ author: ruthholls
 manager: pamgreen
 ms.reviewer: anfra; cjtan
 audience: admin
-ms.date: 
+ms.date: 11/15/2021 
 ms.topic: article
 ms.collection: m365initiative-viva-topics
 ms.service: viva 
@@ -29,7 +29,7 @@ To create a topic from terms:
 
 ## How it works
 
-![Diagram showing the stages and statuses of creating a topic in the Term store.](../media/knowledge-management/taxonomy-diagram.png)
+:::image type="content" alt-text="Diagram showing the stages and statuses of creating a topic in the Term store." source="../media/knowledge-management/taxonomy-diagram.png":::
 
 When someone requests to create a topic from a term, the taxonomy service relays information about the term to Viva Topics for the creation of a corresponding topic. This information includes the following:
 
@@ -144,7 +144,7 @@ In the term store, you can view the status of requests by:
 
 2. On the term page, select the **Usage settings** tab.
 
-    ![Screenshot showing the Usage settings tab and the Create topics from terms sectionin the SharePoint admin center for viewing the status of a multiple terms.](../media/knowledge-management/taxonomy-status-multi-term-02.png)
+    ![Screenshot showing the Usage settings tab and the Create topics from terms section in the SharePoint admin center for viewing the status of a multiple terms.](../media/knowledge-management/taxonomy-status-multi-term-02.png)
 
     In the **Create topics from terms** section, you can see the total number of requests, how many are linked to topics, and how many were declined.
 
@@ -186,3 +186,4 @@ Topic pages also indicate that the taxonomy is one of the sources for the topic.
 **--Insert screenshot from final UX - source string in topic page--**
 
 --->
+

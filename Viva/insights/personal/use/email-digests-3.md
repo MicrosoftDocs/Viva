@@ -1,4 +1,5 @@
 ---
+ms.date: 09/07/2021
 title: Viva Insights digest emails
 description: Viva Insights users receive a welcome email and biweekly digest emails with key insights and suggestions
 author: madehmer
@@ -64,3 +65,7 @@ If you have multiple Microsoft 365 emails, you might be getting the digest for a
 ## Opt back in
 
 After you opt out from digest emails, you can opt back in at any time. In your Viva Insights app in Teams or on the web, go to **Settings > Privacy**, toggle the switch for **Viva Digest Email** from **On** to **Off**, then select **Save changes**.
+
+## Related topics
+
+* [!INCLUDE [Viva Insights community](../includes/insights-community.md)]

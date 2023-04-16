@@ -1,4 +1,5 @@
 ---
+ms.date: 11/14/2022
 title: Enable Integrations in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -56,10 +57,14 @@ To modify which integrations are available in your organization, select the enab
 Only Global admins have permission to manage which integrations are available for the tenant. 
 
 1. Log in to your Viva Goals account. 
-1. Select the organization drop down from the navigation panel on the left. 
+1. Select the organization drop down from the navigation panel on the left.
+    :::image type="content" source="../media/goals/admin-controls/navigation-pane.png" alt-text="Screenshot showing the navigation side bar and how to select the organization drop down."::: 
 1. Select Create or Join organization 
+    :::image type="content" source="../media/goals/admin-controls/select-create-join-org.png" alt-text="Screenshot showing how to select Create or join organization from the dropdown.":::  
 1. From the Create or Join organizations page, select Settings in the top right corner 
+    :::image type="content" source="../media/goals/admin-controls/select-setting.png" alt-text="Screenshot showing where to select the settings option from the organization page.":::
 1. Select the integrations settings for your tenant and select save. If you choose the option for Selected integrations are available, select the integrations you want to manage and select save.  
+    :::image type="content" source="../media/goals/admin-controls/integrations-selections.png" alt-text="Screenshot showing the list of integration available for your tenant.":::
 
 > [!NOTE]
 > Selecting None available or deselecting integrations that were previously available will disable any existing connections in your tenant.
@@ -101,6 +106,7 @@ The table below shows which type of integrations are supported, their category, 
 |Planner      |In-boundary Microsoft 365 |Data |https://www.microsoft.com/licensing/terms |
 |PostgresSQL      |Third-party |Data |https://www.postgresql.org/about/policies/ |
 |Power BI      |Cross-boundary Microsoft |Data |https://www.microsoft.com/licensing/terms |
+|Project for the Web |Cross-boundary Microsoft |Data | https://www.microsoft.com/licensing/terms|
 |ProjectPlace      |Third-party |Data |https://www.planview.com/legal/legal-terms/ |
 |Salesforce      |Third-party |Data |https://www.salesforce.com/company/legal/ |
 |Smartsheet      |Third-party |Data |https://www.smartsheet.com/legal |
@@ -115,7 +121,7 @@ The table below shows which type of integrations are supported, their category, 
 
 ## How Data Integrations Work  
 
-Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and projects, enabling you to have a single source of truth for progress. For example, if you connect a Project to Azure Dev Ops, Viva Goals will be automatically updated according to progress in Azure Dev Ops. 
+Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and initiatives, enabling you to have a single source of truth for progress. For example, if you connect an initiative to Azure Dev Ops, Viva Goals will be automatically updated according to progress in Azure Dev Ops. 
 
 When you connect to a data source in Viva Goals, your authentication tokens are used to establish a secure connection between Viva Goals and the selected application. Once every hour, Viva Goals utilizes that connection to retrieve updates from the connected data source and reflect those updates in Viva Goals. 
 

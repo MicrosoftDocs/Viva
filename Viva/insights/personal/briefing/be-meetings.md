@@ -1,5 +1,6 @@
 ---
 
+ms.date: 11/07/2019
 title: Prepare for meetings with the Briefing email
 description: Learn how to use the Briefing email to prepare for upcoming meetings
 author: madehmer
@@ -15,6 +16,10 @@ manager: helayne
 
 ---
 # Prepare for upcoming meetings
+
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md). 
+
 
 In this section of your Briefing email, you’ll see today's first three meetings chronologically that have at least one suggested action. You can select the meeting heading to open the meeting details or select a document that’s related to the upcoming meeting to open and view it.
 
@@ -86,3 +91,4 @@ You will see the following actions for a meeting depending on the type of confli
 ## Related topic
 
 [Briefing email overview](be-overview.md)
+

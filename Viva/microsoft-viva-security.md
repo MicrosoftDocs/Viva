@@ -1,4 +1,5 @@
 ---
+ms.date: 01/11/2022
 title: "Overview of security and compliance in Microsoft Viva"
 ms.reviewer: 
 ms.author: loreenl
@@ -78,3 +79,4 @@ Viva Engage security settings are managed as a part of Yammer.
 [Set up your infrastructure for hybrid work with Microsoft 365](/microsoft-365/solutions/empower-people-to-work-remotely)
 
 [Data residency: Learn about where Microsoft Viva data is stored](/microsoft-365/enterprise/o365-data-locations#what-are-the-considerations-for-microsoft-viva-data-locations)
+

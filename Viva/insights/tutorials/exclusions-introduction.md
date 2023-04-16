@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 09/15/2020
 title: Introduction to Analyst settings 
 description: Introduction to Analyst settings in Microsoft Viva Insights
 author: madehmer
@@ -41,3 +42,4 @@ You can exclude events with one of the following exclusion types:
 
 * [Controls](/viva/insights/use/settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Data sources](/viva/insights/Use/data-sourcesv2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
+

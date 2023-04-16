@@ -1,4 +1,5 @@
 ---
+ms.date: 01/17/2018
 title: About Viva Insights Outlook add-in
 description: Learn about the Outlook add-in for Microsoft Viva Insights
 author: madehmer
@@ -164,3 +165,4 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 
 * [Use Viva Insights](use-the-insights.md)
 * [Viva Insights elements](MyA-elements.md)
+* [!INCLUDE [Viva Insights community](../includes/insights-community.md)]

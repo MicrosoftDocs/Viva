@@ -1,4 +1,5 @@
 ---
+ms.date: 09/24/2020
 title: Boost engagement in Viva Insights
 description: Learn about how to boost employee engagement with recommendations in Microsoft Viva Insights
 author: madehmer
@@ -109,3 +110,4 @@ Ways to support team cohesion:
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
 
 For more best practices and how to open your network to your teams, see [Best practices for community connectivity](../tutorials/gm-connectivity.md).
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 11/15/2021
 title: Roles in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
@@ -79,5 +80,6 @@ During setup, Viva Topics admins can configure Viva Topics to:
 - Select which licensed users who can create and edit topics (topic contributors).
 - Select which licensed users who can manage topics (knowledge managers).
 - Name the topic center.
+
 
 

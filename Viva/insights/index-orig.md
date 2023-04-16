@@ -1,4 +1,5 @@
 ---
+ms.date: 09/16/2021
 title: Overview of advanced insights
 description: Learn about what's available in advanced insights with Microsoft Viva Insights
 ms.localizationpriority: medium 
@@ -25,3 +26,4 @@ Viva Insights includes the advanced insights app, that has advanced analysis too
 * [**Data-protection considerations**](/viva/insights/privacy/data-protection-considerations?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) explains what's important to consider for protecting your company's data and how to keep your employee's personal data private.
 * [**Set up advanced insights**](/viva/insights/setup/set-up-workplace-analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) describes what's required to set up the app before you can use the advanced insights and analysis tools.
 * [**Use advanced insights**](/viva/insights/overview/get-started?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) provides analysis scope information and research-based behavioral insights into how an organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. If you're new to Viva Insights, you will only see the [new Admin setup experience](/viva/insights/setup/Set-up-Workplace-Analytics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) until you get it set up.
+
