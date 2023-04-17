@@ -56,7 +56,7 @@ This table shows the Manager Concierge view for Live and Completed Cycles, with 
 
 |**Step #** |**Live cycle without Team Conversations enabled**|**Completed cycle without Team Conversations enabled** |**Live cycle with Team Conversations enabled**|**Completed cycle with Team Conversations enabled – note that checkmarks will appear to replace the step # once the task is completed** |
 |------------|-------|-------|-------|-------|
-|**Give feedback**|1 – Survey close date|1 – Survey closed on <date>|1 – Survey close date|Checkmark Survey closed on <date> |
+|**Give feedback**|1 – Survey close date|1 – Survey closed on date|1 – Survey close date|Checkmark Survey closed on date |
 |**Interpret results** |2 – View Interpretation Guide |2 – View Interpretation Guide|2 – View Interpretation Guide| Checkmark View Interpretation Guide|
 |**Discuss with your team**|3 – Download Presentation Kit |3 – Download Presentation Kit|3 – Download Presentation Kit|Checkmark Launch Team Conversation|
 |**Commit to next steps**|4 – Choose a Focus Area |4 – View Focus Area (after selected)|4 – Choose a Focus Area |Checkmark View Focus Area (after selected) |
