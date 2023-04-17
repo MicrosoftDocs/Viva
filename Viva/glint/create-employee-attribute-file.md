@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint file format, glint attribute file, glint attribute
+keywords: file upload, upload format, attribute header row, header row, add attributes, column headings
 ms.collection: 
  - M365initiative-viva
  - selfserve

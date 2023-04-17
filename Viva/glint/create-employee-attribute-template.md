@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: glint, viva glint, glint survey, employee attribute file, employee template
+keywords: HRIS planning tool, upload data, data file, header row, required attributes, custom attributes
 ms.collection: 
  - M365initiative-viva
  - selfserve

@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint template, glint engagement survey, glint manager, glint engagement, glint survey
+keywords: people success elements, purpose, clarity, growth, empowerment, connection, wellbeing, cord driver, key driver
 ms.collection: 
  - M365initiative-viva
  - selfserve

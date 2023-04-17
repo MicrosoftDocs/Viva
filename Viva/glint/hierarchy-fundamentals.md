@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint hierarchies, glint manager,
+keywords: managerial hierarchy, locational hierarchy, departmental hierarchy
 ms.collection: 
  - M365initiative-viva
  - selfserve

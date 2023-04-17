@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, employee data,
+keywords: SFTP, file requirements, upload attributes, manual upload, update attributes, Employee Attribute File
 ms.collection: 
  - M365initiative-viva
  - selfserve

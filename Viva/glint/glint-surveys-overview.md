@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: glint, viva glint, glint survey, glint 360 survey, 360 feedback, business survey, lifecycle survey
+keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey 360 feedback 
 ms.collection: 
  - M365initiative-viva
  - selfserve

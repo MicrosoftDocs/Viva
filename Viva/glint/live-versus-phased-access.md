@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint live access, glint manager, glint phased access, glint survey
+keywords: report access
 ms.collection: 
  - M365initiative-viva
  - selfserve

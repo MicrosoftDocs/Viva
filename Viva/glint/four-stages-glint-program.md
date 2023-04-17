@@ -1,12 +1,12 @@
 ---
 title: Four stages of Viva Glint programs
-description: Know about the four phases of Viva Glint's feedback program. 
+description: A strong feedback program incorporates four essential steps. 
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint program, viva glint, viva glint feedback, goals, launch, Insight, transform
+keywords: goals, launch, insight, transform, 
 ms.collection: 
  - M365initiative-viva
  - selfserve

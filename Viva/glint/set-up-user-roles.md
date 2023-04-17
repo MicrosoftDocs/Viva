@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, user roles, glint user attribute, glint attributes, glint permissions,
+keywords: permissions, bulk imports, user role imports, custom access 
 ms.collection: 
  - M365initiative-viva
  - selfserve
@@ -19,7 +19,7 @@ ms.date: 04/14/2023
 
 # Set up User Roles
 
-You can assign multiple roles with specific permissions - access to different segments of data and filter - within **User Roles** from the admin configuration dashboard. The User Roles and Access Template include prepopulated example roles and detailed instructions for two areas of setup. Use it to help plan your Glint programs.
+You can assign multiple roles with specific permissions - access to different segments of data and filter - within **User Roles** from the admin configuration dashboard. The User Roles and Access Template include prepopulated example roles and detailed instructions for two areas of setup. Use it to help plan your Microsoft Viva Glint programs.
 
 You can use the template to indicate which attributes User Roles are allowed to view, according to three filter distinctions:
 
@@ -111,10 +111,10 @@ When you need to assign many individuals to a specific User Role, you can mass a
 This functionality works for roles, which already have filters and/or populations applied to them.
 
 1. From the **User Roles** page, select a role to view or edit.
-2. On the **Role Settings** page, the number of members of this group will display and the attribute rule applied. (Example:***Includes: Gender: Female***)
+2. On the **Role Settings** page, the number of members of this group will display and the attribute rule applied. (Example: ***Includes: Gender: Female***)
 3. To change, select **Edit Attribute Rules**.
 4. In the new display window, choose from:
-   - I want to include all active employees only
+   - I want to include all active employees only, or
    - I want to filter all active employees by the following populations
 5. Add new population(s) and filter(s) as desired.
 6. Choose whether to include inactive employees or to exclude any employees.

@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint reporting, glint report, 
+keywords: Live access, phased access, BTI, broader team insights, aggregate indices, aggregate index 
 ms.collection: 
  - M365initiative-viva
  - selfserve

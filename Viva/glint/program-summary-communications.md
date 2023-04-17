@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint communications, glint notification,
+keywords: reminders, reminder times, additional languages, notifications 
 ms.collection: 
  - M365initiative-viva
  - selfserve

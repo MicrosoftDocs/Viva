@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint, people-driven, employee engagement, microsoft viva glint, organization health
+keywords: viva glint, employee engagement, microsoft viva glint, organization health, viva glint history
 ms.collection: 
  - M365initiative-viva
  - selfserve

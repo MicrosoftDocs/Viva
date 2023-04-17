@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, GDPR, glint data collection, glint attributes, glint survey
+keywords: confidentiality, personal data, data privacy, privacy, trust, sensitive data
 ms.collection: 
  - M365initiative-viva
  - selfserve

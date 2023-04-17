@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint user roles, glint user attribute, glint user roles import, glint import user roles, glint manage roles
+keywords: bulk imports
 ms.collection: 
  - M365initiative-viva
  - selfserve
@@ -29,7 +29,7 @@ When you need to assign many individuals to a specific User Role, you can mass a
 
 1. Select the **Configure** symbol.
 2. In the **Employees** section, select **User Roles**. Select the User Role you need to update.
-3. On the **Role Settings** page, select **Export.** Within the box that displays, makes your selections and then again, select **Export**.
+3. On the **Role Settings** page, select **Export.** Within the box that displays, make your selections and then again, select **Export**.
 4. Open the downloaded .csv file and delete all columns except the column with email addresses.
 5. Add or delete email addresses.
      >[!NOTE]
@@ -43,7 +43,7 @@ When you need to assign many individuals to a specific User Role, you can mass a
 
 ## Manage exports
 
-All exports generate a CSV download. Downloads may take a few minutes dependent upon list size.
+All exports generate a .csv download. Downloads may take a few minutes dependent upon list size.
 
 ### Export roles
 

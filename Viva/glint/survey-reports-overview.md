@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint reports, glint manager, glint feedback program, glint survey, live access, phased access
+keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, overall results, manager report, response rate, team summary, report access level
 ms.collection: 
  - M365initiative-viva
  - selfserve

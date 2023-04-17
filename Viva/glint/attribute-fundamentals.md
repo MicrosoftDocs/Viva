@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, employee data, attribute types, glint attributes, glint data
+keywords: standard attributes, custom attributes, functional attributes, time zones, languages
 ms.collection: 
  - M365initiative-viva
  - selfserve

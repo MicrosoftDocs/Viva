@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint questions, glint questions page
+keywords: edit questions, survey items, question targeting
 ms.collection: 
  - M365initiative-viva
  - selfserve

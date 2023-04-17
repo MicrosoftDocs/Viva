@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, glint executive summary, glint manager, glint executive, glint survey
+keywords: trend, demographics, comment 
 ms.collection: 
  - M365initiative-viva
  - selfserve
