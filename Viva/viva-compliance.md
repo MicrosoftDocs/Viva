@@ -52,7 +52,9 @@ Microsoft works to ensure that we are compliant with industry and international 
 ![Image depicting shared responsibility model](./media/viva-compliance.png)
 
 ## Inheritance of compliance features and settings
-Microsoft Viva apps are built on your existing infrastructure and, depending on the app, inherit compliance features and settings from Microsoft 365, Microsoft Teams, SharePoint, Azure, Yammer and Microsoft Graph.
+Microsoft Viva apps are built on your existing infrastructure and, depending on the app, inherit compliance features and settings from Microsoft Teams, Exchange Online, SharePoint Online, Azure, and Yammer.
+
+![Image depicting simple architecture model](./media/viva-architecture.png)
 
 For detailed information on each service, see:
 
@@ -68,7 +70,7 @@ For detailed information on each service, see:
 
 **Azure AD** [Azure AD security baseline for Azure Active Directory](/security/benchmark/azure/baselines/aad-security-baseline)
 
-**Azure** [Azure, Dynamics 365, Microsoft 365, and Power Platform compliance offerings](azure/compliance/offerings/)
+**Azure** [Azure, Dynamics 365, Microsoft 365, and Power Platform compliance offerings](/azure/compliance/offerings/)
 
 ## System and Organization Controls (SOC) 2
 
