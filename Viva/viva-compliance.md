@@ -24,6 +24,8 @@ description: "Find Microsoft Viva compliance information."
 
 # Microsoft Viva Compliance
 
+Microsoft Viva and the Viva apps work with and integrate into Microsoft 365. They inherit many compliance features from Microsoft 365. The Viva apps can also use specific settings and policies of the services that Viva is built on. For example, while all users can access Viva Learning in Microsoft Teams by default, you can use app permissions policies in Teams to allow or block access for specific users.
+
 Microsoft offers a [comprehensive set of compliance offerings](/compliance) to help your organization comply with national, regional, and industry-specific requirements governing the collection and use and data. 
 Microsoft Viva is also covered under the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms/welcome/welcomepage) and [Data Protection Agreement (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?year=2021#:~:text=Microsoft%20Products%20and%20Services%20Data%20Protection%20Addendum%20%28DPA%29,to%20the%20Product%20Terms%20site%20%28and%20formerly%20OST%29).
 
@@ -52,6 +54,8 @@ Microsoft works to ensure that we are compliant with industry and international 
 ## Inheritance of compliance features and settings
 Microsoft Viva apps are built on your existing infrastructure and, depending on the app, inherit compliance features and settings from Microsoft 365, Microsoft Teams, SharePoint, Azure, Yammer and Microsoft Graph.
 
+For detailed information on each service, see:
+
 **Microsoft 365** [Plan for security and compliance](/microsoft-365/compliance/plan-for-security-and-compliance)
 
 **Microsoft Teams** [Overview of security and compliance in Microsoft Teams](/microsoftteams/security-compliance-overview)
@@ -63,6 +67,8 @@ Microsoft Viva apps are built on your existing infrastructure and, depending on 
 **Yammer** [Overview of security and compliance in Yammer](/yammer/manage-security-and-compliance/security-and-compliance)
 
 **Azure AD** [Azure AD security baseline for Azure Active Directory](/security/benchmark/azure/baselines/aad-security-baseline)
+
+**Azure** [Azure, Dynamics 365, Microsoft 365, and Power Platform compliance offerings](azure/compliance/offerings/)
 
 ## System and Organization Controls (SOC) 2
 
@@ -87,12 +93,14 @@ For detailed information, see [Microsoft Viva Privacy](/Viva/viva-privacy)
 ## Data residency
 Data residency refers to the geographic location where data is stored at rest. Many customers, particularly in the public sector and regulated industries, have distinct requirements around protecting personal or sensitive information.  In addition, in certain countries, customers are expected to comply with laws and regulations that explicitly govern data storage location.
 
-For information about data residency for Viva apps, see [Microsoft Viva Privacy](/Viva/viva-privacy)
+For information about data residency for Viva apps, see [Microsoft Viva Privacy](/Viva/viva-privacy).
 
 ## Microsoft Purview 
 [Microsoft Purview](/purview/purview) is a family of data governance, risk, and compliance solutions that can help your organization govern, protect, and manage your entire data estate.
 
-Currently, Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/yammer/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/microsoft-365/compliance/retention-policies-yammer). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](/yammer/configure-your-yammer-network/overview-native-mode).
+Currently, certain features in Viva Engage, Viva Connections, and Viva Topics are supported by Microsoft Purview.
+
+Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/yammer/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/microsoft-365/compliance/retention-policies-yammer). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](/yammer/configure-your-yammer-network/overview-native-mode).
 
 Viva Connections and Viva Topics inherit eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint?view=o365-worldwide) support from [SharePoint Online](/SharePoint/compliant-environment) for files involved in each service.
 
