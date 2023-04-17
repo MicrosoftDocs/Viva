@@ -1,6 +1,6 @@
 ---
 ms.date: 04/04/2023
-title: Set up Distribution page in Viva Glint
+title: Set up Distribution page in Program Summary
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "On the Distribution page you indicate which people within your organization will receive a specific program."
 ---	
 
-# Set up Distribution page in Viva Glint
+# Set up Distribution page in Program Summary
 
 The Distribution page in Program Summary allows you to choose the people in your organization that will receive this program’s survey. User lists are updated when your Employee Data Files are uploaded to ensure that the most current data file is in use before each survey launch.   
 

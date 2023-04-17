@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Set up Schedule page in Viva Glint
+title: Set up Schedule page in Program Summary
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "On the Schedule page, you indicate when and how often your survey program is sent."
 ---
 
-# Set up Schedule page in Viva Glint
+# Set up Schedule page in Program Summary
 
 Choose the cadence for your program. This determines your launch date(s) and how often your employees receive this survey.   
 

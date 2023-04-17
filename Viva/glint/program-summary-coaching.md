@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Set up Coaching page
+title: Set up Coaching page in Program Summary
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Managers see coaching assistance admins provided on their Team Summary dashboard."
 ---
 
-# Set up Coaching page
+# Set up Coaching page in Program Summary
 
 The final setup page in Program Summary is the Coaching page. Managers can see coaching assistance admins provision for them on this page on their Team Summary dashboard.  
 
