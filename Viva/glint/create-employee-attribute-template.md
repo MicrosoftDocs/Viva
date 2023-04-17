@@ -74,4 +74,4 @@ Once your header row (Employee Data Template) is complete, move on to Create you
 
 ## Related topics
 
-- [Upload your employee attributes](upload-employee-data.md)
+- [Upload your employee attributes](upload-employee-attributes.md)

@@ -102,4 +102,4 @@ These surveys support the development of leaders, managers, or other selected em
 
 ## Related topics
 
-- [Four stages of Viva Glint programs](four-stages-of-viva-glint.md)
+- [Four stages of Viva Glint programs](four-stages-glint-program.md)
