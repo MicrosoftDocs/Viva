@@ -74,8 +74,7 @@ For detailed information on each service, see:
 
 ## System and Organization Controls (SOC) 2
 
-A SOC 2 report is an independent assessment of a service organization's systems and processes that are relevant to the trust services criteria. The report is conducted by a third-party auditor and evaluates the effectiveness of the controls in place to meet these criteria. 
-Following is the SOC 2 audit report status for each Viva app:
+A [SOC 2 report](/compliance/regulatory/offering-soc-2) is an independent assessment of a service organization's systems and processes that are relevant to the trust services criteria. The report is conducted by a third-party auditor and evaluates the effectiveness of the controls in place to meet these criteria. Following is the SOC 2 audit report status for each Viva app:
 
 |**Viva app**|**SOC 2 report**|
 |----------|-----------|
