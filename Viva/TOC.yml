@@ -19,10 +19,17 @@ items:
       href: setup-microsoft-viva.md
     - name: Microsoft Viva admin roles and tasks
       href: microsoft-viva-admin-roles.md
-    - name: Overview of Microsoft Viva security and compliance
-      href: microsoft-viva-security.md
     - name: Microsoft Viva language support
       href: viva-language-support.md
+  - name: Microsoft Viva privacy, security, and compliance
+    items:
+    - name: Microsoft Viva privacy, security, and compliance overview
+      href: microsoft-viva-security.md
+    - name: Privacy in Microsoft Viva 
+      href: viva-privacy.md
+    - name: Security in Microsoft Viva 
+      href: viva-security.md
+    - name: Compliance in Microsoft Viva
   - name: Microsoft Viva Connections
     href: connections/viva-connections-overview.md
   - name: Microsoft Viva Insights
