@@ -43,4 +43,4 @@ In the Program Summary section, there can be up to seven pages to be set up. Not
 - Communications
 - Coaching
 
-A checkmark indicates that the page is set up correctly and allows you to move to the next page. If you'd like to move ahead before finishing a page, you need to add dummy data to a page – don't forget to come back and change that to accurate information!
+A checkmark indicates that the page is set up correctly and allows you to move to the next page. If you'd like to move ahead before finishing a page, you need to add dummy data to a page – but, don't forget to come back and change that dummy data to accurate information.
