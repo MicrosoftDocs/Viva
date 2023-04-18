@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 02/01/2023
 title: Praise with Viva Insights
 description: Use the Praise feature in the Microsoft Viva Insights app
