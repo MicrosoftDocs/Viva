@@ -75,7 +75,6 @@ However, you will need to:
    | Community | `group`  |
    | Storyline | `user`  |
    | Campaign  | `campaign`  |
-   <!-- | Leadership corner | `leadershipcorner`  | -->
 
 2. Fill in the  _`<EntityId>`_. The easiest way is by going to the corresponding page on Yammer.com, and then pasting the last part of the URL. For example, for the storyline of `https://web.yammer.com/main/users/eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`, replace _`<EntityId>`_  with `eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`.
 
