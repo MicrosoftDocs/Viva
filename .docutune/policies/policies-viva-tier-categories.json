@@ -1,0 +1,48 @@
+{
+  "description": "Policies to apply tier categories to ms.collection",
+  "displayName": "Viva tier categories",
+  "version": {
+    "number": "1.0.0"
+  },
+
+  "policies": [
+    {
+      "if": {
+        "property": "paths",
+        "match": [
+          "^Viva/[^/]+\\.(?:md|yml)",
+          "Viva/connections/",
+          "Viva/learning/",
+          "Viva/solutions/",
+          "Viva/topics/"
+        ]
+      },
+      "then": {
+        "metadata": {
+            "property": "ms.collection",
+            "mustContain": [ "Tier1" ],
+            "mustNotContain": [ "Selfserve" ]
+          }
+      }
+    },
+    {
+      "if": {
+        "property": "paths",
+        "match": [
+          "/Viva/engage/",
+          "/Viva/goals/",
+          "/Viva/insights/",
+          "/Viva/people-in-viva/",
+          "/Viva/pulse/"
+        ]
+      },
+      "then": {
+        "metadata": {
+          "property": "ms.collection",
+          "mustContain": [ "Selfserve" ],
+          "mustNotContain": [ "Tier1" ]
+        }
+      }
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 12/09/2022
 title: Mindfulness content in Viva Insights
 description: Learn how to use mindfulness content in the Viva Insights app
@@ -16,7 +15,7 @@ audience: user
 
 # Mindfulness content in Viva Insights
 
-*Applies to: users whose language in Teams is set to English, French, German, Portuguese, or Spanish*
+*Applies to: users whose language in Teams is set to English, French, German, Portuguese, or Spanish. Mindfulness content isn't available to users in the GCC-High or DoD Microsoft 365 environments.*
 
 In your Microsoft Viva Insights app, you'll find a curated set of guided meditations and focus music, including content from Headspace. Start your day grounded, relax your mind before a big presentation, find focus before starting an important project, or close out your day with a mindfulness exercise during your virtual commute. In just a few minutes a day, meditation and mindfulness in Viva Insights can help you decrease stress and increase focus. 
 

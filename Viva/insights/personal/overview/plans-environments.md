@@ -55,11 +55,14 @@ The following Personal insights service plans are generally available with a sub
 * Worldwide Multi-tenant
 * Dedicated Multi-tenant
 * Government Community Cloud (GCC)
+* GCC-High
+* Department of Defense (DoD)
+
+>[!Note]
+>For more information about the features available and unavailable in GCC-High and DoD environments, refer to the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
 ### Not supported Microsoft 365 environments
 
-* GCC-High
-* DoD
 * Microsoft 365 Germany
 * Microsoft 365 Operated by 21Vianet
 
@@ -91,6 +94,7 @@ After users get assigned licenses with an applicable service plan, they get acce
   * Schedule send suggestions in [email](../use/delay-delivery.md) and [chat](../teams/schedule-send.md)
   * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
   * [Access meeting category insights](../teams/meeting-category-insights.md)
+  * [Meeting effectiveness surveys](../teams/meeting-effectiveness-surveys.md)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
   * [Schedule Breaks, learning, and message catch-up](../teams/time-management.md)
 

@@ -32,6 +32,8 @@
 
   - name: Run a healthy OKR program with Viva Goals
     items:
+    - name: Healthy OKR Program Overview
+      href: healthy-okr-program-overview.md
     - name: Write OKRs and Initiatives
       items:
       - name: Write OKRs Overview
@@ -60,20 +62,28 @@
         href: check-in-okrs-overview.md
       - name: Check-in OKRs Recommendations
         href: check-in-recommendations.md
+    - name: Close OKRs and Initiatives
+      items:
+      - name: Close OKRs Overview
+        href: close-okrs-overview.md
+      - name: Close OKRs Recommendations
+        href: close-recommendations.md
     - name: Rhythm of Business
       items:
       - name: Rhythm of Business Overview
         href: rhythm-of-business-overview.md
       - name: Rhythm of Business Recommendations
         href: rob-recommendations.md
-      - name: Leadership Strategy Dashboard
-        href: leadership-strategy-dashboard.md
-      - name: Organization Visibility Dashboard
-        href: organization-visibility-dashboard.md
-      - name: Departmental Alignment Dashboard
-        href: department-alignment-dashboard.md
-      - name: Team Execution Dashboard
-        href: team-execution-dashboard.md
+      - name: Review Dashboard Templates
+        items:
+        - name: Leadership Strategy Dashboard
+          href: leadership-strategy-dashboard.md
+        - name: Organization Visibility Dashboard
+          href: organization-visibility-dashboard.md
+        - name: Departmental Alignment Dashboard
+          href: department-alignment-dashboard.md
+        - name: Team Execution Dashboard
+          href: team-execution-dashboard.md
 
 
   - name: Microsoft Viva Accelerators
