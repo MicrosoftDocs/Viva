@@ -6,7 +6,7 @@ items:
     items:
     - name: Microsoft Viva overview
       href: microsoft-viva-overview.md
-    - name: Getting started with Microsoft Viva 
+    - name: Plan for deployment 
       href: getting-started-with-microsoft-viva.md
       items:
       - name: Plan for all Viva apps 
@@ -30,6 +30,7 @@ items:
     - name: Security in Microsoft Viva 
       href: viva-security.md
     - name: Compliance in Microsoft Viva
+      href: viva-compliance.md
   - name: Microsoft Viva Connections
     href: connections/viva-connections-overview.md
   - name: Microsoft Viva Insights
