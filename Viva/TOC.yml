@@ -23,7 +23,7 @@ items:
       href: viva-language-support.md
   - name: Microsoft Viva privacy, security, and compliance
     items:
-    - name: Microsoft Viva privacy, security, and compliance overview
+    - name: Overview
       href: microsoft-viva-security.md
     - name: Privacy in Microsoft Viva 
       href: viva-privacy.md
