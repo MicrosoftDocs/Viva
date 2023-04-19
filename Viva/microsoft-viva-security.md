@@ -34,7 +34,7 @@ For a more detailed look at security, compliance, and privacy for the Microsoft 
 
 :::image type="icon" source="/office/media/icons/key-permissions.png" ::: **Viva Security**
 
-[learn how security works in Microsoft Viva](/Viva/viva-security)
+[Learn how security works in Microsoft Viva](/Viva/viva-security)
 
 :::image type="icon" source="/office/media/icons/compliance-blue.png" ::: **Viva Compliance**
 
