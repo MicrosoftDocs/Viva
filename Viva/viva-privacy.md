@@ -79,9 +79,6 @@ For more information, see:
 
 ## How Microsoft Viva uses AI
 
-> [!IMPORTANT]
-> We’re extending the [Copilot System from Microsoft 365](https://www.youtube.com/watch?v=E5g20qmeKpg) to Microsoft Viva to help leaders boost employee engagement and improve business performance. The Copilot System combines the power of large language models (LLMs), including GPT-4, with the Microsoft 365 and Microsoft Viva apps, as well as your business data in the Microsoft Graph — and makes it accessible through natural language. <br><br>More information about additional AI capabilities in Microsoft Viva and the Viva apps will be available soon.
-
 Viva Connections uses AI to rank content in the feed, while Viva Topics uses it to detect and identify topics. Microsoft's use of artificial intelligence is governed by the [Responsible AI Standard](https://www.microsoft.com/ai/responsible-ai).
 
 For more information on how Viva uses AI, see the following:
