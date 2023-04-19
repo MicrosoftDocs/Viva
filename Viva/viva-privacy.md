@@ -2,7 +2,7 @@
 title: "Understand how privacy works in Microsoft Viva"
 ms.reviewer: loreenl
 ms.author: elizapo
-author: elizapo
+author: lizap
 manager: pamgreen
 ms.date: 4/20/2023
 audience: Admin
@@ -32,7 +32,7 @@ Both privacy and security start with ensuring that only authorized users can acc
 In addition to the inherited controls, each Viva app has its own set of privacy controls that lets you customize the information you share. The following information describes how the Viva apps handle and store data, who can access it, and, if applicable, how you can manage it. 
 
 ## GDPR compliance
-All Viva apps built on your Microsoft 365 infrastructure support compliance with EU General Data Protection Regulation (GDPR) requirements.
+All Viva apps built on the Microsoft cloud infrastructure support compliance with EU General Data Protection Regulation (GDPR) requirements.
 
 Microsoft is transparent about the specific policies, operational practices, and technologies that help you ensure the security, compliance, and privacy of your data across Microsoft services.
 - You control your data.
@@ -56,23 +56,23 @@ Personal data is transferred and stored as set forth in the [Microsoft Products 
 Data residency refers to the geographic location where data is stored at rest. Many customers, particularly in the public sector and regulated industries, have distinct requirements around protecting personal or sensitive information. In addition, in certain countries, customers are expected to comply with laws and regulations that explicitly govern data storage location.
 
 Viva Connections and Viva Topics are included in the Advanced Data Residency add-on in Microsoft 365, which provides more tools to address data residency requirements. Learn more:
-- [Data Residency for Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections?view=o365-worldwide)
-- [Data Residency for Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics?view=o365-worldwide)
+- [Data Residency for Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections)
+- [Data Residency for Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics)
 
 The following table provides information about where the data for each app resides, along with links to more information.
 
 |Viva app|Where the data resides|More information|
 |-|-|-|
-|Viva Connections|Data is stored in the data center where the associated Microsoft 365 tenant resides. For tenants located in Germany or the EU, none of the data is transferred to a third country.<br><br>**Note:** Data from third-party apps is governed by the data and privacy agreements for those apps. This information applies to data from Microsoft apps.|[Data Residency for Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections?view=o365-worldwide)|
-|Viva Learning|Viva Learning doesn’t store any personal data or any individually identifiable information since usage and consumption data is aggregated.<br><br>Viva Learning data residency is tenant-specific and follows the standard Microsoft 365 data storage guidelines by available geography.<br><br>Integration with SharePoint is currently only supported for sites hosted from the home geography of the tenant. For example, a French tenant can only link SharePoint sites hosted in France to Viva Learning.|[Viva Learning data residency](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-learning)|
+|Viva Connections|Data is stored in the data center where the associated Microsoft 365 tenant resides. For tenants located in Germany or the EU, none of the data is transferred to a third country.<br><br>**Note:** Data from third-party apps is governed by the data and privacy agreements for those apps. This information applies to data from Microsoft apps.|[Data Residency for Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections)|
+|Viva Learning|Viva Learning doesn’t store any personal data or any individually identifiable information since usage and consumption data is aggregated.<br><br>Viva Learning data residency is tenant-specific and follows the standard Microsoft 365 data storage guidelines by available geography.<br><br>Integration with SharePoint is currently only supported for sites hosted from the home geography of the tenant. For example, a French tenant can only link SharePoint sites hosted in France to Viva Learning.|[Viva Learning data residency](/microsoft-365/enterprise/m365-dr-workload-other)|
 |Viva Insights|**Personal insights** - Processed and stored in the employee’s Exchange Online mailbox.<br>**Viva Insights Manager/Leader/Advanced insights** - Tenant-specific and follows the standard Microsoft 365 data storage guidelines by available geography.<br>**Manager/Leader/Advanced Insights** - Data at Rest (header info and metadata sourced from Exchange Online and Teams, but not message content or attachments) is stored in US, EU, EMEA, APAC based on central tenant location.|[Viva Insights - Advanced/Manager/Leader](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwidebranch=main#viva-insights--advanced-mgr-leader)<br><br>[Viva Insights - Personal](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide&branch=main#viva-insights--personal)
-|Viva Topics|Tenant-specific and follows the standard Microsoft 365 data storage guidelines by available geography.|[Data Residency for Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics?view=o365-worldwide#how-can-i-determine-customer-data-location)|
+|Viva Topics|Tenant-specific and follows the standard Microsoft 365 data storage guidelines by available geography.|[Data Residency for Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics#how-can-i-determine-customer-data-location)|
 |Viva Engage|Committed to storing message bodies and files attached to messages at rest within a specific geographical area (Geo). Data is stored in either Yammer cloud storage or SharePoint. Files saved in SharePoint are stored in SharePoint Online per your SharePoint Online data residency policy. <br><br>Be aware that mobile push notifications require sending data to a third party notification service (Apple or Google), which might be outside your Geo.|[Data residency - Yammer](/yammer/manage-security-and-compliance/data-residency)|
 |Viva Goals|Data for customers located in the European Union Data Boundary (EUDB) is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States.|[Viva Goals data residency](/goals/vg-privacy-and-security#viva-goals-data-residency).|
 |Viva Sales|When Viva Sales is connected to Dynamics 365, Viva Sales data is stored with the Dynamics 365 Sales Dataverse instance.<br><br>When Viva Sales is connected to a non-Dynamics 365 CRM, a default Dataverse instance specific to Viva Sales is provided to your tenant. Viva Sales data is stored in the default instance in addition to your CRM.|[Data handling in Viva Sales](/viva/sales/data-handling)|
 
 For more information, see:
-- [Microsoft 365 data locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide)
+- [Microsoft 365 data locations](/microsoft-365/enterprise/o365-data-locations)
 - [Microsoft Privacy - Where is Your Data Located](https://www.microsoft.com/trust-center/privacy/data-location)
 - [Licensing Documents (microsoft.com)](https://www.microsoft.com/licensing/docs/view/Licensing-Use-Rights)
 

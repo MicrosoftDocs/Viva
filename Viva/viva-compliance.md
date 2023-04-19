@@ -62,7 +62,7 @@ For detailed information on each service, see:
 
 **Microsoft SharePoint** [Plan compliance requirements for SharePoint and OneDrive](/SharePoint/compliant-environment)
 
-**Microsoft Graph** [Use the Microsoft Graph compliance and privacy APIs](/graph/api/resources/complianceapioverview?view=graph-rest-1.0)
+**Microsoft Graph** [Use the Microsoft Graph compliance and privacy APIs](/graph/api/resources/complianceapioverview)
  
 **Yammer** [Overview of security and compliance in Yammer](/yammer/manage-security-and-compliance/security-and-compliance)
 
@@ -101,7 +101,7 @@ Currently, certain features in Viva Engage (through Yammer) and Viva Connections
 
 Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/yammer/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/microsoft-365/compliance/retention-policies-yammer). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](/yammer/configure-your-yammer-network/overview-native-mode).
 
-Viva Connections and Viva Topics inherit eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint?view=o365-worldwide) support from [SharePoint Online](/SharePoint/compliant-environment) for files involved in each service.
+Viva Connections and Viva Topics inherit eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint) support from [SharePoint Online](/SharePoint/compliant-environment) for files involved in each service.
 
 ## More resources
 
