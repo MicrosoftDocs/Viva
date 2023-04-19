@@ -32,7 +32,7 @@ Microsoft Viva apps can be combined to create powerful employee experiences for 
 
 ## Training and onboarding
 
-![Image of Viva Connections, Viva Learning, Viva Insights and Viva Topics combined together.](./media/Viva_Training_Combo_update.png)
+![Image of Viva Connections, Viva Learning, Viva Insights and Viva Topics combined together.](./media/viva-training-combo-update.png)
 
 Onboard new employees or volunteers and encourage them to learn new skills with the combination of Viva Learning and Viva Connections. Create a training experience that people can access on desktop and mobile devices and that you can target to specific audiences. Consider also adding Viva Topics to help your organization manage internal projects, subject matter experts, and terminology. Viva Insights can add even more features for onboarding. [Learn more about onboarding new employees with Viva.](solutions/viva-onboard-change-roles.md)
 
@@ -106,7 +106,7 @@ Create, source, and share content to educate your organization about healthy wor
 
 ## Knowledge sharing and management
 
-![Image of Viva Connections and Viva Topics combined together.](./media/Viva_Knowledge_Combo_update.png)
+![Image of Viva Connections and Viva Topics combined together.](./media/viva-knowledge-combo-update.png)
 
 ### App 1: Viva Topics
 
