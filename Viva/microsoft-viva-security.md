@@ -30,12 +30,12 @@ For a more detailed look at security, compliance, and privacy for the Microsoft 
 
 :::image type="icon" source="/office/media/icons/lock-protected-blue.png" ::: **Viva Privacy**
 
-[Learn about Microsoft Viva privacy](/Viva/viva-privacy)
+[Understand how privacy works in Microsoft Viva](/Viva/viva-privacy)
 
 :::image type="icon" source="/office/media/icons/key-permissions.png" ::: **Viva Security**
 
-[Learn about Microsoft Viva security](/Viva/viva-security)
+[learn how security works in Microsoft Viva](/Viva/viva-security)
 
 :::image type="icon" source="/office/media/icons/compliance-blue.png" ::: **Viva Compliance**
 
- [Learn about Microsoft Viva compliance](/Viva/viva-compliance)
+ [Understand how compliance works in Microsoft Viva](/Viva/viva-compliance)
