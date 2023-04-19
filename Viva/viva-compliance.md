@@ -74,7 +74,7 @@ For detailed information on each service, see:
 
 A [SOC 2 report](/compliance/regulatory/offering-soc-2) is an independent assessment of a service organization's systems and processes that are relevant to the trust services criteria. The report is conducted by a third-party auditor and evaluates the effectiveness of the controls in place to meet these criteria. Following is the SOC 2 audit report status for each Viva app:
 
-|**Viva app**|**SOC 2 report**|
+| Viva app | SOC 2 report |
 |----------|-----------|
 | Viva Connections | Covered within scope of [SharePoint Online SOC 2 report](https://servicetrust.microsoft.com/DocumentPage/89e8b7c9-d08d-4bd3-9644-7a29d8266c58), although not individually called out in the report. Excludes third-party content.
 | Viva Topics | Covered within scope of [SharePoint Online SOC 2 report](https://servicetrust.microsoft.com/DocumentPage/89e8b7c9-d08d-4bd3-9644-7a29d8266c58), although not individually called out in the report.
