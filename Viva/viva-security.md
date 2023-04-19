@@ -24,7 +24,7 @@ description: "Find Microsoft Viva security information."
 
 # Understand how security works in Microsoft Viva
 
-Microsoft Viva and the Viva apps work with and integrate into Microsoft 365. This means that the Microsoft 365 security capabilities - like role-based access, identity and app management, and others - apply to Microsoft Viva. The Viva apps can also use specific settings and policies of the apps that Viva interacts with. For example, while all users can access Viva Learning in Microsoft Teams by default, you can use app permissions policies in Teams to allow or block access for specific users. 
+Microsoft Viva and the Viva apps work with and integrate into Microsoft 365. This means that the Microsoft 365 security capabilities—like role-based access, identity and app management, and others—apply to Microsoft Viva. The Viva apps can also use specific settings and policies of the apps that Viva interacts with. For example, while all users can access Viva Learning in Microsoft Teams by default, you can use app permissions policies in Teams to allow or block access for specific users. 
 
 Before setting up Microsoft Viva, consider the following security recommendations:
  
