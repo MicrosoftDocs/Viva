@@ -57,9 +57,7 @@ Think about the following when choosing the list of benchmarks for your managers
 - Companies aspire to be among the top 20% in specific areas that are important to them. 
 
   > [!TIP]
-  >For large customers, we initially advise using a broad benchmark like our global benchmark, not one specific to an industry. Glint’s global benchmark is applicable to all parts of a business and provides a solid baseline comparison. Often talent comes from or leaves to go to organizations in a different industry, so our global benchmark may be more helpful from a talent acquisition and retention perspective.
-
-Then, as customers continue to survey, comparisons of scores change over time (trend) and how groups compare within the organization may become more informative than benchmarks. 
+  >For large customers, we initially advise using a broad benchmark like our global benchmark, not one specific to an industry. Glint’s global benchmark is applicable to all parts of a business and provides a solid baseline comparison. Often talent comes from or leaves to go to organizations in a different industry, so our global benchmark may be more helpful from a talent acquisition and retention perspective. Then, as customers continue to survey, comparisons of scores change over time (trend) and how groups compare within the organization may become more informative than benchmarks.
 
 ## Considerations for updating benchmarks
 
