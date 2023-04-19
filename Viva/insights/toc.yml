@@ -18,59 +18,12 @@ items:
           items:
           - name: Introduction
             href: introduction.md
-          - name: Set up the app
-            href: personal/teams/settings.md
           - name: Privacy
             href: personal/teams/privacy.md  
-          - name: Home
-            href: personal/teams/home.md
-            items:
-            - name: Praise
-              href: personal/teams/praise.md
-            - name: Inspiration library
-              href: personal/teams/inspiration.md  
           - name: Productivity
             items: 
               - name: Overview
                 href: personal/teams/productivity.md
-              - name: Meeting habits
-                href: personal/teams/meeting-habits.md
-              - name: Meeting category insights
-                href: personal/teams/meeting-category-insights.md
-              - name: Meeting effectiveness surveys
-                href: personal/teams/meeting-effectiveness-surveys.md       
-              - name: Shared meeting plan  
-                href: personal/teams/shared-meeting-plan.md
-              - name: Suggested tasks
-                href: personal/teams/suggested-tasks.md   
-          - name: Teamwork
-            items: 
-              - name: Overview
-                href: personal/teams/teamwork.md
-              - name: Network
-                href: personal/teams/network.md  
-          - name: Wellbeing
-            items:
-              - name: Overview
-                href: personal/teams/wellbeing.md  
-              - name: Time management features
-                href: personal/teams/time-management.md  
-              - name: Shared no-meeting day plan
-                href: personal/teams/shared-no-meeting-day.md
-              - name: Focus
-                href: personal/teams/focus.md
-              - name: Focus plan  
-                href: personal/teams/focus-plan.md
-              - name: Shared focus plan
-                href: personal/teams/shared-focus-plan.md  
-              - name: Headspace  
-                href: personal/teams/headspace.md 
-              - name: Quiet time
-                href: personal/teams/quiet-time.md  
-              - name: Reflect    
-                href: personal/teams/reflect.md                
-              - name: Virtual commute
-                href: personal/teams/virtual-commute.md
           - name: FAQ
             href: personal/teams/faq.md                      
         - name: Outlook add-in
