@@ -41,7 +41,7 @@ Microsoft is transparent about the specific policies, operational practices, and
 - We secure data at rest and in transit.
 - We defend your data.
 
-To learn more, see [GDPR compliance and General Data Protection Regulation - Microsoft GDPR](https://www.microsoft.com/trustCenter/privacy/gdpr).
+To learn more, see [GDPR compliance and General Data Protection Regulation - Microsoft GDPR](https://www.microsoft.com/trustcenter/privacy/gdpr).
 
 Additionally, see the following information for specific apps:
 
