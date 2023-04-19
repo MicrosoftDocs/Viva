@@ -1,8 +1,8 @@
 ---
 title: "Understand how privacy works in Microsoft Viva"
 ms.reviewer: loreenl
-ms.author: loreenl
-author: loreenl
+ms.author: elizapo
+author: elizapo
 manager: pamgreen
 ms.date: 4/20/2023
 audience: Admin
