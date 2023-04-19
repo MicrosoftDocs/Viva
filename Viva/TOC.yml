@@ -30,7 +30,7 @@ items:
       - name: Security in Microsoft Viva 
         href: viva-security.md
       - name: Compliance in Microsoft Viva
-      href: viva-compliance.md
+        href: viva-compliance.md
   - name: Microsoft Viva Connections
     href: connections/viva-connections-overview.md
   - name: Microsoft Viva Insights
