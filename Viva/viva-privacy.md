@@ -163,7 +163,7 @@ Privacy and security controls:
 |-|-|-|
 |OKR data<br>User data<br><br>Third-party integrations may have additional information, which is subject to the privacy policies of those third-party apps and programs.|Access to OKRs is based on role.<br><br>Viva Goals users can view, create and perform actions. <br><br>For private OKRs, there are also view permissions. This can be for individual, team and organization OKRs.|Organization admins and tenant admins control the settings via the admin dashboard. The dashboard offers customizable settings to provide flexibility on what works best for your organization.<br><br>Individual users can view, edit, and delegate permissions for their OKRs in Viva Goals, on the **My OKRs** tab.|
 
-For more information about privacy in Viva Goals, see [Viva Goals security, privacy, and compliance](goals/vg-privacy-and-security.md).
+For more information about privacy in Viva Goals, see [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md).
 
 
 ### Viva Sales
