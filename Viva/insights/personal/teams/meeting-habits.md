@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 12/08/2022
 title: Meeting habits in Viva Insights  
 description: Learn about your meeting habits with Microsoft Viva Insights

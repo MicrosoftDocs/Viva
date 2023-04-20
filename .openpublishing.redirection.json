@@ -446,6 +446,41 @@
       "redirect_document_id": false
       },
       {
+        "source_path": "viva/insights/personal/introduction.md",
+        "redirect_url": "https://support.microsoft.com/topic/1d501790-479b-44f4-9876-97538869fc73",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/overview/privacy-guide-users.md",
+        "redirect_url": "https://support.microsoft.com/topic/8f2c038c-f80c-4512-bf4c-90a0423377f2",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/email-digests-3.md",
+        "redirect_url": "https://support.microsoft.com/topic/0e8b9a77-d1ce-4139-82bc-e91a3cb909c3",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/add-in.md",
+        "redirect_url": "https://support.microsoft.com/topic/48b73ccf-4086-4f13-9f62-dcee91a9df6d",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/use-insights.md",
+        "redirect_url": "https://support.microsoft.com/topic/83d09caa-bfe8-4cb9-8f64-30afd79cc75d",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/mya-notifications.md",
+        "redirect_url": "https://support.microsoft.com/topic/064a323e-6dc7-40e9-ab1b-199de8d39db5",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/schedule-send.md",
+        "redirect_url": "https://support.microsoft.com/topic/0b0c0c20-8fa1-44b9-b5bc-57f160046639",
+        "redirect_document_id": false
+      },
+      {
       "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
       "redirect_url": "/viva/insights/personal/setup/configure",
       "redirect_document_id": false

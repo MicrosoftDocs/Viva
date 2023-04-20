@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 01/28/2022
 title: Inspiration library in the Viva Insights app
 description: Use the Inspiration library in Microsoft Viva Insights
