@@ -49,9 +49,8 @@ Additionally, see the following GDPR information for specific apps:
 - Viva Sales: [Responding to Data Subject Rights (DSR) requests for Microsoft Dataverse customer data](/power-platform/admin/common-data-service-gdpr-dsr-guide)
 
 ## Data residency
-The way that data is transferred and stored in Microsoft Viva is defined in the [Microsoft Products and Services Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).
+Data residency refers to the geographic location where data is stored at rest. The way that data is transferred and stored in Microsoft Viva is defined in the [Microsoft Products and Services Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).
 
-Data residency refers to the geographic location where data is stored at rest. Many customers, particularly in the public sector and regulated industries, have distinct requirements around protecting personal or sensitive information. In addition, in certain countries, customers are expected to comply with laws and regulations that explicitly govern data storage location.
 
 If you are using [Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections?view=o365-worldwide) or [Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics?view=o365-worldwide), you can purchase the [Advanced Data Residency add-on in Microsoft 365](/microsoft-365/enterprise/advanced-data-residency?view=o365-worldwide), which provides more tools to address data residency requirements. 
 
