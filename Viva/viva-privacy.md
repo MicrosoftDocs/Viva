@@ -31,7 +31,7 @@ Microsoft is transparent about the specific policies, operational practices, and
 - We secure data at rest and in transit.
 - We defend your data.
 
-Privacy is built into all Microsoft Viva experiences. Microsoft Viva and the Viva apps adhere to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement), Microsoft's compliance with [General Data Protection Regulation](/compliance/regulatory/gdpr), and follow the [Microsoft EU Data Boundary](https://www.microsoft.com/trust-center/privacy/european-data-boundary-eudb).
+Privacy is built into all Microsoft Viva experiences. Microsoft Viva and the Viva apps adhere to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) and follow Microsoft's compliance with [General Data Protection Regulation](/compliance/regulatory/gdpr) and the [Microsoft EU Data Boundary](https://www.microsoft.com/trust-center/privacy/european-data-boundary-eudb).
 
 Microsoft Viva inherits privacy features and settings from Microsoft 365, Teams, SharePoint, and Yammer, where applicable.
 
