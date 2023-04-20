@@ -55,6 +55,8 @@
           href: create-a-topic.md   
         - name: Edit a topic
           href: edit-a-topic.md
+        - name: Merge topics
+          href: merge-topics.md
         - name: Save a topic as a draft
           href: save-topic-as-draft.md
         - name: Curate Multilingual topics
