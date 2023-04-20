@@ -6,6 +6,8 @@ items:
     items:
     - name: Microsoft Viva overview
       href: microsoft-viva-overview.md
+    - name: Deployment Guides for Microsoft Viva
+      href: deployment-guides-for-microsoft-viva.md
     - name: Plan for Microsoft Viva 
       href: getting-started-with-microsoft-viva.md
       items:
