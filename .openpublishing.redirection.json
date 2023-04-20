@@ -461,6 +461,16 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "viva/insights/personal/teams/privacy.md",
+        "redirect_url": "https://support.microsoft.com/topic/8f2c038c-f80c-4512-bf4c-90a0423377f2",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/productivity.md",
+        "redirect_url": "https://support.microsoft.com/topic/8448269d-ea8f-45fe-a84d-793c1ca7ba68",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "viva/insights/personal/teams/home.md",
         "redirect_url": "https://support.microsoft.com/topic/6e7d28b2-6b0e-4367-9b52-1999a86eb391",
         "redirect_document_id": false

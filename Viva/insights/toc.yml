@@ -14,18 +14,8 @@ items:
         href: get-insights-support.md  
       - name: Personal insights
         items:
-        - name: In Teams and on the web
-          items:
-          - name: Introduction
-            href: introduction.md
-          - name: Privacy
-            href: personal/teams/privacy.md  
-          - name: Productivity
-            items: 
-              - name: Overview
-                href: personal/teams/productivity.md
-          - name: FAQ
-            href: personal/teams/faq.md                      
+        - name: FAQ
+          href: personal/teams/faq.md                      
         - name: Outlook add-in
           items:
               - name: Introduction
