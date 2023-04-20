@@ -26,6 +26,11 @@ Deployment guides for Microsoft Viva give you tailored guidance and resources fo
 All deployment guides are available in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2224913) and in the [Microsoft 365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2230646).
 
 
+## Deployment Guides
+
+Deployment guides in the admin center require authentication to a Microsoft 365 tenant as an administrator or other role with access to the admin center, but guides in the Microsoft 365 Setup portal can be accessed by anyone. We have provided links to both locations for each guide, where available, in the tables below.
+
+
 |**Guide - [Setup Portal](https://go.microsoft.com/fwlink/?linkid=2220880)**  | **Guide - [Admin Center](https://go.microsoft.com/fwlink/?linkid=2224913)** |	**Description**  |
 |---------|---------|---------|
 |[Build your employee experience with Microsoft 365 and Microsoft Viva dashboard](https://go.microsoft.com/fwlink/?linkid=2223653)    | [Build your employee experience with Microsoft 365 and Microsoft Viva dashboard ](https://go.microsoft.com/fwlink/?linkid=2224787)       | Transform how your employees work together with the Build your employee experience with Microsoft 365 and Microsoft Viva dashboard. For seamless teamwork, use Microsoft 365 to create productive, aligned teams, and keep employees engaged with leadership and the rest of the organization. Help your employees be effective in all work activities. These guides will provide instructions on how to use SharePoint, Teams, and Yammer to build collaboration across your org to help drive productivity.        |
