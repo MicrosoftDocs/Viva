@@ -88,12 +88,7 @@ For more information about security in Viva Engage, see
 [Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).
 
 ### Viva Goals
- 
-Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results. This is done by using in-boundary Microsoft 365 integrations (Microsoft Teams, Excel Online, Planner), cross-boundary integrations (Azure Data Explorer, Azure DevOps, Power BI), and third-party API integrations (Salesforce, Slack, Asana) to pull data from multiple sources. Admins of their organizations within Viva Goals can manage which integrations are used and how frequently Viva Goals checks for new data. Each integration has its own set-up and must first be [enabled in order to appear within the organization’s choices for integrations](goals/vg-integrations-administration-overview.md#how-to-manage-integrations). 
-
-Carefully review any terms and relevant documentation for any third party Application Programming Interfaces (APIs) that you plan to integrate with Viva Goals and decide if your users can add these from a curated list or if, instead, they can only use what has been vetted at the admin level. 
-
-For more information about security in Viva Goals, see [Viva Goals security, privacy, and compliance](goals/vg-privacy-and-security.md).
+Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business. For information about security in Viva Goals, see [Viva Goals security, privacy, and compliance](goals/vg-privacy-and-security.md).
 
 ### Viva Sales
 Viva Sales is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more. It uses Microsoft 365 and Teams to capture, access, and register data into your organization's existing Customer Relationship Management (CRM) system (Microsoft Dynamics 365, Salesforce, etc.). A Microsoft 365 administrator is needed to deploy and install the Viva Sales add-in for Outlook, and a Teams administrator to install Viva Sales for Teams and pin it as an app.  Learn more about [installing Viva Sales for Outlook](/viva/sales/install-viva-sales-individual-add-in-admin-center#microsoft-outlook), and how to [install Viva Sales for Microsoft Teams](/viva/sales/install-pin-viva-sales-teams). 
