@@ -82,7 +82,7 @@ For more information on how Viva uses AI, see the following:
 - [Topic discovery and curation in Microsoft Viva Topics](topics/topic-experiences-discovery-curation.md)
 
 ## App-specific data information
-Each of the Viva apps collects and stores data in different ways, based on the intent of the app. You control your data, but but how you control it differs depending on the app.
+Each of the Viva apps collects and stores data in different ways, based on the intent of the app. You control your data, but how you control it differs depending on the app.
 
 ### Viva Connections
 Privacy and security controls:
