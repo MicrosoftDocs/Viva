@@ -38,7 +38,7 @@ Microsoft Viva inherits privacy features and settings from Microsoft 365, Teams,
 In addition to the inherited controls, each Viva app has its own set of privacy controls that lets you customize the information you share. The following information describes how the Viva apps handle and store data, who can access it, and, if applicable, how you can manage it. 
 
 ## GDPR compliance
-All Viva apps built on the Microsoft cloud infrastructure support compliance with [General Data Protection Regulation](/compliance/regulatory/gdpr) (GDPR) requirements.
+Microsoft Viva and the Viva apps support compliance with [General Data Protection Regulation](/compliance/regulatory/gdpr) (GDPR) requirements.
 
 Additionally, see the following GDPR information for specific apps:
 
