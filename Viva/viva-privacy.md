@@ -23,27 +23,24 @@ description: "Find Microsoft Viva privacy information."
 ---
 
 # Understand how privacy works in Microsoft Viva
-Microsoft is committed to providing you with the information and controls you need to make choices about how your data is collected and used when you're using Microsoft Viva. Privacy and security are built into all Microsoft Viva experiences. Privacy describes the way that we help protect your data or information, while security describes the way that we help protect your assets and resources.  
 
-Microsoft Viva and the Viva apps adhere to the Microsoft Privacy Statement - Microsoft privacy and Microsoft support for [General Data Protection Regulation - Microsoft GDPR](/compliance/regulatory/gdpr) and [Microsoft EU Data Boundary Overview](https://www.microsoft.com/trust-center/privacy/european-data-boundary-eudb). See [Employee Privacy and Data Protection](https://www.microsoft.com/microsoft-viva/privacy) for more information.
-
-Both privacy and security start with ensuring that only authorized users can access your data and resources. Microsoft Viva inherits privacy and security features and settings from Teams, SharePoint, Yammer, and Azure Active Directory Groups where applicable.
-
-In addition to the inherited controls, each Viva app has its own set of privacy controls that lets you customize the information you share. The following information describes how the Viva apps handle and store data, who can access it, and, if applicable, how you can manage it. 
-
-## GDPR compliance
-All Viva apps built on the Microsoft cloud infrastructure support compliance with EU General Data Protection Regulation (GDPR) requirements.
-
-Microsoft is transparent about the specific policies, operational practices, and technologies that help you ensure the security, compliance, and privacy of your data across Microsoft services.
+Microsoft is transparent about the specific policies, operational practices, and technologies that help you ensure the privacy of your data across Microsoft Viva.
 
 - You control your data.
 - We're transparent about where data is located and how it's used.
 - We secure data at rest and in transit.
 - We defend your data.
 
-To learn more, see [GDPR compliance and General Data Protection Regulation - Microsoft GDPR](https://www.microsoft.com/trustcenter/privacy/gdpr).
+Privacy is built into all Microsoft Viva experiences. Microsoft Viva and the Viva apps adhere to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement), Microsoft's compliance with [General Data Protection Regulation](/compliance/regulatory/gdpr), and follow the [Microsoft EU Data Boundary](https://www.microsoft.com/trust-center/privacy/european-data-boundary-eudb).
 
-Additionally, see the following information for specific apps:
+Microsoft Viva inherits privacy features and settings from Microsoft 365, Teams, SharePoint, and Yammer, where applicable.
+
+In addition to the inherited controls, each Viva app has its own set of privacy controls that lets you customize the information you share. The following information describes how the Viva apps handle and store data, who can access it, and, if applicable, how you can manage it. 
+
+## GDPR compliance
+All Viva apps built on the Microsoft cloud infrastructure support compliance with [General Data Protection Regulation](/compliance/regulatory/gdpr) (GDPR) requirements.
+
+Additionally, see the following GDPR information for specific apps:
 
 - Viva Connections, Viva Topics, Viva Learning (SharePoint): [Safeguarding your SharePoint data](/sharepoint/safeguarding-your-data)
 - Viva Engage (Yammer): [Manage GDPR data subject requests in Yammer Enterprise](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
@@ -52,13 +49,11 @@ Additionally, see the following information for specific apps:
 - Viva Sales: [Responding to Data Subject Rights (DSR) requests for Microsoft Dataverse customer data](/power-platform/admin/common-data-service-gdpr-dsr-guide)
 
 ## Data residency
-Personal data is transferred and stored as set forth in the [Microsoft Products and Services Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).
+The way that data is transferred and stored in Microsoft Viva is defined in the [Microsoft Products and Services Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).
 
 Data residency refers to the geographic location where data is stored at rest. Many customers, particularly in the public sector and regulated industries, have distinct requirements around protecting personal or sensitive information. In addition, in certain countries, customers are expected to comply with laws and regulations that explicitly govern data storage location.
 
-Viva Connections and Viva Topics are included in the Advanced Data Residency add-on in Microsoft 365, which provides more tools to address data residency requirements. Learn more:
-- [Data Residency for Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections)
-- [Data Residency for Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics)
+If you are using [Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections?view=o365-worldwide) or [Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics?view=o365-worldwide), you can purchase the [Advanced Data Residency add-on in Microsoft 365](/microsoft-365/enterprise/advanced-data-residency?view=o365-worldwide), which provides more tools to address data residency requirements. 
 
 All data within Viva is stored within the customer tenant for any given Viva application and follows the standard Microsoft 365 data storage guidelines by available geography. The following table provides information about where the data for each app resides, along with links to more information.
 
@@ -69,7 +64,7 @@ All data within Viva is stored within the customer tenant for any given Viva app
 |Viva Insights|**Personal insights** - Processed and stored in the employee’s Exchange Online mailbox. Data residency is based on the employee's mailbox location.<br>**Manager/Leader/Advanced Insights** - The data region for Manager/Leader and Advanced is determined by the Default Geography of the tenant, not individual users.<br><br>Data at Rest (header info and metadata sourced from Exchange Online and Teams, but not message content or attachments) is stored in US, EU, EMEA, APAC based on central tenant location.|[Viva Insights - Advanced/Manager/Leader](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)<br><br>[Viva Insights - Personal](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
 |Viva Topics|Follows the standard Microsoft 365 data storage guidelines by available geography.|[Data Residency for Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics#how-can-i-determine-customer-data-location)|
 |Viva Engage|Committed to storing message bodies and files attached to messages at rest within a specific geographical area (Geo). Data is stored in either Yammer cloud storage or SharePoint. Files saved in SharePoint are stored in SharePoint Online per your SharePoint Online data residency policy. <br><br>Be aware that mobile push notifications require sending data to a third party notification service (Apple or Google), which might be outside your Geo.|[Data residency - Yammer](/yammer/manage-security-and-compliance/data-residency)|
-|Viva Goals|Data for customers located in the European Union Data Boundary (EUDB) is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States.|[Viva Goals data residency](./goals/vg-privacy-and-security.md#viva-goals-data-residency).|
+|Viva Goals|Data for customers located in the European Union Data Boundary (EUDB) or the United Kingdom is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States.|[Viva Goals data residency](./goals/vg-privacy-and-security.md#viva-goals-data-residency)|
 |Viva Sales|When Viva Sales is connected to Dynamics 365, Viva Sales data is stored with the Dynamics 365 Sales Dataverse instance.<br><br>When Viva Sales is connected to a non-Dynamics 365 CRM, a default Dataverse instance specific to Viva Sales is provided to your tenant. Viva Sales data is stored in the default instance in addition to your CRM.|[Data handling in Viva Sales](/viva/sales/data-handling)|
 
 For more information, see:
@@ -86,7 +81,7 @@ For more information on how Viva uses AI, see the following:
 - [Topic discovery and curation in Microsoft Viva Topics](topics/topic-experiences-discovery-curation.md)
 
 ## App-specific data information
-Each of the Viva apps collects and stores data in different ways, based on the intent of the app. You remain in charge of what we collect, but how you control it differs depending on the app.
+Each of the Viva apps collects and stores data in different ways, based on the intent of the app. You control your data, but but how you control it differs depending on the app.
 
 ### Viva Connections
 Privacy and security controls:
@@ -119,7 +114,7 @@ Privacy and security controls:
 
 |What info is available?|Who can access it?|How is it managed?|
 |-|-|-|
-|Personal insights (visible only to the individual)<br>Manager and leader insights (always aggregated and deidentified)<br>Organization insights (aggregated and deidentified, with data access restricted to assigned analysts)<br><br>**Note:** A manager or leader needs to have nine direct reports for the data to be aggregated. The admin can change adjust this threshold.|Insights only available to licensed users (Personal Insights) and assigned analysts or managers (Manager / Leader / Organization insights)|Admins can configure what information to include in insights, set access levels, and opt individual users in or out by using the Microsoft 365 admin center.<br><br>Individual users can opt in or out by going to the Settings > Privacy menu in the Viva Insights app in Teams or on the web.|
+|Personal insights (visible only to the individual)<br>Manager and leader insights (always aggregated and deidentified)<br>Organization insights (aggregated and deidentified, with data access restricted to assigned analysts)<br><br>**Note:** A manager or leader needs to have nine direct reports for the data to be aggregated. The admin can increase this threshold.|Insights only available to licensed users (Personal Insights) and assigned analysts or managers (Manager / Leader / Organization insights)|Admins can configure what information to include in insights, set access levels, and opt individual users in or out by using the Microsoft 365 admin center.<br><br>Individual users can opt in or out by going to the Settings > Privacy menu in the Viva Insights app in Teams or on the web.|
 
 For more information on how to manage access to data in Viva Insights, see [Managing who has access to data](insights/advanced/privacy/privacy.md#managing-who-has-access-to-data).
 
@@ -152,15 +147,8 @@ Privacy and security controls:
 For more information about privacy in Viva Engage, see [Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).
 
 ### Viva Goals
-Privacy and security controls:
-- Role-based access
-- Data encryption
 
-|What info is available?|Who can access it?|How is it managed?|
-|-|-|-|
-|OKR data<br>User data<br><br>Third-party integrations may have additional information, which is subject to the privacy policies of those third-party apps and programs.|Access to OKRs is based on role.<br><br>Viva Goals users can view, create and perform actions. <br><br>For private OKRs, there are also view permissions. This can be for individual, team and organization OKRs.|Organization admins and tenant admins control the settings via the admin dashboard. The dashboard offers customizable settings to provide flexibility on what works best for your organization.<br><br>Individual users can view, edit, and delegate permissions for their OKRs in Viva Goals, on the **My OKRs** tab.|
-
-For more information about privacy in Viva Goals, see [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md).
+For information about privacy in Viva Goals, see [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md).
 
 
 ### Viva Sales
