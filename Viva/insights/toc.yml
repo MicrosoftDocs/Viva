@@ -16,18 +16,6 @@ items:
         items:
         - name: FAQ
           href: personal/teams/faq.md                      
-        - name: Outlook add-in
-          items:
-              - name: Introduction
-                href: personal/use/add-in.md
-              - name: Use Insights
-                href: personal/use/use-the-insights.md
-              - name: Inline suggestions
-                href: personal/Use/mya-notifications.md
-              - name: Schedule send suggestions
-                href: personal/use/delay-delivery.md
-        - name: Digest emails
-          href: personal/use/email-digests-3.md
         - name: Personal insights FAQ
           href: personal/overview/mya-faq.md
         - name: Admin guide
