@@ -67,7 +67,7 @@ To add employee data attributes *before* your first file import to Viva Glint, a
 3. From the dropdown Actions menu, choose **New User Attributes**. 
 4. Follow the onscreen guidance for the following actions:
    1. Step 1: Upload dataset; upload finalized attributes in the format you have chosen. This file format will determine the format for all future uploads. Select **Continue**.
-   2. Step 2: Preview employee data fields; preview the attributes from the file uploaded in Step 1. 
+   2. Step 2: Preview employee data fields; preview attributes from the file uploaded in Step 1. 
         - Verify:
            - All attributes are present
            - Attribute values for the preview employee record (10 maximum) are accurate and in the correct column
