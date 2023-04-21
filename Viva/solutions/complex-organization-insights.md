@@ -335,7 +335,7 @@ Creation of a trigger for a pipeline is shown in the following graphic:
 1. Expand the **Pipeline** pane and select **CopyPipeline_MTBCDPipeline**.
    :::image type="content" source="images/selecting-CopyPipeline-MTBCDPipeline.png" alt-text="Screenshot of the pipeline on the Factory resources page with Copy Pipeline_MTBCDPipeline on the left pane.":::
 1. Select **Debug**. The following illustrates a successful execution of a debug operation.
-   :::image type="content" source="images/debug-successful-execution.png" alt-text="Screenshot of the pipeline screen with Debug highlighted in the top ribbon."lightbox="mages/debug-successful-execution.png":::
+   :::image type="content" source="images/debug-successful-execution.png" alt-text="Screenshot of the pipeline screen with Debug highlighted in the top ribbon."lightbox="images/debug-successful-execution.png":::
    
    The output is available to view in the storage account in the container you created > **rawdata1**.
 
