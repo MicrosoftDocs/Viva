@@ -34,7 +34,7 @@ The following shows how mergers and acquisitions require the use of two tenants.
 
 ## Conglomerates
 
-A conglomerate is a corporation made up of several independent subsidiaries. The subsidiaries are tenants that have separate Azure AD and will collaborate together and remain separate (For example, The Walt Disney Company, Honeywell).
+A conglomerate is a corporation made up of several independent subsidiaries. The subsidiaries are tenants that have separate Azure AD and will collaborate together and remain separate.
 
 The concept of conglomerates is as follows.
 
@@ -186,8 +186,6 @@ The setup details are available [here](#data-pipeline---automated).
     1. Search for **Deploy from a custom template** in the search bar.
     1. After **Deploy from a custom template** is shown (under **Services** pane), select it.
        :::image type="content" source="images/deploy-from-custom-template.png" alt-text="Deploy from a Custom Template option":::
-       As shown in the following.
-       :::image type="content" source="images/select-template.png" alt-text="The screen on which the template is chosen":::
     1. Select **Build your own template in the editor**. The **Edit template** screen appears.
        :::image type="content" source="images/build-your-own-template.png" alt-text="The Edit template screen":::
     1. Select **Load file**. 
@@ -196,62 +194,47 @@ The setup details are available [here](#data-pipeline---automated).
     1. Navigate to the location that contains the downloaded **DataFactory_OData_arm_template.json** file and select **Open**.
     1. In the resultant screen, select **Save**.
        :::image type="content" source="images/load-file-2.png" alt-text="Screen on which the file is saved to get uploaded":::
-    1. Provide values for the highlighted items.
+    1. Provide values for the highlighted items: **Resource group**, **Region**, **Vaults_MTkvsecret_name**, **Storage** **Accounts_MTstorage_name**, and **Factory Name**.
        :::image type="content" source="images/filling-selecting-highlighted-fields.png" alt-text="The screen on which the fields to be filled are highlighted":::
-       The following shows an example of filled values for the highlighted items.
-       :::image type="content" source="images/highlighted-fields-filled.png" alt-text="The screen displaying the filled values for the highlighted fields":::
+
     1. Select the **Review + create** tab, and select **Create**.
-       :::image type="content" source="images/review-plus-create-and-create.png" alt-text="The screen on which you can select Create":::
-       :::image type="content" source="images/deployment-completion-notification.png" alt-text="The screen on which the notification message of deployment completion is displayed":::
+
 1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
       1. Launch the Data factory (V2) resource by clicking its link to obtain the managed service identity.
-         >[!NOTE]
-         >The Data factory (V2) resource in this instance is **wuarmdf1**.
-
-         The screen shows details of the **wuarmdf1** Data factory resource appears.
-         :::image type="content" source="images/data-factory-launch-screen.png" alt-text="The screen containing details of the chosen data factory":::
-
       1. Select **Properties**. The screen shows details for the chosen Data factory.
-        :::image type="content" source="images/copying-managed-identity-application-id.png" alt-text="The screen on which the value of Managed Identity Application ID is displayed to copy":::
+         :::image type="content" source="images/copying-managed-identity-application-id-2.png" alt-text="Screenshot that shows the data factory Properties screen.":::
       1. Copy the value of the **Managed Identity Application ID** attribute.
-      1. Navigate back to the screen of the resource group **wuarmdfrg1** by selecting **Overview**, the **Resources** tab and **wuarmdfrg1** under it.
-      1. Launch the Key Vault (**wuarmdfkv1**) by clicking its link.
-         The following shows details of a selected keyvault.
-         :::image type="content" source="images/key-vault-resource-screen.png" alt-text="The  screen containing details of the selected keyvault":::
+      1. Navigate back to the screen of the resource group by selecting **Overview**, the **Resources** tab and the resource group name under it.
+      1. Launch the Key Vault by clicking its link.
       1. Select **Access policies** in the left pane.
-         :::image type="content" source="images/selecting-access-policies.png" alt-text="The screen on which the Access policies are displayed to select":::
+         :::image type="content" source="images/selecting-access-policies-2.png" alt-text="The screen on which the Access policies are displayed to select":::
       1. Select **+ Add access policy** in the center of the screen. The **Add access policy** screen appears.
-         :::image type="content" source="images/adding-access-policy.png" alt-text="The screen on which the option to add an access policy is displayed":::
+         :::image type="content" source="images/adding-access-policy-2.png" alt-text="The screen on which the option to add an access policy is displayed":::
       1. Add your own account by setting values, as follows:
          1. From the **Configure from template** drop-down list, choose **Key, Secret, & Certificate Management**.
          1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
-            :::image type="content" source="images/adding-access-policy-add-your-account.png" alt-text="The screen on which you can search for your ID and select it":::
+            :::image type="content" source="images/adding-access-policy-add-your-account-2.png" alt-text="The screen on which you can search for your ID and select it":::
       1. Select **Add**.
-      
-         :::image type="content" source="images/selecting-add-in-adding-access-policy.png" alt-text="The screen on which you can add an access policy":::
       1. Select **Save** in the upper-left of the screen.
-         :::image type="content" source="images/selecting-save-in-adding-access-policy.png" alt-text="The screen on which save the access policy":::
+         :::image type="content" source="images/selecting-save-in-adding-access-policy-2.png" alt-text="The screen on which save the access policy":::
 1. Add the keyvault's secret permissions to the managed identity by performing the following steps:
      1. From the keyvault's properties screen (as the following shows), select **Access policies** in the left pane.
-        :::image type="content" source="images/keyvault-before-managed-identity.png" alt-text="The screen displaying information about the properties of the keyvault":::
+        :::image type="content" source="images/keyvault-before-managed-identity-2.png" alt-text="The screen displaying information about the properties of the keyvault":::
      1. Select **+ Add access policy**.
         The **Add access policy** screen appears.
      1. From the **Secret permissions** drop-down list, choose **Get** and **List**.
-        :::image type="content" source="images/keyvault-managed-identity-permissions.png" alt-text="The screen on which secret permissions are selected":::
+        :::image type="content" source="images/keyvault-managed-identity-permissions-2.png" alt-text="The screen on which secret permissions are selected":::
      1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
-        :::image type="content" source="images/keyvault-managed-identity-principal.png" alt-text="The screen on which the Managed Identity Application ID is displayed":::
+        :::image type="content" source="images/keyvault-managed-identity-principal-2.png" alt-text="The screen on which the Managed Identity Application ID is displayed":::
      1. Select **Add**.
-        :::image type="content" source="images/keyvault-managed-identity-principal-add.png" alt-text="The screen on which you add the managed identity":::
      1. Select **Save** in the upper-left of the screen.
-        :::image type="content" source="images/keyvault-managed-identity-principal-save.png" alt-text="The screen on which the added managed identity is saved":::
 1. Grant Storage Account permissions to the Data Factory Managed Service Identity.
-     1. Launch the resource group (**wuarmdfrg1**). The screen displaying details of the chosen resource group appears.
-       :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
-     1. Launch the storage account (**wuarmdfsa1**). The screen displaying details of the chosen storage account appears.
+     1. Launch the resource group. The screen displaying details of the chosen resource group appears.
+     1. Launch the storage account. The screen displaying details of the chosen storage account appears.
      1. Select **Access Control (IAM)** in the left pane.
-        :::image type="content" source="images/access-control-iam.png" alt-text="The screen on which the Access control (IAM) option is displayed":::
+        :::image type="content" source="images/access-control-iam-2.png" alt-text="The screen on which the Access control (IAM) option is displayed":::
      1. Select the **Role assignments** tab, as shown.
-        :::image type="content" source="images/adding-role-assignment.png" alt-text="The screen on which the tab to add a role assignment is displayed":::
+        :::image type="content" source="images/adding-role-assignment-2.png" alt-text="The screen on which the tab to add a role assignment is displayed":::
      1. Select **+ Add** and select **Add role assignment**. The **Add role assignment** screen appears.
      1. Select **Storage Blob Data Contributor**, and select **Next**.
         :::image type="content" source="images/selecting-role-assignment.png" alt-text="The role assignment screen":::
@@ -267,7 +250,7 @@ The setup details are available [here](#data-pipeline---automated).
 
         :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
      1. Select the **Select** option. The **Add role assignment** screen appears.
-        :::image type="content" source="images/review-plus-assign-on-add-role-assignment-screen.png" alt-text="Add role assignment screen that displays the Review + assign option":::
+        :::image type="content" source="images/review-plus-assign-on-add-role-assignment-screen-2.png" alt-text="Add role assignment screen that displays the Review + assign option":::
      1. Select the **Review + assign** tab, and select **Review + assign** at the bottom-left of the screen.
         :::image type="content" source="images/selecting-review-plus-assign.png" alt-text="The review-plus-assign tab screen":::
      1. Refresh the browser to view the **Role assignments** screen again, in which you can view the Data factory application you have just added.
