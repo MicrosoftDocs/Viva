@@ -245,9 +245,7 @@ The setup details are available [here](#data-pipeline---automated).
      1. From the **Managed identity** drop-down list, choose **Data factory (V2)**.
         :::image type="content" source="images/choosing-data-factory-v2-value.png" alt-text="The screen on which you choose the Data factory parameter":::
      1. Search for the Data factory name you defined in [Data pipeline - Automated](#data-pipeline---automated) step 2h from the **Select** field.
-        :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
      1. Select the **Select** option. The **Add role assignment** screen appears.
-        :::image type="content" source="images/review-plus-assign-on-add-role-assignment-screen-2.png" alt-text="Add role assignment screen that displays the Review + assign option":::
      1. Select the **Review + assign** tab, and select **Review + assign** at the bottom-left of the screen.
      1. Refresh the browser to view the **Role assignments** screen again, in which you can view the Data factory application you have just added.
         :::image type="content" source="images/role-reflection-screen-2.png" alt-text="The screen that displays the Data factory application":::
@@ -342,7 +340,7 @@ Creation of a trigger for a pipeline is shown in the following graphic:
    
    The output is available to view in the storage account in the container you created > **rawdata1**.
 
-   :::image type="content" source="images/rawdata1-folder-to-select.png" alt-text="The screen displaying the **rawdata1** folder in which the output is available":::
+   :::image type="content" source="images/rawdata1-folder-to-select-2.png" alt-text="The screen displaying the **rawdata1** folder in which the output is available":::
 
 ## Visualize with PowerBi
 
