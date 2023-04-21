@@ -237,24 +237,20 @@ The setup details are available [here](#data-pipeline---automated).
         :::image type="content" source="images/adding-role-assignment-2.png" alt-text="The screen on which the tab to add a role assignment is displayed":::
      1. Select **+ Add** and select **Add role assignment**. The **Add role assignment** screen appears.
      1. Select **Storage Blob Data Contributor**, and select **Next**.
-        :::image type="content" source="images/selecting-role-assignment.png" alt-text="The role assignment screen":::
+        :::image type="content" source="images/selecting-role-assignment-2.png" alt-text="The role assignment screen":::
      1. Select the **Members** tab, and under **Assign access to**, choose the **Managed identity** radio button.
         :::image type="content" source="images/choosing-managed-identity.png" alt-text="The screen on which the Managed identity radio button is chosen":::
      1. Select **+ Select members** in the center of the screen. The **Select managed identities** screen appears.
         :::image type="content" source="images/select-members.png" alt-text="The Select managed identities screen":::
      1. From the **Managed identity** drop-down list, choose **Data factory (V2)**.
         :::image type="content" source="images/choosing-data-factory-v2-value.png" alt-text="The screen on which you choose the Data factory parameter":::
-     1. Search for the Data factory name (**wuarmdf1**) from the **Select** field.
-        > [!NOTE]
-        > The Data factory **wuarmdf1** has been defined in the **Custom deployment** screen; see the second screenshot under sub-step (h) in [Data pipeline - Automated](#data-pipeline---automated).
-
+     1. Search for the Data factory name you defined in [Data pipeline - Automated](#data-pipeline---automated) step 2h from the **Select** field.
         :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
      1. Select the **Select** option. The **Add role assignment** screen appears.
         :::image type="content" source="images/review-plus-assign-on-add-role-assignment-screen-2.png" alt-text="Add role assignment screen that displays the Review + assign option":::
      1. Select the **Review + assign** tab, and select **Review + assign** at the bottom-left of the screen.
-        :::image type="content" source="images/selecting-review-plus-assign.png" alt-text="The review-plus-assign tab screen":::
      1. Refresh the browser to view the **Role assignments** screen again, in which you can view the Data factory application you have just added.
-        :::image type="content" source="images/role-reflection-screen.png" alt-text="The screen that displays the Data factory application":::
+        :::image type="content" source="images/role-reflection-screen-2.png" alt-text="The screen that displays the Data factory application":::
 1. Create a file named **ODatasources.txt**.
      1. Create a `.txt` file with the following comma-delimited schema for each OData source and the tenant reference information that will be stored in keyvault.
 
@@ -275,10 +271,9 @@ The setup details are available [here](#data-pipeline---automated).
 
       :::image type="content" source="images/example-file-contents.png" alt-text="The content of the sample organizational data file" lightbox="images/example-file-contents.png":::
 1. Generate the secrets in Key Vault by performing the following steps:
-     1. Launch the Key Vault (**wuarmdfkv1)**.
-        :::image type="content" source="images/properties-screen.png" alt-text="The screen from which you select the keyvault":::
+     1. Launch the Key Vault.
      1. Select **Secrets** in the left pane, and select **+ Generate/Import**.
-        :::image type="content" source="images/secrets-generate-import.png" alt-text="The Secrets screen on which the Generate/Import option is available":::
+        :::image type="content" source="images/secrets-generate-import-2.png" alt-text="The Secrets screen on which the Generate/Import option is available":::
      1. Create the secrets using the names in the following table.
         >[!NOTE]
         >The two examples after the table describe the process of creating a secret.
@@ -306,29 +301,28 @@ The setup details are available [here](#data-pipeline---automated).
 
 **Creating a secret**
 
-:::image type="content" source="images/create-secret-example-1.png" alt-text="The screen on which the name for a secret is defined":::
+:::image type="content" source="images/create-secret-example-1-(2).png" alt-text="The screen on which the name for a secret is defined":::
 
 **Created (the above) secret  in the key vault**
 
-:::image type="content" source="images/create-secret-using-example-in-screenshot.png" alt-text="The screen displaying the created secret in the keyvault":::
+:::image type="content" source="images/create-secret-using-example-in-screenshot-2.png" alt-text="The screen displaying the created secret in the keyvault":::
 
 1. Upload the **ODatasources.txt** file to the storage account in the wpaexports container by performing the following steps:
-    1. Launch the storage account (**wuarmdfsa1**).
-       :::image type="content" source="images/storage-account-screen-while-uploading-OData-file.png" alt-text="The storage account screen at the stage of OData file upload":::
+    1. Launch the storage account.
+       :::image type="content" source="images/storage-account-screen-while-uploading-OData-file-2.png" alt-text="The storage account screen at the stage of OData file upload":::
     1. Select **Containers** in the left pane.
-       :::image type="content" source="images/containers-screen.png" alt-text="The screen on which you can select the Containers option":::
-    1. Select **wpaexports**. The screen displaying details/options in **wpaexports** is displayed.
-       :::image type="content" source="images/containers-wpaexports.png" alt-text="The screen displaying the Upload option":::
-    1. Select **Upload**. The screen displaying the uploaded file appears.
-       :::image type="content" source="images/containers-wpaexports-upload.png" alt-text="The screen displaying the ODatasources.txt file":::
+       :::image type="content" source="images/containers-screen-2.png" alt-text="The screen on which you can select the Containers option":::
+    1. Select the container you created earlier in [Data pipeline - Automated](#data-pipeline---automated), step 2h. The screen displaying details/options in this container is displayed.
+       :::image type="content" source="images/containers-wpaexports-2.png" alt-text="The screen displaying the Upload option":::
+    1. Select **Upload** to the right of the search bar. The screen displaying the uploaded file appears.
 
 #### To set trigger for pipeline
 
 A trigger can be created in the Azure data factory to execute the pipeline on a schedule. This schedule is dependent on the needs and the report granularity. For the Business Continuity, it is at a week grain. The minimum timeframe would be on a weekly basis, for example, every Tuesday.
 
-Creation of a trigger for a pipeline as shown in the following graphic.
+Creation of a trigger for a pipeline is shown in the following graphic:
 
-:::image type="content" source="images/example-trigger-for-pipeline.png" alt-text="The screen on which a trigger for a pipeline can be created":::
+:::image type="content" source="images/example-trigger-for-pipeline-2.png" alt-text="The screen on which a trigger for a pipeline can be created":::
 
 #### To execute the pipeline manually
 
@@ -337,16 +331,16 @@ Creation of a trigger for a pipeline as shown in the following graphic.
    > [!NOTE]
    > Data factory is the one created during deployment of arm template for data factory creation for MultiTenant.
 
-   :::image type="content" source="images/launching-azure-data-factory-studio.png" alt-text="The screen that displays option to launch Azure Data factory studio":::
+   :::image type="content" source="images/launch-azure-data-factory-studio-2.png" alt-text="The screen that displays option to launch Azure Data factory studio":::
 
 1. Select **Author** in the left pane.
-   :::image type="content" source="images/selecting-author-on-left-pane.png" alt-text="The screen on which the Author option is selected":::
+   :::image type="content" source="images/select-author-on-left-pane-2.png" alt-text="The screen on which the Author option is selected":::
 1. Expand the **Pipeline** pane and select **CopyPipeline_MTBCDPipeline**.
    :::image type="content" source="images/selecting-CopyPipeline-MTBCDPipeline.png" alt-text="The screen on which the resource is selected":::
 1. Select **Debug**. The following illustrates a successful execution of a debug operation.
    :::image type="content" source="images/debug-successful-execution.png" alt-text="The screen on which a debug operation is successfully executed":::
    
-   The output is available to view in the storage account in **wpaexports > rawdata1**.
+   The output is available to view in the storage account in the container you created > **rawdata1**.
 
    :::image type="content" source="images/rawdata1-folder-to-select.png" alt-text="The screen displaying the **rawdata1** folder in which the output is available":::
 
