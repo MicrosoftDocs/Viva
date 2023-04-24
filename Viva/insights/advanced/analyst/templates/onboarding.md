@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 04/24/2023
 title: Onboarding and development report
 description: Learn how the Onboarding and development PowerBI template from Microsoft Viva Insights helps you support new employees and those transitioning to a new role
