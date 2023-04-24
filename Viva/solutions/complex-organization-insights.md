@@ -202,21 +202,21 @@ The setup details are available [here](#data-pipeline---automated).
 1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
       1. Launch the Data factory (V2) resource by clicking its link to obtain the managed service identity.
       1. Select **Properties**. The screen shows details for the chosen Data factory.
-         :::image type="content" source="images/copying-managed-identity-application-id-2.png" alt-text="Screenshot that shows the data factory Properties screen.":::
+         :::image type="content" source="images/copy-managed-identity-application-id-2.png" alt-text="Screenshot that shows the data factory Properties screen.":::
       1. Copy the value of the **Managed Identity Application ID** attribute.
       1. Navigate back to the screen of the resource group by selecting **Overview**, the **Resources** tab and the resource group name under it.
       1. Launch the Key Vault by clicking its link.
       1. Select **Access policies** in the left pane.
-         :::image type="content" source="images/selecting-access-policies-2.png" alt-text="Screenshot of the keyvault's Access policies screen.":::
+         :::image type="content" source="images/select-access-policies-2.png" alt-text="Screenshot of the keyvault's Access policies screen.":::
       1. Select **+ Add access policy** in the center of the screen. The **Add access policy** screen appears.
-         :::image type="content" source="images/adding-access-policy-2.png" alt-text="Screenshot of the Add access policy screen.":::
+         :::image type="content" source="images/add-access-policy-2.png" alt-text="Screenshot of the Add access policy screen.":::
       1. Add your own account by setting values, as follows:
          1. From the **Configure from template** drop-down list, choose **Key, Secret, & Certificate Management**.
          1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
-            :::image type="content" source="images/adding-access-policy-add-your-account-2.png" alt-text="Screenshot of the Add access policy screen with the Principal side pane expanded, which shows searching for an ID." lightbox="images/adding-access-policy-add-your-account-2.png":::
+            :::image type="content" source="images/add-access-policy-add-your-account-2.png" alt-text="Screenshot of the Add access policy screen with the Principal side pane expanded, which shows searching for an ID." lightbox="images/add-access-policy-add-your-account-2.png":::
       1. Select **Add**.
       1. Select **Save** in the upper-left of the screen.
-         :::image type="content" source="images/selecting-save-in-adding-access-policy-2.png" alt-text="Screenshot that shows the Save option on the Access policies screen.":::
+         :::image type="content" source="images/select-save-in-adding-access-policy-2.png" alt-text="Screenshot that shows the Save option on the Access policies screen.":::
 1. Add the keyvault's secret permissions to the managed identity by performing the following steps:
      1. From the keyvault's properties screen (as the following shows), select **Access policies** in the left pane.
         :::image type="content" source="images/keyvault-before-managed-identity-2.png" alt-text="Screenshot of the Access policies page with Access policies highlighted on the left bar." lightbox="images/keyvault-before-managed-identity-2.png":::
@@ -237,7 +237,7 @@ The setup details are available [here](#data-pipeline---automated).
         :::image type="content" source="images/adding-role-assignment-2.png" alt-text="Screenshot of the Access control (IAM) section of the storage account with Add role assignment selected on the Add dropdown.":::
      1. Select **+ Add** and select **Add role assignment**. The **Add role assignment** screen appears.
      1. Select **Storage Blob Data Contributor**, and select **Next**.
-        :::image type="content" source="images/selecting-role-assignment-2.png" alt-text="The role assignment screen":::
+        :::image type="content" source="images/select-role-assignment-2.png" alt-text="The role assignment screen":::
      1. Select the **Members** tab, and under **Assign access to**, choose the **Managed identity** radio button.
         :::image type="content" source="images/choosing-managed-identity.png" alt-text="Screenshot of the Add role assignment page, Members tab, with Managed identity radio button selected under Assign access to.":::
      1. Select **+ Select members** in the center of the screen. The **Select managed identities** screen appears.
@@ -298,7 +298,7 @@ The setup details are available [here](#data-pipeline---automated).
 
 **Creating a secret**
 
-:::image type="content" source="images/create-secret-example-1-(2).png" alt-text="Screenshot of the Create a secret screen.":::
+:::image type="content" source="images/create-secret-example-1-2.png" alt-text="Screenshot of the Create a secret screen.":::
 
 **Created (the above) secret  in the key vault**
 
@@ -306,11 +306,11 @@ The setup details are available [here](#data-pipeline---automated).
 
 1. Upload the **ODatasources.txt** file to the storage account in the wpaexports container by performing the following steps:
     1. Launch the storage account.
-       :::image type="content" source="images/storage-account-screen-while-uploading-OData-file-2.png" alt-text="Screenshot of the storage account screen at the stage of OData file upload.":::
+       :::image type="content" source="images/storage-account-screen-while-uploading-o-data-file-2.png" alt-text="Screenshot of the storage account screen at the stage of OData file upload.":::
     1. Select **Containers** in the left pane.
        :::image type="content" source="images/containers-screen-2.png" alt-text="Screenshot of the containers screen where the user can select the container they created earlier.":::
     1. Select the container you created earlier in [Data pipeline - Automated](#data-pipeline---automated), step 2h. The screen displaying details/options in this container is displayed.
-       :::image type="content" source="images/containers-wpaexports-2.png" alt-text="Screenshot of the container page with the Upload blob left pane expanded."lightbox="images/containers-wpaexports-2.png":::
+       :::image type="content" source="images/containers-wpa-exports-2.png" alt-text="Screenshot of the container page with the Upload blob left pane expanded."lightbox="images/containers-wpa-exports-2.png":::
     1. Select **Upload** to the right of the search bar. The screen displaying the uploaded file appears.
 
 #### To set trigger for pipeline
