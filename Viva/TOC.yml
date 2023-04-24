@@ -31,7 +31,7 @@ items:
         href: viva-security.md
       - name: Compliance in Microsoft Viva
         href: viva-compliance.md
-    - name: Deployment Guides for Microsoft Viva
+    - name: Deployment guides for Microsoft Viva
       href: deployment-guides-for-microsoft-viva.md
   - name: Microsoft Viva Connections
     href: connections/viva-connections-overview.md
