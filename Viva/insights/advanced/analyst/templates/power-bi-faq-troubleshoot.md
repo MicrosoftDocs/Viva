@@ -99,7 +99,7 @@ However, there are a few template elements that aren't localized:
 
 ### Q5 How do I use Power BI?
 
-See [Power BI documentation](/powerbi/index.yml) for details on how to use Power BI.
+See [Power BI documentation](/power-bi) for details on how to use Power BI.
 
 ## Troubleshooting
 
