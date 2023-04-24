@@ -1,7 +1,7 @@
 ---
-ms.date: 03/13/2023
-title: New hire onboarding and development report
-description: Learn how the New hire onboarding and development PowerBI template from Microsoft Viva Insights helps you 
+ms.date: 04/24/2023
+title: Onboarding and development report
+description: Learn how the Onboarding and development PowerBI template from Microsoft Viva Insights helps you support new employees and those transitioning to a new role
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
@@ -36,7 +36,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
-<iframe title="Ways of Working - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiYWE0MGExNGEtMmIwNC00ZDg4LWI4MmYtYWM2Yjc0NzAzMmI2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="Report Section" width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZjhhNTI3ZDktNDBmYi00MDZjLWFmNjgtNTEyYmM5ZDg3MjU5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 * Have the **HireDate** attribute, which indicates when a person was hired, uploaded as part of your organizational data.
