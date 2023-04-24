@@ -19,14 +19,14 @@ description: "Learn how front line workers can thrive in a hybrid workplace with
 ---
 
 # Microsoft Viva for the hybrid workplace: Frontline workers
-Frontline workers want to do things like see their schedules and be able to check in and check out of their shifts easily, get organizational communications and conversations, track assigned tasks and more all in one place.
+Frontline workers want to do things like see their schedules and be able to easily check in and check out of their shifts, view organizational communications, take part in group conversations, track assigned tasks and more all in one place. The suite of Viva apps and Microsoft Teams can help them do all this while they’re on the go working directly with customers, the general public, or helping manufacture and distribute products. Here are some ways these apps support frontline workers.
 
 | Viva Connections | Microsoft Teams | Viva Insights | Viva Learning | Viva Engage |
 | ---|---|---|---|---|
  | Provide easy access to tasks and information in one place, including things like Shifts or Assigned tasks. | Use Teams apps like Shifts, Planner, and others to populate the Dashboard. | Provide ability to set aside time for focus and balance during a busy day | Target specific training for frontline workers | Provide the ability to share and consume just-in-time information with their co-workers, team leads, and supervisors.
 
 **Roles for this scenario**:
-Managers and supervisors, Corporate communications specialists, SharePoint site owners and page authors, Viva Engage (Teams) admins, and Yammer communities (web) admins
+Managers and supervisors, corporate communications specialists, SharePoint site owners and page authors, Viva Engage admins, Teams admins, and Yammer community web admins.
 
 #### Provide easy access to tools in one place with Viva Connections
 
@@ -52,7 +52,7 @@ Learning new skills is an ongoing process. In a hybrid environment, it is essent
 
 ![Learning page](../media/learning.png)
 
-You can assign and/or recommend learning content to individuals, share content with your team, and track the reported completion status of learning that you've recommended.
+You can assign and recommend learning content to individuals, share content with your team, and track the reported completion status of learning that you've recommended.
 
 See [Incorporate learning into your organization](/viva/solutions/incorporate-learning) for a full guide.
 
@@ -67,7 +67,7 @@ The knowledge admin (or global administrator) provides a site URL to where the L
 Once you have Learning set up, you can make it easily discoverable from your Viva Connections Dashboard by adding a Learning app card to it. To do this, go to your Dashboard in SharePoint, add the Teams app card to your dashboard, and search for and select Viva Learning from the property pane on the right. Get more information about [getting started with Viva Connections](/Viva/connections/guide-to-setting-up-viva-connections).
 
 #### Connect with Viva Engage
-Viva Engage serves the needs of knowledge-sharing, employee experiences, company-wide communications, and leadership engagement by providing a central place for your conversations, files, events, and updates. This can be especially useful for front line workers to share and consume just-in-time information with their co-workers, team leads, and supervisors. See how to [Manage a community in Yammer](https://support.microsoft.com/office/manage-yammer-community-members-75253554-d0f3-4148-b835-e6a9a8a0c294).
+Viva Engage serves the needs of knowledge-sharing, employee experiences, company-wide communications, and leadership engagement by providing a central place for your conversations, files, events, and updates. This can be especially useful for frontline workers to share and consume just-in-time information with their co-workers, team leads, and supervisors. See how to [Manage a community in Yammer](https://support.microsoft.com/office/manage-yammer-community-members-75253554-d0f3-4148-b835-e6a9a8a0c294).
 
 Additionally, you can use the Viva Engage app for Microsoft Teams and the Yammer web part on your home page (or other pages) in SharePoint Online.
 When you use the [Viva Engage app for Microsoft Teams](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284), you can also [add it to Viva Connections as a card to your dashboard](/viva/connections/create-dashboard), making it easy for your employees to find.
