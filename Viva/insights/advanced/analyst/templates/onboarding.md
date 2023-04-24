@@ -45,7 +45,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 >[!Note]
 >If you want your report to include new hires and existing employees who've transferred to a new role, you'll also need to include the **RoleStartDate** attribute, which indicates when a person started in a new role or function. Without **RoleStartDate**, however, the rest of the report will still load. 
 >
->You can add new attributes to your organizational data at any time. For more details on how to add new data for existing employees, refer to [subsequent uploads](../../admin/upload-org-data-subsequent.md) 
+>You can add new attributes to your organizational data at any time. For more details on how to add new data for existing employees, refer to [subsequent uploads](../../admin/upload-org-data-subsequent.md).
 
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
@@ -153,6 +153,6 @@ View this report's metrics.
 The report also includes the following features: 
 
 * **Why it matters** interpretations – Get additional context and links to supporting research. 
-* **Take action** recommendations – Discover opportunity areas and recommended actions for each section in the report
+* **Take action** recommendations – Discover opportunity areas and recommended actions for each section in the report.
 
 [!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
