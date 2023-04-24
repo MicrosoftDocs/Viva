@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 4/20/2023
+ms.date: 4/23/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -55,14 +55,14 @@ When you’re setting up Viva Connections, be sure to [confirm who has access to
 
 For more information about Viva Connections, see [Overview of Viva Connections](connections/viva-connections-overview.md).
 
-### Viva Learning
-Viva Learning is a centralized learning hub in Microsoft Teams that brings in content from different sources including Microsoft Learn, your organization’s SharePoint sites, LinkedIn Learning, and third-party content providers and learning management systems. Non-Microsoft content that is accessible through Viva Learning is subject to terms other than the Microsoft product terms. Learn more about [Viva Learning content terms and conditions](learning/terms-and-conditions.md). 
+### Viva Engage
+Your organization's privacy and security settings from Microsoft Yammer are shared with Viva Engage. Because of this, you need a Viva Engage Enterprise license to set up and ensure Engage is secure and compliant. The admin tools help protect your Engage data and who can access your Engage network, along with controlling access, managing users, providing secure access on mobile devices via Microsoft Intune, [assigning roles](engage/eac-key-admin-roles-permissions.md), and limiting file uploads. The Engage admin can set up and configure Engage for your organization and manage data, network-related settings, and the various core or premium features within the application. To make someone an Engage admin, make them an [Yammer administrators](/microsoft-365/admin/add-users/assign-admin-roles) in Azure AD.
 
-Viva Learning is enabled by default for all Microsoft Teams users in your organization. 
+For more information about security in Viva Engage, see 
+[Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).
 
-You can turn off or turn on Viva Learning at the organization level on the Manage apps page in the Microsoft Teams admin center. For more information, see [Manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps). To control whether specific users have access to Viva Learning, create a custom app permission policy and assign it to those users. For more information, see [Manage app permission policies in Teams](/microsoftteams/teams-app-permission-policies).
-
-For more information about Viva Learning, see [Microsoft Viva Learning](/viva/learning/).
+### Viva Goals
+Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business. For information about security in Viva Goals, see [Viva Goals security, privacy, and compliance](goals/vg-privacy-and-security.md).
 
 ### Viva Insights
 Microsoft Viva Insights produces useful insights about how your organization and employees function by analyzing Microsoft 365 collaboration data and organizational (HR) data that you provide or that's used in Microsoft Azure Active Directory. 
@@ -73,22 +73,14 @@ The Personal Insights feature is built on Microsoft Graph, which includes a set 
 
 For more information about Viva Insights, see [Introducing Viva Insights](insights/introduction.md).
 
-### Viva Topics
-Viva Topics uses existing content security features in Microsoft 365, along with administrative controls, to control what AI-generated content is shown to users in your organization. What an individual can see in topics is determined by the combination of [Microsoft 365 security](/microsoft-365/security/) settings (permissions to sites, files, and folders) and [Topics admin settings](topics/topic-experiences-security-privacy.md).
- 
-Viva Topics doesn’t modify any existing access controls on content in your organization. Users see only what they already have access to. Admins can also indicate which [SharePoint sites are scanned for information](topics/topic-experiences-discovery.md#select-sharepoint-topic-sources) or [prevent topic viewers from seeing specific topics](topics/topic-experiences-knowledge-rules.md). Admins can access the topic center to see a list of created topics for more granular control. Admins can also [use sensitivity labels to restrict topic and resource discovery](topics/topic-experiences-discovery.md#exclude-resources-based-on-sensitivity-labels).
+### Viva Learning
+Viva Learning is a centralized learning hub in Microsoft Teams that brings in content from different sources including Microsoft Learn, your organization’s SharePoint sites, LinkedIn Learning, and third-party content providers and learning management systems. Non-Microsoft content that is accessible through Viva Learning is subject to terms other than the Microsoft product terms. Learn more about [Viva Learning content terms and conditions](learning/terms-and-conditions.md). 
 
-For more information, see [Security and privacy in Microsoft Viva Topics](topics/topic-experiences-security-privacy.md).
+Viva Learning is enabled by default for all Microsoft Teams users in your organization. 
 
-### Viva Engage
-Your organization's privacy and security settings from Microsoft Yammer are shared with Viva Engage. Because of this, you need a Viva Engage Enterprise license to set up and ensure Engage is secure and compliant. The admin tools help protect your Engage data and who can access your Engage network, along with controlling access, managing users, providing secure access on mobile devices via Microsoft Intune, [assigning roles](engage/eac-key-admin-roles-permissions.md), and limiting file uploads. The Engage admin can set up and configure Engage for your organization and manage data, network-related settings, and the various core or premium features within the application. To make someone an Engage admin, make them an [Yammer administrators](/microsoft-365/admin/add-users/assign-admin-roles) in Azure AD.
+You can turn off or turn on Viva Learning at the organization level on the Manage apps page in the Microsoft Teams admin center. For more information, see [Manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps). To control whether specific users have access to Viva Learning, create a custom app permission policy and assign it to those users. For more information, see [Manage app permission policies in Teams](/microsoftteams/teams-app-permission-policies).
 
-
-For more information about security in Viva Engage, see 
-[Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).
-
-### Viva Goals
-Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business. For information about security in Viva Goals, see [Viva Goals security, privacy, and compliance](goals/vg-privacy-and-security.md).
+For more information about Viva Learning, see [Microsoft Viva Learning](/viva/learning/).
 
 ### Viva Sales
 Viva Sales is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more. It uses Microsoft 365 and Teams to capture, access, and register data into your organization's existing Customer Relationship Management (CRM) system (Microsoft Dynamics 365, Salesforce, etc.). A Microsoft 365 administrator is needed to deploy and install the Viva Sales add-in for Outlook, and a Teams administrator to install Viva Sales for Teams and pin it as an app.  Learn more about [installing Viva Sales for Outlook](/viva/sales/install-viva-sales-individual-add-in-admin-center#microsoft-outlook), and how to [install Viva Sales for Microsoft Teams](/viva/sales/install-pin-viva-sales-teams). 
@@ -98,3 +90,10 @@ There are more role requirements if you're using Microsoft Dynamics 365 as your 
 To support Viva Sales in Microsoft Outlook, Viva Sales uses Microsoft Graph, which includes a set of REST-based API calls that enable developers to interact with the Microsoft technologies used by your organization. To use these API calls, developers must have specific permissions to access any data they request. Admins control both the deployment of any Microsoft Graph application and permissions to access these applications. You can’t turn access to Microsoft Graph on or off globally in the Microsoft 365 Admin Center; instead you can achieve the same effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. For more information, see [Microsoft Graph and Microsoft Graph security API](/graph/security-concept-overview).
 
 To learn more about Viva Sales, see [Introduction to Viva Sales](/viva/sales/introduction).
+
+### Viva Topics
+Viva Topics uses existing content security features in Microsoft 365, along with administrative controls, to control what AI-generated content is shown to users in your organization. What an individual can see in topics is determined by the combination of [Microsoft 365 security](/microsoft-365/security/) settings (permissions to sites, files, and folders) and [Topics admin settings](topics/topic-experiences-security-privacy.md).
+ 
+Viva Topics doesn’t modify any existing access controls on content in your organization. Users see only what they already have access to. Admins can also indicate which [SharePoint sites are scanned for information](topics/topic-experiences-discovery.md#select-sharepoint-topic-sources) or [prevent topic viewers from seeing specific topics](topics/topic-experiences-knowledge-rules.md). Admins can access the topic center to see a list of created topics for more granular control. Admins can also [use sensitivity labels to restrict topic and resource discovery](topics/topic-experiences-discovery.md#exclude-resources-based-on-sensitivity-labels).
+
+For more information, see [Security and privacy in Microsoft Viva Topics](topics/topic-experiences-security-privacy.md).
