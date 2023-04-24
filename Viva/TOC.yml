@@ -6,8 +6,6 @@ items:
     items:
     - name: Microsoft Viva overview
       href: microsoft-viva-overview.md
-    - name: Deployment Guides for Microsoft Viva
-      href: deployment-guides-for-microsoft-viva.md
     - name: Plan for Microsoft Viva 
       href: getting-started-with-microsoft-viva.md
       items:
@@ -33,6 +31,8 @@ items:
         href: viva-security.md
       - name: Compliance in Microsoft Viva
         href: viva-compliance.md
+    - name: Deployment Guides for Microsoft Viva
+      href: deployment-guides-for-microsoft-viva.md
   - name: Microsoft Viva Connections
     href: connections/viva-connections-overview.md
   - name: Microsoft Viva Insights
