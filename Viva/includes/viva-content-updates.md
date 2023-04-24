@@ -2,6 +2,59 @@
 
 
 
+## Week of April 17, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/19/2023 | [Microsoft Viva Compliance](/viva/viva-compliance) | added |
+| 4/19/2023 | [Understand how privacy works in Microsoft Viva](/viva/viva-privacy) | added |
+| 4/19/2023 | [Understand how security works in Microsoft Viva](/viva/viva-security) | added |
+| 4/19/2023 | [Microsoft Viva Privacy, Security, and Compliance](/viva/microsoft-viva-security) | modified |
+| 4/19/2023 | [Learn more about Microsoft Viva apps](/viva/discover-more-about-each-viva-module) | modified |
+| 4/19/2023 | [Combine Microsoft Viva apps to support popular business scenarios](/viva/learn-how-to-combine-modules) | modified |
+| 4/20/2023 | [Understand how privacy works in Microsoft Viva](/viva/viva-privacy) | modified |
+| 4/20/2023 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | modified |
+| 4/20/2023 | Personal insights introduction | removed |
+| 4/20/2023 | Privacy guide for personal insights | removed |
+| 4/20/2023 | Focus plan for Viva Insights | removed |
+| 4/20/2023 | Focus with Viva Insights | removed |
+| 4/20/2023 | Mindfulness content in Viva Insights | removed |
+| 4/20/2023 | Viva Insights Home tab in Teams and on the web | removed |
+| 4/20/2023 | Inspiration library in the Viva Insights app | removed |
+| 4/20/2023 | Viva Insights app introduction | removed |
+| 4/20/2023 | Meeting category insights in Viva Insights | removed |
+| 4/20/2023 | Meeting effectiveness surveys in Viva Insights | removed |
+| 4/20/2023 | Meeting habits in Viva Insights | removed |
+| 4/20/2023 | Network in Viva Insights | removed |
+| 4/20/2023 | Praise with Viva Insights | removed |
+| 4/20/2023 | Privacy guide for personal insights in the Viva Insights app | removed |
+| 4/20/2023 | Productivity tab in Viva Insights | removed |
+| 4/20/2023 | Quiet time in Viva Insights | removed |
+| 4/20/2023 | Reflect with Viva Insights | removed |
+| 4/20/2023 | Schedule send suggestions in Teams chat | removed |
+| 4/20/2023 | Configure Viva Insights settings | removed |
+| 4/20/2023 | Shared focus plan | removed |
+| 4/20/2023 | Shared meeting plan in Viva Insights | removed |
+| 4/20/2023 | Shared no-meeting day plan | removed |
+| 4/20/2023 | Suggested tasks in Viva Insights | removed |
+| 4/20/2023 | Teamwork tab in Viva Insights | removed |
+| 4/20/2023 | Time management features in Viva Insights | removed |
+| 4/20/2023 | Virtual commute with Viva Insights | removed |
+| 4/20/2023 | Discover and pin the Viva Insights app | removed |
+| 4/20/2023 | Wellbeing tab in Viva Insights | removed |
+| 4/20/2023 | About Viva Insights Outlook add-in | removed |
+| 4/20/2023 | Viva Insights digest emails | removed |
+| 4/20/2023 | Inline suggestions in Outlook | removed |
+| 4/20/2023 | Schedule send with Viva Insights | removed |
+| 4/20/2023 | Use Microsoft Viva Insights in Outlook | removed |
+| 4/20/2023 | [Manage topic discovery in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery) | modified |
+| 4/20/2023 | [Manage topic visibility in Microsoft Viva Topics](/viva/topics/topic-experiences-knowledge-rules) | modified |
+| 4/20/2023 | [Manage topic permissions in Microsoft Viva Topics](/viva/topics/topic-experiences-user-permissions) | modified |
+| 4/21/2023 | [Automate query data exports](/viva/solutions/automate-exports) | modified |
+| 4/21/2023 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
+
+
 ## Week of April 10, 2023
 
 
@@ -132,77 +185,3 @@
 | 3/24/2023 | [Identify leaders and manage audiences in Viva Engage](/viva/engage/leadership-identification) | modified |
 | 3/24/2023 | [Get support for Viva Insights](/viva/insights/get-insights-support) | modified |
 | 3/24/2023 | [Configure Saba as a content source for Microsoft Viva Learning](/viva/learning/configure-saba-content-source) | modified |
-
-
-## Week of March 13, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/13/2023 | [View feedback results as a shared report viewer](/viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer) | renamed |
-| 3/14/2023 | [Custom embed URL widget](/viva/goals/custom-url-widget) | added |
-| 3/14/2023 | [Change the name of the topic center in Microsoft Viva Topics](/viva/topics/topic-experiences-administration) | modified |
-| 3/15/2023 | [View feedback results as a shared report viewer](/viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer) | modified |
-| 3/16/2023 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | renamed |
-| 3/16/2023 | [Employee experience Power BI template from Organization trends](/viva/insights/org-team-insights/reference/employee-experience-pbi) | renamed |
-| 3/16/2023 | [Employee wellbeing in Viva Insights](/viva/insights/org-team-insights/reference/employee-wellbeing) | renamed |
-| 3/16/2023 | [Manager connection in Viva Insights](/viva/insights/org-team-insights/reference/manager-connection) | renamed |
-| 3/16/2023 | [Meeting effectiveness in Viva Insights](/viva/insights/org-team-insights/reference/meeting-effectiveness) | renamed |
-| 3/16/2023 | [FAQ for My organization insights](/viva/insights/org-team-insights/reference/org-trends-faq) | renamed |
-| 3/16/2023 | [Organization trends](/viva/insights/org-team-insights/reference/org-trends) | renamed |
-| 3/16/2023 | [Setup for manager and leader insights](/viva/insights/org-team-insights/reference/setup) | renamed |
-| 3/16/2023 | [Shared no-meeting day plan](/viva/insights/org-team-insights/reference/shared-no-meeting-day) | renamed |
-| 3/16/2023 | [Teamwork habits in Viva Insights](/viva/insights/org-team-insights/reference/teamwork-habits) | renamed |
-| 3/16/2023 | [Team insights](/viva/insights/org-team-insights/team-insights) | renamed |
-| 3/16/2023 | [Focus plan for Viva Insights](/viva/insights/personal/teams/focus-plan) | renamed |
-| 3/16/2023 | [Focus with Viva Insights](/viva/insights/personal/teams/focus) | renamed |
-| 3/16/2023 | [Viva Insights Home tab in Teams and on the web](/viva/insights/personal/teams/home) | renamed |
-| 3/16/2023 | [Meeting effectiveness surveys in Viva Insights](/viva/insights/personal/teams/meeting-effectiveness-surveys) | renamed |
-| 3/16/2023 | [Meeting habits in Viva Insights](/viva/insights/personal/teams/meeting-habits) | renamed |
-| 3/16/2023 | [Network in Viva Insights](/viva/insights/personal/teams/network) | added |
-| 3/16/2023 | [Praise with Viva Insights](/viva/insights/personal/teams/praise) | renamed |
-| 3/16/2023 | [Productivity tab in Viva Insights](/viva/insights/personal/teams/productivity) | renamed |
-| 3/16/2023 | [Effective meetings in Viva Insights](/viva/insights/personal/teams/reference/effective-meetings) | renamed |
-| 3/16/2023 | [Focus mode in Viva Insights](/viva/insights/personal/teams/reference/focus-mode) | added |
-| 3/16/2023 | [Inspiration library with Viva Insights](/viva/insights/personal/teams/reference/inspiration) | added |
-| 3/16/2023 | [Personal insights introduction](/viva/insights/personal/teams/reference/introduction) | added |
-| 3/16/2023 | [Shared meeting plan in Viva Insights](/viva/insights/personal/teams/reference/shared-meeting-plan) | added |
-| 3/16/2023 | [Praise with Viva Insights](/viva/insights/personal/teams/reference/viva-insights-praise) | renamed |
-| 3/16/2023 | [Protect time with Viva Insights](/viva/insights/personal/teams/reference/viva-insights-protect-time) | renamed |
-| 3/16/2023 | [Reflect with Viva Insights](/viva/insights/personal/teams/reference/viva-insights-reflect) | renamed |
-| 3/16/2023 | [Stay connected with Viva Insights](/viva/insights/personal/teams/reference/viva-insights-stay-connected) | renamed |
-| 3/16/2023 | [Virtual commute with Viva Insights](/viva/insights/personal/teams/reference/viva-insights-virtual-commute) | renamed |
-| 3/16/2023 | [Configure Viva Insights](/viva/insights/personal/teams/reference/viva-teams-app-settings) | renamed |
-| 3/16/2023 | [Reflect with Viva Insights](/viva/insights/personal/teams/reflect) | renamed |
-| 3/16/2023 | [Configure Viva Insights settings](/viva/insights/personal/teams/settings) | renamed |
-| 3/16/2023 | [Shared focus plan](/viva/insights/personal/teams/shared-focus-plan) | added |
-| 3/16/2023 | [Shared no-meeting day plan](/viva/insights/personal/teams/shared-no-meeting-day) | renamed |
-| 3/16/2023 | [Suggested tasks in Viva Insights](/viva/insights/personal/teams/suggested-tasks) | renamed |
-| 3/16/2023 | [Teamwork tab in Viva Insights](/viva/insights/personal/teams/teamwork) | renamed |
-| 3/16/2023 | [Time management features in Viva Insights](/viva/insights/personal/teams/time-management) | renamed |
-| 3/16/2023 | [Virtual commute with Viva Insights](/viva/insights/personal/teams/virtual-commute) | renamed |
-| 3/16/2023 | [Wellbeing tab in Viva Insights](/viva/insights/personal/teams/wellbeing) | renamed |
-| 3/16/2023 | [Headspace meditation with the Briefing email](/viva/insights/personal/briefing/be-headspace) | modified |
-| 3/16/2023 | [Recommended actions in the Briefing email](/viva/insights/personal/briefing/be-recommended) | modified |
-| 3/16/2023 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
-| 3/16/2023 | [Discover and try Viva Insights](/viva/insights/personal/overview/vi-trial) | modified |
-| 3/16/2023 | [Briefing email pause](/viva/insights/personal/reference/briefing-pause) | modified |
-| 3/16/2023 | [MyAnalytics retirement](/viva/insights/personal/reference/mya-retirement) | modified |
-| 3/16/2023 | [Viva Insights app redesign](/viva/insights/personal/reference/viva-insights-app-redesign) | modified |
-| 3/16/2023 | [Inspiration library in the Viva Insights app](/viva/insights/personal/teams/inspiration) | modified |
-| 3/16/2023 | Inspiration library in the Viva Insights app | removed |
-| 3/16/2023 | Shared meeting plan in Viva Insights | removed |
-| 3/16/2023 | [Shared meeting plan in Viva Insights](/viva/insights/personal/teams/shared-meeting-plan) | modified |
-| 3/16/2023 | [Admin tasks for the Viva Insights app](/viva/insights/personal/teams/viva-teams-app-admin-tasks) | modified |
-| 3/16/2023 | Privacy guide for personal insights the Viva Insights app | removed |
-| 3/16/2023 | Focus plan for Viva Insights | removed |
-| 3/16/2023 | [Respond to a pulse](/viva/pulse/provide-feedback/respond-to-pulse) | modified |
-| 3/16/2023 | [View feedback provided](/viva/pulse/provide-feedback/view-feedback-provided) | modified |
-| 3/16/2023 | [Create a pulse](/viva/pulse/request-feedback/create-pulse) | modified |
-| 3/16/2023 | [View sent pulses](/viva/pulse/request-feedback/view-sent-pulses) | modified |
-| 3/16/2023 | [View and share feedback results as a feedback author](/viva/pulse/view-and-share-feedback-results/view-and-share-feedback-author) | modified |
-| 3/16/2023 | [Recurring meeting audit Power BI report](/viva/insights/advanced/analyst/templates/recurring-meeting) | added |
-| 3/16/2023 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | modified |
-| 3/16/2023 | Focus mode in Viva Insights | removed |
-| 3/16/2023 | [Add SharePoint as a learning content source for Microsoft Viva Learning](/viva/learning/configure-sharepoint-content-source) | modified |
-| 3/17/2023 | [Add SharePoint as a learning content source for Microsoft Viva Learning](/viva/learning/configure-sharepoint-content-source) | modified |
