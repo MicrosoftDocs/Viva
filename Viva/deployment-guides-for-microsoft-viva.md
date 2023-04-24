@@ -19,21 +19,21 @@ search.appverid:
 - MET150
 description: "Deployment guides for Microsoft Viva helps you in planning and deploying Microsoft Viva."
 ---
-# Advanced Deployment Guides for Microsoft Viva
+# Advanced deployment guides for Microsoft Viva
 
 Deployment guides for Microsoft Viva give you tailored guidance and resources for planning and deploying security controls for your tenant, apps, and services.
 
 All deployment guides are available in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2224913) and in the [Microsoft 365 Setup portal](https://go.microsoft.com/fwlink/?linkid=2230646).
 
 
-## Deployment Guides
+## Deployment guides
 
-Deployment guides in the admin center require authentication to a Microsoft 365 tenant as an administrator or other role with access to the admin center, but guides in the Microsoft 365 Setup portal can be accessed by anyone. We have provided links to both locations for each guide, where available, in the tables below.
+Deployment guides in the admin center require authentication to a Microsoft 365 tenant as an administrator or other role with access to the admin center, but guides in the Microsoft 365 Setup portal can be accessed by anyone. We have provided links to both locations for each guide, where available, in the following table.
 
 
 |**Guide - [Setup Portal](https://go.microsoft.com/fwlink/?linkid=2220880)**  | **Guide - [Admin Center](https://go.microsoft.com/fwlink/?linkid=2224913)** |	**Description**  |
 |---------|---------|---------|
-|[Build your employee experience with Microsoft 365 and Microsoft Viva dashboard](https://go.microsoft.com/fwlink/?linkid=2223653)    | [Build your employee experience with Microsoft 365 and Microsoft Viva dashboard ](https://go.microsoft.com/fwlink/?linkid=2224787)       | Transform how your employees work together with the Build your employee experience with Microsoft 365 and Microsoft Viva dashboard. For seamless teamwork, use Microsoft 365 to create productive, aligned teams, and keep employees engaged with leadership and the rest of the organization. Help your employees be effective in all work activities. These guides will provide instructions on how to use SharePoint, Teams, and Yammer to build collaboration across your org to help drive productivity.        |
+|[Build your employee experience with Microsoft 365 and Microsoft Viva dashboard](https://go.microsoft.com/fwlink/?linkid=2223653)    | [Build your employee experience with Microsoft 365 and Microsoft Viva dashboard](https://go.microsoft.com/fwlink/?linkid=2224787)       | Transform how your employees work together with the Build your employee experience with Microsoft 365 and Microsoft Viva dashboard. For seamless teamwork, use Microsoft 365 to create productive, aligned teams, and keep employees engaged with leadership and the rest of the organization. Help your employees be effective in all work activities. These guides will provide instructions on how to use SharePoint, Teams, and Yammer to build collaboration across your org to help drive productivity.        |
 |[Enable Microsoft Viva Connections](https://go.microsoft.com/fwlink/?linkid=2222984)     |[Enable Microsoft Viva Connections](https://go.microsoft.com/fwlink/?linkid=2224697)         |  The **Microsoft Viva Connections** guide helps you complete the prerequisites and other tasks required to enable Viva Connections.      |
 |[Extend Viva Connections to your frontline workers](https://go.microsoft.com/fwlink/?linkid=2222981)​    | [Extend Viva Connections to your frontline workers](https://go.microsoft.com/fwlink/?linkid=2224794)        |This guide helps you extend Viva Connections to your frontline workers.         |
 |[Deploy Microsoft Viva personal insights](https://go.microsoft.com/fwlink/?linkid=2223069)    | [Deploy Microsoft Viva personal insights](https://go.microsoft.com/fwlink/?linkid=2224795)       | The **Deploy Microsoft Viva personal insights** guide helps you complete core tasks such as assigning Viva Insights licenses to users, configuring access at the tenant level, rolling out Viva personal insights, etc.        |
