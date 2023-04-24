@@ -45,7 +45,7 @@ The following steps you through how to automate the export of Workplace Analytic
 2. In **Azure Active Directory App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Workplace Analytics by selecting **View API permissions**, and then select **Add a permission**.
 3. Enter and search for the **Workplace Analytics** app name or **ID** and then select the applicable name from the list.
 
-   ![App permissions.](./images/app-permissions.png)
+   ![Screenshot that shows the app permissions screen.](./images/app-permissions-2.png)
 
    To find the Application (client) ID:
 
@@ -53,12 +53,12 @@ The following steps you through how to automate the export of Workplace Analytic
    * Select it from the list.
    * In **Application ID**, copy the ID and paste it in **APIs my organization uses** search field.
 
-     ![Workplace Analytics Application ID.](./images/app-id.png)
+     ![Screenshot that shows the Workplace Analytics Application ID screen.](./images/app-id-2.png)
 
 4. In **Request API permissions**, select **Application permissions**, select **Analyst**, and then select **Add permissions**.
 5. In **API permissions**, the global admin must select **Grant admin consent for [Workplace Analytics…]** before you can continue to the next step.
 
-    ![Grant the app permissions.](./images/permissions-grant.png)
+    ![Screenshot that shows the app API permissions screen.](./images/permissions-grant.png)
 
 6. Follow the steps in [Create data factory](/azure/data-factory/quickstart-create-data-factory-portal) to create a new analytics data factory within Azure Active Directory.
 7. In the **Azure Data Factory Overview**, select **Author & Monitor** to open Azure Data Factory.
@@ -78,17 +78,17 @@ The following steps you through how to automate the export of Workplace Analytic
     >[!Important]
     >For automatically refreshed data, you must link to a query that uses the **Auto-refresh** option in Workplace Analytics. For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
 
-     ![Query OData link.](./images/query-link.png)
+     ![Screenshot that shows copying the query OData link.](./images/query-link-2.png)
 
 15. In **Service URL**, paste the query OData link that you copied in the previous step.
 16. In **AAD resource**, enter `https://workplaceanalytics.office.com`.
 17. In **Active Directory**, select **Overview** for the new app, and then copy the **Application (client) ID**.
 
-     ![Azure application ID.](./images/azure-app-id.png)
+     ![Azure application ID.](./images/azure-app-id-2.png)
 
-18. In **Azure Data Factory** > **New linked service** > **Service principal ID**, copy the client ID. For  details, see [Linked service properties](/azure/data-factory/connector-odata#linked-service-properties).
+18. In **Azure Data Factory** > **New linked service** > **Service principal ID**, copy the client ID. For  details, see [Screenshot that shows linked service properties.](/azure/data-factory/connector-odata#linked-service-properties).
 
-     ![Service principal ID.](./images/service-princ-id.png)
+     ![Screenshot that shows the service principal ID field highlighted on a screen.](./images/service-princ-id-2.png)
 
 19. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
 20. In **Azure Active Directory** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
@@ -106,7 +106,7 @@ The following steps you through how to automate the export of Workplace Analytic
 24. In **Connection** > **Linked service** for the new OData linked service, select the new dataset you just created in the previous steps.
 25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Analyze** > **Query designer** > **Results**, and open the query link in a new browser window. Search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity set name shown in this graphic is **Persons**:
 
-     ![Query entity set name.](./images/entity-set-name.png)
+     ![Screenshot that shows the finding the Persons field in query results in the browser.](./images/entity-set-name-2.png)
 
 26. Select **Preview data** for the path to confirm you entered the correct entity.
 27. In **Azure Data Factory** > **Properties**, confirm the name and description for this new dataset.
@@ -116,7 +116,7 @@ The following steps you through how to automate the export of Workplace Analytic
 31. Create a linked service for the data store you want to export to. For details, see [Linked services](/azure/data-factory/author-management-hub#linked-services).
 32. In **Azure Data Factory** > **Author**, select the new pipeline, and then select **Add trigger** > **Trigger now** to manually run the last published pipeline, as shown in the following graphic. You can also schedule a trigger for this new pipeline by selecting **Add trigger** > **New/Edit** > **New**, and complete the required information for it. See [Pipeline execution and triggers in Azure Data Factory](/azure/data-factory/concepts-pipeline-execution-triggers) for details.
 
-     ![Azure Data Factory manually trigger pipeline.](./images/adf-trigger.png)
+     ![Screenshot that shows the Azure Data Factory screen and manually triggering the pipeline.](./images/adf-trigger-2.png)
 
 33. In **Sink** > **Sink dataset**, select the linked service name you created in a previous step.
 
@@ -130,7 +130,7 @@ The following steps you through how to automate the export of Workplace Analytic
 2. In **Azure Active Directory App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Workplace Analytics by selecting **View API permissions**, and then select **Add a permission**.
 3. Enter and search for the **Workplace Analytics** or **Viva Insights** app name or **ID** and then select the applicable name from the list.
 
-   ![App permissions.](./images/app-permissions.png)
+   ![Screenshot that shows app API permissions.](./images/app-permissions-2.png)
 
    To find the Application (client) ID:
 
@@ -138,12 +138,12 @@ The following steps you through how to automate the export of Workplace Analytic
    * Select it from the list.
    * In **Application ID**, copy the ID and paste it in **APIs my organization uses** search field.
 
-     ![Workplace Analytics Application ID.](./images/app-id.png)
+     ![Screenshot that shows the Workplace Analytics overview screen with the Application ID highlighted.](./images/app-id-2.png)
 
 4. In **Request API permissions**, select **Application permissions**, select **Analyst**, and then select **Add permissions**.
 5. In **API permissions**, the global admin must select **Grant admin consent for [Workplace Analytics…]** before you can continue to the next step.
 
-    ![Grant the app permissions.](./images/permissions-grant.png)
+    ![Screenshot that shows the API permissions screen and granting the app permissions.](./images/permissions-grant.png)
 
 6. Follow the steps in [Create A Synapse Workspace](/azure/synapse-analytics/quickstart-create-workspace) create a new Synapse Workspace within your Azure portal.
 7. In the **Azure Synapse** resource in portal, select **Open Synapse Studio** to open the Azure Synapse Workspace.
@@ -153,13 +153,13 @@ The following steps you through how to automate the export of Workplace Analytic
 
 8. In **Azure Synapse Studio**, select **Integrate**, and then add a **Pipeline**.
 
-    ![Add a pipeline in Azure Synapse](./images/synapse-pipeline.png)
+    ![Screenshot that shows adding a pipeline in Azure Synapse](./images/synapse-pipeline.png)
 
 9. In the new Pipeline activities menu, select **Move and Transform**, and then drag a **Copy data** into your pipeline workspace.
 10. Select the **ellipsis** (...) next **Datasets**, and then select **New dataset**.
 11. In the **Source** section, add a new source.
 
-    ![Add a new dataset.in Azure Synapse](./images/synapse-dataset.png)
+    ![Screenshot that shows adding a new dataset.in Azure Synapse](./images/synapse-dataset.png)
 
 12. In **New Integration Dataset**, enter **odata**, and then select **OData**.
 13. In **Set Properties**, enter a name and create a new linked service.
@@ -170,13 +170,13 @@ The following steps you through how to automate the export of Workplace Analytic
     >[!Important]
     >For automatically refreshed data, you must link to a query that uses the Auto-refresh option. For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
 
-     ![Query OData link.](./images/query-link.png)
+     ![Screenshot that shows copying the query OData link.](./images/query-link-2.png)
 
 17. In Azure Synapse New linked **Service URL**, paste the query OData link that you copied in the previous step.
 18. In **AAD resource**, enter `https://workplaceanalytics.office.com`.
 19. In **Active Directory**, select **Overview** for the new app, and then copy the **Application (client) ID**.
 
-     ![Azure application ID.2](./images/wpafeed-app.png)
+     ![Screenshot that shows the app screen with the Application (client) ID.](./images/wpafeed-app-2.png)
 
 20. In **Azure Synapse Studio** > **New linked service (Odata)** > **Service principal ID**, copy the client ID. For details, see [Linked service properties](/azure/data-factory/connector-odata#linked-service-properties).
 21. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
@@ -195,7 +195,7 @@ The following steps you through how to automate the export of Workplace Analytic
 26. In **Set Properties** > **Linked service** for the new OData linked service, select the new linked service you just created in the previous steps.
 27. In **Source** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Analyze** > **Query designer** > **Results**, and open the query link in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity set name shown in this graphic is **Persons**:
 
-     ![Query entity set name.2](./images/entity-set-name.png)
+     ![Screenshot that shows finding the query Persons field through query results in the browser.](./images/entity-set-name-2.png)
 
 28. Select **Preview data** for the path to confirm you entered the correct entity.
 29. In the **Sink** section, add a new **sink dataset** and in the **New Integration Dataset**, select **Azure Data Lake Storage Gen2**, and then select **Continue**.
@@ -203,11 +203,11 @@ The following steps you through how to automate the export of Workplace Analytic
 31. In **Set Properties**, enter a name, select **First row as header**, and then select your default Synapse storage account (which is already linked), or create a new linked service.
 32. Enter a file path for the destination of the copied file in the storage. If you leave  **File** empty, the copy pipeline automatically generates a name for the file in the destination directory.
 
-    ![File path destination for Synapse](./images/synapse-filepath.png)
+    ![Screenshot that shows creating the File path destination for Synapse in the Set properties screen.](./images/synapse-filepath.png)
 
 33. Validate and if successful, select **Publish all** at the top.
 
-    ![Publish all in Synapse](./images/synapse-publishall.png)
+    ![Screenshot that shows the Pipeline and selecting the Publish all dropdown in Synapse.](./images/synapse-publishall.png)
 
 34. After it publishes successfully, select **Add trigger**, and then **Trigger now** or select the trigger.
 35. After it successfully runs, go to your Azure Data Lake Linked Service to locate the transferred data. Select **More** > **Refresh** to view the latest available data.
