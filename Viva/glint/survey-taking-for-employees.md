@@ -19,14 +19,14 @@ ms.date: 04/21/2023
 
 # Introduce survey taking to your employees
 
-To ensure a successful survey process, we suggest you email your employees to let them know that they'll be asked to take a survey. Explain our employees why taking a survey is important, and answer questions they may have during the process.
+To ensure a successful survey process, we suggest you email your employees to let them know that they'll be asked to take a survey, explain our employees why taking a survey is important, and answer questions they may have during the process.
 
 To assist you with introducing the survey and for helping users troubleshoot, provide the following to your employees:
 
 - A sample email to introduce your survey
 - A list of troubleshooting FAQs that we suggest sharing with survey takers
 
-## Introduce the survey using this email template
+## Introduce the survey with this email template
 
 Use the email template provided [here](#sample-template) as the first of your survey communications. Customize the template to capture your program's brand, voice, goals, and plans.  The template is written with these goals in mind:
 
@@ -35,7 +35,7 @@ Use the email template provided [here](#sample-template) as the first of your su
   - Timing
   - Ease and confidentiality of participation
   - Your organizational culture, values, and brand
-- To reduce the burden on Human Resources by providing answers to anticipated questions or challenges.
+- To reduce the burden on Human Resources by providing answers to anticipated questions or challenges
 
 ### Sample template
 
@@ -63,7 +63,7 @@ We suggest customizing, then copying and sharing the following information with 
 
 You'll receive an invitation to the survey.  It should take no more than about 10 minutes to complete and you can be assured that your responses are completely confidential. Those with company email accounts receive a link by email. Employees without company email addresses or computer access receive survey access onsite. You'll be notified of the date the survey opens and how long you have to complete it. Complete the survey with honest, thorough feedback.
 
-Once the survey closes, we analyze your feedback. Your manager shares results and host a conversation about which actions to prioritize. Be prepared to share ideas about solutions that you believe can fuel progress over time.
+Once the survey closes, we analyze your feedback. Your manager will share results and host a conversation about which actions to prioritize. Be prepared to share ideas about solutions that you believe can fuel progress over time.
 
 #### What is the survey window?
 
@@ -102,7 +102,7 @@ Yes. Use the link in your survey invite to initiate a retake. You'll be directed
 
 #### Why do I keep receiving reminder emails?
 
-Reminder emails are delivered to those who haven't fully completed the survey. Select the **Get Started** link in your reminder email to ensure you selected all answers. When you have completed the entire survey, you'll see a "Thank you" page, and then no longer receive reminders.
+Reminder emails are delivered to those who haven't fully completed the survey. Select the **Get Started** link in your reminder email to ensure you selected all answers. When you have completed the entire survey, you'll see a "Thank you" page and then no longer receive reminders.
 
 #### Can I skip a question?
 
