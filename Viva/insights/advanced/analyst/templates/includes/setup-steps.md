@@ -27,7 +27,7 @@
 
 ### Link report to query
 
-9. Open the downloaded template.
+1. Open the downloaded template.
 1. If you're prompted to select a program, select **Power BI**.
 1. When you're prompted by Power BI:
    1. Paste in the partition and query identifiers.

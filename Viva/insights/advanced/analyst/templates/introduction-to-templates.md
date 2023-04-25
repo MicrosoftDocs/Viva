@@ -33,24 +33,25 @@ Before analysts can get to work, they’ll need to be assigned the **Insights An
 
 The **Analysis** page has templates for the following Power BI reports for visually analyzing data in Power BI. Select one to see more details about it and to view an interactive demo.
 
-* [Business resilience](business-resilience.md)
+- [Business resilience](business-resilience.md)
 
     Keep a pulse on business resilience and employee wellbeing while navigating large shifts in the way your company works.
-* [Hybrid workforce experience](hybrid-workforce-experience.md)
+- [Hybrid workforce experience](hybrid-workforce-experience.md)
     
     Understand how hybrid work affects the experience of onsite, hybrid, and remote employees differently.
-* [Manager effectiveness](manager-effectiveness.md)
+- [Manager effectiveness](manager-effectiveness.md)
 
     Gain insight into collaboration patterns of people managers and find ways to improve their effectiveness.
 
-* [Meeting effectiveness](meeting-effectiveness.md)
+- [Meeting effectiveness](meeting-effectiveness.md)
 
     Identify whether employees practice habits that lead to more effective meetings.
     
-* [Ways of working](ways-of-working.md)
+- [Ways of working](ways-of-working.md)
 
     Perform a broad study of collaboration patterns, meeting effectiveness, wellbeing, and coaching to uncover areas for improvement. 
-* [Wellbeing - balance and flexibility](wellbeing.md)
+- [Wellbeing - balance and flexibility](wellbeing.md)
 
     Analyze employee work balance and flexibility at your company, uncover opportunities for improvement, and track trends over time.
+
 
