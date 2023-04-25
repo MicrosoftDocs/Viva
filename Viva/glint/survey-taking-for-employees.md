@@ -19,7 +19,7 @@ ms.date: 04/21/2023
 
 # Introduce survey taking to your employees
 
-To ensure a successful survey process, we suggest you email your employees to let them know that they'll be asked to take a survey, explain our employees why taking a survey is important, and answer questions they may have during the process.
+To ensure a successful survey process, we suggest you email your employees to let them know that they'll be asked to take a survey, explain why taking a survey is important, and share FAQs with them.
 
 To assist you with introducing the survey and for helping users troubleshoot, provide the following to your employees:
 
@@ -126,4 +126,4 @@ Viva Glint's platform makes confidentiality a priority and is GDPR (General Data
 - Google Chrome
 - Safari
 - Mozilla Firefox
-- You can also gain mobile access through iOS Safari and Android Chrome.
+- You can also gain mobile access through iOS Safari and Android Chrome
