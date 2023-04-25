@@ -51,3 +51,4 @@ The advanced insights app provides advanced analysis tools for deep diving into 
   * [**Data sources**](/viva/insights/use/settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#data-sources) – View information about the Microsoft 365 and organizational data that's been uploaded into advanced insights.
   * [**Leader and manager settings**](/viva/insights/use/settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#leader-and-manager-settings) – Configure leader and manager privacy and other manager settings.
   * [**Analyst settings**](/viva/insights/use/settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#analyst-settings) – Configure system defaults, privacy settings, and exclusion rules to help ensure data accuracy.
+
