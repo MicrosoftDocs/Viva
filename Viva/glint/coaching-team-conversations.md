@@ -36,7 +36,7 @@ Customize Team Conversation Presentation Guidance to help your managers have suc
 - The presentation can't be set up after survey results have been released
 - Managers will configure the *Pick a Focus Area* and *Choose Action Items* sections with their team. They are unable to make any other changes to the presentation
 
-**The following information applies to each section in this section:**
+**The following information applies to each section:**
 
 - The Section Name for each page is used for navigation and can be customized
 - Customize content by selecting **Edit** to reveal the slider panel. You may use the default text content provided or customize
@@ -62,7 +62,7 @@ Personalize headings and body content for three conversation points. You must in
 
 ### Reflection Point
 
-The presentation kit makes two Reflection Point pages available for your managers. The first slide is for the team to consider *before* reviewing their results; the second slide is for *after* they have seen results. Both pages can be turned on or off.
+The presentation kit makes two Reflection Point pages available for managers. The first slide is for the team to consider *before* reviewing their results; the second slide is for *after* they have seen results. Both pages can be turned on or off.
 
 - Show Reflection - Switch the button to **ON** or **OFF** to include or exclude the slide
 - Section Name - Customize or use the default
@@ -72,7 +72,7 @@ The presentation kit makes two Reflection Point pages available for your manager
 
 - Section Name - Customize or use the default.
 
-*Each discussion point below has prepopulated default text or you can customize the header and thought starter, using macro fields if desired. The presentation must include all the slides provided.*
+*Each of the following slides have prepopulated default text or you can customize the header and thought starter, using macro fields if desired. The presentation must include all the slides provided.*
 
 - Thank You slide
 - High-Level Results slide
@@ -100,7 +100,7 @@ The team will work together to identify action items to improve Focus Areas.
 
 ### Summary Page
 
-The summary shown will change depending on whether the manager has marked the conversation as completed.
+The summary shown changes depending on whether the manager has marked the conversation as completed.
 
 - Section Name - Customize or use the default
 - Before Conversation is marked Done
@@ -115,9 +115,9 @@ The summary shown will change depending on whether the manager has marked the co
 Enable or disable guidance by switching to **ON** or **OFF**. Enabling Guidance allows you to select a Content Resource from the dropdown menu. Guidance is specific to the process of conversations and doesn't correlate with the specific Focus Area a manager and their team choose.
 
 >[!NOTE]
->View all Content Resources from the Glint dashboard \> Content Resources and learn to add your own resources to an Action Plan template here. All suggested Content Resources and any other resources you have added will appear in this dropdown menu and can be added to the presentation kit.*
+> View Content Resources already suggested in this kit by navigating from your dashboard to Content Resources and you may add your own resources here as well. All suggested Content Resources and added resources appear in the dropdown menu and can be added to the presentation kit.*
 
-At any time, or once this page is entirely set up, select **Preview** to see your managers' view. The presentation will include:
+At any time, or once this page is entirely set up, select **Preview** to see the managers' view. The presentation includes:
 
 - Slide names (on the left) for navigation
 - A personal note to the manager

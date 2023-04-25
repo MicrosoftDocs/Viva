@@ -50,7 +50,7 @@ The procedure is as follows:
 
 Select **Start Presentation**. This will hide the page list, practices, and tips. **Stop Presentation** can be selected when you want to pause for conversation with your team.
 
-Team Conversations cover the following, in the terminology, your admin has preselected:
+Team Conversations cover the following, in the terminology your admin has preselected:
 
 - How to have a successful meeting
 - Reflections
@@ -73,7 +73,7 @@ Team Conversations cover the following, in the terminology, your admin has prese
 
 ### Steps Forward
 
-The Focus Area selected will have been added to this slide. Now, add Action Items to support the effort. Suggested Actions are available for your consideration. Select **+ Add Action** Item to add it to your team plan. Multiple items may be added.
+The Focus Area selected will have been added to this slide. Now, add Action Items to support the effort. Suggested Actions are available for your consideration. Select **+ Add Action Item** to add it to your team plan. Multiple items may be added.
 
 ### Summary Section
 
