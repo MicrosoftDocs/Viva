@@ -174,7 +174,7 @@ On the **Topic center** page, you can create your topic center site where users 
 
 ### Review and finish
 
-Once you've chosen all your settings you can close out the **Manage Viva Topics** pane. You can change your settings any time by repeating the same process from your Microsoft 365 admin center.
+Once you've chosen all your settings you can close out the **Manage Viva Topics** pane. You can change your settings at any time by repeating the same process from your Microsoft 365 admin center.
 
 ## Access to EWS Exchange
 
