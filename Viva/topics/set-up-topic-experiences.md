@@ -79,13 +79,13 @@ To set up Topics
 
 3. This will take you to the Viva Topics admin page. Choose **Manage Viva Topics** to set up how topics will work for your organization.
 
-[![Screenshot of the Viva Topics page.](../media/topics/topics-admin-page.png)](../media/topics/topics-admin-page.png#lightbox)
+[![Screenshot of the Viva Topics page.](../media/knowledge-management/topics-admin-page.png)](../media/knowledge-management/topics-admin-page.png#lightbox)
 
 ### Topic discovery
 
 On the Topic discovery page, you'll choose how Viva Topics sources and identifies topics.
 
-![Screenshot of the Topic discovery page.](../media/topics/topic-discovery.png)
+![Screenshot of the Topic discovery page.](../media/knowledge-management/topic-discovery.png)
 
 1. In the **Select SharePoint topic sources** section, select which SharePoint sites will be crawled as sources for your topics during discovery. Choose from:
     - **All sites**: All SharePoint sites in your organization. This includes current and future sites.
@@ -122,7 +122,7 @@ On the **Topic visibility** page, you'll choose who can see topics.
 
 3. Select **Save**.
 
-![Screenshot of the who can see topics options.](../media/topics/ksetup2.png)
+![Screenshot of the who can see topics options.](../media/knowledge-management/ksetup2.png)
 
 > [!NOTE]
 > While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them will be able to view topics.
@@ -131,7 +131,7 @@ On the **Topic visibility** page, you'll choose who can see topics.
 
 In the **Topic permissions** page, you choose who can create, edit, and manage topics.
 
-![Screenshot of the topic permissions page.](../media/topics/topic-permissions.png)
+![Screenshot of the topic permissions page.](../media/knowledge-management/topic-permissions.png)
 
 1. First, go to the **Who can create and edit topics** section. You can select:
     - **Everyone in my organization**
@@ -161,7 +161,7 @@ In the **Topic permissions** page, you choose who can create, edit, and manage t
 
 On the **Topic center** page, you can create your topic center site where users can view topic pages and manage topics.
 
-![Screenshot of the Topic center page.](../media/topics/manage-topic-center.png)
+![Screenshot of the Topic center page.](../media/knowledge-management/manage-topic-center.png)
 
 1. Under **Topic center name**, choose **Edit**.
 
