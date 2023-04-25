@@ -22,7 +22,7 @@ The **Analysis** page in Microsoft Viva Insights includes a number of predefined
 
 ## Requirements for analysts
 
-Before analysts can get to work, they’ll need to be assigned the **Insights Analyst** role in Viva Insights. A Microsoft 365 global admin assigns roles, and can learn more about this task in [Assign roles](/Viva/insights/advanced/setup-maint/assign-user-roles.md). For general information about user roles in Viva Insights, see [User roles](/Viva/insights/advanced/setup-maint/user-roles.md).
+Before analysts can get to work, they’ll need to be assigned the **Insights Analyst** role in Viva Insights. A Microsoft 365 global admin assigns roles, and can learn more about this task in [Assign roles](/Viva/insights/advanced/setup-maint/assign-user-roles). For general information about user roles in Viva Insights, see [User roles](/Viva/insights/advanced/setup-maint/user-roles).
 
 ### Licensing notes
 
