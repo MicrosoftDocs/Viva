@@ -128,19 +128,20 @@ Some field values need to follow specific formatting, as described in this table
 |**PersonId** | Valid email address| `gc@contoso.com`
 |**ManagerId** | Valid email address |`gc@contoso.com`
 |**Layer** | Numbers only | `5`
-| **HourlyRate** (refer to note below) | <ul><li>Numbers only <li>Double| `23.75`
+| **HourlyRate** (refer to note below) | <li>Numbers only <li>Double| `23.75`
 
 >[!Note]
 >The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
 
-
 ##### Rules for characters in field values
 
-The following field rules apply to characters in field values:
+Here are some rules about characters in field values:
 
-* Double-byte characters, such as Japanese characters, are permitted in the field values.
 * The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line” (\n) characters are not permitted in field values. 
+* “New line” (\n) characters are not permitted in field values.
+
+>[!Note]
+>You can use double-byte characters, such as Japanese characters, in the field values.
 
 ## Related topic
 
