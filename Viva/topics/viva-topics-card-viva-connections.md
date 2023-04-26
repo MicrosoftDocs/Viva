@@ -1,8 +1,8 @@
 ---
 ms.date: 08/29/2022
 title: Use Viva Topics cards in the Viva Connections dashboard
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: hokavian
 audience: admin
