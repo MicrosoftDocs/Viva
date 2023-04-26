@@ -1,8 +1,8 @@
 ---
 ms.date: 11/15/2021
 title: Edit an existing topic in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
