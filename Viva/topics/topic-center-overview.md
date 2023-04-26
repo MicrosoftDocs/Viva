@@ -1,8 +1,8 @@
 ---
 ms.date: 11/15/2021
 title: Topic center overview in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -30,15 +30,14 @@ While all licensed users who can view topics will have access to the topic cente
 
 The topic center is created during Viva Topics setup. After setup completes, an admin can find the URL on the [Topic center management page](./topic-experiences-administration.md#to-access-topics-management-settings).
 
+1. In the Microsoft 365 admin center, select **Settings**, then **Org settings**.
+2. On the **Services** tab, choose **Viva Topics**.
 
-1. In the Microsoft 365 admin center, select **Settings**, and then select **Org settings**.
-2. On the **Services** tab, select **Topic Experiences**.
-
-    ![Connect people to knowledge.](../media/admin-org-knowledge-options-completed.png)
+    ![Screenshot of the Services tab with Viva Topics selected.](../media/knowledge-management/org-settings-topics.png)
 
 3. Select the **Topic center** tab. Under **Site address** is a link to your topic center.
 
-    ![knowledge-network-settings.](../media/knowledge-network-settings-topic-center.png)
+    ![Screenshot of the Topic center tab.](../media/knowledge-network-settings-topic-center.png)
 
 ## Home page
 
@@ -52,11 +51,11 @@ On the topic center home page, you can see the topics in your organization to wh
 
 - Suggested connections - You will see topics listed under **We've listed you on these topics. Did we get it right?** These are topics in which your connection to the topic has been suggested through AI. For example, you might be an author of a related file or site. You are asked to confirm that you should stay listed as a related person for the topic.
 
-   ![Suggested connections.](../media/knowledge-management/my-topics.png)
+   ![Screenshot of suggested topics in the topic center.](../media/knowledge-management/my-topics.png)
 
 - Confirmed connections - These are topics in which you are pinned on the topic page or you've confirmed a suggested connection to the topic. Topics will move from the suggested to confirmed section when you confirm a suggested connection.
 
-   ![Confirmed topics.](../media/knowledge-management/my-topics-confirmed.png)
+   ![Screenshot of confirmed connections in the topic center.](../media/knowledge-management/my-topics-confirmed.png)
 
 Once a user confirms their connection to a topic, the user can make edits to the topic page to curate their connection. For example, they can provide more information about their connection to the topic.
 
@@ -80,7 +79,7 @@ If you have Create and edit topics permissions, you can:
 
 - [Edit existing topics](edit-a-topic.md): You can make changes to existing topic pages that were created through discovery.
 
-- [Create new topics](create-a-topic.md): You can create new topics for ones that were not found through discovery, or if AI tools did not find enough evidence to create a topic.
+- [Create new topics](create-a-topic.md): You can create new topics for ones that weren't found through discovery, or if AI tools didn't find enough evidence to create a topic.
 
 ## See also
 

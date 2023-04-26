@@ -1,8 +1,8 @@
 ---
-ms.date: 11/15/2021
+ms.date: 04/26/2023
 title: Manage topics in the topic center in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: ergradel
 audience: admin
@@ -28,7 +28,7 @@ description: Learn how to manage topics in the topic center in Microsoft Viva To
 
 In the Viva Topics topic center, a knowledge manager can view the **Manage topics** page to review topics that have been identified in the source locations as specified by your knowledge admin.  
 
-   ![Screenshot that shows the Topic Center.](../media/knowledge-management/manage-topics-view.png)  
+:::image type="content" alt-text="Screenshot that shows the Topic Center." source="../media/knowledge-management/manage-topics-view.png":::
 
 ## Topic stages
 
@@ -43,7 +43,7 @@ Knowledge managers help to guide discovered topics through the various topic lif
    - A knowledge manager confirms a topic. A knowledge manager [confirms a topic](manage-topics.md#confirmed-topics) on the **Manage topics** page.
 
    - Multiple users confirm a topic. There must be a net of two positive votes received from users who voted using the feedback mechanism on the topic card. For example, if one user voted positive and one user voted negative for a particular topic, you would still need two more positive votes for the topic to be confirmed.
- 
+
 - **Published**: A topic that has been curated. Manual edits have been made to improve its quality, or it has been created by a user.
 
 - **Removed**: A topic that has been rejected and will no longer be visible to viewers. A topic can be removed in any state (suggested, confirmed, or published). Topic removal occurs when either:
@@ -54,18 +54,19 @@ Knowledge managers help to guide discovered topics through the various topic lif
 
   When a published topic is removed, the page with the curated details will need to be deleted manually through the Pages library of the topic center.
 
-> [!Note] 
+> [!NOTE]
 > A topic, when removed, can take up to 24 hours to stop appearing to users in your organization.
 
-> [!Note] 
+> [!NOTE]
 > On the **Manage topics** page, each knowledge manager will only be able to see topics where they have access to the underlying files and pages connected to the topic. This permission trimming will be reflected in the list of topics that appear in the manage topics page. The topic counts, however, show the total counts in the organization regardless of permissions.
 
 ## Requirements
 
 To manage topics in the topic center, you need to:
+
 - Have a Viva Topics license.
 
-- Have the [**Who can manage topics**](./topic-experiences-user-permissions.md) permission. Knowledge admins can give users this permission in the Viva Topics topic permissions settings. 
+- Have the [**Who can manage topics**](./topic-experiences-user-permissions.md) permission. Knowledge admins can give users this permission in the Viva Topics topic permissions settings.
 
 You won't be able to view the **Manage topics** page in the topic center unless you've the **Who can manage topics** permission.
 
@@ -73,7 +74,7 @@ In the topic center, a knowledge manager can review topics that have been identi
 
 ## Suggested topics
 
-On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be labled as **Suggested** in the status column. If needed, a knowledge manager can review unconfirmed topics and choose to confirm or remove them.
+On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be labeled as **Suggested** in the status column. If needed, a knowledge manager can review unconfirmed topics and choose to confirm or remove them.
 
    ![Screenshot of suggested topics.](../media/knowledge-management/suggested-topics-filtered-view.png) 
 
@@ -86,7 +87,7 @@ To review a suggested topic:
 3. After reviewing the topic, go back to the **Manage topics** page. For the selected topic, you can:
 
    - Select the check mark to confirm the topic.
-    
+
    - Select the **x** if you want to remove the topic.
 
     Confirmed topics will be removed from the **Suggested** list and will now display in the **Confirmed** list.
@@ -95,11 +96,14 @@ To review a suggested topic:
 
 ### Topic scores
 
-Each topic that appears on the manage topics page has an **Org topic score** and a **Topic score**. The Org topic score is a measure of how complete and full quality the information associated to the topic is within the organization. The Topic score accounts for the files and resources that the current user has permissions to access. Used in combination, these scores help knowledge managers focus their efforts on publishing high quality topics, focusing on topics that the user has the most comprehensive access to.
+Each topic that appears on the manage topics page has an **Org topic score** and a **Topic score**. The Org topic score is a measure of how complete and full quality the information associated to the topic is within the organization. The Topic score accounts for the files and resources that the current user has permissions to access. Topic scores will rise when the user adds information such as a description to a topic page, although this change is not reflected immediately. Used in combination, these scores help knowledge managers focus their efforts on publishing high-quality topics, focusing on topics that the user has the most comprehensive access to.
 
- For example, if a user shows a high topic score for a topic, that user has the most comprehensive access to the resources of that topic and can edit and confirm the topic with full confidence. If an Org topic score is higher than a user’s Topic score, the knowledge manager can find someone who has a high topic score to update and confirm that topic.
+>[!NOTE]
+>Scores are AI-determined. In general, the more metadata a topic has, the higher the score will be. In addition, human confirmation raises topic scores.
 
-Knowledge managers might come across topic scores of 0 for some topics. A 0 topic score may occur when there's not enough resources attached to a particular topic that the user can access. Knowledge managers are encouraged to either augment these low-quality topics with additional information or remove them as needed. Topics that have an Org Topic score of 0 aren't displayed to end users because they aren't deemed to be of sufficient quality. Keep in mind that some topics can have associated information or resources available, and still have a 0 topic score due to the quality and quantity of those resources.
+ For example, if a user shows a high topic score for a topic, that user has the most comprehensive access to the resources of that topic and can edit and confirm the topic with full confidence. If an Org topic score is higher than a user’s topic score, the Knowledge Manager can find someone who has a high topic score to update and confirm that topic.
+
+Knowledge managers might come across topic scores of 0 for some topics. A 0 topic score may occur when there are not enough resources attached to a particular topic that the user can access. Knowledge managers are encouraged to either augment these low-quality topics with additional information or remove them as needed. Topics that have an Org Topic score of 0 aren't displayed to end users because they aren't deemed to be of sufficient quality. Keep in mind that some topics can have associated information or resources available, and still have a 0 topic score due to the quality and quantity of those resources.
 
 ### Impressions
 
@@ -139,7 +143,6 @@ Removed topics can later be added back as viewable topics if needed. If you want
 
 This chart in the dashboard view lets you see the number of topics in your Viva Topics topic center. The chart shows the topic counts per topic lifecycle stage and also shows how topic counts have trended over time. Knowledge managers can visually monitor the rate at which new topics are being discovered by AI and the rate at which topics are getting confirmed or published by the knowledge manager or user actions.
 
-Knowledge managers might see a different count of topics represented in the list of topics on the **Manage topics** page than they see in the dashboard. This is because a knowledge manager might not have access to all topics. The count presented in the dashboard view is taken before applying permission-trimming. 
+Knowledge managers might see a different count of topics represented in the list of topics on the **Manage topics** page than they see in the dashboard. This is because a knowledge manager might not have access to all topics. The count presented in the dashboard view is taken before applying permission-trimming.
 
-   ![Screenshot of topic count dashboard.](../media/knowledge-management/trend-of-topics-graph.png)
-
+:::image type="content" alt-text="Screenshot of topic count dashboard." source="../media/knowledge-management/trend-of-topics-graph.png":::

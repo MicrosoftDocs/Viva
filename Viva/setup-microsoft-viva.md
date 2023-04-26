@@ -23,13 +23,14 @@ description: "Learn how to set up the Microsoft Viva suite"
 ---
 # Set up Microsoft Viva
 
-Microsoft Viva consists of several apps including Viva Topics, Viva Insights, Viva Learning, Viva Connections, Viva Sales, Viva Goals, and Viva Engage. Admins can initiate setup and deployment and manage licenses for Viva apps from the Microsoft 365 Admin Center.
+Microsoft Viva is a suite of apps including Viva Topics, Viva Insights, Viva Learning, Viva Connections, Viva Sales, Viva Goals, and Viva Engage. Admins can initiate setup and deployment and manage licenses for Viva apps from the Microsoft 365 admin center.
 
 ## Start setting up
 
-1. Sign in to your account as a Microsoft 365 admin.
-2. In the search bar, enter Viva.
-3. Select **Microsoft Viva**.
+1. Go to the Microsoft 365 admin center.
+2. Sign in to your account as a Microsoft 365 admin.
+3. In the search bar, enter Viva.
+4. Select **Microsoft Viva**.
 
 ![Search for Viva](media\vivasearchscreenshot.png)
 

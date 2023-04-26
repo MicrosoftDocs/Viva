@@ -1,8 +1,8 @@
 ---
 ms.date: 11/29/2021
 title: Frequently asked questions about Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
