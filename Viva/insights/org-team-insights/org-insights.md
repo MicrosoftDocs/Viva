@@ -15,11 +15,6 @@ audience: user
 
 # Organization insights in Viva Insights
 
->[!Note]
->The Viva Insights app is being redesigned over the coming weeks. Here's an overview of what's changing: [Viva Insights app redesign](../personal/reference/viva-insights-app-redesign.md). 
->
->If you don't yet see the new app experience, find previous documentation at this link: [Organization trends](./reference/org-trends.md).
-
 Organization insights help leaders and managers of large teams understand how their organizations—the people who report to them directly or indirectly—are succeeding at work. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
 ## Subscriptions, roles, and access
@@ -99,6 +94,87 @@ Let's take a look at how to use these features:
     Here's an example:
 
     Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
+
+## Insights per tab
+
+### Home
+
+On the **Home** tab, you'll find key indicators of your organization’s wellbeing, productivity, and team culture, along with features and tools to help support your teams. 
+
+Specifically, you'll find an insight related to one of the following topics each day:
+
+* Uninterrupted focus hours
+* Manager 1:1 meeting hours
+* Meeting hours
+* After hours collaboration
+* No meeting day impact
+* Daily connected hours
+* Focus time participation
+* Join on time rate
+* Focus time impact
+* No meeting day participation
+* Multitasking hours
+* Internal network size
+
+All insight cards show the current week's average measure, and also provide the difference from the prior period. Here's an example:
+
+:::image type="complex" source="../personal/teams/images/home-org-insight-example.png" alt-text="Screenshot that shows an organization insight on the Home tab.":::
+   Screenshot that shows an organization insight card on the Home tab. The insight includes a title, subtitle, numerical indicator, increase/decrease indicator, a line graph, and a recommended action with a button to begin that action, which is to set up a no-meeting day. There's also a "Show details" link and a share icon.
+:::image-end:::
+
+### Wellbeing
+
+On the **Wellbeing** tab, you'll find key indicators of your organization's capacity for focused work and work-life balance.
+
+Each day, an insight related to one of the following topics appears at the top of your **Wellbeing** tab:
+
+* Uninterrupted focus hours 
+* After hours collaboration 
+* No meeting day impact
+* Daily connected hours 
+* Focus time participation 
+* Focus time impact 
+* No meeting day participation
+
+On the insight card, view the current week's average measure, the difference from the prior period's average, and the measure's 12-week trend. 
+
+:::image type="complex" source="../personal/teams/images/wellbeing-org-insights.png" alt-text="Screenshot that shows an uninterrupted focus hours organization insight at the top of the Wellbeing tab.":::
+   Screenshot of the "uninterrupted focus hours" organizational insight on the Wellbeing tab. The title of the page reads, "Uninterrupted focus hours - is there time for individual work?", with an information icon to the right. Below the title is a numerical indicator of "13.0 hours per person last week" with a text denoting an increase by 1.6 hours. To the right of the indicator is a line graph with months on the X axis and hours, increasing in intervals of 10, on the Y axis. Below the indicator and graph, there's a label with the text, "A shared focus plan invites your team to protect time to get work done." Below the text is a "Set up plan" button and "Show details" link. In the top right of the screen, there's a scope selector indicating that data is being shown for the organization.
+:::image-end:::
+
+If you want more information about the insight, including a comparison to peer organizations (for eligible users), a breakdown by team, a percentage distribution, and calculation methods, select **Show details** on the insight card.
+
+:::image type="complex" source="../personal/teams/images/wellbeing-org-insights-detail.png" alt-text="Screenshot that shows the insight detail page for Uninterrupted focus hours.":::
+    Screenshot of the Details page for the "Uninterrupted focus hours" insight. The page shows a numerical indicator for the organization and another numerical indicator for peer organizations. Descriptors sit beneath the organization and peer indicators and both contain tooltips. Below the descriptions is a line graph with months on the X axis and hours, in increments of two, on the Y axis, along with a color key indicating "Your organization" and "Peer organization." Below the line graph, there's a "Snapshot from last week" donut chart, which shows a percentage of employees who could benefit from more focus time. There's also a "Percentage of your organization" bar chart, with hours of focus time on the X axis and percentage on the Y axis. On the right of the screen is a card titled, "Block time for focus" that allows users to start a shared focus plan. The card contains a "Set up plan" button and "More actions" links. In the top right of the screen, there's a scope selector indicating that data is being shown for the organization.
+:::image-end:::
+
+
+To help your team improve their wellbeing, Viva Insights shows you a recommended action—for example, starting a shared focus plan. Select the action button, like **Set up plan**, either on the insight card on the **Wellbeing** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.
+
+You can also access shared actions in your **Take action to improve your wellbeing** section. Start a shared focus plan or a [shared no-meeting day](shared-no-meeting-day.md).
+
+### Productivity
+
+On the **Productivity** tab, you'll find key indicators of your organization’s meeting effectiveness, along with features and tools to help support your teams.
+
+Each day, an insight related to one of the following topics appears at the top of your **Productivity** tab:
+
+* Meeting hours
+* Join on time rate
+* Multitasking hours
+
+>[!Tip]
+>To find other insights, use the arrows to the right of the **Your organization/Your company** dropdown.
+
+On the insight cards, view the current week's calculation result and the change over time for your organization or the group of people who report to you directly or indirectly. If you want more information about the insight, including a comparison to peer organizations (for eligible users), a breakdown by team, a percentage distribution, and calculation methods, select **Show details** on the insight card.
+
+Some insight cards also provide recommended actions. For example, to help your team improve their meeting effectiveness, you can choose to set up a no-meeting day. Select the action button, like **Set up plan**, either on the insight card on the **Productivity** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.  
+
+:::image type="content" source="../personal/teams/images/productivity-org-insight-trend.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
+
+### Teamwork
+
+You’ll see a **Teamwork insights for your organization** section at the top of your **Teamwork** tab. Each day, you’ll receive an insight about internal network size across your organization or company. 
 
 ## Related information
 

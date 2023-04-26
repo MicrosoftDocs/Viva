@@ -58,9 +58,9 @@ In most cases, file validation should complete quickly. If your organizational d
 
 For information about what happens next, go to the appropriate section:
 
-[Validation succeeds](#validation-succeeds)
+- [Validation succeeds](#validation-succeeds)
 
-[Validation fails](#validation-fails)
+- [Validation fails](#validation-fails)
 
 ### Validation succeeds
 

@@ -2,7 +2,7 @@
 ms.date: 01/22/2021
 title: Admin tasks for the Viva Insights app
 description: Admin tasks for the Microsoft Viva Insights app available for Microsoft Teams
-author: madehmer
+author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.collection: 
@@ -19,8 +19,6 @@ audience: Admin
 # Admin tasks for Viva Insights
 
 As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can deploy and pin the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
-
-
 
 ## Prerequisites
 
@@ -163,7 +161,7 @@ The first time people in your organization use the Viva Insights app, they get a
 
    :::image type="content" source="images/meeting-effectiveness-notification-on.png" alt-text="Screenshot that shows the notification for users who have the feature default-on.":::
 
-   :::image type="content" source="images/meeting-effectiveness-setting-toggle.png" alt-text="Screenshot that shows the Effective meetings tab in Settings with the Meeting effectiveness surveys toggle switched on.":::
+   :::image type="content" source="images/settings-effective-meetings-toggle.png" alt-text="Screenshot that shows the Effective meetings tab in Settings with the Meeting effectiveness surveys toggle switched on.":::
 
 **Scenario 2: In the Microsoft admin center, you set the meeting effectiveness survey feature to default-off.**
 
@@ -174,8 +172,6 @@ The first time people in your organization use the Viva Insights app, they get a
 **Scenario 3: You used a PowerShell cmdlet to disable access to the meeting effectiveness survey feature.**
 
 People in your organization don't receive *any* notifications about meeting effectiveness surveys. When they go to their **Settings > Effective meetings** page in the Viva Insights app in Teams or on the web, they don't see a toggle to turn on or off the feature.
-
-   :::image type="content" source="images/meeting-effectiveness-notification-cmdlet-off.png" alt-text="Screenshot that shows the Effective meetings tab in Settings with no Meeting effectiveness surveys toggle present.":::
 
 ## Related topics
 
