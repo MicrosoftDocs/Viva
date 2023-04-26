@@ -1,7 +1,7 @@
 ---
 title: Introduction to Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: enabler, admin
@@ -19,6 +19,7 @@ ms.collection:
     - ContentEngagementFY23
 ms.localizationpriority:  medium
 description: Learn how to find resources for Microsoft Viva Topics.
+ms.date: 4/26/2023
 ---
 
 # Introduction to Microsoft Viva Topics

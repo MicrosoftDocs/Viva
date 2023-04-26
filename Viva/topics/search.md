@@ -1,8 +1,8 @@
 ---
 ms.date: 11/15/2021
 title: Use Microsoft Search to find topics in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin

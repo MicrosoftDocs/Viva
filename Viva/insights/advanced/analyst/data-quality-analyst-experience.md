@@ -103,7 +103,7 @@ When setting up a query, you'll select which employee attributes you want the qu
 
 ### In Power BI template queries
 
-In PowerBI template queries, you might encounter data-quality errors and/or warnings. Let's discuss when these notifications might appear.
+In Power BI template queries, you might encounter data-quality errors and/or warnings. Let's discuss when these notifications might appear.
 
 #### Warnings or errors on preselected metrics
 
