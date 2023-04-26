@@ -1,8 +1,8 @@
 ---
 ms.date: 01/05/2023
 title: Viva Topics in Yammer
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan

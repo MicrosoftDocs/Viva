@@ -1,8 +1,8 @@
 ---
 ms.date: 12/16/2021
 title: Analytics for Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin

@@ -1,8 +1,8 @@
 ---
 ms.date: 01/26/2022
 title: Supported languages in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 audience: admin
 ms.reviewer: ninay
