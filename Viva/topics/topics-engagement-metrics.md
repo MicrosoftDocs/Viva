@@ -15,16 +15,18 @@ description: Learn about usage and engagement trends in Microsoft Viva Topics.
 
 # Usage and engagement metrics in Viva Topics
 
-Usage and engagement metrics demonstrate how users are engaging with Viva Topics in your organization. 
+Usage and engagement metrics demonstrate how users are engaging with Viva Topics in your organization.
 
 To access usage and engagement metrics:
+
 1. In the Topic center, select the **Analytics** tab.
 2. In the **Analytics** tab, select **Usage & engagement**.
 
 ## Topic engagement
-The **Topic engagement** section provides a look into how unique users are engaging with topics. Engagements from users include consuming, sharing, and contributing to topics. 
 
-The information in this section is based on the time period that you select. The changes from the last time period appear next to each metric. 
+The **Topic engagement** section provides a look into how unique users are engaging with topics. Engagements from users include consuming, sharing, and contributing to topics.
+
+The information in this section is based on the time period that you select. The changes from the last time period appear next to each metric.
 
 ![Screenshot of total topics users graph.](../media/knowledge-management/total-topics-users-graph.png)
 
@@ -44,7 +46,7 @@ The **Topic consumption** section provides a look into how users are consuming t
 
 ![Screenshot of total topic interactions metrics.](../media/knowledge-management/topic-consumption-metrics.png)
 
-## Topic contribution 
+## Topic contribution
 
 The **Topic contribution** section provides a look into how users contribute to content on topics. Topic contributions include editing and publishing topics, and providing topic feedback.
 
