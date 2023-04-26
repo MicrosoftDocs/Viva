@@ -74,7 +74,7 @@ In the topic center, a knowledge manager can review topics that have been identi
 
 ## Suggested topics
 
-On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be labled as **Suggested** in the status column. If needed, a knowledge manager can review unconfirmed topics and choose to confirm or remove them.
+On the **Manage topics** page, topics that were discovered in your specified SharePoint source locations will be labeled as **Suggested** in the status column. If needed, a knowledge manager can review unconfirmed topics and choose to confirm or remove them.
 
    ![Screenshot of suggested topics.](../media/knowledge-management/suggested-topics-filtered-view.png) 
 
