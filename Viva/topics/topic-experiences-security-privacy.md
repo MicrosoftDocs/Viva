@@ -1,8 +1,8 @@
 ---
 ms.date: 11/15/2021
 title: Security and privacy in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin

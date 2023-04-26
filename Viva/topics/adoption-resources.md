@@ -1,8 +1,8 @@
 ---
 ms.date: 11/29/2021
 title: Adoption resources for Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: mattw
 audience: admin

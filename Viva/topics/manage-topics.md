@@ -1,8 +1,8 @@
 ---
 ms.date: 11/15/2021
 title: Manage topics in the topic center in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: ergradel
 audience: admin
