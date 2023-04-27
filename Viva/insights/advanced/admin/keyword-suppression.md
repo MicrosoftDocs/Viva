@@ -32,7 +32,7 @@ In other words, if you set up keywords, analysts won't be able to associate quer
 
 By default, Viva Insights suppresses *all* email subject lines and meeting titles. Some Viva Insights metrics use title and subject line data, for example, **Urgent email hours**. Those metrics feed into features, like certain Power BI reports. 
 
-If you keep this default setting (that is, suppress all titles and subject lines), those metrics and features won't be available to you. When analysts try to run a query that depends on keywords, and all keywords are suppressed, they'll run into warnings and errors.
+If you keep this default setting (that is, suppress all meeting titles and subject lines), those metrics and features won't be available to you. When analysts try to run a query that depends on keywords, and all keywords are suppressed, they'll run into warnings and errors.
 
 ## How to change keyword-suppression settings
 
