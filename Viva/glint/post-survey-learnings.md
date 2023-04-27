@@ -38,7 +38,7 @@ Videos can't be edited.
 
 ## How to enable or disable post-learning videos in a survey 
 
-The default for the experience is YES (On) but the experience may be switched to NO (Off). Enable or disable from your admin dashboard 
+The default for the experience is YES (On) but the experience may be switched to NO (Off). Enable or disable from your admin dashboard. 
 
 - Select **Configure** 
 - Select **General Settings** in the **Client Settings** section. 

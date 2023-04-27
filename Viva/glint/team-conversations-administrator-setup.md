@@ -21,6 +21,8 @@ description: "Team Conversations are set up by the Company Administrator within 
 
 # Admin set up for Team Conversations 
 
+To learn more about Team Conversation, see [Team Conversation](https://go.microsoft.com/fwlink/?linkid=2234345).
+
 ## Setting up Team Conversations in Program Summary 
 
 1. From your admin dashboard, select **Survey Programs** from the Surveys section.
@@ -33,10 +35,14 @@ Within Program Summary, follow these procedures:
 There are two enablement options to consider on this page: 
 
 - Enable Team Conversations – Toggle to **YES**. 
-- Team Conversations sharing - managers can share their Team Conversations Presentation Kit with users who have **View My Surveys** permissions. Team Conversations are only generated for managers with survey results that meet confidentiality threshold requirements. 
+- Team Conversations sharing - managers can share their Team Conversations Presentation Kit with users who have **View My Surveys** permissions. 
+
+
+>[!TIP]
+>Team Conversations are only generated for managers with survey results that meet confidentiality threshold requirements.  
 
    > [!NOTE]
-   >Ensure user roles have the permissions of "View My Pulses" and "View Dashboard and Reports.
+   >Ensure user roles have the permissions of "View My Surveys" and "View Dashboard and Reports.
 
 ### Schedule page 
 
@@ -59,7 +65,7 @@ Default Team Conversations email presets:
 - Conversation Start Notification: Seven days after survey results are released 
 - Reminder 1: If conversation isn't done, send seven days before due date 
 - Reminder 2: If conversation isn't done, send three days before due date 
- Conversation Summary Notification 
+- Conversation Summary Notification 
 - Conversation Overdue Reminder 1: Sent three days after conversation due date 
 
 #### Rules for editing communications 
