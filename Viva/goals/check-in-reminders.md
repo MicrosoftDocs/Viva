@@ -3,7 +3,7 @@ ms.date: 07/04/2022
 title: Configure check-in reminders and notifications
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

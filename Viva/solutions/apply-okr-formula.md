@@ -3,7 +3,7 @@ ms.date: 01/24/2023
 title: "Apply the OKR formula to your OKRs"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

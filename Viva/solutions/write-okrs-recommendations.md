@@ -3,7 +3,7 @@ ms.date: 01/23/2023
 title: "Write OKRs Recommendations"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

@@ -3,7 +3,7 @@ ms.date: 04/06/2022
 title: Managing OKR time periods
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
