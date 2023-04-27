@@ -1,8 +1,8 @@
 ---
-ms.date: 03/27/2023
+ms.date: 04/27/2023
 title: Usage and engagement metrics in Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -21,6 +21,9 @@ To access usage and engagement metrics:
 
 1. In the Topic center, select the **Analytics** tab.
 2. In the **Analytics** tab, select **Usage & engagement**.
+
+>[!NOTE]
+>User counts under 100 are exact, while numbers over 100 are approximations within three percent of the exact number.
 
 ## Topic engagement
 
@@ -44,10 +47,10 @@ The **Topic interaction** section provides a look into how users are interacting
 
 The **Topic consumption** section provides a look into how users are consuming topics through topic views and clicks. Topic consumption includes accessibility to topic cards, topic pages, topics in search results, and topic cards in the Topic center.
 
-![Screenshot of total topic interactions metrics.](../media/knowledge-management/topic-consumption-metrics.png)
+![Screenshot of total topic consumption metrics.](../media/knowledge-management/topic-consumption-metrics.png)
 
 ## Topic contribution
 
 The **Topic contribution** section provides a look into how users contribute to content on topics. Topic contributions include editing and publishing topics, and providing topic feedback.
 
-![Screenshot of total topic interactions metrics.](../media/knowledge-management/topic-contribution-metrics.png)
+![Screenshot of total topic contribution metrics.](../media/knowledge-management/topic-contribution-metrics.png)
