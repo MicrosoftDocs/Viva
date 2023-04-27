@@ -3,7 +3,7 @@ ms.date: 04/12/2022
 title: Integrations overview
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
