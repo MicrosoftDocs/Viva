@@ -3,7 +3,7 @@ ms.date: 04/13/2022
 title: monday.com integration
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

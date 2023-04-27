@@ -2,7 +2,7 @@
 title: "Microsoft Viva Compliance"
 ms.reviewer: loreenl
 ms.author: loreenl
-author: loreenl
+author: loreenla
 manager: pamgreen
 ms.date: 4/20/2023
 audience: Admin

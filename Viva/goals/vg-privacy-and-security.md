@@ -3,7 +3,7 @@ ms.date: 11/14/2022
 title: Viva Goals security, privacy, and compliance
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

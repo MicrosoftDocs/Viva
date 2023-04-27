@@ -3,7 +3,7 @@ ms.date: 03/27/2023
 title: "Renaming initiatives"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
