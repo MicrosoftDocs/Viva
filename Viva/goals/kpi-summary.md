@@ -3,7 +3,7 @@ ms.date: 04/20/2022
 title: "Key performance indicator (KPI) summary"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

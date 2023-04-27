@@ -3,7 +3,7 @@ ms.date: 06/14/2022
 title: Understand Organizations and Teams
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
