@@ -3,7 +3,7 @@ ms.date: 12/09/2022
 title: "OKR Program Analytics"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

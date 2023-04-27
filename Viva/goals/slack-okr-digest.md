@@ -3,7 +3,7 @@ ms.date: 10/20/2022
 title: OKR Digest
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: liz.pierce
 audience: Admin
 f1.keywords:
