@@ -1,8 +1,8 @@
 ---
 ms.date: 11/29/2021
 title: Save a topic as a draft in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: hoanth
 audience: admin

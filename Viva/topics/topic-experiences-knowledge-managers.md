@@ -1,8 +1,8 @@
 ---
 ms.date: 05/10/2022
 title: Knowledge managers—Build and manage a knowledge base in Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan

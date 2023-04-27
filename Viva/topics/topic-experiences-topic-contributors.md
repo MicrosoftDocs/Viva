@@ -1,8 +1,8 @@
 ---
 ms.date: 05/10/2022
 title: Topic Contributors—Share knowledge and expertise in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
