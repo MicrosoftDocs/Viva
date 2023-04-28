@@ -104,7 +104,7 @@ A2. Not an issue. Viva Insights can determine each employee's time-zone value an
 
 ##### Q3. Can I configure what data an analyst can access and use?
 
-A3. You can assign the Analyst (Limited access) role to limit an analyst access to only [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) data for advanced insights. See [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [User roles](/viva/insights/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details.
+A3. You can assign the Analyst (Limited access) role to limit an analyst access to only [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) data for advanced insights. See [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [User roles](./user-roles.md) for more details.
 
 ##### Q4. Why are Start and End times so important during configuration?
 
@@ -222,7 +222,7 @@ A1. Employee data can change based on the Settings and filters that are selected
 
 ##### Q2. How does Viva Insights estimate the cost of low-quality meetings? Can I customize this estimate?
 
-A2. Admins can include optional hourly-rate data in the organizational data upload, which they can then use to calculate the total cost of low-quality meetings for the [Meetings overview](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If this organizational data is provided, cost is calculated as the person's default hourly rate for the organization multiplied by the number of low-quality meeting hours. If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. On the **Settings** page, admins can change the value in the Hourly Rate field from its default value to another hourly rate.
+A2. Admins can include optional hourly rate data in the organizational data upload, which they can then use to calculate the total cost of low-quality meetings for the [Meetings overview](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If this organizational data is provided, cost is calculated as the person's default hourly rate for the organization multiplied by the number of low-quality meeting hours. If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. On the **Settings** page, admins can change the value in the Hourly Rate field from its default value to another hourly rate.
 
 ##### Q3. Why are a group's total meeting hours (included as part of working hours and after-hours work) larger than the group's total meeting hours for the week?
 
