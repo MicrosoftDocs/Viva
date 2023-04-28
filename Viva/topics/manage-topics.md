@@ -147,11 +147,11 @@ Knowledge managers might see a different count of topics represented in the list
 
 :::image type="content" alt-text="Screenshot of topic count dashboard." source="../media/knowledge-management/trend-of-topics-graph.png":::
 
-## Topic origin filter
+## Topic Origin filter
 
 Topic Origin indicates where the topic was sourced from, although this can change if the topic is automatically or manually merged with another topic. Engage and Taxonomy topics are called out specifically because they may lack much of the information that is associated with a typical topic.
 
-1. Viva Topics: These are topics that have been created or augmented by the system at some point in their lifecycle.
-2. User: These are topics that have been curated by a user at some point in their lifecycle.
-3. Engage: These include topics that were created in Engage since the Viva Topics integration with Engage was turned on. These also include former legacy Engage topics that have been converted into full Viva Topics. The converted topics will likely lack a definition, so if you want to see the list of topics that have been converted from the legacy Engage topic experience, you should select both the Yammer filter and the Does Not Have Description filter.
-4. Taxonomy: These are topics that were created from term sets in Managed Metadata Services. They'll likely lack much of the information that is associated with a typical topic.
+1. Viva Topics: These are topics that have been created or augmented by the system at some point in their lifecycle. 
+2. User: These are topics that have been curated by a user at some point in their lifecycle. 
+3. Engage: These include topics that were created in Engage since the Viva Topics integration with Engage was turned on. These also include former legacy Engage topics that have been converted into full Viva Topics. The converted topics will likely lack a definition, so if you want to see the list of topics that have been converted from the legacy Engage topic experience, you should select both the Yammer filter and the Does Not Have Description filter. 
+4. Taxonomy: These are topics that were created from term sets in Managed Metadata Services. They will likely lack much of the information that is associated with a typical topic.
