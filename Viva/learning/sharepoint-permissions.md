@@ -64,7 +64,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 
 8. Select **Grant access** to give your group access to the learning content.
 
-9. To validate that the right permission has been added, click on advanced options for permissions and check whether the permission you added has "TYPE" as its Domain Group.
+9. To validate that the right permission has been added, click on advanced options for permissions and check whether the permission you added has "Domain Group" as its Type.
 
 ![Image of the SharePoint permissions page that displays "domain group" as the property in the "type" column.](../media/learning/sharepoint-permissions.png)
 
