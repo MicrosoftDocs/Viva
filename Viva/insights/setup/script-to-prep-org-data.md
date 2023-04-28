@@ -34,11 +34,11 @@ This script requires the following elements. If you need help with these prerequ
 
     For information about using PowerShell on the Mac, see [Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos).
 
-    When you install the following modules – AAD and MSOnline – you first need to start PowerShell as an administrator:
+    When you install the following modules – Azure AD and MSOnline – you first need to start PowerShell as an administrator:
 
     ![Run as administrator.](../images/wpa/setup/run-as-admin.png)
 
-* **The Azure Active Directory module** - For installation instructions, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2). To install the AAD module, use the PowerShell command:
+* **The Azure Active Directory module** - For installation instructions, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2). To install the Azure AD module, use the PowerShell command:
 
    ```PowerShell
    Install-Module AzureAD
