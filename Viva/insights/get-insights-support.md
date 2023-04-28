@@ -38,7 +38,7 @@ If you have questions about Viva Insights, we have a few FAQ articles that might
 * [Organization insights FAQs](./org-team-insights/org-insights-faqs.md)
 * [Advanced insights FAQs](./advanced/reference/faq.md)
 
-If you can't find an answer to your question in one of our FAQ articles, try visiting the [Viva Insights community](https://community.vivainsights.microsoft.com/). Another user might have asked a similar question, or you can post a new question in our community of Viva experts and peers.
+If you can't find an answer to your question in one of our FAQ articles, try visiting the [Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights). Another user might have asked a similar question, or you can post a new question in our community of Viva experts and peers.
 
 Your admin can also raise a support ticket with Microsoft support by following these guidelines: [Get support for Microsoft 365 for business](/microsoft-365/admin/get-help-support).
 
@@ -48,10 +48,10 @@ If you find a bug, error, or other issue in Viva Insights, file a support ticket
 
 ## Stay up to date and connect with other users
 
-Visit and register on our [Viva Insights community](https://community.vivainsights.microsoft.com/) to learn more about upcoming releases, participate in rich discussions with other users, and sign up for events hosted by Viva experts.
+Visit and register on our [Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights) to learn more about upcoming releases, participate in rich discussions with other users, and sign up for events hosted by Viva experts.
 
 ## Additional resources
 
-* [Microsoft Viva Insights community](https://community.vivainsights.microsoft.com/)
+* [Microsoft Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights)
 * [Microsoft Workplace Insights](https://insights.office.com/)
 

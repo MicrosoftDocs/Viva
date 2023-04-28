@@ -3,7 +3,7 @@ ms.date: 03/29/2023
 title: Define KR Types in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

@@ -3,7 +3,7 @@ ms.date: 12/21/2022
 title: "Microsoft Planner Integration"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

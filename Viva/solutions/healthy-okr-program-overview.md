@@ -3,7 +3,7 @@ ms.date: 02/08/2023
 title: "Run a healthy OKR program with Viva Goals Overview"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
@@ -26,37 +26,11 @@ Microsoft Viva Goals is a goal-setting solution that aligns teams to your organi
 
 The following articles are designed to help support you as you build a healthy OKR program for your company, which can deliver incredible benefits, including stronger alignment, increased focus, goal transparency, team adaptability, and strategic growth. 
 
-## What are these “Solutions” articles and when are they most helpful?
+## How to use Solutions to run a healthy OKR program
 
-Support for running a successful OKR program can often be broken down into two areas: 
+**Select the core focus area you want to improve from the table of contents**
 
-1. **Understanding the OKR Software:** Microsoft Viva Goals is the software solution that helps you manage your OKRs. If you’re looking for short, step-by-step instruction (often with a quick video tutorial) to perform tasks in the software, visit the following:
-
-    1. [Viva Goals Help Center (End users) ](https://support.microsoft.com/en-us/office/introducing-microsoft-viva-goals-bd651be7-472a-4f40-8fdd-6fcead79f3ad)
-    1. [Viva Goals Help Center (Administrators) ](../goals/intro-to-ms-viva-goals.md) 
-    
-    Example questions: 
-    - How do I enter my OKRs into Viva Goals? 
-    - How do I configure OKR permissions? 
-
-2. **Understanding the OKR Methodology and Best Practices:** If you’re looking for assistance with broader questions around how to use OKRs and align with best practices, explore these Solutions articles. These articles provide the necessary context and detail to run a successful program. 
-    
-    Example questions: 
-    - What is a good framework for writing effective OKRs, along with examples? 
-    - How do I incorporate OKRs and dashboards into my existing rhythm of business? 
-
-Of course, these two areas go hand-in-hand, with the methodology supporting the software, and the software supporting the methodology. 
-
-## How to use these Solutions to run a healthy OKR program
-
-**Select the core focus area you want to improve**
-
-We’ve identified a select number of core topics that are key to running a great program, such as
-
-- Writing great OKRs 
-- OKR alignment 
-- OKR check-ins 
-- Incorporating OKRs into your Rhythm of Business
+We’ve identified a select number of core topics that are key to running a great program, such as writing great OKRs, OKR alignment, and incorporating OKRs into your Rhythm of Business.
 
 **Begin with the topic overview**
 

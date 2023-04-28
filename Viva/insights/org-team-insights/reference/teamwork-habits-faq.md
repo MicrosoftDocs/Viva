@@ -79,7 +79,7 @@ You can opt back in at any time to Teamwork habits within Viva Insights Settings
 
 ##### Q10 How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?
 
-We encourage all Viva Insights users to visit and register on the [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog). The community has:
+We encourage all Viva Insights users to visit and register on the [Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights). The community has:
 
 * Forums to connect with peers and discuss shared experiences.
 * Forums to contribute and receive support on common issues which are routinely reviewed by our team of experts.

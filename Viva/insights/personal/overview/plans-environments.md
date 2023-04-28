@@ -20,7 +20,7 @@ audience: Admin, user
 
 # Personal insights plans and environments
 
-Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](../teams/introduction.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
+Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3), [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d), and [inline suggestions](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5).
 
   >[!Important]
   >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
@@ -77,10 +77,10 @@ After users get assigned licenses with an applicable service plan, they get acce
 
 | Element | Approximate time frame |
 | ------- | ------------------|
-| [Welcome email](../use/mya-welcome-email.md) | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment |
-| [Insights Outlook add-in](../use/add-in.md) and [Inline suggestions](../use/mya-notifications.md) | Available about one day after license assignment |
-|[Viva Insights in Teams and on the web](../teams/introduction.md) | Available a few days after license assignment |
-| [Digest emails](../use/email-digests-3.md) | Sent two to three weeks after the welcome email |
+| Welcome email | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment |
+| [Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) and [Inline suggestions](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) | Available about one day after license assignment |
+|[Viva Insights in Teams and on the web](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) | Available a few days after license assignment |
+| [Digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3) | Sent two to three weeks after the welcome email |
 
 >[!Note]  
 >
@@ -91,17 +91,17 @@ After users get assigned licenses with an applicable service plan, they get acce
 
 * The following additional features are included with the [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights):
 
-  * Schedule send suggestions in [email](../use/delay-delivery.md) and [chat](../teams/schedule-send.md)
-  * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
-  * [Access meeting category insights](../teams/meeting-category-insights.md)
-  * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
-  * [Schedule Breaks, learning, and message catch-up](../teams/time-management.md)
+  * Schedule send suggestions in [email](https://support.microsoft.com/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639) and [chat](https://support.microsoft.com/topic/schedule-send-suggestions-in-teams-chat-6f9a22b6-b269-4264-93f2-55b5254d3c62)
+  * [Shorten a meeting and Track email open rate (inline suggestions)](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5)
+  * [Meeting category insights](https://support.microsoft.com/topic/meeting-category-insights-in-viva-insights-17962415-0c3a-4931-9aa8-3191a7b6337a)
+  * [Meeting effectiveness surveys](https://support.microsoft.com/topic/meeting-effectiveness-surveys-in-viva-insights-2eb63cc8-a6a1-4ab8-b643-80da6562aa22)
+  * [Schedule Breaks, learning, and message catch-up](https://support.microsoft.com/topic/time-management-features-in-viva-insights-da568337-8568-47cd-9f47-213537873571)
+  * [Shared meeting plan (organizer)](https://support.microsoft.com/topic/shared-meeting-plan-in-viva-insights-30c3d08b-5761-4ff7-ba7d-32d9f00759a4)
 
 * The following additional features are included with the **MyAnalytics (Full) service plan**:
 
-  * The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature
-  * [Schedule send suggestions in email](../use/delay-delivery.md)
-  * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
+  * [Shorten a meeting and Track email open rate (inline suggestions)](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5)
+  * [Schedule send suggestions in email](https://support.microsoft.com/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639)
 
 ## Browser support
 
@@ -123,12 +123,10 @@ See [Briefing languages](../briefing/be-languages.md) to see what's supported fo
 
 ## Prerequisite and exclusion
 
-* **Prerequisite**: [Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required.
+* **Prerequisite**: [Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required. 
+
+  > [!Note]
+  > Also refer to **Prerequisites to access the Viva Insights Outlook add in** in [About the Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d).
 
 * **Licensing exclusion**: Shared mailboxes are not supported.
-
-## Outlook support and prerequisites
-
-* See [Why I don't see the add-in](../use/add-in.md#how-to-see-the-add-in) for what's required.
-* See [Why I don't see inline suggestions](../use/mya-notifications.md#how-to-see-inline-suggestions) for what's required.
 

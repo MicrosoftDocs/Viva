@@ -32,7 +32,7 @@ Microsoft Viva apps can be combined to create powerful employee experiences for 
 
 ## Training and onboarding
 
-![Image of Viva Connections, Viva Learning, and Viva Topics combined together.](./media/training-combo.png)
+![Image of Viva Connections, Viva Learning, Viva Insights and Viva Topics combined together.](./media/viva-training-combo-update.png)
 
 Onboard new employees or volunteers and encourage them to learn new skills with the combination of Viva Learning and Viva Connections. Create a training experience that people can access on desktop and mobile devices and that you can target to specific audiences. Consider also adding Viva Topics to help your organization manage internal projects, subject matter experts, and terminology. Viva Insights can add even more features for onboarding. [Learn more about onboarding new employees with Viva.](solutions/viva-onboard-change-roles.md)
 
@@ -54,7 +54,15 @@ Make it easy for your employees to access content in Viva Learning through their
 3. Add a Viva Learning [teams app card](connections/create-dashboard.md) to the dashboard.
 4. If you only want your Viva Learning card to show up to users going through the training and onboarding process, you can use [audience targeting](connections/create-dashboard.md).
 
-### App 3: Viva Topics
+### App 3: Viva Insights
+
+Help new team members understand how to spend time productively and help managers provide better guidance on time management. [Learn more about Viva Insights](../viva/insights/introduction.md) and how it helps protect and organize time in [supporting work/life balance.](../viva/solutions/viva-work-life-balance.md)
+
+1. Get Viva Insights.
+2. Make Viva Insights easily discoverable from the Viva Connections Dashboard by adding the Insights app card.
+3. Create useful recommendations such as protecting time in the day for regular breaks, focused work, and learning that can help improve wellbeing and boost productivity. Viva insights includes personal insights like this that only employees can see.
+
+### App 4: Viva Topics
 
 Enhance your training and onboarding process by helping your employees learn more about important topics in your organization.
 
@@ -62,14 +70,6 @@ Enhance your training and onboarding process by helping your employees learn mor
 2. [Create topics](topics/create-a-topic.md) for important concepts and projects in your organization that you want your trainees to learn about.
 3. Mention these topics in the custom training and onboarding content that you’ve created and stored in SharePoint.
 4. These topics will appear highlighted in SharePoint pages. Users can select them to view topic cards that include relevant information and related resources. Viva Topics will also automatically generate topics, which [users can edit](topics/edit-a-topic.md).
-
-### App 4: Viva Insights
-
-Help new team members understand how to spend time productively and help managers provide better guidance on time management. [Learn more about Viva Insights](../viva/insights/introduction.md) and how it helps protect and organize time in [supporting work/life balance.](../viva/solutions/viva-work-life-balance.md)
-
-1. Get Viva Insights.
-2. Make Viva Insights easily discoverable from the Viva Connections Dashboard by adding the Insights app card.
-3. Create useful recommendations such as protecting time in the day for regular breaks, focused work, and learning that can help improve wellbeing and boost productivity. Viva insights includes personal insights like this that only employees can see.
 
 ## Wellness and work-life balance
 
@@ -106,7 +106,7 @@ Create, source, and share content to educate your organization about healthy wor
 
 ## Knowledge sharing and management
 
-![Image of Viva Connections and Viva Topics combined together.](./media/knowledge-combo.png)
+![Image of Viva Connections and Viva Topics combined together.](./media/viva-knowledge-combo-update.png)
 
 ### App 1: Viva Topics
 

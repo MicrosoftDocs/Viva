@@ -3,7 +3,7 @@ ms.date: 02/08/2023
 title: "Check-in Recommendations"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
