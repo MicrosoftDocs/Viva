@@ -31,7 +31,7 @@ Person query output can include a number of different metrics, including the fol
 * Person ID - De-identified ID number for the person represented in that data row.
 * Date - The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it'll be the first day of the month your data encompasses).
 * Person attributes - Attributes about the person supplied through the latest organizational (HR) data upload.
-* Metrics - Any other metrics that you include in the query. See [Person query metrics](/viva/insights/use/?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details.
+* Metrics - Any other metrics that you include in the query. See [Person query metrics](../analyst/person-query.md) for more details.
 
 ### Duration hours adjusted for time booked in the calendar
 
