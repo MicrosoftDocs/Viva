@@ -1,8 +1,8 @@
 ---
 ms.date: 11/15/2021
 title: Manage topics at scale in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: lauris
 audience: admin
@@ -20,7 +20,7 @@ description: Learn about best practices to manage topics in your organization us
 
 When you index your SharePoint sites or your entire organization for Viva Topics, many topics might be generated. When this happens and you see thousands of suggested topics on the **Manage topics** page, it can be challenging to know where to start. This article describes how Viva Topics helps you optimize which topics and information are shown to users who are searching for information, even in large organizations with large numbers of topics.
 
-First, a reminder of the [four stages for topics](manage-topics.md#topic-stages):
+First, a reminder of the [four stages for topics](manage-topics.md#topic-status):
 
 - **Suggested**: A topic has been identified by AI and has enough supporting resources, connections, and properties. (These are marked as a **Suggested Topic** in the UI.)
 

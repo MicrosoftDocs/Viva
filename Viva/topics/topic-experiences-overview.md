@@ -1,8 +1,8 @@
 ---
 ms.date: 03/21/2023
 title: Microsoft Viva Topics overview
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan; lauris
 audience: admin

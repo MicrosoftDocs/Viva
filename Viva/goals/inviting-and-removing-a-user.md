@@ -3,7 +3,7 @@ ms.date: 04/05/2022
 title: Inviting and removing a user
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

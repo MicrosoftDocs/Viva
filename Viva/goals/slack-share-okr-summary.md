@@ -3,7 +3,7 @@ ms.date: 10/20/2022
 title: Share OKR summary via Slack
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: liz.pierce
 audience: Admin
 f1.keywords:
