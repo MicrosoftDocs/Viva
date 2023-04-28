@@ -31,9 +31,9 @@ Team Conversations results sharing is a feature available at the program level f
 
 Team Conversations uses Viva Glint’s ACT Conversation framework at its core. ACT methodology encourages a manager and their team to consider feedback results in the following way:   
 
-- A: Acknowledge where we are 
-- C: Collaborate on where we want to go 
-- T: Take one step forward 
+- **A**: **A**cknowledge where we are 
+- **C**: **C**ollaborate on where we want to go 
+- **T**: **T**ake one step forward 
 
 ## Sometimes conversations amongst team members can be difficult 
 
@@ -63,4 +63,4 @@ The ACT foundation:
 
 ## Team Conversations exists in the flow of work   
 
-Make Team Conversations part of the regular workday. These conversations should become the norm and not a planned conversation initiated by a meeting agenda. People within your organization with the right mindset, skills, and behaviors can support this shift in conversations between managers and their teams.  
+Make Team Conversations part of the regular workday. These conversations should become the norm and not a planned conversation initiated by a meeting agenda. People within your organization with the right mindset, skills, and behaviors can learn to support this shift in conversations.  
