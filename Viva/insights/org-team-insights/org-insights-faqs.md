@@ -20,7 +20,7 @@ audience: user
 
 To opt out or back into seeing organizational insights, your Viva Insights administrator needs to enable or disable group manager permissions for you. They can enable these permissions by following the directions in [Manager settings](../advanced/setup-maint/manager-settings.md).
 
-## Q2. How do I get access to organization insights.
+## Q2. How do I get access to organization insights?
 
 Refer to Subscriptions, roles, and access in [Organization insights](org-insights.md#subscriptions-roles-and-access).
 
