@@ -145,9 +145,9 @@ For more information about data handling in Viva Sales, see [Data handling in Vi
 
 ## More resources
 
-- [Microsoft Viva compliance](/Viva/viva-compliance.md)
-- [Microsoft Viva security](/Viva/microsoft-viva-security.md)
-- [Viva admin roles and tasks](/viva/microsoft-viva-admin-roles)
+- [Microsoft Viva compliance](./viva-compliance.md)
+- [Microsoft Viva security](./microsoft-viva-security.md)
+- [Viva admin roles and tasks](./microsoft-viva-admin-roles.md)
 
 ### Viva Topics
 Privacy and security controls:
