@@ -13,7 +13,7 @@ ms.collection:
 search-appverid: MET150
 ms.topic: article
 ms.service: viva
-localization*priority: high pri
+localization_priority: high pri
 ms.date: 04/28/2023
 ---
 
