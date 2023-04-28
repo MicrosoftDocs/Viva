@@ -225,7 +225,7 @@ A3. You might expect the total number of redundant, conflicting, and multitaskin
 
 ##### Q1. How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?
 
-A1. We encourage all Viva insights users to visit and register on the [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog). The community has:
+A1. We encourage all Viva insights users to visit and register on the [Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights). The community has:
 
 * Forums to connect with peers and discuss shared experiences.
 * Forums to contribute and receive support on common issues which are routinely reviewed by our team of experts.
