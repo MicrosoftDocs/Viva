@@ -100,6 +100,8 @@ items:
               href: advanced/analyst/templates/manager-effectiveness.md
             - name: Meeting effectiveness
               href: advanced/analyst/templates/meeting-effectiveness.md  
+            - name: Recurring meeting audit
+              href: advanced/analyst/templates/recurring-meeting.md
             - name: Ways of working
               href: advanced/analyst/templates/ways-of-working.md            
             - name: Wellbeing - balance and flexibility
