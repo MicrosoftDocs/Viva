@@ -64,7 +64,7 @@ For example, PersonId of P1 collaborated with group G1 in weeks one and three of
 ![Table of columns with time investors.](../images/WpA/Use/personId.png)
 
 >[!Note]
-> People are assigned randomly-generated PersonIds to maintain de-identification. No individuals can be identified from the query output.
+> People are assigned randomly generated PersonIds to maintain de-identification. No individuals can be identified from the query output.
 
 The query output for person-to-group queries consists of general header columns (categories) and metrics header columns. The output also displays additional organizational attribute columns that vary based on the organization.
 
