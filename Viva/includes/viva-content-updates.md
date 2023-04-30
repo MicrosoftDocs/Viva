@@ -2,6 +2,28 @@
 
 
 
+## Week of April 24, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/24/2023 | [Advanced Deployment Guides for Microsoft Viva](/viva/deployment-guides-for-microsoft-viva) | added |
+| 4/24/2023 | [Introduction to Power BI templates in Microsoft Viva Insights](/viva/insights/advanced/analyst/templates/introduction-to-templates) | modified |
+| 4/24/2023 | [Complex organizations and Viva Insights](/viva/solutions/complex-organization-insights) | modified |
+| 4/24/2023 | [Understand how privacy works in Microsoft Viva](/viva/viva-privacy) | modified |
+| 4/24/2023 | [Understand how security works in Microsoft Viva](/viva/viva-security) | modified |
+| 4/25/2023 | [Onboarding and development report](/viva/insights/advanced/analyst/templates/onboarding) | added |
+| 4/25/2023 | [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) | modified |
+| 4/25/2023 | [Viva Insights metric improvements](/viva/insights/advanced/reference/metric-improvements) | modified |
+| 4/26/2023 | [Import organizational data from Workday](/viva/insights/advanced/admin/import-workday-data) | added |
+| 4/26/2023 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
+| 4/27/2023 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
+| 4/28/2023 | [Import organizational data from Workday](/viva/insights/advanced/admin/import-workday-data) | modified |
+| 4/28/2023 | [Organization insights FAQs](/viva/insights/org-team-insights/org-insights-faqs) | modified |
+| 4/28/2023 | [Organizational data overview](/viva/insights/advanced/admin/org-data-overview) | modified |
+| 4/28/2023 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
+
+
 ## Week of April 17, 2023
 
 
@@ -160,28 +182,3 @@
 | 3/30/2023 | [Topic center overview in Microsoft Viva Topics](/viva/topics/topic-center-overview) | modified |
 | 3/31/2023 | [Manage topic discovery in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery) | modified |
 | 3/31/2023 | [Manage topic permissions in Microsoft Viva Topics](/viva/topics/topic-experiences-user-permissions) | modified |
-
-
-## Week of March 20, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/20/2023 | [Changes to Viva Insights manager features](/viva/insights/org-team-insights/reference/manager-updates) | added |
-| 3/20/2023 | [Deep linking into Viva Engage](/viva/engage/deeplinks) | added |
-| 3/20/2023 | [Advanced insights metric filters](/viva/insights/use/metric-filters) | modified |
-| 3/21/2023 | [Microsoft Viva Topics overview](/viva/topics/topic-experiences-overview) | modified |
-| 3/22/2023 | [Viva Insights app introduction](/viva/insights/personal/teams/introduction) | modified |
-| 3/22/2023 | [Discover and pin the Viva Insights app](/viva/insights/personal/teams/viva-teams-app-install) | modified |
-| 3/24/2023 | [Configure your OKR creation permissions in Viva Goals](/viva/goals/configure-okr-create-permissions) | modified |
-| 3/24/2023 | Projects | removed |
-| 3/24/2023 | Review dashboard templates | removed |
-| 3/24/2023 | [View and manage analytics in Viva Engage](/viva/engage/analytics) | modified |
-| 3/24/2023 | [Access the Viva Engage admin center](/viva/engage/eac-as-access-eac) | modified |
-| 3/24/2023 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
-| 3/24/2023 | [Viva Engage admin center: Frequently asked questions (FAQs)](/viva/engage/eac-faq) | modified |
-| 3/24/2023 | [Viva Engage Admin center overview](/viva/engage/eac-overview) | modified |
-| 3/24/2023 | [Manage and set up storyline in Viva Engage](/viva/engage/eac-storyline) | modified |
-| 3/24/2023 | [Identify leaders and manage audiences in Viva Engage](/viva/engage/leadership-identification) | modified |
-| 3/24/2023 | [Get support for Viva Insights](/viva/insights/get-insights-support) | modified |
-| 3/24/2023 | [Configure Saba as a content source for Microsoft Viva Learning](/viva/learning/configure-saba-content-source) | modified |
