@@ -225,6 +225,7 @@ Whenever it exports the zipped folder from your source system, have your custom 
     1. Absolute path to the zipped folder. Format the path like this: `C:\\Users\\JaneDoe\\OneDrive - Microsoft\\Desktop\\info.zip`.
     1. Azure Active Directory tenant ID. This ID is also on the app's overview page under Directory (tenant) ID.
     1. Certificate name. This name is configured in your registered application. If you haven’t created a certificate yet, refer to [How to create a self-signed certificate](/azure/active-directory/develop/howto-create-self-signed-certificate). After you upload the certificate, the certificate name shows up under **Description** in the Azure Portal.
+    1. Scale unit. Enter this value: `novaprdwus2-02`.
 
 ## Validation
 
