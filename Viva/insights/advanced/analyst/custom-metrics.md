@@ -22,19 +22,18 @@ Metrics shape your query and help define what you want to know about your organi
 Before we get started, here are a few things to know about custom metrics:
 
 * In this release of the advanced insights app, you create custom metrics by duplicating existing metrics and changing their settings. In future releases, you’ll be able to create metrics from scratch and edit them directly.
-* You can add custom metrics to person queries and Power BI template queries. Adding customized metrics to meeting queries isn’t supported right now.
 * Some metrics aren’t customizable, including focus and hybrid metrics. Metrics available to customize have ellipses (**...**) to the right of their metric name. When you select the ellipses, you’ll see options to **View** and **Clone**.
 
 ## How to customize a metric
 
 >[!Note]
-> You’ll customize metrics while you’re creating a query. Make sure you’re in the **Analysis** page of the advanced insights app and have selected either a Power BI template query or a person query. Adding custom metrics to a meeting query isn’t supported right now.
+> You’ll customize metrics while you’re creating a query. Make sure you’re in the **Analysis** page of the advanced insights app and have selected either a Power BI template query, person query, or meeting query.
 
 ### Find your base metric
 
 Because you'll create your customized metric from an existing metric, you'll need to first find that original metric.
 
-While you’re building a person or Power BI template query, select **Add metrics**, which brings you to the **Select metrics** pane. 
+While you’re building a query, select **Add metrics**, which brings you to the **Select metrics** pane. 
 
 :::image type="content" source="../images/analyst-customize-metric-1.png" alt-text="Screenshot that shows the Add metrics button highlighted in the Select metrics section of a custom query." lightbox="../images/analyst-customize-metric-1.png":::
 
@@ -59,12 +58,19 @@ You'll arrive at the metric editor.
 
 ### Customize your metric's settings
 
-In the metric editor, make changes to the following settings:
+Depending on which kind of metric you want to edit--those in Power BI template or person queries, or those in meeting queries--you'll see different options in the metric editor pane for these two settings:
+
+* **Select which collaboration type(s) you want to measure** 
+* **Filter and define collaboration type(s)**
 
 >[!Note]
->**Select what you want to measure** isn't editable.
+>You're not able to edit **Select what you want to measure** for any metric.
 
-#### Select which collaboration type(s) you want to measure
+
+
+#### For custom person and Power BI template queries
+
+##### Select which collaboration type(s) you want to measure
 
 **Collaboration type** is the kind of collaboration you want your metric to measure. Keep the existing type(s) or pick from these choices: 
 
@@ -79,7 +85,7 @@ In the metric editor, make changes to the following settings:
 
 You can set multiple types if you want. If you set multiple collaboration types, the query will return the combined time of all those collaboration types, for example, the collaboration time of emails and calls.
 
-#### Filter and define collaboration type(s)
+##### Filter and define collaboration type(s)
 
 Filters narrow down your metric’s scope and tell it which data to look for. 
 
@@ -87,9 +93,33 @@ After you selected collaboration types, you might have noticed blue containers a
 
 :::image type="content" source="../images/analyst-customize-metric-filter.png" alt-text="Screenshot that shows various filters in the metric editor, with one dropdown menu for attributes expanded." lightbox="../images/analyst-customize-metric-filter.png":::
 
-We customize a sample metric [below](#sample-scenario), where we give an example of how you might use filters.
+We customize a sample metric [below](#sample-scenario), where we give an example of how you might use filters. 
 
-#### Select a time window
+>[!Tip]
+>For more information about filters, refer to our [Filters](filters.md) article.
+
+#### For meeting queries
+
+##### Select which collaboration type(s) you want to measure
+
+You're not able to edit this setting. The dropdown will always read, "Meetings attended."
+
+##### Filter and define collaboration type(s)
+
+Since **Meetings attended** is auto-selected as the collaboration type for all meeting query metrics, you'll only add filters for this collaboration type. 
+
+>[!Note]
+>Some metrics, like **Number of attendees who joined the meeting on time**, have existing filters. These existing filters appear in a white box and are grayed out. You can view these filters, but you're not able to edit them. If a metric has existing filters, you can still add your own custom filters to it.
+
+When you add filters for meeting query metrics, the meeting activity attribute you'll work with will always be "Attendee." 
+
+After you set "Attendee" as the **Meeting activity attribute**, you can pick from any attribute in your organizational data. For example, you could set this metric to include attendees whose **HireDate** is before April 10 2022, or attendees who are in the Asia/Seoul **TimeZone**.
+
+
+
+#### For all query types
+
+##### Select a time window
 
 The time window is the range of hours during the day you want your metric to analyze. Pick from the following choices:
 
@@ -102,7 +132,7 @@ If you pick a custom time period, you can set the custom value through a time pi
 
 :::image type="content" source="../images/analyst-customize-metric-time-window.png" alt-text="Screenshot that shows the fourth step of the metric editor, time window, with Custom time period selected and From and To input boxes below." lightbox="../images/analyst-customize-metric-time-window.png":::
 
-#### Name and publish
+##### Name and publish
 
 Name and publish contains the following sections:
 
@@ -110,7 +140,7 @@ Name and publish contains the following sections:
 * The **Description** field contains the metric definition. You might also consider adding information to the description about what you changed, so other analysts in your organization understand what your customized metric does.
 * The **Publication** section determines whether other analysts in your organization can find and use this metric in their queries. Select the checkbox if you want to make your metric available to others.
 
-#### Save
+##### Save
 
 When you're finished editing your metric, select the button at the bottom of the editor pane. If you chose to publish your metric, this button will say **Save and publish**. If you chose not to publish your metric, this button will say **Save**.
 
