@@ -27,8 +27,9 @@ Advanced insights automatically collects collaboration data from Microsoft 365. 
 
 ## About data sources
 
-The advanced insights app can get organizational data in one of two ways: through Azure Active Directory (Azure AD), which is the default setting, or through an organizational data file that you as an admin upload. 
+The advanced insights app can get organizational data in one of two ways: through Azure AD, which is the default setting, or through an organizational data file that you as an admin upload. 
 
+### Attributes from an Azure Active Directory import
 
 Azure AD automatically syncs with the advanced insights app and provides data for three attributes: **PersonId**, **ManagerId**, and **Organization**. When you import from Azure AD, you'll also get two additional attributes that come from the user's primary SMTP address and their Outlook/Exchange settings, respectively: **Domain** and **TimeZone**.
 
@@ -80,10 +81,10 @@ Based on how you’re uploading organizational data, this section shows either *
 
 ### Changing the active data source
 
-If you want to manually upload organizational data using a .csv file, instead of using the default Azure Active Directory data source, navigate to **.csv upload** beneath **Other available data sources**. Then select the **Start** button to begin a manual upload.
+If you want to manually upload organizational data using a .csv file, instead of using the default Azure Active Directory (Azure AD) data source, navigate to **.csv upload** beneath **Other available data sources**. Then select the **Start** button to begin a manual upload.
 
 >[!Important]
->Once you upload organizational data in a .csv file, the Azure Active Directory is no longer available as a data source.
+>Once you upload organizational data in a .csv file, Azure AD is no longer available as a data source.
 
 ## Data connections
 
