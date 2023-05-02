@@ -1,6 +1,6 @@
 ---
 title: Use the Driver Impact report in Viva Glint
-description: An engagement driver – a key driver - is a factor that directly correlated to an organization's employees' happiness at work. 
+description: An engagement driver – a key driver - is a factor that directly correlate to an organization's employees' happiness at work. 
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
@@ -51,7 +51,7 @@ The graph plots each driver's impact on the x-axis and the selected comparison o
 - An external benchmark, or
 - The average question score for the survey
 
-Items onto the right side of the graph have a high statistical correlation with the selected outcome (typically engagement or eSat) across all the respondents in a group. Often a person will rate a driver and its corresponding outcome the same. For this reason, acting on those items likely has the biggest impact on engagement (or the selected outcome).
+Items on the right side of the graph have a high statistical correlation with the selected outcome (typically engagement or eSat) across all the respondents in a group. Often a person will rate a driver and its corresponding outcome the same. For this reason, acting on those items likely has the biggest impact on engagement (or the selected outcome).
 
 In determining strengths and opportunities, the platform considers the distance to the comparison point and the impact on the key outcome. Only items with a "High" or "Very High" impact will be considered when determining strengths and opportunities. Of these, the ones relatively highest in relation to the comparison will be marked as Strengths, and the ones relatively lowest in relation to the comparison will be marked as Opportunities. Based on this analysis, a rank ordered list of items is displayed:
 
