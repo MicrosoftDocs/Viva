@@ -34,7 +34,7 @@ In the Viva Topics topic center, a knowledge manager can view the **Manage topic
 
 Knowledge managers help to guide discovered topics through the various topic lifecycle statuses: **Suggested**, **Confirmed**, **Published**, and **Removed**.
 
-   ![Topic Lifecycle chart.](../media/knowledge-management/topic-lifecycle.png) 
+   ![Topic Lifecycle chart.](../media/knowledge-management/topic-lifecycle.png)
 
 - **Suggested**: A topic has been identified by AI and has enough supporting resources, connections, and properties. (These are marked as a **Suggested Topic** in the UI.)
 
