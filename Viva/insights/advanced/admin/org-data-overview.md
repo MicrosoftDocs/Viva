@@ -27,16 +27,20 @@ Advanced insights automatically collects collaboration data from Microsoft 365. 
 
 ## About data sources
 
-The advanced insights app can get organizational data in one of two ways: through Azure Active Directory, which is the default setting, or through an organizational data file that you as an admin upload. Azure Active Directory automatically syncs with the advanced insights app and provides data for these attributes:
+The advanced insights app can get organizational data in one of two ways: through Azure Active Directory (Azure AD), which is the default setting, or through an organizational data file that you as an admin upload. 
 
-* **PersonId**
-* **ManagerId**
-* **Organization**
 
-In your imported data, you'll also notice:
+Azure AD automatically syncs with the advanced insights app and provides data for three attributes: **PersonId**, **ManagerId**, and **Organization**. When you import from Azure AD, you'll also get two additional attributes that come from the user's primary SMTP address and their Outlook/Exchange settings, respectively: **Domain** and **TimeZone**.
 
-* **Domain**, which Viva Insights gets from users' primary SMTP addresses.
-* **TimeZone**, which Viva Insights gets from users' Outlook/Exchange settings.
+So, here are the attributes you'll see when you import from Azure AD:
+
+|Source|Attribute|
+|---------|------|
+|Azure AD |**PersonId**|
+||**ManagerId**
+||**Organization**|
+|User's primary SMTP address|**Domain**| 
+|User's Outlook/Exchange settings|**TimeZone**
 
 If you want to include more attributes, for example, those we discuss in [Prepare organizational data](prepare-org-data.md#attribute-reference), then you'd want to choose a data file as your source.
 
