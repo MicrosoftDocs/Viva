@@ -15,19 +15,23 @@ audience: Admin
 
 # Organizational data in Viva Insights
 
-In this article, we discuss the value of organizational data for analysts, distinguish the two types of organizational data that the advanced insights app can use, and briefly describe the **Organizational data** page in the app's admin experience.
+In this article, we discuss:
+
+* The value of organizational data for analysts.
+* The two types of organizational data that the advanced insights app can use.
+* The **Organizational data** page in the app's admin experience.
 
 ## About organizational data
 
 Organizational data is descriptive information about employees. The advanced insights app combines organizational data with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. Depending on the organizational data available, an analyst can uncover these trends and use them to make more effective business decisions.
 
-Here's an example: an analyst might use organizational data to learn how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
+Here's an example: an analyst might use organizational data to learn how people communicate across job functions, department groups, and management hierarchies by grouping and filtering descriptive attributes.
 
-Advanced insights automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; it’s organizational data that provides analysis context.
+Viva Insights automatically collects collaboration data from Microsoft 365. However, analyzing just this data would create an incomplete picture. It's organizational data that provides analysis context.
 
 ## About data sources
 
-The advanced insights app can get organizational data in one of two ways: through Azure AD, which is the default setting, or through an organizational data file that you as an admin upload. 
+The advanced insights app can get organizational data in one of two ways: through Azure Active Directory (Azure AD), which is the default setting, or through an organizational data file that you as an admin upload. 
 
 ### Attributes from an Azure Active Directory import
 
@@ -43,10 +47,12 @@ So, here are the attributes you'll see when you import from Azure AD:
 |User's primary SMTP address|**Domain**| 
 |User's Outlook/Exchange settings|**TimeZone**
 
+
+
 If you want to include more attributes, for example, those we discuss in [Prepare organizational data](prepare-org-data.md#attribute-reference), then you'd want to choose a data file as your source.
 
 >[!Important]
-> After you upload a .csv file with organizational data, you won't be able to switch back to using Azure Active Directory. You'll need to regularly upload .csv files to keep your organizational data current.
+> After you upload a .csv file with organizational data, you won't be able to switch back to using Azure AD. You'll need to regularly upload .csv files to keep your organizational data current.
 
 ### To prepare a .csv data file
 
