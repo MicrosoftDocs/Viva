@@ -16,10 +16,7 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "
-Description 
-
-Data privacy and trust are key priorities, and we're constantly evolving ways to protect confidentiality to encourage elevated levels of survey participation and honest and helpful feedback."
+description: "Data privacy and trust are key priorities, and we're constantly evolving ways to protect confidentiality to encourage elevated levels of survey participation and honest and helpful feedback."
 ---
 
 # Viva Glint reporting and confidentiality

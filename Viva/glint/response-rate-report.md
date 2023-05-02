@@ -16,10 +16,9 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "
+description: "The Response Rate report provides a deep dive into survey response rates across hierarchies and key demographics".
 Description 
 
-The Response Rate report provides a deep dive into survey response rates across hierarchies and key demographics."
 ---
 
 # Use the Response Rate report 
