@@ -102,11 +102,11 @@ We customize a sample metric [below](#sample-scenario), where we give an example
 
 ##### Select which collaboration type(s) you want to measure
 
-You're not able to edit this setting. The dropdown will always read, "Meetings attended."
+You're not able to remove any preselected types. The dropdown will always include, "Meetings attended."
 
 ##### Filter and define collaboration type(s)
 
-Since **Meetings attended** is auto-selected as the collaboration type for all meeting query metrics, you'll only add filters for this collaboration type. 
+Since **Meetings attended** is auto-selected as the collaboration type for all meeting query metrics, you'll add filters for this collaboration type. 
 
 >[!Note]
 >Some metrics, like **Number of attendees who joined the meeting on time**, have existing filters. These existing filters appear in a white box and are grayed out. You can view these filters, but you're not able to edit them. If a metric has existing filters, you can still add your own custom filters to it.
