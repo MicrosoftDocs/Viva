@@ -1,5 +1,5 @@
 ---
-ms.date: 02/28/2023
+ms.date: 05/03/2023
 title: Custom metrics in Viva Insights
 description: Learn about building and using custom metrics in Microsoft Viva Insights 
 author: lilyolason
@@ -102,11 +102,16 @@ We customize a sample metric [below](#sample-scenario), where we give an example
 
 ##### Select which collaboration type(s) you want to measure
 
-You're not able to remove any preselected types. The dropdown will always include, "Meetings attended."
+Each metric includes "Meetings attended" as the first collaboration type. This type is permanent and you can't remove it. However, for **Number of emails sent during the meeting** and **Number of chats sent during the meeting** metrics, you can change the second collaboration type to one of these:
+
+* "Emails sent"
+* "Emails read"
+* "Chats sent"
+* "Chats read"
+
+For **Number of emails sent during the meeting** and **Number of chats sent during the meeting**, you can only have two selected collaboration types at a time.
 
 ##### Filter and define collaboration type(s)
-
-Since **Meetings attended** is auto-selected as the collaboration type for all meeting query metrics, you'll add filters for this collaboration type. 
 
 >[!Note]
 >Some metrics, like **Number of attendees who joined the meeting on time**, have existing filters. These existing filters appear in a white box and are grayed out. You can view these filters, but you're not able to edit them. If a metric has existing filters, you can still add your own custom filters to it.
