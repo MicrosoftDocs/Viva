@@ -27,7 +27,7 @@ To access usage and engagement metrics:
 
 ## Topic engagement
 
-The **Topic engagement** section provides a look into how unique users are engaging with topics. Engagements from users include consuming, sharing, and contributing to topics.
+The **Topic engagement** section provides a look into how unique users are engaging with topics. Engagement from users include consuming, sharing, and contributing to topics.
 
 The information in this section is based on the time period that you select. The changes from the last time period appear next to each metric.
 
@@ -45,7 +45,20 @@ The **Topic interaction** section provides a look into how users are interacting
 
 ## Topic consumption
 
-The **Topic consumption** section provides a look into how users are consuming topics through topic views and clicks. Topic consumption includes accessibility to topic cards, topic pages, topics in search results, and topic cards in the Topic center.
+The **Topic consumption** section provides a look into how users are consuming topics through topic views and clicks.
+
+### What contributes to consumption
+
+>[!NOTE]
+>Topic consumption is measured by top-level activity, such as selecting a card, but doesn't measure activity within topic cards.
+
+Some activities that contribute to consumption include:
+
+- Selecting topic card, including from other Viva apps
+- Viewing a topic card
+- Viewing a topic pill
+- Dwelling on a topic card
+- Viewing a topic page
 
 ![Screenshot of total topic consumption metrics.](../media/knowledge-management/topic-consumption-metrics.png)
 
