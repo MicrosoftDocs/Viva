@@ -34,9 +34,9 @@ highlightedContent:
       itemType: overview
       url: https://www.microsoft.com/microsoft-viva/overview
     # Card
-    - title: Using Microsoft Viva
+    - title: Microsoft Viva overview
       itemType: video
-      url: https://www.youtube.com/playlist?list=PLXtHYVsvn_b-P97FRm0LZ3Y6xQrlpkW4r
+      url: https://www.youtube.com/watch?v=J3qCWxKVfFA
 
 # tools section (optional)
 tools:
