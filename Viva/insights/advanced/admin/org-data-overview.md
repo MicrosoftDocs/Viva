@@ -31,9 +31,11 @@ Viva Insights automatically collects collaboration data from Microsoft 365. Howe
 
 ## About data sources
 
-The advanced insights can get organizational data in one of two main ways: through Azure Active Directory (Azure AD), which is the default setting, or through an organizational data .csv file that you as an admin upload. 
+Viva Insights gets organizational data in one of two main ways: through Azure Active Directory (Azure AD), which is the default setting, or through an organizational data .csv file that you as an admin upload. 
 
-### Automatic attributes for all imports and uploads
+However, two attributes arrive automatically from user settings and SMTP addresses, regardless of the method you choose. Let's discuss these first.
+
+### Attributes you get from Outlook/Exchange settings and SMTP addresses
 
 No matter whether you upload data from a .csv file or import it from Azure AD, two attributes always come from the user's primary SMTP address and their Outlook/Exchange settings, respectively: **Domain** and **TimeZone**. When you view your organizational data in the advanced insights app, you'll see these two attributes alongside the attributes you bring in from Azure AD or your .csv file.
 
@@ -47,12 +49,12 @@ Azure AD automatically syncs with the advanced insights app and provides data fo
 
 So, including the attributes Viva Insights brings in from SMTP addresses and Outlook and Exchange settings, you'll notice five total attributes in your organizational data: **PersonId**, **ManagerId**, **Organization**, **Domain**, and **TimeZone**.
 
-:::image type="content" source="../images/admin-field-sources-aad.png" alt-text="Screenshot that shows a flow diagram of condition 1 -> condition 2 -> condition 3"lightbox="../images/admin-field-sources-aad-expanded.png":::
+:::image type="content" source="../images/admin-field-sources-aad.png" alt-text="Screenshot of a diagram for AAD that shows each data source on the left, arrows in the center, and each attribute on the right."lightbox="../images/admin-field-sources-aad-expanded.png":::
  
 
 ### Attributes you get from a .csv file
 
-If you want to include more attributes in your organizational data, then you'd want to choose a .csv file as your source. When you upload a .csv file, you'll need to at least include all required attributes:
+To include more attributes in your organizational data than you get from Azure AD, you'll want to choose a .csv file as your source. When you upload a .csv file, you'll need to at least include all required attributes:
 
 * **EffectiveDate**
 * **PersonId**
@@ -72,14 +74,14 @@ You might also choose to include reserved optional attributes:
 
 If you want, you can also include custom attributes that you create.
 
-So, in addition to **Domain** and **TimeZone**, you'll see the required attributes and any reserved optional or custom attributes you included in your upload.
+So, when you view your organizational data in the advanced insights app, you'll see the attributes you included in your .csv upload plus **Domain** and **TimeZone**.
 
-:::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot that shows a flow diagram of condition 1 -> condition 2 -> condition 3"lightbox="../images/admin-field-sources-csv-expanded.png":::
+:::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot of a diagram for .csv that shows each data source on the left, arrows in the center, and each attribute on the right."lightbox="../images/admin-field-sources-csv-expanded.png":::
 
 >[!Important]
 > After you upload a .csv file with organizational data, you won't be able to switch back to using Azure AD. You'll need to regularly upload .csv files to keep your organizational data current.
 >
-> Learn more about preparing organizational data in [Prepare organizational data](prepare-org-data.md).
+> Learn more about attributes and getting your organizational data file set up in [Prepare organizational data](prepare-org-data.md).
 
 #### To prepare a .csv data file
 
