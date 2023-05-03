@@ -83,7 +83,7 @@ The model uses Viva Glint standard items in making predictions to allow for the 
 
 Configure which demographic attributes you want to include in **Alerts** from **General Settings** on the admin dashboard. To configure them initially, or to change them over time:
 
-1. Navigate to  **Engage Reporting,** then **Attributes for Alerts.**
+1. Navigate to **Reporting,** then **Attributes for Alerts.**
 2. From the attributes you have sent in your Employee Attribute File, narrow down which you'll see in the Alerts report to those items *most important to attrition risk* within your organization.
     - Use the Search box to add attributes if you're making changes.
     - Delete attributes by choosing the **X** next to those you don't wish to see on the report.
