@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 05/03/2023
 title: Organizational data overview
 description: This article gives an overview of the Organizational data page in the Microsoft Viva Insights advanced insights app. 
 author: lilyolason
@@ -31,30 +31,57 @@ Viva Insights automatically collects collaboration data from Microsoft 365. Howe
 
 ## About data sources
 
-The advanced insights app can get organizational data in one of two ways: through Azure Active Directory (Azure AD), which is the default setting, or through an organizational data file that you as an admin upload. 
+The advanced insights can get organizational data in one of two main ways: through Azure Active Directory (Azure AD), which is the default setting, or through an organizational data .csv file that you as an admin upload. 
 
-### Attributes from an Azure Active Directory import
+### Automatic attributes for all imports and uploads
 
-Azure AD automatically syncs with the advanced insights app and provides data for three attributes: **PersonId**, **ManagerId**, and **Organization**. When you import from Azure AD, you'll also get two additional attributes that come from the user's primary SMTP address and their Outlook/Exchange settings, respectively: **Domain** and **TimeZone**.
+No matter whether you upload data from a .csv file or import it from Azure AD, two attributes always come from the user's primary SMTP address and their Outlook/Exchange settings, respectively: **Domain** and **TimeZone**. When you view your organizational data in the advanced insights app, you'll see these two attributes alongside the attributes you bring in from Azure AD or your .csv file.
 
-So, here are the attributes you'll see when you import from Azure AD:
+### Attributes you get from Azure Active Directory
 
-|Source|Attribute|
-|---------|------|
-|Azure AD |**PersonId**|
-||**ManagerId**
-||**Organization**|
-|User's primary SMTP address|**Domain**| 
-|User's Outlook/Exchange settings|**TimeZone**
+Azure AD automatically syncs with the advanced insights app and provides data for three attributes:
 
+* **PersonId**
+* **ManagerId**
+* **Organization**
 
+So, including the attributes Viva Insights brings in from SMTP addresses and Outlook and Exchange settings, you'll notice five total attributes in your organizational data: **PersonId**, **ManagerId**, **Organization**, **Domain**, and **TimeZone**.
 
-If you want to include more attributes, for example, those we discuss in [Prepare organizational data](prepare-org-data.md#attribute-reference), then you'd want to choose a data file as your source.
+:::image type="content" source="../images/admin-field-sources-aad.png" alt-text="Screenshot that shows a flow diagram of condition 1 -> condition 2 -> condition 3"lightbox="../images/admin-field-sources-aad-expanded.png":::
+ 
+
+### Attributes you get from a .csv file
+
+If you want to include more attributes in your organizational data, then you'd want to choose a .csv file as your source. When you upload a .csv file, you'll need to at least include all required attributes:
+
+* **EffectiveDate**
+* **PersonId**
+* **ManagerId**
+* **Organization**
+
+You might also choose to include reserved optional attributes:
+
+* **LevelDesignation**
+* **FunctionType**
+* **HireDate**
+* **HourlyRate**
+* **Layer**
+* **SupervisorIndicator**
+* **OnsiteDays**
+* **Location**
+
+If you want, you can also include custom attributes that you create.
+
+So, in addition to **Domain** and **TimeZone**, you'll see the required attributes and any reserved optional or custom attributes you included in your upload.
+
+:::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot that shows a flow diagram of condition 1 -> condition 2 -> condition 3"lightbox="../images/admin-field-sources-csv-expanded.png":::
 
 >[!Important]
 > After you upload a .csv file with organizational data, you won't be able to switch back to using Azure AD. You'll need to regularly upload .csv files to keep your organizational data current.
+>
+> Learn more about preparing organizational data in [Prepare organizational data](prepare-org-data.md).
 
-### To prepare a .csv data file
+#### To prepare a .csv data file
 
 To learn how to set up and structure an organizational data .csv file, refer to [Prepare organizational data](prepare-org-data.md).
 
