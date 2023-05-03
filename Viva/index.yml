@@ -26,9 +26,9 @@ highlightedContent:
       itemType: get-started
       url: microsoft-viva-overview.md
     # Card
-    - title: Microsoft Viva blog
+    - title: Join the Microsoft Viva community
       itemType: whats-new
-      url: https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog
+      url: https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva
     # Card
     - title: Introducing Microsoft Viva
       itemType: overview
