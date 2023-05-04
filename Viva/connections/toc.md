@@ -29,6 +29,8 @@
 
 ### [Analytics](viva-connections-analytics.md)
 
+### [Overview of Viva Connections for Education](overview-viva-connections-education.md)
+
 
 ### [Dashboard]()
 
