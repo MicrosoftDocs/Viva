@@ -35,8 +35,7 @@ You need permissions in Azure DevOps to install the extension. Learn more about 
 1. Select **Install**.
 
 ## Use the Viva Goals extension
-1. In Viva Goals, select **Create Initiative** (“Initiative” may be “Project” depending on your Viva Goals settings).
-2. Follow the steps in [How to enable Azure DevOps Integrations with Initiatives](/viva/goals/azure-devops-integration#how-to-enable-azure-devops-integration-with-initiative) to connect and automatically track progress in Viva Goals with data from Azure DevOps.
+1. In Viva Goals, select **Create Initiative** (“Initiative” may be “Project” depending on your Viva Goals settings) and follow the steps in [How to enable Azure DevOps Integrations with Initiatives](/viva/goals/azure-devops-integration#how-to-enable-azure-devops-integration-with-initiative) to connect and automatically track progress in Viva Goals with data from Azure DevOps.
 3. Go to an Azure DevOps work item.
 4. Select the **Viva Goals** tab.<br><br />
 ![Work item showing Viva Goals tab](../media/goals/AZ1.png)
