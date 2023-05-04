@@ -902,6 +902,11 @@
         "source_path": "viva/goals/bookmarks-in-viva-goals.md",
         "redirect_url": "https://support.microsoft.com/en-us/topic/engage-with-viva-goals-365500a4-0599-41cd-bc86-09bef4206284",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/topics/index.md",
+        "redirect_url": "/viva/topics/topic-experiences-overview",
+        "redirect_document_id": false
       }    
     ]
 }
