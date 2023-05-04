@@ -38,7 +38,7 @@ You need permissions in Azure DevOps to install the extension. Learn more about 
 1. In Viva Goals, select **Create Initiative** (“Initiative” may be “Project” depending on your Viva Goals settings).
 2. Follow the steps in [How to enable Azure DevOps Integrations with Initiatives](/viva/goals/azure-devops-integration#how-to-enable-azure-devops-integration-with-initiative) to connect and automatically track progress in Viva Goals with data from Azure DevOps.
 3. Go to an Azure DevOps work item.
-4. Select the **Viva Goals** tab.<br/>
+4. Select the **Viva Goals** tab.<br><br />
 ![Work item showing Viva Goals tab](../media/goals/AZ1.png)
 > [!NOTE]
 > If you don't see the Viva Goals tab it could be because of one of two reasons:
@@ -46,7 +46,7 @@ You need permissions in Azure DevOps to install the extension. Learn more about 
 > - Your work item form has a custom layout. Follow the steps in [Add extensions in work item form via work item type definition xml](/azure/devops/extend/develop/configure-workitemform-extensions).
 > - A custom process is blocking the extension. From Azure DevOps Organization Settings, go to **Boards** and select **Process**. Then enable Viva Goals to **Show on layout**.
 
-5. If the work item is directly connected or aligned to a work item that is connected to an initiative in Viva Goals, you'll see alignment information under **Viva Goals**. You can select any aligned OKR to view progress, perform check-ins, add comments, and directly from Azure DevOps.<br/>
+5. If the work item is directly connected or aligned to a work item that is connected to an initiative in Viva Goals, you'll see alignment information under **Viva Goals**. You can select any aligned OKR to view progress, perform check-ins, add comments, and directly from Azure DevOps.<br><br/>
 ![Work item showing alignment information](../media/goals/AZ2.png)
 
 If your work item is not aligned to a Viva Goals initiative, select **Add Project in Viva Goals** to go to Viva Goals in a browser. Refer back to steps 1 and 2 to get started.
