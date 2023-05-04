@@ -69,11 +69,9 @@ A dashboard is made of medium-sized and large-sized cards which users can intera
 
 Some cards can also reflect dynamic content that refreshes based on a user action or other event. For example, users can see new tasks assigned, assignments to complete, online lectures to join, library books to return or required training courses when they open the dashboard. 
 
-**In this example, view the experience for a dashboard card that shows students their assignments to complete:**
-
-> [!VIDEO https://microsoft-my.sharepoint-df.com/:v:/p/jesegher/ERZMHo7N4apJj38gOANSzOsBut-6xvBjsKYCK0wfjcyjuw?e=pK1Rf5]
-
 The dashboard experience has been designed to be consistent across mobile platform and desktop, but there are some differences:
+
+![Comparison screenshot of desktop and mobile views.](../media/connections/overview-viva-connections-education/Viva-connections-desktop-vs-mobile-view.png)
 
 | Element | Mobile | Desktop |
 | :----- | :----- | :----- |
