@@ -1,5 +1,5 @@
 ---
-ms.date: 03/21/2023
+ms.date: 05/04/2023
 title: Microsoft Viva Topics overview
 ms.author: daisyfeller
 author: daisyfell
@@ -35,67 +35,7 @@ Viva Topics uses Microsoft AI technology, Microsoft 365, Microsoft Graph, Search
 
 Viva Topics helps to address a key business issue in many companies — providing the information to users when they need it. For example, new employees need to learn a lot of new information quickly, and encounter terms they know nothing about when reading through company information. To learn more, the user might need to step away from what they are doing and spend valuable time searching for details, such as information about what the term is, who in the organization is a subject matter expert, and maybe sites and documents that are related to the term.
 
-Viva Topics uses AI to automatically search for and identify *topics* in your organization. It compiles information about them, such as a short description, people working on the topic, and sites, files, and pages that are related to it. A knowledge manager or contributor can choose to update the topic information as needed. The topics are available to your users, which means that for every instance of the topic that appears in a modern SharePoint site in news and pages, the text will be highlighted. Users can choose to select the topic to learn more about it through the topic details. Topics can also be found in SharePoint Search.
-
-## How topics are displayed to users
-
-Topics are displayed to users through:
-
-- [Topics highlighted](topic-experiences-overview.md#sharepoint-highlights) on SharePoint pages
-- Topic answers in [search results](topic-experiences-overview.md#search-results)
-- Search in [office applications](topic-experiences-overview.md#office-application-search)
-- [Profile cards](#profile-cards) in Microsoft 365 web apps
-- [Topic center](topic-experiences-overview.md#topic-center) home page
-
-### SharePoint highlights
-
-When a topic is mentioned in content on SharePoint news and pages, you'll see it highlighted. You can open the topic summary from the highlight. Open the topic details from the title of the summary to view the full topic page. The mentioned topic could be identified automatically or could have been referenced directly by the page author.
-
-   ![Screenshot showing topic highlights.](../media/knowledge-management/saturn.png)
-
-### Search results
-
-You can see a [topic answer](search.md#topic-answer) in search results when you search from the SharePoint start page, search on Office.com, or search from a SharePoint site after you change the search scope to include the full organization. The topic answer will appear at the topic of the results list and give you a short set of information related to that topic.
-
-   ![Screenshot showing the search results of a SharePoint site search.](../media/knowledge-management/site-search-results.png)
-
-### Office application search
-
-When you use Search in Office apps such as Word, PowerPoint, Outlook, or Excel — either through the search box or by selecting **Search** in the context menu — topic answers are displayed in the search results.
-
-   ![Screenshot showing search in Word through the Search box.](../media/knowledge-management/word-search-2.png)
-
-   ![Screenshot showing search in Word through the Search context menu.](../media/knowledge-management/word-search-1.png)
-
-### Profile cards
-
-When a user selects someone’s name or picture in Outlook or other Office web apps (not including Microsoft Teams), they’ll be able to see what topics they’re associated with. When the user clicks on the topic pill, it redirects them to the topic page where they can see more information about the topic, including alternate names, description as well as other people associations to the topic. Blue topic pills represent confirmed connections, while gray topic pills represent suggested connections.
-
-   ![Screenshot of a profile card showing associated topics](../media/profile-card-topics.png)
-   [![Screenshot of a profile card showing the option to remove suggested topics](../media/profile-card-suggested.png)](../media/profile-card-suggested-big.png#lightbox)
-
-Users can choose whether to show or hide suggested topics on their profile card by opening their own card and choosing Settings. Suggested topics may still appear elsewhere in Microsoft 365, such as topic pages and search results.
-
-### Topic center
-
-Users can see topics in their organization to which they have a connection on the [topic center home page](topic-center-overview.md#home-page).
-
-## Engage with Viva Topics in Microsoft apps
-
-Viva Topics are integrated in apps throughout Microsoft 365 and other Viva apps.
-
-|  App  | Viva Topics features |
-|:-----|:-----|
-|[Microsoft 365 admin center](plan-topic-experiences.md)| Viva Topics settings for your organization. Viva Topics analytics and metrics.|
-|[SharePoint](search.md)|Topics center, highlighted topics (automatic and user added), topic cards, topic pages, Topics web part can be used anywhere on a SharePoint Modern Site|
-|[Teams](https://support.microsoft.com/topic/how-to-find-viva-topics-4c6881d6-e73f-408d-91df-a3e2b93272f3 )|#Topics, Topic picker, Topic cards, highlighted topics|
-|Outlook web |#Topics (web only), highlighted topics (web only), topic cards, Live person card (LPC), profile cards |
-|Bing Search |#Topics, Topic pages, Topic answer |
-|Yammer and Viva Engage |#Topics, Topic picker, Topic card |
-|[Office.com SharePoint search](search.md) |Topic answer |
-|Word, Excel, and PowerPoint |Search Topic answer |
-|[Viva Connections](viva-topics-card-viva-connections.md) |Dashboard cards |
-|[Viva Engage](https://support.microsoft.com/topic/answers-in-viva-view-and-follow-topics-fd3cf456-28e1-4621-b683-b0d21348a935) |Answers in Viva Engage: Topic picker, Q&A routing |
+Viva Topics uses AI to automatically search for and identify *topics* in your organization. It compiles information about them, such as a short description, people working on the topic, and sites, files, and pages that are related to it. A knowledge manager or contributor can choose to update the topic information as needed. The topics are available to your users, which means that for every instance of the topic that appears in a modern SharePoint site in news and pages, the text will be highlighted. Users can choose to select the topic to learn more about it through the topic details. Topics can also be found in SharePoint Search.  [Learn more about Viva Topics in Microsoft 365 apps and how topics are displayed to users](where-to-find-topics.md).
 
 ## Knowledge indexing
 
