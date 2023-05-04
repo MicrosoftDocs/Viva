@@ -11,9 +11,10 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how you can streamline and engage your employees in a hybrid workplace with the help of Microsoft Viva."
@@ -127,4 +128,3 @@ For Viva Topics, learn how to [Get started driving adoption of Microsoft Viva To
 
 
 **Next:** check out the [Employee onboarding and changing roles](/Viva/solutions/viva-onboarding-changing-roles) key scenario.
-

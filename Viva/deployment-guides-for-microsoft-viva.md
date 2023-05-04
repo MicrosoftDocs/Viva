@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 localization_priority: Priority
 ms.custom: intro-overview
-ms.collection:  
-- M365-collaboration
-- M365initiative-viva
+ms.collection:
+  - M365-collaboration
+  - M365initiative-viva
+  - Tier1
 search.appverid:
 - MET150
 description: "Deployment guides for Microsoft Viva helps you in planning and deploying Microsoft Viva."
@@ -43,4 +44,3 @@ Deployment guides in the admin center require authentication to a Microsoft 365 
 |[Enable Microsoft Viva Learning](https://go.microsoft.com/fwlink/?linkid=2223163)     |[Enable Microsoft Viva Learning](https://go.microsoft.com/fwlink/?linkid=2225000)         | The **Enable Microsoft Viva Learning** Guide has clear and easy instructions for completing the configuration that enables Viva Learning. Microsoft Viva Learning is a central hub for learning, where people can discover, share, assign, and learn from best-in-class content libraries across an organization.        |
 |[Enable Microsoft Viva Goals](https://go.microsoft.com/fwlink/?linkid=2222980)    | [Enable Microsoft Viva Goals](https://go.microsoft.com/fwlink/?linkid=2224796)        | The **Enable Microsoft Viva Goals** guide helps you configure Viva Goals that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results.         |
 |[Enable Microsoft Viva Engage](https://go.microsoft.com/fwlink/?linkid=2223067)   |  [Enable Microsoft Viva Engage](https://go.microsoft.com/fwlink/?linkid=2224797)       | The **Microsoft Viva Engage** guide provides instructions on how to configure Viva Engage that connects people across the company—wherever and whenever they work—so that everyone is included and engaged. The Viva Engage app in Teams helps organizations build community, spark engagement with leadership, harness knowledge and answers, and build personal networks.        |
-

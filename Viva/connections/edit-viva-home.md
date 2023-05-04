@@ -12,11 +12,12 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
-- highpri
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - highpri
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -279,4 +280,3 @@ Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in th
 [Overview: Viva Connections](viva-connections-overview.md)
 
 [Use audience targeting in Viva Connections to personalize the experience](use-audience-targeting-in-viva-connections.md)
-

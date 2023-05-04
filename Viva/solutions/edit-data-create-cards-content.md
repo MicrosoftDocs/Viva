@@ -10,9 +10,10 @@ search.appverid:
 - MET150
 ms.service: viva 
 ms.subservice: viva-insights
-ms.collection: 
-- M365-analytics
-- viva-insights
+ms.collection:
+  - M365-analytics
+  - viva-insights
+  - Tier1
 manager: dansimp
 audience: Admin
 ---
@@ -78,4 +79,3 @@ In the following screenshot:
 - The following screenshot describes Example D, that is, the process of adding the Content for the new main card category.
 
   :::image type="content" source="../media/example-d.png" alt-text="The example that illustrates how to add content for the new main card category" lightbox="../media/example-d.png":::
-

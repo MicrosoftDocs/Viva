@@ -11,9 +11,10 @@ search.appverid:
 - MET150
 ms.service: viva 
 ms.subservice: viva-insights
-ms.collection: 
-- M365-analytics
-- viva-insights
+ms.collection:
+  - M365-analytics
+  - viva-insights
+  - Tier1
 manager: helayne
 audience: Admin
 ---
@@ -319,4 +320,3 @@ Then:
 
 1. Configure the parameters in **Step 1: read the input file**.
 1. Complete **Step 2: Add isInfluencer flag**, **Step 3: Training a DecisionTree model**, and **Step 4: DecisionTree text representation**.
-

@@ -10,9 +10,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 localization_priority: high
 description: See what LinkedIn Learning courses are available for free in Microsoft Viva Learning.
 ---
@@ -172,4 +173,3 @@ A selection of courses are available from LinkedIn Learning for free. This means
 |Office 365 中的团队合作 (Microsoft 365) |Business |
 |学习数据科学：用数据说话 |Tech|
 |学习数据科学：基础知识理解 |Tech|
-

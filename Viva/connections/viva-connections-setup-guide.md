@@ -12,12 +12,13 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
-- intro-get-started
-- highpri
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - intro-get-started
+  - highpri
+  - Tier1
 ms.custom: intro-get-started
 search.appverid:
 - SPO160

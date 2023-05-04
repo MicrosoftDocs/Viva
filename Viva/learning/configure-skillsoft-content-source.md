@@ -10,9 +10,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 localization_priority: medium
 description: Learn how to configure Skillsoft as a learning content source for Microsoft Viva Learning.
 ---

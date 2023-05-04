@@ -1,3 +1,7 @@
+---
+ms.collection:
+  - Tier1
+---
 # [Viva Connections]()
 
 ## [Microsoft Viva Connections](viva-connections-overview.md)
@@ -72,6 +76,3 @@
 ### [Can't upload package](/viva/troubleshoot/connections/cant-upload-package?toc=/viva/connections/toc.json&bc=/viva/breadcrumb/toc.json)
 
 ### [Error accessing app from Teams desktop](/viva/troubleshoot/connections/error-accessing-app-from-teams-desktop?toc=/viva/connections/toc.json&bc=/viva/breadcrumb/toc.json)
-
-
-
