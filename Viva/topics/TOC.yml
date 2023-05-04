@@ -1,6 +1,3 @@
-    - name: Microsoft Viva Topics 
-      href: index.md   
-
     - name: Get started with Viva Topics
       items:    
         - name: Viva Topics overview
