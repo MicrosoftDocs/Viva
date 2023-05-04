@@ -38,7 +38,7 @@ You need permissions in Azure DevOps to install the extension. Learn more about 
 1. In Viva Goals, select **Create Initiative** (“Initiative” may be “Project” depending on your Viva Goals settings) and follow the steps in [How to enable Azure DevOps Integrations with Initiatives](/viva/goals/azure-devops-integration#how-to-enable-azure-devops-integration-with-initiative) to connect and automatically track progress in Viva Goals with data from Azure DevOps.
 2. Go to an Azure DevOps work item.
 3. Select the **Viva Goals** tab.
-:::image type="content" source="../media/goals/az1.png" alt-text="Screenshot of a work item showing Viva Goals tab.":::
+:::image type="content" source="../media/goals/azure-devops1.png" alt-text="Screenshot of a work item showing Viva Goals tab.":::
 
 > [!NOTE]
 > If you don't see the Viva Goals tab it could be because of one of two reasons:
@@ -48,7 +48,7 @@ You need permissions in Azure DevOps to install the extension. Learn more about 
 
 4. If the work item is directly connected or aligned to a work item that is connected to an initiative in Viva Goals, you'll see alignment information under **Viva Goals**. You can select any aligned OKR to view progress, perform check-ins, add comments, and directly from Azure DevOps.
 
-   :::image type="content" source="../media/goals/az2.png" alt-text="Screenshot of a work item showing Viva Goals alignment information.":::
+   :::image type="content" source="../media/goals/azure-devops2.png" alt-text="Screenshot of a work item showing Viva Goals alignment information.":::
 
 If your work item is not aligned to a Viva Goals initiative, select **Add Project in Viva Goals** to go to Viva Goals in a browser. Refer back to steps 1 and 2 to get started.
 
