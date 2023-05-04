@@ -51,3 +51,4 @@ You need permissions in Azure DevOps to install the extension. Learn more about 
    :::image type="content" source="../media/goals/az2.png" alt-text="Screenshot of a work item showing Viva Goals alignment information.":::
 
 If your work item is not aligned to a Viva Goals initiative, select **Add Project in Viva Goals** to go to Viva Goals in a browser. Refer back to steps 1 and 2 to get started.
+
