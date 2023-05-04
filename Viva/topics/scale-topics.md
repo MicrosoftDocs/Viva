@@ -7,7 +7,9 @@ manager: pamgreen
 ms.reviewer: lauris
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -171,4 +173,3 @@ If your organization has invested in knowledge bases or wiki sites, these can pr
 [Manage topics in the topic center](manage-topics.md)
 
 [Topic center overview](topic-center-overview.md)
-

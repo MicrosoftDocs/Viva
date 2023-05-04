@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how write Objectives, Key Results, and Initiatives for a healthy OKR program."
@@ -208,4 +209,3 @@ Objectives and Key Results, along with Initiatives, act like a compass to direct
 There are many pitfalls to avoid when writing OKRs, such as writing goals that are ambiguous, business-as-usual, not measurable, or too much like a to do list.
 
 But the top issue organizations usually have is around focus. When companies get stuck, it’s usually because they’ve set way too many goals. The answer is almost always “less is more” and scaling back to do a few things great vs. 50 things just ok.
-

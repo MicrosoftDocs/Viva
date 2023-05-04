@@ -13,10 +13,11 @@ search.appverid:
 ms.custom: 
 - intro-hub-or-landing
 - intro-overview
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-topics
-    - ContentEngagementFY23
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-topics
+  - ContentEngagementFY23
+  - Tier1
 ms.localizationpriority:  medium
 description: Learn how to find resources for Microsoft Viva Topics.
 ms.date: 4/26/2023

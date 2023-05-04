@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 localization_priority: Priority
 ms.custom: intro-overview
-ms.collection:  
-- M365-collaboration
-- M365initiative-viva
+ms.collection:
+  - M365-collaboration
+  - M365initiative-viva
+  - Tier1
 search.appverid:
 - MET150
 description: "An overview of the Microsoft Viva suite"

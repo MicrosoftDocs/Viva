@@ -7,16 +7,16 @@ manager: pamgreen
 ms.reviewer: ergradel
 audience: admin
 ms.topic: article
-ms.collection: 
-- m365initiative-viva-topics,
-- highpri
+ms.collection:
+  - m365initiative-viva-topics,
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
 - MET150  
 ms.localizationpriority:  medium
 description: Learn how to manage topics in the topic center in Microsoft Viva Topics.
-
 ---
 # Manage topics in the topic center in Microsoft Viva Topics
 

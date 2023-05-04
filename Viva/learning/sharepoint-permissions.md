@@ -10,13 +10,13 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-- enabler-strategic
-- m365initiative-viva-learning
-- highpri
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - highpri
+  - Tier1
 localization_priority: medium
 description: Learn how to control access to SharePoint content in Viva Learning by using Microsoft 365 Groups.
-
 ---
 
 # Use Microsoft 365 Groups permissions with SharePoint content in Viva Learning

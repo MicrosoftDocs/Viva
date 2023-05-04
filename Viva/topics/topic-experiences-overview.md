@@ -14,10 +14,11 @@ ms.custom:
 - intro-get-started
 ms.service: viva
 ms.subservice: viva-topics
-ms.collection: 
-- enabler-strategic
-- m365initiative-viva-topics
-- highpri
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-topics
+  - highpri
+  - Tier1
 ms.localizationpriority:  medium
 description: Learn about how to use Viva Topics in your organization.
 ---
