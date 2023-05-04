@@ -47,20 +47,12 @@ The **Topic interaction** section provides a look into how users are interacting
 
 The **Topic consumption** section provides a look into how users are consuming topics through topic views and clicks.
 
+![Screenshot of total topic consumption metrics.](../media/knowledge-management/topic-consumption-metrics.png)
+
 ### What contributes to consumption
 
 >[!NOTE]
 >Topic consumption is measured by top-level activity, such as selecting a card, but doesn't measure activity within topic cards.
-
-Some activities that contribute to consumption include:
-
-- Selecting topic card, including from other Viva apps
-- Viewing a topic card
-- Viewing a topic pill
-- Dwelling on a topic card
-- Viewing a topic page
-
-![Screenshot of total topic consumption metrics.](../media/knowledge-management/topic-consumption-metrics.png)
 
 ## Topic contribution
 
