@@ -905,7 +905,7 @@
       },
       {
         "source_path": "viva/topics/index.md",
-        "redirect_url": "viva/topics/topic-experiences-overview",
+        "redirect_url": "/viva/topics/topic-experiences-overview",
         "redirect_document_id": false
       }    
     ]
