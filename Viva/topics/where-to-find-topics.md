@@ -45,11 +45,11 @@ Viva Topics are integrated throughout Microsoft 365 and other Viva apps.
 
 Topics are displayed to users through:
 
-- [Topics highlighted](topic-experiences-overview.md#sharepoint-highlights) on SharePoint pages
-- Topic answers in [search results](topic-experiences-overview.md#search-results)
-- Search in [office applications](topic-experiences-overview.md#office-application-search)
+- [Topics highlighted](#sharepoint-highlights) on SharePoint pages
+- Topic answers in [search results](#search-results)
+- Search in [office applications](#office-application-search)
 - [Profile cards](#profile-cards) in Microsoft 365 web apps
-- [Topic center](topic-experiences-overview.md#topic-center) home page
+- [Topic center](#topic-center) home page
 
 ### SharePoint highlights
 
