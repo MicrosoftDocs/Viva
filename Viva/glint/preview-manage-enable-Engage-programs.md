@@ -48,7 +48,7 @@ When your survey is approved, you can preview how the survey, dashboard, and rep
 1. Select the **vertical ellipses** next to the cycle to be previewed.  
 2. Select **Preview**. 
 3. Select the user whose survey you'll preview.  
-4. To preview the survey invitation email, check **Send a sample pulse invite to**.
+4. To preview the survey invitation email, check **Send a sample survey invite to**.
    
     > [!NOTE]
    > The user you select will not receive a preview survey invitation email. 

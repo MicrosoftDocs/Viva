@@ -43,8 +43,8 @@ Viva Glint has done extensive research to identify the most reliable and valid i
    > [!TIP]
    > In cases where text is altered to sufficiently alter the item's meaning, we do not keep the benchmark and this item is considered customized. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
 
-   > [!TIP]
-   > We recommend that you do not customize standard survey items as customized items should not map to external benchmarks. If making a change to our standard survey items, we recommend duplicating the question and creating a customized version. 
+   
+We recommend that you do not customize standard survey items as customized items should not map to external benchmarks. If making a change to our standard survey items, we recommend duplicating the question and creating a customized version. 
 
 ### Custom questions interfere with question mapping 
 
@@ -163,8 +163,10 @@ From this file that has been generated:
    > **Do’s**: 
    > - Keep the translated content in the same cell and columns. 
    > - Ensure that there are no spaces added before/after the updated content. Ensure there is also consistent punctuation at the end of sentences (that is, all using a period or none using a period). 
-   > - Check for grammatical errors.  
- >**Don’ts**:  
+   > - Check for grammatical errors.
+
+   > [!TIP]
+   > **Don’ts**:  
    > - Do not edit, translate, or delete any bracketed text such as {user first name}, <COMPANY_NAME> or {{company name}}. It must stay the same for personalization coding. There is no need to translate anything in brackets. If questions containing brackets are changed, ensure brackets around the text are balanced (that is, one bracket at the start and one at the end, or two at the start and end). 
    > - Do not make visual, formatting, or other stylistic changes unless it improves clarity. Changes should never alter the meaning conveyed in the original English text. 
    > - Do not add personal comments. 
@@ -174,8 +176,10 @@ From this file that has been generated:
    > **Do’s**: 
    > - Focus on copy-editing by fixing any typos or grammatical errors. 
    > - Confirm that the original meaning of the question remains intact. 
-   > - Keep translated content in the same cell and columns.  
- >**Don’ts**:  
+   > - Keep translated content in the same cell and columns. 
+
+   > [!TIP]
+   >**Don’ts**:  
    > - Do not rewrite entire sentences.  
    > - Do not move translated content to different cells or columns.  
    > - Do not add personal comments. 
