@@ -43,7 +43,7 @@ You need permissions in Azure DevOps to install the extension. Learn more about 
 > [!NOTE]
 > If you don't see the Viva Goals tab it could be because of one of two reasons:
 >
-> - Your work item form has a custom layout. Follow the steps in [Add extensions in work item form via work item type definition xml](/azure/devops/extend/develop/configure-workitemform-extensions?view=azure-devops).
+> - Your work item form has a custom layout. Follow the steps in [Add extensions in work item form via work item type definition xml](/azure/devops/extend/develop/configure-workitemform-extensions).
 > - A custom process is blocking the extension. From Azure DevOps Organization Settings, go to **Boards** and select **Process**. Then enable Viva Goals to **Show on layout**.
 
 5. If the work item is directly connected or aligned to a work item that is connected to an initiative in Viva Goals, you'll see alignment information under **Viva Goals**. You can select any aligned OKR to view progress, perform check-ins, add comments, and directly from Azure DevOps.<br/>
