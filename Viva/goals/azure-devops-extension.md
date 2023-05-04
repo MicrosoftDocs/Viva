@@ -26,7 +26,7 @@ Automatically track progress of initiatives and key results in Viva Goals while 
 > [!NOTE]
 > To use the Azure DevOps Extension, the [Azure DevOps integration](/Viva/goals/azure-devops-integration) needs to be enabled. To do this, a Microsoft 365 Global admin must first enable the Azure DevOps integration for their tenant. Once enabled at the tenant level, a Viva Goals Organization admin must then [enable it for their organization](/viva/goals/vg-integrations-administration-overview).
 
-## Install the Azure DevOps Extension
+## Install the Azure DevOps extension
 You need permissions in Azure DevOps to install the extension. Learn more about [managing extension permissions](/azure/devops/marketplace/grant-permissions).
 
 1. Go to the extension in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VivaGoals.viva-goals).
