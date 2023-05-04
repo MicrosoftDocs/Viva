@@ -7,7 +7,9 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -62,4 +64,3 @@ We highly recommend that you [pin this app by default for users in your organiza
 [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences)
 
 [Apps, bots, & connectors in Microsoft Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page)
-

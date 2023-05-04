@@ -7,7 +7,9 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -68,5 +70,3 @@ To hide suggested topics from topic viewers
 [Manage topic permissions in Microsoft Viva Topics](topic-experiences-user-permissions.md)
 
 [Change the name of the topic center in Microsoft Viva Topics](topic-experiences-administration.md)
-
-

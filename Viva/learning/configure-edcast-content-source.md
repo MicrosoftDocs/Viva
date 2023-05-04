@@ -10,9 +10,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 localization_priority: medium
 description: Learn how to configure EdCast as a learning content source for Microsoft Viva Learning.
 ---
@@ -44,4 +45,3 @@ You'll need Your EdCast API key, Secret, Client Host URL and User Email for Viva
 2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable EdCast in the panel.
 3. Fill in the configuration details that you got from your EdCast Customer Success Manager.
 4. Select **Save** to activate EdCast content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
-

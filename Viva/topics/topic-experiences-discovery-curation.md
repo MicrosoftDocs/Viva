@@ -7,7 +7,9 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -124,4 +126,3 @@ DLL (Dynamic link library)|Opportunity|Web app
 Enclave|Organization (organisation, org)|Web service
 Engine (software)|Package (software)|Website (site)
 Event|Partner (business)|Workshop
-

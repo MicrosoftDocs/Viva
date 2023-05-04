@@ -7,14 +7,15 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
 description: Learn how to create a new topic in Microsoft Viva Topics.
-
 ---
 
 # Create a new topic in Microsoft Viva Topics

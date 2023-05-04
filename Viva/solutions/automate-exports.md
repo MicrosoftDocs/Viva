@@ -11,9 +11,10 @@ search.appverid:
 - MET150
 ms.service: viva 
 ms.subservice: viva-insights
-ms.collection: 
-- M365-analytics
-- viva-insights
+ms.collection:
+  - M365-analytics
+  - viva-insights
+  - Tier1
 manager: helayne
 audience: Admin
 ---
@@ -215,4 +216,3 @@ The following steps you through how to automate the export of Workplace Analytic
 ## Related topics
 
 * [Automate query data export with PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md)
-

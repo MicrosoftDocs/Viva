@@ -1,10 +1,9 @@
-    - name: Microsoft Viva Topics 
-      href: index.md   
-
     - name: Get started with Viva Topics
       items:    
         - name: Viva Topics overview
-          href: topic-experiences-overview.md 
+          href: topic-experiences-overview.md
+        - name: Where to find Viva Topics
+          href: where-to-find-topics.md
         - name: Viva Topics discovery and curation
           href: topic-experiences-discovery-curation.md
         - name: Viva Topics roles
