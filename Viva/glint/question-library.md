@@ -159,30 +159,30 @@ From this file that has been generated:
 1. Further to the right, consider other items that might require translation: reporting labels, Multiple Choice questions, and ratings labels.  
 1. Use your translation reviewer to ensure that the translated items match exactly to the approved item from the Question Library. 
 
-   > [!TIP]
-   > **Do’s**: 
-   > - Keep the translated content in the same cell and columns. 
-   > - Ensure that there are no spaces added before/after the updated content. Ensure there is also consistent punctuation at the end of sentences (that is, all using a period or none using a period). 
-   > - Check for grammatical errors.
+### For translators:
 
-   > [!TIP]
-   > **Don’ts**:  
-   > - Do not edit, translate, or delete any bracketed text such as {user first name}, <COMPANY_NAME> or {{company name}}. It must stay the same for personalization coding. There is no need to translate anything in brackets. If questions containing brackets are changed, ensure brackets around the text are balanced (that is, one bracket at the start and one at the end, or two at the start and end). 
-   > - Do not make visual, formatting, or other stylistic changes unless it improves clarity. Changes should never alter the meaning conveyed in the original English text. 
-   > - Do not add personal comments. 
-   > - Do not add new or additional columns or remove columns. 
+**Do’s**: 
+- Keep the translated content in the same cell and columns. 
+- Ensure that there are no spaces added before/after the updated content. Ensure there is also consistent punctuation at the end of sentences (that is, all using a period or none using a period). 
+- Check for grammatical errors.
 
-   > [!TIP]
-   > **Do’s**: 
-   > - Focus on copy-editing by fixing any typos or grammatical errors. 
-   > - Confirm that the original meaning of the question remains intact. 
-   > - Keep translated content in the same cell and columns. 
+**Don’ts**:  
+- Do not edit, translate, or delete any bracketed text such as {user first name}, `<COMPANY_NAME>` or {{company name}}. It must stay the same for personalization coding. There is no need to translate anything in brackets. If questions containing brackets are changed, ensure brackets around the text are balanced (that is, one bracket at the start and one at the end, or two at the start and end). 
+- Do not make visual, formatting, or other stylistic changes unless it improves clarity. Changes should never alter the meaning conveyed in the original English text. 
+- Do not add personal comments. `
+- Do not add new or additional columns or remove columns. 
 
-   > [!TIP]
-   >**Don’ts**:  
-   > - Do not rewrite entire sentences.  
-   > - Do not move translated content to different cells or columns.  
-   > - Do not add personal comments. 
+### For translation reviewers
+
+**Do’s**: 
+- Focus on copy-editing by fixing any typos or grammatical errors. 
+- Confirm that the original meaning of the question remains intact. 
+- Keep translated content in the same cell and columns. 
+
+**Don’ts**:  
+- Do not rewrite entire sentences.  
+- Do not move translated content to different cells or columns.  
+- Do not add personal comments. 
    
 ### Import your translated items 
 
