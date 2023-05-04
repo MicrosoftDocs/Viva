@@ -47,6 +47,7 @@ You need permissions in Azure DevOps to install the extension. Learn more about 
 > - A custom process is blocking the extension. From Azure DevOps Organization Settings, go to **Boards** and select **Process**. Then enable Viva Goals to **Show on layout**.
 
 4. If the work item is directly connected or aligned to a work item that is connected to an initiative in Viva Goals, you'll see alignment information under **Viva Goals**. You can select any aligned OKR to view progress, perform check-ins, add comments, and directly from Azure DevOps.
+
 :::image type="content" source="../media/goals/az2.png" alt-text="Screenshot of a work item showing Viva Goals alignment information.":::
 
 If your work item is not aligned to a Viva Goals initiative, select **Add Project in Viva Goals** to go to Viva Goals in a browser. Refer back to steps 1 and 2 to get started.
