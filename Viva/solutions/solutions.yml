@@ -15,12 +15,12 @@ metadata:
   - NOCSH
   ms.service: viva
   localization_priority: Priority
-  ms.collection:  
-  - M365initiative-viva
+  ms.collection:
+    - M365initiative-viva
+    - Tier1
   search.appverid:
   - MET150
   - ms.date: 06/09/2022
-
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
 landingContent:
@@ -94,5 +94,3 @@ landingContent:
         links:
           - text: Bring learning into the flow of work
             url: incorporate-learning.md
-
-

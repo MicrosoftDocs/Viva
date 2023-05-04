@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how to check in on Objectives, Key Results, and Initiatives for a healthy OKR program."
@@ -107,4 +108,3 @@ Now that you’ve seen the “why” around aligning your OKRs, see the step-by-
 ## Summary
 
 The OKR check-in process is the critical work done regularly (weekly or bi-weekly) throughout a time period to measure progress and make sure you’re on track. Users can perform check-ins quickly and easily within the web app, automatically with third-party integrations, or via collaboration tools such as Microsoft Teams.
-

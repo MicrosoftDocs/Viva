@@ -12,12 +12,13 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: high
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
-- intro-overview
-- highpri 
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - intro-overview
+  - highpri
+  - Tier1
 search.appverid:
 - SPO160
 - MET150f
@@ -135,4 +136,3 @@ You may get the following message: "Viva Connections usage data has been disable
 [Overview: Viva Connections](/viva/connections/viva-connections-overview)
 
 [Getting started with Microsoft Viva](/viva/getting-started-with-microsoft-viva)
-

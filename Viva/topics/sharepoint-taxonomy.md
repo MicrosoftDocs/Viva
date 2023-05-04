@@ -7,7 +7,9 @@ ms.reviewer: anfra; cjtan
 audience: admin
 ms.date: 11/15/2021 
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -186,4 +188,3 @@ Topic pages also indicate that the taxonomy is one of the sources for the topic.
 **--Insert screenshot from final UX - source string in topic page--**
 
 --->
-

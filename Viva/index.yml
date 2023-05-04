@@ -15,7 +15,8 @@ metadata:
   ms.author: loreenl #Required; microsoft alias of author; optional team alias.
   ms.date: 09/02/2021 #Required; mm/dd/yyyy format.
   ms.custom: intro-hub-or-landing
-
+  ms.collection:
+    - Tier1
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:

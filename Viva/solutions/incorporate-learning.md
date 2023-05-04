@@ -10,11 +10,12 @@ search.appverid:
 - MET150
 ms.service: viva 
 ms.subservice: viva-learning
-ms.collection: 
-- M365-analytics
-- viva-learning 
-- m365solution-overview
-- highpri
+ms.collection:
+  - M365-analytics
+  - viva-learning
+  - m365solution-overview
+  - highpri
+  - Tier1
 manager: pamgreen
 audience: Admin
 ---
@@ -153,4 +154,3 @@ Use Viva Connections with Viva Learning to increase awareness of learning opport
 [Learn more about Viva Connections](../connections/viva-connections-overview.md)
 
 Learn how to [plan](../connections/plan-viva-connections.md), [build](../connections/build-viva-connections.md), and [launch](../connections/launch-viva-connections.md) Viva Connections for your organization.
-

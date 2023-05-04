@@ -12,8 +12,9 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
-ms.collection:  
-- m365initiative-viva-goals  
+ms.collection:
+  - m365initiative-viva-goals
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how to set KR types while creating your Key Results"

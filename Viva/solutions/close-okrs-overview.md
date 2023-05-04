@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how to close Objectives, Key Results, and Initiatives for a healthy OKR program."
