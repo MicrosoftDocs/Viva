@@ -27,12 +27,12 @@ Microsoft Viva Connections for Education is your gateway to a modern faculty, st
 
 ![Comparison screenshot of desktop and mobile views.](../media/connections/overview-viva-connections-education/Viva-connections-desktop-vs-mobile-view.png)
 
-Use the [quick guide to set up Viva Connections](viva/connections/viva-connections-setup-guide) or get [more detailed guidance on how to plan, build, and launch](viva/connections/plan-viva-connections).
+Use the [quick guide to set up Viva Connections](/viva/connections/viva-connections-setup-guide) or get [more detailed guidance on how to plan, build, and launch](/viva/connections/plan-viva-connections).
 
 **Viva Connections is:**
 - An education experience app in Microsoft Teams that allows organizations to create unique experiences for different audiences like faculty, staff, students, educators, and researchers.
 - A gateway to other Viva apps and services with the ability to curate specific content and tools by providing easy access to resources, tools, relevant news, and popular destinations.
-- Built on existing capabilities in Microsoft 365 like SharePoint, Teams, [Viva Engage](viva/engage/overview) (formerly called Yammer), and Stream.
+- Built on existing capabilities in Microsoft 365 like SharePoint, Teams, [Viva Engage](/viva/engage/overview) (formerly called Yammer), and Stream.
 - Learn more about [Microsoft Viva](https://www.microsoft.com/microsoft-viva) and [Viva licensing](https://www.microsoft.com/en-us/microsoft-viva/pricing).
 
 > [!NOTE]
@@ -77,7 +77,7 @@ The dashboard experience has been designed to be consistent across mobile platfo
 
 | Element | Mobile | Desktop |
 | :----- | :----- | :----- |
-|Dashboard | Displays as the default tab in the Viva Connections app in Teams. | It is prominently displayed in the desktop app and can be added to your SharePoint sites as a [web part](viva/connections/use-dashboard-web-part-on-home-site). |
+|Dashboard | Displays as the default tab in the Viva Connections app in Teams. | It is prominently displayed in the desktop app and can be added to your SharePoint sites as a [web part](/viva/connections/use-dashboard-web-part-on-home-site). |
 |Dashboard layout | Fixed in portrait mode. Card sizes can be medium (which shows two cards on one row) or large (which shows one card on a row). | Can be portrait or landscape with varying numbers of cards on each row depending on whether the web part is used in a 1-, 2-, or 3-column page section layout. |
 |Card UI | Native | HTML based |
 |Card order | Same as in Desktop | Same as in Mobile |
@@ -91,7 +91,7 @@ The dashboard can be authored directly in the Viva Connections app in Teams desk
 
 The layout of the dashboard, including the size of the cards (which can be individually set as medium or large) can be customized. The layout of the cards may look different depending on whether the dashboard is being viewed on mobile, desktop, or in the dashboard web part.
 
-[Learn more about how to edit your dashboard.](viva/connections/create-dashboard#edit-the-dashboard)
+[Learn more about how to edit your dashboard.](/viva/connections/create-dashboard#edit-the-dashboard)
 
 ### Dashboard cards
 
@@ -118,7 +118,7 @@ Cards in the Viva Connections Dashboard are based on adaptive cards and the [Sha
 4. Select a size for the card from the **Card size** drop-down list.
 5. Change the **title** if you want to rename the card.
 6. If you want to add a custom image, you can do this under **Custom image**.
-7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](viva/connections/create-dashboard#apply-audience-targeting-to-cards).
+7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards).
 8. When finished making your selections, close the property pane. Your changes will apply.
 
     ![Screenshot of the Assignments properties pane](../media/connections/overview-viva-connections-education/assignments-property-pane.png)
@@ -136,7 +136,7 @@ Cards in the Viva Connections Dashboard are based on adaptive cards and the [Sha
 4. Select a size for the card from the **Card size** drop-down list.
 5. Change the **title** if you want to rename the card.
 6. If you want to add a custom image, you can do this under **Custom image**.
-7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](viva/connections/create-dashboard#apply-audience-targeting-to-cards).
+7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards).
 8. When finished making your selections, close the property pane. Your changes will apply.
 
     ![Screenshot of the Courses properties pane](../media/connections/overview-viva-connections-education/courses-property-pane.png)
