@@ -935,7 +935,7 @@
       },
       {
         "source_path": "viva/insights/org-team-insights/reference/org-trends-faq.md",
-        "redirect_url": "viva/insights/org-team-insights/org-insights-faq",
+        "redirect_url": "viva/insights/org-team-insights/org-insights-faqs",
         "redirect_document_id": false
       },
       {
@@ -945,7 +945,7 @@
       },
       {
         "source_path": "viva/insights/org-team-insights/reference/setup.md",
-        "redirect_url": "viva/insights/org-team-insights/org-insights-faq",
+        "redirect_url": "viva/insights/org-team-insights/org-insights-faqs",
         "redirect_document_id": false
       },
       {
