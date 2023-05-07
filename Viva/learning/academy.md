@@ -104,4 +104,7 @@ Configure the academy by selecting the featured set and learning paths.
 
 1. Toggle the **Enable Academy** switch to enable the Academy to the learner group.
 
+![Image of an academy after it has been enabled](/viva/media/learning/academy-6.png)
+
 1. Select the **Copy Academy** link icon next to **Enable Academy** to copy and share the Academy deep link url.
+
