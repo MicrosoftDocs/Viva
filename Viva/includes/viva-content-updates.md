@@ -2,6 +2,45 @@
 
 
 
+## Week of May 01, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/4/2023 | Introduction to Microsoft Viva Topics | removed |
+| 5/4/2023 | [Overview of Viva Connections for Education](/viva/connections/overview-viva-connections-education) | added |
+| 5/4/2023 | [Azure DevOps Extension](/viva/goals/azure-devops-extension) | added |
+| 5/4/2023 | [Where to find topics](/viva/topics/where-to-find-topics) | added |
+| 5/4/2023 | [Create a Viva Connections dashboard in more than one language](/viva/connections/create-multilingual-dashboard) | modified |
+| 5/4/2023 | [Create a SharePoint home site for Viva Connections](/viva/connections/create-sharepoint-home-site-for-viva-connections) | modified |
+| 5/4/2023 | [Customize and edit the Viva Connections home experience](/viva/connections/edit-viva-home) | modified |
+| 5/4/2023 | [Frequently asked questions about the Feed for Viva Connections](/viva/connections/faqs-viva-connections-feed) | modified |
+| 5/4/2023 | [Plan, build, and launch a home site for your organization](/viva/connections/home-site-plan) | modified |
+| 5/4/2023 | [Launch Viva Connections for your organization](/viva/connections/launch-viva-connections) | modified |
+| 5/4/2023 | [Plan Viva Connections for your organization](/viva/connections/plan-viva-connections) | modified |
+| 5/4/2023 | [Use audience targeting in Viva Connections to personalize the experience](/viva/connections/use-audience-targeting-in-viva-connections) | modified |
+| 5/4/2023 | [Use the Viva Connections Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site) | modified |
+| 5/4/2023 | [Use the Feed web part for Viva Connections](/viva/connections/use-feed-web-part-for-viva-connections) | modified |
+| 5/4/2023 | [Use the Web link card to integrate content into Viva Connections](/viva/connections/use-the-link-card) | modified |
+| 5/4/2023 | [Viva Connections analytics](/viva/connections/viva-connections-analytics) | modified |
+| 5/4/2023 | [Overview: Viva Connections](/viva/connections/viva-connections-overview) | modified |
+| 5/4/2023 | [Guide to setting up Viva Connections](/viva/connections/viva-connections-setup-guide) | modified |
+| 5/4/2023 | [Overview of how to set up Viva Connections](/viva/connections/viva-connections-setup-overview) | modified |
+| 5/4/2023 | [Getting started with Microsoft Viva](/viva/getting-started-with-microsoft-viva) | modified |
+| 5/4/2023 | [Combine Microsoft Viva apps to support popular business scenarios](/viva/learn-how-to-combine-modules) | modified |
+| 5/4/2023 | [Add SharePoint as a learning content source for Microsoft Viva Learning](/viva/learning/configure-sharepoint-content-source) | modified |
+| 5/4/2023 | [Use Microsoft 365 Groups permissions with SharePoint content in Viva Learning](/viva/learning/sharepoint-permissions) | modified |
+| 5/4/2023 | [Set up Microsoft Viva](/viva/setup-microsoft-viva) | modified |
+| 5/4/2023 | [Incorporate learning into your organization with Viva Learning](/viva/solutions/incorporate-learning) | modified |
+| 5/4/2023 | [Microsoft Viva Accelerators introduction](/viva/solutions/introduction) | modified |
+| 5/4/2023 | [Edit an existing topic in Microsoft Viva Topics](/viva/topics/edit-a-topic) | modified |
+| 5/4/2023 | [Viva Topics in Yammer](/viva/topics/topic-experiences-yammer) | modified |
+| 5/4/2023 | [Microsoft Viva Topics overview](/viva/topics/topic-experiences-overview) | modified |
+| 5/5/2023 | [Overview of Viva Connections for Education](/viva/connections/overview-viva-connections-education) | modified |
+| 5/5/2023 | [Organizational data overview](/viva/insights/advanced/admin/org-data-overview) | modified |
+| 5/5/2023 | [Prepare organizational data in Viva Insights](/viva/insights/advanced/admin/prepare-org-data) | modified |
+
+
 ## Week of April 24, 2023
 
 
@@ -120,65 +159,3 @@
 |------|------------|--------|
 | 4/6/2023 | [Viva Goals Setup and Administration Deployment Guide](/viva/goals/viva-goals-deployment-guide) | added |
 | 4/6/2023 | [Azure DevOps integration](/viva/goals/azure-devops-integration) | modified |
-
-
-## Week of March 27, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/27/2023 | [Viva Engage admin key concepts](/viva/engage/admin-key-concepts) | modified |
-| 3/27/2023 | [Work with AzureAD-B2B guests in Viva Engage communities](/viva/engage/azure-ad-b2b-guests-engage) | modified |
-| 3/27/2023 | [Viva Engage and Microsoft 365 Groups](/viva/engage/engage-microsoft-365-groups) | modified |
-| 3/27/2023 | [Manage Viva Engage Core user licenses in Microsoft 365](/viva/engage/manage-engage-licenses-microsoft-365) | modified |
-| 3/27/2023 | [Viva Engage Native Mode: Step-by-step guide](/viva/engage/native-mode-guide) | modified |
-| 3/27/2023 | [Overview of Native Mode for Microsoft 365](/viva/engage/overview-native-mode) | modified |
-| 3/27/2023 | [Report a Viva Engage conversation](/viva/engage/report-conversation-overview) | modified |
-| 3/27/2023 | [Set up a Viva Engage usage policy](/viva/engage/set-up-usage-policy) | modified |
-| 3/27/2023 | [Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API](/viva/engage/track-engage-events) | modified |
-| 3/27/2023 | [Troubleshoot your Viva Engage network for Native Mode for Microsoft 365](/viva/engage/troubleshoot-native-mode) | modified |
-| 3/27/2023 | [OKR Program Analytics](/viva/goals/viva-goals-analytics) | modified |
-| 3/28/2023 | [Run a healthy OKR program with Viva Goals Overview](/viva/solutions/healthy-okr-program-overview) | added |
-| 3/28/2023 | [Jira Server and Data Center Integration for Viva Goals ](/viva/goals/jira-on-prem-integration) | added |
-| 3/28/2023 | [Renaming initiatives](/viva/goals/renaming-initiatives) | added |
-| 3/28/2023 | [Viva Goals security, privacy, and compliance](/viva/goals/vg-privacy-and-security) | added |
-| 3/28/2023 | [Zapier Integration](/viva/goals/zapier-integration) | added |
-| 3/28/2023 | [Key performance indicator (KPI) summary](/viva/goals/kpi-summary) | modified |
-| 3/29/2023 | [Getting started with Microsoft Viva](/viva/getting-started-with-microsoft-viva) | modified |
-| 3/29/2023 | [Combine Microsoft Viva apps to support popular business scenarios](/viva/learn-how-to-combine-modules) | modified |
-| 3/29/2023 | [Microsoft Viva Overview](/viva/microsoft-viva-overview) | modified |
-| 3/29/2023 | [Plan for all Viva apps](/viva/plan-for-all-viva-modules) | modified |
-| 3/29/2023 | [Define KR Types in Viva Goals](/viva/solutions/kr-types) | modified |
-| 3/29/2023 | [Microsoft Viva for the hybrid workplace: Leadership communications](/viva/solutions/viva-leadership-communications) | modified |
-| 3/29/2023 | [Microsoft Viva for the hybrid workplace: Onboarding employees who are new or changing roles](/viva/solutions/viva-onboard-change-roles) | modified |
-| 3/30/2023 | Align OKRs | removed |
-| 3/30/2023 | [Asana integration](/viva/goals/asana-integration) | modified |
-| 3/30/2023 | [Azure DevOps integration](/viva/goals/azure-devops-integration) | modified |
-| 3/30/2023 | Bookmarks in Viva Goals | removed |
-| 3/30/2023 | Business rhythms | removed |
-| 3/30/2023 | [Configure your OKR creation permissions in Viva Goals](/viva/goals/configure-okr-create-permissions) | modified |
-| 3/30/2023 | [Configure your OKR rules in Viva Goals](/viva/goals/configure-okr-model) | modified |
-| 3/30/2023 | [Manage OKRs in Viva Goals](/viva/goals/configuring-okrs) | modified |
-| 3/30/2023 | [Create and edit teams and subteams](/viva/goals/create-and-edit-teams-and-subteams) | modified |
-| 3/30/2023 | [Configure your OKR edit permissions in Viva Goals](/viva/goals/edit-permissions) | modified |
-| 3/30/2023 | [Explorer](/viva/goals/explorer) | modified |
-| 3/30/2023 | [Get to know OKRs](/viva/goals/get-to-know-okrs) | modified |
-| 3/30/2023 | [Import OKRs and Initiatives into Viva Goals with Excel](/viva/goals/import-okrs-projects) | modified |
-| 3/30/2023 | [Jira Cloud Integration](/viva/goals/jira-integration) | modified |
-| 3/30/2023 | [Log in, create, and join organizations in Viva Goals](/viva/goals/log-in-create-and-join-organizations) | modified |
-| 3/30/2023 | [Managing OKR time periods](/viva/goals/managing-okr-time-periods) | modified |
-| 3/30/2023 | [Microsoft Planner Integration](/viva/goals/microsoft-planner-integration) | modified |
-| 3/30/2023 | [Share OKR updates in chats](/viva/goals/ms-teams-messaging-extension) | modified |
-| 3/30/2023 | [Navigate the admin dashboard](/viva/goals/navigate-admin-dashboard) | modified |
-| 3/30/2023 | [OKR contributions](/viva/goals/okr-contributions) | modified |
-| 3/30/2023 | [Power BI Integration](/viva/goals/power-bi-integration) | modified |
-| 3/30/2023 | [Quick search and hot key support](/viva/goals/quick-search-and-hot-key-support) | modified |
-| 3/30/2023 | [Check-in reminders and OKR updates](/viva/goals/slack-check-ins-teams-orgs) | modified |
-| 3/30/2023 | [Tags](/viva/goals/tags) | modified |
-| 3/30/2023 | [Track OKR progress status](/viva/goals/track-okr-progress-status) | modified |
-| 3/30/2023 | [Understand Organizations and Teams](/viva/goals/understand-orgs-and-teams) | modified |
-| 3/30/2023 | [Understanding views in Viva Goals](/viva/goals/understanding-views) | modified |
-| 3/30/2023 | [Create a new topic in Microsoft Viva Topics](/viva/topics/create-a-topic) | modified |
-| 3/30/2023 | [Topic center overview in Microsoft Viva Topics](/viva/topics/topic-center-overview) | modified |
-| 3/31/2023 | [Manage topic discovery in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery) | modified |
-| 3/31/2023 | [Manage topic permissions in Microsoft Viva Topics](/viva/topics/topic-experiences-user-permissions) | modified |
