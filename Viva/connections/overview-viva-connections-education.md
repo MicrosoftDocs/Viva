@@ -24,7 +24,7 @@ description: "Overview of Viva Connections for Education"
 
 # Overview of Viva Connections for Education
 
-Microsoft Viva Connections for Education is your gateway to a modern faculty, staff and student experience and is designed to keep everyone engaged and informed. It is a customizable app in Microsoft Teams that gives different audiences in your organization a personalized destination to discover other Viva apps your organization is licensed for, relevant news, conversations, and the tools they need to succeed. Viva Connections for Education provides a digital home for your users allowing them to stay connected with the organization and simplify their day-to-day experience.
+Microsoft Viva Connections for Education is your gateway to a modern faculty, staff and student experience and is designed to keep everyone engaged and informed. It's a customizable app in Microsoft Teams that gives different audiences in your organization a personalized destination to discover other Viva apps your organization is licensed for, relevant news, conversations, and the tools they need to succeed. Viva Connections for Education provides a digital home for your users allowing them to stay connected with the organization and simplify their day-to-day experience.
 
 ![Comparison screenshot of desktop and mobile views.](../media/connections/overview-viva-connections-education/Viva-connections-desktop-vs-mobile-view.png)
 
@@ -86,8 +86,8 @@ The dashboard experience has been designed to be consistent across mobile platfo
 > 
 | Element | Mobile | Desktop |
 | :----- | :----- | :----- |
-| **Dashboard** | Displays as the default tab in the Viva Connections app in Teams. | It is prominently displayed in the desktop app and can be added to your SharePoint sites as a [web part](/viva/connections/use-dashboard-web-part-on-home-site). |
-| **Dashboard layout** | Fixed in portrait mode. Card sizes can be medium (which shows two cards on one row) or large (which shows one card on a row). | Can be portrait or landscape with varying numbers of cards on each row depending on whether the web part is used in a 1-, 2-, or 3-column page section layout. |
+| **Dashboard** | Displays as the default tab in the Viva Connections app in Teams. | It's prominently displayed in the desktop app and can be added to your SharePoint sites as a [web part](/viva/connections/use-dashboard-web-part-on-home-site). |
+| **Dashboard layout** | Fixed in portrait mode. Card sizes can be medium (which shows two cards on one row) or large (which shows one card on a row). | Can be portrait or landscape with varying numbers of cards on each row depending on whether the web part is used in a one, two, or  three column page section layout. |
 | **Card UI** | Native | HTML based |
 | **Card order** | Same as in Desktop | Same as in Mobile |
 | **Card reflow** | Same as in Desktop | Same as in Mobile |
@@ -96,7 +96,7 @@ The dashboard experience has been designed to be consistent across mobile platfo
 
 ### Dashboard authoring
 
-The dashboard can be authored directly in the Viva Connections app in Teams desktop. If you are using a home site, the dashboard can also be authored from the SharePoint home site.
+The dashboard can be authored directly in the Viva Connections app in Teams desktop. If you're using a home site, the dashboard can also be authored from the SharePoint home site.
 
 ![Screenshot showing the dashboard being edited](../media/connections/overview-viva-connections-education/Dashboard-authoring.png)
 
@@ -128,9 +128,9 @@ Cards in the Viva Connections Dashboard are based on adaptive cards and the [Sha
 3. In the **property** pane on the right side of the page, select your options.
 4. Select a size for the card from the **Card size** drop-down list.
 5. Change the **title** if you want to rename the card.
-6. If you want to add a custom image, you can do this under **Custom image**.
-7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards).
-8. When finished making your selections, close the property pane. Your changes will apply.
+6. If you want to add a custom image, you can under **Custom image**.
+7. If you want to target your card to specific audiences (that is, only the audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards).
+8. When finished making your selections, close the property pane to apply your changes.
 
     ![Screenshot of the Assignments properties pane](../media/connections/overview-viva-connections-education/assignments-property-pane.png)
 
@@ -146,9 +146,9 @@ Cards in the Viva Connections Dashboard are based on adaptive cards and the [Sha
 3. In the **property** pane on the right side of the page, select your options.
 4. Select a size for the card from the **Card size** drop-down list.
 5. Change the **title** if you want to rename the card.
-6. If you want to add a custom image, you can do this under **Custom image**.
-7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards).
-8. When finished making your selections, close the property pane. Your changes will apply.
+6. If you want to add a custom image, you can under **Custom image**.
+7. If you want to target your card to specific audiences (that is, only the audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards).
+8. When finished making your selections, close the property pane to apply your changes.
 
     ![Screenshot of the Courses properties pane](../media/connections/overview-viva-connections-education/courses-property-pane.png)
 
@@ -221,25 +221,25 @@ The mobile experience uses tabs for the dashboard, feed, and resources to make s
 Viva Connections gives you and your content creators the tools for both curated and tailored experiences. A curated experience is one in which the user sees content chosen by a site owner or author. For example, a site owner controls the content used on the site and whether the content is audience targeted. 
 
 > [!NOTE] 
-> **[Audience targeting](/viva/connections/use-audience-targeting-in-viva-connections)** is accomplished using Azure Active Directory (AAD) groups for card-level targeting in the dashboard and menu-item targeting in the global navigation.
+> **[Audience targeting](/viva/connections/use-audience-targeting-in-viva-connections)** is accomplished using Azure Active Directory (Azure AD) groups for card-level targeting in the dashboard and menu-item targeting in the global navigation.
 
 A tailored experience is one in which content is automatically displayed according to what is most relevant to the users. This content might include content from the sites they follow, their Yammer group memberships, popular content, and more. An example of tailored content is the feed.
 
-- **Home site (curated [optional])**: A home site is not required for Viva Connections, but can be used as a secondary landing destination for organizational content and news. A site owner controls the layout of the home site, the elements used on that site, and targeting content to specific audiences.
+- **Home site (curated [optional])**: A home site isn't required for Viva Connections, but can be used as a secondary landing destination for organizational content and news. A site owner controls the layout of the home site, the elements used on that site, and targeting content to specific audiences.
 
-- **Dashboard (curated)**: A dashboard author controls the curation of the dashboard and can target each card on the dashboard to specific audiences using existing AAD groups. These provisions allow dashboard authors to create different experiences for each group. And because Viva Connection uses AAD groups, authors benefit from dynamic group memberships to reduce administrative overhead. Authors can easily preview what the dashboard will look like across devices and audiences.
+- **Dashboard (curated)**: A dashboard author controls the curation of the dashboard and can target each card on the dashboard to specific audiences using existing Azure AD groups. These provisions allow dashboard authors to create different experiences for each group. And because Viva Connection uses Azure AD groups, authors benefit from dynamic group memberships to reduce administrative overhead. Authors can easily preview what the dashboard will look like across devices and audiences.
 
 - **Feed (tailored)**: The Viva Connections feed uses its own heuristics to tailor the feed for a user by bringing in the most relevant content for that user. It utilizes signals in the content created across the organization. Some of the signals used are Yammer group memberships, sites where news is posted, content popularity, and the intended audiences for a post. The feed also supports promotional capabilities such as using [SharePoint news boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 
-- **Resources (curated)**: The list of sites on the resources experience in mobile includes the global navigation defined at the organization level. The global navigation supports AAD groups for targeting so that users in different groups will see relevant navigation items.
+- **Resources (curated)**: The list of sites on the resources experience in mobile includes the global navigation defined at the organization level. The global navigation supports Azure AD groups for targeting so that users in different groups will see relevant navigation items.
 
 >
 | **Capability name**  | **Curated vs. Mobile** | **Details** |
 |-----|-----|-----|
 | **Home site (optional)** | Curated | Organizations with SharePoint home sites  can control the layout, web parts, and audience targeting of content.|
-| **Dashboard** | Curated | Author selects cards to show and uses AAD groups to [target content to specific audiences.](/viva/connections/use-audience-targeting-in-viva-connections) |
+| **Dashboard** | Curated | Author selects cards to show and uses Azure AD groups to [target content to specific audiences.](/viva/connections/use-audience-targeting-in-viva-connections) |
 | **Feed** | Tailored | Content is automatically prioritized and displayed based on signals associated with content from SharePoint and [Viva Engage](/viva/engage/overview). |
-| **Resources** | Curated | Using AAD groups, menu items in the global navigation can be targeted to specific audiences. |
+| **Resources** | Curated | Using Azure AD groups, menu items in the global navigation can be targeted to specific audiences. |
 >
 
 ## Branding
@@ -292,7 +292,7 @@ There are several options to learn more about how to get Viva Connections for yo
 |-----|-----|-----|
 | **[Quick guide](/viva/connections/viva-connections-setup-guide)** | Use the quick guide to get a high-level overview of how to get Viva Connections | 10 minutes |
 | **[Plan, build, and launch guidance](/viva/connections/viva-connections-setup-overview)** | Get more detailed guidance that focus on tasks in the plan, build, and launch phases. | 30 minutes |
-| **[Learning path](/training/paths/viva-connections-get-started/)** | Get in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings. | 2 hours |
+| **[Learning path](/training/paths/viva-connections-get-started/)** | Get in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings. | Two hours |
 >
 
 ## More resources
