@@ -962,6 +962,82 @@
         "source_path": "viva/insights/org-team-insights/reference/teamwork-habits.md",
         "redirect_url": "/viva/insights/org-team-insights/team-insights",
         "redirect_document_id": false
-      }          
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/effective-meetings.md",
+        "redirect_url": "https://support.microsoft.com/topic/meeting-habits-in-viva-insights-f41f7aa9-6d4a-40bb-b00a-36170f9dbbba",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/focus-mode.md",
+        "redirect_url": "https://support.microsoft.com/topic/focus-with-viva-insights-41e6274d-a1ac-42a5-8e9e-ac432e0447c9",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/inspiration.md",
+        "redirect_url": "https://support.microsoft.com/en-us/topic/inspiration-library-in-viva-insights-45b4f206-b1da-4082-bf5e-5a35232b70b8",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/introduction.md",
+        "redirect_url": "https://support.microsoft.com/en-us/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/shared-meeting-plan.md",
+        "redirect_url": "https://support.microsoft.com/topic/shared-meeting-plan-in-viva-insights-30c3d08b-5761-4ff7-ba7d-32d9f00759a4",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/viva-insights-headspace.md",
+        "redirect_url": "https://support.microsoft.com/topic/mindfulness-content-in-viva-insights-c5c807e1-b10c-4d41-9120-b2ac914dcc72",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/viva-insights-protect-time.md",
+        "redirect_url": "https://support.microsoft.com/topic/wellbeing-tab-in-viva-insights-72458b43-11a3-40b8-8b6f-14f6a0977e4b",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/viva-insights-home.md",
+        "redirect_url": "https://support.microsoft.com/topic/viva-insights-home-tab-6e7d28b2-6b0e-4367-9b52-1999a86eb391",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/viva-insights-praise.md",
+        "redirect_url": "https://support.microsoft.com/topic/praise-in-viva-insights-4977c923-f3d1-4134-9d1c-ee29dc01ae27s",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/viva-insights-reflect.md",
+        "redirect_url": "https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/viva-insights-stay-connected.md",
+        "redirect_url": "https://support.microsoft.com/topic/teamwork-tab-in-viva-insights-cca98877-be3a-47f3-ad4a-acc88111f0cb",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/viva-insights-virtual-commute.md",
+        "redirect_url": "https://support.microsoft.com/topic/virtual-commute-in-viva-insights-8be83785-f5ec-4e84-8cff-f0abb117f876",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/viva-teams-app.md",
+        "redirect_url": "https://support.microsoft.com/en-us/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/viva-teams-app-faq.md",
+        "redirect_url": "/viva/insights/personal/teams/faq",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/teams/reference/viva-teams-app-settings.md",
+        "redirect_url": "https://support.microsoft.com/topic/configure-your-app-settings-in-viva-insights-e7d25f88-d102-4740-a7d0-af8610b457c5",
+        "redirect_document_id": false
+      }
+                                                                          
     ]
 }

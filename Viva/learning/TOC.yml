@@ -1,5 +1,3 @@
-    - name: Microsoft Viva Learning
-      href: index.md   
 
     - name: Get started with Viva Learning
       items:    
@@ -9,54 +7,44 @@
           href: set-up-viva-learning.md
         - name: Enable or disable the Learning tab in Microsoft 365 search results
           href: enable-disable-search.md
-        - name: Advanced Searching within Viva Learning
-          href: advanced-search.md   
         - name: Supported languages
           href: viva-learning-supported-languages.md
         - name: Terms and conditions
           href: terms-and-conditions.md
         - name: Get help
           href: help-support.md
-        
-    - name: SAP SuccessFactors
-      items:
-        - name: Overview of SAP SuccessFactors
-          href: sfsf-introduction.md
-        - name: Add SAP SuccessFactors as a content source 
-          href: sfsf-add-as-content-source.md
-        - name: Enable learner record sync
-          href: sfsf-enable-learning-record-sync.md
-        - name: Manage SAP SuccessFactors permissions
-          href: sfsf-manage-permissions.md
-        - name: Enable inline playback
-          href: sfsf-enable-inline-playback.md
-          
     - name: Manage learning content sources
       items:
         - name: Overview
           href: content-sources-365-admin-center.md
         - name: Manage how content shows up in Viva Learning
           href: use-tabs.md
-        - name: Creating Learning paths in Viva Learning
-          href: creating-learning-paths.md
-        - name: Create collections in Viva Learning
-          href: creating-learning-collections.md
-        - name: Add SharePoint
-          href: configure-sharepoint-content-source.md
+        -  name: Add learning management systems
+           href: configure-lms.md
+        - name: SAP SuccessFactors
           items:
+          - name: Overview of SAP SuccessFactors
+            href: sfsf-introduction.md
+          - name: Add SAP SuccessFactors as a content source 
+            href: sfsf-add-as-content-source.md
+          - name: Enable learner record sync
+            href: sfsf-enable-learning-record-sync.md
+          - name: Manage SAP SuccessFactors permissions
+            href: sfsf-manage-permissions.md
+          - name: Enable inline playback
+            href: sfsf-enable-inline-playback.md
+        - name: SharePoint
+          items: 
+            - name: Add SharePoint
+              href: configure-sharepoint-content-source.md
             - name: Configure permissions for SharePoint content
               href: sharepoint-permissions.md
-        - name: Add learning management systems
-          href: configure-lms.md
-          items:
-            - name: Cornerstone OnDemand
-              href: configure-cornerstone-content-source.md
-            - name: Saba
-              href: configure-saba-content-source.md
-            - name: Manage Catalog Access in Viva Learning
-              href: manage-catalog-access.md
-            - name: Workday
-              href: configure-workday-content-source.md
+        - name: Cornerstone OnDemand
+          href: configure-cornerstone-content-source.md
+        - name: Saba
+          href: configure-saba-content-source.md
+        - name: Workday
+          href: configure-workday-content-source.md
         - name: Add other content providers
           href: configure-other-content-sources.md
           items:
@@ -74,6 +62,18 @@
               href: configure-udemy-content-source.md
         - name: Free courses from LinkedIn Learning
           href: linkedin-learning-free-courses.md
+    - name: Manage your content 
+      items: 
+        - name: Manage Catalog Access in Viva Learning
+          href: manage-catalog-access.md
+        - name: Creating Learning paths in Viva Learning
+          href: creating-learning-paths.md
+        - name: Create collections in Viva Learning
+          href: creating-learning-collections.md
+        - name: Manage academies in Viva Learning  
+          href: academy.md
+        - name: Advanced Searching within Viva Learning
+          href: advanced-search.md   
     - name: Troubleshoot
       items:
         - name: Learning management systems
