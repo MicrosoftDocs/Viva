@@ -1030,7 +1030,7 @@
       },
       {
         "source_path": "viva/insights/personal/teams/reference/viva-teams-app-faq.md",
-        "redirect_url": "/viva/insights/personal/teams/faq.md",
+        "redirect_url": "/viva/insights/personal/teams/faq",
         "redirect_document_id": false
       },
       {
