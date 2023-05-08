@@ -1,5 +1,5 @@
 ---
-title: Manage Academies in Viva Learning
+title: Manage academies in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
@@ -17,7 +17,7 @@ localization_priority: medium
 description: A guide to creating and managing academies within Viva Learning. 
 ---
 
-# Manage Academies in Viva Learning
+# Manage academies in Viva Learning
 
 Use Viva Learning academy to curate pages for selected learners to develop the business-critical capability through a facilitated learning experience. 
 The academy goes beyond technical and functional skills and focuses on the business capabilities a company needs to thrive. Academy can be curated using a group of Learning paths focused on Academy specific learning objectives. 
@@ -31,7 +31,7 @@ Creating and editing academies involves managing featured sets and learning path
 Existing Microsoft 365 admins, knowledge admins, and knowledge managers can create and manage academies.
 
 
-## Set up an Academy
+## Set up an academy
 
 1. Select **Manage academies**.
 
@@ -54,7 +54,7 @@ You'll now see your newly created academy for configuration.
 
 ![Image of the options for the newly created academy, with options to enable academy, add a featured set, and add learning path](/viva/media/learning/academy-2.png)
 
-## Configure Academy
+## Configure academy
 
 Configure the academy by selecting the featured set and learning paths. 
 
@@ -101,11 +101,10 @@ Configure the academy by selecting the featured set and learning paths.
 
 1. Select **Save.**
 
-## Enable Academy
+## Enable academy
 
 1. Toggle the **Enable Academy** switch to enable the Academy to the learner group.
 
 ![Image of an academy after it has been enabled](/viva/media/learning/academy-6.png)
 
 1. Select the **Copy Academy** link icon next to **Enable Academy** to copy and share the Academy deep link url.
-
