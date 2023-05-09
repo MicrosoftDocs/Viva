@@ -33,6 +33,8 @@ During OKR reviews, teams often need to embed external content from documents, s
 
  > [!NOTE]
  > If a URL is blocked, users can contact their global admin for the allowlisted domains. Currently, the global admin can control the allow list of domains from a list of 183 allowlisted domains.
+ > :::image type="content" source="../media/goals/custom-url-widget-images/allow-list.png" alt-text="Screenshot of managing the allowlist for the embed dashboard." lightbox="../media/goals/custom-url-widget-images/allow-list.png":::
+
 3. After clicking save, the embedded URL will appear in the dashboard widget.
  :::image type="content" source="../media/goals/custom-url-widget-images/example-custom-url-1.png" alt-text="Screenshot of the custom url widget appearing in the review dashboard.":::
 
