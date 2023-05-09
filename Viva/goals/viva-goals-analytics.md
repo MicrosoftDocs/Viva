@@ -57,7 +57,7 @@ This section gives an overview of adoption of OKRs across your organization.
 - Users with OKRs – Count (and percentage) of team members who owned an active OKR on any day in the selected time range.
 - Users with check-ins – Count (and percentage) of team members who made a check-in on an active OKR, on any day in the selected time range.
 
-In the drilldown view, you can see the metric values for subteams. You can select on a team's name to navigate to analytics of the particular team. You can also select on the subteam's expand button to further drill down to the next level of subteams. 
+In the drilldown view, you can see the metric values for subteams. You can select a team's name to navigate to analytics of the particular team. You can also select the subteam's expand button to drill down farther to the next level of subteams. 
 
 :::image type="content" source="../media/goals/analytics-images/3-vivagoals-analytics-adoption-drilldown.png" alt-text="Graph that shows the view of the analytics breakdown in Viva Goals.":::
    
@@ -119,7 +119,7 @@ Besides the metric values for the above metrics, you'll see a split icon. Hover 
 
 :::image type="content" source="../media/goals/analytics-images/9-okr-breakup-main.png" alt-text="Screenshot of the tooltip that appears when hovering." lightbox="../media/goals/analytics-images/9-okr-breakup-main.png":::
 
-In the drilldown view, you can select on the split icon, and it opens subcolumns to display corresponding Objective and KR metrics. 
+In the drilldown view, you can select the split icon, and it opens subcolumns to display corresponding Objective and KR metrics. 
 
 :::image type="content" source="../media/goals/analytics-images/8-okr-breakup-drilldown.png" alt-text="Screenshot of opening subcolumns to view additional metric information." lightbox="../media/goals/analytics-images/8-okr-breakup-drilldown.png":::
 
@@ -129,6 +129,6 @@ You can also filter metric values by applying a tag filter. This enables slicing
 
 Because tags apply to OKRs, only metrics that have a context of OKRs get updated. The following metrics won't be affected by tag filter: Total users, Total teams, Monthly active users. 
 
-To learn more about how to create and use tags, visit [Viva Goals Tags](tags.md)
+To learn more about how to create and use tags, visit [Viva Goals Tags](tags.md).
 
 :::image type="content" source="../media/goals/analytics-images/10-tag-filter.png" alt-text="Screenshot of filtering tabs." lightbox="../media/goals/analytics-images/10-tag-filter.png":::
