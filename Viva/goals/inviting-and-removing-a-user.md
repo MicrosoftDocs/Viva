@@ -128,3 +128,6 @@ Admins can’t delete users who currently own any objective. To delete those use
 1. **How can I view a deactivated or deleted user?**
     1. Go to **Admin**->**Settings** and under **Users** tab, select the **Status** dropdown and select **Deactivated**.
 
+1. **Manager updates made in AAD are not reflected in Viva Goals. Why?**
+    1. The changes made in AAD are pushed to Viva Goals only after the corresponding users log out and log in to Viva Goals. Until then, the updates will not reflect in Viva Goals. To resolve, log out and then log back in to Viva Goals.
+
