@@ -31,14 +31,14 @@ During OKR reviews, teams often need to embed external content from documents, s
 
 1. Enter a title for the widget and paste the URL. If the URL is approved, the user sees a preview of their URL. 
 
-  :::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings.png" alt-text="Screenshot of the settings for the custom URL widget.":::
+   :::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings.png" alt-text="Screenshot of the settings for the custom URL widget.":::
 
-  :::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings-filled.png" alt-text="Screenshot of the custom url settings filled in.":::
+   :::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings-filled.png" alt-text="Screenshot of the custom url settings filled in.":::
 
-  > [!NOTE]
-  > If a URL is blocked, users can contact their global admin for the allowlisted domains. Currently, the global admin can control the allow list of domains from a list of 183 allowlisted domains.
-  >
-  > :::image type="content" source="../media/goals/custom-url-widget-images/allow-list.png" alt-text="Screenshot of managing the allowlist for the embed dashboard." lightbox="../media/goals/custom-url-widget-images/allow-list.png":::
+   > [!NOTE]
+   > If a URL is blocked, users can contact their global admin for the allowlisted domains. Currently, the global admin can control the allow list of domains from a list of 183 allowlisted domains.
+   >
+   > :::image type="content" source="../media/goals/custom-url-widget-images/allow-list.png" alt-text="Screenshot of managing the allowlist for the embed dashboard." lightbox="../media/goals/custom-url-widget-images/allow-list.png":::
 
 1. After clicking save, the embedded URL will appear in the dashboard widget.
  
