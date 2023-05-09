@@ -101,7 +101,7 @@ Admins can’t delete users who currently own any objective. To delete those use
 ## FAQ (Frequently asked questions)
 
 1. **Who can be invited/granted access to Viva Goals?**
-    1. There are two user types in Azure AD - Members and Guests. Only members can be invited/provisioned to access Viva Goals and not guest users. 
+    1. There are two user types in Azure AD—members and guests. Only members can be invited/provisioned to access Viva Goals and not guest users. 
 
 1. **Can any group in Azure Active Directory be invited to Viva Goals?**
     1. Any group in Azure Active Directory, Security Groups, Distribution groups, and Microsoft 365 groups can be invited to Viva Goals. 
