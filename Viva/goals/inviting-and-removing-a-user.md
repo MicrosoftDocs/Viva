@@ -27,7 +27,7 @@ To onboard your entire organization into Viva Goals, send an invitation to all t
 
 Before either of these procedures, you must sign in to Viva Goals using Azure Active Directory and create an account for your organization.  
 
-To sign in to Viva Goals, visit: https://goals.microsoft.com/
+To sign in to Viva Goals, visit https://goals.microsoft.com/.
 
 ## Add users via invitation after you create an organization 
 
