@@ -30,7 +30,6 @@ description: "Learn how to use Viva Connections experience by using Viva Connect
 
 Understand how and when users engage with components of the Viva Connections experience by using Viva Connections analytics. Review the number of people who have viewed and engaged with Viva Connections experiences, the content types users engage with, and the platforms used to access Viva Connections.
 
-People with site member (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png"::: and then click **Manage Viva Connections**.
 
 > [!NOTE]
 > - This first release of Viva Connections analytics is only available to customers who have a SharePoint home site.
@@ -42,11 +41,21 @@ People with site member (or higher) permissions to your organization’s [home s
 
 ## How to access the report
 
-People with site member (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data.
+People with site member (or higher) permissions to your organization’s [home site](/sharepoint/home-site) or Viva Connections app in Teams can view usage data. 
 
-| Component | Description |
-| :------------------- | :------------------- |
-| :::image type="content" source="../media/manage-vc-panel.png" alt-text="Screenshot that shows the Manage Viva Connections."::: | 1. Navigate to your organization’s home site.<br><br> 2. Select the **Settings** :::image type="icon" source="../media/vc-analytics-error-setting.png"::: icon.<br><br> 3. Then, select **Manage Viva Connections**.<br><br> 4. Next, go to the **Analytics** section and select **Download report**. |
+### To view usage data for Viva Connections from a SharePoint home site:
+
+1. Navigate to your organization’s home site. 
+2. Select the **Settings** :::image type="icon" source="../media/vc-analytics-error-setting.png"::: icon.
+3. Then, select **Manage Viva Connections**.
+4. Next, go to the **Analytics** section and select **Download report**.
+
+### To view usage data for Viva Connections from Teams:
+
+1. Navigate to your organization’s Viva Connections app in Teams. 
+2. Select the ellipsis in the top-right corner.
+3. Then, select **Download analytics**.
+
 
 ## What’s in the usage report
 
