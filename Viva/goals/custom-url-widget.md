@@ -21,19 +21,19 @@ description: "Learn how to use the custom embed widget in Viva Goals"
 
 # Embed URL widget
 
-During OKR reviews, teams often need to embed external content from documents, slides and images into their review dashboard. Embedding content easily bridges comprehensive data and visualizations from different mediums into Viva Goals so leaders can run effective executive reviews and team meetings.  The custom embed widget allows users to embed URLs so that they can be directly accessed from their Viva Goals dashboard. 
+During OKR reviews, teams often need to embed external content from documents, slides and images into their review dashboard. Embedding content easily bridges comprehensive data and visualizations from different mediums into Viva Goals so leaders can run effective executive reviews and team meetings. The custom embed widget allows users to embed URLs so that they can be directly accessed from their Viva Goals dashboard. 
 
 ## Using the Embed URL feature 
 
 1. In the dashboards tab, create a new widget. Select “Customized Embed”.
 
- :::image type="content" source="../media/goals/custom-url-widget-images/custom-embed-widget.png" alt-text="Screenshot of highlighted custom ember widget in a review dashboard."::: 
+   :::image type="content" source="../media/goals/custom-url-widget-images/custom-embed-widget.png" alt-text="Screenshot of highlighted custom ember widget in a review dashboard." lightbox="../media/goals/custom-url-widget-images/custom-embed-widget.png"::: 
 
 1. Enter a title for the widget and paste the URL. If the URL is approved, the user sees a preview of their URL. 
 
-:::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings.png" alt-text="Screenshot of the settings for the custom URL widget.":::
+  :::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings.png" alt-text="Screenshot of the settings for the custom URL widget.":::
 
-:::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings-filled.png" alt-text="Screenshot of the custom url settings filled in.":::
+  :::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings-filled.png" alt-text="Screenshot of the custom url settings filled in.":::
 
   > [!NOTE]
   > If a URL is blocked, users can contact their global admin for the allowlisted domains. Currently, the global admin can control the allow list of domains from a list of 183 allowlisted domains.
@@ -42,7 +42,7 @@ During OKR reviews, teams often need to embed external content from documents, s
 
 1. After clicking save, the embedded URL will appear in the dashboard widget.
  
- :::image type="content" source="../media/goals/custom-url-widget-images/example-custom-url-1.png" alt-text="Screenshot of the custom url widget appearing in the review dashboard.":::
+   :::image type="content" source="../media/goals/custom-url-widget-images/example-custom-url-1.png" alt-text="Screenshot of the custom url widget appearing in the review dashboard.":::
 
 ## Embedding an image using Embed URL
 
