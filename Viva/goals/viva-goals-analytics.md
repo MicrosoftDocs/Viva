@@ -129,6 +129,6 @@ You can also filter metric values by applying a tag filter. This enables slicing
 
 Because tags apply to OKRs, only metrics that have a context of OKRs get updated. The following metrics won't be affected by tag filter: Total users, Total teams, Monthly active users. 
 
-To learn more about how to create and use tags, visit: https://learn.microsoft.com/viva/goals/tags.  
+To learn more about how to create and use tags, visit: [Viva Goals Tags](tags.md)
 
 :::image type="content" source="../media/goals/analytics-images/10-tag-filter.png" alt-text="Screenshot of filtering tabs." lightbox="../media/goals/analytics-images/10-tag-filter.png":::
