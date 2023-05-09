@@ -25,17 +25,23 @@ During OKR reviews, teams often need to embed external content from documents, s
 
 ## Using the Embed URL feature 
 
-1. In the dashboards tab, create a new widget. Select “Customized Embed”
+1. In the dashboards tab, create a new widget. Select “Customized Embed”.
+
  :::image type="content" source="../media/goals/custom-url-widget-images/custom-embed-widget.png" alt-text="Screenshot of highlighted custom ember widget in a review dashboard."::: 
+
 1. Enter a title for the widget and paste the URL. If the URL is approved, the user sees a preview of their URL. 
- :::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings.png" alt-text="Screenshot of the settings for the custom URL widget.":::
- :::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings-filled.png" alt-text="Screenshot of the custom url settings filled in.":::
 
- > [!NOTE]
- > If a URL is blocked, users can contact their global admin for the allowlisted domains. Currently, the global admin can control the allow list of domains from a list of 183 allowlisted domains.
- > :::image type="content" source="../media/goals/custom-url-widget-images/allow-list.png" alt-text="Screenshot of managing the allowlist for the embed dashboard." lightbox="../media/goals/custom-url-widget-images/allow-list.png":::
+:::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings.png" alt-text="Screenshot of the settings for the custom URL widget.":::
 
-3. After clicking save, the embedded URL will appear in the dashboard widget.
+:::image type="content" source="../media/goals/custom-url-widget-images/custom-url-settings-filled.png" alt-text="Screenshot of the custom url settings filled in.":::
+
+  > [!NOTE]
+  > If a URL is blocked, users can contact their global admin for the allowlisted domains. Currently, the global admin can control the allow list of domains from a list of 183 allowlisted domains.
+  >
+  > :::image type="content" source="../media/goals/custom-url-widget-images/allow-list.png" alt-text="Screenshot of managing the allowlist for the embed dashboard." lightbox="../media/goals/custom-url-widget-images/allow-list.png":::
+
+1. After clicking save, the embedded URL will appear in the dashboard widget.
+ 
  :::image type="content" source="../media/goals/custom-url-widget-images/example-custom-url-1.png" alt-text="Screenshot of the custom url widget appearing in the review dashboard.":::
 
 ## Embedding an image using Embed URL
@@ -49,7 +55,7 @@ To embed an image in the dashboard using the embed URL feature, upload the image
 To embed a Power BI Dashboard, follow the same steps above and add the Power BI URL to the embed widget. You can obtain the Power BI Dashboard URL from the “embed to a website or portal” option within the file menu on Power BI. 
 
 > [!IMPORTANT]
-> To view the data in the widget, users may have to login to Power BI a second time. 
+> To view the data in the widget, users may have to log in to Power BI a second time. 
 
 :::image type="content" source="../media/goals/custom-url-widget-images/example-custom-url-3.png" alt-text="Screenshot of the custom url widget connecting to a Power BI dashboard.":::
 
@@ -59,5 +65,5 @@ To embed a Power BI Dashboard, follow the same steps above and add the Power BI 
     1. URLs from most Microsoft products are supported. There are 183 domains currently available in total. 
     1. ADO embeds are currently not supported. 
 
-2. How do I allowlist a domain that isn't supported? 
-    1. Reach out to the global admin to enable and disable domains.  
+1. How do I allowlist a domain that isn't supported? 
+    1. Reach out to the global admin to enable and disable domains.
