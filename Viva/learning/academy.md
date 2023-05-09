@@ -83,7 +83,7 @@ Configure the academy by selecting the featured set and learning paths.
 1. Select the academy where you want the featured set to be displayed.
     1. This maps the featured set to the academy. The featured set is now activated.
     
-![Image of an academy with an activated featured set](/viva/media/learning/academy-4.png)
+![Screenshot of an academy with an activated featured set.](/viva/media/learning/academy-4.png)
 
 ### Add learning paths. 
 
