@@ -22,9 +22,9 @@ description: "Learn about analytics and the health of your OKRs with Viva Goals.
 
 # OKR program analytics
 
-As a Viva Goals user, you'll be able to see OKR program analytics for your organization and teams in your organization.  
+As a Viva Goals user, you're able to see OKR program analytics for your organization and teams in your organization.  
 
-To see analytics, navigate to the ‘Analytics’ tab on the organization or team page. The metrics are displayed for the selected time range. Use the drilldown option to see metric values for teams up to three levels deeper. 
+To see analytics, navigate to the ‘Analytics’ tab on the organization or team page. The metrics display for the selected time range. Use the drilldown option to see metric values for teams up to three levels deeper. 
 
 :::image type="content" source="../media/goals/analytics-images/1-vivagoals-analytics-navigation.png" alt-text="How to navigate to the analytics tab in Viva Goals" lightbox="../media/goals/analytics-images/1-vivagoals-analytics-navigation.png":::
 
@@ -129,6 +129,6 @@ You can also filter metric values by applying a tag filter. This enables slicing
 
 Because tags apply to OKRs, only metrics that have a context of OKRs get updated. The following metrics won't be affected by tag filter: Total users, Total teams, Monthly active users. 
 
-To learn more about how to create and use tags, visit: [Viva Goals Tags](tags.md)
+To learn more about how to create and use tags, visit [Viva Goals Tags](tags.md)
 
 :::image type="content" source="../media/goals/analytics-images/10-tag-filter.png" alt-text="Screenshot of filtering tabs." lightbox="../media/goals/analytics-images/10-tag-filter.png":::

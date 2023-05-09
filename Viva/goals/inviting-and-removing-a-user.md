@@ -27,7 +27,7 @@ To onboard your entire organization into Viva Goals, send an invitation to all t
 
 Before either of these procedures, you must sign in to Viva Goals using Azure Active Directory and create an account for your organization.  
 
-To sign-in to Viva Goals, visit: https://goals.microsoft.com/
+To sign in to Viva Goals, visit: https://goals.microsoft.com/
 
 ## Add users via invitation after you create an organization 
 
@@ -58,7 +58,7 @@ Another way to do this is to select **Users** from the menu and then select the 
 
 To invite a group, you can select the **Add members** button by following any one of the methods mentioned above. Enter the Azure AD group name in the popup that appears. An invitation is sent to the group email address. 
 
-Now, all the members in the group are eligible to sign-in. The user record will get added to the **All Users** list after they sign-in for the first time.
+Now, all the members in the group are eligible to sign in. The user record will get added to the **All Users** list after they sign in for the first time.
 
 > [!Note] 
 > Every time a user is added to the AAD group, they will automatically become eligible to log into Viva Goals. However, they will need to log in, at least once, to appear under the **All Users** list.
@@ -122,7 +122,7 @@ Admins can’t delete users who currently own any objective. To delete those use
     1. All the users in the group are eligible to log into Viva Goals but only the users who have logged in at least once will appear in the **All Users** list.
 
 1. **If users are added to or removed from the group, will the list automatically reflect the change with the respective organization in Viva Goals?**
-    1. When a user is added to the Azure AD group that was used to invite users to an organization in Viva Goals, the user becomes automatically eligible to sign-in but they won't appear in the 'All Users' list until they have logged in at least once. 
+    1. When a user is added to the Azure AD group that was used to invite users to an organization in Viva Goals, the user becomes automatically eligible to sign in but they won't appear in the 'All Users' list until they have logged in at least once. 
     1. When a user who appears in the **All Users** list is removed from the Azure AD group, this change is automatically reflected in Viva Goals as well.
 
 1. **How can I view a deactivated or deleted user?**
