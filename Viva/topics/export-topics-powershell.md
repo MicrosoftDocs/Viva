@@ -27,10 +27,10 @@ Using PowerShell, you can export topics created in Viva Engage (also known as Li
 
 ## Requirements
 
-To export the topics, you'll run a PowerShell script. Requirements to run the script are:
+To export the topics, you run a PowerShell script. Requirements to run the script are:
 
 - PowerShell 7 or later. To install the latest version of PowerShell, go to [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#installing-the-msi-package).
-- The user running the script will need to be a Viva Topics admin or Knowledge Manager.
+- The user running the script needs to be a Viva Topics admin or Knowledge Manager.
 
 ## Run the PowerShell script
 
@@ -46,7 +46,7 @@ Export-TopicLite -Upn "user@domain.com" -Path "C:\"
 
 ## Output
 
-The .csv file will include the following output:
+The .csv file includes the following output:
 
 - Display name
 - Topic type
