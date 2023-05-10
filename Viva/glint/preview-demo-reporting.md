@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 localization_priority: high pri
-ms.date: 10/05/2023
+ms.date: 05/05/2023
 ---
 
 # Preview demo data in reporting before your Viva Glint survey launches
