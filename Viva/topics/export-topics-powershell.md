@@ -48,7 +48,7 @@ Export-TopicLite -Upn "user@domain.com" -Path "C:\"
 
 The .csv file includes the following output:
 
-- Display name
+- Topic name
 - Topic type
 - Lifecycle status
 - Time last modified
