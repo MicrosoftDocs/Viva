@@ -67,7 +67,9 @@
         - name: Restrict access to topics 
           href: restrict-access-to-topics.md 
         - name: Manage topics at scale 
-          href: scale-topics.md             
+          href: scale-topics.md
+        - name: Export topics created in Viva Engage with PowerShell
+          href: export-topics-powershell.md             
 
     - name: Adoption
       items: 
