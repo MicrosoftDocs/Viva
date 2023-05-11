@@ -16,7 +16,8 @@ ms.service: viva
 localization_priority: high pri
 ms.date: 04/28/2023
 --- 
-Viva Glint’s position on expected response ratesExpected response rates
+
+# Viva Glint’s position on expected response rates
 
 Expect the unexpected! Response rates differ between surveys, industries, and populations. They can be filtered by teams, locations, or any demographic cut you've supplied in your Employee Attribute File.
 

@@ -1,5 +1,5 @@
 ---
-title:Create your Employee Attribute Template in Viva Glint
+title: Create your Employee Attribute Template in Viva Glint
 description: Learn how Viva Glint uses the attributes and hierarchies you provide about the people in your organization to surface meaningful and actionable insights. The template is the row of column headers; all the data you will provide.
 ms.author: SarahBerg
 author: SarahAnneBerg
