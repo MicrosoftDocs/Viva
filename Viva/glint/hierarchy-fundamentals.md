@@ -16,6 +16,7 @@ ms.service: viva
 localization_priority: high pri
 ms.date: 04/04/2023
 ---
+
 # Viva Glint organizational hierarchy fundamentals
 
 ## Understand and set up hierarchies

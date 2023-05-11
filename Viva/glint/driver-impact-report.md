@@ -18,7 +18,7 @@ ms.date: 04/28/2023
 ---
 
 
-# UUse the Viva Glint Driver Impact report
+# Use the Viva Glint Driver Impact report
 
 Drivers are the factors that affect employee engagement; a driver's *impact* is described as its correlation with employee engagement in the current world of work. Strengths and Opportunities (S&Os) for creating focus areas and action plans are derived from driver impact data.
 
