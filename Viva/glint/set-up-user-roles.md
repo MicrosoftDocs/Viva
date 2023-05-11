@@ -1,5 +1,5 @@
 ---
-title: Set up User Roles in Viva Glint
+title: Set up Viva Glint User Roles
 description: Admins can customize manager roles to provide specific permissions for viewing reports and comments.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/14/2023
 ---
 
-# Set up User Roles
+# Set up Viva Glint User Roles
 
 You can assign multiple roles with specific permissions - access to different segments of data and filter - within **User Roles** from the admin configuration dashboard. The User Roles and Access Template include prepopulated example roles and detailed instructions for two areas of setup. Use it to help plan your Microsoft Viva Glint programs.
 

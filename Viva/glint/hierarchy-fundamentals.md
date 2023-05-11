@@ -1,5 +1,5 @@
 ---
-title: Hierarchy fundamentals in Viva Glint
+title: Viva Glint organizational hierarchy fundamentals
 description: Learn how Viva Glint uses managerial hierarchy as the primary hierarchy ranking and processes the levels automatically, with a capacity of up to 10 levels.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -16,7 +16,7 @@ ms.service: viva
 localization_priority: high pri
 ms.date: 04/04/2023
 ---
-# Hierarchy fundamentals
+# Viva Glint organizational hierarchy fundamentals
 
 ## Understand and set up hierarchies
 

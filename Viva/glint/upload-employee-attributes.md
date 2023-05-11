@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 03/23/2023
 ---
 
-# Upload your employee attributes
+# Upload your employee attributes to Viva Glint
 
 User file imports help admins to keep users current with their organization's HRIS system. During the Platform Setup, you determine which upload method to use when uploading your employee attributes, such as manually or using a Secure File Transfer Protocol (SFTP).
 

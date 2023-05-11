@@ -1,5 +1,5 @@
 ---
-title: Expected response rates in Viva Glint
+title: Viva Glint’s position on expected response rates
 description: The response rate for recurring surveys is a percentage calculation of the number of people who completed the survey, divided by the number of people who received the survey invitation.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -16,8 +16,7 @@ ms.service: viva
 localization_priority: high pri
 ms.date: 04/28/2023
 --- 
-
-# Expected response rates
+Viva Glint’s position on expected response ratesExpected response rates
 
 Expect the unexpected! Response rates differ between surveys, industries, and populations. They can be filtered by teams, locations, or any demographic cut you've supplied in your Employee Attribute File.
 

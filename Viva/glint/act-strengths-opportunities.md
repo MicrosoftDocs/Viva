@@ -1,5 +1,5 @@
 ---
-title: Act on Strengths & Opportunities
+title: Use Viva Glint to act on Strengths and Opportunities
 description: The Strengths & Opportunities report is designed so a manager can focus on opportunities first - the items with the highest engagement impact – while incorporating a team's strengths.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/28/2023
 ---
 
-# Act on Strengths & Opportunities
+# Use Viva Glint to act on Strengths and Opportunities
 
 The Strengths & Opportunities (S&0) report is designed so a manager can focus on opportunities first, as they have the highest impact on employee engagement. For this reason, the option to *Take Action* appears by default in the Opportunities section. Taking action is initiated by:
 

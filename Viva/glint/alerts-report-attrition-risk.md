@@ -1,5 +1,5 @@
 ---
-title: Use the Alerts and Attrition Risk report
+title: Use the Viva Glint Alerts and Attrition Risk report
 description: The Alerts report finds statistically significant patterns, outliers, and deviations from past scores to surface populations or demographic groups that have opportunities for improvement.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/28/2023
 ---
 
-# Use the Alerts and Attrition Risk report
+# Use the Viva Glint Alerts and Attrition Risk report
 
 Microsoft Viva Glint's Alerts algorithm finds statistically significant patterns, outliers, and deviations from the scores in survey data and surfaces populations or demographic groups that have:
 

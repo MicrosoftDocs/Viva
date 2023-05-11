@@ -1,5 +1,5 @@
 ---
-title: Create the Employee Attribute File in Viva Glint
+title: Create your Employee Attribute File for Viva Glint
 description: Learn how Viva Glint uses your continuously updated employee data to surface meaningful and insightful reports used to increase employee happiness at work and ultimately improve business results. 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -16,9 +16,9 @@ ms.service: viva
 localization_priority: high pri
 ms.date: 04/04/2023
 ---
-# Create the Employee Attribute File
+# Create your Employee Attribute File for Viva Glint
 
-Ensuring your data file is configured and named correctly allows an import without errors. Should any errors occur, you receive an email from Microsoft Viva Glint with the information on what needs to be remedied before the file can be processed. 
+Ensuring your data file is configured and named correctly allows an import without errors. Should any errors occur, you receive an email from Microsoft Viva Glint with the information on what needs to be remedied before the file can be processed.
 
 ## Choose your file upload format
 

@@ -1,5 +1,5 @@
 ---
-title: Set up Team Conversations coaching for managers
+title: Set up Viva Glint Team Conversations coaching for managers
 description: Customizing Team Conversations for managers gives them an extra lift for taking action with their teams.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/21/2023
 ---
 
-# Set up Team Conversations coaching for managers
+# Set up Viva Glint Team Conversations coaching for managers
 
 The last survey setup page in Program Summary is the Coaching page. Managers who have Team Conversations enabled benefit from extra guidance made available within the setup of this page.
 

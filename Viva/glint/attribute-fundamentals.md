@@ -1,5 +1,5 @@
 ---
-title: Viva Glint Attribute fundamentals
+title: Viva Glint employee attribute fundamentals
 description: Learn how Viva Glint uses data about the people in your organization to convert survey feedback into insightful and action-oriented information to improve employee engagement.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/04/2023
 ---
 
-# Attribute fundamentals
+# Viva Glint employee attribute fundamentals
 
 ## Understand and set up attribute types
 

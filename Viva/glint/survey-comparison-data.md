@@ -1,5 +1,5 @@
 ---
-title: Choose your survey comparison data
+title: Choose your comparison data for Viva Glint reporting
 description: Choosing the right comparison data when setting up feedback reporting sets the right context for understanding strengths and opportunities.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/28/2023
 ---
 
-# Choose your survey comparison data
+# Choose your comparison data for Viva Glint reporting
 
 Choosing the right comparison data when considering survey results sets the right context for understanding strengths and opportunities and make the difference between effective progress and misdirected actions. Good comparison choices are crucial, so managers need to be certain to find the right comparison for understanding their engagement feedback.
 

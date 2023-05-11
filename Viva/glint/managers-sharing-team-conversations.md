@@ -1,5 +1,5 @@
 ---
-title: How managers and their teams use Team Conversations
+title: Managers and teams using Viva Glint Team Conversations
 description: Managers use their Team Conversations Presentation Kit to launch, send, and present Team Conversations to their team.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/21/2023
 ---
 
-# How managers and their teams use Team Conversations
+# Managers and teams using Viva Glint Team Conversations
 
 Managers use their Team Conversations Presentation Kit to launch, send, and present Team Conversations to their team. Team Conversations help you have a meaningful conversation that moves your team forward to achieve organizational goals.
 

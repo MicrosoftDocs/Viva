@@ -1,5 +1,5 @@
 ---
-title: Introduce survey taking to your employees
+title: Introduce Viva Glint survey taking to your employees
 description: To ensure you receive useful feedback, introduce your employees to the survey process and share troubleshooting solutions with them. 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/21/2023
 ---
 
-# Introduce survey taking to your employees
+# Introduce Viva Glint survey taking to your employees
 
 To ensure a successful survey process, we suggest you email your employees to let them know that they'll be asked to take a survey, explain why taking a survey is important, and share FAQs with them.
 

@@ -1,5 +1,5 @@
 ---
-title: Create Employee Attribute Template in Viva Glint
+title:Create your Employee Attribute Template in Viva Glint
 description: Learn how Viva Glint uses the attributes and hierarchies you provide about the people in your organization to surface meaningful and actionable insights. The template is the row of column headers; all the data you will provide.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 03/24/2023
 ---
 
-# Create your Employee Attribute Template
+# Create your Employee Attribute Template in Viva Glint
 
 The Employee Attribute Template is a guide and planning tool used to document your organization’s file format and attribute selections, before uploading your employee data to the Microsoft Viva Glint system. This essential step helps our team to know which attributes to expect so your data can be structured and surfaced correctly in reporting and role reporting.
 

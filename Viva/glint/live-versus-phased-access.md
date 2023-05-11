@@ -1,5 +1,5 @@
 ---
-title: Grant Live versus Phased access for results in Viva Glint
+title: Live versus Phased access in Viva Glint reporting
 description: Grant live or phased access to determine when managers have access to survey results.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/10/2023
 ---
 
-# Grant Live versus Phased access for results
+# Live versus Phased access in Viva Glint reporting
 
 ## Levels of reporting access
 

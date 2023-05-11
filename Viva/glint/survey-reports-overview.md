@@ -1,5 +1,5 @@
 ---
-title: Survey reports overview in Viva Glint
+title: Viva Glint’s Survey reports overview
 description: Learn how Viva Glint admins establish access to a wide array of reports for each specific manager.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/10/2023
 ---
 
-# Survey reports overview
+# Viva Glint’s Survey reports overview
 
 Admins establish access to survey reports in the Reporting step of Program Summary for each specific User Role. Defining access status is available for recurring and ad-hoc survey programs.
 

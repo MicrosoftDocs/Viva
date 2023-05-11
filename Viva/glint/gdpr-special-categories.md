@@ -1,5 +1,5 @@
 ---
-title: Understand GDPR and special categories of data collection
+title: Understand Viva Glint's GDPR and special categories compliance
 description: Learn about GDPR and the special categories of data collection here.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/10/2023
 ---
 
-# Understand GDPR and special categories of data collection
+# Understand Viva Glint's GDPR and special categories compliance
 
 At Microsoft Viva Glint, data privacy and trust are key priorities. Strict adherence to protecting the confidentiality of your people encourages elevated levels of survey participation with honest and useful feedback. Our products are [General Data Protection Regulation (GDPR) compliant](https://www.microsoft.com/professionalservices/gdpr)
 
