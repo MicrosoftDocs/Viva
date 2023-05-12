@@ -44,7 +44,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 1. In the Viva Insights analyst experience, select **Analysis**.
 2. Under **Power BI templates**, navigate to **Impact explorer** and select **Start analysis**. 
 
-[!INCLUDE [Setup steps](includes/setup-steps-meetingquery.md)]
+[!INCLUDE [Setup steps - impact](includes/setup-steps-impact.md)]
 
 ## Report settings
 
@@ -86,7 +86,7 @@ To more accurately reflect your organization, you can change these values. After
 Based on the **Impact areas** in the table below, the **Overview** page gives three estimates near the top of the page:
 
 * **Employee time that could be repurposed** – The total number of employee hours that could be repurposed if your organization did two things through Viva Insights: 
-    * Gave time back from meetings. We define this as shortening meetings and reducing long and large recurring meetings by half
+    * Gave time back from meetings. We define this as shortening meetings and reducing long and large recurring meetings by half.
     * Protected employee non-meeting time. We define this as using focus time, taking time to learn a new skill, or taking a break at lunch.
 * **Estimated weekly potential impact per employee** – This value is **Employee time that could be repurposed** averaged per week, per employee. Use this estimate to find out how an average employee might benefit from using Viva Insights each week.
 * **Estimated worth of employee time that could be repurposed** – This value is the employee time that could be repurposed multiplied by the average employee hourly rate. To change hourly rates, go to the **Settings** page.
@@ -173,7 +173,7 @@ Get an estimate of the hours employees could use to focus on individual tasks, d
 
 #### Understand the baseline 
 
-Identify how much unscheduled is time available per week, per employee. Unscheduled time is the number of working hours that aren’t:
+Identify how much unscheduled time is available per week, per employee. Unscheduled time is the number of working hours that aren’t:
 
 * Occupied by meetings.
 * Scheduled as focus time through Viva Insights. 
