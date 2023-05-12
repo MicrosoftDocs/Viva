@@ -1,5 +1,5 @@
 ---
-ms.date: 05/11/2023
+ms.date: 05/12/2023
 title: Impact explorer Power BI report
 description: Estimate the impact Viva Insights can make in your organization
 author: lilyolason
@@ -20,7 +20,7 @@ audience: Admin
 Using a template populated by Microsoft Viva Insights, the **Impact explorer** report estimates how taking actions facilitated by Viva Insights can positively impact your organization.
 
 >[!Note]
->This report provides estimates for several different scenarios. Depending on the page, "impact" can refer to how hours, funds, or employees would be affected by taking certain actions. For example, the impact of shortening meetings might be 23,000 hours in your organization. Or, the overall financial impact of repurposing hours in your organization could be $70 million.
+>This report provides impact estimates for several different scenarios. Depending on the page and topic, "impact" can refer to how employee hours or employees would be affected by taking certain actions. For example, the impact of reducing recurring long and large meetings could be 23,000 employee hours.
 
 
 With this report, you can:
@@ -31,11 +31,8 @@ With this report, you can:
 * Estimate how taking actions might impact your organization. These estimates are based on default values, which you can customize for your organization.
 * Track adoption progress for focus time kept by employees in Viva Insights.
 
-To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Recurring meeting audit** query in Viva Insights.
+To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Impact explorer** query in Viva Insights.
 
-[!INCLUDE [Demonstration](includes/demonstration.md)]
-
-<iframe title="Report Section" width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiODNjZmZhNTktOTI1NS00NjRkLThkZTQtYzEyNTNhNzkzMWUyIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
@@ -117,7 +114,7 @@ To view the top groups that could benefit from taking a particular action, selec
 Access other report pages in this section:
 
 * Foster an engaged workforce – Identify opportunities to enhance manager coaching and protect after-hours time.
-* Track progress for focus time – Track adoption and explore impact of booking and keeping focus time.
+* Track progress for focus time – Track adoption and explore the impact of booking and keeping focus time.
 
 #### More about our impact
 
@@ -169,7 +166,7 @@ Get an estimate of how much time employees could save if your organization made 
 
 ### Protect employee non-meeting time
 
-Get an estimate of the hours employees could use to focus on individual tasks, develop career skills, or take breaks.
+Get an estimate of the hours employees could use to focus on individual tasks, develop career skills, or take lunch breaks.
 
 #### Understand the baseline 
 
@@ -242,7 +239,7 @@ Track how your organization is adopting focus time over time, and identify pocke
 
 #### Are employees able to focus?
 
-Discover whether employees have enough time to focus or are double-booking their focus time. View the percentage of booked focus time that conflicts with meetings.
+Discover whether employees have enough time to focus or are double-booking their focus time. Select the information **(i)** icon to discover groups who have more focus-time/meeting conflicts.
 
 #### What’s the impact of focus time?
 
