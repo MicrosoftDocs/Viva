@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 05/12/2023
 title: Impact explorer Power BI report
 description: Estimate the impact Viva Insights can make in your organization
@@ -16,6 +17,8 @@ audience: Admin
 ---
 
 # Impact explorer report
+
+*Applies to: private preview customers only*
 
 Using a template populated by Microsoft Viva Insights, the **Impact explorer** report estimates how taking actions facilitated by Viva Insights can positively impact your organization.
 
