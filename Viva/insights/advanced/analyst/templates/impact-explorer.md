@@ -56,13 +56,13 @@ View and set the following parameters on the **Settings** page. Find **Settings*
 
 |Setting| Description|
 |-----|---------|
-|**Select the time period to measure**|Set the time period that you want to analyze—for example, 3/10/2022 – 9/10/2022.
+|**Select the time period to measure**|Set the time period that you want to analyze—for example, 3/10/2022 – 9/10/2022.|
 |**Select an organizational attribute to view the report by**|Set the primary group-by attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will group values by the new attribute.|
 |**Select optional filters to exclude employee groups**|Filter the measured employee population by selecting organizational attributes—for example, “Region”—and then selecting values for those attributes—for example, "Pacific."<br><br>When you use filters, the **Measured employees** count on the page’s top right will show a reduced number.|
 |**Average employee hourly rate**|Enter the average hourly rate for your employees. The report’s default rate is 75. To adjust the value, type in the average hourly rate in your organization or locate the number by moving the slicer. <br><br> What you enter here affects how the **Overview** page estimates the monetary worth of repurposed employee time.|
 |**Exclude weeks marked with a holiday indicator**|Select this control to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.|
 |**Exclude non-knowledge workers**|Select this control to exclude employees who spend a weekly average of no more than five hours in meetings, emails, chats, and calls. These employees are unlikely to be knowledge workers or they don’t use Outlook or Teams.|
-|**Select the preferred language for your report**|Pick your report’s language.
+|**Select the preferred language for your report**|Pick your report’s language.|
 
 ### About default values in Identify opportunities sections
 
