@@ -1,6 +1,6 @@
 ---
-ms.date: 5/12/2023
-title: "Add, edit, and remove cards from the Viva Connections dashboard"
+ms.date: 05/12/2023
+title: "Create a Viva Connections dashboard and add cards"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
@@ -66,13 +66,13 @@ The Viva Connections dashboard can be edited right from Microsoft Teams. You’l
 > - Image URLS in card properties must be an absolute URL for the link to work in the mobile app.
 > - It's recommended to limit the number of cards to about 20 on the dashboard for the best viewing experience.
 
-1.	Navigate to the Viva Connections app in Teams.
-2.	Next, select **Edit** in the dashboard section.
-3.	Select **+ Add a card**.
-4.	Select **Edit** (pencil icon) for each card to edit properties like the label, icon, image, and audience targeting settings where applicable.
-5.	Select **Delete** (trash can icon) to remove cards.
-6.	Preview the experience on all devices to ensure usability before publishing or republishing.
-7.	**Publish** or **Republish** when you are done to share the edits with others.
+1. Navigate to the Viva Connections app in Teams.
+2. Next, select **Edit** in the dashboard section.
+3. Select **+ Add a card**.
+4. Select **Edit** (pencil icon) for each card to edit properties like the label, icon, image, and audience targeting settings where applicable.
+5. Select **Delete** (trash can icon) to remove cards.
+6. Preview the experience on all devices to ensure usability before publishing or republishing.
+7. **Publish** or **Republish** when you are done to share the edits with others.
 
 ## How to edit the dashboard from SharePoint when you have a home site
 
@@ -183,7 +183,7 @@ You can choose the **Card designer** option to design your own card that include
 10. Set the number of buttons to be displayed under **Number of buttons**.
     For a medium-sized card, you can show only 1 button. For a large-sized card you can show 1 or 2 buttons.
 
-1. Enter values for the following properties of the button:
+11. Enter values for the following properties of the button:
     - **Title**: Title for the button.
     - **Action**: The result on clicking the button.
     - **Link**: The URL of the destination the user is directed to, on clicking the button.
@@ -211,8 +211,8 @@ A Teams app card allows you to create a card for an existing Teams app.
    ![Teams app property pane.](../media/connections/teamsapp.png)
 
 4. Select a size for the card from the **Card size** drop-down list.
-5.  Search for the Teams app you want to use, and then select it from the list.
-6.  Set the card-display options:
+5. Search for the Teams app you want to use, and then select it from the list.
+6. Set the card-display options:
     - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
     - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
 7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
@@ -241,15 +241,15 @@ Third-party cards and an entry point to browse more cards in the app store will 
 
    :::image type="content" alt-text="This screenshot is of the card toolbox section that displays third party cards." source="../media/connections/third-party-card-toolbox.png":::
 
-1.	While in edit-mode, select **+ Add** card from the dashboard.
-2.	You’ll see third-party options in the **Suggested cards** section. Select one of the cards that’s displayed or browse more cards by selecting **Add more cards**.
-3.	Request the cards you’d like to add to the toolbox and the requests will be sent to the App Catalog Admin for their approval.
-4.	You will receive an email to confirm if your request has been approved or denied.
-5.	Once your request has been approved, refresh the page  and you’ll see the new card display in the toolbox.
+1. While in edit-mode, select **+ Add** card from the dashboard.
+2. You’ll see third-party options in the **Suggested cards** section. Select one of the cards that’s displayed or browse more cards by selecting **Add more cards**.
+3. Request the cards you’d like to add to the toolbox and the requests will be sent to the App Catalog Admin for their approval.
+4. You will receive an email to confirm if your request has been approved or denied.
+5. Once your request has been approved, refresh the page  and you’ll see the new card display in the toolbox.
 
 #### Option 2: Acquire the app from a Microsoft AppSource or the SharePoint store
 
-You can acquire apps from third- party developers by browsing the [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=sharepoint) or [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) (recommended).
+You can acquire apps from third- party developers by browsing the [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=sharepoint) or [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) (recommended).
 
 - If you are building a dashboard, you can [request the app directly](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289), but you will need approval from an admin of the tenant-level app catalog to continue with the installation
 - If you are an **admin** of a tenant-level app catalog, you can deploy business apps directly.
@@ -358,14 +358,14 @@ Add a web link card when you want your users to go to an internal or external li
 6. Set the card-display options:
    - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
    - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
-3. Under **Thumbnail**, select one of the following options:
+7. Under **Thumbnail**, select one of the following options:
    - **Auto-selected**: This option when chosen automatically displays an image at the top of your card that comes from your page.
    - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
-4. Under **Card icon**, select one of the following options that enable the icon to be displayed on the left side of the card title:
+8. Under **Card icon**, select one of the following options that enable the icon to be displayed on the left side of the card title:
    - **Auto-selected**: This option when chosen automatically displays a built-in icon associated with the page.
    - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
-    - **Icon**: This option when chosen enables the **Change** button.  You can select this button to choose from a set of stock icons.
-5. If you want to target your card to specific audiences (that is, only the audience you specify will see the card in the dashboard), select one or more groups to target from the **Audiences to target**. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+   - **Icon**: This option when chosen enables the **Change** button.  You can select this button to choose from a set of stock icons.
+9. If you want to target your card to specific audiences (that is, only the audience you specify will see the card in the dashboard), select one or more groups to target from the **Audiences to target**. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 ## Apply audience targeting to cards
 
@@ -397,7 +397,7 @@ After creating or editing cards on the dashboard, make sure you preview the expe
 - Buttons and links are active and go to their intended destinations.
 - Labels and description text are helpful, easy to read, and make sense for the intended audience.
 
-#### To preview different audiences:
+#### To preview different audiences
 
    1. While in edit mode, select **Preview** on the top right.
 
@@ -411,12 +411,12 @@ After creating or editing cards on the dashboard, make sure you preview the expe
 
       ![Audience targeting panel in preview mode.](../media/connections/preview-dash-full-page.png)
 
-   - Cards that targeted to a specific group will display.
-   - When one or more audiences are selected, cards that *do not* have audience targeting applied will also display.
-   - If no audiences are targeted, only cards that *are not* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
-   - If you are not part of one of the audiences you've selected, you will only see cards that are not audience targeted. If none are audience targeted, you won't see any cards.
+- Cards that targeted to a specific group will display.
+- When one or more audiences are selected, cards that *do not* have audience targeting applied will also display.
+- If no audiences are targeted, only cards that *are not* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
+- If you are not part of one of the audiences you've selected, you will only see cards that are not audience targeted. If none are audience targeted, you won't see any cards.
 
-   #### Examples:
+#### Examples
 
    In the following example, the preview is set for mobile devices and highlights the different views that can be created from a single dashboard.
 
