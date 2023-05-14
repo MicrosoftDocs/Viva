@@ -2,6 +2,50 @@
 
 
 
+## Week of May 08, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/8/2023 | [Manage Academies in Viva Learning](/viva/learning/academy) | added |
+| 5/8/2023 | [Overview of Viva Connections for Education](/viva/connections/overview-viva-connections-education) | modified |
+| 5/8/2023 | Employee experience Power BI template from Organization trends | removed |
+| 5/8/2023 | Employee wellbeing in Viva Insights | removed |
+| 5/8/2023 | Manager connection in Viva Insights | removed |
+| 5/8/2023 | Changes to Viva Insights manager features | removed |
+| 5/8/2023 | Meeting effectiveness in Viva Insights | removed |
+| 5/8/2023 | FAQ for My organization insights | removed |
+| 5/8/2023 | Organization trends | removed |
+| 5/8/2023 | Setup for manager and leader insights | removed |
+| 5/8/2023 | Shared no-meeting day plan | removed |
+| 5/8/2023 | FAQ for Teamwork habits | removed |
+| 5/8/2023 | Teamwork habits in Viva Insights | removed |
+| 5/8/2023 | [Manage academies in Viva Learning](/viva/learning/academy) | modified |
+| 5/8/2023 | Effective meetings in Viva Insights | removed |
+| 5/8/2023 | Focus mode in Viva Insights | removed |
+| 5/8/2023 | Inspiration library with Viva Insights | removed |
+| 5/8/2023 | Personal insights introduction | removed |
+| 5/8/2023 | Shared meeting plan in Viva Insights | removed |
+| 5/8/2023 | Viva Insights Headspace | removed |
+| 5/8/2023 | Viva Insights Home page in Teams | removed |
+| 5/8/2023 | Praise with Viva Insights | removed |
+| 5/8/2023 | Protect time with Viva Insights | removed |
+| 5/8/2023 | Reflect with Viva Insights | removed |
+| 5/8/2023 | Stay connected with Viva Insights | removed |
+| 5/8/2023 | Virtual commute with Viva Insights | removed |
+| 5/8/2023 | FAQ for Viva Insights in Teams | removed |
+| 5/8/2023 | Configure Viva Insights | removed |
+| 5/8/2023 | Viva Insights app | removed |
+| 5/9/2023 | [Viva Connections analytics](/viva/connections/viva-connections-analytics) | modified |
+| 5/9/2023 | [Custom embed URL widget](/viva/goals/custom-url-widget) | modified |
+| 5/9/2023 | [Inviting and removing a user](/viva/goals/inviting-and-removing-a-user) | modified |
+| 5/9/2023 | [OKR Program Analytics](/viva/goals/viva-goals-analytics) | modified |
+| 5/9/2023 | [Adoption resources for Microsoft Viva Topics](/viva/topics/adoption-resources) | modified |
+| 5/10/2023 | [Export topics created in Viva Engage with PowerShell](/viva/topics/export-topics-powershell) | added |
+| 5/12/2023 | [Topic discovery and curation in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery-curation) | modified |
+| 5/12/2023 | [Impact explorer Power BI report](/viva/insights/advanced/analyst/templates/impact-explorer) | added |
+
+
 ## Week of May 01, 2023
 
 
@@ -150,12 +194,3 @@
 | 4/14/2023 | [How Viva Insights automatically books your time](/viva/insights/personal/reference/automatic-time-booking) | added |
 | 4/14/2023 | [Meeting and communications in Viva Insights reference](/viva/insights/personal/reference/insight-calculations) | added |
 | 4/14/2023 | [Null values after filtering Teams channel metrics](/viva/insights/tutorials/null-value-interaction-type) | added |
-
-
-## Week of April 03, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/6/2023 | [Viva Goals Setup and Administration Deployment Guide](/viva/goals/viva-goals-deployment-guide) | added |
-| 4/6/2023 | [Azure DevOps integration](/viva/goals/azure-devops-integration) | modified |
