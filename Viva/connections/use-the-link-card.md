@@ -37,7 +37,7 @@ Learn more about how you can use the Web link card to integrate SharePoint conte
 - [Link to a SharePoint page](#link-to-a-sharepoint-page)
 - [Link to PowerApps](#link-to-powerapps)
 - [Link to a Form](#link-to-a-form)
-- [Link to a Viva Engage community](#link-to-a-yammer-community)
+- [Link to a Viva Engage community](#link-to-a-viva-engage-community)
 - [Link to Stream content](#link-to-stream-content)
 - [Considerations for the navigation experience](#considerations-for-the-navigation-experience)
 
