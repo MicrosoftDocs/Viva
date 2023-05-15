@@ -32,6 +32,7 @@ Elements of the new Viva Connections home experience can be customized to fit yo
 
 >[!NOTE]
 > - If you already have Viva Connections set up, the new home design uses current content and settings (like audience targeting) from your Dashboard and Resources and there will not be any impact to the mobile experience. 
+> - If your organization has a home site, you can choose to use it as the default home experience. The ability to choose the default experience will become available when the feature rolls out in November. More details will be shared soon.
 > - If you haven’t set up Viva Connections yet, the default experience includes cards on the dashboard but otherwise doesn’t impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new home experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams. 
 > - You must have member level permissions or higher to edit the new desktop experience.
@@ -173,7 +174,7 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 
 ## Customize resources
 
-Resources gives access to the most popular portals and destinations at your organization. The Resources section displays at the bottom of the home experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled. 
+Resources give access to the most popular portals and destinations at your organization. The Resources section displays at the bottom of the home experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled. 
 
 >[!NOTE]
 > Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and cannot be edited. 
