@@ -43,7 +43,7 @@ The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin 
 - Viva Insights - [Insights Business Leader](/azure/active-directory/roles/permissions-reference#insights-business-leader), [Insights Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator), and [Insights Analyst](/azure/active-directory/roles/permissions-reference#insights-analyst)
 - SharePoint - [SharePoint admin](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
 - Teams - [Teams admin](/azure/active-directory/roles/permissions-reference#teams-administrator)
-- Viva Engage - Engage admin ([Yammer administrator](/azure/active-directory/roles/permissions-reference#yammer-administrator))
+- Viva Engage - Engage admin ([Viva Engage administrator](/azure/active-directory/roles/permissions-reference#yammer-administrator))
 - Answers in Viva Engage - Answers admin ([Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-manager))
 
 Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
@@ -145,12 +145,12 @@ For more information about admin settings in the admin dashboard, see [Navigate 
 ### Viva Engage
 | Role         | What this role does in Viva |
 |--------------|-----------|
-|**Engage admin** <br> Assigned by Microsoft 365 global admin|Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Yammer administrators in AAD as Viva Engage is powered by Yammer technology. |
+|**Engage admin** <br> Assigned by Microsoft 365 global admin|Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Viva Engage administrators in AAD as Viva Engage is powered by Viva Engage technology. |
 |**Answers admin** <br> Assigned by Microsoft 365 global admin| Sets up Answers within the Viva Engage application. This role is designated by adding a Knowledge manager role in AAD. All Knowledge managers have Answers admin privileges. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. Find more information about assigning an [AAD role to a group](/azure/active-directory/roles/groups-pim-eligible) or how to [create a role-assignable group](/azure/active-directory/roles/groups-create-eligible).|
 |**Corporate communicator**<br>Assigned by the Engage admin or a fellow corporate communicator.  |Can create or manage campaigns and define leaders and audiences in an organization.|
 |**Teams admin** <br>Assigned by Microsoft 365 global admin|Uses the Teams admin center to create setup policies to install the app and assign users. |
 
-For more information, see [Manage Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins).
+For more information, see [Manage Viva Engage admins](/yammer/manage-yammer-users/manage-yammer-admins).
 
 #### Viva Sales
 You need to be a Microsoft 365 administrator to deploy and install the Viva Sales add-in for Outlook. You need to be a Teams administrator to deploy and install Viva Sales for Teams.

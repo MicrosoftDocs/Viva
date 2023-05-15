@@ -48,7 +48,7 @@ This employee experience app in Microsoft Teams connects employees with tools, n
 [Get more information on Viva Connections](/viva/connections/viva-connections-overview)
 
 #### Viva Engage
-This employee experience app brings people together across the organization to connect with leaders, coworkers, and communities. It can also help people  crowdsource answers and ideas, share their work and experience, and find belonging at work. The Viva Engage app integrates these experiences into Microsoft Teams and introduces new features including storyline and stories. These new features will also appear in the Yammer web, desktop and mobile apps, so no matter where an employee visits, they’ll see the same content and feature set.
+This employee experience app brings people together across the organization to connect with leaders, coworkers, and communities. It can also help people  crowdsource answers and ideas, share their work and experience, and find belonging at work. The Viva Engage app integrates these experiences into Microsoft Teams and introduces new features including storyline and stories. These new features will also appear in the Viva Engage web, desktop and mobile apps, so no matter where an employee visits, they’ll see the same content and feature set.
 
 [Get more information on Viva Engage](/viva/engage/overview)
 

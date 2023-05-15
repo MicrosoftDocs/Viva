@@ -226,17 +226,17 @@ Each app has its own technical requirements before it can be customized and shar
 - **Technical requirements:** 
     - Microsoft 365 E3 or E5 license 
     - Viva Suite or Viva Engage license  
-    - Yammer 
+    - Viva Engage 
 - **Impact on end users:** 
      - Connect and engage with leaders, colleagues, and communities
     - Viva Engage creates opportunities for asking questions and sharing knowledge, attending virtual events, building social capital, and extending employee networks
 - **Admins and roles:** 
-    - Yammer Verified admin 
+    - Viva Engage Verified admin 
     - Microsoft Teams admin 
     - Community leaders and stakeholders from employee resource groups 
 - **Change management considerations:** 
     - Microsoft Teams adoption (if you aren't already using Teams) 
-    - Yammer adoption if your organization is new to Yammer 
+    - Viva Engage adoption if your organization is new to Viva Engage 
 
 ### Viva Goals 
 
