@@ -32,7 +32,12 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 <iframe title="Report Section" width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiODNjZmZhNTktOTI1NS00NjRkLThkZTQtYzEyNTNhNzkzMWUyIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
-[!INCLUDE [Prerequisites](includes/prerequisites.md)]
+## Prerequisites
+
+Before you can run the queries and populate the report in Power BI, you’ll need to:
+
+* Be assigned the role of **Insights Analyst** in Viva Insights.
+* Have the December 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/) to download and install the latest version.
 
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
@@ -102,5 +107,15 @@ To find the **Settings** page, select the **Settings** link in the top-right cor
 |<ul><li>**Filter by average meeting series duration** <li>**Filter by average meeting series attendance**|Filter which meetings appear in your report by setting average duration and attendance. The report gets these averages from all instances of a recurring meeting that happened between the two dates you set earlier.<br><br>For example, if you only want your report to include meetings between 30 minutes and 60 minutes on average, you’d set the low end of the slider to “30” and the high end of the slider to “60.“ Similarly, if you only want your report to include meetings with between 2 and 10 people, you’d set the low end of the slider to “2” and the high end of the slider to “10.”
 |**Search meeting series name**| Filter which meetings appear in your report based on a keyword in their titles. For example, if you only want to include meetings that have “monthly” in the title, you’d add “monthly” as a keyword in the search bar here. <br><br>If the meeting organizer modifies the title, the report uses the most recent title for the meeting series name. The report allows one keyword at a time.|
 |**Don’t include in the report**|Select the check box to leave out meetings that are probably blocks on people’s calendars. These blocks might be no-meeting days or similar events where people accept the invitation, but no one joined the meeting on Teams for the entire series. Deselect this box to include all meetings.
+  
+## Frequently asked questions about the Recurring meeting audit
+
+### Q1 Why am I unable to see Meeting series titles on the Meeting view?
+
+This is because Subject suppression is turned on. Subject suppression prevents email subject lines and meeting titles from being displayed in query results.  When suppression is turned on, all data except the Meeting series title will be displayed, but you can still get details on who the meeting scheduler is. A message will appear on the Meeting view tab if Meeting series title is hidden due to suppression. An admin can modify the suppression settings within the privacy settings.
+
+### Q2 What does it mean when "Unknown" appears as the scheduler?
+
+It means there aren't any organizational attributes connected to the scheduler. Some common reasons for this are there is incomplete data in the HR file, the scheduler doesn't have a Viva Insights license, or the scheduler is excluded from the current partition you're using.
 
 [!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
