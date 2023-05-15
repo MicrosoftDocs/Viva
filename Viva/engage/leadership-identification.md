@@ -29,7 +29,7 @@ Leadership identification and audience management are a prerequisite for other l
 
 ## Identify leaders
 
-Engage admins, corporate communicators, Yammer verified admins, and Yammer network admins can identify leaders in Viva Engage. Leaders can be identified individually or by importing groups of leaders.
+Engage admins, corporate communicators, Viva Engage verified admins, and Viva Engage network admins can identify leaders in Viva Engage. Leaders can be identified individually or by importing groups of leaders.
 
 1. In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Viva Engage admin center.
 
@@ -51,7 +51,7 @@ Engage admins, corporate communicators, Yammer verified admins, and Yammer netwo
 
 ## Manage a leader's audience
 
-After a leader is identified, the next step is to manage the leader’s audience. This task is for the Engage admin, Yammer verified admin, Yammer network admin, corporate communicator, and leader or leader's delegate managers.  
+After a leader is identified, the next step is to manage the leader’s audience. This task is for the Engage admin, Viva Engage verified admin, Viva Engage network admin, corporate communicator, and leader or leader's delegate managers.  
 
 On the **Manage leaders** list, find the leader’s row and select the pencil icon next in it to edit.
 
@@ -62,7 +62,7 @@ The **Manage audiences** page appears, where you configure the leader’s audien
 - **Entire organization:** The leader’s posts and announcements reach all users in the Viva Engage/Yammer network, excluding guests. To enable a leader to share and reach the entire organization, enable the **Entire organization** toggle. 
 
    > [!NOTE]
-   > Only Engage admins, Yammer verified admins, Yammer network admins, and corporate communicators can allow leaders to reach the entire organization. Leaders and delegate managers can't enable this option.  
+   > Only Engage admins, Viva Engage verified admins, Viva Engage network admins, and corporate communicators can allow leaders to reach the entire organization. Leaders and delegate managers can't enable this option.  
 
 - **Audience:** The audience represents people that the leader wants to connect with most directly. This often means people in the leader’s immediate organization. To define an audience, use the search box to add users or groups.
 
@@ -90,7 +90,7 @@ A leader follows these steps to configure delegates:
 
 4. Choose the type of delegate:
 
-    - A *delegate* can create posts on behalf of the user in any public or private Yammer community as long as both the delegate and the user have access to it.
+    - A *delegate* can create posts on behalf of the user in any public or private Viva Engage community as long as both the delegate and the user have access to it.
 
     - A *delegate manager* can similarly create posts. A delegate manager can also configure a leader’s audience and assign more delegates or delegate managers.
 
@@ -133,7 +133,7 @@ Learn more about [analytics for leaders](/Viva/engage/analytics), which empower 
 
 **What license is required for a leader?**
 
-Any user with a license to Yammer, Viva Engage Core, or the Viva Engage Communities and Communications service plan can be identified as a leader. Identified leaders with a license to the Viva Engage Communities and Communications service plan have access to storyline announcements, leadership corner, campaigns, and AMAs. Identified leaders who don’t have a license to the Viva Engage Communities and Communications service plan only have access to their storyline and stories.
+Any user with a license to Viva Engage, Viva Engage Core, or the Viva Engage Communities and Communications service plan can be identified as a leader. Identified leaders with a license to the Viva Engage Communities and Communications service plan have access to storyline announcements, leadership corner, campaigns, and AMAs. Identified leaders who don’t have a license to the Viva Engage Communities and Communications service plan only have access to their storyline and stories.
 
 **Why is leader identification and audience management important?**
 

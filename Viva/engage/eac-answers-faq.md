@@ -52,7 +52,7 @@ Answers uses Viva Topics to organize question conversations. Answers works for u
 
 **Why can’t users in my organization access Answers?**
 
-Check that your Yammer network meets the [technical requirements](/viva/engage/eac-answers-overview-setup), and your users have the correct license to access Answers. Your Yammer network must be in Native mode and have legacy Yammer topics migrated to Viva Topics.
+Check that your Viva Engage network meets the [technical requirements](/viva/engage/eac-answers-overview-setup), and your users have the correct license to access Answers. Your Viva Engage network must be in Native mode and have legacy Viva Engage topics migrated to Viva Topics.
 
 ### See also
 

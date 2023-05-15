@@ -30,19 +30,19 @@ The following roles can access the Viva Engage admin center: Global admin, Engag
 
 No, the configurations visible for each role in the Engage admin center depend on the administrative permissions for that role and the license held by the tenant. For example, a corporate communicator doesn't have access to governance and compliance-related settings. A corporate communicator can't create or manage campaigns if their tenant doesn't have a Viva Engage premium license.  
 
-**How are the new Engage admin roles related to existing Yammer and Azure Active Directory (Azure AD) roles?**
+**How are the new Engage admin roles related to existing Viva Engage and Azure Active Directory (Azure AD) roles?**
 
 The following figure represents the link and hierarchy:
 
-[![Chart shows the hierarchy of connections between existing Yammer and Azure AD.](/viva/media/engage/admin/herarchy-admin.png)](/viva/media/engage/admin/herarchy-admin.png#lightbox)
+[![Chart shows the hierarchy of connections between existing Viva Engage and Azure AD.](/viva/media/engage/admin/herarchy-admin.png)](/viva/media/engage/admin/herarchy-admin.png#lightbox)
 
-**Can I access the Yammer admin center for certain Engage admin configurations even if my organization doesn’t currently use Yammer?**
+**Can I access the Viva Engage admin center for certain Engage admin configurations even if my organization doesn’t currently use Viva Engage?**
 
-Yes, if you hold the following admin roles: Global admin and Engage admin. Because Viva Engage is powered by Yammer technology, you still use certain admin configurations in Yammer to set up Viva Engage for your organization. [Learn more about Yammer’s admin center](/Yammer/).
+Yes, if you hold the following admin roles: Global admin and Engage admin. Because Viva Engage is powered by Viva Engage technology, you still use certain admin configurations in Viva Engage to set up Viva Engage for your organization. [Learn more about Viva Engage’s admin center](/Yammer/).
 
-**When admin changes are made in Yammer, are they reflected in Viva Engage?**
+**When admin changes are made in Viva Engage, are they reflected in Viva Engage?**
 
-Yes, because Viva Engage is powered through Yammer technology. Changes made in the Yammer admin center affect Viva Engage.  
+Yes, because Viva Engage is powered through Viva Engage technology. Changes made in the Viva Engage admin center affect Viva Engage.  
 
 ## See also
 

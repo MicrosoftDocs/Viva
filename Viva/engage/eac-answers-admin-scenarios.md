@@ -30,7 +30,7 @@ Administration of Answers is for the Microsoft 365 Global admin, the Engage admi
 
 The following table shows the actions available to users and admins.
 
-|Answers action|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Yammer) admin|Answers admin (Knowledge manager)|Microsoft 365 Global admin|
+|Answers action|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Viva Engage) admin|Answers admin (Knowledge manager)|Microsoft 365 Global admin|
 |--------------------|-----------------|----------------|----------|------------|-----------|
 |**Answer, upvote, and react to a question thread**|Questions they're mentioned in |✓|✓|✓|✓|
 |**Receive notifications in the Viva Engage Teams app**|Questions they're mentioned in |✓|✓|✓|✓|
@@ -122,7 +122,7 @@ The following metrics are available for Global Answers analytics:
 - **Top questions across your organization**: A table of the top questions with the most views, votes, reactions, and answers across your org.
 - **User engagement distribution**: A distribution of all users split by active engagements (ask, answer, vote, reactions, comments) and passive engagements (question views).
 
-**Global time saved** shows the time saved across the organization. This total is based on Yammer research that shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.
+**Global time saved** shows the time saved across the organization. This total is based on Viva Engage research that shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.
 
 >[!NOTE]
 > Analytics aren't live. They're updated every 24 hours.

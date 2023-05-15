@@ -32,10 +32,10 @@ Your Viva Engage tenant should be aligned to native mode before you invite guest
 
 If your organization is ready to start inviting guests to Viva Engage communities, configure the following settings.
 
-Engage admins can enable guest access on their networks from the Viva Engage admin center. Within the Viva Engage admin center, navigate to the **Compliance & Governance** tab and click on **Manage data**. You will be redirected to the Yammer admin webpage, where you can enable guest access by navigating to **Security settings** and selecting **External Messaging**.
+Engage admins can enable guest access on their networks from the Viva Engage admin center. Within the Viva Engage admin center, navigate to the **Compliance & Governance** tab and click on **Manage data**. You will be redirected to the Viva Engage admin webpage, where you can enable guest access by navigating to **Security settings** and selecting **External Messaging**.
 
 > [!div class="mx-imgBorder"]
-> :::image type="content" source="../media/azure-ad-b2b-guests-engage-external-messaging.png" alt-text="Screen shot shows the Yammer admin panel external user settings.":::
+> :::image type="content" source="../media/azure-ad-b2b-guests-engage-external-messaging.png" alt-text="Screen shot shows the Viva Engage admin panel external user settings.":::
 
 This setting is a Viva Engage tenant-wide setting. It enables community admins to add guests to any Viva Engage community in the network. You control guest access to individual Viva Engage communities [by using sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
@@ -99,7 +99,7 @@ Guest access is included with all Microsoft 365 Business Standard, Microsoft 365
 We're working hard to bring all Viva Engage functionality to the new B2B guests in Viva Engage. Here's the list of features still in development:
 
 - **Personal email, non-Microsoft 365 business email, and phone number-based legacy accounts** – Users with Microsoft 365 Business email accounts can be added as guests. Other email domains like Gmail and Yahoo mail aren't yet supported. 
-- **Cross-Geography guests** – Currently, organizations can host Viva Engage in two data centers, Europe and North America. Users can add guests from the same geography. Check [the Yammer public roadmap](https://go.microsoft.com/fwlink/?linkid=2132131) to see timelines for cross-geography support.
+- **Cross-Geography guests** – Currently, organizations can host Viva Engage in two data centers, Europe and North America. Users can add guests from the same geography. Check [the Viva Engage public roadmap](https://go.microsoft.com/fwlink/?linkid=2132131) to see timelines for cross-geography support.
 
 - **Private messages** – Private messages are disabled for B2B guests in Viva Engage.
 - **Live events** – Currently, guests can't participate in live events because guests aren't yet supported by Microsoft Stream. To learn when these features may become available, see the [Microsoft 365 roadmap](https://go.microsoft.com/fwlink/?linkid=2132131).

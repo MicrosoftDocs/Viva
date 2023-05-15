@@ -33,8 +33,8 @@ You can tell that a community in Viva Engage is connected to Microsoft 365 Group
 Communities that are connected to Microsoft 365 have many advantages over communities that aren't connected:
 
 - From within Viva Engage, you can access Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, and a plan in Planner. Microsoft 365 Groups also includes integration with services like Power BI and Stream.
-- Create and host live events. ([Live events in Yammer](/yammer/manage-yammer-groups/yammer-live-events))
-- Use Microsoft 365 connectors to add apps to classic Yammer. ([Add apps to Yammer](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
+- Create and host live events. ([Live events in Viva Engage](/yammer/manage-yammer-groups/yammer-live-events))
+- Use Microsoft 365 connectors to add apps to classic Viva Engage. ([Add apps to Viva Engage](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
 - Manage who can create Microsoft 365 Groups. ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
 - Use dynamic groups to automatically update group membership from Azure Active Directory. ([Create a dynamic group](/yammer/manage-yammer-groups/create-a-dynamic-group))
 - Edit group membership from various apps. Changes to membership made in one Microsoft 365 app apply to other Microsoft 365 apps.
@@ -49,9 +49,9 @@ Communities that are connected to Microsoft 365 have many advantages over commun
 
 To use communities connected to Microsoft 365 Groups in Viva Engage, make sure your Viva Engage network meets the following requirements:
 
-- You must [enforce Microsoft 365 identity](/yammer/configure-your-yammer-network/enforce-office-365-identity) for Yammer users. When you first enforce Microsoft 365 identity, there's a seven-day trial period, after which the **Status** of your  **Microsoft 365 Identity Enforcement** changes to **Committed**.
+- You must [enforce Microsoft 365 identity](/yammer/configure-your-yammer-network/enforce-office-365-identity) for Viva Engage users. When you first enforce Microsoft 365 identity, there's a seven-day trial period, after which the **Status** of your  **Microsoft 365 Identity Enforcement** changes to **Committed**.
 
-- Since October 16, 2018, all Yammer networks must be in a 1:1 network configuration. This means that you have one Yammer network that's associated with one Office 365 tenant. For more information, see [FAQ: Consolidating multiple Yammer networks](/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks).
+- Since October 16, 2018, all Viva Engage networks must be in a 1:1 network configuration. This means that you have one Viva Engage network that's associated with one Office 365 tenant. For more information, see [FAQ: Consolidating multiple Viva Engage networks](/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks).
 
 >[!NOTE]
 > If you want to ensure that all of your communities are connected, align your network to Native Mode. To learn more, see [Overview of Native Mode](/yammer/configure-your-yammer-network/overview-native-mode).
@@ -77,7 +77,7 @@ Here's how the process works after your network becomes eligible for connected g
 
 When you create a Viva Engage community connected to Microsoft 365 Groups, the new Microsoft 365 group is created, and a new SharePoint site and document library, OneNote notebook, and Planner are created. These resources are in addition to your regular Viva Engage community features. You can access these resources from the Viva Engage community page in Viva Engage.
 
-If your network has the Yammer files stored in the SharePoint feature that began rollout in December 2018, new files added to the group are stored in SharePoint. See [How do I tell where my Yammer files are stored?](https://support.office.com/article/7a647cb4-6005-4350-a258-68f00a5f7b29)
+If your network has the Viva Engage files stored in the SharePoint feature that began rollout in December 2018, new files added to the group are stored in SharePoint. See [How do I tell where my Viva Engage files are stored?](https://support.office.com/article/7a647cb4-6005-4350-a258-68f00a5f7b29)
 
 >[!IMPORTANT]
 > If you create a Microsoft 365 group from any other app, such as Outlook, it won't include Viva Engage. For the connected group to include Viva Engage, you must create the group in Viva Engage.
@@ -118,7 +118,7 @@ A: No. Groups created by people who are restricted from creating Microsoft 365 g
   
 ### Q: If I have multiple Viva Engage networks that are mapped to Microsoft 365, will the Microsoft 365-connected Viva Engage groups work?
   
-A: No. The Microsoft 365-connected Viva Engage groups experience works only for a Microsoft 365 tenant that's associated with a single Viva Engage network. See [Network migration: Consolidate multiple Yammer networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks). This setup is required for all Yammer networks as of October 16, 2018.
+A: No. The Microsoft 365-connected Viva Engage groups experience works only for a Microsoft 365 tenant that's associated with a single Viva Engage network. See [Network migration: Consolidate multiple Viva Engage networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks). This setup is required for all Viva Engage networks as of October 16, 2018.
   
 ### Q: I don't want my existing groups to get connected to Microsoft 365. Can I turn this off?
   
@@ -172,7 +172,7 @@ A: Because the upper limit of membership depends on how members interact with th
   
 A: All the Microsoft 365 content associated with the community is deleted. This content includes the document library, OneNote notebook, and Planner plans. These resources are "soft-deleted," and can be restored by your administrator for up to 30 days.
 
-For more information, see [Delete a community or group in Yammer](https://support.office.com/article/2a70a1f9-d081-488e-9fc7-0f7684e5a58b).
+For more information, see [Delete a community or group in Viva Engage](https://support.office.com/article/2a70a1f9-d081-488e-9fc7-0f7684e5a58b).
 
 ### Q: Does the Microsoft 365 group expiration policy apply to Viva Engage communities connected to Microsoft 365 Groups?
 
@@ -182,14 +182,14 @@ A: Yes. When a Microsoft 365 group is deleted because it expired, the Viva Engag
 
 A: Yes. Any Microsoft 365-connected Viva Engage community can be converted to dynamic membership. See [Create a dynamic group](/yammer/manage-yammer-groups/create-a-dynamic-group) for requirements and limitations.
   
-### Q: In a connected group, I see there are Yammer Files and a SharePoint Online Doc Library. Are these the same thing?
+### Q: In a connected group, I see there are Viva Engage Files and a SharePoint Online Doc Library. Are these the same thing?
   
-A: No, these things are separate locations to store files. Members of the group have access to both locations. Files that are attached to Yammer messages or uploaded in a Yammer **Files** page are stored in Yammer cloud storage. Files that are uploaded directly to the group's SharePoint document library are stored in SharePoint.
+A: No, these things are separate locations to store files. Members of the group have access to both locations. Files that are attached to Viva Engage messages or uploaded in a Viva Engage **Files** page are stored in Viva Engage cloud storage. Files that are uploaded directly to the group's SharePoint document library are stored in SharePoint.
 
-We recommend that you store content that needs the structure and management capabilities of SharePoint in the group document library. For easy sharing of images and documents or to stream videos in Yammer, we recommend that you continue to use the default Yammer cloud storage.
+We recommend that you store content that needs the structure and management capabilities of SharePoint in the group document library. For easy sharing of images and documents or to stream videos in Viva Engage, we recommend that you continue to use the default Viva Engage cloud storage.
 
 >[!NOTE]
-> As of December 2018, we are in process of rolling out Yammer files stored in SharePoint. When your network gets this new feature, new files uploaded to Yammer are stored in the group's SharePoint document library in the Apps/Yammer folder. Any files that were uploaded before your network gets this new feature remain in Yammer cloud storage. To find out where Yammer files are stored for your network, see [How do I tell where my Yammer files are stored?](https://support.office.com/article/7a647cb4-6005-4350-a258-68f00a5f7b29)
+> As of December 2018, we are in process of rolling out Viva Engage files stored in SharePoint. When your network gets this new feature, new files uploaded to Viva Engage are stored in the group's SharePoint document library in the Apps/Viva Engage folder. Any files that were uploaded before your network gets this new feature remain in Viva Engage cloud storage. To find out where Viva Engage files are stored for your network, see [How do I tell where my Viva Engage files are stored?](https://support.office.com/article/7a647cb4-6005-4350-a258-68f00a5f7b29)
   
 ### Q: Do my Viva Engage communities connected to Microsoft 365 Groups follow my Microsoft 365 Groups naming policy?
   
@@ -224,14 +224,14 @@ Changes to connected communities can take up to 24 hours to take effect througho
   
 ## Related articles
 
-[Use and manage resources in my Yammer community or group](https://support.office.com/article/44af9221-503a-4736-9571-ef1353546077)
+[Use and manage resources in my Viva Engage community or group](https://support.office.com/article/44af9221-503a-4736-9571-ef1353546077)
 
-[Join and create a community or group in Yammer](https://support.office.com/article/60db6f14-fc5d-4ffb-8812-e3c0a4109e00)
+[Join and create a community or group in Viva Engage](https://support.office.com/article/60db6f14-fc5d-4ffb-8812-e3c0a4109e00)
   
-[Manage a community or group in Yammer](https://support.office.com/article/12ce0216-0618-4576-b87a-a8c189cee0f8)
+[Manage a community or group in Viva Engage](https://support.office.com/article/12ce0216-0618-4576-b87a-a8c189cee0f8)
 
-[Delete a community or group in Yammer](https://support.office.com/article/2a70a1f9-d081-488e-9fc7-0f7684e5a58b)
+[Delete a community or group in Viva Engage](https://support.office.com/article/2a70a1f9-d081-488e-9fc7-0f7684e5a58b)
 
 [Manage who can create Groups](/office365/admin/create-groups/manage-creation-of-groups)
 
-[Export data from Yammer Enterprise](/yammer/manage-security-and-compliance/export-yammer-enterprise-data)
+[Export data from Viva Engage Enterprise](/yammer/manage-security-and-compliance/export-yammer-enterprise-data)

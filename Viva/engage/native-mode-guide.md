@@ -35,7 +35,7 @@ The following steps show you what you need to for the transition to Native Mode.
 
 ## 1. Initial steps to access the Native Mode Alignment Tool
 
-To align your network to Native Mode, you need to make sure that your Microsoft tenant has only one Viva Engage Network associated with it. If you have more than one Yammer Network on your Microsoft tenant, you first need to complete the steps in [Consolidate multiple Viva Engage networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks).
+To align your network to Native Mode, you need to make sure that your Microsoft tenant has only one Viva Engage Network associated with it. If you have more than one Viva Engage Network on your Microsoft tenant, you first need to complete the steps in [Consolidate multiple Viva Engage networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks).
 
 Next, you need to make sure that network enforces Microsoft 365 Identity. For more information, see [Enforce Microsoft 365 Identity](/yammer/configure-your-yammer-network/enforce-office-365-identity)
 

@@ -74,7 +74,7 @@ As a Global admin or Engage admin, you're encouraged to set up your Viva Engage 
 
 [![Screenshot of the interface for configuring the tenant in Viva Engage.](/viva/media/engage/admin/config-tenant.png)](/viva/media/engage/admin/config-tenant.png#lightbox)
 
-They're then routed to the Yammer admin center, where they can perform the following actions:  
+They're then routed to the Viva Engage admin center, where they can perform the following actions:  
 
 - [Configure the network](/yammer/configure-your-yammer-network/configure-yammer)
     - Set the tenant network name
@@ -89,7 +89,7 @@ They're then routed to the Yammer admin center, where they can perform the follo
 - [Migrate a network to Native Mode](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide), if this isn't already done
 
 >[!NOTE]
-> Because Viva Engage is powered by Yammer technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Viva Engage admin center as part of our admin roadmap.
+> Because Viva Engage is powered by Viva Engage technology, configuring the tenant through the Viva Engage admin center will publish changes to both Viva Engage and Viva Engage. We are working to bring these configuration options to the Viva Engage admin center as part of our admin roadmap.
 
 ## See also
 

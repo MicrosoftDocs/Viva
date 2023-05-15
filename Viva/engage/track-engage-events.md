@@ -28,7 +28,7 @@ You must have the Microsoft 365 global admin role or the Audit Logs role in Exch
   
 - **Users**—includes activate, suspend, and delete a user.
 
-- **Groups**—includes create and delete Microsoft 365 connected Yammer groups. This API doesn't provide data for legacy Yammer groups.
+- **Groups**—includes create and delete Microsoft 365 connected Viva Engage groups. This API doesn't provide data for legacy Viva Engage groups.
 
 - **Files**—includes create, views, and delete a file.
 

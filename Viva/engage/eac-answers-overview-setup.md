@@ -34,28 +34,28 @@ If Answers is enabled in the Viva Engage admin center, users who are assigned th
 Users who aren't assigned the Viva Engage Knowledge service plan receive notifications to questions or answers where they're mentioned and can visit those threads. But they can't navigate the rest of the Answers experience.
 
 > [!NOTE]
-> As a prerequisite, the tenant must have Yammer enabled, and the user must have access to Yammer services.
+> As a prerequisite, the tenant must have Viva Engage enabled, and the user must have access to Viva Engage services.
 
 ## Technical requirements
 
 Answers is enabled by default for customers that meet the following technical requirements:
 
-1) **Migrated the Yammer network to Native Mode**
+1) **Migrated the Viva Engage network to Native Mode**
 
-    [Native Mode](/yammer/configure-your-yammer-network/overview-native-mode) is a state of a Yammer network where all users are in Azure Active Directory (Azure AD). All communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For more information, see the [guide to migrate](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide) the network to Native Mode.
+    [Native Mode](/yammer/configure-your-yammer-network/overview-native-mode) is a state of a Viva Engage network where all users are in Azure Active Directory (Azure AD). All communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For more information, see the [guide to migrate](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide) the network to Native Mode.
 
-2) **Migrated Yammer Topics to Viva Topics**
+2) **Migrated Viva Engage Topics to Viva Topics**
 
-    Yammer topics have begun to migrate to Viva Topics. Over the next months, all existing Yammer networks will be migrated. Answers uses Viva Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Viva Topics works across services in Microsoft 365, we require that your Yammer network uses Viva Topics to ensure the best experience with Answers.
+    Viva Engage topics have begun to migrate to Viva Topics. Over the next months, all existing Viva Engage networks will be migrated. Answers uses Viva Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Viva Topics works across services in Microsoft 365, we require that your Viva Engage network uses Viva Topics to ensure the best experience with Answers.
 
 
     For customers awaiting topics migration:  
-    - Microsoft informs existing Yammer customers who purchased Viva Topics or Viva Suite products when the Yammer Topics have migrated to Viva Topics. 
-    - Interested tenants can request to get Answers enablement prioritized, which may include Native Mode Support or Yammer Topics Migration to Viva Topics. To do so, they can contact their customer account manager/Microsoft support staff for Yammer and file a support ticket. Microsoft reviews and processes these requests.
+    - Microsoft informs existing Viva Engage customers who purchased Viva Topics or Viva Suite products when the Viva Engage Topics have migrated to Viva Topics. 
+    - Interested tenants can request to get Answers enablement prioritized, which may include Native Mode Support or Viva Engage Topics Migration to Viva Topics. To do so, they can contact their customer account manager/Microsoft support staff for Viva Engage and file a support ticket. Microsoft reviews and processes these requests.
 
-    Learn more about Yammer Topics migration to Viva Topics:
-    - [Viva Topics in Yammer](/viva/topics/topic-experiences-yammer)
-    - [Viva Topics experience in Yammer](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)
+    Learn more about Viva Engage Topics migration to Viva Topics:
+    - [Viva Topics in Viva Engage](/viva/topics/topic-experiences-yammer)
+    - [Viva Topics experience in Viva Engage](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)
 
 3. **Set up the Viva Engage app**
 
@@ -74,7 +74,7 @@ Answers data is available in [eDiscovery](/yammer/manage-security-and-compliance
 
 **GDPR information**
 
-For GDPR user data export, verified Yammer admins and Engage admins can follow the [Yammer GDPR export guidance](/yammer/manage-security-and-compliance/export-yammer-enterprise-data). Answers data is bundled with Yammer data. To comply with GDPR data subject requests, you can erase all information about a Yammer user. Learn [how to manage GDPR data subject requests in Yammer Enterprise](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise).
+For GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/yammer/manage-security-and-compliance/export-yammer-enterprise-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage Enterprise](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise).
 
 ## Enable Answers  
 

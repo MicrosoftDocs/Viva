@@ -59,7 +59,7 @@ The downloadable Alignment Report provides information about the quantity and us
 
 - *Native Mode* is a state in which all the users, groups, and content from your network are compatible with, and mapped to, their counterparts in Azure AD/Microsoft 365 and Microsoft 365.
 
-- *eDiscovery* is a Yammer feature Microsoft provides to customers through the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/homepage).  
+- *eDiscovery* is a Viva Engage feature Microsoft provides to customers through the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/homepage).  
 
 Viva Engage can offer eDiscovery to customers when all their users, groups, and content are discoverable through the Security and Microsoft Purview compliance portal. To facilitate this process, Viva Engage must ensure that all Groups are Microsoft 365-connected because eDiscoverable content must be saved in the group mailbox. Similarly, users must have an Azure AD account.
 
@@ -95,7 +95,7 @@ Most end users won't see any change in their Viva Engage experience while the to
 
 ### How do I check the status of my network's migration to Native Mode?
 
-Any Global Admin from your tenant can check the status of your network's alignment to Native Mode by accessing the Viva Engage admin center. On the **Setup & configuration** tab, they can access **Configure tenant**, which will then route them to the Yammer admin center. In the Yammer admin center, they can click on **native mode** to see their progress.
+Any Global Admin from your tenant can check the status of your network's alignment to Native Mode by accessing the Viva Engage admin center. On the **Setup & configuration** tab, they can access **Configure tenant**, which will then route them to the Viva Engage admin center. In the Viva Engage admin center, they can click on **native mode** to see their progress.
 
 ## Networks
 
@@ -259,7 +259,7 @@ Because Viva Engage external groups aren't compatible with Azure B2B, guests in 
 
 - *Why do you need to add the global admin who runs the Alignment Tool as a group owner in groups that have no owner with Microsoft 365 group creation rights?*
 
-  This change is done for groups without any owners or groups with owners but none of whom have Microsoft 365 Group creation rights. To make a Yammer community or group a Microsoft 365-connected group, at least one group owner must have Microsoft 365 Group creation rights. Because global admins have Microsoft 365 Group creation rights, adding the global admin as a group owner helps ensure that the group can become Microsoft 365 connected.
+  This change is done for groups without any owners or groups with owners but none of whom have Microsoft 365 Group creation rights. To make a Viva Engage community or group a Microsoft 365-connected group, at least one group owner must have Microsoft 365 Group creation rights. Because global admins have Microsoft 365 Group creation rights, adding the global admin as a group owner helps ensure that the group can become Microsoft 365 connected.
 
 - *What do I do about my groups without owners who have Microsoft 365 group creation rights?*
 
@@ -284,4 +284,4 @@ Whichever option you choose, we recommend that you communicate clearly to the us
 
 [Microsoft 365 Security & Compliance Portal](https://go.microsoft.com/fwlink/?linkid=2111321)
 
-[Manage Yammer data compliance](/yammer/manage-security-and-compliance/manage-data-compliance)
+[Manage Viva Engage data compliance](/yammer/manage-security-and-compliance/manage-data-compliance)

@@ -33,9 +33,9 @@ The following Admin users can see the Admin Center in Viva Engage in the Teams a
 
 ### Core experiences: Viva Engage and Answers
 
-If you don't enforce Yammer licensing in your tenant, all the users in your tenant have access to the Viva Engage core experiences and the Yammer experiences. This access includes the Answers core experience.  
+If you don't enforce Viva Engage licensing in your tenant, all the users in your tenant have access to the Viva Engage core experiences and the Viva Engage experiences. This access includes the Answers core experience.  
 
-If you enforce Yammer licensing in your tenant, users need to have either a Yammer license or a Viva Engage Core license to access Viva Engage and Answers.
+If you enforce Viva Engage licensing in your tenant, users need to have either a Viva Engage license or a Viva Engage Core license to access Viva Engage and Answers.
 
 |Service plan |Enables |Comes with (SKUs)|
 |-------------------|---------|-------|

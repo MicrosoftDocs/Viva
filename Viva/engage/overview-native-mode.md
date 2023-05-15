@@ -50,7 +50,7 @@ A tenant must be in one of three modes:
 When you align your network in Native Mode, the [Native Mode Alignment Tool](./native-mode-guide.md) automates the process and guides you through the steps to get there.
 
  > [!NOTE]
-> All Company now works like any other community in Native Mode. Admins can customize All Company and use advanced management features, such as restricting posts and promoting others as admins. For more information, see [All Company now works like other Yammer communities](/yammer/manage-yammer-groups/yammer-all-company-yammer-community).
+> All Company now works like any other community in Native Mode. Admins can customize All Company and use advanced management features, such as restricting posts and promoting others as admins. For more information, see [All Company now works like other Viva Engage communities](/yammer/manage-yammer-groups/yammer-all-company-yammer-community).
 
 ## Key differences between modes
 
