@@ -66,7 +66,7 @@ Start with a [modern SharePoint communication site](https://support.microsoft.co
 |1    | [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645)| Select **Tiles layout** and then **Four tiles**. |
 |2    | [World clock web part](https://support.microsoft.com/office/use-the-world-clock-web-part-aa2ede87-e331-44f1-a116-a5b8fc67fd04)| Toggle the **Show days of the week** to **On**. |
 |3     | [Weather web part](https://support.microsoft.com/office/show-the-weather-on-your-page-4a86540e-0846-4fc0-bad0-1a82fcd430fc)        |Decide which temperate measurement system makes the most sense for your audience between **Fahrenheit** and **Celsius**.|
-|4  | [The Feed for Viva Connections](use-feed-web-part-for-viva-connections.md) | No settings needed. The [Feed content is personalized](faqs-viva-connections-feed.md) for each user and comes from SharePoint News and Yammer communities that they follow.  |
+|4  | [The Feed for Viva Connections](use-feed-web-part-for-viva-connections.md) | No settings needed. The [Feed content is personalized](faqs-viva-connections-feed.md) for each user and comes from SharePoint News and Viva Engage communities that they follow.  |
 |5  | [The Dashboard web part](use-dashboard-web-part-on-home-site.md)| Set the **Maximum number of cards to show** to 9.|
 
 :::image type="content" source="../media/connections/home-site-middle.png" alt-text="Build Home site middle section" border="false":::
