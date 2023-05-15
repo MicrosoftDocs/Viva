@@ -115,6 +115,8 @@ To learn more about a metric, hover over its information icon.
 
     >[!Note]
     >The default conjunction for conditions and condition groups is “and.” To select “or” instead, use the dropdown menu.
+    >
+    > To learn more about filters, refer to our [Filters](filters.md) article.
 
 ### Predefined filters
 
