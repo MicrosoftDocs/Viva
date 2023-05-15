@@ -18,6 +18,7 @@ audience: Admin
 *Applies to: private preview customers*
 
 Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
+
 This article talks about the third option, importing data. 
 
 With an import, you create your own app to automatically export your source data and metadata to a zipped folder. Then, your custom app runs a console app we created, called DescriptiveDataUploadApp. Through DescriptiveDataUploadApp, Viva Insights pulls your data into the advanced insights app. 
@@ -169,8 +170,7 @@ To export data from your source system and import it into Viva Insights on a set
 
 ##### Export and store the zipped folder
 
-At the frequency you decide (once a month, once a week, etc.) have your custom app export organizational data from your source system as a zipped folder and store it in your files. Base this zipped folder on the zipped folder we provide. (Select [this link](https://go.microsoft.com/fwlink/?linkid=2224590) to download the folder.) Your zipped folder needs to contain a data.csv file and a metadata.json file.
-
+At the frequency you decide (once a month, once a week, etc.) have your custom app export organizational data from your source system as a zipped folder and store it in your files. Base this zipped folder on the zipped folder we provide. (Select [this link](https://go.microsoft.com/fwlink/?linkid=2230444) to download the folder.) Your zipped folder needs to contain a data.csv file and a metadata.json file.
 
 Here are a few more details about these files and what they need to contain:
 
