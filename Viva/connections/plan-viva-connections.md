@@ -184,8 +184,8 @@ The feed is designed to be dynamic, personalized, and a place where the most rel
 -  Publish SharePoint news from [official organizational news sources](/sharepoint/organization-news-site#:~:text=Use%20Microsoft%20PowerShell%20to%20specify%20a%20site%20as,organization%20news%20site%3A%20PowerShell%20Set-SPOOrgNewsSite%20-OrgNewsSiteUrl%20%3Csite%20URL%3E) like the [home site](/viva/connections/home-site-plan)
 - [Use news boost to elevate the most important news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83#:~:text=1%20On%20your%20organization%20news%20site%2C%20open%20the,post%20to%20stop%20being%20boosted.%20More%20items...%20) posts on organizational news sites to surface news posts to the top of the feed
 - [Post news as a video news links](/viva/connections/video-news-links) hosted by stream to share updates, rebroadcast an all-hands meeting, or provide reusable training materials
-- Highlight community discussions by [featuring posts in Viva Engage](/viva/engage/manage-viva/engage-groups/viva/engage-all-company-viva/engage-community) that you’d like seen by the entire organization
-- Encourage your organization to [engage and participate in discussions in Viva Engage](https://adoption.microsoft.com/yammer/), especially leaders and workplace champions
+- Highlight community discussions by [featuring posts in Viva Engage](/yammer/manage-yammer-groups/yammer-all-company-yammer-community) that you’d like seen by the entire organization
+- Encourage your organization to [engage and participate in discussions in Viva Engage](https://adoption.microsoft.com/yammer), especially leaders and workplace champions
 - [Use audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to make sure specific content is seen by different audiences using Microsoft 365 groups
 
 

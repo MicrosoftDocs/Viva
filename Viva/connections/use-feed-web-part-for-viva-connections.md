@@ -25,7 +25,7 @@ description: "Learn how to use the Feed web part"
 
 # Use the Feed web part for Viva Connections
 
-The Feed web part is designed to collect and display content from sources across SharePoint, Yammer, and Stream (on SharePoint) into a single viewing experience. Each users’ Feed will look different because content displayed in the web part is personalized to the viewer based on the SharePoint sites and Yammer communities that they follow. [Learn more about where content in the Feed comes from](/viva/connections/faqs-viva-connections-feed).
+The Feed web part is designed to collect and display content from sources across SharePoint, Viva Engage, and Stream (on SharePoint) into a single viewing experience. Each users’ Feed will look different because content displayed in the web part is personalized to the viewer based on the SharePoint sites and Viva Engage communities that they follow. [Learn more about where content in the Feed comes from](/viva/connections/faqs-viva-connections-feed).
 
 > [!NOTE]
 > - The Feed web part is not supported in IE11.
@@ -40,13 +40,13 @@ Viva Connections combines the power of your intelligent SharePoint intranet with
 
 ## What is the Feed for Viva Connections web part?
 
-If you're using Viva Connections, the Feed web part brings organizational communication content from SharePoint, Yammer, Stream, Teams, and more into a single feed that [can be added to the home site](/viva/connections/home-site-plan). The Feed displays personalized content that will look different for each viewer. The hierarchy of content in the Feed can be influenced using tools like [News Boost](https://support.microsoft.com/en-us/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). Learn more about [content in the Feed](/viva/connections/faqs-viva-connections-feed).
+If you're using Viva Connections, the Feed web part brings organizational communication content from SharePoint, Viva Engage, Stream, Teams, and more into a single feed that [can be added to the home site](/viva/connections/home-site-plan). The Feed displays personalized content that will look different for each viewer. The hierarchy of content in the Feed can be influenced using tools like [News Boost](https://support.microsoft.com/en-us/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). Learn more about [content in the Feed](/viva/connections/faqs-viva-connections-feed).
 
 ![Screenshot with the company feed highlighted.](../media/connections/use-feed-web-part/feedwebpart_highlighted.png) 
 
 ### Benefits of the web part include:
 
- - Users can view content from SharePoint, Stream, and Yammer in one place
+ - Users can view content from SharePoint, Stream, and Viva Engage in one place
  - For each piece of content, users can view the author and time it was posted
  - Users can react to and see the total number of reactions, user views, and comments on a content card
  - Users can share and navigate to find more content within the web part
@@ -79,7 +79,7 @@ You'll need site member permissions (or higher) to add and edit web parts to a S
 
  6. Select **Save** when you are done.
  
-The feed will automatically populate with SharePoint news, Yammer community content, and Stream videos tailored to users based on the communities and sites they follow.
+The feed will automatically populate with SharePoint news, Viva Engage community content, and Stream videos tailored to users based on the communities and sites they follow.
 
 
 ## Related articles
