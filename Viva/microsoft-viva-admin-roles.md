@@ -43,7 +43,7 @@ The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin 
 - Viva Insights - [Insights Business Leader](/azure/active-directory/roles/permissions-reference#insights-business-leader), [Insights Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator), and [Insights Analyst](/azure/active-directory/roles/permissions-reference#insights-analyst)
 - SharePoint - [SharePoint admin](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
 - Teams - [Teams admin](/azure/active-directory/roles/permissions-reference#teams-administrator)
-- Viva Engage - Engage admin ([Viva Engage administrator](/azure/active-directory/roles/permissions-reference#yammer-administrator))
+- Viva Engage - Engage admin ([Viva Engage administrator](/azure/active-directory/roles/permissions-reference#viva-engage-administrator))
 - Answers in Viva Engage - Answers admin ([Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-manager))
 
 Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
@@ -150,7 +150,7 @@ For more information about admin settings in the admin dashboard, see [Navigate 
 |**Corporate communicator**<br>Assigned by the Engage admin or a fellow corporate communicator.  |Can create or manage campaigns and define leaders and audiences in an organization.|
 |**Teams admin** <br>Assigned by Microsoft 365 global admin|Uses the Teams admin center to create setup policies to install the app and assign users. |
 
-For more information, see [Manage Viva Engage admins](/yammer/manage-yammer-users/manage-yammer-admins).
+For more information, see [Manage Viva Engage admins](/viva/engage/manage-viva-engage-users/manage-viva-engage-admins).
 
 #### Viva Sales
 You need to be a Microsoft 365 administrator to deploy and install the Viva Sales add-in for Outlook. You need to be a Teams administrator to deploy and install Viva Sales for Teams.

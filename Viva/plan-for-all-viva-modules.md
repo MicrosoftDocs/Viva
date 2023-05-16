@@ -90,13 +90,13 @@ Review the different roles in each phase before you start planning. Each app nee
 
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
-|- Work with **stakeholders and your IT team** to identify how you can leverage your existing Viva Engage strategy in Viva Engage. | - [Set up Viva Engage](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) in Microsoft Teams. | - Work with community leaders and active users to promote Viva Engage.  <p> - Consult the [Viva Engage adoption resources](https://adoption.microsoft.com/yammer/) to help integrate Viva Engage communities on Viva Engage into your organization. |
+|- Work with **stakeholders and your IT team** to identify how you can leverage your existing Viva Engage strategy in Viva Engage. | - [Set up Viva Engage](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) in Microsoft Teams. | - Work with community leaders and active users to promote Viva Engage.  <p> - Consult the [Viva Engage adoption resources](https://adoption.microsoft.com/viva-engage/) to help integrate Viva Engage communities on Viva Engage into your organization. |
 
 **If your organization is not using Viva Engage**
 
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
-|- Work with your **corporate communications specialists and leadership teams** to determine how you can best use Viva Engage to support communities in your organization. | - Your **admin** will [set up Viva Engage for your organization](/yammer/get-started-with-yammer/admin-key-concepts) and assign admin roles for Viva Engage: <p> - **Verified admins** are in charge of security-related tasks, and can configure and customize Viva Engage for your organization, and can manage users and groups. <p> - **Network admins** can configure and customize Viva Engage, and can manage users and groups. <p> - **Group admins** can configure and customize their groups, and can manage day-to-day operations for their groups. | - Work with leadership teams, employee resource groups, and employee social groups to develop active and vibrant communities on Viva Engage. <p> - Consult the [Viva Engage adoption resources](https://adoption.microsoft.com/yammer/) to help integrate Viva Engage communities on Viva Engage into your organization. |
+|- Work with your **corporate communications specialists and leadership teams** to determine how you can best use Viva Engage to support communities in your organization. | - Your **admin** will [set up Viva Engage for your organization](/viva/engage/get-started-with-viva-engage/admin-key-concepts) and assign admin roles for Viva Engage: <p> - **Verified admins** are in charge of security-related tasks, and can configure and customize Viva Engage for your organization, and can manage users and groups. <p> - **Network admins** can configure and customize Viva Engage, and can manage users and groups. <p> - **Group admins** can configure and customize their groups, and can manage day-to-day operations for their groups. | - Work with leadership teams, employee resource groups, and employee social groups to develop active and vibrant communities on Viva Engage. <p> - Consult the [Viva Engage adoption resources](https://adoption.microsoft.com/viva-engage/) to help integrate Viva Engage communities on Viva Engage into your organization. |
 
 ### Get guidance on Viva Goals
 
@@ -144,7 +144,7 @@ Technically, the Viva apps don't need to be installed in a specific order. Each 
 
 ### Get started with Viva Engage
 
-- [Set up Viva Engage](/yammer/get-started-with-yammer/admin-key-concepts) for your organization.
+- [Set up Viva Engage](/viva/engage/get-started-with-viva-engage/admin-key-concepts) for your organization.
 - [Install Viva Engage](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) in Microsoft Teams.
 
 ### Get started with Viva Goals
@@ -184,7 +184,7 @@ The following chart shows how to reach different types of workers to recruit the
 Consider using the following methods to reach your audience:
 
 - **Announce your organization’s instance of Microsoft Viva at an event**: Kick off the announcement about the availability of the apps at an all-hands (or sometimes called a Town Hall) meeting where everyone in the organization will attend or can view a recording later.
-- **Use communication tools like SharePoint news and Viva Engage communities**: Share details about the launch along with any change management guidance or end-user training in an [organizational news post](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7#:%7E:text=In%20SharePoint%20Online%2C%20you%20can%20add%20news%20posts,instructions%20Create%20the%20news%20post%20.%20See%20More), [Viva Engage communities](https://support.microsoft.com/office/start-a-conversation-in-yammer-da65b1c3-6651-4141-8dbd-d50d61b98a6e), and [Microsoft Teams channels.](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
+- **Use communication tools like SharePoint news and Viva Engage communities**: Share details about the launch along with any change management guidance or end-user training in an [organizational news post](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7#:%7E:text=In%20SharePoint%20Online%2C%20you%20can%20add%20news%20posts,instructions%20Create%20the%20news%20post%20.%20See%20More), [Viva Engage communities](https://support.microsoft.com/office/start-a-conversation-in-viva-engage-da65b1c3-6651-4141-8dbd-d50d61b98a6e), and [Microsoft Teams channels.](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
 - **Consider hosting training events or offering office hours**: Make sure end-users get the most from Viva by offering ongoing support the first 30 days after launching.
 - **Use the Viva email and poster templates**: Get a jump start on creating [communication materials for the Viva Connections launch.](https://adoption.microsoft.com/viva/)
 

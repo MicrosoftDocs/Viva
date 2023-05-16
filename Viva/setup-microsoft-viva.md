@@ -113,9 +113,9 @@ Setup for Viva Sales is a bit different from other Viva apps. It requires you to
 
 **Viva Engage**
 
-If your organization uses [Viva Engage](/yammer), and a user is enabled for Viva Engage, they are also enabled to use Viva Engage. Viva Engage is included as a part of the existing Viva Engage license. This is unchanged from the Viva Engage Communities app for Microsoft Teams that Viva Engage replaces.
+If your organization uses [Yammer](/yammer), and a user is enabled for Yammer, they are also enabled to use Viva Engage. Viva Engage is included as a part of the existing Yammer license. This is unchanged from the Yammer Communities app for Microsoft Teams that Viva Engage replaces.
 
-The Viva Engage administrator can manage the content in Viva Engage and Viva Engage. Privacy and security controls from Viva Engage are shared with Viva Engage.
+The Yammer administrator can manage the content in Yammer and Viva Engage. Privacy and security controls from Yammer are shared with Viva Engage.
 
 The Viva Engage app is installed in Teams, but not yet available to set up from the Viva admin page.
 
