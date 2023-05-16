@@ -10,9 +10,10 @@ search.appverid:
 - MET150
 ms.service: viva 
 ms.subservice: viva-insights
-ms.collection: 
-- M365-analytics
-- viva-insights
+ms.collection:
+  - M365-analytics
+  - viva-insights
+  - Tier1
 manager: dansimp
 audience: Admin
 ---

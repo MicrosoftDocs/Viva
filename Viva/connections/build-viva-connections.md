@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -81,4 +82,3 @@ Before sharing Viva Connections with the rest of your organization, recruit a sm
 ## Next, launch Viva Connections for your organization
 
 After [planning](plan-viva-connections.md), building, and testing Viva Connections, it’s time to let the rest of the organization know that it's available for use. [Learn more about how to launch Viva Connections.](launch-viva-connections.md)
-

@@ -1,13 +1,15 @@
 ---
 ms.date: 08/29/2022
 title: Use Viva Topics cards in the Viva Connections dashboard
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: hokavian
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -64,8 +66,3 @@ Viva Topics cards can be added to the Viva Connections dashboard. The dashboard 
 ## More resources
 
 [Add cards to the Viva Connections dashboard](/viva/connections/create-dashboard) 
-
-
-
-
-

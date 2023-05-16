@@ -3,7 +3,7 @@ ms.date: 02/08/2023
 title: "Check-in Recommendations"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 description: "Recommendations for checking-in on Objectives, Key Results, and Initiatives for a healthy OKR program."
@@ -37,4 +38,3 @@ Looking to improve the efficiency of your OKR program? Here are recommendations 
 1. **Set up check-in reminder notifications** 
     1. The OKR Program Lead should determine the cadence of OKR reminders, (such as once per week on Friday mornings) and work with the Viva Goals Admin to set these up in the admin dashboard. Sometimes all users need to update their OKRs is a small nudge to remind them. 
     1. Bonus tip: “Habit stack” to encourage employees to check in their OKRs at the same time each week. “Habit stacking” is pairing a habit you're trying to build, such as OKR check-ins, with an already existing habit, such as updating a weekly report for a team meeting. 
-

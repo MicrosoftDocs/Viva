@@ -10,9 +10,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 ms.localizationpriority: medium
 description: Learn how to enable and disable the Learning tab in search results in Microsoft 365, and understand how to search content in SharePoint, Office apps, and Bing.
 ---
@@ -34,4 +35,3 @@ Users in your organization can search for learning opportunities from the search
 It can take a few hours for this change to reflect in the Search apps.
 
 [Learn more about Search verticals](/microsoftsearch/manage-verticals#manage-organization-level-verticals)
-

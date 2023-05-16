@@ -12,6 +12,8 @@ ms.topic: article
 ms.service: viva
 localization_priority: Priority
 ms.custom: intro-overview
+ms.collection:
+  - Tier1
 search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
@@ -58,4 +60,3 @@ In this example you can:
 - See at a glance which settings are required in the **Priority** column.
 - Select a setting in the list, and get a panel where you can set the options without leaving the page. In this example, you see the panel to assign knowledge managers.
 - Select the **More information** tab to get detailed guidance on setting up the app.
-

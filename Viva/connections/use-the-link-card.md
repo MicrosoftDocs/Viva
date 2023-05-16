@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -160,7 +161,3 @@ The best experiences will be achieved if the service does not require authentica
 [Create the Viva Connections dashboard](/viva/connections/create-dashboard)
 
 [Use audience targeting in Viva Connections to personalize the experience](/viva/connections/use-audience-targeting-in-viva-connections)
-
-
-
-

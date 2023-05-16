@@ -1,3 +1,7 @@
+---
+ms.collection:
+  - Tier1
+---
 # [Viva Connections]()
 
 ## [Microsoft Viva Connections](viva-connections-overview.md)
@@ -21,11 +25,15 @@
 
 ### [Add the Viva Connections app](add-viva-connections-app.md)
 
+### [Edit the desktop experience](edit-viva-home.md)
+
 ### [Use audience targeting](use-audience-targeting-in-viva-connections.md)
 
 ### [Specific languages](viva-connections-language.md)
 
 ### [Analytics](viva-connections-analytics.md)
+
+### [Overview of Viva Connections for Education](overview-viva-connections-education.md)
 
 
 ### [Dashboard]()
@@ -68,6 +76,3 @@
 ### [Can't upload package](/viva/troubleshoot/connections/cant-upload-package?toc=/viva/connections/toc.json&bc=/viva/breadcrumb/toc.json)
 
 ### [Error accessing app from Teams desktop](/viva/troubleshoot/connections/error-accessing-app-from-teams-desktop?toc=/viva/connections/toc.json&bc=/viva/breadcrumb/toc.json)
-
-
-

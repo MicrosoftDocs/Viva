@@ -21,7 +21,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > This article applies to a preview version of Microsoft Viva Pulse. You must be in the Private Preview program to access it. Features are subject to change.
 
-Feedback authors can request pulses from their teams by using research-backed templates.
+Feedback authors can request pulses from their teams by using research-backed templates. Note that feedback authors must also be assigned a Microsoft Forms license.
 
 ## Create a pulse as a feedback author in Viva Pulse
 

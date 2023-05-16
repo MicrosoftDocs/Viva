@@ -12,11 +12,12 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
-- highpri
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - highpri
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -467,16 +468,16 @@ For some cards, you will use links to URLs. Depending on the location of the con
 > [!NOTE] 
 > When SSO is not supported, users will be asked to enter their login credentials.
 
-| Content source | Opens URL to… | Supports SSO          |
-| :------------------- | :------------------- |:----------------|
-| SharePoint Link  | SharePoint or Teams      | Yes      |
-| Teams App  | Teams  | No             |
-| Microsoft  Forms   | Device's browser   | Yes    |
-| Yammer       | Yammer or Teams     | Yes   |
-| PowerApps   | Teams      | Yes  |
-| Power Portals  | Teams | Yes  |
-| Stream  | Teams | Yes    |
-| External Links  | Teams | No  |
+| **Opens URL to…**  | **On Teams mobile**   | **On Teams desktop**     |
+| :------------------- | :------------------- |:---------------|
+| SharePoint Link  | Page opens within Teams and user doesn’t need to authenticate again.| Page opens within Teams and user doesn’t need to authenticate again. |
+| Teams App | Teams apps (like Shifts, Approvals, or Kudos) opens within Teams and user doesn’t need to authenticate again.  | Teams apps (like Shifts, Approvals, or Kudos) opens within Teams and user doesn’t need to authenticate again.  |
+| Forms  | Form opens within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. | Form opens within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in.            |
+| Yammer | Yammer opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.  | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings. |
+| PowerApps  | PowerApps opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings. |
+| Power Portals  | Power portals opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.  | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings.  |
+| Stream   | Stream opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.   | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings. |
+| External Links  | Web view opens within Teams and the user might need to authenticate again (depending on the site.)  | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings.  |
 
 
 ## More resources
@@ -484,4 +485,3 @@ For some cards, you will use links to URLs. Depending on the location of the con
 [Step-by-step guide to setting up Viva Connections](viva-connections-setup-guide.md)
 
 [Learn more about how to plan a dashboard](plan-viva-connections.md#step-2-plan-for-viva-connections)
-

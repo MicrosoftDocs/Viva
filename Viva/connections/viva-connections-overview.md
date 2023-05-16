@@ -12,12 +12,13 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: high
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
-- intro-overview
-- highpri 
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - intro-overview
+  - highpri
+  - Tier1
 search.appverid:
 - SPO160
 - MET150f
@@ -267,4 +268,3 @@ There are several options to learn more about how to get Viva Connections for yo
 [Viva Connections adoption resources](https://adoption.microsoft.com/viva/)
 
 [Viva Connections guidance for end users](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b)
-

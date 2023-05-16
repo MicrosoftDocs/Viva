@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -120,4 +121,3 @@ Resources are the navigation links that display in the Resources tab in the mobi
 [Frequently asked questions about the Feed for Viva Connections](faqs-viva-connections-feed.md)
 
 [Set up global navigation in the SharePoint app bar](sharepoint-app-bar.md)  
-

@@ -13,9 +13,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: high
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -224,7 +225,7 @@ Help end users understand [how the new SharePoint app bar works](https://support
 
 ## Temporarily disable the SharePoint app bar
 
-You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until September 30, 2022. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future Message Center posts.
+You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until March 31, 2023. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future Message Center posts.
 
 Temporarily disable the SharePoint app bar:
 
@@ -277,4 +278,3 @@ Temporarily disable the SharePoint app bar:
 - Learn more about [planning](/sharepoint/planning-hub-sites) and [creating hub sites](/sharepoint/create-hub-site)
 - Learn more about [navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience)
 - Learn more about [sharing and permissions in SharePoint](/sharepoint/modern-experience-sharing-permissions)
-

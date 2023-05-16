@@ -13,10 +13,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: medium
-ms.collection:  
-- Strat_SP_admin
-- m365solution-scenario
-- m365initiative-viva-connections  
+ms.collection:
+  - Strat_SP_admin
+  - m365solution-scenario
+  - m365initiative-viva-connections
+  - Tier1
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:

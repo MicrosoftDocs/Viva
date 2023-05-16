@@ -11,9 +11,10 @@ search.appverid:
 - MET150
 ms.service: viva 
 ms.subservice: viva-insights
-ms.collection: 
-- M365-analytics
-- viva-insights
+ms.collection:
+  - M365-analytics
+  - viva-insights
+  - Tier1
 manager: helayne
 audience: Admin
 ---
@@ -263,4 +264,3 @@ We don't recommend setting triggers more frequently than daily. You can also set
 Once you’ve joined Viva Insights data and a third-party data set—like Slack’s—you can populate reports and visualizations to see this information in new ways. One example might be modifying the [Viva Insights Ways of working template](/Viva/insights/tutorials/power-bi-collab-assess) with a new visual, as pictured below.
 
 :::image type="content" source="./images/ways-of-working-vis.png" alt-text="Power BI report with graphs titled 'Ways of Working Assessment with Slack (inc. new view for Slack activity)'.":::
-

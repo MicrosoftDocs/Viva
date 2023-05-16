@@ -7,7 +7,9 @@ author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced
+ms.collection:
+  - viva-insights-advanced
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -275,4 +277,3 @@ At this point, the pipeline should resemble the following image:
 
 > [!NOTE]
 > Each approved data consent request is valid for six months unless there is a change in the pipeline (for example, a *Copy Data* activity name change or a  pipeline name change).
-

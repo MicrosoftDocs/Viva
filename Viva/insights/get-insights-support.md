@@ -1,5 +1,5 @@
 ---
-ms.date: 09/16/2021
+ms.date: 03/22/2023
 title: Get support for Viva Insights
 description: What support options are available for help with Microsoft Viva Insights 
 author: lilyolason
@@ -16,25 +16,42 @@ ms.subservice: viva-insights
 manager: anirudhbajaj
 ---
 
-# Get support
+# Get support for Viva Insights
 
-Support varies depending on what type of Microsoft Viva Insights you are using.
+Need to send feedback, ask a question, file a support ticket, or learn more about Viva Insights? Explore our help and support resources.
 
-|Channel |Description |How to access |
-|------- |----------- |--------------- |
-|Personal insights feedback | Get help with setup or other questions about using Viva Insights. | Sign in and get help from [Microsoft Support](https://support.microsoft.com/). |
-|Personal insights in Teams feedback |Send Microsoft feedback about Viva Insights in Teams. | See [How can I send feedback to Microsoft about the Viva Insights app](personal/teams/faq.md#q4-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app) for details.|
-|Briefing email feedback <br><br>**We're pausing sending Briefing emails starting January 15th, 2023, to make some improvements. You can still access the [Viva Insights Outlook add-in](personal/use/add-in.md) or [Viva Insights app in Teams](personal/teams/introduction.md) for key functionality until this service resumes**.|Send Microsoft feedback about Briefing emails. | Near the end of your Briefing email, locate **Did you find this email helpful?**. Select **Send feedback**, then fill out and submit the feedback form.|
-|Personal insights feedback about the Dashboard, Outlook add-in, Digest emails, or inline suggestions |Send Microsoft feedback about Viva Insights in Outlook or the unified dashboard. | Open your [Dashboard](https://myanalytics.microsoft.com/), select **Feedback** in left navigation, complete the form, and then select **Submit**.|
-|Support for manager and leader insights support |Get help with setup or other questions about using Viva Insights. | Sign in and get help from [Microsoft Support](https://support.microsoft.com/).|
-|Manager insights feedback |Send Microsoft feedback about or feature requests for My team in Viva Insights in Teams. |See [Can I send feedback about these features?](org-team-insights/org-insights-faqs.md#q10-can-i-send-feedback-about-these-features) for details. |
-|Leader insights feedback |Send Microsoft feedback about or feature requests for My organization in Viva Insights in Teams. |See See [Can I send feedback about these features?](org-team-insights/org-insights-faqs.md#q10-can-i-send-feedback-about-these-features) for details. |
-|Advanced insights support |Get help with setup, onboarding, features and functionality, and data analysis for Viva Insights. |Your Microsoft admin can contact [Microsoft Support](/microsoft-365/admin/contact-support-for-business-products) through the Microsoft 365 admin center. <br> See [Who has admin permissions in my business](/microsoft-365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) for details about Microsoft admins.</br> |
-|Advanced insights feedback |Send Microsoft feedback about or feature requests for Viva Insights. |In [the app](https://analysis.insights.viva.office.com/), select the feedback icon (at top-right), complete and submit the form with your question or feedback.|
-|Viva Insights consulting services |If your company has a consulting service agreement with Microsoft, you can get help from our Viva Insights consultants. Our team can help you implement analytics technology more quickly and build custom analysis. |Contact your Microsoft Viva Insights representative for details. |
+## Provide feedback, feature requests, and suggestions  
+
+|Product|How to provide feedback |
+|------|------|
+|Viva Insights app in Teams and on the web| <ul><li>**Give feedback** option<br>Use **Give feedback** for general feedback or suggestions. Select the ellipses in the top-right of your screen, and then select **Give feedback**. <br><br><li>**Is this helpful?** links<br>Use **Is this helpful?** to give feedback on specific cards or pages. For pages, you'll find this link in the lower-right corner of the app. For cards, you'll find this link either directly below the card or by selecting the ellipses in the bottom-right corner of the card.
+|Viva Insights Outlook add-in|Select the **Send feedback** icon at the top of the add-in pane.|
+|Digest emails| At the bottom of each insight card, we ask, **Is this helpful?**. Select **Yes** or **No**. To add feedback comments, select **Send feedback to Microsoft** at the bottom of the email.
+|Advanced insights app (for admins and analysts)|Select the **Feedback** icon at the top-right of the app, to the left of the **Help** icon.
+
+## Get your questions answered
+
+If you have questions about Viva Insights, we have a few FAQ articles that might help: 
+
+* [Personal insights FAQs](./personal/overview/mya-faq.md)
+* [Teams app FAQs](./personal/teams/faq.md)
+* [Organization insights FAQs](./org-team-insights/org-insights-faqs.md)
+* [Advanced insights FAQs](./advanced/reference/faq.md)
+
+If you can't find an answer to your question in one of our FAQ articles, try visiting the [Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights). Another user might have asked a similar question, or you can post a new question in our community of Viva experts and peers.
+
+Your admin can also raise a support ticket with Microsoft support by following these guidelines: [Get support for Microsoft 365 for business](/microsoft-365/admin/get-help-support).
+
+## Submit issues, bugs, or errors
+
+If you find a bug, error, or other issue in Viva Insights, file a support ticket with Microsoft support. To file a ticket, follow these guidelines: [Get support for Microsoft 365 for business](/microsoft-365/admin/get-help-support).
+
+## Stay up to date and connect with other users
+
+Visit and register on our [Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights) to learn more about upcoming releases, participate in rich discussions with other users, and sign up for events hosted by Viva experts.
 
 ## Additional resources
 
-* [Microsoft Viva community](https://community.vivainsights.microsoft.com/)
+* [Microsoft Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights)
 * [Microsoft Workplace Insights](https://insights.office.com/)
 

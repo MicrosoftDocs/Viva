@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -79,4 +80,3 @@ After you have reviewed the phases, tasks, and roles needed to get Viva Connecti
 [Overview of security and compliance in Microsoft Viva](/viva/microsoft-viva-security)
 
 [Combine Viva modules for a more powerful experience](/viva/learn-how-to-combine-modules)
-

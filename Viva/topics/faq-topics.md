@@ -1,22 +1,22 @@
 ---
 ms.date: 11/29/2021
 title: Frequently asked questions about Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: 
-- m365initiative-viva-topics
-- highpri
+ms.collection:
+  - m365initiative-viva-topics
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
 - MET150  
 localization_priority: Normal
 description: Read commonly asked questions and answers about using Microsoft Viva Topics.
-
 ---
 
 # Frequently asked questions about Microsoft Viva Topics 
@@ -104,4 +104,3 @@ For more information about the user experience, see the following help articles:
 
 - [Get started with Microsoft Viva Topics](get-started-with-viva-topics.md)
 - [Manage topics in the topic center in Microsoft Viva Topics](manage-topics.md)
-

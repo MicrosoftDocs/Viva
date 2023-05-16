@@ -1,15 +1,16 @@
 ---
 ms.date: 11/15/2021
 title: Set up Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: 
-- m365initiative-viva-topics
-- highpri
+ms.collection:
+  - m365initiative-viva-topics
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -20,11 +21,11 @@ description: Learn how to set up Microsoft Viva Topics.
 
 # Set up Microsoft Viva Topics
 
-You can use the Microsoft 365 admin center to set up and configure [Topics](topic-experiences-overview.md). 
+You can use the Microsoft 365 admin center to set up and configure [Topics](topic-experiences-overview.md).
 
 It is important to plan the best way to set up and configure topics in your environment. Be sure to read [Plan for Microsoft Viva Topics](plan-topic-experiences.md) before you begin the procedures in this article.
 
-You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva/topics) and be a global administrator, or SharePoint administrator to access the Microsoft 365 admin center and set up Topics.
+You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva/topics) and be a global administrator, or both SharePoint administrator and groups administrator to access the Microsoft 365 admin center and set up Topics.
 
 > [!IMPORTANT]
 > If you have configured SharePoint to [require managed devices](/sharepoint/control-access-from-unmanaged-devices), you must set up Topics from a managed device.
@@ -41,7 +42,7 @@ This video shows the process for setting up Topics in Microsoft 365.
 
 ## Assign licenses
 
-You must assign licenses for the users who will be using Topics. Only users with a license can see information on topics including highlights, topic cards, topic pages and the topic center. 
+You must assign licenses for the users who will be using Topics. Only users with a license can see information on topics including highlights, topic cards, topic pages and the topic center.
 
 To assign licenses:
 
@@ -64,95 +65,117 @@ Note that users must also have an Exchange Online license to use Topics.
 
 ## Set up Topics
 
-> [!Note]
+> [!NOTE]
 > The first time topic discovery is enabled, it may take up to two weeks for all suggested topics to appear in the Manage Topics view. Topic discovery continues as new content or updates to content are made. It is normal to have fluctuations in the number of suggested topics in your organization as Viva Topics evaluates new information.
 
 To set up Topics
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Setup**, and then view the **Files and content** section.
-2. In the **Files and content** section, click **Connect people to knowledge**.
 
-    ![Connect people to knowledge.](../media/admin-org-knowledge-options.png) 
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Setup**, and then choose **Microsoft Viva**.
 
-3. On the **Connect people to knowledge** page, click **Get started** to walk you through the setup process.
+![Screenshot of the Microsoft Viva setup card.](../media/viva-setup.png)
 
-    ![Get started.](../media/k-get-started.png) 
+2. Select **Viva Topics**.
 
-4. On the **Choose how Viva Topics can find topics** page, you will configure topic discovery. In the **Select SharePoint topic sources** section, select which SharePoint sites will be crawled as sources for your topics during discovery. Choose from:
+[![Screenshot of the Viva admin page.](../media/viva-new-admin.png)](../media/viva-new-admin.png#lightbox)
+
+3. This will take you to the Viva Topics admin page. Choose **Manage Viva Topics** to set up how topics will work for your organization.
+
+[![Screenshot of the Viva Topics page.](../media/knowledge-management/topics-admin-page.png)](../media/knowledge-management/topics-admin-page.png#lightbox)
+
+### Topic discovery
+
+On the Topic discovery page, you'll choose how Viva Topics sources and identifies topics.
+
+![Screenshot of the Topic discovery page.](../media/knowledge-management/topic-discovery.png)
+
+1. In the **Select SharePoint topic sources** section, select which SharePoint sites will be crawled as sources for your topics during discovery. Choose from:
     - **All sites**: All SharePoint sites in your organization. This includes current and future sites.
-    - **All, except selected sites**: Type the names of the sites you want to exclude.  You can also upload a list of sites that you want to opt out from discovery. Sites created in future will be included as sources for topic discovery. 
+    - **All, except selected sites**: Type the names of the sites you want to exclude.  You can also upload a list of sites that you want to opt out from discovery. Sites created in future will be included as sources for topic discovery.
     - **Only selected sites**: Type the names of the sites you want to include. You can also upload a list of sites. Sites created in the future will not be included as sources for topic discovery.
     - **No sites**: Do not include any SharePoint sites.
 
-    ![Choose how to find topics.](../media/ksetup1.png) 
-   
-5. In the **Exclude topics by name** section, you can add names of topics you want to exclude from topic discovery. Use this setting to prevent sensitive information from being included as topics. The options are:
-    - **Don't exclude any topics** 
+2. Select **Save**.
+
+3. In the **Select data connection sources** section, choose any additional sources you want Viva Topics to source topics from. [Learn more about eligible connection sources](/microsoft-365/knowledge/manage-topics).
+
+4. In the **Exclude topics by name** section, you can add names of topics you want to exclude from topic discovery. Use this setting to prevent sensitive information from being included as topics. The options are:
+    - **Don't exclude any topics**
     - **Exclude topics by name**
+    1. To exclude topics by name, download and fill out the CSV file with the topics you want excluded.
+    1. In the CSV template, enter the following information about the topics you want to exclude:
+      - **Name**: Type the name of the topic you want to exclude. There are two ways to do this:
+          - Exact match: You can include the exact name or acronym (for example, *Contoso* or *ATL*).
+          - Partial match: You can exclude all topics that have a specific word in it.  For example, *arc* will exclude all topics with the word *arc* in it, such as *Arc circle*, *Plasma arc welding*, or *Training arc*. Note that it will not exclude topics in which the text is included as part of a word, such as *Architecture*.
+      - **Stands for (optional)**: If you want to exclude an acronym, type the words the acronym stands for.
+      - **MatchType-Exact/Partial**: Type whether the name you entered was an *exact* or *partial* match type.
+    1. Upload your completed file and choose **Save**.
 
-    ![Exclude topics.](../media/topics-excluded-by-name.png) 
+### Topic visibility
 
-    (Knowledge managers can also exclude topics in the topic center after discovery.)
+On the **Topic visibility** page, you'll choose who can see topics.
 
-    #### How to exclude topics by name    
+1. Choose **Edit** to make changes to who can see topics.
 
-    If you need to exclude topics, after selecting **Exclude topics by name**, download the .csv template and update it with the list of topics that you want to exclude from your discovery results.
-
-    ![Exclude topics in CSV template.](../media/exclude-topics-csv.png) 
-
-    In the CSV template, enter the following information about the topics you want to exclude:
-
-    - **Name**: Type the name of the topic you want to exclude. There are two ways to do this:
-        - Exact match: You can include the exact name or acronym (for example, *Contoso* or *ATL*).
-        - Partial match: You can exclude all topics that have a specific word in it.  For example, *arc* will exclude all topics with the word *arc* in it, such as *Arc circle*, *Plasma arc welding*, or *Training arc*. Note that it will not exclude topics in which the text is included as part of a word, such as *Architecture*.
-    - **Stands for (optional)**: If you want to exclude an acronym, type the words the acronym stands for.
-    - **MatchType-Exact/Partial**: Type whether the name you entered was an *exact* or *partial* match type.
-
-    After you've completed and saved your .csv file, select **Browse** to locate and select it.
-    
-    Select **Next**.
-
-6. On the **Who can see topics and where can they see them** page, you will configure topic visibility. In the **Who can see topics** setting, you choose who will have access to topic details, such as highlighted topics, topic cards, topic answers in search, and topic pages. You can select:
+2. Select one of the following options:
     - **Everyone in my organization**
     - **Only selected people or security groups**
     - **No one**
 
-    ![Who can see topics.](../media/ksetup2.png)  
+3. Select **Save**.
 
-    > [!Note] 
-    > While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them will be able to view topics.
+![Screenshot of the who can see topics options.](../media/knowledge-management/ksetup2.png)
 
-7. In the **Permissions for topic management** page, you choose who will be able to create, edit, or manage topics. In the **Who can create and edit topics** section, you can select:
+> [!NOTE]
+> While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them will be able to view topics.
+
+### Topic permissions
+
+In the **Topic permissions** page, you choose who can create, edit, and manage topics.
+
+![Screenshot of the topic permissions page.](../media/knowledge-management/topic-permissions.png)
+
+1. First, go to the **Who can create and edit topics** section. You can select:
     - **Everyone in my organization**
     - **Only selected people or security groups**
     - **No one**
 
-    ![Permissions for topic management, who can create and edit topics.](../media/ksetup3.png) 
+2. Select **Save**.
 
-8. In the **Who can manage topics** section, you can select:
+3. Then, go to the **Who can manage topics** section. You can select:
     - **Everyone in my organization**
     - **Only selected people or security groups**
 
-    ![Permissions for topic management.](../media/km-setup-create-edit-topics.png) 
+4. Select **Save**.
 
-    Select **Next**.
+5. If you chose **Only selected people or security groups**, type the name of the person or group and then select it when it appears. Repeat until you've added everyone who should be able to manage topics.
 
-9. On the **Create topic center** page, you can create your topic center site in which topic pages can be viewed and topics can be managed. In the **Site name** box, type a name for your topic center. You can click the pencil icon if you want to change the URL. Optionally, type a short description in the **Description** box. 
+6. Select **Save**.
 
-   > [!Important]
-   > You can change the site name later, but you can't change the URL after you complete the wizard.
+7. Then go to the **Who can see Viva Topics Early Adopter Program experiences** section. You can select:
+    - **Everyone in my organization**
+    - **Only selected people or security groups**
+    - **No one**
 
-   Select **Next**.
+8. Select **Save**.
 
-   ![Create Knowledge Center.](../media/ksetup4.png)  
+### Topic center
 
-10. On the **Review and finish** page, you can look at your selected setting and choose to make changes. If you are satisfied with your selections, select **Activate**.
+On the **Topic center** page, you can create your topic center site where users can view topic pages and manage topics.
 
-11. The **Viva Topics activated** page will display, confirming that the system will now start analyzing your selected sites for topics and creating the topic center site. Select **Done**.
+![Screenshot of the Topic center page.](../media/knowledge-management/manage-topic-center.png)
 
-12. You'll be returned to your **Connect people to knowledge** page. From this page, you can select **Manage** to make any changes to your configuration settings. 
+1. Under **Topic center name**, choose **Edit**.
 
-    ![Settings applied.](../media/ksetup7.png)    
+2. Pick a name for your topic center. Then select **Save**.
 
+3. Next go to the **Site address** section. Here you can determine the URL of your topic center. Select **Save**.
+
+> [!IMPORTANT]
+> You can change the site name later, but you can't change the URL after you complete the wizard.
+
+### Review and finish
+
+Once you've chosen all your settings you can close out the **Manage Viva Topics** pane. You can change your settings at any time by repeating the same process from your Microsoft 365 admin center.
 
 ## Access to EWS Exchange
 
@@ -184,6 +207,3 @@ You can also [add Viva Topics as an app in Teams](add-topics-app.md).
 [Topic Experiences Overview](topic-experiences-overview.md)
 
 [Learn about topics in Microsoft Viva Topics](/viva/topics/get-started-with-viva-topics)
-
-
-

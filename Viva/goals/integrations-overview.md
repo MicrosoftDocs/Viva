@@ -3,7 +3,7 @@ ms.date: 04/12/2022
 title: Integrations overview
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
@@ -54,9 +54,9 @@ To make connections public (usable by everyone in the organization) or private, 
 Viva Goals checks for new data about once per hour. You can also trigger a sync manually.
 
    >[!Note]
-   >When you trigger a sync manually, make sure the OKR or project is already integrated with one of the integration tools.
+   >When you trigger a sync manually, make sure the OKR or initiative is already integrated with one of the integration tools.
 
-1. Select the integration icon next to the progress bar of an OKR or project.
+1. Select the integration icon next to the progress bar of an OKR or initiative.
 
 2. Select the refresh symbol.
 

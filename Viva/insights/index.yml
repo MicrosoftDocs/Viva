@@ -26,9 +26,6 @@ highlightedContent:
     - title: Privacy protection
       itemType: learn 
       url: ./advanced/privacy/privacy.md
-    - title: Personal insights
-      itemType: quickstart
-      url: ./personal/introduction.md
     - title: Team insights
       itemType: overview
       url: ./org-team-insights/team-insights.md

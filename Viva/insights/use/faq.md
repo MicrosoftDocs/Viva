@@ -104,7 +104,7 @@ A2. Not an issue. Viva Insights can determine each employee's time-zone value an
 
 ##### Q3. Can I configure what data an analyst can access and use?
 
-A3. You can assign the Analyst (Limited access) role to limit an analyst access to only [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) data for advanced insights. See [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [User roles](/viva/insights/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details.
+A3. You can assign the Analyst (Limited access) role to limit an analyst access to only [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) data for advanced insights. See [Assign roles](/viva/insights/setup/assign-roles-to-wpa-admins?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [User roles](./user-roles.md) for more details.
 
 ##### Q4. Why are Start and End times so important during configuration?
 
@@ -181,7 +181,7 @@ A2. The collaborator totals include the number of internal (or external) people 
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the selected custom time period)?
 
-A3. Business policies can affect the historical data that is processed for Viva INsights. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions don't affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For details, see [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
+A3. Business policies can affect the historical data that is processed for Viva Insights. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions don't affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For details, see [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ##### Q4. How does data for meetings and emails sent to distribution lists get processed?
 
@@ -222,7 +222,7 @@ A1. Employee data can change based on the Settings and filters that are selected
 
 ##### Q2. How does Viva Insights estimate the cost of low-quality meetings? Can I customize this estimate?
 
-A2. Admins can include optional hourly-rate data in the organizational data upload, which they can then use to calculate the total cost of low-quality meetings for the [Meetings overview](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If this organizational data is provided, cost is calculated as the person's default hourly rate for the organization multiplied by the number of low-quality meeting hours. If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. On the **Settings** page, admins can change the value in the Hourly Rate field from its default value to another hourly rate.
+A2. Admins can include optional hourly rate data in the organizational data upload, which they can then use to calculate the total cost of low-quality meetings for the [Meetings overview](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). If this organizational data is provided, cost is calculated as the person's default hourly rate for the organization multiplied by the number of low-quality meeting hours. If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. On the **Settings** page, admins can change the value in the Hourly Rate field from its default value to another hourly rate.
 
 ##### Q3. Why are a group's total meeting hours (included as part of working hours and after-hours work) larger than the group's total meeting hours for the week?
 
@@ -256,3 +256,6 @@ A4. You probably opened the .csv file as is. For Excel to show the data correctl
 
 You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated. For more details, see [Low-quality meeting hours](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#low-quality-meeting-hours), [Conflicting meeting hours](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#conflicting-meeting-hours), and [Calculation variables](/viva/insights/use/explore-metrics-meetings-overview?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#calculation-variables).
 
+##### Q6. Why am I getting a null value for the Teams channel metric?
+
+Refer to [Null values after filtering Teams channel metrics](../tutorials/null-value-interaction-type.md).

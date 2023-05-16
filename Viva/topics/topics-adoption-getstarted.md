@@ -1,13 +1,15 @@
 ---
 title: Get started driving adoption of Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.date: 11/15/2021 
 audience: admin
 ms.topic: article
 ms.custom: Adopt
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -20,7 +22,7 @@ description: Learn how to drive adoption of Microsoft Viva Topics in your organi
 
 Before you get started with adoption, you need to understand the concepts involved in knowledge management and Viva Topics. The following diagram shows what happens during topic discovery and curation:
 
-![Viva Topics architecture.](../media/knowledge-management/topic-management-architecture.png)
+![Graphic of Viva Topics architecture.](../media/knowledge-management/topic-management-architecture.png)
 
 - **Discovery**: Users can discover knowledge in the apps they use every day through topic cards - they can also discover topics in Microsoft Search.
 - **Curation**: Subject matter experts (SMEs) refine topics through topic pages, and AI learns from their input. The Topic center contains topic pages that users can explore and experts can manage.
@@ -54,7 +56,7 @@ Review this list of prerequisites for getting the most out of Viva Topics:
 
 To plan for adoption of Viva Topics, you need to:
 
-![Steps to plan for adoption.](../media/knowledge-management/km-adoption-plan-adoption.png)
+![Graphic showing steps to plan for adoption.](../media/knowledge-management/km-adoption-plan-adoption.png)
 
 1. Plan your approach and target scenarios:
     - Think about defining and prioritizing the [scenarios](#target-scenarios).
@@ -187,4 +189,3 @@ When you're ready to roll out Viva Topics, you'll need to get people involved.
 - Drive the community and think about how you're going to engage them.
 - Then complete preparation steps. Some may be technical readiness, and some business readiness.
 - Finally, socialize and promote.
-

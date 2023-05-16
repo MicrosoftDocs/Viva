@@ -3,7 +3,7 @@ ms.date: 11/14/2022
 title: Enable Integrations in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
@@ -104,8 +104,9 @@ The table below shows which type of integrations are supported, their category, 
 |MS SQL     |Cross-boundary Microsoft |Data |https://www.microsoft.com/licensing/terms |
 |MySQL      |Third-party|Data |https://www.mysql.com/about/legal/ |
 |Planner      |In-boundary Microsoft 365 |Data |https://www.microsoft.com/licensing/terms |
-|PostgresSQL      |Third-party |Data |https://www.postgresql.org/about/policies/ |
+|PostgreSQL      |Third-party |Data |https://www.postgresql.org/about/policies/ |
 |Power BI      |Cross-boundary Microsoft |Data |https://www.microsoft.com/licensing/terms |
+|Project for the Web |Cross-boundary Microsoft |Data | https://www.microsoft.com/licensing/terms|
 |ProjectPlace      |Third-party |Data |https://www.planview.com/legal/legal-terms/ |
 |Salesforce      |Third-party |Data |https://www.salesforce.com/company/legal/ |
 |Smartsheet      |Third-party |Data |https://www.smartsheet.com/legal |
@@ -120,7 +121,7 @@ The table below shows which type of integrations are supported, their category, 
 
 ## How Data Integrations Work  
 
-Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and projects, enabling you to have a single source of truth for progress. For example, if you connect a Project to Azure Dev Ops, Viva Goals will be automatically updated according to progress in Azure Dev Ops. 
+Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and initiatives, enabling you to have a single source of truth for progress. For example, if you connect an initiative to Azure Dev Ops, Viva Goals will be automatically updated according to progress in Azure Dev Ops. 
 
 When you connect to a data source in Viva Goals, your authentication tokens are used to establish a secure connection between Viva Goals and the selected application. Once every hour, Viva Goals utilizes that connection to retrieve updates from the connected data source and reflect those updates in Viva Goals. 
 

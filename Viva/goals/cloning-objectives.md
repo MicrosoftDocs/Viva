@@ -2,9 +2,9 @@
 ms.date: 04/13/2022
 title: Cloning OKRs
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: RaSanders-MSFT
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -45,7 +45,7 @@ You can edit the cloned objective to reflect the leftover portion of the goal in
 
 1. Hover over the objective and select **Clone** from the dropdown on the far right. You can also do this from the Objective page: Select **Actions** -> **Clone**. 
 
-      :::image type="content" source="../media/goals/3/33/a.jpg" alt-text="Screenshot showing how you clone a single objective." lightbox="../media/goals/3/33/a.jpg":::
+    :::image type="content" source="../media/goals/navigation-sidebar/clone.png" alt-text="Screenshot of where to find clone in the dropdown menu." lightbox="../media/goals/navigation-sidebar/clone.png":::
 
 2. Choose options from the dialogue box:
 
@@ -61,7 +61,7 @@ You can edit the cloned objective to reflect the leftover portion of the goal in
    :::image type="content" source="../media/goals/3/33/b.jpg" alt-text="Screenshot of the dialog box where you clone an objective." lightbox="../media/goals/3/33/b.jpg":::
 
    >[!NOTE]
-   >Select **Keep original objective owner** if you want to retain the original owners for the objectives, key results, and projects in the hierarchy. If you want to change the OKR owner, you can assign it to yourself or anyone on your team. All the OKRs and projects in the hierarchy will be assigned to the new owner.
+   >Select **Keep original objective owner** if you want to retain the original owners for the objectives, key results, and initiatives in the hierarchy. If you want to change the OKR owner, you can assign it to yourself or anyone on your team. All the OKRs and initiatives in the hierarchy will be assigned to the new owner.
 
 3. If necessary, edit the newly cloned objective. For example, you might change key results or KPIs to reflect the remaining work in the new time period.
 
