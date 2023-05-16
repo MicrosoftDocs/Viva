@@ -54,7 +54,7 @@ You can deploy Viva Insights in your organization all at once or in phases. In e
 
 It is easy to turn on Viva Insights for all users in your organization as it comes with your [Microsoft 365 subscription](./../overview/plans-environments.md). Here is a list of recommended but optional steps that your organization might consider.
 
-* **Create a communication plan** – Identify how your organization will effectively communicate with users during and after the rollout of Viva Insights. Make it easy for users to find information about Viva Insights. For example, use Yammer groups or SharePoint sites to help users learn about the benefits of using Viva Insights within their organization.
+* **Create a communication plan** – Identify how your organization will effectively communicate with users during and after the rollout of Viva Insights. Make it easy for users to find information about Viva Insights. For example, use Viva Engage groups or SharePoint sites to help users learn about the benefits of using Viva Insights within their organization.
 * **Consider your stakeholders** – It may be important in your organization to identify and communicate with stakeholders ahead of rollout of Viva Insights. See [Include stakeholders](#include-stakeholders). 
 * **Consider running a pilot first** – Before scaling Viva Insights to your entire organization, you might want to consider [running a pilot rollout](#run-a-pilot-rollout) with a subset of users. Especially for large organizations, it is a natural step to test a broad rollout on a small scale first by conducting a pilot to validate user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation. 
 * **Security and Privacy** – Viva Insights is secure and built to protect user privacy. The [Privacy guide](./../overview/privacy-guide-users.md) describes how Viva Insights complies with privacy regulations. We recommended that you share this privacy guide with security and privacy teams to give them a better understanding of the privacy features of Viva Insights.
@@ -259,7 +259,7 @@ For a successful pilot experience, give your participants clearly defined tasks 
 Ensure that you have an open feedback channel to track progress and measure outcomes, such as:
 
 * Design a survey and use it after the pilot completes to capture and assess results. 
-* Create a Teams channel or Yammer community for pilot participants to join and share their experiences. Alternatively, use Yammer.
+* Create a Teams channel or Viva Engage community for pilot participants to join and share their experiences. Alternatively, use Viva Engage.
 
 ### Recruit pilot users
 
