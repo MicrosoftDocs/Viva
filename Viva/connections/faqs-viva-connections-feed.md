@@ -45,7 +45,7 @@ SharePoint news that's published from [organizational news sites](/SharePoint/or
     
 2. **Posts in Viva Engage communities**
 
-Certain posts in various Viva Engage communities will appear in the Feed. These Viva Engage posts will come from Viva Engage communities that are authorized to post to "All Company" or the entire organization. Posts that are [All Company](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124) are intended to be viewed by everyone. 
+Certain posts in various Viva Engage communities will appear in the Feed. These Viva Engage posts will come from Viva Engage communities that are authorized to post to "All Company" or the entire organization. Posts that are [All Company](https://techcommunity.microsoft.com/t5/viva-engage-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124) are intended to be viewed by everyone. 
 
 In addition to All Company Viva Engage posts, you'll also see the following activity from Viva Engage in the Feed:
 
@@ -118,7 +118,7 @@ There’s no configuration required to get the Feed working. For the current rel
 
 For SharePoint news, more filtering is available through [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293), which allows publishers to designate content relevant to specific groups of people. Examples might be employees in a specific department, region, building, or title. This is done by enabling audience targeting on the site where content is being published, then using Azure Active Directory groups to define the target audience. However, if audience targeting isn't applied, users will still get the SharePoint News on their feed. Publishers also have the ability to promote critical messages in the Feed. News published from Org News sites has a Boost feature that explicitly tells the feed ‘this content is important’. As a result, that content is artificially pushed to the top of the feed. [Learn more about audience targeting in Viva Connections](/viva/connections/use-audience-targeting-in-viva-connections). 
 
-In Viva Engage, moderators of the All-Company community can Feature a post to indicate it’s significant and increase visibility within the organization. Featured posts from Viva Engage are treated as important by our ranking algorithm. For communities that you're a member of, communication managers can also [create Announcements within those communities](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b), which will also be treated as important by our ranking algorithm.
+In Viva Engage, moderators of the All-Company community can Feature a post to indicate it’s significant and increase visibility within the organization. Featured posts from Viva Engage are treated as important by our ranking algorithm. For communities that you're a member of, communication managers can also [create Announcements within those communities](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-viva-engage-4b30c7e0-f915-4c69-9582-ccbbd09a516b), which will also be treated as important by our ranking algorithm.
 
 
 

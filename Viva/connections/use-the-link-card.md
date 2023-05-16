@@ -111,7 +111,7 @@ Viva Engage is a social and engagement experience that connects leaders, communi
 
 **In this example, Contoso links to a Viva Engage community for a specific project:**
 
-![Screenshot of the web link card that's connected to a Viva Engage community.](../media/connections/link-yammer.png)
+![Screenshot of the web link card that's connected to a Viva Engage community.](../media/connections/link-viva-engage.png)
 
 1.	Add a **Web link** card and select **Edit** (pencil icon).
 2.	In the **Settings** panel, paste the Viva Engage community URL into the Link field. This URL can be copied from the top of the web browser. 

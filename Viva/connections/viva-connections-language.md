@@ -93,13 +93,13 @@ The Dashboard is intended to enable quick access to content and tasks from vario
    ![Image of where to specify the language for a card.](../media/connections/vc-language-card.png)
 
 ## Viva Connections Feed
-The Feed experience will display SharePoint news posted from [organizational news sites](/sharepoint/organization-news-site), sites you frequent and follow, [videos hosted on SharePoint](video-news-links.md), Viva Engage posts in the [All-company group](/yammer/manage-yammer-groups/yammer-all-company-yammer-community), Viva Engage posts in communities you follow, and [SharePoint news that has been boosted](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). 
+The Feed experience will display SharePoint news posted from [organizational news sites](/sharepoint/organization-news-site), sites you frequent and follow, [videos hosted on SharePoint](video-news-links.md), Viva Engage posts in the [All-company group](/viva/engage/manage-viva-engage-groups/viva-engage-all-company-viva-engage-community), Viva Engage posts in communities you follow, and [SharePoint news that has been boosted](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). 
 
 #### Organizational news
 Make sure that authoritative news sites (there can be more than one organization news site) are created with English as the default language and that authors of news post are creating the news posts in English language – even if their own [preferred language setting in Microsoft 365](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) is not English. In order for content in the Feed to display in a language other than your organization’s default language, [SharePoint news posts will need to be available in more than one language](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
 
 #### All company Viva Engage
-Announcement posts in the [All-company group in Viva Engage](/yammer/manage-yammer-groups/yammer-all-company-yammer-community) should be created in English.
+Announcement posts in the [All-company group in Viva Engage](/viva/engage/manage-viva-engage-groups/viva-engage-all-company-viva-engage-community) should be created in English.
 
 
 ## Viva Connections Resources
