@@ -59,7 +59,7 @@ When a user is curious to learn more about a topic, they can select the highligh
 
 ![Image showing topic summary card.](../media/knowledge-management/topic-summary-card-tc.png)
 
-Additionally, users will also be able to find topics through Microsoft Search and Microsoft Office. Over time, Viva Topics will be added to more places across Microsoft 365, including Teams, Yammer, and Outlook.  
+Additionally, users will also be able to find topics through Microsoft Search and Microsoft Office. Over time, Viva Topics will be added to more places across Microsoft 365, including Teams, Viva Engage, and Outlook.  
 
 ## Contribute to relevant topics
 

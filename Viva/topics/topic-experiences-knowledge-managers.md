@@ -126,13 +126,13 @@ There are two types of knowledge to include in the knowledge base:
 
    Knowledge managers should define the minimum requirements for a published topic and communicate these standards to topic contributors. Minimum requirements for topics in the organization could include guidance that all topics contain alternate names, a factual description, and pinned people and resources. 
 
-2. **Tacit**: Tacit knowledge refers to the knowledge, skills, and abilities an individual gains through experience that resides in their mind. Tacit knowledge can be difficult to put into words or otherwise communicate. Tacit knowledge often surfaces in conversations or answers to specific questions. [Yammer](https://support.microsoft.com/office/what-is-yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c), an enterprise social network in Microsoft 365, provides a platform for capturing and sharing the tacit knowledge of experts through its [question and best answer feature](https://support.microsoft.com/office/use-questions-and-answers-in-a-yammer-community-a4f1b722-d1bf-42be-a592-7288c7c0b895), conversations, and [polling](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) capability to seek opinions on relevant topics.  
+2. **Tacit**: Tacit knowledge refers to the knowledge, skills, and abilities an individual gains through experience that resides in their mind. Tacit knowledge can be difficult to put into words or otherwise communicate. Tacit knowledge often surfaces in conversations or answers to specific questions. [Viva Engage](https://support.microsoft.com/office/what-is-viva-engage-1b0f3b3e-89ee-4b66-aac5-30def12f287c), an enterprise social network in Microsoft 365, provides a platform for capturing and sharing the tacit knowledge of experts through its [question and best answer feature](https://support.microsoft.com/office/use-questions-and-answers-in-a-viva-engage-community-a4f1b722-d1bf-42be-a592-7288c7c0b895), conversations, and [polling](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-viva-engage-4b30c7e0-f915-4c69-9582-ccbbd09a516b) capability to seek opinions on relevant topics.  
 
-   ![Image showing a question and tacit knowledge sharing on Yammer.](../media/knowledge-management/topics-tacit-knowledge-yammer-km.png)
+   ![Image showing a question and tacit knowledge sharing on Viva Engage.](../media/knowledge-management/topics-tacit-knowledge-yammer-km.png)
 
-   Use the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) to bring tacit knowledge into relevant topic pages.
+   Use the [Viva Engage conversations web part](https://support.microsoft.com/office/use-a-viva-engage-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) to bring tacit knowledge into relevant topic pages.
 
-   ![Image showing a yammer conversation along a topic page.](../media/knowledge-management/topics-yammer-conversation-km.png)
+   ![Image showing a Viva Engage conversation along a topic page.](../media/knowledge-management/topics-viva-engage-conversation-km.png)
 
 Specific scenarios of Viva Topics can require unique properties appended to a topics page. For example, product-based topic pages can include brand assets, SKU#, roadmap information, product news, frequently asked questions (FAQ), and product specifications. [Web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in different types of content. 
 
@@ -166,7 +166,7 @@ Once colleagues have curated topics, **recognize** their efforts. There are ways
 
 - [Praise](/viva/insights/personal/teams/viva-insights-praise) colleagues in [Viva Insights](/viva/insights/personal/teams/viva-teams-app) 
 
-- [Praise](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) someone in a Yammer network 
+- [Praise](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) someone in a Viva Engage network 
 
 - [Send an announcement](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992) in Microsoft Teams of the topic contribution made by colleagues 
 
