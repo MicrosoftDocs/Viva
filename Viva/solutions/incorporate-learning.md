@@ -114,7 +114,7 @@ You can [recommend learning content](https://support.microsoft.com/office/recomm
 Spread the news about learning opportunities.
 
 1. Post in Microsoft Teams channels and teams about learning opportunities. Highlight when required trainings are due and share courses relevant to specific teams.
-2. Share learning opportunities and engage with your users on Yammer.
+2. Share learning opportunities and engage with your users on Viva Engage.
 3. Spread the news offline with town hall meetings and posters.
 4. Create a SharePoint news post. You can use audience targeting to show the news to specific groups, such as new hires or frontline workers. If you’re using Viva Connections, this post will show up on the dashboards of targeted users.
 [Learn more about how to spread news within your organization](/sharepoint/corporate-communications-overview).
