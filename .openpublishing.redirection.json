@@ -1037,7 +1037,11 @@
         "source_path": "viva/insights/personal/teams/reference/viva-teams-app-settings.md",
         "redirect_url": "https://support.microsoft.com/topic/configure-your-app-settings-in-viva-insights-e7d25f88-d102-4740-a7d0-af8610b457c5",
         "redirect_document_id": false
-      }
-                                                                          
+      },
+      {
+        "source_path": "Viva\topics\topic-experiences-Yammer.md",
+        "redirect_url": "/viva/topic/viva-engage",
+        "redirect_document_id": false
+      }                                                                    
     ]
 }
