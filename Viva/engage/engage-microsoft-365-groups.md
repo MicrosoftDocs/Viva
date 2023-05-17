@@ -34,7 +34,7 @@ Communities that are connected to Microsoft 365 have many advantages over commun
 
 - From within Viva Engage, you can access Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, and a plan in Planner. Microsoft 365 Groups also includes integration with services like Power BI and Stream.
 - Create and host live events. ([Live events in Viva Engage](/yammer/manage-yammer-groups/yammer-live-events))
-- Use Microsoft 365 connectors to add apps to classic Viva Engage. ([Add apps to Viva Engage](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
+- Use Microsoft 365 connectors to add apps to classic Viva Engage. ([Add apps to Viva Engage](https://support.office.com/article/Add-apps-to-viva-engage-bbb77f10-8779-4f3d-8096-db256f8653b8))
 - Manage who can create Microsoft 365 Groups. ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
 - Use dynamic groups to automatically update group membership from Azure Active Directory. ([Create a dynamic group](/yammer/manage-yammer-groups/create-a-dynamic-group))
 - Edit group membership from various apps. Changes to membership made in one Microsoft 365 app apply to other Microsoft 365 apps.

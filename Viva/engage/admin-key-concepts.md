@@ -46,29 +46,29 @@ This article describes the key concepts you should know and key decisions you sh
 
    - [Configure](./setup.md) and [customize](./setup.md) your network. [Set up a usage policy](./set-up-usage-policy.md) to keep conversations appropriate and useful.
 
-   - Review the [security and compliance features](/yammer/manage-security-and-compliance/security-and-compliance) and define your data retention and export plans.
+   - Review the [security and compliance features](/viva/engage/manage-security-and-compliance/security-and-compliance) and define your data retention and export plans.
 
    - Make sure your domains are set up correctly in Microsoft 365. By default, your Viva Engage internal network is only available to employees whose email addresses match the domains verified in Microsoft 365.
 
-   If all your domains are verified, you're all set. For more information, see [Manage Viva Engage domains across their lifecycle](/yammer/configure-your-yammer-network/manage-yammer-domains).
+   If all your domains are verified, you're all set. For more information, see [Manage Viva Engage domains across their lifecycle](/viva/engage/configure-your-viva-engage-network/manage-viva-engage-domains).
 
-   If your organization has business units that have different domains, Viva Engage can help you join these domains into a consolidated network. You can also create external networks for each business unit or a singular external network for all employees to access. To view details on these options and merge or create networks, see [Combine multiple Viva Engage networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks).
+   If your organization has business units that have different domains, Viva Engage can help you join these domains into a consolidated network. You can also create external networks for each business unit or a singular external network for all employees to access. To view details on these options and merge or create networks, see [Combine multiple Viva Engage networks](/viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks).
 
 3. Decide whether you'll use Viva Engage to collaborate with people outside your organization.
 
-    Your internal network, also known as a home network, is a private and secure collaboration space where employees connect with their coworkers. Only employees who have verified corporate email addresses can join the home network and access its content and users. Users from one home network can't view the content or interact with users from another network unless they're affiliated with both organizations. Messages posted within your home network are owned by your organization and can't be shared externally without permission. Note that admins can invite external users as guests to the internal network, as described in [External messaging FAQ (Viva Engage)](/yammer/work-with-external-users/external-messaging-faq).
+    Your internal network, also known as a home network, is a private and secure collaboration space where employees connect with their coworkers. Only employees who have verified corporate email addresses can join the home network and access its content and users. Users from one home network can't view the content or interact with users from another network unless they're affiliated with both organizations. Messages posted within your home network are owned by your organization and can't be shared externally without permission. Note that admins can invite external users as guests to the internal network, as described in [External messaging FAQ (Viva Engage)](/viva/engage/work-with-external-users/external-messaging-faq).
 
-    An external network is a separate extension of your home network but includes invited users from outside your organization. It's a private and secure collaboration space for your organization to engage with outside partners, such as customers, suppliers, or investors. While external networks can accommodate users who have different email domains, access is by invitation only. For more information, see [Create and manage an external network](/yammer/work-with-external-users/create-and-manage-an-external-network).
+    An external network is a separate extension of your home network but includes invited users from outside your organization. It's a private and secure collaboration space for your organization to engage with outside partners, such as customers, suppliers, or investors. While external networks can accommodate users who have different email domains, access is by invitation only. For more information, see [Create and manage an external network](/viva/engage/work-with-external-users/create-and-manage-an-external-network).
 
 4. Explore the options for groups, and set up the groups you need:
 
    - To set up public or private groups, see [Create a group in Viva Engage](https://support.office.com/article/b407af4f-9a58-4b12-b43e-afbb1b07c889). Although anyone on Viva Engage can create groups, it's often helpful for the admin to set up groups for each department by using a consistent group naming strategy, such as *Sales Team*, *Marketing Team*, and so on.
 
-   - If you want to use groups that can use Microsoft 365 services, such as SharePoint Online, OneNote, and Planner, you need to ensure that users have a Viva Engage license assigned to them. Such groups are called [Microsoft 365 connected groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups).
+   - If you want to use groups that can use Microsoft 365 services, such as SharePoint Online, OneNote, and Planner, you need to ensure that users have a Viva Engage license assigned to them. Such groups are called [Microsoft 365 connected groups](/viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups).
 
-   - Set up groups that include external users. These are called [external groups](/yammer/work-with-external-users/create-and-manage-external-groups).
+   - Set up groups that include external users. These are called [external groups](/viva/engage/work-with-external-users/create-and-manage-external-groups).
 
-   - Decide if you want to use [dynamic groups](/yammer/manage-yammer-groups/create-a-dynamic-group) to keep membership current as people change roles in your company.
+   - Decide if you want to use [dynamic groups](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group) to keep membership current as people change roles in your company.
 
 
 5. People are the core of the enterprise social network, so invite your team to get started on Viva Engage via the Viva Engage admin center.
