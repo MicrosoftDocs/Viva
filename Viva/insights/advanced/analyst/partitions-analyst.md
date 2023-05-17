@@ -27,7 +27,7 @@ A few analysts on your team might be assigned to the reservoir (the global parti
 
 Here’s a visual representation of how partitions work. In this scenario, the admin set up three partitions. Notice that some analysts are assigned to multiple partitions, some are assigned to the global partition, and some are only assigned to a single partition.
 
-:::image type="complex" source="../images/admin-partitions.png" alt-text="<alt text>"lightbox="./images/admin-partitions-expanded.png":::
+:::image type="complex" source="../images/admin-partitions.png" alt-text="<alt text>"lightbox="../images/admin-partitions-expanded.png":::
    Diagram that shows a Global partition, represented as a cylinder, with five arrows. The first three, top-level arrows point to buckets labeled "Partition 1," "Partition 2," "Partition 3." Each bucket has three second-level arrows leading down to analysts, represented as employee badges. The second two top-level arrows from the global partition point directly to two analysts. 
 :::image-end:::
  
@@ -62,6 +62,7 @@ If you create a metric rule in one partition, an analyst in another partition co
 Metrics you create in one partition don’t transfer to other partitions, but other analysts in your partition can use them.
 
 ## Switch between your assigned partitions
+
 If your admin assigns you to multiple partitions, use the partition switcher to move between them.
 
 To get to the partition switcher, go to the top left-hand corner of your screen and select the dropdown under **Partitions**. Select the partition you want to switch to. You can switch at any time.
