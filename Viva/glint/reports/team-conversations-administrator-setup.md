@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Admin set up for Team Conversations  
+title: Admin setup for Viva Glint Team Conversations 
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Team Conversations are set up by the Company Administrator within Program Summary."
 ---
 
-# Admin set up for Team Conversations 
+# Admin setup for Viva Glint Team Conversations
 
 To learn more about Team Conversation, see [Team Conversation](https://go.microsoft.com/fwlink/?linkid=2234345).
 

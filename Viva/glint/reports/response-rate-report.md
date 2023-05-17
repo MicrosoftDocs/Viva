@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Use the Response Rate report 
+title: Use the Viva Glint Response Rate report
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -20,7 +20,7 @@ description: "The Response Rate report provides a deep dive into survey response
 
 ---
 
-# Use the Response Rate report 
+# Use the Viva Glint Response Rate report
 
 The Response Rate report provides a deep dive into survey response rate trends and comparisons across hierarchies and key demographics. The report is available to anyone with Program Access and is viewable by admins after the survey launches. When the file is ready, the admin receives an email notification and can share results with their managers. The Response Rate report is accessible through the Reports tab on the Microsoft Viva Glint dashboard. 
 

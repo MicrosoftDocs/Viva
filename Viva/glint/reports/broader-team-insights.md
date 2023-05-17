@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Use the Broader Team Insights feature 
+title: Use Viva Glint’s Broader Team Insights feature
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Broader Team Insights bridges the confidentiality-driven gap for managers of small teams that may not have enough team members or survey responses to view their own team’s responses."
 ---
 
-# Use the Broader Team Insights feature 
+# Use Viva Glint’s Broader Team Insights feature
 
 Team leaders who use Microsoft Viva Glint’s action taking tools see a significant increase in scores. However, up to 50% of managers’ teams are too small to allow them access to their own team’s results. By enabling Broader Team Insights, managers are empowered to significantly impact employee engagement.  
 

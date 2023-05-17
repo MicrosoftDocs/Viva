@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Take action with Team Conversations 
+title: Take Actions with Viva Glint Team Conversations
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Managers who draw their employees into the process of sharing feedback results and prioritizing focus areas are the most successful managers."
 ---
 
-# Take action with Team Conversations  
+# Take Actions with Viva Glint Team Conversations
 
 Microsoft Viva Glint Team Conversations feature makes the best use of the [Manager Concierge ](https://www.microsoft.com) and [Team Summary ](https://www.microsoft.com) experiences. When managers lead team conversations to share results, invite their teams to participate in prioritizing Focus Areas, and brainstorm action taking, they draw their employees into the process of improving their experience at work.  
 

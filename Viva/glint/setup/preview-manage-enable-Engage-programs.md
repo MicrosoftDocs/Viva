@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Preview, manage, and enable surveys and dashboards  
+title: Preview, manage, and enable Viva Glint surveys and dashboards
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Once your Viva Glint Engagement program is set up, take these steps to set it live or edit it."
 ---
 
-# Preview, manage, and enable surveys and dashboards 
+# Preview, manage, and enable Viva Glint surveys and dashboards
 
 After all the sections in Program Summary have been set up, use the following guidance to approve, preview, edit, and launch your Microsoft Viva Glint program. 
 

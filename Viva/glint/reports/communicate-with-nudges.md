@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Communicate with Nudges in Viva Glint
+title: Communicate with Viva Glint Nudges
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Nudges are personalized email notifications designed to meet managers where they are in their flow of work. Team Summary is easily enabled from the Viva Glint admin dashboard, allowing program roles permissions to relevant reports."
 ---
 
-# Communicate with Nudges in Viva Glint
+# Communicate with Viva Glint Nudges
 
 Microsoft Viva Glint Nudges is a system of intelligent, personalized email notifications designed to meet managers where they are in their flow of work. Nudges encourage managers to take simple steps to drive their team’s engagement and performance. Nudge notifications can include a link to the manager dashboard.
 

@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Set up and manage the Team Summary dashboard 
+title: Set up and manage the Team Summary dashboard in Viva Glint
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Team Summary is easily enabled from the Viva Glint admin dashboard, allowing program roles permissions to relevant reports."
 ---
 
-# Set up and manage the Team Summary dashboard 
+# Set up and manage the Team Summary dashboard in Viva Glint
 
 ## Enable Team Summary as the default dashboard
 

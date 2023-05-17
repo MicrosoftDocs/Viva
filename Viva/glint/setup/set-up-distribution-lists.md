@@ -1,6 +1,6 @@
 ---
 ms.date: 04/04/2023
-title: Set up and use Distribution Lists
+title: Set up and use Distribution Lists in Viva Glint
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Distribution lists define which employees within an organization should receive a survey."
 ---	
 
-# Set up and use Distribution Lists
+# Set up and use Distribution Lists in Viva Glint
 
 Distribution Lists define which employees within your organization should receive a survey. When creating a Distribution List, start with the list of all active employees and then refine this list using employee attributes. This creates a custom list of employees that can be chosen as recipients for any Microsoft Viva Glint program within your organization.
 

@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Use the Question Library 
+title: Use the Viva Glint Question Library
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Choose from hundreds of questions and statements to surface feedback that will provide data to support your company goals."
 ---
 
-# Use the Question Library 
+# Use the Viva Glint Question Library
 
 From the admin dashboard, in the **Survey** section, you'll find the **Question Library**. Microsoft Viva Glint’s Question Library contains hundreds of questions and statements that can be included in your surveys. If you choose a template for a specific survey type, the questions and statements that best support the survey goal are prepopulated into the template. You can create and edit items from the Question Library, but Viva Glint suggests that you use our standard questions as most are mapped to benchmarks.
  

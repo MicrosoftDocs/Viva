@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Why surveys are confidential rather than anonymous in Viva Glint 
+title: Why Viva Glint surveys are confidential rather than anonymous
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Confidentiality guidelines allow our customers to provide analytic fundamentals while meeting local, governmental regulatory requirements."
 ---
 
-# Why surveys are confidential rather than anonymous 
+# Why Viva Glint surveys are confidential rather than anonymous
 
 ## Microsoft Viva Glint surveys are confidential, not anonymous
 

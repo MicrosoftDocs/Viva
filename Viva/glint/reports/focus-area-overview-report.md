@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Use the Focus Area Overview report
+title: Use Viva Glint's Focus Area Overview report
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "Provides a status of the completion of Focus Areas across teams, at-a-glance critical insights, and access to additional details."
 ---
 
-# Use the Focus Area Overview report 
+# Use Viva Glint's Focus Area Overview report
 
 The Focus Areas Overview report provides a status of the completion of Focus Areas across teams. The report provides critical insights immediately with easy access to additional details.  
 

@@ -1,6 +1,6 @@
 ---
 ms.date: 04/04/2023
-title: Use the People page to view employee information in Viva Glint
+title: Use Viva Glint's People page to view employee information
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "The People page on the dashboard allows Viva Glint admins to view employee attributes, manage permissions and roles, and deactivate employees."
 ---	
 
-# Use the People page to view employee information in Viva Glint
+# Use Viva Glint's People page to view employee information
 
 The People page functionality allows admins to view employee attributes, manage permissions and roles, and deactivate employees. 
 

@@ -1,6 +1,6 @@
 ---
 ms.date: 03/29/2023
-title: Understand the trend graph in an Employee Lifecycle survey 
+title: Use the trend graph in a Viva Glint Employee Lifecycle program
 ms.reviewer: 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -19,7 +19,7 @@ search.appverid:
 description: "The Trend Graph for Employee Lifecycle surveys behaves differently than that of recurring survey programs."
 ---
 
-# Understand the trend graph in an Employee Lifecycle survey 
+# Use the trend graph in a Viva Glint Employee Lifecycle program
 
 The Trend Graph for Employee Lifecycle (ELC) surveys behaves differently than that of a Microsoft Viva Glint recurring program. 
 
