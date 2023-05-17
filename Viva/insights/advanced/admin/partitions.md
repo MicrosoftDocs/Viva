@@ -1,5 +1,6 @@
 ---
-ms.date: 03/17/2023
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/17/2023
 title: Partitions in Viva Insights
 description: Learn how to create analyst workspaces in the advanced insights app.
 author: lilyolason
@@ -16,6 +17,8 @@ audience: Admin
 
 # Partitions in Viva Insights
 
+*Applies to: private preview customers only*
+
 Partitions are analyst workspaces that only contain certain employee data and attributes. In a partition, analysts can only create queries based on the data in that partition.
 
 You can think of partitions like buckets. Each bucket (partition) contains a certain scoop of data from the reservoir (your entire dataset, also known as the **global partition**). For example, one bucket might only contain data from employees who work in your company’s marketing division.
@@ -27,7 +30,10 @@ Or maybe you create a bucket just for employees in your company’s US offices. 
 Also, you might choose to assign a few analysts to the reservoir (the global partition). These analysts can access your entire company’s dataset, see all data, and run queries on all employees in the organization. We go into more detail about the global partition later on in this article.
 
 Here’s a visual representation of how partitions work. In this scenario, the admin set up three partitions. Notice that some analysts are assigned to multiple partitions, some are assigned to the global partition, and some are only assigned to a single partition.
-[image]
+
+:::image type="complex" source="../images/admin-partitions.png" alt-text="<alt text>"lightbox="./images/admin-partitions-expanded.png":::
+   Diagram that shows a Global partition, represented as a cylinder, with five arrows. The first three, top-level arrows point to buckets labeled "Partition 1," "Partition 2," "Partition 3." Each bucket has three second-level arrows leading down to analysts, represented as employee badges. The second two top-level arrows from the global partition point directly to two analysts. 
+:::image-end:::
 
 ## Row and column data
 
@@ -36,7 +42,7 @@ A partition is both a row-level and a column-level control for data access. In o
 * *Employees* analysts can run queries about. Each employee is one row of your organizational data file.
 * *Attributes* analysts can use to build queries and rules. Each attribute is one column of your organizational data file.
 
-[image]
+:::image type="content" source="../images/admin-partitions-row-column-control.png" alt-text="Diagram of a table that shows employee data as rows, attributes as columns, and partitions as the space in the middle." lightbox="../images/admin-partitions-row-column-control-expanded.png":::
 
 You'll filter employees and add attributes while you build your partition.
 
@@ -123,29 +129,6 @@ As we mentioned earlier, you’ll notice a few required attributes in **Select a
 |**Domain**|System – SMTP address|
 |**PopulationType**|System - SMTP address|
 |**TimeZone**|System – Outlook/Exchange settings|
-
-## About errors for conflicting fields
-
-If you delete fields or replace existing organizational data on the **Organizational data** page, you might get an error about partitions and data fields. These errors tell you that fields in your existing data are used in partitions, either in filters or as organizational attributes.
-
-Here’s an example: let’s say you try to delete the **Function_type** field from your organizational data. However, one of your partitions, **Sales_Partition**, uses the **Function_type** field in a filter or as an organizational attribute. **Sales_Partition** can’t continue to work without this field, so the advanced insights app shows you an error message:
-
-[image]
-
-You’ll get a similar error when you replace all your organizational data but your new file is missing attributes a partition uses:
-
-[image]
-
-[pending]
-
-In these cases, you'll need to either:
-
-* Edit your partition to remove these missing attributes. 
-* Delete the partition altogether.
-    >[!Caution]
-    >When you delete a partition, all assigned analysts will lose their access to it.
-
-[end pending]
 
 ## How analysts use partitions
 
