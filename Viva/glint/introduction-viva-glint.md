@@ -40,5 +40,5 @@ With Viva Glint you can:
 
 ## Related topics
 
-- [Four stages of Viva Glint program](four-stages-glint-program.md)
-- [Viva Glint Survey overview](glint-surveys-overview.md)
+- [Four stages of Viva Glint program](start/four-stages-glint-program.md)
+- [Viva Glint Survey overview](start/glint-surveys-overview.md)
