@@ -54,19 +54,19 @@ Once you have selected your questions that align to your organizational strategi
 
 To map, you must consider the wording, item intention and referents.
 
- :::image type="content" source="images/mapping-guidelines.png" alt-text="This is mapping guideline image.":::
+:::image type="content" source="../../media/glint/setup/mapping-guidelines.png" alt-text="Image of the mapping guideline":::
 
 #### Item intention 
 
-If items have different wording, they can still be mapped, provided the intention of the historical item aligns with the intention of the item it’s being mapped to – they must have the same aimed purpose and outcome: 
+If items have different wording, they can still be mapped, provided the intention of the historical item aligns with the intention of the item it’s being mapped to – they must have the same aimed purpose and outcome:
 
-:::image type="content" source="images/item-intention.png" alt-text="This is item intention image.":::
+:::image type="content" source="../../media/glint/setup/item-intention.png" alt-text="Image of the intention":::
 
 #### Item referent 
 
 To gain specific insights, an item will always have a referent (for example, Company, senior leadership, direct manager, team, coworkers or even the employee themselves). If two items have similar intentions but are aimed at different referents, they can't be mapped.  
 
-:::image type="content" source="images/item-referent.png" alt-text="This is item referent image.":::
+:::image type="content" source="../../media/glint/setup/item-referent.png" alt-text="Image of the item referent":::
 
 ## Edit items from the Question Library 
 
