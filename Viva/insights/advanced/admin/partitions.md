@@ -31,7 +31,7 @@ Also, you might choose to assign a few analysts to the reservoir (the global par
 
 Here’s a visual representation of how partitions work. In this scenario, the admin set up three partitions. Notice that some analysts are assigned to multiple partitions, some are assigned to the global partition, and some are only assigned to a single partition.
 
-:::image type="complex" source="../images/admin-partitions.png" alt-text="<alt text>"lightbox="./images/admin-partitions-expanded.png":::
+:::image type="complex" source="../images/admin-partitions.png" alt-text="<alt text>"lightbox="../images/admin-partitions-expanded.png":::
    Diagram that shows a Global partition, represented as a cylinder, with five arrows. The first three, top-level arrows point to buckets labeled "Partition 1," "Partition 2," "Partition 3." Each bucket has three second-level arrows leading down to analysts, represented as employee badges. The second two top-level arrows from the global partition point directly to two analysts. 
 :::image-end:::
 
