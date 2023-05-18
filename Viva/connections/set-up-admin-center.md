@@ -62,7 +62,7 @@ Setting up Viva Connections only takes a few steps but there are some considerat
 1. Navigate to [admin.microsoft.com](https://admin.microsoft.com/Adminportal/Home#/homepage) and sign in with your credentials.
 2. Select **Setup** and under featured collections, select **Microsoft Viva**.
 
-   :::image type="content" source="../media/connections/setup-admin-center/microsoft-viva-option.png" alt-text="The Microsoft Viva option to select." lightbox="../media/connections/setup-admin-center/microsoft-viva-option.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/microsoft-viva-option.png" alt-text="Screenshot showing how to navigate to the Microsoft Viva admin center." lightbox="../media/connections/set-up-admin-center/microsoft-viva-option.png":::
 
 3. Select **Viva Connections** to open the Viva Connections admin center.
 4. The Viva Connections admin center will open. If you already have a SharePoint home site (intranet portal), Viva Connections will display it as an experience automatically.
@@ -71,7 +71,7 @@ Setting up Viva Connections only takes a few steps but there are some considerat
 
 Create an all-encompassing Connections experience for the entire organization, or for distinct audiences. Optionally, when you create a new experience, you can choose to create a stand-alone Connections experience, or to create a Connections experience and [build off an existing intranet portal (SharePoint home site)](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together).
 
-:::image type="content" source="../media/connections/setup-admin-center/set-up-viva-connections-as-admin.png" alt-text="Steps to setting up Viva Connections as an admin." lightbox="../media/connections/setup-admin-center/set-up-viva-connections-as-admin.png":::
+:::image type="content" source="../media/connections/set-up-admin-center/set-up-viva-connections-as-admin.png" alt-text="Screenshot of steps to setting up Viva Connections as an admin." lightbox="../media/connections/set-up-admin-center/set-up-viva-connections-as-admin.png":::
 
 > [!NOTE]
 >
@@ -89,7 +89,7 @@ Admins will be able to create multiple standalone experiences well as intranet h
 <br>
 > **B. Build from an existing intranet portal**: This option is ideal for organizations that already have a SharePoint communications site and would like to use their own content, or would like to add an intranet portal that includes Connections components that can easily be extended to the Web. This option creates a new Connections experience and automatically designates the communications site as a home site (intranet portal) that displays navigational elements, and shares permissions.
 
-   :::image type="content" source="../media/connections/setup-admin-center/create-new-viva-connections-experience.png" alt-text="Selecting which Viva Connections experience to create." lightbox="../media/connections/setup-admin-center/create-new-viva-connections-experience.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/create-new-viva-connections-experience.png" alt-text="Screenshot showing options for creating a Viva Connections experience." lightbox="../media/connections/set-up-admin-center/create-new-viva-connections-experience.png":::
 
 #### Create a Connections experience
 
@@ -97,11 +97,11 @@ This option is ideal if your organization doesn't have an existing intranet port
 
 1. Select **+ Create new**, displayed on top of the list of experiences.
 
-   :::image type="content" source="../media/connections/setup-admin-center/option-to-create-new-connections-experience.png" alt-text="The option to create a new Connections experience highlighted." lightbox="../media/connections/setup-admin-center/option-to-create-new-connections-experience.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/option-to-create-new-connections-experience.png" alt-text="Screenshot of the option to create a new Connections experience highlighted." lightbox="../media/connections/set-up-admin-center/option-to-create-new-connections-experience.png":::
 
 2. Select **Create a Connections experience**, then select **Next**.
 
-   :::image type="content" source="../media/connections/setup-admin-center/select-create-connections-experience.png" alt-text="Selecting to create a Connections experience." lightbox="../media/connections/setup-admin-center/select-create-connections-experience.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/select-create-connections-experience.png" alt-text="Screenshot of selecting to create a Connections experience." lightbox="../media/connections/set-up-admin-center/select-create-connections-experience.png":::
 
 3. Give the new experience a name, add a description, decide the settings, and then select **Next**.
 
@@ -119,18 +119,18 @@ If your organization has an existing intranet portal, then this option allows yo
 
 1. Select **+ Create new**, displayed on top of the list of experiences.
 
-   :::image type="content" source="../media/connections/setup-admin-center/option-to-create-new-connections-experience.png" alt-text="The option to create a new Connections experience highlighted." lightbox="../media/connections/setup-admin-center/option-to-create-new-connections-experience.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/option-to-create-new-connections-experience.png" alt-text="Screenshot of the option to create a new Connections experience highlighted." lightbox="../media/connections/set-up-admin-center/option-to-create-new-connections-experience.png":::
 
 2. Select **Build from an existing intranet portal**, then select **Next**.
 
-   :::image type="content" source="../media/connections/setup-admin-center/build-from-existing-intranet-portal.png" alt-text="Selecting to build a Connections experience from an existing intranet portal." lightbox="../media/connections/setup-admin-center/build-from-existing-intranet-portal.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/build-from-existing-intranet-portal.png" alt-text="Screenshot of selecting to build a Connections experience from an existing intranet portal." lightbox="../media/connections/set-up-admin-center/build-from-existing-intranet-portal.png":::
 
 3. Paste the URL of your SharePoint communication site in the **URL of the communication site you want to use** field.
 
    > [!NOTE]
    > The name given to the experience in the MAC will also display for owners and members who help manage and edit experiences.
 
-   :::image type="content" source="../media/connections/setup-admin-center/Set-intranet-portal-PR.png" alt-text="This diagram presents the option to build a Connections experience from an existing intranet portal." lightbox="../media/connections/setup-admin-center/Set-intranet-portal-PR.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/set-intranet-portal-pr.png" alt-text="The screenshot of this diagram presents the option to build a Connections experience from an existing intranet portal." lightbox="../media/connections/set-up-admin-center/set-intranet-portal-pr.png":::
 
 4. After reviewing your settings, select **Create experience**.
 
@@ -180,13 +180,13 @@ Assign two or more owners to each experience so that they'll have full access to
 2. Select the **Permissions** tab from the settings panel. The owners assigned to the experience will display here.
 3. Select **Add**.
 
-   :::image type="content" source="../media/connections/setup-admin-center/add-permissions-to-assigned-owners.png" alt-text="The screen on which you can add permissions to owners of experiences." lightbox="../media/connections/setup-admin-center/add-permissions-to-assigned-owners.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/add-permissions-to-assigned-owners.png" alt-text="Screenshot of the screen on which you can add permissions to owners of experiences." lightbox="../media/connections/set-up-admin-center/add-permissions-to-assigned-owners.png":::
 
 4. Enter the names of the people you want to assign as owners to this experience in the search bar.
 5. Select **Add** after you've finished entering the names.
 6. If you want to add more owners later, select **+ Add owners** under the **Permissions** tab.
 
-   :::image type="content" source="../media/connections/setup-admin-center/add-additional-owners.png" alt-text="The screen on which you can add more owners to an experience." lightbox="../media/connections/setup-admin-center/add-additional-owners.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/add-additional-owners.png" alt-text="Screenshot of the screen on which you can add more owners to an experience." lightbox="../media/connections/set-up-admin-center/add-additional-owners.png":::
 
 ### Step 3: Designate audiences
 
@@ -208,7 +208,7 @@ Users who have already designated audiences for their experiences can use the fo
 2. Select the **Audience** tab from the settings panel.
 3. Select **Edit audience**.
 
-   :::image type="content" source="../media/connections/setup-admin-center/designate-audiences.png" alt-text="The screen on which you can designate audiences to experiences." lightbox="../media/connections/setup-admin-center/designate-audiences.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/designate-audiences.png" alt-text="Screenshot of the screen on which you can designate audiences to experiences." lightbox="../media/connections/set-up-admin-center/designate-audiences.png":::
 
 4. To create an experience for the entire organization, select **Everyone in the organization**.
 5. To create an experience for a distinct audience, select **Scope down the audience for this experience**. Then, you can filter audiences by license type, by Azure AD/M365 group, or by both.
@@ -220,11 +220,11 @@ Users who have already designated audiences for their experiences can use the fo
 
 6. Select **Save** when you're done.
 
-   :::image type="content" source="../media/connections/setup-admin-center/editing-audience.png" alt-text="The screen on which you can save the setting of designating audiences to experiences." lightbox="../media/connections/setup-admin-center/editing-audience.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/editing-audience.png" alt-text="Screenshot of the screen on which you can save the setting of designating audiences to experiences." lightbox="../media/connections/set-up-admin-center/editing-audience.png":::
 
    The audiences will display here under **Groups** and can be edited in the future.
 
-   :::image type="content" source="../media/connections/setup-admin-center/display-of-audience-data-under-groups.png" alt-text="The screen displaying details of the audience under Groups tab." lightbox="../media/connections/setup-admin-center/display-of-audience-data-under-groups.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/display-of-audience-data-under-groups.png" alt-text="Screenshot of the screen displaying details of the audience under Groups tab." lightbox="../media/connections/set-up-admin-center/display-of-audience-data-under-groups.png":::
 
 ### Step 4: Decide the order
 
@@ -232,7 +232,7 @@ If your organization has multiple experiences, some audiences may belong to more
 
 #### Example of how ordering works with multiple experiences
 
-:::image type="content" source="../media/connections/setup-admin-center/how-ordering-works-with-multiple-experiences.png" alt-text="The screen that describes how ordering works with multiple experiences." lightbox="../media/connections/setup-admin-center/how-ordering-works-with-multiple-experiences.png":::
+:::image type="content" source="../media/connections/set-up-admin-center/how-ordering-works-with-multiple-experiences.png" alt-text="Screenshot of the screen that describes how ordering works with multiple experiences." lightbox="../media/connections/set-up-admin-center/how-ordering-works-with-multiple-experiences.png":::
 
 In this example (in the screenshot), there are two Connections experiences for an organization. Both “Relecloud” experiences have been enabled and can be seen by viewers.
 
@@ -248,7 +248,7 @@ If the example organization creates another experience scoped to a subset of the
 2. Drag and drop the handles next to each experience to reorder as desired.
 3. Select **Save** when you're done.
   
-   :::image type="content" source="../media/connections/setup-admin-center/set-order-of-experiences.png" alt-text="The screen on which you set the order of experiences." lightbox="../media/connections/setup-admin-center/set-order-of-experiences.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/set-order-of-experiences.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-of-experiences.png":::
 
 ### Step 5: Enable the experience
 
@@ -257,11 +257,11 @@ Enable each Viva Connections experience to make it visible to your audience.
 1. Select a Connection experience.
 2. In the **General** tab, under **Status**, select **Edit status**.
 
-   :::image type="content" source="../media/connections/setup-admin-center/edit-status-option.png" alt-text="The screen on which you can edit the status to enable the experience." lightbox="../media/connections/setup-admin-center/edit-status-option.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/edit-status-option.png" alt-text="Screenshot of the screen on which you can edit the status to enable the experience." lightbox="../media/connections/set-up-admin-center/edit-status-option.png":::
 
 3. Select the **Enable experience** checkbox, and then select **Save**.
 
-   :::image type="content" source="../media/connections/setup-admin-center/enabling-experience-saving-setting.png" alt-text="The screen on which you enable the experience and save the setting." lightbox="../media/connections/setup-admin-center/enabling-experience-saving-setting.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/enabling-experience-saving-setting.png" alt-text="Screenshot of the screen on which you enable the experience and save the setting." lightbox="../media/connections/set-up-admin-center/enabling-experience-saving-setting.png":::
 
 If you need to update the experience, you can also return it to **Draft** status and hide it from viewers.
 
@@ -293,7 +293,7 @@ Learn more about [Adding the Viva Connections app in the Teams Admin Center](add
 
 The following screenshot provides an overview of the settings available in the settings panel:
 
-:::image type="content" source="../media/connections/setup-admin-center/settings-overview.png" alt-text="The overview of the settings in the settings panel." lightbox="../media/connections/setup-admin-center/settings-overview.png":::
+:::image type="content" source="../media/connections/set-up-admin-center/settings-overview.png" alt-text="Screenshot with an overview of the settings in the settings panel." lightbox="../media/connections/set-up-admin-center/settings-overview.png":::
 
 1. **Open in Teams**: Open this experience in the Teams app.
 2. **Analytics**: Download data for overall traffic, usage, and usage by platform for the selected experience in an Excel spreadsheet (Learn more about [Usage data for Viva Connections](viva-connections-analytics.md)).
@@ -324,15 +324,15 @@ The following screenshot provides an overview of the settings available in the s
 1. Select the experience you wish to delete.
 2. In the settings panel, select **Delete**.
 
-   :::image type="content" source="../media/connections/setup-admin-center/deleting-experience.png" alt-text="The screen on which you can delete a Viva Connections experience." lightbox="../media/connections/setup-admin-center/deleting-experience.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/deleting-experience.png" alt-text="Screenshot of the screen on which you can delete a Viva Connections experience." lightbox="../media/connections/set-up-admin-center/deleting-experience.png":::
 
 3. A confirmation screen will display. Select **Delete** to remove the experience.
 
-   :::image type="content" source="../media/connections/setup-admin-center/completing-deletion-of-experience.png" alt-text="The screen on which you can click the final option to complete deletion of a Viva Connections experience." lightbox="../media/connections/setup-admin-center/completing-deletion-of-experience.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/completing-deletion-of-experience.png" alt-text="Screenshot of the screen on which you can click the final option to complete deletion of a Viva Connections experience." lightbox="../media/connections/set-up-admin-center/completing-deletion-of-experience.png":::
 
 ### Add a SharePoint home site after setting up a Connections experience
 
-  :::image type="content" source="../media/connections/setup-admin-center/setting-home-site-after-setting-up-connections-experience.png" alt-text="Example of a SharePoint home site." lightbox="../media/connections/setup-admin-center/setting-home-site-after-setting-up-connections-experience.png":::
+  :::image type="content" source="../media/connections/set-up-admin-center/setting-home-site-after-setting-up-connections-experience.png" alt-text="Screenshot showing an example of a SharePoint home site after set up." lightbox="../media/connections/set-up-admin-center/setting-home-site-after-setting-up-connections-experience.png":::
 
 > [!IMPORTANT]
 >
@@ -356,7 +356,7 @@ The organization would need to create a new experience, this time building their
 
 If your organization doesn’t have any custom Connections content in Teams yet, you do not need to manually copy content. Instead, you can **Save** the home site and enable the experience.
 
-   :::image type="content" source="../media/connections/setup-admin-center/copy-content-to-home-site.png" alt-text="Example of a SharePoint home site." lightbox="../media/connections/setup-admin-center/copy-content-to-home-site.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/copy-content-to-home-site.png" alt-text="Screenshot showing an example of a SharePoint home site." lightbox="../media/connections/set-up-admin-center/copy-content-to-home-site.png":::
 
 3. For organizations who have already set up dashboard and navigation content in Teams, keep the home site in **Draft mode** until the content has been copied to the home site in SharePoint.
 
@@ -369,7 +369,7 @@ Follow these instructions if your organization already has custom Connections da
 
 1. Keep the new home site in **Draft mode** until content has been copied to the home site in SharePoint.
 
-  :::image type="content" source="../media/connections/setup-admin-center/SharePoint-settings.png" alt-text="Example of a SharePoint home site." lightbox="../media/connections/setup-admin-center/SharePoint-settings.png":::
+  :::image type="content" source="../media/connections/set-up-admin-center/sharepoint-settings.png" alt-text="Screenshot showing the setting options in SharePoint." lightbox="../media/connections/set-up-admin-center/sharepoint-settings.png":::
 
 2. Navigate to SharePoint and go to the home site. Next go to **Settings**.
 3. Copy dashboard content from Teams to SharePoint. To set up the dashboard from the home site, go to **Set up Viva Connections > Create dashboard**. Preview and then **Publish** the dashboard when it’s ready to be shared with others.
