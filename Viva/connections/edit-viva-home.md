@@ -1,9 +1,9 @@
 ---
-ms.date: 3/1/2023
+ms.date: 05/15/2023
 title: "Customize and edit the Viva Connections home experience"
-ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.reviewer: hokavian
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -12,11 +12,12 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
-- highpri
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - highpri
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -31,7 +32,7 @@ Elements of the new Viva Connections home experience can be customized to fit yo
 
 >[!NOTE]
 > - If you already have Viva Connections set up, the new home design uses current content and settings (like audience targeting) from your Dashboard and Resources and there will not be any impact to the mobile experience. 
-> - If your organization has a home site, you can choose to use it as the default home experience. The ability to choose the default experience will become available when the feature rolls out in November. More details will be shared soon.
+> - If your organization has a home site, you can choose to use it as the default home experience.
 > - If you haven’t set up Viva Connections yet, the default experience includes cards on the dashboard but otherwise doesn’t impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new home experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams. 
 > - You must have member level permissions or higher to edit the new desktop experience.
@@ -91,7 +92,7 @@ Assigned tasks, Top news, Viva Learning, and Viva Topics. |
 
 ### Summary of default dashboard cards and how to set them up
 
-By default, cards will already be on the dashboard and require minimal set up. Edit and preview the dashboard until you are ready to share with others. To edit existing cards, select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
+By default, cards will already be on the dashboard and require minimal setup. Edit and preview the dashboard until you are ready to share with others. To edit existing cards, select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
 
 Apply **Audience targeting** so this card is filtered to specific roles, regions, or departments. Learn more about [audience targeting for Viva Connections](use-audience-targeting-in-viva-connections.md).
 
@@ -133,12 +134,9 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 10. **Frequent sites and Followed sites:** Content in these sections is dynamically displayed based on the viewers interests and activity. 
 
-
-
-
 ## Customize the app icon and label in the Teams app bar
 
->[!NOTE]
+> [!NOTE]
 >  For customers with at least one F license:  
 > - For TAP customers, and other customers in Ring 3.6, the Viva Connections app is automatically pinned in the Teams app bar. If you don’t want the app pre-pinned, either [turn off tailored apps for frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license), change the [app settings](/microsoftteams/teams-custom-app-policies-and-settings), or [edit how apps in Teams are managed](/microsoftteams/manage-apps).
 > - For Targeted release customers (in Ring 3.6 or higher), all users at your organization will have access to the Viva Connections app. [Use audience targeting](use-audience-targeting-in-viva-connections.md) to promote specific content to different groups until the experience becomes generally available in 2023 where you’ll have access to more than one home experience option for multiple audiences.
@@ -153,7 +151,7 @@ Change the banner image in the header and set the focal point for the image. The
 2.	Select the image you’d like to use and then select **Reposition**. 
 3.	Once you are satisfied with the focal point, select **Set focal point** and then **Save**. There is no draft state for the banner image. It will be displayed for all users when you select Save.
 
->[!NOTE]
+> [!NOTE]
 > - The greeting is automatically generated and cannot be customed.
 > - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
 > - The Microsoft Viva icons and labels displayed below the greeting are automatically displayed based on the license that’s detected and cannot be customed. 
@@ -166,11 +164,9 @@ The [Viva Connections dashboard](create-dashboard.md#edit-the-dashboard) provide
 > - If your organization already has Viva Connections set up, you’ll see your existing cards and settings displayed in the new home experience. 
 > - If your organization doesn’t already have Viva Connections set up, you’ll see a set of default cards that need minimal configuration.  
 
-
 #### Learn more about adding third-party cards and creating custom cards
 
 In addition to the core set of dashboard cards, cards from third-party partner solutions can be added to the card toolbox from the SharePoint store. [Learn more about third-party cards](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) and [how to request them](create-dashboard.md#add-a-microsoft-app-as-a-card-on-the-dashboard). Additionally, customers can create custom cards for the Viva Connections dashboard by using the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview) to create Adaptive Card Extensions (ACEs). Learn more about this framework and view the [ACE solution gallery](https://appsource.microsoft.com/product/office/WA200003929).
-
 
 ### Preview the dashboard before sharing with others
 
@@ -178,7 +174,7 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 
 ## Customize resources
 
-Resources gives access to the most popular portals and destinations at your organization. The Resources section displays at the bottom of the home experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled. 
+Resources give access to the most popular portals and destinations at your organization. The Resources section displays at the bottom of the home experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled. 
 
 >[!NOTE]
 > Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and cannot be edited. 
@@ -208,14 +204,11 @@ The [Feed web part for Viva Connections](use-feed-web-part-for-viva-connections.
 - **Publish from official news sources** - Like [organizational news sites](/sharepoint/organization-news-site) or [home sites](/sharepoint/home-site). Where content is from impacts the ranking.
 - Learn more about [how content in the Feed is sourced and ranked](faqs-viva-connections-feed.md).
 
-
 ## Language and multilingual settings
->[!NOTE]
+> [!NOTE]
 > Viva Connections desktop applies the users’ SharePoint preferred language but not the Microsoft Teams language setting. However, for the mobile app, Viva Connections applies the device settings. 
 
 The Viva Connections experience can be set in more than one language. Learn more about how [different elements of the experience can be edited to display in more than one language](viva-connections-language.md) and [how to create a multilingual dashboard](create-multilingual-dashboard.md). 
-
-
 
 ## Manage permissions
 
@@ -230,8 +223,8 @@ The permissions model for the new Viva Connections landing experience is similar
 
 If you already have Viva Connections setup, editors who have site owner or member permissions to the home site will automatically have owner or member permissions to edit the new home experience in Teams. 
 
-   - People with member permissions *or higher* will automatically see **Edit** buttons in the home experience.
-   - People with member permissions or higher will be able to view permissions to the page by navigating to the ellipsis menu in the top-right and selecting **Manage permissions**.
+- People with member permissions *or higher* will automatically see **Edit** buttons in the home experience.
+- People with member permissions or higher will be able to view permissions to the page by navigating to the ellipsis menu in the top-right and selecting **Manage permissions**.
 
 If you are setting it up *for the first time*, only the SharePoint root site owners will be able to edit the home experience in Teams. When the home experience is edited for the first time, a SharePoint site on the backend will get created. You’ll want to assign owners and members from this site to give permissions to others so they can edit the experience for the rest of the organization. Manage permissions from the backend site by going to **Settings > Permissions > Share** and assign owner or member level permissions. Once permission levels are assigned, people with owner or member permissions will automatically see **Edit** buttons in the home experience.
 
@@ -248,24 +241,22 @@ If you have owner permissions or higher, you can give access to new people and c
 
 When end users in your organization view the Viva Connections landing experience for the first time, they will have the option to see a basic walkthrough tutorial that shows them how to engage with content and navigational elements. Help end user [see what else they can do in the home experience](https://go.microsoft.com/fwlink/?linkid=2208247). 
 
-
-
 ## Choose the default landing experience for Viva Connections desktop
 If your organization already has a SharePoint home site and you want to keep it as the landing experience for Viva Connections desktop, use the PowerShell command listed below. If you decide to change the default experience from a home site back to the Viva Connections home experience, you'll need to run this command again using the `$false` parameter. To run this cmdlet, you must be a Global admin or a SharePoint admin.
 
 1.	[Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
->[!NOTE]
+> [!NOTE]
 > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell."
 > - Run the command as a Global Administrator or a SharePoint Administrator.
-
+> - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
 
 2.	Connect to SharePoint as a [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3.	Run `Set-SPOHomeSite -HomeSiteUrl <homesiteURL> -VivaConnectionsDefaultStart <$true/$false>`
 
-      - The parameter should be set to **$false** to use the new home experience as the default landing experience. 
-      - The parameter should be set to **$true** to use a home site as the default landing experience. 
+  - The parameter should be set to **$false** to use the new home experience as the default landing experience. 
+  - The parameter should be set to **$true** to use a home site as the default landing experience. 
 
 **Example:**
 <br>
@@ -273,15 +264,15 @@ Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in th
 
 **To set the default landing to the home site:**
 
-Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true
+`Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true`
 
 **To set the default landing to the new Viva Connections home experience:**
 
-Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false
-
+`Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false`
 
 >[!NOTE]
 > It may take up to 15 minutes to see the updated default landing experience.
+> If you change the home site to a different home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can logout and log back in to clear the cache to view the new home site sooner.
 
 ## Learn more
 
@@ -290,5 +281,3 @@ Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -Vi
 [Overview: Viva Connections](viva-connections-overview.md)
 
 [Use audience targeting in Viva Connections to personalize the experience](use-audience-targeting-in-viva-connections.md)
-
-

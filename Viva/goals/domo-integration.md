@@ -4,7 +4,7 @@ title: "Domo integration"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager:
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -75,8 +75,6 @@ After the connection is configurated, users can **Edit** their Viva Goals OKRs t
 5. Copy the 36-character DataSet-ID from the URL of the DataSet page.
 
 6. If there are multiple values for the KPI and you have the *close rate* for all your sales team members as part of the Domo dataset, you can apply a function (sum/average/count) on the set of values. For example, average of close rate for the entire sales team.
-
-    
 
     Or, apply any available dataset fields as **Filters**. For example, filter a particular AE name.
 

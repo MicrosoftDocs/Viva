@@ -1,13 +1,15 @@
 ---
-ms.date: 11/15/2021
+ms.date: 03/14/2023
 title: Change the name of the topic center in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: nkokoye
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -23,15 +25,15 @@ You can change the name of your topic center in the [Microsoft 365 admin center]
 ## To access topics management settings:
 
 1. In the Microsoft 365 admin center, click **Settings**, then **Org settings**.
-2. On the **Services** tab, click **Topic experiences**.
+2. On the **Services** tab, select **Viva Topics**.
 
-    ![Connect people to knowledge.](../media/admin-org-knowledge-options-completed.png) 
+    :::image type="content" alt-text="Screenshot of the Services tab with Viva Topics selected." source="../media/org-settings-viva-topics.png" lightbox="../media/org-settings-viva-topics.png":::
 
 3. Select the **Topic center** tab. See the following sections for information about each setting.
 
-    ![knowledge-network-settings.](../media/knowledge-network-settings-topic-center.png) 
+    :::image type="content" alt-text=" Screenshot of the Knowledge network settings that include the following Topic  experience sections: Topic discovery, Topic visibility, Topic permissions, and Topic Center." source="../media/knowledge-network-settings-topic-center.png" lightbox="../media/knowledge-network-settings-topic-center.png":::
 
-##  Update your topic center name
+## Update your topic center name
 
 To change the name of the topic center
 
@@ -39,7 +41,7 @@ To change the name of the topic center
 2. On the **Edit topic center name** page, in the **Topic center name** box, type the new name for your topic center.
 3. Select **Save**
 
-    ![Edit topic center name.](../media/manage-topic-center-name.png)  
+    ![Screenshot of the Edit topic center name page.](../media/manage-topic-center-name.png)  
 
 ## See also
 
@@ -48,4 +50,3 @@ To change the name of the topic center
 [Manage topic visibility in Microsoft Viva Topics](topic-experiences-knowledge-rules.md)
 
 [Manage topic permissions in Microsoft Viva Topics](topic-experiences-user-permissions.md)
-

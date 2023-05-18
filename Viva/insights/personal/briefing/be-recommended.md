@@ -17,7 +17,7 @@ manager: anirudhbajaj
 # Recommendations in the Briefing email
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 To help you connect with teammates, wrap up the workday, or minimize email disruption, you might notice some recommendations in your daily Briefing email. When a **Recommended for you** card appears in your Briefing email, you can use it to request regular reminders to send praise or start your virtual commute. You can also use **Recommended for you** to enroll in schedule send suggestions.  
 
@@ -31,7 +31,7 @@ Enrolling in praise reminders can help you establish a habit of recognizing othe
 
 If you want reminders on another day or at another time, select **Customize settings**. This option takes you to the Viva Insights app, where you can pick when you want your reminder.
 
-Learn more about the praise feature in [Praise in Viva Insights](../teams/viva-insights-praise.md).
+Learn more about the praise feature in [Praise in Viva Insights](../teams/praise.md).
 
 ## Virtual commute
 
@@ -41,7 +41,7 @@ Virtual commute helps you mindfully disconnect from work and transition to the r
 
 If you want to pick a different time, or set different days, instead, select **Edit settings**. This option takes you to the Viva Insights app, where you can pick when you want your reminder.
 
-Learn more about virtual commute in [Virtual commute](../teams/viva-insights-virtual-commute.md).
+Learn more about virtual commute in [Virtual commute](../teams/virtual-commute.md).
 
 ## Schedule send suggestions
 
@@ -54,7 +54,7 @@ Learn more about schedule send suggestions in [Schedule send suggestions](../use
 ## Related topics
 
 * [Briefing email overview](be-overview.md)
-* [Praise in Viva Insights](../teams/viva-insights-praise.md)
-* [Virtual commute](../teams/viva-insights-virtual-commute.md)
+* [Praise in Viva Insights](../teams/praise.md)
+* [Virtual commute](../teams/virtual-commute.md)
 * [Schedule send suggestions](../Use/delay-delivery.md)
 

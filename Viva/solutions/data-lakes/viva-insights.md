@@ -7,7 +7,9 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced
+ms.collection:
+  - viva-insights-advanced
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -321,4 +323,3 @@ You can use Synapse activities and capabilities to load the additional data sour
 
 >[!Note]
 >PersonId in Viva Insights data is, by default, a hashed and de-identified employee identifier which cannot be reverse mapped and so cannot be used as the join key.
-

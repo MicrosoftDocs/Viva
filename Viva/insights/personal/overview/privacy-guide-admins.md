@@ -21,7 +21,7 @@ audience: Admin
 # Privacy guide for admins
 
 >[!Important]
->This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+>This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 
 By using data generated from everyday work in Microsoft 365, personal insights in Microsoft Viva Insights help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
@@ -51,7 +51,7 @@ A few days after a license with the Viva Insights service is assigned to a perso
 
 Personal insights in Viva Insights are shown in the following ways:
 
-* [Viva Insights in Teams and on the web](../teams/viva-insights-home.md)
+* [Viva Insights in Teams and on the web](../teams/home.md)
 * [Briefing emails](../Briefing/be-overview.md)
 * [Viva Insights in Outlook](../use/add-in.md)
 * [Digest emails in Outlook](../use/email-digests-3.md)
@@ -141,7 +141,7 @@ The Microsoft Graph cannot be turned on or off globally through the Microsoft 36
 
 ### App and Outlook add-in
 
-Within a few days of the assignment of a license with the Viva Insights service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-in license&mdash;the user’s Viva Insights [app in Teams and on the web](../teams/viva-teams-app.md) and [Outlook Add-in](../use/add-in.md) become available.
+Within a few days of the assignment of a license with the Viva Insights service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-in license&mdash;the user’s Viva Insights [app in Teams and on the web](../teams/introduction.md) and [Outlook Add-in](../use/add-in.md) become available.
 
 ### Welcome email
 

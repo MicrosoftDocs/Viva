@@ -10,9 +10,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 localization_priority: medium
 description: Learn how to configure Saba as a learning content source for Microsoft Viva Learning.
 ---
@@ -31,6 +32,19 @@ This article shows you how to configure Saba as a third-party learning content s
 
 >[!NOTE]
 >You'll need to have admin permissions in Saba to complete these steps.
+
+### Permissions
+
+The account used for Saba setup must have the following security roles:
+
+- **Learning Admin** - Catalog builder in the world domain*. 
+    - To remove privileges to create or update courses, then make a copy of this security role and remove New and Edit privileges on Courses and other catalog objects. 
+    
+-	**Human Capital Admin** in the world domain*  
+    - To remove privileges to create or update people records, make a copy of this security role and remove the New and Edit privileges on People and other HR objects.
+
+*Or the highest domain that encompasses all learning you wish to send to Viva. 
+ 
 
 ### Client’s Host URL
 

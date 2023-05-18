@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -26,10 +27,11 @@ description: "Plan Microsoft Viva Connections for your organization"
 In this phase, build a team of stakeholders to align on the goals and primary use cases for your organization's employee experience strategy. Start by meeting requirements, and then planning for each component of the experience. In the planning phase, consider success metrics and adoption tactics to ensure Viva Connections meets the need of your organization and users.
 
 > [!IMPORTANT]
-> The latest release of Viva Connections for desktop doesn’t require a SharePoint home site to get started. The latest version offers minimal setup and includes default cards on the dashboard to help get you started. Tasks marked with an asterisk (*) are optional, or may only apply to customers who will use home sites to complement the Viva Connections experience.
+> Content in this article reflects the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071) that will become available to all customers by the end of March 2023. 
+> [The latest release of Viva Connections for desktop](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071) doesn’t require a SharePoint home site to get started. The latest version offers minimal setup and includes default cards on the dashboard to help get you started. Tasks marked with an asterisk (*) are optional, or may only apply to customers who'll use home sites to complement the Viva Connections experience.
 
 ## Step 1: Consider using a SharePoint home site to complement the experience
-Viva Connections doesn’t require a [SharePoint home site](home-site-plan.md), which is a communication site that has special capabilities. A home site is the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. Some organizations will use a home site to complement the Viva Connections experience and extend the experience to the web. A home site can be added at any time. Follow the steps below if your organization wants to use a home site in addition to Viva Connections. A home site can be added at any time. 
+Viva Connections doesn’t require a [SharePoint home site](home-site-plan.md), which is a communication site that has special capabilities. A home site is the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. [Some organizations will use a home site to complement the Viva Connections experience](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together) and extend the experience to the web. Follow the steps below if your organization wants to use a home site in addition to Viva Connections. A home site can be added at any time. 
 
 
 | Requirement    | Description                 | 
@@ -37,6 +39,9 @@ Viva Connections doesn’t require a [SharePoint home site](home-site-plan.md), 
 | Create a home site* (optional)  | A home site is a SharePoint communication site that acts as the front door to your organization’s intranet. [Home sites](/sharepoint/home-site-plan) are SharePoint communication sites that have extra capabilities such as the ability to prioritize news posted from the home site across the rest of the intranet. Once a home site is set, the news posted from that site will be prioritized across the intranet. <br> <br> Learn more about how to think about [planning navigation on your home site](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/best-practices-for-using-global-navigation-in-the-sharepoint-app/ba-p/2361916) in combination with hub and global navigation. Then, get started [creating a home site](/sharepoint/home-site-plan). | 
 | Set up global navigation* (only for customers with a home site) |Once your home site is set up, you can enable and customize global navigation in the SharePoint app bar. In the Viva Connections desktop app, resources in the global navigation panel will display when the Viva Connections icon is selected in Teams and in the resources section. In the Viva Connections mobile app, resources in the global navigation will display in the “Resources” tab. <br><br> Learn more about how to [enable and customize global navigation](/sharepoint/sharepoint-app-bar). | 
 | Audit, prioritize, and modernize sites (optional) | After you've identified the key scenarios for Viva Connections, you’ll need to identify content or sites that should be modernized if you're still using classic sites and pages. Not all content or classic SharePoint sites need to be modernized to take advantage of Viva Connections. Focus on the priority use cases that will need to be included in your organization’s instance of Viva Connections. <br><br> Learn more about [how to modernize content](/sharepoint/dev/transform/modernize-classic-sites#:~:text=Modernize%20your%20classic%20SharePoint%20sites%201%20Enable%20your,site%20transformation%20is%20transforming%20your%20site%20pages.%20) and [healthy portal guidance for high-traffic sites](/sharepoint/portal-health)| 
+
+> [!NOTE]
+> Tasks marked with an asterisk (*) are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
 
 #### Create a home site for your organization (optional)*
 Viva Connections requires a [SharePoint home site](/viva/connections/home-site-plan) which is a communication site that has special capabilities. A home site is the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. Your home site will also be the landing experience for Viva Connections in the Microsoft Teams desktop app. 
@@ -47,7 +52,8 @@ Start small by identifying a handful of resources and functions that the home si
 
 Learn more about [how to plan your home site](/sharepoint/home-site-plan) and [how to launch healthy SharePoint sites](/sharepoint/portal-health). 
 
-
+> [!NOTE]
+> Tasks marked with an asterisk (*) are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
 
 #### Set up global navigation in the SharePoint app bar (optional)*
 Next, from the home site Settings icon, select [Set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
@@ -57,6 +63,8 @@ Next, from the home site Settings icon, select [Set up global navigation](/Share
 
 Navigational links that appear in the global navigation pane in the SharePoint app bar will also display in the Viva Connections app in Microsoft Teams for desktop and mobile apps. 
 
+> [!NOTE]
+> Tasks marked with an asterisk (*) are optional, or may only apply to customers who will use a SharePoint home site to complement the Viva Connections experience.
 
 #### Audit, prioritize, and modernize content to align with key scenarios and tasks (optional)
 After defining the key scenarios and tasks in the planning phase, prepare for Viva Connections by ensuring priority content is located on modern SharePoint communication sites and team sites. Only modern sites will appear in the Microsoft Teams app. Classic sites will open in a separate browser window.
@@ -88,7 +96,7 @@ Viva Connections is composed of three main parts – the dashboard, the feed, an
 
 | Desktop              | Mobile              | 
 | :------------------- |:------------------- |
-| ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/teams-desktop-small.png)|![Image of the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard-small.png)| 
+| ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/vc-full-small.png)|![Image of the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard-small.png)| 
 |- Your organization’s instance of Viva Connections [will appear as an icon](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) in the Teams app bar. <br> - When the icon is selected, users will see the default landing experience. <br> - When the icon is selected twice, the global navigation panel will display. <br> - Add the [Feed web part](use-feed-web-part-for-viva-connections.md) to highlight personalized news. <br> - Add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) to make it easy to complete tasks | - Your organization’s instance of Viva Connections will appear as an icon in the Teams mobile app bar. <br> - Once selected, users can pivot from the dashboard to the feed to resources.|
 
 
@@ -96,9 +104,9 @@ Viva Connections is composed of three main parts – the dashboard, the feed, an
 ## Step 3: Plan the dashboard
 Start by identifying the key scenarios that Viva Connections needs to support and identify owners of those employee experiences. Tasks and scenarios will be primarily supported by cards in the Viva Connections dashboard that can be targeted to specific audiences using Microsoft 365 groups. Consider which groups of employees will need access to specific resources.
 
-| Dashboard animation  | Description                 | 
+| Dashboard on mobile  | Description                 | 
 | :------------------- |: ------------------- |
-| ![Interaction between the Dashboard and cards.](../media/connections/new-vc-dashboard-interaction.GIF) | In this example, a card on the dashboard is linked to a SharePoint page where users can take a daily health check easily from a mobile device.| 
+| ![Interaction between the Dashboard and cards.](../media/connections/new-vc-dashboard-interaction.gif) | In this example, a card on the dashboard is linked to a SharePoint page where users can take a daily health check easily from a mobile device.| 
 
 
 Common scenarios include view paystubs and vacation hours, submit help tickets, catch up on news, check daily lunch menus, find people in a directory, and shift management. Collaborate and align with business groups that manage these experiences to determine the best design. Review the [Adoption center's best practices from successful Viva Connections customers](https://adoption.microsoft.com/files/viva/connections/Adoption-Recommended-Practices-for-Viva-Connections.pdf) for more information on common scenarios and how to identify employee experiences that result in lasting adoption.
@@ -139,9 +147,9 @@ As a best practice, it's important to make decisions that are rooted in specific
 
 For example, create a table like the following to list business scenarios that you want to address with cards in the dashboard:
 
-|**As an...**|**I need to...**|**So that...**|**I know this is successful when...**|
+|In my role as...|I need to...|So that...|I know this is successful when...|
 |:-------------------|:---------------|:-----------|:------------------------------------|
-|Full time employee |Easy access to benefit and payroll information |I can quickly check important information without needing |Requests for help with benefits and payroll to the HR team are reduced  |
+|Full time employee |Easy access to benefit and payroll information |I can quickly check important information without needing help from HR |Requests for help with benefits and payroll to the HR team are reduced  |
 |Frontline worker |Clock in and out from a mobile device |I can create efficiencies in my workflow |Schedules and breaks are managed from Viva Connections |
 |People manager |Welcome and onboard new team members |I can grow and develop talent |I spend less time managing standard onboarding functions |
 |Sales representative| Access specific product training materials while on a mobile device |Can quickly resolve customer issues|Most customer issues get resolved in real-time|
@@ -192,7 +200,7 @@ Resources are the navigational links to portals and other popular destination. r
 
 | Desktop             | Mobile                 | 
 | :------------------: |: ------------------: |
-| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
+| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-new-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
 
 
 For organizations with home sites, consider how links in the global navigation will complement resources highlighted on the home site. Depending on the content you want to make available in the global navigation, you can [design your home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
@@ -253,5 +261,3 @@ Generally, Viva Connections needs minimal ongoing maintenance once it's set up. 
 
 ## Next, build and customize Viva Connections for your organization
 After you meet requirements (for customers who want a home site), have a plan for the dashboard, and are prepared to help users adopt Viva Connections, it's time to [move on to the build phase](build-viva-connections.md). 
-
-

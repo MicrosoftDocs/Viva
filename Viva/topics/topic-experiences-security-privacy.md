@@ -1,13 +1,15 @@
 ---
 ms.date: 11/15/2021
 title: Security and privacy in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -95,4 +97,3 @@ While you can change the permissions on individual topic pages to narrow access 
 [Plan topic experiences](plan-topic-experiences.md)
 
 [Set up topic experiences](set-up-topic-experiences.md)
-

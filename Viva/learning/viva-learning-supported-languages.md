@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 ms.localizationpriority: medium
 description: Learn which languages are supported for Viva Learning in Microsoft Teams.
 ---
@@ -44,4 +45,3 @@ Filipino (Pilipinas)|Lietuvių (Lietuva)|Українська (Україна)
 Suomi (Suomi)|മലയാളം (ഇന്ത്യ)|Tiếng Việt (Việt Nam)
 Français (Canada)|मराठी (भारत)|Cymraeg (Y Deyrnas Unedig)
 Français (France)|Norsk, Bokmål (Norge)	
-

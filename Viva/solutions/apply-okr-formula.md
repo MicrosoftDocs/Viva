@@ -3,7 +3,7 @@ ms.date: 01/24/2023
 title: "Apply the OKR formula to your OKRs"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 description: "How to apply the OKR framework and formulas to your own OKRs in order to create healthy OKRs."

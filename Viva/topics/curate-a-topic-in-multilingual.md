@@ -1,20 +1,21 @@
 ---
 ms.date: 06/24/2022
 title: Curate Multilingual topics in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
     - MET150   
 ms.localizationpriority:  medium
 description: Learn how to curate topics in multiple languages using the Multilingual feature in Microsoft Viva Topics.
-
 ---
 
 # Curate Multilingual topics in Microsoft Viva Topics
@@ -22,7 +23,7 @@ description: Learn how to curate topics in multiple languages using the Multilin
 The Multilingual feature in Viva Topics allows you to curate and edit a topic page in English, French, German, and Spanish.
 
 > [!Note] 
-> A topic page must be created and curated in the tenant's default language before it can be curated to a different language using the Multilingual feature in Viva Topics. 
+> A topic page must be created and curated in the tenant's default language before it can be curated to a different language using the Multilingual feature in Viva Topics 
 
 ## Curate Multilingual content into a topic page
 
@@ -79,4 +80,3 @@ The topic user's preferred language in their tenant will determine the language 
 Languages can be changed or updated through settings in the apps.
 
 ![Screenshot showing Spanish language settings in SharePoint.](../media/knowledge-management/sp-language-settings.png)
-

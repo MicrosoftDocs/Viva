@@ -23,10 +23,7 @@ Each role only gives access to actions, pages, reports, and data that correspond
 
 ## Inherited roles
 
-Two Viva Insights roles can be automatically inherited through a user's Global Azure Active Directory roles:
-
-* Users with the **Global Admin** role automatically inherit Insights Administrator privileges.
-* Users with the **Global Reader** role automatically inherit **Insights Business Leader** privileges.
+Users with the **Global Admin** role in Azure Active Directory automatically inherit Insights Administrator privileges.
 
 ## Role descriptions and access levels
 
@@ -36,14 +33,14 @@ The following matrix shows which roles can access which features.
 
 | Feature |  Page  | Description | Insights Administrator | Insights Analyst | Insights Business Leader | People Manager<sup>1</sup>|
 |---|-----|---|---|---|---|---|
-| Viva Insights app |  |   |   |   |   |   | 
-|   |  **Organization trends** | Depending on your role<sup>2</sup>, view group insights about your team or highlights about your company in **Organization trends**.  |   |   |  X | X |
+| Viva Insights app – organization insights|  |   |   |   |   |   | 
+|   |  (throughout the app) | Depending on your role<sup>2</sup>, view group insights about your team or highlights about your company.  |   |   |  X | X |
 | Viva Insights advanced insights app |  |   |   |   |   |     | 
 |   |  **Analysis** | Landing page for analysts. View recent queries, Power BI templates, and build custom queries.  |   | X |   |   |
 |   |  **Query results** | View query results |   | X |   |   |
 |   |  **Organizational data** | Verify whether organizational data quality is high enough for analysis and upload custom organizational data files | X | X<sup>3</sup>|   |   |
 |   |  **Privacy settings** | Manage privacy settings  | X |   |   |   |
-|   |  **Manager settings** | Turn on/off group insights that appear in Organization trends; select eligible managers for group insights | X |   |   |   |
+|   |  **Manager settings** | Turn on/off organization insights that appear in the Viva Insights app in Teams and on the web; select eligible managers for group insights | X |   |   |   |
 
 <sup>1. People Manager isn't technically a role that can be assigned. The Insights admin can enable them access to their Group insights through [Manager settings](./manager-settings.md) within the advanced insights app. </sup>
 
@@ -59,7 +56,7 @@ The following table shows which roles can perform which tasks in Viva Insights.
 |---|---|---|---|---|
 | Configure privacy settings and manager settings | X | | | |
 | Upload organizational data into the system | X | | | |
-| Use the **Organization trends** page within the Viva Insights app  | | | X | X|
+| Access organization insights within the Viva Insights app  | | | X | X|
 | Use the full set of analyst tools | | X | | |
 
 ### Levels of responsibility

@@ -2,9 +2,9 @@
 ms.date: 04/05/2022
 title: Collaborate with Viva Goals in Microsoft Teams
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: RaSanders-MSFT
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH

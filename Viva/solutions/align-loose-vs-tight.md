@@ -3,7 +3,7 @@ ms.date: 02/08/2023
 title: "Tight vs loose alignment"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 description: "Choosing between tight or loose alignment across your OKRs."
@@ -22,7 +23,7 @@ description: "Choosing between tight or loose alignment across your OKRs."
 
 # Tight versus Loose Alignment
 
-There's widespread agreement that alignment is one of the strongest features of the OKR framework. When OKRs are properly aligned, individuals can clearly see how the work they do as part of a team delivers impact to the overall purpose, and makes working with cross-functional teams and remote co-workers easier. Everyone is moving in the same direction. 
+There's widespread agreement that alignment is one of the strongest features of the OKR framework. When OKRs are properly aligned, individuals can clearly see how the work they do as part of a team delivers impact to the overall purpose, and makes working with cross-functional teams and remote coworkers easier. Everyone is moving in the same direction. 
 
 However, a question that is often asked is, “Should I have tight or loose alignment across my OKRs?”  
 
@@ -77,7 +78,7 @@ From here, Jane has the freedom to write her own OKRs, which loosely support the
 >     - **Jane (VP, Customer Success) Result:** Reduce customer response time to <24 hours. 
 >     - **Jane (VP, Customer Success) Result:** Resolve 90% of open cases. 
 >         - **Jane (VP, Customer Success) Initiative:** Develop customer advisory board. 
->         - **Jane (VP, Customer Success) Initiative:** Identify top three drivers causing 
+>         - **Jane (VP, Customer Success) Initiative:** Identify top three drivers causing friction and implement corrective action. 
 
 In the same way that Jane has created her OKRs in support of the larger mission, Nick can collaborate and align with Jane to write his own OKRs in support of her objectives. 
 
@@ -89,7 +90,7 @@ In his book *OKRs for All*, Viva Goals CVP Vetri Vellore states, “Tight alignm
 
 Here are some reasons why:
 
-- Using tight alignment, the key result of one level becomes the objective of the next level. The challenge here's that the very definition of OKRs quickly gets muddled. In other words, key results are focused, measurable, metrics based on outcomes. When that KR becomes the Objective below it, it still contains those measurable metrics, instead of being aspirational goals. 
+- Using tight alignment, the key result of one level becomes the objective of the next level. The challenge with this approach is that the very definition of OKRs quickly gets muddled. In other words, key results are focused, measurable, metrics based on outcomes. When that KR becomes the Objective below it, it still contains those measurable metrics, instead of being aspirational goals. 
 
 - With tight alignment, the first draft of the company’s key result, which becomes the objective for the department/team below it, was written by the CEO. Then it's edited by the department’s objective owner. With loose alignment, the department objective is drafted by the department that will own it, and agreed upon by the CEO. It’s a subtle shift, but loose alignment helps drive more bottom up alignment and sense of ownership. 
 

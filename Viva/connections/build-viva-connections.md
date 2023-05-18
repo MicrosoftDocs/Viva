@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -44,7 +45,7 @@ Learn more about how to [add the Viva Connections app in the Microsoft Teams Adm
 ## Step 2: Customize the Viva Connections dashboard (if needed)
 The dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks.   
 
-   ![Image of the Viva Connections Dashboard in edit mode.](../media/connections/dashboard-creation.png)
+   :::image type="content" alt-text="Screenshot of the Viva Connections Dashboard in edit mode." source="../media/connections/new-dashboard-creation.png":::
 
 1. Start by [customizing the dashboard](create-dashboard.md). 
 2. Next, [apply audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards) to dashboard cards to give your users an experience tailored to their role and interests. 
@@ -81,4 +82,3 @@ Before sharing Viva Connections with the rest of your organization, recruit a sm
 ## Next, launch Viva Connections for your organization
 
 After [planning](plan-viva-connections.md), building, and testing Viva Connections, it’s time to let the rest of the organization know that it's available for use. [Learn more about how to launch Viva Connections.](launch-viva-connections.md)
-

@@ -5,7 +5,7 @@ ms.reviewer: ethli
 ms.author: mamiejohnson
 author: mamiepjohnson
 manager: dmillerdyson
-ms.date: 02/15/2023
+ms.date: 2/15/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -22,121 +22,121 @@ search.appverid:
 
 # Manage and set up storyline in Viva Engage
 
-Storyline empowers everyone within your organization to connect and contribute, while enabling your leaders to reach and engage employees. Through storyline, people can share updates, experiences, and perspectives to reach followers and colleagues across the organization. On storyline, there are two ways to share: posts and stories. Stories are short videos or photos that deliver a familiar, delightful way to catch up and stay connected with people across your organization. Engage with storylines from the Web and the mobile applications you use every day: Outlook, Microsoft Teams, and Microsoft Viva.
+Storyline empowers everyone in your organization to connect and contribute. It enables your leaders to reach and engage employees. Through storyline, employees can share updates, experiences, and perspectives to reach followers and colleagues across the organization. Engage with storylines from the Web and the mobile applications you use every day—Outlook, Microsoft Teams, and Microsoft Viva.
 
-When storyline is enabled in your organization, you'll see the following changes in the Viva Engage app.
+When storyline is enabled in your organization, you see the following changes in the Viva Engage app:
 
-- Internal (non-guest) users who have access to Viva Engage see a new default **Storyline** tab on their user profile page.
-- Users see a new **Storylines** page from which they can access a personalized feed of content posted to storyline, or toggle to a focused feed that includes only storyline content from the people the user has followed.
+- Internal (nonguest) users who have access to Viva Engage see a new default **Storyline** tab on their user profile page.
+- Users see a new **Storylines** page. Users can toggle between a personalized feed of posted content or a focused feed that includes only storyline content from the people that the user follows.
 
 ## Set up storyline
 
-Microsoft 365 Global admin and Engage admin can manage storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac). Select the ellipses on the right of the top navigation menu, then select **Admin** to enter the Engage admin center.
+Microsoft 365 Global admins and Engage admins manage storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac). To access it, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
 
-![Image of the entrypoint into the Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)
+[![Screenshot of the entry point into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
-Under the **Feature management** tab within the Engage admin center, select **Storyline** to customize settings.
+On the **Feature management** tab, select **Storyline** to customize settings.
 
-![Image of the entrypoint into managing storyline settings.](/Viva/media/engage/admin/storyline-eac-updated.png)
-
->[!NOTE]
-> Storyline must be enabled before you can enable stories.
+[![Screenshot of the entry point into managing storyline settings.](/viva/media/engage/admin/storyline-eac-updated.png)](/viva/media/engage/admin/storyline-eac-updated.png#lightbox)
 
 ## Enable storyline
 
-Once you're in the interface for managing storyline, admins will see toggles that control the availability of storyline within the organization. When storyline is enabled in your organization, it's available to all internal users who have access to Viva Engage. All internal users will have their own storyline feed on their profile page and will be able to see, react, and respond to others’ storyline posts.  
+In the interface to manage storyline, admins see toggles that control the availability of storyline in the organization. When storyline is enabled in your organization, it's available to all internal users who have access to Viva Engage. All internal users have their own storyline feed on their profile page and can see, react to, and respond to others’ storyline posts.  
 
-![Image of the storyline settings toggles in Viva Engage.](/Viva/media/engage/admin/storyline-toggle.png)
+[![Screenshot of the storyline settings toggles in Viva Engage.](/viva/media/engage/admin/storyline-toggle.png)](/viva/media/engage/admin/storyline-toggle.png#lightbox)
 
 >[!NOTE]
-> Guests won't have their own storyline and won't be able to see storyline content from the internal users who do have access.
+> Guests don't have their own storyline and can't see storyline content from internal users.
 
-When you disable storyline, it removes the **Storylines** tab from all user profile pages and removes the storylines landing page. Disabling storyline prevents new storyline conversations from starting, but does not delete any conversations that were posted prior to storyline being disabled. Previously posted storyline content can still be accessed through search and the Viva Engage Inbox by the people who participated in the storyline conversation. Users who didn't participate in the conversation won't have access after storyline has been disabled. Storyline content will continue to be available through network data export and will be available through eDiscovery for networks that are in native mode.  
+When you disable storyline, the storylines landing page and the **Storylines** tab on user profile pages are removed. Users can't start new storyline conversations, but existing conversations aren't deleted. Previously posted storyline content is still available through search and the Viva Engage Inbox for the people who participated in the storyline conversation. Users who didn't participate in the conversation previously don't have access after storyline is disabled. The storyline content continues to be available through network data export and is available through eDiscovery for networks that are in native mode.  
 
-## Enable stories
+## Advanced settings
 
-Storyline must be enabled before stories can be enabled. If storyline is disabled, stories will also be disabled and won't show up anywhere within the Viva Engage application. Stories are on by default unless storyline is disabled in your organization or you choose to toggle it off. If stories are disabled with storyline still enabled, the stories carousel on the home feed, storylines landing page, and on the users’ individual storyline pages will be removed. Disabling stories prevents new stories conversations from being started. Previously shared stories can still be accessed through Outlook and the Viva Engage inbox by people who participated in the story. Note that this follows the same behavior as storyline posts.
-
-## Advanced Settings
-
-Storyline supports additional controls for admins who wish to customize their configuration of storyline. Initially, this includes setting the default notification preferences for storyline, but we expect other advanced features to follow.
+Storyline supports additional controls for admins to customize their configuration. Currently you can set default notification preferences for storyline, and more controls are planned for the future.
 
 ### Set default notification channels for Storyline posts
 
-Storyline, in its default configuration, notifies followers via Teams, Email, and web, when a person they are following posts to their storyline. Network and Verified admins can override the network default with custom defaults for their organization. If you customize this for your network, it will change what default notifications are selected when a user follows someone. Users can always change from the default selections to their personal preferences for notifications for each person they follow.
+In its default configuration, Storyline notifies followers via Teams, email, and Viva Engage when a person that they follow posts to their storyline. Network and Verified admins can override this setup to control what default notifications are selected when a user follows someone. Users can also change from the default selections to their personal preferences for notifications for each person they follow.
 
 The system default selections for notifications include:
 
-- Microsoft Teams – notifications are delivered in the Teams Activity feed
-- Email – email delivered to your Inbox includes support for Actionable messages, so the conversation can be viewed and replied from Outlook Web Access.
-- Viva Engage – notifications are delivered to the Viva Engage notification bells.
+- Microsoft Teams notifications are delivered in the Teams Activity feed.
+- Email delivered to your inbox includes support for actionable messages, so the conversation can be viewed and replied to from Outlook Web Access.
+- Viva Engage notifications are delivered to the Viva Engage notification bells.
 
 ## Security and compliance
 
-Storyline is built on the same content and conversation platform as community messages in Viva Engage. This means that you can use the same tools for storyline that you use today for monitoring and governance.  
+Storyline is built on the same content and conversation platform as community messages in Viva Engage. Therefore, you can use the same tools for storyline that you use for monitoring and governance.  
 
-* eDiscovery through the compliance portal for native mode networks  
-* Storyline content is available via network export
-* Files shared through storyline are stored in OneDrive and are subject to any governance you already have in place
-* Storylines supports the same [Report a conversation](/yammer/manage-yammer-groups/configure-conversation-reporting) feature available for community conversations
-* Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy
+* Use eDiscovery through the compliance portal for native mode networks.  
+* Storyline content is available via network export.
+* Files shared through storyline are stored in OneDrive and are subject to any governance you already have in place.
+* Storylines supports the same [Report a conversation](/yammer/manage-yammer-groups/configure-conversation-reporting) feature that's available for community conversations.
+* Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy.
 
-In addition to the capabilities listed above, storyline also features a feed that includes all storyline posts sorted by the date the storyline conversation was started. To access this feed, go to the storyline landing page. While on the feed, select the filter icon in the upper right corner of the feed to switch the filter to **All**.
+In addition to the capabilities listed here, storyline also features a feed that includes all storyline posts sorted by the date the storyline conversation was started. To access this feed, go to the storyline landing page. In the feed, select the filter icon in the upper-right corner to switch the filter to **All**.
 
-#### Security, compliance, and governance for files uploaded to storyline posts and stories
+#### Security, compliance, and governance for files uploaded to storyline posts
 
-Storyline posts and stories are backed by Yammer services. Compliance for posts and stories is therefore the same as the rest of Viva Engage. If you are in native mode, posts are ingested into the substrate and support the same compliance and e-Discovery capabilities as posts in communities, including communications compliance and retention. Because files are stored in OneDrive, they inherit security and compliance policies configured for files in OneDrive.
+Storyline posts are backed by Yammer services. Compliance for posts is therefore the same as for the rest of Viva Engage. If you're in native mode, posts are ingested into the substrate and are subject to the same compliance and e-Discovery capabilities as posts in communities, including communications compliance and retention. Because files are stored in OneDrive, they inherit security and compliance policies configured for files in OneDrive.
 
-When users are deleted—for example when an individual leaves the company—the system follows the Microsoft 365 user deletion process described in the **Delete a user** section in the [Manage Yammer users across their lifecycle from Office 365](/yammer/manage-yammer-users/manage-users-across-their-lifecycle) article.
+When users are deleted, for example when an individual leaves the company, the system follows the Microsoft 365 user deletion process that's described in the "Delete a user" section of [Manage Yammer users across their lifecycle from Office 365](/yammer/manage-yammer-users/manage-users-across-their-lifecycle).
 
 ## File storage for storyline
 
-Files attached to storyline posts, and videos or photos shared as stories, are stored in a hidden library in the author’s OneDrive. While there is no entry point to this location in the user experience (UX) of Microsoft 365, you can access it with a URL resembling the following example: https://tenantname-my.sharepoint.com/personal/**useridentifier/VivaEngage/Attachments/Storyline**
+All files attached to storyline posts are stored in a hidden library in the author’s OneDrive. There's no entry point to this location in the Microsoft 365 user experience, but you can access it through a URL resembling the following example: 
 
-You can determine the precise URL for a user's storyline folder by following these steps:
+   `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage/Attachments/Storyline`
 
-1. Open the user's OneDrive in the browser.
+To determine the precise URL for a user's storyline, follow these steps:
+
+1. Open the user's OneDrive in a browser.
 2. Note the URL to the user's OneDrive.
-3. Locate the **user identifier**, located in the URL immediately after my.sharepoint.com/personal/
-4. Remove everything after the profile identifier and the backslash, and replace with **VivaEngage** (without a space, case insensitive). The resulting URL will resemble this example: https://tenantname-my.sharepoint.com/personal/**useridentifier/VivaEngage**
-5. Press ENTER. The library will appear.  
-6. Open the Attachments folder, then open the storyline folder. The resulting URL directly to the folder where storyline files are saved will resemble this example: https://tenantname-my.sharepoint.com/personal/**user identifier/VivaEngage/Attachments/Storyline**.
+3. Locate the **user identifier**, which is the part of the URL immediately that follows *my.sharepoint.com/personal/*.
+4. Replace everything after the profile identifier and the backslash plus **VivaEngage**, without a space, case insensitive. The resulting URL will resemble this example: 
 
-### Managing files uploaded to storyline posts and stories
+   `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage`
+1. Press Enter. The library will appear.  
+1. Open the Attachments folder, and then open the storyline folder. The resulting URL to the folder where storyline files are saved will resemble this example:
 
-Edit documents and rich media uploaded to posts using the storyline interface. We strongly discourage you from managing (adding, replacing, or deleting) documents and rich media directly in OneDrive, as you will risk breaking the front-end experience of posts and stories in your storyline.  
 
-If you wish to delete files associated with a post or story from the **VivaEngage** library:
+   `https://<tenantname>-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
+
+### Managing files uploaded to storyline posts
+
+You can use the storyline interface to edit documents and rich media that was uploaded to posts. We strongly recommend that you don't add, replace, or delete documents and rich media directly in OneDrive, as those actions risk breaking the front-end experience of posts in your storyline.  
+
+To delete files associated with a post from the **VivaEngage** library:
 
 1. Remove the file from the associated post. From any post, the author or an admin can select the ellipsis (...) menu and choose **Edit**.  
-2. Navigate to the author's **VivaEngage** library and delete the file itself.
+2. Navigate to the author's **VivaEngage** library and delete the file.
 
-## Frequently Asked Questions (FAQ)
+## Frequently asked questions
 
 ### Why isn’t storyline available in our organization? 
-Storyline is only supported in Yammer enterprise networks that [enforce Office 365 identity](/yammer/configure-your-yammer-network/enforce-office-365-identity). If your network doesn't enforce Office 365 identity, or if you have a Yammer Basic network, storyline won't be available to your organization.
+Storyline is only supported in Yammer enterprise networks that [enforce Office 365 identity](/yammer/configure-your-yammer-network/enforce-office-365-identity). If your network doesn't enforce Office 365 identity or if you have a Yammer Basic network, storyline isn't available to your organization.
 
 ### Who can see storyline content? 
-Storyline content is visible to any internal user who has access to Viva Engage. Guests won't be able to see any Storyline content.  
+Storyline content is visible to any internal user who has access to Viva Engage. Guests can't see storyline content.  
 
 ### Does storyline work for guests? 
-Guests are excluded from storyline access. They won't have their own storyline, and won't be able to see any storyline content posted by other users.
+Guests are excluded from storyline access. They don't have their own storyline and can't see any storyline content posted by other users.
 
 ### Can I control who sees storyline content? 
-It isn't possible to prevent any internal user from seeing storyline content if they have access to Viva Engage. Guests won't be able to see any storyline content.
+You can't prevent any internal user from seeing storyline content if they have access to Viva Engage. Guests can't see any storyline content.
 
 ### Can I control which users get their own storyline?  
-You can designate which users will have a personal storyline feed appear on their user profile page in Viva Engage through AAD groups. Users to whom you don’t grant a storyline will be able to reply and react to storyline posts from users who do have their own storyline.
+We plan to add the capability to limit who gets their own storyline after storyline reaches general availability. This functionality will allow you to use Azure Active Directory groups to designate which users get a personal storyline feed on their user profile page in Yammer. Users that don't get a storyline will be able to reply and react to storyline posts from users who do have their own storyline.
 
-### How do I delete custom cover photos that are uploaded to a person’s storyline? 
-When the preview features toggle is in the ON position, uploaded cover photos can be deleted by the user themselves, or by Network and Verified Admins, by going to the user profile page and choosing the delete option under **Update cover photo**.
+### How do I delete custom cover photos that were uploaded to a person’s storyline? 
+When the preview features toggle is turned on, the user or Network and Verified admin can delete uploaded cover photos. To do this, go to the user profile page and select **Delete** under **Update cover photo**.
 
-If you want to delete a previously uploaded cover photo when the preview toggle is in the OFF position, you will need to temporarily opt in to the preview so you can access the delete cover photo option as discussed above.
+To delete a previously uploaded cover photo when the preview toggle is turned off, you need to temporarily opt in to the preview so you can access the delete cover photo option.
 
 ## See also
 
-[Access the Engage admin center](/Viva/engage/eac-as-access-eac)
+[Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
 
-[Set up the Engage admin center](/Viva/engage/eac-get-started)
+[Set up the Viva Engage admin center](/Viva/engage/eac-get-started)
 
 [Identify leaders and manage audiences in Viva Engage](/Viva/engage/leadership-identification)

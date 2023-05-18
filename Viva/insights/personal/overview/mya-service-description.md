@@ -28,11 +28,11 @@ Viva Insights processes information in a manner that protects employee privacy. 
 
 Viva Insights consists of the following elements.
 
-* Viva Insights in [Microsoft Teams and on the web](../teams/viva-insights-home.md) – Provides you personalized recommendations within your Microsoft Teams app and on the web that can help you build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
+* Viva Insights in [Microsoft Teams and on the web](../teams/home.md) – Provides you personalized recommendations within your Microsoft Teams app and on the web that can help you build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 * [Viva Insights Outlook add-in](../use/add-in.md) – Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
 * [Briefing emails](../Briefing/be-overview.md) – Within two hours of your workday, you'll get an email about any relevant items to help you stay in control of your calendar and better prepare for the day ahead.
     >[!Important]
-    >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/viva-teams-app.md) for key functionality until this service resumes.
+    >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
 * [Digest emails](../use/email-digests-3.md) – Gives you key highlights about your work patterns in a digest email in your Outlook inbox.
 * [Inline suggestions](../use/mya-notifications.md) – These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
 
