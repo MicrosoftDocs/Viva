@@ -43,7 +43,7 @@ Microsoft Viva and the Viva apps support compliance with [General Data Protectio
 Additionally, see the following GDPR information for specific apps:
 
 - Viva Connections, Viva Topics, Viva Learning (SharePoint): [Safeguarding your SharePoint data](/sharepoint/safeguarding-your-data)
-- Viva Engage (Yammer): [Manage GDPR data subject requests in Viva Engage Enterprise](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
+- Viva Engage (Yammer): [Manage GDPR data subject requests in Viva Engage Enterprise](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise)
 - Viva Insights: [Personal Insights privacy guide](insights/personal/overview/privacy-guide-admins.md#gdpr-compliance)
 - Viva Goals: [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md#viva-goals-gdpr-requests)
 - Viva Sales: [Responding to Data Subject Rights (DSR) requests for Microsoft Dataverse customer data](/power-platform/admin/common-data-service-gdpr-dsr-guide)
