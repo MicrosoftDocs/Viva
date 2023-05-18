@@ -30,14 +30,14 @@ As an Office 365 Global admin or Engage admin, you're encouraged to use Viva Eng
 
 They're then routed to the Viva Engage admin center, where they can perform the following actions:
 
-- [Manage GDPR data subject requests](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
+- [Manage GDPR data subject requests](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise)
     - Erase a user from the network
     - Reactivate a deactivated account after erasing the user
 
    >[!NOTE]
    > Because Viva Engage is powered by Viva Engage technology, removing a user from the network deletes the user in Viva Engage and Viva Engage.
 
-- [Export data to review compliance issues](/yammer/manage-security-and-compliance/export-yammer-enterprise-data)
+- [Export data to review compliance issues](/viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data)
     - Export data for one user
     - Export data for a network
     - Export users and admin list

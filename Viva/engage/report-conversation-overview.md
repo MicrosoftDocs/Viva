@@ -26,11 +26,11 @@ Viva Engage tenants have access to a feature that lets users in the network repo
 
 Engage admins can enable users to report a conversation on their network from the Viva Engage admin center. Within the Viva Engage admin center, navigate to the "Setup & Configuration" tab and select "Configure Tenant". You will be redirected to the Viva Engage admin webpage, where you can access "Report a conversation" under "Content & Security" on the left panel.
 
-:::image type="content" source="../media/yammer-conversations-admin-report-conversations.png" alt-text="Screenshot showing Jammer reporting settings.":::
+:::image type="content" source="../media/viva-engage-conversations-admin-report-conversations.png" alt-text="Screenshot showing Jammer reporting settings.":::
 
 ## Set up the conversation report feature
 
-:::image type="content" source="../media/yammer-conversations-full-admin-panel.png" alt-text="Screenshot showing Hammer reporting admin panel.":::
+:::image type="content" source="../media/viva-engage-conversations-full-admin-panel.png" alt-text="Screenshot showing Hammer reporting admin panel.":::
 
 After you enable conversations, enter information for the following two settings:
 
@@ -59,7 +59,7 @@ Some things you may want to include:
 
 The text you enter is displayed under the **Report Conversation** or **Report Comment** header when a user reports a conversation or comment. 
 
-:::image type="content" source="../media/yammer-conversations-report-comment.png" alt-text="Screenshot showing reporting a conversation.":::
+:::image type="content" source="../media/viva-engage-conversations-report-comment.png" alt-text="Screenshot showing reporting a conversation.":::
 
 ## Post-submission instructions to user
 
@@ -72,23 +72,23 @@ Use this field to explain to your employees what will happen after they submit a
 
 When this feature is enabled, users accessing Viva Engage see the **Report Conversation** option on conversation starters and **Report Comment** on comments and replies.
 
-:::image type="content" source="../media/yammer-conversations-report-dropdown.png" alt-text="Screenshot showing user reporting for conversation starter.":::
+:::image type="content" source="../media/viva-engage-conversations-report-dropdown.png" alt-text="Screenshot showing user reporting for conversation starter.":::
 
 **Report Conversation option on conversation starter**
 
-:::image type="content" source="../media/yammer-conversations-report-comment-dropdown.png" alt-text="Screenshot showing user reporting for comment.":::
+:::image type="content" source="../media/viva-engage-conversations-report-comment-dropdown.png" alt-text="Screenshot showing user reporting for comment.":::
 
 **Report Conversation option on conversation comment**
 
 Users will then see a right-panel pop-out with the custom message from the Engage admin and a required **Reason for Reporting** box.
 
-:::image type="content" source="../media/yammer-conversations-report-comment.png" alt-text="Screenshot showing reason for reporting box.":::
+:::image type="content" source="../media/viva-engage-conversations-report-comment.png" alt-text="Screenshot showing reason for reporting box.":::
 
 The conversation or comment reported, along with who is reporting and the reason for reporting, is sent to the email address that's specified in the **Report Conversations** settings.
 
 Upon successful submission, the user sees the optional custom message configured by the admin. They also receive a confirmation message with a link to the conversation, comment, or reply reported and the comment included in the report.
 
-:::image type="content" source="../media/yammer-conversations-report-submitted-panel-closeup.png" alt-text="screenshot showing success reporting submission.":::
+:::image type="content" source="../media/viva-engage-conversations-report-submitted-panel-closeup.png" alt-text="screenshot showing success reporting submission.":::
 
 ## Report emails
 

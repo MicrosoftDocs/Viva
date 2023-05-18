@@ -74,7 +74,7 @@ Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compl
 
 **GDPR information**
 
-For GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/yammer/manage-security-and-compliance/export-yammer-enterprise-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage Enterprise](/viva/engage/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise).
+For GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage Enterprise](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise).
 
 ## Enable Answers  
 
@@ -97,7 +97,7 @@ Only a Microsoft 365 Global admin can change Answers state of enablement. Here's
    [![Screenshot of the Answers enablement toggle in the Viva Engage admin center.](/viva/media/engage/admin/enable-answers.png)](/viva/media/engage/admin/enable-answers.png#lightbox)
 
 >[!NOTE]
-> If Answers is disabled, the backing group will respect the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers.
+> If Answers is disabled, the backing group will respect the default data [retention policies](/microsoft-365/compliance/retention-policies-viva-engage) set by your organization, unless a unique policy is set for Answers.
 
 ## See also
 

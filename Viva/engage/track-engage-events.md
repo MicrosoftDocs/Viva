@@ -56,4 +56,4 @@ You can use the Microsoft 365 Management Activity API to download various Viva E
   
 ## Related articles
 
-[Security FAQ](/yammer/manage-security-and-compliance/security-and-compliance#Security)
+[Security FAQ](/viva/engage/manage-security-and-compliance/security-and-compliance#Security)

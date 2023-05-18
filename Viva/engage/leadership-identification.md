@@ -100,7 +100,7 @@ A leader follows these steps to configure delegates:
 
 5. If the delegate will create posts, stories, or announcements on the leader’s [storyline](/Viva/engage/eac-storyline), **enable the storyline toggle**.
 
-Learn more about [delegate managers in Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-yammer-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285).
+Learn more about [delegate managers in Viva Engage](https://support.microsoft.com/office/enable-someone-to-post-to-viva-engage-on-your-behalf-60f879cd-43dd-44fe-bffb-1084d4f85285).
 
 ## Leadership corner
 
@@ -153,7 +153,7 @@ Yes, the Global admin and Engage admin can turn off leadership corner in the fea
 
 **How can I customize the company logo in leadership corner?**
 
-Yes. Follow the instructions at this [Customize your network](/yammer/manage-yammer-groups/customize-your-network).
+Yes. Follow the instructions at this [Customize your network](/viva/engage/manage-viva/engage-groups/customize-your-network).
 
 ## See also
 

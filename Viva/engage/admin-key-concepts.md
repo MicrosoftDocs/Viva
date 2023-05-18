@@ -40,7 +40,7 @@ This article describes the key concepts you should know and key decisions you sh
 
     - **Group admin** - configure and customize their groups and manage day-to-day operations for them.
 
-   For information about how to make someone an admin and a list of what each admin can do, see [Manage Viva Engage admins](/yammer/manage-yammer-users/manage-yammer-admins).
+   For information about how to make someone an admin and a list of what each admin can do, see [Manage Viva Engage admins](/viva/engage/manage-viva-engage-users/manage-viva-engage-admins).
 
 2. Set up your Viva Engage network to match your organization's goals:
 

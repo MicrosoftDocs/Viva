@@ -83,13 +83,13 @@ Following are some example Windows PowerShell script snippets that you can use t
 <a name="StartBlocking"> </a>
 ## Block users who don't have Viva Engage Core licenses
 
-The Viva Engage Core license, like the Yammer license, provides access to the core Viva Engage services. It also provides full access to both the Engage app and Viva Engage.com in the same way that the Viva Engage license currently does. Therefore, in any scenario where you're blocking a user or your entire company from accessing Viva Engage, you need to remove the Viva Engage Core license and the Yammer license. For information about how to remove a Yammer license, see [Managing Yammer user licenses in Office 365](/yammer/manage-yammer-users/manage-yammer-licenses-in-office-365).
+The Viva Engage Core license, like the Yammer license, provides access to the core Viva Engage services. It also provides full access to both the Engage app and Viva Engage.com in the same way that the Viva Engage license currently does. Therefore, in any scenario where you're blocking a user or your entire company from accessing Viva Engage, you need to remove the Viva Engage Core license and the Yammer license. For information about how to remove a Yammer license, see [Managing viva-engage user licenses in Office 365](/viva/engage/manage-viva-engage-users/manage-viva-engage-licenses-in-office-365).
 
 It takes just a few steps to start blocking Microsoft 365 users who don't have Viva Engage Core licenses. However, turning on this setting can accidentally disrupt users' access to Yammer or Viva Engage. So before you begin, do the following to make sure your Viva Engage users can continue working smoothly:
   
-- **Make sure that you have turned on the setting to enforce Office 365 identity for Yammer and Viva Engage users.** You can assign or unassign Viva Engage licenses only to Yammer/Viva Engage users who are managed in Office 365. So, to block Microsoft 365 users without Yammer and Viva Engage Core licenses, all Viva Engage users must be managed in Office 365. The setting **Block Office 365 users without Viva Engage licenses** can be turned on only when the [Enforce office 365 identity for Viva Engage users](/yammer/configure-your-yammer-network/enforce-office-365-identity) setting is turned on.
+- **Make sure that you have turned on the setting to enforce Office 365 identity for Yammer and Viva Engage users.** You can assign or unassign Viva Engage licenses only to Yammer/Viva Engage users who are managed in Office 365. So, to block Microsoft 365 users without Yammer and Viva Engage Core licenses, all Viva Engage users must be managed in Office 365. The setting **Block Office 365 users without Viva Engage licenses** can be turned on only when the [Enforce office 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity) setting is turned on.
 
-- **Make sure all current Yammer and Viva Engage users have a Yammer or Viva Engage Core license.** When you start blocking Office 365 users without Yammer and Viva Engage Core licenses, any user without a Yammer license or a Viva Engage Core license won't be able to access Yammer and Viva Engage. So before you begin, make sure that all our current Yammer users have either Yammer licenses or Viva Engage Core licenses. One method to check this is to go to the **Export Users** page in Viva Engage and export all users. Then compare that list to the list of users in Microsoft 365, and make any necessary changes. For more information, see [How to audit Viva Engage users in networks connected to Office 365](/yammer/manage-yammer-users/audit-users-connected-to-office-365).
+- **Make sure all current Yammer and Viva Engage users have a Yammer or Viva Engage Core license.** When you start blocking Office 365 users without Yammer and Viva Engage Core licenses, any user without a Yammer license or a Viva Engage Core license won't be able to access Yammer and Viva Engage. So before you begin, make sure that all our current Yammer users have either Yammer licenses or Viva Engage Core licenses. One method to check this is to go to the **Export Users** page in Viva Engage and export all users. Then compare that list to the list of users in Microsoft 365, and make any necessary changes. For more information, see [How to audit Viva Engage users in networks connected to Office 365](/viva/engage/manage-viva-engage-users/audit-users-connected-to-office-365).
 
 - **Tell your users about this change.** We strongly recommend that you tell users that you're starting to block Microsoft 365 users without Yammer and Viva Engage Core licenses, because it can disrupt their day-to-day usage of Viva Engage.
 
@@ -109,7 +109,7 @@ To block users who don't have Yammer and Viva Engage Core licenses, follow these
 
     ![Screenshot of confirmation dialog box to start blocking users without Yammer licenses.](../media/engage-office-365-block-users.png)
   
-    The confirmation message shows you the number of active users on the Yammer network. Make sure all the current Yammer users have either Yammer or Viva Engage Core licenses. For more information, see [How to audit Yammer users in networks connected to Office 365](/yammer/manage-yammer-users/audit-users-connected-to-office-365).
+    The confirmation message shows you the number of active users on the Yammer network. Make sure all the current Yammer users have either Yammer or Viva Engage Core licenses. For more information, see [How to audit Yammer users in networks connected to Office 365](/viva/engage/manage-viva-engage-users/audit-users-connected-to-office-365).
 
     You can automatically log out all current users so you can be sure that everyone using the Yammer service is logged in with their Microsoft 365 identities and has a Yammer or Viva Engage Core license. To do this, select the **Log out all current users** checkbox. We strongly recommend that you do this step at a time of minimal user activity, because users could get logged out in the middle of their work. Also, make sure to communicate to users ahead of time.
 
@@ -131,8 +131,8 @@ A: Licenses are enforced only for users who sign in with Office 365 identity.
   
 ### Q: What if I don't want anyone in my company to use a legacy Yammer identity?
 
-A: You can [Enforce Office 365 identity](/yammer/configure-your-yammer-network/enforce-office-365-identity) for all your Yammer users.
+A: You can [Enforce Office 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity) for all your Yammer users.
   
 ### Q: How can I tell if all of my Yammer users have accounts in Office 365?
 
-A: Export your list of users from Yammer, and then check for users who aren't in Office 365. For more information, see [Audit Yammer users in networks connected to Office 365](/yammer/manage-yammer-users/audit-users-connected-to-office-365).
+A: Export your list of users from Yammer, and then check for users who aren't in Office 365. For more information, see [Audit Yammer users in networks connected to Office 365](/viva/engage/manage-viva-engage-users/audit-users-connected-to-office-365).

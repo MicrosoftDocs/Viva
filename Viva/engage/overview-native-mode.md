@@ -50,7 +50,7 @@ A tenant must be in one of three modes:
 When you align your network in Native Mode, the [Native Mode Alignment Tool](./native-mode-guide.md) automates the process and guides you through the steps to get there.
 
  > [!NOTE]
-> All Company now works like any other community in Native Mode. Admins can customize All Company and use advanced management features, such as restricting posts and promoting others as admins. For more information, see [All Company now works like other Viva Engage communities](/yammer/manage-yammer-groups/yammer-all-company-yammer-community).
+> All Company now works like any other community in Native Mode. Admins can customize All Company and use advanced management features, such as restricting posts and promoting others as admins. For more information, see [All Company now works like other Viva Engage communities](/viva/engage/manage-viva-engage-groups/viva-engage-all-company-viva-engage-community).
 
 ## Key differences between modes
 
@@ -61,7 +61,7 @@ When you align your network in Native Mode, the [Native Mode Alignment Tool](./n
 - All Viva Engage groups, users, and group memberships are managed through Microsoft 365. Management should be done through the Microsoft 365 admin center, Azure AD admin portal, or other Azure AD management tools.
 - All communities or groups, including All Company, are Microsoft 365-connected, which means they have access to Microsoft 365 features, including live events.
 - Viva Engage honors Microsoft 365 group creation rights and enforces Microsoft 365 group creation restrictions.
-- Guests can only be added at the community level. But external networks are supported in the [US geo](/yammer/manage-security-and-compliance/security-and-compliance).
+- Guests can only be added at the community level. But external networks are supported in the [US geo](/viva/engage/manage-security-and-compliance/security-and-compliance).
 - All files uploaded to groups are stored in SharePoint.
 - Files can't be uploaded to Viva Engage private messages.
 - Engage admins (Yammer administrators) are required to have  Global admin privileges or Group admin privileges from Microsoft 365 to administer changes to groups in which they aren't a group owner.
