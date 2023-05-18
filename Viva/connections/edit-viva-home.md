@@ -272,6 +272,7 @@ Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in th
 
 >[!NOTE]
 > It may take up to 15 minutes to see the updated default landing experience.
+> If you change the home site to a different home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can logout and log back in to clear the cache to view the new home site sooner.
 
 ## Learn more
 
