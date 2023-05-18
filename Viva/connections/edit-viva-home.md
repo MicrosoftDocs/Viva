@@ -92,7 +92,7 @@ Assigned tasks, Top news, Viva Learning, and Viva Topics. |
 
 ### Summary of default dashboard cards and how to set them up
 
-By default, cards will already be on the dashboard and require minimal set up. Edit and preview the dashboard until you are ready to share with others. To edit existing cards, select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
+By default, cards will already be on the dashboard and require minimal setup. Edit and preview the dashboard until you are ready to share with others. To edit existing cards, select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
 
 Apply **Audience targeting** so this card is filtered to specific roles, regions, or departments. Learn more about [audience targeting for Viva Connections](use-audience-targeting-in-viva-connections.md).
 
@@ -272,6 +272,7 @@ Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in th
 
 >[!NOTE]
 > It may take up to 15 minutes to see the updated default landing experience.
+> If you change the home site to a different home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can logout and log back in to clear the cache to view the new home site sooner.
 
 ## Learn more
 
