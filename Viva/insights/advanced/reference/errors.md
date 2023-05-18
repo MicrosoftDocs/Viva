@@ -60,7 +60,6 @@ Refer to the information in [Oops! You haven't been assigned a role in Viva Insi
 
 **Go to the new and enhanced Viva Insights platform for the most up-to-date experience.**
 
-[Pending]
 
 ##### Why am I getting this error?
 
@@ -82,6 +81,8 @@ If you want to temporarily access the legacy Workplace Analytics app to retrieve
 #### Manager settings can't be edited yet... 
 
 **Please try again in a few days.**
+
+[Pending]
 
 ##### Why am I getting this error?
 
