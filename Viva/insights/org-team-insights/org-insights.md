@@ -23,7 +23,7 @@ To view organization insights:
 
 * You need to have a Viva Insights subscription (that is, a premium license).
 * Your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) in Viva Insights. 
-* You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/manager-settings.md#to-configure-manager-settings) your Insights admin set. 
+* You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/setup.md#minimum-group-size) your Insights admin set. 
 
 People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. These employees are referred to as "measured employees." If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
 
