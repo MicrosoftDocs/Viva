@@ -58,7 +58,7 @@ You'll arrive at the metric editor.
 
 ### Customize your metric's settings
 
-Depending on which kind of metric you want to edit--those in Power BI template or person queries, or those in meeting queries--you'll see different options in the metric editor pane for these two settings:
+Depending on which kind of metric you want to edit—those in Power BI template or person queries, or those in meeting queries—you'll see different options in the metric editor pane for these two settings:
 
 * **Select which collaboration type(s) you want to measure** 
 * **Filter and define collaboration type(s)**
@@ -113,10 +113,10 @@ For **Number of emails sent during the meeting** and **Number of chats sent duri
 
 ##### Filter and define collaboration type(s)
 
->[!Note]
->Some metrics, like **Number of attendees who joined the meeting on time**, have existing filters. These existing filters appear in a white box and are grayed out. You can view these filters, but you're not able to edit them. If a metric has existing filters, you can still add your own custom filters to it.
+Some metrics, like **Number of attendees who joined the meeting on time**, have existing filters. These existing filters appear in a white box and are grayed out. You can view these filters, but you're not able to edit them. If a metric has existing filters, you can still add your own custom filters to it.
 
-When you add filters for meeting query metrics, the meeting activity attribute you'll work with will always be "Attendee." 
+>[!Important]
+>When you add filters for meeting query metrics, the meeting activity attribute you'll work with will always be "Attendee." 
 
 After you set "Attendee" as the **Meeting activity attribute**, you can pick from any attribute in your organizational data. For example, you could set this metric to include attendees whose **HireDate** is before April 10 2022, or attendees who are in the Asia/Seoul **TimeZone**.
 
