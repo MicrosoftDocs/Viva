@@ -17,7 +17,7 @@ ms.collection:
 search.appverid:
 - MET150
 description: "Viva Glint reports can be filtered and analyzed in various combinations to surface insightful and actionable results."
----	
+---
 
 # Make the most of Viva Glint reporting features
 

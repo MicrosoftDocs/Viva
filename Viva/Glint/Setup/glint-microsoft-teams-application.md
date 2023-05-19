@@ -17,7 +17,7 @@ ms.collection:
 search.appverid:
 - MET150
 description: "Glint built a Microsoft Teams application, which enables employees to receive and reply to survey notifications directly from Teams."
----	
+---
 
 # Use the Glint Microsoft Teams Application 
 
