@@ -1,22 +1,21 @@
 ---
-ms.date: 04/04/2023
 title: Make the most of Viva Glint reporting features
-ms.reviewer: 
+description: "Viva Glint reports can be filtered and analyzed in various combinations to surface insightful and actionable results."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
-ms.topic: article
-ms.service: article
-ms.subservice: viva
-ms.localizationpriority: high
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
 ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "Viva Glint reports can be filtered and analyzed in various combinations to surface insightful and actionable results."
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
+ms.topic: article
+ms.service: viva
+ms.subservice: viva-goals
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
 ---
 
 # Make the most of Viva Glint reporting features

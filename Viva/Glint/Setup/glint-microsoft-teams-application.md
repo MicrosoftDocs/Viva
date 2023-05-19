@@ -1,22 +1,21 @@
 ---
-ms.date: 04/04/2023
 title: Use the Glint Microsoft Teams Application 
-ms.reviewer: 
+description: "Glint built a Microsoft Teams application, which enables employees to receive and reply to survey notifications directly from Teams."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
+ms.collection:  
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: high
-ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "Glint built a Microsoft Teams application, which enables employees to receive and reply to survey notifications directly from Teams."
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
 ---
 
 # Use the Glint Microsoft Teams Application 
