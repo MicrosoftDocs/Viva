@@ -1,5 +1,5 @@
 ---
-ms.date: 03/03/2023
+ms.date: 05/19/2023
 title: Viva Insights with Glint report
 description: Connect Glint and Viva Insights data to explore behaviors and take action
 author: lilyolason
@@ -16,7 +16,7 @@ audience: Admin
 ---
 # Glint with Viva Insights report
 
-The **Viva Insights with Glint** report connects sentiment data from Glint and collaboration data from Viva Insights. 
+The **Viva Insights with Glint** shows how Glint survey questions and Viva Insights metrics are related. 
 
 With this report, you can:
 
@@ -96,9 +96,6 @@ Using these correlations, we determine whether a relationship between a Glint su
 
 If a survey question and metric have **no relationship**, the correlation is between -.1 and .1, including 0.
 
-
-
-
 ### Overview
 
 The Overview page has two main sections: **Summary** and **Questions with strong relationship**.
@@ -114,5 +111,36 @@ Get an overview about the survey you're analyzing:
 
 #### Questions with strong relationship
 
+View the four survey questions with the strongest relationships to Viva Insights metrics. These questions and metrics are presented on cards that contain this information:
 
+* Glint survey score for the question, averaged from all respondents 
+* Question text
+* Correlation coefficient from the Pearson (r) test and kind of relationship (strong, moderate, weak, or no relationship)
+* Name of the related Viva Insights metric
 
+![card](../../images/analyst-pbi-glint-sample-card-diagram-2.png)
+
+### Explore survey and metric relationships
+
+Select a survey question, pair it with a Viva Insights metric, and explore the relationship between the pairing. To 
+dive deeper, add the **View report by**, **Filter by**, and/or **Filter value** to see how this relationship changes for 
+different populations. Refer to [Report settings](#report-settings) to learn more about these controls.
+
+#### Question and metric relationship
+
+View the average score for the **Survey question** you selected. The graph below the score card shows how strongly the survey question is connected to the **Behavior metric** you selected. In addition to showing the correlation coefficient and the kind of relationship, the graph represents the distribution of survey scores for your selected question.
+
+#### Behavior metric averages
+
+View Viva Insights data for the **Behavior metric** you selected, before and after the survey period. For example, if you selected "Meeting and call hours with manager 1:1" as your metric, the area chart would show you how many hours employees were spending on average with their managers before the survey took place, at the time of the survey, and after the survey closed.
+
+#### Question response sentiments
+
+Compare data for your selected metric with how favorably respondents answered your selected survey question. For example, if you picked "Uninterrupted hours" as your metric and "I feel supported to work in the way that is best for me in terms of when and where I work" as your survey question,
+the graph would show you the average uninterrupted hours by those who responded favorably, unfavorably, and neutrally. Select **Open chart breakdown** to view the total number of responses, and three separate graphs: metric data for those who responded favorably, unfavorably, and neutrally. <!--do we have a breakpoint between these three?-->
+
+### Glossary
+
+Get definitions for all the metrics used in this report. To view definitions for all metrics in Viva Insights, refer to our [metric definition article](../../reference/metrics.md).
+
+[!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
