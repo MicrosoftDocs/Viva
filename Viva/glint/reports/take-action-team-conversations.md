@@ -1,22 +1,21 @@
 ---
-ms.date: 03/29/2023
 title: Take Actions with Viva Glint Team Conversations
-ms.reviewer: 
+description: "Managers who draw their employees into the process of sharing feedback results and prioritizing focus areas are the most successful managers."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
+ms.collection:  
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: high
-ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "Managers who draw their employees into the process of sharing feedback results and prioritizing focus areas are the most successful managers."
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
 ---
 
 # Take Actions with Viva Glint Team Conversations

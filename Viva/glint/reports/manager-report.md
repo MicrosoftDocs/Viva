@@ -1,22 +1,21 @@
 ---
-ms.date: 03/29/2023
 title: Use the Manager report in Viva Glint
-ms.reviewer: 
+description: "The Manager Report displays a Directs or Roll-up Hierarchy view for two preselected survey items within a specific hierarchy."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
+ms.collection:  
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: high
-ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "The Manager Report displays a Directs or Roll-up Hierarchy view for two preselected survey items within a specific hierarchy."
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
 ---
 
 # Use the Manager report in Viva Glint

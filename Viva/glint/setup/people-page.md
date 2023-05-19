@@ -1,23 +1,22 @@
 ---
-ms.date: 04/04/2023
 title: Use Viva Glint's People page to view employee information
-ms.reviewer: 
+description: "The People page on the dashboard allows Viva Glint admins to view employee attributes, manage permissions and roles, and deactivate employees."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
+ms.collection:  
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: high
-ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "The People page on the dashboard allows Viva Glint admins to view employee attributes, manage permissions and roles, and deactivate employees."
----	
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
+---
 
 # Use Viva Glint's People page to view employee information
 

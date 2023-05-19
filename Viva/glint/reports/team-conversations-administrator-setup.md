@@ -1,22 +1,21 @@
 ---
-ms.date: 03/29/2023
-title: Admin setup for Viva Glint Team Conversations 
-ms.reviewer: 
+title: Admin setup for Viva Glint Team Conversations
+description: "Team Conversations are set up by the Company Administrator within Program Summary."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
+ms.collection:  
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: high
-ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "Team Conversations are set up by the Company Administrator within Program Summary."
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
 ---
 
 # Admin setup for Viva Glint Team Conversations

@@ -1,23 +1,22 @@
 ---
-ms.date: 04/04/2023
 title: Export a Viva Glint Distribution List
-ms.reviewer: 
+description: "Viva Glint admins can export Distribution Lists to quickly see the list of employees receiving a survey or members of a group with specific permissions."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
+ms.collection:  
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: high
-ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "Viva Glint admins can export Distribution Lists to quickly see the list of employees receiving a survey or members of a group with specific permissions."
----	
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
+---
 
 # Export a Viva Glint Distribution List
 

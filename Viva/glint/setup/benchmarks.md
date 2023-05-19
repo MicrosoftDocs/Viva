@@ -1,22 +1,21 @@
 ---
-ms.date: 03/29/2023
 title: Use Viva Glint benchmarks  
-ms.reviewer: 
+description: "Global benchmarks provide level-setting comparisons during an initial survey, but internal and trend comparisons provide more useful information in subsequent surveys."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
+ms.collection:  
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: high
-ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "Global benchmarks provide level-setting comparisons during an initial survey, but internal and trend comparisons provide more useful information in subsequent surveys."
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
 ---
 
 # Use Viva Glint benchmarks  

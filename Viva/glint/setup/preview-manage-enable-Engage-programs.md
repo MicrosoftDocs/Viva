@@ -1,22 +1,21 @@
 ---
-ms.date: 03/29/2023
 title: Preview, manage, and enable Viva Glint surveys and dashboards
-ms.reviewer: 
+description: "Once your Viva Glint Engagement program is set up, take these steps to set it live or edit it."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
+ms.collection:  
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: high
-ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "Once your Viva Glint Engagement program is set up, take these steps to set it live or edit it."
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
 ---
 
 # Preview, manage, and enable Viva Glint surveys and dashboards

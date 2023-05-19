@@ -1,23 +1,22 @@
 ---
-ms.date: 04/04/2023
 title: Set up Distribution page in Program Summary
-ms.reviewer: 
+description: "On the Distribution page you indicate which people within your organization will receive a specific program."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
+ms.collection:  
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: high
-ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "On the Distribution page you indicate which people within your organization will receive a specific program."
----	
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
+---
 
 # Set up Distribution page in Program Summary
 

@@ -1,22 +1,21 @@
 ---
-ms.date: 03/29/2023
 title: Why Viva Glint surveys are confidential rather than anonymous
-ms.reviewer: 
+description: "Confidentiality guidelines allow our customers to provide analytic fundamentals while meeting local, governmental regulatory requirements."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
-audience: Admin
-f1.keywords:
-- NOCSH
+audience: admin
+f1.keywords: NOCSH
+keywords: viva strengths and opportunities
+ms.collection:  
+- m365initiative-viva-goals
+- selfserve 
+search.appverid: MET150 
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-goals
-ms.localizationpriority: high
-ms.collection:  
-- m365initiative-viva-goals  
-search.appverid:
-- MET150
-description: "Confidentiality guidelines allow our customers to provide analytic fundamentals while meeting local, governmental regulatory requirements."
+ms.localizationpriority: high pri
+ms.date: 04/28/2023
 ---
 
 # Why Viva Glint surveys are confidential rather than anonymous
