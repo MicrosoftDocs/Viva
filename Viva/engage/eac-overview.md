@@ -42,6 +42,8 @@ To go to the Viva Engage admin center in Teams, select the ellipses button from 
 #### On the web
 To go to the [Viva Engage admin center on the web](https://www.yammer.com), log in, and from the gear icon on the top navigation menu, select **Admin center**.
 
+:::image type="content" source="../media/engage/admin/eac-on-web.png" alt-text="Export options let you choose a date range and other filters.":::
+
 
 ### See also
 

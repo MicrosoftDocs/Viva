@@ -28,6 +28,11 @@ In the Viva Engage Teams application, select the ellipses button from the top na
 
 [![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
+To access the [Viva Engage admin center on the web](http://www.yammer.com), from the gear icon in the top navigation menu, select **Admin center**.
+
+:::image type="content" source="../media/engage/admin/eac-on-web.png" alt-text="Export options let you choose a date range and other filters.":::
+<br>
+
 ## Manage corporate communicators  
 
 As a Global admin, Engage admin, or corporate communicator, you can identify and remove users as corporate communicators. On the **Setup and configuration** tab, select **Manage corporate communicators** to open the configuration options.  
