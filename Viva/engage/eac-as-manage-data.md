@@ -27,9 +27,7 @@ search.appverid:
 As a Viva Engage admin, you need to export data to manage users and content. This article explains the different options that can help you manage usage, compliance, and discovery.
 
 >[!NOTE]
->To migrate data between Viva Engage tenants [learn about migrating content](/yammer/configure-your-yammer-network/add-basic-domains-to-office-365)
-
-:::image type="content" source="../media/engage/admin/eac-data-export.png" alt-text="Use the Governance and compliance tab to find your data export options.":::
+>To migrate data between Viva Engage tenants [learn about migrating content](/yammer/configure-your-yammer-network/add-basic-domains-to-office-365).
 
 Choose from these data export methods to unlock your data.
 
@@ -77,11 +75,10 @@ Choose from these data export methods to unlock your data.
 <br>
 <br>
 
-## Access Data Export
+## Access the Data Export options
 
 Use the data export page in the admin portal to access all data exports.
-
-:::image type="content" source="../media/engage/admin/eac-admin-entrypoint.png" alt-text="Use the Governance and compliance tab to find your data export options.":::
+:::image type="content" source="../media/engage/admin/eac-data-export.png" alt-text="Use the Governance and compliance tab to find your data export options.":::
 
 1. Select the **Governance and compliance** tab.
 2. Select **Data Export**. <br>
