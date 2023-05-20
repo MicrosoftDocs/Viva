@@ -81,6 +81,8 @@ Choose from these data export methods to unlock your data.
 
 Use the data export page in the admin portal to access all data exports.
 
+:::image type="content" source="../media/engage/admin/eac-admin-entrypoint.png" alt-text="Use the Governance and compliance tab to find your data export options.":::
+
 1. Select the **Governance and compliance** tab.
 2. Select **Data Export**. <br>
 
@@ -123,7 +125,7 @@ This data export doesn't include:
 1. On the Data Export Page, select **Export tenant data.** 
 2. Specify a date range and other options.
 
-:::image type="content" source="../media/engage/admin/eac-export-tenant.png" alt-text="Export options let you choose a date range and other filters.":::
+:::image type="content" source="../media/engage/admin/eac-tenant-options.png" alt-text="Export options let you choose a date range and other filters.":::
 - **Date range**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date. 
 - **Include attachments**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format. 
 - **Include external networks**  If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**. 
