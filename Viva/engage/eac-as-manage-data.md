@@ -29,7 +29,7 @@ As a Viva Engage admin, you need to export data to manage users and content. Thi
 >[!NOTE]
 >To migrate data between Viva Engage tenants [learn about migrating content](/yammer/configure-your-yammer-network/add-basic-domains-to-office-365).
 
-Choose from these data export methods to unlock your data.
+Choose from these data export methods to manage your data.
 
 :::row:::
     :::column span="2":::
