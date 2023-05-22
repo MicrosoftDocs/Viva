@@ -13,45 +13,25 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Errors
+# Error codes: Viva Insights
 
-If you get one of these errors in the Viva Insights app in Teams and web, or the advanced insights app, read through our solution. If you've tried the solution and you're still getting the same error, [contact our support team](/microsoft-365/admin/get-help-support#online-support) for help.
+This table lists the error codes for Viva Insights.
 
-|App|Action|Error|
-|--------|-------|-----|
-|**Advanced insights**|Setup/sign-in | [Oops! System is not yet ready to run queries...](#oops-system-is-not-yet-ready-to-run-queries)
-|||[Oops! You haven't been assigned a role in Viva Insights yet...](#oops-you-havent-been-assigned-a-role-in-viva-insights-yet)
-|||[Oops! Something's wrong and we can't find that page.](#oops-somethings-wrong-and-we-cant-find-that-page) 
-||Accessing the **Manager settings** page|[Manager settings can't be edited yet...](#manager-settings-cant-be-edited-yet)
-||Viewing the **Organizational data** page|[Oops! Something's wrong and we can't render this page right now. Please try again later.](#oops-somethings-wrong-and-we-cant-render-this-page-right-now)
-||Adding organizational data| Validated, processing <br><br>0% of insights using organization data are available due to missing or low-quality data fields<br><br>No data found for selected source<br><br>Another upload or delete action is currently underway. To continue, wait for that action to be completed<br><br>Submission for upload failed. If you already have an upload or delete action in progress, wait for it to finish. Otherwise, please try again.
-|**Workplace Analytics**|Any|[It looks like you don’t have access to this space...](#it-looks-like-you-dont-have-access-to-this-space)
-|**Viva Insights on Teams and web**|Viewing organization insights|Organization insights aren't showing (no message)
-|||[Sorry, something went wrong.](#sorry-something-went-wrong)
-|||[This content needs additional organization data](#this-content-needs-additional-organization-data)
+| App | Error message | Details |Solution and resources|
+| --- | --- | --- |---|
+| Advanced insights| Oops! System is not yet ready to run queries. Please check with Viva Insights Admin if at least 10 licenses have been assigned. If already done, then please wait until we get the system ready for running queries.| Your setup may not have completed yet or your organization might not have enough licenses assigned. It takes a few days for Viva Insights to process Microsoft 365 collaboration data and for assigned users to get the right permissions. Most customers are able to access the app four to five days after the Insights admin assigns licenses.| Contact your Insights Administrator to confirm they've assigned enough licenses. They need to assign at least 10. <br><br> [Question 4, FAQ](faq.md#q4-our-admin-assigned-the-required-licenses-why-cant-insights-analysts-access-the-advanced-insights-app)  <br><br>[Setup](../setup-maint/setup.md)<br><br>[Assign licenses](../setup-maint/assign-licenses.md)|
+|  |Oops! You haven't been assigned a role in Viva Insights yet.Please contact M365 admin for role assignment. | You might get this error in the advanced insights app for one of three reasons:<ul><li>Your Microsoft 365 global admin hasn't assigned you a Viva Insights license. <li>Your Insights Administrator hasn't assigned you to a role that can access this page.<li>Your organization might use Privileged Identity Management (PIM) as an additional approval process, and you haven't activated your role yet.  |<ul><li>Contact your Insights Administrator to confirm they've assigned you the right license and role. <li>Check whether your role has [permissions](../setup-maint/user-roles.md#feature-access) to access this page. <li>If applicable, activate your role in PIM. You can validate and view pending role activations using Azure Active Directory. To find out how to do this, refer to [Activate a role](/azure/active-directory/privileged-identity-management/pim-how-to-activate-role.md#activate-a-role)
+| | `message` | `details` |
 
 
+## Next steps
+
+If you've tried our solution and you're still getting the same error, [contact our support team](/microsoft-365/admin/get-help-support#online-support) for help.
+
+
+|
 ## Advanced insights app
 
-### Oops! System is not yet ready to run queries... 
-
-**Please check with Viva Insights Admin if at least 10 licenses have been assigned. If already done, then please wait until we get the system ready for running queries.**
-
-#### Why am I getting this error?
-
-Your setup may not have completed yet or your organization might not have enough licenses assigned.
-
-#### What can I do to resolve it?
-
-It takes a few days for Viva Insights to process Microsoft 365 collaboration data and for assigned users to get the right permissions. Most customers are able to access the app four to five days after the Insights admin assigns licenses.
-
-Contact your Insights Administrator to confirm they've assigned enough licenses. They need to assign at least 10.
-
-#### Where can I go to learn more?
-
-* [Question 4](faq.md#q4-our-admin-assigned-the-required-licenses-why-cant-insights-analysts-access-the-advanced-insights-app) in our FAQ's Setup and configuration section
-* [Setup](../setup-maint/setup.md)
-* [Assign licenses](../setup-maint/assign-licenses.md)
 
 ### Oops! You haven't been assigned a role in Viva Insights yet...
 
