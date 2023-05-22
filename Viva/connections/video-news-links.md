@@ -50,7 +50,7 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 
 
     > [!NOTE]
-    > If Viva Connections hasn’t been configured for your organization, you’ll see the following error. Learn more about [how to set up Viva Connections](viva-connections-setup-guide.md). 
+    > If Viva Connections hasn’t been configured for your organization, you’ll see the following error. Learn more about [how to set up Viva Connections](set-up-admin-center.md). 
 
     ![Image of an error message in the Video News link panel.](../media/connections/video-news-link-error.png)
 
@@ -129,4 +129,4 @@ You can publish videos hosted on SharePoint sites as news posts in the Viva Conn
 [Overview of Viva Connections](viva-connections-overview.md)
 <br>
 
-[Set up and launch Viva Connections](viva-connections-setup-guide.md)
+[Set up and launch Viva Connections](set-up-admin-center.md)

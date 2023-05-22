@@ -676,7 +676,7 @@
         "redirect_document_id": false
         },
       {"source_path": "viva/connections/guide-to-setting-up-viva-connections.md",
-          "redirect_url": "/viva/connections/viva-connections-setup-guide",
+          "redirect_url": "/viva/connections/set-up-admin-center",
           "redirect_document_id": false
       },
       {"source_path": "viva/insights/org-team-insights/employee-experience-pbi.md",
@@ -1036,6 +1036,11 @@
       {
         "source_path": "viva/insights/personal/teams/reference/viva-teams-app-settings.md",
         "redirect_url": "https://support.microsoft.com/topic/configure-your-app-settings-in-viva-insights-e7d25f88-d102-4740-a7d0-af8610b457c5",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/connections/viva-connections-setup-guide.md",
+        "redirect_url": "/viva/connections/set-up-admin-center",
         "redirect_document_id": false
       }
                                                                           

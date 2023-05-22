@@ -27,7 +27,7 @@ description: "Frequently asked questions about the Feed for Viva Connections"
 
 ## What can I expect to see in the Feed?
 
-The Feed gives content publishers a reliable means of distributing important news and information that their users need within their organizations. End-users will also see engaging content from sites they are a member of, sites they follow, and Yammer communities they follow. Get more information about the [content that displays in the Feed](#where-does-content-in-the-feed-come-from) and the [factors that impact the content's ranking in the Feed](#what-are-the-available-controls-to-influence-content-in-the-feed). 
+The Feed gives content publishers a reliable means of distributing important news and information that their users need within their organizations. End-users will also see engaging content from sites they're a member of, sites they follow, and Yammer communities they follow. Get more information about the [content that displays in the Feed](#where-does-content-in-the-feed-come-from) and the [factors that impact the content's ranking in the Feed](#what-are-the-available-controls-to-influence-content-in-the-feed). 
 
 
 ## Where does content in the Feed come from?
@@ -91,9 +91,9 @@ We’re experimenting and rapidly iterating on the logic used:
 - **Engagement** - Ensure dynamic mix of content types within each bucket.
 
 
-One of the primary goals of the Feed is to give content publishers a reliable means of distributing important news and information. To keep them interested and coming back regularly we’re working to strike a balance between the engaging content they want (like from sites they are a member of or communities they follow) and the information they need (like SharePoint organizational news site and Yammer All Company posts). To achieve this, we don’t rely on a pure chronological ranking.  
+One of the primary goals of the Feed is to give content publishers a reliable means of distributing important news and information. To keep them interested and coming back regularly we’re working to strike a balance between the engaging content they want (like from sites they're a member of or communities they follow) and the information they need (like SharePoint organizational news site and Yammer All Company posts). To achieve this, we don’t rely on a pure chronological ranking.  
 
-Over time, we plan on continuing to experiment with our ranking and to add new factors to the algorithm we use. We will be moving over to a machine learning model that is optimized for user engagement while preserving the ability for organizations to lift important content that is recent to the top of users Feeds. [Learn more about the different controls that can be used to influence the rank of content](#what-are-the-available-controls-to-influence-content-in-the-feed). 
+Over time, we plan on continuing to experiment with our ranking and to add new factors to the algorithm we use. We'll be moving over to a machine learning model that is optimized for user engagement while preserving the ability for organizations to lift important content that is recent to the top of users Feeds. [Learn more about the different controls that can be used to influence the rank of content](#what-are-the-available-controls-to-influence-content-in-the-feed). 
 
 The content in the Feed is personalized for each user based on their memberships and permissions. We always restrict what content the user sees to content they have permissions to view.  In addition to any org-wide memberships, we’ll include content from SharePoint sites and Yammer communities the user is optionally a member of.  The goal of having a fresh, dynamic, and engaging Feed to keep them coming back.
 
@@ -103,7 +103,7 @@ The content in the Feed is personalized for each user based on their memberships
 
 If you’re not seeing any content in your feed, it could be because of a few reasons:
 1. There needs to be some content published to a SharePoint site or Yammer community that you’re a member of.  
-2. Yammer Posts that are not Featured or to **All Company** communities or **Announcements** may be removed and replaced in subsequent feed views to give users more dynamic content.
+2. Yammer Posts that aren't Featured or to **All Company** communities or **Announcements** may be removed and replaced in subsequent feed views to give users more dynamic content.
 3. The SharePoint site you are publishing from (home site or organizational news site) is less than seven days old.  This issue will resolve itself and content will appear normally after the initial seven days after site creation.
 
 
@@ -149,7 +149,7 @@ In the [Feed for Viva Connections web part](/viva/connections/use-feed-web-part-
 
 [Overview of Viva Connections](viva-connections-overview.md)
 
-[Set up and launch Viva Connections](viva-connections-setup-guide.md)
+[Set up and launch Viva Connections](set-up-admin-center.md)
 
 [Use the Viva Connections Feed web part](https://support.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330)
 

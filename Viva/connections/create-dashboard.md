@@ -72,7 +72,7 @@ The Viva Connections dashboard can be edited right from Microsoft Teams. You’l
 4.	Select **Edit** (pencil icon) for each card to edit properties like the label, icon, image, and audience targeting settings where applicable. 
 5.	Select **Delete** (trash can icon) to remove cards.
 6.	Preview the experience on all devices to ensure usability before publishing or republishing. 
-7.	**Publish** or **Republish** when you are done to share the edits with others.
+7.	**Publish** or **Republish** when you're done to share the edits with others.
 
 
 ## How to edit the dashboard from SharePoint when you have a home site
@@ -252,15 +252,15 @@ Third-party cards and an entry point to browse more cards in the app store will 
 1.	While in edit-mode, select **+ Add** card from the dashboard. 
 2.	You’ll see third-party options in the **Suggested cards** section. Select one of the cards that’s displayed or browse more cards by selecting **Add more cards**.
 3.	Request the cards you’d like to add to the toolbox and the requests will be sent to the App Catalog Admin for their approval.
-4.	You will receive an email to confirm if your request has been approved or denied.
+4.	You'll receive an email to confirm if your request has been approved or denied.
 5.	Once your request has been approved, refresh the page  and you’ll see the new card display in the toolbox.
 
 
 #### Option 2: Acquire the app from a Microsoft AppSource or the SharePoint store
 You can acquire apps from third- party developers by browsing the [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=sharepoint) or [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) (recommended).
 
-- If you are building a dashboard, you can [request the app directly](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289), but you will need approval from an admin of the tenant-level app catalog to continue with the installation
-- If you are an **admin** of a tenant-level app catalog, you can deploy business apps directly.
+- If you're building a dashboard, you can [request the app directly](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289), but you'll need approval from an admin of the tenant-level app catalog to continue with the installation
+- If you're an **admin** of a tenant-level app catalog, you can deploy business apps directly.
 
 [Get step-by-step guidance](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) on how to request and deploy an app, and add an app to your site. For tenant admin, [learn how to manage apps](/sharepoint/use-app-catalog#work-with-sharepoint-store-apps) in the App Catalog.
 
@@ -436,7 +436,7 @@ After creating or editing cards on the dashboard, make sure you preview the expe
    - Cards that targeted to a specific group will display.
    - When one or more audiences are selected, cards that *do not* have audience targeting applied will also display.
    - If no audiences are targeted, only cards that *are not* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
-   - If you are not part of one of the audiences you've selected, you will only see cards that are not audience targeted. If none are audience targeted, you won't see any cards.
+   - If you're not part of one of the audiences you've selected, you will only see cards that are not audience targeted. If none are audience targeted, you won't see any cards.
 
 
    #### Examples:
@@ -482,6 +482,6 @@ For some cards, you will use links to URLs. Depending on the location of the con
 
 ## More resources
 
-[Step-by-step guide to setting up Viva Connections](viva-connections-setup-guide.md)
+[Step-by-step guide to setting up Viva Connections](set-up-admin-center.md)
 
 [Learn more about how to plan a dashboard](plan-viva-connections.md#step-2-plan-for-viva-connections)

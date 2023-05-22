@@ -35,7 +35,7 @@ Microsoft Viva Connections is your gateway to a modern employee experience and i
 
 :::image type="content" source="../media/connections/vc-desktop-mobile.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/vc-desktop-mobile.png":::
 
-Use the [quick guide to set up Viva Connections](viva-connections-setup-guide.md) or get [more detailed guidance on how to plan, build, and launch](plan-viva-connections.md).
+Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get [more detailed guidance on how to plan, build, and launch](plan-viva-connections.md).
 <br>
 <br>
 
@@ -256,7 +256,7 @@ There are several options to learn more about how to get Viva Connections for yo
 
 | Option                  | Description        | Time to complete|
 | :--------------------- | :--------------------|:----------------------:|
-| [Quick guide](viva-connections-setup-guide.md) | Use the quick guide to get a high-level overview of how to get Viva Connections | 10 minutes |
+| [Quick guide](set-up-admin-center.md) | Use the quick guide to get a high-level overview of how to get Viva Connections | 10 minutes |
 | [Plan, build, and launch guidance](viva-connections-setup-overview.md) | Get more detailed guidance that focus on tasks in the plan, build, and launch phases.   | 30 minutes           |
 | [Learning path](/training/paths/viva-connections-get-started/)    | Get in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings.       | 2 hours            | 
 
