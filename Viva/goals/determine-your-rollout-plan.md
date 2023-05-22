@@ -3,7 +3,7 @@ ms.date: 04/05/2022
 title: Determine your rollout plan
 ms.reviewer: 
 ms.author: ranjaliroy
-ms-author: RaSanders
+ms.author: RaSanders
 manager: Liz.Pierce 
 audience: Admin
 f1.keywords:
