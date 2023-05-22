@@ -18,6 +18,9 @@ audience: Admin
 
 # Maintenance tasks
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../advanced/introduction-to-advanced-insights.md).
+
 After you have installed and set up Microsoft Viva Insights, it will require maintenance by an admin. Some maintenance tasks are infrequently required, while others must be done regularly.  
 
 ## Update system defaults

@@ -20,6 +20,9 @@ audience: Admin
 
 # Set up Viva Insights
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../advanced/introduction-to-advanced-insights.md).
+
 Although the Microsoft 365 admin and the Viva Insights Administrator do most of these steps, others in your organization help make decisions that relate to setup. See [Determine key personas and roles for implementation](Determine-key-personas.md) for details.
 
 **Prerequisites** - See [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to learn about Viva Insights licenses and other related requirements.

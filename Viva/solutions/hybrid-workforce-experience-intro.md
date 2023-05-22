@@ -21,6 +21,9 @@ audience: Admin
 
 # Hybrid workforce experience report Onsite days solution
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../../insights/advanced/introduction-to-advanced-insights.md).
+
 <!--By following the steps in this solution, you'll:
 
 > [!div class="checklist"]

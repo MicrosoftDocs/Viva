@@ -21,6 +21,9 @@ audience: Admin
 
 # Organizational network analysis
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../../insights/advanced/introduction-to-advanced-insights.md).
+
 Organizational network analysis (ONA) is a structured way to analyze how communications occur within the organization. Workplace Analytics with Viva Insights has a variety of measures to help you visualize and analyze relationships within your organization and get visibility and understanding into individual and team productivity, innovation, organizational change, etc. The analysis can also help you shape a business strategy that improves communication, making your business more effective and sustainable.
 
 ## Who should be included in the analysis?

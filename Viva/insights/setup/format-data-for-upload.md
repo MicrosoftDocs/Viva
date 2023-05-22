@@ -19,6 +19,9 @@ audience: Admin
 
 # Format organizational data for upload
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../advanced/introduction-to-advanced-insights.md).
+
 Microsoft Viva Insights admins upload files that contain organizational (HR) data as part of setup and as a regular data-refresh task.
 
 <!-- THIS IS THE HEADER AND INTRO PARAGRAPH TO USE WHEN THIS TOPIC APPLIES TO UPLOAD OF ALL/VARIOUS DATA TO WPA. 

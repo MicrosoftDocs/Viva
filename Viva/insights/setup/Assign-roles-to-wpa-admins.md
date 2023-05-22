@@ -20,6 +20,9 @@ audience: Admin
 
 # Assign admin roles
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../advanced/introduction-to-advanced-insights.md).
+
 The following describes who does what to assign admins roles for Microsoft Viva Insights:
 
 * **Owner** - The [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) assigns Viva Insights roles and the Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) assigns roles for the advanced insights app

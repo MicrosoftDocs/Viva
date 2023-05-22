@@ -19,6 +19,9 @@ audience: Admin
 
 # Improve agility
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../advanced/introduction-to-advanced-insights.md)
+
 Companies that redefine industries and lead markets are less bureaucratic and nimbly adapt to rapid changes in technology and customer needs. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Improve agility**.

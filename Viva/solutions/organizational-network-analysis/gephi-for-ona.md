@@ -21,6 +21,9 @@ audience: Admin
 
 # Organizational network analysis with Gephi
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../../insights/advanced/introduction-to-advanced-insights.md).
+
 Gephi is an open-source network analysis software that enables users to create customized network analysis measures and maps.
 
 ## Installation

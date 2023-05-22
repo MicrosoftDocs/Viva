@@ -19,6 +19,9 @@ audience: Admin
 
 # Partitions for Viva Insights
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../advanced/introduction-to-advanced-insights.md).
+
 A partition is a data workspace for Microsoft Viva Insights analysis. A partition delimits the employee data and organizational attributes that an analyst can use for analysis. Companies create partitions that contain subsets of employee data. To do this, they use various criteria, such as the following for example:
 
 * **Organization** - A company can create a partition for data about all the employees in one division, or in a functional group or team, such as for Research and development.

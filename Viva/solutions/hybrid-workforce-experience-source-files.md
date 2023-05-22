@@ -21,6 +21,9 @@ audience: Admin
 
 # Step 1. Generate source files
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../../insights/advanced/introduction-to-advanced-insights.md).
+
 In this step of the Hybrid workforce experience report OnsiteDays solution, you'll:
 
 > [!div class="checklist"]
