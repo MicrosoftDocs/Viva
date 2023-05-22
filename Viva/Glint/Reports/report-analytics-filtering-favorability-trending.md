@@ -18,16 +18,16 @@ ms.localizationpriority: high pri
 ms.date: 04/28/2023
 ---
 
-# Make the most of Viva Glint reporting features
+# Learn VIva Glint reporting terminology 
 
-On this page, learn about: 
+The following terms will help you understand Viva Glint People Science terms and ensure that you get the most useful information from all your Viva Glint reports. 
 
-- The primary metric of analysis 
-- How to filter a report 
-- The scores calculation overview 
-- Mean score versus the favorability score 
-- Color coding 
-- Aggregate trending 
+|**Term**| **Definition**|
+|-----------|-----------|
+|Mean score | The average for all provided questions/items in a survey, transformed into a 100-point scale.|
+|Engagement score | Calculated by computing the average score for eSat (Employee Satisfaction) - or eSat and Recommend (key driver) - or a customized aggregate. The overall score has the highest correlation with the drivers of engagement, along with outcomes like productivity and retention. This overall score can help managers understand how happy their team is at work. |
+|Favorability | Favorability provides the distribution of responses that make up the overall average score. It’s useful to know if there's a strong consistency in responses or if the average is a result of a wide and divided range of opinions. |
+|Favorability score  | Favorability is calculated by looking at responses that fall within a specific range based on the rating scale used. <br> In Viva Glint reporting schematics: <br> - Questions scored as favorable show in blue. <br> - Questions scored as neutral show in grey. <br> - Questions scored as unfavorable show in red. <br> For items scored on a 5-point rating scale (Viva Glint’s best practice), <br> - Items scoring mostly 4 s and 5 s are considered favorable.<br> - Items scoring mostly 3 s are considered neutral. <br> - Items scoring mostly 1 s and 2 s are considered unfavorable.   |
 
 ## Read People Science explained: Primary Metric of Analysis 
 
@@ -38,26 +38,15 @@ While using the Viva Glint platform to review survey results, leaders and manage
 
 Read the People Science explained article: Primary Metric of Analysis for an in-depth understanding of how these metrics provide a holistic understanding of survey scores, enabling you to easily interpret results, take action on the right areas, and monitor improvement over time. 
 
-## Learn reporting terminology 
-
-The following terms will help you understand the People Science article referenced above and ensure that you are able to get the most useful information from all your Viva Glint reports.
-
-|**Term**| **Definition**|
-|-----------|-----------|
-|Mean score | The average for all provided questions/items in a survey, transformed into a 100-point scale.|
-|Engagement score | Calculated by computing the average score for eSat (Employee Satisfaction) - or eSat and Recommend (key driver) - or a customized aggregate. The overall score has the highest correlation with the drivers of engagement, along with outcomes like productivity and retention. This overall score can help managers understand how happy their team is at work. |
-|Favorability | Favorability provides the distribution of responses that make up the overall average score. It’s useful to know if there's a strong consistency in responses or if the average is a result of a wide and divided range of opinions. |
-|Favorability score  | Favorability is calculated by looking at responses that fall within a specific range based on the rating scale used. <br> In Viva Glint reporting schematics: <br> - Questions scored as favorable show in blue. <br> - Questions scored as neutral show in grey. <br> - Questions scored as unfavorable show in red. <br> For items scored on a 5-point rating scale (Viva Glint’s best practice), <br> - Items scoring mostly 4 s and 5 s are considered favorable.<br> - Items scoring mostly 3 s are considered neutral. <br> - Items scoring mostly 1 s and 2 s are considered unfavorable.   |
-
 ## Filter a Viva Glint report 
 
 Microsoft Viva Glint survey reports use one process across all reports for filtering. This fixed panel identifies survey programs, attributes, and survey item subsets in which your data can be filtered for interpretation. 
 
-Select the filter symbol at the top of the dashboard to expand the Filters panel. Select **+ Add Filters** to select attributes available in either the People section or the *Question Responses* section. Select the **X** to hide the filter panel.
+Select the filter symbol at the top of the dashboard to expand the Filters panel. Select **+ Add Filters** to select attributes available in either the *People* section or the *Question Responses* section. Select the **X** to hide the filter panel.
 
 ### What is advanced filtering? 
 
-Advanced filtering enables you to see how one program impacts another. For example, you can review Engagement results filtered by those who had a good onboarding experience.
+Advanced filtering shows how one program impacts another. For example, you can review engagement results filtered by those who had a good onboarding experience.
 
 1. Select **Advanced**.  
 2. Select **Yes, enable advanced filtering**. 
@@ -133,7 +122,7 @@ The colors in the Heat Map are meant to allow quick identification of systemic p
 
 Aggregate trending supplies historical data over time. There's a trend point, which reflects matching items from one cycle to the cycle immediately preceding it. Changing items within an aggregate (group) interrupts trend. 
 
-### Aggregate trending terminology 
+### Viva Glint aggregate trending terminology 
 
 |**Term**| **Definition**|
 |-----------|-----------|
