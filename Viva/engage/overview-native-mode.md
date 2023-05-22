@@ -31,6 +31,9 @@ In Native Mode, all Viva Engage users are in Azure Active Directory (Azure AD), 
  > [!NOTE]
 > Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration.
 
+ > [!NOTE]
+> There are no bandwidth requirements for Native Mode migration because you are essentially moving from a separate Yammer site to Microsoft 365 and SharePoint Online, nothing is downloaded. The only consideration is the SharePoint Online quota if Yammer has been extensively used.
+
 A tenant must be in one of three modes:
 
 - **Native Mode for Microsoft 365**. In this mode, the network only uses features that allow users, groups, and content to be compatible with and mapped to their counterparts in Azure AD and Microsoft 365.
