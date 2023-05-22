@@ -76,7 +76,7 @@ Create an all-encompassing Connections experience for the entire organization, o
 > [!NOTE]
 >
 > - Organizations are limited to creating a maximum of ten Viva Connections experiences overall per tenant.
-> - A Microsoft Viva Suite license is required to create three or more Viva Connections experiences. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
+> - A Microsoft Viva Suite license is required to create more than three Viva Connections experiences. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
 > - You must have Global admin permissions, SharePoint admin permissions, or higher to access the MAC.
 > - If this is the first time you're setting up Viva Connections, it's recommended you pin the app in Teams.
 
