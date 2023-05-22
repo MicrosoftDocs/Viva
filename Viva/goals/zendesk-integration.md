@@ -4,7 +4,7 @@ title: "Zendesk Integration"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager:
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
