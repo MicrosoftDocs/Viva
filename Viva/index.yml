@@ -15,7 +15,8 @@ metadata:
   ms.author: loreenl #Required; microsoft alias of author; optional team alias.
   ms.date: 09/02/2021 #Required; mm/dd/yyyy format.
   ms.custom: intro-hub-or-landing
-
+  ms.collection:
+    - Tier1
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
@@ -26,17 +27,17 @@ highlightedContent:
       itemType: get-started
       url: microsoft-viva-overview.md
     # Card
-    - title: Microsoft Viva blog
+    - title: Microsoft Viva community
       itemType: whats-new
-      url: https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog
+      url: https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva
     # Card
     - title: Introducing Microsoft Viva
       itemType: overview
       url: https://www.microsoft.com/microsoft-viva/overview
     # Card
-    - title: Using Microsoft Viva
+    - title: Microsoft Viva overview
       itemType: video
-      url: https://www.youtube.com/playlist?list=PLXtHYVsvn_b-P97FRm0LZ3Y6xQrlpkW4r
+      url: https://www.youtube.com/watch?v=J3qCWxKVfFA
 
 # tools section (optional)
 tools:

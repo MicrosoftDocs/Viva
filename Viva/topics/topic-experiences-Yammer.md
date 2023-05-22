@@ -7,16 +7,16 @@ manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: 
-- m365initiative-viva-topics
-- highpri
+ms.collection:
+  - m365initiative-viva-topics
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
 - MET150   
 ms.localizationpriority:  medium
 description: Learn more about Viva Topics in Yammer.
-
 ---
 
 # Viva Topics in Yammer
@@ -43,7 +43,3 @@ With Viva Topics in Yammer, you'll be able to share knowledge and explore more t
 ![Image showing topic picker when drafting a Yammer post.](../media/knowledge-management/Yammer-topic-picker.png)
 
 Attaching Yammer threads with Viva Topics will have the advantage of ensuring that Yammer content shows up across the Microsoft 365 suite wherever the Viva Topics knowledge experiences surface. 
-
-
-
-

@@ -7,7 +7,9 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -115,13 +117,12 @@ County|Middleware|Territory
 Customer (client)|Ministry|Tool (software tool, utility)
 Data model|Mobile app|Toolkit (software, toolbox)
 Data store|Model|Treatment
-Data warehouse|Module|Treatment
-Department|Museum|University
-Desk|Nation (country, republic)|User interface (UI)
-Device (appliance)|Office|Value model
-Division|Operating system|Warehouse (Depot)
-DLL (Dynamic link library)|Opportunity|Web app
-Enclave|Organization (organisation, org)|Web service
-Engine (software)|Package (software)|Website (site)
-Event|Partner (business)|Workshop
-
+Data warehouse|Module|University
+Department|Museum|User interface (UI)
+Desk|Nation (country, republic)|Value model
+Device (appliance)|Office|Warehouse (Depot)
+Division|Operating system|Web app
+DLL (Dynamic link library)|Opportunity|Web service
+Enclave|Organization (organisation, org)|Website (site)
+Engine (software)|Package (software)|Workshop
+Event|Partner (business)|&nbsp;

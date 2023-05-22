@@ -7,16 +7,16 @@ manager: pamgreen
 ms.reviewer: ergradel
 audience: admin
 ms.topic: article
-ms.collection: 
-- m365initiative-viva-topics,
-- highpri
+ms.collection:
+  - m365initiative-viva-topics,
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
 - MET150  
 ms.localizationpriority:  medium
 description: Learn how to manage topics in the topic center in Microsoft Viva Topics.
-
 ---
 # Manage topics in the topic center in Microsoft Viva Topics
 
@@ -34,7 +34,7 @@ In the Viva Topics topic center, a knowledge manager can view the **Manage topic
 
 Knowledge managers help to guide discovered topics through the various topic lifecycle statuses: **Suggested**, **Confirmed**, **Published**, and **Removed**.
 
-   ![Topic Lifecycle chart.](../media/knowledge-management/topic-lifecycle.png) 
+   ![Topic Lifecycle chart.](../media/knowledge-management/topic-lifecycle.png)
 
 - **Suggested**: A topic has been identified by AI and has enough supporting resources, connections, and properties. (These are marked as a **Suggested Topic** in the UI.)
 

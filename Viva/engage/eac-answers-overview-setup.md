@@ -50,7 +50,7 @@ Answers is enabled by default for customers that meet the following technical re
 
 
     For customers awaiting topics migration:  
-    - Microsoft informs existing Yammer customers who purchased Viva Topics or Viva Suite products when the Yammer Topics have migrated to Viva Topics. They're notified by email.
+    - Microsoft informs existing Yammer customers who purchased Viva Topics or Viva Suite products when the Yammer Topics have migrated to Viva Topics. 
     - Interested tenants can request to get Answers enablement prioritized, which may include Native Mode Support or Yammer Topics Migration to Viva Topics. To do so, they can contact their customer account manager/Microsoft support staff for Yammer and file a support ticket. Microsoft reviews and processes these requests.
 
     Learn more about Yammer Topics migration to Viva Topics:

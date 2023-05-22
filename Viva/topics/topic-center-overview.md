@@ -7,9 +7,10 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: 
-- m365initiative-viva-topics
-- highpri
+ms.collection:
+  - m365initiative-viva-topics
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -84,4 +85,3 @@ If you have Create and edit topics permissions, you can:
 ## See also
 
 [Manage topics in the topic center](manage-topics.md)
-

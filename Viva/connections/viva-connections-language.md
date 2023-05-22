@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -131,4 +132,3 @@ If a user has a device set to the French language the Teams mobile app “system
 
 
 [Set up a Dashboard in more than one language](create-multilingual-dashboard.md)
-

@@ -215,7 +215,7 @@ This section contains information about the attributes that you use in the organ
 |**SupervisorIndicator**| The manager status of an employee as **IC** (individual contributor), **Mngr** (manager), or **Mngr+** (manager of managers).| String |`IC`| Reserved|
 |**OnsiteDays**| The average number of days per week an employee works from the company’s main worksite. OnsiteDays can be based on badge data or on other sources—for example, tags in the HR system showing the number of days an employee plans to work onsite.| String | `4` |Reserved|
 |**Location** | An employee’s office location.| String | `Burbank` | Reserved|
-| **My_Custom_attribute**<br> (example: **Parking_space**)| An attribute you create | String | `15D` | N/A (custom)<sup>4</sup>
+| **My_Custom_attribute**<br> (example: **Campus**)| An attribute you create | String | `West` | N/A (custom)<sup>4</sup>
 
 <sup> 1. You need to include required fields. Each required field needs non-blank values for each row.  </sup>
 
@@ -268,15 +268,17 @@ All field header or column names need to:
 
 The field values in data rows need to comply with the following formatting rules:
 
-* The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format
-* The required PersonId and ManagerId field values must be a valid email address (for example, `gc@contoso.com`)
-* The required Layer field values must contain numbers only
-* The required HourlyRate field values must contain numbers only, which the app assumes is in US dollars for calculations and data analysis
+* The required **EffectiveDate** and **HireDate** field values need to be in the MM/DD/YYYY format
+* The required **PersonId** and **ManagerId** field values need to be a valid email address (for example, `gc@contoso.com`)
+* The required **Layer** field values need to contain numbers only
+* The required **HourlyRate** field values need to contain numbers only, which the app assumes is in US dollars for calculations and data analysis
 
 ## Rules for characters in field values
 
-The following field rules apply to characters in field values:
+Here are some rules about characters in field values:
 
-* Double-byte characters, such as Japanese characters, *are* permitted in the field values.
 * The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line" (\n) characters are *not* permitted in field values.
+* “New line” (\n) characters are not permitted in field values.
+
+>[!Note]
+>You can use double-byte characters, such as Japanese characters, in the field values.

@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -56,4 +57,3 @@ Emphasize that Viva Connections is a customized and personalized experience that
 [Microsoft Viva adoption resources](https://adoption.microsoft.com/viva/)
 
 [Combine Viva apps for a more powerful experience](/viva/learn-how-to-combine-modules)
-

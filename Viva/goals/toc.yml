@@ -84,6 +84,8 @@ items:
       items:
         - name: Azure Data Explorer Integration
           href: azure-data-explorer-integration.md
+        - name: Azure DevOps Extension
+          href: azure-devops-extension.md
         - name: Azure DevOps integration (ADO)
           href: azure-devops-integration.md
         - name: Amazon RedShift Integration

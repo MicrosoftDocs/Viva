@@ -7,16 +7,16 @@ manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: 
-- m365initiative-viva-topics
-- highpri
+ms.collection:
+  - m365initiative-viva-topics
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
 - MET150   
 ms.localizationpriority:  medium
 description: Learn how to edit an existing topic in Microsoft Viva Topics.
-
 ---
 
 # Edit an existing topic in Microsoft Viva Topics 
@@ -123,9 +123,3 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
    ![Screenshot showing the Canvas icon.](../media/knowledge-management/webpart-library.png)
 
 11. Select **Publish** or **Republish** to save your changes. **Republish** will be your available option if the topic has been published previously.
-
-
-
-
-
-

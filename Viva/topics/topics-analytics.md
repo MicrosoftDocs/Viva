@@ -10,6 +10,8 @@ ms.topic: article
 ms.service: viva
 search.appverid: MET150
 ms.localizationpriority: medium
+ms.collection:
+  - Tier1
 description: Learn about analytics for Microsoft Viva Topics.
 ---
 
@@ -63,4 +65,3 @@ The **Sites processed for topic discovery** section shows the number of sites th
 [Plan topic experiences](plan-topic-experiences.md)
 
 [Set up topic experiences](set-up-topic-experiences.md)
-

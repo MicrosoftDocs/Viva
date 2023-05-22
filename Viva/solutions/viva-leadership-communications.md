@@ -11,8 +11,9 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
+ms.collection:
+  - M365initiative-viva
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how you can streamline and engage your employees in a hybrid workplace with Microsoft Viva."

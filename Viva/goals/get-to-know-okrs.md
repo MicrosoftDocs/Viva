@@ -108,7 +108,7 @@ OKRs provide a framework to allow large and small companies set goals, stay agil
 |Focus     |    OKRs require the selection of just 3-5 goals per quarter, pushing organizations to focus on only the work that matters and to make hard choices to eliminate tasks that *don't* matter.     |
 |Alignment     |   OKRs help align company goals from top to bottom so that everyone is rowing in the same direction.       |
 |Tracking     |   OKRs are data-driven. Today's most successful companies use data to inform action and guide strategic decisions.      |
-|Transparency     |   A core tenant of OKRs is that employees can view goals and progress at every level, from CEO to individual contributor, fostering accountability and collaboration.      |
+|Transparency     |   A core tenet of OKRs is that employees can view goals and progress at every level, from CEO to individual contributor, fostering accountability and collaboration.      |
 |Stretch   |    When employees are encouraged to set,  stretch goals to achieve what might not seem possible and are supported by a growth-mindset culture, learning and innovation accelerate.     |
 
 ## How can I ensure OKR program success at my company?
