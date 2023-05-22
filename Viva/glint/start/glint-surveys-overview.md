@@ -1,5 +1,5 @@
 ---
-title: Viva Glint survey types overview
+title: Viva Glint survey templates overview
 description: Learn about Glint's employee engagement survey programs, Lifecycle survey programs, and 360 Feedback programs to improve business.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 03/24/2023
 ---
 
-# Viva Glint survey types overview
+# Viva Glint survey templates overview
 
 Microsoft Viva Glint believes that ongoing, frequent communications to solicit and collect employee feedback is crucial to any organization’s success. Viva Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees, which deliver rich insights that translate into actionable opportunities to improve business.
 
@@ -36,15 +36,15 @@ Within our survey programs, there are two overarching types to consider:
 
 ### Recurring surveys
 
-Viva Glint offers seven recurring survey templates in addition to a blank template from which you can create your own survey. Surveys should be *recurring* so that data can be compared from between cycles and *trend* can be established.
+Viva Glint offers seven recurring survey templates in addition to a blank template to create your own survey. Recurring surveys allow data comparison between cycles and allow *trend* to be established.
 
 ### Engagement surveys
 
-Engagement surveys measure drivers that are proven to increase employee happiness at work.
+Engagement surveys measure drivers proven to increase employee happiness at work.
 
 #### Quarterly Engagement survey
 
-Quarterly Engagement survey is Viva Glint’s premier survey, and we suggest that you begin with this survey and plan to run it four times annually. The Quarterly Engagement survey template includes all of Viva Glint’s core engagement items making it an effective survey to determine a solid engagement baseline measure for your organization. The template includes items that all have benchmarks, translations, and action plans along with our recommended cadence and item order. [Refer to this resource to understand the items associated with this template](https://microsoft.sharepoint.com/:w:/r/teams/PSTeam/_layouts/15/Doc.aspx?sourcedoc=%7B9D9A33C8-0524-4B49-9375-359243C282DB%7D&file=New%20Quarterly%20Engagement%20Survey%20Template.docx&action=default&mobileredirect=true&share=IQHIM5qdJAVJS5N1NZJDwoLbAeatTv19PXOo_OXmMDCgm9A).
+The Quarterly Engagement survey is Viva Glint’s premier survey, and it is suggested that you begin with this survey and run it four times annually. The Quarterly Engagement survey template includes all of Viva Glint’s core engagement items making it an effective survey to determine a solid engagement baseline measure for your organization. The template includes items that all have benchmarks, translations, and action plans along with our recommended cadence and item order. [Refer to this resource to understand the items associated with this template](https://microsoft.sharepoint.com/:w:/r/teams/PSTeam/_layouts/15/Doc.aspx?sourcedoc=%7B9D9A33C8-0524-4B49-9375-359243C282DB%7D&file=New%20Quarterly%20Engagement%20Survey%20Template.docx&action=default&mobileredirect=true&share=IQHIM5qdJAVJS5N1NZJDwoLbAeatTv19PXOo_OXmMDCgm9A).
 
 #### Diversity, Inclusion, and Belonging survey
 
