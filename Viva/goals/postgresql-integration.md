@@ -2,7 +2,7 @@
 ms.date: 04/13/2022
 title: PostgreSQL integration
 ms.reviewer: 
-ms-author: RaSanders
+ms.author: RaSanders
 manager: Liz.Pierce
 manager: 
 audience: Admin
