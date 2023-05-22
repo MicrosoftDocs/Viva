@@ -26,7 +26,8 @@ In Viva Learning, you can curate a learning path using learning content from dif
 
 
 >[!NOTE]
->You need admin or knowledge manager permissions to create a learning path in Viva Learning.
+>Creating a learning path requires a premium license for Microsoft Viva Suite.
+>You also need admin or knowledge manager permissions to create a learning path in Viva Learning.
 
 >[!NOTE]
 >Learning paths are not supported on mobile. 
