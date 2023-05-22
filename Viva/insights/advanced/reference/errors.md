@@ -13,13 +13,20 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Error codes: Viva Insights
+# Error messages: Viva Insights
 
-This table lists the error codes for Viva Insights.
+This article lists error messages for Viva Insights. We've broken these errors out by app and task:
+
+* [Advanced insights](#advanced-insights)
+    * [Sign-in and page access](#sign-in-and-page-access)
+    * [Data upload](#data-upload)
+* [Workplace Analytics (legacy app)](#workplace-analytics)
+* [Viva Insights app in Teams and on the web](#viva-insights-app-in-teams-and-on-the-web)
+
 
 ## Advanced insights
 
-### Sign-in
+### Sign-in and page access
 
 | Error message | Details |Solution| Resources
 |--- | --- |---|---|
@@ -52,5 +59,5 @@ This table lists the error codes for Viva Insights.
 
 ## Next steps
 
-If you've tried our solution and you're still getting the same error, [contact our support team](/microsoft-365/admin/get-help-support#online-support) for help.
+If you've tried the provided solution to your error and you're still getting the same message, [contact our support team](/microsoft-365/admin/get-help-support#online-support) for help.
 
