@@ -1,3 +1,18 @@
+---
+ms.date: 05/22/2023
+title: Errors in Viva Insights
+description: This article provides a list of errors you could encounter while using Viva Insights, along with solutions 
+author: lilyolason
+ms.author: v-lilyolason
+ms.topic: article
+ms.localizationpriority: medium
+ms.collection: viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights
+manager: anirudhbajaj
+audience: Admin
+---
+
 # Errors
 
 If you get one of these errors in the Viva Insights app in Teams and web, or the advanced insights app, read through our solution. If you've tried the solution and you're still getting the same error, [contact our support team](/microsoft-365/admin/get-help-support#online-support) for help.
