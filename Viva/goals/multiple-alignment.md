@@ -3,7 +3,7 @@ ms.date: 04/11/2022
 title: "Multiple Alignments"
 ms.reviewer: 
 ms.author: ranjaliroy
-ms-author: RaSanders
+ms.author: RaSanders
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
