@@ -48,10 +48,10 @@ Use the [quick guide to set up Viva Connections](viva-connections-setup-guide.md
 - Built on existing capabilities in Microsoft 365 like SharePoint, Teams,  [Viva Engage](/viva/engage/overview) (formerly called Yammer), and Stream.
 - Learn more about [Microsoft Viva](https://www.microsoft.com/microsoft-viva) and [Viva licensing](https://www.microsoft.com/microsoft-viva/pricing).
 
-> [!NOTE]
+>[!NOTE]
 >
-> - A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharepoint-home-sites-and-viva-connections-work-together).
-> - Viva Connections is not currently supported on tablet devices. Check the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) for the status of tablet support.
+> A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharepoint-home-sites-and-viva-connections-work-together).
+
 
 ## Components to Viva Connections
 
