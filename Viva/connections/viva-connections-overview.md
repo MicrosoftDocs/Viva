@@ -52,7 +52,6 @@ Use the [quick guide to set up Viva Connections](viva-connections-setup-guide.md
 >
 > A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharepoint-home-sites-and-viva-connections-work-together).
 
-
 ## Components to Viva Connections
 
 Viva Connections is comprised of three primary components - the dashboard, the feed, and resources. Components display slightly differently between desktop and mobile devices.
