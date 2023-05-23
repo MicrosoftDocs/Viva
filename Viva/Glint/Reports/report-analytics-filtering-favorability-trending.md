@@ -18,7 +18,7 @@ ms.localizationpriority: high pri
 ms.date: 04/28/2023
 ---
 
-# Learn VIva Glint reporting terminology 
+# Learn Viva Glint reporting terminology 
 
 The following terms will help you understand Viva Glint People Science terms and ensure that you get the most useful information from all your Viva Glint reports. 
 
@@ -130,7 +130,6 @@ Aggregate trending supplies historical data over time. There's a trend point, wh
 |Aggregate score | The average score of all the items divided by that number of items|
 |Trend | Any difference in the score of a single item from one cycle to the previous cycle |
 |Aggregate trend | Any difference in the combined score from one cycle to the previous cycle. Aggregate trend exists only when all items in two consecutive cycles are identical. |
-
 
 >[!TIP]
 > We recommend that aggregate groupings are not used in surveys.
