@@ -17,7 +17,9 @@
         - name: Supported languages
           href: topics-language-support.md 
         - name: Get your environment ready 
-          href: topic-experiences-get-ready.md           
+          href: topic-experiences-get-ready.md  
+        - name: Viva Topics FAQ
+          href: faq-topics.md         
 
     - name: Setup and administration
       items:
