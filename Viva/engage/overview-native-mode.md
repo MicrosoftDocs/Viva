@@ -3,8 +3,8 @@ ms.date: 12/14/2022
 title: "Overview of Native Mode for Microsoft 365"
 description: "Learn about Native Mode for Microsoft 365."
 ms.reviewer: ethli
-ms.author: v-whitfieldd
-author: dwhitfield233
+ms.author: dmillerdyson
+author: dmillerdyson
 manager: dmillerdyson
 audience: Admin
 f1.keywords:
