@@ -1,7 +1,7 @@
 ---
-ms.date: 3/3/2023
+ms.date: 06/15/2023
 title: "Plan, build, and launch a home site for your organization"
-ms.reviewer: hokavian 
+ms.reviewer:  
 ms.author: evanatkin
 author: AtkinE
 manager: pamgreen
@@ -38,12 +38,11 @@ A SharePoint home site provides a customized landing experience that reflects th
 > - A home site is not required for the latest release of the Viva Connections desktop, mobile, or tablet experience. [Learn more about the new experience](set-up-admin-center.md), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/access-and-use-the-viva-connections-app-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b).
 > - After June 2023, users will be able to set multiple home sites by using multiple Viva Connections experiences. The feature is currently under private preview and will start rolling out broadly by the end of June 2023.  
 > - After June 2023, the ability to set a home site will move from the SharePoint Admin Center (SPAC) to the Viva Connections admin center.
-> - You must have an Enterprise (E) or Frontline (F) license type to create multiple Viva Connection experiences.
+> - You must have an Enterprise (E) or Frontline (F) license type to create multiple Viva Connection experiences. Users with a basic Microsoft 365 subscription (E license) are limited to creating 3 experiences. Users with a Microsoft Viva Suite subscription are at present limited to creating 10 experiences. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections does not have any requirements to get started.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating 3 experiences. Users with a Microsoft Viva Suite subscription are at present limited to creating 10 experiences. See Microsoft Viva plans and pricing for more info.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 
-If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [Set a site as your home site](set-up-admin-center.md).
+If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [set up Viva Connections in the Microsoft 365 admin center.](set-up-admin-center.md).
 
 **Use a SharePoint home site to:**
 
@@ -136,7 +135,7 @@ When you've prepared a plan, you're ready to start creating the home site in Sha
 | ![image of a site](../media/connections/icon-build-flow.png)   | **Set up a page approval flow** | Then, make sure the home site is set up for regular content updates. Turn on content approval to ensure only high-quality content is published on the home site. Learn how to [turn on a page approval flow](https://support.microsoft.com/office/approval-flow-for-modern-pages-a8b2e689-d4a1-4639-8028-333c0ece30d9?ui=en-us&rs=en-us&ad=us).|
 | ![image of a two sites getting switched](../media/connections/icon-build-swap.png)   | **Swap the root site location with the home site**  | Before you set a communication site as the home site, swap the communication site in place of the root site of your tenant as a best practice. The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up a Microsoft 365 plan. If you set up a home site first, and then swap locations with your root site, you may lose home site settings and need to reapply them. Learn how to [swap the root site with the home site](/sharepoint/modern-root-site#replace-your-root-site).|
 | ![image of a house](../media/connections/icon-build-home.png)   | **Set the home site** | Next, [build a Viva Connections experience from an existing intranet portal](https://learn.microsoft.com/viva/connections/set-up-admin-center#build-from-an-existing-intranet-portal).|
-| ![image of a map](../media/connections/icon-build-global.png)   | **Set up global navigation** | Then, enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Global navigation can only be customized from the home site’s home page.Learn how to [enable and customize global navigation](/SharePoint/sharepoint-app-bar).|
+| ![image of a map](../media/connections/icon-build-global.png)   | **Set up global navigation** | Then, enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Global navigation can only be customized from the home site’s home page. Learn how to [enable and customize global navigation](/SharePoint/sharepoint-app-bar).|
 | ![image of an approved site](../media/connections/icon-build-test.png)   | **Test site health and the viewing experience**  | Finally, review portal launch guidance and understand the main elements that will make sure your home site is healthy. A healthy home site optimizes performance to ensure the best possible viewing experience. Use the Page diagnostics for SharePoint tool to make sure the home page is healthy before sharing with end users. Learn more about [healthy portals](/sharepoint/portal-health) and using the [Page diagnostics tool for SharePoint](/microsoft-365/enterprise/page-diagnostics-for-spo).|
 
 ### Launch your home site
@@ -153,9 +152,9 @@ After you've set your home site, it’s time to plan the launch and make sure th
 
 ## Home site FAQs
 
-**Q:** I have a new site that I want to use as my home site. What do I do?
+**Q:** Are SharePoint home sites now set in the Microsoft admin center?
 <br>
-As long as your site is a communication site, you can [set the site as a home site](/sharepoint/home-site).
+Starting in June 2023, use the Microsoft admin center to [set a home site when you create a Viva Connections experience](/viva/connections/set-up-admin-center.md).
 
 **Q:** What’s the difference between a home site and the SharePoint start page?
 <br>
