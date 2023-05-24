@@ -241,7 +241,7 @@ For organizations that already have a home site, or know they want one in the fu
 
 ### Viva Connections allows for multiple home sites across multiple experiences
 
-Depending on the size of your organization and the information to communicate, you may decide to create a separate experience for each audience you wish to target. Organizations will be able to set multiple home sites by using multiple Viva Connections experiences, thereby creating a targeted experience that is content specific for that group of employees (for example, a dashboard and resources with a frontline worker focus). This article provides some [scenarios where you’d want to create additional Viva Connections experiences](https://learn.microsoft.com/viva/connections/set-up-admin-center#scenarios-for-creating-additional-viva-connections-experiences).
+Depending on the size of your organization and the information to communicate, you may decide to create a separate experience for each audience you wish to target. Organizations will be able to set multiple home sites by using multiple Viva Connections experiences, thereby creating a targeted experience that is content specific for that group of employees (for example, a dashboard and resources with a frontline worker focus). This article provides some [scenarios where you’d want to create additional Viva Connections experiences](/viva/connections/set-up-admin-center#scenarios-for-creating-additional-viva-connections-experiences).
 
 >
 > [!NOTE]
