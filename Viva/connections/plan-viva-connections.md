@@ -1,5 +1,5 @@
 ---
-ms.date: 5/12/2023
+ms.date: 06/15/2023
 title: "Plan Viva Connections for your organization"
 ms.reviewer: 
 ms.author: evanatkin
@@ -25,17 +25,20 @@ description: "Plan Microsoft Viva Connections for your organization"
 
 # Plan Microsoft Viva Connections for your organization
 
+> [!NOTE]
+> - This experience is rolling out to private preview customers now and will become generally available to all customers by the end of June 2023. 
+> - You must have an Enterprise (E) or Frontline (F) license type to create multiple Viva Connection experiences.
+> - Viva Connections does not have any requirements to get started.
+> - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
+
+
 In this phase, build a team of stakeholders to align on the goals and primary use cases for your organization's employee experience strategy. Start by meeting requirements, and then planning for each component of the experience. In the planning phase, consider success metrics and adoption tactics to ensure Viva Connections meets the need of your organization and users.
 
-> [!IMPORTANT]
-> Content in this article reflects the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071) that will become available to all customers by the end of June 2023.
-> [The latest release of Viva Connections for desktop](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071) doesn’t require a SharePoint home site to get started. The latest version offers minimal setup and includes the option to create a lightweight dashboard with default cards to help get you started.
-
-Tasks below marked with an asterisk (*) are optional, or may only apply to customers who'll use home sites to complement the Viva Connections experience.
+Tasks below marked with an asterisk (*) are optional, or may only apply to customers who will use home sites to complement the Viva Connections experience.
 
 ## Step 1: Plan for Viva Connections
 
-Viva Connections is designed to help users complete high-priority tasks and access important information. This experience can be built on overtime as your organization adapts and scales.
+Viva Connections is designed to help users complete high-priority tasks and access important information. This experience can be built on overtime as your organization adapts and scales. Organizations can use their existing SharePoint intranet home site if they have one, or create a standalone experience accessible in Microsoft Teams. 
 
 Viva Connections is composed of three main parts – the dashboard, the feed, and resources. These parts will display differently on desktop and mobile devices. [Learn more about the differences between the desktop and mobile experience](/viva/connections/viva-connections-overview#viva-connections-mobile-and-desktop-experiences).
 
@@ -52,12 +55,12 @@ Viva Connections is composed of three main parts – the dashboard, the feed, an
 
 ## Step 2: Consider using a SharePoint home site to complement the experience* (optional)
 
-Viva Connections doesn’t require a [SharePoint home site](home-site-plan.md) (i.e. a communication site that has special capabilities). A home site acts as the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. [Some organizations will use a home site to complement the Viva Connections experience](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together) and extend the experience to the web. Follow the steps below if your organization wants to use a home site in addition to Viva Connections. A home site can be added at any time.
+A Viva Connections experience doesn’t require a [SharePoint home site](home-site-plan.md) (a communication site that has special capabilities) to be created, but providing one can complement the employee experience. A home site acts as the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. [Some organizations will use a home site to complement the Viva Connections experience](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together) and extend the experience to the web. Follow the steps below if your organization wants to use a home site in addition to Viva Connections. A home site can be added at any time.
 
 >
 | Requirement    | Description                 |
 | :------------------- | :------------------- |
-| Create a home site* (optional)  | A [home site](/sharepoint/home-site-plan) is a SharePoint communication site that acts as the front door to your organization’s intranet. They have extra capabilities such as the ability to prioritize news posted from the home site across the rest of the intranet. Once a home site is set, the news posted from that site will be prioritized across the intranet. <br> <br> Learn more about how to think about [planning navigation on your home site](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/best-practices-for-using-global-navigation-in-the-sharepoint-app/ba-p/2361916) in combination with hub and global navigation. Then, get started [creating a home site](/sharepoint/home-site-plan). |
+| Create a home site* (optional)  | A [home site](/sharepoint/home-site-plan) is a SharePoint communication site that acts as the front door to your organization’s intranet. They have extra capabilities such as the ability to prioritize news posted from the home site across the rest of the intranet. Once a home site is set, the news posted from that site will be prioritized across the intranet. Home sites are set in the Microsoft Admin Center when you create a new Viva Connections experience. To add a home site, choose the option to build off an existing intranet portal. <br><br> Learn more about how to think about [planning navigation on your home site](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/best-practices-for-using-global-navigation-in-the-sharepoint-app/ba-p/2361916) in combination with hub and global navigation. Then, get started [creating a home site](/sharepoint/home-site-plan). |
 | Set up global navigation* (home site users only) |Once your home site is set up, you can enable and customize global navigation in the SharePoint app bar. In the Viva Connections desktop app, resources in the global navigation panel will display when the Viva Connections icon is selected in Teams and in the resources section. In the Viva Connections mobile app, resources in the global navigation will display in the “Resources” tab. <br><br> Learn more about how to [enable and customize global navigation](/sharepoint/sharepoint-app-bar). |
 | Audit, prioritize, and modernize sites* (optional) | After you've identified the key scenarios for Viva Connections, you’ll need to identify content or sites that should be modernized if you're still using classic sites and pages. Not all content or classic SharePoint sites need to be modernized to take advantage of Viva Connections. Focus on the priority use cases that will need to be included in your organization’s instance of Viva Connections. <br><br> Learn more about [how to modernize content](/sharepoint/dev/transform/modernize-classic-sites#:~:text=Modernize%20your%20classic%20SharePoint%20sites%201%20Enable%20your,site%20transformation%20is%20transforming%20your%20site%20pages.%20) and [healthy portal guidance for high-traffic sites](/sharepoint/portal-health)|
 >
@@ -231,7 +234,7 @@ Planning for change and helping users adopt new resources will be different for 
 ### Adoption considerations
 
 - Viva Connections can only be accessed in Microsoft Teams. If your organization isn't already using Microsoft Teams, you'll need to [plan the adoption of Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/) alongside [Viva Connections](https://adoption.microsoft.com/viva/).
-- Make adoption easy for end-users by [pre-pinning the app in Teams](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) while picking settings (Viva Connections is auto-enabled by default in Teams).
+- Make adoption easy for end-users by [pre-pinning the app in Teams](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) while picking settings. This only needs to be done once (Viva Connections is auto-enabled by default in Teams).
 - Find [early adopters and champions](https://adoption.microsoft.com/roles/champion/) and create ways to extend their enthusiasm to the rest of the organization.
 - Plan to engage with users where they typically meet and share information (for example, if your organization already meets in Teams, plan to post in channels.)
 - Determine who and where questions about Viva Connections should go to. Consider using [Viva Engage](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6), a [SharePoint site](https://support.microsoft.com/office/create-a-site-in-sharepoint-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8), or a [Teams channels](https://support.microsoft.com/office/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525) allow users to ask questions or see commonly asked questions.
