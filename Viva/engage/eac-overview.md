@@ -2,10 +2,10 @@
 title: "Viva Engage Admin center overview"
 description: "Viva Engage recreates the employee experience by connecting people across the company, wherever and whenever they work, ensuring employees are included, engaged, and empowered."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
-ms.date: 02/13/2023
+ms.date: 05/25/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -42,7 +42,7 @@ To go to the Viva Engage admin center in Teams, select the ellipses button from 
 #### On the web
 To go to the [Viva Engage admin center on the web](https://www.yammer.com), log in, and from the gear icon on the top navigation menu, select **Admin center**.
 
-:::image type="content" source="../media/engage/admin/eac-on-web.png" alt-text="Export options let you choose a date range and other filters.":::
+:::image type="content" source="../media/engage/admin/eac-on-web-inline.png" alt-text="Access Admin center in a browser" lightbox="../media/engage/admin/eac-on-web-expanded.png":::
 
 
 ### See also
