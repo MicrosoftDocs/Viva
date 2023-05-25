@@ -1,7 +1,7 @@
 ---
 title: "Learn more about Microsoft Viva apps"
 ms.reviewer: loreenl
-ms.author:  hokavian
+ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
 ms.date: 12/16/2022
