@@ -19,6 +19,10 @@ audience: Admin
 
 # In-depth insights in Power BI
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 **Owner** - Analyst or Analyst limited
 
 As a business decision maker, you can use Viva Insights to see your organization's current work conditions and trends. With these insights, you can identify “opportunity groups” (groups that you might want to act on) and do detailed analysis with the drill-down capabilities in Power BI.

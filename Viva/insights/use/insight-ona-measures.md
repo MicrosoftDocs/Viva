@@ -18,6 +18,9 @@ audience: Admin
 
 # Network graph metrics
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The organizational network analysis (ONA) graphs use influence metrics to help you visualize and analyze relationships within your organization. The visual insights in the advanced insights app include some of these types of graphs.
 
 The following is an example of an Employee empowerment graph.

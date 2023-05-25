@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for influencers
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Influencers are well-connected employees in your organization who help facilitate broad information sharing. They play an important role in driving successful cross-organizational initiatives. Using influencers to share information can help break down organizational silos and accelerate the execution of growth-focused projects.
 
 ## Why it matters

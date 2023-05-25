@@ -21,6 +21,10 @@ audience: Admin
 
 # Data-protection considerations
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 By using data generated from everyday work in Microsoft 365, the different Microsoft Viva Insights features help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 The following includes a basic overview of the roles, responsibilities, types of data, and data-privacy recommendations. The general suggestions offered here are a starting point for planning your data-protection strategy and deployment. These are not intended as a substitute for addressing your organization’s unique needs by engaging with legal, privacy, human-resources, and other subject matter experts within your organization.

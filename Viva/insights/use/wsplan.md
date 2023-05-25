@@ -17,6 +17,10 @@ audience: Admin
 ---
 # Workspace Collaboration Optimizer
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 As a facility management professional or occupancy planner,  you can use the Workspace Collaboration Optimizer to plan a workspace. If your company is moving to a new worksite or reorganizing an existing workspace, this open-source tool can help, as follows:
 
 * Increase innovation and collaboration by locating employees next to people who collaborate the most.

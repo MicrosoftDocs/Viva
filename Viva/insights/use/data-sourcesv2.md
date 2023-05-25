@@ -18,6 +18,9 @@ audience: Admin
 
 # Data sources
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 **Data sources** shows high-level views for Viva Insights admins and data analysts to confirm that your Microsoft 365 and organizational data is ready to use. When you upload and process CRM data in the advanced insights app, you'll also see a page for your CRM data.
 
 * [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) - Shows the latest Microsoft 365 data that's been processed in Viva Insights.

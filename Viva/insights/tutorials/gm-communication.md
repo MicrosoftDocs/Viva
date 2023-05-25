@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for managers about efficient communication
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Different communication tools are suited for different means. While emails are great for recaps, updates, and other informational exchanges, it can slow down or muddle an important message. Choosing the right medium speeds information access and agility.
 
 ## Why it matters

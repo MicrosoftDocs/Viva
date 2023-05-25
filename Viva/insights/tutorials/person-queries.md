@@ -18,6 +18,10 @@ audience: Admin
 
 # Person queries
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The person query analyzes data from the point of view of each individual in the organization.
 
 This creates a lot of flexibility in analyzing data. For example, you can learn:

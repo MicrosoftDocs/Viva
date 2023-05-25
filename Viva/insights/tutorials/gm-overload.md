@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for avoiding email overload with Viva Insights
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Email is the most widely used collaboration tool with an estimated 110 billion messages sent daily. Despite the benefits, email can become overwhelming to manage. It steals your attention and leads to higher stress levels.
 
 Better email practices can reduce stress, improve communication, boost productivity, and support your ability to focus.
