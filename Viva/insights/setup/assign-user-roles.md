@@ -19,7 +19,7 @@ audience: Admin
 # Assign user roles for Viva Insights
 
 >[!Important]
->This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../advanced/introduction-to-advanced-insights.md).
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viiva Insights platform. Access current documentation for Viva Insights advanced insights here: [Advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
 
 People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for details on what each role can do with Viva Insights. Refer to the following for assigning roles:
 
