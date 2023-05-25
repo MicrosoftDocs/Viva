@@ -19,7 +19,7 @@ audience: Admin
 # Assign licenses overview
 
 >[!Important]
->This article is for the legacy Workplace Analytics app and does not reflect current capabilities in advanced insights from Viva Insights. [Access current documentation for advanced insights](../advanced/introduction-to-advanced-insights.md).
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viiva Insights platform. Access current documentation for Viva Insights advanced insights here: [documentation for advanced insights](../advanced/introduction-to-advanced-insights.md).
 
 The following describes who does what to assign licenses to users for Microsoft Viva Insights.
 
