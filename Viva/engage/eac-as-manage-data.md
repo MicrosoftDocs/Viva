@@ -33,7 +33,7 @@ Choose from these data export methods to manage your data.
 
 :::row:::
     :::column span="2":::
-        **Export user and admin list**
+        [**Export user and admin list**](#export-user-and-admin-list)
     :::column-end:::
     :::column:::
         Identify the status of current admins and users. For each user, you get an email address, title, location, and department.
@@ -41,15 +41,15 @@ Choose from these data export methods to manage your data.
 :::row-end:::
 :::row:::
     :::column span="2":::
-        **Export Engage tenant data by date range and network**
+        [**Export tenant data by date range**](#export-tenant-data-by-date-range)
     :::column-end:::
     :::column:::
-        View and audit tenant data for all users from your home network for a specific date range. Options let you include attachment files and data from external networks.
+        View and audit tenant data for all users from your home network for a specific date range. Options also let you include attachment files and data from external networks.
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column span="2":::
-        **Export data for one user**
+        [**Export data for one user**](#export-data-for-one-user)
     :::column-end:::
     :::column:::
         Pull all data related to a single user. Use this method to identify data that needs to be deleted to comply with a GDPR data subject request.
@@ -57,7 +57,7 @@ Choose from these data export methods to manage your data.
 :::row-end:::
 :::row:::
     :::column span="2":::
-      **Automatic data exports**
+      [**Automate data exports**](#automate-your-data-exports)
  :::column-end:::
     :::column:::
         Automate recurring exports for compliance through the Data Export API.
@@ -65,7 +65,7 @@ Choose from these data export methods to manage your data.
 :::row-end:::
 :::row:::
     :::column span="2":::
-        **Export Engage files through the API**
+        [**Export Engage files with the API**](#export-large-file-volumes-with-the-api)
     :::column-end:::
     :::column:::
         When exporting large volumes of files, use the API. You can specify a date range and include files from external networks. This method is best for archiving data.
@@ -84,14 +84,14 @@ Use the Data export page in the admin portal to access all data exports.
 
 :::image type="content" source="../media/engage/admin/eac-data-export.png" alt-text="Use the Governance and compliance tab to find your data export options.":::
 
-
 ### Export user and admin list
 
 Use this method to export data from a specific time period.
 
 1. On the Data export page, choose **Export data for all** **users**.
 2. Specify a date range and other options.
--  **Date range:**  Specify the date range for which you want data. The current date appears as the end date.
+
+- **Date range:**  Specify the date range for which you want data. The current date appears as the end date.
 - **Include attachments:**  Leave unselected to get a list of file names. Select to get both a list and a Files folder of all the attachments in their native format.
 - **Include external networks:**  Leave unselected to get data from your home network only. Select to get data for each network in a separate folder (folder name is the network ID). Full network names are listed in **Networks.csv**.
 
@@ -106,14 +106,15 @@ The data export contains the following files:
 | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Key admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
 | **Networks.csv** | Information about your home network and any external networks, including name, URL, creation date, number of users, and whether it’s moderated or has a usage policy. |
 | **Users.csv** | Lists user data. **Properties include:** ID, name, email, job title, location, department, user ID, deletion status (date, name and ID of the person who performed the deletion), join date, suspension status (date, name and ID of person who performed the deactivation), and the user state (active or soft_delete). A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value. Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
-| **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. | 
+| **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:
+
 - Data available in the user's settings, including:
-    - user profile 
-    - tenants (networks) of which the user is a member
-    - user account activity, applications, notifications, and language preference
-    - org chart
+  - user profile
+  - tenants (networks) of which the user is a member
+  - user account activity, applications, notifications, and language preference
+  - org chart
 - User activity data
 - Bookmarked messages
 - Group membership
@@ -124,19 +125,19 @@ This data export doesn't include:
 
 ### Export tenant data by date range
 
-1. On the Data export page, select **Export tenant data.** 
+1. On the Data export page, select **Export tenant data.**
 2. Specify a date range and other options.
 
 :::image type="content" source="../media/engage/admin/eac-tenant-options.png" alt-text="Export options let you choose a date range and other filters.":::
-- **Date range:**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date. 
-- **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format. 
-- **Include external networks:**  If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**. 
+
+- **Date range:**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date.
+- **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.
+- **Include external networks:**  If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**.
 
 3. Select **Download CSV**.
 Data is exported into a .zip file.
 4. Go to the location where you saved the compressed file and expand it.<br>
 If you exported more than one network, a separate folder is created for each network. <br>
-
 
 The data export contains the following files:
 
@@ -157,6 +158,7 @@ The data export contains the following files:
 | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. <br> <br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:
+
 - Data in the user's settings (including profile, the tenants (networks) of which they're members, their account activity, applications, notifications, and language preferences, and their org chart)
 - User activity data
 - Bookmarked messages, group membership, followed or following users, or followed topics
@@ -168,7 +170,7 @@ This data export doesn't include:
 
 If the user is a member of multiple networks, you must export their data from each network separately.  
 
-1. On the Data export page, choose **Export data for a single** **user** 
+1. On the Data export page, choose **Export data for a single** **user**
 
 2. Enter the user's name, select the user, and select **Export**. <br>     User data is exported into a .zip file that contains these files. <br>
 When the user's account activity data is ready, a message with a link to the data appears in your Viva Engage inbox.
@@ -193,28 +195,29 @@ The data export contains the following files:
 | **Files folder** | Contains files stored in Viva Engage created or modified by the user during the specified time period. Engage files stored in SharePoint are excluded. <br> <br>Files are in native format and named with their account ID. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:<br>
+
 - Bookmarked messages
 - Group membership or org chart
 - Followed users, following users, followed topics
 - User notifications from Viva Engage (or in Microsoft Teams or Microsoft Outlook)
 - Application and language settings<br>  
 
->[!NOTE] 
+>[!NOTE]
 >Data for the user’s skin tone selection is excluded from exported data. However, you can access the skin tone selection on any post in Viva Engage that includes a reaction by the user. Open the grouped modal dialog box for that specific post or comment, and view the user's skin-tone preference in the list.
 
 ### Troubleshoot data export
 
-If the .zip file is corrupted and can't be unzipped, try again. If the file still doesn't expand, [contact Support](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+If the .zip file is corrupted and can't be unzipped, try again. If the file still doesn't expand, [contact Support](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-If the log.txt file shows export errors for one category of data, try again. If there are still errors, [contact Support](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+If the log.txt file shows export errors for one category of data, try again. If there are still errors, [contact Support](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ### Automate your data exports
 
-To set up automatic recurring exports, use the API. For more information, see [Data Export API. ](/rest/api/yammer/yammer-files-export-api)<br>
+To set up automatic recurring exports, use the API. For more information, see [Data Export API.](/rest/api/yammer/yammer-files-export-api)<br>
 
 ### Export large file volumes with the API
 
-Verified administrators can use the Data Export API to archive and export files in Viva Engage storage asynchronously. This API is intended for exporting large volumes of files from Viva Engage. For more information, see [Data Export API. ](/rest/api/yammer/yammer-files-export-api)
+Verified administrators can use the Data Export API to archive and export files in Viva Engage storage asynchronously. This API is intended for exporting large volumes of files from Viva Engage. For more information, see [Data Export API.](/rest/api/yammer/yammer-files-export-api)
 
 ### See also
 
