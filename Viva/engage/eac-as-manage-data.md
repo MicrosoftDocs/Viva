@@ -24,7 +24,7 @@ search.appverid:
 
 ## Manage Data
 
-As a Viva Engage admin, you need to export data to manage users and content. This article explains the different options that can help you manage usage, compliance, and discovery.
+As an Engage admin, you need to export data to manage users and content. This article explains the different options that can help you manage usage, compliance, and discovery.
 
 >[!NOTE]
 >To migrate data between Viva Engage tenants [learn about migrating content](/yammer/configure-your-yammer-network/add-basic-domains-to-office-365).
@@ -77,7 +77,7 @@ Choose from these data export methods to manage your data.
 
 ## Access the Data Export options
 
-Use the data export page in the admin portal to access all data exports.
+Use the Data export page in the admin portal to access all data exports.
 
 1. Select the **Governance and compliance** tab.
 2. Select **Data Export**. <br>
@@ -91,9 +91,9 @@ Use this method to export data from a specific time period.
 
 1. On the Data export page, choose **Export data for all** **users**.
 2. Specify a date range and other options.
--  **Date range**  Specify the date range for which you want data. The current date appears as the end date.
-- **Include attachments**  Leave unselected to get a list of file names. Select to get both a list and a Files folder of all the attachments in their native format.
-- **Include external networks**  Leave unselected to get data from your home network only. Select to get data for each network in a separate folder (folder name is the network ID). Full network names are listed in **Networks.csv**.
+-  **Date range:**  Specify the date range for which you want data. The current date appears as the end date.
+- **Include attachments:**  Leave unselected to get a list of file names. Select to get both a list and a Files folder of all the attachments in their native format.
+- **Include external networks:**  Leave unselected to get data from your home network only. Select to get data for each network in a separate folder (folder name is the network ID). Full network names are listed in **Networks.csv**.
 
 3. Select **Download CSV**. The file is saved as a compressed file with a .zip file name extension.
 4. Go to the location where you saved the compressed file and expand it.
@@ -109,22 +109,28 @@ The data export contains the following files:
 | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. | 
 
 This data export doesn't include:
-- Data available in the user's settings. (Includes: profile; tenants (networks) they're members of; their account activity, applications, notifications, and language preferences; and their org chart.)
+- Data available in the user's settings, including:
+    - user profile 
+    - tenants (networks) of which the user is a member
+    - user account activity, applications, notifications, and language preference
+    - org chart
 - User activity data
-- Bookmarked messages, group membership, followed or following users, or followed articles
+- Bookmarked messages
+- Group membership
+- Followed or following users, or followed articles
 - File attachments stored in SharePoint
 
 <br>
 
 ### Export tenant data by date range
 
-1. On the Data Export Page, select **Export tenant data.** 
+1. On the Data export page, select **Export tenant data.** 
 2. Specify a date range and other options.
 
 :::image type="content" source="../media/engage/admin/eac-tenant-options.png" alt-text="Export options let you choose a date range and other filters.":::
-- **Date range**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date. 
-- **Include attachments**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format. 
-- **Include external networks**  If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**. 
+- **Date range:**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date. 
+- **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format. 
+- **Include external networks:**  If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**. 
 
 3. Select **Download CSV**.
 Data is exported into a .zip file.
@@ -147,7 +153,7 @@ The data export contains the following files:
 | **Networks.csv** | Lists your home network and all external networks included in the export. <br> |
 | **Pages.csv** | Lists IDs, dates, and page owners for any page created or modified during the specified date range. <br> |
 | **Topics.csv** | Lists creation information and a link for any article created during the specified date range. |
-| **Users.csv** | Lists data for all users who joined, or were deleted or suspended during the specified date range.**Properties include:** email address, job-title, location, department, a link to the user, and information about the user’s current state (active or soft_delete). <br>A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value.<br> <br>Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
+| **Users.csv** | Lists data for all users who joined, or were deleted or suspended during the specified date range. **Properties include:** email address, job-title, location, department, a link to the user, and information about the user’s current state (active or soft_delete). <br>A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value.<br> <br>Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
 | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. <br> <br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:
