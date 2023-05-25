@@ -2,10 +2,10 @@
 title: "Access the Viva Engage admin center"
 description: "Describes settings in the Viva Engage admin center."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
-ms.date: 02/15/2023
+ms.date: 05/25/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -30,7 +30,7 @@ In the Viva Engage Teams application, select the ellipses button from the top na
 
 To access the [Viva Engage admin center on the web](http://www.yammer.com), from the gear icon in the top navigation menu, select **Admin center**.
 
-:::image type="content" source="../media/engage/admin/eac-on-web.png" alt-text="Export options let you choose a date range and other filters.":::
+:::image type="content" source="../media/engage/admin/eac-on-web-inline.png" alt-text="Access Admin center in a browser" lightbox="../media/engage/admin/eac-on-web-expanded.png":::
 <br>
 
 ## Manage corporate communicators  
