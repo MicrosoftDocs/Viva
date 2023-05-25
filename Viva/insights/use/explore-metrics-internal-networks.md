@@ -18,6 +18,9 @@ audience: Admin
 
 # Internal networks
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 **Internal networks** shows network connections between different people exclusively within a company; for example, between the sales department and the human resources department.
 
 ![Networks and collaboration.](../images/wpa/use/explore-internal-network.png)

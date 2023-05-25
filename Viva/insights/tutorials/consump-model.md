@@ -18,6 +18,10 @@ audience: Admin
 
 # Capacity model
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Effective October 2021, the Microsoft Viva Insights SKU replaced the Microsoft Workplace Analytics SKU.
 
 You can subscribe a tenant to the advanced insights and tools in Viva Insights through the Capacity model where the tenant consumes capacity units based on their volume of query usage.

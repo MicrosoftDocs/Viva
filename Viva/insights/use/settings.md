@@ -18,6 +18,9 @@ audience: Admin
 
 # Controls in Advanced insights
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Depending on the role you're assigned in the advanced insights app, you can use the following to configure settings about your organization in the Controls section of Advanced insights. These control settings are required for viewing and using the advanced insights app and in Microsoft Teams:
 
 * [Data sources](#data-sources) – Admins and Analysts use these to verify that Microsoft 365 and organizational data is correctly uploaded into the advanced insights app. And Admins have access to **Upload** in Organizational data and CRM data, so they can prepare and upload organizational and customer data.

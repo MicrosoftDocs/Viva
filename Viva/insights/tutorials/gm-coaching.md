@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for manager coaching
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Employees who get one-on-one time with their managers are more likely to be engaged as compared to those who don't. When managers are needed in more meetings than they can attend, they become obstacles to team goal attainment and create bottlenecks in decision making.
 
 ## Why it matters

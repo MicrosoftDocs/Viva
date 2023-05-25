@@ -19,6 +19,10 @@ audience: Admin
 
 # Group-to-group queries
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Group-to-group queries in Microsoft Viva Insights give results that help you understand how a team invested their time across the rest of the organization and beyond. The query results list pairs of groups, as defined by the organizational attributes, along with how much time people in the first group (known as _time investors_) allocated to other groups (known as _collaborators_).
 
 ![Group A allocates time to Group B.](../Images/WpA/tutorials/Group-query1.png)
