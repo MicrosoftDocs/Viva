@@ -209,7 +209,7 @@ You can search for a member who is part of the team from the search bar at the t
     
     Organization admins can be removed by organization owner/. They can remove an organization admin by clicking on the tree dots next to the member and clicking on deactivate/delete. 
     
-    When a user is assigned the role of an organization owner or admin, they start being listed in the individual users section. Even if an admin deactivates or deletes the group that an organization admin belonged to, the admin doesn't get removed. They have to be removed manually one by one. 
+    When a user is assigned the role of an organization owner or admin, they start being listed in the individual users' section. Even if an admin deactivates or deletes the group that an organization admin belonged to, the admin doesn't get removed. They have to be removed manually one by one. 
 
 2. **What attributes can I see for the listed users and groups?**
     1. For the individuals and groups that are part of the organization, you'll see the following attributes 
@@ -237,7 +237,7 @@ You can search for a member who is part of the team from the search bar at the t
     
     Team admins can be removed by organization owner/admins and team owners and other team admins. They can remove a team admin by clicking on More options button next to the member and clicking on remove. 
     
-    When a user is assigned the role of a team owner or a team admin, they start being listed in the individual users section. Even if an admin removes the group that a team admin belonged to, the team admin doesn't get removed. They have to be removed manually one by one. 
+    When a user is assigned the role of a team owner or a team admin, they start being listed in the individual users' section. Even if an admin removes the group that a team admin belonged to, the team admin doesn't get removed. They have to be removed manually one by one. 
 
 8. **What are groups in AAD?**
     1. Azure Active Directory (Azure AD) provides several ways to manage access to resources, applications, and tasks. With Azure AD groups, you can grant access and permissions to a group of users instead of for each individual user. You can find more information on groups [here](/azure/active-directory/fundamentals/concept-learn-about-groups). 
