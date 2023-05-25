@@ -159,9 +159,15 @@ The data export contains the following files:
 
 This data export doesn't include:
 
-- Data in the user's settings (including profile, the tenants (networks) of which they're members, their account activity, applications, notifications, and language preferences, and their org chart)
+- Data available in the user's settings, including:
+  - user profile
+  - tenants (networks) of which the user is a member
+  - user account activity, applications, notifications, and language preference
+  - org chart
 - User activity data
-- Bookmarked messages, group membership, followed or following users, or followed topics
+- Bookmarked messages
+- Group membership
+- Followed or following users, or followed topics
 - File attachments stored in SharePoint<br>
 
 <br>
