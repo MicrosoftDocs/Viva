@@ -1,9 +1,9 @@
 ---
-ms.date: 3/1/2023
+ms.date: 05/15/2023
 title: "Customize and edit the Viva Connections home experience"
-ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.reviewer: hokavian
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -32,6 +32,7 @@ Elements of the new Viva Connections home experience can be customized to fit yo
 
 >[!NOTE]
 > - If you already have Viva Connections set up, the new home design uses current content and settings (like audience targeting) from your Dashboard and Resources and there will not be any impact to the mobile experience. 
+> - If your organization has a home site, you can choose to use it as the default home experience.
 > - If you haven’t set up Viva Connections yet, the default experience includes cards on the dashboard but otherwise doesn’t impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new home experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams. 
 > - You must have member level permissions or higher to edit the new desktop experience.
@@ -91,7 +92,7 @@ Assigned tasks, Top news, Viva Learning, and Viva Topics. |
 
 ### Summary of default dashboard cards and how to set them up
 
-By default, cards will already be on the dashboard and require minimal set up. Edit and preview the dashboard until you are ready to share with others. To edit existing cards, select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
+By default, cards will already be on the dashboard and require minimal setup. Edit and preview the dashboard until you are ready to share with others. To edit existing cards, select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
 
 Apply **Audience targeting** so this card is filtered to specific roles, regions, or departments. Learn more about [audience targeting for Viva Connections](use-audience-targeting-in-viva-connections.md).
 
@@ -173,7 +174,7 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 
 ## Customize resources
 
-Resources gives access to the most popular portals and destinations at your organization. The Resources section displays at the bottom of the home experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled. 
+Resources give access to the most popular portals and destinations at your organization. The Resources section displays at the bottom of the home experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled. 
 
 >[!NOTE]
 > Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and cannot be edited. 
@@ -271,6 +272,7 @@ Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in th
 
 >[!NOTE]
 > It may take up to 15 minutes to see the updated default landing experience.
+> If you change the home site to a different home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can logout and log back in to clear the cache to view the new home site sooner.
 
 ## Learn more
 
