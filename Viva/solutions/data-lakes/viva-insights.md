@@ -21,7 +21,7 @@ audience: Admin
 # Viva Insights data lake solution
 
 >[!Important]
->This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [Advanced insights documentation](../insights/advanced/introduction-to-advanced-insights.md).
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](/viva/insights/advanced/introduction-to-advanced-insights.md).
 
 You can use this solution to extract, transform, and load (ETL) Microsoft Viva Insights data into a database and then report on it through Power BI as an end-user platform. The key features of this workload:
 
