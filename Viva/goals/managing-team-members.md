@@ -21,7 +21,7 @@ search.appverid:
 description: "Learn how to manage users with the members’and team members pages in Viva Goals."
 ---
 
-# Overview
+# Members page overview
 
 Viva Goals allows organization owner admins and team owner admins to view and manage members in their organization and/or teams. From these pages, you can view all the groups and individuals that have been added to an organization and/or team. You can also add or remove members (individuals and groups) and assign permissions from these pages. 
 
