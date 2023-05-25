@@ -24,7 +24,7 @@ audience: Admin
 # Viva Insights setup overview
 
 >[!Important]
->This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viiva Insights platform. Access current documentation for Viva Insights advanced insights here: [Advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [Advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
 
 The setup steps vary depending on the type of insights you are going to view in which Microsoft Viva Insights features.
 
