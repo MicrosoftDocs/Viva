@@ -18,6 +18,10 @@ audience: Admin
 
 # Meeting queries
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 A Microsoft Viva Insights meeting query helps you analyze individual meeting trends. You can use a meeting query to get a list of all meetings and their attributes that occurred during a specific period.
 
 ## How to choose between a meeting query and a person query

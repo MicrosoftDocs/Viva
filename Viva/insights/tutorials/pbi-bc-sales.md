@@ -18,6 +18,10 @@ audience: Admin
 
 # Sales business continuity
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 You can use the Sales business continuity dashboard uses a Template that’s populated by Viva Insights data to gain insights into how your Sales organization and your sellers are being impacted by the shift to remote work.
 
 This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.

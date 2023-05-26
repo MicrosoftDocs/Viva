@@ -18,6 +18,10 @@ audience: Admin
 
 # Zoom integration
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Viva Insights. This integration works with R for Windows and will be included in the existing [wpa R package](/viva/insights/tutorials/wpa-r-package?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), which is an open-source repository of more than 100 functions that provide pre-built analyses.
 
 This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment template](/viva/insights/tutorials/power-bi-collab-assess?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI.

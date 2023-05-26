@@ -20,6 +20,9 @@ audience: Admin
 
 # Transform meeting culture
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Transform meeting culture**.

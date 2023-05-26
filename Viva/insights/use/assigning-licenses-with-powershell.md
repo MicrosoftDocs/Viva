@@ -18,6 +18,9 @@ audience: Admin
 
 # Assign licenses with PowerShell
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Do the following steps to assign licenses with PowerShell in Azure Active Directory (AD) for users of Microsoft Viva Insights.
 
 ## Installation prerequisites

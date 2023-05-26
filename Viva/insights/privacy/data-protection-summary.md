@@ -21,6 +21,10 @@ audience: Admin
 
 # Data-protection considerations summary
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Microsoft Viva Insights analyzes Microsoft 365 collaboration data and organizational (HR) data that you provide. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it.
 
 >[!Note]

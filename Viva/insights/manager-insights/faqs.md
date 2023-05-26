@@ -19,6 +19,10 @@ audience: Admin
 
 # FAQ for manager insights
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 ##### Q1 What is Viva Insights for managers?
 
 Viva Insights helps managers like you identify patterns and habits that impact employee wellbeing and collaboration effectiveness by using data from everyday work that you and your team do in Microsoft 365.

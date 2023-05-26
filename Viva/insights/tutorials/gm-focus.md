@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for focus time
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Having scheduled, uninterrupted time to focus on deep work provides employees an opportunity to complete difficult tasks, produce high quality output, and generate new ideas.
 
 Focus hours are uninterrupted stretches of time in your day to get your most important work done. However, meetings and interruptions prevent most of us from having adequate time to focus. Time to focus increases productivity, improves decision making, and boosts creativity.

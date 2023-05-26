@@ -19,6 +19,9 @@ search.appverid:
 
 # Advanced insights metric descriptions
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 To customize [queries](/viva/insights/tutorials/query-basics?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), you can use the metrics that are defined on this page. They are organized by query type:
 
 * [Person metrics](#person-metrics)

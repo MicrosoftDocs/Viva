@@ -18,6 +18,10 @@ audience: Admin
 
 # Download a query report in UTF-8 format
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Your query reports might not open properly if their data contains certain (multibyte) characters. This topic describes this problem and its workaround.
 
 ## Cannot properly open a .csv file

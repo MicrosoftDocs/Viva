@@ -19,6 +19,9 @@ audience: Admin
 
 # Effective managers with Viva Insights
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Managers have a large impact on employee engagement, development, and performance, and are pivotal for driving organizational change. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about developing **Effective managers**.

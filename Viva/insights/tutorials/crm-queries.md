@@ -18,6 +18,10 @@ audience: Admin
 
 # Queries with CRM data
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 After you've successfully uploaded and processed your company’s Customer Relationship Management (CRM) data in Microsoft Viva Insights, you can use person, person-to-group, and group-to-group queries to do combined organizational and CRM data analysis, such as:
 
 * Analyze the time your sales or other teams spent with accounts and the network size for accounts as defined in your CRM. (Today you can get time spent and network size by using specific domains.)

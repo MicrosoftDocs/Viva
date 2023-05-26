@@ -21,6 +21,10 @@ audience: Admin
 # Accelerate change
 
 >[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
+
+>[!Important]
 >This insight is only available for organizations with at least 200 licensed users. For organizations with less than that, you'll see an alert about **Accelerate change** being "unavailable because the minimum number of employees is not met."
 
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and might lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
