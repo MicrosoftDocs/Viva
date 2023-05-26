@@ -34,7 +34,7 @@ In the admin center you can:
 #### In Microsoft Teams
 To go to the Viva Engage admin center in Teams, select the ellipses button from the top navigation menu of Viva Engage. From the drop-down menu, select **Admin**.
 
-[![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+[![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entry-point.png)](/viva/media/engage/admin/admin-entry-point.png#lightbox)
 
 [![Screenshot of the Viva Engage admin center experience for admins.](/viva/media/engage/admin/eac-entry-view.png)](/viva/media/engage/admin/eac-entry-view.png#lightbox)
 
@@ -42,7 +42,7 @@ To go to the Viva Engage admin center in Teams, select the ellipses button from 
 #### On the web
 To go to the [Viva Engage admin center on the web](https://www.yammer.com), log in, and from the gear icon on the top navigation menu, select **Admin center**.
 
-:::image type="content" source="../media/engage/admin/eac-on-web-inline.png" alt-text="Access Admin center in a browser" lightbox="../media/engage/admin/eac-on-web-expanded.png":::
+:::image type="content" source="../media/engage/admin/eac-on-web-inline.png" alt-text="Screenshot shows how to access the Admin center from a browser" lightbox="../media/engage/admin/eac-on-web-expanded.png":::
 
 
 ### See also

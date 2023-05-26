@@ -47,7 +47,7 @@ Use the Data export page in the admin portal to access all data exports.
 1. Select the **Governance and compliance** tab.
 2. Select **Data Export**. <br>
 
-:::image type="content" source="../media/engage/admin/eac-data-export.png" alt-text="Use the Governance and compliance tab to find your data export options.":::
+:::image type="content" source="../media/engage/admin/eac-data-export.png" alt-text="Screenshot shows the Governance and compliance tab where you can find your data export options.":::
 
 ## Export user and admin list
 
@@ -93,7 +93,7 @@ This data export doesn't include:
 1. On the Data export page, select **Export tenant data.**
 2. Specify a date range and other options.
 
-:::image type="content" source="../media/engage/admin/eac-tenant-options.png" alt-text="Export options let you choose a date range and other filters.":::
+:::image type="content" source="../media/engage/admin/eac-tenant-options.png" alt-text="Screenshot of export options including date range and other filters.":::
 
 - **Date range:**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date.
 - **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.

@@ -26,11 +26,11 @@ Only users in the following admin roles can access the Viva Engage admin center:
 
 In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Viva Engage admin center.
 
-[![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+[![Screenshot of the entry point into the Viva Engage admin center.](/viva/media/engage/admin/admin-entry-point.png)](/viva/media/engage/admin/admin-entry-point.png#lightbox)
 
 To access the [Viva Engage admin center on the web](http://www.yammer.com), from the gear icon in the top navigation menu, select **Admin center**.
 
-:::image type="content" source="../media/engage/admin/eac-on-web-inline.png" alt-text="Access Admin center in a browser" lightbox="../media/engage/admin/eac-on-web-expanded.png":::
+:::image type="content" source="../media/engage/admin/eac-on-web-inline.png" alt-text="Diagram shows how to access Admin center from a browser" lightbox="../media/engage/admin/eac-on-web-expanded.png":::
 <br>
 
 ## Manage corporate communicators  
