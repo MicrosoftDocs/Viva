@@ -83,12 +83,12 @@ Following is a list of limitations that apply to Azure AD-B2B guests in Viva Eng
 
    Settings that guests can't change include:
   - Add new members to the community and removing membership
-  - Promote and demote the owners
+  - Promote and demote community owners
   - Edit community info
   - Add related groups
   - Add connectors
   - Add pinned files or links (guests can view pinned files and links)
-  - Views community or group insights
+  - View community or group insights
 
 ## Licensing for guest access
 
