@@ -55,7 +55,7 @@ Corporate communicators can do the following things:
     - Publish draft campaigns to be **Active** and viewable to all users in the network.
     - Set Active campaigns to **Ended** when a campaign is finished.
     - Republish "Ended" campaigns as "Active" again for reoccurring campaigns.
-    - Delete campaigns that aren't relevant or were created by mistake.
+    - Delete campaigns that are not relevant or created by mistake.
     - Update certain assets on a campaign page such as:
         - Goal tracker
         - Cover photo
@@ -69,7 +69,7 @@ Corporate communicators can do the following things:
 
 ### Remove user as a corporate communicator
 
-To remove a user from this role, select the **delete** icon on the right side of the corporate communicator list. They'll no longer be listed as an active corporate communicator in your network.
+To remove a user from this role, select the **delete** icon on the right side of the corporate communicator list. The user won't be listed as an active corporate communicator in your network.
 
 [![Screenshot of the interface for removing a corporate communicator in Viva Engage.](/viva/media/engage/admin/remove-corp-comm.png)](/viva/media/engage/admin/remove-corp-comm.png#lightbox)
 
@@ -94,7 +94,7 @@ They're then routed to the Yammer admin center, where they can perform the follo
 - [Migrate a network to Native Mode](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide), if this isn't already done
 
 >[!NOTE]
-> Because Viva Engage is powered by Yammer technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Viva Engage admin center as part of our admin roadmap.
+> Because Viva Engage is power by Yammer technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Viva Engage admin center as part of our admin roadmap.
 
 ## See also
 
