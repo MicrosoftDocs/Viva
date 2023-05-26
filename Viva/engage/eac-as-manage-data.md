@@ -29,48 +29,13 @@ As an Engage admin, you need to export data to manage users and content. This ar
 >[!NOTE]
 >To migrate data between Viva Engage tenants [learn about migrating content](/yammer/configure-your-yammer-network/add-basic-domains-to-office-365).
 
-Choose from these data export methods to manage your data.
-
-:::row:::
-    :::column span="2":::
-        [**Export user and admin list**](#export-user-and-admin-list)
-    :::column-end:::
-    :::column:::
-        Identify the status of current admins and users. For each user, you get an email address, title, location, and department.
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column span="2":::
-        [**Export tenant data by date range**](#export-tenant-data-by-date-range)
-    :::column-end:::
-    :::column:::
-        View and audit tenant data for all users from your home network for a specific date range. Options also let you include attachment files and data from external networks.
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column span="2":::
-        [**Export data for one user**](#export-data-for-one-user)
-    :::column-end:::
-    :::column:::
-        Pull all data related to a single user. Use this method to identify data that needs to be deleted to comply with a GDPR data subject request.
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column span="2":::
-      [**Automate data exports**](#automate-your-data-exports)
- :::column-end:::
-    :::column:::
-        Automate recurring exports for compliance through the Data Export API.
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column span="2":::
-        [**Export Engage files with the API**](#export-large-file-volumes-with-the-api)
-    :::column-end:::
-    :::column:::
-        When exporting large volumes of files, use the API. You can specify a date range and include files from external networks. This method is best for archiving data.
-    :::column-end:::
-:::row-end:::
+| **Use this data export method** | **For this purpose** |
+|---|---|
+|  [**Export user and admin list**](#export-user-and-admin-list)  |  Identify the status of current admins and users. For each user, you get an email address, title, location, and department. |
+|  [**Export tenant data by date range**](#export-tenant-data-by-date-range) | View and audit tenant data for all users from your home network for a specific date range. Options also let you include attachment files and data from external networks. |
+|  [**Export data for one user**](#export-data-for-one-user) | Pull all data related to a single user. Use this method to identify data that needs to be deleted to comply with a GDPR data subject request.|
+|  [**Automate data exports**](#automate-your-data-exports) | Automate recurring exports for compliance through the Data Export API. |
+|  [**Export Engage files with the API**](#export-large-file-volumes-with-the-api) |  When exporting large volumes of files, use the API. You can specify a date range and include files from external networks. This method is best for archiving data. |
 
 <br>
 <br>
