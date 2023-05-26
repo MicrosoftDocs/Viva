@@ -40,7 +40,7 @@ To sign in to Viva Goals, visit https://goals.microsoft.com/.
 4. If your organization is public, you have the option of sharing a link to join your organization with users.
 
 > [!Note]
-> Ensure that all users are provisioned on your organization's Azure Active Directory account.
+> Ensure that all users are provisioned and the eligible ones are licensed to Viva Goals on your organization's Azure Active Directory account. You can learn more about assigning licenses in [this article](/azure/active-directory/fundamentals/license-users-groups).
 
 ## Add members via invitation from Viva Goals
 
