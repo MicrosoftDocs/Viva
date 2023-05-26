@@ -72,7 +72,7 @@ items:
           href: configure-ms-teams-integration.md
         - name: Use Viva Goals in Microsoft Teams
           href: use-ms-teams-integration.md
-        - name: Share OKR updates in chats
+        - name: Microsoft Teams Extension
           href: ms-teams-messaging-extension.md
 - name: Integrations
   items:
